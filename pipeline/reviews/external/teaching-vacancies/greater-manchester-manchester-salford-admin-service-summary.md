@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-23
-review_fingerprint: a5c35ff6e41a2f1ea4f558ec4317cdf9053caebff24ddaeee025ca2a0ac9e5f8
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 93607abdc5db95c9f7c598fb45597d854bcdc795d1ebc48299ea7a556c1a7716
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 4
-- POSS awaiting decision: 3
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
@@ -49,6 +49,21 @@ factual_fingerprint: 904ec2abd8e6eaa4072f105db10cd14cd0d775e55dce020e4e606bcd6db
 source: Teaching Vacancies
 source_job_id: exams-officer-chorlton-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-chorlton-high-school
+---
+
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M16 8GW | £16,364.00 - £17,442.00 Annually (Actual) NJC Grade 4, Points 7 - 11 | HR Administrator
+employer: Whalley Range 11-18 High School
+closing_date: 2026-11-02T08:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5b9e62b407a8a67e9fdf322a3941be62d48720d1b2039bfa250631f130c9493d
+source: Teaching Vacancies
+source_job_id: hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester
 ---
 
 ---
@@ -96,21 +111,6 @@ factual_fingerprint: b1f906e32fde5154ce1c680a149e3779c29bc536806fef8cc51a723e337
 source: Teaching Vacancies
 source_job_id: business-admin-apprentice-data-exams
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-admin-apprentice-data-exams
----
-
----
-action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M16 8GW | £16,364.00 - £17,442.00 Annually (Actual) NJC Grade 4, Points 7 - 11 | HR Administrator
-employer: Whalley Range 11-18 High School
-closing_date: 2026-11-02T08:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5b9e62b407a8a67e9fdf322a3941be62d48720d1b2039bfa250631f130c9493d
-source: Teaching Vacancies
-source_job_id: hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester
 ---
 
 ---

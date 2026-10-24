@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-10-23
-review_fingerprint: 43b7422afeb5875f952c3ece465d6370cd62c9d0783181e71460821905065578
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 1660dc73b3f471eed55ea8cfb46fcab02ff635d0e56131997e5ef847af5f49e7
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -53,14 +53,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-lydbury
 
 ---
 action: 
-SELECTED | West Midlands | Wythall, West Midlands, B47 5JW | £26,427.00 - £26,427.00 Annually (FTE) Actual pro rata salary £22,731 per annum | Receptionist and Administration Assistant
+SELECTED | West Midlands | Wythall, West Midlands, B47 5JW | £26,427.00 - £26,427.00 Annually (FTE) Actual pro rata salary up to £22,731 per annum | Receptionist and Administration Assistant
 employer: Woodrush High School
-closing_date: 2026-10-26T10:00:00+00:00
+closing_date: 2026-11-07T10:00:00+00:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 9b791338f41c72daf15d336f916c86f777d708a21f380d18ce691b9c3fbb663c
+factual_fingerprint: 0edf5a650fdccf141420d3d513bf0613f949a60269d37b659430edbb589d3099
 source: Teaching Vacancies
 source_job_id: receptionist-and-administration-assistant-woodrush-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administration-assistant-woodrush-high-school

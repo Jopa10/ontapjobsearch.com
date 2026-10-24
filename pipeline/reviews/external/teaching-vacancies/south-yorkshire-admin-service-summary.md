@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-23
-review_fingerprint: f7a7288489b6f279796d97f64b0c3696c366fa1672721b857e90b11c3d5533c6
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 8b04dbfee65cf55ce1fd6f720448b040bfcdccc263d67c496b5457068c6c87f7
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 9
+- Records: 27
+- Selected: 10
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 16
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S65 4AE | £22,970.00 - £23,335.00 Annually (Actual) Band D Point 5 to 6 | Administration Assistant
+employer: St Gerard's Catholic Primary School
+closing_date: 2026-11-04T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 43410bfbfd7d041e8924b0a02d851aeca89f58bdb48b8914e81f59a0f0ab5905
+source: Teaching Vacancies
+source_job_id: administration-assistant-st-gerard-s-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-gerard-s-catholic-primary-school
+---
+
+---
+action: 
 SELECTED | Yorkshire - South | Rotherham, S66 8AA | Band D, Point 5 to 6, £26,427 to £26,847 per annum | Estates Compliance and Administrative Assistant
 employer: Place Partnership A Multi Academy Trust
 closing_date: 2026-11-01T15:00:00+00:00
@@ -64,6 +79,21 @@ factual_fingerprint: 3989e470bad13d287ddf9882b532a2557d6f6a3300e75803dd9fbd8903a
 source: Teaching Vacancies
 source_job_id: estates-compliance-and-administrative-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-and-administrative-assistant
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S4 8GB | £25,989 FTE - actual salary £22,354 | Pastoral Administrator
+employer: Fir Vale Academy
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3662f484313426f927f7ee243d1c43557cbfa4702ba7ca136d95c25a5a7de02f
+source: Teaching Vacancies
+source_job_id: pastoral-administrator-5c2b0244-981c-458c-9f42-f41ca8d990f8
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-5c2b0244-981c-458c-9f42-f41ca8d990f8
 ---
 
 ---
@@ -94,21 +124,6 @@ factual_fingerprint: 0dee8d6ee0d8ebaf7f50fbb7d643e618a740c12e670a806ba33d5fee605
 source: Teaching Vacancies
 source_job_id: receptionist-admin-assistant-willow-tree-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-willow-tree-academy
----
-
----
-action: 
-SELECTED | Yorkshire - South | Mexborough, Yorkshire and the Humber, S64 8QG | £26,427.00 - £27,274.00 Annually (Actual) | Receptionist and Communication Assistant
-employer: Milton School
-closing_date: 2026-10-30T12:00:00+00:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e596a047b50fc7abce1b623b1d3de0a4feed6d2c45677367dff787b03cf8ef38
-source: Teaching Vacancies
-source_job_id: receptionist-and-communication-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-communication-assistant
 ---
 
 ---

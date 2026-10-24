@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-23
+review_date: 2026-10-24
 review_fingerprint: a5e7e723ae80a4bc15b5b30882fd48f296d6f945b0613766919aa4350e4cc241
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 83
+- Records: 84
 - Selected: 20
 - POSS awaiting decision: 19
 - Excluded: 0
-- Hard pass: 44
+- Hard pass: 45
 
 ## SELECTED
 
@@ -618,12 +618,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Assistant Librarian](https://teaching-vacancies.service.gov.uk/jobs/assistant-librarian-davenant-foundation-school) — Insufficient admin/service evidence.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-harris-lowe-academy-willesden) — Manager title salary ceiling £37,134 is not below £28,000.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-the-totteridge-academy) — Manager title salary ceiling £40,000 is not below £28,000.
-- [Business Analyst](https://teaching-vacancies.service.gov.uk/jobs/business-analyst-new-city-college) — Insufficient admin/service evidence.
-- [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-newham-community-learning-london-not-recorded) — Insufficient admin/service evidence.
+- [Careers & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-work-experience-co-ordinator-davenant-foundation-school) — Insufficient admin/service evidence.
+- [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-5bbd91b2-0afc-4796-b38f-b0811a522b87) — Insufficient admin/service evidence.
 - [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-3c160b52-7e72-4e61-ad20-18c3b7f99817) — Insufficient admin/service evidence.
 - [Communications and Collaboration Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-and-collaboration-lead) — Insufficient admin/service evidence.
 - [Contracts & Procurement Lead](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-lead-greenshaw-learning-trust) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-goresbrook-school) — Manager title salary ceiling £43,000 is not below £28,000.
+- [Deputy Exam Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-exam-officer) — Insufficient admin/service evidence.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Insufficient admin/service evidence.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal) — Out-of-scope occupation: principal.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-reach-schools) — Insufficient admin/service evidence.

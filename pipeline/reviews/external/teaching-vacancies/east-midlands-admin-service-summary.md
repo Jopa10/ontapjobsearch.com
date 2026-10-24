@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-23
-review_fingerprint: cfd6ad7bf0e2c3d405f5b944cd812f08b4e0f9d050d8ca630dc49bc9628b6adc
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 91791b6e1a4cec692da6ecc5d932e7d1b95146edc41866bd819031133033637a
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 6
-- POSS awaiting decision: 1
+- Records: 17
+- Selected: 7
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
 
@@ -64,6 +64,21 @@ factual_fingerprint: 4cc2b2ee9e22e9fe4cf6c19723c92403139fd01c8ff878ae928e9ad4693
 source: Teaching Vacancies
 source_job_id: administration-assistant-maternity-cover-the-de-ferrers-academy-burton-on-trent-staffordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-maternity-cover-the-de-ferrers-academy-burton-on-trent-staffordshire
+---
+
+---
+action: 
+SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 9SA | £27,274.00 - £28,153.00 Annually (FTE) Actual Salary: Grade 5 (SCP 7-9) £17,603.14 to £18,170.47 per annum | Administration Assistant for Work Experience and Careers
+employer: John Taylor Free School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 31bd6ea15d98f1de4ac9ebf1b0bcfd552e089b37d59a0a7a5821946df6b54658
+source: Teaching Vacancies
+source_job_id: administration-assistant-for-work-experience-and-careers
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-for-work-experience-and-careers
 ---
 
 ---
@@ -126,6 +141,21 @@ factual_fingerprint: 8496090449e3db74532680f9c367ebc1685b64bedcad4f728f829213474
 source: Teaching Vacancies
 source_job_id: business-administration-apprentice-level-3-embark-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-embark-multi-academy-trust
+---
+
+---
+action: 
+POSS | East Midlands | Burton-on-Trent, West Midlands, DE13 0LL | £29,071.00 - £31,015.00 Annually (FTE) Actual salary for hours advertised £26,527 - £28,300 - ALP Grade 4 | HR and Executive Leadership Support Officer
+employer: The de Ferrers Academy
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 90ce8f760d10a33d03d49b0062384ec51ada6071ffbc8c3e8995ba9a95d9fb9c
+source: Teaching Vacancies
+source_job_id: hr-and-executive-leadership-support-officer-the-de-ferrers-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-leadership-support-officer-the-de-ferrers-academy
 ---
 
 ## EXCLUDED BY REVIEW

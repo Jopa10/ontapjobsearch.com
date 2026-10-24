@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - North
 
-review_date: 2026-10-23
+review_date: 2026-10-24
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Cumbria - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -33,6 +33,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-james-rennie-school-carlisle-cumbria) — Insufficient admin/service evidence.
 - [Northern Hub Business Manager - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/northern-hub-business-manager-maternity-cover) — Manager title salary ceiling £56,975 is not below £28,000.
 
 ## Safety boundary

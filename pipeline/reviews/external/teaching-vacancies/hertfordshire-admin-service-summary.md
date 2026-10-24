@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-23
-review_fingerprint: dcaca3fe0f7a9317bd4a36c446aea543b79e55dd3b0665f21b789fc8eb74a925
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 212233277ac4f99709911b6622fcd30c4c6bd57d934d8203f595ddf50f38ed3f
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
@@ -64,6 +64,21 @@ factual_fingerprint: 5fa5979417a277c98d29a8f5bfd2a98b8000696e116f4007e107aebc225
 source: Teaching Vacancies
 source_job_id: office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Hertford, East of England, SG13 8AJ | H3-H4 | Receptionist/Administrator
+employer: Simon Balle All-Through School
+closing_date: 2026-11-05T09:00:00+00:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a39c992a31f0dbd4ef8ffb36bf9221eacd8910c7ad041aaf08a8d02bdd8f9316
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-simon-balle-all-through-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school
 ---
 
 ---

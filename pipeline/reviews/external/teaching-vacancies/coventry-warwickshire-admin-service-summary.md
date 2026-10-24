@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-23
+review_date: 2026-10-24
 review_fingerprint: 5751a3f624867758344d5e8a18cba9ff45a8864798e0ec1cfe1ee871e859cbbe
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -119,7 +119,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/echp-administrator
 
 ## HARD_PASS
 
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-etone-college) — Insufficient admin/service evidence.
+- [Examinations, Data & Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-data-access-arrangements-coordinator) — Insufficient admin/service evidence.
+- [Marketing Manager](https://teaching-vacancies.service.gov.uk/jobs/marketing-manager-stratford-upon-avon-school) — Manager title salary ceiling £38,510 is not below £28,000.
 - [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator-kenilworth-multi-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

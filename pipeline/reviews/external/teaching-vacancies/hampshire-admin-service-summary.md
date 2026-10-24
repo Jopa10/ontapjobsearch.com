@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-23
-review_fingerprint: 06f9e268487b2750f0136684490c452f80b27c2ca19a1739e6dfd6cd0b56e280
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: c182058877238bd5f3224e6942dadcb1c2e0338c8bd28685ce331a8c7ffa7e73
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 2
-- POSS awaiting decision: 2
+- Records: 14
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-66
 
 ---
 action: 
+SELECTED | Hampshire | Ringwood, South East, BH24 1SE | £27,937.00 - £30,843.00 Annually (FTE) Salary prorated for term time only working | Lead Receptionist
+employer: Ringwood School Academy
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 62add73f86f2693493edebbe7c4a6cf84883d010dd3bdd89589f79d16476a4e7
+source: Teaching Vacancies
+source_job_id: lead-receptionist-ringwood-school-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-receptionist-ringwood-school-academy
+---
+
+---
+action: 
 SELECTED | Hampshire | Portsmouth, South East, PO5 4LS | Band 3 Pt 2-5 £12,296-£12,853 - Actual (£24,482-£25,583 FTE) pending pay award | Part Time Receptionist/Administrator
 employer: Ark Ayrton Primary Academy
 closing_date: 2026-11-05T00:00:00+00:00
@@ -49,6 +64,21 @@ factual_fingerprint: b59065443bbaa5a1253fe6f53017ff2683dd92afe2f55775acdbd2fed9d
 source: Teaching Vacancies
 source_job_id: part-time-receptionist-administrator-ark-ayrton-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-administrator-ark-ayrton-primary-academy
+---
+
+---
+action: 
+SELECTED | Hampshire | Portsmouth, South East, PO1 1RX | £26,033-£29,170 | SEN Administrator
+employer: St Edmund's Catholic School
+closing_date: 2026-11-02T15:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6243a6aabf6db67ddbf8988459fe85eb0177f5165ca2ae6240276a4e8665b4c4
+source: Teaching Vacancies
+source_job_id: sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -66,21 +96,6 @@ factual_fingerprint: f1288050d008cfa0c1bac949fbfa80f3200bff82347a1e289da70e2d639
 source: Teaching Vacancies
 source_job_id: administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
----
-
----
-action: 
-POSS | Hampshire | Portsmouth, South East, PO1 1RX | £26,033-£29,170 | SEN Administrator
-employer: St Edmund's Catholic School
-closing_date: 2026-11-02T15:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6243a6aabf6db67ddbf8988459fe85eb0177f5165ca2ae6240276a4e8665b4c4
-source: Teaching Vacancies
-source_job_id: sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Central
 
-review_date: 2026-10-23
-review_fingerprint: bc8adb15666fb9a0abbca8cb995a3c2e29c2c75338fee0873b3b374e2e9a6f58
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: ac530d4f5959215287e6aceb46e83545745231564af7714dc78a6d9f74084447
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Lancashire - Central
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 2
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Lancashire - Central | Preston, North West, PR1 4PR | £28,142.00 - £32,061.00 Annually (FTE) | Data & Exams Officer
-employer: Christ The King Catholic High School
-closing_date: 2026-10-23T15:00:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2c6766e9dc8d9f9efa1011661666ec226f654c1b2bfc426d9a42068d34a6e214
-source: Teaching Vacancies
-source_job_id: data-exams-officer-c5864539-d46c-41a4-aff9-c3262986ebad
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-c5864539-d46c-41a4-aff9-c3262986ebad
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-23
-review_fingerprint: aff9c7821002252c6184969bf402a9208b3bd89820ab033acc3d409d4723d45c
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 90ff265333c9c0861a66565b8360484871d7a1a893527bb67b674ff48c15c6a4
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 8
+- Records: 21
+- Selected: 7
 - POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 9
@@ -109,21 +109,6 @@ factual_fingerprint: 6200db354466abed7e59a6cbec9bd5b2bbfc9a0447f1090310af6a8145f
 source: Teaching Vacancies
 source_job_id: office-administrator-and-receptionist-radcliffe-on-trent-junior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-and-receptionist-radcliffe-on-trent-junior-school
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG13 0GL | £26,022.00 - £26,436.00 Annually (FTE) Actual Salary £15650-£15899 | School Administrator
-employer: Redmile Church of England Primary School
-closing_date: 2026-10-23T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a26903677f9bcbfd877d59e8b9b4481eac082dc21b24248081a09411858b4730
-source: Teaching Vacancies
-source_job_id: school-administrator-redmile-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-redmile-church-of-england-primary-school
 ---
 
 ---

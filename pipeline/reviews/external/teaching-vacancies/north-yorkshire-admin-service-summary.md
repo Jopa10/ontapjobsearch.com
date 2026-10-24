@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-23
-review_fingerprint: 90c41240a3f2668a2211784518974e0eedb44250c0d6441a057760b623982629
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: cb5174576da698b86bededb30dea4cfc07190b165d1b2fb65c904dbdd3a90357
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
@@ -79,21 +79,6 @@ factual_fingerprint: 4b7dfb51ddb82394ea4dad299d75a4b3c3de042ca78c87280b672f465fb
 source: Teaching Vacancies
 source_job_id: school-administrator-saltergate-junior-school-harrogate-north-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-saltergate-junior-school-harrogate-north-yorkshire
----
-
----
-action: 
-SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LW | £23,732.00 - £25,710.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £27,709 to £30,023 (Grade F, Scale Points 8-13) | SEND Administrator
-employer: George Pindar School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c5333257d79c5c65e0b70cf015d971b29a1816ca73dd1d1402ad993f528d2172
-source: Teaching Vacancies
-source_job_id: send-administrator-george-pindar-school-scarborough
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-george-pindar-school-scarborough
 ---
 
 ---

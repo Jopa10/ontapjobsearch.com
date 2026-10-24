@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-23
-review_fingerprint: 0b8c32e651c995490c64b4df80334a75da22e551e22c772a1ec9e1852f0a3659
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: a333620cedde2ee9324cddb938a6164ab1a94b33f4f41285fe35763483e0a3a4
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 14
-- Selected: 6
-- POSS awaiting decision: 1
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
 
@@ -49,21 +49,6 @@ factual_fingerprint: 14ad43f2019a8e4778e71b32ecd76a7db9f570d451ec48fc1e4b05c3bce
 source: Teaching Vacancies
 source_job_id: payroll-and-hr-support-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-support-administrator
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
-employer: Lift Sir Herbert Leon
-closing_date: 2026-11-17T13:08:02+00:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 881a26fa6ab64cba8a0f0aa26f4b8c19a4ad0a8dd29f6f1b9b9c13aba98ab33b
-source: Teaching Vacancies
-source_job_id: receptionist-lift-sir-herbert-leon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
 ---
 
 ---
@@ -126,6 +111,21 @@ factual_fingerprint: ad47331eb0c0e2e2a63c5640f0e6d18c3428890ee85867c7925e936a474
 source: Teaching Vacancies
 source_job_id: business-support-glebe-farm-school-milton-keynes-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-glebe-farm-school-milton-keynes-buckinghamshire
+---
+
+---
+action: 
+POSS | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
+employer: Lift Sir Herbert Leon
+closing_date: 2026-11-17T13:08:02+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 881a26fa6ab64cba8a0f0aa26f4b8c19a4ad0a8dd29f6f1b9b9c13aba98ab33b
+source: Teaching Vacancies
+source_job_id: receptionist-lift-sir-herbert-leon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
 ---
 
 ## EXCLUDED BY REVIEW

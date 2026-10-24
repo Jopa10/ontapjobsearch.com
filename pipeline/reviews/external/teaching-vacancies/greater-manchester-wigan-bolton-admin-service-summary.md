@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-10-23
+review_date: 2026-10-24
 review_fingerprint: 01046b2ec3a56215e89ae354a557acf5751d6fcb46518bf5f7f84eb70eb5e019
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -77,7 +77,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 ## HARD_PASS
 
 - [Director of Finance/ Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-chief-financial-officer-the-quill-c-of-e-trust) — Insufficient admin/service evidence.
-- [Exams and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-mis-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-mary-s-rc-primary-school-horwich-bolton-lancashire) — Manager title salary ceiling £37,900 is not below £28,000.
 - [Senior Administration Officer (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-fixed-term) — Insufficient admin/service evidence.
 

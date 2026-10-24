@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-23
+review_date: 2026-10-24
 review_fingerprint: c3fc697744adb605cd45fc6a4bc1bb66f0670a3d0f9e9cc7830069d33a802973
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -74,7 +74,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 
 ## HARD_PASS
 
-- None.
+- [Cover Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-felpham-community-college) — Missing salary or pay scale.
 
 ## Safety boundary
 

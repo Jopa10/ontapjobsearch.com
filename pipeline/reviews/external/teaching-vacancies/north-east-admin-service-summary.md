@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-23
+review_date: 2026-10-24
 review_fingerprint: 267d5813d6c873501d3d54397ff22933edeb9ad954823081457785c31bcc6a4b
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 17
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -141,6 +141,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-support-assist
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
 - [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
 - [Part Time Creative Industries Technician (2026/CS014)](https://teaching-vacancies.service.gov.uk/jobs/part-time-creative-industries-technician-2026-cs014) — Out-of-scope occupation: technician.
+- [Pastoral Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-officer-febc3c65-3b62-4e66-a0de-9fa208cbd134) — Insufficient admin/service evidence.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-northern-lights-learning-trust) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grange-primary-school-hartlepool) — Manager title without salary evidence below £28,000.
 

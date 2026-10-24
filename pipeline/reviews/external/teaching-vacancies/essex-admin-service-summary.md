@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-23
-review_fingerprint: f4da0d1bcb144cb812ddef5663f635523aa88a2bd806fe4eea5f81c9c668d256
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: d5e1e5a7fb455e169bb7917a8e48302d697ea6898d2132aa295113b7fefe6718
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 10
+- Records: 26
+- Selected: 11
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 15
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Essex | Ongar, East of England, CM5 9NB | £13,812.00 - £14,022.00 Annually (Actual) Scale 3, Points 4 – 5 with Fringe | Administration assistant
+employer: High Ongar Primary School
+closing_date: 2026-11-10T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cac24a803441f08a26ee50b90cbf51a968f560559b78f41d33b5dbea2d356831
+source: Teaching Vacancies
+source_job_id: administration-assistant-high-ongar-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-high-ongar-primary-school
+---
+
+---
+action: 
 SELECTED | Essex | Westcliff-on-Sea, East of England, SS0 0LG | £9,630.00 - £9,785.00 Annually (Actual) Term Time plus 2 INSET days ( 1 year fixed term) | Administration Assistant - One Year Fixed Term
 employer: Prince Avenue Academy and Nursery
 closing_date: 2026-11-04T08:00:00+00:00
@@ -90,7 +105,7 @@ reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 600818599db85e97c4872a0fffe84735bc1c58f290b32058438884c9dc34e652
+factual_fingerprint: e52ee80bd6c29fe60988ced88a243a848d961419360cb38366e306bfd82ec623
 source: Teaching Vacancies
 source_job_id: administration-assistant-one-year-fixed-term
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-one-year-fixed-term
@@ -186,12 +201,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-a
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-rayleigh-schools-trust) — Insufficient admin/service evidence.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust-brentwood-not-recorded) — Insufficient admin/service evidence.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college-harlow-essex) — Insufficient admin/service evidence.
 - [Music Administrator](https://teaching-vacancies.service.gov.uk/jobs/music-administrator-colchester-royal-grammar-school) — Missing salary or pay scale.
 - [Operations Manager - Harwich](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-harwich) — Manager title salary ceiling £46,579 is not below £28,000.
 - [Pastoral Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-assistant-the-fitzwimarc-school) — Insufficient admin/service evidence.
 - [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-colne-community-school) — Insufficient admin/service evidence.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-350f15ec-6ca7-47eb-90e2-1629046cf441) — Insufficient admin/service evidence.
 - [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-harris-academy-wickford) — Manager title salary ceiling £37,335 is not below £28,000.
+- [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-884963be-594a-40f8-a5c8-a9fbe6867b15) — Manager title without salary evidence below £28,000.
 - [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Manager title salary ceiling £33,495 is not below £28,000.
 - [Trust Data and MIS Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-and-mis-analyst) — Insufficient admin/service evidence.
 

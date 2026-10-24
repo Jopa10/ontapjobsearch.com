@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-23
-review_fingerprint: d7def2894ecaafe14b91c36e981b7fb1ae514a9490cc09c2cf666aaacde0b68b
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 1023ce36ec8a06bc910a15aa052715fbaeb3da1d8fd1adcb0bb43c2c3dca1bfe
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
+- Records: 27
 - Selected: 8
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 15
 
 ## SELECTED
 
@@ -145,6 +145,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-funding-admin
 
 ---
 action: 
+POSS | Devon | Holsworthy, South West, EX22 6JD | £24,075.00 - £25,667.00 Annually (Actual) NJC Grade D. Range 8 to 12 | Data Manager
+employer: Holsworthy Community College
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 05550e993f03b89a94c80516b3050f2abc0f606976f01fef9e34f3e193f88527
+source: Teaching Vacancies
+source_job_id: data-manager-holsworthy-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-holsworthy-community-college
+---
+
+---
+action: 
 POSS | Devon | Exeter, South West, EX1 3RD | D | Exam & Data Assistant
 employer: St Luke's Church of England School
 closing_date: 2026-11-09T23:59:00+00:00
@@ -204,6 +219,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-all-saints-marsh-cofe-academy) — Insufficient admin/service evidence.
 - [Marketing and Communications Lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-lead-learning-academies-trust) — Insufficient admin/service evidence.
+- [Patroller](https://teaching-vacancies.service.gov.uk/jobs/patroller) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.
 - [Post-16 Transition Coordinator](https://teaching-vacancies.service.gov.uk/jobs/post-16-transition-coordinator-isca-academy) — Insufficient admin/service evidence.
 - [Reception Administrator](https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-a8a7af34-eea8-4688-b23d-e979d7269a87) — Missing salary or pay scale.

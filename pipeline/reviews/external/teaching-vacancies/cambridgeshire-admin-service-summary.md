@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-23
+review_date: 2026-10-24
 review_fingerprint: 9a2447db64bced49b302f8983293e6ec049e9bf944c892d4b4a415008503217a
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -361,7 +361,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 
 - [Cleaner](https://teaching-vacancies.service.gov.uk/jobs/cleaner-34934dbc-6989-4466-8253-34da9a9f27cb) — Out-of-scope occupation: cleaner.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-swavesey-village-college) — Manager title salary ceiling £35,412 is not below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-a25def2c-b719-44d7-bdc8-c5a540dcd54e) — Manager title salary ceiling £29,542 is not below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-91d02456-2d21-4a21-9e38-0ce49abf0a82) — Manager title salary ceiling £29,542 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-werrington-primary-school) — Manager title salary ceiling £35,412 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-5a3dff01-79b6-4729-902c-d66d0a984b7a) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-7ec77d3b-774d-4b4b-973d-4d3362c0e641) — Insufficient admin/service evidence.

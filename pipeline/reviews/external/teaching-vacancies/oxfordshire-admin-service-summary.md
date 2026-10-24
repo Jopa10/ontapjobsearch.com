@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-23
-review_fingerprint: 0d6cf608d9ebebe968e172f1493c472c3b2ce9803efc3884a2e66e4fb7fe39c2
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: e5ff82fe6b4d6e787ee502720a1256d714df2f2437af9e6b3cbe64462e9ce0ac
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 12
+- Selected: 7
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Oxfordshire | Abingdon, South East, OX14 2AW | Grade 6 Point 8, £27,710 pro rata | Administrator and Finance Assistant
+employer: Rush Common School
+closing_date: 2026-11-13T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0a52522451ee0d8db77f587df823bb34de409d083080ad0eb25cdf60e1e52b33
+source: Teaching Vacancies
+source_job_id: administrator-and-finance-assistant-rush-common-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-finance-assistant-rush-common-school
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Didcot, South East, OX11 6FF | GLF Specialist 1 £28,009 (actual £25,099) | Attendance Officer
+employer: Aureus School
+closing_date: 2026-11-06T09:30:59+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1cfc2107476a2642ba221338d74a6db9f04be5596ba04282931f779a4d01217b
+source: Teaching Vacancies
+source_job_id: attendance-officer-d54c1efe-4fd8-4cc4-a0a6-62106b181556
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-d54c1efe-4fd8-4cc4-a0a6-62106b181556
+---
 
 ---
 action: 
@@ -111,6 +141,21 @@ factual_fingerprint: 78272c52d8273498fc95586b26161e7bdf4197412b27e821c4103f41bd5
 source: Teaching Vacancies
 source_job_id: data-officer-wood-green-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-wood-green-school
+---
+
+---
+action: 
+POSS | Oxfordshire | Abingdon, South East, OX14 5NL | £27,709.00 - £30,023.00 Annually (FTE) Grade 6, SCP 8 - 13. Actual salary - £19,783.71 - £21,435.86 | Office Administrator
+employer: Thameside Primary School
+closing_date: 2026-11-04T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b996bda304d50dc766a5d8f172d3dcd375db54db982bc8776ba8fd6209908cf5
+source: Teaching Vacancies
+source_job_id: office-administrator-thameside-primary-school-abingdon-oxfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-thameside-primary-school-abingdon-oxfordshire
 ---
 
 ---

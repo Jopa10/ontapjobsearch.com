@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-23
-review_fingerprint: 3864ccd9b724775fa7dd29f175bdae9d42a5c8b78fc5c237a852491b6146c7db
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: c1cbe64d44d9354e4cea06d0e7abfd0992a4efa158419967d4a4182c217c660b
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
 
@@ -51,6 +51,21 @@ factual_fingerprint: aaab2b5cca3a62845155bbf4224101ed753ebd2fc0d563ff71183f1d7ec
 source: Teaching Vacancies
 source_job_id: data-officer-marsden-heights-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-marsden-heights-community-college
+---
+
+---
+action: 
+POSS | Lancashire - East | Blackburn, North West, BB1 4ED | £34,357.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year | Data Officer
+employer: The Hyndburn Academy
+closing_date: 2026-11-16T17:00:00+00:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f1b9808ae02df50c40f6d5f56bfc23e1e8d3a8d2f54070c484e483e8e4cdb618
+source: Teaching Vacancies
+source_job_id: data-officer-the-hyndburn-academy-blackburn-lancashire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hyndburn-academy-blackburn-lancashire
 ---
 
 ## EXCLUDED BY REVIEW

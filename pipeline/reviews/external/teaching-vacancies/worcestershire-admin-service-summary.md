@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-23
+review_date: 2026-10-24
 review_fingerprint: 7cd65316eb6fe98e091833e99c01ded73c7feb633c31aae057666feb86b073a8
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 9
 - Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
 
@@ -106,6 +106,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 - [Admin Officer (maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-maternity-cover) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pinvin-cofe-academy-pershore-worcestershire) — Insufficient admin/service evidence.
+- [Governance and Projects Professional](https://teaching-vacancies.service.gov.uk/jobs/governance-and-projects-professional) — Insufficient admin/service evidence.
+- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-king-charles-i-school) — Manager title salary ceiling £58,832 is not below £28,000.
 
 ## Safety boundary
 

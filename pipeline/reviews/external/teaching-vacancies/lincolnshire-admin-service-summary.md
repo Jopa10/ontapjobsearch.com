@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-23
-review_fingerprint: e2cba7826d96f41ddb096683d082283ac486e335ce3a1c39f7e74e2820d3cef3
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 8c72dd2aa6091755d18f5332df006c98a7c9d4db0201384d3855c7d10c7d3a10
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 8
+- Records: 20
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 10
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-th
 
 ---
 action: 
+SELECTED | Lincolnshire | Spalding, East Midlands, PE12 9LF | Salary: Grade 3 Point 6 £25,614 FTE Actual Salary: £21,968 | Pupil Receptionist/Administrator
+employer: University Academy Long Sutton
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 081379c8381ecf2938665d49eefee16b0e31771f2ea630a772ed24b834f5f63a
+source: Teaching Vacancies
+source_job_id: pupil-receptionist-administrator-d44ce344-7740-41cd-9180-1240273f0189
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-receptionist-administrator-d44ce344-7740-41cd-9180-1240273f0189
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 9AF | Grade 3 £23,490 - £24620 | Receptionist
 employer: Sir Robert Pattinson Academy
 closing_date: 2026-11-02T09:00:00+00:00
@@ -169,7 +184,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 - [Data Analyst](https://teaching-vacancies.service.gov.uk/jobs/data-analyst-franklin-sixth-form-college) — Insufficient admin/service evidence.
 - [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-de-aston-school-market-rasen-lincolnshire) — Missing salary or pay scale.
 - [Health, Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/health-safety-and-compliance-officer-voyage-education-partnership) — Insufficient admin/service evidence.
-- [HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-harbour-learning-trust) — Insufficient admin/service evidence.
+- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-harbour-learning-trust) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-de-aston-school) — Insufficient admin/service evidence.
 - [Operational Delivery Lead](https://teaching-vacancies.service.gov.uk/jobs/operational-delivery-lead) — Insufficient admin/service evidence.

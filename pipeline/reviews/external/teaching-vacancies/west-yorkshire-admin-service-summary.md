@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-23
-review_fingerprint: cdd4f7eb11f4bad13599be0e29ab4941aab2efc267bb8fca1b4cc0597b44fc2f
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 07a2a6cf613856c9d7879900d85a50fc97e42a812681917dcd8c04dac5eeb6da
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 56
-- Selected: 16
+- Records: 54
+- Selected: 15
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 34
+- Hard pass: 33
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - West | Bingley, Yorkshire and the Humber, BD16 1TZ | DAT Level 3, SCP 18 - 25 (Actual Salary £25,228 - £29,641) | Academy Administrator L3
-employer: Dixons Cottingley Academy
-closing_date: 2026-10-23T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 62301829bf51441f239ce55941b60ed64382b946b862de12b8aa4548d916f17c
-source: Teaching Vacancies
-source_job_id: academy-administrator-l3-dixons-cottingley-academy-bingley
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-cottingley-academy-bingley
----
 
 ---
 action: 
@@ -265,21 +250,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-administrato
 
 ---
 action: 
-POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0JY | £20,305.00 - £22,026.00 Annually (Actual) Band C1, SCP 12 - 17. FTE: £29,542-£32,046. | Administrator
-employer: Meadowfield Primary School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: a15c688a6ab491ae3ab6b0cac25cc09e702ee85461a78564b021ac460e86c6e3
-source: Teaching Vacancies
-source_job_id: administrator-meadowfield-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-meadowfield-primary-school
----
-
----
-action: 
 POSS | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
 employer: All Saints Catholic College
 closing_date: 2026-11-03T09:00:00+00:00
@@ -306,6 +276,21 @@ factual_fingerprint: b75ea3ca87766fb6e62cac87ca8616e2994d3fc8541660cea6fdc4add3a
 source: Teaching Vacancies
 source_job_id: hr-administrator-greenhead-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-greenhead-college
+---
+
+---
+action: 
+POSS | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | HR Officer
+employer: Great Heights Academy Trust
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: cb72494f6b56c6d181f0dbbe2b33e3f3b76d2b6e9214fc41b4313f7eb1a39120
+source: Teaching Vacancies
+source_job_id: hr-officer-great-heights-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-heights-academy-trust
 ---
 
 ---
@@ -368,7 +353,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-leeds-diocesan-learning-trust) — Insufficient admin/service evidence.
 - [Customer Experience Team Leader](https://teaching-vacancies.service.gov.uk/jobs/customer-experience-team-leader) — Insufficient admin/service evidence.
-- [Data and Exams Assistant (7698)](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-7698) — Insufficient admin/service evidence.
 - [Digital/Lens Counter Technician - Creative Arts](https://teaching-vacancies.service.gov.uk/jobs/digital-lens-counter-technician-creative-arts) — Out-of-scope occupation: technician.
 - [Employee Relations Specialist](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist) — Insufficient admin/service evidence.
 - [Enrichment & Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/enrichment-finance-officer) — Insufficient admin/service evidence.

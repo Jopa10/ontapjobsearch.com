@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-23
-review_fingerprint: a77308f0f88b378b95915c912bbe6cc35b22eba9ca27c60e62f3c26e03347d8c
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 44034bf078f667d0f09b16559195beef0ad55333819fb55012bf89c6d41459a0
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 13
+- Records: 24
+- Selected: 15
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -49,6 +49,21 @@ factual_fingerprint: 3263133a5339352ba98373b65ba78d46d594c2ae7b184b876e8ad886a12
 source: Teaching Vacancies
 source_job_id: administrative-assistant-receptionist-st-margaret-s-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-st-margaret-s-church-of-england-primary-school
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B92 7DJ | £25,615.00 - £26,017.00 Annually (FTE) Grade 2 Point 3 - 4 (Salary will be pro-rated based on weeks/hours worked) | Administrator/Receptionist
+employer: Tudor Grange Primary Academy Langley
+closing_date: 2026-11-11T12:00:00+00:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: eb0ef444085858420329d7357598898bdbc1608898d0d67a3242d506b151671c
+source: Teaching Vacancies
+source_job_id: administrator-receptionist-afc2cbbf-f4cb-42a6-8c94-97d0fc3a0b28
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-afc2cbbf-f4cb-42a6-8c94-97d0fc3a0b28
 ---
 
 ---
@@ -214,6 +229,21 @@ factual_fingerprint: f0ada65026945e7e1421022b5f817712656cf3b1b8b5a81e1474836b35d
 source: Teaching Vacancies
 source_job_id: school-administrator-395dae48-626d-47cd-88b7-92b46f8c8d1e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-395dae48-626d-47cd-88b7-92b46f8c8d1e
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 6LN | £26,427.00 - £26,847.00 Annually (FTE) | School Administrator
+employer: Holy Name Catholic Primary School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cee24b96349d920d57bb8b1c2732f070ee6ae6629f63fc12af82d3702a775fb7
+source: Teaching Vacancies
+source_job_id: school-administrator-holy-name-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-holy-name-catholic-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

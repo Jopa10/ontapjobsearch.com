@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-23
-review_fingerprint: 4bbde59281392aba16318e5984f18081d79c434eb89443d1fd533924fdae17bd
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 741e86db51dd604fbb78dd97a6cbb5b6d0c692805281705521ddeb728b8fcbd9
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 7
-- POSS awaiting decision: 3
+- Records: 22
+- Selected: 9
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 12
 
 ## SELECTED
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
+SELECTED | Berkshire | Maidenhead, South East, SL6 1BN | £26,583.00 - £27,854.00 Annually (Actual) Salary: £26,583 - £27,854 (Actual), including Fringe, SCP 8-11. Term Time Only (including 5 INSET days), plus 3 weeks. Full-time, 37 hours per week | School Receptionist
+employer: Forest Bridge School
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 06d2322c4cbc6344f4c3234770488518cf27a3a93bb1280485e0f7ec9a3385a7
+source: Teaching Vacancies
+source_job_id: school-receptionist-445c0d5c-e6b9-4aae-b312-fdd6826ebbbc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-445c0d5c-e6b9-4aae-b312-fdd6826ebbbc
+---
+
+---
+action: 
 SELECTED | Berkshire | Reading, South East, RG1 8EQ | £27,274.00 Annually (FTE) Grade 4 SCP 7 - £27,274.00 FTE - 37 hours per week - TTO plus 5 INSET days - Permanent | SEN/Pastoral Administrator with Office Responsibilities
 employer: River Academy
 closing_date: 2026-10-31T23:59:00+00:00
@@ -109,6 +124,21 @@ factual_fingerprint: 831a43149c4c9f59cf80852e0728a3a2d6b10186968f724e33ef3218386
 source: Teaching Vacancies
 source_job_id: sen-pastoral-administrator-with-office-responsibilities
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-pastoral-administrator-with-office-responsibilities
+---
+
+---
+action: 
+SELECTED | Berkshire | Wokingham, South East, RG41 5LP | £25,410.00 Annually (Actual) Grade 5, SCP 12-17 Term Time Only plus 5 INSET days. Plus SEN Allowance.£1,590 | Senior Administrator
+employer: Oak Tree School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: eee1fad1e8a568bcd94b1997512aa9f31afad85e2972403eb0fad30e3ce366a5
+source: Teaching Vacancies
+source_job_id: senior-administrator-oak-tree-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-oak-tree-school
 ---
 
 ---
@@ -143,36 +173,6 @@ source_job_id: exams-manager-part-time
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-manager-part-time
 ---
 
----
-action: 
-POSS | Berkshire | Wokingham, South East, RG41 5LP | £25,410.00 Annually (Actual) Grade 5, SCP 12-17 Term Time Only plus 5 INSET days. Plus SEN Allowance.£1,590 | Senior Administrator
-employer: Oak Tree School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eee1fad1e8a568bcd94b1997512aa9f31afad85e2972403eb0fad30e3ce366a5
-source: Teaching Vacancies
-source_job_id: senior-administrator-oak-tree-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-oak-tree-school
----
-
----
-action: 
-POSS | Berkshire | Reading, South East, RG5 3EU | £26,176.00 - £28,395.00 Annually (Actual) Term time only plus 10 additional days | Senior Finance Assistant
-employer: The Bulmershe School
-closing_date: 2026-10-23T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cc059ccd9ad0a53e421f1e9329f19c94832b68136e02cbf435f783508b222d8a
-source: Teaching Vacancies
-source_job_id: senior-finance-assistant-the-bulmershe-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assistant-the-bulmershe-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -181,9 +181,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-7471be4d-6ccd-4ad2-a01e-6d444552a95a) — Insufficient admin/service evidence.
 - [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Insufficient admin/service evidence.
+- [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer-bradfield-c-e-primary-school) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [HR Coordinator (part-time)](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-part-time) — Insufficient admin/service evidence.
 - [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-maiden-erlegh-school) — Out-of-scope occupation: technician.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-girls-school-slough) — Manager title salary ceiling £54,143 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-littledown-school) — Manager title salary ceiling £55,273 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shefford-c-e-primary-school) — Manager title salary ceiling £41,177 is not below £28,000.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.

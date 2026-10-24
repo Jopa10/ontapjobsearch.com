@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-10-23
-review_fingerprint: 8a16bafaee4e05394f2f475cdd3f1e7abb00e105ba5e2b5897591fdcc68a6860
-routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
+review_date: 2026-10-24
+review_fingerprint: 0eae28713c5a9060e82a4499310d983cbdc4ca36629c2350d315f91d466e249f
+routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
@@ -64,21 +64,6 @@ factual_fingerprint: 5c069599e8e810dfbb4fa0c51e8fdc766f3a74e03cbe22894828ca0e004
 source: Teaching Vacancies
 source_job_id: administration-assistant-oldfleet-primary-school-hull
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-oldfleet-primary-school-hull
----
-
----
-action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU6 9BP | £30,515.00 - £33,119.00 Annually (FTE) | Receptionist/Cover Coordinator
-employer: Sirius Academy North
-closing_date: 2026-10-23T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: be59dd72e01e93d9c3b23f44df6627e9e89b4bda34822a4f79ff5d5636d0a7a8
-source: Teaching Vacancies
-source_job_id: receptionist-cover-coordinator-sirius-academy-north
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-cover-coordinator-sirius-academy-north
 ---
 
 ## POSS — choose SELECT or EXCLUDE
