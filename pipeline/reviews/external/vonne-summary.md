@@ -56,7 +56,7 @@ source_job_id: 173457
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173457
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Flexible | £29,503 Per Annum | Employment Support Advisor
 employer: North Tyneside Carers' Centre
 closing_date: 06 November 2026
