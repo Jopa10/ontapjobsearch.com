@@ -511,6 +511,14 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
         raise DeliveryError("Private daily tests require the feature branch or the verified private post-publish workflow")
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", args.date or ""):
         raise DeliveryError("A report date in YYYY-MM-DD format is required")
+    matched_sample = getattr(args, "private_matching_sample", False)
+    if matched_sample:
+        from datetime import datetime, timezone
+        if (os.environ.get("GITHUB_REF") != "refs/heads/feat/cpc-job-alerts-brevo"
+                or os.environ.get("GITHUB_WORKFLOW") != "Private CPC daily matching test"
+                or args.dry_run
+                or args.date != datetime.now(timezone.utc).date().isoformat()):
+            raise DeliveryError("Matched samples require today's report and the private feature-branch workflow")
     report = args.reports_dir / f"newly-published-jobs-{args.date}.csv"
     if not report.is_file():
         raise DeliveryError("The requested daily new-jobs report is missing")
@@ -522,6 +530,9 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
             or contact.get("emailBlacklisted") is True
             or not attrs.get("ALERT_CONSENT_AT") or not attrs.get("ALERT_CONSENT_VERSION")):
         raise DeliveryError("The test address must have an active, consented signup in list 3")
+    print("Private saved preferences: " + json.dumps(
+        {key: str(attrs.get(key) or "") for key in ("ALERT_ROLE", "ALERT_LOCATION", "ALERT_SALARY")},
+        ensure_ascii=True))
     jobs = new_cpc_jobs(report, args.app_dir, args.date)
     matches = [job for job in jobs if matches_alert(attrs, job)]
     print(f"Private daily matching: {len(jobs)} new CPC jobs; {len(matches)} matches; maximum 20 in a digest.")
@@ -529,6 +540,34 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
         print(f"Match: {job.get('title', '')} | {job.get('location', '')} | {job.get('job_id', '')}")
     if args.dry_run:
         print("Dry run: no email sent and no contact state changed.")
+        return
+    if matched_sample:
+        if not matches:
+            raise DeliveryError("No new matching vacancies; no private matched sample sent")
+        # A separately labelled owner-requested sample, not another daily digest.
+        # Never clear/update ALERT_LAST_SENT_DATE or alter the daily-send guard.
+        import uuid
+        sample_jobs = [
+            {**job, "_alert_salary_label": _salary_decision(str(attrs.get("ALERT_SALARY") or ""), job)[1],
+             "ontap_url": "https://www.ontapjobsearch.com/jobs/" + urllib.parse.quote(str(job["job_id"]), safe="")}
+            for job in matches[:MAX_JOBS_PER_EMAIL]
+        ]
+        unsubscribe = PRIVATE_TEST_ORIGIN + "/job-alerts/unsubscribe?token=" + _unsubscribe_token(PRIVATE_TEST_EMAIL, secret)
+        body_html, body_text = _email_html(sample_jobs, unsubscribe)
+        notice = "PRIVATE MATCHING TEST: today's new jobs matched using your saved preferences. This sample does not change daily delivery state."
+        identity = json.dumps([args.date, PRIVATE_TEST_EMAIL,
+                               {key: attrs.get(key) for key in ("ALERT_ROLE", "ALERT_LOCATION", "ALERT_SALARY")},
+                               [job["job_id"] for job in sample_jobs]], sort_keys=True)
+        result = _brevo_request("POST", "/smtp/email", api_key, {
+            "headers": {"idempotencyKey": str(uuid.uuid5(uuid.NAMESPACE_URL, "ontap-private-matched-sample:" + identity))},
+            "sender": {"name": "Ontap Jobs", "email": sender_email},
+            "to": [{"email": PRIVATE_TEST_EMAIL}],
+            "subject": f"[Private matching test] {len(sample_jobs)} jobs matching your alert",
+            "htmlContent": "<p>" + notice + "</p>" + body_html,
+            "textContent": notice + "\n\n" + body_text,
+        })
+        print("Private matched sample accepted by Brevo; message ID: " + str(result.get("messageId") or "not supplied"))
+        print("No daily-send state changed.")
         return
     sent = send_digest(contact, jobs, report_date=args.date, api_key=api_key,
                        sender_email=sender_email, unsubscribe_secret=secret,
@@ -546,8 +585,11 @@ def main() -> int:
     parser.add_argument("--test-site-url", help="HTTPS Vercel Preview origin for test links")
     parser.add_argument("--verified-production-sha", help="Verified deployed inventory SHA, required by the native private workflow")
     parser.add_argument("--private-daily-test", action="store_true", help="Real daily matching for the fixed private test contact only")
+    parser.add_argument("--private-matching-sample", action="store_true", help="One labelled matched sample to the fixed private contact; daily state unchanged")
     parser.add_argument("--dry-run", action="store_true", help="Private daily test: match without sending or updating state")
     args = parser.parse_args()
+    if args.private_matching_sample and (not args.private_daily_test or args.dry_run):
+        parser.error("--private-matching-sample requires --private-daily-test without --dry-run")
     if args.private_daily_test and (args.test_recipient or args.test_site_url):
         parser.error("Private daily tests cannot be combined with sample mode")
     if args.dry_run and not args.private_daily_test:

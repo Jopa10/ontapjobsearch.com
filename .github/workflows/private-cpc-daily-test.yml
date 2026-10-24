@@ -88,3 +88,24 @@ jobs:
                           "--app-dir", "published-inputs/app",
                           "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
           PY
+
+
+      - name: Send one explicitly requested private matched sample
+        if: github.event.head_commit.message == 'Send one private matched-alert test'
+        env:
+          CPC_JOB_ALERTS_ENABLED: 'true'
+          BREVO_JOB_ALERTS_LIST_ID: '3'
+          BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
+        run: |
+          python - <<'PY'
+          import datetime
+          import subprocess
+          import sys
+          date = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+          subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py",
+                          "--private-daily-test", "--private-matching-sample", "--date", date,
+                          "--app-dir", "published-inputs/app",
+                          "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
+          PY

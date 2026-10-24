@@ -164,14 +164,14 @@ class PrivateDailyTests(unittest.TestCase):
             "ALERT_CONSENT_AT": "2026-10-22", "ALERT_CONSENT_VERSION": "v1"}}
         self.job = {"job_id": "new-job", "title": "Accounts Assistant", "location": "Leeds"}
 
-    def run_private(self, dry_run, contact=None, list_id=3, branch="refs/heads/feat/cpc-job-alerts-brevo", workflow="", verified_sha=None):
+    def run_private(self, dry_run, contact=None, list_id=3, branch="refs/heads/feat/cpc-job-alerts-brevo", workflow="", verified_sha=None, matched_sample=False):
         import argparse
         from unittest.mock import patch
         from scripts.send_cpc_job_alerts import private_daily_test
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "newly-published-jobs-2026-10-22.csv").write_text("job_id\\n")
-            args = argparse.Namespace(date="2026-10-22", reports_dir=root, app_dir=root, dry_run=dry_run, verified_production_sha=verified_sha)
+            args = argparse.Namespace(date="2026-10-22", reports_dir=root, app_dir=root, dry_run=dry_run, verified_production_sha=verified_sha, private_matching_sample=matched_sample)
             with patch.dict("os.environ", {"GITHUB_REF": branch, "GITHUB_WORKFLOW": workflow}), \
                  patch("scripts.send_cpc_job_alerts.new_cpc_jobs", return_value=[self.job]), \
                  patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {}, {}]) as request:
@@ -225,6 +225,43 @@ class PrivateDailyTests(unittest.TestCase):
         ]:
             with self.assertRaises(DeliveryError):
                 self.run_private(True, branch="refs/heads/main", **kwargs)
+
+
+    def test_matched_sample_sends_fixed_recipient_without_daily_state_update(self):
+        from datetime import datetime, timezone
+        from unittest.mock import patch
+        # The sample has its own date validation; freeze only the UTC clock.
+        with patch("datetime.datetime") as clock:
+            clock.now.return_value = datetime(2026, 10, 22, tzinfo=timezone.utc)
+            contact = {**self.contact, "attributes": {**self.contact["attributes"],
+                       "ALERT_LAST_SENT_DATE": "2026-10-22"}}
+            calls = self.run_private(False, contact, workflow="Private CPC daily matching test",
+                                     matched_sample=True)
+        self.assertEqual([call.args[0] for call in calls], ["GET", "POST"])
+        payload = calls[1].args[3]
+        self.assertEqual(payload["to"], [{"email": "jpbt801@gmail.com"}])
+        self.assertIn("[Private matching test]", payload["subject"])
+        self.assertIn("https://www.ontapjobsearch.com/jobs/new-job", payload["textContent"])
+        self.assertIn("ALERT_LAST_SENT_DATE", str(contact["attributes"]))
+        self.assertIn("idempotencyKey", payload["headers"])
+
+    def test_matched_sample_rejects_wrong_workflow_dry_run_or_old_report(self):
+        from scripts.send_cpc_job_alerts import DeliveryError
+        for kwargs in ({"workflow": "Other workflow"}, {"workflow": "Private CPC daily matching test"}):
+            with self.assertRaises(DeliveryError):
+                self.run_private(False, matched_sample=True, **kwargs)
+        with self.assertRaises(DeliveryError):
+            self.run_private(True, workflow="Private CPC daily matching test", matched_sample=True)
+
+    def test_matched_sample_rejects_no_matching_jobs_without_send(self):
+        from datetime import datetime, timezone
+        from unittest.mock import patch
+        from scripts.send_cpc_job_alerts import DeliveryError
+        with patch("datetime.datetime") as clock:
+            clock.now.return_value = datetime(2026, 10, 22, tzinfo=timezone.utc)
+            contact = {**self.contact, "attributes": {**self.contact["attributes"], "ALERT_LOCATION": "Bristol"}}
+            with self.assertRaises(DeliveryError):
+                self.run_private(False, contact, workflow="Private CPC daily matching test", matched_sample=True)
 
     def test_wrong_branch_or_list_fails_before_brevo(self):
         from scripts.send_cpc_job_alerts import DeliveryError

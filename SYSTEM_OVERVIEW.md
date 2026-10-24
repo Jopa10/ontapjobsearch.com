@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 24 October 2026 — **Private matching-email test prepared:** after the owner saved Customer Service/London preferences, a separately labelled, single-address sample can test today's new matches without resetting the daily duplicate-send protection. Normal pushes only preview matches. The automatic daily sender remains on its previously tested version; no public rollout.
+
 - 24 October 2026 — **Contract wording no longer hides equivalent alert roles:** the private matcher recognises Finance Assistant with a qualifier such as “12 Month Contract” as the same role. Role boundaries, location and salary rules remain intact; the daily sender has not been switched.
 
 - 24 October 2026 — **Tighter email matching prepared privately:** agreed equivalent job titles, exact town or explicitly chosen region, overlapping salary ranges and clearly labelled missing/non-comparable pay are implemented on the feature branch. Part-time comparisons use actual pay where supported, without assuming full-time hours. Unknown roles do not receive broad family alerts. Existing daily private delivery stays on its previously tested code until the new matcher is verified and deliberately adopted; no public rollout or job-selection change.
