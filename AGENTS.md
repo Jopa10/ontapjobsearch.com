@@ -25,6 +25,8 @@ All persistent Ontap system changes belong to one or more of these five buckets:
 
 ## Publication failure-isolation rule
 
+- Owner golden rule: failures, unresolved reviews or malformed data in Teaching Vacancies, NHS, NEJobs, VONNE or other non-paying sources must never block, delay or reduce clean JobG8 publication. Isolate the affected source; retain its approved state where safe or withhold it. Test this boundary whenever modifying review, composition or publication orchestration.
+
 - A small number of bad, ambiguous, malformed or unresolved jobs must not derail publication of otherwise clean inventory.
 - Up to 15 problem jobs in one source should fail closed at job level: withhold and flag those jobs while allowing the clean jobs from that source to continue.
 - More than 15 problem jobs, or evidence of a source-level integrity problem, should isolate that source and retain its last approved state while other clean sources continue.

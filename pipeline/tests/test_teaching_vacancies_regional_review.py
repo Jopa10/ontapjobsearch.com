@@ -137,7 +137,7 @@ def test_reviewable_missing_salary_hard_passes_only_that_vacancy() -> None:
     assert review.decision_for(by_id["missing-pay"]) == "HARD_PASS"
     assert (
         by_id["missing-pay"].vacancy.classification_reason
-        == "Missing salary or pay scale"
+        == "No usable numeric salary"
     )
     assert review.decision_for(by_id["normal-pay"]) == "SELECTED"
 
@@ -238,7 +238,7 @@ def test_blank_legacy_poss_remains_blank(tmp_path: Path) -> None:
         [
             routed_row(
                 "borderline",
-                title="Office Manager",
+                title="Operations Officer",
             )
         ]
     )
@@ -247,8 +247,8 @@ def test_blank_legacy_poss_remains_blank(tmp_path: Path) -> None:
         legacy_summary_block(
             source_job_id="borderline",
             action="",
-            title="Office Manager",
-            reason="Borderline school administration title: office manager",
+            title="Operations Officer",
+            reason="Borderline school administration title: operations officer",
         ).replace("SELECTED |", "POSS |"),
         encoding="utf-8",
     )
@@ -430,15 +430,15 @@ def test_tv_refined_title_and_manager_salary_rules() -> None:
     by_id = {row.vacancy.source_job_id: row for row in records}
 
     assert review.decision_for(by_id["admin-assistant"]) == "SELECTED"
-    assert review.decision_for(by_id["senior-admin-assistant"]) == "POSS"
+    assert review.decision_for(by_id["senior-admin-assistant"]) == "HARD_PASS"
     assert review.decision_for(by_id["clerical-officer"]) == "SELECTED"
     assert review.decision_for(by_id["business-admin-ops"]) == "SELECTED"
-    assert review.decision_for(by_id["low-manager"]) == "POSS"
+    assert review.decision_for(by_id["low-manager"]) == "HARD_PASS"
     assert review.decision_for(by_id["high-manager"]) == "HARD_PASS"
     assert review.decision_for(by_id["crossing-manager"]) == "HARD_PASS"
     assert review.decision_for(by_id["grade-only-manager"]) == "HARD_PASS"
     assert (
         by_id["high-manager"].vacancy.classification_reason
-        == "Manager title salary ceiling £39,153 is not below £28,000"
+        == "Excluded senior/management title"
     )
 

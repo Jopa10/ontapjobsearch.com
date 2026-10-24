@@ -91,7 +91,7 @@ def load_jobg8(today: date) -> SourceResult:
                         row,
                         source_job_id=job_id,
                         category=category,
-                        reason="JobG8 selector marked this vacancy POSS",
+                        reason=clean(row.get("reason") or row.get("title_classification_reason")) or "JobG8 selector marked this vacancy POSS",
                     )
                 )
     except FileNotFoundError as exc:
@@ -329,4 +329,14 @@ SOURCE_LOADERS: tuple[Callable[[date], SourceResult], ...] = (
 
 
 def load_all_sources(today: date) -> list[SourceResult]:
-    return [loader(today) for loader in SOURCE_LOADERS]
+    results = []
+    for loader in SOURCE_LOADERS:
+        try:
+            results.append(loader(today))
+        except Exception as error:
+            # A broken external review must never prevent a clean JobG8 plan.
+            if loader is load_jobg8:
+                raise
+            key = loader.__name__.removeprefix("load_")
+            results.append(SourceResult(key, key, "ERROR", "", note=f"Source isolated: {type(error).__name__}: {error}"))
+    return results

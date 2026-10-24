@@ -109,6 +109,7 @@ def test_geography_and_classification():
         employer="Example Academy",
         location="Leeds, West Yorkshire, LS1 1AA",
         description_excerpt="Reception and administrative support.",
+        salary_text="£25,000",
     )
     vacancy.geography_status, vacancy.geography_reason = geography(vacancy)
     assert vacancy.geography_status == "IN_SCOPE"
@@ -119,6 +120,7 @@ def test_teacher_is_hard_pass():
     vacancy = Vacancy(
         title="Teacher of English",
         location="Bradford, West Yorkshire",
+        salary_text="£25,000",
     )
     vacancy.geography_status, vacancy.geography_reason = geography(vacancy)
     assert classify(vacancy)[0] == "HARD_PASS"
@@ -132,6 +134,7 @@ def test_confirmed_jobg8_duplicate_is_hard_pass():
         location="Wakefield, West Yorkshire, WF1 1AA",
         closing_date="2026-08-15",
         source_url="https://example.test/jobs/1",
+        salary_text="£25,000",
     )
     jobg8 = [
         {
@@ -160,7 +163,7 @@ def test_review_csv_and_markdown_match_existing_external_source_format(
             ),
             Vacancy(
                 source_job_id="poss-1",
-                title="Office Manager",
+                title="Operations Officer",
                 employer="B Academy",
                 location="Bradford, West Yorkshire, BD1 1AA",
                 salary_text="£27,000",
@@ -174,6 +177,7 @@ def test_review_csv_and_markdown_match_existing_external_source_format(
                 location="Leeds, West Yorkshire, LS2 2AA",
                 closing_date="2026-08-22",
                 source_url="https://example.test/hard-1",
+                salary_text="£25,000",
             ),
         ],
         [],
@@ -226,10 +230,11 @@ def test_same_day_action_edits_are_loaded_and_applied(tmp_path: Path):
                 employer="A Academy",
                 location="Leeds, West Yorkshire, LS1 1AA",
                 source_url="https://example.test/hc-1",
+                salary_text="£25,000",
             ),
             Vacancy(
                 source_job_id="poss-1",
-                title="Office Manager",
+                title="Operations Officer",
                 employer="B Academy",
                 location="Bradford, West Yorkshire, BD1 1AA",
                 salary_text="£27,000",

@@ -321,22 +321,33 @@ def classify(vacancy: Vacancy) -> tuple[str, str]:
     if hard_hits and not clear_hits and not clear_prefix_hits:
         return "HARD_PASS", "Out-of-scope occupation: " + ", ".join(hard_hits)
 
-    if re.search(r"\bmanager\b", title):
-        ceiling = annual_salary_ceiling(vacancy.salary_text)
-        if ceiling is not None and ceiling < MANAGER_POSS_MAX_SALARY:
-            return (
-                "POSS",
-                "Manager title below £28,000 salary ceiling requires review",
-            )
-        if ceiling is None:
-            return (
-                "HARD_PASS",
-                "Manager title without salary evidence below £28,000",
-            )
-        return (
-            "HARD_PASS",
-            f"Manager title salary ceiling £{ceiling:,.0f} is not below £28,000",
-        )
+    part_time_finance = bool(
+        re.search(r"\bpart[- ]?time\b", title + " " + vacancy.employment_type + " " + vacancy.description_excerpt, re.I)
+        and re.search(r"\b(?:finance|accounts?|accountant|bookkeeper|payroll)\b", title)
+    )
+    if part_time_finance:
+        if re.search(r"\b(?:chief|director|head|tax|audit|investment|adviser|advisor)\b", title):
+            return "HARD_PASS", "Excluded executive/specialist finance title"
+        # Keep the existing agreed exception fail-closed until actual hours/pay
+        # and qualification evidence have been resolved; never reject for seniority alone.
+        return "POSS", "Part-time finance requires actual earnings/hours and qualification checks"
+
+    if re.search(r"\b(?:senior|manager|lead|leader|chief|director|head)\b", title):
+        return "HARD_PASS", "Excluded senior/management title"
+
+    ceiling = annual_salary_ceiling(vacancy.salary_text)
+    if ceiling is None:
+        return "HARD_PASS", "No usable numeric salary"
+    if ceiling > 50_000:
+        return "HARD_PASS", "Salary over £50k"
+    if re.search(r"\b(?:monthly|per month)\b", vacancy.salary_text, re.I):
+        return "POSS", "Salary period needs verification"
+    if re.search(r"\b(?:finance assistant|finance officer|receptionist)\b", title):
+        if re.search(r"\b(?:acca|aca|cima)\b.{0,80}\b(?:required|essential|must)\b|\b(?:required|essential|must)\b.{0,80}\b(?:acca|aca|cima)\b", vacancy.description_excerpt, re.I):
+            return "HARD_PASS", "Professional accounting qualification required"
+        if ceiling > 40_000:
+            return "POSS", "Office/finance salary over £40k"
+        return "HC", "Owner-approved reception/finance role within salary limit"
 
     if clear_hits or clear_prefix_hits:
         hits = clear_hits + clear_prefix_hits
