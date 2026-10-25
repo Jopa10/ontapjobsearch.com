@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 13
 - automatic review: 30
 - automatic exclude: 0
-- effective include: 15
+- effective include: 13
 - effective review: 30
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (13)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Swindon
 source: JobG8
 job_id: jobg8-23643_225733645
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Data Cleansing Administrator
-company: Alexander Mann Solutions - Contingency - Agency - Contract
-location: Swindon
-source: JobG8
-job_id: jobg8-23643_225754804
 reason: Exact approved Swindon workplace.
 ---
 
@@ -189,18 +177,6 @@ company: Liden Academy
 location: Swindon
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-nursery-administrator-liden-academy
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Swindon
-source: JobG8
-job_id: jobg8-23643_225653482
 reason: Exact approved Swindon workplace.
 ---
 
@@ -342,6 +318,18 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
+title: Document Controller
+company: Abatec Recruitment - Agency - Temporary
+location: Wiltshire
+source: JobG8
+job_id: jobg8-23643_225761078
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Financial Services Administrator
 company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
 location: Wiltshire
@@ -467,18 +455,6 @@ company: Thrive Group - Agency - Permanent
 location: Melksham
 source: JobG8
 job_id: jobg8-23643_225704045
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Salisbury
-source: JobG8
-job_id: jobg8-23643_225709819
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

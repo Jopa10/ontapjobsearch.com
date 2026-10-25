@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 12
-- automatic exclude: 38
-- effective include: 16
-- effective review: 12
-- effective exclude: 38
+- automatic include: 15
+- automatic review: 13
+- automatic exclude: 32
+- effective include: 15
+- effective review: 13
+- effective exclude: 32
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -112,18 +112,6 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR & Operations Coordinator
 company: Carrington West - Agency - Permanent
 location: Doncaster
@@ -173,18 +161,6 @@ action:
 decision: include
 automatic_decision: include
 title: Payroll Administrator
-company: Marks Sattin - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-2092531
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Administrator
 company: SARIA - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -216,7 +192,19 @@ job_id: jobg8-23643_225706715
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (12)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Secretary / Assistant EA
+company: Edwards & Pearce - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225747598
+reason: Approved Doncaster catchment.
+---
+
+## REVIEW (13)
 
 ---
 action: 
@@ -330,6 +318,18 @@ reason: No approved Doncaster catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: Marks Sattin - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2092531
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Officer
 company: Portfolio Payroll Limited - Agency - Contract
 location: Yorkshire
@@ -362,7 +362,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (38)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -417,18 +417,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Rullion - Eon - Agency - Temporary
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225653889
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
 company: TSR Recruitment Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
@@ -469,18 +457,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: BMW/MINI Service Advisor
-company: Sytner - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225692016
 reason: Separate employment market.
 ---
 
@@ -548,18 +524,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: Blundells - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2105206
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Executive Assistant
 company: The Talent Division - Agency - Permanent
 location: Sheffield
@@ -584,30 +548,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: IP Administrator (Experienced)
-company: Withers & Rogers - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-108207449
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Land Rover Service Advisor
-company: Sytner - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225651604
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Marketing Co-ordinator
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
@@ -625,18 +565,6 @@ company: Michael Page - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225668884
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Matter Administrator
-company: CRA Consulting - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2134593
 reason: Separate employment market.
 ---
 

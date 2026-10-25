@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
+- automatic include: 27
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 32
+- effective include: 27
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (32)
+## INCLUDE (27)
 
 ---
 action: 
@@ -124,18 +124,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Client Administrator
-company: Search Consultancy Ltd - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225735766
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Clinical Negligence Paralegal
 company: Capio Recruitment Legal - Agency - Permanent
 location: Liverpool
@@ -196,11 +184,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Officer
-company: Alder Hey Children's Charity - Agency - Permanent
+title: HR Administrator
+company: Hays Business Support - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2174208
+job_id: jobg8-23643_225747159
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -208,11 +196,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: Hays Business Support - Agency - Permanent
+title: HR Coordinator
+company: Michael Page - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-23643_225747159
+job_id: jobg8-23643_225739687
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -232,35 +220,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Aspion - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225653652
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Operations Administrator
 company: Stafforce Ports - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225691969
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time Customer Service Advisor
-company: Adecco - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225753553
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -285,18 +249,6 @@ company: Rutherford Medical Centre
 location: Liverpool, L18 0HJ
 source: NHS Jobs
 job_id: nhs-5682461
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: The Blundellsands Surgery
-location: Liverpool, L23 6TZ
-source: NHS Jobs
-job_id: nhs-5667822
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -369,18 +321,6 @@ company: Zachary Daniels Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225704895
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Supply Chain Administrator
-company: S&B Herba Foods Ltd - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225709359
 reason: Approved conservative Liverpool launch catchment.
 ---
 

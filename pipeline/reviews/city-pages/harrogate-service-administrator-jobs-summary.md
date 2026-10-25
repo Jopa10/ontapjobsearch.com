@@ -4,7 +4,7 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 17
-- automatic exclude: 35
-- effective include: 11
-- effective review: 17
-- effective exclude: 35
+- automatic include: 10
+- automatic review: 18
+- automatic exclude: 33
+- effective include: 10
+- effective review: 18
+- effective exclude: 33
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -125,18 +125,6 @@ action:
 decision: include
 automatic_decision: include
 title: Technical & Quality Support Administrator
-company: Unity Resourcing - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2081400
-reason: Exact approved Harrogate workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Technical & Quality Support Administrator
 company: Unity Resourcing Ltd - Agency - Permanent
 location: Harrogate
 source: JobG8
@@ -156,7 +144,19 @@ job_id: jobg8-2174235
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Magpie Recruitment - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2180626
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -362,7 +362,7 @@ job_id: jobg8-23643_225666115
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -536,18 +536,6 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Financial Services Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2111325
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR Administrator
 company: Sewell Wallis Ltd - Agency - Permanent
 location: York
@@ -673,18 +661,6 @@ company: Haxby Group
 location: York, YO32 2LL, York, YO24 3BU, Huntington, YO32 9RU, York, YO32 4AG, York, YO26 6EQ
 source: NHS Jobs
 job_id: nhs-5655371
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Project Administrator
-company: Equals One Ltd - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-108215746
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

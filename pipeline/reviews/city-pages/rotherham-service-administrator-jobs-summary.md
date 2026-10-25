@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 62
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 4
-- effective review: 62
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (62)
+## REVIEW (56)
 
 ---
 action: 
@@ -175,18 +175,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Rullion - Eon - Agency - Temporary
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225653889
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: TSR Recruitment Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
@@ -239,18 +227,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: BMW/MINI Service Advisor
-company: Sytner - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225692016
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -378,30 +354,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Blundells - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2105206
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Digital Administration Assistant
 company: Back TO Work - Agency - Permanent
 location: Brinsworth
@@ -498,35 +450,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: IP Administrator (Experienced)
-company: Withers & Rogers - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-108207449
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior AEO Marketing Executive
 company: Back TO Work - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225754398
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Land Rover Service Advisor
-company: Sytner - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225651604
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -551,18 +479,6 @@ company: Michael Page - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225668884
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Matter Administrator
-company: CRA Consulting - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2134593
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -644,7 +560,7 @@ decision: review
 automatic_decision: review
 title: Payroll Administrator
 company: Marks Sattin - Agency - Permanent
-location: Doncaster
+location: Yorkshire
 source: JobG8
 job_id: jobg8-2092531
 reason: No exact Rotherham workplace matched; local geographic review is required.
@@ -755,6 +671,18 @@ company: Belmont Recruitment - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225727950
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Secretary / Assistant EA
+company: Edwards & Pearce - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225747598
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

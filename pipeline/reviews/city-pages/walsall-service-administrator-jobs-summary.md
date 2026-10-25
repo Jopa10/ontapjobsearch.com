@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 43
+- automatic include: 4
+- automatic review: 38
 - automatic exclude: 0
-- effective include: 6
-- effective review: 43
+- effective include: 4
+- effective review: 38
 - effective exclude: 0
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: Alma Personnel - Agency - Permanent
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225710433
-reason: Exact approved Walsall workplace.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -64,18 +52,6 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Fleet Administrator
-company: BCS Group - Agency - Permanent
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225742721
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist/Administrator
 company: Bloxwich Medical Practice
 location: Walsall, WS3 3JP
@@ -96,7 +72,19 @@ job_id: jobg8-23643_224517979
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (38)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Alma Personnel - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225710433
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -151,18 +139,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: MET Recruitment UK LTD - Agency - Temporary
-location: Oldbury
-source: JobG8
-job_id: jobg8-23643_225649821
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Pertemps Black Country Perms - Agency - Permanent
 location: Wednesbury
 source: JobG8
@@ -203,6 +179,18 @@ company: Future Select Recruitment - Agency - Permanent
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225751147
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Company Secretary
+company: Reed - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-2178926
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -283,18 +271,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Everywhen, part of the Ardonagh Group - Agency - Permanent
-location: Brierley Hill
-source: JobG8
-job_id: jobg8-2116423
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
 company: FT Recruitment - Agency - Permanent
 location: Smethwick
 source: JobG8
@@ -354,18 +330,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Doocey Group - Agency - Permanent
-location: Tipton
-source: JobG8
-job_id: jobg8-23643_225724176
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Assistant
 company: Michael Page - Agency - Permanent
 location: West Bromwich
@@ -383,30 +347,6 @@ company: Red Rock Consultants Ltd - Agency - Permanent
 location: Halesowen
 source: JobG8
 job_id: jobg8-23643_225659772
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Russell House Surgery
-location: Wolverhampton, WV8 1PE
-source: NHS Jobs
-job_id: nhs-5682858
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist/ Administrator
-company: Showell Park Health Centre
-location: Wolverhampton, WV10 9ST
-source: NHS Jobs
-job_id: nhs-5667281
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -535,35 +475,11 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
-company: Doocey Group - Agency - Permanent
-location: Tipton
-source: JobG8
-job_id: jobg8-23643_225621483
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
 company: Pertemps Black Country Perms - Agency - Permanent
 location: Halesowen
 source: JobG8
 job_id: jobg8-23643_225698996
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator - FTC
-company: Hayley Dexis - Agency - Contract
-location: Halesowen
-source: JobG8
-job_id: jobg8-23643_225714622
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 43
+- automatic include: 17
+- automatic review: 41
 - automatic exclude: 0
-- effective include: 18
-- effective review: 43
+- effective include: 17
+- effective review: 41
 - effective exclude: 0
 
-## INCLUDE (18)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107919719
-reason: Exact approved Exeter workplace.
----
+## INCLUDE (17)
 
 ---
 action: 
@@ -240,7 +228,19 @@ job_id: jobg8-23643_225699564
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (41)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accountant / Accounts Bookkeeper
+company: WH Finance Ltd - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225761678
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -311,18 +311,6 @@ company: RG Setsquare - Agency - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225682122
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Part time
-company: Hays Business Support - Agency - Contract
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225663628
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -510,18 +498,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Pontoon - Agency - Contract
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225650065
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Financial Services Administrator
 company: Hays Business Support - Agency - Permanent
 location: Torquay
@@ -671,18 +647,6 @@ company: Adecco - Agency - Temporary
 location: Plymouth
 source: JobG8
 job_id: jobg8-23643_225736541
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator - Housebuilding
-company: untypical - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225734603
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

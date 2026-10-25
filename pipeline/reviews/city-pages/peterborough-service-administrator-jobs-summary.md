@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 17
 - automatic review: 10
 - automatic exclude: 35
-- effective include: 18
+- effective include: 17
 - effective review: 10
 - effective exclude: 35
 
-## INCLUDE (18)
+## INCLUDE (17)
 
 ---
 action: 
@@ -189,18 +189,6 @@ company: Blusource Professional Services Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225660845
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Purchase Ledger Clerk
-company: Reed - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2078570
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -560,18 +548,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: Countrywide HQ - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2104786
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor - Mortgages
 company: Saffron Building Society - Agency - Permanent
 location: Cambridge
@@ -649,6 +625,18 @@ company: The Language Business - Language Recruitment Specialists - Agency - Per
 location: Cambridge
 source: JobG8
 job_id: jobg8-2087322
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Logistics Coordinator
+company: Proactive Global - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225762099
 reason: Separate employment market.
 ---
 

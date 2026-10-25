@@ -4,7 +4,7 @@
 - Live route: `/dartford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 100
-- automatic exclude: 35
-- effective include: 16
-- effective review: 100
-- effective exclude: 36
+- automatic include: 16
+- automatic review: 96
+- automatic exclude: 34
+- effective include: 15
+- effective review: 96
+- effective exclude: 35
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Michael Page - Agency - Permanent
 location: Dartford
 source: JobG8
 job_id: jobg8-23643_225723703
-reason: Exact approved Dartford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Axis CLC - Agency - Permanent
-location: Dartford
-source: JobG8
-job_id: jobg8-23643_225649957
 reason: Exact approved Dartford workplace.
 ---
 
@@ -216,7 +204,7 @@ job_id: jobg8-23643_225747333
 reason: Exact approved Dartford workplace.
 ---
 
-## REVIEW (100)
+## REVIEW (96)
 
 ---
 action: 
@@ -371,18 +359,6 @@ company: RG Setsquare - Agency - Contract
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225733648
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Trapeze Recruitment Services Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225729788
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
@@ -548,10 +524,10 @@ decision: review
 automatic_decision: review
 title: Customer Service Advisor
 company: Countrywide HQ - Agency - Permanent
-location: Kent
+location: Sittingbourne
 source: JobG8
 job_id: jobg8-2162273
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -942,18 +918,6 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Michael Page - Agency - Temporary
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225744699
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Administrator
 company: Staines Search Ltd - Agency - Permanent
 location: Kent
@@ -1254,30 +1218,6 @@ reason: No approved Dartford employment-market rule matched the stated location;
 action: 
 decision: review
 automatic_decision: review
-title: SAP Administrator Margate £30k - £32k
-company: Office Angels - Agency - Contract
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225654125
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: SAP Purchasing Administrator
-company: New Appointments Group - Agency - Contract
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225681004
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Senior Administrator
 company: Royal Rise Primary School
 location: Tonbridge
@@ -1418,7 +1358,7 @@ job_id: jobg8-23643_225730262
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -1477,18 +1417,6 @@ company: Diamond Search Recruitment Ltd - Agency - Permanent
 location: Ashford
 source: JobG8
 job_id: jobg8-23643_225572058
-reason: The stated workplace belongs outside the approved Dartford employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Development Executive
-company: Intertek - Agency - Permanent
-location: Chatham
-source: JobG8
-job_id: jobg8-108117109
 reason: The stated workplace belongs outside the approved Dartford employment market.
 ---
 

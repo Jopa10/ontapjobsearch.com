@@ -4,7 +4,7 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 36
+- automatic include: 10
+- automatic review: 37
 - automatic exclude: 117
-- effective include: 11
-- effective review: 36
+- effective include: 10
+- effective review: 37
 - effective exclude: 117
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -124,18 +124,6 @@ reason: Approved Huddersfield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Quality Administrator
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-2171623
-reason: Approved Huddersfield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary Accounts Assistant
 company: Sewell Wallis Ltd - Agency - Temporary
 location: Huddersfield
@@ -156,7 +144,7 @@ job_id: jobg8-23643_225760413
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (36)
+## REVIEW (37)
 
 ---
 action: 
@@ -426,6 +414,18 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Logistscs Admin Assistant
+company: WR Logistics - Agency - Permanent
+location: Brighouse
+source: JobG8
+job_id: jobg8-23643_225761436
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Assistant Asda Money & Mobile
 company: ASDA - Company - Permanent
 location: Yorkshire
@@ -668,11 +668,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Bank Medical Records Administrator
+title: Bank Business Administrator
 company: Spire Healthcare - Company - Temporary
 location: Leeds
 source: JobG8
-job_id: jobg8-23643_225685033
+job_id: jobg8-23643_225684684
 reason: Separate employment market.
 ---
 
@@ -681,10 +681,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Bank Theatre Administrator
-company: Spire Healthcare - Company - Temporary
+company: Spire Healthcare - Company - Contract
 location: Leeds
 source: JobG8
-job_id: jobg8-23643_225754243
+job_id: jobg8-23643_225714010
 reason: Separate employment market.
 ---
 
@@ -860,6 +860,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Construction Project Site Administrator
+company: Logical Personnel Solutions - Agency - Temporary
+location: Wakefield
+source: JobG8
+job_id: jobg8-23643_225753839
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Contact Centre Advisor
 company: Michael Page - Agency - Permanent
 location: Leeds
@@ -985,18 +997,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225718050
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service / Sales Support Team Leader
-company: Huntress - Leeds - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225676663
 reason: Separate employment market.
 ---
 
@@ -1185,10 +1185,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Executive Assistant
-company: Michael Page - Agency - Permanent
-location: Bradford
+company: Huntress - Leeds - Agency - Permanent
+location: Leeds
 source: JobG8
-job_id: jobg8-23643_225693357
+job_id: jobg8-23643_225744497
 reason: Separate employment market.
 ---
 
@@ -1196,11 +1196,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Executive Assistant & Administrator
-company: Automated Industrial Robotics - Agency - Permanent
-location: Wakefield
+title: Executive Assistant
+company: Michael Page - Agency - Permanent
+location: Bradford
 source: JobG8
-job_id: jobg8-23643_225665983
+job_id: jobg8-23643_225693357
 reason: Separate employment market.
 ---
 
@@ -1573,6 +1573,18 @@ company: Marmon Lift Recruitment - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225717915
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: PA
+company: Lucy Walker Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225752169
 reason: Separate employment market.
 ---
 
@@ -1981,17 +1993,5 @@ company: Office Angels - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225665719
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Training Administrator
-company: Northern Gas - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225706935
 reason: Separate employment market.
 ---

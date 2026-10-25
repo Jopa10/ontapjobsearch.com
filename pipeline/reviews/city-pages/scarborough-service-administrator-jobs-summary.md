@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 60
+- automatic review: 58
 - automatic exclude: 0
 - effective include: 3
-- effective review: 60
+- effective review: 58
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,19 @@ job_id: teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (60)
+## REVIEW (58)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Magpie Recruitment - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2180626
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -318,18 +330,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Financial Services Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2111325
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Sewell Wallis Ltd - Agency - Permanent
 location: York
@@ -559,18 +559,6 @@ action:
 decision: review
 automatic_decision: review
 title: Project Administrator
-company: Equals One Ltd - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-108215746
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Administrator
 company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
@@ -719,18 +707,6 @@ company: Greenfield I T Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2057285
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical & Quality Support Administrator
-company: Unity Resourcing - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2081400
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

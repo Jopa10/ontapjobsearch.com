@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 33
 - automatic review: 10
-- automatic exclude: 20
+- automatic exclude: 19
 - effective include: 33
 - effective review: 10
-- effective exclude: 20
+- effective exclude: 19
 
 ## INCLUDE (33)
 
@@ -196,18 +196,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Countrywide HQ - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2104786
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor - Mortgages
 company: Saffron Building Society - Agency - Permanent
 location: Cambridge
@@ -285,6 +273,18 @@ company: The Language Business - Language Recruitment Specialists - Agency - Per
 location: Cambridge
 source: JobG8
 job_id: jobg8-2087322
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Logistics Coordinator
+company: Proactive Global - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225762099
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -542,7 +542,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -733,18 +733,6 @@ company: Blusource Professional Services Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225660845
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Clerk
-company: Reed - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2078570
 reason: Separate employment market.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 17
 - automatic review: 5
-- automatic exclude: 80
+- automatic exclude: 78
 - effective include: 17
 - effective review: 5
-- effective exclude: 80
+- effective exclude: 78
 
 ## INCLUDE (17)
 
@@ -290,7 +290,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (80)
+## EXCLUDE (78)
 
 ---
 action: 
@@ -573,18 +573,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Customer Service Advisor
-company: Brellis Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225748714
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
 company: SVB Solutions - Agency - Permanent
 location: Warwick
 source: JobG8
@@ -788,11 +776,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Jaguar Land Rover Service Advisor
-company: Sytner - Company - Permanent
-location: Warwickshire
+title: Logistics & Installations Coordinator
+company: Glue Resourcing - Agency - Permanent
+location: Leamington Spa
 source: JobG8
-job_id: jobg8-23643_225662255
+job_id: jobg8-23643_225754324
 reason: Separate employment market.
 ---
 
@@ -1213,18 +1201,6 @@ company: Auto Skills UK - Agency - Permanent
 location: Nuneaton
 source: JobG8
 job_id: jobg8-23643_225751455
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary CRM Assistant
-company: Triumph - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225746288
 reason: Separate employment market.
 ---
 

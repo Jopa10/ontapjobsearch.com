@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 83
+- automatic review: 75
 - automatic exclude: 0
 - effective include: 0
-- effective review: 83
+- effective review: 75
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (83)
+## REVIEW (75)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Blusource Professional Services Ltd - Agency - Temporary
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225731478
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: SF Partners - Agency - Permanent
+location: Market Harborough
+source: JobG8
+job_id: jobg8-23643_225759675
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -143,18 +155,6 @@ company: SolviT Recruitment Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225712972
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Assistant
-company: Adecco - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225652191
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -263,18 +263,6 @@ company: SolviT Recruitment Ltd - Agency - Temporary
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225752253
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Hire Dept
-company: Alma Personnel - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225582089
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -606,18 +594,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Interim Finance Assistant (Purchase Ledger)
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2067389
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Internal Sales Representative - Lighting
 company: Gi Group - Agency - Permanent
 location: Leicester
@@ -654,18 +630,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: EJ Connect - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225652195
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Administrator
 company: JT Recruit - Agency - Temporary
 location: Leicestershire
@@ -690,35 +654,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: PA To Managing Director
-company: Barker Ross - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225676461
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-time HR Coordinator
 company: Gi Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225711327
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Parts Administrator
-company: Otis - Company - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225687246
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -743,18 +683,6 @@ company: Leicestershire Fire and Rescue - Agency - Contract
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225724878
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Planning Administrator / Equipment Controller
-company: Geary's Bakeries Ltd - Agency - Permanent
-location: Glenfield
-source: JobG8
-job_id: jobg8-23643_221715860
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -971,30 +899,6 @@ company: The Solution Auto - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225696162
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Site Administrator
-company: Full Circle Technical Recruitment - Agency - Contract
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225701621
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Site and Operations Administrator
-company: Saint Gobain - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225754680
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

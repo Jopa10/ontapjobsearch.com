@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 115
+- automatic review: 109
 - automatic exclude: 0
 - effective include: 7
-- effective review: 115
+- effective review: 109
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225743675
 reason: Exact approved Watford workplace.
 ---
 
-## REVIEW (115)
+## REVIEW (109)
 
 ---
 action: 
@@ -270,18 +270,6 @@ reason: No approved Watford employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: After Sales Technical Administrator
-company: NMS Recruit Limited - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2151065
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Assistant Accountant
 company: Hales Group - Agency - Permanent
 location: Hertfordshire
@@ -311,18 +299,6 @@ company: STORMX RECRUITMENT LIMITED - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2088448
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: BMW Trainee Service Advisor
-company: Sytner - Company - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225718737
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -432,18 +408,6 @@ location: Hertford
 source: JobG8
 job_id: jobg8-23643_225658823
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Administrator
-company: VolkerWessels UK Ltd - Company - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225710283
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
 ---
@@ -691,6 +655,18 @@ action:
 decision: review
 automatic_decision: review
 title: Family Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2175041
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Family Paralegal
 company: Hab Law - Agency - Permanent
 location: Hertfordshire
 source: JobG8
@@ -827,30 +803,6 @@ company: Costa Coffee - Company - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2168386
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Investment Administrator
-company: Claims Recruitment Services - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2058650
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Investment Administrator
-company: Tate - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225748200
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -1050,18 +1002,6 @@ reason: No approved Watford employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Administrator
-company: Accountancy Action - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2067432
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-time Bookkeeper (school hours)
 company: Mission 4 Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -1182,35 +1122,11 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Project Administrator
-company: Perfect Team - Agency - Permanent
-location: Hemel Hempstead
-source: JobG8
-job_id: jobg8-23643_225677199
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Coordinator
 company: GSCI Consultants Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2064628
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Property onboarding administrator
-company: Accountancy Action - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2096331
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -1404,6 +1320,18 @@ location: Stevenage
 source: JobG8
 job_id: jobg8-23643_225717547
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225744718
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
 ---

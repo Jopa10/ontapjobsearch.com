@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 12
 - automatic review: 35
 - automatic exclude: 0
-- effective include: 11
+- effective include: 12
 - effective review: 35
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -141,6 +141,18 @@ company: University Hospitals Dorset NHS Foundation Trust
 location: Poole, BH12 5AG
 source: NHS Jobs
 job_id: nhs-5655858
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Clerk
+company: McGinnis Loy Associates Ltd - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-2181226
 reason: Exact approved Poole workplace.
 ---
 
@@ -342,11 +354,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Transmission Developments Co (GB) Ltd - Agency - Permanent
+title: Document Administrator
+company: Randstad Construction and Property - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225660198
+job_id: jobg8-23643_225755741
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

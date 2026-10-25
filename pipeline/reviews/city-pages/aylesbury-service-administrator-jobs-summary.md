@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 70
+- automatic review: 69
 - automatic exclude: 0
 - effective include: 10
-- effective review: 70
+- effective review: 69
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: nhs-5676129
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (70)
+## REVIEW (69)
 
 ---
 action: 
@@ -414,6 +414,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Children Law Paralegal - Milton Keynes
+company: Duncan Lewis Solictors - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2179565
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Client Care Co-Ordinator
 company: 2i Recruit Ltd - Agency - Permanent
 location: Beaconsfield
@@ -563,18 +575,6 @@ company: Office Angels - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225661855
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Health Records Clerical Assistant
-company: NHS Professionals - Company - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225650775
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -798,6 +798,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Rebates Administrator
+company: Newton Maxwell Recruitment Ltd. - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2144792
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Gladstone Road Surgery
 location: Chesham, HP5 3EZ
@@ -851,30 +863,6 @@ company: Elizabeth Michael Associates LTD - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225731641
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: TXM Recruit - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225650195
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator (12 month FTC) - Milton Keynes
-company: Guidant Global - Agency - Contract
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225722698
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

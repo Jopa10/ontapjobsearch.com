@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 145
+- automatic review: 139
 - automatic exclude: 0
 - effective include: 7
-- effective review: 145
+- effective review: 139
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225704651
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (145)
+## REVIEW (139)
 
 ---
 action: 
@@ -283,18 +283,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Axis CLC - Agency - Permanent
-location: Dartford
-source: JobG8
-job_id: jobg8-23643_225649957
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Hays Business Support - Agency - Temporary
 location: Kent
 source: JobG8
@@ -335,18 +323,6 @@ company: RG Setsquare - Agency - Contract
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225733648
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Trapeze Recruitment Services Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225729788
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -419,18 +395,6 @@ company: Insight Select - Agency - Permanent
 location: Swanley
 source: JobG8
 job_id: jobg8-23643_225658674
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Development Executive
-company: Intertek - Agency - Permanent
-location: Chatham
-source: JobG8
-job_id: jobg8-108117109
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -572,7 +536,7 @@ decision: review
 automatic_decision: review
 title: Customer Service Advisor
 company: Countrywide HQ - Agency - Permanent
-location: Kent
+location: Sittingbourne
 source: JobG8
 job_id: jobg8-2162273
 reason: No exact Maidstone workplace matched; local geographic review is required.
@@ -1171,18 +1135,6 @@ action:
 decision: review
 automatic_decision: review
 title: Office Administrator
-company: Michael Page - Agency - Temporary
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225744699
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
 company: New Appointments Group - Agency - Permanent
 location: Rochester
 source: JobG8
@@ -1643,30 +1595,6 @@ company: Diamond Search Recruitment Ltd - Agency - Permanent
 location: Ashford
 source: JobG8
 job_id: jobg8-23643_225689196
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: SAP Administrator Margate £30k - £32k
-company: Office Angels - Agency - Contract
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225654125
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: SAP Purchasing Administrator
-company: New Appointments Group - Agency - Contract
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225681004
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

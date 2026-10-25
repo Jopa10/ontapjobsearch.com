@@ -7,7 +7,6 @@ include,jobg8-23643_225710102,Internal Sales Executive,TDRS - Agency - Permanent
 include,jobg8-2155893,Legal Secretary - Care Department - Huddersfield,qed legal - Agency - Permanent,Huddersfield,JobG8,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
 include,jobg8-23643_225714191,Markets Customer Service Assistant,Lynx Employment Services Ltd - Agency - Temporary,Huddersfield,JobG8,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
 include,jobg8-23643_225663738,Material Verification & Document Controller,Shirley Parsons Ltd - Agency - Permanent,Huddersfield,JobG8,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
-include,jobg8-2171623,Quality Administrator,PRATAP PARTNERSHIP LTD - Agency - Permanent,Huddersfield,JobG8,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
 include,jobg8-23643_225745620,Temporary Accounts Assistant,Sewell Wallis Ltd - Agency - Temporary,Huddersfield,JobG8,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
 include,jobg8-23643_225760413,Veterinary Insurance Administrator,Donaldsons vets - Agency - Permanent,Huddersfield,JobG8,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
 review,jobg8-2062634,Accounts Payable,Lucy Walker Recruitment Ltd - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
@@ -32,6 +31,7 @@ review,jobg8-2170976,Health and Welfare Court of Protection Paralegal,Simpson Mi
 review,jobg8-23643_225720816,HR Administrator,E3 Recruitment - Agency - Permanent,Brighouse,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-23643_225662978,Key Account Executive,JPS Limited - Agency - Permanent,Otley,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-23643_223521967,Litigation Paralegal,Sue Ross Recruitment Ltd - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
+review,jobg8-23643_225761436,Logistscs Admin Assistant,WR Logistics - Agency - Permanent,Brighouse,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-2163776,Marketing Assistant Asda Money & Mobile,ASDA - Company - Permanent,Yorkshire,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-2042141,Marketing Executive,pyramid8 - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-2045800,Marketing Executive (Luxury Spa & Sauna's),Ernest Gordon Recruitment Limited - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
@@ -52,8 +52,8 @@ exclude,jobg8-23643_225745706,Administrator,Concept Recruitment Group Ltd - Agen
 exclude,jobg8-23643_225730421,Administrator,Encon Staffing Associates Ltd - Agency - Temporary,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225717635,Administrator,Huntress - Leeds - Agency - Contract,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,teaching-vacancies-apprentice-business-support-administrator,Apprentice Business Support Administrator,The North Halifax Grammar School,Halifax,Teaching Vacancies,exclude,exclude,Separate employment market.,halifax,huddersfield-service-administrator-jobs
-exclude,jobg8-23643_225685033,Bank Medical Records Administrator,Spire Healthcare - Company - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
-exclude,jobg8-23643_225754243,Bank Theatre Administrator,Spire Healthcare - Company - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225684684,Bank Business Administrator,Spire Healthcare - Company - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225714010,Bank Theatre Administrator,Spire Healthcare - Company - Contract,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2076475,Bookkeeper,PRATAP PARTNERSHIP LTD - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225729716,Bookkeeper,Verelogic - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2056878,Brand Manager,Reed - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -68,6 +68,7 @@ exclude,jobg8-2145637,Community Engagement Coordinator,ANDYSMANCLUB - Agency - P
 exclude,jobg8-23643_225717515,Compliance Administrator- Leading Recruitment Company,Prospero Group - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225755188,Compliance Offier - Recruitment,Prospero Group - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225676825,Connections Support Co-ordinator,Pertemps Leeds - Agency - Temporary,Castleford,JobG8,exclude,exclude,Separate employment market.,context:leeds,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225753839,Construction Project Site Administrator,Logical Personnel Solutions - Agency - Temporary,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225684009,Contact Centre Advisor,Michael Page - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225740584,Contract Delivery Administrator,Lucy Walker Recruitment - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225701806,Conveyancing Assistant,Edwards & Pearce - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -79,7 +80,6 @@ exclude,jobg8-23643_225756046,Customer / Sales Administrator - Multiple applican
 exclude,jobg8-23643_225684006,Customer Experience Advisor,Michael Page - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225729701,Customer Service,RG Setsquare - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225718050,Customer Service,Search Consultancy Ltd - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
-exclude,jobg8-23643_225676663,Customer Service / Sales Support Team Leader,Huntress - Leeds - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225728280,Customer Service Administrator,Huntress - Leeds - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225757245,Customer Service Administrator,Michael Page - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225742365,Customer Service Advisor,Michael Page - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -95,8 +95,8 @@ exclude,jobg8-23643_225677742,Digital Marketing Executive,Marmon Lift Recruitmen
 exclude,jobg8-23643_225751812,Enrolment Coordinator,Huntress - Leeds - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,teaching-vacancies-exams-officer-bradford-academy-bradford,Exams Officer,Bradford Academy,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225694366,Executive Assistant,hireful - Company - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225744497,Executive Assistant,Huntress - Leeds - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225693357,Executive Assistant,Michael Page - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
-exclude,jobg8-23643_225665983,Executive Assistant & Administrator,Automated Industrial Robotics - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225665208,Experienced GP Receptionist/Office Administrator,Anonymous - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225710931,External Communications Manager,Michael Page - Agency - Contract,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225721361,Finance Administrator,Search Consultancy Ltd - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -128,6 +128,7 @@ exclude,jobg8-23643_225661219,Office Administrator,Logical Personnel Solutions -
 exclude,jobg8-23643_225696913,Office Coordinator,Lucy Walker Recruitment - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225668368,Outbound Sales Executive,Snowflake Media Ltd - Agency - Permanent,Halifax,JobG8,exclude,exclude,Separate employment market.,halifax,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225717915,Outbound Sales Representative,Marmon Lift Recruitment - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225752169,PA,Lucy Walker Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225726658,Paid Media Manager,Michael Page - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2042757,Paralegal - Real Estate & Projects - Hybrid working,CRA Consulting - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2057961,Part-Time Accounts Clerk,Equals One - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -162,4 +163,3 @@ exclude,jobg8-23643_225661294,Service Coordinator,SF Partners - Agency - Permane
 exclude,jobg8-23643_225661323,Service Coordinator,SF Partners - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225688225,Technical Support Coordinator,Blue Moon Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225665719,Temporary Customer Service Administrator,Office Angels - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
-exclude,jobg8-23643_225706935,Training Administrator,Northern Gas - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs

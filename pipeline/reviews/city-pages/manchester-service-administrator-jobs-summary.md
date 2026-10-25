@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 119
+- Effective included jobs: 107
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 119
-- automatic review: 22
+- automatic include: 107
+- automatic review: 24
 - automatic exclude: 7
-- effective include: 119
-- effective review: 22
+- effective include: 107
+- effective review: 24
 - effective exclude: 7
 
-## INCLUDE (119)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounting Administrator
-company: Azenta Life Sciences - Company - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225660436
-reason: Approved conservative Manchester launch catchment.
----
+## INCLUDE (107)
 
 ---
 action: 
@@ -148,6 +136,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Assistant Private Secretary
+company: The Independent Football Regulator - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225759283
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: B2B Marketing Executive
 company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Manchester
@@ -160,35 +160,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Bankruptcy Administrator
-company: Imperium Financial Recruitment - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2038996
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Bookkeeper/Assistant Accountant
 company: Hays Accounts and Finance - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225679755
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: Hays Business Support - Agency - Contract
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225745531
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -273,30 +249,6 @@ company: Boden Group - Agency - Contract
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225665560
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contracts Administrator
-company: Randstad Sourceright - Agency - Contract
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225581284
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Corporate Insolvency Administrator
-company: Imperium Financial Recruitment - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2039016
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -644,18 +596,6 @@ title: Finance Assistant
 company: The Portfolio Group - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2065432
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: The Portfolio Group - Agency - Permanent
-location: Manchester
-source: JobG8
 job_id: jobg8-23643_225681120
 reason: Approved conservative Manchester launch catchment.
 ---
@@ -808,30 +748,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: IP Records Administrator
-company: The Law Support Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2178933
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Lead Administrator
-company: The Portfolio Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225657743
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Legal Secretary
 company: Jobwise Ltd - Agency - Temporary
 location: Manchester
@@ -940,35 +856,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: PA to the Director
-company: Michael Page - Agency - Temporary
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225747540
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Administrator
 company: MPR Site Services Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225731242
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2063303
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1017,18 +909,6 @@ company: Portfolio Payroll Limited - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225754802
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: People and Data Administrator
-company: Spire Healthcare - Company - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225650940
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1276,18 +1156,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Salesforce Administrator
-company: The Portfolio Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225656742
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SAP Sales Administrator
 company: Adecco - Agency - Permanent
 location: Manchester
@@ -1396,18 +1264,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Support Administrator
-company: Eden Planning - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225696131
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Technical Customer Service Advisor
 company: Forrest Recruitment - Agency - Permanent
 location: Manchester
@@ -1452,7 +1308,7 @@ job_id: jobg8-23643_225688135
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (24)
 
 ---
 action: 
@@ -1535,6 +1391,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Worsley
 source: JobG8
 job_id: jobg8-23643_225691686
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: The Portfolio Group - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-2065432
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -1631,6 +1499,18 @@ company: Thompsons Solicitors - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2175260
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-2063303
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 30
+- automatic review: 28
 - automatic exclude: 0
 - effective include: 4
-- effective review: 30
+- effective review: 28
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225673265
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (28)
 
 ---
 action: 
@@ -95,18 +95,6 @@ company: Lancot School
 location: Dunstable
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-receptionist-b0a5cdce-cd8a-492e-a23a-4838c9fd2813
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: PSR Solutions - Agency - Contract
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225706258
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -234,6 +222,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor
+company: Think Specialist Recruitment - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-23643_225761491
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Endoscopy Booking Clerk
 company: Bedfordshire Hospitals NHS Foundation Trust
 location: Luton, LU4 0DZ
@@ -275,18 +275,6 @@ company: Hales Group - Agency - Temporary
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225699711
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-2046269
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -383,18 +371,6 @@ company: Response Personnel - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-2063915
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Site Administrator
-company: Harvey Jacob Ltd - Agency - Contract
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225705667
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

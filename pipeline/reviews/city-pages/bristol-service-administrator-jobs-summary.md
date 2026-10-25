@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 59
+- Effective included jobs: 56
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 59
+- automatic include: 56
 - automatic review: 15
-- automatic exclude: 6
-- effective include: 59
+- automatic exclude: 5
+- effective include: 56
 - effective review: 15
-- effective exclude: 6
+- effective exclude: 5
 
-## INCLUDE (59)
+## INCLUDE (56)
 
 ---
 action: 
@@ -317,18 +317,6 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
-company: Artis Recruitment - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2042684
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
 company: Morgan McKinley (South West) - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -345,6 +333,18 @@ company: Red Recruitment - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225662883
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Officer
+company: Womens Aid - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225740656
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -381,6 +381,18 @@ company: Tate - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225674536
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Imaging Administrator
+company: Spire Healthcare - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225706294
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -429,18 +441,6 @@ company: Sytner - Company - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225743357
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Junior Accountant
-company: Ashley Rees Associates - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225650858
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -629,18 +629,6 @@ action:
 decision: include
 automatic_decision: include
 title: Secretary / Administrator
-company: Harwood Recruitment Solutions Limited - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2103238
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Secretary / Administrator
 company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -669,30 +657,6 @@ company: Perfect Placement - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225726289
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
-company: Sytner - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225760897
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
-company: The Solution Auto - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2104209
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -790,6 +754,18 @@ title: Finance Assistant
 company: Artis Recruitment - Agency - Permanent
 location: Yate
 source: JobG8
+job_id: jobg8-2042684
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Artis Recruitment - Agency - Permanent
+location: Yate
+source: JobG8
 job_id: jobg8-23643_225661210
 reason: No approved Bristol catchment rule matched; local review required.
 ---
@@ -839,18 +815,6 @@ company: The Law Support Group - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-2178869
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing and Communications Assistant
-company: Society for Endocrinology - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-2176205
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -914,7 +878,7 @@ job_id: jobg8-23643_225702996
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -973,17 +937,5 @@ company: Reed Technology - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-23643_225660760
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Workforce Development Administrator
-company: Adecco - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-23643_225653411
 reason: Separate employment market.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 24
 - automatic review: 8
 - automatic exclude: 6
-- effective include: 23
+- effective include: 24
 - effective review: 8
 - effective exclude: 6
 
-## INCLUDE (23)
+## INCLUDE (24)
 
 ---
 action: 
@@ -297,6 +297,18 @@ company: Zachary Daniels Recruitment - Agency - Temporary
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225760575
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Administrator
+company: Elysium Healthcare
+location: Warrington, WA2 8DB
+source: NHS Jobs
+job_id: nhs-5676409
 reason: Approved conservative Warrington launch catchment.
 ---
 

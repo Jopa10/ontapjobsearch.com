@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 18
 - automatic review: 61
 - automatic exclude: 0
-- effective include: 19
+- effective include: 18
 - effective review: 61
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (18)
 
 ---
 action: 
@@ -189,18 +189,6 @@ company: Purbeck Health Centre
 location: Milton Keynes, MK14 6BL
 source: NHS Jobs
 job_id: nhs-5543958
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
-company: TXM Recruit - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225650195
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -522,6 +510,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Children Law Paralegal - Milton Keynes
+company: Duncan Lewis Solictors - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2179565
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Client Care Co-Ordinator
 company: 2i Recruit Ltd - Agency - Permanent
 location: Beaconsfield
@@ -647,18 +647,6 @@ company: Office Angels - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225661855
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Health Records Clerical Assistant
-company: NHS Professionals - Company - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225650775
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -846,6 +834,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Rebates Administrator
+company: Newton Maxwell Recruitment Ltd. - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2144792
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Gladstone Road Surgery
 location: Chesham, HP5 3EZ
@@ -887,18 +887,6 @@ company: Elizabeth Michael Associates LTD - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225731641
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator (12 month FTC) - Milton Keynes
-company: Guidant Global - Agency - Contract
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225722698
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

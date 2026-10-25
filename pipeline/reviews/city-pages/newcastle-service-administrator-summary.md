@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 58
-- automatic exclude: 36
-- effective include: 24
-- effective review: 58
-- effective exclude: 36
+- automatic include: 22
+- automatic review: 53
+- automatic exclude: 29
+- effective include: 22
+- effective review: 53
+- effective exclude: 29
 
-## INCLUDE (24)
+## INCLUDE (22)
 
 ---
 action: 
@@ -220,18 +220,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: People Support Administrator
-company: The Recruitment Junction - Agency - Permanent
-location: Newcastle
-source: JobG8
-job_id: jobg8-23643_225652927
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist / Administrator
 company: St. Albans Medical Group
 location: Gateshead, NE10 9QG
@@ -268,18 +256,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Administrator Gateshead
-company: Office Angels - Agency - Temporary
-location: Gateshead
-source: JobG8
-job_id: jobg8-23643_225729508
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary Administrator Newcastle City Centre
 company: Office Angels - Agency - Temporary
 location: Newcastle
@@ -292,11 +268,11 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Customer Service Administrator - Gateshead
+title: Temporary PA/Team Administrator Newcastle
 company: Office Angels - Agency - Temporary
-location: Gateshead
+location: Newcastle
 source: JobG8
-job_id: jobg8-23643_225691924
+job_id: jobg8-23643_225662015
 reason: Approved Newcastle catchment.
 ---
 
@@ -312,7 +288,7 @@ job_id: jobg8-23643_225677749
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (58)
+## REVIEW (53)
 
 ---
 action: 
@@ -630,30 +606,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: European Project Administrator
-company: LHH Recruitment Solutions - Agency - Permanent
-location: Northumberland
-source: JobG8
-job_id: jobg8-2083329
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist/Care Navigator
-company: Trinity Medical Centre
-location: South Shields, NE33 5DU
-source: NHS Jobs
-job_id: nhs-5683011
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Graduate Accounts Assistant
 company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Tyne And Wear
@@ -696,30 +648,6 @@ location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225730673
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mercedes-Benz Trainee Service Advisor
-company: Sytner - Company - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225753233
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mercedes-Benz Trainee Service Advisor
-company: Sytner Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2167974
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -998,19 +926,7 @@ job_id: jobg8-23643_225658559
 reason: Broad location; review before city inclusion.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Northumbria Healthcare NHS Foundation Trust
-location: Berwick-upon-Tweed, TD15 1LT
-source: NHS Jobs
-job_id: nhs-5682388
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
-## EXCLUDE (36)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -1172,30 +1088,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5YA
-source: NHS Jobs
-job_id: nhs-5668821
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5YA
-source: NHS Jobs
-job_id: nhs-5684079
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer service advisor
 company: Berry Recruitment - Agency - Contract
 location: Durham
@@ -1220,18 +1112,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Data Entry Administrator
-company: MTrec Recruitment - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2176401
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance and Payroll Assistant
 company: MTrec Recruitment - Agency - Permanent
 location: County Durham
@@ -1246,7 +1126,7 @@ decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
 company: Wolviston Management Services - Agency - Permanent
-location: Darlington
+location: County Durham
 source: JobG8
 job_id: jobg8-23643_225706629
 reason: Separate employment market.
@@ -1328,18 +1208,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Purchasing Administrator
-company: Paul Card Recruitment Ltd - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2152924
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist
 company: South Tyneside and Sunderland NHS Foundation Trust
 location: SUNDERLAND, SR1 3AE
@@ -1381,42 +1249,6 @@ company: Towne Lifting & Testing - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225725446
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Scheduling Administrator
-company: Hays Business Support - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225672369
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Site Administrator
-company: Linear Recruitment Ltd - Agency - Contract
-location: Sunderland
-source: JobG8
-job_id: jobg8-23643_225674171
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Site Administrator
-company: Linear Recruitment Ltd - Agency - Contract
-location: Durham
-source: JobG8
-job_id: jobg8-23643_225674179
 reason: Separate employment market.
 ---
 

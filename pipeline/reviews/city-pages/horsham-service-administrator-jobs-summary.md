@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 77
+- automatic review: 79
 - automatic exclude: 33
 - effective include: 8
-- effective review: 77
+- effective review: 79
 - effective exclude: 33
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-2056498
 reason: Exact approved Horsham workplace.
 ---
 
-## REVIEW (77)
+## REVIEW (79)
 
 ---
 action: 
@@ -186,11 +186,11 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: CBSbutler Holdings Limited trading as CBSbutler - Agency - Contract
+title: Activities Coordinator
+company: The Priory Group - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225695280
+job_id: jobg8-108093701
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -228,6 +228,30 @@ location: Lewes, BN7 1EA
 source: NHS Jobs
 job_id: nhs-5683798
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Michael Page - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225742498
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Michael Page - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225742499
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
 ---
@@ -323,18 +347,6 @@ company: ACS Automotive Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225687199
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Centre Coordinator / Administrator
-company: Additional Resources - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225654206
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -618,18 +630,6 @@ reason: No approved Horsham employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: IP Records Administrator
-company: The Law Support Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2178985
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Management Accountant
 company: First Recruitment Services - Agency - Temporary
 location: Sussex
@@ -762,6 +762,18 @@ reason: No approved Horsham employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Project Coordinator - ASAP Start
+company: Office Angels - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225761647
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Reception / Administrator - Immediate Start
 company: Office Angels - Agency - Contract
 location: Sussex
@@ -780,6 +792,18 @@ location: Uckfield, TN22 5AW
 source: NHS Jobs
 job_id: nhs-5657299
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Elysium Healthcare
+location: Midhurst, West Sussex, GU29 9JP
+source: NHS Jobs
+job_id: nhs-5677524
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
 ---
@@ -906,6 +930,18 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support Executive
+company: Michael Page - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225759198
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Digital Marketing Executive - PPC & Analytics
 company: Skillsbay Ltd - Agency - Permanent
 location: Sussex
@@ -980,7 +1016,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Not Specified
+location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
@@ -1032,18 +1068,6 @@ location: Sussex
 source: JobG8
 job_id: jobg8-23643_225699794
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Wellbeing Service Project Coordinator
-company: Southdown - Agency - Temporary
-location: Lewes
-source: JobG8
-job_id: jobg8-108230183
-reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ## EXCLUDE (33)

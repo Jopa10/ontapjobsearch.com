@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 27
+- automatic include: 8
+- automatic review: 26
 - automatic exclude: 0
-- effective include: 9
-- effective review: 27
+- effective include: 8
+- effective review: 26
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Dark Horse - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225703710
-reason: Exact approved Altrincham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance assistant - R2R
-company: Robert Walters - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-2045948
 reason: Exact approved Altrincham workplace.
 ---
 
@@ -132,7 +120,7 @@ job_id: jobg8-23643_225715889
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (27)
+## REVIEW (26)
 
 ---
 action: 
@@ -251,18 +239,6 @@ company: Jobwise Ltd - Agency - Temporary
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225695945
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: IVA Administrator
-company: Imperium Financial Recruitment - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2066888
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -440,7 +416,7 @@ decision: review
 automatic_decision: review
 title: Social Value Wellbeing Coordinator
 company: Global Recruitment Group - Agency - Permanent
-location: Cheshire
+location: Stockport
 source: JobG8
 job_id: jobg8-23643_225744140
 reason: No exact Altrincham workplace matched; local geographic review is required.

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 36
+- automatic review: 37
 - automatic exclude: 0
 - effective include: 10
-- effective review: 36
+- effective review: 37
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: nhs-5675567
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (37)
 
 ---
 action: 
@@ -354,11 +354,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Transmission Developments Co (GB) Ltd - Agency - Permanent
+title: Document Administrator
+company: Randstad Construction and Property - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225660198
+job_id: jobg8-23643_225755741
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -491,6 +491,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225686145
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Clerk
+company: McGinnis Loy Associates Ltd - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-2181226
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

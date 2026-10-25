@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 14
+- automatic include: 19
+- automatic review: 13
 - automatic exclude: 0
-- effective include: 18
-- effective review: 14
+- effective include: 19
+- effective review: 13
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -240,7 +240,19 @@ job_id: nhs-5672082
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (14)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Theatre Administrator
+company: Spire Healthcare - Company - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225713565
+reason: Approved conservative Hull launch catchment.
+---
+
+## REVIEW (13)
 
 ---
 action: 
@@ -299,18 +311,6 @@ company: SaB Consulting Yorkshire Limited - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225705236
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Logistics Coordinator
-company: Consortium Professional Recruitment - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-108183003
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 22
+- automatic include: 6
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 7
-- effective review: 22
+- effective include: 6
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Prince Personnel Limited - Agency - Temporary
 location: Shrewsbury
 source: JobG8
 job_id: jobg8-23643_225717119
-reason: Exact approved Shrewsbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Administrator
-company: Durrant Talent Solutions - Agency - Permanent
-location: Shrewsbury
-source: JobG8
-job_id: jobg8-2073994
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -108,7 +96,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (16)
 
 ---
 action: 
@@ -186,35 +174,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: BMW Sales Administrator
-company: Sytner - Company - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225724224
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-2078828
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225698170
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -282,18 +246,6 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Project Coordinator
-company: Consula Group LTD - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-2078865
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Reception Administrator
 company: Windmill Primary School
 location: Telford
@@ -335,42 +287,6 @@ company: Pertemps Telford - Agency - Temporary
 location: Telford
 source: JobG8
 job_id: jobg8-23643_225735083
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225754538
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator ( Aviation)
-company: Rise Technical Recruitment - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225750867
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Records Administrator - MFTS
-company: Red Sky Personnel Ltd - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225739181
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

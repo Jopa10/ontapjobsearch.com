@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 56
+- automatic review: 53
 - automatic exclude: 0
 - effective include: 5
-- effective review: 56
+- effective review: 53
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,19 @@ job_id: jobg8-23643_225736541
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (53)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accountant / Accounts Bookkeeper
+company: WH Finance Ltd - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225761678
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -139,18 +151,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107919719
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Veolia - Agency - Permanent
 location: Exeter
 source: JobG8
@@ -167,18 +167,6 @@ company: WR HVAC - Agency - Contract
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225759209
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Part time
-company: Hays Business Support - Agency - Contract
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225663628
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -347,18 +335,6 @@ company: Build Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225691719
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Pontoon - Agency - Contract
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225650065
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -611,18 +587,6 @@ company: Adecco - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225736532
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator - Housebuilding
-company: untypical - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225734603
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

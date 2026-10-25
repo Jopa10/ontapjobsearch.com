@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 97
+- Effective included jobs: 90
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 97
+- automatic include: 90
 - automatic review: 14
 - automatic exclude: 7
-- effective include: 97
+- effective include: 90
 - effective review: 14
 - effective exclude: 7
 
-## INCLUDE (97)
+## INCLUDE (90)
 
 ---
 action: 
@@ -424,18 +424,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Data Administrator
-company: Reed - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2091231
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Data Coordinator
 company: EA Recruitment - Agency - Permanent
 location: Birmingham
@@ -465,18 +453,6 @@ company: Carrington West - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225706966
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Document Controller
-company: Conrad Consulting Ltd - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225652561
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -688,30 +664,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Internal Sales Administrator
-company: Morgan Parkes Recruitment Limited - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2044276
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: IP Records Administrator
-company: The Law Support Group - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2178897
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Local Offer Website Coordinator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Birmingham
@@ -904,6 +856,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Purchasing Assistant
+company: TMR Group Ltd - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2169203
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchasing Coordinator
 company: TMR Group Ltd - Agency - Permanent
 location: Birmingham
@@ -1016,18 +980,6 @@ title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2104175
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
-company: The Solution Auto - Agency - Permanent
-location: Birmingham
-source: JobG8
 job_id: jobg8-23643_225708882
 reason: Approved conservative Birmingham launch catchment.
 ---
@@ -1084,30 +1036,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Streetworks Faults Administrator
-company: Doocey Group - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225749758
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Student Information Administrator
-company: Huntress - Leeds - Agency - Temporary
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225690955
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Team Administrator
 company: Birmingham and Solihull Mental Health NHS Foundation Trust
 location: Birmingham, B19 1HS
@@ -1148,7 +1076,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2174849
+job_id: jobg8-2180600
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1161,18 +1089,6 @@ company: Nicholas Associates - Agency - Contract
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225691481
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: St Andrew’s Healthcare
-location: Birmingham, B30 2XR
-source: NHS Jobs
-job_id: nhs-5653910
 reason: Approved conservative Birmingham launch catchment.
 ---
 

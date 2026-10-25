@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
-- automatic review: 12
-- automatic exclude: 27
-- effective include: 27
-- effective review: 12
-- effective exclude: 27
+- automatic include: 22
+- automatic review: 13
+- automatic exclude: 25
+- effective include: 22
+- effective review: 13
+- effective exclude: 25
 
-## INCLUDE (27)
+## INCLUDE (22)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: BMW/MINI Service Advisor
-company: Sytner - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225692016
 reason: Approved Sheffield catchment.
 ---
 
@@ -160,18 +148,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Blundells - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2105206
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Executive Assistant
 company: The Talent Division - Agency - Permanent
 location: Sheffield
@@ -196,30 +172,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: IP Administrator (Experienced)
-company: Withers & Rogers - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-108207449
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Land Rover Service Advisor
-company: Sytner - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225651604
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Marketing Co-ordinator
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
@@ -237,18 +189,6 @@ company: Michael Page - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225668884
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Matter Administrator
-company: CRA Consulting - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2134593
 reason: Approved Sheffield catchment.
 ---
 
@@ -348,7 +288,7 @@ job_id: jobg8-2053411
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (13)
 
 ---
 action: 
@@ -462,6 +402,18 @@ reason: No approved Sheffield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: Marks Sattin - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2092531
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Officer
 company: Portfolio Payroll Limited - Agency - Contract
 location: Yorkshire
@@ -494,7 +446,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -517,18 +469,6 @@ company: NHS Professionals - Company - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225757175
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Rullion - Eon - Agency - Temporary
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225653889
 reason: Separate employment market.
 ---
 
@@ -632,18 +572,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR & Operations Coordinator
 company: Carrington West - Agency - Permanent
 location: Doncaster
@@ -697,18 +625,6 @@ company: JGA Recruitment - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225690014
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll Administrator
-company: Marks Sattin - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-2092531
 reason: Separate employment market.
 ---
 
@@ -781,6 +697,18 @@ company: Willow Tree Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Secretary / Assistant EA
+company: Edwards & Pearce - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225747598
 reason: Separate employment market.
 ---
 

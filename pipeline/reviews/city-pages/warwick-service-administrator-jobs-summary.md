@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 89
+- automatic review: 87
 - automatic exclude: 0
 - effective include: 13
-- effective review: 89
+- effective review: 87
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (89)
+## REVIEW (87)
 
 ---
 action: 
@@ -450,18 +450,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Brellis Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225748714
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Coordinator
 company: Approach Personnel Ltd - Agency - Permanent
 location: Warwickshire
@@ -630,11 +618,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Jaguar Land Rover Service Advisor
-company: Sytner - Company - Permanent
-location: Warwickshire
+title: Logistics & Installations Coordinator
+company: Glue Resourcing - Agency - Permanent
+location: Leamington Spa
 source: JobG8
-job_id: jobg8-23643_225662255
+job_id: jobg8-23643_225754324
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1211,18 +1199,6 @@ company: Brellis Recruitment - Agency - Permanent
 location: Southam
 source: JobG8
 job_id: jobg8-23643_225656636
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary CRM Assistant
-company: Triumph - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225746288
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

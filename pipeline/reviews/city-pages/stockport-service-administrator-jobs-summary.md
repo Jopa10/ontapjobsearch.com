@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 21
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 15
-- effective review: 21
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -93,18 +93,6 @@ company: Jobwise Ltd - Agency - Temporary
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225695945
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: IVA Administrator
-company: Imperium Financial Recruitment - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2066888
 reason: Exact approved Stockport workplace.
 ---
 
@@ -204,7 +192,19 @@ job_id: jobg8-23643_225671741
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (21)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Social Value Wellbeing Coordinator
+company: Global Recruitment Group - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225744140
+reason: Exact approved Stockport workplace.
+---
+
+## REVIEW (19)
 
 ---
 action: 
@@ -263,18 +263,6 @@ company: Michael Page - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225691554
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance assistant - R2R
-company: Robert Walters - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-2045948
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -431,18 +419,6 @@ company: Portfolio Payroll Limited - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225715889
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Value Wellbeing Coordinator
-company: Global Recruitment Group - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-23643_225744140
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

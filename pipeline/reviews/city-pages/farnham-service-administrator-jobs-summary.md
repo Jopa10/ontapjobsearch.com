@@ -4,7 +4,7 @@
 - Live route: `/farnham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 160
+- automatic include: 4
+- automatic review: 156
 - automatic exclude: 0
-- effective include: 5
-- effective review: 160
+- effective include: 4
+- effective review: 156
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,19 +72,7 @@ job_id: jobg8-2064929
 reason: Exact approved Farnham workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Administrator
-company: CBSbutler Holdings Limited trading as CBSbutler - Agency - Permanent
-location: Farnham
-source: JobG8
-job_id: jobg8-23643_225654686
-reason: Exact approved Farnham workplace.
----
-
-## REVIEW (160)
+## REVIEW (156)
 
 ---
 action: 
@@ -608,7 +596,7 @@ decision: review
 automatic_decision: review
 title: Customer Service Advisor
 company: Motofix Accident Repair Centres - Agency - Permanent
-location: Surrey
+location: Camberley
 source: JobG8
 job_id: jobg8-23643_225726305
 reason: No exact Farnham workplace matched; local geographic review is required.
@@ -798,18 +786,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant & Payroll Lead
-company: Robert Half - Agency - Permanent
-location: Camberley
-source: JobG8
-job_id: jobg8-2074226
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Financial Services Administrator
 company: Dynamite Recruitment - Agency - Permanent
 location: Surrey
@@ -906,18 +882,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Information Administrator
-company: Hays Business Support - Agency - Temporary
-location: Guildford
-source: JobG8
-job_id: jobg8-23643_225755455
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Internal Communications Officer
 company: Michael Page - Agency - Contract
 location: Surrey
@@ -971,18 +935,6 @@ company: TRS (Technical Recruitment Solutions) - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225585149
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Lead Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2180111
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1103,6 +1055,18 @@ company: RGR - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225659426
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Management Accounts Assistant
+company: Wise Monkey Recruitment ltd - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-23643_225761639
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1470,18 +1434,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Production Administrator
-company: Gregory-Martin International - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225691495
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project & Technical Administrator
 company: Poujoulat (UK) Ltd - Agency - Permanent
 location: Surrey
@@ -1771,6 +1723,18 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
+company: Prospectus IT Recruitment - Agency - Permanent
+location: Weybridge
+source: JobG8
+job_id: jobg8-108231718
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Staines
 source: JobG8
@@ -1842,18 +1806,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Tax Administrator
-company: CBSbutler Holdings Limited trading as CBSbutler - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225752270
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Team Administrator
 company: Lloyd Recruitment - Epsom - Agency - Permanent
 location: Surrey
@@ -1871,18 +1823,6 @@ company: Surrey County Council - Company - Contract
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225655873
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Administrator - DBS checked
-company: Huntress - Crawley - Agency - Temporary
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225652856
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

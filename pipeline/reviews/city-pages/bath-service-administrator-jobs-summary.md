@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 74
+- automatic include: 5
+- automatic review: 71
 - automatic exclude: 0
-- effective include: 6
-- effective review: 74
+- effective include: 5
+- effective review: 71
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -84,19 +84,7 @@ job_id: jobg8-23643_225660760
 reason: Exact approved Bath workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Workforce Development Administrator
-company: Adecco - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-23643_225653411
-reason: Exact approved Bath workplace.
----
-
-## REVIEW (74)
+## REVIEW (71)
 
 ---
 action: 
@@ -440,7 +428,7 @@ decision: review
 automatic_decision: review
 title: Finance Assistant
 company: Artis Recruitment - Agency - Permanent
-location: Bristol
+location: Yate
 source: JobG8
 job_id: jobg8-2042684
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
@@ -479,6 +467,18 @@ company: Red Recruitment - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225662883
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: Womens Aid - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225740656
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -527,6 +527,18 @@ company: Adecco - Agency - Contract
 location: Yate
 source: JobG8
 job_id: jobg8-23643_225730843
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Imaging Administrator
+company: Spire Healthcare - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225706294
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -618,18 +630,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Junior Accountant
-company: Ashley Rees Associates - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225650858
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal PA/Secretary - Corporate - Bristol
 company: qed legal - Agency - Permanent
 location: Bristol
@@ -647,18 +647,6 @@ company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2087524
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing and Communications Assistant
-company: Society for Endocrinology - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-2176205
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -883,18 +871,6 @@ action:
 decision: review
 automatic_decision: review
 title: Secretary / Administrator
-company: Harwood Recruitment Solutions Limited - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2103238
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Secretary / Administrator
 company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -923,30 +899,6 @@ company: Perfect Placement - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225726289
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Sytner - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225760897
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: The Solution Auto - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2104209
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

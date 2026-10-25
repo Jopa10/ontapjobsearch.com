@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 17
-- automatic exclude: 36
-- effective include: 10
-- effective review: 17
-- effective exclude: 36
+- automatic include: 9
+- automatic review: 18
+- automatic exclude: 34
+- effective include: 9
+- effective review: 18
+- effective exclude: 34
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225747065
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Financial Services Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2111325
 reason: Approved York catchment.
 ---
 
@@ -144,7 +132,19 @@ job_id: nhs-5665026
 reason: Approved York catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Magpie Recruitment - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2180626
+reason: No approved York catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -350,7 +350,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -633,18 +633,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Project Administrator
-company: Equals One Ltd - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-108215746
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Project Administrator
 company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
@@ -746,18 +734,6 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2057285
 reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Technical & Quality Support Administrator
-company: Unity Resourcing - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2081400
-reason: Separate employment market.
 ---
 
 ---

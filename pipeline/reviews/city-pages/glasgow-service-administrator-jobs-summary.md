@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 37
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 37
+- automatic include: 34
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 37
+- effective include: 34
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (37)
+## INCLUDE (34)
 
 ---
 action: 
@@ -232,18 +232,6 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Lettings Administrator
-company: Reed - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2149866
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Licensing Coordinator
 company: Adecco - Agency - Temporary
 location: Glasgow
@@ -321,18 +309,6 @@ company: Adecco - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225737154
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Administrator
-company: Reed - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2091438
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -453,18 +429,6 @@ company: Office Angels - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225673377
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Technical Administrator
-company: Office Angels - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225660265
 reason: Approved conservative Glasgow launch catchment.
 ---
 

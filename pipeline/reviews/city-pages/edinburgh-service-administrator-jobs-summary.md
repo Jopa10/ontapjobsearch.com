@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 13
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 14
+- effective include: 13
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (13)
 
 ---
 action: 
@@ -64,42 +64,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator/ Co-ordinator
-company: Spire Healthcare - Company - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225757658
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bank Reception Administrator
-company: Spire Healthcare - Company - Temporary
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225655590
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Administrator
-company: Spire Healthcare - Company - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225650324
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Business Coordinator
 company: Get Staffed - Agency - Permanent
 location: Edinburgh
@@ -129,6 +93,18 @@ company: Pontoon - Agency - Temporary
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225696402
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Search Consultancy Ltd - Agency - Contract
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225757111
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -189,6 +165,18 @@ company: Office Angels - Agency - Temporary
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225718450
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Theatre Administrator
+company: Spire Healthcare - Company - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225708327
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
