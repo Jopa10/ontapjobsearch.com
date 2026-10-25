@@ -1,11 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getPublishedJob } from "@/lib/published-jobs";
 import { isCpcJobAlertEligible } from "@/lib/cpc-job-alerts";
+import { saveJobAlert } from "@/lib/job-alert-signup";
 
 export const runtime = "nodejs";
 
-const BREVO_CONTACTS_URL = "https://api.brevo.com/v3/contacts";
-const CONSENT_VERSION = "cpc-job-alert-v1";
 const MAX_BODY_BYTES = 8_000;
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -63,31 +62,17 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Job alerts are not available just yet." }, { status: 503 });
   }
 
-  const attributes = {
-    ALERT_ROLE: role,
-    ALERT_LOCATION: location,
-    ALERT_SALARY: salary,
-    ALERT_JOB_ID: job.job_id,
-    ALERT_SOURCE: job.source,
-    ALERT_CONSENT_AT: new Date().toISOString(),
-    ALERT_CONSENT_VERSION: CONSENT_VERSION,
-  };
-
   try {
-    const response = await fetch(BREVO_CONTACTS_URL, {
-      method: "POST",
-      headers: { "api-key": apiKey, "content-type": "application/json", accept: "application/json" },
-      body: JSON.stringify({ email, attributes, listIds: [listId], updateEnabled: true }),
-      signal: AbortSignal.timeout(8_000),
-      cache: "no-store",
-    });
-    if (!response.ok) {
-      console.error("Brevo job-alert contact upsert failed", response.status);
-      return NextResponse.json({ error: "We couldn’t save your alert just now." }, { status: 502 });
+    const result = await saveJobAlert(
+      { email, role, location, salary, jobId: job.job_id, source: job.source },
+      { env: process.env },
+    );
+    if (!result.confirmationSent && !result.unchanged) {
+      console.warn("Alert saved; signup confirmation was not accepted or is awaiting retry.");
     }
-    return NextResponse.json({ ok: true });
-  } catch (error) {
-    console.error("Brevo job-alert request failed", error);
-    return NextResponse.json({ error: "We couldn’t save your alert just now." }, { status: 502 });
+    return NextResponse.json(result);
+  } catch {
+    console.error("Brevo job-alert signup failed");
+    return NextResponse.json({ error: "We couldn't save your alert just now. Please try again." }, { status: 502 });
   }
 }

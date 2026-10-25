@@ -7,6 +7,9 @@ on:
       - pipeline/scripts/send_cpc_job_alerts.py
       - pipeline/tests/test_send_cpc_job_alerts.py
       - .github/workflows/private-cpc-daily-test.yml
+      - lib/job-alert-signup.ts
+      - app/api/job-alerts/route.ts
+      - tests/job-alert-signup.test.ts
 
 concurrency:
   group: ontap-private-cpc-daily-test
@@ -30,6 +33,31 @@ jobs:
       - name: Test matching and private daily delivery safeguards
         working-directory: pipeline
         run: python -m unittest discover -s tests -p 'test_send_cpc_job_alerts.py' -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install locked dependencies without lifecycle scripts
+        run: npm ci --ignore-scripts
+      - name: Test signup confirmations and existing Preview safeguards
+        run: npx tsx --test tests/job-alert-signup.test.ts tests/private-job-alert-test.test.ts tests/cpc-job-alerts.test.ts
+      - name: Ensure the private signup confirmation tracking attribute exists
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          from pipeline.scripts.send_cpc_job_alerts import _brevo_request
+          key = os.environ["BREVO_API_KEY"]
+          attrs = _brevo_request("GET", "/contacts/attributes", key).get("attributes", [])
+          name = "ALERT_CONFIRMATION_STATE"
+          found = [attr for attr in attrs if attr.get("name") == name]
+          if found and (found[0].get("category") != "normal" or found[0].get("type") != "text"):
+              raise SystemExit("The signup confirmation attribute has an unexpected type")
+          if not found:
+              _brevo_request("POST", "/contacts/attributes/normal/" + name, key, {"type": "text"})
+          print("Private signup confirmation tracking attribute ready; no email sent.")
+          PY
       - name: Read current published job data (no scripts run from main)
         uses: actions/checkout@v4
         with:
