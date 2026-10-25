@@ -13,6 +13,11 @@ from io import StringIO
 from pathlib import Path
 from typing import Any, Iterable
 
+try:
+    from .jobg8_title_policy import is_jobg8_accountant_title
+except ImportError:
+    from jobg8_title_policy import is_jobg8_accountant_title
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_REGISTER = Path("pipeline/city_pages/city-page-register.json")
 VALID_DECISIONS = {"include", "review", "exclude"}
@@ -269,6 +274,13 @@ def first_match(text: str, rules: Iterable[Rule]) -> Rule | None:
 
 def classify_job(job: dict[str, Any], config: CityConfig) -> tuple[str, str, str]:
     """Classify using stated location; context may exclude/review, never include."""
+    if is_jobg8_accountant_title(job):
+        return (
+            "exclude",
+            "jobg8_accountant_title",
+            "JobG8 Accountant titles are always excluded.",
+        )
+
     location = normalise(job.get("location"))
     context = normalise(
         " ".join(str(job.get(field, "")) for field in ("company", "summary"))
@@ -391,8 +403,13 @@ def derive_rows(
         sheet_job_id = review_job_id(job)
         raw_job_id = str(job.get("job_id", "")).strip()
         override = overrides.get(sheet_job_id, overrides.get(raw_job_id, ""))
-        decision = override or automatic
-        action = "select" if override == "include" else override
+        hard_excluded = rule == "jobg8_accountant_title"
+        decision = automatic if hard_excluded else override or automatic
+        action = (
+            ""
+            if hard_excluded
+            else "select" if override == "include" else override
+        )
         rows.append(
             {
                 "decision": decision,
