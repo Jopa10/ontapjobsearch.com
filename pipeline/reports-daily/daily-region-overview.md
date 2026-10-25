@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Production source commit: `435e56842958a416c326d3694872f82feb5538d5`
+Production source commit: `8e3f43a1877e741b08c444a3c7fbc98ca9072246`
 
-Generated: 2026-10-25T13:33:08+00:00
+Generated: 2026-10-25T16:14:17+00:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -21,7 +21,7 @@ Generated: 2026-10-25T13:33:08+00:00
 
 **Reconciliation: 4,124 unique jobs + 809 extra slice placements = 4,933 regional/category slice placements.**
 
-Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-25.csv` — **STALE — CSV says 4,209 for 2026-10-25**.
+Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-25.csv` — **STALE — CSV says 4,168 for 2026-10-25**.
 
 ### Provider breakdown
 
