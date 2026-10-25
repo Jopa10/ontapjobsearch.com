@@ -101,18 +101,31 @@ class ServiceAdminOwnerSelectionRuleTests(unittest.TestCase):
         self.assertEqual("HIGH_CONFIDENCE", jobs["pt-team-leader"]["_title_classification"])
 
 
-    def test_part_time_finance_unknown_hours_is_retained_for_manual_review(self):
+    def test_part_time_finance_unknown_hours_does_not_create_a_review(self):
         job = make_job(
             "pt-unknown",
-            "Finance Manager - Part Time",
+            "Finance Assistant - Part Time",
             30_000,
-            "Part-time role. Salary depends on experience; hours to be agreed.",
+            "Part-time role. £30,000 per year; hours to be agreed.",
         )
         job[COL["employment_type"]] = "Part-time"
         jobs, reports = run_rows([job])
         self.assertIn("pt-unknown", jobs)
-        self.assertEqual("1", jobs["pt-unknown"]["_review_required"])
-        self.assertIn("hours are unclear", reports["pt-unknown"]["reason"])
+        self.assertEqual("", jobs["pt-unknown"]["_review_required"])
+        self.assertNotIn("hours are unclear", reports["pt-unknown"]["reason"])
+
+    def test_part_time_manager_still_goes_to_owner_review_with_unclear_hours(self):
+        job = make_job(
+            "pt-manager-unknown",
+            "Finance Manager - Part Time",
+            30_000,
+            "Part-time role. £30,000 per year; hours to be agreed.",
+        )
+        job[COL["employment_type"]] = "Part-time"
+        jobs, reports = run_rows([job])
+        self.assertIn("pt-manager-unknown", jobs)
+        self.assertEqual("1", jobs["pt-manager-unknown"]["_review_required"])
+        self.assertIn("part-time manager role requires owner review", reports["pt-manager-unknown"]["reason"])
 
 
     def test_explicit_language_and_it_support_fail_but_description_only_import_export_does_not(self):
