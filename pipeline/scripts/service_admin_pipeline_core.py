@@ -1779,8 +1779,9 @@ def assess_part_time_role(
     """Apply a scoped part-time exception using actual earnings.
 
     Hourly rates are annualised using stated weekly hours. Annual FTE/pro-rata
-    ranges are reduced by the stated hours against a 37.5-hour week. When part-
-    time status, hours or earnings cannot be established, return review.
+    ranges are reduced by the stated hours against a 37.5-hour week. Missing
+    hours alone do not trigger review: use the ordinary salary band against
+    the salary assessment's annual figure. Missing earnings remain review.
     """
     title_key = normalise_title_for_register(title)
     text = " ".join((employment_type or "", description or ""))
@@ -1801,11 +1802,19 @@ def assess_part_time_role(
     if PART_TIME_ALWAYS_EXCLUDE_TITLE_RE.search(title_key):
         return True, "exclude", salary_assessment.annual_upper_gbp, "director/head or specialist finance work"
 
-    if stated_hours is None or stated_hours <= 0 or stated_hours > 168:
-        return True, "review", None, "part-time hours are unclear"
     annual_upper = salary_assessment.annual_upper_gbp
     if annual_upper is None:
         return True, "review", None, "part-time earnings are unclear"
+
+    hours_unclear = stated_hours is None or stated_hours <= 0 or stated_hours > 168
+    if hours_unclear:
+        if annual_upper > 50_000:
+            return True, "exclude", annual_upper, "salary over £50k"
+        if always_review:
+            return True, "review", annual_upper, "part-time manager role requires owner review"
+        if annual_upper > 40_000:
+            return True, "review", annual_upper, "salary over £40k under normal selection rules"
+        return True, "ok", annual_upper, "salary at or below £40k under normal selection rules"
 
     # assess_salary annualises hourly pay on a 37.5-hour week. Correct that to
     # the advertised part-time hours; annual FTE/pro-rata salary ranges use the

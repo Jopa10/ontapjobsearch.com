@@ -125,7 +125,7 @@ class ServiceAdminOwnerHardFailTests(unittest.TestCase):
         self.assertEqual(20_800, annual)
         self.assertIn("at or below £40k", reason)
 
-    def test_part_time_finance_with_unclear_hours_is_review(self) -> None:
+    def test_part_time_finance_unclear_hours_uses_normal_salary_rules(self) -> None:
         assessment = SalaryAssessment("ok", 30_000, 37_000, "annual salary")
         active, status, annual, reason = assess_part_time_finance(
             title="Finance Assistant - Part Time",
@@ -136,9 +136,9 @@ class ServiceAdminOwnerHardFailTests(unittest.TestCase):
             salary_assessment=assessment,
         )
         self.assertTrue(active)
-        self.assertEqual("review", status)
-        self.assertIsNone(annual)
-        self.assertIn("hours are unclear", reason)
+        self.assertEqual("ok", status)
+        self.assertEqual(30_000, annual)
+        self.assertIn("normal selection rules", reason)
 
     def test_part_time_fte_salary_is_converted_to_actual_earnings(self) -> None:
         assessment = SalaryAssessment("review", 46_000, 37_000, "FTE salary")

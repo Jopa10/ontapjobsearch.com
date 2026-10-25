@@ -233,11 +233,9 @@ class AgreedTitleRuleTests(unittest.TestCase):
         practical_titles = (
             "Credit Controller",
             "Bookkeeper",
-            "Junior Accountant",
             "Junior Bookkeeper",
             "Legal Administrator",
             "Legal Assistant",
-            "Management Accountant Assistant",
         )
         for title in practical_titles:
             with self.subTest(title=title):
@@ -245,6 +243,21 @@ class AgreedTitleRuleTests(unittest.TestCase):
                     title, self.admin_register
                 )
                 self.assertEqual("HIGH_CONFIDENCE", classification)
+
+    def test_all_accountant_titles_are_hard_passed(self) -> None:
+        titles = (
+            "Junior Accountant",
+            "Assistant Accountant",
+            "Assistant Management Accountant",
+            "Management Accountant Assistant",
+            "Financial Accountant",
+        )
+        for title in titles:
+            with self.subTest(title=title):
+                classification, _reason, _priority, _stability = admin.classify_title(
+                    title, self.admin_register
+                )
+                self.assertEqual("HARD_PASS", classification)
 
     def test_legal_practitioner_titles_are_hard_passed(self) -> None:
         titles = (
