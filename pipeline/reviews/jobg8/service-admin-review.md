@@ -542,17 +542,15 @@ job_id: 23643_225729716
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £35000 - £40000 per year [JobG8 salary fields] | Executive Assistant
 job_id: 23643_225744497
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £40000 - £45000 per year (£40-£45,000 DOE) [JobG8 salary fields] | PA
 job_id: 23643_225752169
 ---
-
 ---
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | no salary in JobG8 salary fields; no supported salary amount found in description | Bank Theatre Administrator
@@ -596,11 +594,10 @@ job_id: 2165855
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | £20 - £21 per hour (Freelance Contract, Long Term Work) [JobG8 salary fields] | Construction Project Site Administrator
 job_id: 23643_225753839
 ---
-
 ---
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Ilkley | £35000 - £50000 per year [JobG8 salary fields] | Practice Manager/Accountant
@@ -906,11 +903,10 @@ job_id: 23643_225740720
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £35000 - £39000 per year (Pension) [JobG8 salary fields] | Secretary / Assistant EA
 job_id: 23643_225747598
 ---
-
 ---
 action:
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Bentley | £28 - £30 per hour (Plus Company Benefits) [JobG8 salary fields] | Payroll Administrator
@@ -2796,11 +2792,10 @@ job_id: 2124410
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £40000 - £50000 per year [JobG8 salary fields] | Company Secretary Assistant
 job_id: 2155607
 ---
-
 ---
 action:
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Lettings Hub Administrator
@@ -2814,17 +2809,15 @@ job_id: 2104168
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £17 - £23 per hour [JobG8 salary fields] | Repairs Administrator
 job_id: 23643_225743045
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £16 - £22 per hour [JobG8 salary fields] | Income Administrator
 job_id: 23643_225743111
 ---
-
 ---
 action:
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Payable Administrator
@@ -2832,29 +2825,25 @@ job_id: 23643_225743759
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £47000 - £50000 per year [JobG8 salary fields] | Executive Assistant
 job_id: 23643_225749434
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £42000 - £45000 per year (Benefits) [JobG8 salary fields] | Service Advisor
 job_id: 23643_225751758
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £45000 per year [JobG8 salary fields] | Service Advisor
 job_id: 2165709
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Executive Assistant
 job_id: 2167807
 ---
-
 ---
 action:
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Interim Finance Assistant
@@ -2880,11 +2869,10 @@ job_id: 2175126
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £42000 - £45000 per year (Training + Progression) [JobG8 salary fields] | Lift & Escalator Operations Administrator
 job_id: 23643_225756915
 ---
-
 ---
 action:
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Receptionist FTC
@@ -2922,11 +2910,10 @@ job_id: 2074947
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Borehamwood | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 2164756
 ---
-
 ---
 action:
 POSS - LONDON | London | Lambeth | £15.85 per hour [JobG8 salary fields] | Part-Time Finance Officer
@@ -2964,11 +2951,10 @@ job_id: 2114618
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £18 - £22 per hour [JobG8 salary fields] | Facilities Coordinator
 job_id: 23643_225753470
 ---
-
 ---
 action:
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Document Controller
@@ -5610,17 +5596,15 @@ job_id: 23643_225707304
 ---
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Sussex | £38000 - £40000 per year | Assistant Accountant
 job_id: 23643_225742498
 ---
-
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Sussex | £36000 - £40000 per year | Assistant Accountant
 job_id: 23643_225742499
 ---
-
 ---
 action:
 POSS - SUSSEX | Sussex | Sussex |  | IP Records Administrator
@@ -5646,7 +5630,7 @@ job_id: 23643_225716566
 ---
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Sussex | £40000 - £45000 per year | Sales Support Executive
 job_id: 23643_225759198
 ---
@@ -6069,7 +6053,7 @@ job_id: 23643_225640022
 ---
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £35000 - £40000 per year | Logistics & Installations Coordinator
 job_id: 23643_225754324
 ---
@@ -7332,11 +7316,10 @@ job_id: 23643_225722698
 ---
 
 ---
-action:
+action: exclude
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £45000 - £50000 per year | Procurement Assistant
 job_id: 23643_225742612
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -7906,11 +7889,10 @@ job_id: 23643_225729405
 ---
 
 ---
-action:
+action: exclude
 POSS - CHESHIRE - WEST | Cheshire - West | Chester | £36000 - £42000 per year (Plus fantastic bonus and benefits) | Payouts Administrator
 job_id: 23643_225759630
 ---
-
 ---
 action:
 POSS - CHESHIRE - WEST | Cheshire - West | Northwich |  | Part Time Payroll Assistant
@@ -8750,11 +8732,10 @@ job_id: 23643_225689189
 ---
 
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Dorset | £40000 - £45000 per year | Document Administrator
 job_id: 23643_225755741
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -10022,11 +10003,10 @@ job_id: 2178933
 ---
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £38856 - £43174 per year | Assistant Private Secretary
 job_id: 23643_225759283
 ---
-
 ## GREATER MANCHESTER - NORTH — SELECTED
 
 ---
@@ -10294,11 +10274,10 @@ job_id: 2045948
 ---
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - SOUTH | Greater Manchester - South | Stockport | £35000 - £40000 per year (+ Package) | Social Value Wellbeing Coordinator
 job_id: 23643_225744140
 ---
-
 ## GREATER MANCHESTER - WIGAN & BOLTON — SELECTED
 
 ---
@@ -10412,11 +10391,10 @@ job_id: 23643_225696141
 ---
 
 ---
-action:
+action: exclude
 POSS - GREATER MANCHESTER - WIGAN & BOLTON | Greater Manchester - Wigan & Bolton | Bolton | £30000 - £42000 per year | Warranty / R&M Administrator
 job_id: 2126055
 ---
-
 ## HEREFORDSHIRE — SELECTED
 
 ---
@@ -11056,11 +11034,10 @@ job_id: 23643_225746866
 ---
 
 ---
-action:
+action: exclude
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £22 per hour | Early Careers Co-Ordinator
 job_id: 23643_225752549
 ---
-
 ## LANCASHIRE - CENTRAL — SELECTED
 
 ---
@@ -12302,11 +12279,10 @@ job_id: 2126041
 ---
 
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk | £40000 - £45000 per year | Executive Assistant
 job_id: 23643_225743545
 ---
-
 ---
 action:
 POSS - NORFOLK | Norfolk | Norfolk |  | Office Assistant / Junior Business Support Administrator
@@ -12326,11 +12302,10 @@ job_id: 23643_225617793
 ---
 
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk | £35000 - £40000 per year (P/hr pro rata) | Marketing Coordinator
 job_id: 23643_225745890
 ---
-
 ## NORTH SCOTLAND — SELECTED
 
 ---
@@ -13556,11 +13531,10 @@ job_id: 108079592
 ---
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £30000 - £35000 per year (+ Company Benefits + 33 Days Holiday) | Procurement Administrator
 job_id: 23643_225743229
 ---
-
 ---
 action:
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £15.38 per hour | Payroll and Administration Assistant
@@ -13580,11 +13554,10 @@ job_id: 2178941
 ---
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £30000 - £40000 per year (+ Package) | Procurement Assistant
 job_id: 23643_225752697
 ---
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
@@ -14384,11 +14357,10 @@ job_id: 23643_225751871
 ---
 
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset | £13.77 - £20.65 per hour (Night shift) | Transport Administration Assistant
 job_id: 23643_225754850
 ---
-
 ---
 action:
 POSS - SOMERSET | Somerset | Somerset | £35000 - £48000 per year | Accounts and Office Manager
@@ -15744,11 +15716,10 @@ job_id: 2104175
 ---
 
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £40000 - £47000 per year (Fixed Term Contract) | Personal Assistant
 job_id: 23643_225746924
 ---
-
 ---
 action:
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham |  | Streetworks Faults Administrator
@@ -15786,11 +15757,10 @@ job_id: 23643_225734548
 ---
 
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £40000 per year | Purchasing Assistant
 job_id: 2169203
 ---
-
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
 ---

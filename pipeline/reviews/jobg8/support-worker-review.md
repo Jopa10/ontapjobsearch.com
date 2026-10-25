@@ -192,11 +192,10 @@ job_id: 108215280
 ## CUMBRIA SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CUMBRIA - SOUTH | Cumbria - South | Barrow-in-furness | £12.71 - £18 per hour | Female Bank Rehabilitation Support Worker
 job_id: 23643_225712948
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -262,11 +261,10 @@ job_id: 23643_225761985
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Havant | £34273 - £37570 per year | Child and Family Support Worker
 job_id: 1401786041
 ---
-
 ## KENT — SELECTED
 
 ---
