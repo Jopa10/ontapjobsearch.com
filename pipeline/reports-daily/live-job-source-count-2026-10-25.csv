@@ -1,10 +1,10 @@
 report_date,level,source,region,category,count
-2026-10-25,total,All,,,4209
-2026-10-25,source_summary,JobG8,,,3668
-2026-10-25,source_summary,External,,,541
-2026-10-25,provider,JobG8,,,3668
+2026-10-25,total,All,,,4168
+2026-10-25,source_summary,JobG8,,,3633
+2026-10-25,source_summary,External,,,535
+2026-10-25,provider,JobG8,,,3633
 2026-10-25,provider,NHS Jobs,,,311
-2026-10-25,provider,Teaching Vacancies,,,230
+2026-10-25,provider,Teaching Vacancies,,,224
 2026-10-25,region_category,JobG8,Bedfordshire,Admin/Service – Office Support,28
 2026-10-25,region_category,JobG8,Berkshire,Admin/Service – Office Support,43
 2026-10-25,region_category,JobG8,Berkshire,Customer Sales / Sales Advisor,19
@@ -12,7 +12,7 @@ report_date,level,source,region,category,count
 2026-10-25,region_category,JobG8,Berkshire,HR / Recruitment,4
 2026-10-25,region_category,JobG8,Berkshire,Legal Assistant / Paralegal,9
 2026-10-25,region_category,JobG8,Berkshire,Marketing,10
-2026-10-25,region_category,JobG8,Bristol & Bath,Admin/Service – Office Support,41
+2026-10-25,region_category,JobG8,Bristol & Bath,Admin/Service – Office Support,40
 2026-10-25,region_category,JobG8,Bristol & Bath,Customer Sales / Sales Advisor,15
 2026-10-25,region_category,JobG8,Bristol & Bath,Finance / Accounts,9
 2026-10-25,region_category,JobG8,Bristol & Bath,Legal Assistant / Paralegal,7
@@ -21,13 +21,13 @@ report_date,level,source,region,category,count
 2026-10-25,region_category,JobG8,Buckinghamshire,Finance / Accounts,11
 2026-10-25,region_category,JobG8,Buckinghamshire,Legal Assistant / Paralegal,8
 2026-10-25,region_category,JobG8,Buckinghamshire,Marketing,11
-2026-10-25,region_category,JobG8,Cambridgeshire,Admin/Service – Office Support,34
+2026-10-25,region_category,JobG8,Cambridgeshire,Admin/Service – Office Support,32
 2026-10-25,region_category,JobG8,Cambridgeshire,Customer Sales / Sales Advisor,8
-2026-10-25,region_category,JobG8,Cambridgeshire,Finance / Accounts,6
+2026-10-25,region_category,JobG8,Cambridgeshire,Finance / Accounts,5
 2026-10-25,region_category,JobG8,Cambridgeshire,Marketing,7
 2026-10-25,region_category,JobG8,Cheshire - East,Admin/Service – Office Support,12
 2026-10-25,region_category,JobG8,Cheshire - East,Customer Sales / Sales Advisor,5
-2026-10-25,region_category,JobG8,Cheshire - Warrington & Halton,Admin/Service – Office Support,14
+2026-10-25,region_category,JobG8,Cheshire - Warrington & Halton,Admin/Service – Office Support,13
 2026-10-25,region_category,JobG8,Cheshire - Warrington & Halton,Finance / Accounts,17
 2026-10-25,region_category,JobG8,Cheshire - Warrington & Halton,Marketing,3
 2026-10-25,region_category,JobG8,Cheshire - West,Admin/Service – Office Support,9
@@ -40,21 +40,21 @@ report_date,level,source,region,category,count
 2026-10-25,region_category,JobG8,Derbyshire,Admin/Service – Office Support,29
 2026-10-25,region_category,JobG8,Devon,Admin/Service – Office Support,43
 2026-10-25,region_category,JobG8,Devon,Customer Sales / Sales Advisor,3
-2026-10-25,region_category,JobG8,Dorset,Admin/Service – Office Support,22
+2026-10-25,region_category,JobG8,Dorset,Admin/Service – Office Support,21
 2026-10-25,region_category,JobG8,Dorset,Customer Sales / Sales Advisor,9
 2026-10-25,region_category,JobG8,Dorset,Finance / Accounts,12
 2026-10-25,region_category,JobG8,Essex,Admin/Service – Office Support,51
 2026-10-25,region_category,JobG8,Essex,Customer Sales / Sales Advisor,8
 2026-10-25,region_category,JobG8,Essex,Finance / Accounts,23
 2026-10-25,region_category,JobG8,Essex,HR / Recruitment,3
-2026-10-25,region_category,JobG8,Essex,Legal Assistant / Paralegal,26
+2026-10-25,region_category,JobG8,Essex,Legal Assistant / Paralegal,25
 2026-10-25,region_category,JobG8,Essex,Marketing,5
 2026-10-25,region_category,JobG8,Gloucestershire,Admin/Service – Office Support,30
 2026-10-25,region_category,JobG8,Gloucestershire,Customer Sales / Sales Advisor,6
 2026-10-25,region_category,JobG8,Gloucestershire,Finance / Accounts,18
 2026-10-25,region_category,JobG8,Gloucestershire,HR / Recruitment,2
 2026-10-25,region_category,JobG8,Gloucestershire,Marketing,1
-2026-10-25,region_category,JobG8,Greater Manchester - Manchester & Salford,Admin/Service – Office Support,55
+2026-10-25,region_category,JobG8,Greater Manchester - Manchester & Salford,Admin/Service – Office Support,53
 2026-10-25,region_category,JobG8,Greater Manchester - Manchester & Salford,Customer Sales / Sales Advisor,10
 2026-10-25,region_category,JobG8,Greater Manchester - Manchester & Salford,Customer Service / Contact Centre,9
 2026-10-25,region_category,JobG8,Greater Manchester - Manchester & Salford,Finance / Accounts,21
@@ -63,10 +63,10 @@ report_date,level,source,region,category,count
 2026-10-25,region_category,JobG8,Greater Manchester - Manchester & Salford,Marketing,21
 2026-10-25,region_category,JobG8,Greater Manchester - North,Admin/Service – Office Support,8
 2026-10-25,region_category,JobG8,Greater Manchester - North,Finance / Accounts,9
-2026-10-25,region_category,JobG8,Greater Manchester - South,Admin/Service – Office Support,28
+2026-10-25,region_category,JobG8,Greater Manchester - South,Admin/Service – Office Support,27
 2026-10-25,region_category,JobG8,Greater Manchester - South,Marketing,2
 2026-10-25,region_category,JobG8,Greater Manchester - Wigan & Bolton,Admin/Service – Office Support,18
-2026-10-25,region_category,JobG8,Hampshire,Admin/Service – Office Support,71
+2026-10-25,region_category,JobG8,Hampshire,Admin/Service – Office Support,66
 2026-10-25,region_category,JobG8,Hampshire,Customer Sales / Sales Advisor,28
 2026-10-25,region_category,JobG8,Hampshire,Customer Service / Contact Centre,10
 2026-10-25,region_category,JobG8,Hampshire,Finance / Accounts,34
@@ -90,11 +90,11 @@ report_date,level,source,region,category,count
 2026-10-25,region_category,JobG8,Kent,Support Worker – Wide,8
 2026-10-25,region_category,JobG8,Lancashire - Central,Admin/Service – Office Support,9
 2026-10-25,region_category,JobG8,Lancashire - East,Admin/Service – Office Support,7
-2026-10-25,region_category,JobG8,Leicestershire,Admin/Service – Office Support,37
+2026-10-25,region_category,JobG8,Leicestershire,Admin/Service – Office Support,35
 2026-10-25,region_category,JobG8,Leicestershire,Customer Sales / Sales Advisor,5
 2026-10-25,region_category,JobG8,Leicestershire,Finance / Accounts,25
 2026-10-25,region_category,JobG8,Leicestershire,HR / Recruitment,7
-2026-10-25,region_category,JobG8,Lincolnshire,Admin/Service – Office Support,23
+2026-10-25,region_category,JobG8,Lincolnshire,Admin/Service – Office Support,19
 2026-10-25,region_category,JobG8,London,Admin/Service – Office Support,201
 2026-10-25,region_category,JobG8,London,Customer Sales / Sales Advisor,77
 2026-10-25,region_category,JobG8,London,Customer Service / Contact Centre,10
@@ -128,9 +128,8 @@ report_date,level,source,region,category,count
 2026-10-25,region_category,JobG8,Northamptonshire,Customer Sales / Sales Advisor,11
 2026-10-25,region_category,JobG8,Northamptonshire,Finance / Accounts,16
 2026-10-25,region_category,JobG8,Northamptonshire,Marketing,5
-2026-10-25,region_category,JobG8,Northern Ireland - East,Admin/Service – Office Support,2
-2026-10-25,region_category,JobG8,Northern Ireland - East,Finance / Accounts,8
-2026-10-25,region_category,JobG8,Northern Ireland - East,Marketing,1
+2026-10-25,region_category,JobG8,Northern Ireland - East,Admin/Service – Office Support,5
+2026-10-25,region_category,JobG8,Northern Ireland - East,Finance / Accounts,5
 2026-10-25,region_category,JobG8,Nottinghamshire,Admin/Service – Office Support,30
 2026-10-25,region_category,JobG8,Nottinghamshire,Customer Sales / Sales Advisor,8
 2026-10-25,region_category,JobG8,Nottinghamshire,Finance / Accounts,15
@@ -173,23 +172,23 @@ report_date,level,source,region,category,count
 2026-10-25,region_category,JobG8,Surrey,Legal Assistant / Paralegal,21
 2026-10-25,region_category,JobG8,Surrey,Marketing,18
 2026-10-25,region_category,JobG8,Surrey,Support Worker – Wide,7
-2026-10-25,region_category,JobG8,Sussex,Admin/Service – Office Support,49
+2026-10-25,region_category,JobG8,Sussex,Admin/Service – Office Support,47
 2026-10-25,region_category,JobG8,Sussex,Customer Sales / Sales Advisor,11
 2026-10-25,region_category,JobG8,Sussex,Customer Service / Contact Centre,5
 2026-10-25,region_category,JobG8,Sussex,Finance / Accounts,31
 2026-10-25,region_category,JobG8,Sussex,HR / Recruitment,4
 2026-10-25,region_category,JobG8,Sussex,Marketing,8
 2026-10-25,region_category,JobG8,Sussex,Support Worker – Wide,20
-2026-10-25,region_category,JobG8,Wales South - Cardiff & Vale,Admin/Service – Office Support,20
+2026-10-25,region_category,JobG8,Wales South - Cardiff & Vale,Admin/Service – Office Support,19
 2026-10-25,region_category,JobG8,Wales South - Cardiff & Vale,Finance / Accounts,2
 2026-10-25,region_category,JobG8,Wales South - Gwent,Admin/Service – Office Support,8
 2026-10-25,region_category,JobG8,Wales South - Swansea Bay,Admin/Service – Office Support,9
 2026-10-25,region_category,JobG8,Wales South - Valleys,Admin/Service – Office Support,3
-2026-10-25,region_category,JobG8,West Midlands - Birmingham & Solihull,Admin/Service – Office Support,70
-2026-10-25,region_category,JobG8,West Midlands - Birmingham & Solihull,Finance / Accounts,18
+2026-10-25,region_category,JobG8,West Midlands - Birmingham & Solihull,Admin/Service – Office Support,67
+2026-10-25,region_category,JobG8,West Midlands - Birmingham & Solihull,Finance / Accounts,17
 2026-10-25,region_category,JobG8,West Midlands - Birmingham & Solihull,HR / Recruitment,5
 2026-10-25,region_category,JobG8,West Midlands - Birmingham & Solihull,Legal Assistant / Paralegal,3
-2026-10-25,region_category,JobG8,West Midlands - Birmingham & Solihull,Marketing,6
+2026-10-25,region_category,JobG8,West Midlands - Birmingham & Solihull,Marketing,5
 2026-10-25,region_category,JobG8,West Midlands - Black Country,Admin/Service – Office Support,27
 2026-10-25,region_category,JobG8,West Midlands - Black Country,Finance / Accounts,8
 2026-10-25,region_category,JobG8,West Midlands - Coventry & Warwickshire,Admin/Service – Office Support,39
@@ -210,11 +209,11 @@ report_date,level,source,region,category,count
 2026-10-25,region_category,JobG8,Yorkshire - North,Finance / Accounts,9
 2026-10-25,region_category,JobG8,Yorkshire - North,Legal Assistant / Paralegal,20
 2026-10-25,region_category,JobG8,Yorkshire - North,Marketing,4
-2026-10-25,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,34
+2026-10-25,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,30
 2026-10-25,region_category,JobG8,Yorkshire - South,Finance / Accounts,13
 2026-10-25,region_category,JobG8,Yorkshire - South,Marketing,5
 2026-10-25,region_category,JobG8,Yorkshire - South,Support Worker – Wide,1
-2026-10-25,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,58
+2026-10-25,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,57
 2026-10-25,region_category,JobG8,Yorkshire - West,Customer Sales / Sales Advisor,13
 2026-10-25,region_category,JobG8,Yorkshire - West,Customer Service / Contact Centre,12
 2026-10-25,region_category,JobG8,Yorkshire - West,Finance / Accounts,25
@@ -277,8 +276,8 @@ report_date,level,source,region,category,count
 2026-10-25,region_category,Teaching Vacancies,Bedfordshire,Admin/Service – Office Support,5
 2026-10-25,region_category,Teaching Vacancies,Berkshire,Admin/Service – Office Support,8
 2026-10-25,region_category,Teaching Vacancies,Bristol & Bath,Admin/Service – Office Support,5
-2026-10-25,region_category,Teaching Vacancies,Buckinghamshire,Admin/Service – Office Support,7
-2026-10-25,region_category,Teaching Vacancies,Cambridgeshire,Admin/Service – Office Support,17
+2026-10-25,region_category,Teaching Vacancies,Buckinghamshire,Admin/Service – Office Support,6
+2026-10-25,region_category,Teaching Vacancies,Cambridgeshire,Admin/Service – Office Support,16
 2026-10-25,region_category,Teaching Vacancies,Cheshire - East,Admin/Service – Office Support,2
 2026-10-25,region_category,Teaching Vacancies,Cornwall,Admin/Service – Office Support,1
 2026-10-25,region_category,Teaching Vacancies,Cumbria - North,Admin/Service – Office Support,1
@@ -311,9 +310,9 @@ report_date,level,source,region,category,count
 2026-10-25,region_category,Teaching Vacancies,West Midlands - Birmingham & Solihull,Admin/Service – Office Support,15
 2026-10-25,region_category,Teaching Vacancies,West Midlands - Black Country,Admin/Service – Office Support,3
 2026-10-25,region_category,Teaching Vacancies,West Midlands - Coventry & Warwickshire,Admin/Service – Office Support,4
-2026-10-25,region_category,Teaching Vacancies,Wiltshire,Admin/Service – Office Support,11
+2026-10-25,region_category,Teaching Vacancies,Wiltshire,Admin/Service – Office Support,9
 2026-10-25,region_category,Teaching Vacancies,Worcestershire,Admin/Service – Office Support,3
 2026-10-25,region_category,Teaching Vacancies,Yorkshire - East,Admin/Service – Office Support,4
-2026-10-25,region_category,Teaching Vacancies,Yorkshire - North,Admin/Service – Office Support,6
+2026-10-25,region_category,Teaching Vacancies,Yorkshire - North,Admin/Service – Office Support,5
 2026-10-25,region_category,Teaching Vacancies,Yorkshire - South,Admin/Service – Office Support,10
-2026-10-25,region_category,Teaching Vacancies,Yorkshire - West,Admin/Service – Office Support,17
+2026-10-25,region_category,Teaching Vacancies,Yorkshire - West,Admin/Service – Office Support,16
