@@ -6,9 +6,105 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 536
+remembered_exclusions: 544
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-25
+title: Warranty / R&M Administrator
+employer: Clarify Consultancy Ltd
+region: 
+town: Lancashire
+salary: 
+job_id: 2126055
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-25
+title: Procurement Assistant
+employer: Fawkes & Reece London
+region: 
+town: Buckinghamshire
+salary: 
+job_id: 23643_225742612
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-25
+title: Personal Assistant
+employer: Orion Electrotech
+region: 
+town: Birmingham
+salary: 
+job_id: 23643_225746924
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-25
+title: Payouts Administrator
+employer: CBC Resourcing Solutions
+region: 
+town: Cheshire
+salary: 
+job_id: 23643_225759630
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-25
+title: Facilities Coordinator
+employer: Hays Financial Market
+region: 
+town: London
+salary: 
+job_id: 23643_225753470
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-25
+title: Executive Assistant
+employer: Birchrose Associates
+region: 
+town: London
+salary: 
+job_id: 23643_225749434
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-25
+title: Executive Assistant
+employer: Birchrose Associates
+region: 
+town: London
+salary: 
+job_id: 2167807
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-25
+title: Early Careers Co-Ordinator
+employer: Line Up Aviation
+region: 
+town: Hertfordshire
+salary: 
+job_id: 23643_225752549
+---
 
 ---
 action:

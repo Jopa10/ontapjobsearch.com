@@ -2,11 +2,11 @@
 
 review_date: 2026-10-25
 
-- Open Administrative & Clerical rows reviewed: 2179
+- Open Administrative & Clerical rows reviewed: 2178
 - Auto/remembered selected: 392
 - Selected HC Tier A: 200
 - Selected HC Tier B: 192
-- POSS awaiting decision: 1693
+- POSS awaiting decision: 1692
 - Excluded: 0
 - HARD_PASS: 94
 
@@ -538,18 +538,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-0942
 factual_fingerprint: b07accf362d9a30c27e3ddf46915f558fad7fe6d86e5666e34ce46aeb5a8b5a1
----
-
----
-action:
-POSS | NHS Jobs | London | London, SE5 9RS | £31066.00 | The Havens Receptionist
-source_job_id: 5683491
-title: The Havens Receptionist
-employer: King's College Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-0940
-factual_fingerprint: b52704a543e9e95ed5457bde6bb4cbec64edaa6b6a43dc479e536e6362ad4227
 ---
 
 ---
