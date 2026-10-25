@@ -25,12 +25,6 @@ SELECTED | Yorkshire - South | Doncaster | £31000 - £32000 per year | Healthca
 job_id: 23643_225735406
 ---
 
----
-action:
-SELECTED | Yorkshire - South | Barnsley | £14.24 per hour | Bank Health Care Assistant
-job_id: 108222655
----
-
 ## SOUTH YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -619,6 +613,12 @@ job_id: 23643_225729356
 action:
 SELECTED | Surrey | Guildford | £26500 per year | Family Support Worker
 job_id: 23643_225751661
+---
+
+---
+action:
+SELECTED | Surrey | Surrey | £14.5 per hour | Night Care Assistant
+job_id: 23643_225440444
 ---
 
 ## SURREY — POSSIBLES
