@@ -34,6 +34,9 @@ jobs:
           python -m scripts.publish_verified_pages_north_yorkshire --write | tee "$report_file"
           cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Enforce JobG8 Accountant exclusion before live counts
+        run: python pipeline/scripts/enforce_jobg8_accountant_exclusion.py --app-dir app
+
       - name: Build private live-job source report
         id: live-count
         run: |
@@ -232,6 +235,7 @@ jobs:
         working-directory: pipeline
         run: |
           python -m unittest discover -s tests -p 'test_derive_city_pages.py' -v
+          python -m unittest discover -s tests -p 'test_jobg8_accountant_city_guard.py' -v
           python -m unittest discover -s tests -p 'test_active_city_page_persistence.py' -v
 
       - name: Derive and publish city pages
@@ -250,6 +254,9 @@ jobs:
           report_file="$(mktemp)"
           python -m scripts.maintain_active_city_pages | tee "$report_file"
           cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Enforce JobG8 Accountant exclusion after city-page build
+        run: python pipeline/scripts/enforce_jobg8_accountant_exclusion.py --app-dir app
 
       - name: Commit city-page outputs
         run: |
