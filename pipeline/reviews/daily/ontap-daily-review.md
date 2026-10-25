@@ -1,12 +1,12 @@
 # Ontap daily job review
 
-> **NOT READY TO REVIEW — waiting for: NEJobs, VONNE, Teaching Vacancies**
+> **NOT READY TO REVIEW — waiting for: NEJobs**
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-10-25
-generated_at: 2026-10-25T09:49:03+00:00
+generated_at: 2026-10-25T12:47:47+00:00
 
-**206 job(s) await a human decision; 1 already answered (207 review rows).**
+**175 job(s) await a human decision; 1 already answered (176 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,177 +21,15 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-10-25 | 207 | — |
+| JobG8 | OK | 2026-10-25 | 103 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
-| VONNE | STALE | 2026-10-24 | 0 | — |
-| Teaching Vacancies | STALE | 2026-10-24 | 0 | — |
+| VONNE | OK | 2026-10-25 | 0 | — |
+| Teaching Vacancies | OK | 2026-10-25 | 73 | — |
 | NHS Jobs | OK | 2026-10-25 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 207 to review
-
----
-action:
-POSS | JobG8 | Bedfordshire | Bedfordshire | £17229 - £18494 per year | Payroll Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225734218
-title: Payroll Administrator
-employer:
-location: Bedfordshire
-region: Bedfordshire
-salary: £17229 - £18494 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: b80088b1104438926dd47ded0d78e4f4d7177bc81912d11ab1c620d642b558da
----
-
----
-action:
-POSS | JobG8 | Bedfordshire | Bedfordshire | £35000 - £40000 per year | Senior Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225576861
-title: Senior Accountant
-employer:
-location: Bedfordshire
-region: Bedfordshire
-salary: £35000 - £40000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 7c0f828abdaee5c2c87dd85cf43b78031178bcd799122e9db3e72adaa3975376
----
-
----
-action:
-POSS | JobG8 | Berkshire | Berkshire | £500 - £1,000 per year | Account Executive
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2065881
-title: Account Executive
-employer:
-location: Berkshire
-region: Berkshire
-salary: £500 - £1,000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 92583100e7e22d63fb40acfa163b24f0f892b4884855a12b82215600b3ed2f85
----
-
----
-action:
-POSS | JobG8 | Berkshire | Berkshire | £500 - £1,000 per year | Account Executive
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2065927
-title: Account Executive
-employer:
-location: Berkshire
-region: Berkshire
-salary: £500 - £1,000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 46bd9b7d95c93703173d27740d56f81378aaf72b8009ba86b48422ff88891541
----
-
----
-action:
-POSS | JobG8 | Berkshire | Berkshire | £500 - £1,000 per year | Account Executive
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2065933
-title: Account Executive
-employer:
-location: Berkshire
-region: Berkshire
-salary: £500 - £1,000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: e6f9209e42a8cd8beb3bcf99b20258502f9efea21a5a6af876370b420b35a184
----
-
----
-action:
-POSS | JobG8 | Berkshire | Berkshire | £500 - £1,000 per year | Account Executive
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2065936
-title: Account Executive
-employer:
-location: Berkshire
-region: Berkshire
-salary: £500 - £1,000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 2f48d7e5b0cfcf22e275b81eb9ecc7ff8a4a0587f08a85dee13ef523e0e3cafc
----
-
----
-action:
-POSS | JobG8 | Berkshire | Berkshire | £26000 - £27000 per year (25 Days Holiday + Bonus + Training) | Account Executive
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225681449
-title: Account Executive
-employer:
-location: Berkshire
-region: Berkshire
-salary: £26000 - £27000 per year (25 Days Holiday + Bonus + Training)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: fdf7bc3489b763c3b47a118efd75acb727464a319514e157d4c313db52f4801a
----
-
----
-action:
-POSS | JobG8 | Berkshire | Berkshire | £26000 - £27000 per year (25 Days Holiday + Bonus + Training) | Account Executive
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225681494
-title: Account Executive
-employer:
-location: Berkshire
-region: Berkshire
-salary: £26000 - £27000 per year (25 Days Holiday + Bonus + Training)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 65f52f9b897d10d9778c20fce0df7096ab49c2846cbf91e14f7061155aa1afe7
----
-
----
-action:
-POSS | JobG8 | Berkshire | Berkshire | £26000 - £27000 per year (25 Days Holiday + Bonus + Training) | Account Executive
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225681521
-title: Account Executive
-employer:
-location: Berkshire
-region: Berkshire
-salary: £26000 - £27000 per year (25 Days Holiday + Bonus + Training)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 6ae0d9cd942f6eadae7ca4b13dcf9f56c7d4129fb7bce91d2e4bdefa28edb174
----
+## JobG8 — 103 to review
 
 ---
 action:
@@ -201,14 +39,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2048189
 title: Finance Administration Assistant
-employer:
+employer: 
 location: Berkshire
 region: Berkshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administration assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 29468113de3ace8e3f96381d673fce376c6238b2142b01b54ff1ce0c56b22db0
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administration assistant; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 27006172761d3df2d593dbb9bb83b212ff81ec656e212c6e84f769bdc6351048
 ---
 
 ---
@@ -219,50 +57,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2152925
 title: Part-Time Finance Administrator
-employer:
+employer: 
 location: Berkshire
 region: Berkshire
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 293667a53a98b4921f87d049ebc51b5e2dc66ce1ba311edcc44c74eba43a896c
----
-
----
-action:
-POSS | JobG8 | Berkshire | Berkshire | £55000 - £60000 per year (Bonus) | Part-time Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225390440
-title: Part-time Management Accountant
-employer:
-location: Berkshire
-region: Berkshire
-salary: £55000 - £60000 per year (Bonus)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 4d6ac27dde2a219a14bf24f48d3d3718bc7c91183c03e7b9c4bd0451e3ed8c8d
----
-
----
-action:
-POSS | JobG8 | Berkshire | Reading | £26000 - £27000 per year (25 Days Holiday + Bonus + Training) | Account Executive
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225681512
-title: Account Executive
-employer:
-location: Reading
-region: Berkshire
-salary: £26000 - £27000 per year (25 Days Holiday + Bonus + Training)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 042b87af813933453059ab5c27b49ab35ccb8ac66b2f43efda5b73000f7d37e9
 ---
 
 ---
@@ -273,14 +75,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2053456
 title: Part Time Accounts Administrator
-employer:
+employer: 
 location: Bath
 region: Bristol & Bath
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - Accounts administration is transferable unless specialist accounting barriers are mandatory; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 4cd3d2b571f1f2192ae297ba77fc4e3a54735b7a4391ecea1f71322bfdec194f
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - Accounts administration is transferable unless specialist accounting barriers are mandatory; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: e64d80cc39ae9ee7ccfe56445bb9f7666ba96e441ae1a6dc0798a395bd2855cd
 ---
 
 ---
@@ -291,14 +93,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2088889
 title: Part Time Accounts Assistant
-employer:
+employer: 
 location: Bath
 region: Bristol & Bath
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 582e1de7d2e34cf8b9ebf6ad498f6c537830c606f06e5d5ffda9297bcb96ae7e
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: f5a63e888a6bdde321bd40af1a83b987bc76bdcf8efeef9d1b17f5276081dc03
 ---
 
 ---
@@ -309,13 +111,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2070922
 title: Part time Finance Assistant - 22. 5 hours per week
-employer:
+employer: 
 location: Bath
 region: Bristol & Bath
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: finance assistant; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: b8dea17c0c6eccafcc63ca97a544e00397bd456129184291d9637e4b9b6bf207
 ---
 
@@ -327,32 +129,32 @@ source: JobG8
 category: admin_service
 source_job_id: 2042147
 title: Payroll Manager (Part Time)
-employer:
+employer: 
 location: Bath
 region: Bristol & Bath
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: f56db2ce6d7623bd8461be9e7e460add879b7b4c4993776d98ce9273a2b996bd
 ---
 
 ---
 action:
-POSS | JobG8 | Bristol & Bath | Bristol | — | Accounts Semi Senior
+POSS | JobG8 | Bristol & Bath | Bath | £39000 - £47000 per year | Payroll Manager (Part Time)
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2060186
-title: Accounts Semi Senior
-employer:
-location: Bristol
+source_job_id: 23643_225660760
+title: Payroll Manager (Part Time)
+employer: 
+location: Bath
 region: Bristol & Bath
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: fa67f07b71d08ea56e21e86f52bbc01c6091b974076fb078c7f5b537fbf04cb9
+salary: £39000 - £47000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: df31c64f3f6a505b2edf715990ccf949179f2936b00367e35ea358fbf353425f
 ---
 
 ---
@@ -363,86 +165,32 @@ source: JobG8
 category: admin_service
 source_job_id: 108225065
 title: Salesforce & Sales Pipeline Coordinator
-employer:
+employer: 
 location: Bristol
 region: Bristol & Bath
 salary: £45000 per year
-closing_date:
+closing_date: 
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £45,000 exceeds regional review point £37,000
-source_url:
+source_url: 
 hub_fingerprint: bc8847ef435924804eb0aceaa8ea30737cd198152eb50281b2391b073c27b6fb
 ---
 
 ---
 action:
-POSS | JobG8 | Buckinghamshire | Buckinghamshire | £500 - £1,000 per year | Account Executive
+POSS | JobG8 | Cambridgeshire | Peterborough | £40000 per year | HR MANAGER - PART-TIME
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2065947
-title: Account Executive
-employer:
-location: Buckinghamshire
-region: Buckinghamshire
-salary: £500 - £1,000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 9d98470fa0abbcb78689e8f12f3a1035605a4b101e2329531705f174f5f08004
----
-
----
-action:
-POSS | JobG8 | Buckinghamshire | Buckinghamshire | £26000 - £27000 per year (25 Days Holiday + Bonus + Training) | Account Executive
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225681536
-title: Account Executive
-employer:
-location: Buckinghamshire
-region: Buckinghamshire
-salary: £26000 - £27000 per year (25 Days Holiday + Bonus + Training)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: d2286d486c62aa6bbaf8785b2b37dcdae7137c8e3883b114bcaadcb045312afb
----
-
----
-action:
-POSS | JobG8 | Cambridgeshire | Cambridge | £15.00 - £17.00 per hour | Purchase Ledger Clerk (Temp)
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2036998
-title: Purchase Ledger Clerk (Temp)
-employer:
-location: Cambridge
-region: Cambridgeshire
-salary: £15.00 - £17.00 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 0755f74374be02c35934c2c465677e5a4b7302fafebe296dae74e659d3d6c295
----
-
----
-action:
-POSS | JobG8 | Cambridgeshire | Peterborough | — | Part-Time Senior Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2042233
-title: Part-Time Senior Accountant
-employer:
+source_job_id: 23643_225692804
+title: HR MANAGER - PART-TIME
+employer: 
 location: Peterborough
 region: Cambridgeshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
-hub_fingerprint: 3ec345fc2aff20f9e40a1e564a41f33bdff31cfc27b0633f66438af1e3cce6bf
+salary: £40000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 0d6e234d076e325d74bd4e495db57cd374d63b9f29436831494de9425772271a
 ---
 
 ---
@@ -453,50 +201,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2039760
 title: Part-Time Payroll Assistant
-employer:
+employer: 
 location: Wilmslow
 region: Cheshire - East
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: payroll assistant; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: d2dc81411db5fb912afc59530c76d12181ea5f821ec74b497bb39fa4cb440869
----
-
----
-action:
-POSS | JobG8 | Cheshire - Warrington & Halton | Widnes | £30000 - £33000 per year | Payroll Senior Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2144274
-title: Payroll Senior Administrator
-employer:
-location: Widnes
-region: Cheshire - Warrington & Halton
-salary: £30000 - £33000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 6f9014aee9f5bf0190506620f1a2366a2c22f64c3c835bcb01ad415dfb9b7e72
----
-
----
-action:
-POSS | JobG8 | Cheshire - West | Chester | £23.46 per hour | VAT Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225724534
-title: VAT Accountant
-employer:
-location: Chester
-region: Cheshire - West
-salary: £23.46 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url:
-hub_fingerprint: 7fa95bb255fd96334b99002f95789f10be9b369cd863288477c1a68420dcf59d
 ---
 
 ---
@@ -507,13 +219,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2052993
 title: Part Time Payroll Assistant
-employer:
+employer: 
 location: Northwich
 region: Cheshire - West
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: payroll assistant; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: f73c5467588aa2e1aeeab20d399fb30957d4ab03c85ee9f1e84b2d74cdc0c192
 ---
 
@@ -525,14 +237,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2062617
 title: Part time Payroll Manager
-employer:
+employer: 
 location: Bodmin
 region: Cornwall
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 4cf82db79e60411ce4d90731874f6753ae5f8ed42b2a18285306db455b53edf0
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 32d6f180f5f5e510da63af187c9ed1193dc9e31eef8a35463dede9d8f5611270
 ---
 
 ---
@@ -543,374 +255,122 @@ source: JobG8
 category: admin_service
 source_job_id: 2057224
 title: Part Time Bookkeeper
-employer:
+employer: 
 location: Redruth
 region: Cornwall
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: db66bea34ef48388cff692a62a14b7ca9638fd27df5b06936d633fe1354dd167
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 227e67349cb45c18c526b75104c9498009016f9d2c4ef0c1c14366d63b3edbda
 ---
 
 ---
 action:
-POSS | JobG8 | Devon | Devon | — | Accounts Senior
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £42000 - £45000 per year (Progression + Benefits) | HR / Office Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2036002
-title: Accounts Senior
-employer:
-location: Devon
-region: Devon
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: da6e1df136ed21f9494184bc9cac03df9be686ae17505e9ec94d9841ff592327
----
-
----
-action:
-POSS | JobG8 | Dorset | Dorset | — | Accounts Semi Senior
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2059221
-title: Accounts Semi Senior
-employer:
-location: Dorset
-region: Dorset
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: a4bd67865fdbeeeb0aaf1ff1c03c100892cb4035e34462165d7e3d6dbb6f9b6b
----
-
----
-action:
-POSS | JobG8 | Dorset | Dorset | £30000 - £32000 per year | Part Time Accounts Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225689189
-title: Part Time Accounts Assistant
-employer:
-location: Dorset
-region: Dorset
-salary: £30000 - £32000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 3b30916bf7d8ef06093de20686fa152d33e6325231b483e5cf006cd326ed23d1
----
-
----
-action:
-POSS | JobG8 | Dorset | Dorset | £17 - £18 per hour | Purchase Ledger Clerk
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225664250
-title: Purchase Ledger Clerk
-employer:
-location: Dorset
-region: Dorset
-salary: £17 - £18 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 870315b9fd2287a38dc09c328629268569df1cb5b7b52e7f2f1d8fb7529713bd
----
-
----
-action:
-POSS | JobG8 | Essex | Essex | £15 - £17 per hour | Accounts Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2053216
-title: Accounts Assistant
-employer:
-location: Essex
-region: Essex
-salary: £15 - £17 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 19d956bcf596e18e405b8d7dcf5951b395ac14df437adf74349979029eb2d9ee
----
-
----
-action:
-POSS | JobG8 | Essex | Essex | £14 - £15 per hour | Accounts Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225742935
-title: Accounts Assistant
-employer:
-location: Essex
-region: Essex
-salary: £14 - £15 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 32ac18fc73800156a44a7ed4a96e55e4be46643637147f6fa1f1a173dbb819b3
----
-
----
-action:
-POSS | JobG8 | Essex | Essex | — | Management Accountant 3-6 month temp PART TIME
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2075224
-title: Management Accountant 3-6 month temp PART TIME
-employer:
-location: Essex
-region: Essex
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 21a16723d36a302238aa93c0c92376bdc0abc9794e7be42350017a7e3cc4b2fd
----
-
----
-action:
-POSS | JobG8 | Essex | Essex | £25931 per year | Payroll Officer
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225657191
-title: Payroll Officer
-employer:
-location: Essex
-region: Essex
-salary: £25931 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 57c25e6136b86a52cad4ba092c6e91f7cc8907b8611b5299297bc63fb83c7d0d
----
-
----
-action:
-POSS | JobG8 | Essex | Essex | £25000 - £30000 per year | Purchase Ledger Clerk
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_223842006
-title: Purchase Ledger Clerk
-employer:
-location: Essex
-region: Essex
-salary: £25000 - £30000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: d1956b2161678c8ec0d6ff5ef601785535d63930dff9f29dcfda28492f2da5bc
----
-
----
-action:
-POSS | JobG8 | Essex | Essex | £30.18 per hour | UK Payroll Renewal Analyst (part time)
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225744318
-title: UK Payroll Renewal Analyst (part time)
-employer:
-location: Essex
-region: Essex
-salary: £30.18 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 049117ceb25c6ed86ba424d6c6a1da9ebbe618a807bf969b98537b59f7eea441
----
-
----
-action:
-POSS | JobG8 | Gloucestershire | Gloucestershire | £25000 - £32000 per year | Bookkeeper
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225513570
-title: Bookkeeper
-employer:
-location: Gloucestershire
-region: Gloucestershire
-salary: £25000 - £32000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: e77ccdad3ff899349505a792fe98ed5c2222bee3af19f165fbf49a33a644d59f
----
-
----
-action:
-POSS | JobG8 | Gloucestershire | Gloucestershire | £20 - £25 per hour | Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225703313
-title: Management Accountant
-employer:
-location: Gloucestershire
-region: Gloucestershire
-salary: £20 - £25 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url:
-hub_fingerprint: a4b6e7023f27f3613cccefd9c749243e40ae8d5380335c0c57f7c117c88a0dc7
----
-
----
-action:
-POSS | JobG8 | Gloucestershire | Gloucestershire | £20 - £25 per hour (+ overtime) | Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225719120
-title: Management Accountant
-employer:
-location: Gloucestershire
-region: Gloucestershire
-salary: £20 - £25 per hour (+ overtime)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url:
-hub_fingerprint: 00289974e8f3151ec5479570154e740dd2203165f003c8610bb37cd755b14138
----
-
----
-action:
-POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £12000 - £15000 per year | Payroll Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225731242
-title: Payroll Administrator
-employer:
+source_job_id: 23643_225719729
+title: HR / Office Manager
+employer: 
 location: Manchester
 region: Greater Manchester - Manchester & Salford
-salary: £12000 - £15000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 26744f8e81701a8154d345d8e927da2c1c7f2cfb0e2710a582e82a84822ed0aa
+salary: £42000 - £45000 per year (Progression + Benefits)
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 64ec8ca2ed0c54bfc357f9d535213a7787056c4341a8a2861ba5c179613cb7c5
 ---
 
 ---
 action:
-POSS | JobG8 | Greater Manchester - Wigan & Bolton | Bolton | £15.44 per hour | Payroll Administrator
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | — | HR Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2087360
-title: Payroll Administrator
-employer:
-location: Bolton
-region: Greater Manchester - Wigan & Bolton
-salary: £15.44 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 22f7c66d79a9ea64ef56d3c7f520d4b28dbbfd809f895bb255df307fdd17de11
+source_job_id: 2166644
+title: HR Manager
+employer: 
+location: Manchester
+region: Greater Manchester - Manchester & Salford
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: b3b968a6228be0563b6b4bc6eac4edd845307a7a85f1cfa552fc04bb45df325a
 ---
 
 ---
 action:
-POSS | JobG8 | Greater Manchester - Wigan & Bolton | Bolton | £13.5 - £15.44 per hour (DOE + benefits) | Payroll Administrator
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £42000 - £45000 per year (Progression + Benefits) | HR Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225696141
-title: Payroll Administrator
-employer:
-location: Bolton
-region: Greater Manchester - Wigan & Bolton
-salary: £13.5 - £15.44 per hour (DOE + benefits)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: e2a1d86d730657e224c9ea9f71d0a8eb8d9fe53f786ea1a462710b1b663b89d8
+source_job_id: 23643_225726635
+title: HR Manager
+employer: 
+location: Manchester
+region: Greater Manchester - Manchester & Salford
+salary: £42000 - £45000 per year (Progression + Benefits)
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: d2b026a20ae73c9b553f4cd4c161af9e6dbf4558feef57e1bd59efd419db99bc
 ---
 
 ---
 action:
-POSS | JobG8 | Hampshire | Hampshire | £30000 - £60000 per year (£30-60,000) | Accountant
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £43,149 per annum | Human Resources and Organisational Development Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225748992
-title: Accountant
-employer:
-location: Hampshire
-region: Hampshire
-salary: £30000 - £60000 per year (£30-60,000)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: b41ec20ddf63e69678af16087152e9601f2ba1095c1af543739a9b98b6499eb1
+source_job_id: 2174236
+title: Human Resources and Organisational Development Manager
+employer: 
+location: Manchester
+region: Greater Manchester - Manchester & Salford
+salary: £43,149 per annum
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 740815e27eaf4230d70a887d52bebe6b93d9e1aa3fb125ab1844c8375500a2e8
 ---
 
 ---
 action:
-POSS | JobG8 | Hampshire | Hampshire | £16 per hour | Accounts Assistant
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £43,149 per annum | Office and Facilities Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225709448
-title: Accounts Assistant
-employer:
-location: Hampshire
-region: Hampshire
-salary: £16 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: e3ee18a44c5b2db2834a767d0e38a1717ebbd43d54a855fce6448a72c08a4563
+source_job_id: 2174237
+title: Office and Facilities Manager
+employer: 
+location: Manchester
+region: Greater Manchester - Manchester & Salford
+salary: £43,149 per annum
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 38ae2d7aecf1a64087c476072d7eb2eb9b33a3633a85ea943562c21c25965e24
 ---
 
 ---
 action:
-POSS | JobG8 | Hampshire | Hampshire | £28885 per year | Accounts Assistant - Legal Firm! Part-time - £28k pro rata
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £42000 - £45000 per year (Progression + Benefits) | Office Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225760843
-title: Accounts Assistant - Legal Firm! Part-time - £28k pro rata
-employer:
-location: Hampshire
-region: Hampshire
-salary: £28885 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: c3fb3ea7feb6ac71e38a683805bbcc0b48abb9b26f4260987cb2405f7c625cff
----
-
----
-action:
-POSS | JobG8 | Hampshire | Hampshire | £14.9 - £14.92 per hour | Accounts Payable Officer - Part -Time
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225702350
-title: Accounts Payable Officer - Part -Time
-employer:
-location: Hampshire
-region: Hampshire
-salary: £14.9 - £14.92 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: eab4d055386f9fd085915f47714ae466793d15cab0e34d580597f8e0408ec3c0
+source_job_id: 23643_225726636
+title: Office Manager
+employer: 
+location: Manchester
+region: Greater Manchester - Manchester & Salford
+salary: £42000 - £45000 per year (Progression + Benefits)
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: a723d8745cc74a09d20692408116bd870a7b79e7b3099bc532bce40c48ac2a0a
 ---
 
 ---
@@ -921,50 +381,32 @@ source: JobG8
 category: admin_service
 source_job_id: 2057669
 title: Finance Administrator
-employer:
+employer: 
 location: Hampshire
 region: Hampshire
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: c5b2f5651c01d6d4be80da78dea5af150e36b0aaf31c88fbe2f9e51f461d3dbf
 ---
 
 ---
 action:
-POSS | JobG8 | Hampshire | Hampshire | — | Management Accountant
+POSS | JobG8 | Hampshire | Hampshire | £30000 - £35000 per year | Part Time HR Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2056308
-title: Management Accountant
-employer:
+source_job_id: 23643_225725644
+title: Part Time HR Manager
+employer: 
 location: Hampshire
 region: Hampshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 35215819521499b6ec135796f06842f9c73a302389c3f9ec361e47d35090450d
----
-
----
-action:
-POSS | JobG8 | Hampshire | Hampshire | £16500 - £20000 per year (Hybrid + Parking) | Part Time Finance Assistant + Hybrid
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225659960
-title: Part Time Finance Assistant + Hybrid
-employer:
-location: Hampshire
-region: Hampshire
-salary: £16500 - £20000 per year (Hybrid + Parking)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: finance assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 8a50bd4144ad49bd6048349abf5096258bbeee5f4718970e9fa2ba4fc5c9fd0e
+salary: £30000 - £35000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 93227d5b0f45dfeeff32a7a24290b101bf77770d3d6ec08671e55102475c4b23
 ---
 
 ---
@@ -975,14 +417,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2039485
 title: Accounts Assistant - Hybrid Working
-employer:
+employer: 
 location: Ross-on-wye
 region: Herefordshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 04cea338a0335099c7b10fd9d6b39c95cddb9fdd8d2b697aacbb0b7ee787f795
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: b34c10e49285cf69daa3d16bdd7f881ff13561931c02e8f83af4b6b4f6062ab6
 ---
 
 ---
@@ -993,14 +435,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2172257
 title: Bookkeeper / Administrator Part Time
-employer:
+employer: 
 location: Hertfordshire
 region: Hertfordshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, bookkeeper; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 3f11e10d3cab23c23a16c730879b28c6010812d1f3989ecf2b48ac9d147062ed
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, bookkeeper; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: b3aae474b33fd7e4bf2b32b3ef906fbe5526b33091f00df5fccc056c2d76b845
 ---
 
 ---
@@ -1011,13 +453,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2060294
 title: Finance Assistant - Part time
-employer:
+employer: 
 location: Hertfordshire
 region: Hertfordshire
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: finance assistant; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: ee74192c938fd3b848bc53395dbd0a187b28349afe01eba7b4b6f6d7c7aca96f
 ---
 
@@ -1029,14 +471,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2055885
 title: Part Time Accounts Payable Administrator
-employer:
+employer: 
 location: Hertfordshire
 region: Hertfordshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 81cc56a8dd3b693dc78a947131a6f8fd07e841a824e61d326236fd039bb44c1f
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 44e84b6b9412765d9e1823f8945d3615181c65e318d8e7ab688fbc881a97ddc6
 ---
 
 ---
@@ -1047,104 +489,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2051739
 title: Part-time Accounts Receivable Administrator
-employer:
+employer: 
 location: Hertfordshire
 region: Hertfordshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 03d9f1504ac560aec3cc93c87e3ad7af930f0887392189944cf56e13fc83a53e
----
-
----
-action:
-POSS | JobG8 | Hertfordshire | Hertfordshire | £25 - £30 per hour | Part-Time Bookkeeper
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225702206
-title: Part-Time Bookkeeper
-employer:
-location: Hertfordshire
-region: Hertfordshire
-salary: £25 - £30 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 99e720f3e26054cf55c285e65f845db5168d86214f5b5c39554e9478c96ccc25
----
-
----
-action:
-POSS | JobG8 | Hertfordshire | Hertfordshire | £20 per hour | Part-time Bookkeeper (school hours)
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225564656
-title: Part-time Bookkeeper (school hours)
-employer:
-location: Hertfordshire
-region: Hertfordshire
-salary: £20 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 1371219636e01f09fe55ef2b2505f5a0c980a9088c8cef2c4b0660d165ef76f5
----
-
----
-action:
-POSS | JobG8 | Hertfordshire | Hertfordshire | £17 per hour | Part-time Bookkeeper Temporary - Permanent
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2040204
-title: Part-time Bookkeeper Temporary - Permanent
-employer:
-location: Hertfordshire
-region: Hertfordshire
-salary: £17 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: d9fb43c6b98cd5bad075b0aab75b179e83e910106b96854af822f730ba7192a0
----
-
----
-action:
-POSS | JobG8 | Hertfordshire | Hertfordshire | £50 - £120 per hour | Social Media Account Manager Part Time
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2155407
-title: Social Media Account Manager Part Time
-employer:
-location: Hertfordshire
-region: Hertfordshire
-salary: £50 - £120 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 26a8bec129ca9c2fce8acb7e89db5a57d45dd39e59b0d50a06ed927c59e07b54
----
-
----
-action:
-POSS | JobG8 | Kent | Dartford | £15 - £16 per hour | Part-Time Accounts Assistant Dartford Temp to Perm
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225697973
-title: Part-Time Accounts Assistant Dartford Temp to Perm
-employer:
-location: Dartford
-region: Kent
-salary: £15 - £16 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 36974f6d4026ed5c596eb605f7d3c84bb39968356ed0f98eafd0b9a73920109b
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: ec49d7a7c9c66d69102ac877caea92479d0b2643dfd6a12398559c5bf2b179d9
 ---
 
 ---
@@ -1155,14 +507,14 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225726540
 title: Payroll Manager
-employer:
+employer: 
 location: Dartford
 region: Kent
 salary: £40000 - £45000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 3615b084c77382bb1047a08834603ebd3c57d7c59b8ce98b677153be0a8aba4e
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: salary over £40k under normal selection rules
+source_url: 
+hub_fingerprint: 844253b7e86065b2ed362d8208cf3b2c6ae479301776ef933f8d365972947bf3
 ---
 
 ---
@@ -1173,140 +525,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2157148
 title: Accounts and Office Administrator
-employer:
+employer: 
 location: Kent
 region: Kent
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, office administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 8994de8c638a9ebece7fd1b6dfb42e210db3f31aad940f3fed675f97e6eb5850
----
-
----
-action:
-POSS | JobG8 | Kent | Kent | £28000 - £35000 per year (Market Rate) | Accounts Assistant / Semi Senior Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225745886
-title: Accounts Assistant / Semi Senior Accountant
-employer:
-location: Kent
-region: Kent
-salary: £28000 - £35000 per year (Market Rate)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: e0c870772de89d3be8cea4f7eec19447be13de051f83c19ed5445322b2035822
----
-
----
-action:
-POSS | JobG8 | Kent | Kent | £15.00 - £16.00 per hour | Part-Time Accounts Assistant Dartford Temp to Perm
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2089004
-title: Part-Time Accounts Assistant Dartford Temp to Perm
-employer:
-location: Kent
-region: Kent
-salary: £15.00 - £16.00 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 71cb71daf0a3b5185195d0ea37a4079cb8824b2abee0aeeae2b3466200a0c031
----
-
----
-action:
-POSS | JobG8 | Kent | Kent | £37000 per year | Part-Time Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2066945
-title: Part-Time Management Accountant
-employer:
-location: Kent
-region: Kent
-salary: £37000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 508834dd0ad1582e28366c4f8ee2927e0d76ef98c6744362cc78d26cc392ab89
----
-
----
-action:
-POSS | JobG8 | Lancashire - East | Blackburn | £38000 - £45000 per year | Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225712050
-title: Accountant
-employer:
-location: Blackburn
-region: Lancashire - East
-salary: £38000 - £45000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 1443247829e1d2b15e8ae0859ffddb5a0c9210943d8a127b3cdbad2a98d1539a
----
-
----
-action:
-POSS | JobG8 | Leicestershire | Leicestershire | £25000 per year (pro rata) | Accounts Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225735720
-title: Accounts Administrator
-employer:
-location: Leicestershire
-region: Leicestershire
-salary: £25000 per year (pro rata)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - Basic accounts administration is transferable unless specialist qualifications are mandatory; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 5a706f58c27b69e330e66d0b16b460f24d96a40145d52a0489b8301273a965ab
----
-
----
-action:
-POSS | JobG8 | Leicestershire | Leicestershire | £26000 - £32000 per year | Bookkeeper - Part Time
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225671448
-title: Bookkeeper - Part Time
-employer:
-location: Leicestershire
-region: Leicestershire
-salary: £26000 - £32000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 22d8f5fd24e3ccd40b2bbb4479b24a315573fbb8adb74b19c0441b995ec7e433
----
-
----
-action:
-POSS | JobG8 | Leicestershire | Leicestershire | — | Family Office Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2046944
-title: Family Office Accountant
-employer:
-location: Leicestershire
-region: Leicestershire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: e5e1ce7fae935a918940b7b631c2885b045c0f8310511fed4349cb2522ab61f2
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, office administrator; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: dfeec5b375589d930f82c904952e29533b89f89934c46bcf8bd2abc3a06d998a
 ---
 
 ---
@@ -1317,50 +543,14 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225706585
 title: Finance Assistant
-employer:
+employer: 
 location: Leicestershire
 region: Leicestershire
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - owner-approved ordinary office role; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 71146c496e83d5b39a6f3e1636671c2d91d04286909c00eca8db369d2cfbd49d
----
-
----
-action:
-POSS | JobG8 | Leicestershire | Leicestershire | — | Junior Part Time Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225695892
-title: Junior Part Time Accountant
-employer:
-location: Leicestershire
-region: Leicestershire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 7823a028d89dcb37278e2284954f1342cb4962b8a92c7d074cc4e712a105118a
----
-
----
-action:
-POSS | JobG8 | Leicestershire | Leicestershire | £32000 - £52000 per year | Senior Accountant / Client Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225709900
-title: Senior Accountant / Client Manager
-employer:
-location: Leicestershire
-region: Leicestershire
-salary: £32000 - £52000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 367fe88c138786ab0848b37e38f51619d8f413df7531067dc20e87df181ee3f7
 ---
 
 ---
@@ -1371,122 +561,32 @@ source: JobG8
 category: admin_service
 source_job_id: 2068930
 title: Payroll Technician
-employer:
+employer: 
 location: Lincolnshire
 region: Lincolnshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: bee10b639e551899ace04a206766891c9e963019f03a92c4141495e626021d45
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: bc5b41111d54a636bae551819490395b10cfc52337bd4a3b630d8e1540eefe73
 ---
 
 ---
 action:
-POSS | JobG8 | Lincolnshire | Lincolnshire | £28000 - £45000 per year | Semi-Senior to Senior Accountant
+POSS | JobG8 | London | Brixton | £16 - £18 per hour | Part Time Office Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225709201
-title: Semi-Senior to Senior Accountant
-employer:
-location: Lincolnshire
-region: Lincolnshire
-salary: £28000 - £45000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 07feaa3ae71de987e455219e5f90e9020fbc3f9b0488675df33e09801512adfd
----
-
----
-action:
-POSS | JobG8 | London | Croydon | — | Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2060410
-title: Accountant
-employer:
-location: Croydon
+source_job_id: 23643_225674119
+title: Part Time Office Manager
+employer: 
+location: Brixton
 region: London
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: ff37b4b58eff0daab450adf1e218ec15160e25e0c376363bfbd6bac436acdc7e
----
-
----
-action:
-POSS | JobG8 | London | Lambeth | £15.85 per hour | Part-Time Finance Officer
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225715604
-title: Part-Time Finance Officer
-employer:
-location: Lambeth
-region: London
-salary: £15.85 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 8d47058fcbdfc35a4f6c2a4ba68cdfaeed6c40c13435dfa1f0b8a47814eff3ba
----
-
----
-action:
-POSS | JobG8 | London | London | £40000 - £45000 per year | Account Admin Executive
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225663972
-title: Account Admin Executive
-employer:
-location: London
-region: London
-salary: £40000 - £45000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 3976c4daaa62bc64bbe3e714df08f71ec352e684893fc78ba25b3861c9006adf
----
-
----
-action:
-POSS | JobG8 | London | London | £29000 per year | Accounts Payable
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2153120
-title: Accounts Payable
-employer:
-location: London
-region: London
-salary: £29000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: a924b33adc655200fdbdef2bb416d1406c6048d7483dc0997ed2d7498f13355f
----
-
----
-action:
-POSS | JobG8 | London | London | £18.5 per hour | Accounts Payable
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225692005
-title: Accounts Payable
-employer:
-location: London
-region: London
-salary: £18.5 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 22b79f44c180ee5d2638f8e0b165a1a2673a8d77f357f2975261a77b3be1d875
+salary: £16 - £18 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: a3cc199c15ffad3edae5d60874c30f08b170ce6ffd573ec051e3f693eb1205c6
 ---
 
 ---
@@ -1497,13 +597,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2063583
 title: Billings Administrator
-employer:
+employer: 
 location: London
 region: London
 salary: £35000 - £41000 per year
-closing_date:
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
-source_url:
+source_url: 
 hub_fingerprint: 7a886a7ab2d25c205d00bfbad2032276dc1feb3496a0890198297d5d815f4068
 ---
 
@@ -1515,14 +615,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2062388
 title: Bookkeeping & AI Manager
-employer:
+employer: 
 location: London
 region: London
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 16eb2b4a8100c16b24786d53831c03eea954c58061f949efbf1e6d046c098d7c
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 6dc70399039e6a9cfd42cdc4975ff72d547178f79fcf65a9a61bdd239e76057a
 ---
 
 ---
@@ -1533,14 +633,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2087368
 title: Finance and Operations Assistant
-employer:
+employer: 
 location: London
 region: London
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: e1ee3e8b36cf24d67676fe358de42ddb6641db413e974a39d1677c68e392a89a
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: c08bec6e3c0e054f14a4d1ee07ccd91118707c0c19f5341406848448f8e3659a
 ---
 
 ---
@@ -1551,13 +651,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2053404
 title: Finance Manager
-employer:
+employer: 
 location: London
 region: London
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: f045a5d4956b2771a672ccaf73ba4829d4c753a98570ffe0d671802ae103dd4b
 ---
 
@@ -1569,68 +669,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2092583
 title: Finance Manager (part-time)
-employer:
+employer: 
 location: London
 region: London
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: a0ec0a396d80d37119900e280f08fa77b5f7dd635d9e484b21c1235f06b6c48d
----
-
----
-action:
-POSS | JobG8 | London | London | — | Financial Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2054145
-title: Financial Accountant
-employer:
-location: London
-region: London
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 59706bd7496ce76ad60c5fa98dbb41449d0e020438f00f9fbaa47c42e98ddc50
----
-
----
-action:
-POSS | JobG8 | London | London | £50000 - £65000 per year (pro rata) | Financial Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225669562
-title: Financial Accountant
-employer:
-location: London
-region: London
-salary: £50000 - £65000 per year (pro rata)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 900ce9c910a8dd0f1873d1eb30b8c55833c5f8148593c95170f2b1d2a8dbd343
----
-
----
-action:
-POSS | JobG8 | London | London | £28.27 per hour | Housing Financial Support Officer
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225721063
-title: Housing Financial Support Officer
-employer:
-location: London
-region: London
-salary: £28.27 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: a5573dc0ad0fb206495b32c6aca8e4e40a482cbed1a05ba981086606e86c6f74
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 01b28acf7dc2d1d6596a5aff16cdf2f627673ae6a84dcd0bb4214ea3e35149a7
 ---
 
 ---
@@ -1641,32 +687,32 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225698771
 title: Housing Team Administrator
-employer:
+employer: 
 location: London
 region: London
 salary: £21.35 per hour
-closing_date:
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
-source_url:
+source_url: 
 hub_fingerprint: a16aa9794b94366bd62a6072319b148f96f677a99c644f74c903fb06611d5b4d
 ---
 
 ---
 action:
-POSS | JobG8 | London | London | £400 - £500 per daily | Interim International Part Time Payroll Manager
+POSS | JobG8 | London | London | £50000 per year | HR Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225723662
-title: Interim International Part Time Payroll Manager
-employer:
+source_job_id: 23643_225694962
+title: HR Manager
+employer: 
 location: London
 region: London
-salary: £400 - £500 per daily
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 218715c94aa3d306b6eb99ee68b66604e49b5a24f6feaf4704cdffdecc2a46a9
+salary: £50000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 7ed0ad6d8e2515fb1658b4b0ae980d56a2be374c92271c9ee73c759b1ebbb80e
 ---
 
 ---
@@ -1677,68 +723,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2078541
 title: Part Time Property & Finance Officer
-employer:
+employer: 
 location: London
 region: London
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 08684dd28fbaf4065ca5c0d1c6431aa37aa2d4c0341a2bffd2b22c7f88347c53
----
-
----
-action:
-POSS | JobG8 | London | London | £16 - £20 per hour | Part-Time Accounts Payable Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225723442
-title: Part-Time Accounts Payable Assistant
-employer:
-location: London
-region: London
-salary: £16 - £20 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: cc6e2059c9f6c7f028dca2b1a0fec140eef4f4ece8d38400a09ba345aa7cf663
----
-
----
-action:
-POSS | JobG8 | London | London | £55000 per year | Part-Time Financial Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2077882
-title: Part-Time Financial Accountant
-employer:
-location: London
-region: London
-salary: £55000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: f8c4fff1be7a4003203d201c8ea24cccb51bd1762d6a6c5aeb8c21043e268e45
----
-
----
-action:
-POSS | JobG8 | London | London | £50000 - £55000 per year (FTE) | Part-Time Financial Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225688327
-title: Part-Time Financial Accountant
-employer:
-location: London
-region: London
-salary: £50000 - £55000 per year (FTE)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 5f88c0308026fb99000fae8632a12b4e7f8045d7697e07cdec093f721140f26b
 ---
 
 ---
@@ -1749,14 +741,32 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225698168
 title: Payouts Administrator
-employer:
+employer: 
 location: London
 region: London
 salary: £36000 - £42000 per year (Plus bonus and benefits)
-closing_date:
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
-source_url:
+source_url: 
 hub_fingerprint: eac9bc5e8ab215e3ae8ea549f1d7cffdce5bbcfef2714f630d53f2453684b6bb
+---
+
+---
+action:
+POSS | JobG8 | London | London | £31,936 - £35,027 per annum | Service Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 108062183
+title: Service Manager
+employer: 
+location: London
+region: London
+salary: £31,936 - £35,027 per annum
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 9ecaa09b6ab6fc2309a9acb9be9dce90d14cbdc368ce76f0983007d2c619961a
 ---
 
 ---
@@ -1767,14 +777,32 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225705616
 title: Spurgeons - Finance Business Partner
-employer:
+employer: 
 location: London
 region: London
 salary: £44367 per year
-closing_date:
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url:
+source_url: 
 hub_fingerprint: bc3c650a4ff1fc3a1b49c8a6f3f6acd7fdd41d47296e8044c109315fbbb3571f
+---
+
+---
+action:
+POSS | JobG8 | London | Morden | — | Office Manager & Compliance Coordinator PART TIME
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225708270
+title: Office Manager & Compliance Coordinator PART TIME
+employer: 
+location: Morden
+region: London
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 9a02679c9228abea86c835dc8b83b70239da64322d0b2644892f832efd88d1a5
 ---
 
 ---
@@ -1785,32 +813,32 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225734026
 title: Financial Services Administrator
-employer:
+employer: 
 location: Liverpool
 region: Merseyside - Liverpool
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - title register: high-confidence title pattern: administrator; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 7dba52d676740d412dee8cf132b9746941caf10e8b053e3b740340d19e37a8ef
 ---
 
 ---
 action:
-POSS | JobG8 | Merseyside - Liverpool | Liverpool | £32000 - £40000 per year | Semi Senior Accountant
+POSS | JobG8 | Merseyside - Liverpool | Liverpool | — | HR Manager - Temporary to Permanent
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2172266
-title: Semi Senior Accountant
-employer:
+source_job_id: 23643_225698676
+title: HR Manager - Temporary to Permanent
+employer: 
 location: Liverpool
 region: Merseyside - Liverpool
-salary: £32000 - £40000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: b7c5943f74323a33e12fa51ae41a32616de34bb79bff225f1f4aa571d3a5d08e
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 4a93eecc5c8fa77d228d2a7db8f289f3b6247f73f2aa9aa4482d831ff2bbec37
 ---
 
 ---
@@ -1821,13 +849,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2050536
 title: Accounts Assistant
-employer:
+employer: 
 location: Knowsley
 region: Merseyside - St Helens & Knowsley
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 0ef19b2019c2dc598d5bbef04e5eee5628a8b2a1bbc0b09496795a82292b8fe4
 ---
 
@@ -1839,14 +867,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2126041
 title: Accounts Office Administrator
-employer:
+employer: 
 location: Norfolk
 region: Norfolk
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, office administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 7bdace562aa7ff3488118e1565a0b5f064ad6678fefad552018c7093b0cb89c6
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, office administrator; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: a10263602cb095c36624b8b0431154f8df4f2622f1b7ed191bbf8cea8679e457
 ---
 
 ---
@@ -1857,32 +885,14 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225722938
 title: Accounts Office Administrator
-employer:
+employer: 
 location: Norfolk
 region: Norfolk
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, office administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: fd844c8e777949bcb13cd5960fc883e65479e01f3ccd266a9305f95c81b514f9
----
-
----
-action:
-POSS | JobG8 | Norfolk | Norfolk | £13 - £14 per hour | Bookkeeper
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225740102
-title: Bookkeeper
-employer:
-location: Norfolk
-region: Norfolk
-salary: £13 - £14 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 04c2af616f4f2e2efdbaea1d0b052ab3e81f7a53405daaf7b2ebb7cc4aecdea8
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, office administrator; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 12e4ea1fc4e844f448a765ec9f6f82c8499ab7b01b0cf596e6104a5993106cc5
 ---
 
 ---
@@ -1893,140 +903,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2087990
 title: Finance Assistant
-employer:
+employer: 
 location: Norfolk
 region: Norfolk
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - owner-approved ordinary office role; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 72c1d30ca09ae6df94e0c05447ba799dfe1094e85d5841670f49e63e03762db2
----
-
----
-action:
-POSS | JobG8 | Norfolk | Norfolk | £27000 - £32000 per year | Financial Services Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225529351
-title: Financial Services Administrator
-employer:
-location: Norfolk
-region: Norfolk
-salary: £27000 - £32000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - title register: high-confidence title pattern: administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 51be3b3a07ec0f6fc97d98f4392c4503d0f75f7e7e28e419a394fad7dbb25d03
----
-
----
-action:
-POSS | JobG8 | Norfolk | Norfolk | — | Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2073402
-title: Management Accountant
-employer:
-location: Norfolk
-region: Norfolk
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 42e8128ea9888004f70559b899417ff9e4f1efd81e7a1250fd3d49670aefee3f
----
-
----
-action:
-POSS | JobG8 | Norfolk | Norfolk | £35000 - £40000 per year | Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225683970
-title: Management Accountant
-employer:
-location: Norfolk
-region: Norfolk
-salary: £35000 - £40000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 335258db5ba68baabaddb6ab66e617d7c8688bdd449f8c7c0ea42cf2e06621ea
----
-
----
-action:
-POSS | JobG8 | Norfolk | Norfolk | £35000 - £40000 per year | Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225690947
-title: Management Accountant
-employer:
-location: Norfolk
-region: Norfolk
-salary: £35000 - £40000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 6cd40718d15348067c1ad3daddb39f551c3889bef1c451b8e16a9720b2b3ef29
----
-
----
-action:
-POSS | JobG8 | Norfolk | Norfolk | £40000 per year | Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225729378
-title: Management Accountant
-employer:
-location: Norfolk
-region: Norfolk
-salary: £40000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 75e6292f7570e8964539b0d4cac8098187c502c49b8fee3d48d30c66aa3a6ef8
----
-
----
-action:
-POSS | JobG8 | Norfolk | Norfolk | £40000 per year | Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225732077
-title: Management Accountant
-employer:
-location: Norfolk
-region: Norfolk
-salary: £40000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 7e43e34fa0c85dd40fac4d4f855c0eec754b605259ae4744fb94e8f1cb35a1ec
----
-
----
-action:
-POSS | JobG8 | Norfolk | Norfolk | — | Project Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2180276
-title: Project Accountant
-employer:
-location: Norfolk
-region: Norfolk
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 720f33ee5489f941cdd629013479beec0c992eb99e418105456d77b46f8de424
 ---
 
 ---
@@ -2037,50 +921,14 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225646128
 title: Commercial Administrator
-employer:
+employer: 
 location: County Durham
 region: North East - County Durham & Darlington/Hartlepool
 salary: £30000 - £45000 per year
-closing_date:
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - title register: high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
-source_url:
+source_url: 
 hub_fingerprint: a401fb2c409f09540bc2a16e557ccf83525a25a28708599519a0fcb38b0f439d
----
-
----
-action:
-POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £16,364-£17,164 per annum | Payroll & People Systems Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2160755
-title: Payroll & People Systems Assistant
-employer:
-location: Newcastle Upon Tyne
-region: North East - Tyneside, Wearside & Northumberland
-salary: £16,364-£17,164 per annum
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: c751baf2b4acdbacc72a33d28ccb27d0dede06656f8b49e6600158a51cc425a3
----
-
----
-action:
-POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Northumberland | £36000 - £45000 per year | Practice Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2089262
-title: Practice Accountant
-employer:
-location: Northumberland
-region: North East - Tyneside, Wearside & Northumberland
-salary: £36000 - £45000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 7d045f37a5be7b7a4c05b64e8511fffca3596738ec4d2e65ef1266f694835984
 ---
 
 ---
@@ -2091,50 +939,50 @@ source: JobG8
 category: admin_service
 source_job_id: 2077376
 title: Accounts Assistant
-employer:
+employer: 
 location: Tyne And Wear
 region: North East - Tyneside, Wearside & Northumberland
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: c8e2ee48c7b7f6de2d586e4c21e5bd5f68fd925a6cf7a7a5e96a36d0879fec16
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: b036dae1f0c55aeb1f4a7a6c1fda34ea08aaf6741549c55cad9f52333b3d37f7
 ---
 
 ---
 action:
-POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | £23500 - £25500 per year (Excellent Benefits) | Graduate Accounts Assistant
+POSS | JobG8 | North Scotland | Elgin | £39000 per year | Service Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225721329
-title: Graduate Accounts Assistant
-employer:
-location: Tyne And Wear
-region: North East - Tyneside, Wearside & Northumberland
-salary: £23500 - £25500 per year (Excellent Benefits)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 7376665618d2a22c7bf89edb33fee54fafc3ee8124ba4f43607527d72bb8b3e0
+source_job_id: 107979715
+title: Service Manager
+employer: 
+location: Elgin
+region: North Scotland
+salary: £39000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 95835d7345b3700635924ccf848de73f0c0338820f02e9e39593377fc1b7cfcd
 ---
 
 ---
 action:
-POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | £27000 - £30000 per year | Purchase Ledger Clerk
+POSS | JobG8 | North Scotland | Fraserburgh | £40000 per year | Service Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225757826
-title: Purchase Ledger Clerk
-employer:
-location: Tyne And Wear
-region: North East - Tyneside, Wearside & Northumberland
-salary: £27000 - £30000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 897fb6980a82493149943961a1f171d8b4260c04bbbba2198dde97b607a14073
+source_job_id: 107991122
+title: Service Manager
+employer: 
+location: Fraserburgh
+region: North Scotland
+salary: £40000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: e471e62b6d35b44978c7277ab63ccb82e99390c5edab0f3ec49350ee579c997b
 ---
 
 ---
@@ -2145,13 +993,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2076239
 title: Credit Control
-employer:
+employer: 
 location: Wrexham
 region: North Wales - East
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: d3745d2763d244c4241930a12b8f632765dcfa6753850dcf8d07b8d92596026c
 ---
 
@@ -2163,86 +1011,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2129537
 title: Part-Time Finance Officer (with Administrative Support)
-employer:
+employer: 
 location: Northamptonshire
 region: Northamptonshire
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 56385a4f6837912e09cf8a336f97c5aa275b280980bd187161e457c985bba1a7
----
-
----
-action:
-POSS | JobG8 | Northamptonshire | Northamptonshire | £38000 - £45000 per year | Senior Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225553739
-title: Senior Accountant
-employer:
-location: Northamptonshire
-region: Northamptonshire
-salary: £38000 - £45000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url:
-hub_fingerprint: 3f7a99745ac28aaf39197851898b20b471ad780a2947077043f1d6dd97fdb5aa
----
-
----
-action:
-POSS | JobG8 | Northern Ireland - East | Belfast | £27000 - £280000 per year | Account Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2157274
-title: Account Administrator
-employer:
-location: Belfast
-region: Northern Ireland - East
-salary: £27000 - £280000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: ed97cfda94b6f249082c39044e87e27732f8e4f933e59b0c438bdbbdd3c9e963
----
-
----
-action:
-POSS | JobG8 | Northern Ireland - East | Belfast | £35000 per year (Pro Rata £35k) | Accounts & Payroll Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225726032
-title: Accounts & Payroll Administrator
-employer:
-location: Belfast
-region: Northern Ireland - East
-salary: £35000 per year (Pro Rata £35k)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: d64d622ce6d46c2122a20e824b4eb8370523679da62e274e571886e68bdc2044
----
-
----
-action:
-POSS | JobG8 | Northern Ireland - East | Belfast | £32000 per year | Accounts Clerk
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2057342
-title: Accounts Clerk
-employer:
-location: Belfast
-region: Northern Ireland - East
-salary: £32000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 44b17340028399a3a548a4d55d6257acefce9c164fa5cba8beab54f0f19c850a
 ---
 
 ---
@@ -2253,32 +1029,14 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225666942
 title: Band 6 - Finance Business Partner
-employer:
+employer: 
 location: Belfast
 region: Northern Ireland - East
 salary: £20.1 - £24.21 per hour (£20.10- £24.41)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: ed9fd27519c370c82255a8171129015d272005955a4af16bbdf61e55387480d7
----
-
----
-action:
-POSS | JobG8 | Nottinghamshire | Nottinghamshire | — | Accounts Senior
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2058013
-title: Accounts Senior
-employer:
-location: Nottinghamshire
-region: Nottinghamshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 7fdfcfecd80d4d20af843bc3fd705db4b95e53136839a9964e6095efd75665f8
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: salary over £40k under normal selection rules
+source_url: 
+hub_fingerprint: 15f90239e664807a8ec73d9717f2d77d8b5496e92785de54d5c1e5f5e8718ebd
 ---
 
 ---
@@ -2289,13 +1047,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2174181
 title: Finance Officer: Purchase Ledger & Income
-employer:
+employer: 
 location: Nottinghamshire
 region: Nottinghamshire
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 32df142719224597c5fdc2b1e30c1b1c3cfe02b24b875f94c3154af2b73548c7
 ---
 
@@ -2307,50 +1065,32 @@ source: JobG8
 category: admin_service
 source_job_id: 2056429
 title: Group Financial Controller
-employer:
+employer: 
 location: Nottinghamshire
 region: Nottinghamshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: ba7b377d74465fe35191e85eba89aee1b5dd6fd1f3a9ec2e6439e87b3c442749
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: d065081564330a4dd754d6030458a067642400067a6400daa3ed17d2752298a7
 ---
 
 ---
 action:
-POSS | JobG8 | Nottinghamshire | Nottinghamshire | £30000 - £35000 per year | Senior Accounts Assistant (Part Time)
+POSS | JobG8 | Nottinghamshire | Nottinghamshire | £10000 per year (/month) | Part Time HR Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2053774
-title: Senior Accounts Assistant (Part Time)
-employer:
+source_job_id: 23643_225746065
+title: Part Time HR Manager
+employer: 
 location: Nottinghamshire
 region: Nottinghamshire
-salary: £30000 - £35000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: c01c0961800ffb71e46db75728a664cce0985b8903962bddf233cf6e31893df7
----
-
----
-action:
-POSS | JobG8 | Oxfordshire | Oxfordshire | £35000 per year | Credit Controller
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2067685
-title: Credit Controller
-employer:
-location: Oxfordshire
-region: Oxfordshire
-salary: £35000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 9eddec3085c46540cf136864acd626c65950a3b841ec0f67c2e1b821ef4d6f90
+salary: £10000 per year (/month)
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 2969897db114c03ce3d4b3fc127e49884ba59ded62b868ca9853a4e732be3a5a
 ---
 
 ---
@@ -2361,50 +1101,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2174234
 title: HR and Payroll Officer
-employer:
+employer: 
 location: Oxfordshire
 region: Oxfordshire
 salary: £37,751.95 - £40,655.94 per annum
-closing_date:
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url:
+source_url: 
 hub_fingerprint: 9f39410f475f06bde47036968b1a6393f4f4305f861c52315b42d49e90856fd3
----
-
----
-action:
-POSS | JobG8 | Oxfordshire | Oxfordshire | £15.38 per hour | Payroll and Administration Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225754654
-title: Payroll and Administration Assistant
-employer:
-location: Oxfordshire
-region: Oxfordshire
-salary: £15.38 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: b451a9f1b851fe998acae7b58bdd378d417c329877b0e0f6077c6c819b49f228
----
-
----
-action:
-POSS | JobG8 | Oxfordshire | Oxfordshire | £17.00 to £18.00 Per Hour | Temp to Perm Payroll Officer
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2076880
-title: Temp to Perm Payroll Officer
-employer:
-location: Oxfordshire
-region: Oxfordshire
-salary: £17.00 to £18.00 Per Hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 38d70fb0eb6d594d48b63fb7de352258a36177d031a1c304316596e0308d464a
 ---
 
 ---
@@ -2415,14 +1119,32 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225727890
 title: Temporary Finance Manager
-employer:
+employer: 
 location: Oxfordshire
 region: Oxfordshire
 salary: £23.07 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 6e5b548ad22335560ffb8c9fe3421cc272ef432a1b18f75f5e050961392a79df
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: salary over £40k under normal selection rules
+source_url: 
+hub_fingerprint: 67dcff2a77a2b3615b74dc99ae9a6887b05174f21dabd49d873e853a5c275815
+---
+
+---
+action:
+POSS | JobG8 | Scotland Central - Edinburgh & Lothians | Edinburgh | £35000 per year | Office Manager/Administrator- Edinburgh - 4 day week
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2137033
+title: Office Manager/Administrator- Edinburgh - 4 day week
+employer: 
+location: Edinburgh
+region: Scotland Central - Edinburgh & Lothians
+salary: £35000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 7a533e4dd28f8f111276f23997ae1b72db44b45b73aa1504b341e722cd22e08e
 ---
 
 ---
@@ -2433,32 +1155,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2074273
 title: Finance Business Partner
-employer:
+employer: 
 location: Stirling
 region: Scotland Central - Falkirk & Stirling
 salary: £47000 - £51000 per year
-closing_date:
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url:
+source_url: 
 hub_fingerprint: a26df74582b27d4faead48cd2a599defa85030f63d8ca30811fb9bca9c4a7aa7
----
-
----
-action:
-POSS | JobG8 | Scotland Central - Falkirk & Stirling | Stirling | £33000 - £35000 per year (Flexible Working) | Part Time Payroll Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225696195
-title: Part Time Payroll Administrator
-employer:
-location: Stirling
-region: Scotland Central - Falkirk & Stirling
-salary: £33000 - £35000 per year (Flexible Working)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 4aba8a99ce5663f78bff899b0b80512d2532df95ca396a73565d3f5f9feb68bd
 ---
 
 ---
@@ -2469,32 +1173,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2057368
 title: Payroll Coordinator
-employer:
+employer: 
 location: Stirling
 region: Scotland Central - Falkirk & Stirling
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: payroll coordinator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 04dc3bdd4f68a4391bf289d8918c6d4bd9214fce9bdf86910bbaf47e428f30f4
----
-
----
-action:
-POSS | JobG8 | Scotland Central - Falkirk & Stirling | Stirling | £35000 - £40000 per year | Payroll Officer
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225668573
-title: Payroll Officer
-employer:
-location: Stirling
-region: Scotland Central - Falkirk & Stirling
-salary: £35000 - £40000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 5b538d78f5029b1c1f17524b83dabe3e991f2e478f147fbc43a2a12a6ed82d14
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: payroll coordinator; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 514d5257d67f97dbb5fd7cc82c9495c3dea3de1ad5a5f054532d5e43b9734ed9
 ---
 
 ---
@@ -2505,50 +1191,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2055742
 title: Accounts Administrator
-employer:
+employer: 
 location: Glasgow
 region: Scotland West - Glasgow
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - Basic accounts administration is transferable unless specialist qualifications are mandatory; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: cb12ffda8f255c8bffd27a0e77fbd7f161d130b68db35049618d02d3b298595d
----
-
----
-action:
-POSS | JobG8 | Scotland West - Glasgow | Glasgow | £28000 per year (pro-rata) | Payroll Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225735910
-title: Payroll Administrator
-employer:
-location: Glasgow
-region: Scotland West - Glasgow
-salary: £28000 per year (pro-rata)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 804c26e51e7c49989da61d18416eed664b1abd66ec34bbb82e8a6ed42c6d2585
----
-
----
-action:
-POSS | JobG8 | Shropshire | Shropshire | £49200 per year | Accountant - Rents & Service Charges
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225416036
-title: Accountant - Rents & Service Charges
-employer:
-location: Shropshire
-region: Shropshire
-salary: £49200 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url:
-hub_fingerprint: d6a8c8ac93a011f71297a6078d46a76f330acfaca6196a1d270f82debf6855d4
 ---
 
 ---
@@ -2559,13 +1209,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2092604
 title: Payroll Assistant
-employer:
+employer: 
 location: Shropshire
 region: Shropshire
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: payroll assistant; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 9e5c9ae7dfa309939578e1017d0626d38afbf0cbf9d67e6e96d35048a45b5742
 ---
 
@@ -2577,14 +1227,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2038056
 title: Accounts and Office Manager
-employer:
+employer: 
 location: Somerset
 region: Somerset
 salary: £35000 - £48000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: e72ef13c232d0d35a2075eaed0d0beddf69ad89be8a712ba0783992e765ecee0
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: salary over £40k under normal selection rules
+source_url: 
+hub_fingerprint: 126a0e8ede7f2849f993a052c66edbd91d4ad2b6ebc48f44610b39726ab1a1ce
 ---
 
 ---
@@ -2595,13 +1245,13 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225367093
 title: Accounts Manager
-employer:
+employer: 
 location: Somerset
 region: Somerset
 salary: £30000 - £40000 per year
-closing_date:
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url:
+source_url: 
 hub_fingerprint: 2bbafca1f9682ed67b6c0d853e7b13069d1e04b12ff8518d2849fe678fa1fedb
 ---
 
@@ -2613,13 +1263,13 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225667966
 title: P/T ACCOUNTS ADMINISTRATOR / BOOKKEEPER
-employer:
+employer: 
 location: Somerset
 region: Somerset
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, bookkeeper; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: a2cd686e90234662521a774dbc23d0fe5b200c83e370895dddbe2a5b1aedbe83
 ---
 
@@ -2631,13 +1281,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2055734
 title: P/T Accounts Administrator/Bookkeeper
-employer:
+employer: 
 location: Somerset
 region: Somerset
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, bookkeeper; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 80b978ef6e50cb479b1b295c0316bf0df5eeb240cc2a9dbea38b31fc372b4a3d
 ---
 
@@ -2649,13 +1299,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2044538
 title: Payroll Administrator
-employer:
+employer: 
 location: Somerset
 region: Somerset
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 9db535b8f1b3a838d5bc3300f54da8db449a296a1c5e7e61f984ce7b755090ae
 ---
 
@@ -2667,68 +1317,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2088068
 title: Senior Accounts Technician
-employer:
+employer: 
 location: Somerset
 region: Somerset
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: c4cf1a16a75d6de54759ba010cbb34597336a0427f20c43a36927544d18dc50e
----
-
----
-action:
-POSS | JobG8 | Staffordshire | Staffordshire | — | Junior Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225729769
-title: Junior Management Accountant
-employer:
-location: Staffordshire
-region: Staffordshire
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
-hub_fingerprint: 8f9b5509f6ca242661ab75125c7e593f9643b914664050e309ffa59af7be5639
----
-
----
-action:
-POSS | JobG8 | Staffordshire | Staffordshire | — | Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225755818
-title: Management Accountant
-employer:
-location: Staffordshire
-region: Staffordshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
-hub_fingerprint: 3a31dc2868a6c8ae30c8e5eab418ffb319c8b0522506b5dbeb3ba0c61bf85d0b
----
-
----
-action:
-POSS | JobG8 | Staffordshire | Staffordshire | £45000 per year (£45,000) | Management Accountant - Full Time or Part Time
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225729641
-title: Management Accountant - Full Time or Part Time
-employer:
-location: Staffordshire
-region: Staffordshire
-salary: £45000 per year (£45,000)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 10128f371eb58bd5f07100116d23416370252b434470feaedc5898dc7abf1b3d
+source_url: 
+hub_fingerprint: 4cf721096e550b66c604be11d1e27a85a695de969741a6d1f10c681adb8e9dbf
 ---
 
 ---
@@ -2739,50 +1335,14 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225690802
 title: Part-time Accounts Office Manager
-employer:
+employer: 
 location: Staffordshire
 region: Staffordshire
 salary: £15080 per year (£14.50 per hour)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 102c08dbd77386fe31ec798bc118104719e906bad1e2f6e1c38f51bffb198e21
----
-
----
-action:
-POSS | JobG8 | Staffordshire | Staffordshire | £28000 - £32000 per year | Payroll Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225729364
-title: Payroll Administrator
-employer:
-location: Staffordshire
-region: Staffordshire
-salary: £28000 - £32000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: d2631fce8289bb6a577a0ff9a0ebc2420dfe5ba6eb271bcf8f2da765e8cc7082
----
-
----
-action:
-POSS | JobG8 | Staffordshire | Staffordshire | £20000 - £25000 per year (( £28,000 FTE)) | Payroll Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225755982
-title: Payroll Administrator
-employer:
-location: Staffordshire
-region: Staffordshire
-salary: £20000 - £25000 per year (( £28,000 FTE))
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 6ce6ecf9681021782b360041bc5b49dd525df75b67d4c589540060a8cec9cfe0
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: e2937961323f2794ca4c1b595e6459d86579aa83a3a320e0f0d265d661c8600e
 ---
 
 ---
@@ -2793,68 +1353,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2104362
 title: Payroll and Benefits Officer
-employer:
+employer: 
 location: Staffordshire
 region: Staffordshire
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 1ca910065b6ed0d683d8ca2f71bba788c640f5e3fd3d8adbf04641c83f55beb1
----
-
----
-action:
-POSS | JobG8 | Suffolk | Suffolk | £19350 - £32046 per year | Finance Officer
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225745090
-title: Finance Officer
-employer:
-location: Suffolk
-region: Suffolk
-salary: £19350 - £32046 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - owner-approved ordinary office role; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 371be1135945f39766e52ca836998a6c0a4771fd1dae55a9eb2aa9ec0d26df21
----
-
----
-action:
-POSS | JobG8 | Surrey | Surrey | £30000 - £32000 per year | Accounts Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225723947
-title: Accounts Assistant
-employer:
-location: Surrey
-region: Surrey
-salary: £30000 - £32000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: d5dbe9a435c55e8a207c104e5db9178d8982e0e55de1190f8d9e6befc892b9a0
----
-
----
-action:
-POSS | JobG8 | Surrey | Surrey | £15829 per year (pro rata to £31,659 FTE) | Adults Financial Assessment and Income Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225703384
-title: Adults Financial Assessment and Income Assistant
-employer:
-location: Surrey
-region: Surrey
-salary: £15829 per year (pro rata to £31,659 FTE)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 9eaa6bbf6e97310f624fa6fdaac54d5448035bed4d8c7d027216beffb225e500
 ---
 
 ---
@@ -2865,50 +1371,32 @@ source: JobG8
 category: admin_service
 source_job_id: 2044193
 title: Bookkeeper
-employer:
+employer: 
 location: Surrey
 region: Surrey
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 86c51b7e3f21f4507330f6413f63e29f67b1b8de303191f18ba255c453f66b88
 ---
 
 ---
 action:
-POSS | JobG8 | Surrey | Surrey | £15 - £17 per hour | Credit Controller
+POSS | JobG8 | Surrey | Surrey | £38875 - £42161 per year | HR Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225422145
-title: Credit Controller
-employer:
+source_job_id: 23643_225688512
+title: HR Manager
+employer: 
 location: Surrey
 region: Surrey
-salary: £15 - £17 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 504de04e544e65c7205f2012b8c081da54265453eb82302cbe4cc4cbe183560e
----
-
----
-action:
-POSS | JobG8 | Surrey | Surrey | £34660 per year | Financial Assessment and Income Officer
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225698766
-title: Financial Assessment and Income Officer
-employer:
-location: Surrey
-region: Surrey
-salary: £34660 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 840eac9775c98f53a554400f1c55688d167524014e69571c6ee1779fe6b273b7
+salary: £38875 - £42161 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 3ab90b38c3d8a32333acba528c5a58bc1da4ec682b2f171f16ab4546fc50234e
 ---
 
 ---
@@ -2919,14 +1407,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2087513
 title: Part Time Finance Manager 4 days per week 32 hours
-employer:
+employer: 
 location: Surrey
 region: Surrey
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 859f8c3a64614b0c9d5743c8704e6c6b58b3294a0641d178f8df1b2b60ae3aa5
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 4bec413181d0479dcf0b9ad24ff1533b1ef6821f2c0d92aa99cfd57034d090cd
 ---
 
 ---
@@ -2937,32 +1425,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2089890
 title: Payroll Assistant - Part time
-employer:
+employer: 
 location: Surrey
 region: Surrey
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: payroll assistant; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 40a3e3730e685cac3b89e73eb0dd2e6911a7550989902f1bda119dbf2d636664
----
-
----
-action:
-POSS | JobG8 | Sussex | Sussex | — | Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2060450
-title: Accountant
-employer:
-location: Sussex
-region: Sussex
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 809978b4d004ccd3842c96105e4c4426c13e72e0814588987aab52cf99230db3
 ---
 
 ---
@@ -2973,13 +1443,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2037053
 title: Accounts Assistant
-employer:
+employer: 
 location: Sussex
 region: Sussex
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 3695daa159b19caee89c0317b3a4313207c0bc2ddc4dadbc610d5d0512e7bbd7
 ---
 
@@ -2991,122 +1461,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2074351
 title: Accounts Payable
-employer:
+employer: 
 location: Sussex
 region: Sussex
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: d8f087d83702ed8cee8f392340c3d74667943d2872fe5a357fa2ef071e8bab41
----
-
----
-action:
-POSS | JobG8 | Sussex | Sussex | £13.85 - £14.36 per hour | Finance Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2044482
-title: Finance Assistant
-employer:
-location: Sussex
-region: Sussex
-salary: £13.85 - £14.36 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - owner-approved ordinary office role; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 69a039b6b53f447076ee6237212c5e8f37aee7944e69ca9e0eaad98c0d9e4030
----
-
----
-action:
-POSS | JobG8 | Sussex | Sussex | £26000 - £29000 per year | Finance Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225668421
-title: Finance Assistant
-employer:
-location: Sussex
-region: Sussex
-salary: £26000 - £29000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - owner-approved ordinary office role; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 991a8687e674cd343fde844b83e1654804fea08290eebfb345ce5844c234ce0b
----
-
----
-action:
-POSS | JobG8 | Sussex | Sussex | £20000 - £60000 per year | Practice Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225707304
-title: Practice Accountant
-employer:
-location: Sussex
-region: Sussex
-salary: £20000 - £60000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 3e6a55b3d9321b64edbd212d4c3f32f0ec5c18132bd431b5d7ea0eb2bfdb2d5a
----
-
----
-action:
-POSS | JobG8 | Sussex | Sussex | £35000 - £40000 per year | Senior Finance Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225694900
-title: Senior Finance Assistant
-employer:
-location: Sussex
-region: Sussex
-salary: £35000 - £40000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 0249e8c639a07099c96c6c59bc3191bd285988ae1ba31231075baa381cbb2a80
----
-
----
-action:
-POSS | JobG8 | Wales South - Cardiff & Vale | Cardiff | — | Account Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225724736
-title: Account Manager
-employer:
-location: Cardiff
-region: Wales South - Cardiff & Vale
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: a86163c3a3bc904a8c17b657a67c686c31d905156cf597e3bc622cf25160018c
----
-
----
-action:
-POSS | JobG8 | Wales South - Cardiff & Vale | Cardiff | £55000 - £60000 per year | Finance Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225661435
-title: Finance Manager
-employer:
-location: Cardiff
-region: Wales South - Cardiff & Vale
-salary: £55000 - £60000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 945441598e1dbde507369b2552b81c05c1efbe0b3d445889d29556ae6ad55135
 ---
 
 ---
@@ -3117,50 +1479,50 @@ source: JobG8
 category: admin_service
 source_job_id: 2057279
 title: Financial Controller
-employer:
+employer: 
 location: Cardiff
 region: Wales South - Cardiff & Vale
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 69c515c4834cda8ef6a4ea5440787de90980f7e22f760786dd6a3e63908ab1c3
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 97a9e3ac320b14ff447a1ffe6dbba930c412649fd3dd99586f9888a0b083d401
 ---
 
 ---
 action:
-POSS | JobG8 | Wales South - Cardiff & Vale | Cardiff | £60000 - £75000 per year | Financial Controller
+POSS | JobG8 | Wales South - Valleys | Pontypridd | — | Hr Manager Part-Time
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225690304
-title: Financial Controller
-employer:
-location: Cardiff
-region: Wales South - Cardiff & Vale
-salary: £60000 - £75000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: a61256f30bd3524831ca0be9e346719993666f676d7a66271ca00431d52932ba
+source_job_id: 108220656
+title: Hr Manager Part-Time
+employer: 
+location: Pontypridd
+region: Wales South - Valleys
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 951dc33152140e0a88d586e6d21138d3d8eab0ccc9e8a46abfada12b548474c3
 ---
 
 ---
 action:
-POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £140 per daily | Accounts Assistant
+POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £32000 - £35000 per year | Office Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2069736
-title: Accounts Assistant
-employer:
+source_job_id: 23643_225694384
+title: Office Manager
+employer: 
 location: Birmingham
 region: West Midlands - Birmingham & Solihull
-salary: £140 per daily
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: e16e15ca2b3aacc8b07e5887ca722a0064aec5003aa068d46d5824df4bd1c8cb
+salary: £32000 - £35000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: c1dee148413f41d93a796643a2050e835ac9637be79b19ebd793c956f699e840
 ---
 
 ---
@@ -3171,14 +1533,14 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225690795
 title: Experienced Bookkeeper / Accounts Professional
-employer:
+employer: 
 location: Sutton Coldfield
 region: West Midlands - Birmingham & Solihull
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 741bda1e570c772b4f24c7f845766765055e2f0da8ed57d2be1dd4e600b9e3e7
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 5bb63063e3f6e0a2ebccb03473efd0e4489b5b9eb2849940189249e7d9a4ebc9
 ---
 
 ---
@@ -3189,50 +1551,32 @@ source: JobG8
 category: admin_service
 source_job_id: 2055533
 title: Part-time Payroll Clerk
-employer:
+employer: 
 location: Sutton Coldfield
 region: West Midlands - Birmingham & Solihull
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: payroll clerk; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: c58fd09bceb58fe9c2877e55ec7c716c5965ac1bb4820028d54f12884eb2ccce
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: payroll clerk; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 7096aada721a9b3fdb75f9b938014d16f74adc30504ababe72a4c69934670d31
 ---
 
 ---
 action:
-POSS | JobG8 | West Midlands - Black Country | Cradley Heath | £13 - £15 per hour | Accounts Assistant
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £40,000 - £42,000 per annum | Finance Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225709493
-title: Accounts Assistant
-employer:
-location: Cradley Heath
-region: West Midlands - Black Country
-salary: £13 - £15 per hour
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 5854e27a60766f85860bcdb37dcd1e8d2537e5415187eb28194fa0e6dc46dd2d
----
-
----
-action:
-POSS | JobG8 | West Midlands - Coventry & Warwickshire | Coventry | £26000 - £30000 per year | Bookkeeper
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225702322
-title: Bookkeeper
-employer:
-location: Coventry
+source_job_id: 2138590
+title: Finance Manager
+employer: 
+location: Warwickshire
 region: West Midlands - Coventry & Warwickshire
-salary: £26000 - £30000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 2537a464a4379c1cce5d2183f5d2628227e294583aa73a7ee75541ee764bd1b6
+salary: £40,000 - £42,000 per annum
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 1d61bcdd77d77a54b4367cf9fe012773988f9d99841d8d91e2601e32267a6705
 ---
 
 ---
@@ -3243,14 +1587,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2079095
 title: Part Time Finance Manager
-employer:
+employer: 
 location: Warwickshire
 region: West Midlands - Coventry & Warwickshire
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 707bdbc1ff8c3c0cbdf52af75a187ca6f27382a0397ac995676821dad728db7b
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: f421e13a90240a3fbc7a29c7bf5ee1a0b7aa015e2d280e392ede4225096c23da
 ---
 
 ---
@@ -3261,50 +1605,14 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225689484
 title: Part Time Finance Manager
-employer:
+employer: 
 location: Warwickshire
 region: West Midlands - Coventry & Warwickshire
 salary: £36000 - £42000 per year (Hybrid working, Generous A/L etc)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 29c051f9bf81ae9634373775b803d5ff71c81e15d500abed2e65f670bf23bc2b
----
-
----
-action:
-POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £32000 per year | Payroll Officer
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2056891
-title: Payroll Officer
-employer:
-location: Warwickshire
-region: West Midlands - Coventry & Warwickshire
-salary: £30000 - £32000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 546c5c541bd5c50be587f60fb93e00cb9edbf55c2daf9d225c722effc156dea4
----
-
----
-action:
-POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £32000 per year | Payroll Officer
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225684915
-title: Payroll Officer
-employer:
-location: Warwickshire
-region: West Midlands - Coventry & Warwickshire
-salary: £30000 - £32000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: b831edbe2255d8194a4ab9c8454bd582e4a5cac7fd4ac978e2f9a402b72103ae
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: salary over £40k under normal selection rules
+source_url: 
+hub_fingerprint: ede7b557d0fc51e5ddb7865832bd52b1f9b8f90b2ba4dec84caaa055b9994c56
 ---
 
 ---
@@ -3315,13 +1623,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2041620
 title: Part-time Finance Officer
-employer:
+employer: 
 location: Wiltshire
 region: Wiltshire
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 321f70b820114863ea9172789aa81e5676be9192394dbdc9c6971732e3c53829
 ---
 
@@ -3333,13 +1641,13 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225629342
 title: Payroll Manager
-employer:
+employer: 
 location: Goole
 region: Yorkshire - East
 salary: £38000 - £42000 per year
-closing_date:
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url:
+source_url: 
 hub_fingerprint: c10270716140ce6e9f8d2ee1ec057241a1f800de44bd986542bb0b1f65d04de3
 ---
 
@@ -3351,14 +1659,14 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225702204
 title: Payroll Processor
-employer:
+employer: 
 location: Goole
 region: Yorkshire - East
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: b6f13a77bab49b2d1a4056cb4226cf47a88a576729ca6dd42573551ee333015e
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 64da4d75f546ee63db9ffeda2fcd8b22bf2f4efedc5e96c93b607ef7265b4486
 ---
 
 ---
@@ -3369,13 +1677,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2165745
 title: Finance & Reporting Administrator
-employer:
+employer: 
 location: Hessle
 region: Yorkshire - East
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 4c8c308a0a16cb325ce8a550c2697b92c5a508209e66767c370053fdbd9777e7
 ---
 
@@ -3387,32 +1695,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2060366
 title: Accounts Assistant
-employer:
+employer: 
 location: Hull
 region: Yorkshire - East
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 57e4f79eb608984f911b7670792032cdcd49b09a247b461bd765f39a33a9adb6
----
-
----
-action:
-POSS | JobG8 | Yorkshire - East | Hull | £28000 - £30000 per year | Accounts Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225676829
-title: Accounts Assistant
-employer:
-location: Hull
-region: Yorkshire - East
-salary: £28000 - £30000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: c0cbec1b2beda4821735a829bbfcfa02eb8af822c2ce049a04e04771cadfe5df
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: c1063b7b5a7e6d210ec12bb167b457ca669e7f11c6ce67b3697809c4495380c5
 ---
 
 ---
@@ -3423,50 +1713,14 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225754589
 title: Finance Procurement Administrator ( Part-Time)
-employer:
+employer: 
 location: Hull
 region: Yorkshire - East
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 525226d0b10d9ef3b088a312b01247d28a46c6ae8ee45b84fb197987b0c3360f
----
-
----
-action:
-POSS | JobG8 | Yorkshire - North | Harrogate | £50000 - £55000 per year | Finance Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2089312
-title: Finance Manager
-employer:
-location: Harrogate
-region: Yorkshire - North
-salary: £50000 - £55000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: d4cd391ab63a4b17ce765a49e3b4330cb14469d595cdbcb6d21b57b514092bf8
----
-
----
-action:
-POSS | JobG8 | Yorkshire - North | Scarborough | £40000 - £45000 per year | Management Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225705096
-title: Management Accountant
-employer:
-location: Scarborough
-region: Yorkshire - North
-salary: £40000 - £45000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 02468430042c388d6938f9a9dace6f1ffc2d3f264d96c37c0d4e0e2fb240a194
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 37a0bfb3bf399fa0ee851c4e9524d75fd2ff5e052a453af92ffd3035eab06be4
 ---
 
 ---
@@ -3477,14 +1731,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2087398
 title: Part Time Finance Assistant
-employer:
+employer: 
 location: York
 region: Yorkshire - North
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: finance assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 1e364d98cab337a4fad63a8fe5492167803eb101c3f17865cd4baca77c61ee8c
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: finance assistant; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: d9197084fcec42e4ab05a550f646d0af18b94ee42f48df15f4c4acc2eb13f6bf
 ---
 
 ---
@@ -3495,68 +1749,32 @@ source: JobG8
 category: admin_service
 source_job_id: 23643_225696188
 title: Part Time Finance Assistant
-employer:
+employer: 
 location: York
 region: Yorkshire - North
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: finance assistant; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: ed1760e4f88bd52e654c0a98f118e7f8b88bbcb893670a7f9e6002562f9310cd
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: finance assistant; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 7fa6b9340b43ed12093061f5ca93929c13eab21f764d0342550c054415996637
 ---
 
 ---
 action:
-POSS | JobG8 | Yorkshire - South | Bentley | £28 - £30 per hour (Plus Company Benefits) | Payroll Administrator
+POSS | JobG8 | Yorkshire - South | Brinsworth | £40000 - £45000 per year | Hr Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225684316
-title: Payroll Administrator
-employer:
-location: Bentley
+source_job_id: 23643_225733777
+title: Hr Manager
+employer: 
+location: Brinsworth
 region: Yorkshire - South
-salary: £28 - £30 per hour (Plus Company Benefits)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: f506ae9155beca46a0c2b22d2e7b2f85a27f87d15b17b282fa5742761981d8c3
----
-
----
-action:
-POSS | JobG8 | Yorkshire - South | Doncaster | £26000 - £30000 per year | Part-time Payroll Admin
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225740720
-title: Part-time Payroll Admin
-employer:
-location: Doncaster
-region: Yorkshire - South
-salary: £26000 - £30000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: b629ae3ce4e67fee797c8e77ef76a122b0b37a704afaeb0d293afa3a77bab21e
----
-
----
-action:
-POSS | JobG8 | Yorkshire - South | Doncaster | £28000 - £30000 per year | Payroll Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225690014
-title: Payroll Administrator
-employer:
-location: Doncaster
-region: Yorkshire - South
-salary: £28000 - £30000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator, payroll administrator; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 71d26f5f9effaa1fb829e3173b8ee94c2a3706b391e169ef482b7e08f514b0e3
+salary: £40000 - £45000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: aaffde3809e6328533f5b93085e33f54ba1767004f0786de17e1c516dd338d0d
 ---
 
 ---
@@ -3567,13 +1785,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2067582
 title: Income Assistant / Finance Administrator - Local Authority
-employer:
+employer: 
 location: Sheffield
 region: Yorkshire - South
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 76ba72b8fa2b29778cb8d492ef4a6fcf1a1c044fb13c82a962e84d1b1e54985a
 ---
 
@@ -3585,104 +1803,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2052120
 title: Part time Finance Manager
-employer:
+employer: 
 location: Sheffield
 region: Yorkshire - South
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 1ca45550cd169b1ce1acf2cffae6a4629106f3854ee42c38f3617004d849a24b
----
-
----
-action:
-POSS | JobG8 | Yorkshire - West | Ilkley | £50000 per year | Practice Manager/Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 108172258
-title: Practice Manager/Accountant
-employer:
-location: Ilkley
-region: Yorkshire - West
-salary: £50000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 236278046861ad9440244e4ad43df9e4634daf32b6d867397b951aafc2fb931a
----
-
----
-action:
-POSS | JobG8 | Yorkshire - West | Ilkley | £35000 - £50000 per year | Practice Manager/Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225701617
-title: Practice Manager/Accountant
-employer:
-location: Ilkley
-region: Yorkshire - West
-salary: £35000 - £50000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: d07c70f3b05671ceaaffb6451a49c43653ebe50bb4677ea0fbeb7adfb3d2473a
----
-
----
-action:
-POSS | JobG8 | Yorkshire - West | Ilkley | — | Senior Accountant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2176914
-title: Senior Accountant
-employer:
-location: Ilkley
-region: Yorkshire - West
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: ae0e5fb45c4899e994ff4a268894a281a77a82c41d41a2bb8a0055f09cbee8ec
----
-
----
-action:
-POSS | JobG8 | Yorkshire - West | Keighley | £55000 per year | Accounting Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 108162261
-title: Accounting Manager
-employer:
-location: Keighley
-region: Yorkshire - West
-salary: £55000 per year
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: ae362578926008289619d8d259e1c956fdb140abba936d83c6c6e2a5ea3a78c6
----
-
----
-action:
-POSS | JobG8 | Yorkshire - West | Leeds | £35000 - £45000 per year (Flexible working hours) | Accounts Senior
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225664248
-title: Accounts Senior
-employer:
-location: Leeds
-region: Yorkshire - West
-salary: £35000 - £45000 per year (Flexible working hours)
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url:
-hub_fingerprint: 8cac031ad270f36243a4078c045f261492284790a8a925bd3b48a5cf5ebc0bc7
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 2b4c841b705a3705917f12c9993374663f16c23094364cf1423a4add26604351
 ---
 
 ---
@@ -3693,14 +1821,14 @@ source: JobG8
 category: admin_service
 source_job_id: 2075044
 title: Payroll Specialist (Stand alone)
-employer:
+employer: 
 location: Leeds
 region: Yorkshire - West
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: 308a83ee1e5a63e73e8d6d118edf58f0ec06ea1ed0a1b56e2fcf2918ea61246f
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 8e64b0c5a5f7449e7ffe08f53b1f954625bc22f199629204f3da99430cd79e5f
 ---
 
 ---
@@ -3711,13 +1839,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2164237
 title: Credit Control
-employer:
+employer: 
 location: Wakefield
 region: Yorkshire - West
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: 26ce0493a7c159cb4a7a35952ebf4caf8a31b895b85c32f5f5fbcc05e560d006
 ---
 
@@ -3729,13 +1857,13 @@ source: JobG8
 category: admin_service
 source_job_id: 2064618
 title: Part- Time Accounts Administrator
-employer:
+employer: 
 location: Wakefield
 region: Yorkshire - West
-salary:
-closing_date:
+salary: 
+closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: part-time earnings are unclear
-source_url:
+source_url: 
 hub_fingerprint: e3e2904181dc1d44286b84d0a4e02ccc956941a19e343998e90b5dec0d1f7af2
 ---
 
@@ -3747,14 +1875,1334 @@ source: JobG8
 category: admin_service
 source_job_id: 2165855
 title: Purchase Ledger Clerk
-employer:
+employer: 
 location: Wakefield
 region: Yorkshire - West
-salary:
-closing_date:
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time hours are unclear
-source_url:
-hub_fingerprint: cd04bc2bf3d3af0ed31b42d5c07a965542f7c8c24bce8cd365be64dd3939619b
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: a8683e00852362799264209064859afe50763b20d138227e330c6f3cf9137d08
+---
+
+## VONNE — 0 to review
+
+_No new or changed human decisions required._
+
+## Teaching Vacancies — 73 to review
+
+---
+action:
+POSS | Teaching Vacancies | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) | Business Support
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: business-support-glebe-farm-school-milton-keynes-buckinghamshire
+title: Business Support
+employer: Glebe Farm School
+location: Milton Keynes, South East, MK17 8XY
+region: Buckinghamshire
+salary: £26,824.00 Annually (FTE)
+closing_date: 2026-10-28T23:59:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-glebe-farm-school-milton-keynes-buckinghamshire
+hub_fingerprint: 287cf49f1fda567a86bb12e4e9976384c8f751219d3a05457226f55619b875ec
+---
+
+---
+action:
+POSS | Teaching Vacancies | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-lift-sir-herbert-leon
+title: Receptionist
+employer: Lift Sir Herbert Leon
+location: Milton Keynes, South East, MK2 3HQ
+region: Buckinghamshire
+salary: £24413 - £25583 per annum
+closing_date: 2026-11-17T13:08:02+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
+hub_fingerprint: 564c4d4771b043464c6910f7634c770f823cd1895ccae79e3f0f72abb0e7e24c
+---
+
+---
+action:
+POSS | Teaching Vacancies | Buckinghamshire | Milton Keynes, South East, MK8 0PU | £9,700.00 Annually (Actual) | Payroll and HR Support Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: payroll-and-hr-support-administrator
+title: Payroll and HR Support Administrator
+employer: The Woodlands School
+location: Milton Keynes, South East, MK8 0PU
+region: Buckinghamshire
+salary: £9,700.00 Annually (Actual)
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-support-administrator
+hub_fingerprint: 76d68a810672925db3b2c881273ba6047e6a9d5f7a6cb545a70c5a18c3d5ef12
+---
+
+---
+action:
+POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB23 7DU | £25,185.00 - £25,583.00 Annually (FTE) NJC Scale 2, Points 5 to 6. Actual salary £21,600.98 per annum (based on 37 hrs per week) on point 12 (pay award pending). | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-comberton-village-college
+title: Receptionist
+employer: Comberton Village College
+location: Cambridge, East of England, CB23 7DU
+region: Cambridgeshire
+salary: £25,185.00 - £25,583.00 Annually (FTE) NJC Scale 2, Points 5 to 6. Actual salary £21,600.98 per annum (based on 37 hrs per week) on point 12 (pay award pending).
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-comberton-village-college
+hub_fingerprint: b137ff89fa275c51887dacba54b5974dd52511c454061ab2436b559c5ecc13c4
+---
+
+---
+action:
+POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB4 2QT | £25,823-£27,152 per annum | HR Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: hr-administrator-cambridge-regional-college
+title: HR Administrator
+employer: Cambridge Regional College
+location: Cambridge, East of England, CB4 2QT
+region: Cambridgeshire
+salary: £25,823-£27,152 per annum
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-cambridge-regional-college
+hub_fingerprint: 2c042a6e5bd35c719825d67f47744bd265cf4d43802c2845377a2eff615e48ad
+---
+
+---
+action:
+POSS | Teaching Vacancies | Cheshire - Warrington & Halton | Warrington, North West, WA2 0LN | £16,899.00 - £17,556.00 Annually (Actual) Grade 4: NJC SCP 6 to SCP 7 (Full year salary range £26,847 to £27,274; Actual Salary: £16,899 to £17,282 per annum) | Administrative Support Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrative-support-officer-padgate-academy-warrington
+title: Administrative Support Officer
+employer: Padgate Academy
+location: Warrington, North West, WA2 0LN
+region: Cheshire - Warrington & Halton
+salary: £16,899.00 - £17,556.00 Annually (Actual) Grade 4: NJC SCP 6 to SCP 7 (Full year salary range £26,847 to £27,274; Actual Salary: £16,899 to £17,282 per annum)
+closing_date: 2026-11-09T12:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-support-officer-padgate-academy-warrington
+hub_fingerprint: a9e70965b87688612a80e1a56f39f07baef25e4c81cfe40cd91c2933f32b216a
+---
+
+---
+action:
+POSS | Teaching Vacancies | Cornwall | Liskeard, PL14 3EA | £32,046.00 - £34,811.00 Annually (FTE) Actual salary approx. £21,727 - £23,602 per annum | Governance Professional to Trust Board and Local Governing Committees
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: governance-professional-to-trust-board-and-local-governing-committees-1594a72d-d462-43fb-b443-b41012e611bd
+title: Governance Professional to Trust Board and Local Governing Committees
+employer: South East Cornwall Multi Academy Regional Trust
+location: Liskeard, PL14 3EA
+region: Cornwall
+salary: £32,046.00 - £34,811.00 Annually (FTE) Actual salary approx. £21,727 - £23,602 per annum
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Borderline school administration title: governance professional
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-to-trust-board-and-local-governing-committees-1594a72d-d462-43fb-b443-b41012e611bd
+hub_fingerprint: 3163723353a8c50ef50a1609120e9553eb1d28873d6c24a5a71ffa0bdd4bca16
+---
+
+---
+action:
+POSS | Teaching Vacancies | Derbyshire | Bakewell, East Midlands, DE45 1JA | £26,016.00 - £26,427.00 Annually (FTE) Actual Salary £14,306 to £14,532 per annum | School Business Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: school-business-assistant-lady-manners-school-bakewell-derbyshire
+title: School Business Assistant
+employer: Lady Manners School
+location: Bakewell, East Midlands, DE45 1JA
+region: Derbyshire
+salary: £26,016.00 - £26,427.00 Annually (FTE) Actual Salary £14,306 to £14,532 per annum
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-lady-manners-school-bakewell-derbyshire
+hub_fingerprint: a390fbfbb469351d803783398bbade7cc9688da05466c79df40188b0dffd5ca9
+---
+
+---
+action:
+POSS | Teaching Vacancies | Derbyshire | Chesterfield, East Midlands, S43 4QG | £22,278.00 - £23,356.00 Annually (Actual) 2 posts available, 37 hrs/ 39 weeks, 37hrs / 41 weeks. Grade 2 £26,016 - £27,274 FTE per annum | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrator-heritage-high-school-chesterfield-derbyshire
+title: Administrator
+employer: Heritage High School
+location: Chesterfield, East Midlands, S43 4QG
+region: Derbyshire
+salary: £22,278.00 - £23,356.00 Annually (Actual) 2 posts available, 37 hrs/ 39 weeks, 37hrs / 41 weeks. Grade 2 £26,016 - £27,274 FTE per annum
+closing_date: 2026-10-26T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-heritage-high-school-chesterfield-derbyshire
+hub_fingerprint: 720c744685d34fa1138c70f5c371ae13c946d22e58a0c62b87e38f969fc3758c
+---
+
+---
+action:
+POSS | Teaching Vacancies | Essex | Rayleigh, SS6 9BZ | £13,583.00 - £14,255.00 Annually (Actual) Scale 5 Point 10 to 13 | Finance Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-assistant-rayleigh-schools-trust
+title: Finance Assistant
+employer: Rayleigh Schools Trust
+location: Rayleigh, SS6 9BZ
+region: Essex
+salary: £13,583.00 - £14,255.00 Annually (Actual) Scale 5 Point 10 to 13
+closing_date: 2026-10-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-rayleigh-schools-trust
+hub_fingerprint: a5f01b6b20d4b2378fac4811fcb6acf179b8eee2c8668d0a65b2f7bc650529d0
+---
+
+---
+action:
+POSS | Teaching Vacancies | Greater Manchester - Manchester & Salford | Manchester, North West, M20 2ET | £18,491 - £19,395 (Actual salary) | Reception and Administration Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: reception-and-administration-assistant-didsbury-high-school
+title: Reception and Administration Assistant
+employer: Didsbury High School
+location: Manchester, North West, M20 2ET
+region: Greater Manchester - Manchester & Salford
+salary: £18,491 - £19,395 (Actual salary)
+closing_date: 2026-11-30T09:00:59+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-didsbury-high-school
+hub_fingerprint: 60a5e8531f40a809b7c2e7c1c2c5fa8b6266493cdfde3ad5f7df63d9fb464698
+---
+
+---
+action:
+POSS | Teaching Vacancies | Greater Manchester - Manchester & Salford | Manchester, North West, M28 0SY | £25,820.00 - £28,323.00 Annually (FTE) United Learning Band 2 Vocational Payscale points 1 - 5 | Business Admin Apprentice - Data & Exams
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: business-admin-apprentice-data-exams
+title: Business Admin Apprentice - Data & Exams
+employer: The Lowry Academy
+location: Manchester, North West, M28 0SY
+region: Greater Manchester - Manchester & Salford
+salary: £25,820.00 - £28,323.00 Annually (FTE) United Learning Band 2 Vocational Payscale points 1 - 5
+closing_date: 2026-11-01T08:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-admin-apprentice-data-exams
+hub_fingerprint: 51d985f2e6c15c7b8af98e168e590a99d9f7fcab1a6c79778b7e1479b9b7d0e1
+---
+
+---
+action:
+POSS | Teaching Vacancies | Hampshire | Portsmouth, South East, PO1 1FG | £22,814.00 - £24,728.00 Annually (Actual) | Administrative Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
+title: Administrative Officer
+employer: Arundel Court Primary Academy and Nursery
+location: Portsmouth, South East, PO1 1FG
+region: Hampshire
+salary: £22,814.00 - £24,728.00 Annually (Actual)
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
+hub_fingerprint: e10153c142a24fbf7424e4458f0bf97b1284ef428c5dd5c79f428824fbd8ea91
+---
+
+---
+action:
+POSS | Teaching Vacancies | Hertfordshire | Royston, East of England, SG8 6EF | £26,403.00 - £28,142.00 Annually (FTE) NJC Scale 4, point 7 to 11 . Actual salary £22,645.65 per annum on point 7. | Pastoral Support Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: pastoral-support-assistant-86b70375-dc6e-4bfd-89a7-4e3cc367dd50
+title: Pastoral Support Assistant
+employer: Melbourn Village College
+location: Royston, East of England, SG8 6EF
+region: Hertfordshire
+salary: £26,403.00 - £28,142.00 Annually (FTE) NJC Scale 4, point 7 to 11 . Actual salary £22,645.65 per annum on point 7.
+closing_date: 2026-10-26T09:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-assistant-86b70375-dc6e-4bfd-89a7-4e3cc367dd50
+hub_fingerprint: 1f26c326a5f5f341d5c5f6f329b879c584ca7175450904664ffa315ad09ec892
+---
+
+---
+action:
+POSS | Teaching Vacancies | Kent | Dartford, South East, DA1 2JT | £25,429 per annum | Centre Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: centre-administrator-north-kent-college
+title: Centre Administrator
+employer: North Kent College
+location: Dartford, South East, DA1 2JT
+region: Kent
+salary: £25,429 per annum
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/centre-administrator-north-kent-college
+hub_fingerprint: 99ee6e1a02d5f51574170975af2d0dca11c258834fc0c3c66557a522237aca37
+---
+
+---
+action:
+POSS | Teaching Vacancies | Kent | Gillingham, South East, ME7 2JG | £26,016.00 - £29,071.00 Annually (FTE) Medway D2 4 - 11 £22,047.56 - £25,024.19 Actual Salary | Administration Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-assistant-barnsole-primary-school
+title: Administration Assistant
+employer: Barnsole Primary School
+location: Gillingham, South East, ME7 2JG
+region: Kent
+salary: £26,016.00 - £29,071.00 Annually (FTE) Medway D2 4 - 11 £22,047.56 - £25,024.19 Actual Salary
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-barnsole-primary-school
+hub_fingerprint: 8d7524604c5697f9b6e89b95fbbb840ef5380c90866ebe8b3206ea1163a3aaa5
+---
+
+---
+action:
+POSS | Teaching Vacancies | Kent | Sevenoaks, South East, TN13 3LE | £12,757.00 Annually (Actual) | Administration Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-assistant-knole-academy-sevenoaks-kent
+title: Administration Assistant
+employer: Knole Academy
+location: Sevenoaks, South East, TN13 3LE
+region: Kent
+salary: £12,757.00 Annually (Actual)
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-knole-academy-sevenoaks-kent
+hub_fingerprint: 7e6118511640286346d15bf84117f3feceabbf2b249f8980d61a2267d187c233
+---
+
+---
+action:
+POSS | Teaching Vacancies | Kent | Tonbridge, South East, TN9 2HE | Actual Pro Rata Salary £23,599 | Administrative Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrative-assistant-hillview-school-for-girls-tonbridge-kent
+title: Administrative Assistant
+employer: Hillview School for Girls
+location: Tonbridge, South East, TN9 2HE
+region: Kent
+salary: Actual Pro Rata Salary £23,599
+closing_date: 2026-10-30T23:59:59+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls-tonbridge-kent
+hub_fingerprint: edf695bfa1d202058bb4963ac45c9604696a743789c3221f1bb7ce2006682679
+---
+
+---
+action:
+POSS | Teaching Vacancies | Lancashire - Central | Preston, North West, PR4 6AQ | £23,155.61 - £23,895.24 Annually (Actual) FTE £26,016 - £26,847 | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-tarleton-academy
+title: Receptionist
+employer: Tarleton Academy
+location: Preston, North West, PR4 6AQ
+region: Lancashire - Central
+salary: £23,155.61 - £23,895.24 Annually (Actual) FTE £26,016 - £26,847
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-tarleton-academy
+hub_fingerprint: ebd63c01e4e5e43ea690ac4e34d3d8fb72f4809f3e973cd1bd39a5400e52b2ad
+---
+
+---
+action:
+POSS | Teaching Vacancies | Lancashire - East | Blackburn, North West, BB1 4ED | £34,357.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year | Data Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: data-officer-the-hyndburn-academy-blackburn-lancashire
+title: Data Officer
+employer: The Hyndburn Academy
+location: Blackburn, North West, BB1 4ED
+region: Lancashire - East
+salary: £34,357.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year
+closing_date: 2026-11-16T17:00:00+00:00
+reason: Borderline school administration title: data officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hyndburn-academy-blackburn-lancashire
+hub_fingerprint: 15c017ab5902be33a8f1ee4ee685a20589062efa57916b394779c771c984d67d
+---
+
+---
+action:
+POSS | Teaching Vacancies | Lancashire - East | Nelson, North West, BB9 0PR | £35,000.00 Annually (FTE) Local Government Pension, Health Care Cash Plan, Generous Staff Discount scheme, 3 extra inset days for planning, at least one personal leave day per year | Data Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: data-officer-marsden-heights-community-college
+title: Data Officer
+employer: Marsden Heights Community College
+location: Nelson, North West, BB9 0PR
+region: Lancashire - East
+salary: £35,000.00 Annually (FTE) Local Government Pension, Health Care Cash Plan, Generous Staff Discount scheme, 3 extra inset days for planning, at least one personal leave day per year
+closing_date: 2026-11-08T17:00:00+00:00
+reason: Borderline school administration title: data officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-marsden-heights-community-college
+hub_fingerprint: 2fc0809e11b5cfb50d7e4302178cbf4260ecf179048b76635180e8c8d6beab27
+---
+
+---
+action:
+POSS | Teaching Vacancies | Leicestershire | Leicester, LE4 1EZ | £36,621.00 - £40,458.00 Annually (FTE) Approximate Starting Salary of £22,269.52 | Finance Business Partner
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-business-partner-discovery-schools-academies-trust-ltd
+title: Finance Business Partner
+employer: Discovery Schools Academies Trust Ltd
+location: Leicester, LE4 1EZ
+region: Leicestershire
+salary: £36,621.00 - £40,458.00 Annually (FTE) Approximate Starting Salary of £22,269.52
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-discovery-schools-academies-trust-ltd
+hub_fingerprint: 4eb23f701c13d5f7bff090bd6cb4ab968e51a07ca1a6549bc995828d7a322573
+---
+
+---
+action:
+POSS | Teaching Vacancies | Lincolnshire | Grimsby, Yorkshire and the Humber, DN37 9EH | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role is £15,186.48. | Administration Officer (7752)
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-officer-7752
+title: Administration Officer (7752)
+employer: John Whitgift Academy
+location: Grimsby, Yorkshire and the Humber, DN37 9EH
+region: Lincolnshire
+salary: £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role is £15,186.48.
+closing_date: 2026-10-29T23:59:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7752
+hub_fingerprint: d970a3eb7ef37fb0782683fd2c0e9d159fe321941321c56248f4ffd2502a36a0
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Barking, London, IG11 0FU | £27,803.00 Annually (Actual) 5.12 Support Scale Already Pro-Rata | Attendance Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: attendance-officer-riverside-bridge-school
+title: Attendance Officer
+employer: Riverside Bridge School
+location: Barking, London, IG11 0FU
+region: London
+salary: £27,803.00 Annually (Actual) 5.12 Support Scale Already Pro-Rata
+closing_date: 2026-11-03T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-riverside-bridge-school
+hub_fingerprint: 5286d83dac1f9538d319fc73996703d5fba1403ba378caaa20c50c425c553626
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Beckenham, London, BR3 1RF | £30,843.00 - £32,655.00 Annually (FTE) | Administration Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
+title: Administration Officer
+employer: Worsley Bridge Primary School
+location: Beckenham, London, BR3 1RF
+region: London
+salary: £30,843.00 - £32,655.00 Annually (FTE)
+closing_date: 2026-11-05T12:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
+hub_fingerprint: 82585250193bc9696bb0c1cb5ce6941e2639248fa246c50a1d88daf45291b745
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Carshalton, London, SM5 2PT | £30,408.00 - £32,655.00 Annually (FTE) | Finance & Administration Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-administration-assistant-st-mary-s-rc-infants-school
+title: Finance & Administration Assistant
+employer: St Mary's RC Infants School
+location: Carshalton, London, SM5 2PT
+region: London
+salary: £30,408.00 - £32,655.00 Annually (FTE)
+closing_date: 2026-11-03T23:59:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administration-assistant-st-mary-s-rc-infants-school
+hub_fingerprint: 598884d4f0b7ea5790123f66b54a04ed06aa53f96b65d36cc940e319ccb6f160
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Croydon, London, CR2 6HS | £30,408 | Administrative Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrative-assistant-harris-primary-academy-haling-park
+title: Administrative Assistant
+employer: Harris Primary Academy Haling Park
+location: Croydon, London, CR2 6HS
+region: London
+salary: £30,408
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-harris-primary-academy-haling-park
+hub_fingerprint: e6c32a9cebf15174573cae81559dacfb8e739ea4e44f2dc6863d2d589c10934f
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Dagenham, London, RM10 7UR | £28,909.00 - £30,200.00 Annually (Actual) Salary Scale: Scale 5 (Pt12-15, £33,609 - £35,109) Prorated salary range is likely to be approx. £28,909 - £30,200 (also dependant on experience, weeks per year and continuous service) Based on working 35 hours per week, Term time only. (Subject to job evaluation) | SEND Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: send-administrator-eastbrook-school
+title: SEND Administrator
+employer: Eastbrook School
+location: Dagenham, London, RM10 7UR
+region: London
+salary: £28,909.00 - £30,200.00 Annually (Actual) Salary Scale: Scale 5 (Pt12-15, £33,609 - £35,109) Prorated salary range is likely to be approx. £28,909 - £30,200 (also dependant on experience, weeks per year and continuous service) Based on working 35 hours per week, Term time only. (Subject to job evaluation)
+closing_date: 2026-11-02T08:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-eastbrook-school
+hub_fingerprint: 734d3a0331dd4511d4af8dfde72848445c10f8178c8ea092fc8a807468d93910
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Dagenham, London, RM9 4UN | £28,709.00 - £30,364.00 Annually (Actual) full time equivalent £31,290- £32,655 | Admin Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: admin-assistant-3fdfc1e3-6219-478b-b4d8-4889ed95e085
+title: Admin Assistant
+employer: Jo Richardson Community School
+location: Dagenham, London, RM9 4UN
+region: London
+salary: £28,709.00 - £30,364.00 Annually (Actual) full time equivalent £31,290- £32,655
+closing_date: 2026-11-11T08:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-3fdfc1e3-6219-478b-b4d8-4889ed95e085
+hub_fingerprint: 835ff8abadeb436a59a6a0946aeecaf7c339e5b48e7a7b38172f4e7728c7f4ed
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Feltham, London, TW13 4QP | Scale 3 (£23,507.84 - £23.844.13) | Administrative Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrative-assistant-oak-hill-academy-west-london
+title: Administrative Assistant
+employer: Oak Hill Academy West London
+location: Feltham, London, TW13 4QP
+region: London
+salary: Scale 3 (£23,507.84 - £23.844.13)
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-oak-hill-academy-west-london
+hub_fingerprint: 87fd16b2c3ec8400e1988b977b8b52085b3317ffab94bbcf1d6b976892c31449
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Feltham, TW13 4AB | £30,867.00 - £35,158.00 Annually (FTE) (SA6) (pay award pending) | Finance Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-assistant-reach-schools
+title: Finance Assistant
+employer: Reach Schools
+location: Feltham, TW13 4AB
+region: London
+salary: £30,867.00 - £35,158.00 Annually (FTE) (SA6) (pay award pending)
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-reach-schools
+hub_fingerprint: d3e4fa9bf6d6b3b107ce71a04a2c4284d3f90a095a437916fbcee48bf3925688
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Hayes, UB4 9LE | £31,288.00 - £32,655.00 Annually (Actual) | Finance Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-officer-middlesex-learning-partnership
+title: Finance Officer
+employer: Middlesex Learning Partnership
+location: Hayes, UB4 9LE
+region: London
+salary: £31,288.00 - £32,655.00 Annually (Actual)
+closing_date: 2026-10-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-middlesex-learning-partnership
+hub_fingerprint: 934c9b4c50a97fe26169503edd07dfacb3ca0a801c7af0afd1040fe7d6dbd775
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, EC4R 2SP | £37,597.00 - £39,598.00 Annually (FTE) | Governance Professional
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: governance-professional-skinners-academies-trust
+title: Governance Professional
+employer: Skinners' Academies Trust
+location: London, EC4R 2SP
+region: London
+salary: £37,597.00 - £39,598.00 Annually (FTE)
+closing_date: 2026-10-25T23:59:00+00:00
+reason: Borderline school administration title: governance professional
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-skinners-academies-trust
+hub_fingerprint: 304016d4d1dc0875ce1cc4de47f578e476bb86ff63658108c196331891b09197
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, E14 0AF | £33,700-£35,500 per annum | CTEC Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: ctec-administrator
+title: CTEC Administrator
+employer: New City College
+location: London, London, E14 0AF
+region: London
+salary: £33,700-£35,500 per annum
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ctec-administrator
+hub_fingerprint: 05860591e34c7ff8aead62efbe71ed2ea6340725314c3143c09f94b636a022f1
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, E17 5SD | £26,016.00 to £26,427.00 per annum (pro rata £22,951.04 to £23,313.62 per annum) plus London Weighting £2,376.00 per annum (pro rata £2,096.08) | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-eden-girls-school-waltham-forest
+title: Receptionist
+employer: Eden Girls' School, Waltham Forest
+location: London, London, E17 5SD
+region: London
+salary: £26,016.00 to £26,427.00 per annum (pro rata £22,951.04 to £23,313.62 per annum) plus London Weighting £2,376.00 per annum (pro rata £2,096.08)
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-eden-girls-school-waltham-forest
+hub_fingerprint: a3df8bfd5d5a49e0640ee2ed0ec8622bec45421d593ad112864bacdf138a63e5
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, E17 8HA | £31,290.00 - £33,129.00 Annually (FTE) Term-Time + 5 Inset days & 4 Plus days | Administration Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-officer-sybourn-primary-school-london
+title: Administration Officer
+employer: Sybourn Primary School
+location: London, London, E17 8HA
+region: London
+salary: £31,290.00 - £33,129.00 Annually (FTE) Term-Time + 5 Inset days & 4 Plus days
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-sybourn-primary-school-london
+hub_fingerprint: 5a82d24380536d6c2373b279786f746f894d74c44968cc8ce93b4e5cf2cff493
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, SE11 4AX | £33,036.00 Annually (FTE) | Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: office-administrator-evolve-academy
+title: Office Administrator
+employer: Evolve Academy
+location: London, London, SE11 4AX
+region: London
+salary: £33,036.00 Annually (FTE)
+closing_date: 2026-10-31T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-evolve-academy
+hub_fingerprint: 1c595b8ccad4c8e5153abb23157ac455d36e90b292ccfa42c85830f2550b7947
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, W2 5EZ | WA Scale 5, Spine Point Range 12 - 17, £26,631 - £29,184 FTE (£23,780 - £26,081 pro rata) | Sixth Form Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: sixth-form-administrator-westminster-academy
+title: Sixth Form Administrator
+employer: Westminster Academy
+location: London, London, W2 5EZ
+region: London
+salary: WA Scale 5, Spine Point Range 12 - 17, £26,631 - £29,184 FTE (£23,780 - £26,081 pro rata)
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-westminster-academy
+hub_fingerprint: 06b1a1c423993560e9829b9b7c779bf5a3791234dd303da5eef29c194d31c0b6
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Northolt, London, UB5 6AG | Grade 6 Pt 18 - 20 (£36,834 - £37,935) pro rata salary of £32,725 - £33,703Ppa | Transition, Assessment and Medical/Welfare Coordinator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: transition-assessment-and-medical-welfare-coordinator
+title: Transition, Assessment and Medical/Welfare Coordinator
+employer: Belvue School
+location: Northolt, London, UB5 6AG
+region: London
+salary: Grade 6 Pt 18 - 20 (£36,834 - £37,935) pro rata salary of £32,725 - £33,703Ppa
+closing_date: 2026-11-12T12:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment-and-medical-welfare-coordinator
+hub_fingerprint: 2f91bf4e979b98586e74d747ab87be6b91fd13628e183f58f542c77ceae6878e
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Romford, London, RM3 8HN | £29,895.10 - £32,173.39 Annually (Actual) NJC Points 14v -19, 36 hours per week, 39 weeks per year (term time only plus inset) | EHCP Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: ehcp-administrator-lime-academy-ravensbourne-romford-essex
+title: EHCP Administrator
+employer: Lime Academy Ravensbourne
+location: Romford, London, RM3 8HN
+region: London
+salary: £29,895.10 - £32,173.39 Annually (Actual) NJC Points 14v -19, 36 hours per week, 39 weeks per year (term time only plus inset)
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-lime-academy-ravensbourne-romford-essex
+hub_fingerprint: 7c62b3165ee94856f48461a354ca6201930842c18ed0e39f09295fc7efd58a8f
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Woodford Green, London, IG8 0TX | £32,090 and £33,053 | Admin/Finance Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: admin-finance-officer-st-antony-s-catholic-primary-school
+title: Admin/Finance Officer
+employer: St Antony's Catholic Primary School
+location: Woodford Green, London, IG8 0TX
+region: London
+salary: £32,090 and £33,053
+closing_date: 2026-10-30T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer-st-antony-s-catholic-primary-school
+hub_fingerprint: be5e284c5c554141ce502882457c91e8c6496f4056fc4db31e16aa2127240d5d
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Woodford Green, London, IG8 7DQ | £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£30,288 - £31,611 full time equivalent) | Sixth Form Independent Study Supervisor
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: sixth-form-independent-study-supervisor
+title: Sixth Form Independent Study Supervisor
+employer: Woodbridge High School
+location: Woodford Green, London, IG8 7DQ
+region: London
+salary: £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£30,288 - £31,611 full time equivalent)
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-independent-study-supervisor
+hub_fingerprint: 6f62c9ef655ee246d733ab464506284137faf559e09117d4b260c4db5abbf749
+---
+
+---
+action:
+POSS | Teaching Vacancies | Merseyside - Liverpool | Liverpool, North West, L14 5NX | £27,274.00 - £29,071.00 Annually (FTE) NJC SCP 7-11 \| Pro Rata Salary £15,992 - £17,045 per annum | Administration Officer – Attendance & Family Liaison
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-officer-attendance-family-liaison
+title: Administration Officer – Attendance & Family Liaison
+employer: Knotty Ash Primary School
+location: Liverpool, North West, L14 5NX
+region: Merseyside - Liverpool
+salary: £27,274.00 - £29,071.00 Annually (FTE) NJC SCP 7-11 | Pro Rata Salary £15,992 - £17,045 per annum
+closing_date: 2026-11-06T08:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-attendance-family-liaison
+hub_fingerprint: 8a3276ed3c260edb54b765feda1c0ee17cc03971576675a8cdbf49dae9297b75
+---
+
+---
+action:
+POSS | Teaching Vacancies | North East | Darlington, DL3 7AU | NJC Band 5 (SCP 7-8), £27,274 – £27,709 per annum | People Support Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: people-support-assistant
+title: People Support Assistant
+employer: Northern Arch Learning Partnership
+location: Darlington, DL3 7AU
+region: North East
+salary: NJC Band 5 (SCP 7-8), £27,274 – £27,709 per annum
+closing_date: 2026-10-27T12:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/people-support-assistant
+hub_fingerprint: d2918b7a23dbe2747b8a15c2d053fa8086153ab79edbec387d935c96ecc0fab8
+---
+
+---
+action:
+POSS | Teaching Vacancies | Northamptonshire | Corby, East Midlands, NN17 5EB | £27,514.00 Annually (Actual) | Operations Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: operations-administrator-f863f96d-ca5a-492a-8206-7a0736f466c1
+title: Operations Administrator
+employer: Corby Business Academy
+location: Corby, East Midlands, NN17 5EB
+region: Northamptonshire
+salary: £27,514.00 Annually (Actual)
+closing_date: 2026-10-26T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administrator-f863f96d-ca5a-492a-8206-7a0736f466c1
+hub_fingerprint: ac502666be695ba91102c21c4be0dc9d89b88de5c2201aee3501aeedcd603c29
+---
+
+---
+action:
+POSS | Teaching Vacancies | Northamptonshire | Wellingborough, East Midlands, NN8 3HB | £16,624.20 - £16,889.23 Annually (FTE) Based on NJS Scale F6 - F7, FTE salary is £26,846 - £27,274 | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrator-st-barnabas-church-of-england-school
+title: Administrator
+employer: St Barnabas Church of England School
+location: Wellingborough, East Midlands, NN8 3HB
+region: Northamptonshire
+salary: £16,624.20 - £16,889.23 Annually (FTE) Based on NJS Scale F6 - F7, FTE salary is £26,846 - £27,274
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barnabas-church-of-england-school
+hub_fingerprint: 95dfcb7090b915916c44c627cecff0fb750dcce62bd4dcf96b3d6b71042ab77c
+---
+
+---
+action:
+POSS | Teaching Vacancies | Nottinghamshire | Mansfield, East Midlands, NG18 2DP | £22,569.72 - £22,569.72 Annually (Actual) | Administration Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-assistant-horizons-academy-mansfield-nottinghamshire
+title: Administration Assistant
+employer: Horizons Academy
+location: Mansfield, East Midlands, NG18 2DP
+region: Nottinghamshire
+salary: £22,569.72 - £22,569.72 Annually (Actual)
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy-mansfield-nottinghamshire
+hub_fingerprint: 095a3e9993e6cf95c06e0e92650acc5afbe0692b6280b406c9f8256b63376f46
+---
+
+---
+action:
+POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG4 2LR | £22,753 Actual Salary (£26,016 FTE) | Administrative Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrative-assistant-netherfield-primary-school
+title: Administrative Assistant
+employer: Netherfield Primary School
+location: Nottingham, East Midlands, NG4 2LR
+region: Nottinghamshire
+salary: £22,753 Actual Salary (£26,016 FTE)
+closing_date: 2026-11-08T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-netherfield-primary-school
+hub_fingerprint: 59e3df1a17e0264c90880b181aa347f63ac5a20726614c086a6d6511e7b83d30
+---
+
+---
+action:
+POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG8 2FT | £22,507.00 - £24,527.00 Annually (Actual) The salary advertised reflects the pro rata salary for this role, based on 45.6 weeks per year. The full-time equivalent FTE salary for this position is £25,666 - 27,970 per annum. | SEND Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: send-administrator-fernwood-school
+title: SEND Administrator
+employer: Fernwood School
+location: Nottingham, East Midlands, NG8 2FT
+region: Nottinghamshire
+salary: £22,507.00 - £24,527.00 Annually (Actual) The salary advertised reflects the pro rata salary for this role, based on 45.6 weeks per year. The full-time equivalent FTE salary for this position is £25,666 - 27,970 per annum.
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-fernwood-school
+hub_fingerprint: 735bbb6dfb8c00920602acc79a81fd3db77393ddd82c2b579d02fe9c1a609dda
+---
+
+---
+action:
+POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG9 3DU | £22,630.72 - £23,356.04 Annually (Actual) NJE Grade 3, Pts 5 to 7 £26,427 - £27,274 (FTE) | Attendance and Inclusion Administration Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: attendance-and-inclusion-administration-officer-alderman-white-school
+title: Attendance and Inclusion Administration Officer
+employer: Alderman White School
+location: Nottingham, East Midlands, NG9 3DU
+region: Nottinghamshire
+salary: £22,630.72 - £23,356.04 Annually (Actual) NJE Grade 3, Pts 5 to 7 £26,427 - £27,274 (FTE)
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-administration-officer-alderman-white-school
+hub_fingerprint: 6c61b9df79795adb41de75bccaf1897ac3c43aa2c7fe3b9587c2e78da347fe04
+---
+
+---
+action:
+POSS | Teaching Vacancies | Oxfordshire | Abingdon, South East, OX14 5NL | £27,709.00 - £30,023.00 Annually (FTE) Grade 6, SCP 8 - 13. Actual salary - £19,783.71 - £21,435.86 | Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: office-administrator-thameside-primary-school-abingdon-oxfordshire
+title: Office Administrator
+employer: Thameside Primary School
+location: Abingdon, South East, OX14 5NL
+region: Oxfordshire
+salary: £27,709.00 - £30,023.00 Annually (FTE) Grade 6, SCP 8 - 13. Actual salary - £19,783.71 - £21,435.86
+closing_date: 2026-11-04T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-thameside-primary-school-abingdon-oxfordshire
+hub_fingerprint: ddd2efad18026a19d58307a5e1868ff8607af69cda2b78adfc1a1eb9106067bc
+---
+
+---
+action:
+POSS | Teaching Vacancies | Oxfordshire | Witney, South East, OX28 1DX | £27,151.00 - £28,981.00 Annually (Actual) Grade 7 | Data Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: data-officer-wood-green-school
+title: Data Officer
+employer: Wood Green School
+location: Witney, South East, OX28 1DX
+region: Oxfordshire
+salary: £27,151.00 - £28,981.00 Annually (Actual) Grade 7
+closing_date: 2026-11-04T12:00:00+00:00
+reason: Borderline school administration title: data officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-wood-green-school
+hub_fingerprint: 03b55ddebd1a626dca6fd15a46458ff9b46bf423734e07ec26f68acf2ae9d83f
+---
+
+---
+action:
+POSS | Teaching Vacancies | Somerset | Taunton, TA2 7EG | FTE= £26,847, Actual= £12,427 | HR Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: hr-administrator-the-oak-partnership-trust
+title: HR Administrator
+employer: The Oak Partnership Trust
+location: Taunton, TA2 7EG
+region: Somerset
+salary: FTE= £26,847, Actual= £12,427
+closing_date: 2026-11-03T23:59:59+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-oak-partnership-trust
+hub_fingerprint: f5b69c3492a94b42c9cd3dfc38685a7be5bbdf434cd456ab27eb6fd610bcdc9f
+---
+
+---
+action:
+POSS | Teaching Vacancies | Suffolk | Beccles, East of England, NR34 7BQ | £19,350- £22,735 actual pa | Finance Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-officer-beccles-high-school
+title: Finance Officer
+employer: Beccles High School
+location: Beccles, East of England, NR34 7BQ
+region: Suffolk
+salary: £19,350- £22,735 actual pa
+closing_date: 2026-12-20T00:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccles-high-school
+hub_fingerprint: 5b6530d9bf5f04230d9ace9f8ea873e15a31b749a5177759ae457ecfd935a246
+---
+
+---
+action:
+POSS | Teaching Vacancies | Surrey | Oxted, South East, RH8 0AB | £25,940.00 - £31,224.00 Annually (FTE) P4.1 to P5.6 | HR Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: hr-assistant-oxted-school
+title: HR Assistant
+employer: Oxted School
+location: Oxted, South East, RH8 0AB
+region: Surrey
+salary: £25,940.00 - £31,224.00 Annually (FTE) P4.1 to P5.6
+closing_date: 2026-10-26T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-oxted-school
+hub_fingerprint: 1e54dfe0b87f7eb06c74926577d55cf94293a77976436f933a80bfc98392f4dd
+---
+
+---
+action:
+POSS | Teaching Vacancies | Surrey | Sunbury-on-Thames, South East, TW16 6LF | £24,570.00 - £26,730.00 Annually (Actual) P5 (FTE £28,700 to £31,224pa) | SEND Adminstrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: send-adminstrator
+title: SEND Adminstrator
+employer: Sunbury Manor School
+location: Sunbury-on-Thames, South East, TW16 6LF
+region: Surrey
+salary: £24,570.00 - £26,730.00 Annually (Actual) P5 (FTE £28,700 to £31,224pa)
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator
+hub_fingerprint: 8d3f1f622369904927fb2d936e92da7017300125e9979d6de93c772eedd9d0e8
+---
+
+---
+action:
+POSS | Teaching Vacancies | Sussex | Lewes, South East, BN7 3AE | Between £25,729 - £28,796 per annum | EAG Advisor
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: eag-advisor
+title: EAG Advisor
+employer: Plumpton College
+location: Lewes, South East, BN7 3AE
+region: Sussex
+salary: Between £25,729 - £28,796 per annum
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/eag-advisor
+hub_fingerprint: 65330ec985d2cf1ad11a914e74a0b39a443c12afcf4dbe6316f31294628f1435
+---
+
+---
+action:
+POSS | Teaching Vacancies | Sussex | Worthing, South East, BN14 8AH | £26,268.00 Annually (Actual) Paid 47.6 week to include holiday and additional days | Finance Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-administrator-bohunt-school-worthing-worthing-west-sussex
+title: Finance Administrator
+employer: Bohunt School Worthing
+location: Worthing, South East, BN14 8AH
+region: Sussex
+salary: £26,268.00 Annually (Actual) Paid 47.6 week to include holiday and additional days
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-bohunt-school-worthing-worthing-west-sussex
+hub_fingerprint: 1fa71dc737cff821fd8f1b33aa549565d7d8d65b95c5ae9f7349d18d36fe2110
+---
+
+---
+action:
+POSS | Teaching Vacancies | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17 | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrator-d9ca7417-7c7e-4daa-b266-5f0124cee80f
+title: Administrator
+employer: E-ACT Shenley Academy
+location: Birmingham, West Midlands, B29 4HE
+region: West Midlands - Birmingham & Solihull
+salary: £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-d9ca7417-7c7e-4daa-b266-5f0124cee80f
+hub_fingerprint: 81bee0180ac6c4b2202225c815141ffc1a82763f74a38c5beef129221175c478
+---
+
+---
+action:
+POSS | Teaching Vacancies | West Midlands - Black Country | Halesowen, West Midlands, B63 4HY | £22,812.00 - £22,812.00 Monthly | Administration Assistant - Level 2
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-assistant-level-2-huntingtree-primary-school
+title: Administration Assistant - Level 2
+employer: Huntingtree Primary School
+location: Halesowen, West Midlands, B63 4HY
+region: West Midlands - Black Country
+salary: £22,812.00 - £22,812.00 Monthly
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Salary period needs verification
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-huntingtree-primary-school
+hub_fingerprint: 8e7ea3615ad44fba107a44d85a251885d963b5c581ca1edb6b5f5264e86520d6
+---
+
+---
+action:
+POSS | Teaching Vacancies | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6DY | £22,318.00 - £24,756.00 Annually (Actual) | ECHP Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: echp-administrator
+title: ECHP Administrator
+employer: Brooke School
+location: Rugby, West Midlands, CV22 6DY
+region: West Midlands - Coventry & Warwickshire
+salary: £22,318.00 - £24,756.00 Annually (Actual)
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/echp-administrator
+hub_fingerprint: 289b85cd9136af0ade626c87c942b47b83d2aac4de9e7d7e3584f1cc2682e940
+---
+
+---
+action:
+POSS | Teaching Vacancies | Wiltshire | Salisbury, South West, SP4 6JZ | £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE | Clerk to Governors
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: clerk-to-governors-gomeldon-primary-school
+title: Clerk to Governors
+employer: Gomeldon Primary School
+location: Salisbury, South West, SP4 6JZ
+region: Wiltshire
+salary: £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Borderline school administration title: clerk to governors
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gomeldon-primary-school
+hub_fingerprint: b46f094eaae6940cee885eca2ad73745ee4f1c795a6b2fad08f2ac6b85c874d0
+---
+
+---
+action:
+POSS | Teaching Vacancies | Worcestershire | Pershore, West Midlands, WR10 2ER | £21,938.00 Annually (FTE) SC4 | Finance Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-assistant-pinvin-cofe-academy-pershore-worcestershire
+title: Finance Assistant
+employer: Pinvin CofE Academy
+location: Pershore, West Midlands, WR10 2ER
+region: Worcestershire
+salary: £21,938.00 Annually (FTE) SC4
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pinvin-cofe-academy-pershore-worcestershire
+hub_fingerprint: 328262491bea67c72c4c3fd1afe5ccad2319bf490a63885a6820c140c6af5ce8
+---
+
+---
+action:
+POSS | Teaching Vacancies | Worcestershire | Worcester, WR4 9SG | £27,273.00 - £27,273.00 Annually (FTE) Casual zero hour contract - hourly rate | Governance Professional/Clerk
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: governance-professional-clerk-the-black-pear-trust-worcester-not-recorded
+title: Governance Professional/Clerk
+employer: The Black Pear Trust
+location: Worcester, WR4 9SG
+region: Worcestershire
+salary: £27,273.00 - £27,273.00 Annually (FTE) Casual zero hour contract - hourly rate
+closing_date: 2026-11-04T12:00:00+00:00
+reason: Borderline school administration title: governance professional
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-the-black-pear-trust-worcester-not-recorded
+hub_fingerprint: 39f3f9a18e6c01661c51631710fe8625933be49e575ca4b3d10fd33108ad5054
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - East | Hull, Yorkshire and the Humber, HU4 7EB | £26,016 - £27,274 FTE, £17,694 - £18,550 Actual | Administration Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-assistant-christopher-pickering-primary-school
+title: Administration Assistant
+employer: Christopher Pickering Primary School
+location: Hull, Yorkshire and the Humber, HU4 7EB
+region: Yorkshire - East
+salary: £26,016 - £27,274 FTE, £17,694 - £18,550 Actual
+closing_date: 2026-10-31T08:00:59+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-christopher-pickering-primary-school
+hub_fingerprint: 3dfb95e1a9d852654abb017e498a48eccde8f2ecc1d15914f0f593f1c80d25d0
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - North | York, YO24 2RU | £19,740.94 - £20,616.86 Annually (Actual) Grade 5, Level 1-4 (£27,631 to £28,857 FTE) | Trust Data Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: trust-data-officer-excel-learning-trust
+title: Trust Data Officer
+employer: Excel Learning Trust
+location: York, YO24 2RU
+region: Yorkshire - North
+salary: £19,740.94 - £20,616.86 Annually (Actual) Grade 5, Level 1-4 (£27,631 to £28,857 FTE)
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Borderline school administration title: data officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-officer-excel-learning-trust
+hub_fingerprint: ae80d379c2539a5e78349fa075c237173b1af05d68dd801c84411d47d60780a4
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - North | York, Yorkshire and the Humber, YO32 4BZ | Grade 4, Level 1-4 (£25,948 to £27,188 p.a.) reduced pro rata to £22,280 to £23,345 (calculated on full time hours) | Administration Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-officer-dc55f46b-8083-476b-9b89-86e66dc7015f
+title: Administration Officer
+employer: Joseph Rowntree School
+location: York, Yorkshire and the Humber, YO32 4BZ
+region: Yorkshire - North
+salary: Grade 4, Level 1-4 (£25,948 to £27,188 p.a.) reduced pro rata to £22,280 to £23,345 (calculated on full time hours)
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-dc55f46b-8083-476b-9b89-86e66dc7015f
+hub_fingerprint: 66215d6dea054a2084a17569ba441f7fdb901e712a223a38e40c660ed64b2b55
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5EJ | £26,427 to £26,847 | SEND Admin Support Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: send-admin-support-assistant
+title: SEND Admin Support Assistant
+employer: Brinsworth Academy
+location: Rotherham, Yorkshire and the Humber, S60 5EJ
+region: Yorkshire - South
+salary: £26,427 to £26,847
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-assistant
+hub_fingerprint: 524666e77a3d8f05b7a2073604539f962bf1105c7f8f2ff5c28b81bce3f594c2
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | HR Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: hr-officer-great-heights-academy-trust
+title: HR Officer
+employer: Great Heights Academy Trust
+location: Elland, HX5 0RY
+region: Yorkshire - West
+salary: £32,578.00 - £34,811.00 Annually (Actual)
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-heights-academy-trust
+hub_fingerprint: 01a04c84fff204f8c5affce01a6ca7a5541c4b7c7fe4cc3176b6e60f3f98c4ea
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | Operations Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: operations-officer-great-heights-academy-trust
+title: Operations Officer
+employer: Great Heights Academy Trust
+location: Elland, HX5 0RY
+region: Yorkshire - West
+salary: £32,578.00 - £34,811.00 Annually (Actual)
+closing_date: 2026-11-02T12:00:00+00:00
+reason: Borderline school administration title: operations officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-great-heights-academy-trust
+hub_fingerprint: 1d0a7cb63fdb62935c33aa85a37883caed5c0b9d46a635059d48403d7f44187e
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4ES | £25,951.00 to £27,733.00 per annum FTE | HR Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: hr-administrator-greenhead-college
+title: HR Administrator
+employer: Greenhead College
+location: Huddersfield, Yorkshire and the Humber, HD1 4ES
+region: Yorkshire - West
+salary: £25,951.00 to £27,733.00 per annum FTE
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-greenhead-college
+hub_fingerprint: 1e78d7227cf5a0937c6e08642988bc83861f41e570a38caaa797ab968f68073e
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
+title: Business Support Officer
+employer: All Saints Catholic College
+location: Huddersfield, Yorkshire and the Humber, HD2 2JT
+region: Yorkshire - West
+salary: £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5
+closing_date: 2026-11-03T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
+hub_fingerprint: d9a8af6fd76c27ded4bd7c8e2d14249baf6deb662dd976dfdea6eaf3714b2a21
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - West | Wetherby, Yorkshire and the Humber, LS23 6DX | £25,185-£25,989 | Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: office-administrator-primrose-lane-primary-school
+title: Office Administrator
+employer: Primrose Lane Primary School
+location: Wetherby, Yorkshire and the Humber, LS23 6DX
+region: Yorkshire - West
+salary: £25,185-£25,989
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-primrose-lane-primary-school
+hub_fingerprint: 36eba92fc5da13964df8312e727cd867a93079f260317d80590395d1026e2f70
 ---
 
 ## NHS Jobs — 0 to review
