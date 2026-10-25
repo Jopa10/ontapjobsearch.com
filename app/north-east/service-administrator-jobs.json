@@ -1641,9 +1641,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-1042",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1663,9 +1660,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1696-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1685,9 +1679,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0061-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1707,9 +1698,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0343-26-0032abl933",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1729,9 +1717,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2354-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1751,9 +1736,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1288",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1773,9 +1755,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-1011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1795,9 +1774,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-1010",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1817,9 +1793,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-1009",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1839,9 +1812,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0102-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1861,9 +1831,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-OPAC-1026-28",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1883,9 +1850,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0404-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1905,9 +1869,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1188",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1927,9 +1888,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4389-26-0009",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1949,9 +1907,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1322",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5683011",
+    "source": "NHS Jobs",
+    "title": "GP Receptionist/Care Navigator",
+    "company": "Trinity Medical Centre",
+    "advertiser_name": "Trinity Medical Centre",
+    "location": "South Shields, NE33 5DU",
+    "region": "North East",
+    "salary": "£12.92",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-23T12:10:15.755502180",
+    "closing_date": "2026-10-28",
+    "description": "An exciting opportunity has arisen for an enthusiastic, motivated and patient-focused individual to join our friendly and dedicated Reception Team at Trinity Medical Centre. As a Medical Receptionist , you will play a key role in the day-to-day running of our busy GP practice, acting as the first point of contact for patients, carers, healthcare professionals and external agencies. You will provide a professional, welcoming and efficient service, ensuring patients receive a positive experience and are directed to the most appropriate healthcare professional or service. Working within a fast-paced General Practice environment, the successful candidate will be responsible for a range of reception and administrative duties, requiring excellent communication, organisational and IT skills, together with a compassionate, adaptable and professional approach. This is a rewarding and varied position that offers the opportunity to make a real difference to patients and their healthcare experience. The role requires someone who can remain calm under pressure, manage competing priorities and work effectively as part of a team. Hours of Work 31.5 hours per week, worked over 5 days, Monday to Friday. If you are a motivated individual with excellent customer service skills and a passion for supporting patient care, we would welcome your application to join our friendly and supportive team. The successful candidate will be organised, proactive and able to work effectively in a busy environment whilst maintaining a high standard of customer service. Key responsibilities include: Signposting and navigating patients to the most appropriate healthcare professional or service, both face-to-face and via telephone. Managing appointment requests in accordance with Practice procedures and patient access protocols. Processing repeat prescription requests accurately and efficiently. Scanning, coding and filing clinical correspondence and documentation onto patient records. Providing front-of-house reception services and welcoming patients to the Practice. Responding to patient enquiries both in person and by telephone in a professional and empathetic manner. Recording and processing requests for home visits in accordance with Practice procedures. Processing patient registrations and demographic updates. Handling incoming and outgoing correspondence. Maintaining patient confidentiality and complying with information governance requirements. Supporting the wider Practice team with administrative duties as required. Contributing to the smooth and efficient day-to-day operation of the Practice. Purpose of the Post The Receptionist/Admin plays a key role as a member of the medical reception team in providing efficient, helpful and sympathetic care to Practice patients, developing skills in equating Practice protocols with patients demands. Through sensible use of initiative, flexible approach and working to consistent high standards of accuracy, they will provide valuable help and support to the Partners and all colleagues in the Primary Health Care team. You will be expected to manage, plan and prioritise tasks efficiently and effectively to achieve and maintain a high standard of patient care. The Post holder will show total respect and regard to confidentiality of patient information at all times. See attached documents for full job description",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2768-26-0005",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2768-26-0005",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]

@@ -2,11 +2,11 @@
 
 review_date: 2026-10-25
 
-- Open Administrative & Clerical rows reviewed: 2173
+- Open Administrative & Clerical rows reviewed: 2172
 - Auto/remembered selected: 392
 - Selected HC Tier A: 200
 - Selected HC Tier B: 192
-- POSS awaiting decision: 1687
+- POSS awaiting decision: 1686
 - Excluded: 0
 - HARD_PASS: 94
 
@@ -7630,18 +7630,6 @@ region: Shropshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5355-26-0010
 factual_fingerprint: 0c75ff337b8c2b71c619f0af95b48866b2b9a20b607c04504d1839d2723de44c
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M15 6FH | £25760.00 to £27476.00 | Booking and Scheduling Coordinator
-source_job_id: 5674269
-title: Booking and Scheduling Coordinator
-employer: Manchester University NHS Foundation Trust
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3118
-factual_fingerprint: 41d1271289ec16a2610c5d3ba98a91de12ffb0c3abe9661a000abfa9e0c2e0fb
 ---
 
 ---
