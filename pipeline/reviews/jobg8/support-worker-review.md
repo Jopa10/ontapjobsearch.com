@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-24
+feed_date: 2026-10-25
 
 Edit only the `action:` line in each block:
 
@@ -41,12 +41,6 @@ _No jobs in this group._
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Corbridge | £14.27 per hour | Healthcare Assistant
 job_id: 23643_225715797
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Bedlington | £13.21 per hour | Care Assistant - Care Home
-job_id: 23643_225715617
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -183,12 +177,6 @@ SELECTED | Sussex | Hailsham | £13.39 per hour | Care Assistant
 job_id: 23643_225761986
 ---
 
----
-action:
-SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
-job_id: 23643_225440444
----
-
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -263,6 +251,12 @@ job_id: 1401785962
 action:
 SELECTED | Hampshire | Havant | £28697 - £31573 per year | Support Worker
 job_id: 1401786037
+---
+
+---
+action:
+SELECTED | Hampshire | Eastleigh | £13.65 per hour | Night Care Assistant
+job_id: 23643_225761985
 ---
 
 ## HAMPSHIRE — POSSIBLES
