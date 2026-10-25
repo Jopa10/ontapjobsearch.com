@@ -4,7 +4,7 @@
 - Live route: `/dartford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 96
+- automatic include: 17
+- automatic review: 95
 - automatic exclude: 34
-- effective include: 15
-- effective review: 96
+- effective include: 16
+- effective review: 95
 - effective exclude: 35
 
-## INCLUDE (15)
+## INCLUDE (16)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Michael Page - Agency - Permanent
 location: Dartford
 source: JobG8
 job_id: jobg8-23643_225723703
+reason: Exact approved Dartford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admissions Officer
+company: Stone Lodge School
+location: Dartford
+source: Teaching Vacancies
+job_id: teaching-vacancies-admissions-officer-stone-lodge-school
 reason: Exact approved Dartford workplace.
 ---
 
@@ -204,7 +216,7 @@ job_id: jobg8-23643_225747333
 reason: Exact approved Dartford workplace.
 ---
 
-## REVIEW (96)
+## REVIEW (95)
 
 ---
 action: 
@@ -1211,18 +1223,6 @@ company: Birchley Consultancy Limited - Agency - Permanent
 location: Gravesend
 source: JobG8
 job_id: jobg8-23643_225747335
-reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator
-company: Royal Rise Primary School
-location: Tonbridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-royal-rise-primary-school
 reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
 ---
 

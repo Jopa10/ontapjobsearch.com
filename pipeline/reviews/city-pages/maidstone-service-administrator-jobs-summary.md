@@ -342,6 +342,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Admissions Officer
+company: Stone Lodge School
+location: Dartford
+source: Teaching Vacancies
+job_id: teaching-vacancies-admissions-officer-stone-lodge-school
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Automotive Service Administrator / Receptionist
 company: Vibe Recruit - Agency - Permanent
 location: Sevenoaks
@@ -1607,18 +1619,6 @@ company: Office Angels - Agency - Temporary
 location: Dartford
 source: JobG8
 job_id: jobg8-23643_225709764
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator
-company: Royal Rise Primary School
-location: Tonbridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-royal-rise-primary-school
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

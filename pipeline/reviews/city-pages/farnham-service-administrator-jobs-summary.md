@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 156
+- automatic review: 158
 - automatic exclude: 0
 - effective include: 4
-- effective review: 156
+- effective review: 158
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-2064929
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (156)
+## REVIEW (158)
 
 ---
 action: 
@@ -263,6 +263,18 @@ company: Action for Carers - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225743802
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Adults Financial Assessment and Income Assistant
+company: Surrey County Council - Company - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-23643_225703384
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -779,6 +791,18 @@ company: Optima Recruitment - Agency - Permanent
 location: Leatherhead
 source: JobG8
 job_id: jobg8-23643_225735124
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Assessment and Income Officer
+company: Surrey County Council - Company - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-23643_225698766
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

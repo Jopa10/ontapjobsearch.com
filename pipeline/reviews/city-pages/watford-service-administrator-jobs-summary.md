@@ -198,6 +198,18 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
+title: Admin Officer - Receptionist
+company: Goffs Academy
+location: Waltham Cross
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-officer-receptionist
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administration Assistant
 company: Nexus HR Limited - Agency - Temporary
 location: Royston
@@ -264,42 +276,6 @@ location: Welwyn Garden City, AL71HH
 source: NHS Jobs
 job_id: nhs-5439405
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Hales Group - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2077881
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: SRM RECRUITMENT LIMITED - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2067329
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: STORMX RECRUITMENT LIMITED - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2088448
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
 ---
@@ -786,6 +762,18 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
+title: Inclusion Administrator
+company: Nicholas Breakspear Catholic School
+location: St Albans
+source: Teaching Vacancies
+job_id: teaching-vacancies-inclusion-administrator-nicholas-breakspear-catholic-school
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Inside Sales - Telesales
 company: Transcomm Recruitment - Agency - Permanent
 location: Berkhamsted
@@ -804,18 +792,6 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-2168386
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior Accountant
-company: Reed - Agency - Permanent
-location: Hertford
-source: JobG8
-job_id: jobg8-2052117
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -935,6 +911,18 @@ company: Elysium Healthcare
 location: Potters Bar, EN6 2SE
 source: NHS Jobs
 job_id: nhs-5630065
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: The Hemel Hempstead School
+location: Hemel Hempstead
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1296,6 +1284,18 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225752848
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: SEND Administrator
+company: Chancellor's School
+location: Hatfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrator-chancellor-s-school
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

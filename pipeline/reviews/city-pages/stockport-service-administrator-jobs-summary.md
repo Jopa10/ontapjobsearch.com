@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 19
+- automatic review: 18
 - automatic exclude: 0
 - effective include: 15
-- effective review: 19
+- effective review: 18
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -204,7 +204,7 @@ job_id: jobg8-23643_225744140
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (18)
 
 ---
 action: 
@@ -371,18 +371,6 @@ company: Halecroft Recruitment - Agency - Temporary
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225757919
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: RTR Assistant Accountant
-company: Robert Walters - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-2039520
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

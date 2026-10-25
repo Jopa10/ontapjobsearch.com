@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 32
-- automatic exclude: 42
-- effective include: 10
-- effective review: 32
-- effective exclude: 42
+- automatic include: 11
+- automatic review: 31
+- automatic exclude: 39
+- effective include: 11
+- effective review: 31
+- effective exclude: 39
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Thompson & Terry Recruitment - Agency - Permanent
 location: Oxford
 source: JobG8
 job_id: jobg8-23643_225645434
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Procurement Administrator *Hybrid Role*
+company: River Learning Trust
+location: Oxford
+source: Teaching Vacancies
+job_id: teaching-vacancies-procurement-administrator-hybrid-role-river-learning-trust
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -144,7 +156,7 @@ job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-sc
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (32)
+## REVIEW (31)
 
 ---
 action: 
@@ -174,11 +186,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Accountant
-company: Brellis Recruitment - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-23643_225662283
+title: Administrator and Finance Assistant
+company: Rush Common School
+location: Abingdon
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-and-finance-assistant-rush-common-school
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -186,11 +198,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Accountant
-company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-2048450
+title: Attendance Officer
+company: Aureus School
+location: Didcot
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-d54c1efe-4fd8-4cc4-a0a6-62106b181556
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -203,30 +215,6 @@ company: Operose Health
 location: Didcot, OX11 7GD
 source: NHS Jobs
 job_id: nhs-5677546
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper/ Management Accountant
-company: hireful - Company - Permanent
-location: Henley-On-Thames
-source: JobG8
-job_id: jobg8-23643_225682276
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper/ Management Accountant
-company: hireful. - Agency - Permanent
-location: Henley-On-Thames
-source: JobG8
-job_id: jobg8-2067155
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -510,6 +498,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Student Services Administrator
+company: Faringdon Community College
+location: Faringdon
+source: Teaching Vacancies
+job_id: teaching-vacancies-student-services-administrator-faringdon-community-college
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trainee Sales Representative
 company: Plus One Recruitment - Agency - Permanent
 location: Hook Norton
@@ -530,7 +530,7 @@ job_id: nhs-5664768
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (42)
+## EXCLUDE (39)
 
 ---
 action: 
@@ -584,18 +584,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Assistant Accountant
-company: Performance Resourcing - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225718595
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Bookkeeper
 company: 9-2-3 Jobs Limited - Agency - Permanent
 location: Oxfordshire
@@ -625,18 +613,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2060274
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bookkeeper / Management Accountant
-company: Curtis Recruitment Limited - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_224789635
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -776,18 +752,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Group Assistant Accountant
-company: Morgan McKinley (Milton Keynes) - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225675414
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR and Payroll Officer
 company: Not For Profit People - Agency - Permanent
 location: Oxfordshire
@@ -848,11 +812,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Practice Bookkeeper / Management Accountant
-company: RD Financial Recruitment - Agency - Permanent
+title: Payroll and Administration Assistant
+company: Hatched Recruitment Group - Agency - Temporary
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2052886
+job_id: jobg8-23643_225754654
 reason: Broad county location; not Oxford-city evidence.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 3
+- automatic review: 2
 - automatic exclude: 0
 - effective include: 13
-- effective review: 3
+- effective review: 2
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-23643_225708327
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (2)
 
 ---
 action: 
@@ -203,18 +203,6 @@ company: Auto Skills UK - Agency - Permanent
 location: Livingston
 source: JobG8
 job_id: jobg8-23643_225717067
-reason: No approved Edinburgh catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Assistant Accountant
-company: Escape - Agency - Temporary
-location: Livingston
-source: JobG8
-job_id: jobg8-23643_225732166
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

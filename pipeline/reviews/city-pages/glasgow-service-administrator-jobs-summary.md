@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
+- automatic include: 35
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 34
+- effective include: 35
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (34)
+## INCLUDE (35)
 
 ---
 action: 
@@ -309,6 +309,18 @@ company: Adecco - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225737154
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: Stafffinders - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225735910
 reason: Approved conservative Glasgow launch catchment.
 ---
 

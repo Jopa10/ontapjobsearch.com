@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 56
+- Effective included jobs: 60
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 56
+- automatic include: 60
 - automatic review: 15
-- automatic exclude: 5
-- effective include: 56
+- automatic exclude: 4
+- effective include: 60
 - effective review: 15
-- effective exclude: 5
+- effective exclude: 4
 
-## INCLUDE (56)
+## INCLUDE (60)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2057297
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant (Trips, Visits & Events)
+company: Ashton Park School
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-trips-visits-events
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -568,6 +580,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Fairfield High School
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-fairfield-high-school
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Repairs Coordinator
 company: Tate - Agency - Temporary
 location: Bristol
@@ -621,6 +645,30 @@ company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225684677
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: School Administrator
+company: North Star 265°
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-north-star-265-bristol-bristol
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: School Administrator MAT cover
+company: Little Mead Primary Academy
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-mat-cover
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -878,7 +926,7 @@ job_id: jobg8-23643_225702996
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -925,17 +973,5 @@ company: Juice Recruitment Ltd - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-2053456
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll Manager (Part Time)
-company: Reed Technology - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-23643_225660760
 reason: Separate employment market.
 ---

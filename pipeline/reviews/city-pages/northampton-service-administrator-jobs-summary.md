@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 20
 - automatic review: 55
 - automatic exclude: 0
-- effective include: 15
+- effective include: 20
 - effective review: 55
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (20)
 
 ---
 action: 
@@ -69,6 +69,30 @@ company: TimePlan Education - Agency - Contract
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225709213
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Attendance Officer
+company: Northampton School
+location: Northampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-northampton-school
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Content creator and Admin assistant
+company: Moulton Primary School
+location: Northampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-content-creator-and-admin-assistant
 reason: Exact approved Northampton workplace.
 ---
 
@@ -196,6 +220,42 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
+title: School Administrator - SLT Support
+company: St Thomas Becket Catholic School
+location: Northampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-slt-support-st-thomas-becket-catholic-school-northampton-northamptonshire
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: School Receptionist
+company: Northampton School
+location: Northampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-receptionist-northampton-school
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Technical Administrator
+company: Caroline Chisholm School
+location: Northampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-technical-administrator
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Youth Employability Activity Coordinator - Northamptonshire
 company: Trigon Recruitment Ltd - Agency - Permanent
 location: Northampton
@@ -234,6 +294,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Administration Assistant
+company: Bishop Stopford School
+location: Kettering
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-bishop-stopford-school-kettering-northamptonshire
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Northamptonshire
@@ -263,18 +335,6 @@ company: Interaction Recruitment - Agency - Permanent
 location: Corby
 source: JobG8
 job_id: jobg8-23643_225753914
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2045730
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -335,18 +395,6 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2042669
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Hawk 3 Talent Solutions - Agency - Permanent
-location: Rushden
-source: JobG8
-job_id: jobg8-23643_225654528
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -491,6 +539,18 @@ company: Provit Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225721542
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: Bishop Stopford School
+location: Kettering
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-officer-bishop-stopford-school
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

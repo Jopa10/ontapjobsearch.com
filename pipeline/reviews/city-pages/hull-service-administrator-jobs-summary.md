@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 13
+- automatic include: 23
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 19
-- effective review: 13
+- effective include: 23
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (23)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Academy Administrator
+company: Endike Academy
+location: Hull
+source: Teaching Vacancies
+job_id: teaching-vacancies-academy-administrator-endike-academy
+reason: Approved conservative Hull launch catchment.
+---
 
 ---
 action: 
@@ -57,6 +69,30 @@ company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-2060366
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Chiltern Primary School
+location: Hull
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-chiltern-primary-school
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Oldfleet Primary School
+location: Hull
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-oldfleet-primary-school-hull
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -234,6 +270,18 @@ decision: include
 automatic_decision: include
 title: Senior Administrator
 company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU16 5JQ
+source: NHS Jobs
+job_id: nhs-5662408
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administrator
+company: Hull University Teaching Hospitals NHS Trust
 location: Hull, HU3 2JZ
 source: NHS Jobs
 job_id: nhs-5672082
@@ -252,7 +300,7 @@ job_id: jobg8-23643_225713565
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -299,6 +347,18 @@ company: Consortium Professional Recruitment Ltd - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-23643_225751816
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: The Consortium Academy Trust
+location: Cottingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-assistant-1aa789e7-40d1-40c1-97b4-f3cdd63664a9
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

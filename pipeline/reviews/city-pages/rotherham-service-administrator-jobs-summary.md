@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,50 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 7
 - automatic review: 56
 - automatic exclude: 0
-- effective include: 4
+- effective include: 7
 - effective review: 56
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (7)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Gooseacre Primary Academy
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-d66559f6-ab8e-4349-b8d0-10f235e89384
+reason: Exact approved Rotherham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: St Gerard's Catholic Primary School
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-st-gerard-s-catholic-primary-school
+reason: Exact approved Rotherham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Estates Compliance and Administrative Assistant
+company: Place Partnership A Multi Academy Trust
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-estates-compliance-and-administrative-assistant
+reason: Exact approved Rotherham workplace.
+---
 
 ---
 action: 
@@ -179,54 +215,6 @@ company: TSR Recruitment Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225685872
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2078492
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225713436
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Sharp Consultancy - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-2055573
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2044207
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -402,6 +390,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Minerva Learning Trust
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-assistant-minerva-learning-trust
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: GP Receptionist
 company: Elm Lane & Chapeltown Surgery
 location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
@@ -524,7 +524,7 @@ decision: review
 automatic_decision: review
 title: Part-time Payroll Admin
 company: Portfolio Payroll Limited - Agency - Permanent
-location: Yorkshire
+location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225740720
 reason: No exact Rotherham workplace matched; local geographic review is required.
@@ -678,6 +678,30 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Westfield School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-westfield-school
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Admin Assistant
+company: Anston Park Infant School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-admin-assistant-anston-park-infant-school
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Secretary / Assistant EA
 company: Edwards & Pearce - Agency - Permanent
 location: Doncaster
@@ -719,6 +743,18 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2053411
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Admin Assistant at Kiveton Park Infant School
+company: Kiveton Park Infant School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school-kiveton-park-infant-school
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

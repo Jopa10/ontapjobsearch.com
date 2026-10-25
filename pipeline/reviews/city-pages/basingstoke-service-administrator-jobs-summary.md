@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 154
+- automatic review: 146
 - automatic exclude: 0
 - effective include: 8
-- effective review: 154
+- effective review: 146
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5676428
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (154)
+## REVIEW (146)
 
 ---
 action: 
@@ -426,6 +426,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Administrator - The Harbour School
+company: The Harbour School
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator/ PA - until end of the year
 company: Office Angels - Agency - Temporary
 location: Hampshire
@@ -450,155 +462,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-2033941
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Totton
-source: JobG8
-job_id: jobg8-2076230
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225655048
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Totton
-source: JobG8
-job_id: jobg8-23643_225686657
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225693892
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225725934
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Michael Page - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225671157
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Michael Page - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225696140
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Michael Page Finance - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-2055478
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Michael Page Finance - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2087359
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Venture Recruitment Partners - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225729408
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Hedge End
-source: JobG8
-job_id: jobg8-23643_225701756
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
-company: The Niche Partnership - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2075160
+title: Attendance Officer
+company: Ringwood School Academy
+location: Ringwood
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-66e679cb-65bb-4391-8ecd-a482bdaa6185
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1338,6 +1206,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Receptionist/Administrator
+company: Ark Ayrton Primary Academy
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-part-time-receptionist-administrator-ark-ayrton-primary-academy
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-Time Admin Assistant - Eastleigh (SO53)
 company: BMSL Group Ltd - Agency - Contract
 location: Hampshire
@@ -1770,11 +1650,35 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Sales Telemarketer
+company: MIW Group Ltd - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-108230936
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Secretary/Admin Assistant
 company: Click Digital - Agency - Contract
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225672061
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: SEN Administrator
+company: St Edmund's Catholic School
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

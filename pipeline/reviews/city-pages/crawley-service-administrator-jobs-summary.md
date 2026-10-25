@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 79
-- automatic exclude: 34
+- automatic review: 73
+- automatic exclude: 32
 - effective include: 7
-- effective review: 79
-- effective exclude: 34
+- effective review: 73
+- effective exclude: 32
 
 ## INCLUDE (7)
 
@@ -108,19 +108,7 @@ job_id: jobg8-2048366
 reason: Exact approved Crawley workplace.
 ---
 
-## REVIEW (79)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accountant / Accounts Assistant Bexhill
-company: Placr Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225724752
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
+## REVIEW (73)
 
 ---
 action: 
@@ -216,66 +204,6 @@ location: Lewes, BN7 1EA
 source: NHS Jobs
 job_id: nhs-5683798
 reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Michael Page - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225742498
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Michael Page - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225742499
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant (Part Qual)
-company: Morgan Mckinley (Crawley) - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225689923
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant/Accounts Assistant
-company: Alexander Lloyd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225695130
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
-company: William Reed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2060824
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
 ---
@@ -618,18 +546,6 @@ reason: No approved Crawley employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Management Accountant
-company: First Recruitment Services - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225709715
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Executive
 company: Reed - Agency - Permanent
 location: Burgess Hill
@@ -942,6 +858,18 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
+title: Senior Finance Assistant
+company: Lloyd Recruitment - East Grinstead - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225694900
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: SEO Manager
 company: Kairos Recruitment - Agency - Permanent
 location: Sussex
@@ -1058,7 +986,7 @@ job_id: jobg8-23643_225699794
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -1285,30 +1213,6 @@ company: Aldridge Education - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225733064
-reason: The stated workplace belongs outside the approved Crawley employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant - Assistant Accountant
-company: Morgan Mckinley (Crawley) - Agency - Permanent
-location: Horsham
-source: JobG8
-job_id: jobg8-23643_225672363
-reason: The stated workplace belongs outside the approved Crawley employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant - Assistant Accountant
-company: Morgan McKinley - Agency - Permanent
-location: Horsham
-source: JobG8
-job_id: jobg8-2056498
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 

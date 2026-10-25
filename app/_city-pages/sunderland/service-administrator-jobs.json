@@ -97,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Trinity Academy New Bridge",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -126,6 +123,31 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "teaching-vacancies-receptionist-st-anthony-s-girls-catholic-academy",
+    "title": "Receptionist",
+    "company": "St Anthony's Girls' Catholic Academy",
+    "location": "Sunderland",
+    "region": "North East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£8,016.00 - £8,142.00 Annually (Actual) £25,614 - £26,016 FTE. 2 days a week, Thursday and Friday. Pending outcome of job evaluation",
+    "work_pattern": "",
+    "posted_date": "2026-10-15",
+    "closing_date": "2026-11-02",
+    "closing_datetime": "2026-11-02T09:00:00+00:00",
+    "summary": "Receptionist with St Anthony's Girls' Catholic Academy in Sunderland. ['part time']; £8,016.00 - £8,142.00 Annually (Actual) £25,614 - £26,016 FTE. 2 days a week, Thursday and Friday. Pending outcome of job evaluation.",
+    "description": "St Anthony's Girls' Catholic Academy is recruiting for this vacancy in Sunderland.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £8,016.00 - £8,142.00 Annually (Actual) £25,614 - £26,016 FTE. 2 days a week, Thursday and Friday. Pending outcome of job evaluation.\n\nThe stated application deadline is 2026-11-02T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-anthony-s-girls-catholic-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225729432",

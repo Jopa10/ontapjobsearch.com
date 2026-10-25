@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 58
+- automatic review: 60
 - automatic exclude: 0
 - effective include: 3
-- effective review: 58
+- effective review: 60
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -40,6 +40,18 @@ reason: Exact approved Scarborough workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist Administrator
+company: Braeburn Primary and Nursery Academy
+location: Scarborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
+reason: Exact approved Scarborough workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: SEND Administrator
 company: George Pindar School
 location: Scarborough
@@ -48,19 +60,7 @@ job_id: teaching-vacancies-send-administrator-george-pindar-school-scarborough
 reason: Exact approved Scarborough workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: Braeburn Primary and Nursery Academy
-location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
-reason: Exact approved Scarborough workplace.
----
-
-## REVIEW (58)
+## REVIEW (60)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: Si Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2048296
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support Officer
+company: St Wilfrid's Catholic Primary School - a Catholic Voluntary Academy
+location: York
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -323,6 +335,18 @@ company: Unity Resourcing Ltd - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-23643_225657349
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Data Administrator
+company: St John Fisher Catholic Academy
+location: Harrogate
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-administrator-st-john-fisher-catholic-academy
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

@@ -50,6 +50,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "teaching-vacancies-attendance-officer-part-time-st-james-school",
+    "title": "Attendance Officer (part-time)",
+    "company": "St James School",
+    "location": "Exeter",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time', 'part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Grade D £27,709 - £30,515",
+    "work_pattern": "",
+    "posted_date": "2026-10-20",
+    "closing_date": "2026-11-02",
+    "closing_datetime": "2026-11-02T23:59:00+00:00",
+    "summary": "Attendance Officer (part-time) with St James School in Exeter. ['full time', 'part time']; Grade D £27,709 - £30,515.",
+    "description": "St James School is recruiting for this vacancy in Exeter.\n\nThe advertised position is Attendance Officer (part-time).\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is Grade D £27,709 - £30,515.\n\nThe stated application deadline is 2026-11-02T23:59:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-part-time-st-james-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "107939734",
     "title": "Fleet Distribution Administrator",
     "company": "Switch - Agency - Permanent",
@@ -197,9 +222,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Alphington Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {

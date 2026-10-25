@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 20
 - automatic review: 5
-- automatic exclude: 78
-- effective include: 17
+- automatic exclude: 77
+- effective include: 20
 - effective review: 5
-- effective exclude: 78
+- effective exclude: 77
 
-## INCLUDE (17)
+## INCLUDE (20)
 
 ---
 action: 
@@ -52,11 +52,35 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Bookkeeper
+company: Bennett and Game Recruitment LTD - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225702322
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Conveyancing Paralegal
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-2155838
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: EXAMS OFFICER, BARR’S HILL SCHOOL
+company: Barr's Hill School
+location: Coventry
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-barr-s-hill-school-barr-s-hill-school
 reason: Approved Coventry catchment.
 ---
 
@@ -165,6 +189,18 @@ company: Sustainable Building Services - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225730944
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist and Administrative Assistant to the Deputy Headteachers
+company: Caludon Castle School
+location: Coventry
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrative-assistant-to-the-deputy-headteachers
 reason: Approved Coventry catchment.
 ---
 
@@ -290,7 +326,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (78)
+## EXCLUDE (77)
 
 ---
 action: 
@@ -697,18 +733,6 @@ company: thefutureworks - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225756261
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Manager
-company: Life 2009 - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2138590
 reason: Separate employment market.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 104
+- automatic review: 112
 - automatic exclude: 0
 - effective include: 0
-- effective review: 104
+- effective review: 112
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (104)
+## REVIEW (112)
 
 ---
 action: 
@@ -210,18 +210,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Senior
-company: SI Recruitment - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-107905235
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Ad Hoc Receptionist - Immediate Start - Newcastle City Centre
 company: Office Angels - Agency - Temporary
 location: Tyne And Wear
@@ -311,6 +299,18 @@ company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 location: Blyth, NE24 3BX
 source: NHS Jobs
 job_id: nhs-5680476
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: North Durham Academy
+location: Stanley
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-north-durham-academy-stanley-county-durham
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -414,6 +414,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Attendance Officer & Administrator
+company: Bede Academy
+location: Blyth
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bookkeeper
 company: Cameron James - Agency - Permanent
 location: Darlington
@@ -455,6 +467,18 @@ company: Prime Property Surveyors - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225688434
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Services Support Administrator
+company: Studio West
+location: Newcastle-upon-Tyne
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-services-support-administrator
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -515,6 +539,18 @@ company: Office Angels - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225676547
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Durham, DH1 5YA
+source: NHS Jobs
+job_id: nhs-5684079
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -690,6 +726,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Exams Officer
+company: English Martyrs Catholic School and Sixth Form College
+location: Hartlepool
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-english-martyrs-catholic-school-and-sixth-form-college
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance and Payroll Assistant
 company: MTrec Recruitment - Agency - Permanent
 location: County Durham
@@ -726,9 +774,21 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: GP Receptionist/Care Navigator
+company: Trinity Medical Centre
+location: South Shields, NE33 5DU
+source: NHS Jobs
+job_id: nhs-5683011
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Graduate Accounts Assistant
 company: Get-Recruited (UK) Ltd - Agency - Permanent
-location: Tyne And Wear
+location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-23643_225721329
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
@@ -882,6 +942,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Payroll & People Systems Assistant
+company: National Energy Action - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-2160755
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Clerk
 company: Portfolio Payroll - Agency - Permanent
 location: Yorkshire
@@ -979,6 +1051,18 @@ action:
 decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
+company: Paul Card Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225757826
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
 company: Spear-heads - Agency - Permanent
 location: County Durham
 source: JobG8
@@ -1007,6 +1091,18 @@ company: South Tyneside and Sunderland NHS Foundation Trust
 location: SUNDERLAND, SR1 3AE
 source: NHS Jobs
 job_id: nhs-5666221
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: St Anthony's Girls' Catholic Academy
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-st-anthony-s-girls-catholic-academy
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

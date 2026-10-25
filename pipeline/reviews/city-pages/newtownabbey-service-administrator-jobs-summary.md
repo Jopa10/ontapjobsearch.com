@@ -79,6 +79,18 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
+company: Brook Street - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-23643_225761514
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
 company: Reed - Agency - Permanent
 location: Carryduff
 source: JobG8
@@ -131,18 +143,6 @@ company: Hays Accounts and Finance - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-23643_225679035
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2180599
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

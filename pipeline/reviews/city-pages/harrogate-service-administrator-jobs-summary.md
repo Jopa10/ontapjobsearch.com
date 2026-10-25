@@ -4,7 +4,7 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 11
 - automatic review: 18
-- automatic exclude: 33
-- effective include: 10
+- automatic exclude: 34
+- effective include: 11
 - effective review: 18
-- effective exclude: 33
+- effective exclude: 34
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2104288
+reason: Exact approved Harrogate workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Data Administrator
+company: St John Fisher Catholic Academy
+location: Harrogate
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-administrator-st-john-fisher-catholic-academy
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -362,7 +374,7 @@ job_id: jobg8-23643_225666115
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -421,6 +433,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225747065
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer
+company: St Wilfrid's Catholic Primary School - a Catholic Voluntary Academy
+location: York
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -680,6 +704,18 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist Administrator
+company: Braeburn Primary and Nursery Academy
+location: Scarborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Yorkshire
@@ -721,18 +757,6 @@ company: George Pindar School
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-george-pindar-school-scarborough
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator
-company: Braeburn Primary and Nursery Academy
-location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

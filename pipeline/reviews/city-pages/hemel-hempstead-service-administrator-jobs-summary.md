@@ -4,7 +4,7 @@
 - Live route: `/hemel-hempstead/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 111
+- automatic include: 6
+- automatic review: 110
 - automatic exclude: 0
-- effective include: 5
-- effective review: 111
+- effective include: 6
+- effective review: 110
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Think Specialist Recruitment - Agency - Permanent
 location: Hemel Hempstead
 source: JobG8
 job_id: jobg8-23643_225757313
+reason: Exact approved Hemel Hempstead workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
+company: The Hemel Hempstead School
+location: Hemel Hempstead
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
@@ -84,7 +96,7 @@ job_id: jobg8-23643_225694409
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (111)
+## REVIEW (110)
 
 ---
 action: 
@@ -174,6 +186,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Admin Officer - Receptionist
+company: Goffs Academy
+location: Waltham Cross
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-officer-receptionist
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administration Assistant
 company: Nexus HR Limited - Agency - Temporary
 location: Royston
@@ -239,42 +263,6 @@ company: Vaccination UK
 location: Welwyn Garden City, AL71HH
 source: NHS Jobs
 job_id: nhs-5439405
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Hales Group - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2077881
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: SRM RECRUITMENT LIMITED - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2067329
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: STORMX RECRUITMENT LIMITED - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2088448
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -774,6 +762,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Inclusion Administrator
+company: Nicholas Breakspear Catholic School
+location: St Albans
+source: Teaching Vacancies
+job_id: teaching-vacancies-inclusion-administrator-nicholas-breakspear-catholic-school
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Inside Sales - Telesales
 company: Transcomm Recruitment - Agency - Permanent
 location: Berkhamsted
@@ -791,18 +791,6 @@ company: Costa Coffee - Company - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2168386
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior Accountant
-company: Reed - Agency - Permanent
-location: Hertford
-source: JobG8
-job_id: jobg8-2052117
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1307,6 +1295,18 @@ company: Response Personnel Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225752848
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: SEND Administrator
+company: Chancellor's School
+location: Hatfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrator-chancellor-s-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

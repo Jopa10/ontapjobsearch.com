@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 13
-- automatic exclude: 42
-- effective include: 5
-- effective review: 13
-- effective exclude: 42
+- automatic include: 4
+- automatic review: 12
+- automatic exclude: 47
+- effective include: 4
+- effective review: 12
+- effective exclude: 47
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved Barnsley catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Assistant Accountant
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225713436
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Medical Receptionist
 company: Staff Partners Business - Agency - Permanent
 location: Barnsley
@@ -84,7 +72,7 @@ job_id: jobg8-23643_225749128
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (12)
 
 ---
 action: 
@@ -186,18 +174,6 @@ reason: No approved Barnsley catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Payroll Admin
-company: Portfolio Payroll Limited - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225740720
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: Marks Sattin - Agency - Permanent
 location: Yorkshire
@@ -242,7 +218,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (42)
+## EXCLUDE (47)
 
 ---
 action: 
@@ -253,6 +229,30 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Gooseacre Primary Academy
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-d66559f6-ab8e-4349-b8d0-10f235e89384
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: St Gerard's Catholic Primary School
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-st-gerard-s-catholic-primary-school
 reason: Separate employment market.
 ---
 
@@ -289,42 +289,6 @@ company: NHS Professionals - Company - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225757175
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2078492
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: Sharp Consultancy - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-2055573
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Management Accountant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2044207
 reason: Separate employment market.
 ---
 
@@ -452,11 +416,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Estates Compliance and Administrative Assistant
+company: Place Partnership A Multi Academy Trust
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-estates-compliance-and-administrative-assistant
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Executive Assistant
 company: The Talent Division - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225334218
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Minerva Learning Trust
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-assistant-minerva-learning-trust
 reason: Separate employment market.
 ---
 
@@ -541,6 +529,18 @@ company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part-time Payroll Admin
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225740720
 reason: Separate employment market.
 ---
 
@@ -668,11 +668,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: Westfield School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-westfield-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist & Admin Assistant
 company: Willow Tree Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: School Admin Assistant
+company: Anston Park Infant School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-admin-assistant-anston-park-infant-school
 reason: Separate employment market.
 ---
 
@@ -733,6 +757,18 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2053411
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Admin Assistant at Kiveton Park Infant School
+company: Kiveton Park Infant School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school-kiveton-park-infant-school
 reason: Separate employment market.
 ---
 

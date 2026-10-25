@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 8
+- automatic include: 23
+- automatic review: 9
 - automatic exclude: 6
-- effective include: 24
-- effective review: 8
+- effective include: 23
+- effective review: 9
 - effective exclude: 6
 
-## INCLUDE (24)
+## INCLUDE (23)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Axon Moore - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225714999
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Reed - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2042291
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -312,7 +300,7 @@ job_id: nhs-5676409
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
 
 ---
 action: 
@@ -407,6 +395,18 @@ company: Newtown Surgery
 location: Widnes, WA8 7GD
 source: NHS Jobs
 job_id: nhs-5651037
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Senior Administrator
+company: Butler Rose - Agency - Permanent
+location: Widnes
+source: JobG8
+job_id: jobg8-2144274
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 107
+- Effective included jobs: 110
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 107
+- automatic include: 110
 - automatic review: 24
-- automatic exclude: 7
-- effective include: 107
+- automatic exclude: 6
+- effective include: 110
 - effective review: 24
-- effective exclude: 7
+- effective exclude: 6
 
-## INCLUDE (107)
+## INCLUDE (110)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrative Assistant
+company: The Deans Primary School
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-the-deans-primary-school
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator
 company: Halecroft Recruitment - Agency - Permanent
 location: Manchester
@@ -124,18 +136,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Assistant Accountant
-company: RG Consultancy Ltd - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2078166
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Assistant Private Secretary
 company: The Independent Football Regulator - Agency - Permanent
 location: Manchester
@@ -153,18 +153,6 @@ company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225731493
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bookkeeper/Assistant Accountant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225679755
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -652,6 +640,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administrator
+company: Whalley Range 11-18 High School
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Coordinator
 company: Forrest Recruitment - Agency - Permanent
 location: Manchester
@@ -832,11 +832,35 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Office Admin & Receptionist
+company: Salford City Academy
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-admin-receptionist
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Administrator
 company: Jane Gorse Recruitment Limited - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225732244
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator and Receptionist.
+company: Salford City Academy
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-and-receptionist-salford-city-academy-manchester
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1113,6 +1137,18 @@ company: Sellick Partnership - Agency - Contract
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225739886
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Resident Engagement Manager
+company: Cobalt Recruitment. - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-108081589
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1598,19 +1634,7 @@ job_id: jobg8-2065821
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Management Accountant
-company: Get-Recruited (UK) Ltd - Agency - Permanent
-location: Salford
-source: JobG8
-job_id: jobg8-23643_225705047
-reason: Separate exact-city market at launch.
----
+## EXCLUDE (6)
 
 ---
 action: 

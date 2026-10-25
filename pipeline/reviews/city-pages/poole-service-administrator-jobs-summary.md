@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 35
+- automatic include: 11
+- automatic review: 37
 - automatic exclude: 0
-- effective include: 12
-- effective review: 35
+- effective include: 11
+- effective review: 37
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Resource Recruitment - Agency - Contract
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225680211
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Michael Page Finance - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-2067497
 reason: Exact approved Poole workplace.
 ---
 
@@ -168,7 +156,7 @@ job_id: jobg8-23643_225701721
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (37)
 
 ---
 action: 
@@ -366,6 +354,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: English Department Administrator & Librarian
+company: The Bishop of Winchester Academy
+location: Bournemouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-english-department-administrator-librarian-the-bishop-of-winchester-academy
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant - Temporary
 company: Office Angels - Agency - Permanent
 location: Dorset
@@ -491,6 +491,18 @@ company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2075541
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Fawkes & Reece London - Agency - Contract
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225664250
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

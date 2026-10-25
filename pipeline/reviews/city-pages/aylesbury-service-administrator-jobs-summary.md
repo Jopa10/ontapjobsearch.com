@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 69
+- automatic include: 11
+- automatic review: 72
 - automatic exclude: 0
-- effective include: 10
-- effective review: 69
+- effective include: 11
+- effective review: 72
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
+title: School Administrator
+company: Chiltern Way Academy Trust
+location: Aylesbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded
+reason: Exact approved Aylesbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Ward Clerk
 company: Buckinghamshire Healthcare NHS Trust
 location: Aylesbury, HP21 8AL
@@ -144,7 +156,7 @@ job_id: nhs-5676129
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (69)
+## REVIEW (72)
 
 ---
 action: 
@@ -582,6 +594,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Finance Officer
+company: Stephenson Academy
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Assistant
 company: Fawkes & Reece London - Agency - Permanent
 location: Buckinghamshire
@@ -762,18 +786,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Payroll and HR Support Administrator
-company: The Woodlands School
-location: Milton Keynes
-source: Teaching Vacancies
-job_id: teaching-vacancies-payroll-and-hr-support-administrator
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: People & Culture Coordinator
 company: Lifesearch - Agency - Contract
 location: Milton Keynes
@@ -846,11 +858,35 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist (General Administrator)
+company: Oakgrove School
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-general-administrator-ad565c22-7800-442c-b92a-0cd4c39c9cec
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2055401
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reprographics & Administrative Assistant
+company: Royal Latin School
+location: Buckingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-reprographics-administrative-assistant
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -935,6 +971,18 @@ company: Osborne Appointments - Agency - Temporary
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225761685
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trust Finance officer
+company: Stephenson (Mk) Trust
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

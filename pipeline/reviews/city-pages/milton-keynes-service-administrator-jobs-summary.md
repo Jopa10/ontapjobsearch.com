@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 61
+- automatic include: 20
+- automatic review: 63
 - automatic exclude: 0
-- effective include: 18
-- effective review: 61
+- effective include: 20
+- effective review: 63
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (20)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Officer
+company: Stephenson Academy
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Coordinator
 company: Bletchley Park Trust Limited - Agency - Permanent
 location: Milton Keynes
@@ -160,18 +172,6 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll and HR Support Administrator
-company: The Woodlands School
-location: Milton Keynes
-source: Teaching Vacancies
-job_id: teaching-vacancies-payroll-and-hr-support-administrator
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: People & Culture Coordinator
 company: Lifesearch - Agency - Contract
 location: Milton Keynes
@@ -189,6 +189,18 @@ company: Purbeck Health Centre
 location: Milton Keynes, MK14 6BL
 source: NHS Jobs
 job_id: nhs-5543958
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist (General Administrator)
+company: Oakgrove School
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-general-administrator-ad565c22-7800-442c-b92a-0cd4c39c9cec
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -232,6 +244,18 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Trust Finance officer
+company: Stephenson (Mk) Trust
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Youth Mentoring Coordinator
 company: YMCA South Midlands - Agency - Permanent
 location: Milton Keynes
@@ -240,7 +264,7 @@ job_id: jobg8-2169089
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (61)
+## REVIEW (63)
 
 ---
 action: 
@@ -882,6 +906,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Reprographics & Administrative Assistant
+company: Royal Latin School
+location: Buckingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-reprographics-administrative-assistant
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator
 company: Elizabeth Michael Associates LTD - Agency - Permanent
 location: Buckinghamshire
@@ -911,6 +947,18 @@ company: Universal Science Group - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2169741
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: Chiltern Way Academy Trust
+location: Aylesbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

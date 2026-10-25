@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 53
+- automatic include: 8
+- automatic review: 52
 - automatic exclude: 0
-- effective include: 5
-- effective review: 53
+- effective include: 8
+- effective review: 52
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (8)
 
 ---
 action: 
@@ -84,19 +84,43 @@ job_id: jobg8-23643_225736541
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (53)
+---
+action: 
+decision: include
+automatic_decision: include
+title: School Office Administrator
+company: Boringdon Primary School
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-office-administrator-boringdon-primary-school
+reason: Exact approved Plymouth workplace.
+---
 
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Accountant / Accounts Bookkeeper
-company: WH Finance Ltd - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225761678
-reason: No exact Plymouth workplace matched; local geographic review is required.
+decision: include
+automatic_decision: include
+title: SEN Medical Administrator
+company: Plymouth High School for Girls
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-sen-medical-administrator
+reason: Exact approved Plymouth workplace.
 ---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Student Funding Administrator (Maternity Cover)
+company: City College Plymouth
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-student-funding-administrator-maternity-cover
+reason: Exact approved Plymouth workplace.
+---
+
+## REVIEW (52)
 
 ---
 action: 
@@ -174,11 +198,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Management Accountant
-company: Hays Senior Finance - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225730254
+title: Attendance Officer (part-time)
+company: St James School
+location: Exeter
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-part-time-st-james-school
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

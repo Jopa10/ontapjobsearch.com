@@ -1,7 +1,9 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225722424,Accounts Payable,SF Partners - Agency - Contract,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,teaching-vacancies-administrative-assistant-finham-park-2,Administrative Assistant,Finham Park 2,Coventry,Teaching Vacancies,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
+include,jobg8-23643_225702322,Bookkeeper,Bennett and Game Recruitment LTD - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-2155838,Conveyancing Paralegal,Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
+include,teaching-vacancies-exams-officer-barr-s-hill-school-barr-s-hill-school,"EXAMS OFFICER, BARR’S HILL SCHOOL",Barr's Hill School,Coventry,Teaching Vacancies,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-23643_225717657,Facilities and Maintenance Administrator,EA First - Agency - Temporary,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-2067815,Marketing Executive,Workstreet - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-23643_225700364,Parts Administrator,Recruitment Helpline - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
@@ -11,6 +13,7 @@ include,jobg8-23643_225664809,Project Administrator,Red Rock Consultants Ltd - A
 include,jobg8-23643_225715976,Purchase Ledger,SF Partners - Agency - Temporary,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-23643_225751750,Purchase Ledger Clerk,SF Partners - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-23643_225730944,Quality Administrator,Sustainable Building Services - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
+include,teaching-vacancies-receptionist-and-administrative-assistant-to-the-deputy-headteachers,Receptionist and Administrative Assistant to the Deputy Headteachers,Caludon Castle School,Coventry,Teaching Vacancies,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,nhs-5665205,Receptionist/Administrator,Operose Health,"Coventry, CV1 5FX",NHS Jobs,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-2041977,Recruitment Resourcer,Resolute Recruitment - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-23643_225740090,Residential Conveyancing Paralegal,Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
@@ -55,7 +58,6 @@ exclude,jobg8-23643_225660466,Finance Assistant,SF Partners - Agency - Temporary
 exclude,jobg8-23643_225658597,Finance Assistant,The Caraires Consultancy - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225712720,Finance Assistant,The Shakespeare Hospice - Agency - Permanent,Stratford-Upon-Avon,JobG8,exclude,exclude,Separate employment market.,stratford-upon-avon,coventry-service-administrator-jobs
 exclude,jobg8-23643_225756261,Finance Assistant,thefutureworks - Agency - Temporary,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
-exclude,jobg8-2138590,Finance Manager,Life 2009 - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225707345,Front of House Administrator,Valpak Limited - Agency - Temporary,Stratford-Upon-Avon,JobG8,exclude,exclude,Separate employment market.,stratford-upon-avon,coventry-service-administrator-jobs
 exclude,nhs-5656280,GP Surgery Receptionist,Station Street Surgery,"Nuneaton, CV11 6HH",NHS Jobs,exclude,exclude,Separate employment market.,nuneaton,coventry-service-administrator-jobs
 exclude,jobg8-23643_220696281,HR Assistant,Auctoro Recruitment - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs

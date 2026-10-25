@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 79
-- automatic exclude: 31
+- automatic review: 73
+- automatic exclude: 29
 - effective include: 10
-- effective review: 79
-- effective exclude: 31
+- effective review: 73
+- effective exclude: 29
 
 ## INCLUDE (10)
 
@@ -144,19 +144,7 @@ job_id: nhs-5667013
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (79)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accountant / Accounts Assistant Bexhill
-company: Placr Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225724752
-reason: Broad location; review before city inclusion.
----
+## REVIEW (73)
 
 ---
 action: 
@@ -252,66 +240,6 @@ location: Lewes, BN7 1EA
 source: NHS Jobs
 job_id: nhs-5683798
 reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Michael Page - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225742498
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Michael Page - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225742499
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant (Part Qual)
-company: Morgan Mckinley (Crawley) - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225689923
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant/Accounts Assistant
-company: Alexander Lloyd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225695130
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
-company: William Reed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2060824
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -654,18 +582,6 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Management Accountant
-company: First Recruitment Services - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225709715
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Executive
 company: Reed - Agency - Permanent
 location: Burgess Hill
@@ -978,6 +894,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Senior Finance Assistant
+company: Lloyd Recruitment - East Grinstead - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225694900
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: SEO Manager
 company: Kairos Recruitment - Agency - Permanent
 location: Sussex
@@ -1094,7 +1022,7 @@ job_id: jobg8-23643_225699794
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -1321,30 +1249,6 @@ company: Academics - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225697488
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant - Assistant Accountant
-company: Morgan Mckinley (Crawley) - Agency - Permanent
-location: Horsham
-source: JobG8
-job_id: jobg8-23643_225672363
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant - Assistant Accountant
-company: Morgan McKinley - Agency - Permanent
-location: Horsham
-source: JobG8
-job_id: jobg8-2056498
 reason: Separate employment market.
 ---
 

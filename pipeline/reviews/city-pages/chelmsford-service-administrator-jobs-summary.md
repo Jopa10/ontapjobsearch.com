@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 112
+- automatic include: 13
+- automatic review: 116
 - automatic exclude: 0
-- effective include: 14
-- effective review: 112
+- effective include: 13
+- effective review: 116
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (13)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: JS Legal Recruitment Ltd - Agency - Permanent
 location: Chelmsford
 source: JobG8
 job_id: jobg8-2048232
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Conveyancing Paralegal
-company: JS Legal Recruitment Ltd - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-23643_225444090
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -192,31 +180,7 @@ job_id: jobg8-23643_225694242
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (112)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accountant
-company: Reed - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2050332
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accountant
-company: Reed - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2050334
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
+## REVIEW (116)
 
 ---
 action: 
@@ -330,11 +294,47 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Admin Assistant
+company: Larchwood Primary School
+location: Brentwood
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-larchwood-primary-school
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration assistant
+company: High Ongar Primary School
+location: Ongar
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-high-ongar-primary-school
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administration Assistant
 company: St Nicholas School
 location: Southend-on-Sea
 source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-d4c71f58-82f8-447e-966b-f065379eaa99
+job_id: teaching-vacancies-administration-assistant-1c448502-5efb-4cf5-99ef-325c9696302b
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant - One Year Fixed Term
+company: Prince Avenue Academy and Nursery
+location: Westcliff-on-Sea
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-one-year-fixed-term
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -347,6 +347,18 @@ company: Essex Partnership University NHS Foundation Trust
 location: Maldon, CM9 6EG
 source: NHS Jobs
 job_id: nhs-5678632
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant - Part-Time Permanent
+company: Jotmans Hall Primary School
+location: Benfleet
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-part-time-permanent
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -407,6 +419,18 @@ company: Primary Care Careers
 location: Clacton on Sea, CO15 1NJ
 source: NHS Jobs
 job_id: nhs-5679704
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator: Reprographics
+company: Mossbourne Fobbing Academy
+location: Stanford-le-Hope
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-reprographics-mossbourne-fobbing-academy
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1187,6 +1211,18 @@ company: The Eastwood Academy
 location: Leigh-on-Sea
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-the-eastwood-academy
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist (Student Services)
+company: Lift Maltings
+location: Witham
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-student-services
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

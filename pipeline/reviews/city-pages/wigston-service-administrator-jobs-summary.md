@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 75
+- automatic review: 73
 - automatic exclude: 0
 - effective include: 0
-- effective review: 75
+- effective review: 73
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (75)
+## REVIEW (73)
 
 ---
 action: 
@@ -263,30 +263,6 @@ company: SolviT Recruitment Ltd - Agency - Temporary
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225752253
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: RECfinancial - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225730677
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
-company: Hamilton Woods - Agency - Contract
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225725322
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

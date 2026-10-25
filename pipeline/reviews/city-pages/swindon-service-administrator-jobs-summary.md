@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 30
+- automatic include: 16
+- automatic review: 34
 - automatic exclude: 0
-- effective include: 13
-- effective review: 30
+- effective include: 16
+- effective review: 34
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (16)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Quality Start - Agency - Contract
 location: Swindon
 source: JobG8
 job_id: jobg8-23643_225509639
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Liden Academy
-location: Swindon
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-181abc61-ea48-424a-9686-308bb273394d
 reason: Exact approved Swindon workplace.
 ---
 
@@ -93,6 +81,18 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Swindon
 source: JobG8
 job_id: jobg8-23643_225733645
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: First Aider & Admin Assistant (Front Office)
+company: Kingsdown School
+location: Swindon
+source: Teaching Vacancies
+job_id: teaching-vacancies-first-aider-admin-assistant-front-office
 reason: Exact approved Swindon workplace.
 ---
 
@@ -160,6 +160,42 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Part-Time Receptionist (Mat Cover 12 months FTC)
+company: Swindon Academy
+location: Swindon
+source: Teaching Vacancies
+job_id: teaching-vacancies-part-time-receptionist-mat-cover-12-months-ftc
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Progression Administrator
+company: Bradon Forest School
+location: Swindon
+source: Teaching Vacancies
+job_id: teaching-vacancies-progression-administrator-bradon-forest-school-swindon-wiltshire
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Pupil Services Administrator
+company: Oakhurst Community Primary School
+location: Swindon
+source: Teaching Vacancies
+job_id: teaching-vacancies-pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist / Administrator
 company: https://www.parklanepracticeswindon.nhs.uk/
 location: Swindon, SN1 5HG, Swindon, SN1 5HG, Swindon, SN5 8SX
@@ -172,15 +208,15 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: School & Nursery Administrator
-company: Liden Academy
+title: Sixth Form Admin Assistant
+company: Great Western Academy
 location: Swindon
 source: Teaching Vacancies
-job_id: teaching-vacancies-school-nursery-administrator-liden-academy
+job_id: teaching-vacancies-sixth-form-admin-assistant-great-western-academy-swindon
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (34)
 
 ---
 action: 
@@ -210,12 +246,36 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
+title: Administrative Assistant
+company: Charter Primary School
+location: Chippenham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-charter-primary-school
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Assurance Coordinator Porton Down
 company: Mainstay Facilities - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-108182792
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Officer
+company: South Wilts Grammar School
+location: Salisbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-south-wilts-grammar-school
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -239,6 +299,18 @@ company: Tech-People - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225659490
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Hireful - Company - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108222267
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -390,6 +462,30 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
+title: Pastoral Administrator
+company: Melksham Oak Community School
+location: Melksham
+source: Teaching Vacancies
+job_id: teaching-vacancies-pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist & First Aider
+company: South Wilts Grammar School
+location: Salisbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-first-aider-south-wilts-grammar-school
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator
 company: CMD Recruitment - Agency - Contract
 location: Devizes
@@ -420,18 +516,6 @@ location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225723594
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Secretary (full or part-time)
-company: Thrive Group - Agency - Permanent
-location: Trowbridge
-source: JobG8
-job_id: jobg8-108205110
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

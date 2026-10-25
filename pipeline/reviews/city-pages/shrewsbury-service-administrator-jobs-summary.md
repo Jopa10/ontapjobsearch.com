@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 16
+- automatic review: 18
 - automatic exclude: 0
 - effective include: 6
-- effective review: 16
+- effective review: 18
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (18)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: Coverage Care Services - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225728935
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin, Finance & Admissions Officer
+company: Bridgnorth Endowed School
+location: Bridgnorth
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-finance-admissions-officer
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -179,6 +191,18 @@ company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-2078828
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Data & Exams Officer
+company: Church Stretton School
+location: Church Stretton
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-exams-officer-church-stretton-school
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

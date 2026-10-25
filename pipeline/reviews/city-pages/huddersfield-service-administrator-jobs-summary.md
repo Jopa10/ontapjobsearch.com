@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 37
-- automatic exclude: 117
+- automatic review: 36
+- automatic exclude: 121
 - effective include: 10
-- effective review: 37
-- effective exclude: 117
+- effective review: 36
+- effective exclude: 121
 
 ## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Officer
-company: All Saints Catholic College
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
-reason: Approved Huddersfield catchment.
----
 
 ---
 action: 
@@ -57,6 +45,18 @@ company: Moor End Academy
 location: Huddersfield
 source: Teaching Vacancies
 job_id: teaching-vacancies-data-and-exams-administrator-moor-end-academy-huddersfield-west-yorkshire
+reason: Approved Huddersfield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Officer
+company: Greenhead College
+location: Huddersfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-officer-greenhead-college
 reason: Approved Huddersfield catchment.
 ---
 
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225760413
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (37)
+## REVIEW (36)
 
 ---
 action: 
@@ -179,42 +179,6 @@ company: The Mirfield Free Grammar
 location: Mirfield
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Mpeople Recruitment - Agency - Permanent
-location: Batley
-source: JobG8
-job_id: jobg8-2088263
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Mpeople Recruitment North West - Agency - Permanent
-location: Batley
-source: JobG8
-job_id: jobg8-23643_225729117
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Search Consultancy Ltd - Agency - Contract
-location: Batley
-source: JobG8
-job_id: jobg8-23643_225704238
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -311,6 +275,18 @@ company: Pyramid8 - Agency - Permanent
 location: Morley
 source: JobG8
 job_id: jobg8-23643_224967327
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Enrichment & Finance Officer
+company: Ilkley Grammar School
+location: Ilkley
+source: Teaching Vacancies
+job_id: teaching-vacancies-enrichment-finance-officer
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -590,7 +566,19 @@ job_id: jobg8-23643_225555461
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (117)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trust HR Administrator
+company: Moorlands Learning Trust
+location: Ilkley
+source: Teaching Vacancies
+job_id: teaching-vacancies-trust-hr-administrator-moorlands-learning-trust
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+## EXCLUDE (121)
 
 ---
 action: 
@@ -601,6 +589,18 @@ company: Lucy Walker Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225678109
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Horbury Academy
+location: Wakefield
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-horbury-academy
 reason: Separate employment market.
 ---
 
@@ -661,6 +661,18 @@ company: The North Halifax Grammar School
 location: Halifax
 source: Teaching Vacancies
 job_id: teaching-vacancies-apprentice-business-support-administrator
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Attendance Officer
+company: Bronte Girls' Academy
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-bronte-girls-academy-bradford
 reason: Separate employment market.
 ---
 
@@ -1256,6 +1268,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance Assistant
+company: The North Halifax Grammar School
+location: Halifax
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-assistant-the-north-halifax-grammar-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant - 12 Month Contract
 company: Office Angels - Agency - Contract
 location: Leeds
@@ -1405,18 +1429,6 @@ company: Huntress - Leeds - Agency - Permanent
 location: Batley
 source: JobG8
 job_id: jobg8-23643_225757873
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Key Account Manager
-company: Huntress - Leeds - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225664054
 reason: Separate employment market.
 ---
 
@@ -1724,6 +1736,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Primary Receptionist
+company: Bradford Academy
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-primary-receptionist-bradford-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Principal Planner
 company: Penguin Recruitment Ltd - Agency - Permanent
 location: Leeds
@@ -1789,6 +1813,18 @@ company: Affinity Care
 location: Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ
 source: NHS Jobs
 job_id: nhs-5667656
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Park Lane Academy
+location: Halifax
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-park-lane-academy
 reason: Separate employment market.
 ---
 
@@ -1880,11 +1916,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Senior Business Support Administrator
-company: The North Halifax Grammar School
-location: Halifax
+title: SEND Administrator (part-time, 30h per week)
+company: Bradford Academy
+location: Bradford
 source: Teaching Vacancies
-job_id: teaching-vacancies-senior-business-support-administrator
+job_id: teaching-vacancies-send-administrator-part-time-30h-per-week
 reason: Separate employment market.
 ---
 

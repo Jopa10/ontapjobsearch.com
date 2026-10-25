@@ -52,6 +52,18 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Bookkeeper
+company: Brook Street - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-23643_225761514
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Hays Accounts and Finance - Agency - Permanent
 location: Belfast
@@ -69,18 +81,6 @@ company: Hays Accounts and Finance - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-23643_225679035
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2180599
 reason: Approved conservative Belfast launch catchment.
 ---
 

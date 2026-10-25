@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 28
+- automatic include: 5
+- automatic review: 31
 - automatic exclude: 0
-- effective include: 4
-- effective review: 28
+- effective include: 5
+- effective review: 31
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Sharnbrook Academy
+location: Bedford
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-cf37bca3-64ec-41f1-b25b-fecf7343f14a
+reason: Exact approved Bedford workplace.
+---
 
 ---
 action: 
@@ -72,7 +84,7 @@ job_id: jobg8-23643_225673265
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (31)
 
 ---
 action: 
@@ -94,7 +106,7 @@ title: Administration Assistant / Receptionist
 company: Lancot School
 location: Dunstable
 source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-receptionist-b0a5cdce-cd8a-492e-a23a-4838c9fd2813
+job_id: teaching-vacancies-administration-assistant-receptionist-c822ff8b-c75d-4a91-a4a3-0b0ba42c70f9
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -119,6 +131,18 @@ company: Transcomm Recruitment Ltd - Agency - Permanent
 location: Dunstable
 source: JobG8
 job_id: jobg8-23643_225742377
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Officer
+company: Putteridge High School
+location: Luton
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-putteridge-high-school-luton-bedfordshire
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -270,6 +294,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Office & Community Administrator
+company: Southcott Lower School
+location: Leighton Buzzard
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-community-administrator
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Online Customer Service Advisor
 company: Hales Group - Agency - Temporary
 location: Bedfordshire
@@ -287,6 +323,18 @@ company: Portfolio Payroll Limited - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225664229
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: The Disability Resource Centre - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225734218
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

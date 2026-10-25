@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 53
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 6
-- effective review: 53
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: nhs-5675916
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (56)
 
 ---
 action: 
@@ -162,6 +162,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Administrative Assistant
+company: The Hart School
+location: Rugeley
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-the-hart-school
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: Fusion People Ltd - Agency - Contract
 location: Staffordshire
@@ -179,6 +191,18 @@ company: Veolia - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225725986
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance & Admin Assistant
+company: The Hart School
+location: Rugeley
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-admin-assistant-3eb72589-09a8-45cd-a3b2-637d65a99a60
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -671,6 +695,18 @@ company: Direct Recruitment (Midlands) Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225417337
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: St Patrick's Catholic Primary School
+location: Stafford
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-st-patrick-s-catholic-primary-school-stafford-staffordshire
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

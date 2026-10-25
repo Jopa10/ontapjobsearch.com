@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 10
-- automatic exclude: 35
-- effective include: 17
-- effective review: 10
-- effective exclude: 35
+- automatic include: 18
+- automatic review: 11
+- automatic exclude: 39
+- effective include: 18
+- effective review: 11
+- effective exclude: 39
 
-## INCLUDE (17)
+## INCLUDE (18)
 
 ---
 action: 
@@ -45,6 +45,30 @@ company: Barker Ross - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225719523
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admissions Administrator
+company: United Learning Trust
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-admissions-administrator-united-learning-trust
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Attendance Officer
+company: Jack Hunt Academy
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-jack-hunt-academy-peterborough-cambridgeshire
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -184,18 +208,6 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part-Time Senior Accountant
-company: Blusource Professional Services Ltd - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225660845
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchase Ledger Clerk
 company: The One Group - Agency - Permanent
 location: Peterborough
@@ -228,7 +240,7 @@ job_id: jobg8-23643_221302954
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (11)
 
 ---
 action: 
@@ -342,6 +354,18 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: School Office Assistant
+company: Sutton CofE VC Primary School
+location: Ely
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-office-assistant-sutton-cofe-vc-primary-school
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Administrator
 company: Interaction Recruitment - Agency - Contract
 location: St. Ives
@@ -350,7 +374,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (39)
 
 ---
 action: 
@@ -393,6 +417,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administration Assistant
+company: Cottenham Village College
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-33fbff14-5670-4218-aac1-dee2a2b87010
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
 company: Hardwick and Cambourne Community Primary School
 location: Cambridge
 source: Teaching Vacancies
@@ -421,30 +457,6 @@ company: North Cambridge Academy
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-international-and-community-projects-north-cambridge-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: Heap & Co - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2088198
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Management Accountant
-company: Pure Resourcing Solutions Limited - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225703471
 reason: Separate employment market.
 ---
 
@@ -596,6 +608,66 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance Officer
+company: Cambridge Academy for Science and Technology
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-officer-cambridge-academy-for-science-and-technology-cambridge-cambridgeshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Officer
+company: Coleridge Community College
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-officer-coleridge-community-college-cambridge-cambridgeshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Officer
+company: Parkside Community College
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-officer-parkside-community-college-cambridge-cambridgeshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Officer
+company: The Galfrid School
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-officer-the-galfrid-school-cambridge-cambridgeshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Officer
+company: Trumpington Community College
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-officer-trumpington-community-college-cambridge-cambridgeshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Front of House Porter/Security
 company: Select Recruitment Specialists Ltd - Agency - Contract
 location: Cambridge
@@ -670,7 +742,7 @@ decision: exclude
 automatic_decision: exclude
 title: Purchase Ledger Clerk (Temp)
 company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Cambridgeshire
+location: Cambridge
 source: JobG8
 job_id: jobg8-2036998
 reason: Separate employment market.
@@ -716,11 +788,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Senior Office Administrator
-company: Pathfinder CofE Primary School
+title: Sixth Form Administrator/Exams
+company: Impington Village College
 location: Cambridge
 source: Teaching Vacancies
-job_id: teaching-vacancies-senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
+job_id: teaching-vacancies-sixth-form-administrator-exams
 reason: Separate employment market.
 ---
 

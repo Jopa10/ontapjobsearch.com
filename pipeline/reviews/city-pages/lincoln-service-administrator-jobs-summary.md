@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 6
+- automatic include: 20
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 23
-- effective review: 6
+- effective include: 20
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (20)
 
 ---
 action: 
@@ -70,54 +70,6 @@ location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225757211
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Michael Page - Agency - Permanent
-location: Lincoln
-source: JobG8
-job_id: jobg8-23643_225686411
-reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Michael Page Finance - Agency - Permanent
-location: Lincoln
-source: JobG8
-job_id: jobg8-2060479
-reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Management Accountant
-company: Michael Page - Agency - Contract
-location: Lincoln
-source: JobG8
-job_id: jobg8-23643_225666799
-reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Management Accountant
-company: Michael Page Finance - Agency - Permanent
-location: Lincoln
-source: JobG8
-job_id: jobg8-2050226
-reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -232,6 +184,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Personal Assistant
+company: The Barnes Wallis Academy
+location: Lincoln
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-the-barnes-wallis-academy
+reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Reactive Repairs Co-ordinator
 company: ARC Group - Agency - Permanent
 location: Lincolnshire
@@ -300,7 +264,19 @@ job_id: jobg8-23643_225696261
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (6)
+## REVIEW (10)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Academy Administrator
+company: Thomas Middlecott Academy
+location: Boston
+source: Teaching Vacancies
+job_id: teaching-vacancies-academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -311,6 +287,30 @@ company: Cleethorpes Academy
 location: Cleethorpes
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-cleethorpes-academy
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant - band 2
+company: Our Lady of Good Counsel Catholic Primary School, A Voluntary Academy
+location: Sleaford
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-band-2-96d0a457-1878-4579-bc10-d33c9990b986
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Officer - Temporary (7764)
+company: Willows Academy
+location: Grimsby
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-temporary-7764
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -347,6 +347,18 @@ company: Huntress - Maidstone - Agency - Temporary
 location: Boston
 source: JobG8
 job_id: jobg8-23643_225708777
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Pupil Receptionist/Administrator
+company: University Academy Long Sutton
+location: Spalding
+source: Teaching Vacancies
+job_id: teaching-vacancies-pupil-receptionist-administrator-d44ce344-7740-41cd-9180-1240273f0189
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

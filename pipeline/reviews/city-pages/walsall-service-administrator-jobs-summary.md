@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 38
+- automatic review: 42
 - automatic exclude: 0
 - effective include: 4
-- effective review: 38
+- effective review: 42
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_224517979
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (42)
 
 ---
 action: 
@@ -114,6 +114,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: SF Partners - Agency - Temporary
+location: Cradley Heath
+source: JobG8
+job_id: jobg8-23643_225709493
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Payable/Credit Control- Temp
 company: Gleeson Recruitment Group - Agency - Temporary
 location: Wolverhampton
@@ -131,6 +143,18 @@ company: Holy Rosary Catholic Primary Academy
 location: Wolverhampton
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Fallings Park Primary School
+location: Wolverhampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-fallings-park-primary-school
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -354,11 +378,35 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: Russell House Surgery
+location: Wolverhampton, WV8 1PE
+source: NHS Jobs
+job_id: nhs-5682858
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Administrator
 company: Industrial Recruitment Solutions Ltd - Agency - Permanent
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225673345
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Pastoral Admin Assistant
+company: Wolverhampton Girls' High School
+location: Wolverhampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-pastoral-admin-assistant-wolverhampton-girls-high-school
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

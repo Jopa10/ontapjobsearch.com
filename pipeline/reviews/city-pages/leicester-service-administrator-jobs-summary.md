@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 20
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
+- automatic include: 18
 - automatic review: 55
 - automatic exclude: 0
-- effective include: 20
+- effective include: 18
 - effective review: 55
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (18)
 
 ---
 action: 
@@ -69,30 +69,6 @@ company: SolviT Recruitment Ltd - Agency - Temporary
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225752253
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: RECfinancial - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225730677
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Management Accountant
-company: Hamilton Woods - Agency - Contract
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225725322
 reason: Exact approved Leicester workplace.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 71
+- automatic include: 4
+- automatic review: 75
 - automatic exclude: 0
-- effective include: 5
-- effective review: 71
+- effective include: 4
+- effective review: 75
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,19 +72,7 @@ job_id: jobg8-2053456
 reason: Exact approved Bath workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Manager (Part Time)
-company: Reed Technology - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-23643_225660760
-reason: Exact approved Bath workplace.
----
-
-## REVIEW (71)
+## REVIEW (75)
 
 ---
 action: 
@@ -119,6 +107,18 @@ company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2057297
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant (Trips, Visits & Events)
+company: Ashton Park School
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-trips-visits-events
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -810,6 +810,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Fairfield High School
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-fairfield-high-school
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Repairs Coordinator
 company: Tate - Agency - Temporary
 location: Bristol
@@ -863,6 +875,30 @@ company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225684677
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: North Star 265°
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-north-star-265-bristol-bristol
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator MAT cover
+company: Little Mead Primary Academy
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-mat-cover
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

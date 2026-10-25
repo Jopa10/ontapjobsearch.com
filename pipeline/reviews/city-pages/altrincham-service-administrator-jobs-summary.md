@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 7
 - automatic review: 26
 - automatic exclude: 0
-- effective include: 8
+- effective include: 7
 - effective review: 26
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: Halecroft Recruitment - Agency - Temporary
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225733574
-reason: Exact approved Altrincham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: RTR Assistant Accountant
-company: Robert Walters - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-2039520
 reason: Exact approved Altrincham workplace.
 ---
 

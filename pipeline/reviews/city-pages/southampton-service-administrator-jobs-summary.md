@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 99
-- automatic exclude: 49
-- effective include: 14
-- effective review: 99
-- effective exclude: 49
+- automatic include: 12
+- automatic review: 95
+- automatic exclude: 47
+- effective include: 12
+- effective review: 95
+- effective exclude: 47
 
-## INCLUDE (14)
+## INCLUDE (12)
 
 ---
 action: 
@@ -57,30 +57,6 @@ company: University Hospital Southampton NHS Trust
 location: Southampton, SO16 6YD
 source: NHS Jobs
 job_id: nhs-5663473
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Michael Page - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225696140
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Michael Page Finance - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2087359
 reason: Approved Southampton catchment.
 ---
 
@@ -192,7 +168,7 @@ job_id: jobg8-23643_225719604
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (99)
+## REVIEW (95)
 
 ---
 action: 
@@ -402,60 +378,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Totton
-source: JobG8
-job_id: jobg8-2076230
+title: Attendance Officer
+company: Ringwood School Academy
+location: Ringwood
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-66e679cb-65bb-4391-8ecd-a482bdaa6185
 reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Totton
-source: JobG8
-job_id: jobg8-23643_225686657
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225725934
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Hedge End
-source: JobG8
-job_id: jobg8-23643_225701756
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
-company: The Niche Partnership - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2075160
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1382,7 +1310,7 @@ job_id: jobg8-23643_225665585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (49)
+## EXCLUDE (47)
 
 ---
 action: 
@@ -1472,83 +1400,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administrator - The Harbour School
+company: The Harbour School
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Administrator/Coordinator
 company: Dynamite Recruitment - Agency - Temporary
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_225679921
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-2033941
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225655048
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225693892
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: Michael Page - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225671157
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: Michael Page Finance - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-2055478
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: Venture Recruitment Partners - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225729408
 reason: Separate employment market.
 ---
 
@@ -1796,6 +1664,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part Time Receptionist/Administrator
+company: Ark Ayrton Primary Academy
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-part-time-receptionist-administrator-ark-ayrton-primary-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Payroll Administrator
 company: TPF Recruitment - Agency - Permanent
 location: Eastleigh
@@ -1928,11 +1808,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales Telemarketer
+company: MIW Group Ltd - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-108230936
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Secretary/Admin Assistant
 company: Click Digital - Agency - Contract
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225672061
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: SEN Administrator
+company: St Edmund's Catholic School
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
 reason: Separate employment market.
 ---
 

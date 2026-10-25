@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 90
+- Effective included jobs: 93
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 90
-- automatic review: 14
-- automatic exclude: 7
-- effective include: 90
-- effective review: 14
-- effective exclude: 7
+- automatic include: 93
+- automatic review: 15
+- automatic exclude: 10
+- effective include: 93
+- effective review: 15
+- effective exclude: 10
 
-## INCLUDE (90)
+## INCLUDE (93)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administration Assistant
+company: Brownmead Primary Academy
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-brownmead-primary-academy
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator
 company: Skilled Careers - Agency - Contract
 location: Birmingham
@@ -136,47 +148,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Assistant Accountant
-company: Four Squared Recruitment Ltd - Agency - Permanent
+title: Attendance Officer
+company: Coleshill Church of England Primary School
 location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225709317
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant (Financial Accounts)
-company: Sellick Partnership - Agency - Contract
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225699543
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant (Financial Accounts)
-company: Sellick Partnership - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2091547
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Management Accountant
-company: Mitchell Adam - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2067142
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-coleshill-church-of-england-primary-school
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -185,10 +161,10 @@ action:
 decision: include
 automatic_decision: include
 title: Attendance Officer
-company: Coleshill Church of England Primary School
+company: James Brindley School
 location: Birmingham
 source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-coleshill-church-of-england-primary-school
+job_id: teaching-vacancies-attendance-officer-65a61b9e-be5f-4172-b55c-8b707f8e10f9
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -232,6 +208,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Clerical Assistant/Receptionist
+company: St Anne's Catholic Primary School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-clerical-assistant-receptionist-st-anne-s-catholic-primary-school
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Client Care Administrator
 company: SF Partners - Agency - Permanent
 location: Birmingham
@@ -256,6 +244,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: College Administrator (Term Time + 2 weeks) 12 month fixed term contract
+company: Tudor Grange Academy Kingshurst
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-college-administrator-term-time-2-weeks-12-month-fixed-term-contract
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Contact Centre Advisor
 company: Adecco - Agency - Temporary
 location: Birmingham
@@ -273,6 +273,18 @@ company: Birmingham Settlement - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2160819
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Cover Administrator
+company: Erdington Academy
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-cover-administrator-erdington-academy
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -580,6 +592,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Grade 2 Administrative Assistant
+company: Queensbury School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-grade-2-administrative-assistant-queensbury-school
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Graduate Supply Chain & Procurement Coordinator
 company: SF Partners - Agency - Permanent
 location: Birmingham
@@ -784,6 +808,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Pastoral Support and Administrator Apprentice
+company: E-ACT Heartlands Academy
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-pastoral-support-and-administrator-apprentice-e-act-heartlands-academy-birmingham-west-midlands
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Planning Administrator
 company: Rx Plus - Agency - Temporary
 location: Birmingham
@@ -964,6 +1000,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: School Administrator
+company: Holy Name Catholic Primary School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-holy-name-catholic-primary-school
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Senior School HR Administrator
 company: Smile Education Recruitment - Agency - Temporary
 location: Birmingham
@@ -1072,18 +1120,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2180600
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Training Administrator (Construction)
 company: Nicholas Associates - Agency - Contract
 location: Birmingham
@@ -1104,7 +1140,7 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (15)
 
 ---
 action: 
@@ -1127,6 +1163,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Contract
 location: Shirley
 source: JobG8
 job_id: jobg8-23643_225694535
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Central Services Administrator
+company: Bishop Vesey's Grammar School
+location: Sutton Coldfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-central-services-administrator-bishop-vesey-s-grammar-school
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
@@ -1274,7 +1322,7 @@ job_id: jobg8-23643_225731801
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -1292,11 +1340,35 @@ reason: Separate exact-city market at launch.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Assistant Management Accountant
-company: Mitchell Adam - Agency - Permanent
+title: Administrative Assistant/Receptionist
+company: St Margaret's Church of England Primary School
 location: Solihull
-source: JobG8
-job_id: jobg8-2045091
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-receptionist-st-margaret-s-church-of-england-primary-school
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator/Receptionist
+company: Tudor Grange Primary Academy Langley
+location: Solihull
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-receptionist-afc2cbbf-f4cb-42a6-8c94-97d0fc3a0b28
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Attendance Administrator
+company: Alderbrook School
+location: Solihull
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-administrator-alderbrook-school
 reason: Separate exact-city market at launch.
 ---
 
@@ -1345,6 +1417,18 @@ company: GPS Healthcare
 location: Solihull, B90 4DD
 source: NHS Jobs
 job_id: nhs-5679907
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Residential Conveyancing Legal Assistant, Solihull, National Law Firm
+company: qed legal - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-2181508
 reason: Separate exact-city market at launch.
 ---
 

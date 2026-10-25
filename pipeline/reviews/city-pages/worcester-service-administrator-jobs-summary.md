@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 32
+- automatic include: 7
+- automatic review: 33
 - automatic exclude: 0
-- effective include: 6
-- effective review: 32
+- effective include: 7
+- effective review: 33
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Administrative Finance Assistant
+company: Hollymount School
+location: Worcester
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-finance-assistant-hollymount-school
+reason: Exact approved Worcester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator
 company: Herefordshire and Worcestershire Health and Care NHS Trust
 location: Worcester, WR1 1AE
@@ -96,7 +108,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (33)
 
 ---
 action: 
@@ -191,6 +203,18 @@ company: CY Executive Resourcing - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225663805
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Salford Priors CofE Academy
+location: Evesham
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-salford-priors-cofe-academy
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -390,11 +414,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Northleigh CofE Primary School
-location: Malvern
+title: Operations Administrator
+company: Salford Priors CofE Academy
+location: Evesham
 source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-northleigh-cofe-primary-school
+job_id: teaching-vacancies-operations-administrator-salford-priors-cofe-academy-evesham
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

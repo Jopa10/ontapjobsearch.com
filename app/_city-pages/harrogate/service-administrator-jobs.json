@@ -74,6 +74,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "teaching-vacancies-data-administrator-st-john-fisher-catholic-academy",
+    "title": "Data Administrator",
+    "company": "St John Fisher Catholic Academy",
+    "location": "Harrogate",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£18,978.00 - £20,228.00 Annually (Actual) NJC Grade B3, Scale Points 7-11, £27,274 - £29,070 per annum",
+    "work_pattern": "",
+    "posted_date": "2026-10-14",
+    "closing_date": "2026-11-02",
+    "closing_datetime": "2026-11-02T09:00:00+00:00",
+    "summary": "Data Administrator with St John Fisher Catholic Academy in Harrogate. ['part time']; £18,978.00 - £20,228.00 Annually (Actual) NJC Grade B3, Scale Points 7-11, £27,274 - £29,070 per annum.",
+    "description": "St John Fisher Catholic Academy is recruiting for this vacancy in Harrogate.\n\nThe advertised position is Data Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £18,978.00 - £20,228.00 Annually (Actual) NJC Grade B3, Scale Points 7-11, £27,274 - £29,070 per annum.\n\nThe stated application deadline is 2026-11-02T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/data-administrator-st-john-fisher-catholic-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "2089709",
     "display_reference": "2089709",
     "title": "Marketing Assistant",
@@ -193,9 +218,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Saltergate Junior School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
