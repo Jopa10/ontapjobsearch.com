@@ -70,6 +70,10 @@ def master_text(
     results = list(results)
     carried = _existing_actions(previous) if previous else {}
     total = sum(len(result.items) for result in results if result.state == "OK")
+    answered = sum(
+        bool(carried.get(_item_key(result.key, item)))
+        for result in results if result.state == "OK" for item in result.items
+    )
     attention = [result for result in results if result.needs_attention]
     waiting_for = ", ".join(result.label for result in attention)
     lines = [
@@ -97,7 +101,7 @@ def master_text(
             f"review_date: {today.isoformat()}",
             f"generated_at: {datetime.now().astimezone().isoformat(timespec='seconds')}",
             "",
-            f"**{total} job(s) need a human decision.**",
+            f"**{total - answered} job(s) await a human decision; {answered} already answered ({total} review rows).**",
             "",
             "Edit only each `action:` line:",
             "- `action: sel` (or `action: select`) = include the vacancy.",

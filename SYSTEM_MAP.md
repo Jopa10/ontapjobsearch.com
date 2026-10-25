@@ -1,6 +1,6 @@
 # Ontap System Map
 
-**Last updated:** 24 October 2026
+**Last updated:** 25 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -8,6 +8,8 @@
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 25 October 2026 — **JobG8 review queue reconciled after salary-rule regression:** blank-pay rows introduced by owner title/pay handling are automatically excluded rather than newly queried; the explicitly agreed part-time finance uncertainty exception and competitive/DOE handling remain. The compact Service Admin CSV now carries its selector reason and annual pay ceiling directly, avoiding stale diagnostic lookups. Review Hub filters only evidenced automatic missing-pay exclusions and shows unanswered versus answered counts. Today's queue was rebuilt from the current source projection: 207 rows, 206 unanswered and one preserved selection. The old 520-row master preceded later source decisions; 279 further blank-pay rows were unnecessary queries. All persistent decision stores and source decision fields are unchanged; no inventory was regenerated or republished.
 
 - 24 October 2026 — **Owner review refinements prepared and tested:** JobG8 ordinary Service Advisor, Project/HR Coordinator, Finance Assistant/Officer and Administrator pay checks use the £40k review point; Document Controller includes through £45k. Asset Management Coordinator and Salesforce Administrator are excluded; Lead/Leader and executive title barriers are added. TV rejects senior/manager/executive titles regardless of low pay, rejects unusable salary and pay above £50k, and recognises ordinary reception/finance roles through £40k subject to required-accounting-qualification checks. Explicit part-time finance remains a review opportunity in TV pending actual hours/pay/qualification checks. Possible duplicates remain separately governed. No inventory regeneration or deployment is included in this code change.
 

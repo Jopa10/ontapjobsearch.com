@@ -391,3 +391,12 @@ def resolve_feed_date(job_file: Path, override: str | None = None) -> str:
 def markdown_feed_date(text: str) -> str:
     match = re.search(r"(?im)^\s*feed_date:\s*(\S+)\s*$", text)
     return match.group(1) if match else ""
+
+
+def missing_owner_salary_should_exclude(salary_text: object, annual_upper: object, *, part_time_finance: bool = False) -> bool:
+    """Blank pay is an exclusion, except the agreed unresolved part-time seam.
+
+    Call only for an owner-governed salary rule. Non-numeric advertised wording
+    (competitive/DOE) retains its existing review handling.
+    """
+    return not part_time_finance and not _clean_text(salary_text) and annual_upper in (None, "")

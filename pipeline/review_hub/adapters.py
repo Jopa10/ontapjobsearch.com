@@ -6,6 +6,8 @@ from pathlib import Path
 import re
 from typing import Callable
 
+from scripts.pipeline_refinement import missing_owner_salary_should_exclude
+
 from .contracts import ReviewItem, SourceResult, clean, item_from_mapping
 
 PIPELINE_ROOT = Path(__file__).resolve().parents[1]
@@ -85,13 +87,20 @@ def load_jobg8(today: date) -> SourceResult:
                 job_id = clean(row.get("job_id"))
                 if not decision.startswith("POSS") or actions.get(job_id):
                     continue
+                reason = clean(row.get("reason") or row.get("title_classification_reason"))
+                owner_missing_pay = reason.endswith("salary is unavailable or unclear")
+                if owner_missing_pay and missing_owner_salary_should_exclude(
+                    row.get("salary_text"), row.get("annual_salary_upper"),
+                    part_time_finance="part-time" in reason.casefold(),
+                ):
+                    continue
                 items.append(
                     item_from_mapping(
                         "JobG8",
                         row,
                         source_job_id=job_id,
                         category=category,
-                        reason=clean(row.get("reason") or row.get("title_classification_reason")) or "JobG8 selector marked this vacancy POSS",
+                        reason=reason or "JobG8 selector marked this vacancy POSS",
                     )
                 )
     except FileNotFoundError as exc:

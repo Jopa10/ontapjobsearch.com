@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 24 October 2026
+**Last updated:** 25 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 25 October 2026 — **JobG8 review queue reconciled after salary-rule regression:** blank-pay rows introduced by owner title/pay handling are automatically excluded rather than newly queried; the explicitly agreed part-time finance uncertainty exception and competitive/DOE handling remain. The compact Service Admin CSV now carries its selector reason and annual pay ceiling directly, avoiding stale diagnostic lookups. Review Hub filters only evidenced automatic missing-pay exclusions and shows unanswered versus answered counts. Today's queue was rebuilt from the current source projection: 207 rows, 206 unanswered and one preserved selection. The old 520-row master preceded later source decisions; 279 further blank-pay rows were unnecessary queries. All persistent decision stores and source decision fields are unchanged; no inventory was regenerated or republished.
 
 - 24 October 2026 — **Owner review refinements prepared and tested:** JobG8 ordinary Service Advisor, Project/HR Coordinator, Finance Assistant/Officer and Administrator pay checks use the £40k review point; Document Controller includes through £45k. Asset Management Coordinator and Salesforce Administrator are excluded; Lead/Leader and executive title barriers are added. TV rejects senior/manager/executive titles regardless of low pay, rejects unusable salary and pay above £50k, and recognises ordinary reception/finance roles through £40k subject to required-accounting-qualification checks. Explicit part-time finance remains a review opportunity in TV pending actual hours/pay/qualification checks. Possible duplicates remain separately governed. No inventory regeneration or deployment is included in this code change.
 
