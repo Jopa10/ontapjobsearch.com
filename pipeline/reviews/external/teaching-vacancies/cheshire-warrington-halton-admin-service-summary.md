@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-10-24
+review_date: 2026-10-25
 review_fingerprint: ae9076d5b05e5ca005050baba199940d3f39edfd867898be5cdf4bda7c1d5fc5
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -47,8 +47,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-suppor
 ## HARD_PASS
 
 - [Nursery Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/nursery-administration-officer) — Out-of-scope occupation: nurse.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-grange-school-runcorn-cheshire) — Manager title salary ceiling £32,046 is not below £28,000.
-- [Trust Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-manager-the-challenge-academy-trust) — Manager title salary ceiling £44,253 is not below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-grange-school-runcorn-cheshire) — Excluded senior/management title.
+- [Trust Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-manager-the-challenge-academy-trust) — Excluded senior/management title.
 
 ## Safety boundary
 

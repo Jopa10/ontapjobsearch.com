@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-10-24
-review_fingerprint: 17fd6fbc44c32c8445189f78d219983ccdaa2a069309ca4d0e7568b0061f2708
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: d5e61e99ace318a25f58f471a1ea2d40318d8596db11deb61d4bb0bc28933771
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 3
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -38,10 +38,25 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | South West | Bruton, South West, BA10 0DF | £24,978.00 - £28,002.00 Annually (Actual) | Finance Officer
+employer: Sexey's School
+closing_date: 2026-11-04T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 1bf7ebcc1d333764f13a051e79ca19fe0640587556ae2abff0ccb26338f64582
+source: Teaching Vacancies
+source_job_id: finance-officer-sexey-s-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-sexey-s-school
+---
+
+---
+action: 
 SELECTED | South West | Berkeley, South West, GL13 9FB | Up to £26,427 FTE | Receptionist and Administration Assistant
 employer: SGS Berkeley Green UTC
 closing_date: 2026-10-30T09:00:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
@@ -77,7 +92,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-stok
 ## HARD_PASS
 
 - [Admissions and Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-officer-69c1e54a-5b35-4901-a222-0e20faca55c8) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-sexey-s-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

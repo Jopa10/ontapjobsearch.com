@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-24
-review_fingerprint: a5e7e723ae80a4bc15b5b30882fd48f296d6f945b0613766919aa4350e4cc241
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 5f7414a5eec9e86deebd99b78ee3037882c4e1828b1203476526ff3c175898cf
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,35 +13,20 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 84
-- Selected: 20
+- Records: 86
+- Selected: 16
 - POSS awaiting decision: 19
 - Excluded: 0
-- Hard pass: 45
+- Hard pass: 51
 
 ## SELECTED
-
----
-action: 
-SELECTED | London | London, London, SE3 0TP | Scale 4 | Administrative Assistant with Finance Experience
-employer: John Ball Primary School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 58340ede4637cdaea4cb0518fdf5e3430b39d6c50d14b03ca999484f6cd4ac00
-source: Teaching Vacancies
-source_job_id: administrative-assistant-with-finance-experience-john-ball-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-finance-experience-john-ball-primary-school
----
 
 ---
 action: 
 SELECTED | London | Bushey, East of England, WD23 4PA | £26,427.00 - £27,709.00 Annually (FTE) The salary for this post is APT&C points 5 -8 plus London Fringe. Full time figures are £26,427pa - £27,709pa + £1079pa, paid pro-rata and based on experience. The actual pro-rata salary range is £14,661pa - £15,372pa + £598pa. | Afternoon Receptionist
 employer: Bushey Meads School
 closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -49,21 +34,6 @@ factual_fingerprint: 39e6e09920a8c875d69e380227244d8f40f1bc1857aceeb2ae336b8bb63
 source: Teaching Vacancies
 source_job_id: afternoon-receptionist-bushey-meads-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/afternoon-receptionist-bushey-meads-school
----
-
----
-action: 
-SELECTED | London | London, London, SE3 7QR | £8.00 - £8.48 Hourly | Apprentice Administrator
-employer: The John Roan School
-closing_date: 2026-10-30T17:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7ffb5408bccc681ab1a906f76562cbfc74705901458bcf2c0682c85c6b367ba3
-source: Teaching Vacancies
-source_job_id: apprentice-administrator-the-john-roan-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-the-john-roan-school
 ---
 
 ---
@@ -83,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admiss
 
 ---
 action: 
-SELECTED | London | London, London, E15 4LP | Scale 6 | Attendance and Admissions Officer
-employer: Sarah Bonnell School
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 166c16093f29bcfdda35a3113b88775f970340e905e3d3b86e31e3701b258731
-source: Teaching Vacancies
-source_job_id: attendance-and-admissions-officer-sarah-bonnell-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-sarah-bonnell-school
----
-
----
-action: 
 SELECTED | London | Beckenham, London, BR3 3RD | £35,624.00 - £37,790.00 Annually (FTE) NJC Scale 6 Point 16-20 (FTE Salary: £35,624 - £37,790 per annum) (Actual Salary: £31,155 - £33,049 per annum) 40 weeks, 36 hours per week | Attendance Officer
 employer: Orion Eden Park
 closing_date: 2026-11-09T12:00:00+00:00
@@ -109,21 +64,6 @@ factual_fingerprint: 7c2f89b27d670140c1fef38dea56b1283b62da6a0d36f567189387a945b
 source: Teaching Vacancies
 source_job_id: attendance-officer-orion-eden-park
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-orion-eden-park
----
-
----
-action: 
-SELECTED | London | Barking, London, IG11 0FU | £27,803.00 Annually (Actual) 5.12 Support Scale Already Pro-Rata | Attendance Officer
-employer: Riverside Bridge School
-closing_date: 2026-11-03T23:59:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ab0b8336633321778a8685ae80808082ec05bc1983ddd6152172670eb1ca3cf5
-source: Teaching Vacancies
-source_job_id: attendance-officer-riverside-bridge-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-riverside-bridge-school
 ---
 
 ---
@@ -176,7 +116,7 @@ action:
 SELECTED | London | London, London, SW4 9ET | £29,438.00 - £29,438.00 Annually (Actual) | Office Administrator & Receptionist
 employer: The Elms Academy
 closing_date: 2026-11-02T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -191,7 +131,7 @@ action:
 SELECTED | London | Hayes, London, UB3 1JA | £23,878.00 - £24,220.00 Annually (Actual) | Receptionist & Administration Assistant
 employer: Lake Farm Park Academy
 closing_date: 2026-12-31T12:00:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -206,7 +146,7 @@ action:
 SELECTED | London | Chislehurst, London, BR7 6HE | £29,561 | Receptionist & Administrator
 employer: Chislehurst School for Girls
 closing_date: 2026-11-03T09:00:00+00:00
-reason: Clear admin/service title: administrator, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -221,7 +161,7 @@ action:
 SELECTED | London | London, London, SE3 7QR | £31,361.00 Annually (Actual) | Receptionist/Admin Assistant
 employer: The John Roan School
 closing_date: 2026-11-06T16:00:00+00:00
-reason: Clear admin/service title: admin assistant, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -236,7 +176,7 @@ action:
 SELECTED | London | Barking, London, IG11 9AG | £24,710.00 - £25,063.00 Annually (Actual) Scale 3 (Pt 5-6, £30,408-£30,843 full time) Prorated salary range is likely to be approx. £24,710 - £25,063, (dependant on experience, weeks per year and continuous service). Based on working 35 hours per week, Term time only | Receptionist/Administrative Assistant
 employer: Barking Abbey School, A Specialist Sports and Humanities College
 closing_date: 2026-11-02T08:00:00+00:00
-reason: Clear admin/service title: administrative assistant, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -340,6 +280,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-3fdfc
 
 ---
 action: 
+POSS | London | Woodford Green, London, IG8 0TX | £32,090 and £33,053 | Admin/Finance Officer
+employer: St Antony's Catholic Primary School
+closing_date: 2026-10-30T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e2de0358d04db0258bf045af099a57ffae469351ea4b296c65f9b6254aa8053c
+source: Teaching Vacancies
+source_job_id: admin-finance-officer-st-antony-s-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer-st-antony-s-catholic-primary-school
+---
+
+---
+action: 
 POSS | London | Beckenham, London, BR3 1RF | £30,843.00 - £32,655.00 Annually (FTE) | Administration Officer
 employer: Worsley Bridge Primary School
 closing_date: 2026-11-05T12:00:00+00:00
@@ -400,47 +355,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-POSS | London | London, London, E15 4LP | Scale 6 | Administrator
-employer: Sarah Bonnell School
-closing_date: 2026-10-30T23:59:00+00:00
+POSS | London | Barking, London, IG11 0FU | £27,803.00 Annually (Actual) 5.12 Support Scale Already Pro-Rata | Attendance Officer
+employer: Riverside Bridge School
+closing_date: 2026-11-03T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7a7ee914f211a39cab9c6b913c8713ef0faf03209864e3dd78878843b84020a3
+factual_fingerprint: ab0b8336633321778a8685ae80808082ec05bc1983ddd6152172670eb1ca3cf5
 source: Teaching Vacancies
-source_job_id: administrator-sarah-bonnell-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sarah-bonnell-school
----
-
----
-action: 
-POSS | London | Wembley, HA0 3NT | £100,000.00 - £110,000.00 Annually (Actual) Depending on skills and experience | Chief Financial & Operations Officer (CFOO)
-employer: Wembley Multi Academy Trust
-closing_date: 2026-11-16T10:00:00+00:00
-reason: Borderline school administration title: operations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 38c8e84b9438f675ee89e08531bde7e85b7911ceb86b97478a9d6074fdec2d84
-source: Teaching Vacancies
-source_job_id: chief-financial-operations-officer-cfoo
-source_url: https://teaching-vacancies.service.gov.uk/jobs/chief-financial-operations-officer-cfoo
----
-
----
-action: 
-POSS | London | Harrow, London, HA3 5RQ | £24,030.00 - £25,048.00 Annually (Actual) | Cover Supervisor Manager
-employer: Whitefriars School
-closing_date: 2026-11-09T23:59:00+00:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3cf2b4ff2bdfa48c45ca100714ab36e97e138709adfc37edd49d3625c6b39bba
-source: Teaching Vacancies
-source_job_id: cover-supervisor-manager-d381408a-aed2-44f0-8a2b-5602fd447ab9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-d381408a-aed2-44f0-8a2b-5602fd447ab9
+source_job_id: attendance-officer-riverside-bridge-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-riverside-bridge-school
 ---
 
 ---
@@ -490,17 +415,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administratio
 
 ---
 action: 
-POSS | London | Loughton, IG10 3HE | £22,841.00 - £27,511.00 Annually (Actual) | Governance Manager
-employer: Epping Forest Schools Partnership Trust
-closing_date: 2026-11-02T12:00:00+00:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
+POSS | London | Feltham, TW13 4AB | £30,867.00 - £35,158.00 Annually (FTE) (SA6) (pay award pending) | Finance Assistant
+employer: Reach Schools
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 3ed5028a1ad55ac64085488fd3884cd21ec25f525e88214bf27e1e393514448d
+factual_fingerprint: e8964bd470f9b65d1f5d7bf80f923d0b3e49d74ee678b5ae7f514a276f6ba939
 source: Teaching Vacancies
-source_job_id: governance-manager-epping-forest-schools-partnership-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-manager-epping-forest-schools-partnership-trust
+source_job_id: finance-assistant-reach-schools
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-reach-schools
+---
+
+---
+action: 
+POSS | London | Hayes, UB4 9LE | £31,288.00 - £32,655.00 Annually (Actual) | Finance Officer
+employer: Middlesex Learning Partnership
+closing_date: 2026-10-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 596876af05afed6388df9f84cfd85e0fc79e5564a09bf08094e939777091a9e0
+source: Teaching Vacancies
+source_job_id: finance-officer-middlesex-learning-partnership
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-middlesex-learning-partnership
 ---
 
 ---
@@ -614,50 +554,56 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 
 ## HARD_PASS
 
-- [Admin/Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer-st-antony-s-catholic-primary-school) — Insufficient admin/service evidence.
-- [Assistant Librarian](https://teaching-vacancies.service.gov.uk/jobs/assistant-librarian-davenant-foundation-school) — Insufficient admin/service evidence.
-- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-harris-lowe-academy-willesden) — Manager title salary ceiling £37,134 is not below £28,000.
-- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-the-totteridge-academy) — Manager title salary ceiling £40,000 is not below £28,000.
-- [Careers & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-work-experience-co-ordinator-davenant-foundation-school) — Insufficient admin/service evidence.
+- [Administrative Assistant with Finance Experience](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-finance-experience-john-ball-primary-school) — No usable numeric salary.
+- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-sarah-bonnell-school) — No usable numeric salary.
+- [Apprentice Administrator](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-the-john-roan-school) — No usable numeric salary.
+- [Assistant Librarian](https://teaching-vacancies.service.gov.uk/jobs/assistant-librarian-davenant-foundation-school) — No usable numeric salary.
+- [Attendance and Admissions Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-sarah-bonnell-school) — No usable numeric salary.
+- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-harris-lowe-academy-willesden) — Excluded senior/management title.
+- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-the-totteridge-academy) — Excluded senior/management title.
+- [Business Analyst](https://teaching-vacancies.service.gov.uk/jobs/business-analyst-new-city-college) — Salary over £50k.
+- [Careers & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-work-experience-co-ordinator-davenant-foundation-school) — No usable numeric salary.
 - [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-5bbd91b2-0afc-4796-b38f-b0811a522b87) — Insufficient admin/service evidence.
-- [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-3c160b52-7e72-4e61-ad20-18c3b7f99817) — Insufficient admin/service evidence.
-- [Communications and Collaboration Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-and-collaboration-lead) — Insufficient admin/service evidence.
-- [Contracts & Procurement Lead](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-lead-greenshaw-learning-trust) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-goresbrook-school) — Manager title salary ceiling £43,000 is not below £28,000.
-- [Deputy Exam Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-exam-officer) — Insufficient admin/service evidence.
-- [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Insufficient admin/service evidence.
+- [Chief Financial & Operations Officer (CFOO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-operations-officer-cfoo) — Excluded senior/management title.
+- [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-3c160b52-7e72-4e61-ad20-18c3b7f99817) — No usable numeric salary.
+- [Communications and Collaboration Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-and-collaboration-lead) — Excluded senior/management title.
+- [Contracts & Procurement Lead](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-lead-greenshaw-learning-trust) — Excluded senior/management title.
+- [Cover Supervisor Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-d381408a-aed2-44f0-8a2b-5602fd447ab9) — Excluded senior/management title.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-goresbrook-school) — Excluded senior/management title.
+- [Deputy Exam Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-exam-officer) — No usable numeric salary.
+- [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Excluded senior/management title.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal) — Out-of-scope occupation: principal.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-reach-schools) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-middlesex-learning-partnership) — Insufficient admin/service evidence.
-- [Head of Year](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-city-of-london-academy-highbury-grove) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
+- [Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/governance-manager-epping-forest-schools-partnership-trust) — Excluded senior/management title.
+- [Head of Year](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-city-of-london-academy-highbury-grove) — Excluded senior/management title.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-north-brent-school) — Out-of-scope occupation: teacher, headteacher.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-orchard-park-high-school-croydon-surrey) — Out-of-scope occupation: teacher, headteacher.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Insufficient admin/service evidence.
-- [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-royal-docks-academy-london) — Insufficient admin/service evidence.
-- [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover) — Manager title salary ceiling £49,212 is not below £28,000.
-- [HR, People and Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-and-culture-manager) — Manager title salary ceiling £52,800 is not below £28,000.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — No usable numeric salary.
+- [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-royal-docks-academy-london) — Excluded senior/management title.
+- [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover) — Excluded senior/management title.
+- [HR, People and Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-and-culture-manager) — Excluded senior/management title.
 - [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college) — Insufficient admin/service evidence.
-- [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Insufficient admin/service evidence.
-- [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools-netley-primary-school) — Manager title salary ceiling £41,000 is not below £28,000.
-- [Invigilators / Readers & Scribes](https://teaching-vacancies.service.gov.uk/jobs/invigilators-readers-scribes) — Insufficient admin/service evidence.
+- [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Excluded senior/management title.
+- [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools-netley-primary-school) — Excluded senior/management title.
+- [Invigilators / Readers & Scribes](https://teaching-vacancies.service.gov.uk/jobs/invigilators-readers-scribes) — No usable numeric salary.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-the-avenue-school) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-willowfield-school) — Manager title salary ceiling £40,575 is not below £28,000.
-- [Operations Manager - Havering Secondary Hub](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-havering-secondary-hub) — Manager title salary ceiling £60,390 is not below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-willowfield-school) — Excluded senior/management title.
+- [Operations Manager - Havering Secondary Hub](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-havering-secondary-hub) — Excluded senior/management title.
+- [Part Time Receptionist](https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-shacklewell-primary-school) — No usable numeric salary.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-girls-learning-trust) — Insufficient admin/service evidence.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-newbridge-school) — Insufficient admin/service evidence.
-- [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Insufficient admin/service evidence.
+- [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Excluded senior/management title.
 - [Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-assistant-langley-park-school-for-boys-beckenham-kent) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school) — Manager title salary ceiling £51,961 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hobbayne-primary-school-london) — Manager title salary ceiling £60,714 is not below £28,000.
-- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-whitehall-park-school) — Manager title salary ceiling £43,696 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hobbayne-primary-school-london) — Excluded senior/management title.
+- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-whitehall-park-school) — Excluded senior/management title.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-9fa464f8-e6a5-4f60-bac9-8d1c457a584c) — Insufficient admin/service evidence.
-- [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school-london) — Insufficient admin/service evidence.
-- [Senior Project Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-project-officer) — Insufficient admin/service evidence.
+- [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school-london) — Excluded senior/management title.
+- [Senior Project Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-project-officer) — Excluded senior/management title.
 - [Site Manager](https://teaching-vacancies.service.gov.uk/jobs/site-manager-hereward-primary-school-loughton-essex) — Out-of-scope occupation: site manager.
 - [Specialist Cover Coordinator](https://teaching-vacancies.service.gov.uk/jobs/specialist-cover-coordinator) — Insufficient admin/service evidence.
-- [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer-davenant-foundation-school) — Insufficient admin/service evidence.
+- [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer-davenant-foundation-school) — No usable numeric salary.
 - [Whole School Admissions and Transitions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/whole-school-admissions-and-transitions-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary

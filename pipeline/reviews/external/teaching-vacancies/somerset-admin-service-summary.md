@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-24
-review_fingerprint: e3332012838fd7bd971114e56cbd3098fdeb7ebe31e8b3c6e2a4bd541391df89
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 1bbf8c5fbfd5336bb3e80ac0d2c5e790de0270bb23bee03b3bab6c98c300ba80
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 3
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
 
@@ -34,36 +34,6 @@ factual_fingerprint: 6d4b8a20004d0deec0c14d63ff34c4df1c2b835ecd3339c9b84f7eef0b8
 source: Teaching Vacancies
 source_job_id: hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb
----
-
----
-action: 
-SELECTED | Somerset | Bridgwater, South West, TA6 6JB | BTCT Band 4 | SEND Administrator and Librarian
-employer: Hamp Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 43a5de8d7d16c5e9d1938a032f94c764d4443b5ff46059c9dc0dd60d6d85a6e7
-source: Teaching Vacancies
-source_job_id: send-administrator-and-librarian
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-and-librarian
----
-
----
-action: 
-SELECTED | Somerset | Weston-Super-Mare, South West, BS24 8BB | £25,835.02 | Senior Administrator
-employer: Locking Primary School
-closing_date: 2026-11-02T23:59:59+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e0e62db06ad9b4aa929d4c94589063806734b2171cb363fb028690152f764fdd
-source: Teaching Vacancies
-source_job_id: senior-administrator-locking-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-locking-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -90,12 +60,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 ## HARD_PASS
 
 - [Customer Service Representative](https://teaching-vacancies.service.gov.uk/jobs/customer-service-representative) — Insufficient admin/service evidence.
-- [Data Administrator & System Management Support](https://teaching-vacancies.service.gov.uk/jobs/data-administrator-system-management-support) — Missing salary or pay scale.
-- [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager-bridgwater-college-academy) — Manager title salary ceiling £34,582 is not below £28,000.
-- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Insufficient admin/service evidence.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-oak-partnership-trust) — Manager title without salary evidence below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-robert-blake-academy) — Manager title salary ceiling £30,868 is not below £28,000.
-- [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Insufficient admin/service evidence.
+- [Data Administrator & System Management Support](https://teaching-vacancies.service.gov.uk/jobs/data-administrator-system-management-support) — No usable numeric salary.
+- [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager-bridgwater-college-academy) — Excluded senior/management title.
+- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Excluded senior/management title.
+- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-oak-partnership-trust) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-robert-blake-academy) — Excluded senior/management title.
+- [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Excluded senior/management title.
+- [SEND Administrator and Librarian](https://teaching-vacancies.service.gov.uk/jobs/send-administrator-and-librarian) — No usable numeric salary.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-locking-primary-school) — Excluded senior/management title.
 - [Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/trust-clerk-c394aee1-d7ed-4c84-85d4-9c9175bf52c7) — Insufficient admin/service evidence.
 
 ## Safety boundary

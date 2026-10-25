@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-10-24
+review_date: 2026-10-25
 review_fingerprint: 11f9a4bb2d589453dbc4774f07d4fb8beb64ec5de5a5003b0e4cccc2908fc722
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -108,7 +108,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrat
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-radbrook-primary-school) — Insufficient admin/service evidence.
 - [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-meole-brace-church-of-england-primary-school-and-nursery) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-beech-grove-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-beech-grove-primary-school) — Excluded senior/management title.
 
 ## Safety boundary
 

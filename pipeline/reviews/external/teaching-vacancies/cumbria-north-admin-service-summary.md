@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - North
 
-review_date: 2026-10-24
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 64c345943a77ec691acffc9bfefaa5f59da8fd10472d81e2fefdfb0a9c2ed319
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Cumbria - North
 slice_category: admin_service
 slice_status: LIVE
@@ -14,14 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 2
-- Selected: 0
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Cumbria - North | Carlisle, North West, CA3 0BU | £36,581.00 Annually (FTE) Actual starting salary - £32,220 | Finance Officer
+employer: James Rennie School
+closing_date: 2026-11-13T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2e6c187c3602af4514d55d60e8c770dca724f70d844b55c034001fc830eac992
+source: Teaching Vacancies
+source_job_id: finance-officer-james-rennie-school-carlisle-cumbria
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-james-rennie-school-carlisle-cumbria
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -33,8 +46,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-james-rennie-school-carlisle-cumbria) — Insufficient admin/service evidence.
-- [Northern Hub Business Manager - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/northern-hub-business-manager-maternity-cover) — Manager title salary ceiling £56,975 is not below £28,000.
+- [Northern Hub Business Manager - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/northern-hub-business-manager-maternity-cover) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-24
-review_fingerprint: 267d5813d6c873501d3d54397ff22933edeb9ad954823081457785c31bcc6a4b
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: b276cece3423cb6c3cea895a547d9d43b25a676e846f6d841b5fbf7ecd912672
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -101,7 +101,7 @@ action:
 SELECTED | North East | Sunderland, North East, SR2 7JN | £8,016.00 - £8,142.00 Annually (Actual) £25,614 - £26,016 FTE. 2 days a week, Thursday and Friday. Pending outcome of job evaluation | Receptionist
 employer: St Anthony's Girls' Catholic Academy
 closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -134,16 +134,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-support-assist
 
 ## HARD_PASS
 
-- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields-south-shields-tyne-and-wear) — Insufficient admin/service evidence.
-- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth-sunderland) — Insufficient admin/service evidence.
-- [Head of People](https://teaching-vacancies.service.gov.uk/jobs/head-of-people-northern-lights-learning-trust) — Insufficient admin/service evidence.
+- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields-south-shields-tyne-and-wear) — Excluded senior/management title.
+- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth-sunderland) — Excluded senior/management title.
+- [Head of People](https://teaching-vacancies.service.gov.uk/jobs/head-of-people-northern-lights-learning-trust) — Excluded senior/management title.
 - [Hourly Paid Creative Industries Technician (2026/CS015)](https://teaching-vacancies.service.gov.uk/jobs/hourly-paid-creative-industries-technician-2026-cs015) — Out-of-scope occupation: technician.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
 - [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
 - [Part Time Creative Industries Technician (2026/CS014)](https://teaching-vacancies.service.gov.uk/jobs/part-time-creative-industries-technician-2026-cs014) — Out-of-scope occupation: technician.
 - [Pastoral Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-officer-febc3c65-3b62-4e66-a0de-9fa208cbd134) — Insufficient admin/service evidence.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-northern-lights-learning-trust) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grange-primary-school-hartlepool) — Manager title without salary evidence below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grange-primary-school-hartlepool) — Excluded senior/management title.
 
 ## Safety boundary
 

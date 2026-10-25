@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-24
-review_fingerprint: 1c695c92aceef8794ec6d63c85dcfac7ea8738261e06205a35f45b7f45341f9c
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: bf3d50231f293796ca5e9f1a4ace0deae3b6f717ba34f14322a88904683f9d59
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 11
 - Selected: 2
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -53,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Suffolk | Beccles, East of England, NR34 7BQ | £19,350- £22,735 actual pa | Finance Officer
+employer: Beccles High School
+closing_date: 2026-12-20T00:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: df0a1bf2719198612e34494b397c10a8080c3cab964f56de4ae8702adb4e0feb
+source: Teaching Vacancies
+source_job_id: finance-officer-beccles-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccles-high-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -64,12 +77,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-stradbroke-high-school-eye-suffolk) — Insufficient admin/service evidence.
 - [Admissions and Review Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-review-officer-eastern-education-group-trust-bury-st-edmunds-not-recorded) — Insufficient admin/service evidence.
 - [Admissions and Review Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-review-officer-stone-lodge-academy) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccles-high-school) — Insufficient admin/service evidence.
-- [Group Management Accounts Lead](https://teaching-vacancies.service.gov.uk/jobs/group-management-accounts-lead) — Insufficient admin/service evidence.
-- [Group Management Accounts Lead](https://teaching-vacancies.service.gov.uk/jobs/group-management-accounts-lead-eastern-education-group-trust) — Insufficient admin/service evidence.
-- [HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partnering) — Insufficient admin/service evidence.
-- [Office Manager/Business Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-business-manager) — Manager title salary ceiling £37,563 is not below £28,000.
-- [Trust Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-lead-unity-schools-partnership-haverhill-not-recorded) — Insufficient admin/service evidence.
+- [Group Management Accounts Lead](https://teaching-vacancies.service.gov.uk/jobs/group-management-accounts-lead) — Excluded senior/management title.
+- [Group Management Accounts Lead](https://teaching-vacancies.service.gov.uk/jobs/group-management-accounts-lead-eastern-education-group-trust) — Excluded senior/management title.
+- [HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partnering) — Salary over £50k.
+- [Office Manager/Business Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-business-manager) — Excluded senior/management title.
+- [Trust Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-lead-unity-schools-partnership-haverhill-not-recorded) — Excluded senior/management title.
 
 ## Safety boundary
 

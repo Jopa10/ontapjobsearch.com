@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Sefton
 
-review_date: 2026-10-24
+review_date: 2026-10-25
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Merseyside - Sefton
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -33,7 +33,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Head's PA](https://teaching-vacancies.service.gov.uk/jobs/head-s-pa-churchtown-primary-school-southport-merseyside) — Insufficient admin/service evidence.
+- [Head's PA](https://teaching-vacancies.service.gov.uk/jobs/head-s-pa-churchtown-primary-school-southport-merseyside) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-24
-review_fingerprint: 91791b6e1a4cec692da6ecc5d932e7d1b95146edc41866bd819031133033637a
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 37f7112b7f8465347ac15aa752afda578331040d8486b786042d1e3b60b16fa0
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 7
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | East Midlands | Ashby-De-La-Zouch, East Midlands, LE65 1DT | FTE £26.852 - £27.280 | Admin Assistant
-employer: Ashby School
-closing_date: 2026-11-09T09:00:59+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 43618b99a829fa837cc3273aa5e9039c8d3cd4ff803c140b7c579a1edd867dde
-source: Teaching Vacancies
-source_job_id: admin-assistant-160feac7-25e3-4305-b23e-7d8295d40b64
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-160feac7-25e3-4305-b23e-7d8295d40b64
----
 
 ---
 action: 
@@ -98,25 +83,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | East Midlands | Derby, East Midlands, DE21 4ET | 26,731.00 - 28,997.00 | Examinations Officer
-employer: Da Vinci Academy
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: examinations officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: a111846a6c167c1d779071acf7823be8b61b0d983d637df0159f15bd19c2a5c4
-source: Teaching Vacancies
-source_job_id: examinations-officer-da-vinci-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-da-vinci-academy
----
-
----
-action: 
 SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 8AZ | £26,427.00 Annually (FTE) Actual salary: Grade 3 (SCP 5) £15,505.88 per annum | Receptionist and Data Assistant
 employer: John Taylor High School
 closing_date: 2026-11-04T23:59:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
@@ -164,12 +134,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-lead
 
 ## HARD_PASS
 
+- [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-160feac7-25e3-4305-b23e-7d8295d40b64) — No usable numeric salary.
 - [Associate HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/associate-hr-business-partner-derby-college) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-chellaston-academy) — Manager title salary ceiling £35,155 is not below £28,000.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-chellaston-academy) — Excluded senior/management title.
 - [Education Health Care Plans and Annual Review Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/education-health-care-plans-and-annual-review-co-ordinator) — Insufficient admin/service evidence.
-- [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Manager title salary ceiling £32,488 is not below £28,000.
-- [Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-administration-assistant-1b11a0b9-fc3b-402e-84f1-2c7c938587f8) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-alban-s-catholic-voluntary-academy-derby-derbyshire) — Manager title salary ceiling £29,057 is not below £28,000.
+- [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-da-vinci-academy) — No usable numeric salary.
+- [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Excluded senior/management title.
+- [Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-administration-assistant-1b11a0b9-fc3b-402e-84f1-2c7c938587f8) — No usable numeric salary.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-alban-s-catholic-voluntary-academy-derby-derbyshire) — Excluded senior/management title.
 - [Peripatetic Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-administration-officer) — Insufficient admin/service evidence.
 - [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-alvaston-junior-academy-derby-derbyshire) — Insufficient admin/service evidence.
 

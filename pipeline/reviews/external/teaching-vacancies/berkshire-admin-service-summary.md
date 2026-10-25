@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-24
-review_fingerprint: 741e86db51dd604fbb78dd97a6cbb5b6d0c692805281705521ddeb728b8fcbd9
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 1fd71800c9a9b4939b7f4c773f69517a94e296aad72e277c864b5bb60563a8d5
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 22
-- Selected: 9
-- POSS awaiting decision: 1
+- Selected: 8
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 14
 
 ## SELECTED
 
@@ -101,7 +101,7 @@ action:
 SELECTED | Berkshire | Maidenhead, South East, SL6 1BN | £26,583.00 - £27,854.00 Annually (Actual) Salary: £26,583 - £27,854 (Actual), including Fringe, SCP 8-11. Term Time Only (including 5 INSET days), plus 3 weeks. Full-time, 37 hours per week | School Receptionist
 employer: Forest Bridge School
 closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -128,21 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-pastoral-administ
 
 ---
 action: 
-SELECTED | Berkshire | Wokingham, South East, RG41 5LP | £25,410.00 Annually (Actual) Grade 5, SCP 12-17 Term Time Only plus 5 INSET days. Plus SEN Allowance.£1,590 | Senior Administrator
-employer: Oak Tree School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eee1fad1e8a568bcd94b1997512aa9f31afad85e2972403eb0fad30e3ce366a5
-source: Teaching Vacancies
-source_job_id: senior-administrator-oak-tree-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-oak-tree-school
----
-
----
-action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
 employer: James Elliman Academy
 closing_date: 2026-12-31T23:59:00+00:00
@@ -158,20 +143,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Berkshire | Bracknell, South East, RG12 9DA | £15,347.00 - £22,545.00 Annually (Actual) BG-H 15-24 – depending on experience | Exams Manager (part time)
-employer: Ranelagh School
-closing_date: 2026-11-01T12:00:00+00:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9283a2cfa1879ccec3594baefe14995caaf12bbfcde6f54546e7f43974ce8732
-source: Teaching Vacancies
-source_job_id: exams-manager-part-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-manager-part-time
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -179,18 +151,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-manager-part-ti
 
 ## HARD_PASS
 
-- [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-7471be4d-6ccd-4ad2-a01e-6d444552a95a) — Insufficient admin/service evidence.
-- [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Insufficient admin/service evidence.
+- [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-7471be4d-6ccd-4ad2-a01e-6d444552a95a) — No usable numeric salary.
+- [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Excluded senior/management title.
+- [Exams Manager (part time)](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-part-time) — Excluded senior/management title.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer-bradfield-c-e-primary-school) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [HR Coordinator (part-time)](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-part-time) — Insufficient admin/service evidence.
 - [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-maiden-erlegh-school) — Out-of-scope occupation: technician.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-girls-school-slough) — Manager title salary ceiling £54,143 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-littledown-school) — Manager title salary ceiling £55,273 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shefford-c-e-primary-school) — Manager title salary ceiling £41,177 is not below £28,000.
-- [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-girls-school-slough) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-littledown-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shefford-c-e-primary-school) — Excluded senior/management title.
+- [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-oak-tree-school) — Excluded senior/management title.
 - [Site Controller](https://teaching-vacancies.service.gov.uk/jobs/site-controller-reading-school) — Insufficient admin/service evidence.
-- [Trust Solicitor](https://teaching-vacancies.service.gov.uk/jobs/trust-solicitor) — Insufficient admin/service evidence.
+- [Trust Solicitor](https://teaching-vacancies.service.gov.uk/jobs/trust-solicitor) — Salary over £50k.
 
 ## Safety boundary
 

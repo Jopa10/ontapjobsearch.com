@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-24
-review_fingerprint: 8b04dbfee65cf55ce1fd6f720448b040bfcdccc263d67c496b5457068c6c87f7
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: d8c9bd8ac3f3618c171a17282bd2aca3b0d03afb3d0cd9eaa21d7621772aa535
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -83,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-an
 
 ---
 action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S4 8GB | £25,989 FTE - actual salary £22,354 | Pastoral Administrator
-employer: Fir Vale Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
+SELECTED | Yorkshire - South | Sheffield, S9 1XU | Between £27,274 to £29,542 | Finance Assistant
+employer: Minerva Learning Trust
+closing_date: 2026-10-26T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 3662f484313426f927f7ee243d1c43557cbfa4702ba7ca136d95c25a5a7de02f
+factual_fingerprint: 74e67e42b33cc035dbb2fabea2422ba1d362f27bd13cdbae0fb0d5e84d139d81
 source: Teaching Vacancies
-source_job_id: pastoral-administrator-5c2b0244-981c-458c-9f42-f41ca8d990f8
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-5c2b0244-981c-458c-9f42-f41ca8d990f8
+source_job_id: finance-assistant-minerva-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-minerva-learning-trust
 ---
 
 ---
@@ -101,7 +101,7 @@ action:
 SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S20 1HQ | £26,427.00 - £26,847.00 Annually (FTE) Grade 3 SCP 5 to SCP 6 (Actual salary £22,729 - £23,091) | Receptionist
 employer: Westfield School
 closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -116,7 +116,7 @@ action:
 SELECTED | Yorkshire - South | Rotherham, S65 2JW | £22,971.00 - £23,336.00 Annually (Actual) Temporary with a view to Permanent | Receptionist & Admin Assistant
 employer: Willow Tree Academy
 closing_date: 2026-11-06T12:00:00+00:00
-reason: Clear admin/service title: admin assistant, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -194,22 +194,22 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-as
 
 ## HARD_PASS
 
-- [Administrative Office Manager](https://teaching-vacancies.service.gov.uk/jobs/administrative-office-manager-hcat) — Manager title salary ceiling £33,699 is not below £28,000.
-- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-peak-edge-sheffield-not-recorded) — Insufficient admin/service evidence.
+- [Administrative Office Manager](https://teaching-vacancies.service.gov.uk/jobs/administrative-office-manager-hcat) — Excluded senior/management title.
+- [Attendance & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-officer-watercliffe-meadow-community-primary-school) — Insufficient admin/service evidence.
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-peak-edge-sheffield-not-recorded) — Excluded senior/management title.
 - [Communication Support Worker](https://teaching-vacancies.service.gov.uk/jobs/communication-support-worker-the-sheffield-college) — Insufficient admin/service evidence.
 - [Employability Skills and Placement Officer - Sport and Public Services](https://teaching-vacancies.service.gov.uk/jobs/employability-skills-and-placement-officer-sport-and-public-services) — Insufficient admin/service evidence.
 - [Events Officer](https://teaching-vacancies.service.gov.uk/jobs/events-officer) — Insufficient admin/service evidence.
-- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-sir-thomas-wharton-academy) — Manager title salary ceiling £35,570 is not below £28,000.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-minerva-learning-trust) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-af25a6a1-1704-464a-aa02-94005bbeab49) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-minerva-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-ce12e672-834a-4926-ac88-d9b1ed0235b4) — Manager title salary ceiling £53,500 is not below £28,000.
+- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-sir-thomas-wharton-academy) — Excluded senior/management title.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-af25a6a1-1704-464a-aa02-94005bbeab49) — Salary over £50k.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-minerva-learning-trust-sheffield-not-recorded) — Salary over £50k.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-ce12e672-834a-4926-ac88-d9b1ed0235b4) — Excluded senior/management title.
 - [Inclusion Officer (Alternative Provision)](https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-alternative-provision-sir-thomas-wharton-academy) — Insufficient admin/service evidence.
-- [King's Trust Team Leader](https://teaching-vacancies.service.gov.uk/jobs/king-s-trust-team-leader) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-misson-primary-school) — Manager title salary ceiling £33,699 is not below £28,000.
-- [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner) — Insufficient admin/service evidence.
-- [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Manager title salary ceiling £58,557 is not below £28,000.
-- [Transactional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/transactional-finance-manager) — Manager title salary ceiling £53,051 is not below £28,000.
+- [King's Trust Team Leader](https://teaching-vacancies.service.gov.uk/jobs/king-s-trust-team-leader) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-misson-primary-school) — Excluded senior/management title.
+- [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner) — Salary over £50k.
+- [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Excluded senior/management title.
+- [Transactional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/transactional-finance-manager) — Excluded senior/management title.
 
 ## Safety boundary
 

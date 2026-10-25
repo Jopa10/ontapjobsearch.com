@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-10-24
-review_fingerprint: 0eae28713c5a9060e82a4499310d983cbdc4ca36629c2350d315f91d466e249f
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 2be25863b0c4c3627b7d950cf86d0bcdbb5616aaffb898fe6819dbada3cefc7a
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 3
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: administration-assistant-oldfleet-primary-school-hull
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-oldfleet-primary-school-hull
 ---
 
+---
+action: 
+SELECTED | Yorkshire - East | Cottingham, HU16 5PX | £27,709.00 - £28,608.00 Annually (FTE) Scale point 8-10 - Term time plus 10 days - Actual salary £24,851-£25,657 | Finance Assistant
+employer: The Consortium Academy Trust
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 16e61dd3e56f4fdbf9097a4fe86dcb7583190f6e9ac1c769d2e8139351c06392
+source: Teaching Vacancies
+source_job_id: finance-assistant-1aa789e7-40d1-40c1-97b4-f3cdd63664a9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-1aa789e7-40d1-40c1-97b4-f3cdd63664a9
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -89,8 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## HARD_PASS
 
-- [Finance and Admin Lead](https://teaching-vacancies.service.gov.uk/jobs/finance-and-admin-lead) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-1aa789e7-40d1-40c1-97b4-f3cdd63664a9) — Insufficient admin/service evidence.
+- [Finance and Admin Lead](https://teaching-vacancies.service.gov.uk/jobs/finance-and-admin-lead) — Excluded senior/management title.
 
 ## Safety boundary
 

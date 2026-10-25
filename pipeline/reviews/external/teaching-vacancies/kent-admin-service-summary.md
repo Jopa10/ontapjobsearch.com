@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-24
-review_fingerprint: 46ce1b0e7c245d5d7d2d6f90aaaf3ae4416d2e9a99d8d3e6ba2bc50d9850adaf
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: e88e2cccff7b2a71e3fb71931199573785286c82216e756e79f136e70be8b0e7
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 3
+- Selected: 2
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: d94ca71aeaebccecde6a91562d845a86806bea94e56793967492410e6fe
 source: Teaching Vacancies
 source_job_id: examinations-admissions-officer-waterfront-utc
 source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-admissions-officer-waterfront-utc
----
-
----
-action: 
-SELECTED | Kent | Tonbridge, South East, TN9 2DQ | £14,858.00 - £15,452.00 Annually (Actual) KSD (£27,904 - £29,020 FTE) | Senior Administrator
-employer: Royal Rise Primary School
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1c9e823a1b2ba0be9c084334962ff664a0a624bb3bf52e9a6e38ca205e13aa42
-source: Teaching Vacancies
-source_job_id: senior-administrator-royal-rise-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-royal-rise-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -134,12 +119,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/centre-administrator-
 
 ## HARD_PASS
 
-- [Attendance and Admissions Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-lead) — Insufficient admin/service evidence.
-- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-hillview-school-for-girls-tonbridge-kent) — Manager title salary ceiling £75,885 is not below £28,000.
+- [Attendance and Admissions Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-lead) — Excluded senior/management title.
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-hillview-school-for-girls-tonbridge-kent) — Excluded senior/management title.
 - [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy) — Insufficient admin/service evidence.
 - [Human Resources Apprentice](https://teaching-vacancies.service.gov.uk/jobs/human-resources-apprentice-the-howard-academy-trust) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-gregory-s-catholic-school) — Manager title salary ceiling £32,140 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-fisher-catholic-comprehensive-school) — Manager title salary ceiling £48,226 is not below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-gregory-s-catholic-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-fisher-catholic-comprehensive-school) — Excluded senior/management title.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-royal-rise-primary-school) — Excluded senior/management title.
 
 ## Safety boundary
 

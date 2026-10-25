@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-24
-review_fingerprint: c182058877238bd5f3224e6942dadcb1c2e0338c8bd28685ce331a8c7ffa7e73
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: dfbd8d9287d82faca9f931a428cc93733dbc1cea2586d12aca99ba5f8c173451
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -23,6 +23,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
+SELECTED | Hampshire | Portsmouth, South East, PO2 8RA | £26,427 - £27,274 per annum (actual salary for term time plus 3 weeks £24,343 - £25,123) | Administrator - The Harbour School
+employer: The Harbour School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1fdc5b734072970bae525f055364544b977e7e1bd25480bb2d584b38be5d6e1c
+source: Teaching Vacancies
+source_job_id: administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
+---
+
+---
+action: 
 SELECTED | Hampshire | Ringwood, South East, BH24 1SE | £27,937.00 - £30,843.00 Annually (FTE) Salary will be pro rated to term time, plus one week of INSET days | Attendance Officer
 employer: Ringwood School Academy
 closing_date: 2026-11-06T09:00:00+00:00
@@ -38,25 +53,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-66
 
 ---
 action: 
-SELECTED | Hampshire | Ringwood, South East, BH24 1SE | £27,937.00 - £30,843.00 Annually (FTE) Salary prorated for term time only working | Lead Receptionist
-employer: Ringwood School Academy
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 62add73f86f2693493edebbe7c4a6cf84883d010dd3bdd89589f79d16476a4e7
-source: Teaching Vacancies
-source_job_id: lead-receptionist-ringwood-school-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-receptionist-ringwood-school-academy
----
-
----
-action: 
 SELECTED | Hampshire | Portsmouth, South East, PO5 4LS | Band 3 Pt 2-5 £12,296-£12,853 - Actual (£24,482-£25,583 FTE) pending pay award | Part Time Receptionist/Administrator
 employer: Ark Ayrton Primary Academy
 closing_date: 2026-11-05T00:00:00+00:00
-reason: Clear admin/service title: administrator, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -105,13 +105,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-office
 ## HARD_PASS
 
 - [Access Arrangements Co-ordinator/Assessor](https://teaching-vacancies.service.gov.uk/jobs/access-arrangements-co-ordinator-assessor) — Insufficient admin/service evidence.
-- [Administration & Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-reception-assistant-cove-school-farnborough-hampshire) — Missing salary or pay scale.
+- [Administration & Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-reception-assistant-cove-school-farnborough-hampshire) — No usable numeric salary.
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-kanes-hill-primary-school) — Insufficient admin/service evidence.
-- [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — Missing salary or pay scale.
+- [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — No usable numeric salary.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-the-romsey-school) — Insufficient admin/service evidence.
-- [HR Advisor (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-fixed-term-king-s-group-academies) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-college-park-junior) — Manager title salary ceiling £37,562 is not below £28,000.
-- [People Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/people-operations-lead-king-s-group-academies) — Insufficient admin/service evidence.
+- [Lead Receptionist](https://teaching-vacancies.service.gov.uk/jobs/lead-receptionist-ringwood-school-academy) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-college-park-junior) — Excluded senior/management title.
+- [People Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/people-operations-lead-king-s-group-academies) — Excluded senior/management title.
 - [School Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-ced21b12-b7e9-4e93-8597-2177e96b09c9) — Insufficient admin/service evidence.
 
 ## Safety boundary

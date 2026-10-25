@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-24
-review_fingerprint: d5e1e5a7fb455e169bb7917a8e48302d697ea6898d2132aa295113b7fefe6718
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: e564e2f668ab59dae8081f9085dc90b8764ef8fce97d88f0a5eaa0b2dd5164ac
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 26
-- Selected: 11
-- POSS awaiting decision: 0
+- Selected: 10
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 15
 
@@ -34,21 +34,6 @@ factual_fingerprint: fa55814e94e2cd7588fa129cc1457f86713a7c645fe5df39f2390cb7e26
 source: Teaching Vacancies
 source_job_id: admin-assistant-buckhurst-hill-community-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-buckhurst-hill-community-primary-school
----
-
----
-action: 
-SELECTED | Essex | Benfleet, East of England, SS7 5RG | Scale 4 Point 8-9 | Admin Assistant
-employer: Jotmans Hall Primary School
-closing_date: 2026-10-28T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 192d45a19c278f2ba5b5b1de267e19f00a0c9f88a6339c307a448d1e0aa4f1b4
-source: Teaching Vacancies
-source_job_id: admin-assistant-jotmans-hall-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-jotmans-hall-primary-school
 ---
 
 ---
@@ -146,7 +131,7 @@ action:
 SELECTED | Essex | Leigh-on-Sea, East of England, SS9 5UU | £26,248.00 Annually (FTE) | Receptionist
 employer: The Eastwood Academy
 closing_date: 2026-10-26T12:00:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -161,7 +146,7 @@ action:
 SELECTED | Essex | Witham, East of England, CM8 1EP | £8299 - £8562 per annum | Receptionist (Student Services)
 employer: Lift Maltings
 closing_date: 2026-10-29T07:55:52+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -188,7 +173,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-a
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Essex | Rayleigh, SS6 9BZ | £13,583.00 - £14,255.00 Annually (Actual) Scale 5 Point 10 to 13 | Finance Assistant
+employer: Rayleigh Schools Trust
+closing_date: 2026-10-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 51eb4e65a94e543b46ce06cb8db11259ad629ce829e4a5c6c656006641bc0cc8
+source: Teaching Vacancies
+source_job_id: finance-assistant-rayleigh-schools-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-rayleigh-schools-trust
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -196,21 +194,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-a
 
 ## HARD_PASS
 
+- [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-jotmans-hall-primary-school) — No usable numeric salary.
 - [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services) — Out-of-scope occupation: deputy head.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-88731512-4f32-446c-b927-3ff9b578aae5) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-rayleigh-schools-trust) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-88731512-4f32-446c-b927-3ff9b578aae5) — No usable numeric salary.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador) — Insufficient admin/service evidence.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust-brentwood-not-recorded) — Insufficient admin/service evidence.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college-harlow-essex) — Insufficient admin/service evidence.
-- [Music Administrator](https://teaching-vacancies.service.gov.uk/jobs/music-administrator-colchester-royal-grammar-school) — Missing salary or pay scale.
-- [Operations Manager - Harwich](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-harwich) — Manager title salary ceiling £46,579 is not below £28,000.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust-brentwood-not-recorded) — Salary over £50k.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college-harlow-essex) — Salary over £50k.
+- [Music Administrator](https://teaching-vacancies.service.gov.uk/jobs/music-administrator-colchester-royal-grammar-school) — No usable numeric salary.
+- [Operations Manager - Harwich](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-harwich) — Excluded senior/management title.
 - [Pastoral Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-assistant-the-fitzwimarc-school) — Insufficient admin/service evidence.
 - [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-colne-community-school) — Insufficient admin/service evidence.
-- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-350f15ec-6ca7-47eb-90e2-1629046cf441) — Insufficient admin/service evidence.
-- [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-harris-academy-wickford) — Manager title salary ceiling £37,335 is not below £28,000.
-- [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-884963be-594a-40f8-a5c8-a9fbe6867b15) — Manager title without salary evidence below £28,000.
-- [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Manager title salary ceiling £33,495 is not below £28,000.
-- [Trust Data and MIS Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-and-mis-analyst) — Insufficient admin/service evidence.
+- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-350f15ec-6ca7-47eb-90e2-1629046cf441) — Excluded senior/management title.
+- [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-harris-academy-wickford) — Excluded senior/management title.
+- [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-884963be-594a-40f8-a5c8-a9fbe6867b15) — Excluded senior/management title.
+- [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Excluded senior/management title.
+- [Trust Data and MIS Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-and-mis-analyst) — No usable numeric salary.
 
 ## Safety boundary
 

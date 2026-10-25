@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-24
-review_fingerprint: cb5174576da698b86bededb30dea4cfc07190b165d1b2fb65c904dbdd3a90357
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 86dba2130ffc042810b687e5fc06eb8ee02da948d5e498dc2c0ca2518597c52c
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -56,7 +56,7 @@ action:
 SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
 employer: Braeburn Primary and Nursery Academy
 closing_date: 2026-10-30T12:00:00+00:00
-reason: Clear admin/service title: administrator, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -83,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £27,790.00 - £29,542.00 Annually (FTE) Please note this role is part year, working term time only for 39 weeks per year. The salary will be pro-rata to reflect hours / weeks worked | Senior Administrator
-employer: Braeburn Primary and Nursery Academy
-closing_date: 2026-10-30T12:00:00+00:00
+SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LW | £23,732.00 - £25,710.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £27,709 to £30,023 (Grade F, Scale Points 8-13) | SEND Administrator
+employer: George Pindar School
+closing_date: 2026-11-01T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 852b454c538931a64f1c281b628df343315882b4e7b12a5f3fc5f034e9c10009
+factual_fingerprint: c5333257d79c5c65e0b70cf015d971b29a1816ca73dd1d1402ad993f528d2172
 source: Teaching Vacancies
-source_job_id: senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
+source_job_id: send-administrator-george-pindar-school-scarborough
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-george-pindar-school-scarborough
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -134,11 +134,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-officer-ex
 
 ## HARD_PASS
 
-- [Exams Officer & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-manager-nidderdale-high-school) — Manager title salary ceiling £28,440 is not below £28,000.
-- [Hub Business Leader (Craven Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-craven-hub) — Insufficient admin/service evidence.
-- [Multi-Site School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/multi-site-school-business-manager) — Manager title salary ceiling £41,177 is not below £28,000.
+- [Exams Officer & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-manager-nidderdale-high-school) — Excluded senior/management title.
+- [Hub Business Leader (Craven Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-craven-hub) — Excluded senior/management title.
+- [Multi-Site School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/multi-site-school-business-manager) — Excluded senior/management title.
 - [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-8f1f1bf1-a960-4df0-918e-4da22ed5aa63) — Insufficient admin/service evidence.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075) — Excluded senior/management title.
 
 ## Safety boundary
 

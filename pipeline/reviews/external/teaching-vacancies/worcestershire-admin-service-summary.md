@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-24
-review_fingerprint: 7cd65316eb6fe98e091833e99c01ded73c7feb633c31aae057666feb86b073a8
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 3672f823a08593ca76c8102dba778c118aadf5ee28133219dc18c680461178f6
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-salfo
 
 ---
 action: 
-SELECTED | Worcestershire | Malvern, West Midlands, WR14 1QS | £13.70 - £13.92 Hourly | Office Administrator
-employer: Northleigh CofE Primary School
-closing_date: 2026-11-05T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
+SELECTED | Worcestershire | Worcester, West Midlands, WR4 9SG | £26,016.00 - £26,016.00 Annually (FTE) Actual pro rata salary for term time only and part time hours £21,710 per annum | Administrative Finance Assistant
+employer: Hollymount School
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d1a2619483e8e6164e8835d5fee630be07de444decfe9bf60c6cf0f4c07ebba2
+factual_fingerprint: f4402cdb09254c1212cfde47ef316bec6ea0e7db617e516c5567d74dbf0882e3
 source: Teaching Vacancies
-source_job_id: office-administrator-northleigh-cofe-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-northleigh-cofe-primary-school
+source_job_id: administrative-finance-assistant-hollymount-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-finance-assistant-hollymount-school
 ---
 
 ---
@@ -70,17 +70,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administra
 
 ---
 action: 
-POSS | Worcestershire | Worcester, West Midlands, WR4 9SG | £26,016.00 - £26,016.00 Annually (FTE) Actual pro rata salary for term time only and part time hours £21,710 per annum | Administrative Finance Assistant
-employer: Hollymount School
-closing_date: 2026-11-23T12:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+POSS | Worcestershire | Pershore, West Midlands, WR10 2ER | £21,938.00 Annually (FTE) SC4 | Finance Assistant
+employer: Pinvin CofE Academy
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f4402cdb09254c1212cfde47ef316bec6ea0e7db617e516c5567d74dbf0882e3
+factual_fingerprint: 288a591b61601ffd57d5e8fe5a8a9bb14c26d01ddf09072178f4fff0134c6275
 source: Teaching Vacancies
-source_job_id: administrative-finance-assistant-hollymount-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-finance-assistant-hollymount-school
+source_job_id: finance-assistant-pinvin-cofe-academy-pershore-worcestershire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pinvin-cofe-academy-pershore-worcestershire
 ---
 
 ---
@@ -105,9 +105,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 ## HARD_PASS
 
 - [Admin Officer (maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-maternity-cover) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pinvin-cofe-academy-pershore-worcestershire) — Insufficient admin/service evidence.
-- [Governance and Projects Professional](https://teaching-vacancies.service.gov.uk/jobs/governance-and-projects-professional) — Insufficient admin/service evidence.
-- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-king-charles-i-school) — Manager title salary ceiling £58,832 is not below £28,000.
+- [Governance and Projects Professional](https://teaching-vacancies.service.gov.uk/jobs/governance-and-projects-professional) — No usable numeric salary.
+- [Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/office-administrator-northleigh-cofe-primary-school) — No usable numeric salary.
+- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-king-charles-i-school) — Excluded senior/management title.
 
 ## Safety boundary
 

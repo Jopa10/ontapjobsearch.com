@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-10-24
-review_fingerprint: 1660dc73b3f471eed55ea8cfb46fcab02ff635d0e56131997e5ef847af5f49e7
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 768249aba7e5f46d0c66d054fda5d456d9eabbc28fd4d2ff567df98c63e70288
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,49 +14,19 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 3
-- POSS awaiting decision: 1
+- Selected: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands | Newcastle Under Lyme, West Midlands, ST5 2QS | £23,174.00 Annually (Actual) Temporary contract until 31.8.27 | Administration Assistant for the Senior Leadership Team
-employer: Newcastle Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 4fdae23db5a044c78d65652de10b356d2c2639a067614ce4d32894f5c03ffd45
-source: Teaching Vacancies
-source_job_id: administration-assistant-for-the-senior-leadership-team
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-for-the-senior-leadership-team
----
-
----
-action: 
-SELECTED | West Midlands | West Midlands, SY7 8AU | £14.36 - £15.07 Hourly Grade 6, SCP 8 - SCP 11 | Administrator
-employer: Lydbury North Church of England Primary School
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: c3c8d610003f8a228bae0d20c9f2049aba03ff926982dab9eb54190354d498b9
-source: Teaching Vacancies
-source_job_id: administrator-lydbury-north-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-lydbury-north-church-of-england-primary-school
----
 
 ---
 action: 
 SELECTED | West Midlands | Wythall, West Midlands, B47 5JW | £26,427.00 - £26,427.00 Annually (FTE) Actual pro rata salary up to £22,731 per annum | Receptionist and Administration Assistant
 employer: Woodrush High School
 closing_date: 2026-11-07T10:00:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
@@ -68,20 +38,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | West Midlands | Newcastle Under Lyme, West Midlands, ST5 2TA | £25,758.00 - £27,480.00 Annually (Actual) | Office Manager
-employer: St Mary's Catholic Primary School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 892f98bd8f33e9c04d576171100a9a98b0ef00bcddefeb8fd1e66415bb60eac6
-source: Teaching Vacancies
-source_job_id: office-manager-st-mary-s-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mary-s-catholic-primary-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -89,7 +46,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mar
 
 ## HARD_PASS
 
+- [Administration Assistant for the Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-for-the-senior-leadership-team) — Excluded senior/management title.
+- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-lydbury-north-church-of-england-primary-school) — No usable numeric salary.
 - [Clerical Assistant - General Level 2](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-general-level-2-james-bateman-middle-school-biddulph-staffordshire) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mary-s-catholic-primary-school) — Excluded senior/management title.
 
 ## Safety boundary
 

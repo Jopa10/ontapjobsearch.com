@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-10-24
-review_fingerprint: 0005e861139778d02ee2738bdcc9d863e514dfbe8f242f522427fc31205df8c7
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 44a259289603644eea2fb53181c0fac9042c72ecdc368d00c2728557b883e131
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -56,7 +56,7 @@ action:
 SELECTED | Dorset | Ferndown, South West, BH22 9UP | £26,427 per annum | Receptionist & Admin Assistant
 employer: Ferndown Middle School
 closing_date: 2026-11-01T09:00:00+00:00
-reason: Clear admin/service title: admin assistant, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -77,7 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 ## HARD_PASS
 
 - [Exam Officer - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/exam-officer-maternity-cover-st-aldhelm-s-academy-poole-dorset) — Insufficient admin/service evidence.
-- [Pastoral Manager – Ferndown Middle School](https://teaching-vacancies.service.gov.uk/jobs/pastoral-manager-ferndown-middle-school) — Manager title salary ceiling £32,046 is not below £28,000.
+- [Pastoral Manager – Ferndown Middle School](https://teaching-vacancies.service.gov.uk/jobs/pastoral-manager-ferndown-middle-school) — Excluded senior/management title.
 
 ## Safety boundary
 

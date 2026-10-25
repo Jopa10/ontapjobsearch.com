@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-24
-review_fingerprint: 3732c55375e3e3bc7082b728bcdccf7f268840cfc5f4c36993c8a8d5399c0cd2
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 6690b171a9e0a8f246d5811bc714530558cea92308d7424823771dfebb328c2b
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 2
-- POSS awaiting decision: 2
+- Selected: 1
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -36,37 +36,7 @@ source_job_id: first-aid-administrator-newquay-tretherras
 source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aid-administrator-newquay-tretherras
 ---
 
----
-action: 
-SELECTED | Cornwall | Redruth, South West, TR15 3PZ | £13.45 Hourly Term Time, Grade B | General Administrator & Receptionist
-employer: Pool Academy
-closing_date: 2026-11-03T09:00:00+00:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1bcd8d066a1bb95d06930fbd3068491be2524b8cc7a966447f2090564d419252
-source: Teaching Vacancies
-source_job_id: general-administrator-receptionist
-source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-receptionist
----
-
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Cornwall | Penzance, South West, TR19 7JU | 15,886.74 | Administrator
-employer: St Just Primary School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b088dfea4e8ccc6bc75a5da35eab46262950a0386a764214cff1a278944d2ba2
-source: Teaching Vacancies
-source_job_id: administrator-st-just-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-just-primary-school
----
 
 ---
 action: 
@@ -89,9 +59,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
-- [Administrative & Educational Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-educational-support-assistant-launceston-primary-school) — Insufficient admin/service evidence.
-- [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-98013a7b-abcb-49b9-bc24-0e68d6997ce9) — Insufficient admin/service evidence.
-- [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — Insufficient admin/service evidence.
+- [Administrative & Educational Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-educational-support-assistant-launceston-primary-school) — No usable numeric salary.
+- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-st-just-primary-school) — No usable numeric salary.
+- [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-98013a7b-abcb-49b9-bc24-0e68d6997ce9) — No usable numeric salary.
+- [General Administrator & Receptionist](https://teaching-vacancies.service.gov.uk/jobs/general-administrator-receptionist) — No usable numeric salary.
+- [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — No usable numeric salary.
 - [Nursery Assistant](https://teaching-vacancies.service.gov.uk/jobs/nursery-assistant-aspire-academy-trust-st-austell-not-recorded) — Out-of-scope occupation: nurse.
 
 ## Safety boundary

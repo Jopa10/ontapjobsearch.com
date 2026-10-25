@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-24
-review_fingerprint: 196a1f876aaefae64a289c5ffbb63a9a37293bf5a231308271153995b3c28b87
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 9a753ee04d8bd984330dff3208656c962aa6c067944a8ffbb579003ecd8d63c6
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 19
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/content-creator-and-a
 
 ---
 action: 
+SELECTED | Northamptonshire | Kettering, East Midlands, NN15 6BJ | £26,427.00 - £26,846.00 Annually (FTE) | Finance Officer
+employer: Bishop Stopford School
+closing_date: 2026-10-26T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2049337fb7ec68520da31087a6c9cee67c7777a5d9dc8fa6acfd7704a8581188
+source: Teaching Vacancies
+source_job_id: finance-officer-bishop-stopford-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-stopford-school
+---
+
+---
+action: 
 SELECTED | Northamptonshire | Northampton, East Midlands, NN3 6HT | £26,016.00 Annually (FTE) Grade E Scale point 4 | School Administrator - SLT Support
 employer: St Thomas Becket Catholic School
 closing_date: 2026-10-27T12:00:00+00:00
@@ -86,7 +101,7 @@ action:
 SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7TR | £25,614.00 Annually (FTE) | School Receptionist
 employer: Northampton School
 closing_date: 2026-11-05T09:00:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -152,14 +167,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administra
 - [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-abbeyfield-school) — Insufficient admin/service evidence.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-dslv-e-act-academy-daventry-northamptonshire) — Insufficient admin/service evidence.
 - [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant-greenfields-specialist-school-for-communication-northampton-northamptonshire) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-stopford-school) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-weavers-academy) — Insufficient admin/service evidence.
-- [Invigilator](https://teaching-vacancies.service.gov.uk/jobs/invigilator-corby-business-academy) — Insufficient admin/service evidence.
-- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-creating-tomorrow-multi-academy-trust-kettering-not-recorded) — Insufficient admin/service evidence.
+- [Invigilator](https://teaching-vacancies.service.gov.uk/jobs/invigilator-corby-business-academy) — No usable numeric salary.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-creating-tomorrow-multi-academy-trust-kettering-not-recorded) — Salary over £50k.
 - [Northampton Business Partner](https://teaching-vacancies.service.gov.uk/jobs/northampton-business-partner-the-abbey-primary-school) — Insufficient admin/service evidence.
-- [Part time TLT HR Manager](https://teaching-vacancies.service.gov.uk/jobs/part-time-tlt-hr-manager) — Manager title salary ceiling £61,001 is not below £28,000.
+- [Part time TLT HR Manager](https://teaching-vacancies.service.gov.uk/jobs/part-time-tlt-hr-manager) — Excluded senior/management title.
 - [Reprographics and Resource Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-resource-assistant-maternity-cover) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-gloucester-nursery-school) — Manager title salary ceiling £38,510 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-gloucester-nursery-school) — Excluded senior/management title.
 
 ## Safety boundary
 

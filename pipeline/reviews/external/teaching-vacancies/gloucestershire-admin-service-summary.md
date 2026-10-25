@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-10-24
-review_fingerprint: 9d56c4c4c32d94cf5ea2e649a6397d9f5802ea90e55694c159c169d907b4e4a8
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: b8b3eb20df92de3ff092585bf9886f5b7d11ff4be8b8a95e005fb54460fefa7b
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 5
 - Selected: 2
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -26,7 +26,7 @@ action:
 SELECTED | Gloucestershire | Gloucester, South West, GL3 4QF | £8,464.32 - £8,871.56 Annually (Actual) | Part Time Receptionist
 employer: Henley Bank High School
 closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -53,20 +53,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trips-lettings-paymen
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Gloucestershire | Tewkesbury, South West, GL20 5SW | £20.00 - £30.00 Hourly Estimated total hours of 130 annually. Hourly rates depending on experience, invoiced for work undertaken | Governance Professional / Clerk to the Trust Board
-employer: Abbey View
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 089cd234dca5c6be7ea2454ed3a249d4bfa8a39deb6a9ca5ec8b9d2cf529056b
-source: Teaching Vacancies
-source_job_id: governance-professional-clerk-to-the-trust-board
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-to-the-trust-board
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -74,8 +61,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-chosen-hill-school) — Manager title without salary evidence below £28,000.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-chosen-hill-school) — Excluded senior/management title.
 - [Finance Officer - Accounting Technician](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-accounting-technician) — Out-of-scope occupation: technician.
+- [Governance Professional / Clerk to the Trust Board](https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-to-the-trust-board) — No usable numeric salary.
 
 ## Safety boundary
 

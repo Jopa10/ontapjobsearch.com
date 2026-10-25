@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-24
-review_fingerprint: 5751a3f624867758344d5e8a18cba9ff45a8864798e0ec1cfe1ee871e859cbbe
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: f041f929c298192200ab7e29bdc296128790c5e2f2ac1b744329f7126900f23b
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 9
-- Selected: 5
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: cc5400c0e0c8c825803062a2014512695c5bc17ce21c0ccf680e919a3f8
 source: Teaching Vacancies
 source_job_id: administrative-assistant-finham-park-2
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-finham-park-2
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV6 4GF | National Apprenticeship Wage | APPRENTICE ADMINISTRATOR/RECEPTIONIST – PARKGATE PRIMARY SCHOOL
-employer: Parkgate Primary School
-closing_date: 2026-11-09T23:59:00+00:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3077c3cafbb7a733cf88bd71b702a8dcc468bba0ff67478db53bb287b5f8e853
-source: Teaching Vacancies
-source_job_id: apprentice-administrator-receptionist-parkgate-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-receptionist-parkgate-primary-school
 ---
 
 ---
@@ -71,7 +56,7 @@ action:
 SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 5BD | Actual salary £22,576 – £23,667 | Receptionist and Administrative Assistant to the Deputy Headteachers
 employer: Caludon Castle School
 closing_date: 2026-11-01T23:59:59+00:00
-reason: Clear admin/service title: administrative assistant, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -86,7 +71,7 @@ action:
 SELECTED | West Midlands - Coventry & Warwickshire | Kenilworth, West Midlands, CV8 2AL | £8,672.00 - £8,809.00 Annually (Actual) Band E points 5-6 | Receptionist and Administrator (2 days per week)
 employer: Kenilworth School and Sixth Form
 closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -119,9 +104,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/echp-administrator
 
 ## HARD_PASS
 
+- [APPRENTICE ADMINISTRATOR/RECEPTIONIST – PARKGATE PRIMARY SCHOOL](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-receptionist-parkgate-primary-school) — No usable numeric salary.
 - [Examinations, Data & Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-data-access-arrangements-coordinator) — Insufficient admin/service evidence.
-- [Marketing Manager](https://teaching-vacancies.service.gov.uk/jobs/marketing-manager-stratford-upon-avon-school) — Manager title salary ceiling £38,510 is not below £28,000.
-- [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator-kenilworth-multi-academy-trust) — Insufficient admin/service evidence.
+- [Marketing Manager](https://teaching-vacancies.service.gov.uk/jobs/marketing-manager-stratford-upon-avon-school) — Excluded senior/management title.
+- [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator-kenilworth-multi-academy-trust) — Excluded senior/management title.
 
 ## Safety boundary
 

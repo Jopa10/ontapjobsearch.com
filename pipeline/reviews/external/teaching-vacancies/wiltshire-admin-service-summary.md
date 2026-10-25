@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-24
-review_fingerprint: a6c93f1d09b01fd7cc08b89078fdd362e3bda6986eef8da9125cfe83396fe1bc
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: bca431e99aebfa33f32fd07d547ac0155ff6610c97b20a4a37613c9cd400202c
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 15
 - Selected: 9
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -71,7 +71,7 @@ action:
 SELECTED | Wiltshire | Swindon, South West, SN2 1JR | £12,931.00 Annually (Actual) | Part-Time Receptionist (Mat Cover 12 months FTC)
 employer: Swindon Academy
 closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -131,7 +131,7 @@ action:
 SELECTED | Wiltshire | Salisbury, South West, SP1 3JJ | Scale 4, NJC 7-11 £27,274 – £29,070 FTE | Receptionist & First Aider
 employer: South Wilts Grammar School
 closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -173,31 +173,17 @@ source_job_id: clerk-to-governors-gomeldon-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gomeldon-primary-school
 ---
 
----
-action: 
-POSS | Wiltshire | Swindon, SN4 9DL | £14.20 - £15.90 Hourly | Clerk to Governors
-employer: Grove Learning Trust
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Borderline school administration title: clerk to governors
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d6b76d8c6ab94f0047d6a510e97562ae3f71743ed93563be50c85967c7b1570e
-source: Teaching Vacancies
-source_job_id: clerk-to-governors-grove-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-grove-learning-trust
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-diocese-of-salisbury-academy-trust) — Insufficient admin/service evidence.
+- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-diocese-of-salisbury-academy-trust) — Excluded senior/management title.
+- [Clerk to Governors](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-grove-learning-trust) — No usable numeric salary.
 - [HLTA Behaviour and Inclusion](https://teaching-vacancies.service.gov.uk/jobs/hlta-behaviour-and-inclusion-lawn-manor-academy) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-4c722adb-c7a9-4af5-b8d5-bf00527c02c0) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-william-morris-primary-school-swindon-wiltshire) — Manager title salary ceiling £46,185 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-william-morris-primary-school-swindon-wiltshire) — Excluded senior/management title.
 
 ## Safety boundary
 

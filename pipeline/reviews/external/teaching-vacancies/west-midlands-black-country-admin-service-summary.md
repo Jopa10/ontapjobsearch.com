@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-24
-review_fingerprint: 8c1f87b8bb59715d325a15b02988dbe5dd043eb2ff85b192a9c4cc665a9dd7a0
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 35f6a53c9b7cdb6ba245fa2efb4f4c93324ec3c6bf818493518f4b24e14a1911
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 5
+- Records: 12
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: f3b595cbfcc358aaada7b3c2b35d1d412b4b7368096c534af16efb24a62
 source: Teaching Vacancies
 source_job_id: administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75
----
-
----
-action: 
-SELECTED | West Midlands - Black Country | Halesowen, West Midlands, B63 4HY | £22,812.00 - £22,812.00 Monthly | Administration Assistant - Level 2
-employer: Huntingtree Primary School
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3630c7495dbe67f9e4a92f7bb53bec6186579b7470cffb85c0c1acdedec43e97
-source: Teaching Vacancies
-source_job_id: administration-assistant-level-2-huntingtree-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-huntingtree-primary-school
 ---
 
 ---
@@ -81,36 +66,21 @@ source_job_id: pastoral-admin-assistant-wolverhampton-girls-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-assistant-wolverhampton-girls-high-school
 ---
 
----
-action: 
-SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B69 4DE | £28,153.00 - £34,811.00 Annually (FTE) | Senior Administrative Assistant
-employer: Christ Church Church of England Primary School
-closing_date: 2026-11-03T12:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 926386e989c9e233d403892175f36ac0944cb3616468852a8d3e910a172112a9
-source: Teaching Vacancies
-source_job_id: senior-administrative-assistant-christ-church-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-assistant-christ-church-church-of-england-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | West Midlands - Black Country | Walsall, West Midlands, WS9 0RF | £28,523.00 - £28,523.00 Annually (FTE) Starting Salary: £25,162.69 (FTE £28,523.00) | Head of House PA
-employer: Barr Beacon School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Administrative duties evidenced in description
+POSS | West Midlands - Black Country | Halesowen, West Midlands, B63 4HY | £22,812.00 - £22,812.00 Monthly | Administration Assistant - Level 2
+employer: Huntingtree Primary School
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Salary period needs verification
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c001182029ed330155d8e361fddc07a18c5e6dd40971971e663fa001f4add104
+factual_fingerprint: 3630c7495dbe67f9e4a92f7bb53bec6186579b7470cffb85c0c1acdedec43e97
 source: Teaching Vacancies
-source_job_id: head-of-house-pa-8bc41336-6d4d-41f2-ab57-9bedabaa8422
-source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-8bc41336-6d4d-41f2-ab57-9bedabaa8422
+source_job_id: administration-assistant-level-2-huntingtree-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-huntingtree-primary-school
 ---
 
 ## EXCLUDED BY REVIEW
@@ -120,11 +90,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-8bc4
 ## HARD_PASS
 
 - [Educational Visits & DofE Support Officer](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-dofe-support-officer) — Insufficient admin/service evidence.
-- [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — Insufficient admin/service evidence.
-- [Head of Estates and Capital Strategy](https://teaching-vacancies.service.gov.uk/jobs/head-of-estates-and-capital-strategy) — Insufficient admin/service evidence.
+- [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — No usable numeric salary.
+- [Head of House PA](https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-8bc41336-6d4d-41f2-ab57-9bedabaa8422) — Excluded senior/management title.
 - [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-highfields-school) — Insufficient admin/service evidence.
 - [Procurement & Bid Writer](https://teaching-vacancies.service.gov.uk/jobs/procurement-bid-writer) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school) — Manager title without salary evidence below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school) — Excluded senior/management title.
+- [Senior Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-assistant-christ-church-church-of-england-primary-school) — Excluded senior/management title.
 - [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-09678cb0-aa80-498a-9526-d1d6da59db60) — Insufficient admin/service evidence.
 
 ## Safety boundary

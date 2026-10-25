@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-24
-review_fingerprint: c3fc697744adb605cd45fc6a4bc1bb66f0670a3d0f9e9cc7830069d33a802973
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 20fc669b3f572d243aa4b20aaee6ab283adf096533cdaced15ac6aacc055c49c
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 4
-- Selected: 1
+- Selected: 0
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
----
-action: 
-SELECTED | Sussex | Bexhill-on-Sea, South East, TN40 1SE | Single Status Grade 7 | Business Administrator - Finance
-employer: St Richard's Catholic College
-closing_date: 2026-11-13T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9a65b3666ad79bb0985853c60dc64a615f0e62af4ca1a7328122521a4903ec11
-source: Teaching Vacancies
-source_job_id: business-administrator-finance-st-richard-s-catholic-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-finance-st-richard-s-catholic-college
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -74,7 +61,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 
 ## HARD_PASS
 
-- [Cover Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-felpham-community-college) — Missing salary or pay scale.
+- [Business Administrator - Finance](https://teaching-vacancies.service.gov.uk/jobs/business-administrator-finance-st-richard-s-catholic-college) — No usable numeric salary.
+- [Cover Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-felpham-community-college) — No usable numeric salary.
 
 ## Safety boundary
 

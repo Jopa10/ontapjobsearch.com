@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Wirral
 
-review_date: 2026-10-24
-review_fingerprint: 2850ff753a7716ac528d363ad65d9304efe6acc233d62c7c25b842b7289920a6
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 30f5f538acefa0758b5c09d56dc6045420d01736eee6d195b2071cf137890ec8
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Merseyside - Wirral
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 2
-- Selected: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -36,21 +36,6 @@ source_job_id: attendance-officer-a53c84db-c3a3-4c48-8fc0-108a2d6c41cf
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-a53c84db-c3a3-4c48-8fc0-108a2d6c41cf
 ---
 
----
-action: 
-SELECTED | Merseyside - Wirral | Birkenhead, North West, CH43 4UY | Grade 5 , SCP 9 – 11 - £22,296 - £23,023 actual (£28,153 - £29,071 FTE) | PA to Senior Leadership Team
-employer: Birkenhead Park School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: fd7eb7fcb0873c8a4338843f0a883388a088b01b49afc71ca7dd9a2b74db5d12
-source: Teaching Vacancies
-source_job_id: pa-to-senior-leadership-team-birkenhead-park-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-senior-leadership-team-birkenhead-park-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -61,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-senior-leadersh
 
 ## HARD_PASS
 
-- None.
+- [PA to Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-senior-leadership-team-birkenhead-park-school) — Excluded senior/management title.
 
 ## Safety boundary
 

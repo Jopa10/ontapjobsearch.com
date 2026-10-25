@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-24
-review_fingerprint: bd2933a09b3040d606fb4395651d6257555e9adc10b2ad8debe8797b8ba2287d
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 1d7a57be7af665d9f16059d6b394b3f0a45b57bceaf99d9bf848dcf70f5d2461
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | North East - Tees Valley | Billingham, North East, TS23 3LH | Grade D, SCP 4 | Administration Assistant
-employer: Bewley Primary School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 7ad8e6e3614b561f46333ed4d73cb21cc0768af42eb9390089bf7514e0db559e
-source: Teaching Vacancies
-source_job_id: administration-assistant-bewley-primary-school-billingham-cleveland
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bewley-primary-school-billingham-cleveland
----
 
 ---
 action: 
@@ -66,21 +51,6 @@ source_job_id: business-support-officer-st-alphonsus-catholic-primary-school-mid
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-st-alphonsus-catholic-primary-school-middlesbrough-cleveland
 ---
 
----
-action: 
-SELECTED | North East - Tees Valley | Saltburn By the Sea, North East, TS12 1HJ | £30,081 to £32,332 | PA to Head of School
-employer: Huntcliff School
-closing_date: 2026-11-06T09:00:00+00:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 8a1250323ba361ee4b5bde893fddaa2a2270c4fa94cb404d089601d46abf4b29
-source: Teaching Vacancies
-source_job_id: pa-to-head-of-school-huntcliff-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-huntcliff-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -91,7 +61,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-
 
 ## HARD_PASS
 
+- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bewley-primary-school-billingham-cleveland) — No usable numeric salary.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-9169c182-8090-4a33-85b8-e9004b9ea0d1) — Insufficient admin/service evidence.
+- [PA to Head of School](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-huntcliff-school) — Excluded senior/management title.
 - [School Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-operations-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary

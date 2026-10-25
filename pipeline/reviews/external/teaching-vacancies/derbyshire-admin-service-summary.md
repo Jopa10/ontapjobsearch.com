@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-24
-review_fingerprint: e4e89912884d92d32182204a145c3922abf3b06ead3ec835effbaf618dd4dd73
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 25bc572a50af61efaca467c6e4bcff95ddb501460e3149d1239636d82c838fe1
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -26,7 +26,7 @@ action:
 SELECTED | Derbyshire | Hope Valley, East Midlands, S33 6SD | £26,427.00 - £26,847.00 Annually (FTE) Actual Salary £13,823 to £14,043 | Receptionist
 employer: Hope Valley College
 closing_date: 2026-11-02T23:59:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -75,8 +75,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assis
 ## HARD_PASS
 
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-hasland-hall) — Insufficient admin/service evidence.
-- [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-anthony-gell-school) — Manager title salary ceiling £32,737 is not below £28,000.
-- [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-brookfield-community-school) — Manager title without salary evidence below £28,000.
+- [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-anthony-gell-school) — Excluded senior/management title.
+- [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-brookfield-community-school) — Excluded senior/management title.
 
 ## Safety boundary
 

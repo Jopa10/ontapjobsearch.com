@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-24
-review_fingerprint: 212233277ac4f99709911b6622fcd30c4c6bd57d934d8203f595ddf50f38ed3f
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 965df5d1ceacde5f8bd3fa5d61d6aed56a02ab420e49272c8b822f96d8e28ddf
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 5
-- POSS awaiting decision: 2
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -26,7 +26,7 @@ action:
 SELECTED | Hertfordshire | Waltham Cross, East of England, EN7 5QW | Actual Salary - £23,351 - £24,443 | Admin Officer - Receptionist
 employer: Goffs Academy
 closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Hertfordshire | Hertford, East of England, SG13 8AJ | H3-H4 | Receptionist/Administrator
-employer: Simon Balle All-Through School
-closing_date: 2026-11-05T09:00:00+00:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a39c992a31f0dbd4ef8ffb36bf9221eacd8910c7ad041aaf08a8d02bdd8f9316
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-simon-balle-all-through-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school
----
-
----
-action: 
 SELECTED | Hertfordshire | Hatfield, East of England, AL9 7BN | £26,847.00 - £28,153.00 Annually (FTE) Actual Salary including fringe allowance £23,608.70 per annum | SEND Administrator
 employer: Chancellor's School
 closing_date: 2026-11-02T09:00:00+00:00
@@ -97,21 +82,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ch
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Hertfordshire | Hoddesdon, East of England, EN11 8JY | £27,000.00 Annually (Actual) H6 + Fringe | Deputy Office Manager
-employer: Robert Barclay Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 012a0ff4bbecf58e123884c3e7fa7b02f61542c84b3d4107c4f9d75979938142
-source: Teaching Vacancies
-source_job_id: deputy-office-manager-robert-barclay-academy-hoddesdon-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-office-manager-robert-barclay-academy-hoddesdon-hertfordshire
----
 
 ---
 action: 
@@ -134,10 +104,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-assi
 
 ## HARD_PASS
 
-- [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-69793fea-1d51-405a-a79e-55b4c58afc9c) — Insufficient admin/service evidence.
+- [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-69793fea-1d51-405a-a79e-55b4c58afc9c) — No usable numeric salary.
 - [ATTENDANCE & SAFEGUARDING OFFICER](https://teaching-vacancies.service.gov.uk/jobs/attendance-safeguarding-officer-king-james-academy-royston) — Insufficient admin/service evidence.
-- [Federation School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/federation-school-business-manager-hurst-drive-primary-school) — Manager title salary ceiling £49,817 is not below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Manager title salary ceiling £33,119 is not below £28,000.
+- [Deputy Office Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-office-manager-robert-barclay-academy-hoddesdon-hertfordshire) — Excluded senior/management title.
+- [Federation School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/federation-school-business-manager-hurst-drive-primary-school) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Excluded senior/management title.
+- [Receptionist/Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school) — No usable numeric salary.
 - [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-95102662-222e-4ff2-a528-9767fe48abd5) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary

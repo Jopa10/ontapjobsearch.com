@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-24
-review_fingerprint: 245952382b9a5cf76128e1f8a9b0fd59c89b9e518730736e4c4f6f559fa8a0a6
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: f6160dd5d5c755d43fcb41ea1257bfb741b4be4e842c3eeb0120d39591562843
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -26,7 +26,7 @@ action:
 SELECTED | Bedfordshire | Dunstable, East of England, LU6 2AP | £17,109.00 Annually (Actual) | Administration Assistant / Receptionist
 employer: Lancot School
 closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: receptionist, administration assistant
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -106,11 +106,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-inclusion-adminis
 
 ## HARD_PASS
 
-- [Business, Operations, HR & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-hr-compliance-manager) — Manager title salary ceiling £33,672 is not below £28,000.
-- [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-queensbury-academy) — Manager title salary ceiling £39,481 is not below £28,000.
-- [Data Manager and Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-and-examinations-officer-wixams-academy) — Manager title salary ceiling £48,900 is not below £28,000.
-- [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
-- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-567766f1-1593-41ed-9bcc-141b66967e36) — Insufficient admin/service evidence.
+- [Business, Operations, HR & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-hr-compliance-manager) — Excluded senior/management title.
+- [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-queensbury-academy) — Excluded senior/management title.
+- [Data Manager and Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-and-examinations-officer-wixams-academy) — Excluded senior/management title.
+- [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Excluded senior/management title.
+- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-567766f1-1593-41ed-9bcc-141b66967e36) — Salary over £50k.
 - [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-wixams-academy) — Insufficient admin/service evidence.
 - [Science Technician](https://teaching-vacancies.service.gov.uk/jobs/science-technician-daubeney-academy-bedford-bedfordshire) — Out-of-scope occupation: technician.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-24
-review_fingerprint: 90ff265333c9c0861a66565b8360484871d7a1a893527bb67b674ff48c15c6a4
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: f11fdd690d3a472bd519ab0df45ea9ed82a4f8d8687ebac88356b169a72a2110
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 21
-- Selected: 7
-- POSS awaiting decision: 5
+- Selected: 3
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 14
 
 ## SELECTED
 
@@ -64,66 +64,6 @@ factual_fingerprint: a43e63f549f59ce3d035a3c97619c1f4a7d6fa5451b904f3f7f8e19dc1a
 source: Teaching Vacancies
 source_job_id: finance-administrator-including-trips-and-visits
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-including-trips-and-visits
----
-
----
-action: 
-SELECTED | Nottinghamshire | Retford, DN22 7GR | £21,472.00 - £26,482.00 Annually (Actual) This role offers a flexible and agile approach to working, with time spent at our Head Office, within academies and working from home | Governance Professional (Senior Administrator)
-employer: Diverse Academies Trust
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0aef854acdac4b8a6c7e22de399f1b6d4fe13deb5d77696828cf67c22b49e35e
-source: Teaching Vacancies
-source_job_id: governance-professional-senior-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-senior-administrator
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG17 7DH | 25,583 | Inclusion Administrator
-employer: Outwood Academy Kirkby
-closing_date: 2026-10-26T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ad7273005b193c41a4e48c2df4a7de82c5b5bcc9a6ee58035a9dec2bf71fe4b7
-source: Teaching Vacancies
-source_job_id: inclusion-administrator-outwood-academy-kirkby
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-outwood-academy-kirkby
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG12 2FS | Grade 3 | Office Administrator and Receptionist
-employer: Radcliffe-on-Trent Junior School
-closing_date: 2026-10-30T15:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6200db354466abed7e59a6cbec9bd5b2bbfc9a0447f1090310af6a8145f33ea6
-source: Teaching Vacancies
-source_job_id: office-administrator-and-receptionist-radcliffe-on-trent-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-and-receptionist-radcliffe-on-trent-junior-school
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG17 8EE | Grade 4 | Senior Office Administrative Assistant
-employer: The West Park Academy
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b43f05e980f35493bcbd49fe4177f85daeccb1d210d5cf0d3e78876673a9ef80
-source: Teaching Vacancies
-source_job_id: senior-office-administrative-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrative-assistant
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -175,21 +115,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclus
 
 ---
 action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG4 3SH | Redhill Academy Trust pay scale BAND 6 | Receptionist Administrator
-employer: Carlton Academy
-closing_date: 2026-10-30T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e2ecd36e881d792b9bb4ed90e1fa98a828884ecfc966c0cc91fa1a29b0ef47e4
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-carlton-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-carlton-academy
----
-
----
-action: 
 POSS | Nottinghamshire | Nottingham, East Midlands, NG8 2FT | £22,507.00 - £24,527.00 Annually (Actual) The salary advertised reflects the pro rata salary for this role, based on 45.6 weeks per year. The full-time equivalent FTE salary for this position is £25,666 - 27,970 per annum. | SEND Administrator
 employer: Fernwood School
 closing_date: 2026-11-02T09:00:00+00:00
@@ -211,13 +136,18 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-fe
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-king-edward-primary-school-nursery) — Insufficient admin/service evidence.
 - [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
-- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy) — Manager title salary ceiling £35,096 is not below £28,000.
+- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy) — Excluded senior/management title.
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby) — Insufficient admin/service evidence.
-- [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice-carlton-academy) — Insufficient admin/service evidence.
+- [Governance Professional (Senior Administrator)](https://teaching-vacancies.service.gov.uk/jobs/governance-professional-senior-administrator) — Excluded senior/management title.
+- [Inclusion Administrator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-outwood-academy-kirkby) — No usable numeric salary.
+- [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice-carlton-academy) — No usable numeric salary.
+- [Office Administrator and Receptionist](https://teaching-vacancies.service.gov.uk/jobs/office-administrator-and-receptionist-radcliffe-on-trent-junior-school) — No usable numeric salary.
 - [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c46abdbf-b851-4f98-b51c-c939f0fd7919) — Insufficient admin/service evidence.
+- [Receptionist Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-carlton-academy) — No usable numeric salary.
 - [Safeguarding Adviser](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-adviser-greenwood-academies-trust) — Insufficient admin/service evidence.
-- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Insufficient admin/service evidence.
+- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Excluded senior/management title.
+- [Senior Office Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrative-assistant) — Excluded senior/management title.
 
 ## Safety boundary
 

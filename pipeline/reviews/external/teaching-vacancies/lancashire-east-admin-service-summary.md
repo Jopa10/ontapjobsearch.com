@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-24
-review_fingerprint: c1cbe64d44d9354e4cea06d0e7abfd0992a4efa158419967d4a4182c217c660b
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: cd10598f0a0678e1cae1614317d8468c5400bb3fb7bbcc643ff9191b3ac7e45d
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 10
-- Selected: 1
+- Selected: 0
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
----
-action: 
-SELECTED | Lancashire - East | Blackburn, North West, BB1 2PW | Grade C | Administrator
-employer: Newfield School
-closing_date: 2026-11-05T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fbe417eee7cdf995ac44325cbd011903bc6b3a7552ba5c9629a50c7827053063
-source: Teaching Vacancies
-source_job_id: administrator-newfield-school-blackburn-lancashire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-newfield-school-blackburn-lancashire
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -74,10 +61,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hynd
 
 ## HARD_PASS
 
+- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-newfield-school-blackburn-lancashire) — No usable numeric salary.
 - [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-accrington-academy) — Insufficient admin/service evidence.
 - [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-marsden-heights-community-college) — Insufficient admin/service evidence.
 - [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-the-hyndburn-academy) — Insufficient admin/service evidence.
-- [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-all-saints-roman-catholic-high-school-a-voluntary-academy) — Manager title salary ceiling £32,061 is not below £28,000.
+- [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-all-saints-roman-catholic-high-school-a-voluntary-academy) — Excluded senior/management title.
 - [Examinations and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-and-administration-officer-our-lady-and-st-john-rc-high-school-a-voluntary-academy-blackburn-lancashire) — Insufficient admin/service evidence.
 - [HR Operations & Systems Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-systems-advisor) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-marsden-heights-community-college) — Insufficient admin/service evidence.

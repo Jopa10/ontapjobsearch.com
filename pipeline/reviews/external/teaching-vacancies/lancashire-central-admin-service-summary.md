@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Central
 
-review_date: 2026-10-24
+review_date: 2026-10-25
 review_fingerprint: ac530d4f5959215287e6aceb46e83545745231564af7714dc78a6d9f74084447
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Lancashire - Central
 slice_category: admin_service
 slice_status: LIVE
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-tarleton
 
 ## HARD_PASS
 
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-parklands-high-school) — Manager title salary ceiling £42,123 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-parklands-high-school) — Excluded senior/management title.
 
 ## Safety boundary
 

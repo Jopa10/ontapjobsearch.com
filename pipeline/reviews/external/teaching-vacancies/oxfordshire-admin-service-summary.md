@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-24
-review_fingerprint: e5ff82fe6b4d6e787ee502720a1256d714df2f2437af9e6b3cbe64462e9ce0ac
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 56ee7e677a51a61a12c1dff8f5b574e2bb1cd3e52ccb0f7e401637998e69bd5b
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 7
-- POSS awaiting decision: 3
+- Selected: 6
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
 
@@ -26,7 +26,7 @@ action:
 SELECTED | Oxfordshire | Abingdon, South East, OX14 2AW | Grade 6 Point 8, £27,710 pro rata | Administrator and Finance Assistant
 employer: Rush Common School
 closing_date: 2026-11-13T12:00:00+00:00
-reason: Clear admin/service title: administrator
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 
 ---
 action: 
-SELECTED | Oxfordshire | Faringdon, South East, SN7 7RA | £13.49 - £13.49 Hourly | Part Time Office Administrator
-employer: Uffington Church of England Primary School
-closing_date: 2026-11-19T17:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: faea98abcba9926d7b479df0d028147ee5d6d56ac08146f99cd501b03d4008d5
-source: Teaching Vacancies
-source_job_id: part-time-office-administrator-uffington-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school
----
-
----
-action: 
 SELECTED | Oxfordshire | Oxford, OX4 4SF | £30,025.00 - £32,046.00 Annually (FTE) 0.4 FTE Actual Salary: £12,010 - £12,818 | Procurement Administrator *Hybrid Role*
 employer: River Learning Trust
 closing_date: 2026-11-09T23:59:00+00:00
@@ -101,7 +86,7 @@ action:
 SELECTED | Oxfordshire | Oxford, South East, OX3 7QH | £23,446.92 - £25,405.77 Annually (Actual) (FTE £27,710- £30,025) | Student Receptionist and Pastoral Assistant
 employer: Cheney School
 closing_date: 2026-10-27T08:00:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -158,28 +143,15 @@ source_job_id: office-administrator-thameside-primary-school-abingdon-oxfordshir
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-thameside-primary-school-abingdon-oxfordshire
 ---
 
----
-action: 
-POSS | Oxfordshire | Carterton, South East, OX18 3AD | £21,235.00 - £25,147.00 Annually (Actual) Grade 9-10 depending on experience | School Business Manager
-employer: Carterton Primary School
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4aa41d106c5ee3f85c35b3a5c9b844102491af0d70c4c6c9aa77849be5da574c
-source: Teaching Vacancies
-source_job_id: school-business-manager-carterton-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-carterton-primary-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.
+- [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-carterton-primary-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Excluded senior/management title.
 - [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-ridgeway-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

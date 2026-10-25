@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-24
-review_fingerprint: 44034bf078f667d0f09b16559195beef0ad55333819fb55012bf89c6d41459a0
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: e90ecbed068b761a11570901dc72b31d81c9de338fe0426f69c4f3d350aff12e
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -41,7 +41,7 @@ action:
 SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B92 7RR | £18,058.00 Annually (Actual) Starting band 2, point 5 | Administrative Assistant/Receptionist
 employer: St Margaret's Church of England Primary School
 closing_date: 2026-11-06T10:00:00+00:00
-reason: Clear admin/service title: administrative assistant, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -56,7 +56,7 @@ action:
 SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B92 7DJ | £25,615.00 - £26,017.00 Annually (FTE) Grade 2 Point 3 - 4 (Salary will be pro-rated based on weeks/hours worked) | Administrator/Receptionist
 employer: Tudor Grange Primary Academy Langley
 closing_date: 2026-11-11T12:00:00+00:00
-reason: Clear admin/service title: administrator, receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -131,7 +131,7 @@ action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B37 5DP | £25,614.00 - £26,427.00 Annually (FTE) Band B - Actual salary £18,990.61 to £19,593.38 based on 32 working hours and 39 weeks | Clerical Assistant/Receptionist
 employer: St Anne's Catholic Primary School
 closing_date: 2026-11-12T23:59:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -270,13 +270,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-d9ca741
 ## HARD_PASS
 
 - [Administration](https://teaching-vacancies.service.gov.uk/jobs/administration) — Insufficient admin/service evidence.
-- [Exams Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exams-invigilator-80585298-5967-4a4f-893a-2aa215609f82) — Insufficient admin/service evidence.
-- [Head of Talent and Workforce Planning](https://teaching-vacancies.service.gov.uk/jobs/head-of-talent-and-workforce-planning) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-heights-academy) — Manager title salary ceiling £34,955 is not below £28,000.
+- [Exams Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exams-invigilator-80585298-5967-4a4f-893a-2aa215609f82) — No usable numeric salary.
+- [Head of Talent and Workforce Planning](https://teaching-vacancies.service.gov.uk/jobs/head-of-talent-and-workforce-planning) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-heights-academy) — Excluded senior/management title.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-brays-school) — Insufficient admin/service evidence.
 - [Recruitment & Compliance Lead and Executive Assistant to the Principal](https://teaching-vacancies.service.gov.uk/jobs/recruitment-compliance-lead-and-executive-assistant-to-the-principal) — Out-of-scope occupation: principal.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school-birmingham-west-midlands) — Manager title salary ceiling £55,224 is not below £28,000.
-- [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-forward-education-trust) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school-birmingham-west-midlands) — Excluded senior/management title.
+- [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-forward-education-trust) — Excluded senior/management title.
 
 ## Safety boundary
 

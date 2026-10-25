@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-10-24
-review_fingerprint: f2c7b32ee38be998a50208426277d9e79c5ea14934d9689a2cb3147a424be9b0
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+review_date: 2026-10-25
+review_fingerprint: 08a8df891d4cc50d6966734e98553a3e61bba6754f6fa030d7198edffc843ff2
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -56,7 +56,7 @@ action:
 SELECTED | Bristol & Bath | Bristol, South West, BS7 9NL | £26,247.00 - £27,274.00 Annually (FTE) | Receptionist
 employer: Fairfield High School
 closing_date: 2026-11-03T09:00:00+00:00
-reason: Clear admin/service title: receptionist
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -106,9 +106,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-bede-s-catholic-college) — Insufficient admin/service evidence.
-- [First Aid Lead & Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/first-aid-lead-admissions-coordinator-ashton-park-school) — Insufficient admin/service evidence.
-- [PA to Headteacher](https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-wellsway-school) — Missing salary or pay scale.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-bede-s-catholic-college) — No usable numeric salary.
+- [First Aid Lead & Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/first-aid-lead-admissions-coordinator-ashton-park-school) — Excluded senior/management title.
+- [PA to Headteacher](https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-wellsway-school) — No usable numeric salary.
 - [Personal Care Assistant (EYFS + SEND)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-eyfs-send) — Insufficient admin/service evidence.
 
 ## Safety boundary

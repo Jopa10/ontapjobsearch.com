@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-24
+review_date: 2026-10-25
 review_fingerprint: 1965509e810fd07e5e76f4a446ef26ec755cb3c504309441874dc9d207e5d119
-routing_manifest_sha256: 304236a767dd37d0466779b474c4276a7f45bace890b646bb9c7cb5486b5d574
+routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -105,8 +105,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator
 ## HARD_PASS
 
 - [Assistant Headteacher (EYFS and Personal Development)](https://teaching-vacancies.service.gov.uk/jobs/assistant-headteacher-eyfs-and-personal-development) — Out-of-scope occupation: teacher, headteacher.
-- [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-the-howard-partnership-trust) — Insufficient admin/service evidence.
-- [HR Project Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-project-lead) — Insufficient admin/service evidence.
+- [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-the-howard-partnership-trust) — Excluded senior/management title.
+- [HR Project Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-project-lead) — Excluded senior/management title.
 
 ## Safety boundary
 
