@@ -1,19 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:07+01:00",
+  "generated_at": "2026-10-25T13:16:01+00:00",
   "source": "Teaching Vacancies",
   "region": "Cheshire - East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "6d436e63dd4c2f3a61d97e93aa8d2a2c01a06727b669ae5a203cded9c03effea",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "6b6f2c76c713237fdcc853a2fd28b7df1633a2be340a11b4ba76b2f57bd6fe7a",
-  "summary_md_sha256": "17b7fff9a98ee54543cfec5e96ae72386b9f2340cab46c17bffb61f1d91e1c1b",
-  "approved_snapshot_sha256": "a0997e4de48d92493877ed46faf953ba245c0491857173d17e802ef3e3f19318",
+  "review_date": "2026-10-25",
+  "review_fingerprint": "ed5ef5fd10a8d91f765323d0d7a5fcd9c4137df86d612586b1fa2d19865a774e",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "db446832235f5549cd211e2b347fb03ab96b9f1f04031583a2c1638882d269ca",
+  "summary_md_sha256": "bffca4535bdbc1a34100a475157f347d04fbe23a71cbcea9233013bd0eb6cb3c",
+  "approved_snapshot_sha256": "03447be571f1b8e19572a3ca084aab5b221338cf2a812dcdfb75c346dfb12d0e",
   "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-school-office-administrator-highfields-academy",
-    "teaching-vacancies-sixth-form-administrator-the-fallibroome-academy-macclesfield-cheshire"
+    "teaching-vacancies-sixth-form-administrator-the-fallibroome-academy-macclesfield-cheshire",
+    "teaching-vacancies-receptionist-and-admin-assistant-maternity-cover"
   ]
 }

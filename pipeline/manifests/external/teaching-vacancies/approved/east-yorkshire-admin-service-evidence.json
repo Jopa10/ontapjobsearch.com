@@ -1,18 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:13+01:00",
+  "generated_at": "2026-10-25T13:16:07+00:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "bd6a25294b11908ae41fcd23136c430c9a9ea172bff2acb4f90a4285bcd21100",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "6e4710bc7306837681bc5b4072bcded2ac1b83904463256ed0316af721382614",
-  "summary_md_sha256": "12f0f6a3b8ade71c04f1ea072234e282dcf97f3f2561e5fb4bc3c6a5c25dcc59",
-  "approved_snapshot_sha256": "89356f8ba4f7431bcee6a6030c971886e9333b394063906b036e057b28ce8e09",
-  "approved_rows": 1,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "2be25863b0c4c3627b7d950cf86d0bcdbb5616aaffb898fe6819dbada3cefc7a",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "1b35514a71effbf5364448e0b6c5786c4f9bfcc3baccc830e62ea44506dd3157",
+  "summary_md_sha256": "6a3f1f998c44c8323d4be11bbeb06d6a8b4ae358274c91e250d92c047176639c",
+  "approved_snapshot_sha256": "bc7c44e9b26394dfee36a9d3ab37c24f0468dda2126802654ca8881d0a023d85",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-receptionist-cover-coordinator-sirius-academy-north"
+    "teaching-vacancies-administration-assistant-chiltern-primary-school",
+    "teaching-vacancies-finance-assistant-1aa789e7-40d1-40c1-97b4-f3cdd63664a9",
+    "teaching-vacancies-administration-assistant-oldfleet-primary-school-hull",
+    "teaching-vacancies-academy-administrator-endike-academy"
   ]
 }

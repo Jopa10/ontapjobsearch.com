@@ -1,22 +1,24 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:10+01:00",
+  "generated_at": "2026-10-25T13:16:04+00:00",
   "source": "Teaching Vacancies",
   "region": "Norfolk",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "aa6e9a27ca6009b3ab177a861db291799f9ae55f023d890de8b0f4bb305afacc",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "4d20bf91ad051802124fd5aa7ca2ad7bbf355ec73ad2ffdf667367b6348bdffb",
-  "summary_md_sha256": "400b364a4520568c3e70e81fef57b801a507353531c77327055fde76b5949d20",
-  "approved_snapshot_sha256": "8e1afae540ea34ba0502b122818dc34607d91339110553b6c60d7a336bbdfb3b",
-  "approved_rows": 5,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "a1fe366d58c59493aded94313144e9613bde8dab9bb9d8f8148e7e8877db534b",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "b12ff045b4ffab75d154ea82f4caefaca36a8d346233f1f862e9bf67921f4dd4",
+  "summary_md_sha256": "dfb8cd7000c751ac10c57e3d207587fed2809c605d7496a348462dc946e1d501",
+  "approved_snapshot_sha256": "bafd50afbaaa4fa28a4c3c76013b7eb26f5468af08f3c149f2e89853e9a3134c",
+  "approved_rows": 7,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-great-yarmouth-primary-academy-and-nursery",
-    "teaching-vacancies-attendance-officer-0493d912-bc9a-4b94-82de-5beddc58546b",
-    "teaching-vacancies-senior-academy-administrator-caister-academy-great-yarmouth-norfolk",
     "teaching-vacancies-attendance-administrator-downham-market-academy",
-    "teaching-vacancies-personal-assistant-to-the-headteacher-old-buckenham-high-school"
+    "teaching-vacancies-part-time-receptionist-administration-assistant-northgate-high-school",
+    "teaching-vacancies-administration-assistant-the-bishop-s-church-of-england-primary-academy",
+    "teaching-vacancies-attendance-officer-the-bishop-s-church-of-england-primary-academy",
+    "teaching-vacancies-exams-officer-litcham-school",
+    "teaching-vacancies-personal-assistant-to-the-headteacher-old-buckenham-high-school",
+    "teaching-vacancies-school-administrator-costessey-primary-school"
   ]
 }

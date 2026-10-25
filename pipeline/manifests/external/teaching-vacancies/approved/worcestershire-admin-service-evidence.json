@@ -1,20 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:13+01:00",
+  "generated_at": "2026-10-25T13:16:07+00:00",
   "source": "Teaching Vacancies",
   "region": "Worcestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "c1eb78904c3b0d9ce68973e85e6b7d07e2b4c47c2b5bc9f6701264f7ad3e4439",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "2d7150b45c5802b3610b7c175ad5294bf8147b7f6bea72389e7d6211f62bb3ab",
-  "summary_md_sha256": "8e667d8c21c080a367fd71f439f6a0754c512b9be2d2998bdf58999a3d886775",
-  "approved_snapshot_sha256": "0d4bf12fadcd70175a89ecf6e40b1d67a6f23a94b4f03250a223e7a0f7a21013",
+  "review_date": "2026-10-25",
+  "review_fingerprint": "3672f823a08593ca76c8102dba778c118aadf5ee28133219dc18c680461178f6",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "494331f90bb22a5e4eb39dfabb16e7add0df9bbfb366b205555b68a21b0b331c",
+  "summary_md_sha256": "ab3e5f695dd51dead18da8d4e23275b34f0adc73543702c0bb87b9d517b9c477",
+  "approved_snapshot_sha256": "ff8de8175dc9e68ec0ce28b52d9b21c14b18a2c7eca825c165d8e1a4017d048d",
   "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-part-time-student-receptionist-main-receptionist",
-    "teaching-vacancies-office-administrator-burford-road-site",
-    "teaching-vacancies-office-administrator-northleigh-cofe-primary-school"
+    "teaching-vacancies-admin-assistant-salford-priors-cofe-academy",
+    "teaching-vacancies-operations-administrator-salford-priors-cofe-academy-evesham",
+    "teaching-vacancies-administrative-finance-assistant-hollymount-school"
   ]
 }

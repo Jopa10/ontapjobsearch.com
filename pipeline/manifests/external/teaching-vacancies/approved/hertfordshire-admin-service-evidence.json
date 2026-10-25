@@ -1,20 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:09+01:00",
+  "generated_at": "2026-10-25T13:16:03+00:00",
   "source": "Teaching Vacancies",
   "region": "Hertfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "caa66f5b0b451eb744591c9e8a90b13a3ff7a6e7fc7aca59718aa7a084c71465",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "074524933a8b64e157544f3eec88cfe95b7b47a8d05a49e12e486340b710ec42",
-  "summary_md_sha256": "47fb5d9fe425bebee9bc269eb5f4a886028a2350eef042dd187a4f90a87b73fc",
-  "approved_snapshot_sha256": "ee97b05608a9a21f842bbd264990568b4ed580c2cd27c8b6641acd6d31c6f7f0",
-  "approved_rows": 3,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "965df5d1ceacde5f8bd3fa5d61d6aed56a02ab420e49272c8b822f96d8e28ddf",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "6d1e21646791808e79aae7b939d4aabc225dd81a94574dd5f1db078540509714",
+  "summary_md_sha256": "fea0e5b53449cf21f5bf41766c906a2912378bee8990f423ffba452922e01782",
+  "approved_snapshot_sha256": "fbe65d4577c0a9396d435ff652f34a78f5fa623862e2d458afc7d1a87789a72d",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-finance-and-reception-administrator-part-time",
-    "teaching-vacancies-part-time-admin-assistant-oxhey-wood-primary-school",
-    "teaching-vacancies-headteacher-s-personal-assistant-chancellor-s-school"
+    "teaching-vacancies-inclusion-administrator-nicholas-breakspear-catholic-school",
+    "teaching-vacancies-admin-officer-receptionist",
+    "teaching-vacancies-office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9",
+    "teaching-vacancies-send-administrator-chancellor-s-school"
   ]
 }

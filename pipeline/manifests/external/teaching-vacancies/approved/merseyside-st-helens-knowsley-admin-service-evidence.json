@@ -1,0 +1,18 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-10-25T13:16:04+00:00",
+  "source": "Teaching Vacancies",
+  "region": "Merseyside - St Helens & Knowsley",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-10-25",
+  "review_fingerprint": "b53665e37cc26867f0e4987a7ec81fd0fb08f1feecd3ab8c4c11cbe8042bf43d",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "018d3d4ece1a5a11f6536f31b21c236415b8c8b367e217558982bf062cc0f46c",
+  "summary_md_sha256": "412e4b5a9e015ec9fb1e6067c81e2240d553d8cc78d3a42644dd7fb4db72ccb1",
+  "approved_snapshot_sha256": "f079eed0e3f80f21532d32f457679b4f943a67ca8cc2c2d9c54f6bbcee3dfa62",
+  "approved_rows": 1,
+  "approved_job_ids": [
+    "teaching-vacancies-finance-assistant-the-sutton-academy-st-helens-merseyside"
+  ]
+}

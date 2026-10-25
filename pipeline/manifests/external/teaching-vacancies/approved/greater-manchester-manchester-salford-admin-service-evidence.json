@@ -1,20 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:09+01:00",
+  "generated_at": "2026-10-25T13:16:02+00:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - Manchester & Salford",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "4ed019ee4359aefcca483c42a6647c0160d9096ea3780eb60473b8a295ad5610",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "a68a0ba0cced9db1134d042d91c618f4f78257990aae0ff7fec280074dcb6be2",
-  "summary_md_sha256": "7b72e13a615428cde6bbae91ee27b79b8cbc3894545dde919c5dacd564d7dfee",
-  "approved_snapshot_sha256": "675b0a114d45e5b0a39f88768cf91fa2b21e01abadc310eda151b3055f57b94b",
-  "approved_rows": 3,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "8669f925a8496f21669066c9dfd0dbc55894bd5e24f8b450ebed1d984f803a47",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "7f3ab0ec055b03f0076dcaab4af8ce6224c230971a8bdea84fef957a6c01f67e",
+  "summary_md_sha256": "1a7bca8fb6aef43cd6b17dec06f95a273feaf9627bb5500109a3969f9c5ebd17",
+  "approved_snapshot_sha256": "901edf55fa92e5faa935a66e1d5f792197f713ee9cd10217317714e6e4072634",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-data-and-examinations-officer-eden-girls-leadership-academy-manchester",
-    "teaching-vacancies-send-administrator-abraham-moss-community-school",
-    "teaching-vacancies-exams-officer-chorlton-high-school"
+    "teaching-vacancies-office-admin-receptionist",
+    "teaching-vacancies-office-administrator-and-receptionist-salford-city-academy-manchester",
+    "teaching-vacancies-exams-officer-chorlton-high-school",
+    "teaching-vacancies-hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester",
+    "teaching-vacancies-administrative-assistant-the-deans-primary-school"
   ]
 }

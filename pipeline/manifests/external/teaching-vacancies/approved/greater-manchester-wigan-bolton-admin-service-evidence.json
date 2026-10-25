@@ -1,19 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:09+01:00",
+  "generated_at": "2026-10-25T13:16:03+00:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - Wigan & Bolton",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "cfab57b5e3f3c9ffa2f0c235722295faa38b29b5cc2cd4c0a3808917bfda0886",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "6453299da2f16b4f44e986314496dd406d3d93ec4fd259056d55664e17198109",
-  "summary_md_sha256": "5d93a739c858dc210dd97cd8df31dcbc886c65382d49c0dc13b03785ab4ed066",
-  "approved_snapshot_sha256": "28ea687aa880f32e08ba17fc2d0d80e2c9a93dd77cf9b2f12efba0f85ab6bd93",
-  "approved_rows": 2,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "01046b2ec3a56215e89ae354a557acf5751d6fcb46518bf5f7f84eb70eb5e019",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "5703c81b09ed33007345320401e9184a0a500d7e2256462f9d64028435ca1822",
+  "summary_md_sha256": "8168579f5f88ada718cb0b75a5c4436157ba12afcd8970aa23b31a3572db26db",
+  "approved_snapshot_sha256": "9ca3b6c3a59c09ab477a28bd82a12b0c545c2b3b33d6a2df400e09ef1d04e22f",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-with-marketing",
-    "teaching-vacancies-school-office-administrative-assistant-highfield-st-matthew-s-church-of-england-primary-school"
+    "teaching-vacancies-school-office-administrative-assistant-highfield-st-matthew-s-church-of-england-primary-school",
+    "teaching-vacancies-attendance-and-admissions-officer-firwood-high-school",
+    "teaching-vacancies-school-administrator-reception-firwood-high-school"
   ]
 }

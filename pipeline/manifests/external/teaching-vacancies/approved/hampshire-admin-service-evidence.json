@@ -1,16 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:09+01:00",
+  "generated_at": "2026-10-25T13:16:03+00:00",
   "source": "Teaching Vacancies",
   "region": "Hampshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "293e5a7fa7dfde2cfdaa5cfc37631cdac0b153edf193556b0e6fac53118c080f",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "58a7e531a7076c3a4e76ae7c9c5d39ac575a63b59318460e6d4d5fb155a21a24",
-  "summary_md_sha256": "3733761e6bb096326c52cb23537a599edc3c6cf1f941848efffc937091e7c7a9",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "review_date": "2026-10-25",
+  "review_fingerprint": "dfbd8d9287d82faca9f931a428cc93733dbc1cea2586d12aca99ba5f8c173451",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "ad84317e376b6c4676409cfe379b308ce4106d6b1e00f07a2cbea870e2c06e57",
+  "summary_md_sha256": "b00bc172fc727a2430211c3738db33a497d556ade1b83bc0982ec218253ef46c",
+  "approved_snapshot_sha256": "14f8670a1ecbf054b96bb629a8e570110dbabf9b2d094ca366db080c85f1bcdc",
+  "approved_rows": 4,
+  "approved_job_ids": [
+    "teaching-vacancies-sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire",
+    "teaching-vacancies-part-time-receptionist-administrator-ark-ayrton-primary-academy",
+    "teaching-vacancies-attendance-officer-66e679cb-65bb-4391-8ecd-a482bdaa6185",
+    "teaching-vacancies-administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire"
+  ]
 }

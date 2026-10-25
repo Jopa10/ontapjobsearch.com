@@ -1,22 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:10+01:00",
+  "generated_at": "2026-10-25T13:16:04+00:00",
   "source": "Teaching Vacancies",
   "region": "North East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "7b56acad187d64b63dbc38faf73dd3b0de4dbd5e6a665457a60271c45b3ad25d",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "168ea0b191ffefe0ae3b53e70813add87035f0f8d25ef1033f728278d5767e6c",
-  "summary_md_sha256": "e08def7f1b6358d6f2aa6a5b4b63ad0c7e04e2473478d99e8997799aa3bada55",
-  "approved_snapshot_sha256": "2a084954db084886a2cd15c95f348c9459d5b917bd42fae150cafdc92c9f2303",
-  "approved_rows": 5,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "b276cece3423cb6c3cea895a547d9d43b25a676e846f6d841b5fbf7ecd912672",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "f5d3ad647058f890a0421203b8a2e368e7e5f91093d66830ab26bd16566b8189",
+  "summary_md_sha256": "5640d3e1a658d1b65710b8b17f59d315acd53d7c887898659400f6363d518159",
+  "approved_snapshot_sha256": "a92ea3ddcaa7329ff71991de98294c708bf4f97c02bbda1ea2b41c3f3550823d",
+  "approved_rows": 6,
   "approved_job_ids": [
-    "teaching-vacancies-school-office-administrator-northern-saints-church-of-england-academy",
-    "teaching-vacancies-administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland",
-    "teaching-vacancies-administrator-student-reception",
-    "teaching-vacancies-administrative-assistant-level-3-north-gosforth-academy-newcastle-upon-tyne-tyne-and-wear",
-    "teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland"
+    "teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland",
+    "teaching-vacancies-receptionist-st-anthony-s-girls-catholic-academy",
+    "teaching-vacancies-attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707",
+    "teaching-vacancies-administration-assistant-north-durham-academy-stanley-county-durham",
+    "teaching-vacancies-business-services-support-administrator",
+    "teaching-vacancies-exams-officer-english-martyrs-catholic-school-and-sixth-form-college"
   ]
 }

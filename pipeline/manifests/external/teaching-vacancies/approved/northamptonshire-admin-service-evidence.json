@@ -1,19 +1,24 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:11+01:00",
+  "generated_at": "2026-10-25T13:16:05+00:00",
   "source": "Teaching Vacancies",
   "region": "Northamptonshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "813faa96a50ea2beda2450c071a849a98a71049038fb8f48547acde05f9b26c6",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "fb8fdc4809460e87a5ee107f73e5316884d326c33a4bf0002d37d462d1e2d326",
-  "summary_md_sha256": "da94f2d92531d4c1b625d285c8e071d99d1d38407d5d3ca0f9e0b3d29c747a93",
-  "approved_snapshot_sha256": "ad903c1e1d33cd4b408af477d1498d1dca0bc1566daec1e19987cef2ba8d873d",
-  "approved_rows": 2,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "9a753ee04d8bd984330dff3208656c962aa6c067944a8ffbb579003ecd8d63c6",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "1280fa496246fb302b4af1381fa592ddfd62841b1b17617c5e5d199a8decca8e",
+  "summary_md_sha256": "9736cfdb6bd337d2453ef9250d8122a0d3c78e4473ece58429948f060d4278c6",
+  "approved_snapshot_sha256": "1ba4469516ec320d051c10446dd40278f80b1147cc0d2fe44def6c32b28a68e9",
+  "approved_rows": 7,
   "approved_job_ids": [
-    "teaching-vacancies-academy-administrator-lodge-park-academy",
-    "teaching-vacancies-designated-specialist-provision-dsp-admin-assistant-moulton-school-and-science-college-northampton-northamptonshire"
+    "teaching-vacancies-finance-officer-bishop-stopford-school",
+    "teaching-vacancies-school-administrator-slt-support-st-thomas-becket-catholic-school-northampton-northamptonshire",
+    "teaching-vacancies-content-creator-and-admin-assistant",
+    "teaching-vacancies-technical-administrator",
+    "teaching-vacancies-attendance-officer-northampton-school",
+    "teaching-vacancies-school-receptionist-northampton-school",
+    "teaching-vacancies-administration-assistant-bishop-stopford-school-kettering-northamptonshire"
   ]
 }

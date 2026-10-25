@@ -1,20 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:12+01:00",
+  "generated_at": "2026-10-25T13:16:06+00:00",
   "source": "Teaching Vacancies",
   "region": "West Midlands - Black Country",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "67d708d731efbaed89a91928b433a0e5c61ed44b347fa99fef53c10b2c790b1a",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "61d885fdb42f87b1d0bbff8cd0491846cd0a79bc66d3cfc18e82936d29d199e6",
-  "summary_md_sha256": "0979c76559237359738a7503552e1e5aa1a6f03173c40e03f7b1e30e52a5caa4",
-  "approved_snapshot_sha256": "4c7e7256885f162c1e9cbfca850239220217b5702981e79b5d9ddc4b12009e83",
+  "review_date": "2026-10-25",
+  "review_fingerprint": "35f6a53c9b7cdb6ba245fa2efb4f4c93324ec3c6bf818493518f4b24e14a1911",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "863b0413abf2f24db858ab59be143bdac48ce88ac315c5682030f6f0be76714f",
+  "summary_md_sha256": "a97a446e2640e3e1a93d5176d2bbeddf984356a1ce00601a0df093c9b6795436",
+  "approved_snapshot_sha256": "911cf60b52ba1d02aafb37021869bfcfda3250a1056927b3f7563ddae4b8b711",
   "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-school-receptionist-new-leaf-school",
-    "teaching-vacancies-reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf",
-    "teaching-vacancies-administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75"
+    "teaching-vacancies-administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75",
+    "teaching-vacancies-pastoral-admin-assistant-wolverhampton-girls-high-school",
+    "teaching-vacancies-administrative-assistant-fallings-park-primary-school"
   ]
 }

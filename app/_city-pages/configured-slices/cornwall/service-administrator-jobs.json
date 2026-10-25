@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Newquay Tretherras",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -49,31 +46,6 @@
     "advertiser_name": "Berry Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "2060190",
-    "title": "Assistant Accountant",
-    "company": "Hays Specialist Recruitment Limited - Agency - Permanent",
-    "location": "Newquay",
-    "region": "Cornwall",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-10-07",
-    "description": "Temporary Assistant Accountant Cornwall Hybrid Working Available\n\nLooking for a finance role that offers more than just purchase ledger and reconciliations?\n\nA growing and innovative engineering and manufacturing business in Cornwall is seeking a Temporary Assistant Accountant to join its finance team during an exciting period of growth and change. This is a fantastic opportunity for someone who wants to move beyond transactional processing and gain hands-on exposure to management accounting, project accounting and business partnering activities.\n\nWhether you're studying AAT or looking to build on your finance experience, this role offers the chance to develop valuable skills within a supportive and forward-thinking environment.\n\nWhy you'll want this role Gain exposure to management accounts preparation and month-end reporting Work closely with experienced finance professionals and senior stakeholders Get involved in project accounting and commercial finance activities Hybrid working available Join a business investing in systems, processes and future growth Excellent opportunity to strengthen your CV and develop your career Potential to lead to further\n\nopportunities for the right person\n\nThe RoleReporting into the Finance Manager, you'll play a key role in supporting the finance function while contributing to wider accounting and reporting responsibilities.Your duties will include:\n- Purchase ledger and supplier management\n- Bank reconciliations\n- Credit control support\n- Accruals and prepayments\n- Assisting with monthly management accounts\n- Budget monitoring and reporting\n- Month-end activities\n- Project accounting support\n- Financial analysis and reporting\n- Supporting finance process improvements and system enhancements\n\nThis is an ideal opportunity for someone looking to bridge the gap between an Accounts Assistant role and a more commercial Assistant Accountant position.\nAbout YouYou'll ideally have:\n- AAT Level 4 or be actively studying towards it\n- Experience in an Assistant Accountant, Finance Assistant or Accounts Assistant role\n- Strong reconciliation and purchase ledger experience\n- Knowledge of accruals and prepayments\n- Good Excel skills\n- Strong attention to detail\n- A proactive attitude and desire to learn\n- Ability to work effectively within a fast-paced, evolving business\n\nExperience within engineering, manufacturing, project-based businesses or management accounts support would be advantageous but is not essential.What's on Offer?\n- Competitive hourly rate\n- Hybrid working flexibility\n- Exposure to key finance processes and reporting\n- Opportunity to work within a growing business with an ambitious future\n- A varied and engaging workload\n- Supportive team culture\n- Excellent experience for anyone looking to progress their finance career\n\nThis temporary opportunity is perfect for an ambitious finance professional looking to gain valuable commercial accounting experience within a business where they can genuinely make an impact from day one.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at hays.co.uk",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgoUfMHUzQdq0x853vfjyOaXn",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Assistant Accountant Temporary Assistant Accountant Cornwall Hybrid Working Available Looking for a finance role that offers more than just purchase ledger and reconciliations?",
-    "advertiser_name": "Hays Specialist Recruitment Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -244,6 +216,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1319",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -263,6 +238,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1296",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

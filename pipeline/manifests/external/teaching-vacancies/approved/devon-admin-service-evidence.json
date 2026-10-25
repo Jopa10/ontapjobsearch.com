@@ -1,22 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:08+01:00",
+  "generated_at": "2026-10-25T13:16:02+00:00",
   "source": "Teaching Vacancies",
   "region": "Devon",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "aa434faad328b83a36dedf68930a222a93d2d17e27d87ca83fcb3238ecd661cd",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "22e6c52d357593484cc64212956f94c883cb31e29e66dd62c7b40298eca6ed99",
-  "summary_md_sha256": "33889180686e2eb712c4cd79ce2f3d7b7354d0f093c99cf16e5b621fd9d08c7b",
-  "approved_snapshot_sha256": "51ff38a69e1cff7a1b27fd89262a5050f2ff16b5950ac7abf274ee3ad4bea4ba",
+  "review_date": "2026-10-25",
+  "review_fingerprint": "ffb4a8e8f06f981a1d03d3a49c8ae8749209b77eb5f347f54ac61ee0885da6e1",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "34ea0b58668ba6c0434ed5c3cf46112e751d04b2463594f75f493fd31f8d0b43",
+  "summary_md_sha256": "cea941dfea5196125e41b4f8365ff6dafe7aff8d12c5e2c0dbeaa50b9819db95",
+  "approved_snapshot_sha256": "f1775fe9b25f00edd9e2222d555274b2710878d68f4d16d5a7b65a6615b69143",
   "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-mis-administrator-maternity-cover",
-    "teaching-vacancies-administrator-devon-research-school-and-swift-teacher-training",
-    "teaching-vacancies-general-support-administrator",
-    "teaching-vacancies-people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded",
+    "teaching-vacancies-sen-medical-administrator",
+    "teaching-vacancies-attendance-officer-part-time-st-james-school",
+    "teaching-vacancies-school-office-administrator-boringdon-primary-school",
+    "teaching-vacancies-student-funding-administrator-maternity-cover",
     "teaching-vacancies-nursery-administrator-alphington-primary-school-exeter-devon"
   ]
 }

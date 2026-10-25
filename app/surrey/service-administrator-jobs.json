@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Danetree Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Eastwick Infant School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Godalming College",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -834,6 +825,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225698766",
+    "title": "Financial Assessment and Income Officer",
+    "company": "Surrey County Council - Company - Permanent",
+    "location": "Surrey",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "34660",
+    "salary_max": "34660",
+    "salary_text": "£34660 per year",
+    "posted_date": "2026-10-25",
+    "description": "This is a permanent, full-time position with a starting salary of 34,660 per annum, based on a 36-hour working week.\n\nWe are excited to be hiring new Financial Assessment & Income Officer to join our fantastic Financial Assessments & Income Collection team.\n\nThis role is open to hybrid working and as a team we split our time between collaborating with colleagues in the office for two days per week (more frequently during training and induction period) and working from home.\n\nOur Offer to You\n- 26 days' holiday, rising to 28 days after 2 years' service and 31 days after 5 years' service (prorated for part time staff)\n- Option to buy up to 10 days of additional annual leave\n- A generous local government salary related pension\n- Up to 5 days of carer's leave and 2 paid volunteering days per year\n- Paternity, adoption and dependents leave\n- An Employee Assistance Programme (EAP) to support health and wellbeing\n- Learning and development hub where you can access a wealth of resources\n- Wellbeing and lifestyle discounts including gym, travel, and shopping\n- A chance to make a real difference to the lives of our residents\n\nAbout the Role\n\nThis role sits within the Financial Assessment & Income Collections service, which is part of the Adults, Wellbeing and Health Partnerships Directorate. The team play a critical role in providing advice and information to service users in relation to welfare benefits entitlement, the council's charging policy and making payment for social care services, generally through direct telephone contact or face to face.\n\nYour key responsibilities as an Assessment and Income Officer will include:\n- Completing financial assessments for residents in accordance with the legislation and the councils charging policy\n- Providing information on paying for care and ensuring assessment outcomes are fully documented and communicated\n- Resolving queries and effectively collaborating with internal and external customers to support them with understanding the assessment process resulting in a positive experience\n- Reviewing welfare benefit entitlement and helping with claims where needed to maximise income\n- Proactively supporting residents to make payment of care charges, ensuring that all charges due are collected in accordance with council policies and debt recovery procedures\n\nYour Application\n\nIn order to be considered for shortlisting, your application will clearly evidence the following skills and align with our behaviours:\n- A commitment to delivering a first-class customer service\n- Excellent communication skills and ability to deliver quality outcomes\n- Evidence of exceptional attention to detail and experience of analysing information to ensure right first-time assessments\n- Ability to organise, manage time and priorities efficiently and effectively\n\nAn DBS 'Disclosure and Barring Service' check for regulated activity (formerly known as CRB) will be required for this role.\n\nTo apply, we request that you submit a CV and answer the following 4 questions:\n- Please describe a time when you delivered exceptional customer service and the actions you took to ensure a positive outcome?\n- Please share an example of how your communication skills led to a successful outcome in a challenging situation.\n- Please provide an instance where your attention to detail and ability to analyse information ensured accuracy in an assessment.\n- Please tell us how you manage your time and prioritise tasks effectively when faced with multiple deadlines? Please give an example.\n\nBefore submitting your application, we recommend you read the job description and our Life at Surrey handbook to get an insight into working at Surrey.\n\nPlease contact us for any questions relating to the role. This could be to discuss flexible working requests, transferable skills or any barriers to employment.\n\nThe job advert closes at 23:59 on 18th October with interviews to follow.\n\nWe look forward to receiving your application, please click on the apply online button below to submit.\n\nLocal Government Reorganisation (LGR)\n\nSurrey County Council is undergoing Local Government Reorganisation and will move to new authorities in April 2027. This role is currently employed by Surrey County Council and will remain so until then. If you are employed by Surrey County Council on 1 April 2027, your employment will transfer under TUPE arrangements to one of the new councils, with your current terms and conditions protected. The provisional allocation for this post is West Surrey subject to final confirmation through the wider transition process later this year. Please see more information on our website.\n\nOur Commitment\n\nWe are a disability confident employer which means if you have shared a disability on your application form and have evidenced you meet the minimum shortlisting criteria as displayed on the advert, we guarantee you an interview.\n\nYour skills and experience truly matter to us. From application to your first day, we're committed to supporting you with any adjustments you need, we value inclusion and warmly welcome you to join and help build a workplace where everyone belongs.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VIBYwXGV6mJguIwGCiphnWbw",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "This role is open to hybrid working and as a team we split our time between collaborating with colleagues in the office for two days per week (more frequently during training and induction period) and working from home.",
+    "advertiser_name": "Surrey County Council",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225700424",
     "title": "Sales and Customer Support Advisor",
     "company": "Personnel Selection - Agency - Permanent",
@@ -904,6 +920,31 @@
     "working_arrangement_evidence": "",
     "advertiser_name": "CTR Select",
     "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225703384",
+    "title": "Adults Financial Assessment and Income Assistant",
+    "company": "Surrey County Council - Company - Permanent",
+    "location": "Surrey",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "15829",
+    "salary_max": "15829",
+    "salary_text": "£15829 per year (pro rata to £31,659 FTE)",
+    "posted_date": "2026-10-25",
+    "description": "This permanent, part-time position has a starting salary of 15,829 per annum, based on a 18-hour working week (FTE 31,659)\n\nA great opportunity has arisen with the Financial Assessment and Income Collection Team for Assessment and Income Assistants.\n\nThe team is located in the East of the county. Your preferred location can be discussed at interview.\n\nThis role is open to hybrid working and as a team we split our time between collaborating with colleagues in the office for two days per week (more frequently during training and induction period) and working from home.\n\nOur Offer to You\n- 26 days' holiday, rising to 28 days after 2 years' service and 31 days after 5 years' service\n- Option to buy up to 10 days of additional annual leave\n- A generous local government salary related pension\n- Up to 5 days of carer's leave and 2 paid volunteering days per year\n- Paternity, adoption and dependents leave\n- An Employee Assistance Programme (EAP) to support health and wellbeing\n- Learning and development hub where you can access a wealth of resources\n- Wellbeing and lifestyle discounts including gym, travel, and shopping\n- A chance to make a real difference to the lives of our residents\n\nAbout the Role\n\nThis role sits within the Financial Assessment & Income Collections service, which is part of the Adults, Wellbeing and Health Partnerships Directorate. The team play a critical role in providing advice and information to service users in relation to welfare benefits entitlement, the council's charging policy and making payment for social care services, generally through direct telephone contact or face to face.\n\nYour key responsibilities as an Assessment and Income Assistant will include:\n- responsibility for explaining the paying for care process to individuals or their representatives, ensuring that the conversation is clearly communicated and fully documented.\n- booking appointments and notifying both officers and individuals, making sure that all necessary information is provided and accurately recorded.\n- expectation to resolve queries and work collaboratively with both internal and external customers to help them understand the assessment process, thereby ensuring a positive experience.\n- supporting residents in using the council's online financial assessment and payment tools.\n- actively identifying any barriers that may prevent residents from making regular payments towards their social care charges.\n\nYour Application\n\nIn order to be considered for shortlisting, your application will clearly evidence the following skills and align with our behaviours:\n- A commitment to delivering a first-class customer service.\n- Excellent communication skills and ability to deliver quality outcomes.\n- Ability to organise, manage time and priorities effectively and efficiently.\n- Willingness to work as a team using own initiative.\n- Excellent IT skills and experience of using IT systems.\n\nA DBS 'Disclosure and Barring Service' check for regulated activity will be required for this role.\n\nTo apply, we request that you submit a CV and answer the following 4 questions:\n- Please provide an example of a time at which you have provided excellent customer service.\n- Tell us about your experience using IT systems, including any databases you have worked with and how you have used them in your role.\n- Tell us about a time when you worked collaboratively with colleagues or other teams/stakeholders to resolve a query or support a customer.\n- Provide an example of your ability to prioritise your workload and be able to respond to work pressures.\n\nThe job advert closes at 23:59 on 25th October 2026 with interviews planned to follow.\n\nLocal Government Reorganisation (LGR)\n\nSurrey County Council is undergoing Local Government Reorganisation and will move to new authorities in April 2027. This role is currently employed by Surrey County Council and will remain so until then. If you are employed by Surrey County Council on 1 April 2027, your employment will transfer under TUPE arrangements to one of the new councils, with your current terms and conditions protected. The provisional allocation for this post is East Surrey subject to final confirmation through the wider transition process later this year.\n\nOur Commitment\n\nWe are a disability confident employer which means if you have shared a disability on your application form and have evidenced you meet the minimum criteria, we guarantee you an interview.\n\nYour skills and experience truly matter to us. From application to your first day, we're committed to supporting you with any adjustments you need, we value inclusion and warmly welcome you to join and help build a workplace where everyone belongs.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsT4NCKr526XpDZ5up91ZgMom",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "This role is open to hybrid working and as a team we split our time between collaborating with colleagues in the office for two days per week (more frequently during training and induction period) and working from home.",
+    "advertiser_name": "Surrey County Council",
+    "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
@@ -1355,6 +1396,31 @@
     "advertiser_name": "Dynamite Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225723947",
+    "title": "Accounts Assistant",
+    "company": "Howett Thorpe - Agency - Permanent",
+    "location": "Surrey",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "32000",
+    "salary_text": "£30000 - £32000 per year",
+    "posted_date": "2026-10-16",
+    "description": "This well-established, SME organisation based in central Guildford are seeking an Accounts Assistant to join their team. You will be joining a growing business that is looking to hire a versatile finance professional. Furthermore, this role will be fully office based and will consider both full or part-time candidates. A great opportunity for an experienced Accounts Assistant that is looking for a new challenge.\n\nJob Title: Accounts Assistant\n\nJob Type: Permanent, full or part time\n\nLocation: Guildford, Surrey\n\nSalary: £30,000 - £32,000 per annum\n\nReference no: 16188\n\nAccounts Assistant Benefits\n- Flexible working hours\n- 25 days plus bank holidays\n- Pension scheme\n- Car parking onsite\n\nAccounts Assistant About The Role\n\nIn this role you will be reporting into the Finance Manager and working within a finance team of 3. You will be supporting with the daily running of the accounts function and your key responsibilities will be:\n- Coding and sorting purchase invoices, posting bank payments and liaising with suppliers regarding payment dates.\n- Updating all fixed asset registers and complete depreciation journals quarterly.\n- Prepare rental calculations and pay all rental invoices.\n- Raise purchase orders for all companies.\n- Supporting with the preparation of the monthly management accounts.\n- Complete quarterly VAT returns using the Sage MTD software for both VAT groups, when needed.\n- Maintain and update records of the company s offsite filing.\n- Building relationships with new/existing suppliers.\n\nThe successful Accounts Assistant will have:\n- Previous experience in a finance position\n- Experience with Sage would be beneficial\n- Good excel skills\n- Ability to communicate at all levels\n\nHowett Thorpe are acting as a recruitment agency in relation to this role and comply with all relevant UK legislation and do not discriminate on any protected characteristics. Due to the high volume of applications we currently receive, we are unable to respond to all candidates. If you do not hear from a Consultant within 5 working days, please assume that you have not been successful.\n\nRefer a friend\n\nIf this job is not of interest to you, but you know a friend or colleague who may be interested, recommend them to us and receive a minimum of £100 in vouchers if we assist them in securing a permanent role and a minimum of £25 in vouchers if we place them in a temporary assignment. (Terms & conditions apply)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgpRgXyJllnwXGvjepsRHE02n",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Howett Thorpe",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -1856,6 +1922,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225422145",
+    "title": "Credit Controller",
+    "company": "Career Concept - Agency - Permanent",
+    "location": "Surrey",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "15",
+    "salary_max": "17",
+    "salary_text": "£15 - £17 per hour",
+    "posted_date": "2026-10-16",
+    "description": "Financial Credit Controller\n\nPart time role\n\n3 days a week (flexibility to agree 2 days if preferred)\n\nFlexible to arrange full time for 3 days OR spread over 4 OR 5 days\n\nJoin a FCA regulated Financial Services company\n- Reconcile customer payments.\n- Troubleshoot Queries and Issues\n- Report based on guidelines\n- Contact and support customers with payment issues\n\nExperience required:\n- Experience as Credit Controller, Accounts receivable or collections\n- Comfortable with Customer contact (via phone and email)\n\nThis position is located on site - located Chertsey",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakNXPgPQTlWXf5WV3J%2buQYikr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Career Concept",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -2575,6 +2666,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2806-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2594,6 +2688,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2942",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2613,6 +2710,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2941",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2632,6 +2732,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2934",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2651,6 +2754,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3505-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2670,6 +2776,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3024-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2689,6 +2798,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5057-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

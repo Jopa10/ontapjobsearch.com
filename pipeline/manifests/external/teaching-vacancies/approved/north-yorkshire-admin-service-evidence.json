@@ -1,21 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:13+01:00",
+  "generated_at": "2026-10-25T13:16:07+00:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - North",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "2f20611a05dbed9e3738dc829f53e14a98d7419fba2f78c053778b0c45c50ddd",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "263c001ceda1edeb4347ad4af79c33ae517ffb6c1b81938c9a4bc634a76e6862",
-  "summary_md_sha256": "96a531c35011e249e13ce002b7eb690a862d102e6aced6f64c49093770e4d3b9",
-  "approved_snapshot_sha256": "310a93f40ac166b04dec73231a1634e6891e82a4aeafb092e25014fe64b87a87",
-  "approved_rows": 4,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "86dba2130ffc042810b687e5fc06eb8ee02da948d5e498dc2c0ca2518597c52c",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "fae08a6cc8187a823c87a3798bea1462825ba6b4c47a0e7d00535bd2ed9c2c8f",
+  "summary_md_sha256": "ea8583eec595ec13caa32b475356ea412a90af9f3f3f85fcff83ef7c56f7dd59",
+  "approved_snapshot_sha256": "2b3f72a414d07cff909d0d056d47c0be89415f0ae239dd90ae31b9dabbe5895b",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-assistant-exams-officer-cover-administrator",
+    "teaching-vacancies-receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire",
     "teaching-vacancies-school-administrator-saltergate-junior-school-harrogate-north-yorkshire",
-    "teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075",
-    "teaching-vacancies-send-administrator-george-pindar-school-scarborough"
+    "teaching-vacancies-send-administrator-george-pindar-school-scarborough",
+    "teaching-vacancies-business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy",
+    "teaching-vacancies-data-administrator-st-john-fisher-catholic-academy"
   ]
 }

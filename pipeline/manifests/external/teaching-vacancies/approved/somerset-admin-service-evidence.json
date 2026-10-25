@@ -1,23 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:11+01:00",
+  "generated_at": "2026-10-25T13:16:05+00:00",
   "source": "Teaching Vacancies",
   "region": "Somerset",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "a0b5f04bf39e8de4e8aa4b52ed5fc932b0b00562cc3b065a2bf45bdc5341a8cd",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "e67a60a25caf9e1c6506e1e0c973298b2af97ca57d7e4773c9b5d20c8bd375f7",
-  "summary_md_sha256": "9b11349c5100cb9c2e349a1b214252376d25ce978908187573ace386f8759383",
-  "approved_snapshot_sha256": "6507cf68637fa6377549e161a2bee59846e8c3f7bfd063597ec5db8a576f9a8a",
-  "approved_rows": 6,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "1bbf8c5fbfd5336bb3e80ac0d2c5e790de0270bb23bee03b3bab6c98c300ba80",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "d929fee306f0a81a90de4055f21c29854d000a169d7bc9834e0d86bf5e30e067",
+  "summary_md_sha256": "4cc6dff2a7a0ff6b47e8417d36b037cd73bc4b54d5bbdb39d73f6c937f8c1eb0",
+  "approved_snapshot_sha256": "601e28af57d58c0444eecd217830997f8ce95f98e9d75bd77063ca853b82dd4b",
+  "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-kingsmead-academy",
-    "teaching-vacancies-administration-assistant-winterstoke-hundred-academy",
-    "teaching-vacancies-administration-assistant-level-1-receptionist-bd6b7366-4beb-4cdb-99ce-85259000741f",
-    "teaching-vacancies-send-administrator-and-librarian",
-    "teaching-vacancies-hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb",
-    "teaching-vacancies-senior-administrator-locking-primary-school"
+    "teaching-vacancies-hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb"
   ]
 }

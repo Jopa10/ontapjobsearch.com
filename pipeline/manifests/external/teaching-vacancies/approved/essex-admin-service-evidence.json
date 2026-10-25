@@ -1,22 +1,27 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:08+01:00",
+  "generated_at": "2026-10-25T13:16:02+00:00",
   "source": "Teaching Vacancies",
   "region": "Essex",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "7adb2f12f139fdef914a841611d58662bb55e659924ef4d03745e2ba097886a0",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "6172ad3223d7d73fc040b7787837601c0c0bb20f5df661c6331575f3d0c2fe86",
-  "summary_md_sha256": "f1aeae53e586813115337e42629497053e315e130cd9eb24146f3c6c60863c1f",
-  "approved_snapshot_sha256": "017dc6444496e762ff870d21272fc1eca2f1f9b5b2bf0d4f86caec68a1742eed",
-  "approved_rows": 5,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "e564e2f668ab59dae8081f9085dc90b8764ef8fce97d88f0a5eaa0b2dd5164ac",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "704b069b8f73b1e2d84f5939004968bc5e2e34f6a460d105f67961aaa5d97a09",
+  "summary_md_sha256": "0bc54408a9fe854ad017e1cb2a483da8d41131de9d9e05153f13d51b7e9a1c96",
+  "approved_snapshot_sha256": "1839725e200d3901295326927fbcd739b41dfa67fc389b6e7a65fc38013ac6c6",
+  "approved_rows": 10,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-great-totham-primary-school",
     "teaching-vacancies-receptionist-the-eastwood-academy",
+    "teaching-vacancies-administrative-assistant-part-time-permanent",
     "teaching-vacancies-send-administrative-assistant-greenways-primary-school",
-    "teaching-vacancies-administration-assistant-d4c71f58-82f8-447e-966b-f065379eaa99",
-    "teaching-vacancies-admin-assistant-buckhurst-hill-community-primary-school"
+    "teaching-vacancies-receptionist-student-services",
+    "teaching-vacancies-administration-assistant-1c448502-5efb-4cf5-99ef-325c9696302b",
+    "teaching-vacancies-administrator-reprographics-mossbourne-fobbing-academy",
+    "teaching-vacancies-admin-assistant-buckhurst-hill-community-primary-school",
+    "teaching-vacancies-administration-assistant-one-year-fixed-term",
+    "teaching-vacancies-admin-assistant-larchwood-primary-school",
+    "teaching-vacancies-administration-assistant-high-ongar-primary-school"
   ]
 }

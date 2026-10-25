@@ -1,21 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:12+01:00",
+  "generated_at": "2026-10-25T13:16:06+00:00",
   "source": "Teaching Vacancies",
   "region": "Sussex",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "d76a6fd30c457abc2deb9a8b9d41975b1a590ed89443812e140fa2e1ec70d2b9",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "c5a017121c9f585b7c5fa60f6207ead2c9391534bb4b338886fbce9699874200",
-  "summary_md_sha256": "dcaa4329971a125b0218aa3ec80c69d85e1a976fc7692242092497d7a289bafb",
-  "approved_snapshot_sha256": "1745836b4efd474601f53524c8e23aa0a5a98e1626b6c4735c74f2b686646e28",
-  "approved_rows": 4,
-  "approved_job_ids": [
-    "teaching-vacancies-senior-leadership-team-administrator-milton-mount-primary-school",
-    "teaching-vacancies-administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610",
-    "teaching-vacancies-attendance-officer-oakwood-primary-academy",
-    "teaching-vacancies-admissions-transition-assistant-community-receptionist-tanbridge-house-school"
-  ]
+  "review_date": "2026-10-25",
+  "review_fingerprint": "20fc669b3f572d243aa4b20aaee6ab283adf096533cdaced15ac6aacc055c49c",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "66e5f5005eb56bcdb60bd1a99cdaf33eb7823ec108e8f1dc6859e571995529b6",
+  "summary_md_sha256": "43afe7660309c71844a7ac42a035ba79d62b0351c51142d9284072d2247f3755",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

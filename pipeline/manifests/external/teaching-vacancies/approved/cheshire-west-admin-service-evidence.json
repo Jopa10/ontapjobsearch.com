@@ -1,18 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:07+01:00",
+  "generated_at": "2026-10-25T13:16:01+00:00",
   "source": "Teaching Vacancies",
   "region": "Cheshire - West",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "8864a508bad4b8fd449d37a72b4c38366e9c653d0140d489fa7c5616ef1e565a",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "270e53f9112f0e4910c90ae334f15af8df10e311c70a4e25002a046316ff6fb4",
-  "summary_md_sha256": "4c7141f72f83497e4d083c3ebc2b9f935d100b83273626c43d20e05995f287c1",
-  "approved_snapshot_sha256": "05cf986fd36e91ae006a224e5b688adb21c51900a311543ea6f18bed44b6b541",
-  "approved_rows": 1,
-  "approved_job_ids": [
-    "teaching-vacancies-finance-administrator-helsby-high-school"
-  ]
+  "review_date": "2026-10-25",
+  "review_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "702f50012ea04e84d7b686299a494b6ac1367401bcce8a647ec6c7e552c9ec31",
+  "summary_md_sha256": "7e2aae43391e650ae70263ad124ed9f3df253a481bc0bd209de178a1ad20d782",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

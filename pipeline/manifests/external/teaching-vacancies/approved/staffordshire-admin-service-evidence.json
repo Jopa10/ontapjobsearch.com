@@ -1,16 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:11+01:00",
+  "generated_at": "2026-10-25T13:16:05+00:00",
   "source": "Teaching Vacancies",
   "region": "Staffordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "2eb17b4a66ac619cb449a54aeb82ba37af2f60f65a7b28dc580cd1a5484a5323",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "bee58a1ac3567cbef0c0aa3aa7206f7acc666ba1de757e906fad38c63ee8bfad",
-  "summary_md_sha256": "428b07bdf50d1cae6c0be332ad28bd13c1c4914c470f2423ad99fae57641417c",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "review_date": "2026-10-25",
+  "review_fingerprint": "5dfe40012c046deca5c24398f745b0325c57c5f6296414fbfe1ea85d780d44b6",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "025678e2c28991898767fa5c1a819bd05ef72328992e16724b7a0709615c2985",
+  "summary_md_sha256": "f3ad67685584db3368548af506aae9b920abfc308d150034b049947c8af69897",
+  "approved_snapshot_sha256": "4de48a21ee4d8e3e868748f6cd0e439aa3e5fdf04939112961cac9aea28c37b4",
+  "approved_rows": 3,
+  "approved_job_ids": [
+    "teaching-vacancies-school-administrator-st-patrick-s-catholic-primary-school-stafford-staffordshire",
+    "teaching-vacancies-administrative-assistant-the-hart-school",
+    "teaching-vacancies-attendance-admin-assistant-3eb72589-09a8-45cd-a3b2-637d65a99a60"
+  ]
 }

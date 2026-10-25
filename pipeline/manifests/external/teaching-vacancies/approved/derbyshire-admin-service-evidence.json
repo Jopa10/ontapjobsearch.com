@@ -1,18 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:08+01:00",
+  "generated_at": "2026-10-25T13:16:01+00:00",
   "source": "Teaching Vacancies",
   "region": "Derbyshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "6562b577b97b57ea787b41ac83f9d98e993f81fa4933462c1fd5a168bb2e2a0a",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "54dfde1819bb4499a3f6811d06fed5cb3dc64add2bdab84893f174f27a842871",
-  "summary_md_sha256": "46e389111335a2f8845ced77b39e4392c0b3d57b52485ae99c74230cec9a871b",
-  "approved_snapshot_sha256": "a9eef70058208fa54f0030f8217f31ff3b8153b87caa0a2b8ae64ef48fbfd73b",
+  "review_date": "2026-10-25",
+  "review_fingerprint": "25bc572a50af61efaca467c6e4bcff95ddb501460e3149d1239636d82c838fe1",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "df62ab84d7c3a49fd733288a7fb28a3be2f446a065515c1235a4f1fc621fc4aa",
+  "summary_md_sha256": "4145b5bcdf96ae6572cf594def8babc97e5fc86938e179c91aba72eadc12d30d",
+  "approved_snapshot_sha256": "0e3cb1e67242607d187ddc0bfa90e294bad310cdb46e7ef055880d7910f2633e",
   "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-full-and-part-time-post-available"
+    "teaching-vacancies-receptionist-d23e1267-9b18-4deb-8377-a4ade5fb90cf"
   ]
 }

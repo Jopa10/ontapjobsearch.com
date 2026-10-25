@@ -22,9 +22,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Fallibroome Academy",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-receptionist-and-admin-assistant-maternity-cover",
+    "title": "Receptionist and Admin Assistant (Maternity Cover)",
+    "company": "Bexton Primary School",
+    "location": "Knutsford",
+    "region": "Cheshire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£22,100.00 Annually (Actual)",
+    "work_pattern": "",
+    "posted_date": "2026-10-21",
+    "closing_date": "2026-11-09",
+    "closing_datetime": "2026-11-09T09:00:00+00:00",
+    "summary": "Receptionist and Admin Assistant (Maternity Cover) with Bexton Primary School in Knutsford. ['part time']; £22,100.00 Annually (Actual).",
+    "description": "Bexton Primary School is recruiting for this vacancy in Knutsford.\n\nThe advertised position is Receptionist and Admin Assistant (Maternity Cover).\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £22,100.00 Annually (Actual).\n\nThe stated application deadline is 2026-11-09T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-maternity-cover?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -344,6 +366,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0233-26-2106",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

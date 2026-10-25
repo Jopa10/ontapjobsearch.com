@@ -1,21 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:07+01:00",
+  "generated_at": "2026-10-25T13:16:00+00:00",
   "source": "Teaching Vacancies",
   "region": "Buckinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "724ff740c5340201ef49df50633239879cc5bf101b1e1d63d87273c7c0fc91e1",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "8e68bc5f411faee212fbb04628ce9c77a2cb30975a3b559533dd66a87aa9bb46",
-  "summary_md_sha256": "ab3ab408df967dd46ef2fb4bd0ce2dde58fb30b3580181eaccf60e9c7790f3e2",
-  "approved_snapshot_sha256": "9a66ce8f466daf3b65a5e09fbe9b810efc888cba77d082e9d16fb26bd6ba2c9f",
-  "approved_rows": 4,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "e1d9f4f39278af18e2f680def9120c14efc62218e6812ec309a40d6e2d3b95fa",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "7f0e5faaba7ba0fdc4d52350482c958e7c2fe93ce5cce47745ec8be5ddef58bc",
+  "summary_md_sha256": "a3f6b923e3c9c3a2e6d3016b62c61c650b3035f98639cdd4a86f180bc9503843",
+  "approved_snapshot_sha256": "7652eff2121f920fbb0802c9518c35ef4c3a0c8e5e64332e1b6a78ebfe8b1aa5",
+  "approved_rows": 6,
   "approved_job_ids": [
-    "teaching-vacancies-administrator-prison-education-hmp-bullingdon",
-    "teaching-vacancies-receptionist-admissions-officer-bearbrook-combined-school",
+    "teaching-vacancies-finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895",
+    "teaching-vacancies-trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded",
     "teaching-vacancies-development-administrator",
-    "teaching-vacancies-payroll-and-hr-support-administrator"
+    "teaching-vacancies-receptionist-general-administrator-ad565c22-7800-442c-b92a-0cd4c39c9cec",
+    "teaching-vacancies-reprographics-administrative-assistant",
+    "teaching-vacancies-school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded"
   ]
 }

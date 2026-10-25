@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-send-administrator-and-librarian",
-    "title": "SEND Administrator and Librarian",
-    "company": "Hamp Academy",
-    "location": "Bridgwater",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "BTCT Band 4",
-    "work_pattern": "",
-    "posted_date": "2026-10-13",
-    "closing_date": "2026-11-01",
-    "closing_datetime": "2026-11-01T23:59:00+00:00",
-    "summary": "SEND Administrator and Librarian with Hamp Academy in Bridgwater. ['part time']; BTCT Band 4.",
-    "description": "Hamp Academy is recruiting for this vacancy in Bridgwater.\n\nThe advertised position is SEND Administrator and Librarian.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is BTCT Band 4.\n\nThe stated application deadline is 2026-11-01T23:59:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/send-administrator-and-librarian?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hamp Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb",
     "title": "HR Officer/PA to Headteacher",
     "company": "The Kings of Wessex Academy",
@@ -50,63 +22,7 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Kings of Wessex Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-senior-administrator-locking-primary-school",
-    "title": "Senior Administrator",
-    "company": "Locking Primary School",
-    "location": "Weston-Super-Mare",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,835.02",
-    "work_pattern": "",
-    "posted_date": "2026-10-12",
-    "closing_date": "2026-11-02",
-    "closing_datetime": "2026-11-02T23:59:59+00:00",
-    "summary": "Senior Administrator with Locking Primary School in Weston-Super-Mare. ['full time']; £25,835.02.",
-    "description": "Locking Primary School is recruiting for this vacancy in Weston-Super-Mare.\n\nThe advertised position is Senior Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,835.02.\n\nThe stated application deadline is 2026-11-02T23:59:59+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-locking-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Locking Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "2092599",
-    "title": "Assistant Management Accountant",
-    "company": "Change Recruitment Services Ltd - Agency - Permanent",
-    "location": "Taunton",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-10-09",
-    "description": "Change Recruitment are pleased to be working with a growing business based in Taunton, Somerset. They are looking to add a newly created role of Assistant Management Accountant to the finance team, reporting directly to the Head of Finance.\n\nIn this role you will be responsible for the production of monthly management accounts to help support effective decision making by the senior management team. Some key duties are outlined below:\n- Prepare monthly management accounts accurately and to agreed deadlines\n- Maintain and develop cost centre and departmental reporting\n- Prepare and review balance sheet reconciliations\n- Prepare and post accruals, prepayments, depreciation and other month-end journals\n- Support the monthly close process and maintain appropriate month-end schedules and controls\n- Analyse actual performance against budget, forecast and prior periods, providing clear explanations for material variances\n- Support stock accounting and inventory control\n- Produce meaningful financial and operational analysis\n- Assist with budgeting, forecasting and cash-flow reporting\n- Support the development of management information, KPIs and Board reporting\n- Assist with VAT returns and other statutory or regulatory finance requirements.\n- Support year-end accounts preparation\n- Develop effective working relationships with colleagues across all departments\n\nThe ideal candidate will have experience producing sets of management accounts and be confident in building internal working relationships with colleagues. You will have strong systems experience and be confident in the use of MS Excel to generate reports.\n\nIn return this role offers a competitive salary and excellent opportunity to develop and grow your skills.\n\nChange Recruitment Services Limited provides services as an Agency and an Employment Business, and is committed to equal opportunities for all candidates.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAzt%2f3hG5S7Rqc5AWxsEvx3av",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Change Recruitment Services Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225754850",
@@ -675,6 +591,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1097-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -694,6 +613,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1305-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -713,6 +635,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1541",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -732,6 +657,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0497",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -751,6 +679,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3091-26-0010",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -770,6 +701,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0014",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

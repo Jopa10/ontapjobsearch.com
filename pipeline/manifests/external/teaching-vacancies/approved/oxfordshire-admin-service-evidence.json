@@ -1,19 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:11+01:00",
+  "generated_at": "2026-10-25T13:16:05+00:00",
   "source": "Teaching Vacancies",
   "region": "Oxfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "cd7c0eef8e38e2fe714385b6e6fd549418cdfe3d9b2e16666de6100d9fabab4a",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "54ed67e07fc8c2d0d93f6f094fa9aa3f224e6e3c1dd71a46b138944139fbba36",
-  "summary_md_sha256": "7e3ac9f35e2978d4c6083b317134563e3c55fdc029bffc57a8c3ac5a82241131",
-  "approved_snapshot_sha256": "cfb55bdcf8e63a1d4cf50be6686efdc4cde7cf6d14e0092f716fe45d7bde588f",
-  "approved_rows": 2,
+  "review_date": "2026-10-25",
+  "review_fingerprint": "56ee7e677a51a61a12c1dff8f5b574e2bb1cd3e52ccb0f7e401637998e69bd5b",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "672d4c967da2aa4989906c24de24d1d463ffd91a9d984b11e1cab510a3b94acf",
+  "summary_md_sha256": "44695419c9990e8f57d2816a456b51544280b3aeedc98e49301520f618cad4dd",
+  "approved_snapshot_sha256": "8054f73d9d4bd6337bcbecd3e448f63e2a2158fc8dcfc24587e85aa0bbb1bcae",
+  "approved_rows": 6,
   "approved_job_ids": [
     "teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-school",
-    "teaching-vacancies-inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd"
+    "teaching-vacancies-inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd",
+    "teaching-vacancies-attendance-officer-d54c1efe-4fd8-4cc4-a0a6-62106b181556",
+    "teaching-vacancies-procurement-administrator-hybrid-role-river-learning-trust",
+    "teaching-vacancies-student-services-administrator-faringdon-community-college",
+    "teaching-vacancies-administrator-and-finance-assistant-rush-common-school"
   ]
 }

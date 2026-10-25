@@ -1,19 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-14T16:50:08+01:00",
+  "generated_at": "2026-10-25T13:16:02+00:00",
   "source": "Teaching Vacancies",
   "region": "Dorset",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-14",
-  "review_fingerprint": "509ff386722af1f5db353ef3431032ef8fc7f3087b169083085a636e2f6edd00",
-  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
-  "review_csv_sha256": "75d3f3a32a0dcc307611f9dc4562c3966fb6f60b7bd0e2add84b77f6e5af64d3",
-  "summary_md_sha256": "da8ba878192f8b916f1b879066e3b5abce5069ca9a69c1da5341122857b4ed37",
-  "approved_snapshot_sha256": "b8475c42f6463cdf3aa5ca7d11fd7c4ad0aa9f7f08f497a2524715b9a4beda83",
+  "review_date": "2026-10-25",
+  "review_fingerprint": "44a259289603644eea2fb53181c0fac9042c72ecdc368d00c2728557b883e131",
+  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
+  "review_csv_sha256": "93dc74b9050ab50094a1bad50d29f47598999b5d1599ac841839d68a6fa2873e",
+  "summary_md_sha256": "c016289b39a72b2ac5e67c78a2de7707bd204880654ad01bc3ec79bff31c7e2d",
+  "approved_snapshot_sha256": "4e76b75531772aef2e2396d2f1fec784852f1dfd81841d6e6bd5ced3d99f24d4",
   "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-english-department-administrator-librarian",
+    "teaching-vacancies-english-department-administrator-librarian-the-bishop-of-winchester-academy",
     "teaching-vacancies-receptionist-admin-assistant-ferndown-middle-school",
     "teaching-vacancies-admin-assistant-southern-education-trust"
   ]

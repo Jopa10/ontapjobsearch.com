@@ -1,5 +1,55 @@
 [
   {
+    "job_id": "teaching-vacancies-school-administrator-north-star-265-bristol-bristol",
+    "title": "School Administrator",
+    "company": "North Star 265°",
+    "location": "Bristol",
+    "region": "Bristol & Bath",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,824.00 - £28,142.00 Annually (Actual) Actual salary £22,677 - £23,791 per annum",
+    "work_pattern": "",
+    "posted_date": "2026-10-22",
+    "closing_date": "2026-11-01",
+    "closing_datetime": "2026-11-01T23:59:00+00:00",
+    "summary": "School Administrator with North Star 265° in Bristol. ['full time']; £26,824.00 - £28,142.00 Annually (Actual) Actual salary £22,677 - £23,791 per annum.",
+    "description": "North Star 265° is recruiting for this vacancy in Bristol.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,824.00 - £28,142.00 Annually (Actual) Actual salary £22,677 - £23,791 per annum.\n\nThe stated application deadline is 2026-11-01T23:59:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-north-star-265-bristol-bristol?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-administrative-assistant-trips-visits-events",
+    "title": "Administrative Assistant (Trips, Visits & Events)",
+    "company": "Ashton Park School",
+    "location": "Bristol",
+    "region": "Bristol & Bath",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£20,934.15 - £21,613.34 Annually (Actual) NJC 8 - 10 (£27,709 - £28,608)",
+    "work_pattern": "",
+    "posted_date": "2026-10-22",
+    "closing_date": "2026-11-02",
+    "closing_datetime": "2026-11-02T23:59:00+00:00",
+    "summary": "Administrative Assistant (Trips, Visits & Events) with Ashton Park School in Bristol. ['part time']; £20,934.15 - £21,613.34 Annually (Actual) NJC 8 - 10 (£27,709 - £28,608).",
+    "description": "Ashton Park School is recruiting for this vacancy in Bristol.\n\nThe advertised position is Administrative Assistant (Trips, Visits & Events).\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £20,934.15 - £21,613.34 Annually (Actual) NJC 8 - 10 (£27,709 - £28,608).\n\nThe stated application deadline is 2026-11-02T23:59:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-trips-visits-events?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "teaching-vacancies-exams-officer-downend-school-bristol",
     "title": "Exams Officer",
     "company": "Downend School",
@@ -22,9 +72,56 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Downend School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-receptionist-fairfield-high-school",
+    "title": "Receptionist",
+    "company": "Fairfield High School",
+    "location": "Bristol",
+    "region": "Bristol & Bath",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,247.00 - £27,274.00 Annually (FTE)",
+    "work_pattern": "",
+    "posted_date": "2026-10-23",
+    "closing_date": "2026-11-03",
+    "closing_datetime": "2026-11-03T09:00:00+00:00",
+    "summary": "Receptionist with Fairfield High School in Bristol. ['part time']; £26,247.00 - £27,274.00 Annually (FTE).",
+    "description": "Fairfield High School is recruiting for this vacancy in Bristol.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,247.00 - £27,274.00 Annually (FTE).\n\nThe stated application deadline is 2026-11-03T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-fairfield-high-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-school-administrator-mat-cover",
+    "title": "School Administrator MAT cover",
+    "company": "Little Mead Primary Academy",
+    "location": "Bristol",
+    "region": "Bristol & Bath",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,847.00 - £27,274.00 Annually (FTE)",
+    "work_pattern": "",
+    "posted_date": "2026-10-19",
+    "closing_date": "2026-11-09",
+    "closing_datetime": "2026-11-09T23:59:00+00:00",
+    "summary": "School Administrator MAT cover with Little Mead Primary Academy in Bristol. ['part time']; £26,847.00 - £27,274.00 Annually (FTE).",
+    "description": "Little Mead Primary Academy is recruiting for this vacancy in Bristol.\n\nThe advertised position is School Administrator MAT cover.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,847.00 - £27,274.00 Annually (FTE).\n\nThe stated application deadline is 2026-11-09T23:59:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-mat-cover?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -903,31 +1000,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225660760",
-    "title": "Payroll Manager (Part Time)",
-    "company": "Reed Technology - Agency - Permanent",
-    "location": "Bath",
-    "region": "Bristol & Bath",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "39000",
-    "salary_max": "47000",
-    "salary_text": "£39000 - £47000 per year",
-    "posted_date": "2026-10-24",
-    "description": "Payroll Manager (Part Time)\n\nBath (Outskirts - Free Onsite Parking Available) Flexible Working up to 22.5 Hours Per Week Salary: 40,000 - 47,000 FTE Permanent\n\nAre you an experienced payroll professional looking for a flexible part-time opportunity where you can make a genuine impact?\n\nA well-established organisation on the outskirts of Bath is seeking a Payroll Manager to take ownership of payroll during an exciting period of transformation. This is a rare opportunity to lead the transition from an outsourced payroll model to a fully in-house function while supporting the implementation of a new HR and payroll system.\n\nWorking closely with HR, Finance and external consultants, you will become the organisation's payroll expert, helping to shape processes, oversee testing and ensure a successful payroll transition. Once transitioned the postholder will the be responsible for the ongoing processing of the payroll.\n\nWith a part time commitment of up to 22.5 hours per week and hybrid working available, this role could be ideal for an experienced payroll professional looking to reduce their hours, someone seeking an additional part-time opportunity, or an individual looking for a flexible position that still offers strategic responsibility and project involvement.\n\nKey Responsibilities\n- Manage the end-to-end monthly payroll process for circa 600 employees.\n- Lead payroll implementation and transition projects.\n- Ensure payroll compliance with HMRC and statutory requirements.\n- Manage pension administration and auto-enrolment activities.\n- Complete payroll reconciliations and reporting.\n- Produce payroll reports, forecasts and audit information.\n- Act as the key contact for payroll and pension queries.\n- Drive continuous improvements to payroll processes and systems.\n\nAbout You\n\nWe would love to hear from individuals who have:\n- Significant end-to-end payroll experience.\n- Strong payroll legislation knowledge.\n- Payroll and pensions administration experience.\n- Experience working with payroll and HR systems.\n- Advanced Excel skills.\n- A high level of accuracy and attention to detail.\n- The confidence to operate as a standalone payroll specialist.\n\nWhether you're currently a Payroll Manager, Payroll Team Leader, Payroll Supervisor, or a senior payroll professional seeking greater flexibility, this could be an excellent opportunity to utilise your expertise whilst maintaining a healthy work-life balance.\n\nBenefits\n- Salary up to 47,000 FTE.\n- Hybrid working.\n- Free onsite parking.\n- Enhanced holiday entitlement.\n- Personal pension plan.\n- Health Cash Plan.\n- Employee Assistance Programme.\n- Flexible working opportunities.\n- Cycle to Work Scheme.\n- Family-friendly policies.\n- Wellbeing initiatives.\n- Subsidised meals and refreshments.\n\nIf you're looking for a role where you can take ownership, influence change and play a key role in an exciting payroll transformation project, we'd love to hear from you.\n\nPlease apply online ASAP. Successful applicants will be contacted within 24 working hours.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX5KTELKrlz3VQDeBV%2bYHWMRz",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "With a part time commitment of up to 22.5 hours per week and hybrid working available, this role could be ideal for an experienced payroll professional looking to reduce their hours, someone seeking an additional part-time opportunity, or an individual looking for a flexible position that still offers strategic responsibility and project involvement.",
-    "advertiser_name": "Reed Technology",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "2049154",
     "title": "Audit & Accounts Assistant",
     "company": "Reed - Agency - Permanent",
@@ -1094,6 +1166,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0769",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1113,6 +1188,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0560",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1132,6 +1210,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0104-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1151,6 +1232,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0375-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1170,6 +1254,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0380-26-0017",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1189,6 +1276,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2148",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1208,6 +1298,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0393-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1227,6 +1320,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0678-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1246,6 +1342,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0477-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
