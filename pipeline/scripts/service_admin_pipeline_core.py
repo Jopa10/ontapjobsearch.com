@@ -69,6 +69,7 @@ import pandas as pd
 
 try:
     from .pipeline_refinement import (
+        missing_owner_salary_should_exclude,
         assess_context_policy,
         assess_salary,
         load_refinement_rules,
@@ -78,6 +79,7 @@ try:
     )
 except ImportError:  # direct script/test loading
     from pipeline_refinement import (
+        missing_owner_salary_should_exclude,
         assess_context_policy,
         assess_salary,
         load_refinement_rules,
@@ -105,6 +107,8 @@ MANUAL_REVIEW_FIELDNAMES = [
     "manual_override",
     "manual_select",
     "job_id",
+    "reason",
+    "annual_salary_upper",
 ]
 CURRENT_FEED_DATE = ""
 SALARY_THRESHOLDS = load_salary_thresholds()
@@ -2066,6 +2070,13 @@ def _process_batch(
             if part_time_active
             else owner_title_salary_rule(title, salary_assessment.annual_upper_gbp)
         )
+        if owner_salary_status and missing_owner_salary_should_exclude(
+            salary_text_preview, salary_assessment.annual_upper_gbp,
+            part_time_finance=part_time_active,
+        ):
+            owner_salary_status = "exclude"
+            owner_salary_reason = None
+            owner_salary_hard_fail = "Salary not stated: owner rule excludes blank pay"
         if owner_salary_status:
             owner_threshold = (
                 DOCUMENT_CONTROLLER_QUERY_GBP
