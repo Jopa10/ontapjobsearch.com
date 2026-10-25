@@ -96,8 +96,8 @@ class ServiceAdminOwnerHardFailTests(unittest.TestCase):
                 self.assertEqual(hard_fail, actual[2])
         self.assertEqual("review", owner_title_salary_rule("Document Controller", None)[0])
 
-    def test_finance_assistant_bookkeeper_and_receptionist_salary_boundary(self) -> None:
-        for title in ("Assistant Accountant", "Assistant Management Accountant", "Bookkeeper", "Receptionist/Concierge"):
+    def test_bookkeeper_and_receptionist_salary_boundary(self) -> None:
+        for title in ("Bookkeeper", "Receptionist/Concierge"):
             with self.subTest(title=title):
                 self.assertEqual("ok", owner_title_salary_rule(title, 40_000)[0])
                 self.assertEqual("review", owner_title_salary_rule(title, 40_001)[0])
@@ -128,7 +128,7 @@ class ServiceAdminOwnerHardFailTests(unittest.TestCase):
     def test_part_time_finance_with_unclear_hours_is_review(self) -> None:
         assessment = SalaryAssessment("ok", 30_000, 37_000, "annual salary")
         active, status, annual, reason = assess_part_time_finance(
-            title="Assistant Accountant - Part Time",
+            title="Finance Assistant - Part Time",
             employment_type="Part-time",
             description="Competitive salary. Hours to be agreed.",
             salary_period="annual",

@@ -87,6 +87,12 @@ def classify(
     cfg: dict[str, Any] | None = None,
 ) -> tuple[bool, str]:
     cfg = cfg or _load_config()
+    if re.search(
+        r"\baccountants?\b|\baccounts?\s+(?:senior|semi[-\s]?senior)\b",
+        title,
+        re.IGNORECASE,
+    ):
+        return False, "accountant roles are excluded regardless of working hours"
     hard_max = float(cfg.get("hard_salary_max", 45000))
     values = (
         annualise(salary_min, period),

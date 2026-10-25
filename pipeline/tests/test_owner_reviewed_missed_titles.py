@@ -15,7 +15,6 @@ class OwnerReviewedMissedTitleTests(unittest.TestCase):
         for title in (
             "Accounts Payable Analyst",
             "Accounts Payable Analyst Hybrid",
-            "Assistant Accountant (Hybrid)",
             "Finance Administration Officer",
             "Purchase Ledger Clerk Role",
             "Accounts Payable Clerk",
@@ -30,6 +29,16 @@ class OwnerReviewedMissedTitleTests(unittest.TestCase):
                     title, "Practical finance operations", "Annual", 26000, 33000
                 )
                 self.assertTrue(keep)
+
+        keep, reason = finance_accounts_pipeline.classify(
+            "Assistant Accountant (Hybrid)",
+            "Practical finance operations",
+            "Annual",
+            26000,
+            33000,
+        )
+        self.assertFalse(keep)
+        self.assertIn("excluded regardless of working hours", reason)
 
     def test_hr_payroll_administrator_is_in(self) -> None:
         keep, _reason = hr_recruitment_pipeline.classify(
