@@ -67,7 +67,8 @@ class ServiceAdminOwnerSelectionRuleTests(unittest.TestCase):
         self.assertIn("Salary not stated", reports["dc-unknown"]["reason"])
         self.assertEqual("", jobs["rec40"]["_review_required"])
         self.assertEqual("1", jobs["rec41"]["_review_required"])
-        self.assertEqual("1", jobs["asst40"]["_review_required"])
+        self.assertNotIn("asst40", jobs)
+        self.assertIn("accountant/accountancy senior role", reports["asst40"]["reason"])
         self.assertEqual("1", jobs["bookkeeper41"]["_review_required"])
         self.assertNotIn("cap51", jobs)
 

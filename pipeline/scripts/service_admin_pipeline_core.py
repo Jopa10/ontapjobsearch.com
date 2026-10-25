@@ -275,8 +275,21 @@ PART_TIME_HOURS_RE = re.compile(
     re.IGNORECASE,
 )
 FINANCE_PART_TIME_TITLE_RE = re.compile(
-    r"\b(?:finance|financial|accounts?|accounting|accountant|bookkeep(?:er|ing)|"
+    # Match finance/accounting job titles without treating generic Account
+    # Executive / Account Manager roles as finance work.
+    r"\b(?:finance|financial|accounts|accounting|accountant|bookkeep(?:er|ing)|"
     r"payroll|ledger|credit\s+control(?:ler)?|billing|invoic(?:e|ing))\b",
+    re.IGNORECASE,
+)
+MANAGER_TITLE_RE = re.compile(r"\bmanager\b", re.IGNORECASE)
+PART_TIME_ELIGIBLE_MANAGER_AREA_RE = re.compile(
+    r"\b(?:office|administration|administrative|admin|human\s+resources|hr|"
+    r"finance|financial|accounts|accounting|payroll|bookkeep(?:er|ing)|"
+    r"credit\s+control(?:ler)?|billing|invoic(?:e|ing)|service)\b",
+    re.IGNORECASE,
+)
+ACCOUNTANT_ROLE_TITLE_RE = re.compile(
+    r"\baccountants?\b|\baccounts?\s+(?:senior|semi[-\s]?senior)\b",
     re.IGNORECASE,
 )
 PART_TIME_ALWAYS_EXCLUDE_TITLE_RE = re.compile(
@@ -1709,6 +1722,8 @@ def absolute_hard_fail_hits(title_key: str) -> list[str]:
         hits.append("import/export named in title")
     if LANGUAGE_REQUIRED_TITLE_RE.search(title_key):
         hits.append("explicit language requirement in title")
+    if ACCOUNTANT_ROLE_TITLE_RE.search(title_key):
+        hits.append("accountant/accountancy senior role")
     return hits
 
 
@@ -1750,7 +1765,7 @@ def owner_title_salary_rule(
     return None, None, None
 
 
-def assess_part_time_finance(
+def assess_part_time_role(
     *,
     title: str,
     employment_type: str,
@@ -1758,8 +1773,10 @@ def assess_part_time_finance(
     salary_period: str,
     salary_text: str,
     salary_assessment: Any,
+    eligible_title_re: re.Pattern[str],
+    always_review: bool = False,
 ) -> tuple[bool, str, float | None, str]:
-    """Apply the explicit part-time finance exception using actual earnings.
+    """Apply a scoped part-time exception using actual earnings.
 
     Hourly rates are annualised using stated weekly hours. Annual FTE/pro-rata
     ranges are reduced by the stated hours against a 37.5-hour week. When part-
@@ -1778,7 +1795,7 @@ def assess_part_time_finance(
     explicitly_part_time = bool(PART_TIME_MARKER_RE.search(title + " " + text))
     if stated_hours is not None and stated_hours < 37.5:
         explicitly_part_time = True
-    if not explicitly_part_time or not FINANCE_PART_TIME_TITLE_RE.search(title):
+    if not explicitly_part_time or not eligible_title_re.search(title):
         return False, "", salary_assessment.annual_upper_gbp, ""
 
     if PART_TIME_ALWAYS_EXCLUDE_TITLE_RE.search(title_key):
@@ -1803,9 +1820,55 @@ def assess_part_time_finance(
 
     if annual_upper > 50_000:
         return True, "exclude", annual_upper, "actual part-time annual earnings over £50k"
+    if always_review:
+        return True, "review", annual_upper, "part-time manager role requires owner review"
     if annual_upper > 40_000:
         return True, "review", annual_upper, "actual part-time annual earnings over £40k"
     return True, "ok", annual_upper, "actual part-time annual earnings at or below £40k"
+
+
+def assess_part_time_finance(
+    *,
+    title: str,
+    employment_type: str,
+    description: str,
+    salary_period: str,
+    salary_text: str,
+    salary_assessment: Any,
+) -> tuple[bool, str, float | None, str]:
+    return assess_part_time_role(
+        title=title,
+        employment_type=employment_type,
+        description=description,
+        salary_period=salary_period,
+        salary_text=salary_text,
+        salary_assessment=salary_assessment,
+        eligible_title_re=FINANCE_PART_TIME_TITLE_RE,
+    )
+
+
+def assess_part_time_manager(
+    *,
+    title: str,
+    employment_type: str,
+    description: str,
+    salary_period: str,
+    salary_text: str,
+    salary_assessment: Any,
+) -> tuple[bool, str, float | None, str]:
+    """Keep in-scope office/finance managers in owner review when part-time."""
+    if not MANAGER_TITLE_RE.search(title):
+        return False, "", salary_assessment.annual_upper_gbp, ""
+    return assess_part_time_role(
+        title=title,
+        employment_type=employment_type,
+        description=description,
+        salary_period=salary_period,
+        salary_text=salary_text,
+        salary_assessment=salary_assessment,
+        eligible_title_re=PART_TIME_ELIGIBLE_MANAGER_AREA_RE,
+        always_review=True,
+    )
 
 
 def classify_title(title: str, title_register: dict[str, dict[str, str]] | None = None) -> tuple[str, str, int, str]:
@@ -2028,16 +2091,28 @@ def _process_batch(
             family="admin_service",
             reviewed_ceiling_gbp=reviewed_salary_ceiling,
         )
+        part_time_inputs = {
+            "title": title,
+            "employment_type": employment_type,
+            "description": raw_description,
+            "salary_period": normalise_salary_period(row),
+            "salary_text": salary_text_preview,
+            "salary_assessment": salary_assessment,
+        }
         part_time_active, part_time_status, part_time_annual_upper, part_time_reason = (
-            assess_part_time_finance(
-                title=title,
-                employment_type=employment_type,
-                description=raw_description,
-                salary_period=normalise_salary_period(row),
-                salary_text=salary_text_preview,
-                salary_assessment=salary_assessment,
-            )
+            assess_part_time_finance(**part_time_inputs)
         )
+        if (
+            part_time_active
+            and MANAGER_TITLE_RE.search(title)
+            and part_time_status == "ok"
+        ):
+            part_time_status = "review"
+            part_time_reason = "part-time manager role requires owner review"
+        if not part_time_active:
+            part_time_active, part_time_status, part_time_annual_upper, part_time_reason = (
+                assess_part_time_manager(**part_time_inputs)
+            )
         part_time_hard_fail = (
             part_time_reason
             if part_time_active and part_time_status == "exclude"
