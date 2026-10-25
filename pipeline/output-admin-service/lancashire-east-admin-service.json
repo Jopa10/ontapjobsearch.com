@@ -50,31 +50,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225730840",
-    "title": "Assistant Management Accountant",
-    "company": "Hays Accounts and Finance - Agency - Temporary",
-    "location": "Burnley",
-    "region": "Lancashire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "20.88",
-    "salary_max": "20.88",
-    "salary_text": "£20.88 per hour (Up to £38,000)",
-    "posted_date": "",
-    "description": "Your new company\n\nA respected and well-established not-for-profit organisation in Burnley is seeking an Assistant Managememt Accountant to join its friendly finance team on a temporary basis.\nThis is an excellent opportunity for an AAT-qualified or part-qualified finance professional looking for a varied accounting role within a purpose-driven organisation that genuinely makes a difference within the local community.\n\nOffering flexible hybrid working, a 35-hour working week and excellent work-life balance.\nYour new role\n\nWorking closely with the senior finance team, you'll play a key role in supporting month-end processes and ensuring the accuracy of financial reporting.\n\nKey Responsibilities\n- Assisting with the preparation of monthly management accounts\n- Completing balance sheet reconciliations\n- Posting and reconciling accruals, prepayments, accrued income and deferred income\n- Performing intercompany reconciliations and processing internal recharges\n- Managing the purchase ledger function and supplier payment runs\n- Extracting, reconciling and posting transactions from online platforms including PayPal and Stripe\n- Supporting month-end close activities and financial reporting requirements\n- Analysing financial data using Excel\n\nWhat you'll need to succeed\n- AAT qualified or actively studying towards a finance qualification\n- Previous experience supporting management accounts preparation\n- Strong reconciliation and month-end experience\n- Excellent Excel skills, including Pivot Tables and VLOOKUPs\n- High levels of accuracy and attention to detail\n- Not-for-profit sector experience would be advantageous but is not essential\n\nWhat you'll get in return\n- Salary up to 38,000, depending on experience\n- Temporary role 3-6 months\n- Hybrid working arrangement\n- 35-hour working week\n- Supportive and collaborative team culture\n- Stable, well-established organisation\n\nWhat you need to do nowIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now. If this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion about your career.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbyBh8R72RNZ6zcCq0NACnn8t",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Offering flexible hybrid working, a 35-hour working week and excellent work-life balance.",
-    "advertiser_name": "Hays Accounts and Finance",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225682969",
     "title": "Business Administrator",
     "company": "EVO Personnel Ltd - Agency - Permanent",
@@ -215,24 +190,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5569798",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Sabden & Whalley Medical Group",
-    "advertiser_name": "Sabden & Whalley Medical Group",
-    "location": "Clitheroe, BB7 9SL",
-    "region": "Lancashire - East",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-13T16:52:18.986959439",
-    "closing_date": "2026-10-30",
-    "description": "We are looking to find the perfect fit to join the reception team at our GP Practice. The role of the GP Receptionist is fast-paced, and can at times be very demanding, so we are looking for an individual who is confident and resilient; with a professional attitude and an empathetic manner. Excellent communication and IT skills are essential, and candidates must be highly organised and also good at multi-tasking. Previous experience in a General Practice or healthcare setting is desirable, but not essential as training will be provided. The position is part time, working 27.75 hours over three days Processing in person, telephone and online requests for appointments, visits and telephone consultations and ensuring patients are directed to the appropriate healthcare professional. Computer data entry/data allocation and collation; processing and recording information in accordance with practice procedures. Providing clerical assistance to practice staff, including word/data processing, filing, photocopying and scanning. To act on patient requests with respect, sympathy and confidentiality. To deal with frustrated or upset patients in a professional manner, and to respond to any unpredictable situation that may arise. The Receptionist will be responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team. Duties can include, but are not limited to, greeting and directing patients, the effective use of the appointment system, booking appointments, the processing of information (electronic and hard copy) in a timely manner and in accordance with current policies, assisting patients as required and supporting the administration team with patient registration. The post-holder will act as the central point of contact for patients, be responsible for the distribution of information, messages and enquiries for the clinical team, liaise with multi-disciplinary team members and external agencies such as secondary care and community service providers. The Receptionist will support staff with the distribution of information, messages and enquiries for the clinical team, liaising with multidisciplinary team members and external agencies such as secondary care and community service providers. The post-holder will be an integral part of the general practice team. Please see the attached job description for further detail.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0046-26-0004",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0046-26-0004",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

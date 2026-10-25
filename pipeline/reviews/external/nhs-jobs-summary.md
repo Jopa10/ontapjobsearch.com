@@ -2,11 +2,11 @@
 
 review_date: 2026-10-25
 
-- Open Administrative & Clerical rows reviewed: 2178
+- Open Administrative & Clerical rows reviewed: 2173
 - Auto/remembered selected: 392
 - Selected HC Tier A: 200
 - Selected HC Tier B: 192
-- POSS awaiting decision: 1692
+- POSS awaiting decision: 1687
 - Excluded: 0
 - HARD_PASS: 94
 
@@ -1214,18 +1214,6 @@ factual_fingerprint: 3ec15130236c63cb8d44285152aa5d261d2af94f608ea411248bc57ee97
 
 ---
 action:
-POSS | NHS Jobs | London | London, E9 6SR | £47951.00 to £56863.00 | Senior People Advisor
-source_job_id: 5681475
-title: Senior People Advisor
-employer: Homerton Healthcare NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9293-26-0545
-factual_fingerprint: a2fcf52808a72be572a944b2016bb39f85f7bd76aa4ebeb1189206683004065c
----
-
----
-action:
 POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Salford, M6 8HD | £25272.00 | Ward Clerk - Acute Medical Unit
 source_job_id: 5683593
 title: Ward Clerk - Acute Medical Unit
@@ -1450,18 +1438,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1861
 factual_fingerprint: d2be3cc7ebe537ff47612d9c38888b31fdefbb6c3f9fee4475417a56939b3fdd
----
-
----
-action:
-POSS | NHS Jobs | London | Enfield, EN1 3ES | £30630.00 to £32346.00 | Band 3 Admin - 0-19 Operational Support Team
-source_job_id: 5681824
-title: Band 3 Admin - 0-19 Operational Support Team
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1860
-factual_fingerprint: 4a62e962624f0822b7c1c732179ae8d286f4afcc2a217903d89e29ad05cf5e7f
 ---
 
 ---
@@ -5362,18 +5338,6 @@ region: Sussex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0095-26-0007
 factual_fingerprint: 48a1eaa599b1d237651db2f1834986040bf50b6d51fbf40167ed7e86e79e78d6
----
-
----
-action:
-POSS | NHS Jobs | — | Wythenshawe, M23 9XD | £49387.00 to £56515.00 | Hive EPR Senior Analyst
-source_job_id: 5678246
-title: Hive EPR Senior Analyst
-employer: Manchester University NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3136
-factual_fingerprint: 46d97fe1ca54d8745d73b919abcdc9cde9e8ad7ae9371cf1024005c93d4415f7
 ---
 
 ---
@@ -13190,18 +13154,6 @@ factual_fingerprint: 61509a6732df3a5e1222b901f4e0dcf78da3149441edd944c3093cedeb2
 
 ---
 action:
-POSS | NHS Jobs | Northamptonshire | Northampton, NN15DG | £39959.00 to £48117.00 | Fire Safety Officer
-source_job_id: 5664946
-title: Fire Safety Officer
-employer: Northamptonshire Healthcare Foundation Trust
-region: Northamptonshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0826
-factual_fingerprint: de188ca120a65cbc206e6ef8e95f47cfe54deeeb211d044b682e3658ce3da93a
----
-
----
-action:
 POSS | NHS Jobs | London | Harrow, HA1 3UJ | £33262.00 to £36027.00 | OMFS Access Coordinator
 source_job_id: 5664898
 title: OMFS Access Coordinator
@@ -16054,18 +16006,6 @@ region: Buckinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0710
 factual_fingerprint: 84f7c238d740f5dd2bfd1ac5a15004c567ba6cfb51710f98926a7872648f9247
----
-
----
-action:
-POSS | NHS Jobs | Oxfordshire | Oxford, OX3 7LE | £28392.00 to £31157.00 | Chemotherapy Co-ordinator Scheduler
-source_job_id: 5658475
-title: Chemotherapy Co-ordinator Scheduler
-employer: Oxford University Hospitals NHS Foundation Trust
-region: Oxfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1852
-factual_fingerprint: e558113a39efd4fd2fc9d77b51163618f2be07ac7ee65d24e22e9f3844d59032
 ---
 
 ---
@@ -19653,7 +19593,7 @@ employer: Connexus PCN
 region: Bristol & Bath
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1833-26-0015
-factual_fingerprint: 1e6b23825c3b7820430488682ac42c3a4e6a4f582c0c153eb5dccdef05e7ed2e
+factual_fingerprint: 2e80b392dad07a77f4d3d40e0d834373a7029e4076cafb50cfae7841802488d0
 ---
 
 ---

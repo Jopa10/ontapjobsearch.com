@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "23643_225715447",
-    "title": "Interim Assistant Accountant",
-    "company": "Michael Page - Agency - Temporary",
-    "location": "Wrexham",
-    "region": "North Wales - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "30500",
-    "salary_max": "37500",
-    "salary_text": "£30500 - £37500 per year",
-    "posted_date": "",
-    "description": "As an Interim Assistant Accountant in Wrexham, you'll play a key role in supporting a growing finance team. Your day-to-day will include managing financial records, assisting with reports, and ensuring smooth financial operations.\n\nClient Details\n\nA growing organisation based in Wrexham with new modernised offices, offering plenty of facilities.\n\nDescription\n- Maintain accurate financial records and update accounting systems.\n- Assist in preparing financial reports and budgets.\n- Support month-end and year-end processes.\n- Reconcile accounts and resolve discrepancies.\n- Process invoices and manage supplier payments.\n- Assist with audits and ensure compliance with financial regulations.\n- Provide administrative support to the finance team as required.\n\nProfile\n\nA successful Assistant Accountant should have:\n- Previous experience in an accounting or finance role.\n- Ideally studying towards professional accountancy qualifications.\n- Strong knowledge of accounting principles and financial processes.\n- Proficiency in accounting software and Microsoft Excel.\n- Excellent attention to detail and organisational skills.\n- A proactive approach to problem-solving and meeting deadlines.\n\nJob Offer\n- Salary ranging from 30,500 to 37,500, dependent on the level of experience.\n- Fixed-term contract with the possibility of further opportunities.\n- Great benefits package including private healthcare.\n- Hybrid and flexible working options available.\n- Accessible location both for public transport and free parking on site.\n\nIf you're interested in this role, apply now.\n\nPeople are at the heart of Michael Page. We are committed to creating an inclusive environment. As an inclusive recruiter we welcome applications from people of all backgrounds, identities and experiences. If you require any adjustments or accommodations during the recruitment process, we'll work with you to ensure you can perform at your best.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCIqfHmQP%2fJukVoRaLniiOTql",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Job Offer - Salary ranging from 30,500 to 37,500, dependent on the level of experience. - Fixed-term contract with the possibility of further opportunities. - Great benefits package including private healthcare. - Hybrid and flexible working options available. - Accessible location both for public transport and free parking on site.",
-    "advertiser_name": "Michael Page",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225740499",
     "title": "Hr Assistant",
     "company": "Clockwork Organisation Ltd t/a Travail Employment - Agency - Contract",
@@ -190,6 +165,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2451",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2451",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

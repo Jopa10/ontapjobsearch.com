@@ -25,6 +25,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225676829",
+    "title": "Accounts Assistant",
+    "company": "Edwards & Pearce - Agency - Permanent",
+    "location": "Hull",
+    "region": "Yorkshire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "30000",
+    "salary_text": "£28000 - £30000 per year",
+    "posted_date": "",
+    "description": "A well established and successful company in Hull is looking to recruit an experienced Accounts Assistant to complement their established team. This part time position has varied duties including ledgers, credit control, banking, month end, cashiering and providing assistance to the Financial Controller, though this list is not exhaustive. Varied accounts knowledge is required and you must also possess professionalism, high levels of accuracy and a strong work ethic.\nTHE ROLE:\nPart time hours, office based, permanent.\nTo work alongside a professional team processing ledger invoices, reconciliations, credit control, banking, month end and performing cashiering duties.\nAssist the accounts management team with additional tasks.\nIdentify, investigate and resolve all account queries.\nAbove average IT literacy including Microsoft Word & Excel.\nTHE CANDIDATE:\nMust have the ability to process ledger invoices, reconciliations, credit control, banking, month end and cashiering processes.\nPossess commercial awareness and intuition to identify and solve accounts related queries.\nShow a willingness to assist others in the team.\nAble to remain calm, focused and accurate whilst striving towards deadlines.\nConfidence to liaise with internal and external contacts.\nTHE BENEFITS:\nSalary: 28,000 - 30,000\nEstablished company, accessible via public transport\nTHE CONSULTANCY:\nEdwards & Pearce acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Edwards & Pearce is an Equal Opportunities Employer.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh1omIzSzBMFAaaPPvBy0iwWu",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Edwards & Pearce",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225702790",
     "title": "Customer Service Advisor",
     "company": "Vizion Network - Agency - Permanent",
@@ -540,7 +565,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0664",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0664",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5661463",
@@ -558,7 +587,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0666",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0666",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5684494",
@@ -576,7 +609,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3073-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3073-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5684409",
@@ -594,7 +631,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1684-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1684-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672082",
@@ -612,6 +653,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0675",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0675",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

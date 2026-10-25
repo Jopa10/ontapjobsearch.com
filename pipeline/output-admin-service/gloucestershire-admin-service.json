@@ -800,6 +800,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225513570",
+    "title": "Bookkeeper",
+    "company": "Autograph Specialist Recruitment - Agency - Permanent",
+    "location": "Gloucestershire",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "25000",
+    "salary_max": "32000",
+    "salary_text": "£25000 - £32000 per year",
+    "posted_date": "",
+    "description": "Bookkeeper Cheltenham\n\nPosition: Full time or Part time / Permanent\n\nSalary: £28k - £32k DOE\n\nAre you currently working in a bookkeeping role but find yourself clock watching? Would you prefer to join a supportive, friendly team where you can focus on quality client work rather than chasing the next promotion?\n\nA well-established and down-to-earth accountancy practice in Cheltenham is looking to welcome an experienced Bookkeeper to their growing team. This role offers variety, autonomy and the chance to build strong relationships with clients. You ll be working with a newly onboarded client, handling all bookkeeping responsibilities and playing a key part in their day-to-day financial management.\n\nKey Responsibilities\n- Maintain accurate bookkeeping records for a portfolio of clients\n- Manage bank reconciliations, purchase and sales ledgers, and journals\n- Prepare and submit VAT returns\n- Process invoices and payments using Sage 50\n- Assist with month-end and year-end processes\n- Liaise with clients to resolve queries efficiently and professionally\n\nThe ideal candidate\n- Must have recent experience working within a UK accountancy practice\n- Strong working knowledge of Sage 50\n- Excellent attention to detail and organisational skills\n- Able to manage workload independently and meet deadlines effectively\n\nNext steps\n\nIf this sounds like a great opportunity and you can demonstrate the skills and enthusiasm required, then please click Apply to upload your CV for consideration. Alternatively, contact Ceris Mansfield on (phone number removed) or (url removed)\n\nWe also welcome confidential conversations about your career if this role is not quite the right fit.\n\nWe look forward to hearing from you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zawDVg0gSrF0uFmQGcv0%2bre5b",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Autograph Specialist Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225733251",
     "title": "Care Coordinator",
     "company": "Red Recruitment - Agency - Permanent",
@@ -1115,7 +1140,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0076",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0076",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5649232",
@@ -1133,7 +1162,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0840",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0840",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5681530",
@@ -1151,7 +1184,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0899",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0899",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672395",
@@ -1169,7 +1206,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0522-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0522-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5673215",
@@ -1187,6 +1228,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0883",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0883",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

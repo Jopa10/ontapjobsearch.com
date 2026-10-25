@@ -506,31 +506,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108205110",
-    "title": "Secretary (full or part-time)",
-    "company": "Thrive Group - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Thrive Trowbridge are delighted to be working with our client in the Trowbridge area who urgently seeks an experienced Secretary on a full or part-time basis to join a busy, friendly team and provide valuable day-to-day secretarial and administrative support.\nYou'll be providing essential secretarial support across the team including:\n- Audio and copy typing of letters and correspondence\n- Keeping the click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2bQqNLV0fG5qAeSbwD8fGaMc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Thrive Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225738689",
     "title": "Secretary (full or part-time)",
     "company": "Thrive Group - Agency - Permanent",
@@ -727,6 +702,31 @@
     "advertiser_name": "Adecco",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "108222267",
+    "title": "Credit Controller",
+    "company": "Hireful - Company - Permanent",
+    "location": "Wiltshire",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "12.71",
+    "salary_max": "12.71",
+    "salary_text": "£12.71 per hour",
+    "posted_date": "",
+    "description": "Keen to join a company recognised and voted as a 'Great Place to Work ' and the Motor Trader's 'Employer of the Year'? We are looking for a Credit Controller to come in and become a vital part of our finance team, where your attention to detail and ability to build strong relationships will make a real impact.\n\nAs a company Credit Controller, you'll take ownership of customer accounts, ensuring cash click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gD3sUHW4yqsvnE5ZcN6qM2Cu5nuOix98y",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hireful",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
     "salary_period": "Hourly",
     "posted_date_basis": ""
   },
@@ -946,7 +946,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1256",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1256",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672714",
@@ -964,7 +968,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3623-26-0022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3623-26-0022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5614143",
@@ -982,6 +990,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
