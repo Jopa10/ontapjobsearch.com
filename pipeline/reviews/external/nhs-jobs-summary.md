@@ -2,11 +2,11 @@
 
 review_date: 2026-10-25
 
-- Open Administrative & Clerical rows reviewed: 2172
+- Open Administrative & Clerical rows reviewed: 2171
 - Auto/remembered selected: 392
 - Selected HC Tier A: 200
 - Selected HC Tier B: 192
-- POSS awaiting decision: 1686
+- POSS awaiting decision: 1685
 - Excluded: 0
 - HARD_PASS: 94
 
@@ -4474,18 +4474,6 @@ region: Bristol & Bath
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0019-26-0101
 factual_fingerprint: f782024fdef215bb13b0d8b1cc4cb39d6acf1932349328244aa136e2a885455e
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B4 6NH | £32073.00 to £39043.00 | Management Accountant
-source_job_id: 5679109
-title: Management Accountant
-employer: Birmingham Women's and Children's NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9284-26-0476
-factual_fingerprint: f2f67e35c164e97d09c9d8b3b9547beb22ca5c8fbe2ae9f61afc7c54137462f0
 ---
 
 ---
