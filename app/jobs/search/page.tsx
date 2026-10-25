@@ -1,3 +1,4 @@
+import SearchResultsAnalytics from "@/components/SearchResultsAnalytics";
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -391,6 +392,13 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+      {searched ? <SearchResultsAnalytics
+        query={originalQuery}
+        location={originalLocation || nearbyLocation}
+        count={matches.length}
+        recognised={Boolean(resolveApprovedLocation(resolved.formLocation || nearbyLocation))}
+        nearby={Boolean(nearbyLocation)}
+      /> : null}
       <nav className="mb-4 text-sm text-gray-500" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-blue-700">
           Home

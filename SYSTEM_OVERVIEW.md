@@ -10,6 +10,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 25 October 2026 — **Search measurement:** forms targeting `/jobs/search` emit `job_search_submit` with sanitised role/location text and source page. The results page emits `job_search_results` with entered terms, actual result count, results/no-results outcome, approved-register location recognition and keyword/nearby mode. It waits for analytics readiness, suppresses duplicate effect delivery and respects existing automation suppression. Location recognition is distinct from finding matching jobs. No historical backfill; GA4 reporting dimensions still require registration.
+
 - 25 October 2026 — **JobG8 accountant and part-time manager rules:** all Accountant and Accounts Senior/Semi-Senior roles fail, whether full-time or part-time. A part-time manager in an in-scope office/finance role goes to human review, with the existing £50k actual part-time earnings limit still able to exclude it. Full-time managers keep the existing rule. Generic `Account` titles no longer count as finance for the part-time exception. No inventory was regenerated or republished.
 
 - 25 October 2026 — **Accountant exclusions cover city pages too:** city-page manual selections cannot override the JobG8 Accountant hard fail, and the verified-page workflow removes any remaining JobG8 Accountant rows from live JSON pages. Other sources are left alone.
@@ -129,6 +131,8 @@ Dated one-off recovery/failure reports are not part of the permanent working tre
 Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 ## 3. Website / UX
+
+Search reporting now records entered role/location, source page and actual result count; recognised locations and zero results remain distinct. Contact-like strings are redacted, text is bounded, and storage/analytics failures never interrupt searching. Report search submissions and result views separately from automatic `form_submit` and nearby-location events.
 
 Homepage job counts now match each linked page's displayed vacancies, including jobs that qualify for multiple families. Duplicate adverts count once within each page, and city cards use that corrected count for the existing four-job visibility rule. The overall site total still counts unique jobs.
 

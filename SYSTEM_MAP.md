@@ -12,6 +12,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 25 October 2026 — **Search measurement:** forms targeting `/jobs/search` emit `job_search_submit` with sanitised role/location text and source page. The results page emits `job_search_results` with entered terms, actual result count, results/no-results outcome, approved-register location recognition and keyword/nearby mode. It waits for analytics readiness, suppresses duplicate effect delivery and respects existing automation suppression. Location recognition is distinct from finding matching jobs. No historical backfill; GA4 reporting dimensions still require registration.
+
 - 25 October 2026 — **JobG8 accountant and part-time manager rules:** Accountant titles (including Assistant, Senior, Financial and Management Accountant) and Accounts Senior/Semi-Senior titles hard-fail across Service Admin and Finance / Accounts, regardless of full-time or part-time status or exact-title allowances. The part-time finance detector now requires a finance/accounting title word such as `accounts`, not generic `account`, preventing Account Executive/Account Manager titles from entering the finance exception. Explicitly part-time in-scope office/finance managers go to human review; the existing £50k actual part-time earnings hard limit still excludes over-limit roles. Full-time managers retain the existing exclusion. No inventory was regenerated or republished.
 
 - 25 October 2026 — **JobG8 Accountant exclusions now cover city-page overrides and published JSON:** city-page manual selections cannot override the Accountant/Accounts Senior hard fail. The verified-page workflow filters any remaining JobG8 Accountant rows from every live JSON page before counting jobs and after city-page generation; other sources are unchanged.
@@ -99,6 +101,8 @@ Compiler Modules 1, 2 and 3 remain legitimate specialist/manual analysis workflo
 Report lifecycle is recurring operational reporting / deliberate specialist analysis / one-off diagnostics in Actions artifacts or Git history.
 
 ## 3. Website / UX
+
+Search reporting now records entered role/location, source page and actual result count; recognised locations and zero results remain distinct. Contact-like strings are redacted, text is bounded, and storage/analytics failures never interrupt searching. Report search submissions and result views separately from automatic `form_submit` and nearby-location events.
 
 Homepage regional and family-city counts use `lib/job-slice-jobs.ts`, shared with `JobSlicePage`, to read each linked page's own JSON, resolve canonical job IDs and deduplicate within that page. London Admin retains its London filter. Counts never infer membership from a job's single `slice_path`: a vacancy may count once on each qualifying family page. City visibility applies the existing four-job floor after page deduplication; the sitewide unique-job total and broad-city counts retain their existing published-inventory mechanisms.
 

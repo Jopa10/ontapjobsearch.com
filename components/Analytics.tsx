@@ -11,6 +11,8 @@ import {
   pageContext,
 } from "@/lib/analytics-client";
 
+import { SEARCH_SOURCE_KEY, safeSearchText } from "@/lib/search-analytics";
+
 const FIRST_SEEN_KEY = "ontap.analytics-first-seen.v1";
 const LAST_SEEN_KEY = "ontap.analytics-last-seen.v1";
 const RETURN_SESSION_KEY = "ontap.analytics-return-session.v1";
@@ -107,6 +109,32 @@ export default function Analytics() {
       });
     }
 
+    const trackSearch = (event: Event) => {
+      try {
+        const form = event.target;
+        if (!(form instanceof HTMLFormElement)) return;
+        const target = new URL(form.action, window.location.href);
+        if (target.origin !== window.location.origin || target.pathname !== "/jobs/search") return;
+        const fields = new FormData(form);
+        const query = String(fields.get("q") || "").trim();
+        const location = String(fields.get("location") || "").trim();
+        if (!query && !location) return;
+        // Store only sanitised inputs; navigation and search never depend on storage.
+        try {
+          sessionStorage.setItem(SEARCH_SOURCE_KEY, JSON.stringify({
+            query: safeSearchText(query), location: safeSearchText(location),
+            path: window.location.pathname, at: Date.now(),
+          }));
+        } catch { /* Storage is optional. */ }
+        gtag("event", "job_search_submit", {
+          search_term: safeSearchText(query), search_location: safeSearchText(location),
+          source_page: window.location.pathname, form_id: form.id || "search-results-form",
+          transport_type: "beacon",
+        });
+      } catch { /* Analytics must never block a form submission. */ }
+    };
+    document.addEventListener("submit", trackSearch, true);
+
     const events = ["pointerdown", "keydown", "touchstart", "scroll"] as const;
     const refreshReferralActivity = (event: Event) => {
       if (event.isTrusted) touchSessionReferral(sessionStorage);
@@ -135,6 +163,7 @@ export default function Analytics() {
     events.forEach((eventName) => window.addEventListener(eventName, trackQualifiedVisit, { passive: true }));
 
     return () => {
+      document.removeEventListener("submit", trackSearch, true);
       events.forEach((eventName) => {
         window.removeEventListener(eventName, refreshReferralActivity, true);
         window.removeEventListener(eventName, trackQualifiedVisit);
