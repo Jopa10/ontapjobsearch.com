@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-25
-review_fingerprint: 7fd529dc3b26e2fcd4ed82cc74428a4f09aac54f533b29ab0b51caa170202013
+review_date: 2026-10-26
+review_fingerprint: 3eec3d2274b9dbdb03f3294710f10f810dc80525577affdcc57aa03934387dfd
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,17 +10,17 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-25T11:55:32+00:00
+Run generated: 2026-10-26T13:27:33+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 426
+JobG8 comparison rows: 431
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 3
-- Detail pages fetched successfully: 3
+- Detail-page candidates: 4
+- Detail pages fetched successfully: 4
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 12
+- Obvious hard passes not detail-fetched: 11
 - Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 1
 - Generic/derived geography rows requiring review: 3
@@ -28,11 +28,11 @@ Approved NEJobs comparison rows: 0
 
 ## Outcomes
 - HC: 0
-- POSS: 4
-- HARD_PASS: 10
+- POSS: 5
+- HARD_PASS: 9
 - Final selected after remembered/manual actions: 0
 - Final POSS awaiting decision: 0
-- Manually excluded: 4
+- Manually excluded: 5
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -54,6 +54,19 @@ tracking_key: vonne-173457
 vacancy_fingerprint: 26158f8f4312bf2fbfa437f194700f9dc9f1c4216a3fd43891b81c9caf879132
 source_job_id: 173457
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173457
+---
+---
+action: exclude
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £24,796 to 28,153 Per Annum | Administrator (VAWG TEAM)
+employer: The Angelou Centre
+closing_date: Saturday, October 31, 2026 - 05:00
+geography: CONFIRMED — location: approved location fallback
+reason: possible cross-source duplicate requires review
+source: VONNE
+tracking_key: vonne-173521
+vacancy_fingerprint: 1b881bdff0978f7131882da6166feea86cc94020d825071b96d436091c31b1c4
+source_job_id: 173521
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173521
 ---
 ---
 action: exclude
@@ -105,7 +118,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 - [Bid Writer (Trusts and Foundations)](https://www.vonne.org.uk/vonne-jobs-details?cid=173383) — insufficient service-admin evidence.
 - [Cancer and Dementia Care Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173588) — out-of-scope VONNE occupation.
 - [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
-- [Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173544) — out-of-scope VONNE occupation.
 - [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
 - [Employability and Skills Mentor](https://www.vonne.org.uk/vonne-jobs-details?cid=173545) — insufficient service-admin evidence.
 - [Independent Advocate](https://www.vonne.org.uk/vonne-jobs-details?cid=173539) — insufficient service-admin evidence.
