@@ -447,7 +447,7 @@ class MultipleAlertTests(unittest.TestCase):
             {"role": "Finance Assistant", "location": "London", "salary": "£29-32k"},
         ])}
         jobs = [
-            {"job_id": "1", "title": "Accounts Assistant", "location": "London", "salary_text": "£30k"},
+            {"job_id": "1", "title": "Accounts Assistant", "location": "London", "region": "London", "salary_text": "£30k"},
             {"job_id": "2", "title": "Receptionist", "location": "Leeds", "salary_text": "£25k"},
             {"job_id": "3", "title": "Accounts Assistant", "location": "Leeds", "salary_text": "£28k"},
             {"job_id": "4", "title": "Receptionist", "location": "Leeds", "salary_text": "£35k"},
@@ -458,7 +458,7 @@ class MultipleAlertTests(unittest.TestCase):
 
     def test_malformed_storage_fails_closed_and_legacy_still_matches(self):
         from scripts.send_cpc_job_alerts import matching_jobs, DeliveryError
-        job = {"job_id": "1", "title": "Accounts Assistant", "location": "London"}
+        job = {"job_id": "1", "title": "Accounts Assistant", "location": "London", "region": "London"}
         for raw in ("broken", "{}", '[{"role":"Accounts Assistant"}]'):
             with self.assertRaises(DeliveryError):
                 matching_jobs({"ALERT_PREFERENCES": raw}, [job])
