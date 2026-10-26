@@ -437,3 +437,30 @@ class AgreedMatchingRulesTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class MultipleAlertTests(unittest.TestCase):
+    def test_union_preserves_each_alert_role_location_and_salary_and_deduplicates(self):
+        from scripts.send_cpc_job_alerts import matching_jobs
+        attrs = {"ALERT_PREFERENCES": json.dumps([
+            {"role": "Accounts Assistant", "location": "London", "salary": "£27-30k"},
+            {"role": "Receptionist", "location": "Leeds", "salary": "£24-26k"},
+            {"role": "Finance Assistant", "location": "London", "salary": "£29-32k"},
+        ])}
+        jobs = [
+            {"job_id": "1", "title": "Accounts Assistant", "location": "London", "salary_text": "£30k"},
+            {"job_id": "2", "title": "Receptionist", "location": "Leeds", "salary_text": "£25k"},
+            {"job_id": "3", "title": "Accounts Assistant", "location": "Leeds", "salary_text": "£28k"},
+            {"job_id": "4", "title": "Receptionist", "location": "Leeds", "salary_text": "£35k"},
+        ]
+        result = matching_jobs(attrs, jobs + jobs)
+        self.assertEqual([j["job_id"] for j in result], ["1", "2"])
+        self.assertEqual(len(result), 2)
+
+    def test_malformed_storage_fails_closed_and_legacy_still_matches(self):
+        from scripts.send_cpc_job_alerts import matching_jobs, DeliveryError
+        job = {"job_id": "1", "title": "Accounts Assistant", "location": "London"}
+        for raw in ("broken", "{}", '[{"role":"Accounts Assistant"}]'):
+            with self.assertRaises(DeliveryError):
+                matching_jobs({"ALERT_PREFERENCES": raw}, [job])
+        self.assertEqual(len(matching_jobs({"ALERT_ROLE": "Accounts Assistant",
+                         "ALERT_LOCATION": "London"}, [job])), 1)

@@ -2,12 +2,34 @@ import { createHash, createHmac } from "node:crypto";
 import { privateTestEnabled, PRIVATE_TEST_EMAIL } from "./private-job-alert-test";
 
 type Env = Record<string, string | undefined>;
-type Preferences = { role: string; location: string; salary: string };
+export type Preferences = { role: string; location: string; salary: string };
 type Signup = Preferences & { email: string; jobId: string; source: string };
 type Contact = {
   email?: string; emailBlacklisted?: boolean; listIds?: number[]; listUnsubscribed?: number[];
   attributes?: Record<string, unknown>;
 };
+export const MAX_ALERTS = 10;
+export const PREFERENCES_ATTRIBUTE = "ALERT_PREFERENCES";
+export class AlertLimitError extends Error {}
+function preferenceKey(value: Preferences): string {
+  return JSON.stringify([value.role, value.location, value.salary].map(v => v.trim().replace(/\s+/g, " ").toLowerCase()));
+}
+export function savedAlerts(attrs: Record<string, unknown>): Preferences[] {
+  const raw = attrs[PREFERENCES_ATTRIBUTE];
+  if (raw !== undefined && raw !== null && raw !== "") {
+    let parsed: unknown;
+    try { parsed = JSON.parse(String(raw)); } catch { throw new Error("Saved alerts are unreadable."); }
+    if (!Array.isArray(parsed) || parsed.length > MAX_ALERTS ||
+        parsed.some(p => !p || typeof p.role !== "string" || !p.role.trim() ||
+          typeof p.location !== "string" || !p.location.trim() || typeof p.salary !== "string")) {
+      throw new Error("Saved alerts are invalid.");
+    }
+    return parsed.map(p => ({ role: p.role, location: p.location, salary: p.salary }));
+  }
+  return attrs.ALERT_ROLE && attrs.ALERT_LOCATION ? [{
+    role: String(attrs.ALERT_ROLE), location: String(attrs.ALERT_LOCATION), salary: String(attrs.ALERT_SALARY || ""),
+  }] : [];
+}
 const STATE = "ALERT_CONFIRMATION_STATE";
 const API = "https://api.brevo.com/v3";
 const VERSION = "cpc-job-alert-v1";
@@ -30,7 +52,7 @@ export function confirmationContent(preferences: Preferences, unsubscribe: strin
     ["Role", preferences.role], ["Location", preferences.location],
     ["Salary", preferences.salary || "No salary filter"],
   ];
-  const explanation = "We'll email you when new matching jobs are published. No new matches means no email.";
+  const explanation = "We'll email you when new matching jobs are published. No new matches means no email. You can save up to 10 alerts using this email. Each different signup adds an alert; identical preferences are saved only once. Matches are combined into one daily email, with duplicate jobs removed. Unsubscribe stops all your alerts.";
   return {
     subject,
     textContent: subject + "\n\n" + details.map(([name, value]) => name + ": " + value).join("\n") +
@@ -48,7 +70,7 @@ export async function saveJobAlert(
   signup: Signup,
   { env, fetcher = fetch, now = () => new Date() }:
   { env: Env; fetcher?: typeof fetch; now?: () => Date },
-): Promise<{ ok: true; confirmationSent: boolean; unchanged: boolean }> {
+): Promise<{ ok: true; confirmationSent: boolean; unchanged: boolean; alertCount: number }> {
   // Private rollout only. Do not enable production or other recipients implicitly.
   if (!privateTestEnabled(env) || signup.email.toLowerCase() !== PRIVATE_TEST_EMAIL) {
     throw new Error("Signup confirmation is restricted to the private Preview test.");
@@ -75,11 +97,18 @@ export async function saveJobAlert(
   if (previous.emailBlacklisted) throw new Error("This address is blocked from email. Check its Brevo status.");
   const active = previous.listIds?.includes(listId) && !previous.listUnsubscribed?.includes(listId) &&
     Boolean(attrs.ALERT_CONSENT_AT && attrs.ALERT_CONSENT_VERSION);
-  const same = Boolean(active && attrs.ALERT_ROLE === signup.role &&
-    attrs.ALERT_LOCATION === signup.location && String(attrs.ALERT_SALARY || "") === signup.salary);
+  const previousAlerts = savedAlerts(attrs);
+  const same = Boolean(active && previousAlerts.some(p => preferenceKey(p) === preferenceKey(signup)));
+  if (!same && previousAlerts.length >= MAX_ALERTS) {
+    throw new AlertLimitError("You already have 10 saved alerts. Your existing alerts have been kept.");
+  }
+  const alerts = previousAlerts.some(p => preferenceKey(p) === preferenceKey(signup))
+    ? previousAlerts : [...previousAlerts, { role: signup.role, location: signup.location, salary: signup.salary }];
+  const encodedAlerts = JSON.stringify(alerts);
+  const alertCount = alerts.length;
   const state = String(attrs[STATE] || "");
   if (same && /^sent:[a-f0-9-]{36}$/.test(state)) {
-    return { ok: true, confirmationSent: false, unchanged: true };
+    return { ok: true, confirmationSent: false, unchanged: true, alertCount };
   }
   const pending = same && /^pending-(?:saved|updated):[a-f0-9-]{36}$/.test(state);
   const confirmationKey = pending ? state.split(":")[1] : uuid(JSON.stringify([
@@ -88,6 +117,7 @@ export async function saveJobAlert(
   const updated = pending ? state.startsWith("pending-updated:") : Boolean(active && !same);
   const pendingState = (updated ? "pending-updated:" : "pending-saved:") + confirmationKey;
   const attributes = {
+    [PREFERENCES_ATTRIBUTE]: encodedAlerts,
     ALERT_ROLE: signup.role, ALERT_LOCATION: signup.location, ALERT_SALARY: signup.salary,
     ALERT_JOB_ID: signup.jobId, ALERT_SOURCE: signup.source,
     ALERT_CONSENT_AT: same ? attrs.ALERT_CONSENT_AT : now().toISOString(),
@@ -101,11 +131,11 @@ export async function saveJobAlert(
   // Provider must persist the marker before any send, otherwise fail closed.
   const verified = await call("/contacts/" + encodeURIComponent(email));
   const contact: Contact = verified.ok ? await verified.json() : {};
-  if (contact.attributes?.[STATE] !== pendingState || contact.email?.toLowerCase() !== email ||
+  if (contact.attributes?.[PREFERENCES_ATTRIBUTE] !== encodedAlerts || contact.attributes?.[STATE] !== pendingState || contact.email?.toLowerCase() !== email ||
       contact.emailBlacklisted || !contact.listIds?.includes(listId) || contact.listUnsubscribed?.includes(listId) ||
       contact.attributes?.ALERT_ROLE !== signup.role || contact.attributes?.ALERT_LOCATION !== signup.location ||
       String(contact.attributes?.ALERT_SALARY || "") !== signup.salary) {
-    return { ok: true, confirmationSent: false, unchanged: same };
+    return { ok: true, confirmationSent: false, unchanged: same, alertCount };
   }
   const payload = Buffer.from(JSON.stringify({ email, version: 1 })).toString("base64url");
   const signature = createHmac("sha256", secret).update(payload, "ascii").digest("base64url");
@@ -124,13 +154,13 @@ export async function saveJobAlert(
       // A retry after an accepted send can return Brevo's duplicate-key response.
       accepted = error.code === "duplicate_parameter";
     }
-    if (!accepted) return { ok: true, confirmationSent: false, unchanged: same };
+    if (!accepted) return { ok: true, confirmationSent: false, unchanged: same, alertCount };
     await call("/contacts/" + encodeURIComponent(email), {
       method: "PUT", body: JSON.stringify({ attributes: { [STATE]: "sent:" + confirmationKey } }),
     });
-    return { ok: true, confirmationSent: true, unchanged: same };
+    return { ok: true, confirmationSent: true, unchanged: same, alertCount };
   } catch {
     // Pending marker permits a later retry with the same idempotency key.
-    return { ok: true, confirmationSent: false, unchanged: same };
+    return { ok: true, confirmationSent: false, unchanged: same, alertCount };
   }
 }

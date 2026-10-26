@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { createHmac } from "node:crypto";
 import test from "node:test";
-import { confirmationContent, saveJobAlert } from "../lib/job-alert-signup";
+import { AlertLimitError, confirmationContent, savedAlerts, saveJobAlert } from "../lib/job-alert-signup";
 
 const env = {
   VERCEL_ENV: "preview", VERCEL_GIT_COMMIT_REF: "feat/cpc-job-alerts-brevo",
@@ -146,4 +146,38 @@ test("email content escapes user input and clearly labels an absent salary prefe
   assert.match(content.htmlContent, /A&amp;B/);
   assert.match(content.htmlContent, /No salary filter/);
   assert.doesNotMatch(content.htmlContent, /<script>/);
+});
+
+test("different signups retain legacy and new preferences; repeats do not add another", async () => {
+  const f = fake(existing());
+  const extra = { ...signup, role: "Receptionist", location: "Leeds", salary: "" };
+  assert.equal((await saveJobAlert(extra, { env, fetcher: f.fetcher })).alertCount, 2);
+  assert.deepEqual(savedAlerts(f.contact!.attributes), [
+    { role: signup.role, location: signup.location, salary: signup.salary },
+    { role: extra.role, location: extra.location, salary: extra.salary },
+  ]);
+  const before = f.calls.length;
+  assert.equal((await saveJobAlert({ ...signup, role: "accounts assistant", location: " LONDON " }, { env, fetcher: f.fetcher })).alertCount, 2);
+  assert.deepEqual(f.calls.slice(before).map(c => c.method), ["GET"]);
+  assert.equal(f.contact!.attributes.ALERT_LAST_SENT_DATE, "2026-10-24");
+});
+test("ten alerts are accepted, eleventh is rejected without writes or losing alerts", async () => {
+  const f = fake(existing());
+  for (let n = 2; n <= 10; n++) {
+    assert.equal((await saveJobAlert({ ...signup, location: "Town " + n }, { env, fetcher: f.fetcher })).alertCount, n);
+  }
+  const before = f.calls.length;
+  const stored = f.contact!.attributes.ALERT_PREFERENCES;
+  await assert.rejects(saveJobAlert({ ...signup, location: "Town 11" }, { env, fetcher: f.fetcher }), AlertLimitError);
+  assert.deepEqual(f.calls.slice(before).map(c => c.method), ["GET"]);
+  assert.equal(f.contact!.attributes.ALERT_PREFERENCES, stored);
+  assert.equal((await saveJobAlert(signup, { env, fetcher: f.fetcher })).unchanged, true);
+});
+test("malformed multi-alert storage fails closed before saving", async () => {
+  for (const value of ["not json", "{}", '[{"role":"Receptionist"}]']) {
+    const f = fake(existing());
+    f.contact!.attributes.ALERT_PREFERENCES = value;
+    await assert.rejects(saveJobAlert(signup, { env, fetcher: f.fetcher }));
+    assert.equal(f.calls.length, 1);
+  }
 });

@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 25 October 2026
+**Last updated:** 26 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 26 October 2026 — **Ten alerts using the same private test email:** each distinct role/location/salary signup adds an alert rather than replacing the previous one. The existing alert is preserved; identical repeats count once and the eleventh is refused. Matching jobs are combined into one daily email without duplicate jobs. Unsubscribe stops all alerts. Private Preview only; public rollout stays off. Automatic sender adoption is pending the private checks.
 
 - 25 October 2026 — **Private signups now receive confirmation:** a short email confirms the saved role, location and salary and explains that alerts arrive only for new matching jobs. Preference changes receive an updated confirmation; identical repeats do not resend. The same Accounts Assistant job and existing test email can receive their first confirmation. Signup is retained if confirmation delivery fails. Restricted to the private Preview/test address; public rollout remains off.
 

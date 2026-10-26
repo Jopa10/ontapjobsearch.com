@@ -50,12 +50,12 @@ jobs:
           from pipeline.scripts.send_cpc_job_alerts import _brevo_request
           key = os.environ["BREVO_API_KEY"]
           attrs = _brevo_request("GET", "/contacts/attributes", key).get("attributes", [])
-          name = "ALERT_CONFIRMATION_STATE"
-          found = [attr for attr in attrs if attr.get("name") == name]
-          if found and (found[0].get("category") != "normal" or found[0].get("type") != "text"):
-              raise SystemExit("The signup confirmation attribute has an unexpected type")
-          if not found:
-              _brevo_request("POST", "/contacts/attributes/normal/" + name, key, {"type": "text"})
+          for name in ("ALERT_CONFIRMATION_STATE", "ALERT_PREFERENCES"):
+              found = [attr for attr in attrs if attr.get("name") == name]
+              if found and (found[0].get("category") != "normal" or found[0].get("type") != "text"):
+                  raise SystemExit("The private alert attribute has an unexpected type")
+              if not found:
+                  _brevo_request("POST", "/contacts/attributes/normal/" + name, key, {"type": "text"})
           print("Private signup confirmation tracking attribute ready; no email sent.")
           PY
       - name: Read current published job data (no scripts run from main)

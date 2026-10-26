@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getPublishedJob } from "@/lib/published-jobs";
 import { isCpcJobAlertEligible } from "@/lib/cpc-job-alerts";
-import { saveJobAlert } from "@/lib/job-alert-signup";
+import { AlertLimitError, saveJobAlert } from "@/lib/job-alert-signup";
 
 export const runtime = "nodejs";
 
@@ -71,7 +71,8 @@ export async function POST(request: NextRequest) {
       console.warn("Alert saved; signup confirmation was not accepted or is awaiting retry.");
     }
     return NextResponse.json(result);
-  } catch {
+  } catch (error) {
+    if (error instanceof AlertLimitError) return NextResponse.json({ error: error.message }, { status: 409 });
     console.error("Brevo job-alert signup failed");
     return NextResponse.json({ error: "We couldn't save your alert just now. Please try again." }, { status: 502 });
   }

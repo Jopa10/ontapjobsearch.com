@@ -243,13 +243,49 @@ def _salary_matches(preference: str, job_salary: str) -> bool:
     return _salary_decision(preference, {"salary_text": job_salary})[0]
 
 
-def matches_alert(contact_attributes: dict[str, Any], job: dict[str, Any]) -> bool:
+def _matches_single_alert(contact_attributes: dict[str, Any], job: dict[str, Any]) -> bool:
     role = _role_group(str(contact_attributes.get("ALERT_ROLE") or ""))
     if role is None or role != _role_group(str(job.get("title") or "")):
         return False
     if not _location_matches(str(contact_attributes.get("ALERT_LOCATION") or ""), job):
         return False
     return _salary_decision(str(contact_attributes.get("ALERT_SALARY") or ""), job)[0]
+
+
+def alert_preferences(attributes: dict[str, Any]) -> list[dict[str, Any]]:
+    raw = attributes.get("ALERT_PREFERENCES")
+    if raw is None or raw == "":
+        return [attributes]
+    try:
+        values = json.loads(raw)
+    except (ValueError, TypeError) as error:
+        raise DeliveryError("Saved alert preferences are unreadable; no email sent") from error
+    if (not isinstance(values, list) or len(values) > 10
+            or any(not isinstance(p, dict)
+                   or not isinstance(p.get("role"), str) or not p["role"].strip()
+                   or not isinstance(p.get("location"), str) or not p["location"].strip()
+                   or not isinstance(p.get("salary"), str) for p in values)):
+        raise DeliveryError("Saved alert preferences are invalid; no email sent")
+    return [{"ALERT_ROLE": p["role"], "ALERT_LOCATION": p["location"],
+             "ALERT_SALARY": p["salary"]} for p in values]
+
+
+def matches_alert(contact_attributes: dict[str, Any], job: dict[str, Any]) -> bool:
+    return any(_matches_single_alert(p, job) for p in alert_preferences(contact_attributes))
+
+
+def matching_jobs(attributes: dict[str, Any], jobs: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    preferences = alert_preferences(attributes)
+    matches = {}
+    for job in jobs:
+        job_id = str(job.get("job_id") or "")
+        if not job_id or job_id in matches:
+            continue
+        preference = next((p for p in preferences if _matches_single_alert(p, job)), None)
+        if preference is not None:
+            matches[job_id] = {**job, "_alert_salary_label":
+                              _salary_decision(str(preference.get("ALERT_SALARY") or ""), job)[1]}
+    return list(matches.values())
 
 
 def new_cpc_jobs(report_path: Path, app_dir: Path, report_date: str) -> list[dict[str, Any]]:
@@ -403,8 +439,8 @@ def send_digest(
         return False
     # Current new vacancies may be newer than the private Preview inventory.
     job_origin = "https://www.ontapjobsearch.com" if private_test else site_url
-    matches = [{**job, "_alert_salary_label": _salary_decision(str(attributes.get("ALERT_SALARY") or ""), job)[1], "ontap_url": job_origin + "/jobs/" + urllib.parse.quote(str(job["job_id"]), safe="")}
-               for job in jobs if matches_alert(attributes, job)][:MAX_JOBS_PER_EMAIL]
+    matches = [{**job, "ontap_url": job_origin + "/jobs/" + urllib.parse.quote(str(job["job_id"]), safe="")}
+               for job in matching_jobs(attributes, jobs)][:MAX_JOBS_PER_EMAIL]
     if not matches:
         return False
 
@@ -531,10 +567,10 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
             or not attrs.get("ALERT_CONSENT_AT") or not attrs.get("ALERT_CONSENT_VERSION")):
         raise DeliveryError("The test address must have an active, consented signup in list 3")
     print("Private saved preferences: " + json.dumps(
-        {key: str(attrs.get(key) or "") for key in ("ALERT_ROLE", "ALERT_LOCATION", "ALERT_SALARY")},
+        {key: str(attrs.get(key) or "") for key in ("ALERT_ROLE", "ALERT_LOCATION", "ALERT_SALARY", "ALERT_PREFERENCES")},
         ensure_ascii=True))
     jobs = new_cpc_jobs(report, args.app_dir, args.date)
-    matches = [job for job in jobs if matches_alert(attrs, job)]
+    matches = matching_jobs(attrs, jobs)
     print(f"Private daily matching: {len(jobs)} new CPC jobs; {len(matches)} matches; maximum 20 in a digest.")
     for job in matches[:MAX_JOBS_PER_EMAIL]:
         print(f"Match: {job.get('title', '')} | {job.get('location', '')} | {job.get('job_id', '')}")
@@ -548,7 +584,7 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
         # Never clear/update ALERT_LAST_SENT_DATE or alter the daily-send guard.
         import uuid
         sample_jobs = [
-            {**job, "_alert_salary_label": _salary_decision(str(attrs.get("ALERT_SALARY") or ""), job)[1],
+            {**job,
              "ontap_url": "https://www.ontapjobsearch.com/jobs/" + urllib.parse.quote(str(job["job_id"]), safe="")}
             for job in matches[:MAX_JOBS_PER_EMAIL]
         ]

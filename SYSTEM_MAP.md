@@ -1,6 +1,6 @@
 # Ontap System Map
 
-**Last updated:** 25 October 2026
+**Last updated:** 26 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -8,6 +8,8 @@
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 26 October 2026 — **Up to ten private alerts per contact:** the Preview signup stores a JSON array of role/location/salary preferences in Brevo normal text `ALERT_PREFERENCES`, provisioned by the existing private CI. Legacy single preferences are retained as the first alert when a new distinct signup is added. Whitespace/case-equivalent repeats add nothing; an eleventh alert returns 409 before any write. Malformed stored arrays fail closed. Last-signup scalar attributes remain for the existing sample tool. Daily matching takes the union of independently matched preferences and deduplicates by job ID before the existing 20-job cap. One contact-wide unsubscribe and last-sent-date/idempotency guard still govern one digest. Signup readback verifies the complete stored array before confirmation. Public rollout remains off. Native adoption requires updating the pinned sender only after private tests pass; no publisher code changes.
 
 - 25 October 2026 — **Private signup confirmations added:** `app/api/job-alerts/route.ts` delegates saved-preference/confirmation handling to `lib/job-alert-signup.ts`. The existing Preview branch/list-3/fixed-recipient guard is enforced; production and other addresses are refused. Successful first signup (including an existing same-job contact with no confirmation marker) sends a saved confirmation; changed preferences send updated; identical confirmed repeats read only. Messages include role/location/salary, explain that only new matches trigger alerts, and use the existing HMAC Preview unsubscribe token. A normal text Brevo attribute `ALERT_CONFIRMATION_STATE` stores pending/sent UUID markers; the existing private CI verifies/provisions it. Pending markers must be read back before any email. Save precedes email; mail failure preserves signup and pending state for retry using the same Brevo idempotency key. Active/blacklist/list state is rechecked before send. Daily `ALERT_LAST_SENT_DATE` is untouched. CI adds mocked Node signup/Preview tests alongside the 35 Python checks. This is a private Preview update only; automatic daily matching, main and public rollout are unchanged.
 
