@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 15
 - automatic review: 12
-- automatic exclude: 35
+- automatic exclude: 37
 - effective include: 15
 - effective review: 12
-- effective exclude: 35
+- effective exclude: 37
 
 ## INCLUDE (15)
 
@@ -282,11 +282,11 @@ reason: No approved Doncaster catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Income Assistant / Finance Administrator - Local Authority
-company: Reed - Agency - Permanent
-location: Yorkshire
+title: Hr Manager
+company: Ranson Barnes Recruitment Limited - Agency - Permanent
+location: Brinsworth
 source: JobG8
-job_id: jobg8-2067582
+job_id: jobg8-23643_225733777
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -350,7 +350,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (37)
 
 ---
 action: 
@@ -524,11 +524,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: Minerva Learning Trust
+title: Income Assistant / Finance Administrator - Local Authority
+company: Reed - Agency - Permanent
 location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-assistant-minerva-learning-trust
+source: JobG8
+job_id: jobg8-2067582
 reason: Separate employment market.
 ---
 
@@ -573,6 +573,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Medical Receptionist
+company: Selborne Road Medical Centre
+location: Sheffield, S10 5ND
+source: NHS Jobs
+job_id: nhs-5685334
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
 company: Staff Partners Business - Agency - Permanent
 location: Barnsley
 source: JobG8
@@ -589,6 +601,18 @@ company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part time Finance Manager
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2052120
 reason: Separate employment market.
 ---
 

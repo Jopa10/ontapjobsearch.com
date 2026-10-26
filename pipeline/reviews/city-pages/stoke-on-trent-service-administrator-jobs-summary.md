@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 56
+- automatic review: 57
 - automatic exclude: 0
 - effective include: 5
-- effective review: 56
+- effective review: 57
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5675916
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (57)
 
 ---
 action: 
@@ -455,6 +455,18 @@ company: Brampton Recruitment Ltd - Agency - Temporary
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225747582
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Accounts Office Manager
+company: Brampton Recruitment Ltd - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225690802
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

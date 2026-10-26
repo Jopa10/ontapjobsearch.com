@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 81
+- Effective included jobs: 83
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 81
-- automatic review: 38
-- automatic exclude: 47
-- effective include: 81
-- effective review: 38
-- effective exclude: 47
+- automatic include: 83
+- automatic review: 37
+- automatic exclude: 49
+- effective include: 83
+- effective review: 37
+- effective exclude: 49
 
-## INCLUDE (81)
+## INCLUDE (83)
 
 ---
 action: 
@@ -165,6 +165,18 @@ company: Ireland Wood & Horsforth Medical Practice
 location: Leeds, LS16 6FR
 source: NHS Jobs
 job_id: nhs-5656950
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Officer
+company: Leeds Teaching Hospitals
+location: Leeds, LS14 6UH
+source: NHS Jobs
+job_id: nhs-5685226
 reason: Approved Leeds catchment.
 ---
 
@@ -808,6 +820,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Specialist (Stand alone)
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2075044
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: PPC Manager
 company: Robert Walters - Agency - Permanent
 location: Leeds
@@ -996,7 +1020,7 @@ job_id: jobg8-23643_225665719
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (38)
+## REVIEW (37)
 
 ---
 action: 
@@ -1339,18 +1363,6 @@ action:
 decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2165855
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
@@ -1454,7 +1466,7 @@ job_id: teaching-vacancies-trust-hr-administrator-moorlands-learning-trust
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (47)
+## EXCLUDE (49)
 
 ---
 action: 
@@ -1880,6 +1892,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part- Time Accounts Administrator
+company: Reed - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-2064618
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Personal Assistant
 company: Marmon Lift Recruitment - Agency - Permanent
 location: Bradford
@@ -1897,6 +1921,18 @@ company: Bradford Academy
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-primary-receptionist-bradford-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-2165855
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 31
+- automatic include: 12
+- automatic review: 32
 - automatic exclude: 39
-- effective include: 11
-- effective review: 31
+- effective include: 12
+- effective review: 32
 - effective exclude: 39
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX3 7LE
 source: NHS Jobs
 job_id: nhs-5680081
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Patient Pathway Administrator
+company: Oxford University Hospitals NHS Foundation Trust
+location: Oxford, OX3 7LE
+source: NHS Jobs
+job_id: nhs-5685147
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -156,7 +168,7 @@ job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-sc
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (31)
+## REVIEW (32)
 
 ---
 action: 
@@ -503,6 +515,18 @@ company: Faringdon Community College
 location: Faringdon
 source: Teaching Vacancies
 job_id: teaching-vacancies-student-services-administrator-faringdon-community-college
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Finance Manager
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
+location: Witney
+source: JobG8
+job_id: jobg8-23643_225727890
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 

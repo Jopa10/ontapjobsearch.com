@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 14
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 13
+- effective include: 14
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (14)
 
 ---
 action: 
@@ -117,6 +117,18 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225761200
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Manager/Administrator- Edinburgh - 4 day week
+company: Meraki Talent Limited - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2137033
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

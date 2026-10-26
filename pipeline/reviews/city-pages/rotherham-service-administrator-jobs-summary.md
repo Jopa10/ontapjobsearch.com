@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 55
+- automatic review: 57
 - automatic exclude: 0
 - effective include: 7
-- effective review: 55
+- effective review: 57
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (57)
 
 ---
 action: 
@@ -390,18 +390,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Minerva Learning Trust
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-assistant-minerva-learning-trust
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR & Operations Coordinator
 company: Carrington West - Agency - Permanent
 location: Doncaster
@@ -426,9 +414,21 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Hr Manager
+company: Ranson Barnes Recruitment Limited - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225733777
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Income Assistant / Finance Administrator - Local Authority
 company: Reed - Agency - Permanent
-location: Yorkshire
+location: Sheffield
 source: JobG8
 job_id: jobg8-2067582
 reason: No exact Rotherham workplace matched; local geographic review is required.
@@ -487,6 +487,18 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
+company: Selborne Road Medical Centre
+location: Sheffield, S10 5ND
+source: NHS Jobs
+job_id: nhs-5685334
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
 company: Staff Partners Business - Agency - Permanent
 location: Barnsley
 source: JobG8
@@ -503,6 +515,18 @@ company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part time Finance Manager
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2052120
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

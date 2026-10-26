@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 12
-- automatic exclude: 46
+- automatic exclude: 48
 - effective include: 4
 - effective review: 12
-- effective exclude: 46
+- effective exclude: 48
 
 ## INCLUDE (4)
 
@@ -150,11 +150,11 @@ reason: No approved Barnsley catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Income Assistant / Finance Administrator - Local Authority
-company: Reed - Agency - Permanent
-location: Yorkshire
+title: Hr Manager
+company: Ranson Barnes Recruitment Limited - Agency - Permanent
+location: Brinsworth
 source: JobG8
-job_id: jobg8-2067582
+job_id: jobg8-23643_225733777
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -218,7 +218,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (46)
+## EXCLUDE (48)
 
 ---
 action: 
@@ -440,18 +440,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: Minerva Learning Trust
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-assistant-minerva-learning-trust
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR & Operations Coordinator
 company: Carrington West - Agency - Permanent
 location: Doncaster
@@ -469,6 +457,18 @@ company: Talent-UK Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225673478
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Income Assistant / Finance Administrator - Local Authority
+company: Reed - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2067582
 reason: Separate employment market.
 ---
 
@@ -512,11 +512,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Medical Receptionist
+company: Selborne Road Medical Centre
+location: Sheffield, S10 5ND
+source: NHS Jobs
+job_id: nhs-5685334
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Operations Administrator
 company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part time Finance Manager
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2052120
 reason: Separate employment market.
 ---
 

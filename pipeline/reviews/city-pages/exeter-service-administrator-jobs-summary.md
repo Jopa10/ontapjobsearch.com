@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 19
 - automatic review: 42
 - automatic exclude: 0
-- effective include: 18
+- effective include: 19
 - effective review: 42
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -165,6 +165,18 @@ company: Office Angels - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225664276
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Patient Safety Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5683501
 reason: Exact approved Exeter workplace.
 ---
 

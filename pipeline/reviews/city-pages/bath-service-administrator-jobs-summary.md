@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 75
+- automatic include: 8
+- automatic review: 74
 - automatic exclude: 0
-- effective include: 4
-- effective review: 75
+- effective include: 8
+- effective review: 74
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (8)
 
 ---
 action: 
@@ -72,7 +72,55 @@ job_id: jobg8-2053456
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (75)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Accounts Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2088889
+reason: Exact approved Bath workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part time Finance Assistant - 22. 5 hours per week
+company: Juice Recruitment Ltd - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2070922
+reason: Exact approved Bath workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Manager (Part Time)
+company: Reed - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2042147
+reason: Exact approved Bath workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Manager (Part Time)
+company: Reed Technology - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-23643_225660760
+reason: Exact approved Bath workplace.
+---
+
+## REVIEW (74)
 
 ---
 action: 
@@ -726,30 +774,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Accounts Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2088889
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part time Finance Assistant - 22. 5 hours per week
-company: Juice Recruitment Ltd - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2070922
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)
 company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Somerset
@@ -875,6 +899,18 @@ company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225684677
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Salesforce & Sales Pipeline Coordinator
+company: Adria Solutions - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108225065
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

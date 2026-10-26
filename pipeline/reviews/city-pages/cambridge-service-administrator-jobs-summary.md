@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 37
 - automatic review: 10
-- automatic exclude: 20
+- automatic exclude: 21
 - effective include: 37
 - effective review: 10
-- effective exclude: 20
+- effective exclude: 21
 
 ## INCLUDE (37)
 
@@ -590,7 +590,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -745,6 +745,18 @@ company: Vero Hr - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225659039
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR MANAGER - PART-TIME
+company: Interaction Recruitment - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225692804
 reason: Separate employment market.
 ---
 

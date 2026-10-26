@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 53
+- automatic review: 52
 - automatic exclude: 0
 - effective include: 19
-- effective review: 53
+- effective review: 52
 - effective exclude: 0
 
 ## INCLUDE (19)
@@ -252,7 +252,7 @@ job_id: jobg8-108205427
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (52)
 
 ---
 action: 
@@ -815,18 +815,6 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Coalville
 source: JobG8
 job_id: jobg8-23643_225694630
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: Loughborough Church of England Primary School
-location: Loughborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-loughborough-church-of-england-primary-school-loughborough-leicestershire
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

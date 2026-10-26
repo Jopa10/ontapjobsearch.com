@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 130
+- automatic review: 131
 - automatic exclude: 0
 - effective include: 19
-- effective review: 130
+- effective review: 131
 - effective exclude: 0
 
 ## INCLUDE (19)
@@ -252,7 +252,7 @@ job_id: teaching-vacancies-sen-administrator-st-edmund-s-catholic-school-portsmo
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (130)
+## REVIEW (131)
 
 ---
 action: 
@@ -1211,6 +1211,18 @@ company: Office Angels - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225659960
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time HR Manager
+company: MorePeople - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225725644
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

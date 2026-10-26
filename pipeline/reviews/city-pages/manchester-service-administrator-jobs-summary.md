@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 110
+- Effective included jobs: 117
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 110
+- automatic include: 117
 - automatic review: 23
 - automatic exclude: 6
-- effective include: 110
+- effective include: 117
 - effective review: 23
 - effective exclude: 6
 
-## INCLUDE (110)
+## INCLUDE (117)
 
 ---
 action: 
@@ -533,6 +533,18 @@ action:
 decision: include
 automatic_decision: include
 title: Experienced Medical Receptionist
+company: Park View Medical Centre
+location: Manchester, M8 4RF
+source: NHS Jobs
+job_id: nhs-5685284
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Experienced Medical Receptionist
 company: West Point Medical Centre
 location: Manchester, M19 2AF
 source: NHS Jobs
@@ -640,6 +652,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR / Office Manager
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225719729
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Administrator
 company: Whalley Range 11-18 High School
 location: Manchester
@@ -657,6 +681,30 @@ company: Forrest Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225710631
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Manager
+company: Charity People - Company - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2166644
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Manager
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225726635
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -693,6 +741,18 @@ company: St John's Buildings - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225703390
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Human Resources and Organisational Development Manager
+company: Salford CVS - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2174236
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -861,6 +921,30 @@ company: Salford City Academy
 location: Manchester
 source: Teaching Vacancies
 job_id: teaching-vacancies-office-administrator-and-receptionist-salford-city-academy-manchester
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office and Facilities Manager
+company: Salford CVS - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2174237
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Manager
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225726636
 reason: Approved conservative Manchester launch catchment.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/dartford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 18
 - automatic review: 95
 - automatic exclude: 34
-- effective include: 16
+- effective include: 17
 - effective review: 95
 - effective exclude: 35
 
-## INCLUDE (16)
+## INCLUDE (17)
 
 ---
 action: 
@@ -165,6 +165,18 @@ company: Office Angels - Agency - Temporary
 location: Dartford
 source: JobG8
 job_id: jobg8-23643_225697973
+reason: Exact approved Dartford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Manager
+company: Staines Search Ltd - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225726540
 reason: Exact approved Dartford workplace.
 ---
 

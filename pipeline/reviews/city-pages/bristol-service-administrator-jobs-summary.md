@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 60
+- Effective included jobs: 61
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 60
-- automatic review: 15
-- automatic exclude: 4
-- effective include: 60
-- effective review: 15
-- effective exclude: 4
+- automatic include: 61
+- automatic review: 13
+- automatic exclude: 8
+- effective include: 61
+- effective review: 13
+- effective exclude: 8
 
-## INCLUDE (60)
+## INCLUDE (61)
 
 ---
 action: 
@@ -652,6 +652,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Salesforce & Sales Pipeline Coordinator
+company: Adria Solutions - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108225065
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Administrator
 company: North Star 265°
 location: Bristol
@@ -744,7 +756,7 @@ job_id: nhs-5636801
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (13)
 
 ---
 action: 
@@ -882,30 +894,6 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Accounts Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2088889
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part time Finance Assistant - 22. 5 hours per week
-company: Juice Recruitment Ltd - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2070922
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)
 company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Somerset
@@ -926,7 +914,7 @@ job_id: jobg8-23643_225702996
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -973,5 +961,53 @@ company: Juice Recruitment Ltd - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-2053456
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Accounts Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2088889
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part time Finance Assistant - 22. 5 hours per week
+company: Juice Recruitment Ltd - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2070922
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Manager (Part Time)
+company: Reed - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2042147
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Manager (Part Time)
+company: Reed Technology - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-23643_225660760
 reason: Separate employment market.
 ---

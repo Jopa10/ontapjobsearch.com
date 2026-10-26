@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 19
 - automatic review: 10
 - automatic exclude: 39
-- effective include: 18
+- effective include: 19
 - effective review: 10
 - effective exclude: 39
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -153,6 +153,18 @@ company: Vero Hr - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225659039
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR MANAGER - PART-TIME
+company: Interaction Recruitment - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225692804
 reason: Approved conservative Peterborough launch catchment.
 ---
 

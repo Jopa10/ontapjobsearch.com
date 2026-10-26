@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 52
+- automatic review: 53
 - automatic exclude: 0
 - effective include: 8
-- effective review: 52
+- effective review: 53
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: teaching-vacancies-student-funding-administrator-maternity-cover
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (53)
 
 ---
 action: 
@@ -527,6 +527,18 @@ company: Office Angels - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225664276
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Safety Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5683501
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

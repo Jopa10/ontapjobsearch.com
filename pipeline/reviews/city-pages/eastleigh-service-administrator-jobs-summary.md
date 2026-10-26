@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 94
+- automatic review: 95
 - automatic exclude: 52
 - effective include: 3
-- effective review: 94
+- effective review: 95
 - effective exclude: 52
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-2064740
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (94)
+## REVIEW (95)
 
 ---
 action: 
@@ -731,6 +731,18 @@ company: Office Angels - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225659960
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time HR Manager
+company: MorePeople - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225725644
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 

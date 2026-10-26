@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 25
 - automatic review: 12
 - automatic exclude: 27
-- effective include: 23
+- effective include: 25
 - effective review: 12
 - effective exclude: 27
 
-## INCLUDE (23)
+## INCLUDE (25)
 
 ---
 action: 
@@ -136,11 +136,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Minerva Learning Trust
+title: Income Assistant / Finance Administrator - Local Authority
+company: Reed - Agency - Permanent
 location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-assistant-minerva-learning-trust
+source: JobG8
+job_id: jobg8-2067582
 reason: Approved Sheffield catchment.
 ---
 
@@ -184,11 +184,35 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Selborne Road Medical Centre
+location: Sheffield, S10 5ND
+source: NHS Jobs
+job_id: nhs-5685334
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operations Administrator
 company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part time Finance Manager
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2052120
 reason: Approved Sheffield catchment.
 ---
 
@@ -378,11 +402,11 @@ reason: No approved Sheffield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Income Assistant / Finance Administrator - Local Authority
-company: Reed - Agency - Permanent
-location: Yorkshire
+title: Hr Manager
+company: Ranson Barnes Recruitment Limited - Agency - Permanent
+location: Brinsworth
 source: JobG8
-job_id: jobg8-2067582
+job_id: jobg8-23643_225733777
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 

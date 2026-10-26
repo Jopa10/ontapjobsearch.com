@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 141
+- automatic review: 142
 - automatic exclude: 0
 - effective include: 8
-- effective review: 141
+- effective review: 142
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5676428
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (141)
+## REVIEW (142)
 
 ---
 action: 
@@ -1163,6 +1163,18 @@ company: Office Angels - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225659960
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time HR Manager
+company: MorePeople - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225725644
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

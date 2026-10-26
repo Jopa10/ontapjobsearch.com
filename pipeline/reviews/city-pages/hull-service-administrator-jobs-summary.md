@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 14
+- automatic include: 24
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 23
-- effective review: 14
+- effective include: 24
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (24)
 
 ---
 action: 
@@ -184,6 +184,18 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Procurement Administrator ( Part-Time)
+company: GlobalData UK Ltd - Company - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225754589
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Logistics Coordinator
 company: Winsearch - Agency - Permanent
 location: Hull
@@ -300,7 +312,7 @@ job_id: jobg8-23643_225713565
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (16)
 
 ---
 action: 
@@ -335,6 +347,18 @@ company: SaB Consulting Yorkshire Limited - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225731702
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance & Reporting Administrator
+company: Consortium Professional Recruitment - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-2165745
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -402,9 +426,21 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Manager
+company: JGA Recruitment - Agency - Permanent
+location: Goole
+source: JobG8
+job_id: jobg8-23643_225629342
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Processor
 company: Townends Accountants LLP - Agency - Permanent
-location: North Humberside
+location: Goole
 source: JobG8
 job_id: jobg8-23643_225702204
 reason: No approved Hull catchment rule matched; local review required.

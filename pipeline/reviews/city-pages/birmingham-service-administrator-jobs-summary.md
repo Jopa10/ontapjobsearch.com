@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 91
+- Effective included jobs: 92
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 91
+- automatic include: 92
 - automatic review: 15
 - automatic exclude: 10
-- effective include: 91
+- effective include: 92
 - effective review: 15
 - effective exclude: 10
 
-## INCLUDE (91)
+## INCLUDE (92)
 
 ---
 action: 
@@ -784,6 +784,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Office Manager
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225694384
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Part Time Administrator
 company: Office Angels - Agency - Permanent
 location: Birmingham
@@ -1232,10 +1244,10 @@ decision: review
 automatic_decision: review
 title: Part-time Payroll Clerk
 company: Mitchell Adam - Agency - Permanent
-location: West Midlands
+location: Sutton Coldfield
 source: JobG8
 job_id: jobg8-2055533
-reason: Broad regional location; review before Birmingham inclusion.
+reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
 ---

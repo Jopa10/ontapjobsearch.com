@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 19
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 6
-- effective review: 19
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (20)
 
 ---
 action: 
@@ -275,6 +275,18 @@ company: Sellick Partnership - Agency - Contract
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225700653
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: Sellick Partnership - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-2092604
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

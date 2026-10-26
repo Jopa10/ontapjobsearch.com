@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 32
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
+- automatic include: 32
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 29
+- effective include: 32
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (29)
+## INCLUDE (32)
 
 ---
 action: 
@@ -184,6 +184,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Financial Services Administrator
+company: Search Consultancy Ltd - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225734026
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Housing Disrepair Paralegal
 company: Time Recruitment - Agency - Permanent
 location: Liverpool
@@ -213,6 +225,18 @@ company: Michael Page - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225739687
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Manager - Temporary to Permanent
+company: Tradewind Recruitment - Agency - Temporary
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225698676
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -273,6 +297,18 @@ company: Rutherford Medical Centre
 location: Liverpool, L18 0HJ
 source: NHS Jobs
 job_id: nhs-5682461
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: The Blundellsands Surgery
+location: Liverpool, L23 6TZ
+source: NHS Jobs
+job_id: nhs-5667822
 reason: Approved conservative Liverpool launch catchment.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 15
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 3
-- effective review: 15
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-sixth-form-administrator-the-fallibroome-academy-macc
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (16)
 
 ---
 action: 
@@ -191,6 +191,18 @@ company: Work Lyf Group Ltd - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225564622
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-Time Payroll Assistant
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-2039760
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

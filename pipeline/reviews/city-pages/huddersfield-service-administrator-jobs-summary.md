@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 36
-- automatic exclude: 119
+- automatic review: 35
+- automatic exclude: 123
 - effective include: 11
-- effective review: 36
-- effective exclude: 119
+- effective review: 35
+- effective exclude: 123
 
 ## INCLUDE (11)
 
@@ -156,7 +156,7 @@ job_id: jobg8-23643_225760413
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (36)
+## REVIEW (35)
 
 ---
 action: 
@@ -487,18 +487,6 @@ action:
 decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2165855
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
@@ -590,7 +578,7 @@ job_id: teaching-vacancies-trust-hr-administrator-moorlands-learning-trust
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (119)
+## EXCLUDE (123)
 
 ---
 action: 
@@ -805,6 +793,18 @@ company: Ireland Wood & Horsforth Medical Practice
 location: Leeds, LS16 6FR
 source: NHS Jobs
 job_id: nhs-5656950
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clerical Officer
+company: Leeds Teaching Hospitals
+location: Leeds, LS14 6UH
+source: NHS Jobs
+job_id: nhs-5685226
 reason: Separate employment market.
 ---
 
@@ -1628,6 +1628,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part- Time Accounts Administrator
+company: Reed - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-2064618
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part-Time Accounts Clerk
 company: Equals One - Agency - Permanent
 location: Leeds
@@ -1693,6 +1705,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225661076
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Specialist (Stand alone)
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2075044
 reason: Separate employment market.
 ---
 
@@ -1789,6 +1813,18 @@ company: Future Recruitment Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225707321
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-2165855
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 139
+- automatic review: 140
 - automatic exclude: 0
 - effective include: 7
-- effective review: 139
+- effective review: 140
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225704651
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (139)
+## REVIEW (140)
 
 ---
 action: 
@@ -1235,6 +1235,18 @@ company: New Appointments Group - Agency - Temporary
 location: Sittingbourne
 source: JobG8
 job_id: jobg8-23643_225754147
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Manager
+company: Staines Search Ltd - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225726540
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

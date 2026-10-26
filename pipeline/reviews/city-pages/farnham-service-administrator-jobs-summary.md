@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 157
+- automatic review: 159
 - automatic exclude: 0
 - effective include: 4
-- effective review: 157
+- effective review: 159
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-2064929
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (157)
+## REVIEW (159)
 
 ---
 action: 
@@ -894,6 +894,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: HR Manager
+company: Howett Thorpe - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-23643_225688512
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Internal Communications Officer
 company: Michael Page - Agency - Contract
 location: Surrey
@@ -1271,6 +1283,18 @@ company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225709995
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Finance Manager 4 days per week 32 hours
+company: Kenneth Brian Associates Limited - Agency - Permanent
+location: Weybridge
+source: JobG8
+job_id: jobg8-2087513
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

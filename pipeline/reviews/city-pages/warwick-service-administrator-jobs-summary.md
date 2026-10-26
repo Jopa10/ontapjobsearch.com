@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 90
+- automatic review: 93
 - automatic exclude: 0
 - effective include: 13
-- effective review: 90
+- effective review: 93
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (90)
+## REVIEW (93)
 
 ---
 action: 
@@ -594,6 +594,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Manager
+company: Life 2009 - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2138590
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Front of House Administrator
 company: Valpak Limited - Agency - Temporary
 location: Stratford-Upon-Avon
@@ -803,6 +815,30 @@ company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225686816
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Finance Manager
+company: RM Recruit - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225689484
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Finance Manager
+company: RM RECRUIT LIMITED - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-2079095
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

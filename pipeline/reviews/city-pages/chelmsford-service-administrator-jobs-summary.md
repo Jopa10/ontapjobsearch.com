@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 12
 - automatic review: 112
 - automatic exclude: 0
-- effective include: 13
+- effective include: 12
 - effective review: 112
 - effective exclude: 0
 
-## INCLUDE (13)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator - Chelmsford
-company: Vaccination UK
-location: Chelmsford, CM144LN
-source: NHS Jobs
-job_id: nhs-5446642
-reason: Exact approved Chelmsford workplace.
----
+## INCLUDE (12)
 
 ---
 action: 

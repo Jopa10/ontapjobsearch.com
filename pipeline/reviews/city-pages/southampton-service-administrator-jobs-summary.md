@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 94
+- automatic review: 95
 - automatic exclude: 46
 - effective include: 9
-- effective review: 94
+- effective review: 95
 - effective exclude: 46
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225719604
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (94)
+## REVIEW (95)
 
 ---
 action: 
@@ -803,6 +803,18 @@ company: Office Angels - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225659960
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time HR Manager
+company: MorePeople - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225725644
 reason: Broad location; review before city inclusion.
 ---
 

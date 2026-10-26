@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 138
+- automatic review: 139
 - automatic exclude: 0
 - effective include: 8
-- effective review: 138
+- effective review: 139
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225689196
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (138)
+## REVIEW (139)
 
 ---
 action: 
@@ -1283,6 +1283,18 @@ company: New Appointments Group - Agency - Temporary
 location: Sittingbourne
 source: JobG8
 job_id: jobg8-23643_225754147
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Manager
+company: Staines Search Ltd - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225726540
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
