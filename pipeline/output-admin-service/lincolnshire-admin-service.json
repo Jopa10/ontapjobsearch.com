@@ -224,6 +224,31 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "2068930",
+    "title": "Payroll Technician",
+    "company": "Alexander Kaye Recruitment Limited - Agency - Permanent",
+    "location": "Lincolnshire",
+    "region": "Lincolnshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Payroll Technician\n\nLovely offices/Free parking/Hybrid working\n\nFull or Part time or Flexi hours\n\nOur client is a well respected firm of Accountants who have a new opening in their team due to expansion of the team. This is a great role for an experienced person who really enjoys payroll and dealing with clients.\n\nThe position will be extremely varied and involve dealing with multi payrolls for a wide selection of clients ranging from small to large businesses.\n\nThe successful candidate will have experience of working in a Payroll Bureau or have worked in a professional firm handling multi payrolls.\n\nIf you are considering a move we would love a conversation with you.\n\nPlease do not apply to this role if you have not previously worked in payroll.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakNi%2fdBOQx4%2fZ5LyhiLgVYrJr",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Payroll Technician Payroll Technician Lovely offices/Free parking/Hybrid working Full or Part time or Flexi hours Our client is a well respected firm of Accountants who have a new opening in their team due to expansion of the team.",
+    "advertiser_name": "Alexander Kaye Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225655530",
     "title": "Operational Administrator",
     "company": "Magnus Search - Agency - Permanent",
@@ -739,6 +764,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
