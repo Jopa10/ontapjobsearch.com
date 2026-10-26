@@ -62,3 +62,7 @@ All persistent Ontap system changes belong to one or more of these five buckets:
 ## Governance enforcement
 
 A lightweight CI enforcement check may be added once the repository audit has identified which paths reliably represent meaningful system changes. Until then, do not add a brittle path-based rule that would create frequent false positives.
+
+## Owner weekly traffic report
+
+Before producing or changing the owner weekly traffic Excel report, read `pipeline/reports/WEEKLY_TRAFFIC_REPORT_FORMAT.md`. Preserve its approved tabs, definitions, period basis and reconciliation checks. Do not redesign the report from chat memory.
