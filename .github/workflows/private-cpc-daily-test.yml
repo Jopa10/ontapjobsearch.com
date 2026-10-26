@@ -58,6 +58,26 @@ jobs:
                   _brevo_request("POST", "/contacts/attributes/normal/" + name, key, {"type": "text"})
           print("Private signup confirmation tracking attribute ready; no email sent.")
           PY
+
+      - name: Verify owner-requested second alert against live Brevo
+        if: github.event.head_commit.message == 'Verify private second-alert save'
+        env:
+          VERCEL_ENV: preview
+          VERCEL_GIT_COMMIT_REF: feat/cpc-job-alerts-brevo
+          VERCEL_URL: ontapjobsearchcom-git-feat-cpc-job-alerts-brevo-ontap1.vercel.app
+          CPC_JOB_ALERTS_ENABLED: 'true'
+          BREVO_JOB_ALERTS_LIST_ID: '3'
+          BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
+        run: |
+          npx tsx -e '
+          import { saveJobAlert } from "./lib/job-alert-signup";
+          saveJobAlert({email:"jpbt801@gmail.com",role:"Finance Assistant",location:"Leeds",salary:"",jobId:"23643_225703687",source:"JobG8"},
+            {env:process.env}).then(result => console.log("Live private save:", JSON.stringify(result)))
+            .catch(error => { console.error("Live private save failed:", error.message); process.exitCode=1; });
+          '
+
       - name: Read current published job data (no scripts run from main)
         uses: actions/checkout@v4
         with:
