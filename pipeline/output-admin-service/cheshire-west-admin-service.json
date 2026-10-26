@@ -290,6 +290,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0675",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0675",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5687600",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "Kelsall Medical Centre",
+    "advertiser_name": "Kelsall Medical Centre",
+    "location": "Tarporley, CW6 0SN",
+    "region": "Cheshire - West",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-26T15:54:22.306650406",
+    "closing_date": "2026-11-06",
+    "description": "We are a small, friendly GP Surgery in the village of Kelsall, Tarporley, West Cheshire with a patient list size of over 6000 patients. We are currently looking to recruit a permanent Medical Receptionist to join our busy team. The successful candidate will be patient focused, a good team player and flexible in their approach. Whilst we encourage applications from suitably experienced individuals, training can be provided for the right candidate. Hours: 17.25-22.5 hours per week. Weekday shifts working Monday Friday (days to be agreed upon appointment). Additional hours may be required for planned and unplanned absences. Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Provide general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone The GP Receptionist is the first point of contact for patients and visitors to the practice. The post holder will provide a professional, welcoming and efficient reception and administrative service, ensuring patients receive appropriate access to healthcare services while maintaining confidentiality and delivering excellent customer care. The Receptionist will support the smooth day-to-day running of the practice by managing appointments, responding to patient enquiries and undertaking a range of administrative duties in accordance with NHS and practice policies. Please refer to Job Description. ________________________________________",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2012-26-0002",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2012-26-0002",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

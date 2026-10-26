@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-the-eastwood-academy",
-    "title": "Receptionist",
-    "company": "The Eastwood Academy",
-    "location": "Leigh-on-Sea",
-    "region": "Essex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,248.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-10-13",
-    "closing_date": "2026-10-26",
-    "closing_datetime": "2026-10-26T12:00:00+00:00",
-    "summary": "Receptionist with The Eastwood Academy in Leigh-on-Sea. ['part time']; £26,248.00 Annually (FTE).",
-    "description": "The Eastwood Academy is recruiting for this vacancy in Leigh-on-Sea.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,248.00 Annually (FTE).\n\nThe stated application deadline is 2026-10-26T12:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-eastwood-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Eastwood Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-part-time-permanent",
     "title": "Administrative Assistant - Part-Time Permanent",
     "company": "Jotmans Hall Primary School",
@@ -2005,6 +1977,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5684142",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Primary Care Careers",
+    "advertiser_name": "Primary Care Careers",
+    "location": "Chelmsford, CM2 5EF",
+    "region": "Essex",
+    "salary": "£12.78",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-26T14:30:08.495421989",
+    "closing_date": "2026-11-13",
+    "description": "North Chelmsford Healthcare Centre/Beaulieu Healthcare Centre have an exciting new opportunity, as part of our ongoing expansion, for a receptionist to join their team. This position is offered on a part-time basis, for 18 hours per week, working the following: Monday & Tuesday: 08:00 - 14:00 Friday: 12:30 - 18:30 This role will involve working across both of our Chelmsford sites: North Chelmsford Healthcare Centre and our branch surgery, Beaulieu Healthcare Centre. If you are enthusiastic about joining a growing team and making a positive difference to patient care, we would love to hear from you. Main responsibilities will include: Handling patient enquiries by telephone, email, and in person. Working within our triage team to support the triage doctor. Processing prescription requests. Arranging home visits. Managing card and cash payments from patients. Maintaining waiting lists and arranging follow-up appointments. Supporting clinicians and colleagues with day-to-day administrative tasks. Training: A comprehensive three-week induction programme will be provided to support your onboarding and success in the role. If you would like to find out more information about this role, please do not hesitate to get in contact with us.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1014",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1014",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5679704",
     "source": "NHS Jobs",
     "title": "Administrator/Receptionist",
@@ -2020,7 +2014,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0947",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0947",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5655065",
@@ -2038,7 +2036,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0964",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0964",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5655615",
@@ -2056,7 +2058,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0965",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0965",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5288592",
@@ -2074,7 +2080,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5897-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5897-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5687335",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "The Ross Practice",
+    "advertiser_name": "The Ross Practice",
+    "location": "Harlow, CM18 6LY",
+    "region": "Essex",
+    "salary": "Negotiable",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-10-26T15:21:38.894448356",
+    "closing_date": "2026-11-16",
+    "description": "We are looking for a Medical Receptionist to join our friendly team in providing a high standard of service to our patients. Excellent customer service skills are vital for this role. We expect the successful candidate to be able to work well as part of a team and perform effectively under pressure. You will need to be a team player and be able to work in a fast-paced environment. This position is for maternity cover, with the view to becoming permanent for the right candidate. Desirable experience in general practice but not essential for the right person. The role includes: -Handling telephone calls -Digital enquiries from patients including working closely with our Triage Doctor -Care navigation -Administrative duties -Registration processing",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5900-26-0005",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5900-26-0005",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672070",
@@ -2092,7 +2124,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0997",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0997",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5663693",
@@ -2110,7 +2146,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0967",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0967",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5661188",
@@ -2128,7 +2168,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0894",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0894",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5670909",
@@ -2146,6 +2190,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9292-26-0438",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9292-26-0438",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

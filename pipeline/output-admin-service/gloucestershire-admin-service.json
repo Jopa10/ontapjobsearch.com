@@ -1206,6 +1206,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108231464",
+    "title": "Land and Property Coordinator",
+    "company": "NFP People - Agency - Permanent",
+    "location": "Gloucestershire",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "35000",
+    "salary_text": "£35000 per year",
+    "posted_date": "",
+    "description": "Land and Property Coordinator\n\nWe are seeking an organised, proactive Land and Property Coordinator to support a rural estate portfolio and help an educational charity thrive.\n\nPosition: Land and Property Coordinator\nSalary: £32,000 to £35,000 per annum\nLocation: Quenington, Gloucestershire, GL7 5 BN\nHours: Full time, 35 hours per week\nClosing date: Wednesday 18 November 2026\nFirst interviews: Wednesday 2 D click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?r8ZOrXHhud9BCV0qq5eqkuSNQfL%2baSzsr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "NFP People",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5673959",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -1221,7 +1246,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0076",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0076",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5681530",
@@ -1239,7 +1268,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0899",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0899",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672395",
@@ -1257,7 +1290,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0522-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0522-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5673215",
@@ -1275,6 +1312,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0883",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0883",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

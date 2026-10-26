@@ -565,6 +565,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5687044",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Pontesbury & Worthen Medical Practice",
+    "advertiser_name": "Pontesbury & Worthen Medical Practice",
+    "location": "Shrewsbury, SY5 0RF, Worthen, SY5 9HT",
+    "region": "Shropshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-26T14:14:17.303798677",
+    "closing_date": "2026-11-06",
+    "description": "Receptionist and Administrator Vacancy Full Time Receptionist Working days/hours - Monday to Friday, hours between 8:00 am and 6:30 pm. An exciting opportunity to join our friendly and welcoming Reception team, working across two sites, in our five-doctor GP partnership, based in rural Shropshire, just south of Shrewsbury. Main duties of the job To provide a first point of contact for patients at the reception desk, and on the telephones, and act as a focal point of communication between patients, doctors, the Primary Health Care Team and the administration staff. To book and manage appointments and provide reception cover across both of our practice sites. JOB DESCRIPTION RECEPTIONIST Responsible To: Practice Manager PURPOSE OF POST: To provide a point of contact for patients and act as a focal point of communication between patients, doctors, the Primary Health Care Team and the administration staff. To book appointments and provide reception cover across both of our practice sites. Major Duties and Responsibilities of the Post Duties: Ensure efficiency of the EMIS computerized appointment system and monitor the flow of patients into consulting rooms. Ensure that patients without appointments but who need to see a doctor urgently are seen in a logical and non-disruptive manner. Respond to all requests for assistance from patients and other visitors EMIS Appointment System: Ensure accurate and timely entries are made onto the patient administration system, EMIS. Book appointments and recalls ensuring sufficient information is recorded to retrieve medical records Monitor effectiveness of the system and report any problems or variations required Management of Medical Records: Retrieve and re file records if required, ensuring that strict alphabetical order is adhered to Operation of Telephone System: Receive and make calls as required. Divert calls and take accurate messages as required Ensure that the system is operational at the beginning of each day and switch to night service at the end of each day Start and End of Day Procedures: Open up premises at the start of day, making tea & coffee and make all necessary preparations to receive patients Download Shropdoc reports, print off and pass to duty GP Any other delegated duties considered appropriate to the post Special Requirements of the Post: An understanding, acceptance and adherence to the need for strict confidentiality as failure to do so will result in dismissal An ability to use own judgment, resourcefulness, common sense to respond to patients non clinical inquiries and requests Excellent communication skills Accuracy in transcribing information Ability to work without supervision and determine own workload priorities Keyboard skills and computer literacy skills desirable Ability to work well within a team and under pressure Ability to be flexible within the working week if needed, and to be prepared to work some evenings and weekends as and when required",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4510-26-0010",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4510-26-0010",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5678074",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -580,6 +602,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1216-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1216-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

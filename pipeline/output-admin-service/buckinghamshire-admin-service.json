@@ -843,31 +843,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225731641",
-    "title": "Sales Administrator",
-    "company": "Elizabeth Michael Associates LTD - Agency - Permanent",
-    "location": "Buckinghamshire",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "29000",
-    "salary_max": "31000",
-    "salary_text": "£29000 - £31000 per year",
-    "posted_date": "",
-    "description": "Sales Administrator\n\nBuckinghamshire\n\n£29,000 - £31,000\n\nFully Remote Role\n\nLooking for someone to start asap\n\nRole Purpose\n\nWe are looking for an organised and proactive Sales Administrator who has previous finance experience and a good understanding of financial processes, but is equally happy to undertake general administration duties as required.\n\nThe successful candidate will have excellent attention to detail, be confident working with financial information and be comfortable managing a varied workload. The role is a mix of finance and administration responsibilities so ideally require someone who is happy to support the wider team wherever needed.\n\nThis is a fully remote position, with all necessary computer equipment, systems and software provided.\n\nThe ideal candidate will be self-motivated, able to work independently, prioritise their workload effectively and take a proactive, hands on approach to their responsibilities.\n\nRole Responsibilities\n- Support with month end invoicing processes, ensuring invoices are accurately processed and uploaded onto the relevant client portals\n- Assist the finance team with weekly and monthly financial round-ups, ensuring information is accurate and up to date\n- Liaise with relevant departments to obtain invoice approvals and ensure invoices are signed off in a timely manner\n- Monitor, manage and action incoming emails, responding to queries and escalating matters where necessary\n- Prepare and organise business packs, reports and supporting documentation ahead of meetings\n- Amend, update and format business proposals, ensuring documents are professional, accurate and consistent\n- Create and format PowerPoint presentations for internal meetings, client meetings and business reviews\n- Maintain accurate records, spreadsheets and documentation to support finance and general business operations\n- Assist with general administrative tasks, including document preparation, data entry and maintaining organised filing systems\n- Liaise with internal teams to ensure information is communicated effectively and deadlines are met\n- Support the wider business with ad hoc finance and administration duties as required\n- Manage and prioritise a varied workload, ensuring tasks are completed accurately and within agreed timescales\n\nSkills Required\n- Previous finance and administration experience with a good understanding of financial processes\n- Experience using Xero and Sage accounting software\n- Proficient in Microsoft Office, including Excel, Word, Outlook and PowerPoint\n- Strong administration, document formatting and presentation skills\n- Excellent attention to detail and accuracy\n- Strong organisational skills with the ability to prioritise workloads and meet deadlines\n- Confident written and verbal communication skills\n- Self-motivated and able to work independently in a fully remote role\n- Flexible, proactive and happy to support with both finance and general administration duties",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0I%2fOnLzJAMpf%2bTgu2wJIF4js",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Elizabeth Michael Associates LTD",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2144792",
     "title": "Rebates Administrator",
     "company": "Newton Maxwell Recruitment Ltd. - Agency - Permanent",
@@ -1383,7 +1358,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0789-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0789-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543958",
@@ -1401,7 +1380,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5675336",
@@ -1419,7 +1402,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0729",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0729",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5676129",
@@ -1437,7 +1424,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0736",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0736",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5670144",
@@ -1455,7 +1446,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0529-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0529-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5619604",
@@ -1473,7 +1468,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0123TMP",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0123TMP",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5618527",
@@ -1491,6 +1490,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0121CHMC",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0121CHMC",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

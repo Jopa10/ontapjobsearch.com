@@ -624,6 +624,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108232024",
+    "title": "Facilities & Operations Coordinator",
+    "company": "Parents And Children Together (PACT) - Agency - Permanent",
+    "location": "Reading",
+    "region": "Berkshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "29452",
+    "salary_max": "29452",
+    "salary_text": "£29452 per year",
+    "posted_date": "",
+    "description": "Play a key role in supporting the workplaces, facilities and services that help us deliver our mission. Every day at PACT, we are building adoptive families and empowering women, children, and parents to embrace a positive future. Join an outstanding adoption charity and award winning trauma recovery service provider that is passionate about creating brighter futures for women, children and famili click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?r8ZOrXHhud%2fGeZh5Gz%2foQXqJdHQPLIAEr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Parents And Children Together (PACT)",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "2048189",
     "title": "Finance Administration Assistant",
     "company": "IT Search & Select - Agency - Permanent",
@@ -868,31 +893,6 @@
     "working_arrangement_text": "2 days from home",
     "working_arrangement_evidence": "What you'll be doing: - Handling inbound and outbound customer calls - Responding to emails and support enquiries - Assisting customers with technical queries (full training provided) - Liaising with mobile network providers to resolve issues - Supporting the sales team with product-related questions - Managing and updating customer support tickets What we're looking for: - Strong communication skills (written and verbal) - Eagerness to learn and develop new skills - Confident using PCs (Word, Excel, email) - Good organisation and time management What's in it for you? - Full training and ongoing support - Structured career progression with salary reviews every 6 months - Company bonus scheme - Hybrid working (2 days from home after probation) - Free on-site parking - Excellent benefits package If you're motivated, reliable, and ready to build a career, this could be the perfect role to get started.",
     "advertiser_name": "Adecco",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225686812",
-    "title": "Operations Assistant",
-    "company": "Journey Recruitment Ltd - Agency - Permanent",
-    "location": "Berkshire",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "24785",
-    "salary_max": "24785",
-    "salary_text": "£24785 per year",
-    "posted_date": "",
-    "description": "Are you looking to work mainly from home but with occasional visits to the office in Windsor, Berkshire? (two or three times a month) The candidate must live within one hour of Windsor.\n\nThis is an excellent role if you have an interest in technology and apps as you will be troubleshooting and giving guidance to customers about using the app as well as supporting the clients with general day to day enquiries. They require someone with a friendly, professional phone manner who loves to deliver outstanding customer service. This role involves taking a high volume of inbound calls and the company are paying a salary of £24,785.\n\nWorking hours: Mainly working from home 9-5.30 Monday to Friday 37.5 hours per week (you will work an occasional day over the weekend every few weeks and will be paid overtime for this or will take the day in lieu each month) Additionally every few weeks there will be a late shift or an early shift to do which are spread out across the team. (earliest start 7am and latest finish 8pm) Please note that training will be fully office-based.\n\nIn this job role you will focus on providing services to a range a broad range of customers and will ensure the smooth running of the services. The role will be varied with no two days being the same. The role will require a large amount of patient and client contact, and the successful candidate should be customer-focused with great communication skills.\n\nMain responsibilities for the Operations Assistant role:\n- Supporting and providing administrative services to the growing panel of suppliers\n- To manage and resolve a high level of telephone client calls, whilst delivering fantastic customer service\n- To support the executive assistant in supporting the senior management team\n- Able to work to KPI s\n\nSkills required for the Operations Assistant role are?\n- Highly organised and able to work on own initiative\n- Excellent communication skills\n- Ability to problem solve with a common-sense approach\n- Attention to detail\n- Open and honest approach at all times\n- Customer focused\n\nApply today for this fantastic mainly remote role",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65S5rUXsqS7bhi8E3Zegs7jTx",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Journey Recruitment Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -1639,7 +1639,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4161-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4161-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5664923",
@@ -1657,6 +1661,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5556-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5556-26-0012",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

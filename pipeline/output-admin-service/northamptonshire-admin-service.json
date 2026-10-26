@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-finance-officer-bishop-stopford-school",
-    "title": "Finance Officer",
-    "company": "Bishop Stopford School",
-    "location": "Kettering",
-    "region": "Northamptonshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,427.00 - £26,846.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-10-13",
-    "closing_date": "2026-10-26",
-    "closing_datetime": "2026-10-26T12:00:00+00:00",
-    "summary": "Finance Officer with Bishop Stopford School in Kettering. ['full time']; £26,427.00 - £26,846.00 Annually (FTE).",
-    "description": "Bishop Stopford School is recruiting for this vacancy in Kettering.\n\nThe advertised position is Finance Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,427.00 - £26,846.00 Annually (FTE).\n\nThe stated application deadline is 2026-10-26T12:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-stopford-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Bishop Stopford School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-school-administrator-slt-support-st-thomas-becket-catholic-school-northampton-northamptonshire",
     "title": "School Administrator - SLT Support",
     "company": "St Thomas Becket Catholic School",
@@ -1486,7 +1458,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0810-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0810-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5677922",
@@ -1504,7 +1480,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1304-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1304-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672247",
@@ -1522,7 +1502,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1556-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1556-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5632294",
@@ -1540,6 +1524,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1556-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1556-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

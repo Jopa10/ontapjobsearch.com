@@ -84,31 +84,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "23643_225655772",
-    "title": "Trainee Customer Service Assistant",
-    "company": "Monstera Talent - Agency - Permanent",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "600",
-    "salary_max": "800",
-    "salary_text": "£600 - £800 per weekly (OTE, Uncapped Commission)",
-    "posted_date": "",
-    "description": "TRAINEE CUSTOMER SERVICE ASSISTANT\nNottingham, NG2 Full-Time In-Person Role\n\nGreat service starts with great people. Start your career here.\n\nDo you enjoy helping people and making a good first impression? Our client is looking for friendly, reliable individuals in Nottingham to join their team as Trainee Customer Service Assistants. You'll be the face of the brands you represent, helping customers understand their options and find the right solution.\n\nYou don't need any previous experience. All you need is a positive attitude and a willingness to learn. Full training is provided, with real opportunities to progress.\n\nWHAT THE ROLE INVOLVES\n- Welcoming and engaging customers in person\n- Answering questions and explaining products and services clearly\n- Understanding customer needs and recommending the right option\n- Supporting customers through the sign-up or purchase process\n- Building lasting customer relationships through excellent service\n- Working towards personal and team goals\n- Attending regular training and development sessions\n\nWHAT WE'RE LOOKING FOR\n- Friendly, approachable, and confident communicators\n- People who take pride in helping others\n- Reliable, punctual, and professional\n- Coachable and eager to learn new skills\n- No experience needed, just the right attitude\n\nWHAT'S IN IT FOR YOU\n- £600-£800 OTE per week\n- Uncapped commission and performance bonuses\n- Full Training programme\n- Regular mentoring and support\n- Clear progression into senior and leadership positions\n\nAPPLY TODAY\nShortlisted applicants will be contacted within 2-3 working days.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDxopw8Rp%2fTh2FKwUh9hjbCqf",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Monstera Talent",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Weekly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2056429",
     "title": "Group Financial Controller",
     "company": "360-Recruitment - Agency - Permanent",
@@ -1199,7 +1174,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3069-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3069-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5684175",
@@ -1217,7 +1196,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672602",
@@ -1235,7 +1218,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0100",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0100",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5671545",
@@ -1253,7 +1240,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1902-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1902-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5661619",
@@ -1271,7 +1262,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4343-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4343-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5645581",
@@ -1289,7 +1284,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5630537",
@@ -1307,7 +1306,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0092",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0092",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5686384",
+    "source": "NHS Jobs",
+    "title": "Patient Administrator",
+    "company": "InHealth Group",
+    "advertiser_name": "InHealth Group",
+    "location": "Nottingham, NG5 1PB",
+    "region": "Nottinghamshire",
+    "salary": "£23000.00 to £26250.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-26T12:24:59.819564985",
+    "closing_date": "2026-11-23",
+    "description": "Job - Patient Administrator Location- Nottingham Hours: Monday-Sunday, 36 hours per week, typically working 4 x 9hr shifts a week but could change to 3 x 12hr or similar where required for business needs InHealth sees more than 5 million patients each year and diagnostic imaging is one of the busiest services that we provide. Our fully integrated imaging services offer increased capacity for NHS trusts, and convenient, fast access to services for patients. As a Patient Administrator within our XXXXX site, you will play a pivotal role in how we support our patients throughout their healthcare journey. Provide a high-quality administrative and secretarial service for the unit to ensure an efficient service, using IT systems and digital technology to ensure patients feel informed throughout the process, and provide administrative support to colleagues for the imaging services we provide. What you are responsible for: Welcoming patients in a professional, courteous manner, coordinating their arrival through to departure Dealing with telephone and direct enquiries in a prompt and effective manner, ensuring the provision of information and prioritisation of queries as appropriate Booking clinically validated appointments on the internal system Ensuring all payments are invoiced promptly and accurately and that payments are taken on the day Tracking and distributing imaging data and reports as required Utilising relevant IT systems to support the delivery of a high-quality imaging service Assist with monthly reports Complying with ISO standards, respecting and protecting confidentiality Reporting any incidents, feedback or complaints effectively Ensuring patient and customer focus is central to the commercial success of the business. Hours: Monday-Sunday, 36 hours per week, typically working 4 x 9hr shifts a week but could change to 3 x 12hr or similar where required for business needs InHealth sees more than 5 million patients each year and diagnostic imaging is one of the busiest services that we provide. Our fully integrated imaging services offer increased capacity for NHS trusts, and convenient, fast access to services for patients. As a Patient Administrator within our Nottingham site, you will play a pivotal role in how we support our patients throughout their healthcare journey. Provide a high-quality administrative and secretarial service for the unit to ensure an efficient service, using IT systems and digital technology to ensure patients feel informed throughout the process, and provide administrative support to colleagues for the imaging services we provide. What you are responsible for: Welcoming patients in a professional, courteous manner, coordinating their arrival through to departure Dealing with telephone and direct enquiries in a prompt and effective manner, ensuring the provision of information and prioritisation of queries as appropriate Booking clinically validated appointments on the internal system Ensuring all payments are invoiced promptly and accurately and that payments are taken on the day Tracking and distributing imaging data and reports as required Utilising relevant IT systems to support the delivery of a high-quality imaging service Assist with monthly reports Complying with ISO standards, respecting and protecting confidentiality Reporting any incidents, feedback or complaints effectively Ensuring patient and customer focus is central to the commercial success of the business. We are looking for someone who has: Flexibility in working patterns to fulfil site requirements A proficient understanding of IT packages and administration tasks The ability to prioritise tasks whilst maintaining accuracy and attention to detail Effective communication skills, both on the phone and face to face A strong understanding of confidentiality and data protection A supportive, trustworthy and reliable approach to their work An empathetic and caring approach. You should apply if you have experience: Working in a fast-paced administrative role Being in a patient or customer facing environment Experience in a healthcare environment would be desirable but not essential Knowledge and experience of using Microsoft and other IT Packages Quickly learning new systems Working independently and as part of a wider team.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0510",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0510",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5673832",
@@ -1325,6 +1350,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3721-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3721-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
