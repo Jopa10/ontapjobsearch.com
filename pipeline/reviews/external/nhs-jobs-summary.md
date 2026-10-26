@@ -2,13 +2,13 @@
 
 review_date: 2026-10-26
 
-- Open Administrative & Clerical rows reviewed: 2059
+- Open Administrative & Clerical rows reviewed: 2057
 - Auto/remembered selected: 372
 - Selected HC Tier A: 188
 - Selected HC Tier B: 184
-- POSS awaiting decision: 1596
+- POSS awaiting decision: 1595
 - Excluded: 0
-- HARD_PASS: 91
+- HARD_PASS: 90
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -6850,18 +6850,6 @@ region: Buckinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0731
 factual_fingerprint: 3c9f762d8d61d65aa054e8c7eadc2dc10926556d52f3a29c00d3ca1b3d87265b
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B7 5JR | £25760.00 to £27476.00 | Band 3 Senior Booking Clerk - CIC
-source_job_id: 5677216
-title: Band 3 Senior Booking Clerk - CIC
-employer: Birmingham Community Healthcare NHS FT
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0734
-factual_fingerprint: 92c8d888b80fb9575321f1deee681989b4b5026e5fb836fd44dc216091223dd9
 ---
 
 ---
