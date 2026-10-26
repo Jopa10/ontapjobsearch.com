@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-25
+feed_date: 2026-10-26
 
 Edit only the `action:` line in each block:
 
@@ -125,12 +125,6 @@ job_id: 23643_225737488
 
 ---
 action:
-SELECTED | Sussex | Sussex | £15.5 per hour | Care Assistant - Care Home
-job_id: 23643_225739546
----
-
----
-action:
 SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
 job_id: 23643_222307132
 ---
@@ -171,6 +165,18 @@ SELECTED | Sussex | Hailsham | £13.39 per hour | Care Assistant
 job_id: 23643_225761986
 ---
 
+---
+action:
+SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
+job_id: 23643_225440444
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £14.8 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225754037
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -199,12 +205,6 @@ _No jobs in this group._
 action:
 SELECTED | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
 job_id: 1401785578
----
-
----
-action:
-SELECTED | Hampshire | Hayling Island | £28697 - £31573 per year | Support Worker (Adults)
-job_id: 1401785799
 ---
 
 ---
@@ -313,6 +313,12 @@ job_id: 23643_225744421
 action:
 SELECTED | Kent | Sevenoaks | £13.68 - £16 per hour | FEMALE Mental Health Support Worker
 job_id: 23643_223337598
+---
+
+---
+action:
+SELECTED | Kent | Dartford | £12.8 per hour (+ Mileage & Benefits) | Care Assistant
+job_id: 23643_225762090
 ---
 
 ## KENT — POSSIBLES
@@ -557,7 +563,11 @@ job_id: 2174176
 
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | Borehamwood | £17 - £20 per hour | Care Support Worker
+job_id: 23643_225762327
+---
 
 ## OXFORDSHIRE — SELECTED
 
@@ -613,12 +623,6 @@ job_id: 23643_225729356
 action:
 SELECTED | Surrey | Guildford | £26500 per year | Family Support Worker
 job_id: 23643_225751661
----
-
----
-action:
-SELECTED | Surrey | Surrey | £14.5 per hour | Night Care Assistant
-job_id: 23643_225440444
 ---
 
 ## SURREY — POSSIBLES
