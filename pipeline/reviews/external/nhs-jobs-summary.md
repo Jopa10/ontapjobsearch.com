@@ -2,15 +2,39 @@
 
 review_date: 2026-10-26
 
-- Open Administrative & Clerical rows reviewed: 1991
-- Auto/remembered selected: 367
-- Selected HC Tier A: 188
+- Open Administrative & Clerical rows reviewed: 1993
+- Auto/remembered selected: 366
+- Selected HC Tier A: 187
 - Selected HC Tier B: 179
-- POSS awaiting decision: 1536
+- POSS awaiting decision: 1538
 - Excluded: 0
-- HARD_PASS: 88
+- HARD_PASS: 89
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Cornwall | Bodmin, PL31 2FR | £66582.00 to £77368.00 | Senior Accountant (Technical)
+source_job_id: 5684897
+title: Senior Accountant (Technical)
+employer: NHS Cornwall and Isles of Scilly Integrated Care Board
+region: Cornwall
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9471-26-0005
+factual_fingerprint: 0056825b30e3723392df519f9781916f99ae38cc7317bf520039502adaeec261
+---
+
+---
+action:
+POSS | NHS Jobs | Cornwall | Bodmin, PL31 2FR | £57528.00 to £64750.00 | Accountant (Technical)
+source_job_id: 5684894
+title: Accountant (Technical)
+employer: NHS Cornwall and Isles of Scilly Integrated Care Board
+region: Cornwall
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9471-26-0004
+factual_fingerprint: 0ff0a917fa50afce924c293809eacf2f523650c49b95ea0383bbe108e5b152a9
+---
 
 ---
 action:

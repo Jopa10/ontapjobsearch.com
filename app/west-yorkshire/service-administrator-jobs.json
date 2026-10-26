@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-hr-administrative-assistant-outwood-grange-academy",
-    "title": "HR Administrative Assistant",
-    "company": "Outwood Grange Academy",
-    "location": "Wakefield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time', 'temporary']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,614 to £26,016",
-    "work_pattern": "",
-    "posted_date": "2026-10-09",
-    "closing_date": "2026-10-26",
-    "closing_datetime": "2026-10-26T08:00:00+00:00",
-    "summary": "HR Administrative Assistant with Outwood Grange Academy in Wakefield. ['full time', 'temporary']; £25,614 to £26,016.",
-    "description": "Outwood Grange Academy is recruiting for this vacancy in Wakefield.\n\nThe advertised position is HR Administrative Assistant.\n\nThe source lists the employment type as ['full time', 'temporary'].\n\nThe advertised salary or pay scale is £25,614 to £26,016.\n\nThe stated application deadline is 2026-10-26T08:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-outwood-grange-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-admin-assistant-oyster-park-primary-academy",
     "title": "Admin Assistant",
     "company": "Oyster Park Primary Academy",
@@ -47,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Oyster Park Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The North Halifax Grammar School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The North Halifax Grammar School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Bradford Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Greenhead College",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -172,6 +162,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Bradford Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -197,6 +190,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Bradford Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -222,6 +218,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Mirfield Free Grammar",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -247,6 +246,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Ilkley Grammar School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -272,6 +274,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Moorlands Learning Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -297,6 +302,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Bronte Girls' Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -322,6 +330,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Moor End Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -347,6 +358,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Park Lane Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -372,6 +386,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Horbury Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -397,6 +414,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Meadowfield Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1675,6 +1695,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225762112",
+    "title": "Accounts Assistant - Practice",
+    "company": "W Talent - Agency - Permanent",
+    "location": "Huddersfield",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "21000",
+    "salary_max": "24000",
+    "salary_text": "£21000 - £24000 per year",
+    "posted_date": "2026-10-26",
+    "description": "Accounts Assistant\n\nHuddersfield\n\nCompetitive Salary + Benefits\n\nAbout the Company\n\nW Talent Finance is a specialist recruitment partner dedicated to placing high-calibre accounting professionals across both practice and commerce & industry markets worldwide. With a deep understanding of the finance landscape, we support clients ranging from leading professional services firms to established regional practices and multi-service professional groups, delivering tailored talent solutions that drive business performance.\n\nWe are partnering with a well-established, multi-service accountancy and professional services firm with a strong regional presence and an excellent reputation for delivering trusted advice to businesses and individuals.\n\nWith over 220 employees across 11 offices throughout Yorkshire and Derbyshire, the business provides a comprehensive range of professional services, including accountancy, financial services, corporate finance and wider business advisory support.\n\nThe organisation promotes a people-focused environment built around collaboration, professionalism and integrity. It places strong emphasis on creating a supportive and inclusive culture where individuals are encouraged to develop their skills, take ownership of their work and progress within an established and approachable team.\n\nThe Role\n\nAs an Accounts Assistant, you will join an established accountancy practice, providing a combination of accounting and administrative support to the wider accounts team.\n\nYou will assist with the preparation of annual accounts, bookkeeping, VAT returns, bank reconciliations and other accounting duties, gaining exposure to a broad range of services provided to the firm's clients. Alongside your day-to-day responsibilities, you will have the opportunity to develop your technical knowledge and practical experience while working towards an AAT apprenticeship.\n\nThis is an excellent opportunity for someone looking to build a career within accountancy, develop a strong foundation of accounting skills and gain valuable experience within a reputable professional services environment. The role offers structured learning, professional study support and the opportunity to develop under the guidance of experienced colleagues.\n\nKey Responsibilities\n- Assist with the preparation of annual accounts for a varied client base\n- Undertake bookkeeping duties, ensuring financial records are accurate and up to date\n- Assist with the preparation of VAT returns and supporting documentation\n- Complete bank reconciliations and investigate discrepancies where required\n- Support the accounts team with a range of accounting functions and financial reporting activities\n- Develop an understanding of the processes involved in preparing a full set of financial accounts\n- Provide administrative support to colleagues, supervisors and managers across the practice\n- Follow instructions from supervisors and managers, seeking guidance where necessary\n- Maintain accurate financial records and ensure client information is handled confidentially\n- Assist with the organisation, filing, archiving and maintenance of client documentation\n- Manage incoming and outgoing post and provide general office administration support\n- Answer incoming telephone calls professionally and direct enquiries to the appropriate colleagues\n- Respond to colleagues and clients in a courteous and professional manner\n- Follow relevant policies, procedures and money laundering regulations\n- Participate in training and development activities, including working towards the AAT apprenticeship\n- Support the wider team in meeting client deadlines and achieving business objectives\n- Undertake additional accounting and administrative duties as required\n\nAbout You\n- An interest in accountancy and a genuine desire to build a career within an accountancy practice\n- Studying towards AAT, or keen to undertake an AAT apprenticeship\n- Previous experience in an accounts or administrative role would be advantageous but is not essential, depending on the candidate's overall suitability\n- Strong numerical skills with excellent attention to detail\n- Good organisational skills and the ability to prioritise competing tasks\n- Excellent time management skills and a willingness to learn\n- Strong written and verbal communication skills\n- A professional and confident telephone manner\n- Good IT skills, with the ability to learn accounting software and other systems\n- Strong record-keeping skills and a methodical approach to work\n- The ability to follow instructions and work effectively under the guidance of experienced colleagues\n- A proactive attitude with a willingness to take responsibility and develop new skills\n- The ability to handle confidential financial and client information appropriately\n- A professional, courteous and team-focused approach\n- Commitment to ongoing learning, professional development and completing relevant training\n\nWhat's on Offer\n- Competitive salary, dependent on experience\n- 25 days holiday plus bank holidays, with the option to purchase up to 5 additional days\n- Pension scheme\n- Health Cash Plan (Level 1)\n- Life assurance at 4x salary\n- Eye test support\n- AAT apprenticeship and professional study support\n- Ongoing training, development and opportunities to build a career within accountancy\n- Social events and staff engagement activities\n- Volunteering opportunities\n- Staff discounts on wills, lasting powers of attorney and residential mortgages\n- Supportive and collaborative working environment\n- Opportunity to gain hands-on experience across a broad range of accounting services\n- The chance to learn from experienced accounting professionals and develop long-term career prospects",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1AqGbzZAab9h66Z8OBZFVVYb359ik9ZFl",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "W Talent",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225664255",
     "title": "Service Coordinator",
     "company": "Interaction Recruitment - Agency - Permanent",
@@ -2458,25 +2503,6 @@
     "description": "The Outpatient Administration team work in collaboration with the Referral and Booking Service, Outpatient Nursing, Switchboard, Phlebotomy and the Robotic Process Automation teams. Together we form the Outpatient Clinical Service Unit. The Outpatient Administration team are based across five sites Leeds General Infirmary, Chapel Allerton Hospital, Seacroft Hospital, Wharfedale Hospital and St James University Hospital; and two Community Diagnostic Centres at Beeston and Armley. The main duty of this role is to provide administration support to the Outpatient clinics at Seacroft Hospital. The administration support includes computer-based work using our Patient Administration System and providing front of house reception support, delivering a high standard of patient care. Our Clerical Officer team ensure all paperwork and systems are prepared in advance of Outpatient appointments. They also provide receptionist support across a number of reception areas; book patient appointments in person and by telephone; and ensure all post clinic actions are completely timely. The main attributes we are looking for include being motivated, reliable, trustworthy, flexible, and keen to learn. We are also seeking somebody who is a good team player, with the ability to work on their own initiative. We are proud of the diversity within our teams, welcome applications from people of all backgrounds and are committed to recruiting inclusively. Post 1 34 hours 4 days 0800-1700 Post 2 18 hours 4 days 1230-1700 For questions about this job, contact: Name Vee Goodall Position Assistant Patient Services Coordinator Email Veronica.goodall@nhs.net Phone number 0113 2063248 Shortlisting Date: 13.11.2026 Interview Date: 23.11.26 Please Note: All salaries listed reflect the pay for full time roles. Any part time roles will be pro rata. In Outpatient Administration, we place staff health and wellbeing at the heart of everything we do and actively promote flexibility in the workplace. We are committed to supporting all staff to succeed in their roles, including offering and supporting reasonable adjustments where needed. We value and recognise the power of the staff voice and encourage colleagues to act as champions through a range of staff networks, including Disability, LGBT+ and BME networks. We also adopt inclusive recruitment processes and as part of this, we share interview questions with all shortlisted candidates the day before interview. We believe this approach creates a level playing field, helps reduce stress, and enables candidates to fully understand what we are looking for. Our team is unique because we support Outpatient services across several locations and work in partnership with a wide range of Clinical Service Units. This provides a varied working environment, opportunities to develop a wide skill set, and valuable exposure to different specialties, services and different ways of working across the Trust. It is an exciting time within the Outpatient Administration team as we introduce more digital ways of working and support the Trust’s commitment to sustainability by reducing paper use. If you are passionate about making a difference and want to deliver patient-centred care whilst working within a diverse and supportive team – this could be the role for you! Literacy and numeracy skills required for accurate record-keeping, appointment management and receptionist duties. A commitment to undertake mandatory and role-specific training as required, including additional training to meet service changes and developments. A clear insight into the duties and responsibilities of the post, demonstrating a thorough understanding of the role and the impact it has on patient experience and the wider service. Self-motivation and a commitment to provide an efficient, high-quality service in a busy and demanding environment. Reliability and dependability with a consistent approach to attendance, timekeeping and work responsibilities. A flexible and adaptable approach to duties and working practices, responding efficiently and positively to changing service needs. Competent keyboard skills with the ability to complete work accurately and efficiently to maintain a high-quality service. Good interpersonal skills with the ability to communicate politely, clearly and sensitively with patients, visitors and colleagues. An ability to work independently using own initiative and judgement, within established Trust policies, procedures and guidelines. An ability to work effectively as part of a multi-disciplinary team to deliver high quality patient centred services. Our Trust values The Leeds Way is working together to support each other and deliver the best possible care to patients. We are…. Responsible Open and Honest One Team Kind Our Trust priorities Our purpose: Excellent, safe and sustainable care for every patient every time Our priorities: People Improvement and Innovation Partnerships Outcomes To comply with UK Government regulations on Skilled Worker sponsorship, Leeds Teaching Hospital NHS Trust is unable to provide sponsorship to applicants who do not meet the eligibility criteria or the salary threshold concessions set out under the Skilled Worker visa route. Please take this into consideration before submitting your application. Full guidance on these concessions, including details of who may qualify, can be found here. We reserve the right to close this advert early if we receive a high number of suitable applications.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1160",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1160",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5667656",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Affinity Care",
-    "advertiser_name": "Affinity Care",
-    "location": "Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ",
-    "region": "Yorkshire - West",
-    "salary": "£12.37 to £13.11",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-15T14:10:29.511297351",
-    "closing_date": "2026-10-25",
-    "description": "As a key member of the Patient Services team you will be responsible for providing an efficient reception function that includes some specific administration duties. To ensure the front of house service of meeting and greeting is welcoming and portrays our standards of high quality, professional and patient-focused care. To ensure a high focus on customer satisfaction by dealing with queries in a speedy and accurate manner, applying emotionally conscious responses as relevant. To deal with patients and visitors in a courteous manner, using your skills to ensure matters are dealt with efficiently; providing effective management to patient demand, and reducing undue delay or queues at the front desk/phones To work to protocols with regard booking appointments, repeat prescriptions, ordering of patient transport including emergency ambulances and all other duties as explained to you by the Patient Services Manager. To deal with general queries and liaise effectively with clinicians and other staff as required. To support clinicians during their clinics by dealing with their queries and tasks as requested. This may be the need for some stock in their rooms, following up an appointment with the hospital, or other ad hoc requests. To provide chaperoning service where requested by the clinician and/or patient. To ensure patient confidentiality, including the use of the computer system and visibility of the screen as well as the transfer of written and verbal communication. To converse with patients and visitors by speaking clearly, precisely and with confidence both over the phone and face-to-face at the desk. To signpost patients to the most appropriate service.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1863-26-0051",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1863-26-0051",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
     "posted_date_basis": "source"
