@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-25
-review_fingerprint: 6690b171a9e0a8f246d5811bc714530558cea92308d7424823771dfebb328c2b
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: 77ae94ea6c9d9924787fc94fecf8a145353ca2a3e23ee76e713c60658d109ab4
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 1
+- Records: 7
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
 
----
-action: 
-SELECTED | Cornwall | Newquay, South West, TR7 3BH | £21,690.42 - £24,496.80 Annually (Actual) | First Aid Administrator
-employer: Newquay Tretherras
-closing_date: 2026-10-25T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 04322909202992b02d48f5f119c394f0737a9879f76878d50a9691007b02e067
-source: Teaching Vacancies
-source_job_id: first-aid-administrator-newquay-tretherras
-source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aid-administrator-newquay-tretherras
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

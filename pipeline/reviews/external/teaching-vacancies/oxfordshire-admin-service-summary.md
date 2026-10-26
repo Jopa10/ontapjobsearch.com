@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-25
+review_date: 2026-10-26
 review_fingerprint: 56ee7e677a51a61a12c1dff8f5b574e2bb1cd3e52ccb0f7e401637998e69bd5b
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -151,7 +151,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 - [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-carterton-primary-school) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Excluded senior/management title.
 - [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-ridgeway-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

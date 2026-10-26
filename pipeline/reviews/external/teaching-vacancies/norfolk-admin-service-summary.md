@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-25
+review_date: 2026-10-26
 review_fingerprint: a1fe366d58c59493aded94313144e9613bde8dab9bb9d8f8148e7e8877db534b
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 20
 - Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 13
 
 ## SELECTED
 
@@ -143,7 +143,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Admissions and School Liaison Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-school-liaison-coordinator-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Attendance and Cover Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-cover-officer) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
-- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-browick-road-primary-and-nursery-school-wymondham-norfolk) — Insufficient admin/service evidence.
 - [Data Manager (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/data-manager-maternity-cover-great-yarmouth-charter-academy-great-yarmouth) — Excluded senior/management title.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Student Administration & Customer Service Assistant Degree Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/student-administration-customer-service-assistant-degree-apprenticeship) — Insufficient admin/service evidence.

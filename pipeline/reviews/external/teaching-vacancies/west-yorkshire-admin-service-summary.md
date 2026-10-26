@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-25
-review_fingerprint: 5ea5362c3d4240754ca447df9246a47730c5155b8ad0154a49cf9dd480badb56
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: dc7e9c266f9016107ec89058c2fc32263cc809b5e5cb8c8cc881840223d7efe8
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 54
-- Selected: 16
+- Records: 51
+- Selected: 15
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 33
+- Hard pass: 31
 
 ## SELECTED
 
@@ -169,21 +169,6 @@ factual_fingerprint: 29d9fcc56f21a56c8160e1380070fd716bc04f08978e48eebcc122a1d8c
 source: Teaching Vacancies
 source_job_id: finance-officer-greenhead-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greenhead-college
----
-
----
-action: 
-SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF1 2PF | £25,614 to £26,016 | HR Administrative Assistant
-employer: Outwood Grange Academy
-closing_date: 2026-10-26T08:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: ee10b5b97df36a28c109f2b8b108c00e5fcbf7dd54511bb188fe96a3a78ce1a8
-source: Teaching Vacancies
-source_job_id: hr-administrative-assistant-outwood-grange-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-outwood-grange-academy
 ---
 
 ---
@@ -354,12 +339,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gr
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Excluded senior/management title.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-leeds-diocesan-learning-trust) — Excluded senior/management title.
 - [Customer Experience Team Leader](https://teaching-vacancies.service.gov.uk/jobs/customer-experience-team-leader) — Excluded senior/management title.
-- [Digital/Lens Counter Technician - Creative Arts](https://teaching-vacancies.service.gov.uk/jobs/digital-lens-counter-technician-creative-arts) — Out-of-scope occupation: technician.
 - [Employee Relations Specialist](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist) — Insufficient admin/service evidence.
 - [Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-manager-the-bishop-wheeler-catholic-academy-trust) — Excluded senior/management title.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — No usable numeric salary.
 - [Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-officer-39b7503c-0dfc-4dc9-b7cf-19e31f8c3bb6) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-william-henry-smith-school-and-sixth-form) — Excluded senior/management title.
 - [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-south-pennine-academies) — Excluded senior/management title.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-high-park-school) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.

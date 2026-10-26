@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-10-25
-review_fingerprint: 6c57801d22e82f8bc2e531d56f377b3f5cecf31b9a110c7b2b35f229fbaab791
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: 4914bf74fa911028e222914221fcc91e5548ee90fe543dcb8897aa8e8d677079
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 2
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
@@ -38,20 +38,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Merseyside - Liverpool | Liverpool, North West, L14 5NX | £27,274.00 - £29,071.00 Annually (FTE) NJC SCP 7-11 | Pro Rata Salary £15,992 - £17,045 per annum | Administration Officer – Attendance & Family Liaison
-employer: Knotty Ash Primary School
-closing_date: 2026-11-06T08:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 479c4314411c16e762bee64f2557f4482701ca51dede72f10eb62d7ac65ffaf0
-source: Teaching Vacancies
-source_job_id: administration-officer-attendance-family-liaison
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-attendance-family-liaison
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

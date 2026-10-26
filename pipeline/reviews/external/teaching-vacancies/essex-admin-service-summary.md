@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-25
-review_fingerprint: e564e2f668ab59dae8081f9085dc90b8764ef8fce97d88f0a5eaa0b2dd5164ac
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: a48bd849c756ebf19711ebefdf402cd9e489cf837af92fb2b5b4a2bc08c97dc6
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 10
+- Records: 25
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 15
@@ -124,21 +124,6 @@ factual_fingerprint: 8ec4c4542c5bcbea1feff64c5d2fc7cac4ae861ed4cd8533d9968ebdcb3
 source: Teaching Vacancies
 source_job_id: administrator-reprographics-mossbourne-fobbing-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-reprographics-mossbourne-fobbing-academy
----
-
----
-action: 
-SELECTED | Essex | Leigh-on-Sea, East of England, SS9 5UU | £26,248.00 Annually (FTE) | Receptionist
-employer: The Eastwood Academy
-closing_date: 2026-10-26T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b63fc0d436dfe985a9d3d49affbbf9abf5d79c3cd0d07a1e12a20d55f846e69f
-source: Teaching Vacancies
-source_job_id: receptionist-the-eastwood-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-eastwood-academy
 ---
 
 ---

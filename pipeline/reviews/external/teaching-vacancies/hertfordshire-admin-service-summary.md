@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-25
-review_fingerprint: 965df5d1ceacde5f8bd3fa5d61d6aed56a02ab420e49272c8b822f96d8e28ddf
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: 28a8147b89e7d5841fee2e837d64448232412f12c9027b139930368d79316206
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
 
@@ -83,20 +83,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ch
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Hertfordshire | Royston, East of England, SG8 6EF | £26,403.00 - £28,142.00 Annually (FTE) NJC Scale 4, point 7 to 11 . Actual salary £22,645.65 per annum on point 7. | Pastoral Support Assistant
-employer: Melbourn Village College
-closing_date: 2026-10-26T09:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cb96a74f0f3c25a0ab14517ad2a3b658cf0aa1c0b4259dfe767a3c656e8ad917
-source: Teaching Vacancies
-source_job_id: pastoral-support-assistant-86b70375-dc6e-4bfd-89a7-4e3cc367dd50
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-assistant-86b70375-dc6e-4bfd-89a7-4e3cc367dd50
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

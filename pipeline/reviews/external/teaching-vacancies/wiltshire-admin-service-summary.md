@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-25
-review_fingerprint: bca431e99aebfa33f32fd07d547ac0155ff6610c97b20a4a37613c9cd400202c
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: 668c29cba5aa840737ba75c723ed6fca49cdefe41014972aa04006d130ab56d2
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 16
 - Selected: 9
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
@@ -171,6 +171,21 @@ factual_fingerprint: 6f09f25c60b4ded1ad38e5a060da2dfb8722989b1060e87efadd20f2330
 source: Teaching Vacancies
 source_job_id: clerk-to-governors-gomeldon-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gomeldon-primary-school
+---
+
+---
+action: 
+POSS | Wiltshire | Salisbury, South West, SP1 1QX | £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE | Clerk to Governors
+employer: St Andrew's Church of England Voluntary Aided Primary School, Laverstock
+closing_date: 2026-11-18T23:59:00+00:00
+reason: Borderline school administration title: clerk to governors
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0719b43ec612943715ae9bc94390ce203bd036d1506c5b75d17b622965a32cd1
+source: Teaching Vacancies
+source_job_id: clerk-to-governors-st-andrew-s-church-of-england-voluntary-aided-primary-school-laverstock
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-st-andrew-s-church-of-england-voluntary-aided-primary-school-laverstock
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-25
-review_fingerprint: cee0bae1c7f9c2955c41dad911e10c3701181299f49d7bf04afcdbd3e8c68f53
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: a7f6405a9e77126c1b95f2e7628e9817cf45b8a57dd862caff3b9ff2f1cd0218
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 30
-- Selected: 16
+- Records: 25
+- Selected: 15
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 8
 
 ## SELECTED
 
@@ -60,7 +60,7 @@ reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 78f7617e9c616c136849a3e9e4f50086367adf32bd17d99ff28983687a163c79
+factual_fingerprint: 97dc755dbfa63b675e2cccb24ea666aa54e408cb1d84da4fc1eb4b6ae866b417
 source: Teaching Vacancies
 source_job_id: administrative-assistant-international-and-community-projects-north-cambridge-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-international-and-community-projects-north-cambridge-academy
@@ -124,21 +124,6 @@ factual_fingerprint: cef3589294fa8142fa442beef11ef0bbbfa15ad2171a52c7aaf2aa6366d
 source: Teaching Vacancies
 source_job_id: business-administrator-apprentice-greater-peterborough-utc
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-apprentice-greater-peterborough-utc
----
-
----
-action: 
-SELECTED | Cambridgeshire | St Neots, East of England, PE19 1LQ | £32,578.00 - £34,812.00 Annually (FTE) Term time plus 3 weeks. Pro rata salary £30,003 - £32,061 | Exams Officer
-employer: Longsands Academy
-closing_date: 2026-10-25T23:59:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ec25f427796278b70e3d6ffefb4a01e15b7ad58e3b597e37bc60cbd3287136a9
-source: Teaching Vacancies
-source_job_id: exams-officer-longsands-academy-st-neots-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-longsands-academy-st-neots-cambridgeshire
 ---
 
 ---
@@ -305,12 +290,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-comberto
 - [Inclusion and Attendance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-and-attendance-coordinator) — No usable numeric salary.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-91d02456-2d21-4a21-9e38-0ce49abf0a82) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-werrington-primary-school) — Excluded senior/management title.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-5a3dff01-79b6-4729-902c-d66d0a984b7a) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-7ec77d3b-774d-4b4b-973d-4d3362c0e641) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-e275b9ec-d6f9-48ae-95a1-399e4246da3d) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Excluded senior/management title.
 - [School Receptionist & Finance Assistant (Temporary)](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-finance-assistant-temporary) — No usable numeric salary.
-- [Senior Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9) — Excluded senior/management title.
 
 ## Safety boundary
 

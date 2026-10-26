@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-25
-review_fingerprint: 8669f925a8496f21669066c9dfd0dbc55894bd5e24f8b450ebed1d984f803a47
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: 75a1c94fee54d25cccfdb91800886c78379719e6f53688852437c4a98b9b9a40
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 12
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2YS | Grade 3 - £26,427 - £26,847 | Administrative Assistant
+employer: Piper Hill High School
+closing_date: 2026-11-05T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6326069f79cf2264a41cf4d96c918490666158ab843b0ffb206a5f8b9827ead4
+source: Teaching Vacancies
+source_job_id: administrative-assistant-piper-hill-high-school-manchester
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-piper-hill-high-school-manchester
+---
 
 ---
 action: 

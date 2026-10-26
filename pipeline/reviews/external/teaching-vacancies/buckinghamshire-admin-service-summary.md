@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-25
-review_fingerprint: e1d9f4f39278af18e2f680def9120c14efc62218e6812ec309a40d6e2d3b95fa
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: 2913c7c3155164b79133496895e60097e13568a7cc2229bc1793da609c4f812f
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 13
 - Selected: 6
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
@@ -126,21 +126,6 @@ factual_fingerprint: ad47331eb0c0e2e2a63c5640f0e6d18c3428890ee85867c7925e936a474
 source: Teaching Vacancies
 source_job_id: business-support-glebe-farm-school-milton-keynes-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-glebe-farm-school-milton-keynes-buckinghamshire
----
-
----
-action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK8 0PU | £9,700.00 Annually (Actual) | Payroll and HR Support Administrator
-employer: The Woodlands School
-closing_date: 2026-11-06T09:00:00+00:00
-reason: Part-time finance requires actual earnings/hours and qualification checks
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 14ad43f2019a8e4778e71b32ecd76a7db9f570d451ec48fc1e4b05c3bce8c94e
-source: Teaching Vacancies
-source_job_id: payroll-and-hr-support-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-support-administrator
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-25
-review_fingerprint: 390deeb98d2551ed620972f5f5525e3ac442a08a7c71e597e454f0dfc06f1d6f
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: de679ca16b41361ad7ee28b167ae28178de1e0af16a543d9ce33458d116d7ed4
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 1
+- Records: 7
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
----
-action: 
-SELECTED | Leicestershire | Loughborough, East Midlands, LE11 3BY | £21,068.00 - £21,883.00 Annually (Actual) | School Administrator
-employer: Loughborough Church of England Primary School
-closing_date: 2026-10-26T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 87f4dc9aee150ca3426087da06ec88f61a3e502562ead91187d2f0be1314938d
-source: Teaching Vacancies
-source_job_id: school-administrator-loughborough-church-of-england-primary-school-loughborough-leicestershire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-loughborough-church-of-england-primary-school-loughborough-leicestershire
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -59,7 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-business-part
 
 ## HARD_PASS
 
-- [Executive Assistant to the Trust Leader (CEO) and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-the-trust-leader-ceo-and-compliance-officer) — Excluded senior/management title.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Excluded senior/management title.
 - [Junior People Business Partner](https://teaching-vacancies.service.gov.uk/jobs/junior-people-business-partner) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-thorpe-acre-junior-school) — Excluded senior/management title.

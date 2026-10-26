@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-25
-review_fingerprint: e88e2cccff7b2a71e3fb71931199573785286c82216e756e79f136e70be8b0e7
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: c7d313aeff3a9df7343275bbbf7f6e6a81e6164fc8bd672e4148e5487bdbb668
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 12
 - Selected: 2
-- POSS awaiting decision: 4
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
 
@@ -96,21 +96,6 @@ factual_fingerprint: a714004cc2fe9582fb3ecb708ba2f52d2ee8d6ace98e9c81d9cddb2e6f9
 source: Teaching Vacancies
 source_job_id: administrative-assistant-hillview-school-for-girls-tonbridge-kent
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls-tonbridge-kent
----
-
----
-action: 
-POSS | Kent | Dartford, South East, DA1 2JT | £25,429 per annum | Centre Administrator
-employer: North Kent College
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4f3300244bc788089934692619d0aae424393d367d3a6ed2dee3251f04d61462
-source: Teaching Vacancies
-source_job_id: centre-administrator-north-kent-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/centre-administrator-north-kent-college
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-25
-review_fingerprint: 11f6bb4532d725cce04047926071ff888a2650c572662e9805e069a05eb38312
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: 201ba62ad1651430f0aaa996506c5c138722b3ae5ace744ca9e79705b46c04ef
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 9
+- Records: 19
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 10
@@ -124,21 +124,6 @@ factual_fingerprint: 0c8ea0631a409a88a3c1a778698ef7570935cbdfef5289842cd9333eb9e
 source: Teaching Vacancies
 source_job_id: receptionist-sir-robert-pattinson-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sir-robert-pattinson-academy
----
-
----
-action: 
-SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 0EP | PPS4, £26,016 per annum, pro rata to £23,484 per annum | Receptionist / Administrative Assistant
-employer: The Priory City of Lincoln Academy
-closing_date: 2026-10-25T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 10fb410411a319e353ee2f2dc5e407e7688d542d7d18dcbe39a8322291b03353
-source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire
 ---
 
 ---

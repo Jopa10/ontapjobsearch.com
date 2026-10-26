@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-25
+review_date: 2026-10-26
 review_fingerprint: f11fdd690d3a472bd519ab0df45ea9ed82a4f8d8687ebac88356b169a72a2110
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 16
 - Selected: 3
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 9
 
 ## SELECTED
 
@@ -135,18 +135,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-fe
 ## HARD_PASS
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-king-edward-primary-school-nursery) — Insufficient admin/service evidence.
-- [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
 - [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy) — Excluded senior/management title.
-- [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby) — Insufficient admin/service evidence.
 - [Governance Professional (Senior Administrator)](https://teaching-vacancies.service.gov.uk/jobs/governance-professional-senior-administrator) — Excluded senior/management title.
-- [Inclusion Administrator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-outwood-academy-kirkby) — No usable numeric salary.
 - [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice-carlton-academy) — No usable numeric salary.
 - [Office Administrator and Receptionist](https://teaching-vacancies.service.gov.uk/jobs/office-administrator-and-receptionist-radcliffe-on-trent-junior-school) — No usable numeric salary.
-- [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c46abdbf-b851-4f98-b51c-c939f0fd7919) — Insufficient admin/service evidence.
 - [Receptionist Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-carlton-academy) — No usable numeric salary.
 - [Safeguarding Adviser](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-adviser-greenwood-academies-trust) — Insufficient admin/service evidence.
-- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Excluded senior/management title.
 - [Senior Office Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrative-assistant) — Excluded senior/management title.
 
 ## Safety boundary

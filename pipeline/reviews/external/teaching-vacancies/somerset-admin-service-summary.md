@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-25
+review_date: 2026-10-26
 review_fingerprint: 1bbf8c5fbfd5336bb3e80ac0d2c5e790de0270bb23bee03b3bab6c98c300ba80
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -59,7 +59,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 
 ## HARD_PASS
 
-- [Customer Service Representative](https://teaching-vacancies.service.gov.uk/jobs/customer-service-representative) — Insufficient admin/service evidence.
 - [Data Administrator & System Management Support](https://teaching-vacancies.service.gov.uk/jobs/data-administrator-system-management-support) — No usable numeric salary.
 - [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager-bridgwater-college-academy) — Excluded senior/management title.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Excluded senior/management title.

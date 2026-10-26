@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-25
-review_fingerprint: b276cece3423cb6c3cea895a547d9d43b25a676e846f6d841b5fbf7ecd912672
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: a387013dbcd1bb421042812a4ff673f9728a0605e271ce6973b3f420e91d97f5
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -23,6 +23,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
+SELECTED | North East | Sunderland, North East, SR5 5JA | N4 SCP 7- 9 FTE: £27,274 - £28,153 £14, 485 - £14, 952 actual salary pro-rata (£14.14 - £14.59 hourly rate) | Admin Assistant (N4)
+employer: Harry Watts Academy
+closing_date: 2026-11-08T12:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a1011686bc65671eddf3843deeff9c5f6512641e921e523fa2911615482d8f2c
+source: Teaching Vacancies
+source_job_id: admin-assistant-n4
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-n4
+---
+
+---
+action: 
 SELECTED | North East | Stanley, North East, DH9 0TW | £18,587.00 - £18,978.00 Annually (Actual) | Administration Assistant
 employer: North Durham Academy
 closing_date: 2026-11-04T23:59:00+00:00
@@ -34,21 +49,6 @@ factual_fingerprint: 2c2686b21c6d79bd0e3fb3b2caf13d4b18aae1699316ce01ab24d5c0c13
 source: Teaching Vacancies
 source_job_id: administration-assistant-north-durham-academy-stanley-county-durham
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-north-durham-academy-stanley-county-durham
----
-
----
-action: 
-SELECTED | North East | Sunderland, North East, SR5 3NF | £27,274.00 - £28,153.00 Annually (FTE) | Administration Assistant
-employer: Trinity Academy New Bridge
-closing_date: 2026-10-26T12:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fbcf4398d24e123a218b8b68896cc94c4cac3262c6314f54935dd6606e0708eb
-source: Teaching Vacancies
-source_job_id: administration-assistant-trinity-academy-new-bridge-sunderland
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-trinity-academy-new-bridge-sunderland
 ---
 
 ---

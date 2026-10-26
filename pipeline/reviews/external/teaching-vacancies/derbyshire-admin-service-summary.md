@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-25
-review_fingerprint: 25bc572a50af61efaca467c6e4bcff95ddb501460e3149d1239636d82c838fe1
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: 7f083505a7d5ce4e87010916e7c113e1872ccc2e8983829b77c7d74e305771e6
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 1
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
@@ -37,21 +37,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-d23e1267
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Derbyshire | Chesterfield, East Midlands, S43 4QG | £22,278.00 - £23,356.00 Annually (Actual) 2 posts available, 37 hrs/ 39 weeks, 37hrs / 41 weeks. Grade 2 £26,016 - £27,274 FTE per annum | Administrator
-employer: Heritage High School
-closing_date: 2026-10-26T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fc6997b7628aa082ac781c5357f00f3cae589fc91246471098862b524ebc102f
-source: Teaching Vacancies
-source_job_id: administrator-heritage-high-school-chesterfield-derbyshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-heritage-high-school-chesterfield-derbyshire
----
 
 ---
 action: 

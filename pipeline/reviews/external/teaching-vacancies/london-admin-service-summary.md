@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-25
-review_fingerprint: 5f7414a5eec9e86deebd99b78ee3037882c4e1828b1203476526ff3c175898cf
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: 4ec746bd8145124e2af2b90feeefd72ab945b19f5db234300069c13eac197ee1
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 86
+- Records: 84
 - Selected: 16
-- POSS awaiting decision: 19
+- POSS awaiting decision: 18
 - Excluded: 0
-- Hard pass: 51
+- Hard pass: 50
 
 ## SELECTED
 
@@ -445,21 +445,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-middl
 
 ---
 action: 
-POSS | London | London, EC4R 2SP | £37,597.00 - £39,598.00 Annually (FTE) | Governance Professional
-employer: Skinners' Academies Trust
-closing_date: 2026-10-25T23:59:00+00:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7b1b86fdffc602a92546691e68e249fa417697ad43516372fd0923a9b5b43c3f
-source: Teaching Vacancies
-source_job_id: governance-professional-skinners-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-skinners-academies-trust
----
-
----
-action: 
 POSS | London | London, London, SE11 4AX | £33,036.00 Annually (FTE) | Office Administrator
 employer: Evolve Academy
 closing_date: 2026-10-31T23:59:00+00:00
@@ -600,10 +585,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-whitehall-park-school) — Excluded senior/management title.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-9fa464f8-e6a5-4f60-bac9-8d1c457a584c) — Insufficient admin/service evidence.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school-london) — Excluded senior/management title.
-- [Senior Project Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-project-officer) — Excluded senior/management title.
 - [Site Manager](https://teaching-vacancies.service.gov.uk/jobs/site-manager-hereward-primary-school-loughton-essex) — Out-of-scope occupation: site manager.
-- [Specialist Cover Coordinator](https://teaching-vacancies.service.gov.uk/jobs/specialist-cover-coordinator) — Insufficient admin/service evidence.
 - [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer-davenant-foundation-school) — No usable numeric salary.
+- [Welfare and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-admin-officer-willow-tree-primary-school) — No usable numeric salary.
 - [Whole School Admissions and Transitions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/whole-school-admissions-and-transitions-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary

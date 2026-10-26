@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-25
-review_fingerprint: 1965509e810fd07e5e76f4a446ef26ec755cb3c504309441874dc9d207e5d119
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: 253e14ebd60bc3f009b3fd30acfbe3c7fd46839887e74e9d4d5c110b68160bf8
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 3
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
@@ -67,21 +67,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-send
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Surrey | Oxted, South East, RH8 0AB | £25,940.00 - £31,224.00 Annually (FTE) P4.1 to P5.6 | HR Assistant
-employer: Oxted School
-closing_date: 2026-10-26T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cd9dc259ada4a0e57e99af222b9d20aaea582b9c1a71d4b2fe50edffe6af8e72
-source: Teaching Vacancies
-source_job_id: hr-assistant-oxted-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-oxted-school
----
 
 ---
 action: 

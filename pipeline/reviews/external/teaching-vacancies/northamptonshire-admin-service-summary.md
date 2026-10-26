@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-25
-review_fingerprint: 9a753ee04d8bd984330dff3208656c962aa6c067944a8ffbb579003ecd8d63c6
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+review_date: 2026-10-26
+review_fingerprint: de1cb276d67fa6f3ede34fc75515be29fa8a5a3c8aeaae7992f310e71c592d5c
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 7
+- Records: 18
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 10
@@ -64,21 +64,6 @@ factual_fingerprint: 53e7ad9b396980b8b0ec47c2dd78e7abc70c8df66c2b0fc749708ee735d
 source: Teaching Vacancies
 source_job_id: content-creator-and-admin-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/content-creator-and-admin-assistant
----
-
----
-action: 
-SELECTED | Northamptonshire | Kettering, East Midlands, NN15 6BJ | £26,427.00 - £26,846.00 Annually (FTE) | Finance Officer
-employer: Bishop Stopford School
-closing_date: 2026-10-26T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2049337fb7ec68520da31087a6c9cee67c7777a5d9dc8fa6acfd7704a8581188
-source: Teaching Vacancies
-source_job_id: finance-officer-bishop-stopford-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-stopford-school
 ---
 
 ---

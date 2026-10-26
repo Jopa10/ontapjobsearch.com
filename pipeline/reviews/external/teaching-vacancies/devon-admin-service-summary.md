@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-25
+review_date: 2026-10-26
 review_fingerprint: ffb4a8e8f06f981a1d03d3a49c8ae8749209b77eb5f347f54ac61ee0885da6e1
-routing_manifest_sha256: 59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5
+routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
+- Records: 27
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 23
+- Hard pass: 22
 
 ## SELECTED
 
@@ -122,7 +122,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-funding-admin
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-montpelier-primary-school) — Excluded senior/management title.
 - [Marketing and Communications Lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-lead-learning-academies-trust) — Excluded senior/management title.
 - [Patroller](https://teaching-vacancies.service.gov.uk/jobs/patroller) — Insufficient admin/service evidence.
-- [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.
 - [Post-16 Transition Coordinator](https://teaching-vacancies.service.gov.uk/jobs/post-16-transition-coordinator-isca-academy) — No usable numeric salary.
 - [Reception Administrator](https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-a8a7af34-eea8-4688-b23d-e979d7269a87) — No usable numeric salary.
 - [School Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-caretaker-ladysmith-infant-nursery-school) — Out-of-scope occupation: caretaker.
