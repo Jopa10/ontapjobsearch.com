@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "One Sixth Form College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-administrator-maternity-cover-the-oaks-primary-school",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Oaks Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225686375",
@@ -573,6 +581,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108231901",
+    "title": "Credit controller",
+    "company": "Empower Digital Limited - Agency - Permanent",
+    "location": "Suffolk",
+    "region": "Suffolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27500",
+    "salary_max": "27500",
+    "salary_text": "£27500 per year",
+    "posted_date": "",
+    "description": "Job Title: Credit controller\n\nLocation: Ipswich\n\nDesired Start Date: ASAP\n\nDeadline for application: 06/11/2026\n\nHours: 7.50/day Monday - Friday\n\nSalary: £25,000 - £27,500\n\nRole Overview:\n\nWorking in a fast paced environment, you will be responsible but not limited to overseeing the Sales Ledger and credit control function click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?%2bsiGSA7VT9DGrA4dOo9RuZ8%2f%2b9s%2fiW65d",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Empower Digital Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225659267",
     "title": "Payroll & Office Administrator",
     "company": "srb Accountancy - Agency - Permanent",
@@ -763,7 +796,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0975",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0975",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5660727",
@@ -781,7 +818,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1174",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1174",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653700",
@@ -799,6 +840,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

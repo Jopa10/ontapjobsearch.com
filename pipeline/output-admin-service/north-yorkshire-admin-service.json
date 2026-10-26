@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Braeburn Primary and Nursery Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-administrator-saltergate-junior-school-harrogate-north-yorkshire",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Saltergate Junior School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-send-administrator-george-pindar-school-scarborough",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "George Pindar School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St Wilfrid's Catholic Primary School - a Catholic Voluntary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-data-administrator-st-john-fisher-catholic-academy",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St John Fisher Catholic Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "2076479",
@@ -860,7 +880,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1323",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1323",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5669774",
@@ -878,7 +902,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1286",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1286",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5665026",
@@ -896,7 +924,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9419-26-0849",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9419-26-0849",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5655930",
@@ -914,7 +946,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1251",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1251",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5655371",
@@ -932,7 +968,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3172-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3172-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651232",
@@ -950,6 +990,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4014-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4014-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

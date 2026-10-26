@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Salford Priors CofE Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-operations-administrator-salford-priors-cofe-academy-evesham",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Salford Priors CofE Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-finance-assistant-hollymount-school",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hollymount School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225668153",
@@ -687,7 +699,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0127",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0127",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5674934",
@@ -705,7 +721,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0158-26-0134",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0158-26-0134",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5666365",
@@ -723,7 +743,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0113",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0113",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5660031",
@@ -741,7 +765,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0107",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0107",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5656799",
@@ -759,7 +787,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0105",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0105",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5618246",
@@ -777,6 +809,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5395-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5395-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

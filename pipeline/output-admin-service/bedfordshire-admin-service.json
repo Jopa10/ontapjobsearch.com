@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Lancot School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-cf37bca3-64ec-41f1-b25b-fecf7343f14a",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Sharnbrook Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-putteridge-high-school-luton-bedfordshire",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Putteridge High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-office-community-administrator",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Southcott Lower School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-sen-inclusion-administrator",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Beechwood Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "2036003",
@@ -835,7 +855,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0909",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0909",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5659405",
@@ -853,24 +877,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2155-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2155-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5678105",
-    "source": "NHS Jobs",
-    "title": "Endoscopy Booking Clerk",
-    "company": "Bedfordshire Hospitals NHS Foundation Trust",
-    "advertiser_name": "Bedfordshire Hospitals NHS Foundation Trust",
-    "location": "Luton, LU4 0DZ",
-    "region": "Bedfordshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-21T09:59:45.857244474",
-    "closing_date": "2026-11-04",
-    "description": "The Endoscopy Department Booking Office is looking an enthusiastic Booking Clerk to join their friendly team, working alongside other admin team members in a fast-paced office environment. The post holders will be part of the Endoscopy Administration Team and be responsible for the administration and upkeep of the Luton Endoscopy waiting list and booking of patients within the breach dates and through the correct pathways. The Booking Clerks will utilise the Patient Information Management System (IPM) to record waiting list information, whilst ensuring all patient information is up to date and any problems reported upwards. The post holders will liaise closely with all Consultants and users of the Endoscopy Unit to ensure that good communication is in place and assist with the implementation of new guidelines and policies to ensure targeted are met in line with National and Local Guidelines. Responsible for the booking of patients within the breach dates and through the correct pathways depending on the triage of referral. Report any potential breaches to the Administrative and Waiting List Leads. To work closely with the Endoscopy Compliance Lead, supporting them with any administration tasks including audio typing and sending out of letters. To take incoming telephone calls ensuring they are dealt with courteously and sensitive manner with due regard to confidentiality. Resolve enquiries from patients and provide advice, reassurance to patients, carers/relatives, who have concerns regarding appointments or procedures. When instructed by the Administrative and Waiting List Leads and/or the Endoscopy Operational Compliance Manager, moving patients appointment due to unforeseen circumstances. If cancelled on the day of appointment, contact patients directly, making sure patients are offered a date within appropriate time frame. To be responsible for ensuring that if a patient is unable to attend an appointment, the vacant slot is efficiently offered to another patient.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0985",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0985",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

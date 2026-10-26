@@ -1,29 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-exams-officer-longsands-academy-st-neots-cambridgeshire",
-    "title": "Exams Officer",
-    "company": "Longsands Academy",
-    "location": "St Neots",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£32,578.00 - £34,812.00 Annually (FTE) Term time plus 3 weeks. Pro rata salary £30,003 - £32,061",
-    "work_pattern": "",
-    "posted_date": "2026-10-01",
-    "closing_date": "2026-10-25",
-    "closing_datetime": "2026-10-25T23:59:00+00:00",
-    "summary": "Exams Officer with Longsands Academy in St Neots. ['full time']; £32,578.00 - £34,812.00 Annually (FTE) Term time plus 3 weeks. Pro rata salary £30,003 - £32,061.",
-    "description": "Longsands Academy is recruiting for this vacancy in St Neots.\n\nThe advertised position is Exams Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £32,578.00 - £34,812.00 Annually (FTE) Term time plus 3 weeks. Pro rata salary £30,003 - £32,061.\n\nThe stated application deadline is 2026-10-25T23:59:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/exams-officer-longsands-academy-st-neots-cambridgeshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-administration-assistant-33fbff14-5670-4218-aac1-dee2a2b87010",
     "title": "Administration Assistant",
     "company": "Cottenham Village College",
@@ -45,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Cottenham Village College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-administrator-vista-academy-littleport",
@@ -69,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Vista Academy Littleport",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire",
@@ -93,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Priory Junior School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-business-administrator-apprentice-greater-peterborough-utc",
@@ -117,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Greater Peterborough UTC",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-international-and-community-projects-north-cambridge-academy",
@@ -141,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "North Cambridge Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-jack-hunt-academy-peterborough-cambridgeshire",
@@ -165,7 +161,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Jack Hunt Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-finance-officer-cambridge-academy-for-science-and-technology-cambridge-cambridgeshire",
@@ -189,7 +189,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Cambridge Academy for Science and Technology",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-finance-officer-coleridge-community-college-cambridge-cambridgeshire",
@@ -213,7 +217,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Coleridge Community College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-finance-officer-parkside-community-college-cambridge-cambridgeshire",
@@ -237,7 +245,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Parkside Community College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-finance-officer-the-galfrid-school-cambridge-cambridgeshire",
@@ -261,7 +273,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Galfrid School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-finance-officer-trumpington-community-college-cambridge-cambridgeshire",
@@ -285,7 +301,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Trumpington Community College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-office-assistant-sutton-cofe-vc-primary-school",
@@ -309,7 +329,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Sutton CofE VC Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-sixth-form-administrator-exams",
@@ -333,7 +357,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Impington Village College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-admissions-administrator-united-learning-trust",
@@ -357,7 +385,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "United Learning Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-hardwick-and-cambourne-community-primary-school",
@@ -381,7 +413,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hardwick and Cambourne Community Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "2036998",
@@ -1199,7 +1235,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1314",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1314",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5683940",
@@ -1217,7 +1257,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3007-26-0125",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3007-26-0125",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5673923",
@@ -1235,7 +1279,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1309",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1309",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5668718",
@@ -1253,6 +1301,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1809-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1809-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

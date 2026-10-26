@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Henley Bank High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-trips-lettings-payment-administrator",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Cirencester Deer Park School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225662404",
@@ -1173,6 +1181,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108226582",
+    "title": "Sales & Marketing Coordinator",
+    "company": "JSM UK Ltd - Agency - Permanent",
+    "location": "Gloucestershire",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "33000",
+    "salary_max": "33000",
+    "salary_text": "£33000 per year",
+    "posted_date": "",
+    "description": "About us\n\nJSM Brand Exposure is a branded merchandise, print and corporate gifting company based in Gloucester. We work with some of the UK's best known brands, supplying everything from staff uniforms and welcome packs to point of sale for national branch networks. We run our own 16,000 sq ft production and fulfilment site and have a team of around 30 click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?KY4ye8HUBXyV4Lc2xcZWuyMtyvfvHBJqc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "JSM UK Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5673959",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -1188,25 +1221,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0076",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0076",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5649232",
-    "source": "NHS Jobs",
-    "title": "Team Administrator",
-    "company": "Gloucestershire Health and Care NHS Foundation Trust",
-    "advertiser_name": "Gloucestershire Health and Care NHS Foundation Trust",
-    "location": "Stroud, GL5 2HZ",
-    "region": "Gloucestershire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-10-08T07:15:10.023565757",
-    "closing_date": "2026-10-25",
-    "description": "This role is offered on a fixed term/secondment basis for 12 months. The hours are part-time, 30 hours per week. *Internal applicants who wish to be considered for a secondment opportunity should discuss with their line manager the suitability of a possible secondment* Are you looking for an interesting part time administration job? Now is a great time to join our administration team, at Gloucestershire Health and Care NHS Foundation Trust, in this busy but rewarding team administrator post, based in Stroud. We are looking for an enthusiastic, hard-working team player with excellent organisational skills who can sustain quality in their document production, work collaboratively with colleagues to manage the workload on a day-to-day basis, and prioritise work to meet deadlines. You will need strong interpersonal and organisational skills with the ability to quickly build relationships with the team and managers across the organisation, providing responsive and proactive administrative support. This is a part time role, based in Stroud. Minute taking experience would be an advantage, as this is an essential part of the role. Previous NHS experience would be an advantage. To collect, collate and create data reports in various formats for the team manager. To work within various IT systems and provide clerical and administration support to senior managers as required. The post holder will work under indirect supervision and will directly contribute to and co-ordinate the efficient running of the service. To project the professional image of the trust through demonstrating excellent customer care in all activities To maintain confidentiality at all times The qualification, training & experience requirements for the role are in the Job Description/Person Specification. Please refer to the Additional Information attachment before submitting your application This role is not eligible for sponsorship as per the Governments UK VISA and Immigration Rules and Regulations. For more information please visit https://www.gov.uk/browse/visas-immigration/work-visas",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0840",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0840",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5681530",
@@ -1224,7 +1243,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0899",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0899",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672395",
@@ -1242,7 +1265,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0522-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0522-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5673215",
@@ -1260,6 +1287,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0883",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0883",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

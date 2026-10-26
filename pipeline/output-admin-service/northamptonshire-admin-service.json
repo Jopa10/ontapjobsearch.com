@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bishop Stopford School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-administrator-slt-support-st-thomas-becket-catholic-school-northampton-northamptonshire",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St Thomas Becket Catholic School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-content-creator-and-admin-assistant",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Moulton Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-technical-administrator",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Caroline Chisholm School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-northampton-school",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Northampton School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-receptionist-northampton-school",
@@ -141,7 +161,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Northampton School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-bishop-stopford-school-kettering-northamptonshire",
@@ -165,7 +189,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bishop Stopford School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225706886",
@@ -1343,31 +1371,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108069317",
-    "title": "Recruitment Operations Coordinator",
-    "company": "R&V Group Ltd - Agency - Contract",
-    "location": "Northamptonshire",
-    "region": "Northamptonshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "16",
-    "salary_max": "16",
-    "salary_text": "£16 per hour",
-    "posted_date": "",
-    "description": "Recruitment Operations Coordinator - R&V Group Ltd\n\nR&V Group Ltd is growing, and we're looking for an enthusiastic, organised, and motivated Recruitment Operations Coordinator to join our team.\n\nThis role is ideal if you enjoy working with people, staying organised, and thrive in a busy environment where no two days are the same click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VImiKTvwu%2bib1QgmQFmV9E7w",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "R&V Group Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225738732",
     "title": "Sales Support Executive",
     "company": "Complii - Agency - Permanent",
@@ -1458,7 +1461,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0810-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0810-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5677922",
@@ -1476,7 +1483,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1304-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1304-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672247",
@@ -1494,7 +1505,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1556-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1556-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5632294",
@@ -1512,6 +1527,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1556-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1556-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

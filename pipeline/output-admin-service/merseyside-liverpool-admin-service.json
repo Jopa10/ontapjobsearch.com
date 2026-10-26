@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Beacon Church of England Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225721850",
@@ -449,6 +453,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108210425",
+    "title": "Operations & Social Media Coordinator",
+    "company": "ADAPTABLE RECRUITMENT LTD - Agency - Permanent",
+    "location": "Liverpool",
+    "region": "Merseyside - Liverpool",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Operations & Social Media Coordinator\nLiverpool £28,000-£30,000 Full-Time Permanent\n\nAdaptable Recruitment are delighted to be working exclusively with a successful and growing Liverpool-based cleaning services business to recruit an Operations & Social Media Coordinator.\n\nThis is a genuinely varied role combining customer service, operations, scheduling, administration and social media managemen click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?KY4ye8HUBXxx6%2bA5TP7pXQQ3Yz0ije8lc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "ADAPTABLE RECRUITMENT LTD",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5680334",
     "source": "NHS Jobs",
     "title": "Administrator (Bank)",
@@ -464,7 +493,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0843",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0843",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5682461",
@@ -482,7 +515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2214-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2214-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5677636",
@@ -500,7 +537,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0048-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0048-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5676638",
@@ -518,6 +559,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5232-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5232-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
