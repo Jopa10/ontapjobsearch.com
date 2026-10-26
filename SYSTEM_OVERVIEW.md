@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 25 October 2026
+**Last updated:** 26 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 26 October 2026 — **Private testing now supports ten alerts with one email address:** different signups add alerts while retaining earlier preferences. Repeats count once; an eleventh is refused. The automatic private sender combines matching jobs into one daily email without duplicates. Existing preferences and daily duplicate protection remain; unsubscribing stops all alerts. Public rollout stays off. Tests passed before adopting the new sender.
 
 - 25 October 2026 — **Search measurement:** forms targeting `/jobs/search` emit `job_search_submit` with sanitised role/location text and source page. The results page emits `job_search_results` with entered terms, actual result count, results/no-results outcome, approved-register location recognition and keyword/nearby mode. It waits for analytics readiness, suppresses duplicate effect delivery and respects existing automation suppression. Location recognition is distinct from finding matching jobs. No historical backfill; GA4 property 529819570 has event-scoped dimensions `search_term`, `search_location`, `source_page`, `search_outcome`, `location_status` and `search_mode`, plus the Standard numeric metric `result_count`, verified through the Admin API on 25 October. These definitions apply prospectively; normal reporting processing delay applies.
 

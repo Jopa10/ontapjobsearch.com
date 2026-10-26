@@ -3,7 +3,7 @@ Total output lines: 420
 
 # Ontap System Map
 
-**Last updated:** 25 October 2026
+**Last updated:** 26 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -11,6 +11,8 @@ Total output lines: 420
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 26 October 2026 — **Native private sender supports ten alerts per email:** the post-publish workflow pins tested feature revision `0fd43c970f67b46f1bd0559d6eb09bbc472d30c2`. The private Preview saves up to ten distinct role/location/salary entries in Brevo text `ALERT_PREFERENCES`; the private CI verifies/provisions this attribute. Existing scalar preferences migrate on the next distinct signup, preserving the prior alert. Equivalent repeats add nothing; an eleventh alert fails without writes. The sender unions independently matched preferences, deduplicates by job ID and applies the existing 20-job digest cap. Legacy single alerts remain supported; malformed arrays fail closed. Fixed list-3 recipient, consent/unsubscribe/blacklist, date guard, stable daily idempotency, shared concurrency, verified production receipt and fail-soft publisher isolation remain. Push validation sends no email. Preview deployment is separate from production; no public activation or publishing changes.
 
 - 25 October 2026 — **Search measurement:** forms targeting `/jobs/search` emit `job_search_submit` with sanitised role/location text and source page. The results page emits `job_search_results` with entered terms, actual result count, results/no-results outcome, approved-register location recognition and keyword/nearby mode. It waits for analytics readiness, suppresses duplicate effect delivery and respects existing automation suppression. Location recognition is distinct from finding matching jobs. No historical backfill; GA4 property 529819570 has event-scoped dimensions `search_term`, `search_location`, `source_page`, `search_outcome`, `location_status` and `search_mode`, plus the Standard numeric metric `result_count`, verified through the Admin API on 25 October. These definitions apply prospectively; normal reporting processing delay applies.
 
@@ -174,7 +176,7 @@ NHS/public-sector inventory is a complementary supply and sector-switching advan
 
 ## 5. Operations / infrastructure
 
-The automatic private CPC sender is pinned to `b39eedd283fa2b8a080d926c02c5eb6a83fd7cc3`. Its sparse private checkout includes `pipeline/scripts`, `pipeline/tests` and `pipeline/config`; the last supplies the governed region-name/slug catalog. The existing post-publish workflow retains a fixed test contact/list and invokes only private daily mode. Public signup and list-wide delivery are not enabled by this adoption.
+The automatic private CPC sender is pinned to `0fd43c970f67b46f1bd0559d6eb09bbc472d30c2`. Its sparse private checkout includes `pipeline/scripts`, `pipeline/tests` and `pipeline/config`; the last supplies the governed region-name/slug catalog. The existing post-publish workflow retains a fixed test contact/list and invokes only private daily mode. Public signup and list-wide delivery are not enabled by this adoption.
 
 Core scheduled workflows include:
 

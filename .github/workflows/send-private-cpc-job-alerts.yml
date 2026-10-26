@@ -29,7 +29,7 @@ jobs:
       - name: Check out audited private sender only
         uses: actions/checkout@v4
         with:
-          ref: b39eedd283fa2b8a080d926c02c5eb6a83fd7cc3
+          ref: 0fd43c970f67b46f1bd0559d6eb09bbc472d30c2
           path: private-runner
           persist-credentials: false
           sparse-checkout: |
