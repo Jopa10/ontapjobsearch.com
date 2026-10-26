@@ -66,3 +66,7 @@ A lightweight CI enforcement check may be added once the repository audit has id
 ## Owner weekly traffic report
 
 Before producing or changing the owner weekly traffic Excel report, read `pipeline/reports/WEEKLY_TRAFFIC_REPORT_FORMAT.md`. Preserve its approved tabs, definitions, period basis and reconciliation checks. Do not redesign the report from chat memory.
+
+## Owner job review
+
+Before preparing or applying an owner job review, read `pipeline/reviews/OWNER_REVIEW_PROCESS.md`. Reuse the approved single-sheet Excel format and fixed Review No. mapping. Do not redesign it or change selection rules from batch decisions. This is separate from the weekly traffic report contract.

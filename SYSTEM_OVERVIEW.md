@@ -10,6 +10,9 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 26 October 2026 — **Owner job-review format fixed:** `pipeline/reviews/OWNER_REVIEW_PROCESS.md` is the maintained authority for the approved single-sheet Excel list, fixed Review No. mapping and owner exclusions/select-the-rest response. Reuse the accepted workbook without redesign; batch decisions do not change selection logic. Existing publication safeguards remain unchanged.
+
+
 - 26 October 2026 — **Weekly owner report agreed:** preserve the plain four-tab format in `pipeline/reports/WEEKLY_TRAFFIC_REPORT_FORMAT.md`, with reconciled totals, GSC below referrers, specific-job rankings and the accepted additions sheet.
 
 - 26 October 2026 — **Private testing now supports ten alerts with one email address:** different signups add alerts while retaining earlier preferences. Repeats count once; an eleventh is refused. The automatic private sender combines matching jobs into one daily email without duplicates. Existing preferences and daily duplicate protection remain; unsubscribing stops all alerts. Public rollout stays off. Tests passed before adopting the new sender.
