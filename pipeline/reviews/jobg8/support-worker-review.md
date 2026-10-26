@@ -564,11 +564,10 @@ job_id: 2174176
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | Borehamwood | £17 - £20 per hour | Care Support Worker
 job_id: 23643_225762327
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---

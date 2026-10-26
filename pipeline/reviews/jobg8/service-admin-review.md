@@ -506,29 +506,25 @@ job_id: 23643_225762112
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | no salary in JobG8 salary fields; no supported salary amount found in description | Payroll Specialist (Stand alone)
 job_id: 2075044
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | no salary in JobG8 salary fields; no supported salary amount found in description | Part- Time Accounts Administrator
 job_id: 2064618
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | no salary in JobG8 salary fields; no supported salary amount found in description | Credit Control
 job_id: 2164237
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | no salary in JobG8 salary fields; no supported salary amount found in description | Purchase Ledger Clerk
 job_id: 2165855
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -744,23 +740,20 @@ job_id: 23643_225757191
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | no salary in JobG8 salary fields; no supported salary amount found in description | Part time Finance Manager
 job_id: 2052120
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | no salary in JobG8 salary fields; no supported salary amount found in description | Income Assistant / Finance Administrator - Local Authority
 job_id: 2067582
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Brinsworth | £40000 - £45000 per year [JobG8 salary fields] | Hr Manager
 job_id: 23643_225733777
 ---
-
 ## NORTH EAST — SELECTED
 
 _No jobs in this group._
@@ -2400,83 +2393,70 @@ job_id: 23643_224237633
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Finance Manager
 job_id: 2053404
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £35000 - £41000 per year [JobG8 salary fields] | Billings Administrator
 job_id: 2063583
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Bookkeeping & AI Manager
 job_id: 2062388
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Part Time Property & Finance Officer
 job_id: 2078541
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £50000 per year [JobG8 salary fields] | HR Manager
 job_id: 23643_225694962
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Finance and Operations Assistant
 job_id: 2087368
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £36000 - £42000 per year (Plus bonus and benefits) [JobG8 salary fields] | Payouts Administrator
 job_id: 23643_225698168
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £21.35 per hour [JobG8 salary fields] | Housing Team Administrator
 job_id: 23643_225698771
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Finance Manager (part-time)
 job_id: 2092583
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £44367 per year [JobG8 salary fields] | Spurgeons - Finance Business Partner
 job_id: 23643_225705616
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £31,936 - £35,027 per annum [extracted from description] | Service Manager
 job_id: 108062183
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Brixton | £16 - £18 per hour [JobG8 salary fields] | Part Time Office Manager
 job_id: 23643_225674119
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Morden | no salary in JobG8 salary fields; no supported salary amount found in description | Office Manager & Compliance Coordinator PART TIME
 job_id: 23643_225708270
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -3094,17 +3074,15 @@ job_id: 23643_225650556
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Finance Administrator
 job_id: 2057669
 ---
-
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | £30000 - £35000 per year [JobG8 salary fields] | Part Time HR Manager
 job_id: 23643_225725644
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -3728,29 +3706,25 @@ job_id: 108231718
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Bookkeeper
 job_id: 2044193
 ---
-
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | £38875 - £42161 per year [JobG8 salary fields] | HR Manager
 job_id: 23643_225688512
 ---
-
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Part Time Finance Manager 4 days per week 32 hours
 job_id: 2087513
 ---
-
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Payroll Assistant - Part time
 job_id: 2089890
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -4290,17 +4264,15 @@ job_id: 23643_225757798
 ## KENT — POSSIBLES
 
 ---
-action:
+action: select
 POSS - KENT | Kent | Dartford | £40000 - £45000 per year [JobG8 salary fields] | Payroll Manager
 job_id: 23643_225726540
 ---
-
 ---
-action:
+action: select
 POSS - KENT | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts and Office Administrator
 job_id: 2157148
 ---
-
 ## SELECTOR ERRORS / UNRESOLVED
 
 _No selector errors or unresolved rows outside the normal possible groups._
@@ -4776,13 +4748,12 @@ job_id: 108093701
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Sussex |  | Accounts Assistant
 job_id: 2037053
 ---
-
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Sussex |  | Accounts Payable
 job_id: 2074351
 ---
@@ -5175,19 +5146,17 @@ job_id: 108091779
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire |  | Part Time Finance Manager
 job_id: 2079095
 ---
-
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £36000 - £42000 per year (Hybrid working, Generous A/L etc) | Part Time Finance Manager
 job_id: 23643_225689484
 ---
-
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £40,000 - £42,000 per annum | Finance Manager
 job_id: 2138590
 ---
@@ -5694,17 +5663,15 @@ job_id: 23643_225759764
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire |  | Finance Administration Assistant
 job_id: 2048189
 ---
-
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire |  | Part-Time Finance Administrator
 job_id: 2152925
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -5956,41 +5923,35 @@ job_id: 23643_225651882
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bath | £39000 - £47000 per year | Payroll Manager (Part Time)
 job_id: 23643_225660760
 ---
-
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bath |  | Payroll Manager (Part Time)
 job_id: 2042147
 ---
-
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bath |  | Part Time Accounts Administrator
 job_id: 2053456
 ---
-
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bath |  | Part Time Accounts Assistant
 job_id: 2088889
 ---
-
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bath |  | Part time Finance Assistant - 22. 5 hours per week
 job_id: 2070922
 ---
-
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £45000 per year | Salesforce & Sales Pipeline Coordinator
 job_id: 108225065
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -6482,11 +6443,10 @@ job_id: 23643_225762099
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Peterborough | £40000 per year | HR MANAGER - PART-TIME
 job_id: 23643_225692804
 ---
-
 ## CHESHIRE - EAST — SELECTED
 
 ---
@@ -6564,11 +6524,10 @@ job_id: 23643_225755085
 ## CHESHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CHESHIRE - EAST | Cheshire - East | Wilmslow |  | Part-Time Payroll Assistant
 job_id: 2039760
 ---
-
 ## CHESHIRE - WARRINGTON & HALTON — SELECTED
 
 ---
@@ -6802,11 +6761,10 @@ job_id: 2041204
 ## CHESHIRE - WEST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CHESHIRE - WEST | Cheshire - West | Northwich |  | Part Time Payroll Assistant
 job_id: 2052993
 ---
-
 ## CORNWALL — SELECTED
 
 ---
@@ -6854,17 +6812,15 @@ job_id: 23643_225760800
 ## CORNWALL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CORNWALL | Cornwall | Redruth |  | Part Time Bookkeeper
 job_id: 2057224
 ---
-
 ---
-action:
+action: select
 POSS - CORNWALL | Cornwall | Bodmin |  | Part time Payroll Manager
 job_id: 2062617
 ---
-
 ## CUMBRIA - NORTH — SELECTED
 
 ---
@@ -8670,41 +8626,35 @@ job_id: 23643_225758598
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £42000 - £45000 per year (Progression + Benefits) | HR / Office Manager
 job_id: 23643_225719729
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £42000 - £45000 per year (Progression + Benefits) | Office Manager
 job_id: 23643_225726636
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £42000 - £45000 per year (Progression + Benefits) | HR Manager
 job_id: 23643_225726635
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester |  | HR Manager
 job_id: 2166644
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £43,149 per annum | Office and Facilities Manager
 job_id: 2174237
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £43,149 per annum | Human Resources and Organisational Development Manager
 job_id: 2174236
 ---
-
 ## GREATER MANCHESTER - NORTH — SELECTED
 
 ---
@@ -9112,11 +9062,10 @@ job_id: 23643_225714481
 ## HEREFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HEREFORDSHIRE | Herefordshire | Ross-on-wye |  | Accounts Assistant - Hybrid Working
 job_id: 2039485
 ---
-
 ## HERTFORDSHIRE — SELECTED
 
 ---
@@ -9554,35 +9503,30 @@ job_id: 23643_225759556
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire |  | Part-time Accounts Receivable Administrator
 job_id: 2051739
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire |  | Part Time Accounts Payable Administrator
 job_id: 2055885
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire |  | Finance Assistant - Part time
 job_id: 2060294
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire |  | Bookkeeper / Administrator Part Time
 job_id: 2172257
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £35000 - £40000 per year | Commercial Property Legal Assistant
 job_id: 2175492
 ---
-
 ## LANCASHIRE - CENTRAL — SELECTED
 
 ---
@@ -10014,11 +9958,10 @@ job_id: 108205427
 ## LEICESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire |  | Finance Assistant
 job_id: 23643_225706585
 ---
-
 ## LINCOLNSHIRE — SELECTED
 
 ---
@@ -10144,11 +10087,10 @@ job_id: 23643_225745727
 ## LINCOLNSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire |  | Payroll Technician
 job_id: 2068930
 ---
-
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
 ---
@@ -10262,17 +10204,15 @@ job_id: 108210425
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool |  | HR Manager - Temporary to Permanent
 job_id: 23643_225698676
 ---
-
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool |  | Financial Services Administrator
 job_id: 23643_225734026
 ---
-
 ## MERSEYSIDE - ST HELENS & KNOWSLEY — SELECTED
 
 ---
@@ -10308,11 +10248,10 @@ job_id: 23643_225402779
 ## MERSEYSIDE - ST HELENS & KNOWSLEY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - MERSEYSIDE - ST HELENS & KNOWSLEY | Merseyside - St Helens & Knowsley | Knowsley |  | Accounts Assistant
 job_id: 2050536
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -10534,23 +10473,20 @@ job_id: 108171163
 ## NORFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk |  | Finance Assistant
 job_id: 2087990
 ---
-
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk |  | Accounts Office Administrator
 job_id: 23643_225722938
 ---
-
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk |  | Accounts Office Administrator
 job_id: 2126041
 ---
-
 ## NORTH SCOTLAND — SELECTED
 
 ---
@@ -10592,11 +10528,10 @@ job_id: 23643_225760506
 ## NORTH SCOTLAND — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH SCOTLAND | North Scotland | Fraserburgh | £40000 per year | Service Manager
 job_id: 107991122
 ---
-
 ## NORTH WALES - EAST — SELECTED
 
 ---
@@ -10638,11 +10573,10 @@ job_id: 23643_225747537
 ## NORTH WALES - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH WALES - EAST | North Wales - East | Wrexham |  | Credit Control
 job_id: 2076239
 ---
-
 ## NORTHAMPTONSHIRE — SELECTED
 
 ---
@@ -10948,11 +10882,10 @@ job_id: 23643_225761870
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire |  | Part-Time Finance Officer (with Administrative Support)
 job_id: 2129537
 ---
-
 ## NORTHERN IRELAND - EAST — SELECTED
 
 ---
@@ -11006,11 +10939,10 @@ job_id: 23643_225761514
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Belfast | £20.1 - £24.21 per hour (£20.10- £24.41) | Band 6 - Finance Business Partner
 job_id: 23643_225666942
 ---
-
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
@@ -11262,23 +11194,20 @@ job_id: 23643_225760688
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire |  | Group Financial Controller
 job_id: 2056429
 ---
-
 ---
-action:
+action: select
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £10000 per year (/month) | Part Time HR Manager
 job_id: 23643_225746065
 ---
-
 ---
-action:
+action: select
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire |  | Finance Officer: Purchase Ledger & Income
 job_id: 2174181
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
@@ -11566,17 +11495,15 @@ job_id: 108072790
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £23.07 per hour | Temporary Finance Manager
 job_id: 23643_225727890
 ---
-
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £37,751.95 - £40,655.94 per annum | HR and Payroll Officer
 job_id: 2174234
 ---
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
@@ -11672,11 +11599,10 @@ job_id: 23643_225761200
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SCOTLAND CENTRAL - EDINBURGH & LOTHIANS | Scotland Central - Edinburgh & Lothians | Edinburgh | £35000 per year | Office Manager/Administrator- Edinburgh - 4 day week
 job_id: 2137033
 ---
-
 ## SCOTLAND CENTRAL - FALKIRK & STIRLING — SELECTED
 
 ---
@@ -11724,17 +11650,15 @@ job_id: 23643_225760380
 ## SCOTLAND CENTRAL - FALKIRK & STIRLING — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SCOTLAND CENTRAL - FALKIRK & STIRLING | Scotland Central - Falkirk & Stirling | Stirling |  | Payroll Coordinator
 job_id: 2057368
 ---
-
 ---
-action:
+action: select
 POSS - SCOTLAND CENTRAL - FALKIRK & STIRLING | Scotland Central - Falkirk & Stirling | Stirling | £47000 - £51000 per year | Finance Business Partner
 job_id: 2074273
 ---
-
 ## SCOTLAND CENTRAL - FIFE — SELECTED
 
 ---
@@ -11986,11 +11910,10 @@ job_id: 23643_225760167
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SCOTLAND WEST - GLASGOW | Scotland West - Glasgow | Glasgow |  | Accounts Administrator
 job_id: 2055742
 ---
-
 ## SHROPSHIRE — SELECTED
 
 ---
@@ -12092,11 +12015,10 @@ job_id: 23643_225717119
 ## SHROPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SHROPSHIRE | Shropshire | Shropshire |  | Payroll Assistant
 job_id: 2092604
 ---
-
 ## SOMERSET — SELECTED
 
 ---
@@ -12234,41 +12156,35 @@ job_id: 23643_225759259
 ## SOMERSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset |  | Payroll Administrator
 job_id: 2044538
 ---
-
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset |  | P/T Accounts Administrator/Bookkeeper
 job_id: 2055734
 ---
-
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset |  | P/T ACCOUNTS ADMINISTRATOR / BOOKKEEPER
 job_id: 23643_225667966
 ---
-
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset | £30000 - £40000 per year | Accounts Manager
 job_id: 23643_225367093
 ---
-
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset |  | Senior Accounts Technician
 job_id: 2088068
 ---
-
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset | £35000 - £48000 per year | Accounts and Office Manager
 job_id: 2038056
 ---
-
 ## STAFFORDSHIRE — SELECTED
 
 ---
@@ -12538,17 +12454,15 @@ job_id: 23643_225758295
 ## STAFFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire | £15080 per year (£14.50 per hour) | Part-time Accounts Office Manager
 job_id: 23643_225690802
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire |  | Payroll and Benefits Officer
 job_id: 2104362
 ---
-
 ## SUFFOLK — SELECTED
 
 ---
@@ -12848,11 +12762,10 @@ job_id: 23643_225449673
 ## WALES SOUTH - CARDIFF & VALE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WALES SOUTH - CARDIFF & VALE | Wales South - Cardiff & Vale | Cardiff |  | Financial Controller
 job_id: 2057279
 ---
-
 ## WALES SOUTH - GWENT — SELECTED
 
 ---
@@ -12990,11 +12903,10 @@ job_id: 2179408
 ## WALES SOUTH - VALLEYS — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WALES SOUTH - VALLEYS | Wales South - Valleys | Pontypridd |  | Hr Manager Part-Time
 job_id: 108220656
 ---
-
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — SELECTED
 
 ---
@@ -13426,23 +13338,20 @@ job_id: 23643_225654934
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £32000 - £35000 per year | Office Manager
 job_id: 23643_225694384
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Sutton Coldfield |  | Part-time Payroll Clerk
 job_id: 2055533
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Sutton Coldfield |  | Experienced Bookkeeper / Accounts Professional
 job_id: 23643_225690795
 ---
-
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
 ---
@@ -13844,11 +13753,10 @@ job_id: 23643_225761228
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Wiltshire |  | Part-time Finance Officer
 job_id: 2041620
 ---
-
 ## WORCESTERSHIRE — SELECTED
 
 ---
@@ -14136,35 +14044,30 @@ job_id: 23643_225760812
 ## YORKSHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hull |  | Accounts Assistant
 job_id: 2060366
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hull |  | Finance Procurement Administrator ( Part-Time)
 job_id: 23643_225754589
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Goole |  | Payroll Processor
 job_id: 23643_225702204
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Goole | £38000 - £42000 per year | Payroll Manager
 job_id: 23643_225629342
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hessle |  | Finance & Reporting Administrator
 job_id: 2165745
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---
@@ -14344,13 +14247,12 @@ job_id: 2180626
 ## YORKSHIRE - NORTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - NORTH | Yorkshire - North | York |  | Part Time Finance Assistant
 job_id: 2087398
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - NORTH | Yorkshire - North | York |  | Part Time Finance Assistant
 job_id: 23643_225696188
 ---
