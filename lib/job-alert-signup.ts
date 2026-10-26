@@ -98,11 +98,12 @@ export async function saveJobAlert(
   const active = previous.listIds?.includes(listId) && !previous.listUnsubscribed?.includes(listId) &&
     Boolean(attrs.ALERT_CONSENT_AT && attrs.ALERT_CONSENT_VERSION);
   const previousAlerts = savedAlerts(attrs);
-  const same = Boolean(active && previousAlerts.some(p => preferenceKey(p) === preferenceKey(signup)));
-  if (!same && previousAlerts.length >= MAX_ALERTS) {
+  const exists = previousAlerts.some(p => preferenceKey(p) === preferenceKey(signup));
+  const same = Boolean(active && exists);
+  if (!exists && previousAlerts.length >= MAX_ALERTS) {
     throw new AlertLimitError("You already have 10 saved alerts. Your existing alerts have been kept.");
   }
-  const alerts = previousAlerts.some(p => preferenceKey(p) === preferenceKey(signup))
+  const alerts = exists
     ? previousAlerts : [...previousAlerts, { role: signup.role, location: signup.location, salary: signup.salary }];
   const encodedAlerts = JSON.stringify(alerts);
   const alertCount = alerts.length;
@@ -131,7 +132,10 @@ export async function saveJobAlert(
   // Provider must persist the marker before any send, otherwise fail closed.
   const verified = await call("/contacts/" + encodeURIComponent(email));
   const contact: Contact = verified.ok ? await verified.json() : {};
-  if (contact.attributes?.[PREFERENCES_ATTRIBUTE] !== encodedAlerts || contact.attributes?.[STATE] !== pendingState || contact.email?.toLowerCase() !== email ||
+  if (contact.attributes?.[PREFERENCES_ATTRIBUTE] !== encodedAlerts) {
+    throw new Error("Your alerts could not be verified after saving. Please try again.");
+  }
+  if (contact.attributes?.[STATE] !== pendingState || contact.email?.toLowerCase() !== email ||
       contact.emailBlacklisted || !contact.listIds?.includes(listId) || contact.listUnsubscribed?.includes(listId) ||
       contact.attributes?.ALERT_ROLE !== signup.role || contact.attributes?.ALERT_LOCATION !== signup.location ||
       String(contact.attributes?.ALERT_SALARY || "") !== signup.salary) {

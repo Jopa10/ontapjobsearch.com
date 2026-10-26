@@ -464,3 +464,32 @@ class MultipleAlertTests(unittest.TestCase):
                 matching_jobs({"ALERT_PREFERENCES": raw}, [job])
         self.assertEqual(len(matching_jobs({"ALERT_ROLE": "Accounts Assistant",
                          "ALERT_LOCATION": "London"}, [job])), 1)
+
+    def test_multiple_alerts_send_one_digest_and_keep_daily_guard(self):
+        from unittest.mock import patch
+        from scripts.send_cpc_job_alerts import send_digest, PRIVATE_TEST_EMAIL, PRIVATE_TEST_ORIGIN
+        contact = {"id": 123, "email": PRIVATE_TEST_EMAIL, "attributes": {
+            "ALERT_PREFERENCES": json.dumps([
+                {"role": "Accounts Assistant", "location": "Leeds", "salary": ""},
+                {"role": "Finance Assistant", "location": "Leeds", "salary": ""},
+                {"role": "Receptionist", "location": "Bristol", "salary": ""},
+            ])}}
+        jobs = [{"job_id": "1", "title": "Accounts Assistant", "location": "Leeds"},
+                {"job_id": "2", "title": "Receptionist", "location": "Bristol"}]
+        with patch("scripts.send_cpc_job_alerts._brevo_request", return_value={}) as api:
+            sent = send_digest(contact, jobs + jobs, report_date="2026-10-26", api_key="fake",
+                               sender_email="jobs@ontapjobsearch.com", unsubscribe_secret="fake",
+                               site_url=PRIVATE_TEST_ORIGIN, private_test=True)
+            self.assertTrue(sent)
+            self.assertEqual([c.args[0] for c in api.call_args_list], ["POST", "PUT"])
+            payload = api.call_args_list[0].args[3]
+            self.assertIn("2 new CPC jobs", payload["subject"])
+            self.assertEqual(payload["to"], [{"email": PRIVATE_TEST_EMAIL}])
+            self.assertEqual(payload["textContent"].count("/jobs/1"), 1)
+            self.assertIn("idempotencyKey", payload["headers"])
+            contact["attributes"]["ALERT_LAST_SENT_DATE"] = "2026-10-26"
+            api.reset_mock()
+            self.assertFalse(send_digest(contact, jobs, report_date="2026-10-26", api_key="fake",
+                             sender_email="jobs@ontapjobsearch.com", unsubscribe_secret="fake",
+                             site_url=PRIVATE_TEST_ORIGIN, private_test=True))
+            api.assert_not_called()
