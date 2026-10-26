@@ -53,12 +53,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Sussex | Sussex | £12.85 - £18.4 per hour | Children's Support Worker
-job_id: 23643_225655669
----
-
----
-action:
 SELECTED | Sussex | Brighton | £30000 - £40000 per year | 6 Month FTC Personal Assistant
 job_id: 23643_225665294
 ---
@@ -125,6 +119,12 @@ job_id: 23643_225737488
 
 ---
 action:
+SELECTED | Sussex | Sussex | £15.5 per hour | Care Assistant - Care Home
+job_id: 23643_225739546
+---
+
+---
+action:
 SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
 job_id: 23643_222307132
 ---
@@ -163,6 +163,12 @@ job_id: 23643_225751206
 action:
 SELECTED | Sussex | Hailsham | £13.39 per hour | Care Assistant
 job_id: 23643_225761986
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225718800
 ---
 
 ---
@@ -563,6 +569,12 @@ job_id: 2174176
 
 ---
 action:
+SELECTED | London | London | £14.06 per hour | Care Assistant
+job_id: 23643_225761972
+---
+
+---
+action:
 SELECTED | London | Borehamwood | £17 - £20 per hour | Care Support Worker
 job_id: 23643_225762327
 ---
@@ -625,6 +637,18 @@ job_id: 23643_225729356
 action:
 SELECTED | Surrey | Guildford | £26500 per year | Family Support Worker
 job_id: 23643_225751661
+---
+
+---
+action:
+SELECTED | Surrey | Dorking | £15.45 per hour | Care Assistant
+job_id: 23643_225761982
+---
+
+---
+action:
+SELECTED | Surrey | Hindhead | £15.45 per hour | Care Assistant
+job_id: 23643_225761987
 ---
 
 ## SURREY — POSSIBLES

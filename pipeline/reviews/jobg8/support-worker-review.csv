@@ -1,7 +1,6 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
 2026-10-26,SELECTED,Yorkshire - South,Healthcare Assistant,Doncaster,£31000 - £32000 per year,,,23643_225735406
 2026-10-26,SELECTED,"North East - Tyneside, Wearside & Northumberland",Healthcare Assistant,Corbridge,£14.27 per hour,,,23643_225715797
-2026-10-26,SELECTED,Sussex,Children's Support Worker,Sussex,£12.85 - £18.4 per hour,,,23643_225655669
 2026-10-26,SELECTED,Sussex,6 Month FTC Personal Assistant,Brighton,£30000 - £40000 per year,,,23643_225665294
 2026-10-26,SELECTED,Sussex,Childrens Support Worker,Worthing,£93 - £95 per daily,,,23643_225679155
 2026-10-26,SELECTED,Sussex,Childrens Support Worker - Weekends,Hastings,£16 - £16.5 per hour,,,23643_225693406
@@ -13,6 +12,7 @@
 2026-10-26,SELECTED,Sussex,Behaviour Support Assistant,Crawley,£93 - £105 per daily (Depending on experience),,,23643_225725872
 2026-10-26,SELECTED,Sussex,Behaviour Support Assistant,East Grinstead,£93 - £105 per daily (Depending on experience),,,23643_225725915
 2026-10-26,SELECTED,Sussex,Home Care Assistant,Hastings,£14 - £14.25 per hour (Enhanced for Bank holiday),,,23643_225737488
+2026-10-26,SELECTED,Sussex,Care Assistant - Care Home,Sussex,£15.5 per hour,,,23643_225739546
 2026-10-26,SELECTED,Sussex,Support Worker,Brighton,£14 - £16 per hour,,,23643_222307132
 2026-10-26,SELECTED,Sussex,Night Care Assistant,Sussex,£15.79 per hour,,,23643_225745175
 2026-10-26,SELECTED,Sussex,Healthcare Assistant,Worthing,£14 - £15.5 per hour,,,23643_225750767
@@ -20,6 +20,7 @@
 2026-10-26,SELECTED,Sussex,Female Waking Night Support Worker Pulborough,Pulborough,£12.71 - £14.45 per hour (Salary starts at £12.71 and increases t),,,108179728
 2026-10-26,SELECTED,Sussex,Night Care Assistant,Sussex,£13.21 per hour,,,23643_225751206
 2026-10-26,SELECTED,Sussex,Care Assistant,Hailsham,£13.39 per hour,,,23643_225761986
+2026-10-26,SELECTED,Sussex,Care Assistant - Bank - Care Home,Sussex,£17.15 per hour,,,23643_225718800
 2026-10-26,SELECTED,Sussex,Night Care Assistant,Sussex,£14.5 per hour,,,23643_225440444
 2026-10-26,SELECTED,Sussex,Care Assistant - Bank - Care Home,Sussex,£14.8 per hour,,,23643_225754037
 2026-10-26,SELECTED,Cumbria - South,Female Bank Rehabilitation Support Worker,Barrow-in-furness,£12.71 - £18 per hour,,,23643_225712948
@@ -82,6 +83,7 @@
 2026-10-26,SELECTED,London,Personal Assistant to the CEO,City,£30000 - £32000 per year,,,23643_225743869
 2026-10-26,SELECTED,London,Support Worker,Southwark,"£25,266.93 per annum",,,2160807
 2026-10-26,SELECTED,London,Support Workers- Semi Independent Services,London,"£27,823 per annum",,,2174176
+2026-10-26,SELECTED,London,Care Assistant,London,£14.06 per hour,,,23643_225761972
 2026-10-26,SELECTED,London,Care Support Worker,Borehamwood,£17 - £20 per hour,,,23643_225762327
 2026-10-26,SELECTED,Oxfordshire,Support Worker,Oxford,£12.71 - £15 per hour,,,23643_225728855
 2026-10-26,SELECTED,Surrey,Legal Personal Assistant,Leatherhead,£30000 - £32000 per year,,,2064951
@@ -91,6 +93,8 @@
 2026-10-26,SELECTED,Surrey,Residential Support Worker,Redhill,£31000 - £35000 per year,,,23643_225505302
 2026-10-26,SELECTED,Surrey,Care Assistant - Bank - Care Home,Surrey,£15.5 per hour,,,23643_225729356
 2026-10-26,SELECTED,Surrey,Family Support Worker,Guildford,£26500 per year,,,23643_225751661
+2026-10-26,SELECTED,Surrey,Care Assistant,Dorking,£15.45 per hour,,,23643_225761982
+2026-10-26,SELECTED,Surrey,Care Assistant,Hindhead,£15.45 per hour,,,23643_225761987
 2026-10-26,SELECTED,Wiltshire,Care Assistant - Care Home,Trowbridge,£14.46 per hour,,,23643_225710191
 2026-10-26,SELECTED,Wiltshire,Care Assistant - Bank - Care Home,Trowbridge,£16.2 per hour,,,23643_225710192
 2026-10-26,SELECTED,Wiltshire,Care Assistant - Bank - Care Home,Wiltshire,£16.03 per hour,,,23643_225713768
