@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-10-26
-generated_at: 2026-10-26T14:27:47+00:00
+generated_at: 2026-10-26T18:18:41+00:00
 
-**67 job(s) await a human decision; 2 already answered (69 review rows).**
+**71 job(s) await a human decision; 2 already answered (73 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-10-26 | 2 | — |
+| JobG8 | OK | 2026-10-26 | 6 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-10-26 | 0 | — |
 | Teaching Vacancies | OK | 2026-10-26 | 67 | — |
@@ -29,7 +29,43 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 2 to review
+## JobG8 — 6 to review
+
+---
+action:
+POSS | JobG8 | Kent | Kent | — | Purchase Ledger Clerk
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225759058
+title: Purchase Ledger Clerk
+employer: 
+location: Kent
+region: Kent
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 301b42c347fd84bc78618a5b53f5e69c8146e1d550a0f2b2ec631e0b629f35c2
+---
+
+---
+action:
+POSS | JobG8 | London | London | — | Finance Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2180157
+title: Finance Manager
+employer: 
+location: London
+region: London
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 92c09825da78ea979c959ba0b9693a7d2f9b83278ecef0a1efacda75739a3365
+---
 
 ---
 action: select
@@ -65,6 +101,42 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time earnings are unclear
 source_url: 
 hub_fingerprint: b036dae1f0c55aeb1f4a7a6c1fda34ea08aaf6741549c55cad9f52333b3d37f7
+---
+
+---
+action:
+POSS | JobG8 | Nottinghamshire | Nottinghamshire | £42839 - £47181 per year | HR Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225763314
+title: HR Manager
+employer: 
+location: Nottinghamshire
+region: Nottinghamshire
+salary: £42839 - £47181 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: c55267e343c2f62a959bc4d2e1d6d5ec14348e1b9db77305a2b86ed36c5a3740
+---
+
+---
+action:
+POSS | JobG8 | Scotland Central - Fife | Fife | £13.5 - £14.5 per hour | HR Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225750573
+title: HR Administrator
+employer: 
+location: Fife
+region: Scotland Central - Fife
+salary: £13.5 - £14.5 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - HR administration is transferable unless CIPD or substantial prior expertise is mandatory; manual review required: description appears to make specialist qualifications or substantial prior experience mandatory
+source_url: 
+hub_fingerprint: 98c43c870876d073faa14eaba00d1aff5f321a31d585828e0f15e55c1bd3bfd6
 ---
 
 ## VONNE — 0 to review
