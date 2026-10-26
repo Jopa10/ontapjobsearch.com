@@ -2,15 +2,63 @@
 
 review_date: 2026-10-26
 
-- Open Administrative & Clerical rows reviewed: 1985
-- Auto/remembered selected: 365
+- Open Administrative & Clerical rows reviewed: 1991
+- Auto/remembered selected: 367
 - Selected HC Tier A: 188
-- Selected HC Tier B: 177
-- POSS awaiting decision: 1533
+- Selected HC Tier B: 179
+- POSS awaiting decision: 1536
 - Excluded: 0
-- HARD_PASS: 87
+- HARD_PASS: 88
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Hertfordshire | Watford, WD18 0HB | £96626.00 to £111084.00 | Band 8d - Deputy Director of Operations, Medicine
+source_job_id: 5684899
+title: Band 8d - Deputy Director of Operations, Medicine
+employer: West Hertfordshire Teaching Hospitals NHS Trust
+region: Hertfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9360-26-0487
+factual_fingerprint: 658f8beef89649b96d808e5349ff0f3fcce1dfb1976456f4ca7a1cf41da84ce0
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B15 2TH | £25760.00 to £27476.00 | Band 3 Ward Administrator
+source_job_id: 5677919
+title: Band 3 Ward Administrator
+employer: University Hospitals Birmingham NHS Foundation Trust
+region: West Midlands - Birmingham & Solihull
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1622
+factual_fingerprint: bac6bc7f89966e79407e3e94f85e43f4c8b07189c3f630a637745debfe0e5469
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Dudley, DY5 1RU | £16.40 | Bank Social Prescribing Link Worker
+source_job_id: 5683641
+title: Bank Social Prescribing Link Worker
+employer: The Dudley Group NHS Foundation Trust
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9253-26-0543
+factual_fingerprint: d72188ef94bd44991409f672221c1dc42cb5dbec27dc8f2f0c7c8b55c00ef7c6
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £28392.00 to £31157.00 | Project Support Officer
+source_job_id: 5684910
+title: Project Support Officer
+employer: Leeds Teaching Hospitals
+region: Yorkshire - West
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1175
+factual_fingerprint: b9b57376da51b7bcdc7574be950b1083e13e10b46f320828af8da138145ad4b7
+---
 
 ---
 action:
@@ -2313,7 +2361,7 @@ employer: Hampshire Hospitals NHS Foundation Trust
 region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0771
-factual_fingerprint: 10c331b95ab4f256e95139bc070bbf0e9582bf52238c8da3316fb439b505c003
+factual_fingerprint: db812cd28bd7a014933793bb5e6722584f32c32c2a1eda429acf792757afdea4
 ---
 
 ---
@@ -2325,7 +2373,7 @@ employer: Public Health Wales
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9028-26-0217
-factual_fingerprint: df31733e794cd75f97167fddc11174ce32af1cd4b9516cf08c24b571b87d12cb
+factual_fingerprint: 19ac263c454fffd398bdefe9876621827108cb0089412c792826123c22f945af
 ---
 
 ---
@@ -2457,7 +2505,7 @@ employer: Betsi Cadwaladr University Health Board
 region: North Wales - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2482
-factual_fingerprint: 6941fff0177da055e503143bb927db554855cfa71c4f374d94d52d9d52388e9f
+factual_fingerprint: 7eae9c376650bffe0446024843d243a9ec0d1c57da4d9477cbf6e728fa5451b7
 ---
 
 ---
@@ -6334,18 +6382,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0879
 factual_fingerprint: f09a04bc42827abcdf785639e719de7d34fd9c895db3b6bc5bfb1b76a9f6742c
----
-
----
-action:
-POSS | NHS Jobs | Hertfordshire | Stevenage, SG1 4AB | £25760.00 to £27476.00 | Patient Services Administrator-Ophthalmology
-source_job_id: 5675952
-title: Patient Services Administrator-Ophthalmology
-employer: East and North Hertfordshire Teaching NHS Trust
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0627
-factual_fingerprint: 32a3ff550080719ecfe42490d6fcc5bf4fbcd6c33bcd37f382da59882f7fb86f
 ---
 
 ---
