@@ -2,7 +2,7 @@
   "threshold": 6,
   "near_threshold": 4,
   "published_slices_scanned": 16,
-  "jobs_scanned": 1141,
+  "jobs_scanned": 1136,
   "regional_markets_defined": 72,
   "market_rows_monitored": 97,
   "opportunities": [
@@ -361,7 +361,7 @@
       "region": "coventry-warwickshire",
       "slice": "service-administrator-jobs",
       "locality": "Warwickshire",
-      "jobs": 29,
+      "jobs": 30,
       "threshold": 6,
       "status": "QUALIFIES",
       "basis": "exact-location-unregistered",
@@ -436,19 +436,6 @@
       "registered_market": false
     },
     {
-      "region": "west-yorkshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Wakefield",
-      "jobs": 8,
-      "threshold": 6,
-      "status": "QUALIFIES",
-      "basis": "regional-market",
-      "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
       "region": "surrey",
       "slice": "service-administrator-jobs",
       "locality": "Leatherhead",
@@ -460,6 +447,19 @@
       "existing_route": "",
       "active": false,
       "registered_market": false
+    },
+    {
+      "region": "west-yorkshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Wakefield",
+      "jobs": 7,
+      "threshold": 6,
+      "status": "QUALIFIES",
+      "basis": "regional-market",
+      "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
     },
     {
       "region": "coventry-warwickshire",
