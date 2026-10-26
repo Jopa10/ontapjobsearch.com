@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 15
 - automatic review: 12
-- automatic exclude: 36
+- automatic exclude: 35
 - effective include: 15
 - effective review: 12
-- effective exclude: 36
+- effective exclude: 35
 
 ## INCLUDE (15)
 
@@ -350,7 +350,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -529,18 +529,6 @@ company: Minerva Learning Trust
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-finance-assistant-minerva-learning-trust
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: GP Receptionist
-company: Elm Lane & Chapeltown Surgery
-location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
-source: NHS Jobs
-job_id: nhs-5627333
 reason: Separate employment market.
 ---
 

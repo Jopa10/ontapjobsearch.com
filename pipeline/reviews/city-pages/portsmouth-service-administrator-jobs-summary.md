@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 135
+- automatic review: 130
 - automatic exclude: 0
 - effective include: 19
-- effective review: 135
+- effective review: 130
 - effective exclude: 0
 
 ## INCLUDE (19)
@@ -252,7 +252,7 @@ job_id: teaching-vacancies-sen-administrator-st-edmund-s-catholic-school-portsmo
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (135)
+## REVIEW (130)
 
 ---
 action: 
@@ -443,18 +443,6 @@ company: Denholm Industrial Services Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225754281
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4XE
-source: NHS Jobs
-job_id: nhs-5657473
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -990,35 +978,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225698170
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Coordinator
 company: Howett Thorpe - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225663857
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Inbound Sales Specialist
-company: CCA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225710926
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1379,18 +1343,6 @@ company: The Society of St James - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2145621
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Personal Assistant
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0YG
-source: NHS Jobs
-job_id: nhs-5657296
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1799,18 +1751,6 @@ company: Uxbridge Employment Agency - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225397700
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4GX
-source: NHS Jobs
-job_id: nhs-5657467
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

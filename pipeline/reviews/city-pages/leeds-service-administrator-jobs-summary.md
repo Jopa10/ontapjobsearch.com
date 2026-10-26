@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 81
 - automatic review: 38
-- automatic exclude: 48
+- automatic exclude: 47
 - effective include: 81
 - effective review: 38
-- effective exclude: 48
+- effective exclude: 47
 
 ## INCLUDE (81)
 
@@ -1454,7 +1454,19 @@ job_id: teaching-vacancies-trust-hr-administrator-moorlands-learning-trust
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (48)
+## EXCLUDE (47)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant - Practice
+company: W Talent - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-23643_225762112
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -1760,18 +1772,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Administrative Assistant
-company: Outwood Grange Academy
-location: Wakefield
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrative-assistant-outwood-grange-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Internal Sales Executive
 company: TDRS - Agency - Permanent
 location: Huddersfield
@@ -1897,18 +1897,6 @@ company: Bradford Academy
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-primary-receptionist-bradford-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Affinity Care
-location: Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ
-source: NHS Jobs
-job_id: nhs-5667656
 reason: Separate employment market.
 ---
 

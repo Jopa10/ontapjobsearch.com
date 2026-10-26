@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 55
+- automatic review: 52
 - automatic exclude: 0
 - effective include: 20
-- effective review: 55
+- effective review: 52
 - effective exclude: 0
 
 ## INCLUDE (20)
@@ -264,7 +264,7 @@ job_id: jobg8-23643_225761870
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (52)
 
 ---
 action: 
@@ -630,18 +630,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Local Marketing Manager
-company: Howdens Joinery - Company - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225752369
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Executive
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Northamptonshire
@@ -659,18 +647,6 @@ company: Provit Recruitment - Agency - Permanent
 location: Rushden
 source: JobG8
 job_id: jobg8-23643_225669422
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Outbound Telesales
-company: SolviT Recruitment Ltd - Agency - Temporary
-location: Daventry
-source: JobG8
-job_id: jobg8-23643_225732666
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -779,18 +755,6 @@ company: Redwell Medical Centre
 location: Wellingborough, NN8 4UT
 source: NHS Jobs
 job_id: nhs-5683396
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Operations Coordinator
-company: R&V Group Ltd - Agency - Contract
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-108069317
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

@@ -52,11 +52,11 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Administrator
-company: Bloxwich Medical Practice
-location: Walsall, WS3 3JP
-source: NHS Jobs
-job_id: nhs-5658734
+title: Sales Ledger
+company: Alma Personnel - Agency - Permanent
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_224517979
 reason: Exact approved Walsall workplace.
 ---
 
@@ -64,11 +64,11 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Ledger
-company: Alma Personnel - Agency - Permanent
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_224517979
+title: Ward Clerk
+company: Black Country Healthcare NHS Foundation Trust
+location: Walsall, WS2 9XH
+source: NHS Jobs
+job_id: nhs-5664251
 reason: Exact approved Walsall workplace.
 ---
 
@@ -270,6 +270,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: Think Accountancy and Finance - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-23643_225758753
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Contact Centre Advisor
 company: Pertemps Wolverhampton and Walsall - Agency - Temporary
 location: Wolverhampton
@@ -390,6 +402,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist/ Administrator
+company: Showell Park Health Centre
+location: Wolverhampton, WV10 9ST
+source: NHS Jobs
+job_id: nhs-5667281
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Administrator
 company: Industrial Recruitment Solutions Ltd - Agency - Permanent
 location: Wolverhampton
@@ -467,30 +491,6 @@ company: Claverley Medical Practice
 location: Wolverhampton, WV5 7BY
 source: NHS Jobs
 job_id: nhs-5639905
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Fordhouses Medical Centre
-location: Wolverhampton, WV10 6RU, WOLVERHAMPTON, WV9 5NJ
-source: NHS Jobs
-job_id: nhs-5655260
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Newbridge Surgery
-location: Wolverhampton, WV6 0DE
-source: NHS Jobs
-job_id: nhs-5657426
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

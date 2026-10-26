@@ -390,6 +390,18 @@ reason: No approved Watford employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Commercial Property Legal Assistant
+company: GerrardWhite - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2175492
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Commercial Property Legal Secretary
 company: Harwood Recruitment Solutions Limited - Agency - Permanent
 location: Hertfordshire
@@ -407,18 +419,6 @@ company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225742378
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Content and Social Media Executive
-company: Brand Recruitment - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2033914
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 

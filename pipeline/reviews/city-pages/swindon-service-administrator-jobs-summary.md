@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 34
+- automatic review: 32
 - automatic exclude: 0
 - effective include: 16
-- effective review: 34
+- effective review: 32
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: teaching-vacancies-sixth-form-admin-assistant-great-western-academy-swin
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (32)
 
 ---
 action: 
@@ -258,18 +258,6 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Assurance Coordinator Porton Down
-company: Mainstay Facilities - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-108182792
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Attendance Officer
 company: South Wilts Grammar School
 location: Salisbury
@@ -299,18 +287,6 @@ company: Tech-People - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225659490
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Hireful - Company - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-108222267
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

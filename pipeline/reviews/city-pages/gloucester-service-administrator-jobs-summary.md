@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 52
+- automatic include: 9
+- automatic review: 51
 - automatic exclude: 0
-- effective include: 8
-- effective review: 52
+- effective include: 9
+- effective review: 51
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Exact approved Gloucester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Sales & Marketing Coordinator
+company: JSM UK Ltd - Agency - Permanent
+location: Gloucester
+source: JobG8
+job_id: jobg8-108226582
+reason: Exact approved Gloucester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Senior Administrative Assistant - Immunisation Team
 company: Gloucestershire Health and Care NHS Foundation Trust
 location: Gloucester, GL3 4AW
@@ -120,7 +132,7 @@ job_id: nhs-5681530
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (51)
 
 ---
 action: 
@@ -683,18 +695,6 @@ company: Expert Employment - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225723698
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Gloucestershire Health and Care NHS Foundation Trust
-location: Stroud, GL5 2HZ
-source: NHS Jobs
-job_id: nhs-5649232
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

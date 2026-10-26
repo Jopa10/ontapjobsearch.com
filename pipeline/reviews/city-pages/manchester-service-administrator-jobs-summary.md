@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 110
-- automatic review: 24
+- automatic review: 23
 - automatic exclude: 6
 - effective include: 110
-- effective review: 24
+- effective review: 23
 - effective exclude: 6
 
 ## INCLUDE (110)
@@ -1344,7 +1344,7 @@ job_id: jobg8-23643_225688135
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (23)
 
 ---
 action: 
@@ -1439,18 +1439,6 @@ company: The Portfolio Group - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2065432
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Internal Sales Executive
-company: Consulo First - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225678839
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 89
+- automatic review: 90
 - automatic exclude: 0
 - effective include: 13
-- effective review: 89
+- effective review: 90
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (89)
+## REVIEW (90)
 
 ---
 action: 
@@ -1199,6 +1199,18 @@ company: Auto Skills UK - Agency - Permanent
 location: Nuneaton
 source: JobG8
 job_id: jobg8-23643_225751455
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Listers - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-108091779
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

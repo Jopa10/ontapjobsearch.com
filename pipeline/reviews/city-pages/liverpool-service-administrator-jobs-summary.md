@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 29
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 27
+- effective include: 29
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (27)
+## INCLUDE (29)
 
 ---
 action: 
@@ -184,6 +184,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Housing Disrepair Paralegal
+company: Time Recruitment - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2175511
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Administrator
 company: Hays Business Support - Agency - Permanent
 location: Liverpool
@@ -213,6 +225,18 @@ company: Bond Turner - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-2074093
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Operations & Social Media Coordinator
+company: ADAPTABLE RECRUITMENT LTD - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-108210425
 reason: Approved conservative Liverpool launch catchment.
 ---
 

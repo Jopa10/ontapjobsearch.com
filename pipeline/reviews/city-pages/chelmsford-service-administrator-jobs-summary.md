@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 116
+- automatic review: 112
 - automatic exclude: 0
 - effective include: 13
-- effective review: 116
+- effective review: 112
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-23643_225694242
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (116)
+## REVIEW (112)
 
 ---
 action: 
@@ -335,18 +335,6 @@ company: Prince Avenue Academy and Nursery
 location: Westcliff-on-Sea
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-one-year-fixed-term
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Essex Partnership University NHS Foundation Trust
-location: Maldon, CM9 6EG
-source: NHS Jobs
-job_id: nhs-5678632
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -534,18 +522,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Assistant
-company: JS Legal Recruitment Ltd - Agency - Permanent
-location: Wickford
-source: JobG8
-job_id: jobg8-2033578
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Conveyancing Assistant/Paralegal
 company: REED - Agency - Permanent
 location: Essex
@@ -671,18 +647,6 @@ company: Nuco Solutions Ltd - Agency - Permanent
 location: Brentwood
 source: JobG8
 job_id: jobg8-23643_225685167
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Marketing and CRM Specialist (Hubspot)
-company: Brand Recruitment - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2033913
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -863,18 +827,6 @@ company: Evolution Sales Recruitment - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2075764
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Officer
-company: Firstsite - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2138553
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
+- automatic include: 23
 - automatic review: 12
 - automatic exclude: 27
-- effective include: 24
+- effective include: 23
 - effective review: 12
 - effective exclude: 27
 
-## INCLUDE (24)
+## INCLUDE (23)
 
 ---
 action: 
@@ -141,18 +141,6 @@ company: Minerva Learning Trust
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-finance-assistant-minerva-learning-trust
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: GP Receptionist
-company: Elm Lane & Chapeltown Surgery
-location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
-source: NHS Jobs
-job_id: nhs-5627333
 reason: Approved Sheffield catchment.
 ---
 

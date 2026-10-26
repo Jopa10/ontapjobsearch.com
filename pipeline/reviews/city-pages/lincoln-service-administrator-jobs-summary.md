@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 10
+- automatic include: 22
+- automatic review: 9
 - automatic exclude: 0
-- effective include: 20
-- effective review: 10
+- effective include: 22
+- effective review: 9
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (22)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Accounts Payable Clerk
+company: Blusource Professional Services Ltd - Agency - Temporary
+location: Lincoln
+source: JobG8
+job_id: jobg8-23643_225728373
+reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Admin Assistant
 company: Insight Employment - Agency - Temporary
 location: Lincolnshire
@@ -69,6 +81,30 @@ company: NHS Professionals - Company - Temporary
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225757211
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper
+company: Scout Recruiting LTD - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225745727
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper - Practice
+company: Butler Rose - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2060743
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -220,18 +256,6 @@ reason: Exact approved Lincoln workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist / Administrative Assistant
-company: The Priory City of Lincoln Academy
-location: Lincoln
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire
-reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist and Office Administrator
 company: Robert Doughty Consultancy - Agency - Permanent
 location: Lincolnshire
@@ -264,7 +288,7 @@ job_id: jobg8-23643_225696261
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -323,18 +347,6 @@ company: Recruitment pro - Agency - Permanent
 location: Scunthorpe
 source: JobG8
 job_id: jobg8-23643_225676641
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Cambridge Avenue Medical Centre
-location: Scunthorpe, DN16 3LG, SCUNTHORPE, DN17 3SN
-source: NHS Jobs
-job_id: nhs-5653018
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

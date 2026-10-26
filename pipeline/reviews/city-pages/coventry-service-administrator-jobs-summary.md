@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 20
 - automatic review: 5
-- automatic exclude: 77
+- automatic exclude: 78
 - effective include: 20
 - effective review: 5
-- effective exclude: 77
+- effective exclude: 78
 
 ## INCLUDE (20)
 
@@ -326,7 +326,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (77)
+## EXCLUDE (78)
 
 ---
 action: 
@@ -1225,6 +1225,18 @@ company: Auto Skills UK - Agency - Permanent
 location: Nuneaton
 source: JobG8
 job_id: jobg8-23643_225751455
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor
+company: Listers - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-108091779
 reason: Separate employment market.
 ---
 

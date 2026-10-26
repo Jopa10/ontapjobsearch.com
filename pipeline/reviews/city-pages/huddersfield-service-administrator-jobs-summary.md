@@ -4,7 +4,7 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 11
 - automatic review: 36
-- automatic exclude: 121
-- effective include: 10
+- automatic exclude: 119
+- effective include: 11
 - effective review: 36
-- effective exclude: 121
+- effective exclude: 119
 
-## INCLUDE (10)
+## INCLUDE (11)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant - Practice
+company: W Talent - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-23643_225762112
+reason: Approved Huddersfield catchment.
+---
 
 ---
 action: 
@@ -578,7 +590,7 @@ job_id: teaching-vacancies-trust-hr-administrator-moorlands-learning-trust
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (121)
+## EXCLUDE (119)
 
 ---
 action: 
@@ -1352,18 +1364,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Administrative Assistant
-company: Outwood Grange Academy
-location: Wakefield
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrative-assistant-outwood-grange-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR Coordinator
 company: Ashley Kate HR & Finance - Agency - Permanent
 location: Leeds
@@ -1801,18 +1801,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2075400
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Affinity Care
-location: Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ
-source: NHS Jobs
-job_id: nhs-5667656
 reason: Separate employment market.
 ---
 

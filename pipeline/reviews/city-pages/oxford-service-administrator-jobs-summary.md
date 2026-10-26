@@ -572,18 +572,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: Tech Professionals - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225004376
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Bookkeeper
 company: 9-2-3 Jobs Limited - Agency - Permanent
 location: Oxfordshire
@@ -685,6 +673,18 @@ company: Hachette UK - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2172802
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Administrator
+company: Tech Professionals - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_222392350
 reason: Broad county location; not Oxford-city evidence.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 73
+- automatic review: 72
 - automatic exclude: 0
 - effective include: 0
-- effective review: 73
+- effective review: 72
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (73)
+## REVIEW (72)
 
 ---
 action: 
@@ -131,30 +131,6 @@ company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225676664
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Coordinator
-company: SolviT Recruitment Ltd - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-108147212
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Coordinator
-company: SolviT Recruitment Ltd - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225712972
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -875,6 +851,18 @@ company: The Solution Auto - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225696162
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Adullam Homes - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-108205427
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

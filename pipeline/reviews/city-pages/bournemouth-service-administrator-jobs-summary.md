@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 12
 - automatic review: 37
 - automatic exclude: 0
-- effective include: 11
+- effective include: 12
 - effective review: 37
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -153,6 +153,18 @@ company: University Hospitals Dorset NHS Foundation Trust
 location: Bournemouth, BH7 7DW
 source: NHS Jobs
 job_id: nhs-5675567
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk - Stroke Unit
+company: University Hospitals Dorset NHS Foundation Trust
+location: Bournemouth, BH7 7DW
+source: NHS Jobs
+job_id: nhs-5681924
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -462,11 +474,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Patient Administrator
-company: University Hospitals Dorset NHS Foundation Trust
-location: Poole, BH12 5AG
-source: NHS Jobs
-job_id: nhs-5655858
+title: Payroll Administrator
+company: Morgan McKinley (South West) - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225762250
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

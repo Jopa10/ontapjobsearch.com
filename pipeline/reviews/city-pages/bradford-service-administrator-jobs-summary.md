@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
+- automatic include: 21
 - automatic review: 36
 - automatic exclude: 109
-- effective include: 22
+- effective include: 21
 - effective review: 36
 - effective exclude: 109
 
-## INCLUDE (22)
+## INCLUDE (21)
 
 ---
 action: 
@@ -237,18 +237,6 @@ company: Bradford Academy
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-primary-receptionist-bradford-academy
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Affinity Care
-location: Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ
-source: NHS Jobs
-job_id: nhs-5667656
 reason: Approved Bradford catchment.
 ---
 
@@ -723,6 +711,18 @@ reason: No approved Bradford catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (109)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant - Practice
+company: W Talent - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-23643_225762112
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -1381,18 +1381,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225663662
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Administrative Assistant
-company: Outwood Grange Academy
-location: Wakefield
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrative-assistant-outwood-grange-academy
 reason: Separate employment market.
 ---
 

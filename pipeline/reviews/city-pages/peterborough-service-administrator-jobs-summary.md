@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 11
+- automatic review: 10
 - automatic exclude: 39
 - effective include: 18
-- effective review: 11
+- effective review: 10
 - effective exclude: 39
 
 ## INCLUDE (18)
@@ -240,7 +240,7 @@ job_id: jobg8-23643_221302954
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -275,18 +275,6 @@ company: Interaction Recruitment - Agency - Temporary
 location: St. Ives
 source: JobG8
 job_id: jobg8-23643_225690764
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams Officer
-company: Longsands Academy
-location: St Neots
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-longsands-academy-st-neots-cambridgeshire
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 

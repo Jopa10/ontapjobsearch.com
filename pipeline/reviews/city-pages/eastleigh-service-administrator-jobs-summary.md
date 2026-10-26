@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 95
-- automatic exclude: 56
+- automatic review: 94
+- automatic exclude: 52
 - effective include: 3
-- effective review: 95
-- effective exclude: 56
+- effective review: 94
+- effective exclude: 52
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: jobg8-2064740
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (95)
+## REVIEW (94)
 
 ---
 action: 
@@ -552,18 +552,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225714938
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225698170
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -1202,7 +1190,7 @@ job_id: jobg8-23643_225665585
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (56)
+## EXCLUDE (52)
 
 ---
 action: 
@@ -1249,18 +1237,6 @@ company: Matchtech - Agency - Contract
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225703759
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4XE
-source: NHS Jobs
-job_id: nhs-5657473
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1544,18 +1520,6 @@ reason: The stated workplace belongs outside the approved Eastleigh employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Inbound Sales Specialist
-company: CCA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225710926
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Laboratory Administrator / Archivist (Data Co-ordinator)
 company: DEKRA Organisational & Process Safety - Agency - Contract
 location: Southampton
@@ -1657,18 +1621,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225687519
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Personal Assistant
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0YG
-source: NHS Jobs
-job_id: nhs-5657296
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1825,18 +1777,6 @@ company: Mulberry Recruitment - Agency - Permanent
 location: Aldershot
 source: JobG8
 job_id: jobg8-2165152
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4GX
-source: NHS Jobs
-job_id: nhs-5657467
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

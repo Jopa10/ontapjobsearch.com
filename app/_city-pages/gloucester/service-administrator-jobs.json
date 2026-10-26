@@ -72,6 +72,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Henley Bank High School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -145,6 +148,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "108226582",
+    "title": "Sales & Marketing Coordinator",
+    "company": "JSM UK Ltd - Agency - Permanent",
+    "location": "Gloucester",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "33000",
+    "salary_max": "33000",
+    "salary_text": "£33000 per year",
+    "posted_date": "2026-10-26",
+    "description": "About us\n\nJSM Brand Exposure is a branded merchandise, print and corporate gifting company based in Gloucester. We work with some of the UK's best known brands, supplying everything from staff uniforms and welcome packs to point of sale for national branch networks. We run our own 16,000 sq ft production and fulfilment site and have a team of around 30 click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?KY4ye8HUBXyV4Lc2xcZWuyMtyvfvHBJqc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "JSM UK Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {

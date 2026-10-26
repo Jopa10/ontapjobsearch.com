@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 55
+- automatic include: 19
+- automatic review: 53
 - automatic exclude: 0
-- effective include: 18
-- effective review: 55
+- effective include: 19
+- effective review: 53
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -240,7 +240,19 @@ job_id: jobg8-23643_225664258
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (55)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Coordinator
+company: Adullam Homes - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-108205427
+reason: Exact approved Leicester workplace.
+---
+
+## REVIEW (53)
 
 ---
 action: 
@@ -335,30 +347,6 @@ company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225676664
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Coordinator
-company: SolviT Recruitment Ltd - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-108147212
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Coordinator
-company: SolviT Recruitment Ltd - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225712972
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

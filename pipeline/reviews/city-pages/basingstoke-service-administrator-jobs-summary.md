@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 146
+- automatic review: 141
 - automatic exclude: 0
 - effective include: 8
-- effective review: 146
+- effective review: 141
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5676428
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (146)
+## REVIEW (141)
 
 ---
 action: 
@@ -311,18 +311,6 @@ company: Denholm Industrial Services Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225754281
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4XE
-source: NHS Jobs
-job_id: nhs-5657473
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -918,35 +906,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225698170
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Coordinator
 company: Howett Thorpe - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225663857
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Inbound Sales Specialist
-company: CCA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225710926
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1355,18 +1319,6 @@ company: The Society of St James - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2145621
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Personal Assistant
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0YG
-source: NHS Jobs
-job_id: nhs-5657296
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1799,18 +1751,6 @@ company: Uxbridge Employment Agency - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225397700
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4GX
-source: NHS Jobs
-job_id: nhs-5657467
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 56
+- automatic review: 55
 - automatic exclude: 0
 - effective include: 7
-- effective review: 56
+- effective review: 55
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (55)
 
 ---
 action: 
@@ -395,18 +395,6 @@ company: Minerva Learning Trust
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-finance-assistant-minerva-learning-trust
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist
-company: Elm Lane & Chapeltown Surgery
-location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
-source: NHS Jobs
-job_id: nhs-5627333
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

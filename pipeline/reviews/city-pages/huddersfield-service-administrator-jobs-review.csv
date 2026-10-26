@@ -1,4 +1,5 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-23643_225762112,Accounts Assistant - Practice,W Talent - Agency - Permanent,Huddersfield,JobG8,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
 include,jobg8-23643_225668452,Conveyancing Assistant,Talk Staff Group Limited - Agency - Permanent,Huddersfield,JobG8,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
 include,teaching-vacancies-data-and-exams-administrator-moor-end-academy-huddersfield-west-yorkshire,Data and Exams Administrator,Moor End Academy,Huddersfield,Teaching Vacancies,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
 include,teaching-vacancies-finance-officer-greenhead-college,Finance Officer,Greenhead College,Huddersfield,Teaching Vacancies,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
@@ -109,7 +110,6 @@ exclude,jobg8-23643_225723232,Front of House Property Admin,Integro Partners - A
 exclude,nhs-5674305,GP Receptionist,Crofton and Sharlston Medical Practice,"Wakefield, WF4 1HJ, Wakefield, WF41AR",NHS Jobs,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,nhs-5659504,GP Receptionist,Idle Medical Centre,"Bradford, BD10 8RU",NHS Jobs,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225663662,Graduate Design & Project Coordinator (Luxury Spa & Sauna),Ernest Gordon Recruitment Limited - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
-exclude,teaching-vacancies-hr-administrative-assistant-outwood-grange-academy,HR Administrative Assistant,Outwood Grange Academy,Wakefield,Teaching Vacancies,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225710184,HR Coordinator,Ashley Kate HR & Finance - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225709267,HR Coordinator,Hays Business Support - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225727868,HR Coordinator,Only FE - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -147,7 +147,6 @@ exclude,jobg8-23643_225692585,Product Coordinator,Lucy Walker Recruitment - Agen
 exclude,jobg8-23643_225665845,Property Customer Service Advisor,Michael Page - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225707321,Purchase & Sales Ledger Clerk,Future Recruitment Ltd - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2075400,Purchase Ledger Clerk,Sharp Consultancy - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
-exclude,nhs-5667656,Receptionist,Affinity Care,"Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ",NHS Jobs,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,teaching-vacancies-receptionist-park-lane-academy,Receptionist,Park Lane Academy,Halifax,Teaching Vacancies,exclude,exclude,Separate employment market.,halifax,huddersfield-service-administrator-jobs
 exclude,nhs-5662186,Receptionist / Administrator,Ossett Surgery,"Wakefield, WF5 8DF",NHS Jobs,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,nhs-5681414,Receptionist/ Administrator,Stainland Road Medical Centre,"Halifax, HX4 8BD",NHS Jobs,exclude,exclude,Separate employment market.,halifax,huddersfield-service-administrator-jobs

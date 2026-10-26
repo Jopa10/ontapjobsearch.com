@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 95
-- automatic exclude: 47
-- effective include: 12
-- effective review: 95
-- effective exclude: 47
+- automatic include: 9
+- automatic review: 94
+- automatic exclude: 46
+- effective include: 9
+- effective review: 94
+- effective exclude: 46
 
-## INCLUDE (12)
+## INCLUDE (9)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2042236
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4XE
-source: NHS Jobs
-job_id: nhs-5657473
 reason: Approved Southampton catchment.
 ---
 
@@ -136,30 +124,6 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Personal Assistant
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0YG
-source: NHS Jobs
-job_id: nhs-5657296
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4GX
-source: NHS Jobs
-job_id: nhs-5657467
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary Accounts Payable Assistant
 company: Michael Page - Agency - Temporary
 location: Southampton
@@ -168,7 +132,7 @@ job_id: jobg8-23643_225719604
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (95)
+## REVIEW (94)
 
 ---
 action: 
@@ -660,18 +624,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225714938
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225698170
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -1310,7 +1262,7 @@ job_id: jobg8-23643_225665585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (47)
+## EXCLUDE (46)
 
 ---
 action: 
@@ -1585,18 +1537,6 @@ company: Hays Business Support - Agency - Temporary
 location: Winchester
 source: JobG8
 job_id: jobg8-23643_225721323
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Inbound Sales Specialist
-company: CCA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225710926
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 37
+- automatic include: 10
+- automatic review: 39
 - automatic exclude: 0
-- effective include: 11
-- effective review: 37
+- effective include: 10
+- effective review: 39
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -124,18 +124,6 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Administrator
-company: University Hospitals Dorset NHS Foundation Trust
-location: Poole, BH12 5AG
-source: NHS Jobs
-job_id: nhs-5655858
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Clerk
 company: McGinnis Loy Associates Ltd - Agency - Permanent
 location: Poole
@@ -156,7 +144,7 @@ job_id: jobg8-23643_225701721
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (39)
 
 ---
 action: 
@@ -462,6 +450,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: Morgan McKinley (South West) - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225762250
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
@@ -599,6 +599,18 @@ company: University Hospitals Dorset NHS Foundation Trust
 location: Bournemouth, BH7 7DW
 source: NHS Jobs
 job_id: nhs-5675567
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk - Stroke Unit
+company: University Hospitals Dorset NHS Foundation Trust
+location: Bournemouth, BH7 7DW
+source: NHS Jobs
+job_id: nhs-5681924
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

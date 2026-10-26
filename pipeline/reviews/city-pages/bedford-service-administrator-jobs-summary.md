@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 31
+- automatic review: 30
 - automatic exclude: 0
 - effective include: 5
-- effective review: 31
+- effective review: 30
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225673265
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (30)
 
 ---
 action: 
@@ -251,18 +251,6 @@ company: Think Specialist Recruitment - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-23643_225761491
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Endoscopy Booking Clerk
-company: Bedfordshire Hospitals NHS Foundation Trust
-location: Luton, LU4 0DZ
-source: NHS Jobs
-job_id: nhs-5678105
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
