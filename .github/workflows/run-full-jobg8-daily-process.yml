@@ -95,7 +95,7 @@ jobs:
             --zip "$RUNNER_TEMP/jobg8.zip" \
             --output pipeline/input/jobg8.xlsx \
             --expected-min 5000 \
-            --expected-max 20000
+            --expected-max 50000
           test -s pipeline/input/jobg8.xlsx
 
       - name: Test JobG8 feed health guard

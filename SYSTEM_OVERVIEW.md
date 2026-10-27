@@ -10,6 +10,21 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 27 October 2026 — **Shared city/regional slugs checked during 50k reconciliation:** a city page could hide valid regional jobs from search and job-detail generation. The test-branch fix keeps the configured regional inventory when the city page uses derived data, while preserving established static regional pages. No production change or new selection approval is made.
+
+
+- 27 October 2026 — **North East review fix under test:** detailed North East jobs now receive the editable review blocks needed to carry owner approvals into publication. Seven omitted review entries were reproduced in the captured trial. Fifteen focused/review tests passed; missing approval blocks are held per job while other valid actions continue. The revised isolated test builds clean output before reporting an approval failure. Production remains unchanged pending full verification.
+
+
+- 27 October 2026 — **50k ceiling covers the feed lifecycle:** reviewed-feed restoration, direct-fetch validation, native XML conversion defaults, current-feed materialization and monthly archive materialization now use the same 50,000-row ceiling as the daily importer. This prevents later review/report paths from rejecting an otherwise valid expanded feed. Explicit 20,000 overrides remain supported and tested for rollback. These changes remain unmerged pending the full trial.
+
+
+- 27 October 2026 — **Conflicting JobG8 metadata is withheld per ID:** all adverts sharing an ID with conflicting metadata are excluded from enrichment outputs, regardless of the number of conflicts; unrelated clean jobs continue. This owner-approved exception replaces only the enrichment-specific 15-ID source-abort threshold. Other feed-integrity and review safeguards remain. The full 50k trial found 21 conflicting IDs (four selected jobs), which previously stopped enrichment. This remains on the unmerged test branch pending full-chain verification.
+
+
+- 27 October 2026 — **Expanded-feed import ceiling prepared:** the production JobG8 daily workflow now accepts 5,000–50,000 rows, raising only its XML-adapter `--expected-max` from 20,000 to 50,000 after the isolated 50k preview reached Vercel READY. The existing live feed URL is retained; this does not request JobG8 expansion, publish inventory or approve unanswered reviews. Rollback: restore this workflow argument to `--expected-max 20000`; if the supplier has already expanded the live feed, also arrange restoration of the 20k supply, because lowering the guard alone rejects larger inputs rather than truncating them.
+
+
 - 27 October 2026 — **Clear hourly pay in advert text is no longer left blank:** Service Admin can display an explicit rate such as `12.71ph` when JobG8's structured salary fields are empty. Structured pay retains priority; no salary is added when the advert provides none. A focused regression test protects the extraction.
 
 - 27 October 2026 — **Second private email address enabled:** `jnabon1108@gmail.com` can sign up for up to ten test alerts and receive its own daily digest after successful publishing. The existing address and its alerts are unchanged. Each address has its own consent, unsubscribe and duplicate-send protection. The second address receives no alerts until it signs up. Public rollout remains off.

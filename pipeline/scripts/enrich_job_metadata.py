@@ -31,7 +31,6 @@ COL = {
 }
 OPTIONAL_POSTED_DATE_COLUMNS = ("/Job/PostedDate", "/Job/Posted", "/Job/DatePosted")
 REQUIRED_COLUMNS = {COL["job_id"], COL["advertiser_name"], COL["advertiser_type"]}
-MAX_CONFLICTING_JOB_IDS = 15
 
 
 def text(value: Any) -> str:
@@ -104,17 +103,12 @@ def metadata_by_job_id(
 
 def validate_conflicting_job_ids(
     conflicted_job_ids: set[str],
-    *,
-    max_conflicts: int = MAX_CONFLICTING_JOB_IDS,
 ) -> None:
-    if len(conflicted_job_ids) > max_conflicts:
-        raise RuntimeError(
-            "Too many conflicting duplicate JobG8 job IDs for safe job-level "
-            f"quarantine: {len(conflicted_job_ids)} > {max_conflicts}"
-        )
+    # Every conflicting ID is withheld by enrich_directory. Their count alone
+    # must not prevent unrelated, clean vacancies from being published.
     if conflicted_job_ids:
         print(
-            "Warning: quarantining JobG8 rows with conflicting duplicate metadata: "
+            f"Warning: quarantining {len(conflicted_job_ids)} JobG8 IDs with conflicting duplicate metadata: "
             + ", ".join(sorted(conflicted_job_ids))
         )
 

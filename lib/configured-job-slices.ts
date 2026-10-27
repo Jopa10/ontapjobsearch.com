@@ -80,7 +80,11 @@ function livePairs(): Array<{ region: string; category: string }> {
 }
 
 function hasStaticPage(regionSlug: string, categorySlug: string): boolean {
-  return fs.existsSync(path.join(ROOT, "app", regionSlug, categorySlug, "page.tsx"));
+  // A derived city page may share these slugs without owning the regional
+  // inventory. Only an established page with its own slice JSON replaces the
+  // configured data source.
+  return fs.existsSync(path.join(ROOT, "app", regionSlug, categorySlug, "page.tsx"))
+    && fs.existsSync(path.join(ROOT, "app", regionSlug, `${categorySlug}.json`));
 }
 
 function dataFileHasJobs(filePath: string): boolean {
