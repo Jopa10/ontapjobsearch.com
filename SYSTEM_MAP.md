@@ -12,6 +12,9 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 27 October 2026 — **50k ceiling covers the feed lifecycle:** reviewed-feed restoration, direct-fetch validation, native XML conversion defaults, current-feed materialization and monthly archive materialization now use the same 50,000-row ceiling as the daily importer. This prevents later review/report paths from rejecting an otherwise valid expanded feed. Explicit 20,000 overrides remain supported and tested for rollback. These changes remain unmerged pending the full trial.
+
+
 - 27 October 2026 — **Conflicting JobG8 metadata is withheld per ID:** all adverts sharing an ID with conflicting metadata are excluded from enrichment outputs, regardless of the number of conflicts; unrelated clean jobs continue. This owner-approved exception replaces only the enrichment-specific 15-ID source-abort threshold. Other feed-integrity and review safeguards remain. The full 50k trial found 21 conflicting IDs (four selected jobs), which previously stopped enrichment. This remains on the unmerged test branch pending full-chain verification.
 
 

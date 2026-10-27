@@ -40,7 +40,7 @@ jobs:
             --zip "$RUNNER_TEMP/jobg8.zip" \
             --output "$RUNNER_TEMP/jobg8.xlsx" \
             --expected-min 5000 \
-            --expected-max 20000
+            --expected-max 50000
 
       - name: Validate generated workbook
         run: |
