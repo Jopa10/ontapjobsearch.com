@@ -27,10 +27,15 @@ CPC_PATH = "/traffic.aspx"
 PAGE_SIZE = 500
 MAX_JOBS_PER_EMAIL = 20
 PRIVATE_TEST_EMAIL = "jpbt801@gmail.com"
+PRIVATE_TEST_EMAILS = (PRIVATE_TEST_EMAIL, "jnabon1108@gmail.com")
 PRIVATE_TEST_ORIGIN = "https://ontapjobsearchcom-git-feat-cpc-job-alerts-brevo-ontap1.vercel.app"
 
 
 class DeliveryError(RuntimeError):
+    pass
+
+
+class BrevoNotFound(DeliveryError):
     pass
 
 
@@ -339,6 +344,8 @@ def _brevo_request(method: str, endpoint: str, api_key: str, payload: dict[str, 
                 raw = response.read()
             break
         except urllib.error.HTTPError as error:
+            if error.code == 404:
+                raise BrevoNotFound("Brevo resource not found") from error
             retryable = error.code == 429 or (method != "POST" and error.code in {500, 502, 503, 504})
             if not retryable or attempt == 3:
                 raise DeliveryError(f"Brevo returned HTTP {error.code} for {method} {endpoint.split('?')[0]}") from error
@@ -430,7 +437,7 @@ def send_digest(
     private_test: bool = False,
 ) -> bool:
     email = str(contact.get("email") or "").strip()
-    if private_test and (email.casefold() != PRIVATE_TEST_EMAIL or site_url != PRIVATE_TEST_ORIGIN):
+    if private_test and (email.casefold() not in PRIVATE_TEST_EMAILS or site_url != PRIVATE_TEST_ORIGIN):
         raise DeliveryError("Private daily delivery is restricted to the fixed test address and Preview")
     attributes = contact.get("attributes") if isinstance(contact.get("attributes"), dict) else {}
     if not email or contact.get("emailBlacklisted") is True:
@@ -537,6 +544,9 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
     """Exercise the real daily report/matcher/digest for one active test contact."""
     if list_id != 3:
         raise DeliveryError("Private daily tests require list ID 3")
+    recipient = getattr(args, "private_recipient", None) or PRIVATE_TEST_EMAIL
+    if recipient not in PRIVATE_TEST_EMAILS:
+        raise DeliveryError("Private delivery requires an approved test address")
     verified_sha = getattr(args, "verified_production_sha", None)
     native_publish = (
         os.environ.get("GITHUB_REF") == "refs/heads/main"
@@ -558,14 +568,21 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
     report = args.reports_dir / f"newly-published-jobs-{args.date}.csv"
     if not report.is_file():
         raise DeliveryError("The requested daily new-jobs report is missing")
-    contact = _brevo_request("GET", "/contacts/" + urllib.parse.quote(PRIVATE_TEST_EMAIL, safe=""), api_key)
+    try:
+        contact = _brevo_request("GET", "/contacts/" + urllib.parse.quote(recipient, safe=""), api_key)
+    except BrevoNotFound:
+        if recipient == PRIVATE_TEST_EMAILS[1]:
+            print("Second private test address has not signed up yet; no email sent.")
+            return
+        raise
     attrs = contact.get("attributes") or {}
-    if (str(contact.get("email") or "").casefold() != PRIVATE_TEST_EMAIL
+    if (str(contact.get("email") or "").casefold() != recipient
             or 3 not in (contact.get("listIds") or [])
             or 3 in (contact.get("listUnsubscribed") or [])
             or contact.get("emailBlacklisted") is True
             or not attrs.get("ALERT_CONSENT_AT") or not attrs.get("ALERT_CONSENT_VERSION")):
         raise DeliveryError("The test address must have an active, consented signup in list 3")
+    print("Private recipient: " + recipient)
     print("Private saved preferences: " + json.dumps(
         {key: str(attrs.get(key) or "") for key in ("ALERT_ROLE", "ALERT_LOCATION", "ALERT_SALARY", "ALERT_PREFERENCES")},
         ensure_ascii=True))
@@ -588,16 +605,16 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
              "ontap_url": "https://www.ontapjobsearch.com/jobs/" + urllib.parse.quote(str(job["job_id"]), safe="")}
             for job in matches[:MAX_JOBS_PER_EMAIL]
         ]
-        unsubscribe = PRIVATE_TEST_ORIGIN + "/job-alerts/unsubscribe?token=" + _unsubscribe_token(PRIVATE_TEST_EMAIL, secret)
+        unsubscribe = PRIVATE_TEST_ORIGIN + "/job-alerts/unsubscribe?token=" + _unsubscribe_token(recipient, secret)
         body_html, body_text = _email_html(sample_jobs, unsubscribe)
         notice = "PRIVATE MATCHING TEST: today's new jobs matched using your saved preferences. This sample does not change daily delivery state."
-        identity = json.dumps([args.date, PRIVATE_TEST_EMAIL,
+        identity = json.dumps([args.date, recipient,
                                {key: attrs.get(key) for key in ("ALERT_ROLE", "ALERT_LOCATION", "ALERT_SALARY")},
                                [job["job_id"] for job in sample_jobs]], sort_keys=True)
         result = _brevo_request("POST", "/smtp/email", api_key, {
             "headers": {"idempotencyKey": str(uuid.uuid5(uuid.NAMESPACE_URL, "ontap-private-matched-sample:" + identity))},
             "sender": {"name": "Ontap Jobs", "email": sender_email},
-            "to": [{"email": PRIVATE_TEST_EMAIL}],
+            "to": [{"email": recipient}],
             "subject": f"[Private matching test] {len(sample_jobs)} jobs matching your alert",
             "htmlContent": "<p>" + notice + "</p>" + body_html,
             "textContent": notice + "\n\n" + body_text,
@@ -620,10 +637,13 @@ def main() -> int:
     parser.add_argument("--test-recipient", help="Send one labelled sample to this opted-in contact only")
     parser.add_argument("--test-site-url", help="HTTPS Vercel Preview origin for test links")
     parser.add_argument("--verified-production-sha", help="Verified deployed inventory SHA, required by the native private workflow")
+    parser.add_argument("--private-recipient", choices=PRIVATE_TEST_EMAILS, help="Approved private test address only")
     parser.add_argument("--private-daily-test", action="store_true", help="Real daily matching for the fixed private test contact only")
     parser.add_argument("--private-matching-sample", action="store_true", help="One labelled matched sample to the fixed private contact; daily state unchanged")
     parser.add_argument("--dry-run", action="store_true", help="Private daily test: match without sending or updating state")
     args = parser.parse_args()
+    if args.private_recipient and not args.private_daily_test:
+        parser.error("--private-recipient requires --private-daily-test")
     if args.private_matching_sample and (not args.private_daily_test or args.dry_run):
         parser.error("--private-matching-sample requires --private-daily-test without --dry-run")
     if args.private_daily_test and (args.test_recipient or args.test_site_url):

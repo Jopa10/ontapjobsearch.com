@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 26 October 2026
+**Last updated:** 27 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 27 October 2026 — **Second private email test prepared:** `jnabon1108@gmail.com` can save up to ten alerts independently of the existing test address. Confirmation and unsubscribe belong to the relevant address. No signup or email is created merely by allowing the address. Tests cover private-only access and separate daily delivery protection; public rollout remains off.
 
 - 26 October 2026 — **Ten alerts using the same private test email:** each distinct role/location/salary signup adds an alert rather than replacing the previous one. The existing alert is preserved; identical repeats count once and the eleventh is refused. Matching jobs are combined into one daily email without duplicate jobs. Unsubscribe stops all alerts. Private Preview only; public rollout stays off. Automatic sender adoption is pending the private checks.
 

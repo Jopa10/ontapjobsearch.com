@@ -164,14 +164,14 @@ class PrivateDailyTests(unittest.TestCase):
             "ALERT_CONSENT_AT": "2026-10-22", "ALERT_CONSENT_VERSION": "v1"}}
         self.job = {"job_id": "new-job", "title": "Accounts Assistant", "location": "Leeds"}
 
-    def run_private(self, dry_run, contact=None, list_id=3, branch="refs/heads/feat/cpc-job-alerts-brevo", workflow="", verified_sha=None, matched_sample=False):
+    def run_private(self, dry_run, contact=None, list_id=3, branch="refs/heads/feat/cpc-job-alerts-brevo", workflow="", verified_sha=None, matched_sample=False, recipient=None):
         import argparse
         from unittest.mock import patch
         from scripts.send_cpc_job_alerts import private_daily_test
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "newly-published-jobs-2026-10-22.csv").write_text("job_id\\n")
-            args = argparse.Namespace(date="2026-10-22", reports_dir=root, app_dir=root, dry_run=dry_run, verified_production_sha=verified_sha, private_matching_sample=matched_sample)
+            args = argparse.Namespace(date="2026-10-22", reports_dir=root, app_dir=root, dry_run=dry_run, verified_production_sha=verified_sha, private_matching_sample=matched_sample, private_recipient=recipient)
             with patch.dict("os.environ", {"GITHUB_REF": branch, "GITHUB_WORKFLOW": workflow}), \
                  patch("scripts.send_cpc_job_alerts.new_cpc_jobs", return_value=[self.job]), \
                  patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {}, {}]) as request:
@@ -269,6 +269,33 @@ class PrivateDailyTests(unittest.TestCase):
             with self.assertRaises(DeliveryError):
                 self.run_private(False, **kwargs)
 
+
+
+
+    def test_second_approved_recipient_has_independent_digest_token_and_daily_guard(self):
+        email = "jnabon1108@gmail.com"
+        contact = {**self.contact, "id": 2, "email": email}
+        calls = self.run_private(False, contact, recipient=email)
+        self.assertEqual(calls[0].args[:2], ("GET", "/contacts/jnabon1108%40gmail.com"))
+        payload = calls[1].args[3]
+        self.assertEqual(payload["to"], [{"email": email}])
+        first_key = self.run_private(False)[1].args[3]["headers"]["idempotencyKey"]
+        self.assertNotEqual(payload["headers"]["idempotencyKey"], first_key)
+        self.assertIn("jnabon1108%40gmail.com", calls[2].args[1])
+        payload_token = payload["textContent"].split("token=")[1].strip().split(".")[0]
+        self.assertEqual(json.loads(base64.urlsafe_b64decode(payload_token + "=" * (-len(payload_token) % 4)))["email"], email)
+        already_sent = {**contact, "attributes": {**contact["attributes"], "ALERT_LAST_SENT_DATE": "2026-10-22"}}
+        self.assertEqual(len(self.run_private(False, already_sent, recipient=email)), 1)
+
+    def test_second_recipient_cannot_read_first_contact_or_send_without_consent(self):
+        from scripts.send_cpc_job_alerts import DeliveryError
+        for contact in [self.contact, {**self.contact, "email": "jnabon1108@gmail.com", "listIds": []},
+                        {**self.contact, "email": "jnabon1108@gmail.com", "emailBlacklisted": True},
+                        {**self.contact, "email": "jnabon1108@gmail.com", "listUnsubscribed": [3]}]:
+            with self.assertRaises(DeliveryError):
+                self.run_private(False, contact, recipient="jnabon1108@gmail.com")
+        with self.assertRaises(DeliveryError):
+            self.run_private(False, recipient="other@example.com")
 
 
 

@@ -1,5 +1,5 @@
 import { createHash, createHmac } from "node:crypto";
-import { privateTestEnabled, PRIVATE_TEST_EMAIL } from "./private-job-alert-test";
+import { privateTestEnabled, PRIVATE_TEST_EMAILS } from "./private-job-alert-test";
 
 type Env = Record<string, string | undefined>;
 export type Preferences = { role: string; location: string; salary: string };
@@ -72,7 +72,7 @@ export async function saveJobAlert(
   { env: Env; fetcher?: typeof fetch; now?: () => Date },
 ): Promise<{ ok: true; confirmationSent: boolean; unchanged: boolean; alertCount: number }> {
   // Private rollout only. Do not enable production or other recipients implicitly.
-  if (!privateTestEnabled(env) || signup.email.toLowerCase() !== PRIVATE_TEST_EMAIL) {
+  if (!privateTestEnabled(env) || !PRIVATE_TEST_EMAILS.includes(signup.email.trim().toLowerCase())) {
     throw new Error("Signup confirmation is restricted to the private Preview test.");
   }
   const key = env.BREVO_API_KEY;

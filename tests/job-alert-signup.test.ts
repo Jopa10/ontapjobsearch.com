@@ -181,3 +181,17 @@ test("malformed multi-alert storage fails closed before saving", async () => {
     assert.equal(f.calls.length, 1);
   }
 });
+
+test("second approved address can sign up independently and receives its own confirmation", async () => {
+  const f = fake(undefined);
+  const second = { ...signup, email: "jnabon1108@gmail.com", role: "Administrator", location: "Birmingham", salary: "" };
+  const result = await saveJobAlert(second, { env, fetcher: f.fetcher });
+  assert.equal(result.alertCount, 1);
+  assert.equal(result.confirmationSent, true);
+  const mail = f.calls.find(c => c.url.endsWith("/smtp/email"))!.body;
+  assert.deepEqual(mail.to, [{ email: second.email }]);
+  const url = new URL(mail.textContent.split("Unsubscribe: ")[1]);
+  const [payload] = url.searchParams.get("token")!.split(".");
+  assert.equal(JSON.parse(Buffer.from(payload, "base64url").toString()).email, second.email);
+  assert.doesNotMatch(mail.textContent, /jpbt801/);
+});

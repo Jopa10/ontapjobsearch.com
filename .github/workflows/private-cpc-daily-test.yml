@@ -87,7 +87,8 @@ jobs:
               sys.exit("No daily new-jobs report in the feature checkout; no email sent.")
           date = dates[-1].stem.removeprefix("newly-published-jobs-")
           print("Matching report date:", date, flush=True)
-          subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py", "--private-daily-test", "--dry-run", "--date", date, "--app-dir", "published-inputs/app", "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
+          for recipient in ("jpbt801@gmail.com", "jnabon1108@gmail.com"):
+              subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py", "--private-daily-test", "--private-recipient", recipient, "--dry-run", "--date", date, "--app-dir", "published-inputs/app", "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
           PY
 
       - name: Private daily delivery runner (starts 23 October)

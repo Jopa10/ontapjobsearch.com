@@ -1,6 +1,7 @@
 import { createHash, createHmac } from "node:crypto";
 
 export const PRIVATE_TEST_EMAIL = "jpbt801@gmail.com";
+export const PRIVATE_TEST_EMAILS: readonly string[] = [PRIVATE_TEST_EMAIL, "jnabon1108@gmail.com"];
 const TEST_BRANCH = "feat/cpc-job-alerts-brevo";
 
 type Env = Record<string, string | undefined>;

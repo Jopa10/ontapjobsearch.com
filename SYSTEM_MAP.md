@@ -1,6 +1,6 @@
 # Ontap System Map
 
-**Last updated:** 26 October 2026
+**Last updated:** 27 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -8,6 +8,8 @@
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 27 October 2026 — **Second owner-approved private test address:** Preview signup permits only `jpbt801@gmail.com` and `jnabon1108@gmail.com`, each with its own ten-alert collection, confirmation identity and unsubscribe token. The private Python sender accepts `--private-recipient` only for those two addresses and only with private daily mode; it fetches exactly that contact and retains list-3 consent/blacklist/unsubscribe and contact-specific date/idempotency guards. Missing second contact skips until signup; it is not pre-created or subscribed automatically. Existing first-address sample tools remain unchanged. CI tests both recipient identities and dry-runs both without sending. Automatic adoption requires the main workflow to pin this tested revision and invoke both addresses; public rollout remains off.
 
 - 26 October 2026 — **Up to ten private alerts per contact:** the Preview signup stores a JSON array of role/location/salary preferences in Brevo normal text `ALERT_PREFERENCES`, provisioned by the existing private CI. Legacy single preferences are retained as the first alert when a new distinct signup is added. Whitespace/case-equivalent repeats add nothing; an eleventh alert returns 409 before any write. Malformed stored arrays fail closed. Last-signup scalar attributes remain for the existing sample tool. Daily matching takes the union of independently matched preferences and deduplicates by job ID before the existing 20-job cap. One contact-wide unsubscribe and last-sent-date/idempotency guard still govern one digest. Signup readback verifies the complete stored array before confirmation. Public rollout remains off. Native adoption requires updating the pinned sender only after private tests pass; no publisher code changes.
 
