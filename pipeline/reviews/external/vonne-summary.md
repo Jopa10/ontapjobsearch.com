@@ -1,6 +1,6 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-26
+review_date: 2026-10-27
 review_fingerprint: 3eec3d2274b9dbdb03f3294710f10f810dc80525577affdcc57aa03934387dfd
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-26T13:27:33+00:00
+Run generated: 2026-10-27T12:35:23+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 431
+JobG8 comparison rows: 448
 Approved NEJobs comparison rows: 0
 
 ## Funnel
