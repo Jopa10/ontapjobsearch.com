@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-26
-review_fingerprint: 75a1c94fee54d25cccfdb91800886c78379719e6f53688852437c4a98b9b9a40
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: d27060538e13901569f100bd75b403b47d0cf38673d57d8afc9e131e0ef37690
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -132,12 +132,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-admin-appren
 action: 
 POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M20 2ET | £18,491 - £19,395 (Actual salary) | Reception and Administration Assistant
 employer: Didsbury High School
-closing_date: 2026-11-30T09:00:59+00:00
+closing_date: 2026-11-02T09:00:59+00:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 546b000d9991a8c16fda3c67c626fc4276601c003093261e5b5ed91c992b6b8b
+factual_fingerprint: 5c4ef114867506119ac9eea10432b27cd196fcfe0135fc3318e83ba07dee60f7
 source: Teaching Vacancies
 source_job_id: reception-and-administration-assistant-didsbury-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-didsbury-high-school

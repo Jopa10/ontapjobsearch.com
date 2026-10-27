@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-26
+review_date: 2026-10-27
 review_fingerprint: 1d7a57be7af665d9f16059d6b394b3f0a45b57bceaf99d9bf848dcf70f5d2461
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -61,8 +61,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ## HARD_PASS
 
+- [Admin and Reprographics Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-maternity-cover-outwood-academy-ormesby) — No usable numeric salary.
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bewley-primary-school-billingham-cleveland) — No usable numeric salary.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-9169c182-8090-4a33-85b8-e9004b9ea0d1) — Insufficient admin/service evidence.
 - [PA to Head of School](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-huntcliff-school) — Excluded senior/management title.
 - [School Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-operations-assistant) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-26
-review_fingerprint: a387013dbcd1bb421042812a4ff673f9728a0605e271ce6973b3f420e91d97f5
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: eb4c0397788778ba69b96a3f5ba9b924c2d2b47ca622f8c65b19f12229f2f638
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 17
 - Selected: 6
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -113,20 +113,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-antho
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | North East | Darlington, DL3 7AU | NJC Band 5 (SCP 7-8), £27,274 – £27,709 per annum | People Support Assistant
-employer: Northern Arch Learning Partnership
-closing_date: 2026-10-27T12:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 88d18dba3a43c043d23e66ccf85ff8322768bd6c70b8835ff1a10bd87ae5d883
-source: Teaching Vacancies
-source_job_id: people-support-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/people-support-assistant
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -140,6 +127,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-support-assist
 - [Hourly Paid Creative Industries Technician (2026/CS015)](https://teaching-vacancies.service.gov.uk/jobs/hourly-paid-creative-industries-technician-2026-cs015) — Out-of-scope occupation: technician.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
 - [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
+- [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-connect-multi-academy-trust) — Insufficient admin/service evidence.
 - [Part Time Creative Industries Technician (2026/CS014)](https://teaching-vacancies.service.gov.uk/jobs/part-time-creative-industries-technician-2026-cs014) — Out-of-scope occupation: technician.
 - [Pastoral Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-officer-febc3c65-3b62-4e66-a0de-9fa208cbd134) — Insufficient admin/service evidence.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-northern-lights-learning-trust) — Insufficient admin/service evidence.

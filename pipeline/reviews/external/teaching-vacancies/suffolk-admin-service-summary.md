@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-26
-review_fingerprint: bf3d50231f293796ca5e9f1a4ace0deae3b6f717ba34f14322a88904683f9d59
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: 0c7e2ad17ef6052a771b6415a3cecfa08a83bf9d99f3e839309c88cdca112e8d
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 2
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
 
@@ -66,6 +66,21 @@ factual_fingerprint: df0a1bf2719198612e34494b397c10a8080c3cab964f56de4ae8702adb4
 source: Teaching Vacancies
 source_job_id: finance-officer-beccles-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccles-high-school
+---
+
+---
+action: 
+POSS | Suffolk | Ipswich, East of England, IP1 6QD | £26,016.00 - £26,847.00 Annually (FTE) | SEND Administrator
+employer: Castle Hill Junior School
+closing_date: 2026-11-05T13:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 19ba49581d4ccab5eef4b6f04335baed3910e5ee0d6b82e66c953b0359a0782f
+source: Teaching Vacancies
+source_job_id: send-administrator-castle-hill-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-castle-hill-junior-school
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-26
-review_fingerprint: 1bbf8c5fbfd5336bb3e80ac0d2c5e790de0270bb23bee03b3bab6c98c300ba80
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: a0e63284a28dd997dae502266172ca2a9938425aeab839ac3d63c909a03ef97b
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
 
@@ -51,6 +51,21 @@ factual_fingerprint: eba1dd84550ce000a14ec7ea962baf711fc3a45c4b4e7cb863f1f6ec4aa
 source: Teaching Vacancies
 source_job_id: hr-administrator-the-oak-partnership-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-oak-partnership-trust
+---
+
+---
+action: 
+POSS | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
+employer: Writhlington School
+closing_date: 2026-12-07T23:59:59+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ecb51f1b4b6ee94f56e9e697ed78988786eb5050aab0a1033c4e9107ccddf5c3
+source: Teaching Vacancies
+source_job_id: payroll-administrator-writhlington-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-writhlington-school
 ---
 
 ## EXCLUDED BY REVIEW

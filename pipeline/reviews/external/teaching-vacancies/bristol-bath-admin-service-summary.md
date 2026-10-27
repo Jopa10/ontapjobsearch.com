@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-10-26
-review_fingerprint: 08a8df891d4cc50d6966734e98553a3e61bba6754f6fa030d7198edffc843ff2
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: 0ad3992a124bee3e48274caad6740706d9feb5caa4c66f3b8cb7f01309c4abe4
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 5
+- Records: 10
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -34,6 +34,21 @@ factual_fingerprint: 87abd3693bdd9a50bcf70bea02e9fbdd0aec7c8354fa0a98c28831f3676
 source: Teaching Vacancies
 source_job_id: administrative-assistant-trips-visits-events
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-trips-visits-events
+---
+
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS13 0RL | £25,614.00 Annually (FTE) £12,108 actual salary | Campus Receptionist
+employer: Bridge Learning Campus
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0d707db4fd22b9ec9a81f5f374a5b1170ef84c8f4afa843b70ad1d682592ca62
+source: Teaching Vacancies
+source_job_id: campus-receptionist-bridge-learning-campus
+source_url: https://teaching-vacancies.service.gov.uk/jobs/campus-receptionist-bridge-learning-campus
 ---
 
 ---

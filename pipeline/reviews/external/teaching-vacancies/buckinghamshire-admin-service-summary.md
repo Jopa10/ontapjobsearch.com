@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-26
+review_date: 2026-10-27
 review_fingerprint: 2913c7c3155164b79133496895e60097e13568a7cc2229bc1793da609c4f812f
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 12
 - Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -151,7 +151,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir
 
 - [Business Support L3](https://teaching-vacancies.service.gov.uk/jobs/business-support-l3-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Excluded senior/management title.
-- [Executive Assistant to the Headteacher and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-the-headteacher-and-operations-manager) — Out-of-scope occupation: teacher, headteacher.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-7e5d89f3-aa30-4103-8e70-a83b509a9118) — Insufficient admin/service evidence.
 - [Operations Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-support-assistant-oxley-park-academy) — Insufficient admin/service evidence.
 

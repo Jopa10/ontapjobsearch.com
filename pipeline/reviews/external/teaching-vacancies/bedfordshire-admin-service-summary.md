@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-26
-review_fingerprint: f6160dd5d5c755d43fcb41ea1257bfb741b4be4e842c3eeb0120d39591562843
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: efa6ab8b557c225d48b9bb338d9f0ae20ddd427eae9b9331d8edeb615bd0d0de
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 13
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -79,6 +79,21 @@ factual_fingerprint: 95c2bab11db0b393eb77658d18194c12e0d49c492cc3d909e7fd14a5865
 source: Teaching Vacancies
 source_job_id: office-community-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-community-administrator
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Dunstable, East of England, LU5 4NJ | £18,959.00 Annually (Actual) FTE £24,790 (NJC Scale 3A pro rata) | School Office Administrator (Part time & Flexible working)
+employer: St Christophers Academy
+closing_date: 2026-11-13T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: abe5a21fe7b925341e41b031384ebfbb6fb75454f2715cfabfaee79ad5a09390
+source: Teaching Vacancies
+source_job_id: school-office-administrator-part-time-flexible-working
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-part-time-flexible-working
 ---
 
 ---

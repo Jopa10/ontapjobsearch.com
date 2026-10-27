@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-10-26
-review_fingerprint: 44a259289603644eea2fb53181c0fac9042c72ecdc368d00c2728557b883e131
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: 2df447f86d1519b79cb34ff8f01082d441f0315c56d1db0f595a12dd293fc73e
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 6
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -64,6 +64,21 @@ factual_fingerprint: 1d50084ed9c7497880b40ee3ff058bf4a37e48a0cd934b5705d2524bcbb
 source: Teaching Vacancies
 source_job_id: receptionist-admin-assistant-ferndown-middle-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-ferndown-middle-school
+---
+
+---
+action: 
+SELECTED | Dorset | Ferndown, South West, BH22 9UP | £26,427-£27,274 per annum | SEND Admin Assistant
+employer: Ferndown Middle School
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 20313f7704eec3483bbf1b668b202161072729f18c1e38af2fc7bb0583187e88
+source: Teaching Vacancies
+source_job_id: send-admin-assistant-ferndown-middle-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-ferndown-middle-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

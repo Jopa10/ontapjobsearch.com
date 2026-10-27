@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-26
-review_fingerprint: cd10598f0a0678e1cae1614317d8468c5400bb3fb7bbcc643ff9191b3ac7e45d
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: 11527970f6c096977788647782ca6933bfe7a982abfd1ddcebcf61a6412582f4
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 0
+- Records: 11
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Lancashire - East | Bacup, North West, OL13 0TG | £27,709.00 to £29,071.00 per annum (Pro rata £23,833.47 to £25,004.97 per annum) | Business Support Officer
+employer: The Valley Leadership Academy
+closing_date: 2026-11-16T23:59:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 76afd54c624a5f741af1330f3917ee9202c2ff0d3c81b7bc0105c59cb142d555
+source: Teaching Vacancies
+source_job_id: business-support-officer-the-valley-leadership-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-the-valley-leadership-academy
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-26
-review_fingerprint: 816e336eea2a42e6e6971aa76e602c48ef1741d6988ee8af745d8a0fd0948377
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: fdab8f405dd1c22cebdfaa61d9438199201da642f68f790d1170e007ce44d481
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 10
+- Records: 21
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 11
@@ -34,21 +34,6 @@ factual_fingerprint: 956dfe297433d55e402f7a0686a00c275a1393470d518b5732670935f16
 source: Teaching Vacancies
 source_job_id: admin-clerical-officer-level-2-rowan-school-the-rowan-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school-the-rowan-school
----
-
----
-action: 
-SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S63 0NU | £26,017.00 - £26,847.00 Annually (FTE) scp 4-6 Pro rata £20,660 - £21,319 | Administration Assistant
-employer: Gooseacre Primary Academy
-closing_date: 2026-10-26T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 05287e7d56ed2b3260cb1a1b557f0d7afaba96bd74bb1ae263c8a80c0b5ee21c
-source: Teaching Vacancies
-source_job_id: administration-assistant-d66559f6-ab8e-4349-b8d0-10f235e89384
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-d66559f6-ab8e-4349-b8d0-10f235e89384
 ---
 
 ---

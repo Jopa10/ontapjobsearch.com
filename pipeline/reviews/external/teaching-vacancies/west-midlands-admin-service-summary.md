@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-10-26
-review_fingerprint: 768249aba7e5f46d0c66d054fda5d456d9eabbc28fd4d2ff567df98c63e70288
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: 0abfbb1713e64082cf43648ea1201f6300d56dfae9c929aa08273434ce32870a
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 1
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands | Wythall, West Midlands, B47 5JW | £16,402.00 - £17,793.00 Annually (Actual) | Exams Officer
+employer: Woodrush High School
+closing_date: 2026-11-09T11:00:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: a923ae5ffaca3e77ae884da517c1ef869ae9fae0c221f3840e4f6e70093f913a
+source: Teaching Vacancies
+source_job_id: exams-officer-woodrush-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-woodrush-high-school
+---
 
 ---
 action: 

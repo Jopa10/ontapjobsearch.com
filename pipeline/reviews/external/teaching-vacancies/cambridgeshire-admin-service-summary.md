@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-26
-review_fingerprint: a7f6405a9e77126c1b95f2e7628e9817cf45b8a57dd862caff3b9ff2f1cd0218
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: e8548a1b82105871a82e783643f8e90fc80cf1a56eedd0b851c85a9a8c36aa70
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 25
-- Selected: 15
-- POSS awaiting decision: 2
+- Selected: 16
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
 
@@ -218,6 +218,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trump
 
 ---
 action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB23 7DU | £25,185.00 - £25,583.00 Annually (FTE) NJC Scale 2, Points 5 to 6. Actual salary £21,600.98 per annum (based on 37 hrs per week) on point 12 (pay award pending). | Receptionist
+employer: Comberton Village College
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 86ff71720431237a5097f920240e9efc5bbb73d4d4426966af2f795053997d71
+source: Teaching Vacancies
+source_job_id: receptionist-comberton-village-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-comberton-village-college
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | Ely, East of England, CB6 2PU | £26,016.00 Annually (FTE) | School Office Assistant
 employer: Sutton CofE VC Primary School
 closing_date: 2026-11-02T12:00:00+00:00
@@ -261,21 +276,6 @@ factual_fingerprint: 11933a3386d7de7e0fa291996da15ed1e00cf204c3e49099f83ef2a9013
 source: Teaching Vacancies
 source_job_id: hr-administrator-cambridge-regional-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-cambridge-regional-college
----
-
----
-action: 
-POSS | Cambridgeshire | Cambridge, East of England, CB23 7DU | £25,185.00 - £25,583.00 Annually (FTE) NJC Scale 2, Points 5 to 6. Actual salary £21,600.98 per annum (based on 37 hrs per week) on point 12 (pay award pending). | Receptionist
-employer: Comberton Village College
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 86ff71720431237a5097f920240e9efc5bbb73d4d4426966af2f795053997d71
-source: Teaching Vacancies
-source_job_id: receptionist-comberton-village-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-comberton-village-college
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-26
-review_fingerprint: 28a8147b89e7d5841fee2e837d64448232412f12c9027b139930368d79316206
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: a925b157b0971f551689062107ce952e06a87cac2bab50d894cfaa26e988bfb5
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -64,21 +64,6 @@ factual_fingerprint: 5fa5979417a277c98d29a8f5bfd2a98b8000696e116f4007e107aebc225
 source: Teaching Vacancies
 source_job_id: office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
----
-
----
-action: 
-SELECTED | Hertfordshire | Hatfield, East of England, AL9 7BN | £26,847.00 - £28,153.00 Annually (FTE) Actual Salary including fringe allowance £23,608.70 per annum | SEND Administrator
-employer: Chancellor's School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3dc612c9bddcd85a560e94e29ff8a0c3c8094cc8adfce3a30a9e1d76f3ee2017
-source: Teaching Vacancies
-source_job_id: send-administrator-chancellor-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-chancellor-s-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

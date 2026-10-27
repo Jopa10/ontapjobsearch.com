@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-26
+review_date: 2026-10-27
 review_fingerprint: 77ae94ea6c9d9924787fc94fecf8a145353ca2a3e23ee76e713c60658d109ab4
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -46,12 +46,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
+- [Academy Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-cusgarne-primary-school-truro-cornwall) — No usable numeric salary.
 - [Administrative & Educational Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-educational-support-assistant-launceston-primary-school) — No usable numeric salary.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-st-just-primary-school) — No usable numeric salary.
+- [Apprentice Administrator with Financial Responsibilities](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-with-financial-responsibilities-newquay-junior-academy) — No usable numeric salary.
 - [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-98013a7b-abcb-49b9-bc24-0e68d6997ce9) — No usable numeric salary.
 - [General Administrator & Receptionist](https://teaching-vacancies.service.gov.uk/jobs/general-administrator-receptionist) — No usable numeric salary.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — No usable numeric salary.
-- [Nursery Assistant](https://teaching-vacancies.service.gov.uk/jobs/nursery-assistant-aspire-academy-trust-st-austell-not-recorded) — Out-of-scope occupation: nurse.
 
 ## Safety boundary
 

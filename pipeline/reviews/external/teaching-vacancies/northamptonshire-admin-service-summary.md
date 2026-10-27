@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-26
-review_fingerprint: de1cb276d67fa6f3ede34fc75515be29fa8a5a3c8aeaae7992f310e71c592d5c
-routing_manifest_sha256: 361c6d039d8b8fe5417aab3db95aadfafac36023d65228cef2b46ed29e24a29a
+review_date: 2026-10-27
+review_fingerprint: 81be0faa5f90e46f7d7204f68f590f267376a5243d0ca34f113ed6e869e3b10b
+routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 6
-- POSS awaiting decision: 2
+- Selected: 7
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN2 6JW | £26,016.00 Annually (FTE) NJC4 : £22,234.28pa pro rata - term time | Academy Administrator
+employer: Malcolm Arnold Academy
+closing_date: 2026-11-26T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 417f0c36e8e8ae88383b97720ad0fa960f9e8063d7cbd53f0cc35836398422e0
+source: Teaching Vacancies
+source_job_id: academy-administrator-malcolm-arnold-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-malcolm-arnold-academy
+---
 
 ---
 action: 
@@ -68,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/content-creator-and-a
 
 ---
 action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN3 6HT | £26,016.00 Annually (FTE) Grade E Scale point 4 | School Administrator - SLT Support
-employer: St Thomas Becket Catholic School
-closing_date: 2026-10-27T12:00:00+00:00
-reason: Clear admin/service title: administrator
+SELECTED | Northamptonshire | Wellingborough, East Midlands, NN8 2LA | £26,847.00 - £27,274.00 Annually (FTE) 38 Weeks Term Time plus 5 training days | Office Administrator
+employer: Friars Academy
+closing_date: 2026-11-11T09:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d6ba2527dbaa9dd6223c2a76f7fd462492c85b984334beb15bf0df13dd303894
+factual_fingerprint: 3025cba3ab39d59ca64d30b3c374a54c565936646076c96f1827a95039c6f76e
 source: Teaching Vacancies
-source_job_id: school-administrator-slt-support-st-thomas-becket-catholic-school-northampton-northamptonshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-slt-support-st-thomas-becket-catholic-school-northampton-northamptonshire
+source_job_id: office-administrator-friars-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-friars-academy
 ---
 
 ---
@@ -126,21 +141,6 @@ factual_fingerprint: b6236251c2827a120b5ae6760dc472ebbed1fa16ba7643b9843309e1628
 source: Teaching Vacancies
 source_job_id: administrator-st-barnabas-church-of-england-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barnabas-church-of-england-school
----
-
----
-action: 
-POSS | Northamptonshire | Corby, East Midlands, NN17 5EB | £27,514.00 Annually (Actual) | Operations Administrator
-employer: Corby Business Academy
-closing_date: 2026-10-26T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b42f3e788c64f39951941067e61b7013784956b510d1ac4f11f8cfcbb5426939
-source: Teaching Vacancies
-source_job_id: operations-administrator-f863f96d-ca5a-492a-8206-7a0736f466c1
-source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administrator-f863f96d-ca5a-492a-8206-7a0736f466c1
 ---
 
 ## EXCLUDED BY REVIEW
