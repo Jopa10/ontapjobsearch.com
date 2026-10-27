@@ -10,6 +10,9 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 27 October 2026 — **Expanded-feed import ceiling prepared:** the production JobG8 daily workflow now accepts 5,000–50,000 rows, raising only its XML-adapter `--expected-max` from 20,000 to 50,000 after the isolated 50k preview reached Vercel READY. The existing live feed URL is retained; this does not request JobG8 expansion, publish inventory or approve unanswered reviews. Rollback: restore this workflow argument to `--expected-max 20000`; if the supplier has already expanded the live feed, also arrange restoration of the 20k supply, because lowering the guard alone rejects larger inputs rather than truncating them.
+
+
 - 27 October 2026 — **Clear hourly pay in advert text is no longer left blank:** Service Admin can display an explicit rate such as `12.71ph` when JobG8's structured salary fields are empty. Structured pay retains priority; no salary is added when the advert provides none. A focused regression test protects the extraction.
 
 - 27 October 2026 — **Second private email address enabled:** `jnabon1108@gmail.com` can sign up for up to ten test alerts and receive its own daily digest after successful publishing. The existing address and its alerts are unchanged. Each address has its own consent, unsubscribe and duplicate-send protection. The second address receives no alerts until it signs up. Public rollout remains off.
