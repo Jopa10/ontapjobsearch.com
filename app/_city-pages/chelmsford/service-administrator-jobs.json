@@ -296,5 +296,24 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5684142",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Primary Care Careers",
+    "advertiser_name": "Primary Care Careers",
+    "location": "Chelmsford, CM2 5EF",
+    "region": "Essex",
+    "salary": "£12.78",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-26T14:30:08.495421989",
+    "closing_date": "2026-11-13",
+    "description": "North Chelmsford Healthcare Centre/Beaulieu Healthcare Centre have an exciting new opportunity, as part of our ongoing expansion, for a receptionist to join their team. This position is offered on a part-time basis, for 18 hours per week, working the following: Monday & Tuesday: 08:00 - 14:00 Friday: 12:30 - 18:30 This role will involve working across both of our Chelmsford sites: North Chelmsford Healthcare Centre and our branch surgery, Beaulieu Healthcare Centre. If you are enthusiastic about joining a growing team and making a positive difference to patient care, we would love to hear from you. Main responsibilities will include: Handling patient enquiries by telephone, email, and in person. Working within our triage team to support the triage doctor. Processing prescription requests. Arranging home visits. Managing card and cash payments from patients. Maintaining waiting lists and arranging follow-up appointments. Supporting clinicians and colleagues with day-to-day administrative tasks. Training: A comprehensive three-week induction programme will be provided to support your onboarding and success in the role. If you would like to find out more information about this role, please do not hesitate to get in contact with us.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1014",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1014",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
   }
 ]

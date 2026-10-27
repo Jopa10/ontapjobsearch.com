@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 25
 - automatic review: 55
-- automatic exclude: 32
+- automatic exclude: 27
 - effective include: 25
 - effective review: 55
-- effective exclude: 32
+- effective exclude: 27
 
 ## INCLUDE (25)
 
@@ -594,6 +594,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Care Coordinator
+company: Westray Recruitment Consultants Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225764968
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: Red Recruitment - Agency - Temporary
 location: Tyne And Wear
@@ -654,18 +666,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: GP Receptionist/Care Navigator
-company: Trinity Medical Centre
-location: South Shields, NE33 5DU
-source: NHS Jobs
-job_id: nhs-5683011
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: IT Resourcer
 company: Randstad Technologies - Agency - Permanent
 location: Tyne And Wear
@@ -695,6 +695,18 @@ company: Rise Technical Recruitment - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225730673
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Great Lumley Surgery
+location: Chester le Street, DH3 4LE
+source: NHS Jobs
+job_id: nhs-5686212
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -810,12 +822,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Procurement Administrator
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Seaham
+title: Project Coordinator
+company: Westray Recruitment Consultants Ltd - Agency - Permanent
+location: Tyne And Wear
 source: JobG8
-job_id: jobg8-23643_225656711
-reason: No approved Newcastle catchment rule matched; local review required.
+job_id: jobg8-23643_225764969
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -863,18 +875,6 @@ company: Office Angels - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225660233
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruiter
-company: Capital R2R Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_222841829
 reason: Broad location; review before city inclusion.
 ---
 
@@ -986,19 +986,7 @@ job_id: jobg8-23643_225658559
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (32)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Austin Rose - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2039768
-reason: Separate employment market.
----
+## EXCLUDE (27)
 
 ---
 action: 
@@ -1028,30 +1016,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Durham
-source: JobG8
-job_id: jobg8-2037066
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant Permanent - Sunderland
-company: Office Angels - Agency - Permanent
-location: Sunderland
-source: JobG8
-job_id: jobg8-23643_225655565
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Accounts Payable
 company: Travail Employment Group - Agency - Temporary
 location: County Durham
@@ -1069,18 +1033,6 @@ company: North Durham Academy
 location: Stanley
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-north-durham-academy-stanley-county-durham
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Trinity Academy New Bridge
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland
 reason: Separate employment market.
 ---
 
@@ -1141,18 +1093,6 @@ company: Reed - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2053988
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5YA
-source: NHS Jobs
-job_id: nhs-5684079
 reason: Separate employment market.
 ---
 
@@ -1256,6 +1196,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Operations Admin Assistant
+company: Penn Gregory Recruitment Ltd - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225764551
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Payroll Officer
 company: Paul Card Recruitment - Agency - Temporary
 location: County Durham
@@ -1273,18 +1225,6 @@ company: Taryn Hall Recruitment - Agency - Permanent
 location: Sunderland
 source: JobG8
 job_id: jobg8-23643_225712467
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Clerk
-company: Spear-heads - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2036113
 reason: Separate employment market.
 ---
 

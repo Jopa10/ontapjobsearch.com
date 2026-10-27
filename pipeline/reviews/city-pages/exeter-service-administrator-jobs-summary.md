@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 42
+- automatic include: 20
+- automatic review: 43
 - automatic exclude: 0
-- effective include: 19
-- effective review: 42
+- effective include: 20
+- effective review: 43
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (20)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Office Angels - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225764800
+reason: Exact approved Exeter workplace.
+---
 
 ---
 action: 
@@ -252,7 +264,7 @@ job_id: jobg8-23643_225699564
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (43)
 
 ---
 action: 
@@ -426,11 +438,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Care Coordinator
-company: Fawkes & Reece London - Agency - Permanent
+title: Customer Care Administrator
+company: Fawkes & Reece London - Agency - Contract
 location: Devon
 source: JobG8
-job_id: jobg8-23643_225690244
+job_id: jobg8-23643_225765566
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -438,11 +450,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Motofix Accident Repair Centres - Agency - Permanent
+title: Customer Care Coordinator
+company: Fawkes & Reece London - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-23643_225726466
+job_id: jobg8-23643_225690244
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -522,11 +534,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant 12 month Maternity cover
-company: Hays Business Support - Agency - Temporary
-location: Barnstaple
+title: HR Coordinator
+company: Pertemps Plymouth - Agency - Permanent
+location: Devon
 source: JobG8
-job_id: jobg8-23643_225732426
+job_id: jobg8-23643_225698382
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -534,11 +546,23 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Coordinator
-company: Pertemps Plymouth - Agency - Permanent
+title: Legal Assistant
+company: eNL Legal Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-23643_225698382
+job_id: jobg8-2184248
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant (Law Graduate Opportunity)
+company: Lockhart Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225766926
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -563,6 +587,18 @@ company: Interaction Recruitment - Agency - Temporary
 location: Cullompton
 source: JobG8
 job_id: jobg8-23643_225755597
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Receptionist
+company: Lockhart Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225766933
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -726,11 +762,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Technical Administrator
-company: Manucomm Recruitment Ltd - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225656433
+title: Team Administrator
+company: Devon Partnership NHS Trust
+location: BARNSTAPLE, EX31 4JB
+source: NHS Jobs
+job_id: nhs-5686114
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -743,18 +779,6 @@ company: Servara Ltd - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225756253
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Work Coordinator
-company: Liberty Gas Group - Company - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225677264
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

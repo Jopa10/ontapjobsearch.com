@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 26
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 7
-- effective review: 26
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225715889
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (22)
 
 ---
 action: 
@@ -155,18 +155,6 @@ company: Hays Business Support - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225753753
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative assistant
-company: Tameside and Glossop Integrated Care NHS Foundation Trust
-location: Ashton Under Lyne, OL6 6NG
-source: NHS Jobs
-job_id: nhs-5656329
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -234,35 +222,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Lettings Coordinator
-company: The People Pod - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225656217
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist
 company: HT Practice
 location: Ashton Under Lyne, OL7 0NW
 source: NHS Jobs
 job_id: nhs-5671910
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Pallet Network & Customer Service Coordinator
-company: Kinaxia Logistics Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225656920
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -311,18 +275,6 @@ company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225661623
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchasing Administrator
-company: Bayman Atkinson Smythe - Agency - Permanent
-location: Trafford
-source: JobG8
-job_id: jobg8-23643_225695106
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

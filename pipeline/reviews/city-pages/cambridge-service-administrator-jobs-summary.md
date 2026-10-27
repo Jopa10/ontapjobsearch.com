@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 37
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 37
-- automatic review: 10
-- automatic exclude: 21
-- effective include: 37
-- effective review: 10
-- effective exclude: 21
+- automatic include: 33
+- automatic review: 9
+- automatic exclude: 23
+- effective include: 33
+- effective review: 9
+- effective exclude: 23
 
-## INCLUDE (37)
+## INCLUDE (33)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2066978
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Assistant
-company: Pure Resourcing Solutions Limited - Agency - Temporary
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225701703
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -364,30 +352,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger Clerk (Temp)
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2036998
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Morson Edge - Agency - Contract
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225671981
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist / Front of House
 company: Adecco - Agency - Temporary
 location: Cambridge
@@ -456,19 +420,7 @@ job_id: jobg8-2099638
 reason: Approved conservative Cambridge launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0QQ
-source: NHS Jobs
-job_id: nhs-5673923
-reason: Approved conservative Cambridge launch catchment.
----
-
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -547,18 +499,6 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Executive
-company: Anne Corder Recruitment - Agency - Permanent
-location: St. Ives
-source: JobG8
-job_id: jobg8-23643_225657890
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Executive
 company: Interaction Recruitment - Agency - Permanent
 location: St. Ives
 source: JobG8
@@ -590,7 +530,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -613,6 +553,18 @@ company: Barker Ross - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225719523
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Cambridgeshire and Peterborough NHS Foundation Trust
+location: Huntingdon, PE29 6FN
+source: NHS Jobs
+job_id: nhs-5685853
 reason: Separate employment market.
 ---
 
@@ -740,18 +692,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Assistant
-company: Vero Hr - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225659039
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR MANAGER - PART-TIME
 company: Interaction Recruitment - Agency - Permanent
 location: Peterborough
@@ -800,6 +740,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Invoicing Administrator
+company: Strange and Wright Recruitment Partners LTD - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225766094
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Medical Receptionist/ Administrator
 company: Dr Laliwala and Partners
 location: Peterborough, PE1 4FS
@@ -829,6 +781,18 @@ company: Strange and Wright Recruitment Partners LTD - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225739501
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Administrator
+company: Cambridgeshire and Peterborough NHS Foundation Trust
+location: Wisbech, PE13 3AB
+source: NHS Jobs
+job_id: nhs-5685474
 reason: Separate employment market.
 ---
 

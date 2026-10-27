@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 32
-- automatic exclude: 39
+- automatic review: 34
+- automatic exclude: 36
 - effective include: 12
-- effective review: 32
-- effective exclude: 39
+- effective review: 34
+- effective exclude: 36
 
 ## INCLUDE (12)
 
@@ -57,6 +57,18 @@ company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX3 7LE
 source: NHS Jobs
 job_id: nhs-5685147
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Patient Pathway Administrator
+company: Oxford University Hospitals NHS Foundation Trust
+location: Oxford, OX3 9DE
+source: NHS Jobs
+job_id: nhs-5686603
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -156,19 +168,7 @@ job_id: jobg8-2074696
 reason: Approved conservative Oxford launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Student Receptionist and Pastoral Assistant
-company: Cheney School
-location: Oxford
-source: Teaching Vacancies
-job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-school
-reason: Approved conservative Oxford launch catchment.
----
-
-## REVIEW (32)
+## REVIEW (34)
 
 ---
 action: 
@@ -522,6 +522,30 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Technical Publications Administrator
+company: Planet Recruitment - Agency - Permanent
+location: Abingdon
+source: JobG8
+job_id: jobg8-23643_225766984
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Publications Administrator
+company: PLANET RECRUITMENT SERVICES LTD - Agency - Permanent
+location: Abingdon
+source: JobG8
+job_id: jobg8-2189910
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temporary Finance Manager
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Witney
@@ -554,7 +578,7 @@ job_id: nhs-5664768
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (39)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -565,6 +589,18 @@ company: Butler Rose - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2065837
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Activities Coordinator
+company: Care UK - Company - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-108227130
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -589,18 +625,6 @@ company: Huntress - Maidstone - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225662441
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bookkeeper
-company: 9-2-3 Jobs Limited - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225656439
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -661,18 +685,6 @@ company: Pertemps Banbury - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225660971
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Support Administrator
-company: Focus Resourcing - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225722258
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -764,11 +776,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: FM Administrator
-company: Facilitate Search Ltd - Agency - Permanent
+title: HR Administrator
+company: Preservica - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225657428
+job_id: jobg8-23643_225764952
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -800,35 +812,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Executive
-company: Plus One Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225716302
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Executive - B2B - Professional Services
+title: Order-Processing Administrator
 company: Michael Page - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225716112
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Operations & Logistics Co-Ordinator
-company: Tech Professionals - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225658856
+job_id: jobg8-23643_225765212
 reason: Broad county location; not Oxford-city evidence.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 18
-- automatic exclude: 34
+- automatic review: 17
+- automatic exclude: 29
 - effective include: 12
-- effective review: 18
-- effective exclude: 34
+- effective review: 17
+- effective exclude: 29
 
 ## INCLUDE (12)
 
@@ -168,7 +168,7 @@ job_id: nhs-5665026
 reason: Approved York catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (17)
 
 ---
 action: 
@@ -227,18 +227,6 @@ company: Ripon Farm Services - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2043051
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-23643_225657349
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -386,7 +374,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -397,18 +385,6 @@ company: Adecco - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225673626
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Travail Employment Group - Agency - Temporary
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225702451
 reason: Separate employment market.
 ---
 
@@ -442,34 +418,10 @@ decision: exclude
 automatic_decision: exclude
 title: Clinical Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Northallerton, DL6 2FG
-source: NHS Jobs
-job_id: nhs-5655930
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Selby, YO8 9BX
 source: NHS Jobs
 job_id: nhs-5669774
 reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Commercial & Residential Property Legal Secretary
-company: Search Consultancy Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225656965
-reason: Broad regional label; not York-city evidence.
 ---
 
 ---
@@ -620,18 +572,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Partnership Executive
-company: Matchtech - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225658052
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Paralegal
 company: Unity Resourcing Ltd - Agency - Permanent
 location: Yorkshire
@@ -673,18 +613,6 @@ company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
 job_id: jobg8-23643_225746940
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Assistant
-company: Travail Employment Group - Agency - Temporary
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225698949
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 20
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 52
+- automatic include: 19
+- automatic review: 53
 - automatic exclude: 0
-- effective include: 20
-- effective review: 52
+- effective include: 19
+- effective review: 53
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (19)
 
 ---
 action: 
@@ -129,18 +129,6 @@ company: CCA Recruitment Group - Agency - Contract
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225743613
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Examination Administration Assistant
-company: Impact Recruitment Services - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225656807
 reason: Exact approved Northampton workplace.
 ---
 
@@ -264,7 +252,7 @@ job_id: jobg8-23643_225761870
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (53)
 
 ---
 action: 
@@ -342,18 +330,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: B2b Telesales Executive
-company: SolviT Recruitment Ltd - Agency - Temporary
-location: Daventry
-source: JobG8
-job_id: jobg8-23643_225718197
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Branch Administrator
 company: Adecco - Agency - Contract
 location: Kettering
@@ -395,6 +371,18 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2042669
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Rushden
+source: JobG8
+job_id: jobg8-23643_225766315
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -546,18 +534,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Finance Officer
-company: Bishop Stopford School
-location: Kettering
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-officer-bishop-stopford-school
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Group Accounts Assistant
 company: Impact HR - Agency - Permanent
 location: Northamptonshire
@@ -635,6 +611,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2052292
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Plus One Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225716302
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -786,11 +774,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Sales & Marketing Executive
-company: MIU Consulting - Agency - Permanent
-location: Corby
+title: Sales Administrator
+company: Adecco - Agency - Permanent
+location: Wellingborough
 source: JobG8
-job_id: jobg8-23643_225656265
+job_id: jobg8-23643_225765640
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -827,6 +815,18 @@ company: Complii - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225738732
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: ASI Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225701377
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

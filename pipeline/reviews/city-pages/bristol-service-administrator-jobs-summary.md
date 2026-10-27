@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 61
+- Effective included jobs: 60
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 61
-- automatic review: 13
-- automatic exclude: 8
-- effective include: 61
-- effective review: 13
-- effective exclude: 8
+- automatic include: 60
+- automatic review: 15
+- automatic exclude: 9
+- effective include: 60
+- effective review: 15
+- effective exclude: 9
 
-## INCLUDE (61)
+## INCLUDE (60)
 
 ---
 action: 
@@ -105,18 +105,6 @@ company: MSRec Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225663930
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sirona care & health CIC
-location: Bristol, BS13 8QA
-source: NHS Jobs
-job_id: nhs-5656080
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -756,7 +744,7 @@ job_id: nhs-5636801
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (15)
 
 ---
 action: 
@@ -882,6 +870,18 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing and Creative Lead
+company: HFT - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2158290
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist / Administrator
 company: St Augustine’s Medical Practice
 location: Keynsham, BS31 2GN
@@ -914,7 +914,19 @@ job_id: jobg8-23643_225702996
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2182621
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+## EXCLUDE (9)
 
 ---
 action: 
@@ -1009,5 +1021,17 @@ company: Reed Technology - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-23643_225660760
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Project Coordinator - Full time
+company: CMD Recruitment - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-23643_225765891
 reason: Separate employment market.
 ---

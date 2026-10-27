@@ -4,7 +4,7 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 18
-- automatic exclude: 35
-- effective include: 11
-- effective review: 18
-- effective exclude: 35
+- automatic include: 9
+- automatic review: 17
+- automatic exclude: 32
+- effective include: 9
+- effective review: 17
+- effective exclude: 32
 
-## INCLUDE (11)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Travail Employment Group - Agency - Temporary
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225702451
-reason: Exact approved Harrogate workplace.
----
+## INCLUDE (9)
 
 ---
 action: 
@@ -100,18 +88,6 @@ reason: Exact approved Harrogate workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger Assistant
-company: Travail Employment Group - Agency - Temporary
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225698949
-reason: Exact approved Harrogate workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Ledger Administrator
 company: Technical Prospects Ltd - Agency - Permanent
 location: Harrogate
@@ -156,7 +132,7 @@ job_id: jobg8-2174235
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (17)
 
 ---
 action: 
@@ -215,18 +191,6 @@ company: Ripon Farm Services - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2043051
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-23643_225657349
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -374,7 +338,7 @@ job_id: jobg8-23643_225666115
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -454,33 +418,9 @@ decision: exclude
 automatic_decision: exclude
 title: Clinical Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Northallerton, DL6 2FG
-source: NHS Jobs
-job_id: nhs-5655930
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Selby, YO8 9BX
 source: NHS Jobs
 job_id: nhs-5669774
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Commercial & Residential Property Legal Secretary
-company: Search Consultancy Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225656965
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -613,18 +553,6 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-2075662
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Partnership Executive
-company: Matchtech - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225658052
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
+- automatic include: 19
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 21
+- effective include: 19
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (19)
 
 ---
 action: 
@@ -148,30 +148,6 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Yolk Recruitment Ltd - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-2057385
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Officer
-company: Robert Half - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-2035891
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Financial Controller
 company: Yolk Recruitment Ltd - Agency - Permanent
 location: Cardiff
@@ -282,11 +258,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Receivable Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: South Glamorgan
+title: Office Administrator
+company: Hays Business Support - Agency - Temporary
+location: Barry
 source: JobG8
-job_id: jobg8-2067478
+job_id: jobg8-23643_225765300
 reason: No approved Cardiff catchment rule matched; local review required.
 ---
 

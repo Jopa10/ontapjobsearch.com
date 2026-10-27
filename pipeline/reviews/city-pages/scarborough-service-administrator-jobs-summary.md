@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 61
+- automatic review: 55
 - automatic exclude: 0
 - effective include: 3
-- effective review: 61
+- effective review: 55
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-send-administrator-george-pindar-school-scarborough
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (61)
+## REVIEW (55)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Search Consultancy Ltd - Agency - Contract
 location: York
 source: JobG8
 job_id: jobg8-23643_225718615
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Travail Employment Group - Agency - Temporary
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225702451
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -176,33 +164,9 @@ decision: review
 automatic_decision: review
 title: Clinical Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Northallerton, DL6 2FG
-source: NHS Jobs
-job_id: nhs-5655930
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Selby, YO8 9BX
 source: NHS Jobs
 job_id: nhs-5669774
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial & Residential Property Legal Secretary
-company: Search Consultancy Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225656965
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -330,18 +294,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-23643_225657349
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Data Administrator
 company: St John Fisher Catholic Academy
 location: Harrogate
@@ -443,18 +395,6 @@ company: Technical Prospects - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2089709
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Partnership Executive
-company: Matchtech - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225658052
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -599,18 +539,6 @@ company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
 job_id: jobg8-23643_225746940
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Assistant
-company: Travail Employment Group - Agency - Temporary
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225698949
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

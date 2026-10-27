@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 74
+- automatic include: 9
+- automatic review: 75
 - automatic exclude: 0
-- effective include: 8
-- effective review: 74
+- effective include: 9
+- effective review: 75
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -120,7 +120,19 @@ job_id: jobg8-23643_225660760
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (74)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Project Coordinator - Full time
+company: CMD Recruitment - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-23643_225765891
+reason: Exact approved Bath workplace.
+---
+
+## REVIEW (75)
 
 ---
 action: 
@@ -203,18 +215,6 @@ company: MSRec Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225663930
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Sirona care & health CIC
-location: Bristol, BS13 8QA
-source: NHS Jobs
-job_id: nhs-5656080
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -702,6 +702,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Marketing and Creative Lead
+company: HFT - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2158290
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Administrator
 company: The Old School Surgery
 location: Bristol, BS16 1QY
@@ -1007,6 +1019,18 @@ company: Devon Partnership NHS Trust
 location: Bristol, BS2 9RU
 source: NHS Jobs
 job_id: nhs-5636801
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2182621
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

@@ -90,6 +90,18 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: AMB Recruitment Group - Agency - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-23643_225752911
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: Acorn by Synergie - Agency - Contract
 location: Crewe
@@ -191,18 +203,6 @@ company: Work Lyf Group Ltd - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225564622
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-Time Payroll Assistant
-company: Adele Carr Recruitment Limited - Agency - Permanent
-location: Wilmslow
-source: JobG8
-job_id: jobg8-2039760
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

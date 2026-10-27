@@ -16,13 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 83
-- automatic review: 37
-- automatic exclude: 49
+- automatic review: 34
+- automatic exclude: 50
 - effective include: 83
-- effective review: 37
-- effective exclude: 49
+- effective review: 34
+- effective exclude: 50
 
 ## INCLUDE (83)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Castle Employment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225758291
+reason: Approved Leeds catchment.
+---
 
 ---
 action: 
@@ -33,18 +45,6 @@ company: Lucy Walker Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225678109
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Leeds Teaching Hospitals
-location: Leeds, LS9 7TF
-source: NHS Jobs
-job_id: nhs-5637209
 reason: Approved Leeds catchment.
 ---
 
@@ -153,6 +153,18 @@ company: Prospero Group - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225751607
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Care Navigator/ Medical Receptionist
+company: South Queen Street Medical Centre
+location: Leeds, LS27 9EW
+source: NHS Jobs
+job_id: nhs-5686373
 reason: Approved Leeds catchment.
 ---
 
@@ -285,6 +297,18 @@ company: Michael Page - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225684006
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Sales Administrator
+company: Headway Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225764645
 reason: Approved Leeds catchment.
 ---
 
@@ -557,18 +581,6 @@ action:
 decision: include
 automatic_decision: include
 title: HR Coordinator
-company: Ashley Kate HR & Finance - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225710184
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Coordinator
 company: Hays Business Support - Agency - Permanent
 location: Leeds
 source: JobG8
@@ -585,18 +597,6 @@ company: Only FE - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225727868
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Insurance Administrator
-company: Get-Recruited (UK) Ltd - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225655460
 reason: Approved Leeds catchment.
 ---
 
@@ -740,7 +740,7 @@ title: Paralegal - Real Estate & Projects - Hybrid working
 company: CRA Consulting - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2042757
+job_id: jobg8-2184383
 reason: Approved Leeds catchment.
 ---
 
@@ -772,6 +772,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Administrator
+company: Search Consultancy Ltd - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225765129
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Leeds
@@ -789,18 +801,6 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2087152
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Officer
-company: Hawk 3 Talent Solutions - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225657571
 reason: Approved Leeds catchment.
 ---
 
@@ -1020,7 +1020,7 @@ job_id: jobg8-23643_225665719
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (37)
+## REVIEW (34)
 
 ---
 action: 
@@ -1290,18 +1290,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Assistant Asda Money & Mobile
-company: ASDA - Company - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2163776
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Executive
 company: pyramid8 - Agency - Permanent
 location: Yorkshire
@@ -1343,18 +1331,6 @@ company: CRA Consulting - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2075306
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Coordinator
-company: Lucy Walker Recruitment - Agency - Temporary
-location: Castleford
-source: JobG8
-job_id: jobg8-23643_225738529
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -1446,18 +1422,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Sales Consultant
-company: Cowell Recruitment - Agency - Permanent
-location: Brighouse
-source: JobG8
-job_id: jobg8-23643_225555461
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Trust HR Administrator
 company: Moorlands Learning Trust
 location: Ilkley
@@ -1466,7 +1430,7 @@ job_id: teaching-vacancies-trust-hr-administrator-moorlands-learning-trust
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (49)
+## EXCLUDE (50)
 
 ---
 action: 
@@ -1645,18 +1609,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225720892
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor - Bradford
-company: Optimise Talent Ltd - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225750896
 reason: Separate employment market.
 ---
 
@@ -1868,6 +1820,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Operations Administrator
+company: Randstad Inhouse Services - Agency - Temporary
+location: Wakefield
+source: JobG8
+job_id: jobg8-23643_225766300
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Outbound Sales Executive
 company: Snowflake Media Ltd - Agency - Permanent
 location: Halifax
@@ -1969,6 +1933,18 @@ company: Stainland Road Medical Centre
 location: Halifax, HX4 8BD
 source: NHS Jobs
 job_id: nhs-5681414
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales and Customer Support Assistant
+company: Lucy Walker Recruitment - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225760536
 reason: Separate employment market.
 ---
 

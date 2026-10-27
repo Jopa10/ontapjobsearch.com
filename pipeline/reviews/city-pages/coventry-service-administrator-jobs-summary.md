@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 22
-- automatic review: 5
-- automatic exclude: 79
+- automatic review: 4
+- automatic exclude: 80
 - effective include: 22
-- effective review: 5
-- effective exclude: 79
+- effective review: 4
+- effective exclude: 80
 
 ## INCLUDE (22)
 
@@ -288,7 +288,7 @@ job_id: jobg8-23643_225744797
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -338,31 +338,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-2-days-per-week
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Temp Administrator
-company: Brellis Recruitment - Agency - Permanent
-location: Southam
-source: JobG8
-job_id: jobg8-23643_225656636
-reason: No approved Coventry catchment rule matched; local review required.
----
-
-## EXCLUDE (79)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Account Handler, New Business Support administrator
-company: Smile Digital - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225654935
-reason: Separate employment market.
----
+## EXCLUDE (80)
 
 ---
 action: 
@@ -560,11 +536,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Billing Operations Administrator
+company: Manpower - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2190372
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Business Administrator
 company: Genesis Employment Services Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225744303
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Cash Allocation Administrator
+company: Manpower - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2190385
 reason: Separate employment market.
 ---
 
@@ -692,6 +692,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Events Administrator
+company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-23643_225765982
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Rugby
@@ -721,18 +733,6 @@ company: SF Partners - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225660466
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: The Caraires Consultancy - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225658597
 reason: Separate employment market.
 ---
 
@@ -1280,11 +1280,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Ward Administrator
-company: George Eliot Hospital NHS Trust
-location: Nuneaton, CV10 7DJ
-source: NHS Jobs
-job_id: nhs-5679192
+title: Temporary CRM Assistant
+company: Triumph - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225746288
 reason: Separate employment market.
 ---
 

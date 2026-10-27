@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 12
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 0
-- effective review: 12
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Belfast
 source: JobG8
 job_id: jobg8-23643_225666942
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Brook Street - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225761514
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -166,7 +154,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2181807
+job_id: jobg8-2182618
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

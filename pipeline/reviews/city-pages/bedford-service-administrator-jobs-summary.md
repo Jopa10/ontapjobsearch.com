@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 30
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 5
-- effective review: 30
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,19 @@ job_id: jobg8-23643_225673265
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (31)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Hello Recruitment Associates - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-23643_225759015
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -107,6 +119,18 @@ company: Lancot School
 location: Dunstable
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-receptionist-c822ff8b-c75d-4a91-a4a3-0b0ba42c70f9
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: NHS Central East ICB
+location: Chicksands, Shefford, Bedfordshire, SG17 5TQ
+source: NHS Jobs
+job_id: nhs-5685802
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -198,30 +222,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
-company: Response Personnel - Agency - Permanent
-location: Sandy
-source: JobG8
-job_id: jobg8-2036003
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Response Personnel Ltd - Agency - Contract
-location: Sandy
-source: JobG8
-job_id: jobg8-23643_225656389
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Michael Page - Agency - Permanent
 location: Bedfordshire
@@ -251,6 +251,18 @@ company: Think Specialist Recruitment - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-23643_225761491
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor / Administrator
+company: Colbern Limited - Agency - Contract
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225745587
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

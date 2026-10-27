@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 32
+- automatic include: 14
+- automatic review: 28
 - automatic exclude: 0
-- effective include: 16
-- effective review: 32
+- effective include: 14
+- effective review: 28
 - effective exclude: 0
 
-## INCLUDE (16)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Analyst
-company: Quality Start - Agency - Contract
-location: Swindon
-source: JobG8
-job_id: jobg8-23643_225509639
-reason: Exact approved Swindon workplace.
----
+## INCLUDE (14)
 
 ---
 action: 
@@ -196,18 +184,6 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist / Administrator
-company: https://www.parklanepracticeswindon.nhs.uk/
-location: Swindon, SN1 5HG, Swindon, SN1 5HG, Swindon, SN5 8SX
-source: NHS Jobs
-job_id: nhs-5672714
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sixth Form Admin Assistant
 company: Great Western Academy
 location: Swindon
@@ -216,7 +192,7 @@ job_id: teaching-vacancies-sixth-form-admin-assistant-great-western-academy-swin
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (28)
 
 ---
 action: 
@@ -299,18 +275,6 @@ company: Tru Talent - Agency - Permanent
 location: Westbury
 source: JobG8
 job_id: jobg8-23643_225750752
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller - Accounts Receivable
-company: ISQ Recruitment - Agency - Permanent
-location: Westbury
-source: JobG8
-job_id: jobg8-23643_225750520
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -486,30 +450,6 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Sales Ledger Assistant
-company: Pertemps Reading - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225723594
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Secretary (full or part-time)
-company: Thrive Group - Agency - Permanent
-location: Trowbridge
-source: JobG8
-job_id: jobg8-23643_225738689
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Secretary (part-time)
 company: Thrive Group - Agency - Permanent
 location: Melksham
@@ -575,18 +515,6 @@ company: Exponential-e - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-2068542
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator
-company: Manucomm Recruitment Ltd - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225656421
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

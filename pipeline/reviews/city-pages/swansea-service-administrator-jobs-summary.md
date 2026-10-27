@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 4
+- automatic review: 5
 - automatic exclude: 0
 - effective include: 6
-- effective review: 4
+- effective review: 5
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225668604
 reason: Exact approved Swansea workplace.
 ---
 
-## REVIEW (4)
+## REVIEW (5)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: Exponential-e - Agency - Permanent
 location: Bridgend
 source: JobG8
 job_id: jobg8-23643_225514692
+reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Hays Business Support - Agency - Temporary
+location: Bridgend
+source: JobG8
+job_id: jobg8-23643_225765532
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

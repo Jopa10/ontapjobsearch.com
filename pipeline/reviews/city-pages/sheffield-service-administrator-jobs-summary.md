@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 12
-- automatic exclude: 27
-- effective include: 25
-- effective review: 12
-- effective exclude: 27
+- automatic include: 27
+- automatic review: 13
+- automatic exclude: 28
+- effective include: 27
+- effective review: 13
+- effective exclude: 28
 
-## INCLUDE (25)
+## INCLUDE (27)
 
 ---
 action: 
@@ -64,11 +64,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2SF
+title: Clinical Administrator
+company: Sheffield Health Partnership University NHS Foundation Trust
+location: Sheffield, S2 2BT
 source: NHS Jobs
-job_id: nhs-5674866
+job_id: nhs-5687642
 reason: Approved Sheffield catchment.
 ---
 
@@ -81,6 +81,18 @@ company: Ford & Stanley Talentwise - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225748912
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Sales Administrator
+company: Big Fish Little Fish - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225765151
 reason: Approved Sheffield catchment.
 ---
 
@@ -148,35 +160,23 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Insolvency Administrator
+company: ECS RECRUITMENT LIMITED - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225631448
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Marketing Co-ordinator
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225731215
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing Communications Manager
-company: Michael Page - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225668884
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: Norwood Medical Centre
-location: Sheffield, S5 7HD
-source: NHS Jobs
-job_id: nhs-5630483
 reason: Approved Sheffield catchment.
 ---
 
@@ -256,6 +256,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Reception Administrator
+company: STEPS Rehabilitation
+location: Sheffield, S7 2QA
+source: NHS Jobs
+job_id: nhs-5686823
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Westfield School
 location: Sheffield
@@ -285,6 +297,18 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administrator
+company: STEPS Rehabilitation
+location: Sheffield, S7 2QA
+source: NHS Jobs
+job_id: nhs-5687012
 reason: Approved Sheffield catchment.
 ---
 
@@ -324,7 +348,7 @@ job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-scho
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (13)
 
 ---
 action: 
@@ -438,6 +462,18 @@ reason: No approved Sheffield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225760034
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Officer
 company: Portfolio Payroll Limited - Agency - Contract
 location: Yorkshire
@@ -470,19 +506,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Gooseacre Primary Academy
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-d66559f6-ab8e-4349-b8d0-10f235e89384
-reason: Separate employment market.
----
+## EXCLUDE (28)
 
 ---
 action: 
@@ -621,6 +645,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: HR Assistant
+company: Chesterfield Poultry - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225749496
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Assistant
 company: Talent-UK Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -745,6 +781,18 @@ company: Willow Tree Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Administrator
+company: Broom Lane Medical Centre
+location: Rotherham, S60 3EW, Rotherham, S61 3QH
+source: NHS Jobs
+job_id: nhs-5686077
 reason: Separate employment market.
 ---
 

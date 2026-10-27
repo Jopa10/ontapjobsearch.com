@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 33
+- automatic include: 8
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 7
-- effective review: 33
+- effective include: 8
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -76,11 +76,11 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Herefordshire and Worcestershire Health and Care NHS Trust
-location: Worcester, WR1 1AE
-source: NHS Jobs
-job_id: nhs-5656799
+title: Digital Marketing Coordinator
+company: Henderson Brown Recruitment - Agency - Permanent
+location: Worcester
+source: JobG8
+job_id: jobg8-23643_225669131
 reason: Exact approved Worcester workplace.
 ---
 
@@ -88,11 +88,23 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Digital Marketing Coordinator
-company: Henderson Brown Recruitment - Agency - Permanent
-location: Worcester
-source: JobG8
-job_id: jobg8-23643_225669131
+title: Medical Receptionist
+company: St Johns House Medical Centre
+location: Worcester, WR2 5FB
+source: NHS Jobs
+job_id: nhs-5659638
+reason: Exact approved Worcester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist / Care navigator
+company: Albany House Surgery
+location: Worcester, WR1 3DU
+source: NHS Jobs
+job_id: nhs-5627975
 reason: Exact approved Worcester workplace.
 ---
 
@@ -108,7 +120,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (35)
 
 ---
 action: 
@@ -203,6 +215,18 @@ company: CY Executive Resourcing - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225663805
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin / Business Support Officer
+company: Colbern Limited - Agency - Contract
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225663468
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -402,6 +426,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Imports Coordinator
+company: Adecco - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225765523
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Junior Finance Assistant
 company: Four Squared Recruitment Ltd - Agency - Temporary
 location: Redditch
@@ -450,6 +486,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Project Coordinator
+company: Lucy Walker Recruitment - Agency - Temporary
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225764931
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist Administrator
 company: Crabbs Cross Medical Centre
 location: Redditch, B97 5JX
@@ -467,18 +515,6 @@ company: Jonathan Lee Recruitment Ltd - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225730839
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Ledger Clerk
-company: Four Squared Recruitment Ltd - Agency - Permanent
-location: Redditch
-source: JobG8
-job_id: jobg8-23643_225658142
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 42
+- automatic review: 44
 - automatic exclude: 0
 - effective include: 4
-- effective review: 42
+- effective review: 44
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5664251
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (44)
 
 ---
 action: 
@@ -498,6 +498,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Three Villages Medical Practice
+location: Stourbridge, DY8 4JB
+source: NHS Jobs
+job_id: nhs-5685740
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Administrator
 company: Concept Recruitment Group Ltd - Agency - Temporary
 location: Kingswinford
@@ -527,6 +539,18 @@ company: Pertemps Black Country Perms - Agency - Permanent
 location: Halesowen
 source: JobG8
 job_id: jobg8-23643_225698996
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Pertemps Black Country Perms - Agency - Permanent
+location: West Bromwich
+source: JobG8
+job_id: jobg8-23643_225765372
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 

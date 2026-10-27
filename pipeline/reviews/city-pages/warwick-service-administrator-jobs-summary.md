@@ -186,18 +186,6 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: review
 automatic_decision: review
-title: Account Handler, New Business Support administrator
-company: Smile Digital - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225654935
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Administrator
 company: Transaction Recruitment - Agency - Permanent
 location: Warwickshire
@@ -390,6 +378,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Billing Operations Administrator
+company: Manpower - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2190372
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bookkeeper
 company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Coventry
@@ -407,6 +407,18 @@ company: Genesis Employment Services Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225744303
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Cash Allocation Administrator
+company: Manpower - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2190385
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -498,6 +510,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Events Administrator
+company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-23643_225765982
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: EXAMS OFFICER, BARR’S HILL SCHOOL
 company: Barr's Hill School
 location: Coventry
@@ -551,18 +575,6 @@ company: SF Partners - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225660466
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: The Caraires Consultancy - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225658597
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1266,23 +1278,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Temp Administrator
-company: Brellis Recruitment - Agency - Permanent
-location: Southam
+title: Temporary CRM Assistant
+company: Triumph - Agency - Temporary
+location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225656636
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Administrator
-company: George Eliot Hospital NHS Trust
-location: Nuneaton, CV10 7DJ
-source: NHS Jobs
-job_id: nhs-5679192
+job_id: jobg8-23643_225746288
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

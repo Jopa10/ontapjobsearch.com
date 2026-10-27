@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 2
+- automatic include: 15
+- automatic review: 3
 - automatic exclude: 0
-- effective include: 14
-- effective review: 2
+- effective include: 15
+- effective review: 3
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -136,6 +136,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Procurement Assistant
+company: Robert Half - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2188567
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Site Administrator
 company: Boyd Recruitment - Agency - Contract
 location: Edinburgh
@@ -192,7 +204,7 @@ job_id: jobg8-23643_225708327
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (3)
 
 ---
 action: 
@@ -203,6 +215,18 @@ company: The Channel Recruiter - Agency - Permanent
 location: Livingston
 source: JobG8
 job_id: jobg8-23643_225728259
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Lab Administrator
+company: Stem Recruitment - Agency - Temporary
+location: Penicuik
+source: JobG8
+job_id: jobg8-23643_225766505
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

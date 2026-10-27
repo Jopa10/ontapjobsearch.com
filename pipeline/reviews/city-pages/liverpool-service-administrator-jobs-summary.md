@@ -256,18 +256,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Operations & Social Media Coordinator
-company: ADAPTABLE RECRUITMENT LTD - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-108210425
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Operations Administrator
 company: Stafforce Ports - Agency - Permanent
 location: Liverpool
@@ -285,6 +273,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225719250
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Admin
+company: Portfolio Payroll Limited - Agency - Temporary
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225760831
 reason: Approved conservative Liverpool launch catchment.
 ---
 

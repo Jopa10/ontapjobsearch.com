@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 6
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 7
+- effective include: 6
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Bookkeeper
-company: Brook Street - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225761514
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Assistant
 company: Hays Accounts and Finance - Agency - Permanent
 location: Belfast
@@ -104,7 +92,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2181807
+job_id: jobg8-2182618
 reason: Approved conservative Belfast launch catchment.
 ---
 

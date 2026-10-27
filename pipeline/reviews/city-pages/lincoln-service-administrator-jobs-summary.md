@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 9
+- automatic include: 19
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 23
-- effective review: 9
+- effective include: 19
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (19)
 
 ---
 action: 
@@ -46,18 +46,6 @@ location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225715193
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Clerk
-company: Blusource Professional Services Ltd - Agency - Temporary
-location: Lincoln
-source: JobG8
-job_id: jobg8-23643_225728373
-reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -93,18 +81,6 @@ company: Scout Recruiting LTD - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225745727
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bookkeeper - Practice
-company: Butler Rose - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2060743
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -184,35 +160,11 @@ reason: Exact approved Lincoln workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Operational Administrator
-company: Magnus Search - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225655530
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part Time Administrator
 company: Integrity Plus Ltd - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225702694
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Clerk & Accounts Assistant
-company: Manpower - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2040169
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -300,7 +252,7 @@ job_id: jobg8-23643_225696261
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -383,6 +335,18 @@ company: University Academy Long Sutton
 location: Spalding
 source: Teaching Vacancies
 job_id: teaching-vacancies-pupil-receptionist-administrator-d44ce344-7740-41cd-9180-1240273f0189
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Clee Medical Centre
+location: Cleethorpes, DN35 7XE, GRIMSBY, DN31 2BH, Grimsby, DN31 3AE, CLEETHORPES, DN35 0LN
+source: NHS Jobs
+job_id: nhs-5686851
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

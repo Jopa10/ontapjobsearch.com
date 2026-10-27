@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 53
+- automatic review: 55
 - automatic exclude: 0
 - effective include: 8
-- effective review: 53
+- effective review: 55
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: teaching-vacancies-student-funding-administrator-maternity-cover
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (55)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: Hays Business Support - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225662041
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Office Angels - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225764800
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -306,11 +318,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Customer Care Coordinator
-company: Fawkes & Reece London - Agency - Permanent
+title: Customer Care Administrator
+company: Fawkes & Reece London - Agency - Contract
 location: Devon
 source: JobG8
-job_id: jobg8-23643_225690244
+job_id: jobg8-23643_225765566
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -318,11 +330,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Motofix Accident Repair Centres - Agency - Permanent
+title: Customer Care Coordinator
+company: Fawkes & Reece London - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-23643_225726466
+job_id: jobg8-23643_225690244
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -414,18 +426,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant 12 month Maternity cover
-company: Hays Business Support - Agency - Temporary
-location: Barnstaple
-source: JobG8
-job_id: jobg8-23643_225732426
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Coordinator
 company: Pertemps Plymouth - Agency - Permanent
 location: Devon
@@ -467,6 +467,30 @@ company: Hays Senior Finance - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225747771
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant
+company: eNL Legal Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2184248
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant (Law Graduate Opportunity)
+company: Lockhart Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225766926
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -527,6 +551,18 @@ company: Office Angels - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225664276
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Receptionist
+company: Lockhart Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225766933
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -714,11 +750,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Technical Administrator
-company: Manucomm Recruitment Ltd - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225656433
+title: Team Administrator
+company: Devon Partnership NHS Trust
+location: BARNSTAPLE, EX31 4JB
+source: NHS Jobs
+job_id: nhs-5686114
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -743,18 +779,6 @@ company: Hamilton Woods - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225699564
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Work Coordinator
-company: Liberty Gas Group - Company - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225677264
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

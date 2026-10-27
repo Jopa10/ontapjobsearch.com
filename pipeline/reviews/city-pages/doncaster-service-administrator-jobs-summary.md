@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 12
-- automatic exclude: 37
-- effective include: 15
-- effective review: 12
-- effective exclude: 37
+- automatic include: 16
+- automatic review: 13
+- automatic exclude: 39
+- effective include: 16
+- effective review: 13
+- effective exclude: 39
 
-## INCLUDE (15)
+## INCLUDE (16)
 
 ---
 action: 
@@ -105,6 +105,18 @@ company: Carrington West - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225726094
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Assistant
+company: Chesterfield Poultry - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225749496
 reason: Approved Doncaster catchment.
 ---
 
@@ -204,7 +216,7 @@ job_id: jobg8-23643_225747598
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (13)
 
 ---
 action: 
@@ -318,6 +330,18 @@ reason: No approved Doncaster catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225760034
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Officer
 company: Portfolio Payroll Limited - Agency - Contract
 location: Yorkshire
@@ -350,7 +374,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (39)
 
 ---
 action: 
@@ -361,18 +385,6 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Gooseacre Primary Academy
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-d66559f6-ab8e-4349-b8d0-10f235e89384
 reason: Separate employment market.
 ---
 
@@ -440,11 +452,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2SF
+title: Clinical Administrator
+company: Sheffield Health Partnership University NHS Foundation Trust
+location: Sheffield, S2 2BT
 source: NHS Jobs
-job_id: nhs-5674866
+job_id: nhs-5687642
 reason: Separate employment market.
 ---
 
@@ -457,6 +469,18 @@ company: Ford & Stanley Talentwise - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225748912
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Sales Administrator
+company: Big Fish Little Fish - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225765151
 reason: Separate employment market.
 ---
 
@@ -536,35 +560,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Insolvency Administrator
+company: ECS RECRUITMENT LIMITED - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225631448
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Co-ordinator
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225731215
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Communications Manager
-company: Michael Page - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225668884
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Norwood Medical Centre
-location: Sheffield, S5 7HD
-source: NHS Jobs
-job_id: nhs-5630483
 reason: Separate employment market.
 ---
 
@@ -668,6 +680,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Reception Administrator
+company: STEPS Rehabilitation
+location: Sheffield, S7 2QA
+source: NHS Jobs
+job_id: nhs-5686823
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist
 company: Hollygreen Practice
 location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
@@ -704,6 +728,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist/Administrator
+company: Broom Lane Medical Centre
+location: Rotherham, S60 3EW, Rotherham, S61 3QH
+source: NHS Jobs
+job_id: nhs-5686077
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: School Admin Assistant
 company: Anston Park Infant School
 location: Sheffield
@@ -721,6 +757,18 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Administrator
+company: STEPS Rehabilitation
+location: Sheffield, S7 2QA
+source: NHS Jobs
+job_id: nhs-5687012
 reason: Separate employment market.
 ---
 

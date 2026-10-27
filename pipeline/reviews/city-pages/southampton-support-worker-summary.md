@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 0
 - automatic review: 5
-- automatic exclude: 5
+- automatic exclude: 6
 - effective include: 0
 - effective review: 5
-- effective exclude: 5
+- effective exclude: 6
 
 ## INCLUDE (0)
 
@@ -86,7 +86,19 @@ job_id: jobg8-1401786037
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (6)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Assistant
+company: Hampshire County Council - Company - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-1401786107
+reason: Separate employment market.
+---
 
 ---
 action: 
