@@ -12,6 +12,9 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 27 October 2026 — **City routes cannot hide LIVE configured regional inventory:** `configured-job-slices.ts` treats a static route as the established regional data owner only when its adjacent slice JSON also exists. A derived city page sharing a region/category slug therefore no longer suppresses the configured regional route or canonical job/search inventory. The 50k approval reconciliation exposed 23 Glasgow admin jobs omitted by the previous test, including an already approved Call Centre Advisor. No LIVE register, selection rule or existing URL is changed. Regression coverage preserves established static data ownership, empty-slice withholding and inactive-slice exclusion. The fix remains on the unmerged expanded-feed branch pending final preview verification.
+
+
 - 27 October 2026 — **North East approvals have editable source blocks:** review grouping now applies the same detailed-region-to-North-East rollup as output composition, while retaining the original location in each summary. County Durham and Tyneside possibilities previously appeared in CSV/master review without editable Markdown blocks; the captured 50k snapshot had seven omissions and one unapplied selection. Focused tests cover both regions, unique block generation and approval preservation; the existing missing-block isolation test proves other clean actions remain publishable. This fix is unmerged. The isolated trial attempts the clean-output build before reporting any missing approved job as a failed test, and retains its snapshot on failure.
 
 
