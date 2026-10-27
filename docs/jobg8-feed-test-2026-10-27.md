@@ -32,3 +32,6 @@ Converted workbook: checkout pipeline/input/jobg8.xlsx.
 - Save further results on this branch. Do not switch the production feed without owner approval.
 
 Raw feed URLs/credentials must not be committed. No production readiness conclusion yet.
+
+## Quota checkpoint
+Owner reported 10% remaining. No further stages started. The isolated 50k selector was still actively consuming CPU (over 310 seconds CPU recorded), with no flushed log output or confirmed completion. An interrupt was requested to stop this isolated run at the checkpoint. Treat selection outputs as incomplete and unverified. No selected-count or capacity claim can be made. Resume by checking the log/process, then rerun selection with unbuffered logging and explicit elapsed-time capture. The smaller staged runs have NOT yet run. Raw download/workbook are local scratch and may need re-downloading if the workspace expires; credentials remain only in owner-provided screenshot. All confirmed findings above are durable on this GitHub branch. Production remains untouched.
