@@ -1107,7 +1107,7 @@ def extract_salary_from_description(raw_description: Any) -> str:
     # unrelated bare numbers and pH measurements are not salary evidence.
     if "£" not in text:
         unmarked_hourly = re.search(
-            r"(?<![\w£])(?P<rate>\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)\s*(?:ph|PH|p/h|P/H)\b",
+            r"(?<![\w£])(?P<rate>\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)\s*(?:ph|PH)\b",
             text,
         )
         if not unmarked_hourly:
