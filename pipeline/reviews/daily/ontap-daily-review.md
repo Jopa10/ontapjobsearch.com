@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-10-27
-generated_at: 2026-10-27T13:29:03+00:00
+generated_at: 2026-10-27T18:22:23+00:00
 
-**85 job(s) await a human decision; 2 already answered (87 review rows).**
+**89 job(s) await a human decision; 2 already answered (91 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-10-27 | 19 | — |
+| JobG8 | OK | 2026-10-27 | 23 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-10-27 | 0 | — |
 | Teaching Vacancies | OK | 2026-10-27 | 68 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 19 to review
+## JobG8 — 23 to review
 
 ---
 action:
@@ -87,6 +87,42 @@ hub_fingerprint: 8f3c23d539896b993fd433b8421f1a6d085d0e998f444c034cf9643f4c496e0
 
 ---
 action:
+POSS | JobG8 | Hampshire | Andover | £28697 - £31573 per year | Children's Home Support Worker
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 1401785886
+title: Children's Home Support Worker
+employer: 
+location: Andover
+region: Hampshire
+salary: £28697 - £31573 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 08c02bef280d28ae26a81f1b66395cd185858c3871da3fea368dd21909ac52c4
+---
+
+---
+action:
+POSS | JobG8 | Hampshire | Havant | £34273 - £37570 per year | Support Worker (Out of Hours)
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 1401785879
+title: Support Worker (Out of Hours)
+employer: 
+location: Havant
+region: Hampshire
+salary: £34273 - £37570 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 88d6b43c6ddc8aaaf796ae4363cd99c407f41f6ca42ddf754034433948e5a7d5
+---
+
+---
+action:
 POSS | JobG8 | Hertfordshire | Hertfordshire | £130 - £180 per daily | Ophthalmology Administrator
 source_key: jobg8
 source: JobG8
@@ -123,6 +159,24 @@ hub_fingerprint: 3ee4d2a417580ff58fbaa42f23839c25dd3bc994fa570c41cb577a40a507c87
 
 ---
 action:
+POSS | JobG8 | Kent | Kent | £25000 - £38000 per year | Exhibition Logistics & Sales Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225766642
+title: Exhibition Logistics & Sales Coordinator
+employer: 
+location: Kent
+region: Kent
+salary: £25000 - £38000 per year
+closing_date: 
+reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £38,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 9d35d77d47ad42c9e855dc421952ba717d06cd09b206f7a396ab0245bbbf08f6
+---
+
+---
+action:
 POSS | JobG8 | Kent | Kent | — | Purchase Ledger Clerk
 source_key: jobg8
 source: JobG8
@@ -155,24 +209,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: service coordinator; manual review required: annualised upper salary £42,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: d7e3c34239253d16f85c588afc09a248ace05bd49d640c6c570cdd5a6267b283
----
-
----
-action:
-POSS | JobG8 | London | London | — | HR Systems Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2190074
-title: HR Systems Manager
-employer: 
-location: London
-region: London
-salary: 
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url: 
-hub_fingerprint: 3ef1466cb3d99c2742ef6195cf7ab2668ae90bfa0c58c8f6cf8e9ef4e50035f9
 ---
 
 ---
@@ -371,6 +407,42 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
 source_url: 
 hub_fingerprint: 4d05f06cabe02391a8c8a5d14408214c708a58277fa36fcd6f8ae12b7465d023
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - West | Leeds | £38000 - £40000 per year | Service Department Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225767311
+title: Service Department Coordinator
+employer: 
+location: Leeds
+region: Yorkshire - West
+salary: £38000 - £40000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - Owner-reviewed advert confirms customer-facing service administration; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 8e96d0bb6d2f63c7490ce9179abcbad9d797898e0d92cf82387073d835b974b6
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - West | Leeds | £38000 - £40000 per year | Service Scheduler
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225767345
+title: Service Scheduler
+employer: 
+location: Leeds
+region: Yorkshire - West
+salary: £38000 - £40000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: scheduler; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 277385d4a9c1a816a1edcc33fac81590891100fd97678affd1cadaa5ec5af834
 ---
 
 ## VONNE — 0 to review
