@@ -2,15 +2,39 @@
 
 review_date: 2026-10-27
 
-- Open Administrative & Clerical rows reviewed: 2100
+- Open Administrative & Clerical rows reviewed: 2101
 - Auto/remembered selected: 391
 - Selected HC Tier A: 199
 - Selected HC Tier B: 192
-- POSS awaiting decision: 1618
+- POSS awaiting decision: 1619
 - Excluded: 0
 - HARD_PASS: 91
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Somerset | Wiveliscombe, TA4 2BF, TAUNTON, TA21 8BD | £13.50 | PCN Administrator Care Co-ordinator
+source_job_id: 5688236
+title: PCN Administrator Care Co-ordinator
+employer: Taunton Deane West Primary Care Network
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0068-26-0016
+factual_fingerprint: de946343970ebb6fe7696816f25505d9b437b86c1861f5b54abde3cc04632613
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Wiveliscombe, TA4 2BF, TAUNTON, TA21 8BD | £13.50 | PCN Administration Care Co-ordinator
+source_job_id: 5687602
+title: PCN Administration Care Co-ordinator
+employer: Taunton Deane West Primary Care Network
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0068-26-0012
+factual_fingerprint: adeede021e25cd0b13850d58f0053f5a3f532368bd4aa8b6eaaf32df59033276
+---
 
 ---
 action:
@@ -969,7 +993,7 @@ employer: Surrey and Borders Partnership NHS Foundation Trust
 region: Surrey
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9325-26-0838
-factual_fingerprint: 890f0a33e50abdf4ff4575dd73ad8cfe6ef7f6334c20354e2a75fb14fdc114e3
+factual_fingerprint: 5ef4c3ad4917dc0772713edd37cbb7afe8d680a5b4d5f2202e95f218a177185c
 ---
 
 ---
@@ -5481,7 +5505,7 @@ employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2170
-factual_fingerprint: ba82d723475f4ceac766884af0f4a7223b51653d4e6f1dd0bba3f66f317ca41b
+factual_fingerprint: 413ecf45847ec806e8cde3b9298b5b884b7f8bbb7258fc69db21948538b10c31
 ---
 
 ---
@@ -11950,18 +11974,6 @@ region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0789
 factual_fingerprint: 97ccb65e5ee0b8c5edafbcfee9d2d8039bcbbf7d00f64c099edfb6f245ccfc61
----
-
----
-action:
-POSS | NHS Jobs | — | Tooting, SW17 0QT | £31554.00 to £33270.00 | Supply Chain Officer
-source_job_id: 5668707
-title: Supply Chain Officer
-employer: St George's University Hospitals NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-0940
-factual_fingerprint: 47f4cd382d1bf6644f93fd6a75d7d16802da128441495f8b9de165ff1d3a68cf
 ---
 
 ---
