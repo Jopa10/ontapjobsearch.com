@@ -2,6 +2,25 @@
 
 Prepared on 27 October. This is a one-off release/handover record, not a new workflow or authorization to change production. No merge, supplier switch or production publish was performed while preparing it.
 
+## Owner-confirmed scope — takes precedence over the later release section
+
+**Leave the live 20k feed and its normal schedules alone. Run a separate second-day 50k test only when John explicitly says to start.** The 10am chat is a handover/check-in, not an automatic trigger. It does not authorize merging PR #332, changing the production feed/secret, publishing test inventory or deploying production.
+
+Verified after this instruction: main still has `--expected-max 20000`, with 07:30/15:30 schedules; PR #332 remains open and unmerged; the isolated test workflow has no schedule and triggers only on matching changes pushed to its explicit test branch.
+
+### Second-day test procedure
+
+1. Inspect the normal 20k run and live site, without changing or restarting them.
+2. Await John's explicit start instruction for the separate 50k second-day test.
+3. Obtain a genuinely fresh 28 October supplier test feed using the approved separate test account/connection. Record its date, timestamp, row count and hash. Do not reuse the 27 October captured fixture and call it a second-day test.
+4. Adapt the isolated test harness's date-pinned fixture/review assertions to the fresh input. Its existing fixture and assertions are explicitly dated 27 October. Preserve saved decisions with their normal matching/validation; do not carry changed-job approvals blindly.
+5. Keep all test outputs, review state and workflow concurrency separate from main/production. Include the final city/regional inventory fix from source head `ec47ea496fcb896d8c50ad349f05c5cec6816d24`; the old Actions test branch predates that last fix, so its previous success alone is not proof the fresh trial uses the final code.
+6. Run the fresh test through GitHub Actions and save the run link. Test processing, review/selection reconciliation, job-level quarantine, build, preview packaging and live preview routes/search as appropriate. Do not repeat the 27 October investigation or reinstall an obsolete snapshot.
+7. Compare the fresh results with the dated trial evidence, explaining inventory/review changes. Keep clean paying jobs unaffected by isolated bad jobs. Report completion and limits clearly.
+8. If approved fresh test input cannot be accessed, identify that missing input rather than silently using yesterday's fixture, requesting secrets in chat or changing the live secret.
+
+The normal production completed-cycle guard does **not** prevent a correctly isolated second-day test at 10am. The 15:30 timing discussion below applies only to a later, separately authorized live feed ingest/release. Do not relabel or reset a production cycle to run the isolated test.
+
 ## Evidence to read first
 
 - [Source PR #332](https://github.com/Jopa10/ontapjobsearch.com/pull/332), tested head `ec47ea496fcb896d8c50ad349f05c5cec6816d24`.
@@ -21,7 +40,7 @@ These are dated trial results, not promises of tomorrow's exact counts. Test acc
 3. Capture a fresh baseline: deployed SHA/deployment ID, feed date/raw rows/unique IDs, canonical total and JobG8/NHS/Teaching Vacancies counts from the deployed snapshot, unanswered review counts by source, stale sources, current function size and the morning run URLs. Do not substitute the trial's 6,039/5,477 figures for this baseline.
 4. Confirm the production supplier arrangement: expansion of the existing live URL/account versus an approved replacement URL, and the supplier's route back to 20k. No credentials in chat, logs or commits. Do not put the separate test account into production without explicit approval.
 5. Confirm source PR changes are still the tested code plus any explicitly reviewed differences. Merge only the source PR; never merge either snapshot/fixture branch. Recheck current CI and merge requirements.
-6. Give the owner a concise go/no-go and exact proposed cycle before asking for the final production go-ahead. Prior testing authorization does not authorize a merge/feed switch now.
+6. Follow the owner-confirmed isolated second-day test scope above. Production release planning below is for a later, separately authorized action; do not ask to switch production merely because the test can be started.
 
 ## Timing: 10am is after the morning cycle
 
