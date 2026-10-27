@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 27 October 2026 — **Clear hourly pay in advert text is no longer left blank:** Service Admin can display an explicit rate such as `12.71ph` when JobG8's structured salary fields are empty. Structured pay retains priority; no salary is added when the advert provides none. A focused regression test protects the extraction.
+
 - 27 October 2026 — **Second private email test prepared:** `jnabon1108@gmail.com` can save up to ten alerts independently of the existing test address. Confirmation and unsubscribe belong to the relevant address. No signup or email is created merely by allowing the address. Tests cover private-only access and separate daily delivery protection; public rollout remains off.
 
 - 26 October 2026 — **Ten alerts using the same private test email:** each distinct role/location/salary signup adds an alert rather than replacing the previous one. The existing alert is preserved; identical repeats count once and the eleventh is refused. Matching jobs are combined into one daily email without duplicate jobs. Unsubscribe stops all alerts. Private Preview only; public rollout stays off. Automatic sender adoption is pending the private checks.
@@ -182,6 +184,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 ## 1. Pipeline
 
 The main JobG8 process remains the primary production ingest/process path. NEJobs, VONNE, Teaching Vacancies and NHS Jobs provide additional inventory through governed source paths. After review, the single **Apply and publish Ontap daily review** workflow coordinates source publishers and the final verified-page publish.
+
+For Service Admin jobs, Ontap prefers salary supplied in JobG8's salary fields. If those are empty, it can recover a clear hourly rate written in the advert, such as `12.71ph`. Unrelated numbers and adverts with no stated pay stay blank.
 
 A source shown as `STALE` or `MISSING` in the unified review must not be interpreted as zero inventory. Repair/rerun that source, then rerun `Ontap daily review` to regenerate the master edit file before reviewing. The 22 August Teaching Vacancies recovery verified this operating sequence and the fail-soft source-isolation behaviour.
 

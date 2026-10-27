@@ -1,5 +1,7 @@
 import unittest
 
+import pandas as pd
+
 from scripts import service_admin_pipeline_core as core
 
 
@@ -24,6 +26,36 @@ class SalaryDescriptionFallbackTests(unittest.TestCase):
 
     def test_small_up_to_number_is_not_misread_as_annual_salary(self):
         self.assertEqual(core.extract_salary_from_description("Up to 500"), "")
+
+    def test_currencyless_ph_hourly_rate_is_recovered(self):
+        self.assertEqual(
+            core.extract_salary_from_description("<p>Based LS15</p><p>12.71ph</p>"),
+            "£12.71 per hour",
+        )
+
+    def test_currencyless_p_h_hourly_rate_is_recovered(self):
+        self.assertEqual(
+            core.extract_salary_from_description("Rate: 12.71 p/h"),
+            "£12.71 per hour",
+        )
+
+    def test_acidity_ph_is_not_misread_as_salary(self):
+        self.assertEqual(
+            core.extract_salary_from_description("Maintain 12.71 pH in the process."),
+            "",
+        )
+
+    def test_structured_salary_still_takes_precedence_over_description(self):
+        row = pd.Series({
+            core.COL["salary_min"]: "28000",
+            core.COL["salary_max"]: "",
+            core.COL["salary_period"]: "Annual",
+            core.COL["salary_additional"]: "",
+            core.COL["description"]: "12.71ph",
+        })
+        salary_text, source = core.build_salary_details(row)
+        self.assertEqual(source, "structured")
+        self.assertNotIn("12.71", salary_text)
 
     def test_existing_explicit_currency_period_fallback_still_works(self):
         self.assertEqual(

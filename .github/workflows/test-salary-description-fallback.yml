@@ -1,0 +1,33 @@
+name: Test Service Admin salary description fallback
+
+on:
+  push:
+    branches:
+      - main
+      - feat/cpc-job-alerts-brevo
+    paths:
+      - pipeline/scripts/service_admin_pipeline_core.py
+      - pipeline/tests/test_salary_description_fallback.py
+      - .github/workflows/test-salary-description-fallback.yml
+  pull_request:
+    paths:
+      - pipeline/scripts/service_admin_pipeline_core.py
+      - pipeline/tests/test_salary_description_fallback.py
+      - .github/workflows/test-salary-description-fallback.yml
+
+permissions:
+  contents: read
+
+jobs:
+  salary-fallback:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install selector dependencies
+        run: python -m pip install pandas openpyxl
+      - name: Run focused salary fallback tests
+        working-directory: pipeline
+        run: python -m unittest tests/test_salary_description_fallback.py -v

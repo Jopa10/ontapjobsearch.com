@@ -1099,8 +1099,21 @@ def extract_salary_from_description(raw_description: Any) -> str:
         return f"£{amount_text} per year"
 
     text = re.sub(r"\s+", " ", cleaned).strip()
-    if not text or "£" not in text:
+    if not text:
         return ""
+
+    # Some JobG8 adverts state hourly pay as a bare rate such as 12.71ph.
+    # Accept only this explicit hourly shorthand when there is no currency sign;
+    # unrelated bare numbers and pH measurements are not salary evidence.
+    if "£" not in text:
+        unmarked_hourly = re.search(
+            r"(?<![\w£])(?P<rate>\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)\s*(?:ph|PH|p/h|P/H)\b",
+            text,
+        )
+        if not unmarked_hourly:
+            return ""
+        rate = unmarked_hourly.group("rate").replace(",", "")
+        return f"£{rate} per hour"
 
     amount = r"£\s*\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?"
     range_amount = rf"{amount}(?:\s*(?:-|–|—|to)\s*{amount})?"
