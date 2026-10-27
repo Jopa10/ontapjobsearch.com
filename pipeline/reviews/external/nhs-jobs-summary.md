@@ -2,15 +2,27 @@
 
 review_date: 2026-10-27
 
-- Open Administrative & Clerical rows reviewed: 2101
+- Open Administrative & Clerical rows reviewed: 2102
 - Auto/remembered selected: 391
 - Selected HC Tier A: 199
 - Selected HC Tier B: 192
-- POSS awaiting decision: 1619
+- POSS awaiting decision: 1620
 - Excluded: 0
 - HARD_PASS: 91
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £32073.00 to £39043.00 | Assistant Business Manager
+source_job_id: 5688363
+title: Assistant Business Manager
+employer: Leeds Teaching Hospitals
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1195
+factual_fingerprint: 9bac5b1f58e4e66a632a4dd3b978bb5295d281d88c2d9a8e400e39681a35b140
+---
 
 ---
 action:
