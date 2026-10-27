@@ -1,0 +1,180 @@
+{
+  "preview": {
+    "id": "dpl_BiEbbqGZpccB387vMJ2b1GvPjYG1",
+    "url": "https://ontapjobsearch-2j34oo1gc-ontap1.vercel.app",
+    "state": "READY",
+    "target": null,
+    "commit": "4d950d053179656c6d4389564e2d8c57573cf330",
+    "max_reported_packaged_function_mb": 219.35
+  },
+  "source_commit": "ec47ea496fcb896d8c50ad349f05c5cec6816d24",
+  "inventory": {
+    "total": 6039,
+    "JobG8": 5477,
+    "NHS": 352,
+    "TeachingVacancies": 210
+  },
+  "http_checks": [
+    {
+      "path": "/jobs/23643_225646128",
+      "status": 200,
+      "expected": "Commercial Administrator",
+      "containsExpected": true,
+      "hasCpcApplyLink": true
+    },
+    {
+      "path": "/jobs/23643_225673082",
+      "status": 200,
+      "expected": "Call Centre Advisor",
+      "containsExpected": true,
+      "hasCpcApplyLink": true
+    },
+    {
+      "path": "/jobs/search?q=Commercial%20Administrator&location=Durham",
+      "status": 200,
+      "expected": "23643_225646128",
+      "containsExpected": true,
+      "hasCpcApplyLink": false
+    },
+    {
+      "path": "/jobs/search?q=Call%20Centre%20Advisor&location=Glasgow",
+      "status": 200,
+      "expected": "23643_225673082",
+      "containsExpected": true,
+      "hasCpcApplyLink": false
+    },
+    {
+      "path": "/job-search/glasgow/service-administrator-jobs",
+      "status": 200,
+      "expected": "23643_225673082",
+      "containsExpected": true,
+      "hasCpcApplyLink": true
+    },
+    {
+      "path": "/glasgow/service-administrator-jobs",
+      "status": 200,
+      "expected": "Call Centre Advisor",
+      "containsExpected": true,
+      "hasCpcApplyLink": true
+    },
+    {
+      "path": "/browse-jobs",
+      "status": 200,
+      "expected": "Browse",
+      "containsExpected": true,
+      "hasCpcApplyLink": false
+    }
+  ],
+  "quarantined_http_checks": [
+    {
+      "id": "2054081",
+      "status": 404
+    },
+    {
+      "id": "2056694",
+      "status": 404
+    },
+    {
+      "id": "2056312",
+      "status": 404
+    },
+    {
+      "id": "2055355",
+      "status": 404
+    },
+    {
+      "id": "2055404",
+      "status": 404
+    },
+    {
+      "id": "2055395",
+      "status": 404
+    },
+    {
+      "id": "2055385",
+      "status": 404
+    },
+    {
+      "id": "2055384",
+      "status": 404
+    },
+    {
+      "id": "2055294",
+      "status": 404
+    },
+    {
+      "id": "2055899",
+      "status": 404
+    },
+    {
+      "id": "2055883",
+      "status": 404
+    },
+    {
+      "id": "2055612",
+      "status": 404
+    },
+    {
+      "id": "2056727",
+      "status": 404
+    },
+    {
+      "id": "2056682",
+      "status": 404
+    },
+    {
+      "id": "2055492",
+      "status": 404
+    },
+    {
+      "id": "2055590",
+      "status": 404
+    },
+    {
+      "id": "2055994",
+      "status": 404
+    },
+    {
+      "id": "2055696",
+      "status": 404
+    },
+    {
+      "id": "2056605",
+      "status": 404
+    },
+    {
+      "id": "2054952",
+      "status": 404
+    },
+    {
+      "id": "2054957",
+      "status": 404
+    }
+  ],
+  "production": {
+    "changed": false,
+    "verified_version": "723899cb79250fd5271f9ce11053e6e3752a88f2",
+    "stable_deployment": "dpl_GrjvAP3Ko53hwzuR7CT7kEjGcyoW"
+  },
+  "validation": {
+    "focused_python_passed": 33,
+    "focused_node_passed": 5,
+    "frontend_passed": 105,
+    "frontend_failed": 3,
+    "same_three_frontend_failures_reproduced_on_baseline": true,
+    "rollback_patch_applies": true
+  },
+  "saved_select_reconciliation": {
+    "total_records": 1258,
+    "absent_from_feed": 1016,
+    "published": 182,
+    "selector_geography_exclusions": 57,
+    "metadata_conflicts": 3,
+    "unexplained": 0
+  },
+  "owner_queue": {
+    "JobG8": 321,
+    "TeachingVacancies": 68,
+    "NEJobs": "STALE"
+  }
+}

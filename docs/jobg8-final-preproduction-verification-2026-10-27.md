@@ -53,3 +53,7 @@ The live site before release is production deployment `dpl_GrjvAP3Ko53hwzuR7CT7k
 5. For a complete code fallback, revert the release changes while preserving subsequent main updates. Do not reset main or copy the test-fixture branches into production. A separate old-code 20k rollback preview also reached READY: `dpl_FRCzHCKGuS1xGzEDwzrUD3jv4d9T`, commit `5e1aece0538536e0c5b7a948fb0f11a40b74b7f7`.
 
 Tomorrow's remaining live evidence is the fresh supplier feed, scheduled cycle, real archive access and the normal production deployment after explicit release authorization. A preview is not production approval, and the test branches must not be merged as the release.
+
+## Final deployed verification
+
+The final preview is READY: https://ontapjobsearch-2j34oo1gc-ontap1.vercel.app (deployment `dpl_BiEbbqGZpccB387vMJ2b1GvPjYG1`, preview commit `4d950d053179656c6d4389564e2d8c57573cf330`). Largest reported packaged function: 219.35 MB, below the 250 MB limit. Both saved job-detail pages return 200 with their CPC Apply links; both role/location searches contain the saved jobs; Glasgow city and regional routes return 200; all 21 conflicting-ID job routes return 404. The public production version remains `723899cb79250fd5271f9ce11053e6e3752a88f2`. No production deployment, feed switch or email was performed.
