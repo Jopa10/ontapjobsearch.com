@@ -3,7 +3,7 @@ import test from "node:test";
 import {
   deduplicatePublishedJobs,
   type PublishedJob,
-} from "../lib/published-jobs";
+} from "../lib/published-jobs-source";
 
 function job(job_id: string, overrides: Partial<PublishedJob> = {}): PublishedJob {
   return {

@@ -10,6 +10,9 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 27 October 2026 — **Shared city/regional slugs checked during 50k reconciliation:** a city page could hide valid regional jobs from search and job-detail generation. The test-branch fix keeps the configured regional inventory when the city page uses derived data, while preserving established static regional pages. No production change or new selection approval is made.
+
+
 - 27 October 2026 — **North East review fix under test:** detailed North East jobs now receive the editable review blocks needed to carry owner approvals into publication. Seven omitted review entries were reproduced in the captured trial. Fifteen focused/review tests passed; missing approval blocks are held per job while other valid actions continue. The revised isolated test builds clean output before reporting an approval failure. Production remains unchanged pending full verification.
 
 
