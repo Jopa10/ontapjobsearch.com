@@ -6,93 +6,93 @@
 - Active pages: permanent; falling below the launch threshold does not delist the route
 - BUILDING: 1-3 current jobs in a registered local employment market
 - Published slices scanned: 16
-- Jobs scanned: 1172
+- Jobs scanned: 1182
 - Registered local markets: 72
 
 | Status | Region | Slice | City/locality | Today | Last pipeline runs | Basis |
 |---|---|---|---|---:|---|---|
-| READY FOR APPROVAL | coventry-warwickshire | service-administrator-jobs | Warwickshire | 31 | 32, 32, 30, 29, 29, 30, 31 | exact-location-unregistered |
-| READY FOR APPROVAL | north-east | service-administrator-jobs | Tyne And Wear | 20 | 23, 22, 20, 20, 20, 20, 20 | exact-location-unregistered |
-| READY FOR APPROVAL | london | service-administrator-jobs | Uxbridge | 18 | 16, 16, 16, 18, 18, 18, 18 | exact-location-unregistered |
-| READY FOR APPROVAL | coventry-warwickshire | service-administrator-jobs | Warwick & Leamington | 12 | 11, 11, 12, 12, 12, 12, 12 | regional-market |
-| READY FOR APPROVAL | kent | service-administrator-jobs | Medway | 11 | 11, 11, 11, 11, 11, 11, 11 | regional-market |
-| READY FOR APPROVAL | west-yorkshire | service-administrator-jobs | Wakefield | 10 | 8, 7, 7, 8, 8, 7, 10 | regional-market |
-| READY FOR APPROVAL | north-east | service-administrator-jobs | County Durham | 8 | 12, 13, 9, 8, 8, 8, 8 | exact-location-unregistered |
-| READY FOR APPROVAL | surrey | service-administrator-jobs | Leatherhead | 7 | 8, 7, 7, 7, 7, 7, 7 | exact-location-unregistered |
-| READY FOR APPROVAL | coventry-warwickshire | service-administrator-jobs | Rugby | 6 | 7, 7, 6, 6, 6, 6, 6 | regional-market |
-| READY FOR APPROVAL | north-yorkshire | service-administrator-jobs | Richmond | 6 | 5, 5, 6, 6, 6, 6, 6 | exact-location-unregistered |
-| LIVE | west-yorkshire | service-administrator-jobs | Leeds | 81 | 81, 80, 82, 82, 81, 81, 81 | configured-catchment |
-| LIVE | north-east | service-administrator-jobs | Newcastle | 25 | 25, 25, 24, 22, 25, 25, 25 | configured-catchment |
-| LIVE | south-yorkshire | service-administrator-jobs | Sheffield | 23 | 26, 25, 27, 22, 24, 24, 23 | configured-catchment |
-| LIVE | west-yorkshire | service-administrator-jobs | Bradford | 21 | 19, 19, 19, 19, 22, 22, 21 | configured-catchment |
-| LIVE | coventry-warwickshire | service-administrator-jobs | Coventry | 20 | 17, 18, 17, 17, 20, 20, 20 | configured-catchment |
-| LIVE | hampshire | service-administrator-jobs | Portsmouth | 19 | 20, 20, 19, 18, 19, 19, 19 | configured-catchment |
-| LIVE | kent | service-administrator-jobs | Dartford | 16 | 17, 17, 16, 15, 16, 16, 16 | configured-catchment |
-| LIVE | south-yorkshire | service-administrator-jobs | Doncaster | 15 | 17, 16, 16, 15, 15, 15, 15 | configured-catchment |
-| LIVE | coventry-warwickshire | service-administrator-jobs | Warwick | 13 | 12, 13, 13, 13, 13, 13, 13 | configured-catchment |
-| LIVE | north-yorkshire | service-administrator-jobs | Harrogate | 11 | 10, 11, 11, 10, 11, 11, 11 | configured-catchment |
-| LIVE | west-yorkshire | service-administrator-jobs | Huddersfield | 11 | 10, 11, 11, 10, 10, 10, 11 | configured-catchment |
-| LIVE | north-yorkshire | service-administrator-jobs | York | 10 | 13, 12, 10, 9, 10, 10, 10 | configured-catchment |
-| LIVE | sussex | service-administrator-jobs | Brighton & Hove | 10 | 13, 11, 10, 10, 10, 10, 10 | configured-catchment |
-| LIVE | hampshire | service-administrator-jobs | Southampton | 9 | 13, 14, 14, 14, 12, 12, 9 | configured-catchment |
-| LIVE | north-east | service-administrator-jobs | Sunderland | 9 | 9, 9, 9, 8, 9, 9, 9 | configured-catchment |
-| LIVE | hampshire | service-administrator-jobs | Basingstoke | 8 | 10, 10, 10, 8, 8, 8, 8 | configured-catchment |
-| LIVE | kent | service-administrator-jobs | Ashford | 8 | 10, 8, 8, 8, 8, 8, 8 | configured-catchment |
-| LIVE | kent | service-administrator-jobs | Maidstone | 7 | 8, 7, 7, 7, 7, 7, 7 | configured-catchment |
-| LIVE | south-yorkshire | service-administrator-jobs | Rotherham | 7 | 4, 4, 4, 4, 7, 7, 7 | configured-catchment |
+| READY FOR APPROVAL | coventry-warwickshire | service-administrator-jobs | Warwickshire | 31 | 32, 30, 29, 29, 30, 31, 31 | exact-location-unregistered |
+| READY FOR APPROVAL | north-east | service-administrator-jobs | Tyne And Wear | 22 | 22, 20, 20, 20, 20, 20, 22 | exact-location-unregistered |
+| READY FOR APPROVAL | london | service-administrator-jobs | Uxbridge | 18 | 16, 16, 18, 18, 18, 18, 18 | exact-location-unregistered |
+| READY FOR APPROVAL | coventry-warwickshire | service-administrator-jobs | Warwick & Leamington | 12 | 11, 12, 12, 12, 12, 12, 12 | regional-market |
+| READY FOR APPROVAL | west-yorkshire | service-administrator-jobs | Wakefield | 11 | 7, 7, 8, 8, 7, 10, 11 | regional-market |
+| READY FOR APPROVAL | kent | service-administrator-jobs | Medway | 10 | 11, 11, 11, 11, 11, 11, 10 | regional-market |
+| READY FOR APPROVAL | north-east | service-administrator-jobs | County Durham | 8 | 13, 9, 8, 8, 8, 8, 8 | exact-location-unregistered |
+| READY FOR APPROVAL | coventry-warwickshire | service-administrator-jobs | Rugby | 7 | 7, 6, 6, 6, 6, 6, 7 | regional-market |
+| READY FOR APPROVAL | north-yorkshire | service-administrator-jobs | Richmond | 6 | 5, 6, 6, 6, 6, 6, 6 | exact-location-unregistered |
+| READY FOR APPROVAL | surrey | service-administrator-jobs | Leatherhead | 6 | 7, 7, 7, 7, 7, 7, 6 | exact-location-unregistered |
+| LIVE | west-yorkshire | service-administrator-jobs | Leeds | 83 | 80, 82, 82, 81, 81, 81, 83 | configured-catchment |
+| LIVE | north-east | service-administrator-jobs | Newcastle | 25 | 25, 24, 22, 25, 25, 25, 25 | configured-catchment |
+| LIVE | south-yorkshire | service-administrator-jobs | Sheffield | 25 | 25, 27, 22, 24, 24, 23, 25 | configured-catchment |
+| LIVE | coventry-warwickshire | service-administrator-jobs | Coventry | 22 | 18, 17, 17, 20, 20, 20, 22 | configured-catchment |
+| LIVE | west-yorkshire | service-administrator-jobs | Bradford | 21 | 19, 19, 19, 22, 22, 21, 21 | configured-catchment |
+| LIVE | hampshire | service-administrator-jobs | Portsmouth | 19 | 20, 19, 18, 19, 19, 19, 19 | configured-catchment |
+| LIVE | kent | service-administrator-jobs | Dartford | 17 | 17, 16, 15, 16, 16, 16, 17 | configured-catchment |
+| LIVE | south-yorkshire | service-administrator-jobs | Doncaster | 15 | 16, 16, 15, 15, 15, 15, 15 | configured-catchment |
+| LIVE | coventry-warwickshire | service-administrator-jobs | Warwick | 13 | 13, 13, 13, 13, 13, 13, 13 | configured-catchment |
+| LIVE | north-yorkshire | service-administrator-jobs | York | 12 | 12, 10, 9, 10, 10, 10, 12 | configured-catchment |
+| LIVE | north-yorkshire | service-administrator-jobs | Harrogate | 11 | 11, 11, 10, 11, 11, 11, 11 | configured-catchment |
+| LIVE | west-yorkshire | service-administrator-jobs | Huddersfield | 11 | 11, 11, 10, 10, 10, 11, 11 | configured-catchment |
+| LIVE | sussex | service-administrator-jobs | Brighton & Hove | 10 | 11, 10, 10, 10, 10, 10, 10 | configured-catchment |
+| LIVE | hampshire | service-administrator-jobs | Southampton | 9 | 14, 14, 14, 12, 12, 9, 9 | configured-catchment |
+| LIVE | north-east | service-administrator-jobs | Sunderland | 9 | 9, 9, 8, 9, 9, 9, 9 | configured-catchment |
+| LIVE | hampshire | service-administrator-jobs | Basingstoke | 8 | 10, 10, 8, 8, 8, 8, 8 | configured-catchment |
+| LIVE | kent | service-administrator-jobs | Ashford | 8 | 8, 8, 8, 8, 8, 8, 8 | configured-catchment |
+| LIVE | kent | service-administrator-jobs | Maidstone | 7 | 7, 7, 7, 7, 7, 7, 7 | configured-catchment |
+| LIVE | south-yorkshire | service-administrator-jobs | Rotherham | 7 | 4, 4, 4, 7, 7, 7, 7 | configured-catchment |
 | LIVE | sussex | service-administrator-jobs | Crawley | 7 | 7, 7, 7, 7, 7, 7, 7 | configured-catchment |
-| LIVE | sussex | service-administrator-jobs | Horsham | 6 | 9, 8, 8, 8, 6, 6, 6 | configured-catchment |
-| LIVE | south-yorkshire | service-administrator-jobs | Barnsley | 4 | 6, 6, 6, 5, 4, 4, 4 | configured-catchment |
-| LIVE | surrey | service-administrator-jobs | Farnham | 4 | 5, 5, 5, 4, 4, 4, 4 | configured-catchment |
-| LIVE | hampshire | service-administrator-jobs | Eastleigh | 3 | 4, 3, 3, 3, 3, 3, 3 | configured-catchment |
+| LIVE | sussex | service-administrator-jobs | Horsham | 6 | 8, 8, 8, 6, 6, 6, 6 | configured-catchment |
+| LIVE | south-yorkshire | service-administrator-jobs | Barnsley | 4 | 6, 6, 5, 4, 4, 4, 4 | configured-catchment |
+| LIVE | surrey | service-administrator-jobs | Farnham | 4 | 5, 5, 4, 4, 4, 4, 4 | configured-catchment |
+| LIVE | hampshire | service-administrator-jobs | Eastleigh | 3 | 3, 3, 3, 3, 3, 3, 3 | configured-catchment |
 | LIVE | north-yorkshire | service-administrator-jobs | Scarborough | 3 | 3, 3, 3, 3, 3, 3, 3 | configured-catchment |
 | LIVE | hampshire | support-worker | Southampton | 0 | 0, 0, 0, 0, 0, 0, 0 | configured-catchment |
 | LIVE | north-east | service-administrator-jobs | Chester Le Street | 0 | 0, 0, 0, 0, 0, 0, 0 | configured-catchment |
-| QUALIFIES 1/3 | south-yorkshire | service-administrator-jobs | Brinsworth | 6 | 5, 5, 5, 5, 5, 5, 6 | exact-location-unregistered |
-| QUALIFIES 1/3 | sussex | service-administrator-jobs | Chichester | 6 | 4, 5, 5, 5, 5, 5, 6 | regional-market |
+| QUALIFIES 2/3 | south-yorkshire | service-administrator-jobs | Brinsworth | 7 | 5, 5, 5, 5, 5, 6, 7 | exact-location-unregistered |
+| QUALIFIES 2/3 | sussex | service-administrator-jobs | Chichester | 6 | 5, 5, 5, 5, 5, 6, 6 | regional-market |
 | NEAR | coventry-warwickshire | service-administrator-jobs | Stratford-upon-Avon | 5 | 5, 5, 5, 5, 5, 5, 5 | regional-market |
-| NEAR | london | service-administrator-jobs | Borehamwood | 5 | 6, 6, 7, 5, 5, 5, 5 | exact-location-unregistered |
-| NEAR | surrey | service-administrator-jobs | Guildford | 5 | 6, 6, 5, 5, 5, 5, 5 | regional-market |
+| NEAR | london | service-administrator-jobs | Borehamwood | 5 | 6, 7, 5, 5, 5, 5, 5 | exact-location-unregistered |
+| NEAR | surrey | service-administrator-jobs | Guildford | 5 | 6, 5, 5, 5, 5, 5, 5 | regional-market |
 | NEAR | sussex | service-administrator-jobs | Eastbourne | 5 | 5, 5, 5, 5, 5, 5, 5 | regional-market |
-| NEAR | west-yorkshire | service-administrator-jobs | Halifax | 5 | 4, 4, 4, 5, 5, 5, 5 | regional-market |
+| NEAR | west-yorkshire | service-administrator-jobs | Halifax | 5 | 4, 4, 5, 5, 5, 5, 5 | regional-market |
 | NEAR | hampshire | service-administrator-jobs | Farnborough | 4 | 4, 4, 4, 4, 4, 4, 4 | regional-market |
+| NEAR | hampshire | service-administrator-jobs | Havant | 4 | 0, 0, 0, 0, 0, 0, 4 | exact-location-unregistered |
+| NEAR | hampshire | service-administrator-jobs | Winchester | 4 | 3, 2, 3, 3, 3, 3, 4 | regional-market |
 | NEAR | london | service-administrator-jobs | Bromley | 4 | 4, 4, 4, 4, 4, 4, 4 | exact-location-unregistered |
 | NEAR | london | service-administrator-jobs | Harrow | 4 | 4, 4, 4, 4, 4, 4, 4 | exact-location-unregistered |
 | NEAR | london | service-administrator-jobs | Hornchurch | 4 | 4, 4, 4, 4, 4, 4, 4 | exact-location-unregistered |
-| NEAR | london | service-administrator-jobs | Romford | 4 | 5, 5, 4, 4, 4, 4, 4 | exact-location-unregistered |
-| NEAR | london | service-administrator-jobs | Sutton | 4 | 5, 5, 5, 4, 4, 4, 4 | exact-location-unregistered |
-| NEAR | north-east | service-administrator-jobs | Blyth | 4 | 0, 0, 0, 4, 4, 4, 4 | exact-location-unregistered |
-| NEAR | north-east | service-administrator-jobs | Durham | 4 | 6, 6, 3, 4, 4, 4, 4 | regional-market |
-| NEAR | north-yorkshire | service-administrator-jobs | Northallerton | 4 | 4, 4, 4, 4, 4, 4, 4 | regional-market |
-| NEAR | north-yorkshire | service-administrator-jobs | Ripon | 4 | 4, 4, 4, 4, 4, 4, 4 | exact-location-unregistered |
-| NEAR | north-yorkshire | service-administrator-jobs | Selby | 4 | 5, 5, 4, 4, 4, 4, 4 | regional-market |
+| NEAR | london | service-administrator-jobs | Romford | 4 | 5, 4, 4, 4, 4, 4, 4 | exact-location-unregistered |
+| NEAR | london | service-administrator-jobs | Sutton | 4 | 5, 5, 4, 4, 4, 4, 4 | exact-location-unregistered |
+| NEAR | north-east | service-administrator-jobs | Blyth | 4 | 0, 0, 4, 4, 4, 4, 4 | exact-location-unregistered |
+| NEAR | north-yorkshire | service-administrator-jobs | Selby | 4 | 5, 4, 4, 4, 4, 4, 4 | regional-market |
 | NEAR | surrey | service-administrator-jobs | Dorking | 4 | 4, 4, 4, 4, 4, 4, 4 | exact-location-unregistered |
 | NEAR | surrey | service-administrator-jobs | Staines | 4 | 4, 4, 4, 4, 4, 4, 4 | regional-market |
-| NEAR | surrey | service-administrator-jobs | Weybridge | 4 | 2, 2, 3, 3, 3, 3, 4 | regional-market |
+| NEAR | surrey | service-administrator-jobs | Weybridge | 4 | 2, 3, 3, 3, 3, 4, 4 | regional-market |
 | NEAR | sussex | support-worker | Hastings & St Leonards | 4 | 4, 4, 4, 4, 4, 4, 4 | regional-market |
-| BUILDING | coventry-warwickshire | service-administrator-jobs | Nuneaton | 3 | 3, 3, 3, 3, 3, 3, 3 | regional-market |
-| BUILDING | hampshire | service-administrator-jobs | Winchester | 3 | 4, 3, 2, 3, 3, 3, 3 | regional-market |
+| BUILDING | hampshire | support-worker | Eastleigh | 3 | 1, 2, 2, 2, 2, 2, 3 | regional-market |
+| BUILDING | north-yorkshire | service-administrator-jobs | Northallerton | 3 | 4, 4, 4, 4, 4, 4, 3 | regional-market |
 | BUILDING | surrey | service-administrator-jobs | Reigate & Redhill | 3 | 3, 3, 3, 3, 3, 3, 3 | regional-market |
-| BUILDING | sussex | service-administrator-jobs | Bognor Regis | 3 | 3, 2, 2, 2, 2, 2, 3 | regional-market |
 | BUILDING | sussex | support-worker | Brighton & Hove | 3 | 3, 3, 3, 3, 3, 3, 3 | regional-market |
-| BUILDING | cumbria-south | support-worker | Barrow-in-Furness | 2 | 0, 0, 2, 2, 2, 2, 2 | regional-market |
+| BUILDING | coventry-warwickshire | service-administrator-jobs | Nuneaton | 2 | 3, 3, 3, 3, 3, 3, 2 | regional-market |
+| BUILDING | cumbria-south | support-worker | Barrow-in-Furness | 2 | 0, 2, 2, 2, 2, 2, 2 | regional-market |
+| BUILDING | hampshire | service-administrator-jobs | Fareham | 2 | 1, 1, 1, 1, 1, 1, 2 | regional-market |
 | BUILDING | hampshire | support-worker | Basingstoke | 2 | 2, 2, 2, 2, 2, 2, 2 | regional-market |
-| BUILDING | hampshire | support-worker | Eastleigh | 2 | 1, 1, 2, 2, 2, 2, 2 | regional-market |
 | BUILDING | kent | service-administrator-jobs | Canterbury | 2 | 2, 2, 2, 2, 2, 2, 2 | regional-market |
 | BUILDING | kent | service-administrator-jobs | Sevenoaks | 2 | 2, 2, 2, 2, 2, 2, 2 | regional-market |
-| BUILDING | north-east | service-administrator-jobs | Darlington | 2 | 3, 3, 2, 2, 2, 2, 2 | regional-market |
+| BUILDING | north-east | service-administrator-jobs | Darlington | 2 | 3, 2, 2, 2, 2, 2, 2 | regional-market |
+| BUILDING | north-east | service-administrator-jobs | Durham | 2 | 6, 3, 4, 4, 4, 4, 2 | regional-market |
 | BUILDING | surrey | service-administrator-jobs | Epsom | 2 | 2, 2, 2, 2, 2, 2, 2 | regional-market |
 | BUILDING | sussex | support-worker | Eastbourne | 2 | 2, 2, 2, 2, 2, 2, 2 | regional-market |
 | BUILDING | sussex | support-worker | Worthing | 2 | 2, 2, 2, 2, 2, 2, 2 | regional-market |
 | BUILDING | hampshire | service-administrator-jobs | Aldershot | 1 | 1, 1, 1, 1, 1, 1, 1 | regional-market |
-| BUILDING | hampshire | service-administrator-jobs | Andover | 1 | 4, 4, 4, 1, 1, 1, 1 | regional-market |
-| BUILDING | hampshire | service-administrator-jobs | Fareham | 1 | 1, 1, 1, 1, 1, 1, 1 | regional-market |
+| BUILDING | hampshire | service-administrator-jobs | Andover | 1 | 4, 4, 1, 1, 1, 1, 1 | regional-market |
 | BUILDING | hampshire | support-worker | Aldershot | 1 | 1, 1, 1, 1, 1, 1, 1 | regional-market |
 | BUILDING | kent | service-administrator-jobs | Folkestone | 1 | 1, 1, 1, 1, 1, 1, 1 | regional-market |
 | BUILDING | kent | service-administrator-jobs | Tunbridge Wells | 1 | 1, 1, 1, 1, 1, 1, 1 | regional-market |
-| BUILDING | north-east | service-administrator-jobs | Hartlepool | 1 | 0, 0, 0, 1, 1, 1, 1 | regional-market |
+| BUILDING | north-east | service-administrator-jobs | Hartlepool | 1 | 0, 0, 1, 1, 1, 1, 1 | regional-market |
 | BUILDING | south-yorkshire | support-worker | Doncaster | 1 | 1, 1, 1, 1, 1, 1, 1 | regional-market |
-| BUILDING | surrey | service-administrator-jobs | Camberley | 1 | 3, 2, 1, 1, 1, 1, 1 | regional-market |
+| BUILDING | surrey | service-administrator-jobs | Camberley | 1 | 2, 1, 1, 1, 1, 1, 1 | regional-market |
 | BUILDING | surrey | service-administrator-jobs | Woking | 1 | 1, 1, 1, 1, 1, 1, 1 | regional-market |
-| BUILDING | sussex | service-administrator-jobs | Worthing | 1 | 2, 1, 1, 1, 1, 1, 1 | regional-market |
+| BUILDING | sussex | service-administrator-jobs | Bognor Regis | 1 | 2, 2, 2, 2, 2, 3, 1 | regional-market |
+| BUILDING | sussex | service-administrator-jobs | Worthing | 1 | 1, 1, 1, 1, 1, 1, 1 | regional-market |
 | BUILDING | sussex | support-worker | Crawley | 1 | 1, 1, 1, 1, 1, 1, 1 | regional-market |
