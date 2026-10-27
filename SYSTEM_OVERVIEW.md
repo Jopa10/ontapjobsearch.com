@@ -10,6 +10,9 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 27 October 2026 — **Conflicting JobG8 metadata is withheld per ID:** all adverts sharing an ID with conflicting metadata are excluded from enrichment outputs, regardless of the number of conflicts; unrelated clean jobs continue. This owner-approved exception replaces only the enrichment-specific 15-ID source-abort threshold. Other feed-integrity and review safeguards remain. The full 50k trial found 21 conflicting IDs (four selected jobs), which previously stopped enrichment. This remains on the unmerged test branch pending full-chain verification.
+
+
 - 27 October 2026 — **Expanded-feed import ceiling prepared:** the production JobG8 daily workflow now accepts 5,000–50,000 rows, raising only its XML-adapter `--expected-max` from 20,000 to 50,000 after the isolated 50k preview reached Vercel READY. The existing live feed URL is retained; this does not request JobG8 expansion, publish inventory or approve unanswered reviews. Rollback: restore this workflow argument to `--expected-max 20000`; if the supplier has already expanded the live feed, also arrange restoration of the 20k supply, because lowering the guard alone rejects larger inputs rather than truncating them.
 
 
