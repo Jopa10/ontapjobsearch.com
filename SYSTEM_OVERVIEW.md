@@ -10,6 +10,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 27 October 2026 — **Clear hourly pay in advert text is no longer left blank:** Service Admin can display an explicit rate such as `12.71ph` when JobG8's structured salary fields are empty. Structured pay retains priority; no salary is added when the advert provides none. A focused regression test protects the extraction.
+
 - 27 October 2026 — **Second private email address enabled:** `jnabon1108@gmail.com` can sign up for up to ten test alerts and receive its own daily digest after successful publishing. The existing address and its alerts are unchanged. Each address has its own consent, unsubscribe and duplicate-send protection. The second address receives no alerts until it signs up. Public rollout remains off.
 
 - 26 October 2026 — **Owner job-review format fixed:** `pipeline/reviews/OWNER_REVIEW_PROCESS.md` is the maintained authority for the approved single-sheet Excel list, fixed Review No. mapping and owner exclusions/select-the-rest response. Reuse the accepted workbook without redesign; batch decisions do not change selection logic. Existing publication safeguards remain unchanged.
@@ -140,6 +142,8 @@ Dated one-off recovery/failure reports are not part of the permanent working tre
 Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 ## 3. Website / UX
+
+JobG8 advert salary is displayed from its structured salary fields first. When those are empty, Service Admin can recover a clear hourly rate stated in the description, such as `12.71ph`; unrelated numbers and adverts with no pay remain blank.
 
 Search reporting now records entered role/location, source page and actual result count; recognised locations and zero results remain distinct. Contact-like strings are redacted, text is bounded, and storage/analytics failures never interrupt searching. Report search submissions and result views separately from automatic `form_submit` and nearby-location events.
 

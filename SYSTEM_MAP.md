@@ -12,6 +12,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 27 October 2026 — **Service Admin recovers clear currencyless hourly pay:** when structured JobG8 salary fields are empty, the existing description fallback recognises explicit `12.71ph` / `12.71 p/h` rates as pounds per hour. Structured feed values keep precedence; unrelated bare numbers and adverts with no salary remain blank. The raw feed is not modified.
+
 - 27 October 2026 — **Two-address private alert test adopted:** the post-publish workflow now pins tested feature revision `b2e35a6fac6ea35bc39e69ddcfcf06c5024ada59` and invokes private daily mode separately for `jpbt801@gmail.com` and owner-approved `jnabon1108@gmail.com`. Preview signup accepts only these two addresses, with up to ten alerts each. The sender fetches only the selected allowlisted contact, verifies identity/list-3 consent/blacklist/unsubscribe and retains per-address daily date, idempotency and unsubscribe identity. It does not create the second contact automatically; absence skips until signup. A failure for one sender invocation does not prevent the other invocation; publisher isolation remains. Live production SHA is rechecked before each. Push validation is no-send. Forty Python and twenty Node checks passed, including separate recipient identities and duplicate protection. Public rollout remains off.
 
 - 26 October 2026 — **Owner job-review format fixed:** `pipeline/reviews/OWNER_REVIEW_PROCESS.md` is the maintained authority for the approved single-sheet Excel list, fixed Review No. mapping and owner exclusions/select-the-rest response. Reuse the accepted workbook without redesign; batch decisions do not change selection logic. Existing publication safeguards remain unchanged.
@@ -198,6 +200,8 @@ Core scheduled workflows include:
 - `google-indexing-api.yml` — 19:30 UTC daily.
 
 The manually run JobG8 discovery coverage audit is date-locked to the current Europe/London day. It derives the month dynamically, requires that exact daily raw feed to exist, and passes the expected date into the final selection-audit export. A missing or mismatched feed fails the workflow before any report commit. Consequently, the sitewide published JobG8 total, the JobG8-category published counts, and any “published ID absent from current feed” exception are all interpreted against the same dated feed; the category counts must reconcile to the published JobG8 total.
+
+The shared Service Admin selector in `pipeline/scripts/service_admin_pipeline_core.py` prefers JobG8's structured salary fields and `SalaryAdditional`. If both are empty, its description fallback accepts an explicit currencyless `number ph` / `number p/h` rate as pounds per hour and marks it `description_fallback`; other bare numbers remain blank. The raw feed columns are never rewritten.
 
 The owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`. NHS is one of its source publishers. The reviewed NHS publisher uses `compose_nhs_admin_daily.py`, the same transactional composer as the normal daily run, before the shared verified Service Admin page publish. Customer Sales requires no separate production workflow: its output is generated in the main JobG8 chain and published by the common configured-slice verified publisher.
 
