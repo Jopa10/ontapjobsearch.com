@@ -1,4 +1,5 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
+2026-10-27,SELECTED,Yorkshire - West,Support Worker,Huddersfield,£12.71 - £14 per hour,,,23643_225660273
 2026-10-27,SELECTED,Yorkshire - South,Healthcare Assistant,Doncaster,£31000 - £32000 per year,,,23643_225735406
 2026-10-27,SELECTED,"North East - Tyneside, Wearside & Northumberland",Healthcare Assistant,Corbridge,£14.27 per hour,,,23643_225715797
 2026-10-27,SELECTED,Sussex,6 Month FTC Personal Assistant,Brighton,£30000 - £40000 per year,,,23643_225665294
@@ -36,6 +37,9 @@
 2026-10-27,SELECTED,Hampshire,Support Worker,Havant,£28697 - £31573 per year,,,1401786037
 2026-10-27,SELECTED,Hampshire,Night Care Assistant,Eastleigh,£13.65 per hour,,,23643_225761985
 2026-10-27,SELECTED,Hampshire,Care Assistant,Eastleigh,£26018 - £27111 per year,,,1401786107
+2026-10-27,SELECTED,Hampshire,Healthcare Assistant,Lyndhurst,£12.82 per hour,,,23643_223548398
+2026-10-27,POSS - HAMPSHIRE,Hampshire,Support Worker (Out of Hours),Havant,£34273 - £37570 per year,,,1401785879
+2026-10-27,POSS - HAMPSHIRE,Hampshire,Children's Home Support Worker,Andover,£28697 - £31573 per year,,,1401785886
 2026-10-27,SELECTED,Kent,"Family Support Worker/Ashford, Kent/GBP15-18p/h",Ashford,£15 - £18 per hour,,,23643_225669052
 2026-10-27,SELECTED,Kent,Residential Support Worker,Sittingbourne,£12.75 - £13 per hour,,,23643_225505333
 2026-10-27,SELECTED,Kent,Residential Support Worker,Maidstone,£12.75 - £13 per hour,,,23643_225505330
@@ -45,7 +49,6 @@
 2026-10-27,SELECTED,Kent,Care Assistant - Care Home,Kent,£13.7 per hour,,,23643_225744421
 2026-10-27,SELECTED,Kent,FEMALE Mental Health Support Worker,Sevenoaks,£13.68 - £16 per hour,,,23643_223337598
 2026-10-27,SELECTED,Kent,Care Assistant,Dartford,£12.8 per hour (+ Mileage & Benefits),,,23643_225762090
-2026-10-27,SELECTED,London,Family Support Worker,London,£18 - £20 per hour,,,23643_225660074
 2026-10-27,SELECTED,London,Floating Support Worker,Hillingdon,£28531 per year,,,23643_222879156
 2026-10-27,SELECTED,London,Housing Support Worker,City,£13.75 - £14.5 per hour (Dependant on Experience),,,23643_221016439
 2026-10-27,SELECTED,London,Night Care Assistant,London,£13.21 - £31.21 per hour,,,23643_225710763
@@ -85,12 +88,10 @@
 2026-10-27,SELECTED,London,Support Worker,Southwark,"£25,266.93 per annum",,,2160807
 2026-10-27,SELECTED,London,Care Assistant,London,£14.06 per hour,,,23643_225761972
 2026-10-27,SELECTED,London,Care Support Worker,Borehamwood,£17 - £20 per hour,,,23643_225762327
-2026-10-27,SELECTED,London,Exploitation Support Worker,London,"£31,490 per annum",,,2184157
-2026-10-27,SELECTED,London,11 Pastoral Support Worker,Isleworth,£25999 per year,,,108189611
 2026-10-27,SELECTED,London,Bank Support Worker,London,£15 per hour,,,2190064
+2026-10-27,SELECTED,London,Family Support Worker,London,£18 - £20 per hour,,,23643_225660074
 2026-10-27,SELECTED,Oxfordshire,Support Worker,Oxford,£12.71 - £15 per hour,,,23643_225728855
 2026-10-27,SELECTED,Surrey,Legal Personal Assistant,Leatherhead,£30000 - £32000 per year,,,2064951
-2026-10-27,SELECTED,Surrey,Family Support Worker EDT,Fetcham,"£17330 - £18471 per year (pro rata to £34,660 FTE)",,,23643_225708916
 2026-10-27,SELECTED,Surrey,Home Care Assistant,Reigate,£13 - £15 per hour,,,23643_225715909
 2026-10-27,SELECTED,Surrey,Residential Support Worker,Cobham,£12.75 - £13.5 per hour,,,23643_225505322
 2026-10-27,SELECTED,Surrey,Residential Support Worker,Redhill,£31000 - £35000 per year,,,23643_225505302
