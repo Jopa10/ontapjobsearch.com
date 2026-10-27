@@ -1707,7 +1707,7 @@ job_id: 23643_225721749
 
 ---
 action:
-SELECTED | London | London | £16 per hour [extracted from description] | Temporary Office Co-ordinator
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Temporary Office Co-ordinator
 job_id: 23643_225721319
 ---
 
@@ -5663,6 +5663,12 @@ job_id: 2160049
 action:
 SELECTED | Berkshire | Reading | £28000 - £30000 per year (+ OTE Earnings) | Recruitment Administrator
 job_id: 23643_225747719
+---
+
+---
+action:
+SELECTED | Berkshire | Reading |  | PMO Coordinator
+job_id: 23643_225747611
 ---
 
 ---
