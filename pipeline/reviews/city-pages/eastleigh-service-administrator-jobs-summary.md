@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 101
-- automatic exclude: 55
+- automatic exclude: 54
 - effective include: 3
 - effective review: 101
-- effective exclude: 55
+- effective exclude: 54
 
 ## INCLUDE (3)
 
@@ -1274,7 +1274,7 @@ job_id: jobg8-23643_225665585
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (55)
+## EXCLUDE (54)
 
 ---
 action: 
@@ -1753,18 +1753,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225687519
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Reception Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO3 6AD
-source: NHS Jobs
-job_id: nhs-5663646
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 93
+- automatic review: 94
 - automatic exclude: 0
 - effective include: 13
-- effective review: 93
+- effective review: 94
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (93)
+## REVIEW (94)
 
 ---
 action: 
@@ -1067,6 +1067,18 @@ company: Sustainable Building Services - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225730944
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Stockingford Medical Centre
+location: Nuneaton, CV10 8EJ
+source: NHS Jobs
+job_id: nhs-5688616
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

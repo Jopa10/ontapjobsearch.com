@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 100
+- automatic include: 6
+- automatic review: 101
 - automatic exclude: 0
-- effective include: 7
-- effective review: 100
+- effective include: 6
+- effective review: 101
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -77,18 +77,6 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: South Tyneside and Sunderland NHS Foundation Trust
-location: SUNDERLAND, SR1 3AE
-source: NHS Jobs
-job_id: nhs-5666221
-reason: Exact approved Sunderland workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
 company: St Anthony's Girls' Catholic Academy
 location: Sunderland
 source: Teaching Vacancies
@@ -108,7 +96,7 @@ job_id: jobg8-23643_225729432
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (100)
+## REVIEW (101)
 
 ---
 action: 
@@ -539,6 +527,18 @@ company: Office Angels - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225676547
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Durham, DH1 5YA
+source: NHS Jobs
+job_id: nhs-5684079
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

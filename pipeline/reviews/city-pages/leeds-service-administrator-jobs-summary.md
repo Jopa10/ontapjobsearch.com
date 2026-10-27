@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 83
 - automatic review: 34
-- automatic exclude: 50
+- automatic exclude: 51
 - effective include: 83
 - effective review: 34
-- effective exclude: 50
+- effective exclude: 51
 
 ## INCLUDE (83)
 
@@ -1430,7 +1430,7 @@ job_id: teaching-vacancies-trust-hr-administrator-moorlands-learning-trust
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (50)
+## EXCLUDE (51)
 
 ---
 action: 
@@ -1909,6 +1909,18 @@ company: Park Lane Academy
 location: Halifax
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-park-lane-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Trinity Medical Centre
+location: Wakefield, WF1 1PG
+source: NHS Jobs
+job_id: nhs-5686434
 reason: Separate employment market.
 ---
 

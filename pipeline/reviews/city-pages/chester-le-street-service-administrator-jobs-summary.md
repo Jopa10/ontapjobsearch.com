@@ -510,6 +510,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Durham, DH1 5YA
+source: NHS Jobs
+job_id: nhs-5684079
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Community Engagement & Events Fundraiser
 company: HospiceCare North Northumberland - Agency - Permanent
 location: Northumberland
@@ -1031,18 +1043,6 @@ company: RG Setsquare - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225697746
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: South Tyneside and Sunderland NHS Foundation Trust
-location: SUNDERLAND, SR1 3AE
-source: NHS Jobs
-job_id: nhs-5666221
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

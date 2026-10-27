@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 10
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 19
-- effective review: 10
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (19)
@@ -252,7 +252,7 @@ job_id: jobg8-23643_225696261
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (10)
+## REVIEW (11)
 
 ---
 action: 
@@ -276,6 +276,18 @@ location: Cleethorpes
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-cleethorpes-academy
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Northern Lincolnshire and Goole NHS Foundation Trust
+location: Grimsby, DN33 2BA
+source: NHS Jobs
+job_id: nhs-5688703
+reason: The stated location is broader or less specific than the approved Lincoln employment market and needs review.
 ---
 
 ---

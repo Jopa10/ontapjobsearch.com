@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 22
 - automatic review: 4
-- automatic exclude: 80
+- automatic exclude: 81
 - effective include: 22
 - effective review: 4
-- effective exclude: 80
+- effective exclude: 81
 
 ## INCLUDE (22)
 
@@ -338,7 +338,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-2-days-per-week
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (80)
+## EXCLUDE (81)
 
 ---
 action: 
@@ -1153,6 +1153,18 @@ company: Plum Personnel - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225673829
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Stockingford Medical Centre
+location: Nuneaton, CV10 8EJ
+source: NHS Jobs
+job_id: nhs-5688616
 reason: Separate employment market.
 ---
 

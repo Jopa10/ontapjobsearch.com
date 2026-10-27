@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 12
 - automatic review: 101
-- automatic exclude: 46
+- automatic exclude: 45
 - effective include: 12
 - effective review: 101
-- effective exclude: 46
+- effective exclude: 45
 
 ## INCLUDE (12)
 
@@ -1382,7 +1382,7 @@ job_id: jobg8-23643_225665585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (46)
+## EXCLUDE (45)
 
 ---
 action: 
@@ -1777,18 +1777,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225687519
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Reception Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO3 6AD
-source: NHS Jobs
-job_id: nhs-5663646
 reason: Separate employment market.
 ---
 

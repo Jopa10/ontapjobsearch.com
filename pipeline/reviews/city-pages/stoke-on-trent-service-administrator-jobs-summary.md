@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 61
+- automatic review: 62
 - automatic exclude: 0
 - effective include: 4
-- effective review: 61
+- effective review: 62
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5675916
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (61)
+## REVIEW (62)
 
 ---
 action: 
@@ -779,6 +779,18 @@ company: Veolia - Agency - Permanent
 location: Cannock
 source: JobG8
 job_id: jobg8-23643_225679954
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: North Staffordshire Combined Healthcare Trust
+location: Stoke on Trent, ST4 6TH
+source: NHS Jobs
+job_id: nhs-5689039
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

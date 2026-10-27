@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 53
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 19
-- effective review: 53
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (19)
@@ -252,7 +252,7 @@ job_id: jobg8-23643_225761870
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (54)
 
 ---
 action: 
@@ -287,6 +287,18 @@ company: Bishop Stopford School
 location: Kettering
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-bishop-stopford-school-kettering-northamptonshire
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Rothwell & Desborough Healthcare Group
+location: Kettering, NN14 6JQ, Kettering, NN14 2NB
+source: NHS Jobs
+job_id: nhs-5688432
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

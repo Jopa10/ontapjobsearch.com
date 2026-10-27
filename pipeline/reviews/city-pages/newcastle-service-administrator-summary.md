@@ -1100,6 +1100,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Durham, DH1 5YA
+source: NHS Jobs
+job_id: nhs-5684079
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer service advisor
 company: Berry Recruitment - Agency - Contract
 location: Durham
@@ -1225,18 +1237,6 @@ company: Taryn Hall Recruitment - Agency - Permanent
 location: Sunderland
 source: JobG8
 job_id: jobg8-23643_225712467
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: South Tyneside and Sunderland NHS Foundation Trust
-location: SUNDERLAND, SR1 3AE
-source: NHS Jobs
-job_id: nhs-5666221
 reason: Separate employment market.
 ---
 
