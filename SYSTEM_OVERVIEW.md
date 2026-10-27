@@ -10,6 +10,9 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 27 October 2026 — **North East review fix under test:** detailed North East jobs now receive the editable review blocks needed to carry owner approvals into publication. Seven omitted review entries were reproduced in the captured trial. Fifteen focused/review tests passed; missing approval blocks are held per job while other valid actions continue. The revised isolated test builds clean output before reporting an approval failure. Production remains unchanged pending full verification.
+
+
 - 27 October 2026 — **50k final test moved to GitHub Actions:** an isolated test branch runs the remaining owner-decision publication and build checks independently of the chat. Logs/results are retained for 14 days. It cannot publish production changes or send emails; production and the live supplier feed remain unchanged.
 
 

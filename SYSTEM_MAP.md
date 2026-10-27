@@ -12,6 +12,9 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 27 October 2026 — **North East approvals have editable source blocks:** review grouping now applies the same detailed-region-to-North-East rollup as output composition, while retaining the original location in each summary. County Durham and Tyneside possibilities previously appeared in CSV/master review without editable Markdown blocks; the captured 50k snapshot had seven omissions and one unapplied selection. Focused tests cover both regions, unique block generation and approval preservation; the existing missing-block isolation test proves other clean actions remain publishable. This fix is unmerged. The isolated trial attempts the clean-output build before reporting any missing approved job as a failed test, and retains its snapshot on failure.
+
+
 - 27 October 2026 — **Expanded-feed test survives chat disconnections:** the isolated `test/jobg8-50000-actions-20261027` branch adds a branch-scoped push workflow for the unfinished reviewed-publication trial. It restores the captured, hash-verified 50,000-job XML and saved first-pass review snapshot, uses the existing source publishers, checks the saved approval and job-level withholding, and runs the normal site build. Read-only repository permissions; no main writes, deployment, supplier switch or email. Per-stage receipts/logs and a successful reviewed snapshot are uploaded as 14-day Actions artifacts. This is an unmerged test harness, not an active production workflow.
 
 

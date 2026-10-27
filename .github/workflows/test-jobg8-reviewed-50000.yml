@@ -50,14 +50,15 @@ jobs:
           python -m pip install pandas openpyxl boto3 pytest
           npm ci
       - name: Verify lifecycle and metadata regression checks
-        run: PYTHONPATH=pipeline python -m pytest pipeline/tests/test_materialize_current_jobg8.py pipeline/tests/test_materialize_jobg8_archive_month.py pipeline/tests/test_jobg8_xml_adapter_feed_date.py tests/test_enrich_job_metadata.py -q
+        run: PYTHONPATH=pipeline python -m pytest pipeline/tests/test_materialize_current_jobg8.py pipeline/tests/test_materialize_jobg8_archive_month.py pipeline/tests/test_jobg8_xml_adapter_feed_date.py tests/test_enrich_job_metadata.py pipeline/tests/test_north_east_review_routing.py pipeline/tests/test_review_hub.py -q
       - name: Run unfinished reviewed publication and build checks
         env:
           NEXT_TELEMETRY_DISABLED: '1'
         run: python -u pipeline/expanded-feed-actions/run-reviewed-test.py
       - name: Save reviewed snapshot for preview deployment
-        if: success()
+        if: always()
         run: |
+          test -f generated/published-jobs.json || exit 0
           tar -czf test-results/reviewed-preview.tar.gz app generated pipeline/output-admin-service pipeline/output-support-worker pipeline/reviews pipeline/reports-daily
       - name: Write run summary
         if: always()
@@ -76,6 +77,7 @@ jobs:
         with:
           name: jobg8-50000-reviewed-publication-results
           path: |
+            test-results/reviewed-plan.json
             test-results/receipt.json
             test-results/*.log
             test-results/reviewed-preview.tar.gz

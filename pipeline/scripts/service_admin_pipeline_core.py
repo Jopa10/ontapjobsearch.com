@@ -2801,7 +2801,7 @@ def write_manual_review_csv(
 def _markdown_review_rows(rows: list[dict[str, Any]], region: str, selection_status: str) -> list[dict[str, Any]]:
     return [
         row for row in rows
-        if str(row.get("region", "")) == region
+        if COMBINED_OUTPUT_REGION_MAP.get(str(row.get("region", "")), str(row.get("region", ""))) == region
         and str(row.get("selection_status", "")) == selection_status
     ]
 
