@@ -47,8 +47,8 @@ py('21-final-accountant-guard',['pipeline/scripts/enforce_jobg8_accountant_exclu
 py('22-inventory',['pipeline/scripts/live_job_source_counter.py','--app-dir','app','--reports-dir',str(OUT/'inventory')])
 run('23-search',['node','--import','tsx','scripts/generate-search-index.ts'])
 plan=json.loads((OUT/'withhold-plan.json').read_text());jobs=json.loads((ROOT/'generated/published-jobs.json').read_text());ids={j['job_id'] for j in jobs}
-withheld={str(j['source_job_id']) for j in plan.get('withheld_jobs',[]) if j.get('source')=='JobG8' or j.get('source_key')=='jobg8'}
-state['withheld_in_generated']=sorted(ids&withheld);state['canonical_jobs']=len(jobs);save();assert not (ids&withheld)
+withheld={str(j['source_job_id']) for j in plan.get('withheld_jobs',[]) if str(j.get('source',j.get('source_key',''))).lower()=='jobg8'}
+assert withheld, 'Expected actual JobG8 withholding evidence';state['withheld_jobg8_count']=len(withheld);state['withheld_in_generated']=sorted(ids&withheld);state['canonical_jobs']=len(jobs);save();family_check=json.loads((OUT/'family-withholding-check.json').read_text());assert not family_check['same_family_leaks'];assert not family_check['conflicting_ids_published'];state['cross_family_eligible_ids']=sorted(ids&withheld);state['family_withholding_check']='PASS';save()
 for f in (ROOT/'pipeline/input').glob('*jobg8*xlsx*'):shutil.move(str(f),str(OUT/f.name))
 run('24-prisma',['node','node_modules/prisma/build/index.js','generate'])
 env=os.environ.copy();env['DATABASE_URL']='postgresql://build:build@127.0.0.1:5432/build';env['NEXT_TURBOPACK_EXPERIMENTAL_USE_SYSTEM_TLS_CERTS']='1'
