@@ -1,0 +1,7 @@
+# Actual platform packaging verification — PASS
+
+Vercel deployment dpl_GY45WztBLXWcQY9Aubx1pt1yQRGD reached READY. Preview https://ontapjobsearch-p586rf7y5-ontap1.vercel.app, commit ba7a0e2601fde2e9463a8c014ed2b8d1eda8fdb3 on test/jobg8-expanded-preview-20261027. Target preview/null; production untouched. Normal npm run build ran after extracting the public app-data snapshot. All 6145 static pages and serverless function packaging passed. Maximum reported packaged function size: 211.2 MB. Search functions logged 40.87 MB. This supersedes earlier local-trace estimates as platform acceptance evidence.
+
+Exact final owner queue after persistence finalization and master-review build: JobG8 215 rows = 214 unanswered + 1 already answered. Teaching Vacancies 68 unanswered. Overall 283 rows = 282 unanswered + 1 answered. NEJobs stale and flagged separately; do not interpret stale as zero inventory. Preserved 1691 existing JobG8 decisions. No owner selections were applied and no emails sent.
+
+The technical packaging and final queue checks requested by the owner are complete. Live feed switch remains subject to owner approval and production importer-limit configuration; current live expected-max remains 20000. Increased unanswered JobG8 volume requires the existing withhold/publish-clean policy rather than treating 214 rows as approved. No staged-size runtime comparison was completed; do not claim uninterrupted full daily-cycle timing from this test.
