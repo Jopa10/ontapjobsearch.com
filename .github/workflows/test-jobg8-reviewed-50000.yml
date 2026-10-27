@@ -1,0 +1,84 @@
+name: Isolated 50000-job reviewed publication test
+on:
+  push:
+    branches: [test/jobg8-50000-actions-20261027]
+    paths:
+      - .github/workflows/test-jobg8-reviewed-50000.yml
+      - pipeline/expanded-feed-actions/**
+permissions:
+  contents: read
+concurrency:
+  group: isolated-jobg8-50000-reviewed-test
+  cancel-in-progress: false
+jobs:
+  reviewed-publication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Restore completed first-pass snapshot and captured test feed
+        run: |
+          set -euo pipefail
+          cat pipeline/expanded-feed-e2e-preview/part-* | base64 -d | tar -xz
+          rm -rf pipeline/expanded-feed-e2e-preview
+          python - <<'PY'
+          import base64, hashlib, json, lzma, zipfile
+          from pathlib import Path
+          fixture = Path('pipeline/expanded-feed-actions')
+          info = json.loads((fixture/'feed-info.json').read_text())
+          raw = lzma.decompress(base64.b64decode(''.join(p.read_text() for p in sorted((fixture/'feed').glob('part-*')))))
+          assert hashlib.sha256(raw).hexdigest() == info['xml_sha256']
+          result = Path('test-results'); result.mkdir(exist_ok=True)
+          with zipfile.ZipFile(result/'verified.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
+              member = zipfile.ZipInfo('Jobs.xml', tuple(info['date_time']))
+              member.compress_type = zipfile.ZIP_DEFLATED
+              archive.writestr(member, raw)
+          print('Restored captured 50000-job XML; SHA-256 verified; source timestamp preserved')
+          PY
+          rm -rf pipeline/expanded-feed-actions/feed
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install dependencies
+        run: |
+          python -m pip install pandas openpyxl boto3 pytest
+          npm ci
+      - name: Verify lifecycle and metadata regression checks
+        run: PYTHONPATH=pipeline python -m pytest pipeline/tests/test_materialize_current_jobg8.py pipeline/tests/test_materialize_jobg8_archive_month.py pipeline/tests/test_jobg8_xml_adapter_feed_date.py tests/test_enrich_job_metadata.py -q
+      - name: Run unfinished reviewed publication and build checks
+        env:
+          NEXT_TELEMETRY_DISABLED: '1'
+        run: python -u pipeline/expanded-feed-actions/run-reviewed-test.py
+      - name: Save reviewed snapshot for preview deployment
+        if: success()
+        run: |
+          tar -czf test-results/reviewed-preview.tar.gz app generated pipeline/output-admin-service pipeline/output-support-worker pipeline/reviews pipeline/reports-daily
+      - name: Write run summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('test-results/receipt.json')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write('## Isolated 50000-job test\nProduction unchanged. No publishing commits, deploys or emails.\n\n')
+              summary.write('```json\n'+(p.read_text() if p.exists() else '{"status":"Failed before reviewed test started; see workflow steps"}')+'\n```\n')
+          PY
+      - name: Upload persistent results and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobg8-50000-reviewed-publication-results
+          path: |
+            test-results/receipt.json
+            test-results/*.log
+            test-results/reviewed-preview.tar.gz
+            pipeline/reviews/daily/ontap-daily-review.md
+          if-no-files-found: warn
+          retention-days: 14

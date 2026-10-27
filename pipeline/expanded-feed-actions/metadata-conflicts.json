@@ -1,0 +1,455 @@
+{
+  "rows": 50000,
+  "unique_refs": 49977,
+  "duplicate_reference_groups": 23,
+  "conflicting_metadata_ids": 21,
+  "selected_output_hits": [
+    {
+      "file": "coventry-warwickshire-marketing.json",
+      "id": "2056727",
+      "title": "Senior Marketing Executive"
+    },
+    {
+      "file": "northern-ireland-east-finance-accounts.json",
+      "id": "2056312",
+      "title": "Finance Assistant - Accounts Payable"
+    },
+    {
+      "file": "suffolk-paralegal.json",
+      "id": "2055404",
+      "title": "Remote Conveyancing Paralegal"
+    },
+    {
+      "file": "northern-ireland-east-admin-service.json",
+      "id": "2055384",
+      "title": "Band 4 Training and Development Administrator"
+    },
+    {
+      "file": "northern-ireland-east-admin-service.json",
+      "id": "2056312",
+      "title": "Finance Assistant - Accounts Payable"
+    }
+  ],
+  "conflicts": {
+    "2054081": [
+      {
+        "AdvertiserName": "Reed",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Marketing Manager",
+        "Location": "London",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?WqG%2fPvmLDHjGAL51XVrQuYHKrHViktxdo"
+      },
+      {
+        "AdvertiserName": "MCS Group",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Business Development Representative",
+        "Location": "Northern Ireland",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?On%2frHCsCgrBmho7yrYQZrLsNfjMmV6imt"
+      }
+    ],
+    "2056694": [
+      {
+        "AdvertiserName": "Gold Group Ltd",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Principal Systems Engineer",
+        "Location": "Hampshire",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?5vIGPTOcFxRg8XL0swLRHbkJiijdjw9Dv"
+      },
+      {
+        "AdvertiserName": "Lagan College",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Temporary Teacher of Learning Support",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?CU5oSisE57%2bqYZ4qU5sHAQazui2MIBpAb"
+      }
+    ],
+    "2056312": [
+      {
+        "AdvertiserName": "Birchrose Associates",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Real Estate Finance Associate",
+        "Location": "London",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?LcG4fx09svTraaXKcVHx2CcJUFh4eZ9iq"
+      },
+      {
+        "AdvertiserName": "McKinty Associates",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Finance Assistant - Accounts Payable",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?DhZpdwWS3f6SKZ9m%2fxErQZpqAwElWJW1g"
+      }
+    ],
+    "2055355": [
+      {
+        "AdvertiserName": "LEGAL TALENT PARTNERS LIMITED",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Full Time",
+        "SalaryPeriod": "Annual",
+        "Position": "Residential Conveyancer (Remote)",
+        "Location": "Devon",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?mtQzYuChSZB3%2bqqEhL%2bMxPBf7Dz8QO5Hf"
+      },
+      {
+        "AdvertiserName": "Queen's University Belfast",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Engaged Research and Impact Manager",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?wsEx59IL3oONP8kGBQo%2ffGV0HLzvjcmTk"
+      }
+    ],
+    "2055404": [
+      {
+        "AdvertiserName": "LEGAL TALENT PARTNERS LIMITED",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Part Time",
+        "SalaryPeriod": "Annual",
+        "Position": "Remote Conveyancing Paralegal",
+        "Location": "Suffolk",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?5vIGPTOcFxQvoClpsLXL59JTMfT7Qbmnv"
+      },
+      {
+        "AdvertiserName": "Apple Recruitment",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Part Time",
+        "SalaryPeriod": "Hourly",
+        "Position": "Personal Sales Assistant",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?XSOcgYCtD0wWYjdMKMnOyteNS03qxS9Za"
+      }
+    ],
+    "2055395": [
+      {
+        "AdvertiserName": "LEGAL TALENT PARTNERS LIMITED",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Part Time",
+        "SalaryPeriod": "Annual",
+        "Position": "Remote Conveyancing Paralegal",
+        "Location": "Devon",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?Gk7YImTyxzJQ9luOZwIUjUIEvAsr583%2fc"
+      },
+      {
+        "AdvertiserName": "Engage Executive Talent",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "CO3 Recruitment Operations Officer",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?BJgM9JvikxWoUHqWb1bcYpU%2f1k%2bBr8mel"
+      }
+    ],
+    "2055385": [
+      {
+        "AdvertiserName": "qed legal",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Legal Administrator Residential Conveyancing - Teeside",
+        "Location": "County Durham",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?dX9Wg1Mk9%2bQX3uUYjawsV0yDjXBKUfLuj"
+      },
+      {
+        "AdvertiserName": "Northern Ireland Housing Executive",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Legionella Compliance Officer",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?a%2b8vrZrOXP3WBAK70oqlg4sQL%2flfZCa%2bh"
+      }
+    ],
+    "2055384": [
+      {
+        "AdvertiserName": "qed legal",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Residential Conveyancer - Salary up to &;65,000 - Legal 500 Firm - Bristol",
+        "Location": "Somerset",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?wsEx59IL3oPRe8p%2bqEuRV2YLSMCkKD%2bgk"
+      },
+      {
+        "AdvertiserName": "Honeycomb Jobs Ltd",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Hourly",
+        "Position": "Band 4 Training and Development Administrator",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?LcG4fx09svQYE%2fz8UeIHHvQPxG7dEvr3q"
+      }
+    ],
+    "2055294": [
+      {
+        "AdvertiserName": "First Military Recruitment",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Electrical Instructor",
+        "Location": "Wiltshire",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?ltmrvdXf%2bTriHW60kuqGBV47VBvoUdlGy"
+      },
+      {
+        "AdvertiserName": "Reed Specialist Recruitment",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Systems Accountant",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?lGhsksElv3%2fxcxBZl0uJh0S8prwPNMQUz"
+      }
+    ],
+    "2055899": [
+      {
+        "AdvertiserName": "Rise Technical Recruitment Limited",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Yard & Stores Operative",
+        "Location": "Hampshire",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?On%2frHCsCgrDoC5mYucrm9BQLlODTi%2f9ct"
+      },
+      {
+        "AdvertiserName": "Strangford Integrated College",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Teacher of Geography",
+        "Location": "County Down",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?a%2b8vrZrOXP1F%2b%2bFi%2f%2blmqTYhh%2f%2fHd4MDh"
+      }
+    ],
+    "2055883": [
+      {
+        "AdvertiserName": "qed legal",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Family Solicitor - Best Reviews - Family Friendly Firm",
+        "Location": "Lancashire",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?mtQzYuChSZAo52IhyBxtTxa0FOXMaBgtf"
+      },
+      {
+        "AdvertiserName": "Belfast City Council",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Full Time",
+        "SalaryPeriod": "Annual",
+        "Position": "Procurement Analyst",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?Ky9aAB%2bRVH%2brnlTyFOZ802xYf864S4Qkp"
+      }
+    ],
+    "2055612": [
+      {
+        "AdvertiserName": "LEGAL TALENT PARTNERS LIMITED",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Part Time",
+        "SalaryPeriod": "Annual",
+        "Position": "Remote Conveyancing Paralegal",
+        "Location": "Devon",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?ltmrvdXf%2bTpPAAsX%2bNB%2bcwFrNciWzWsGy"
+      },
+      {
+        "AdvertiserName": "Platinum Recruitment",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Hourly",
+        "Position": "Fitness Instructor",
+        "Location": "County Down",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?J1eg5sCrZSjq%2fFqaeoPQ4SkS36JEWqvin"
+      }
+    ],
+    "2056727": [
+      {
+        "AdvertiserName": "TalentTech Recruitment",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Senior Marketing Executive",
+        "Location": "Warwickshire",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?avpYZ404nBNgJxul8aNWDd7evHN11nSce"
+      },
+      {
+        "AdvertiserName": "Hays",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Hourly",
+        "Position": "Accountant - Manager",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?Z%2faZk1UY1GsXdTNWtBLWOFa05yalVF%2b9t"
+      }
+    ],
+    "2056682": [
+      {
+        "AdvertiserName": "Greenfield I T Recruitment",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Netsuite Specialist",
+        "Location": "Worcestershire",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?ltmrvdXf%2bTrDOhwu4fzrxiTyif0DrxIxy"
+      },
+      {
+        "AdvertiserName": "Reed Specialist Recruitment",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Full Time",
+        "SalaryPeriod": "Annual",
+        "Position": "Bookkeeper/ Accounting Technician",
+        "Location": "County Antrim",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?CimMc%2futMN2MJkMOgoPgbvSHj5CxgMUFi"
+      }
+    ],
+    "2055492": [
+      {
+        "AdvertiserName": "Vbeyond",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Red Hat OpenShift & DevOps Engineer",
+        "Location": "London",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?O%2bcpO%2bN5C8nQuAye8pN5b7B4%2fb11eB9jm"
+      },
+      {
+        "AdvertiserName": "Pathway Legal",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Solicitor - Motor & Casualty",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?p550CifPoSD36eAt5x8wby4FjZVz%2fbedr"
+      }
+    ],
+    "2055590": [
+      {
+        "AdvertiserName": "83zero Ltd",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "IAM Service Lead",
+        "Location": "Birmingham",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?p550CifPoSBZqwXbi7PlK7bpK%2fwRbURjr"
+      },
+      {
+        "AdvertiserName": "Hays",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Full Time",
+        "SalaryPeriod": "Hourly",
+        "Position": "Customer Advisor - Carrickfergus",
+        "Location": "County Antrim",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?O%2bcpO%2bN5C8nDUL0Yzg%2bmTvTPs5kicQLkm"
+      }
+    ],
+    "2055994": [
+      {
+        "AdvertiserName": "Positive Employment",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "IT Business Relationship Manager",
+        "Location": "Bedfordshire",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?ltmrvdXf%2bTrtzgofENCFjAQqKFoaEqL5y"
+      },
+      {
+        "AdvertiserName": "Rushe Executive Search",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Head of HR (Transformation, People & Culture - (Exclusive Role)",
+        "Location": "County Armagh",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?ltmrvdXf%2bToI%2fGPcYV4IBj%2bDq%2fvrkd1wy"
+      }
+    ],
+    "2055696": [
+      {
+        "AdvertiserName": "Michael Page Technology",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "M365 Developer",
+        "Location": "Cheshire",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?YkYzzrhWfrPDWeu%2bkyJJURVJba5f9g2Jw"
+      },
+      {
+        "AdvertiserName": "WebRecruit Ireland",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Financial Controller",
+        "Location": "County Antrim",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?Ky9aAB%2bRVH9fGPu4mb%2fuxSs6XYpldvLFp"
+      }
+    ],
+    "2056605": [
+      {
+        "AdvertiserName": "Picture More",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Service Delivery Technical Consultant",
+        "Location": "London",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?a%2b8vrZrOXP3h9%2bnFe3wTDvZK7mC8hMa%2fh"
+      },
+      {
+        "AdvertiserName": "The Royal Belfast Academical Institution",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "SEN Classroom Assistant",
+        "Location": "Not Specified",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?r%2fUCIMfv%2bT4qoGW7VZpwU3141v3C%2b31pv"
+      }
+    ],
+    "2054952": [
+      {
+        "AdvertiserName": "MPA Recruitment",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Hourly",
+        "Position": "Assistant Accountant",
+        "Location": "Belfast",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?p550CifPoSCHEqAfPI94%2f2y5R2KK3ItCr"
+      },
+      {
+        "AdvertiserName": "Benjamin Edwards",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Management Accountant",
+        "Location": "Lincolnshire",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?vht0aM3LtrnCHM2EcDmGba1%2ba80rdmI5m"
+      }
+    ],
+    "2054957": [
+      {
+        "AdvertiserName": "McComb's Coach Travel",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Full Time",
+        "SalaryPeriod": "Annual",
+        "Position": "Coach Driver",
+        "Location": "County Antrim",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?KiKGornS5oYQghdZlv%2f67I4J7FChfybZx"
+      },
+      {
+        "AdvertiserName": "eNL Legal Recruitment",
+        "AdvertiserType": "Agency",
+        "WorkHours": "Not Specified",
+        "SalaryPeriod": "Annual",
+        "Position": "Commercial Litigation Solicitor",
+        "Location": "Birmingham",
+        "ApplicationURL": "https://www.jobg8.com/Traffic.aspx?dMA3pv6Ilg8QMkVB%2bW7xMc6YHF2UwVx7k"
+      }
+    ]
+  }
+}

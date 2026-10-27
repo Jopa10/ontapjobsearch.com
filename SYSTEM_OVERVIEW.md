@@ -10,6 +10,9 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 27 October 2026 — **50k final test moved to GitHub Actions:** an isolated test branch runs the remaining owner-decision publication and build checks independently of the chat. Logs/results are retained for 14 days. It cannot publish production changes or send emails; production and the live supplier feed remain unchanged.
+
+
 - 27 October 2026 — **50k ceiling covers the feed lifecycle:** reviewed-feed restoration, direct-fetch validation, native XML conversion defaults, current-feed materialization and monthly archive materialization now use the same 50,000-row ceiling as the daily importer. This prevents later review/report paths from rejecting an otherwise valid expanded feed. Explicit 20,000 overrides remain supported and tested for rollback. These changes remain unmerged pending the full trial.
 
 

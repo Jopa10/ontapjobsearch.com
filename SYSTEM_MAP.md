@@ -12,6 +12,9 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 27 October 2026 — **Expanded-feed test survives chat disconnections:** the isolated `test/jobg8-50000-actions-20261027` branch adds a branch-scoped push workflow for the unfinished reviewed-publication trial. It restores the captured, hash-verified 50,000-job XML and saved first-pass review snapshot, uses the existing source publishers, checks the saved approval and job-level withholding, and runs the normal site build. Read-only repository permissions; no main writes, deployment, supplier switch or email. Per-stage receipts/logs and a successful reviewed snapshot are uploaded as 14-day Actions artifacts. This is an unmerged test harness, not an active production workflow.
+
+
 - 27 October 2026 — **50k ceiling covers the feed lifecycle:** reviewed-feed restoration, direct-fetch validation, native XML conversion defaults, current-feed materialization and monthly archive materialization now use the same 50,000-row ceiling as the daily importer. This prevents later review/report paths from rejecting an otherwise valid expanded feed. Explicit 20,000 overrides remain supported and tested for rollback. These changes remain unmerged pending the full trial.
 
 
