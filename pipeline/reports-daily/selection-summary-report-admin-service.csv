@@ -9,7 +9,7 @@ Kent,91,75,0,16,2,,91,Maidstone,SCENARIO_3_MANUAL_SELECTION_APPLIED,Kent manual_
 Sussex,77,65,0,12,0,,77,Brighton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Sussex manual_select applied additively: 7 row(s) prioritised; 77 selected.
 West Midlands - Coventry & Warwickshire,67,56,0,11,0,,67,Coventry,SCENARIO_3_MANUAL_SELECTION_APPLIED,West Midlands - Coventry & Warwickshire manual_select applied additively: 7 row(s) prioritised; 67 selected.
 Bedfordshire,28,25,0,3,0,,28,Bedford,SCENARIO_3_FULL_VALID_SELECTION,"Bedfordshire selection complete: all 28 valid selected role(s) retained after HIGH_CONFIDENCE, Bedford ELASTIC_FIT and other ELASTIC_FIT ordering."
-Berkshire,52,41,3,8,0,,52,Reading,SCENARIO_3_MANUAL_SELECTION_APPLIED,Berkshire manual_select applied additively: 5 row(s) prioritised; 52 selected.
+Berkshire,51,41,2,8,0,,51,Reading,SCENARIO_3_MANUAL_SELECTION_APPLIED,Berkshire manual_select applied additively: 5 row(s) prioritised; 51 selected.
 Bristol & Bath,48,39,7,2,0,,48,Bristol,SCENARIO_3_MANUAL_SELECTION_APPLIED,Bristol & Bath manual_select applied additively: 8 row(s) prioritised; 48 selected.
 Buckinghamshire,48,36,0,12,0,,48,Milton Keynes,SCENARIO_3_MANUAL_SELECTION_APPLIED,Buckinghamshire manual_select applied additively: 2 row(s) prioritised; 48 selected.
 Cambridgeshire,31,28,2,1,0,,31,Cambridge,SCENARIO_3_MANUAL_SELECTION_APPLIED,Cambridgeshire manual_select applied additively: 1 row(s) prioritised; 31 selected.
@@ -37,7 +37,7 @@ Merseyside - Liverpool,20,17,3,0,0,,20,Liverpool,SCENARIO_3_MANUAL_SELECTION_APP
 Merseyside - St Helens & Knowsley,6,6,0,0,0,,6,St Helens,SCENARIO_3_MANUAL_SELECTION_APPLIED,Merseyside - St Helens & Knowsley manual_select applied additively: 1 row(s) prioritised; 6 selected.
 Norfolk,40,34,0,6,0,,40,Norwich,SCENARIO_3_MANUAL_SELECTION_APPLIED,Norfolk manual_select applied additively: 6 row(s) prioritised; 40 selected.
 North Scotland,7,5,0,2,0,,7,Aberdeen,SCENARIO_3_MANUAL_SELECTION_APPLIED,North Scotland manual_select applied additively: 3 row(s) prioritised; 7 selected.
-North Wales - East,8,5,2,1,0,,8,Wrexham,SCENARIO_3_MANUAL_SELECTION_APPLIED,North Wales - East manual_select applied additively: 1 row(s) prioritised; 8 selected.
+North Wales - East,9,6,2,1,0,,9,Wrexham,SCENARIO_3_MANUAL_SELECTION_APPLIED,North Wales - East manual_select applied additively: 1 row(s) prioritised; 9 selected.
 Northamptonshire,53,45,0,8,0,,53,Northampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Northamptonshire manual_select applied additively: 4 row(s) prioritised; 53 selected.
 Northern Ireland - East,8,8,0,0,0,,8,Belfast,SCENARIO_3_MANUAL_SELECTION_APPLIED,Northern Ireland - East manual_select applied additively: 1 row(s) prioritised; 8 selected.
 Nottinghamshire,41,33,0,8,1,,41,Nottingham,SCENARIO_3_MANUAL_SELECTION_APPLIED,Nottinghamshire manual_select applied additively: 4 row(s) prioritised; 41 selected.
