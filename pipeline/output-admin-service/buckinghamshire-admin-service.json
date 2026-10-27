@@ -1093,31 +1093,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225547225",
-    "title": "Client Care Co-Ordinator",
-    "company": "2i Recruit Ltd - Agency - Permanent",
-    "location": "Buckinghamshire",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "27000",
-    "salary_max": "30000",
-    "salary_text": "£27000 - £30000 per year (plus bonus)",
-    "posted_date": "",
-    "description": "Our client is looking for a Client Care Coordinator to join a fantastic, innovative, and friendly team based in Beaconsfield. You'll be the first point of contact for clients, handling inbound calls via Microsoft Teams, listening with empathy, and arranging appointments for individuals who may be going through challenging personal situations.\n\nThis is an excellent opportunity for someone with a customer-focused background who enjoys helping people, building rapport, and delivering a positive experience from the very first interaction.\n\nCompany Benefits:\n- Competitive salary\n- Supportive and professional working environment\n- Career development opportunities\n- Modern offices in Beaconsfield\n- Varied and engaging role with real responsibility\n\nKey Responsibilities:\n- Managing a high volume of incoming calls\n- Taking down personal information and adding their details to the inhouse system\n- Diary management\n- Using Microsoft Teams to answer calls and book in meetings\n- Having an empathetic approach\n- Dealing with confidential information\n\nExperience and Skills Requirements:\n- Previous experience based in a Receptionist, Customer Service, Contact Centre, Client Care, or Front of House role\n- Excellent communication and telephone-based customer service skills\n- A warm, friendly, and empathetic approach\n- Confidence building relationships with people from all backgrounds\n- Strong organisational skills and the ability to multitask effectively\n- Good IT skills, including Microsoft Office\n- High attention to detail and accuracy\n- Reliable, professional, and able to remain calm under pressure\n\nIf you enjoy being at the heart of a business and delivering exceptional service, we d love to hear from you.\n\nIf you have not been contacted within 5 working days, then unfortunately on this occasion your CV has not been shortlisted.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS9G0eF3gm9T6nEvcGK4iowsc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "2i Recruit Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225675185",
     "title": "Activity Co-ordinator",
     "company": "Forward Assist Recruitment - Agency - Permanent",
@@ -1368,6 +1343,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225547225",
+    "title": "Client Care Co-Ordinator",
+    "company": "2i Recruit Ltd - Agency - Permanent",
+    "location": "Buckinghamshire",
+    "region": "Buckinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27000",
+    "salary_max": "30000",
+    "salary_text": "£27000 - £30000 per year (plus bonus)",
+    "posted_date": "",
+    "description": "Our client is looking for a Client Care Coordinator to join a fantastic, innovative, and friendly team based in Beaconsfield. You'll be the first point of contact for clients, handling inbound calls via Microsoft Teams, listening with empathy, and arranging appointments for individuals who may be going through challenging personal situations.\n\nThis is an excellent opportunity for someone with a customer-focused background who enjoys helping people, building rapport, and delivering a positive experience from the very first interaction.\n\nCompany Benefits:\n- Competitive salary\n- Supportive and professional working environment\n- Career development opportunities\n- Modern offices in Beaconsfield\n- Varied and engaging role with real responsibility\n\nKey Responsibilities:\n- Managing a high volume of incoming calls\n- Taking down personal information and adding their details to the inhouse system\n- Diary management\n- Using Microsoft Teams to answer calls and book in meetings\n- Having an empathetic approach\n- Dealing with confidential information\n\nExperience and Skills Requirements:\n- Previous experience based in a Receptionist, Customer Service, Contact Centre, Client Care, or Front of House role\n- Excellent communication and telephone-based customer service skills\n- A warm, friendly, and empathetic approach\n- Confidence building relationships with people from all backgrounds\n- Strong organisational skills and the ability to multitask effectively\n- Good IT skills, including Microsoft Office\n- High attention to detail and accuracy\n- Reliable, professional, and able to remain calm under pressure\n\nIf you enjoy being at the heart of a business and delivering exceptional service, we d love to hear from you.\n\nIf you have not been contacted within 5 working days, then unfortunately on this occasion your CV has not been shortlisted.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?43PI6mYDPX3Eqw07EmVO4Cn6nfytGpTdq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "2i Recruit Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5638681",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -1383,7 +1383,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0789-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0789-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543958",
@@ -1401,7 +1405,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5675336",
@@ -1419,7 +1427,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0729",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0729",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5676129",
@@ -1437,7 +1449,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0736",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0736",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5670144",
@@ -1455,7 +1471,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0529-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0529-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5619604",
@@ -1473,7 +1493,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0123TMP",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0123TMP",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5618527",
@@ -1491,6 +1515,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0121CHMC",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0121CHMC",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

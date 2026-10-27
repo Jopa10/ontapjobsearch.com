@@ -50,31 +50,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225659216",
-    "title": "Administrator",
-    "company": "Belmont Recruitment - Agency - Contract",
-    "location": "Preston",
-    "region": "Lancashire - Central",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "16.35",
-    "salary_max": "16.35",
-    "salary_text": "£16.35 per hour",
-    "posted_date": "",
-    "description": "Belmont Recruitment are currently seeking an experienced Administrator to work with our client on an initial three-month temporary contract. The role is based in the Preston area, working 37 hours per week, Monday to Friday.\n\nOverview:\n\nThe successful candidate will provide administrative and systems support to the Operational Property Service, assisting with the effective management and maintenance of the Authority's property stock. Working as part of a small team, you will support the day-to-day administration of the service, liaising with internal departments and external contractors.\n\nMain Duties:\n- Act as a point of contact for incoming fault reports, maintenance requests and other enquiries\n- Raise work instructions for internal personnel and external contractors using Civica Property Management (CPM)\n- Process requests for property repairs, void inspections and other maintenance activities\n- Process purchase orders and invoices, maintaining accurate records and associated files\n\nEssential Criteria:\n- Previous experience in providing administrative support within a busy office environment\n- Experience with processing purchase orders and invoices\n- Excellent communication skills and the ability to liaise with internal teams and external contractors\n- Confident using IT systems and administrative software\n- Previous experience in property maintenance administration or using Civica CPM would be advantageous\n\nIf this role is of interest, please apply with your up-to-date CV.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eW9k8KgTdhMO29AS%2f9%2fyCCQdCQv63Qnnj",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Belmont Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225684959",
     "title": "Work Coordinator / Admin",
     "company": "ctrg - Agency - Temporary",
@@ -240,7 +215,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0844",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0844",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5688464",
@@ -258,6 +237,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1976-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1976-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

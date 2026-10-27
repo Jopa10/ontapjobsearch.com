@@ -300,31 +300,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225659253",
-    "title": "Payroll Assistant",
-    "company": "Michael Page - Agency - Temporary",
-    "location": "Warrington",
-    "region": "Cheshire - Warrington & Halton",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "30000",
-    "salary_max": "35000",
-    "salary_text": "£30000 - £35000 per year",
-    "posted_date": "",
-    "description": "An exciting opportunity has arisen for a Payroll Advisor on an interim basis for a growing business. This is an interim opportunity, with long-term prospects to move permanent.\n\nClient Details\n\nOur client is a well-established business, currently seeking a Payroll Advisor to join their team in Warrington on an interim basis. This role offers the opportunity to gain valuable experience within a busy payroll function, with the potential to become a permanent position for the right candidate.\n\nDescription\n\nThe Payroll Advisor duties include:\n- Supporting the monthly and weekly payroll cycles\n- Reviewing payroll data for accuracy and resolving discrepancies before submission\n- Handling payroll-related enquiries from employees and managers\n- Assisting with statutory payments, pension contributions and compliance activities\n- Working closely with HR and Finance to ensure employee records remain up to date\n- Contributing to payroll process improvements and system enhancements\n\nProfile\n\nA successful Payroll Administrator should have:\n- Previous experience working in a payroll position, ideally as a Payroll Administrator, Payroll Assistant or Payroll Advisor\n- A strong eye for detail with the ability to work accurately in a fast-paced environment\n- Good understanding of payroll legislation\n- Strong communication skills\n- Able to prioritise workload and manage competing deadlines effectively\n\nJob Offer\n\nThe benefits include:\n- Salary 28,000- 35,000 depending on experience\n- Temporary position possibility to go permanent\n- Free on-site parking\n- Hybrid working after passed training\n- 37.5 hour working weel",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mOAT%2fTh%2bM1MsaoE0oQhHOXDOP5HeVcAru",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Description The Payroll Advisor duties include: - Supporting the monthly and weekly payroll cycles - Reviewing payroll data for accuracy and resolving discrepancies before submission - Handling payroll-related enquiries from employees and managers - Assisting with statutory payments, pension contributions and compliance activities - Working closely with HR and Finance to ensure employee records remain up to date - Contributing to payroll process improvements and system enhancements Profile A successful Payroll Administrator should have: - Previous experience working in a payroll position, ideally as a Payroll Administrator, Payroll Assistant or Payroll Advisor - A strong eye for detail with the ability to work accurately in a fast-paced environment - Good understanding of payroll legislation - Strong communication skills - Able to prioritise workload and manage competing deadlines effectively Job Offer The benefits include: - Salary 28,000- 35,000 depending on experience - Temporary position possibility to go permanent - Free on-site parking - Hybrid working after passed training - 37.5 hour working weel Warrington Cheshire - Warrington & Halton",
-    "advertiser_name": "Michael Page",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225721355",
     "title": "Customer Care Coordinator",
     "company": "Fawkes & Reece London - Agency - Temporary",
@@ -540,7 +515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-HA26-115a",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-HA26-115a",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5676409",
@@ -558,7 +537,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2405",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2405",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5675613",
@@ -576,7 +559,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1548-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1548-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5659960",
@@ -594,7 +581,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1131-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1131-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651037",
@@ -612,6 +603,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3425-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3425-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
