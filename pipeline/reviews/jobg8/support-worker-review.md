@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-26
+feed_date: 2026-10-27
 
 Edit only the `action:` line in each block:
 
@@ -173,19 +173,17 @@ job_id: 23643_225718800
 
 ---
 action:
-SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
-job_id: 23643_225440444
----
-
----
-action:
 SELECTED | Sussex | Sussex | £14.8 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225754037
 ---
 
 ## SUSSEX — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SUSSEX | Sussex | Lancing | £13.68 - £28.22 per hour | Adult Support Worker
+job_id: 23643_225766854
+---
 
 ## CUMBRIA SOUTH — SELECTED
 
@@ -265,6 +263,12 @@ job_id: 1401786037
 action:
 SELECTED | Hampshire | Eastleigh | £13.65 per hour | Night Care Assistant
 job_id: 23643_225761985
+---
+
+---
+action:
+SELECTED | Hampshire | Eastleigh | £26018 - £27111 per year | Care Assistant
+job_id: 1401786107
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -563,12 +567,6 @@ job_id: 2160807
 
 ---
 action:
-SELECTED | London | London | £27,823 per annum | Support Workers- Semi Independent Services
-job_id: 2174176
----
-
----
-action:
 SELECTED | London | London | £14.06 per hour | Care Assistant
 job_id: 23643_225761972
 ---
@@ -577,6 +575,24 @@ job_id: 23643_225761972
 action:
 SELECTED | London | Borehamwood | £17 - £20 per hour | Care Support Worker
 job_id: 23643_225762327
+---
+
+---
+action:
+SELECTED | London | London | £31,490 per annum | Exploitation Support Worker
+job_id: 2184157
+---
+
+---
+action:
+SELECTED | London | Isleworth | £25999 per year | 11 Pastoral Support Worker
+job_id: 108189611
+---
+
+---
+action:
+SELECTED | London | London | £15 per hour | Bank Support Worker
+job_id: 2190064
 ---
 
 ## LONDON — POSSIBLES
@@ -651,6 +667,12 @@ SELECTED | Surrey | Hindhead | £15.45 per hour | Care Assistant
 job_id: 23643_225761987
 ---
 
+---
+action:
+SELECTED | Surrey | Surrey | £14.5 per hour | Night Care Assistant
+job_id: 23643_225440444
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -679,12 +701,6 @@ job_id: 23643_225713768
 action:
 SELECTED | Wiltshire | Salisbury | £28479 per year | Support Worker - Clouds House
 job_id: 23643_225712887
----
-
----
-action:
-SELECTED | Wiltshire | Wiltshire | £14.25 - £15.5 per hour | Learning Support Assistant
-job_id: 23643_225660582
 ---
 
 ## WILTSHIRE — POSSIBLES
