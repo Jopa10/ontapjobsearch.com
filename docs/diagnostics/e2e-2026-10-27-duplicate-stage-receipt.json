@@ -1,0 +1,57 @@
+{
+  "commit": "2c61c1b137adeb1ad3047b213c837e08e16feef1",
+  "steps": [
+    {
+      "name": "01-import-50000",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 24.77,
+      "status": "PASS"
+    },
+    {
+      "name": "02-health",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 15.96,
+      "status": "PASS"
+    },
+    {
+      "name": "03-old-guard-rejects-50000",
+      "exit": 1,
+      "expected": 1,
+      "seconds": 3.55,
+      "status": "PASS"
+    },
+    {
+      "name": "04-old-guard-accepts-20000",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 12.26,
+      "status": "PASS"
+    },
+    {
+      "name": "05-old-feed-health",
+      "exit": 1,
+      "expected": 0,
+      "seconds": 0.22,
+      "status": "FAIL"
+    },
+    {
+      "name": "05-old-feed-health",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 6.84,
+      "status": "PASS"
+    },
+    {
+      "name": "06-duplicate-report",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 796.58,
+      "status": "PASS"
+    }
+  ],
+  "production_changed": false,
+  "feed_sha256": "34cd8f355278405f6d47ec3734b7e9e341a9f54baaec23b236b515dc5a1233d6",
+  "active": "07-all-live-families"
+}
