@@ -1,0 +1,165 @@
+✔ keeps deletion notifications queued until Google accepts them (1.459194ms)
+✔ uses JobG8 capacity first and caps non-JobG8 jobs at 20 (10.689299ms)
+✖ does not release unused JobG8 capacity to non-JobG8 jobs (5.699909ms)
+✔ shares the daily allowance and never retries the same URL/type (0.799212ms)
+✔ uses the real America/Los_Angeles day across daylight-saving boundaries (9.635065ms)
+✔ uses a future quota increase without changing the protected allocations (5.025565ms)
+✔ retains future protected slots after an earlier high-quota push run (2.885147ms)
+✔ job-page search submits both governed search fields (0.872381ms)
+✔ mobile search starts collapsed and exposes the Ontap magnifying glass (0.19242ms)
+✖ mobile navigation keeps Home and hides Browse Jobs (2.451335ms)
+✔ mobile job pages hide only the secondary regional listing link (0.15915ms)
+✔ mobile job-page onward links use compact single-line wording (0.181493ms)
+✔ saved-location count and onward link use the same 15-mile search (0.163435ms)
+✔ saved locations render immediately while their count refreshes in the background (0.153ms)
+✔ nearby location tracking identifies where unsuccessful attempts stop (0.183927ms)
+✔ nearby searches without a role return the full nearby inventory (0.177687ms)
+✔ vacancy recommendations stay anchored on the vacancy (0.467293ms)
+✔ vacancies without approved nearby matches show only the regional fallback link (0.242515ms)
+/workspace/scratch/adf0f4fc1910/feed-test/repo/components/JobViewSwitcher.module.css:1
+.controls {
+^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1861:18)
+    at Module._compile (node:internal/modules/cjs/loader:1903:20)
+    at node:internal/modules/cjs/loader:2060:10
+    at Object.transformer (/workspace/scratch/adf0f4fc1910/feed-test/repo/node_modules/tsx/dist/register-D46fvsV_.cjs:3:844)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1674:12)
+    at require (node:internal/modules/helpers:157:16)
+    at <anonymous> (/workspace/scratch/adf0f4fc1910/feed-test/repo/components/JobViewSwitcher.tsx:4:20)
+
+Node.js v24.22.1
+✖ tests/job-sector.test.tsx (428.858612ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 16
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 442.497015
+
+✖ failing tests:
+
+test at tests/google-indexing-policy.test.ts:2:3241
+✖ does not release unused JobG8 capacity to non-JobG8 jobs (5.699909ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  200 !== 195
+  
+      at TestContext.<anonymous> (/workspace/scratch/adf0f4fc1910/feed-test/repo/tests/google-indexing-policy.test.ts:81:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 200,
+    expected: 195,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/job-page-search.test.ts:2:2455
+✖ mobile navigation keeps Home and hides Browse Jobs (2.451335ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /<nav className="ml-auto flex shrink-0/. Input:
+  
+  '// components/Header.tsx - Site header component\n' +
+    "'use client';\n" +
+    '\n' +
+    "import Link from 'next/link';\n" +
+    "import { useSession } from 'next-auth/react';\n" +
+    '\n' +
+    "import { usePathname } from 'next/navigation';\n" +
+    '\n' +
+    'export default function Header() {\n' +
+    '    const { data: session } = useSession();\n' +
+    '    const pathname = usePathname();\n' +
+    "    const isAdmin = pathname?.startsWith('/admin');\n" +
+    "    const isHome = pathname === '/';\n" +
+    '\n' +
+    '    if (isAdmin) {\n' +
+    '        return null;\n' +
+    '    }\n' +
+    '\n' +
+    "    const homeLink = isAdmin ? '/admin/jobs' : '/';\n" +
+    '\n' +
+    '    return (\n' +
+    '        <header className="bg-white shadow-sm border-b border-gray-200">\n' +
+    '            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">\n' +
+    '                <div className="flex min-h-16 items-center justify-between gap-3 py-3">\n' +
+    '                    {/* Logo */}\n' +
+    '                    <Link href={homeLink} className="shrink-0">\n' +
+    '                        <div className="leading-tight">\n' +
+    '  <div className="text-[19px] font-medium tracking-tight text-gray-900">\n' +
+    '    Ontap Job Search\n' +
+    '  </div>\n' +
+    '  <div className="mt-1 text-[11px] text-slate-500">\n' +
+    '    Updated daily • No sign-up\n' +
+    '  </div>\n' +
+    '</div>\n' +
+    '                    </Link>\n' +
+    '\n' +
+    '                    {/* Navigation */}\n' +
+    '                    <nav className="ml-auto flex flex-wrap items-center justify-end gap-x-4 gap-y-1 text-sm sm:gap-x-6">\n' +
+    '                        <Link\n' +
+    '                            href="/ai-at-work"\n' +
+    "                            className={`text-gray-700 hover:text-blue-600 font-normal transition-colors ${isHome ? '' : 'hidden sm:inline'}`}\n" +
+    '                        >\n' +
+    '                            AI at work\n' +
+    '                        </Link>\n' +
+    '                        {!isHome && (\n' +
+    '                            <Link\n' +
+    '                               href="/"\n' +
+    '                                className="text-gray-700 hover:text-blue-600 font-normal transition-colors"\n' +
+    '                            >\n' +
+    '                                Home\n' +
+    '                            </Link>\n' +
+    '                        )}\n' +
+    '                        {!isAdmin && (\n' +
+    '                            <Link\n' +
+    '                                href="/browse-jobs"\n' +
+    "                                className={`text-gray-700 hover:text-blue-600 font-normal transition-colors ${isHome ? '' : 'hidden sm:inline'}`}\n" +
+    '                            >\n' +
+    '                                Browse Jobs\n' +
+    '                            </Link>\n' +
+    '                        )}\n' +
+    '                        {session && !isHome && !isAdmin && (\n' +
+    '                            <Link\n' +
+    '                                href="/admin/jobs"\n' +
+    '                                className="text-gray-700 hover:text-blue-600 font-normal transition-colors"\n' +
+    '                            >\n' +
+    '                                Admin\n' +
+    '                            </Link>\n' +
+    '                        )}\n' +
+    '                    </nav>\n' +
+    '                </div>\n' +
+    '            </div>\n' +
+    '        </header>\n' +
+    '    );\n' +
+    '}\n'
+  
+      at TestContext.<anonymous> (/workspace/scratch/adf0f4fc1910/feed-test/repo/tests/job-page-search.test.ts:31:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '// components/Header.tsx - Site header component\n\'use client\';\n\nimport Link from \'next/link\';\nimport { useSession } from \'next-auth/react\';\n\nimport { usePathname } from \'next/navigation\';\n\nexport default function Header() {\n    const { data: session } = useSession();\n    const pathname = usePathname();\n    const isAdmin = pathname?.startsWith(\'/admin\');\n    const isHome = pathname === \'/\';\n\n    if (isAdmin) {\n        return null;\n    }\n\n    const homeLink = isAdmin ? \'/admin/jobs\' : \'/\';\n\n    return (\n        <header className="bg-white shadow-sm border-b border-gray-200">\n            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">\n                <div className="flex min-h-16 items-center justify-between gap-3 py-3">\n                    {/* Logo */}\n                    <Link href={homeLink} className="shrink-0">\n                        <div className="leading-tight">\n  <div className="text-[19px] font-medium tracking-tight text-gray-900">\n    Ontap Job Search\n  </div>\n  <div className="mt-1 text-[11px] text-slate-500">\n    Updated daily • No sign-up\n  </div>\n</div>\n                    </Link>\n\n                    {/* Navigation */}\n                    <nav className="ml-auto flex flex-wrap items-center justify-end gap-x-4 gap-y-1 text-sm sm:gap-x-6">\n                        <Link\n                            href="/ai-at-work"\n                            className={`text-gray-700 hover:text-blue-600 font-normal transition-colors ${isHome ? \'\' : \'hidden sm:inline\'}`}\n                        >\n                            AI at work\n                        </Link>\n                        {!isHome && (\n                            <Link\n                               href="/"\n                                className="text-gray-700 hover:text-blue-600 font-normal transition-colors"\n                            >\n                                Home\n                            </Link>\n                        )}\n                        {!isAdmin && (\n                            <Link\n                                href="/browse-jobs"\n                                className={`text-gray-700 hover:text-blue-600 font-normal transition-colors ${isHome ? \'\' : \'hidden sm:inline\'}`}\n                            >\n                                Browse Jobs\n                            </Link>\n                        )}\n                        {session && !isHome && !isAdmin && (\n                            <Link\n                                href="/admin/jobs"\n                                className="text-gray-700 hover:text-blue-600 font-normal transition-colors"\n                            >\n                                Admin\n                            </Link>\n                        )}\n                    </nav>\n                </div>\n            </div>\n        </header>\n    );\n}\n',
+    expected: /<nav className="ml-auto flex shrink-0/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/job-sector.test.tsx:1:1
+✖ tests/job-sector.test.tsx (428.858612ms)
+  'test failed'

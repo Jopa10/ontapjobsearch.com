@@ -1,0 +1,1173 @@
+{
+  "feed_rows": 50000,
+  "canonical_jobs": 6039,
+  "sources": {
+    "JobG8": 5477,
+    "NHS Jobs": 352,
+    "Teaching Vacancies": 210
+  },
+  "categories": {
+    "admin_service": {
+      "saved_selects": 1175,
+      "outcomes": {
+        "absent_from_captured_feed": 950,
+        "published": 167,
+        "not_published_with_selector_diagnostic": 55,
+        "conflicting_metadata_withheld": 3
+      },
+      "exceptions": [
+        {
+          "job_id": "2055386",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-06",
+            "title": "Remote Conveyancing Paralegal",
+            "employer": "LEGAL TALENT PARTNERS LIMITED",
+            "town": "South Glamorgan"
+          },
+          "diagnostics": [
+            {
+              "title": "Remote Conveyancing Paralegal",
+              "region": "Wales South - Cardiff & Vale",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - hard pass title pattern: legal, paralegal",
+              "region_selection_message": "Wales South - Cardiff & Vale selection complete: all 22 selected role(s) are HIGH_CONFIDENCE plus Cardiff ELASTIC_FIT roles."
+            }
+          ]
+        },
+        {
+          "job_id": "2055390",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-06",
+            "title": "Remote Conveyancing Paralegal",
+            "employer": "LEGAL TALENT PARTNERS LIMITED",
+            "town": "Cambridgeshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Remote Conveyancing Paralegal",
+              "region": "Cambridgeshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - hard pass title pattern: legal, paralegal",
+              "region_selection_message": "Cambridgeshire manual_select applied additively: 1 row(s) prioritised; 43 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "2055403",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-06",
+            "title": "Remote Conveyancing Paralegal",
+            "employer": "LEGAL TALENT PARTNERS LIMITED",
+            "town": "Northamptonshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Remote Conveyancing Paralegal",
+              "region": "Northamptonshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - hard pass title pattern: legal, paralegal",
+              "region_selection_message": "Northamptonshire manual_select applied additively: 4 row(s) prioritised; 76 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "2055742",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-26",
+            "title": "Accounts Administrator",
+            "employer": "ICONIC RESOURCING LTD",
+            "town": "Lanarkshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Service Administrator",
+              "region": "Northern Ireland - East",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "Salary not stated: owner rule excludes blank pay",
+              "region_selection_message": "Northern Ireland - East manual_select applied additively: 1 row(s) prioritised; 61 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "2059086",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-06",
+            "title": "Paralegal",
+            "employer": "AWD online",
+            "town": "Midlothian"
+          },
+          "diagnostics": [
+            {
+              "title": "Paralegal",
+              "region": "Scotland Central - Edinburgh & Lothians",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - hard pass title pattern: legal, paralegal",
+              "region_selection_message": "Scotland Central - Edinburgh & Lothians manual_select applied additively: 1 row(s) prioritised; 23 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "2078827",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-06",
+            "title": "Service Desk Analyst",
+            "employer": "Reed",
+            "town": "Merseyside"
+          },
+          "diagnostics": [
+            {
+              "title": "Service Desk Analyst",
+              "region": "Merseyside - Liverpool",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: service desk analyst, IT/software support title",
+              "region_selection_message": "Merseyside - Liverpool manual_select applied additively: 3 row(s) prioritised; 33 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "2088843",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-08",
+            "title": "Liability Claims Handler",
+            "employer": "MPL Claims Management",
+            "town": "Essex"
+          },
+          "diagnostics": [
+            {
+              "title": "Liability Claims Handler",
+              "region": "Essex",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: claims handler",
+              "region_selection_message": "Essex manual_select applied additively: 5 row(s) prioritised; 85 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "2164756",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-25",
+            "title": "Assistant Accountant",
+            "employer": "NLB Solutions",
+            "town": "Hertfordshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "London",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "Salary not stated: owner rule excludes blank pay",
+              "region_selection_message": "London manual_select applied additively: 20 row(s) prioritised; 338 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_224789635",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Bookkeeper / Management Accountant",
+            "employer": "Curtis Recruitment Limited",
+            "town": "Oxfordshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Bookkeeper / Management Accountant",
+              "region": "Oxfordshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Oxfordshire manual_select applied additively: 6 row(s) prioritised; 48 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225151871",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "NLB Solutions",
+            "town": "Hertfordshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "London",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "London manual_select applied additively: 20 row(s) prioritised; 338 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225591722",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Document Controller",
+            "employer": "Falcon Green Personnel",
+            "town": "Birmingham"
+          },
+          "diagnostics": [
+            {
+              "title": "Document Controller",
+              "region": "West Midlands - Birmingham & Solihull",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "Document Controller salary over \u00a345k",
+              "region_selection_message": "West Midlands - Birmingham & Solihull manual_select applied additively: 6 row(s) prioritised; 79 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225658873",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Hays Accounts and Finance",
+            "town": "Lancashire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Lancashire - Central",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Lancashire - Central selection complete: all 14 valid selected role(s) retained after HIGH_CONFIDENCE, Preston ELASTIC_FIT and other ELASTIC_FIT ordering."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225662283",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Brellis Recruitment",
+            "town": "Oxfordshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Oxfordshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Oxfordshire manual_select applied additively: 6 row(s) prioritised; 48 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225666799",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Management Accountant",
+            "employer": "Michael Page",
+            "town": "Lincolnshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Management Accountant",
+              "region": "Lincolnshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Lincolnshire selection complete: all 27 valid selected role(s) retained after HIGH_CONFIDENCE, Lincoln ELASTIC_FIT and other ELASTIC_FIT ordering."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225671157",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Michael Page",
+            "town": "Hampshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Hampshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Hampshire manual_select applied additively: 6 row(s) prioritised; 135 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225672363",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Finance Assistant - Assistant Accountant",
+            "employer": "Morgan Mckinley (Crawley)",
+            "town": "Sussex"
+          },
+          "diagnostics": [
+            {
+              "title": "Finance Assistant - Assistant Accountant",
+              "region": "Sussex",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Sussex manual_select applied additively: 6 row(s) prioritised; 83 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225673602",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Document Controller",
+            "employer": "Fawkes & Reece London",
+            "town": "London"
+          },
+          "diagnostics": [
+            {
+              "title": "Document Controller",
+              "region": "London",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "Document Controller salary over \u00a345k",
+              "region_selection_message": "London manual_select applied additively: 20 row(s) prioritised; 338 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225673718",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Document Controller",
+            "employer": "Fawkes & Reece London",
+            "town": "London"
+          },
+          "diagnostics": [
+            {
+              "title": "Document Controller",
+              "region": "London",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "Document Controller salary over \u00a345k",
+              "region_selection_message": "London manual_select applied additively: 20 row(s) prioritised; 338 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225675414",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Group Assistant Accountant",
+            "employer": "Morgan McKinley (Milton Keynes)",
+            "town": "Oxfordshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Group Assistant Accountant",
+              "region": "Oxfordshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Oxfordshire manual_select applied additively: 6 row(s) prioritised; 48 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225676663",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Customer Service / Sales Support Team Leader",
+            "employer": "Huntress - Leeds",
+            "town": "Leeds"
+          },
+          "diagnostics": [
+            {
+              "title": "Customer Service / Sales Support Team Leader",
+              "region": "Yorkshire - West",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - hard pass title pattern: lead, leader",
+              "region_selection_message": "Yorkshire - West manual_select applied additively: 11 row(s) prioritised; 112 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225682276",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Bookkeeper/ Management Accountant",
+            "employer": "hireful",
+            "town": "Oxfordshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Bookkeeper/ Management Accountant",
+              "region": "Oxfordshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Oxfordshire manual_select applied additively: 6 row(s) prioritised; 48 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225685334",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Marc Daniels",
+            "town": "Middlesex"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "London",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "London manual_select applied additively: 20 row(s) prioritised; 338 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225686411",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Michael Page",
+            "town": "Lincolnshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Lincolnshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Lincolnshire selection complete: all 27 valid selected role(s) retained after HIGH_CONFIDENCE, Lincoln ELASTIC_FIT and other ELASTIC_FIT ordering."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225686657",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "CMA Recruitment Group",
+            "town": "Hampshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Hampshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Hampshire manual_select applied additively: 6 row(s) prioritised; 135 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225689923",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant (Part Qual)",
+            "employer": "Morgan Mckinley (Crawley)",
+            "town": "Sussex"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant (Part Qual)",
+              "region": "Sussex",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Sussex manual_select applied additively: 6 row(s) prioritised; 83 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225693892",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "CMA Recruitment Group",
+            "town": "Hampshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Hampshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Hampshire manual_select applied additively: 6 row(s) prioritised; 135 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225695130",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant/Accounts Assistant",
+            "employer": "Alexander Lloyd",
+            "town": "Sussex"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant/Accounts Assistant",
+              "region": "Sussex",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Sussex manual_select applied additively: 6 row(s) prioritised; 83 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225696140",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Michael Page",
+            "town": "Hampshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Hampshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Hampshire manual_select applied additively: 6 row(s) prioritised; 135 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225698401",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-08",
+            "title": "Assistant Management Accountant",
+            "employer": "Zachary Daniels Recruitment",
+            "town": "London"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Management Accountant",
+              "region": "London",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "London manual_select applied additively: 20 row(s) prioritised; 338 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225701756",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Management Accountant",
+            "employer": "Hays Accounts and Finance",
+            "town": "Hampshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Management Accountant",
+              "region": "Hampshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Hampshire manual_select applied additively: 6 row(s) prioritised; 135 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225703471",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Management Accountant",
+            "employer": "Pure Resourcing Solutions Limited",
+            "town": "Cambridgeshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Management Accountant",
+              "region": "Cambridgeshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Cambridgeshire manual_select applied additively: 1 row(s) prioritised; 43 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225704238",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Search Consultancy Ltd",
+            "town": "Yorkshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Yorkshire - West",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Yorkshire - West manual_select applied additively: 11 row(s) prioritised; 112 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225705047",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Management Accountant",
+            "employer": "Get-Recruited (UK) Ltd",
+            "town": "Manchester"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Management Accountant",
+              "region": "Greater Manchester - Manchester & Salford",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Greater Manchester - Manchester & Salford manual_select applied additively: 11 row(s) prioritised; 86 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225705282",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Gleeson Recruitment Group",
+            "town": "Oxfordshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Berkshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Berkshire manual_select applied additively: 3 row(s) prioritised; 65 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225709317",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Four Squared Recruitment Ltd",
+            "town": "Birmingham"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "West Midlands - Birmingham & Solihull",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "West Midlands - Birmingham & Solihull manual_select applied additively: 6 row(s) prioritised; 79 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225711045",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Big Sky Additions",
+            "town": "Norfolk"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Norfolk",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Norfolk manual_select applied additively: 5 row(s) prioritised; 48 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225713436",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Sewell Wallis Ltd",
+            "town": "Yorkshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Yorkshire - South",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Yorkshire - South manual_select applied additively: 3 row(s) prioritised; 55 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225713536",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Yolk Recruitment",
+            "town": "Cardiff"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Wales South - Cardiff & Vale",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Wales South - Cardiff & Vale selection complete: all 22 selected role(s) are HIGH_CONFIDENCE plus Cardiff ELASTIC_FIT roles."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225713975",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Procurement Administrator",
+            "employer": "JAM Recruitment Ltd",
+            "town": "Gwent"
+          },
+          "diagnostics": [
+            {
+              "title": "Procurement Administrator",
+              "region": "Wales South - Gwent",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "salary over \u00a350k",
+              "region_selection_message": "Wales South - Gwent selection complete: all 9 valid selected role(s) retained after HIGH_CONFIDENCE, Newport ELASTIC_FIT and other ELASTIC_FIT ordering."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225715447",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Interim Assistant Accountant",
+            "employer": "Michael Page",
+            "town": "Clwyd"
+          },
+          "diagnostics": [
+            {
+              "title": "Interim Assistant Accountant",
+              "region": "North Wales - East",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "North Wales - East selection complete: all 11 valid selected role(s) retained after HIGH_CONFIDENCE, Wrexham ELASTIC_FIT and other ELASTIC_FIT ordering."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225719266",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Executive Assistant",
+            "employer": "Commercial Recruitment",
+            "town": "Lincolnshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Commercial Business Assistant",
+              "region": "Lincolnshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: OUT_OF_SCOPE - no admin/service title classification match",
+              "region_selection_message": "Lincolnshire selection complete: all 27 valid selected role(s) retained after HIGH_CONFIDENCE, Lincoln ELASTIC_FIT and other ELASTIC_FIT ordering."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225721739",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Document Controller",
+            "employer": "RTL Group Ltd",
+            "town": "Northamptonshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Document Controller",
+              "region": "Northamptonshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "Document Controller salary over \u00a345k",
+              "region_selection_message": "Northamptonshire manual_select applied additively: 4 row(s) prioritised; 76 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225724752",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Accountant / Accounts Assistant Bexhill",
+            "employer": "Placr Recruitment",
+            "town": "Sussex"
+          },
+          "diagnostics": [
+            {
+              "title": "Accountant / Accounts Assistant Bexhill",
+              "region": "Sussex",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Sussex manual_select applied additively: 6 row(s) prioritised; 83 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225725322",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Management Accountant",
+            "employer": "Hamilton Woods",
+            "town": "Leicestershire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Management Accountant",
+              "region": "Leicestershire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Leicestershire manual_select applied additively: 4 row(s) prioritised; 76 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225725934",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "CMA Recruitment Group",
+            "town": "Hampshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Hampshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Hampshire manual_select applied additively: 6 row(s) prioritised; 135 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225728408",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Management Accountant",
+            "employer": "Kingscroft Professional Resources",
+            "town": "Mid Glamorgan"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Management Accountant",
+              "region": "Wales South - Valleys",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Wales South - Valleys manual_select applied additively: 1 row(s) prioritised; 9 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225729117",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Mpeople Recruitment North West",
+            "town": "Yorkshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Yorkshire - West",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Yorkshire - West manual_select applied additively: 11 row(s) prioritised; 112 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225729408",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "Venture Recruitment Partners",
+            "town": "Hampshire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Hampshire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Hampshire manual_select applied additively: 6 row(s) prioritised; 135 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225730254",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Management Accountant",
+            "employer": "Hays Senior Finance",
+            "town": "Devon"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Management Accountant",
+              "region": "Devon",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Devon selection complete: all 58 valid selected role(s) retained after HIGH_CONFIDENCE, Exeter ELASTIC_FIT and other ELASTIC_FIT ordering."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225730677",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Accountant",
+            "employer": "RECfinancial",
+            "town": "Leicestershire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Leicestershire",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Leicestershire manual_select applied additively: 4 row(s) prioritised; 76 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225730840",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Assistant Management Accountant",
+            "employer": "Hays Accounts and Finance",
+            "town": "Lancashire"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Management Accountant",
+              "region": "Lancashire - East",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Lancashire - East selection complete: all 15 valid selected role(s) retained after HIGH_CONFIDENCE, Blackburn ELASTIC_FIT and other ELASTIC_FIT ordering."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225732166",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Temporary Assistant Accountant",
+            "employer": "Escape",
+            "town": "West Lothian"
+          },
+          "diagnostics": [
+            {
+              "title": "Temporary Assistant Accountant",
+              "region": "Scotland Central - Edinburgh & Lothians",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "Salary not stated: owner rule excludes blank pay",
+              "region_selection_message": "Scotland Central - Edinburgh & Lothians manual_select applied additively: 1 row(s) prioritised; 23 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225738344",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Document Controller",
+            "employer": "DS Recruiting Services Ltd",
+            "town": "London"
+          },
+          "diagnostics": [
+            {
+              "title": "Document Controller",
+              "region": "London",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "Document Controller salary over \u00a345k",
+              "region_selection_message": "London manual_select applied additively: 20 row(s) prioritised; 338 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225742498",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-25",
+            "title": "Assistant Accountant",
+            "employer": "Michael Page",
+            "town": "Sussex"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Sussex",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Sussex manual_select applied additively: 6 row(s) prioritised; 83 selected."
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225742499",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-25",
+            "title": "Assistant Accountant",
+            "employer": "Michael Page",
+            "town": "Sussex"
+          },
+          "diagnostics": [
+            {
+              "title": "Assistant Accountant",
+              "region": "Sussex",
+              "selection_status": "",
+              "selector_outcome": "EXCLUDE_AUTOMATIC",
+              "reason": "title classification: HARD_PASS - absolute hard-fail title pattern: accountant/accountancy senior role",
+              "region_selection_message": "Sussex manual_select applied additively: 6 row(s) prioritised; 83 selected."
+            }
+          ]
+        }
+      ]
+    },
+    "support_worker": {
+      "saved_selects": 83,
+      "outcomes": {
+        "absent_from_captured_feed": 66,
+        "published": 15,
+        "not_published_with_selector_diagnostic": 2
+      },
+      "exceptions": [
+        {
+          "job_id": "2052552",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-09-12",
+            "title": "Support Worker - Belfast",
+            "employer": "First Choice Selection Services",
+            "town": "Belfast"
+          },
+          "diagnostics": [
+            {
+              "title": "Litigation Partner",
+              "region": "",
+              "selection_status": "",
+              "selector_outcome": null,
+              "reason": "invalid location: town not in lookup",
+              "region_selection_message": ""
+            }
+          ]
+        },
+        {
+          "job_id": "23643_225678003",
+          "saved_decision": {
+            "action": "select",
+            "decided_on": "2026-10-20",
+            "title": "Healthcare Assistant",
+            "employer": "Nurseplus UK Ltd",
+            "town": "Sussex"
+          },
+          "diagnostics": [
+            {
+              "title": "Healthcare Assistant",
+              "region": "",
+              "selection_status": "",
+              "selector_outcome": null,
+              "reason": "invalid location: town not in lookup",
+              "region_selection_message": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "unexplained": []
+}

@@ -1,0 +1,18 @@
+.....F.........
+======================================================================
+FAIL: test_description_place_can_route_other_greater_manchester_slices (test_service_admin_structured_geo.StructuredJobG8GeographyTests.test_description_place_can_route_other_greater_manchester_slices) (description='Administrator - Ashton Under Lyne (Tameside). Part time.')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/adf0f4fc1910/feed-test/repo/tests/test_service_admin_structured_geo.py", line 238, in test_description_place_can_route_other_greater_manchester_slices
+    self.assertEqual(expected_town, result.town)
+AssertionError: 'Ashton Under Lyne' != 'Ashton-Under-Lyne'
+- Ashton Under Lyne
+?       ^     ^
++ Ashton-Under-Lyne
+?       ^     ^
+
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.014s
+
+FAILED (failures=1)

@@ -1,0 +1,75 @@
+--- a/.github/workflows/run-full-jobg8-daily-process.yml
++++ b/.github/workflows/run-full-jobg8-daily-process.yml
+@@ -95,7 +95,7 @@
+             --zip "$RUNNER_TEMP/jobg8.zip" \
+             --output pipeline/input/jobg8.xlsx \
+             --expected-min 5000 \
+-            --expected-max 50000
++            --expected-max 20000
+           test -s pipeline/input/jobg8.xlsx
+ 
+       - name: Test JobG8 feed health guard
+--- a/.github/workflows/apply-jobg8-review-decisions.yml
++++ b/.github/workflows/apply-jobg8-review-decisions.yml
+@@ -100,7 +100,7 @@
+             --zip /tmp/jobg8-reviewed.zip \
+             --output pipeline/input/jobg8.xlsx \
+             --expected-min 5000 \
+-            --expected-max 50000
++            --expected-max 20000
+           test -s pipeline/input/jobg8.xlsx
+ 
+       - name: Confirm restored feed matches reviewed date
+--- a/.github/workflows/test-jobg8-direct-fetch.yml
++++ b/.github/workflows/test-jobg8-direct-fetch.yml
+@@ -40,7 +40,7 @@
+             --zip "$RUNNER_TEMP/jobg8.zip" \
+             --output "$RUNNER_TEMP/jobg8.xlsx" \
+             --expected-min 5000 \
+-            --expected-max 50000
++            --expected-max 20000
+ 
+       - name: Validate generated workbook
+         run: |
+--- a/pipeline/scripts/jobg8_xml_adapter.py
++++ b/pipeline/scripts/jobg8_xml_adapter.py
+@@ -129,7 +129,7 @@
+     parser.add_argument("--zip", required=True, type=Path)
+     parser.add_argument("--output", required=True, type=Path)
+     parser.add_argument("--expected-min", type=int, default=5000)
+-    parser.add_argument("--expected-max", type=int, default=50000)
++    parser.add_argument("--expected-max", type=int, default=20000)
+     args = parser.parse_args()
+     convert(args.zip, args.output, args.expected_min, args.expected_max)
+ 
+--- a/pipeline/scripts/materialize_current_jobg8.py
++++ b/pipeline/scripts/materialize_current_jobg8.py
+@@ -51,7 +51,7 @@
+     zip_path: Path,
+     output_path: Path,
+     expected_min: int = 5000,
+-    expected_max: int = 50000,
++    expected_max: int = 20000,
+ ) -> int:
+     download(feed_url, zip_path)
+     clear_pipeline_input(output_path.parent)
+@@ -67,7 +67,7 @@
+     parser.add_argument("--zip", required=True, type=Path)
+     parser.add_argument("--output", required=True, type=Path)
+     parser.add_argument("--expected-min", type=int, default=5000)
+-    parser.add_argument("--expected-max", type=int, default=50000)
++    parser.add_argument("--expected-max", type=int, default=20000)
+     args = parser.parse_args()
+ 
+     count = materialize(
+--- a/pipeline/scripts/materialize_jobg8_archive_month.py
++++ b/pipeline/scripts/materialize_jobg8_archive_month.py
+@@ -112,7 +112,7 @@
+     parser.add_argument("--s3-start-date", default="2026-08-14")
+     parser.add_argument("--adapter", type=Path, default=Path("pipeline/scripts/jobg8_xml_adapter.py"))
+     parser.add_argument("--expected-min", type=int, default=5000)
+-    parser.add_argument("--expected-max", type=int, default=50000)
++    parser.add_argument("--expected-max", type=int, default=20000)
+     args = parser.parse_args()
+ 
+     month_bounds(args.month)

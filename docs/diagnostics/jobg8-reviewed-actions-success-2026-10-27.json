@@ -1,0 +1,146 @@
+{
+  "steps": [
+    {
+      "name": "26-reviewed-feed-restore",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 32.55,
+      "status": "PASS"
+    },
+    {
+      "name": "26b-reviewed-decision-fanout",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 0.26,
+      "status": "PASS"
+    },
+    {
+      "name": "27-reviewed-all-families",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 1822.77,
+      "status": "PASS"
+    },
+    {
+      "name": "28-reviewed-external-0",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 0.06,
+      "status": "PASS"
+    },
+    {
+      "name": "28-reviewed-external-1",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 0.06,
+      "status": "PASS"
+    },
+    {
+      "name": "28-reviewed-external-2",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 0.73,
+      "status": "PASS"
+    },
+    {
+      "name": "29-reviewed-nhs",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 327.21,
+      "status": "PASS"
+    },
+    {
+      "name": "30-reviewed-enrich-admin",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 28.1,
+      "status": "PASS"
+    },
+    {
+      "name": "31-reviewed-support",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 214.11,
+      "status": "PASS"
+    },
+    {
+      "name": "32-reviewed-enrich-support",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 27.41,
+      "status": "PASS"
+    },
+    {
+      "name": "33-reviewed-profile",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 11.93,
+      "status": "PASS"
+    },
+    {
+      "name": "34-reviewed-exclusions",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 0.36,
+      "status": "PASS"
+    },
+    {
+      "name": "35-reviewed-compose",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 203.37,
+      "status": "PASS"
+    },
+    {
+      "name": "36-reviewed-city-derive",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 0.62,
+      "status": "PASS"
+    },
+    {
+      "name": "37-reviewed-city-maintain",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 0.51,
+      "status": "PASS"
+    },
+    {
+      "name": "38-reviewed-accountant-guard",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 0.2,
+      "status": "PASS"
+    },
+    {
+      "name": "39-reviewed-ledger",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 1.35,
+      "status": "PASS"
+    },
+    {
+      "name": "40-reviewed-search",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 59.59,
+      "status": "PASS"
+    },
+    {
+      "name": "41-reviewed-production-build",
+      "exit": 0,
+      "expected": 0,
+      "seconds": 277.12,
+      "status": "PASS"
+    }
+  ],
+  "production_changed": false,
+  "local_complete": true,
+  "active": null,
+  "unapplied_decisions": [],
+  "saved_selection_published": true,
+  "canonical_jobs": 6016,
+  "conflicting_ids_published": [],
+  "same_family_withholding_leaks": [],
+  "clean_output_build_passed": true
+}

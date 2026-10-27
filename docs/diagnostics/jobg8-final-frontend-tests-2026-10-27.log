@@ -1,0 +1,254 @@
+✔ exposes a stable analytics-ready event for early client events (0.665431ms)
+✔ suppresses only explicit crawler or automation user agents (0.264228ms)
+✔ recognises campaign parameters without treating ordinary queries as campaigns (0.193461ms)
+✔ uses non-identifying page contexts and elapsed whole days (0.134162ms)
+✔ apply control exposes a normal crawlable destination (11.99565ms)
+✔ registers the twenty-two approved permanent broad city routes (2.364966ms)
+✔ matches exact localities conservatively while accepting a trailing hybrid qualifier (0.659882ms)
+✔ regional breadcrumb target preserves the governed region label (0.162695ms)
+✔ nearby distance enforcement uses a fifteen-mile straight-line ceiling (0.21967ms)
+✔ builds an externally publishable Ontap URL with complete campaign attribution (1.902881ms)
+✔ preserves an existing query while replacing stale campaign values (1.059874ms)
+✔ refuses to create tracked links for a different website (0.571049ms)
+✔ recognises a job only when the city page meets its live threshold (13.251108ms)
+✔ does not assign unrelated jobs to an active city page (0.195123ms)
+✔ builds the agreed role, region and city breadcrumb for York (1.444432ms)
+✔ regional JSON paths expose every active registered child city (17.081604ms)
+✔ configured regional slices resolve to their public job-search parent route (0.37205ms)
+✔ a city page does not hide LIVE regional inventory; an established static slice still owns its data (16.148375ms)
+✔ uses approved role, sector and straight-line locality rules only (131.395262ms)
+✔ permits private-to-private matches but never points a private job to public work (0.604719ms)
+✔ uses the published family when an exact source-title relationship is absent (1.034787ms)
+✔ an unknown landing employer can see same-family private jobs but never public jobs (0.975137ms)
+✔ resolves a device position to an approved town and finds jobs within 15 miles (28.335864ms)
+✔ reranks governed role matches around the saved location (61.575893ms)
+✔ keeps deletion notifications queued until Google accepts them (2.090634ms)
+✔ uses JobG8 capacity first and caps non-JobG8 jobs at 20 (9.843703ms)
+✖ does not release unused JobG8 capacity to non-JobG8 jobs (4.417894ms)
+✔ shares the daily allowance and never retries the same URL/type (1.694579ms)
+✔ uses the real America/Los_Angeles day across daylight-saving boundaries (11.310219ms)
+✔ uses a future quota increase without changing the protected allocations (7.726109ms)
+✔ retains future protected slots after an earlier high-quota push run (6.3766ms)
+✔ homepage recent jobs prefer different roles and regions (12.229772ms)
+✔ homepage recent jobs exclude vacancies without a clear numeric salary (0.465861ms)
+✔ homepage recent jobs fall back safely when fewer than four roles exist (0.238438ms)
+✔ homepage salary adds separators only to annual amounts (9.025634ms)
+✔ renders the hybrid badge and exact arrangement for a qualifying job (9.451483ms)
+✔ renders the badge without duplicate generic wording (0.656788ms)
+✔ does not render a badge for onsite or unclassified jobs (0.424329ms)
+✔ long flat NHS descriptions become several readable paragraphs without rewriting text (5.211478ms)
+✔ existing structured descriptions preserve headings, paragraphs and bullets (1.638084ms)
+✔ short flat non-NHS descriptions are left as one paragraph (2.172728ms)
+✔ pages with no NHS jobs keep the established location-first ordering (8.999034ms)
+✔ accepted NHS jobs are spaced after four core jobs and Tier A remains ahead of Tier B (1.078943ms)
+✔ switchability and freshness only rank NHS jobs within the existing Tier priority (0.348194ms)
+✔ separates a JobG8 recruiter from duplicated contract text (31.756739ms)
+✔ keeps source available for contextual application cues but not public facts (0.411799ms)
+✔ omits uncertain work and on-site labels (0.274392ms)
+✔ uses genuine work pattern, hybrid and dates when supplied (21.723329ms)
+✔ distinguishes source and Ontap publication dates (0.740043ms)
+✔ formatters reject uncertain dates and clean salaries (0.281623ms)
+✔ job-page search submits both governed search fields (1.261467ms)
+✔ mobile search starts collapsed and exposes the Ontap magnifying glass (0.231298ms)
+✖ mobile navigation keeps Home and hides Browse Jobs (3.387164ms)
+✔ mobile job pages hide only the secondary regional listing link (0.218789ms)
+✔ mobile job-page onward links use compact single-line wording (0.29903ms)
+✔ saved-location count and onward link use the same 15-mile search (0.13942ms)
+✔ saved locations render immediately while their count refreshes in the background (0.156205ms)
+✔ nearby location tracking identifies where unsuccessful attempts stop (0.161172ms)
+✔ nearby searches without a role return the full nearby inventory (0.188944ms)
+✔ vacancy recommendations stay anchored on the vacancy (0.249515ms)
+✔ vacancies without approved nearby matches show only the regional fallback link (0.136726ms)
+✔ stable Ontap first-published date makes a complete JobG8 job eligible (3.089787ms)
+✔ source date and JobG8 StartDate basis both take precedence when supplied (1.59576ms)
+✔ NHS fractional source timestamps emit a factual Google date without inventing a timezone (0.472391ms)
+✔ fractional timezone-less timestamps remain rejected outside NHS Jobs (0.36637ms)
+✔ teaser descriptions never emit JobPosting schema (0.203546ms)
+✔ invalid or unlabelled dates fail closed (0.1927ms)
+✔ direct employers remain named (0.415765ms)
+✔ fully remote jobs use Google remote fields without a false workplace (0.242285ms)
+✔ generic locality is omitted while the factual region remains (0.462555ms)
+✔ valid expiry is emitted and invalid expiry fails closed (0.487333ms)
+✔ a place typed into the role box searches location and region (15.93962ms)
+✔ a role typed into the location box still works (2.601963ms)
+✔ common role variants and aliases are understood (5.442935ms)
+✔ minor job-title and location typos are tolerated (1.831965ms)
+✔ messy admin spellings resolve to the admin concept (2.075892ms)
+✔ common office typo is corrected in the role search (2.920721ms)
+✔ common abbreviated role phrases are canonicalised before matching (3.196136ms)
+✔ location abbreviations and truncations stay geographic (2.219828ms)
+✔ ambiguous short location typos resolve to the strongest geographic candidate (6.097439ms)
+✔ London prefixes do not broaden into descriptions or other fields (2.817717ms)
+✔ mixed one-box searches infer geography instead of leaking nationally (7.121089ms)
+✔ narrow role searches stay anchored, while admin can use the curated admin/service family (3.467565ms)
+✔ compound role searches can use category context but still need the narrow title anchor (1.266895ms)
+✔ broad generic searches remain broad (1.111281ms)
+✔ two boxes can be used normally and both constraints are respected (4.169369ms)
+✔ strong title/location matches rank ahead of description-only matches (0.878862ms)
+/workspace/scratch/adf0f4fc1910/feed-test/e2e-50000/components/JobViewSwitcher.module.css:1
+.controls {
+^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1861:18)
+    at Module._compile (node:internal/modules/cjs/loader:1903:20)
+    at node:internal/modules/cjs/loader:2060:10
+    at Object.transformer (/workspace/scratch/adf0f4fc1910/feed-test/e2e-50000/node_modules/tsx/dist/register-D46fvsV_.cjs:3:844)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1674:12)
+    at require (node:internal/modules/helpers:157:16)
+    at <anonymous> (/workspace/scratch/adf0f4fc1910/feed-test/e2e-50000/components/JobViewSwitcher.tsx:4:20)
+
+Node.js v24.22.1
+✖ tests/job-sector.test.tsx (593.605169ms)
+✔ Belfast title evidence is excluded from London (3.06605ms)
+✔ generic London stays on the London parent without being guessed into a sub-area (7.55453ms)
+✔ Central London evidence is recognised (0.771501ms)
+✔ North and North-West London evidence is recognised (0.483327ms)
+✔ East and North-East London evidence is recognised (0.328644ms)
+✔ South and South-East London evidence is recognised (0.163676ms)
+✔ West and South-West London evidence is recognised (0.156936ms)
+✔ specific description evidence is used when the headline only says London (0.210777ms)
+✔ multi-area London roles can appear in each evidenced sub-area (0.341333ms)
+✔ identical adverts with different tracking URLs use one stable canonical job (14.452554ms)
+✔ similar adverts are retained when material content differs (0.355234ms)
+✔ encoded JobG8 IDs resolve without changing their published URL (0.710097ms)
+✔ plain and malformed route IDs fail safely (0.203526ms)
+✔ ranks same-location and same-slice jobs before regional alternatives (1.499725ms)
+✔ excludes the current job and respects the requested limit (8.21294ms)
+✔ search analytics keeps the requested role and location with actual count (0.845311ms)
+✔ a recognised place with no jobs is distinct from an unrecognised place (0.189154ms)
+✔ contact details and excessive free text are not sent (0.172028ms)
+✔ captures hostname and UTM source without retaining the referrer URL (1.251742ms)
+✔ keeps the referral for an active session and resets it after the timeout (0.324218ms)
+ℹ tests 108
+ℹ suites 0
+ℹ pass 105
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1909.101682
+
+✖ failing tests:
+
+test at tests/google-indexing-policy.test.ts:2:3241
+✖ does not release unused JobG8 capacity to non-JobG8 jobs (4.417894ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  200 !== 195
+  
+      at TestContext.<anonymous> (/workspace/scratch/adf0f4fc1910/feed-test/e2e-50000/tests/google-indexing-policy.test.ts:81:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 200,
+    expected: 195,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/job-page-search.test.ts:2:2455
+✖ mobile navigation keeps Home and hides Browse Jobs (3.387164ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /<nav className="ml-auto flex shrink-0/. Input:
+  
+  '// components/Header.tsx - Site header component\n' +
+    "'use client';\n" +
+    '\n' +
+    "import Link from 'next/link';\n" +
+    "import { useSession } from 'next-auth/react';\n" +
+    '\n' +
+    "import { usePathname } from 'next/navigation';\n" +
+    '\n' +
+    'export default function Header() {\n' +
+    '    const { data: session } = useSession();\n' +
+    '    const pathname = usePathname();\n' +
+    "    const isAdmin = pathname?.startsWith('/admin');\n" +
+    "    const isHome = pathname === '/';\n" +
+    '\n' +
+    '    if (isAdmin) {\n' +
+    '        return null;\n' +
+    '    }\n' +
+    '\n' +
+    "    const homeLink = isAdmin ? '/admin/jobs' : '/';\n" +
+    '\n' +
+    '    return (\n' +
+    '        <header className="bg-white shadow-sm border-b border-gray-200">\n' +
+    '            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">\n' +
+    '                <div className="flex min-h-16 items-center justify-between gap-3 py-3">\n' +
+    '                    {/* Logo */}\n' +
+    '                    <Link href={homeLink} className="shrink-0">\n' +
+    '                        <div className="leading-tight">\n' +
+    '  <div className="text-[19px] font-medium tracking-tight text-gray-900">\n' +
+    '    Ontap Job Search\n' +
+    '  </div>\n' +
+    '  <div className="mt-1 text-[11px] text-slate-500">\n' +
+    '    Updated daily • No sign-up\n' +
+    '  </div>\n' +
+    '</div>\n' +
+    '                    </Link>\n' +
+    '\n' +
+    '                    {/* Navigation */}\n' +
+    '                    <nav className="ml-auto flex flex-wrap items-center justify-end gap-x-4 gap-y-1 text-sm sm:gap-x-6">\n' +
+    '                        <Link\n' +
+    '                            href="/ai-at-work"\n' +
+    "                            className={`text-gray-700 hover:text-blue-600 font-normal transition-colors ${isHome ? '' : 'hidden sm:inline'}`}\n" +
+    '                        >\n' +
+    '                            AI at work\n' +
+    '                        </Link>\n' +
+    '                        {!isHome && (\n' +
+    '                            <Link\n' +
+    '                               href="/"\n' +
+    '                                className="text-gray-700 hover:text-blue-600 font-normal transition-colors"\n' +
+    '                            >\n' +
+    '                                Home\n' +
+    '                            </Link>\n' +
+    '                        )}\n' +
+    '                        {!isAdmin && (\n' +
+    '                            <Link\n' +
+    '                                href="/browse-jobs"\n' +
+    "                                className={`text-gray-700 hover:text-blue-600 font-normal transition-colors ${isHome ? '' : 'hidden sm:inline'}`}\n" +
+    '                            >\n' +
+    '                                Browse Jobs\n' +
+    '                            </Link>\n' +
+    '                        )}\n' +
+    '                        {session && !isHome && !isAdmin && (\n' +
+    '                            <Link\n' +
+    '                                href="/admin/jobs"\n' +
+    '                                className="text-gray-700 hover:text-blue-600 font-normal transition-colors"\n' +
+    '                            >\n' +
+    '                                Admin\n' +
+    '                            </Link>\n' +
+    '                        )}\n' +
+    '                    </nav>\n' +
+    '                </div>\n' +
+    '            </div>\n' +
+    '        </header>\n' +
+    '    );\n' +
+    '}\n'
+  
+      at TestContext.<anonymous> (/workspace/scratch/adf0f4fc1910/feed-test/e2e-50000/tests/job-page-search.test.ts:31:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '// components/Header.tsx - Site header component\n\'use client\';\n\nimport Link from \'next/link\';\nimport { useSession } from \'next-auth/react\';\n\nimport { usePathname } from \'next/navigation\';\n\nexport default function Header() {\n    const { data: session } = useSession();\n    const pathname = usePathname();\n    const isAdmin = pathname?.startsWith(\'/admin\');\n    const isHome = pathname === \'/\';\n\n    if (isAdmin) {\n        return null;\n    }\n\n    const homeLink = isAdmin ? \'/admin/jobs\' : \'/\';\n\n    return (\n        <header className="bg-white shadow-sm border-b border-gray-200">\n            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">\n                <div className="flex min-h-16 items-center justify-between gap-3 py-3">\n                    {/* Logo */}\n                    <Link href={homeLink} className="shrink-0">\n                        <div className="leading-tight">\n  <div className="text-[19px] font-medium tracking-tight text-gray-900">\n    Ontap Job Search\n  </div>\n  <div className="mt-1 text-[11px] text-slate-500">\n    Updated daily • No sign-up\n  </div>\n</div>\n                    </Link>\n\n                    {/* Navigation */}\n                    <nav className="ml-auto flex flex-wrap items-center justify-end gap-x-4 gap-y-1 text-sm sm:gap-x-6">\n                        <Link\n                            href="/ai-at-work"\n                            className={`text-gray-700 hover:text-blue-600 font-normal transition-colors ${isHome ? \'\' : \'hidden sm:inline\'}`}\n                        >\n                            AI at work\n                        </Link>\n                        {!isHome && (\n                            <Link\n                               href="/"\n                                className="text-gray-700 hover:text-blue-600 font-normal transition-colors"\n                            >\n                                Home\n                            </Link>\n                        )}\n                        {!isAdmin && (\n                            <Link\n                                href="/browse-jobs"\n                                className={`text-gray-700 hover:text-blue-600 font-normal transition-colors ${isHome ? \'\' : \'hidden sm:inline\'}`}\n                            >\n                                Browse Jobs\n                            </Link>\n                        )}\n                        {session && !isHome && !isAdmin && (\n                            <Link\n                                href="/admin/jobs"\n                                className="text-gray-700 hover:text-blue-600 font-normal transition-colors"\n                            >\n                                Admin\n                            </Link>\n                        )}\n                    </nav>\n                </div>\n            </div>\n        </header>\n    );\n}\n',
+    expected: /<nav className="ml-auto flex shrink-0/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/job-sector.test.tsx:1:1
+✖ tests/job-sector.test.tsx (593.605169ms)
+  'test failed'

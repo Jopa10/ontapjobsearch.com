@@ -1,0 +1,13 @@
+✔ a city page does not hide LIVE regional inventory; an established static slice still owns its data (14.336819ms)
+✔ identical adverts with different tracking URLs use one stable canonical job (8.766065ms)
+✔ similar adverts are retained when material content differs (0.375825ms)
+✔ encoded JobG8 IDs resolve without changing their published URL (0.730608ms)
+✔ plain and malformed route IDs fail safely (0.141052ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 509.735147
