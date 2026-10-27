@@ -12,6 +12,9 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 27 October 2026 — **North East approvals have editable source blocks:** review grouping now applies the same detailed-region-to-North-East rollup as output composition, while retaining the original location in each summary. County Durham and Tyneside possibilities previously appeared in CSV/master review without editable Markdown blocks; the captured 50k snapshot had seven omissions and one unapplied selection. Focused tests cover both regions, unique block generation and approval preservation; the existing missing-block isolation test proves other clean actions remain publishable. This fix is unmerged. The isolated trial attempts the clean-output build before reporting any missing approved job as a failed test, and retains its snapshot on failure.
+
+
 - 27 October 2026 — **50k ceiling covers the feed lifecycle:** reviewed-feed restoration, direct-fetch validation, native XML conversion defaults, current-feed materialization and monthly archive materialization now use the same 50,000-row ceiling as the daily importer. This prevents later review/report paths from rejecting an otherwise valid expanded feed. Explicit 20,000 overrides remain supported and tested for rollback. These changes remain unmerged pending the full trial.
 
 

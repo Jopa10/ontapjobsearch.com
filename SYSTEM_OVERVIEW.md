@@ -10,6 +10,9 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 27 October 2026 — **North East review fix under test:** detailed North East jobs now receive the editable review blocks needed to carry owner approvals into publication. Seven omitted review entries were reproduced in the captured trial. Fifteen focused/review tests passed; missing approval blocks are held per job while other valid actions continue. The revised isolated test builds clean output before reporting an approval failure. Production remains unchanged pending full verification.
+
+
 - 27 October 2026 — **50k ceiling covers the feed lifecycle:** reviewed-feed restoration, direct-fetch validation, native XML conversion defaults, current-feed materialization and monthly archive materialization now use the same 50,000-row ceiling as the daily importer. This prevents later review/report paths from rejecting an otherwise valid expanded feed. Explicit 20,000 overrides remain supported and tested for rollback. These changes remain unmerged pending the full trial.
 
 
