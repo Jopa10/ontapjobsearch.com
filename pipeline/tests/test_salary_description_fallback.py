@@ -33,10 +33,10 @@ class SalaryDescriptionFallbackTests(unittest.TestCase):
             "£12.71 per hour",
         )
 
-    def test_currencyless_p_h_hourly_rate_is_recovered(self):
+    def test_currencyless_p_h_is_not_interpreted_as_pounds(self):
         self.assertEqual(
             core.extract_salary_from_description("Rate: 12.71 p/h"),
-            "£12.71 per hour",
+            "",
         )
 
     def test_acidity_ph_is_not_misread_as_salary(self):
