@@ -2,15 +2,39 @@
 
 review_date: 2026-10-27
 
-- Open Administrative & Clerical rows reviewed: 2136
-- Auto/remembered selected: 396
-- Selected HC Tier A: 201
-- Selected HC Tier B: 195
-- POSS awaiting decision: 1650
+- Open Administrative & Clerical rows reviewed: 2140
+- Auto/remembered selected: 398
+- Selected HC Tier A: 202
+- Selected HC Tier B: 196
+- POSS awaiting decision: 1652
 - Excluded: 0
 - HARD_PASS: 90
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | North East | Chester-le-Street, DH2 3DJ, Durham, DH64DH | Negotiable | Medical Secretary
+source_job_id: 5688852
+title: Medical Secretary
+employer: Cestria Health Centre
+region: North East
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5383-26-0009
+factual_fingerprint: c21603f2288009e061d44934f41b88acc6916e3f6ea69ccaa278806716834bef
+---
+
+---
+action:
+POSS | NHS Jobs | Nottinghamshire | Nottingham, NG15 6DY | £26500.00 to £29000.00 | Triage Coordinator & Care Navigator
+source_job_id: 5689073
+title: Triage Coordinator & Care Navigator
+employer: Torkard Hill Medical Centre
+region: Nottinghamshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1632-26-0004
+factual_fingerprint: f47b0206b22fc5cdd901e1ccb367c5ed95cbd229b3c38930855867e40947c305
+---
 
 ---
 action:
