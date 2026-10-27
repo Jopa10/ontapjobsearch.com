@@ -29,7 +29,7 @@ jobs:
       - name: Check out audited private sender only
         uses: actions/checkout@v4
         with:
-          ref: 0fd43c970f67b46f1bd0559d6eb09bbc472d30c2
+          ref: b2e35a6fac6ea35bc39e69ddcfcf06c5024ada59
           path: private-runner
           persist-credentials: false
           sparse-checkout: |
@@ -92,7 +92,7 @@ jobs:
           sparse-checkout: |
             app
             pipeline/reports-daily
-      - name: Match and optionally deliver to the fixed private recipient
+      - name: Match and optionally deliver to the two approved private recipients
         env:
           CPC_JOB_ALERTS_ENABLED: 'true'
           BREVO_JOB_ALERTS_LIST_ID: '3'
@@ -121,13 +121,23 @@ jobs:
                   "--app-dir", "published-inputs/app", "--reports-dir", "published-inputs/pipeline/reports-daily"]
           if os.environ["SEND_PRIVATE"] != "true":
               args.append("--dry-run")
-          result = subprocess.run(args, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-          print(result.stdout)
+          results = []
+          for recipient in ("jpbt801@gmail.com", "jnabon1108@gmail.com"):
+              # Verify production again before each independently guarded recipient.
+              with urllib.request.urlopen(req, timeout=20) as response:
+                  current = json.load(response).get("version")
+              if current != os.environ["VERIFIED_SHA"]:
+                  raise SystemExit("Production changed before private delivery")
+              result = subprocess.run(args + ["--private-recipient", recipient],
+                                      text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+              print(result.stdout)
+              results.append(result)
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as summary:
               summary.write("## Private CPC alert test\n\n")
               summary.write(f"Report: {date}; exact deployed inventory: {os.environ['VERIFIED_SHA']}.\n\n")
-              summary.write("Recipient is fixed to jpbt801@gmail.com, list 3. Public rollout is off.\n\n")
-              summary.write("Push validation sends no email. Dispatch respects consent and the existing last-sent-date guard.\n\n")
-              summary.write(result.stdout)
-          sys.exit(result.returncode)
+              summary.write("Only jpbt801@gmail.com and jnabon1108@gmail.com, list 3. Public rollout is off.\n\n")
+              summary.write("Push validation sends no email. Each address has independent consent and daily duplicate protection.\n\n")
+              for result in results:
+                  summary.write(result.stdout)
+          sys.exit(1 if any(result.returncode for result in results) else 0)
           PY

@@ -3,7 +3,7 @@ Total output lines: 420
 
 # Ontap System Map
 
-**Last updated:** 26 October 2026
+**Last updated:** 27 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -11,6 +11,8 @@ Total output lines: 420
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 27 October 2026 — **Two-address private alert test adopted:** the post-publish workflow now pins tested feature revision `b2e35a6fac6ea35bc39e69ddcfcf06c5024ada59` and invokes private daily mode separately for `jpbt801@gmail.com` and owner-approved `jnabon1108@gmail.com`. Preview signup accepts only these two addresses, with up to ten alerts each. The sender fetches only the selected allowlisted contact, verifies identity/list-3 consent/blacklist/unsubscribe and retains per-address daily date, idempotency and unsubscribe identity. It does not create the second contact automatically; absence skips until signup. A failure for one sender invocation does not prevent the other invocation; publisher isolation remains. Live production SHA is rechecked before each. Push validation is no-send. Forty Python and twenty Node checks passed, including separate recipient identities and duplicate protection. Public rollout remains off.
 
 - 26 October 2026 — **Owner job-review format fixed:** `pipeline/reviews/OWNER_REVIEW_PROCESS.md` is the maintained authority for the approved single-sheet Excel list, fixed Review No. mapping and owner exclusions/select-the-rest response. Reuse the accepted workbook without redesign; batch decisions do not change selection logic. Existing publication safeguards remain unchanged.
 
@@ -181,7 +183,7 @@ NHS/public-sector inventory is a complementary supply and sector-switching advan
 
 ## 5. Operations / infrastructure
 
-The automatic private CPC sender is pinned to `0fd43c970f67b46f1bd0559d6eb09bbc472d30c2`. Its sparse private checkout includes `pipeline/scripts`, `pipeline/tests` and `pipeline/config`; the last supplies the governed region-name/slug catalog. The existing post-publish workflow retains a fixed test contact/list and invokes only private daily mode. Public signup and list-wide delivery are not enabled by this adoption.
+The automatic private CPC sender is pinned to `b2e35a6fac6ea35bc39e69ddcfcf06c5024ada59`. Its sparse private checkout includes `pipeline/scripts`, `pipeline/tests` and `pipeline/config`; the last supplies the governed region-name/slug catalog. The existing post-publish workflow retains a fixed test contact/list and invokes only private daily mode. Public signup and list-wide delivery are not enabled by this adoption.
 
 Core scheduled workflows include:
 

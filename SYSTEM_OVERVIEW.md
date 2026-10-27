@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 26 October 2026
+**Last updated:** 27 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 27 October 2026 — **Second private email address enabled:** `jnabon1108@gmail.com` can sign up for up to ten test alerts and receive its own daily digest after successful publishing. The existing address and its alerts are unchanged. Each address has its own consent, unsubscribe and duplicate-send protection. The second address receives no alerts until it signs up. Public rollout remains off.
 
 - 26 October 2026 — **Owner job-review format fixed:** `pipeline/reviews/OWNER_REVIEW_PROCESS.md` is the maintained authority for the approved single-sheet Excel list, fixed Review No. mapping and owner exclusions/select-the-rest response. Reuse the accepted workbook without redesign; batch decisions do not change selection logic. Existing publication safeguards remain unchanged.
 
