@@ -3,14 +3,38 @@
 review_date: 2026-10-28
 
 - Open Administrative & Clerical rows reviewed: 2168
-- Auto/remembered selected: 403
-- Selected HC Tier A: 209
+- Auto/remembered selected: 404
+- Selected HC Tier A: 210
 - Selected HC Tier B: 194
-- POSS awaiting decision: 1672
+- POSS awaiting decision: 1670
 - Excluded: 0
-- HARD_PASS: 93
+- HARD_PASS: 94
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | East Midlands | Derby, DE22 3NE | £15642.00 to £18293.00 | Administrative Assistant Apprentice
+source_job_id: 5691326
+title: Administrative Assistant Apprentice
+employer: University Hospitals of Derby and Burton NHS Foundation Trust
+region: East Midlands
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1109
+factual_fingerprint: 3d97f2765455cd00952ba831f1ce4d0aef6ba4aee4d6b63f1c1159b7087f18de
+---
+
+---
+action:
+POSS | NHS Jobs | East Midlands | Derby, DE22 3NE | £32073.00 to £39043.00 | Data Science Analyst
+source_job_id: 5691265
+title: Data Science Analyst
+employer: University Hospitals of Derby and Burton NHS Foundation Trust
+region: East Midlands
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1103
+factual_fingerprint: 144192a0f21fe6a02019cfaefca3cb094c10d07d71a6dec2e89286552600f41d
+---
 
 ---
 action:
@@ -81,7 +105,7 @@ employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3223
-factual_fingerprint: 567fa1dea1e6667a3c84256f95231cca08d411f0b3539a13395b9f45adaefab2
+factual_fingerprint: affbddd6a150c1752feacb9603fd22b23a6954811d17ce1aa832225b7c3d0b15
 ---
 
 ---
@@ -381,7 +405,7 @@ employer: Royal Free London NHS Foundation Trust
 region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1899
-factual_fingerprint: 18b670b9c99f2daa5c5b80742567bf9bff4a9effaf5691716aeb4054c92f375d
+factual_fingerprint: 080ac288b084c987008fd299ddc35f393941b53a3a98aff0716f9843c3bd0bbf
 ---
 
 ---
@@ -1005,7 +1029,7 @@ employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3204
-factual_fingerprint: 3e8653d0f4762152a672179f288ec747212de7106797c87589a782fe4101b173
+factual_fingerprint: 70b61d6113bbe216108947b7158e354ef4dd0b0270c59a3a3824fb673f6e1965
 ---
 
 ---
@@ -1390,18 +1414,6 @@ region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2111-26-0036
 factual_fingerprint: bb6b3b3d89a7ee50c053d069bccffba8001ffd36f1bfdad550fc6a6a18251eda
----
-
----
-action:
-POSS | NHS Jobs | East Midlands | Derby, DE22 3NE | £24852.66 | Flexible Clerical Worker
-source_job_id: 5684821
-title: Flexible Clerical Worker
-employer: University Hospitals of Derby and Burton NHS Foundation Trust
-region: East Midlands
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1090
-factual_fingerprint: 3c5b8c2c01dc58837372598d8fd2c905aba332619432ef2399470dc90884fed7
 ---
 
 ---
@@ -2210,18 +2222,6 @@ factual_fingerprint: 9bac5b1f58e4e66a632a4dd3b978bb5295d281d88c2d9a8e400e39681a3
 
 ---
 action:
-POSS | NHS Jobs | Somerset | Wiveliscombe, TA4 2BF, TAUNTON, TA21 8BD | £13.50 | PCN Administrator Care Co-ordinator
-source_job_id: 5688236
-title: PCN Administrator Care Co-ordinator
-employer: Taunton Deane West Primary Care Network
-region: Somerset
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0068-26-0016
-factual_fingerprint: de946343970ebb6fe7696816f25505d9b437b86c1861f5b54abde3cc04632613
----
-
----
-action:
 POSS | NHS Jobs | Somerset | Wiveliscombe, TA4 2BF, TAUNTON, TA21 8BD | £13.50 | PCN Administration Care Co-ordinator
 source_job_id: 5687602
 title: PCN Administration Care Co-ordinator
@@ -2325,7 +2325,7 @@ employer: London North West University Healthcare NHS Trust
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9337-26-0875
-factual_fingerprint: fb2f7b12289b59a7061c7ed1845b45152a52f53ad7e8630a19ff3019ee345626
+factual_fingerprint: 282a6aba34d46c920bfcab99379dbc087ddbfb361e113b625827146c4ea72198
 ---
 
 ---
@@ -3394,18 +3394,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9394-26-0500
 factual_fingerprint: a32fa305b8cd9f75c9b1b08dd572a3bfc4089cc1e6ba4fb8fc4147aabab41a25
----
-
----
-action:
-POSS | NHS Jobs | — | Peterborough or Huntingdon, PE3 9GZ | £28392.00 to £31157.00 | Digital Support Analyst - Peterborough/Huntingdon
-source_job_id: 5686907
-title: Digital Support Analyst - Peterborough/Huntingdon
-employer: North West Anglia NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0627
-factual_fingerprint: b949747ae6348fa4ef6c364ebede8a6e23fd346160f5d73c047df891386bcc7a
 ---
 
 ---
@@ -9634,18 +9622,6 @@ region: Merseyside - Wirral
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4214-26-0008
 factual_fingerprint: 3335fc0af36feb27f5185cc1f20c1d1daaf365f33d322f6f6be254c827fc27e5
----
-
----
-action:
-POSS | NHS Jobs | Sussex | Eastbourne, BN21 2UD | £25760.00 to £27476.00 | Digital Health Records Scanning Co-ordinator
-source_job_id: 5675691
-title: Digital Health Records Scanning Co-ordinator
-employer: East Sussex Healthcare NHS Trust
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0920
-factual_fingerprint: 70d10dfa023b45cc37ce7d7dffd217a0259b8973217ce329b5e3d3acdbccaf95
 ---
 
 ---
