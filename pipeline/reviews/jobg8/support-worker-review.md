@@ -11,11 +11,7 @@ Edit only the `action:` line in each block:
 
 ## WEST YORKSHIRE — SELECTED
 
----
-action:
-SELECTED | Yorkshire - West | Huddersfield | £12.71 - £14 per hour | Support Worker
-job_id: 23643_225660273
----
+_No jobs in this group._
 
 ## WEST YORKSHIRE — POSSIBLES
 
@@ -54,12 +50,6 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## SUSSEX — SELECTED
-
----
-action:
-SELECTED | Sussex | Brighton | £30000 - £40000 per year | 6 Month FTC Personal Assistant
-job_id: 23643_225665294
----
 
 ---
 action:
@@ -147,12 +137,6 @@ job_id: 23643_225750767
 
 ---
 action:
-SELECTED | Sussex | Burgess Hill | £14.86 per hour | Support Worker
-job_id: 23643_225749785
----
-
----
-action:
 SELECTED | Sussex | Pulborough | £12.71 - £14.45 per hour (Salary starts at £12.71 and increases t) | Female Waking Night Support Worker Pulborough
 job_id: 108179728
 ---
@@ -177,8 +161,14 @@ job_id: 23643_225718800
 
 ---
 action:
-SELECTED | Sussex | Sussex | £14.8 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225754037
+SELECTED | Sussex | Sussex | £12.75 - £13 per hour | Recovery Support Worker
+job_id: 23643_225768622
+---
+
+---
+action:
+SELECTED | Sussex | Brighton | £30000 - £40000 per year | 6 Month FTC Personal Assistant
+job_id: 23643_225665294
 ---
 
 ## SUSSEX — POSSIBLES
@@ -287,12 +277,24 @@ SELECTED | Hampshire | Gosport | £26018 - £27111 per year | Night Care Assista
 job_id: 1401785959
 ---
 
+---
+action:
+SELECTED | Hampshire | Hampshire | £13.75 per hour (plus enhancements for Sunday and Bank Holiday working) | Casual Care Assistant
+job_id: 1401786179
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 ---
 action:
 POSS - HAMPSHIRE | Hampshire | Havant | £34273 - £37570 per year | Support Worker (Out of Hours)
 job_id: 1401785879
+---
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
+job_id: 1401786178
 ---
 
 ---
@@ -355,6 +357,12 @@ job_id: 23643_223337598
 action:
 SELECTED | Kent | Dartford | £12.8 per hour (+ Mileage & Benefits) | Care Assistant
 job_id: 23643_225762090
+---
+
+---
+action:
+SELECTED | Kent | Sevenoaks | £14.61 per hour | Care Assistant - Care Home
+job_id: 23643_225771606
 ---
 
 ## KENT — POSSIBLES
@@ -599,14 +607,26 @@ job_id: 23643_225762327
 
 ---
 action:
-SELECTED | London | London | £18 - £20 per hour | Family Support Worker
-job_id: 23643_225660074
+SELECTED | London | City | £21694 - £23232 per year | Support Worker
+job_id: 23643_225728754
 ---
 
 ---
 action:
-SELECTED | London | City | £21694 - £23232 per year | Support Worker
-job_id: 23643_225728754
+SELECTED | London | Hackney | £16,686 per annum | Carers Support Worker - Benefits & Entitlements
+job_id: 2196200
+---
+
+---
+action:
+SELECTED | London | City | £14.5 - £16 per hour (month) | Learning Disability Support Worker
+job_id: 23643_225771551
+---
+
+---
+action:
+SELECTED | London | City | £15.56 per hour | Family Support Worker
+job_id: 23643_225772447
 ---
 
 ## LONDON — POSSIBLES
@@ -677,6 +697,12 @@ job_id: 23643_225761982
 action:
 SELECTED | Surrey | Hindhead | £15.45 per hour | Care Assistant
 job_id: 23643_225761987
+---
+
+---
+action:
+SELECTED | Surrey | Surrey | £14.5 per hour | Night Care Assistant
+job_id: 23643_225440444
 ---
 
 ## SURREY — POSSIBLES
