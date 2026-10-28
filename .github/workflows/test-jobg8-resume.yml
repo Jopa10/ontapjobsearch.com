@@ -1,0 +1,68 @@
+name: Resume 28 October 50k checks from checkpoint
+on:
+  push:
+    branches: [test/jobg8-resume-20261028]
+    paths: [.github/workflows/test-jobg8-resume.yml]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: isolated-jobg8-resume-20261028
+  cancel-in-progress: false
+jobs:
+  resume:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        with:
+          name: jobg8-fresh-50k-2026-10-28-results
+          run-id: 40674640781
+          github-token: ${{ github.token }}
+          path: checkpoint
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install dependencies
+        run: |
+          python -m pip install pandas openpyxl boto3 pytest
+          npm ci
+      - name: Restore checkpoint and finish remaining checks
+        env:
+          NEXT_TELEMETRY_DISABLED: '1'
+        run: |
+          python -u - <<'PY'
+          from pathlib import Path
+          import tarfile, json
+          root=Path.cwd()
+          snapshot=root/'checkpoint/test-results/preview-snapshot.tar.gz'
+          assert snapshot.is_file()
+          with tarfile.open(snapshot) as archive:
+              archive.extractall(root,filter='data')
+          original=(root/'pipeline/second-day-50k/run.py').read_text()
+          prefix=original.split("fixture=ROOT/")[0]
+          remaining=original[original.index("sys.path.insert(0,str(ROOT/'pipeline'))"):]
+          remaining=remaining.replace("daily-family-coverage.csv').open()", "daily-family-coverage.csv').open(encoding='utf-8-sig')")
+          assert "encoding='utf-8-sig'" in remaining
+          code=prefix+"\nstate['resumed_from_run']=40674640781\n"+remaining
+          exec(compile(code,'checkpoint-resume.py','exec'))
+          PY
+      - name: Retain results even if remaining check fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobg8-resumed-50k-2026-10-28-results
+          path: |
+            test-results/receipt.json
+            test-results/*.log
+            test-results/reviewed-plan.json
+            test-results/daily-region-overview-50k-2026-10-28.*
+            test-results/preview-snapshot.tar.gz
+          retention-days: 14
