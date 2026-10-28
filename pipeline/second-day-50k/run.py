@@ -7,7 +7,7 @@ def run(name,args,pipeline=False):
  state['active']=name; save(); print('START '+name,flush=True); start=time.monotonic()
  with (OUT/(name+'.log')).open('w') as log:
   p=subprocess.run(args,cwd=ROOT/'pipeline' if pipeline else ROOT,stdout=log,stderr=subprocess.STDOUT)
- state['steps'].append({'name':name,'exit':p.returncode,'seconds':round(time.monotonic()-start,2)});save()
+ state['steps'].append({'name':name,'exit':p.returncode,'seconds':round(time.monotonic()-start,2)});save();print(json.dumps(state['steps'][-1]),flush=True)
  if p.returncode: print((OUT/(name+'.log')).read_text()[-10000:],flush=True);raise SystemExit(p.returncode)
 def py(name,args,pipeline=False):run(name,[sys.executable,'-u',*args],pipeline)
 fixture=ROOT/'pipeline/second-day-50k'; info=json.loads((fixture/'feed-info.json').read_text())
@@ -53,6 +53,11 @@ published={str(j['job_id']) for j in jobs if j['source']=='JobG8'}
 assert not published-categories.keys()
 classified=Counter(categories[j] for j in published)
 state['canonical_jobs']=len(jobs);state['sources']=dict(Counter(j['source'] for j in jobs));state['conflicts_withheld']=sorted(conflicts);save()
+run('18b-checkpoint',['tar','-czf',str(OUT/'preview-snapshot.tar.gz'),'app','generated','pipeline/input','pipeline/output-admin-service','pipeline/output-support-worker','pipeline/reviews','pipeline/reports-daily'])
+py('18c-fresh-family-coverage',['-m','scripts.assess_daily_family_coverage'],True)
+coverage=list(csv.DictReader((ROOT/'pipeline/reports-daily/daily-family-coverage.csv').open()))
+assert len(coverage)==624, 'Incomplete family coverage'
+assert {row['feed_date'] for row in coverage}=={'2026-10-28'}, 'Family coverage date mismatch'
 py('19-profile',['pipeline/scripts/build_jobg8_category_profile.py','--input','pipeline/input/jobg8.xlsx','--coverage','pipeline/reports-daily/daily-family-coverage.csv','--published-output-dir','pipeline/output-admin-service','--published-output-dir','pipeline/output-support-worker','--output','pipeline/reports-daily/jobg8-feed-category-profile.csv'])
 with (ROOT/'pipeline/reports-daily/jobg8-feed-category-profile.csv').open('w',newline='') as handle:
  writer=csv.writer(handle);writer.writerow(['feed_date','total_jobs','published_jobg8_jobs','jobg8_category','count','published_count'])
