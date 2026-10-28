@@ -1,6 +1,6 @@
 export const jobPageStatus = {
   defaultStatus: "Updated",
-  defaultDate: "Tue 27th Oct, AM",
+  defaultDate: "Wed 28th Oct, AM",
 
   routeStatus: {
     "west-yorkshire/support-worker": "Updated",
