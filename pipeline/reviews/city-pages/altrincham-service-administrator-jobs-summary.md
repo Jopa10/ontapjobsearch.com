@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 22
+- automatic review: 21
 - automatic exclude: 0
 - effective include: 7
-- effective review: 22
+- effective review: 21
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225715889
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (21)
 
 ---
 action: 
@@ -234,6 +234,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Operations Administrator
+company: Hays Business Support - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225768141
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Coordinator
 company: CMR Jobs Limited - Agency - Permanent
 location: Stockport
@@ -251,30 +263,6 @@ company: Gtd Healthcare
 location: Hyde, SK14 3EH
 source: NHS Jobs
 job_id: nhs-5674517
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Property Coordinator
-company: The People Pod - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2043192
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Property Coordinator
-company: The People Pod - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225661623
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

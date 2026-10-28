@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 26
 - automatic review: 13
 - automatic exclude: 28
-- effective include: 27
+- effective include: 26
 - effective review: 13
 - effective exclude: 28
 
-## INCLUDE (27)
+## INCLUDE (26)
 
 ---
 action: 
@@ -105,18 +105,6 @@ company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225679767
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Sharp Consultancy - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2043404
 reason: Approved Sheffield catchment.
 ---
 

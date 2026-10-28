@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 32
-- automatic review: 5
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 32
-- effective review: 5
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (32)
@@ -45,18 +45,6 @@ company: The Solution Auto - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225709284
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Receivable Clerk
-company: Adele Carr Recruitment Limited - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2043235
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -268,6 +256,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll & Benefits Administrator
+company: Michael Page - Agency - Temporary
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225769951
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll & Pensions Administrator
 company: Search Consultancy Ltd - Agency - Permanent
 location: Liverpool
@@ -408,7 +408,7 @@ job_id: jobg8-23643_225761410
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -431,6 +431,18 @@ company: Ice and Easy - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-2060699
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll & Benefits Administrator
+company: Michael Page Finance - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-2193412
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

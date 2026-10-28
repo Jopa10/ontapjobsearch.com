@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
+- automatic include: 21
 - automatic review: 4
-- automatic exclude: 81
-- effective include: 22
+- automatic exclude: 84
+- effective include: 21
 - effective review: 4
-- effective exclude: 81
+- effective exclude: 84
 
-## INCLUDE (22)
+## INCLUDE (21)
 
 ---
 action: 
@@ -244,18 +244,6 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Recruitment Resourcer
-company: Resolute Recruitment - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-2041977
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Residential Conveyancing Paralegal
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Coventry
@@ -338,7 +326,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-2-days-per-week
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (81)
+## EXCLUDE (84)
 
 ---
 action: 
@@ -373,18 +361,6 @@ company: Brellis Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225681366
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Rugby
-source: JobG8
-job_id: jobg8-2046750
 reason: Separate employment market.
 ---
 
@@ -548,11 +524,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Administrator
-company: Genesis Employment Services Ltd - Agency - Permanent
+title: Cash Allocation Administrator
+company: Manpower - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225744303
+job_id: jobg8-2190385
 reason: Separate employment market.
 ---
 
@@ -560,11 +536,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Cash Allocation Administrator
-company: Manpower - Agency - Permanent
-location: Warwickshire
+title: Commercial Property Paralegal
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Warwick
 source: JobG8
-job_id: jobg8-2190385
+job_id: jobg8-2191938
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Property Paralegal
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225768258
 reason: Separate employment market.
 ---
 
@@ -661,6 +649,18 @@ company: Approach Personnel Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225676671
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Coordinator
+company: Osprey Engineering Solutions - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225767391
 reason: Separate employment market.
 ---
 
@@ -925,18 +925,6 @@ company: Rother House Medical Centre
 location: Stratford-upon-avon, CV37 6PP
 source: NHS Jobs
 job_id: nhs-5657937
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: Innovo Global Talent - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225740069
 reason: Separate employment market.
 ---
 
@@ -1220,6 +1208,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Repairs Coordinator
+company: Kate+Co - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2183810
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Administrator
+company: Plus One Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225768881
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales Development Representative
 company: Rapid Access - Agency - Permanent
 location: Nuneaton
@@ -1297,6 +1309,18 @@ company: Triumph - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225746288
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2190747
 reason: Separate employment market.
 ---
 

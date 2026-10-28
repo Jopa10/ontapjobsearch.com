@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 16
+- automatic include: 23
+- automatic review: 17
 - automatic exclude: 0
-- effective include: 24
-- effective review: 16
+- effective include: 23
+- effective review: 17
 - effective exclude: 0
 
-## INCLUDE (24)
+## INCLUDE (23)
 
 ---
 action: 
@@ -113,30 +113,6 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU3 2JZ
-source: NHS Jobs
-job_id: nhs-5661401
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU3 2JZ
-source: NHS Jobs
-job_id: nhs-5661463
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
 company: KD Recruitment - Agency - Permanent
 location: Hull
 source: JobG8
@@ -177,6 +153,18 @@ company: Vizion Network - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225702790
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Facilities Coordinator - 12 Month FTC - Hull
+company: qed legal - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-2192471
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -312,7 +300,7 @@ job_id: jobg8-23643_225713565
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (17)
 
 ---
 action: 
@@ -323,6 +311,18 @@ company: Si Recruitment - Agency - Permanent
 location: Goole
 source: JobG8
 job_id: jobg8-2074255
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Administrator
+company: Scientific Laboratory Supplies - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-2192112
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

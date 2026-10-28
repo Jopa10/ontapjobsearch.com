@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 20
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 43
+- automatic include: 22
+- automatic review: 42
 - automatic exclude: 0
-- effective include: 20
-- effective review: 43
+- effective include: 22
+- effective review: 42
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (22)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Devon Partnership NHS Trust
+location: Exeter, EX2 7FW
+source: NHS Jobs
+job_id: nhs-5686960
+reason: Exact approved Exeter workplace.
+---
 
 ---
 action: 
@@ -196,6 +208,18 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Elysium Healthcare
+location: Exeter, EX1 3PZ
+source: NHS Jobs
+job_id: nhs-5689527
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Resource Management Planner
 company: Adecco - Agency - Temporary
 location: Exeter
@@ -264,7 +288,7 @@ job_id: jobg8-23643_225699564
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (42)
 
 ---
 action: 
@@ -287,30 +311,6 @@ company: NHS Professionals - Company - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225672975
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: First Light - Agency - Permanent
-location: Plymouth
-source: JobG8
-job_id: jobg8-23643_225732826
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hays Business Support - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225662041
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -383,18 +383,6 @@ company: Devon Partnership NHS Trust
 location: Newton Abbot, TQ12 2PF
 source: NHS Jobs
 job_id: nhs-5656155
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Devon Partnership NHS Trust
-location: Totnes, TQ9 5JA
-source: NHS Jobs
-job_id: nhs-5660761
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -534,6 +522,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant 12 month Maternity cover
+company: Hays Business Support - Agency - Temporary
+location: Barnstaple
+source: JobG8
+job_id: jobg8-23643_225768336
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Coordinator
 company: Pertemps Plymouth - Agency - Permanent
 location: Devon
@@ -618,18 +618,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Personal Assistant
-company: Elysium Healthcare
-location: Cullompton, EX15 1EA
-source: NHS Jobs
-job_id: nhs-5656323
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Administrator
 company: Jackson Hogg Ltd - Agency - Permanent
 location: Devon
@@ -702,6 +690,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Scheduling Co-ordinator Part time
+company: Universal Fire & Security - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-23643_225767515
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Office Administrator
 company: Boringdon Primary School
 location: Plymouth
@@ -719,6 +719,18 @@ company: Plymouth High School for Girls
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-sen-medical-administrator
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Elite-HR - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_223631202
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 134
+- automatic review: 126
 - automatic exclude: 0
 - effective include: 6
-- effective review: 134
+- effective review: 126
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225704651
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (134)
+## REVIEW (126)
 
 ---
 action: 
@@ -143,30 +143,6 @@ company: Farrer Barnes Limited - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2157148
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Get Recruited (UK) Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2046101
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Get-Recruited (UK) Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225664077
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -486,18 +462,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller (Maternity Cover)
-company: Cygnet - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2063033
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Curriculum Administrator
 company: MidKent College - Agency - Permanent
 location: Kent
@@ -551,18 +515,6 @@ company: South East Water - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225667877
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Top Jobs Group Ltd - Agency - Temporary
-location: Dartford
-source: JobG8
-job_id: jobg8-23643_225528112
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -714,35 +666,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Family Legal Assistant
-company: Recruitment Solutions - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2043028
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Administrator
 company: Huntress - Maidstone - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225735139
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator - Kent
-company: Marks Sattin - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2046248
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -791,18 +719,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Temporary
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225731820
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Services Administrator
-company: Julie Rose Recruitment - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225671322
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -895,10 +811,10 @@ action:
 decision: review
 automatic_decision: review
 title: Insurance Claims Coordinator
-company: Huntress - Agency - Permanent
+company: Huntress - Maidstone - Agency - Temporary
 location: Chatham
 source: JobG8
-job_id: jobg8-2044917
+job_id: jobg8-23643_225662917
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -906,11 +822,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Insurance Claims Coordinator
-company: Huntress - Maidstone - Agency - Temporary
-location: Chatham
+title: Legal Secretary - Family
+company: Lawfront - Agency - Permanent
+location: Kent
 source: JobG8
-job_id: jobg8-23643_225662917
+job_id: jobg8-23643_225770274
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -966,6 +882,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Account Executive - Kent - &;25K
+company: Jump IT Recruitment Solutions Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2192757
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Account Executive - Kent - To £30K
 company: Jump IT Recruitment - Agency - Permanent
 location: Kent
@@ -990,35 +918,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive
-company: Reed - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2044913
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist/Care Navigator
 company: Ashford Medical Partnership
 location: Ashford, TN24 0HZ, Ashford , TN23 5AQ, Ashford, TN23 5GR
 source: NHS Jobs
 job_id: nhs-5651302
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Membership Coordinator
-company: MemberWise - Agency - Permanent
-location: Swanley
-source: JobG8
-job_id: jobg8-23643_225662254
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1079,6 +983,18 @@ company: Canterbury Medical Practice
 location: Canterbury, CT1 3NR, CANTERBURY, CT3 1TX, CANTERBURY, CT4 5BL
 source: NHS Jobs
 job_id: nhs-5659048
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Order Administrator
+company: Office Angels - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225769333
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1182,11 +1098,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Practice Bookkeeper
-company: Farrer Barnes Limited - Agency - Permanent
-location: Ashford
+title: Planner- Canterbury
+company: RG Setsquare - Agency - Contract
+location: Canterbury
 source: JobG8
-job_id: jobg8-2044937
+job_id: jobg8-23643_225769317
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1446,18 +1362,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Repairs Scheduler
-company: 4Recruitment Services - Agency - Contract
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225658661
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Retail Social Media Manager
 company: Reed - Agency - Permanent
 location: Kent
@@ -1566,30 +1470,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Service & Quotations Coordinator
-company: Next Doors Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225663056
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Prima Hatfield Associates - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2043499
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Advisor
 company: Prima Hatfield Associates - Agency - Permanent
 location: Kent
@@ -1691,6 +1571,30 @@ company: Migrant Help - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225730262
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Warranty Administrator
+company: Prima Hatfield Associates - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2195201
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Weekend Receptionist
+company: Barchester Healthcare - Company - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225769022
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

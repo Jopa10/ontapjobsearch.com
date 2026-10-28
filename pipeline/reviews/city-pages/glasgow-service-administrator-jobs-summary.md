@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 35
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 35
+- automatic include: 34
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 35
+- effective include: 34
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (35)
+## INCLUDE (34)
 
 ---
 action: 
@@ -101,10 +101,10 @@ action:
 decision: include
 automatic_decision: include
 title: Conveyancing Paralegal
-company: qed legal - Agency - Permanent
+company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2041188
+job_id: jobg8-2088101
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -112,11 +112,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Conveyancing Paralegal
-company: Reed - Agency - Permanent
+title: Customer Service Administrator
+company: Search Consultancy Ltd - Agency - Contract
 location: Glasgow
 source: JobG8
-job_id: jobg8-2088101
+job_id: jobg8-23643_225771111
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -333,18 +333,6 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225677200
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Recruitment Account Coordinator - Industrial Division
-company: Search Consultancy Ltd - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225737478
 reason: Approved conservative Glasgow launch catchment.
 ---
 

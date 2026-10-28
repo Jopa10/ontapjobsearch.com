@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 55
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 8
-- effective review: 55
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: First Light - Agency - Permanent
-location: Plymouth
-source: JobG8
-job_id: jobg8-23643_225732826
-reason: Exact approved Plymouth workplace.
----
 
 ---
 action: 
@@ -88,6 +76,18 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Scheduling Co-ordinator Part time
+company: Universal Fire & Security - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-23643_225767515
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Office Administrator
 company: Boringdon Primary School
 location: Plymouth
@@ -120,7 +120,7 @@ job_id: teaching-vacancies-student-funding-administrator-maternity-cover
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (56)
 
 ---
 action: 
@@ -151,10 +151,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Hays Business Support - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225662041
+company: Devon Partnership NHS Trust
+location: Exeter, EX2 7FW
+source: NHS Jobs
+job_id: nhs-5686960
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -275,18 +275,6 @@ company: Devon Partnership NHS Trust
 location: Newton Abbot, TQ12 2PF
 source: NHS Jobs
 job_id: nhs-5656155
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Devon Partnership NHS Trust
-location: Totnes, TQ9 5JA
-source: NHS Jobs
-job_id: nhs-5660761
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -419,6 +407,18 @@ company: Adecco - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225734169
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant 12 month Maternity cover
+company: Hays Business Support - Agency - Temporary
+location: Barnstaple
+source: JobG8
+job_id: jobg8-23643_225768336
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -594,18 +594,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Personal Assistant
-company: Elysium Healthcare
-location: Cullompton, EX15 1EA
-source: NHS Jobs
-job_id: nhs-5656323
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Administrator
 company: Jackson Hogg Ltd - Agency - Permanent
 location: Devon
@@ -623,6 +611,18 @@ company: Pertemps Plymouth - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225734510
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Elysium Healthcare
+location: Exeter, EX1 3PZ
+source: NHS Jobs
+job_id: nhs-5689527
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -695,6 +695,18 @@ company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
 source: NHS Jobs
 job_id: nhs-5671390
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Elite-HR - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_223631202
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

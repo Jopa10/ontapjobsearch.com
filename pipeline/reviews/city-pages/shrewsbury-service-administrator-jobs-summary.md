@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 22
+- automatic include: 8
+- automatic review: 25
 - automatic exclude: 0
-- effective include: 7
-- effective review: 22
+- effective include: 8
+- effective review: 25
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Prince Personnel Limited - Agency - Temporary
 location: Shrewsbury
 source: JobG8
 job_id: jobg8-23643_225717119
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Officer
+company: Opus People Solutions Ltd - Agency - Temporary
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-23643_225771593
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -108,7 +120,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (25)
 
 ---
 action: 
@@ -131,6 +143,18 @@ company: LHH Recruitment Solutions - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-2053739
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activity Co-ordinator
+company: Coverage Care - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-108178982
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +227,18 @@ company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-2078828
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Proactive Personnel Ltd - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225767371
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -371,6 +407,18 @@ company: Pertemps Telford - Agency - Temporary
 location: Telford
 source: JobG8
 job_id: jobg8-23643_225735083
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Onboarding Coordinator
+company: Ashley Kate HR & Finance - Agency - Temporary
+location: Telford
+source: JobG8
+job_id: jobg8-23643_225768284
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

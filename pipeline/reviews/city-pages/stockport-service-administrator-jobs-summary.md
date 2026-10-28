@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 12
 - automatic review: 16
 - automatic exclude: 0
-- effective include: 13
+- effective include: 12
 - effective review: 16
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -100,35 +100,23 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Operations Administrator
+company: Hays Business Support - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225768141
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Coordinator
 company: CMR Jobs Limited - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225693186
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Property Coordinator
-company: The People Pod - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2043192
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Property Coordinator
-company: The People Pod - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225661623
 reason: Exact approved Stockport workplace.
 ---
 

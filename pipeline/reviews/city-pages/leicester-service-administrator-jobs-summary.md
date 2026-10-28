@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 55
+- automatic include: 16
+- automatic review: 50
 - automatic exclude: 0
-- effective include: 19
-- effective review: 55
+- effective include: 16
+- effective review: 50
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (16)
 
 ---
 action: 
@@ -172,18 +172,6 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Purchasing Administrator - with Parking
-company: Office Angels - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225663833
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchasing Assistant - early Friday finish
 company: Office Angels - Agency - Permanent
 location: Leicester
@@ -220,30 +208,6 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Support Coordinator
-company: Interaction Recruitment - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225664258
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Coordinator
-company: Adullam Homes - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-108205427
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Youth Employability Activity Coordinator - Leicester
 company: Trigon Recruitment Ltd - Agency - Permanent
 location: Leicester
@@ -252,7 +216,7 @@ job_id: jobg8-23643_225761866
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (50)
 
 ---
 action: 
@@ -354,18 +318,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Activities Coordinator
-company: Exemplar Health Care - Company - Permanent
-location: Coalville
-source: JobG8
-job_id: jobg8-108232159
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Coalville
@@ -455,18 +407,6 @@ company: Regional Recruitment - Agency - Permanent
 location: Blaby
 source: JobG8
 job_id: jobg8-23643_225693331
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contracts Administrator
-company: Adecco - Agency - Contract
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225661333
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -582,18 +522,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Depot Coordinator
-company: Whistl - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225659091
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Administrator
 company: Trinity House Group - Agency - Permanent
 location: Leicestershire
@@ -635,18 +563,6 @@ company: North Oak Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225640521
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Ibstock Plc - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2044331
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -803,18 +719,6 @@ company: Office Angels - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225721480
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Resourcer
-company: Pertemps Leicester - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225663011
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

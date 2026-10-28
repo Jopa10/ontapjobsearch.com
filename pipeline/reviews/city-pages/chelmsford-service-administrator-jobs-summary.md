@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 112
+- automatic review: 113
 - automatic exclude: 0
 - effective include: 13
-- effective review: 112
+- effective review: 113
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-23643_225694242
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (112)
+## REVIEW (113)
 
 ---
 action: 
@@ -227,18 +227,6 @@ company: Prime Appointments - Agency - Temporary
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225742935
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: TIME Appointments Ltd - Agency - Permanent
-location: Clacton-On-Sea
-source: JobG8
-job_id: jobg8-2043659
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -595,6 +583,18 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
+company: Reed - Agency - Permanent
+location: Witham
+source: JobG8
+job_id: jobg8-2190949
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
 company: Rutherford Briant - Agency - Permanent
 location: Essex
 source: JobG8
@@ -630,6 +630,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Administrator
+company: Adecco - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225767362
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator - MAT COVER
 company: Adecco - Agency - Contract
 location: Essex
@@ -647,6 +659,30 @@ company: Nuco Solutions Ltd - Agency - Permanent
 location: Brentwood
 source: JobG8
 job_id: jobg8-23643_225685167
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor / Administrator
+company: Colbern Limited - Agency - Contract
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225745587
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Executive
+company: Rutherford Briant - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-2192849
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -683,18 +719,6 @@ company: Office Angels - Agency - Permanent
 location: Grays
 source: JobG8
 job_id: jobg8-23643_225760827
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Experienced Scheduling / Technical coordinator
-company: Adecco - Agency - Permanent
-location: Dunmow
-source: JobG8
-job_id: jobg8-23643_225723494
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -790,7 +814,7 @@ title: Legal Secretary
 company: GerrardWhite - Agency - Permanent
 location: Frinton-On-Sea
 source: JobG8
-job_id: jobg8-2183417
+job_id: jobg8-2193113
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -930,11 +954,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Admin Assistant - Filled
-company: Aureos Group - Agency - Permanent
-location: Tiptree
+title: Part -time Administrator
+company: Just Temps - Agency - Temporary
+location: Essex
 source: JobG8
-job_id: jobg8-23643_225674381
+job_id: jobg8-23643_225769857
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -983,6 +1007,18 @@ company: Remedy Education - Agency - Contract
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225672932
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Go Ahead Recruitment Limited - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225766670
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1139,18 +1175,6 @@ company: Nicholas Associates - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225749724
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Rail Sales Coordinator
-company: Prime Appointments - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-23643_225730932
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1350,6 +1374,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Sales Ledger Clerk
+company: Huntress - Agency - Permanent
+location: Basildon
+source: JobG8
+job_id: jobg8-23643_225767972
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales ledger/Billing & Invoice Clerk
 company: Reed - Agency - Permanent
 location: Brentwood
@@ -1367,30 +1403,6 @@ company: Greenways Primary School
 location: Southend-on-Sea
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrative-assistant-greenways-primary-school
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Delivery Coordinator
-company: Rise Technical Recruitment - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-23643_225734399
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Delivery Coordinator
-company: Rise Technical Recruitment Limited - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2141528
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

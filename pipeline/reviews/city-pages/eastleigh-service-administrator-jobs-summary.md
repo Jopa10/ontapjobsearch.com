@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 101
-- automatic exclude: 54
+- automatic review: 92
+- automatic exclude: 52
 - effective include: 3
-- effective review: 101
-- effective exclude: 54
+- effective review: 92
+- effective exclude: 52
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: jobg8-2064740
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (101)
+## REVIEW (92)
 
 ---
 action: 
@@ -71,18 +71,6 @@ company: ECS Resource Group Ltd - Agency - Permanent
 location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225740626
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Havant
-source: JobG8
-job_id: jobg8-2183967
 reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -294,11 +282,35 @@ reason: No approved Eastleigh employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Business Administrator
+company: Matchtech - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225768816
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support Administrator
 company: Conquip Engineering Group - Agency - Permanent
 location: Alton
 source: JobG8
 job_id: jobg8-23643_225661078
+reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Navigator (Receptionist)
+company: Vine Medical Group
+location: Waterlooville, PO7 7AH, Waterlooville, PO7 6AL, Waterlooville, PO7 8NS
+source: NHS Jobs
+job_id: nhs-5689872
 reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -372,6 +384,18 @@ location: Waterlooville
 source: JobG8
 job_id: jobg8-23643_225713816
 reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Faith Recruitment - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225768087
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
 ---
@@ -522,30 +546,6 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Finance Officer
-company: Dynamite Recruitment - Agency - Temporary
-location: Havant
-source: JobG8
-job_id: jobg8-23643_225663674
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Officer
-company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
-location: Havant
-source: JobG8
-job_id: jobg8-2045876
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Fleet / Lease Administrator
 company: Rise Technical Recruitment - Agency - Contract
 location: Hampshire
@@ -606,18 +606,6 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: HR Coordinator
-company: Howett Thorpe - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225663857
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Interim Commercial Administrator (12m FTC)
 company: Connect It Utility Services Limited - Agency - Permanent
 location: Hampshire
@@ -636,6 +624,18 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225667520
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Executive - Commercial Interiors
+company: South West Recruitment - Agency - Permanent
+location: New Milton
+source: JobG8
+job_id: jobg8-23643_225769849
+reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -671,18 +671,6 @@ company: Chalk Hill Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2089703
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant - Commercial Property
-company: Harwood Recruitment Solutions Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2044543
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -859,47 +847,11 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
-company: Robert Walters - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2045627
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
 company: Workshop Recruitment - Agency - Temporary
 location: Havant
 source: JobG8
 job_id: jobg8-23643_225748634
 reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2046127
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225664099
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
 ---
@@ -990,18 +942,6 @@ reason: No approved Eastleigh employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Coordinator / Resourcer
-company: S.N.G Healthcare Group Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225701805
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Resourcer
 company: Prospero Group - Agency - Permanent
 location: Hampshire
@@ -1043,30 +983,6 @@ company: Find Recruitment Group LTD - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225719215
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Resourcer / Delivery Consultant
-company: Advance TRS - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225661420
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales & Operations Coordinator
-company: Rubicon Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225718303
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -1158,18 +1074,6 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Service Co-ordinator
-company: Complete Security Recruitment - Agency - Permanent
-location: Hook
-source: JobG8
-job_id: jobg8-23643_225663666
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Coordinator
 company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Emsworth
@@ -1206,30 +1110,6 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Service Receptionist
-company: Silcom Recruitment Limited - Agency - Permanent
-location: Petersfield
-source: JobG8
-job_id: jobg8-2046029
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Shift Coordinator
-company: Adecco - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225661889
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Stock Administrator
 company: Sammons Recruitment Ltd - Agency - Permanent
 location: Hampshire
@@ -1248,6 +1128,18 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225397700
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Data Administrator
+company: Mulberry Recruitment - Agency - Temporary
+location: Fleet
+source: JobG8
+job_id: jobg8-23643_225769379
+reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -1274,19 +1166,7 @@ job_id: jobg8-23643_225665585
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (54)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Account Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2042236
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
+## EXCLUDE (52)
 
 ---
 action: 
@@ -1424,6 +1304,18 @@ reason: The stated workplace belongs outside the approved Eastleigh employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administrator - Construction
+company: 3D Personnel LTD - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225768701
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Administrator - The Harbour School
 company: The Harbour School
 location: Portsmouth
@@ -1544,18 +1436,6 @@ reason: The stated workplace belongs outside the approved Eastleigh employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2042564
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Administrator
 company: Office Angels - Agency - Temporary
 location: Farnborough
@@ -1604,6 +1484,18 @@ reason: The stated workplace belongs outside the approved Eastleigh employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Document Controller - Construction
+company: 3D Personnel LTD - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225768718
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Facilities Co-ordinator
 company: Office Angels - Agency - Permanent
 location: Basingstoke
@@ -1616,35 +1508,11 @@ reason: The stated workplace belongs outside the approved Eastleigh employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: CMA Recruitment Group - Agency - Temporary
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225663896
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Fundraising Administrator
 company: Hays Business Support - Agency - Temporary
 location: Winchester
 source: JobG8
 job_id: jobg8-23643_225721323
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Inbound Sales Specialist
-company: CCA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225710926
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1705,6 +1573,18 @@ company: Derby Road Practice
 location: Portsmouth, PO2 8HW
 source: NHS Jobs
 job_id: nhs-5667147
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Operation Coordinator
+company: Huntress - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225768559
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1837,18 +1717,6 @@ company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225684953
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Development Representative
-company: ECS Resource Group Ltd - Agency - Permanent
-location: Aldershot
-source: JobG8
-job_id: jobg8-23643_225661253
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

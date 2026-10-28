@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 78
-- automatic exclude: 31
+- automatic review: 76
+- automatic exclude: 29
 - effective include: 5
-- effective review: 78
-- effective exclude: 31
+- effective review: 76
+- effective exclude: 29
 
 ## INCLUDE (5)
 
@@ -84,7 +84,7 @@ job_id: jobg8-2064741
 reason: Exact approved Horsham workplace.
 ---
 
-## REVIEW (78)
+## REVIEW (76)
 
 ---
 action: 
@@ -139,10 +139,10 @@ action:
 decision: review
 automatic_decision: review
 title: Activities Coordinator
-company: The Priory Group - Agency - Permanent
+company: Operations Resources Limited - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-108093701
+job_id: jobg8-107921098
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -354,18 +354,6 @@ reason: No approved Horsham employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
-company: Morgan Mckinley (Crawley) - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225662257
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Fireco Ltd - Agency - Permanent
 location: Sussex
@@ -498,18 +486,6 @@ reason: No approved Horsham employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: First Recruitment Services - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2044482
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant - Construction
 company: Henley Chase - Agency - Permanent
 location: Sussex
@@ -623,6 +599,18 @@ company: Staff Partners Business - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225734194
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mortgage Administrator
+company: Hunters Recruitment & Training Limited - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-108225614
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -930,18 +918,6 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Technical Account Executive - Leisure Marine
-company: Marine Resources - Agency - Permanent
-location: Hailsham
-source: JobG8
-job_id: jobg8-23643_225657534
-reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Telemarketing Campaign Executive
 company: Workshop Recruitment - Agency - Permanent
 location: Sussex
@@ -1006,7 +982,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2182620
+job_id: jobg8-2190743
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -1022,7 +998,7 @@ job_id: jobg8-23643_225699794
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -1100,18 +1076,6 @@ reason: The stated workplace belongs outside the approved Horsham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Call Handler / Patient Coordinator
-company: First Recruitment Services - Agency - Temporary
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225748791
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Claims Administrator
 company: Tate - Agency - Temporary
 location: Brighton
@@ -1148,23 +1112,11 @@ reason: The stated workplace belongs outside the approved Horsham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller
-company: Michael Page - Agency - Permanent
-location: Brighton
+title: Customer Service & After Sales Coordinator
+company: Office Angels - Agency - Permanent
+location: Hove
 source: JobG8
-job_id: jobg8-23643_225663519
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-2045548
+job_id: jobg8-23643_225770354
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 
@@ -1292,6 +1244,18 @@ reason: The stated workplace belongs outside the approved Horsham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: Witterings Medical Centre
+location: Chichester, PO20 8BH
+source: NHS Jobs
+job_id: nhs-5691080
+reason: The stated workplace belongs outside the approved Horsham employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist / Administrator
 company: Integrated Care 24 Ltd
 location: Brighton, BN1 7GF
@@ -1345,18 +1309,6 @@ company: First Recruitment Services - Agency - Permanent
 location: Eastbourne
 source: JobG8
 job_id: jobg8-23643_225667810
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor
-company: Perfect Placement - Agency - Permanent
-location: Worthing
-source: JobG8
-job_id: jobg8-23643_225658069
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 

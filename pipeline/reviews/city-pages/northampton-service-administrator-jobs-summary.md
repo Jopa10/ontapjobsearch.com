@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 54
+- automatic include: 20
+- automatic review: 53
 - automatic exclude: 0
-- effective include: 19
-- effective review: 54
+- effective include: 20
+- effective review: 53
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (20)
 
 ---
 action: 
@@ -93,6 +93,18 @@ company: Moulton Primary School
 location: Northampton
 source: Teaching Vacancies
 job_id: teaching-vacancies-content-creator-and-admin-assistant
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Control
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225767617
 reason: Exact approved Northampton workplace.
 ---
 
@@ -172,6 +184,18 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Sales Admin- 6 Month FTC
+company: Impact Recruitment Services - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225770634
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: County Surgery
 location: Northampton, NN1 4QA
@@ -201,18 +225,6 @@ company: Osborne Appointments - Agency - Permanent
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225713679
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: School Administrator - SLT Support
-company: St Thomas Becket Catholic School
-location: Northampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-slt-support-st-thomas-becket-catholic-school-northampton-northamptonshire
 reason: Exact approved Northampton workplace.
 ---
 
@@ -252,7 +264,7 @@ job_id: jobg8-23643_225761870
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (53)
 
 ---
 action: 
@@ -378,18 +390,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2042669
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Administrator
 company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Rushden
@@ -431,18 +431,6 @@ company: KPI People Ltd - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225736485
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Depot Coordinator
-company: Whistl - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225659123
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -546,11 +534,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Group Accounts Assistant
-company: Impact HR - Agency - Permanent
-location: Northamptonshire
+title: Hire Controller/Administrator
+company: Advanced Access Platforms - Agency - Permanent
+location: Corby
 source: JobG8
-job_id: jobg8-2046754
+job_id: jobg8-23643_225718945
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -558,11 +546,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Hire Controller/Administrator
-company: Advanced Access Platforms - Agency - Permanent
-location: Corby
-source: JobG8
-job_id: jobg8-23643_225718945
+title: HR Administrator
+company: Lakeside Healthcare Group
+location: Corby, NN17 1TY
+source: NHS Jobs
+job_id: nhs-5690261
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -726,6 +714,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Payroll & HR Administrator
+company: Axil - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2194605
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant
 company: Impact Recruitment Services - Agency - Permanent
 location: Northamptonshire
@@ -743,6 +743,18 @@ company: Meridian Business Support - Agency - Contract
 location: Corby
 source: JobG8
 job_id: jobg8-23643_225734145
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Admin
+company: HIGHAM FERRERS SURGERY
+location: Rushden, NN10 8ED
+source: NHS Jobs
+job_id: nhs-5689603
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -863,18 +875,6 @@ company: RecruitmentService.uk - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2083728
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Stock Administrator
-company: Interaction Recruitment - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225661543
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

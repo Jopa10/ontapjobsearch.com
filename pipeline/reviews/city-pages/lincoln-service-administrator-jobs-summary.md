@@ -112,18 +112,6 @@ reason: Exact approved Lincoln workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Fleet Account Coordinator
-company: Listers - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-108220157
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Invoicing Administrator
 company: Barker Ross - Agency - Temporary
 location: Lincolnshire
@@ -214,6 +202,18 @@ location: Lincoln
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-sir-robert-pattinson-academy
 reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225767948
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---

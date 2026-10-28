@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 16
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 15
+- effective include: 16
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (16)
 
 ---
 action: 
@@ -117,6 +117,18 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225761200
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator (Temp)
+company: Michael Page - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225769090
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

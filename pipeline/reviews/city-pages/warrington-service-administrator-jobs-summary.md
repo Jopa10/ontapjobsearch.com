@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 9
-- automatic exclude: 3
-- effective include: 20
-- effective review: 9
-- effective exclude: 3
+- automatic include: 18
+- automatic review: 8
+- automatic exclude: 2
+- effective include: 18
+- effective review: 8
+- effective exclude: 2
 
-## INCLUDE (20)
+## INCLUDE (18)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Michael Page - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225740957
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant - Purchase Ledger
-company: Adele Carr Recruitment Limited - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2077982
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -160,18 +148,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Assistant
-company: Michael Page - Agency - Temporary
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225659253
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Performance Marketing Manager
 company: Nova Recruitment - Agency - Permanent
 location: Warrington
@@ -264,7 +240,7 @@ job_id: nhs-5676409
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -330,18 +306,6 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Lakeside Surgery
-location: Lymm, WA13 0QE
-source: NHS Jobs
-job_id: nhs-5659960
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist/Administrator
 company: Newtown Surgery
 location: Widnes, WA8 7GD
@@ -374,7 +338,7 @@ job_id: jobg8-2144274
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (2)
 
 ---
 action: 
@@ -385,18 +349,6 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-2153179
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: North Cheshire and Mersey NHS Foundation Trust (BCH)
-location: Runcorn, WA7 1HB
-source: NHS Jobs
-job_id: nhs-5661628
 reason: Separate employment market.
 ---
 

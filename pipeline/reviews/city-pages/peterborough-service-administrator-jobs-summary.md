@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 9
+- automatic include: 22
+- automatic review: 10
 - automatic exclude: 37
-- effective include: 19
-- effective review: 9
+- effective include: 22
+- effective review: 10
 - effective exclude: 37
 
-## INCLUDE (19)
+## INCLUDE (22)
 
 ---
 action: 
@@ -148,6 +148,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Assistant
+company: Vero Hr - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225770986
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR MANAGER - PART-TIME
 company: Interaction Recruitment - Agency - Permanent
 location: Peterborough
@@ -208,6 +220,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Maintenance Administrator
+company: Curve Recruitment - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225768482
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist/ Administrator
 company: Dr Laliwala and Partners
 location: Peterborough, PE1 4FS
@@ -252,7 +276,19 @@ job_id: jobg8-23643_221302954
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (9)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
+company: The Recruitment Solution (London) Ltd - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2194126
+reason: Approved conservative Peterborough launch catchment.
+---
+
+## REVIEW (10)
 
 ---
 action: 
@@ -318,6 +354,18 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Assistant
+company: Infinity Recruitment Consultancy Limited - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225762969
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patient Services Administrator
 company: Lakeside Healthcare Group
 location: ST. NEOTS, PE19 1BQ
@@ -330,11 +378,11 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Executive
+title: Sales Support Administrator
 company: Interaction Recruitment - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-23643_225661395
+job_id: jobg8-23643_225768922
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -452,30 +500,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Brand & Marketing Executive
-company: UBT - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2045452
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Brand & Marketing Executive
-company: Universal Business Team - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225662551
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Commercial Account Manager
 company: Select Recruitment Specialists Ltd - Agency - Temporary
 location: Cambridge
@@ -565,6 +589,18 @@ company: Interaction Recruitment - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225744955
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Digital Marketing Officer
+company: CPSL Mind - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-23643_225764192
 reason: Separate employment market.
 ---
 
@@ -721,6 +757,18 @@ company: The Perse School - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225748756
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: PR manager
+company: Kidney Research UK - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2192738
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 72
+- automatic review: 71
 - automatic exclude: 0
 - effective include: 11
-- effective review: 72
+- effective review: 71
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: nhs-5676129
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (72)
+## REVIEW (71)
 
 ---
 action: 
@@ -215,18 +215,6 @@ company: Morgan McKinley - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-2057564
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable
-company: Orka Financial - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2041612
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -323,18 +311,6 @@ company: Equation Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225506226
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Future Engineering Recruitment Ltd - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225698486
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -582,18 +558,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Office Angels - Agency - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225661855
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Officer
 company: Stephenson Academy
 location: Milton Keynes
@@ -786,6 +750,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Professional
+company: Blusource Professional Services Ltd - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225768763
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: People & Culture Coordinator
 company: Lifesearch - Agency - Contract
 location: Milton Keynes
@@ -803,6 +779,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: High Wycombe
 source: JobG8
 job_id: jobg8-23643_225745214
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Coordinator
+company: Journey recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2193234
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

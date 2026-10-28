@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 16
 - automatic review: 13
-- automatic exclude: 39
+- automatic exclude: 38
 - effective include: 16
 - effective review: 13
-- effective exclude: 39
+- effective exclude: 38
 
 ## INCLUDE (16)
 
@@ -374,7 +374,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (39)
+## EXCLUDE (38)
 
 ---
 action: 
@@ -493,18 +493,6 @@ company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225679767
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controller
-company: Sharp Consultancy - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2043404
 reason: Separate employment market.
 ---
 
