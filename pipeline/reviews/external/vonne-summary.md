@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-27
-review_fingerprint: 3eec3d2274b9dbdb03f3294710f10f810dc80525577affdcc57aa03934387dfd
+review_date: 2026-10-28
+review_fingerprint: 84cc7acedb2219203d70f7a3c25131d30effc9d4a8036e8a4134c9ca7200a9e9
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-27T12:35:23+00:00
+Run generated: 2026-10-28T13:22:44+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 448
+JobG8 comparison rows: 455
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -23,15 +23,15 @@ Approved NEJobs comparison rows: 0
 - Obvious hard passes not detail-fetched: 11
 - Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 1
-- Generic/derived geography rows requiring review: 3
+- Generic/derived geography rows requiring review: 2
 - Retained target candidates: 14
 
 ## Outcomes
 - HC: 0
-- POSS: 5
-- HARD_PASS: 9
+- POSS: 6
+- HARD_PASS: 8
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 0
+- Final POSS awaiting decision: 1
 - Manually excluded: 5
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -95,6 +95,19 @@ source_job_id: 173522
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173522
 ---
 ---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £50,565 Per Annum | Solicitor
+employer: Citizens Advice Gateshead
+closing_date: 30 October 2026
+geography: CONFIRMED — location: exact area
+reason: possible cross-source duplicate requires review
+source: VONNE
+tracking_key: vonne-173501
+vacancy_fingerprint: a88d73601f7b6d5f1dbbeabde86760e2454307e9b03d45a1b838d07686248076
+source_job_id: 173501
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173501
+---
+---
 action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,718 to 28,772 Per Annum | Student Communities Coordinator, Sunderland
 employer: University of Sunderland Students' Union
@@ -119,9 +132,8 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 - [Cancer and Dementia Care Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173588) — out-of-scope VONNE occupation.
 - [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
 - [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
-- [Employability and Skills Mentor](https://www.vonne.org.uk/vonne-jobs-details?cid=173545) — insufficient service-admin evidence.
+- [Income and Project Delivery Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173614) — insufficient service-admin evidence.
 - [Independent Advocate](https://www.vonne.org.uk/vonne-jobs-details?cid=173539) — insufficient service-admin evidence.
-- [Payroll and People Systems Assistant](https://www.vonne.org.uk/vonne-jobs-details?cid=173536) — confirmed JobG8 duplicate.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
