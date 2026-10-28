@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 50
+- automatic review: 52
 - automatic exclude: 0
 - effective include: 10
-- effective review: 50
+- effective review: 52
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225765910
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (50)
+## REVIEW (52)
 
 ---
 action: 
@@ -331,6 +331,18 @@ action:
 decision: review
 automatic_decision: review
 title: Care Coordinator
+company: Coburg Banks Limited - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225660707
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
 company: Red Recruitment - Agency - Permanent
 location: Gloucestershire
 source: JobG8
@@ -426,6 +438,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Facilities Coordinator
+company: Winner Recruitment - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225767161
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance officer - Rent and Service Charges
 company: Gloucester City Homes - Agency - Permanent
 location: Gloucestershire
@@ -443,6 +467,18 @@ company: STONEHOUSE HEALTH CLINIC
 location: Stonehouse, GL10 2NG
 source: NHS Jobs
 job_id: nhs-5672395
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Hire Fleet Coordinator
+company: Auto Skills UK - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225770833
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -479,18 +515,6 @@ company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225705060
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Insurance Administrator
-company: Travail Employment Group - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225658340
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -618,6 +642,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Recruiter
+company: Alexander Mae (HR) Ltd - Agency - Contract
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-108044139
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales administrator
 company: Travail Employment Group - Agency - Permanent
 location: Gloucestershire
@@ -647,18 +683,6 @@ company: First Choice Recruitment Services - Agency - Permanent
 location: Cheltenham
 source: JobG8
 job_id: jobg8-23643_225448632
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Coordinator
-company: Advanced Technical Recruitment - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225657514
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

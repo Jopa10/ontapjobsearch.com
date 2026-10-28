@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 75
+- automatic include: 8
+- automatic review: 73
 - automatic exclude: 0
-- effective include: 9
-- effective review: 75
+- effective include: 8
+- effective review: 73
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -101,18 +101,6 @@ action:
 decision: include
 automatic_decision: include
 title: Payroll Manager (Part Time)
-company: Reed - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2042147
-reason: Exact approved Bath workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Manager (Part Time)
 company: Reed Technology - Agency - Permanent
 location: Bath
 source: JobG8
@@ -132,7 +120,7 @@ job_id: jobg8-23643_225765891
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (75)
+## REVIEW (73)
 
 ---
 action: 
@@ -246,18 +234,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Red Recruitment - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225662841
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Brand Manager (Automotive Dealership)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Gloucestershire
@@ -354,35 +330,11 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Copywriter (Social) TMP268
-company: PeopleScout RPO - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225645719
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Morgan McKinley (South West) - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225663218
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Morgan McKinley - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2045193
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -450,6 +402,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Document Controller
+company: Conrad Consulting Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225767757
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Event Co-ordinator
 company: In Any Event - Agency - Permanent
 location: Portishead
@@ -478,18 +442,6 @@ title: Finance Assistant
 company: Artis Recruitment - Agency - Permanent
 location: Yate
 source: JobG8
-job_id: jobg8-2042684
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Artis Recruitment - Agency - Permanent
-location: Yate
-source: JobG8
 job_id: jobg8-23643_225661210
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
@@ -503,18 +455,6 @@ company: Morgan McKinley (South West) - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225760729
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Red Recruitment - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225662883
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -630,18 +570,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Internal Sales
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225657710
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Internal Sales Account Manager
 company: CCA Recruitment Group - Agency - Permanent
 location: Bristol
@@ -671,6 +599,18 @@ company: Sytner - Company - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225743357
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant
+company: eNL Legal Recruitment - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2186589
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -858,6 +798,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Coordinator
+company: Experis - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225768695
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Repairs Coordinator
 company: Tate - Agency - Temporary
 location: Bristol
@@ -966,6 +918,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Senior Internal Communications Manager
+company: HFT - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2195049
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: Pembrook Resourcing - Agency - Permanent
 location: Bristol
@@ -1030,7 +994,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2182621
+job_id: jobg8-2190744
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

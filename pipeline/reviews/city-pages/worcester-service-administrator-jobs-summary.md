@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 35
+- automatic include: 7
+- automatic review: 32
 - automatic exclude: 0
-- effective include: 8
-- effective review: 35
+- effective include: 7
+- effective review: 32
 - effective exclude: 0
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: ACCOUNTS & OPERATIONS ASSISTANT
-company: PPM Recruitment - Agency - Permanent
-location: Worcester
-source: JobG8
-job_id: jobg8-23643_225662568
-reason: Exact approved Worcester workplace.
----
+## INCLUDE (7)
 
 ---
 action: 
@@ -57,6 +45,18 @@ company: Herefordshire and Worcestershire Health and Care NHS Trust
 location: Worcester, WR1 3LE
 source: NHS Jobs
 job_id: nhs-5680854
+reason: Exact approved Worcester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Worcester, WR5 1JF
+source: NHS Jobs
+job_id: nhs-5690811
 reason: Exact approved Worcester workplace.
 ---
 
@@ -100,18 +100,6 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist / Care navigator
-company: Albany House Surgery
-location: Worcester, WR1 3DU
-source: NHS Jobs
-job_id: nhs-5627975
-reason: Exact approved Worcester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Wedding & Events Co-ordinator
 company: Four Squared - Agency - Permanent
 location: Worcester
@@ -120,7 +108,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (32)
 
 ---
 action: 
@@ -210,18 +198,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Clerk
-company: CY Executive Resourcing - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225663805
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Admin / Business Support Officer
 company: Colbern Limited - Agency - Contract
 location: Worcestershire
@@ -248,9 +224,9 @@ decision: review
 automatic_decision: review
 title: Administration Assistant
 company: Herefordshire and Worcestershire Health and Care NHS Trust
-location: Malvern, WR14 1EX
+location: Droitwich, WR9 8QU
 source: NHS Jobs
-job_id: nhs-5660031
+job_id: nhs-5689137
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -318,6 +294,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Administrator
+company: Pertemps Black Country Perms - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225767657
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support Assistant
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Redditch
@@ -342,18 +330,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Workforce Staffing Ltd - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225663649
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: European and UK Road Coordinator
 company: Freight Personnel - Agency - Permanent
 location: Worcestershire
@@ -368,33 +344,9 @@ decision: review
 automatic_decision: review
 title: Finance Assistant
 company: SF Partners - Agency - Permanent
-location: Pershore
-source: JobG8
-job_id: jobg8-2045457
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: SF Partners - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-2057910
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: SF Partners - Agency - Temporary
-location: Pershore
-source: JobG8
-job_id: jobg8-23643_225663440
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

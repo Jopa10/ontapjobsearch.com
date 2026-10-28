@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 16
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 3
-- effective review: 16
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-sixth-form-administrator-the-fallibroome-academy-macc
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (14)
 
 ---
 action: 
@@ -174,35 +174,11 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Michael Page - Agency - Temporary
-location: Knutsford
-source: JobG8
-job_id: jobg8-23643_225663446
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Coordinator
 company: Forrest Recruitment - Agency - Permanent
 location: Wilmslow
 source: JobG8
 job_id: jobg8-23643_225755757
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Outbound Sales Adviser
-company: Work Lyf Group Ltd - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225564622
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

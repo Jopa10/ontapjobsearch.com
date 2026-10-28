@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 8
 - automatic review: 37
 - automatic exclude: 0
-- effective include: 9
+- effective include: 8
 - effective review: 37
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
-title: ESR Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Poole, BH17 0RB
-source: NHS Jobs
-job_id: nhs-5661555
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Night Order Processor / Administrator
 company: South West Recruitment - Agency - Permanent
 location: Poole
@@ -155,6 +143,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2055800
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Agincare Group - Agency - Permanent
+location: Weymouth
+source: JobG8
+job_id: jobg8-108179266
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -283,6 +283,18 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
+company: Office Angels - Agency - Temporary
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225767383
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
 company: Simply Automotive Ltd - Agency - Permanent
 location: Dorset
 source: JobG8
@@ -390,18 +402,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: PA / Administrator
-company: Dovetail Recruitment Ltd - Agency - Permanent
-location: Christchurch
-source: JobG8
-job_id: jobg8-23643_225663991
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Accounts Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
@@ -479,18 +479,6 @@ company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2075541
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Fawkes & Reece London - Agency - Contract
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225664250
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

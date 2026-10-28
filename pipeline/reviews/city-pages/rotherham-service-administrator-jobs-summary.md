@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 61
+- automatic review: 60
 - automatic exclude: 0
 - effective include: 7
-- effective review: 61
+- effective review: 60
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (61)
+## REVIEW (60)
 
 ---
 action: 
@@ -311,18 +311,6 @@ company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225679767
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Sharp Consultancy - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2043404
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

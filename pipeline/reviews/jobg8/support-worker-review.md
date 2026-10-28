@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-27
+feed_date: 2026-10-28
 
 Edit only the `action:` line in each block:
 
@@ -11,7 +11,11 @@ Edit only the `action:` line in each block:
 
 ## WEST YORKSHIRE — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Yorkshire - West | Huddersfield | £12.71 - £14 per hour | Support Worker
+job_id: 23643_225660273
+---
 
 ## WEST YORKSHIRE — POSSIBLES
 
@@ -207,12 +211,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
-job_id: 1401785578
----
-
----
-action:
 SELECTED | Hampshire | Basingstoke | £93 - £100 per daily | Student Support Worker
 job_id: 23643_225712958
 ---
@@ -271,9 +269,37 @@ SELECTED | Hampshire | Eastleigh | £26018 - £27111 per year | Care Assistant
 job_id: 1401786107
 ---
 
+---
+action:
+SELECTED | Hampshire | Lyndhurst | £12.82 per hour | Healthcare Assistant
+job_id: 23643_223548398
+---
+
+---
+action:
+SELECTED | Hampshire | Romsey | £26018 - £27111 per year () plus Market Supplement of £3,000 pro-rata, per annum) | Waking Night Childrens Home Support Worker
+job_id: 1401785985
+---
+
+---
+action:
+SELECTED | Hampshire | Gosport | £26018 - £27111 per year | Night Care Assistant
+job_id: 1401785959
+---
+
 ## HAMPSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Havant | £34273 - £37570 per year | Support Worker (Out of Hours)
+job_id: 1401785879
+---
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Andover | £28697 - £31573 per year | Children's Home Support Worker
+job_id: 1401785886
+---
 
 ## KENT — SELECTED
 
@@ -336,12 +362,6 @@ job_id: 23643_225762090
 _No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | London | £18 - £20 per hour | Family Support Worker
-job_id: 23643_225660074
----
 
 ---
 action:
@@ -579,25 +599,23 @@ job_id: 23643_225762327
 
 ---
 action:
-SELECTED | London | London | £31,490 per annum | Exploitation Support Worker
-job_id: 2184157
+SELECTED | London | London | £18 - £20 per hour | Family Support Worker
+job_id: 23643_225660074
 ---
 
 ---
 action:
-SELECTED | London | Isleworth | £25999 per year | 11 Pastoral Support Worker
-job_id: 108189611
----
-
----
-action:
-SELECTED | London | London | £15 per hour | Bank Support Worker
-job_id: 2190064
+SELECTED | London | City | £21694 - £23232 per year | Support Worker
+job_id: 23643_225728754
 ---
 
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | City | £12.71 - £17.1 per hour | Housing support worker
+job_id: 23643_225768476
+---
 
 ## OXFORDSHIRE — SELECTED
 
@@ -617,12 +635,6 @@ _No jobs in this group._
 action:
 SELECTED | Surrey | Leatherhead | £30000 - £32000 per year | Legal Personal Assistant
 job_id: 2064951
----
-
----
-action:
-SELECTED | Surrey | Fetcham | £17330 - £18471 per year (pro rata to £34,660 FTE) | Family Support Worker EDT
-job_id: 23643_225708916
 ---
 
 ---
@@ -665,12 +677,6 @@ job_id: 23643_225761982
 action:
 SELECTED | Surrey | Hindhead | £15.45 per hour | Care Assistant
 job_id: 23643_225761987
----
-
----
-action:
-SELECTED | Surrey | Surrey | £14.5 per hour | Night Care Assistant
-job_id: 23643_225440444
 ---
 
 ## SURREY — POSSIBLES

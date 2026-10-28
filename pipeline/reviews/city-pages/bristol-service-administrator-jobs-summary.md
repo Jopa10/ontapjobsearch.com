@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 60
+- Effective included jobs: 58
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 60
+- automatic include: 58
 - automatic review: 15
-- automatic exclude: 9
-- effective include: 60
+- automatic exclude: 8
+- effective include: 58
 - effective review: 15
-- effective exclude: 9
+- effective exclude: 8
 
-## INCLUDE (60)
+## INCLUDE (58)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Bookkeeper
-company: Red Recruitment - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225662841
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Care Home Administrator
 company: Hamberley Care Management Limited - Company - Permanent
 location: Bristol
@@ -208,35 +196,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Copywriter (Social) TMP268
-company: PeopleScout RPO - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225645719
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Credit Controller
 company: Morgan McKinley (South West) - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225663218
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Morgan McKinley - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2045193
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -304,6 +268,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Document Controller
+company: Conrad Consulting Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225767757
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Exams Officer
 company: Downend School
 location: Bristol
@@ -321,18 +297,6 @@ company: Morgan McKinley (South West) - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225760729
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Red Recruitment - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225662883
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -412,18 +376,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Internal Sales
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225657710
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Internal Sales Account Manager
 company: CCA Recruitment Group - Agency - Permanent
 location: Bristol
@@ -441,6 +393,18 @@ company: Sytner - Company - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225743357
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Assistant
+company: eNL Legal Recruitment - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2186589
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -573,6 +537,18 @@ company: Fairfield High School
 location: Bristol
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-fairfield-high-school
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Recruitment Coordinator
+company: Experis - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225768695
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -802,18 +778,6 @@ title: Finance Assistant
 company: Artis Recruitment - Agency - Permanent
 location: Yate
 source: JobG8
-job_id: jobg8-2042684
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Artis Recruitment - Agency - Permanent
-location: Yate
-source: JobG8
 job_id: jobg8-23643_225661210
 reason: No approved Bristol catchment rule matched; local review required.
 ---
@@ -918,15 +882,27 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Senior Internal Communications Manager
+company: HFT - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2195049
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2182621
+job_id: jobg8-2190744
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -997,18 +973,6 @@ company: Juice Recruitment Ltd - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-2070922
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll Manager (Part Time)
-company: Reed - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2042147
 reason: Separate employment market.
 ---
 

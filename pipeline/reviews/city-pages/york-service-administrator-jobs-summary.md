@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 17
-- automatic exclude: 29
-- effective include: 12
-- effective review: 17
-- effective exclude: 29
+- automatic include: 13
+- automatic review: 15
+- automatic exclude: 27
+- effective include: 13
+- effective review: 15
+- effective exclude: 27
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -148,6 +148,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Nimbuscare
+location: York, YO24 4LJ, York, YO24 1LW, York, YO26 4GG
+source: NHS Jobs
+job_id: nhs-5689323
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Reprographics & Admin assistant
 company: PK Education - Agency - Temporary
 location: York
@@ -168,7 +180,7 @@ job_id: nhs-5665026
 reason: Approved York catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (15)
 
 ---
 action: 
@@ -222,18 +234,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Ripon Farm Services - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-2043051
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Secretary
 company: Sewell Wallis Ltd - Agency - Permanent
 location: Malton
@@ -275,18 +275,6 @@ company: Magpie Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225719224
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Private Client Legal Secretary
-company: Search Consultancy Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225661285
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -374,7 +362,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -469,18 +457,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225706656
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Content Creator
-company: Greenfield I T Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2045708
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -656,18 +632,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Ledger Administrator
-company: Technical Prospects Ltd - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225675199
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: School Administrator
 company: Saltergate Junior School
 location: Harrogate
@@ -704,22 +668,22 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Technical & Quality Support Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225691482
-reason: Separate employment market.
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Scarborough, North Yorkshire, YO11 3EG
+source: NHS Jobs
+job_id: nhs-5690490
+reason: Broad county/region label; not York-city evidence.
 ---
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Volunteer Coordinator (12 month maternity cover role)
-company: Harrogate Homeless Project - Agency - Permanent
+title: Technical & Quality Support Administrator
+company: Unity Resourcing Ltd - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2174235
+job_id: jobg8-23643_225691482
 reason: Separate employment market.
 ---

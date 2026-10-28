@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 63
+- automatic review: 62
 - automatic exclude: 0
 - effective include: 20
-- effective review: 63
+- effective review: 62
 - effective exclude: 0
 
 ## INCLUDE (20)
@@ -264,7 +264,7 @@ job_id: jobg8-2169089
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (63)
+## REVIEW (62)
 
 ---
 action: 
@@ -311,18 +311,6 @@ company: Fortis Recruitment Solutions Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2053673
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable
-company: Orka Financial - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2041612
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -431,18 +419,6 @@ company: Equation Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225506226
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Future Engineering Recruitment Ltd - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225698486
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -666,18 +642,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Office Angels - Agency - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225661855
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Assistant
 company: Fawkes & Reece London - Agency - Permanent
 location: Buckinghamshire
@@ -834,6 +798,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Professional
+company: Blusource Professional Services Ltd - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225768763
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project Co-ordinator
 company: Adecco - Agency - Permanent
 location: Aylesbury
@@ -851,6 +827,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: High Wycombe
 source: JobG8
 job_id: jobg8-23643_225745214
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Coordinator
+company: Journey recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2193234
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

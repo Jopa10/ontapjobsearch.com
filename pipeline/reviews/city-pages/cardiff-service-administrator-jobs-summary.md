@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 20
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 19
+- effective include: 20
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (20)
 
 ---
 action: 
@@ -189,6 +189,18 @@ company: Work Wales - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225449673
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Assistant
+company: Pertemps Cardiff - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2192388
 reason: Approved conservative Cardiff launch catchment.
 ---
 

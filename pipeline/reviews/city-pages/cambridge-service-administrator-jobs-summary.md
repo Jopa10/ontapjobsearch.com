@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 33
-- automatic review: 9
-- automatic exclude: 23
+- automatic review: 10
+- automatic exclude: 26
 - effective include: 33
-- effective review: 9
-- effective exclude: 23
+- effective review: 10
+- effective exclude: 26
 
 ## INCLUDE (33)
 
@@ -100,30 +100,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Brand & Marketing Executive
-company: UBT - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2045452
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Brand & Marketing Executive
-company: Universal Business Team - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225662551
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Commercial Account Manager
 company: Select Recruitment Specialists Ltd - Agency - Temporary
 location: Cambridge
@@ -189,6 +165,18 @@ company: Interaction Recruitment - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225744955
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Digital Marketing Officer
+company: CPSL Mind - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-23643_225764192
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -352,6 +340,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: PR manager
+company: Kidney Research UK - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2192738
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist / Front of House
 company: Adecco - Agency - Temporary
 location: Cambridge
@@ -420,7 +420,7 @@ job_id: jobg8-2099638
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -486,6 +486,18 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Assistant
+company: Infinity Recruitment Consultancy Limited - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225762969
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patient Services Administrator
 company: Lakeside Healthcare Group
 location: ST. NEOTS, PE19 1BQ
@@ -498,11 +510,11 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Executive
+title: Sales Support Administrator
 company: Interaction Recruitment - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-23643_225661395
+job_id: jobg8-23643_225768922
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -530,7 +542,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -692,6 +704,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR Assistant
+company: Vero Hr - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225770986
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR MANAGER - PART-TIME
 company: Interaction Recruitment - Agency - Permanent
 location: Peterborough
@@ -752,6 +776,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Maintenance Administrator
+company: Curve Recruitment - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225768482
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Medical Receptionist/ Administrator
 company: Dr Laliwala and Partners
 location: Peterborough, PE1 4FS
@@ -805,5 +841,17 @@ company: Scout Recruiting LTD - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_221302954
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor
+company: The Recruitment Solution (London) Ltd - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2194126
 reason: Separate employment market.
 ---

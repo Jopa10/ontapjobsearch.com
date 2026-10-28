@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 31
+- automatic review: 29
 - automatic exclude: 0
 - effective include: 5
-- effective review: 31
+- effective review: 29
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225673265
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (29)
 
 ---
 action: 
@@ -223,18 +223,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Michael Page - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225661847
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
 company: NTER TALENT - Agency - Contract
 location: Luton
 source: JobG8
@@ -251,18 +239,6 @@ company: Think Specialist Recruitment - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-23643_225761491
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor / Administrator
-company: Colbern Limited - Agency - Contract
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225745587
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -319,18 +295,6 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
-company: Portfolio Payroll Limited - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225664229
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
 company: The Disability Resource Centre - Agency - Permanent
 location: Bedfordshire
 source: JobG8
@@ -346,7 +310,7 @@ title: Receptionist - Bank
 company: Hamberley Care Management Limited - Company - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-23643_225657635
+job_id: jobg8-23643_225767094
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -359,6 +323,18 @@ company: Gilmartins - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225742694
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Repairs Administrator
+company: Nuco Solutions Ltd - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225771144
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

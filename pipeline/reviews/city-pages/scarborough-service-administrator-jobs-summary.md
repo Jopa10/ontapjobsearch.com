@@ -4,8 +4,8 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 55
+- automatic include: 4
+- automatic review: 51
 - automatic exclude: 0
-- effective include: 3
-- effective review: 55
+- effective include: 4
+- effective review: 51
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -60,7 +60,19 @@ job_id: teaching-vacancies-send-administrator-george-pindar-school-scarborough
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (55)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Scarborough, North Yorkshire, YO11 3EG
+source: NHS Jobs
+job_id: nhs-5690490
+reason: Exact approved Scarborough workplace.
+---
+
+## REVIEW (51)
 
 ---
 action: 
@@ -222,18 +234,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Content Creator
-company: Greenfield I T Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2045708
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Conveyancing Assistant/Paralegal
 company: SJC Partners - Agency - Permanent
 location: Yorkshire
@@ -275,18 +275,6 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2048426
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Ripon Farm Services - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-2043051
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -510,18 +498,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Private Client Legal Secretary
-company: Search Consultancy Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225661285
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Probate & Wills Legal Secretary - Malton, Yorkshire
 company: qed legal - Agency - Permanent
 location: Malton
@@ -539,6 +515,18 @@ company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
 job_id: jobg8-23643_225746940
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Nimbuscare
+location: York, YO24 4LJ, York, YO24 1LW, York, YO26 4GG
+source: NHS Jobs
+job_id: nhs-5689323
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -618,18 +606,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Sales Ledger Administrator
-company: Technical Prospects Ltd - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225675199
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Administrator
 company: Saltergate Junior School
 location: Harrogate
@@ -695,18 +671,6 @@ company: Michael Page - Agency - Temporary
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225666115
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Volunteer Coordinator (12 month maternity cover role)
-company: Harrogate Homeless Project - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2174235
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 28
+- automatic include: 15
+- automatic review: 26
 - automatic exclude: 0
-- effective include: 14
-- effective review: 28
+- effective include: 15
+- effective review: 26
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (15)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: The Solution Auto - Agency - Permanent
+location: Swindon
+source: JobG8
+job_id: jobg8-23643_225769775
+reason: Exact approved Swindon workplace.
+---
 
 ---
 action: 
@@ -192,7 +204,7 @@ job_id: teaching-vacancies-sixth-form-admin-assistant-great-western-academy-swin
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (26)
 
 ---
 action: 
@@ -258,18 +270,6 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Contracts Administrator
-company: Tech-People - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225659490
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Tru Talent - Agency - Permanent
 location: Westbury
@@ -312,18 +312,6 @@ location: Corsham
 source: JobG8
 job_id: jobg8-23643_225753440
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Travail Employment Group - Agency - Temporary
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225696653
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -390,23 +378,23 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Finance Officer
-company: Accountability Recruitment - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-2041620
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+title: Pastoral Administrator
+company: Melksham Oak Community School
+location: Melksham
+source: Teaching Vacancies
+job_id: teaching-vacancies-pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Pastoral Administrator
-company: Melksham Oak Community School
-location: Melksham
-source: Teaching Vacancies
-job_id: teaching-vacancies-pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
+title: Projects Administrator
+company: Modo CKD LTD - Agency - Permanent
+location: Warminster
+source: JobG8
+job_id: jobg8-23643_225770417
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

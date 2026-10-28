@@ -4,7 +4,7 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 17
-- automatic exclude: 32
-- effective include: 9
-- effective review: 17
-- effective exclude: 32
+- automatic include: 7
+- automatic review: 15
+- automatic exclude: 33
+- effective include: 7
+- effective review: 15
+- effective exclude: 33
 
-## INCLUDE (9)
+## INCLUDE (7)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Exact approved Harrogate workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Ledger Administrator
-company: Technical Prospects Ltd - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225675199
-reason: Exact approved Harrogate workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Administrator
 company: Saltergate Junior School
 location: Harrogate
@@ -120,19 +108,7 @@ job_id: jobg8-23643_225691482
 reason: Exact approved Harrogate workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Volunteer Coordinator (12 month maternity cover role)
-company: Harrogate Homeless Project - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2174235
-reason: Exact approved Harrogate workplace.
----
-
-## REVIEW (17)
+## REVIEW (15)
 
 ---
 action: 
@@ -186,18 +162,6 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Ripon Farm Services - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-2043051
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Secretary
 company: Sewell Wallis Ltd - Agency - Permanent
 location: Malton
@@ -239,18 +203,6 @@ company: Magpie Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225719224
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Private Client Legal Secretary
-company: Search Consultancy Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225661285
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -338,7 +290,7 @@ job_id: jobg8-23643_225666115
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -457,18 +409,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225706656
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Content Creator
-company: Greenfield I T Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2045708
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -644,6 +584,18 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: Nimbuscare
+location: York, YO24 4LJ, York, YO24 1LW, York, YO26 4GG
+source: NHS Jobs
+job_id: nhs-5689323
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist Administrator
 company: Braeburn Primary and Nursery Academy
 location: Scarborough
@@ -709,6 +661,18 @@ company: Greenfield I T Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2057285
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Scarborough, North Yorkshire, YO11 3EG
+source: NHS Jobs
+job_id: nhs-5690490
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

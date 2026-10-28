@@ -1,0 +1,55 @@
+name: Isolated fresh 28 October 50k technical test
+on:
+  push:
+    branches: [test/jobg8-fresh-50000-20261028]
+    paths: ['pipeline/second-day-50k/**', '.github/workflows/test-jobg8-day2-50000.yml']
+permissions:
+  contents: read
+concurrency:
+  group: isolated-jobg8-fresh-50000-20261028
+  cancel-in-progress: false
+jobs:
+  technical-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      NEXT_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install dependencies
+        run: |
+          python -m pip install pandas openpyxl boto3 pytest
+          npm ci
+      - name: Check final-code regression tests
+        run: |
+          PYTHONPATH=pipeline python -m pytest pipeline/tests/test_materialize_current_jobg8.py pipeline/tests/test_materialize_jobg8_archive_month.py pipeline/tests/test_jobg8_xml_adapter_feed_date.py tests/test_enrich_job_metadata.py pipeline/tests/test_north_east_review_routing.py pipeline/tests/test_review_hub.py -q
+      - name: Fresh feed processing, isolated publication, regional overview and full build
+        run: python -u pipeline/second-day-50k/run.py
+      - name: Save persistent results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobg8-fresh-50k-2026-10-28-results
+          path: |
+            test-results/receipt.json
+            test-results/*.log
+            test-results/reviewed-plan.json
+            test-results/daily-region-overview-50k-2026-10-28.*
+            test-results/preview-snapshot.tar.gz
+            pipeline/reviews/daily/ontap-daily-review.md
+          retention-days: 14
+      - name: Record status
+        if: always()
+        run: |
+          echo '## Isolated fresh 50k test — production unchanged' >> "$GITHUB_STEP_SUMMARY"
+          echo 'No deployment, main write, feed switch or email. See retained artifact and receipt.' >> "$GITHUB_STEP_SUMMARY"
+          if test -f test-results/receipt.json; then cat test-results/receipt.json >> "$GITHUB_STEP_SUMMARY"; fi
