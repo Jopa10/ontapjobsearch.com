@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-27
-review_fingerprint: d07b21c38e3ab3a3fd26b97389944160f0cb549400f4098455e18b6703382a8d
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+review_date: 2026-10-28
+review_fingerprint: 31292297d1ba69fc5009b53dc6f49dbad140f333ee9314554e934f8434866e6c
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 5
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 1cfc2107476a2642ba221338d74a6db9f04be5596ba04282931f779a4d0
 source: Teaching Vacancies
 source_job_id: attendance-officer-d54c1efe-4fd8-4cc4-a0a6-62106b181556
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-d54c1efe-4fd8-4cc4-a0a6-62106b181556
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Abingdon, South East, OX14 4JF | £26,017.00 - £26,429.00 Annually (FTE) | Finance and Health and Safety Admin Assistant
+employer: Drayton Community Primary School
+closing_date: 2027-01-08T12:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7a1a6224fab873cf6c9c725fabea5947ea1517375c4a1be2b2379cb49edf2aa2
+source: Teaching Vacancies
+source_job_id: finance-and-health-and-safety-admin-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-health-and-safety-admin-assistant
 ---
 
 ---
@@ -134,7 +149,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-b83cb25a-f24c-4116-9e7c-21b3ca1b9cf5) — Insufficient admin/service evidence.
 - [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
 - [RLT Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/rlt-fundraising-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-carterton-primary-school) — Excluded senior/management title.

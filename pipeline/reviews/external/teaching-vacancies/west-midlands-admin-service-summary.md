@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-10-27
-review_fingerprint: 0abfbb1713e64082cf43648ea1201f6300d56dfae9c929aa08273434ce32870a
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+review_date: 2026-10-28
+review_fingerprint: 889036b098456e8181d012cad061e06fe4451c5ac799559bebef95b04fdec5a0
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands | Royal Leamington Spa, West Midlands, CV32 5JE | £24,897 pro rata, per annum | Campus Hub Administrator - CS12485
+employer: Warwickshire College Group
+closing_date: 2026-11-10T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 590d61936c60c6824ca934e4bb2f3fb11947ee9b295f014b049d8a162287ad58
+source: Teaching Vacancies
+source_job_id: campus-hub-administrator-cs12485
+source_url: https://teaching-vacancies.service.gov.uk/jobs/campus-hub-administrator-cs12485
+---
 
 ---
 action: 

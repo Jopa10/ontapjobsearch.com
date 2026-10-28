@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-27
+review_date: 2026-10-28
 review_fingerprint: dc7e9c266f9016107ec89058c2fc32263cc809b5e5cb8c8cc881840223d7efe8
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 53
+- Records: 52
 - Selected: 15
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 33
+- Hard pass: 32
 
 ## SELECTED
 
@@ -337,7 +337,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gr
 - [Attendance Leader](https://teaching-vacancies.service.gov.uk/jobs/attendance-leader-appleton-academy-bradford-west-yorkshire) — Excluded senior/management title.
 - [Business Support Office Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-office-manager-st-paulinus-catholic-primary-academy) — Excluded senior/management title.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Excluded senior/management title.
-- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-leeds-diocesan-learning-trust) — Excluded senior/management title.
 - [Customer Experience Team Leader](https://teaching-vacancies.service.gov.uk/jobs/customer-experience-team-leader) — Excluded senior/management title.
 - [Employee Relations Specialist](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist) — Insufficient admin/service evidence.
 - [Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-manager-the-bishop-wheeler-catholic-academy-trust) — Excluded senior/management title.

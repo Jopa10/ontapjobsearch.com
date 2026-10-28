@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-27
-review_fingerprint: a0e63284a28dd997dae502266172ca2a9938425aeab839ac3d63c909a03ef97b
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+review_date: 2026-10-28
+review_fingerprint: 02ee76314827ba2d76fe9bc0573fd5ed9b7d85215cd592c037c01e66e91b9c7d
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 1
-- POSS awaiting decision: 2
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -36,6 +36,21 @@ source_job_id: hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb
 ---
 
+---
+action: 
+SELECTED | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
+employer: Writhlington School
+closing_date: 2026-12-07T23:59:59+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ecb51f1b4b6ee94f56e9e697ed78988786eb5050aab0a1033c4e9107ccddf5c3
+source: Teaching Vacancies
+source_job_id: payroll-administrator-writhlington-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-writhlington-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -51,21 +66,6 @@ factual_fingerprint: eba1dd84550ce000a14ec7ea962baf711fc3a45c4b4e7cb863f1f6ec4aa
 source: Teaching Vacancies
 source_job_id: hr-administrator-the-oak-partnership-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-oak-partnership-trust
----
-
----
-action: 
-POSS | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
-employer: Writhlington School
-closing_date: 2026-12-07T23:59:59+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ecb51f1b4b6ee94f56e9e697ed78988786eb5050aab0a1033c4e9107ccddf5c3
-source: Teaching Vacancies
-source_job_id: payroll-administrator-writhlington-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-writhlington-school
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-27
+review_date: 2026-10-28
 review_fingerprint: e90ecbed068b761a11570901dc72b31d81c9de338fe0426f69c4f3d350aff12e
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
+- Records: 25
 - Selected: 15
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -277,6 +277,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-d9ca741
 - [Recruitment & Compliance Lead and Executive Assistant to the Principal](https://teaching-vacancies.service.gov.uk/jobs/recruitment-compliance-lead-and-executive-assistant-to-the-principal) — Out-of-scope occupation: principal.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school-birmingham-west-midlands) — Excluded senior/management title.
 - [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-forward-education-trust) — Excluded senior/management title.
+- [Senior Office Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-office-manager-the-dame-ellen-pinsent-school) — Excluded senior/management title.
 
 ## Safety boundary
 

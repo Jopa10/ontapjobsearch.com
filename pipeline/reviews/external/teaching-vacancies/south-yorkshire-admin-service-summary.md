@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-27
-review_fingerprint: fdab8f405dd1c22cebdfaa61d9438199201da642f68f790d1170e007ce44d481
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+review_date: 2026-10-28
+review_fingerprint: 443db7362e50666ec08fc0fc6174587133d2cf204978dc240fe2a30c3f93b00c
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 9
+- Records: 22
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 13
 
 ## SELECTED
 
@@ -64,21 +64,6 @@ factual_fingerprint: 3989e470bad13d287ddf9882b532a2557d6f6a3300e75803dd9fbd8903a
 source: Teaching Vacancies
 source_job_id: estates-compliance-and-administrative-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-and-administrative-assistant
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S4 8GB | £25,989 FTE - actual salary £22,354 | Pastoral Administrator
-employer: Fir Vale Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3662f484313426f927f7ee243d1c43557cbfa4702ba7ca136d95c25a5a7de02f
-source: Teaching Vacancies
-source_job_id: pastoral-administrator-5c2b0244-981c-458c-9f42-f41ca8d990f8
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-5c2b0244-981c-458c-9f42-f41ca8d990f8
 ---
 
 ---
@@ -179,9 +164,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-as
 
 ## HARD_PASS
 
+- [Administration and clerical](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical) — Insufficient admin/service evidence.
 - [Administrative Office Manager](https://teaching-vacancies.service.gov.uk/jobs/administrative-office-manager-hcat) — Excluded senior/management title.
 - [Attendance & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-officer-watercliffe-meadow-community-primary-school) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-peak-edge-sheffield-not-recorded) — Excluded senior/management title.
+- [Curriculum Manager](https://teaching-vacancies.service.gov.uk/jobs/curriculum-manager) — Excluded senior/management title.
 - [Employability Skills and Placement Officer - Sport and Public Services](https://teaching-vacancies.service.gov.uk/jobs/employability-skills-and-placement-officer-sport-and-public-services) — Insufficient admin/service evidence.
 - [Events Officer](https://teaching-vacancies.service.gov.uk/jobs/events-officer) — Insufficient admin/service evidence.
 - [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-sir-thomas-wharton-academy) — Excluded senior/management title.

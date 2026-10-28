@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-27
-review_fingerprint: 201ba62ad1651430f0aaa996506c5c138722b3ae5ace744ca9e79705b46c04ef
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+review_date: 2026-10-28
+review_fingerprint: 9c68b41027690f837309cbfc630db7150e4bf18180809183b28bd2551bcf4731
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 8
-- POSS awaiting decision: 1
+- Records: 21
+- Selected: 9
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 10
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-te
 
 ---
 action: 
+SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN41 7RS | £29,542.00 - £32,046.00 Annually (FTE) Actual salary £26,028 - £28,234 | Office Operations/Administrator
+employer: Healing Primary Academy
+closing_date: 2026-11-10T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dd0136208b262703d5af5ba2209a4349753f5b3e7f27203a77ecadec10209285
+source: Teaching Vacancies
+source_job_id: office-operations-administrator-healing-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-operations-administrator-healing-primary-academy
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Lincoln, East Midlands, LN4 4PN | £30,023.00 - £30,023.00 Annually (Actual) NJC13 : £27,723.95pa pro rata | Personal Assistant
 employer: The Barnes Wallis Academy
 closing_date: 2026-11-08T23:59:00+00:00
@@ -142,6 +157,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Lincolnshire | Lincoln, East Midlands, LN2 3JB | Salary: £21,904.90 - £23,088.42 (FTE WFS Grade 3 – £25,614 - £26,847) | Admin Assistant
+employer: William Farr CofE Comprehensive School
+closing_date: 2026-11-16T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d16f5b641c32b7697189960379b23aea58f9d9e0eaf79cb1c678804a1e55ad30
+source: Teaching Vacancies
+source_job_id: admin-assistant-william-farr-cofe-comprehensive-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-william-farr-cofe-comprehensive-school
+---
 
 ---
 action: 

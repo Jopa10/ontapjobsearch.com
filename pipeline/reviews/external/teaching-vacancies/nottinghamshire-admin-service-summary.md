@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-27
-review_fingerprint: f11fdd690d3a472bd519ab0df45ea9ed82a4f8d8687ebac88356b169a72a2110
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+review_date: 2026-10-28
+review_fingerprint: c8bbe1d141c247166ef94e2aad9a1834192e917178acc6f6b14f76ae29440b2e
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 3
-- POSS awaiting decision: 4
+- Records: 17
+- Selected: 2
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG9 1AE | £22,611 Actual Salary (£26,016 FTE) | Administrative Assistant
-employer: Round Hill Primary School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5249ac1ff6f3cd2364ed55ea066f7ba075713515808cbe6492679f4a051f3f4b
-source: Teaching Vacancies
-source_job_id: administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire
----
 
 ---
 action: 
@@ -100,6 +85,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG9 1AE | £22,611 Actual Salary (£26,016 FTE) | Administrative Assistant
+employer: Round Hill Primary School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5249ac1ff6f3cd2364ed55ea066f7ba075713515808cbe6492679f4a051f3f4b
+source: Teaching Vacancies
+source_job_id: administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire
+---
+
+---
+action: 
 POSS | Nottinghamshire | Nottingham, East Midlands, NG9 3DU | £22,630.72 - £23,356.04 Annually (Actual) NJE Grade 3, Pts 5 to 7 £26,427 - £27,274 (FTE) | Attendance and Inclusion Administration Officer
 employer: Alderman White School
 closing_date: 2026-11-02T09:00:00+00:00
@@ -139,6 +139,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-fe
 - [Governance Professional (Senior Administrator)](https://teaching-vacancies.service.gov.uk/jobs/governance-professional-senior-administrator) — Excluded senior/management title.
 - [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice-carlton-academy) — No usable numeric salary.
 - [Office Administrator and Receptionist](https://teaching-vacancies.service.gov.uk/jobs/office-administrator-and-receptionist-radcliffe-on-trent-junior-school) — No usable numeric salary.
+- [People Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-business-partner-nova-education-trust) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c46abdbf-b851-4f98-b51c-c939f0fd7919) — Insufficient admin/service evidence.
 - [Receptionist Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-carlton-academy) — No usable numeric salary.
 - [Safeguarding Adviser](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-adviser-greenwood-academies-trust) — Insufficient admin/service evidence.
