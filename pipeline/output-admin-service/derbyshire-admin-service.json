@@ -793,10 +793,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1085",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1085",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

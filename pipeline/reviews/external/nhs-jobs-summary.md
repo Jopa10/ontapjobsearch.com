@@ -2,11 +2,11 @@
 
 review_date: 2026-10-28
 
-- Open Administrative & Clerical rows reviewed: 2168
+- Open Administrative & Clerical rows reviewed: 2166
 - Auto/remembered selected: 404
 - Selected HC Tier A: 210
 - Selected HC Tier B: 194
-- POSS awaiting decision: 1670
+- POSS awaiting decision: 1668
 - Excluded: 0
 - HARD_PASS: 94
 
@@ -7238,18 +7238,6 @@ factual_fingerprint: 7a7c8980cac82bbeb76684950cf398a0aa5b23fe490432ca5f9afa2f3e4
 
 ---
 action:
-POSS | NHS Jobs | Berkshire | Reading, RG12 2UT | £24.61 | Band 6 Senior Management Accountant
-source_job_id: 5682165
-title: Band 6 Senior Management Accountant
-employer: NHS Professionals Limited
-region: Berkshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0042-26-0314
-factual_fingerprint: df9d7d90bb1ecd01b5dd3ee305d5f29ccb1cd8d32542079865f4959051d1e571
----
-
----
-action:
 POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M28 0BB | £27000.00 to £29000.00 | Admin Team Leader
 source_job_id: 5682083
 title: Admin Team Leader
@@ -8998,18 +8986,6 @@ region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0781
 factual_fingerprint: 22abc3e810de9aaff0985e9f07146e29b34b933327eab0d26c3c5c9a0acb10bd
----
-
----
-action:
-POSS | NHS Jobs | London | Enfield, EN28JL | £33262.00 to £36027.00 | Ward Inventory Controller (Supplies)
-source_job_id: 5678158
-title: Ward Inventory Controller (Supplies)
-employer: Whittington Hospital NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9220-26-0718
-factual_fingerprint: 2d7535adf4b66011e601c05607080e935162d638e74e851770a0d21a5f8387c9
 ---
 
 ---
