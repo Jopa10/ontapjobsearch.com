@@ -46,6 +46,24 @@ jobs:
           assert snapshot.is_file()
           with tarfile.open(snapshot) as archive:
               archive.extractall(root,filter='data')
+          import base64, lzma, hashlib, zipfile, shutil
+          out=root/'test-results';out.mkdir(exist_ok=True)
+          fixture=root/'pipeline/second-day-50k'
+          info=json.loads((fixture/'feed-info.json').read_text())
+          parts=sorted((fixture/'feed').glob('part-*'))
+          assert len(parts)==info['chunks'], 'Missing captured feed chunks'
+          raw=lzma.decompress(base64.b64decode(''.join(p.read_text() for p in parts)))
+          assert hashlib.sha256(raw).hexdigest()==info['xml_sha256']
+          assert info['date_time'][:3]==[2026,10,28]
+          with zipfile.ZipFile(out/'verified.zip','w',zipfile.ZIP_DEFLATED) as z:
+              item=zipfile.ZipInfo('Jobs.xml',tuple(info['date_time']))
+              item.compress_type=zipfile.ZIP_DEFLATED
+              z.writestr(item,raw)
+          del raw
+          for name in ['pipeline/input/jobg8.xlsx','generated/published-jobs.json','generated/published-job-canonical-ids.json','test-results/verified.zip']:
+              assert (root/name).is_file(), 'Missing recovery input: '+name
+          shutil.copy2(root/'checkpoint/test-results/receipt.json',out/'prior-receipt.json')
+          print('PREFLIGHT PASS: checkpoint inventory, input workbook and SHA-verified fresh 28 October XML restored',flush=True)
           original=(root/'pipeline/second-day-50k/run.py').read_text()
           prefix=original.split("fixture=ROOT/")[0]
           remaining=original[original.index("sys.path.insert(0,str(ROOT/'pipeline'))"):]
@@ -60,7 +78,7 @@ jobs:
         with:
           name: jobg8-resumed-50k-2026-10-28-results
           path: |
-            test-results/receipt.json
+            test-results/*.json
             test-results/*.log
             test-results/reviewed-plan.json
             test-results/daily-region-overview-50k-2026-10-28.*
