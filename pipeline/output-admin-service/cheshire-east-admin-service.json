@@ -371,6 +371,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0233-26-2106",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0233-26-2106",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5692369",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "Rope Green Medical Centre",
+    "advertiser_name": "Rope Green Medical Centre",
+    "location": "Crewe, CW2 5DA",
+    "region": "Cheshire - East",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-28T12:08:07.637017870",
+    "closing_date": "2026-11-12",
+    "description": "The role of Medical Receptionist is to provide comprehensive clerical support to the Practice in a reception and administrative role. It involves a high level of confidentiality and use of own initiative. The practice opening hours are 08:00 to 18:30 Monday to Friday. The position will be 4 full days with various working hours of 08.00-17.00 and 08.00-18.30. Provisional interview dates of 17th or 18th November Duties & Responsibilities To provide and promote efficient and effective delivery of high quality clerical support to the Primary Health Care Team Dealing with patients and visitors, both face to face and on the telephone Answering the telephone promptly, making appointments, dealing with enquiries and recording of messages for colleagues Recording, filing and retrieval of information Handling of incoming/outgoing mail, including franking Processing prescriptions Photocopying and faxing Dealing with general enquiries from other agencies This role profile is not exhaustive, and you may be directed to complete other tasks according to the skills and requirements for individual roles. These duties will always be reasonable and deemed within the expectations of your position. The role of Medical Receptionist is to provide comprehensive clerical support to the Practice in a reception and administrative role. It involves a high level of confidentiality and use of own initiative",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3196-26-0008",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3196-26-0008",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

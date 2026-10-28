@@ -2,15 +2,159 @@
 
 review_date: 2026-10-28
 
-- Open Administrative & Clerical rows reviewed: 2345
-- Auto/remembered selected: 436
-- Selected HC Tier A: 227
-- Selected HC Tier B: 209
-- POSS awaiting decision: 1812
+- Open Administrative & Clerical rows reviewed: 2360
+- Auto/remembered selected: 439
+- Selected HC Tier A: 229
+- Selected HC Tier B: 210
+- POSS awaiting decision: 1823
 - Excluded: 0
-- HARD_PASS: 97
+- HARD_PASS: 98
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M1 6EU | £57528.00 to £64750.00 | Elective Care Programme Manager
+source_job_id: 5694003
+title: Elective Care Programme Manager
+employer: NHS Greater Manchester Integrated Care
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/I9236-26-0066
+factual_fingerprint: da1e6db023aad4e78c1efccd042029254602b4862e5314857776233cd9630638
+---
+
+---
+action:
+POSS | NHS Jobs | Cambridgeshire | Cambridge, CB2 0QQ | £49387.00 to £56515.00 | Bank Employee Relations Manager
+source_job_id: 5693915
+title: Bank Employee Relations Manager
+employer: Cambridge University Hospital NHS Foundation Trust
+region: Cambridgeshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1351
+factual_fingerprint: f19ebdfaefa6df90edba5a7755f3acf19ed6b7b638c31cc9d9277218459a3732
+---
+
+---
+action:
+POSS | NHS Jobs | Essex | Grays, RM16 3EU | £25760.00 | (**) Ward Clerk - Orsett Hospital
+source_job_id: 5693980
+title: (**) Ward Clerk - Orsett Hospital
+employer: Mid and South Essex NHS Foundation Trust
+region: Essex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2610
+factual_fingerprint: bdb52261d222582a6253c899ad674eb8e662395be2aff59527368ddc56918e2b
+---
+
+---
+action:
+POSS | NHS Jobs | — | Southend, SS0 0RY | £25760.00 | (**) Cardiology Diagnostic Booking Coordinator
+source_job_id: 5693898
+title: (**) Cardiology Diagnostic Booking Coordinator
+employer: Mid and South Essex NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2609
+factual_fingerprint: 6cfef07cab7599fdf4b21f88dc5a697a1b12d00cbd96976e5bd09ca4b0f141c8
+---
+
+---
+action:
+POSS | NHS Jobs | Essex | Chelmsford, CM1 7ET | £25760.00 | (**) Outpatients Receptionist - Weekends
+source_job_id: 5693894
+title: (**) Outpatients Receptionist - Weekends
+employer: Mid and South Essex NHS Foundation Trust
+region: Essex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2608
+factual_fingerprint: f82ee7b37a65a7d518bd77cefd7cabbfe9a6cf4676f8ec261f9f9392e283a740
+---
+
+---
+action:
+POSS | NHS Jobs | Essex | Chelmsford, CM1 7ET | £25760.00 | Support worker
+source_job_id: 5693884
+title: Support worker
+employer: Mid and South Essex NHS Foundation Trust
+region: Essex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2607
+factual_fingerprint: 1c4baac2b111057a1cb01110c9fbe3ae1a93a9f33fa0d8598bdb36cd9e59eedf
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Bradford, BD3 8QH | Negotiable | Medical Receptionist and Administrator
+source_job_id: 5693960
+title: Medical Receptionist and Administrator
+employer: The Avicenna Medical Practice
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2526-26-0006
+factual_fingerprint: f42abcfc639405e0ca913d731954fbe12cdbd757169a28586fb408369e79116e
+---
+
+---
+action:
+POSS | NHS Jobs | — | Stoke, ST4 1HH | £66716.00 to £70116.00 | Head of Public Health Insight Knowledge, Performance and Research
+source_job_id: 5682553
+title: Head of Public Health Insight Knowledge, Performance and Research
+employer: Stoke-on-Trent City Council
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/F0029-0000027482
+factual_fingerprint: 80efefaceb81489e17025d6aabded10a762d8ad28264c734aadd868ee77b412f
+---
+
+---
+action:
+POSS | NHS Jobs | North East - Tees Valley | Stockton-on-Tees, TS19 8PE | £28392.00 to £31157.00 | Management Accountant
+source_job_id: 5693758
+title: Management Accountant
+employer: North Tees & Hartlepool NHS Foundation Trust
+region: North East - Tees Valley
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9345-26-0442
+factual_fingerprint: c297d6058e4a0aedbd25ea7b30a188074592ca448842d8414118dad2f560ebbb
+---
+
+---
+action:
+POSS | NHS Jobs | North East - Tees Valley | Stockton-on-Tees, TS19 8PE | £32073.00 to £39043.00 | Senior Clinical Coder
+source_job_id: 5693636
+title: Senior Clinical Coder
+employer: North Tees & Hartlepool NHS Foundation Trust
+region: North East - Tees Valley
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9345-26-0440
+factual_fingerprint: 691a85891338dd7dc4755b2bbb80ffa7735707700a5a7859eb853f306ddd0980
+---
+
+---
+action:
+POSS | NHS Jobs | Cumbria - North | Penrith, CA11 0PD | £14.06 | GP Assistant - Glenridding Health Centre
+source_job_id: 5693778
+title: GP Assistant - Glenridding Health Centre
+employer: Cumbria Health
+region: Cumbria - North
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0554-26-0116
+factual_fingerprint: d69591754747478566c5da1b91e832c785a2e54694006b65d70f1eb73586416e
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M13 9WL | £79504.00 to £91609.00 | General Manager for Patient Access (Surgery)
+source_job_id: 5693417
+title: General Manager for Patient Access (Surgery)
+employer: Manchester University NHS Foundation Trust
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3244
+factual_fingerprint: f4b6736ecd4b8302c63bc434101970bf6c8ae47de0da832da44ad0b70631cba8
+---
 
 ---
 action:
@@ -1954,18 +2098,6 @@ region: Cheshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0502
 factual_fingerprint: cff664e1ee7b096f096543f82aaa0a971acade3c3824ca48ef851a91bcff80b5
----
-
----
-action:
-POSS | NHS Jobs | London | London, SW10 9NH | £31554.00 to £33270.00 | Patient Administrator (Outpatients Department)
-source_job_id: 5691128
-title: Patient Administrator (Outpatients Department)
-employer: Chelsea and Westminster Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-CS-490-C
-factual_fingerprint: fe511ae4cf7c54898e574d427ba5a98376e5c4e069b5a13ce4ad40eb591f8cf1
 ---
 
 ---

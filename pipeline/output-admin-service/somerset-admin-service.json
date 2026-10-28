@@ -378,31 +378,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225665828",
-    "title": "Document Controller",
-    "company": "Fawkes & Reece London - Agency - Permanent",
-    "location": "Somerset",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "35000",
-    "salary_text": "£30000 - £35000 per year",
-    "posted_date": "",
-    "description": "Document Controller\n\nFawkes & Reece are currently supporting a growing regional contractor as they expand their Document Control team. Our client is one of the South West's busiest regional contractors with projects that span across the healthcare, education and residential sector.\n\nAbout the role of Document Controller\n\nThe ideal candidate will already be an experienced Document Controller from a main contracting background, with experience working on large scale projects. A strong understanding and knowledge of ISO 19650 and previous experience using CRM systems including Procore or A-site is fundamental.\n\nResponsibilities for Document Controller\n- Continuous maintenance and monitoring of files in line with business and industry standards\n- Validation, checking and curation of all incoming and outgoing project documentation\n- Configuration and preparation of workflows, sample submissions and other reportable data\n\nRequirements for Document Controller\n- Previous experience using relevant systems including Procore & A-site\n- Comprehensive Understanding of industry standards including ISO 19650\n- Background working with a Tier 1 Contractor\n\nThis Document Controller opportunity is to join a business that values growth and development providing a clear pathway for progression.\n\nWhat we offer for Document Controller\n\nOffering a competitive salary and comprehensive package for the right candidate who shows diligence and determination to learn, work hard and be part of a team. If you want to hear more about this Document Controller role, please apply with an up-to-date copy of your CV or contact Claire Spiers in our Southampton Office on (phone number removed).",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp4P1AuTgD3ZEPkgVZjqKR8og",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Fawkes & Reece London",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225671199",
     "title": "Procurement Coordinator",
     "company": "Astute People - Agency - Permanent",
@@ -603,6 +578,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225665828",
+    "title": "Document Controller",
+    "company": "Fawkes & Reece London - Agency - Permanent",
+    "location": "Somerset",
+    "region": "Somerset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "35000",
+    "salary_text": "£30000 - £35000 per year",
+    "posted_date": "",
+    "description": "Document Controller\n\nFawkes & Reece are currently supporting a growing regional contractor as they expand their Document Control team. Our client is one of the South West's busiest regional contractors with projects that span across the healthcare, education and residential sector.\n\nAbout the role of Document Controller\n\nThe ideal candidate will already be an experienced Document Controller from a main contracting background, with experience working on large scale projects. A strong understanding and knowledge of ISO 19650 and previous experience using CRM systems including Procore or A-site is fundamental.\n\nResponsibilities for Document Controller\n- Continuous maintenance and monitoring of files in line with business and industry standards\n- Validation, checking and curation of all incoming and outgoing project documentation\n- Configuration and preparation of workflows, sample submissions and other reportable data\n\nRequirements for Document Controller\n- Previous experience using relevant systems including Procore & A-site\n- Comprehensive Understanding of industry standards including ISO 19650\n- Background working with a Tier 1 Contractor\n\nThis Document Controller opportunity is to join a business that values growth and development providing a clear pathway for progression.\n\nWhat we offer for Document Controller\n\nOffering a competitive salary and comprehensive package for the right candidate who shows diligence and determination to learn, work hard and be part of a team. If you want to hear more about this Document Controller role, please apply with an up-to-date copy of your CV or contact Claire Spiers in our Southampton Office on (phone number removed).",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?sRc1aB%2brxisetseM%2fxjKnZxTfWd6OEG%2bi",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Fawkes & Reece London",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5688635",
     "source": "NHS Jobs",
     "title": "GP Medical Receptionist",
@@ -618,7 +618,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1537-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1537-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5689012",
@@ -636,7 +640,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5682551",
@@ -654,7 +662,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1541",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1541",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5667697",
@@ -672,6 +684,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0497",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0497",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

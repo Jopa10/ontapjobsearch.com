@@ -249,31 +249,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225667184",
-    "title": "Admin Assistant",
-    "company": "Insight Employment - Agency - Temporary",
-    "location": "Lincolnshire",
-    "region": "Lincolnshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "",
-    "description": "Insight Employment are seeking an Admin Assistant to work for a non-profit client of ours in Grantham for an immediate start.\n\nRequirements: -\n- Must have had Administration experience.\n- Must be computer literary of Microsoft systems (Excel, Word Processing etc).\n- Must have good English\n\nHours: -\n\nMon - Fri 08:30am-16:30pm\n\nDuration: -\n\nThis is a long term ongoing full-time position.\n\nRate: -\n\n12.71 per hour\n\nUnfortunately, due to the high number of responses we receive it is not always possible to respond to every application. If you do not hear back from us within 7 days, please assume that you have been unsuccessful on this occasion. We will however retain your details on file and may contact you should another suitable vacancy arise.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6ZFMVx74hawcvizvCWbnJkq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Insight Employment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225676641",
     "title": "Goods In Administrator",
     "company": "Recruitment pro - Agency - Permanent",
@@ -714,7 +689,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0632",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0632",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5686851",
@@ -732,7 +711,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1519-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1519-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5562166",
@@ -750,6 +733,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
