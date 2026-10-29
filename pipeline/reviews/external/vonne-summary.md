@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-28
-review_fingerprint: 84cc7acedb2219203d70f7a3c25131d30effc9d4a8036e8a4134c9ca7200a9e9
+review_date: 2026-10-29
+review_fingerprint: 2c86761657272af53be4247b7ea04bf38a2abb5f1b83b8f8b1512aec107a035d
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-28T13:22:44+00:00
+Run generated: 2026-10-29T13:32:18+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 455
+JobG8 comparison rows: 462
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -132,8 +132,8 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 - [Cancer and Dementia Care Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173588) — out-of-scope VONNE occupation.
 - [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
 - [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
+- [Grants Administration Officer (Small and Medium Grants)](https://www.vonne.org.uk/vonne-jobs-details?cid=173618) — insufficient service-admin evidence.
 - [Income and Project Delivery Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173614) — insufficient service-admin evidence.
-- [Independent Advocate](https://www.vonne.org.uk/vonne-jobs-details?cid=173539) — insufficient service-admin evidence.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
