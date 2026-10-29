@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-27
+review_date: 2026-10-28
 review_fingerprint: b402a1ebdb6ec61144ec4de64798888e8c6b0d911eebdbe03a558bde7d07993c
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -119,6 +119,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finham-p
 
 ## HARD_PASS
 
+- [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-transforming-lives-educational-trust) — No usable numeric salary.
 - [APPRENTICE ADMINISTRATOR/RECEPTIONIST – PARKGATE PRIMARY SCHOOL](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-receptionist-parkgate-primary-school) — No usable numeric salary.
 - [Attendance Improvement Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-improvement-manager-nicholas-chamberlaine-school) — Excluded senior/management title.
 - [Examinations, Data & Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-data-access-arrangements-coordinator) — Insufficient admin/service evidence.

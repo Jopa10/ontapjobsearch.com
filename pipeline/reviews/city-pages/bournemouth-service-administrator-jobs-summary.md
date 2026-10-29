@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 34
+- automatic include: 10
+- automatic review: 36
 - automatic exclude: 0
-- effective include: 11
-- effective review: 34
+- effective include: 10
+- effective review: 36
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -124,18 +124,6 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Radiology Clerical Officer
-company: University Hospitals Dorset NHS Foundation Trust
-location: Bournemouth, BH7 7DW
-source: NHS Jobs
-job_id: nhs-5681610
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Beaufort Road Surgery
 location: Bournemouth, BH6 5AJ
@@ -156,7 +144,7 @@ job_id: nhs-5675567
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (36)
 
 ---
 action: 
@@ -558,11 +546,35 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support
+company: Office Angels - Agency - Temporary
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225767372
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Scheduler
+company: Build Recruitment - Agency - Permanent
+location: Shaftesbury
+source: JobG8
+job_id: jobg8-23643_225774315
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Team Administrator
 company: Dorset HealthCare University NHS Foundation Trust
-location: Dorchester, DT1 2FD
+location: Christchurch, BH23 3AF
 source: NHS Jobs
-job_id: nhs-5664520
+job_id: nhs-5692257
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

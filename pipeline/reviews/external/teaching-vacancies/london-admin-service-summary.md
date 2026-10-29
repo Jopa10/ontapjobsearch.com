@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-27
+review_date: 2026-10-28
 review_fingerprint: 875bf77b5bd84a2f531f94e07f5570f1af303d77f49ae057cdc6a4fdeadff74a
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 85
+- Records: 89
 - Selected: 15
 - POSS awaiting decision: 21
 - Excluded: 0
-- Hard pass: 49
+- Hard pass: 53
 
 ## SELECTED
 
@@ -576,6 +576,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Attendance and Admissions Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-sarah-bonnell-school) — No usable numeric salary.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-harris-lowe-academy-willesden) — Excluded senior/management title.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-the-totteridge-academy) — Excluded senior/management title.
+- [Business Analyst](https://teaching-vacancies.service.gov.uk/jobs/business-analyst-new-city-college) — Salary over £50k.
 - [Careers & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-work-experience-co-ordinator-davenant-foundation-school) — No usable numeric salary.
 - [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-5bbd91b2-0afc-4796-b38f-b0811a522b87) — Insufficient admin/service evidence.
 - [Chief Financial & Operations Officer (CFOO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-operations-officer-cfoo) — Excluded senior/management title.
@@ -583,12 +584,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Communications and Collaboration Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-and-collaboration-lead) — Excluded senior/management title.
 - [Contracts & Procurement Lead](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-lead-greenshaw-learning-trust) — Excluded senior/management title.
 - [Cover Supervisor Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-d381408a-aed2-44f0-8a2b-5602fd447ab9) — Excluded senior/management title.
+- [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-goresbrook-school) — Excluded senior/management title.
 - [Deputy Exam Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-exam-officer) — No usable numeric salary.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Excluded senior/management title.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
 - [Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/governance-manager-epping-forest-schools-partnership-trust) — Excluded senior/management title.
 - [Head of Year](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-city-of-london-academy-highbury-grove) — Excluded senior/management title.
+- [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-dbe8438f-4742-4952-b196-d00e6c812af2) — Out-of-scope occupation: teacher, headteacher.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-north-brent-school) — Out-of-scope occupation: teacher, headteacher.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-orchard-park-high-school-croydon-surrey) — Out-of-scope occupation: teacher, headteacher.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — No usable numeric salary.
@@ -600,6 +603,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Excluded senior/management title.
 - [Invigilators / Readers & Scribes](https://teaching-vacancies.service.gov.uk/jobs/invigilators-readers-scribes) — No usable numeric salary.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-the-avenue-school) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c5500de0-8688-44f2-9650-5f16af71c014) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-kate-greenaway-nursery-school-and-children-s-centre-london) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-willowfield-school) — Excluded senior/management title.
 - [Operations Manager - Havering Secondary Hub](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-havering-secondary-hub) — Excluded senior/management title.
@@ -608,6 +612,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-newbridge-school) — Insufficient admin/service evidence.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Excluded senior/management title.
 - [Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-assistant-langley-park-school-for-boys-beckenham-kent) — Insufficient admin/service evidence.
+- [School Business and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-and-operations-manager-stanhope-primary-school-greenford) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hobbayne-primary-school-london) — Excluded senior/management title.
@@ -617,7 +622,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Site Manager](https://teaching-vacancies.service.gov.uk/jobs/site-manager-hereward-primary-school-loughton-essex) — Out-of-scope occupation: site manager.
 - [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer-davenant-foundation-school) — No usable numeric salary.
 - [Welfare and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-admin-officer-willow-tree-primary-school) — No usable numeric salary.
-- [Whole School Admissions and Transitions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/whole-school-admissions-and-transitions-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

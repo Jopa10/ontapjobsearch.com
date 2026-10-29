@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-27
-review_fingerprint: e8548a1b82105871a82e783643f8e90fc80cf1a56eedd0b851c85a9a8c36aa70
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+review_date: 2026-10-28
+review_fingerprint: e8f37fc691999686ce23b9984f8aae4b27477d3bf05f53bf33fb1966eece25df
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 16
-- POSS awaiting decision: 1
+- Records: 26
+- Selected: 15
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -79,21 +79,6 @@ factual_fingerprint: 487590fc46ed15e0edcd739ef79c38a9f5f072805143f6bc57968ebd91a
 source: Teaching Vacancies
 source_job_id: admissions-administrator-united-learning-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-administrator-united-learning-trust
----
-
----
-action: 
-SELECTED | Cambridgeshire | Ely, East of England, CB6 1EW | £27,275-£29,071 FTE £14.18- £15.11 per hour | Attendance Administrator
-employer: Vista Academy Littleport
-closing_date: 2026-10-30T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 41d7f01be5a4970bbad055da1db061700b1c5a511cd15af0326359c101c121f9
-source: Teaching Vacancies
-source_job_id: attendance-administrator-vista-academy-littleport
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-vista-academy-littleport
 ---
 
 ---
@@ -265,6 +250,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ---
 action: 
+POSS | Cambridgeshire | Ely, East of England, CB6 1EW | £27,275-£29,071 FTE £14.18- £15.11 per hour | Attendance Administrator
+employer: Vista Academy Littleport
+closing_date: 2026-10-30T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 41d7f01be5a4970bbad055da1db061700b1c5a511cd15af0326359c101c121f9
+source: Teaching Vacancies
+source_job_id: attendance-administrator-vista-academy-littleport
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-vista-academy-littleport
+---
+
+---
+action: 
 POSS | Cambridgeshire | Cambridge, East of England, CB4 2QT | £25,823-£27,152 per annum | HR Administrator
 employer: Cambridge Regional College
 closing_date: 2026-11-01T23:59:00+00:00
@@ -292,6 +292,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-camb
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-werrington-primary-school) — Excluded senior/management title.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Excluded senior/management title.
 - [School Receptionist & Finance Assistant (Temporary)](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-finance-assistant-temporary) — No usable numeric salary.
+- [Senior Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-94a4ee80-5a00-41ba-8432-27993f9ea267) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 60
+- automatic review: 58
 - automatic exclude: 0
 - effective include: 4
-- effective review: 60
+- effective review: 58
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5675916
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (60)
+## REVIEW (58)
 
 ---
 action: 
@@ -487,18 +487,6 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
-company: SF Partners - Agency - Permanent
-location: Lichfield
-source: JobG8
-job_id: jobg8-23643_225729364
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
 company: Winsearch - Agency - Temporary
 location: Stafford
 source: JobG8
@@ -551,18 +539,6 @@ company: Mane Contract Services - Agency - Contract
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225746430
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Administrator
-company: Ethero - Agency - Temporary
-location: Uttoxeter
-source: JobG8
-job_id: jobg8-23643_225660400
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

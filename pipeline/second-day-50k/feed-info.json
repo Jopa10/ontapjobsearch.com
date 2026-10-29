@@ -1,1 +1,18 @@
-{"chunks": 115, "xml_sha256": "c80a44b9d22d15a561f19918337801f66efb897941726972bf2ff4656ed0bdc9", "date_time": [2026, 10, 28, 8, 54, 44], "zip_sha256": "256b177a1cd1832625a8d2f756de7abd48fdde5b93262ae81a83f52e8f8e6890", "rows": 50000}
+{
+  "zip_sha256": "c6097b3ac7bdd47aa651f56fb6799a4d81090e44e51f77eace17151f83136db7",
+  "xml_sha256": "b46f114fc60c511d68283576cbc2bb235add929da638b747da05a12e0a016c83",
+  "date_time": [
+    2026,
+    10,
+    29,
+    8,
+    21,
+    32
+  ],
+  "downloaded_at": "2026-10-29T09:12:45.524264+00:00",
+  "bytes": 37856273,
+  "rows": 50000,
+  "unique_ids": 49974,
+  "account": 825072,
+  "chunks": 70
+}

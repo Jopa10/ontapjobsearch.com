@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 5
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 6
-- effective review: 5
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -52,18 +52,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Band 6 - Finance Business Partner
-company: Hays Accounts and Finance - Agency - Temporary
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225666942
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Assistant
 company: Hays Accounts and Finance - Agency - Permanent
 location: Belfast
@@ -88,15 +76,27 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Service Advisor
+company: The Recruitment Solution - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-23643_225775436
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2190741
+job_id: jobg8-2196815
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: Rise Technical Recruitment - Agency - Permanent
 location: Antrim
 source: JobG8
 job_id: jobg8-23643_225750735
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Briggs Equipment Ltd - Agency - Contract
+location: Lisburn
+source: JobG8
+job_id: jobg8-108056565
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

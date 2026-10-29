@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 20
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 53
+- automatic include: 18
+- automatic review: 58
 - automatic exclude: 0
-- effective include: 20
-- effective review: 53
+- effective include: 18
+- effective review: 58
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (18)
 
 ---
 action: 
@@ -124,18 +124,6 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-2054088
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor (Temp)
 company: CCA Recruitment Group - Agency - Contract
 location: Northampton
@@ -220,18 +208,6 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Support
-company: Osborne Appointments - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225713679
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Receptionist
 company: Northampton School
 location: Northampton
@@ -264,7 +240,7 @@ job_id: jobg8-23643_225761870
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (58)
 
 ---
 action: 
@@ -366,6 +342,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Call Centre Operator - Reserve Staff
+company: SolviT Recruitment Ltd - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225772720
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Conveyancing Legal Assistant
 company: Reed - Agency - Permanent
 location: Northamptonshire
@@ -383,6 +371,18 @@ company: Interaction Recruitment - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-23643_225757794
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Kingscroft Professional Resources - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225773126
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -546,11 +546,47 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Housing Finance Officer
+company: Opus People Solutions Ltd - Agency - Temporary
+location: Kettering
+source: JobG8
+job_id: jobg8-23643_225775157
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Lakeside Healthcare Group
 location: Corby, NN17 1TY
 source: NHS Jobs
 job_id: nhs-5690261
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Inbound Call Handler (Late Shift)
+company: SolviT Recruitment Ltd - Agency - Temporary
+location: Daventry
+source: JobG8
+job_id: jobg8-23643_225772716
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Inbound Call Handler (Night Shift)
+company: SolviT Recruitment Ltd - Agency - Temporary
+location: Daventry
+source: JobG8
+job_id: jobg8-23643_225772722
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -599,18 +635,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225760702
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2052292
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -767,6 +791,18 @@ company: Redwell Medical Centre
 location: Wellingborough, NN8 4UT
 source: NHS Jobs
 job_id: nhs-5683396
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Operations Coordinator
+company: R&V Group Ltd - Agency - Contract
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-108069317
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

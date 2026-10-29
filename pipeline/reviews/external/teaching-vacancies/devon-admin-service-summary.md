@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-27
-review_fingerprint: 29b9ee9f21c0030bd190df129bdeae321247f38e25997afa6aae0427ace91e81
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+review_date: 2026-10-28
+review_fingerprint: ffb4a8e8f06f981a1d03d3a49c8ae8749209b77eb5f347f54ac61ee0885da6e1
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 27
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 23
+- Hard pass: 22
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 
 ---
 action: 
+SELECTED | Devon | Plymouth, South West, PL4 6HT | TSAT Pay Group 3 pro rata to £12,946 - £15,024 for hours and weeks stated (£26,866 - £31,179 FTE ) | SEN Medical Administrator
+employer: Plymouth High School for Girls
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 75e50ef159e0f59b69b3e17ebb9592ce3a65111d2ae27bba904a34143ef14d75
+source: Teaching Vacancies
+source_job_id: sen-medical-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-medical-administrator
+---
+
+---
+action: 
 SELECTED | Devon | Plymouth, South West, PL1 5QG | Part Time | Fixed Term Maternity Cover | £16,078 Per Annum (Pro Rata of £26,440 Per Annum) | Student Funding Administrator (Maternity Cover)
 employer: City College Plymouth
 closing_date: 2026-11-03T23:59:00+00:00
@@ -98,7 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-funding-admin
 - [Casual Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-reprographics-assistant) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-6ea73e83-b87a-4a2c-a33b-01b39b3f515f) — No usable numeric salary.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-holsworthy-community-college) — Excluded senior/management title.
-- [DTEC Curriculum & Quality Outreach Lead](https://teaching-vacancies.service.gov.uk/jobs/dtec-curriculum-quality-outreach-lead-city-college-plymouth) — Excluded senior/management title.
 - [Exam & Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exam-data-assistant) — No usable numeric salary.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college-chulmleigh-devon) — No usable numeric salary.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-27
+review_date: 2026-10-28
 review_fingerprint: de679ca16b41361ad7ee28b167ae28178de1e0af16a543d9ce33458d116d7ed4
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -52,6 +52,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-business-part
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-thorpe-acre-junior-school) — Excluded senior/management title.
 - [Office Manager (BAD31BC)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bad31bc) — Excluded senior/management title.
 - [PA to Principal & Deputy Central Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-deputy-central-administration-manager) — Excluded senior/management title.
+- [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-discovery-schools-academies-trust-ltd-leicester-not-recorded) — Insufficient admin/service evidence.
 - [School Business Manager ( Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-maternity-cover-keyham-lodge-school) — Excluded senior/management title.
 
 ## Safety boundary

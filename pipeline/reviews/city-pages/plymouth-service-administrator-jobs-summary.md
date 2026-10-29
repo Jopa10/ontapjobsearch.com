@@ -224,18 +224,6 @@ decision: review
 automatic_decision: review
 title: Business Administrator
 company: Devon Partnership NHS Trust
-location: Exeter, EX2 5AF
-source: NHS Jobs
-job_id: nhs-5662336
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator
-company: Devon Partnership NHS Trust
 location: Newton Abbot, TQ12 4PH
 source: NHS Jobs
 job_id: nhs-5665958
@@ -272,9 +260,9 @@ decision: review
 automatic_decision: review
 title: Business Support Administrator
 company: Devon Partnership NHS Trust
-location: Newton Abbot, TQ12 2PF
+location: Totnes, TQ9 5JA
 source: NHS Jobs
-job_id: nhs-5656155
+job_id: nhs-5660761
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -546,30 +534,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Operations Administrator
-company: Office Angels - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-23643_225664276
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Receptionist
-company: Lockhart Recruitment - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225766933
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patient Safety Administrator
 company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
@@ -702,6 +666,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5693833
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: Elite-HR - Agency - Permanent
 location: Devon
@@ -727,6 +703,18 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2197021
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
 company: Perfect Placement - Agency - Permanent
 location: Exeter
 source: JobG8
@@ -743,6 +731,18 @@ company: Perfect Placement - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225759002
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2188492
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

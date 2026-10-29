@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-10-27
+review_date: 2026-10-28
 review_fingerprint: 2df447f86d1519b79cb34ff8f01082d441f0315c56d1db0f595a12dd293fc73e
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -92,6 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-
 ## HARD_PASS
 
 - [Exam Officer - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/exam-officer-maternity-cover-st-aldhelm-s-academy-poole-dorset) — Insufficient admin/service evidence.
+- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-oak-academy) — No usable numeric salary.
 - [Pastoral Manager – Ferndown Middle School](https://teaching-vacancies.service.gov.uk/jobs/pastoral-manager-ferndown-middle-school) — Excluded senior/management title.
 
 ## Safety boundary

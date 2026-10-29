@@ -17,12 +17,24 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 16
 - automatic review: 13
-- automatic exclude: 38
+- automatic exclude: 36
 - effective include: 16
 - effective review: 13
-- effective exclude: 38
+- effective exclude: 36
 
 ## INCLUDE (16)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant/Receptionist
+company: Rotherham Doncaster and South Humber NHSFT
+location: Doncaster, DN4 6ED
+source: NHS Jobs
+job_id: nhs-5693518
+reason: Approved Doncaster catchment.
+---
 
 ---
 action: 
@@ -177,18 +189,6 @@ company: SARIA - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225684316
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Procurement Administrator -Temporary
-company: Hays Business Support - Agency - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225660075
 reason: Approved Doncaster catchment.
 ---
 
@@ -374,7 +374,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (38)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -464,18 +464,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Commercial Administration Assistant
-company: Ford & Stanley Talentwise - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225748912
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Commercial Sales Administrator
 company: Big Fish Little Fish - Agency - Permanent
 location: Sheffield
@@ -493,18 +481,6 @@ company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225679767
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Care Co-ordinator
-company: Sue Ross Recruitment Ltd - Agency - Contract
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225597891
 reason: Separate employment market.
 ---
 
@@ -608,11 +584,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part time Finance Manager
-company: Sharp Consultancy - Agency - Permanent
+title: Procurement Administrator
+company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2052120
+job_id: jobg8-23643_225774666
 reason: Separate employment market.
 ---
 
@@ -673,6 +649,18 @@ company: STEPS Rehabilitation
 location: Sheffield, S7 2QA
 source: NHS Jobs
 job_id: nhs-5686823
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Sheffield, S6 4TF
+source: NHS Jobs
+job_id: nhs-5693951
 reason: Separate employment market.
 ---
 
@@ -781,18 +769,6 @@ company: Unicorn Resourcing - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-23643_225739769
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Social Media Executive
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2053411
 reason: Separate employment market.
 ---
 

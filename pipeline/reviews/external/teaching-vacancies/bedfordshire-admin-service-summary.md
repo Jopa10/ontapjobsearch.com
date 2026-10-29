@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-27
+review_date: 2026-10-28
 review_fingerprint: efa6ab8b557c225d48b9bb338d9f0ae20ddd427eae9b9331d8edeb615bd0d0de
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 14
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -127,6 +127,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-inclusion-adminis
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Excluded senior/management title.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-567766f1-1593-41ed-9bcc-141b66967e36) — Salary over £50k.
 - [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-wixams-academy) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-bedf544f-713f-4984-9b85-f92bc8169be5) — Excluded senior/management title.
 - [Science Technician](https://teaching-vacancies.service.gov.uk/jobs/science-technician-daubeney-academy-bedford-bedfordshire) — Out-of-scope occupation: technician.
 
 ## Safety boundary

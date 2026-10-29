@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-27
-review_fingerprint: a82148fa1a60bcf107568c02b70bd384f4fd0ce870ef43d933572799161c8fa6
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+review_date: 2026-10-28
+review_fingerprint: 16e8be9f2e47aeacbc32ce4576a906c1fffc3cbd8d7a94073ae972a5bba51caa
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 22
 - Selected: 7
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 14
 
 ## SELECTED
 
@@ -128,7 +128,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Berkshire | Reading, South East, RG5 4RF | £15,377.30 - £16,389.90 Annually (Actual) Grade 4 SCP 7 to 11 | Data & Exams Assistant
+employer: Waingels
+closing_date: 2026-11-17T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1077f4cb166320846e8c5dcceaa00f915c86db6c5b0595decf67e16db906f6e3
+source: Teaching Vacancies
+source_job_id: data-exams-assistant-waingels
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-assistant-waingels
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -141,7 +154,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 - [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Excluded senior/management title.
 - [Exams Manager (part time)](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-part-time) — Excluded senior/management title.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer-bradfield-c-e-primary-school) — Insufficient admin/service evidence.
-- [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [HR Coordinator (part-time)](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-part-time) — Insufficient admin/service evidence.
 - [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-maiden-erlegh-school) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-girls-school-slough) — Excluded senior/management title.

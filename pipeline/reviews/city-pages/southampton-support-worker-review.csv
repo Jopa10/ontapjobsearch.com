@@ -1,6 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 review,jobg8-1401785913,Care Assistant,Hampshire County Council - Company - Permanent,Alton,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-1401785962,Care Assistant,Hampshire County Council - Company - Permanent,Gosport,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
+review,jobg8-1401786179,Casual Care Assistant,Hampshire County Council - Company - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
 review,jobg8-1401786041,Child and Family Support Worker,Hampshire County Council - Company - Permanent,Havant,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-23643_223548398,Healthcare Assistant,Excelsis Healthcare Recruitment - Agency - Permanent,Lyndhurst,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-23643_225730890,Home Care Assistant - Complex Care Adults,Nurseplus UK Ltd - Agency - Temporary,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker

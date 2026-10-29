@@ -1,12 +1,12 @@
-name: Isolated fresh 28 October 50k technical test
+name: Isolated fresh 29 October 50k technical test
 on:
   push:
-    branches: [test/jobg8-fresh-50000-20261028]
+    branches: [test/jobg8-fresh-50000-20261029]
     paths: ['pipeline/second-day-50k/**', '.github/workflows/test-jobg8-day2-50000.yml']
 permissions:
   contents: read
 concurrency:
-  group: isolated-jobg8-fresh-50000-20261028
+  group: isolated-jobg8-fresh-50000-20261029
   cancel-in-progress: false
 jobs:
   technical-test:
@@ -25,6 +25,19 @@ jobs:
         with:
           node-version: '22'
           cache: npm
+      - name: Validate captured input before dependency installation
+        run: |
+          python - <<'PYCODE'
+          import json, pathlib, base64, lzma, hashlib, xml.etree.ElementTree as ET
+          p=pathlib.Path('pipeline/second-day-50k'); i=json.loads((p/'feed-info.json').read_text())
+          parts=sorted((p/'feed').glob('part-*'))
+          assert len(parts)==i['chunks'] and i['account']==825072
+          assert i['date_time'][:3]==[2026,10,29]
+          raw=lzma.decompress(base64.b64decode(''.join(x.read_text() for x in parts)))
+          assert hashlib.sha256(raw).hexdigest()==i['xml_sha256']
+          assert len(ET.fromstring(raw).findall('Job'))==50000
+          print('PREFLIGHT PASS: fresh 29 October test feed, hash and 50,000 rows verified')
+          PYCODE
       - name: Install dependencies
         run: |
           python -m pip install pandas openpyxl boto3 pytest
@@ -38,12 +51,14 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: jobg8-fresh-50k-2026-10-28-results
+          name: jobg8-fresh-50k-2026-10-29-results
           path: |
-            test-results/receipt.json
+            test-results/*.json
             test-results/*.log
+            test-results/verified.zip
+            test-results/fresh-jobg8.xlsx
             test-results/reviewed-plan.json
-            test-results/daily-region-overview-50k-2026-10-28.*
+            test-results/daily-region-overview-50k-2026-10-29.*
             test-results/preview-snapshot.tar.gz
             pipeline/reviews/daily/ontap-daily-review.md
           retention-days: 14

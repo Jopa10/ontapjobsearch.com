@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
+- automatic include: 24
 - automatic review: 13
 - automatic exclude: 28
-- effective include: 26
+- effective include: 24
 - effective review: 13
 - effective exclude: 28
 
-## INCLUDE (26)
+## INCLUDE (24)
 
 ---
 action: 
@@ -76,18 +76,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Commercial Administration Assistant
-company: Ford & Stanley Talentwise - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225748912
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Commercial Sales Administrator
 company: Big Fish Little Fish - Agency - Permanent
 location: Sheffield
@@ -105,18 +93,6 @@ company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225679767
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Care Co-ordinator
-company: Sue Ross Recruitment Ltd - Agency - Contract
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225597891
 reason: Approved Sheffield catchment.
 ---
 
@@ -196,11 +172,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part time Finance Manager
-company: Sharp Consultancy - Agency - Permanent
+title: Procurement Administrator
+company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2052120
+job_id: jobg8-23643_225774666
 reason: Approved Sheffield catchment.
 ---
 
@@ -249,6 +225,18 @@ company: STEPS Rehabilitation
 location: Sheffield, S7 2QA
 source: NHS Jobs
 job_id: nhs-5686823
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Sheffield, S6 4TF
+source: NHS Jobs
+job_id: nhs-5693951
 reason: Approved Sheffield catchment.
 ---
 
@@ -309,18 +297,6 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225736471
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Social Media Executive
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2053411
 reason: Approved Sheffield catchment.
 ---
 
@@ -495,6 +471,18 @@ reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (28)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Assistant/Receptionist
+company: Rotherham Doncaster and South Humber NHSFT
+location: Doncaster, DN4 6ED
+source: NHS Jobs
+job_id: nhs-5693518
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -709,18 +697,6 @@ company: SARIA - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225684316
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Procurement Administrator -Temporary
-company: Hays Business Support - Agency - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225660075
 reason: Separate employment market.
 ---
 

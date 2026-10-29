@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 14
 - automatic review: 50
 - automatic exclude: 0
-- effective include: 16
+- effective include: 14
 - effective review: 50
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (14)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225728707
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial Administrator
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-2049449
 reason: Exact approved Leicester workplace.
 ---
 
@@ -129,18 +117,6 @@ company: Gi Group - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225728619
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Assistant
-company: GWR Legal Recruitment Ltd - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225664160
 reason: Exact approved Leicester workplace.
 ---
 
@@ -294,18 +270,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Clerk
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2053385
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Payable Coordinator
 company: SF Partners - Agency - Permanent
 location: Leicestershire
@@ -427,6 +391,18 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
+company: Saint Gobain - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225773382
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
 company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
@@ -503,6 +479,18 @@ company: Vectis Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225752965
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-108203745
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -631,7 +619,7 @@ action:
 decision: review
 automatic_decision: review
 title: Office Administrator
-company: JT Recruit - Agency - Temporary
+company: JT Recruit - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_224540405
@@ -719,18 +707,6 @@ company: Office Angels - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225721480
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Office Angels - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225659626
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

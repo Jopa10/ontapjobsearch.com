@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-27
-review_fingerprint: 6f4d66081754e6a478281c5fea3abd762637a384e69fcfdb65959d4ffebe5872
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+review_date: 2026-10-28
+review_fingerprint: 21ff038718b1f42b15b2724a7a26cc1386b3eb81332c90d51d3925953b453103
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 25
 - Selected: 9
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 15
 
 ## SELECTED
 
@@ -158,7 +158,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-a
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Essex | Brentwood, CM13 2HG | £29,361.00 - £30,776.00 Annually (FTE) | Operational Support Assistant
+employer: Discovery Educational Trust
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3612ff76776773a24f60ad3d88438a0be375137ed6eaf35918e5eae54bcb96b5
+source: Teaching Vacancies
+source_job_id: operational-support-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/operational-support-assistant
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -166,7 +179,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-a
 
 ## HARD_PASS
 
-- [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-jotmans-hall-primary-school) — No usable numeric salary.
 - [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services) — Out-of-scope occupation: deputy head.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-88731512-4f32-446c-b927-3ff9b578aae5) — No usable numeric salary.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador) — Insufficient admin/service evidence.

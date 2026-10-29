@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-27
-review_fingerprint: 81be0faa5f90e46f7d7204f68f590f267376a5243d0ca34f113ed6e869e3b10b
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+review_date: 2026-10-28
+review_fingerprint: 2ea2a2cb80da496b69c5a840e2670e02b17c3875e4a6c27765b471e30500767f
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 19
 - Selected: 7
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 10
 
@@ -141,6 +141,21 @@ factual_fingerprint: b6236251c2827a120b5ae6760dc472ebbed1fa16ba7643b9843309e1628
 source: Teaching Vacancies
 source_job_id: administrator-st-barnabas-church-of-england-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barnabas-church-of-england-school
+---
+
+---
+action: 
+POSS | Northamptonshire | Wellingborough, East Midlands, NN8 3JH | Scale 3 Points 3-4 £25,614 - £26,016 (actual £11,908 - £12,095) | Safeguarding Administrator
+employer: Weavers Academy
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 626ed3cb2924eb27f59d2dcbd4f18d6e6d2daeed12120b6bf87c59c11fd584aa
+source: Teaching Vacancies
+source_job_id: safeguarding-administrator-weavers-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-weavers-academy
 ---
 
 ## EXCLUDED BY REVIEW

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 58
-- automatic review: 15
-- automatic exclude: 8
+- automatic review: 14
+- automatic exclude: 5
 - effective include: 58
-- effective review: 15
-- effective exclude: 8
+- effective review: 14
+- effective exclude: 5
 
 ## INCLUDE (58)
 
@@ -101,10 +101,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: MSRec Ltd - Agency - Permanent
+company: Rise Technical Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225663930
+job_id: jobg8-23643_225775136
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -196,11 +196,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: Morgan McKinley (South West) - Agency - Temporary
+title: Customer Relations Officer and Complaints Handler
+company: Kings Court Trust - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225663218
+job_id: jobg8-23643_225729676
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -208,11 +208,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Relations Officer and Complaints Handler
-company: Kings Court Trust - Agency - Permanent
+title: Customer Relationship Coordinator
+company: Davies Turner - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225729676
+job_id: jobg8-23643_225767987
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -369,6 +369,18 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225740039
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Internal Sales
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225772106
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -700,18 +712,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Social Media and Content Executive
-company: Moxie and Mettle Limited - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2053562
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Team Administrator
 company: Devon Partnership NHS Trust
 location: Bristol, BS2 9RU
@@ -720,7 +720,7 @@ job_id: nhs-5636801
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (14)
 
 ---
 action: 
@@ -774,11 +774,11 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Artis Recruitment - Agency - Permanent
-location: Yate
+title: Home Based Marketing and Sales
+company: Etre Professional - Agency - Permanent
+location: Somerset
 source: JobG8
-job_id: jobg8-23643_225661210
+job_id: jobg8-2196982
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -890,31 +890,7 @@ job_id: jobg8-2195049
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2190744
-reason: No approved Bristol catchment rule matched; local review required.
----
-
-## EXCLUDE (8)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Audit & Accounts Assistant
-company: Reed - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2049154
-reason: Separate employment market.
----
+## EXCLUDE (5)
 
 ---
 action: 
@@ -944,18 +920,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part Time Accounts Administrator
-company: Juice Recruitment Ltd - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2053456
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Part Time Accounts Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Bath
@@ -973,18 +937,6 @@ company: Juice Recruitment Ltd - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-2070922
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll Manager (Part Time)
-company: Reed Technology - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-23643_225660760
 reason: Separate employment market.
 ---
 

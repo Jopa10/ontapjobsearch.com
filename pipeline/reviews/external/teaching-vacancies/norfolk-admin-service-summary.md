@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-27
+review_date: 2026-10-28
 review_fingerprint: a1fe366d58c59493aded94313144e9613bde8dab9bb9d8f8148e7e8877db534b
-routing_manifest_sha256: 871fa3dcdd809e17dcfae436db1ed59ca0bc44f21e5c5f8d6ab93d1936791885
+routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
+- Records: 21
 - Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 14
 
 ## SELECTED
 
@@ -144,6 +144,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Attendance and Cover Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-cover-officer) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
 - [Data Manager (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/data-manager-maternity-cover-great-yarmouth-charter-academy-great-yarmouth) — Excluded senior/management title.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-734b138f-20ba-4b95-9728-d762be624cd2) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Student Administration & Customer Service Assistant Degree Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/student-administration-customer-service-assistant-degree-apprenticeship) — Insufficient admin/service evidence.
 - [Student Services Assistant](https://teaching-vacancies.service.gov.uk/jobs/student-services-assistant-east-norfolk-multi-academy-trust) — No usable numeric salary.
