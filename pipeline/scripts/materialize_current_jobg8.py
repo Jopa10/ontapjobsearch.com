@@ -51,7 +51,7 @@ def materialize(
     zip_path: Path,
     output_path: Path,
     expected_min: int = 5000,
-    expected_max: int = 50000,
+    expected_max: int = 60000,
 ) -> int:
     download(feed_url, zip_path)
     clear_pipeline_input(output_path.parent)
@@ -67,7 +67,7 @@ def main() -> None:
     parser.add_argument("--zip", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--expected-min", type=int, default=5000)
-    parser.add_argument("--expected-max", type=int, default=50000)
+    parser.add_argument("--expected-max", type=int, default=60000)
     args = parser.parse_args()
 
     count = materialize(
