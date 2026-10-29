@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-28
-review_fingerprint: e8f37fc691999686ce23b9984f8aae4b27477d3bf05f53bf33fb1966eece25df
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: 959362808764ac0afd304d989542f8890e387d648cf66c9361ce6c682eb0f427
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 26
-- Selected: 15
+- Selected: 14
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB24 8UA | £26,017.00 - £26,847.00 Annually (FTE) Pro rata salary £22,315 - £23,026 | Administration Assistant
-employer: Cottenham Village College
-closing_date: 2026-10-28T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: aadf477a6fedd61a2d7d449021cb982a7ae41748d45be1373ed427f0f224910f
-source: Teaching Vacancies
-source_job_id: administration-assistant-33fbff14-5670-4218-aac1-dee2a2b87010
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-33fbff14-5670-4218-aac1-dee2a2b87010
----
 
 ---
 action: 
@@ -288,6 +273,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-camb
 - [Cleaner](https://teaching-vacancies.service.gov.uk/jobs/cleaner-34934dbc-6989-4466-8253-34da9a9f27cb) — Out-of-scope occupation: cleaner.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-swavesey-village-college) — Excluded senior/management title.
 - [Inclusion and Attendance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-and-attendance-coordinator) — No usable numeric salary.
+- [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-st-luke-s-cofe-primary-school-cambridge-cambridgeshire) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-91d02456-2d21-4a21-9e38-0ce49abf0a82) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-werrington-primary-school) — Excluded senior/management title.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Excluded senior/management title.

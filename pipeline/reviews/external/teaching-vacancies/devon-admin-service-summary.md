@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-28
-review_fingerprint: ffb4a8e8f06f981a1d03d3a49c8ae8749209b77eb5f347f54ac61ee0885da6e1
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: a63459eef811b59be249df94ec6a9481cc6f45e4d8cbf65f918d2bee72409199
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
+- Records: 26
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 22
+- Hard pass: 21
 
 ## SELECTED
 
@@ -40,15 +40,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-pa
 action: 
 SELECTED | Devon | Exeter, South West, EX2 8RQ | £26,847 - £27,274 per annum FTE | Nursery Administrator
 employer: Alphington Primary School
-closing_date: 2026-11-11T09:00:00+00:00
+closing_date: 2026-11-11T12:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1b563ca81f5a9e7c97807c08879347185a502da4074bd87c3c7e74b6df12d3c6
+factual_fingerprint: e181feb89e9d315d0fa3aabcbecadd76ccf513a7ed3c44533625a9384cdf1ccd
 source: Teaching Vacancies
-source_job_id: nursery-administrator-alphington-primary-school-exeter-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/nursery-administrator-alphington-primary-school-exeter-devon
+source_job_id: nursery-administrator-31464adb-0c58-44e0-b86c-35e420fdd035
+source_url: https://teaching-vacancies.service.gov.uk/jobs/nursery-administrator-31464adb-0c58-44e0-b86c-35e420fdd035
 ---
 
 ---
@@ -68,17 +68,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 
 ---
 action: 
-SELECTED | Devon | Plymouth, South West, PL4 6HT | TSAT Pay Group 3 pro rata to £12,946 - £15,024 for hours and weeks stated (£26,866 - £31,179 FTE ) | SEN Medical Administrator
-employer: Plymouth High School for Girls
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
+SELECTED | Devon | Plymouth, South West, PL3 4BD | £25,614.00 - £26,016.00 Annually (FTE) Actual salary £9173.45 - £9317.42 | School Receptionist
+employer: Stoke Damerel Community College
+closing_date: 2026-11-11T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 75e50ef159e0f59b69b3e17ebb9592ce3a65111d2ae27bba904a34143ef14d75
+factual_fingerprint: 00922d76a9688076ae6d8ea8c28281b87e286c73dcc7660622e04554bd51583f
 source: Teaching Vacancies
-source_job_id: sen-medical-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-medical-administrator
+source_job_id: school-receptionist-stoke-damerel-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-stoke-damerel-community-college
 ---
 
 ---
@@ -109,7 +109,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-funding-admin
 - [[261016] Office Manager](https://teaching-vacancies.service.gov.uk/jobs/261016-office-manager) — Excluded senior/management title.
 - [Administrator for Support Teams](https://teaching-vacancies.service.gov.uk/jobs/administrator-for-support-teams) — No usable numeric salary.
 - [Behaviour Manager](https://teaching-vacancies.service.gov.uk/jobs/behaviour-manager-atlantic-academy-bideford-devon) — Excluded senior/management title.
-- [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-5e8d840e-c0c3-4295-86e4-56df93920cc5) — No usable numeric salary.
 - [Casual Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-reprographics-assistant) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-6ea73e83-b87a-4a2c-a33b-01b39b3f515f) — No usable numeric salary.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-holsworthy-community-college) — Excluded senior/management title.

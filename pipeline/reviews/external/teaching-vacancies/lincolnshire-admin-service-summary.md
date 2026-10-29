@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-28
-review_fingerprint: 9c68b41027690f837309cbfc630db7150e4bf18180809183b28bd2551bcf4731
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: 04f4f989d761e57b6d0c0a5bdbf135cc9e278fc69b2f8098c24142e5cc556303
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 9
-- POSS awaiting decision: 2
+- Records: 18
+- Selected: 10
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 5d6faf98c302e5ae1174342fd014367e737902c198263a390e597217cbf
 source: Teaching Vacancies
 source_job_id: academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN2 3JB | Salary: £21,904.90 - £23,088.42 (FTE WFS Grade 3 – £25,614 - £26,847) | Admin Assistant
+employer: William Farr CofE Comprehensive School
+closing_date: 2026-11-16T12:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d16f5b641c32b7697189960379b23aea58f9d9e0eaf79cb1c678804a1e55ad30
+source: Teaching Vacancies
+source_job_id: admin-assistant-william-farr-cofe-comprehensive-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-william-farr-cofe-comprehensive-school
 ---
 
 ---
@@ -160,21 +175,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 
 ---
 action: 
-POSS | Lincolnshire | Lincoln, East Midlands, LN2 3JB | Salary: £21,904.90 - £23,088.42 (FTE WFS Grade 3 – £25,614 - £26,847) | Admin Assistant
-employer: William Farr CofE Comprehensive School
-closing_date: 2026-11-16T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d16f5b641c32b7697189960379b23aea58f9d9e0eaf79cb1c678804a1e55ad30
-source: Teaching Vacancies
-source_job_id: admin-assistant-william-farr-cofe-comprehensive-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-william-farr-cofe-comprehensive-school
----
-
----
-action: 
 POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN37 9EH | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role is £15,186.48. | Administration Officer (7752)
 employer: John Whitgift Academy
 closing_date: 2026-10-29T23:59:00+00:00
@@ -195,14 +195,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 ## HARD_PASS
 
 - [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school-grantham-lincolnshire) — Insufficient admin/service evidence.
-- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-lincoln-carlton-academy) — Insufficient admin/service evidence.
 - [Data Analyst](https://teaching-vacancies.service.gov.uk/jobs/data-analyst-franklin-sixth-form-college) — Insufficient admin/service evidence.
 - [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
 - [Health, Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/health-safety-and-compliance-officer-voyage-education-partnership) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-harbour-learning-trust) — Insufficient admin/service evidence.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-de-aston-school) — Insufficient admin/service evidence.
-- [Operational Delivery Lead](https://teaching-vacancies.service.gov.uk/jobs/operational-delivery-lead) — Excluded senior/management title.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-the-gainsborough-parish-church-primary-school) — Excluded senior/management title.
 
 ## Safety boundary

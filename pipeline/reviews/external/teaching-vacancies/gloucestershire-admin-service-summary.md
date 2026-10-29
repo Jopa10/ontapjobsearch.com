@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-10-28
-review_fingerprint: 4ce42bb7759f5a4b65f9b090b170b3018a70ded2ade4f94c5d6eee1210b6c9ba
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: b8b3eb20df92de3ff092585bf9886f5b7d11ff4be8b8a95e005fb54460fefa7b
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Gloucestershire | Gloucester, South West, GL3 4QF | £8,464.32 - £8,871.56 Annually (Actual) | Part Time Receptionist
+employer: Henley Bank High School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aaf7d06777ef858d96aa17af082ef3495a4d0c0201fb1e86c9c42362437826de
+source: Teaching Vacancies
+source_job_id: part-time-receptionist-henley-bank-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-henley-bank-high-school
+---
 
 ---
 action: 

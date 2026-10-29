@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-28
-review_fingerprint: 21ff038718b1f42b15b2724a7a26cc1386b3eb81332c90d51d3925953b453103
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: f550e282f0232cda27e542ff535662a2e3ba9807e2438dbef0ffb8eeb7a49a02
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 9
+- Records: 21
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 14
 
 ## SELECTED
 
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Essex | Benfleet, East of England, SS7 5RG | £18,458.38 Annually (Actual) | Administrative Assistant - Part-Time Permanent
-employer: Jotmans Hall Primary School
-closing_date: 2026-10-28T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3115f0cbbb062042a116f5e993a361350cbf5c208bc1cd7c00e7158f81626f05
-source: Teaching Vacancies
-source_job_id: administrative-assistant-part-time-permanent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-part-time-permanent
----
-
----
-action: 
 SELECTED | Essex | Stanford-le-Hope, East of England, SS17 8JT | £22,687 | Administrator: Reprographics
 employer: Mossbourne Fobbing Academy
 closing_date: 2026-11-01T23:59:00+00:00
@@ -124,36 +109,6 @@ factual_fingerprint: 8ec4c4542c5bcbea1feff64c5d2fc7cac4ae861ed4cd8533d9968ebdcb3
 source: Teaching Vacancies
 source_job_id: administrator-reprographics-mossbourne-fobbing-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-reprographics-mossbourne-fobbing-academy
----
-
----
-action: 
-SELECTED | Essex | Witham, East of England, CM8 1EP | £8299 - £8562 per annum | Receptionist (Student Services)
-employer: Lift Maltings
-closing_date: 2026-10-29T07:55:52+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9ac128511b2a1b731b9648fdcf93b7c71d6c3c0f4d0f575286080f0aabfe781f
-source: Teaching Vacancies
-source_job_id: receptionist-student-services
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-student-services
----
-
----
-action: 
-SELECTED | Essex | Southend-on-Sea, East of England, SS1 3BS | £34,237 | SEND Administrative Assistant
-employer: Greenways Primary School
-closing_date: 2026-10-28T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 064f78272efb44d64d3138d1842e364ef7df67792f7512abc7388aa96110c9a9
-source: Teaching Vacancies
-source_job_id: send-administrative-assistant-greenways-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-assistant-greenways-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -192,7 +147,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operational-support-a
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-350f15ec-6ca7-47eb-90e2-1629046cf441) — Excluded senior/management title.
 - [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-harris-academy-wickford) — Excluded senior/management title.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-884963be-594a-40f8-a5c8-a9fbe6867b15) — Excluded senior/management title.
-- [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Excluded senior/management title.
 - [Trust Data and MIS Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-and-mis-analyst) — No usable numeric salary.
 
 ## Safety boundary

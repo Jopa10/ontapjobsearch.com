@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-28
+review_date: 2026-10-29
 review_fingerprint: 37f7112b7f8465347ac15aa752afda578331040d8486b786042d1e3b60b16fa0
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED

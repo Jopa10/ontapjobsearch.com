@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-10-28
-review_fingerprint: 01046b2ec3a56215e89ae354a557acf5751d6fcb46518bf5f7f84eb70eb5e019
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: 977f1297d48ed1eaeabfe3cd9847c08c02fc882e2cdc25403d27c3b931b8fa2c
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -34,6 +34,21 @@ factual_fingerprint: bf701f344742e60a49f32dcd68118a215ee0343150259d49a3a789102c0
 source: Teaching Vacancies
 source_job_id: attendance-and-admissions-officer-firwood-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-firwood-high-school
+---
+
+---
+action: 
+SELECTED | Greater Manchester - Wigan & Bolton | Bolton, North West, BL1 3DX | £26,847 to £27,274 per annum (pro-rata £23,524.11 to 23,898.26 per annum) | Business Support Officer
+employer: The Olive School, Bolton
+closing_date: 2026-11-13T23:59:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 82480ca49bb7390d26f4a7d5df6191f9615e03901f537735428b63d3c643c78b
+source: Teaching Vacancies
+source_job_id: business-support-officer-30ebbcc4-4c53-4a32-b6d8-28daba6bbea5
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-30ebbcc4-4c53-4a32-b6d8-28daba6bbea5
 ---
 
 ---

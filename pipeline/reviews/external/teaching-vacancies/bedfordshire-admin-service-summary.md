@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-28
-review_fingerprint: efa6ab8b557c225d48b9bb338d9f0ae20ddd427eae9b9331d8edeb615bd0d0de
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: cfe2ecc3ea6c575ce34dbbf0545020931586a3d3ec275b3775ce553cf3795099
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 6
+- Records: 15
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 8
@@ -109,6 +109,21 @@ factual_fingerprint: 0f8b05796b1f5987aee3c1a991aab362ecc90488fecad33a7b49db4b123
 source: Teaching Vacancies
 source_job_id: sen-inclusion-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-inclusion-administrator
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Luton, LU4 0PF | £26,847.00 - £27,709.00 Annually (Actual) | Trust Finance Assistant
+employer: St Thomas Catholic Academies Trust
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 825bb9b56310210d71e8b1f09dfb13a26741a260151106146ce6808b3cace93a
+source: Teaching Vacancies
+source_job_id: trust-finance-assistant-st-thomas-catholic-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-st-thomas-catholic-academies-trust
 ---
 
 ## POSS — choose SELECT or EXCLUDE

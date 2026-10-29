@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-28
-review_fingerprint: c7d313aeff3a9df7343275bbbf7f6e6a81e6164fc8bd672e4148e5487bdbb668
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: e88e2cccff7b2a71e3fb71931199573785286c82216e756e79f136e70be8b0e7
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 13
 - Selected: 2
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -98,6 +98,21 @@ source_job_id: administrative-assistant-hillview-school-for-girls-tonbridge-kent
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls-tonbridge-kent
 ---
 
+---
+action: 
+POSS | Kent | Dartford, South East, DA1 2JT | £25,429 per annum | Centre Administrator
+employer: North Kent College
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4f3300244bc788089934692619d0aae424393d367d3a6ed2dee3251f04d61462
+source: Teaching Vacancies
+source_job_id: centre-administrator-north-kent-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/centre-administrator-north-kent-college
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -107,7 +122,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 - [Attendance and Admissions Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-lead) — Excluded senior/management title.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-hillview-school-for-girls-tonbridge-kent) — Excluded senior/management title.
 - [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy) — Insufficient admin/service evidence.
-- [Human Resources Apprentice](https://teaching-vacancies.service.gov.uk/jobs/human-resources-apprentice-the-howard-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-gregory-s-catholic-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-fisher-catholic-comprehensive-school) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-royal-rise-primary-school) — Excluded senior/management title.

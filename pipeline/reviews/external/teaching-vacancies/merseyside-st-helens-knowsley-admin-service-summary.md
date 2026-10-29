@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - St Helens & Knowsley
 
-review_date: 2026-10-28
+review_date: 2026-10-29
 review_fingerprint: b53665e37cc26867f0e4987a7ec81fd0fb08f1feecd3ab8c4c11cbe8042bf43d
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Merseyside - St Helens & Knowsley
 slice_category: admin_service
 slice_status: LIVE

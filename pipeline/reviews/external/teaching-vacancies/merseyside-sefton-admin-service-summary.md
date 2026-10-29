@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Sefton
 
-review_date: 2026-10-28
+review_date: 2026-10-29
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Merseyside - Sefton
 slice_category: admin_service
 slice_status: UNREGISTERED

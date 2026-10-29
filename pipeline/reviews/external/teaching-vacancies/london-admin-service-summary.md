@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-28
+review_date: 2026-10-29
 review_fingerprint: 875bf77b5bd84a2f531f94e07f5570f1af303d77f49ae057cdc6a4fdeadff74a
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 89
+- Records: 88
 - Selected: 15
 - POSS awaiting decision: 21
 - Excluded: 0
-- Hard pass: 53
+- Hard pass: 52
 
 ## SELECTED
 
@@ -581,7 +581,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-5bbd91b2-0afc-4796-b38f-b0811a522b87) — Insufficient admin/service evidence.
 - [Chief Financial & Operations Officer (CFOO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-operations-officer-cfoo) — Excluded senior/management title.
 - [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-3c160b52-7e72-4e61-ad20-18c3b7f99817) — No usable numeric salary.
-- [Communications and Collaboration Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-and-collaboration-lead) — Excluded senior/management title.
 - [Contracts & Procurement Lead](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-lead-greenshaw-learning-trust) — Excluded senior/management title.
 - [Cover Supervisor Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-d381408a-aed2-44f0-8a2b-5602fd447ab9) — Excluded senior/management title.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.

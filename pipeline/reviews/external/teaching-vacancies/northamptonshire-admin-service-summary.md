@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-28
-review_fingerprint: 2ea2a2cb80da496b69c5a840e2670e02b17c3875e4a6c27765b471e30500767f
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: 34100d0602bc82103974651b98e106afbcc68e3aadf2a9b268822a029ffa26d3
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 19
-- Selected: 7
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -79,6 +79,21 @@ factual_fingerprint: 53e7ad9b396980b8b0ec47c2dd78e7abc70c8df66c2b0fc749708ee735d
 source: Teaching Vacancies
 source_job_id: content-creator-and-admin-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/content-creator-and-admin-assistant
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Corby, East Midlands, NN17 5EB | £27,690 | Exams Officer
+employer: Corby Business Academy
+closing_date: 2026-11-20T15:00:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 106e3ef1f209bc869422c54a0d17d2ba6eee43b32b0c4793fff707d2425e3705
+source: Teaching Vacancies
+source_job_id: exams-officer-corby-business-academy-corby-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-corby-business-academy-corby-northamptonshire
 ---
 
 ---
@@ -169,7 +184,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administ
 - [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant-greenfields-specialist-school-for-communication-northampton-northamptonshire) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-weavers-academy) — Insufficient admin/service evidence.
 - [Invigilator](https://teaching-vacancies.service.gov.uk/jobs/invigilator-corby-business-academy) — No usable numeric salary.
-- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-creating-tomorrow-multi-academy-trust-kettering-not-recorded) — Salary over £50k.
 - [Northampton Business Partner](https://teaching-vacancies.service.gov.uk/jobs/northampton-business-partner-the-abbey-primary-school) — Insufficient admin/service evidence.
 - [Part time TLT HR Manager](https://teaching-vacancies.service.gov.uk/jobs/part-time-tlt-hr-manager) — Excluded senior/management title.
 - [Reprographics and Resource Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-resource-assistant-maternity-cover) — Insufficient admin/service evidence.

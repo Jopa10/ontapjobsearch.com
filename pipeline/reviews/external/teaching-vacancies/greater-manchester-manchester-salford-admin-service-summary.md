@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-28
-review_fingerprint: b5a12c2ca7e77cb23c799ee5d2af50d87a0dad8251936fe7d45275e1df0632d2
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: 3a7603302438ac8507573b26eb529695f808fdc430fbc117a839004202d6142e
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -83,36 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-whal
 
 ---
 action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M30 7PQ | £24,947.00 - £28,090.00 Annually (FTE) Band 2 Professional, Point 1 – 6 (Pro rata due to part time) Cost of living increase to be added upon confirmation of award. | Office Admin & Receptionist
-employer: Salford City Academy
-closing_date: 2026-10-29T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b4b1585a91f07cf5d953fa82dbbfd7460d82aa926f9a2dbe25e246932db6918d
-source: Teaching Vacancies
-source_job_id: office-admin-receptionist
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-admin-receptionist
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M30 7PQ | £24,947.00 - £28,090.00 Annually (Actual) Band 2 Professional, Point 1 – 6 (24,947 – 28,090 pro-rata) Cost of living increase to be added upon confirmation of award. | Office Administrator and Receptionist.
-employer: Salford City Academy
-closing_date: 2026-10-29T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 99b499d444050319819a5c525679ea84fb1032f6da54e66a11bf28e8b6cfb8e3
-source: Teaching Vacancies
-source_job_id: office-administrator-and-receptionist-salford-city-academy-manchester
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-and-receptionist-salford-city-academy-manchester
----
-
----
-action: 
 SELECTED | Greater Manchester - Manchester & Salford | Manchester, M60 0AG | NJC SCP12 - SCP19 £28,598 - £32,062 | Trust Finance and Systems Administrator
 employer: The Co Operative Academies Trust
 closing_date: 2026-11-02T00:00:00+00:00
@@ -168,6 +138,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 - [HR Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-manager-levenshulme-high-school) — Excluded senior/management title.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-s-rc-primary-school-a-voluntary-academy) — Excluded senior/management title.
+- [Trust HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-officer-greater-manchester-academies-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

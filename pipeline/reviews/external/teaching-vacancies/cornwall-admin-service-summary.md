@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-28
+review_date: 2026-10-29
 review_fingerprint: 77ae94ea6c9d9924787fc94fecf8a145353ca2a3e23ee76e713c60658d109ab4
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -50,7 +50,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Administrative & Educational Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-educational-support-assistant-launceston-primary-school) — No usable numeric salary.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-st-just-primary-school) — No usable numeric salary.
 - [Apprentice Administrator with Financial Responsibilities](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-with-financial-responsibilities-newquay-junior-academy) — No usable numeric salary.
-- [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-98013a7b-abcb-49b9-bc24-0e68d6997ce9) — No usable numeric salary.
 - [General Administrator & Receptionist](https://teaching-vacancies.service.gov.uk/jobs/general-administrator-receptionist) — No usable numeric salary.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — No usable numeric salary.
 

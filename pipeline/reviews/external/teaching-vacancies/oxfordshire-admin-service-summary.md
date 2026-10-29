@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-28
-review_fingerprint: 31292297d1ba69fc5009b53dc6f49dbad140f333ee9314554e934f8434866e6c
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: 4604c138e8c8a861d94d17eda0c78022ae95e269f44eb6fb46c0a0f4cf69a726
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 6
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 4
 
@@ -122,10 +122,25 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 78272c52d8273498fc95586b26161e7bdf4197412b27e821c4103f41bd506da3
+factual_fingerprint: fbfc55a26340553e05bd82e0714dce1a1ef2e0475374d79fd528eec3b0892d58
 source: Teaching Vacancies
-source_job_id: data-officer-wood-green-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-wood-green-school
+source_job_id: data-officer-wood-green-school-witney-oxfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-wood-green-school-witney-oxfordshire
+---
+
+---
+action: 
+POSS | Oxfordshire | Oxford, OX2 9JE | £32,578.00 - £35,570.00 Annually (FTE) | Finance Officer
+employer: Acer Trust
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3a9f75d1056f7302c031942a8c79c25bd919d789b82ffb5367ca9b757fd45290
+source: Teaching Vacancies
+source_job_id: finance-officer-acer-trust-oxford-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-trust-oxford-not-recorded
 ---
 
 ---

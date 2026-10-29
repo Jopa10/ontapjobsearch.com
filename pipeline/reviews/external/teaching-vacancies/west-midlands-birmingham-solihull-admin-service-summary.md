@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-28
-review_fingerprint: e90ecbed068b761a11570901dc72b31d81c9de338fe0426f69c4f3d350aff12e
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: 72a9ce4970672f84496fbeda76a8f1ce42fa16358feed3d4a13c2cffa8247085
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -257,10 +257,10 @@ reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a160e00b2049c2084085f183712d9f9dba704884f03fdd1188b23722f177209f
+factual_fingerprint: 00c9d7a50319ebf8ed9b6253ca8b71d702957a9471ecebd97db59d1afdaa17ab
 source: Teaching Vacancies
-source_job_id: administrator-d9ca7417-7c7e-4daa-b266-5f0124cee80f
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-d9ca7417-7c7e-4daa-b266-5f0124cee80f
+source_job_id: administrator-cf5e5aab-64b0-42ed-a819-f37cfdc52017
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-cf5e5aab-64b0-42ed-a819-f37cfdc52017
 ---
 
 ## EXCLUDED BY REVIEW

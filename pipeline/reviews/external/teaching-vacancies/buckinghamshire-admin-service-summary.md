@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-28
-review_fingerprint: 2913c7c3155164b79133496895e60097e13568a7cc2229bc1793da609c4f812f
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: ee5d75c3d88dd982e4b1bcd20aa073b75d46fc45710b1f718271bb5d6eda21b1
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 10
 - Selected: 6
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -115,21 +115,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 
 ---
 action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) | Business Support
-employer: Glebe Farm School
-closing_date: 2026-10-28T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ad47331eb0c0e2e2a63c5640f0e6d18c3428890ee85867c7925e936a4743e428
-source: Teaching Vacancies
-source_job_id: business-support-glebe-farm-school-milton-keynes-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-glebe-farm-school-milton-keynes-buckinghamshire
----
-
----
-action: 
 POSS | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
 employer: Lift Sir Herbert Leon
 closing_date: 2026-11-17T13:08:02+00:00
@@ -152,7 +137,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir
 - [Business Support L3](https://teaching-vacancies.service.gov.uk/jobs/business-support-l3-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Excluded senior/management title.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-7e5d89f3-aa30-4103-8e70-a83b509a9118) — Insufficient admin/service evidence.
-- [Operations Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-support-assistant-oxley-park-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

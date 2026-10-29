@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-28
-review_fingerprint: dc7e9c266f9016107ec89058c2fc32263cc809b5e5cb8c8cc881840223d7efe8
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: 18e9a8d8daa2f0bc5de7bacc19cc3edb1bb9b488099cf13ac815fd35129b87dd
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 52
+- Records: 54
 - Selected: 15
-- POSS awaiting decision: 5
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 32
+- Hard pass: 33
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: d7d5cf1ca3472f28b0c2b47a3ee198492898f255b2de424b3d671091faa
 source: Teaching Vacancies
 source_job_id: administration-assistant-horbury-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horbury-academy
----
-
----
-action: 
-SELECTED | Yorkshire - West | Mirfield, Yorkshire and the Humber, WF14 9EZ | £23,632.00 - £24,778.00 Annually (Actual) Grade 5, Scale Point 5-8. FTE - £26,427 - £27,709) | Administration Assistant
-employer: The Mirfield Free Grammar
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: e66ce8127782172ac9595d451a2540aa130398ce1d535a46ac60ec7f05fcdbea
-source: Teaching Vacancies
-source_job_id: administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
 ---
 
 ---
@@ -233,6 +218,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pa
 
 ---
 action: 
+SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF1 2PF | £21,784.89 to £22,126.80. | Student Information Desk Receptionist
+employer: Outwood Grange Academy
+closing_date: 2026-11-13T08:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: d790f56fa17fa24d7d4414bf36c424442de96060e769f9df29b43e693246e781
+source: Teaching Vacancies
+source_job_id: student-information-desk-receptionist-outwood-grange-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-information-desk-receptionist-outwood-grange-academy
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Ilkley, LS29 8TR | £23,455.00 - £25,466.00 Annually (Actual) Term time only plus 5 days | Trust HR Administrator
 employer: Moorlands Learning Trust
 closing_date: 2026-11-02T08:00:00+00:00
@@ -247,6 +247,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-administrato
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Yorkshire - West | Mirfield, Yorkshire and the Humber, WF14 9EZ | £23,632.00 - £24,778.00 Annually (Actual) Grade 5, Scale Point 5-8. FTE - £26,427 - £27,709) | Administration Assistant
+employer: The Mirfield Free Grammar
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: e66ce8127782172ac9595d451a2540aa130398ce1d535a46ac60ec7f05fcdbea
+source: Teaching Vacancies
+source_job_id: administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
+---
 
 ---
 action: 
@@ -361,6 +376,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gr
 - [Senior Business Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-business-support-administrator) — Excluded senior/management title.
 - [Sixth Form and Careers Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-and-careers-administration-officer) — Insufficient admin/service evidence.
 - [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-enhance-academy-trust-bradford-not-recorded) — Excluded senior/management title.
+- [Work Placement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/work-placement-coordinator-outwood-grange-academy-wakefield-west-yorkshire) — No usable numeric salary.
 
 ## Safety boundary
 

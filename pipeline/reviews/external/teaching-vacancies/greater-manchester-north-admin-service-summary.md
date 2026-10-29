@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-28
+review_date: 2026-10-29
 review_fingerprint: 9f3699f554af8415a0d8e988f4f312904bb35129a12f083e708916e7682fdaee
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 7
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 5
 
 ## SELECTED
 
@@ -65,8 +65,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-oulder-h
 - [Grade 2 Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/grade-2-administration-officer) — Insufficient admin/service evidence.
 - [Head of Human Resources](https://teaching-vacancies.service.gov.uk/jobs/head-of-human-resources-st-teresa-of-calcutta-catholic-academy-trust) — Excluded senior/management title.
 - [MIS Systems and Data Officer](https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-officer) — No usable numeric salary.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-new-bridge-school-oldham-lancashire) — No usable numeric salary.
-- [Personal Care Assistant based at New Bridge Learning Centre](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-based-at-new-bridge-learning-centre-new-bridge-school-oldham-lancashire) — No usable numeric salary.
 - [School Business Manager (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-level-3-sandbrook-community-primary-school-rochdale-lancashire) — Excluded senior/management title.
 
 ## Safety boundary

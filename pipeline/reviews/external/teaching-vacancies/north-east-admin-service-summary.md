@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-28
-review_fingerprint: eb4c0397788778ba69b96a3f5ba9b924c2d2b47ca622f8c65b19f12229f2f638
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: fbbec956e912774de2eea9c0883d3a7cfdf169aef5a4fc191e31419d9c4cec84
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 6
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 9
 
 ## SELECTED
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-english
 
 ---
 action: 
+SELECTED | North East | Blyth, NE24 2SY | £25,147.00 - £26,414.00 Annually (Actual) Whole Time | HR & Payroll Administrator
+employer: Emmanuel Schools Foundation
+closing_date: 2026-11-12T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e0d49fd08dbe02e94f2330853f051522c6a13f009ed150113a7ae1428e9fc242
+source: Teaching Vacancies
+source_job_id: hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
+---
+
+---
+action: 
 SELECTED | North East | Sunderland, North East, SR2 7JN | £8,016.00 - £8,142.00 Annually (Actual) £25,614 - £26,016 FTE. 2 days a week, Thursday and Friday. Pending outcome of job evaluation | Receptionist
 employer: St Anthony's Girls' Catholic Academy
 closing_date: 2026-11-02T09:00:00+00:00
@@ -123,14 +138,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-antho
 
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields-south-shields-tyne-and-wear) — Excluded senior/management title.
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth-sunderland) — Excluded senior/management title.
-- [Head of People](https://teaching-vacancies.service.gov.uk/jobs/head-of-people-northern-lights-learning-trust) — Excluded senior/management title.
 - [Hourly Paid Creative Industries Technician (2026/CS015)](https://teaching-vacancies.service.gov.uk/jobs/hourly-paid-creative-industries-technician-2026-cs015) — Out-of-scope occupation: technician.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
 - [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
 - [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-connect-multi-academy-trust) — Insufficient admin/service evidence.
 - [Part Time Creative Industries Technician (2026/CS014)](https://teaching-vacancies.service.gov.uk/jobs/part-time-creative-industries-technician-2026-cs014) — Out-of-scope occupation: technician.
 - [Pastoral Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-officer-febc3c65-3b62-4e66-a0de-9fa208cbd134) — Insufficient admin/service evidence.
-- [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-northern-lights-learning-trust) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grange-primary-school-hartlepool) — Excluded senior/management title.
 
 ## Safety boundary

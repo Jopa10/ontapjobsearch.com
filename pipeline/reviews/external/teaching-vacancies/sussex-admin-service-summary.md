@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-28
-review_fingerprint: 20fc669b3f572d243aa4b20aaee6ab283adf096533cdaced15ac6aacc055c49c
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+review_date: 2026-10-29
+review_fingerprint: e921e6c20cae38922b732bba63a9b437026371ceb8f173874c5c267abb31868e
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 0
+- Records: 5
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Sussex | Eastbourne, South East, BN22 9EE | FTE: £26,017.00 - £26,429.00 (actual salary: £21,167.55 to £21,502.76) | Receptionist and Administrative Assistant
+employer: Heron Park Primary Academy
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4c06e8853c290bb91f15240cc047de5fd64ebf3fb66079907b6d6d4c2a8791b1
+source: Teaching Vacancies
+source_job_id: receptionist-and-administrative-assistant-heron-park-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-heron-park-primary-academy
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

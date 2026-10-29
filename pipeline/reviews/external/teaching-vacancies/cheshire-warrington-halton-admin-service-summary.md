@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-10-28
+review_date: 2026-10-29
 review_fingerprint: ae9076d5b05e5ca005050baba199940d3f39edfd867898be5cdf4bda7c1d5fc5
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-suppor
 
 ## HARD_PASS
 
+- [Assistant Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-management-accountant-the-great-schools-trust) — Insufficient admin/service evidence.
 - [Nursery Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/nursery-administration-officer) — Out-of-scope occupation: nurse.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-grange-school-runcorn-cheshire) — Excluded senior/management title.
 - [Trust Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-manager-the-challenge-academy-trust) — Excluded senior/management title.

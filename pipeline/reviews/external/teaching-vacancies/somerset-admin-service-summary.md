@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-28
+review_date: 2026-10-29
 review_fingerprint: 02ee76314827ba2d76fe9bc0573fd5ed9b7d85215cd592c037c01e66e91b9c7d
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE

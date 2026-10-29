@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-28
+review_date: 2026-10-29
 review_fingerprint: c8bbe1d141c247166ef94e2aad9a1834192e917178acc6f6b14f76ae29440b2e
-routing_manifest_sha256: addd024e93c943089f90239b19f0af1969212289b5374fc5b7966b044b543c79
+routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 16
 - Selected: 2
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -134,7 +134,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-fe
 
 ## HARD_PASS
 
-- [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-king-edward-primary-school-nursery) — Insufficient admin/service evidence.
 - [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy) — Excluded senior/management title.
 - [Governance Professional (Senior Administrator)](https://teaching-vacancies.service.gov.uk/jobs/governance-professional-senior-administrator) — Excluded senior/management title.
 - [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice-carlton-academy) — No usable numeric salary.
