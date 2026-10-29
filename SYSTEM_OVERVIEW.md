@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 27 October 2026
+**Last updated:** 29 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 29 October 2026 — **Third fresh-day 50k technical test passed; production stays at 20k:** isolated run `40848659957` completed first attempt, including same-date coverage, regional Markdown/Excel and full build. [Dated assessment](docs/jobg8-third-day-assessment-2026-10-29.md) records receipt counts, evidence links and outstanding independent inventory/approval/Glasgow, HTTP deployment, function-size and archive checks. Friday 30 October is the proposed changeover target, conditional on these checks, supplier live-account/rollback arrangements and explicit owner approval. No production merge, switch, deployment, schedule or proposed selection-rule change is authorised by this record.
 
 - 27 October 2026 — **Clear hourly pay in advert text is no longer left blank:** Service Admin can display an explicit rate such as `12.71ph` when JobG8's structured salary fields are empty. Structured pay retains priority; no salary is added when the advert provides none. A focused regression test protects the extraction.
 
