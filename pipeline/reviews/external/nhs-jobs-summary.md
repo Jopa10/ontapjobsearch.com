@@ -14,6 +14,18 @@ Edit only each `action:` line for POSS rows. Unchanged decisions are restored by
 
 ---
 action:
+POSS | NHS Jobs | West Midlands - Black Country | Wolverhampton, WV1 1SH, Birmingham, B1 1TT | £39959.00 to £48117.00 | Quality Officer (Acute and Elective Care)
+source_job_id: 5692652
+title: Quality Officer (Acute and Elective Care)
+employer: Black Country Integrated Care Board
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9118-26-0077
+factual_fingerprint: dc52d3ddce477627e74a5a150c5cdba0ca5b45fb8a40a0409e4878ddf4a427a0
+---
+
+---
+action:
 POSS | NHS Jobs | Surrey | Guildford, GU2 7XX | £27106.00 to £28850.00 | Patient Administration Clerk
 source_job_id: 5693234
 title: Patient Administration Clerk
@@ -10030,18 +10042,6 @@ region: Yorkshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0579
 factual_fingerprint: 4259bc87593e4289efe47212f821753b3c721d337d94914ee9ad84d518799511
----
-
----
-action:
-POSS | NHS Jobs | Bristol & Bath | Bristol, BS10 5NB | £25760.00 to £27476.00 | Ward Coordinator - Co.Pilot
-source_job_id: 5680490
-title: Ward Coordinator - Co.Pilot
-employer: Bristol NHS Foundation Trust
-region: Bristol & Bath
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9339-26-1323
-factual_fingerprint: 2b10d5d430a614f87bff20c7f906b7a7a2c6bed00f1aa1044c31c0b67fe0b02b
 ---
 
 ---
