@@ -33,3 +33,51 @@ For source selections, 203 current-feed rows have a manual select/include marker
 ## Verdict
 
 NOT READY to promote the first tested patch: follow-up salary/seniority changes require a new same-input comparison and final advert/approval-exception review. Production stays at 20k. No main merge, deployment, supplier switch, activation, schedule change, job approval or email has occurred. After satisfactory validation, prepare a source-only candidate onto current main; never merge fixture or generated inventory branches. Separate HTTP/function-size/archive/supplier-account/rollback readiness and explicit owner release approval still apply for Friday.
+
+## Corrective run result and independent final audit — 29 October 2026
+
+Run [40893418259](https://github.com/Jopa10/ontapjobsearch.com/actions/runs/40893418259) passed all workflow steps on source `9fd67a6823a29406485f10f82471a8d075b57949`. Artifact `12911049472` was independently unpacked and compared with the unchanged baseline artifact `12893406332`. The XML SHA256 is identical to the baseline above; all 50,000 captured rows were reused.
+
+| Source | Baseline | Corrective test |
+|---|---:|---:|
+| JobG8 | 5,435 | 5,908 |
+| NHS Jobs | 357 | 382 |
+| Teaching Vacancies | 204 | 204 |
+| Total | 5,996 | 6,494 |
+
+JobG8: 476 added, three removed, net +473. Independent comparisons of source/title/company/location/description confirm all three removed IDs remain represented by the same canonical duplicate swaps documented above. All 25 conflicted IDs remain absent. The corrective run enriched 382/382 NHS adverts successfully, unlike the first changed run's source fallback; the NHS change is not a controlled selector-only comparison. NHS composition retains its source-share cap (one Cumbria North job deferred). The final build completed successfully.
+
+### Advert checks — concrete release blockers found
+
+The green workflow is NOT sufficient for promotion. Inspection of supplied descriptions and a scan of newly published jobs found these counterexamples:
+
+| Job ID | Title | Evidence / failure |
+|---|---|---|
+| 108218370 | Principal Database Administrator Fully Remote | Advert begins £80k–£90k and describes SQL Server/Azure/Cosmos database engineering and leading a production database estate. Newly INCLUDE_AUTOMATIC under generic administrator; salary remains missing. Both technical-role and numeric-pay safeguards have a gap. Baseline excluded for missing pay. |
+| 2102520 | Group Financial Controller | Board-level group reporting/consolidation, line management and professionally qualified accountant required; £50–60k FTE in description. Baseline DAILY_REVIEW becomes automatic with missing pay. |
+| 2114245 | Part time Financial Controller | ACA/ACCA/CIMA required and end-to-end statutory accounts; £65–70k FTE. Baseline DAILY_REVIEW becomes automatic with missing pay. Actual part-time earnings must not be invented from FTE. |
+| 2158017 | Financial Controller | Senior Leadership Team role, qualified accountant required, £42–46k FTE; baseline DAILY_REVIEW becomes automatic. Title-only seniority correction does not catch substantive senior duties without a senior/manager token. |
+| 2164943 | Payroll Analyst | Description £30.18ph rising to £39.55ph; requires degree or equivalent and payroll transformation/testing experience. Still missing pay and promoted from DAILY_REVIEW. Needs numeric parsing and specialist review, not an invented part-time annual salary. |
+| 23643_225721151 / 23643_225757250 | Warehouse Administrator — Nights | Both supplied descriptions explicitly require operating forklifts/heavy lifting equipment and prior heavy-material handling. Former warehouse hard exclusions become automatic; this exceeds ordinary office administration scope. |
+
+The original correction DOES work for `108206913`: report and canonical inventory show **£17.50–£19.00 per hour (Plus Holiday Pay)**, source description_fallback, annual upper £37,050. No weekly hours have been invented. The eight named senior part-time regressions (2101557, 2115678, 2115682, 2115685, 2115687, 2115700, 2163206, 2188775) now retain baseline DAILY_REVIEW and are absent from canonical inventory. However the controller counterexamples show the deferred-policy safeguard is incomplete.
+
+Positive supplied-advert examples: 23643_225171007 Engineering Administrator maintains document-control records/trackers; 23643_225686176 supports hospital engineering audit records and maintenance registers; 23643_225704936 Warehouse & Logistics Administrator processes orders, data entry, invoicing and scheduling; 23643_225755118 Engineering Sales Administrator prepares quotations and orders. 2187356 Transport Planning Administrator accepts administration/operations support experience, whereas 23643_225720033 Transport Planner/Administrator explicitly requires transport-planning expertise and remains a borderline specialist case. Import/export duties in 23643_225680093 are not an import/export title; do not silently widen the existing title-based prohibition.
+
+A diagnostic scan found 46 added IDs with blank displayed salary and at least one currency-number mention in the supplied description. This is NOT a count of 46 salary defects: some mentions are benefits, business figures or FTE and require interpretation. The definite £80k–£90k DBA example demonstrates the cap risk. Some adverts are supplier-truncated excerpts; no paid Apply URLs were clicked and no unavailable full text is claimed read.
+
+### Approval reconciliation
+
+There are 203 current-feed manual-select rows; 149 appear by exact JobG8 ID and 54 do not. All 54 also have EXCLUDE_AUTOMATIC in the original baseline: no newly lost exact-ID manual selections were identified. Current first-blocking reasons: 36 accountant/accountancy title exclusions, seven legal/paralegal, five Document Controller >£45k, two out-of-scope titles, one team-leader title, one IT service desk title, one salary >£50k, one unresolved town. Some IDs have conflicting title records; the earlier exceptions CSV is historical first-test evidence and must not be treated as an authoritative current title for a conflicted ID (e.g. 2055404 / 2055395 / 2055612). Conflict quarantine remains in force. No approvals or batch decisions were changed.
+
+Selector DAILY_REVIEW is 260: 88 already SELECTED, **172 POSSIBLE_SELECTION**. Cross-source master plan is separately 290 rows, one action, 289 withheld, zero unapplied and zero action-quarantine rows. Withholding is not a permanent exclusion.
+
+### Geography and regional reconciliation
+
+Derby rows now resolve to Derbyshire. No selected Service Admin rows occur in the 12 corrected-town non-LIVE markets, and none of the 11 held ambiguous town labels appears as an admitted selector row. A Thornaby Account Manager appears through Customer Sales on the existing North East route; Service Admin still excludes it, so this is cross-family routing, not activation of Tees Valley Service Admin.
+
+The saved regional report reconciles **6,494 unique jobs + 1,510 extra placements = 8,004 slice placements**; zero jobs outside governed slices and zero in non-LIVE slices. Glasgow retains 60 canonical JobG8 jobs across families. No activation register was changed by this audit.
+
+### Final audit verdict
+
+**NOT READY to promote this selector candidate.** The audit has found concrete numeric-description, specialist/qualified-finance and physical-warehouse exceptions despite a successful build. Preserve all captured inputs, baseline and current results. Repair narrowly within the approved safeguards and repeat the same-input comparison before preparing a release candidate; do not solve these by silently approving jobs or inventing policy. No source-only PR is prepared as release-ready from this result. Production remains 20k, and no main merge, deployment, supplier switch, market activation, schedule change, job approval or email occurred. Friday's separate expanded-feed release checks and explicit owner approval remain necessary.
