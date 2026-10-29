@@ -12,10 +12,10 @@ def test_blank_pay_is_allowed_without_becoming_a_review(title):
     assert 'blank' in jobs
     assert jobs['blank']['_review_required']==''
 
-def test_part_time_unknown_earnings_can_pass_when_otherwise_eligible():
+def test_senior_part_time_unknown_earnings_retains_existing_review():
     row=make_job('part','Senior Bookkeeper (Part Time)','','20 hours per week. Maintain ledgers.')
     jobs,_=run_rows([row])
-    assert jobs['part']['_review_required']==''
+    assert jobs['part']['_review_required']=='1'
 
 def test_non_numeric_pay_wording_not_treated_as_blank():
     assert not missing_owner_salary_should_exclude('Competitive',None)

@@ -10,6 +10,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 29 October 2026 — **First Service Admin comparison passed; corrective validation pending:** same-feed JobG8 inventory increased 5,435 to 5,917 (+482 net), with three removed IDs proved canonical duplicate swaps. All 25 conflicted metadata IDs remain quarantined. The first patch is not release-ready: follow-up checks recover numeric advert pay hidden by generic SalaryAdditional and preserve existing senior part-time reviews. NHS retained earlier approved state after description-fetch failures. See `docs/service-admin-selection-assessment-2026-10-29.md`; production is unchanged.
+
 - 29 October 2026 — **Service Admin audit changes under isolated test:** owner authorised broader ordinary admin/support title coverage, verified missing-town lookup additions and Derby correction, and permission for otherwise eligible jobs without numeric pay. Explicit non-numeric advert pay wording is retained. The comparison uses the exact captured 29 October XML and successful baseline run `40848659957`; no production merge, feed switch, deployment, email or senior/manager/Document Controller policy change is included. See `docs/service-admin-selection-changes-2026-10-29.md` for scope, held ambiguous mappings and test evidence.
 
 - 27 October 2026 — **Shared city/regional slugs checked during 50k reconciliation:** a city page could hide valid regional jobs from search and job-detail generation. The test-branch fix keeps the configured regional inventory when the city page uses derived data, while preserving established static regional pages. No production change or new selection approval is made.

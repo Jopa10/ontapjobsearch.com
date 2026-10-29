@@ -1249,11 +1249,19 @@ def build_salary_details(row: pd.Series) -> tuple[str, str]:
     additional = clean_salary_additional(row.get(COL["salary_additional"]))
 
     if not mn and not mx:
-        if additional:
+        # A numeric supplier amount retains priority, including a numeric
+        # SalaryAdditional value. Generic benefits/competitive wording must not
+        # conceal an explicit numeric rate in the advert.
+        additional_has_amount = bool(re.search(r"\d", additional))
+        if additional and additional_has_amount:
             return fix_encoding(additional), "structured"
         fallback = extract_salary_from_description(row.get(COL["description"]))
         if fallback:
+            if additional:
+                fallback = f"{fallback} ({additional})"
             return fallback, "description_fallback"
+        if additional:
+            return fix_encoding(additional), "structured"
         wording = extract_advertised_pay_wording(row.get(COL["description"]))
         if wording:
             return wording, "description_fallback"
@@ -2187,7 +2195,10 @@ def _process_batch(
             if part_time_active or missing_pay
             else owner_title_salary_rule(title, salary_assessment.annual_upper_gbp)
         )
-        if missing_pay and not (part_time_active and MANAGER_TITLE_RE.search(title)):
+        if missing_pay and not (
+            part_time_active
+            and re.search(r"\b(?:senior|manager|lead|leader|head|director|chief)\b", title, re.IGNORECASE)
+        ):
             salary_assessment = replace(
                 salary_assessment, status="ok",
                 reason="no numeric pay stated; otherwise eligible roles are permitted",

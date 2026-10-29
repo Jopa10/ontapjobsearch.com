@@ -34,3 +34,32 @@ def test_new_approved_register_contains_all_fixed_snapshot_titles():
     register=core.load_title_register()
     for title in ['Accounting Support Clerk','Project Support Officer - Bristol','Temporary Customer Operations Executive','Service Controller and Parts Controller']:
         assert core.classify_title(title,register)[0]=='HIGH_CONFIDENCE'
+
+
+@pytest.mark.parametrize('title,description,expected_included', [
+    ('Payroll Administrator','Pay £17.50-£19.00 per hour. Maintain payroll records.',True),
+    ('Administrator','Pay £60,000 per year. Maintain office records.',False),
+    ('Document Controller','Pay £46,000 per year. Maintain documents.',False),
+])
+def test_nonnumeric_additional_cannot_hide_numeric_description_pay(title,description,expected_included):
+    row=make_job('pay-extra',title,'',description)
+    row[core.COL['salary_additional']]='Plus Holiday Pay'
+    text,source=core.build_salary_details(pd.Series(row))
+    assert source=='description_fallback'
+    assert '(Plus Holiday Pay)' in text
+    jobs,reports=run_rows([row])
+    assert ('pay-extra' in jobs)==expected_included
+    assert reports['pay-extra']['annual_salary_upper']!=''
+
+
+def test_numeric_additional_retains_priority():
+    row=make_job('numeric-extra','Administrator','', 'Pay £60,000 per year.')
+    row[core.COL['salary_additional']]='£30,000 per year'
+    assert core.build_salary_details(pd.Series(row))==('£30,000 per year','structured')
+
+
+@pytest.mark.parametrize('title',['Senior Bookkeeper (Part Time)','Senior Payroll Administrator (Part Time)','Fractional Senior Financial Controller Part-Time','Finance Manager - Part Time','Finance Team Leader - Part Time'])
+def test_deferred_seniority_does_not_gain_auto_approval_from_missing_pay(title):
+    row=make_job('deferred',title,'','20 hours per week. Maintain finance and payroll records.')
+    jobs,reports=run_rows([row])
+    assert 'deferred' not in jobs or jobs['deferred']['_review_required']=='1'
