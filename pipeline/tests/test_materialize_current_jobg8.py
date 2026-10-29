@@ -39,7 +39,7 @@ class MaterializeCurrentJobG8Tests(unittest.TestCase):
             def fake_convert(source: Path, target: Path, minimum: int, maximum: int) -> int:
                 self.assertEqual(zip_path, source)
                 self.assertEqual(5000, minimum)
-                self.assertEqual(20000, maximum)
+                self.assertEqual(50000, maximum)
                 target.write_bytes(b"xlsx")
                 return 9876
 

@@ -68,7 +68,7 @@ class SalaryDescriptionFallbackTests(unittest.TestCase):
             core.extract_salary_from_description(
                 "Salary: £13,928.53 Hourly rate: £13.35 per hour rising to £13.66 per hour"
             ),
-            "£13.35 per hour",
+            "£13.35 per hour rising to £13.66 per hour",
         )
 
 

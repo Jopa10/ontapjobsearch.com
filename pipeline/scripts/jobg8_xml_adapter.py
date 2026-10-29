@@ -129,7 +129,7 @@ def main() -> None:
     parser.add_argument("--zip", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--expected-min", type=int, default=5000)
-    parser.add_argument("--expected-max", type=int, default=20000)
+    parser.add_argument("--expected-max", type=int, default=50000)
     args = parser.parse_args()
     convert(args.zip, args.output, args.expected_min, args.expected_max)
 

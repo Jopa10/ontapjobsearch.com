@@ -7,12 +7,12 @@ from pipeline.scripts.pipeline_refinement import missing_owner_salary_should_exc
 from pipeline.tests.test_service_admin_owner_selection_rules import make_job, run_rows
 
 @pytest.mark.parametrize('title', ['Administrator','Service Advisor','Document Controller','Receptionist','Finance Assistant'])
-def test_blank_pay_is_excluded_without_becoming_a_review(title):
+def test_blank_pay_is_allowed_without_becoming_a_review(title):
     jobs,reports=run_rows([make_job('blank',title,'','Office records and customer enquiries.')])
-    assert 'blank' not in jobs
-    assert 'Salary not stated' in reports['blank']['reason']
+    assert 'blank' in jobs
+    assert jobs['blank']['_review_required']==''
 
-def test_part_time_unknown_earnings_remains_review():
+def test_senior_part_time_unknown_earnings_retains_existing_review():
     row=make_job('part','Senior Bookkeeper (Part Time)','','20 hours per week. Maintain ledgers.')
     jobs,_=run_rows([row])
     assert jobs['part']['_review_required']=='1'

@@ -255,7 +255,7 @@ COMMON_OFFICE_ROLE_QUERY_GBP = 40_000
 
 IMPORT_EXPORT_TITLE_RE = re.compile(r"\b(?:import|export)\b", re.IGNORECASE)
 IT_SUPPORT_TITLE_RE = re.compile(
-    r"\b(?:it\s+support|it\s+help\s*desk|help\s*desk|service\s+desk\s+analyst|"
+    r"\b(?:database\s+administrator|systems?\s+administrator|it\s+support|it\s+help\s*desk|help\s*desk|service\s+desk\s+analyst|"
     r"product\s+support\s+analyst|software\s+(?:systems?\s+)?support|"
     r"sap\s+(?:systems?\s+)?support)\b",
     re.IGNORECASE,
@@ -381,6 +381,12 @@ ABSOLUTE_HARD_FAIL_PATTERNS = [
 HIGH_CONFIDENCE_PATTERNS = [
     "administrator", "admin assistant", "administration assistant", "administrative assistant",
     "office administrator", "office assistant", "office support", "clerical", "data entry",
+    "admin officer", "administration officer", "administrative officer",
+    "admin support officer", "administration support officer", "administrative support",
+    "admin clerk", "administration clerk", "office admin", "service admin",
+    "business support admin", "project admin support", "purchasing admin",
+    "customer support admin", "customer service support", "team assistant",
+    "medical reception", "reception cover", "secretarial",
     "receptionist", "front of house", "secretary", "personal secretary", "pa to",
     "customer service advisor", "customer service adviser", "customer service assistant",
     "customer service administrator", "customer support advisor", "client service advisor",
@@ -1174,7 +1180,39 @@ def extract_salary_from_description(raw_description: Any) -> str:
             return f"From £{amount_text} per year"
         return f"£{amount_text} per year"
 
+    # Recover annual salary headings without a period (including k shorthand).
+    # Currency, plausible annual amounts and a salary-shaped line are required;
+    # budgets, turnover, project values and small benefit amounts are not pay.
+    annual_amount = r"£\s*(?:\d{1,3}(?:,\d{3})+(?:\.\d{1,2})?|\d{5,6}(?:\.\d{1,2})?|\d{2,3}(?:\.\d{1,2})?k)(?![\w\d,.])"
+    annual_range = rf"{annual_amount}(?:\s*(?:-|–|—|to)\s*{annual_amount.replace('£', '£?')})?"
+    for line in cleaned.splitlines():
+        if re.search(r"\b(?:budget|turnover|revenue|project\s+value|portfolio|sales\s+target|OTE|on.target.earnings)\b", line, re.IGNORECASE):
+            continue
+        found = re.search(annual_range, line, re.IGNORECASE)
+        if not found:
+            continue
+        prefix = line[:found.start()].strip(" -:•")
+        suffix = line[found.end():].strip()
+        salary_cue = re.search(r"\b(?:salary|pay|remuneration)\b", prefix, re.IGNORECASE)
+        fte_cue = re.match(r"(?:FTE|pro[- ]?rata|full[- ]time equivalent)\b", suffix, re.IGNORECASE)
+        standalone = not prefix
+        if not (salary_cue or fte_cue or standalone):
+            continue
+        # Leave explicit monthly/daily/hourly phrases to the period-aware path.
+        if re.match(r"(?:per\s+(?:hour|hr|day|week|month)|p/?h|hourly|daily|weekly|monthly)\b", suffix, re.IGNORECASE):
+            continue
+        amounts = re.findall(r"([\d,]+(?:\.\d+)?)(k)?", found.group(), re.IGNORECASE)
+        values = [float(n.replace(',', '')) * (1000 if k else 1) for n,k in amounts]
+        if not all(10_000 <= n <= 1_000_000 for n in values):
+            continue
+        phrase = " - ".join(f"£{n:,.2f}".rstrip('0').rstrip('.') for n in values)
+        basis = f" ({fte_cue.group(0)})" if fte_cue else ""
+        return f"{phrase} per year{basis}"
+
     text = re.sub(r"\s+", " ", cleaned).strip()
+    # No word boundary exists between a numeric rate and 'ph'. Normalise the
+    # tightly scoped currency-rate shorthand before the existing phrase parser.
+    text = re.sub(r"(£\s*\d[\d,.]*)\s*(?:ph|p/h)\b", r"\1 per hour", text, flags=re.IGNORECASE)
     if not text:
         return ""
 
@@ -1183,7 +1221,7 @@ def extract_salary_from_description(raw_description: Any) -> str:
     # unrelated bare numbers and pH measurements are not salary evidence.
     if "£" not in text:
         unmarked_hourly = re.search(
-            r"(?<![\w£])(?P<rate>\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)\s*(?:ph|PH)\b",
+            r"(?<![\w£])(?P<rate>\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)\s*(?:ph|PH|per\s+hour|per\s+hr)\b",
             text,
         )
         if not unmarked_hourly:
@@ -1192,7 +1230,7 @@ def extract_salary_from_description(raw_description: Any) -> str:
         return f"£{rate} per hour"
 
     amount = r"£\s*\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?"
-    range_amount = rf"{amount}(?:\s*(?:-|–|—|to)\s*{amount})?"
+    range_amount = rf"{amount}(?:\s*(?:-|–|—|to)\s*{amount.replace('£', '£?')})?"
     period = (
         r"(?:"
         r"per\s+(?:hour|hr|annum|year|sleep[- ]?in|shift|week|month|day)"
@@ -1203,7 +1241,8 @@ def extract_salary_from_description(raw_description: Any) -> str:
         r")"
     )
     salary_phrase = rf"{range_amount}\s*(?:{period})"
-    chained_salary_phrase = rf"{salary_phrase}(?:\s*(?:\+|and|plus)\s*{salary_phrase})*"
+    step = r"(?:[^£.!?]{0,60}\b)?(?:increasing|rising)\s+to"
+    chained_salary_phrase = rf"{salary_phrase}(?:\s*(?:\+|and|plus|{step})\s*{salary_phrase})*"
 
     match = re.search(chained_salary_phrase, text, flags=re.IGNORECASE)
     if not match:
@@ -1212,6 +1251,7 @@ def extract_salary_from_description(raw_description: Any) -> str:
     extracted = match.group(0).strip(" .;,:")
     extracted = re.sub(r"\s+", " ", extracted)
     extracted = re.sub(r"£\s+", "£", extracted)
+    extracted = re.sub(r"((?:-|–|—|to)\s*)(\d[\d,.]*)", r"\1£\2", extracted)
     extracted = re.sub(r"\bph\b", "per hour", extracted, flags=re.IGNORECASE)
     extracted = re.sub(r"\bp/h\b", "per hour", extracted, flags=re.IGNORECASE)
     extracted = re.sub(r"\bannually\b", "per year", extracted, flags=re.IGNORECASE)
@@ -1227,6 +1267,14 @@ def extract_salary_from_description(raw_description: Any) -> str:
 
     return fix_encoding(extracted)
 
+def extract_advertised_pay_wording(raw_description: Any) -> str:
+    """Only explicit pay phrases count; competitive workplace/benefits do not."""
+    text = re.sub(r"\s+", " ", clean_description(raw_description))
+    wording = r"(?:competitive(?:\s*,?\s*(?:depending|dependent)\s+on\s+experience)?|DOE|negotiable|depending\s+on\s+experience|dependent\s+on\s+experience|commensurate\s+with\s+experience)"
+    match = re.search(rf"\b(?:salary|pay|rate|remuneration)\s*[:\-]?\s*({wording})\b|\b({wording})\s+(?:salary|pay|rate|remuneration)\b", text, re.IGNORECASE)
+    return (match.group(1) or match.group(2)).strip() if match else ""
+
+
 def build_salary_details(row: pd.Series) -> tuple[str, str]:
     """Return deterministic salary_text plus source marker for decision-report QA."""
     mn = format_number(row.get(COL["salary_min"]))
@@ -1235,11 +1283,22 @@ def build_salary_details(row: pd.Series) -> tuple[str, str]:
     additional = clean_salary_additional(row.get(COL["salary_additional"]))
 
     if not mn and not mx:
-        if additional:
+        # A numeric supplier amount retains priority, including a numeric
+        # SalaryAdditional value. Generic benefits/competitive wording must not
+        # conceal an explicit numeric rate in the advert.
+        additional_has_amount = bool(re.search(r"\d", additional))
+        if additional and additional_has_amount:
             return fix_encoding(additional), "structured"
         fallback = extract_salary_from_description(row.get(COL["description"]))
         if fallback:
+            if additional:
+                fallback = f"{fallback} ({additional})"
             return fallback, "description_fallback"
+        if additional:
+            return fix_encoding(additional), "structured"
+        wording = extract_advertised_pay_wording(row.get(COL["description"]))
+        if wording:
+            return wording, "description_fallback"
         return "", "missing"
 
     period_text = ""
@@ -1718,6 +1777,37 @@ def assess_practical_role_qualifications(title: str, description: Any) -> tuple[
     return "review", "qualification wording is present but not confidently interpretable"
 
 
+def assess_admin_duties(title: str, description: Any) -> tuple[str, str]:
+    """Keep the widened title/missing-pay paths inside ordinary office work."""
+    text = clean_description(description)
+    if re.search(r"\bwarehouse\b", title, re.IGNORECASE) and re.search(
+        r"\b(?:operate|operating|operation\s+of)\s+(?:a\s+|the\s+)?(?:fork[- ]?lifts?|heavy\s+lifting\s+equipment)\b"
+        r"|\b(?:fork[- ]?lift|FLT)\s+(?:licen[cs]e|certificat\w*)\s+(?:is\s+)?(?:required|essential)\b",
+        text, re.IGNORECASE,
+    ):
+        return "exclude", "warehouse advert requires forklift/heavy-equipment operation"
+    if not FINANCE_PART_TIME_TITLE_RE.search(title):
+        return "ok", ""
+    # Required professional accountancy is not made ordinary admin work by a
+    # payroll/finance title or a part-time label. Preferred/study-only wording
+    # remains a review case rather than an automatic exclusion.
+    for sentence in re.split(r"[\n.!?]+", text):
+        professional = re.search(r"\b(?:ACA|ACCA|CIMA)\b|\bprofessionally\s+qualified\s+accountant\b", sentence, re.IGNORECASE)
+        if not professional:
+            continue
+        if re.search(r"\b(?:not\s+(?:required|essential)|no\s+requirement|preferred|desirable|advantageous|working\s+towards|study\s+support|part[- ]qualified)\b", sentence, re.IGNORECASE):
+            return "review", "professional accountancy qualification wording needs review"
+        if re.search(r"\b(?:qualified|required|essential|must|mandatory|need|looking\s+for)\b", sentence, re.IGNORECASE):
+            return "exclude", "advert requires a professionally qualified accountant (ACA/ACCA/CIMA)"
+    if re.search(r"\bfinancial\s+controller\b", title, re.IGNORECASE):
+        return "review", "financial controller duties need specialist/seniority review"
+    if re.search(r"\b(?:payroll|finance|financial)\s+analyst\b", title, re.IGNORECASE) and re.search(
+        r"\b(?:degree|transformation|system\s+integrat\w*|statutory\s+accounts)\b", text, re.IGNORECASE
+    ):
+        return "review", "specialist finance/payroll analyst duties need review"
+    return "ok", ""
+
+
 def absolute_hard_fail_hits(title_key: str) -> list[str]:
     """Return owner-directed hard-fail patterns, preserving the FNOL exception."""
     hits = [
@@ -1939,6 +2029,8 @@ def classify_title(title: str, title_register: dict[str, dict[str, str]] | None 
         # titles above.  Other hard rules (for example ``senior`` or
         # ``manager``) remain fully effective.
         hard_hits = [hit for hit in hard_hits if hit not in {"legal", "payroll"}]
+    if re.search(r"\b(?:administrator|administration assistant|admin assistant|admin clerk)\b", title_key):
+        hard_hits = [hit for hit in hard_hits if hit not in {"warehouse", "engineer", "transport", "manufacturing"}]
     if hard_hits:
         classification = "HARD_PASS"
         return classification, "hard pass title pattern: " + ", ".join(hard_hits), CLASSIFICATION_PRIORITY[classification], "STABLE"
@@ -2113,6 +2205,7 @@ def _process_batch(
             family="admin_service",
             reviewed_ceiling_gbp=reviewed_salary_ceiling,
         )
+        missing_pay = salary_assessment.status == "missing"
         part_time_inputs = {
             "title": title,
             "employment_type": employment_type,
@@ -2164,16 +2257,17 @@ def _process_batch(
                 title_classification_reason = "explicit part-time finance role rule"
         owner_salary_status, owner_salary_reason, owner_salary_hard_fail = (
             (None, None, None)
-            if part_time_active
+            if part_time_active or missing_pay
             else owner_title_salary_rule(title, salary_assessment.annual_upper_gbp)
         )
-        if owner_salary_status and missing_owner_salary_should_exclude(
-            salary_text_preview, salary_assessment.annual_upper_gbp,
-            part_time_finance=part_time_active,
+        if missing_pay and not (
+            part_time_active
+            and re.search(r"\b(?:senior|manager|lead|leader|head|director|chief|analyst)\b", title, re.IGNORECASE)
         ):
-            owner_salary_status = "exclude"
-            owner_salary_reason = None
-            owner_salary_hard_fail = "Salary not stated: owner rule excludes blank pay"
+            salary_assessment = replace(
+                salary_assessment, status="ok",
+                reason="no numeric pay stated; otherwise eligible roles are permitted",
+            )
         if owner_salary_status:
             owner_threshold = (
                 DOCUMENT_CONTROLLER_QUERY_GBP
@@ -2237,6 +2331,14 @@ def _process_batch(
             drop(reason, region)
             continue
 
+        duties_status, duties_reason = assess_admin_duties(title, raw_description)
+        if duties_status == "exclude":
+            drop("duties safeguard: " + duties_reason, region)
+            continue
+        if duties_status == "review":
+            review_required = True
+            review_reasons.append(duties_reason)
+
         context_assessment = assess_context_policy(context_policy, raw_description)
         context_status = context_assessment.status
         context_reason = context_assessment.reason
@@ -2257,14 +2359,6 @@ def _process_batch(
         if qualification_status == "review":
             review_required = True
             review_reasons.append(qualification_reason)
-
-        if (
-            is_practical_role_title(title)
-            and salary_assessment.status in {"missing", "unassessed"}
-            and NON_NUMERIC_SALARY_RE.search(salary_text_preview)
-        ):
-            review_required = True
-            review_reasons.append("non-numeric salary wording requires daily review")
 
         if title_classification == "REVIEW_CONTEXT_DEPENDENT":
             if context_policy and context_assessment.status == "ok":
@@ -2801,7 +2895,7 @@ def write_manual_review_csv(
 def _markdown_review_rows(rows: list[dict[str, Any]], region: str, selection_status: str) -> list[dict[str, Any]]:
     return [
         row for row in rows
-        if str(row.get("region", "")) == region
+        if COMBINED_OUTPUT_REGION_MAP.get(str(row.get("region", "")), str(row.get("region", ""))) == region
         and str(row.get("selection_status", "")) == selection_status
     ]
 
