@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-28
+feed_date: 2026-10-29
 
 Edit only the `action:` line in each block:
 
@@ -37,13 +37,23 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Corbridge | £14.2
 job_id: 23643_225715797
 ---
 
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | £95 - £100 per daily | Support Worker
+job_id: 23643_225772927
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NE - Tyneside/Wearside/N'land | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £13.6 - £17.43 per hour | Housing Support Worker
+job_id: 23643_225744992
+---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
@@ -137,26 +147,20 @@ job_id: 23643_225750767
 
 ---
 action:
-SELECTED | Sussex | Pulborough | £12.71 - £14.45 per hour (Salary starts at £12.71 and increases t) | Female Waking Night Support Worker Pulborough
-job_id: 108179728
----
-
----
-action:
 SELECTED | Sussex | Sussex | £13.21 per hour | Night Care Assistant
 job_id: 23643_225751206
 ---
 
 ---
 action:
-SELECTED | Sussex | Hailsham | £13.39 per hour | Care Assistant
-job_id: 23643_225761986
+SELECTED | Sussex | Brighton | £27976 per year | Female Refuge Support Worker with LGBTQ+ Specialism
+job_id: 23643_225754126
 ---
 
 ---
 action:
-SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225718800
+SELECTED | Sussex | Hailsham | £13.39 per hour | Care Assistant
+job_id: 23643_225761986
 ---
 
 ---
@@ -304,12 +308,6 @@ job_id: 1401785886
 ---
 
 ## KENT — SELECTED
-
----
-action:
-SELECTED | Kent | Ashford | £15 - £18 per hour | Family Support Worker/Ashford, Kent/GBP15-18p/h
-job_id: 23643_225669052
----
 
 ---
 action:
@@ -609,18 +607,6 @@ job_id: 23643_225762327
 action:
 SELECTED | London | City | £21694 - £23232 per year | Support Worker
 job_id: 23643_225728754
----
-
----
-action:
-SELECTED | London | Hackney | £16,686 per annum | Carers Support Worker - Benefits & Entitlements
-job_id: 2196200
----
-
----
-action:
-SELECTED | London | City | £14.5 - £16 per hour (month) | Learning Disability Support Worker
-job_id: 23643_225771551
 ---
 
 ---
