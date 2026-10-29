@@ -81,3 +81,17 @@ The saved regional report reconciles **6,494 unique jobs + 1,510 extra placement
 ### Final audit verdict
 
 **NOT READY to promote this selector candidate.** The audit has found concrete numeric-description, specialist/qualified-finance and physical-warehouse exceptions despite a successful build. Preserve all captured inputs, baseline and current results. Repair narrowly within the approved safeguards and repeat the same-input comparison before preparing a release candidate; do not solve these by silently approving jobs or inventing policy. No source-only PR is prepared as release-ready from this result. Production remains 20k, and no main merge, deployment, supplier switch, market activation, schedule change, job approval or email occurred. Friday's separate expanded-feed release checks and explicit owner approval remain necessary.
+
+
+
+## Owner-authorised safeguard repair — 29 October 2026
+
+After the final advert audit, the owner authorised fixing item 1; approval/geography findings require no change. The isolated follow-up changes only Service Admin source safeguards/tests and canonical documentation:
+
+- Recover explicit salary headings such as £80k–£90k, £27,000 plus benefits and FTE ranges; retain FTE/pro-rata basis. Recover £30.18ph increasing to £39.55ph, including intervening umbrella-basis wording, and use both rates for upper-pay checks. Currencyless acidity pH, benefit amounts and stated business budgets are counterexamples, not salary. Existing numeric structured pay and additional wording keep priority.
+- Treat database/system administrator titles as technical IT work. Mandatory professionally qualified accountant (ACA/ACCA/CIMA) duties cannot pass through a part-time finance title. Financial Controller and specialist finance/payroll analyst duties retain review where not already excluded by pay/qualification safeguards. Ordinary AAT, payroll and credit-control office duties stay eligible, including missing pay.
+- Warehouse-title exceptions do not admit adverts explicitly requiring forklift/heavy-equipment operation; ordinary stock records, order processing and liaison with forklift drivers still pass.
+
+Validation before submission: 96 targeted title/pay/geography/duties checks passed, plus 33 importer/quarantine/North East/review-isolation checks. The seven concrete bad examples from the saved corrective artifact are all excluded when replayed through the patched selector; the Engineering Administrator, Warehouse & Logistics Administrator and Payroll Administrator counterexamples remain automatic. Payroll Administrator 108206913 retains £17.50–£19.00/hour (Plus Holiday Pay), annual upper £37,050. Payroll Analyst 2164943 now retains both £30.18 and £39.55 hourly rates; normal full-week annual upper is £77,122.50, not invented actual part-time earnings.
+
+The local replay uses unchanged advert contents with a fixed known LIVE test town to isolate title/pay/duties behaviour; it is not a final published count or geography comparison. Full comparison must use the unchanged captured XML and original successful baseline via the existing isolated workflow. No new owner approvals, geo/register changes, production changes, deployment or supplier access are included. The last 5,908 JobG8 result remains evidence for the previous source, not a result for this repair. Release readiness remains pending the new full run and artifact audit.

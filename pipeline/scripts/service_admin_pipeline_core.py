@@ -255,7 +255,7 @@ COMMON_OFFICE_ROLE_QUERY_GBP = 40_000
 
 IMPORT_EXPORT_TITLE_RE = re.compile(r"\b(?:import|export)\b", re.IGNORECASE)
 IT_SUPPORT_TITLE_RE = re.compile(
-    r"\b(?:it\s+support|it\s+help\s*desk|help\s*desk|service\s+desk\s+analyst|"
+    r"\b(?:database\s+administrator|systems?\s+administrator|it\s+support|it\s+help\s*desk|help\s*desk|service\s+desk\s+analyst|"
     r"product\s+support\s+analyst|software\s+(?:systems?\s+)?support|"
     r"sap\s+(?:systems?\s+)?support)\b",
     re.IGNORECASE,
@@ -1180,7 +1180,39 @@ def extract_salary_from_description(raw_description: Any) -> str:
             return f"From £{amount_text} per year"
         return f"£{amount_text} per year"
 
+    # Recover annual salary headings without a period (including k shorthand).
+    # Currency, plausible annual amounts and a salary-shaped line are required;
+    # budgets, turnover, project values and small benefit amounts are not pay.
+    annual_amount = r"£\s*(?:\d{1,3}(?:,\d{3})+(?:\.\d{1,2})?|\d{5,6}(?:\.\d{1,2})?|\d{2,3}(?:\.\d{1,2})?k)(?![\w\d,.])"
+    annual_range = rf"{annual_amount}(?:\s*(?:-|–|—|to)\s*{annual_amount.replace('£', '£?')})?"
+    for line in cleaned.splitlines():
+        if re.search(r"\b(?:budget|turnover|revenue|project\s+value|portfolio|sales\s+target|OTE|on.target.earnings)\b", line, re.IGNORECASE):
+            continue
+        found = re.search(annual_range, line, re.IGNORECASE)
+        if not found:
+            continue
+        prefix = line[:found.start()].strip(" -:•")
+        suffix = line[found.end():].strip()
+        salary_cue = re.search(r"\b(?:salary|pay|remuneration)\b", prefix, re.IGNORECASE)
+        fte_cue = re.match(r"(?:FTE|pro[- ]?rata|full[- ]time equivalent)\b", suffix, re.IGNORECASE)
+        standalone = not prefix
+        if not (salary_cue or fte_cue or standalone):
+            continue
+        # Leave explicit monthly/daily/hourly phrases to the period-aware path.
+        if re.match(r"(?:per\s+(?:hour|hr|day|week|month)|p/?h|hourly|daily|weekly|monthly)\b", suffix, re.IGNORECASE):
+            continue
+        amounts = re.findall(r"([\d,]+(?:\.\d+)?)(k)?", found.group(), re.IGNORECASE)
+        values = [float(n.replace(',', '')) * (1000 if k else 1) for n,k in amounts]
+        if not all(10_000 <= n <= 1_000_000 for n in values):
+            continue
+        phrase = " - ".join(f"£{n:,.2f}".rstrip('0').rstrip('.') for n in values)
+        basis = f" ({fte_cue.group(0)})" if fte_cue else ""
+        return f"{phrase} per year{basis}"
+
     text = re.sub(r"\s+", " ", cleaned).strip()
+    # No word boundary exists between a numeric rate and 'ph'. Normalise the
+    # tightly scoped currency-rate shorthand before the existing phrase parser.
+    text = re.sub(r"(£\s*\d[\d,.]*)\s*(?:ph|p/h)\b", r"\1 per hour", text, flags=re.IGNORECASE)
     if not text:
         return ""
 
@@ -1198,7 +1230,7 @@ def extract_salary_from_description(raw_description: Any) -> str:
         return f"£{rate} per hour"
 
     amount = r"£\s*\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?"
-    range_amount = rf"{amount}(?:\s*(?:-|–|—|to)\s*{amount})?"
+    range_amount = rf"{amount}(?:\s*(?:-|–|—|to)\s*{amount.replace('£', '£?')})?"
     period = (
         r"(?:"
         r"per\s+(?:hour|hr|annum|year|sleep[- ]?in|shift|week|month|day)"
@@ -1209,7 +1241,8 @@ def extract_salary_from_description(raw_description: Any) -> str:
         r")"
     )
     salary_phrase = rf"{range_amount}\s*(?:{period})"
-    chained_salary_phrase = rf"{salary_phrase}(?:\s*(?:\+|and|plus)\s*{salary_phrase})*"
+    step = r"(?:[^£.!?]{0,60}\b)?(?:increasing|rising)\s+to"
+    chained_salary_phrase = rf"{salary_phrase}(?:\s*(?:\+|and|plus|{step})\s*{salary_phrase})*"
 
     match = re.search(chained_salary_phrase, text, flags=re.IGNORECASE)
     if not match:
@@ -1218,6 +1251,7 @@ def extract_salary_from_description(raw_description: Any) -> str:
     extracted = match.group(0).strip(" .;,:")
     extracted = re.sub(r"\s+", " ", extracted)
     extracted = re.sub(r"£\s+", "£", extracted)
+    extracted = re.sub(r"((?:-|–|—|to)\s*)(\d[\d,.]*)", r"\1£\2", extracted)
     extracted = re.sub(r"\bph\b", "per hour", extracted, flags=re.IGNORECASE)
     extracted = re.sub(r"\bp/h\b", "per hour", extracted, flags=re.IGNORECASE)
     extracted = re.sub(r"\bannually\b", "per year", extracted, flags=re.IGNORECASE)
@@ -1743,6 +1777,37 @@ def assess_practical_role_qualifications(title: str, description: Any) -> tuple[
     return "review", "qualification wording is present but not confidently interpretable"
 
 
+def assess_admin_duties(title: str, description: Any) -> tuple[str, str]:
+    """Keep the widened title/missing-pay paths inside ordinary office work."""
+    text = clean_description(description)
+    if re.search(r"\bwarehouse\b", title, re.IGNORECASE) and re.search(
+        r"\b(?:operate|operating|operation\s+of)\s+(?:a\s+|the\s+)?(?:fork[- ]?lifts?|heavy\s+lifting\s+equipment)\b"
+        r"|\b(?:fork[- ]?lift|FLT)\s+(?:licen[cs]e|certificat\w*)\s+(?:is\s+)?(?:required|essential)\b",
+        text, re.IGNORECASE,
+    ):
+        return "exclude", "warehouse advert requires forklift/heavy-equipment operation"
+    if not FINANCE_PART_TIME_TITLE_RE.search(title):
+        return "ok", ""
+    # Required professional accountancy is not made ordinary admin work by a
+    # payroll/finance title or a part-time label. Preferred/study-only wording
+    # remains a review case rather than an automatic exclusion.
+    for sentence in re.split(r"[\n.!?]+", text):
+        professional = re.search(r"\b(?:ACA|ACCA|CIMA)\b|\bprofessionally\s+qualified\s+accountant\b", sentence, re.IGNORECASE)
+        if not professional:
+            continue
+        if re.search(r"\b(?:not\s+(?:required|essential)|no\s+requirement|preferred|desirable|advantageous|working\s+towards|study\s+support|part[- ]qualified)\b", sentence, re.IGNORECASE):
+            return "review", "professional accountancy qualification wording needs review"
+        if re.search(r"\b(?:qualified|required|essential|must|mandatory|need|looking\s+for)\b", sentence, re.IGNORECASE):
+            return "exclude", "advert requires a professionally qualified accountant (ACA/ACCA/CIMA)"
+    if re.search(r"\bfinancial\s+controller\b", title, re.IGNORECASE):
+        return "review", "financial controller duties need specialist/seniority review"
+    if re.search(r"\b(?:payroll|finance|financial)\s+analyst\b", title, re.IGNORECASE) and re.search(
+        r"\b(?:degree|transformation|system\s+integrat\w*|statutory\s+accounts)\b", text, re.IGNORECASE
+    ):
+        return "review", "specialist finance/payroll analyst duties need review"
+    return "ok", ""
+
+
 def absolute_hard_fail_hits(title_key: str) -> list[str]:
     """Return owner-directed hard-fail patterns, preserving the FNOL exception."""
     hits = [
@@ -2197,7 +2262,7 @@ def _process_batch(
         )
         if missing_pay and not (
             part_time_active
-            and re.search(r"\b(?:senior|manager|lead|leader|head|director|chief)\b", title, re.IGNORECASE)
+            and re.search(r"\b(?:senior|manager|lead|leader|head|director|chief|analyst)\b", title, re.IGNORECASE)
         ):
             salary_assessment = replace(
                 salary_assessment, status="ok",
@@ -2265,6 +2330,14 @@ def _process_batch(
             )
             drop(reason, region)
             continue
+
+        duties_status, duties_reason = assess_admin_duties(title, raw_description)
+        if duties_status == "exclude":
+            drop("duties safeguard: " + duties_reason, region)
+            continue
+        if duties_status == "review":
+            review_required = True
+            review_reasons.append(duties_reason)
 
         context_assessment = assess_context_policy(context_policy, raw_description)
         context_status = context_assessment.status

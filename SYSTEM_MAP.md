@@ -12,6 +12,9 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 29 October 2026 — **Further Service Admin safeguards under isolated test:** advert audit found missing salary shorthand, qualified financial-controller work and forklift duties hidden by admin titles. The follow-up recovers explicit annual/k and stepped hourly pay, blocks technical database/system administration and mandatory qualified-accountant/forklift duties, and retains specialist finance review. Ordinary missing-pay office support remains eligible. A new same-captured-feed comparison is required; production is unchanged. See `docs/service-admin-selection-assessment-2026-10-29.md`.
+
+
 - 29 October 2026 — **First Service Admin comparison passed; corrective validation pending:** same-feed JobG8 inventory increased 5,435 to 5,917 (+482 net), with three removed IDs proved canonical duplicate swaps. All 25 conflicted metadata IDs remain quarantined. The first patch is not release-ready: follow-up checks recover numeric advert pay hidden by generic SalaryAdditional and preserve existing senior part-time reviews. NHS retained earlier approved state after description-fetch failures. See `docs/service-admin-selection-assessment-2026-10-29.md`; production is unchanged.
 
 - 29 October 2026 — **Service Admin audit changes under isolated test:** owner authorised broader ordinary admin/support title coverage, verified missing-town lookup additions and Derby correction, and permission for otherwise eligible jobs without numeric pay. Explicit non-numeric advert pay wording is retained. The comparison uses the exact captured 29 October XML and successful baseline run `40848659957`; no production merge, feed switch, deployment, email or senior/manager/Document Controller policy change is included. See `docs/service-admin-selection-changes-2026-10-29.md` for scope, held ambiguous mappings and test evidence.
