@@ -3,7 +3,7 @@ Total output lines: 420
 
 # Ontap System Map
 
-**Last updated:** 27 October 2026
+**Last updated:** 29 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -11,6 +11,8 @@ Total output lines: 420
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 29 October 2026 — **Third fresh-day 50k technical test passed; production stays at 20k:** isolated run `40848659957` completed first attempt, including same-date coverage, regional Markdown/Excel and full build. [Dated assessment](docs/jobg8-third-day-assessment-2026-10-29.md) records receipt counts, evidence links and outstanding independent inventory/approval/Glasgow, HTTP deployment, function-size and archive checks. Friday 30 October is the proposed changeover target, conditional on these checks, supplier live-account/rollback arrangements and explicit owner approval. No production merge, switch, deployment, schedule or proposed selection-rule change is authorised by this record.
 
 - 27 October 2026 — **Service Admin recovers clear currencyless hourly pay:** when structured JobG8 salary fields are empty, the existing description fallback recognises explicit `12.71ph` rates as pounds per hour. Structured feed values keep precedence; unrelated bare numbers and adverts with no salary remain blank. The raw feed is not modified.
 
