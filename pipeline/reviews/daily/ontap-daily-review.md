@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-10-29
-generated_at: 2026-10-29T14:33:58+00:00
+generated_at: 2026-10-29T18:01:50+00:00
 
-**126 job(s) await a human decision; 2 already answered (128 review rows).**
+**136 job(s) await a human decision; 2 already answered (138 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-10-29 | 51 | — |
+| JobG8 | OK | 2026-10-29 | 61 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-10-29 | 1 | — |
 | Teaching Vacancies | OK | 2026-10-29 | 76 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 51 to review
+## JobG8 — 61 to review
 
 ---
 action:
@@ -47,6 +47,42 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: part-time earnings are unclear
 source_url: 
 hub_fingerprint: 8805e719930dc50243b2646f5b5ea7b20b978ac78a6e74a83f19c6296213436d
+---
+
+---
+action:
+POSS | JobG8 | Dorset | Dorset | £40000 - £45000 per year | Document Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2171614
+title: Document Administrator
+employer: 
+location: Dorset
+region: Dorset
+salary: £40000 - £45000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
+source_url: 
+hub_fingerprint: fdf5a8c03648655232b97a826dde2e9c1aac6955971fa3065b58d7d75faade5e
+---
+
+---
+action:
+POSS | JobG8 | Dorset | Dorset | £45000 - £50000 per year | Payroll Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225776624
+title: Payroll Manager
+employer: 
+location: Dorset
+region: Dorset
+salary: £45000 - £50000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
+source_url: 
+hub_fingerprint: e94c8b3e2f6db787efde4d1b61468fdaa059cbee1a6c1e944b9b564f4fd99c44
 ---
 
 ---
@@ -285,6 +321,24 @@ hub_fingerprint: 301b42c347fd84bc78618a5b53f5e69c8146e1d550a0f2b2ec631e0b629f35c
 
 ---
 action:
+POSS | JobG8 | Kent | Kent | £35000 - £38000 per year | Purchasing & Supply Planning Coordinator Canterbury £38k
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225775622
+title: Purchasing & Supply Planning Coordinator Canterbury £38k
+employer: 
+location: Kent
+region: Kent
+salary: £35000 - £38000 per year
+closing_date: 
+reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £38,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: e13f6c7bf30bbfb9c5b7b1ef250a7215db4b2aeac2d898707a8ea22fdbd0cb5d
+---
+
+---
+action:
 POSS | JobG8 | Kent | Kent | £35000 - £42000 per year | Service Coordinator
 source_key: jobg8
 source: JobG8
@@ -299,6 +353,42 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: service coordinator; manual review required: annualised upper salary £42,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: d7e3c34239253d16f85c588afc09a248ace05bd49d640c6c570cdd5a6267b283
+---
+
+---
+action:
+POSS | JobG8 | Kent | Kent | £30000 - £40000 per year (Excellent Benefits Package) | Training and HR Co-ordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225775730
+title: Training and HR Co-ordinator
+employer: 
+location: Kent
+region: Kent
+salary: £30000 - £40000 per year (Excellent Benefits Package)
+closing_date: 
+reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: co-ordinator; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 5592b036e4c50555166c2263ba18a965217af9b2cd5c3dedad149fbe85429256
+---
+
+---
+action:
+POSS | JobG8 | London | Barnet | £20.64 per hour | Repairs Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225776568
+title: Repairs Administrator
+employer: 
+location: Barnet
+region: London
+salary: £20.64 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
+source_url: 
+hub_fingerprint: dd8cac042004465e21ea2867f402d8ff9fbb29616fd78388073b7e99ca4c6b0c
 ---
 
 ---
@@ -357,6 +447,24 @@ hub_fingerprint: ce095cc878c03bd3dbfd7ecb0f25ced1519c6f0fa2e19e9146e2fa3eb768a98
 
 ---
 action:
+POSS | JobG8 | London | London | — | Assistant Finance Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225775844
+title: Assistant Finance Manager
+employer: 
+location: London
+region: London
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 9a2208d62f12d15f25d640920374aae2c804bd3546d3985f7b3f18666b68df1b
+---
+
+---
+action:
 POSS | JobG8 | London | London | £50000 per year | Executive Assistant
 source_key: jobg8
 source: JobG8
@@ -371,6 +479,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - Owner-reviewed adverts confirm corporate executive office support; manual review required: description appears to make specialist qualifications or substantial prior experience mandatory; annualised upper salary £50,000 exceeds regional review point £42,000
 source_url: 
 hub_fingerprint: 9c5ebaa68b0501f254cecb7269f3a1fc644103cf2e78e4b62964a46c13f3a627
+---
+
+---
+action:
+POSS | JobG8 | London | London | — | Finance Officer
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2202275
+title: Finance Officer
+employer: 
+location: London
+region: London
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - owner-approved ordinary office role; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 4ae1ed97b23ef4f35260402e6dc050da27373300fa2cfec051db309bcb2e2349
 ---
 
 ---
@@ -425,6 +551,24 @@ closing_date:
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £44,850 exceeds regional review point £42,000
 source_url: 
 hub_fingerprint: e4bd9373dad7ac871cd3c7723a9d22afba8e9c8c03a11890c615b4a31f9f926f
+---
+
+---
+action:
+POSS | JobG8 | Merseyside - Liverpool | Liverpool | — | Payroll Officer
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2203331
+title: Payroll Officer
+employer: 
+location: Liverpool
+region: Merseyside - Liverpool
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 5d731c7bfa9d07c5176a2751daeb22ac5a3084076222780ade09ae4f32c680fc
 ---
 
 ---
@@ -623,6 +767,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
 source_url: 
 hub_fingerprint: 82672ee82505bedca99e6b756bbe60361997f26a355f6b56356625b1f3bc01e1
+---
+
+---
+action:
+POSS | JobG8 | Oxfordshire | Oxfordshire | £16.41 per hour | Receptionist/Office Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225777121
+title: Receptionist/Office Manager
+employer: 
+location: Oxfordshire
+region: Oxfordshire
+salary: £16.41 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 33b415c868b608885df0b8cc89bb58bb28c86a9bc20e957b63014c99af8879b6
 ---
 
 ---
@@ -893,6 +1055,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - Owner-reviewed adverts confirm corporate executive office support; manual review required: annualised upper salary £50,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: 849729d145ccd1789a3d30f281d2adaf3599acb709947d441441a6f32eb8cf8c
+---
+
+---
+action:
+POSS | JobG8 | Wiltshire | Salisbury | £92 - £100 per daily | Learning support assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225775965
+title: Learning support assistant
+employer: 
+location: Salisbury
+region: Wiltshire
+salary: £92 - £100 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8dc07add9c6c94bddce78723672a99401f135ec1b47d8a1c44dd51db3e275b1f
 ---
 
 ---
