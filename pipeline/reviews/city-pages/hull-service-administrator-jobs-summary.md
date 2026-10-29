@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 21
 - automatic review: 17
 - automatic exclude: 0
-- effective include: 23
+- effective include: 21
 - effective review: 17
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (21)
 
 ---
 action: 
@@ -249,30 +249,6 @@ company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-2063872
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Regional Network Coordinator
-company: Vizion Network - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225667293
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU16 5JQ
-source: NHS Jobs
-job_id: nhs-5662408
 reason: Approved conservative Hull launch catchment.
 ---
 

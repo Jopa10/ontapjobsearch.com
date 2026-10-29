@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 103
+- automatic review: 99
 - automatic exclude: 0
 - effective include: 1
-- effective review: 103
+- effective review: 99
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: nhs-5686212
 reason: Exact approved Chester Le Street workplace.
 ---
 
-## REVIEW (103)
+## REVIEW (99)
 
 ---
 action: 
@@ -162,6 +162,30 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Payable Clerk
+company: Lemon Drizzle Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225771802
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: RG Setsquare - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225758640
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Ad Hoc Receptionist - Immediate Start - Newcastle City Centre
 company: Office Angels - Agency - Temporary
 location: Tyne And Wear
@@ -179,18 +203,6 @@ company: Branta Consulting Limited - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225723936
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
-company: Kinetic PLC - Agency - Temporary
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225663483
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -378,30 +390,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Brand Marketing Manager
-company: Reed - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2053988
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator / Client Coordinator
-company: Prime Property Surveyors - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225688434
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Services Support Administrator
 company: Studio West
 location: Newcastle-upon-Tyne
@@ -527,6 +515,18 @@ company: Westray Recruitment Consultants Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225764968
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: MTrec Recruitment - Agency - Permanent
+location: Shildon
+source: JobG8
+job_id: jobg8-2197271
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -786,42 +786,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Junior Sales Administrator
-company: BMC Recruitment Group Ltd - Agency - Permanent
-location: Newton Aycliffe
-source: JobG8
-job_id: jobg8-23643_225667774
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: Reed - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2053979
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: Rise Technical Recruitment - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225730673
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Administrator
 company: Nigel Wright Recruitment - Agency - Temporary
 location: Northumberland
@@ -1026,11 +990,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator Permanent - Newburn
-company: Office Angels - Agency - Permanent
-location: Tyne And Wear
+title: Recovery Coordinator
+company: Waythrough - Agency - Permanent
+location: County Durham
 source: JobG8
-job_id: jobg8-23643_225660233
+job_id: jobg8-108238473
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1091,18 +1055,6 @@ company: Towne Lifting & Testing - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225725446
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Advisor
-company: Red Recruitment - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225671681
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

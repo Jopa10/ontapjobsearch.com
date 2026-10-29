@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 26
+- automatic include: 16
+- automatic review: 25
 - automatic exclude: 0
-- effective include: 15
-- effective review: 26
+- effective include: 16
+- effective review: 25
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (16)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Silcom Recruitment Limited - Agency - Permanent
+location: Swindon
+source: JobG8
+job_id: jobg8-23643_225770474
+reason: Exact approved Swindon workplace.
+---
 
 ---
 action: 
@@ -204,7 +216,7 @@ job_id: teaching-vacancies-sixth-form-admin-assistant-great-western-academy-swin
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (25)
 
 ---
 action: 
@@ -215,18 +227,6 @@ company: 911 Staffing Ltd - Agency - Temporary
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225667496
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225720819
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -366,18 +366,6 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Coordinator
-company: CMD Recruitment - Agency - Temporary
-location: Devizes
-source: JobG8
-job_id: jobg8-23643_225693696
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Pastoral Administrator
 company: Melksham Oak Community School
 location: Melksham
@@ -463,6 +451,18 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
+company: Thrive Group - Agency - Permanent
+location: Corsham
+source: JobG8
+job_id: jobg8-23643_225774726
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
 company: Tru Talent - Agency - Permanent
 location: Westbury
 source: JobG8
@@ -514,7 +514,7 @@ title: Warranty Administrator
 company: Thrive Group - Agency - Permanent
 location: Trowbridge
 source: JobG8
-job_id: jobg8-23643_225748402
+job_id: jobg8-23643_225774859
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

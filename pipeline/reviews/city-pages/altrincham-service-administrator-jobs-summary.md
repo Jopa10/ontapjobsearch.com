@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 21
+- automatic review: 25
 - automatic exclude: 0
 - effective include: 7
-- effective review: 21
+- effective review: 25
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225715889
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (25)
 
 ---
 action: 
@@ -198,6 +198,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: NC Associates - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-2201117
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: CMR Jobs Limited - Agency - Permanent
 location: Stockport
@@ -234,11 +246,23 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist / Administrator
+company: The Reddish Family Practice
+location: Stockport, SK6 6RN, STOCKPORT, SK5 7QU
+source: NHS Jobs
+job_id: nhs-5693756
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Administrator
 company: Hays Business Support - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-23643_225768141
+job_id: jobg8-23643_225773301
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -354,11 +378,35 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Temporary Customer Service Advisor (Days & Nights)
+company: Michael Page - Agency - Temporary
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225771463
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temporary HR Administrator
 company: Office Angels - Agency - Temporary
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225696497
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk - Maternity
+company: Tameside and Glossop Integrated Care NHS Foundation Trust
+location: Ashton Under Lyne, OL6 9RW
+source: NHS Jobs
+job_id: nhs-5692303
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

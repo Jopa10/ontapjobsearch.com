@@ -4,7 +4,7 @@
 - Live route: `/swansea/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 5
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 7
+- effective include: 5
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,30 +33,6 @@ company: Blue Arrow - Agency - Permanent
 location: Swansea
 source: JobG8
 job_id: jobg8-23643_225755282
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225679881
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-2063956
 reason: Exact approved Swansea workplace.
 ---
 
@@ -100,11 +76,11 @@ reason: Exact approved Swansea workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Senior Finance Officer
-company: Yolk Recruitment - Agency - Permanent
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Swansea
 source: JobG8
-job_id: jobg8-23643_225668604
+job_id: jobg8-2188341
 reason: Exact approved Swansea workplace.
 ---
 

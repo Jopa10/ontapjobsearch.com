@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 34
-- automatic exclude: 34
+- automatic review: 36
+- automatic exclude: 32
 - effective include: 11
-- effective review: 34
-- effective exclude: 34
+- effective review: 36
+- effective exclude: 32
 
 ## INCLUDE (11)
 
@@ -156,7 +156,7 @@ job_id: jobg8-2074696
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (34)
+## REVIEW (36)
 
 ---
 action: 
@@ -258,6 +258,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Assistant
+company: Berry Recruitment - Agency - Permanent
+location: Abingdon
+source: JobG8
+job_id: jobg8-23643_225774219
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Corporate Communications Specialist
 company: Michael Page - Agency - Temporary
 location: Abingdon
@@ -287,6 +299,18 @@ company: Red Recruitment - Agency - Temporary
 location: Banbury
 source: JobG8
 job_id: jobg8-23643_225739605
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Entry-level Inside Sales Advisor
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
+location: Hook Norton
+source: JobG8
+job_id: jobg8-23643_225770295
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -486,18 +510,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Coordinator
-company: Cameo Consultancy - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-23643_225664457
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Student Services Administrator
 company: Faringdon Community College
 location: Faringdon
@@ -527,6 +539,18 @@ company: PLANET RECRUITMENT SERVICES LTD - Agency - Permanent
 location: Abingdon
 source: JobG8
 job_id: jobg8-2189910
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Finance Assistant
+company: Planet Recruitment - Agency - Temporary
+location: Abingdon
+source: JobG8
+job_id: jobg8-23643_225768723
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -566,7 +590,7 @@ job_id: nhs-5664768
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -601,18 +625,6 @@ company: Accord Appointments Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225704327
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Huntress - Maidstone - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225662441
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -661,18 +673,6 @@ company: Robert Half - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2067685
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Coordinator
-company: Pertemps Banbury - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225660971
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -812,11 +812,35 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Legal Assistant - Conveyancing
+company: Berry Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225774230
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Order-Processing Administrator
 company: Michael Page - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225765212
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part-Time Accounts Assistant
+company: Platinum Resourcing - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225770320
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -872,18 +896,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Production Administrator
-company: Tech Connect Group - Agency - Contract
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225721330
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Project & Procurement Assistant
 company: One Way Resourcing - Agency - Permanent
 location: Oxfordshire
@@ -925,18 +937,6 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225767103
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Marketing Specialist
-company: Michael Page - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225677782
 reason: Broad county location; not Oxford-city evidence.
 ---
 

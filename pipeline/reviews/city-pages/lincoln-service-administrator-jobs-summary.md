@@ -52,18 +52,6 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Admin Assistant
-company: Insight Employment - Agency - Temporary
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225667184
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Administrator
 company: NHS Professionals - Company - Temporary
 location: Lincolnshire
@@ -142,6 +130,18 @@ location: Lincoln
 source: JobG8
 job_id: jobg8-23643_225736096
 reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Operational Administrator
+company: Magnus Search - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225655530
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---

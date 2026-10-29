@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 16
+- automatic include: 14
+- automatic review: 18
 - automatic exclude: 0
-- effective include: 12
-- effective review: 16
+- effective include: 14
+- effective review: 18
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (14)
 
 ---
 action: 
@@ -100,11 +100,23 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist / Administrator
+company: The Reddish Family Practice
+location: Stockport, SK6 6RN, STOCKPORT, SK5 7QU
+source: NHS Jobs
+job_id: nhs-5693756
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operations Administrator
 company: Hays Business Support - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-23643_225768141
+job_id: jobg8-23643_225773301
 reason: Exact approved Stockport workplace.
 ---
 
@@ -168,7 +180,19 @@ job_id: jobg8-23643_225744140
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (16)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Customer Service Advisor (Days & Nights)
+company: Michael Page - Agency - Temporary
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225771463
+reason: Exact approved Stockport workplace.
+---
+
+## REVIEW (18)
 
 ---
 action: 
@@ -215,6 +239,18 @@ company: Michael Page - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225691554
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: NC Associates - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-2201117
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -359,6 +395,18 @@ company: Office Angels - Agency - Temporary
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225696497
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk - Maternity
+company: Tameside and Glossop Integrated Care NHS Foundation Trust
+location: Ashton Under Lyne, OL6 9RW
+source: NHS Jobs
+job_id: nhs-5692303
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

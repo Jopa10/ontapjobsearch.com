@@ -148,11 +148,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Performance Marketing Manager
-company: Nova Recruitment - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225675166
+title: Medical Receptionist/Administrator
+company: Birchwood Medical Centre
+location: Warrington, WA3 7PJ
+source: NHS Jobs
+job_id: nhs-5690698
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -160,11 +160,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Presenter and Content Creator
-company: Reed - Agency - Permanent
+title: Performance Marketing Manager
+company: Nova Recruitment - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2149341
+job_id: jobg8-23643_225675166
 reason: Approved conservative Warrington launch catchment.
 ---
 

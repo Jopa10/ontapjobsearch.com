@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 94
+- automatic include: 17
+- automatic review: 91
 - automatic exclude: 0
-- effective include: 15
-- effective review: 94
+- effective include: 17
+- effective review: 91
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (17)
 
 ---
 action: 
@@ -148,6 +148,18 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor - FULL TIME
+company: Adecco - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225773412
+reason: Exact approved Warwick workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Assistant
 company: Auctoro Recruitment - Agency - Permanent
 location: Warwick
@@ -184,6 +196,18 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
+title: PMO Coordinator & Document Controller
+company: Pontoon - Agency - Contract
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225775786
+reason: Exact approved Warwick workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Property Litigation Paralegal
 company: Michael Page Legal - Agency - Permanent
 location: Warwick
@@ -204,19 +228,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (94)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: Transaction Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225660067
-reason: No exact Warwick workplace matched; local geographic review is required.
----
+## REVIEW (91)
 
 ---
 action: 
@@ -575,18 +587,6 @@ company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-2093212
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: SF Partners - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225660466
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -979,18 +979,6 @@ action:
 decision: review
 automatic_decision: review
 title: Private Client Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2049188
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Private Client Paralegal
 company: The Eventus Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
@@ -1218,6 +1206,30 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Coordinator
+company: Brellis Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225772724
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Development Representative
+company: Plus One Recruitment - Agency - Permanent
+location: Stratford-Upon-Avon
+source: JobG8
+job_id: jobg8-23643_225772548
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Development Representative
 company: Rapid Access - Agency - Permanent
 location: Nuneaton
@@ -1295,30 +1307,6 @@ company: Adecco - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225744797
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary CRM Assistant
-company: Triumph - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225746288
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2190747
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

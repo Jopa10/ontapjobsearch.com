@@ -4,7 +4,7 @@
 - Live route: `/hemel-hempstead/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 104
+- automatic include: 6
+- automatic review: 99
 - automatic exclude: 0
-- effective include: 8
-- effective review: 104
+- effective include: 6
+- effective review: 99
 - effective exclude: 0
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Central London Community Health Trust
-location: Hemel Hempstead, HP1 1DN
-source: NHS Jobs
-job_id: nhs-5689182
-reason: Exact approved Hemel Hempstead workplace.
----
+## INCLUDE (6)
 
 ---
 action: 
@@ -88,18 +76,6 @@ reason: Exact approved Hemel Hempstead workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Part-time Accounts Receivable Administrator
-company: Think Specialist Recruitment - Agency - Permanent
-location: Hemel Hempstead
-source: JobG8
-job_id: jobg8-2051739
-reason: Exact approved Hemel Hempstead workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchasing Administrator
 company: Bluebolt Recruitment - Agency - Permanent
 location: Hemel Hempstead
@@ -120,7 +96,7 @@ job_id: jobg8-23643_225694409
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (104)
+## REVIEW (99)
 
 ---
 action: 
@@ -318,30 +294,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Brand Marketing Executive - 12 month FTC
-company: Think Specialist Recruitment - Agency - Contract
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225667999
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Brand Marketing Executive - 12 month FTC
-company: Think Specialist Recruitment - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2052287
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Call Centre Advisor
 company: Mission 4 Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -414,23 +366,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Paralegal
-company: qed legal - Agency - Permanent
-location: Hertfordshire
+title: Complaints Handler
+company: Adecco - Agency - Temporary
+location: Watford
 source: JobG8
-job_id: jobg8-2049385
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: SRM RECRUITMENT LIMITED - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2047782
+job_id: jobg8-23643_225774554
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -443,6 +383,18 @@ company: SVC Technical - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225729762
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Operations Administrator
+company: Adecco - Agency - Temporary
+location: Watford
+source: JobG8
+job_id: jobg8-23643_225774575
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -491,6 +443,18 @@ company: Saffron Building Society - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225671455
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Coordinator
+company: Tate - Agency - Permanent
+location: Stevenage
+source: JobG8
+job_id: jobg8-23643_225771945
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -630,11 +594,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Family Paralegal
-company: Reed - Agency - Permanent
+title: Finance Assistant
+company: Abbeygate Search Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2051692
+job_id: jobg8-23643_225717460
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -666,11 +630,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant - Part time
-company: STORMX RECRUITMENT LIMITED - Agency - Permanent
-location: St. Albans
+title: Finance Assistant
+company: Osborne Appointments - Agency - Permanent
+location: Hitchin
 source: JobG8
-job_id: jobg8-2060294
+job_id: jobg8-23643_225769009
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -678,11 +642,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Finance officer
-company: Robert Walters - Agency - Permanent
-location: Hertfordshire
+title: Finance Assistant - Part time
+company: STORMX RECRUITMENT LIMITED - Agency - Permanent
+location: St. Albans
 source: JobG8
-job_id: jobg8-2053532
+job_id: jobg8-2060294
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -779,18 +743,6 @@ company: Braverman Kitchens - Agency - Permanent
 location: Hertford
 source: JobG8
 job_id: jobg8-23643_225674659
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant
-company: Law Staff Limited - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2049840
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -918,35 +870,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal Family Law
-company: Reed - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2051669
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Accounts Payable Administrator
 company: Think Accountancy and Finance - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2055885
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-time Bookkeeper (school hours)
-company: Mission 4 Recruitment - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225564656
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1043,18 +971,6 @@ company: New River Health
 location: Ware, SG12 9EF, HERTFORD, SG14 1HH
 source: NHS Jobs
 job_id: nhs-5670118
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Private Client Paralegal
-company: Reed - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2051626
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1163,18 +1079,6 @@ company: Elysium Healthcare
 location: Hertfordshire, AL9 6NN
 source: NHS Jobs
 job_id: nhs-5646197
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Repairs Advisor Contact Centre
-company: Gilmartins - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225763456
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1331,6 +1235,18 @@ company: Think Specialist Recruitment - Agency - Contract
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225676899
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Stores Coordinator & Service Support
+company: Talentmark - Agency - Permanent
+location: Hatfield
+source: JobG8
+job_id: jobg8-23643_225774649
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

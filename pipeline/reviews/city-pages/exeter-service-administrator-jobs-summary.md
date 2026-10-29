@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 22
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 42
+- automatic include: 21
+- automatic review: 43
 - automatic exclude: 0
-- effective include: 22
-- effective review: 42
+- effective include: 21
+- effective review: 43
 - effective exclude: 0
 
-## INCLUDE (22)
+## INCLUDE (21)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: St James School
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-part-time-st-james-school
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Administrator
-company: Devon Partnership NHS Trust
-location: Exeter, EX2 5AF
-source: NHS Jobs
-job_id: nhs-5662336
 reason: Exact approved Exeter workplace.
 ---
 
@@ -184,18 +172,6 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Operations Administrator
-company: Office Angels - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-23643_225664276
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Patient Safety Administrator
 company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
@@ -256,6 +232,18 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5693833
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Advisor
 company: Perfect Placement - Agency - Permanent
 location: Exeter
@@ -288,7 +276,7 @@ job_id: jobg8-23643_225699564
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (43)
 
 ---
 action: 
@@ -380,9 +368,9 @@ decision: review
 automatic_decision: review
 title: Business Support Administrator
 company: Devon Partnership NHS Trust
-location: Newton Abbot, TQ12 2PF
+location: Totnes, TQ9 5JA
 source: NHS Jobs
-job_id: nhs-5656155
+job_id: nhs-5660761
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -594,18 +582,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Receptionist
-company: Lockhart Recruitment - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225766933
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Senior
 company: Autograph Specialist Recruitment - Agency - Permanent
 location: Devon
@@ -751,10 +727,34 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2197021
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
 company: Perfect Placement - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225759002
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2188492
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

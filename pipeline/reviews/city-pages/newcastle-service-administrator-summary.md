@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 26
-- automatic review: 55
+- automatic review: 51
 - automatic exclude: 23
 - effective include: 26
-- effective review: 55
+- effective review: 51
 - effective exclude: 23
 
 ## INCLUDE (26)
@@ -336,7 +336,7 @@ job_id: jobg8-23643_225677749
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (55)
+## REVIEW (51)
 
 ---
 action: 
@@ -438,11 +438,11 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Ad Hoc Receptionist - Immediate Start - Newcastle City Centre
-company: Office Angels - Agency - Temporary
+title: Activities Coordinator
+company: RG Setsquare - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-23643_225666028
+job_id: jobg8-23643_225758640
 reason: Broad location; review before city inclusion.
 ---
 
@@ -450,11 +450,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant
-company: Kinetic PLC - Agency - Temporary
+title: Ad Hoc Receptionist - Immediate Start - Newcastle City Centre
+company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-23643_225663483
+job_id: jobg8-23643_225666028
 reason: Broad location; review before city inclusion.
 ---
 
@@ -504,18 +504,6 @@ location: Blyth
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator / Client Coordinator
-company: Prime Property Surveyors - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225688434
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -618,6 +606,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Administrator
+company: MTrec Recruitment - Agency - Permanent
+location: Shildon
+source: JobG8
+job_id: jobg8-2197271
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: Red Recruitment - Agency - Temporary
 location: Tyne And Wear
@@ -696,30 +696,6 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2078122
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior Sales Administrator
-company: BMC Recruitment Group Ltd - Agency - Permanent
-location: Newton Aycliffe
-source: JobG8
-job_id: jobg8-23643_225667774
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: Rise Technical Recruitment - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225730673
-reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -870,36 +846,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator Permanent - Newburn
-company: Office Angels - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225660233
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruiter
 company: Capital R2R Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_222841829
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Advisor
-company: Red Recruitment - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225671681
-reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -1016,6 +968,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Accounts Payable Clerk
+company: Lemon Drizzle Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225771802
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Administration Assistant
 company: North Durham Academy
 location: Stanley
@@ -1045,18 +1009,6 @@ company: Moorlands Surgery
 location: Darlington, DL3 9JP
 source: NHS Jobs
 job_id: nhs-5672309
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Brand Marketing Manager
-company: Reed - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2053988
 reason: Separate employment market.
 ---
 
@@ -1148,18 +1100,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Manager
-company: Reed - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2053979
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Operations Admin Assistant
 company: Penn Gregory Recruitment Ltd - Agency - Permanent
 location: County Durham
@@ -1201,6 +1141,18 @@ company: St Anthony's Girls' Catholic Academy
 location: Sunderland
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-st-anthony-s-girls-catholic-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recovery Coordinator
+company: Waythrough - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-108238473
 reason: Separate employment market.
 ---
 

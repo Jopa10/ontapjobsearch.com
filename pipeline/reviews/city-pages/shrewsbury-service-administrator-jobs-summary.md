@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 25
+- automatic include: 7
+- automatic review: 22
 - automatic exclude: 0
-- effective include: 8
-- effective review: 25
+- effective include: 7
+- effective review: 22
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -76,18 +76,6 @@ reason: Exact approved Shrewsbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger
-company: Counted Recruitment - Agency - Permanent
-location: Shrewsbury
-source: JobG8
-job_id: jobg8-2164220
-reason: Exact approved Shrewsbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Marysville Medical Practice
 location: Shrewsbury, SY3 7QR
@@ -120,43 +108,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (25)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Cosgrove & Cosgrove Ltd - Agency - Permanent
-location: Telford
-source: JobG8
-job_id: jobg8-2057863
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Clerk
-company: LHH Recruitment Solutions - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-2053739
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activity Co-ordinator
-company: Coverage Care - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-108178982
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
+## REVIEW (22)
 
 ---
 action: 
@@ -222,11 +174,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Credit Control
-company: Consula Group LTD - Agency - Permanent
+title: Client Support Administrator
+company: I force - Agency - Temporary
 location: Shropshire
 source: JobG8
-job_id: jobg8-2078828
+job_id: jobg8-108178433
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -258,11 +210,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Estimator / Administrator
-company: Trinity Professional - Agency - Permanent
-location: Bridgnorth
+title: Data Entry / Office Assistant
+company: KPA Recruitment Ltd - Agency - Permanent
+location: Shropshire
 source: JobG8
-job_id: jobg8-23643_225765471
+job_id: jobg8-23643_225772483
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -270,11 +222,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Shropshire
+title: Estimator / Administrator
+company: Trinity Professional - Agency - Permanent
+location: Bridgnorth
 source: JobG8
-job_id: jobg8-23643_225698170
+job_id: jobg8-23643_225765471
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -354,18 +306,6 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Admin
-company: Hays Accounts and Finance - Agency - Temporary
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225764940
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Reception Administrator
 company: Windmill Primary School
 location: Telford
@@ -419,6 +359,18 @@ company: Ashley Kate HR & Finance - Agency - Temporary
 location: Telford
 source: JobG8
 job_id: jobg8-23643_225768284
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary to Permanent Administrator
+company: Office Angels - Agency - Permanent
+location: Wellington
+source: JobG8
+job_id: jobg8-23643_225774898
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

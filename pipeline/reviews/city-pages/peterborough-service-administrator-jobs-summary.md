@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 10
-- automatic exclude: 37
-- effective include: 22
-- effective review: 10
-- effective exclude: 37
+- automatic include: 21
+- automatic review: 12
+- automatic exclude: 38
+- effective include: 21
+- effective review: 12
+- effective exclude: 38
 
-## INCLUDE (22)
+## INCLUDE (21)
 
 ---
 action: 
@@ -117,18 +117,6 @@ company: Barker Ross - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225739330
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Enterprise Sales Administrator
-company: CRG TEC - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225667230
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -288,7 +276,19 @@ job_id: jobg8-2194126
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (12)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Infinity Recruitment Consultancy Limited - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225771916
+reason: No approved Peterborough catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -366,6 +366,18 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Accounts Assistant
+company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-2196956
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patient Services Administrator
 company: Lakeside Healthcare Group
 location: ST. NEOTS, PE19 1BQ
@@ -410,7 +422,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (38)
 
 ---
 action: 
@@ -433,18 +445,6 @@ company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2066978
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Cottenham Village College
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-33fbff14-5670-4218-aac1-dee2a2b87010
 reason: Separate employment market.
 ---
 
@@ -537,10 +537,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Credit Controller
-company: Infinity Recruitment Consultancy Limited - Agency - Permanent
-location: Huntingdon
+company: Pure Resourcing Solutions Limited - Agency - Temporary
+location: Cambridge
 source: JobG8
-job_id: jobg8-23643_225667401
+job_id: jobg8-23643_225769311
 reason: Separate employment market.
 ---
 
@@ -776,6 +776,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: PR manager
+company: Kidney Research UK - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2196216
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist / Front of House
 company: Adecco - Agency - Temporary
 location: Cambridge
@@ -853,5 +865,17 @@ company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2099638
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Clerk - Maternity
+company: Cambridge University Hospital NHS Foundation Trust
+location: Cambridge, CB2 0QQ
+source: NHS Jobs
+job_id: nhs-5691541
 reason: Separate employment market.
 ---

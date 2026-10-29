@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 32
+- automatic include: 5
+- automatic review: 28
 - automatic exclude: 0
-- effective include: 7
-- effective review: 32
+- effective include: 5
+- effective review: 28
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (5)
 
 ---
 action: 
@@ -76,30 +76,6 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Digital Marketing Coordinator
-company: Henderson Brown Recruitment - Agency - Permanent
-location: Worcester
-source: JobG8
-job_id: jobg8-23643_225669131
-reason: Exact approved Worcester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: St Johns House Medical Centre
-location: Worcester, WR2 5FB
-source: NHS Jobs
-job_id: nhs-5659638
-reason: Exact approved Worcester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Wedding & Events Co-ordinator
 company: Four Squared - Agency - Permanent
 location: Worcester
@@ -108,7 +84,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (28)
 
 ---
 action: 
@@ -174,35 +150,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: Transaction Recruitment - Agency - Temporary
-location: Droitwich
-source: JobG8
-job_id: jobg8-23643_225669335
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Assistant - Part Time
 company: Sierra 57 Consult Ltd - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225713111
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin / Business Support Officer
-company: Colbern Limited - Agency - Contract
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225663468
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -239,18 +191,6 @@ company: Herefordshire and Worcestershire Health and Care NHS Trust
 location: Droitwich, WR9 8QU
 source: NHS Jobs
 job_id: nhs-5666365
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Jobsworth Recruitment Solutions LTD - Agency - Permanent
-location: Bromsgrove
-source: JobG8
-job_id: jobg8-23643_225740074
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -347,18 +287,6 @@ company: SF Partners - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-2057910
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: SF Partners - Agency - Temporary
-location: Redditch
-source: JobG8
-job_id: jobg8-23643_225668153
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

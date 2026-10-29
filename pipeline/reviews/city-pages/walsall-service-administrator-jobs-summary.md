@@ -4,8 +4,8 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 5
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 44
+- automatic include: 5
+- automatic review: 45
 - automatic exclude: 0
-- effective include: 3
-- effective review: 44
+- effective include: 5
+- effective review: 45
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Applications Administrator
+company: Belmont Recruitment - Agency - Contract
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_225774876
+reason: Exact approved Walsall workplace.
+---
 
 ---
 action: 
@@ -60,7 +72,19 @@ job_id: jobg8-23643_224517979
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (44)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: Black Country Healthcare NHS Foundation Trust
+location: Walsall, WS3 1SJ
+source: NHS Jobs
+job_id: nhs-5691607
+reason: Exact approved Walsall workplace.
+---
+
+## REVIEW (45)
 
 ---
 action: 
@@ -222,18 +246,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Assistant
-company: Howard James Recruitment Consultancy Ltd - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-23643_225698110
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: Kathryn Rose Consultancy Serviced Limited - Agency - Permanent
 location: Wolverhampton
@@ -366,18 +378,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Internal Sales Administrator
-company: Red Rock Consultants Ltd - Agency - Permanent
-location: Halesowen
-source: JobG8
-job_id: jobg8-23643_225659772
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist
 company: Russell House Surgery
 location: Wolverhampton, WV8 1PE
@@ -462,6 +462,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Clerk
+company: Mayfair Compliance Group Ltd - Agency - Permanent
+location: West Midlands
+source: JobG8
+job_id: jobg8-23643_225656655
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Reception Administrator
 company: Dr.Singh's Surgery
 location: West Bromwich, B70 8HQ
@@ -523,6 +535,18 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
+company: MET Recruitment UK LTD - Agency - Permanent
+location: West Bromwich
+source: JobG8
+job_id: jobg8-23643_225772519
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
 company: Pertemps Black Country Perms - Agency - Permanent
 location: Halesowen
 source: JobG8
@@ -558,6 +582,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Supply Chain Coordinator
+company: Accept Recruitment - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-23643_225637300
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Team Administrator
 company: Black Country Healthcare NHS Foundation Trust
 location: Halesowen, B63 4SG
@@ -570,11 +606,11 @@ reason: The stated location is broader or less specific than the approved Walsal
 action: 
 decision: review
 automatic_decision: review
-title: Utilities Coordinator
-company: Doocey Group - Agency - Permanent
-location: Tipton
+title: Temporary Secretary
+company: Gleeson Recruitment Group - Agency - Contract
+location: Dudley
 source: JobG8
-job_id: jobg8-23643_225447187
+job_id: jobg8-23643_225774106
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

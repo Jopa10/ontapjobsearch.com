@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 21
 - automatic review: 4
-- automatic exclude: 84
+- automatic exclude: 83
 - effective include: 21
 - effective review: 4
-- effective exclude: 84
+- effective exclude: 83
 
 ## INCLUDE (21)
 
@@ -326,19 +326,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-2-days-per-week
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (84)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Administrator
-company: Transaction Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225660067
-reason: Separate employment market.
----
+## EXCLUDE (83)
 
 ---
 action: 
@@ -644,6 +632,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service Advisor - FULL TIME
+company: Adecco - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225773412
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Coordinator
 company: Approach Personnel Ltd - Agency - Permanent
 location: Warwickshire
@@ -721,18 +721,6 @@ company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-2093212
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: SF Partners - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225660466
 reason: Separate employment market.
 ---
 
@@ -1076,11 +1064,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Private Client Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Warwickshire
+title: PMO Coordinator & Document Controller
+company: Pontoon - Agency - Contract
+location: Warwick
 source: JobG8
-job_id: jobg8-2049188
+job_id: jobg8-23643_225775786
 reason: Separate employment market.
 ---
 
@@ -1232,6 +1220,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales Coordinator
+company: Brellis Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225772724
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Development Representative
+company: Plus One Recruitment - Agency - Permanent
+location: Stratford-Upon-Avon
+source: JobG8
+job_id: jobg8-23643_225772548
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales Development Representative
 company: Rapid Access - Agency - Permanent
 location: Nuneaton
@@ -1297,30 +1309,6 @@ company: Listers - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-108091779
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary CRM Assistant
-company: Triumph - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225746288
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2190747
 reason: Separate employment market.
 ---
 

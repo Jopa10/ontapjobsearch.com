@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 15
-- automatic exclude: 27
-- effective include: 13
-- effective review: 15
-- effective exclude: 27
+- automatic include: 12
+- automatic review: 11
+- automatic exclude: 26
+- effective include: 12
+- effective review: 11
+- effective exclude: 26
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Assistant (Maternity Cover)
+company: Joseph Rowntree - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225730066
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal Administrator
 company: Venn Group - Agency - Permanent
 location: York
@@ -136,18 +148,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Services Advisor (Receptionist)
-company: Haxby Group
-location: York, YO32 2LL, York, YO24 3BU, Huntington, YO32 9RU, York, YO32 4AG, York, YO26 6EQ
-source: NHS Jobs
-job_id: nhs-5655371
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Nimbuscare
 location: York, YO24 4LJ, York, YO24 1LW, York, YO26 4GG
@@ -168,19 +168,7 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: York and Scarborough Teaching Hospitals NHS Foundation Trust
-location: York, YO31 8HE
-source: NHS Jobs
-job_id: nhs-5665026
-reason: Approved York catchment.
----
-
-## REVIEW (15)
+## REVIEW (11)
 
 ---
 action: 
@@ -210,23 +198,11 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Get Recruited (UK) Ltd - Agency - Permanent
-location: Catterick Garrison
+title: Legal Assistant - Private Client
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Malton
 source: JobG8
-job_id: jobg8-2053052
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-2048426
+job_id: jobg8-23643_225775070
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -258,18 +234,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Patient Services Administrator
-company: Filey Surgery
-location: Filey, YO14 9AE
-source: NHS Jobs
-job_id: nhs-5651232
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Practice Administrator
 company: Magpie Recruitment - Agency - Permanent
 location: Richmond
@@ -282,35 +246,11 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Probate & Wills Legal Secretary - Malton, Yorkshire
-company: qed legal - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-2050560
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Residential Property Legal Secretary
 company: Search Consultancy Ltd - Agency - Permanent
 location: Malton
 source: JobG8
 job_id: jobg8-23643_225717661
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Residential Property Paralegal
-company: Search Consultancy Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225661358
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -362,7 +302,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -385,18 +325,6 @@ company: Hays Business Support - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-23643_225714249
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bookkeeper
-company: Si Recruitment - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2048296
 reason: Separate employment market.
 ---
 
@@ -476,18 +404,6 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Control
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2057600
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Data Administrator
 company: St John Fisher Catholic Academy
 location: Harrogate
@@ -505,6 +421,18 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-2063467
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Assistant - Residential
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-23643_225775024
 reason: Separate employment market.
 ---
 
@@ -548,6 +476,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing Executive
+company: KD Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2197052
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Paralegal
 company: Unity Resourcing Ltd - Agency - Permanent
 location: Yorkshire
@@ -566,18 +506,6 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2065406
 reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll/Finance Administrator
-company: Ventrolla - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225536401
-reason: Separate employment market.
 ---
 
 ---

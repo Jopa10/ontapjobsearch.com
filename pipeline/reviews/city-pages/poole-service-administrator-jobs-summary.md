@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 37
+- automatic review: 38
 - automatic exclude: 0
 - effective include: 8
-- effective review: 37
+- effective review: 38
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-2181226
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (38)
 
 ---
 action: 
@@ -498,18 +498,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Radiology Clerical Officer
-company: University Hospitals Dorset NHS Foundation Trust
-location: Bournemouth, BH7 7DW
-source: NHS Jobs
-job_id: nhs-5681610
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Aspire Jobs - Agency - Permanent
 location: Beaminster
@@ -546,11 +534,35 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support
+company: Office Angels - Agency - Temporary
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225767372
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Scheduler
+company: Build Recruitment - Agency - Permanent
+location: Shaftesbury
+source: JobG8
+job_id: jobg8-23643_225774315
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Team Administrator
 company: Dorset HealthCare University NHS Foundation Trust
-location: Dorchester, DT1 2FD
+location: Christchurch, BH23 3AF
 source: NHS Jobs
-job_id: nhs-5664520
+job_id: nhs-5692257
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

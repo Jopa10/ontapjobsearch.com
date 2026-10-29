@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
-- automatic review: 10
-- automatic exclude: 26
-- effective include: 33
-- effective review: 10
-- effective exclude: 26
+- automatic include: 35
+- automatic review: 12
+- automatic exclude: 24
+- effective include: 35
+- effective review: 12
+- effective exclude: 24
 
-## INCLUDE (33)
+## INCLUDE (35)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2066978
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Cottenham Village College
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-33fbff14-5670-4218-aac1-dee2a2b87010
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -117,6 +105,18 @@ company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2164056
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Pure Resourcing Solutions Limited - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225769311
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -352,6 +352,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: PR manager
+company: Kidney Research UK - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2196216
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist / Front of House
 company: Adecco - Agency - Temporary
 location: Cambridge
@@ -420,7 +432,31 @@ job_id: jobg8-2099638
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (10)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk - Maternity
+company: Cambridge University Hospital NHS Foundation Trust
+location: Cambridge, CB2 0QQ
+source: NHS Jobs
+job_id: nhs-5691541
+reason: Approved conservative Cambridge launch catchment.
+---
+
+## REVIEW (12)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Infinity Recruitment Consultancy Limited - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225771916
+reason: No approved Cambridge catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -498,6 +534,18 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Accounts Assistant
+company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-2196956
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patient Services Administrator
 company: Lakeside Healthcare Group
 location: ST. NEOTS, PE19 1BQ
@@ -542,7 +590,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -644,18 +692,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller
-company: Infinity Recruitment Consultancy Limited - Agency - Permanent
-location: Huntingdon
-source: JobG8
-job_id: jobg8-23643_225667401
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Order Administrator
 company: New Appointments Group - Agency - Temporary
 location: Peterborough
@@ -673,18 +709,6 @@ company: Barker Ross - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225739330
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Enterprise Sales Administrator
-company: CRG TEC - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225667230
 reason: Separate employment market.
 ---
 

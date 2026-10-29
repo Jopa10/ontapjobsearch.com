@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 66
+- automatic review: 64
 - automatic exclude: 0
 - effective include: 0
-- effective review: 66
+- effective review: 64
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (66)
+## REVIEW (64)
 
 ---
 action: 
@@ -95,18 +95,6 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2159804
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Clerk
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2053385
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -258,18 +246,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Commercial Administrator
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-2049449
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Contract Administrator
 company: Danny Sullivan & Sons Ltd - Company - Permanent
 location: Leicester
@@ -287,6 +263,18 @@ company: RECfinancial - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225735417
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Saint Gobain - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225773382
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -383,6 +371,18 @@ company: Vectis Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225752965
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-108203745
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -534,18 +534,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Legal Assistant
-company: GWR Legal Recruitment Ltd - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225664160
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Logistics Coordinator
 company: Vantage Recruitment - Agency - Permanent
 location: Leicestershire
@@ -559,7 +547,7 @@ action:
 decision: review
 automatic_decision: review
 title: Office Administrator
-company: JT Recruit - Agency - Temporary
+company: JT Recruit - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_224540405
@@ -707,18 +695,6 @@ company: Ideal Recruit Ltd - Agency - Contract
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225734553
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Office Angels - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225659626
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
