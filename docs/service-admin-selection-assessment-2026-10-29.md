@@ -97,3 +97,18 @@ Validation before submission: 96 targeted title/pay/geography/duties checks pass
 The local replay uses unchanged advert contents with a fixed known LIVE test town to isolate title/pay/duties behaviour; it is not a final published count or geography comparison. Full comparison must use the unchanged captured XML and original successful baseline via the existing isolated workflow. No new owner approvals, geo/register changes, production changes, deployment or supplier access are included. The last 5,908 JobG8 result remains evidence for the previous source, not a result for this repair. Release readiness remains pending the new full run and artifact audit.
 
 Safeguard-repair comparison started: [run 40912470494](https://github.com/Jopa10/ontapjobsearch.com/actions/runs/40912470494), tested source `41cfa924cba48e9c8b39b762c9f338c1947be6af`. This supersedes 40893418259 for release validation; no result claimed yet.
+
+
+## Seven-removal reconciliation — 29 October 2026
+
+Latest run 40912470494 / source 41cfa924cba48e9c8b39b762c9f338c1947be6af / artifact12923382786 passed. JobG8 5,435→5,881:453 added,7 removed, net446. NHS387 and TV204 give6,472 total. The seven known bad advert IDs are absent, positive engineering/warehouse examples remain, payroll108206913 retains numeric pay plus holiday wording and25conflicts remain absent.
+
+Independent baseline/current full-description reconciliation confirms2133805→2133802,2157921→2157920 and2179530→23643_225761668 are exact canonical source/title/company/location/description duplicate swaps.
+
+Four additional removals require distinction:
+-2138590 Finance Manager: full advert explicitly requires ACCA/CIMA qualified; exclusion is consistent with the qualification safeguard.
+-2110367 Accounts Assistant: only offers Study support for AAT/CIMA/ACCA; moving this ordinary role into review is an unnecessary exclusion introduced by the new qualification guard.
+-2116029 Accounts and Payroll Assistant: expressly accepts AAT/ACCA qualified OR qualified by experience, repeats AAT/ACCA or QBE, and offers study support. It must not be treated as mandatory professional accountancy qualification. The new exclusion is a regression.
+-23643_225668604 Senior Finance Officer: AAT Level4 OR part-qualified ACCA/CIMA accepted, with supervision of three assistants. The new qualification-wording review removes a baseline job. This is not evidence of a mandatory qualified-accountant requirement; keep the deferred seniority policy separate and preserve existing decisions.
+
+Verdict: NOT READY for source-only release candidate. The professional-qualification guard is too broad around study support, alternative AAT/QBE and part-qualified pathways. Narrow this guard and repeat the same-feed validation; no new batch approvals or manager-policy changes. No production merge/deployment/switch was performed.
