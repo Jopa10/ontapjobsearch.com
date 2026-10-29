@@ -1,7 +1,7 @@
 import subprocess, sys, json, time, os, hashlib, zipfile, base64, lzma, shutil
 from pathlib import Path
 ROOT=Path.cwd(); OUT=ROOT/'test-results'; OUT.mkdir(exist_ok=True)
-state={'source_sha':'ec47ea496fcb896d8c50ad349f05c5cec6816d24','feed_date':'2026-10-29','production_changed':False,'steps':[]}
+state={'source_sha':'ec47ea496fcb896d8c50ad349f05c5cec6816d24','feed_date':'2026-10-29','production_changed':False,'baseline_source_sha':'ec47ea496fcb896d8c50ad349f05c5cec6816d24','selection_changes':'owner-approved 29 October title/geography/missing-pay changes','steps':[]}
 def save(): (OUT/'receipt.json').write_text(json.dumps(state,indent=2))
 def run(name,args,pipeline=False):
  state['active']=name; save(); print('START '+name,flush=True); start=time.monotonic()
@@ -17,6 +17,7 @@ raw=lzma.decompress(base64.b64decode(''.join(p.read_text() for p in sorted((fixt
 assert hashlib.sha256(raw).hexdigest()==info['xml_sha256'];assert info['date_time'][:3]==[2026,10,29]
 with zipfile.ZipFile(OUT/'verified.zip','w',zipfile.ZIP_DEFLATED) as z:
  item=zipfile.ZipInfo('Jobs.xml',tuple(info['date_time']));item.compress_type=zipfile.ZIP_DEFLATED;z.writestr(item,raw)
+state['source_sha']=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
 state['feed']=info;save();del raw
 # Keep captured input for recovery; never delete fixture chunks
 shutil.copytree(ROOT/'pipeline/output-admin-service',OUT/'approved-admin',dirs_exist_ok=True)

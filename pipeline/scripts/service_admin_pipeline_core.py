@@ -381,6 +381,12 @@ ABSOLUTE_HARD_FAIL_PATTERNS = [
 HIGH_CONFIDENCE_PATTERNS = [
     "administrator", "admin assistant", "administration assistant", "administrative assistant",
     "office administrator", "office assistant", "office support", "clerical", "data entry",
+    "admin officer", "administration officer", "administrative officer",
+    "admin support officer", "administration support officer", "administrative support",
+    "admin clerk", "administration clerk", "office admin", "service admin",
+    "business support admin", "project admin support", "purchasing admin",
+    "customer support admin", "customer service support", "team assistant",
+    "medical reception", "reception cover", "secretarial",
     "receptionist", "front of house", "secretary", "personal secretary", "pa to",
     "customer service advisor", "customer service adviser", "customer service assistant",
     "customer service administrator", "customer support advisor", "client service advisor",
@@ -1183,7 +1189,7 @@ def extract_salary_from_description(raw_description: Any) -> str:
     # unrelated bare numbers and pH measurements are not salary evidence.
     if "£" not in text:
         unmarked_hourly = re.search(
-            r"(?<![\w£])(?P<rate>\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)\s*(?:ph|PH)\b",
+            r"(?<![\w£])(?P<rate>\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)\s*(?:ph|PH|per\s+hour|per\s+hr)\b",
             text,
         )
         if not unmarked_hourly:
@@ -1227,6 +1233,14 @@ def extract_salary_from_description(raw_description: Any) -> str:
 
     return fix_encoding(extracted)
 
+def extract_advertised_pay_wording(raw_description: Any) -> str:
+    """Only explicit pay phrases count; competitive workplace/benefits do not."""
+    text = re.sub(r"\s+", " ", clean_description(raw_description))
+    wording = r"(?:competitive(?:\s*,?\s*(?:depending|dependent)\s+on\s+experience)?|DOE|negotiable|depending\s+on\s+experience|dependent\s+on\s+experience|commensurate\s+with\s+experience)"
+    match = re.search(rf"\b(?:salary|pay|rate|remuneration)\s*[:\-]?\s*({wording})\b|\b({wording})\s+(?:salary|pay|rate|remuneration)\b", text, re.IGNORECASE)
+    return (match.group(1) or match.group(2)).strip() if match else ""
+
+
 def build_salary_details(row: pd.Series) -> tuple[str, str]:
     """Return deterministic salary_text plus source marker for decision-report QA."""
     mn = format_number(row.get(COL["salary_min"]))
@@ -1240,6 +1254,9 @@ def build_salary_details(row: pd.Series) -> tuple[str, str]:
         fallback = extract_salary_from_description(row.get(COL["description"]))
         if fallback:
             return fallback, "description_fallback"
+        wording = extract_advertised_pay_wording(row.get(COL["description"]))
+        if wording:
+            return wording, "description_fallback"
         return "", "missing"
 
     period_text = ""
@@ -1939,6 +1956,8 @@ def classify_title(title: str, title_register: dict[str, dict[str, str]] | None 
         # titles above.  Other hard rules (for example ``senior`` or
         # ``manager``) remain fully effective.
         hard_hits = [hit for hit in hard_hits if hit not in {"legal", "payroll"}]
+    if re.search(r"\b(?:administrator|administration assistant|admin assistant|admin clerk)\b", title_key):
+        hard_hits = [hit for hit in hard_hits if hit not in {"warehouse", "engineer", "transport", "manufacturing"}]
     if hard_hits:
         classification = "HARD_PASS"
         return classification, "hard pass title pattern: " + ", ".join(hard_hits), CLASSIFICATION_PRIORITY[classification], "STABLE"
@@ -2113,6 +2132,7 @@ def _process_batch(
             family="admin_service",
             reviewed_ceiling_gbp=reviewed_salary_ceiling,
         )
+        missing_pay = salary_assessment.status == "missing"
         part_time_inputs = {
             "title": title,
             "employment_type": employment_type,
@@ -2164,16 +2184,14 @@ def _process_batch(
                 title_classification_reason = "explicit part-time finance role rule"
         owner_salary_status, owner_salary_reason, owner_salary_hard_fail = (
             (None, None, None)
-            if part_time_active
+            if part_time_active or missing_pay
             else owner_title_salary_rule(title, salary_assessment.annual_upper_gbp)
         )
-        if owner_salary_status and missing_owner_salary_should_exclude(
-            salary_text_preview, salary_assessment.annual_upper_gbp,
-            part_time_finance=part_time_active,
-        ):
-            owner_salary_status = "exclude"
-            owner_salary_reason = None
-            owner_salary_hard_fail = "Salary not stated: owner rule excludes blank pay"
+        if missing_pay and not (part_time_active and MANAGER_TITLE_RE.search(title)):
+            salary_assessment = replace(
+                salary_assessment, status="ok",
+                reason="no numeric pay stated; otherwise eligible roles are permitted",
+            )
         if owner_salary_status:
             owner_threshold = (
                 DOCUMENT_CONTROLLER_QUERY_GBP
@@ -2257,14 +2275,6 @@ def _process_batch(
         if qualification_status == "review":
             review_required = True
             review_reasons.append(qualification_reason)
-
-        if (
-            is_practical_role_title(title)
-            and salary_assessment.status in {"missing", "unassessed"}
-            and NON_NUMERIC_SALARY_RE.search(salary_text_preview)
-        ):
-            review_required = True
-            review_reasons.append("non-numeric salary wording requires daily review")
 
         if title_classification == "REVIEW_CONTEXT_DEPENDENT":
             if context_policy and context_assessment.status == "ok":

@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 27 October 2026
+**Last updated:** 29 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 29 October 2026 — **Service Admin audit changes under isolated test:** owner authorised broader ordinary admin/support title coverage, verified missing-town lookup additions and Derby correction, and permission for otherwise eligible jobs without numeric pay. Explicit non-numeric advert pay wording is retained. The comparison uses the exact captured 29 October XML and successful baseline run `40848659957`; no production merge, feed switch, deployment, email or senior/manager/Document Controller policy change is included. See `docs/service-admin-selection-changes-2026-10-29.md` for scope, held ambiguous mappings and test evidence.
 
 - 27 October 2026 — **Shared city/regional slugs checked during 50k reconciliation:** a city page could hide valid regional jobs from search and job-detail generation. The test-branch fix keeps the configured regional inventory when the city page uses derived data, while preserving established static regional pages. No production change or new selection approval is made.
 

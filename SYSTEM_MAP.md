@@ -3,7 +3,7 @@ Total output lines: 420
 
 # Ontap System Map
 
-**Last updated:** 27 October 2026
+**Last updated:** 29 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -11,6 +11,8 @@ Total output lines: 420
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 29 October 2026 — **Service Admin audit changes under isolated test:** owner authorised broader ordinary admin/support title coverage, verified missing-town lookup additions and Derby correction, and permission for otherwise eligible jobs without numeric pay. Explicit non-numeric advert pay wording is retained. The comparison uses the exact captured 29 October XML and successful baseline run `40848659957`; no production merge, feed switch, deployment, email or senior/manager/Document Controller policy change is included. See `docs/service-admin-selection-changes-2026-10-29.md` for scope, held ambiguous mappings and test evidence.
 
 - 27 October 2026 — **City routes cannot hide LIVE configured regional inventory:** `configured-job-slices.ts` treats a static route as the established regional data owner only when its adjacent slice JSON also exists. A derived city page sharing a region/category slug therefore no longer suppresses the configured regional route or canonical job/search inventory. The 50k approval reconciliation exposed 23 Glasgow admin jobs omitted by the previous test, including an already approved Call Centre Advisor. No LIVE register, selection rule or existing URL is changed. Regression coverage preserves established static data ownership, empty-slice withholding and inactive-slice exclusion. The fix remains on the unmerged expanded-feed branch pending final preview verification.
 

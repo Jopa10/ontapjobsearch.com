@@ -1,12 +1,13 @@
-name: Isolated fresh 29 October 50k technical test
+name: Isolated Service Admin selection comparison — 29 October 50k
 on:
   push:
-    branches: [test/jobg8-fresh-50000-20261029]
-    paths: ['pipeline/second-day-50k/**', '.github/workflows/test-jobg8-day2-50000.yml']
+    branches: [test/service-admin-selection-20261029]
+    paths: ['pipeline/**', 'tests/**', '.github/workflows/test-jobg8-day2-50000.yml']
 permissions:
   contents: read
+  actions: read
 concurrency:
-  group: isolated-jobg8-fresh-50000-20261029
+  group: isolated-service-admin-selection-20261029
   cancel-in-progress: false
 jobs:
   technical-test:
@@ -45,16 +46,28 @@ jobs:
       - name: Check final-code regression tests
         run: |
           PYTHONPATH=pipeline python -m pytest pipeline/tests/test_materialize_current_jobg8.py pipeline/tests/test_materialize_jobg8_archive_month.py pipeline/tests/test_jobg8_xml_adapter_feed_date.py tests/test_enrich_job_metadata.py pipeline/tests/test_north_east_review_routing.py pipeline/tests/test_review_hub.py -q
+      - name: Download immutable successful baseline
+        uses: actions/download-artifact@v4
+        with:
+          name: jobg8-fresh-50k-2026-10-29-results
+          run-id: 40848659957
+          github-token: ${{ github.token }}
+          path: .selection-baseline
+      - name: Verify agreed selector changes
+        run: PYTHONPATH=.:pipeline python -m pytest pipeline/tests/test_service_admin_audit_changes.py pipeline/tests/test_review_queue_missing_pay.py pipeline/tests/test_service_admin_owner_selection_rules.py pipeline/tests/test_salary_description_fallback.py tests/test_service_admin_geography_guard.py -q
       - name: Fresh feed processing, isolated publication, regional overview and full build
         run: python -u pipeline/second-day-50k/run.py
+      - name: Compare the exact same feed against the saved baseline
+        run: python pipeline/second-day-50k/compare_selection.py
       - name: Save persistent results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: jobg8-fresh-50k-2026-10-29-results
+          name: service-admin-selection-50k-2026-10-29-results
           path: |
             test-results/*.json
             test-results/*.log
+            test-results/selection-*
             test-results/verified.zip
             test-results/fresh-jobg8.xlsx
             test-results/reviewed-plan.json
