@@ -2,15 +2,63 @@
 
 review_date: 2026-10-29
 
-- Open Administrative & Clerical rows reviewed: 2220
-- Auto/remembered selected: 424
-- Selected HC Tier A: 222
-- Selected HC Tier B: 202
+- Open Administrative & Clerical rows reviewed: 2224
+- Auto/remembered selected: 428
+- Selected HC Tier A: 225
+- Selected HC Tier B: 203
 - POSS awaiting decision: 1702
 - Excluded: 0
 - HARD_PASS: 94
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Surrey | Guildford, GU2 7XX | £27106.00 to £28850.00 | Patient Administration Clerk
+source_job_id: 5693234
+title: Patient Administration Clerk
+employer: Royal Surrey NHS Foundation Trust
+region: Surrey
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0946
+factual_fingerprint: d5c41e551665c6444de6e395ec35fcf7f8fba925991bb4f6bc7968be192bc3aa
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - East | Hull, HU3 4AE | £25760.00 to £27476.00 | Information Systems Support Assistant
+source_job_id: 5694140
+title: Information Systems Support Assistant
+employer: City Health Care Partnership CIC
+region: Yorkshire - East
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0343
+factual_fingerprint: 181ff6bf7e449d8a7d35f7fce0cb888681680ddd1d65eccbcd8ecd6311dd7a68
+---
+
+---
+action:
+POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L9 7AL | £25272.00 | Housekeeper
+source_job_id: 5690229
+title: Housekeeper
+employer: Liverpool University Hospitals NHS Foundation Trust
+region: Merseyside - Liverpool
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1823
+factual_fingerprint: f8d0b7b5e8adc9a5457b5182cfcca41b25ab7186b92185796f0edd3bc7f2ae54
+---
+
+---
+action:
+POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L69 3GN | £32073.00 to £39043.00 | Community Engagement and Involvement Officer (Clinical Research)
+source_job_id: 5691785
+title: Community Engagement and Involvement Officer (Clinical Research)
+employer: Liverpool University Hospitals NHS Foundation Trust
+region: Merseyside - Liverpool
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1816
+factual_fingerprint: 049daaec9b821f68c11f7dc5d09f445f1822ec1eb4927e60f93314c1fbc351f5
+---
 
 ---
 action:
@@ -237,7 +285,7 @@ employer: Royal Free London NHS Foundation Trust
 region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1906
-factual_fingerprint: 0801f868606de70ea762d1d3eb614257058f33541f327aee14c5ef383d50c3d6
+factual_fingerprint: 5a4a03145517cdf21713c5352571d980166ca6829f2234196892b188c03a38f2
 ---
 
 ---
@@ -549,7 +597,7 @@ employer: Whittington Hospital NHS Trust
 region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9220-26-0739
-factual_fingerprint: a2e84864855ee1fa140fd49c4fef71cd41da8afa9b4cf77203a405628df4a78e
+factual_fingerprint: e87a7467fd05f747bcfcd4ef828a25fa1c35bd83f1475cc72646b3abfe5ab177
 ---
 
 ---
@@ -598,18 +646,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1902
 factual_fingerprint: 37483ea082d837d1c2a3f7f0418f634c1ffc6c970c02477611020cf25dde373e
----
-
----
-action:
-POSS | NHS Jobs | London | London, N18 1QX | £30142.00 | Patient Pathway Officer
-source_job_id: 5692859
-title: Patient Pathway Officer
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1904
-factual_fingerprint: a52c47bad5afc0996fe7e7636bc810a5e54618aff5cd7b182f749a3e7587adb8
 ---
 
 ---
@@ -854,14 +890,14 @@ factual_fingerprint: 1f75b3b9f76bfc832a58591a236b823f28a2341c4e2981f78445990321e
 
 ---
 action:
-POSS | NHS Jobs | Berkshire | Slough, SL2 4HL | £27106.00 to £28850.00 | Clinical Admin Officer
+POSS | NHS Jobs | Surrey | Frimley, Camberley, GU16 7HZ | £27106.00 to £28850.00 | Clinical Admin Officer
 source_job_id: 5693030
 title: Clinical Admin Officer
 employer: Frimley Health NHS Foundation Trust
-region: Berkshire
+region: Surrey
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1400
-factual_fingerprint: 9d2a2e2a1d6ce24e1c83e9829f3d7ba9fd30f1ed2624867c3f4be0c89bfd8aba
+factual_fingerprint: c28459083d39557bafff135ad9e0e18734c830a466f8fc005ab2e4f614954622
 ---
 
 ---
@@ -1713,7 +1749,7 @@ employer: Betsi Cadwaladr University Health Board
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2505
-factual_fingerprint: 4aa039b26270f2eb1fe3812a323e2fff9888b1ce7602dd83a31f28df34247cb8
+factual_fingerprint: 35895c03e841ab61b32e807436a7dac7ebeda833910f6fee0320f12616c23921
 ---
 
 ---
@@ -3406,18 +3442,6 @@ region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9828-26-0263
 factual_fingerprint: 374b316161652d7e5405d08d4ded5ce6bc866105b3452a12069ae2fbe9764e21
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L7 8YA | £32073.00 to £39043.00 | Assistant Service Manager
-source_job_id: 5689628
-title: Assistant Service Manager
-employer: The Clatterbridge Cancer Centre NHSFT
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9158-26-0279
-factual_fingerprint: 3ab2c2ccae4101b220d045ab371a055debb095ff0abbbe5c4e116eb91386e996
 ---
 
 ---
@@ -6122,18 +6146,6 @@ factual_fingerprint: f412f2008008e4dc147015d5f12ba4ce342e127b18ea31cec63b09bdc5c
 
 ---
 action:
-POSS | NHS Jobs | London | London, WC1N 3JH | Negotiable | Medical PA Plastic Surgery
-source_job_id: 5685687
-title: Medical PA Plastic Surgery
-employer: Great Ormond Street Hospital for Children NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0442
-factual_fingerprint: 38891d78e0532bfe487b4fa4f6edaf593c810eb84387ff0bedb725537f03b00b
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - South | Barnsley, S75 3FG, London, NW9 5BG, Manchester, M13 9LL, Southampton, SO16 5AF, Speke, L24 8RB, Birmingham, B15 2SG, Newcastle upon Tyne, NE2 4NQ, Basildon, SS14 3EZ, London, SW17 0RB, Filton, BS34 7QH | £57528.00 to £64750.00 | National Contract Manager
 source_job_id: 5685594
 title: National Contract Manager
@@ -7653,7 +7665,7 @@ employer: North East Ambulance Service NHS Foundation Trust
 region: North East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9340-26-0003
-factual_fingerprint: 08e6b0a411650ef9a4df72d74b44a8d3d1a43b06c431e9c5b557515325949bed
+factual_fingerprint: c2a40e659c5e73ea5870fa7c453c30cfaf9d98e403ebb0c60549d535decd56ab
 ---
 
 ---
@@ -10029,7 +10041,7 @@ employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9339-26-1323
-factual_fingerprint: 5a761f59a3597eff2f169a6cce43f01bf3ad05aa574ccdc0d1a5208746c739c8
+factual_fingerprint: 2b10d5d430a614f87bff20c7f906b7a7a2c6bed00f1aa1044c31c0b67fe0b02b
 ---
 
 ---
@@ -13882,18 +13894,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9161-26-0013
 factual_fingerprint: 645531de294035a66e8289f081c9a2f933dbd103ab733ecaff658526e57f8c77
----
-
----
-action:
-POSS | NHS Jobs | Lincolnshire | Stamford, PE9 1YA | £25272.00 | Ward Clerk Stamford DTU - Stamford
-source_job_id: 5672702
-title: Ward Clerk Stamford DTU - Stamford
-employer: North West Anglia NHS Foundation Trust
-region: Lincolnshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0604
-factual_fingerprint: 4cffd4ba5c227b84a82d94853fefc8f094b8b5d45162f98d3bcb2d274b98b6c4
 ---
 
 ---
