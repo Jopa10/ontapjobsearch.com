@@ -3,14 +3,38 @@
 review_date: 2026-10-29
 
 - Open Administrative & Clerical rows reviewed: 2368
-- Auto/remembered selected: 459
+- Auto/remembered selected: 460
 - Selected HC Tier A: 242
-- Selected HC Tier B: 217
-- POSS awaiting decision: 1813
+- Selected HC Tier B: 218
+- POSS awaiting decision: 1814
 - Excluded: 0
-- HARD_PASS: 96
+- HARD_PASS: 94
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Suffolk | Stowmarket, IP14 6QU | £25029.00 to £25811.00 | Care Navigator
+source_job_id: 5687733
+title: Care Navigator
+employer: Primary Care Careers
+region: Suffolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1006
+factual_fingerprint: a20b014c6876e2488e33c4c5be6d455ba074bb56439ef70e6eb642d954d25327
+---
+
+---
+action:
+POSS | NHS Jobs | Merseyside - St Helens & Knowsley | Prescot, L35 5DR | £32073.00 to £39043.00 | Clinical Coding Specialist
+source_job_id: 5694865
+title: Clinical Coding Specialist
+employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
+region: Merseyside - St Helens & Knowsley
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-1104
+factual_fingerprint: 6720baa66ef28394f55229f44ed6923abcfd73f663978cbb97131296c5866940
+---
 
 ---
 action:
@@ -3849,7 +3873,7 @@ employer: York Teaching Hospital Facilities Management (LLP)
 region: Yorkshire - North
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9419-26-0073
-factual_fingerprint: ef7ef83abd4dd97cc941d71d07b1a6be640199d818cc27ab5e81697566950d61
+factual_fingerprint: c182f0b744e9dd8a7468cc149abc9a9e95b576670c6a34ca43cf81af93eb0073
 ---
 
 ---
@@ -3969,7 +3993,7 @@ employer: Nottinghamshire Healthcare NHS Foundation Trust
 region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0791
-factual_fingerprint: 58a139163421e1d27e95d3678478e1c302d84e61b9d4e3bcac495ff49b5a0fd7
+factual_fingerprint: f4ff515dd9b64a7f52a38b1b79a62ae4193f1bbe97a7504c42aced3804157bf6
 ---
 
 ---
@@ -17602,18 +17626,6 @@ region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0025-26-0170
 factual_fingerprint: ce8a874712df96b83a320d824614753d102218b61e1f4b33ed9a5e814b7e21f1
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Black Country | Oldbury, B69 2AJ | £25760.00 to £27476.00 | Administration Officer
-source_job_id: 5667990
-title: Administration Officer
-employer: Black Country Healthcare NHS Foundation Trust
-region: West Midlands - Black Country
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0704
-factual_fingerprint: a6053063869fab4bea40b1da986369d631bc8aa08754c103329e75df0b602b4f
 ---
 
 ---

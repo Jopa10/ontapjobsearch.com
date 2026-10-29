@@ -365,31 +365,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225666142",
-    "title": "Sales Administrator",
-    "company": "Prince Personnel Limited - Agency - Contract",
-    "location": "Shropshire",
-    "region": "Shropshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "29000",
-    "salary_max": "29000",
-    "salary_text": "£29000 per year",
-    "posted_date": "",
-    "description": "Sales Administrator\n\nTelford\n\nTemporary - (9 - 12 Month Maternity Cover)\n\n£29,000 per annum\n\nMonday to Friday, 37.5 hours per week.\n\nThis is a varied role, but the primary focus will be the management of customer orders from receipt through to delivery. You'll liaise with customers regarding orders and delivery dates, process sales orders and invoices, support the Operations Manager and Engineering Manager, and ensure information is maintained accurately within internal systems. The role will also involve providing wider administrative support across the business and covering colleagues' responsibilities during periods of holiday and absence.\n\nDuties will include:\n- Processing customer sales orders from receipt through to invoicing.\n- Producing order acknowledgements and pro-forma invoices.\n- Liaising with customers regarding order progress, deliveries and general queries.\n- Entering and maintaining customer information on internal systems.\n- Working closely with warehouse and operational teams to ensure orders are shipped on time.\n- Updating order progress and dispatch information.\n- Monitoring outstanding payments and supporting credit control activities.\n- Assisting with logistics and arranging deliveries through couriers and transport providers.\n- Booking travel and accommodation for engineers.\n- Supporting purchasing activities when required.\n- Maintaining accurate records, databases and project documentation.\n- Providing administrative support to the Operations Manager and Engineering Manager.\n- Supporting other administrative functions across the business during holiday cover periods.\n\nSkills and Experience Required:\n- Previous experience in Sales Administration, Sales Order Processing, Customer Service Administration or a similar office-based administrative role.\n- Strong customer service and communication skills.\n- Excellent organisational skills and attention to detail.\n- Good IT skills, including Microsoft Excel.\n- Ability to prioritise workloads and manage multiple tasks effectively.\n- A proactive and flexible approach with a willingness to support different areas of the business.\n\nThe application process:\n\nOur mission is to support our clients in their creation of an equal, diverse and inclusive workforce. We are committed to providing a barrier-free recruitment process, so if you require any reasonable accessibility adjustments within the application process, then please make it known at the earliest opportunity.\n\nWe will carefully consider your details and advise you if we're able to progress with your application within 72 working hours. If you do not hear from us within this time your details won t be retained. So, if you're not successful on this occasion, do continue to respond to future roles we advertise. In the meantime, all good wishes and continued success with your search for employment.\n\nAbout Us\n\nPrince Personnel are an employment agency working on behalf of our client. Whether you re seeking a new permanent position, temporary assignment or contract you ll find us easy to deal with. Located in thriving Telford, we focus on jobs in Shropshire, Staffordshire and North Wales. Prince Personnel specialise in commercial, accounts and finance and technical recruitment. With the best jobs around we are an independent agency working hard for you.\n\nReference: MP27089",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fhcJRa6AVbpYaL%2fqValsvMFi",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Prince Personnel Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225710678",
     "title": "Administrator",
     "company": "Prince Personnel Limited - Agency - Temporary",
@@ -690,6 +665,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108178982",
+    "title": "Activity Co-ordinator",
+    "company": "Coverage Care - Agency - Permanent",
+    "location": "Shropshire",
+    "region": "Shropshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "12.96",
+    "salary_max": "12.96",
+    "salary_text": "£12.96 per hour",
+    "posted_date": "",
+    "description": "Activity Co-ordinator\nWhen registering to this job board you will be redirected to the online application form. Please ensure that this is completed in full in order that your application can be reviewed. Activities Co-ordinator - 26 hours per week\nWe are looking for caring, sensitive, compassionate individuals to join our care team to support the delivery of a high quality service to our service use click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?sRc1aB%2brxivspVLvy8SSRsuM2SrCQ2imi",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Coverage Care",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5687044",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -705,7 +705,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4510-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4510-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5678074",
@@ -723,6 +727,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1216-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1216-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

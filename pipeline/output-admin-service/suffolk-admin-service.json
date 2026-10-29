@@ -756,6 +756,50 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5684101",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Primary Care Careers",
+    "advertiser_name": "Primary Care Careers",
+    "location": "Haverhill, CB9 8HF",
+    "region": "Suffolk",
+    "salary": "£13.16",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-29T13:41:15.742185059",
+    "closing_date": "2026-11-13",
+    "description": "Haverhill Family Practice are seeking two enthusiastic and reliable Receptionists to join their team on a part-time basis for 20 hours per week, to work the following: Mornings: Monday 8am -1pm Tuesday 8am -1pm Thursday 8am -1pm Friday 8am - 1pm Afternoons: Monday 1.30pm - 6.30pm Tuesday 1.30pm - 6.30pm Wednesday 1.30pm - 6.30pm Friday 1.30pm - 6.30pm Duties will include: Welcoming patients via telephone or face to face. Answering incoming calls in a prompt, friendly efficient manner. Booking of appointments. Arranging home visit requests. Signposting patients to the correct clinician Receiving and processing daily E-consults from patients Handing repeat prescription/med3 requests Registering new patients Liaising with members of practice team Managing out-going correspondence Updating patient demographics General administration duties Daily auctioning of tasks If you would like to find out more information about this role, please do not hesitate to get in contact with us.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1013",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1013",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5681681",
+    "source": "NHS Jobs",
+    "title": "Receptionist/Care Navigator",
+    "company": "Primary Care Careers",
+    "advertiser_name": "Primary Care Careers",
+    "location": "Bury St Edmunds, IP32 7EW",
+    "region": "Suffolk",
+    "salary": "£12.78",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-29T14:38:14.817448473",
+    "closing_date": "2026-11-05",
+    "description": "Mount Farm Surgery has an opportunity for an enthusiastic and proactive receptionist/care navigator to join our team on a part-time basis for 24.75 hours per week as follows: Monday 10.00-16.00 Wednesday 10.00-16.00 Friday 10.00-18.45 plus 5 hours per week worked flexibly to meet the needs of the business Flexi hours will always be confirmed at least 1 week in advance. You will also have the flexibility to work occasional voluntary overtime to cover annual leave/other absence within your team. Please note that the work pattern stated is fixed - please do not apply if you are unable to work this shift pattern and number hours. The receptionist plays a pivotal role in the experience of patients at our practice, helping them to access the right services and dealing with their queries face-to-face, online and by telephone. The main responsibilities of the role include: Greeting and directing all patients. Making appointments. Working within SystmOne (the patient clinical record system) and Anima (the practice workflow and request system) Answering queries and complaints from patients and outside agencies, signposting to the appropriate staff member as appropriate. Accepting, issuing and handing out prescriptions, letters, completed forms, specimen bottles, etc. Advising patients of practice procedures. Accurately maintaining patient records If you would like to find out more information about this role, please do not hesitate to get in contact with us.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1005",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1005",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5693837",
     "source": "NHS Jobs",
     "title": "Clinical Support Team Administrator",
@@ -771,7 +815,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1230",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1230",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5664247",
@@ -789,6 +837,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0975",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0975",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

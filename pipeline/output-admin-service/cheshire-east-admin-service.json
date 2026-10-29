@@ -206,31 +206,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225671709",
-    "title": "Receptionist",
-    "company": "Forrest Recruitment - Agency - Permanent",
-    "location": "Wilmslow",
-    "region": "Cheshire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Receptionist - Permanent - up to 28 K d.o.e - Wilmslow\n\nWe are recruiting for a presentable and polite individual to join a well-established business based in Wilmslow as a receptionist and administration support. This is an excellent opportunity for an individual who would like to work in a friendly office environment who is eager to learn and take on responsibilities.\n\nDuties\n\nMeeting and greeting customers\n\nSigning guests in\n\nOffering refreshments\n\nAnswering and transferring calls\n\nAdministration duties such as scanning, photocopying, ordering office supplies, booking meetings and typing templated letters.\n\nEnsuring reception duties are completed in a professional and organised manner\n\nTo be successful you must be a presentable and polite individual who can use phone systems effectively. You must also be willing to learn new skills and take on new responsibilities in the receptionist/administrator role.\n\nPlease note that due to the high volume of applications we receive, only those successfully shortlisted for the role will be personally contacted.\n\nFollow us on LinkedIn and Facebook for updates, recruitment information, new vacancies and more!",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0IO37UGLTm9g3g4X2pVEUoRs",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Forrest Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225715924",
     "title": "Senior Payroll Administrator",
     "company": "Portfolio Payroll Limited - Agency - Permanent",
@@ -371,7 +346,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0233-26-2106",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0233-26-2106",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5692369",
@@ -389,6 +368,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3196-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3196-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

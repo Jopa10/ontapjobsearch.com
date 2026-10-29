@@ -25,31 +25,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225671741",
-    "title": "Sales Support Administrator",
-    "company": "Forrest Recruitment - Agency - Permanent",
-    "location": "Stockport",
-    "region": "Greater Manchester - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Sales Support Administrator - Permanent - Stockport - 28,000\nWe are seeking a dedicated and experienced Sales Support Administrator to join our client on a full time permanent basis. This role will see you working as part of a small team and ensuring excellent customer service is provided to their clients.\n\nDuties include:\n- Answering customer and client enquiries via telephone and email\n- Resolving customer complaints in a timely manner\n- Upselling add on products\n- Keeping record of customer interactions\n- Proactively follow up on quotations and enquiries\n- Processing customer orders and returns\n- Collaborate with other departments to ensure a seamless customer experience\n\nThe successful candidate will have experience working in a target driven role, confident making out bound calls and building strong relationships. This is an exciting opportunity to join a successful and well known business, working as part of a close knit team.\n\nPlease note that due to the high volume of applications we receive, only those successfully shortlisted for the role will be personally contacted.\n\nFollow us on LinkedIn and Facebook for updates, recruitment information, new vacancies and more!",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVY7IkrlJ0qcPFPnfd1TL4N9j",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Forrest Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225687790",
     "title": "Accounts Assistant",
     "company": "Pure 4 Recruitment - Agency - Permanent",
@@ -665,7 +640,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4990-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4990-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5692303",
@@ -683,7 +662,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9245-26-0452",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9245-26-0452",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5674517",
@@ -701,7 +684,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0136",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0136",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5671910",
@@ -719,7 +706,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4914-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4914-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5660746",
@@ -737,6 +728,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4163-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4163-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
