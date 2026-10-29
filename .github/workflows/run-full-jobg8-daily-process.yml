@@ -4,18 +4,17 @@ on:
   workflow_dispatch:
     inputs:
       cycle:
-        description: 'Cycle to run; cron-job.org must set morning or evening.'
+        description: 'Run the morning cycle, one-time changeover, or manual evening recovery.'
         required: false
         default: auto
         type: choice
         options:
           - auto
           - morning
+          - changeover
           - evening
   schedule:
     - cron: '30 7 * * *'
-      timezone: 'Europe/London'
-    - cron: '30 15 * * *'
       timezone: 'Europe/London'
 
 concurrency:
@@ -132,14 +131,19 @@ jobs:
         env:
           JOBG8_ARCHIVE_BUCKET: ontap-jobg8-archive-179402568934-eu-west-2-an
           JOBG8_ARCHIVE_REGION: eu-west-2
+          CYCLE: ${{ needs.resolve-jobg8-daily-cycle.outputs.cycle }}
         run: |
           set -euo pipefail
-          python pipeline/scripts/jobg8_s3_archive.py \
-            --zip "$RUNNER_TEMP/jobg8.zip" \
-            --bucket "$JOBG8_ARCHIVE_BUCKET" \
-            --region "$JOBG8_ARCHIVE_REGION" \
-            --prefix "jobg8/raw" \
-            --skip-prune
+          archive_args=(
+            --zip "$RUNNER_TEMP/jobg8.zip"
+            --bucket "$JOBG8_ARCHIVE_BUCKET"
+            --region "$JOBG8_ARCHIVE_REGION"
+            --prefix "jobg8/raw"
+          )
+          if [ "$CYCLE" = "changeover" ]; then
+            archive_args+=(--preserve-existing-as pre-changeover)
+          fi
+          python pipeline/scripts/jobg8_s3_archive.py "${archive_args[@]}" --skip-prune
 
       - name: Read LIVE slices from register
         id: slice-register
