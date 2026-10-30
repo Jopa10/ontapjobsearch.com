@@ -496,7 +496,7 @@ def send_digest(
         # A definite HTTP rejection means no message was accepted, so release
         # the claim for a retry. Keep the claim on timeouts/5xx: delivery may
         # have succeeded even though the runner did not receive confirmation.
-        rejected = re.search(r"Brevo returned HTTP 4\\d{2} for POST /smtp/email", str(error))
+        rejected = re.search(r"Brevo returned HTTP 4\d{2} for POST /smtp/email", str(error))
         if rejected:
             try:
                 _brevo_request(
