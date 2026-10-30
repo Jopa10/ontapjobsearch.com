@@ -2,15 +2,51 @@
 
 review_date: 2026-10-30
 
-- Open Administrative & Clerical rows reviewed: 2212
+- Open Administrative & Clerical rows reviewed: 2214
 - Auto/remembered selected: 454
 - Selected HC Tier A: 240
 - Selected HC Tier B: 214
-- POSS awaiting decision: 1671
+- POSS awaiting decision: 1673
 - Excluded: 0
 - HARD_PASS: 87
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - South | Rotherham, S60 1FL | Negotiable | HR Business Partner (Rotherham)
+source_job_id: 5696824
+title: HR Business Partner (Rotherham)
+employer: MSI Reproductive Choices
+region: Yorkshire - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0539-26-0250
+factual_fingerprint: b903d0e0d4c92e41f5a5a974a501b5da818944bc14b1f0d7126b92eb6d1e53b6
+---
+
+---
+action:
+POSS | NHS Jobs | Bristol & Bath | Bristol, BS32 4JT | Negotiable | HR Business Partner (Bristol)
+source_job_id: 5696801
+title: HR Business Partner (Bristol)
+employer: MSI Reproductive Choices
+region: Bristol & Bath
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0539-26-0249
+factual_fingerprint: 7effa74d19e86469774f07b8e712b10e3a7aedc4780e8f60857d798f7169c950
+---
+
+---
+action:
+POSS | NHS Jobs | Cornwall | Truro, TR1 3LJ | £57528.00 to £64750.00 | Women and Children's Programme Project Manager
+source_job_id: 5696820
+title: Women and Children's Programme Project Manager
+employer: Royal Cornwall Hospitals Trust
+region: Cornwall
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9156-26-0573
+factual_fingerprint: 123759c9c4ce597191a8db753a7471c3c66347f69b070c9ec99348df0864ce70
+---
 
 ---
 action:
@@ -298,18 +334,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1915
 factual_fingerprint: 3423bef066bd7f934e71cf281af16e4b8653e746fba98ae1906d237a71e39f08
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M20 4BX | £28392.00 to £31157.00 | Clinical Trials Coordinators
-source_job_id: 5696438
-title: Clinical Trials Coordinators
-employer: The Christie NHS FT
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0816
-factual_fingerprint: 3040da64ea26485d1b1740b369470ca7c3a557524708e0b14d7e493c1503846e
 ---
 
 ---
@@ -3309,7 +3333,7 @@ employer: Aneurin Bevan University Health Board
 region: Wales South - Gwent
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9040-26-1041
-factual_fingerprint: ff848d3797b19da3e0b3274683543e31fdc85ea260d22ea28c035cc1e9d82af0
+factual_fingerprint: c459b6183685ecb6637e7e2fe1836355d3c0d9009aabdb5a1d2679dbef126854
 ---
 
 ---
