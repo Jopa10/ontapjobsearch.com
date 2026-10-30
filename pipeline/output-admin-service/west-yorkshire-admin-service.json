@@ -3732,11 +3732,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0936",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0936",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5686434",
@@ -3754,11 +3750,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0296-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0296-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5685226",
@@ -3776,11 +3768,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1183",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1183",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5678098",
@@ -3798,11 +3786,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1160",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1160",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5662186",
@@ -3820,11 +3804,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5694172",
@@ -3842,11 +3822,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4379-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4379-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5693252",
@@ -3864,11 +3840,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1201",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1201",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5689311",
@@ -3886,11 +3858,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1137-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1137-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5686373",
@@ -3908,11 +3876,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5220-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5220-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5684178",
@@ -3930,33 +3894,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0817-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0817-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5682586",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "Abbey Grange Medical Practice",
-    "advertiser_name": "Abbey Grange Medical Practice",
-    "location": "Leeds, LS5 3JN",
-    "region": "Yorkshire - West",
-    "salary": "£12.91",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-10-23T12:51:56.708498945",
-    "closing_date": "2026-11-15",
-    "description": "Abbey Grange Medical Practice is looking for a part time receptionist to join our friendly experienced team on a fixed term 12 month contract with a view to the position continuing after the fixed term period. The successful applicant will be working 24 hours per week over 4 days. Primary frontline contact for patients, managing patient access, communications, and administrative workflows within the practice including: Greeting and Check-in Telephone Management Care Navigation Prescription Processing Data Entry & Records Correspondence & Post New Patient Registrations Job Summary: - To assist patients both face-to-face and on the telephone with booking appointments, requests for information or access to other services provided by the practice. - To work as an effective member of the reception team ensuring that all day-to-day delegated tasks are administered to agreed timescales. - To maintain an effective patient recall system for chronic disease management. - To provide general admin duties as required Main Duties and Responsibilities: Reception - To greet patients and direct them as appropriate, maintaining a high level of professionalism at all times. - Ensure patients are checked in when arriving for appointments on the appointment system. - Signpost patients to the correct clinician or service - Accepting requests for and handing out repeat prescriptions. - Handing out letters, completed forms etc., accepting the appropriate fee and issuing a receipt. - Registration of new patients and temporary residents. - Explaining about surgery procedures. - Keeping the waiting room clean and tidy. Telephone - Receive incoming calls and deal with queries appropriately and professionally. - Record all messages in the appropriate manner according to the practice policy & workflow. - Take details of visits in accordance with practice procedure. - Order ambulances when required. - Contact & liaise with patients delivering information and messages as instructed by the GP including informing patients of test results. Computer - To book appointments or amend when required - Raise and issue repeat prescriptions in accordance with practice procedures - Scan hospital letters and other correspondence into the clinical system ensuring that they are attached to the correct patient record. - To use the choose & book system for patient choice referrals - Maintain a recall system in accordance with practice procedure for calling in patients for routine review. - General administrative duties as requested by the practice manager or admin manager Confidentiality : In the course of seeking treatment, patients entrust us with, or allow us to gather, sensitive information in relation to their health and other matters. They do so in confidence and have the right to expect that staff will respect their privacy and act appropriately. In the performance of the duties outlined in this Job Description, the post-holder may have access to confidential information relating to patients and their carers, practice staff and other healthcare workers. They may also have access to information relating to the practice as a business organisation. All such information from any source is to be regarded as strictly confidential. Information relating to patients, carers, colleagues, other healthcare workers or the business of the practice may only be divulged to authorised persons in accordance with the practice policies and procedures relating to confidentiality and the protection of personal and sensitive data. Health & Safety : The post-holder will assist in promoting and maintaining their own and others health, safety and security as defined in the practice Health & Safety Policy, to include: Using personal security systems within the workplace according to practice guidelines. Identifying the risks involved in work activities and undertaking such activities in a way that manages those risks Making effective use of training to update knowledge and skills. Using appropriate infection control procedures, maintaining work areas in a tidy and safe way and free from hazards. Reporting potential risks",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3927-26-0000",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3927-26-0000",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5659504",
@@ -3974,11 +3912,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4752-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4752-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5676393",
@@ -3996,11 +3930,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1425-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1425-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5674305",
@@ -4018,11 +3948,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5304-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5304-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5665844",
@@ -4040,11 +3966,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5995-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5995-26-0012",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5664888",
@@ -4062,11 +3984,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0534-2026-2032",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0534-2026-2032",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5656950",
@@ -4084,11 +4002,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3457-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3457-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5659053",
@@ -4106,11 +4020,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4132-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4132-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5603161",
@@ -4128,10 +4038,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0721-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0721-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]
