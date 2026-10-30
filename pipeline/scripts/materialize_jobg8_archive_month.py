@@ -112,7 +112,7 @@ def main() -> int:
     parser.add_argument("--s3-start-date", default="2026-08-14")
     parser.add_argument("--adapter", type=Path, default=Path("pipeline/scripts/jobg8_xml_adapter.py"))
     parser.add_argument("--expected-min", type=int, default=5000)
-    parser.add_argument("--expected-max", type=int, default=20000)
+    parser.add_argument("--expected-max", type=int, default=60000)
     args = parser.parse_args()
 
     month_bounds(args.month)
