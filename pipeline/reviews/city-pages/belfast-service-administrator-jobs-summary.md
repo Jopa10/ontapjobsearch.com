@@ -4,8 +4,8 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 7
+- automatic include: 3
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 8
-- effective review: 7
+- effective include: 3
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts & Payroll Administrator
-company: Hays Accounts and Finance - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225726032
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Parker Jones Group Ltd - Company - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225763981
-reason: Approved conservative Belfast launch catchment.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -57,18 +33,6 @@ company: Brook Street - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2177173
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225743179
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -88,39 +52,15 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Officer
-company: Hays Accounts and Finance - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225679035
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
-company: The Recruitment Solution - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225775436
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2202736
+job_id: jobg8-2208065
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (5)
 
 ---
 action: 
@@ -162,35 +102,11 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Contracts Administrator
-company: Rise Technical Recruitment - Agency - Permanent
-location: Antrim
-source: JobG8
-job_id: jobg8-23643_225750735
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Briggs Equipment Ltd - Agency - Contract
 location: Lisburn
 source: JobG8
 job_id: jobg8-108056565
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Larne
-source: JobG8
-job_id: jobg8-23643_225756135
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

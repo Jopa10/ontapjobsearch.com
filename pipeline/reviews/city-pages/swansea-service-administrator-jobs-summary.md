@@ -4,8 +4,8 @@
 - Live route: `/swansea/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
-- Threshold currently met: yes
+- Effective included jobs: 2
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,74 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 6
+- automatic include: 2
+- automatic review: 0
 - automatic exclude: 0
-- effective include: 7
-- effective review: 6
+- effective include: 2
+- effective review: 0
 - effective exclude: 0
 
-## INCLUDE (7)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts & Administration Assistant
-company: Blue Arrow - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225755282
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Automotive Service Advisor
-company: AKA The Recruitment Specialists - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225753695
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Document Controller
-company: Elite Construction Talent Ltd - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225739326
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Reception - Swansea
-company: Office Angels - Agency - Temporary
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225745899
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: NHS Wales Shared Services Partnership
-location: Swansea, SA6 8BX
-source: NHS Jobs
-job_id: nhs-5623771
-reason: Exact approved Swansea workplace.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -108,78 +48,6 @@ job_id: jobg8-2101939
 reason: Exact approved Swansea workplace.
 ---
 
-## REVIEW (6)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: SATI Services Ltd - Agency - Permanent
-location: Bridgend
-source: JobG8
-job_id: jobg8-23643_225696631
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator (30 hours - negotiable) - Financial Services Tech Company
-company: IntaPeople - Agency - Permanent
-location: Bridgend
-source: JobG8
-job_id: jobg8-23643_225695968
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: After Sales Coordinator
-company: Work Wales - Agency - Permanent
-location: Maesteg
-source: JobG8
-job_id: jobg8-23643_225719374
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Service Coordinator
-company: Exponential-e - Agency - Permanent
-location: Bridgend
-source: JobG8
-job_id: jobg8-23643_225514692
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Logistics Administrator
-company: Acorn by Synergie - Agency - Contract
-location: Port Talbot
-source: JobG8
-job_id: jobg8-23643_225730717
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Planning Administrator
-company: Sigma Recruitment - Agency - Permanent
-location: Bridgend
-source: JobG8
-job_id: jobg8-23643_225684248
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
+## REVIEW (0)
 
 ## EXCLUDE (0)

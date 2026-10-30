@@ -16,27 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 15
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 0
-- effective review: 15
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (15)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts & Payroll Administrator
-company: Hays Accounts and Finance - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225726032
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
+## REVIEW (8)
 
 ---
 action: 
@@ -47,18 +35,6 @@ company: Reed - Agency - Permanent
 location: Lisburn
 source: JobG8
 job_id: jobg8-2089155
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Parker Jones Group Ltd - Company - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225763981
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -102,47 +78,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Contracts Administrator
-company: Rise Technical Recruitment - Agency - Permanent
-location: Antrim
-source: JobG8
-job_id: jobg8-23643_225750735
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Briggs Equipment Ltd - Agency - Contract
 location: Lisburn
 source: JobG8
 job_id: jobg8-108056565
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225743179
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Larne
-source: JobG8
-job_id: jobg8-23643_225756135
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -162,18 +102,6 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Officer
-company: Hays Accounts and Finance - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225679035
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Advisor
 company: The Recruitment Solution (London) Ltd - Agency - Permanent
 location: Newtownards
@@ -186,23 +114,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: The Recruitment Solution - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225775436
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2202736
+job_id: jobg8-2208065
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
