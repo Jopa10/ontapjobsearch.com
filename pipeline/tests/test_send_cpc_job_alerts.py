@@ -174,7 +174,7 @@ class PrivateDailyTests(unittest.TestCase):
             args = argparse.Namespace(date="2026-10-22", reports_dir=root, app_dir=root, dry_run=dry_run, verified_production_sha=verified_sha, private_matching_sample=matched_sample, private_recipient=recipient)
             with patch.dict("os.environ", {"GITHUB_REF": branch, "GITHUB_WORKFLOW": workflow}), \
                  patch("scripts.send_cpc_job_alerts.new_cpc_jobs", return_value=[self.job]), \
-                 patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {}, {}]) as request:
+                 patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {}, {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}}, {}]) as request:
                 private_daily_test(args, api_key="fake", list_id=list_id, sender_email="jobs@example.com", secret="fake")
                 return request.call_args_list
 
@@ -185,15 +185,15 @@ class PrivateDailyTests(unittest.TestCase):
 
     def test_real_daily_match_sends_only_fixed_recipient_with_preview_links_and_records_date(self):
         calls = self.run_private(False)
-        self.assertEqual([call.args[0] for call in calls], ["GET", "POST", "PUT"])
-        payload = calls[1].args[3]
+        self.assertEqual([call.args[0] for call in calls], ["GET", "PUT", "GET", "POST"])
+        payload = calls[3].args[3]
         self.assertEqual(payload["to"], [{"email": "jpbt801@gmail.com"}])
         self.assertIn("[Private daily test]", payload["subject"])
         self.assertIn("https://www.ontapjobsearch.com/jobs/new-job", payload["textContent"])
         self.assertIn("https://ontapjobsearchcom-git-feat-cpc-job-alerts-brevo-ontap1.vercel.app/job-alerts/unsubscribe?", payload["textContent"])
         import uuid
         self.assertEqual(str(uuid.UUID(payload["headers"]["idempotencyKey"])), payload["headers"]["idempotencyKey"])
-        self.assertEqual(calls[2].args[3], {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}})
+        self.assertEqual(calls[1].args[3], {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}})
 
     def test_unsubscribed_or_unconsented_contact_is_rejected(self):
         from scripts.send_cpc_job_alerts import DeliveryError
