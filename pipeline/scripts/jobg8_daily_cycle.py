@@ -1,4 +1,4 @@
-"""Resolve and persist the two idempotent JobG8 refresh cycles per UK day."""
+"""Resolve and persist idempotent JobG8 refresh cycles per UK day."""
 from __future__ import annotations
 
 import argparse
@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 
 
 LONDON = ZoneInfo("Europe/London")
-CYCLES = {"morning", "evening"}
+CYCLES = {"morning", "evening", "changeover"}
 SCHEDULE_CYCLES = {"30 7 * * *": "morning", "30 15 * * *": "evening"}
 DEFAULT_STATE_PATH = Path("pipeline/reports-daily/jobg8-daily-cycle-state.json")
 
@@ -46,7 +46,11 @@ def load_state(path: Path) -> dict:
 
 
 def completed(state: dict, date: str, cycle: str) -> bool:
-    return cycle in state["completed_cycles"].get(date, {})
+    day_cycles = state["completed_cycles"].get(date, {})
+    # A successful same-day expanded-feed changeover replaces the evening retry.
+    if cycle == "evening" and "changeover" in day_cycles:
+        return True
+    return cycle in day_cycles
 
 
 def mark_completed(state: dict, date: str, cycle: str, run_id: str, at: datetime) -> dict:

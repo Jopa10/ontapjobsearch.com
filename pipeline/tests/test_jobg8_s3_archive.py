@@ -1,7 +1,7 @@
 from datetime import date
 import unittest
 
-from scripts.jobg8_s3_archive import canonical_key, dated_key_day, retention_cutoff
+from scripts.jobg8_s3_archive import canonical_key, dated_key_day, preservation_key, retention_cutoff
 
 
 class JobG8S3ArchiveTests(unittest.TestCase):
@@ -9,6 +9,18 @@ class JobG8S3ArchiveTests(unittest.TestCase):
         self.assertEqual(
             canonical_key("jobg8/raw", date(2026, 8, 14)),
             "jobg8/raw/2026-08-14.zip",
+        )
+
+    def test_pre_changeover_copy_has_a_distinct_key_for_same_date(self):
+        self.assertEqual(
+            preservation_key("jobg8/raw", date(2026, 10, 30), "pre-changeover"),
+            "jobg8/raw/2026-10-30-pre-changeover.zip",
+        )
+
+    def test_retention_recognizes_preserved_pre_changeover_copy(self):
+        self.assertEqual(
+            dated_key_day("jobg8/raw/2026-10-30-pre-changeover.zip", "jobg8/raw"),
+            date(2026, 10, 30),
         )
 
     def test_retention_cutoff_keeps_exactly_ninety_calendar_dates(self):

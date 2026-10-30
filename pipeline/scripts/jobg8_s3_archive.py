@@ -16,6 +16,12 @@ def canonical_key(prefix: str, archive_date: date) -> str:
     return f"{clean_prefix}/{name}" if clean_prefix else name
 
 
+def preservation_key(prefix: str, archive_date: date, suffix: str) -> str:
+    clean_prefix = prefix.strip("/")
+    name = f"{archive_date.isoformat()}-{suffix}.zip"
+    return f"{clean_prefix}/{name}" if clean_prefix else name
+
+
 def retention_cutoff(archive_date: date, keep_days: int) -> date:
     if keep_days < 1:
         raise ValueError("keep_days must be at least 1")
@@ -32,6 +38,8 @@ def dated_key_day(key: str, prefix: str) -> date | None:
     relative = key[len(expected_prefix) :]
     if "/" in relative:
         return None
+    if relative.endswith("-pre-changeover.zip"):
+        relative = relative.replace("-pre-changeover.zip", ".zip")
 
     match = _DATE_FILE_RE.fullmatch(relative)
     if not match:
@@ -53,6 +61,7 @@ def archive_and_prune(
     keep_days: int,
     endpoint_url: str | None = None,
     prune: bool = True,
+    preserve_existing_as: str | None = None,
 ) -> tuple[str, list[str]]:
     if not zip_path.is_file() or zip_path.stat().st_size <= 0:
         raise SystemExit(f"Archive source is missing or empty: {zip_path}")
@@ -73,6 +82,31 @@ def archive_and_prune(
 
     key = canonical_key(prefix, archive_date)
     source_size = zip_path.stat().st_size
+
+    if preserve_existing_as:
+        preserved = preservation_key(prefix, archive_date, preserve_existing_as)
+        try:
+            existing = client.head_object(Bucket=bucket, Key=key)
+        except Exception as exc:
+            code = str(getattr(exc, "response", {}).get("Error", {}).get("Code", ""))
+            if code not in {"404", "NoSuchKey", "NotFound"}:
+                raise
+        else:
+            try:
+                client.head_object(Bucket=bucket, Key=preserved)
+            except Exception as exc:
+                code = str(getattr(exc, "response", {}).get("Error", {}).get("Code", ""))
+                if code not in {"404", "NoSuchKey", "NotFound"}:
+                    raise
+                client.copy_object(
+                    Bucket=bucket,
+                    Key=preserved,
+                    CopySource={"Bucket": bucket, "Key": key},
+                    ServerSideEncryption="AES256",
+                )
+                copied = client.head_object(Bucket=bucket, Key=preserved)
+                if int(copied.get("ContentLength", -1)) != int(existing.get("ContentLength", -2)):
+                    raise SystemExit(f"Archive preservation verification failed for s3://{bucket}/{preserved}")
 
     client.upload_file(
         str(zip_path),
@@ -123,6 +157,7 @@ def main() -> int:
         help="Upload and verify only; let the S3 bucket lifecycle rule expire old objects.",
     )
     parser.add_argument("--date", dest="archive_date")
+    parser.add_argument("--preserve-existing-as", choices=("pre-changeover",))
     parser.add_argument("--endpoint-url")
     args = parser.parse_args()
 
@@ -140,6 +175,7 @@ def main() -> int:
         keep_days=args.keep_days,
         endpoint_url=args.endpoint_url or None,
         prune=not args.skip_prune,
+        preserve_existing_as=args.preserve_existing_as,
     )
 
     print(f"Archived validated JobG8 raw feed: s3://{args.bucket}/{key}")

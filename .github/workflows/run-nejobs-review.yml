@@ -56,7 +56,7 @@ jobs:
             --zip "$RUNNER_TEMP/jobg8.zip" \
             --output pipeline/input/jobg8.xlsx \
             --expected-min 5000 \
-            --expected-max 20000
+            --expected-max 60000
 
       - name: Refresh review
         working-directory: pipeline
