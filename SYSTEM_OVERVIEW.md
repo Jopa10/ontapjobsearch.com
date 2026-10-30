@@ -10,6 +10,9 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 30 October 2026 — **Repeatable manual JobG8 recovery:** choose `cycle=recovery` in Run full JobG8 daily process and supply `recovery_reason`. Each new dispatch can run a fresh full feed cycle regardless of completed normal cycles. The existing concurrency lock serialises runs; routine cycle markers remain separate. Successful recoveries are audited in `jobg8-daily-cycle-state.json` under `recovery_runs` with run ID, UK date/time, reason and actor; attempts remain in Actions logs. Retrying an already completed run ID skips processing. Recovery does not trigger automatic publication; run Publish verified pages after reviewing the regenerated outputs.
+
+
 - 30 October 2026 — **50k expansion pages approved for the next verified publish:** the LIVE register now contains 16 additional region/family pages, including newly configured Wirral and Lanarkshire regions, and the broad-city register contains 19 additional all-jobs city pages. These registrations do not publish job data or deploy by themselves; the usual verified publish and deployment are the next step. The current registers show 239 LIVE region/family slices, 8 candidates, 54 family-city routes and 41 broad-city routes.
 
 - 29 October 2026 — **Expanded-feed changeover controls prepared:** a distinct same-day run and publish path, 60k downstream feed readers, and preservation of the morning raw archive are prepared separately. The external cron-job.org fallback still needs disabling. No production changes are active.
@@ -219,7 +222,7 @@ Private daily job alerts now use the owner-approved role/location/salary matchin
 Core controls are:
 
 - scheduled source refresh/reviews, including NEJobs, VONNE, Teaching Vacancies regional/master review and the NHS Administrative & Clerical review refresh at 10:05 UTC;
-- the twice-daily full JobG8 process, which refreshes and composes NHS transactionally, generates every approved registered family slice, persists the current **78-market × eight-family (624-row)** diagnostic snapshot, and records/replaces that feed date in the rolling 14-date family coverage history;
+- the morning full JobG8 process (with explicit manual recovery), which refreshes and composes NHS transactionally, generates every approved registered family slice, persists the current **78-market × eight-family (624-row)** diagnostic snapshot, and records/replaces that feed date in the rolling 14-date family coverage history;
 - one master daily owner review;
 - one owner-facing apply/publish orchestrator, started after the morning review has been saved and emailed, with manual `PUBLISH` control and an 11:45 Europe/London no-edit recovery safety net;
 - one owner-facing **Ontap daily status** workflow on the Actions page, combining morning source/review readiness with the final manual-or-automatic publication and deployment receipt;
@@ -259,3 +262,4 @@ Reconciled from `pipeline/registers/region_category_slice_register.csv` on 30 Oc
 
 The full JobG8 workflow assesses all eight families across all 78 UK markets (624 rows) and retains up to 14 feed-date snapshots. The shared city mechanism owns 54 active permanent routes (53 Admin and office, one Support Worker). Production deployment uses a Vercel CLI deployment after successful verified-page publishing; automatic Git builds are disabled. NHS Administrative & Clerical inventory is isolated safely on feed failure, remains capped at 20% per Service Admin page and uses the 4+1 display order. Live vacancy pages and search use deployment-built static/current inventory; expired-job recovery remains separate. Teaching Vacancies retains the source-isolation and concurrent-write safeguards described above.
 - 21 September 2026 — **Google indexing now gives JobG8 first claim on the daily allowance:** after the fixed deletion allowance, every available eligible JobG8 URL is selected before any non-JobG8 URL. Non-paying sources are capped at **20 of 200 submissions (10%)**; unused JobG8 capacity is never released to them. Workflow summaries now show live inventory, indexing candidates and selected submissions by source.
+

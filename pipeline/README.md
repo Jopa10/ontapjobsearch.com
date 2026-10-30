@@ -10,7 +10,7 @@ The primary JobG8 entry point is:
 
 - `.github/workflows/run-full-jobg8-daily-process.yml`
 
-It runs twice daily and performs the current production path:
+It runs at 07:30 Europe/London and performs the current production path:
 
 `JobG8 feed → materialize pipeline/input/jobg8.xlsx → validate → classify/select LIVE slices → compose approved external-source jobs → enrich metadata → assess 78-market UK family coverage → write pipeline outputs/reviews/reports → commit generated state`
 
@@ -22,6 +22,10 @@ The active category processing used by that workflow includes:
 - category and region authority under `registers/` and `config/`
 
 The old dated monolithic May 2026 JobG8 script is no longer the production entry point and has been removed from the working tree. Git history retains it if historical inspection is ever required.
+
+## Manual full-feed recovery
+
+In **Run full JobG8 daily process**, select `cycle=recovery` and supply a nonblank `recovery_reason`. Each fresh dispatch may run again on the same UK day, including after a changeover. The existing concurrency group serialises feed runs. Scheduled/normal cycle completion protection remains intact; a completed recovery run ID is skipped on rerun. Successful recoveries are recorded separately under `recovery_runs` in the cycle-state JSON with reason, actor, run ID and completion time. GitHub Actions retains the attempt log, including failures. After recovery, review the regenerated outputs and dispatch **Publish verified pages**; recovery does not start automatic publication.
 
 ## Current JobG8 materialization
 
@@ -117,3 +121,4 @@ Their GitHub Actions workflows are manual/specialist workflows and should remain
 3. Prefer extending that mechanism to introducing another workflow or folder.
 4. Add or update tests for changed behaviour.
 5. Update canonical documentation in the same change when persistent architecture changes.
+

@@ -29,6 +29,8 @@ def resolve_cycle(event_name: str, schedule: str, requested_cycle: str, now: dat
             return SCHEDULE_CYCLES[schedule]
         except KeyError as error:
             raise ValueError(f"unknown JobG8 schedule: {schedule!r}") from error
+    if requested_cycle == "recovery" and event_name == "workflow_dispatch":
+        return "recovery"
     if requested_cycle in CYCLES:
         return requested_cycle
     if requested_cycle != "auto":
@@ -77,6 +79,8 @@ def main() -> None:
     parser.add_argument("--requested-cycle", default="auto")
     parser.add_argument("--state", type=Path, default=DEFAULT_STATE_PATH)
     parser.add_argument("--run-id", default="")
+    parser.add_argument("--recovery-reason", default="")
+    parser.add_argument("--actor", default="")
     parser.add_argument("--now", help="ISO-8601 timestamp with offset; test use only")
     parser.add_argument("--github-output", type=Path)
     args = parser.parse_args()
@@ -86,11 +90,25 @@ def main() -> None:
     date = now.date().isoformat()
     state = load_state(args.state)
     should_run = not completed(state, date, cycle)
+    if cycle == "recovery":
+        reason = args.recovery_reason.strip()
+        if not reason or not args.run_id:
+            parser.error("manual recovery requires --recovery-reason and --run-id")
+        recoveries = state.setdefault("recovery_runs", {})
+        should_run = args.run_id not in recoveries
+        print(f"Manual recovery requested by {args.actor}: {reason}")
 
     if args.command == "mark":
         if not args.run_id:
             raise ValueError("--run-id is required when marking a completed cycle")
-        write_state(args.state, mark_completed(state, date, cycle, args.run_id, now))
+        if cycle == "recovery":
+            recoveries[args.run_id] = {
+                "date": date, "completed_at": now.isoformat(),
+                "run_id": args.run_id, "reason": reason, "actor": args.actor,
+            }
+            write_state(args.state, state)
+        else:
+            write_state(args.state, mark_completed(state, date, cycle, args.run_id, now))
         should_run = False
 
     lines = [f"cycle={cycle}", f"date={date}", f"should_run={'true' if should_run else 'false'}"]
@@ -103,3 +121,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
