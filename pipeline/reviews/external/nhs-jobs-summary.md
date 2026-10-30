@@ -2,15 +2,51 @@
 
 review_date: 2026-10-30
 
-- Open Administrative & Clerical rows reviewed: 2216
+- Open Administrative & Clerical rows reviewed: 2212
 - Auto/remembered selected: 454
 - Selected HC Tier A: 240
 - Selected HC Tier B: 214
-- POSS awaiting decision: 1675
+- POSS awaiting decision: 1671
 - Excluded: 0
 - HARD_PASS: 87
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS1 3EX | £28392.00 to £31157.00 | Data Quality Manager - Neonates
+source_job_id: 5696812
+title: Data Quality Manager - Neonates
+employer: Leeds Teaching Hospitals
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1211
+factual_fingerprint: 8d04d62f6b157bf56ae81cdb27a17c25cf8825fcb109b3492398ff98437d1f1e
+---
+
+---
+action:
+POSS | NHS Jobs | Lancashire - Central | Chorley, PR7 2AD | £30000.00 to £35000.00 | Assistant Practice Manager - IT & Data
+source_job_id: 5696774
+title: Assistant Practice Manager - IT & Data
+employer: Library House Surgery
+region: Lancashire - Central
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0252-26-0012
+factual_fingerprint: d86894495ef2b95f3c452a37ff9bbca3bfce7742956659c70cf6137117bcae07
+---
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Petersfield, GU32 3LB | £25760.00 to £27476.00 | Ward Clerk - Cedar Ward
+source_job_id: 5696751
+title: Ward Clerk - Cedar Ward
+employer: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2418
+factual_fingerprint: 7d778f0e0a1d0f182e150c673b39fd89dcc2ae7415c3e21bdf1fc68c16982d90
+---
 
 ---
 action:
@@ -346,18 +382,6 @@ region: Buckinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0799
 factual_fingerprint: f5b685b72eb6d70b2b30a8f1f13037742765f34bda7ea0aba79b601fcb8fd5c1
----
-
----
-action:
-POSS | NHS Jobs | Shropshire | Shrewsbury, SY2 6FG | £32073.00 to £39043.00 | Information Analyst
-source_job_id: 5690775
-title: Information Analyst
-employer: Shropshire Community Health NHS Trust
-region: Shropshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9825-26-0350
-factual_fingerprint: 9062603d0b9cbb70109fa67901f94cd4b6b661be19c6b154f59284935907bf43
 ---
 
 ---
@@ -3554,18 +3578,6 @@ factual_fingerprint: 07c32b0875e6cb0218a2a546e6fe4e7e7ab49214f3da1c64c855012f5fa
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B29 6JG | £12.71 | HR Apprentice
-source_job_id: 5691840
-title: HR Apprentice
-employer: South Doc Services
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3716-26-0019
-factual_fingerprint: a7dd6cee2f164214f5854e3a9f8e731fe9c12371d1d7bc7cecfe322bb3e8ab1c
----
-
----
-action:
 POSS | NHS Jobs | Wiltshire | Swindon, SN1 2DQ, SWINDON, SN5 5AN, SWINDON, SN1 2QU | £12.71 | Business Team Administrator
 source_job_id: 5647178
 title: Business Team Administrator
@@ -4798,18 +4810,6 @@ region: West Midlands - Coventry & Warwickshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9230-26-0329
 factual_fingerprint: eeba129d00eb54d3bb8857c8c5737dbef10c23f6d0a2f8d1f3e758becf229952
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B13 8QY | £32073.00 to £39043.00 | Band 5 Reporting Analyst - Trust HQ
-source_job_id: 5689271
-title: Band 5 Reporting Analyst - Trust HQ
-employer: Birmingham and Solihull Mental Health NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9436-26-0721
-factual_fingerprint: 69cbc4ff603b46a418d5c581b87f2777d82bf97c1fac7b15f99f369912b9b0f6
 ---
 
 ---
@@ -6386,18 +6386,6 @@ factual_fingerprint: 4e38a8803f75cd777de0affde16264769e224af557474cda89d8e3c0dfd
 
 ---
 action:
-POSS | NHS Jobs | Berkshire | Slough, SL2 5BX | £33677.00 to £40996.00 | Business Support Manager
-source_job_id: 5687844
-title: Business Support Manager
-employer: Berkshire Healthcare Foundation Trust
-region: Berkshire
-reason: BRIDGEABLE: NHS admin/service title registry
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0858
-factual_fingerprint: 4a284ca294c8da3e1b8c005885429bc7927d210a14185823d272a404cb360523
----
-
----
-action:
 POSS | NHS Jobs | Buckinghamshire | Milton Keynes, MK6 5LD | £28392.00 to £31157.00 | Endoscopy Booking Coordinator
 source_job_id: 5687889
 title: Endoscopy Booking Coordinator
@@ -6814,18 +6802,6 @@ region: West Midlands - Birmingham & Solihull
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9303-26-0169
 factual_fingerprint: d32c7ff51d3e79647127d51449f0b69e1ebe197933fc246269755bc75d65cf4e
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B31 2AP | £32073.00 to £39043.00 | Application Support Administrator
-source_job_id: 5687384
-title: Application Support Administrator
-employer: The Royal Orthopaedic Hospital NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9303-26-0168
-factual_fingerprint: e419b089c661cabc21ad89245a9dd871980b8f1b78d5a57669bf1f6493106aa3
 ---
 
 ---
@@ -9578,18 +9554,6 @@ factual_fingerprint: a13577e6d690829b3fdaa27431df30862d34712acc9033cd879d971ea53
 
 ---
 action:
-POSS | NHS Jobs | London | Kingston Upon Thames, KT2 5BF | £38000.00 to £43000.00 | Management Accountant
-source_job_id: 5683620
-title: Management Accountant
-employer: DoctorPA Secure LTD
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0454-26-0405
-factual_fingerprint: 3ec15130236c63cb8d44285152aa5d261d2af94f608ea411248bc57ee97d972e
----
-
----
-action:
 POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L1 4AP | £25272.00 | Receptionist - Axess Sexual Health
 source_job_id: 5683543
 title: Receptionist - Axess Sexual Health
@@ -10510,18 +10474,6 @@ region: North Wales - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2482
 factual_fingerprint: 7eae9c376650bffe0446024843d243a9ec0d1c57da4d9477cbf6e728fa5451b7
----
-
----
-action:
-POSS | NHS Jobs | Hertfordshire | Stevenage, SG1 4AB | £28392.00 to £31157.00 | Fundraising Data Administrator
-source_job_id: 5681489
-title: Fundraising Data Administrator
-employer: East and North Hertfordshire Teaching NHS Trust
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0636
-factual_fingerprint: 2715272609168b9f673eb830c83cf67f7463846d0eb30c0b324b0bffe6b3a403
 ---
 
 ---
@@ -19677,7 +19629,7 @@ employer: Royal Papworth Hospital NHS Foundation Trust
 region: Cambridgeshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9175-26-0284
-factual_fingerprint: 23edd14da32209ef0f30a42f3948c7306f44cb4c0c77fd4b598aedb9bfdc9dde
+factual_fingerprint: 207385725cc4ace13be4e3a762d1f7cd54dc7f145d231ff76c82bc9497afe658
 ---
 
 ---
