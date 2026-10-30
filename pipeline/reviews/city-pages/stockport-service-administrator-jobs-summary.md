@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 18
+- automatic review: 17
 - automatic exclude: 0
 - effective include: 14
-- effective review: 18
+- effective review: 17
 - effective exclude: 0
 
 ## INCLUDE (14)
@@ -160,11 +160,11 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Support Administrator
-company: Forrest Recruitment - Agency - Permanent
+title: Sales Administrator
+company: Adecco - Agency - Temporary
 location: Stockport
 source: JobG8
-job_id: jobg8-23643_225671741
+job_id: jobg8-23643_225778251
 reason: Exact approved Stockport workplace.
 ---
 
@@ -192,7 +192,7 @@ job_id: jobg8-23643_225771463
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (17)
 
 ---
 action: 
@@ -275,18 +275,6 @@ company: Barrington Medical Centre Partnership
 location: Altrincham, WA14 1PF
 source: NHS Jobs
 job_id: nhs-5660746
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Finance Officer
-company: Hays Accounts and Finance - Agency - Temporary
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225710489
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

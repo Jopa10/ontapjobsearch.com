@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 38
+- automatic review: 37
 - automatic exclude: 0
 - effective include: 8
-- effective review: 38
+- effective review: 37
 - effective exclude: 0
 
 ## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Manager
-company: Team Jobs - Commercial - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225704186
-reason: Exact approved Poole workplace.
----
 
 ---
 action: 
@@ -112,6 +100,18 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Administrator
+company: Ashley Rees Associates - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225776924
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Clerk
 company: McGinnis Loy Associates Ltd - Agency - Permanent
 location: Poole
@@ -120,7 +120,7 @@ job_id: jobg8-2181226
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (37)
 
 ---
 action: 
@@ -131,18 +131,6 @@ company: Collaborate Recruitment - Agency - Permanent
 location: Broadstone
 source: JobG8
 job_id: jobg8-23643_225761280
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2055800
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -162,11 +150,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Connect2Dorset - Agency - Temporary
-location: Shaftesbury
+title: Activities Coordinator
+company: Care UK - Company - Permanent
+location: Dorset
 source: JobG8
-job_id: jobg8-23643_225733619
+job_id: jobg8-108242620
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -199,10 +187,10 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Michael Page Finance - Agency - Permanent
-location: Dorset
+company: CMA Recruitment Group - Agency - Contract
+location: Ferndown
 source: JobG8
-job_id: jobg8-2055576
+job_id: jobg8-23643_225775336
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -211,10 +199,10 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Michael Page Finance - Agency - Permanent
-location: Sherborne
+company: Flux Pumps - Agency - Permanent
+location: Dorset
 source: JobG8
-job_id: jobg8-2058934
+job_id: jobg8-23643_225776346
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -330,11 +318,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Document Administrator
-company: Randstad Construction and Property - Agency - Permanent
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225755741
+job_id: jobg8-108203744
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -342,11 +330,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: English Department Administrator & Librarian
-company: The Bishop of Winchester Academy
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-english-department-administrator-librarian-the-bishop-of-winchester-academy
+title: Document Administrator
+company: Randstad Construction and Property - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225755741
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 36
-- automatic exclude: 32
-- effective include: 11
-- effective review: 36
-- effective exclude: 32
+- automatic include: 9
+- automatic review: 34
+- automatic exclude: 29
+- effective include: 9
+- effective review: 34
+- effective exclude: 29
 
-## INCLUDE (11)
+## INCLUDE (9)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Page Group - Agency - Permanent
 location: Oxford
 source: JobG8
 job_id: jobg8-2087522
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Patient Pathway Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 7LE
-source: NHS Jobs
-job_id: nhs-5680081
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -124,18 +112,6 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DU
-source: NHS Jobs
-job_id: nhs-5680116
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist/Front of House Co-ordinator
 company: Adecco - Agency - Permanent
 location: Oxford
@@ -156,7 +132,7 @@ job_id: jobg8-2074696
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (36)
+## REVIEW (34)
 
 ---
 action: 
@@ -179,18 +155,6 @@ company: Care UK - Company - Permanent
 location: Witney
 source: JobG8
 job_id: jobg8-108062084
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Witney
-source: JobG8
-job_id: jobg8-23643_225748736
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -263,18 +227,6 @@ company: Berry Recruitment - Agency - Permanent
 location: Abingdon
 source: JobG8
 job_id: jobg8-23643_225774219
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Corporate Communications Specialist
-company: Michael Page - Agency - Temporary
-location: Abingdon
-source: JobG8
-job_id: jobg8-23643_225764950
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -450,6 +402,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment & HR Administrator
+company: Adecco - Agency - Permanent
+location: Thame
+source: JobG8
+job_id: jobg8-23643_225776442
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Repairs Planner
 company: Daniel Owen Ltd - Agency - Contract
 location: Thame
@@ -546,18 +510,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Finance Assistant
-company: Planet Recruitment - Agency - Temporary
-location: Abingdon
-source: JobG8
-job_id: jobg8-23643_225768723
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Finance Manager
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Witney
@@ -590,7 +542,7 @@ job_id: nhs-5664768
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -601,18 +553,6 @@ company: Butler Rose - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2065837
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Activities Coordinator
-company: Care UK - Company - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-108227130
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -644,18 +584,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Bookkeeper (AAT Qualified or Equivalent)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2060274
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Conveyancing Assistant
 company: GWR Legal Recruitment Ltd - Agency - Permanent
 location: Oxfordshire
@@ -673,18 +601,6 @@ company: Robert Half - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2067685
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: E-Commerce Marketing Executive
-company: Robert Half - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2059348
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -824,6 +740,30 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing Assistant/office assistant
+company: Bruce Hopkins Ltd - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225777987
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Manager - FTC
+company: The Advocate Group - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225779204
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Order-Processing Administrator
 company: Michael Page - Agency - Permanent
 location: Oxfordshire
@@ -884,18 +824,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Procurement Administrator
-company: Orion Electrotech - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225669209
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Project & Procurement Assistant
 company: One Way Resourcing - Agency - Permanent
 location: Oxfordshire
@@ -937,18 +865,6 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225767103
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2055389
 reason: Broad county location; not Oxford-city evidence.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 58
+- automatic review: 60
 - automatic exclude: 0
 - effective include: 18
-- effective review: 58
+- effective review: 60
 - effective exclude: 0
 
 ## INCLUDE (18)
@@ -112,18 +112,6 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: Michael Page - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225669530
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor (Temp)
 company: CCA Recruitment Group - Agency - Contract
 location: Northampton
@@ -153,6 +141,18 @@ company: Perfect Placement - Agency - Permanent
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225716110
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Insurance Sales Executive
+company: Cowell Recruitment Ltd - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-2205372
 reason: Exact approved Northampton workplace.
 ---
 
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225761870
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (60)
 
 ---
 action: 
@@ -306,6 +306,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Administrator (Office Based)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225778261
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator - Northampton
 company: Blue Arrow - Agency - Temporary
 location: Northamptonshire
@@ -347,6 +359,18 @@ company: SolviT Recruitment Ltd - Agency - Temporary
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225772720
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Administrator
+company: Astute People - Agency - Permanent
+location: Kettering
+source: JobG8
+job_id: jobg8-23643_225778686
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -462,11 +486,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Events Administrator in Motorsport
-company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
+title: Facilities Coordinator
+company: Major Recruitment North West Perms - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-2060783
+job_id: jobg8-23643_225721443
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -474,11 +498,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Facilities Coordinator
-company: Major Recruitment North West Perms - Agency - Permanent
+title: Finance Administrator (Payroll)
+company: First Military Recruitment Ltd - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-23643_225721443
+job_id: jobg8-23643_225778984
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -539,6 +563,18 @@ company: Advanced Access Platforms - Agency - Permanent
 location: Corby
 source: JobG8
 job_id: jobg8-23643_225718945
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Hire Coordinator
+company: Interaction Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225777330
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -647,18 +683,6 @@ company: Plus One Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225716302
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Administrator
-company: Provit Recruitment - Agency - Permanent
-location: Rushden
-source: JobG8
-job_id: jobg8-23643_225669422
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -822,18 +846,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Safeguarding Administrator
-company: Simply Education Ltd - Agency - Contract
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225673908
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Administrator
 company: Adecco - Agency - Permanent
 location: Wellingborough
@@ -851,6 +863,18 @@ company: Interaction Recruitment - Agency - Temporary
 location: Corby
 source: JobG8
 job_id: jobg8-23643_225724757
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Administrator
+company: Travail Employment Group - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225779297
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -930,11 +954,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Vehicle Bodyshop Advisor/administrator
-company: Gardiner Motors Ltd - Agency - Permanent
+title: Vehicle Warranty Coordinator
+company: MEM Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-23643_225469707
+job_id: jobg8-108245810
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 17
+- automatic include: 18
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 21
-- effective review: 17
+- effective include: 18
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (18)
 
 ---
 action: 
@@ -45,30 +45,6 @@ company: Stafforce Recruitment - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225730083
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Edwards & Pearce - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225676829
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-2060366
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -117,18 +93,6 @@ company: KD Recruitment - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225715470
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator / Coordinator
-company: KD Recruitment - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225671266
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -276,7 +240,7 @@ job_id: jobg8-23643_225713565
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -390,6 +354,18 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: SI Recruitment - Agency - Permanent
+location: Goole
+source: JobG8
+job_id: jobg8-107919887
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Clerk
 company: Castle Employment - Agency - Permanent
 location: Bridlington
@@ -455,30 +431,6 @@ company: Forrest Recruitment - Agency - Contract
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225681960
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Bookkeeper
-company: KD Recruitment - Agency - Temporary
-location: Bridlington
-source: JobG8
-job_id: jobg8-23643_225671097
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Bookkeeper
-company: KD Recruitment Limited - Agency - Permanent
-location: Bridlington
-source: JobG8
-job_id: jobg8-2055402
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

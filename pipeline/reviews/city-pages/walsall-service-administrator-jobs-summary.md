@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 45
+- automatic include: 6
+- automatic review: 42
 - automatic exclude: 0
-- effective include: 5
-- effective review: 45
+- effective include: 6
+- effective review: 42
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Service Administrator
+company: Alma Personnel - Agency - Permanent
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_225778060
+reason: Exact approved Walsall workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Team Administrator
 company: Black Country Healthcare NHS Foundation Trust
 location: Walsall, WS3 1SJ
@@ -84,7 +96,7 @@ job_id: nhs-5691607
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (42)
 
 ---
 action: 
@@ -95,18 +107,6 @@ company: Alma Personnel - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225710433
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: Hygrove Partners Ltd - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-23643_225673142
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -203,6 +203,18 @@ company: The Royal Wolverhampton NHS Trust
 location: Wolverhampton, WV10 9RU
 source: NHS Jobs
 job_id: nhs-5672149
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: The Royal Wolverhampton NHS Trust
+location: Wolverhampton, WV10 9RU
+source: NHS Jobs
+job_id: nhs-5695749
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -318,18 +330,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Delivery Admin Assistant
-company: MET Recruitment UK LTD - Agency - Temporary
-location: Wednesbury
-source: JobG8
-job_id: jobg8-23643_225668913
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Financial Services Secretary/Administrator
 company: Gleeson Recruitment Group - Agency - Contract
 location: Dudley
@@ -378,42 +378,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Russell House Surgery
-location: Wolverhampton, WV8 1PE
-source: NHS Jobs
-job_id: nhs-5682858
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist/ Administrator
-company: Showell Park Health Centre
-location: Wolverhampton, WV10 9ST
-source: NHS Jobs
-job_id: nhs-5667281
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Administrator
-company: Industrial Recruitment Solutions Ltd - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-23643_225673345
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Pastoral Admin Assistant
 company: Wolverhampton Girls' High School
 location: Wolverhampton
@@ -443,6 +407,18 @@ company: Doocey Group - Agency - Permanent
 location: Tipton
 source: JobG8
 job_id: jobg8-23643_225347190
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Production Administrator
+company: Major Recruitment Oldbury - Agency - Permanent
+location: Oldbury
+source: JobG8
+job_id: jobg8-23643_225779566
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -510,24 +486,24 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Administrator
-company: Concept Recruitment Group Ltd - Agency - Temporary
-location: Kingswinford
-source: JobG8
-job_id: jobg8-23643_225671634
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales & Marketing Coordinator
 company: Pertemps Black Country Perms - Agency - Permanent
 location: Halesowen
 source: JobG8
 job_id: jobg8-23643_225741797
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Groomfield Recruitment Ltd - Agency - Permanent
+location: West Bromwich
+source: JobG8
+job_id: jobg8-23643_225774591
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 13
-- automatic exclude: 48
+- automatic review: 11
+- automatic exclude: 49
 - effective include: 4
-- effective review: 13
-- effective exclude: 48
+- effective review: 11
+- effective exclude: 49
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225749128
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (11)
 
 ---
 action: 
@@ -114,18 +114,6 @@ reason: No approved Barnsley catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Digital Administration Assistant
-company: Back TO Work - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225754435
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Ecommerce Marketing Executive
 company: Cavendish Maine Recruitment - Agency - Permanent
 location: Yorkshire
@@ -155,18 +143,6 @@ company: Ranson Barnes Recruitment Limited - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225733777
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior AEO Marketing Executive
-company: Back TO Work - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225754398
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -230,7 +206,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (48)
+## EXCLUDE (49)
 
 ---
 action: 
@@ -253,6 +229,18 @@ company: Rotherham Doncaster and South Humber NHSFT
 location: Doncaster, DN4 6ED
 source: NHS Jobs
 job_id: nhs-5693518
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5694088
 reason: Separate employment market.
 ---
 
@@ -392,18 +380,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Adviser
-company: Unipart - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225691891
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Estates Compliance and Administrative Assistant
 company: Place Partnership A Multi Academy Trust
 location: Rotherham
@@ -428,11 +404,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance Officer
+company: Venatu Consulting Ltd - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225774042
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR & Operations Coordinator
 company: Carrington West - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225726094
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator
+company: One Health Group
+location: Sheffield, S11 8UX
+source: NHS Jobs
+job_id: nhs-5695628
 reason: Separate employment market.
 ---
 
@@ -452,35 +452,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Assistant
-company: Talent-UK Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225673478
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Income Assistant / Finance Administrator - Local Authority
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2067582
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Insolvency Administrator
-company: ECS RECRUITMENT LIMITED - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225631448
 reason: Separate employment market.
 ---
 
@@ -517,6 +493,18 @@ company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Payroll Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225346567
 reason: Separate employment market.
 ---
 
@@ -609,10 +597,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Purchase Ledger Clerk
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Sheffield
+company: Elevation Recruitment Group - Agency - Permanent
+location: Doncaster
 source: JobG8
-job_id: jobg8-2063431
+job_id: jobg8-2204103
 reason: Separate employment market.
 ---
 
@@ -622,9 +610,9 @@ decision: exclude
 automatic_decision: exclude
 title: Purchase Ledger Clerk
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Rotherham
+location: Sheffield
 source: JobG8
-job_id: jobg8-2087559
+job_id: jobg8-2063431
 reason: Separate employment market.
 ---
 
@@ -649,18 +637,6 @@ company: STEPS Rehabilitation
 location: Sheffield, S7 2QA
 source: NHS Jobs
 job_id: nhs-5686823
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Sheffield, S6 4TF
-source: NHS Jobs
-job_id: nhs-5693951
 reason: Separate employment market.
 ---
 
@@ -805,5 +781,17 @@ company: Rotherham Hospice - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225728023
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Clerk
+company: The Rotherham NHS Foundation Trust
+location: ROTHERHAM, S60 2UD
+source: NHS Jobs
+job_id: nhs-5695575
 reason: Separate employment market.
 ---

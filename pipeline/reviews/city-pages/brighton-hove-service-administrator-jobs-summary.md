@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 73
-- automatic exclude: 21
+- automatic review: 70
+- automatic exclude: 20
 - effective include: 8
-- effective review: 73
-- effective exclude: 21
+- effective review: 70
+- effective exclude: 20
 
 ## INCLUDE (8)
 
@@ -120,7 +120,7 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (73)
+## REVIEW (70)
 
 ---
 action: 
@@ -138,35 +138,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: Lloyd Recruitment - East Grinstead - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225676371
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Lloyd Recruitment Services Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2059988
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Payable Assistant
 company: Morgan Mckinley (Crawley) - Agency - Contract
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225734859
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Avon Search & Selection - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225779751
 reason: Broad location; review before city inclusion.
 ---
 
@@ -210,35 +198,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: Practice Plus Group - Health in Justice
+location: Lewes, BN7 1EA
+source: NHS Jobs
+job_id: nhs-5696773
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator (Part Time)
 company: Practice Plus Group - Health in Justice
 location: Lewes, BN7 1EA
 source: NHS Jobs
 job_id: nhs-5683798
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Bennett & Game Recruitment - Agency - Permanent
-location: East Grinstead
-source: JobG8
-job_id: jobg8-2060284
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: East Grinstead
-source: JobG8
-job_id: jobg8-23643_225676710
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
@@ -282,6 +258,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Buyer / Purchasing Assistant
+company: Rise Technical Recruitment - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225776908
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Call Handler
 company: Adecco - Agency - Temporary
 location: Lewes
@@ -299,18 +287,6 @@ company: The Cinnamon Care Collection - Company - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225751303
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Support Administrator
-company: Lloyd Recruitment - East Grinstead - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225742224
 reason: Broad location; review before city inclusion.
 ---
 
@@ -348,42 +324,6 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2092483
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller - Accounts Assistant
-company: Morgan Mckinley (Crawley) - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225672980
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller - Accounts Assistant
-company: Morgan McKinley - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2056847
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Sales Executive
-company: Office Angels - Agency - Permanent
-location: Burgess Hill
-source: JobG8
-job_id: jobg8-23643_225673926
-reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -431,6 +371,18 @@ company: Michael Page - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225766528
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing and Website Executive
+company: Office Angels - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2207065
 reason: Broad location; review before city inclusion.
 ---
 
@@ -486,18 +438,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator
-company: Venture People - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2056927
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant - Construction
 company: Henley Chase - Agency - Permanent
 location: Sussex
@@ -546,12 +486,24 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive (12 month FTC)
-company: Morgan McKinley - Agency - Permanent
-location: East Grinstead
+title: Internal Sales Executive
+company: Sapien - Agency - Permanent
+location: Haywards Heath
 source: JobG8
-job_id: jobg8-2059612
+job_id: jobg8-23643_225778933
 reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant
+company: G2 Legal Limited - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2203304
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -587,6 +539,18 @@ company: Staff Partners Business - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225734194
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mortgage Administrator
+company: Hunters Recruitment & Training Limited - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-108225614
 reason: Broad location; review before city inclusion.
 ---
 
@@ -920,7 +884,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Brighton & Hove catchment rule matched; local review required.
@@ -970,7 +934,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2196817
+job_id: jobg8-2202738
 reason: Broad location; review before city inclusion.
 ---
 
@@ -998,7 +962,7 @@ job_id: jobg8-108230183
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -1100,18 +1064,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Admin Assistant
-company: Sussex Partnership NHS Foundation Trust
-location: Eastbourne, BN21 3UU
-source: NHS Jobs
-job_id: nhs-5667249
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administrator
 company: Olympus Recruitment - Agency - Permanent
 location: Chichester
@@ -1184,6 +1136,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing Executive (12 month FTC)
+company: Morgan Mckinley (Crawley) - Agency - Contract
+location: East Grinstead
+source: JobG8
+job_id: jobg8-23643_225675488
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Office Coordinator / Sales Administrator - Immediate Start
 company: Office Angels - Agency - Permanent
 location: Crawley
@@ -1237,17 +1201,5 @@ company: The Workshop - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-108214283
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Administrator
-company: Sussex Partnership NHS Foundation Trust
-location: Chichester, PO196GS
-source: NHS Jobs
-job_id: nhs-5667423
 reason: Separate employment market.
 ---

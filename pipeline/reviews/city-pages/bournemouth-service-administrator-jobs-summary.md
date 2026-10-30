@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 36
 - automatic exclude: 0
-- effective include: 10
+- effective include: 9
 - effective review: 36
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: The Work Shop Resourcing Ltd - Agency - Temporary
 location: Bournemouth
 source: JobG8
 job_id: jobg8-23643_225729918
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: English Department Administrator & Librarian
-company: The Bishop of Winchester Academy
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-english-department-administrator-librarian-the-bishop-of-winchester-academy
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -162,30 +150,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Account Manager
-company: Team Jobs - Commercial - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225704186
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2055800
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Activities Coordinator
 company: Agincare Group - Agency - Permanent
 location: Weymouth
@@ -198,11 +162,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant
-company: Southern Education Trust
-location: Poole
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-southern-education-trust
+title: Activities Coordinator
+company: Care UK - Company - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-108242620
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -210,11 +174,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Connect2Dorset - Agency - Temporary
-location: Shaftesbury
-source: JobG8
-job_id: jobg8-23643_225733619
+title: Admin Assistant
+company: Southern Education Trust
+location: Poole
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-southern-education-trust
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -247,10 +211,10 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Michael Page Finance - Agency - Permanent
-location: Dorset
+company: CMA Recruitment Group - Agency - Contract
+location: Ferndown
 source: JobG8
-job_id: jobg8-2055576
+job_id: jobg8-23643_225775336
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -259,10 +223,10 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Michael Page Finance - Agency - Permanent
-location: Sherborne
+company: Flux Pumps - Agency - Permanent
+location: Dorset
 source: JobG8
-job_id: jobg8-2058934
+job_id: jobg8-23643_225776346
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -366,6 +330,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-108203744
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Document Administrator
 company: Randstad Construction and Property - Agency - Permanent
 location: Dorset
@@ -443,6 +419,18 @@ company: Holt Engineering - Agency - Permanent
 location: Wimborne
 source: JobG8
 job_id: jobg8-23643_225684990
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Ashley Rees Associates - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225776924
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

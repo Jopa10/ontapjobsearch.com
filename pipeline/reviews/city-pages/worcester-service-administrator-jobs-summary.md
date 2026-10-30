@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 28
+- automatic include: 4
+- automatic review: 26
 - automatic exclude: 0
-- effective include: 5
-- effective review: 28
+- effective include: 4
+- effective review: 26
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,19 +72,7 @@ job_id: teaching-vacancies-administrative-finance-assistant-hollymount-school
 reason: Exact approved Worcester workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Wedding & Events Co-ordinator
-company: Four Squared - Agency - Permanent
-location: Worcester
-source: JobG8
-job_id: jobg8-2074804
-reason: Exact approved Worcester workplace.
----
-
-## REVIEW (28)
+## REVIEW (26)
 
 ---
 action: 
@@ -107,42 +95,6 @@ company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-23643_225691083
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Michael Page - Agency - Temporary
-location: Redditch
-source: JobG8
-job_id: jobg8-23643_225670811
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Redditch
-source: JobG8
-job_id: jobg8-2055240
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Transaction Recruitment - Agency - Permanent
-location: Redditch
-source: JobG8
-job_id: jobg8-23643_225677223
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -179,18 +131,6 @@ company: Herefordshire and Worcestershire Health and Care NHS Trust
 location: Droitwich, WR9 8QU
 source: NHS Jobs
 job_id: nhs-5689137
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Herefordshire and Worcestershire Health and Care NHS Trust
-location: Droitwich, WR9 8QU
-source: NHS Jobs
-job_id: nhs-5666365
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -246,18 +186,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Assistant
-company: Opus People Solutions Ltd - Agency - Temporary
-location: Redditch
-source: JobG8
-job_id: jobg8-23643_225665948
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Support Co-ordinator
 company: VolkerWessels UK Ltd - Company - Permanent
 location: Worcestershire
@@ -270,11 +198,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: European and UK Road Coordinator
-company: Freight Personnel - Agency - Permanent
+title: Customer Service Advisor / Administrator
+company: Colbern Limited - Agency - Contract
 location: Worcestershire
 source: JobG8
-job_id: jobg8-23643_225637689
+job_id: jobg8-23643_225745587
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -282,11 +210,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: SF Partners - Agency - Permanent
-location: Redditch
+title: European and UK Road Coordinator
+company: Freight Personnel - Agency - Permanent
+location: Worcestershire
 source: JobG8
-job_id: jobg8-2057910
+job_id: jobg8-23643_225637689
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -366,11 +294,35 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Assistant
+company: Michael Page - Agency - Temporary
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225767778
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project Coordinator
 company: Lucy Walker Recruitment - Agency - Temporary
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225764931
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Transaction Recruitment - Agency - Temporary
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225773731
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -402,11 +354,23 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Administrator (Part Time)
-company: Talent Guardian - Agency - Permanent
-location: Redditch
+title: Service Administrator
+company: Rise Technical Recruitment - Agency - Permanent
+location: Worcestershire
 source: JobG8
-job_id: jobg8-23643_225727958
+job_id: jobg8-23643_225778967
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: Rise Technical Recruitment Limited - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-2206466
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

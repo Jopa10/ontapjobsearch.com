@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 24
-- automatic review: 13
-- automatic exclude: 28
+- automatic review: 11
+- automatic exclude: 29
 - effective include: 24
-- effective review: 13
-- effective exclude: 28
+- effective review: 11
+- effective exclude: 29
 
 ## INCLUDE (24)
 
@@ -33,6 +33,18 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5694088
 reason: Approved Sheffield catchment.
 ---
 
@@ -112,11 +124,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Income Assistant / Finance Administrator - Local Authority
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2067582
+title: HR Administrator
+company: One Health Group
+location: Sheffield, S11 8UX
+source: NHS Jobs
+job_id: nhs-5695628
 reason: Approved Sheffield catchment.
 ---
 
@@ -124,11 +136,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Insolvency Administrator
-company: ECS RECRUITMENT LIMITED - Agency - Permanent
+title: Income Assistant / Finance Administrator - Local Authority
+company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225631448
+job_id: jobg8-2067582
 reason: Approved Sheffield catchment.
 ---
 
@@ -233,18 +245,6 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Sheffield, S6 4TF
-source: NHS Jobs
-job_id: nhs-5693951
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
 company: Westfield School
 location: Sheffield
 source: Teaching Vacancies
@@ -312,7 +312,7 @@ job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-scho
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (11)
 
 ---
 action: 
@@ -354,18 +354,6 @@ reason: No approved Sheffield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Digital Administration Assistant
-company: Back TO Work - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225754435
-reason: No approved Sheffield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Ecommerce Marketing Executive
 company: Cavendish Maine Recruitment - Agency - Permanent
 location: Yorkshire
@@ -395,18 +383,6 @@ company: Ranson Barnes Recruitment Limited - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225733777
-reason: No approved Sheffield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior AEO Marketing Executive
-company: Back TO Work - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225754398
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -470,7 +446,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -584,11 +560,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Adviser
-company: Unipart - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225691891
+title: Estates Compliance and Administrative Assistant
+company: Place Partnership A Multi Academy Trust
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-estates-compliance-and-administrative-assistant
 reason: Separate employment market.
 ---
 
@@ -596,11 +572,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Estates Compliance and Administrative Assistant
-company: Place Partnership A Multi Academy Trust
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-estates-compliance-and-administrative-assistant
+title: Finance Officer
+company: Venatu Consulting Ltd - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225774042
 reason: Separate employment market.
 ---
 
@@ -632,11 +608,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Assistant
-company: Talent-UK Ltd - Agency - Permanent
-location: Doncaster
+title: Medical Receptionist
+company: Staff Partners Business - Agency - Permanent
+location: Barnsley
 source: JobG8
-job_id: jobg8-23643_225673478
+job_id: jobg8-23643_225702906
 reason: Separate employment market.
 ---
 
@@ -644,11 +620,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist
-company: Staff Partners Business - Agency - Permanent
-location: Barnsley
+title: Part Time Payroll Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Doncaster
 source: JobG8
-job_id: jobg8-23643_225702906
+job_id: jobg8-23643_225346567
 reason: Separate employment market.
 ---
 
@@ -717,10 +693,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Purchase Ledger Clerk
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Rotherham
+company: Elevation Recruitment Group - Agency - Permanent
+location: Doncaster
 source: JobG8
-job_id: jobg8-2087559
+job_id: jobg8-2204103
 reason: Separate employment market.
 ---
 
@@ -805,5 +781,17 @@ company: Rotherham Hospice - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225728023
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Clerk
+company: The Rotherham NHS Foundation Trust
+location: ROTHERHAM, S60 2UD
+source: NHS Jobs
+job_id: nhs-5695575
 reason: Separate employment market.
 ---

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 56
+- automatic review: 59
 - automatic exclude: 0
 - effective include: 8
-- effective review: 56
+- effective review: 59
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: teaching-vacancies-student-funding-administrator-maternity-cover
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (59)
 
 ---
 action: 
@@ -131,18 +131,6 @@ company: Interaction Recruitment - Agency - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225710682
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin
-company: NHS Professionals - Company - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225672975
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -215,18 +203,6 @@ company: St James School
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-part-time-st-james-school
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator
-company: Devon Partnership NHS Trust
-location: Newton Abbot, TQ12 4PH
-source: NHS Jobs
-job_id: nhs-5665958
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -318,11 +294,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Red Recruitment - Agency - Temporary
+title: Customer Service Administrator
+company: Lockhart Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-23643_225671360
+job_id: jobg8-23643_225779699
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -347,6 +323,30 @@ company: Build Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225691719
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Pertemps Plymouth - Agency - Temporary
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225774600
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: RGB Recruitment - Agency - Contract
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225774563
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -546,11 +546,47 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: Ashley Rees Associates - Agency - Permanent
+location: Torquay
+source: JobG8
+job_id: jobg8-23643_225776971
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Morgan McKinley (South West) - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225762251
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Senior
 company: Autograph Specialist Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225486999
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Personal Assistant
+company: Elysium Healthcare
+location: Cullompton, EX15 1EA
+source: NHS Jobs
+job_id: nhs-5656323
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

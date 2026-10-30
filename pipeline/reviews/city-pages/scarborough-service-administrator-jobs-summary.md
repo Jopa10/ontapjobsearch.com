@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 45
+- automatic review: 44
 - automatic exclude: 0
 - effective include: 4
-- effective review: 45
+- effective review: 44
 - effective exclude: 0
 
 ## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant Part Time
-company: Adecco - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225673626
-reason: Exact approved Scarborough workplace.
----
 
 ---
 action: 
@@ -64,6 +52,18 @@ reason: Exact approved Scarborough workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Service Coordinator (CUPS)
+company: Dale Power Solutions - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225779537
+reason: Exact approved Scarborough workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Scarborough, North Yorkshire, YO11 3EG
@@ -72,7 +72,7 @@ job_id: nhs-5690490
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (44)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: Search Consultancy Ltd - Agency - Contract
 location: York
 source: JobG8
 job_id: jobg8-23643_225718615
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator (Construction)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225776023
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -466,6 +478,18 @@ title: Project Administrator
 company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
+job_id: jobg8-2159800
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Administrator
+company: Innovex - Agency - Permanent
+location: Selby
+source: JobG8
 job_id: jobg8-23643_225746940
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
@@ -479,18 +503,6 @@ company: Nimbuscare
 location: York, YO24 4LJ, York, YO24 1LW, York, YO26 4GG
 source: NHS Jobs
 job_id: nhs-5689323
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2055397
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -582,35 +594,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Social Media Executive
-company: Greenfield I T Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2057285
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Technical & Quality Support Administrator
 company: Unity Resourcing Ltd - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-23643_225691482
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Payout Coordinator
-company: Michael Page - Agency - Temporary
-location: Richmond
-source: JobG8
-job_id: jobg8-23643_225666115
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

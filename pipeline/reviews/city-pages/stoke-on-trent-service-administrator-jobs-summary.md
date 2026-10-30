@@ -4,7 +4,7 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 58
+- automatic include: 5
+- automatic review: 57
 - automatic exclude: 0
-- effective include: 4
-- effective review: 58
+- effective include: 5
+- effective review: 57
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Administrator
+company: Baddeley Green Surgery
+location: Stoke-on-trent, ST9 9PB
+source: NHS Jobs
+job_id: nhs-5694752
+reason: Exact approved Stoke-on-trent workplace.
+---
 
 ---
 action: 
@@ -72,19 +84,7 @@ job_id: nhs-5675916
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (58)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Account Based Marketing Executive
-company: Veolia - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225720563
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
+## REVIEW (57)
 
 ---
 action: 
@@ -258,6 +258,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller 6 month FTC
+company: Premier Placement Services - Agency - Contract
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225651747
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller FTC 6 months
 company: Adecco - Agency - Permanent
 location: Staffordshire
@@ -275,18 +287,6 @@ company: Linkster Recruitment - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225686777
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Anderson Wright Consulting - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225665775
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -479,6 +479,18 @@ company: Brampton Recruitment Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225690802
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: 365 People - Agency - Permanent
+location: Tamworth
+source: JobG8
+job_id: jobg8-23643_225773861
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -719,18 +731,6 @@ company: Pertemps Wolverhampton and Walsall - Agency - Temporary
 location: Cannock
 source: JobG8
 job_id: jobg8-23643_225769049
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Stock Administrator
-company: Culina Group Limited - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225666458
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

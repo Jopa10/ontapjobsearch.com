@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 11
-- automatic exclude: 26
-- effective include: 12
-- effective review: 11
-- effective exclude: 26
+- automatic include: 13
+- automatic review: 10
+- automatic exclude: 25
+- effective include: 13
+- effective review: 10
+- effective exclude: 25
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Search Consultancy Ltd - Agency - Contract
 location: York
 source: JobG8
 job_id: jobg8-23643_225718615
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator (Construction)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225776023
 reason: Approved York catchment.
 ---
 
@@ -168,7 +180,7 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -290,31 +302,7 @@ job_id: jobg8-23643_225729465
 reason: No approved York catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Payout Coordinator
-company: Michael Page - Agency - Temporary
-location: Richmond
-source: JobG8
-job_id: jobg8-23643_225666115
-reason: No approved York catchment rule matched; local review required.
----
-
-## EXCLUDE (26)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant Part Time
-company: Adecco - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225673626
-reason: Separate employment market.
----
+## EXCLUDE (25)
 
 ---
 action: 
@@ -516,6 +504,18 @@ title: Project Administrator
 company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
+job_id: jobg8-2159800
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Project Administrator
+company: Innovex - Agency - Permanent
+location: Selby
+source: JobG8
 job_id: jobg8-23643_225746940
 reason: Separate employment market.
 ---
@@ -530,18 +530,6 @@ location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
 reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2055397
-reason: Broad regional label; not York-city evidence.
 ---
 
 ---
@@ -584,12 +572,12 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Social Media Executive
-company: Greenfield I T Recruitment - Agency - Permanent
-location: Yorkshire
+title: Service Coordinator (CUPS)
+company: Dale Power Solutions - Agency - Permanent
+location: Scarborough
 source: JobG8
-job_id: jobg8-2057285
-reason: Broad regional label; not York-city evidence.
+job_id: jobg8-23643_225779537
+reason: Separate employment market.
 ---
 
 ---

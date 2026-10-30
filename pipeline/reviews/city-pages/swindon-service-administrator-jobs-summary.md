@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 25
+- automatic review: 26
 - automatic exclude: 0
 - effective include: 16
-- effective review: 25
+- effective review: 26
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: teaching-vacancies-sixth-form-admin-assistant-great-western-academy-swin
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (25)
+## REVIEW (26)
 
 ---
 action: 
@@ -234,12 +234,36 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: Autograph Recruitment Ltd - Agency - Permanent
+location: Chippenham
+source: JobG8
+job_id: jobg8-2204801
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative Assistant
 company: Charter Primary School
 location: Chippenham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-charter-primary-school
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assurance Coordinator Porton Down
+company: Mainstay Facilities - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108182792
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -276,30 +300,6 @@ location: Westbury
 source: JobG8
 job_id: jobg8-23643_225750752
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer & Sales Coordinator
-company: CMD Recruitment - Agency - Permanent
-location: Melksham
-source: JobG8
-job_id: jobg8-23643_225665666
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: 911 Staffing Ltd - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225665673
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -414,11 +414,11 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Consult2Recruit - Agency - Permanent
-location: Devizes
+title: Scheduler
+company: Build Recruitment - Agency - Permanent
+location: Melksham
 source: JobG8
-job_id: jobg8-23643_225672054
+job_id: jobg8-23643_225776404
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -443,6 +443,18 @@ company: Perfect Placement - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225714158
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: The Solution Auto - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-23643_225779110
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

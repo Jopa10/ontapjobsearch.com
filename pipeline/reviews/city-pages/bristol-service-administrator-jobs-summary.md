@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 58
+- Effective included jobs: 59
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 58
-- automatic review: 14
-- automatic exclude: 5
-- effective include: 58
-- effective review: 14
-- effective exclude: 5
+- automatic include: 59
+- automatic review: 16
+- automatic exclude: 4
+- effective include: 59
+- effective review: 16
+- effective exclude: 4
 
-## INCLUDE (58)
+## INCLUDE (59)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Artis Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2078337
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Robert Half - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2057297
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -136,6 +124,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Care Coordinator
+company: Olive Recruit - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225776937
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Care Home Administrator
 company: Hamberley Care Management Limited - Company - Permanent
 location: Bristol
@@ -153,18 +153,6 @@ company: Air Balloon Surgery
 location: Bristol, BS5 7PD
 source: NHS Jobs
 job_id: nhs-5684455
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Client Benefits Customer Service Adviser
-company: Adecco - Agency - Contract
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225681959
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -273,6 +261,18 @@ company: Conrad Consulting Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225767757
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: European Road Freight Coordinator_58873
+company: Red Recruit Global Limited - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108247458
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -508,6 +508,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Outpatient receptionist
+company: Bristol NHS Foundation Trust
+location: Bristol, BS10 5NB
+source: NHS Jobs
+job_id: nhs-5695525
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Patient Co-ordinator, Patchway
 company: Menlo Park - Agency - Permanent
 location: Bristol
@@ -720,7 +732,7 @@ job_id: nhs-5636801
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (16)
 
 ---
 action: 
@@ -858,6 +870,18 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Patent Paralegal
+company: The Law Support Group - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2079766
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)
 company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Somerset
@@ -890,19 +914,19 @@ job_id: jobg8-2195049
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
-
 ---
 action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Administrator
-company: Crest Recruitment - Agency - Contract
-location: Bath
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Somerset
 source: JobG8
-job_id: jobg8-23643_225671269
-reason: Separate employment market.
+job_id: jobg8-2202739
+reason: No approved Bristol catchment rule matched; local review required.
 ---
+
+## EXCLUDE (4)
 
 ---
 action: 

@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 18
 - automatic review: 11
 - automatic exclude: 0
-- effective include: 19
+- effective include: 18
 - effective review: 11
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (18)
 
 ---
 action: 
@@ -202,18 +202,6 @@ location: Lincoln
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-sir-robert-pattinson-academy
 reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225767948
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---

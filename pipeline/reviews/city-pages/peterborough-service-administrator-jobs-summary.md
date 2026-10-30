@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 12
-- automatic exclude: 38
-- effective include: 21
-- effective review: 12
-- effective exclude: 38
+- automatic include: 20
+- automatic review: 11
+- automatic exclude: 36
+- effective include: 20
+- effective review: 11
+- effective exclude: 36
 
-## INCLUDE (21)
+## INCLUDE (20)
 
 ---
 action: 
@@ -136,35 +136,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Assistant
-company: Vero Hr - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225770986
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR MANAGER - PART-TIME
 company: Interaction Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225692804
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Insurance Customer Service Administrator
-company: Commercial Recruitment - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225237498
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -244,6 +220,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Executive
+company: Interaction Recruitment - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225762952
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Support Executive
 company: Strange and Wright Recruitment Partners LTD - Agency - Permanent
 location: Peterborough
@@ -276,7 +264,7 @@ job_id: jobg8-2194126
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -335,18 +323,6 @@ company: Priory Junior School
 location: St Neots
 source: Teaching Vacancies
 job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior Administrator
-company: Coyle Personnel - Agency - Permanent
-location: St. Ives
-source: JobG8
-job_id: jobg8-23643_225695041
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -422,7 +398,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (38)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -445,6 +421,18 @@ company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2066978
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: East of England Community Health and Care NHS Trust (Cambridge)
+location: Huntingdon, PE29 7HN
+source: NHS Jobs
+job_id: nhs-5694740
 reason: Separate employment market.
 ---
 
@@ -500,11 +488,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Commercial Account Manager
-company: Select Recruitment Specialists Ltd - Agency - Temporary
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225670934
+title: Booking Administrator
+company: Cambridge University Hospital NHS Foundation Trust
+location: Ely, CB6 1DN
+source: NHS Jobs
+job_id: nhs-5695551
 reason: Separate employment market.
 ---
 
@@ -548,35 +536,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller
-company: Robert Half - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2056165
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Care Coordinator
 company: Eclectic Recruitment - Agency - Contract
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225679211
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor - Mortgages
-company: Saffron Building Society - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225671519
 reason: Separate employment market.
 ---
 
@@ -733,18 +697,6 @@ company: Proactive Global - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225762099
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Executive - B2B Professional Services
-company: Henderson Brown Recruitment - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225674624
 reason: Separate employment market.
 ---
 

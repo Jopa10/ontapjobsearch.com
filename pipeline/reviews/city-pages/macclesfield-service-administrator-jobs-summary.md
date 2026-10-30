@@ -4,8 +4,8 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 8
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,74 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 16
+- automatic include: 8
+- automatic review: 17
 - automatic exclude: 0
-- effective include: 3
-- effective review: 16
+- effective include: 8
+- effective review: 17
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (8)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-23643_225779659
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-23643_225779669
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller (Temporary)
+company: Get Recruited (UK) Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-2207086
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller (Temporary)
+company: Get-Recruited (UK) Ltd - Agency - Temporary
+location: Macclesfield
+source: JobG8
+job_id: jobg8-23643_225779612
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-23643_225779673
+reason: Exact approved Macclesfield workplace.
+---
 
 ---
 action: 
@@ -60,7 +120,7 @@ job_id: teaching-vacancies-sixth-form-administrator-the-fallibroome-academy-macc
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (17)
 
 ---
 action: 
@@ -162,6 +222,18 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator
+company: Forrest Recruitment - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-23643_225768872
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: FNOL Motor Claims Handler
 company: MPJ Recruitment Ltd - Agency - Permanent
 location: Wilmslow
@@ -210,11 +282,11 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Forrest Recruitment - Agency - Permanent
-location: Wilmslow
+title: Purchase Ledger Clerk
+company: Michael Page - Agency - Temporary
+location: Crewe
 source: JobG8
-job_id: jobg8-23643_225671709
+job_id: jobg8-23643_225712143
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

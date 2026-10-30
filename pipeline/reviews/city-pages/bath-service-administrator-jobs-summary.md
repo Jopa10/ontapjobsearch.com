@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 72
+- automatic include: 4
+- automatic review: 75
 - automatic exclude: 0
-- effective include: 5
-- effective review: 72
+- effective include: 4
+- effective review: 75
 - effective exclude: 0
 
-## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Administrator
-company: Crest Recruitment - Agency - Contract
-location: Bath
-source: JobG8
-job_id: jobg8-23643_225671269
-reason: Exact approved Bath workplace.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -84,7 +72,7 @@ job_id: jobg8-23643_225765891
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (72)
+## REVIEW (75)
 
 ---
 action: 
@@ -107,18 +95,6 @@ company: Artis Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2078337
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Robert Half - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2057297
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -210,6 +186,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Care Coordinator
+company: Olive Recruit - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225776937
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Home Administrator
 company: Hamberley Care Management Limited - Company - Permanent
 location: Bristol
@@ -227,18 +215,6 @@ company: Air Balloon Surgery
 location: Bristol, BS5 7PD
 source: NHS Jobs
 job_id: nhs-5684455
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Benefits Customer Service Adviser
-company: Adecco - Agency - Contract
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225681959
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -371,6 +347,18 @@ company: Conrad Consulting Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225767757
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: European Road Freight Coordinator_58873
+company: Red Recruit Global Limited - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108247458
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -702,6 +690,30 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Outpatient receptionist
+company: Bristol NHS Foundation Trust
+location: Bristol, BS10 5NB
+source: NHS Jobs
+job_id: nhs-5695525
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patent Paralegal
+company: The Law Support Group - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2079766
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)
 company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Somerset
@@ -947,6 +959,18 @@ company: Devon Partnership NHS Trust
 location: Bristol, BS2 9RU
 source: NHS Jobs
 job_id: nhs-5636801
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2202739
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

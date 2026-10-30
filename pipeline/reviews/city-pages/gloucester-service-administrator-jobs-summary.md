@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 51
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 9
-- effective review: 51
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225765910
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (51)
+## REVIEW (56)
 
 ---
 action: 
@@ -191,18 +191,6 @@ company: Morgan McKinley (South West) - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225696934
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225759490
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -270,18 +258,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Administrator
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225673749
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: Red Recruitment - Agency - Permanent
 location: Gloucestershire
@@ -294,11 +270,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator Domiciliary Care
-company: PSR Solutions - Agency - Permanent
+title: Claims Administrator
+company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-23643_225668246
+job_id: jobg8-23643_225737090
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -306,11 +282,59 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Claims Administrator
-company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
+title: Communications Officer (Social Media)
+company: Meningitis Now - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-23643_225737090
+job_id: jobg8-2204437
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Communications Officer (Social Media)
+company: Meningitis Now - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2207618
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Communications Officer (Web and Digital Content)
+company: Meningitis Now - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2204188
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Communications Officer (Web and Digital Content)
+company: Meningitis Now - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2204276
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Communications Officer (Web and Digital Content)
+company: Meningitis Now - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225777189
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -335,6 +359,30 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225745416
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller (6 Month Fixed Term Contract)
+company: Michael Page Finance - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2203405
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: i2i Recruitment - Agency - Contract
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225776604
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -414,6 +462,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: French speaking Payroll & HR Coordinator
+company: Euro London - Agency - Permanent
+location: Cirencester
+source: JobG8
+job_id: jobg8-2205347
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: GP receptionist / Administrator
 company: STONEHOUSE HEALTH CLINIC
 location: Stonehouse, GL10 2NG
@@ -474,18 +534,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Internal Sales Coordinator
-company: Travail Employment Group - Agency - Permanent
-location: Dursley
-source: JobG8
-job_id: jobg8-23643_225671676
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Customer Service & Office Administrator
 company: Motofix Accident Repair Centres - Agency - Permanent
 location: Gloucestershire
@@ -539,18 +587,6 @@ company: First Base - Agency - Permanent
 location: Stonehouse
 source: JobG8
 job_id: jobg8-23643_225709005
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Administrator
-company: Whistl - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225666865
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -666,6 +702,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support Administrator
+company: i2i Recruitment - Agency - Contract
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225776865
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Tewkesbury
@@ -695,6 +743,18 @@ company: Expert Employment - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225723698
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Gloucestershire Health and Care NHS Foundation Trust
+location: Stroud, GL5 2HZ
+source: NHS Jobs
+job_id: nhs-5694325
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

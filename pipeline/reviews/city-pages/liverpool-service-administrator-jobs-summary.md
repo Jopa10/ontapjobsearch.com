@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
-- automatic review: 6
+- automatic include: 35
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 32
-- effective review: 6
+- effective include: 35
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (32)
+## INCLUDE (35)
 
 ---
 action: 
@@ -129,6 +129,18 @@ company: Adecco - Agency - Temporary
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225748136
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: BC Financial Search Ltd - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2202958
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -292,6 +304,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: PPC Executive
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2204312
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Rutherford Medical Centre
 location: Liverpool, L18 0HJ
@@ -388,6 +412,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Shared Spaces Contract Coordinator
+company: Riverside Group - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2204434
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Technical Administrator
 company: Morgan Ryder Associates - Agency - Permanent
 location: Liverpool
@@ -408,31 +444,7 @@ job_id: jobg8-23643_225761410
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (6)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: Adaptable Recruitment - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2057420
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive / Manager (part time)
-company: Ice and Easy - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2060699
-reason: Broad county location; review before Liverpool inclusion.
----
+## REVIEW (5)
 
 ---
 action: 
@@ -455,6 +467,18 @@ company: Adaptable Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-2112764
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Michael Page Finance - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-2203331
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

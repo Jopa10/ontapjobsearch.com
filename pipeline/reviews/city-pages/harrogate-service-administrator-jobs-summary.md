@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 11
+- automatic review: 10
 - automatic exclude: 33
 - effective include: 5
-- effective review: 11
+- effective review: 10
 - effective exclude: 33
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225691482
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -206,31 +206,7 @@ job_id: jobg8-23643_225729465
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Payout Coordinator
-company: Michael Page - Agency - Temporary
-location: Richmond
-source: JobG8
-job_id: jobg8-23643_225666115
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
 ## EXCLUDE (33)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant Part Time
-company: Adecco - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225673626
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
 
 ---
 action: 
@@ -241,6 +217,18 @@ company: Search Consultancy Ltd - Agency - Contract
 location: York
 source: JobG8
 job_id: jobg8-23643_225718615
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator (Construction)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225776023
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -516,6 +504,18 @@ title: Project Administrator
 company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
+job_id: jobg8-2159800
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Project Administrator
+company: Innovex - Agency - Permanent
+location: Selby
+source: JobG8
 job_id: jobg8-23643_225746940
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
@@ -541,18 +541,6 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2055397
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -596,11 +584,11 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Social Media Executive
-company: Greenfield I T Recruitment - Agency - Permanent
-location: Yorkshire
+title: Service Coordinator (CUPS)
+company: Dale Power Solutions - Agency - Permanent
+location: Scarborough
 source: JobG8
-job_id: jobg8-2057285
+job_id: jobg8-23643_225779537
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

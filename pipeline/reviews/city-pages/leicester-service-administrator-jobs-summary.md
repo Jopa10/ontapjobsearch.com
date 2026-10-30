@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 50
+- automatic include: 16
+- automatic review: 45
 - automatic exclude: 0
-- effective include: 14
-- effective review: 50
+- effective include: 16
+- effective review: 45
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (16)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant / AP
+company: SF Partners - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225775352
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Leicestershire Partnership NHS Trust
+location: Leicester, LE3 8TB
+source: NHS Jobs
+job_id: nhs-5695173
+reason: Exact approved Leicester workplace.
+---
 
 ---
 action: 
@@ -57,6 +81,18 @@ company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225728707
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Administrator
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-2203869
 reason: Exact approved Leicester workplace.
 ---
 
@@ -136,18 +172,6 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Team Leader (part time)
-company: Michael Page - Agency - Temporary
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225720527
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchasing Assistant - early Friday finish
 company: Office Angels - Agency - Permanent
 location: Leicester
@@ -192,7 +216,7 @@ job_id: jobg8-23643_225761866
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (50)
+## REVIEW (45)
 
 ---
 action: 
@@ -263,18 +287,6 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2159804
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Coordinator
-company: SF Partners - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225676664
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -354,18 +366,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper - Part Time
-company: Redline Group Ltd - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225671448
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Development Executive
 company: Regional Recruitment - Agency - Permanent
 location: Blaby
@@ -402,35 +402,23 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: SF Partners - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2060220
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: SF Partners - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225676614
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Account Administrator
 company: Distinct Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2168782
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Care Coordinator
+company: Think Recruitment - Agency - Permanent
+location: Loughborough
+source: JobG8
+job_id: jobg8-23643_225776028
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -503,30 +491,6 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Coalville
 source: JobG8
 job_id: jobg8-23643_225694614
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Trinity House Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2055794
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Trinity House Group Ltd - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225671422
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -642,11 +606,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Part-time HR Coordinator
-company: Gi Group - Agency - Permanent
+title: Operations Coordinator
+company: SF Partners - Agency - Contract
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225711327
+job_id: jobg8-23643_225779153
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -654,11 +618,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: People Services (HR) Assistant
-company: Leicestershire Fire and Rescue - Agency - Contract
+title: Part-time HR Coordinator
+company: Gi Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225724878
+job_id: jobg8-23643_225711327
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

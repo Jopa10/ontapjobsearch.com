@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 5
 - automatic review: 29
 - automatic exclude: 0
-- effective include: 6
+- effective include: 5
 - effective review: 29
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: East of England Community Health and Care NHS Trust (Cambridge)
+location: Bedford, MK42 0AH
+source: NHS Jobs
+job_id: nhs-5694372
+reason: Exact approved Bedford workplace.
+---
 
 ---
 action: 
@@ -69,30 +81,6 @@ company: SPD Development Company Ltd - Agency - Contract
 location: Bedford
 source: JobG8
 job_id: jobg8-23643_225741005
-reason: Exact approved Bedford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: 1st Choice Staff Recruitment - Agency - Temporary
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225673265
-reason: Exact approved Bedford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Coordinator
-company: Osborne Appointments - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225771976
 reason: Exact approved Bedford workplace.
 ---
 
@@ -234,6 +222,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: Go Interiors Ltd - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225775230
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: NTER TALENT - Agency - Contract
 location: Luton
@@ -251,6 +251,18 @@ company: Think Specialist Recruitment - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-23643_225761491
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Education Administrator
+company: Bedfordshire Hospitals NHS Foundation Trust
+location: Luton, LU4 0DZ
+source: NHS Jobs
+job_id: nhs-5695360
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -383,30 +395,6 @@ company: Beechwood Primary School
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-sen-inclusion-administrator
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Administrator
-company: Luton Bennett - Agency - Contract
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225667743
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Shipping & Logistics Coordinator
-company: Response Personnel - Agency - Permanent
-location: Luton
-source: JobG8
-job_id: jobg8-2063915
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

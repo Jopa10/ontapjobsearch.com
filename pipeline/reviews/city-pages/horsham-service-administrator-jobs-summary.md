@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 73
-- automatic exclude: 25
+- automatic review: 70
+- automatic exclude: 24
 - effective include: 4
-- effective review: 73
-- effective exclude: 25
+- effective review: 70
+- effective exclude: 24
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-2064741
 reason: Exact approved Horsham workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (70)
 
 ---
 action: 
@@ -90,35 +90,23 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: Lloyd Recruitment - East Grinstead - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225676371
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Lloyd Recruitment Services Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2059988
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Payable Assistant
 company: Morgan Mckinley (Crawley) - Agency - Contract
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225734859
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Avon Search & Selection - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225779751
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -162,35 +150,23 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: Practice Plus Group - Health in Justice
+location: Lewes, BN7 1EA
+source: NHS Jobs
+job_id: nhs-5696773
+reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator (Part Time)
 company: Practice Plus Group - Health in Justice
 location: Lewes, BN7 1EA
 source: NHS Jobs
 job_id: nhs-5683798
-reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Bennett & Game Recruitment - Agency - Permanent
-location: East Grinstead
-source: JobG8
-job_id: jobg8-2060284
-reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: East Grinstead
-source: JobG8
-job_id: jobg8-23643_225676710
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -234,6 +210,18 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
+title: Buyer / Purchasing Assistant
+company: Rise Technical Recruitment - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225776908
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Call Handler
 company: Adecco - Agency - Temporary
 location: Lewes
@@ -251,18 +239,6 @@ company: The Cinnamon Care Collection - Company - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225751303
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Support Administrator
-company: Lloyd Recruitment - East Grinstead - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225742224
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -300,42 +276,6 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2092483
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller - Accounts Assistant
-company: Morgan Mckinley (Crawley) - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225672980
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller - Accounts Assistant
-company: Morgan McKinley - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2056847
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Sales Executive
-company: Office Angels - Agency - Permanent
-location: Burgess Hill
-source: JobG8
-job_id: jobg8-23643_225673926
-reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -383,6 +323,18 @@ company: Michael Page - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225766528
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing and Website Executive
+company: Office Angels - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2207065
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -438,18 +390,6 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator
-company: Venture People - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2056927
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant - Construction
 company: Henley Chase - Agency - Permanent
 location: Sussex
@@ -498,12 +438,24 @@ reason: No approved Horsham employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive (12 month FTC)
-company: Morgan McKinley - Agency - Permanent
-location: East Grinstead
+title: Internal Sales Executive
+company: Sapien - Agency - Permanent
+location: Haywards Heath
 source: JobG8
-job_id: jobg8-2059612
+job_id: jobg8-23643_225778933
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant
+company: G2 Legal Limited - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2203304
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
 ---
@@ -539,6 +491,18 @@ company: Staff Partners Business - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225734194
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mortgage Administrator
+company: Hunters Recruitment & Training Limited - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-108225614
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -872,7 +836,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
@@ -922,7 +886,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2196817
+job_id: jobg8-2202738
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -950,7 +914,7 @@ job_id: jobg8-108230183
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -997,18 +961,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-23643_225684878
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant
-company: Sussex Partnership NHS Foundation Trust
-location: Eastbourne, BN21 3UU
-source: NHS Jobs
-job_id: nhs-5667249
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 
@@ -1148,6 +1100,18 @@ reason: The stated workplace belongs outside the approved Horsham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing Executive (12 month FTC)
+company: Morgan Mckinley (Crawley) - Agency - Contract
+location: East Grinstead
+source: JobG8
+job_id: jobg8-23643_225675488
+reason: The stated workplace belongs outside the approved Horsham employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Office Coordinator / Sales Administrator - Immediate Start
 company: Office Angels - Agency - Permanent
 location: Crawley
@@ -1237,17 +1201,5 @@ company: The Workshop - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-108214283
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Administrator
-company: Sussex Partnership NHS Foundation Trust
-location: Chichester, PO196GS
-source: NHS Jobs
-job_id: nhs-5667423
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---

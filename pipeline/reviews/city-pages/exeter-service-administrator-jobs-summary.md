@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 21
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 43
+- automatic include: 23
+- automatic review: 44
 - automatic exclude: 0
-- effective include: 21
-- effective review: 43
+- effective include: 23
+- effective review: 44
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (23)
 
 ---
 action: 
@@ -81,6 +81,30 @@ company: St James School
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-part-time-st-james-school
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Pertemps Plymouth - Agency - Temporary
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225774600
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: RGB Recruitment - Agency - Contract
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225774563
 reason: Exact approved Exeter workplace.
 ---
 
@@ -276,7 +300,7 @@ job_id: jobg8-23643_225699564
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (44)
 
 ---
 action: 
@@ -287,18 +311,6 @@ company: Interaction Recruitment - Agency - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225710682
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin
-company: NHS Professionals - Company - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225672975
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -323,18 +335,6 @@ company: RG Setsquare - Agency - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225682122
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator
-company: Devon Partnership NHS Trust
-location: Newton Abbot, TQ12 4PH
-source: NHS Jobs
-job_id: nhs-5665958
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -438,11 +438,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Red Recruitment - Agency - Temporary
+title: Customer Service Administrator
+company: Lockhart Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-23643_225671360
+job_id: jobg8-23643_225779699
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -582,11 +582,47 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: Ashley Rees Associates - Agency - Permanent
+location: Torquay
+source: JobG8
+job_id: jobg8-23643_225776971
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Morgan McKinley (South West) - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225762251
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Senior
 company: Autograph Specialist Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225486999
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Personal Assistant
+company: Elysium Healthcare
+location: Cullompton, EX15 1EA
+source: NHS Jobs
+job_id: nhs-5656323
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

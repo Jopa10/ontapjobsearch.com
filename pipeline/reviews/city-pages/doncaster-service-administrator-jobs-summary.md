@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 13
+- automatic include: 17
+- automatic review: 11
 - automatic exclude: 36
-- effective include: 16
-- effective review: 13
+- effective include: 17
+- effective review: 11
 - effective exclude: 36
 
-## INCLUDE (16)
+## INCLUDE (17)
 
 ---
 action: 
@@ -100,11 +100,11 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Adviser
-company: Unipart - Agency - Permanent
+title: Finance Officer
+company: Venatu Consulting Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-23643_225691891
+job_id: jobg8-23643_225774042
 reason: Approved Doncaster catchment.
 ---
 
@@ -136,11 +136,11 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Assistant
-company: Talent-UK Ltd - Agency - Permanent
+title: Part Time Payroll Administrator
+company: Travail Employment Group - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-23643_225673478
+job_id: jobg8-23643_225346567
 reason: Approved Doncaster catchment.
 ---
 
@@ -208,6 +208,18 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2204103
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Secretary / Assistant EA
 company: Edwards & Pearce - Agency - Permanent
 location: Doncaster
@@ -216,7 +228,7 @@ job_id: jobg8-23643_225747598
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (11)
 
 ---
 action: 
@@ -258,18 +270,6 @@ reason: No approved Doncaster catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Digital Administration Assistant
-company: Back TO Work - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225754435
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Ecommerce Marketing Executive
 company: Cavendish Maine Recruitment - Agency - Permanent
 location: Yorkshire
@@ -299,18 +299,6 @@ company: Ranson Barnes Recruitment Limited - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225733777
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior AEO Marketing Executive
-company: Back TO Work - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225754398
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -385,6 +373,18 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5694088
 reason: Separate employment market.
 ---
 
@@ -512,11 +512,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Income Assistant / Finance Administrator - Local Authority
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2067582
+title: HR Administrator
+company: One Health Group
+location: Sheffield, S11 8UX
+source: NHS Jobs
+job_id: nhs-5695628
 reason: Separate employment market.
 ---
 
@@ -524,11 +524,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Insolvency Administrator
-company: ECS RECRUITMENT LIMITED - Agency - Permanent
+title: Income Assistant / Finance Administrator - Local Authority
+company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225631448
+job_id: jobg8-2067582
 reason: Separate employment market.
 ---
 
@@ -620,18 +620,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Purchase Ledger Clerk
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-2087559
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Reablement Care Coordinator
 company: Belmont Recruitment - Agency - Contract
 location: Sheffield
@@ -649,18 +637,6 @@ company: STEPS Rehabilitation
 location: Sheffield, S7 2QA
 source: NHS Jobs
 job_id: nhs-5686823
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Sheffield, S6 4TF
-source: NHS Jobs
-job_id: nhs-5693951
 reason: Separate employment market.
 ---
 
@@ -805,5 +781,17 @@ company: Rotherham Hospice - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225728023
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Clerk
+company: The Rotherham NHS Foundation Trust
+location: ROTHERHAM, S60 2UD
+source: NHS Jobs
+job_id: nhs-5695575
 reason: Separate employment market.
 ---

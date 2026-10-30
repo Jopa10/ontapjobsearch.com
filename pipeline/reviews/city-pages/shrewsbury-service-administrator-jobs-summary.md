@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 22
+- automatic review: 23
 - automatic exclude: 0
 - effective include: 7
-- effective review: 22
+- effective review: 23
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,31 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (23)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Hays Accounts and Finance - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225775219
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activity Co-ordinator
+company: Coverage Care - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-108178982
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -323,18 +347,6 @@ company: Adecco - Agency - Contract
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225740864
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Prince Personnel Limited - Agency - Contract
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225666142
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

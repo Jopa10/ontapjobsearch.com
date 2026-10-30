@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 58
+- automatic review: 57
 - automatic exclude: 0
 - effective include: 7
-- effective review: 58
+- effective review: 57
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -45,18 +45,6 @@ company: Place Partnership A Multi Academy Trust
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-estates-compliance-and-administrative-assistant
-reason: Exact approved Rotherham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Purchase Ledger Clerk
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-2087559
 reason: Exact approved Rotherham workplace.
 ---
 
@@ -108,7 +96,19 @@ job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (58)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: The Rotherham NHS Foundation Trust
+location: ROTHERHAM, S60 2UD
+source: NHS Jobs
+job_id: nhs-5695575
+reason: Exact approved Rotherham workplace.
+---
+
+## REVIEW (57)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: Rotherham Doncaster and South Humber NHSFT
 location: Doncaster, DN4 6ED
 source: NHS Jobs
 job_id: nhs-5693518
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5694088
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -318,30 +330,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Adviser
-company: Unipart - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225691891
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Administration Assistant
-company: Back TO Work - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225754435
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Ecommerce Marketing Executive
 company: Cavendish Maine Recruitment - Agency - Permanent
 location: Yorkshire
@@ -378,6 +366,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Finance Officer
+company: Venatu Consulting Ltd - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225774042
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR & Operations Coordinator
 company: Carrington West - Agency - Permanent
 location: Doncaster
@@ -390,11 +390,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant
-company: Chesterfield Poultry - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225749496
+title: HR Administrator
+company: One Health Group
+location: Sheffield, S11 8UX
+source: NHS Jobs
+job_id: nhs-5695628
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -403,10 +403,10 @@ action:
 decision: review
 automatic_decision: review
 title: HR Assistant
-company: Talent-UK Ltd - Agency - Permanent
+company: Chesterfield Poultry - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-23643_225673478
+job_id: jobg8-23643_225749496
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -431,30 +431,6 @@ company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2067582
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Insolvency Administrator
-company: ECS RECRUITMENT LIMITED - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225631448
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior AEO Marketing Executive
-company: Back TO Work - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225754398
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -503,6 +479,18 @@ company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Payroll Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225346567
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -643,6 +631,18 @@ action:
 decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2204103
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Sheffield
 source: JobG8
@@ -683,18 +683,6 @@ company: STEPS Rehabilitation
 location: Sheffield, S7 2QA
 source: NHS Jobs
 job_id: nhs-5686823
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Sheffield, S6 4TF
-source: NHS Jobs
-job_id: nhs-5693951
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

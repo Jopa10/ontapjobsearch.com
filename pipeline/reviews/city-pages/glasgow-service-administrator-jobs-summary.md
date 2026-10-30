@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 37
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 37
-- automatic review: 3
+- automatic include: 34
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 37
-- effective review: 3
+- effective include: 34
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (37)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: ICONIC RESOURCING LTD - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2055742
-reason: Approved conservative Glasgow launch catchment.
----
+## INCLUDE (34)
 
 ---
 action: 
@@ -81,18 +69,6 @@ company: Realise Recruitment - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_223109682
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Advisor
-company: Tate - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225673082
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -304,11 +280,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Officer
-company: Hays Accounts and Finance - Agency - Temporary
+title: Marketing Officer (18 months)
+company: Michael Page - Agency - Contract
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225696770
+job_id: jobg8-23643_225769129
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -316,11 +292,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Officer (18 months)
-company: Michael Page - Agency - Contract
+title: Operations Administrator
+company: RPJ Energy Solutions Limited - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225769129
+job_id: jobg8-23643_225752498
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -456,19 +432,7 @@ job_id: jobg8-23643_225760167
 reason: Approved conservative Glasgow launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Support Administrator
-company: Office Angels - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225673377
-reason: Approved conservative Glasgow launch catchment.
----
-
-## REVIEW (3)
+## REVIEW (5)
 
 ---
 action: 
@@ -479,6 +443,18 @@ company: No1 Legal and Professional - Agency - Permanent
 location: Lanarkshire
 source: JobG8
 job_id: jobg8-2195198
+reason: No approved Glasgow catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing & Brand Executive
+company: Lime - Agency - Permanent
+location: Dunbartonshire
+source: JobG8
+job_id: jobg8-23643_225774513
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 
@@ -503,6 +479,18 @@ company: Realise Recruitment - Agency - Permanent
 location: Not Specified
 source: JobG8
 job_id: jobg8-23643_224045478
+reason: No approved Glasgow catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Lanarkshire
+source: JobG8
+job_id: jobg8-2202743
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

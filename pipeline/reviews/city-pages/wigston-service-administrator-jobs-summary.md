@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 64
+- automatic review: 61
 - automatic exclude: 0
 - effective include: 0
-- effective review: 64
+- effective review: 61
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (64)
+## REVIEW (61)
 
 ---
 action: 
@@ -90,6 +90,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant / AP
+company: SF Partners - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225775352
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Payable Assistant - Part time
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicestershire
@@ -102,11 +114,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Coordinator
-company: SF Partners - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225676664
+title: Administration Assistant
+company: Leicestershire Partnership NHS Trust
+location: Leicester, LE3 8TB
+source: NHS Jobs
+job_id: nhs-5695173
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -222,11 +234,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper - Part Time
-company: Redline Group Ltd - Agency - Permanent
-location: Leicestershire
+title: Business Development Executive
+company: Regional Recruitment - Agency - Permanent
+location: Blaby
 source: JobG8
-job_id: jobg8-23643_225671448
+job_id: jobg8-23643_225693331
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -234,11 +246,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Business Development Executive
-company: Regional Recruitment - Agency - Permanent
-location: Blaby
+title: Commercial Administrator
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicester
 source: JobG8
-job_id: jobg8-23643_225693331
+job_id: jobg8-2203869
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -282,35 +294,23 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: SF Partners - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2060220
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: SF Partners - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225676614
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Account Administrator
 company: Distinct Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2168782
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Care Coordinator
+company: Think Recruitment - Agency - Permanent
+location: Loughborough
+source: JobG8
+job_id: jobg8-23643_225776028
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -395,30 +395,6 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Coalville
 source: JobG8
 job_id: jobg8-23643_225694614
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Trinity House Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2055794
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Trinity House Group Ltd - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225671422
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -570,6 +546,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Operations Coordinator
+company: SF Partners - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225779153
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-time HR Coordinator
 company: Gi Group - Agency - Permanent
 location: Leicestershire
@@ -587,30 +575,6 @@ company: SolviT Recruitment Ltd - Agency - Temporary
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225763162
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Team Leader (part time)
-company: Michael Page - Agency - Temporary
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225720527
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: People Services (HR) Assistant
-company: Leicestershire Fire and Rescue - Agency - Contract
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225724878
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

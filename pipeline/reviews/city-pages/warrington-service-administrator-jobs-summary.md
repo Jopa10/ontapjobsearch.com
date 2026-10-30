@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 8
+- automatic include: 19
+- automatic review: 7
 - automatic exclude: 2
-- effective include: 18
-- effective review: 8
+- effective include: 19
+- effective review: 7
 - effective exclude: 2
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Fleet Coordinator - Night Shift
+company: Jobwise Ltd - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225677147
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Front of House Administrator
 company: Fawkes & Reece London - Agency - Temporary
 location: Warrington
@@ -137,6 +149,18 @@ action:
 decision: include
 automatic_decision: include
 title: Medical Receptionist
+company: High Street Surgery
+location: Warrington, WA3 3GS
+source: NHS Jobs
+job_id: nhs-5695670
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
 company: The Surgery
 location: Warrington, WA1 3RB
 source: NHS Jobs
@@ -153,18 +177,6 @@ company: Birchwood Medical Centre
 location: Warrington, WA3 7PJ
 source: NHS Jobs
 job_id: nhs-5690698
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Performance Marketing Manager
-company: Nova Recruitment - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225675166
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -240,7 +252,7 @@ job_id: nhs-5676409
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -287,18 +299,6 @@ company: Freight Personnel - Agency - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-23643_225747359
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Atrium Associates Ltd - Agency - Contract
-location: Cheshire
-source: JobG8
-job_id: jobg8-23643_225677068
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
