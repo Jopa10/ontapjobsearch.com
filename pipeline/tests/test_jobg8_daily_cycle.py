@@ -18,6 +18,7 @@ class JobG8DailyCycleTests(unittest.TestCase):
         now = datetime(2026, 9, 1, 8, 35, tzinfo=ZoneInfo("Europe/London"))
         self.assertEqual(cycle.resolve_cycle("workflow_dispatch", "", "morning", now), "morning")
         self.assertEqual(cycle.resolve_cycle("workflow_dispatch", "", "evening", now), "evening")
+        self.assertEqual(cycle.resolve_cycle("workflow_dispatch", "", "changeover", now), "changeover")
 
     def test_completed_cycle_is_skipped_and_next_cycle_is_not(self):
         now = datetime(2026, 9, 1, 8, 35, tzinfo=ZoneInfo("Europe/London"))
@@ -25,6 +26,9 @@ class JobG8DailyCycleTests(unittest.TestCase):
         cycle.mark_completed(state, "2026-09-01", "morning", "123", now)
         self.assertTrue(cycle.completed(state, "2026-09-01", "morning"))
         self.assertFalse(cycle.completed(state, "2026-09-01", "evening"))
+        cycle.mark_completed(state, "2026-09-01", "changeover", "456", now)
+        self.assertTrue(cycle.completed(state, "2026-09-01", "evening"))
+        self.assertFalse(cycle.completed(state, "2026-09-01", "morning"))
 
     def test_marker_state_is_small_and_valid_json(self):
         state = {"schema_version": 1, "completed_cycles": {}}
