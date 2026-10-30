@@ -1,10 +1,10 @@
 # JobG8 register-first broad-family reconciliation
 
 Jobs reconciled: **20,000**
-Jobs assigned first from an existing selected Ontap register: **2,007**
-Original title-rule Other / Unclassified: **5,280**
-Jobs resolved by description-majority pass: **328**
-Remaining Other / Unclassified after register-first + title + description passes: **3,007**
+Jobs assigned first from an existing selected Ontap register: **1,828**
+Original title-rule Other / Unclassified: **5,526**
+Jobs resolved by description-majority pass: **337**
+Remaining Other / Unclassified after register-first + title + description passes: **3,231**
 
 Every job is counted once and only once. Existing selected Ontap registers take priority; then conservative title rules; descriptions are used only for unresolved titles with a clear majority signal. Diagnostic only: no publishing logic is changed.
 
@@ -12,36 +12,36 @@ Every job is counted once and only once. Existing selected Ontap registers take 
 
 | Broad family | Jobs | Share |
 |---|---:|---:|
-| Professional Finance / Accountancy | 3,490 | 17.4% |
-| Other / Unclassified | 3,007 | 15.0% |
-| Sales / Business Development | 2,302 | 11.5% |
-| Admin / Customer Service | 2,300 | 11.5% |
-| Legal / Conveyancing | 1,656 | 8.3% |
-| HR / Recruitment | 1,062 | 5.3% |
-| IT / Data / Software | 769 | 3.8% |
-| Engineering / Technical | 689 | 3.4% |
-| Marketing / Digital / Creative | 587 | 2.9% |
-| Driving / Warehouse / Logistics | 517 | 2.6% |
-| Construction / Trades / Property | 511 | 2.6% |
-| Care / Support Work | 507 | 2.5% |
-| Education / Teaching | 472 | 2.4% |
-| Insurance / Claims | 351 | 1.8% |
-| Healthcare / Clinical | 280 | 1.4% |
-| Management / Team Leadership | 279 | 1.4% |
-| Property / Housing / Planning | 249 | 1.2% |
-| Operations / General Management | 195 | 1.0% |
-| Compliance / Risk / Quality | 164 | 0.8% |
-| Market Research / Field Interviewing | 122 | 0.6% |
-| Procurement / Buying / Supply Chain | 107 | 0.5% |
-| Financial Advice / Mortgages | 102 | 0.5% |
-| Charity / Fundraising / Community | 102 | 0.5% |
-| Security / Emergency Services | 48 | 0.2% |
-| Employment Support / Careers | 43 | 0.2% |
-| Retail / Store | 31 | 0.2% |
+| Other / Unclassified | 3,231 | 16.2% |
+| Professional Finance / Accountancy | 2,828 | 14.1% |
+| Sales / Business Development | 2,339 | 11.7% |
+| Admin / Customer Service | 2,239 | 11.2% |
+| Legal / Conveyancing | 1,631 | 8.2% |
+| HR / Recruitment | 1,108 | 5.5% |
+| IT / Data / Software | 927 | 4.6% |
+| Engineering / Technical | 735 | 3.7% |
+| Driving / Warehouse / Logistics | 634 | 3.2% |
+| Marketing / Digital / Creative | 574 | 2.9% |
+| Construction / Trades / Property | 522 | 2.6% |
+| Education / Teaching | 509 | 2.5% |
+| Care / Support Work | 487 | 2.4% |
+| Insurance / Claims | 466 | 2.3% |
+| Healthcare / Clinical | 325 | 1.6% |
+| Management / Team Leadership | 269 | 1.3% |
+| Property / Housing / Planning | 243 | 1.2% |
+| Operations / General Management | 204 | 1.0% |
+| Compliance / Risk / Quality | 182 | 0.9% |
+| Charity / Fundraising / Community | 123 | 0.6% |
+| Procurement / Buying / Supply Chain | 115 | 0.6% |
+| Financial Advice / Mortgages | 112 | 0.6% |
+| Security / Emergency Services | 55 | 0.3% |
+| Employment Support / Careers | 37 | 0.2% |
+| Retail / Store | 35 | 0.2% |
 | Cleaning / Domestic / Facilities | 28 | 0.1% |
-| Hospitality / Catering | 16 | 0.1% |
-| Manufacturing / Production | 12 | 0.1% |
-| Agriculture / Environment | 1 | 0.0% |
+| Manufacturing / Production | 16 | 0.1% |
+| Hospitality / Catering | 15 | 0.1% |
+| Market Research / Field Interviewing | 8 | 0.0% |
+| Agriculture / Environment | 2 | 0.0% |
 | Science / Laboratory | 1 | 0.0% |
 | **TOTAL** | **20,000** | **100.0%** |
 
@@ -51,38 +51,38 @@ Salary uses the midpoint of the available structured minimum/maximum after annua
 
 | Broad family | Below £20k / unknown | £20k–<£35k | £35k–£45k | Over £45k | Total |
 |---|---:|---:|---:|---:|---:|
-| Professional Finance / Accountancy | 1,392 | 727 | 531 | 840 | 3,490 |
-| Other / Unclassified | 1,508 | 574 | 313 | 612 | 3,007 |
-| Sales / Business Development | 536 | 592 | 486 | 688 | 2,302 |
-| Admin / Customer Service | 487 | 1,425 | 303 | 85 | 2,300 |
-| Legal / Conveyancing | 1,015 | 166 | 105 | 370 | 1,656 |
-| HR / Recruitment | 223 | 413 | 266 | 160 | 1,062 |
-| IT / Data / Software | 394 | 35 | 79 | 261 | 769 |
-| Engineering / Technical | 292 | 89 | 114 | 194 | 689 |
-| Marketing / Digital / Creative | 216 | 119 | 125 | 127 | 587 |
-| Driving / Warehouse / Logistics | 141 | 234 | 100 | 42 | 517 |
-| Construction / Trades / Property | 108 | 109 | 130 | 164 | 511 |
-| Care / Support Work | 129 | 279 | 52 | 47 | 507 |
-| Education / Teaching | 285 | 64 | 53 | 70 | 472 |
-| Insurance / Claims | 183 | 35 | 57 | 76 | 351 |
-| Healthcare / Clinical | 58 | 50 | 59 | 113 | 280 |
-| Management / Team Leadership | 77 | 52 | 64 | 86 | 279 |
-| Property / Housing / Planning | 40 | 38 | 89 | 82 | 249 |
-| Operations / General Management | 90 | 9 | 29 | 67 | 195 |
-| Compliance / Risk / Quality | 54 | 21 | 22 | 67 | 164 |
-| Market Research / Field Interviewing | 82 | 39 | 0 | 1 | 122 |
-| Procurement / Buying / Supply Chain | 35 | 44 | 10 | 18 | 107 |
-| Financial Advice / Mortgages | 11 | 25 | 35 | 31 | 102 |
-| Charity / Fundraising / Community | 72 | 14 | 12 | 4 | 102 |
-| Security / Emergency Services | 19 | 9 | 9 | 11 | 48 |
-| Employment Support / Careers | 5 | 33 | 5 | 0 | 43 |
-| Retail / Store | 22 | 7 | 0 | 2 | 31 |
-| Cleaning / Domestic / Facilities | 6 | 20 | 2 | 0 | 28 |
-| Hospitality / Catering | 6 | 8 | 2 | 0 | 16 |
-| Manufacturing / Production | 4 | 2 | 3 | 3 | 12 |
-| Agriculture / Environment | 0 | 1 | 0 | 0 | 1 |
+| Other / Unclassified | 1,691 | 555 | 347 | 638 | 3,231 |
+| Professional Finance / Accountancy | 968 | 648 | 443 | 769 | 2,828 |
+| Sales / Business Development | 568 | 583 | 465 | 723 | 2,339 |
+| Admin / Customer Service | 499 | 1,369 | 289 | 82 | 2,239 |
+| Legal / Conveyancing | 1,003 | 164 | 115 | 349 | 1,631 |
+| HR / Recruitment | 235 | 409 | 286 | 178 | 1,108 |
+| IT / Data / Software | 529 | 39 | 78 | 281 | 927 |
+| Engineering / Technical | 291 | 107 | 126 | 211 | 735 |
+| Driving / Warehouse / Logistics | 176 | 276 | 131 | 51 | 634 |
+| Marketing / Digital / Creative | 216 | 108 | 125 | 125 | 574 |
+| Construction / Trades / Property | 155 | 114 | 129 | 124 | 522 |
+| Education / Teaching | 295 | 60 | 65 | 89 | 509 |
+| Care / Support Work | 137 | 240 | 57 | 53 | 487 |
+| Insurance / Claims | 265 | 35 | 66 | 100 | 466 |
+| Healthcare / Clinical | 81 | 61 | 59 | 124 | 325 |
+| Management / Team Leadership | 64 | 55 | 63 | 87 | 269 |
+| Property / Housing / Planning | 48 | 38 | 78 | 79 | 243 |
+| Operations / General Management | 92 | 7 | 29 | 76 | 204 |
+| Compliance / Risk / Quality | 71 | 19 | 24 | 68 | 182 |
+| Charity / Fundraising / Community | 87 | 19 | 12 | 5 | 123 |
+| Procurement / Buying / Supply Chain | 38 | 44 | 15 | 18 | 115 |
+| Financial Advice / Mortgages | 12 | 29 | 34 | 37 | 112 |
+| Security / Emergency Services | 19 | 14 | 8 | 14 | 55 |
+| Employment Support / Careers | 3 | 28 | 6 | 0 | 37 |
+| Retail / Store | 27 | 6 | 0 | 2 | 35 |
+| Cleaning / Domestic / Facilities | 8 | 18 | 2 | 0 | 28 |
+| Manufacturing / Production | 6 | 3 | 3 | 4 | 16 |
+| Hospitality / Catering | 6 | 7 | 1 | 1 | 15 |
+| Market Research / Field Interviewing | 1 | 2 | 0 | 5 | 8 |
+| Agriculture / Environment | 0 | 2 | 0 | 0 | 2 |
 | Science / Laboratory | 1 | 0 | 0 | 0 | 1 |
-| **TOTAL** | **7,491** | **5,233** | **3,055** | **4,221** | **20,000** |
+| **TOTAL** | **7,592** | **5,059** | **3,056** | **4,293** | **20,000** |
 
 ## Opportunity and Ontap-region density
 
@@ -90,128 +90,128 @@ Geography uses the same geo_lookup Area→Cluster and controlled LocationFallbac
 
 | Broad family | Total | Existing register | New / uncovered | Ontap regions | Median / region | Regions 5+ | Regions 10+ | Geo unknown | Top regions |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| Professional Finance / Accountancy | 3,490 | 732 | 2,758 | 91 | 16 | 67 | 56 | 449 | London (698); Hampshire (145); Surrey (98); Berkshire (97); Sussex (91) |
-| Sales / Business Development | 2,302 | 0 | 2,302 | 86 | 8.0 | 52 | 40 | 497 | London (597); Berkshire (81); Hampshire (69); Bristol & Bath (54); Kent (51) |
-| Admin / Customer Service | 2,300 | 916 | 1,384 | 87 | 10 | 54 | 45 | 509 | London (519); Surrey (78); Hampshire (67); Hertfordshire (59); Kent (58) |
-| Legal / Conveyancing | 1,656 | 0 | 1,656 | 77 | 10 | 51 | 39 | 93 | London (265); Essex (99); Greater Manchester - Manchester & Salford (71); Surrey (65); Suffolk (63) |
-| HR / Recruitment | 1,062 | 146 | 916 | 72 | 6.0 | 38 | 24 | 233 | London (286); Hampshire (38); Devon (29); Bristol & Bath (27); Nottinghamshire (25) |
-| IT / Data / Software | 769 | 0 | 769 | 63 | 5 | 34 | 17 | 93 | London (227); Hampshire (36); Bristol & Bath (35); Berkshire (29); Greater Manchester - Manchester & Salford (19) |
-| Engineering / Technical | 689 | 0 | 689 | 69 | 4 | 32 | 19 | 112 | London (155); Hampshire (28); Bristol & Bath (26); North East - Tyneside, Wearside & Northumberland (18); Berkshire (17) |
-| Marketing / Digital / Creative | 587 | 0 | 587 | 56 | 3.0 | 25 | 14 | 79 | London (171); Nottinghamshire (24); Greater Manchester - Manchester & Salford (23); Kent (18); Berkshire (18) |
-| Driving / Warehouse / Logistics | 517 | 11 | 506 | 67 | 3 | 28 | 10 | 156 | London (45); Kent (21); Hampshire (19); Staffordshire (15); Essex (13) |
-| Construction / Trades / Property | 511 | 0 | 511 | 56 | 4.0 | 24 | 9 | 65 | London (165); Essex (27); Hampshire (22); Sussex (19); Kent (15) |
-| Care / Support Work | 507 | 202 | 305 | 66 | 3.0 | 24 | 9 | 143 | London (62); Sussex (31); Hampshire (18); Kent (15); Surrey (15) |
-| Education / Teaching | 472 | 0 | 472 | 54 | 3.0 | 23 | 8 | 134 | London (80); Gloucestershire (30); Bristol & Bath (17); Essex (14); Sussex (13) |
-| Insurance / Claims | 351 | 0 | 351 | 51 | 2 | 21 | 7 | 42 | London (89); Yorkshire - West (17); Essex (17); Greater Manchester - Manchester & Salford (16); Kent (14) |
-| Healthcare / Clinical | 280 | 0 | 280 | 47 | 2 | 12 | 5 | 73 | London (50); Essex (16); Bristol & Bath (16); Surrey (13); Berkshire (10) |
-| Management / Team Leadership | 279 | 0 | 279 | 57 | 2 | 13 | 3 | 37 | London (60); Hampshire (14); Sussex (13); Greater Manchester - Manchester & Salford (8); Kent (7) |
-| Property / Housing / Planning | 249 | 0 | 249 | 46 | 2.0 | 11 | 3 | 31 | London (70); Kent (17); Essex (15); Gloucestershire (8); Bristol & Bath (8) |
-| Operations / General Management | 195 | 0 | 195 | 41 | 2 | 7 | 2 | 34 | London (61); Hampshire (12); Berkshire (9); Bristol & Bath (6); Hertfordshire (5) |
-| Compliance / Risk / Quality | 164 | 0 | 164 | 40 | 2.0 | 5 | 1 | 29 | London (52); West Midlands - Coventry & Warwickshire (5); North East - Tyneside, Wearside & Northumberland (5); Hampshire (5); Essex (5) |
-| Market Research / Field Interviewing | 122 | 0 | 122 | 31 | 3 | 6 | 1 | 18 | London (16); Kent (9); Lancashire - East (7); Lincolnshire (6); Dorset (6) |
-| Procurement / Buying / Supply Chain | 107 | 0 | 107 | 27 | 2 | 4 | 1 | 25 | London (21); Hertfordshire (6); Greater Manchester - Manchester & Salford (5); Essex (5); Kent (4) |
-| Financial Advice / Mortgages | 102 | 0 | 102 | 36 | 1.0 | 3 | 1 | 16 | London (21); Kent (7); Surrey (7); Leicestershire (4); Lincolnshire (3) |
-| Charity / Fundraising / Community | 102 | 0 | 102 | 31 | 2 | 1 | 1 | 19 | London (25); Hampshire (4); Essex (3); Surrey (3); Shropshire (3) |
-| Security / Emergency Services | 48 | 0 | 48 | 17 | 1 | 1 | 1 | 11 | London (16); West Midlands - Coventry & Warwickshire (2); Sussex (2); Wiltshire (2); Nottinghamshire (2) |
-| Employment Support / Careers | 43 | 0 | 43 | 17 | 1 | 0 | 0 | 16 | London (4); Bristol & Bath (2); Kent (2); Surrey (2); Yorkshire - North (2) |
-| Retail / Store | 31 | 0 | 31 | 17 | 1 | 1 | 0 | 3 | London (7); Essex (2); Surrey (2); Hertfordshire (2); Yorkshire - North (2) |
-| Cleaning / Domestic / Facilities | 28 | 0 | 28 | 15 | 1 | 1 | 0 | 3 | London (9); Hampshire (2); Essex (2); West Midlands (1); Merseyside - Wirral (1) |
-| Hospitality / Catering | 16 | 0 | 16 | 6 | 1.5 | 1 | 0 | 1 | London (8); Northamptonshire (2); Cambridgeshire (2); Hertfordshire (1); Hampshire (1) |
-| Manufacturing / Production | 12 | 0 | 12 | 11 | 1 | 0 | 0 | 0 | Nottinghamshire (2); Greater Manchester - Manchester & Salford (1); Suffolk (1); Shropshire (1); London (1) |
-| Agriculture / Environment | 1 | 0 | 1 | 1 | 1 | 0 | 0 | 0 | Shropshire (1) |
+| Professional Finance / Accountancy | 2,828 | 575 | 2,253 | 91 | 14 | 66 | 51 | 417 | London (552); Hampshire (112); Surrey (88); Berkshire (76); Hertfordshire (73) |
+| Sales / Business Development | 2,339 | 0 | 2,339 | 82 | 9.5 | 54 | 41 | 482 | London (600); Berkshire (80); Hampshire (71); Hertfordshire (53); Bristol & Bath (51) |
+| Admin / Customer Service | 2,239 | 923 | 1,316 | 84 | 12.0 | 58 | 45 | 451 | London (493); Surrey (71); Hampshire (64); Hertfordshire (62); Kent (52) |
+| Legal / Conveyancing | 1,631 | 0 | 1,631 | 76 | 11.0 | 54 | 41 | 95 | London (292); Greater Manchester - Manchester & Salford (88); Surrey (62); Sussex (53); Yorkshire - West (52) |
+| HR / Recruitment | 1,108 | 139 | 969 | 75 | 5 | 38 | 30 | 241 | London (292); Hampshire (37); Devon (27); Bristol & Bath (27); Berkshire (23) |
+| IT / Data / Software | 927 | 0 | 927 | 63 | 7 | 38 | 22 | 108 | London (243); Hampshire (44); Berkshire (36); Bristol & Bath (36); Greater Manchester - Manchester & Salford (28) |
+| Engineering / Technical | 735 | 0 | 735 | 73 | 4 | 33 | 20 | 130 | London (172); Bristol & Bath (25); Hampshire (22); Berkshire (19); Oxfordshire (17) |
+| Driving / Warehouse / Logistics | 634 | 13 | 621 | 68 | 4.5 | 34 | 14 | 171 | London (60); Hampshire (25); Kent (24); Northamptonshire (19); Leicestershire (18) |
+| Marketing / Digital / Creative | 574 | 0 | 574 | 55 | 4 | 24 | 17 | 79 | London (179); Nottinghamshire (19); Greater Manchester - Manchester & Salford (18); Berkshire (17); Sussex (16) |
+| Construction / Trades / Property | 522 | 0 | 522 | 60 | 2.5 | 21 | 9 | 60 | London (184); Essex (28); Hampshire (17); Berkshire (14); Sussex (14) |
+| Education / Teaching | 509 | 0 | 509 | 57 | 3 | 24 | 7 | 147 | London (91); Gloucestershire (29); Bristol & Bath (16); Sussex (15); Hertfordshire (14) |
+| Care / Support Work | 487 | 178 | 309 | 67 | 3 | 19 | 10 | 121 | London (72); Hampshire (28); Sussex (27); Devon (14); Kent (14) |
+| Insurance / Claims | 466 | 0 | 466 | 52 | 4.0 | 23 | 9 | 45 | London (103); Yorkshire - West (28); Greater Manchester - Manchester & Salford (28); Essex (19); West Midlands - Birmingham & Solihull (19) |
+| Healthcare / Clinical | 325 | 0 | 325 | 53 | 3 | 15 | 5 | 73 | London (58); Bristol & Bath (17); Essex (13); Berkshire (12); Surrey (10) |
+| Management / Team Leadership | 269 | 0 | 269 | 56 | 2.0 | 11 | 3 | 37 | London (68); Sussex (14); Hampshire (12); Yorkshire - West (7); Devon (7) |
+| Property / Housing / Planning | 243 | 0 | 243 | 46 | 2.0 | 11 | 3 | 38 | London (68); Kent (12); Essex (10); Gloucestershire (8); Cambridgeshire (7) |
+| Operations / General Management | 204 | 0 | 204 | 39 | 2 | 8 | 2 | 33 | London (69); Hampshire (11); Bristol & Bath (8); Berkshire (7); Devon (6) |
+| Compliance / Risk / Quality | 182 | 0 | 182 | 41 | 2 | 6 | 1 | 29 | London (61); Essex (7); North East - Tyneside, Wearside & Northumberland (7); Sussex (6); Hampshire (6) |
+| Charity / Fundraising / Community | 123 | 0 | 123 | 36 | 1.0 | 4 | 1 | 20 | London (35); Bedfordshire (6); Hampshire (5); Yorkshire - West (5); Shropshire (4) |
+| Procurement / Buying / Supply Chain | 115 | 0 | 115 | 35 | 2 | 3 | 1 | 21 | London (21); Hertfordshire (8); Kent (5); Essex (4); Gloucestershire (4) |
+| Financial Advice / Mortgages | 112 | 0 | 112 | 38 | 1.0 | 5 | 1 | 21 | London (17); Surrey (8); Kent (6); Hampshire (6); Yorkshire - West (5) |
+| Security / Emergency Services | 55 | 0 | 55 | 21 | 1 | 1 | 1 | 11 | London (15); Sussex (3); Berkshire (3); Hampshire (3); Wiltshire (2) |
+| Employment Support / Careers | 37 | 0 | 37 | 15 | 1 | 1 | 0 | 14 | London (8); North East - County Durham & Darlington/Hartlepool (2); Northamptonshire (1); Kent (1); Lincolnshire (1) |
+| Retail / Store | 35 | 0 | 35 | 18 | 1.0 | 1 | 0 | 3 | London (9); Scotland Central - Edinburgh & Lothians (3); Surrey (2); Hertfordshire (2); North East - Tyneside, Wearside & Northumberland (2) |
+| Cleaning / Domestic / Facilities | 28 | 0 | 28 | 17 | 1 | 1 | 0 | 4 | London (7); Essex (2); Hampshire (1); West Midlands (1); Merseyside - Wirral (1) |
+| Manufacturing / Production | 16 | 0 | 16 | 12 | 1.0 | 0 | 0 | 2 | Nottinghamshire (2); London (2); Greater Manchester - Manchester & Salford (1); Suffolk (1); Shropshire (1) |
+| Hospitality / Catering | 15 | 0 | 15 | 6 | 1.0 | 1 | 0 | 3 | London (6); Cambridgeshire (2); Hampshire (1); Northamptonshire (1); Scotland Central - Falkirk & Stirling (1) |
+| Market Research / Field Interviewing | 8 | 0 | 8 | 6 | 1.0 | 0 | 0 | 1 | London (2); Monmouthshire (1); North Wales - East (1); Wales South - Gwent (1); Wiltshire (1) |
+| Agriculture / Environment | 2 | 0 | 2 | 1 | 2 | 0 | 0 | 0 | Shropshire (2) |
 | Science / Laboratory | 1 | 0 | 1 | 1 | 1 | 0 | 0 | 0 | Hertfordshire (1) |
 
 ## Reconciliation basis
 
 | Basis | Jobs |
 |---|---:|
-| title_rule_pass1 | 12,958 |
-| still_unclassified | 3,007 |
-| title_rule_pass2 | 1,700 |
-| existing_register:finance_accounts | 732 |
-| existing_register:admin_service | 635 |
-| description_majority | 328 |
-| existing_register:customer_service_contact_centre | 281 |
-| existing_register:support_worker | 202 |
-| existing_register:hr_recruitment | 146 |
-| existing_register:warehouse_logistics | 11 |
+| title_rule_pass1 | 12,868 |
+| still_unclassified | 3,231 |
+| title_rule_pass2 | 1,736 |
+| existing_register:admin_service | 629 |
+| existing_register:finance_accounts | 575 |
+| description_majority | 337 |
+| existing_register:customer_service_contact_centre | 294 |
+| existing_register:support_worker | 178 |
+| existing_register:hr_recruitment | 139 |
+| existing_register:warehouse_logistics | 13 |
 
 ## Largest titles still genuinely unclassified
 
 | Count | Title |
 |---:|---|
-| 22 | External Examiner- BTEC - HN 4-7 - Higher Technical ... |
+| 26 | Disability Assessor |
 | 17 | Corporate Associate |
-| 15 | Disability Assessor |
 | 15 | Pitch Executive |
 | 15 | Pitch Executive (5.00pm - 1:30am) |
 | 14 | Associate - Corporate |
 | 14 | Associate - disputes |
+| 13 | Account Handler |
 | 13 | Disputes Associate |
-| 10 | Sports Coach |
+| 12 | Estate Planning Consultant |
+| 12 | Property Lister |
+| 10 | Neighbourhood Officer |
 | 10 | SOC Analyst Programme |
-| 9 | Neighbourhood Officer |
-| 9 | Estates Manager |
-| 9 | Repairs Planner |
-| 9 | Account Handler |
+| 8 | Sports Coach |
+| 8 | Transaction Manager |
+| 8 | Occupational Health Advisor |
+| 8 | Partnership Executive |
+| 7 | Customer Relations Manager |
 | 7 | CRM Manager |
+| 7 | Repairs Planner |
 | 7 | Change Manager |
-| 7 | Partnership Executive |
-| 6 | Facilities Officer |
+| 6 | Customer Consultant |
+| 6 | Senior Manager |
 | 6 | ER Specialist |
+| 6 | Estates Manager |
+| 6 | Operations Assistant |
 | 6 | Territory Representative |
-| 6 | Lead Identity Manager |
-| 6 | Examiner - International Advanced Level - History (2016 ... |
-| 5 | National Account Director |
+| 6 | Repairs Manager |
+| 6 | People Business Partner |
 | 5 | Block Manager |
-| 5 | Data Protection Officer |
+| 5 | Learning & Development Manager |
 | 5 | Tenancy Sustainment Officer |
-| 5 | Senior Manager |
+| 5 | Data Architect |
 | 5 | Immigration Partner |
+| 5 | Portfolio Analyst |
 | 5 | Account Director |
-| 5 | Team Assistant |
-| 5 | HSE Advisor |
-| 5 | Occupational Health Advisor |
-| 5 | Regional Customer Relationship Manager |
+| 5 | Business Change Manager |
+| 5 | Early Years Educator |
+| 5 | Nursery Manager |
+| 5 | Business Intelligence Analyst |
+| 5 | Customer Services Executive |
 | 5 | Behaviour Mentor |
-| 5 | Estate Planning Consultant |
+| 5 | Stores Operative |
+| 5 | Project Support Officer |
+| 5 | Lead Identity Manager |
+| 5 | Recovery Worker (Drug and Alcohol) |
 | 5 | Planner - Transportation |
-| 4 | Multiskilled Host |
-| 4 | Bid Manager |
-| 4 | Employment Partner |
-| 4 | Housing Standards Officer |
-| 4 | Project Support Officer |
-| 4 | Contract Support |
-| 4 | Group Reporting Manager |
-| 4 | Transaction Manager |
-| 4 | New Store Opening Training Manager |
-| 4 | Business Change Manager |
-| 4 | Nursery Manager |
-| 4 | Chair of Trustees |
-| 4 | Paid Media Manager |
-| 4 | Customer Consultant |
-| 4 | Learning & Development Manager |
-| 4 | Customer Relations Manager |
-| 4 | Graduate Commercial Business Trainee |
-| 4 | Data Architect |
-| 4 | Head of Property and Facilities |
-| 4 | Operations Assistant |
-| 4 | Early Years Educator |
+| 4 | Revenue Controller |
 | 4 | Nursery Practitioner |
-| 4 | Customer Services Executive |
+| 4 | Estate Manager |
+| 4 | Team Assistant |
+| 4 | Bid Manager |
 | 4 | Mentor / Coach |
 | 4 | Head of Property |
+| 4 | Chair of Trustees |
 | 4 | Tax & Trusts Manager |
-| 4 | Resourcer |
-| 4 | Operational Trainer |
+| 4 | HSE Advisor |
 | 4 | Housing Options Officer |
-| 4 | Stores Operative |
-| 4 | Interpreter |
-| 4 | Senior CRA - IQVIA Biotech |
-| 3 | Business Services Senior |
-| 3 | Training Manager |
-| 3 | Civil Enforcement Officer |
-| 3 | Commercial Analyst |
-| 3 | Planner |
-| 3 | Independent Living Officer |
-| 3 | Category Insights Manager |
+| 4 | Resourcer |
+| 4 | Facilities Officer |
+| 4 | Activity Co-ordinator |
+| 4 | Material Handler |
+| 4 | National Account Director |
+| 4 | Letting Negotiator |
+| 4 | Corporate Producer |
+| 4 | Trust Manager |
+| 3 | Playworker |
+| 3 | Senior Credit Controller |
+| 3 | Customer Experience Manager |
+| 3 | Senior Associate (Family Law) |
+| 3 | Financial Analyst |
+| 3 | Contract Manager |
+| 3 | Sports Coach / TA |
+| 3 | Philanthropy Manager |
+| 3 | Paid Media Manager |
+| 3 | Group Reporting Manager |

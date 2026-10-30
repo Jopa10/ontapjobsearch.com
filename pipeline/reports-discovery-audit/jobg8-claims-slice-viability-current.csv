@@ -1,79 +1,79 @@
 ﻿region,days_observed,latest_feed_date,latest_count,average_count,median_count,minimum_count,maximum_count,days_with_1_plus,days_with_4_plus,days_with_6_plus,recent_counts,evidence_grade
-London,7,2026-10-24,15,16.14,16,15,17,7,7,7,17 / 17 / 17 / 16 / 16 / 15 / 15,STRONG_REVIEW_CANDIDATE
-Greater Manchester - Manchester & Salford,7,2026-10-24,13,13.29,13,13,15,7,7,7,15 / 13 / 13 / 13 / 13 / 13 / 13,STRONG_REVIEW_CANDIDATE
-Scotland West - Glasgow,7,2026-10-24,11,10.43,10,10,11,7,7,7,10 / 10 / 10 / 10 / 11 / 11 / 11,STRONG_REVIEW_CANDIDATE
-Bristol & Bath,7,2026-10-24,8,7.14,7,7,8,7,7,7,7 / 7 / 7 / 7 / 7 / 7 / 8,STRONG_REVIEW_CANDIDATE
-Essex,7,2026-10-24,7,5.0,5,4,7,7,7,2,4 / 4 / 4 / 5 / 5 / 6 / 7,WATCH
-West Midlands - Birmingham & Solihull,7,2026-10-24,6,5.14,5,5,6,7,7,1,5 / 5 / 5 / 5 / 5 / 5 / 6,WATCH
-Hampshire,7,2026-10-24,5,5.0,5,5,5,7,7,0,5 / 5 / 5 / 5 / 5 / 5 / 5,WATCH
-Yorkshire - West,7,2026-10-24,5,4.57,4,4,6,7,7,1,6 / 5 / 4 / 4 / 4 / 4 / 5,WATCH
-Staffordshire,7,2026-10-24,5,3.29,4,1,5,7,4,0,1 / 1 / 3 / 4 / 4 / 5 / 5,WATCH
-North East,7,2026-10-24,4,4.0,4,4,4,7,7,0,4 / 4 / 4 / 4 / 4 / 4 / 4,WATCH
-Sussex,7,2026-10-24,4,4.0,4,4,4,7,7,0,4 / 4 / 4 / 4 / 4 / 4 / 4,WATCH
-Merseyside - Liverpool,7,2026-10-24,3,4.14,4,3,6,7,4,1,5 / 6 / 5 / 4 / 3 / 3 / 3,THIN
-Kent,7,2026-10-24,3,3.71,4,3,4,7,5,0,4 / 4 / 4 / 4 / 4 / 3 / 3,THIN
-Greater Manchester - Wigan & Bolton,7,2026-10-24,3,3.0,3,3,3,7,0,0,3 / 3 / 3 / 3 / 3 / 3 / 3,THIN
-Wales South - Cardiff & Vale,7,2026-10-24,3,3.0,3,3,3,7,0,0,3 / 3 / 3 / 3 / 3 / 3 / 3,THIN
-Yorkshire - South,7,2026-10-24,3,3.0,3,3,3,7,0,0,3 / 3 / 3 / 3 / 3 / 3 / 3,THIN
-Cheshire - East,7,2026-10-24,2,1.43,2,0,2,5,0,0,0 / 0 / 2 / 2 / 2 / 2 / 2,THIN
-Berkshire,7,2026-10-24,2,1.29,1,1,2,7,0,0,1 / 1 / 1 / 1 / 1 / 2 / 2,THIN
-Nottinghamshire,7,2026-10-24,1,1.71,2,1,2,7,0,0,2 / 2 / 2 / 2 / 2 / 1 / 1,THIN
-Cheshire - West,7,2026-10-24,1,1.0,1,1,1,7,0,0,1 / 1 / 1 / 1 / 1 / 1 / 1,THIN
-Gloucestershire,7,2026-10-24,1,1.0,1,1,1,7,0,0,1 / 1 / 1 / 1 / 1 / 1 / 1,THIN
-Leicestershire,7,2026-10-24,1,1.0,1,1,1,7,0,0,1 / 1 / 1 / 1 / 1 / 1 / 1,THIN
-Scotland West - Renfrewshire & Inverclyde,7,2026-10-24,1,1.0,1,1,1,7,0,0,1 / 1 / 1 / 1 / 1 / 1 / 1,THIN
-Surrey,7,2026-10-24,1,1.0,1,1,1,7,0,0,1 / 1 / 1 / 1 / 1 / 1 / 1,THIN
-Greater Manchester - South,7,2026-10-24,1,0.43,0,0,1,3,0,0,0 / 0 / 0 / 0 / 1 / 1 / 1,THIN
-Lancashire - Central,7,2026-10-24,1,0.29,0,0,1,2,0,0,0 / 0 / 0 / 0 / 0 / 1 / 1,THIN
-Northamptonshire,7,2026-10-24,0,1.14,2,0,2,4,0,0,2 / 2 / 2 / 2 / 0 / 0 / 0,THIN
-Bedfordshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Buckinghamshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Cambridgeshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Cheshire - Warrington & Halton,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Cornwall,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Cumbria - North,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Cumbria - South,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Cumbria - West,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Derbyshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Devon,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Dorset,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Greater Manchester - North,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Herefordshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Hertfordshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Lancashire - Blackpool & Fylde,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Lancashire - East,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Lancashire - North,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Lancashire - West,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Lincolnshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Merseyside - Sefton,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Merseyside - St Helens & Knowsley,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Merseyside - Wirral,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Norfolk,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-North Scotland,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-North Wales - East,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-North Wales - West,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Northern Ireland - East,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Northern Ireland - West,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Oxfordshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Rutland,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Scotland - Borders,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Scotland Central - Edinburgh & Lothians,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Scotland Central - Falkirk & Stirling,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Scotland Central - Fife,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Scotland Central - Tayside,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Scotland West - Ayrshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Scotland West - Lanarkshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Shropshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Somerset,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Suffolk,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Wales - Mid,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Wales - West,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Wales South - Gwent,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Wales South - Swansea Bay,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Wales South - Valleys,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-West Midlands - Black Country,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-West Midlands - Coventry & Warwickshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Wiltshire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Worcestershire,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Yorkshire - East,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
-Yorkshire - North,7,2026-10-24,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Greater Manchester - Manchester & Salford,7,2026-10-30,13,13.29,14,9,16,7,7,7,15 / 15 / 14 / 16 / 9 / 11 / 13,STRONG_REVIEW_CANDIDATE
+London,7,2026-10-30,11,12.0,12,9,14,7,7,7,14 / 14 / 12 / 13 / 9 / 11 / 11,STRONG_REVIEW_CANDIDATE
+Essex,7,2026-10-30,9,7.57,8,5,10,7,7,6,6 / 6 / 5 / 8 / 9 / 10 / 9,STRONG_REVIEW_CANDIDATE
+Yorkshire - West,7,2026-10-30,7,4.43,4,2,7,7,6,1,5 / 5 / 4 / 4 / 2 / 4 / 7,WATCH
+Bristol & Bath,7,2026-10-30,6,6.14,8,2,8,7,5,5,8 / 8 / 8 / 8 / 2 / 3 / 6,STRONG_REVIEW_CANDIDATE
+Staffordshire,7,2026-10-30,6,4.86,5,4,6,7,7,1,5 / 5 / 4 / 4 / 5 / 5 / 6,WATCH
+Scotland West - Glasgow,7,2026-10-30,5,7.86,9,5,11,7,7,4,11 / 11 / 9 / 9 / 5 / 5 / 5,WATCH
+West Midlands - Birmingham & Solihull,7,2026-10-30,3,4.71,5,3,7,7,4,3,6 / 6 / 5 / 7 / 3 / 3 / 3,THIN
+Sussex,7,2026-10-30,2,3.0,4,1,4,7,4,0,4 / 4 / 4 / 4 / 1 / 2 / 2,THIN
+Wales South - Cardiff & Vale,7,2026-10-30,2,2.29,3,0,3,6,0,0,3 / 3 / 3 / 3 / 0 / 2 / 2,THIN
+Berkshire,7,2026-10-30,2,2.0,2,2,2,7,0,0,2 / 2 / 2 / 2 / 2 / 2 / 2,THIN
+Cheshire - East,7,2026-10-30,2,2.0,2,2,2,7,0,0,2 / 2 / 2 / 2 / 2 / 2 / 2,THIN
+Lancashire - Central,7,2026-10-30,2,1.29,1,1,2,7,0,0,1 / 1 / 1 / 1 / 1 / 2 / 2,THIN
+Suffolk,7,2026-10-30,2,1.29,2,0,2,5,0,0,0 / 0 / 1 / 2 / 2 / 2 / 2,THIN
+Hampshire,7,2026-10-30,1,3.57,5,1,5,7,4,0,5 / 5 / 5 / 5 / 2 / 2 / 1,THIN
+North East,7,2026-10-30,1,2.57,3,1,4,7,3,0,4 / 4 / 3 / 4 / 1 / 1 / 1,THIN
+Merseyside - Liverpool,7,2026-10-30,1,2.29,3,1,4,7,1,0,3 / 3 / 3 / 4 / 1 / 1 / 1,THIN
+Greater Manchester - Wigan & Bolton,7,2026-10-30,1,2.14,3,1,3,7,0,0,3 / 3 / 3 / 3 / 1 / 1 / 1,THIN
+Kent,7,2026-10-30,1,1.86,2,1,3,7,0,0,3 / 3 / 2 / 2 / 1 / 1 / 1,THIN
+Gloucestershire,7,2026-10-30,1,1.0,1,1,1,7,0,0,1 / 1 / 1 / 1 / 1 / 1 / 1,THIN
+Greater Manchester - South,7,2026-10-30,1,1.0,1,1,1,7,0,0,1 / 1 / 1 / 1 / 1 / 1 / 1,THIN
+Surrey,7,2026-10-30,1,1.0,1,1,1,7,0,0,1 / 1 / 1 / 1 / 1 / 1 / 1,THIN
+Nottinghamshire,7,2026-10-30,1,0.86,1,0,1,6,0,0,1 / 1 / 1 / 1 / 0 / 1 / 1,THIN
+Cheshire - West,7,2026-10-30,1,0.71,1,0,1,5,0,0,1 / 1 / 0 / 0 / 1 / 1 / 1,THIN
+Leicestershire,7,2026-10-30,1,0.71,1,0,1,5,0,0,1 / 1 / 0 / 0 / 1 / 1 / 1,THIN
+Scotland West - Renfrewshire & Inverclyde,7,2026-10-30,1,0.71,1,0,1,5,0,0,1 / 1 / 0 / 0 / 1 / 1 / 1,THIN
+Shropshire,7,2026-10-30,1,0.43,0,0,1,3,0,0,0 / 0 / 0 / 0 / 1 / 1 / 1,THIN
+Yorkshire - South,7,2026-10-30,0,1.71,3,0,3,4,0,0,3 / 3 / 3 / 3 / 0 / 0 / 0,THIN
+Lancashire - Blackpool & Fylde,7,2026-10-30,0,0.14,0,0,1,1,0,0,0 / 0 / 1 / 0 / 0 / 0 / 0,THIN
+Bedfordshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Buckinghamshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Cambridgeshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Cheshire - Warrington & Halton,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Cornwall,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Cumbria - North,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Cumbria - South,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Cumbria - West,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Derbyshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Devon,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Dorset,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Greater Manchester - North,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Herefordshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Hertfordshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Lancashire - East,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Lancashire - North,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Lancashire - West,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Lincolnshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Merseyside - Sefton,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Merseyside - St Helens & Knowsley,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Merseyside - Wirral,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Norfolk,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+North Scotland,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+North Wales - East,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+North Wales - West,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Northamptonshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Northern Ireland - East,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Northern Ireland - West,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Oxfordshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Rutland,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Scotland - Borders,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Scotland Central - Edinburgh & Lothians,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Scotland Central - Falkirk & Stirling,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Scotland Central - Fife,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Scotland Central - Tayside,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Scotland West - Ayrshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Scotland West - Lanarkshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Somerset,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Wales - Mid,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Wales - West,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Wales South - Gwent,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Wales South - Swansea Bay,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Wales South - Valleys,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+West Midlands - Black Country,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+West Midlands - Coventry & Warwickshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Wiltshire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Worcestershire,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Yorkshire - East,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Yorkshire - North,7,2026-10-30,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN

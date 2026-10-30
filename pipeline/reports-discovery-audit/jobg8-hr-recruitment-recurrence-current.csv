@@ -1,79 +1,79 @@
 ﻿market,likely_in,borderline,plausible_including_borderline,out_salary,out_specialist
-Bedfordshire,0,2,2,1,8
-Berkshire,3,3,6,3,21
-Bristol & Bath,2,0,2,2,28
-Buckinghamshire,6,2,8,2,11
-Cambridgeshire,1,0,1,1,6
-Cheshire - East,1,2,3,1,2
-Cheshire - Warrington & Halton,0,2,2,1,4
-Cheshire - West,1,0,1,0,1
+Bedfordshire,0,1,1,4,8
+Berkshire,3,3,6,4,15
+Bristol & Bath,3,0,3,1,24
+Buckinghamshire,7,4,11,3,12
+Cambridgeshire,3,1,4,1,6
+Cheshire - East,0,1,1,1,2
+Cheshire - Warrington & Halton,0,3,3,2,6
+Cheshire - West,0,0,0,0,1
 Cornwall,0,0,0,0,2
-Cumbria - North,0,0,0,1,0
-Cumbria - South,0,0,0,0,0
+Cumbria - North,0,0,0,0,0
+Cumbria - South,0,0,0,1,0
 Cumbria - West,0,0,0,0,0
-Derbyshire,4,2,6,1,10
-Devon,4,9,13,2,25
-Dorset,1,1,2,1,9
-Essex,3,7,10,3,13
-Gloucestershire,1,1,2,0,18
-Greater Manchester - Manchester & Salford,5,9,14,5,33
-Greater Manchester - North,0,1,1,0,1
-Greater Manchester - South,1,3,4,0,3
-Greater Manchester - Wigan & Bolton,1,4,5,0,3
-Hampshire,1,10,11,6,34
-Herefordshire,0,0,0,0,3
-Hertfordshire,3,5,8,4,8
-Kent,2,4,6,1,17
-Lancashire - Blackpool & Fylde,0,0,0,0,2
-Lancashire - Central,0,0,0,0,0
-Lancashire - East,0,1,1,0,1
+Derbyshire,3,3,6,0,9
+Devon,4,9,13,2,24
+Dorset,0,2,2,1,9
+Essex,3,4,7,4,14
+Gloucestershire,1,4,5,0,16
+Greater Manchester - Manchester & Salford,6,9,15,5,34
+Greater Manchester - North,0,1,1,0,0
+Greater Manchester - South,1,2,3,0,6
+Greater Manchester - Wigan & Bolton,1,4,5,0,2
+Hampshire,1,10,11,4,38
+Herefordshire,1,0,1,0,3
+Hertfordshire,3,5,8,2,8
+Kent,2,1,3,0,16
+Lancashire - Blackpool & Fylde,0,0,0,1,2
+Lancashire - Central,0,1,1,0,0
+Lancashire - East,0,2,2,1,1
 Lancashire - North,0,0,0,0,1
-Lancashire - West,0,0,0,0,0
-Leicestershire,3,4,7,6,8
-Lincolnshire,0,2,2,0,8
-London,10,41,51,41,71
+Lancashire - West,0,0,0,0,1
+Leicestershire,3,4,7,6,16
+Lincolnshire,0,1,1,0,9
+London,9,37,46,39,73
 Merseyside - Liverpool,2,2,4,1,7
 Merseyside - Sefton,0,0,0,0,0
 Merseyside - St Helens & Knowsley,0,1,1,0,1
 Merseyside - Wirral,1,0,1,0,0
-Norfolk,3,4,7,1,3
-North East,2,9,11,1,9
-Northamptonshire,2,3,5,2,8
-Nottinghamshire,7,3,10,4,17
-Oxfordshire,2,3,5,0,13
+Norfolk,2,3,5,2,5
+North East,2,9,11,1,13
+Northamptonshire,2,3,5,4,8
+Nottinghamshire,4,4,8,5,14
+Oxfordshire,3,4,7,0,10
 Rutland,0,0,0,0,0
 Shropshire,1,4,5,0,3
-Somerset,1,2,3,0,1
-Staffordshire,6,2,8,2,6
-Suffolk,3,5,8,2,10
-Surrey,7,4,11,2,19
-Sussex,1,6,7,2,16
-West Midlands - Birmingham & Solihull,5,8,13,6,23
-West Midlands - Black Country,3,6,9,0,8
-West Midlands - Coventry & Warwickshire,2,3,5,0,13
+Somerset,1,3,4,0,2
+Staffordshire,5,3,8,3,10
+Suffolk,3,4,7,2,9
+Surrey,7,3,10,3,14
+Sussex,0,7,7,4,13
+West Midlands - Birmingham & Solihull,5,7,12,7,23
+West Midlands - Black Country,2,5,7,0,9
+West Midlands - Coventry & Warwickshire,2,2,4,0,12
 Wiltshire,0,0,0,0,3
-Worcestershire,0,0,0,2,5
-Yorkshire - East,0,2,2,3,6
+Worcestershire,0,0,0,2,8
+Yorkshire - East,0,2,2,3,5
 Yorkshire - North,1,1,2,0,1
-Yorkshire - South,1,1,2,5,9
-Yorkshire - West,2,9,11,5,17
-North Scotland,0,0,0,0,0
+Yorkshire - South,2,1,3,5,9
+Yorkshire - West,2,8,10,6,24
+North Scotland,0,0,0,0,1
 Scotland - Borders,0,0,0,0,0
 Scotland Central - Edinburgh & Lothians,0,0,0,0,0
-Scotland Central - Falkirk & Stirling,0,0,0,0,0
-Scotland Central - Fife,0,0,0,1,0
+Scotland Central - Falkirk & Stirling,0,0,0,0,1
+Scotland Central - Fife,1,0,1,1,0
 Scotland Central - Tayside,1,0,1,0,1
 Scotland West - Ayrshire,0,0,0,0,0
-Scotland West - Glasgow,1,2,3,3,7
+Scotland West - Glasgow,1,1,2,1,8
 Scotland West - Lanarkshire,1,0,1,0,1
 Scotland West - Renfrewshire & Inverclyde,0,1,1,0,1
-North Wales - East,1,0,1,1,2
+North Wales - East,1,1,2,2,2
 North Wales - West,0,0,0,0,0
 Wales - Mid,1,0,1,0,2
 Wales - West,0,0,0,0,0
 Wales South - Cardiff & Vale,0,0,0,0,0
-Wales South - Gwent,1,0,1,0,3
+Wales South - Gwent,0,0,0,0,4
 Wales South - Swansea Bay,1,0,1,0,0
-Wales South - Valleys,0,0,0,0,1
-Northern Ireland - East,0,3,3,1,6
-Northern Ireland - West,1,1,2,0,0
+Wales South - Valleys,0,0,0,0,0
+Northern Ireland - East,0,3,3,3,7
+Northern Ireland - West,1,1,2,0,2
