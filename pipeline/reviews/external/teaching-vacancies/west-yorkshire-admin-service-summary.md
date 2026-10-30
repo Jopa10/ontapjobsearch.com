@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-29
-review_fingerprint: 18e9a8d8daa2f0bc5de7bacc19cc3edb1bb9b488099cf13ac815fd35129b87dd
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: bcb1957784a6e5d1cc8a31c40e8bc447d9743a0ee7ed350eac80afca6c79434f
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 54
-- Selected: 15
-- POSS awaiting decision: 6
+- Records: 51
+- Selected: 13
+- POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 33
+- Hard pass: 31
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - West | Castleford, Yorkshire and the Humber, WF10 3SN | £26,427.00 - £26,847.00 Annually (FTE) Grade 4 (SCP 5-6), 35 hours per week Mon-Fri (hours negotiable), term time only plus 5 Inset days, £21,478.12 - £22,306.51 -Actual Salary | Admin Assistant
-employer: Oyster Park Primary Academy
-closing_date: 2026-10-30T08:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 5534fe63c6d4c7fa47caefa3c72105ac42640390b837290c4a2bbc56eb5b2d98
-source: Teaching Vacancies
-source_job_id: admin-assistant-oyster-park-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-oyster-park-primary-academy
----
 
 ---
 action: 
@@ -124,21 +109,6 @@ factual_fingerprint: 1f2b01b08a6bbb8d38e236236d8827da657cfab6c9610a0e97076e1fd72
 source: Teaching Vacancies
 source_job_id: exams-officer-bradford-academy-bradford
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bradford-academy-bradford
----
-
----
-action: 
-SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £23,591.00 - £25,590.00 Annually (Actual) NJC Scale Point 5 Points 12-17 (3.3% pay award pending) | Finance Assistant
-employer: The North Halifax Grammar School
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 5458566f0176bd32c543a866db15888b96fa67d98a926df9d3e071cb9b5a8ae1
-source: Teaching Vacancies
-source_job_id: finance-assistant-the-north-halifax-grammar-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-north-halifax-grammar-school
 ---
 
 ---
@@ -280,6 +250,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
+POSS | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £23,591.00 - £25,590.00 Annually (Actual) NJC Scale Point 5 Points 12-17 (3.3% pay award pending) | Finance Assistant
+employer: The North Halifax Grammar School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 5458566f0176bd32c543a866db15888b96fa67d98a926df9d3e071cb9b5a8ae1
+source: Teaching Vacancies
+source_job_id: finance-assistant-the-north-halifax-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-north-halifax-grammar-school
+---
+
+---
+action: 
 POSS | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4ES | £25,951.00 to £27,733.00 per annum FTE | HR Administrator
 employer: Greenhead College
 closing_date: 2026-11-01T23:59:00+00:00
@@ -352,7 +337,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gr
 - [Attendance Leader](https://teaching-vacancies.service.gov.uk/jobs/attendance-leader-appleton-academy-bradford-west-yorkshire) — Excluded senior/management title.
 - [Business Support Office Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-office-manager-st-paulinus-catholic-primary-academy) — Excluded senior/management title.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Excluded senior/management title.
-- [Customer Experience Team Leader](https://teaching-vacancies.service.gov.uk/jobs/customer-experience-team-leader) — Excluded senior/management title.
 - [Employee Relations Specialist](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist) — Insufficient admin/service evidence.
 - [Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-manager-the-bishop-wheeler-catholic-academy-trust) — Excluded senior/management title.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — No usable numeric salary.
@@ -369,7 +353,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gr
 - [Operations Support Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-support-co-ordinator) — Insufficient admin/service evidence.
 - [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team) — Excluded senior/management title.
 - [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover-abbey-multi-academy-trust) — Insufficient admin/service evidence.
-- [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-castleton-primary-school-leeds-west-yorkshire) — No usable numeric salary.
 - [School Administrator Role - Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-768b631b-d361-4d35-990b-279a7fa5d4d7) — No usable numeric salary.
 - [School Operations Manager - West Yorkshire](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-west-yorkshire) — Excluded senior/management title.
 - [School Support Manager](https://teaching-vacancies.service.gov.uk/jobs/school-support-manager-ark-the-king-s-school) — Excluded senior/management title.

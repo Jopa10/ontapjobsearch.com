@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-29
-review_fingerprint: 9bc5fa14d3cc28086cfbdf2cb33f90f0ee7d11a6ffc7dc26202c3d2b1bcd3413
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: ac560b748826f76e73ae8557cc276ca897b7f8e3e1a9feebb520bf62b54856e3
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -49,36 +49,6 @@ factual_fingerprint: 2a882b72bd16bcd14c70c9f77f2c1d8e100b8f2ee3f3db79113c3398c3c
 source: Teaching Vacancies
 source_job_id: data-administrator-st-john-fisher-catholic-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-st-john-fisher-catholic-academy
----
-
----
-action: 
-SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
-employer: Braeburn Primary and Nursery Academy
-closing_date: 2026-10-30T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 47eebabcf22c10aab8bf91110ae729bd49ad58f8e21e170b4853e48453ed824e
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
----
-
----
-action: 
-SELECTED | Yorkshire - North | Harrogate, Yorkshire and the Humber, HG3 2TT | £21,079.00 - £21,752.00 Annually (Actual) Band 5, SCP 4 -6. FTE: £26,016 - £26,847 | School Administrator
-employer: Saltergate Junior School
-closing_date: 2026-10-30T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4b7dfb51ddb82394ea4dad299d75a4b3c3de042ca78c87280b672f465fb1f3fb
-source: Teaching Vacancies
-source_job_id: school-administrator-saltergate-junior-school-harrogate-north-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-saltergate-junior-school-harrogate-north-yorkshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -124,7 +94,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-officer-ex
 - [Multi-Site School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/multi-site-school-business-manager) — Excluded senior/management title.
 - [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-8f1f1bf1-a960-4df0-918e-4da22ed5aa63) — Insufficient admin/service evidence.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075) — Excluded senior/management title.
 
 ## Safety boundary
 

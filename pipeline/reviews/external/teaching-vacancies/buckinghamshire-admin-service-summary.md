@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-29
-review_fingerprint: ee5d75c3d88dd982e4b1bcd20aa073b75d46fc45710b1f718271bb5d6eda21b1
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: bf30585e44095910a319fefe89bc05ac855e63f49fc86b25907adebb970a9ab3
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 6
+- Records: 8
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
@@ -34,21 +34,6 @@ factual_fingerprint: 2e085c2fab448729576ef6497ee937e9250416ab2cae19046aa69d4e9fe
 source: Teaching Vacancies
 source_job_id: development-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/development-administrator
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK14 6AX | £31,525.00 - £33,672.00 Annually (FTE) Range 3, Point 16-20 | Finance Officer
-employer: Stephenson Academy
-closing_date: 2026-10-30T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d285e2c387277c08911bec7efc95f0dec3f4c8c0f03681ced8e611ea30269cf6
-source: Teaching Vacancies
-source_job_id: finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895
 ---
 
 ---
@@ -94,21 +79,6 @@ factual_fingerprint: e73b30abf3629fd14a6fb762760b4cd87be307e57332acdd15ab726b236
 source: Teaching Vacancies
 source_job_id: school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, MK14 6AX | £31,525.00 - £33,672.00 Annually (Actual) Range 3 NJC Scale 16–20 | Trust Finance officer
-employer: Stephenson (Mk) Trust
-closing_date: 2026-10-30T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 92c6ae636510dea56ad2de296d492c160cfbfdfa163f53b121ed42b3b3dc9df9
-source: Teaching Vacancies
-source_job_id: trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded
 ---
 
 ## POSS — choose SELECT or EXCLUDE

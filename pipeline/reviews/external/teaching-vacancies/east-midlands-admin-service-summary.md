@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-29
-review_fingerprint: 37f7112b7f8465347ac15aa752afda578331040d8486b786042d1e3b60b16fa0
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: 03f48930f9ee808db2bfca91a36298e7379483002da0b22d3997485bc7d635f4
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 7
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | East Midlands | Derby, East Midlands, DE3 9LL | £17,198.00 - £17,466.00 Annually (Actual) NJC 7-8 | Admin Assistant (Student Services & Reception Support)
-employer: Murray Park Community School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: c68185b03a6c1f436f65074c67abbe7083beebf9b20406398b8f6fbe1dce9afd
-source: Teaching Vacancies
-source_job_id: admin-assistant-student-services-reception-support-murray-park-community-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-student-services-reception-support-murray-park-community-school
----
 
 ---
 action: 
@@ -100,21 +85,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-data
 
 ---
 action: 
-POSS | East Midlands | Derby, DE22 1GB | £18,000.00 Annually (Actual) | Business Administration Apprentice Level 3
-employer: Embark Multi Academy Trust
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 8496090449e3db74532680f9c367ebc1685b64bedcad4f728f829213474b291b
-source: Teaching Vacancies
-source_job_id: business-administration-apprentice-level-3-embark-multi-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-embark-multi-academy-trust
----
-
----
-action: 
 POSS | East Midlands | Burton-on-Trent, West Midlands, DE13 0LL | £29,071.00 - £31,015.00 Annually (FTE) Actual salary for hours advertised £26,527 - £28,300 - ALP Grade 4 | HR and Executive Leadership Support Officer
 employer: The de Ferrers Academy
 closing_date: 2026-11-16T09:00:00+00:00
@@ -135,15 +105,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-lead
 ## HARD_PASS
 
 - [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-160feac7-25e3-4305-b23e-7d8295d40b64) — No usable numeric salary.
-- [Associate HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/associate-hr-business-partner-derby-college) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-chellaston-academy) — Excluded senior/management title.
 - [Education Health Care Plans and Annual Review Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/education-health-care-plans-and-annual-review-co-ordinator) — Insufficient admin/service evidence.
-- [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-da-vinci-academy) — No usable numeric salary.
-- [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Excluded senior/management title.
-- [Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-administration-assistant-1b11a0b9-fc3b-402e-84f1-2c7c938587f8) — No usable numeric salary.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-alban-s-catholic-voluntary-academy-derby-derbyshire) — Excluded senior/management title.
-- [Peripatetic Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-administration-officer) — Insufficient admin/service evidence.
-- [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-alvaston-junior-academy-derby-derbyshire) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

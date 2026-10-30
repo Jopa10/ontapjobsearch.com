@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-29
-review_fingerprint: 16e8be9f2e47aeacbc32ce4576a906c1fffc3cbd8d7a94073ae972a5bba51caa
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: e134250497dd922fe6eaa696b9c1ddd4f99c2a0da8af475ad749d3ef576163f9
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 22
 - Selected: 7
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 13
 
 ## SELECTED
 
@@ -143,6 +143,21 @@ source_job_id: data-exams-assistant-waingels
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-assistant-waingels
 ---
 
+---
+action: 
+POSS | Berkshire | Slough, SL3 8TX | FTE range £40,547.00 - £44,799.00 | Executive Assistant (Governance & Compliance Professional)
+employer: Pioneer Educational Trust
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3e44a9034c40ec79e7b398098982457f2d644300a32adfe6b2ad189ed68c6562
+source: Teaching Vacancies
+source_job_id: executive-assistant-governance-compliance-professional
+source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-governance-compliance-professional
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -154,13 +169,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-assistant-
 - [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Excluded senior/management title.
 - [Exams Manager (part time)](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-part-time) — Excluded senior/management title.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer-bradfield-c-e-primary-school) — Insufficient admin/service evidence.
-- [HR Coordinator (part-time)](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-part-time) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-joseph-s-catholic-high-school-slough-berkshire) — Excluded senior/management title.
 - [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-maiden-erlegh-school) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-girls-school-slough) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-littledown-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shefford-c-e-primary-school) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-oak-tree-school) — Excluded senior/management title.
 - [Site Controller](https://teaching-vacancies.service.gov.uk/jobs/site-controller-reading-school) — Insufficient admin/service evidence.
 - [Trust Solicitor](https://teaching-vacancies.service.gov.uk/jobs/trust-solicitor) — Salary over £50k.
 

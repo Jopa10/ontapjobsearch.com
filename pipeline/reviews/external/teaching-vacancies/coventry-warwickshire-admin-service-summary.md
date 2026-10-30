@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-29
-review_fingerprint: b402a1ebdb6ec61144ec4de64798888e8c6b0d911eebdbe03a558bde7d07993c
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: 9b26c333b62ce90c7bc80992638578021ad2d802309079598cf0703e9577e069
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 5
-- POSS awaiting decision: 1
+- Selected: 6
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-barr-s-
 
 ---
 action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV4 9WT | £25,614.00 - £26,016.00 Annually (FTE) GRADE 2, Actual Salary £22,227 - £22,575.86 | Receptionist
+employer: Finham Park 2
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ca0bfd11104307c029c22ddca0ead989a647c61a2c9b733818f68666abe981f0
+source: Teaching Vacancies
+source_job_id: receptionist-finham-park-2-coventry-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finham-park-2-coventry-west-midlands
+---
+
+---
+action: 
 SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 5BD | Actual salary £22,576 – £23,667 | Receptionist and Administrative Assistant to the Deputy Headteachers
 employer: Caludon Castle School
 closing_date: 2026-11-01T23:59:59+00:00
@@ -98,20 +113,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV4 9WT | £25,614.00 - £26,016.00 Annually (FTE) GRADE 2, Actual Salary £22,227 - £22,575.86 | Receptionist
-employer: Finham Park 2
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ca0bfd11104307c029c22ddca0ead989a647c61a2c9b733818f68666abe981f0
-source: Teaching Vacancies
-source_job_id: receptionist-finham-park-2-coventry-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finham-park-2-coventry-west-midlands
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

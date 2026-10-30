@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-10-29
+review_date: 2026-10-30
 review_fingerprint: c071f971881620a82a44cb2ecab746934aa32b17ea86d81bbcf7827a4f5166a1
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 15
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 11
 
 ## SELECTED
 
@@ -100,7 +100,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 - [Procurement and Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-manager) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cf0d4ef8-1313-4ff6-b735-c5ac4ec13736) — Excluded senior/management title.
 - [School Transport Coordinator](https://teaching-vacancies.service.gov.uk/jobs/school-transport-coordinator) — Insufficient admin/service evidence.
-- [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college) — Excluded senior/management title.
 
 ## Safety boundary
 

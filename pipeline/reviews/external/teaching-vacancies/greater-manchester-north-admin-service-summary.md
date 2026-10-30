@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-29
-review_fingerprint: 9f3699f554af8415a0d8e988f4f312904bb35129a12f083e708916e7682fdaee
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: c4a8fa07837cbcce6da60ae56587ab09fca986cdb3d867ca14f66a58db00a0e0
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
@@ -34,6 +34,21 @@ factual_fingerprint: 91312a294e899592f2d5827840f4903e4efd9143d401b84260e985bd6a3
 source: Teaching Vacancies
 source_job_id: academy-receptionist-administrator-e-act-the-oldham-academy-north
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-administrator-e-act-the-oldham-academy-north
+---
+
+---
+action: 
+SELECTED | Greater Manchester - North | Radcliffe, North West, M26 2SZ | £32,578 to £35,570 per annum (pro rata £30,176 to £32,948 per annum) | Attendance Officer
+employer: Star Radcliffe Academy
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a4f897b9d8a0b03a3ba2f260485fddc4d4c5accd120abc99614a50fcf529b973
+source: Teaching Vacancies
+source_job_id: attendance-officer-star-radcliffe-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-star-radcliffe-academy
 ---
 
 ---

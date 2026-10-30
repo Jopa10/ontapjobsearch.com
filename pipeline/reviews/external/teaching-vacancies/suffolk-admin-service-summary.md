@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-29
+review_date: 2026-10-30
 review_fingerprint: 0c7e2ad17ef6052a771b6415a3cecfa08a83bf9d99f3e839309c88cdca112e8d
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 15
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 11
 
 ## SELECTED
 
@@ -96,7 +96,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ca
 - [Group Management Accounts Lead](https://teaching-vacancies.service.gov.uk/jobs/group-management-accounts-lead-eastern-education-group-trust) — Excluded senior/management title.
 - [HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partnering) — Salary over £50k.
 - [Office Manager/Business Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-business-manager) — Excluded senior/management title.
+- [Success Coach - Lowestoft Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/success-coach-lowestoft-sixth-form) — Out-of-scope occupation: coach.
 - [Trust Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-lead-unity-schools-partnership-haverhill-not-recorded) — Excluded senior/management title.
+- [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare) — Insufficient admin/service evidence.
+- [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare-east-coast-college) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

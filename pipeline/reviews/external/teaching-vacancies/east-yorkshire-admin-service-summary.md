@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-10-29
-review_fingerprint: 2be25863b0c4c3627b7d950cf86d0bcdbb5616aaffb898fe6819dbada3cefc7a
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: a53b785a004baba2b21e8e3ca709e701ae9c3a125e6349561187d36b2bb67a8f
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -60,7 +60,7 @@ reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5c069599e8e810dfbb4fa0c51e8fdc766f3a74e03cbe22894828ca0e004b6971
+factual_fingerprint: 43acf5251bcf55e0687bb3a6538f0b8eab4c6b1b776f8a9945de7ee695fe0a1f
 source: Teaching Vacancies
 source_job_id: administration-assistant-oldfleet-primary-school-hull
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-oldfleet-primary-school-hull

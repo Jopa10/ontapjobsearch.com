@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-29
+review_date: 2026-10-30
 review_fingerprint: 253e14ebd60bc3f009b3fd30acfbe3c7fd46839887e74e9d4d5c110b68160bf8
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -89,7 +89,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator
 
 ## HARD_PASS
 
-- [Assistant Headteacher (EYFS and Personal Development)](https://teaching-vacancies.service.gov.uk/jobs/assistant-headteacher-eyfs-and-personal-development) — Out-of-scope occupation: teacher, headteacher.
 - [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-the-howard-partnership-trust) — Excluded senior/management title.
 - [HR Project Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-project-lead) — Excluded senior/management title.
 

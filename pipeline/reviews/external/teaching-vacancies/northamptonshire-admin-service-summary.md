@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-29
-review_fingerprint: 34100d0602bc82103974651b98e106afbcc68e3aadf2a9b268822a029ffa26d3
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: 1efc93dc5ba8f8d02dc8963bb7c662115707e49a0f116a0c8eb5a350ed1107d9
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 19
-- Selected: 8
-- POSS awaiting decision: 2
+- Selected: 9
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -113,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
+SELECTED | Northamptonshire | Wellingborough, East Midlands, NN8 3JH | Scale 3 Points 3-4 £25,614 - £26,016 (actual £11,908 - £12,095) | Safeguarding Administrator
+employer: Weavers Academy
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 626ed3cb2924eb27f59d2dcbd4f18d6e6d2daeed12120b6bf87c59c11fd584aa
+source: Teaching Vacancies
+source_job_id: safeguarding-administrator-weavers-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-weavers-academy
+---
+
+---
+action: 
 SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7TR | £25,614.00 Annually (FTE) | School Receptionist
 employer: Northampton School
 closing_date: 2026-11-05T09:00:00+00:00
@@ -156,21 +171,6 @@ factual_fingerprint: b6236251c2827a120b5ae6760dc472ebbed1fa16ba7643b9843309e1628
 source: Teaching Vacancies
 source_job_id: administrator-st-barnabas-church-of-england-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barnabas-church-of-england-school
----
-
----
-action: 
-POSS | Northamptonshire | Wellingborough, East Midlands, NN8 3JH | Scale 3 Points 3-4 £25,614 - £26,016 (actual £11,908 - £12,095) | Safeguarding Administrator
-employer: Weavers Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 626ed3cb2924eb27f59d2dcbd4f18d6e6d2daeed12120b6bf87c59c11fd584aa
-source: Teaching Vacancies
-source_job_id: safeguarding-administrator-weavers-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-weavers-academy
 ---
 
 ## EXCLUDED BY REVIEW

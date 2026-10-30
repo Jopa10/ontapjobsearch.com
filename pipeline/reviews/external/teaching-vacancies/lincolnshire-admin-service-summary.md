@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-29
-review_fingerprint: 04f4f989d761e57b6d0c0a5bdbf135cc9e278fc69b2f8098c24142e5cc556303
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: a09984c853241b34eeaf75287aad7b69cc531759baafe5238c9da1c9f444c3c6
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 10
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-willi
 
 ---
 action: 
-SELECTED | Lincolnshire | Cleethorpes, Yorkshire and the Humber, DN35 9NX | £27,892.00 Annually (FTE) Actual Salary: LGAT 7 - £23,847.66 | Administrative Assistant
-employer: Cleethorpes Academy
-closing_date: 2026-10-30T12:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2febb77862161236be707092792a59de6d36c0df2aa3020c89dd465d58c1898e
-source: Teaching Vacancies
-source_job_id: administrative-assistant-cleethorpes-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cleethorpes-academy
----
-
----
-action: 
 SELECTED | Lincolnshire | Sleaford, East Midlands, NG34 7AT | £11,046.00 - £11,396.00 Annually (Actual) | Administrative Assistant - band 2
 employer: Our Lady of Good Counsel Catholic Primary School, A Voluntary Academy
 closing_date: 2026-11-02T09:00:00+00:00
@@ -79,6 +64,21 @@ factual_fingerprint: 243b1348bdb8dc67e8b860b3239e7802a6b0e5c8a89b627cb198b29686f
 source: Teaching Vacancies
 source_job_id: administrative-assistant-band-2-96d0a457-1878-4579-bc10-d33c9990b986
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-band-2-96d0a457-1878-4579-bc10-d33c9990b986
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN36 4RZ | £30,213.00 - £33,610.00 Annually (FTE) Actual Salary: £25,832.12 (LGAT 10) - £28,736.55 (LGAT 14) | Attendance Officer
+employer: Waltham Toll Bar Academy
+closing_date: 2026-11-13T12:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4398f732ce5ba7829b10e197504a00594e5fb3a5533f92dd8892ce2f0b5d43df
+source: Teaching Vacancies
+source_job_id: attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
 ---
 
 ---
@@ -173,20 +173,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN37 9EH | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role is £15,186.48. | Administration Officer (7752)
-employer: John Whitgift Academy
-closing_date: 2026-10-29T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7ef092f284d4d355b95fe13ae13df8de9075b1641b54dde8dde3f94aaac90874
-source: Teaching Vacancies
-source_job_id: administration-officer-7752
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7752
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

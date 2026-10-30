@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-29
-review_fingerprint: a63459eef811b59be249df94ec6a9481cc6f45e4d8cbf65f918d2bee72409199
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: 44fe2f75f85d862d7b5346c66dbdb10b89008b4846e8cfe837e3e7eb3873fb05
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 5
+- Records: 27
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 21
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-s
 
 ---
 action: 
+SELECTED | Devon | Plymouth, South West, PL4 6HT | TSAT Pay Group 3 pro rata to £12,946 - £15,024 for hours and weeks stated (£26,866 - £31,179 FTE ) | SEN Medical Administrator
+employer: Plymouth High School for Girls
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 75e50ef159e0f59b69b3e17ebb9592ce3a65111d2ae27bba904a34143ef14d75
+source: Teaching Vacancies
+source_job_id: sen-medical-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-medical-administrator
+---
+
+---
+action: 
 SELECTED | Devon | Plymouth, South West, PL1 5QG | Part Time | Fixed Term Maternity Cover | £16,078 Per Annum (Pro Rata of £26,440 Per Annum) | Student Funding Administrator (Maternity Cover)
 employer: City College Plymouth
 closing_date: 2026-11-03T23:59:00+00:00
@@ -115,11 +130,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-funding-admin
 - [Exam & Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exam-data-assistant) — No usable numeric salary.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college-chulmleigh-devon) — No usable numeric salary.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
+- [Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/governance-coordinator-westcountry-schools-trust) — Insufficient admin/service evidence.
 - [HR Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-team-multi-academy-trust-barnstaple-not-recorded) — No usable numeric salary.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-all-saints-marsh-cofe-academy) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-montpelier-primary-school) — Excluded senior/management title.
 - [Local Governance Officer – Teignmouth Community School](https://teaching-vacancies.service.gov.uk/jobs/local-governance-officer-teignmouth-community-school) — Insufficient admin/service evidence.
-- [Marketing and Communications Lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-lead-learning-academies-trust) — Excluded senior/management title.
 - [Patroller](https://teaching-vacancies.service.gov.uk/jobs/patroller) — Insufficient admin/service evidence.
 - [Post-16 Transition Coordinator](https://teaching-vacancies.service.gov.uk/jobs/post-16-transition-coordinator-isca-academy) — No usable numeric salary.
 - [Reception Administrator](https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-a8a7af34-eea8-4688-b23d-e979d7269a87) — No usable numeric salary.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-10-29
-review_fingerprint: d5e61e99ace318a25f58f471a1ea2d40318d8596db11deb61d4bb0bc28933771
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: 564e47ee763bb018e295fb1ba5d5ee8dfa5956bfbe4cdcbd8438889d226e8d29
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 4
+- Records: 4
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
@@ -49,21 +49,6 @@ factual_fingerprint: 1bf7ebcc1d333764f13a051e79ca19fe0640587556ae2abff0ccb26338f
 source: Teaching Vacancies
 source_job_id: finance-officer-sexey-s-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-sexey-s-school
----
-
----
-action: 
-SELECTED | South West | Berkeley, South West, GL13 9FB | Up to £26,427 FTE | Receptionist and Administration Assistant
-employer: SGS Berkeley Green UTC
-closing_date: 2026-10-30T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: ac3891d608d3d52241ae28b7fc58019985c17fb427818c6de339920e747505a9
-source: Teaching Vacancies
-source_job_id: receptionist-and-administration-assistant-sgs-berkeley-green-utc-berkeley-gloucestershire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administration-assistant-sgs-berkeley-green-utc-berkeley-gloucestershire
 ---
 
 ---

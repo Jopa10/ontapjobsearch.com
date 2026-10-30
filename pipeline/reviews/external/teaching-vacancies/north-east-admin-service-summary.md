@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-29
-review_fingerprint: fbbec956e912774de2eea9c0883d3a7cfdf169aef5a4fc191e31419d9c4cec84
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: 012bc05d3a5b187cb4b5c5e8b278a0a0479973f1de5e4cd7fab67d3078f28a2b
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 7
-- POSS awaiting decision: 0
+- Selected: 6
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-english
 
 ---
 action: 
-SELECTED | North East | Blyth, NE24 2SY | £25,147.00 - £26,414.00 Annually (Actual) Whole Time | HR & Payroll Administrator
-employer: Emmanuel Schools Foundation
-closing_date: 2026-11-12T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e0d49fd08dbe02e94f2330853f051522c6a13f009ed150113a7ae1428e9fc242
-source: Teaching Vacancies
-source_job_id: hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
----
-
----
-action: 
 SELECTED | North East | Sunderland, North East, SR2 7JN | £8,016.00 - £8,142.00 Annually (Actual) £25,614 - £26,016 FTE. 2 days a week, Thursday and Friday. Pending outcome of job evaluation | Receptionist
 employer: St Anthony's Girls' Catholic Academy
 closing_date: 2026-11-02T09:00:00+00:00
@@ -128,7 +113,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-antho
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | North East | Blyth, NE24 2SY | £25,147.00 - £26,414.00 Annually (Actual) Whole Time | HR & Payroll Administrator
+employer: Emmanuel Schools Foundation
+closing_date: 2026-11-12T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e0d49fd08dbe02e94f2330853f051522c6a13f009ed150113a7ae1428e9fc242
+source: Teaching Vacancies
+source_job_id: hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
+---
 
 ## EXCLUDED BY REVIEW
 

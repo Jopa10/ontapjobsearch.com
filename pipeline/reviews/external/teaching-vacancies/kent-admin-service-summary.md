@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-29
-review_fingerprint: e88e2cccff7b2a71e3fb71931199573785286c82216e756e79f136e70be8b0e7
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: f9f6003195219aadfc749e2efefb86ed0ca528a73541d670a990d9718eb89d8d
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 11
 - Selected: 2
-- POSS awaiting decision: 4
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -70,21 +70,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-POSS | Kent | Sevenoaks, South East, TN13 3LE | £12,757.00 Annually (Actual) | Administration Assistant
-employer: Knole Academy
-closing_date: 2026-11-06T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bc2d2588f6cd9c24c8d10a8ecc5986c713ee3a6f64c2d6a815f9b7af6e1ccdac
-source: Teaching Vacancies
-source_job_id: administration-assistant-knole-academy-sevenoaks-kent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-knole-academy-sevenoaks-kent
----
-
----
-action: 
 POSS | Kent | Tonbridge, South East, TN9 2HE | Actual Pro Rata Salary £23,599 | Administrative Assistant
 employer: Hillview School for Girls
 closing_date: 2026-10-30T23:59:59+00:00
@@ -119,13 +104,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/centre-administrator-
 
 ## HARD_PASS
 
-- [Attendance and Admissions Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-lead) — Excluded senior/management title.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-hillview-school-for-girls-tonbridge-kent) — Excluded senior/management title.
 - [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-gregory-s-catholic-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-fisher-catholic-comprehensive-school) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-royal-rise-primary-school) — Excluded senior/management title.
-- [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-character-education-trust) — No usable numeric salary.
+- [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-wrotham-school) — No usable numeric salary.
 
 ## Safety boundary
 

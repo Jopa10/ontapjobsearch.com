@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - St Helens & Knowsley
 
-review_date: 2026-10-29
-review_fingerprint: b53665e37cc26867f0e4987a7ec81fd0fb08f1feecd3ab8c4c11cbe8042bf43d
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: 1af7c8590da09b8d68acf5b72e6568394a3400a93e9b2defbceba1bc40912e48
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Merseyside - St Helens & Knowsley
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 1
 
 ## SELECTED
 
@@ -36,6 +36,21 @@ source_job_id: finance-assistant-the-sutton-academy-st-helens-merseyside
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-sutton-academy-st-helens-merseyside
 ---
 
+---
+action: 
+SELECTED | Merseyside - St Helens & Knowsley | Prescot, North West, L35 6NY | £26,427 - £26,847 FTE | Sixth form Admin Assistant (Part time)
+employer: Rainhill High School
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e302abd09b97410d94372db0b5192ff2806e86c2c2baf592ec9c3aac4c0bd697
+source: Teaching Vacancies
+source_job_id: sixth-form-admin-assistant-part-time-rainhill-high-school-prescot-merseyside
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admin-assistant-part-time-rainhill-high-school-prescot-merseyside
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -46,9 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the
 
 ## HARD_PASS
 
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-9aafe4da-1b6e-4dcc-9c0f-8372ea1d4277) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-b60d2d7c-725c-4ab7-8f13-18a382012fa8) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sutton-manor-community-primary-school-st-helens-merseyside) — Excluded senior/management title.
+- [SEND Access Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/send-access-compliance-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-10-29
-review_fingerprint: 2df447f86d1519b79cb34ff8f01082d441f0315c56d1db0f595a12dd293fc73e
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: 55e6ba108a6d3b1bb6eede3b474282a6e2e4ea6b70adde5a4c0654d152942151
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 4
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: f27f2cc2673bfddb6aee95774aeda445524a98e4a9bb81080fae60b8ea2
 source: Teaching Vacancies
 source_job_id: admin-assistant-southern-education-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-southern-education-trust
----
-
----
-action: 
-SELECTED | Dorset | Bournemouth, South West, BH8 9PW | Actual Salary - £18,794 (FTE Salary - £27,696) | English Department Administrator & Librarian
-employer: The Bishop of Winchester Academy
-closing_date: 2026-10-30T08:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0e30d39a47284f65bace88c3b80a006202263436081f3c159eece195568ec935
-source: Teaching Vacancies
-source_job_id: english-department-administrator-librarian-the-bishop-of-winchester-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/english-department-administrator-librarian-the-bishop-of-winchester-academy
 ---
 
 ---
@@ -91,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-
 
 ## HARD_PASS
 
+- [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-the-bishop-of-winchester-academy) — No usable numeric salary.
 - [Exam Officer - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/exam-officer-maternity-cover-st-aldhelm-s-academy-poole-dorset) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-oak-academy) — No usable numeric salary.
 - [Pastoral Manager – Ferndown Middle School](https://teaching-vacancies.service.gov.uk/jobs/pastoral-manager-ferndown-middle-school) — Excluded senior/management title.

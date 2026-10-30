@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Merseyside - Wirral
 
-review_date: 2026-10-29
-review_fingerprint: 30f5f538acefa0758b5c09d56dc6045420d01736eee6d195b2071cf137890ec8
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: 8f9084d6bc090333bf361f802fe0378aa892a1afff923643b86f8605c5983b11
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Merseyside - Wirral
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -28,7 +28,7 @@ employer: Birkenhead Park School
 closing_date: 2026-11-02T09:00:00+00:00
 reason: Clear admin/service title: attendance officer
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: e982933d70cf8407af19a4fbdf3bf432681898dd8ecf7995a1d257a571c446bf
 source: Teaching Vacancies

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-29
-review_fingerprint: 959362808764ac0afd304d989542f8890e387d648cf66c9361ce6c682eb0f427
-routing_manifest_sha256: eff5a5021c407135106e5ca59ada773580dd734d29fe969e4be660e1aab98377
+review_date: 2026-10-30
+review_fingerprint: fd70542b6b6fc7d8caecf94fb62a655a4dd2f2e4cae92c379f33dd45d3eda9b4
+routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
+- Records: 25
 - Selected: 14
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 10
 
@@ -232,21 +232,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Cambridgeshire | Ely, East of England, CB6 1EW | £27,275-£29,071 FTE £14.18- £15.11 per hour | Attendance Administrator
-employer: Vista Academy Littleport
-closing_date: 2026-10-30T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 41d7f01be5a4970bbad055da1db061700b1c5a511cd15af0326359c101c121f9
-source: Teaching Vacancies
-source_job_id: attendance-administrator-vista-academy-littleport
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-vista-academy-littleport
----
 
 ---
 action: 
