@@ -9,11 +9,53 @@ import {
   locationCandidates,
 } from '../lib/broad-city-pages';
 
-test('registers the twenty-two approved permanent broad city routes', () => {
-  assert.equal(broadCityDefinitions.length, 22);
+test('registers the forty-one approved permanent broad city routes', () => {
+  assert.equal(broadCityDefinitions.length, 41);
   assert.deepEqual(
     broadCityDefinitions.map((city) => city.route),
-    ["/nottingham/jobs", "/wakefield/jobs", "/bolton/jobs", "/reading/jobs", "/chester/jobs", "/durham/jobs", "/gateshead/jobs", "/northallerton/jobs", "/norwich/jobs", "/salford/jobs", "/redditch/jobs", "/guildford/jobs", "/carlisle/jobs", "/preston/jobs", "/witney/jobs", "/yeovil/jobs", "/hertford/jobs", "/leatherhead/jobs", "/rugby/jobs", "/colchester/jobs", "/hereford/jobs", "/stafford/jobs"]
+    [
+      "/nottingham/jobs",
+      "/wakefield/jobs",
+      "/bolton/jobs",
+      "/reading/jobs",
+      "/chester/jobs",
+      "/durham/jobs",
+      "/gateshead/jobs",
+      "/northallerton/jobs",
+      "/norwich/jobs",
+      "/salford/jobs",
+      "/redditch/jobs",
+      "/guildford/jobs",
+      "/carlisle/jobs",
+      "/preston/jobs",
+      "/witney/jobs",
+      "/yeovil/jobs",
+      "/hertford/jobs",
+      "/leatherhead/jobs",
+      "/rugby/jobs",
+      "/colchester/jobs",
+      "/hereford/jobs",
+      "/stafford/jobs",
+      "/ipswich/jobs",
+      "/solihull/jobs",
+      "/derby/jobs",
+      "/cheltenham/jobs",
+      "/bracknell/jobs",
+      "/canterbury/jobs",
+      "/blackburn/jobs",
+      "/corby/jobs",
+      "/crewe/jobs",
+      "/stevenage/jobs",
+      "/chesterfield/jobs",
+      "/woking/jobs",
+      "/abingdon/jobs",
+      "/kings-lynn/jobs",
+      "/newport/jobs",
+      "/oldham/jobs",
+      "/redhill/jobs",
+      "/sittingbourne/jobs",
+      "/wrexham/jobs"
+    ]
   );
   assert.ok(broadCityDefinitions.every((city) => city.lifecycle_state === 'active'));
 });

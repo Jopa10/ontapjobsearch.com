@@ -152,5 +152,138 @@
     "region": "Staffordshire",
     "route": "/stafford/jobs",
     "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Ipswich",
+    "slug": "ipswich",
+    "region": "Suffolk",
+    "route": "/ipswich/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Solihull",
+    "slug": "solihull",
+    "region": "West Midlands - Birmingham & Solihull",
+    "route": "/solihull/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Derby",
+    "slug": "derby",
+    "region": "Derbyshire",
+    "route": "/derby/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Cheltenham",
+    "slug": "cheltenham",
+    "region": "Gloucestershire",
+    "route": "/cheltenham/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Bracknell",
+    "slug": "bracknell",
+    "region": "Berkshire",
+    "route": "/bracknell/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Canterbury",
+    "slug": "canterbury",
+    "region": "Kent",
+    "route": "/canterbury/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Blackburn",
+    "slug": "blackburn",
+    "region": "Lancashire - East",
+    "route": "/blackburn/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Corby",
+    "slug": "corby",
+    "region": "Northamptonshire",
+    "route": "/corby/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Crewe",
+    "slug": "crewe",
+    "region": "Cheshire - East",
+    "route": "/crewe/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Stevenage",
+    "slug": "stevenage",
+    "region": "Hertfordshire",
+    "route": "/stevenage/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Chesterfield",
+    "slug": "chesterfield",
+    "region": "Derbyshire",
+    "route": "/chesterfield/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Woking",
+    "slug": "woking",
+    "region": "Surrey",
+    "route": "/woking/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Abingdon",
+    "slug": "abingdon",
+    "region": "Oxfordshire",
+    "route": "/abingdon/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "King's Lynn",
+    "slug": "kings-lynn",
+    "region": "Norfolk",
+    "route": "/kings-lynn/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Newport",
+    "slug": "newport",
+    "region": "Wales South - Gwent",
+    "route": "/newport/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Oldham",
+    "slug": "oldham",
+    "region": "Greater Manchester - North",
+    "route": "/oldham/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Redhill",
+    "slug": "redhill",
+    "region": "Surrey",
+    "route": "/redhill/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Sittingbourne",
+    "slug": "sittingbourne",
+    "region": "Kent",
+    "route": "/sittingbourne/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Wrexham",
+    "slug": "wrexham",
+    "region": "North Wales - East",
+    "route": "/wrexham/jobs",
+    "lifecycle_state": "active"
   }
 ]

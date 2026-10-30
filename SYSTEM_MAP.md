@@ -3,7 +3,7 @@ Total output lines: 420
 
 # Ontap System Map
 
-**Last updated:** 29 October 2026
+**Last updated:** 30 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -11,6 +11,8 @@ Total output lines: 420
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 30 October 2026 — **Owner-approved 50k geography expansion prepared for the next verified publish:** 16 region/family pairs are now LIVE in the register, and 19 broad all-jobs city routes are active in their permanent register. Merseyside - Wirral and Scotland West - Lanarkshire were added to the configured region catalog using their existing assessed geography definitions (Birkenhead and Hamilton anchors). City locations retain the exact-location rules; no new nearby catchments were added. Current register counts are 239 LIVE family/region slices (8 CANDIDATE) and 41 broad city routes. The register update does not itself regenerate public job JSON or deploy production; the normal verified-pages publish and Vercel deployment are still required.
 
 - 29 October 2026 — **Expanded-feed changeover controls prepared:** a distinct same-day `changeover` marker and post-review publish path, 60k downstream feed readers, removal of the GitHub afternoon schedule, and preservation of the morning raw archive are prepared separately. The cron-job.org 17:35 fallback is external to the repository and must be disabled before the one-morning steady state. This change is not merged or active.
 
@@ -231,9 +233,9 @@ This changes the trigger from every `main` push to a successful verified-page pu
 
 ## Validation state
 
-As reconciled from `pipeline/registers/region_category_slice_register.csv` on 24 September 2026, the register contains **163 LIVE rows**: Service Admin 52, Marketing 22, Customer Sales 14, Finance / Accounts 36, Support Worker 11, HR / Recruitment 9, Customer Service / Contact Centre 6 and Legal Assistant / Paralegal 13. A further 12 rows are CANDIDATE. The register is authoritative for current activation state.
+As reconciled from `pipeline/registers/region_category_slice_register.csv` on 30 October 2026, the register contains **239 LIVE rows**: Service Admin 64, Marketing 31, Customer Sales 28, Finance / Accounts 47, Support Worker 16, HR / Recruitment 19, Customer Service / Contact Centre 11 and Legal Assistant / Paralegal 23. A further 8 rows are CANDIDATE. The LIVE register is authoritative for family/region activation; the 16 entries from 30 October are prepared for the next verified publish.
 
-The full JobG8 workflow enforces the current **78 markets × eight families = 624 rows** diagnostic contract and up to 14 feed-date snapshots. `city-page-register.json` contains **54 active permanent routes (53 Admin and office, one Support Worker)**. NHS feed isolation, the 20% Service Admin ceiling, the 4+1 display rhythm, Teaching Vacancies source isolation, deployment-built search/static live vacancy pages and publish-triggered Vercel CLI deployment with live-SHA verification remains the verified production architecture.
+The full JobG8 workflow enforces the current **78 markets × eight families = 624 rows** diagnostic contract and up to 14 feed-date snapshots. `city-page-register.json` contains **54 active permanent family-city routes (53 Admin and office, one Support Worker)**; `broad-city-page-register.json` contains **41 active permanent all-jobs city routes** (22 already published and 19 registered for the next verified publish). NHS feed isolation, the 20% Service Admin ceiling, the 4+1 display rhythm, Teaching Vacancies source isolation, deployment-built search/static live vacancy pages and publish-triggered Vercel CLI deployment with live-SHA verification remains the verified production architecture.
 
 ## Documentation rule
 

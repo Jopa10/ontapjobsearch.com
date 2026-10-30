@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 29 October 2026
+**Last updated:** 30 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 30 October 2026 — **50k expansion pages approved for the next verified publish:** the LIVE register now contains 16 additional region/family pages, including newly configured Wirral and Lanarkshire regions, and the broad-city register contains 19 additional all-jobs city pages. These registrations do not publish job data or deploy by themselves; the usual verified publish and deployment are the next step. The current registers show 239 LIVE region/family slices, 8 candidates, 54 family-city routes and 41 broad-city routes.
 
 - 29 October 2026 — **Expanded-feed changeover controls prepared:** a distinct same-day run and publish path, 60k downstream feed readers, and preservation of the morning raw archive are prepared separately. The external cron-job.org fallback still needs disabling. No production changes are active.
 
@@ -198,7 +200,7 @@ On the homepage, the four recently added cards are selected from genuine vacanci
 
 City pages use the common city-page framework and private `app/_city-pages/...` derived JSON, avoiding duplicate job-detail URLs. The homepage city grid independently suppresses active city cards below 4 current jobs without changing the route, sitemap/indexing status or daily refresh behaviour.
 
-At the 18 September audit, `city-page-register.json` contains **54 active permanent routes: 53 Admin and office routes and one Support Worker route**. That register, rather than a copied route list here, is the authority for the active set.
+The 30 October registers contain **54 active permanent family-city routes** (53 Admin and office, one Support Worker) and **41 active permanent broad all-jobs city routes**. Nineteen broad routes have been registered for the next verified publish. The family and broad registers are each authoritative for their route type.
 
 Existing established public routes remain stable unless there is a concrete business reason to change them.
 
@@ -253,7 +255,7 @@ The Google Indexing API retains its 200-notification safety limit and GitHub Iss
 
 ## Current state
 
-The 18 September documentation reported 126 LIVE rows; the 24 September register recount found 159 before today’s four activations. The current register contains **163 LIVE rows**: Service Admin 52, Marketing 22, Customer Sales 14, Finance / Accounts 36, Support Worker 11, HR / Recruitment 9, Customer Service / Contact Centre 6 and Legal Assistant / Paralegal 13. Another 12 rows are CANDIDATE. The live register remains authoritative after this snapshot.
+Reconciled from `pipeline/registers/region_category_slice_register.csv` on 30 October 2026, the current register contains **239 LIVE rows**: Service Admin 64, Marketing 31, Customer Sales 28, Finance / Accounts 47, Support Worker 16, HR / Recruitment 19, Customer Service / Contact Centre 11 and Legal Assistant / Paralegal 23. Another 8 rows are CANDIDATE. The 16 new family/region approvals await the next verified publish.
 
 The full JobG8 workflow assesses all eight families across all 78 UK markets (624 rows) and retains up to 14 feed-date snapshots. The shared city mechanism owns 54 active permanent routes (53 Admin and office, one Support Worker). Production deployment uses a Vercel CLI deployment after successful verified-page publishing; automatic Git builds are disabled. NHS Administrative & Clerical inventory is isolated safely on feed failure, remains capped at 20% per Service Admin page and uses the 4+1 display order. Live vacancy pages and search use deployment-built static/current inventory; expired-job recovery remains separate. Teaching Vacancies retains the source-isolation and concurrent-write safeguards described above.
 - 21 September 2026 — **Google indexing now gives JobG8 first claim on the daily allowance:** after the fixed deletion allowance, every available eligible JobG8 URL is selected before any non-JobG8 URL. Non-paying sources are capped at **20 of 200 submissions (10%)**; unused JobG8 capacity is never released to them. Workflow summaries now show live inventory, indexing candidates and selected submissions by source.
