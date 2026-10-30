@@ -454,32 +454,62 @@ def send_digest(
     token = _unsubscribe_token(email, unsubscribe_secret)
     unsubscribe_url = f"{site_url}/job-alerts/unsubscribe?token={token}"
     html_body, text_body = _email_html(matches, unsubscribe_url)
+    contact_id = contact.get("id")
+    if contact_id is None:
+        raise DeliveryError("Brevo contact page omitted a contact ID")
+
+    # Claim this recipient/date before the external send. The private post-publish
+    # workflow is serialized, so the next run sees this marker even if Brevo
+    # accepted the email but the runner lost its response.
+    contact_endpoint = f"/contacts/{urllib.parse.quote(email, safe='')}"
+    previous_sent_date = str(attributes.get("ALERT_LAST_SENT_DATE") or "")
+    _brevo_request(
+        "PUT",
+        contact_endpoint,
+        api_key,
+        {"attributes": {"ALERT_LAST_SENT_DATE": report_date}},
+    )
+    refreshed = _brevo_request("GET", contact_endpoint, api_key)
+    refreshed_attributes = refreshed.get("attributes") if isinstance(refreshed.get("attributes"), dict) else {}
+    if refreshed_attributes.get("ALERT_LAST_SENT_DATE") != report_date:
+        raise DeliveryError("Brevo did not retain the daily-send marker; no email sent")
+
     private_headers = {}
     if private_test:
         import uuid
         private_headers = {"headers": {"idempotencyKey": str(uuid.uuid5(uuid.NAMESPACE_URL, f"ontap-private-daily:{email.casefold()}:{report_date}"))}}
-    _brevo_request(
-        "POST",
-        "/smtp/email",
-        api_key,
-        {
-            **private_headers,
-            "sender": {"name": "Ontap Jobs", "email": sender_email},
-            "to": [{"email": email}],
-            "subject": ("[Private daily test] " if private_test else "") + f"{len(matches)} new CPC job{'s' if len(matches) != 1 else ''} matching your alert",
-            "htmlContent": html_body,
-            "textContent": text_body,
-        },
-    )
-    contact_id = contact.get("id")
-    if contact_id is None:
-        raise DeliveryError("Brevo contact page omitted a contact ID")
-    _brevo_request(
-        "PUT",
-        f"/contacts/{urllib.parse.quote(email, safe='')}",
-        api_key,
-        {"attributes": {"ALERT_LAST_SENT_DATE": report_date}},
-    )
+    try:
+        _brevo_request(
+            "POST",
+            "/smtp/email",
+            api_key,
+            {
+                **private_headers,
+                "sender": {"name": "Ontap Jobs", "email": sender_email},
+                "to": [{"email": email}],
+                "subject": ("[Private daily test] " if private_test else "") + f"{len(matches)} new CPC job{'s' if len(matches) != 1 else ''} matching your alert",
+                "htmlContent": html_body,
+                "textContent": text_body,
+            },
+        )
+    except DeliveryError as error:
+        # A definite HTTP rejection means no message was accepted, so release
+        # the claim for a retry. Keep the claim on timeouts/5xx: delivery may
+        # have succeeded even though the runner did not receive confirmation.
+        rejected = re.search(r"Brevo returned HTTP 4\\d{2} for POST /smtp/email", str(error))
+        if rejected:
+            try:
+                _brevo_request(
+                    "PUT",
+                    contact_endpoint,
+                    api_key,
+                    {"attributes": {"ALERT_LAST_SENT_DATE": previous_sent_date}},
+                )
+            except DeliveryError as rollback_error:
+                raise DeliveryError(
+                    f"{error}; failed to release the daily-send marker: {rollback_error}"
+                ) from error
+        raise
     return True
 
 
@@ -584,7 +614,7 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
         raise DeliveryError("The test address must have an active, consented signup in list 3")
     print("Private recipient: " + recipient)
     print("Private saved preferences: " + json.dumps(
-        {key: str(attrs.get(key) or "") for key in ("ALERT_ROLE", "ALERT_LOCATION", "ALERT_SALARY", "ALERT_PREFERENCES")},
+        {key: str(attrs.get(key) or "") for key in ("ALERT_ROLE", "ALERT_LOCATION", "ALERT_SALARY", "ALERT_PREFERENCES", "ALERT_LAST_SENT_DATE")},
         ensure_ascii=True))
     jobs = new_cpc_jobs(report, args.app_dir, args.date)
     matches = matching_jobs(attrs, jobs)
