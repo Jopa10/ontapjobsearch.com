@@ -4,7 +4,7 @@
 - Live route: `/swansea/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 4
+- automatic include: 7
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 5
-- effective review: 4
+- effective include: 7
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (7)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Exact approved Swansea workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Reception - Swansea
+company: Office Angels - Agency - Temporary
+location: Swansea
+source: JobG8
+job_id: jobg8-23643_225745899
+reason: Exact approved Swansea workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: NHS Wales Shared Services Partnership
 location: Swansea, SA6 8BX
@@ -84,7 +96,19 @@ job_id: jobg8-2188341
 reason: Exact approved Swansea workplace.
 ---
 
-## REVIEW (4)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee HR Administrator
+company: ITOL Recruit - Agency - Permanent
+location: Swansea
+source: JobG8
+job_id: jobg8-2101939
+reason: Exact approved Swansea workplace.
+---
+
+## REVIEW (6)
 
 ---
 action: 
@@ -131,6 +155,30 @@ company: Exponential-e - Agency - Permanent
 location: Bridgend
 source: JobG8
 job_id: jobg8-23643_225514692
+reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Logistics Administrator
+company: Acorn by Synergie - Agency - Contract
+location: Port Talbot
+source: JobG8
+job_id: jobg8-23643_225730717
+reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Planning Administrator
+company: Sigma Recruitment - Agency - Permanent
+location: Bridgend
+source: JobG8
+job_id: jobg8-23643_225684248
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

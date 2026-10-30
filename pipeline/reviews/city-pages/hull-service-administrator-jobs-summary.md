@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 16
+- automatic include: 22
+- automatic review: 22
 - automatic exclude: 0
-- effective include: 18
-- effective review: 16
+- effective include: 22
+- effective review: 22
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (22)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Stafforce Recruitment - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225730083
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Edwards & Pearce - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225676829
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -112,11 +124,35 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Business Administration Apprentice
+company: Prestige Recruitment Specialists - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225687788
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: Vizion Network - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225702790
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Support - MK123
+company: Adecco - Agency - Contract
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225739798
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -165,6 +201,18 @@ company: The Avenues Medical Centre
 location: HULL, HU5 3TJ
 source: NHS Jobs
 job_id: nhs-5684494
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part-time Payroll specialist
+company: Portfolio Payroll - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-2178612
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -240,7 +288,7 @@ job_id: jobg8-23643_225713565
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (22)
 
 ---
 action: 
@@ -263,6 +311,18 @@ company: Scientific Laboratory Supplies - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-2192112
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Administrator
+company: Scientific Laboratory Supplies - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-23643_225768501
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -355,10 +415,34 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
+company: Butler Rose - Agency - Permanent
+location: Goole
+source: JobG8
+job_id: jobg8-2103151
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
 company: SI Recruitment - Agency - Permanent
 location: Goole
 source: JobG8
 job_id: jobg8-107919887
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Si Recruitment - Agency - Permanent
+location: Goole
+source: JobG8
+job_id: jobg8-2183319
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -402,6 +486,30 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
+location: Goole
+source: JobG8
+job_id: jobg8-2097437
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Bridlington
+source: JobG8
+job_id: jobg8-2178394
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Bridlington
@@ -431,6 +539,18 @@ company: Forrest Recruitment - Agency - Contract
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225681960
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Visits Receptionist
+company: Forward Trust - Agency - Permanent
+location: Full Sutton
+source: JobG8
+job_id: jobg8-23643_225753087
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

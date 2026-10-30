@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 17
+- automatic include: 19
+- automatic review: 25
 - automatic exclude: 0
-- effective include: 14
-- effective review: 17
+- effective include: 19
+- effective review: 25
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (19)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Pure 4 Recruitment - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225687790
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Pure 4 Recruitment Limited - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2077473
 reason: Exact approved Stockport workplace.
 ---
 
@@ -100,6 +112,30 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Global Shipping, Logistics & Aftersales Coordinator
+company: JV International - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225778426
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: IVA Administrator
+company: Imperium Financial Recruitment - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2066888
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist / Administrator
 company: The Reddish Family Practice
 location: Stockport, SK6 6RN, STOCKPORT, SK5 7QU
@@ -117,6 +153,18 @@ company: Hays Business Support - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225773301
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part time Payroll Specialist
+company: Michael Page Finance - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2194866
 reason: Exact approved Stockport workplace.
 ---
 
@@ -172,6 +220,18 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Administrator
+company: VRS-UK - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225749890
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Social Value Wellbeing Coordinator
 company: Global Recruitment Group - Agency - Permanent
 location: Stockport
@@ -192,7 +252,7 @@ job_id: jobg8-23643_225771463
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (25)
 
 ---
 action: 
@@ -210,11 +270,71 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: JANE GORSE RECRUITMENT LIMITED - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-2206868
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: NC Associates - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-2179220
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Platinum Recruitment Group - Agency - Permanent
+location: Dukinfield
+source: JobG8
+job_id: jobg8-2187150
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Assistant (Apprentice)
 company: CMR Jobs Limited - Agency - Permanent
 location: Cheadle
 source: JobG8
 job_id: jobg8-23643_225728738
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Axon Moore - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225760850
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Axon Moore Group Ltd - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-2178659
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -239,6 +359,18 @@ company: Michael Page - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225691554
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-2081484
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -275,6 +407,18 @@ company: Barrington Medical Centre Partnership
 location: Altrincham, WA14 1PF
 source: NHS Jobs
 job_id: nhs-5660746
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Accounts Assistant
+company: NC Associates - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-2205270
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -359,6 +503,18 @@ company: Bayman Atkinson Smythe - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225735521
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Secondary EAL Co-Ordinator
+company: Exclusive Education - Agency - Temporary
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225639110
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

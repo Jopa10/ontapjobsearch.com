@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 17
+- automatic include: 12
+- automatic review: 26
 - automatic exclude: 0
-- effective include: 8
-- effective review: 17
+- effective include: 12
+- effective review: 26
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (12)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Get Recruited (UK) Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-2207159
+reason: Exact approved Macclesfield workplace.
+---
 
 ---
 action: 
@@ -33,6 +45,18 @@ company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Macclesfield
 source: JobG8
 job_id: jobg8-23643_225779659
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Get Recruited (UK) Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-2207169
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -77,10 +101,34 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
+company: Get Recruited (UK) Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-2207228
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
 company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Macclesfield
 source: JobG8
 job_id: jobg8-23643_225779673
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Project Document Controller
+company: Belcan - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-23643_225693549
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -120,7 +168,7 @@ job_id: teaching-vacancies-sixth-form-administrator-the-fallibroome-academy-macc
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (26)
 
 ---
 action: 
@@ -131,6 +179,18 @@ company: Acorn by Synergie - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225731276
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant / Purchase Ledger Clerk
+company: Anderson Wright Consulting - Agency - Permanent
+location: Sandbach
+source: JobG8
+job_id: jobg8-23643_225721970
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -162,6 +222,18 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Credit controller
+company: Robert Walters - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-2188574
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: Acorn by Synergie - Agency - Contract
 location: Crewe
@@ -179,6 +251,18 @@ company: Barlow Wood Ltd - Agency - Permanent
 location: Alderley Edge
 source: JobG8
 job_id: jobg8-23643_225755085
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Solus Accident Repair Centres - Company - Permanent
+location: Middlewich
+source: JobG8
+job_id: jobg8-23643_225761938
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -234,6 +318,18 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Adaptable Recruitment - Agency - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-2157174
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: FNOL Motor Claims Handler
 company: MPJ Recruitment Ltd - Agency - Permanent
 location: Wilmslow
@@ -270,11 +366,59 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Operations Administrator
+company: KPI Recruiting - Agency - Permanent
+location: Sandbach
+source: JobG8
+job_id: jobg8-23643_225678670
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Outbound Sales Adviser
 company: Work Lyf Group Ltd - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225564622
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Purchase Ledger Clerk
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Sandbach
+source: JobG8
+job_id: jobg8-2083720
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: PARALLEL RECRUITMENT LTD - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-2188848
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Procurement Administrator
+company: Morson Edge - Agency - Contract
+location: Radway Green
+source: JobG8
+job_id: jobg8-23643_225680977
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -323,6 +467,18 @@ company: Auto Skills UK - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225699918
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Planner
+company: MURVILLE CONSULTANCY LIMITED - Agency - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-108089811
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

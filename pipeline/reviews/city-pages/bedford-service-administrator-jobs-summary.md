@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 29
+- automatic include: 6
+- automatic review: 39
 - automatic exclude: 0
-- effective include: 5
-- effective review: 29
+- effective include: 6
+- effective review: 39
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -84,7 +84,31 @@ job_id: jobg8-23643_225741005
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (29)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Youth Employability Activity Coordinator - Bedfordshire
+company: Trigon Recruitment Ltd - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225761869
+reason: Exact approved Bedford workplace.
+---
+
+## REVIEW (39)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Abacus Consulting - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2175144
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -95,6 +119,18 @@ company: Hello Recruitment Associates - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-23643_225759015
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Hello Recruitment Associates Ltd - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-2176678
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -138,6 +174,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: PSR Solutions - Agency - Contract
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225706258
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator & Booking Coordinator
 company: Siamo Recruitment a division of Siamo Group - Agency - Temporary
 location: Bedfordshire
@@ -167,6 +215,30 @@ company: Putteridge High School
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-putteridge-high-school-luton-bedfordshire
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: BMW Service Advisor
+company: Sytner Group - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2192279
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: Cadence Search Ltd - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225766316
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -258,6 +330,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Logistics Administrator
+company: Osborne Appointments - Agency - Temporary
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225746423
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Education Administrator
 company: Bedfordshire Hospitals NHS Foundation Trust
 location: Luton, LU4 0DZ
@@ -318,11 +402,47 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Patient Co-ordinator, Langford, North Somerset
+company: Menlo Park - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225679165
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Adapro Talent Partners - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225765202
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: The Disability Resource Centre - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225734218
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger
+company: 1st Choice Rec - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2083068
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -395,6 +515,18 @@ company: Beechwood Primary School
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-sen-inclusion-administrator
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Site Administrator
+company: Harvey Jacob Ltd - Agency - Contract
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225705667
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

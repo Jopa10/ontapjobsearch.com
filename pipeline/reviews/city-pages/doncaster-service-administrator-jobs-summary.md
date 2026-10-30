@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 11
-- automatic exclude: 36
-- effective include: 17
-- effective review: 11
-- effective exclude: 36
+- automatic include: 19
+- automatic review: 17
+- automatic exclude: 55
+- effective include: 19
+- effective review: 17
+- effective exclude: 55
 
-## INCLUDE (17)
+## INCLUDE (19)
 
 ---
 action: 
@@ -93,6 +93,18 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-d24d3d6916a209e15b1680693740da2f
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
 reason: Approved Doncaster catchment.
 ---
 
@@ -185,6 +197,18 @@ action:
 decision: include
 automatic_decision: include
 title: Payroll Administrator
+company: Marks Sattin - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2092531
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
 company: SARIA - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -228,7 +252,7 @@ job_id: jobg8-23643_225747598
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (17)
 
 ---
 action: 
@@ -263,6 +287,18 @@ company: Office Angels - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225741868
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: COMMERCIAL OPERATIONS ASSISTANT
+company: A for Appointments - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225695144
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -306,11 +342,35 @@ reason: No approved Doncaster catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Marks Sattin - Agency - Permanent
+title: Marketing Executive
+company: Andy File Associates Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2092531
+job_id: jobg8-2155938
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Austin Banks - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2194156
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2142768
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -354,6 +414,18 @@ reason: No approved Doncaster catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Programme Marketing Contractor URGENT
+company: The National College - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2193337
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Clerk
 company: Travail Employment Group - Agency - Contract
 location: Yorkshire
@@ -362,7 +434,67 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Retail & Brand Partnership Executive
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2153824
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2202753
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+## EXCLUDE (55)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: 1x School Administrator
+company: V-Recruit - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225760394
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-2087924
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225747949
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -452,6 +584,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: BMW/MINI Service Advisor
+company: Sytner - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225692016
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: BMW/MINI Service Advisor
+company: Sytner Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2082124
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Clinical Administrator
 company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S2 2BT
@@ -481,6 +637,30 @@ company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225679767
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: Blundells - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2105206
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service and Logistics Coordinator
+company: Adecco - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225742455
 reason: Separate employment market.
 ---
 
@@ -536,11 +716,59 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: IP Administrator (Experienced)
+company: Withers & Rogers - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-108207449
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: IP Administrator (Experienced)
+company: Withers & Rogers - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2153052
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Co-ordinator
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225731215
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Matter Administrator
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2134593
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Education Administrator
+company: The Rotherham NHS Foundation Trust
+location: Rotherham, S60 2UD
+source: NHS Jobs
+job_id: nhs-5697202
 reason: Separate employment market.
 ---
 
@@ -584,6 +812,78 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Payroll Administrator
+company: Elevation Recruitment Group - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-2191592
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Klipboard - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-2193294
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-2177843
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator - Accountancy Practice
+company: Butler Rose - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-2084640
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Personal Injury Legal Assistant
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2080686
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Practice Bookkeeper
+company: IPS Group - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-2175838
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Procurement Administrator
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
@@ -596,11 +896,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Purchase Ledger
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2178302
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Purchase Ledger Clerk
 company: Albion Search - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225694244
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2176622
 reason: Separate employment market.
 ---
 
