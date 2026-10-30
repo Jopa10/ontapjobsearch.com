@@ -21,5 +21,14 @@
       }
     }
   },
+  "recovery_runs": {
+    "41074259442": {
+      "actor": "Jopa10",
+      "completed_at": "2026-10-30T15:26:12.336684+00:00",
+      "date": "2026-10-30",
+      "reason": "Generate source files for the 16 newly registered region/category slices and 19 city pages for the approved 50k feed expansion; the earlier feed run preceded their registration.",
+      "run_id": "41074259442"
+    }
+  },
   "schema_version": 1
 }
