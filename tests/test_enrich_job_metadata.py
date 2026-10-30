@@ -148,6 +148,30 @@ def test_conflicting_duplicate_job_is_withheld_from_output(tmp_path: Path):
     assert totals["quarantined_rows"] == 1
 
 
-def test_more_than_15_conflicting_job_ids_stops_source():
-    with pytest.raises(RuntimeError, match="16 > 15"):
-        module.validate_conflicting_job_ids({f"duplicate-{i}" for i in range(16)})
+@pytest.mark.parametrize("count", [16, 21, 100])
+def test_conflict_count_does_not_stop_clean_inventory(count, capsys):
+    module.validate_conflicting_job_ids({f"duplicate-{i}" for i in range(count)})
+    assert f"quarantining {count} JobG8 IDs" in capsys.readouterr().out
+
+
+def test_main_withholds_all_21_conflicting_ids_and_keeps_clean_and_external_jobs(tmp_path, monkeypatch):
+    frame = pd.DataFrame([
+        {"/Job/DisplayReference": f"duplicate-{i}", "/Job/AdvertiserName": employer,
+         "/Job/AdvertiserType": "Agency"}
+        for i in range(21) for employer in ["First", "Second"]
+    ] + [{"/Job/DisplayReference": "clean", "/Job/AdvertiserName": "Clean employer",
+          "/Job/AdvertiserType": "Company"}])
+    path = tmp_path / "jobs.json"
+    path.write_text(json.dumps([
+        {"job_id": f"duplicate-{i}", "source": "JobG8"} for i in range(21)
+    ] + [{"job_id": "clean", "source": "JobG8"},
+         {"job_id": "duplicate-0", "source": "NHS Jobs", "company": "NHS"}]))
+    monkeypatch.setattr(module, "find_jobg8_input", lambda: tmp_path / "input.xlsx")
+    monkeypatch.setattr(module, "read_feed", lambda _: frame)
+    monkeypatch.setitem(module.OUTPUT_DIRECTORIES, "admin-service", tmp_path)
+    monkeypatch.setattr("sys.argv", ["enrich_job_metadata", "--category", "admin-service"])
+    assert module.main() == 0
+    published = json.loads(path.read_text())
+    assert [(r["job_id"], r["source"]) for r in published] == [
+        ("clean", "JobG8"), ("duplicate-0", "NHS Jobs")]
+    assert published[0]["advertiser_name"] == "Clean employer"
