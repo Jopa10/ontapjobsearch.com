@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-29
-review_fingerprint: 2c86761657272af53be4247b7ea04bf38a2abb5f1b83b8f8b1512aec107a035d
+review_date: 2026-10-30
+review_fingerprint: 783cb97fe4c6a632462706dad9e156b38537fb07de2b4a80545b2983445706cc
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,29 +10,29 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-29T13:32:18+00:00
+Run generated: 2026-10-30T13:22:21+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 462
+JobG8 comparison rows: 442
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 4
-- Detail pages fetched successfully: 4
+- Detail-page candidates: 3
+- Detail pages fetched successfully: 3
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 11
+- Obvious hard passes not detail-fetched: 12
 - Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 1
-- Generic/derived geography rows requiring review: 2
+- Generic/derived geography rows requiring review: 3
 - Retained target candidates: 14
 
 ## Outcomes
 - HC: 0
-- POSS: 6
-- HARD_PASS: 8
+- POSS: 4
+- HARD_PASS: 10
 - Final selected after remembered/manual actions: 0
 - Final POSS awaiting decision: 1
-- Manually excluded: 5
+- Manually excluded: 3
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -42,6 +42,19 @@ Approved NEJobs comparison rows: 0
 
 ## POSS — choose SELECT or EXCLUDE
 
+---
+action:
+POSS | North East | Home-based | £35,000 to 39,000 Per Annum | Embedded Outreach Officer
+employer: King's College Cambridge
+closing_date: Monday, November 30, 2026 - 17:00
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173627
+vacancy_fingerprint: 39d05d5987a989470769e6863d6bc036e0277cdd5a64bb01a9750805dee7287e
+source_job_id: 173627
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173627
+---
 ---
 action: exclude
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,439 Per Annum | Carer Support Coordinator
@@ -57,19 +70,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173457
 ---
 ---
 action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £24,796 to 28,153 Per Annum | Administrator (VAWG TEAM)
-employer: The Angelou Centre
-closing_date: Saturday, October 31, 2026 - 05:00
-geography: CONFIRMED — location: approved location fallback
-reason: possible cross-source duplicate requires review
-source: VONNE
-tracking_key: vonne-173521
-vacancy_fingerprint: 1b881bdff0978f7131882da6166feea86cc94020d825071b96d436091c31b1c4
-source_job_id: 173521
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173521
----
----
-action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Flexible | £29,503 Per Annum | Employment Support Advisor
 employer: North Tyneside Carers' Centre
 closing_date: 06 November 2026
@@ -80,32 +80,6 @@ tracking_key: vonne-173582
 vacancy_fingerprint: f1178a0e4cbcd10bc69ae022e8d3d130365fd73b4ee5b71246c4d3c40fbcaae6
 source_job_id: 173582
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173582
----
----
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £30,303 to 35,781 Per Annum | Housing Coordinator
-employer: The Angelou Centre
-closing_date: Saturday, October 31, 2026 - 05:00
-geography: CONFIRMED — location: approved location fallback
-reason: transferable title with specialist or borderline wording: housing
-source: VONNE
-tracking_key: vonne-173522
-vacancy_fingerprint: 5cff7a254c5e2857818e5d08eba57442fdd870b1ae43512b72aca1e745557b98
-source_job_id: 173522
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173522
----
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £50,565 Per Annum | Solicitor
-employer: Citizens Advice Gateshead
-closing_date: 30 October 2026
-geography: CONFIRMED — location: exact area
-reason: possible cross-source duplicate requires review
-source: VONNE
-tracking_key: vonne-173501
-vacancy_fingerprint: a88d73601f7b6d5f1dbbeabde86760e2454307e9b03d45a1b838d07686248076
-source_job_id: 173501
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173501
 ---
 ---
 action: exclude
@@ -132,8 +106,10 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 - [Cancer and Dementia Care Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173588) — out-of-scope VONNE occupation.
 - [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
 - [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
+- [Family Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173625) — out-of-scope VONNE occupation.
 - [Grants Administration Officer (Small and Medium Grants)](https://www.vonne.org.uk/vonne-jobs-details?cid=173618) — insufficient service-admin evidence.
 - [Income and Project Delivery Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173614) — insufficient service-admin evidence.
+- [Outreach Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173624) — out-of-scope VONNE occupation.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
