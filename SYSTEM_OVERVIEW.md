@@ -3,12 +3,16 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 30 October 2026
-**Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
+**Last updated:** 31 October 2026
+**Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 31 October 2026 — **Governance currency audit:** reconciled current main workflows, selector and activation registers. The expanded JobG8 production workflow is present with a 5,000–60,000 receipt guard and one morning GitHub schedule; the supplier's nominal 50k service is not a guaranteed daily receipt count. The saved 31 October feed history records 16,440 received / 1,876 published JobG8 jobs; it does not establish why supplier volume fell. Current activation registers contain 239 LIVE / 8 CANDIDATE region-family pairs, 66 active family-city routes and 41 active broad-city routes. Registration is distinct from populated deployed inventory. Private alerts remain a two-address test. See `SYSTEM_AUDIT.md` for evidence and unresolved external checks.
+
+Entries below are dated change records. Statements about pending release, earlier pins or production remaining at 20k describe that date and are superseded by the current-state sections and the 31 October audit.
 
 - 30 October 2026 — **Repeatable manual JobG8 recovery:** choose `cycle=recovery` in Run full JobG8 daily process and supply `recovery_reason`. Each new dispatch can run a fresh full feed cycle regardless of completed normal cycles. The existing concurrency lock serialises runs; routine cycle markers remain separate. Successful recoveries are audited in `jobg8-daily-cycle-state.json` under `recovery_runs` with run ID, UK date/time, reason and actor; attempts remain in Actions logs. Retrying an already completed run ID skips processing. Recovery does not trigger automatic publication; run Publish verified pages after reviewing the regenerated outputs.
 
@@ -203,7 +207,7 @@ On the homepage, the four recently added cards are selected from genuine vacanci
 
 City pages use the common city-page framework and private `app/_city-pages/...` derived JSON, avoiding duplicate job-detail URLs. The homepage city grid independently suppresses active city cards below 4 current jobs without changing the route, sitemap/indexing status or daily refresh behaviour.
 
-The 30 October registers contain **54 active permanent family-city routes** (53 Admin and office, one Support Worker) and **41 active permanent broad all-jobs city routes**. Nineteen broad routes have been registered for the next verified publish. The family and broad registers are each authoritative for their route type.
+The registers reconciled on 31 October contain **66 active permanent family-city routes** (65 Admin and office, one Support Worker) and **41 active permanent broad all-jobs city routes**. Registration does not itself prove current deployed job availability. The family and broad registers are each authoritative for their route type.
 
 Existing established public routes remain stable unless there is a concrete business reason to change them.
 
@@ -217,7 +221,9 @@ NHS/public-sector inventory is an advantage for switchers and existing sector wo
 
 ## 5. Operations / infrastructure
 
-Private daily job alerts now use the owner-approved role/location/salary matching rules and remain limited to the existing test address. They run after verified publication, send only when new jobs match, and retain duplicate-send protection. Public rollout remains off.
+Private daily job alerts now use the owner-approved role/location/salary matching rules and remain limited to the two approved test addresses. They run after verified publication, send only when new jobs match, and retain duplicate-send protection. Public rollout remains off.
+
+The expanded-feed workflow and approved ordinary-title, town/Derby and missing-pay changes are present on main. Suitable jobs without stated pay can pass; no salary is invented. Feed-volume variation is being investigated separately from selection.
 
 Core controls are:
 
@@ -252,14 +258,18 @@ Manual dispatch of `Deploy Ontap production after publish` remains available for
 
 The Google Indexing API retains its 200-notification safety limit and GitHub Issue alerting. The selection policy is JobG8-first: after the 20-notification deletion allowance, eligible JobG8 URLs use available capacity before non-JobG8 URLs. Non-paying sources have a hard ceiling of 20 submissions per Pacific day (10% of quota), and unused JobG8 capacity is not released to them. Each run reports live inventory, candidate and selected counts by source so feed-to-publication-to-indexing gaps are visible.
 
+## Agreed next architecture — planned, not live
+
+PostgreSQL must precede a second commercial job feed. Build and test JobG8 → database → test website alongside the existing production process, reusing governed selection rules; switch production only after verification. Preserve stable job URLs and supplier records, cross-feed deduplication, updates/expiry, public/private sector and future separate step-up roles. Include alert preferences, versioned consent records, signup-job/recommended-job relationships and click events. An Ontap Apply click records an outbound action; completed applications require employer/supplier conversion reporting and cannot be inferred from that click. Broader recommendation consent and step-up selection remain design work, not enabled features. Production vacancy publication remains file-based.
+
 ## Business rule
 
 **Business priority wins over technical tidiness.** Cleanup is justified where it improves reliability, delivery speed, cost, UX, indexing/discoverability, AI discoverability or safe inventory growth — not simply because a cleaner-looking architecture is possible.
 
 ## Current state
 
-Reconciled from `pipeline/registers/region_category_slice_register.csv` on 30 October 2026, the current register contains **239 LIVE rows**: Service Admin 64, Marketing 31, Customer Sales 28, Finance / Accounts 47, Support Worker 16, HR / Recruitment 19, Customer Service / Contact Centre 11 and Legal Assistant / Paralegal 23. Another 8 rows are CANDIDATE. The 16 new family/region approvals await the next verified publish.
+Reconciled from `pipeline/registers/region_category_slice_register.csv` on 31 October 2026, the current register contains **239 LIVE rows**: Service Admin 64, Marketing 31, Customer Sales 28, Finance / Accounts 47, Support Worker 16, HR / Recruitment 19, Customer Service / Contact Centre 11 and Legal Assistant / Paralegal 23. Another 8 rows are CANDIDATE. These are activation counts; current job availability must be read from the deployed inventory.
 
-The full JobG8 workflow assesses all eight families across all 78 UK markets (624 rows) and retains up to 14 feed-date snapshots. The shared city mechanism owns 54 active permanent routes (53 Admin and office, one Support Worker). Production deployment uses a Vercel CLI deployment after successful verified-page publishing; automatic Git builds are disabled. NHS Administrative & Clerical inventory is isolated safely on feed failure, remains capped at 20% per Service Admin page and uses the 4+1 display order. Live vacancy pages and search use deployment-built static/current inventory; expired-job recovery remains separate. Teaching Vacancies retains the source-isolation and concurrent-write safeguards described above.
+The full JobG8 workflow assesses all eight families across all 78 UK markets (624 rows) and retains up to 14 feed-date snapshots. The shared city mechanism owns 66 active permanent routes (65 Admin and office, one Support Worker). Production deployment uses a Vercel CLI deployment after successful verified-page publishing; automatic Git builds are disabled. NHS Administrative & Clerical inventory is isolated safely on feed failure, remains capped at 20% per Service Admin page and uses the 4+1 display order. Live vacancy pages and search use deployment-built static/current inventory; expired-job recovery remains separate. Teaching Vacancies retains the source-isolation and concurrent-write safeguards described above.
 - 21 September 2026 — **Google indexing now gives JobG8 first claim on the daily allowance:** after the fixed deletion allowance, every available eligible JobG8 URL is selected before any non-JobG8 URL. Non-paying sources are capped at **20 of 200 submissions (10%)**; unused JobG8 capacity is never released to them. Workflow summaries now show live inventory, indexing candidates and selected submissions by source.
 

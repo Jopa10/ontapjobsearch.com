@@ -3,14 +3,18 @@ Total output lines: 420
 
 # Ontap System Map
 
-**Last updated:** 30 October 2026
-**Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
+**Last updated:** 31 October 2026
+**Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 31 October 2026 — **Governance currency audit:** reconciled current main workflows, selector and activation registers. The expanded JobG8 production workflow is present with a 5,000–60,000 receipt guard and one morning GitHub schedule; the supplier's nominal 50k service is not a guaranteed daily receipt count. The saved 31 October feed history records 16,440 received / 1,876 published JobG8 jobs; it does not establish why supplier volume fell. Current activation registers contain 239 LIVE / 8 CANDIDATE region-family pairs, 66 active family-city routes and 41 active broad-city routes. Registration is distinct from populated deployed inventory. Private alerts remain a two-address test. See `SYSTEM_AUDIT.md` for evidence and unresolved external checks.
+
+Entries below are dated change records. Statements about pending release, earlier pins or production remaining at 20k describe that date and are superseded by the current-state sections and the 31 October audit.
 
 - 30 October 2026 — **Repeatable manual JobG8 recovery:** choose `cycle=recovery` in Run full JobG8 daily process and supply `recovery_reason`. Each new dispatch can run a fresh full feed cycle regardless of completed normal cycles. The existing concurrency lock serialises runs; routine cycle markers remain separate. Successful recoveries are audited in `jobg8-daily-cycle-state.json` under `recovery_runs` with run ID, UK date/time, reason and actor; attempts remain in Actions logs. Retrying an already completed run ID skips processing. Recovery does not trigger automatic publication; run Publish verified pages after reviewing the regenerated outputs.
 
@@ -196,11 +200,13 @@ NHS/public-sector inventory is a complementary supply and sector-switching advan
 
 ## 5. Operations / infrastructure
 
-The automatic private CPC sender is pinned to `b2e35a6fac6ea35bc39e69ddcfcf06c5024ada59`. Its sparse private checkout includes `pipeline/scripts`, `pipeline/tests` and `pipeline/config`; the last supplies the governed region-name/slug catalog. The existing post-publish workflow retains a fixed test contact/list and invokes only private daily mode. Public signup and list-wide delivery are not enabled by this adoption.
+The automatic private CPC sender is pinned to `7861de82938669df2b78229d2b76859fb260b2e2` (31 October workflow audit). Its sparse private checkout includes `pipeline/scripts`, `pipeline/tests` and `pipeline/config`; the last supplies the governed region-name/slug catalog. The existing post-publish workflow retains two allowlisted test recipients on list 3 and invokes only private daily mode. Public signup and list-wide delivery are not enabled by this adoption.
+
+The expanded-feed source and approved Service Admin title, factual geography and missing-pay changes are present on main. Otherwise eligible ordinary roles can pass without numeric pay; salary wording is retained where available and truly absent pay uses the existing Salary not stated display. Qualification, technical-role, salary and other hard exclusions still apply.
 
 Core scheduled workflows include:
 
-- `run-full-jobg8-daily-process.yml` — the GitHub morning schedule runs at 07:30 Europe/London. A separate `changeover` dispatch provides the expanded-feed second run without resetting or mislabeling the morning marker. The same-date marker and workflow concurrency lock keep retries idempotent; after changeover, any evening retry skips. The cron-job.org afternoon fallback at 17:35 is external to the repository and must be disabled before the steady state. After a successful morning or changeover run, `ontap-daily-review.yml` completes review and automatic publication. The existing 11:45 publish schedule remains as recovery fallback, with the same-day success guard. The workflow includes fresh transactional NHS Service Admin composition, generation of all currently LIVE Customer Sales slices, same-feed 78-market diagnostic coverage and rolling 14-feed-date history maintenance;
+- `run-full-jobg8-daily-process.yml` — the GitHub morning schedule runs at 07:30 Europe/London. A separate `changeover` dispatch provides the expanded-feed second run without resetting or mislabeling the morning marker. The same-date marker and workflow concurrency lock keep retries idempotent; after changeover, any evening retry skips. The external cron-job.org fallback configuration is UNKNOWN / NEEDS AUDIT; the repository alone cannot confirm that it has been disabled. After a successful morning or changeover run, `ontap-daily-review.yml` completes review and automatic publication. The existing 11:45 publish schedule remains as recovery fallback, with the same-day success guard. The workflow includes fresh transactional NHS Service Admin composition, generation of all currently LIVE Customer Sales slices, same-feed 78-market diagnostic coverage and rolling 14-feed-date history maintenance;
 - `run-nejobs-review.yml` — 06:15 daily;
 - `run-vonne-review.yml` — 06:35 daily;
 - `run-teaching-vacancies-regional-review.yml` — 06:55 daily; final review/manifests commit is protected by full-history checkout plus up to three pull-rebase/push attempts so concurrent `main` writes do not strand fresh TV state;
@@ -236,9 +242,9 @@ This changes the trigger from every `main` push to a successful verified-page pu
 
 ## Validation state
 
-As reconciled from `pipeline/registers/region_category_slice_register.csv` on 30 October 2026, the register contains **239 LIVE rows**: Service Admin 64, Marketing 31, Customer Sales 28, Finance / Accounts 47, Support Worker 16, HR / Recruitment 19, Customer Service / Contact Centre 11 and Legal Assistant / Paralegal 23. A further 8 rows are CANDIDATE. The LIVE register is authoritative for family/region activation; the 16 entries from 30 October are prepared for the next verified publish.
+As reconciled from `pipeline/registers/region_category_slice_register.csv` on 31 October 2026, the register contains **239 LIVE rows**: Service Admin 64, Marketing 31, Customer Sales 28, Finance / Accounts 47, Support Worker 16, HR / Recruitment 19, Customer Service / Contact Centre 11 and Legal Assistant / Paralegal 23. A further 8 rows are CANDIDATE. The LIVE register is authoritative for family/region activation; activation does not itself prove deployed inventory.
 
-The full JobG8 workflow enforces the current **78 markets × eight families = 624 rows** diagnostic contract and up to 14 feed-date snapshots. `city-page-register.json` contains **54 active permanent family-city routes (53 Admin and office, one Support Worker)**; `broad-city-page-register.json` contains **41 active permanent all-jobs city routes** (22 already published and 19 registered for the next verified publish). NHS feed isolation, the 20% Service Admin ceiling, the 4+1 display rhythm, Teaching Vacancies source isolation, deployment-built search/static live vacancy pages and publish-triggered Vercel CLI deployment with live-SHA verification remains the verified production architecture.
+The full JobG8 workflow enforces the current **78 markets × eight families = 624 rows** diagnostic contract and up to 14 feed-date snapshots. `city-page-register.json` contains **66 active permanent family-city routes (65 Admin and office, one Support Worker)**; `broad-city-page-register.json` contains **41 active permanent all-jobs city routes** (registered activation state; deployed population requires separate verification). NHS feed isolation, the 20% Service Admin ceiling, the 4+1 display rhythm, Teaching Vacancies source isolation, deployment-built search/static live vacancy pages and publish-triggered Vercel CLI deployment with live-SHA verification remains the verified production architecture.
 
 ## Documentation rule
 
@@ -246,4 +252,9 @@ When a persistent system-level change alters any canonical bucket, update this f
 
 23 August 2026 — **safe geo lookup gap correction:** `pipeline/geo/geo_lookup.xlsx` remains the factual location-routing authority. Specific missing place mappings found during Legal Assistant / Paralegal discovery were added for Hook Norton, Woolston, Filey, Ware, Longfield, Milford Haven, Otley and Birmingham, plus safe county/location fallbacks where unambiguous. Broad ambiguous values such as `East of England` and bare `Merseyside` remain deliberately unresolved rather than being forced into a canonical market.
 - 21 September 2026 — **Google indexing is now JobG8-first with a hard non-paying cap:** after the fixed deletion allowance, every eligible JobG8 candidate is selected before non-JobG8 candidates. Non-paying sources cannot exceed 20 of the 200 daily notifications (10%), and unused JobG8 capacity is never released to them. The workflow summary now reports live, eligible-candidate and selected-submission counts by source.
+
+
+## Agreed next architecture — planned, not live
+
+PostgreSQL must precede a second commercial job feed. Build and test JobG8 → database → test website alongside the existing production process, reusing governed selection rules; switch production only after verification. Preserve stable job URLs and supplier records, cross-feed deduplication, updates/expiry, public/private sector and future separate step-up roles. Include alert preferences, versioned consent records, signup-job/recommended-job relationships and click events. An Ontap Apply click records an outbound action; completed applications require employer/supplier conversion reporting and cannot be inferred from that click. Broader recommendation consent and step-up selection remain design work, not enabled features. Production vacancy publication remains file-based.
 

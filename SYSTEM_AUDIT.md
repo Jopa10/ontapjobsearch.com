@@ -1,10 +1,35 @@
 # Ontap System Audit
 
 **Audit started:** 19 August 2026  
-**Last governance currency audit:** 18 September 2026
-**Status:** Architecture cleanup 1–5 remains complete. The canonical governance set was re-audited against current workflows and registers on 18 September; stale rollout-era current-state claims were corrected.
+**Last governance currency audit:** 31 October 2026
+**Status:** Documentation currency audit completed on 31 October against current main. This is not a fresh end-to-end production certification; external checks are listed below.
 
 The audit conclusion remains: **preserve the working core; remove historical scaffolding; consolidate duplicated mechanics; do not refactor for technical tidiness alone.**
+
+## Governance currency follow-up — 31 October 2026
+
+Audited `AGENTS.md`, both canonical system documents, this audit record, the root README and pipeline README against main commit `20bef23f2d321989d149e55b809ed496ec11975b`.
+
+Verified repository evidence:
+
+- `run-full-jobg8-daily-process.yml`: one morning GitHub cron (`30 7 * * *`, with Europe/London workflow handling), explicit changeover/recovery paths and 5,000–60,000 receipt validation. No afternoon GitHub cron remains. A 50k supplier arrangement does not guarantee 50,000 adverts each day.
+- `pipeline/reports-daily/jobg8-feed-history.csv`: 31 October snapshot records 16,440 received and 1,876 published JobG8 jobs. These are dated JobG8 counts, not total site inventory. The report does not distinguish a supplier account/configuration change from genuine reduced supply.
+- `pipeline/scripts/service_admin_pipeline_core.py` and `docs/service-admin-selection-changes-2026-10-29.md`: expanded ordinary admin-title coverage and eligible missing-pay handling are present on main; the release candidate is no longer merely absent source code. Existing salary/qualification/technical-role barriers remain. No selector policy was changed by this audit.
+- `pipeline/registers/region_category_slice_register.csv`: 239 LIVE and 8 CANDIDATE rows. Family totals: Service Admin 64; Finance / Accounts 47; Marketing 31; Customer Sales 28; Legal Assistant / Paralegal 23; HR / Recruitment 19; Support Worker 16; Customer Service / Contact Centre 11.
+- `pipeline/city_pages/city-page-register.json`: 66 active routes; `broad-city-page-register.json`: 41 active routes. These are register counts, not claims that all pages currently contain jobs.
+- `deploy-vercel-after-publish.yml` and `vercel.json`: the publisher dispatches a Vercel CLI deployment and verifies its production SHA; automatic Git deployments are disabled. Root README deployment guidance was stale.
+- `send-private-cpc-job-alerts.yml`: current private sender pin is `7861de82938669df2b78229d2b76859fb260b2e2`; two allowlisted recipients, separate guarded invocations, receipt/live-SHA validation and no-send push validation remain. Public rollout stays off. Actual email delivery and matching outcomes were not re-tested during this documentation audit.
+- `build-daily-region-overview.yml`: verified-deployment snapshot reporting with hourly recovery; pipeline README no longer claims that any app JSON commit is itself the live report trigger.
+
+Corrections: refreshed canonical dates/status, current city counts, sender pin and recipient scope, deployment instructions and expanded-feed range; explicitly marked earlier release/changeover entries as historical. Recorded the owner's agreed PostgreSQL-before-second-commercial-feed sequence as planned, with the parallel test path and Apply-click/completed-application distinction. No workflow, inventory, live page or selection code was changed.
+
+UNKNOWN / NEEDS AUDIT: external cron-job.org fallback state; supplier-side cause of the 31 October volume reduction; present production deployment SHA and populated/empty-page availability; current Vercel function bundle size. Do not infer these from registered activation or a successful historical test. Three qualification false exclusions identified in the 29 October release assessment are not established as resolved by this audit.
+
+Validation: documentation diff/whitespace checks and direct register recount. No production feed, publish, deployment or email send is required for these documentation corrections.
+
+## Historical audit records
+
+The September schedules, counts and deployment arrangements below describe the audit at that date. They are superseded for current operation by the 31 October reconciliation and current workflow definitions.
 
 ## Governance currency follow-up — 18 September 2026
 

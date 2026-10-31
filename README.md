@@ -1,6 +1,6 @@
 # Ontap Job Search
 
-Ontap is a UK job-discovery site built with Next.js. Its production inventory is assembled by governed feed/review pipelines, published into repository-backed JSON, verified, and deployed from `main` through Vercel's Git integration.
+Ontap is a UK job-discovery site built with Next.js. Its production inventory is assembled by governed feed/review pipelines, published into repository-backed JSON, verified, and deployed from `main` through the publish-triggered Vercel CLI workflow with live-SHA verification.
 
 This README is an entry point, not the system authority. Before making a persistent change, read:
 
@@ -15,10 +15,10 @@ The files under `docs/stage0.md` to `docs/stage3.md` are early planning records.
 ## Production shape
 
 - **Application:** Next.js 16, React 19 and TypeScript.
-- **Primary inventory source:** twice-daily JobG8 processing, with governed NEJobs, VONNE, Teaching Vacancies and NHS Jobs paths.
+- **Primary inventory source:** morning expanded-feed JobG8 processing (nominal 50k supplier service; actual daily volume varies), with governed NEJobs, VONNE, Teaching Vacancies and NHS Jobs paths.
 - **Control state:** the regional/category slice register, family classifiers, review state and city-page register.
 - **Publication:** source-specific guarded publishers feed the shared verified-page publisher, which writes current website JSON and reports.
-- **Deployment:** normal Vercel Git deployment from `main`; Vercel CLI is manual recovery only.
+- **Deployment:** publish-triggered Vercel CLI deployment from `main`; automatic Git builds are disabled, and manual recovery is available.
 - **Search:** a compact published-job index is generated at build time.
 - **Indexing:** sitemap/structured-data handling plus the quota-governed Google Indexing API workflow.
 

@@ -35,7 +35,7 @@ The main daily JobG8 workflow owns the canonical production ingest. External-sou
 
 - `scripts/materialize_current_jobg8.py`
 
-That helper downloads the current feed with retries, clears stale spreadsheet input files and calls the existing `jobg8_xml_adapter.py` converter with the same expected 5,000–20,000 job safety range.
+That helper downloads the current feed with retries, clears stale spreadsheet input files and calls the existing `jobg8_xml_adapter.py` converter with the expected 5,000–60,000 job safety range.
 
 Do not add another copy of the download/adapter shell sequence to a workflow. Extend the shared materializer instead.
 
@@ -47,7 +47,7 @@ The eight-family diagnostic assessment is part of `.github/workflows/run-full-jo
 
 The diagnostic writes `reports-daily/daily-family-coverage.csv` and updates rolling diagnostic history only. It does **not** change the slice register, production family JSON, LIVE status or public routes. A market may therefore be assessed even when no public slice exists for it.
 
-`.github/workflows/build-daily-region-overview.yml` remains the recurring owner of `reports-daily/daily-region-overview.md`. LIVE counts and the sitewide reconciliation come directly from current published `app/**/*.json`; NOT LIVE cells use the already committed same-feed 78-market family coverage. The report separates unique inventory from regional/category slice placements, shows dynamic provider totals, jobs on multiple slices and extra placements, and flags a dated source-count CSV when it is stale. Any published app JSON change triggers a concurrency-controlled refresh, including external-only updates and future providers such as WhatJobs. A numeric zero means assessed zero, not unassessed.
+`.github/workflows/build-daily-region-overview.yml` remains the recurring owner of `reports-daily/daily-region-overview.md`. LIVE counts and the sitewide reconciliation come directly from current published `app/**/*.json`; NOT LIVE cells use the already committed same-feed 78-market family coverage. The report separates unique inventory from regional/category slice placements, shows dynamic provider totals, jobs on multiple slices and extra placements, and flags a dated source-count CSV when it is stale. The normal publisher dispatch uses the verified deployment receipt; hourly recovery and report-control pushes resolve the live production SHA, with concurrency protection and a matching-source skip. Reports use the deployed snapshot rather than assuming every main-branch data change is live. A numeric zero means assessed zero, not unassessed.
 
 ## External sources
 
