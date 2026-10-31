@@ -47,11 +47,7 @@ _No jobs in this group._
 
 ## SUSSEX — SELECTED
 
----
-action:
-SELECTED | Sussex | Pulborough | £12.71 - £14.45 per hour (Salary starts at £12.71 and increases t) | Female Waking Night Support Worker Pulborough
-job_id: 108179728
----
+_No jobs in this group._
 
 ## SUSSEX — POSSIBLES
 
@@ -177,12 +173,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Essex | Wickford | £18942.56 per year | Support Worker
-job_id: 108246609
----
-
----
-action:
 SELECTED | Essex | Colchester | £26,228 per annum | Care Support Worker
 job_id: 2213577
 ---
@@ -212,12 +202,6 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | Kingston Upon Thames | £32,000.00 per annum | Specialist Support Worker
-job_id: 2124767
----
 
 ---
 action:
