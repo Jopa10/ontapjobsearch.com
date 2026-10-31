@@ -1,65 +1,65 @@
 ﻿region,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-Yorkshire - West,35,31,3,1,7,,35,Leeds,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - West manual_select applied additively: 3 row(s) prioritised; 35 selected.
-Yorkshire - South,18,17,1,0,1,,18,Sheffield,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,Yorkshire - South selection complete: all 18 selected role(s) are HIGH_CONFIDENCE plus Sheffield ELASTIC_FIT roles.
-North East,0,0,0,0,0,,27,Newcastle Upon Tyne,SCENARIO_3_FULL_VALID_SELECTION,"North East selection complete: all 27 valid selected role(s) retained after HIGH_CONFIDENCE, Newcastle Upon Tyne ELASTIC_FIT and other ELASTIC_FIT ordering."
-London,152,120,27,5,15,,152,London,SCENARIO_3_MANUAL_SELECTION_APPLIED,London manual_select applied additively: 5 row(s) prioritised; 152 selected.
-Hampshire,40,35,0,5,4,,40,Southampton,SCENARIO_3_FULL_VALID_SELECTION,"Hampshire selection complete: all 40 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
-Surrey,30,27,0,3,5,,30,Guildford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Surrey manual_select applied additively: 3 row(s) prioritised; 30 selected.
-Kent,34,29,0,5,4,,34,Maidstone,SCENARIO_3_MANUAL_SELECTION_APPLIED,Kent manual_select applied additively: 1 row(s) prioritised; 34 selected.
-Sussex,25,22,0,3,1,,25,Brighton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Sussex manual_select applied additively: 1 row(s) prioritised; 25 selected.
-West Midlands - Coventry & Warwickshire,16,15,0,1,3,,16,Coventry,SCENARIO_3_MANUAL_SELECTION_APPLIED,West Midlands - Coventry & Warwickshire manual_select applied additively: 1 row(s) prioritised; 16 selected.
-Bedfordshire,5,5,0,0,1,,5,Bedford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Bedfordshire selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-Berkshire,20,15,0,5,3,,20,Reading,SCENARIO_3_MANUAL_SELECTION_APPLIED,Berkshire manual_select applied additively: 1 row(s) prioritised; 20 selected.
-Bristol & Bath,22,15,6,1,3,,22,Bristol,SCENARIO_3_MANUAL_SELECTION_APPLIED,Bristol & Bath manual_select applied additively: 3 row(s) prioritised; 22 selected.
-Buckinghamshire,23,15,0,8,3,,23,Milton Keynes,SCENARIO_3_MANUAL_SELECTION_APPLIED,Buckinghamshire manual_select applied additively: 1 row(s) prioritised; 23 selected.
-Cambridgeshire,20,20,0,0,0,,20,Cambridge,SCENARIO_1_COMPLETE_HC_ONLY,Cambridgeshire selection complete: all 20 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Cambridge HC roles protected in ordering.
-Cheshire - East,11,8,1,2,0,,11,Crewe,SCENARIO_3_FULL_VALID_SELECTION,"Cheshire - East selection complete: all 11 valid selected role(s) retained after HIGH_CONFIDENCE, Crewe ELASTIC_FIT and other ELASTIC_FIT ordering."
-Cheshire - Warrington & Halton,7,7,0,0,1,,7,Warrington,SCENARIO_1_COMPLETE_HC_ONLY,Cheshire - Warrington & Halton selection complete: all 7 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Warrington HC roles protected in ordering.
-Cheshire - West,7,7,0,0,0,,7,Chester,SCENARIO_1_COMPLETE_HC_ONLY,Cheshire - West selection complete: all 7 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Chester HC roles protected in ordering.
-Cornwall,1,1,0,0,0,,1,Truro,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cornwall selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Yorkshire - West,0,0,0,0,0,,0,Leeds,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - West selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Yorkshire - South,4,4,0,0,0,,4,Sheffield,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+North East,0,0,0,0,0,,1,Newcastle Upon Tyne,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,North East selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+London,4,3,1,0,0,,4,London,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,London selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+Hampshire,1,0,0,1,0,,1,Southampton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Hampshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Surrey,2,0,0,2,0,,2,Guildford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Surrey selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+Kent,0,0,0,0,0,,0,Maidstone,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Kent selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Sussex,2,1,0,1,0,,2,Brighton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Sussex selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+West Midlands - Coventry & Warwickshire,0,0,0,0,0,,0,Coventry,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,West Midlands - Coventry & Warwickshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Bedfordshire,0,0,0,0,0,,0,Bedford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Bedfordshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Berkshire,2,1,0,1,0,,2,Reading,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Berkshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+Bristol & Bath,2,0,2,0,1,,2,Bristol,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Bristol & Bath selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+Buckinghamshire,1,0,0,1,0,,1,Milton Keynes,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Buckinghamshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Cambridgeshire,1,1,0,0,0,,1,Cambridge,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cambridgeshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Cheshire - East,1,0,0,1,0,,1,Crewe,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cheshire - East selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Cheshire - Warrington & Halton,0,0,0,0,0,,0,Warrington,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cheshire - Warrington & Halton selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Cheshire - West,0,0,0,0,0,,0,Chester,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cheshire - West selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Cornwall,0,0,0,0,0,,0,Truro,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cornwall selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
 Cumbria - North,1,1,0,0,0,,1,Carlisle,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cumbria - North selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
-Derbyshire,6,5,0,1,0,,6,Derby,SCENARIO_3_FULL_VALID_SELECTION,"Derbyshire selection complete: all 6 valid selected role(s) retained after HIGH_CONFIDENCE, Derby ELASTIC_FIT and other ELASTIC_FIT ordering."
-Devon,9,9,0,0,0,,9,Exeter,SCENARIO_1_COMPLETE_HC_ONLY,Devon selection complete: all 9 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Exeter HC roles protected in ordering.
-Dorset,13,11,0,2,3,,13,Bournemouth,SCENARIO_3_FULL_VALID_SELECTION,"Dorset selection complete: all 13 valid selected role(s) retained after HIGH_CONFIDENCE, Bournemouth ELASTIC_FIT and other ELASTIC_FIT ordering."
-Essex,34,30,0,4,4,,34,Chelmsford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Essex manual_select applied additively: 1 row(s) prioritised; 34 selected.
-Gloucestershire,19,17,0,2,0,,19,Gloucester,SCENARIO_3_FULL_VALID_SELECTION,"Gloucestershire selection complete: all 19 valid selected role(s) retained after HIGH_CONFIDENCE, Gloucester ELASTIC_FIT and other ELASTIC_FIT ordering."
-Greater Manchester - Manchester & Salford,18,15,3,0,3,,18,Manchester,SCENARIO_3_MANUAL_SELECTION_APPLIED,Greater Manchester - Manchester & Salford manual_select applied additively: 2 row(s) prioritised; 18 selected.
-Greater Manchester - North,8,8,0,0,1,,8,Rochdale,SCENARIO_1_COMPLETE_HC_ONLY,Greater Manchester - North selection complete: all 8 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Rochdale HC roles protected in ordering.
-Greater Manchester - South,13,13,0,0,0,,13,Stockport,SCENARIO_1_COMPLETE_HC_ONLY,Greater Manchester - South selection complete: all 13 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Stockport HC roles protected in ordering.
-Greater Manchester - Wigan & Bolton,10,9,1,0,0,,10,Bolton,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,Greater Manchester - Wigan & Bolton selection complete: all 10 selected role(s) are HIGH_CONFIDENCE plus Bolton ELASTIC_FIT roles.
-Herefordshire,2,2,0,0,0,,2,Hereford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Herefordshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-Hertfordshire,22,20,0,2,2,,22,Watford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hertfordshire manual_select applied additively: 2 row(s) prioritised; 22 selected.
-Lancashire - Central,2,2,0,0,0,,2,Preston,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Lancashire - Central selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-Lancashire - East,7,7,0,0,0,,7,Blackburn,SCENARIO_1_COMPLETE_HC_ONLY,Lancashire - East selection complete: all 7 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Blackburn HC roles protected in ordering.
-Leicestershire,11,10,0,1,1,,11,Leicester,SCENARIO_3_FULL_VALID_SELECTION,"Leicestershire selection complete: all 11 valid selected role(s) retained after HIGH_CONFIDENCE, Leicester ELASTIC_FIT and other ELASTIC_FIT ordering."
-Lincolnshire,10,9,0,1,0,,10,Lincoln,SCENARIO_3_MANUAL_SELECTION_APPLIED,Lincolnshire manual_select applied additively: 1 row(s) prioritised; 10 selected.
-Merseyside - Liverpool,10,8,2,0,1,,10,Liverpool,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,Merseyside - Liverpool selection complete: all 10 selected role(s) are HIGH_CONFIDENCE plus Liverpool ELASTIC_FIT roles.
-Merseyside - St Helens & Knowsley,2,2,0,0,0,,2,St Helens,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Merseyside - St Helens & Knowsley selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-Merseyside - Wirral,4,4,0,0,0,,4,Birkenhead,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Merseyside - Wirral selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-Norfolk,13,11,0,2,1,,13,Norwich,SCENARIO_3_MANUAL_SELECTION_APPLIED,Norfolk manual_select applied additively: 2 row(s) prioritised; 13 selected.
+Derbyshire,1,1,0,0,0,,1,Derby,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Derbyshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Devon,0,0,0,0,0,,0,Exeter,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Devon selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Dorset,3,1,0,2,0,,3,Bournemouth,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Dorset selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+Essex,0,0,0,0,0,,0,Chelmsford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Essex selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Gloucestershire,2,2,0,0,0,,2,Gloucester,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Gloucestershire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+Greater Manchester - Manchester & Salford,3,2,1,0,0,,3,Manchester,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Greater Manchester - Manchester & Salford selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+Greater Manchester - North,0,0,0,0,0,,0,Rochdale,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Greater Manchester - North selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Greater Manchester - South,0,0,0,0,0,,0,Stockport,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Greater Manchester - South selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Greater Manchester - Wigan & Bolton,0,0,0,0,0,,0,Bolton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Greater Manchester - Wigan & Bolton selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Herefordshire,0,0,0,0,0,,0,Hereford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Herefordshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Hertfordshire,0,0,0,0,0,,0,Watford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Hertfordshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Lancashire - Central,0,0,0,0,0,,0,Preston,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Lancashire - Central selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Lancashire - East,0,0,0,0,0,,0,Blackburn,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Lancashire - East selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Leicestershire,1,1,0,0,0,,1,Leicester,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Leicestershire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Lincolnshire,0,0,0,0,0,,0,Lincoln,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Lincolnshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Merseyside - Liverpool,0,0,0,0,0,,0,Liverpool,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Merseyside - Liverpool selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Merseyside - St Helens & Knowsley,0,0,0,0,0,,0,St Helens,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Merseyside - St Helens & Knowsley selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Merseyside - Wirral,0,0,0,0,0,,0,Birkenhead,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Merseyside - Wirral selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Norfolk,1,0,0,1,0,,1,Norwich,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Norfolk selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
 North Scotland,0,0,0,0,0,,0,Aberdeen,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,North Scotland selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
-North Wales - East,3,3,0,0,0,,3,Wrexham,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,North Wales - East selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-Northamptonshire,17,14,0,3,0,,17,Northampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Northamptonshire manual_select applied additively: 1 row(s) prioritised; 17 selected.
-Northern Ireland - East,6,6,0,0,0,,6,Belfast,SCENARIO_1_COMPLETE_HC_ONLY,Northern Ireland - East selection complete: all 6 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Belfast HC roles protected in ordering.
-Nottinghamshire,7,4,0,3,0,,7,Nottingham,SCENARIO_3_FULL_VALID_SELECTION,"Nottinghamshire selection complete: all 7 valid selected role(s) retained after HIGH_CONFIDENCE, Nottingham ELASTIC_FIT and other ELASTIC_FIT ordering."
-Oxfordshire,14,12,0,2,2,,14,Oxford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Oxfordshire manual_select applied additively: 2 row(s) prioritised; 14 selected.
-Scotland Central - Edinburgh & Lothians,7,6,1,0,0,,7,Edinburgh,SCENARIO_3_MANUAL_SELECTION_APPLIED,Scotland Central - Edinburgh & Lothians manual_select applied additively: 1 row(s) prioritised; 7 selected.
-Scotland Central - Falkirk & Stirling,2,2,0,0,1,,2,Stirling,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Scotland Central - Falkirk & Stirling selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+North Wales - East,0,0,0,0,0,,0,Wrexham,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,North Wales - East selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Northamptonshire,1,0,0,1,0,,1,Northampton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Northamptonshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Northern Ireland - East,1,1,0,0,0,,1,Belfast,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Northern Ireland - East selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Nottinghamshire,0,0,0,0,0,,0,Nottingham,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Nottinghamshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Oxfordshire,2,2,0,0,1,,2,Oxford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Oxfordshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+Scotland Central - Edinburgh & Lothians,0,0,0,0,0,,0,Edinburgh,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Scotland Central - Edinburgh & Lothians selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Scotland Central - Falkirk & Stirling,0,0,0,0,0,,0,Stirling,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Scotland Central - Falkirk & Stirling selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
 Scotland Central - Fife,0,0,0,0,0,,0,Dunfermline,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Scotland Central - Fife selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
 Scotland Central - Tayside,0,0,0,0,0,,0,Dundee,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Scotland Central - Tayside selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
-Scotland West - Glasgow,6,6,0,0,0,,6,Glasgow,SCENARIO_1_COMPLETE_HC_ONLY,Scotland West - Glasgow selection complete: all 6 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Glasgow HC roles protected in ordering.
-Scotland West - Lanarkshire,1,1,0,0,0,,1,Hamilton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Scotland West - Lanarkshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
-Shropshire,8,8,0,0,0,,8,Shrewsbury,SCENARIO_3_MANUAL_SELECTION_APPLIED,Shropshire manual_select applied additively: 1 row(s) prioritised; 8 selected.
-Somerset,8,5,0,3,1,,8,Taunton,SCENARIO_3_FULL_VALID_SELECTION,"Somerset selection complete: all 8 valid selected role(s) retained after HIGH_CONFIDENCE, Taunton ELASTIC_FIT and other ELASTIC_FIT ordering."
-Staffordshire,8,6,0,2,0,,8,Stafford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Staffordshire manual_select applied additively: 1 row(s) prioritised; 8 selected.
-Suffolk,11,9,0,2,0,,11,Ipswich,SCENARIO_3_FULL_VALID_SELECTION,"Suffolk selection complete: all 11 valid selected role(s) retained after HIGH_CONFIDENCE, Ipswich ELASTIC_FIT and other ELASTIC_FIT ordering."
-Wales South - Cardiff & Vale,9,9,0,0,0,,9,Cardiff,SCENARIO_1_COMPLETE_HC_ONLY,Wales South - Cardiff & Vale selection complete: all 9 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Cardiff HC roles protected in ordering.
-Wales South - Gwent,5,5,0,0,0,,5,Newport,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wales South - Gwent selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-Wales South - Swansea Bay,2,2,0,0,1,,2,Swansea,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wales South - Swansea Bay selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-Wales South - Valleys,2,2,0,0,0,,2,Merthyr Tydfil,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wales South - Valleys selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-West Midlands - Birmingham & Solihull,30,20,9,1,0,,30,Birmingham,SCENARIO_3_MANUAL_SELECTION_APPLIED,West Midlands - Birmingham & Solihull manual_select applied additively: 1 row(s) prioritised; 30 selected.
-West Midlands - Black Country,5,5,0,0,0,,5,Wolverhampton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,West Midlands - Black Country selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-Wiltshire,10,8,0,2,0,,10,Swindon,SCENARIO_3_FULL_VALID_SELECTION,"Wiltshire selection complete: all 10 valid selected role(s) retained after HIGH_CONFIDENCE, Swindon ELASTIC_FIT and other ELASTIC_FIT ordering."
-Worcestershire,5,5,0,0,2,,5,Worcester,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Worcestershire selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-Yorkshire - East,10,8,1,1,0,,10,Hull,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - East manual_select applied additively: 1 row(s) prioritised; 10 selected.
-Yorkshire - North,17,17,0,0,0,,17,York,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - North manual_select applied additively: 1 row(s) prioritised; 17 selected.
+Scotland West - Glasgow,0,0,0,0,0,,0,Glasgow,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Scotland West - Glasgow selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Scotland West - Lanarkshire,0,0,0,0,0,,0,Hamilton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Scotland West - Lanarkshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Shropshire,1,1,0,0,0,,1,Shrewsbury,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Shropshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Somerset,2,0,0,2,0,,2,Taunton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Somerset selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+Staffordshire,1,0,0,1,0,,1,Stafford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Staffordshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Suffolk,0,0,0,0,0,,0,Ipswich,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Suffolk selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Wales South - Cardiff & Vale,0,0,0,0,0,,0,Cardiff,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wales South - Cardiff & Vale selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Wales South - Gwent,0,0,0,0,0,,0,Newport,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wales South - Gwent selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Wales South - Swansea Bay,1,1,0,0,0,,1,Swansea,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wales South - Swansea Bay selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Wales South - Valleys,0,0,0,0,0,,0,Merthyr Tydfil,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wales South - Valleys selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+West Midlands - Birmingham & Solihull,0,0,0,0,0,,0,Birmingham,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,West Midlands - Birmingham & Solihull selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+West Midlands - Black Country,0,0,0,0,0,,0,Wolverhampton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,West Midlands - Black Country selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Wiltshire,1,0,0,1,0,,1,Swindon,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wiltshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Worcestershire,0,0,0,0,0,,0,Worcester,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Worcestershire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Yorkshire - East,1,0,0,1,0,,1,Hull,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - East selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+Yorkshire - North,0,0,0,0,0,,0,York,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - North selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.

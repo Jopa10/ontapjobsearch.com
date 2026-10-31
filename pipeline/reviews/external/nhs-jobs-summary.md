@@ -14,6 +14,18 @@ Edit only each `action:` line for POSS rows. Unchanged decisions are restored by
 
 ---
 action:
+POSS | NHS Jobs | London | London, E7 8AB | Negotiable | GP Operations and Workforce Lead
+source_job_id: 5699282
+title: GP Operations and Workforce Lead
+employer: Claremont Clinic
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0925-26-0016
+factual_fingerprint: 9e981edb16758b3cd012c898814fff978d2d325feb2cfee5ed502dc65f294fa0
+---
+
+---
+action:
 POSS | NHS Jobs | Norfolk | Norwich, NR4 7UY | £28392.00 to £31157.00 | Insulin Pump MDT Co-ordinator & Administrator
 source_job_id: 5699270
 title: Insulin Pump MDT Co-ordinator & Administrator
@@ -1654,18 +1666,6 @@ region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U9183-26-0057
 factual_fingerprint: 00bd79f49324c3367d248299e483b731bfc88c702f14c804f20e70602f204011
----
-
----
-action:
-POSS | NHS Jobs | London | London, WC1N 3JH | £31554.00 to £33270.00 | Supply Chain Officer
-source_job_id: 5697463
-title: Supply Chain Officer
-employer: Great Ormond Street Hospital for Children NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0452
-factual_fingerprint: 96eee04eeb344a1ac9b791ef9ddbc5bf47fc57254999da08bce0192456052854
 ---
 
 ---

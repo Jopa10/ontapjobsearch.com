@@ -1,12 +1,12 @@
 ﻿metric,value
-total rows input,16440
-total rows included,20
-total rows dropped,16416
-title classification count - HIGH_CONFIDENCE,66
-title classification count - ELASTIC_FIT,22
+total rows input,5240
+total rows included,17
+total rows dropped,5219
+title classification count - HIGH_CONFIDENCE,58
+title classification count - ELASTIC_FIT,19
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,6009
-title classification count - OUT_OF_SCOPE,10343
+title classification count - HARD_PASS,1946
+title classification count - OUT_OF_SCOPE,3217
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,0
@@ -32,13 +32,13 @@ other elastic count - North East,1
 total rows output - North East,1
 job_id included - North East,107965714
 selection scenario - Sussex,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Sussex,Sussex selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Sussex,1
-high confidence count - Sussex,1
+selection message - Sussex,Sussex selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Sussex,0
+high confidence count - Sussex,0
 anchor elastic count - Sussex,0
 other elastic count - Sussex,0
-total rows output - Sussex,1
-job_id included - Sussex,108179728
+total rows output - Sussex,0
+job_id included - Sussex,
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Cumbria - South,Cumbria - South selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Cumbria - South,1
@@ -72,13 +72,13 @@ other elastic count - Dorset,0
 total rows output - Dorset,0
 job_id included - Dorset,
 selection scenario - Essex,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Essex,Essex selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Essex,2
-high confidence count - Essex,2
+selection message - Essex,Essex selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Essex,1
+high confidence count - Essex,1
 anchor elastic count - Essex,0
 other elastic count - Essex,0
-total rows output - Essex,2
-job_id included - Essex,108246609; 2213577
+total rows output - Essex,1
+job_id included - Essex,2213577
 selection scenario - Greater Manchester - Manchester & Salford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Greater Manchester - Manchester & Salford,Greater Manchester - Manchester & Salford selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Greater Manchester - Manchester & Salford,1
@@ -96,13 +96,13 @@ other elastic count - Kent,0
 total rows output - Kent,0
 job_id included - Kent,
 selection scenario - London,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - London,London selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - London,3
-high confidence count - London,2
+selection message - London,London selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - London,2
+high confidence count - London,1
 anchor elastic count - London,0
 other elastic count - London,1
-total rows output - London,3
-job_id included - London,2124767; 2145640; 2213570
+total rows output - London,2
+job_id included - London,2145640; 2213570
 selection scenario - Nottinghamshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Nottinghamshire,Nottinghamshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Nottinghamshire,0
