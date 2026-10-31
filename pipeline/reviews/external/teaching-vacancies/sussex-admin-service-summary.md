@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-30
-review_fingerprint: e921e6c20cae38922b732bba63a9b437026371ceb8f173874c5c267abb31868e
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: 358cea2427bbcc4d8616615cd9d854f94f45f507b287704b561953efe5acd714
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 1
-- POSS awaiting decision: 2
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
@@ -36,6 +36,21 @@ source_job_id: receptionist-and-administrative-assistant-heron-park-primary-acad
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-heron-park-primary-academy
 ---
 
+---
+action: 
+SELECTED | Sussex | Lewes, South East, BN7 3AE | Up to £28,796 per annum | Registry Administrator
+employer: Plumpton College
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6605f7f2fffae750d7301c361017bab1f74e450873f741be5dd21ac5c1abedb0
+source: Teaching Vacancies
+source_job_id: registry-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/registry-administrator
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -51,21 +66,6 @@ factual_fingerprint: 214d78cb3e2069424c697a57ac61e9b654b91a3c18b3b498d35ba67ebb3
 source: Teaching Vacancies
 source_job_id: eag-advisor
 source_url: https://teaching-vacancies.service.gov.uk/jobs/eag-advisor
----
-
----
-action: 
-POSS | Sussex | Worthing, South East, BN14 8AH | £26,268.00 Annually (Actual) Paid 47.6 week to include holiday and additional days | Finance Administrator
-employer: Bohunt School Worthing
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 32c26bd508f196d1cfef735e36511effdd2caa2420f3f4e2753d63aa788e8c89
-source: Teaching Vacancies
-source_job_id: finance-administrator-bohunt-school-worthing-worthing-west-sussex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-bohunt-school-worthing-worthing-west-sussex
 ---
 
 ## EXCLUDED BY REVIEW

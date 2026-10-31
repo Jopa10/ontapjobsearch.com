@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Wirral
 
-review_date: 2026-10-30
+review_date: 2026-10-31
 review_fingerprint: 8f9084d6bc090333bf361f802fe0378aa892a1afff923643b86f8605c5983b11
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Merseyside - Wirral
 slice_category: admin_service
 slice_status: LIVE

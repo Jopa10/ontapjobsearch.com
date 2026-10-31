@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-10-30
+review_date: 2026-10-31
 review_fingerprint: b8b3eb20df92de3ff092585bf9886f5b7d11ff4be8b8a95e005fb54460fefa7b
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -63,7 +63,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trips-lettings-paymen
 
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-chosen-hill-school) — Excluded senior/management title.
 - [Finance Officer - Accounting Technician](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-accounting-technician) — Out-of-scope occupation: technician.
-- [Governance Professional / Clerk to the Trust Board](https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-to-the-trust-board) — No usable numeric salary.
 
 ## Safety boundary
 

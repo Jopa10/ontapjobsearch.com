@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-30
-review_fingerprint: 02ee76314827ba2d76fe9bc0573fd5ed9b7d85215cd592c037c01e66e91b9c7d
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: fb3d387f7aa14ec788721a4b364db2dff82bf0cf39bc050fa85915449751b551
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 2
-- POSS awaiting decision: 1
+- Records: 11
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Somerset | Taunton, TA2 7EG | FTE= £26,847, Actual= £12,427 | HR Administrator
+employer: The Oak Partnership Trust
+closing_date: 2026-11-03T23:59:59+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: eba1dd84550ce000a14ec7ea962baf711fc3a45c4b4e7cb863f1f6ec4aa3feb0
+source: Teaching Vacancies
+source_job_id: hr-administrator-the-oak-partnership-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-oak-partnership-trust
+---
 
 ---
 action: 
@@ -53,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Somerset | Taunton, TA2 7EG | FTE= £26,847, Actual= £12,427 | HR Administrator
-employer: The Oak Partnership Trust
-closing_date: 2026-11-03T23:59:59+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eba1dd84550ce000a14ec7ea962baf711fc3a45c4b4e7cb863f1f6ec4aa3feb0
-source: Teaching Vacancies
-source_job_id: hr-administrator-the-oak-partnership-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-oak-partnership-trust
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -78,7 +80,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 - [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager-bridgwater-college-academy) — Excluded senior/management title.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Excluded senior/management title.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-oak-partnership-trust) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-robert-blake-academy) — Excluded senior/management title.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Excluded senior/management title.
 - [SEND Administrator and Librarian](https://teaching-vacancies.service.gov.uk/jobs/send-administrator-and-librarian) — No usable numeric salary.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-locking-primary-school) — Excluded senior/management title.

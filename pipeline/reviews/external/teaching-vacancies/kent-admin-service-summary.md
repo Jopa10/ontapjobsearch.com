@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-30
-review_fingerprint: f9f6003195219aadfc749e2efefb86ed0ca528a73541d670a990d9718eb89d8d
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: b5e6aac88f5c5a944ea9d7d3aa09477693d9db80d4f11ade9a2310e46b845291
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 2
-- POSS awaiting decision: 3
+- Records: 8
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Kent | Gillingham, South East, ME7 2JG | £26,016.00 - £29,071.00 Annually (FTE) Medway D2 4 - 11 £22,047.56 - £25,024.19 Actual Salary | Administration Assistant
+employer: Barnsole Primary School
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3cdb6b950e89ea725edd69286d6b8647005a28d0bb1e14d9f3d6c6b561d680bc
+source: Teaching Vacancies
+source_job_id: administration-assistant-barnsole-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-barnsole-primary-school
+---
 
 ---
 action: 
@@ -53,50 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-admissio
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Kent | Gillingham, South East, ME7 2JG | £26,016.00 - £29,071.00 Annually (FTE) Medway D2 4 - 11 £22,047.56 - £25,024.19 Actual Salary | Administration Assistant
-employer: Barnsole Primary School
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3cdb6b950e89ea725edd69286d6b8647005a28d0bb1e14d9f3d6c6b561d680bc
-source: Teaching Vacancies
-source_job_id: administration-assistant-barnsole-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-barnsole-primary-school
----
-
----
-action: 
-POSS | Kent | Tonbridge, South East, TN9 2HE | Actual Pro Rata Salary £23,599 | Administrative Assistant
-employer: Hillview School for Girls
-closing_date: 2026-10-30T23:59:59+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a714004cc2fe9582fb3ecb708ba2f52d2ee8d6ace98e9c81d9cddb2e6f9ce809
-source: Teaching Vacancies
-source_job_id: administrative-assistant-hillview-school-for-girls-tonbridge-kent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls-tonbridge-kent
----
-
----
-action: 
-POSS | Kent | Dartford, South East, DA1 2JT | £25,429 per annum | Centre Administrator
-employer: North Kent College
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4f3300244bc788089934692619d0aae424393d367d3a6ed2dee3251f04d61462
-source: Teaching Vacancies
-source_job_id: centre-administrator-north-kent-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/centre-administrator-north-kent-college
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -108,7 +80,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/centre-administrator-
 - [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-gregory-s-catholic-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-fisher-catholic-comprehensive-school) — Excluded senior/management title.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-royal-rise-primary-school) — Excluded senior/management title.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-wrotham-school) — No usable numeric salary.
 
 ## Safety boundary

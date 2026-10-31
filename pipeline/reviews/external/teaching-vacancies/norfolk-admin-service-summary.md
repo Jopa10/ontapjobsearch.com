@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-30
+review_date: 2026-10-31
 review_fingerprint: a1fe366d58c59493aded94313144e9613bde8dab9bb9d8f8148e7e8877db534b
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 18
 - Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 11
 
 ## SELECTED
 
@@ -136,11 +136,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-diss-infant-academy-and-nursery) — Insufficient admin/service evidence.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-admirals-academy) — No usable numeric salary.
 - [Admissions and Marketing Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-coordinator-university-technical-college-norfolk) — Insufficient admin/service evidence.
 - [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk-norwich-norfolk) — Insufficient admin/service evidence.
-- [Admissions and School Liaison Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-school-liaison-coordinator-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Attendance and Cover Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-cover-officer) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
 - [Data Manager (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/data-manager-maternity-cover-great-yarmouth-charter-academy-great-yarmouth) — Excluded senior/management title.
@@ -148,7 +146,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Student Administration & Customer Service Assistant Degree Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/student-administration-customer-service-assistant-degree-apprenticeship) — Insufficient admin/service evidence.
 - [Student Services Assistant](https://teaching-vacancies.service.gov.uk/jobs/student-services-assistant-east-norfolk-multi-academy-trust) — No usable numeric salary.
-- [Transport Assistant](https://teaching-vacancies.service.gov.uk/jobs/transport-assistant-reepham-primary-school) — Insufficient admin/service evidence.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Excluded senior/management title.
 
 ## Safety boundary

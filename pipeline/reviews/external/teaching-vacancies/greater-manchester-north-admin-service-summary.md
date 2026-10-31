@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-30
+review_date: 2026-10-31
 review_fingerprint: c4a8fa07837cbcce6da60ae56587ab09fca986cdb3d867ca14f66a58db00a0e0
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -77,6 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-oulder-h
 ## HARD_PASS
 
 - [Administration Apprentice based at Ram Mill Business Centre, Oldham](https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-based-at-ram-mill-business-centre-oldham) — No usable numeric salary.
+- [Governance and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-officer-newhouse-academy) — No usable numeric salary.
 - [Grade 2 Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/grade-2-administration-officer) — Insufficient admin/service evidence.
 - [Head of Human Resources](https://teaching-vacancies.service.gov.uk/jobs/head-of-human-resources-st-teresa-of-calcutta-catholic-academy-trust) — Excluded senior/management title.
 - [MIS Systems and Data Officer](https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-officer) — No usable numeric salary.

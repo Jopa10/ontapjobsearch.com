@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-30
-review_fingerprint: 3672f823a08593ca76c8102dba778c118aadf5ee28133219dc18c680461178f6
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: 1601e721554c96dc1e22939fb49d3a9a48821b43933d5acd39d9af8fc763640d
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 7
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Worcestershire | Evesham, West Midlands, WR11 8XD | £26,427.00 - £26,847.00 Annually (FTE) | Admin Assistant
-employer: Salford Priors CofE Academy
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 34b7ff7b1695c5b38a8c5eba8d010f65457c96b1ae5ad69d833a9c4cb967fed0
-source: Teaching Vacancies
-source_job_id: admin-assistant-salford-priors-cofe-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-salford-priors-cofe-academy
----
 
 ---
 action: 
@@ -49,21 +34,6 @@ factual_fingerprint: f4402cdb09254c1212cfde47ef316bec6ea0e7db617e516c5567d74dbf0
 source: Teaching Vacancies
 source_job_id: administrative-finance-assistant-hollymount-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-finance-assistant-hollymount-school
----
-
----
-action: 
-SELECTED | Worcestershire | Evesham, West Midlands, WR11 8XD | £27,709.00 - £29,071.00 Annually (FTE) | Operations Administrator
-employer: Salford Priors CofE Academy
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 99c1c64ca0685aafbdfb0a8c3def3ab1d17ec12ce0e55a4917d7a99dd441f4c7
-source: Teaching Vacancies
-source_job_id: operations-administrator-salford-priors-cofe-academy-evesham
-source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administrator-salford-priors-cofe-academy-evesham
 ---
 
 ## POSS — choose SELECT or EXCLUDE

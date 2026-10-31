@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-30
+review_date: 2026-10-31
 review_fingerprint: a09984c853241b34eeaf75287aad7b69cc531759baafe5238c9da1c9f444c3c6
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 16
 - Selected: 10
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -181,7 +181,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 
 ## HARD_PASS
 
-- [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school-grantham-lincolnshire) — Insufficient admin/service evidence.
 - [Data Analyst](https://teaching-vacancies.service.gov.uk/jobs/data-analyst-franklin-sixth-form-college) — Insufficient admin/service evidence.
 - [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
 - [Health, Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/health-safety-and-compliance-officer-voyage-education-partnership) — Insufficient admin/service evidence.

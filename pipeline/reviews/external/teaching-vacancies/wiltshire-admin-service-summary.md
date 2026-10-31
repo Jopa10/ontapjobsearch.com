@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-30
+review_date: 2026-10-31
 review_fingerprint: 668c29cba5aa840737ba75c723ed6fca49cdefe41014972aa04006d130ab56d2
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE

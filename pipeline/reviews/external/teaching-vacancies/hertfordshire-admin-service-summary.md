@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-30
-review_fingerprint: 28a8147b89e7d5841fee2e837d64448232412f12c9027b139930368d79316206
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: a925b157b0971f551689062107ce952e06a87cac2bab50d894cfaa26e988bfb5
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 5
 
 ## SELECTED
 
@@ -66,21 +66,6 @@ source_job_id: office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
 ---
 
----
-action: 
-SELECTED | Hertfordshire | Hatfield, East of England, AL9 7BN | £26,847.00 - £28,153.00 Annually (FTE) Actual Salary including fringe allowance £23,608.70 per annum | SEND Administrator
-employer: Chancellor's School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3dc612c9bddcd85a560e94e29ff8a0c3c8094cc8adfce3a30a9e1d76f3ee2017
-source: Teaching Vacancies
-source_job_id: send-administrator-chancellor-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-chancellor-s-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -91,10 +76,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ch
 
 ## HARD_PASS
 
-- [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-69793fea-1d51-405a-a79e-55b4c58afc9c) — No usable numeric salary.
 - [ATTENDANCE & SAFEGUARDING OFFICER](https://teaching-vacancies.service.gov.uk/jobs/attendance-safeguarding-officer-king-james-academy-royston) — Insufficient admin/service evidence.
 - [Deputy Office Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-office-manager-robert-barclay-academy-hoddesdon-hertfordshire) — Excluded senior/management title.
-- [Federation School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/federation-school-business-manager-hurst-drive-primary-school) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Excluded senior/management title.
 - [Receptionist/Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school) — No usable numeric salary.
 - [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-95102662-222e-4ff2-a528-9767fe48abd5) — Out-of-scope occupation: teaching assistant.

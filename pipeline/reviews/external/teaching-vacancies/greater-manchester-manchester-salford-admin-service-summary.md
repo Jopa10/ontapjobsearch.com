@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-30
-review_fingerprint: 3a7603302438ac8507573b26eb529695f808fdc430fbc117a839004202d6142e
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: fa92949294d6608bf58402acbc3a7eaa4dac527e465486b959bf2c2892e96b27
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 5
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: ebf7b622e05ae9c1e40ae709ca0ed0c536ee67af80567a60cee8e1e3d6b
 source: Teaching Vacancies
 source_job_id: administrative-assistant-the-deans-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-deans-primary-school
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M21 7SL | The pro-rata salary is £30,958 and the full-time equivalent is £34,237 - Grade 6 | Exams Officer
-employer: Chorlton High School
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 904ec2abd8e6eaa4072f105db10cd14cd0d775e55dce020e4e606bcd6db1e810
-source: Teaching Vacancies
-source_job_id: exams-officer-chorlton-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-chorlton-high-school
 ---
 
 ---
@@ -134,6 +119,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 
 ## HARD_PASS
 
+- [Caretaker](https://teaching-vacancies.service.gov.uk/jobs/caretaker-william-hulme-s-grammar-school) — Out-of-scope occupation: caretaker.
 - [First Aid, Medical and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/first-aid-medical-and-administration-assistant) — Insufficient admin/service evidence.
 - [HR Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-manager-levenshulme-high-school) — Excluded senior/management title.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Excluded senior/management title.

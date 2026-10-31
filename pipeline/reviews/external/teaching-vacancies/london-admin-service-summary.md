@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-30
-review_fingerprint: 8dba1004c948d77a562ede806b50a8deaec7fa802b3e4d19e857c1d120736753
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: 306374ee2cff9f038c5e648aa817d938c03b64020bb727beac8614856138147f
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 81
-- Selected: 13
-- POSS awaiting decision: 20
+- Records: 77
+- Selected: 24
+- POSS awaiting decision: 8
 - Excluded: 0
-- Hard pass: 48
+- Hard pass: 45
 
 ## SELECTED
+
+---
+action: 
+SELECTED | London | Dagenham, London, RM9 4UN | £28,709.00 - £30,364.00 Annually (Actual) full time equivalent £31,290- £32,655 | Admin Assistant
+employer: Jo Richardson Community School
+closing_date: 2026-11-11T08:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 18a1d99ee9771fb123b5ee4875489962f8bea0d33eabde8da7650cc1af85dd03
+source: Teaching Vacancies
+source_job_id: admin-assistant-3fdfc1e3-6219-478b-b4d8-4889ed95e085
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-3fdfc1e3-6219-478b-b4d8-4889ed95e085
+---
+
+---
+action: 
+SELECTED | London | Croydon, London, CR2 6HS | £30,408 | Administrative Assistant
+employer: Harris Primary Academy Haling Park
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 62b09da4070660a26530d1fcf96c838647fb50ed7f19d0af6bab68a3510731fa
+source: Teaching Vacancies
+source_job_id: administrative-assistant-harris-primary-academy-haling-park
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-harris-primary-academy-haling-park
+---
 
 ---
 action: 
@@ -64,6 +94,36 @@ factual_fingerprint: 7c2f89b27d670140c1fef38dea56b1283b62da6a0d36f567189387a945b
 source: Teaching Vacancies
 source_job_id: attendance-officer-orion-eden-park
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-orion-eden-park
+---
+
+---
+action: 
+SELECTED | London | London, London, E14 0AF | £33,700-£35,500 per annum | CTEC Administrator
+employer: New City College
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 13a56cbe0e517a1a17f992f83cc7ff8541c27a95f83df947b2f0405b075878ae
+source: Teaching Vacancies
+source_job_id: ctec-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ctec-administrator
+---
+
+---
+action: 
+SELECTED | London | Romford, London, RM3 8HN | £29,895.10 - £32,173.39 Annually (Actual) NJC Points 14v -19, 36 hours per week, 39 weeks per year (term time only plus inset) | EHCP Administrator
+employer: Lime Academy Ravensbourne
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 31bd4ca73f29f52a5632b72ae002e9cefaf5af77737c350ae9348e269d27a02c
+source: Teaching Vacancies
+source_job_id: ehcp-administrator-lime-academy-ravensbourne-romford-essex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-lime-academy-ravensbourne-romford-essex
 ---
 
 ---
@@ -128,6 +188,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
+SELECTED | London | London, London, E17 5SD | £26,016.00 to £26,427.00 per annum (pro rata £22,951.04 to £23,313.62 per annum) plus London Weighting £2,376.00 per annum (pro rata £2,096.08) | Receptionist
+employer: Eden Girls' School, Waltham Forest
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5079932ab4317857423cdbd51c1535359e58016cf85c928c272be90b985a959e
+source: Teaching Vacancies
+source_job_id: receptionist-eden-girls-school-waltham-forest
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-eden-girls-school-waltham-forest
+---
+
+---
+action: 
+SELECTED | London | Bexleyheath, London, DA6 7DA | £26039 - £26412 per annum | Receptionist
+employer: Lift Bexleyheath
+closing_date: 2026-11-09T13:15:04+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1f1eea54e1a0feb13c17bbf6e86f2f2e18656d0899f8a94c5fb86bcbe6881351
+source: Teaching Vacancies
+source_job_id: receptionist-lift-bexleyheath-bexleyheath-kent
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-bexleyheath-bexleyheath-kent
+---
+
+---
+action: 
 SELECTED | London | Hayes, London, UB3 1JA | £23,878.00 - £24,220.00 Annually (Actual) | Receptionist & Administration Assistant
 employer: Lake Farm Park Academy
 closing_date: 2026-12-31T12:00:00+00:00
@@ -139,6 +229,21 @@ factual_fingerprint: 46c32748029bc430ecfee6330a82d9a04d3754370e2e706c4ef45654c8c
 source: Teaching Vacancies
 source_job_id: receptionist-administration-assistant-lake-farm-park-academy-hayes-middlesex
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-lake-farm-park-academy-hayes-middlesex
+---
+
+---
+action: 
+SELECTED | London | Chislehurst, London, BR7 6HE | £29,561 | Receptionist & Administrator
+employer: Chislehurst School for Girls
+closing_date: 2026-11-03T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 49a5d46df28cf44469b8e47c98f176231a9555e557a10797dc482480121956c3
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-chislehurst-school-for-girls
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-chislehurst-school-for-girls
 ---
 
 ---
@@ -173,6 +278,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
+SELECTED | London | London, London, E14 0AF | £33,700-£35,500 dependent upon experience | Recruitment and HR Administrator
+employer: New City College
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1c2e8aba4a8354a26afa93d4171b4e11ddf4a5684deced8dd93ed82edbc7b2cd
+source: Teaching Vacancies
+source_job_id: recruitment-and-hr-administrator-new-city-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-hr-administrator-new-city-college
+---
+
+---
+action: 
 SELECTED | London | Uxbridge, London, UB10 8AB | £10,772.00 - £10,926.00 Annually (Actual) | School Administrator (Reception, School Office, WRL, HR)
 employer: Vyners School
 closing_date: 2026-11-09T09:00:00+00:00
@@ -203,6 +323,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 
 ---
 action: 
+SELECTED | London | Isleworth, London, TW7 5DB | £33,129.00 - £35,109.00 Annually (FTE) NJC Scale 5 £33,129 to £35,109 (pro rata) Pro rata salary based on working 36 hours a week for 5 days a week, 39 weeks per annum (N.B. this is ‘term time’ i.e. 195 days) | SEND Administrator
+employer: Bolder Academy
+closing_date: 2026-11-09T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 93a9b0192e34b865d2a51c0c30b256ec0bd24f09732468603525b84aef843a8e
+source: Teaching Vacancies
+source_job_id: send-administrator-bolder-academy-isleworth
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bolder-academy-isleworth
+---
+
+---
+action: 
+SELECTED | London | Dagenham, London, RM10 7UR | £28,909.00 - £30,200.00 Annually (Actual) Salary Scale: Scale 5 (Pt12-15, £33,609 - £35,109) Prorated salary range is likely to be approx. £28,909 - £30,200 (also dependant on experience, weeks per year and continuous service) Based on working 35 hours per week, Term time only. (Subject to job evaluation) | SEND Administrator
+employer: Eastbrook School
+closing_date: 2026-11-02T08:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 38cf8cb831a469601a8d1e48cc7c73d53a397f6fa461341aec9d033423efab28
+source: Teaching Vacancies
+source_job_id: send-administrator-eastbrook-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-eastbrook-school
+---
+
+---
+action: 
 SELECTED | London | Woodford Green, London, IG8 7DQ | £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£31290 - £32,655 full time equivalent) | Sixth Form Administrative Assistant & Independent Study Supervisor
 employer: Woodbridge High School
 closing_date: 2026-11-09T09:00:00+00:00
@@ -216,22 +366,22 @@ source_job_id: sixth-form-administrative-assistant-independent-study-supervisor
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrative-assistant-independent-study-supervisor
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | London | Dagenham, London, RM9 4UN | £28,709.00 - £30,364.00 Annually (Actual) full time equivalent £31,290- £32,655 | Admin Assistant
-employer: Jo Richardson Community School
-closing_date: 2026-11-11T08:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+SELECTED | London | London, London, W2 5EZ | WA Scale 5, Spine Point Range 12 - 17, £26,631 - £29,184 FTE (£23,780 - £26,081 pro rata) | Sixth Form Administrator
+employer: Westminster Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 18a1d99ee9771fb123b5ee4875489962f8bea0d33eabde8da7650cc1af85dd03
+factual_fingerprint: 3e433f7be182cd37979946e256fecd4d6a5a477ab66464e06126ea3eb64577d2
 source: Teaching Vacancies
-source_job_id: admin-assistant-3fdfc1e3-6219-478b-b4d8-4889ed95e085
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-3fdfc1e3-6219-478b-b4d8-4889ed95e085
+source_job_id: sixth-form-administrator-westminster-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-westminster-academy
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
@@ -265,36 +415,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ---
 action: 
-POSS | London | Croydon, London, CR2 6HS | £30,408 | Administrative Assistant
-employer: Harris Primary Academy Haling Park
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 62b09da4070660a26530d1fcf96c838647fb50ed7f19d0af6bab68a3510731fa
-source: Teaching Vacancies
-source_job_id: administrative-assistant-harris-primary-academy-haling-park
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-harris-primary-academy-haling-park
----
-
----
-action: 
-POSS | London | Feltham, London, TW13 4QP | Scale 3 (£23,507.84 - £23.844.13) | Administrative Assistant
-employer: Oak Hill Academy West London
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1340bb2c34cbf94d3325b1562f1efa4f96c984c50584c87bd52f8f43159d95a9
-source: Teaching Vacancies
-source_job_id: administrative-assistant-oak-hill-academy-west-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-oak-hill-academy-west-london
----
-
----
-action: 
 POSS | London | Barking, London, IG11 0FU | £27,803.00 Annually (Actual) 5.12 Support Scale Already Pro-Rata | Attendance Officer
 employer: Riverside Bridge School
 closing_date: 2026-11-03T23:59:00+00:00
@@ -306,36 +426,6 @@ factual_fingerprint: ab0b8336633321778a8685ae80808082ec05bc1983ddd6152172670eb1c
 source: Teaching Vacancies
 source_job_id: attendance-officer-riverside-bridge-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-riverside-bridge-school
----
-
----
-action: 
-POSS | London | London, London, E14 0AF | £33,700-£35,500 per annum | CTEC Administrator
-employer: New City College
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 13a56cbe0e517a1a17f992f83cc7ff8541c27a95f83df947b2f0405b075878ae
-source: Teaching Vacancies
-source_job_id: ctec-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/ctec-administrator
----
-
----
-action: 
-POSS | London | Romford, London, RM3 8HN | £29,895.10 - £32,173.39 Annually (Actual) NJC Points 14v -19, 36 hours per week, 39 weeks per year (term time only plus inset) | EHCP Administrator
-employer: Lime Academy Ravensbourne
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 31bd4ca73f29f52a5632b72ae002e9cefaf5af77737c350ae9348e269d27a02c
-source: Teaching Vacancies
-source_job_id: ehcp-administrator-lime-academy-ravensbourne-romford-essex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-lime-academy-ravensbourne-romford-essex
 ---
 
 ---
@@ -385,111 +475,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-POSS | London | London, London, E17 5SD | £26,016.00 to £26,427.00 per annum (pro rata £22,951.04 to £23,313.62 per annum) plus London Weighting £2,376.00 per annum (pro rata £2,096.08) | Receptionist
-employer: Eden Girls' School, Waltham Forest
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5079932ab4317857423cdbd51c1535359e58016cf85c928c272be90b985a959e
-source: Teaching Vacancies
-source_job_id: receptionist-eden-girls-school-waltham-forest
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-eden-girls-school-waltham-forest
----
-
----
-action: 
-POSS | London | Bexleyheath, London, DA6 7DA | £26039 - £26412 per annum | Receptionist
-employer: Lift Bexleyheath
-closing_date: 2026-11-09T13:15:04+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1f1eea54e1a0feb13c17bbf6e86f2f2e18656d0899f8a94c5fb86bcbe6881351
-source: Teaching Vacancies
-source_job_id: receptionist-lift-bexleyheath-bexleyheath-kent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-bexleyheath-bexleyheath-kent
----
-
----
-action: 
-POSS | London | Chislehurst, London, BR7 6HE | £29,561 | Receptionist & Administrator
-employer: Chislehurst School for Girls
-closing_date: 2026-11-03T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 49a5d46df28cf44469b8e47c98f176231a9555e557a10797dc482480121956c3
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-chislehurst-school-for-girls
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-chislehurst-school-for-girls
----
-
----
-action: 
-POSS | London | London, London, E14 0AF | £33,700-£35,500 dependent upon experience | Recruitment and HR Administrator
-employer: New City College
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1c2e8aba4a8354a26afa93d4171b4e11ddf4a5684deced8dd93ed82edbc7b2cd
-source: Teaching Vacancies
-source_job_id: recruitment-and-hr-administrator-new-city-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-hr-administrator-new-city-college
----
-
----
-action: 
-POSS | London | Isleworth, London, TW7 5DB | £33,129.00 - £35,109.00 Annually (FTE) NJC Scale 5 £33,129 to £35,109 (pro rata) Pro rata salary based on working 36 hours a week for 5 days a week, 39 weeks per annum (N.B. this is ‘term time’ i.e. 195 days) | SEND Administrator
-employer: Bolder Academy
-closing_date: 2026-11-09T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 93a9b0192e34b865d2a51c0c30b256ec0bd24f09732468603525b84aef843a8e
-source: Teaching Vacancies
-source_job_id: send-administrator-bolder-academy-isleworth
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bolder-academy-isleworth
----
-
----
-action: 
-POSS | London | Dagenham, London, RM10 7UR | £28,909.00 - £30,200.00 Annually (Actual) Salary Scale: Scale 5 (Pt12-15, £33,609 - £35,109) Prorated salary range is likely to be approx. £28,909 - £30,200 (also dependant on experience, weeks per year and continuous service) Based on working 35 hours per week, Term time only. (Subject to job evaluation) | SEND Administrator
-employer: Eastbrook School
-closing_date: 2026-11-02T08:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 38cf8cb831a469601a8d1e48cc7c73d53a397f6fa461341aec9d033423efab28
-source: Teaching Vacancies
-source_job_id: send-administrator-eastbrook-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-eastbrook-school
----
-
----
-action: 
-POSS | London | London, London, W2 5EZ | WA Scale 5, Spine Point Range 12 - 17, £26,631 - £29,184 FTE (£23,780 - £26,081 pro rata) | Sixth Form Administrator
-employer: Westminster Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3e433f7be182cd37979946e256fecd4d6a5a477ab66464e06126ea3eb64577d2
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-westminster-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-westminster-academy
----
-
----
-action: 
 POSS | London | Woodford Green, London, IG8 7DQ | £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£30,288 - £31,611 full time equivalent) | Sixth Form Independent Study Supervisor
 employer: Woodbridge High School
 closing_date: 2026-11-09T09:00:00+00:00
@@ -525,10 +510,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 ## HARD_PASS
 
 - [Administrative Assistant with Finance Experience](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-finance-experience-john-ball-primary-school) — No usable numeric salary.
-- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-sarah-bonnell-school) — No usable numeric salary.
-- [Apprentice Administrator](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-the-john-roan-school) — No usable numeric salary.
 - [Assistant Librarian](https://teaching-vacancies.service.gov.uk/jobs/assistant-librarian-davenant-foundation-school) — No usable numeric salary.
-- [Attendance and Admissions Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-sarah-bonnell-school) — No usable numeric salary.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-harris-lowe-academy-willesden) — Excluded senior/management title.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-the-totteridge-academy) — Excluded senior/management title.
 - [Business Analyst](https://teaching-vacancies.service.gov.uk/jobs/business-analyst-new-city-college) — Salary over £50k.
@@ -541,7 +523,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-goresbrook-school) — Excluded senior/management title.
 - [Deputy Exam Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-exam-officer) — No usable numeric salary.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Excluded senior/management title.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
+- [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college-london) — Excluded senior/management title.
 - [Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/governance-manager-epping-forest-schools-partnership-trust) — Excluded senior/management title.
 - [Head of Year](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-city-of-london-academy-highbury-grove) — Excluded senior/management title.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-dbe8438f-4742-4952-b196-d00e6c812af2) — Out-of-scope occupation: teacher, headteacher.

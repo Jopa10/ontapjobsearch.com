@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-30
-review_fingerprint: d64a86ec6f2c66487366c902baedcff86ba6ae1d80d115c3a9288c610844d08c
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: c2507ceaf10561be769ae0235fae53667250d6593a4fcdaab632e8f1293347f1
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 3
-- POSS awaiting decision: 2
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
 
@@ -66,6 +66,21 @@ source_job_id: part-time-receptionist-administrator-ark-ayrton-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-administrator-ark-ayrton-primary-academy
 ---
 
+---
+action: 
+SELECTED | Hampshire | Portsmouth, South East, PO1 1RX | £26,033-£29,170 | SEN Administrator
+employer: St Edmund's Catholic School
+closing_date: 2026-11-02T15:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6243a6aabf6db67ddbf8988459fe85eb0177f5165ca2ae6240276a4e8665b4c4
+source: Teaching Vacancies
+source_job_id: sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -73,29 +88,14 @@ action:
 POSS | Hampshire | Portsmouth, South East, PO1 1FG | £22,814.00 - £24,728.00 Annually (Actual) | Administrative Officer
 employer: Arundel Court Primary Academy and Nursery
 closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: f1288050d008cfa0c1bac949fbfa80f3200bff82347a1e289da70e2d63996625
 source: Teaching Vacancies
 source_job_id: administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
----
-
----
-action: 
-POSS | Hampshire | Portsmouth, South East, PO1 1RX | £26,033-£29,170 | SEN Administrator
-employer: St Edmund's Catholic School
-closing_date: 2026-11-02T15:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6243a6aabf6db67ddbf8988459fe85eb0177f5165ca2ae6240276a4e8665b4c4
-source: Teaching Vacancies
-source_job_id: sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
 ---
 
 ## EXCLUDED BY REVIEW

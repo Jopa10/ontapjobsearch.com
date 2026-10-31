@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-30
-review_fingerprint: 9dd6c25683e90f48734fe49ba54b427c653b4819b90a001c84f869966cf946c6
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: 2ba8e190b3a76a993c671b02949aea266e1f0c71e1e54a24148448c7b22f17e7
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 8
+- Records: 20
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 11
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 3PT | Grade 4 (£26403 - £28598 pro rata) | Admin & Clerical Officer Level 2 Rowan School
-employer: The Rowan School
-closing_date: 2026-10-31T12:00:00+00:00
-reason: Clear admin/service title: admin clerical officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 956dfe297433d55e402f7a0686a00c275a1393470d518b5732670935f1654221
-source: Teaching Vacancies
-source_job_id: admin-clerical-officer-level-2-rowan-school-the-rowan-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school-the-rowan-school
----
 
 ---
 action: 

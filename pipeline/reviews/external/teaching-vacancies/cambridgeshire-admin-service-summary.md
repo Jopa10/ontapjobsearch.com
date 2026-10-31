@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-30
-review_fingerprint: fd70542b6b6fc7d8caecf94fb62a655a4dd2f2e4cae92c379f33dd45d3eda9b4
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: ac9c9da4fd75256386304e46ed6647572aec162210db78780f15196304ad00b4
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
+- Records: 24
 - Selected: 14
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 10
 
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrato
 
 ---
 action: 
-SELECTED | Cambridgeshire | St Neots, East of England, PE19 1TF | £24,404.00 Annually (FTE) | Finance / Admin Assistant
-employer: Priory Junior School
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a7d35a6df112fcb3397a9d4a9d0d705eafc25504853d7f61cf1b8e5230453caf
-source: Teaching Vacancies
-source_job_id: finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
----
-
----
-action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB2 0SZ | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 employer: Cambridge Academy for Science and Technology
 closing_date: 2026-11-02T09:00:00+00:00
@@ -188,6 +173,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trump
 
 ---
 action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB4 2QT | £25,823-£27,152 per annum | HR Administrator
+employer: Cambridge Regional College
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 11933a3386d7de7e0fa291996da15ed1e00cf204c3e49099f83ef2a90135e5ea
+source: Teaching Vacancies
+source_job_id: hr-administrator-cambridge-regional-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-cambridge-regional-college
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB23 7DU | £25,185.00 - £25,583.00 Annually (FTE) NJC Scale 2, Points 5 to 6. Actual salary £21,600.98 per annum (based on 37 hrs per week) on point 12 (pay award pending). | Receptionist
 employer: Comberton Village College
 closing_date: 2026-11-02T09:00:00+00:00
@@ -233,20 +233,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Cambridgeshire | Cambridge, East of England, CB4 2QT | £25,823-£27,152 per annum | HR Administrator
-employer: Cambridge Regional College
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 11933a3386d7de7e0fa291996da15ed1e00cf204c3e49099f83ef2a90135e5ea
-source: Teaching Vacancies
-source_job_id: hr-administrator-cambridge-regional-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-cambridge-regional-college
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

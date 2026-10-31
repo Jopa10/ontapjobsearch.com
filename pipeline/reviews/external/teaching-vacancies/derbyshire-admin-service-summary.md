@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-30
+review_date: 2026-10-31
 review_fingerprint: 473ec9bfd343d1663068f95f383715bb1a70884c1279985906aede8593e4ea16
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 13
 - Selected: 1
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 9
 
 ## SELECTED
 
@@ -98,8 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assis
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Excluded senior/management title.
 - [Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-administration-assistant-1b11a0b9-fc3b-402e-84f1-2c7c938587f8) — No usable numeric salary.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-alban-s-catholic-voluntary-academy-derby-derbyshire) — Excluded senior/management title.
-- [Peripatetic Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-administration-officer) — Insufficient admin/service evidence.
-- [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-alvaston-junior-academy-derby-derbyshire) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

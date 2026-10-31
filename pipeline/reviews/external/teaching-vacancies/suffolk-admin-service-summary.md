@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-30
-review_fingerprint: 0c7e2ad17ef6052a771b6415a3cecfa08a83bf9d99f3e839309c88cdca112e8d
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: 68bfb6fa9e3bcfb30bb1f1835f519cdb2b69a8c25d91465363cde7c46089d7b5
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -58,8 +58,8 @@ action:
 POSS | Suffolk | Beccles, East of England, NR34 7BQ | £19,350- £22,735 actual pa | Finance Officer
 employer: Beccles High School
 closing_date: 2026-12-20T00:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Part-time finance requires actual earnings/hours and qualification checks
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: df0a1bf2719198612e34494b397c10a8080c3cab964f56de4ae8702adb4e0feb

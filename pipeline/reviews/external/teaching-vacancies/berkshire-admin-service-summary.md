@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-30
-review_fingerprint: e134250497dd922fe6eaa696b9c1ddd4f99c2a0da8af475ad749d3ef576163f9
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: d32fe07962f64e64d3aec391c33cb977289553d18288adbce6f186eb40daf886
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 7
+- Records: 18
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 12
 
 ## SELECTED
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG1 8EQ | £27,274.00 Annually (FTE) Grade 4 Scale Point 7-11 £15,762.53-£16,801.08 -FTE £27,274.00 - TTO plus 5 INSET days - 25 hours per week - 07:00-12:00 - 5 days per week | Cover & General Administrator
-employer: River Academy
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2320e57fc8f6347aae421a7528519a4bb19e105e43f20f4e70a95a83acd7de21
-source: Teaching Vacancies
-source_job_id: cover-general-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-general-administrator
----
 
 ---
 action: 
@@ -49,36 +34,6 @@ factual_fingerprint: 2e25229cc061eb402cadc47a095e5e259658b06cf5dbb5865fbf4c36892
 source: Teaching Vacancies
 source_job_id: medical-office-assistant-furze-platt-senior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/medical-office-assistant-furze-platt-senior-school
----
-
----
-action: 
-SELECTED | Berkshire | Thatcham, South East, RG19 4LL | £19,417.00 - £20,034.00 Annually (Actual) | School Administrator (Cover)
-employer: Kennet School
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2126c2b596cbbeadccc53503bc4947665426f9a15e3132b7d9422ed67f7bb17c
-source: Teaching Vacancies
-source_job_id: school-administrator-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-cover
----
-
----
-action: 
-SELECTED | Berkshire | Thatcham, South East, RG19 4LL | £22,105.00 - £22,808.00 Annually (Actual) | School Administrator (Pupil Reception)
-employer: Kennet School
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7aeb1a6abe1c12d9aca7d32b4dfdc76d03ef22ba9cb2d74aa116d2fb337d9cb3
-source: Teaching Vacancies
-source_job_id: school-administrator-pupil-reception
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-pupil-reception
 ---
 
 ---
@@ -164,7 +119,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 
 ## HARD_PASS
 
-- [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-7471be4d-6ccd-4ad2-a01e-6d444552a95a) — No usable numeric salary.
 - [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
 - [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Excluded senior/management title.
 - [Exams Manager (part time)](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-part-time) — Excluded senior/management title.

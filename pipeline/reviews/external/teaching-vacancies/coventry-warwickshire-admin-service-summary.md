@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-30
-review_fingerprint: 9b26c333b62ce90c7bc80992638578021ad2d802309079598cf0703e9577e069
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: 86924d35c22328dc974f4172eb86fad7a86619b13679f080592afde311c901cf
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 78558bc5de531c13d5f7f8e665dc5de4d46d96652ff9c6a7eb711cc9248
 source: Teaching Vacancies
 source_job_id: echp-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/echp-administrator
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV1 4BU | Grade 5, £29,837 - £35,940 per annum (£27,219 - £35,940 per annum pro-rata) | EXAMS OFFICER, BARR’S HILL SCHOOL
-employer: Barr's Hill School
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8eb160cb6d5b266d2fdfd2e11ae427754091c83bd3f3ef6e82d05e0f3a79e044
-source: Teaching Vacancies
-source_job_id: exams-officer-barr-s-hill-school-barr-s-hill-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-barr-s-hill-school-barr-s-hill-school
 ---
 
 ---
@@ -123,7 +108,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-transforming-lives-educational-trust) — No usable numeric salary.
 - [APPRENTICE ADMINISTRATOR/RECEPTIONIST – PARKGATE PRIMARY SCHOOL](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-receptionist-parkgate-primary-school) — No usable numeric salary.
-- [Attendance Improvement Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-improvement-manager-nicholas-chamberlaine-school) — Excluded senior/management title.
 - [Examinations, Data & Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-data-access-arrangements-coordinator) — Insufficient admin/service evidence.
 - [Marketing Manager](https://teaching-vacancies.service.gov.uk/jobs/marketing-manager-stratford-upon-avon-school) — Excluded senior/management title.
 - [Office Manager and Personal Assistant (PA) to the Principal](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-pa-to-the-principal) — Excluded senior/management title.

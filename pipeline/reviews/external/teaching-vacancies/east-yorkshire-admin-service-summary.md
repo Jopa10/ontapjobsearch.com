@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-10-30
-review_fingerprint: a53b785a004baba2b21e8e3ca709e701ae9c3a125e6349561187d36b2bb67a8f
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: bdc0c85391338751352afdab6f15301a2b94274cfec8b4ae66bbad04a573c8aa
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
@@ -83,20 +83,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-1aa
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Yorkshire - East | Hull, Yorkshire and the Humber, HU4 7EB | £26,016 - £27,274 FTE, £17,694 - £18,550 Actual | Administration Assistant
-employer: Christopher Pickering Primary School
-closing_date: 2026-10-31T08:00:59+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2e14a520533938895a84d445937e02ad9712686f67b5939cb476b429b446ba46
-source: Teaching Vacancies
-source_job_id: administration-assistant-christopher-pickering-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-christopher-pickering-primary-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

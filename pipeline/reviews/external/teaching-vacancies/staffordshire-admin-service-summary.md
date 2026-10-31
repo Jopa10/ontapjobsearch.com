@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-10-30
-review_fingerprint: c071f971881620a82a44cb2ecab746934aa32b17ea86d81bbcf7827a4f5166a1
-routing_manifest_sha256: c2cb56fbb83086cfdac700cbbff8a6e8b6c20d8a7d10c159fe07541cfbcf0a37
+review_date: 2026-10-31
+review_fingerprint: 13e6432b2fc275becb646096cc4c9ddd74ee31cf417ced4ad1a52e5d3079b7f5
+routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 3
-- POSS awaiting decision: 1
+- Selected: 4
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 11
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Staffordshire | Cannock, West Midlands, WS11 4AW | £26,426, Term time plus inset (actual salary paid pro rata). | Administrative Assistant
+employer: Cardinal Griffin Catholic College
+closing_date: 2026-11-06T08:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d352a65b54b7b178cf13189da9c7e6aa28d971e05c5f21c2c7ed25a212fa8660
+source: Teaching Vacancies
+source_job_id: administrative-assistant-cardinal-griffin-catholic-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cardinal-griffin-catholic-college
+---
 
 ---
 action: 
@@ -68,20 +83,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Staffordshire | Cannock, West Midlands, WS11 4AW | £26,426, Term time plus inset (actual salary paid pro rata). | Administrative Assistant
-employer: Cardinal Griffin Catholic College
-closing_date: 2026-11-06T08:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d352a65b54b7b178cf13189da9c7e6aa28d971e05c5f21c2c7ed25a212fa8660
-source: Teaching Vacancies
-source_job_id: administrative-assistant-cardinal-griffin-catholic-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cardinal-griffin-catholic-college
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
