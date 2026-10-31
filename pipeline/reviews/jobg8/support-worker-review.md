@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-30
+feed_date: 2026-10-31
 
 Edit only the `action:` line in each block:
 
@@ -49,12 +49,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Sussex | Bexhill-on-sea | £13999 per year | Night Care Assistant
-job_id: 108232730
----
-
----
-action:
 SELECTED | Sussex | Pulborough | £12.71 - £14.45 per hour (Salary starts at £12.71 and increases t) | Female Waking Night Support Worker Pulborough
 job_id: 108179728
 ---
@@ -76,12 +70,6 @@ job_id: 108215280
 _No jobs in this group._
 
 ## HAMPSHIRE — SELECTED
-
----
-action:
-SELECTED | Hampshire | Fordingbridge | £17 per hour | Mental Healthcare Assistant
-job_id: 108072729
----
 
 ---
 action:
@@ -183,11 +171,7 @@ _No jobs in this group._
 
 ## DORSET — POSSIBLES
 
----
-action:
-POSS - DORSET | Dorset | Dorchester | £36768 per year | Residential Support Worker
-job_id: 108087516
----
+_No jobs in this group._
 
 ## ESSEX — SELECTED
 
@@ -195,6 +179,12 @@ job_id: 108087516
 action:
 SELECTED | Essex | Wickford | £18942.56 per year | Support Worker
 job_id: 108246609
+---
+
+---
+action:
+SELECTED | Essex | Colchester | £26,228 per annum | Care Support Worker
+job_id: 2213577
 ---
 
 ## ESSEX — POSSIBLES
@@ -231,20 +221,14 @@ job_id: 2124767
 
 ---
 action:
-SELECTED | London | London | £31,748.77 per annum | Specialist Support Worker
-job_id: 2125984
----
-
----
-action:
 SELECTED | London | Wallington | £14.80 per hour | Support Worker
 job_id: 2145640
 ---
 
 ---
 action:
-SELECTED | London | London | £13 per hour | Residential Support Worker
-job_id: 108092270
+SELECTED | London | Kingston Upon Thames | £30,800.00 per annum | Waking Night Support Worker
+job_id: 2213570
 ---
 
 ## LONDON — POSSIBLES
@@ -253,11 +237,7 @@ _No jobs in this group._
 
 ## NOTTINGHAMSHIRE — SELECTED
 
----
-action:
-SELECTED | Nottinghamshire | Worksop | £15 per hour | Childrens Residential Support Worker
-job_id: 107918862
----
+_No jobs in this group._
 
 ## NOTTINGHAMSHIRE — POSSIBLES
 
@@ -273,11 +253,7 @@ _No jobs in this group._
 
 ## SURREY — SELECTED
 
----
-action:
-SELECTED | Surrey | Leatherhead | £30000 - £32000 per year | Legal Personal Assistant
-job_id: 2064951
----
+_No jobs in this group._
 
 ## SURREY — POSSIBLES
 
