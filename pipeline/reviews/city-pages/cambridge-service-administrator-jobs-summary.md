@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 9
-- automatic exclude: 20
-- effective include: 25
-- effective review: 9
-- effective exclude: 20
+- automatic include: 26
+- automatic review: 8
+- automatic exclude: 19
+- effective include: 26
+- effective review: 8
+- effective exclude: 19
 
-## INCLUDE (25)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2066978
-reason: Approved conservative Cambridge launch catchment.
----
+## INCLUDE (26)
 
 ---
 action: 
@@ -81,6 +69,18 @@ company: North Cambridge Academy
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-international-and-community-projects-north-cambridge-academy
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contract Credit Controller
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2212259
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -232,6 +232,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Patient Services Administrator
+company: Red House Surgery
+location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
+source: NHS Jobs
+job_id: nhs-5698853
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: PR manager
 company: Kidney Research UK - Agency - Permanent
 location: Cambridgeshire
@@ -324,7 +336,7 @@ job_id: nhs-5691541
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -359,18 +371,6 @@ company: The One Group - Agency - Permanent
 location: Ely
 source: JobG8
 job_id: jobg8-2206773
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance / Admin Assistant
-company: Priory Junior School
-location: St Neots
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -434,7 +434,7 @@ job_id: teaching-vacancies-school-office-assistant-sutton-cofe-vc-primary-school
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -596,23 +596,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist/ Administrator
-company: Dr Laliwala and Partners
-location: Peterborough, PE1 4FS
-source: NHS Jobs
-job_id: nhs-5668718
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Outside Account Manager
 company: The Work Shop - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2178486
+job_id: jobg8-2212003
 reason: Separate employment market.
 ---
 

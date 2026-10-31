@@ -4,7 +4,7 @@
 - Live route: `/chester-le-street/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
+- automatic include: 1
 - automatic review: 62
 - automatic exclude: 0
-- effective include: 0
+- effective include: 1
 - effective review: 62
 - effective exclude: 0
 
-## INCLUDE (0)
+## INCLUDE (1)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Great Lumley Surgery
+location: Chester le Street, DH3 4LE
+source: NHS Jobs
+job_id: nhs-5686212
+reason: Exact approved Chester Le Street workplace.
+---
 
 ## REVIEW (62)
 
@@ -140,30 +152,6 @@ decision: review
 automatic_decision: review
 title: Administration Assistant
 company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Newcastle upon Tyne, NE3 3XT
-source: NHS Jobs
-job_id: nhs-5671180
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Gateshead, NE10 8DX
-source: NHS Jobs
-job_id: nhs-5671182
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 location: Blyth, NE24 3BX
 source: NHS Jobs
 job_id: nhs-5680476
@@ -203,6 +191,18 @@ company: Moorlands Surgery
 location: Darlington, DL3 9JP
 source: NHS Jobs
 job_id: nhs-5672309
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Tyneside Surgical Services
+location: Gateshead, NE11 0HF
+source: NHS Jobs
+job_id: nhs-5667685
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -486,11 +486,35 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Home Administrator
+company: Akari Care Limited
+location: Gateshead, NE8 1QU
+source: NHS Jobs
+job_id: nhs-5577937
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: IT Resourcer
 company: Randstad Technologies - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2078122
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Reed - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2211292
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -527,6 +551,18 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2080654
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-Time Sales, Finance & Marketing Administrator
+company: Executive Compass - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2094526
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -630,11 +666,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Clerk
-company: Paul Card Recruitment Ltd - Agency - Permanent
-location: Tyne And Wear
+title: Purchase Ledger Assistant
+company: Nigel Wright Group - Agency - Permanent
+location: County Durham
 source: JobG8
-job_id: jobg8-2175778
+job_id: jobg8-2210876
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -643,10 +679,10 @@ action:
 decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
-company: Reed - Agency - Permanent
+company: Paul Card Recruitment Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2065282
+job_id: jobg8-2175778
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -702,35 +738,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Oakfields Health Group
-location: Newcastle Upon Tyne, NE17 7SB, Stanley, DH9 9DA
-source: NHS Jobs
-job_id: nhs-5678075
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recovery Coordinator
 company: Waythrough - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-108238473
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales, Finance & Marketing Administrator
-company: Executive Compass - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2094526
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -750,11 +762,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 4LW
-source: NHS Jobs
-job_id: nhs-5670229
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2208078
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -762,11 +774,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2208078
+title: Ward Clerk
+company: South Tyneside and Sunderland NHS Foundation Trust
+location: SUNDERLAND, SR4 7TP
+source: NHS Jobs
+job_id: nhs-5689557
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

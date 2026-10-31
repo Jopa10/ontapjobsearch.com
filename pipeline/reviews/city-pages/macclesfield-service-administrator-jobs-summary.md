@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 10
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 5
-- effective review: 10
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: teaching-vacancies-sixth-form-administrator-the-fallibroome-academy-macc
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (10)
+## REVIEW (11)
 
 ---
 action: 
@@ -179,6 +179,18 @@ company: PARALLEL RECRUITMENT LTD - Agency - Permanent
 location: Wilmslow
 source: JobG8
 job_id: jobg8-2188848
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Kenneth Brian Associates Limited - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-2210598
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

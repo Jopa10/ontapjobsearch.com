@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 41
+- Effective included jobs: 43
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 41
+- automatic include: 43
 - automatic review: 36
-- automatic exclude: 32
-- effective include: 41
+- automatic exclude: 29
+- effective include: 43
 - effective review: 36
-- effective exclude: 32
+- effective exclude: 29
 
-## INCLUDE (41)
+## INCLUDE (43)
 
 ---
 action: 
@@ -148,18 +148,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical Officer/Receptionist
-company: Leeds Teaching Hospitals
-location: Leeds, LS14 6UH
-source: NHS Jobs
-job_id: nhs-5678098
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Content Writer
 company: Elevation Recruitment Group - Agency - Permanent
 location: Leeds
@@ -213,6 +201,18 @@ company: Dream Big Digital - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2135519
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Experimentation & Optimisation Coordinator - 12 Month Fixed term
+company: ASDA - Company - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2211693
 reason: Approved Leeds catchment.
 ---
 
@@ -364,6 +364,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Part Time Payroll Coordinator
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2211068
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Leeds
@@ -392,7 +404,7 @@ title: Payroll Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2087152
+job_id: jobg8-2211170
 reason: Approved Leeds catchment.
 ---
 
@@ -465,6 +477,18 @@ company: Sharp Consultancy - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2075400
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Real Estate Post Completion Executive
+company: Box Recruitment Group Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2210386
 reason: Approved Leeds catchment.
 ---
 
@@ -750,6 +774,18 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Interim Accounts Payable
+company: Michael Page Finance - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2210347
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: LinkedIn Social Media Executive
 company: pyramid8 - Agency - Permanent
 location: Yorkshire
@@ -870,18 +906,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger
-company: Michael Page Finance - Agency - Permanent
-location: Castleford
-source: JobG8
-job_id: jobg8-2065175
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger - Construction
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
@@ -950,7 +974,7 @@ job_id: teaching-vacancies-trust-hr-administrator-moorlands-learning-trust
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -1009,18 +1033,6 @@ company: Horbury Academy
 location: Wakefield
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-horbury-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Apprentice Business Support Administrator
-company: The North Halifax Grammar School
-location: Halifax
-source: Teaching Vacancies
-job_id: teaching-vacancies-apprentice-business-support-administrator
 reason: Separate employment market.
 ---
 
@@ -1112,18 +1124,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: The North Halifax Grammar School
-location: Halifax
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-assistant-the-north-halifax-grammar-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Officer
 company: Greenhead College
 location: Huddersfield
@@ -1189,18 +1189,6 @@ company: Drs Shaw, Walker & Culliney
 location: Huddersfield, HD8 8DJ
 source: NHS Jobs
 job_id: nhs-5694172
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part- Time Accounts Administrator
-company: Reed - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-2064618
 reason: Separate employment market.
 ---
 

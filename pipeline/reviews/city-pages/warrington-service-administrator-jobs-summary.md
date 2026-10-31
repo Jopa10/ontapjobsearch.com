@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 6
 - automatic review: 5
-- automatic exclude: 2
-- effective include: 7
+- automatic exclude: 1
+- effective include: 6
 - effective review: 5
-- effective exclude: 2
+- effective exclude: 1
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: High Street Surgery
 location: Warrington, WA3 3GS
 source: NHS Jobs
 job_id: nhs-5695670
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist/Administrator
-company: Birchwood Medical Centre
-location: Warrington, WA3 7PJ
-source: NHS Jobs
-job_id: nhs-5690698
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -170,7 +158,7 @@ job_id: jobg8-2194574
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (1)
 
 ---
 action: 
@@ -181,17 +169,5 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-2153179
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant - Cost Control
-company: Halecroft Recruitment - Agency - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-2098576
 reason: Separate employment market.
 ---

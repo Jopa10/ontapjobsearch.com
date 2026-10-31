@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 17
+- automatic include: 10
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 11
-- effective review: 17
+- effective include: 10
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: GP Receptionist
-company: Cricklade Surgery
-location: Swindon, SN6 6AE
-source: NHS Jobs
-job_id: nhs-5614143
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part-Time Receptionist (Mat Cover 12 months FTC)
 company: Swindon Academy
 location: Swindon
@@ -156,7 +144,7 @@ job_id: teaching-vacancies-sixth-form-admin-assistant-great-western-academy-swin
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (12)
 
 ---
 action: 
@@ -168,18 +156,6 @@ location: Chippenham
 source: JobG8
 job_id: jobg8-2204801
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Pertemps Basingstoke - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-2176780
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -198,47 +174,11 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Assurance Coordinator Porton Down
-company: Mainstay Facilities - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-108182792
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Attendance Officer
 company: South Wilts Grammar School
 location: Salisbury
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-south-wilts-grammar-school
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Officer
-company: Robert Half - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-2065176
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Services Administrator
-company: Burgh Recruitment Limited - Agency - Permanent
-location: Corsham
-source: JobG8
-job_id: jobg8-108114128
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -348,18 +288,6 @@ location: Melksham, SN12 7NZ
 source: NHS Jobs
 job_id: nhs-5683692
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Coordinator
-company: Exponential-e - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-2068542
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ## EXCLUDE (0)

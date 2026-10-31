@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 44
-- automatic exclude: 13
-- effective include: 1
-- effective review: 44
-- effective exclude: 13
+- automatic include: 2
+- automatic review: 42
+- automatic exclude: 12
+- effective include: 2
+- effective review: 42
+- effective exclude: 12
 
-## INCLUDE (1)
+## INCLUDE (2)
 
 ---
 action: 
@@ -36,7 +36,19 @@ job_id: jobg8-2156536
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (44)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist / Administrator
+company: Integrated Care 24 Ltd
+location: Brighton, BN1 7GF
+source: NHS Jobs
+job_id: nhs-5649373
+reason: Approved Brighton & Hove catchment.
+---
+
+## REVIEW (42)
 
 ---
 action: 
@@ -66,18 +78,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Activities Coordinator
-company: Operations Resources Limited - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107921098
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Practice Plus Group - Health in Justice
 location: Lewes, BN7 1EA
@@ -90,35 +90,11 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Administrator (Part Time)
-company: Practice Plus Group - Health in Justice
-location: Lewes, BN7 1EA
-source: NHS Jobs
-job_id: nhs-5683798
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper
 company: Office Angels - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2099007
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper 6-Month Contract
-company: Marks Sattin - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2066607
 reason: Broad location; review before city inclusion.
 ---
 
@@ -282,6 +258,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Travail Employment Group - Burgess Hill - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2210064
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant - Construction
 company: Henley Chase Limited - Agency - Permanent
 location: Sussex
@@ -390,18 +378,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Mortgage Administrator
-company: Hunters Recruitment & Training Limited - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-108225614
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patent Records Administrator - Brighton Hybrid Working
 company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Sussex
@@ -456,6 +432,18 @@ location: Uckfield
 source: JobG8
 job_id: jobg8-2191128
 reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Practice Bookkeeper
+company: Harvey John - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2210316
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -566,7 +554,7 @@ job_id: jobg8-108230183
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -577,18 +565,6 @@ company: HR GO Recruitment - Agency - Permanent
 location: Eastbourne
 source: JobG8
 job_id: jobg8-2088338
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Morgan McKinley - Agency - Permanent
-location: Horsham
-source: JobG8
-job_id: jobg8-2064741
 reason: Separate employment market.
 ---
 

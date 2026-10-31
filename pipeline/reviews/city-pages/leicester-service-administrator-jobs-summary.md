@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 15
+- automatic review: 13
 - automatic exclude: 0
 - effective include: 7
-- effective review: 15
+- effective review: 13
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-2152805
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (13)
 
 ---
 action: 
@@ -210,30 +210,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Interim Accounts Payable Assistant - Hybrid
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2067276
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Finance Assistant (Purchase Ledger)
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2067389
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Clerk
 company: BTG Recruitment - Agency - Permanent
 location: Leicestershire
@@ -247,10 +223,10 @@ action:
 decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
-company: Michael Page Finance - Agency - Permanent
-location: Coalville
+company: SF Partners - Agency - Permanent
+location: Leicestershire
 source: JobG8
-job_id: jobg8-2067304
+job_id: jobg8-2092155
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -258,11 +234,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Clerk
-company: SF Partners - Agency - Permanent
-location: Leicestershire
+title: Residential Conveyancing Legal Assistant
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Lutterworth
 source: JobG8
-job_id: jobg8-2092155
+job_id: jobg8-2212201
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

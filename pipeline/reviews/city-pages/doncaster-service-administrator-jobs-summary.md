@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 7
 - automatic review: 8
-- automatic exclude: 34
+- automatic exclude: 35
 - effective include: 7
 - effective review: 8
-- effective exclude: 34
+- effective exclude: 35
 
 ## INCLUDE (7)
 
@@ -206,7 +206,19 @@ job_id: jobg8-2208082
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (35)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2164297
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -217,6 +229,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-2087924
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable / Finance Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2164314
 reason: Separate employment market.
 ---
 
@@ -253,6 +277,18 @@ company: St Gerard's Catholic Primary School
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-st-gerard-s-catholic-primary-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Audience Development Coordinator - Local Authority - Libraries
+company: Reed - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2210544
 reason: Separate employment market.
 ---
 
@@ -337,30 +373,6 @@ company: qed legal - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2123182
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Income Assistant / Finance Administrator - Local Authority
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2067582
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: IP Administrator (Experienced)
-company: Withers & Rogers - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-108207449
 reason: Separate employment market.
 ---
 

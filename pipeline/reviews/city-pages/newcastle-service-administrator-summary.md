@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 33
-- automatic exclude: 21
-- effective include: 8
-- effective review: 33
-- effective exclude: 21
+- automatic include: 7
+- automatic review: 34
+- automatic exclude: 22
+- effective include: 7
+- effective review: 34
+- effective exclude: 22
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -33,30 +33,6 @@ company: KCR Solutions - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-2204552
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Newcastle upon Tyne, NE3 3XT
-source: NHS Jobs
-job_id: nhs-5671180
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Gateshead, NE10 8DX
-source: NHS Jobs
-job_id: nhs-5671182
 reason: Approved Newcastle catchment.
 ---
 
@@ -76,11 +52,35 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator
+company: Tyneside Surgical Services
+location: Gateshead, NE11 0HF
+source: NHS Jobs
+job_id: nhs-5667685
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Business Services Support Administrator
 company: Studio West
 location: Newcastle-upon-Tyne
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-services-support-administrator
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Home Administrator
+company: Akari Care Limited
+location: Gateshead, NE8 1QU
+source: NHS Jobs
+job_id: nhs-5577937
 reason: Approved Newcastle catchment.
 ---
 
@@ -108,19 +108,7 @@ job_id: nhs-5679128
 reason: Approved Newcastle catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Administrator
-company: Oakfields Health Group
-location: Newcastle Upon Tyne, NE17 7SB, Stanley, DH9 9DA
-source: NHS Jobs
-job_id: nhs-5678075
-reason: Approved Newcastle catchment.
----
-
-## REVIEW (33)
+## REVIEW (34)
 
 ---
 action: 
@@ -342,11 +330,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Executive
+company: Reed - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2211292
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive (Content & PR)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2183876
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Great Lumley Surgery
+location: Chester le Street, DH3 4LE
+source: NHS Jobs
+job_id: nhs-5686212
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -372,6 +384,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2080654
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-Time Sales, Finance & Marketing Administrator
+company: Executive Compass - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2094526
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -474,35 +498,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Clerk
-company: Reed - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2065282
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Quality & Operational Support Coordinator
 company: Randstad Technologies - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2204705
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales, Finance & Marketing Administrator
-company: Executive Compass - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2094526
 reason: Broad location; review before city inclusion.
 ---
 
@@ -518,7 +518,7 @@ job_id: jobg8-2208078
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -716,6 +716,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Purchase Ledger Assistant
+company: Nigel Wright Group - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2210876
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Purchasing Administrator
 company: Paul Card Recruitment Ltd - Agency - Permanent
 location: County Durham
@@ -764,10 +776,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 4LW
+title: Ward Clerk
+company: South Tyneside and Sunderland NHS Foundation Trust
+location: SUNDERLAND, SR4 7TP
 source: NHS Jobs
-job_id: nhs-5670229
+job_id: nhs-5689557
 reason: Separate employment market.
 ---

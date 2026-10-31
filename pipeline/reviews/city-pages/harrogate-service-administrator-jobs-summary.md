@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 5
-- automatic exclude: 23
+- automatic review: 6
+- automatic exclude: 24
 - effective include: 6
-- effective review: 5
-- effective exclude: 23
+- effective review: 6
+- effective exclude: 24
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: jobg8-2081400
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -107,6 +107,18 @@ company: Magpie Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-2180626
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Secretary
+company: G2 Legal Limited - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-2211808
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -130,7 +142,7 @@ title: Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
 source: JobG8
-job_id: jobg8-2197254
+job_id: jobg8-2210748
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -158,7 +170,19 @@ job_id: nhs-5684296
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (24)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Receivable Controller
+company: Nigel Wright Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2207066
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
 
 ---
 action: 
@@ -237,6 +261,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
+company: Consortium Professional Recruitment - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2163066
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
 company: Michael Page Finance - Agency - Permanent
 location: York
 source: JobG8
@@ -252,7 +288,7 @@ title: Finance Assistant
 company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2192085
+job_id: jobg8-2211816
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -349,18 +385,6 @@ company: LSL Property Services plc - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2093053
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal - Family
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2065406
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

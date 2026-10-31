@@ -78,11 +78,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Switch - Agency - Permanent
+title: Attendance Officer (part-time)
+company: St James School
 location: Exeter
-source: JobG8
-job_id: jobg8-107919719
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-part-time-st-james-school
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -90,11 +90,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Officer (part-time)
-company: St James School
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-part-time-st-james-school
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2164301
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -119,18 +119,6 @@ company: Pertemps Plymouth Commercial - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-2199982
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Fleet Distribution Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107939734
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -179,6 +167,18 @@ company: Elysium Healthcare
 location: Exeter, EX1 3PZ
 source: NHS Jobs
 job_id: nhs-5689527
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Finance Officer
+company: Trial Balance Consulting - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2163206
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

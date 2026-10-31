@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,52 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 0
 - automatic review: 12
 - automatic exclude: 0
-- effective include: 2
+- effective include: 0
 - effective review: 12
 - effective exclude: 0
 
-## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Walsall
-source: JobG8
-job_id: jobg8-2066246
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Black Country Healthcare NHS Foundation Trust
-location: Walsall, WS3 1SJ
-source: NHS Jobs
-job_id: nhs-5691607
-reason: Exact approved Walsall workplace.
----
+## INCLUDE (0)
 
 ## REVIEW (12)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: Reed - Agency - Permanent
-location: Dudley
-source: JobG8
-job_id: jobg8-2067683
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
 
 ---
 action: 
@@ -131,6 +95,18 @@ company: The Royal Wolverhampton NHS Trust
 location: Wolverhampton, WV10 9RU
 source: NHS Jobs
 job_id: nhs-5695749
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: The Royal Wolverhampton NHS Trust
+location: Wolverhampton, WV10 9RU
+source: NHS Jobs
+job_id: nhs-5697104
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

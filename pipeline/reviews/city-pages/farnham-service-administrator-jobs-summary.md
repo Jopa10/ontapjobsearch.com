@@ -4,7 +4,7 @@
 - Live route: `/farnham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,40 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 79
+- automatic include: 0
+- automatic review: 74
 - automatic exclude: 0
-- effective include: 2
-- effective review: 79
+- effective include: 0
+- effective review: 74
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Conveyancing Paralegal
-company: Reed - Agency - Permanent
-location: Farnham
-source: JobG8
-job_id: jobg8-2064968
-reason: Exact approved Farnham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Secretary
-company: Reed - Agency - Permanent
-location: Farnham
-source: JobG8
-job_id: jobg8-2064929
-reason: Exact approved Farnham workplace.
----
-
-## REVIEW (79)
+## REVIEW (74)
 
 ---
 action: 
@@ -119,18 +95,6 @@ company: The HR Surgery - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-2175232
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant - Italian Speaker
-company: Michael Page Finance - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2067588
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -246,18 +210,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Assistant
-company: Reed - Agency - Permanent
-location: Woking
-source: JobG8
-job_id: jobg8-2064933
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Conveyancing Legal Secretary
 company: Reed - Agency - Permanent
 location: Caterham
@@ -366,18 +318,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Digital Marketing Executive
-company: Michael Page Marketing - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2085218
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Dispute Resolution Paralegal
 company: GerrardWhite - Agency - Permanent
 location: Surrey
@@ -414,18 +354,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Experienced Family Paralegal
-company: Reed - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2064917
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Administrator
 company: Michael Page Business Support - Agency - Permanent
 location: Surrey
@@ -443,18 +371,6 @@ company: Kenneth Brian Associates Limited - Agency - Permanent
 location: Leatherhead
 source: JobG8
 job_id: jobg8-2102430
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Home Based Marketing and Sales
-company: Etre Professional - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2196991
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -522,18 +438,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Legal Personal Assistant
-company: Reed - Agency - Permanent
-location: Leatherhead
-source: JobG8
-job_id: jobg8-2064951
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Secretary - Conveyancing
 company: Page Temple & Payne Legal Recruitment - Agency - Permanent
 location: Surrey
@@ -583,10 +487,10 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Manager
-company: Harris Hill Charity Recruitment Specialists - Agency - Permanent
+company: Wise Monkey Recruitment ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2184152
+job_id: jobg8-2078822
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -594,11 +498,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Manager
+title: Marketing Manager - Launch
 company: Wise Monkey Recruitment ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2078822
+job_id: jobg8-2212258
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -935,6 +839,18 @@ company: Prospectus Recruitment - Agency - Permanent
 location: Weybridge
 source: JobG8
 job_id: jobg8-2177130
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: The Recruitment Solution (London) Ltd - Agency - Permanent
+location: Staines
+source: JobG8
+job_id: jobg8-2212420
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

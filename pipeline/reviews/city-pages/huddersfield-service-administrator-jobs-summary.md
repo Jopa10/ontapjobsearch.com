@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 12
 - automatic review: 36
-- automatic exclude: 61
+- automatic exclude: 60
 - effective include: 12
 - effective review: 36
-- effective exclude: 61
+- effective exclude: 60
 
 ## INCLUDE (12)
 
@@ -402,6 +402,18 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Interim Accounts Payable
+company: Michael Page Finance - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2210347
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: LinkedIn Social Media Executive
 company: pyramid8 - Agency - Permanent
 location: Yorkshire
@@ -522,18 +534,6 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger
-company: Michael Page Finance - Agency - Permanent
-location: Castleford
-source: JobG8
-job_id: jobg8-2065175
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger - Construction
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
@@ -602,7 +602,7 @@ job_id: teaching-vacancies-trust-hr-administrator-moorlands-learning-trust
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (61)
+## EXCLUDE (60)
 
 ---
 action: 
@@ -692,18 +692,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Apprentice Business Support Administrator
-company: The North Halifax Grammar School
-location: Halifax
-source: Teaching Vacancies
-job_id: teaching-vacancies-apprentice-business-support-administrator
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Attendance Officer
 company: Bronte Girls' Academy
 location: Bradford
@@ -769,18 +757,6 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS14 6UH
 source: NHS Jobs
 job_id: nhs-5685226
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer/Receptionist
-company: Leeds Teaching Hospitals
-location: Leeds, LS14 6UH
-source: NHS Jobs
-job_id: nhs-5678098
 reason: Separate employment market.
 ---
 
@@ -872,11 +848,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: CRA Consulting - Agency - Permanent
-location: Wakefield
+title: Experimentation & Optimisation Coordinator - 12 Month Fixed term
+company: ASDA - Company - Permanent
+location: Leeds
 source: JobG8
-job_id: jobg8-2194613
+job_id: jobg8-2211693
 reason: Separate employment market.
 ---
 
@@ -885,10 +861,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
-company: The North Halifax Grammar School
-location: Halifax
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-assistant-the-north-halifax-grammar-school
+company: CRA Consulting - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-2194613
 reason: Separate employment market.
 ---
 
@@ -1064,11 +1040,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part- Time Accounts Administrator
-company: Reed - Agency - Permanent
-location: Wakefield
+title: Part Time Payroll Coordinator
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Leeds
 source: JobG8
-job_id: jobg8-2064618
+job_id: jobg8-2211068
 reason: Separate employment market.
 ---
 
@@ -1104,7 +1080,7 @@ title: Payroll Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2087152
+job_id: jobg8-2211170
 reason: Separate employment market.
 ---
 
@@ -1201,6 +1177,18 @@ company: Sharp Consultancy - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2075400
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Real Estate Post Completion Executive
+company: Box Recruitment Group Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2210386
 reason: Separate employment market.
 ---
 

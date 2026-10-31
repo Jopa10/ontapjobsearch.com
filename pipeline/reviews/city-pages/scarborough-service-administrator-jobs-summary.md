@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 32
+- automatic review: 34
 - automatic exclude: 0
 - effective include: 2
-- effective review: 32
+- effective review: 34
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,19 @@ job_id: nhs-5690490
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (34)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Controller
+company: Nigel Wright Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2207066
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -126,6 +138,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Legal Secretary
+company: G2 Legal Limited - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-2211808
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Data Administrator
 company: St John Fisher Catholic Academy
 location: Harrogate
@@ -175,6 +199,18 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
+company: Consortium Professional Recruitment - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2163066
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
 company: Michael Page Finance - Agency - Permanent
 location: York
 source: JobG8
@@ -190,7 +226,7 @@ title: Finance Assistant
 company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2192085
+job_id: jobg8-2211816
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -286,7 +322,7 @@ title: Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
 source: JobG8
-job_id: jobg8-2197254
+job_id: jobg8-2210748
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -323,18 +359,6 @@ company: LSL Property Services plc - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2093053
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Paralegal - Family
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2065406
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

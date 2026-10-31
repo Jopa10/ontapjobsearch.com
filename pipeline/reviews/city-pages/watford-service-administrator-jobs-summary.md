@@ -4,7 +4,7 @@
 - Live route: `/watford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 54
+- automatic include: 1
+- automatic review: 53
 - automatic exclude: 0
-- effective include: 2
-- effective review: 54
+- effective include: 1
+- effective review: 53
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -36,19 +36,7 @@ job_id: jobg8-2077823
 reason: Exact approved Watford workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing Executive
-company: CTR Select - Agency - Permanent
-location: Watford
-source: JobG8
-job_id: jobg8-2065570
-reason: Exact approved Watford workplace.
----
-
-## REVIEW (54)
+## REVIEW (53)
 
 ---
 action: 
@@ -96,6 +84,18 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-2103897
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Vitae Financial Recruitment Limited - Agency - Permanent
+location: Royston
+source: JobG8
+job_id: jobg8-2163460
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -462,18 +462,6 @@ reason: No approved Watford employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Administrator
-company: Accountancy Action - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2067432
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-time Purchase Ledger Assistant
 company: STORMX RECRUITMENT LIMITED - Agency - Permanent
 location: Hertfordshire
@@ -527,18 +515,6 @@ company: Reed - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2164024
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Coordinator
-company: GSCI Consultants Ltd - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2064628
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 

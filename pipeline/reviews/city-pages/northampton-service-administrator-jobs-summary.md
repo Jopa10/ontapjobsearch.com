@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 26
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 12
-- effective review: 26
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (12)
@@ -168,7 +168,19 @@ job_id: teaching-vacancies-technical-administrator
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (27)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Abbeygate Search Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2210059
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -287,6 +299,18 @@ company: Pertemps Northampton - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2157916
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Lakeside Healthcare Group
+location: Corby, NN17 1TY
+source: NHS Jobs
+job_id: nhs-5690261
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -419,18 +443,6 @@ company: HIGHAM FERRERS SURGERY
 location: Rushden, NN10 8ED
 source: NHS Jobs
 job_id: nhs-5689603
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Redwell Medical Centre
-location: Wellingborough, NN8 4UT
-source: NHS Jobs
-job_id: nhs-5683396
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

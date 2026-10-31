@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 22
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 0
-- effective review: 22
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (22)
+## REVIEW (20)
 
 ---
 action: 
@@ -186,47 +186,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Interim Accounts Payable Assistant - Hybrid
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2067276
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Finance Assistant (Purchase Ledger)
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2067389
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Clerk
 company: BTG Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2176340
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Michael Page Finance - Agency - Permanent
-location: Coalville
-source: JobG8
-job_id: jobg8-2067304
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -251,6 +215,18 @@ company: InMind
 location: Leicester, LE2 9FS
 source: NHS Jobs
 job_id: nhs-5642838
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Conveyancing Legal Assistant
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Lutterworth
+source: JobG8
+job_id: jobg8-2212201
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

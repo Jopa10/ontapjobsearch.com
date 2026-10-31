@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 36
+- automatic include: 7
+- automatic review: 32
 - automatic exclude: 0
-- effective include: 8
-- effective review: 36
+- effective include: 7
+- effective review: 32
 - effective exclude: 0
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Morgan McKinley - Agency - Permanent
-location: Gloucester
-source: JobG8
-job_id: jobg8-2067302
-reason: Exact approved Gloucester workplace.
----
+## INCLUDE (7)
 
 ---
 action: 
@@ -120,7 +108,7 @@ job_id: nhs-5681530
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (32)
 
 ---
 action: 
@@ -186,23 +174,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: Leaders In Care Recruitment Ltd - Agency - Permanent
-location: Gloucestershire
+title: Administrative Assistant
+company: Prospectus - Agency - Permanent
+location: Tewkesbury
 source: JobG8
-job_id: jobg8-108064325
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Leaders In Care Recruitment Ltd - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-108064327
+job_id: jobg8-2213609
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -227,18 +203,6 @@ company: Meningitis Now - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-2204437
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Communications Officer (Social Media)
-company: Meningitis Now - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-2207618
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -354,11 +318,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: French speaking Payroll & HR Coordinator
-company: Euro London - Agency - Permanent
-location: Cirencester
+title: Finance officer - Rent and Service Charges
+company: GCH - Agency - Permanent
+location: Gloucestershire
 source: JobG8
-job_id: jobg8-2205347
+job_id: jobg8-2212006
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -366,11 +330,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: GP receptionist / Administrator
-company: STONEHOUSE HEALTH CLINIC
-location: Stonehouse, GL10 2NG
-source: NHS Jobs
-job_id: nhs-5672395
+title: French speaking Payroll & HR Coordinator
+company: Euro London - Agency - Permanent
+location: Cirencester
+source: JobG8
+job_id: jobg8-2205347
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -450,18 +414,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Product Support Coordinator - 12 Fixed Term Contract
-company: Renishaw PLC - Agency - Temporary
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-108074035
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Cheltenham
@@ -479,18 +431,6 @@ company: G DOC Ltd
 location: Lydney, GL15 5NQ
 source: NHS Jobs
 job_id: nhs-5673959
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruiter
-company: Alexander Mae (HR) Ltd - Agency - Contract
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-108044139
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

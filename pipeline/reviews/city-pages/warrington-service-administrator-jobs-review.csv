@@ -3,7 +3,6 @@ include,jobg8-2178937,Accounts Assistant,Reed - Agency - Permanent,Warrington,Jo
 include,jobg8-2197146,Accounts Assistant,RG Consultancy Ltd - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2189114,Accounts Payable Assistant,Reed - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,nhs-5695670,Medical Receptionist,High Street Surgery,"Warrington, WA3 3GS",NHS Jobs,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
-include,nhs-5690698,Medical Receptionist/Administrator,Birchwood Medical Centre,"Warrington, WA3 7PJ",NHS Jobs,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2188850,Payroll Assistant,Michael Page Finance - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2098842,Payroll Assistant,Reed - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 review,jobg8-2179654,Bookkeeper,Rekroot - Agency - Permanent,Widnes,JobG8,review,review,No approved Warrington catchment rule matched; local review required.,fallback,warrington-service-administrator-jobs
@@ -12,4 +11,3 @@ review,jobg8-2098326,Payroll and HR Administrator,Michael Page Finance - Agency 
 review,jobg8-2144274,Payroll Senior Administrator,Butler Rose - Agency - Permanent,Widnes,JobG8,review,review,No approved Warrington catchment rule matched; local review required.,fallback,warrington-service-administrator-jobs
 review,jobg8-2194574,Purchase Ledger Clerk,Adele Carr Recruitment Limited - Agency - Permanent,Cheshire,JobG8,review,review,No approved Warrington catchment rule matched; local review required.,fallback,warrington-service-administrator-jobs
 exclude,jobg8-2153179,Accounts Assistant (some hybrid),RG Consultancy Ltd - Agency - Permanent,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs
-exclude,jobg8-2098576,Finance Assistant - Cost Control,Halecroft Recruitment - Agency - Permanent,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs

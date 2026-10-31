@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 40
-- automatic exclude: 28
+- automatic review: 39
+- automatic exclude: 30
 - effective include: 1
-- effective review: 40
-- effective exclude: 28
+- effective review: 39
+- effective exclude: 30
 
 ## INCLUDE (1)
 
@@ -28,15 +28,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Administrator
-company: TPF Recruitment - Agency - Permanent
+title: Internal Sales Executive
+company: The Work Shop - Agency - Permanent
 location: Eastleigh
 source: JobG8
-job_id: jobg8-2064740
+job_id: jobg8-2211086
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (40)
+## REVIEW (39)
 
 ---
 action: 
@@ -54,12 +54,12 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Administrator
-company: Sheridan Maine - Agency - Permanent
-location: Hampshire
+title: Accounts Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Havant
 source: JobG8
-job_id: jobg8-2194530
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+job_id: jobg8-2193433
+reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -68,10 +68,10 @@ decision: review
 automatic_decision: review
 title: Accounts Assistant
 company: CMA Recruitment Group - Agency - Permanent
-location: Havant
+location: Hampshire
 source: JobG8
-job_id: jobg8-2193433
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
+job_id: jobg8-2211045
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
 ---
@@ -132,18 +132,6 @@ location: Waterlooville, PO7 7AH, Waterlooville, PO7 6AL, Waterlooville, PO7 8NS
 source: NHS Jobs
 job_id: nhs-5689872
 reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Legal Assistant
-company: Workshop Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2063966
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
 ---
@@ -282,18 +270,6 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant / Purchase Ledger
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2178157
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Hospital Engagement Co-ordinator
 company: Southampton Hospitals Charity - Agency - Permanent
 location: Hampshire
@@ -414,6 +390,18 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
+title: Part-Time Bookkeeper
+company: SRM RECRUITMENT LIMITED - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2210545
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patent Secretary - Southampton
 company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Hampshire
@@ -450,11 +438,11 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Private Client Legal Assistant / Paralegal
-company: Workshop Recruitment - Agency - Permanent
-location: Petersfield
+title: Private Client Paralegal
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Emsworth
 source: JobG8
-job_id: jobg8-2064752
+job_id: jobg8-2210597
 reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -518,7 +506,7 @@ job_id: jobg8-2179102
 reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -684,7 +672,31 @@ title: Inside Account Manager
 company: The Work Shop - Agency - Permanent
 location: Southampton
 source: JobG8
-job_id: jobg8-2178490
+job_id: jobg8-2212004
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Assistant - Commercial Property
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-2210608
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Assistant - Dispute Resolution
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-2210622
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

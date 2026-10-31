@@ -91,18 +91,6 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2065799
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Coventry
 source: JobG8
@@ -186,6 +174,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Legal Assistant
+company: G2 Legal Limited - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-2211295
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Conveyancing Paralegal
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Coventry
@@ -246,11 +246,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: EXAMS OFFICER, BARR’S HILL SCHOOL
-company: Barr's Hill School
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-barr-s-hill-school-barr-s-hill-school
+title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2163750
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -282,6 +282,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Group Credit Controller
+company: Trinity House Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2211441
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Assistant - Litigation
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Nuneaton
@@ -299,18 +311,6 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2159396
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Workstreet - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-2067815
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 3
+- automatic review: 2
 - automatic exclude: 0
 - effective include: 12
-- effective review: 3
+- effective review: 2
 - effective exclude: 0
 
 ## INCLUDE (12)
@@ -168,7 +168,7 @@ job_id: jobg8-2104659
 reason: Approved conservative Cardiff launch catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (2)
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: Corestone Talent - Agency - Permanent
 location: South Glamorgan
 source: JobG8
 job_id: jobg8-2198349
-reason: No approved Cardiff catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: South Glamorgan
-source: JobG8
-job_id: jobg8-2067478
 reason: No approved Cardiff catchment rule matched; local review required.
 ---
 

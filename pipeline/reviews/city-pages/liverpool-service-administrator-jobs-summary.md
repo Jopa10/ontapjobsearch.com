@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 11
+- automatic include: 17
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 16
-- effective review: 11
+- effective include: 17
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (17)
 
 ---
 action: 
@@ -160,6 +160,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Assistant
+company: Portfolio Payroll - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2211121
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Officer
 company: Michael Page Finance - Agency - Permanent
 location: Liverpool
@@ -196,11 +208,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Rutherford Medical Centre
-location: Liverpool, L18 0HJ
+title: Receptionist / Administrator
+company: Dinas Lane Medical Centre
+location: Liverpool, L36 2NW
 source: NHS Jobs
-job_id: nhs-5682461
+job_id: nhs-5677636
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -216,7 +228,7 @@ job_id: jobg8-2204434
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -323,18 +335,6 @@ company: Adaptable Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-2187943
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase ledger clerk
-company: Adele Carr Recruitment Limited - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2067038
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

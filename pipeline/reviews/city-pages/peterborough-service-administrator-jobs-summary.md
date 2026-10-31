@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 8
-- automatic exclude: 31
-- effective include: 15
-- effective review: 8
-- effective exclude: 31
+- automatic include: 14
+- automatic review: 7
+- automatic exclude: 32
+- effective include: 14
+- effective review: 7
+- effective exclude: 32
 
-## INCLUDE (15)
+## INCLUDE (14)
 
 ---
 action: 
@@ -136,23 +136,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist/ Administrator
-company: Dr Laliwala and Partners
-location: Peterborough, PE1 4FS
-source: NHS Jobs
-job_id: nhs-5668718
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Outside Account Manager
 company: The Work Shop - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2178486
+job_id: jobg8-2212003
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -204,7 +192,7 @@ job_id: jobg8-2183929
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -227,18 +215,6 @@ company: The One Group - Agency - Permanent
 location: Ely
 source: JobG8
 job_id: jobg8-2206773
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance / Admin Assistant
-company: Priory Junior School
-location: St Neots
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -302,7 +278,7 @@ job_id: teaching-vacancies-school-office-assistant-sutton-cofe-vc-primary-school
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -313,18 +289,6 @@ company: Nxtgen Recruitment - Agency - Permanent
 location: Huntingdon
 source: JobG8
 job_id: jobg8-2191806
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2066978
 reason: Separate employment market.
 ---
 
@@ -409,6 +373,18 @@ company: Cambridge University Hospital NHS Foundation Trust
 location: Ely, CB6 1DN
 source: NHS Jobs
 job_id: nhs-5695551
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Contract Credit Controller
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2212259
 reason: Separate employment market.
 ---
 
@@ -565,6 +541,18 @@ company: HR GO Recruitment - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2142957
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Patient Services Administrator
+company: Red House Surgery
+location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
+source: NHS Jobs
+job_id: nhs-5698853
 reason: Separate employment market.
 ---
 

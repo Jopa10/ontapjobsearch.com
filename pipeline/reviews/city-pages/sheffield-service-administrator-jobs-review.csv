@@ -1,11 +1,12 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-2164297,Accounts Assistant,Hays Specialist Recruitment Limited - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
+include,jobg8-2164314,Accounts Payable / Finance Officer,Hays Specialist Recruitment Limited - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school,Admin & Clerical Officer Level 2 Rowan School,The Rowan School,Sheffield,Teaching Vacancies,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,nhs-5694088,Administration Assistant,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S5 7AU",NHS Jobs,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
+include,jobg8-2210544,Audience Development Coordinator - Local Authority - Libraries,Reed - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2082124,BMW/MINI Service Advisor,Sytner Group - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2105206,Customer Service Advisor,Blundells - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2123182,Family Legal Secretary - Sheffield,qed legal - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
-include,jobg8-2067582,Income Assistant / Finance Administrator - Local Authority,Reed - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
-include,jobg8-108207449,IP Administrator (Experienced),Withers & Rogers - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2153052,IP Administrator (Experienced),Withers & Rogers - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2142322,Litigation Paralegal,CRA Consulting - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2134593,Matter Administrator,CRA Consulting - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 11
+- automatic review: 10
 - automatic exclude: 0
 - effective include: 23
-- effective review: 11
+- effective review: 10
 - effective exclude: 0
 
 ## INCLUDE (23)
@@ -300,7 +300,7 @@ job_id: jobg8-2125774
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -395,18 +395,6 @@ company: Clee Medical Centre
 location: Cleethorpes, DN35 7XE, GRIMSBY, DN31 2BH, Grimsby, DN31 3AE, CLEETHORPES, DN35 0LN
 source: NHS Jobs
 job_id: nhs-5686851
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Market Cross Surgery
-location: Grantham, NG33 4BB
-source: NHS Jobs
-job_id: nhs-5562166
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

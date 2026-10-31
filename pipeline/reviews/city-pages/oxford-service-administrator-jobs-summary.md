@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 16
-- automatic exclude: 24
+- automatic review: 13
+- automatic exclude: 21
 - effective include: 6
-- effective review: 16
-- effective exclude: 24
+- effective review: 13
+- effective exclude: 21
 
 ## INCLUDE (6)
 
@@ -96,19 +96,7 @@ job_id: jobg8-2074696
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (16)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Care UK - Company - Permanent
-location: Witney
-source: JobG8
-job_id: jobg8-108062084
-reason: No approved Oxford catchment rule matched; local review required.
----
+## REVIEW (13)
 
 ---
 action: 
@@ -198,18 +186,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: The Abingdon Surgery
-location: Abingdon, OX14 3LB
-source: NHS Jobs
-job_id: nhs-5643181
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Procurement Account Manager
 company: Xact Placements Limited - Agency - Permanent
 location: Witney
@@ -278,41 +254,17 @@ job_id: nhs-5664768
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Waste Coordinator with FLT
-company: Barker Ross Group - Agency - Temporary
-location: Chipping Norton
-source: JobG8
-job_id: jobg8-108158397
-reason: No approved Oxford catchment rule matched; local review required.
----
-
-## EXCLUDE (24)
+## EXCLUDE (21)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Receivable Executive
-company: Butler Rose - Agency - Permanent
+title: Accounts Receivable Assistant - Cash Allocation
+company: In2 Consult - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2065837
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bid Portal Administrator
-company: Ridge & Partners LLP - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-108079592
+job_id: jobg8-2212212
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -344,18 +296,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller
-company: Robert Half - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2067685
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Digital Marketing Manager
 company: Executive Facilities - Agency - Permanent
 location: Oxfordshire
@@ -380,18 +320,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Executive Assistant
-company: Hachette UK - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2172802
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Administrator
 company: The Employment Network - Agency - Permanent
 location: Oxfordshire
@@ -404,11 +332,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: Robert Half - Agency - Permanent
+title: Finance and Resources Administrator
+company: Church Mission Society - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2067903
+job_id: jobg8-2213585
 reason: Broad county location; not Oxford-city evidence.
 ---
 

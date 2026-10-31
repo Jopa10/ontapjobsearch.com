@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 61
+- Effective included jobs: 60
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 61
+- automatic include: 60
 - automatic review: 7
 - automatic exclude: 15
-- effective include: 61
+- effective include: 60
 - effective review: 7
 - effective exclude: 15
 
-## INCLUDE (61)
+## INCLUDE (60)
 
 ---
 action: 
@@ -232,6 +232,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Control
+company: Mitchell Adam - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2210185
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Credit Controller
 company: Newstone Talent Solutions Ltd - Agency - Permanent
 location: Birmingham
@@ -376,6 +388,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Family Legal Assistant
+company: Reed - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2212267
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Family Legal Secretary
 company: The Eventus Recruitment Group - Agency - Permanent
 location: Birmingham
@@ -400,11 +424,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Officer
-company: Robertson Bell - Agency - Permanent
+title: Finance Administrator
+company: Counted Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2067504
+job_id: jobg8-2163258
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -448,35 +472,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Home Based Marketing and Sales
-company: Etre Professional - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2184200
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Housing Management and Property Litigation Paralegal
 company: Ryder Reid Legal Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2163375
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Immediate Start Accounts Assistant
-company: Mitchell Adam - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2065290
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -561,18 +561,6 @@ company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2176425
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist/Administrator
-company: Hawkesley Medical Practice
-location: Birmingham, B38 9TJ
-source: NHS Jobs
-job_id: nhs-5681445
 reason: Approved conservative Birmingham launch catchment.
 ---
 

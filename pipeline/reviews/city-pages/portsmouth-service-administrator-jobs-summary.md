@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 65
+- automatic review: 66
 - automatic exclude: 0
 - effective include: 4
-- effective review: 65
+- effective review: 66
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: teaching-vacancies-sen-administrator-st-edmund-s-catholic-school-portsmo
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (65)
+## REVIEW (66)
 
 ---
 action: 
@@ -102,11 +102,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Administrator
-company: Sheridan Maine - Agency - Permanent
-location: Hampshire
+title: Accounts Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Havant
 source: JobG8
-job_id: jobg8-2194530
+job_id: jobg8-2193433
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -116,9 +116,9 @@ decision: review
 automatic_decision: review
 title: Accounts Assistant
 company: CMA Recruitment Group - Agency - Permanent
-location: Havant
+location: Hampshire
 source: JobG8
-job_id: jobg8-2193433
+job_id: jobg8-2211045
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -263,18 +263,6 @@ company: Vine Medical Group
 location: Waterlooville, PO7 7AH, Waterlooville, PO7 6AL, Waterlooville, PO7 8NS
 source: NHS Jobs
 job_id: nhs-5689872
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Legal Assistant
-company: Workshop Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2063966
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -450,18 +438,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant / Purchase Ledger
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2178157
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Hospital Engagement Co-ordinator
 company: Southampton Hospitals Charity - Agency - Permanent
 location: Hampshire
@@ -478,7 +454,19 @@ title: Inside Account Manager
 company: The Work Shop - Agency - Permanent
 location: Southampton
 source: JobG8
-job_id: jobg8-2178490
+job_id: jobg8-2212004
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Executive
+company: The Work Shop - Agency - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-2211086
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -511,10 +499,34 @@ action:
 decision: review
 automatic_decision: review
 title: Legal Assistant - Commercial Property
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-2210608
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant - Commercial Property
 company: GM Legal Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2103985
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant - Dispute Resolution
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-2210622
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -630,6 +642,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Part-Time Bookkeeper
+company: SRM RECRUITMENT LIMITED - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2210545
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patent Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Southampton
@@ -647,18 +671,6 @@ company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2111622
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: TPF Recruitment - Agency - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-2064740
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -690,11 +702,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Private Client Legal Assistant / Paralegal
-company: Workshop Recruitment - Agency - Permanent
-location: Petersfield
+title: Private Client Paralegal
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Emsworth
 source: JobG8
-job_id: jobg8-2064752
+job_id: jobg8-2210597
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

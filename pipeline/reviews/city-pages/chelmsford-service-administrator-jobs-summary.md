@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 71
+- automatic review: 75
 - automatic exclude: 0
 - effective include: 6
-- effective review: 71
+- effective review: 75
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-2200411
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (71)
+## REVIEW (75)
 
 ---
 action: 
@@ -198,6 +198,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Payable Clerk Temporary
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-2164454
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Admin Assistant
 company: Buckhurst Hill Community Primary School
 location: Buckhurst Hill
@@ -234,11 +246,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administration Assistant
-company: St Nicholas School
-location: Southend-on-Sea
+title: Administration Assistant - One Year Fixed Term
+company: Prince Avenue Academy and Nursery
+location: Westcliff-on-Sea
 source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-1c448502-5efb-4cf5-99ef-325c9696302b
+job_id: teaching-vacancies-administration-assistant-one-year-fixed-term
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +258,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administration Assistant - One Year Fixed Term
-company: Prince Avenue Academy and Nursery
-location: Westcliff-on-Sea
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-one-year-fixed-term
+title: Administrator
+company: Howells Recruitment - Agency - Permanent
+location: Brentwood
+source: JobG8
+job_id: jobg8-2211524
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -414,6 +426,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Credit Control
+company: LGS Vision Recruitment - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-2211873
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Reed - Agency - Permanent
 location: Essex
@@ -527,6 +551,18 @@ company: Office Angels - Agency - Permanent
 location: Grays
 source: JobG8
 job_id: jobg8-2178640
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Experienced Bookkeeper
+company: Reed - Agency - Permanent
+location: Southend-On-Sea
+source: JobG8
+job_id: jobg8-2210314
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -762,6 +798,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: Armstrong Knight - Agency - Permanent
+location: Benfleet
+source: JobG8
+job_id: jobg8-2211264
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Officer
 company: Portfolio Payroll - Agency - Permanent
 location: Essex
@@ -834,11 +882,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Angel Lane Surgery
-location: Essex, CM6 1AQ
+title: Receptionist / Care Navigator
+company: Primary Care Careers
+location: Maldon, CM9 5DF
 source: NHS Jobs
-job_id: nhs-5288592
+job_id: nhs-5661188
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -846,11 +894,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
+title: Receptionist/Care Navigator
 company: Primary Care Careers
-location: Colchester, CO4 3SQ
+location: Colchester, CO1 2QS
 source: NHS Jobs
-job_id: nhs-5655065
+job_id: nhs-5672070
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

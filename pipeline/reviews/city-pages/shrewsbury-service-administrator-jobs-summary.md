@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 12
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 4
-- effective review: 12
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5687044
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-2200876
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activity Co-ordinator
-company: Coverage Care - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-108178982
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

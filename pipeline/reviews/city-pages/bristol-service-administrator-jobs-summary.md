@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 39
+- Effective included jobs: 36
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 39
-- automatic review: 14
-- automatic exclude: 5
-- effective include: 39
-- effective review: 14
-- effective exclude: 5
+- automatic include: 36
+- automatic review: 7
+- automatic exclude: 4
+- effective include: 36
+- effective review: 7
+- effective exclude: 4
 
-## INCLUDE (39)
+## INCLUDE (36)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Commercial Senior Paralegal
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2064747
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Complaints Handler
 company: G2 Legal Limited - Agency - Permanent
 location: Bristol
@@ -177,18 +165,6 @@ company: Ashley Rees Associates - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2198561
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Digital Marketing Executive
-company: Moxie and Mettle Limited - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2066943
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -297,6 +273,18 @@ company: Bristol NHS Foundation Trust
 location: Bristol, BS10 5NB
 source: NHS Jobs
 job_id: nhs-5695525
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Patent Records Paralegal - Bristol Hybrid
+company: Dawn Ellmore Employment Agency - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2210242
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -437,18 +425,6 @@ action:
 decision: include
 automatic_decision: include
 title: Service Advisor
-company: Pembrook Resourcing - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2065640
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
 company: Sytner Group - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -480,31 +456,7 @@ job_id: jobg8-2153487
 reason: Approved conservative Bristol launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Devon Partnership NHS Trust
-location: Bristol, BS2 9RU
-source: NHS Jobs
-job_id: nhs-5636801
-reason: Approved conservative Bristol launch catchment.
----
-
-## REVIEW (14)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Communications Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2091440
-reason: No approved Bristol catchment rule matched; local review required.
----
+## REVIEW (7)
 
 ---
 action: 
@@ -522,59 +474,11 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Fuelcard Telesales Representative
-company: Ford Fuels - Agency - Permanent
-location: Yate
-source: JobG8
-job_id: jobg8-108070751
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Home Based Marketing and Sales
-company: Etre Professional - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2196982
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Internal Communications Officer
-company: HFT - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2158353
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: IP Records Administrator / Records Paralegal
 company: The Law Support Group - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-2178869
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing and Creative Lead
-company: HFT - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2158290
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -630,30 +534,6 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Senior External Communications and Media Manager
-company: HFT - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2158239
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Internal Communications Manager
-company: HFT - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2195049
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
@@ -662,7 +542,7 @@ job_id: jobg8-2208068
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -685,18 +565,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-2088889
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part Time Finance Administrator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2065279
 reason: Separate employment market.
 ---
 

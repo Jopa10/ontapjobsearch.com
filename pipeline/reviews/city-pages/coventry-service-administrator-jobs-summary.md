@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 8
 - automatic review: 1
-- automatic exclude: 28
-- effective include: 10
+- automatic exclude: 30
+- effective include: 8
 - effective review: 1
-- effective exclude: 28
+- effective exclude: 30
 
-## INCLUDE (10)
+## INCLUDE (8)
 
 ---
 action: 
@@ -88,30 +88,6 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: EXAMS OFFICER, BARR’S HILL SCHOOL
-company: Barr's Hill School
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-barr-s-hill-school-barr-s-hill-school
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing Executive
-company: Workstreet - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-2067815
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part Time Finance Manager
 company: RM RECRUIT LIMITED - Agency - Permanent
 location: Coventry
@@ -158,19 +134,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-2-days-per-week
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2065799
-reason: Separate employment market.
----
+## EXCLUDE (30)
 
 ---
 action: 
@@ -248,6 +212,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Conveyancing Legal Assistant
+company: G2 Legal Limited - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-2211295
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Control
 company: Mitchell Adam - Agency - Permanent
 location: Warwickshire
@@ -297,6 +273,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2163750
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
 company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
@@ -313,6 +301,18 @@ company: Station Street Surgery
 location: Nuneaton, CV11 6HH
 source: NHS Jobs
 job_id: nhs-5656280
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Group Credit Controller
+company: Trinity House Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2211441
 reason: Separate employment market.
 ---
 

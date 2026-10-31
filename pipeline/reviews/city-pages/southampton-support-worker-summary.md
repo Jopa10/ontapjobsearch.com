@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 10
+- automatic review: 9
 - automatic exclude: 1
 - effective include: 0
-- effective review: 10
+- effective review: 9
 - effective exclude: 1
 
 ## INCLUDE (0)
 
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -95,18 +95,6 @@ company: SCA Care - Agency - Temporary
 location: New Milton
 source: JobG8
 job_id: jobg8-108121769
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mental Healthcare Assistant
-company: MCS Healthcare - Agency - Temporary
-location: Fordingbridge
-source: JobG8
-job_id: jobg8-108072729
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 

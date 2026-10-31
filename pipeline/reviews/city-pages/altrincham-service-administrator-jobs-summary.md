@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 8
+- automatic include: 6
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 4
-- effective review: 8
+- effective include: 6
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,6 +64,30 @@ reason: Exact approved Altrincham workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Robert Walters - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-2163415
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant - Cost Control
+company: Halecroft Recruitment - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-2212034
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal Accounts Assistant
 company: NC Associates - Agency - Permanent
 location: Altrincham
@@ -72,7 +96,19 @@ job_id: jobg8-2205270
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (10)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Adaptable Recruitment - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2211823
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -102,6 +138,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: RG Consultancy Ltd - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2211142
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Trafford
@@ -119,18 +167,6 @@ company: NC Associates - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-2201117
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: IVA Administrator
-company: Imperium Financial Recruitment - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2066888
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -167,6 +203,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-2194866
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk - Maternity
+company: Tameside and Glossop Integrated Care NHS Foundation Trust
+location: Ashton Under Lyne, OL6 9RW
+source: NHS Jobs
+job_id: nhs-5692303
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

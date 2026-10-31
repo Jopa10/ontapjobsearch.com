@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 5
+- automatic include: 10
+- automatic review: 6
 - automatic exclude: 20
-- effective include: 9
-- effective review: 5
+- effective include: 10
+- effective review: 6
 - effective exclude: 20
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -53,6 +53,18 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
+company: Consortium Professional Recruitment - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2163066
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
 company: Michael Page Finance - Agency - Permanent
 location: York
 source: JobG8
@@ -68,7 +80,7 @@ title: Finance Assistant
 company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2192085
+job_id: jobg8-2211816
 reason: Approved York catchment.
 ---
 
@@ -132,7 +144,7 @@ job_id: nhs-5689323
 reason: Approved York catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -143,6 +155,18 @@ company: Magpie Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-2180626
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Secretary
+company: G2 Legal Limited - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-2211808
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -166,7 +190,7 @@ title: Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
 source: JobG8
-job_id: jobg8-2197254
+job_id: jobg8-2210748
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -195,6 +219,18 @@ reason: No approved York catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (20)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Receivable Controller
+company: Nigel Wright Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2207066
+reason: Broad regional label; not York-city evidence.
+---
 
 ---
 action: 
@@ -349,18 +385,6 @@ company: Mobilus Ltd - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2113473
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal - Family
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2065406
 reason: Broad regional label; not York-city evidence.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 9
+- automatic include: 6
+- automatic review: 11
 - automatic exclude: 0
-- effective include: 8
-- effective review: 9
+- effective include: 6
+- effective review: 11
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (6)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Devon Partnership NHS Trust
 location: Exeter, EX2 7FW
 source: NHS Jobs
 job_id: nhs-5686960
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107919719
 reason: Exact approved Exeter workplace.
 ---
 
@@ -69,18 +57,6 @@ company: Pertemps Plymouth Commercial - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-2199982
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Fleet Distribution Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107939734
 reason: Exact approved Exeter workplace.
 ---
 
@@ -120,7 +96,19 @@ job_id: nhs-5693833
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (9)
+## REVIEW (11)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2164301
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -179,6 +167,18 @@ company: Plymouth High School for Girls
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-sen-medical-administrator
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Finance Officer
+company: Trial Balance Consulting - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2163206
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

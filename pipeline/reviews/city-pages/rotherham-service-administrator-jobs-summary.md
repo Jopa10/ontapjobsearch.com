@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 39
+- automatic review: 40
 - automatic exclude: 0
 - effective include: 10
-- effective review: 39
+- effective review: 40
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,31 @@ job_id: nhs-5686077
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (39)
+## REVIEW (40)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2164297
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable / Finance Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2164314
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -179,6 +203,18 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
 source: NHS Jobs
 job_id: nhs-5694088
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Audience Development Coordinator - Local Authority - Libraries
+company: Reed - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2210544
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -323,30 +359,6 @@ company: qed legal - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2123182
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Income Assistant / Finance Administrator - Local Authority
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2067582
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: IP Administrator (Experienced)
-company: Withers & Rogers - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-108207449
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

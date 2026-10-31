@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 44
+- automatic review: 42
 - automatic exclude: 10
 - effective include: 4
-- effective review: 44
+- effective review: 42
 - effective exclude: 10
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-2169124
 reason: Exact approved Crawley workplace.
 ---
 
-## REVIEW (44)
+## REVIEW (42)
 
 ---
 action: 
@@ -102,18 +102,6 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
-title: Activities Coordinator
-company: Operations Resources Limited - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107921098
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Practice Plus Group - Health in Justice
 location: Lewes, BN7 1EA
@@ -126,35 +114,11 @@ reason: No approved Crawley employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Administrator (Part Time)
-company: Practice Plus Group - Health in Justice
-location: Lewes, BN7 1EA
-source: NHS Jobs
-job_id: nhs-5683798
-reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper
 company: Office Angels - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2099007
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper 6-Month Contract
-company: Marks Sattin - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2066607
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -318,6 +282,18 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Travail Employment Group - Burgess Hill - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2210064
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant - Construction
 company: Henley Chase Limited - Agency - Permanent
 location: Sussex
@@ -426,18 +402,6 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
-title: Mortgage Administrator
-company: Hunters Recruitment & Training Limited - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-108225614
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patent Records Administrator - Brighton Hybrid Working
 company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Sussex
@@ -492,6 +456,18 @@ location: Uckfield
 source: JobG8
 job_id: jobg8-2191128
 reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Practice Bookkeeper
+company: Harvey John - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2210316
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
 ---
@@ -620,18 +596,6 @@ reason: The stated workplace belongs outside the approved Crawley employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Assistant
-company: Morgan McKinley - Agency - Permanent
-location: Horsham
-source: JobG8
-job_id: jobg8-2064741
-reason: The stated workplace belongs outside the approved Crawley employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Accounts Payable
 company: CMA Recruitment Group - Agency - Permanent
 location: Chichester
@@ -685,6 +649,18 @@ company: Witterings Medical Centre
 location: Chichester, PO20 8BH
 source: NHS Jobs
 job_id: nhs-5691080
+reason: The stated workplace belongs outside the approved Crawley employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist / Administrator
+company: Integrated Care 24 Ltd
+location: Brighton, BN1 7GF
+source: NHS Jobs
+job_id: nhs-5649373
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 

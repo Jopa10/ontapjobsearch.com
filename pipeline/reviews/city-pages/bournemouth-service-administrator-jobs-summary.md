@@ -4,8 +4,8 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 31
+- automatic include: 3
+- automatic review: 23
 - automatic exclude: 0
-- effective include: 4
-- effective review: 31
+- effective include: 3
+- effective review: 23
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -60,19 +60,7 @@ job_id: nhs-5586731
 reason: Exact approved Bournemouth workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk - Stroke Unit
-company: University Hospitals Dorset NHS Foundation Trust
-location: Bournemouth, BH7 7DW
-source: NHS Jobs
-job_id: nhs-5675567
-reason: Exact approved Bournemouth workplace.
----
-
-## REVIEW (31)
+## REVIEW (23)
 
 ---
 action: 
@@ -83,18 +71,6 @@ company: Oyster Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2095929
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Agincare Group - Agency - Permanent
-location: Weymouth
-source: JobG8
-job_id: jobg8-108179266
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -174,47 +150,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: Leaders In Care Recruitment Ltd - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108069104
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Office Angels - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2097630
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2064846
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Resource Recruitment - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-2066041
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -258,35 +198,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Financial Services Administrator
-company: Burgh Recruitment Limited - Agency - Permanent
-location: Shaftesbury
-source: JobG8
-job_id: jobg8-108113939
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Fundraising co-ordinator
 company: Mosaic - Supporting Bereaved Children - Agency - Permanent
 location: Dorchester
 source: JobG8
 job_id: jobg8-2162517
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HubSpot Funnel & Conversion Marketing Manager - Travel Franchise
-company: Recruitment Revolution - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108158396
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -311,18 +227,6 @@ company: RecruitmentRevolution.com - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2111341
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: The Apples Medical Centre
-location: Sherborne, DT9 3DG
-source: NHS Jobs
-job_id: nhs-5679447
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -407,18 +311,6 @@ company: Ferndown Middle School
 location: Ferndown
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admin-assistant-ferndown-middle-school
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist - Weekend
-company: Somerleigh Court Care Home - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108242631
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
