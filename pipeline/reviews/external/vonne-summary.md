@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-30
-review_fingerprint: 783cb97fe4c6a632462706dad9e156b38537fb07de2b4a80545b2983445706cc
+review_date: 2026-10-31
+review_fingerprint: e777c2cc71c87f912de9ee0b9d74c3d050dfea71473de40fd71570ed886e2180
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-30T13:22:21+00:00
+Run generated: 2026-10-31T12:57:37+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 442
+JobG8 comparison rows: 421
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -23,7 +23,7 @@ Approved NEJobs comparison rows: 0
 - Obvious hard passes not detail-fetched: 12
 - Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 1
-- Generic/derived geography rows requiring review: 3
+- Generic/derived geography rows requiring review: 2
 - Retained target candidates: 14
 
 ## Outcomes
@@ -104,11 +104,11 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 - [Advice Services Manager (Community)](https://www.vonne.org.uk/vonne-jobs-details?cid=173555) — out-of-scope VONNE occupation.
 - [Bid Writer (Trusts and Foundations)](https://www.vonne.org.uk/vonne-jobs-details?cid=173383) — insufficient service-admin evidence.
 - [Cancer and Dementia Care Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173588) — out-of-scope VONNE occupation.
-- [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
 - [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
 - [Family Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173625) — out-of-scope VONNE occupation.
 - [Grants Administration Officer (Small and Medium Grants)](https://www.vonne.org.uk/vonne-jobs-details?cid=173618) — insufficient service-admin evidence.
 - [Income and Project Delivery Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173614) — insufficient service-admin evidence.
+- [Monitoring and Co-ordination Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173633) — out-of-scope VONNE occupation.
 - [Outreach Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173624) — out-of-scope VONNE occupation.
 
 ## Safety boundary
