@@ -2,15 +2,27 @@
 
 review_date: 2026-10-31
 
-- Open Administrative & Clerical rows reviewed: 2221
-- Auto/remembered selected: 413
-- Selected HC Tier A: 214
-- Selected HC Tier B: 199
-- POSS awaiting decision: 1718
+- Open Administrative & Clerical rows reviewed: 2213
+- Auto/remembered selected: 411
+- Selected HC Tier A: 213
+- Selected HC Tier B: 198
+- POSS awaiting decision: 1712
 - Excluded: 0
 - HARD_PASS: 90
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Norfolk | Norwich, NR4 7UY | £28392.00 to £31157.00 | Insulin Pump MDT Co-ordinator & Administrator
+source_job_id: 5699270
+title: Insulin Pump MDT Co-ordinator & Administrator
+employer: Norfolk and Norwich University Hospital
+region: Norfolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-1021
+factual_fingerprint: 12f61ff079d12e58cd7bb5ac3579596f226bc8bc82ae4fee2ae92a3f6bc1108e
+---
 
 ---
 action:
@@ -70,18 +82,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-1043
 factual_fingerprint: 4ce536bb8d02fc909a20370c31a73a9246c47d6bcd4c4fc3d20fe736e9b40e40
----
-
----
-action:
-POSS | NHS Jobs | London | London, WC1N 3BG | £34186.00 to £37389.00 | Administration Coordinator
-source_job_id: 5697589
-title: Administration Coordinator
-employer: University College London Hospitals NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-1052
-factual_fingerprint: ae1b377c19e7fac21f98228498aef3a3a96d7cb1d2cb6906e05df69929c390d4
 ---
 
 ---
@@ -334,18 +334,6 @@ region: West Midlands - Coventry & Warwickshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1350
 factual_fingerprint: ab03237dc7cae2154bd21ad8e1e82e44567db0a20de687ed4d3d95112856f44f
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV3 3DG | £25760.00 to £27476.00 | Administrative Coordinator
-source_job_id: 5695416
-title: Administrative Coordinator
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1348
-factual_fingerprint: 7c47e8376a8119b1a4f154385fb3680c2d20c49614d0d13f16c82f97e013ce14
 ---
 
 ---
@@ -2290,18 +2278,6 @@ region: Norfolk
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-1014
 factual_fingerprint: 9fe875c2d65d0b114e9ca004f26e5645851681f512e1ebb9d4e0a7ab8040d5d5
----
-
----
-action:
-POSS | NHS Jobs | London | Romford, RM7 0AG | £36943.00 to £44900.00 | Band 5 Patient Pathway Supervisor
-source_job_id: 5696436
-title: Band 5 Patient Pathway Supervisor
-employer: Barking, Havering and Redbridge University Hospitals NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9162-26-0295
-factual_fingerprint: 809767fa7c7abc2091fe3b68b596ca16f5c5de7e98393738e84ccd8d13b8f84f
 ---
 
 ---
@@ -4418,18 +4394,6 @@ factual_fingerprint: f82ee7b37a65a7d518bd77cefd7cabbfe9a6cf4676f8ec261f9f9392e28
 
 ---
 action:
-POSS | NHS Jobs | Essex | Chelmsford, CM1 7ET | £25760.00 | Support worker
-source_job_id: 5693884
-title: Support worker
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2607
-factual_fingerprint: f6107497373582685794cb8633bbea98005cea2a1be33b8683e001738ce667fe
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - West | Bradford, BD3 8QH | Negotiable | Medical Receptionist and Administrator
 source_job_id: 5693960
 title: Medical Receptionist and Administrator
@@ -6034,18 +5998,6 @@ region: West Midlands - Birmingham & Solihull
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1671
 factual_fingerprint: 60c8c0b436da529dd838ac55f094ea36ec5f4b94f7d60aaac6265ab6c30b5c52
----
-
----
-action:
-POSS | NHS Jobs | Hertfordshire | Stevenage, SG14AB | £57528.00 to £64750.00 | Renal Network, East of England Business Intelligence Developer
-source_job_id: 5691588
-title: Renal Network, East of England Business Intelligence Developer
-employer: East and North Hertfordshire Teaching NHS Trust
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0648
-factual_fingerprint: 9da957fdd14a432ee9a1c41c95807af85698c320c687d277146ee6ca052410cb
 ---
 
 ---
@@ -9754,18 +9706,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0090-26-0029
 factual_fingerprint: a464d3478289d982d2c8f2ebb59ac584b4051206ac1e4c8341967d85d6c0a91a
----
-
----
-action:
-POSS | NHS Jobs | London | Sutton, SM2 5PT | £33262.00 to £36027.00 | MDT Navigator
-source_job_id: 5685770
-title: MDT Navigator
-employer: The Royal Marsden NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0902
-factual_fingerprint: f444283bc307cd37f812c3d5ed658942614f4fd427570d5c50cbd4de9da45328
 ---
 
 ---
@@ -15346,18 +15286,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0027-26-0026
 factual_fingerprint: 07625c9a0dfead298037c861ba5581c306fb153be8c793de02b8fb436d57adff
----
-
----
-action:
-POSS | NHS Jobs | London | London, NW1 5JD | £58133.00 to £65261.00 | Senior Innovation Advisor
-source_job_id: 5673735
-title: Senior Innovation Advisor
-employer: Chelsea and Westminster Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-26-195
-factual_fingerprint: b9e18eb23fd82fd8c104163ae00108f715b4580bffa37854bc12bd865fecfabd
 ---
 
 ---
