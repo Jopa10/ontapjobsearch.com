@@ -2,11 +2,11 @@
 
 review_date: 2026-11-01
 
-- Open Administrative & Clerical rows reviewed: 2115
-- Auto/remembered selected: 386
-- Selected HC Tier A: 204
-- Selected HC Tier B: 182
-- POSS awaiting decision: 1644
+- Open Administrative & Clerical rows reviewed: 2112
+- Auto/remembered selected: 384
+- Selected HC Tier A: 203
+- Selected HC Tier B: 181
+- POSS awaiting decision: 1643
 - Excluded: 0
 - HARD_PASS: 85
 
@@ -5554,18 +5554,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9708-MSE585
 factual_fingerprint: ad82ad1bc48b5f0784955599f60c526033490badd04e2c7c22c28263a507672b
----
-
----
-action:
-POSS | NHS Jobs | North East - Tees Valley | Middlesbrough, TS4 3BW | £32073.00 to £39043.00 | Research Coordinator (Academic Cardiovascular Unit)
-source_job_id: 5691807
-title: Research Coordinator (Academic Cardiovascular Unit)
-employer: South Tees Hospitals NHS Foundation Trust
-region: North East - Tees Valley
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9328-26-0594
-factual_fingerprint: 587143260d556a5f98da651302311106a33bbe435a6e5ebd6a7c845514644a46
 ---
 
 ---
