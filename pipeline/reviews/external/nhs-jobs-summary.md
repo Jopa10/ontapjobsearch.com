@@ -2,11 +2,11 @@
 
 review_date: 2026-11-01
 
-- Open Administrative & Clerical rows reviewed: 2120
-- Auto/remembered selected: 385
+- Open Administrative & Clerical rows reviewed: 2115
+- Auto/remembered selected: 386
 - Selected HC Tier A: 204
-- Selected HC Tier B: 181
-- POSS awaiting decision: 1650
+- Selected HC Tier B: 182
+- POSS awaiting decision: 1644
 - Excluded: 0
 - HARD_PASS: 85
 
@@ -730,18 +730,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9259-26-1879
 factual_fingerprint: 3a9cfd04770333ab72865ba4575dcb6d11a2619433382ef681f3743722a42618
----
-
----
-action:
-POSS | NHS Jobs | London | London, SW3 6JJ | £34186.00 to £37389.00 | Staff Administrator
-source_job_id: 5697905
-title: Staff Administrator
-employer: The Royal Marsden NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0676
-factual_fingerprint: dbad998b1ece15ff00e76fbee82bf42fff48aa276a622a2864f4f8024ff9ec15
 ---
 
 ---
@@ -4330,18 +4318,6 @@ region: Cambridgeshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1351
 factual_fingerprint: f19ebdfaefa6df90edba5a7755f3acf19ed6b7b638c31cc9d9277218459a3732
----
-
----
-action:
-POSS | NHS Jobs | Essex | Grays, RM16 3EU | £25760.00 | (**) Ward Clerk - Orsett Hospital
-source_job_id: 5693980
-title: (**) Ward Clerk - Orsett Hospital
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2610
-factual_fingerprint: bdb52261d222582a6253c899ad674eb8e662395be2aff59527368ddc56918e2b
 ---
 
 ---
@@ -9290,18 +9266,6 @@ factual_fingerprint: 07ebf2f6c8a8386c53b2cec161092bbdd7945395ee2447a4a53e4157426
 
 ---
 action:
-POSS | NHS Jobs | Hertfordshire | St Albans, AL1 3JE | £25883.00 to £26958.00 | Band 3- Booking and Request List Scheduler, Outpatients
-source_job_id: 5686088
-title: Band 3- Booking and Request List Scheduler, Outpatients
-employer: West Hertfordshire Teaching Hospitals NHS Trust
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9360-26-0488
-factual_fingerprint: 908e7b5d4532c74d4f348749ff5a93dcead60a2b7eb2600d6bfb2ba8fa9043be
----
-
----
-action:
 POSS | NHS Jobs | Hampshire | Cosham, PO6 3LY, Isle of Wight , PO30 5TG | £32073.00 to £39043.00 | Corporate Governance Officer
 source_job_id: 5686703
 title: Corporate Governance Officer
@@ -12586,18 +12550,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9290-26-1247
 factual_fingerprint: f4c6f5cffed82fdee3700b173b1118e8e31880b521d4bfd321d8222a643f05f8
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - Wirral | Wirral, CH63 4JY | £49387.00 to £56515.00 | Senior Data Engineer and Technical Lead
-source_job_id: 5681647
-title: Senior Data Engineer and Technical Lead
-employer: The Clatterbridge Cancer Centre NHSFT
-region: Merseyside - Wirral
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9158-26-0275
-factual_fingerprint: fd3c3bd7a00fb54f5f2eef3e333675b8931a9bc79d451a7d7cb35c34dc3cecac
 ---
 
 ---
@@ -15890,18 +15842,6 @@ factual_fingerprint: e4e22662c3fdbee6f95b6795f94f972e7fc965e368b0617b8df3aa9c573
 
 ---
 action:
-POSS | NHS Jobs | — | Crumpsall, M8 5RB | £28392.00 to £31157.00 | Medical Secretary
-source_job_id: 5674287
-title: Medical Secretary
-employer: Greater Manchester Mental Health NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0954
-factual_fingerprint: b62a88faf68c16e1ddfe7be864d3ab65d0b4ccb9b2e1aeb81e7be186a151f0fb
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - North | Northallerton, DL7 8AE | £53051.00 to £57372.00 | Registered Childrens Home Manager
 source_job_id: 5674203
 title: Registered Childrens Home Manager
@@ -16090,18 +16030,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3328-26-0015
 factual_fingerprint: 2be5bffb3e279d90408d4975b71e250cf16978d9ddfb4e22f2ef06ff703f2afa
----
-
----
-action:
-POSS | NHS Jobs | London | London, N19 5JG | £88250.00 to £100355.00 | Head of Finance
-source_job_id: 5672734
-title: Head of Finance
-employer: Whittington Hospital NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9220-26-0712
-factual_fingerprint: 73c05a49970dca7d071943943ed6f44e80a216c2ea8d6648f00d3b97f40913f7
 ---
 
 ---
