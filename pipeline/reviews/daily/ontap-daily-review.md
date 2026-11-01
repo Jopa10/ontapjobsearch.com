@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-11-01
-generated_at: 2026-11-01T14:24:50+00:00
+generated_at: 2026-11-01T19:09:24+00:00
 
-**387 job(s) await a human decision; 0 already answered (387 review rows).**
+**391 job(s) await a human decision; 0 already answered (391 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-11-01 | 317 | — |
+| JobG8 | OK | 2026-11-01 | 321 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-11-01 | 1 | — |
 | Teaching Vacancies | OK | 2026-11-01 | 69 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 317 to review
+## JobG8 — 321 to review
 
 ---
 action:
@@ -573,6 +573,24 @@ hub_fingerprint: 78a91a5727a090590b248f2feb00da748ece9f3b944f51feedffad492e4d1ac
 
 ---
 action:
+POSS | JobG8 | Cumbria - South | Kendal | £26425 per year | Housing Support Worker
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 108261911
+title: Housing Support Worker
+employer: 
+location: Kendal
+region: Cumbria - South
+salary: £26425 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8ffe4fecbed4326dd87b1ff371fff8cddfee0bf6d75239b5e59c7f5ed01ac184
+---
+
+---
+action:
 POSS | JobG8 | Cumbria - South | Kirkby Stephen | £32211 - £34811 per year | Childrens Residential Support Worker
 source_key: jobg8
 source: JobG8
@@ -605,6 +623,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - Excerpt supports commercial administration; avoid a blanket allowance for quantity-surveying commercial roles.; manual review required: annualised upper salary £39,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: e2237effc4cf1ebb2ec552db7489338ac17cf7bf5c372619433b5b7e0b18de00
+---
+
+---
+action:
+POSS | JobG8 | Dorset | Dorset | £16.47 per hour | Care Assistant - Bank - Care Home
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225759493
+title: Care Assistant - Bank - Care Home
+employer: 
+location: Dorset
+region: Dorset
+salary: £16.47 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: eb6f11475a98283578a0c89f69a5cc62d8109481349c69cc158b2a0aa2b4bec0
 ---
 
 ---
@@ -713,6 +749,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - Procurement administration is eligible unless substantial expertise or qualifications are mandatory; manual review required: description appears to make specialist qualifications or substantial prior experience mandatory
 source_url: 
 hub_fingerprint: 3e09c38b2926034329a24f03bca0db6cf69e87c94eebb3b69ce202831af35e54
+---
+
+---
+action:
+POSS | JobG8 | Dorset | Ferndown | £15.47 per hour | Care Assistant - Bank - Care Home
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225754044
+title: Care Assistant - Bank - Care Home
+employer: 
+location: Ferndown
+region: Dorset
+salary: £15.47 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 872e905e232e44937c1772e71d5e369806a1895d6a9b0b5e1fe8e827ddeab7c0
 ---
 
 ---
@@ -3755,6 +3809,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - title register: high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
 source_url: 
 hub_fingerprint: a401fb2c409f09540bc2a16e557ccf83525a25a28708599519a0fcb38b0f439d
+---
+
+---
+action:
+POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | Darlington | £15.58 per hour | Care Assistant - Bank - Care Home
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225708841
+title: Care Assistant - Bank - Care Home
+employer: 
+location: Darlington
+region: North East - County Durham & Darlington/Hartlepool
+salary: £15.58 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: aacf39a0c557b8b3cf3febf4faabf8fa96b3e3db2ba772e072f4dc318a0d797e
 ---
 
 ---
