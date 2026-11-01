@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-31
-review_fingerprint: a63459eef811b59be249df94ec6a9481cc6f45e4d8cbf65f918d2bee72409199
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: 44fe2f75f85d862d7b5346c66dbdb10b89008b4846e8cfe837e3e7eb3873fb05
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 5
+- Records: 27
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 21
@@ -79,6 +79,21 @@ factual_fingerprint: 00922d76a9688076ae6d8ea8c28281b87e286c73dcc7660622e04554bd5
 source: Teaching Vacancies
 source_job_id: school-receptionist-stoke-damerel-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-stoke-damerel-community-college
+---
+
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL4 6HT | TSAT Pay Group 3 pro rata to £12,946 - £15,024 for hours and weeks stated (£26,866 - £31,179 FTE ) | SEN Medical Administrator
+employer: Plymouth High School for Girls
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 75e50ef159e0f59b69b3e17ebb9592ce3a65111d2ae27bba904a34143ef14d75
+source: Teaching Vacancies
+source_job_id: sen-medical-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-medical-administrator
 ---
 
 ---

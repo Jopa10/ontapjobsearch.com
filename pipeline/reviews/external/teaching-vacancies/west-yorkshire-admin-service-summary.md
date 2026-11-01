@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-31
-review_fingerprint: 0a9a67a9a57b1eea9ef460154070d9ee96862822ec8288fb3eb7f59221fea3d7
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: e44d5c4389448c1720d5a9e026b858deda55c97ea8afd87396ed826bc3fbe9b6
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 47
-- Selected: 16
-- POSS awaiting decision: 2
+- Selected: 12
+- POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 29
 
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Yorkshire - West | Mirfield, Yorkshire and the Humber, WF14 9EZ | £23,632.00 - £24,778.00 Annually (Actual) Grade 5, Scale Point 5-8. FTE - £26,427 - £27,709) | Administration Assistant
-employer: The Mirfield Free Grammar
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: e66ce8127782172ac9595d451a2540aa130398ce1d535a46ac60ec7f05fcdbea
-source: Teaching Vacancies
-source_job_id: administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
----
-
----
-action: 
 SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7EB | £23,274.00 - £24,579.00 Annually (Actual) | Attendance Officer
 employer: Bronte Girls' Academy
 closing_date: 2026-11-04T12:00:00+00:00
@@ -64,21 +49,6 @@ factual_fingerprint: 266088610da4e1c20cd23015664ef6f551d8484f35e5625882990af1091
 source: Teaching Vacancies
 source_job_id: attendance-officer-bronte-girls-academy-bradford
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-bronte-girls-academy-bradford
----
-
----
-action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
-employer: All Saints Catholic College
-closing_date: 2026-11-03T09:00:00+00:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 48b7d80023caaf1296d470a5bb1829efdf0f8d35fd8139f52e9eaa2f0ff53848
-source: Teaching Vacancies
-source_job_id: business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
 ---
 
 ---
@@ -139,36 +109,6 @@ factual_fingerprint: 29d9fcc56f21a56c8160e1380070fd716bc04f08978e48eebcc122a1d8c
 source: Teaching Vacancies
 source_job_id: finance-officer-greenhead-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greenhead-college
----
-
----
-action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4ES | £25,951.00 to £27,733.00 per annum FTE | HR Administrator
-employer: Greenhead College
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: b75ea3ca87766fb6e62cac87ca8616e2994d3fc8541660cea6fdc4add3af5c2c
-source: Teaching Vacancies
-source_job_id: hr-administrator-greenhead-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-greenhead-college
----
-
----
-action: 
-SELECTED | Yorkshire - West | Wetherby, Yorkshire and the Humber, LS23 6DX | £25,185-£25,989 | Office Administrator
-employer: Primrose Lane Primary School
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: f22604bc3563e4361c632b9cb1a1cce54fa268cfdb030b8d12501376f85b8364
-source: Teaching Vacancies
-source_job_id: office-administrator-primrose-lane-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-primrose-lane-primary-school
 ---
 
 ---
@@ -265,6 +205,51 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-administrato
 
 ---
 action: 
+POSS | Yorkshire - West | Mirfield, Yorkshire and the Humber, WF14 9EZ | £23,632.00 - £24,778.00 Annually (Actual) Grade 5, Scale Point 5-8. FTE - £26,427 - £27,709) | Administration Assistant
+employer: The Mirfield Free Grammar
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: e66ce8127782172ac9595d451a2540aa130398ce1d535a46ac60ec7f05fcdbea
+source: Teaching Vacancies
+source_job_id: administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
+---
+
+---
+action: 
+POSS | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
+employer: All Saints Catholic College
+closing_date: 2026-11-03T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 48b7d80023caaf1296d470a5bb1829efdf0f8d35fd8139f52e9eaa2f0ff53848
+source: Teaching Vacancies
+source_job_id: business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
+---
+
+---
+action: 
+POSS | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4ES | £25,951.00 to £27,733.00 per annum FTE | HR Administrator
+employer: Greenhead College
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: b75ea3ca87766fb6e62cac87ca8616e2994d3fc8541660cea6fdc4add3af5c2c
+source: Teaching Vacancies
+source_job_id: hr-administrator-greenhead-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-greenhead-college
+---
+
+---
+action: 
 POSS | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | HR Officer
 employer: Great Heights Academy Trust
 closing_date: 2026-11-09T09:00:00+00:00
@@ -276,6 +261,21 @@ factual_fingerprint: cb72494f6b56c6d181f0dbbe2b33e3f3b76d2b6e9214fc41b4313f7eb1a
 source: Teaching Vacancies
 source_job_id: hr-officer-great-heights-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-heights-academy-trust
+---
+
+---
+action: 
+POSS | Yorkshire - West | Wetherby, Yorkshire and the Humber, LS23 6DX | £25,185-£25,989 | Office Administrator
+employer: Primrose Lane Primary School
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: f22604bc3563e4361c632b9cb1a1cce54fa268cfdb030b8d12501376f85b8364
+source: Teaching Vacancies
+source_job_id: office-administrator-primrose-lane-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-primrose-lane-primary-school
 ---
 
 ---

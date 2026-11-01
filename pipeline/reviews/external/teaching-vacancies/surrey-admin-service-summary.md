@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-31
+review_date: 2026-11-01
 review_fingerprint: 253e14ebd60bc3f009b3fd30acfbe3c7fd46839887e74e9d4d5c110b68160bf8
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE

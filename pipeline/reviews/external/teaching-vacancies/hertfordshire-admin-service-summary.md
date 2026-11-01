@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-31
+review_date: 2026-11-01
 review_fingerprint: a925b157b0971f551689062107ce952e06a87cac2bab50d894cfaa26e988bfb5
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -78,7 +78,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 - [ATTENDANCE & SAFEGUARDING OFFICER](https://teaching-vacancies.service.gov.uk/jobs/attendance-safeguarding-officer-king-james-academy-royston) — Insufficient admin/service evidence.
 - [Deputy Office Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-office-manager-robert-barclay-academy-hoddesdon-hertfordshire) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Excluded senior/management title.
 - [Receptionist/Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school) — No usable numeric salary.
 - [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-95102662-222e-4ff2-a528-9767fe48abd5) — Out-of-scope occupation: teaching assistant.
 

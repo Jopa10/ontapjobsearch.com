@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-31
-review_fingerprint: e6f049793de8656b1e902677e28213fd97f04aa0b29d586b4fc9de25d2c38395
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: ac560b748826f76e73ae8557cc276ca897b7f8e3e1a9feebb520bf62b54856e3
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
@@ -49,21 +49,6 @@ factual_fingerprint: 2a882b72bd16bcd14c70c9f77f2c1d8e100b8f2ee3f3db79113c3398c3c
 source: Teaching Vacancies
 source_job_id: data-administrator-st-john-fisher-catholic-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-st-john-fisher-catholic-academy
----
-
----
-action: 
-SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LW | £23,732.00 - £25,710.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £27,709 to £30,023 (Grade F, Scale Points 8-13) | SEND Administrator
-employer: George Pindar School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c5333257d79c5c65e0b70cf015d971b29a1816ca73dd1d1402ad993f528d2172
-source: Teaching Vacancies
-source_job_id: send-administrator-george-pindar-school-scarborough
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-george-pindar-school-scarborough
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-31
-review_fingerprint: a09984c853241b34eeaf75287aad7b69cc531759baafe5238c9da1c9f444c3c6
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: 256cfb54537af60e6047be4b433dae125b395feff284d69d1f49521aac58f0ef
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 10
+- Records: 15
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -79,21 +79,6 @@ factual_fingerprint: 4398f732ce5ba7829b10e197504a00594e5fb3a5533f92dd8892ce2f0b5
 source: Teaching Vacancies
 source_job_id: attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
----
-
----
-action: 
-SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN37 9AT | £26,847.00 - £27,709.00 Annually (FTE) Grade D Points 06 to 08 (£26,847 to £27,709 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £10,688.82. | Attendance Officer - Temporary (7764)
-employer: Willows Academy
-closing_date: 2026-10-31T23:59:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5dd67c09618150fea2702956c2c4e411399b62229334514ed96ab47bc321ed2c
-source: Teaching Vacancies
-source_job_id: attendance-officer-temporary-7764
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-temporary-7764
 ---
 
 ---

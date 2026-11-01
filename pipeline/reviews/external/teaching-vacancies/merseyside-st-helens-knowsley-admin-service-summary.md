@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - St Helens & Knowsley
 
-review_date: 2026-10-31
-review_fingerprint: 1af7c8590da09b8d68acf5b72e6568394a3400a93e9b2defbceba1bc40912e48
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: 445b098c1cdae5824be3228d86c61b052614cc03499f7bbc5b9075ea990c3862
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Merseyside - St Helens & Knowsley
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 2
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Merseyside - St Helens & Knowsley | St Helens, North West, WA9 5AU | £27,274.00 - £29,070.00 Annually (Actual) Band E: NJC scp 07 (£27,274) to NJC 11 (£29,070) | Finance Assistant
-employer: The Sutton Academy
-closing_date: 2026-11-01T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ac4bfef2f1e44fadda1f62a9b424143297bcd9607ef4f3f7f2928e87038f754a
-source: Teaching Vacancies
-source_job_id: finance-assistant-the-sutton-academy-st-helens-merseyside
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-sutton-academy-st-helens-merseyside
----
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-31
-review_fingerprint: d32fe07962f64e64d3aec391c33cb977289553d18288adbce6f186eb40daf886
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: fadd6b0d1a962a71c4ef487871fcf86abb6e0dd632b9bad7ebf8720d39644eb2
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 4
+- Records: 16
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 11
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 06d2322c4cbc6344f4c3234770488518cf27a3a93bb1280485e0f7ec9a3
 source: Teaching Vacancies
 source_job_id: school-receptionist-445c0d5c-e6b9-4aae-b312-fdd6826ebbbc
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-445c0d5c-e6b9-4aae-b312-fdd6826ebbbc
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG1 8EQ | £27,274.00 Annually (FTE) Grade 4 SCP 7 - £27,274.00 FTE - 37 hours per week - TTO plus 5 INSET days - Permanent | SEN/Pastoral Administrator with Office Responsibilities
-employer: River Academy
-closing_date: 2026-10-31T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 831a43149c4c9f59cf80852e0728a3a2d6b10186968f724e33ef321838606728
-source: Teaching Vacancies
-source_job_id: sen-pastoral-administrator-with-office-responsibilities
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-pastoral-administrator-with-office-responsibilities
 ---
 
 ---
@@ -121,7 +106,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 
 - [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
 - [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Excluded senior/management title.
-- [Exams Manager (part time)](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-part-time) — Excluded senior/management title.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer-bradfield-c-e-primary-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-joseph-s-catholic-high-school-slough-berkshire) — Excluded senior/management title.
 - [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-maiden-erlegh-school) — Out-of-scope occupation: technician.

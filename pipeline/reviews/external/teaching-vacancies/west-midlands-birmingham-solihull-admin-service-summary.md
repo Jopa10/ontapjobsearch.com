@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-31
-review_fingerprint: 4c24bf8224ef934c2ff7745db9d4bd444caff2034fadae719f70d1643c0bde15
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: ac643882ea2de1d7d80b991fbead1ab63dff4f40410f36750c12295f840d158c
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 24
-- Selected: 16
-- POSS awaiting decision: 0
+- Selected: 13
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 8
 
@@ -49,21 +49,6 @@ factual_fingerprint: 3263133a5339352ba98373b65ba78d46d594c2ae7b184b876e8ad886a12
 source: Teaching Vacancies
 source_job_id: administrative-assistant-receptionist-st-margaret-s-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-st-margaret-s-church-of-england-primary-school
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17 | Administrator
-employer: E-ACT Shenley Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 00c9d7a50319ebf8ed9b6253ca8b71d702957a9471ecebd97db59d1afdaa17ab
-source: Teaching Vacancies
-source_job_id: administrator-cf5e5aab-64b0-42ed-a819-f37cfdc52017
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-cf5e5aab-64b0-42ed-a819-f37cfdc52017
 ---
 
 ---
@@ -231,13 +216,30 @@ source_job_id: pastoral-support-and-administrator-apprentice-e-act-heartlands-ac
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-and-administrator-apprentice-e-act-heartlands-academy-birmingham-west-midlands
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B73 6UE | £21,775.00 - £23,933.00 Annually (Actual) | School Administrator
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17 | Administrator
+employer: E-ACT Shenley Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 00c9d7a50319ebf8ed9b6253ca8b71d702957a9471ecebd97db59d1afdaa17ab
+source: Teaching Vacancies
+source_job_id: administrator-cf5e5aab-64b0-42ed-a819-f37cfdc52017
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-cf5e5aab-64b0-42ed-a819-f37cfdc52017
+---
+
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B73 6UE | £21,775.00 - £23,933.00 Annually (Actual) | School Administrator
 employer: Sutton Park Primary
 closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: f0ada65026945e7e1421022b5f817712656cf3b1b8b5a81e1474836b35da4b50
@@ -248,11 +250,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 6LN | £26,427.00 - £26,847.00 Annually (FTE) | School Administrator
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 6LN | £26,427.00 - £26,847.00 Annually (FTE) | School Administrator
 employer: Holy Name Catholic Primary School
 closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: cee24b96349d920d57bb8b1c2732f070ee6ae6629f63fc12af82d3702a775fb7
@@ -260,10 +262,6 @@ source: Teaching Vacancies
 source_job_id: school-administrator-holy-name-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-holy-name-catholic-primary-school
 ---
-
-## POSS — choose SELECT or EXCLUDE
-
-- None.
 
 ## EXCLUDED BY REVIEW
 

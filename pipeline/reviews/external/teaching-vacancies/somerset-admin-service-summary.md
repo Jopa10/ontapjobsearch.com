@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-31
-review_fingerprint: fb3d387f7aa14ec788721a4b364db2dff82bf0cf39bc050fa85915449751b551
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: 02ee76314827ba2d76fe9bc0573fd5ed9b7d85215cd592c037c01e66e91b9c7d
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 3
-- POSS awaiting decision: 0
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Somerset | Taunton, TA2 7EG | FTE= £26,847, Actual= £12,427 | HR Administrator
-employer: The Oak Partnership Trust
-closing_date: 2026-11-03T23:59:59+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eba1dd84550ce000a14ec7ea962baf711fc3a45c4b4e7cb863f1f6ec4aa3feb0
-source: Teaching Vacancies
-source_job_id: hr-administrator-the-oak-partnership-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-oak-partnership-trust
----
 
 ---
 action: 
@@ -68,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Somerset | Taunton, TA2 7EG | FTE= £26,847, Actual= £12,427 | HR Administrator
+employer: The Oak Partnership Trust
+closing_date: 2026-11-03T23:59:59+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: eba1dd84550ce000a14ec7ea962baf711fc3a45c4b4e7cb863f1f6ec4aa3feb0
+source: Teaching Vacancies
+source_job_id: hr-administrator-the-oak-partnership-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-oak-partnership-trust
+---
 
 ## EXCLUDED BY REVIEW
 

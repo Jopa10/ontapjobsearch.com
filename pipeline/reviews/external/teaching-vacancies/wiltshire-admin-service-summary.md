@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-31
-review_fingerprint: 668c29cba5aa840737ba75c723ed6fca49cdefe41014972aa04006d130ab56d2
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: ed8065a24a3dfd460e5727c067f98ad80bf624fa5578965b9c6a500dca0cc0a8
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 9
+- Records: 16
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
@@ -94,21 +94,6 @@ factual_fingerprint: 69c4da1dcda680e53159944181315c414af766393be4178ed090503b69b
 source: Teaching Vacancies
 source_job_id: pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
----
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN5 4AT | £9,985.74 - £10,306.37 Annually (Actual) Actual salary will be determined depending on hours agreed | Progression Administrator
-employer: Bradon Forest School
-closing_date: 2026-11-01T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 89c89b0aeabbd71a2599526a59f4f2d21d195af5a457c8ae99c4f3f3d9d30bb5
-source: Teaching Vacancies
-source_job_id: progression-administrator-bradon-forest-school-swindon-wiltshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/progression-administrator-bradon-forest-school-swindon-wiltshire
 ---
 
 ---

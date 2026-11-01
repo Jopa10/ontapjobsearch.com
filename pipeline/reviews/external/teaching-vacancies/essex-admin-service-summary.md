@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-31
-review_fingerprint: 6d5ae512aa959c91ccbeb128325005a62e971bced4f8deba06e30c457a1fdb9c
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: 2204aed0819d1caf4f4d9db3e783acbbfb99cb9d01c4131606c9e8c6ba3c4619
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,42 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 19
-- Selected: 5
-- POSS awaiting decision: 1
+- Selected: 3
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 13
 
 ## SELECTED
-
----
-action: 
-SELECTED | Essex | Buckhurst Hill, East of England, IG9 6DS | £22,646.00 Annually (Actual) | Admin Assistant
-employer: Buckhurst Hill Community Primary School
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fa55814e94e2cd7588fa129cc1457f86713a7c645fe5df39f2390cb7e26dd782
-source: Teaching Vacancies
-source_job_id: admin-assistant-buckhurst-hill-community-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-buckhurst-hill-community-primary-school
----
-
----
-action: 
-SELECTED | Essex | Brentwood, East of England, CM15 9NG | £25,171.00 - £26,384.00 Annually (Actual) | Admin Assistant
-employer: Larchwood Primary School
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cdf3fc9ba128ff76d968e199633829a2a72f6bb1bc98c36e674917f20025991d
-source: Teaching Vacancies
-source_job_id: admin-assistant-larchwood-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-larchwood-primary-school
----
 
 ---
 action: 
@@ -97,6 +67,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-reprogr
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Essex | Buckhurst Hill, East of England, IG9 6DS | £22,646.00 Annually (Actual) | Admin Assistant
+employer: Buckhurst Hill Community Primary School
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fa55814e94e2cd7588fa129cc1457f86713a7c645fe5df39f2390cb7e26dd782
+source: Teaching Vacancies
+source_job_id: admin-assistant-buckhurst-hill-community-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-buckhurst-hill-community-primary-school
+---
+
+---
+action: 
+POSS | Essex | Brentwood, East of England, CM15 9NG | £25,171.00 - £26,384.00 Annually (Actual) | Admin Assistant
+employer: Larchwood Primary School
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cdf3fc9ba128ff76d968e199633829a2a72f6bb1bc98c36e674917f20025991d
+source: Teaching Vacancies
+source_job_id: admin-assistant-larchwood-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-larchwood-primary-school
+---
 
 ---
 action: 

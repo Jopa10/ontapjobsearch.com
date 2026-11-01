@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-10-31
-review_fingerprint: 55e6ba108a6d3b1bb6eede3b474282a6e2e4ea6b70adde5a4c0654d152942151
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: a3420b3ee7fc5c579ad5869391b4b546df87a040ab1e79fa9898a4e4d5c9ada3
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: f27f2cc2673bfddb6aee95774aeda445524a98e4a9bb81080fae60b8ea2
 source: Teaching Vacancies
 source_job_id: admin-assistant-southern-education-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-southern-education-trust
----
-
----
-action: 
-SELECTED | Dorset | Ferndown, South West, BH22 9UP | £26,427 per annum | Receptionist & Admin Assistant
-employer: Ferndown Middle School
-closing_date: 2026-11-01T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1d50084ed9c7497880b40ee3ff058bf4a37e48a0cd934b5705d2524bcbb6a863
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-ferndown-middle-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-ferndown-middle-school
 ---
 
 ---
@@ -77,7 +62,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-
 ## HARD_PASS
 
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-the-bishop-of-winchester-academy) — No usable numeric salary.
-- [Exam Officer - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/exam-officer-maternity-cover-st-aldhelm-s-academy-poole-dorset) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-oak-academy) — No usable numeric salary.
 - [Pastoral Manager – Ferndown Middle School](https://teaching-vacancies.service.gov.uk/jobs/pastoral-manager-ferndown-middle-school) — Excluded senior/management title.
 

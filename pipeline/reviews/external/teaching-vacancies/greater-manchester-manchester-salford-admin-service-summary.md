@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-31
-review_fingerprint: fa92949294d6608bf58402acbc3a7eaa4dac527e465486b959bf2c2892e96b27
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: 9c400bb5c1f623d0b3a39bdd4b2a46e819a724bd15fc415f130e1a1f942c281d
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 4
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
@@ -82,21 +82,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-and-sys
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M28 0SY | £25,820.00 - £28,323.00 Annually (FTE) United Learning Band 2 Vocational Payscale points 1 - 5 | Business Admin Apprentice - Data & Exams
-employer: The Lowry Academy
-closing_date: 2026-11-01T08:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b1f906e32fde5154ce1c680a149e3779c29bc536806fef8cc51a723e33759989
-source: Teaching Vacancies
-source_job_id: business-admin-apprentice-data-exams
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-admin-apprentice-data-exams
----
 
 ---
 action: 

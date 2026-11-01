@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-31
-review_fingerprint: 1e7197548f651643f3ef72f2e1ed95b8b8976798ff65f8400888f0e06db77a65
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: 9fef2995473d54ea0a74a08dc979c3089eff0c52f14696562222aa403d9d4cdf
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 8
-- POSS awaiting decision: 1
+- Selected: 7
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 
 ---
 action: 
-SELECTED | Oxfordshire | Abingdon, South East, OX14 5NL | £27,709.00 - £30,023.00 Annually (FTE) Grade 6, SCP 8 - 13. Actual salary - £19,783.71 - £21,435.86 | Office Administrator
-employer: Thameside Primary School
-closing_date: 2026-11-04T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b996bda304d50dc766a5d8f172d3dcd375db54db982bc8776ba8fd6209908cf5
-source: Teaching Vacancies
-source_job_id: office-administrator-thameside-primary-school-abingdon-oxfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-thameside-primary-school-abingdon-oxfordshire
----
-
----
-action: 
 SELECTED | Oxfordshire | Oxford, OX4 4SF | £30,025.00 - £32,046.00 Annually (FTE) 0.4 FTE Actual Salary: £12,010 - £12,818 | Procurement Administrator *Hybrid Role*
 employer: River Learning Trust
 closing_date: 2026-11-09T23:59:00+00:00
@@ -156,6 +141,21 @@ factual_fingerprint: fbfc55a26340553e05bd82e0714dce1a1ef2e0475374d79fd528eec3b08
 source: Teaching Vacancies
 source_job_id: data-officer-wood-green-school-witney-oxfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-wood-green-school-witney-oxfordshire
+---
+
+---
+action: 
+POSS | Oxfordshire | Abingdon, South East, OX14 5NL | £27,709.00 - £30,023.00 Annually (FTE) Grade 6, SCP 8 - 13. Actual salary - £19,783.71 - £21,435.86 | Office Administrator
+employer: Thameside Primary School
+closing_date: 2026-11-04T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b996bda304d50dc766a5d8f172d3dcd375db54db982bc8776ba8fd6209908cf5
+source: Teaching Vacancies
+source_job_id: office-administrator-thameside-primary-school-abingdon-oxfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-thameside-primary-school-abingdon-oxfordshire
 ---
 
 ## EXCLUDED BY REVIEW

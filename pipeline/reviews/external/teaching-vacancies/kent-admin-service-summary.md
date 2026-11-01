@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-31
-review_fingerprint: b5e6aac88f5c5a944ea9d7d3aa09477693d9db80d4f11ade9a2310e46b845291
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: 6f279f3976a343317ce8385d256dfc8354ce3309ceca6e9a5dee1de7c6abde53
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
@@ -49,21 +49,6 @@ factual_fingerprint: ce6b840fa2cc2d0f8c43241c6d9e752570ce9c8687ba404f082f8be8448
 source: Teaching Vacancies
 source_job_id: admissions-officer-stone-lodge-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-stone-lodge-school
----
-
----
-action: 
-SELECTED | Kent | Chatham, South East, ME4 4FQ | £24,553.00 - £26,171.00 Annually (Actual) NJC D2 point 7-11 | Examinations & Admissions Officer
-employer: Waterfront UTC
-closing_date: 2026-10-31T23:59:00+00:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d94ca71aeaebccecde6a91562d845a86806bea94e56793967492410e6fee9ae5
-source: Teaching Vacancies
-source_job_id: examinations-admissions-officer-waterfront-utc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-admissions-officer-waterfront-utc
 ---
 
 ## POSS — choose SELECT or EXCLUDE

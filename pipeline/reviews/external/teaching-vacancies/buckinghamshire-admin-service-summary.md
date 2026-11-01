@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-31
-review_fingerprint: e2554e61e9b4cd38d2aaaa8edfd91a4a3315e3eeb59b12b680e49867ad60b3f4
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: bf30585e44095910a319fefe89bc05ac855e63f49fc86b25907adebb970a9ab3
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 9
-- Selected: 5
-- POSS awaiting decision: 0
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
@@ -34,21 +34,6 @@ factual_fingerprint: 2e085c2fab448729576ef6497ee937e9250416ab2cae19046aa69d4e9fe
 source: Teaching Vacancies
 source_job_id: development-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/development-administrator
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
-employer: Lift Sir Herbert Leon
-closing_date: 2026-11-17T13:08:02+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 881a26fa6ab64cba8a0f0aa26f4b8c19a4ad0a8dd29f6f1b9b9c13aba98ab33b
-source: Teaching Vacancies
-source_job_id: receptionist-lift-sir-herbert-leon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
 ---
 
 ---
@@ -98,7 +83,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
+employer: Lift Sir Herbert Leon
+closing_date: 2026-11-17T13:08:02+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 881a26fa6ab64cba8a0f0aa26f4b8c19a4ad0a8dd29f6f1b9b9c13aba98ab33b
+source: Teaching Vacancies
+source_job_id: receptionist-lift-sir-herbert-leon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
+---
 
 ## EXCLUDED BY REVIEW
 

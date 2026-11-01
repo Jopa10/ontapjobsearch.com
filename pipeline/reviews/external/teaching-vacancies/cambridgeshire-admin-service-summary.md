@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-31
-review_fingerprint: ac9c9da4fd75256386304e46ed6647572aec162210db78780f15196304ad00b4
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+review_date: 2026-11-01
+review_fingerprint: 352b4a2a671d42d14bcbe80f5df9ba3b321aaea086d7a468a27bba1caa9cd280
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 14
-- POSS awaiting decision: 0
+- Records: 23
+- Selected: 13
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -173,21 +173,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trump
 
 ---
 action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB4 2QT | £25,823-£27,152 per annum | HR Administrator
-employer: Cambridge Regional College
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 11933a3386d7de7e0fa291996da15ed1e00cf204c3e49099f83ef2a90135e5ea
-source: Teaching Vacancies
-source_job_id: hr-administrator-cambridge-regional-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-cambridge-regional-college
----
-
----
-action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB23 7DU | £25,185.00 - £25,583.00 Annually (FTE) NJC Scale 2, Points 5 to 6. Actual salary £21,600.98 per annum (based on 37 hrs per week) on point 12 (pay award pending). | Receptionist
 employer: Comberton Village College
 closing_date: 2026-11-02T09:00:00+00:00
@@ -233,7 +218,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB4 2QT | £25,823-£27,152 per annum | HR Administrator
+employer: Cambridge Regional College
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 11933a3386d7de7e0fa291996da15ed1e00cf204c3e49099f83ef2a90135e5ea
+source: Teaching Vacancies
+source_job_id: hr-administrator-cambridge-regional-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-cambridge-regional-college
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -250,7 +248,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-werrington-primary-school) — Excluded senior/management title.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Excluded senior/management title.
 - [School Receptionist & Finance Assistant (Temporary)](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-finance-assistant-temporary) — No usable numeric salary.
-- [Senior Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-94a4ee80-5a00-41ba-8432-27993f9ea267) — Excluded senior/management title.
 
 ## Safety boundary
 

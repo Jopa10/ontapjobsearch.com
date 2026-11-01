@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-31
+review_date: 2026-11-01
 review_fingerprint: 473ec9bfd343d1663068f95f383715bb1a70884c1279985906aede8593e4ea16
-routing_manifest_sha256: 4ffbf569e092fbcd91238ee8e4081377cdc945d4ea1009efb7c0385aff83959e
+routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 11
 - Selected: 1
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 7
 
 ## SELECTED
 
@@ -92,11 +92,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assis
 - [Associate HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/associate-hr-business-partner-derby-college) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-chellaston-academy) — Excluded senior/management title.
 - [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-da-vinci-academy) — No usable numeric salary.
-- [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-hasland-hall) — Insufficient admin/service evidence.
 - [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-anthony-gell-school) — Excluded senior/management title.
 - [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-brookfield-community-school) — Excluded senior/management title.
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Excluded senior/management title.
-- [Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-administration-assistant-1b11a0b9-fc3b-402e-84f1-2c7c938587f8) — No usable numeric salary.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-alban-s-catholic-voluntary-academy-derby-derbyshire) — Excluded senior/management title.
 
 ## Safety boundary
