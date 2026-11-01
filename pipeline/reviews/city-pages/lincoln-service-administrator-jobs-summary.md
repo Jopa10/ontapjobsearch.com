@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 42
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 42
 - automatic review: 10
 - automatic exclude: 0
-- effective include: 23
+- effective include: 42
 - effective review: 10
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (42)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Account Coordinator
+company: Stafforce Recruitment - Agency - Temporary
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225684511
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
 
 ---
 action: 
@@ -33,6 +45,66 @@ company: Reed - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2176835
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: SF Partners - Agency - Contract
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225715193
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable
+company: Austin Matley HR & Recruitment Ltd - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2192494
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Clerk
+company: Blusource Professional Services Ltd - Agency - Temporary
+location: Lincoln
+source: JobG8
+job_id: jobg8-23643_225728373
+reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper
+company: Scout Recruiting LTD - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225745727
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Administrator (FOI)
+company: Belmont Recruitment - Agency - Contract
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225731910
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -52,12 +124,24 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: William H Brown - Company - Permanent
+title: Customs Administrator
+company: EL Recruitment Solutions Ltd - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2125861
+job_id: jobg8-23643_225104910
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Data Coordinator
+company: Randstad Sourceright - Agency - Contract
+location: Lincoln
+source: JobG8
+job_id: jobg8-23643_225720797
+reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -69,6 +153,66 @@ company: Akkodis - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2209007
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Data Protection Coordinator
+company: Akkodis - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225753502
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Engineering Administrator
+company: Branston Potatoes - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225741933
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Benjamin Edwards - Agency - Permanent
+location: Lincoln
+source: JobG8
+job_id: jobg8-23643_225691108
+reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Junior Finance Assistant (Manufacturing)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225762716
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Key Accounts Coordinator - Freight & Logistics
+company: Winsearch - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225766787
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -89,10 +233,22 @@ action:
 decision: include
 automatic_decision: include
 title: Legal Secretary
-company: Talk Staff - Agency - Permanent
+company: Reflect Recruitment Group - Agency - Contract
+location: Lincoln
+source: JobG8
+job_id: jobg8-23643_225692949
+reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Secretary
+company: Talk Staff Group Limited - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2106710
+job_id: jobg8-23643_225711048
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -100,12 +256,36 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: Blusource - Agency - Permanent
+title: Medical Records Administrator
+company: Huntress - Maidstone - Agency - Temporary
 location: Lincoln
 source: JobG8
-job_id: jobg8-2143583
+job_id: jobg8-23643_225708756
 reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
+company: Blusource Professional Services Ltd - Agency - Permanent
+location: Lincoln
+source: JobG8
+job_id: jobg8-23643_225736096
+reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Operational Administrator
+company: Magnus Search - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225655530
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---
@@ -220,35 +400,23 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Part Time Administrator
+company: Integrity Plus Ltd - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225702694
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Patient Administrator
 company: Lincolnshire Community Health Service NHS Trust
 location: Lincolnshire, LN6 3JY
 source: NHS Jobs
 job_id: nhs-5696977
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Clerk & Accounts Assistant
-company: Manpower - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2100020
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Technician
-company: Alexander Kaye Recruitment Limited - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2068930
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -268,11 +436,35 @@ reason: Exact approved Lincoln workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Production Administrator
+company: Barrett Steel - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225740703
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Quality Administrator (Food Manufacturing)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2130275
+job_id: jobg8-23643_225726482
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Reactive Repairs Co-ordinator
+company: ARC Group - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225709194
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -292,11 +484,47 @@ reason: Exact approved Lincoln workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist and Office Administrator
+company: Robert Doughty Consultancy - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225740644
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales and Logistics Coordinator
+company: Edwards & Pearce - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225720981
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Traffic Process Administration Assistant
+company: Adecco - Agency - Temporary
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225696261
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Trainee Legal Secretary
 company: LJ Recruitment - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2125774
+job_id: jobg8-23643_225722678
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -342,11 +570,11 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Officer - Temporary (7764)
-company: Willows Academy
-location: Grimsby
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-temporary-7764
+title: Commercial Business Assistant
+company: Commercial Recruitment - Agency - Permanent
+location: Stamford
+source: JobG8
+job_id: jobg8-23643_225719266
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -371,6 +599,18 @@ company: Reed - Agency - Permanent
 location: Grantham
 source: JobG8
 job_id: jobg8-2197665
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Records Administrator
+company: Huntress - Maidstone - Agency - Temporary
+location: Boston
+source: JobG8
+job_id: jobg8-23643_225708777
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -407,18 +647,6 @@ company: Stamford Welland Academy
 location: Stamford
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-stamford-welland-academy
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Legal Secretary
-company: Oculus Legal Group - Agency - Permanent
-location: Spalding
-source: JobG8
-job_id: jobg8-2136831
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 2
+- automatic include: 18
+- automatic review: 0
 - automatic exclude: 0
-- effective include: 12
-- effective review: 2
+- effective include: 18
+- effective review: 0
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (18)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: AAT Accounts Assistant
+company: Robert Half - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2167662
+reason: Approved conservative Cardiff launch catchment.
+---
 
 ---
 action: 
@@ -33,6 +45,18 @@ company: Adecco - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-2207005
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Administrator
+company: Adecco - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225779508
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -52,11 +76,23 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Assistant
-company: Robert Half - Agency - Permanent
+title: Ad Hoc Corporate Receptionist
+company: Search Consultancy Ltd - Agency - Temporary
 location: Cardiff
 source: JobG8
-job_id: jobg8-2092062
+job_id: jobg8-23643_225731668
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookings Coordinator
+company: 2i Recruit Ltd - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225690978
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -76,23 +112,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: Hays Specialist Recruitment Limited - Agency - Permanent
+title: Executive Assistant
+company: Office Angels - Agency - Contract
 location: Cardiff
 source: JobG8
-job_id: jobg8-2078303
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Robert Half - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-2099313
+job_id: jobg8-23643_225742442
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -104,7 +128,7 @@ title: Finance Assistant
 company: Adecco - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-2081253
+job_id: jobg8-23643_225691400
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -112,11 +136,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant (Hybrid)
-company: Yolk Recruitment Ltd - Agency - Permanent
+title: Finance Assistant
+company: Yolk Recruitment - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-2080508
+job_id: jobg8-23643_225690422
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -136,6 +160,18 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Key Account Coordinator and Customer Support
+company: Work Wales - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225449673
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal Assistant
 company: Pertemps Cardiff - Agency - Permanent
 location: Cardiff
@@ -148,11 +184,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
+title: Purchasing Assistant
+company: Work Wales - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-2178886
+job_id: jobg8-23643_225732879
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -160,38 +196,50 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Renewals Coordinator & Administrator
-company: Peter Alan - Agency - Permanent
+title: Sales Administrator
+company: Focus Resourcing - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-2104659
+job_id: jobg8-23643_225782434
 reason: Approved conservative Cardiff launch catchment.
 ---
 
-## REVIEW (2)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Administrator
+company: Perfect Placement - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225723768
+reason: Approved conservative Cardiff launch catchment.
+---
 
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable/Purchase Ledger Clerk
-company: Corestone Talent - Agency - Permanent
-location: South Glamorgan
+decision: include
+automatic_decision: include
+title: Service Advisor
+company: Auto Skills UK - Agency - Permanent
+location: Cardiff
 source: JobG8
-job_id: jobg8-2198349
-reason: No approved Cardiff catchment rule matched; local review required.
+job_id: jobg8-23643_225782187
+reason: Approved conservative Cardiff launch catchment.
 ---
 
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: South Glamorgan
+decision: include
+automatic_decision: include
+title: Team Coordinator
+company: Arup - Agency - Contract
+location: Cardiff
 source: JobG8
-job_id: jobg8-2097602
-reason: No approved Cardiff catchment rule matched; local review required.
+job_id: jobg8-23643_225692612
+reason: Approved conservative Cardiff launch catchment.
 ---
+
+## REVIEW (0)
 
 ## EXCLUDE (0)
