@@ -1,6 +1,7 @@
 -- Draft migration: apply only to an explicitly verified Neon TEST database.
 -- Intentionally separate from the legacy public Prisma schema and production.
-BEGIN;
+DO $$
+BEGIN
 CREATE SCHEMA ontap_shadow;
 SET LOCAL search_path TO ontap_shadow, public;
 
@@ -200,4 +201,5 @@ CREATE TABLE activity_events (
 CREATE INDEX activity_events_job ON activity_events(job_id, occurred_at);
 CREATE INDEX activity_events_recommendation ON activity_events(recommendation_id, occurred_at);
 CREATE INDEX jobs_publication ON jobs(publication_status, region, role_family);
-COMMIT;
+END;
+$$;

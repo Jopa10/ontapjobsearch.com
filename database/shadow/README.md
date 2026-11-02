@@ -1,6 +1,6 @@
 # Neon shadow database: first checkpoint
 
-Status: foundation prepared on `feat/neon-shadow-database`; NOT migrated, connected or live.
+Status: owner created the 12 tables in `ontap-db-test` on 2 November 2026 and supplied the resulting table list. Neon Free, London, Auth/Realtime off. The connection is verified as Preview-only under `ONTAP_SHADOW_`. Production remains file-based.
 
 ## Boundaries
 
@@ -11,8 +11,7 @@ vacancy/alert design. In particular, the legacy `Application` means an Apply
 click, not proof of a completed external application.
 
 `001_initial.sql` defines exactly 12 tables under `ontap_shadow`, separate from
-legacy `public` tables. No migration runner, schedule, automatic cleanup,
-production switch or test website is installed in this checkpoint. Running the
+legacy `public` tables. No schedule, automatic cleanup, production switch or full test website is installed. The sample harness below is a deliberately invoked, build-only database check. Running the
 SQL twice deliberately fails instead of silently accepting a mismatched schema.
 
 ## Table responsibilities
@@ -95,8 +94,7 @@ Existing production project: `ontapjobsearch.com` /
 
 The Vercel connector can list projects but returned 403 for integration
 configuration access. No authenticated Vercel CLI exists in this workspace.
-The owner must create/connect the Neon test database through the dashboard, or
-provide a supported authorized connection. Never put connection strings in chat,
+The owner has created and connected the test database through the dashboard. Vercel environment metadata confirms `ONTAP_SHADOW_DATABASE_URL` and related keys are sensitive and Preview-only. Their secret values cannot be retrieved through this connector; the verification build consumes them inside Vercel. Never put connection strings in chat,
 Git, workflow output or a `NEXT_PUBLIC_` variable.
 
 Suggested first setup: Free plan while a sample fits its limits; isolated test
@@ -126,3 +124,37 @@ notification or limit has actually been set.
    Brevo sender retry safety must treat ambiguous sends separately from success.
 6. Prove the complete test flow and rollback before the production switch.
 7. Add supplier two only after the JobG8 database route is proven.
+
+## Sample importer checkpoint
+
+`harness/importer.mjs` imports 1–20 normalized **published JobG8 adverts**, with
+transactional upserts, stable IDs, content hashes, daily appearance keys and
+accepted-snapshot replay protection. It preserves an existing advert-to-job link.
+All imported jobs remain `withheld` inside the test schema. It records inclusion
+as published-snapshot evidence, not a newly evaluated selector decision.
+
+`harness/sample.json` pins 20 existing adverts from London published inventory
+at source revision `a828536b62928d5c287fa9e18aa7924769851e29`. The observation
+date is 2 November, not a claimed supplier feed timestamp or job-posting date.
+It is not a complete raw feed, so no missing advert is expired. The full raw-feed
+importer and actual per-selector exclusion reasons remain subsequent work.
+
+Run `npm ci` and `npm test` in `database/shadow/harness` for PostgreSQL-backed
+PGlite tests. They cover replay, updates, gaps/returns, rollback, invalid IDs, old
+snapshots, same-day appearances, partial-feed isolation, referential integrity
+and the distinction between Apply clicks and confirmed applications.
+
+For the deliberate remote check, upload the harness files (excluding tests and
+node_modules) as one Preview deployment in the existing `.com` project. The
+harness `vercel.json` applies only to this uploaded source bundle. Do not edit
+project-wide build settings or use the production target. `verify-neon.mjs`
+requires Preview, the exact Neon project `noisy-fire-97386602`, and TLS. It uses
+only `ONTAP_SHADOW_DATABASE_URL`, never the legacy `DATABASE_URL`. It persists
+the 20 real samples, verifies repeat import, and rolls back simulated future
+dates/title changes. It exposes no database-write HTTP handler; static output
+contains only a sanitized verification summary. Existing Vercel Preview SSO
+protection applies. No Brevo messages are sent.
+
+Credentials are not copied to Git, logs, artifacts, chat or local environment
+files. Free limits remain the initial spending boundary; no paid plan upgrade
+or paid-plan spend notification has been configured.

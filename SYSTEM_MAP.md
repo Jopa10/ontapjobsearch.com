@@ -12,6 +12,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 2 November 2026 — **Neon sample importer prepared on test branch:** owner-created `ontap-db-test` has the agreed 12 tables; connection metadata confirms sensitive `ONTAP_SHADOW_` keys in Preview only. `database/shadow/harness` adds a 20-advert published-inventory sample importer and PostgreSQL-backed verification for replay, updates, gaps/returns, rollback and linked-record integrity. Deliberate Preview build verification uses saved secrets inside Vercel; no production settings, publication, sender or schedules change. Full raw-feed import and expiry remain pending.
+
 - 2 November 2026 — **Neon shadow database foundation (test branch only):** `database/shadow/001_initial.sql` defines 12 tables in isolated `ontap_shadow`; `pipeline/scripts/plan_shadow_jobg8_import.py` preflights the existing JobG8 XLSX offline without replacing selectors or publishing. Retain daily appearances and full adverts for 90 days after inactivity (cleanup pending). Existing public IDs remain unchanged; no fuzzy cross-feed merge is enabled. Provisioning, billing controls, database execution and test-site connection remain pending; Vercel integration inspection returned 403. See `database/shadow/README.md`. No production migration or schedule is introduced.
 
 - 2 November 2026 — **Publication handoff reliability:** the daily publisher now polls each dispatched run directly and retries temporary GitHub status errors against that same run. Confirmed success continues to production deployment; genuine failure, cancellation, persistent unreadable status or timeout still stops the shared release. No feed rerun or duplicate deployment is started merely because a progress check fails.
@@ -206,7 +208,7 @@ NHS/public-sector inventory is a complementary supply and sector-switching advan
 
 ### Neon shadow database — foundation only
 
-The isolated test schema and offline preflight are documented in `database/shadow/README.md`. They are not wired into production, the legacy Prisma models, private Brevo sending or the daily publisher. No Neon instance, credentials or billing settings have been verified.
+The isolated test schema and offline preflight are documented in `database/shadow/README.md`. They are not wired into production, the legacy Prisma models, private Brevo sending or the daily publisher. The owner created Neon Free in London and confirmed all 12 tables. Preview-only connection metadata is verified; remote execution evidence is recorded in the sample harness checkpoint. Paid billing settings remain unconfigured.
 
 The automatic private CPC sender is pinned to `7861de82938669df2b78229d2b76859fb260b2e2` (31 October workflow audit). Its sparse private checkout includes `pipeline/scripts`, `pipeline/tests` and `pipeline/config`; the last supplies the governed region-name/slug catalog. The existing post-publish workflow retains two allowlisted test recipients on list 3 and invokes only private daily mode. Public signup and list-wide delivery are not enabled by this adoption.
 
