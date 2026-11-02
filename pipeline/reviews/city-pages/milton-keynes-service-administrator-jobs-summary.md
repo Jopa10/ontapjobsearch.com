@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 25
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
+- automatic include: 24
 - automatic review: 66
 - automatic exclude: 0
-- effective include: 25
+- effective include: 24
 - effective review: 66
 - effective exclude: 0
 
-## INCLUDE (25)
+## INCLUDE (24)
 
 ---
 action: 
@@ -201,18 +201,6 @@ company: Experis - Agency - Contract
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225777251
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist (General Administrator)
-company: Oakgrove School
-location: Milton Keynes
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-general-administrator-ad565c22-7800-442c-b92a-0cd4c39c9cec
 reason: Exact approved Milton Keynes workplace.
 ---
 

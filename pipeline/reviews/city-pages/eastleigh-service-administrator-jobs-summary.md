@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 110
-- automatic exclude: 62
+- automatic review: 108
+- automatic exclude: 61
 - effective include: 4
-- effective review: 110
-- effective exclude: 62
+- effective review: 108
+- effective exclude: 61
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225769802
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (110)
+## REVIEW (108)
 
 ---
 action: 
@@ -714,12 +714,12 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
+title: HR Administrator
+company: Brook Street - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225698170
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
+job_id: jobg8-108168783
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
 ---
@@ -744,18 +744,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225698267
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim HR Assistant
-company: Liberty HR Recruitment - Agency - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225781879
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -1110,18 +1098,6 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Tadley Medical Partnership
-location: Tadley, RG26 4ER, Tadley , RG26 4AN
-source: NHS Jobs
-job_id: nhs-5656044
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Resourcer
 company: Prospero Group - Agency - Permanent
 location: Hampshire
@@ -1394,7 +1370,7 @@ job_id: jobg8-23643_225708197
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (62)
+## EXCLUDE (61)
 
 ---
 action: 
@@ -1582,18 +1558,6 @@ decision: exclude
 automatic_decision: exclude
 title: Business Support Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4XE
-source: NHS Jobs
-job_id: nhs-5677600
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO18 6BT, Chandlers Ford, SO53 3LG
 source: NHS Jobs
 job_id: nhs-5687108
@@ -1705,6 +1669,18 @@ company: Marc Daniels - Agency - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-2160032
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Administrator
+company: Adecco - Agency - Temporary
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225785343
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1921,18 +1897,6 @@ company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-23643_225712981
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Derby Road Practice
-location: Portsmouth, PO2 8HW
-source: NHS Jobs
-job_id: nhs-5667147
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

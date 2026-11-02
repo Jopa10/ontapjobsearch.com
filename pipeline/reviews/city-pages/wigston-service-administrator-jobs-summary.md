@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 100
+- automatic review: 99
 - automatic exclude: 0
 - effective include: 0
-- effective review: 100
+- effective review: 99
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (100)
+## REVIEW (99)
 
 ---
 action: 
@@ -395,6 +395,18 @@ company: Regional Recruitment - Agency - Permanent
 location: Blaby
 source: JobG8
 job_id: jobg8-23643_225693331
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Rota Coordinator / Scheduler
+company: New Horizons Care - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-108238825
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -1122,18 +1134,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Scanning & Processing Assistant
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
-location: Coalville
-source: JobG8
-job_id: jobg8-23643_225694630
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Senior Marketing Executive
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
@@ -1163,18 +1163,6 @@ company: Saint Gobain - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225754680
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2213997
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

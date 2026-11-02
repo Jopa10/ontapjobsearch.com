@@ -4,7 +4,7 @@
 - Live route: `/horsham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,28 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 94
-- automatic exclude: 33
-- effective include: 1
-- effective review: 94
-- effective exclude: 33
+- automatic include: 0
+- automatic review: 92
+- automatic exclude: 32
+- effective include: 0
+- effective review: 92
+- effective exclude: 32
 
-## INCLUDE (1)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Order Processing Specialist
-company: Randstad Construction and Property - Agency - Contract
-location: Horsham
-source: JobG8
-job_id: jobg8-23643_225691485
-reason: Exact approved Horsham workplace.
----
-
-## REVIEW (94)
+## REVIEW (92)
 
 ---
 action: 
@@ -383,18 +371,6 @@ company: Brinsbury College - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-108243078
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Accounts Administrator
-company: West Sussex Music Trust - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-108241884
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -1134,18 +1110,6 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2213989
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Travel Operations Coordinator
 company: Office Angels - Agency - Permanent
 location: Sussex
@@ -1166,7 +1130,7 @@ job_id: jobg8-108230183
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -1261,18 +1225,6 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Worthing
 source: JobG8
 job_id: jobg8-23643_225674370
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Connection Agreements Coordinator
-company: UK Power Networks (Operations) Ltd - Company - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225737288
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 

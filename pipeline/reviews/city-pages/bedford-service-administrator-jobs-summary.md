@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 34
+- automatic include: 5
+- automatic review: 33
 - automatic exclude: 0
-- effective include: 6
-- effective review: 34
+- effective include: 5
+- effective review: 33
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: East of England Community Health and Care NHS Trust (Cambridge)
 location: Bedford, MK42 0AH
 source: NHS Jobs
 job_id: nhs-5694372
-reason: Exact approved Bedford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Sharnbrook Academy
-location: Bedford
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-cf37bca3-64ec-41f1-b25b-fecf7343f14a
 reason: Exact approved Bedford workplace.
 ---
 
@@ -96,7 +84,7 @@ job_id: jobg8-23643_225761869
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (33)
 
 ---
 action: 
@@ -162,18 +150,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administration Assistant / Receptionist
-company: Lancot School
-location: Dunstable
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-receptionist-c822ff8b-c75d-4a91-a4a3-0b0ba42c70f9
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrative Assistant
 company: NHS Central East ICB
 location: Chicksands, Shefford, Bedfordshire, SG17 5TQ
@@ -215,18 +191,6 @@ company: Transcomm Recruitment Ltd - Agency - Permanent
 location: Dunstable
 source: JobG8
 job_id: jobg8-23643_225742377
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer
-company: Putteridge High School
-location: Luton
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-putteridge-high-school-luton-bedfordshire
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -395,6 +359,18 @@ company: Hales Group - Agency - Temporary
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225699711
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Co-ordinator, Langford, North Somerset
+company: Menlo Park - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225784688
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 110
-- automatic exclude: 52
+- automatic review: 108
+- automatic exclude: 51
 - effective include: 14
-- effective review: 110
-- effective exclude: 52
+- effective review: 108
+- effective exclude: 51
 
 ## INCLUDE (14)
 
@@ -45,18 +45,6 @@ company: 3D Personnel LTD - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225768701
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4XE
-source: NHS Jobs
-job_id: nhs-5677600
 reason: Approved Southampton catchment.
 ---
 
@@ -93,6 +81,18 @@ company: Workshop Recruitment - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225756919
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Administrator
+company: Adecco - Agency - Temporary
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225785343
 reason: Approved Southampton catchment.
 ---
 
@@ -192,7 +192,7 @@ job_id: jobg8-23643_225719604
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (110)
+## REVIEW (108)
 
 ---
 action: 
@@ -834,12 +834,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
+title: HR Administrator
+company: Brook Street - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225698170
-reason: No approved Southampton catchment rule matched; local review required.
+job_id: jobg8-108168783
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -864,18 +864,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225698267
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim HR Assistant
-company: Liberty HR Recruitment - Agency - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225781879
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -1230,18 +1218,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Tadley Medical Partnership
-location: Tadley, RG26 4ER, Tadley , RG26 4AN
-source: NHS Jobs
-job_id: nhs-5656044
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Resourcer
 company: Prospero Group - Agency - Permanent
 location: Hampshire
@@ -1514,7 +1490,7 @@ job_id: jobg8-23643_225708197
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (52)
+## EXCLUDE (51)
 
 ---
 action: 
@@ -1933,18 +1909,6 @@ company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-23643_225712981
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Derby Road Practice
-location: Portsmouth, PO2 8HW
-source: NHS Jobs
-job_id: nhs-5667147
 reason: Separate employment market.
 ---
 

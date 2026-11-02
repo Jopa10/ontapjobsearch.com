@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 77
+- automatic include: 8
+- automatic review: 73
 - automatic exclude: 0
-- effective include: 9
-- effective review: 77
+- effective include: 8
+- effective review: 73
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: St Gerard's Catholic Primary School
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-st-gerard-s-catholic-primary-school
-reason: Exact approved Rotherham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Estates Compliance and Administrative Assistant
-company: Place Partnership A Multi Academy Trust
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-estates-compliance-and-administrative-assistant
 reason: Exact approved Rotherham workplace.
 ---
 
@@ -132,7 +120,7 @@ job_id: nhs-5695575
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (77)
+## REVIEW (73)
 
 ---
 action: 
@@ -323,18 +311,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Navigator (Receptionist)
-company: Dunsville Medical Centre
-location: Doncaster, DN7 4BY
-source: NHS Jobs
-job_id: nhs-5677415
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -930,18 +906,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Westfield School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-westfield-school
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Retail & Brand Partnership Executive
 company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
@@ -1007,30 +971,6 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225736471
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Admin Assistant at Kiveton Park Infant School
-company: Kiveton Park Infant School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school-kiveton-park-infant-school
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2214004
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

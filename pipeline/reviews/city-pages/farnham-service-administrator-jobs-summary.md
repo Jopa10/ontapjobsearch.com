@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 181
+- automatic review: 177
 - automatic exclude: 0
 - effective include: 4
-- effective review: 181
+- effective review: 177
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225775724
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (181)
+## REVIEW (177)
 
 ---
 action: 
@@ -294,6 +294,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-23643_225777384
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: HCRG Care Group
 location: Woking, GU21 5SB
@@ -323,18 +335,6 @@ company: Action for Carers - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225743802
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance and Admissions Officer
-company: Danetree Primary School
-location: Epsom
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-and-admissions-officer-99fe5e07-7ceb-4f8e-990c-280021c94b74
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -455,18 +455,6 @@ company: Hello Recruitment Associates - Agency - Permanent
 location: Epsom
 source: JobG8
 job_id: jobg8-23643_225732668
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator - Guildford
-company: HCRG Care Group
-location: Guildford, GU3 1LR
-source: NHS Jobs
-job_id: nhs-5674367
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -834,18 +822,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Deputy Examinations Officer
-company: Godalming College
-location: Godalming
-source: Teaching Vacancies
-job_id: teaching-vacancies-deputy-examinations-officer-godalming-college-godalming-surrey
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Dispute Resolution Paralegal
 company: Gerrard White - Agency - Permanent
 location: Surrey
@@ -983,18 +959,6 @@ company: Cranleigh Medical Practice
 location: Cranleigh, GU6 8AE
 source: NHS Jobs
 job_id: nhs-5687469
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist
-company: Upper Halliford Medical Centre
-location: Shepperton, TW17 8SY
-source: NHS Jobs
-job_id: nhs-5669830
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1362,6 +1326,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Order Processing Specialist
+company: Randstad Construction and Property - Agency - Contract
+location: Surrey
+source: JobG8
+job_id: jobg8-23643_225691485
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Paralegal
 company: Ascend Consulting - Agency - Permanent
 location: Surrey
@@ -1711,18 +1687,6 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Dapdune House Surgery
-location: Guildford, GU1 4RP
-source: NHS Jobs
-job_id: nhs-5675146
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: Goldsworth Medical Practice
 location: Woking, GU22 7XL, Woking, GU21 3LQ
 source: NHS Jobs
@@ -1823,18 +1787,6 @@ company: Fortus Recruitment Group - Agency - Permanent
 location: Horley
 source: JobG8
 job_id: jobg8-23643_225709708
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Safeguarding and SEND Administrative Assistant
-company: Eastwick Infant School
-location: Leatherhead
-source: Teaching Vacancies
-job_id: teaching-vacancies-safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

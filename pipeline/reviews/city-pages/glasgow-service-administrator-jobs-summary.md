@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 36
+- Effective included jobs: 37
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 36
-- automatic review: 8
+- automatic include: 37
+- automatic review: 7
 - automatic exclude: 0
-- effective include: 36
-- effective review: 8
+- effective include: 37
+- effective review: 7
 - effective exclude: 0
 
-## INCLUDE (36)
+## INCLUDE (37)
 
 ---
 action: 
@@ -304,6 +304,18 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Operations Administrator
+company: RPJ Energy Solutions Limited - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225752498
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Paralegal
 company: Adecco - Agency - Permanent
 location: Glasgow
@@ -456,7 +468,7 @@ job_id: jobg8-2187356
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -539,18 +551,6 @@ company: Realise Recruitment - Agency - Permanent
 location: Not Specified
 source: JobG8
 job_id: jobg8-23643_224045478
-reason: No approved Glasgow catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Lanarkshire
-source: JobG8
-job_id: jobg8-2213994
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

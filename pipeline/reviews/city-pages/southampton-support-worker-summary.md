@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 22
-- automatic exclude: 12
+- automatic review: 23
+- automatic exclude: 13
 - effective include: 1
-- effective review: 22
-- effective exclude: 12
+- effective review: 23
+- effective exclude: 13
 
 ## INCLUDE (1)
 
@@ -36,7 +36,7 @@ job_id: jobg8-23643_225761993
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (23)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Hampshire County Council - Company - Permanent
 location: Gosport
 source: JobG8
 job_id: jobg8-1401785962
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Assistant - Bank - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225745178
 reason: Broad location; review before city inclusion.
 ---
 
@@ -223,10 +235,10 @@ action:
 decision: review
 automatic_decision: review
 title: Night Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Gosport
+company: Barchester Healthcare - Company - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-1401785959
+job_id: jobg8-23643_225760950
 reason: Broad location; review before city inclusion.
 ---
 
@@ -234,12 +246,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Night Support Worker Children's Residential Home
-company: S.N.G Recruitment Solutions Limited - Agency - Permanent
-location: Hedge End
+title: Night Care Assistant
+company: Hampshire County Council - Company - Permanent
+location: Gosport
 source: JobG8
-job_id: jobg8-108264620
-reason: No approved Southampton catchment rule matched; local review required.
+job_id: jobg8-1401785959
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -302,7 +314,7 @@ job_id: jobg8-1401785985
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -325,6 +337,18 @@ company: Hampshire County Council - Company - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-1401786107
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Assistant - Bank - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-23643_225784306
 reason: Separate employment market.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 14
-- automatic exclude: 62
+- automatic review: 13
+- automatic exclude: 58
 - effective include: 10
-- effective review: 14
-- effective exclude: 62
+- effective review: 13
+- effective exclude: 58
 
 ## INCLUDE (10)
 
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225749128
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -302,19 +302,7 @@ job_id: jobg8-2153824
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2214004
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
-## EXCLUDE (62)
+## EXCLUDE (58)
 
 ---
 action: 
@@ -476,18 +464,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Care Navigator (Receptionist)
-company: Dunsville Medical Centre
-location: Doncaster, DN7 4BY
-source: NHS Jobs
-job_id: nhs-5677415
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Clinical Administrator
 company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S2 2BT
@@ -565,18 +541,6 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225663389
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Estates Compliance and Administrative Assistant
-company: Place Partnership A Multi Academy Trust
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-estates-compliance-and-administrative-assistant
 reason: Separate employment market.
 ---
 
@@ -920,18 +884,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Westfield School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-westfield-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist & Admin Assistant
 company: Willow Tree Academy
 location: Rotherham
@@ -1021,18 +973,6 @@ company: Unicorn Resourcing - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-23643_225739769
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Admin Assistant at Kiveton Park Infant School
-company: Kiveton Park Infant School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school-kiveton-park-infant-school
 reason: Separate employment market.
 ---
 

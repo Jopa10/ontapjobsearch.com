@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 128
+- automatic review: 121
 - automatic exclude: 0
 - effective include: 1
-- effective review: 128
+- effective review: 121
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: nhs-5686212
 reason: Exact approved Chester Le Street workplace.
 ---
 
-## REVIEW (128)
+## REVIEW (121)
 
 ---
 action: 
@@ -330,18 +330,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Tyneside Surgical Services
-location: Gateshead, NE11 0HF
-source: NHS Jobs
-job_id: nhs-5667685
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Assistant Scheme Coordinator
 company: RG Setsquare - Agency - Permanent
 location: Tyne And Wear
@@ -478,31 +466,7 @@ title: Clinical Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Durham, DH1 5YA
 source: NHS Jobs
-job_id: nhs-5668821
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5YA
-source: NHS Jobs
 job_id: nhs-5684079
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Team Secretary/Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5RD
-source: NHS Jobs
-job_id: nhs-5668716
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -803,18 +767,6 @@ company: Penn Gregory Recruitment Ltd - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225764054
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2158858
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1302,18 +1254,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: St Anthony's Girls' Catholic Academy
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-st-anthony-s-girls-catholic-academy
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist / Administrator
 company: St. Albans Medical Group
 location: Gateshead, NE10 9QG
@@ -1379,18 +1319,6 @@ company: Adecco - Agency - Temporary
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225769453
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Paisley Recruitement Group - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225682964
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1523,18 +1451,6 @@ company: Office Angels - Agency - Temporary
 location: Sunderland
 source: JobG8
 job_id: jobg8-23643_225729432
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2214000
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 95
+- automatic review: 91
 - automatic exclude: 0
 - effective include: 18
-- effective review: 95
+- effective review: 91
 - effective exclude: 0
 
 ## INCLUDE (18)
@@ -240,7 +240,7 @@ job_id: jobg8-2186709
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (95)
+## REVIEW (91)
 
 ---
 action: 
@@ -318,6 +318,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225756406
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Activity Coordinator
 company: Accord Appointments Ltd - Agency - Permanent
 location: Warwickshire
@@ -335,18 +347,6 @@ company: Hiringpeople.co.uk - Agency - Permanent
 location: Southam
 source: JobG8
 job_id: jobg8-23643_225745080
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Finham Park 2
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-finham-park-2
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -702,18 +702,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: GP Surgery Receptionist
-company: Station Street Surgery
-location: Nuneaton, CV11 6HH
-source: NHS Jobs
-job_id: nhs-5656280
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Group Credit Controller
 company: Trinity House Group - Agency - Permanent
 location: Warwickshire
@@ -827,18 +815,6 @@ company: ChilliMint (Europe) Limited - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225760700
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Rother House Medical Centre
-location: Stratford-upon-avon, CV37 6PP
-source: NHS Jobs
-job_id: nhs-5657937
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1158,23 +1134,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist and Administrative Assistant to the Deputy Headteachers
-company: Caludon Castle School
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrative-assistant-to-the-deputy-headteachers
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist and Administrator (2 days per week)
-company: Kenilworth School and Sixth Form
-location: Kenilworth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrator-2-days-per-week
+title: Recruitment Account Coordinator (Driving)
+company: Winner Recruitment - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-108261084
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1343,18 +1307,6 @@ company: Triumph - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225746288
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2213992
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

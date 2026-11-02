@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 26
-- automatic review: 54
+- automatic review: 52
 - automatic exclude: 0
 - effective include: 26
-- effective review: 54
+- effective review: 52
 - effective exclude: 0
 
 ## INCLUDE (26)
@@ -336,7 +336,7 @@ job_id: jobg8-23643_225699564
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (52)
 
 ---
 action: 
@@ -378,18 +378,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Livewell Southwest
-location: Plymouth, PL4 7PY, PLYMOUTH, PL6 6EJ
-source: NHS Jobs
-job_id: nhs-5671815
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper
 company: Reed - Agency - Permanent
 location: Devon
@@ -407,18 +395,6 @@ company: Ten Recruit Limited - Agency - Permanent
 location: Bideford
 source: JobG8
 job_id: jobg8-23643_224726426
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Devon Partnership NHS Trust
-location: Totnes, TQ9 5JA
-source: NHS Jobs
-job_id: nhs-5660761
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -690,6 +666,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Mental Health Act Administrator
+company: Elysium Healthcare
+location: Cullompton, EX15 1EA
+source: NHS Jobs
+job_id: nhs-5699161
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: Interaction Recruitment - Agency - Temporary
 location: Cullompton
@@ -774,6 +762,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Livewell Southwest
+location: Plymouth, PL6 5AF
+source: NHS Jobs
+job_id: nhs-5699625
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Renewables Administrator
 company: Servara Ltd - Agency - Permanent
 location: Devon
@@ -839,30 +839,6 @@ company: The Supply Register - Agency - Temporary
 location: Plymouth
 source: JobG8
 job_id: jobg8-23643_225709414
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Office Administrator
-company: Boringdon Primary School
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-office-administrator-boringdon-primary-school
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: SEN Medical Administrator
-company: Plymouth High School for Girls
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-sen-medical-administrator
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

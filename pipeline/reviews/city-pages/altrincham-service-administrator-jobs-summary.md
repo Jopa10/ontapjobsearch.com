@@ -498,11 +498,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Practice Receptionist / Administrator - Hattersley Group Practice
-company: Gtd Healthcare
-location: Hyde, SK14 3EH
-source: NHS Jobs
-job_id: nhs-5674517
+title: Practice Bookkeeper
+company: Square Peg Associates Ltd - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2151902
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

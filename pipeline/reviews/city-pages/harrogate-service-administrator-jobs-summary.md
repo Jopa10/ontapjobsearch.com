@@ -4,8 +4,8 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 2
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 17
-- automatic exclude: 30
-- effective include: 4
-- effective review: 17
-- effective exclude: 30
+- automatic include: 2
+- automatic review: 18
+- automatic exclude: 27
+- effective include: 2
+- effective review: 18
+- effective exclude: 27
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Data Administrator
-company: St John Fisher Catholic Academy
-location: Harrogate
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-administrator-st-john-fisher-catholic-academy
-reason: Exact approved Harrogate workplace.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -52,18 +40,6 @@ reason: Exact approved Harrogate workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll/Finance Administrator
-company: Ventrolla - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225536401
-reason: Exact approved Harrogate workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Technical & Quality Support Administrator
 company: Unity Resourcing Ltd - Agency - Permanent
 location: Harrogate
@@ -72,7 +48,7 @@ job_id: jobg8-23643_225691482
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
 
 ---
 action: 
@@ -278,7 +254,19 @@ job_id: jobg8-23643_225729465
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (30)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Interaction - Leeds - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-108059238
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+## EXCLUDE (27)
 
 ---
 action: 
@@ -325,30 +313,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225747065
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Officer
-company: St Wilfrid's Catholic Primary School - a Catholic Voluntary Academy
-location: York
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Selby, YO8 9BX
-source: NHS Jobs
-job_id: nhs-5669774
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -589,18 +553,6 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Selby
 source: JobG8
 job_id: jobg8-23643_225733131
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: SEND Administrator
-company: George Pindar School
-location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-george-pindar-school-scarborough
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

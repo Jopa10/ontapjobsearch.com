@@ -4,7 +4,7 @@
 - Live route: `/crawley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 94
-- automatic exclude: 23
-- effective include: 11
-- effective review: 94
-- effective exclude: 23
+- automatic include: 10
+- automatic review: 92
+- automatic exclude: 22
+- effective include: 10
+- effective review: 92
+- effective exclude: 22
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Fox and Sons - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-2201378
-reason: Exact approved Crawley workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Connection Agreements Coordinator
-company: UK Power Networks (Operations) Ltd - Company - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225737288
 reason: Exact approved Crawley workplace.
 ---
 
@@ -156,7 +144,7 @@ job_id: jobg8-23643_225721235
 reason: Exact approved Crawley workplace.
 ---
 
-## REVIEW (94)
+## REVIEW (92)
 
 ---
 action: 
@@ -503,18 +491,6 @@ company: Brinsbury College - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-108243078
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Accounts Administrator
-company: West Sussex Music Trust - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-108241884
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1254,18 +1230,6 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2213989
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Travel Operations Coordinator
 company: Office Angels - Agency - Permanent
 location: Sussex
@@ -1286,7 +1250,7 @@ job_id: jobg8-108230183
 reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -1417,18 +1381,6 @@ company: TN Recruits - Agency - Permanent
 location: Eastbourne
 source: JobG8
 job_id: jobg8-2157738
-reason: The stated workplace belongs outside the approved Crawley employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Order Processing Specialist
-company: Randstad Construction and Property - Agency - Contract
-location: Horsham
-source: JobG8
-job_id: jobg8-23643_225691485
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 

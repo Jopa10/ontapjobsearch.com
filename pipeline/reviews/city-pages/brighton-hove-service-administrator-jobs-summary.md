@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 94
-- automatic exclude: 24
+- automatic review: 92
+- automatic exclude: 22
 - effective include: 10
-- effective review: 94
-- effective exclude: 24
+- effective review: 92
+- effective exclude: 22
 
 ## INCLUDE (10)
 
@@ -144,7 +144,7 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (94)
+## REVIEW (92)
 
 ---
 action: 
@@ -491,18 +491,6 @@ company: Brinsbury College - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-108243078
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Accounts Administrator
-company: West Sussex Music Trust - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-108241884
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1242,18 +1230,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2213989
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Travel Operations Coordinator
 company: Office Angels - Agency - Permanent
 location: Sussex
@@ -1274,7 +1250,7 @@ job_id: jobg8-108230183
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -1357,18 +1333,6 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Worthing
 source: JobG8
 job_id: jobg8-23643_225674370
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Connection Agreements Coordinator
-company: UK Power Networks (Operations) Ltd - Company - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225737288
 reason: Separate employment market.
 ---
 
@@ -1465,18 +1429,6 @@ company: Office Angels - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225736740
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Order Processing Specialist
-company: Randstad Construction and Property - Agency - Contract
-location: Horsham
-source: JobG8
-job_id: jobg8-23643_225691485
 reason: Separate employment market.
 ---
 

@@ -16,13 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 32
+- automatic review: 33
 - automatic exclude: 0
 - effective include: 7
-- effective review: 32
+- effective review: 33
 - effective exclude: 0
 
 ## INCLUDE (7)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Officer
+company: Brook Street - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-108150020
+reason: Exact approved Shrewsbury workplace.
+---
 
 ---
 action: 
@@ -77,18 +89,6 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Marysville Medical Practice
-location: Shrewsbury, SY3 7QR
-source: NHS Jobs
-job_id: nhs-5678074
-reason: Exact approved Shrewsbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
 company: Pontesbury & Worthen Medical Practice
 location: Shrewsbury, SY5 0RF, Worthen, SY5 9HT
 source: NHS Jobs
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (33)
 
 ---
 action: 
@@ -155,18 +155,6 @@ company: Bridgnorth Endowed School
 location: Bridgnorth
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-finance-admissions-officer
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant - Reprographics/Student Services
-company: The Marches School
-location: Oswestry
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-reprographics-student-services
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -258,18 +246,6 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Data & Exams Officer
-company: Church Stretton School
-location: Church Stretton
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-exams-officer-church-stretton-school
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Data Entry / Office Assistant
 company: KPA Recruitment Ltd - Agency - Permanent
 location: Shropshire
@@ -318,11 +294,35 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225698170
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Prince Personnel Limited - Agency - Temporary
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225736709
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim HR Assistant
+company: Liberty HR Recruitment - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225781879
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -407,6 +407,18 @@ company: Adecco - Agency - Contract
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225740864
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Co-Ordinator
+company: Oliver Rae - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225785236
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

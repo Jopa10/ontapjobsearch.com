@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 7
 - automatic review: 71
 - automatic exclude: 0
-- effective include: 9
+- effective include: 7
 - effective review: 71
 - effective exclude: 0
 
-## INCLUDE (9)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Livewell Southwest
-location: Plymouth, PL4 7PY, PLYMOUTH, PL6 6EJ
-source: NHS Jobs
-job_id: nhs-5671815
-reason: Exact approved Plymouth workplace.
----
+## INCLUDE (7)
 
 ---
 action: 
@@ -57,6 +45,18 @@ company: Adecco - Agency - Temporary
 location: Plymouth
 source: JobG8
 job_id: jobg8-23643_225715832
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Livewell Southwest
+location: Plymouth, PL6 5AF
+source: NHS Jobs
+job_id: nhs-5699625
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -93,30 +93,6 @@ company: The Supply Register - Agency - Temporary
 location: Plymouth
 source: JobG8
 job_id: jobg8-23643_225709414
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: School Office Administrator
-company: Boringdon Primary School
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-office-administrator-boringdon-primary-school
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: SEN Medical Administrator
-company: Plymouth High School for Girls
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-sen-medical-administrator
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -263,18 +239,6 @@ company: Ten Recruit Limited - Agency - Permanent
 location: Bideford
 source: JobG8
 job_id: jobg8-23643_224726426
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Devon Partnership NHS Trust
-location: Totnes, TQ9 5JA
-source: NHS Jobs
-job_id: nhs-5660761
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -635,6 +599,18 @@ company: St Thomas Medical Group
 location: Exeter, EX4 1HJ, EXETER, EX4 2AD, Exeter, EX44QP
 source: NHS Jobs
 job_id: nhs-5672950
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mental Health Act Administrator
+company: Elysium Healthcare
+location: Cullompton, EX15 1EA
+source: NHS Jobs
+job_id: nhs-5699161
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

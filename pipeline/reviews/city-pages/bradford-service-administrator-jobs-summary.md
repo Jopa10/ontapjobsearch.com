@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
-- automatic review: 45
+- automatic include: 30
+- automatic review: 42
 - automatic exclude: 135
-- effective include: 34
-- effective review: 45
+- effective include: 30
+- effective review: 42
 - effective exclude: 135
 
-## INCLUDE (34)
+## INCLUDE (30)
 
 ---
 action: 
@@ -172,18 +172,6 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Exams Officer
-company: Bradford Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-bradford-academy-bradford
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Executive Assistant
 company: hireful - Company - Permanent
 location: Bradford
@@ -232,18 +220,6 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
-title: GP Receptionist
-company: Idle Medical Centre
-location: Bradford, BD10 8RU
-source: NHS Jobs
-job_id: nhs-5659504
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Logistics Co-ordinator
 company: Loom Talent - Agency - Permanent
 location: Bradford
@@ -285,18 +261,6 @@ company: Marmon Lift Recruitment - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225707509
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Primary Receptionist
-company: Bradford Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-primary-receptionist-bradford-academy
 reason: Approved Bradford catchment.
 ---
 
@@ -400,18 +364,6 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
-title: SEND Administrator (part-time, 30h per week)
-company: Bradford Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-part-time-30h-per-week
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Bradford
@@ -432,7 +384,7 @@ job_id: jobg8-2192918
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (45)
+## REVIEW (42)
 
 ---
 action: 
@@ -491,18 +443,6 @@ company: Fin Search Ltd - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2156990
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: The Mirfield Free Grammar
-location: Mirfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -647,18 +587,6 @@ company: West Riding Recruitment - Agency - Permanent
 location: Batley
 source: JobG8
 job_id: jobg8-23643_225765524
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Enrichment & Finance Officer
-company: Ilkley Grammar School
-location: Ilkley
-source: Teaching Vacancies
-job_id: teaching-vacancies-enrichment-finance-officer
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -962,18 +890,6 @@ job_id: jobg8-2204175
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trust HR Administrator
-company: Moorlands Learning Trust
-location: Ilkley
-source: Teaching Vacancies
-job_id: teaching-vacancies-trust-hr-administrator-moorlands-learning-trust
-reason: No approved Bradford catchment rule matched; local review required.
----
-
 ## EXCLUDE (135)
 
 ---
@@ -1153,6 +1069,18 @@ company: Talent-UK Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225774854
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Blenheim Schools - Company - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-20091_328253
 reason: Separate employment market.
 ---
 
@@ -1813,18 +1741,6 @@ company: Office Angels - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2152521
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Officer
-company: Greenhead College
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-officer-greenhead-college
 reason: Separate employment market.
 ---
 

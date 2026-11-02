@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 31
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 31
+- automatic include: 23
 - automatic review: 13
-- automatic exclude: 32
-- effective include: 31
+- automatic exclude: 30
+- effective include: 23
 - effective review: 13
-- effective exclude: 32
+- effective exclude: 30
 
-## INCLUDE (31)
+## INCLUDE (23)
 
 ---
 action: 
@@ -45,30 +45,6 @@ company: Hardwick and Cambourne Community Primary School
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-hardwick-and-cambourne-community-primary-school
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0QQ
-source: NHS Jobs
-job_id: nhs-5677747
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant (International and Community Projects)
-company: North Cambridge Academy
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-international-and-community-projects-north-cambridge-academy
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -141,66 +117,6 @@ company: EA First - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225759112
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Officer
-company: Cambridge Academy for Science and Technology
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-officer-cambridge-academy-for-science-and-technology-cambridge-cambridgeshire
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Officer
-company: Coleridge Community College
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-officer-coleridge-community-college-cambridge-cambridgeshire
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Officer
-company: Parkside Community College
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-officer-parkside-community-college-cambridge-cambridgeshire
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Officer
-company: The Galfrid School
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-officer-the-galfrid-school-cambridge-cambridgeshire
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Officer
-company: Trumpington Community College
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-officer-trumpington-community-college-cambridge-cambridgeshire
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -345,18 +261,6 @@ company: Pure Resourcing Solutions Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225777944
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sixth Form Administrator/Exams
-company: Impington Village College
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-sixth-form-administrator-exams
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -554,7 +458,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -625,30 +529,6 @@ company: United Learning Trust
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-admissions-administrator-united-learning-trust
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Attendance Officer
-company: Jack Hunt Academy
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-jack-hunt-academy-peterborough-cambridgeshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Administrator Apprentice
-company: Greater Peterborough UTC
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-administrator-apprentice-greater-peterborough-utc
 reason: Separate employment market.
 ---
 

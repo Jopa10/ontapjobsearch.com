@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 17
-- automatic exclude: 21
-- effective include: 13
-- effective review: 17
-- effective exclude: 21
+- automatic include: 12
+- automatic review: 18
+- automatic exclude: 17
+- effective include: 12
+- effective review: 18
+- effective exclude: 17
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225747065
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Officer
-company: St Wilfrid's Catholic Primary School - a Catholic Voluntary Academy
-location: York
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy
 reason: Approved York catchment.
 ---
 
@@ -180,7 +168,7 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
 
 ---
 action: 
@@ -386,7 +374,19 @@ job_id: jobg8-23643_225729465
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (21)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Interaction - Leeds - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-108059238
+reason: No approved York catchment rule matched; local review required.
+---
+
+## EXCLUDE (17)
 
 ---
 action: 
@@ -398,18 +398,6 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2207066
 reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Selby, YO8 9BX
-source: NHS Jobs
-job_id: nhs-5669774
-reason: Separate employment market.
 ---
 
 ---
@@ -434,18 +422,6 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225706656
 reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Data Administrator
-company: St John Fisher Catholic Academy
-location: Harrogate
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-administrator-st-john-fisher-catholic-academy
-reason: Separate employment market.
 ---
 
 ---
@@ -548,18 +524,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll/Finance Administrator
-company: Ventrolla - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225536401
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Project Administrator
 company: Innovex - Agency - Permanent
 location: Selby
@@ -577,18 +541,6 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Selby
 source: JobG8
 job_id: jobg8-23643_225733131
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: SEND Administrator
-company: George Pindar School
-location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-george-pindar-school-scarborough
 reason: Separate employment market.
 ---
 

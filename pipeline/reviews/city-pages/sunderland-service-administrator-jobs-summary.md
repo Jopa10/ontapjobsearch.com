@@ -4,8 +4,8 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 125
+- automatic include: 3
+- automatic review: 119
 - automatic exclude: 0
-- effective include: 4
-- effective review: 125
+- effective include: 3
+- effective review: 119
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Taryn Hall Recruitment - Agency - Permanent
 location: Sunderland
 source: JobG8
 job_id: jobg8-23643_225712467
-reason: Exact approved Sunderland workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: St Anthony's Girls' Catholic Academy
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-st-anthony-s-girls-catholic-academy
 reason: Exact approved Sunderland workplace.
 ---
 
@@ -72,7 +60,7 @@ job_id: nhs-5689557
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (125)
+## REVIEW (119)
 
 ---
 action: 
@@ -366,18 +354,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Tyneside Surgical Services
-location: Gateshead, NE11 0HF
-source: NHS Jobs
-job_id: nhs-5667685
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Assistant Scheme Coordinator
 company: RG Setsquare - Agency - Permanent
 location: Tyne And Wear
@@ -514,31 +490,7 @@ title: Clinical Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Durham, DH1 5YA
 source: NHS Jobs
-job_id: nhs-5668821
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5YA
-source: NHS Jobs
 job_id: nhs-5684079
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Team Secretary/Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5RD
-source: NHS Jobs
-job_id: nhs-5668716
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -839,18 +791,6 @@ company: Penn Gregory Recruitment Ltd - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225764054
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2158858
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1411,18 +1351,6 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
-company: Paisley Recruitement Group - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225682964
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
 company: Towne Lifting & Testing - Agency - Permanent
 location: County Durham
 source: JobG8
@@ -1535,18 +1463,6 @@ company: Office Angels - Agency - Temporary
 location: Newcastle
 source: JobG8
 job_id: jobg8-23643_225729570
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2214000
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

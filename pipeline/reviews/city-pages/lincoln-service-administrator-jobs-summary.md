@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 42
+- Effective included jobs: 45
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 42
-- automatic review: 10
+- automatic include: 45
+- automatic review: 9
 - automatic exclude: 0
-- effective include: 42
-- effective review: 10
+- effective include: 45
+- effective review: 9
 - effective exclude: 0
 
-## INCLUDE (42)
+## INCLUDE (45)
 
 ---
 action: 
@@ -117,6 +117,18 @@ company: Reed - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2163998
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Haig Legal Group Limited - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-108263727
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -424,6 +436,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Clerk & Accounts Assistant
+company: Manpower UK - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-108115753
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Personal Assistant
 company: The Barnes Wallis Academy
 location: Lincoln
@@ -472,12 +496,12 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Sir Robert Pattinson Academy
-location: Lincoln
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-sir-robert-pattinson-academy
-reason: Exact approved Lincoln workplace.
+title: Receptionist - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225767948
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---
@@ -508,6 +532,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Supply Chain Coordinator
+company: TEAM - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225785369
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Traffic Process Administration Assistant
 company: Adecco - Agency - Temporary
 location: Lincolnshire
@@ -528,7 +564,7 @@ job_id: jobg8-23643_225722678
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -552,18 +588,6 @@ location: Grimsby, DN33 2BA
 source: NHS Jobs
 job_id: nhs-5688703
 reason: The stated location is broader or less specific than the approved Lincoln employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant - band 2
-company: Our Lady of Good Counsel Catholic Primary School, A Voluntary Academy
-location: Sleaford
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-band-2-96d0a457-1878-4579-bc10-d33c9990b986
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

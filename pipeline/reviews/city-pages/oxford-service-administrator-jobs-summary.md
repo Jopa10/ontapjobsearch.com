@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 7
 - automatic review: 35
-- automatic exclude: 36
+- automatic exclude: 37
 - effective include: 7
 - effective review: 35
-- effective exclude: 36
+- effective exclude: 37
 
 ## INCLUDE (7)
 
@@ -530,7 +530,7 @@ job_id: jobg8-108158397
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (37)
 
 ---
 action: 
@@ -709,6 +709,18 @@ company: Diocese of Oxford - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225754437
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR and Payroll Officer
+company: Not For Profit People - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2174234
 reason: Broad county location; not Oxford-city evidence.
 ---
 

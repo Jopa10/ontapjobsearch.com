@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 53
+- automatic include: 4
+- automatic review: 50
 - automatic exclude: 0
-- effective include: 6
-- effective review: 53
+- effective include: 4
+- effective review: 50
 - effective exclude: 0
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Regent's Park Healthcare
-location: Bournemouth, BH7 7DW
-source: NHS Jobs
-job_id: nhs-5671343
-reason: Exact approved Bournemouth workplace.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -84,19 +72,7 @@ job_id: jobg8-23643_225730020
 reason: Exact approved Bournemouth workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk - Stroke Unit
-company: University Hospitals Dorset NHS Foundation Trust
-location: Bournemouth, BH7 7DW
-source: NHS Jobs
-job_id: nhs-5675567
-reason: Exact approved Bournemouth workplace.
----
-
-## REVIEW (53)
+## REVIEW (50)
 
 ---
 action: 
@@ -119,30 +95,6 @@ company: Agincare Group - Agency - Permanent
 location: Weymouth
 source: JobG8
 job_id: jobg8-108179266
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Care UK - Company - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108242620
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
-company: Southern Education Trust
-location: Poole
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-southern-education-trust
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -258,18 +210,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Business Administrator
-company: KAG Recruitment Consultancy - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225771986
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: Leaders In Care Recruitment Ltd - Agency - Permanent
 location: Dorset
@@ -347,18 +287,6 @@ company: Simply Automotive Ltd - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225721880
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108203744
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -455,6 +383,18 @@ company: RecruitmentRevolution.com - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225717779
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Executive
+company: Effective Recruitment Solutions Ltd - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225785254
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

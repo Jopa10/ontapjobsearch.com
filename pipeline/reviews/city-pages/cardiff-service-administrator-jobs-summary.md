@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 0
+- automatic include: 20
+- automatic review: 1
 - automatic exclude: 0
-- effective include: 18
-- effective review: 0
+- effective include: 20
+- effective review: 1
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (20)
 
 ---
 action: 
@@ -137,6 +137,18 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2151735
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
 company: Yolk Recruitment - Agency - Permanent
 location: Cardiff
 source: JobG8
@@ -177,6 +189,18 @@ company: Pertemps Cardiff - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-2192388
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2178886
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -240,6 +264,18 @@ job_id: jobg8-23643_225692612
 reason: Approved conservative Cardiff launch catchment.
 ---
 
-## REVIEW (0)
+## REVIEW (1)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable/Purchase Ledger Clerk
+company: Corestone Talent - Agency - Permanent
+location: South Glamorgan
+source: JobG8
+job_id: jobg8-2198349
+reason: No approved Cardiff catchment rule matched; local review required.
+---
 
 ## EXCLUDE (0)

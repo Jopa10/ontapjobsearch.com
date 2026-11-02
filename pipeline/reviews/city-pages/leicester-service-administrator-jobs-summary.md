@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 77
+- automatic review: 76
 - automatic exclude: 0
 - effective include: 23
-- effective review: 77
+- effective review: 76
 - effective exclude: 0
 
 ## INCLUDE (23)
@@ -300,7 +300,7 @@ job_id: jobg8-23643_225761866
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (77)
+## REVIEW (76)
 
 ---
 action: 
@@ -587,6 +587,18 @@ company: Regional Recruitment - Agency - Permanent
 location: Blaby
 source: JobG8
 job_id: jobg8-23643_225693331
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Rota Coordinator / Scheduler
+company: New Horizons Care - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-108238825
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1146,18 +1158,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Scanning & Processing Assistant
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
-location: Coalville
-source: JobG8
-job_id: jobg8-23643_225694630
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Leicestershire
@@ -1175,18 +1175,6 @@ company: Saint Gobain - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225754680
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2213997
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

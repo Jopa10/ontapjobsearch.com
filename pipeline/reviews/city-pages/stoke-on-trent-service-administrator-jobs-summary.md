@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 73
+- automatic review: 71
 - automatic exclude: 0
 - effective include: 7
-- effective review: 73
+- effective review: 71
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5675916
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (71)
 
 ---
 action: 
@@ -227,18 +227,6 @@ company: The Hart School
 location: Rugeley
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-admin-assistant-3eb72589-09a8-45cd-a3b2-637d65a99a60
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: The Colliery Practice
-location: Cannock, WS11 1DJ
-source: NHS Jobs
-job_id: nhs-5677288
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -899,18 +887,6 @@ company: Mitchell Adam - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2161983
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: St Patrick's Catholic Primary School
-location: Stafford
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-st-patrick-s-catholic-primary-school-stafford-staffordshire
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

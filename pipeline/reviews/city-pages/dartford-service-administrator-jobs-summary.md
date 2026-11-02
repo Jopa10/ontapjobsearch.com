@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 14
 - automatic review: 117
-- automatic exclude: 37
+- automatic exclude: 36
 - effective include: 14
 - effective review: 117
-- effective exclude: 37
+- effective exclude: 36
 
 ## INCLUDE (14)
 
@@ -798,6 +798,18 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
+title: Finance administrator ( Accounts assistant)
+company: DrPA Secure - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-108261564
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Cobb & Jones Recruitment Limited - Agency - Permanent
 location: Kent
@@ -1043,6 +1055,18 @@ company: Jump IT Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225769186
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Merchandising Co-ordinator
+company: Sysco GB - Company - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-21203_fae05b47-18e8-492b-884b-b02887edfba1
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
@@ -1327,18 +1351,6 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Invicta Health CIC
-location: Ramsgate, CT118AD
-source: NHS Jobs
-job_id: nhs-5680336
-reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: Mocketts Wood Surgery
 location: Broadstairs, CT10 2TR
 source: NHS Jobs
@@ -1380,18 +1392,6 @@ location: Kent
 source: JobG8
 job_id: jobg8-23643_225783935
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator
-company: The Grovehurst Surgery
-location: Sittingbourne, ME10 2ST
-source: NHS Jobs
-job_id: nhs-5668256
-reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -1598,7 +1598,7 @@ job_id: jobg8-23643_225780694
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -1849,18 +1849,6 @@ company: New Appointments Group - Agency - Permanent
 location: Rochester
 source: JobG8
 job_id: jobg8-23643_225744357
-reason: The stated workplace belongs outside the approved Dartford employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Operations Administrator
-company: Canterbury Medical Practice
-location: Canterbury, CT1 3NR, CANTERBURY, CT3 1TX, CANTERBURY, CT4 5BL
-source: NHS Jobs
-job_id: nhs-5659048
 reason: The stated workplace belongs outside the approved Dartford employment market.
 ---
 

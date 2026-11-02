@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 159
+- automatic review: 158
 - automatic exclude: 0
 - effective include: 9
-- effective review: 159
+- effective review: 158
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-2166470
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (159)
+## REVIEW (158)
 
 ---
 action: 
@@ -894,6 +894,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance administrator ( Accounts assistant)
+company: DrPA Secure - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-108261564
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Cobb & Jones Recruitment Limited - Agency - Permanent
 location: Kent
@@ -1230,6 +1242,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Merchandising Co-ordinator
+company: Sysco GB - Company - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-21203_fae05b47-18e8-492b-884b-b02887edfba1
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: Berry Recruitment - Agency - Permanent
 location: Kent
@@ -1295,18 +1319,6 @@ company: Connect Personnel - Agency - Contract
 location: Dartford
 source: JobG8
 job_id: jobg8-23643_225757689
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Administrator
-company: Canterbury Medical Practice
-location: Canterbury, CT1 3NR, CANTERBURY, CT3 1TX, CANTERBURY, CT4 5BL
-source: NHS Jobs
-job_id: nhs-5659048
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1651,18 +1663,6 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Invicta Health CIC
-location: Ramsgate, CT118AD
-source: NHS Jobs
-job_id: nhs-5680336
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: Michael Page - Agency - Permanent
 location: Tunbridge Wells
 source: JobG8
@@ -1715,18 +1715,6 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225783935
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator
-company: The Grovehurst Surgery
-location: Sittingbourne, ME10 2ST
-source: NHS Jobs
-job_id: nhs-5668256
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

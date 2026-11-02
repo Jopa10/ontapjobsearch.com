@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 105
+- automatic review: 101
 - automatic exclude: 0
 - effective include: 5
-- effective review: 105
+- effective review: 101
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225743675
 reason: Exact approved Watford workplace.
 ---
 
-## REVIEW (105)
+## REVIEW (101)
 
 ---
 action: 
@@ -228,18 +228,6 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225703707
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Officer - Receptionist
-company: Goffs Academy
-location: Waltham Cross
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-officer-receptionist
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -810,18 +798,6 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Inclusion Administrator
-company: Nicholas Breakspear Catholic School
-location: St Albans
-source: Teaching Vacancies
-job_id: teaching-vacancies-inclusion-administrator-nicholas-breakspear-catholic-school
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Inside Sales - Telesales
 company: Transcomm Recruitment - Agency - Permanent
 location: Berkhamsted
@@ -888,18 +864,6 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225714273
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: The Hemel Hempstead School
-location: Hemel Hempstead
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -1176,18 +1140,6 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225752848
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: SEND Administrator
-company: Chancellor's School
-location: Hatfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-chancellor-s-school
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

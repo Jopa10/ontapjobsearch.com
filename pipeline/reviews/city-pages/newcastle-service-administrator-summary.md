@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 66
-- automatic exclude: 39
-- effective include: 24
-- effective review: 66
-- effective exclude: 39
+- automatic include: 23
+- automatic review: 65
+- automatic exclude: 34
+- effective include: 23
+- effective review: 65
+- effective exclude: 34
 
-## INCLUDE (24)
+## INCLUDE (23)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: Gateshead Health NHS Foundation Trust
 location: Gateshead, NE9 6SX
 source: NHS Jobs
 job_id: nhs-5690395
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Tyneside Surgical Services
-location: Gateshead, NE11 0HF
-source: NHS Jobs
-job_id: nhs-5667685
 reason: Approved Newcastle catchment.
 ---
 
@@ -312,7 +300,7 @@ job_id: jobg8-23643_225729570
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (66)
+## REVIEW (65)
 
 ---
 action: 
@@ -1074,18 +1062,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2214000
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Typing Coordinator
 company: Spire Healthcare - Company - Permanent
 location: Washington
@@ -1106,7 +1082,7 @@ job_id: nhs-5682388
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (39)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -1200,31 +1176,7 @@ title: Clinical Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Durham, DH1 5YA
 source: NHS Jobs
-job_id: nhs-5668821
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5YA
-source: NHS Jobs
 job_id: nhs-5684079
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Secretary/Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5RD
-source: NHS Jobs
-job_id: nhs-5668716
 reason: Separate employment market.
 ---
 
@@ -1321,18 +1273,6 @@ company: Penn Gregory Recruitment Ltd - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225764054
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2158858
 reason: Separate employment market.
 ---
 
@@ -1472,18 +1412,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: St Anthony's Girls' Catholic Academy
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-st-anthony-s-girls-catholic-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Recovery Coordinator
 company: Waythrough - Agency - Permanent
 location: County Durham
@@ -1501,18 +1429,6 @@ company: SRG - Agency - Temporary
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225723153
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Administrator
-company: Paisley Recruitement Group - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225682964
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 52
-- automatic review: 7
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 52
-- effective review: 7
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (52)
@@ -648,7 +648,7 @@ job_id: jobg8-23643_225761106
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -719,18 +719,6 @@ company: Adaptable Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-2187943
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2213998
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

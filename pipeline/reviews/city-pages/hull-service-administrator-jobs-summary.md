@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 20
+- automatic include: 19
+- automatic review: 17
 - automatic exclude: 0
-- effective include: 21
-- effective review: 20
+- effective include: 19
+- effective review: 17
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (19)
 
 ---
 action: 
@@ -57,30 +57,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-2169240
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Chiltern Primary School
-location: Hull
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-chiltern-primary-school
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Oldfleet Primary School
-location: Hull
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-oldfleet-primary-school-hull
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -276,7 +252,7 @@ job_id: jobg8-23643_225713565
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (17)
 
 ---
 action: 
@@ -354,47 +330,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: The Consortium Academy Trust
-location: Cottingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-assistant-1aa789e7-40d1-40c1-97b4-f3cdd63664a9
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR, Training & Office Support Administrator
 company: SaB Consulting Yorkshire Limited - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225705236
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Logistics Coordinator
-company: Consortium Professional Recruitment - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-108183003
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Logistics Coordinator
-company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-23643_225731622
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

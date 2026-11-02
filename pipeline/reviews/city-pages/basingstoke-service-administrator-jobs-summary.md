@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 166
+- automatic review: 163
 - automatic exclude: 0
 - effective include: 10
-- effective review: 166
+- effective review: 163
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: nhs-5676428
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (166)
+## REVIEW (163)
 
 ---
 action: 
@@ -560,18 +560,6 @@ decision: review
 automatic_decision: review
 title: Business Support Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4XE
-source: NHS Jobs
-job_id: nhs-5677600
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO18 6BT, Chandlers Ford, SO53 3LG
 source: NHS Jobs
 job_id: nhs-5687108
@@ -767,6 +755,18 @@ company: Wade Macdonald - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2203046
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Administrator
+company: Adecco - Agency - Temporary
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225785343
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1158,11 +1158,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
+title: HR Administrator
+company: Brook Street - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225698170
+job_id: jobg8-108168783
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1223,18 +1223,6 @@ company: Connect It Utility Services Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225698267
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim HR Assistant
-company: Liberty HR Recruitment - Agency - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225781879
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1439,18 +1427,6 @@ company: Vine Medical Group
 location: Waterlooville, PO7 7AH
 source: NHS Jobs
 job_id: nhs-5684220
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Derby Road Practice
-location: Portsmouth, PO2 8HW
-source: NHS Jobs
-job_id: nhs-5667147
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1751,18 +1727,6 @@ company: OutThere RPO Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225749059
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Tadley Medical Partnership
-location: Tadley, RG26 4ER, Tadley , RG26 4AN
-source: NHS Jobs
-job_id: nhs-5656044
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

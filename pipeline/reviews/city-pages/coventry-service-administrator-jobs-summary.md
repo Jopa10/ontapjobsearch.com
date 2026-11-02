@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 4
-- automatic exclude: 88
-- effective include: 21
-- effective review: 4
-- effective exclude: 88
+- automatic include: 19
+- automatic review: 3
+- automatic exclude: 87
+- effective include: 19
+- effective review: 3
+- effective exclude: 87
 
-## INCLUDE (21)
+## INCLUDE (19)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: SF Partners - Agency - Contract
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225722424
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Finham Park 2
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-finham-park-2
 reason: Approved Coventry catchment.
 ---
 
@@ -232,18 +220,6 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist and Administrative Assistant to the Deputy Headteachers
-company: Caludon Castle School
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrative-assistant-to-the-deputy-headteachers
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Residential Conveyancing Paralegal
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Coventry
@@ -276,7 +252,7 @@ job_id: jobg8-23643_225744797
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (3)
 
 ---
 action: 
@@ -314,19 +290,7 @@ job_id: jobg8-23643_225727031
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist and Administrator (2 days per week)
-company: Kenilworth School and Sixth Form
-location: Kenilworth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrator-2-days-per-week
-reason: No approved Coventry catchment rule matched; local review required.
----
-
-## EXCLUDE (88)
+## EXCLUDE (87)
 
 ---
 action: 
@@ -397,6 +361,18 @@ company: 3 Point Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2188924
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225756406
 reason: Separate employment market.
 ---
 
@@ -824,18 +800,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: GP Surgery Receptionist
-company: Station Street Surgery
-location: Nuneaton, CV11 6HH
-source: NHS Jobs
-job_id: nhs-5656280
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Group Credit Controller
 company: Trinity House Group - Agency - Permanent
 location: Warwickshire
@@ -973,18 +937,6 @@ company: ChilliMint (Europe) Limited - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225760700
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Rother House Medical Centre
-location: Stratford-upon-avon, CV37 6PP
-source: NHS Jobs
-job_id: nhs-5657937
 reason: Separate employment market.
 ---
 
@@ -1200,6 +1152,18 @@ title: Recruitment Account Coordinator (Driving)
 company: Winner Recruitment - Agency - Permanent
 location: Rugby
 source: JobG8
+job_id: jobg8-108261084
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Account Coordinator (Driving)
+company: Winner Recruitment - Agency - Permanent
+location: Rugby
+source: JobG8
 job_id: jobg8-23643_225780339
 reason: Separate employment market.
 ---
@@ -1345,18 +1309,6 @@ company: Triumph - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225746288
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2213992
 reason: Separate employment market.
 ---
 

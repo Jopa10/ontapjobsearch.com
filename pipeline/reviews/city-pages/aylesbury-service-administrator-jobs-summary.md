@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 83
+- automatic review: 82
 - automatic exclude: 0
 - effective include: 8
-- effective review: 83
+- effective review: 82
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5676129
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (83)
+## REVIEW (82)
 
 ---
 action: 
@@ -935,18 +935,6 @@ company: University College London Hospitals NHS Foundation Trust
 location: Buckinghamshire, SL9 0RJ
 source: NHS Jobs
 job_id: nhs-5694947
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist (General Administrator)
-company: Oakgrove School
-location: Milton Keynes
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-general-administrator-ad565c22-7800-442c-b92a-0cd4c39c9cec
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

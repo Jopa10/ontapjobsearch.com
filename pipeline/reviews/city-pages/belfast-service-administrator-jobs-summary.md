@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 6
+- automatic review: 7
 - automatic exclude: 0
 - effective include: 7
-- effective review: 6
+- effective review: 7
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -64,6 +64,18 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Bookkeeper
+company: Brook Street - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-23643_225761514
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Hays Accounts and Finance - Agency - Permanent
 location: Belfast
@@ -96,19 +108,7 @@ job_id: jobg8-23643_225775436
 reason: Approved conservative Belfast launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2213987
-reason: Approved conservative Belfast launch catchment.
----
-
-## REVIEW (6)
+## REVIEW (7)
 
 ---
 action: 
@@ -167,6 +167,18 @@ company: Hays Accounts and Finance - Agency - Permanent
 location: Larne
 source: JobG8
 job_id: jobg8-23643_225756135
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Assistant
+company: Woodside Logistics Group - Agency - Permanent
+location: Ballyclare
+source: JobG8
+job_id: jobg8-108207818
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

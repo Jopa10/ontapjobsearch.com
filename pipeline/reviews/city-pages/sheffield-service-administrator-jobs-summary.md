@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 32
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
-- automatic review: 14
-- automatic exclude: 38
-- effective include: 34
-- effective review: 14
-- effective exclude: 38
+- automatic include: 32
+- automatic review: 13
+- automatic exclude: 36
+- effective include: 32
+- effective review: 13
+- effective exclude: 36
 
-## INCLUDE (34)
+## INCLUDE (32)
 
 ---
 action: 
@@ -364,18 +364,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Westfield School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-westfield-school
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Admin Assistant
 company: Anston Park Infant School
 location: Sheffield
@@ -420,19 +408,7 @@ job_id: jobg8-23643_225736471
 reason: Approved Sheffield catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Admin Assistant at Kiveton Park Infant School
-company: Kiveton Park Infant School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school-kiveton-park-infant-school
-reason: Approved Sheffield catchment.
----
-
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -590,19 +566,7 @@ job_id: jobg8-2153824
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2214004
-reason: No approved Sheffield catchment rule matched; local review required.
----
-
-## EXCLUDE (38)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -680,18 +644,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Care Navigator (Receptionist)
-company: Dunsville Medical Centre
-location: Doncaster, DN7 4BY
-source: NHS Jobs
-job_id: nhs-5677415
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Commercial Property Assistant
 company: SJC Partners - Agency - Permanent
 location: Barnsley
@@ -745,18 +697,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Estates Compliance and Administrative Assistant
-company: Place Partnership A Multi Academy Trust
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-estates-compliance-and-administrative-assistant
 reason: Separate employment market.
 ---
 

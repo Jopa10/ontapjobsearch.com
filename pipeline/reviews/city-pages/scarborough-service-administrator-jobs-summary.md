@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 46
+- automatic include: 4
+- automatic review: 43
 - automatic exclude: 0
-- effective include: 5
-- effective review: 46
+- effective include: 4
+- effective review: 43
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225782883
-reason: Exact approved Scarborough workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: SEND Administrator
-company: George Pindar School
-location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-george-pindar-school-scarborough
 reason: Exact approved Scarborough workplace.
 ---
 
@@ -84,7 +72,7 @@ job_id: nhs-5690490
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (46)
+## REVIEW (43)
 
 ---
 action: 
@@ -174,30 +162,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Officer
-company: St Wilfrid's Catholic Primary School - a Catholic Voluntary Academy
-location: York
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Selby, YO8 9BX
-source: NHS Jobs
-job_id: nhs-5669774
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Commercial Property Paralegal
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Yorkshire
@@ -227,18 +191,6 @@ company: G2 Legal Limited - Agency - Permanent
 location: Malton
 source: JobG8
 job_id: jobg8-2211808
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Data Administrator
-company: St John Fisher Catholic Academy
-location: Harrogate
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-administrator-st-john-fisher-catholic-academy
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -498,18 +450,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Payroll/Finance Administrator
-company: Ventrolla - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225536401
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Practice Administrator
 company: Magpie Recruitment - Agency - Permanent
 location: Richmond
@@ -623,6 +563,18 @@ company: Auto Skills UK - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225729465
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Interaction - Leeds - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-108059238
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

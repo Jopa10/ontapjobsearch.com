@@ -569,34 +569,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-receptionist-westfield-school",
-    "title": "Receptionist",
-    "company": "Westfield School",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,427.00 - £26,847.00 Annually (FTE) Grade 3 SCP 5 to SCP 6 (Actual salary £22,729 - £23,091)",
-    "work_pattern": "",
-    "posted_date": "2026-10-19",
-    "closing_date": "2026-11-01",
-    "closing_datetime": "2026-11-01T23:59:00+00:00",
-    "summary": "Receptionist with Westfield School in Sheffield. ['full time']; £26,427.00 - £26,847.00 Annually (FTE) Grade 3 SCP 5 to SCP 6 (Actual salary £22,729 - £23,091).",
-    "description": "Westfield School is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,427.00 - £26,847.00 Annually (FTE) Grade 3 SCP 5 to SCP 6 (Actual salary £22,729 - £23,091).\n\nThe stated application deadline is 2026-11-01T23:59:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-westfield-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Westfield School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-school-admin-assistant-anston-park-infant-school",
     "title": "School Admin Assistant",
     "company": "Anston Park Infant School",
@@ -678,34 +650,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school-kiveton-park-infant-school",
-    "title": "Temporary Admin Assistant at Kiveton Park Infant School",
-    "company": "Kiveton Park Infant School",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,427.00 - £26,847.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-09-25",
-    "closing_date": "2026-11-01",
-    "closing_datetime": "2026-11-01T23:59:00+00:00",
-    "summary": "Temporary Admin Assistant at Kiveton Park Infant School with Kiveton Park Infant School in Sheffield. ['part time']; £26,427.00 - £26,847.00 Annually (FTE).",
-    "description": "Kiveton Park Infant School is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Temporary Admin Assistant at Kiveton Park Infant School.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,427.00 - £26,847.00 Annually (FTE).\n\nThe stated application deadline is 2026-11-01T23:59:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/temporary-admin-assistant-at-kiveton-park-infant-school-kiveton-park-infant-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Kiveton Park Infant School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nhs-5685334",
     "source": "NHS Jobs",
     "title": "Medical Receptionist",
@@ -722,9 +666,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5522-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -744,9 +685,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0103-26-0083",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -766,9 +704,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9457-26-0333",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -788,9 +723,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0680",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -810,9 +742,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0063-26-0022",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -832,9 +761,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0063-26-0023",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

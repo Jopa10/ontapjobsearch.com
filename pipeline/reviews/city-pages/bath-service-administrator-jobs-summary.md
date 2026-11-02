@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 84
+- automatic review: 81
 - automatic exclude: 0
 - effective include: 4
-- effective review: 84
+- effective review: 81
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-2188896
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (84)
+## REVIEW (81)
 
 ---
 action: 
@@ -438,18 +438,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Exams Officer
-company: Downend School
-location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-downend-school-bristol
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Morgan McKinley (South West) - Agency - Permanent
 location: Bristol
@@ -630,18 +618,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Jaguar Land Rover Accounts Assistant
-company: Sytner Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2156090
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Assistant
 company: eNL Legal Recruitment - Agency - Permanent
 location: Bristol
@@ -755,6 +731,18 @@ company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2210242
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Co-ordinator, Patchway
+company: Menlo Park - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225784689
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -930,18 +918,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: School Administrator
-company: North Star 265°
-location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-north-star-265-bristol-bristol
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Administrator MAT cover
 company: Little Mead Primary Academy
 location: Bristol
@@ -1067,18 +1043,6 @@ company: Morgan Sindall Property Services - Agency - Contract
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225686977
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2213990
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

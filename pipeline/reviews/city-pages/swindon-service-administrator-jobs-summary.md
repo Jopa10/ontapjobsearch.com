@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 26
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
-- automatic review: 31
+- automatic include: 23
+- automatic review: 33
 - automatic exclude: 0
-- effective include: 26
-- effective review: 31
+- effective include: 23
+- effective review: 33
 - effective exclude: 0
 
-## INCLUDE (26)
+## INCLUDE (23)
 
 ---
 action: 
@@ -220,18 +220,6 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: First Aider & Admin Assistant (Front Office)
-company: Kingsdown School
-location: Swindon
-source: Teaching Vacancies
-job_id: teaching-vacancies-first-aider-admin-assistant-front-office
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Inbound Banking Customer Service Advisors
 company: Office Angels - Agency - Temporary
 location: Swindon
@@ -268,35 +256,11 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Part-Time Receptionist (Mat Cover 12 months FTC)
-company: Swindon Academy
-location: Swindon
-source: Teaching Vacancies
-job_id: teaching-vacancies-part-time-receptionist-mat-cover-12-months-ftc
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Patient Coordinator
 company: Tate - Agency - Temporary
 location: Swindon
 source: JobG8
 job_id: jobg8-23643_225770342
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Progression Administrator
-company: Bradon Forest School
-location: Swindon
-source: Teaching Vacancies
-job_id: teaching-vacancies-progression-administrator-bradon-forest-school-swindon-wiltshire
 reason: Exact approved Swindon workplace.
 ---
 
@@ -336,7 +300,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (33)
 
 ---
 action: 
@@ -366,12 +330,12 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant
-company: Charter Primary School
-location: Chippenham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-charter-primary-school
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+title: Administration Officer
+company: Brook Street - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108188765
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -695,6 +659,30 @@ company: Oxford Health NHS Trust
 location: Melksham, SN12 7NZ
 source: NHS Jobs
 job_id: nhs-5683692
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Purchase Ledger Clerk
+company: CMA Recruitment Group - Agency - Temporary
+location: Salisbury
+source: JobG8
+job_id: jobg8-23643_225785368
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Warranty Administrator
+company: Thrive Group - Agency - Permanent
+location: Trowbridge
+source: JobG8
+job_id: jobg8-108247912
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

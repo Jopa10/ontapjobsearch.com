@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 135
+- Effective included jobs: 133
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 135
-- automatic review: 29
+- automatic include: 133
+- automatic review: 28
 - automatic exclude: 11
-- effective include: 135
-- effective review: 29
+- effective include: 133
+- effective review: 28
 - effective exclude: 11
 
-## INCLUDE (135)
+## INCLUDE (133)
 
 ---
 action: 
@@ -249,18 +249,6 @@ company: Hays Business Support - Agency - Contract
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225745531
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Coordinator
-company: Equals One Ltd - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-108256200
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -892,18 +880,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: Whalley Range 11-18 High School
-location: Manchester
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Coordinator
 company: Forrest Recruitment - Agency - Permanent
 location: Manchester
@@ -945,6 +921,18 @@ company: RecruitmentRevolution.com - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225717712
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Human Resources and Organisational Development Manager
+company: Salford CVS - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2174236
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1137,6 +1125,18 @@ company: Jane Gorse Recruitment Limited - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225732244
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office and Facilities Manager
+company: Salford CVS - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2174237
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1372,35 +1372,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Administrator
-company: Manchester University NHS Foundation Trust
-location: Manchester, M13 9WL
-source: NHS Jobs
-job_id: nhs-5697809
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Recruitment Administrator
 company: Jobwise Ltd - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225739394
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Recruitment Coordinator
-company: The Tutor Trust - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2204208
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1644,7 +1620,7 @@ job_id: jobg8-23643_225688135
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (28)
 
 ---
 action: 
@@ -1979,18 +1955,6 @@ company: Zachary Daniels - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2165466
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-2213999
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

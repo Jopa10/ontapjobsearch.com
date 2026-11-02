@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 71
+- Effective included jobs: 69
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 71
-- automatic review: 13
+- automatic include: 69
+- automatic review: 12
 - automatic exclude: 4
-- effective include: 71
-- effective review: 13
+- effective include: 69
+- effective review: 12
 - effective exclude: 4
 
-## INCLUDE (71)
+## INCLUDE (69)
 
 ---
 action: 
@@ -364,18 +364,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Exams Officer
-company: Downend School
-location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-downend-school-bristol
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Assistant
 company: Morgan McKinley (South West) - Agency - Permanent
 location: Bristol
@@ -496,18 +484,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Jaguar Land Rover Accounts Assistant
-company: Sytner Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2156090
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Legal Assistant
 company: eNL Legal Recruitment - Agency - Permanent
 location: Bristol
@@ -585,6 +561,18 @@ company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2210242
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Patient Co-ordinator, Patchway
+company: Menlo Park - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225784689
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -748,18 +736,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: School Administrator
-company: North Star 265°
-location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-north-star-265-bristol-bristol
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Administrator MAT cover
 company: Little Mead Primary Academy
 location: Bristol
@@ -876,7 +852,7 @@ job_id: jobg8-23643_225686977
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (12)
 
 ---
 action: 
@@ -1019,18 +995,6 @@ company: First Military Recruitment Ltd - Agency - Permanent
 location: Yate
 source: JobG8
 job_id: jobg8-23643_225746132
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2213990
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

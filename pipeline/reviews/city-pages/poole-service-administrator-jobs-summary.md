@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 51
+- automatic review: 46
 - automatic exclude: 0
 - effective include: 8
-- effective review: 51
+- effective review: 46
 - effective exclude: 0
 
 ## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant
-company: Southern Education Trust
-location: Poole
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-southern-education-trust
-reason: Exact approved Poole workplace.
----
 
 ---
 action: 
@@ -57,6 +45,18 @@ company: Team Jobs - Commercial - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225726239
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Internal Sales Executive
+company: Effective Recruitment Solutions Ltd - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225785254
 reason: Exact approved Poole workplace.
 ---
 
@@ -120,7 +120,7 @@ job_id: jobg8-2181226
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (51)
+## REVIEW (46)
 
 ---
 action: 
@@ -143,30 +143,6 @@ company: Agincare Group - Agency - Permanent
 location: Weymouth
 source: JobG8
 job_id: jobg8-108179266
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Care UK - Company - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108242620
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Regent's Park Healthcare
-location: Bournemouth, BH7 7DW
-source: NHS Jobs
-job_id: nhs-5671343
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -282,18 +258,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Business Administrator
-company: KAG Recruitment Consultancy - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225771986
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: Leaders In Care Recruitment Ltd - Agency - Permanent
 location: Dorset
@@ -383,18 +347,6 @@ company: The Work Shop Resourcing Ltd - Agency - Temporary
 location: Bournemouth
 source: JobG8
 job_id: jobg8-23643_225729918
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108203744
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -719,18 +671,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Christchurch, BH23 3AF
 source: NHS Jobs
 job_id: nhs-5692257
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk - Stroke Unit
-company: University Hospitals Dorset NHS Foundation Trust
-location: Bournemouth, BH7 7DW
-source: NHS Jobs
-job_id: nhs-5675567
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

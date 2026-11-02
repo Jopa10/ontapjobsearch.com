@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 78
+- automatic include: 11
+- automatic review: 76
 - automatic exclude: 0
-- effective include: 12
-- effective review: 78
+- effective include: 11
+- effective review: 76
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: Invest Solutions Limited - Agency - Permanent
 location: Gloucester
 source: JobG8
 job_id: jobg8-23643_224702654
-reason: Exact approved Gloucester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time Receptionist
-company: Henley Bank High School
-location: Gloucester
-source: Teaching Vacancies
-job_id: teaching-vacancies-part-time-receptionist-henley-bank-high-school
 reason: Exact approved Gloucester workplace.
 ---
 
@@ -168,7 +156,7 @@ job_id: jobg8-23643_225765910
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (78)
+## REVIEW (76)
 
 ---
 action: 
@@ -287,6 +275,18 @@ company: Reed - Agency - Permanent
 location: Cheltenham
 source: JobG8
 job_id: jobg8-2189245
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225759490
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -714,18 +714,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Junior Customer Service & Office Administrator
-company: Motofix Accident Repair Centres - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225760987
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Land and Property Coordinator
 company: NFP People LTD - Agency - Permanent
 location: Gloucestershire
@@ -767,6 +755,18 @@ company: Sytner - Company - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225769042
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Adecco - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225785346
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -1038,18 +1038,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Team Administrator
-company: Gloucestershire Health and Care NHS Foundation Trust
-location: Stroud, GL5 2HZ
-source: NHS Jobs
-job_id: nhs-5694325
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Trade Sales & Service Advisor
 company: Workforce Staffing Ltd - Agency - Permanent
 location: Cheltenham
@@ -1079,30 +1067,6 @@ company: i2i Recruitment - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225598812
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Sales Support Executive
-company: Usay Compare - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-108257442
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trips, Lettings & Payment Administrator
-company: Cirencester Deer Park School
-location: Cirencester
-source: Teaching Vacancies
-job_id: teaching-vacancies-trips-lettings-payment-administrator
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

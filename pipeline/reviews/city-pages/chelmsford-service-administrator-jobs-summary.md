@@ -498,18 +498,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administrator: Reprographics
-company: Mossbourne Fobbing Academy
-location: Stanford-le-Hope
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-reprographics-mossbourne-fobbing-academy
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: After Sales Technical Administrator
 company: NMS Recruit Ltd - Agency - Permanent
 location: Takeley
@@ -1115,6 +1103,18 @@ company: Time Appointments - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225702374
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Executive
+company: Effective Recruitment Solutions Ltd - Agency - Permanent
+location: Basildon
+source: JobG8
+job_id: jobg8-23643_225785255
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
