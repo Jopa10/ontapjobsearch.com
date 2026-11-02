@@ -2,15 +2,51 @@
 
 review_date: 2026-11-02
 
-- Open Administrative & Clerical rows reviewed: 2025
+- Open Administrative & Clerical rows reviewed: 2026
 - Auto/remembered selected: 356
 - Selected HC Tier A: 189
 - Selected HC Tier B: 167
 - POSS awaiting decision: 1582
 - Excluded: 0
-- HARD_PASS: 87
+- HARD_PASS: 88
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | London | Croydon, CR7 7YE | £33262.00 to £36027.00 | Hepatocellular Carcinoma (HCC) Surveillance Pathway Coordinator
+source_job_id: 5701491
+title: Hepatocellular Carcinoma (HCC) Surveillance Pathway Coordinator
+employer: Croydon Health Services NHS Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9199-8245087-NP
+factual_fingerprint: 9c78cd81b7dcb648f12736f142ebcfd9a52f7cff506c5555b9890e484e0f11e2
+---
+
+---
+action:
+POSS | NHS Jobs | London | Hackney, E9 6SR | £34186.00 to £37389.00 | Medical Secretary
+source_job_id: 5701889
+title: Medical Secretary
+employer: Homerton Healthcare NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9293-26-0563
+factual_fingerprint: 3d472c28c1ed9559f499ced3b3d774fc285f7c5f40bf95cd5715cc0952e8ad54
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, E9 6SR | £47951.00 to £56863.00 | EMRS Assistant Service Manager
+source_job_id: 5701083
+title: EMRS Assistant Service Manager
+employer: Homerton Healthcare NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9293-26-0562
+factual_fingerprint: 77ff26e294e33a7724600faa50413644912dd3658b337d18e40a16bfbc3ddb61
+---
 
 ---
 action:
@@ -2762,18 +2798,6 @@ factual_fingerprint: 654ce101039c9b78c1c31d72a6bf791682a0f6cd74785d0a86f1389cf7b
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £25272.00 | Telephonist / Admin Officer
-source_job_id: 5698422
-title: Telephonist / Admin Officer
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1355
-factual_fingerprint: 62372178b3d1de84c556a001a42b672f623c46ee79adbd4a76819f47b9916806
----
-
----
-action:
 POSS | NHS Jobs | West Midlands - Black Country | WALSALL, WS2 9HY | £12.71 | Patient Services Assistant - Walsall Division
 source_job_id: 5696292
 title: Patient Services Assistant - Walsall Division
@@ -2878,18 +2902,6 @@ region: West Midlands - Coventry & Warwickshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1352
 factual_fingerprint: 1664557e78eef4e74f263ad82e4990a202dd30c62a874ddb5be23d3b62dea24e
----
-
----
-action:
-POSS | NHS Jobs | Surrey | Leatherhead, K22 7AD | £29812.00 to £32715.00 | Senior Administrator - Band 4
-source_job_id: 5698906
-title: Senior Administrator - Band 4
-employer: Surrey and Borders Partnership NHS Foundation Trust
-region: Surrey
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9325-26-0876
-factual_fingerprint: 0fb549170d106e7a6ed3fcf0e7f2c690127eedb19fc72cd51bf97fd0979e9f4a
 ---
 
 ---
@@ -6406,18 +6418,6 @@ region: Yorkshire - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0343
 factual_fingerprint: 181ff6bf7e449d8a7d35f7fce0cb888681680ddd1d65eccbcd8ecd6311dd7a68
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L9 7AL | £25272.00 | Housekeeper
-source_job_id: 5690229
-title: Housekeeper
-employer: Liverpool University Hospitals NHS Foundation Trust
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1823
-factual_fingerprint: f8d0b7b5e8adc9a5457b5182cfcca41b25ab7186b92185796f0edd3bc7f2ae54
 ---
 
 ---
