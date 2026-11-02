@@ -2,11 +2,11 @@
 
 review_date: 2026-11-02
 
-- Open Administrative & Clerical rows reviewed: 2026
+- Open Administrative & Clerical rows reviewed: 2024
 - Auto/remembered selected: 356
 - Selected HC Tier A: 189
 - Selected HC Tier B: 167
-- POSS awaiting decision: 1582
+- POSS awaiting decision: 1580
 - Excluded: 0
 - HARD_PASS: 88
 
@@ -11690,18 +11690,6 @@ factual_fingerprint: c0a9134e9e76fc05e8e1ecd1f85f615178c87c4c57913c19e6e829093a1
 
 ---
 action:
-POSS | NHS Jobs | London | Kingston Upon Thames, KT2 7QB | £30630.00 to £32346.00 | Assistant Patient Pathway Coordinator
-source_job_id: 5685418
-title: Assistant Patient Pathway Coordinator
-employer: Kingston and Richmond NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9396-26-0439
-factual_fingerprint: 9b8a92269dccb53e76b429ddf89e2d0c1d27a8bf50804df7f007aa799834ed2d
----
-
----
-action:
 POSS | NHS Jobs | Suffolk | Lowestoft, NR32 1DE | £25272.00 to £25272.00 | Call Referral Operator
 source_job_id: 5685390
 title: Call Referral Operator
@@ -17050,18 +17038,6 @@ region: Lancashire - Blackpool & Fylde
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4318-26-0005
 factual_fingerprint: 1343c865730c4643ef941e705d1108677c711cb42b9b25cc5f9978057e8a8bcb
----
-
----
-action:
-POSS | NHS Jobs | Wiltshire | Swindon, SN3 6BB | £25760.00 to £27476.00 | JACIE Transplant Quality Administrator
-source_job_id: 5672242
-title: JACIE Transplant Quality Administrator
-employer: Great Western Hospitals NHS Foundation Trust
-region: Wiltshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9249-26-0641
-factual_fingerprint: 7af326910dbeb362d162c6d33f433e7af3a94689520d32f885f27686ce93958e
 ---
 
 ---
