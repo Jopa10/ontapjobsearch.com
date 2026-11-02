@@ -310,3 +310,53 @@ selection rule, schedule, expiry process or email sender was modified.
 See `staged-verification-2026-11-02.json` for per-stage receipts and deployment
 IDs/URLs. Next attach same-snapshot existing selector evidence and normalize
 existing display fields through shared code before connecting a test website.
+
+## Same-snapshot selector parity harness (prepared; verification pending)
+
+`run_selector_parity.py` checks the pinned archive hash and receipt, uses the
+existing XML adapter, withholds the already identified conflicting ID, and
+preserves supplier row order. It creates two isolated scratch copies of the
+pipeline's scripts, geography, registers, configuration and current owner review
+stores. Both execute the existing Service Admin and Support Worker entry points,
+including the seven family generators reached through the Service Admin chain.
+It does not execute the daily workflow, fetch a feed, compose external sources,
+enrich outputs, derive cities, publish, deploy production or send email.
+
+The first replay is unchanged file processing. The second observes actual
+executed rejection gates with Python's tracing API; it does not evaluate or
+copy policy expressions. Existing selector decision CSVs take precedence, and
+actual selected output rows take precedence over intermediate states. Unobserved
+rows stay **unknown** and block database attachment. Exact equality of all LIVE
+family output arrays (including ordering and display fields) is required. The
+observer is confined to the test harness; no production selector is edited.
+
+Decision scopes are `production:<family>` and describe that family's generated
+inventory, **not global job suitability**. An exclude can mean an actual policy
+rejection, non-LIVE geography, duplicate suppression or a final output gate.
+Eligible candidates withheld by a final threshold/campaign gate are explicitly
+identified; they are not invented human review decisions. Review outcomes come
+from actual production reports. Original raw-import unknown records remain as
+historical evidence in their original scope.
+
+```bash
+python database/shadow/test_selector_capture.py
+python database/shadow/run_selector_parity.py \
+  --archive /path/to/ontap-shadow-feed.zip --work /tmp/new-parity-work
+# logs, report.json and compact selection.json.gz are written only in scratch
+```
+
+`harness/selection-importer.mjs` verifies all stored advert content hashes against
+the pinned raw input, then attaches eight scoped decisions per clean advert to
+the existing accepted 100% run in one transaction. It compares every stored ID,
+outcome, reason and gate, verifies exact replay, and preserves withheld jobs,
+raw payloads, public IDs and availability. It refuses incomplete evidence,
+conflicting replay and projected/measured growth above 800 MiB. The deliberate
+`verify-selection-neon.mjs` Preview build uses the same fixed Neon resource and
+saved `ONTAP_SHADOW_` connection; it exposes only a sanitized static receipt.
+No runtime write handler, recurring import or cleanup is installed.
+
+Scope limitation: this proves the JobG8 family-generation boundary, not full
+publisher/city/composed-inventory parity. Those later boundaries and the protected
+database-backed website remain pending. No full-feed storage import is repeated.
+The exact original ZIP has additionally been preserved as `ontap-shadow-feed.zip`
+for continuation after the short-lived GitHub artifact expires.
