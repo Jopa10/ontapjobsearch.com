@@ -2,11 +2,11 @@
 
 review_date: 2026-11-02
 
-- Open Administrative & Clerical rows reviewed: 2024
+- Open Administrative & Clerical rows reviewed: 2023
 - Auto/remembered selected: 356
 - Selected HC Tier A: 189
 - Selected HC Tier B: 167
-- POSS awaiting decision: 1580
+- POSS awaiting decision: 1579
 - Excluded: 0
 - HARD_PASS: 88
 
@@ -8518,18 +8518,6 @@ region: Greater Manchester - North
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9236-26-1408
 factual_fingerprint: 032ca4d90276c35481516ced6aea346ae0feccbe6e7603887b64c7fd23a2d7ef
----
-
----
-action:
-POSS | NHS Jobs | Bedfordshire | Bedford, MK42 9DJ | £25272.00 | Patient Pathway Admin Clerk
-source_job_id: 5690746
-title: Patient Pathway Admin Clerk
-employer: Bedfordshire Hospitals NHS Foundation Trust
-region: Bedfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-1094
-factual_fingerprint: d517fd54c21a3c2684125740f06fc458564032043e37a6f0a3ca1400de4bd63b
 ---
 
 ---

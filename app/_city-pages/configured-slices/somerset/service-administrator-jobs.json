@@ -641,9 +641,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1060-26-0024",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -663,9 +660,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1198-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -685,9 +679,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1537-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -707,9 +698,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0016",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -729,9 +717,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1541",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5667697",
+    "source": "NHS Jobs",
+    "title": "Patient Administrator",
+    "company": "InHealth Group",
+    "advertiser_name": "InHealth Group",
+    "location": "YEOVIL, BA21 4AT",
+    "region": "Somerset",
+    "salary": "£25000.00 to £26000.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-15T14:17:35.394797740",
+    "closing_date": "2026-11-12",
+    "description": "We are looking for a friendly, organised and proactive Patient Administrator to join our Endoscopy team at our Yeovil unit. This is a fantastic opportunity to play a key role in delivering an exceptional patient experience, supporting patients throughout their diagnostic journey while working alongside a dedicated clinical team in a fast-paced healthcare environment. Providing a professional, welcoming first point of contact for patients, ensuring a positive experience from arrival through to departure. Managing telephone and face-to-face enquiries efficiently, responding to patient and stakeholder queries in a timely manner. Scheduling clinically validated appointments in line with clinical priorities and service requirements. Processing and distributing patient reports and diagnostic information accurately and within agreed service standards. Supporting the management team with administrative tasks, including month-end activities and reporting requirements. Ensuring patient invoicing is completed accurately, payments are processed promptly, and records are maintained in line with company procedures. Patient Administrator - Endoscopy Services (Yeovil) Full Time | 4 Days per Week | 8:00am - 6:00pm Weekend flexibility required on a rotational basis What You'll Be Doing About You We're looking for someone who is passionate about delivering excellent customer service and thrives in a busy, patient-focused environment. You will have: Previous experience in an administrative, customer service or healthcare setting. Strong IT skills, including confidence using Microsoft Office and other electronic systems. Excellent communication skills, both written and verbal. Strong organisational skills with great attention to detail. The ability to work independently whilst also contributing positively to a wider team. In return, you'll join a supportive team where your contribution directly impacts patient care and the smooth running of our endoscopy service.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0497",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0497",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]
