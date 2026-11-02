@@ -1,0 +1,172 @@
+{
+  "testedAt": "2026-11-02",
+  "testedCommit": "8abd9c7a8e24db33de55448f39ff6f5dec40545b",
+  "plan": "Free (owner-created; no upgrade performed)",
+  "sourceArtifactId": 13168067903,
+  "sourceRunId": 41500434597,
+  "productionDeploymentUnchanged": "dpl_DFvFXPE9uCPaDzZWuCDsSS1gRQEc",
+  "stages": [
+    {
+      "receiptDiagnostics": {
+        "sourceRows": 43798,
+        "uniqueSupplierIds": 43797,
+        "exactRepeatRows": 0,
+        "conflictingIdsHeld": [
+          "1401786160"
+        ]
+      },
+      "eligibleRecords": 43796,
+      "status": "passed",
+      "percentage": 20,
+      "totalReceived": 43798,
+      "importedRecords": 8759,
+      "archiveDate": "2026-11-02",
+      "archiveSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+      "beforeDatabaseBytes": 8912896,
+      "afterDatabaseBytes": 47865856,
+      "beforeSchemaBytes": 811008,
+      "afterSchemaBytes": 39763968,
+      "schemaGrowthBytes": 38952960,
+      "newAdverts": 8757,
+      "estimatedBytesPerNewAdvert": 4531,
+      "estimatedFullDatabaseBytes": 285858438,
+      "maximumDatabaseBytes": 838860800,
+      "beforeCounts": {
+        "suppliers": 1,
+        "jobs": 20,
+        "supplier_adverts": 20,
+        "feed_runs": 1,
+        "advert_appearances": 20,
+        "selection_decisions": 20
+      },
+      "afterCounts": {
+        "suppliers": 1,
+        "jobs": 8777,
+        "supplier_adverts": 8777,
+        "feed_runs": 2,
+        "advert_appearances": 8777,
+        "selection_decisions": 8779
+      },
+      "importElapsedMs": 16220,
+      "replayElapsedMs": 389,
+      "duplicateProtectionPassed": true,
+      "withinHeadroom": true,
+      "nextStageAllowed": true,
+      "selectionEvidence": "unknown until same-snapshot production outcomes are attached",
+      "expiryEnabled": false,
+      "deploymentId": "dpl_hBX4XGgDrV6jnmwg4QSYa1TH5Mj2",
+      "deploymentUrl": "https://ontapjobsearch-qw3yg9o9a-ontap1.vercel.app",
+      "readyState": "READY"
+    },
+    {
+      "receiptDiagnostics": {
+        "sourceRows": 43798,
+        "uniqueSupplierIds": 43797,
+        "exactRepeatRows": 0,
+        "conflictingIdsHeld": [
+          "1401786160"
+        ]
+      },
+      "eligibleRecords": 43796,
+      "status": "passed",
+      "percentage": 50,
+      "totalReceived": 43798,
+      "importedRecords": 21898,
+      "archiveDate": "2026-11-02",
+      "archiveSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+      "beforeDatabaseBytes": 47964160,
+      "afterDatabaseBytes": 119357440,
+      "beforeSchemaBytes": 39804928,
+      "afterSchemaBytes": 111198208,
+      "schemaGrowthBytes": 71393280,
+      "newAdverts": 13134,
+      "estimatedBytesPerNewAdvert": 5436,
+      "estimatedFullDatabaseBytes": 297816180,
+      "maximumDatabaseBytes": 838860800,
+      "beforeCounts": {
+        "suppliers": 1,
+        "jobs": 8777,
+        "supplier_adverts": 8777,
+        "feed_runs": 2,
+        "advert_appearances": 8777,
+        "selection_decisions": 8779
+      },
+      "afterCounts": {
+        "suppliers": 1,
+        "jobs": 21911,
+        "supplier_adverts": 21911,
+        "feed_runs": 3,
+        "advert_appearances": 21911,
+        "selection_decisions": 30677
+      },
+      "importElapsedMs": 38867,
+      "replayElapsedMs": 382,
+      "duplicateProtectionPassed": true,
+      "withinHeadroom": true,
+      "nextStageAllowed": true,
+      "selectionEvidence": "unknown until same-snapshot production outcomes are attached",
+      "expiryEnabled": false,
+      "deploymentId": "dpl_4qFUnRgAoUzE5oXjZ3CQhUpP9GRF",
+      "deploymentUrl": "https://ontapjobsearch-lz5btjx4z-ontap1.vercel.app",
+      "readyState": "READY"
+    },
+    {
+      "receiptDiagnostics": {
+        "sourceRows": 43798,
+        "uniqueSupplierIds": 43797,
+        "exactRepeatRows": 0,
+        "conflictingIdsHeld": [
+          "1401786160"
+        ]
+      },
+      "eligibleRecords": 43796,
+      "status": "passed",
+      "percentage": 100,
+      "totalReceived": 43798,
+      "importedRecords": 43796,
+      "archiveDate": "2026-11-02",
+      "archiveSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+      "beforeDatabaseBytes": 119439360,
+      "afterDatabaseBytes": 242335744,
+      "beforeSchemaBytes": 111222784,
+      "afterSchemaBytes": 234119168,
+      "schemaGrowthBytes": 122896384,
+      "newAdverts": 21885,
+      "estimatedBytesPerNewAdvert": 5616,
+      "estimatedFullDatabaseBytes": 242352591,
+      "maximumDatabaseBytes": 838860800,
+      "beforeCounts": {
+        "suppliers": 1,
+        "jobs": 21911,
+        "supplier_adverts": 21911,
+        "feed_runs": 3,
+        "advert_appearances": 21911,
+        "selection_decisions": 30677
+      },
+      "afterCounts": {
+        "suppliers": 1,
+        "jobs": 43796,
+        "supplier_adverts": 43796,
+        "feed_runs": 4,
+        "advert_appearances": 43796,
+        "selection_decisions": 74473
+      },
+      "importElapsedMs": 74906,
+      "replayElapsedMs": 389,
+      "duplicateProtectionPassed": true,
+      "withinHeadroom": true,
+      "nextStageAllowed": false,
+      "selectionEvidence": "unknown until same-snapshot production outcomes are attached",
+      "expiryEnabled": false,
+      "deploymentId": "dpl_5F2HqFEkxeck5aYAu4aaYeZbnBWU",
+      "deploymentUrl": "https://ontapjobsearch-gabx8mq1z-ontap1.vercel.app",
+      "readyState": "READY"
+    }
+  ],
+  "limitations": [
+    "Storage/import test only: same-snapshot production selection evidence is not attached.",
+    "One conflicting supplier ID (two source rows) is held outside the canonical advert tables.",
+    "All database jobs remain withheld; expiry is disabled.",
+    "This measures one snapshot plus test-run decisions, not 90-day turnover growth."
+  ]
+}

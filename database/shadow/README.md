@@ -276,3 +276,37 @@ The GitHub branch workflow is now **source preparation only**: it no longer
 installs a deployment CLI or receives the Vercel token. Its earlier failed runs
 added no raw-feed database records. The source workflow remains unscheduled and
 request-file-triggered; documentation/code updates alone do not rerun it.
+
+## Verified staged result — 2 November 2026
+
+All three connector-driven Preview builds reached READY using the same source
+ZIP/hash and tested commit `8abd9c7a8e24db33de55448f39ff6f5dec40545b`.
+
+| Stage | Clean adverts in snapshot fraction | Whole database bytes | Import time | Repeat time |
+|---|---:|---:|---:|---:|
+| 20% | 8,759 | 47,865,856 | 16.2 seconds | 0.389 seconds |
+| 50% | 21,898 | 119,357,440 | 38.9 seconds | 0.382 seconds |
+| 100% | 43,796 | 242,335,744 | 74.9 seconds | 0.389 seconds |
+
+Each repeat added no jobs, adverts, daily appearances or decisions. The final
+counts are 1 supplier, 43,796 jobs, 43,796 supplier adverts, 4 accepted test runs,
+43,796 daily appearance records and 74,473 selection-evidence records. Decisions
+include each stage's explicit unknowns plus the original 20 published-snapshot
+observations; they are not a count of published jobs. The 20 original sample
+adverts are all represented in the final clean feed.
+
+One conflicting ID `1401786160` accounts for two held source rows; its raw
+variants remain in the two-day source ZIP artifact. These are not falsely
+merged or published. Current total is about 242 MB decimal (231 MiB), including
+PostgreSQL overhead, indexes and staged test history. The 800 MiB safety gate
+passed at each stage. This does not measure daily turnover or 90-day retained
+storage. No paid plan upgrade or spend setting was changed.
+
+The live production alias was checked after completion and still points to
+`dpl_DFvFXPE9uCPaDzZWuCDsSS1gRQEc`. Project framework, Node version, update
+timestamp and SSO protection were unchanged. No production database, publisher,
+selection rule, schedule, expiry process or email sender was modified.
+
+See `staged-verification-2026-11-02.json` for per-stage receipts and deployment
+IDs/URLs. Next attach same-snapshot existing selector evidence and normalize
+existing display fields through shared code before connecting a test website.
