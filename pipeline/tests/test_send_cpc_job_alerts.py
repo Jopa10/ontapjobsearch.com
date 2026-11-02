@@ -277,9 +277,9 @@ class PrivateDailyTests(unittest.TestCase):
         contact = {**self.contact, "id": 2, "email": email}
         calls = self.run_private(False, contact, recipient=email)
         self.assertEqual(calls[0].args[:2], ("GET", "/contacts/jnabon1108%40gmail.com"))
-        payload = calls[1].args[3]
+        payload = calls[3].args[3]
         self.assertEqual(payload["to"], [{"email": email}])
-        first_key = self.run_private(False)[1].args[3]["headers"]["idempotencyKey"]
+        first_key = self.run_private(False)[3].args[3]["headers"]["idempotencyKey"]
         self.assertNotEqual(payload["headers"]["idempotencyKey"], first_key)
         self.assertIn("jnabon1108%40gmail.com", calls[2].args[1])
         payload_token = payload["textContent"].split("token=")[1].strip().split(".")[0]
@@ -503,13 +503,13 @@ class MultipleAlertTests(unittest.TestCase):
             ])}}
         jobs = [{"job_id": "1", "title": "Accounts Assistant", "location": "Leeds"},
                 {"job_id": "2", "title": "Receptionist", "location": "Bristol"}]
-        with patch("scripts.send_cpc_job_alerts._brevo_request", return_value={}) as api:
+        with patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[{}, {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-26"}}, {}]) as api:
             sent = send_digest(contact, jobs + jobs, report_date="2026-10-26", api_key="fake",
                                sender_email="jobs@ontapjobsearch.com", unsubscribe_secret="fake",
                                site_url=PRIVATE_TEST_ORIGIN, private_test=True)
             self.assertTrue(sent)
-            self.assertEqual([c.args[0] for c in api.call_args_list], ["POST", "PUT"])
-            payload = api.call_args_list[0].args[3]
+            self.assertEqual([c.args[0] for c in api.call_args_list], ["PUT", "GET", "POST"])
+            payload = api.call_args_list[2].args[3]
             self.assertIn("2 new CPC jobs", payload["subject"])
             self.assertEqual(payload["to"], [{"email": PRIVATE_TEST_EMAIL}])
             self.assertEqual(payload["textContent"].count("/jobs/1"), 1)
