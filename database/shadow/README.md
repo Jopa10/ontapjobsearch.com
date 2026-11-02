@@ -410,3 +410,9 @@ reuses the exact original ZIP. Completed raw-storage stages are not rerun.
 The workflow additionally retains available replay output/evidence files for
 two days in a separate recovery artifact, so an interrupted comparison need
 not discard a completed file pass.
+
+## Verified selector attachment — 2 November 2026
+
+2 November 2026 — **Selector parity and Neon attachment verified:** run `41530087079` passed exact output equality across 239 region/family outputs with zero unknowns and 4,884 unique selected jobs. Preview `dpl_FBiZhrK7ogdwbtmtSK7cqZtQJWeF` attached 350,368 scoped decisions, compared every stored outcome/reason/gate/region and verified replay adds nothing. Whole database measured 390,012,928 bytes under the 800 MiB ceiling; all 43,796 jobs remain withheld. Receipt: `database/shadow/selection-verification-2026-11-02.json`. No raw-feed import, production publish, email or paid-plan change. Next: shared display-field normalization and protected database-backed test website; full composition/city parity, expiry and turnover retention remain unproved.
+
+Stop checkpoint: no replay or raw import is needed. Resume by inspecting current branch and the saved receipt. Build the protected read-only test website using existing display normalization; preserve public IDs and production isolation. Do not infer full publisher/city parity from this family-generation test. The historical raw-import unknowns remain in their original scope; current production-family decisions are complete. Retention/turnover sizing must be resolved before enabling recurring ingestion.
