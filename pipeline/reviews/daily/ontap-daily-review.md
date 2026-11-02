@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-11-02
-generated_at: 2026-11-02T17:19:08+00:00
+generated_at: 2026-11-02T18:42:24+00:00
 
-**372 job(s) await a human decision; 0 already answered (372 review rows).**
+**364 job(s) await a human decision; 0 already answered (364 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-11-02 | 319 | — |
+| JobG8 | OK | 2026-11-02 | 311 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-11-02 | 1 | — |
 | Teaching Vacancies | OK | 2026-11-02 | 52 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 319 to review
+## JobG8 — 311 to review
 
 ---
 action:
@@ -659,24 +659,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
 source_url: 
 hub_fingerprint: dc7b8fd737f88ee5e551f5853fa45bbfac73516e464323d4e9a586202176b82c
----
-
----
-action:
-POSS | JobG8 | Dorset | Dorset | £50000 per year | Payroll Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 108256511
-title: Payroll Manager
-employer: 
-location: Dorset
-region: Dorset
-salary: £50000 per year
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url: 
-hub_fingerprint: 799c5def70e6531cd39a55eaa181d1c6cb8a246027284b763978921a44785f87
 ---
 
 ---
@@ -2247,24 +2229,6 @@ hub_fingerprint: 2d48090b92c3f0a295964a16cc292043336baa7c61984121e3e275b35a95f64
 
 ---
 action:
-POSS | JobG8 | Kent | Tunbridge Wells | £90 - £115 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225684423
-title: Learning Support Assistant
-employer: 
-location: Tunbridge Wells
-region: Kent
-salary: £90 - £115 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 5e093e575da7eecb18af39707f6e128fe774aea8791d79bf6fc1f687a62141f7
----
-
----
-action:
 POSS | JobG8 | Kent | Tunbridge Wells | £92.56 - £110 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -2877,24 +2841,6 @@ hub_fingerprint: e593223c8ae5bb19a26df7246a9dc2e4932a8983925b5ae179c02dccc866db0
 
 ---
 action:
-POSS | JobG8 | London | Hackney | £100 - £120 per daily (dependent on experience) | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225684078
-title: Learning Support Assistant
-employer: 
-location: Hackney
-region: London
-salary: £100 - £120 per daily (dependent on experience)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: c26c774cac8b1b1c2ac8c2548542a90a4d386d63825f1c5fca8b09875106f536
----
-
----
-action:
 POSS | JobG8 | London | Hackney | £95 - £115 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -3291,42 +3237,6 @@ hub_fingerprint: dc99e1b1f45bced09124ceca5bb38fc479e0967db72a0105e9b17617c5451a0
 
 ---
 action:
-POSS | JobG8 | London | London | £100 - £117 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225686197
-title: Learning Support Assistant
-employer: 
-location: London
-region: London
-salary: £100 - £117 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: c5d4eb3655e9fac5941a4fa95da18a1f7935b56399290d144a10eaecd0dd5033
----
-
----
-action:
-POSS | JobG8 | London | London | £108 - £125 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225686860
-title: Learning Support Assistant
-employer: 
-location: London
-region: London
-salary: £108 - £125 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: d793e52f60f5b47028b2c59e9ae1fd542e03e48d85d48146e2384a404e7ae6b6
----
-
----
-action:
 POSS | JobG8 | London | London | £95 - £110 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -3413,24 +3323,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: b6ea51d9de093fec8d215956449b55f9e82acc82896e9b47d716373ceb50c7c5
----
-
----
-action:
-POSS | JobG8 | London | London | £42000 - £45000 per year (+ Benefits) | Medical Secretary
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225686603
-title: Medical Secretary
-employer: 
-location: London
-region: London
-salary: £42000 - £45000 per year (+ Benefits)
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - title register: high-confidence title pattern: secretary; manual review required: annualised upper salary £45,000 exceeds regional review point £42,000
-source_url: 
-hub_fingerprint: 496d13605ffb861fd99c84b696a1a5bfa844a89637c8305da56ab3d49abb73d9
 ---
 
 ---
@@ -4047,24 +3939,6 @@ hub_fingerprint: 271d2065b9352b08f5d63cc2d371671a92de0a2fb48e2a53472aad3848f5153
 
 ---
 action:
-POSS | JobG8 | North Scotland | Fraserburgh | £40000 per year | Service Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 108258130
-title: Service Manager
-employer: 
-location: Fraserburgh
-region: North Scotland
-salary: £40000 per year
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
-source_url: 
-hub_fingerprint: f0d2efc0abd9c577bc86aa7f95ff2ab9822b589b3ef121de5b16c6ccf664427a
----
-
----
-action:
 POSS | JobG8 | Northern Ireland - East | Antrim | £35000 - £45000 per year | Customs Operations Coordinator
 source_key: jobg8
 source: JobG8
@@ -4385,24 +4259,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
 source_url: 
 hub_fingerprint: 1a15bfc43bf419c372a87069ca82684cdaa3389da5360bf038df3e93df669799
----
-
----
-action:
-POSS | JobG8 | Oxfordshire | Oxfordshire | £40000 per year | Payroll Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2199114
-title: Payroll Manager
-employer: 
-location: Oxfordshire
-region: Oxfordshire
-salary: £40000 per year
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
-source_url: 
-hub_fingerprint: 0f7f673b4ab60a43c56d55aae766c4e8985205538e98f83a9df38ffc0689fe12
 ---
 
 ---
