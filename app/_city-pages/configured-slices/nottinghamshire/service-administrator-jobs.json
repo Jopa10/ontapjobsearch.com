@@ -1,61 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire",
-    "title": "Administrative Assistant",
-    "company": "Round Hill Primary School",
-    "location": "Nottingham",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£22,611 Actual Salary (£26,016 FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-10-14",
-    "closing_date": "2026-11-02",
-    "closing_datetime": "2026-11-02T09:00:00+00:00",
-    "summary": "Administrative Assistant with Round Hill Primary School in Nottingham. ['part time']; £22,611 Actual Salary (£26,016 FTE).",
-    "description": "Round Hill Primary School is recruiting for this vacancy in Nottingham.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £22,611 Actual Salary (£26,016 FTE).\n\nThe stated application deadline is 2026-11-02T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Round Hill Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-examinations-officer-the-south-wolds-academy-sixth-form",
-    "title": "Examinations Officer",
-    "company": "The South Wolds Academy & Sixth Form",
-    "location": "Nottingham",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time', 'part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Scale 6, Point 18 - 22, £32,578 - £34,811 (Actual Salary: £29,610.12 - £31,639.69)",
-    "work_pattern": "",
-    "posted_date": "2026-10-16",
-    "closing_date": "2026-11-02",
-    "closing_datetime": "2026-11-02T09:00:00+00:00",
-    "summary": "Examinations Officer with The South Wolds Academy & Sixth Form in Nottingham. ['full time', 'part time']; Scale 6, Point 18 - 22, £32,578 - £34,811 (Actual Salary: £29,610.12 - £31,639.69).",
-    "description": "The South Wolds Academy & Sixth Form is recruiting for this vacancy in Nottingham.\n\nThe advertised position is Examinations Officer.\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is Scale 6, Point 18 - 22, £32,578 - £34,811 (Actual Salary: £29,610.12 - £31,639.69).\n\nThe stated application deadline is 2026-11-02T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-the-south-wolds-academy-sixth-form?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The South Wolds Academy & Sixth Form",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-finance-administrator-including-trips-and-visits",
     "title": "Finance Administrator - Including Trips and Visits",
     "company": "Arnold Hill Spencer Academy",
@@ -1450,9 +1394,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0108",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1472,9 +1413,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0595",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1494,9 +1432,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0107",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1516,9 +1451,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0106",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1538,9 +1470,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3069-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1560,9 +1489,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0009",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1582,9 +1508,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0100",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1604,31 +1527,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1902-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5645581",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Newgate Medical Group",
-    "advertiser_name": "Newgate Medical Group",
-    "location": "Worksop, S80 1HP",
-    "region": "Nottinghamshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-07T15:21:30.906888",
-    "closing_date": "2026-11-01",
-    "description": "Are you enthusiastic about working with the public in a healthcare environment? Are you a team player who is well organised, communicates effectively, and has a calm, reassuring manner? If so, we have an exciting opportunity to join our friendly and ever-expanding team as a fulltime Receptionist at a busy GP practice in the heart of Worksop. This role will include working 1 in 4 Saturdays 8:30am to 5pm (13 per annum) and 2 late finishes till 8pm. To be responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team. Duties can include, but are not limited to, greeting and directing patients, effective use of the appointment system, booking appointments, the processing of information and assisting patients as required. To act as the central point of contact for patients, the distribution of information, messages and enquiries for the clinical team, liaising with multi-disciplinary team members and external agencies such as secondary care and community service providers. Maintain and monitor the practice appointment system Process personal, telephone and e-requests for appointments Answer incoming phone calls, transferring calls or dealing with the callers request appropriately Signpost patients to the correct service Initiating contact with and responding to, requests from patients, team members and external agencies Photocopy documentation as required Data entry of new and temporary registrations and relevant patient information as required when required Input data into patients healthcare records as necessary Manage all queries as necessary in an efficient manner including prescription queries Carry out system searches as requested Maintain a clean, tidy, effective working area at all times Monitor and maintain the reception area and notice boards Support all clinical staff with general tasks as requested",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0024",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0024",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1648,9 +1546,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5152-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1670,9 +1565,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0510",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1692,9 +1584,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3721-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

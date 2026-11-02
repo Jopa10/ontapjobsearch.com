@@ -2,15 +2,63 @@
 
 review_date: 2026-11-02
 
-- Open Administrative & Clerical rows reviewed: 1880
-- Auto/remembered selected: 347
-- Selected HC Tier A: 184
+- Open Administrative & Clerical rows reviewed: 1881
+- Auto/remembered selected: 346
+- Selected HC Tier A: 183
 - Selected HC Tier B: 163
-- POSS awaiting decision: 1453
+- POSS awaiting decision: 1456
 - Excluded: 0
-- HARD_PASS: 80
+- HARD_PASS: 79
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M1 1AF | £27144.00 to £28641.00 | Healthcare Assistant Manchester
+source_job_id: 5699888
+title: Healthcare Assistant Manchester
+employer: HealthHarmonie
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0104
+factual_fingerprint: 81aaf4efc9b7c301312273cf0080cd9b44605827f90428fdb17398658a1b38b9
+---
+
+---
+action:
+POSS | NHS Jobs | Berkshire | Reading, RG6 7HG | £12.71 | GP Receptionist (Patient Services Team Member)
+source_job_id: 5204108
+title: GP Receptionist (Patient Services Team Member)
+employer: Brookside Group Practice
+region: Berkshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0481-26-0003
+factual_fingerprint: bdcf64b7175656245f53cb95e5ce0244b5035909b66407214d1aa9be02c06846
+---
+
+---
+action:
+POSS | NHS Jobs | Berkshire | Reading, RG2 6UU | £27144.00 to £28641.00 | Healthcare Assistant Reading
+source_job_id: 5699863
+title: Healthcare Assistant Reading
+employer: HealthHarmonie
+region: Berkshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0102
+factual_fingerprint: 72308d7ded62272a8d73e3a5f42ec7d92409ce25856b09afe4d0075bb9ab79e5
+---
+
+---
+action:
+POSS | NHS Jobs | Worcestershire | Worcester, WR5 1JR | £79504.00 to £91609.00 | Associate Director Patient Experience Engagement & Quality Improvement
+source_job_id: 5698891
+title: Associate Director Patient Experience Engagement & Quality Improvement
+employer: Herefordshire and Worcestershire Health and Care NHS Trust
+region: Worcestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0151
+factual_fingerprint: 23466e2cdcade10b6d6ee64747d01c6fefcd49de24e7e1ceaad2cf1f92ba439f
+---
 
 ---
 action:
@@ -861,7 +909,7 @@ employer: University Hospitals of Derby and Burton NHS Foundation Trust
 region: Derbyshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1125
-factual_fingerprint: 0a38667ba2a60a1a497061ab93d26719099fb757a9132d47f605ce014576a9fd
+factual_fingerprint: efed8969783d4cf97f572001075cf11b3747215cc8f18e0cafb561fd36a9ae2b
 ---
 
 ---
@@ -1102,18 +1150,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2685
 factual_fingerprint: dc3c5c451ab13e7d794d38f0f2db63280745ae07788b418728001ae7fb6f1c13
----
-
----
-action:
-POSS | NHS Jobs | Sussex | Crawley, RH11 7EJ | £28392.00 to £31157.00 | Mental Health Act Compliance Officer
-source_job_id: 5698657
-title: Mental Health Act Compliance Officer
-employer: Sussex Partnership NHS Foundation Trust
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1274
-factual_fingerprint: 191a77140a29d3052db8a1e9a8ded62fd388594e2cabed18027806d42d93c51c
 ---
 
 ---
