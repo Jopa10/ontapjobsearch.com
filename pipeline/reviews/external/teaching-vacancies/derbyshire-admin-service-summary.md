@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-01
-review_fingerprint: 473ec9bfd343d1663068f95f383715bb1a70884c1279985906aede8593e4ea16
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 23e51304b6342ca478987cd3887fbb208ce1e1c463b6e3eb4de48625c9acb464
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 8
 - Selected: 1
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 5
 
 ## SELECTED
 
@@ -37,21 +37,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-stude
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Derbyshire | Derby, DE22 1GB | £18,000.00 Annually (Actual) | Business Administration Apprentice Level 3
-employer: Embark Multi Academy Trust
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8496090449e3db74532680f9c367ebc1685b64bedcad4f728f829213474b291b
-source: Teaching Vacancies
-source_job_id: business-administration-apprentice-level-3-embark-multi-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-embark-multi-academy-trust
----
 
 ---
 action: 
@@ -90,12 +75,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assis
 ## HARD_PASS
 
 - [Associate HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/associate-hr-business-partner-derby-college) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-chellaston-academy) — Excluded senior/management title.
 - [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-da-vinci-academy) — No usable numeric salary.
 - [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-anthony-gell-school) — Excluded senior/management title.
 - [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-brookfield-community-school) — Excluded senior/management title.
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-alban-s-catholic-voluntary-academy-derby-derbyshire) — Excluded senior/management title.
 
 ## Safety boundary
 

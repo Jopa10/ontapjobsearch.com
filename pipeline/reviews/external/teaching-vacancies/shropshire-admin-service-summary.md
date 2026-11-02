@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-11-01
-review_fingerprint: 11f9a4bb2d589453dbc4774f07d4fb8beb64ec5de5a5003b0e4cccc2908fc722
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: fbaf4938036a12202ceede71e0543d6eb55d227d1120eae2e191ed6c98c60ea2
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 5
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -53,36 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Shropshire | Oswestry, West Midlands, SY11 2AR | Grade 5, Scale point 5-6 (£13.70hr to £13.92hr) Actual Salary for Point 5 - £23,314 | Administrative Assistant - Reprographics/Student Services
-employer: The Marches School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3f3de6b78548a4751ddb49f44f2298fe4cadd703eb8544cbb16417a2b5544da8
-source: Teaching Vacancies
-source_job_id: administrative-assistant-reprographics-student-services
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-reprographics-student-services
----
-
----
-action: 
-SELECTED | Shropshire | Church Stretton, West Midlands, SY6 6EX | £27,709 - £29071 pro rata | Data & Exams Officer
-employer: Church Stretton School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8ea334d58bb05f6ff5d927d31faa15baaac1a1984d7bd1e1765fd4e03ae3973f
-source: Teaching Vacancies
-source_job_id: data-exams-officer-church-stretton-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-church-stretton-school
----
-
----
-action: 
 SELECTED | Shropshire | Telford, West Midlands, TF3 1LG | £17,488.00 - £17,722.00 Annually (Actual) Term time plus PD Days | Reception Administrator
 employer: Windmill Primary School
 closing_date: 2026-11-04T23:59:00+00:00
@@ -108,7 +78,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrat
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-radbrook-primary-school) — Insufficient admin/service evidence.
 - [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-meole-brace-church-of-england-primary-school-and-nursery) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-beech-grove-primary-school) — Excluded senior/management title.
 
 ## Safety boundary
 

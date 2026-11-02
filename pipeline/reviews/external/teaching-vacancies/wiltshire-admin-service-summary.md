@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-01
-review_fingerprint: ed8065a24a3dfd460e5727c067f98ad80bf624fa5578965b9c6a500dca0cc0a8
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 356ffa1678680abdd81e5315f68ca56f8708729cd9472bc231cf49940b0d1557
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 8
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Wiltshire | Chippenham, South West, SN15 3EA | £9,676.00 - £9,985.00 Annually (Actual) Trust Scale Point 4-6 | Administrative Assistant
-employer: Charter Primary School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5670a8b61b2fbb1c99c93318188f1cf16994498caaf7c9d47253afa824be53a4
-source: Teaching Vacancies
-source_job_id: administrative-assistant-charter-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-charter-primary-school
----
 
 ---
 action: 
@@ -49,36 +34,6 @@ factual_fingerprint: 6ea78b4b65b0b1514ed15568f69210a770cf124071869998533594a4c32
 source: Teaching Vacancies
 source_job_id: attendance-officer-south-wilts-grammar-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-south-wilts-grammar-school
----
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN2 7SH | £26,429.00 - £27,275.00 Annually (FTE) Actual £23,852 - £24,615 | First Aider & Admin Assistant (Front Office)
-employer: Kingsdown School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 081ba487ef64eebdadc840533118ce95ebb03bf62038e01bb189267de73b80ec
-source: Teaching Vacancies
-source_job_id: first-aider-admin-assistant-front-office
-source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aider-admin-assistant-front-office
----
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN2 1JR | £12,931.00 Annually (Actual) | Part-Time Receptionist (Mat Cover 12 months FTC)
-employer: Swindon Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9fc4cedc2ba103a8703a636b602400cf77e8b2d86a404ac5db04f84c946f41d0
-source: Teaching Vacancies
-source_job_id: part-time-receptionist-mat-cover-12-months-ftc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-mat-cover-12-months-ftc
 ---
 
 ---
@@ -105,7 +60,7 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2fa0d574db1d3799e6827dfd3524ff65f197a679e6bb586a663b5547e2e694c6
+factual_fingerprint: 3600ea08da365d5cacbe63d0bc0cca0b83fd4f1bc1c3d5ee0025a3d606ae480a
 source: Teaching Vacancies
 source_job_id: pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
@@ -184,7 +139,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-st
 - [HLTA Behaviour and Inclusion](https://teaching-vacancies.service.gov.uk/jobs/hlta-behaviour-and-inclusion-lawn-manor-academy) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-4c722adb-c7a9-4af5-b8d5-bf00527c02c0) — Insufficient admin/service evidence.
 - [Resourcing & Talent Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/resourcing-talent-development-assistant) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-william-morris-primary-school-swindon-wiltshire) — Excluded senior/management title.
 
 ## Safety boundary
 

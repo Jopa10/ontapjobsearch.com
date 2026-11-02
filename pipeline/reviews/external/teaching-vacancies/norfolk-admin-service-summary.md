@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-01
-review_fingerprint: a1fe366d58c59493aded94313144e9613bde8dab9bb9d8f8148e7e8877db534b
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 2c63704486635f436787875edfff344aff926d1a2ea13a8f188e8ade44bf8a0e
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 14
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 73dab0ee3ef6a79b5942b10ac34000575d65f6426d24fe2d0d6283ab2a4
 source: Teaching Vacancies
 source_job_id: administration-assistant-the-bishop-s-church-of-england-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-bishop-s-church-of-england-primary-academy
----
-
----
-action: 
-SELECTED | Norfolk | Downham Market, East of England, PE38 9LL | £27,275-£29,071 FTE £14.18- £15.11 per hour | Attendance Administrator
-employer: Downham Market Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 43dc1723442a6f33cfc81b6207a4c5a3bddb36797b6bd705f13da39413c01698
-source: Teaching Vacancies
-source_job_id: attendance-administrator-downham-market-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-downham-market-academy
 ---
 
 ---
@@ -143,8 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-734b138f-20ba-4b95-9728-d762be624cd2) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
-- [Student Administration & Customer Service Assistant Degree Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/student-administration-customer-service-assistant-degree-apprenticeship) — Insufficient admin/service evidence.
-- [Student Services Assistant](https://teaching-vacancies.service.gov.uk/jobs/student-services-assistant-east-norfolk-multi-academy-trust) — No usable numeric salary.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Excluded senior/management title.
 
 ## Safety boundary

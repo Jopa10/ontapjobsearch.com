@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-01
-review_fingerprint: 9fef2995473d54ea0a74a08dc979c3089eff0c52f14696562222aa403d9d4cdf
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 55ea607f11edfcba342cefa413b901aa10936238627e6e49b68a2d478cde4965
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 12
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
@@ -79,21 +79,6 @@ factual_fingerprint: 3a9f75d1056f7302c031942a8c79c25bd919d789b82ffb5367ca9b757fd
 source: Teaching Vacancies
 source_job_id: finance-officer-acer-trust-oxford-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-trust-oxford-not-recorded
----
-
----
-action: 
-SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £27,709.00 - £30,023.00 Annually (FTE) Support Staff NJC grade 6, SCP 8-13. 30 hours per week/38 weeks per year. Actual annual salary in the region of £18,837 to £20,410 | Inclusion Administrator
-employer: Faringdon Community College
-closing_date: 2026-11-02T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b16cdc0ec44185ae446003ac6a0b2ba6e171e5cbb2e19c8822d602fd06bde71f
-source: Teaching Vacancies
-source_job_id: inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
 ---
 
 ---

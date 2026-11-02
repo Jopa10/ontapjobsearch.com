@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-01
-review_fingerprint: 012bc05d3a5b187cb4b5c5e8b278a0a0479973f1de5e4cd7fab67d3078f28a2b
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 80a9417040f14505392a20be6ff7636ac8bc32fd11db7441165035112083fe65
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 6
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 6
 
 ## SELECTED
 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ad
 
 ---
 action: 
-SELECTED | North East | Newcastle-upon-Tyne, North East, NE5 2SZ | £30,023.00 - £32,046.00 Annually (FTE) | Business Services Support Administrator
-employer: Studio West
-closing_date: 2026-11-06T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 08f59ea2de81dcfd4d960268df5ad62caab2f0666927cb6d5e0d95619ae32735
-source: Teaching Vacancies
-source_job_id: business-services-support-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-services-support-administrator
----
-
----
-action: 
 SELECTED | North East | Hartlepool, North East, TS25 4HA | £35,571.00 - £38,511.00 Annually (FTE) Actual Salary £30,730.82 - £34,024.53 / Term Time + 5 Days | Exams Officer
 employer: English Martyrs Catholic School and Sixth Form College
 closing_date: 2026-11-09T09:00:00+00:00
@@ -98,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-english
 
 ---
 action: 
-SELECTED | North East | Sunderland, North East, SR2 7JN | £8,016.00 - £8,142.00 Annually (Actual) £25,614 - £26,016 FTE. 2 days a week, Thursday and Friday. Pending outcome of job evaluation | Receptionist
-employer: St Anthony's Girls' Catholic Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
+SELECTED | North East | Morpeth, North East, NE61 2HA | £26,403.00 - £28,142.00 Annually (FTE) Pay Award Pending | School Business Support Officer
+employer: Morpeth Stobhillgate First School
+closing_date: 2026-11-18T23:59:00+00:00
+reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5c6b613cb254f141bf0fcd92d417f358256c70f79c644cf11f0ac4f79c9b5e41
+factual_fingerprint: 7df6492f242a282419abdbc6e1b10c90b3a4e6b9cd9b2e8d3d4e54a8471cee9f
 source: Teaching Vacancies
-source_job_id: receptionist-st-anthony-s-girls-catholic-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-anthony-s-girls-catholic-academy
+source_job_id: school-business-support-officer-4f666a22-4f7e-406a-a455-26990b223448
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-support-officer-4f666a22-4f7e-406a-a455-26990b223448
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -134,15 +119,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administra
 
 ## HARD_PASS
 
-- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields-south-shields-tyne-and-wear) — Excluded senior/management title.
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth-sunderland) — Excluded senior/management title.
 - [Hourly Paid Creative Industries Technician (2026/CS015)](https://teaching-vacancies.service.gov.uk/jobs/hourly-paid-creative-industries-technician-2026-cs015) — Out-of-scope occupation: technician.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
-- [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
 - [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-connect-multi-academy-trust) — Insufficient admin/service evidence.
+- [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
 - [Part Time Creative Industries Technician (2026/CS014)](https://teaching-vacancies.service.gov.uk/jobs/part-time-creative-industries-technician-2026-cs014) — Out-of-scope occupation: technician.
 - [Pastoral Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-officer-febc3c65-3b62-4e66-a0de-9fa208cbd134) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grange-primary-school-hartlepool) — Excluded senior/management title.
 
 ## Safety boundary
 

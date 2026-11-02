@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-11-01
-review_fingerprint: bdc0c85391338751352afdab6f15301a2b94274cfec8b4ae66bbad04a573c8aa
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,73 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 4
+- Records: 1
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU6 7UR | £26,016.00 - £26,016.00 Annually (Actual) NJC04 : £26,016pa FTE : £8,646.66pa pro rata : Monday to Tuesday, 8.30am to 4.00pm term time | Academy Administrator
-employer: Endike Academy
-closing_date: 2026-11-07T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 92d75d19ec3fcd1e70a70829c3e4d167362721d15af3b3529f45f85e55c3e280
-source: Teaching Vacancies
-source_job_id: academy-administrator-endike-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-endike-academy
----
-
----
-action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU3 3PL | £22,468.00 - £23,188.00 Annually (Actual) | Administration Assistant
-employer: Chiltern Primary School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6a9e91abe0d79576a0379516d3a95b6d9e57120cbd895e3d85db423c612dfb2a
-source: Teaching Vacancies
-source_job_id: administration-assistant-chiltern-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chiltern-primary-school
----
-
----
-action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 4NH | £22,701.00 - £23,430.00 Annually (Actual) | Administration Assistant
-employer: Oldfleet Primary School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 43acf5251bcf55e0687bb3a6538f0b8eab4c6b1b776f8a9945de7ee695fe0a1f
-source: Teaching Vacancies
-source_job_id: administration-assistant-oldfleet-primary-school-hull
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-oldfleet-primary-school-hull
----
-
----
-action: 
-SELECTED | Yorkshire - East | Cottingham, HU16 5PX | £27,709.00 - £28,608.00 Annually (FTE) Scale point 8-10 - Term time plus 10 days - Actual salary £24,851-£25,657 | Finance Assistant
-employer: The Consortium Academy Trust
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 16e61dd3e56f4fdbf9097a4fe86dcb7583190f6e9ac1c769d2e8139351c06392
-source: Teaching Vacancies
-source_job_id: finance-assistant-1aa789e7-40d1-40c1-97b4-f3cdd63664a9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-1aa789e7-40d1-40c1-97b4-f3cdd63664a9
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

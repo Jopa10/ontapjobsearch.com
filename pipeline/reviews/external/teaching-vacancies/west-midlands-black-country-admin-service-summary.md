@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-01
+review_date: 2026-11-02
 review_fingerprint: 35f6a53c9b7cdb6ba245fa2efb4f4c93324ec3c6bf818493518f4b24e14a1911
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 8
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 4
 
 ## SELECTED
 
@@ -91,11 +91,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 - [Educational Visits & DofE Support Officer](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-dofe-support-officer) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — No usable numeric salary.
-- [Head of House PA](https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-8bc41336-6d4d-41f2-ab57-9bedabaa8422) — Excluded senior/management title.
-- [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-highfields-school) — Insufficient admin/service evidence.
 - [Procurement & Bid Writer](https://teaching-vacancies.service.gov.uk/jobs/procurement-bid-writer) — Insufficient admin/service evidence.
 - [Senior Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-assistant-christ-church-church-of-england-primary-school) — Excluded senior/management title.
-- [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-09678cb0-aa80-498a-9526-d1d6da59db60) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

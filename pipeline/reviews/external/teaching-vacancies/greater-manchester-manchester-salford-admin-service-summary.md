@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-01
-review_fingerprint: 9c400bb5c1f623d0b3a39bdd4b2a46e819a724bd15fc415f130e1a1f942c281d
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 9d68767adf69125d0ccf2e94f0b8839ced0d1043d3cadcab6ce29a2a273e880b
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 7
+- Selected: 2
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -51,52 +51,9 @@ source_job_id: administrative-assistant-the-deans-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-deans-primary-school
 ---
 
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M16 8GW | £16,364.00 - £17,442.00 Annually (Actual) NJC Grade 4, Points 7 - 11 | HR Administrator
-employer: Whalley Range 11-18 High School
-closing_date: 2026-11-02T08:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5b9e62b407a8a67e9fdf322a3941be62d48720d1b2039bfa250631f130c9493d
-source: Teaching Vacancies
-source_job_id: hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, M60 0AG | NJC SCP12 - SCP19 £28,598 - £32,062 | Trust Finance and Systems Administrator
-employer: The Co Operative Academies Trust
-closing_date: 2026-11-02T00:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 797156c253bf98c29b080fe355df4a084b731dad231b5363c75b8b2eda0313c5
-source: Teaching Vacancies
-source_job_id: trust-finance-and-systems-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-and-systems-administrator
----
-
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M20 2ET | £18,491 - £19,395 (Actual salary) | Reception and Administration Assistant
-employer: Didsbury High School
-closing_date: 2026-11-02T09:00:59+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5c4ef114867506119ac9eea10432b27cd196fcfe0135fc3318e83ba07dee60f7
-source: Teaching Vacancies
-source_job_id: reception-and-administration-assistant-didsbury-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-didsbury-high-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -105,9 +62,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 ## HARD_PASS
 
 - [Caretaker](https://teaching-vacancies.service.gov.uk/jobs/caretaker-william-hulme-s-grammar-school) — Out-of-scope occupation: caretaker.
-- [First Aid, Medical and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/first-aid-medical-and-administration-assistant) — Insufficient admin/service evidence.
-- [HR Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-manager-levenshulme-high-school) — Excluded senior/management title.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Excluded senior/management title.
+- [Reprographics & Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administration-assistant-the-east-manchester-academy) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-s-rc-primary-school-a-voluntary-academy) — Excluded senior/management title.
 - [Trust HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-officer-greater-manchester-academies-trust) — Insufficient admin/service evidence.
 

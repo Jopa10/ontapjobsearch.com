@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-01
-review_fingerprint: a925b157b0971f551689062107ce952e06a87cac2bab50d894cfaa26e988bfb5
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 6c71bcf533f6b110d85358a555aa081078d5f6293c3c53044c1652bb1c914c97
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,62 +13,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
-- POSS awaiting decision: 0
+- Records: 4
+- Selected: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
----
-action: 
-SELECTED | Hertfordshire | Waltham Cross, East of England, EN7 5QW | Actual Salary - £23,351 - £24,443 | Admin Officer - Receptionist
-employer: Goffs Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 247560e2264d02fdda0f49fa9a47e416bbcf17bb817e0b54f74ad19f41afce64
-source: Teaching Vacancies
-source_job_id: admin-officer-receptionist
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-receptionist
----
-
----
-action: 
-SELECTED | Hertfordshire | St Albans, East of England, AL4 0TT | £23,672.00 - £24,792.00 Annually (Actual) H4 - Scale Point 6-9 (Dependent on experience) | Inclusion Administrator
-employer: Nicholas Breakspear Catholic School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7f988a16988a61885943b644a9e1be06d21f9078fa7adef1fc9804eac008510a
-source: Teaching Vacancies
-source_job_id: inclusion-administrator-nicholas-breakspear-catholic-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-nicholas-breakspear-catholic-school
----
-
----
-action: 
-SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP1 1TX | £23,608.00 Annually (Actual) H4 + fringe pro rata | Office Administrator
-employer: The Hemel Hempstead School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5fa5979417a277c98d29a8f5bfd2a98b8000696e116f4007e107aebc2259dc1a
-source: Teaching Vacancies
-source_job_id: office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Hertfordshire | Radlett, East of England, WD7 7LQ | £7,737.00 - £7,737.00 Annually (Actual) | Finance and Reception Administrator – Part Time
+employer: Hertsmere Jewish Primary School
+closing_date: 2026-11-09T23:59:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4e2eb822820d5c43e39f59dc39442b63cceaaa169cd7bb79864788518b047cb9
+source: Teaching Vacancies
+source_job_id: finance-and-reception-administrator-part-time-hertsmere-jewish-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-reception-administrator-part-time-hertsmere-jewish-primary-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -77,9 +47,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [ATTENDANCE & SAFEGUARDING OFFICER](https://teaching-vacancies.service.gov.uk/jobs/attendance-safeguarding-officer-king-james-academy-royston) — Insufficient admin/service evidence.
-- [Deputy Office Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-office-manager-robert-barclay-academy-hoddesdon-hertfordshire) — Excluded senior/management title.
+- [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover) — Insufficient admin/service evidence.
 - [Receptionist/Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school) — No usable numeric salary.
-- [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-95102662-222e-4ff2-a528-9767fe48abd5) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary
 

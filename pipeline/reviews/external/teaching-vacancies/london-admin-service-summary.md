@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-01
-review_fingerprint: 8af622f36a9f08721e40ba57b842bfab828d55cc2098fedf3f66556002674f3d
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: e35ca88631d9f3f366b4908b01a3e5d34402016f15027a487440410cc01bd441
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 75
-- Selected: 13
-- POSS awaiting decision: 18
+- Records: 65
+- Selected: 11
+- POSS awaiting decision: 15
 - Excluded: 0
-- Hard pass: 44
+- Hard pass: 39
 
 ## SELECTED
-
----
-action: 
-SELECTED | London | Bushey, East of England, WD23 4PA | £26,427.00 - £27,709.00 Annually (FTE) The salary for this post is APT&C points 5 -8 plus London Fringe. Full time figures are £26,427pa - £27,709pa + £1079pa, paid pro-rata and based on experience. The actual pro-rata salary range is £14,661pa - £15,372pa + £598pa. | Afternoon Receptionist
-employer: Bushey Meads School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 39e6e09920a8c875d69e380227244d8f40f1bc1857aceeb2ae336b8bb63e6f17
-source: Teaching Vacancies
-source_job_id: afternoon-receptionist-bushey-meads-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/afternoon-receptionist-bushey-meads-school
----
 
 ---
 action: 
@@ -113,17 +98,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-part
 
 ---
 action: 
-SELECTED | London | London, London, SW4 9ET | £29,438.00 - £29,438.00 Annually (Actual) | Office Administrator & Receptionist
-employer: The Elms Academy
-closing_date: 2026-11-02T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
+SELECTED | London | Pinner, London, HA5 2LX | £31,059.00 Annually (Actual) Term-time plus 5 days, 37 hours per week/39 weeks per year - Scale 6, Point 18 - Pro-rata £31,059 (FTE £35,520.00) | PA to Headteacher and SLT
+employer: Haydon School
+closing_date: 2026-11-09T12:00:00+00:00
+reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ce83b41b25a8550a385cd38bd56b9a47a9c890972c1925f7212500cf82e1b892
+factual_fingerprint: 0c23f1bcb89f9d2b46fa220e092a0daed4a5337111c438f799c021b24b83f5e1
 source: Teaching Vacancies
-source_job_id: office-administrator-receptionist-the-elms-academy-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-receptionist-the-elms-academy-london
+source_job_id: pa-to-headteacher-and-slt
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-and-slt
 ---
 
 ---
@@ -143,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
+SELECTED | London | London, London, N13 5TY | £11,625.00 - £11,791.00 Annually (Actual) | Receptionist and First Aider
+employer: St Anne's Catholic High School for Girls
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aef841ced51aee0c4851d335497891d0d1213c6f5ae964274fd2bb87b9b4ea00
+source: Teaching Vacancies
+source_job_id: receptionist-and-first-aider-st-anne-s-catholic-high-school-for-girls
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-first-aider-st-anne-s-catholic-high-school-for-girls
+---
+
+---
+action: 
 SELECTED | London | London, London, SE3 7QR | £31,361.00 Annually (Actual) | Receptionist/Admin Assistant
 employer: The John Roan School
 closing_date: 2026-11-06T16:00:00+00:00
@@ -158,21 +158,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ---
 action: 
-SELECTED | London | Barking, London, IG11 9AG | £24,710.00 - £25,063.00 Annually (Actual) Scale 3 (Pt 5-6, £30,408-£30,843 full time) Prorated salary range is likely to be approx. £24,710 - £25,063, (dependant on experience, weeks per year and continuous service). Based on working 35 hours per week, Term time only | Receptionist/Administrative Assistant
-employer: Barking Abbey School, A Specialist Sports and Humanities College
-closing_date: 2026-11-02T08:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4f452880b1bebb674b19673f95f1d3d529352bd6442947706cfe43dc2d6d0d55
-source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-7e8356f9-db59-4ab1-ade5-977261759017
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-7e8356f9-db59-4ab1-ade5-977261759017
----
-
----
-action: 
 SELECTED | London | Uxbridge, London, UB10 8AB | £10,772.00 - £10,926.00 Annually (Actual) | School Administrator (Reception, School Office, WRL, HR)
 employer: Vyners School
 closing_date: 2026-11-09T09:00:00+00:00
@@ -184,21 +169,6 @@ factual_fingerprint: 321309487256349bbc5cf53534cb7d11dad4402e56ddc6b333af4f24531
 source: Teaching Vacancies
 source_job_id: school-administrator-reception-school-office-wrl-hr
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-reception-school-office-wrl-hr
----
-
----
-action: 
-SELECTED | London | London, London, NW7 1JF | £22,966.00 - £23,967.00 Annually (Actual) FTE Salary: £31,290-£32,655; SCP 7-10 | School office administrator
-employer: Millbrook Park Primary School
-closing_date: 2026-11-02T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 033cc8aca91533ad64826e7778fbd3662c0eec3674917b4f073231abff96f9eb
-source: Teaching Vacancies
-source_job_id: school-office-administrator-millbrook-park-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-millbrook-park-primary-school
 ---
 
 ---
@@ -280,6 +250,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+POSS | London | London, London, NW2 1TR | £33,129.00 - £35,628.00 Annually (FTE) Salary subject to skills and previous experiance | Administrative Assistant
+employer: Mapledown School
+closing_date: 2026-11-20T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 70ab888b4a7f742f1e2c97cfd7b12f09dc057f3c393f9d0889bef03ecc2295ed
+source: Teaching Vacancies
+source_job_id: administrative-assistant-mapledown-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-mapledown-school
+---
+
+---
+action: 
 POSS | London | Barking, London, IG11 0FU | £27,803.00 Annually (Actual) 5.12 Support Scale Already Pro-Rata | Attendance Officer
 employer: Riverside Bridge School
 closing_date: 2026-11-03T23:59:00+00:00
@@ -291,36 +276,6 @@ factual_fingerprint: ab0b8336633321778a8685ae80808082ec05bc1983ddd6152172670eb1c
 source: Teaching Vacancies
 source_job_id: attendance-officer-riverside-bridge-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-riverside-bridge-school
----
-
----
-action: 
-POSS | London | London, London, E14 0AF | £33,700-£35,500 per annum | CTEC Administrator
-employer: New City College
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 13a56cbe0e517a1a17f992f83cc7ff8541c27a95f83df947b2f0405b075878ae
-source: Teaching Vacancies
-source_job_id: ctec-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/ctec-administrator
----
-
----
-action: 
-POSS | London | Romford, London, RM3 8HN | £29,895.10 - £32,173.39 Annually (Actual) NJC Points 14v -19, 36 hours per week, 39 weeks per year (term time only plus inset) | EHCP Administrator
-employer: Lime Academy Ravensbourne
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 31bd4ca73f29f52a5632b72ae002e9cefaf5af77737c350ae9348e269d27a02c
-source: Teaching Vacancies
-source_job_id: ehcp-administrator-lime-academy-ravensbourne-romford-essex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-lime-academy-ravensbourne-romford-essex
 ---
 
 ---
@@ -430,36 +385,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bo
 
 ---
 action: 
-POSS | London | Dagenham, London, RM10 7UR | £28,909.00 - £30,200.00 Annually (Actual) Salary Scale: Scale 5 (Pt12-15, £33,609 - £35,109) Prorated salary range is likely to be approx. £28,909 - £30,200 (also dependant on experience, weeks per year and continuous service) Based on working 35 hours per week, Term time only. (Subject to job evaluation) | SEND Administrator
-employer: Eastbrook School
-closing_date: 2026-11-02T08:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 38cf8cb831a469601a8d1e48cc7c73d53a397f6fa461341aec9d033423efab28
-source: Teaching Vacancies
-source_job_id: send-administrator-eastbrook-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-eastbrook-school
----
-
----
-action: 
-POSS | London | London, London, W2 5EZ | WA Scale 5, Spine Point Range 12 - 17, £26,631 - £29,184 FTE (£23,780 - £26,081 pro rata) | Sixth Form Administrator
-employer: Westminster Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3e433f7be182cd37979946e256fecd4d6a5a477ab66464e06126ea3eb64577d2
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-westminster-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-westminster-academy
----
-
----
-action: 
 POSS | London | Woodford Green, London, IG8 7DQ | £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£30,288 - £31,611 full time equivalent) | Sixth Form Independent Study Supervisor
 employer: Woodbridge High School
 closing_date: 2026-11-09T09:00:00+00:00
@@ -494,40 +419,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 
 ## HARD_PASS
 
-- [Administrative Assistant with Finance Experience](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-finance-experience-john-ball-primary-school) — No usable numeric salary.
+- [Apprentice Administrator](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-the-john-roan-school-london) — No usable numeric salary.
 - [Assistant Librarian](https://teaching-vacancies.service.gov.uk/jobs/assistant-librarian-davenant-foundation-school) — No usable numeric salary.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-harris-lowe-academy-willesden) — Excluded senior/management title.
-- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-the-totteridge-academy) — Excluded senior/management title.
-- [Business Analyst](https://teaching-vacancies.service.gov.uk/jobs/business-analyst-new-city-college) — Salary over £50k.
+- [Attendance, Data and Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-data-and-administrative-officer) — Insufficient admin/service evidence.
 - [Careers & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-work-experience-co-ordinator-davenant-foundation-school) — No usable numeric salary.
 - [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-5bbd91b2-0afc-4796-b38f-b0811a522b87) — Insufficient admin/service evidence.
 - [Chief Financial & Operations Officer (CFOO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-operations-officer-cfoo) — Excluded senior/management title.
 - [Contracts & Procurement Lead](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-lead-greenshaw-learning-trust) — Excluded senior/management title.
 - [Cover Supervisor Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-d381408a-aed2-44f0-8a2b-5602fd447ab9) — Excluded senior/management title.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-goresbrook-school) — Excluded senior/management title.
 - [Deputy Exam Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-exam-officer) — No usable numeric salary.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Excluded senior/management title.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college-london) — Excluded senior/management title.
-- [Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/governance-manager-epping-forest-schools-partnership-trust) — Excluded senior/management title.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
 - [Head of Year](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-city-of-london-academy-highbury-grove) — Excluded senior/management title.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-dbe8438f-4742-4952-b196-d00e6c812af2) — Out-of-scope occupation: teacher, headteacher.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-orchard-park-high-school-croydon-surrey) — Out-of-scope occupation: teacher, headteacher.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — No usable numeric salary.
 - [HR Coordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-highgate-wood-secondary-school) — No usable numeric salary.
+- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-ernest-bevin-academy) — Excluded senior/management title.
 - [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover) — Excluded senior/management title.
-- [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college) — Insufficient admin/service evidence.
+- [HR, People and Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-and-culture-manager-wren-academies-trust) — Excluded senior/management title.
 - [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Excluded senior/management title.
-- [Invigilators / Readers & Scribes](https://teaching-vacancies.service.gov.uk/jobs/invigilators-readers-scribes) — No usable numeric salary.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c5500de0-8688-44f2-9650-5f16af71c014) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-kate-greenaway-nursery-school-and-children-s-centre-london) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-willowfield-school) — Excluded senior/management title.
 - [Operations Manager - Havering Secondary Hub](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-havering-secondary-hub) — Excluded senior/management title.
 - [Part Time Receptionist](https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-shacklewell-primary-school) — No usable numeric salary.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-girls-learning-trust) — Insufficient admin/service evidence.
-- [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-newbridge-school) — Insufficient admin/service evidence.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Excluded senior/management title.
-- [Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-assistant-langley-park-school-for-boys-beckenham-kent) — Insufficient admin/service evidence.
 - [School Business and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-and-operations-manager-stanhope-primary-school-greenford) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hobbayne-primary-school-london) — Excluded senior/management title.
@@ -535,7 +456,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [School Receptionist, Administrative and Welfare Support](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-administrative-and-welfare-support) — No usable numeric salary.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-9fa464f8-e6a5-4f60-bac9-8d1c457a584c) — Insufficient admin/service evidence.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school-london) — Excluded senior/management title.
-- [Site Manager](https://teaching-vacancies.service.gov.uk/jobs/site-manager-hereward-primary-school-loughton-essex) — Out-of-scope occupation: site manager.
 - [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer-davenant-foundation-school) — No usable numeric salary.
 - [Welfare and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-admin-officer-willow-tree-primary-school) — No usable numeric salary.
 

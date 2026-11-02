@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-01
-review_fingerprint: 2204aed0819d1caf4f4d9db3e783acbbfb99cb9d01c4131606c9e8c6ba3c4619
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 3af566b561807e634945dcd6b7e7a3d51e136055c2220301083c1cb43cb252a6
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 3
-- POSS awaiting decision: 3
+- Records: 14
+- Selected: 2
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 8
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: e52ee80bd6c29fe60988ced88a243a848d961419360cb38366e306bfd82
 source: Teaching Vacancies
 source_job_id: administration-assistant-one-year-fixed-term
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-one-year-fixed-term
----
-
----
-action: 
-SELECTED | Essex | Stanford-le-Hope, East of England, SS17 8JT | £22,687 | Administrator: Reprographics
-employer: Mossbourne Fobbing Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8ec4c4542c5bcbea1feff64c5d2fc7cac4ae861ed4cd8533d9968ebdcb376e70
-source: Teaching Vacancies
-source_job_id: administrator-reprographics-mossbourne-fobbing-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-reprographics-mossbourne-fobbing-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -113,25 +98,35 @@ source_job_id: operational-support-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/operational-support-assistant
 ---
 
+---
+action: 
+POSS | Essex | Clacton-on-Sea, East of England, CO15 6DZ | £4,665.00 - £4,739.00 Annually (Actual) | Receptionist
+employer: Clacton County High School
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5f4b6ecb0a0b88d7ece9777e20458c3bf1f111a0c24baf77c59f60ca3a2ecc9e
+source: Teaching Vacancies
+source_job_id: receptionist-clacton-county-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-clacton-county-high-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-88731512-4f32-446c-b927-3ff9b578aae5) — No usable numeric salary.
-- [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador) — Insufficient admin/service evidence.
+- [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust-brentwood-not-recorded) — Salary over £50k.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college-harlow-essex) — Salary over £50k.
-- [Music Administrator](https://teaching-vacancies.service.gov.uk/jobs/music-administrator-colchester-royal-grammar-school) — No usable numeric salary.
 - [Operations Manager - Harwich](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-harwich) — Excluded senior/management title.
 - [Pastoral Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-assistant-the-fitzwimarc-school) — Insufficient admin/service evidence.
 - [Payroll and Pension Analyst](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pension-analyst) — Salary over £50k.
-- [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-colne-community-school) — Insufficient admin/service evidence.
+- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-the-eastwood-academy) — Excluded senior/management title.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-350f15ec-6ca7-47eb-90e2-1629046cf441) — Excluded senior/management title.
 - [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-harris-academy-wickford) — Excluded senior/management title.
-- [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-884963be-594a-40f8-a5c8-a9fbe6867b15) — Excluded senior/management title.
-- [Trust Data and MIS Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-and-mis-analyst) — No usable numeric salary.
 
 ## Safety boundary
 

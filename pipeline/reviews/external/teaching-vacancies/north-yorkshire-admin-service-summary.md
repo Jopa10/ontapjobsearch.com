@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-01
-review_fingerprint: ac560b748826f76e73ae8557cc276ca897b7f8e3e1a9feebb520bf62b54856e3
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 7a10ed350dbeb4df150a4e8ad91b06aa0322646a3c3332c40062af7301e5bf02
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 3
+- Selected: 0
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO31 7PB | £25,989 - £28,142 (actual salary: £23,606 - £25,562) | Business Support Officer
-employer: St Wilfrid's Catholic Primary School - a Catholic Voluntary Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4cf7005ccde121431a2518f9ccd25f3a8a92b1d6a2b855c8b18e694fff0946db
-source: Teaching Vacancies
-source_job_id: business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy
----
-
----
-action: 
-SELECTED | Yorkshire - North | Harrogate, Yorkshire and the Humber, HG2 8PT | £18,978.00 - £20,228.00 Annually (Actual) NJC Grade B3, Scale Points 7-11, £27,274 - £29,070 per annum | Data Administrator
-employer: St John Fisher Catholic Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator, data administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2a882b72bd16bcd14c70c9f77f2c1d8e100b8f2ee3f3db79113c3398c3cba32a
-source: Teaching Vacancies
-source_job_id: data-administrator-st-john-fisher-catholic-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-st-john-fisher-catholic-academy
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -89,11 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-officer-ex
 
 ## HARD_PASS
 
-- [Exams Officer & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-manager-nidderdale-high-school) — Excluded senior/management title.
 - [Hub Business Leader (Craven Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-craven-hub) — Excluded senior/management title.
-- [Multi-Site School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/multi-site-school-business-manager) — Excluded senior/management title.
-- [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.
-- [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-8f1f1bf1-a960-4df0-918e-4da22ed5aa63) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

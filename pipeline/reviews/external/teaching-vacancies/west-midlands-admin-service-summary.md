@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-11-01
+review_date: 2026-11-02
 review_fingerprint: 889036b098456e8181d012cad061e06fe4451c5ac799559bebef95b04fdec5a0
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 4
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 1
 
 ## SELECTED
 
@@ -76,10 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ## HARD_PASS
 
-- [Administration Assistant for the Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-for-the-senior-leadership-team) — Excluded senior/management title.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-lydbury-north-church-of-england-primary-school) — No usable numeric salary.
-- [Clerical Assistant - General Level 2](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-general-level-2-james-bateman-middle-school-biddulph-staffordshire) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mary-s-catholic-primary-school) — Excluded senior/management title.
 
 ## Safety boundary
 

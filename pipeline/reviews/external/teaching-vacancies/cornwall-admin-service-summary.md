@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-11-01
-review_fingerprint: 77ae94ea6c9d9924787fc94fecf8a145353ca2a3e23ee76e713c60658d109ab4
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 68f7b989314fd12c3069869f70dbabdb8efd2fa131227babb772c962a3612231
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 0
+- Records: 6
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 4
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Cornwall | Truro, South West, TR1 1TN | E1 FTE £24,796 actual £21,027 | Cover and supply administrator
+employer: Penair School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c7b938cb40ea4657e478ae1a83757725b488e6c34d0434217a27e1cf009e2449
+source: Teaching Vacancies
+source_job_id: cover-and-supply-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-and-supply-administrator
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -47,8 +60,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 ## HARD_PASS
 
 - [Academy Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-cusgarne-primary-school-truro-cornwall) — No usable numeric salary.
-- [Administrative & Educational Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-educational-support-assistant-launceston-primary-school) — No usable numeric salary.
-- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-st-just-primary-school) — No usable numeric salary.
 - [Apprentice Administrator with Financial Responsibilities](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-with-financial-responsibilities-newquay-junior-academy) — No usable numeric salary.
 - [General Administrator & Receptionist](https://teaching-vacancies.service.gov.uk/jobs/general-administrator-receptionist) — No usable numeric salary.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — No usable numeric salary.

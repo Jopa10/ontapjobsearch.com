@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-11-01
-review_fingerprint: 564e47ee763bb018e295fb1ba5d5ee8dfa5956bfbe4cdcbd8438889d226e8d29
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: b84482184cd400eeffa686a418926e53345ab60e3d5ac3be0c7c92e8dd387589
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 3
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
-
----
-action: 
-SELECTED | South West | Sherford, South West, PL9 8FA | £26,427.00 - £27,274.00 Annually (FTE) | Administrative Assistant
-employer: Sherford Vale School & Nursery
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: aeaec1fd569e54976325caf841331d6284dcd11f444d1cf2ff2ed0ec51d65a2e
-source: Teaching Vacancies
-source_job_id: administrative-assistant-sherford-vale-school-nursery-sherford
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sherford-vale-school-nursery-sherford
----
 
 ---
 action: 
@@ -76,7 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-stok
 
 ## HARD_PASS
 
-- [Admissions and Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-officer-69c1e54a-5b35-4901-a222-0e20faca55c8) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

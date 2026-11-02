@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-01
-review_fingerprint: bf30585e44095910a319fefe89bc05ac855e63f49fc86b25907adebb970a9ab3
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: fa52a92f249a823cbea190aff79c31aa0f22dd6a3c9b8fdb10708dabe0e9fcaf
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 4
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Buckinghamshire | Chesham, South East, HP5 1BA | £29,114.00 - £31,230.00 Annually (FTE) FTE £29,114 - £31,230 / pro rata £4,880 - £5,234 | Development Administrator
-employer: Chesham Grammar School
-closing_date: 2026-11-02T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2e085c2fab448729576ef6497ee937e9250416ab2cae19046aa69d4e9feb2478
-source: Teaching Vacancies
-source_job_id: development-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/development-administrator
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK10 9JQ | £16,347.00 Annually (Actual) 27.5 hours per week, term time only with mandatory training days in addition | Receptionist (General Administrator)
-employer: Oakgrove School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8eb1ffb64e564a62e800de1803baa8009966a3dcb7160b655c6433d901d4c1dc
-source: Teaching Vacancies
-source_job_id: receptionist-general-administrator-ad565c22-7800-442c-b92a-0cd4c39c9cec
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-general-administrator-ad565c22-7800-442c-b92a-0cd4c39c9cec
----
 
 ---
 action: 
@@ -104,10 +74,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir
 
 ## HARD_PASS
 
-- [Business Support L3](https://teaching-vacancies.service.gov.uk/jobs/business-support-l3-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [Curriculum Administrator Apprentice](https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-apprentice) — No usable numeric salary.
-- [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Excluded senior/management title.
-- [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-7e5d89f3-aa30-4103-8e70-a83b509a9118) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

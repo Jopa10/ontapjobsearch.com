@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-01
-review_fingerprint: 86924d35c22328dc974f4172eb86fad7a86619b13679f080592afde311c901cf
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 21c6d7fa6072fe56ba89d5db5ef7cb324ae947f2d24abb409b9857db2fea0d61
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV4 9WT | £26,016.00 - £27,274.00 Annually (FTE) GRADE 3 , Actual Salary £22575- £23667 | Administrative Assistant
-employer: Finham Park 2
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cc5400c0e0c8c825803062a2014512695c5bc17ce21c0ccf680e919a3f8b502c
-source: Teaching Vacancies
-source_job_id: administrative-assistant-finham-park-2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-finham-park-2
----
 
 ---
 action: 
@@ -66,36 +51,6 @@ source_job_id: receptionist-finham-park-2-coventry-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finham-park-2-coventry-west-midlands
 ---
 
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 5BD | Actual salary £22,576 – £23,667 | Receptionist and Administrative Assistant to the Deputy Headteachers
-employer: Caludon Castle School
-closing_date: 2026-11-01T23:59:59+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ce9b27e214960b67d93e50085251b19d48e5f7063c92e388098daf4523b3e468
-source: Teaching Vacancies
-source_job_id: receptionist-and-administrative-assistant-to-the-deputy-headteachers
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-to-the-deputy-headteachers
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Kenilworth, West Midlands, CV8 2AL | £8,672.00 - £8,809.00 Annually (Actual) Band E points 5-6 | Receptionist and Administrator (2 days per week)
-employer: Kenilworth School and Sixth Form
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ad645e54a16b0fbb752888297acf04c8bc6fafd33fec40a5ce0ef97dbf98d63c
-source: Teaching Vacancies
-source_job_id: receptionist-and-administrator-2-days-per-week
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-2-days-per-week
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -111,7 +66,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 - [Examinations, Data & Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-data-access-arrangements-coordinator) — Insufficient admin/service evidence.
 - [Marketing Manager](https://teaching-vacancies.service.gov.uk/jobs/marketing-manager-stratford-upon-avon-school) — Excluded senior/management title.
 - [Office Manager and Personal Assistant (PA) to the Principal](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-pa-to-the-principal) — Excluded senior/management title.
-- [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator-kenilworth-multi-academy-trust) — Excluded senior/management title.
 
 ## Safety boundary
 

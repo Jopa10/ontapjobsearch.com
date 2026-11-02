@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-01
-review_fingerprint: 0c7e2ad17ef6052a771b6415a3cecfa08a83bf9d99f3e839309c88cdca112e8d
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 062a9eb2f1d976435f12216d6601688b06f75119def796be61afe8abb8fa5ec0
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 2
+- Records: 10
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | Suffolk | Ipswich, East of England, IP8 3SU | £26,017 - £26,847 per annum (Dependent on qualifications and experience) | Bursary Administrator
-employer: One Sixth Form College
-closing_date: 2026-11-02T08:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cbe199f2304157abd3d972abfed086567c7e34aec8377982237ae8d0921048a2
-source: Teaching Vacancies
-source_job_id: bursary-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/bursary-administrator
----
 
 ---
 action: 
@@ -90,14 +75,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ca
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-stradbroke-high-school-eye-suffolk) — Insufficient admin/service evidence.
-- [Admissions and Review Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-review-officer-eastern-education-group-trust-bury-st-edmunds-not-recorded) — Insufficient admin/service evidence.
 - [Admissions and Review Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-review-officer-stone-lodge-academy) — Insufficient admin/service evidence.
-- [Group Management Accounts Lead](https://teaching-vacancies.service.gov.uk/jobs/group-management-accounts-lead) — Excluded senior/management title.
-- [Group Management Accounts Lead](https://teaching-vacancies.service.gov.uk/jobs/group-management-accounts-lead-eastern-education-group-trust) — Excluded senior/management title.
 - [HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partnering) — Salary over £50k.
 - [Office Manager/Business Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-business-manager) — Excluded senior/management title.
 - [Success Coach - Lowestoft Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/success-coach-lowestoft-sixth-form) — Out-of-scope occupation: coach.
-- [Trust Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-lead-unity-schools-partnership-haverhill-not-recorded) — Excluded senior/management title.
 - [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare) — Insufficient admin/service evidence.
 - [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare-east-coast-college) — Insufficient admin/service evidence.
 

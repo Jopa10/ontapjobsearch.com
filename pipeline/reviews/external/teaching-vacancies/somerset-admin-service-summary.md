@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-01
-review_fingerprint: 02ee76314827ba2d76fe9bc0573fd5ed9b7d85215cd592c037c01e66e91b9c7d
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: e992b120f98eee2f7eb98a958730e09c2b9320c5de293ceb1fb1d850267ab356
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 8
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 5
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Somerset | Cheddar, South West, BS27 3AQ | Grade 11 £33575 - £37454 per annum pro rata, Actual Starting Salary £30150 | HR Officer/PA to Headteacher
-employer: The Kings of Wessex Academy
-closing_date: 2026-11-02T08:00:00+00:00
-reason: Clear admin/service title: pa to
+SELECTED | Somerset | Weston-Super-Mare, South West, BS23 4NP | £18,411 - £19,943 | Admin Assistant & Cover Coordinator
+employer: Broadoak Academy
+closing_date: 2026-11-13T11:59:59+00:00
+reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 6d4b8a20004d0deec0c14d63ff34c4df1c2b835ecd3339c9b84f7eef0b89f503
+factual_fingerprint: 762e2dc28c8af48d9598c3e22ebd9f6cefb3f77212dafe0caff291b7e45ab83d
 source: Teaching Vacancies
-source_job_id: hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb
+source_job_id: admin-assistant-cover-coordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-cover-coordinator
 ---
 
 ---
@@ -75,11 +75,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 ## HARD_PASS
 
 - [Data Administrator & System Management Support](https://teaching-vacancies.service.gov.uk/jobs/data-administrator-system-management-support) — No usable numeric salary.
-- [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager-bridgwater-college-academy) — Excluded senior/management title.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Excluded senior/management title.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-oak-partnership-trust) — Excluded senior/management title.
-- [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Excluded senior/management title.
-- [SEND Administrator and Librarian](https://teaching-vacancies.service.gov.uk/jobs/send-administrator-and-librarian) — No usable numeric salary.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-locking-primary-school) — Excluded senior/management title.
 - [Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/trust-clerk-c394aee1-d7ed-4c84-85d4-9c9175bf52c7) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-01
-review_fingerprint: fadd6b0d1a962a71c4ef487871fcf86abb6e0dd632b9bad7ebf8720d39644eb2
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 9757b0d8ee73de2ee68d4191e46a17bd7b4790418fa19b2ead256fc4e61517db
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 13
 - Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 8
 
 ## SELECTED
 
@@ -25,12 +25,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 action: 
 SELECTED | Berkshire | Maidenhead, South East, SL6 7NQ | £16,473.00 - £16,735.00 Annually (Actual) Actual salary based on 25 hours per week | Medical Office Assistant
 employer: Furze Platt Senior School
-closing_date: 2026-11-03T09:00:00+00:00
+closing_date: 2026-11-10T09:00:00+00:00
 reason: Clear admin/service title: office assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2e25229cc061eb402cadc47a095e5e259658b06cf5dbb5865fbf4c368922e623
+factual_fingerprint: 507bd28f17a25a9210ddeedaee8e6b6c78cf7a9875bb4ab149a0572353a741ae
 source: Teaching Vacancies
 source_job_id: medical-office-assistant-furze-platt-senior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/medical-office-assistant-furze-platt-senior-school
@@ -107,11 +107,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 - [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
 - [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Excluded senior/management title.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer-bradfield-c-e-primary-school) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-joseph-s-catholic-high-school-slough-berkshire) — Excluded senior/management title.
-- [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-maiden-erlegh-school) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-girls-school-slough) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-littledown-school) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shefford-c-e-primary-school) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
 - [Site Controller](https://teaching-vacancies.service.gov.uk/jobs/site-controller-reading-school) — Insufficient admin/service evidence.
 - [Trust Solicitor](https://teaching-vacancies.service.gov.uk/jobs/trust-solicitor) — Salary over £50k.

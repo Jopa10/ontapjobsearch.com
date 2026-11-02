@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-01
-review_fingerprint: 1efc93dc5ba8f8d02dc8963bb7c662115707e49a0f116a0c8eb5a350ed1107d9
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 31ab500b2d9cf66d76f17382d2cf3bff753723e35f1adb79d7623dcc016c8305
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 14
 - Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 4
 
 ## SELECTED
 
@@ -25,12 +25,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 action: 
 SELECTED | Northamptonshire | Northampton, East Midlands, NN2 6JW | £26,016.00 Annually (FTE) NJC4 : £22,234.28pa pro rata - term time | Academy Administrator
 employer: Malcolm Arnold Academy
-closing_date: 2026-11-26T23:59:00+00:00
+closing_date: 2026-11-12T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 417f0c36e8e8ae88383b97720ad0fa960f9e8063d7cbd53f0cc35836398422e0
+factual_fingerprint: 36a7606d391342c282c96508aa7652dfc16fdb7263723dbfe976efaae5b48b0a
 source: Teaching Vacancies
 source_job_id: academy-administrator-malcolm-arnold-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-malcolm-arnold-academy
@@ -113,17 +113,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Northamptonshire | Wellingborough, East Midlands, NN8 3JH | Scale 3 Points 3-4 £25,614 - £26,016 (actual £11,908 - £12,095) | Safeguarding Administrator
-employer: Weavers Academy
-closing_date: 2026-11-01T23:59:00+00:00
+SELECTED | Northamptonshire | Northampton, East Midlands, NN3 6HT | £26,016.00 Annually (FTE) Grade E Scale point 4 | School Administrator - SLT Support
+employer: St Thomas Becket Catholic School
+closing_date: 2026-11-06T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 626ed3cb2924eb27f59d2dcbd4f18d6e6d2daeed12120b6bf87c59c11fd584aa
+factual_fingerprint: aa51826e85937fec2282345d3795294f0703203e09c4b58151c77654cad7c09d
 source: Teaching Vacancies
-source_job_id: safeguarding-administrator-weavers-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-weavers-academy
+source_job_id: school-administrator-slt-support-9645b328-dee2-4ab7-bbe8-0cc977d058d8
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-slt-support-9645b328-dee2-4ab7-bbe8-0cc977d058d8
 ---
 
 ---
@@ -179,15 +179,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barn
 
 ## HARD_PASS
 
-- [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-abbeyfield-school) — Insufficient admin/service evidence.
-- [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-dslv-e-act-academy-daventry-northamptonshire) — Insufficient admin/service evidence.
 - [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant-greenfields-specialist-school-for-communication-northampton-northamptonshire) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-weavers-academy) — Insufficient admin/service evidence.
-- [Invigilator](https://teaching-vacancies.service.gov.uk/jobs/invigilator-corby-business-academy) — No usable numeric salary.
 - [Northampton Business Partner](https://teaching-vacancies.service.gov.uk/jobs/northampton-business-partner-the-abbey-primary-school) — Insufficient admin/service evidence.
 - [Part time TLT HR Manager](https://teaching-vacancies.service.gov.uk/jobs/part-time-tlt-hr-manager) — Excluded senior/management title.
 - [Reprographics and Resource Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-resource-assistant-maternity-cover) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-gloucester-nursery-school) — Excluded senior/management title.
 
 ## Safety boundary
 

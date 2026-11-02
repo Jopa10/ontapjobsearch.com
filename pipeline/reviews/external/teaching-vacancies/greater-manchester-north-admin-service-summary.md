@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-01
-review_fingerprint: c4a8fa07837cbcce6da60ae56587ab09fca986cdb3d867ca14f66a58db00a0e0
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 0e0223c2315f50bb8ce2cc06e018763e3a65ad10e6b42a252da559bb19bbb5ea
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £22,881.69 - £23,612.57 Annually (Actual) SCP4-6 - £22,881.69 - £23,612.57 - FTE: £26,016.00 - £26,847.00 - 39 weeks, 37 hours. | Academy Receptionist & Administrator
-employer: E-ACT the Oldham Academy North
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 91312a294e899592f2d5827840f4903e4efd9143d401b84260e985bd6a3c5994
-source: Teaching Vacancies
-source_job_id: academy-receptionist-administrator-e-act-the-oldham-academy-north
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-administrator-e-act-the-oldham-academy-north
----
 
 ---
 action: 
@@ -80,7 +65,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-oulder-h
 - [Governance and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-officer-newhouse-academy) — No usable numeric salary.
 - [Grade 2 Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/grade-2-administration-officer) — Insufficient admin/service evidence.
 - [Head of Human Resources](https://teaching-vacancies.service.gov.uk/jobs/head-of-human-resources-st-teresa-of-calcutta-catholic-academy-trust) — Excluded senior/management title.
-- [MIS Systems and Data Officer](https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-officer) — No usable numeric salary.
 - [School Business Manager (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-level-3-sandbrook-community-primary-school-rochdale-lancashire) — Excluded senior/management title.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-01
-review_fingerprint: 256cfb54537af60e6047be4b433dae125b395feff284d69d1f49521aac58f0ef
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 3b00ccd0e7667a6fe6d6fdbdc850794a134767ff22024c5f7470e566100079ca
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 9
+- Records: 12
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: d16f5b641c32b7697189960379b23aea58f9d9e0eaf79cb1c678804a1e5
 source: Teaching Vacancies
 source_job_id: admin-assistant-william-farr-cofe-comprehensive-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-william-farr-cofe-comprehensive-school
----
-
----
-action: 
-SELECTED | Lincolnshire | Sleaford, East Midlands, NG34 7AT | £11,046.00 - £11,396.00 Annually (Actual) | Administrative Assistant - band 2
-employer: Our Lady of Good Counsel Catholic Primary School, A Voluntary Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 243b1348bdb8dc67e8b860b3239e7802a6b0e5c8a89b627cb198b29686f5fac7
-source: Teaching Vacancies
-source_job_id: administrative-assistant-band-2-96d0a457-1878-4579-bc10-d33c9990b986
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-band-2-96d0a457-1878-4579-bc10-d33c9990b986
 ---
 
 ---
@@ -128,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-receptionist-ad
 
 ---
 action: 
-SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 9AF | Grade 3 £23,490 - £24620 | Receptionist
-employer: Sir Robert Pattinson Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0c8ea0631a409a88a3c1a778698ef7570935cbdfef5289842cd9333eb9ed4e51
-source: Teaching Vacancies
-source_job_id: receptionist-sir-robert-pattinson-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sir-robert-pattinson-academy
----
-
----
-action: 
 SELECTED | Lincolnshire | Stamford, East Midlands, PE9 1HE | £19,129.00 - £25,372.00 Annually (Actual) | SEND Administrator
 employer: Stamford Welland Academy
 closing_date: 2026-11-06T12:00:00+00:00
@@ -171,7 +141,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 - [Health, Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/health-safety-and-compliance-officer-voyage-education-partnership) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-harbour-learning-trust) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-de-aston-school) — Insufficient admin/service evidence.
-- [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-the-gainsborough-parish-church-primary-school) — Excluded senior/management title.
 
 ## Safety boundary
 

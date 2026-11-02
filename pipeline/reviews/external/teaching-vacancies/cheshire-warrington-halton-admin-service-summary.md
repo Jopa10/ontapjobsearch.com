@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-11-01
+review_date: 2026-11-02
 review_fingerprint: ae9076d5b05e5ca005050baba199940d3f39edfd867898be5cdf4bda7c1d5fc5
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -47,8 +47,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-suppor
 ## HARD_PASS
 
 - [Assistant Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-management-accountant-the-great-schools-trust) — Insufficient admin/service evidence.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-great-schools-trust) — Salary over £50k.
 - [Nursery Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/nursery-administration-officer) — Out-of-scope occupation: nurse.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-grange-school-runcorn-cheshire) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-philip-westbrook-cofe-primary-school-warrington-cheshire) — Excluded senior/management title.
 - [Trust Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-manager-the-challenge-academy-trust) — Excluded senior/management title.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-01
-review_fingerprint: 253e14ebd60bc3f009b3fd30acfbe3c7fd46839887e74e9d4d5c110b68160bf8
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: c36ff3096955628ac3c8b1618c8019d99bf71ddf6ca3474e053676f742902617
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,74 +13,31 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 2
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Surrey | Epsom, South East, KT19 9SE | Specialist - £28,009 FTE (Actual - £16,733.32) | Attendance and Admissions Officer
-employer: Danetree Primary School
-closing_date: 2026-11-01T23:59:59+00:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 691ef51dcd433205dc96f3d8426dab2b2d760632ce0f728f508da1efbf0bfb84
-source: Teaching Vacancies
-source_job_id: attendance-and-admissions-officer-99fe5e07-7ceb-4f8e-990c-280021c94b74
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-99fe5e07-7ceb-4f8e-990c-280021c94b74
----
-
----
-action: 
-SELECTED | Surrey | Godalming, South East, GU7 1RS | £39,075.00 - £40,238.00 Annually (Actual) The salary for this role is based on Scale SS7 of the Godalming College Support Staff pay scale which is currently £39,075 – £40,238 per annum inclusive of fringe | Deputy Examinations Officer
-employer: Godalming College
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: examinations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1f56404cdfacfb19297173edf8a8e6defd4ee02207257e20385e99ebef0c8a81
-source: Teaching Vacancies
-source_job_id: deputy-examinations-officer-godalming-college-godalming-surrey
-source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-examinations-officer-godalming-college-godalming-surrey
----
-
----
-action: 
-SELECTED | Surrey | Leatherhead, South East, KT23 3PP | £25,940.00 - £28,220.00 Annually (FTE) P4 - £12337 - £13422pa (actual) | Safeguarding and SEND Administrative Assistant
-employer: Eastwick Infant School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 52e6a1b91d2aee27329b9d2271a599dd824c9d67b4354503ffe4c1ae2cc02067
-source: Teaching Vacancies
-source_job_id: safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey
-source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Surrey | Sunbury-on-Thames, South East, TW16 6LF | £24,570.00 - £26,730.00 Annually (Actual) P5 (FTE £28,700 to £31,224pa) | SEND Adminstrator
-employer: Sunbury Manor School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+POSS | Surrey | Caterham, South East, CR3 5YX | £18,199.26 to £18,459.55 (dependent on experience) | Finance Admin Assistant
+employer: de Stafford School
+closing_date: 2026-11-16T09:00:59+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f241a6c1b7930d298bacae43f1e69441d63eaacbe1af868f713a812f501c4352
+factual_fingerprint: 3993f4dc11bb25c17144cb4ce78857de1b8da2e25bebdee794a68e4fd2e0de9b
 source: Teaching Vacancies
-source_job_id: send-adminstrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator
+source_job_id: finance-admin-assistant-de-stafford-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-de-stafford-school
 ---
 
 ## EXCLUDED BY REVIEW
@@ -89,8 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator
 
 ## HARD_PASS
 
-- [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-the-howard-partnership-trust) — Excluded senior/management title.
-- [HR Project Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-project-lead) — Excluded senior/management title.
+- [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-0884c9ad-ae56-44bf-a477-68f17351dcd8) — Excluded senior/management title.
 
 ## Safety boundary
 

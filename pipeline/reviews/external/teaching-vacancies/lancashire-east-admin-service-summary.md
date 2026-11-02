@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-01
+review_date: 2026-11-02
 review_fingerprint: 11527970f6c096977788647782ca6933bfe7a982abfd1ddcebcf61a6412582f4
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 9
 - Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 6
 
 ## SELECTED
 
@@ -78,9 +78,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hynd
 - [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-accrington-academy) — Insufficient admin/service evidence.
 - [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-marsden-heights-community-college) — Insufficient admin/service evidence.
 - [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-the-hyndburn-academy) — Insufficient admin/service evidence.
-- [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-all-saints-roman-catholic-high-school-a-voluntary-academy) — Excluded senior/management title.
 - [Examinations and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-and-administration-officer-our-lady-and-st-john-rc-high-school-a-voluntary-academy-blackburn-lancashire) — Insufficient admin/service evidence.
-- [HR Operations & Systems Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-systems-advisor) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-marsden-heights-community-college) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-11-01
+review_date: 2026-11-02
 review_fingerprint: 6f279f3976a343317ce8385d256dfc8354ce3309ceca6e9a5dee1de7c6abde53
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 5
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
 
@@ -62,8 +62,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-st
 ## HARD_PASS
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-hillview-school-for-girls-tonbridge-kent) — Excluded senior/management title.
-- [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-gregory-s-catholic-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-fisher-catholic-comprehensive-school) — Excluded senior/management title.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-wrotham-school) — No usable numeric salary.
 

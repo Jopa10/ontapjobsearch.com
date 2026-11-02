@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-11-01
-review_fingerprint: 03f48930f9ee808db2bfca91a36298e7379483002da0b22d3997485bc7d635f4
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 775e08803c0deadc447f40de944d6627d178665d023271d2b1e287e4d206617d
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 0LL | £26,427.00 - £27,274.00 Annually (FTE) Pro-rata for the hours advertised (£22,948 - £23,684) | Administration Assistant (Maternity Cover)
-employer: The de Ferrers Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 4cc2b2ee9e22e9fe4cf6c19723c92403139fd01c8ff878ae928e9ad469308861
-source: Teaching Vacancies
-source_job_id: administration-assistant-maternity-cover-the-de-ferrers-academy-burton-on-trent-staffordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-maternity-cover-the-de-ferrers-academy-burton-on-trent-staffordshire
----
-
----
-action: 
-SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 9SA | £27,274.00 - £28,153.00 Annually (FTE) Actual Salary: Grade 5 (SCP 7-9) £17,603.14 to £18,170.47 per annum | Administration Assistant for Work Experience and Careers
-employer: John Taylor Free School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 31bd6ea15d98f1de4ac9ebf1b0bcfd552e089b37d59a0a7a5821946df6b54658
-source: Teaching Vacancies
-source_job_id: administration-assistant-for-work-experience-and-careers
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-for-work-experience-and-careers
----
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-11-01
-review_fingerprint: b8b3eb20df92de3ff092585bf9886f5b7d11ff4be8b8a95e005fb54460fefa7b
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-02
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 2
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
 
----
-action: 
-SELECTED | Gloucestershire | Gloucester, South West, GL3 4QF | £8,464.32 - £8,871.56 Annually (Actual) | Part Time Receptionist
-employer: Henley Bank High School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: aaf7d06777ef858d96aa17af082ef3495a4d0c0201fb1e86c9c42362437826de
-source: Teaching Vacancies
-source_job_id: part-time-receptionist-henley-bank-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-henley-bank-high-school
----
-
----
-action: 
-SELECTED | Gloucestershire | Cirencester, South West, GL7 1XB | £29,071.00 - £30,516.00 Annually (FTE) Grade 5, Scale Point 11 to 14 | Trips, Lettings & Payment Administrator
-employer: Cirencester Deer Park School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0b0bc88a414d889c4517d7645afe2d090a7642aee3a4dfb933cca25759a03dda
-source: Teaching Vacancies
-source_job_id: trips-lettings-payment-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trips-lettings-payment-administrator
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
