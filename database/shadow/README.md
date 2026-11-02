@@ -180,3 +180,53 @@ Project metadata checked after the preview retained framework `nextjs`, Node
 No production deployment, project-wide build edit, paid upgrade, scheduled job
 or Brevo send was performed. Whole-feed import and the test website remain
 subsequent checkpoints.
+
+## Guarded staged raw-feed test
+
+`stage-request.json` requests the archived 2 November feed at 20%, 50%, then
+100%. `.github/workflows/test-neon-jobg8-staged.yml` runs only on pushes to
+`feat/neon-shadow-database` that change that request file. There is no schedule
+or production trigger. A separate concurrency lock serializes database tests.
+It reads the existing S3 archive using the established archive role and downloads
+one ZIP once; its SHA-256 is fixed for all stages. It does not request a new
+JobG8 feed, write the archive or invoke publication. Role access from the test
+branch must be verified by the actual run; do not change AWS trust to bypass
+a denial.
+
+`prepare_raw_stage.py` validates IDs and creates deterministic nested subsets
+using hash order, preserving original raw JobG8 fields. This exercises supplied
+adverts across the feed, including unsuitable and unpublished roles. Normalized
+job records retain stable IDs; existing advert-to-job links are preserved.
+Original descriptions and all supplier pay wording are retained in raw payloads.
+Full normalized salary fallback/geography/selection integration is pending.
+
+`harness/staged-importer.mjs` writes batched transactions, one accepted run per
+archive fingerprint and stage, one advert per supplier ID, and one appearance
+per advert/day. An identical stage replay changes no row counts. Earlier-day
+raw content cannot overwrite later advert content. Selection outcomes are
+explicitly unknown pending same-snapshot production evidence. No job is marked
+missing/expired from a partial stage, and no test job is publicly published.
+
+`verify-stage-neon.mjs` executes only within the specific Neon test resource and
+Preview environment. It measures actual whole-database and per-table storage
+before/after, counts, elapsed import/replay time and duplicate protection. Before
+writing, a conservative payload-based estimate must fit under **800 MiB**; the
+limit cannot be raised through the request beyond that ceiling. After writing,
+measured growth and average schema bytes per advert project full-feed size with
+50% headroom. If that or actual database size reaches the ceiling, later stages
+stop. This is a test threshold, not a provider billing cap. Neon remains Free;
+no plan upgrade is authorized. It does not estimate 90-day turnover retention.
+
+The workflow uses the existing Vercel token only during Preview deployment.
+Neon credentials stay inside Vercel. It emits sanitized measurement JSON, with
+no raw adverts, environment files or tokens in the uploaded report artifact.
+Each Vercel deployment contains a build-only importer and static summary; no
+database-write endpoint or persistent worker remains. Existing project-wide
+build settings and production domains are not changed.
+
+Validation before running: seven PostgreSQL-backed importer tests, two archive
+preparation tests, parsed workflow YAML/shell and syntax/diff checks. The new
+checks exercise all three nested fractions, replay conflicts and preflight
+storage rejection before any records are written. Results must distinguish
+source receipt total, fraction imported, total stored adverts (including the
+previous 20 samples) and unknown selection evidence.
