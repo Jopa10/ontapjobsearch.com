@@ -10,7 +10,7 @@ async function main(){
   const url=new URL(process.env.ONTAP_SHADOW_DATABASE_URL);
   if(!url.hostname.endsWith('.neon.tech')||!['require','verify-full'].includes(url.searchParams.get('sslmode')))throw new Error('TLS required');
   url.searchParams.set('sslmode','verify-full');
-  const fixture=JSON.parse(gunzipSync(await fs.readFile(new URL('./selection.json.gz',import.meta.url))));
+  const fixture=JSON.parse(gunzipSync(await fs.readFile(new URL('./selection.json.gz',import.meta.url)),{maxOutputLength:300*1024*1024}));
   assert.equal(fixture.report.cleanRecords,43796);
   const client=new pg.Client({connectionString:url.toString(),connectionTimeoutMillis:15000,query_timeout:90000,statement_timeout:60000,application_name:'ontap-shadow-selection-parity'});
   try{

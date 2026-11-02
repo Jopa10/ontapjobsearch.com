@@ -378,3 +378,10 @@ before its full comparison/receipt could be retained. No database decisions
 were attached. Existing completed storage measurements remain authoritative;
 this durable run repeats selection verification only. A success must still be
 followed by the guarded Preview attachment and its database readback check.
+
+The existing `harness/bootstrap-stage.mjs` also accepts deliberate build-source
+mode `selection_parity`: download the completed compact artifact through the
+supported temporary file URL, verify its separately supplied SHA-256, and run
+`verify-selection-neon.mjs`. This URL is never committed or printed. Only this
+later Preview build can attach decisions; the GitHub replay has no database
+credentials. Selection artifact extraction and decompression are bounded.
