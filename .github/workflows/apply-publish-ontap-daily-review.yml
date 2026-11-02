@@ -280,6 +280,47 @@ jobs:
           PY
           }
 
+          wait_for_run_completion() {
+            local watched_run_id="$1"
+            local poll state status conclusion
+            local consecutive_errors=0
+            # Read the run itself: a temporary jobs-list error must not strand
+            # successful page output before the production deployment dispatch.
+            for poll in $(seq 1 720); do
+              state=""
+              if state="$(gh api "repos/$GH_REPO/actions/runs/$watched_run_id" \
+                --jq '.status + " " + (.conclusion // "")')"; then
+                read -r status conclusion <<< "$state"
+                case "$status" in
+                  completed)
+                    if [ "$conclusion" = "success" ]; then
+                      echo "Run $watched_run_id completed successfully."
+                      return 0
+                    fi
+                    echo "::error::Run $watched_run_id completed with ${conclusion:-unknown conclusion}."
+                    return 1
+                    ;;
+                  queued|in_progress|waiting|pending|requested)
+                    consecutive_errors=0
+                    ;;
+                  *) consecutive_errors=$((consecutive_errors + 1)) ;;
+                esac
+              else
+                consecutive_errors=$((consecutive_errors + 1))
+              fi
+              if [ "$consecutive_errors" -gt 0 ]; then
+                echo "::warning::Cannot read run $watched_run_id status ($consecutive_errors/12); checking the same run again."
+                if [ "$consecutive_errors" -ge 12 ]; then
+                  echo "::error::Run $watched_run_id status remained unavailable; publication is not verified."
+                  return 1
+                fi
+              fi
+              sleep 15
+            done
+            echo "::error::Timed out waiting for run $watched_run_id after 3 hours."
+            return 1
+          }
+
           wait_for_dispatched_run() {
             workflow="$1"
             started_epoch="$2"
@@ -289,7 +330,7 @@ jobs:
               if [ -n "$run_id" ]; then
                 LAST_RUN_ID="$run_id"
                 echo "Found $workflow run $run_id"
-                if gh run watch "$run_id" --exit-status; then
+                if wait_for_run_completion "$run_id"; then
                   return 0
                 fi
                 return 1
@@ -332,7 +373,7 @@ jobs:
               if [ -n "$run_id" ]; then
                 LAST_RUN_ID="$run_id"
                 echo "Dispatch command failed, but GitHub created run $run_id; watching that run instead of retrying."
-                if gh run watch "$run_id" --exit-status; then
+                if wait_for_run_completion "$run_id"; then
                   return 0
                 fi
                 return 1

@@ -3,7 +3,7 @@ Total output lines: 420
 
 # Ontap System Map
 
-**Last updated:** 31 October 2026
+**Last updated:** 2 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -11,6 +11,8 @@ Total output lines: 420
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 2 November 2026 — **Publication handoff reliability:** the daily publisher now polls each dispatched run directly and retries temporary GitHub status errors against that same run. Confirmed success continues to production deployment; genuine failure, cancellation, persistent unreadable status or timeout still stops the shared release. No feed rerun or duplicate deployment is started merely because a progress check fails.
 
 - 31 October 2026 — **Governance currency audit:** reconciled current main workflows, selector and activation registers. The expanded JobG8 production workflow is present with a 5,000–60,000 receipt guard and one morning GitHub schedule; the supplier's nominal 50k service is not a guaranteed daily receipt count. The saved 31 October feed history records 16,440 received / 1,876 published JobG8 jobs; it does not establish why supplier volume fell. Current activation registers contain 239 LIVE / 8 CANDIDATE region-family pairs, 66 active family-city routes and 41 active broad-city routes. Registration is distinct from populated deployed inventory. Private alerts remain a two-address test. See `SYSTEM_AUDIT.md` for evidence and unresolved external checks.
 
@@ -225,6 +227,8 @@ The owner-facing publication entry point is `apply-publish-ontap-daily-review.ym
 `npm run build` regenerates the published-job search index before `prisma generate` and `next build`. The generated artifact contains the current published result-card fields plus precomputed `_search` metadata and omits the raw advert description/full-description payload from the runtime search bundle. Every Vercel deployment therefore searches the published supply represented by that deployment without reconstructing the source tree or repeatedly normalising/tokenising stable job fields on each request.
 
 ### Post-publish production deployment
+
+The apply/publish orchestrator polls the dispatched run endpoint every 15 seconds instead of using `gh run watch` (whose jobs-list HTTP 500 interrupted the 2 November handoff). It tolerates up to 12 consecutive unreadable/invalid responses, resets that count on readable active status, and waits at most three hours per run. Only `completed/success` opens the next shared release gate. Confirmed failure/cancellation and exhausted status/timeout bounds fail closed. Source publishers retain the existing fail-soft isolation boundary; shared verified-page publishing and deployment remain blocking gates.
 
 `.github/workflows/deploy-vercel-after-publish.yml` is the canonical production-deployment workflow. It starts after a successful `Publish verified pages` run and also supports manual dispatch.
 

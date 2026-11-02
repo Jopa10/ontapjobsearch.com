@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 31 October 2026
+**Last updated:** 2 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 2 November 2026 — **Publication handoff reliability:** the daily publisher now polls each dispatched run directly and retries temporary GitHub status errors against that same run. Confirmed success continues to production deployment; genuine failure, cancellation, persistent unreadable status or timeout still stops the shared release. No feed rerun or duplicate deployment is started merely because a progress check fails.
 
 - 31 October 2026 — **Governance currency audit:** reconciled current main workflows, selector and activation registers. The expanded JobG8 production workflow is present with a 5,000–60,000 receipt guard and one morning GitHub schedule; the supplier's nominal 50k service is not a guaranteed daily receipt count. The saved 31 October feed history records 16,440 received / 1,876 published JobG8 jobs; it does not establish why supplier volume fell. Current activation registers contain 239 LIVE / 8 CANDIDATE region-family pairs, 66 active family-city routes and 41 active broad-city routes. Registration is distinct from populated deployed inventory. Private alerts remain a two-address test. See `SYSTEM_AUDIT.md` for evidence and unresolved external checks.
 
@@ -220,6 +222,8 @@ Ontap remains positioned around useful job discovery for ordinary workers in an 
 NHS/public-sector inventory is an advantage for switchers and existing sector workers, but it must remain subordinate to the overall Ontap proposition. Generic regional discovery should not be swamped by NHS: the hard 20% source ceiling and the 4+1 display rhythm both enforce that principle. The London sector-view trial surfaces explicit NHS/public/charity interest without changing the underlying generic-page source ceiling, canonical URL or server-rendered inventory.
 
 ## 5. Operations / infrastructure
+
+Temporary GitHub progress-check errors are retried against the existing publication job, allowing successful output to proceed automatically to deployment. A genuinely failed job or prolonged loss of status still stops the shared release; this does not rerun the feed or start duplicate builds.
 
 Private daily job alerts now use the owner-approved role/location/salary matching rules and remain limited to the two approved test addresses. They run after verified publication, send only when new jobs match, and retain duplicate-send protection. Public rollout remains off.
 
