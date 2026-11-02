@@ -158,3 +158,25 @@ protection applies. No Brevo messages are sent.
 Credentials are not copied to Git, logs, artifacts, chat or local environment
 files. Free limits remain the initial spending boundary; no paid plan upgrade
 or paid-plan spend notification has been configured.
+
+## Verified Neon result — 2 November 2026
+
+Preview deployment `dpl_ByCsyjqCviLDoQPyo4z8BB24vTwc` ran source revision
+`bb08111dda3b11ce5c8978c43124b7e0af98eeb4` and reached READY. The build ran
+in 44 seconds, exposing no runtime functions. It verified the live Neon schema
+and imported the pinned 20 real adverts. Before: all six importer-owned tables
+empty. After: 1 supplier, 20 jobs, 20 supplier adverts, 1 accepted sample run,
+20 daily appearances, 20 published-snapshot decisions.
+
+Replay, unchanged content, updated content, stable public IDs, gaps, return from
+inactivity, rollback and conflicting replay rejection all passed against Neon.
+Simulated future days/title changes were rolled back. Subscribers, consent,
+emails, recommendations and activity tables were not populated. Database size
+was 8,912,896 bytes (8.5 MiB), including normal PostgreSQL database overhead.
+This is not an extrapolated full-feed storage measurement.
+
+Project metadata checked after the preview retained framework `nextjs`, Node
+24, unchanged project update timestamp and existing Preview SSO protection.
+No production deployment, project-wide build edit, paid upgrade, scheduled job
+or Brevo send was performed. Whole-feed import and the test website remain
+subsequent checkpoints.
