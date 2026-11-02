@@ -360,3 +360,21 @@ publisher/city/composed-inventory parity. Those later boundaries and the protect
 database-backed website remain pending. No full-feed storage import is repeated.
 The exact original ZIP has additionally been preserved as `ontap-shadow-feed.zip`
 for continuation after the short-lived GitHub artifact expires.
+
+### Durable selector replay execution
+
+Request mode `selection_parity` extends the existing branch-only shadow test
+workflow. It downloads artifact `13168067903` from run `41500434597`, verifies
+the fixed inner ZIP fingerprint in the harness, and runs the two independent
+scratch replays concurrently. This mode never reads the supplier URL secret,
+prepares storage fractions, connects to Neon, publishes or sends emails. It
+retains the compact selection fixture, sanitized count/hash receipt and replay
+logs as `neon-shadow-selection-parity` for seven days. Includes retain exact
+region membership. The original source is also preserved in ChatGPT as
+`ontap-shadow-feed.zip`; no new supplier fetch is a substitute for a lost pin.
+
+The initial local replay attempt was interrupted by a scratch-workspace reset
+before its full comparison/receipt could be retained. No database decisions
+were attached. Existing completed storage measurements remain authoritative;
+this durable run repeats selection verification only. A success must still be
+followed by the guarded Preview attachment and its database readback check.

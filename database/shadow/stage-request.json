@@ -7,7 +7,8 @@
     100
   ],
   "maximumDatabaseBytes": 838860800,
-  "purpose": "Owner-authorized staged raw-feed test on Neon Free; no production publishing or paid upgrade",
+  "purpose": "Pinned production selector parity only; reuse artifact 13168067903; no feed fetch, raw-import rerun, database access, publication or email",
   "sourceMode": "single_direct_supplier_snapshot",
-  "attempt": 3
+  "attempt": 4,
+  "mode": "selection_parity"
 }

@@ -27,6 +27,7 @@ def digest(value):
 
 
 def child(work, observe):
+    sys.stdout.reconfigure(line_buffering=True)
     os.chdir(work / 'pipeline')
     sys.path.insert(0, str(work / 'pipeline'))
     from scripts import service_admin_pipeline_north_yorkshire as admin
@@ -128,25 +129,48 @@ def main():
         (target / '.git').symlink_to(ROOT / '.git', target_is_directory=True)
         (target / 'pipeline/input').mkdir()
         shutil.copy2(work / 'clean.xlsx', target / 'pipeline/input/jobg8.xlsx')
+    from concurrent.futures import ThreadPoolExecutor, wait
+    def replay(mode):
+        target = work / mode
         with (work / (mode + '.log')).open('w') as log:
             subprocess.run([sys.executable, str(Path(__file__).resolve()), '--work', str(target), '--child', mode], stdout=log, stderr=subprocess.STDOUT, check=True)
         print(mode + ' production replay complete', flush=True)
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        pending = {pool.submit(replay, mode) for mode in ['plain', 'observed']}
+        while pending:
+            done, pending = wait(pending, timeout=60)
+            for future in done:
+                future.result()
+            for mode in ['plain', 'observed']:
+                log = work / (mode + '.log')
+                lines = log.read_text(errors='replace').splitlines() if log.exists() else []
+                print(mode + ': ' + (lines[-1][:200] if lines else 'starting'), flush=True)
     plain = json.loads((work / 'plain/outputs.json').read_text())
     observed = json.loads((work / 'observed/outputs.json').read_text())
     if plain != observed:
         raise ValueError('Observer changed production outputs')
     evidence = json.loads((work / 'observed/evidence.json').read_text())
     refs = [r['/Job/DisplayReference'] for r in records]
+    memberships = {}
+    for scope, jobs in plain.items():
+        family, region = scope.split(':', 1)
+        for job in jobs:
+            memberships.setdefault((family, str(job['job_id'])), set()).add(region)
     decisions = []
     counts = {}
     for family in FAMILIES:
         for ref in refs:
             record = evidence[family].get(ref, {'decision': 'unknown', 'reason': 'No complete production decision evidence captured', 'gate': 'unknown'})
-            decisions.append({'ref': ref, 'scope': 'production:' + family, **record})
+            regions = sorted(memberships.get((family, ref), set()))
+            if record['decision'] == 'include' and not regions:
+                record = {'decision': 'exclude', 'reason': 'Selected candidate withheld by final production output gate', 'gate': 'final output gate after selected report'}
+            decisions.append({'ref': ref, 'scope': 'production:' + family, **record, 'regions': regions})
         counts[family] = dict(Counter(r['decision'] for r in decisions if r['scope'] == 'production:' + family))
     revision = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     report = {'archiveSha256': PIN, 'receipt': receipt, 'cleanRecords': len(records), 'rulesRevision': revision,
               'exactFileOutputParity': True, 'outputsSha256': digest(plain), 'scopes': len(plain), 'outcomes': counts,
+              'selectedByScope': {scope: len(jobs) for scope, jobs in plain.items()},
+              'selectedUniqueJobs': len({str(job['job_id']) for jobs in plain.values() for job in jobs}),
               'unknowns': sum(r['decision'] == 'unknown' for r in decisions),
               'boundary': 'JobG8 family generation only; external composition, enrichment, final publisher/city derivation and email sending were not invoked.'}
     (work / 'report.json').write_text(json.dumps(report, indent=2) + '\n')

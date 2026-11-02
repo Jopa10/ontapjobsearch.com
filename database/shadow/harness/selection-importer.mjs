@@ -21,6 +21,9 @@ export async function attachSelection(client, fixture) {
     assert.ok(['include','exclude','review'].includes(row.decision));
     assert.ok(typeof row.reason==='string' && row.reason.length>0 && row.reason.length<10000);
     assert.ok(typeof row.gate==='string' && row.gate.length<10000);
+    assert.ok(Array.isArray(row.regions) && row.regions.every(r=>typeof r==='string' && r.length>0 && r.length<300));
+    assert.equal(new Set(row.regions).size,row.regions.length);
+    assert.equal(row.regions.length>0,row.decision==='include');
     const key=row.scope+':'+row.ref;
     assert.ok(!keys.has(key),'Duplicate decision'); keys.add(key);
   }
@@ -39,7 +42,7 @@ export async function attachSelection(client, fixture) {
     const prior=run.diagnostics.selection_parity;
     if (prior) {
       assert.equal(prior.checksum,checksum,'Conflicting selector replay');
-      const existing=(await client.query("SELECT a.supplier_job_id AS ref,d.scope,d.decision,d.reason,d.evidence->>'gate' AS gate FROM ontap_shadow.selection_decisions d JOIN ontap_shadow.supplier_adverts a ON a.id=d.advert_id WHERE d.feed_run_id=$1 AND d.scope LIKE 'production:%'",[run.id])).rows;
+      const existing=(await client.query("SELECT a.supplier_job_id AS ref,d.scope,d.decision,d.reason,d.evidence->>'gate' AS gate,d.evidence->'regions' AS regions FROM ontap_shadow.selection_decisions d JOIN ontap_shadow.supplier_adverts a ON a.id=d.advert_id WHERE d.feed_run_id=$1 AND d.scope LIKE 'production:%'",[run.id])).rows;
       const order=(a,b)=>(a.scope+':'+a.ref).localeCompare(b.scope+':'+b.ref);
       assert.deepEqual(existing.sort(order),[...decisions].sort(order));
       const count=existing.length;
@@ -49,13 +52,13 @@ export async function attachSelection(client, fixture) {
     for (let offset=0;offset<decisions.length;offset+=1000) {
       const rows=decisions.slice(offset,offset+1000).map(r=>({...r,id:stableId(`selection:${run.id}:${r.scope}:${r.ref}`)}));
       const inserted=await client.query(`INSERT INTO ontap_shadow.selection_decisions(id,advert_id,feed_run_id,scope,decision,reason,rules_revision,evidence)
-        SELECT r.id,a.id,$2,r.scope,r.decision,r.reason,$3,jsonb_build_object('gate',r.gate)
-        FROM jsonb_to_recordset($1::jsonb) AS r(id uuid,ref text,scope text,decision text,reason text,gate text)
+        SELECT r.id,a.id,$2,r.scope,r.decision,r.reason,$3,jsonb_build_object('gate',r.gate,'regions',r.regions)
+        FROM jsonb_to_recordset($1::jsonb) AS r(id uuid,ref text,scope text,decision text,reason text,gate text,regions jsonb)
         JOIN ontap_shadow.supplier_adverts a ON a.supplier_id=$4 AND a.supplier_job_id=r.ref`,[JSON.stringify(rows),run.id,report.rulesRevision,run.supplier_id]);
       assert.equal(inserted.rowCount,rows.length);
     }
     // Compare every stored ID/outcome/reason/gate, not just aggregate counts.
-    const actual=(await client.query("SELECT a.supplier_job_id AS ref,d.scope,d.decision,d.reason,d.evidence->>'gate' AS gate FROM ontap_shadow.selection_decisions d JOIN ontap_shadow.supplier_adverts a ON a.id=d.advert_id WHERE d.feed_run_id=$1 AND d.scope LIKE 'production:%'",[run.id])).rows;
+    const actual=(await client.query("SELECT a.supplier_job_id AS ref,d.scope,d.decision,d.reason,d.evidence->>'gate' AS gate,d.evidence->'regions' AS regions FROM ontap_shadow.selection_decisions d JOIN ontap_shadow.supplier_adverts a ON a.id=d.advert_id WHERE d.feed_run_id=$1 AND d.scope LIKE 'production:%'",[run.id])).rows;
     const order=(a,b)=>(a.scope+':'+a.ref).localeCompare(b.scope+':'+b.ref);
     assert.deepEqual(actual.sort(order),[...decisions].sort(order));
     const summary={checksum,decisions:decisions.length,rules_revision:report.rulesRevision,outputs_sha256:report.outputsSha256,scope:'JobG8 family generation',unknowns:0};
