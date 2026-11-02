@@ -86,3 +86,11 @@ jobs:
           path: ${{ runner.temp }}/neon-reports/*.json
           if-no-files-found: ignore
           retention-days: 14
+      - name: Preserve the source snapshot for reproducible retry
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: neon-shadow-source-snapshot
+          path: ${{ runner.temp }}/ontap-shadow-feed.zip
+          if-no-files-found: ignore
+          retention-days: 2

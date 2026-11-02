@@ -26,8 +26,10 @@ def load_archive(path):
             raise ValueError('Expected exactly one Jobs.xml')
         with archive.open(names[0]) as handle:
             root = ET.parse(handle).getroot()
-    rows = []
-    seen = set()
+    by_id = {}
+    conflicting_ids = set()
+    total_rows = 0
+    exact_repeats = 0
     for node in root.iter():
         if node.tag.rsplit('}', 1)[-1].lower() != 'job':
             continue
@@ -36,23 +38,33 @@ def load_archive(path):
         ref = row.get('/Job/DisplayReference', '').strip()
         if not ref or not row.get('/Job/Position') or not row.get('/Job/ApplicationURL'):
             raise ValueError('Missing supplier identity, title or apply URL in archive')
-        if ref in seen:
-            raise ValueError('Duplicate supplier ID in archive')
-        seen.add(ref)
-        rows.append(row)
-    if not 1 <= len(rows) <= 60000:
+        total_rows += 1
+        if ref in by_id:
+            if row == by_id[ref]:
+                exact_repeats += 1
+            else:
+                conflicting_ids.add(ref)
+        else:
+            by_id[ref] = row
+    if len(conflicting_ids) > 15:
+        raise ValueError(f'Source integrity review needed: {len(conflicting_ids)} conflicting IDs')
+    rows = [row for ref, row in by_id.items() if ref not in conflicting_ids]
+    if not 1 <= total_rows <= 60000 or not rows:
         raise ValueError('Archive outside bounded 1–60,000 record test capacity')
     # Hash ordering spreads sectors/locations; prefixes are nested at every stage.
-    return sorted(rows, key=lambda r: hashlib.sha256(r['/Job/DisplayReference'].encode()).hexdigest())
+    rows = sorted(rows, key=lambda r: hashlib.sha256(r['/Job/DisplayReference'].encode()).hexdigest())
+    return rows, {'sourceRows': total_rows, 'uniqueSupplierIds': len(by_id),
+                  'exactRepeatRows': exact_repeats, 'conflictingIdsHeld': sorted(conflicting_ids)}
 
 
 def prepare(path, percentage, archive_date, revision, budget):
-    rows = load_archive(path)
+    rows, diagnostics = load_archive(path)
     selected = rows[:max(1, len(rows) * percentage // 100)]
     payload_bytes = sum(len(json.dumps(r, ensure_ascii=False).encode()) for r in selected)
     return {'archiveDate': archive_date, 'observedOn': archive_date,
             'archiveSha256': hashlib.sha256(path.read_bytes()).hexdigest(),
-            'sourceRevision': revision, 'percentage': percentage, 'totalReceived': len(rows),
+            'sourceRevision': revision, 'percentage': percentage, 'totalReceived': diagnostics['sourceRows'],
+            'eligibleRecords': len(rows), 'receiptDiagnostics': diagnostics,
             'rawPayloadBytes': payload_bytes, 'maximumDatabaseBytes': budget,
             'records': selected}
 

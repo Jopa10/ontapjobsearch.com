@@ -31,7 +31,7 @@ async function main() {
     const bytesPerNewAdvert=Math.max(newAdverts>0?growth/newAdverts:0,after.schemaBytes/Math.max(1,afterCounts.supplier_adverts));
     const estimatedFullDatabaseBytes=Math.ceil(after.databaseBytes+Math.max(0,fixture.totalReceived-afterCounts.supplier_adverts)*bytesPerNewAdvert*1.5);
     const withinHeadroom=after.databaseBytes<fixture.maximumDatabaseBytes && estimatedFullDatabaseBytes<fixture.maximumDatabaseBytes;
-    const report={status:'passed',percentage:fixture.percentage,totalReceived:fixture.totalReceived,
+    const report={receiptDiagnostics:fixture.receiptDiagnostics || null,eligibleRecords:fixture.eligibleRecords || fixture.totalReceived,status:'passed',percentage:fixture.percentage,totalReceived:fixture.totalReceived,
       importedRecords:fixture.records.length,archiveDate:fixture.archiveDate,archiveSha256:fixture.archiveSha256,
       beforeDatabaseBytes:before.databaseBytes,afterDatabaseBytes:after.databaseBytes,
       beforeSchemaBytes:before.schemaBytes,afterSchemaBytes:after.schemaBytes,

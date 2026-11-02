@@ -10,6 +10,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 2 November 2026 — **Raw-feed duplicate handling isolated in the test adapter:** exact repeated supplier records collapse to one advert with receipt counts preserved; up to 15 conflicting supplier IDs are held aside with explicit IDs/counts. More conflicts stop this isolated source test for integrity review. The source ZIP is retained briefly as a retry artifact. No production selector or duplicate policy changes.
+
 - 2 November 2026 — **Staged-test source fallback:** run `41499293820` was denied AWS role assumption from the feature branch before any database writes. The isolated test now saves one direct JobG8 snapshot through the existing supplier connection and reuses that exact ZIP/hash for all fractions. AWS permissions and production workflows remain unchanged.
 
 - 2 November 2026 — **Guarded staged raw-feed test prepared on feature branch:** a branch-only, request-file-triggered workflow reads one archived JobG8 ZIP and imports nested 20/50/100% subsets through Preview. Atomic batched imports retain original adverts and daily appearances; incomplete selector evidence is explicitly unknown, all jobs remain withheld, and expiry is disabled. Preflight storage and measured-growth gates stop above an 800 MiB test ceiling. No production schedule, supplier fetch or paid upgrade is added. See `database/shadow/README.md`.

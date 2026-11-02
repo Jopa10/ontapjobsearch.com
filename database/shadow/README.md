@@ -243,3 +243,15 @@ in the request denotes the observation/snapshot date for this fallback; the
 source mode is explicit. No S3 archive is read, modified or pruned. The workflow
 no longer requests AWS/OIDC permission. No database records were added by the
 failed archive-access attempt.
+
+### Duplicate supplier IDs in the received snapshot
+
+Direct-fetch attempt `41499849031` detected repeated supplier IDs before any
+database writes. The test preparation now distinguishes identical repeats
+(collapsed to one advert, with counts retained) from differing payloads sharing
+an ID (quarantined by ID, up to the repository's 15-record integrity boundary).
+More conflicting IDs stop this isolated source test for assessment; clean live
+publication is not involved. Reports distinguish total received rows, unique IDs,
+exact repeats, conflicting IDs held and clean unique records. Stage fractions
+apply to clean unique records. The source ZIP is retained for two days as a
+GitHub Actions artifact for reproducible retries, without any credentials.

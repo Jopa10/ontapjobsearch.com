@@ -38,7 +38,7 @@ const input=`jsonb_to_recordset($1::jsonb) AS r(${definition})`;
 export async function importStage(client,fixture,{chunkSize=300}={}) {
   const {records,observedOn,percentage,archiveSha256,sourceRevision,totalReceived}=fixture;
   if (![20,50,100].includes(percentage) || !Array.isArray(records) || !records.length || records.length>60000 || totalReceived<records.length || totalReceived>60000) throw new Error('Invalid bounded stage');
-  if (records.length!==Math.max(1,Math.floor(totalReceived*percentage/100))) throw new Error('Stage fraction mismatch');
+  if (records.length!==Math.max(1,Math.floor((fixture.eligibleRecords || totalReceived)*percentage/100))) throw new Error('Stage fraction mismatch');
   if (!/^\d{4}-\d{2}-\d{2}$/.test(observedOn) || !/^[a-f0-9]{64}$/.test(archiveSha256)) throw new Error('Missing archive provenance');
   const normalized=records.map(normalize);
   if (new Set(normalized.map(r=>r.ref)).size!==records.length) throw new Error('Duplicate IDs');
@@ -60,7 +60,7 @@ export async function importStage(client,fixture,{chunkSize=300}={}) {
     }
     await client.query(`INSERT INTO ontap_shadow.feed_runs(id,supplier_id,feed_key,feed_date,source_checksum,status,received_count,rules_revision,diagnostics)
       VALUES($1,$2,$3,$4,$5,'staged',$6,$7,$8)`,[runId,supplier,feedKey,observedOn,sourceHash,totalReceived,sourceRevision,
-      {archive_sha256:archiveSha256,percentage,imported_records:records.length,partial_feed:percentage<100,expiry_enabled:false}]);
+      {archive_sha256:archiveSha256,percentage,imported_records:records.length,partial_feed:percentage<100,expiry_enabled:false,receipt_diagnostics:fixture.receiptDiagnostics || null}]);
     for (let offset=0;offset<normalized.length;offset+=chunkSize) {
       const chunk=JSON.stringify(normalized.slice(offset,offset+chunkSize));
       const args=[chunk,supplier,observedOn];
