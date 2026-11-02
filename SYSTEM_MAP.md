@@ -12,6 +12,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 2 November 2026 — **Neon shadow database foundation (test branch only):** `database/shadow/001_initial.sql` defines 12 tables in isolated `ontap_shadow`; `pipeline/scripts/plan_shadow_jobg8_import.py` preflights the existing JobG8 XLSX offline without replacing selectors or publishing. Retain daily appearances and full adverts for 90 days after inactivity (cleanup pending). Existing public IDs remain unchanged; no fuzzy cross-feed merge is enabled. Provisioning, billing controls, database execution and test-site connection remain pending; Vercel integration inspection returned 403. See `database/shadow/README.md`. No production migration or schedule is introduced.
+
 - 2 November 2026 — **Publication handoff reliability:** the daily publisher now polls each dispatched run directly and retries temporary GitHub status errors against that same run. Confirmed success continues to production deployment; genuine failure, cancellation, persistent unreadable status or timeout still stops the shared release. No feed rerun or duplicate deployment is started merely because a progress check fails.
 
 - 31 October 2026 — **Governance currency audit:** reconciled current main workflows, selector and activation registers. The expanded JobG8 production workflow is present with a 5,000–60,000 receipt guard and one morning GitHub schedule; the supplier's nominal 50k service is not a guaranteed daily receipt count. The saved 31 October feed history records 16,440 received / 1,876 published JobG8 jobs; it does not establish why supplier volume fell. Current activation registers contain 239 LIVE / 8 CANDIDATE region-family pairs, 66 active family-city routes and 41 active broad-city routes. Registration is distinct from populated deployed inventory. Private alerts remain a two-address test. See `SYSTEM_AUDIT.md` for evidence and unresolved external checks.
@@ -201,6 +203,10 @@ Persistent product content belongs here when it changes product behaviour. Ontap
 NHS/public-sector inventory is a complementary supply and sector-switching advantage; it must not redefine Ontap as an NHS job board. Generic job discovery continues to mix NHS into the wider inventory under the source cap and the 4+1 display rhythm. The London-wide Service Admin trial now surfaces explicit NHS/public/charity interest through a client-visible sector view while preserving the single server-rendered all-jobs page.
 
 ## 5. Operations / infrastructure
+
+### Neon shadow database — foundation only
+
+The isolated test schema and offline preflight are documented in `database/shadow/README.md`. They are not wired into production, the legacy Prisma models, private Brevo sending or the daily publisher. No Neon instance, credentials or billing settings have been verified.
 
 The automatic private CPC sender is pinned to `7861de82938669df2b78229d2b76859fb260b2e2` (31 October workflow audit). Its sparse private checkout includes `pipeline/scripts`, `pipeline/tests` and `pipeline/config`; the last supplies the governed region-name/slug catalog. The existing post-publish workflow retains two allowlisted test recipients on list 3 and invokes only private daily mode. Public signup and list-wide delivery are not enabled by this adoption.
 
