@@ -19,7 +19,8 @@ MODULES = {
 
 
 class Capture:
-    def __init__(self, scripts):
+    def __init__(self, scripts, functions=()):
+        self.functions = tuple(functions)
         self.sites = {}
         self.records = {}
         for name, family in MODULES.items():
@@ -82,11 +83,52 @@ class Capture:
                     }
         return self.trace
 
+    def _on_line(self, code, line):
+        spec = self.sites[code.co_filename]
+        if line not in spec[1]:
+            return None
+        frame = sys._getframe(1)
+        if frame.f_code is not code:
+            raise RuntimeError('Unexpected monitoring frame')
+        self.trace(frame, 'line', None)
+
+    def _on_return(self, code, offset, value):
+        frame = sys._getframe(1)
+        if frame.f_code is not code:
+            raise RuntimeError('Unexpected monitoring frame')
+        self.trace(frame, 'return', value)
+
     def __enter__(self):
+        if not hasattr(sys, 'monitoring'):
+            raise RuntimeError('Selector capture requires Python 3.12 or later')
         if sys.gettrace() is not None:
             raise RuntimeError('A trace observer is already installed')
-        sys.settrace(self.trace)
+        self.codes = {fn.__code__ for fn in self.functions
+                      if fn.__code__.co_filename in self.sites
+                      and fn.__name__ in {'main', 'run_live_registered_categories', 'keep_job'}}
+        if not self.codes:
+            raise RuntimeError('No selector functions supplied')
+        self.tool_id = next((i for i in (4, 3, 2, 1, 0, 5)
+                             if sys.monitoring.get_tool(i) is None), None)
+        if self.tool_id is None:
+            raise RuntimeError('No free monitoring slot')
+        sys.monitoring.use_tool_id(self.tool_id, 'ontap-shadow-selector')
+        try:
+            sys.monitoring.register_callback(self.tool_id, sys.monitoring.events.LINE, self._on_line)
+            sys.monitoring.register_callback(self.tool_id, sys.monitoring.events.PY_RETURN, self._on_return)
+            for code in self.codes:
+                events = sys.monitoring.events.PY_RETURN
+                if code.co_name != 'keep_job':
+                    events |= sys.monitoring.events.LINE
+                sys.monitoring.set_local_events(self.tool_id, code, events)
+        except BaseException:
+            self.__exit__()
+            raise
         return self
 
     def __exit__(self, *args):
-        sys.settrace(None)
+        for code in self.codes:
+            sys.monitoring.set_local_events(self.tool_id, code, 0)
+        sys.monitoring.register_callback(self.tool_id, sys.monitoring.events.LINE, None)
+        sys.monitoring.register_callback(self.tool_id, sys.monitoring.events.PY_RETURN, None)
+        sys.monitoring.free_tool_id(self.tool_id)

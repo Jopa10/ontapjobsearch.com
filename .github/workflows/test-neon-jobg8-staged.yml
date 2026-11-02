@@ -83,6 +83,17 @@ jobs:
             ${{ runner.temp }}/selector-parity/observed.log
           if-no-files-found: ignore
           retention-days: 7
+      - name: Preserve available replay files for recovery
+        if: always() && steps.request.outputs.mode == 'selection_parity'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: neon-shadow-selector-recovery
+          path: |
+            ${{ runner.temp }}/selector-parity/plain/outputs.json
+            ${{ runner.temp }}/selector-parity/observed/outputs.json
+            ${{ runner.temp }}/selector-parity/observed/evidence.json
+          if-no-files-found: ignore
+          retention-days: 2
       - name: Save one direct supplier snapshot for all test stages
         if: steps.request.outputs.mode == 'source'
         env:

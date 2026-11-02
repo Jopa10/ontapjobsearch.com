@@ -323,7 +323,7 @@ It does not execute the daily workflow, fetch a feed, compose external sources,
 enrich outputs, derive cities, publish, deploy production or send email.
 
 The first replay is unchanged file processing. The second observes actual
-executed rejection gates with Python's tracing API; it does not evaluate or
+executed rejection gates with Python 3.12 per-code monitoring; it does not evaluate or
 copy policy expressions. Existing selector decision CSVs take precedence, and
 actual selected output rows take precedence over intermediate states. Unobserved
 rows stay **unknown** and block database attachment. Exact equality of all LIVE
@@ -390,3 +390,23 @@ A no-write replay verifies the existing full evidence before reserving storage;
 it does not project another copy of rows already stored. New attachments still
 pass both projected and measured storage checks. A PostgreSQL-backed regression
 test exercises replay when the reported database size is near the ceiling.
+
+### Recording overhead correction
+
+The first durable run completed unchanged file generation, but its global
+`sys.settrace` dispatcher also received calls from helpers that did not need
+recording. The observed Finance pass was still advancing after an hour. No
+Neon decisions were attached. The replacement recorder uses Python 3.12
+`sys.monitoring` local events on the explicit selector main/QA code objects
+only. No global events or global trace hook are installed, and helper functions
+are not monitored. Actual gates, report precedence and output-equality checks
+are unchanged; monitoring is removed even when a selector raises.
+
+Three recorder tests and five PostgreSQL-backed attachment tests pass. A focused
+1,000-advert helper-heavy comparison produced identical output and all 1,000
+identical evidence records under old/new observers; this is a recorder check,
+not a replacement for whole-feed parity. The full private comparison still
+reuses the exact original ZIP. Completed raw-storage stages are not rerun.
+The workflow additionally retains available replay output/evidence files for
+two days in a separate recovery artifact, so an interrupted comparison need
+not discard a completed file pass.

@@ -15,7 +15,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(HERE))
 from prepare_raw_stage import load_archive
-from selector_capture import Capture
+from selector_capture import Capture, MODULES
 
 PIN = '046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd'
 FAMILIES = ['admin_service', 'support_worker', 'customer_sales', 'finance_accounts',
@@ -34,7 +34,16 @@ def child(work, observe):
     from scripts import support_worker_pipeline_live_config as support
     from scripts.slice_registry import live_slices
     from scripts.slice_catalog import category_meta, output_filename
-    observer = Capture(work / 'pipeline/scripts')
+    functions = []
+    if observe:
+        from importlib import import_module
+        for name in MODULES:
+            module = import_module('scripts.' + name)
+            for entry in ('main', 'run_live_registered_categories', 'keep_job'):
+                function = getattr(module, entry, None)
+                if callable(function) and hasattr(function, '__code__'):
+                    functions.append(function)
+    observer = Capture(work / 'pipeline/scripts', functions)
     if observe:
         observer.__enter__()
     try:
