@@ -1,18 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:01+00:00",
+  "generated_at": "2026-11-02T21:32:59+00:00",
   "source": "Teaching Vacancies",
   "region": "Cornwall",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "6690b171a9e0a8f246d5811bc714530558cea92308d7424823771dfebb328c2b",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "c7e48ded198aa792da4fdeb3cc4d393cc84e3bb49d766cbec03be2d4f3f28d57",
-  "summary_md_sha256": "b63b1d6c7930842b7dfd79856402599700de3194f637f7c16055c5a6dcb823a6",
-  "approved_snapshot_sha256": "be2999b89de67b55a9dc1c42685300bb828409b4b8bd244a88a114a2d040c3cd",
+  "review_date": "2026-11-02",
+  "review_fingerprint": "68f7b989314fd12c3069869f70dbabdb8efd2fa131227babb772c962a3612231",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "7efb327c4ea152e780e9295b7c79a6b4efe10ca8535cee5dad09cca3a0fe369f",
+  "summary_md_sha256": "459f3f7c5ebc40e378e64699c3af1070cffc1db0558af276649b27c4d807ab05",
+  "approved_snapshot_sha256": "eabcf1057c51774ecaa5010029cb153a7a557a50adea1b1017f5d43ddbae9ab1",
   "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-first-aid-administrator-newquay-tretherras"
+    "teaching-vacancies-cover-and-supply-administrator"
   ]
 }

@@ -1,18 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:01+00:00",
+  "generated_at": "2026-11-02T21:32:59+00:00",
   "source": "Teaching Vacancies",
   "region": "Cumbria - North",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "64c345943a77ec691acffc9bfefaa5f59da8fd10472d81e2fefdfb0a9c2ed319",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "d2357a0c390cc29cdaeec39be1a9263c532efe0b10670b4078eaeb184295ee96",
-  "summary_md_sha256": "86b8c26ac9b60c1723d2d314704bd0c5a6778d98cacf47f9dc9d1acde9cb4425",
-  "approved_snapshot_sha256": "cfcf4fbb87f36905dd957ce381b90a5f9cc5e5213da695dc75822ad4372dcde3",
-  "approved_rows": 1,
+  "review_date": "2026-11-02",
+  "review_fingerprint": "3e18f44585bbe4ee5a2bd3ca8fd72203c096c7fffeb6a0bde8270bc759e3c3b3",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "46552043ab36c9bc694f9c0cc0fdacaec248b245bfa8aca1286f4a3e92618148",
+  "summary_md_sha256": "5bfbf5041c068e67f8f2bd420f639313cb91905679973a6dc93fb4bbfdbfa495",
+  "approved_snapshot_sha256": "73d70d7a141b321331ac45e9200b78fcf0125a12b6e32562334bbdb03cec22f7",
+  "approved_rows": 2,
   "approved_job_ids": [
+    "teaching-vacancies-school-office-administrator-longtown-primary-school-carlisle-cumbria",
     "teaching-vacancies-finance-officer-james-rennie-school-carlisle-cumbria"
   ]
 }

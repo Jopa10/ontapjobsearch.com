@@ -1,18 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:01+00:00",
+  "generated_at": "2026-11-02T21:32:59+00:00",
   "source": "Teaching Vacancies",
   "region": "Derbyshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "25bc572a50af61efaca467c6e4bcff95ddb501460e3149d1239636d82c838fe1",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "df62ab84d7c3a49fd733288a7fb28a3be2f446a065515c1235a4f1fc621fc4aa",
-  "summary_md_sha256": "4145b5bcdf96ae6572cf594def8babc97e5fc86938e179c91aba72eadc12d30d",
-  "approved_snapshot_sha256": "0e3cb1e67242607d187ddc0bfa90e294bad310cdb46e7ef055880d7910f2633e",
+  "review_date": "2026-11-02",
+  "review_fingerprint": "23e51304b6342ca478987cd3887fbb208ce1e1c463b6e3eb4de48625c9acb464",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "ab814fbad2b390fefb402f55d1efe0f8fa8d8d810ab8aa452183961aa8e1c8e3",
+  "summary_md_sha256": "1f46fc0d07e4e028b2f387ba5f17f01449275f563cb3305f618731d78a8bfd65",
+  "approved_snapshot_sha256": "70919b64ee6b758379c582034ac1a4a78046224cfa2c23eff03d2a2cbefd7eb6",
   "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-receptionist-d23e1267-9b18-4deb-8377-a4ade5fb90cf"
+    "teaching-vacancies-admin-assistant-student-services-reception-support-murray-park-community-school"
   ]
 }

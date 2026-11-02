@@ -1,21 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:03+00:00",
+  "generated_at": "2026-11-02T21:33:00+00:00",
   "source": "Teaching Vacancies",
   "region": "Hertfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "965df5d1ceacde5f8bd3fa5d61d6aed56a02ab420e49272c8b822f96d8e28ddf",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "6d1e21646791808e79aae7b939d4aabc225dd81a94574dd5f1db078540509714",
-  "summary_md_sha256": "fea0e5b53449cf21f5bf41766c906a2912378bee8990f423ffba452922e01782",
-  "approved_snapshot_sha256": "fbe65d4577c0a9396d435ff652f34a78f5fa623862e2d458afc7d1a87789a72d",
-  "approved_rows": 4,
-  "approved_job_ids": [
-    "teaching-vacancies-inclusion-administrator-nicholas-breakspear-catholic-school",
-    "teaching-vacancies-admin-officer-receptionist",
-    "teaching-vacancies-office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9",
-    "teaching-vacancies-send-administrator-chancellor-s-school"
-  ]
+  "review_date": "2026-11-02",
+  "review_fingerprint": "6c71bcf533f6b110d85358a555aa081078d5f6293c3c53044c1652bb1c914c97",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "ebc921cbc2ec5bde8501e5733f107688564313cce9a7c92a99e6a479052519ea",
+  "summary_md_sha256": "3eeb6ecd27fbe5a967bcd13c142a7e01943c35a34860eb9448cbbb8f05802ec6",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administration-assistant-brownmead-primary-academy",
-    "title": "Administration Assistant",
-    "company": "Brownmead Primary Academy",
-    "location": "Birmingham",
-    "region": "West Midlands - Birmingham & Solihull",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,614.00 - £27,709.00 Annually (FTE) GR2 SCP 3 - 8 £23,059.62 - £24,945.69 Pro Rata",
-    "work_pattern": "",
-    "posted_date": "2026-10-21",
-    "closing_date": "2026-11-06",
-    "closing_datetime": "2026-11-06T09:00:00+00:00",
-    "summary": "Administration Assistant with Brownmead Primary Academy in Birmingham. ['full time']; £25,614.00 - £27,709.00 Annually (FTE) GR2 SCP 3 - 8 £23,059.62 - £24,945.69 Pro Rata.",
-    "description": "Brownmead Primary Academy is recruiting for this vacancy in Birmingham.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,614.00 - £27,709.00 Annually (FTE) GR2 SCP 3 - 8 £23,059.62 - £24,945.69 Pro Rata.\n\nThe stated application deadline is 2026-11-06T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-brownmead-primary-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Brownmead Primary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-receptionist-st-margaret-s-church-of-england-primary-school",
     "title": "Administrative Assistant/Receptionist",
     "company": "St Margaret's Church of England Primary School",
@@ -49,11 +21,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "St Margaret's Church of England Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-cover-administrator-erdington-academy",
@@ -77,11 +45,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Erdington Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-grade-2-administrative-assistant-queensbury-school",
@@ -105,39 +69,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Queensbury School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-school-administrator-holy-name-catholic-primary-school",
-    "title": "School Administrator",
-    "company": "Holy Name Catholic Primary School",
-    "location": "Birmingham",
-    "region": "West Midlands - Birmingham & Solihull",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,427.00 - £26,847.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-10-23",
-    "closing_date": "2026-11-09",
-    "closing_datetime": "2026-11-09T09:00:00+00:00",
-    "summary": "School Administrator with Holy Name Catholic Primary School in Birmingham. ['part time']; £26,427.00 - £26,847.00 Annually (FTE).",
-    "description": "Holy Name Catholic Primary School is recruiting for this vacancy in Birmingham.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,427.00 - £26,847.00 Annually (FTE).\n\nThe stated application deadline is 2026-11-09T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-holy-name-catholic-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Holy Name Catholic Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-65a61b9e-be5f-4172-b55c-8b707f8e10f9",
@@ -161,11 +93,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "James Brindley School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-administrator-receptionist-afc2cbbf-f4cb-42a6-8c94-97d0fc3a0b28",
@@ -189,11 +117,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Tudor Grange Primary Academy Langley",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-clerical-assistant-receptionist-st-anne-s-catholic-primary-school",
@@ -217,11 +141,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "St Anne's Catholic Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "23643_225694384",

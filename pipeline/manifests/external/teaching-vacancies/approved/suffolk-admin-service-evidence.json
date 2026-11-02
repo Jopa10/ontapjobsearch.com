@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:06+00:00",
+  "generated_at": "2026-11-02T21:33:03+00:00",
   "source": "Teaching Vacancies",
   "region": "Suffolk",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "bf3d50231f293796ca5e9f1a4ace0deae3b6f717ba34f14322a88904683f9d59",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "5ff9969b80b822904a511f4b623a5690f0dea7c97bc9f3729ed3ea8cf9352f03",
-  "summary_md_sha256": "8815d8202b8e71b4eee136aa1fa7ea68ccc1bbfb5b33e7924faf3795c9325f19",
-  "approved_snapshot_sha256": "e06b05526901e6739cf9962c83628f9770a1e85cda5fa46a1d7c495f565c53f8",
-  "approved_rows": 2,
+  "review_date": "2026-11-02",
+  "review_fingerprint": "062a9eb2f1d976435f12216d6601688b06f75119def796be61afe8abb8fa5ec0",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "6ed5e78585c9141ac965eeb7fc2812355ca6e0a2a2a8a9ba3e5abccf603ef64b",
+  "summary_md_sha256": "b095dfa0272cfc5c7e8714519ec083d25a76b4281cdb864926a12c22d8a76b3a",
+  "approved_snapshot_sha256": "ba9f487740658d4b078c138cab8d5395c1e09a3089cee289df156aeb1730cf32",
+  "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-bursary-administrator",
     "teaching-vacancies-school-administrator-maternity-cover-the-oaks-primary-school"
   ]
 }

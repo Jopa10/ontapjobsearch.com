@@ -1,22 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:02+00:00",
+  "generated_at": "2026-11-02T21:32:59+00:00",
   "source": "Teaching Vacancies",
   "region": "Devon",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "ffb4a8e8f06f981a1d03d3a49c8ae8749209b77eb5f347f54ac61ee0885da6e1",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "34ea0b58668ba6c0434ed5c3cf46112e751d04b2463594f75f493fd31f8d0b43",
-  "summary_md_sha256": "cea941dfea5196125e41b4f8365ff6dafe7aff8d12c5e2c0dbeaa50b9819db95",
-  "approved_snapshot_sha256": "f1775fe9b25f00edd9e2222d555274b2710878d68f4d16d5a7b65a6615b69143",
-  "approved_rows": 5,
+  "review_date": "2026-11-02",
+  "review_fingerprint": "4b97b680a3717aeaeaa4b29eca49f9f9232e3924c4d1c26747ee0113d70fc31a",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "72e82956c12bcc0ce1f1a3f8147a16850350cbd7e7bc7f2db4aec91204f82e22",
+  "summary_md_sha256": "33ce19e857c2273fb10826dbc31a842f56c75ba2d0dad5877e6466812c39272b",
+  "approved_snapshot_sha256": "ea08aa82a8d508b8fe3a0233fce3ce4e96d41fe19747a98556df7cebd73854fa",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-sen-medical-administrator",
     "teaching-vacancies-attendance-officer-part-time-st-james-school",
-    "teaching-vacancies-school-office-administrator-boringdon-primary-school",
     "teaching-vacancies-student-funding-administrator-maternity-cover",
-    "teaching-vacancies-nursery-administrator-alphington-primary-school-exeter-devon"
+    "teaching-vacancies-nursery-administrator-31464adb-0c58-44e0-b86c-35e420fdd035",
+    "teaching-vacancies-school-receptionist-stoke-damerel-community-college"
   ]
 }

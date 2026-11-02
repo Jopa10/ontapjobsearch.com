@@ -1,18 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:02+00:00",
+  "generated_at": "2026-11-02T21:33:00+00:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - North",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "594236ed06385dac4957e773f74e01e2193671e594503e35253c8f24ff043570",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "900d6552e6250d12ad6d090300c48d216e3933b6c68958dcf42a992082de1e9c",
-  "summary_md_sha256": "558c6907debff272e5ace1184c12823ece114cb789d61c369c3bbe45ca68ce2e",
-  "approved_snapshot_sha256": "257bd1aa9dcdcdc409ac60fa65f6bff771584c12e8a14a2f2b0dbd098223d1a3",
-  "approved_rows": 1,
+  "review_date": "2026-11-02",
+  "review_fingerprint": "0e0223c2315f50bb8ce2cc06e018763e3a65ad10e6b42a252da559bb19bbb5ea",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "11cd85b20d03884516fe2da4925d9052fadb5acef3914d1104e09316e4a3e01b",
+  "summary_md_sha256": "b52df6e4434cebaf47eb75950ba54f3ffb805d13ad6277a30e9b10035d0920ae",
+  "approved_snapshot_sha256": "11acd6156728dbd111932c762d8393593110a27c1c694e8208f2633eb741a299",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-academy-receptionist-administrator-e-act-the-oldham-academy-north"
+    "teaching-vacancies-attendance-officer-star-radcliffe-academy",
+    "teaching-vacancies-receptionist-oulder-hill-leadership-academy-rochdale-lancashire"
   ]
 }

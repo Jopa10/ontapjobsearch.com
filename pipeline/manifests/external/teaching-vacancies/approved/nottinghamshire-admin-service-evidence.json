@@ -1,20 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:05+00:00",
+  "generated_at": "2026-11-02T21:33:02+00:00",
   "source": "Teaching Vacancies",
   "region": "Nottinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "f11fdd690d3a472bd519ab0df45ea9ed82a4f8d8687ebac88356b169a72a2110",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "4d72ca0b8d00861e992557007b7736974f07f08b067e7077521705a71a2d1550",
-  "summary_md_sha256": "4426e95326bea4c49bceed7220673e5ed4dbab75535ba565ab4025c33a0d3162",
-  "approved_snapshot_sha256": "587f0c453ce9c6597ed0dce5538789e0fd64078380ae7f44d38427e921ae2a7b",
+  "review_date": "2026-11-02",
+  "review_fingerprint": "c7249e2cc005e868ac8063487b932221c100314d9778ba4cebd19699aa5bf60d",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "0e09aee9d08f485e5811f81ab4b147a59ba98c710f8358b622c5757c3d4a655f",
+  "summary_md_sha256": "37ba2c804745773b40600ee3a5a213341d39956629988e8a3407465f29ce5d31",
+  "approved_snapshot_sha256": "e325a67d5600d8a89e8c35b3cc5a69f24d373c717ae2f9b9615737cbaa970ed4",
   "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire",
-    "teaching-vacancies-examinations-officer-the-south-wolds-academy-sixth-form",
-    "teaching-vacancies-finance-administrator-including-trips-and-visits"
+    "teaching-vacancies-finance-administrator-including-trips-and-visits",
+    "teaching-vacancies-administrative-assistant-netherfield-primary-school",
+    "teaching-vacancies-administrator-secondary-site"
   ]
 }

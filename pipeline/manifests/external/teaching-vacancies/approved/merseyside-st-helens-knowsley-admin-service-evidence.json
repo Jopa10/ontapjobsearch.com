@@ -1,18 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:04+00:00",
+  "generated_at": "2026-11-02T21:33:01+00:00",
   "source": "Teaching Vacancies",
   "region": "Merseyside - St Helens & Knowsley",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "b53665e37cc26867f0e4987a7ec81fd0fb08f1feecd3ab8c4c11cbe8042bf43d",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "018d3d4ece1a5a11f6536f31b21c236415b8c8b367e217558982bf062cc0f46c",
-  "summary_md_sha256": "412e4b5a9e015ec9fb1e6067c81e2240d553d8cc78d3a42644dd7fb4db72ccb1",
-  "approved_snapshot_sha256": "f079eed0e3f80f21532d32f457679b4f943a67ca8cc2c2d9c54f6bbcee3dfa62",
+  "review_date": "2026-11-02",
+  "review_fingerprint": "445b098c1cdae5824be3228d86c61b052614cc03499f7bbc5b9075ea990c3862",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "a94204c4c8775bda64135cb2894c3608d3fec9e0cc157c8b5f8b3bb061cb0561",
+  "summary_md_sha256": "52cab7767e2179ae595b6ac30f4c567c38ef987d6315939e4c0f6f1355be7fea",
+  "approved_snapshot_sha256": "1caf974ccb4ea2e9809558a6e355774fa57c4a5b32f4ba0eb96e17d49eb1ca98",
   "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-finance-assistant-the-sutton-academy-st-helens-merseyside"
+    "teaching-vacancies-sixth-form-admin-assistant-part-time-rainhill-high-school-prescot-merseyside"
   ]
 }

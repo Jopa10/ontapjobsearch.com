@@ -1,24 +1,26 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:05+00:00",
+  "generated_at": "2026-11-02T21:33:02+00:00",
   "source": "Teaching Vacancies",
   "region": "Northamptonshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "9a753ee04d8bd984330dff3208656c962aa6c067944a8ffbb579003ecd8d63c6",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "1280fa496246fb302b4af1381fa592ddfd62841b1b17617c5e5d199a8decca8e",
-  "summary_md_sha256": "9736cfdb6bd337d2453ef9250d8122a0d3c78e4473ece58429948f060d4278c6",
-  "approved_snapshot_sha256": "1ba4469516ec320d051c10446dd40278f80b1147cc0d2fe44def6c32b28a68e9",
-  "approved_rows": 7,
+  "review_date": "2026-11-02",
+  "review_fingerprint": "31ab500b2d9cf66d76f17382d2cf3bff753723e35f1adb79d7623dcc016c8305",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "a09c104bdc45bd4566bccaae1d49e8a0df8b94de4dc2c441d15bd03249816262",
+  "summary_md_sha256": "988201961aee05cc6014606ba9a859efb75f560bfb131c650edbfc36307c591f",
+  "approved_snapshot_sha256": "7933b347a3a60666809902aec29eabb64f97321e17bb939e969fce99d35c0082",
+  "approved_rows": 9,
   "approved_job_ids": [
-    "teaching-vacancies-finance-officer-bishop-stopford-school",
-    "teaching-vacancies-school-administrator-slt-support-st-thomas-becket-catholic-school-northampton-northamptonshire",
     "teaching-vacancies-content-creator-and-admin-assistant",
     "teaching-vacancies-technical-administrator",
     "teaching-vacancies-attendance-officer-northampton-school",
     "teaching-vacancies-school-receptionist-northampton-school",
-    "teaching-vacancies-administration-assistant-bishop-stopford-school-kettering-northamptonshire"
+    "teaching-vacancies-school-administrator-slt-support-9645b328-dee2-4ab7-bbe8-0cc977d058d8",
+    "teaching-vacancies-office-administrator-friars-academy",
+    "teaching-vacancies-academy-administrator-malcolm-arnold-academy",
+    "teaching-vacancies-administration-assistant-bishop-stopford-school-kettering-northamptonshire",
+    "teaching-vacancies-exams-officer-corby-business-academy-corby-northamptonshire"
   ]
 }

@@ -1,20 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:07+00:00",
+  "generated_at": "2026-11-02T21:33:04+00:00",
   "source": "Teaching Vacancies",
   "region": "Worcestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "3672f823a08593ca76c8102dba778c118aadf5ee28133219dc18c680461178f6",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "494331f90bb22a5e4eb39dfabb16e7add0df9bbfb366b205555b68a21b0b331c",
-  "summary_md_sha256": "ab3e5f695dd51dead18da8d4e23275b34f0adc73543702c0bb87b9d517b9c477",
-  "approved_snapshot_sha256": "ff8de8175dc9e68ec0ce28b52d9b21c14b18a2c7eca825c165d8e1a4017d048d",
-  "approved_rows": 3,
+  "review_date": "2026-11-02",
+  "review_fingerprint": "1601e721554c96dc1e22939fb49d3a9a48821b43933d5acd39d9af8fc763640d",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "dc3fe1a8fd9aade2fd3936629d84def160c9dacb9956fde9cd81006efed25539",
+  "summary_md_sha256": "6f7fcf10f41ce229ac77e0b535da0a662e7588593c70ddd8fc691c574e41dbc9",
+  "approved_snapshot_sha256": "e71032dddd0fb66b6741a85e2f5e018ca414040541c7c30134c6ad67fd0b1936",
+  "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-admin-assistant-salford-priors-cofe-academy",
-    "teaching-vacancies-operations-administrator-salford-priors-cofe-academy-evesham",
     "teaching-vacancies-administrative-finance-assistant-hollymount-school"
   ]
 }

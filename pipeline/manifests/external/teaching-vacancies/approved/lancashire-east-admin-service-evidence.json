@@ -1,16 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:03+00:00",
+  "generated_at": "2026-11-02T21:33:01+00:00",
   "source": "Teaching Vacancies",
   "region": "Lancashire - East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "cd10598f0a0678e1cae1614317d8468c5400bb3fb7bbcc643ff9191b3ac7e45d",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "faae02ea7610f1222ac117f3f08ad9aca84d00c2ee401c6f27b1cf655459266e",
-  "summary_md_sha256": "23856f639f626fdc15662414e554a2e3a447f3b4ce7a9d34e18b66e92fe61aae",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "review_date": "2026-11-02",
+  "review_fingerprint": "11527970f6c096977788647782ca6933bfe7a982abfd1ddcebcf61a6412582f4",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "4ddc0c023c784bae17712d12d5102c49eb1553d62c5d727d499b049f3a18dfed",
+  "summary_md_sha256": "337c04992e8eaa490459f972403962f1b6145296ac3d0c56a0c48a95a9b0ad6d",
+  "approved_snapshot_sha256": "58f2427bdbb0d947a5b640ad3a0ae981dee6288bf163832f5866424d4d593bd7",
+  "approved_rows": 1,
+  "approved_job_ids": [
+    "teaching-vacancies-business-support-officer-the-valley-leadership-academy"
+  ]
 }

@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Windmill Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Bridgnorth Endowed School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Radbrook Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -759,31 +750,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "108150020",
-    "title": "Administration Officer",
-    "company": "Brook Street - Agency - Permanent",
-    "location": "Shrewsbury",
-    "region": "Shropshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-11-02",
-    "description": "Administration Officer (Tribunal Court Clerk - SSCS)\nLocation: Shrewsbury (Shrewsbury Crown Court, Preston Street, Shrewsbury, Shropshire SY2 5 NX)\nOccasional travel required to Telford Justice Centre approx. 1-2 days per week when Shrewsbury has no sittings.\n\nLooking for a role where your organisation skills genuinely make a difference? Our Client is hiring an Administration Officer to serve as click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?EkTGaFxfSTVOch3uxIWSVf91E4MRo8bJg",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Brook Street",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225774898",
     "title": "Temporary to Permanent Administrator",
     "company": "Office Angels - Agency - Permanent",
@@ -1000,6 +966,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4510-26-0010",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

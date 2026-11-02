@@ -1,23 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:05+00:00",
+  "generated_at": "2026-11-02T21:33:02+00:00",
   "source": "Teaching Vacancies",
   "region": "Oxfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "56ee7e677a51a61a12c1dff8f5b574e2bb1cd3e52ccb0f7e401637998e69bd5b",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "672d4c967da2aa4989906c24de24d1d463ffd91a9d984b11e1cab510a3b94acf",
-  "summary_md_sha256": "44695419c9990e8f57d2816a456b51544280b3aeedc98e49301520f618cad4dd",
-  "approved_snapshot_sha256": "8054f73d9d4bd6337bcbecd3e448f63e2a2158fc8dcfc24587e85aa0bbb1bcae",
+  "review_date": "2026-11-02",
+  "review_fingerprint": "55ea607f11edfcba342cefa413b901aa10936238627e6e49b68a2d478cde4965",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "23e76d53c2afaccf12abaeea3a5e12efacad404240fbfa8c5ac9f003604b3367",
+  "summary_md_sha256": "7156b2f474de11634c83ca29e1bda313020e665b49f2622784040ae982aef659",
+  "approved_snapshot_sha256": "fc2599eba7b142cbe33f3178cfc8469c0e5f695114ea1996befe15806cf37f20",
   "approved_rows": 6,
   "approved_job_ids": [
-    "teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-school",
-    "teaching-vacancies-inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd",
     "teaching-vacancies-attendance-officer-d54c1efe-4fd8-4cc4-a0a6-62106b181556",
     "teaching-vacancies-procurement-administrator-hybrid-role-river-learning-trust",
     "teaching-vacancies-student-services-administrator-faringdon-community-college",
-    "teaching-vacancies-administrator-and-finance-assistant-rush-common-school"
+    "teaching-vacancies-administrator-and-finance-assistant-rush-common-school",
+    "teaching-vacancies-finance-officer-acer-trust-oxford-not-recorded",
+    "teaching-vacancies-finance-and-health-and-safety-admin-assistant"
   ]
 }

@@ -1,22 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:02+00:00",
+  "generated_at": "2026-11-02T21:33:00+00:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - Manchester & Salford",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "8669f925a8496f21669066c9dfd0dbc55894bd5e24f8b450ebed1d984f803a47",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "7f3ab0ec055b03f0076dcaab4af8ce6224c230971a8bdea84fef957a6c01f67e",
-  "summary_md_sha256": "1a7bca8fb6aef43cd6b17dec06f95a273feaf9627bb5500109a3969f9c5ebd17",
-  "approved_snapshot_sha256": "901edf55fa92e5faa935a66e1d5f792197f713ee9cd10217317714e6e4072634",
-  "approved_rows": 5,
+  "review_date": "2026-11-02",
+  "review_fingerprint": "9d68767adf69125d0ccf2e94f0b8839ced0d1043d3cadcab6ce29a2a273e880b",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "5856203c71bdcce02cfac39b4c2f49eb4b8e24f54ecf721555a5800e118ffa75",
+  "summary_md_sha256": "d947edd7efd9c93fea14244083fb3909386e70c97c7243204d28c20ca53fc747",
+  "approved_snapshot_sha256": "38a51f4d294b7337b9b08aa104833bd2445917eb96d8b5e357539e43dfae4bfd",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-office-admin-receptionist",
-    "teaching-vacancies-office-administrator-and-receptionist-salford-city-academy-manchester",
-    "teaching-vacancies-exams-officer-chorlton-high-school",
-    "teaching-vacancies-hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester",
+    "teaching-vacancies-administrative-assistant-piper-hill-high-school-manchester",
     "teaching-vacancies-administrative-assistant-the-deans-primary-school"
   ]
 }

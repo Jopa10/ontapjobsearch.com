@@ -13,18 +13,15 @@
     "salary_text": "£16,473.00 - £16,735.00 Annually (Actual) Actual salary based on 25 hours per week",
     "work_pattern": "",
     "posted_date": "2026-10-20",
-    "closing_date": "2026-11-03",
-    "closing_datetime": "2026-11-03T09:00:00+00:00",
+    "closing_date": "2026-11-10",
+    "closing_datetime": "2026-11-10T09:00:00+00:00",
     "summary": "Medical Office Assistant with Furze Platt Senior School in Maidenhead. ['part time']; £16,473.00 - £16,735.00 Annually (Actual) Actual salary based on 25 hours per week.",
-    "description": "Furze Platt Senior School is recruiting for this vacancy in Maidenhead.\n\nThe advertised position is Medical Office Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £16,473.00 - £16,735.00 Annually (Actual) Actual salary based on 25 hours per week.\n\nThe stated application deadline is 2026-11-03T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "description": "Furze Platt Senior School is recruiting for this vacancy in Maidenhead.\n\nThe advertised position is Medical Office Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £16,473.00 - £16,735.00 Annually (Actual) Actual salary based on 25 hours per week.\n\nThe stated application deadline is 2026-11-10T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
     "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/medical-office-assistant-furze-platt-senior-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Furze Platt Senior School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Forest Bridge School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "James Elliman Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -903,6 +894,31 @@
     "working_arrangement_text": "2 days from home / 3 days in office",
     "working_arrangement_evidence": "Payroll Specialist / Payroll Administrator Payroll Specialist / Payroll Administrator Contract: 6-month temporary contract initially Location: Theale Rate: £17.50-£19.00 per hour + holiday pay Working pattern: Hybrid - 3 days in the office and 2 days working from home Start date: Immediate The Opportunity: We are recruiting an experienced Payroll Specialist / Payroll Administrator to join a growing business on an initial 6-month temporary contract.",
     "advertiser_name": "Robert Half",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "2151353",
+    "title": "Accounts Assistant",
+    "company": "Wade Macdonald - Agency - Permanent",
+    "location": "Berkshire",
+    "region": "Berkshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "15",
+    "salary_max": "17",
+    "salary_text": "£15 - £17 per hour",
+    "posted_date": "2026-11-02",
+    "description": "Accounts Assistant - Temporary - £15 - £17 PH - Slough - Hybrid\n\nAbout the Client\n\nOur client is a well-established international organisation With a strong reputation and a collaborative working culture, they pride themselves on creating a supportive environment where teamwork, accountability and continuous improvement are encouraged.\n\nAbout the Job\n\nAn excellent opportunity has arisen for an experienced Accounts Assistant to join the finance team on a temporary basis. The primary focus of this assignment will be to help clear a backlog of accounting transactions, reconcile outstanding balances and ensure financial records are accurate and up to date.\n\nDuties will include:\n- Processing outstanding purchase invoices and resolving discrepancies.\n- Reconciling supplier statements and investigating aged balances.\n- Assisting with accounts payable and accounts receivable transactions.\n- Reviewing and clearing historic accounting entries and outstanding queries.\n- Performing bank and general ledger reconciliations.\n- Supporting the finance team with maintaining accurate and up-to-date records.\n- Liaising with internal departments and suppliers to resolve outstanding issues.\n- Assisting with general accounting administration and ad hoc finance tasks.\n\nAbout the Successful Applicant\n\nYou will have previous experience in an Accounts Assistant role and be confident using Excel and accounting systems, with the ability to investigate discrepancies and resolve outstanding queries efficiently\n\nWhat You Will Receive in Return\n\nThis temporary assignment offers the chance to make an immediate impact, take ownership of varied accounting tasks and gain valuable experience within a collaborative working environment.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbzks7PFvySoncVPUZANmdJCt",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Accounts Assistant Accounts Assistant - Temporary - £15 - £17 PH - Slough - Hybrid About the Client Our client is a well-established international organisation With a strong reputation and a collaborative working culture, they pride themselves on creating a supportive environment where teamwork, accountability and continuous improvement are encouraged.",
+    "advertiser_name": "Wade Macdonald",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
@@ -1875,6 +1891,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4161-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1894,6 +1913,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0890",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

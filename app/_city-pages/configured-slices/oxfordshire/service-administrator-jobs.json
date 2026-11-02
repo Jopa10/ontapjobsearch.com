@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd",
-    "title": "Inclusion Administrator",
-    "company": "Faringdon Community College",
-    "location": "Faringdon",
-    "region": "Oxfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£27,709.00 - £30,023.00 Annually (FTE) Support Staff NJC grade 6, SCP 8-13. 30 hours per week/38 weeks per year. Actual annual salary in the region of £18,837 to £20,410",
-    "work_pattern": "",
-    "posted_date": "2026-10-06",
-    "closing_date": "2026-11-02",
-    "closing_datetime": "2026-11-02T12:00:00+00:00",
-    "summary": "Inclusion Administrator with Faringdon Community College in Faringdon. ['part time']; £27,709.00 - £30,023.00 Annually (FTE) Support Staff NJC grade 6, SCP 8-13. 30 hours per week/38 weeks per year. Actual annual salary in the region of £18,837 to £20,410.",
-    "description": "Faringdon Community College is recruiting for this vacancy in Faringdon.\n\nThe advertised position is Inclusion Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £27,709.00 - £30,023.00 Annually (FTE) Support Staff NJC grade 6, SCP 8-13. 30 hours per week/38 weeks per year. Actual annual salary in the region of £18,837 to £20,410.\n\nThe stated application deadline is 2026-11-02T12:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Faringdon Community College",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-attendance-officer-d54c1efe-4fd8-4cc4-a0a6-62106b181556",
     "title": "Attendance Officer",
     "company": "Aureus School",
@@ -50,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Aureus School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "River Learning Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Faringdon Community College",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -134,9 +97,56 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Rush Common School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-finance-officer-acer-trust-oxford-not-recorded",
+    "title": "Finance Officer",
+    "company": "Acer Trust",
+    "location": "Oxford",
+    "region": "Oxfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£32,578.00 - £35,570.00 Annually (FTE)",
+    "work_pattern": "",
+    "posted_date": "2026-10-29",
+    "closing_date": "2026-11-16",
+    "closing_datetime": "2026-11-16T09:00:00+00:00",
+    "summary": "Finance Officer with Acer Trust in Oxford. ['full time']; £32,578.00 - £35,570.00 Annually (FTE).",
+    "description": "Acer Trust is recruiting for this vacancy in Oxford.\n\nThe advertised position is Finance Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £32,578.00 - £35,570.00 Annually (FTE).\n\nThe stated application deadline is 2026-11-16T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-trust-oxford-not-recorded?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-finance-and-health-and-safety-admin-assistant",
+    "title": "Finance and Health and Safety Admin Assistant",
+    "company": "Drayton Community Primary School",
+    "location": "Abingdon",
+    "region": "Oxfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,017.00 - £26,429.00 Annually (FTE)",
+    "work_pattern": "",
+    "posted_date": "2026-10-27",
+    "closing_date": "2027-01-08",
+    "closing_datetime": "2027-01-08T12:00:00+00:00",
+    "summary": "Finance and Health and Safety Admin Assistant with Drayton Community Primary School in Abingdon. ['part time']; £26,017.00 - £26,429.00 Annually (FTE).",
+    "description": "Drayton Community Primary School is recruiting for this vacancy in Abingdon.\n\nThe advertised position is Finance and Health and Safety Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,017.00 - £26,429.00 Annually (FTE).\n\nThe stated application deadline is 2027-01-08T12:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/finance-and-health-and-safety-admin-assistant?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -1415,6 +1425,28 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5701144",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "The Key Medical Practice",
+    "advertiser_name": "The Key Medical Practice",
+    "location": "Kidlington, OX5 1AP, KIDLINGTON, OX5 1LT",
+    "region": "Oxfordshire",
+    "salary": "£25000.00 to £26000.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-02T13:06:41.619319082",
+    "closing_date": "2026-11-13",
+    "description": "The Key Medical Practice sits at the heart of its community in Kidlington, providing accessible, high-quality primary care to the patients and families who depend on it. As part of PML's portfolio of practices, it benefits from the resources and governance of a wider federation while retaining the personal, continuity-focused care that defines good general practice. The team delivers the full breadth of primary care services, from routine appointments and chronic disease management to urgent care and preventative health, ensuring every patient receives safe, effective, and compassionate support. Working closely with operational managers and senior leadership, the team oversees patient care delivery, appointment coordination, clinical record management, and service performance monitoring. The practice ensures that all services remain aligned with NHS standards and regulatory requirements, while upholding a commitment to delivering accessible, patient-centred care to the Kidlington community. The post-holder provides reliable and routine administrative support to ensure the smooth daily operation of the service. This role is designed for individuals with little or no prior administrative experience but who demonstrate motivation to learn, develop and contribute to team efficiency. The role supports effective communication, accurate record-keeping, and the delivery of high-quality patient and service user care in line with organisational and NHS standards. Role Accountabilities Administrative & Operational Support Provide routine clerical and administrative support to ensure the effective running of theservice. Accurately complete basic administrative tasks such as filing, photocopying, scanning, anddata entry. Assist with the preparation of documents, reports, spreadsheets, and presentations underguidance from senior staff. Information Management Maintain accurate and well-organised records, documents, and filing systems. Ensure information is updated promptly and stored in accordance with organisational andNHS policies. Handle all data responsibly, ensuring confidentiality, accuracy, and compliance with dataprotection and governance standards. Communication and Coordination Provide courteous, professional, and timely responses to internal and external enquiries,including patients, callers, and colleagues. Support clear communication within the team by relaying messages, sharing informationappropriately, and maintaining effective channels of contact. Act as a helpful first point of contact for telephone calls, emails, and general enquiries. Confidentiality, Compliance & Governance Manage sensitive information appropriately, following confidentiality requirements, dataprotection regulations (e.g., GDPR), and NHS governance policies. Follow organisational procedures to maintain compliance and support safe, high-qualityservice delivery. Team Contribution & Professional Development Work collaboratively with colleagues, contributing to a positive, supportive team environment. Show willingness to learn, adapt to new administrative systems and tools, and develop skillsas required. Support the wider team to achieve service objectives efficiently, demonstrating reliability anda proactive approach to tasks.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1968-26-0016",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1968-26-0016",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5677546",
     "source": "NHS Jobs",
     "title": "Bank Administrator",
@@ -1431,6 +1463,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0582",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1450,6 +1485,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1981",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1469,6 +1507,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1979",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1488,6 +1529,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1874",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

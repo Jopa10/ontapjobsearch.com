@@ -22,9 +22,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Highfield St Matthew's Church of England Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-business-support-officer-30ebbcc4-4c53-4a32-b6d8-28daba6bbea5",
+    "title": "Business Support Officer",
+    "company": "The Olive School, Bolton",
+    "location": "Bolton",
+    "region": "Greater Manchester - Wigan & Bolton",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,847 to £27,274 per annum (pro-rata £23,524.11 to 23,898.26 per annum)",
+    "work_pattern": "",
+    "posted_date": "2026-10-29",
+    "closing_date": "2026-11-13",
+    "closing_datetime": "2026-11-13T23:59:00+00:00",
+    "summary": "Business Support Officer with The Olive School, Bolton in Bolton. ['part time']; £26,847 to £27,274 per annum (pro-rata £23,524.11 to 23,898.26 per annum).",
+    "description": "The Olive School, Bolton is recruiting for this vacancy in Bolton.\n\nThe advertised position is Business Support Officer.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,847 to £27,274 per annum (pro-rata £23,524.11 to 23,898.26 per annum).\n\nThe stated application deadline is 2026-11-13T23:59:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-30ebbcc4-4c53-4a32-b6d8-28daba6bbea5?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Firwood High School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Firwood High School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -155,6 +171,31 @@
     "advertiser_name": "Auto Skills UK",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "2151401",
+    "title": "Service Advisor",
+    "company": "Perfect Placement Uk Ltd - Agency - Permanent",
+    "location": "Bolton",
+    "region": "Greater Manchester - Wigan & Bolton",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,500 per year",
+    "posted_date": "2026-10-30",
+    "description": "We are seeking an experienced Service Advisor to join a reputable multi-franchise dealership located in Bolton.\n\nThe Service Advisor role is essential in delivering exceptional customer service and maintaining a seamless communication flow between clients and the workshop. This is an excellent opportunity for a dedicated Service Advisor aiming to develop their career within a well-established automotive business.\n\nBenefits:\n- Competitive basic salary between £25,500 and £28,000, depending on experience.\n- OTE up to £32,000 with uncapped bonus potential.\n- Excellent training and ongoing development opportunities.\n- Career advancement within a supportive and friendly team.\n- Company benefits and a positive working environment.\n\nDuties:\n- Act as the primary point of contact for customers, ensuring high levels of customer satisfaction.\n- Manage all paperwork related to vehicle servicing and repairs efficiently.\n- Keep customers informed about the status of their vehicles throughout the service process.\n- Handle payments and follow-up appointments promptly.\n- Maintain cleanliness and organisation within the service department.\n- Communicate effectively with workshop colleagues to ensure timely service delivery.\n- Uphold the dealership's professional standards at all times.\n\nRequirements:\n- Previous experience as a Service Advisor or in a similar customer-facing role within the motor trade.\n- Strong computer literacy and organisational skills.\n- Excellent communication and interpersonal skills.\n- A passion for delivering excellent customer service.\n- Ability to work under pressure and maintain high attention to detail.\n- Problem-solving skills and a professional approach.\n\nIf you are committed to delivering outstanding customer service and want to progress your career as a Service Advisor, this opportunity is ideal for you.\n\nContact Sam Tinkler, Automotive Recruitment Specialist at Perfect Placement covering Bolton and Greater Manchester, today to discover more about this fantastic Service Advisor opportunity.\n\nPerfect Placement are the UK's Leading Automotive Recruitment Agency so if you are looking for a Job get in touch today.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZKu25bqwGkpTusT1jREi3mk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Perfect Placement Uk Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -650,6 +691,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0403",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -669,6 +713,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0776-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

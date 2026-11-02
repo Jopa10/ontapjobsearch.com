@@ -1,19 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:03+00:00",
+  "generated_at": "2026-11-02T21:33:01+00:00",
   "source": "Teaching Vacancies",
   "region": "Kent",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "e88e2cccff7b2a71e3fb71931199573785286c82216e756e79f136e70be8b0e7",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "cd9a805390f801738a03c053dc563248f3535408c71b892fcf2ea88be4252b63",
-  "summary_md_sha256": "4ae154065f97efeaffe981b656816246a40d553ac70b8f24703d8685eabf5be0",
-  "approved_snapshot_sha256": "51c0a10b7d5fadc1b6eaa5320765619c880d77752fde978f149d5f7b52246e71",
+  "review_date": "2026-11-02",
+  "review_fingerprint": "6f279f3976a343317ce8385d256dfc8354ce3309ceca6e9a5dee1de7c6abde53",
+  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
+  "review_csv_sha256": "3cd3dbe83900c62834e969c58d6d11ea8328816cf356c51c41e778b65ccc4c90",
+  "summary_md_sha256": "3a6e65f93304008c9b70474d2790507a648cc5058f3b09f612c0abc9ae1fc7b8",
+  "approved_snapshot_sha256": "4bc9e92e9a3d8c3a80aaf73e5d970052f655396457d8e44ef8606393890d43e7",
   "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-examinations-admissions-officer-waterfront-utc",
+    "teaching-vacancies-administration-assistant-barnsole-primary-school",
     "teaching-vacancies-admissions-officer-stone-lodge-school"
   ]
 }
