@@ -212,56 +212,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225684711",
-    "title": "Planner Scheduler",
-    "company": "Nuco Solutions Ltd - Agency - Permanent",
-    "location": "Essex",
-    "region": "Essex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "18.5",
-    "salary_max": "18.5",
-    "salary_text": "£18.5 per hour",
-    "posted_date": "",
-    "description": "Location: Brentwood\nSalary: 18.50 per hour\nJob Type: Temporary to Permanent\nHours: 40 hours per week\nWorking Pattern: Office-based\n\nOur client, an established electrical services company based in Brentwood, is looking for an organised and proactive Planner / Scheduler to join their team. This is a temp-to-perm opportunity, offering the chance to secure a permanent position following a successful temporary period.\n\nRole and responsibilities\n- Planning and scheduling engineers' workloads\n- Coordinating appointments and allocating jobs\n- Liaising with engineers, customers and internal teams\n- Managing changes and rearranging appointments where required\n- Monitoring outstanding and ongoing jobs\n- Updating internal systems and maintaining accurate records\n- Ensuring engineers have the information required to complete their work\n- Providing general administrative and coordination support\n\nRequirements\n- Previous experience in planning, scheduling, coordination or administration\n- Previous experience in social housing\n- Excellent organisational and time-management skills\n- Strong communication and customer service skills\n- The ability to prioritise and manage multiple tasks\n- Good attention to detail\n- A confident and professional telephone manner\n- Good IT skills, including Microsoft Office\n\nPackage\n- 18.50 an hour\n- 40 hours a week\n- Permanent position available\n- Long term opportunity with established business\n- Immediate start available",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBanZOCQZ16S2TLhb1VFambok",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Nuco Solutions Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225685167",
-    "title": "Customer Service Advisor",
-    "company": "Nuco Solutions Ltd - Agency - Permanent",
-    "location": "Essex",
-    "region": "Essex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "15",
-    "salary_max": "15",
-    "salary_text": "£15 per hour",
-    "posted_date": "",
-    "description": "Location: Brentwood\nSalary: 15 per hour\nJob Type: Temporary to Permanent\nHours: 40 hours per week\nWorking Pattern: Office-based\n\nOur client, an established electrical services company based in Brentwood, is looking for a friendly, organised and customer-focused Customer Service Advisor to join their team. This is a temp-to-perm opportunity, offering the chance to secure a permanent position following a successful temporary period.\n\nRole and responsibilities\n- Answering incoming calls and responding to customer enquiries\n- Booking and arranging customer appointments\n- Liaising with engineers and internal teams\n- Updating customers on job progress and appointment times\n- Handling customer queries and resolving issues professionally\n- Taking accurate messages and ensuring information is passed to the relevant team\n- Updating internal systems and maintaining accurate customer records\n- Providing general administrative support where required\n\nRequirements\n- Previous customer service or administration experience\n- Excellent communication and interpersonal skills\n- A professional and friendly telephone manner\n- Good organisational skills and attention to detail\n- The ability to remain calm and professional in a busy environment\n- Good IT skills and confidence using computer systems\n- A proactive and positive approach to work\n\nPackage\n- 15 an hour\n- 40 hours a week\n- Permanent position available\n- Long term opportunity with established business\n- Immediate start available",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpwz8pFsjWREUPMA%2fNdL6s39e",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Nuco Solutions Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225694242",
     "title": "Underwriting Admin Assistant Chelmsford, Essex",
     "company": "Office Angels - Agency - Permanent",
@@ -2652,7 +2602,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2679",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2679",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5694999",
@@ -2670,7 +2624,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9395-26-0637",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9395-26-0637",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5694081",
@@ -2688,7 +2646,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0508-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0508-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5684142",
@@ -2706,7 +2668,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5679704",
@@ -2724,7 +2690,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0947",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0947",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5697213",
@@ -2742,7 +2712,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5923-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5923-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5687335",
@@ -2760,7 +2734,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5900-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5900-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672070",
@@ -2778,7 +2756,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0997",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0997",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5661188",
@@ -2796,6 +2778,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0894",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0894",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

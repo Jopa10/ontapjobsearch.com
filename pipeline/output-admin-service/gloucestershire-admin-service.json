@@ -1650,6 +1650,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108231464",
+    "title": "Land and Property Coordinator",
+    "company": "NFP People - Agency - Permanent",
+    "location": "Gloucestershire",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "35000",
+    "salary_text": "£35000 per year",
+    "posted_date": "",
+    "description": "Land and Property Coordinator\n\nWe are seeking an organised, proactive Land and Property Coordinator to support a rural estate portfolio and help an educational charity thrive.\n\nPosition: Land and Property Coordinator\nSalary: £32,000 to £35,000 per annum\nLocation: Quenington, Gloucestershire, GL7 5 BN\nHours: Full time, 35 hours per week\nClosing date: Wednesday 18 November 2026\nFirst interviews: Wednesday 2 D click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?wcSLro6HHF7sznoNlDapRkAJ3ZH9reX8m",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "NFP People",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5673959",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -1665,7 +1690,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0076",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0076",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5700673",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist / Care Navigator",
+    "company": "The Alney Practice",
+    "advertiser_name": "The Alney Practice",
+    "location": "Gloucester, GL2 0LS, Gloucester, GL2 8DH",
+    "region": "Gloucestershire",
+    "salary": "£13.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-02T12:05:37.769690592",
+    "closing_date": "2026-11-20",
+    "description": "We are looking for a Medical Receptionist to join our friendly team. The ideal candidate will be a great team player and have an upbeat attitude with a great sense of humour. We will be hiring for 2 roles and the shift pattern for these are as follows: Role 1: Monday 830am-130pm Tuesday 2pm-630pm Wednesday 830am-630pm Thursday 830am-630pm Role 2: Tuesday 830am-630pm Wednesday 830am-130pm Thursday 830am-130pm Friday 830am-130pm Previous Reception experience is desirable. Answering phones / queries Making / cancelling appointments for all clinicians Issuing prescriptions New registrations Giving results Scanning documents to patient notes Liaising between clinicians and patients General administration duties Actioning and monitoring the practice email. For a full list of duties, please refer to the attached Job description.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0226-26-0007",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0226-26-0007",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5681530",
@@ -1683,7 +1734,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0899",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0899",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5673215",
@@ -1701,6 +1756,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0883",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0883",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

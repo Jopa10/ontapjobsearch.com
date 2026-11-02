@@ -1500,31 +1500,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108055333",
-    "title": "Customer Service Assistant",
-    "company": "Compass UK & Ireland - Company - Permanent",
-    "location": "Leicestershire",
-    "region": "Leicestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "12.76",
-    "salary_max": "12.76",
-    "salary_text": "£12.76 per hour",
-    "posted_date": "",
-    "description": "Are you a team player with a passion for food and people? Do you thrive in a busy environment? If so, then we are looking for someone just like you to help us deliver exceptional customer experience for Defence on a part time basis, contracted to 20 hours per week.\nAs a Customer Services Assistant, you will contribute to a passionate and friendly team working in a fast-paced environment click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?BLJDB6rXdtNVI6hIw4sQLIKrxXWkduf4k",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Compass UK & Ireland",
-    "advertiser_type": "Company",
-    "work_pattern": "Part Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2212201",
     "title": "Residential Conveyancing Legal Assistant",
     "company": "Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent",
@@ -1915,6 +1890,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0489",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0489",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

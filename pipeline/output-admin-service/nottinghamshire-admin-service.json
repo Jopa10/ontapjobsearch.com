@@ -78,31 +78,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225686280",
-    "title": "Document Controller",
-    "company": "PSR Solutions - Agency - Permanent",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "40000",
-    "salary_text": "£30000 - £40000 per year",
-    "posted_date": "",
-    "description": "About The Contractor:\n\nThey are a leading Tier 1 Main Contractor with a strong presence across the UK, delivering high-profile projects across commercial, healthcare and education sectors. With a reputation for quality, innovation, and operational excellence, they continue to secure major schemes across the East Midlands. Due to ongoing growth, they are now seeking an experienced Document Controller to join their project team.\n\nDocument Controller Overview:\n\nAs a Document Controller, you will play a key role in supporting the project team by managing and maintaining all project documentation. You will ensure that drawings, technical submissions, and contractual documents are accurately controlled, distributed, and stored in line with company and client procedures. Your organisation and attention to detail will be essential to the smooth delivery of the project.\n\nDocument Controller Responsibilities:\n- Managing and maintaining the project document control system\n- Ensuring all drawings and documentation are correctly logged, tracked, and distributed\n- Controlling revisions and ensuring teams are working from the latest information\n- Liaising with subcontractors, consultants, and internal teams regarding documentation\n- Supporting the site and commercial teams with administrative document requirements\n- Maintaining accurate records in line with company and client protocols\n- Assisting with quality assurance documentation and handover packs\n- Ensuring compliance with internal procedures and project-specific requirements\n\nDocument Controller Requirements:\n- Previous experience as a Document Controller within the construction industry (essential)\n- Experience working for a Main Contractor, ideally Tier 1\n- Proficiency in document management systems (e.g. Viewpoint, Asite, Aconex or similar)\n- Strong organisational skills with excellent attention to detail\n- Confident communication skills and ability to work within a fast-paced project environment\n- Competent in Microsoft Office packages\n\nDocument Controller Benefits:\n- Competitive salary package\n- Opportunity to work on high-profile projects in the West Midlands\n- Long-term career progression with a leading Tier 1 Contractor\n- Supportive and professional team environment\n\nPlease apply today or get in touch with Joe Rowell at PSR Solutions.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpzEtbzEBQF6HkostcSgR3Nre",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "PSR Solutions",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225697357",
     "title": "Temporary NHS Receptionist",
     "company": "Elizabeth Michael Associates LTD - Agency - Temporary",
@@ -575,6 +550,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "2152386",
+    "title": "Credit Controller",
+    "company": "Astute Recruitment Ltd - Agency - Permanent",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Location: Nottingham City Centre (NG1)\n\nContract: Fixed-term, 6 - 9 months\n\nHours: Monday to Friday, 9:00 am - 5:00pm, with one-hour lunch break\n\nWorking arrangement: Fully onsite\n\nSalary: Up to £30,000\n\nAstute Recruitment is working with a professional services business in Nottingham City Centre to recruit an experienced Credit Controller on a 6 - 9 month fixed-term contract. This is an opportunity for someone with strong communication skills, a confident telephone manner and experience managing outstanding payments to join a busy team and help maintain effective credit control processes. Ideally, you'll be immediately available or on a short notice period.\n\nThe role:\n\nAs Credit Controller, your responsibilities will include:\n- Proactively chasing outstanding invoices and payments using a diary management system.\n- Contacting individual and business clients to confirm invoices have been received.\n- Issuing payment reminders by email and through the relevant online systems.\n- Taking payments over the telephone.\n- Liaising with internal colleagues to investigate and resolve account queries.\n- Following up outstanding queries to ensure timely resolution.\n- Using Microsoft Word and Excel to support day-to-day activities.\n\nAbout you:\n\nWe are looking for someone who has:\n- Previous credit control or debt collection experience.\n- Excellent communication skills and confidence speaking with customers over the telephone.\n- A professional and persistent approach to chasing outstanding payments.\n- Strong organisational skills and the ability to manage follow-ups effectively.\n- Good working knowledge of Microsoft Word and Excel.\n- The ability to work onsite in Nottingham City Centre, Monday to Friday.\n\nOther roles you may have applied for: Sales ledger Clerk, Billing Clerk, Credit Control Clerk, Credit Control Administrator, Accounts Receivable Clerk, Sales Ledger Administrator, Collections Advisor",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VLIVGpgKI1CJjho719R23waw",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Astute Recruitment Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -1393,7 +1393,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0108",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0108",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5695219",
@@ -1411,7 +1415,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0595",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0595",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5694852",
@@ -1429,7 +1437,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0107",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0107",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5693404",
@@ -1447,7 +1459,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0106",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0106",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5679412",
@@ -1465,7 +1481,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3069-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3069-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5684175",
@@ -1483,7 +1503,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672602",
@@ -1501,7 +1525,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0100",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0100",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5671545",
@@ -1519,7 +1547,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1902-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1902-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5694531",
@@ -1537,7 +1569,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5152-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5152-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5686384",
@@ -1555,7 +1591,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0510",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0510",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5673832",
@@ -1573,6 +1613,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3721-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3721-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

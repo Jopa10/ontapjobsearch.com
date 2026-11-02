@@ -909,6 +909,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2151353",
+    "title": "Accounts Assistant",
+    "company": "Wade Macdonald - Agency - Permanent",
+    "location": "Berkshire",
+    "region": "Berkshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "15",
+    "salary_max": "17",
+    "salary_text": "£15 - £17 per hour",
+    "posted_date": "",
+    "description": "Accounts Assistant - Temporary - £15 - £17 PH - Slough - Hybrid\n\nAbout the Client\n\nOur client is a well-established international organisation With a strong reputation and a collaborative working culture, they pride themselves on creating a supportive environment where teamwork, accountability and continuous improvement are encouraged.\n\nAbout the Job\n\nAn excellent opportunity has arisen for an experienced Accounts Assistant to join the finance team on a temporary basis. The primary focus of this assignment will be to help clear a backlog of accounting transactions, reconcile outstanding balances and ensure financial records are accurate and up to date.\n\nDuties will include:\n- Processing outstanding purchase invoices and resolving discrepancies.\n- Reconciling supplier statements and investigating aged balances.\n- Assisting with accounts payable and accounts receivable transactions.\n- Reviewing and clearing historic accounting entries and outstanding queries.\n- Performing bank and general ledger reconciliations.\n- Supporting the finance team with maintaining accurate and up-to-date records.\n- Liaising with internal departments and suppliers to resolve outstanding issues.\n- Assisting with general accounting administration and ad hoc finance tasks.\n\nAbout the Successful Applicant\n\nYou will have previous experience in an Accounts Assistant role and be confident using Excel and accounting systems, with the ability to investigate discrepancies and resolve outstanding queries efficiently\n\nWhat You Will Receive in Return\n\nThis temporary assignment offers the chance to make an immediate impact, take ownership of varied accounting tasks and gain valuable experience within a collaborative working environment.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbzks7PFvySoncVPUZANmdJCt",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Accounts Assistant Accounts Assistant - Temporary - £15 - £17 PH - Slough - Hybrid About the Client Our client is a well-established international organisation With a strong reputation and a collaborative working culture, they pride themselves on creating a supportive environment where teamwork, accountability and continuous improvement are encouraged.",
+    "advertiser_name": "Wade Macdonald",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225743606",
     "title": "Audit Administrator",
     "company": "Adecco - Agency - Permanent",
@@ -1874,7 +1899,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4161-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4161-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5692463",
@@ -1892,6 +1921,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0890",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0890",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
