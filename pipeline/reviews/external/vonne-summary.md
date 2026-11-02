@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-01
-review_fingerprint: e777c2cc71c87f912de9ee0b9d74c3d050dfea71473de40fd71570ed886e2180
+review_date: 2026-11-02
+review_fingerprint: 69196535884862556b76b42a5363ba8622ae2a74560fec03233b072f9e8633f4
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,29 +10,29 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-01T13:42:27+00:00
+Run generated: 2026-11-02T16:28:11+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 995
+JobG8 comparison rows: 1000
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 3
-- Detail pages fetched successfully: 3
+- Detail-page candidates: 1
+- Detail pages fetched successfully: 1
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 12
-- Tees Valley explicitly excluded: 0
+- Obvious hard passes not detail-fetched: 14
+- Tees Valley explicitly excluded: 1
 - Outside or unmapped geography excluded: 1
 - Generic/derived geography rows requiring review: 2
-- Retained target candidates: 14
+- Retained target candidates: 13
 
 ## Outcomes
 - HC: 0
-- POSS: 4
-- HARD_PASS: 10
+- POSS: 2
+- HARD_PASS: 11
 - Final selected after remembered/manual actions: 0
 - Final POSS awaiting decision: 1
-- Manually excluded: 3
+- Manually excluded: 1
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -57,19 +57,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173627
 ---
 ---
 action: exclude
-POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,439 Per Annum | Carer Support Coordinator
-employer: Durham County Carers Support
-closing_date: Friday, November 13, 2026 - 17:00
-geography: CONFIRMED — location: approved location fallback
-reason: provisional transferable-office review
-source: VONNE
-tracking_key: vonne-173457
-vacancy_fingerprint: 26158f8f4312bf2fbfa437f194700f9dc9f1c4216a3fd43891b81c9caf879132
-source_job_id: 173457
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173457
----
----
-action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Flexible | £29,503 Per Annum | Employment Support Advisor
 employer: North Tyneside Carers' Centre
 closing_date: 06 November 2026
@@ -80,19 +67,6 @@ tracking_key: vonne-173582
 vacancy_fingerprint: f1178a0e4cbcd10bc69ae022e8d3d130365fd73b4ee5b71246c4d3c40fbcaae6
 source_job_id: 173582
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173582
----
----
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,718 to 28,772 Per Annum | Student Communities Coordinator, Sunderland
-employer: University of Sunderland Students' Union
-closing_date: Sunday, November 1, 2026 - 23:59
-geography: CONFIRMED — location: approved location fallback
-reason: provisional transferable-office review
-source: VONNE
-tracking_key: vonne-173537
-vacancy_fingerprint: adcd4c9a8d25ee0199412663f63c1250fb2f70b87f2f50682cb00dc6660abcea
-source_job_id: 173537
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 ---
 ## EXCLUDED BY REVIEW
 
@@ -107,6 +81,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 - [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
 - [Family Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173625) — out-of-scope VONNE occupation.
 - [Grants Administration Officer (Small and Medium Grants)](https://www.vonne.org.uk/vonne-jobs-details?cid=173618) — insufficient service-admin evidence.
+- [Housing Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173636) — out-of-scope VONNE occupation.
 - [Income and Project Delivery Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173614) — insufficient service-admin evidence.
 - [Monitoring and Co-ordination Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173633) — out-of-scope VONNE occupation.
 - [Outreach Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173624) — out-of-scope VONNE occupation.
