@@ -10,6 +10,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 2 November 2026 — **Staged-test source fallback:** run `41499293820` was denied AWS role assumption from the feature branch before any database writes. The isolated test now saves one direct JobG8 snapshot through the existing supplier connection and reuses that exact ZIP/hash for all fractions. AWS permissions and production workflows remain unchanged.
+
 - 2 November 2026 — **Guarded staged raw-feed test prepared on feature branch:** a branch-only, request-file-triggered workflow reads one archived JobG8 ZIP and imports nested 20/50/100% subsets through Preview. Atomic batched imports retain original adverts and daily appearances; incomplete selector evidence is explicitly unknown, all jobs remain withheld, and expiry is disabled. Preflight storage and measured-growth gates stop above an 800 MiB test ceiling. No production schedule, supplier fetch or paid upgrade is added. See `database/shadow/README.md`.
 
 - 2 November 2026 — **Neon sample verified:** Preview build `dpl_ByCsyjqCviLDoQPyo4z8BB24vTwc` passed against `ontap-db-test`, persisting 20 jobs/adverts/appearances and 20 snapshot-evidence decisions. Replay, updates, gaps/returns and rollback checks passed; simulated changes were rolled back. Whole database measured 8,912,896 bytes. No production switch, paid upgrade or email send; full-feed ingestion and test website remain pending.

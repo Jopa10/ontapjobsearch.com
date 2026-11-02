@@ -5,7 +5,6 @@ on:
     paths: [database/shadow/stage-request.json]
 permissions:
   contents: read
-  id-token: write
 concurrency:
   group: ontap-neon-shadow-staged-test
   cancel-in-progress: false
@@ -24,17 +23,15 @@ jobs:
           node-version: '24'
       - name: Install pinned deployment CLI before exposing credentials
         run: npm install --global vercel@65.4.0 --ignore-scripts
-      - name: Read archived raw feed using the existing archive role
-        uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd
-        with:
-          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
-          aws-region: eu-west-2
-          role-session-name: OntapNeonShadowRead
-      - name: Download one immutable test snapshot
+      - name: Save one direct supplier snapshot for all test stages
+        env:
+          JOBG8_FEED_URL: ${{ secrets.JOBG8_FEED_URL }}
         run: |
           set -euo pipefail
-          archive_date=$(python -c "import json; from datetime import date; v=json.load(open('database/shadow/stage-request.json'))['archiveDate']; print(date.fromisoformat(v).isoformat())")
-          aws s3 cp "s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/${archive_date}.zip" "$RUNNER_TEMP/ontap-shadow-feed.zip" --only-show-errors
+          test -n "$JOBG8_FEED_URL"
+          curl --fail --silent --show-error --location \
+            --retry 3 --retry-delay 5 --connect-timeout 30 --max-time 180 \
+            "$JOBG8_FEED_URL" --output "$RUNNER_TEMP/ontap-shadow-feed.zip"
           test -s "$RUNNER_TEMP/ontap-shadow-feed.zip"
           sha256sum "$RUNNER_TEMP/ontap-shadow-feed.zip"
       - name: Run guarded 20%, 50%, 100% imports in Preview

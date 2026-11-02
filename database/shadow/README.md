@@ -230,3 +230,16 @@ checks exercise all three nested fractions, replay conflicts and preflight
 storage rejection before any records are written. Results must distinguish
 source receipt total, fraction imported, total stored adverts (including the
 previous 20 samples) and unknown selection evidence.
+
+### Source fallback after archive permission check
+
+Run `41499293820` stopped before downloading or writing data: the AWS role
+refused `sts:AssumeRoleWithWebIdentity` from the feature branch. AWS trust was
+not changed. The next attempt instead uses the existing `JOBG8_FEED_URL`
+repository secret to save **one direct supplier snapshot** into runner scratch,
+then uses the identical ZIP/hash for all three fractions. This is an isolated
+data fetch, not a production pipeline run or publisher dispatch. `archiveDate`
+in the request denotes the observation/snapshot date for this fallback; the
+source mode is explicit. No S3 archive is read, modified or pruned. The workflow
+no longer requests AWS/OIDC permission. No database records were added by the
+failed archive-access attempt.
