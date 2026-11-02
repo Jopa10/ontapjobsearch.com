@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 21
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 28
+- automatic include: 19
+- automatic review: 29
 - automatic exclude: 0
-- effective include: 21
-- effective review: 28
+- effective include: 19
+- effective review: 29
 - effective exclude: 0
 
-## INCLUDE (21)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Adaptable Recruitment - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2211823
-reason: Exact approved Stockport workplace.
----
+## INCLUDE (19)
 
 ---
 action: 
@@ -188,18 +176,6 @@ title: Payroll Coordinator
 company: CMR Jobs Limited - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-108088263
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Coordinator
-company: CMR Jobs Limited - Agency - Permanent
-location: Stockport
-source: JobG8
 job_id: jobg8-23643_225693186
 reason: Exact approved Stockport workplace.
 ---
@@ -276,7 +252,7 @@ job_id: jobg8-23643_225744140
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (29)
 
 ---
 action: 
@@ -510,6 +486,18 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: Shay Lane Medical Centre
+location: Altrincham, WA15 8NZ
+source: NHS Jobs
+job_id: nhs-5702373
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: Rogers McHugh Recruitment - Agency - Permanent
 location: Altrincham
@@ -527,6 +515,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-2165151
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Hyde PCN
+location: Hyde, SK14 2QT
+source: NHS Jobs
+job_id: nhs-5701647
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -599,18 +599,6 @@ company: Office Angels - Agency - Temporary
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225696497
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk - Maternity
-company: Tameside and Glossop Integrated Care NHS Foundation Trust
-location: Ashton Under Lyne, OL6 9RW
-source: NHS Jobs
-job_id: nhs-5692303
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

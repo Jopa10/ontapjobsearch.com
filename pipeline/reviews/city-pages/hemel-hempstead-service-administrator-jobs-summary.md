@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 100
+- automatic review: 98
 - automatic exclude: 0
 - effective include: 6
-- effective review: 100
+- effective review: 98
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225694409
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (100)
+## REVIEW (98)
 
 ---
 action: 
@@ -534,18 +534,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: customer service/administrator
-company: Platypus Recruitment - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225683492
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Services Executive
 company: Pickfords - Agency - Permanent
 location: Hertfordshire
@@ -611,18 +599,6 @@ company: PSR Solutions - Agency - Contract
 location: Watford
 source: JobG8
 job_id: jobg8-23643_225746866
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
-company: Recco - Agency - Permanent
-location: Hertford
-source: JobG8
-job_id: jobg8-23643_225686769
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1074,18 +1050,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist Bank
-company: Elysium Healthcare
-location: Hertfordshire, AL9 6NN
-source: NHS Jobs
-job_id: nhs-5646197
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Administrator
 company: Davall Gears Ltd - Agency - Contract
 location: Hertfordshire
@@ -1139,6 +1103,18 @@ company: Osborne Appointments - Agency - Temporary
 location: Stevenage
 source: JobG8
 job_id: jobg8-23643_225768265
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Executive
+company: Response Personnel - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2167616
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

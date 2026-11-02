@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 71
+- automatic review: 69
 - automatic exclude: 0
 - effective include: 7
-- effective review: 71
+- effective review: 69
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5675916
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (71)
+## REVIEW (69)
 
 ---
 action: 
@@ -347,18 +347,6 @@ company: Adecco - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225703254
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Linkster Recruitment - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225686777
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -863,18 +851,6 @@ company: Adullam Homes Housing Association - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225755252
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Direct Recruitment (Midlands) Ltd - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225417337
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

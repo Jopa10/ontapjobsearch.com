@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 11
 - automatic review: 18
 - automatic exclude: 17
-- effective include: 12
+- effective include: 11
 - effective review: 18
 - effective exclude: 17
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: Michael Page Finance - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2192281
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Persimmon Homes - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2211816
 reason: Approved York catchment.
 ---
 

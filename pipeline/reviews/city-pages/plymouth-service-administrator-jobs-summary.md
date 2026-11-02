@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 71
+- automatic include: 8
+- automatic review: 70
 - automatic exclude: 0
-- effective include: 7
-- effective review: 71
+- effective include: 8
+- effective review: 70
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: School Receptionist
+company: Stoke Damerel Community College
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-receptionist-stoke-damerel-community-college
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Student Funding Administrator (Maternity Cover)
 company: City College Plymouth
 location: Plymouth
@@ -108,7 +120,7 @@ job_id: teaching-vacancies-student-funding-administrator-maternity-cover
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (71)
+## REVIEW (70)
 
 ---
 action: 
@@ -167,18 +179,6 @@ company: Office Angels - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225764800
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107919719
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -622,7 +622,7 @@ title: Nursery Administrator
 company: Alphington Primary School
 location: Exeter
 source: Teaching Vacancies
-job_id: teaching-vacancies-nursery-administrator-alphington-primary-school-exeter-devon
+job_id: teaching-vacancies-nursery-administrator-31464adb-0c58-44e0-b86c-35e420fdd035
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -659,6 +659,18 @@ company: Contract Staffing Solutions Ltd - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225563886
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Administrator
+company: Woodbury Surgery
+location: Exeter, EX5 1NZ
+source: NHS Jobs
+job_id: nhs-5700141
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -719,18 +731,6 @@ company: Pertemps Plymouth - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225734510
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Elysium Healthcare
-location: Exeter, EX1 3PZ
-source: NHS Jobs
-job_id: nhs-5689527
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

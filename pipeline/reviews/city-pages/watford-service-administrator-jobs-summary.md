@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 101
+- automatic review: 99
 - automatic exclude: 0
 - effective include: 5
-- effective review: 101
+- effective review: 99
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225743675
 reason: Exact approved Watford workplace.
 ---
 
-## REVIEW (101)
+## REVIEW (99)
 
 ---
 action: 
@@ -522,18 +522,6 @@ reason: No approved Watford employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: customer service/administrator
-company: Platypus Recruitment - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225683492
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Services Executive
 company: Pickfords - Agency - Permanent
 location: Hertfordshire
@@ -587,18 +575,6 @@ company: Fawkes & Reece London - Agency - Permanent
 location: Hertford
 source: JobG8
 job_id: jobg8-23643_225687600
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
-company: Recco - Agency - Permanent
-location: Hertford
-source: JobG8
-job_id: jobg8-23643_225686769
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1074,18 +1050,6 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist Bank
-company: Elysium Healthcare
-location: Hertfordshire, AL9 6NN
-source: NHS Jobs
-job_id: nhs-5646197
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Administrator
 company: Davall Gears Ltd - Agency - Contract
 location: Hertfordshire
@@ -1128,6 +1092,18 @@ location: Stevenage
 source: JobG8
 job_id: jobg8-23643_225768265
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Executive
+company: Response Personnel - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2167616
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
 ---

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 32
 - automatic review: 13
-- automatic exclude: 36
+- automatic exclude: 35
 - effective include: 32
 - effective review: 13
-- effective exclude: 36
+- effective exclude: 35
 
 ## INCLUDE (32)
 
@@ -566,7 +566,7 @@ job_id: jobg8-2153824
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -601,18 +601,6 @@ company: Caval Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225704747
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: TSR Recruitment Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225685872
 reason: Separate employment market.
 ---
 
@@ -860,18 +848,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll Administrator
-company: SARIA - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225684316
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Payroll Assistant Interim
 company: Michael Page Finance - Agency - Permanent
 location: Doncaster
@@ -925,6 +901,18 @@ company: Willow Tree Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist / Care Navigator
+company: Thorne Moor Medical Practice
+location: Doncaster, DN8 4BQ, Doncaster, DN8 4SB
+source: NHS Jobs
+job_id: nhs-5699812
 reason: Separate employment market.
 ---
 

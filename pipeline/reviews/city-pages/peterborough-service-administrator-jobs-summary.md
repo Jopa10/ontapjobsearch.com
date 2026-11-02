@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
+- automatic include: 26
 - automatic review: 12
 - automatic exclude: 29
-- effective include: 25
+- effective include: 26
 - effective review: 12
 - effective exclude: 29
 
-## INCLUDE (25)
+## INCLUDE (26)
 
 ---
 action: 
@@ -232,6 +232,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist/Administrator
+company: Hampton College
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-hampton-college
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Executive
 company: Interaction Recruitment - Agency - Permanent
 location: Peterborough
@@ -378,6 +390,18 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Exams Officer
+company: Ernulf Academy
+location: St. Neots
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-b0378906-8f31-44c2-ae4e-74994a5303b2
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Ely
@@ -431,18 +455,6 @@ company: Interaction Recruitment - Agency - Permanent
 location: St. Ives
 source: JobG8
 job_id: jobg8-23643_225768922
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Office Assistant
-company: Sutton CofE VC Primary School
-location: Ely
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-office-assistant-sutton-cofe-vc-primary-school
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -716,6 +728,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Personal Assistant
+company: East of England Community Health and Care NHS Trust (Cambridge)
+location: St Ives, PE27 4LG
+source: NHS Jobs
+job_id: nhs-5701035
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: PR manager
 company: Kidney Research UK - Agency - Permanent
 location: Cambridgeshire
@@ -805,17 +829,5 @@ company: Eclectic Recruitment - Agency - Temporary
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225721995
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Clerk - Maternity
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0QQ
-source: NHS Jobs
-job_id: nhs-5691541
 reason: Separate employment market.
 ---

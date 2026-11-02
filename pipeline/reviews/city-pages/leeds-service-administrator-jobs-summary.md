@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 96
+- Effective included jobs: 95
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 96
+- automatic include: 95
 - automatic review: 44
 - automatic exclude: 67
-- effective include: 96
+- effective include: 95
 - effective review: 44
 - effective exclude: 67
 
-## INCLUDE (96)
+## INCLUDE (95)
 
 ---
 action: 
@@ -184,30 +184,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Bank Business Administrator
-company: Spire Healthcare - Company - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225684684
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bank Medical Records Administrator
-company: Spire Healthcare - Company - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225685033
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Bank Theatre Administrator
 company: Spire Healthcare - Company - Contract
 location: Leeds
@@ -285,18 +261,6 @@ company: South Queen Street Medical Centre
 location: Leeds, LS27 9EW
 source: NHS Jobs
 job_id: nhs-5686373
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Navigator/Receptionist
-company: Ireland Wood & Horsforth Medical Practice
-location: Leeds, LS16 6FR
-source: NHS Jobs
-job_id: nhs-5656950
 reason: Approved Leeds catchment.
 ---
 
@@ -393,18 +357,6 @@ company: Edwards & Pearce - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225701806
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Experience Advisor
-company: Michael Page - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225684006
 reason: Approved Leeds catchment.
 ---
 
@@ -736,11 +688,35 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Sales, Leeds
+company: ASD - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2151354
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal PA
 company: Lucy Walker Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225739622
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal PA
+company: Lucy Walker Recruitment Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2151404
 reason: Approved Leeds catchment.
 ---
 
@@ -976,18 +952,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: PPC Manager
-company: Axon Moore Group Ltd - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2181828
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Pr Manager
 company: Focus 5 Recruitment Ltd - Agency - Permanent
 location: Leeds
@@ -1156,6 +1120,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Social Media Account Manager
+company: Flat Fee Recruiter - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-108261924
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Technical Support Coordinator
 company: Blue Moon Recruitment - Agency - Permanent
 location: Leeds
@@ -1173,6 +1149,18 @@ company: Huntress - Leeds - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225773650
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary to Permanent Credit Controller
+company: Willow Recruit - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2152307
 reason: Approved Leeds catchment.
 ---
 
@@ -2312,18 +2300,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Trinity Medical Centre
-location: Wakefield, WF1 1PG
-source: NHS Jobs
-job_id: nhs-5686434
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist / Administrator
 company: Ossett Surgery
 location: Wakefield, WF5 8DF
@@ -2485,6 +2461,18 @@ company: Swedencare - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-2192918
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Student Information Desk Receptionist
+company: Outwood Grange Academy
+location: Wakefield
+source: Teaching Vacancies
+job_id: teaching-vacancies-student-information-desk-receptionist-outwood-grange-academy
 reason: Separate employment market.
 ---
 

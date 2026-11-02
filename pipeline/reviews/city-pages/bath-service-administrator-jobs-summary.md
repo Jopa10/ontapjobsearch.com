@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 81
+- automatic review: 78
 - automatic exclude: 0
 - effective include: 4
-- effective review: 81
+- effective review: 78
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-2188896
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (81)
+## REVIEW (78)
 
 ---
 action: 
@@ -462,18 +462,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Freight Co-Ordinator
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225685224
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Freight Coordinator
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
@@ -666,18 +654,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist / Administrator
-company: St Augustine’s Medical Practice
-location: Keynsham, BS31 2GN
-source: NHS Jobs
-job_id: nhs-5681497
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Motor Trade Service Advisor
 company: Tru Talent - Agency - Permanent
 location: Bristol
@@ -707,18 +683,6 @@ company: Bristol NHS Foundation Trust
 location: Bristol, BS2 8EG
 source: NHS Jobs
 job_id: nhs-5674929
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Outpatient receptionist
-company: Bristol NHS Foundation Trust
-location: Bristol, BS10 5NB
-source: NHS Jobs
-job_id: nhs-5695525
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -894,11 +858,11 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Sales Executive
-company: Travail Employment Group - Agency - Permanent
+title: Salesforce & Sales Pipeline Coordinator
+company: Adria Solutions - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225684677
+job_id: jobg8-108225065
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -910,7 +874,7 @@ title: Salesforce & Sales Pipeline Coordinator
 company: Adria Solutions - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-108225065
+job_id: jobg8-2167471
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 31
+- automatic review: 30
 - automatic exclude: 0
 - effective include: 4
-- effective review: 31
+- effective review: 30
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,19 +72,7 @@ job_id: nhs-5659638
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (31)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CY Executive Resourcing - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225686542
-reason: No exact Worcester workplace matched; local geographic review is required.
----
+## REVIEW (30)
 
 ---
 action: 

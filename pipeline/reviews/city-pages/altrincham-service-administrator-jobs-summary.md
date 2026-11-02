@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 32
+- automatic include: 18
+- automatic review: 30
 - automatic exclude: 0
-- effective include: 17
-- effective review: 32
+- effective include: 18
+- effective review: 30
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (18)
 
 ---
 action: 
@@ -172,6 +172,18 @@ reason: Exact approved Altrincham workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Shay Lane Medical Centre
+location: Altrincham, WA15 8NZ
+source: NHS Jobs
+job_id: nhs-5702373
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Administrator
 company: Rogers McHugh Recruitment - Agency - Permanent
 location: Altrincham
@@ -228,19 +240,7 @@ job_id: jobg8-23643_225715889
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (32)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Adaptable Recruitment - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2211823
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
+## REVIEW (30)
 
 ---
 action: 
@@ -478,18 +478,6 @@ title: Payroll Coordinator
 company: CMR Jobs Limited - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-108088263
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Coordinator
-company: CMR Jobs Limited - Agency - Permanent
-location: Stockport
-source: JobG8
 job_id: jobg8-23643_225693186
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
@@ -503,6 +491,18 @@ company: Square Peg Associates Ltd - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-2151902
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Hyde PCN
+location: Hyde, SK14 2QT
+source: NHS Jobs
+job_id: nhs-5701647
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -599,18 +599,6 @@ company: Office Angels - Agency - Temporary
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225696497
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk - Maternity
-company: Tameside and Glossop Integrated Care NHS Foundation Trust
-location: Ashton Under Lyne, OL6 9RW
-source: NHS Jobs
-job_id: nhs-5692303
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 143
+- automatic review: 139
 - automatic exclude: 0
 - effective include: 16
-- effective review: 143
+- effective review: 139
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: jobg8-2200411
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (143)
+## REVIEW (139)
 
 ---
 action: 
@@ -343,34 +343,10 @@ action:
 decision: review
 automatic_decision: review
 title: Admin Assistant
-company: Buckhurst Hill Community Primary School
-location: Buckhurst Hill
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-buckhurst-hill-community-primary-school
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
 company: Fisher Jones Greenwood - Agency - Temporary
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225780904
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
-company: Larchwood Primary School
-location: Brentwood
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-larchwood-primary-school
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -791,18 +767,6 @@ company: New Appointments Group - Agency - Temporary
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225777633
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Nuco Solutions Ltd - Agency - Permanent
-location: Brentwood
-source: JobG8
-job_id: jobg8-23643_225685167
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1475,18 +1439,6 @@ company: Portfolio Payroll - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2177345
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Planner Scheduler
-company: Nuco Solutions Ltd - Agency - Permanent
-location: Brentwood
-source: JobG8
-job_id: jobg8-23643_225684711
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

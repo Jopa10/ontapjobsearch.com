@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
+- automatic include: 30
 - automatic review: 7
 - automatic exclude: 5
-- effective include: 29
+- effective include: 30
 - effective review: 7
 - effective exclude: 5
 
-## INCLUDE (29)
+## INCLUDE (30)
 
 ---
 action: 
@@ -257,6 +257,18 @@ action:
 decision: include
 automatic_decision: include
 title: Medical Receptionist
+company: High Street Surgery
+location: Warrington, WA3 3GS
+source: NHS Jobs
+job_id: nhs-5699955
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
 company: The Surgery
 location: Warrington, WA1 3RB
 source: NHS Jobs
@@ -368,7 +380,7 @@ title: Ward Administrator
 company: Elysium Healthcare
 location: Warrington, WA2 8DB
 source: NHS Jobs
-job_id: nhs-5676409
+job_id: nhs-5700008
 reason: Approved conservative Warrington launch catchment.
 ---
 

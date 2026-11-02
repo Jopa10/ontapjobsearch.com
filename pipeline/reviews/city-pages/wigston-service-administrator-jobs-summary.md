@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 99
+- automatic review: 97
 - automatic exclude: 0
 - effective include: 0
-- effective review: 99
+- effective review: 97
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (99)
+## REVIEW (97)
 
 ---
 action: 
@@ -606,18 +606,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-108055333
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Data Entry Assistant
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Coalville
@@ -995,18 +983,6 @@ company: BTG Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2176340
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Michael Page - Agency - Temporary
-location: Coalville
-source: JobG8
-job_id: jobg8-23643_225684426
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

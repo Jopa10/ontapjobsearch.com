@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 92
+- automatic review: 91
 - automatic exclude: 32
 - effective include: 0
-- effective review: 92
+- effective review: 91
 - effective exclude: 32
 
 ## INCLUDE (0)
 
-## REVIEW (92)
+## REVIEW (91)
 
 ---
 action: 
@@ -203,18 +203,6 @@ company: Office Angels - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225705214
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: TC Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2171083
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -859,18 +847,6 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Elysium Healthcare
-location: Midhurst, West Sussex, GU29 9JP
-source: NHS Jobs
-job_id: nhs-5677524
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: Hamberley Care Management Limited - Company - Permanent
 location: Sussex
 source: JobG8
@@ -924,6 +900,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2214465
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Registry Administrator
+company: Plumpton College
+location: Lewes
+source: Teaching Vacancies
+job_id: teaching-vacancies-registry-administrator
+reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -1160,18 +1148,6 @@ reason: The stated workplace belongs outside the approved Horsham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Payable
-company: CMA Recruitment Group - Agency - Permanent
-location: Chichester
-source: JobG8
-job_id: jobg8-23643_225684878
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administration & Procurement (ICT) Support Officer
 company: The Recruitment Lab - Agency - Permanent
 location: Crawley
@@ -1201,18 +1177,6 @@ company: Olympus Recruitment - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-23643_225740875
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Claims Administrator
-company: Tate - Agency - Temporary
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225685620
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 
@@ -1297,6 +1261,18 @@ company: Skilled Careers - Agency - Permanent
 location: Worthing
 source: JobG8
 job_id: jobg8-23643_225716566
+reason: The stated workplace belongs outside the approved Horsham employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Exams Officer
+company: Cardinal Newman Catholic School
+location: Hove
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-cardinal-newman-catholic-school-hove-east-sussex
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 
@@ -1453,6 +1429,18 @@ company: Integrated Care 24 Ltd
 location: Brighton, BN1 7GF
 source: NHS Jobs
 job_id: nhs-5649373
+reason: The stated workplace belongs outside the approved Horsham employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist and Administrative Assistant
+company: Heron Park Primary Academy
+location: Eastbourne
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrative-assistant-heron-park-primary-academy
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 

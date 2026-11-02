@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 33
+- automatic review: 32
 - automatic exclude: 0
 - effective include: 23
-- effective review: 33
+- effective review: 32
 - effective exclude: 0
 
 ## INCLUDE (23)
@@ -300,7 +300,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (32)
 
 ---
 action: 
@@ -324,18 +324,6 @@ location: Chippenham
 source: JobG8
 job_id: jobg8-2204801
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Officer
-company: Brook Street - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-108188765
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -479,6 +467,18 @@ company: Modo CKD LTD - Agency - Permanent
 location: Warminster
 source: JobG8
 job_id: jobg8-23643_225770417
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Millstream Medical Centre
+location: Salisbury, SP5 5PA, SALISBURY, SP5 5EL
+source: NHS Jobs
+job_id: nhs-5688501
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -671,18 +671,6 @@ company: CMA Recruitment Group - Agency - Temporary
 location: Salisbury
 source: JobG8
 job_id: jobg8-23643_225785368
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Warranty Administrator
-company: Thrive Group - Agency - Permanent
-location: Trowbridge
-source: JobG8
-job_id: jobg8-108247912
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

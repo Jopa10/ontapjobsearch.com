@@ -4,7 +4,7 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 12
 - automatic review: 159
 - automatic exclude: 0
-- effective include: 14
+- effective include: 12
 - effective review: 159
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (12)
 
 ---
 action: 
@@ -165,30 +165,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225687519
-reason: Exact approved Portsmouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Residential Conveyancing Assistant - Post Completions
-company: Harwood Recruitment Solutions Ltd - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225684953
-reason: Exact approved Portsmouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: SEN Administrator
-company: St Edmund's Catholic School
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -455,6 +431,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO16 7AZ
 source: NHS Jobs
 job_id: nhs-5687091
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO40 8DX
+source: NHS Jobs
+job_id: nhs-5701836
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -990,18 +978,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Engineering Administrator
-company: Spire Healthcare - Company - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225686176
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Facilities Co-ordinator
 company: Office Angels - Agency - Permanent
 location: Basingstoke
@@ -1183,18 +1159,6 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
-company: Brook Street - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-108168783
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
 company: Howett Thorpe - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -1307,6 +1271,18 @@ company: South West Recruitment - Agency - Permanent
 location: New Milton
 source: JobG8
 job_id: jobg8-23643_225769849
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Invoicing Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-2151241
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1447,6 +1423,18 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Administrator
+company: Lordshill Health Centre
+location: Southampton, SO16 8HY
+source: NHS Jobs
+job_id: nhs-5700697
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Administrator
 company: Vine Medical Group
 location: Waterlooville, PO7 7AH
 source: NHS Jobs
@@ -1463,18 +1451,6 @@ company: Randstad Sourceright - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225710966
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: New Enquiries & Customer Administrator
-company: Office Angels - Agency - Permanent
-location: Basingstoke
-source: JobG8
-job_id: jobg8-23643_225686728
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -2034,11 +2010,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Coordinator
-company: Conquip Engineering Group - Agency - Permanent
-location: Alton
-source: JobG8
-job_id: jobg8-23643_225683522
+title: Team Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Winchester, SO23 7BT
+source: NHS Jobs
+job_id: nhs-5701516
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

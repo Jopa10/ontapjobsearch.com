@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 108
-- automatic exclude: 51
-- effective include: 14
-- effective review: 108
-- effective exclude: 51
+- automatic include: 17
+- automatic review: 105
+- automatic exclude: 49
+- effective include: 17
+- effective review: 105
+- effective exclude: 49
 
-## INCLUDE (14)
+## INCLUDE (17)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO16 4GX
 source: NHS Jobs
 job_id: nhs-5686999
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO40 8DX
+source: NHS Jobs
+job_id: nhs-5701836
 reason: Approved Southampton catchment.
 ---
 
@@ -148,6 +160,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Invoicing Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-2151241
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Laboratory Administrator / Archivist (Data Co-ordinator)
 company: DEKRA Organisational & Process Safety - Agency - Contract
 location: Southampton
@@ -165,6 +189,18 @@ company: Lawfront - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225688531
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Administrator
+company: Lordshill Health Centre
+location: Southampton, SO16 8HY
+source: NHS Jobs
+job_id: nhs-5700697
 reason: Approved Southampton catchment.
 ---
 
@@ -192,7 +228,7 @@ job_id: jobg8-23643_225719604
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (108)
+## REVIEW (105)
 
 ---
 action: 
@@ -666,18 +702,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Engineering Administrator
-company: Spire Healthcare - Company - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225686176
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Havant
@@ -827,18 +851,6 @@ company: Southampton Hospitals Charity - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2180225
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Brook Street - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-108168783
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1446,18 +1458,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Coordinator
-company: Conquip Engineering Group - Agency - Permanent
-location: Alton
-source: JobG8
-job_id: jobg8-23643_225683522
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Technical Service Desk Operator
 company: Amour Recruitment - Agency - Permanent
 location: Waterlooville
@@ -1490,7 +1490,7 @@ job_id: jobg8-23643_225708197
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (51)
+## EXCLUDE (49)
 
 ---
 action: 
@@ -1916,18 +1916,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: New Enquiries & Customer Administrator
-company: Office Angels - Agency - Permanent
-location: Basingstoke
-source: JobG8
-job_id: jobg8-23643_225686728
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Operation Coordinator
 company: Huntress - Agency - Permanent
 location: Portsmouth
@@ -2036,35 +2024,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Residential Conveyancing Assistant - Post Completions
-company: Harwood Recruitment Solutions Ltd - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225684953
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales Order Administrator
 company: CUBE Consulting - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225736919
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: SEN Administrator
-company: St Edmund's Catholic School
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
 reason: Separate employment market.
 ---
 
@@ -2089,6 +2053,18 @@ company: Hawkfield Recruitment Ltd - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-2175775
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Winchester, SO23 7BT
+source: NHS Jobs
+job_id: nhs-5701516
 reason: Separate employment market.
 ---
 

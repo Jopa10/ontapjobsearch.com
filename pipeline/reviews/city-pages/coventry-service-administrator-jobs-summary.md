@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 19
 - automatic review: 3
-- automatic exclude: 87
+- automatic exclude: 84
 - effective include: 19
 - effective review: 3
-- effective exclude: 87
+- effective exclude: 84
 
 ## INCLUDE (19)
 
@@ -148,18 +148,6 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Officer
-company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225684915
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchase Ledger
 company: SF Partners - Agency - Temporary
 location: Coventry
@@ -213,6 +201,18 @@ company: Sustainable Building Services - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225730944
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Finham Park 2
+location: Coventry
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-finham-park-2-coventry-west-midlands
 reason: Approved Coventry catchment.
 ---
 
@@ -290,7 +290,7 @@ job_id: jobg8-23643_225727031
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (87)
+## EXCLUDE (84)
 
 ---
 action: 
@@ -692,6 +692,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: ECHP Administrator
+company: Brooke School
+location: Rugby
+source: Teaching Vacancies
+job_id: teaching-vacancies-echp-administrator
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Employment Law Secretary or Paralegal
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Leamington Spa
@@ -805,18 +817,6 @@ company: Trinity House Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2211441
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Assistant
-company: Auctoro Recruitment - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_220696281
 reason: Separate employment market.
 ---
 
@@ -973,18 +973,6 @@ company: Provit Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225745042
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part time Bookkeeper
-company: Four Squared Recruitment Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225686816
 reason: Separate employment market.
 ---
 
@@ -1152,18 +1140,6 @@ title: Recruitment Account Coordinator (Driving)
 company: Winner Recruitment - Agency - Permanent
 location: Rugby
 source: JobG8
-job_id: jobg8-108261084
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Account Coordinator (Driving)
-company: Winner Recruitment - Agency - Permanent
-location: Rugby
-source: JobG8
 job_id: jobg8-23643_225780339
 reason: Separate employment market.
 ---
@@ -1237,18 +1213,6 @@ company: Rapid Access - Agency - Permanent
 location: Nuneaton
 source: JobG8
 job_id: jobg8-23643_225702726
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Marketing Manager
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225685303
 reason: Separate employment market.
 ---
 

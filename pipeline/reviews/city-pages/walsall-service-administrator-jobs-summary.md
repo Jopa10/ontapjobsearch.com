@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 13
 - automatic review: 52
 - automatic exclude: 0
-- effective include: 15
+- effective include: 13
 - effective review: 52
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (13)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: customs clearance coordinator
-company: HTE Recruitment - Agency - Permanent
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225684913
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Fleet Administrator
 company: BCS Group - Agency - Permanent
 location: Walsall
@@ -129,18 +117,6 @@ company: PSR Solutions - Agency - Temporary
 location: Walsall
 source: JobG8
 job_id: jobg8-23643_225714561
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Ledger
-company: Alma Personnel - Agency - Permanent
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_224517979
 reason: Exact approved Walsall workplace.
 ---
 
@@ -300,18 +276,6 @@ location: Wolverhampton
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-fallings-park-primary-school
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Pertemps Black Country Perms - Agency - Permanent
-location: Wednesbury
-source: JobG8
-job_id: jobg8-23643_225686287
-reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 
 ---
@@ -479,6 +443,18 @@ company: The Job People - Agency - Temporary
 location: Kingswinford
 source: JobG8
 job_id: jobg8-23643_225714396
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: GP Receptionist
+company: Tudor Medical Group
+location: Wolverhampton, WV100LS
+source: NHS Jobs
+job_id: nhs-5700366
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

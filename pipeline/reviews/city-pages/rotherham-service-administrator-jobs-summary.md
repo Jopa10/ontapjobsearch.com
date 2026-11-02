@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 73
+- automatic review: 72
 - automatic exclude: 0
 - effective include: 8
-- effective review: 73
+- effective review: 72
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5695575
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (72)
 
 ---
 action: 
@@ -251,18 +251,6 @@ company: Office Angels - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225741868
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: TSR Recruitment Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225685872
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -738,18 +726,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: SARIA - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225684316
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Assistant Interim
 company: Michael Page Finance - Agency - Permanent
 location: Doncaster
@@ -899,6 +875,18 @@ company: STEPS Rehabilitation
 location: Sheffield, S7 2QA
 source: NHS Jobs
 job_id: nhs-5686823
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist / Care Navigator
+company: Thorne Moor Medical Practice
+location: Doncaster, DN8 4BQ, Doncaster, DN8 4SB
+source: NHS Jobs
+job_id: nhs-5699812
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

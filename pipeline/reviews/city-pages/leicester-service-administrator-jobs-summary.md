@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 76
+- automatic review: 74
 - automatic exclude: 0
 - effective include: 23
-- effective review: 76
+- effective review: 74
 - effective exclude: 0
 
 ## INCLUDE (23)
@@ -300,7 +300,7 @@ job_id: jobg8-23643_225761866
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (76)
+## REVIEW (74)
 
 ---
 action: 
@@ -762,18 +762,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-108055333
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Data Entry Assistant
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Coalville
@@ -1055,18 +1043,6 @@ company: BTG Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2176340
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Michael Page - Agency - Temporary
-location: Coalville
-source: JobG8
-job_id: jobg8-23643_225684426
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

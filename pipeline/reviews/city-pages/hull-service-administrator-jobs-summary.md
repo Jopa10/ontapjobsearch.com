@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 18
 - automatic review: 17
 - automatic exclude: 0
-- effective include: 19
+- effective include: 18
 - effective review: 17
 - effective exclude: 0
 
-## INCLUDE (19)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Academy Administrator
-company: Endike Academy
-location: Hull
-source: Teaching Vacancies
-job_id: teaching-vacancies-academy-administrator-endike-academy
-reason: Approved conservative Hull launch catchment.
----
+## INCLUDE (18)
 
 ---
 action: 

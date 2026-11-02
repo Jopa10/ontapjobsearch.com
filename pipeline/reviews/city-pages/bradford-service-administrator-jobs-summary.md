@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 30
 - automatic review: 42
-- automatic exclude: 135
+- automatic exclude: 134
 - effective include: 30
 - effective review: 42
-- effective exclude: 135
+- effective exclude: 134
 
 ## INCLUDE (30)
 
@@ -890,7 +890,7 @@ job_id: jobg8-2204175
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (135)
+## EXCLUDE (134)
 
 ---
 action: 
@@ -1172,30 +1172,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Bank Business Administrator
-company: Spire Healthcare - Company - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225684684
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bank Medical Records Administrator
-company: Spire Healthcare - Company - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225685033
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Bank Theatre Administrator
 company: Spire Healthcare - Company - Contract
 location: Leeds
@@ -1285,18 +1261,6 @@ company: South Queen Street Medical Centre
 location: Leeds, LS27 9EW
 source: NHS Jobs
 job_id: nhs-5686373
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Navigator/Receptionist
-company: Ireland Wood & Horsforth Medical Practice
-location: Leeds, LS16 6FR
-source: NHS Jobs
-job_id: nhs-5656950
 reason: Separate employment market.
 ---
 
@@ -1417,18 +1381,6 @@ company: Reed - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-2164237
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Experience Advisor
-company: Michael Page - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225684006
 reason: Separate employment market.
 ---
 
@@ -1844,11 +1796,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Internal Sales, Leeds
+company: ASD - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2151354
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Legal PA
 company: Lucy Walker Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225739622
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal PA
+company: Lucy Walker Recruitment Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2151404
 reason: Separate employment market.
 ---
 
@@ -2180,18 +2156,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: PPC Manager
-company: Axon Moore Group Ltd - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2181828
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Pr Manager
 company: Focus 5 Recruitment Ltd - Agency - Permanent
 location: Leeds
@@ -2305,18 +2269,6 @@ company: Park Lane Academy
 location: Halifax
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-park-lane-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Trinity Medical Centre
-location: Wakefield, WF1 1PG
-source: NHS Jobs
-job_id: nhs-5686434
 reason: Separate employment market.
 ---
 
@@ -2468,6 +2420,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Social Media Account Manager
+company: Flat Fee Recruiter - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-108261924
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Student Information Desk Receptionist
+company: Outwood Grange Academy
+location: Wakefield
+source: Teaching Vacancies
+job_id: teaching-vacancies-student-information-desk-receptionist-outwood-grange-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Technical Support Coordinator
 company: Blue Moon Recruitment - Agency - Permanent
 location: Leeds
@@ -2497,6 +2473,18 @@ company: Huntress - Leeds - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225773650
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary to Permanent Credit Controller
+company: Willow Recruit - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2152307
 reason: Separate employment market.
 ---
 

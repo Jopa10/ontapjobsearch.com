@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 82
+- automatic review: 81
 - automatic exclude: 0
 - effective include: 8
-- effective review: 82
+- effective review: 81
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5676129
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (82)
+## REVIEW (81)
 
 ---
 action: 
@@ -426,18 +426,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Development Administrator
-company: Chesham Grammar School
-location: Chesham
-source: Teaching Vacancies
-job_id: teaching-vacancies-development-administrator
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Digital Marketing Specialist
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
@@ -539,18 +527,6 @@ company: Orion Electrotech - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225749883
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Human Resources Officer
-company: TLTP Education - Agency - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225686799
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -1103,6 +1079,18 @@ company: Osborne Appointments - Agency - Temporary
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225761685
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Youth Mentoring Coordinator
+company: YMCA South Midlands - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2169089
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

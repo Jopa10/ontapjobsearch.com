@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 13
 - automatic exclude: 58
-- effective include: 10
+- effective include: 9
 - effective review: 13
 - effective exclude: 58
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Caval Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225704747
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: TSR Recruitment Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225685872
 reason: Approved Barnsley catchment.
 ---
 
@@ -764,18 +752,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll Administrator
-company: SARIA - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225684316
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Payroll Assistant Interim
 company: Michael Page Finance - Agency - Permanent
 location: Doncaster
@@ -889,6 +865,18 @@ company: Willow Tree Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist / Care Navigator
+company: Thorne Moor Medical Practice
+location: Doncaster, DN8 4BQ, Doncaster, DN8 4SB
+source: NHS Jobs
+job_id: nhs-5699812
 reason: Separate employment market.
 ---
 

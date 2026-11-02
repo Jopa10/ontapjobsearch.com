@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 23
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 79
+- automatic include: 25
+- automatic review: 80
 - automatic exclude: 0
-- effective include: 23
-- effective review: 79
+- effective include: 25
+- effective review: 80
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (25)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Academy Administrator
+company: Malcolm Arnold Academy
+location: Northampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-academy-administrator-malcolm-arnold-academy
+reason: Exact approved Northampton workplace.
+---
 
 ---
 action: 
@@ -256,6 +268,18 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
+title: School Administrator - SLT Support
+company: St Thomas Becket Catholic School
+location: Northampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-slt-support-9645b328-dee2-4ab7-bbe8-0cc977d058d8
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Receptionist
 company: Northampton School
 location: Northampton
@@ -300,7 +324,7 @@ job_id: jobg8-23643_225761870
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (79)
+## REVIEW (80)
 
 ---
 action: 
@@ -606,6 +630,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: E-Commerce Warehouse Team Leader
+company: Insight Employment Ltd - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-108241880
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Engineering Sales Executive
 company: Travail Employment Group - Agency - Permanent
 location: Irchester
@@ -659,6 +695,18 @@ company: K2 Recruitment - Agency - Temporary
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225696885
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Exams Officer
+company: Corby Business Academy
+location: Corby
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-corby-business-academy-corby-northamptonshire
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -846,18 +894,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Jaguar Land Rover Service Front of House
-company: Sytner Group - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2161562
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Business Development Executive
 company: Commercial Recruitment - Agency - Permanent
 location: Corby
@@ -930,6 +966,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: Friars Academy
+location: Wellingborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-friars-academy
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Finance Assistant
 company: Adapro Talent Partners - Agency - Permanent
 location: Northamptonshire
@@ -947,18 +995,6 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2157176
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Telesales
-company: SolviT Recruitment Ltd - Agency - Temporary
-location: Daventry
-source: JobG8
-job_id: jobg8-23643_225685520
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -1079,6 +1115,18 @@ company: R&V Recruitment Ltd - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225448713
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales & Marketing Executive
+company: FindCore - Agency - Permanent
+location: Corby
+source: JobG8
+job_id: jobg8-2151277
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -1235,18 +1283,6 @@ company: Stafforce Recruitment - Agency - Permanent
 location: Daventry
 source: JobG8
 job_id: jobg8-23643_225735573
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Vehicle Warranty Coordinator
-company: MEM Recruitment - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-108245810
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

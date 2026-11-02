@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 23
+- automatic review: 22
 - automatic exclude: 13
 - effective include: 1
-- effective review: 23
+- effective review: 22
 - effective exclude: 13
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-23643_225761993
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (23)
+## REVIEW (22)
 
 ---
 action: 
@@ -263,18 +263,6 @@ company: First For Support - Agency - Temporary
 location: Tadley
 source: JobG8
 job_id: jobg8-23643_225781662
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker
-company: Avenues Group - Company - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-23643_225690684
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 

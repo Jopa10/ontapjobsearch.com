@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 108
-- automatic exclude: 61
+- automatic review: 105
+- automatic exclude: 62
 - effective include: 4
-- effective review: 108
-- effective exclude: 61
+- effective review: 105
+- effective exclude: 62
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225769802
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (108)
+## REVIEW (105)
 
 ---
 action: 
@@ -546,18 +546,6 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Engineering Administrator
-company: Spire Healthcare - Company - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225686176
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Havant
@@ -707,18 +695,6 @@ company: Southampton Hospitals Charity - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2180225
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Brook Street - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-108168783
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -1326,18 +1302,6 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Coordinator
-company: Conquip Engineering Group - Agency - Permanent
-location: Alton
-source: JobG8
-job_id: jobg8-23643_225683522
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Technical Service Desk Operator
 company: Amour Recruitment - Agency - Permanent
 location: Waterlooville
@@ -1370,7 +1334,7 @@ job_id: jobg8-23643_225708197
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (61)
+## EXCLUDE (62)
 
 ---
 action: 
@@ -1465,6 +1429,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO16 7AZ
 source: NHS Jobs
 job_id: nhs-5687091
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO40 8DX
+source: NHS Jobs
+job_id: nhs-5701836
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1844,6 +1820,18 @@ reason: The stated workplace belongs outside the approved Eastleigh employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Invoicing Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-2151241
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Laboratory Administrator / Archivist (Data Co-ordinator)
 company: DEKRA Organisational & Process Safety - Agency - Contract
 location: Southampton
@@ -1904,11 +1892,11 @@ reason: The stated workplace belongs outside the approved Eastleigh employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: New Enquiries & Customer Administrator
-company: Office Angels - Agency - Permanent
-location: Basingstoke
-source: JobG8
-job_id: jobg8-23643_225686728
+title: Medical Administrator
+company: Lordshill Health Centre
+location: Southampton, SO16 8HY
+source: NHS Jobs
+job_id: nhs-5700697
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -2024,35 +2012,11 @@ reason: The stated workplace belongs outside the approved Eastleigh employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Residential Conveyancing Assistant - Post Completions
-company: Harwood Recruitment Solutions Ltd - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225684953
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales Order Administrator
 company: CUBE Consulting - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225736919
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: SEN Administrator
-company: St Edmund's Catholic School
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -2077,6 +2041,18 @@ company: Hawkfield Recruitment Ltd - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-2175775
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Winchester, SO23 7BT
+source: NHS Jobs
+job_id: nhs-5701516
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

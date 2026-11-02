@@ -4,7 +4,7 @@
 - Live route: `/basingstoke/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 163
+- automatic include: 9
+- automatic review: 162
 - automatic exclude: 0
-- effective include: 10
-- effective review: 163
+- effective include: 9
+- effective review: 162
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Exact approved Basingstoke workplace.
 action: 
 decision: include
 automatic_decision: include
-title: New Enquiries & Customer Administrator
-company: Office Angels - Agency - Permanent
-location: Basingstoke
-source: JobG8
-job_id: jobg8-23643_225686728
-reason: Exact approved Basingstoke workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist/Administrator
 company: Operose Health
 location: Basingstoke, RG22 4EH
@@ -144,7 +132,7 @@ job_id: nhs-5676428
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (163)
+## REVIEW (162)
 
 ---
 action: 
@@ -419,6 +407,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO16 7AZ
 source: NHS Jobs
 job_id: nhs-5687091
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO40 8DX
+source: NHS Jobs
+job_id: nhs-5701836
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -978,18 +978,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Engineering Administrator
-company: Spire Healthcare - Company - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225686176
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Havant
@@ -1159,18 +1147,6 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
-company: Brook Street - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-108168783
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
 company: Howett Thorpe - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -1283,6 +1259,18 @@ company: South West Recruitment - Agency - Permanent
 location: New Milton
 source: JobG8
 job_id: jobg8-23643_225769849
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Invoicing Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-2151241
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1415,6 +1403,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2195132
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Administrator
+company: Lordshill Health Centre
+location: Southampton, SO16 8HY
+source: NHS Jobs
+job_id: nhs-5700697
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1782,18 +1782,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Residential Conveyancing Assistant - Post Completions
-company: Harwood Recruitment Solutions Ltd - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225684953
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Resourcer
 company: Find Recruitment Group LTD - Agency - Permanent
 location: Hampshire
@@ -1914,18 +1902,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: SEN Administrator
-company: St Edmund's Catholic School
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Admin - £28-£35k + Exciting progression opportunities
 company: Office Angels - Agency - Permanent
 location: Hampshire
@@ -2034,11 +2010,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Coordinator
-company: Conquip Engineering Group - Agency - Permanent
-location: Alton
-source: JobG8
-job_id: jobg8-23643_225683522
+title: Team Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Winchester, SO23 7BT
+source: NHS Jobs
+job_id: nhs-5701516
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

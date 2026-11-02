@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 133
+- Effective included jobs: 130
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 133
-- automatic review: 28
+- automatic include: 130
+- automatic review: 27
 - automatic exclude: 11
-- effective include: 133
-- effective review: 28
+- effective include: 130
+- effective review: 27
 - effective exclude: 11
 
-## INCLUDE (133)
+## INCLUDE (130)
 
 ---
 action: 
@@ -165,6 +165,18 @@ company: Office Angels - Agency - Contract
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225726169
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Piper Hill High School
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-piper-hill-high-school-manchester
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -509,18 +521,6 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
-company: Coburg Banks Limited - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225685153
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
 company: Contechs Consulting - Company - Contract
 location: Manchester
 source: JobG8
@@ -537,18 +537,6 @@ company: Forrest Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225715441
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Interaction Recruitment - Agency - Temporary
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225684454
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1132,18 +1120,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office and Facilities Manager
-company: Salford CVS - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2174237
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Manager
 company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Manchester
@@ -1480,18 +1456,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Coordinator
-company: Search Consultancy Ltd - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225686875
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Sales Coordinator
 company: Professional Technical Ltd - Agency - Permanent
 location: Manchester
@@ -1620,7 +1584,7 @@ job_id: jobg8-23643_225688135
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (28)
+## REVIEW (27)
 
 ---
 action: 
@@ -1631,18 +1595,6 @@ company: Recruitment Solutions (North West) Ltd - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2209694
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-2158659
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

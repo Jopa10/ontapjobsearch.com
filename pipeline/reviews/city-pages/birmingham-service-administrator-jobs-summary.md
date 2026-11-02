@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 109
+- Effective included jobs: 105
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 109
+- automatic include: 105
 - automatic review: 15
 - automatic exclude: 14
-- effective include: 109
+- effective include: 105
 - effective review: 15
 - effective exclude: 14
 
-## INCLUDE (109)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Coordinator
-company: Baltic Recruitment Services Ltd - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225685521
-reason: Approved conservative Birmingham launch catchment.
----
+## INCLUDE (105)
 
 ---
 action: 
@@ -57,18 +45,6 @@ company: Mitchell Adam - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2197696
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Brownmead Primary Academy
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-brownmead-primary-academy
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -129,18 +105,6 @@ company: Additional Resources - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225770910
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Rates Administrator / Property Tax Administrator
-company: Additional Resources Ltd - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2195114
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -357,6 +321,18 @@ company: Gi Group - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225773802
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Teleperformance Ltd - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2218802
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -808,18 +784,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Interim Purchase Ledger
-company: EA FIRST LTD - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2153214
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Internal Recruiter
 company: Ashley Kate HR & Finance - Agency - Permanent
 location: Birmingham
@@ -964,18 +928,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Assistant
-company: Affinity People - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225683390
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Manager
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Birmingham
@@ -1072,6 +1024,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger Clerk - 9 Month FTC
+company: AD Finance - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2150473
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchasing Assistant
 company: TMR Group Ltd - Agency - Permanent
 location: Birmingham
@@ -1161,18 +1125,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225778334
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: School Administrator
-company: Holy Name Catholic Primary School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-holy-name-catholic-primary-school
 reason: Approved conservative Birmingham launch catchment.
 ---
 

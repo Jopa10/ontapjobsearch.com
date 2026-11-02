@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 33
+- automatic include: 4
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 5
-- effective review: 33
+- effective include: 4
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: East of England Community Health and Care NHS Trust (Cambridge)
 location: Bedford, MK42 0AH
 source: NHS Jobs
 job_id: nhs-5694372
-reason: Exact approved Bedford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator/Customer Service
-company: Watton Recruitment Ltd - Agency - Temporary
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225685492
 reason: Exact approved Bedford workplace.
 ---
 
@@ -84,7 +72,7 @@ job_id: jobg8-23643_225761869
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (35)
 
 ---
 action: 
@@ -438,6 +426,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: School Office Administrator (Part time & Flexible working)
+company: St Christophers Academy
+location: Dunstable
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-office-administrator-part-time-flexible-working
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: SEN Inclusion Administrator
 company: Beechwood Primary School
 location: Luton
@@ -479,6 +479,18 @@ company: Matchtech - Agency - Contract
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225760744
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trust Finance Assistant
+company: St Thomas Catholic Academies Trust
+location: Luton
+source: Teaching Vacancies
+job_id: teaching-vacancies-trust-finance-assistant-st-thomas-catholic-academies-trust
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

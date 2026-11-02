@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 52
+- Effective included jobs: 50
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 52
+- automatic include: 50
 - automatic review: 6
 - automatic exclude: 0
-- effective include: 52
+- effective include: 50
 - effective review: 6
 - effective exclude: 0
 
-## INCLUDE (52)
+## INCLUDE (50)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: The Solution Auto - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225709284
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: The Beacon Church of England Primary School
-location: Liverpool
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-ab978b6d-c1dd-4b20-b920-253425188e5b
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -189,18 +177,6 @@ company: Reed - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-2169859
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller-6 Months FTC
-company: LJ Recruitment - Agency - Contract
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225684403
 reason: Approved conservative Liverpool launch catchment.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 24
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 66
+- automatic include: 25
+- automatic review: 64
 - automatic exclude: 0
-- effective include: 24
-- effective review: 66
+- effective include: 25
+- effective review: 64
 - effective exclude: 0
 
-## INCLUDE (24)
+## INCLUDE (25)
 
 ---
 action: 
@@ -312,7 +312,19 @@ job_id: jobg8-23643_225761685
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (66)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Youth Mentoring Coordinator
+company: YMCA South Midlands - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2169089
+reason: Exact approved Milton Keynes workplace.
+---
+
+## REVIEW (64)
 
 ---
 action: 
@@ -594,18 +606,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Development Administrator
-company: Chesham Grammar School
-location: Chesham
-source: Teaching Vacancies
-job_id: teaching-vacancies-development-administrator
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Digital Marketing Specialist
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
@@ -695,18 +695,6 @@ company: Orion Electrotech - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225749883
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Human Resources Officer
-company: TLTP Education - Agency - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225686799
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

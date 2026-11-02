@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 26
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
-- automatic review: 52
+- automatic include: 25
+- automatic review: 53
 - automatic exclude: 0
-- effective include: 26
-- effective review: 52
+- effective include: 25
+- effective review: 53
 - effective exclude: 0
 
-## INCLUDE (26)
+## INCLUDE (25)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Office Angels - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225764800
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107919719
 reason: Exact approved Exeter workplace.
 ---
 
@@ -224,7 +212,7 @@ title: Nursery Administrator
 company: Alphington Primary School
 location: Exeter
 source: Teaching Vacancies
-job_id: teaching-vacancies-nursery-administrator-alphington-primary-school-exeter-devon
+job_id: teaching-vacancies-nursery-administrator-31464adb-0c58-44e0-b86c-35e420fdd035
 reason: Exact approved Exeter workplace.
 ---
 
@@ -244,11 +232,11 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Elysium Healthcare
-location: Exeter, EX1 3PZ
+title: Patient Administrator
+company: Woodbury Surgery
+location: Exeter, EX5 1NZ
 source: NHS Jobs
-job_id: nhs-5689527
+job_id: nhs-5700141
 reason: Exact approved Exeter workplace.
 ---
 
@@ -336,7 +324,7 @@ job_id: jobg8-23643_225699564
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (53)
 
 ---
 action: 
@@ -839,6 +827,18 @@ company: The Supply Register - Agency - Temporary
 location: Plymouth
 source: JobG8
 job_id: jobg8-23643_225709414
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Receptionist
+company: Stoke Damerel Community College
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-receptionist-stoke-damerel-community-college
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

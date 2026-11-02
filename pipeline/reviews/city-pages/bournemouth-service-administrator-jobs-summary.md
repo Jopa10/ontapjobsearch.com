@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 50
+- automatic review: 51
 - automatic exclude: 0
 - effective include: 4
-- effective review: 50
+- effective review: 51
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225730020
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (50)
+## REVIEW (51)
 
 ---
 action: 
@@ -294,6 +294,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-108203744
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Digital Marketing Executive
 company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
@@ -474,18 +486,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Part time Office & HR Administrator
-company: Holt Engineering - Agency - Permanent
-location: Wimborne
-source: JobG8
-job_id: jobg8-23643_225684990
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: Ashley Rees Associates - Agency - Permanent
 location: Poole
@@ -534,18 +534,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225686145
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Clerk
 company: McGinnis Loy Associates Ltd - Agency - Permanent
 location: Poole
@@ -563,6 +551,18 @@ company: Sheridan Maine - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2152509
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Practice Administrator
+company: Christchurch Medical Practice
+location: Christchurch, BH23 3AF
+source: NHS Jobs
+job_id: nhs-5700886
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -635,6 +635,18 @@ company: Build Recruitment - Agency - Permanent
 location: Shaftesbury
 source: JobG8
 job_id: jobg8-23643_225774315
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: SEND Admin Assistant
+company: Ferndown Middle School
+location: Ferndown
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-admin-assistant-ferndown-middle-school
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

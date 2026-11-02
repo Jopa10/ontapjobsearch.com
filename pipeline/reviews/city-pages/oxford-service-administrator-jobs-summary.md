@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 35
-- automatic exclude: 37
-- effective include: 7
-- effective review: 35
-- effective exclude: 37
+- automatic include: 8
+- automatic review: 36
+- automatic exclude: 36
+- effective include: 8
+- effective review: 36
+- effective exclude: 36
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Thompson & Terry Recruitment - Agency - Permanent
 location: Oxford
 source: JobG8
 job_id: jobg8-23643_225645434
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Officer
+company: Acer Trust
+location: Oxford
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-officer-acer-trust-oxford-not-recorded
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -108,7 +120,7 @@ job_id: jobg8-23643_225746493
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (35)
+## REVIEW (36)
 
 ---
 action: 
@@ -131,6 +143,18 @@ company: Care UK - Company - Permanent
 location: Witney
 source: JobG8
 job_id: jobg8-108062084
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: The Key Medical Practice
+location: Kidlington, OX5 1AP, KIDLINGTON, OX5 1LT
+source: NHS Jobs
+job_id: nhs-5701144
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -234,6 +258,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance and Health and Safety Admin Assistant
+company: Drayton Community Primary School
+location: Abingdon
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-and-health-and-safety-admin-assistant
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant - Part-time
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Witney
@@ -251,18 +287,6 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Hook Norton
 source: JobG8
 job_id: jobg8-23643_225779812
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Inclusion Administrator
-company: Faringdon Community College
-location: Faringdon
-source: Teaching Vacancies
-job_id: teaching-vacancies-inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -530,7 +554,7 @@ job_id: jobg8-108158397
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -925,18 +949,6 @@ company: One Way Resourcing - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225701204
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Assistant
-company: Morson Edge - Agency - Contract
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225685536
 reason: Broad county location; not Oxford-city evidence.
 ---
 

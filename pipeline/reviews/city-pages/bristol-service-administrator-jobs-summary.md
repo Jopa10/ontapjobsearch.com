@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 69
+- Effective included jobs: 67
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 69
-- automatic review: 12
+- automatic include: 67
+- automatic review: 11
 - automatic exclude: 4
-- effective include: 69
-- effective review: 12
+- effective include: 67
+- effective review: 11
 - effective exclude: 4
 
-## INCLUDE (69)
+## INCLUDE (67)
 
 ---
 action: 
@@ -388,18 +388,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Freight Co-Ordinator
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225685224
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Freight Coordinator
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
@@ -537,18 +525,6 @@ company: Bristol NHS Foundation Trust
 location: Bristol, BS2 8EG
 source: NHS Jobs
 job_id: nhs-5674929
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Outpatient receptionist
-company: Bristol NHS Foundation Trust
-location: Bristol, BS10 5NB
-source: NHS Jobs
-job_id: nhs-5695525
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -712,11 +688,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Executive
-company: Travail Employment Group - Agency - Permanent
+title: Salesforce & Sales Pipeline Coordinator
+company: Adria Solutions - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225684677
+job_id: jobg8-108225065
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -728,7 +704,7 @@ title: Salesforce & Sales Pipeline Coordinator
 company: Adria Solutions - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-108225065
+job_id: jobg8-2167471
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -852,7 +828,7 @@ job_id: jobg8-23643_225686977
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -959,18 +935,6 @@ company: Armstrong Lloyd - Marketing Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-2155729
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist / Administrator
-company: St Augustine’s Medical Practice
-location: Keynsham, BS31 2GN
-source: NHS Jobs
-job_id: nhs-5681497
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

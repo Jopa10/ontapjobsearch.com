@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 92
+- automatic review: 91
 - automatic exclude: 22
 - effective include: 10
-- effective review: 92
+- effective review: 91
 - effective exclude: 22
 
 ## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Claims Administrator
-company: Tate - Agency - Temporary
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225685620
-reason: Approved Brighton & Hove catchment.
----
 
 ---
 action: 
@@ -57,6 +45,18 @@ company: Tradeline Recruitment - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225488297
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Exams Officer
+company: Cardinal Newman Catholic School
+location: Hove
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-cardinal-newman-catholic-school-hove-east-sussex
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -144,7 +144,7 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (92)
+## REVIEW (91)
 
 ---
 action: 
@@ -323,18 +323,6 @@ company: Office Angels - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225705214
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: TC Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2171083
 reason: Broad location; review before city inclusion.
 ---
 
@@ -979,18 +967,6 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Elysium Healthcare
-location: Midhurst, West Sussex, GU29 9JP
-source: NHS Jobs
-job_id: nhs-5677524
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: Hamberley Care Management Limited - Company - Permanent
 location: Sussex
 source: JobG8
@@ -1044,6 +1020,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2214465
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Registry Administrator
+company: Plumpton College
+location: Lewes
+source: Teaching Vacancies
+job_id: teaching-vacancies-registry-administrator
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -1280,18 +1268,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Payable
-company: CMA Recruitment Group - Agency - Permanent
-location: Chichester
-source: JobG8
-job_id: jobg8-23643_225684878
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administration & Procurement (ICT) Support Officer
 company: The Recruitment Lab - Agency - Permanent
 location: Crawley
@@ -1453,6 +1429,18 @@ company: Witterings Medical Centre
 location: Chichester, PO20 8BH
 source: NHS Jobs
 job_id: nhs-5691080
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist and Administrative Assistant
+company: Heron Park Primary Academy
+location: Eastbourne
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrative-assistant-heron-park-primary-academy
 reason: Separate employment market.
 ---
 

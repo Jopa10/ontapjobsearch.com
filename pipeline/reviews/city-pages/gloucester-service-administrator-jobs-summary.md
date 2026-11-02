@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 12
 - automatic review: 76
 - automatic exclude: 0
-- effective include: 11
+- effective include: 12
 - effective review: 76
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -81,6 +81,18 @@ company: Invest Solutions Limited - Agency - Permanent
 location: Gloucester
 source: JobG8
 job_id: jobg8-23643_224702654
+reason: Exact approved Gloucester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist / Care Navigator
+company: The Alney Practice
+location: Gloucester, GL2 0LS, Gloucester, GL2 8DH
+source: NHS Jobs
+job_id: nhs-5700673
 reason: Exact approved Gloucester workplace.
 ---
 
@@ -347,18 +359,6 @@ company: Autograph Specialist Recruitment - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225513570
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Development Account Manager - Energy & Ut
-company: Workforce Staffing Ltd - Agency - Permanent
-location: Cheltenham
-source: JobG8
-job_id: jobg8-23643_225684163
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -707,6 +707,18 @@ company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225705060
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Land and Property Coordinator
+company: NFP People - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-108231464
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

@@ -72,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "United Learning Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -398,6 +395,31 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "teaching-vacancies-receptionist-administrator-hampton-college",
+    "title": "Receptionist/Administrator",
+    "company": "Hampton College",
+    "location": "Peterborough",
+    "region": "Cambridgeshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,614.00 - £26,427.00 Annually (FTE) Actual Salary is £8,214 to £8,475 per annum",
+    "work_pattern": "",
+    "posted_date": "2026-10-27",
+    "closing_date": "2026-11-09",
+    "closing_datetime": "2026-11-09T09:00:00+00:00",
+    "summary": "Receptionist/Administrator with Hampton College in Peterborough. ['part time']; £25,614.00 - £26,427.00 Annually (FTE) Actual Salary is £8,214 to £8,475 per annum.",
+    "description": "Hampton College is recruiting for this vacancy in Peterborough.\n\nThe advertised position is Receptionist/Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,614.00 - £26,427.00 Annually (FTE) Actual Salary is £8,214 to £8,475 per annum.\n\nThe stated application deadline is 2026-11-09T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-hampton-college?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225762952",

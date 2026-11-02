@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 43
+- automatic review: 42
 - automatic exclude: 0
 - effective include: 4
-- effective review: 43
+- effective review: 42
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5690490
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (42)
 
 ---
 action: 
@@ -239,18 +239,6 @@ company: Michael Page Finance - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2192281
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Persimmon Homes - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2211816
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

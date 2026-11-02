@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 18
-- automatic exclude: 27
+- automatic exclude: 26
 - effective include: 2
 - effective review: 18
-- effective exclude: 27
+- effective exclude: 26
 
 ## INCLUDE (2)
 
@@ -266,7 +266,7 @@ job_id: jobg8-108059238
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -385,18 +385,6 @@ company: Michael Page Finance - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2192281
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: Persimmon Homes - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2211816
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

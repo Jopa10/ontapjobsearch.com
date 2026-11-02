@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 45
-- automatic review: 9
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 45
-- effective review: 9
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (45)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Coordinator
-company: Stafforce Recruitment - Agency - Temporary
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225684511
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
 
 ---
 action: 
@@ -81,6 +69,18 @@ company: Blusource Professional Services Ltd - Agency - Temporary
 location: Lincoln
 source: JobG8
 job_id: jobg8-23643_225728373
+reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant
+company: William Farr CofE Comprehensive School
+location: Lincoln
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-william-farr-cofe-comprehensive-school
 reason: Exact approved Lincoln workplace.
 ---
 
@@ -564,7 +564,7 @@ job_id: jobg8-23643_225722678
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (9)
+## REVIEW (11)
 
 ---
 action: 
@@ -588,6 +588,18 @@ location: Grimsby, DN33 2BA
 source: NHS Jobs
 job_id: nhs-5688703
 reason: The stated location is broader or less specific than the approved Lincoln employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Officer
+company: Waltham Toll Bar Academy
+location: Grimsby
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -635,6 +647,18 @@ company: Huntress - Maidstone - Agency - Temporary
 location: Boston
 source: JobG8
 job_id: jobg8-23643_225708777
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Operations/Administrator
+company: Healing Primary Academy
+location: Grimsby
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-operations-administrator-healing-primary-academy
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

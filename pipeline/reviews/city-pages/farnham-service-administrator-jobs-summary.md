@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 177
+- automatic review: 169
 - automatic exclude: 0
 - effective include: 4
-- effective review: 177
+- effective review: 169
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225775724
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (177)
+## REVIEW (169)
 
 ---
 action: 
@@ -455,18 +455,6 @@ company: Hello Recruitment Associates - Agency - Permanent
 location: Epsom
 source: JobG8
 job_id: jobg8-23643_225732668
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims Administrator
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Leatherhead
-source: JobG8
-job_id: jobg8-23643_225668391
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1074,18 +1062,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Junior Project Manager (Ecommerce / Retail) - Chertsey, UK
-company: Randstad Technologies Recruitment - Agency - Contract
-location: Chertsey
-source: JobG8
-job_id: jobg8-23643_225686460
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Technical Sales & Projects Coordinator
 company: TRS (Technical Recruitment Solutions) - Agency - Permanent
 location: Surrey
@@ -1126,18 +1102,6 @@ title: Legal Assistant
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2202846
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
 job_id: jobg8-23643_225713325
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
@@ -1151,18 +1115,6 @@ company: Office Angels - Agency - Permanent
 location: Guildford
 source: JobG8
 job_id: jobg8-23643_225721724
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal PA
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2202852
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1374,30 +1326,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal (Corporate & Commercial)
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2202853
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Paralegal (Lending)
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2202843
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Paralegal (Lending)
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
@@ -1414,7 +1342,7 @@ title: Paralegal (Property)
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2207025
+job_id: jobg8-23643_225779558
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -2171,30 +2099,6 @@ company: Venus Recruitment Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-2194943
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Young Carers Activities Coordinator (Primary Age)
-company: Action for Carers - Agency - Contract
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225706969
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Young Carers Activities Coordinator (Secondary Age)
-company: Action for Carers - Agency - Contract
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225706920
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

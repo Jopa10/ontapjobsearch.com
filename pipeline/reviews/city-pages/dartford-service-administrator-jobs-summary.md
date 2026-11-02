@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 117
+- automatic review: 113
 - automatic exclude: 36
 - effective include: 14
-- effective review: 117
+- effective review: 113
 - effective exclude: 36
 
 ## INCLUDE (14)
@@ -192,7 +192,7 @@ job_id: jobg8-23643_225310610
 reason: Exact approved Dartford workplace.
 ---
 
-## REVIEW (117)
+## REVIEW (113)
 
 ---
 action: 
@@ -702,18 +702,6 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
-title: Document Controller - Dungeness
-company: Aureos Group - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225684874
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: E-Commerce Exec / Manager
 company: 24-7 EMPLOYMENT SERVICES LTD - Agency - Permanent
 location: Kent
@@ -791,18 +779,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2203342
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance administrator ( Accounts assistant)
-company: DrPA Secure - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-108261564
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
@@ -1062,18 +1038,6 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
-title: Merchandising Co-ordinator
-company: Sysco GB - Company - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-21203_fae05b47-18e8-492b-884b-b02887edfba1
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Administrator
 company: Berry Recruitment - Agency - Permanent
 location: Kent
@@ -1103,18 +1067,6 @@ company: Michael Page - Agency - Temporary
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225744699
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Purchase Ledger Clerk (FTC)
-company: Cobb & Jones Recruitment Limited - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2165545
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
@@ -1664,11 +1616,11 @@ reason: The stated workplace belongs outside the approved Dartford employment ma
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: Agincare
-location: Chatham, ME5 7JZ
-source: NHS Jobs
-job_id: nhs-5698368
+title: Administration Assistant
+company: Barnsole Primary School
+location: Gillingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-barnsole-primary-school
 reason: The stated workplace belongs outside the approved Dartford employment market.
 ---
 

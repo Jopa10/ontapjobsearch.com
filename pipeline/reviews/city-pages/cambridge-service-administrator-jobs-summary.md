@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 13
-- automatic exclude: 30
-- effective include: 23
-- effective review: 13
-- effective exclude: 30
+- automatic include: 22
+- automatic review: 14
+- automatic exclude: 31
+- effective include: 22
+- effective review: 14
+- effective exclude: 31
 
-## INCLUDE (23)
+## INCLUDE (22)
 
 ---
 action: 
@@ -288,19 +288,7 @@ job_id: jobg8-23643_225721995
 reason: Approved conservative Cambridge launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk - Maternity
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0QQ
-source: NHS Jobs
-job_id: nhs-5691541
-reason: Approved conservative Cambridge launch catchment.
----
-
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -366,6 +354,18 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Exams Officer
+company: Ernulf Academy
+location: St. Neots
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-b0378906-8f31-44c2-ae4e-74994a5303b2
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Ely
@@ -414,11 +414,11 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support Administrator
-company: Interaction Recruitment - Agency - Permanent
-location: St. Ives
-source: JobG8
-job_id: jobg8-23643_225768922
+title: Personal Assistant
+company: East of England Community Health and Care NHS Trust (Cambridge)
+location: St Ives, PE27 4LG
+source: NHS Jobs
+job_id: nhs-5701035
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -426,11 +426,11 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: School Office Assistant
-company: Sutton CofE VC Primary School
-location: Ely
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-office-assistant-sutton-cofe-vc-primary-school
+title: Sales Support Administrator
+company: Interaction Recruitment - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225768922
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -458,7 +458,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -709,6 +709,18 @@ company: The Work Shop Resourcing Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225725165
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Administrator
+company: Hampton College
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-hampton-college
 reason: Separate employment market.
 ---
 

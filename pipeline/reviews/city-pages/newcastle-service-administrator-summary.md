@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 65
-- automatic exclude: 34
-- effective include: 23
-- effective review: 65
-- effective exclude: 34
+- automatic include: 21
+- automatic review: 64
+- automatic exclude: 35
+- effective include: 21
+- effective review: 64
+- effective exclude: 35
 
-## INCLUDE (23)
+## INCLUDE (21)
 
 ---
 action: 
@@ -93,30 +93,6 @@ company: Independent Utility Advice - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-23643_225708082
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bookkeeper / Office Administrator
-company: Pin Point Healthcare - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-23643_225686385
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Services Support Administrator
-company: Studio West
-location: Newcastle-upon-Tyne
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-services-support-administrator
 reason: Approved Newcastle catchment.
 ---
 
@@ -300,7 +276,7 @@ job_id: jobg8-23643_225729570
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (65)
+## REVIEW (64)
 
 ---
 action: 
@@ -323,18 +299,6 @@ company: MTrec Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2158034
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Additional Resources - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225684612
 reason: Broad location; review before city inclusion.
 ---
 
@@ -431,18 +395,6 @@ company: Adecco - Agency - Temporary
 location: Blyth
 source: JobG8
 job_id: jobg8-23643_225698362
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Makin Construction Careers Ltd - Agency - Contract
-location: Blyth
-source: JobG8
-job_id: jobg8-23643_225684373
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1002,6 +954,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: School Business Support Officer
+company: Morpeth Stobhillgate First School
+location: Morpeth
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-business-support-officer-4f666a22-4f7e-406a-a455-26990b223448
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Client Marketing Manager
 company: We Are Zenith - Agency - Permanent
 location: Northumberland
@@ -1082,7 +1046,7 @@ job_id: nhs-5682388
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -1129,6 +1093,18 @@ company: Lemon Drizzle Recruitment - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225771802
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Assistant (N4)
+company: Harry Watts Academy
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-n4
 reason: Separate employment market.
 ---
 

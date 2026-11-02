@@ -4,8 +4,8 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 119
+- automatic include: 4
+- automatic review: 116
 - automatic exclude: 0
-- effective include: 3
-- effective review: 119
+- effective include: 4
+- effective review: 116
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant (N4)
+company: Harry Watts Academy
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-n4
+reason: Exact approved Sunderland workplace.
+---
 
 ---
 action: 
@@ -60,7 +72,7 @@ job_id: nhs-5689557
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (119)
+## REVIEW (116)
 
 ---
 action: 
@@ -83,18 +95,6 @@ company: MTrec Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2158034
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Additional Resources - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225684612
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -331,18 +331,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Makin Construction Careers Ltd - Agency - Contract
-location: Blyth
-source: JobG8
-job_id: jobg8-23643_225684373
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Moorlands Surgery
 location: Darlington, DL3 9JP
 source: NHS Jobs
@@ -390,18 +378,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper / Office Administrator
-company: Pin Point Healthcare - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-23643_225686385
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Administrator
 company: Spire Healthcare - Company - Permanent
 location: Tyne And Wear
@@ -419,18 +395,6 @@ company: CKB Recruitment Ltd - Agency - Permanent
 location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225738247
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Services Support Administrator
-company: Studio West
-location: Newcastle-upon-Tyne
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-services-support-administrator
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1367,6 +1331,18 @@ company: RecruitedUK - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-23643_225439351
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Business Support Officer
+company: Morpeth Stobhillgate First School
+location: Morpeth
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-business-support-officer-4f666a22-4f7e-406a-a455-26990b223448
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

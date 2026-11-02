@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 7
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 7
-- effective review: 7
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-2101939
 reason: Exact approved Swansea workplace.
 ---
 
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -167,18 +167,6 @@ company: Acorn by Synergie - Agency - Contract
 location: Port Talbot
 source: JobG8
 job_id: jobg8-23643_225730717
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Planning Administrator
-company: Sigma Recruitment - Agency - Permanent
-location: Bridgend
-source: JobG8
-job_id: jobg8-23643_225684248
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 17
 - automatic review: 13
-- automatic exclude: 51
+- automatic exclude: 50
 - effective include: 17
 - effective review: 13
-- effective exclude: 51
+- effective exclude: 50
 
 ## INCLUDE (17)
 
@@ -172,18 +172,6 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Administrator
-company: SARIA - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225684316
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Assistant Interim
 company: Michael Page Finance - Agency - Permanent
 location: Doncaster
@@ -213,6 +201,18 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2204103
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist / Care Navigator
+company: Thorne Moor Medical Practice
+location: Doncaster, DN8 4BQ, Doncaster, DN8 4SB
+source: NHS Jobs
+job_id: nhs-5699812
 reason: Approved Doncaster catchment.
 ---
 
@@ -386,7 +386,7 @@ job_id: jobg8-2153824
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (51)
+## EXCLUDE (50)
 
 ---
 action: 
@@ -493,18 +493,6 @@ company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225743141
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: TSR Recruitment Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225685872
 reason: Separate employment market.
 ---
 
