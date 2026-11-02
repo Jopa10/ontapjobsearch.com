@@ -29,8 +29,8 @@ export async function attachSelection(client, fixture) {
   }
   const checksum=contentHash({report,decisions,sourceHashes});
   const before=await measure(client);
-  const projected=before.databaseBytes+Buffer.byteLength(JSON.stringify(decisions))*3+decisions.length*512;
-  assert.ok(projected<DEFAULT_BUDGET,'Selection storage preflight exceeds ceiling');
+  assert.ok(before.databaseBytes<DEFAULT_BUDGET,'Measured selection storage exceeds ceiling');
+  let projected;
   await client.query('BEGIN');
   try {
     await client.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:jobg8'))");
@@ -49,6 +49,9 @@ export async function attachSelection(client, fixture) {
       await client.query('COMMIT');
       return {replayed:true,before,after:await measure(client),decisionCount:count,checksum};
     }
+    const current=await measure(client);
+    projected=current.databaseBytes+Buffer.byteLength(JSON.stringify(decisions))*3+decisions.length*512;
+    assert.ok(projected<DEFAULT_BUDGET,'Selection storage preflight exceeds ceiling');
     for (let offset=0;offset<decisions.length;offset+=1000) {
       const rows=decisions.slice(offset,offset+1000).map(r=>({...r,id:stableId(`selection:${run.id}:${r.scope}:${r.ref}`)}));
       const inserted=await client.query(`INSERT INTO ontap_shadow.selection_decisions(id,advert_id,feed_run_id,scope,decision,reason,rules_revision,evidence)

@@ -385,3 +385,8 @@ supported temporary file URL, verify its separately supplied SHA-256, and run
 `verify-selection-neon.mjs`. This URL is never committed or printed. Only this
 later Preview build can attach decisions; the GitHub replay has no database
 credentials. Selection artifact extraction and decompression are bounded.
+
+A no-write replay verifies the existing full evidence before reserving storage;
+it does not project another copy of rows already stored. New attachments still
+pass both projected and measured storage checks. A PostgreSQL-backed regression
+test exercises replay when the reported database size is near the ceiling.

@@ -36,6 +36,15 @@ test('unknown, duplicate and wrong archive evidence rejected before database acc
 test('storage ceiling stops attachment before BEGIN or writes',async()=>{
  let calls=0;
  const client={async query(sql){calls++;if(sql.includes('pg_database_size'))return {rows:[{n:String(800*1024*1024)}]};if(sql.includes('pg_class'))return {rows:[]};throw new Error('Write reached');}};
- await assert.rejects(attachSelection(client,fixture()),/storage preflight exceeds ceiling/);
+ await assert.rejects(attachSelection(client,fixture()),/storage.*ceiling/);
  assert.equal(calls,2);
+});
+
+test('read-only replay does not reserve another full copy of selection storage',async()=>{
+ const db=new PGlite();try{
+ await db.exec(schema);await importStage(db,raw);await attachSelection(db,fixture());const before=await counts(db);
+ const nearLimit={async query(sql,args){if(sql.includes('pg_database_size'))return {rows:[{n:String(800*1024*1024-1024)}]};return db.query(sql,args);}};
+ assert.equal((await attachSelection(nearLimit,fixture())).replayed,true);
+ assert.deepEqual(await counts(db),before);
+ }finally{await db.close();}
 });
