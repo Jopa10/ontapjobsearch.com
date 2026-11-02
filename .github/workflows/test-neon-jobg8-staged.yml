@@ -21,8 +21,6 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '24'
-      - name: Install pinned deployment CLI before exposing credentials
-        run: npm install --global vercel@65.4.0 --ignore-scripts
       - name: Save one direct supplier snapshot for all test stages
         env:
           JOBG8_FEED_URL: ${{ secrets.JOBG8_FEED_URL }}
@@ -34,49 +32,16 @@ jobs:
             "$JOBG8_FEED_URL" --output "$RUNNER_TEMP/ontap-shadow-feed.zip"
           test -s "$RUNNER_TEMP/ontap-shadow-feed.zip"
           sha256sum "$RUNNER_TEMP/ontap-shadow-feed.zip"
-      - name: Run guarded 20%, 50%, 100% imports in Preview
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
-          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
-          AWS_ACCESS_KEY_ID: ''
-          AWS_SECRET_ACCESS_KEY: ''
-          AWS_SESSION_TOKEN: ''
+      - name: Prepare the bounded source fractions without database access
         run: |
           set -euo pipefail
-          test -n "$VERCEL_TOKEN"
-          test_root="$RUNNER_TEMP/ontap-neon-staged-preview"
-          mkdir -p "$test_root/.vercel" "$RUNNER_TEMP/neon-reports"
-          cp database/shadow/harness/{package.json,package-lock.json,importer.mjs,staged-importer.mjs,verify-stage-neon.mjs} "$test_root/"
-          python - "$test_root" <<'PY'
-          import json,sys
-          from pathlib import Path
-          root=Path(sys.argv[1])
-          (root/'.vercel/project.json').write_text(json.dumps({'orgId':'team_xjm8VOa1951ZXxawa7UFF2gd','projectId':'prj_sLI0SohbF03NrRFj6yZyuN8mOOZB'}))
-          (root/'vercel.json').write_text(json.dumps({'framework':None,'buildCommand':'node verify-stage-neon.mjs','installCommand':'npm ci --omit=dev --ignore-scripts','outputDirectory':'dist','headers':[{'source':'/(.*)','headers':[{'key':'X-Robots-Tag','value':'noindex, nofollow'}]}]}))
-          PY
+          mkdir -p "$RUNNER_TEMP/neon-reports"
           for percentage in 20 50 100; do
             python database/shadow/prepare_raw_stage.py \
               --archive "$RUNNER_TEMP/ontap-shadow-feed.zip" \
               --request database/shadow/stage-request.json \
-              --percentage "$percentage" --output "$test_root/stage.json.gz"
-            vercel deploy "$test_root" --yes --scope ontap1 --target=preview --archive=tgz > "$RUNNER_TEMP/neon-url.txt"
-            deployment_url=$(tail -n 1 "$RUNNER_TEMP/neon-url.txt")
-            case "$deployment_url" in https://*.vercel.app) ;; *) echo 'Invalid preview URL'; exit 1;; esac
-            vercel inspect "$deployment_url" --scope ontap1 --logs > "$RUNNER_TEMP/neon-build.log" 2>&1
-            python - "$RUNNER_TEMP/neon-build.log" "$RUNNER_TEMP/neon-reports/${percentage}.json" "$deployment_url" <<'PY'
-          import json,re,sys
-          from pathlib import Path
-          lines=Path(sys.argv[1]).read_text()
-          found=re.findall(r'ONTAP_STAGE_REPORT (\{[^\n]+\})',lines)
-          if not found: raise SystemExit('No successful database stage report found; do not advance')
-          report=json.loads(found[-1]);report['deploymentUrl']=sys.argv[3]
-          Path(sys.argv[2]).write_text(json.dumps(report,indent=2)+'\n')
-          print(json.dumps(report))
-          if not report['withinHeadroom']: raise SystemExit('Storage headroom gate stopped later stages')
-          PY
-            echo "### ${percentage}% stage passed" >> "$GITHUB_STEP_SUMMARY"
-            cat "$RUNNER_TEMP/neon-reports/${percentage}.json" >> "$GITHUB_STEP_SUMMARY"
+              --percentage "$percentage" \
+              --output "$RUNNER_TEMP/stage-${percentage}.json.gz" > "$RUNNER_TEMP/neon-reports/source-${percentage}.json"
           done
       - name: Preserve stage measurements only
         if: always()

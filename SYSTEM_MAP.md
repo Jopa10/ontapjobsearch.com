@@ -12,6 +12,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 2 November 2026 — **Staged test execution isolated from GitHub deployment credentials:** the saved source contains 43,798 rows, 43,797 unique IDs and one conflicting ID (two rows held), leaving 43,796 clean records. The repository CLI credential returned User not found before database access; the supported Vercel connector is used instead. The branch workflow now only prepares/preserves source snapshots and has no deployment token or database access. The connector-driven Preview bootstrap verifies the fixed source fingerprint; no AWS permissions or production credentials are changed.
+
 - 2 November 2026 — **Raw-feed duplicate handling isolated in the test adapter:** exact repeated supplier records collapse to one advert with receipt counts preserved; up to 15 conflicting supplier IDs are held aside with explicit IDs/counts. More conflicts stop this isolated source test for integrity review. The source ZIP is retained briefly as a retry artifact. No production selector or duplicate policy changes.
 
 - 2 November 2026 — **Staged-test source fallback:** run `41499293820` was denied AWS role assumption from the feature branch before any database writes. The isolated test now saves one direct JobG8 snapshot through the existing supplier connection and reuses that exact ZIP/hash for all fractions. AWS permissions and production workflows remain unchanged.

@@ -255,3 +255,24 @@ publication is not involved. Reports distinguish total received rows, unique IDs
 exact repeats, conflicting IDs held and clean unique records. Stage fractions
 apply to clean unique records. The source ZIP is retained for two days as a
 GitHub Actions artifact for reproducible retries, without any credentials.
+
+### Connector-driven staged execution
+
+Run `41500434597` saved source artifact `13168067903`, inner ZIP SHA-256
+`046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd`.
+It contains 43,798 source rows, 43,797 unique supplier IDs, zero identical repeats
+and one conflicting ID `1401786160` (two rows held), leaving 43,796 clean IDs.
+The repository Vercel CLI authentication returned User not found before database
+access. Its token was neither retrieved nor modified.
+
+The supported Vercel connector creates the test Preview builds instead.
+`harness/bootstrap-stage.mjs` downloads the preserved source artifact via a
+short-lived file URL, verifies the inner ZIP hash, prepares the requested slice
+and invokes the same staged importer. Temporary URLs are supplied only in the
+deployment source, never committed or logged; refresh them between stages.
+Only sanitized report output is deployed. No persistent database-write endpoint.
+
+The GitHub branch workflow is now **source preparation only**: it no longer
+installs a deployment CLI or receives the Vercel token. Its earlier failed runs
+added no raw-feed database records. The source workflow remains unscheduled and
+request-file-triggered; documentation/code updates alone do not rerun it.
