@@ -1195,9 +1195,9 @@
   ],
   "clearedInventoryFiles": 295,
   "scope": "Pinned JobG8 snapshot only; external source composition and ongoing ingestion not exercised",
-  "remoteDeploymentId": "dpl_62e4aDLetmk6RJMxrAGBnVd1n9pL",
-  "remoteDeploymentUrl": "https://ontapjobsearch-4k326czet-ontap1.vercel.app",
-  "remoteStatus": "retry running; rendering not yet verified",
+  "remoteDeploymentId": "dpl_7PjH6yDhdu2esqKB6B8w3BkE2hJV",
+  "remoteDeploymentUrl": "https://ontapjobsearch-j6131j2ml-ontap1.vercel.app",
+  "remoteStatus": "running; inspect this attempt before retrying",
   "localPreparationPassed": true,
   "failedAttempt": {
     "deploymentId": "dpl_2TntDxthA37CKoEhtzhGxiX6bDs7",
@@ -1206,5 +1206,11 @@
   "testsPassed": {
     "cityDerivation": 19,
     "activeCityPersistence": 2
-  }
+  },
+  "failedAttempts": [
+    {
+      "deploymentId": "dpl_62e4aDLetmk6RJMxrAGBnVd1n9pL",
+      "reason": "System Python rejects global pip install (PEP 668); fixed with private /tmp target"
+    }
+  ]
 }
