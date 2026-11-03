@@ -80,6 +80,10 @@ test('compact appearance manifests retain exact daily gaps/returns and compact d
   assert.equal((await attachCompactDisplay(db,id,outputs)).replayed,false);
   assert.equal((await attachCompactDisplay(db,id,outputs)).replayed,true);
   assert.deepEqual(await readCompactDisplay(db,id),outputs);
+  const {archiveCompactDisplay}=await import('./display-archive.mjs');const objects=new Map();
+  const archived=await archiveCompactDisplay(db,id,{async putIfAbsent(k,v){if(!objects.has(k))objects.set(k,v);},async get(k){return objects.get(k);}});
+  assert.equal(archived.readbackVerified,true);assert.deepEqual(await readCompactDisplay(db,id),outputs);
+
   const state=(await readCompactSelection(db,id)).state,packed=encodeCompactDisplay(outputs,state);
   assert.deepEqual(decodeCompactDisplay(packed,state),outputs);
   assert.throws(()=>decodeCompactDisplay({...packed,outputsSha256:'0'.repeat(64)},state),/Corrupt/);
