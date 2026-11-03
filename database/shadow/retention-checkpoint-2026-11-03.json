@@ -1,9 +1,14 @@
 {
-  "status": "started-not-yet-verified",
-  "implementationCommit": "ba7cd41ab6afb917b50616f5a2ea8f996f39dd91",
-  "deploymentId": "dpl_BTvUGduq8qNYcXHruf6r237bfkcr",
-  "url": "https://ontapjobsearch-5lbsytyl6-ontap1.vercel.app",
+  "status": "retry-started-not-yet-verified",
+  "implementationCommit": "d471eff9b0e939909062eea8f68a6ec6cbc66409",
+  "deploymentId": "dpl_CpW9YzU2p8Y2foqopoVBKbLtowAV",
+  "url": "https://ontapjobsearch-jndzj7v1r-ontap1.vercel.app",
   "databaseReadOnly": true,
   "noImportOrCleanup": true,
-  "resume": "Inspect this deployment and retrieve report.json; do not start duplicate audit."
+  "previousAttempt": {
+    "deploymentId": "dpl_BTvUGduq8qNYcXHruf6r237bfkcr",
+    "auditCompleted": true,
+    "packagingFailed": "Inherited Next.js detection expected routes-manifest; aggregate log truncated. Retry uses only existing harness dependencies/script and explicit static vercel.json."
+  },
+  "resume": "Inspect exact deployment and retrieve report.json; do not start duplicate."
 }
