@@ -1195,8 +1195,16 @@
   ],
   "clearedInventoryFiles": 295,
   "scope": "Pinned JobG8 snapshot only; external source composition and ongoing ingestion not exercised",
-  "remoteDeploymentId": "dpl_2TntDxthA37CKoEhtzhGxiX6bDs7",
-  "remoteDeploymentUrl": "https://ontapjobsearch-cqpbodnnm-ontap1.vercel.app",
-  "remoteStatus": "started; not yet verified",
-  "localPreparationPassed": true
+  "remoteDeploymentId": "dpl_62e4aDLetmk6RJMxrAGBnVd1n9pL",
+  "remoteDeploymentUrl": "https://ontapjobsearch-4k326czet-ontap1.vercel.app",
+  "remoteStatus": "retry running; rendering not yet verified",
+  "localPreparationPassed": true,
+  "failedAttempt": {
+    "deploymentId": "dpl_2TntDxthA37CKoEhtzhGxiX6bDs7",
+    "reason": "Missing openpyxl in Vercel build; no database writes"
+  },
+  "testsPassed": {
+    "cityDerivation": 19,
+    "activeCityPersistence": 2
+  }
 }
