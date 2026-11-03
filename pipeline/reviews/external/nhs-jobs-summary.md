@@ -2,11 +2,11 @@
 
 review_date: 2026-11-03
 
-- Open Administrative & Clerical rows reviewed: 1904
-- Auto/remembered selected: 347
-- Selected HC Tier A: 183
+- Open Administrative & Clerical rows reviewed: 1903
+- Auto/remembered selected: 348
+- Selected HC Tier A: 184
 - Selected HC Tier B: 164
-- POSS awaiting decision: 1473
+- POSS awaiting decision: 1471
 - Excluded: 0
 - HARD_PASS: 84
 
@@ -6986,18 +6986,6 @@ factual_fingerprint: b042194d4f0a9ddb5c7367189f1b3cd73ce02e9137acf2862425a43bbf4
 
 ---
 action:
-POSS | NHS Jobs | London | London, N19 5NF | £38488.00 to £46852.00 | Foundation School Co-ordinator and Study Leave Co-ordinator
-source_job_id: 5691368
-title: Foundation School Co-ordinator and Study Leave Co-ordinator
-employer: Whittington Hospital NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9220-26-0739
-factual_fingerprint: 6a4d9916c8dd46b3de988b1be2c121a3442b58093680eff3f44f8fcee5da6b84
----
-
----
-action:
 POSS | NHS Jobs | North Wales - East | Wrexham, LL13 7TD | £32557.00 to £39631.00 | Assistant Specialty Manager
 source_job_id: 5693444
 title: Assistant Specialty Manager
@@ -7090,18 +7078,6 @@ region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2799-26-0006
 factual_fingerprint: 55a73d846fea09a2f6dc9b574c13646c7d5b74bc1119ce18a05fab0381145f86
----
-
----
-action:
-POSS | NHS Jobs | Wiltshire | Salisbury, SP2 8BJ | £66582.00 to £77368.00 | Service Manager Cancer
-source_job_id: 5693074
-title: Service Manager Cancer
-employer: Salisbury NHS Foundation Trust
-region: Wiltshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0409
-factual_fingerprint: e90c44b92b4c5c57ce7ce3c66a7d00e4438bd797edaeaa866c3bc79730b558e7
 ---
 
 ---
