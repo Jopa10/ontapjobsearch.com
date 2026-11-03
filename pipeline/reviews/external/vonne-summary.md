@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-02
-review_fingerprint: 69196535884862556b76b42a5363ba8622ae2a74560fec03233b072f9e8633f4
+review_date: 2026-11-03
+review_fingerprint: d78b92b903648948d04b5ae15f185212c834729fb50ee285f519ee976881c71b
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-02T16:28:11+00:00
+Run generated: 2026-11-03T14:34:11+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1000
+JobG8 comparison rows: 1090
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -22,14 +22,14 @@ Approved NEJobs comparison rows: 0
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 14
 - Tees Valley explicitly excluded: 1
-- Outside or unmapped geography excluded: 1
+- Outside or unmapped geography excluded: 2
 - Generic/derived geography rows requiring review: 2
-- Retained target candidates: 13
+- Retained target candidates: 12
 
 ## Outcomes
 - HC: 0
 - POSS: 2
-- HARD_PASS: 11
+- HARD_PASS: 10
 - Final selected after remembered/manual actions: 0
 - Final POSS awaiting decision: 1
 - Manually excluded: 1
@@ -75,7 +75,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173582
 ## HARD_PASS
 
 - [Access to Work Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173559) — out-of-scope VONNE occupation.
-- [Advice Services Manager (Community)](https://www.vonne.org.uk/vonne-jobs-details?cid=173555) — out-of-scope VONNE occupation.
 - [Bid Writer (Trusts and Foundations)](https://www.vonne.org.uk/vonne-jobs-details?cid=173383) — insufficient service-admin evidence.
 - [Cancer and Dementia Care Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173588) — out-of-scope VONNE occupation.
 - [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
