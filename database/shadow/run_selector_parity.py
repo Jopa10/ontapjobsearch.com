@@ -16,6 +16,7 @@ ROOT = HERE.parents[1]
 sys.path.insert(0, str(HERE))
 from prepare_raw_stage import load_archive
 from selector_capture import Capture, MODULES
+from dependency_provenance import start_capture, verify_copy, finish_capture
 
 PIN = '046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd'
 FAMILIES = ['admin_service', 'support_worker', 'customer_sales', 'finance_accounts',
@@ -107,7 +108,9 @@ def main():
         raise ValueError('Pinned receipt mismatch')
     if work.exists():
         raise ValueError('Use a new scratch work directory')
+    capture = start_capture(ROOT)
     work.mkdir(parents=True)
+    (work / 'dependency-start.json').write_text(json.dumps(capture, indent=2) + '\n')
     # Use the actual production XML adapter and its source timestamp. Remove only
     # the already quarantined conflicting ID; preserve supplier order for dedupe.
     sys.path.insert(0, str(ROOT))
@@ -138,6 +141,7 @@ def main():
         (target / '.git').symlink_to(ROOT / '.git', target_is_directory=True)
         (target / 'pipeline/input').mkdir()
         shutil.copy2(work / 'clean.xlsx', target / 'pipeline/input/jobg8.xlsx')
+        verify_copy(capture, target)
     from concurrent.futures import ThreadPoolExecutor, wait
     def replay(mode):
         target = work / mode
@@ -182,6 +186,14 @@ def main():
               'selectedUniqueJobs': len({str(job['job_id']) for jobs in plain.values() for job in jobs}),
               'unknowns': sum(r['decision'] == 'unknown' for r in decisions),
               'boundary': 'JobG8 family generation only; external composition, enrichment, final publisher/city derivation and email sending were not invoked.'}
+    manifest = finish_capture(capture, ROOT, archive_sha256=PIN,
+        workbook_sha256=hashlib.sha256((work / 'clean.xlsx').read_bytes()).hexdigest(),
+        workbook_created=stamp.isoformat() if stamp else None, families=FAMILIES,
+        observer_modules=MODULES, outputs_sha256=report['outputsSha256'], output_scopes=plain)
+    report['dependencyManifest'] = manifest
+    report['dependencyManifestSha256'] = digest(manifest)
+    report['compactContext'] = manifest['context']
+    (work / 'dependency-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
     (work / 'report.json').write_text(json.dumps(report, indent=2) + '\n')
     # No duplicate descriptions: only compact decisions and selected display rows.
     with gzip.open(work / 'selection.json.gz', 'wt') as handle:

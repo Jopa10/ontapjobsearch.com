@@ -9,8 +9,37 @@ const hash=v=>assert.match(v,/^[a-f0-9]{64}$/);
 const key=d=>d.scope+'\0'+d.ref;
 const compare=(a,b)=>a<b?-1:a>b?1:0;
 const sorted=rows=>[...rows].sort((a,b)=>compare(key(a),key(b)));
+export function verifyDependencyManifest(report,context){
+ const m=report.dependencyManifest;
+ assert.equal(m?.version,1);assert.equal(m.kind,'captured-replay-inputs');
+ assert.equal(m.runtimeCaptured,true);assert.equal(m.sourceUnchanged,true);
+ assert.equal(contentHash(m),report.dependencyManifestSha256,'Dependency manifest checksum mismatch');
+ assert.equal(m.revision,report.rulesRevision);assert.equal(m.archiveSha256,report.archiveSha256);
+ assert.equal(m.outputsSha256,report.outputsSha256);hash(m.cleanWorkbookSha256);
+ assert.equal(contentHash(m.files),m.sourceSha256,'Dependency inventory checksum mismatch');
+ assert.ok(Object.keys(m.files).some(k=>k.startsWith('pipeline/scripts/')));
+ for(const h of Object.values(m.files))hash(h);
+ const registers=Object.fromEntries(Object.entries(m.files).filter(([k])=>k.startsWith('pipeline/registers/')||k.startsWith('pipeline/reviews/')));
+ const geo=Object.fromEntries(Object.entries(m.files).filter(([k])=>k.startsWith('pipeline/geo/')||k.startsWith('pipeline/lookup/')));
+ assert.ok(Object.keys(registers).length&&Object.keys(geo).length,'Missing dependency groups');
+ assert.deepEqual(context,m.context,'Supplied compact context differs from captured inputs');
+ assert.deepEqual(report.compactContext,m.context);
+ assert.equal(context.selectorRevision,m.revision);
+ assert.equal(context.registersSha256,contentHash(registers));
+ assert.equal(context.geographySha256,contentHash(geo));
+ assert.equal(context.configurationSha256,contentHash({files:m.files,runtime:m.runtime}));
+ assert.equal(context.scopeRegistrySha256,contentHash(m.scope));
+ assert.deepEqual(m.scope.families,FAMILIES);
+ if(report.selectedByScope)assert.deepEqual(m.scope.outputScopes,Object.keys(report.selectedByScope).sort());
+ const time=JSON.parse(context.timeContext);
+ assert.equal(time.workbookCreated,m.workbookCreated);
+ assert.equal(time.feedDateOverride,m.runtime.environment.ONTAP_FEED_DATE);
+ assert.equal(time.startedAt,m.startedAt);assert.equal(time.finishedAt,m.finishedAt);
+ assert.ok(Number.isFinite(Date.parse(m.startedAt))&&Date.parse(m.finishedAt)>=Date.parse(m.startedAt));
+}
 export function canonicalSelection(fixture,context){
  const {report,sourceHashes,decisions}=fixture;
+ if(report.dependencyManifest||report.dependencyManifestSha256||report.compactContext)verifyDependencyManifest(report,context);
  assert.equal(report.exactFileOutputParity,true);assert.equal(report.unknowns,0);
  assert.match(report.rulesRevision,/^[a-f0-9]{40}$/);hash(report.archiveSha256);hash(report.outputsSha256);
  assert.equal(context.selectorRevision,report.rulesRevision);

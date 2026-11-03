@@ -569,3 +569,44 @@ contain full raw adverts or establish inactive-advert retention, main-only GitHu
 role write access, Object Lock, current turnover or 90-day Neon Free viability.
 Current Neon remains at the last measured 407,347,200 bytes. Production remains
 file-based. Resume from `full-archive-checkpoint-2026-11-03.json`.
+
+
+## Dependency provenance checkpoint — prepared 3 November 2026
+
+Full S3 recovery is now owner-verified (see `full-archive-checkpoint-2026-11-03.json`);
+do not repeat that upload. Its synthetic run/dependency metadata remain labelled.
+
+`dependency_provenance.py` reconstructs an exact Git inventory at the historical
+selector revision: 946 candidate files, SHA-256 list saved in
+`dependency-source-2026-11-02.json`. This is explicitly NOT an execution context: it
+cannot recover the historical sparse checkout, untracked files, packages or env.
+It must not retroactively certify the existing synthetic archive.
+
+The existing `run_selector_parity.py` now captures the actual retained source set
+before replay, including all copied pipeline inputs outside the same existing
+input/output/report/cache exclusions and adapter/observer/capture code. It refuses
+uncommitted dependency bytes, verifies both scratch copies, and checks source
+immutability afterwards. Allowlisted `ONTAP_FEED_DATE`, timezone/locale/hash seed,
+Python/pandas/openpyxl versions, workbook SHA/created time, raw archive SHA, output
+scopes/hash and actual start/end times are recorded. No arbitrary environment or
+credential values are logged. The source inventory is conservative: it includes
+possibly unused files rather than claiming an exact dynamic dependency trace.
+
+Start/final manifests are retained by the same isolated workflow alongside the
+existing report/selection artifact. The report provides `compactContext`; when
+a captured manifest is present, the existing history codec checks its hash and
+recomputes group/runtime/scope bindings, rejecting a substituted context or a
+historical reconstruction. Existing legacy/synthetic fixture readback remains
+unchanged and is not runtime evidence. No selector execution is skipped.
+
+No replay request has been changed or remote run launched. Capture has local
+boundary/cross-language tests; actual emission during a complete replay remains
+unexecuted. Do not run the two full selectors solely to backfill historical
+metadata. Capture it on the next separately justified saved/current-feed replay.
+The extra file manifest is retained in report metadata, so previous tiny synthetic
+delta-size measurements do not include this provenance overhead; measure actual
+compact allocation before declaring Free-plan viability.
+
+Resume from `dependency-provenance-checkpoint-2026-11-03.json`. Next current
+saved-feed turnover and measured compact database growth; no cleanup, daily
+ingestion, paid upgrade or production cutover is authorized.

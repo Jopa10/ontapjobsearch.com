@@ -12,6 +12,10 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 3 November 2026 — **Replay dependency provenance prepared without rerunning selectors:** exact historical commit inventory recovers 946 candidate file hashes but explicitly cannot attest historical runtime. The existing isolated replay now captures actual copied source, adapter/observer, register/geography/configuration, package versions, allowlisted feed-date/environment, workbook hash/time and execution interval. It checks copied inputs and unchanged source; compact history validates supplied context against the captured manifest. Four Python checks, three JavaScript checks and cross-language binding pass; harness result is in the checkpoint. No replay, Neon/import, archive repeat, cleanup or production action. Resume: `database/shadow/dependency-provenance-checkpoint-2026-11-03.json`.
+
+- 3 November 2026 — **Full saved-fixture S3 recovery passed:** owner CloudShell verified conditional upload of the exact 8,147,866-byte archive, repeat rejection and full byte recovery. Real saved outputs remain packaged with synthetic dependency metadata/run ID; GitHub-role access and raw retention are still unproved. No database or production change. Receipt: `database/shadow/full-archive-checkpoint-2026-11-03.json`.
+
 - 3 November 2026 — **Full saved archive ready for owner CloudShell recovery:** recovered artifacts rebuild the identical 8,147,866-byte archive/checksum; local semantic recovery matches 350,368 decisions, 43,796 identities and 239 outputs. A full-size mocked S3 create/repeat/readback passes; four existing transport tests remain green. Shared transport code now accepts an explicit payload and bounded size; tiny-probe defaults remain unchanged. Saved full-size executable awaits actual S3 execution; metadata/run ID remain synthetic and main-only GitHub role access remains unproved. No Neon/production/cleanup change. Resume: `database/shadow/full-archive-checkpoint-2026-11-03.json`.
 
 - 3 November 2026 — **S3 transport probe prepared, not executed:** saved CloudShell executable conditionally creates one 922-byte synthetic display archive under `ontap-shadow/display-v1/`, checks AWS account/region/applied lifecycle, verifies SHA-256 and exact packet recovery, and requires a repeated create to receive HTTP 412. Four local API-boundary tests pass. The probe leaves its object in place and changes no policy, database or production state. This will prove only the CloudShell caller and small fixture; full real-snapshot S3 recovery, main-only GitHub access and provenance remain pending. Receipt/resume: `database/shadow/archive-transport-checkpoint-2026-11-03.json`.
@@ -262,9 +266,11 @@ NHS/public-sector inventory is a complementary supply and sector-switching advan
 
 ## 5. Operations / infrastructure
 
-### Neon shadow database — foundation only
+### Neon shadow database — isolated verification
 
 The isolated test schema and offline preflight are documented in `database/shadow/README.md`. They are not wired into production, the legacy Prisma models, private Brevo sending or the daily publisher. The owner created Neon Free in London and confirmed all 12 tables. Preview-only connection metadata is verified; remote execution evidence is recorded in the sample harness checkpoint. Paid billing settings remain unconfigured.
+
+Replay provenance uses `database/shadow/dependency_provenance.py` through the existing isolated selector runner. It hashes the materialized, copied dependency set and saves start/final manifests with runtime/input/output identity; source mutation or mismatched compact context fails closed. Historical Git reconstruction is marked non-executable evidence. Legacy/synthetic codec fixtures remain supported for readback/testing; their absence of a captured manifest must never be presented as proven runtime provenance. The workflow request file is unchanged, so this change does not launch a replay or import. Full saved-fixture S3 transport passed in owner CloudShell; inactivity-based raw retention, current turnover and actual compact Neon allocation remain pending.
 
 The automatic private CPC sender is pinned to `7861de82938669df2b78229d2b76859fb260b2e2` (31 October workflow audit). Its sparse private checkout includes `pipeline/scripts`, `pipeline/tests` and `pipeline/config`; the last supplies the governed region-name/slug catalog. The existing post-publish workflow retains two allowlisted test recipients on list 3 and invokes only private daily mode. Public signup and list-wide delivery are not enabled by this adoption.
 
