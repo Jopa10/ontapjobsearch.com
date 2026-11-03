@@ -28,6 +28,18 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
+title: Account Coordinator
+company: Stafforce Recruitment - Agency - Temporary
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225684511
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Lincolnshire
@@ -117,18 +129,6 @@ company: Reed - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2163998
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Haig Legal Group Limited - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-108263727
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 

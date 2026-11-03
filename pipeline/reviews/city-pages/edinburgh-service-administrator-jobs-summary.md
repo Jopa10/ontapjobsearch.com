@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
+- automatic include: 28
 - automatic review: 7
 - automatic exclude: 0
-- effective include: 24
+- effective include: 28
 - effective review: 7
 - effective exclude: 0
 
-## INCLUDE (24)
+## INCLUDE (28)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Michael Page - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225723903
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Receivable Administrator
+company: Gillespie People Solutions - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225786572
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -184,6 +196,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Financial & Procurement Administrator
+company: Construction & Property Recruitment - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225788274
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Administrator (Temp)
 company: Michael Page - Agency - Temporary
 location: Edinburgh
@@ -232,6 +256,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Part Time Finance & Corporate Service Assistant
+company: Office Angels - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225787722
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Procurement Assistant
 company: Robert Half - Agency - Permanent
 location: Edinburgh
@@ -261,6 +297,18 @@ company: CNX Recruitment - Agency - Contract
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225782091
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temp Administrator (Pot to go Perm) HYBRID
+company: Office Angels - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225789104
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

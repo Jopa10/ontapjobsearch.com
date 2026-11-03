@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
+- automatic include: 33
 - automatic review: 13
-- automatic exclude: 35
-- effective include: 32
+- automatic exclude: 38
+- effective include: 33
 - effective review: 13
-- effective exclude: 35
+- effective exclude: 38
 
-## INCLUDE (32)
+## INCLUDE (33)
 
 ---
 action: 
@@ -408,6 +408,18 @@ job_id: jobg8-23643_225736471
 reason: Approved Sheffield catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Receptionist
+company: CCA Recruitment Group - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225789027
+reason: Approved Sheffield catchment.
+---
+
 ## REVIEW (13)
 
 ---
@@ -566,7 +578,7 @@ job_id: jobg8-2153824
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (38)
 
 ---
 action: 
@@ -608,6 +620,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administrator
+company: TSR Recruitment Limited - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225685872
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Call Centre Agent
 company: EE - Company - Permanent
 location: Doncaster
@@ -637,6 +661,18 @@ company: SJC Partners - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-2171014
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Connecting Communities Coordinator
+company: Voluntary Action Rotherham - Agency - Contract
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225789265
 reason: Separate employment market.
 ---
 
@@ -841,6 +877,18 @@ company: Portfolio Payroll - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-2177843
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: SARIA - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225684316
 reason: Separate employment market.
 ---
 

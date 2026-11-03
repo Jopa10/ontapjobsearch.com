@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 36
-- automatic exclude: 36
-- effective include: 8
-- effective review: 36
-- effective exclude: 36
+- automatic include: 9
+- automatic review: 35
+- automatic exclude: 35
+- effective include: 9
+- effective review: 35
+- effective exclude: 35
 
-## INCLUDE (8)
+## INCLUDE (9)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Hays Accounts and Finance - Agency - Temporary
+location: Oxford
+source: JobG8
+job_id: jobg8-23643_225788858
+reason: Approved conservative Oxford launch catchment.
+---
 
 ---
 action: 
@@ -120,7 +132,7 @@ job_id: jobg8-23643_225746493
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (36)
+## REVIEW (35)
 
 ---
 action: 
@@ -462,18 +474,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Technical Administrator
-company: Cameo Consultancy - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-23643_225764102
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Technical Publications Administrator
 company: Planet Recruitment - Agency - Permanent
 location: Abingdon
@@ -554,7 +554,7 @@ job_id: jobg8-108158397
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -608,18 +608,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Bid Portal Administrator
-company: Ridge & Partners LLP - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-108079592
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Bookkeeper
 company: Focus Resourcing - Agency - Permanent
 location: Oxfordshire
@@ -649,18 +637,6 @@ company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225710713
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Document Controller
-company: Full Circle Technical Recruitment - Agency - Contract
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225766840
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -949,6 +925,18 @@ company: One Way Resourcing - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225701204
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Assistant
+company: Morson Edge - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225685536
 reason: Broad county location; not Oxford-city evidence.
 ---
 

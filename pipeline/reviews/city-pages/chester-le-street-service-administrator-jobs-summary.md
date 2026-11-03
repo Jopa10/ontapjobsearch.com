@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 119
+- automatic review: 164
 - automatic exclude: 0
 - effective include: 1
-- effective review: 119
+- effective review: 164
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: nhs-5686212
 reason: Exact approved Chester Le Street workplace.
 ---
 
-## REVIEW (119)
+## REVIEW (164)
 
 ---
 action: 
@@ -59,6 +59,18 @@ company: MTrec Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2158034
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Additional Resources - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225684612
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -107,6 +119,18 @@ company: Reed - Agency - Permanent
 location: Durham
 source: JobG8
 job_id: jobg8-2200987
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Westray Recruitment Consultants Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225786573
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -307,6 +331,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Makin Construction Careers Ltd - Agency - Contract
+location: Blyth
+source: JobG8
+job_id: jobg8-23643_225684373
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Moorlands Surgery
 location: Darlington, DL3 9JP
 source: NHS Jobs
@@ -330,11 +366,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Officer & Administrator
-company: Bede Academy
-location: Blyth
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
+title: B2B SALES LEAD GENERATOR
+company: Independent Utility Advice - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-23643_225708082
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -342,11 +378,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: B2B SALES LEAD GENERATOR
-company: Independent Utility Advice - Agency - Permanent
+title: Bookkeeper / Office Administrator
+company: Pin Point Healthcare - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
-job_id: jobg8-23643_225708082
+job_id: jobg8-23643_225686385
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -390,11 +426,275 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-14ed80d091f0fb71e92c86010d5a3182
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-20fc350b6789c39cd18ccac91ac57148
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-20279_64242-2d6e64b23b0ce48f6b159ac15e45402e
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-33210dbc92626a35bffe42114b330ff3
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-3c79e0d2d8b9dc829f1439ebfbd69827
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-5e8fd437c2acaed207d238cf1b10801c
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-698a92f99cf89eb23ba18f264114428f
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-89740a075c6163b74ea2c52702062e5d
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-8a1a3115f2a3a8d81cb3d4b82beceb79
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-8bb4b73a68aaaf346f4a919e26e44f12
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-deab967b99c6e63d0dd459a12179664a
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Call Centre Customer Enabling Services Advocate
 company: Executive Connect LTD - Agency - Contract
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_223850779
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-0dc834e990c9af3799011e2ebb0fc687
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-5eabb6aaa6c5dac84023535f868d0408
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-66639f8323c007f7dc9fbe6bba756b48
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-73862c8b83139033e4e4a8b6efca9a33
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-9e0925ea7011aabd1d54e5dea129a8dc
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-a2e2a028139730a5ef289161f72b755f
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-20279_64242-a6e2ad7cee3c43ab7465fc57eabd4302
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-bbd8f3ecb6935e720a2d5c3d16688989
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-c1a6ac509cb9c4268f3a1776a95bcbae
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-d981bcbe71d3685b877d6079499a3efa
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-e4ee71039bd31be98b939fb7f674e2f2
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -450,11 +750,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Compliance Officer - Leading Recruitment Company
-company: Prospero Group - Agency - Permanent
-location: Tyne And Wear
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
 source: JobG8
-job_id: jobg8-23643_225732862
+job_id: jobg8-20279_64242-274537a8c8f64b291278ed309ad39199
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -462,11 +762,119 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Compliance Offier - Recruitment
-company: Prospero Group - Agency - Permanent
-location: Tyne And Wear
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
 source: JobG8
-job_id: jobg8-23643_225755176
+job_id: jobg8-20279_64242-33ae573bb155210411f372c9d91f6158
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-3718a736a0687d2f5641b4cf254429ac
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-7a7e76d52c9040e914f50eb1adbbf613
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-20279_64242-87702a1e673975e9bbf89c3879ce0d96
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-97145bde79d4715fedcbeec5440b2d7f
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-b63960d4b5dd52aa15bb6dd10e1e6082
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-b84827dfe56f1cdb62c773823ebeb739
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-d24d3d6916a209e15b1680693740da2f
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-d4d35e2bbb6c679f616e4c8b02eb2ef5
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-fe2d4c4f1fcad2f2bfa762c2a07144fd
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -491,18 +899,6 @@ company: MTrec Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2157924
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Paul Card Recruitment - Agency - Temporary
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225694779
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -563,6 +959,138 @@ company: Berry Recruitment - Agency - Contract
 location: Durham
 source: JobG8
 job_id: jobg8-23643_225733651
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-153faf593eb64b88272f45adeaa28d87
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-18920c4c3acd80a428cbeccf0253ec33
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-405f06a99b99d692d3dbd58aa6f29272
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-8ef0e6749cf58d9b5561096820a10361
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-ae45e7c1357810322902c535fc20bb38
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-bc07315b5e693bf3b4ea520e30fc6b93
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-20279_64242-bc676c40e9c09bc657b1565a872d1105
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-c006dec11647ffbbe286bd267ef449f0
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-dc0a27dec7f9767a517f1bdee6e96749
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-eaa48b5f9c7219de72f15842102c0231
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-f8d5be08cfc7a3399ff87aa3de9e4a4a
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -786,18 +1314,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Home Administrator
-company: Akari Care Limited
-location: Gateshead, NE8 1QU
-source: NHS Jobs
-job_id: nhs-5577937
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Home Service Coordinator
 company: Aspire Housing Limited - Agency - Permanent
 location: Newcastle
@@ -815,6 +1331,18 @@ company: Hays Business Support - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225778631
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Support Officer
+company: Hays Business Support - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225789931
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1086,18 +1614,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Product Marketing Manager
-company: Klipboard - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2178921
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Programme Administrator
 company: Kinetic PLC - Agency - Contract
 location: Tyne And Wear
@@ -1115,6 +1631,18 @@ company: Nigel Wright Group - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2210876
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Assistant
+company: Reed - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2151025
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1218,11 +1746,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist / Administrator
-company: St. Albans Medical Group
-location: Gateshead, NE10 9QG
-source: NHS Jobs
-job_id: nhs-5679128
+title: Receptionist/ Front of House
+company: Search Consultancy Ltd - Agency - Contract
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225790430
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1295,6 +1823,18 @@ company: Towne Lifting & Testing - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225725446
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Advisor
+company: EE - Company - Permanent
+location: Cramlington
+source: JobG8
+job_id: jobg8-20279_64242-8a947d76c6803dd88116d68f668dce22
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

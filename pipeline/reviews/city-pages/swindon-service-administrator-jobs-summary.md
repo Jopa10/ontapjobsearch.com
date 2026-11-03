@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 32
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 23
-- effective review: 32
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (23)
@@ -300,7 +300,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (31)
 
 ---
 action: 
@@ -432,18 +432,6 @@ location: Devizes
 source: JobG8
 job_id: jobg8-23643_225761228
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Italian Credit Control Clerk
-company: Robert Half - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-2165910
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---

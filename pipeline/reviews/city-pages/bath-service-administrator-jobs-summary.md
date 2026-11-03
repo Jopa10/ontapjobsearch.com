@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 78
+- automatic review: 83
 - automatic exclude: 0
 - effective include: 4
-- effective review: 78
+- effective review: 83
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-2188896
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (78)
+## REVIEW (83)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2159551
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant (Trips, Visits & Events)
-company: Ashton Park School
-location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-trips-visits-events
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -203,6 +191,18 @@ company: Sirona care & health CIC
 location: Bristol, BS16 1EQ
 source: NHS Jobs
 job_id: nhs-5698494
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Sirona care & health CIC
+location: Warmley, Bristol, BS30 8XP
+source: NHS Jobs
+job_id: nhs-5699781
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -299,6 +299,18 @@ company: Ashley Rees Associates - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2198561
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: HSB Technical - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225790286
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -438,6 +450,30 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Facilities Administrator
+company: JLL - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108145689
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Facilities Coordinator
+company: Project Start Recruitment Solutions - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225790557
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Morgan McKinley (South West) - Agency - Permanent
 location: Bristol
@@ -455,6 +491,18 @@ company: Womens Aid - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225740656
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Freight Co-Ordinator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225685224
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -551,6 +599,18 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225740068
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Accounts Payable Clerk
+company: Michael Page - Agency - Temporary
+location: Somerset
+source: JobG8
+job_id: jobg8-23643_225790782
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -775,10 +835,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Fairfield High School
+company: Miller Homes - Agency - Permanent
 location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-fairfield-high-school
+source: JobG8
+job_id: jobg8-23643_225790462
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -858,11 +918,11 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Salesforce & Sales Pipeline Coordinator
-company: Adria Solutions - Agency - Permanent
+title: Sales Executive
+company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-108225065
+job_id: jobg8-23643_225684677
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -874,7 +934,7 @@ title: Salesforce & Sales Pipeline Coordinator
 company: Adria Solutions - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2167471
+job_id: jobg8-108225065
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

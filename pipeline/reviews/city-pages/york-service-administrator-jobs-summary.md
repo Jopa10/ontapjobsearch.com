@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 10
 - automatic review: 18
-- automatic exclude: 17
-- effective include: 11
+- automatic exclude: 15
+- effective include: 10
 - effective review: 18
-- effective exclude: 17
+- effective exclude: 15
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: Consortium Professional Recruitment - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2163066
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Michael Page Finance - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2192281
 reason: Approved York catchment.
 ---
 
@@ -374,31 +362,7 @@ job_id: jobg8-108059238
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (17)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Receivable Controller
-company: Nigel Wright Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2207066
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Commercial Property Paralegal
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225708921
-reason: Broad regional label; not York-city evidence.
----
+## EXCLUDE (15)
 
 ---
 action: 
@@ -476,6 +440,18 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part Time Administrator
+company: KD Recruitment - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225788225
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part Time Administrator (Fixed Term Contract - 9 Months)
 company: KD Recruitment - Agency - Permanent
 location: Scarborough
@@ -517,18 +493,6 @@ company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
 job_id: jobg8-23643_225746940
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Residential Property Legal Assistant
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-23643_225733131
 reason: Separate employment market.
 ---
 

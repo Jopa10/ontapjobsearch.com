@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
+- automatic include: 29
 - automatic review: 7
 - automatic exclude: 5
-- effective include: 30
+- effective include: 29
 - effective review: 7
 - effective exclude: 5
 
-## INCLUDE (30)
+## INCLUDE (29)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2197146
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Assistant
-company: Axon Moore - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225714999
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -220,18 +208,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR / Payroll Assistant
-company: hireful - Company - Contract
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225730928
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: IT Project Coordinator
 company: P3M Recruitment - Agency - Permanent
 location: Warrington
@@ -333,6 +309,18 @@ company: Velocity Recruitment - Agency - Contract
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225746391
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist Administrator
+company: Salter Grange Limited - Agency - Contract
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225788627
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -488,18 +476,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Payable Clerk
-company: Building Careers UK - Agency - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-23643_225759128
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR Administration
 company: PeopleRe - Agency - Permanent
 location: Runcorn
@@ -529,5 +505,17 @@ company: KPI Recruiting - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-23643_225768987
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Quality Administrator
+company: Kinetic PLC - Agency - Temporary
+location: Runcorn
+source: JobG8
+job_id: jobg8-23643_225789895
 reason: Separate employment market.
 ---

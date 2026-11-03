@@ -270,18 +270,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: RG Consultancy Ltd - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2211142
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Assistant (Apprentice)
 company: CMR Jobs Limited - Agency - Permanent
 location: Cheadle
@@ -395,6 +383,18 @@ company: Jobwise Ltd - Agency - Temporary
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225695945
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Pickles Recruitment - Agency - Permanent
+location: Denton
+source: JobG8
+job_id: jobg8-23643_225790447
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

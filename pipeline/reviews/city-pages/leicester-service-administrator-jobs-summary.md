@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 23
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 74
+- automatic include: 25
+- automatic review: 76
 - automatic exclude: 0
-- effective include: 23
-- effective review: 74
+- effective include: 25
+- effective review: 76
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (25)
 
 ---
 action: 
@@ -244,6 +244,18 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Progress Coordinator
+company: Red Star Pathways - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225788135
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchasing Assistant - early Friday finish
 company: Office Angels - Agency - Permanent
 location: Leicester
@@ -280,6 +292,18 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Support Administrator
+company: Trinity House Group Ltd - Agency - Temporary
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225788054
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Senior Marketing Executive
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
@@ -300,7 +324,7 @@ job_id: jobg8-23643_225761866
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (74)
+## REVIEW (76)
 
 ---
 action: 
@@ -587,18 +611,6 @@ company: Regional Recruitment - Agency - Permanent
 location: Blaby
 source: JobG8
 job_id: jobg8-23643_225693331
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Rota Coordinator / Scheduler
-company: New Horizons Care - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-108238825
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1050,11 +1062,35 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Clerk
+company: Michael Page - Agency - Temporary
+location: Coalville
+source: JobG8
+job_id: jobg8-23643_225684426
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist - LE4
 company: Office Angels - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225721480
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Coordinator
+company: Eileen Richards Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225790351
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1151,6 +1187,18 @@ company: Saint Gobain - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225754680
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary CRM Assistant
+company: Triumph - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225746288
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

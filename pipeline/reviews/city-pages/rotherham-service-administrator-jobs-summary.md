@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 72
+- automatic review: 76
 - automatic exclude: 0
 - effective include: 8
-- effective review: 72
+- effective review: 76
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5695575
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (72)
+## REVIEW (76)
 
 ---
 action: 
@@ -258,6 +258,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: TSR Recruitment Limited - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225685872
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Audience Development Coordinator - Local Authority - Libraries
 company: Reed - Agency - Permanent
 location: Sheffield
@@ -347,6 +359,18 @@ company: Big Fish Little Fish - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225765151
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Connecting Communities Coordinator
+company: Voluntary Action Rotherham - Agency - Contract
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225789265
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -726,6 +750,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: SARIA - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225684316
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant Interim
 company: Michael Page Finance - Agency - Permanent
 location: Doncaster
@@ -959,6 +995,18 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225736471
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Receptionist
+company: CCA Recruitment Group - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225789027
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

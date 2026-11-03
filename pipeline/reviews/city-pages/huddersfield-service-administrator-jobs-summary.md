@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 21
-- automatic review: 42
-- automatic exclude: 143
+- automatic review: 40
+- automatic exclude: 144
 - effective include: 21
-- effective review: 42
-- effective exclude: 143
+- effective review: 40
+- effective exclude: 144
 
 ## INCLUDE (21)
 
@@ -276,7 +276,7 @@ job_id: jobg8-23643_225760413
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (42)
+## REVIEW (40)
 
 ---
 action: 
@@ -359,18 +359,6 @@ company: Reed - Agency - Permanent
 location: Brighouse
 source: JobG8
 job_id: jobg8-2194830
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Campaign Assistant - Digital Ad Operations Specialist
-company: ASDA - Company - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2203111
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -582,18 +570,6 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Interim Accounts Payable
-company: Michael Page Finance - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2210347
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: LinkedIn Social Media Executive
 company: Pyramid8 - Agency - Permanent
 location: Yorkshire
@@ -690,6 +666,18 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Assistant
+company: Marks Sattin - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2150535
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchasing Admin
 company: E3 Recruitment - Agency - Temporary
 location: Shipley
@@ -738,18 +726,6 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Administrator
-company: Hays Business Support - Agency - Permanent
-location: Silsden
-source: JobG8
-job_id: jobg8-23643_225712570
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Studio Administrator
 company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
@@ -782,7 +758,7 @@ job_id: jobg8-2204175
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (143)
+## EXCLUDE (144)
 
 ---
 action: 
@@ -841,18 +817,6 @@ company: Castle Employment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225758291
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: IPS Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2189009
 reason: Separate employment market.
 ---
 
@@ -945,18 +909,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Huntress - Leeds - Agency - Contract
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225717635
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
 company: Marks Sattin - Agency - Permanent
 location: Leeds
 source: JobG8
@@ -1033,6 +985,30 @@ company: Sytner Group - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2204098
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Bank Business Administrator
+company: Spire Healthcare - Company - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225684684
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Bank Medical Records Administrator
+company: Spire Healthcare - Company - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225685033
 reason: Separate employment market.
 ---
 
@@ -1165,30 +1141,6 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS14 6UH
 source: NHS Jobs
 job_id: nhs-5685226
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Compliance Administrator- Leading Recruitment Company
-company: Prospero Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225717515
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Compliance Offier - Recruitment
-company: Prospero Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225755188
 reason: Separate employment market.
 ---
 
@@ -1448,6 +1400,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Data Administrator / Systems Data Coordinator
+company: Huntress - Leeds - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225786547
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Digital Marketing Executive
 company: AWC STAFF SERVICES LTD - Agency - Permanent
 location: Leeds
@@ -1477,30 +1441,6 @@ company: Huntress - Leeds - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225751812
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Executive Assistant
-company: hireful - Company - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225694366
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Executive Assistant
-company: Huntress - Leeds - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225744497
 reason: Separate employment market.
 ---
 
@@ -1760,6 +1700,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Junior PMO Coordinator - Fixed Term Contract - April 2027
+company: Roc Search Europe Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225786465
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Legal PA
 company: Lucy Walker Recruitment - Agency - Permanent
 location: Leeds
@@ -1873,6 +1825,18 @@ company: Staff Partners Business - Agency - Temporary
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225743962
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Office Administrator
+company: Logical Personnel Solutions - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225661219
 reason: Separate employment market.
 ---
 
@@ -2205,6 +2169,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
+company: Dr G A Lees & Partners
+location: Leeds, LS12 3HD
+source: NHS Jobs
+job_id: nhs-5702515
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
 company: Park Lane Academy
 location: Halifax
 source: Teaching Vacancies
@@ -2329,6 +2305,18 @@ company: Concept Recruitment Group Ltd - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225767713
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Administrator - Part time 4 or 5 days
+company: Huntress - Leeds - Agency - Permanent
+location: Batley
+source: JobG8
+job_id: jobg8-23643_225786450
 reason: Separate employment market.
 ---
 

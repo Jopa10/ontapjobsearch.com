@@ -174,11 +174,11 @@ reason: No approved Swansea employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Flotek - Agency - Permanent
+title: Planning Administrator
+company: Sigma Recruitment - Agency - Permanent
 location: Bridgend
 source: JobG8
-job_id: jobg8-108262726
+job_id: jobg8-23643_225684248
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

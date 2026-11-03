@@ -76,18 +76,6 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Attendance Officer (part-time)
-company: St James School
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-part-time-st-james-school
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Assistant
 company: Pertemps Plymouth - Agency - Temporary
 location: Exeter
@@ -256,6 +244,18 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Administrator
+company: Contract Staffing Solutions Ltd - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225786768
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Administrator
 company: Office Angels - Agency - Permanent
 location: Exeter
@@ -359,6 +359,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2203976
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Officer
+company: Hays Business Support - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225788418
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -582,35 +594,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Financial Services Administrator
-company: Hays Business Support - Agency - Permanent
-location: Torquay
-source: JobG8
-job_id: jobg8-23643_225740870
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: 4Recruitment Services - Agency - Contract
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225720286
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant 12 month Maternity cover
-company: Hays Business Support - Agency - Temporary
-location: Barnstaple
-source: JobG8
-job_id: jobg8-23643_225768336
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -923,6 +911,18 @@ company: Interaction Recruitment - Agency - Temporary
 location: Cullompton
 source: JobG8
 job_id: jobg8-23643_225755551
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Media Coordinator
+company: Acorn by Synergie - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225789629
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

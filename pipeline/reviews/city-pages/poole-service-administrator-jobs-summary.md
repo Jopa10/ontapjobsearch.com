@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 47
+- automatic include: 9
+- automatic review: 53
 - automatic exclude: 0
-- effective include: 8
-- effective review: 47
+- effective include: 9
+- effective review: 53
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -120,7 +120,19 @@ job_id: jobg8-2181226
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (47)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchasing Administrator
+company: Bennett and Game Recruitment LTD - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225788921
+reason: Exact approved Poole workplace.
+---
+
+## REVIEW (53)
 
 ---
 action: 
@@ -131,6 +143,18 @@ company: Collaborate Recruitment - Agency - Permanent
 location: Broadstone
 source: JobG8
 job_id: jobg8-23643_225761280
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225789958
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -167,18 +191,6 @@ company: CMA Recruitment Group - Agency - Contract
 location: Ferndown
 source: JobG8
 job_id: jobg8-23643_225775336
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: CMA Recruitment Group - Agency - Permanent
-location: Ferndown
-source: JobG8
-job_id: jobg8-2200968
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -294,6 +306,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225790377
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: Tru Talent - Agency - Permanent
 location: Bournemouth
@@ -383,6 +407,18 @@ company: Randstad Construction and Property - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225755741
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225790001
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -510,6 +546,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Part time Office & HR Administrator
+company: Holt Engineering - Agency - Permanent
+location: Wimborne
+source: JobG8
+job_id: jobg8-23643_225684990
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: Auto Skills UK - Agency - Permanent
 location: Bournemouth
@@ -539,6 +587,18 @@ company: Morgan McKinley (South West) - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225762250
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225686145
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -606,6 +666,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Administrator
+company: Pin Point Recruitment - Agency - Permanent
+location: Wimborne
+source: JobG8
+job_id: jobg8-23643_225785867
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Ledger Supervisor
 company: Reed - Agency - Permanent
 location: Weymouth
@@ -659,6 +731,18 @@ company: Daisy Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225728254
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Shipping Administrator
+company: Team Jobs - Strategic Accounts - Agency - Contract
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225790287
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

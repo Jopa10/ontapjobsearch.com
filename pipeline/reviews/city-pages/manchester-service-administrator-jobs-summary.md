@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 130
+- Effective included jobs: 136
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 130
+- automatic include: 136
 - automatic review: 27
 - automatic exclude: 11
-- effective include: 130
+- effective include: 136
 - effective review: 27
 - effective exclude: 11
 
-## INCLUDE (130)
+## INCLUDE (136)
 
 ---
 action: 
@@ -105,18 +105,6 @@ company: Platinum Recruitment Group - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-2159296
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Assistant
-company: Hays Accounts and Finance - Agency - Temporary
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225745784
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -208,6 +196,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator
+company: Skilled Careers - Agency - Contract
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225785764
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Assistant Private Secretary
 company: The Independent Football Regulator - Agency - Permanent
 location: Manchester
@@ -225,6 +225,18 @@ company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225731493
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Billing Coordinator
+company: Ambition Europe Limited - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2151054
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -292,6 +304,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Clinical Administrator
+company: The Portfolio Group - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225790748
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Commercial Administrator
 company: Coburg Banks Limited - Agency - Permanent
 location: Manchester
@@ -309,30 +333,6 @@ company: BASC - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225752091
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Compliance Officer - Health & Social Care Recruitment
-company: Prospero Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225703521
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Compliance Offier - Recruitment
-company: Prospero Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225755194
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -521,6 +521,18 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
+company: Coburg Banks Limited - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225685153
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
 company: Contechs Consulting - Company - Contract
 location: Manchester
 source: JobG8
@@ -533,10 +545,34 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
+company: E&M Talent Partners Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225632283
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
 company: Forrest Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225715441
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Interaction Recruitment - Agency - Temporary
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225684454
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -765,6 +801,18 @@ company: Bodhi Solutions Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225772099
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Pickles Recruitment - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225790447
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1420,6 +1468,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: SAP Customer Service Administrator
+company: Adecco - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225789319
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: SAP Sales Administrator
 company: Adecco - Agency - Permanent
 location: Manchester
@@ -1449,6 +1509,18 @@ company: Clear Education - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225700684
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Coordinator
+company: Search Consultancy Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225686875
 reason: Approved conservative Manchester launch catchment.
 ---
 

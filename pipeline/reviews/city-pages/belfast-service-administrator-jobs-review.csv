@@ -1,8 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225726032,Accounts & Payroll Administrator,Hays Accounts and Finance - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-23643_225763981,Administrator,Parker Jones Group Ltd - Company - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
-include,jobg8-2177173,Bookkeeper,Brook Street - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
-include,jobg8-23643_225761514,Bookkeeper,Brook Street - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-23643_225743179,Finance Assistant,Hays Accounts and Finance - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-2192202,Finance Assistant,rated traders ltd - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-23643_225775436,Service Advisor,The Recruitment Solution - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs

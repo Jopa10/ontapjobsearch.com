@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 97
+- automatic review: 101
 - automatic exclude: 0
 - effective include: 0
-- effective review: 97
+- effective review: 101
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (97)
+## REVIEW (101)
 
 ---
 action: 
@@ -395,18 +395,6 @@ company: Regional Recruitment - Agency - Permanent
 location: Blaby
 source: JobG8
 job_id: jobg8-23643_225693331
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Rota Coordinator / Scheduler
-company: New Horizons Care - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-108238825
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -966,6 +954,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Progress Coordinator
+company: Red Star Pathways - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225788135
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger
 company: RECfinancial - Agency - Temporary
 location: Leicestershire
@@ -990,6 +990,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Clerk
+company: Michael Page - Agency - Temporary
+location: Coalville
+source: JobG8
+job_id: jobg8-23643_225684426
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchasing Assistant - early Friday finish
 company: Office Angels - Agency - Permanent
 location: Leicester
@@ -1007,6 +1019,18 @@ company: Office Angels - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225721480
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Coordinator
+company: Eileen Richards Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225790351
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -1086,6 +1110,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support Administrator
+company: Trinity House Group Ltd - Agency - Temporary
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225788054
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Support Administrator (PART TIME)
 company: Interaction Recruitment - Agency - Permanent
 location: Coalville
@@ -1139,6 +1175,18 @@ company: Saint Gobain - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225754680
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary CRM Assistant
+company: Triumph - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225746288
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

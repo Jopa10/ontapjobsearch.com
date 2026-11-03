@@ -52,18 +52,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Contract Credit Controller
-company: Reed - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2212259
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Conveyancing Legal Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
@@ -225,6 +213,18 @@ company: Kidney Research UK - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2196216
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchasing Assistant
+company: Liz Orpwood Recruitment Ltd - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225787136
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -560,18 +560,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Order Administrator
-company: New Appointments Group - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225736019
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Services Administrator - Part Time
 company: Barker Ross - Agency - Temporary
 location: Peterborough
@@ -793,6 +781,18 @@ company: The Recruitment Solution (London) Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2194126
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor - Automotive Dealership
+company: ISQ Recruitment - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225789639
 reason: Separate employment market.
 ---
 

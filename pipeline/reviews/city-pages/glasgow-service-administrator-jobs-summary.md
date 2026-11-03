@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 37
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 37
-- automatic review: 7
+- automatic include: 35
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 37
-- effective review: 7
+- effective include: 35
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (37)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Pertemps Scotland Perms - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2188665
-reason: Approved conservative Glasgow launch catchment.
----
+## INCLUDE (35)
 
 ---
 action: 
@@ -196,11 +184,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Document Controller
-company: Contract Scotland - Agency - Permanent
+title: Junior Marketing Assistant (Promotions)
+company: We Love Sales - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225749422
+job_id: jobg8-23643_225702269
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -292,11 +280,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Officer (18 months)
-company: Michael Page - Agency - Contract
+title: Marketing Assistant
+company: We Love Sales - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225769129
+job_id: jobg8-23643_225718042
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -456,19 +444,7 @@ job_id: jobg8-23643_225760167
 reason: Approved conservative Glasgow launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Transport Planning Administrator
-company: Reed - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2187356
-reason: Approved conservative Glasgow launch catchment.
----
-
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -515,18 +491,6 @@ company: Michael Page Business Support - Agency - Permanent
 location: Lanarkshire
 source: JobG8
 job_id: jobg8-2192475
-reason: No approved Glasgow catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Officer (18 months)
-company: Michael Page Business Support - Agency - Permanent
-location: Lanarkshire
-source: JobG8
-job_id: jobg8-2192716
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

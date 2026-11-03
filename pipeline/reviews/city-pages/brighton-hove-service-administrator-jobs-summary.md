@@ -16,13 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 91
-- automatic exclude: 22
+- automatic review: 92
+- automatic exclude: 25
 - effective include: 10
-- effective review: 91
-- effective exclude: 22
+- effective review: 92
+- effective exclude: 25
 
 ## INCLUDE (10)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Claims Administrator
+company: Tate - Agency - Temporary
+location: Brighton
+source: JobG8
+job_id: jobg8-23643_225685620
+reason: Approved Brighton & Hove catchment.
+---
 
 ---
 action: 
@@ -112,18 +124,6 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger Administrator
-company: First Recruitment Services - Agency - Temporary
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225759664
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Clearline Recruitment Ltd - Agency - Permanent
 location: Brighton
@@ -144,7 +144,7 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (91)
+## REVIEW (92)
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: Reed - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2159370
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Tony Alan Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2199080
 reason: Broad location; review before city inclusion.
 ---
 
@@ -342,11 +330,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Buyer / Purchasing Assistant
-company: Rise Technical Recruitment - Agency - Permanent
+title: Business Support Administrator
+company: OutThere RPO Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225776908
+job_id: jobg8-23643_225788213
 reason: Broad location; review before city inclusion.
 ---
 
@@ -354,12 +342,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Call Handler
-company: Adecco - Agency - Temporary
-location: Lewes
+title: Buyer / Purchasing Assistant
+company: Rise Technical Recruitment - Agency - Permanent
+location: Sussex
 source: JobG8
-job_id: jobg8-23643_225749709
-reason: No approved Brighton & Hove catchment rule matched; local review required.
+job_id: jobg8-23643_225776908
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -822,24 +810,24 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Oracle HR & Payroll Support Call Handlers
-company: Adecco - Agency - Temporary
-location: Lewes
-source: JobG8
-job_id: jobg8-23643_225749573
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Finance Assistant
 company: Harvey John - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2174014
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Administrator
+company: The Best Connection - Agency - Permanent
+location: Lancing
+source: JobG8
+job_id: jobg8-23643_225788869
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -1050,6 +1038,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator (Order Processing)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225790443
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Executive
 company: Blocktech MEP - Agency - Permanent
 location: Shoreham-by-sea
@@ -1150,6 +1150,18 @@ title: Service Advisor
 company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
+job_id: jobg8-2151146
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
 job_id: jobg8-2188533
 reason: Broad location; review before city inclusion.
 ---
@@ -1172,7 +1184,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Brighton & Hove catchment rule matched; local review required.
@@ -1238,7 +1250,7 @@ job_id: jobg8-108230183
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -1261,6 +1273,18 @@ company: NC Associates - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-2178753
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable
+company: CMA Recruitment Group - Agency - Permanent
+location: Chichester
+source: JobG8
+job_id: jobg8-23643_225684878
 reason: Separate employment market.
 ---
 
@@ -1412,6 +1436,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Order Processing Specialist
+company: Randstad Construction and Property - Agency - Contract
+location: Horsham
+source: JobG8
+job_id: jobg8-23643_225691485
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Private Client Legal Secretary
 company: Recruitment Solutions - Agency - Permanent
 location: Eastbourne
@@ -1501,5 +1537,17 @@ company: Workshop Recruitment - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-2159118
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Customer Service Advisor
+company: Search Consultancy Ltd - Agency - Contract
+location: Littlehampton
+source: JobG8
+job_id: jobg8-23643_225790280
 reason: Separate employment market.
 ---

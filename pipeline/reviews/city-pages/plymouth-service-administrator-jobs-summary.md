@@ -162,6 +162,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Administration Officer
+company: Hays Business Support - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225788418
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: Devon Partnership NHS Trust
 location: Exeter, EX2 7FW
@@ -203,18 +215,6 @@ company: WR HVAC - Agency - Contract
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225759209
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer (part-time)
-company: St James School
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-part-time-st-james-school
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -450,18 +450,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Financial Services Administrator
-company: Hays Business Support - Agency - Permanent
-location: Torquay
-source: JobG8
-job_id: jobg8-23643_225740870
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Fleet Distribution Administrator
 company: Switch - Agency - Permanent
 location: Exeter
@@ -491,18 +479,6 @@ company: Adecco - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225734169
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant 12 month Maternity cover
-company: Hays Business Support - Agency - Temporary
-location: Barnstaple
-source: JobG8
-job_id: jobg8-23643_225768336
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -762,6 +738,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: Contract Staffing Solutions Ltd - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225786768
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator - Housebuilding
 company: untypical - Agency - Permanent
 location: Devon
@@ -923,6 +911,18 @@ company: Interaction Recruitment - Agency - Temporary
 location: Cullompton
 source: JobG8
 job_id: jobg8-23643_225755551
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Media Coordinator
+company: Acorn by Synergie - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225789629
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

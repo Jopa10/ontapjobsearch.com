@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 33
+- automatic include: 8
+- automatic review: 34
 - automatic exclude: 0
-- effective include: 6
-- effective review: 33
+- effective include: 8
+- effective review: 34
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (8)
 
 ---
 action: 
@@ -64,11 +64,35 @@ reason: Exact approved Shrewsbury workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Hays Accounts and Finance - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-23643_225788411
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Support Administrator
 company: Amour Recruitment - Agency - Permanent
 location: Shrewsbury
 source: JobG8
 job_id: jobg8-23643_225710675
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger
+company: Counted Recruitment - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-2164220
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -96,7 +120,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (34)
 
 ---
 action: 
@@ -215,6 +239,18 @@ company: I force - Agency - Temporary
 location: Shropshire
 source: JobG8
 job_id: jobg8-108178433
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Ethero - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225787431
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -378,6 +414,18 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Admin
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-2187262
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Reception Administrator
 company: Windmill Primary School
 location: Telford
@@ -395,18 +443,6 @@ company: Adecco - Agency - Contract
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225740864
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Co-Ordinator
-company: Oliver Rae - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225785236
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

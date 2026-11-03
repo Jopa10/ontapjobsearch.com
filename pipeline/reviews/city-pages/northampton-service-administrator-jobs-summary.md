@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 25
-- automatic review: 80
+- automatic review: 83
 - automatic exclude: 0
 - effective include: 25
-- effective review: 80
+- effective review: 83
 - effective exclude: 0
 
 ## INCLUDE (25)
@@ -324,7 +324,7 @@ job_id: jobg8-23643_225761870
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (80)
+## REVIEW (83)
 
 ---
 action: 
@@ -1002,6 +1002,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Telesales
+company: SolviT Recruitment Ltd - Agency - Temporary
+location: Daventry
+source: JobG8
+job_id: jobg8-23643_225685520
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-time Accounts Assistant
 company: Abacus Consulting - Agency - Permanent
 location: Northamptonshire
@@ -1079,6 +1091,18 @@ company: Impact Recruitment Services - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225744494
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Kettering, NN16 9JB
+source: NHS Jobs
+job_id: nhs-5702379
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -1271,6 +1295,18 @@ company: SF Partners - Agency - Permanent
 location: Corby
 source: JobG8
 job_id: jobg8-23643_225690279
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator
+company: Cameo Consultancy - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225764102
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

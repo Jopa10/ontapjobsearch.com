@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 35
+- automatic review: 37
 - automatic exclude: 0
 - effective include: 4
-- effective review: 35
+- effective review: 37
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -40,11 +40,11 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Clinical Research Administrator
-company: SPD Development Company Ltd - Agency - Contract
+title: Administrator/Customer Service
+company: Watton Recruitment Ltd - Agency - Temporary
 location: Bedford
 source: JobG8
-job_id: jobg8-23643_225741005
+job_id: jobg8-23643_225685492
 reason: Exact approved Bedford workplace.
 ---
 
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225761869
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (37)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: Hello Recruitment Associates - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-23643_225759015
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Hello Recruitment Associates - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225785986
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -247,18 +259,6 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
-company: Abacus Consulting - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225724069
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
 company: Go Interiors Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
@@ -390,6 +390,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Shefford Health Centre
+location: Shefford, SG17 5FS
+source: NHS Jobs
+job_id: nhs-5702636
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist - Bank
 company: Hamberley Care Management Limited - Company - Permanent
 location: Bedfordshire
@@ -443,6 +455,18 @@ company: Beechwood Primary School
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-sen-inclusion-administrator
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Planning Administrator
+company: Michael Page - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225786518
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

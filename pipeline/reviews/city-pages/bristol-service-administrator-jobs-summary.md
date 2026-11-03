@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 67
+- Effective included jobs: 71
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 67
-- automatic review: 11
+- automatic include: 71
+- automatic review: 12
 - automatic exclude: 4
-- effective include: 67
-- effective review: 11
+- effective include: 71
+- effective review: 12
 - effective exclude: 4
 
-## INCLUDE (67)
+## INCLUDE (71)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2159551
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant (Trips, Visits & Events)
-company: Ashton Park School
-location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-trips-visits-events
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -161,6 +149,18 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
+company: Sirona care & health CIC
+location: Warmley, Bristol, BS30 8XP
+source: NHS Jobs
+job_id: nhs-5699781
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
 company: Sphere Solutions - Agency - Temporary
 location: Bristol
 source: JobG8
@@ -237,6 +237,18 @@ company: Ashley Rees Associates - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2198561
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: HSB Technical - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225790286
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -364,6 +376,30 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Facilities Administrator
+company: JLL - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108145689
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Facilities Coordinator
+company: Project Start Recruitment Solutions - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225790557
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Morgan McKinley (South West) - Agency - Permanent
 location: Bristol
@@ -381,6 +417,18 @@ company: Womens Aid - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225740656
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Freight Co-Ordinator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225685224
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -605,10 +653,10 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Fairfield High School
+company: Miller Homes - Agency - Permanent
 location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-fairfield-high-school
+source: JobG8
+job_id: jobg8-23643_225790462
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -688,11 +736,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Salesforce & Sales Pipeline Coordinator
-company: Adria Solutions - Agency - Permanent
+title: Sales Executive
+company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-108225065
+job_id: jobg8-23643_225684677
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -704,7 +752,7 @@ title: Salesforce & Sales Pipeline Coordinator
 company: Adria Solutions - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2167471
+job_id: jobg8-108225065
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -828,7 +876,7 @@ job_id: jobg8-23643_225686977
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -899,6 +947,18 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225740068
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Accounts Payable Clerk
+company: Michael Page - Agency - Temporary
+location: Somerset
+source: JobG8
+job_id: jobg8-23643_225790782
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

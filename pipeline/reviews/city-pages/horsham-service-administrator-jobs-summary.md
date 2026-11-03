@@ -4,7 +4,7 @@
 - Live route: `/horsham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,16 +15,28 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
-- automatic review: 91
-- automatic exclude: 32
-- effective include: 0
-- effective review: 91
-- effective exclude: 32
+- automatic include: 1
+- automatic review: 92
+- automatic exclude: 34
+- effective include: 1
+- effective review: 92
+- effective exclude: 34
 
-## INCLUDE (0)
+## INCLUDE (1)
 
-## REVIEW (91)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Order Processing Specialist
+company: Randstad Construction and Property - Agency - Contract
+location: Horsham
+source: JobG8
+job_id: jobg8-23643_225691485
+reason: Exact approved Horsham workplace.
+---
+
+## REVIEW (92)
 
 ---
 action: 
@@ -59,18 +71,6 @@ company: Reed - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2159370
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Tony Alan Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2199080
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -222,11 +222,11 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Buyer / Purchasing Assistant
-company: Rise Technical Recruitment - Agency - Permanent
+title: Business Support Administrator
+company: OutThere RPO Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225776908
+job_id: jobg8-23643_225788213
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -234,12 +234,12 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Call Handler
-company: Adecco - Agency - Temporary
-location: Lewes
+title: Buyer / Purchasing Assistant
+company: Rise Technical Recruitment - Agency - Permanent
+location: Sussex
 source: JobG8
-job_id: jobg8-23643_225749709
-reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
+job_id: jobg8-23643_225776908
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
 ---
@@ -702,24 +702,24 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Oracle HR & Payroll Support Call Handlers
-company: Adecco - Agency - Temporary
-location: Lewes
-source: JobG8
-job_id: jobg8-23643_225749573
-reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Finance Assistant
 company: Harvey John - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2174014
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Administrator
+company: The Best Connection - Agency - Permanent
+location: Lancing
+source: JobG8
+job_id: jobg8-23643_225788869
+reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -930,6 +930,18 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator (Order Processing)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225790443
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Executive
 company: Blocktech MEP - Agency - Permanent
 location: Shoreham-by-sea
@@ -1030,6 +1042,18 @@ title: Service Advisor
 company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
+job_id: jobg8-2151146
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
 job_id: jobg8-2188533
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
@@ -1052,7 +1076,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
@@ -1118,7 +1142,7 @@ job_id: jobg8-108230183
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -1141,6 +1165,18 @@ company: NC Associates - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-2178753
+reason: The stated workplace belongs outside the approved Horsham employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable
+company: CMA Recruitment Group - Agency - Permanent
+location: Chichester
+source: JobG8
+job_id: jobg8-23643_225684878
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 
@@ -1177,6 +1213,18 @@ company: Olympus Recruitment - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-23643_225740875
+reason: The stated workplace belongs outside the approved Horsham employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Claims Administrator
+company: Tate - Agency - Temporary
+location: Brighton
+source: JobG8
+job_id: jobg8-23643_225685620
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 
@@ -1388,18 +1436,6 @@ reason: The stated workplace belongs outside the approved Horsham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Purchase Ledger Administrator
-company: First Recruitment Services - Agency - Temporary
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225759664
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist
 company: Clearline Recruitment Ltd - Agency - Permanent
 location: Brighton
@@ -1501,5 +1537,17 @@ company: Workshop Recruitment - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-2159118
+reason: The stated workplace belongs outside the approved Horsham employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Customer Service Advisor
+company: Search Consultancy Ltd - Agency - Contract
+location: Littlehampton
+source: JobG8
+job_id: jobg8-23643_225790280
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---

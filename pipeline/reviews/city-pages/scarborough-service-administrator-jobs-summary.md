@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 42
+- automatic include: 5
+- automatic review: 38
 - automatic exclude: 0
-- effective include: 4
-- effective review: 42
+- effective include: 5
+- effective review: 38
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Administrator
+company: KD Recruitment - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225788225
+reason: Exact approved Scarborough workplace.
+---
 
 ---
 action: 
@@ -72,7 +84,7 @@ job_id: nhs-5690490
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (38)
 
 ---
 action: 
@@ -83,18 +95,6 @@ company: Abbey Personnel Services Ltd - Agency - Permanent
 location: Sherburn In Elmet
 source: JobG8
 job_id: jobg8-23643_225224895
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Controller
-company: Nigel Wright Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2207066
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -163,18 +163,6 @@ action:
 decision: review
 automatic_decision: review
 title: Commercial Property Paralegal
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225708921
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Paralegal
 company: Search Consultancy Ltd - Agency - Permanent
 location: Yorkshire
 source: JobG8
@@ -227,18 +215,6 @@ company: Consortium Professional Recruitment - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2163066
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Michael Page Finance - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2192281
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -479,18 +455,6 @@ company: PK Education - Agency - Temporary
 location: York
 source: JobG8
 job_id: jobg8-23643_225755874
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Residential Property Legal Assistant
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-23643_225733131
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

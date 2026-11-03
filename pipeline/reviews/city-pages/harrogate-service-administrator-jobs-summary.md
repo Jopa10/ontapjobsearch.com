@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 18
-- automatic exclude: 26
+- automatic exclude: 23
 - effective include: 2
 - effective review: 18
-- effective exclude: 26
+- effective exclude: 23
 
 ## INCLUDE (2)
 
@@ -266,19 +266,7 @@ job_id: jobg8-108059238
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (26)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Receivable Controller
-company: Nigel Wright Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2207066
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
+## EXCLUDE (23)
 
 ---
 action: 
@@ -313,18 +301,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225747065
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Commercial Property Paralegal
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225708921
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -373,18 +349,6 @@ company: Consortium Professional Recruitment - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2163066
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: Michael Page Finance - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2192281
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -464,6 +428,18 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part Time Administrator
+company: KD Recruitment - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225788225
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part Time Administrator (Fixed Term Contract - 9 Months)
 company: KD Recruitment - Agency - Permanent
 location: Scarborough
@@ -529,18 +505,6 @@ company: PK Education - Agency - Temporary
 location: York
 source: JobG8
 job_id: jobg8-23643_225755874
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Residential Property Legal Assistant
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-23643_225733131
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

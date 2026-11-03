@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 30
+- automatic review: 33
 - automatic exclude: 0
 - effective include: 4
-- effective review: 30
+- effective review: 33
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,19 @@ job_id: nhs-5659638
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (33)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: CY Executive Resourcing - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225686542
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -150,6 +162,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: BMW Accounts Assistant
+company: Sytner - Company - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225787202
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bookkeeper
 company: Bell Cornwall Recruitment - Agency - Permanent
 location: Droitwich
@@ -174,6 +198,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Contact Centre Manager
+company: Brellis Recruitment - Agency - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-23643_225779372
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Contact Centre Supervisor
 company: Brellis Recruitment - Agency - Permanent
 location: Worcestershire
@@ -186,11 +222,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor / Administrator
-company: Colbern Limited - Agency - Contract
+title: Customer Service Advisor
+company: Winsearch - Agency - Temporary
 location: Worcestershire
 source: JobG8
-job_id: jobg8-23643_225745587
+job_id: jobg8-23643_225786355
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

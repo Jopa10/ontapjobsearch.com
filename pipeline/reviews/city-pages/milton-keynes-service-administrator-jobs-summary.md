@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 25
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 64
+- automatic include: 24
+- automatic review: 68
 - automatic exclude: 0
-- effective include: 25
-- effective review: 64
+- effective include: 24
+- effective review: 68
 - effective exclude: 0
 
-## INCLUDE (25)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Assistant
-company: Broster Buchanan - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-2153033
-reason: Exact approved Milton Keynes workplace.
----
+## INCLUDE (24)
 
 ---
 action: 
@@ -100,11 +88,11 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: HR Coordinator
-company: Bletchley Park Trust Limited - Agency - Permanent
+title: Customer Service Advisor
+company: Pro Staff Recruitment Ltd - Agency - Temporary
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-23643_225747350
+job_id: jobg8-23643_225789640
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -112,11 +100,11 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Logistics Coordinator
-company: Allstaff - Agency - Permanent
+title: HR Coordinator
+company: Bletchley Park Trust Limited - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-23643_225755179
+job_id: jobg8-23643_225747350
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -324,7 +312,7 @@ job_id: jobg8-2169089
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (64)
+## REVIEW (68)
 
 ---
 action: 
@@ -371,6 +359,18 @@ company: Marc Daniels - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225729763
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Morgan McKinley (Milton Keynes) - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225787317
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -431,6 +431,18 @@ company: Tithe Farm - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_224178579
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225790460
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -666,6 +678,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Options Resourcing Ltd - Agency - Temporary
+location: High Wycombe
+source: JobG8
+job_id: jobg8-23643_225786844
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Assistant
 company: Fawkes & Reece London - Agency - Permanent
 location: Buckinghamshire
@@ -695,6 +719,18 @@ company: Orion Electrotech - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225749883
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Human Resources Officer
+company: TLTP Education - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225686799
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -755,18 +791,6 @@ company: Prospero Integrated - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2203860
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Communications Executive
-company: Technical Futures Ltd - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225692869
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -846,11 +870,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal
-company: Medlock Partners Limited - Agency - Permanent
+title: Paralegal - Conveyancing
+company: Cameo Consultancy - Agency - Permanent
 location: Beaconsfield
 source: JobG8
-job_id: jobg8-2169073
+job_id: jobg8-23643_225746927
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -858,11 +882,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal - Conveyancing
-company: Cameo Consultancy - Agency - Permanent
-location: Beaconsfield
+title: Part time Accounts Payable
+company: Morgan McKinley (Milton Keynes) - Agency - Temporary
+location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225746927
+job_id: jobg8-23643_225787233
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -1067,6 +1091,18 @@ company: Chiltern Way Academy Trust
 location: Aylesbury
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Vehicle Pricing Administrator
+company: Aspire Personnel Ltd - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225790236
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

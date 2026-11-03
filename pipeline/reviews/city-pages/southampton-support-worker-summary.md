@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 2
 - automatic review: 22
 - automatic exclude: 13
-- effective include: 1
+- effective include: 2
 - effective review: 22
 - effective exclude: 13
 
-## INCLUDE (1)
+## INCLUDE (2)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225761993
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Youth Support Worker
+company: Brook Street Social Care - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225199243
 reason: Approved Southampton catchment.
 ---
 

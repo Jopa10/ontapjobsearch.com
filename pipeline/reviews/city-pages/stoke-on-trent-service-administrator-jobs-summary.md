@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 69
+- automatic review: 72
 - automatic exclude: 0
 - effective include: 7
-- effective review: 69
+- effective review: 72
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5675916
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (69)
+## REVIEW (72)
 
 ---
 action: 
@@ -203,18 +203,6 @@ company: Fusion People Ltd - Agency - Contract
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225740166
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Veolia - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225725986
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -354,6 +342,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Administrator
+company: Linkster Recruitment - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225686777
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Agent
 company: Safer Hand Solutions - Agency - Permanent
 location: Stone
@@ -407,6 +407,18 @@ company: Universal Business Team - Agency - Permanent
 location: Stafford
 source: JobG8
 job_id: jobg8-23643_225739392
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Co-ordinator
+company: MY Trust - Agency - Permanent
+location: Rugeley
+source: JobG8
+job_id: jobg8-108261842
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -618,6 +630,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Part-Time Administrator
+company: Fusion People Ltd - Agency - Contract
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225788736
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: 365 People - Agency - Permanent
 location: Tamworth
@@ -659,18 +683,6 @@ company: Winsearch - Agency - Temporary
 location: Stafford
 source: JobG8
 job_id: jobg8-23643_225702468
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll and Benefits Officer
-company: Four Squared Recruitment Ltd - Agency - Permanent
-location: Stafford
-source: JobG8
-job_id: jobg8-23643_225709155
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -858,6 +870,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: Direct Recruitment (Midlands) Ltd - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225417337
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Ledger Clerk
 company: Mitchell Adam - Agency - Permanent
 location: Staffordshire
@@ -935,6 +959,18 @@ company: Future Select Recruitment - Agency - Permanent
 location: Cannock
 source: JobG8
 job_id: jobg8-23643_225687700
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Website Administrator
+company: Work Lyf Group Ltd - Agency - Permanent
+location: Stafford
+source: JobG8
+job_id: jobg8-23643_225706813
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

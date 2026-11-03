@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 29
+- automatic include: 18
+- automatic review: 30
 - automatic exclude: 0
-- effective include: 19
-- effective review: 29
+- effective include: 18
+- effective review: 30
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (18)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Pure 4 Recruitment - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225687790
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: RG Consultancy Ltd - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2211142
 reason: Exact approved Stockport workplace.
 ---
 
@@ -252,7 +240,7 @@ job_id: jobg8-23643_225744140
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (29)
+## REVIEW (30)
 
 ---
 action: 
@@ -407,6 +395,18 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-2171395
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Pickles Recruitment - Agency - Permanent
+location: Denton
+source: JobG8
+job_id: jobg8-23643_225790447
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

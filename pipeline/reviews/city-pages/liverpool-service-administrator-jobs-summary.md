@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 50
+- Effective included jobs: 52
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 50
-- automatic review: 6
+- automatic include: 52
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 50
-- effective review: 6
+- effective include: 52
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (50)
+## INCLUDE (52)
 
 ---
 action: 
@@ -177,6 +177,18 @@ company: Reed - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-2169859
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller-6 Months FTC
+company: LJ Recruitment - Agency - Contract
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225684403
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -532,6 +544,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Ledger
+company: Reed - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2151103
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Administrator
 company: Forrest Recruitment - Agency - Temporary
 location: Liverpool
@@ -624,7 +648,7 @@ job_id: jobg8-23643_225761106
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -683,18 +707,6 @@ company: The Eventus Recruitment Group - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-2171965
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Adaptable Recruitment - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2187943
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

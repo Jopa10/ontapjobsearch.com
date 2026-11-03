@@ -1,5 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225704747,Administrator,Caval Limited - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
+include,jobg8-23643_225685872,Administrator,TSR Recruitment Limited - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-2171014,Commercial Property Assistant,SJC Partners - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-2164192,Conveyancing Paralegal,G2 Legal Limited - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-2169132,Credit Controller,Elevation Recruitment Group - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
@@ -36,6 +37,7 @@ exclude,jobg8-20279_63174-89740a075c6163b74ea2c52702062e5d,Call Centre Agent,EE 
 exclude,jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33,Call Centre Operator,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,nhs-5687642,Clinical Administrator,Sheffield Health Partnership University NHS Foundation Trust,"Sheffield, S2 2BT",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225765151,Commercial Sales Administrator,Big Fish Little Fish - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,jobg8-23643_225789265,Connecting Communities Coordinator,Voluntary Action Rotherham - Agency - Contract,Brinsworth,JobG8,exclude,exclude,Separate employment market.,context:rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-20279_63174-d24d3d6916a209e15b1680693740da2f,Contact Centre Agent,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-23643_224831378,Conveyancing Paralegal,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
@@ -59,6 +61,7 @@ exclude,jobg8-23643_225740720,Part-time Payroll Admin,Portfolio Payroll Limited 
 exclude,jobg8-23643_225720547,Payroll Administrator,Edwards & Pearce - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-2191592,Payroll Administrator,Elevation Recruitment Group - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-2177843,Payroll Administrator,Portfolio Payroll - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
+exclude,jobg8-23643_225684316,Payroll Administrator,SARIA - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-2165598,Payroll Assistant Interim,Michael Page Finance - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225774666,Procurement Administrator,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225706715,Production Administrator,Chesterfield Poultry - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
@@ -77,5 +80,6 @@ exclude,teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63
 exclude,nhs-5687012,Senior Administrator,STEPS Rehabilitation,"Sheffield, S7 2QA",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225736471,Service Administrator,Sue Ross Recruitment Ltd - Agency - Contract,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225739769,Service and Validation Administrator,Unicorn Resourcing - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
+exclude,jobg8-23643_225789027,Temporary Receptionist,CCA Recruitment Group - Agency - Temporary,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225728023,Volunteer Coordinator,Rotherham Hospice - Agency - Permanent,Brinsworth,JobG8,exclude,exclude,Separate employment market.,context:rotherham,barnsley-service-administrator-jobs
 exclude,nhs-5695575,Ward Clerk,The Rotherham NHS Foundation Trust,"ROTHERHAM, S60 2UD",NHS Jobs,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs

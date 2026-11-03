@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 17
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 18
-- effective review: 17
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (18)
@@ -105,6 +105,18 @@ company: Reed - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-2164416
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Belmont Recruitment - Agency - Contract
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225787579
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -220,18 +232,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Senior Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU3 2JZ
-source: NHS Jobs
-job_id: nhs-5672082
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Theatre Administrator
 company: Spire Healthcare - Company - Permanent
 location: Hull
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225713565
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (19)
 
 ---
 action: 
@@ -323,6 +323,18 @@ company: SaB Consulting Yorkshire Limited - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225705236
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Logistics Coordinator
+company: Consortium Professional Recruitment Ltd - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-23643_225731622
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -431,6 +443,18 @@ company: Permanent Futures Limited - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225737067
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Bookkeeper
+company: KD Recruitment - Agency - Contract
+location: Bridlington
+source: JobG8
+job_id: jobg8-23643_225788061
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

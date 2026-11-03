@@ -1,5 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225761993,Care Assistant,Hamberley Care Management Limited - Company - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
+include,jobg8-23643_225199243,Youth Support Worker,Brook Street Social Care - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 review,jobg8-23643_225760935,Care Assistant,Care First UK Recruitment Solutions - Agency - Permanent,Totton,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401785913,Care Assistant,Hampshire County Council - Company - Permanent,Alton,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-1401785962,Care Assistant,Hampshire County Council - Company - Permanent,Gosport,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker

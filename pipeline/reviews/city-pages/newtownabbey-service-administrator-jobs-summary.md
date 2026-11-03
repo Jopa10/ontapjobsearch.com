@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 14
+- automatic review: 12
 - automatic exclude: 0
 - effective include: 0
-- effective review: 14
+- effective review: 12
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (14)
+## REVIEW (12)
 
 ---
 action: 
@@ -47,30 +47,6 @@ company: Parker Jones Group Ltd - Company - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-23643_225763981
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Brook Street - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2177173
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Brook Street - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225761514
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

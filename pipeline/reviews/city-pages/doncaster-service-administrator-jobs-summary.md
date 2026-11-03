@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 18
 - automatic review: 13
-- automatic exclude: 50
-- effective include: 17
+- automatic exclude: 53
+- effective include: 18
 - effective review: 13
-- effective exclude: 50
+- effective exclude: 53
 
-## INCLUDE (17)
+## INCLUDE (18)
 
 ---
 action: 
@@ -165,6 +165,18 @@ company: Edwards & Pearce - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225720547
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: SARIA - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225684316
 reason: Approved Doncaster catchment.
 ---
 
@@ -386,7 +398,7 @@ job_id: jobg8-2153824
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (50)
+## EXCLUDE (53)
 
 ---
 action: 
@@ -500,6 +512,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administrator
+company: TSR Recruitment Limited - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225685872
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Audience Development Coordinator - Local Authority - Libraries
 company: Reed - Agency - Permanent
 location: Sheffield
@@ -553,6 +577,18 @@ company: Big Fish Little Fish - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225765151
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Connecting Communities Coordinator
+company: Voluntary Action Rotherham - Agency - Contract
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225789265
 reason: Separate employment market.
 ---
 
@@ -949,6 +985,18 @@ company: Unicorn Resourcing - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-23643_225739769
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Receptionist
+company: CCA Recruitment Group - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225789027
 reason: Separate employment market.
 ---
 
