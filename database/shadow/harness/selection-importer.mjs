@@ -1,3 +1,4 @@
+import {decodeAppearances} from './appearance-manifest.mjs';
 import {canonicalSelection,encodeHistory,decodeHistory} from './selection-history.mjs';
 import assert from 'node:assert/strict';
 import { contentHash, stableId } from './importer.mjs';
@@ -116,7 +117,9 @@ export async function attachCompactSelection(client,{runId,fixture,context,paren
     assert.equal(run.diagnostics.imported_records,fixture.sourceHashes.length);
     // Membership is specific to the accepted raw run, not the whole historical
     // advert table. Existing staged imports assign appearances to the full run.
-    const stored=(await client.query(`SELECT a.supplier_job_id AS ref,a.content_hash FROM ontap_shadow.advert_appearances p JOIN ontap_shadow.supplier_adverts a ON a.id=p.advert_id WHERE p.feed_run_id=$1 AND p.supplier_id=$2`,[runId,run.supplier_id])).rows;
+    const stored=run.diagnostics.compact_appearances
+      ? (await client.query(`SELECT supplier_job_id AS ref,content_hash FROM ontap_shadow.supplier_adverts WHERE supplier_id=$1 AND supplier_job_id IN (SELECT jsonb_array_elements_text($2::jsonb))`,[run.supplier_id,JSON.stringify(decodeAppearances(run.diagnostics.compact_appearances))])).rows
+      : (await client.query(`SELECT a.supplier_job_id AS ref,a.content_hash FROM ontap_shadow.advert_appearances p JOIN ontap_shadow.supplier_adverts a ON a.id=p.advert_id WHERE p.feed_run_id=$1 AND p.supplier_id=$2`,[runId,run.supplier_id])).rows;
     const hashes=new Map(fixture.sourceHashes);assert.equal(stored.length,hashes.size,'Run membership mismatch');
     for(const row of stored)assert.equal(row.content_hash,hashes.get(row.ref),'Current raw advert differs from verified selection');
     let parent=null;

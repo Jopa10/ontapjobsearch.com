@@ -63,3 +63,31 @@ test('raw mismatch, partial mode and storage rejection leave compact history una
  await assert.rejects(importStage(db,{...raw(records,'2026-11-03'),percentage:20},{compactSelection:true}),/full snapshot/);
  }finally{await db.close();}
 });
+
+test('compact appearance manifests retain exact daily gaps/returns and compact display roundtrips through database',async()=>{
+ const {readAppearances,encodeAppearances,decodeAppearances}=await import('./appearance-manifest.mjs');
+ const {encodeCompactDisplay,decodeCompactDisplay,attachCompactDisplay,readCompactDisplay}=await import('./display-snapshot.mjs');
+ const db=new PGlite();try{await db.exec(schema);let parent=null;const runs=[];
+ for(const [day,ids] of [['2026-11-02',['1','2']],['2026-11-03',['1','3']],['2026-11-04',['1','2']]]){
+  const records=rows(ids),f=fixture(records,day);
+  f.decisions[0]={...f.decisions[0],decision:'include',regions:['Test']};
+  const outputs={['admin_service:Test']:[{job_id:'1',title:'Administrator',apply_url:'https://example.org/1',salary_text:'Salary not stated'}]};
+  f.report.outputsSha256=contentHash(outputs);
+  await importStage(db,raw(records,day),{compactSelection:true});const id=runId(f);runs.push(id);
+  await attachCompactSelection(db,{runId:id,fixture:f,context,parentRunId:parent});
+  assert.deepEqual(await readAppearances(db,id),{date:day,refs:ids});
+  assert.equal((await counts(db)).advert_appearances,0);
+  assert.equal((await attachCompactDisplay(db,id,outputs)).replayed,false);
+  assert.equal((await attachCompactDisplay(db,id,outputs)).replayed,true);
+  assert.deepEqual(await readCompactDisplay(db,id),outputs);
+  const state=(await readCompactSelection(db,id)).state,packed=encodeCompactDisplay(outputs,state);
+  assert.deepEqual(decodeCompactDisplay(packed,state),outputs);
+  assert.throws(()=>decodeCompactDisplay({...packed,outputsSha256:'0'.repeat(64)},state),/Corrupt/);
+  parent=id;
+ }
+ assert.deepEqual((await readAppearances(db,runs[0])).refs,['1','2']);
+ assert.deepEqual((await readAppearances(db,runs[1])).refs,['1','3']);
+ const corrupt=encodeAppearances(['1']);corrupt.sha256='0'.repeat(64);assert.throws(()=>decodeAppearances(corrupt),/Corrupt/);
+ assert.throws(()=>encodeAppearances(['1','1']),/Duplicate/);
+ }finally{await db.close();}
+});

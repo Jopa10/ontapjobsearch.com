@@ -1,3 +1,4 @@
+import {encodeAppearances} from './appearance-manifest.mjs';
 import { stableId, contentHash } from './importer.mjs';
 
 export const DEFAULT_BUDGET = 800 * 1024 * 1024;
@@ -80,7 +81,7 @@ export async function importStage(client,fixture,{chunkSize=300,compactSelection
     }
     await client.query(`INSERT INTO ontap_shadow.feed_runs(id,supplier_id,feed_key,feed_date,source_checksum,status,received_count,rules_revision,diagnostics)
       VALUES($1,$2,$3,$4,$5,'staged',$6,$7,$8)`,[runId,supplier,feedKey,observedOn,sourceHash,totalReceived,sourceRevision,
-      {archive_sha256:archiveSha256,percentage,imported_records:records.length,partial_feed:percentage<100,expiry_enabled:false,receipt_diagnostics:fixture.receiptDiagnostics || null,...(compactSelection?{selection_representation:'compact_pending',selection_status:'pending',compact_raw_budget:compactBudget}:{})}]);
+      {archive_sha256:archiveSha256,percentage,imported_records:records.length,partial_feed:percentage<100,expiry_enabled:false,receipt_diagnostics:fixture.receiptDiagnostics || null,...(compactSelection?{selection_representation:'compact_pending',selection_status:'pending',compact_raw_budget:compactBudget,compact_appearances:encodeAppearances(normalized.map(r=>r.ref))}:{})}]);
     for (let offset=0;offset<normalized.length;offset+=chunkSize) {
       const chunk=JSON.stringify(normalized.slice(offset,offset+chunkSize));
       const args=[chunk,supplier,observedOn];
@@ -107,7 +108,7 @@ export async function importStage(client,fixture,{chunkSize=300,compactSelection
         location=CASE WHEN $3::date>=j.last_seen AND (j.preferred_advert_id IS NULL OR j.preferred_advert_id=a.id) THEN r.location ELSE j.location END,
         preferred_advert_id=COALESCE(j.preferred_advert_id,a.id)
         FROM ${input} JOIN ontap_shadow.supplier_adverts a ON a.supplier_id=$2 AND a.supplier_job_id=r.ref WHERE j.id=a.job_id`,args);
-      await client.query(`INSERT INTO ontap_shadow.advert_appearances(advert_id,seen_on,supplier_id,feed_run_id)
+      if(!compactSelection) await client.query(`INSERT INTO ontap_shadow.advert_appearances(advert_id,seen_on,supplier_id,feed_run_id)
         SELECT a.id,$3::date,$2,$4 FROM ${input} JOIN ontap_shadow.supplier_adverts a ON a.supplier_id=$2 AND a.supplier_job_id=r.ref
         ON CONFLICT(advert_id,seen_on) DO UPDATE SET feed_run_id=EXCLUDED.feed_run_id`,[...args,runId]);
       if(!compactSelection) await client.query(`INSERT INTO ontap_shadow.selection_decisions(id,advert_id,feed_run_id,scope,decision,reason,rules_revision,evidence)

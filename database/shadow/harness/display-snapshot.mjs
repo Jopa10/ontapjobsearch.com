@@ -1,3 +1,5 @@
+import {gzipSync,gunzipSync} from 'node:zlib';
+import {readCompactSelection} from './selection-importer.mjs';
 import assert from 'node:assert/strict';
 import {contentHash} from './importer.mjs';
 import {measure,DEFAULT_BUDGET} from './staged-importer.mjs';
@@ -47,4 +49,46 @@ export async function attachDisplay(client,outputs,receipt) {
     assert.equal((await client.query("SELECT count(*)::int AS n FROM ontap_shadow.jobs WHERE publication_status<>'withheld'")).rows[0].n,0);
     await client.query('COMMIT');return {outputs:actual,report:{...summary,replayed:!!prior}};
   }catch(e){await client.query('ROLLBACK');throw e;}
+}
+
+// Opt-in compact display representation; legacy pinned display evidence is intact.
+export function encodeCompactDisplay(outputs,state){
+ assert.equal(contentHash(outputs),state.report.outputsSha256,'Wrong compact display hash');
+ const groups=projection(outputs),selected=state.decisions.filter(d=>d.decision==='include');
+ assert.equal(groups.length,selected.length,'Incomplete compact display');
+ const known=new Map(selected.map(d=>[d.scope+':'+d.ref,d]));
+ for(const g of groups){const d=known.get(g.scope+':'+g.ref);assert.ok(d);assert.deepEqual(g.displayRows.map(x=>x.region).sort(),[...d.regions].sort());}
+ const payload=gzipSync(Buffer.from(JSON.stringify(outputs)),{level:9}).toString('base64');
+ assert.ok(payload.length<=32*1024*1024);
+ return {version:1,codec:'gzip-base64',outputsSha256:contentHash(outputs),selectionStateSha256:contentHash(state),payload};
+}
+export function decodeCompactDisplay(saved,state){
+ assert.equal(saved.version,1);assert.equal(saved.codec,'gzip-base64');assert.ok(saved.payload.length<=32*1024*1024);
+ assert.equal(saved.selectionStateSha256,contentHash(state),'Wrong display selection state');
+ const outputs=JSON.parse(gunzipSync(Buffer.from(saved.payload,'base64'),{maxOutputLength:128*1024*1024}));
+ assert.equal(contentHash(outputs),saved.outputsSha256,'Corrupt compact display');
+ encodeCompactDisplay(outputs,state);return outputs;
+}
+export async function attachCompactDisplay(client,runId,outputs){
+ await client.query('BEGIN');try{
+  await client.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:jobg8'))");
+  const {state}=await readCompactSelection(client,runId);const packed=encodeCompactDisplay(outputs,state);
+  const run=(await client.query('SELECT supplier_id,diagnostics FROM ontap_shadow.feed_runs WHERE id=$1',[runId])).rows[0];
+  if(run.diagnostics.compact_display){assert.deepEqual(decodeCompactDisplay(run.diagnostics.compact_display,state),outputs);await client.query('COMMIT');return {replayed:true};}
+  const ads=(await client.query('SELECT supplier_job_id,apply_url FROM ontap_shadow.supplier_adverts WHERE supplier_id=$1',[run.supplier_id])).rows;
+  const urls=new Map(ads.map(a=>[a.supplier_job_id,a.apply_url]));
+  for(const rows of Object.values(outputs))for(const row of rows)assert.equal(row.apply_url,urls.get(row.job_id),'Apply URL differs from raw advert');
+  const before=await measure(client);assert.ok(before.databaseBytes+Buffer.byteLength(JSON.stringify(packed))*3+64*1024*1024<DEFAULT_BUDGET,'Compact display storage ceiling');
+  await client.query("UPDATE ontap_shadow.feed_runs SET diagnostics=jsonb_set(diagnostics,'{compact_display}',$2::jsonb) WHERE id=$1",[runId,JSON.stringify(packed)]);
+  const saved=(await client.query('SELECT diagnostics FROM ontap_shadow.feed_runs WHERE id=$1',[runId])).rows[0].diagnostics.compact_display;
+  assert.deepEqual(decodeCompactDisplay(saved,state),outputs);
+  assert.ok((await measure(client)).databaseBytes+64*1024*1024<DEFAULT_BUDGET);
+  await client.query('COMMIT');return {replayed:false,encodedBytes:Buffer.byteLength(JSON.stringify(packed))};
+ }catch(e){await client.query('ROLLBACK');throw e;}
+}
+export async function readCompactDisplay(client,runId){
+ const {state}=await readCompactSelection(client,runId);
+ const run=(await client.query('SELECT diagnostics FROM ontap_shadow.feed_runs WHERE id=$1',[runId])).rows[0];
+ assert.ok(run?.diagnostics.compact_display,'Missing verified compact display');
+ return decodeCompactDisplay(run.diagnostics.compact_display,state);
 }

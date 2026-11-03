@@ -1,0 +1,27 @@
+{
+  "testedAt": "2026-11-03T10:55:28.343Z",
+  "sourceSelectionArtifact": 13184005546,
+  "sourceDisplayArtifact": 13183730978,
+  "sourceRun": 41530087079,
+  "outputsSha256": "c2b1c7710151669e4592b0954ec6023ddd250638ebbf9eb00aeda6959b02ae83",
+  "advertCount": 43796,
+  "regionalOutputs": 239,
+  "displayEntries": 5821,
+  "appearanceEncodedBytes": 170998,
+  "displayEncodedBytes": 6185669,
+  "exactAppearanceReadback": true,
+  "exactDisplayReadback": true,
+  "neonWrites": false,
+  "productionChanged": false,
+  "scope": "Local complete saved-snapshot codec verification, synthetic dependency context; no current turnover or Neon allocation proof",
+  "remaining": [
+    "No Neon allocation verification",
+    "Real fresh-run dependency provenance",
+    "Current full raw turnover",
+    "Verified historical display archival/retention before daily ingestion",
+    "Fresh-feed and remote full-site tests"
+  ],
+  "ninetyDayNoTurnoverScenarioBytes": 1037816125,
+  "ninetyDayScenarioNote": "Illustrative full display each day plus periodic decision baselines, unchanged inventory; exceeds 800 MiB. Not certified actual usage; no cleanup assumed.",
+  "harnessTestsPassed": 20
+}
