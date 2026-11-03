@@ -15,11 +15,47 @@
   "existingStageRequestChanged": false,
   "latestActualDatabaseBytes": 407363584,
   "remainingPrerequisites": [
-    "Recover full CloudShell ontap-current-turnover-result.json/current ZIP checksum",
+    "Full detailed turnover receipt remains in owner CloudShell; exact source checksum/ETag/count excerpt is now pinned here",
     "Adapt existing historically pinned selector entry point to explicit validated new source",
     "Capture complete fresh selector evidence and real runtime dependency provenance",
     "Prepare guarded build-only Preview entry point and save source before any remote run"
   ],
   "partialFailureBoundary": "Existing raw/selection/display entry points commit separately. Scalar phase checkpoints and identical pinned input permit recovery. Not a globally atomic feed transaction.",
-  "resume": "Check GitHub/Vercel activity first. Read runbook and canonical records. Preserve usage today: no full replays or remote tests. Tomorrow use exact saved source identity, never invent missing ZIP checksums. Production remains file-based and unmerged; no cleanup or plan upgrade authorized."
+  "resume": "Source identity recovered and saved; do not repeat comparisons or archive uploads. Check activity, then follow NEXT_INTEGRATION_TEST.md using this pinned 3 November key/size/SHA-256 and counts. That runbook's missing-checksum prerequisite is superseded by pinnedSavedSource here. Runner adaptation, actual selector/runtime capture and guarded Preview wiring remain pending. No remote runs today; no cleanup/cutover/plan change.",
+  "pinnedSavedSource": {
+    "evidenceSource": "Owner CloudShell screenshot image(20261103-143346).png",
+    "evidenceLibraryFile": "libfile_c919b4a4b3ec8191a2216266f603e28b",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "region": "eu-west-2",
+    "archiveChecksums": {
+      "previous": "c97d222e267065ca8d81bf58ebca7164d2cf6b93ffee3ae82c389a2222044487",
+      "current": "e6dcb08ea537bcb34dffd2ad9da089d443b5f0b1f875018c53aac0357fecc892"
+    },
+    "s3Sources": {
+      "2026-11-02": {
+        "key": "jobg8/raw/2026-11-02.zip",
+        "bytes": 34684862,
+        "etag": "\"9c02e0a30a346706bcc0c828abe9ac9b-5\"",
+        "lastModified": "2026-11-02 17:56:54+00:00",
+        "sha256": "c97d222e267065ca8d81bf58ebca7164d2cf6b93ffee3ae82c389a2222044487"
+      },
+      "2026-11-03": {
+        "key": "jobg8/raw/2026-11-03.zip",
+        "bytes": 35800056,
+        "etag": "\"3763376ffef7e7b444b9996b3cbf7bd-5\"",
+        "lastModified": "2026-11-03 07:59:34+00:00",
+        "sha256": "e6dcb08ea537bcb34dffd2ad9da089d443b5f0b1f875018c53aac0357fecc892"
+      }
+    },
+    "expectedCurrentCounts": {
+      "sourceRows": 44432,
+      "cleanRecords": 44430,
+      "conflictingIdsHeld": [
+        "1401786160"
+      ]
+    },
+    "originalNeonSourceSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+    "note": "S3 daily 2 November snapshot differs from original Neon test source. For tomorrow verify SHA-256 before parsing/import; ETag is multipart metadata, not a SHA-256 checksum. Captured from owner output, not independently re-downloaded."
+  },
+  "sourceChecksumPrerequisiteResolved": true
 }
