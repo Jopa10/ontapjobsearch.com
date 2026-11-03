@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-03",
+  "evidence_source": "Owner-provided AWS CloudShell audit output",
+  "verified": {
+    "region": "eu-west-2",
+    "lifecycle_global_expiration_days": 93,
+    "versioning": "not enabled",
+    "object_lock": "not configured",
+    "encryption": "AES256",
+    "github_oidc_trust": "main only; duplicate main entries do not grant feature-branch access",
+    "github_new_archive_prefix_get_put_simulation": "allowed; actual writes/immutable conditions untested",
+    "raw_2026_11_02_readable": true,
+    "raw_2026_11_03_readable": true
+  },
+  "proposed_change": {
+    "rule_filter_before": {},
+    "rule_filter_after": {
+      "Prefix": "jobg8/raw/"
+    },
+    "raw_expiration_days_unchanged": 93,
+    "shadow_expiration": "none until verified inactivity-based retention exists"
+  },
+  "aws_change_applied": false,
+  "tests_passed": 3,
+  "resume": "Run saved prepare_archive_lifecycle.py in authenticated CloudShell; default plan, --apply performs the reviewed narrowing after backup and prefix guards. Paste readback. No IAM trust changes or object deletions."
+}

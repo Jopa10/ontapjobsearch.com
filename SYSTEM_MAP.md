@@ -12,6 +12,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 3 November 2026 — **AWS archive audit received; lifecycle separation prepared:** owner output confirms global 93-day expiry and main-only GitHub OIDC trust. A guarded CloudShell script can narrow expiry to `jobg8/raw/`, retaining the raw policy and excluding database archives until inactivity-based cleanup is proved. Three tests pass; no AWS change yet. Actual immutable writes/raw retention guarantee remain pending. Receipt: `database/shadow/archive-policy-checkpoint-2026-11-03.json`.
+
 - 3 November 2026 — **Archive access verification awaits authenticated AWS audit:** repository confirms existing S3 bucket/OIDC role and lifecycle-owned expiry; live retention/new-prefix permissions are unverified because this session lacks S3/IAM access. A read-only CloudShell audit is saved with two boundary tests. No AWS call, trust/policy change, import or cleanup. Resume from `database/shadow/archive-access-checkpoint-2026-11-03.json`.
 
 - 3 November 2026 — **Self-contained display archive locally verified:** saved complete state/239 outputs restore exactly from an 8.15 MB archive; 23 harness checks pass. Seven-day/64 MiB hot-display retention planning blocks unverified archives and performs no cleanup. A verified archive pointer can be recorded through the existing run diagnostics; no new tables. Persistent archive provider/permissions, real dependency provenance and 90-day allocation remain pending. No remote/Neon/production changes. Receipt: `database/shadow/display-archive-verification-2026-11-03.json`.
