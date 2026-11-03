@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-03",
+  "status": "prepared-not-executed",
+  "activityCheck": {
+    "githubInProgress": 0,
+    "githubQueued": 0
+  },
+  "sourceCommit": "aef3c8e037726755a78a743b9b684586205f9454",
+  "script": "database/shadow/verify_archive_transport.py",
+  "testsPassed": 4,
+  "fixtureBytes": 922,
+  "fixtureScope": "Synthetic codec-valid transport packet. Existing full 8.15 MB fixture verified locally previously; full persistent recovery still pending.",
+  "remoteExecuted": false,
+  "neonChanged": false,
+  "productionChanged": false,
+  "cleanupExecuted": false,
+  "resume": "Run the saved script in already-authenticated owner CloudShell, return printed receipt. Do not repeat lifecycle apply, assume feature-branch role or start imports. Record actual result before claiming S3 transport success."
+}

@@ -514,3 +514,31 @@ This is intentionally no automatic expiry for database archives until verified i
 ## Lifecycle separation applied — 3 November 2026, 11:17 UTC
 
 Owner CloudShell screenshot confirms `applied: true`, `readback_verified: true`; the enabled 93-day rule now filters `jobg8/raw/`. Database archive prefix `ontap-shadow/` is excluded from automatic expiration. Backup: `ontap-lifecycle-before-20261103T111731621152Z.json` in owner CloudShell. No objects deleted, IAM trust changed or production/Neon import performed. Do not rerun the apply script: its old-configuration guard should now refuse. Actual immutable provider write/read, production runtime integration and raw advert 90-days-after-inactivity guarantee remain pending. Archive accumulation requires monitoring and later reference-aware cleanup. Resume from updated `archive-policy-checkpoint-2026-11-03.json`.
+
+
+## Persistent archive transport probe — prepared 3 November 2026
+
+`verify_archive_transport.py` is an explicitly invoked CloudShell probe. It embeds a
+922-byte synthetic archive made and restored by the existing JavaScript display
+archive codec. The exact key is allowlisted. It checks account, region and the
+already-applied raw-only lifecycle before any write, sends AES256 and SHA-256 with
+`IfNoneMatch=*`, requires HTTP 412 on repeat, and reads back exact bytes and the
+complete decoded packet. Same-script reruns reuse the existing object after exact
+validation. Unexpected API errors, checksum mismatch, expiring content or changed
+lifecycle fail closed. No unconditional put/delete, IAM/lifecycle mutation,
+Neon connection, feed fetch, publication or email exists in this executable.
+
+Four mocked API-boundary tests pass. Saved fixture was generated and semantically
+restored locally with `makeDisplayArchive` / `restoreDisplayArchive`; Python verifies
+the complete packet hash during recovery. The probe reports explicitly that this
+is synthetic transport evidence, not real selectors/provenance, full 8.15 MB S3
+recovery, Object Lock, GitHub-role access or 90-day raw retention. There is no
+production adapter integration yet. Conditional client writes prevent this client
+overwriting an existing object; privileged unconditional writes remain possible.
+
+Save the executable and checkpoint in GitHub before providing the pinned CloudShell
+command. The owner runs it in the existing authenticated CloudShell; a successful
+receipt is saved as `ontap-archive-transport-result.json` before it is printed.
+Only after owner output is received may remote transport be recorded as passed.
+Keep the object; no cleanup is authorized. Recover from
+`archive-transport-checkpoint-2026-11-03.json`.
