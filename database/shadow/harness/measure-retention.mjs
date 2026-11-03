@@ -27,6 +27,6 @@ async function main(){
  await fs.mkdir('retention-dist',{recursive:true});
  await fs.writeFile('retention-dist/report.json',JSON.stringify(report,null,2)+'\n');
  await fs.writeFile('retention-dist/index.html','<!doctype html><meta name="robots" content="noindex,nofollow"><title>Ontap read-only storage audit</title><p>Storage measurement completed. No database records changed.</p>');
- console.log('ONTAP_RETENTION_AUDIT '+JSON.stringify(report));
+ for (const [key,value] of Object.entries(report)) console.log('ONTAP_RETENTION_AUDIT '+JSON.stringify({[key]:value}));
 }
 main().catch(e=>{console.error('ONTAP_RETENTION_AUDIT_FAILED',e.code||'audit_error');process.exitCode=1;});
