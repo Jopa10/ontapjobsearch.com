@@ -10,6 +10,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 3 November 2026 — **Offline turnover/budget checkpoint complete:** existing preflight compares saved full spreadsheets and estimates next-import headroom; ten checks pass. Historical full-feed comparison passed, but current raw turnover remains unmeasured. Today’s 44,432 received rows fail the conservative nine-scope append-import budget even at hypothetical zero turnover (842.14 MB including reserve versus 838.86 MB ceiling). No fresh import or production change. Reduce repeated decision storage before another full DB feed test. Receipt: `database/shadow/turnover-budget-verification-2026-11-03.json`.
+
 - 3 November 2026 — **Read-only retention measurement complete:** database 407.35 MB: decisions 207.03 MB, supplier adverts 158.60 MB, jobs 24.43 MB, appearances 8.71 MB. Daily append-everything cannot fit 90 days on Free; current raw turnover remains UNKNOWN. Proposed current-state plus compressed archive retention preserves URLs and the agreed 90-day inactive-advert history but is not implemented. No deletion/import/production change. Receipt and proposal: `database/shadow/retention-measurement-2026-11-03.json`, `retention-assessment-2026-11-03.md`. Audit Preview READY; no run remains active.
 
 - 3 November 2026 — **Read-only retention audit prepared:** Preview-only aggregate storage measurement distinguishes raw adverts, scoped decisions, display evidence and historical test records. No cleanup/import is enabled. Current daily raw turnover remains unmeasured; 90-day retention is not yet certified to fit Free. See `database/shadow/README.md`.
