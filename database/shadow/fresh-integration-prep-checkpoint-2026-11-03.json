@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-03",
+  "preparedAt": "2026-11-03T14:29:46.432270+00:00",
+  "status": "local-preparation-complete-remote-execution-deferred",
+  "parentCommit": "a6577ebbdae0533d4a3202d190d709be990a8f9e",
+  "entrypoint": "database/shadow/harness/compact-integration.mjs",
+  "runbook": "database/shadow/NEXT_INTEGRATION_TEST.md",
+  "focusedPostgresTestsPassed": 3,
+  "syntheticLocalFixtures": true,
+  "fullFeedReplayRun": false,
+  "remoteBuildRun": false,
+  "neonImportRun": false,
+  "expiryEnabled": false,
+  "productionChanged": false,
+  "existingStageRequestChanged": false,
+  "latestActualDatabaseBytes": 407363584,
+  "remainingPrerequisites": [
+    "Recover full CloudShell ontap-current-turnover-result.json/current ZIP checksum",
+    "Adapt existing historically pinned selector entry point to explicit validated new source",
+    "Capture complete fresh selector evidence and real runtime dependency provenance",
+    "Prepare guarded build-only Preview entry point and save source before any remote run"
+  ],
+  "partialFailureBoundary": "Existing raw/selection/display entry points commit separately. Scalar phase checkpoints and identical pinned input permit recovery. Not a globally atomic feed transaction.",
+  "resume": "Check GitHub/Vercel activity first. Read runbook and canonical records. Preserve usage today: no full replays or remote tests. Tomorrow use exact saved source identity, never invent missing ZIP checksums. Production remains file-based and unmerged; no cleanup or plan upgrade authorized."
+}

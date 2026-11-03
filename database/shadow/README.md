@@ -746,3 +746,28 @@ Node 24, same project update timestamp/protection and production alias. No
 function, public alias, email, plan or schedule changed; no build remains running.
 Receipt: `compact-allocation-verification-2026-11-03.json`; recovery/state:
 `compact-allocation-checkpoint-2026-11-03.json`. Do not repeat this completed probe.
+
+
+## Next-run preparation — 3 November 2026
+
+The owner reserved remaining usage for local preparation only.
+`harness/compact-integration.mjs` composes existing raw/selection/display
+entry points with strict captured-manifest/raw/date/output validation before
+any DB access, scalar phase checkpoints, exact readback and complete replay.
+Three focused local PostgreSQL checks pass for update/gap/return/stable IDs,
+invalid evidence rejection before access, and resumable display-phase failure.
+The test inputs are synthetic; actual fresh execution/provenance remains pending.
+Underlying stages commit separately; a later failure does not globally roll back
+the accepted raw stage. All jobs remain withheld and expiry remains disabled.
+
+No remote entry point, workflow mode, request-file change or run is enabled.
+The full CloudShell source receipt/current ZIP checksum is still needed. The
+existing replay runner still pins the original 2 November feed/count and needs
+explicit validated-source adaptation before tomorrow's fresh saved-feed test.
+The existing 3 November saved feed is preferred over fetching another supplier
+snapshot merely for this test. No storage sizing, selector or archive proof
+should be repeated. No cutover, cleanup, email, schedule or plan change.
+
+Execution order and remaining expiry/90-day/runtime/publisher gates:
+`NEXT_INTEGRATION_TEST.md`. Prepared state:
+`fresh-integration-prep-checkpoint-2026-11-03.json`.
