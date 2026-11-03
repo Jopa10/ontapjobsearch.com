@@ -645,3 +645,29 @@ from one committed revision in the same directory. Run
 Actual S3 execution/results remain pending until owner output is received.
 No new supplier feed is fetched. No cleanup/import/cutover is authorized.
 Resume from `current-turnover-checkpoint-2026-11-03.json`.
+
+
+### Daily archive is not automatically the Neon test source
+
+The first owner execution stopped at the ZIP pin guard: daily S3 2 November ZIP
+is byte-different from the separately captured test ZIP. This proves neither
+content corruption nor semantic difference; raw job hashes must decide.
+
+Corrected comparison reads the existing full archive
+`ontap-full-display-2026-11-02.json.gz` if present in CloudShell, verifying its
+exact 8,147,866-byte length and pinned SHA-256 before recovering source hashes.
+If absent locally, S3 mode READS the already-verified content-addressed archive
+object, never uploads or replaces it. Its source raw-archive SHA/counts are checked.
+Synthetic run/dependency metadata are not used to certify fresh runtime evidence.
+
+The result separates daily S3 2-to-3 November turnover from pinned-Neon-to-current
+turnover. A packaging-only difference is reported only if every clean ID/hash
+matches; otherwise the snapshots remain distinct. Budget forecasts use exact
+pinned source hashes, not the different daily archive. Unlinked comparisons may
+report raw daily turnover but have no storage estimate. No baseline guard is
+bypassed. Source-object metadata/checksums are checkpointed locally before the
+comparison, retaining evidence if a later stage fails. The detailed result stays
+in `ontap-current-turnover-result.json`; terminal output is a compact summary.
+
+Sixteen checks pass (seven comparison/provider/baseline, three raw preparation,
+six existing preflight). Actual corrected S3 comparison is pending owner output.

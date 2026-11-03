@@ -1,3 +1,4 @@
+import gzip
 import hashlib
 import io
 import json
@@ -39,10 +40,35 @@ class Tests(unittest.TestCase):
             self.assertFalse(r['expiryApplied']);self.assertFalse(r['databaseChanged'])
             self.assertFalse(r['compactRawProjection']['selectionDisplayGrowthIncluded'])
             self.assertFalse(r['compactRawProjection']['importAuthorized'])
-    def test_wrong_pin_fails_before_parse(self):
+    def test_wrong_pin_blocks_budget_without_verified_baseline(self):
         with tempfile.TemporaryDirectory() as folder:
             path=Path(folder)/'feed.zip';archive(path,[job('1')])
-            with self.assertRaisesRegex(ValueError,'pinned source'):compare.compare(path,path,{})
+            result=compare.compare(path,path,{})
+            self.assertIsNone(result['compactRawProjection'])
+            self.assertFalse(result['databaseBaselineLink']['verified'])
+            self.assertEqual(result['turnover']['unchanged'],1)
+    def test_distinct_daily_and_neon_snapshots_use_correct_budget_baseline(self):
+        with tempfile.TemporaryDirectory() as folder:
+            previous,current=Path(folder)/'daily-old.zip',Path(folder)/'daily-new.zip'
+            archive(previous,[job('1')]);archive(current,[job('1')])
+            baseline={'feed_date':'2026-11-02','adverts':[{'supplier_job_id':'1','content_hash':'0'*64}]}
+            measured=json.loads(Path(__file__).with_name('retention-measurement-2026-11-03.json').read_text())
+            result=compare.compare(previous,current,measured,baseline)
+            self.assertEqual(result['turnover']['changed'],0)
+            self.assertEqual(result['databaseBaselineTurnover']['changed'],1)
+            self.assertEqual(result['compactRawProjection']['changedOrNewAdverts'],1)
+            self.assertFalse(result['databaseBaselineLink']['previousZipMatchesNeonPin'])
+            self.assertTrue(result['databaseBaselineLink']['verified'])
+    def test_pinned_archive_checksum_and_source_hashes_verified(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path=Path(folder)/'baseline.gz'
+            packet={'version':1,'feedDate':'2026-11-02','state':{'report':{'archiveSha256':compare.PREVIOUS_SHA},'sourceHashes':[['1','a'*64]]}}
+            path.write_bytes(gzip.compress(json.dumps(packet).encode()))
+            with self.assertRaisesRegex(ValueError,'checksum'):compare.load_pinned_baseline(path)
+            with patch.object(compare,'BASELINE_SHA',compare.checksum(path)),patch.object(compare,'BASELINE_BYTES',path.stat().st_size),patch.object(compare,'PREVIOUS_DIAGNOSTICS',{'uniqueSupplierIds':1,'conflictingIdsHeld':[]}):
+                result=compare.load_pinned_baseline(path)
+                self.assertEqual(result['adverts'][0]['content_hash'],'a'*64)
+
     def test_read_only_s3_download_pins_etag_and_owner(self):
         class S3:
             def head_object(self,**kw):

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "preparedAt": "2026-11-03T13:49:26.243288+00:00",
-  "status": "prepared-not-executed",
+  "status": "initial-s3-run-blocked-pin-mismatch-correction-prepared",
   "parentCommit": "347dac5ad1a9124681c1767387a88a92c8328c96",
   "activityAtStart": {
     "githubInProgress": 0,
@@ -13,15 +13,21 @@
     "2026-11-03"
   ],
   "testsPassed": {
-    "comparisonProvider": 5,
+    "comparisonProvider": 7,
     "existingArchiveStage": 3,
     "existingPreflight": 6
   },
   "actualTurnoverKnown": false,
-  "s3Execution": false,
+  "s3Execution": true,
   "databaseChanged": false,
   "productionChanged": false,
   "supplierFetch": false,
   "neonMeasurement": "Last saved 407347200 bytes; no fresh measurement in this checkpoint",
-  "resume": "Owner runs pinned read-only CloudShell comparison and returns summary; then record actual current turnover. Compact raw gate forecast excludes later selection/display growth and does not authorize an import. No selector replay or archive upload repeat; no cleanup/daily ingestion/cutover."
+  "resume": "Owner reruns corrected pinned read-only CloudShell comparison. Script reuses checksum-verified local full display archive or downloads that known S3 archive READ ONLY. No archive upload, selector replay, Neon write or supplier fetch. Preserve daily-pair vs pinned-Neon comparison distinction. Actual turnover and current allocation remain unknown until output.",
+  "initialExecutionCommit": "02ce630f4f04ce7fd13a0d1dbd05a281b3346a26",
+  "evidenceSource": "Owner CloudShell screenshot image(20261103-135725).png",
+  "evidenceLibraryFile": "libfile_2175d00974c88191a29dbb55e37a9c51",
+  "initialError": "2 November archive differs from accepted pinned source",
+  "initialErrorInterpretation": "Daily S3 ZIP differs from separately saved Neon test ZIP; exact byte mismatch is not proof of raw-content change or corruption. No actual checksum/count values were printed before the original guard stopped.",
+  "correction": "Use exact sourceHashes recovered from SHA-pinned already-verified full archive to link forecasts to Neon; report daily S3 pair turnover separately. ZIP identity mismatch never bypasses baseline integrity."
 }
