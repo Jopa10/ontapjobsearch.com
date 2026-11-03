@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-02
+review_date: 2026-11-03
 review_fingerprint: 356ffa1678680abdd81e5315f68ca56f8708729cd9472bc231cf49940b0d1557
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -134,11 +134,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-st
 
 ## HARD_PASS
 
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-diocese-of-salisbury-academy-trust) — Excluded senior/management title.
-- [Clerk to Governors](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-grove-learning-trust) — No usable numeric salary.
 - [HLTA Behaviour and Inclusion](https://teaching-vacancies.service.gov.uk/jobs/hlta-behaviour-and-inclusion-lawn-manor-academy) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-4c722adb-c7a9-4af5-b8d5-bf00527c02c0) — Insufficient admin/service evidence.
 - [Resourcing & Talent Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/resourcing-talent-development-assistant) — Insufficient admin/service evidence.
+- [School Receptionist](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-even-swindon-primary-school-swindon-wiltshire) — No usable numeric salary.
 
 ## Safety boundary
 

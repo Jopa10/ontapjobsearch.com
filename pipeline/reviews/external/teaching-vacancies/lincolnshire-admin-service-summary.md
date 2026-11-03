@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-02
-review_fingerprint: 3b00ccd0e7667a6fe6d6fdbdc850794a134767ff22024c5f7470e566100079ca
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+review_date: 2026-11-03
+review_fingerprint: acaf6fe5034d0d82d5537daeaadf977e4531c264a9e275c1a30880308b0d04be
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 7
+- Records: 13
+- Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
@@ -109,6 +109,21 @@ factual_fingerprint: 081379c8381ecf2938665d49eefee16b0e31771f2ea630a772ed24b834f
 source: Teaching Vacancies
 source_job_id: pupil-receptionist-administrator-d44ce344-7740-41cd-9180-1240273f0189
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-receptionist-administrator-d44ce344-7740-41cd-9180-1240273f0189
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 9AF | Grade 3 £23,490 - £24620 | Receptionist
+employer: Sir Robert Pattinson Academy
+closing_date: 2026-11-17T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6a934b085abee9c58709ee44f7c7f0e611260d516e1199cc273136f7db242fb0
+source: Teaching Vacancies
+source_job_id: receptionist-sir-robert-pattinson-academy-lincoln-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sir-robert-pattinson-academy-lincoln-lincolnshire
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-02
+review_date: 2026-11-03
 review_fingerprint: 0e0223c2315f50bb8ce2cc06e018763e3a65ad10e6b42a252da559bb19bbb5ea
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -65,7 +65,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-oulder-h
 - [Governance and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-officer-newhouse-academy) — No usable numeric salary.
 - [Grade 2 Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/grade-2-administration-officer) — Insufficient admin/service evidence.
 - [Head of Human Resources](https://teaching-vacancies.service.gov.uk/jobs/head-of-human-resources-st-teresa-of-calcutta-catholic-academy-trust) — Excluded senior/management title.
-- [School Business Manager (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-level-3-sandbrook-community-primary-school-rochdale-lancashire) — Excluded senior/management title.
 
 ## Safety boundary
 

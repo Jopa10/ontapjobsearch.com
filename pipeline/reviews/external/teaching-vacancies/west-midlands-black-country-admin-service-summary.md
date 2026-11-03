@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-02
+review_date: 2026-11-03
 review_fingerprint: 35f6a53c9b7cdb6ba245fa2efb4f4c93324ec3c6bf818493518f4b24e14a1911
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -91,8 +91,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 - [Educational Visits & DofE Support Officer](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-dofe-support-officer) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — No usable numeric salary.
-- [Procurement & Bid Writer](https://teaching-vacancies.service.gov.uk/jobs/procurement-bid-writer) — Insufficient admin/service evidence.
-- [Senior Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-assistant-christ-church-church-of-england-primary-school) — Excluded senior/management title.
+- [PA to Head Teacher, Executive Assistant to SLT and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-teacher-executive-assistant-to-slt-and-office-manager-q3-academy-langley) — Excluded senior/management title.
+- [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-barr-beacon-school) — No usable numeric salary.
 
 ## Safety boundary
 

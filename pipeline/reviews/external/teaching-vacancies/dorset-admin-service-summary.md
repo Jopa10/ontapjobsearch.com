@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-11-02
+review_date: 2026-11-03
 review_fingerprint: cc778e9c0e3a826b1c388dfa3363cc75bc8bedf56739f37f0c0504e7e93f1707
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-
 
 ## HARD_PASS
 
+- [Administration Officer with responsibility for Finance](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-with-responsibility-for-finance) — No usable numeric salary.
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-the-bishop-of-winchester-academy) — No usable numeric salary.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-oak-academy) — No usable numeric salary.
 

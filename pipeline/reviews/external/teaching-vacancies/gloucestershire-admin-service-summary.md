@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-11-02
+review_date: 2026-11-03
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 5
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 5
 
 ## SELECTED
 
@@ -33,8 +33,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-chosen-hill-school) — Excluded senior/management title.
+- [Employability Skills and Industry Placement Coach](https://teaching-vacancies.service.gov.uk/jobs/employability-skills-and-industry-placement-coach-south-gloucestershire-and-stroud-college) — Out-of-scope occupation: coach.
 - [Finance Officer - Accounting Technician](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-accounting-technician) — Out-of-scope occupation: technician.
+- [Printmaking and Arts Technician](https://teaching-vacancies.service.gov.uk/jobs/printmaking-and-arts-technician) — Out-of-scope occupation: technician.
+- [Science Technician](https://teaching-vacancies.service.gov.uk/jobs/science-technician-south-gloucestershire-and-stroud-college) — Out-of-scope occupation: technician.
+- [Sports and Events Coordinator](https://teaching-vacancies.service.gov.uk/jobs/sports-and-events-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-11-02
-review_fingerprint: 6256660004090f643ef346dfccf7ca0b2353befaf68539ea1c771bfc95add756
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+review_date: 2026-11-03
+review_fingerprint: 8696d1bae8e2abecdbd57859a0fb35e43df6ab382fce777e2e85cb5873a6eb7a
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -34,6 +34,21 @@ factual_fingerprint: dbbcf180222d8625b08a44dcdc6ebe390ec6bae6f505c194f0fccdde53f
 source: Teaching Vacancies
 source_job_id: exams-officer-cardinal-newman-catholic-school-hove-east-sussex
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cardinal-newman-catholic-school-hove-east-sussex
+---
+
+---
+action: 
+SELECTED | Sussex | Haywards Heath, South East, RH17 6EQ | S3, SP 20.1 – 23, £25,293.36 - £26,965.71 (actual salary) – (FTE - £29,538.00 -£31,491.00) | Receptionist / Administrator
+employer: Brantridge School
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fa151c83aeca08223d416e4ab2971b4ebeb19d2c8db880ee4049f5fa65ce30f9
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-brantridge-school-haywards-heath-west-sussex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-brantridge-school-haywards-heath-west-sussex
 ---
 
 ---

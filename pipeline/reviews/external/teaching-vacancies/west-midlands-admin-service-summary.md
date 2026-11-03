@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-11-02
-review_fingerprint: 889036b098456e8181d012cad061e06fe4451c5ac799559bebef95b04fdec5a0
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+review_date: 2026-11-03
+review_fingerprint: 90dcd0c06ad20ae073119f29bed3e9dd08963dead752a1b45f89a6b2d63a7cf1
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-woodrus
 
 ---
 action: 
-SELECTED | West Midlands | Wythall, West Midlands, B47 5JW | £26,427.00 - £26,427.00 Annually (FTE) Actual pro rata salary up to £22,731 per annum | Receptionist and Administration Assistant
-employer: Woodrush High School
-closing_date: 2026-11-07T10:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
+SELECTED | West Midlands | Willenhall, West Midlands, WV12 4QZ | £9,510.00 - £10,136.00 Annually (Actual) NJC Salary Scale 7 - 11 | SEN Administrator
+employer: Pool Hayes Academy
+closing_date: 2026-11-18T09:00:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 0edf5a650fdccf141420d3d513bf0613f949a60269d37b659430edbb589d3099
+factual_fingerprint: 08f948f67ab6fe1b429dc17484718b1b49892556904bbce2e4f58e155bd25772
 source: Teaching Vacancies
-source_job_id: receptionist-and-administration-assistant-woodrush-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administration-assistant-woodrush-high-school
+source_job_id: sen-administrator-pool-hayes-academy-willenhall-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-pool-hayes-academy-willenhall-west-midlands
 ---
 
 ## POSS — choose SELECT or EXCLUDE

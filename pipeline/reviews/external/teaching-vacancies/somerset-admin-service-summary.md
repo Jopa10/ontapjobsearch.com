@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-02
-review_fingerprint: e992b120f98eee2f7eb98a958730e09c2b9320c5de293ceb1fb1d850267ab356
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+review_date: 2026-11-03
+review_fingerprint: 2b7ab3860affdb7a921b6f85fcccf7def40449098979d82f415019fdef57cd79
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 6
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
 
@@ -30,7 +30,7 @@ reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 762e2dc28c8af48d9598c3e22ebd9f6cefb3f77212dafe0caff291b7e45ab83d
+factual_fingerprint: 07a6f42b412b01277c29af7e22828123fbbf62c5bedf2e62e549bc7d8297ece3
 source: Teaching Vacancies
 source_job_id: admin-assistant-cover-coordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-cover-coordinator
@@ -74,10 +74,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 
 ## HARD_PASS
 
-- [Data Administrator & System Management Support](https://teaching-vacancies.service.gov.uk/jobs/data-administrator-system-management-support) — No usable numeric salary.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Excluded senior/management title.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-oak-partnership-trust) — Excluded senior/management title.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-locking-primary-school) — Excluded senior/management title.
 - [Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/trust-clerk-c394aee1-d7ed-4c84-85d4-9c9175bf52c7) — Insufficient admin/service evidence.
 
 ## Safety boundary

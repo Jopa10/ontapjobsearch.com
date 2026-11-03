@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-02
-review_fingerprint: 23e51304b6342ca478987cd3887fbb208ce1e1c463b6e3eb4de48625c9acb464
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+review_date: 2026-11-03
+review_fingerprint: 750230def758456d9703f80a5a9200834f0b394a5f4a8f599202f63c9abd1b87
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 1
-- POSS awaiting decision: 2
+- Records: 7
+- Selected: 2
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
 
@@ -36,37 +36,24 @@ source_job_id: admin-assistant-student-services-reception-support-murray-park-co
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-student-services-reception-support-murray-park-community-school
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Derbyshire | Hope Valley, East Midlands, S33 6SD | £26,427.00 - £26,847.00 Annually (FTE) Actual Salary £13,823 to £14,043 | Receptionist
-employer: Hope Valley College
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0b9dc42575d55b4684ea471c8f42737569921775f9483dec51bf7c71642c322f
-source: Teaching Vacancies
-source_job_id: receptionist-d23e1267-9b18-4deb-8377-a4ade5fb90cf
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-d23e1267-9b18-4deb-8377-a4ade5fb90cf
----
-
----
-action: 
-POSS | Derbyshire | Bakewell, East Midlands, DE45 1JA | £26,016.00 - £26,427.00 Annually (FTE) Actual Salary £14,306 to £14,532 per annum | School Business Assistant
-employer: Lady Manners School
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Administrative duties evidenced in description
+SELECTED | Derbyshire | Derby, East Midlands, DE24 0BR | SCP 15 - SCP20 FTE £31,025 - £33,673 (Actual £26,875.15 - £29,178.36) | PA to Headteacher
+employer: Noel-Baker Academy
+closing_date: 2026-11-22T23:00:00+00:00
+reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0efd3ddf6d37a47422e5ebf81b85c34e02245704062d7b4b39e1a062f5ddc443
+factual_fingerprint: 33b0fe6716247f6e5998ac65008c5b415c7eb421612b43ca9de06f02c44faca8
 source: Teaching Vacancies
-source_job_id: school-business-assistant-lady-manners-school-bakewell-derbyshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-lady-manners-school-bakewell-derbyshire
+source_job_id: pa-to-headteacher-noel-baker-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-noel-baker-academy
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 

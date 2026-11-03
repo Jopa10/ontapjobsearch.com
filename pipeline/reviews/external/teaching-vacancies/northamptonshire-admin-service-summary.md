@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-02
-review_fingerprint: 31ab500b2d9cf66d76f17382d2cf3bff753723e35f1adb79d7623dcc016c8305
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+review_date: 2026-11-03
+review_fingerprint: 793b138c9c93ebeae06454aa375b5d474ec112ebcf2dc930134946df73b600c3
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 9
-- POSS awaiting decision: 1
+- Records: 15
+- Selected: 8
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -141,21 +141,6 @@ source_job_id: school-receptionist-northampton-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-northampton-school
 ---
 
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN4 6TP | £22,525.00 - £22,884.00 Annually (Actual) | Technical Administrator
-employer: Caroline Chisholm School
-closing_date: 2026-11-04T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d483896366dafd3a4dd0dcba39122bdf60db61f3f9a8911e9cf4538a5c35a172
-source: Teaching Vacancies
-source_job_id: technical-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/technical-administrator
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -173,12 +158,28 @@ source_job_id: administrator-st-barnabas-church-of-england-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barnabas-church-of-england-school
 ---
 
+---
+action: 
+POSS | Northamptonshire | Northampton, East Midlands, NN4 6TP | £22,525.00 - £22,884.00 Annually (Actual) | Technical Administrator
+employer: Caroline Chisholm School
+closing_date: 2026-11-04T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d483896366dafd3a4dd0dcba39122bdf60db61f3f9a8911e9cf4538a5c35a172
+source: Teaching Vacancies
+source_job_id: technical-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/technical-administrator
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-0ddbb56c-5635-4a81-8fed-8aa32c472a35) — Insufficient admin/service evidence.
 - [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant-greenfields-specialist-school-for-communication-northampton-northamptonshire) — Insufficient admin/service evidence.
 - [Northampton Business Partner](https://teaching-vacancies.service.gov.uk/jobs/northampton-business-partner-the-abbey-primary-school) — Insufficient admin/service evidence.
 - [Part time TLT HR Manager](https://teaching-vacancies.service.gov.uk/jobs/part-time-tlt-hr-manager) — Excluded senior/management title.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-02
-review_fingerprint: 11527970f6c096977788647782ca6933bfe7a982abfd1ddcebcf61a6412582f4
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+review_date: 2026-11-03
+review_fingerprint: 607d8c45d15393c68d3dcfb0e1c3dd24ec28ed355aaf505f4de7a1c28e3103f9
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 1
+- Records: 11
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 76afd54c624a5f741af1330f3917ee9202c2ff0d3c81b7bc0105c59cb14
 source: Teaching Vacancies
 source_job_id: business-support-officer-the-valley-leadership-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-the-valley-leadership-academy
+---
+
+---
+action: 
+SELECTED | Lancashire - East | Accrington, North West, BB5 4FF | £25,852.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year | Business Support Officer - Reception
+employer: Accrington Academy
+closing_date: 2026-11-15T17:00:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6811fb350d3536707edd034e76f02916a57642a0ba636bfcb679181d1e9f6ef1
+source: Teaching Vacancies
+source_job_id: business-support-officer-reception-accrington-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-reception-accrington-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -80,6 +95,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hynd
 - [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-the-hyndburn-academy) — Insufficient admin/service evidence.
 - [Examinations and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-and-administration-officer-our-lady-and-st-john-rc-high-school-a-voluntary-academy-blackburn-lancashire) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-marsden-heights-community-college) — Insufficient admin/service evidence.
+- [Personal Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-newfield-school) — No usable numeric salary.
 
 ## Safety boundary
 

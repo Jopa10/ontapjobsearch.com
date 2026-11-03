@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-02
-review_fingerprint: 106cf17b66afaab3e720721ba8e2497bcb3e281655886a19fa253d40b87c3302
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+review_date: 2026-11-03
+review_fingerprint: c69111a934a1e7850b2b015083c331eea9a75a947131c79de9c92bc9fac40cd2
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 15
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-administra
 
 ---
 action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB2 8PX | £25,159.00 - £25,951.00 Annually (FTE) Starting Salary £25,159.00 | Examinations Administrator
+employer: Long Road Sixth Form College
+closing_date: 2026-11-17T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2ca164877615e5a0ed517c56151a502ed553f62228a9c955b25a8c6fed414efb
+source: Teaching Vacancies
+source_job_id: examinations-administrator-long-road-sixth-form-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-administrator-long-road-sixth-form-college
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | St. Neots, East of England, PE19 2SH | £32,578.00 - £34,812.00 Annually (FTE) Pro rata salary - £30,003 - £32,061 | Exams Officer
 employer: Ernulf Academy
 closing_date: 2026-11-15T23:59:00+00:00
@@ -82,6 +97,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Cambridgeshire | St Ives, East of England, PE27 6RR | £42,405.00 Annually (Actual) | Finance Manager (Fixed Term Maternity Cover)
+employer: St Ivo Academy
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4b9242ccc1c907db0e936d56ad245f4e62fc2344d1385cc9edbf5f5662836607
+source: Teaching Vacancies
+source_job_id: finance-manager-fixed-term-maternity-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-fixed-term-maternity-cover
+---
 
 ---
 action: 

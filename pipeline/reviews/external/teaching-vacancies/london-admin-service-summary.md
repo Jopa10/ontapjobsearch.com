@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-02
-review_fingerprint: e35ca88631d9f3f366b4908b01a3e5d34402016f15027a487440410cc01bd441
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+review_date: 2026-11-03
+review_fingerprint: 2c1a40768eff5bf136b80cb2a96d2fca3b0ceb1d2b521062d259f67cae84e978
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 65
-- Selected: 11
-- POSS awaiting decision: 15
+- Records: 60
+- Selected: 10
+- POSS awaiting decision: 13
 - Excluded: 0
-- Hard pass: 39
+- Hard pass: 37
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | London | London, London, SE22 0NR | £34,359-£36,423 | Attendance and Admissions Officer
-employer: Harris Girls' Academy East Dulwich
-closing_date: 2026-11-02T23:59:00+00:00
+SELECTED | London | London, London, SE1 0EX | £25,492.00 - £27,400.00 Annually (Actual) Band 5 S13 to S16 for 42.9 weeks (£25,492 - £ 27,400) on the Trust Support Scale for 2025-2026 Including Inner London allowance | Admissions Officer
+employer: Haberdashers' Borough Academy
+closing_date: 2026-11-17T23:59:00+00:00
 reason: Clear admin/service title: admissions officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 162046f8f8de027037fdc25df23c73cfe95e8d7669e365b6877fc627bd69457f
+factual_fingerprint: fb4732f593abbc94abff94d03355a04efcaa9eaa1cc1afe65374c3a3279e7d83
 source: Teaching Vacancies
-source_job_id: attendance-and-admissions-officer-harris-girls-academy-east-dulwich
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-harris-girls-academy-east-dulwich
+source_job_id: admissions-officer-76f3f0cc-e80c-4ff0-b105-5b2f6fdc512d
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-76f3f0cc-e80c-4ff0-b105-5b2f6fdc512d
 ---
 
 ---
@@ -158,21 +158,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ---
 action: 
-SELECTED | London | Uxbridge, London, UB10 8AB | £10,772.00 - £10,926.00 Annually (Actual) | School Administrator (Reception, School Office, WRL, HR)
-employer: Vyners School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 321309487256349bbc5cf53534cb7d11dad4402e56ddc6b333af4f24531bcc2f
-source: Teaching Vacancies
-source_job_id: school-administrator-reception-school-office-wrl-hr
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-reception-school-office-wrl-hr
----
-
----
-action: 
 SELECTED | London | Woodford Green, London, IG8 7DQ | £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£31290 - £32,655 full time equivalent) | Sixth Form Administrative Assistant & Independent Study Supervisor
 employer: Woodbridge High School
 closing_date: 2026-11-09T09:00:00+00:00
@@ -231,21 +216,6 @@ factual_fingerprint: c0f742d04f16b593f1dc2f848f95c2409d3cac934510e207926432a7390
 source: Teaching Vacancies
 source_job_id: administration-officer-sybourn-primary-school-london
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-sybourn-primary-school-london
----
-
----
-action: 
-POSS | London | Croydon, London, CR2 6HS | £30,408 | Administrative Assistant
-employer: Harris Primary Academy Haling Park
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 62b09da4070660a26530d1fcf96c838647fb50ed7f19d0af6bab68a3510731fa
-source: Teaching Vacancies
-source_job_id: administrative-assistant-harris-primary-academy-haling-park
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-harris-primary-academy-haling-park
 ---
 
 ---
@@ -340,21 +310,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-bex
 
 ---
 action: 
-POSS | London | Chislehurst, London, BR7 6HE | £29,561 | Receptionist & Administrator
-employer: Chislehurst School for Girls
-closing_date: 2026-11-03T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 49a5d46df28cf44469b8e47c98f176231a9555e557a10797dc482480121956c3
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-chislehurst-school-for-girls
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-chislehurst-school-for-girls
----
-
----
-action: 
 POSS | London | London, London, E14 0AF | £33,700-£35,500 dependent upon experience | Recruitment and HR Administrator
 employer: New City College
 closing_date: 2026-11-15T23:59:00+00:00
@@ -421,7 +376,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 
 - [Apprentice Administrator](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-the-john-roan-school-london) — No usable numeric salary.
 - [Assistant Librarian](https://teaching-vacancies.service.gov.uk/jobs/assistant-librarian-davenant-foundation-school) — No usable numeric salary.
-- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-harris-lowe-academy-willesden) — Excluded senior/management title.
 - [Attendance, Data and Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-data-and-administrative-officer) — Insufficient admin/service evidence.
 - [Careers & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-work-experience-co-ordinator-davenant-foundation-school) — No usable numeric salary.
 - [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-5bbd91b2-0afc-4796-b38f-b0811a522b87) — Insufficient admin/service evidence.
@@ -433,13 +387,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Excluded senior/management title.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college-london) — Excluded senior/management title.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
+- [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
 - [Head of Year](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-city-of-london-academy-highbury-grove) — Excluded senior/management title.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-dbe8438f-4742-4952-b196-d00e6c812af2) — Out-of-scope occupation: teacher, headteacher.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-orchard-park-high-school-croydon-surrey) — Out-of-scope occupation: teacher, headteacher.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — No usable numeric salary.
 - [HR Coordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-highgate-wood-secondary-school) — No usable numeric salary.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-ernest-bevin-academy) — Excluded senior/management title.
-- [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover) — Excluded senior/management title.
 - [HR, People and Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-and-culture-manager-wren-academies-trust) — Excluded senior/management title.
 - [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c5500de0-8688-44f2-9650-5f16af71c014) — Excluded senior/management title.
@@ -449,14 +403,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Part Time Receptionist](https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-shacklewell-primary-school) — No usable numeric salary.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-girls-learning-trust) — Insufficient admin/service evidence.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Excluded senior/management title.
+- [Receptionist (0.53FTE, Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/receptionist-0-53fte-maternity-cover) — No usable numeric salary.
 - [School Business and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-and-operations-manager-stanhope-primary-school-greenford) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hobbayne-primary-school-london) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-whitehall-park-school) — Excluded senior/management title.
 - [School Receptionist, Administrative and Welfare Support](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-administrative-and-welfare-support) — No usable numeric salary.
-- [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-9fa464f8-e6a5-4f60-bac9-8d1c457a584c) — Insufficient admin/service evidence.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school-london) — Excluded senior/management title.
-- [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer-davenant-foundation-school) — No usable numeric salary.
 - [Welfare and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-admin-officer-willow-tree-primary-school) — No usable numeric salary.
 
 ## Safety boundary

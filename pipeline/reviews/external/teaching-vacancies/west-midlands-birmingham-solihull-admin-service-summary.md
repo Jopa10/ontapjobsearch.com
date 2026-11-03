@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-02
+review_date: 2026-11-03
 review_fingerprint: 5ff818c5961f10b793e3ae3e86faa38877c0974b09c03aa9969a3efac6959d35
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -136,9 +136,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 - [Administration](https://teaching-vacancies.service.gov.uk/jobs/administration) — Insufficient admin/service evidence.
 - [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-thrive-education-partnership) — Excluded senior/management title.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-moseley-school-and-sixth-form-birmingham-west-midlands) — Excluded senior/management title.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-central-region-schools-trust-birmingham-not-recorded) — No usable numeric salary.
 - [Head of Talent and Workforce Planning](https://teaching-vacancies.service.gov.uk/jobs/head-of-talent-and-workforce-planning) — Excluded senior/management title.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-brays-school) — Insufficient admin/service evidence.
 - [Recruitment & Compliance Lead and Executive Assistant to the Principal](https://teaching-vacancies.service.gov.uk/jobs/recruitment-compliance-lead-and-executive-assistant-to-the-principal) — Out-of-scope occupation: principal.
 - [SENIOR ACADEMY ADMINISTRATOR](https://teaching-vacancies.service.gov.uk/jobs/senior-academy-administrator-heathlands-primary-academy) — Excluded senior/management title.
 - [Senior Office Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-office-manager-the-dame-ellen-pinsent-school) — Excluded senior/management title.

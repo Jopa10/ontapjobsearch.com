@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-02
-review_fingerprint: 4b97b680a3717aeaeaa4b29eca49f9f9232e3924c4d1c26747ee0113d70fc31a
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+review_date: 2026-11-03
+review_fingerprint: 3d670a00306144e7c79aa2cd91e36c54e75056d65ca54a3d08b50b1ef288e3f0
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 4
+- Records: 20
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 18
+- Hard pass: 17
 
 ## SELECTED
-
----
-action: 
-SELECTED | Devon | Exeter, South West, EX4 8NN | Grade D £27,709 - £30,515 | Attendance Officer (part-time)
-employer: St James School
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dc250c457682287e2cc5b19ca3a65caf4798277c997da129fb0427054d948ca3
-source: Teaching Vacancies
-source_job_id: attendance-officer-part-time-st-james-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-part-time-st-james-school
----
 
 ---
 action: 
@@ -106,7 +91,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-funding-admin
 - [Patroller](https://teaching-vacancies.service.gov.uk/jobs/patroller) — Insufficient admin/service evidence.
 - [Post-16 Transition Coordinator](https://teaching-vacancies.service.gov.uk/jobs/post-16-transition-coordinator-isca-academy) — No usable numeric salary.
 - [Reception Administrator](https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-a8a7af34-eea8-4688-b23d-e979d7269a87) — No usable numeric salary.
-- [School Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-caretaker-ladysmith-infant-nursery-school) — Out-of-scope occupation: caretaker.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-1ab8b680-19b9-400d-b2ad-e7ffeda3ad14) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy) — Excluded senior/management title.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-02
+review_date: 2026-11-03
 review_fingerprint: 804c4f09b1522ee04e5765b2c11a8c83d0c0fd56f1005c5005810b12b207fb72
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -79,7 +79,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionis
 - [Access Arrangements Co-ordinator/Assessor](https://teaching-vacancies.service.gov.uk/jobs/access-arrangements-co-ordinator-assessor) — Insufficient admin/service evidence.
 - [Administration Manager (Primary)](https://teaching-vacancies.service.gov.uk/jobs/administration-manager-primary) — Excluded senior/management title.
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-kanes-hill-primary-school) — Insufficient admin/service evidence.
-- [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — No usable numeric salary.
+- [HR Advisor (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-fixed-term-king-s-group-academies) — Insufficient admin/service evidence.
 - [Lead Receptionist](https://teaching-vacancies.service.gov.uk/jobs/lead-receptionist-ringwood-school-academy) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-college-park-junior) — Excluded senior/management title.
 

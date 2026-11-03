@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-02
-review_fingerprint: a8dec9479c308850da2d76ac7adb4f172d1b431eeabcf233c9cfa7f1e8135a60
-routing_manifest_sha256: 47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8
+review_date: 2026-11-03
+review_fingerprint: 54159f32607dc0c762fc559a79b0c90ba135a9f3cf77d01a56b61490a7df1be4
+routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 15
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
 
@@ -85,6 +85,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ad
 
 ---
 action: 
+POSS | Yorkshire - South | Sheffield, S9 4WG | £42,405.00 Annually (Actual) | Finance Manager (Fixed Term Maternity Cover)
+employer: Astrea Academy Trust
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8a3abcc4c7b1d7b6fa061c5d051304bdd3913e9ee184c33f36c21831b0134325
+source: Teaching Vacancies
+source_job_id: finance-manager-fixed-term-maternity-cover-astrea-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-fixed-term-maternity-cover-astrea-academy-trust
+---
+
+---
+action: 
 POSS | Yorkshire - South | Doncaster, DN9 1HQ | £31,000.00 - £40,000.00 Annually (FTE) | Governance Professional
 employer: Isle Education Trust
 closing_date: 2026-11-12T09:00:00+00:00
@@ -107,10 +122,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Administration and clerical](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical) — Insufficient admin/service evidence.
 - [Administration and Clerical Level 1](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical-level-1-shortbrook-primary-school) — No usable numeric salary.
 - [Attendance & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-officer-watercliffe-meadow-community-primary-school) — Insufficient admin/service evidence.
+- [Curriculum Manager](https://teaching-vacancies.service.gov.uk/jobs/curriculum-manager-the-sheffield-college) — Excluded senior/management title.
 - [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-sir-thomas-wharton-academy) — Excluded senior/management title.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-af25a6a1-1704-464a-aa02-94005bbeab49) — Salary over £50k.
 - [Inclusion Officer (Alternative Provision)](https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-alternative-provision-sir-thomas-wharton-academy) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-misson-primary-school) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy-rotherham-south-yorkshire) — Excluded senior/management title.
 - [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner) — Salary over £50k.
 
