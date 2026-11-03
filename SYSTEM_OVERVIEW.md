@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 2 November 2026
+**Last updated:** 3 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 3 November 2026 — **Protected display preview in preparation (not deployed):** `harness/display-snapshot.mjs` projects exact verified selector display rows into existing selection-decision evidence, checks membership/apply URLs, reconstructs every ordered region/family output and enforces the 800 MiB ceiling. Two focused display roundtrip/rejection tests pass. No display data has yet been attached to Neon and no preview website has been built. Resume from this checkpoint; reuse recovery artifact `13183730978` from run `41530087079`, compare plain/observed outputs and require the existing receipt hash before attaching display data. Existing completed storage/selection tests must not be repeated. City/final-publisher parity remains pending.
 
 - 2 November 2026 — **Selector parity and Neon attachment verified:** run `41530087079` passed exact output equality across 239 region/family outputs with zero unknowns and 4,884 unique selected jobs. Preview `dpl_FBiZhrK7ogdwbtmtSK7cqZtQJWeF` attached 350,368 scoped decisions, compared every stored outcome/reason/gate/region and verified replay adds nothing. Whole database measured 390,012,928 bytes under the 800 MiB ceiling; all 43,796 jobs remain withheld. Receipt: `database/shadow/selection-verification-2026-11-02.json`. No raw-feed import, production publish, email or paid-plan change. Next: shared display-field normalization and protected database-backed test website; full composition/city parity, expiry and turnover retention remain unproved.
 
