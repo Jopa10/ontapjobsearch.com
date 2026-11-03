@@ -671,3 +671,46 @@ in `ontap-current-turnover-result.json`; terminal output is a compact summary.
 
 Sixteen checks pass (seven comparison/provider/baseline, three raw preparation,
 six existing preflight). Actual corrected S3 comparison is pending owner output.
+
+
+## Compact Neon allocation calibration — prepared 3 November 2026
+
+Current raw turnover is now verified; see `current-turnover-checkpoint-2026-11-03.json`.
+Do not repeat that comparison or the S3 archive upload. Fresh compact import is
+not yet authorized by its raw-only storage forecast.
+
+`harness/measure-compact-allocation.mjs` runs only in protected Preview on the
+existing Neon test project. It SELECTs the saved raw hashes, complete production
+decisions and selected display rows, reconstructs original fixture ordering,
+and requires the original selector fixture checksum and 239-output hash.
+No supplier/archive download or selector replay is needed. Code/register hashes
+are reconstructed historical evidence; actual historical runtime remains unknown.
+
+The existing codecs produce a real saved-snapshot baseline/display/appearance
+payload plus a synthetic unchanged subsequent-day delta/display payload. A
+seven-display scenario stores one baseline payload and six copies of that
+synthetic delta/display payload; these are NOT seven actual feed dates.
+
+`compact-allocation.mjs` holds the existing supplier advisory lock, checks
+prewrite headroom (encoded bytes times three plus 64 MiB reserve), creates only
+`ontap_shadow.compact_allocation_probe`, verifies each JSONB readback and measures
+normal heap/TOAST/index/database allocation. All probe writes always ROLLBACK,
+including on error. A pre-existing probe table is refused, never replaced.
+Existing importer-owned row counts and probe-table absence are checked after
+rollback. No existing row UPDATE/DELETE, feed import, cleanup or plan change
+exists. Catalog/WAL allocation may grow despite rollback; before/during/after
+measurements must be reported without a reclaimed-space claim.
+
+Four local PGlite checks pass (readback/rollback, preflight stop before writes,
+failed-readback rollback, pre-existing-table preservation). This calibrates
+compact JSONB in a separate normal table, not a current-feed end-to-end import
+or exact incremental allocation inside existing feed_runs. It does not prove
+90-day Free viability, raw inactivity retention or fresh-run provenance.
+
+Save source before one deliberate Preview execution. Upload only the harness
+modules/package/lock and pinned receipt/inventory listed in the checkpoint;
+rename `compact-allocation-vercel.json` to `vercel.json` in that isolated bundle.
+Never change project-wide settings or use a production target. Static output
+contains aggregate measurements only, under existing Preview protection.
+Record deployment ID immediately and resume that exact deployment after an
+interruption. Checkpoint: `compact-allocation-checkpoint-2026-11-03.json`.

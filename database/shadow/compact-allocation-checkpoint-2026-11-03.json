@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-03",
+  "preparedAt": "2026-11-03T14:13:51.880615+00:00",
+  "status": "prepared-not-executed",
+  "parentCommit": "888627a02136d941aaf69b106bd80871ab12b911",
+  "project": "prj_sLI0SohbF03NrRFj6yZyuN8mOOZB",
+  "team": "team_xjm8VOa1951ZXxawa7UFF2gd",
+  "target": "preview",
+  "expectedNeonProject": "noisy-fire-97386602",
+  "productionAliasBefore": "dpl_CU6xQY2Ns7NALVPja55GMgdErbFq",
+  "projectUpdatedAtBefore": 1793700433365,
+  "localPostgresTestsPassed": 4,
+  "sourceFiles": {
+    "compact-allocation.mjs": {
+      "path": "database/shadow/harness/compact-allocation.mjs",
+      "sha256": "5b6d6d92c270d902b865cd2aa1b9fc7c81c8fba69d7a181c4e3a4fcd41cd030e"
+    },
+    "measure-compact-allocation.mjs": {
+      "path": "database/shadow/harness/measure-compact-allocation.mjs",
+      "sha256": "9276780de11235649b045c9d0c308dc7170bcf9edf2baddf9ce10e5a1462713f"
+    },
+    "importer.mjs": {
+      "path": "database/shadow/harness/importer.mjs",
+      "sha256": "bcb018103ab295ae62d70b4be379353a7ee2def6a70fd35e5e910ab02d168705"
+    },
+    "staged-importer.mjs": {
+      "path": "database/shadow/harness/staged-importer.mjs",
+      "sha256": "0d6e6530c36b426681dc43b677f7b8283aca494d846acd3ce7f1153eb7d42c80"
+    },
+    "selection-history.mjs": {
+      "path": "database/shadow/harness/selection-history.mjs",
+      "sha256": "df5ab9d500b4376979689830a917314ff8f21c0c26c6eee165f7633f9647bbc2"
+    },
+    "selection-importer.mjs": {
+      "path": "database/shadow/harness/selection-importer.mjs",
+      "sha256": "c063987ca4e7e3ae1199a5fb89202fa2147a5dcc1af00443ee80bdf6becb6663"
+    },
+    "appearance-manifest.mjs": {
+      "path": "database/shadow/harness/appearance-manifest.mjs",
+      "sha256": "e79da333aee77b7d4bc5f756537ca67003e076b05dae92ccfc5daf843d26e968"
+    },
+    "display-snapshot.mjs": {
+      "path": "database/shadow/harness/display-snapshot.mjs",
+      "sha256": "bbfcbc1a2313dc17563b807c5093681e42a585f75e3eaaf952ce68a25d4f3dc5"
+    },
+    "package.json": {
+      "path": "database/shadow/harness/package.json",
+      "sha256": "099d7050e573d3097da95bff6cd9169f4fa6127b7853cdf5fd70205a334f2a54"
+    },
+    "package-lock.json": {
+      "path": "database/shadow/harness/package-lock.json",
+      "sha256": "9b8e6a1c747b97e12c2de476a1df43b425380576063f480e33eb80c1a50c2987"
+    },
+    "vercel.json": {
+      "path": "database/shadow/harness/compact-allocation-vercel.json",
+      "sha256": "4964b65f61cb8a3ed3781ad65c1c42c26213125a45b5d64b663163aac22e3777"
+    },
+    "selection-receipt.json": {
+      "path": "database/shadow/selection-verification-2026-11-02.json",
+      "sha256": "1ed32643e45a2b7c3350b1334f475eba71b61fefd20e79a7155bdece1083259f"
+    },
+    "historical-source.json": {
+      "path": "database/shadow/dependency-source-2026-11-02.json",
+      "sha256": "75861235cc0385b38e3aedf525915ad0631418a3062d8fb16af2983648102830"
+    }
+  },
+  "boundary": "SELECT existing exact pinned evidence; CREATE/INSERT only a separate uncommitted calibration table, always ROLLBACK. No existing record update/delete. No raw feed import, selectors, supplier/S3 fetch, archive upload or production changes. Catalog/WAL allocation may grow even after rollback; measure and report it.",
+  "scenario": "One saved-snapshot compact payload plus six copies of synthetic unchanged-day payload. Seven-display allocation calibration, not seven actual feed dates or real runtime provenance.",
+  "maximumDatabaseBytes": 838860800,
+  "reserveBytes": 67108864,
+  "remoteExecutionStarted": false,
+  "resume": "Inspect deployment activity before launch. Save source commit before one protected Preview. Record deployment ID immediately. Inspect exact deployment before retry. Capture final report/after-rollback allocation; existing row counts and absent probe table must verify. No cleanup, full-feed import, cutover or plan upgrade authorized."
+}
