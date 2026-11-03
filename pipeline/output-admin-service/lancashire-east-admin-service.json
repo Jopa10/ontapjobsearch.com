@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Valley Leadership Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225756312",
@@ -193,6 +197,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "AFR Consulting",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225788986",
+    "title": "HR Administrator",
+    "company": "Office Angels - Agency - Temporary",
+    "location": "Blackburn",
+    "region": "Lancashire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "competitive",
+    "posted_date": "",
+    "description": "Are you ready to step into an exciting HR role within the dynamic construction industry? Our client is seeking a dedicated HR Administrator to join their vibrant team in Bathgate. This is a fantastic opportunity to support the HR function and contribute to a thriving organisation that values its people.\n\nAbout the Organisation:\nOur client is a well-established player in the construction sector, known for their commitment to excellence and innovation. They pride themselves on fostering a positive workplace culture and are looking for an enthusiastic HR Administrator who shares their passion for people and teamwork.\n\nKey Responsibilities:\nIn this role, the HR Administrator will be pivotal in ensuring smooth HR operations. The successful candidate will:\n- Assist in the recruitment process, including posting job advertisements and coordinating interviews.\n- Maintain accurate employee records and ensure compliance with relevant regulations.\n- Support the onboarding process for new hires, providing them with a warm welcome into the organisation.\n- Handle employee inquiries and provide guidance on HR policies and procedures.\n- Assist in payroll and benefits administration to ensure timely and accurate processing.\n- Contribute to the development of HR initiatives that enhance employee engagement and satisfaction.\n\nTo thrive in this role, candidates should possess:\n- Proven experience in HR administration or a similar role, ideally within the construction or related industries.\n- Strong organisational skills and the ability to manage multiple tasks effectively.\n- Excellent communication skills, both written and verbal.\n- A proactive and positive attitude, with a keen eye for detail.\n- Proficiency in HR software and Microsoft Office applications.\n\nWhy Join the Organisation?\nOur client offers a supportive and inclusive work environment where your contributions are valued. As part of their team, you will benefit from:\n\nA competitive salary.\nOpportunities for professional development and career growth.\nA dynamic and friendly team culture that encourages collaboration and innovation.\nThe chance to make a real impact in a forward-thinking organisation.\n\nIf you are a motivated HR professional looking for a temporary role that offers both challenges and rewards, this is the opportunity for you!\n\nHow to Apply:\nInterested candidates are encouraged to submit their CV and a cover letter detailing their relevant experience to the recruitment agency. Don't miss out on this chance to be part of an exciting organisation in the construction industry!\n\nOffice Angels is an employment agency. We are an equal opportunities employer who put expertise, energy, and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. We do this by showcasing their talents, skills and unique experience in an inclusive environment that helps them thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?EI3oDmW0F6nfZuIYJnDEAj%2b19IWqsuf7p",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -464,7 +493,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5696621",
@@ -482,7 +515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3282-26-0019",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3282-26-0019",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5690343",
@@ -500,6 +537,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
