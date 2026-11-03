@@ -10,8 +10,8 @@ async function main(){
  const rows=(await c.query(`SELECT scope,evidence->'displayRows' AS "displayRows" FROM ontap_shadow.selection_decisions WHERE feed_run_id=$1 AND scope LIKE 'production:%' AND decision='include'`,[run.id])).rows;
  outputs=reconstruct(rows,Object.keys(receipt.selectedByScope));assert.equal(contentHash(outputs),receipt.outputsSha256,'Database display snapshot drift');await c.query('COMMIT');}finally{await c.end();}
  await fs.writeFile('shadow-db-outputs.json',JSON.stringify(outputs));
- execFileSync('python3',['-m','pip','install','--disable-pip-version-check','openpyxl==3.1.5'],{stdio:'inherit'});
- execFileSync('python3',['database/shadow/harness/prepare-full-preview.py'],{stdio:'inherit'});
+ execFileSync('python3',['-m','pip','install','--disable-pip-version-check','--target','/tmp/ontap-preview-python','openpyxl==3.1.5'],{stdio:'inherit'});
+ execFileSync('python3',['database/shadow/harness/prepare-full-preview.py'],{stdio:'inherit',env:{...process.env,PYTHONPATH:'/tmp/ontap-preview-python'}});
  // No analytics on a private test; real presentation components are unchanged.
  const layout='app/layout.tsx';let s=await fs.readFile(layout,'utf8');s=s.replace(/<Analytics\s*\/>/g,'').replace(/<Script\b[\s\S]*?<\/Script>/g,'');await fs.writeFile(layout,s);
  execFileSync('npm',['run','build'],{stdio:'inherit',env:{...process.env,NEXT_TELEMETRY_DISABLED:'1'}});
