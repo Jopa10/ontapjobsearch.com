@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-03",
+  "preparedAt": "2026-11-03T13:49:26.243288+00:00",
+  "status": "prepared-not-executed",
+  "parentCommit": "347dac5ad1a9124681c1767387a88a92c8328c96",
+  "activityAtStart": {
+    "githubInProgress": 0,
+    "githubQueued": 0
+  },
+  "entrypoint": "database/shadow/compare_saved_archives.py --s3",
+  "dates": [
+    "2026-11-02",
+    "2026-11-03"
+  ],
+  "testsPassed": {
+    "comparisonProvider": 5,
+    "existingArchiveStage": 3,
+    "existingPreflight": 6
+  },
+  "actualTurnoverKnown": false,
+  "s3Execution": false,
+  "databaseChanged": false,
+  "productionChanged": false,
+  "supplierFetch": false,
+  "neonMeasurement": "Last saved 407347200 bytes; no fresh measurement in this checkpoint",
+  "resume": "Owner runs pinned read-only CloudShell comparison and returns summary; then record actual current turnover. Compact raw gate forecast excludes later selection/display growth and does not authorize an import. No selector replay or archive upload repeat; no cleanup/daily ingestion/cutover."
+}

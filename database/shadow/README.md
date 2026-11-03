@@ -610,3 +610,38 @@ compact allocation before declaring Free-plan viability.
 Resume from `dependency-provenance-checkpoint-2026-11-03.json`. Next current
 saved-feed turnover and measured compact database growth; no cleanup, daily
 ingestion, paid upgrade or production cutover is authorized.
+
+
+## Current saved-feed turnover — prepared 3 November 2026
+
+`compare_saved_archives.py --s3` reads exactly `jobg8/raw/2026-11-02.zip` and
+`jobg8/raw/2026-11-03.zip` from the already-audited owner account/bucket/region.
+Only STS identity, bucket-location, HeadObject and conditional GetObject calls
+exist. No S3 write/delete, supplier URL, database, selector, publisher or email
+operation is present. Head ETag pins each download; size guards and exact pin/
+quarantine counts validate the accepted 2 November input. Raw ZIP SHA-256 and
+S3 metadata identify both snapshots. Caller permissions remain CloudShell-specific.
+
+`fingerprint_archive` reuses the existing raw flattener, streams XML and retains
+only IDs, raw hashes and compact byte counts. Conflicting IDs are quarantined
+(up to the existing 15-ID source boundary), exact duplicates collapse. Existing
+`compare_plans` computes actual raw additions/changes/absence. Returns require
+earlier complete history and remain unknown; absence never expires a job.
+Changed/new canonical payload bytes support the existing compact raw gate
+formula. Selection/display growth is EXTRA and unknown; the old measured
+407,347,200 bytes is a dated baseline, not a fresh Neon measurement. The legacy
+append forecast remains separately labelled. No result authorizes an import or
+proves 90-day Free viability. No full adverts are printed or written to receipts.
+
+Fourteen local checks pass: five comparison/provider-boundary tests, three
+existing archive-stage tests, six existing preflight tests. Streamed hashes
+match the original raw loader on the same mixed duplicate/quarantine fixture.
+
+Owner CloudShell needs the wrapper, `prepare_raw_stage.py`, the existing
+`plan_shadow_jobg8_import.py` and saved `retention-measurement-2026-11-03.json`
+from one committed revision in the same directory. Run
+`python3 compare_saved_archives.py --s3`. It saves a detailed local
+`ontap-current-turnover-result.json` before printing an aggregate summary.
+Actual S3 execution/results remain pending until owner output is received.
+No new supplier feed is fetched. No cleanup/import/cutover is authorized.
+Resume from `current-turnover-checkpoint-2026-11-03.json`.

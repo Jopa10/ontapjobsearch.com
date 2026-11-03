@@ -57,6 +57,58 @@ def load_archive(path):
                   'exactRepeatRows': exact_repeats, 'conflictingIdsHeld': sorted(conflicting_ids)}
 
 
+def fingerprint_archive(path):
+    """Same raw flatten/hash semantics, streaming XML; no descriptions retained.
+
+    Compact summary for complete saved snapshots. Does not execute selectors,
+    authorize an import, or classify absence as expiry.
+    """
+    known, conflicts, fields = {}, set(), set()
+    total, repeats = 0, 0
+    with zipfile.ZipFile(path) as archive:
+        names = [n for n in archive.namelist() if Path(n).name.lower() == 'jobs.xml']
+        if len(names) != 1:
+            raise ValueError('Expected exactly one Jobs.xml')
+        if archive.getinfo(names[0]).file_size > 512 * 1024 * 1024:
+            raise ValueError('Saved XML exceeds bounded analysis capacity')
+        with archive.open(names[0]) as handle:
+            events = ET.iterparse(handle, events=('start', 'end'))
+            _, root = next(events)
+            for event, node in events:
+                if event != 'end' or node.tag.rsplit('}', 1)[-1].lower() != 'job':
+                    continue
+                row = {}
+                flatten(node, ['Job'], row)
+                ref = row.get('/Job/DisplayReference', '').strip()
+                if not ref or not row.get('/Job/Position') or not row.get('/Job/ApplicationURL'):
+                    raise ValueError('Missing supplier identity, title or apply URL in archive')
+                total += 1
+                if total > 60000:
+                    raise ValueError('Saved archive exceeds 60,000 source rows')
+                fields.update(row)
+                canonical = json.dumps(row, sort_keys=True, ensure_ascii=False, separators=(',', ':')).encode()
+                entry = {'supplier_job_id': ref, 'content_hash': hashlib.sha256(canonical).hexdigest(),
+                         'raw_bytes': len(canonical)}
+                if ref in known:
+                    if entry['content_hash'] == known[ref]['content_hash']:
+                        repeats += 1
+                    else:
+                        conflicts.add(ref)
+                else:
+                    known[ref] = entry
+                node.clear()
+                root.clear()
+    if len(conflicts) > 15:
+        raise ValueError('More than 15 conflicting IDs; source integrity review required')
+    clean = [row for ref, row in known.items() if ref not in conflicts]
+    if not clean:
+        raise ValueError('Empty clean saved snapshot')
+    return {'adverts': sorted(clean, key=lambda row: row['supplier_job_id']),
+            'fieldNames': sorted(fields), 'rawCanonicalBytes': sum(r['raw_bytes'] for r in clean),
+            'diagnostics': {'sourceRows': total, 'uniqueSupplierIds': len(known),
+                            'exactRepeatRows': repeats, 'conflictingIdsHeld': sorted(conflicts)}}
+
+
 def prepare(path, percentage, archive_date, revision, budget):
     rows, diagnostics = load_archive(path)
     selected = rows[:max(1, len(rows) * percentage // 100)]

@@ -11,7 +11,6 @@ import json
 from datetime import date
 from pathlib import Path
 from uuid import UUID, uuid5
-from openpyxl import load_workbook
 
 NAMESPACE = UUID('d4b3e1f3-5642-4af8-b5e7-ce3948758134')
 FIELDS = ('/Job/DisplayReference', '/Job/Position', '/Job/ApplicationURL')
@@ -59,6 +58,7 @@ def build_plan(rows, feed_date: str, published=None):
 
 
 def main():
+    from openpyxl import load_workbook
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--feed-xlsx', type=Path, required=True)
     parser.add_argument('--feed-date', required=True, help='Actual supplier feed date, not execution date')
@@ -173,6 +173,7 @@ def project_storage(comparison, measured, *, safety_factor=1.5, reserve_bytes=64
 
 
 def load_xlsx_plan(path, feed_date, quarantine=False):
+    from openpyxl import load_workbook
     workbook = load_workbook(path, read_only=True, data_only=True)
     try:
         rows = workbook.active.iter_rows(values_only=True)
