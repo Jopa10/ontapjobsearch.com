@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-03",
+  "status": "live AWS verification blocked: no connected bucket/IAM access or AWS credentials in this session",
+  "repository_verified": {
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "region": "eu-west-2",
+    "github_role": "OntapJobG8ArchiveGitHubRole",
+    "raw_prefix": "jobg8/raw",
+    "production_upload_pruning": "--skip-prune; bucket lifecycle owns expiry"
+  },
+  "unverified": [
+    "bucket lifecycle and applicable prefix rules",
+    "effective immutable write/read permission for ontap-shadow/display-v1",
+    "versioning/encryption/object lock",
+    "90 days after inactivity vs object creation expiry"
+  ],
+  "prepared_audit": "database/shadow/audit_archive_access.py",
+  "tests_passed": 2,
+  "aws_calls_executed": false,
+  "production_changed": false,
+  "next": "Run saved read-only audit from already authenticated AWS CloudShell; inspect output before adapter activation, policy changes or cleanup."
+}

@@ -12,6 +12,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 3 November 2026 — **Archive access verification awaits authenticated AWS audit:** repository confirms existing S3 bucket/OIDC role and lifecycle-owned expiry; live retention/new-prefix permissions are unverified because this session lacks S3/IAM access. A read-only CloudShell audit is saved with two boundary tests. No AWS call, trust/policy change, import or cleanup. Resume from `database/shadow/archive-access-checkpoint-2026-11-03.json`.
+
 - 3 November 2026 — **Self-contained display archive locally verified:** saved complete state/239 outputs restore exactly from an 8.15 MB archive; 23 harness checks pass. Seven-day/64 MiB hot-display retention planning blocks unverified archives and performs no cleanup. A verified archive pointer can be recorded through the existing run diagnostics; no new tables. Persistent archive provider/permissions, real dependency provenance and 90-day allocation remain pending. No remote/Neon/production changes. Receipt: `database/shadow/display-archive-verification-2026-11-03.json`.
 
 - 3 November 2026 — **Compact appearances/display verified locally:** exact saved 43,796-ID daily manifest encodes to 171 KB; all 239 regional outputs reconstruct from 6.19 MB with the accepted output hash unchanged. Opt-in compact import no longer writes daily appearance rows. Existing preview reader supports compact and legacy display. No Neon/production execution. Full daily display history still needs verified bounded archival; 90-day Free viability remains unproved. Receipt: `database/shadow/compact-snapshot-verification-2026-11-03.json`.
