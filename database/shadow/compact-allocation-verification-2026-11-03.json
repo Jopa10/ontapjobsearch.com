@@ -1,0 +1,219 @@
+{
+  "status": "passed",
+  "measuredAt": "2026-11-03T14:16:40.209Z",
+  "maximumDatabaseBytes": 838860800,
+  "fixtureArchiveSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+  "outputsSha256": "c2b1c7710151669e4592b0954ec6023ddd250638ebbf9eb00aeda6959b02ae83",
+  "sourceRunId": "2cb67686-a055-5692-862c-5b81b6f0baac",
+  "adverts": 43796,
+  "decisions": 350368,
+  "scopes": 239,
+  "selectionBaselineEncodedBytes": 4490111,
+  "unchangedDeltaEncodedBytes": 3741,
+  "displayEncodedBytes": 6196245,
+  "appearanceEncodedBytes": 170998,
+  "allocation": {
+    "before": {
+      "databaseBytes": 407347200,
+      "schemaBytes": 399106048,
+      "tables": [
+        {
+          "name": "activity_events",
+          "bytes": "40960"
+        },
+        {
+          "name": "advert_appearances",
+          "bytes": "8708096"
+        },
+        {
+          "name": "consent_history",
+          "bytes": "24576"
+        },
+        {
+          "name": "emails_sent",
+          "bytes": "40960"
+        },
+        {
+          "name": "feed_runs",
+          "bytes": "98304"
+        },
+        {
+          "name": "job_recommendations",
+          "bytes": "24576"
+        },
+        {
+          "name": "jobs",
+          "bytes": "24428544"
+        },
+        {
+          "name": "selection_decisions",
+          "bytes": "207028224"
+        },
+        {
+          "name": "subscriber_preferences",
+          "bytes": "32768"
+        },
+        {
+          "name": "subscribers",
+          "bytes": "32768"
+        },
+        {
+          "name": "supplier_adverts",
+          "bytes": "158597120"
+        },
+        {
+          "name": "suppliers",
+          "bytes": "49152"
+        }
+      ]
+    },
+    "encodedBytes": 49084743,
+    "snapshots": [
+      {
+        "snapshots": 1,
+        "encodedBytes": 10857537,
+        "relation": {
+          "heap_bytes": "8192",
+          "table_with_toast_bytes": "11313152",
+          "index_bytes": "16384",
+          "total_bytes": "11329536"
+        },
+        "databaseBytes": 418693120
+      },
+      {
+        "snapshots": 2,
+        "encodedBytes": 6371201,
+        "relation": {
+          "heap_bytes": "8192",
+          "table_with_toast_bytes": "17924096",
+          "index_bytes": "16384",
+          "total_bytes": "17940480"
+        },
+        "databaseBytes": 425304064
+      },
+      {
+        "snapshots": 3,
+        "encodedBytes": 6371201,
+        "relation": {
+          "heap_bytes": "8192",
+          "table_with_toast_bytes": "24535040",
+          "index_bytes": "16384",
+          "total_bytes": "24551424"
+        },
+        "databaseBytes": 431915008
+      },
+      {
+        "snapshots": 4,
+        "encodedBytes": 6371201,
+        "relation": {
+          "heap_bytes": "8192",
+          "table_with_toast_bytes": "31137792",
+          "index_bytes": "16384",
+          "total_bytes": "31154176"
+        },
+        "databaseBytes": 438517760
+      },
+      {
+        "snapshots": 5,
+        "encodedBytes": 6371201,
+        "relation": {
+          "heap_bytes": "8192",
+          "table_with_toast_bytes": "37765120",
+          "index_bytes": "16384",
+          "total_bytes": "37781504"
+        },
+        "databaseBytes": 445145088
+      },
+      {
+        "snapshots": 6,
+        "encodedBytes": 6371201,
+        "relation": {
+          "heap_bytes": "8192",
+          "table_with_toast_bytes": "44376064",
+          "index_bytes": "16384",
+          "total_bytes": "44392448"
+        },
+        "databaseBytes": 451756032
+      },
+      {
+        "snapshots": 7,
+        "encodedBytes": 6371201,
+        "relation": {
+          "heap_bytes": "8192",
+          "table_with_toast_bytes": "50987008",
+          "index_bytes": "16384",
+          "total_bytes": "51003392"
+        },
+        "databaseBytes": 458366976
+      }
+    ],
+    "probeRows": 7,
+    "exactJsonbReadback": true,
+    "afterRollback": {
+      "databaseBytes": 407363584,
+      "schemaBytes": 399106048,
+      "tables": [
+        {
+          "name": "activity_events",
+          "bytes": "40960"
+        },
+        {
+          "name": "advert_appearances",
+          "bytes": "8708096"
+        },
+        {
+          "name": "consent_history",
+          "bytes": "24576"
+        },
+        {
+          "name": "emails_sent",
+          "bytes": "40960"
+        },
+        {
+          "name": "feed_runs",
+          "bytes": "98304"
+        },
+        {
+          "name": "job_recommendations",
+          "bytes": "24576"
+        },
+        {
+          "name": "jobs",
+          "bytes": "24428544"
+        },
+        {
+          "name": "selection_decisions",
+          "bytes": "207028224"
+        },
+        {
+          "name": "subscriber_preferences",
+          "bytes": "32768"
+        },
+        {
+          "name": "subscribers",
+          "bytes": "32768"
+        },
+        {
+          "name": "supplier_adverts",
+          "bytes": "158597120"
+        },
+        {
+          "name": "suppliers",
+          "bytes": "49152"
+        }
+      ]
+    },
+    "probeRolledBack": true,
+    "existingRowCountsUnchanged": true,
+    "databaseAllocationDeltaAfterRollback": 16384,
+    "limitations": "Normal PostgreSQL heap/index/TOAST calibration in a rolled-back probe table. Not a fresh-feed import or exact allocation in feed_runs. Catalog/WAL allocation may change after rollback; no vacuum or reclaimed-space claim."
+  },
+  "reconstructionOnlyHistoricalProvenance": true,
+  "syntheticSubsequentDays": true,
+  "scenario": "One real saved-snapshot compact payload plus six copies of a synthetic unchanged-day payload. Seven-display allocation calibration, not seven actual feed days.",
+  "freshFeedImported": false,
+  "existingRecordsChanged": false,
+  "cleanupExecuted": false,
+  "productionChanged": false,
+  "ninetyDayFreeViabilityProven": false
+}

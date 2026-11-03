@@ -714,3 +714,35 @@ Never change project-wide settings or use a production target. Static output
 contains aggregate measurements only, under existing Preview protection.
 Record deployment ID immediately and resume that exact deployment after an
 interruption. Checkpoint: `compact-allocation-checkpoint-2026-11-03.json`.
+
+
+## Compact allocation verified — 3 November 2026
+
+Protected Preview `dpl_3okrcLVU6dVw9vSuotkUKe62Lzf4` reached READY from saved
+source `aa568b41412ffbdd38f3a417d99e00312f063fdd` in 55 seconds. Original
+350,368-decision fixture checksum and all 239 output arrays matched exactly
+from existing Neon evidence before probing. The existing codecs verified
+complete baseline/delta/display/appearance reconstruction and exact JSONB
+readback. No selectors, raw imports or source/archive downloads ran.
+
+Normal probe heap/TOAST/index allocation: first snapshot 11,329,536 bytes; seven
+payloads 51,003,392 bytes. This includes selection/display/appearances, with six
+copies of a synthetic unchanged-day payload, not seven actual feeds. Probe
+rolled back, its table is absent and existing importer-owned row counts are
+unchanged. Database before: 407,347,200; after: 407,363,584 bytes (16 KiB
+bookkeeping allocation). Existing data was not compacted or deleted, and no
+space reclamation is claimed. All 12 existing relation allocations are unchanged.
+
+Illustrative forecast adds after-rollback database allocation, the independently
+verified current raw step estimate 114,296,315 bytes, seven-payload calibration
+51,003,392, and 64 MiB reserve: 639,772,155 < 838,860,800. This is NOT import
+approval, seven days of changing adverts, exact feed_runs marginal allocation,
+a fresh complete-feed test or 90-day Free-plan viability. Full source receipt/
+checksums, actual captured runtime provenance, raw inactivity retention, and
+fresh compact update/expiry/duplicate integration still need verification.
+
+Protected aggregate receipt returned HTTP 200/noindex. Project remains Next.js,
+Node 24, same project update timestamp/protection and production alias. No
+function, public alias, email, plan or schedule changed; no build remains running.
+Receipt: `compact-allocation-verification-2026-11-03.json`; recovery/state:
+`compact-allocation-checkpoint-2026-11-03.json`. Do not repeat this completed probe.
