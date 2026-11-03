@@ -7,7 +7,8 @@ export const MAX_HISTORY_DEPTH=6;
 const MAX_JSON=256*1024*1024, MAX_ENCODED=16*1024*1024;
 const hash=v=>assert.match(v,/^[a-f0-9]{64}$/);
 const key=d=>d.scope+'\0'+d.ref;
-const sorted=rows=>[...rows].sort((a,b)=>key(a).localeCompare(key(b),'en'));
+const compare=(a,b)=>a<b?-1:a>b?1:0;
+const sorted=rows=>[...rows].sort((a,b)=>compare(key(a),key(b)));
 export function canonicalSelection(fixture,context){
  const {report,sourceHashes,decisions}=fixture;
  assert.equal(report.exactFileOutputParity,true);assert.equal(report.unknowns,0);
@@ -31,7 +32,7 @@ export function canonicalSelection(fixture,context){
  }
  // Order of these evidence arrays has no display meaning. Actual displayed
  // output order is represented by outputsSha256 and remains untouched.
- return {report:structuredClone(report),context:structuredClone(context),sourceHashes:[...sourceHashes].map(x=>[...x]).sort((a,b)=>a[0].localeCompare(b[0],'en')),decisions:sorted(decisions).map(x=>structuredClone(x))};
+ return {report:structuredClone(report),context:structuredClone(context),sourceHashes:[...sourceHashes].map(x=>[...x]).sort((a,b)=>compare(a[0],b[0])),decisions:sorted(decisions).map(x=>structuredClone(x))};
 }
 export function encodeHistory(fixture,context,parent=null){
  const current=canonicalSelection(fixture,context);
@@ -65,6 +66,8 @@ export function decodeHistory(envelope,parentState=null){
  else{assert.equal(envelope.depth,0);assert.equal(envelope.parentStateSha256,null);assert.equal(parentState,null);}
  const body=JSON.parse(gunzipSync(Buffer.from(envelope.payload,'base64'),{maxOutputLength:MAX_JSON}));
  assert.equal(contentHash(body),envelope.payloadSha256,'Corrupt payload');
+ assert.equal(body.decisionUpserts.length,envelope.changedDecisions);assert.equal(body.decisionDeletes.length,envelope.removedDecisions);
+ assert.equal(body.sourceUpserts.length,envelope.changedSourceHashes);assert.equal(body.sourceDeletes.length,envelope.removedSources);
  const d=new Map((parentState?.decisions||[]).map(x=>[key(x),x]));
  const h=new Map(parentState?.sourceHashes||[]);
  for(const k of body.decisionDeletes){assert.ok(d.has(k),'Unknown decision removal');d.delete(k);}

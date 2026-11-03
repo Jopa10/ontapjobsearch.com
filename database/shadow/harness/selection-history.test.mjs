@@ -35,11 +35,16 @@ test('PostgreSQL roundtrip, replay, changes, missing and returns preserve stable
  const db=new PGlite();try{await db.exec(schema);let parent=null;const results=[];
  for(const [day,ids] of [['2026-11-02',['1','2']],['2026-11-03',['1','2']],['2026-11-04',['1','3']],['2026-11-05',['1','2']]]){
   const records=rows(ids),f=fixture(records,day);await importStage(db,raw(records,day),{compactSelection:true});
+  if(day==='2026-11-03'){
+    const diag=(await db.query('SELECT diagnostics FROM ontap_shadow.feed_runs WHERE id=$1',[runId(f)])).rows[0].diagnostics;
+    assert.equal(diag.compact_raw_budget.changedAdverts,0);assert.equal(diag.selection_status,'pending');
+  }
   const result=await attachCompactSelection(db,{runId:runId(f),fixture:f,context:{...context,timeContext:day},parentRunId:parent});results.push(result);
   const before=await counts(db);assert.equal(before.selection_decisions,0);
   assert.equal((await attachCompactSelection(db,{runId:runId(f),fixture:f,context:{...context,timeContext:day},parentRunId:parent})).replayed,true);assert.deepEqual(await counts(db),before);
   assert.deepEqual((await readCompactSelection(db,runId(f))).state,canonicalSelection(f,{...context,timeContext:day}));parent=runId(f);
  }
+ await assert.rejects(importStage(db,raw(rows(['9']),'2026-11-01'),{compactSelection:true}),/Older compact snapshot/);
  assert.equal(results[1].changedDecisions,0);assert.equal(results[2].changedDecisions,8);
  assert.equal((await counts(db)).jobs,3);assert.equal((await counts(db)).selection_decisions,0);
  const first=fixture(rows(['1','2']),'2026-11-02');assert.equal((await readCompactSelection(db,runId(first))).state.decisions.length,16);

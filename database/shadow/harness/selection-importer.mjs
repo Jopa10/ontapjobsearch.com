@@ -94,6 +94,8 @@ export async function readCompactSelection(client,runId,visited=new Set()) {
     parent=prior.state;
   }else assert.equal(saved.parentRunId,null);
   const state=decodeHistory(saved.envelope,parent);
+  assert.equal(state.report.archiveSha256,run.diagnostics.archive_sha256,'History raw-run provenance mismatch');
+  assert.equal(state.sourceHashes.length,run.diagnostics.imported_records,'History membership count mismatch');
   return {state,envelope:saved.envelope,run};
 }
 export async function attachCompactSelection(client,{runId,fixture,context,parentRunId=null}) {

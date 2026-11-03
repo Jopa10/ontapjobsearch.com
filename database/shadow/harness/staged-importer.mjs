@@ -37,9 +37,11 @@ const input=`jsonb_to_recordset($1::jsonb) AS r(${definition})`;
 
 export async function importStage(client,fixture,{chunkSize=300,compactSelection=false}={}) {
   const {records,observedOn,percentage,archiveSha256,sourceRevision,totalReceived}=fixture;
+  const ceiling=fixture.maximumDatabaseBytes ?? DEFAULT_BUDGET;
   if (![20,50,100].includes(percentage) || !Array.isArray(records) || !records.length || records.length>60000 || totalReceived<records.length || totalReceived>60000) throw new Error('Invalid bounded stage');
   if (records.length!==Math.max(1,Math.floor((fixture.eligibleRecords || totalReceived)*percentage/100))) throw new Error('Stage fraction mismatch');
   if (!/^\d{4}-\d{2}-\d{2}$/.test(observedOn) || !/^[a-f0-9]{64}$/.test(archiveSha256)) throw new Error('Missing archive provenance');
+  if(typeof compactSelection!=='boolean') throw new Error('Invalid compact selection mode');
   if(compactSelection && percentage!==100) throw new Error('Compact selection requires a full snapshot');
   const normalized=records.map(normalize);
   if (new Set(normalized.map(r=>r.ref)).size!==records.length) throw new Error('Duplicate IDs');
@@ -47,7 +49,7 @@ export async function importStage(client,fixture,{chunkSize=300,compactSelection
   const feedKey=`raw-stage:${archiveSha256}:${percentage}`;
   const runId=stableId(`run:jobg8:${feedKey}`);
   const measured=await measure(client);
-  budgetGate(measured.databaseBytes,fixture.rawPayloadBytes,records.length,fixture.maximumDatabaseBytes);
+  if(!compactSelection) budgetGate(measured.databaseBytes,fixture.rawPayloadBytes,records.length,ceiling);
   const started=Date.now();
   await client.query('BEGIN');
   try {
@@ -60,9 +62,25 @@ export async function importStage(client,fixture,{chunkSize=300,compactSelection
       await client.query('COMMIT');
       return {replayed:true,imported:records.length,elapsedMs:Date.now()-started};
     }
+    if(compactSelection){
+      const latest=(await client.query('SELECT max(last_seen)::text AS last_seen FROM ontap_shadow.supplier_adverts WHERE supplier_id=$1',[supplier])).rows[0].last_seen;
+      if(latest && observedOn<latest) throw new Error('Older compact snapshot refused');
+    }
+    let compactBudget=null;
+    if(compactSelection){
+      const priorRows=(await client.query('SELECT supplier_job_id,content_hash,raw_payload IS NULL AS purged FROM ontap_shadow.supplier_adverts WHERE supplier_id=$1',[supplier])).rows;
+      const priorHashes=new Map(priorRows.map(r=>[r.supplier_job_id,r]));
+      const changed=normalized.filter(r=>priorHashes.get(r.ref)?.content_hash!==r.content_hash || priorHashes.get(r.ref)?.purged);
+      const changedPayloadBytes=Buffer.byteLength(JSON.stringify(changed.map(r=>r.raw_payload)));
+      const current=await measure(client),reserve=64*1024*1024;
+      // Reserve for every touched row/index, but don't reserve another full raw
+      // payload copy when the stored payload is demonstrably identical.
+      compactBudget=budgetGate(current.databaseBytes+reserve,changedPayloadBytes,records.length,ceiling);
+      compactBudget={...compactBudget,reserveBytes:reserve,changedAdverts:changed.length,changedPayloadBytes};
+    }
     await client.query(`INSERT INTO ontap_shadow.feed_runs(id,supplier_id,feed_key,feed_date,source_checksum,status,received_count,rules_revision,diagnostics)
       VALUES($1,$2,$3,$4,$5,'staged',$6,$7,$8)`,[runId,supplier,feedKey,observedOn,sourceHash,totalReceived,sourceRevision,
-      {archive_sha256:archiveSha256,percentage,imported_records:records.length,partial_feed:percentage<100,expiry_enabled:false,receipt_diagnostics:fixture.receiptDiagnostics || null,...(compactSelection?{selection_representation:'compact_pending',selection_status:'pending'}:{})}]);
+      {archive_sha256:archiveSha256,percentage,imported_records:records.length,partial_feed:percentage<100,expiry_enabled:false,receipt_diagnostics:fixture.receiptDiagnostics || null,...(compactSelection?{selection_representation:'compact_pending',selection_status:'pending',compact_raw_budget:compactBudget}:{})}]);
     for (let offset=0;offset<normalized.length;offset+=chunkSize) {
       const chunk=JSON.stringify(normalized.slice(offset,offset+chunkSize));
       const args=[chunk,supplier,observedOn];
@@ -97,6 +115,10 @@ export async function importStage(client,fixture,{chunkSize=300,compactSelection
         'Raw advert retained; same-snapshot production selector evidence has not been attached.',$5,
         jsonb_build_object('archive_sha256',$6::text,'observed_on',$3::text,'stage_percentage',$7::int)
         FROM ${input} JOIN ontap_shadow.supplier_adverts a ON a.supplier_id=$2 AND a.supplier_job_id=r.ref`,[...args,runId,sourceRevision,archiveSha256,percentage]);
+    }
+    if(compactSelection){
+      const after=await measure(client);
+      if(after.databaseBytes+64*1024*1024>=ceiling) throw new Error('Measured compact raw storage exceeds reserved ceiling');
     }
     await client.query("UPDATE ontap_shadow.feed_runs SET status='accepted',completed_at=now() WHERE id=$1",[runId]);
     await client.query('COMMIT');
