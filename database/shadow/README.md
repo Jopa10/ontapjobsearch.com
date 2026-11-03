@@ -542,3 +542,30 @@ receipt is saved as `ontap-archive-transport-result.json` before it is printed.
 Only after owner output is received may remote transport be recorded as passed.
 Keep the object; no cleanup is authorized. Recover from
 `archive-transport-checkpoint-2026-11-03.json`.
+
+
+## Full archive S3 recovery — prepared 3 November 2026
+
+`verify_full_archive.py` reuses the conditional S3 transport entry point with an
+explicit 8,147,866-byte saved archive. Its immutable key/byte count/SHA-256 are
+pinned to `display-archive-verification-2026-11-03.json`. Full archive regeneration
+from the two saved artifacts matched the previous checksum exactly; the existing
+JavaScript restorer validated every decision/appearance/output locally. CloudShell
+then verifies identical full compressed bytes and bounded gzip recovery after
+actual S3 upload and conditional-repeat rejection. It does not run selectors or
+query Neon. Local full-size mocked provider roundtrip and corrupt-input rejection
+passed; the original four transport checks remain green.
+
+The archive is supplied as `ontap-full-display-2026-11-02.json.gz`. Upload that file
+to owner CloudShell, download this executable, the shared transport module and
+the pinned display receipt from the same committed revision, then run
+`python3 verify_full_archive.py`. A successful result is saved to
+`ontap-full-archive-result.json` before printing. No automatic cleanup or deletion
+is installed. Record actual owner output before claiming full S3 recovery.
+
+This remains the real saved selector/display fixture packaged with synthetic
+dependency metadata/run ID, not certified fresh-run provenance. It does not
+contain full raw adverts or establish inactive-advert retention, main-only GitHub
+role write access, Object Lock, current turnover or 90-day Neon Free viability.
+Current Neon remains at the last measured 407,347,200 bytes. Production remains
+file-based. Resume from `full-archive-checkpoint-2026-11-03.json`.
