@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "preparedAt": "2026-11-03T14:13:51.880615+00:00",
-  "status": "prepared-not-executed",
+  "status": "preview-initializing",
   "parentCommit": "888627a02136d941aaf69b106bd80871ab12b911",
   "project": "prj_sLI0SohbF03NrRFj6yZyuN8mOOZB",
   "team": "team_xjm8VOa1951ZXxawa7UFF2gd",
@@ -68,6 +68,9 @@
   "scenario": "One saved-snapshot compact payload plus six copies of synthetic unchanged-day payload. Seven-display allocation calibration, not seven actual feed dates or real runtime provenance.",
   "maximumDatabaseBytes": 838860800,
   "reserveBytes": 67108864,
-  "remoteExecutionStarted": false,
-  "resume": "Inspect deployment activity before launch. Save source commit before one protected Preview. Record deployment ID immediately. Inspect exact deployment before retry. Capture final report/after-rollback allocation; existing row counts and absent probe table must verify. No cleanup, full-feed import, cutover or plan upgrade authorized."
+  "remoteExecutionStarted": true,
+  "resume": "Inspect this exact Preview deployment before any retry: dpl_3okrcLVU6dVw9vSuotkUKe62Lzf4. Source is saved; no duplicate builds. Capture aggregate report, probe rollback/table absence and existing counts, plus project settings/production alias readback. No fresh feed import, selector replay or cutover.",
+  "sourceCommit": "aa568b41412ffbdd38f3a417d99e00312f063fdd",
+  "deploymentId": "dpl_3okrcLVU6dVw9vSuotkUKe62Lzf4",
+  "deploymentUrl": "https://ontapjobsearch-4g9iwzdgo-ontap1.vercel.app"
 }
