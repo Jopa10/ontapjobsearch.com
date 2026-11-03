@@ -35,11 +35,12 @@ export async function measure(client) {
 const definition=`initial_id uuid,advert_id uuid,ref text,title text,advertiser text,location text,apply_url text,salary_min numeric,salary_max numeric,salary_period text,salary_text text,raw_payload jsonb,content_hash text`;
 const input=`jsonb_to_recordset($1::jsonb) AS r(${definition})`;
 
-export async function importStage(client,fixture,{chunkSize=300}={}) {
+export async function importStage(client,fixture,{chunkSize=300,compactSelection=false}={}) {
   const {records,observedOn,percentage,archiveSha256,sourceRevision,totalReceived}=fixture;
   if (![20,50,100].includes(percentage) || !Array.isArray(records) || !records.length || records.length>60000 || totalReceived<records.length || totalReceived>60000) throw new Error('Invalid bounded stage');
   if (records.length!==Math.max(1,Math.floor((fixture.eligibleRecords || totalReceived)*percentage/100))) throw new Error('Stage fraction mismatch');
   if (!/^\d{4}-\d{2}-\d{2}$/.test(observedOn) || !/^[a-f0-9]{64}$/.test(archiveSha256)) throw new Error('Missing archive provenance');
+  if(compactSelection && percentage!==100) throw new Error('Compact selection requires a full snapshot');
   const normalized=records.map(normalize);
   if (new Set(normalized.map(r=>r.ref)).size!==records.length) throw new Error('Duplicate IDs');
   const sourceHash=contentHash(records);
@@ -52,15 +53,16 @@ export async function importStage(client,fixture,{chunkSize=300}={}) {
   try {
     await client.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:jobg8'))");
     const supplier=(await client.query(`INSERT INTO ontap_shadow.suppliers(code,name) VALUES('jobg8','JobG8') ON CONFLICT(code) DO UPDATE SET name=EXCLUDED.name RETURNING id`)).rows[0].id;
-    const previous=(await client.query('SELECT status,source_checksum FROM ontap_shadow.feed_runs WHERE supplier_id=$1 AND feed_key=$2',[supplier,feedKey])).rows[0];
+    const previous=(await client.query('SELECT status,source_checksum,diagnostics FROM ontap_shadow.feed_runs WHERE supplier_id=$1 AND feed_key=$2',[supplier,feedKey])).rows[0];
     if (previous) {
       if (previous.status!=='accepted' || previous.source_checksum!==sourceHash) throw new Error('Conflicting stage replay');
+      if(Boolean(previous.diagnostics?.selection_representation?.startsWith('compact'))!==compactSelection) throw new Error('Conflicting selection storage mode');
       await client.query('COMMIT');
       return {replayed:true,imported:records.length,elapsedMs:Date.now()-started};
     }
     await client.query(`INSERT INTO ontap_shadow.feed_runs(id,supplier_id,feed_key,feed_date,source_checksum,status,received_count,rules_revision,diagnostics)
       VALUES($1,$2,$3,$4,$5,'staged',$6,$7,$8)`,[runId,supplier,feedKey,observedOn,sourceHash,totalReceived,sourceRevision,
-      {archive_sha256:archiveSha256,percentage,imported_records:records.length,partial_feed:percentage<100,expiry_enabled:false,receipt_diagnostics:fixture.receiptDiagnostics || null}]);
+      {archive_sha256:archiveSha256,percentage,imported_records:records.length,partial_feed:percentage<100,expiry_enabled:false,receipt_diagnostics:fixture.receiptDiagnostics || null,...(compactSelection?{selection_representation:'compact_pending',selection_status:'pending'}:{})}]);
     for (let offset=0;offset<normalized.length;offset+=chunkSize) {
       const chunk=JSON.stringify(normalized.slice(offset,offset+chunkSize));
       const args=[chunk,supplier,observedOn];
@@ -90,7 +92,7 @@ export async function importStage(client,fixture,{chunkSize=300}={}) {
       await client.query(`INSERT INTO ontap_shadow.advert_appearances(advert_id,seen_on,supplier_id,feed_run_id)
         SELECT a.id,$3::date,$2,$4 FROM ${input} JOIN ontap_shadow.supplier_adverts a ON a.supplier_id=$2 AND a.supplier_job_id=r.ref
         ON CONFLICT(advert_id,seen_on) DO UPDATE SET feed_run_id=EXCLUDED.feed_run_id`,[...args,runId]);
-      await client.query(`INSERT INTO ontap_shadow.selection_decisions(id,advert_id,feed_run_id,scope,decision,reason,rules_revision,evidence)
+      if(!compactSelection) await client.query(`INSERT INTO ontap_shadow.selection_decisions(id,advert_id,feed_run_id,scope,decision,reason,rules_revision,evidence)
         SELECT (md5($4::text || ':' || a.id::text))::uuid,a.id,$4::uuid,'raw_feed_pending_selection','unknown',
         'Raw advert retained; same-snapshot production selector evidence has not been attached.',$5,
         jsonb_build_object('archive_sha256',$6::text,'observed_on',$3::text,'stage_percentage',$7::int)

@@ -1,3 +1,4 @@
+import {canonicalSelection,encodeHistory,decodeHistory} from './selection-history.mjs';
 import assert from 'node:assert/strict';
 import { contentHash, stableId } from './importer.mjs';
 import { measure, DEFAULT_BUDGET } from './staged-importer.mjs';
@@ -73,4 +74,65 @@ export async function attachSelection(client, fixture) {
     await client.query('COMMIT');
     return {replayed:false,before,after,decisionCount:actual.length,checksum,projectedDatabaseBytes:projected};
   } catch (error) {await client.query('ROLLBACK');throw error;}
+}
+
+// Alternative representation in existing run diagnostics; legacy pinned rows
+// and display evidence are preserved. No selector evaluation is skipped.
+export async function readCompactSelection(client,runId,visited=new Set()) {
+  assert.ok(!visited.has(runId)&&visited.size<=6,'Invalid compact history ancestry');visited.add(runId);
+  const run=(await client.query('SELECT id,supplier_id,feed_date::text, status,diagnostics FROM ontap_shadow.feed_runs WHERE id=$1',[runId])).rows[0];
+  assert.ok(run?.status==='accepted','Missing accepted history run');
+  const saved=run.diagnostics.compact_selection;
+  assert.ok(saved?.envelope,'Missing compact history');
+  let parent=null;
+  if(saved.envelope.kind==='delta'){
+    assert.ok(saved.parentRunId,'Missing parent run');
+    const prior=await readCompactSelection(client,saved.parentRunId,visited);
+    assert.equal(String(prior.run.supplier_id),String(run.supplier_id));
+    assert.ok(prior.run.feed_date<run.feed_date,'History must advance by feed date');
+    assert.equal(saved.envelope.depth,prior.envelope.depth+1);
+    parent=prior.state;
+  }else assert.equal(saved.parentRunId,null);
+  const state=decodeHistory(saved.envelope,parent);
+  return {state,envelope:saved.envelope,run};
+}
+export async function attachCompactSelection(client,{runId,fixture,context,parentRunId=null}) {
+  const expected=canonicalSelection(fixture,context);
+  await client.query('BEGIN');
+  try{
+    await client.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:jobg8'))");
+    const run=(await client.query(`SELECT r.id,r.supplier_id,r.feed_date::text,r.diagnostics FROM ontap_shadow.feed_runs r JOIN ontap_shadow.suppliers s ON s.id=r.supplier_id WHERE r.id=$1 AND r.status='accepted' AND s.code='jobg8'`,[runId])).rows[0];
+    assert.ok(run,'Missing accepted JobG8 run');
+    if(run.diagnostics.compact_selection){
+      const saved=await readCompactSelection(client,runId);
+      assert.deepEqual(saved.state,expected,'Conflicting compact replay');
+      await client.query('COMMIT');
+      return {replayed:true,decisionCount:expected.decisions.length,newDecisionRows:0,stateSha256:saved.envelope.stateSha256};
+    }
+    assert.equal(run.diagnostics.percentage,100,'Full raw import required');
+    assert.equal(run.diagnostics.archive_sha256,fixture.report.archiveSha256);
+    assert.equal(run.diagnostics.imported_records,fixture.sourceHashes.length);
+    // Membership is specific to the accepted raw run, not the whole historical
+    // advert table. Existing staged imports assign appearances to the full run.
+    const stored=(await client.query(`SELECT a.supplier_job_id AS ref,a.content_hash FROM ontap_shadow.advert_appearances p JOIN ontap_shadow.supplier_adverts a ON a.id=p.advert_id WHERE p.feed_run_id=$1 AND p.supplier_id=$2`,[runId,run.supplier_id])).rows;
+    const hashes=new Map(fixture.sourceHashes);assert.equal(stored.length,hashes.size,'Run membership mismatch');
+    for(const row of stored)assert.equal(row.content_hash,hashes.get(row.ref),'Current raw advert differs from verified selection');
+    let parent=null;
+    if(parentRunId){
+      parent=await readCompactSelection(client,parentRunId);
+      assert.equal(String(parent.run.supplier_id),String(run.supplier_id));
+      assert.ok(parent.run.feed_date<run.feed_date,'History must advance by feed date');
+    }
+    const encoded=encodeHistory(fixture,context,parent);
+    const saved={parentRunId:encoded.envelope.kind==='delta'?parentRunId:null,envelope:encoded.envelope};
+    const before=await measure(client),reserve=64*1024*1024;
+    const projected=before.databaseBytes+Buffer.byteLength(JSON.stringify(saved))*3+65536;
+    assert.ok(projected+reserve<DEFAULT_BUDGET,'Compact history storage preflight exceeds reserved ceiling');
+    await client.query(`UPDATE ontap_shadow.feed_runs SET diagnostics=diagnostics || jsonb_build_object('compact_selection',$2::jsonb,'selection_representation','compact_v1','selection_status','verified') WHERE id=$1`,[runId,JSON.stringify(saved)]);
+    assert.deepEqual((await readCompactSelection(client,runId)).state,expected,'Compact database readback differs');
+    assert.equal(Number((await client.query("SELECT count(*)::int AS n FROM ontap_shadow.jobs WHERE publication_status<>'withheld'")).rows[0].n),0);
+    const after=await measure(client);assert.ok(after.databaseBytes+reserve<DEFAULT_BUDGET,'Compact history measured storage exceeds reserved ceiling');
+    await client.query('COMMIT');
+    return {replayed:false,decisionCount:expected.decisions.length,newDecisionRows:0,changedDecisions:encoded.envelope.changedDecisions,compressedBytes:encoded.compressedBytes,encodedBytes:encoded.encodedBytes,stateSha256:encoded.envelope.stateSha256,kind:encoded.envelope.kind,projectedDatabaseBytes:projected,before,after};
+  }catch(error){await client.query('ROLLBACK');throw error;}
 }
