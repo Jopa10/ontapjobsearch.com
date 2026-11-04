@@ -1,9 +1,9 @@
 {
   "date": "2026-11-04",
-  "status": "prepared-before-integration-source-package-run",
+  "status": "waiting-for-fresh-saved-source-url",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
-  "parentCommit": "ee36ca56718b8f0ef408977626e21de627bb4668",
+  "preparedCommit": "9ccacfd438a6209f1ebee61393f7548e4e89c292",
   "pullRequest": 336,
   "migration": {
     "status": "passed-schema-migration-and-readback",
@@ -23,10 +23,16 @@
     ],
     "sourceWorkflowUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/41848156150"
   },
-  "workflow": {
-    "path": ".github/workflows/package-shadow-integration-source.yml",
-    "purpose": "fetch exact saved source using existing ONTAP_SAVED_FEED_URL, validate exact SHA/bytes/counts, prepare full raw stage artifact; no selector rerun and no Neon connection",
-    "triggerPath": "database/shadow/package-integration-source-request.json"
+  "sourcePackagingAttempt": {
+    "runId": 41866612741,
+    "jobId": 126702304059,
+    "attempt": 1,
+    "status": "failed",
+    "failedStep": "Download and verify the exact saved archive",
+    "result": "HTTP 403 from the existing short-lived ONTAP_SAVED_FEED_URL; no source bytes were accepted or staged.",
+    "selectorRerun": false,
+    "neonImportStarted": false,
+    "productionChanged": false
   },
   "safety": {
     "neonImportStarted": false,
@@ -35,8 +41,11 @@
     "cleanupExecuted": false
   },
   "recovery": {
+    "workflowPath": ".github/workflows/package-shadow-integration-source.yml",
+    "workflowTriggerCommit": "9ccacfd438a6209f1ebee61393f7548e4e89c292",
+    "retry": "After replacing repository secret ONTAP_SAVED_FEED_URL with a fresh presigned URL for the same 2026-11-04 object, rerun only failed job 126702304059.",
+    "presignCommand": "aws s3 presign s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/2026-11-04.zip --region eu-west-2 --expires-in 3600",
     "artifactName": "neon-shadow-integration-source-2026-11-04",
-    "workflowTriggerCommit": "pending commit",
-    "next": "Download the raw-stage artifact and combine with selector/report/output artifacts for the guarded Preview integration."
+    "next": "Package the raw stage, combine it with saved selector/output artifacts, then run the separately guarded Preview integration."
   }
 }
