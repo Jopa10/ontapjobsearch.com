@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-04",
+  "status": "prepared-before-preview-compact-integration",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "parentCommit": "12e744592a8af7c65fc559e5faf0371ae45ed59a",
+  "pullRequest": 336,
+  "source": {
+    "feedDate": "2026-11-04",
+    "archiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+    "bytes": 35216405,
+    "selectorRun": 41848156150,
+    "sourcePackageRun": 41866612741,
+    "sourcePackageAttempt": 2,
+    "sourcePackageArtifactId": 13343771048,
+    "sourcePackageArtifactSha256": "72ef75471adf1f92572f9f04c7c4b507391141258229669af532f75b581ce2de",
+    "rawStageRecords": 43547
+  },
+  "selectors": {
+    "cleanRecords": 43547,
+    "scopes": 239,
+    "unknownDecisions": 0,
+    "exactFileOutputParity": true,
+    "rulesRevision": "810d3cbd3b4736933564b1294151bc8b48677eca",
+    "outputsSha256": "3a3d84c827252b0c68b48f1a0351e633fe2f44ec01aa5e0bfa4861e667b99734"
+  },
+  "selectorArtifacts": {
+    "parity": {
+      "id": 13335378178,
+      "sha256": "b38ee0dd2b84b1f2a333269bdfdbb729636cd54315c4ddce4cdf827b35ecce29"
+    },
+    "recovery": {
+      "id": 13336218119,
+      "sha256": "29a734db8b3fedb3c723545ce0fa8cd479e465a46a68ba522172792992f5bf24"
+    }
+  },
+  "neonBefore": {
+    "project": "noisy-fire-97386602",
+    "databaseBytes": 407683072,
+    "adverts": 43796,
+    "payloads": 43796,
+    "jobs": 43796,
+    "feedRuns": 4,
+    "publishedJobs": 0,
+    "ceilingBytes": 838860800,
+    "reserveBytes": 67108864,
+    "schema002Verified": true
+  },
+  "deploymentPlan": {
+    "environment": "Preview",
+    "branch": "feat/neon-shadow-database",
+    "operation": "raw -> compact selector -> compact display, with full readback and idempotent replay",
+    "deploymentBuildWillNotPublishProduction": true
+  },
+  "safety": {
+    "productionPublish": false,
+    "email": false,
+    "cleanupOrPurge": false,
+    "selectorReplay": false
+  },
+  "recovery": {
+    "script": "database/shadow/harness/build-compact-integration.mjs",
+    "durablePhases": "Vercel build logs beginning ONTAP_INTEGRATION_PHASE plus dist/phase-checkpoints.jsonl",
+    "sameInputRetry": "Use same pinned 4 November source and same deterministic run ID; inspect phase logs before any retry."
+  }
+}
