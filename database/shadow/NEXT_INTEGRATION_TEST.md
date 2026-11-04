@@ -6,7 +6,7 @@ and Neon import remain gated by the steps below.
 
 **Current source update (4 November):** the pinned 3 November S3 object was overwritten, so the owner approved `jobg8/raw/2026-11-04.zip`. The exact 4 November source passed checksum validation and selector replay (see `selection-verification-2026-11-04.json`). It contained 43,551 rows; two conflicting IDs were held, leaving 43,547 clean records. Plain and observed output files matched across 239 scopes, with zero unknown decisions. No Neon import has run.
 
-**Next gate:** update the raw turnover and combined storage forecast for this exact 4 November source against the unchanged Neon baseline, verify the live read-only payload/table counts, and preserve the 64 MiB reserve under the 800 MiB ceiling. Only then consider the separate Preview migration and integration. Do not artificially age rows to test the three-day expiry; no real 4 November exclusion is eligible for purge yet.
+**Next gate:** run the updated read-only turnover command for this exact 4 November source against the unchanged Neon baseline. It pins the current ZIP by SHA-256, reports raw growth separately from the illustrative seven-snapshot allocation, and keeps the 64 MiB reserve under the 800 MiB ceiling. This remains a forecast, not import authorization. Then refresh the read-only Neon size measurement and review the combined projection before considering the separate Preview migration/integration. Do not artificially age rows to test the three-day expiry.
 
 ## Starting evidence (do not repeat)
 
