@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "workflow_queued_for_archive_fingerprint_diagnostic",
+  "status": "blocked_expired_saved_url_token",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -44,6 +44,7 @@
     "activeWorkflowAtPreparation": false
   },
   "recovery": [
+    "Generate and install a fresh short-lived owner CloudShell URL immediately before the diagnostic run; the prior URL token expired.",
     "Resolve the invalid S3 signing identity in owner CloudShell and validate a fresh short-lived URL before updating the repository secret or retrying.",
     "Locate the GitHub Actions run for this request commit and continue polling that run; do not start a duplicate.",
     "If the run fails, inspect its job logs and uploaded artifacts, then resume from that evidence.",
@@ -55,10 +56,10 @@
   "runOutcome": {
     "status": "completed",
     "conclusion": "failure",
-    "attempt": 2,
-    "failedStep": "Replay unchanged production selectors and record their decisions",
-    "reason": "Download and guard tests passed; parity runner rejected the ZIP because its SHA-256 did not match the pinned source. The runner did not report the actual hash yet.",
-    "archiveDownloaded": true,
+    "attempt": 1,
+    "failedStep": "Fetch the owner-pinned 3 November saved source",
+    "reason": "S3 returned HTTP 400 ExpiredToken before the archive could be downloaded.",
+    "archiveDownloaded": false,
     "selectorParityStarted": false,
     "neonChanged": false,
     "archiveSha256Verified": false,
