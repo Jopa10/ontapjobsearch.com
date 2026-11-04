@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-03
-review_fingerprint: 2b7ab3860affdb7a921b6f85fcccf7def40449098979d82f415019fdef57cd79
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 882bf9478127d14cf2bbb800131a972a6dff90de3dbcc8333aee1bf535b7a760
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 4
 - Selected: 2
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -30,7 +30,7 @@ reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 07a6f42b412b01277c29af7e22828123fbbf62c5bedf2e62e549bc7d8297ece3
+factual_fingerprint: 3a20d299692d0d61fc5531b6484fba0aecdf6b941d954bdc1174e90ca82f2f37
 source: Teaching Vacancies
 source_job_id: admin-assistant-cover-coordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-cover-coordinator
@@ -53,20 +53,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Somerset | Taunton, TA2 7EG | FTE= £26,847, Actual= £12,427 | HR Administrator
-employer: The Oak Partnership Trust
-closing_date: 2026-11-03T23:59:59+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eba1dd84550ce000a14ec7ea962baf711fc3a45c4b4e7cb863f1f6ec4aa3feb0
-source: Teaching Vacancies
-source_job_id: hr-administrator-the-oak-partnership-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-oak-partnership-trust
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -75,8 +62,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 ## HARD_PASS
 
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Excluded senior/management title.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-oak-partnership-trust) — Excluded senior/management title.
-- [Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/trust-clerk-c394aee1-d7ed-4c84-85d4-9c9175bf52c7) — Insufficient admin/service evidence.
+- [Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/trust-clerk-db16844e-9a97-47b1-aa98-b5573ee8890a) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

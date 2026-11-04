@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-03
-review_fingerprint: 35f6a53c9b7cdb6ba245fa2efb4f4c93324ec3c6bf818493518f4b24e14a1911
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 24c3dfbceb18385681a79441c0c28d94a5eea544ae3b5d14f9a9cfc993db13a4
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 3
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV1 2BS | £26,427.00 - £26,847.00 Annually (FTE) Pro rata actual salary £19,283.98-£19,590.45 | Administration Assistant
-employer: Holy Rosary Catholic Primary Academy
-closing_date: 2026-11-04T12:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f3b595cbfcc358aaada7b3c2b35d1d412b4b7368096c534af16efb24a62b1888
-source: Teaching Vacancies
-source_job_id: administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75
----
 
 ---
 action: 
@@ -53,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV6 0BY | £18,144.00 - £18,723.00 Annually (Actual) | Pastoral Admin Assistant
-employer: Wolverhampton Girls' High School
-closing_date: 2026-11-04T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
+SELECTED | West Midlands - Black Country | Dudley, West Midlands, DY1 3BY | £33,699.00 - £37,280.00 Annually (Actual) | IT Systems Administrator
+employer: Bishop Milner Catholic College
+closing_date: 2026-11-19T09:00:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b100b00ad0b65994a5783e6e124a8d1a048a2fbfefeb703a658db8e00a7dc112
+factual_fingerprint: cc6c5c4db1696e4e3e2112456844ac040d30945062a512f4daaad56a2b772b39
 source: Teaching Vacancies
-source_job_id: pastoral-admin-assistant-wolverhampton-girls-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-assistant-wolverhampton-girls-high-school
+source_job_id: it-systems-administrator-bishop-milner-catholic-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/it-systems-administrator-bishop-milner-catholic-college
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -92,6 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 - [Educational Visits & DofE Support Officer](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-dofe-support-officer) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — No usable numeric salary.
 - [PA to Head Teacher, Executive Assistant to SLT and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-teacher-executive-assistant-to-slt-and-office-manager-q3-academy-langley) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school-dudley-west-midlands) — Excluded senior/management title.
 - [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-barr-beacon-school) — No usable numeric salary.
 
 ## Safety boundary

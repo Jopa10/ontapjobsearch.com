@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-03
-review_fingerprint: adf33861796d793b1dbd7da7880f30e6338c3d2606fbbef5fc7bd1b8c19f30d1
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: edfecc12cb0311cda3ec5487cd14d2446940f1dad36d611b15924f5cd054704f
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 2
@@ -34,6 +34,21 @@ factual_fingerprint: ff461688d7892354f1206fc08dc271f475e6935551fbd47ea17e5c17a64
 source: Teaching Vacancies
 source_job_id: exams-officer-e-act-ousedale-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-e-act-ousedale-school
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK14 6AX | £29,070.00 - £31,015.00 Annually (Actual) Point 11 -15 £29,070 - £31,015 FTE, Pro rata accordingly | Receptionist
+employer: Stephenson Academy
+closing_date: 2026-11-19T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5a3642f48ae18615e92e950f3fbeccb9dc33ff7fc4f59bfcf3e58859cede07b0
+source: Teaching Vacancies
+source_job_id: receptionist-stephenson-academy-milton-keynes-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stephenson-academy-milton-keynes-buckinghamshire
 ---
 
 ---

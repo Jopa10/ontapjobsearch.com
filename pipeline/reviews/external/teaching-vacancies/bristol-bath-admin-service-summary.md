@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-03
-review_fingerprint: 52dc5cf2b86789fe74fa456e4ae164ae37c5b670879fd2f84c9358ede0f13429
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 1f9450da0c7076f985c39c9b1fbbf58d1b82df70df901a3bbfbb1388b9525f17
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -36,6 +36,21 @@ source_job_id: school-administrator-mat-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-mat-cover
 ---
 
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS37 6EW | £12,482.00 - £12,681.00 Annually (Actual) NJC SCP 6 to SCP 7 | SEND Administrator
+employer: Chipping Sodbury School
+closing_date: 2026-11-18T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4f114fb316320d447de2d84a198ce33e2bbe582e50baf299883d42fed38c99b4
+source: Teaching Vacancies
+source_job_id: send-administrator-08c1c1a8-e1a3-4e52-84ca-acee5ebb92e5
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-08c1c1a8-e1a3-4e52-84ca-acee5ebb92e5
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -47,8 +62,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bedminster-down-school) — No usable numeric salary.
+- [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-saint-gregory-s-catholic-college) — Excluded senior/management title.
-- [Personal Care Assistant (EYFS + SEND)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-eyfs-send) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

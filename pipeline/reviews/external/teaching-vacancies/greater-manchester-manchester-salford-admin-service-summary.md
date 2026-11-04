@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-03
+review_date: 2026-11-04
 review_fingerprint: 9d68767adf69125d0ccf2e94f0b8839ced0d1043d3cadcab6ce29a2a273e880b
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-03
-review_fingerprint: 54159f32607dc0c762fc559a79b0c90ba135a9f3cf77d01a56b61490a7df1be4
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 61976ee31257f7e039086afefe77d2557651139b24acdcfc168484da1f58ec5f
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 4
+- Records: 17
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 12
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S65 4AE | £22,970.00 - £23,335.00 Annually (Actual) Band D Point 5 to 6 | Administration Assistant
-employer: St Gerard's Catholic Primary School
-closing_date: 2026-11-04T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 43410bfbfd7d041e8924b0a02d851aeca89f58bdb48b8914e81f59a0f0ab5905
-source: Teaching Vacancies
-source_job_id: administration-assistant-st-gerard-s-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-gerard-s-catholic-primary-school
----
 
 ---
 action: 
@@ -123,11 +108,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Administration and Clerical Level 1](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical-level-1-shortbrook-primary-school) — No usable numeric salary.
 - [Attendance & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-officer-watercliffe-meadow-community-primary-school) — Insufficient admin/service evidence.
 - [Curriculum Manager](https://teaching-vacancies.service.gov.uk/jobs/curriculum-manager-the-sheffield-college) — Excluded senior/management title.
+- [Examinations Invigilator](https://teaching-vacancies.service.gov.uk/jobs/examinations-invigilator-maltby-academy) — No usable numeric salary.
 - [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-sir-thomas-wharton-academy) — Excluded senior/management title.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-af25a6a1-1704-464a-aa02-94005bbeab49) — Salary over £50k.
 - [Inclusion Officer (Alternative Provision)](https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-alternative-provision-sir-thomas-wharton-academy) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy-rotherham-south-yorkshire) — Excluded senior/management title.
 - [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner) — Salary over £50k.
+- [Senior Technician Mechanical Engineering](https://teaching-vacancies.service.gov.uk/jobs/senior-technician-mechanical-engineering) — Out-of-scope occupation: technician.
+- [Strategic Attendance and Family Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/strategic-attendance-and-family-engagement-lead) — Excluded senior/management title.
 
 ## Safety boundary
 

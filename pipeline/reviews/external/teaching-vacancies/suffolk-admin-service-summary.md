@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-03
-review_fingerprint: 062a9eb2f1d976435f12216d6601688b06f75119def796be61afe8abb8fa5ec0
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 4a4e36f0ad63a2ec799ea65b9414c47920f4f11f66f0afa8792d8fb60fd8cf5b
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 1
+- Records: 12
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Suffolk | Ipswich, East of England, IP2 8PL | £25,646.00 - £26,920.00 Annually (Actual) | Examinations Officer
+employer: Stoke High School - Ormiston Academy
+closing_date: 2026-11-09T12:00:00+00:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fd3158fd4401bcd6889060e442c3b1acf16ce7029e26f462ea5d00a5b8f3dae9
+source: Teaching Vacancies
+source_job_id: examinations-officer-stoke-high-school-ormiston-academy-ipswich-suffolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-stoke-high-school-ormiston-academy-ipswich-suffolk
+---
+
+---
+action: 
+SELECTED | Suffolk | Ipswich, East of England, IP3 9JL | Support Staff Pay Scales, Scale 4 points 7-11 (National) £27,274 - £29,071 | Receptionist Administrator
+employer: Murrayfield Primary - A Paradigm Academy
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 00d6b51e5b874ee0e2e5bf3191f7ad97fbefcc34ebc35b5bde92df94c24bd328
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-murrayfield-primary-a-paradigm-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-murrayfield-primary-a-paradigm-academy
+---
 
 ---
 action: 
@@ -77,7 +107,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ca
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-stradbroke-high-school-eye-suffolk) — Insufficient admin/service evidence.
 - [Admissions and Review Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-review-officer-stone-lodge-academy) — Insufficient admin/service evidence.
 - [HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partnering) — Salary over £50k.
-- [Office Manager/Business Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-business-manager) — Excluded senior/management title.
+- [SEND Officer](https://teaching-vacancies.service.gov.uk/jobs/send-officer-east-coast-college) — Insufficient admin/service evidence.
 - [Success Coach - Lowestoft Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/success-coach-lowestoft-sixth-form) — Out-of-scope occupation: coach.
 - [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare) — Insufficient admin/service evidence.
 - [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare-east-coast-college) — Insufficient admin/service evidence.

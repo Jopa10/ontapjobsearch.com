@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-11-03
-review_fingerprint: 9eb911358a60cbc4d638aea36a165bb8672be1401fdc81115fa5509b26114565
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 160af29425b5eb1de8c5bf15b11dd09edfed1138ac5bb78bf34425d1343f73a4
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -36,6 +36,21 @@ source_job_id: admissions-officer-stone-lodge-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-stone-lodge-school
 ---
 
+---
+action: 
+SELECTED | Kent | Dartford, South East, DA1 2HW | £16,274 actual pro rata salary (DGS3 £26,168fte) | Part-time Music School Administrator
+employer: Dartford Grammar School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 605301b234dcd452c3afa1498b721d0adb102b3f89384c7e537f5d4d1577bab7
+source: Teaching Vacancies
+source_job_id: part-time-music-school-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-music-school-administrator
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -47,6 +62,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-st
 ## HARD_PASS
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-hillview-school-for-girls-tonbridge-kent) — Excluded senior/management title.
+- [Executive Team Operations & Admin Coordinator](https://teaching-vacancies.service.gov.uk/jobs/executive-team-operations-admin-coordinator) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-fisher-catholic-comprehensive-school) — Excluded senior/management title.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-wrotham-school) — No usable numeric salary.
 

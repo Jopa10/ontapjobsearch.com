@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-11-03
+review_date: 2026-11-04
 review_fingerprint: a9af882c1d66555f67a12039035eaed28f28fdbeba2621803fb1bd9dfad05eec
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ## HARD_PASS
 
-- [School Office Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/school-office-administration-officer) — No usable numeric salary.
+- [School Office Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/school-office-administration-officer) — Expired, closed or invalid deadline.
 
 ## Safety boundary
 

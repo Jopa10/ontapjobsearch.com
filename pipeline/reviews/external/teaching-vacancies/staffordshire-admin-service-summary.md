@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-03
+review_date: 2026-11-04
 review_fingerprint: cb0c6c079421b8f6f177ff18730938b475a4efc6faab3d20d7c71146b79615b0
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -76,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 - [Chief Finance & Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-operations-officer-john-taylor-mat) — Excluded senior/management title.
 - [Clerical assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-314411d3-39d1-4f06-bb14-44afa0d93c61) — Insufficient admin/service evidence.
+- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-tynsel-parkes-cofe-primary-academy) — No usable numeric salary.
 - [Contracts Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-manager-the-shaw-education-trust) — Excluded senior/management title.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-500086d6-4b3c-4af3-bafb-bbb622675f91) — Insufficient admin/service evidence.
 - [Human Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-community-academies-trust-tamworth-not-recorded) — Excluded senior/management title.

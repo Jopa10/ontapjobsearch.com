@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-11-03
-review_fingerprint: 1601e721554c96dc1e22939fb49d3a9a48821b43933d5acd39d9af8fc763640d
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 19713924b244ea46c9df7feacb2643c7203d5b0a284ef7622dac17c37e2e3810
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 1
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
@@ -51,21 +51,6 @@ factual_fingerprint: 288a591b61601ffd57d5e8fe5a8a9bb14c26d01ddf09072178f4fff0134
 source: Teaching Vacancies
 source_job_id: finance-assistant-pinvin-cofe-academy-pershore-worcestershire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pinvin-cofe-academy-pershore-worcestershire
----
-
----
-action: 
-POSS | Worcestershire | Worcester, WR4 9SG | £27,273.00 - £27,273.00 Annually (FTE) Casual zero hour contract - hourly rate | Governance Professional/Clerk
-employer: The Black Pear Trust
-closing_date: 2026-11-04T12:00:00+00:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7f36147f620add0982c72606e5cab78a827e3b68649fa464e70bda616db407d1
-source: Teaching Vacancies
-source_job_id: governance-professional-clerk-the-black-pear-trust-worcester-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-the-black-pear-trust-worcester-not-recorded
 ---
 
 ## EXCLUDED BY REVIEW

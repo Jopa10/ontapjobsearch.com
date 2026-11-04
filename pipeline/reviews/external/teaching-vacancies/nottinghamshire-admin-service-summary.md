@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-03
-review_fingerprint: c7249e2cc005e868ac8063487b932221c100314d9778ba4cebd19699aa5bf60d
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 53a6706577b3899a4eaf4e244c1fc4c4b685b12835da13c33672744cd7cc89dd
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -34,6 +34,36 @@ factual_fingerprint: 9588c2b250bf0ebf1de834821ffb1460f1cfe185c955d0151a9ec5e8e93
 source: Teaching Vacancies
 source_job_id: administrative-assistant-netherfield-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-netherfield-primary-school
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, NG2 1RT | £9,069.00 - £9,511.00 Annually (Actual) Salary will be paid pro rate based on term time weeks and hours worked | Administrative Assistant
+employer: Our Lady Of Lourdes Catholic Multi Academy Trust
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d5a8933734372962fd70ebc631ec3c6ee05b6ea69c648a1799b8496aa69728f6
+source: Teaching Vacancies
+source_job_id: administrative-assistant-our-lady-of-lourdes-catholic-multi-academy-trust-nottingham-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-our-lady-of-lourdes-catholic-multi-academy-trust-nottingham-not-recorded
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG9 3GA | £9,174.61 - £9,468.66 Annually (Actual) Grade 3, point 5-7 £26,427 - £27,274 FTE | Administrator & Receptionist
+employer: Bramcote College
+closing_date: 2026-11-13T15:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: be47423295dfb5c2c143db6347f9a811acfe9178f5a696d2e9facf89936b8809
+source: Teaching Vacancies
+source_job_id: administrator-receptionist-bramcote-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-bramcote-college
 ---
 
 ---
@@ -55,15 +85,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-seconda
 action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 6NZ | £24,234.00 - £25,823.00 Annually (Actual) NJC6 - NJC10 | Finance Administrator - Including Trips and Visits
 employer: Arnold Hill Spencer Academy
-closing_date: 2026-11-03T23:59:00+00:00
+closing_date: 2026-11-24T23:59:00+00:00
 reason: Clear admin/service title: administrator, finance administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a43e63f549f59ce3d035a3c97619c1f4a7d6fa5451b904f3f7f8e19dc1a04239
+factual_fingerprint: d4a3b99062730895c7ce2cf300d1c90c1b961fcbd97a7e8adb267af34e97f8b6
 source: Teaching Vacancies
-source_job_id: finance-administrator-including-trips-and-visits
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-including-trips-and-visits
+source_job_id: finance-administrator-including-trips-and-visits-arnold-hill-spencer-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-including-trips-and-visits-arnold-hill-spencer-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -89,7 +119,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## HARD_PASS
 
-- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy) — Excluded senior/management title.
+- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy-nottingham-nottinghamshire) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-ashfield-comprehensive-school) — Excluded senior/management title.
 - [People Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-business-partner-nova-education-trust) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c46abdbf-b851-4f98-b51c-c939f0fd7919) — Insufficient admin/service evidence.
 - [Senior Office Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrative-assistant) — Excluded senior/management title.

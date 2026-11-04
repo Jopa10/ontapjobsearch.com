@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-03
+review_date: 2026-11-04
 review_fingerprint: 5ff818c5961f10b793e3ae3e86faa38877c0974b09c03aa9969a3efac6959d35
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 14
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -134,13 +134,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Administration](https://teaching-vacancies.service.gov.uk/jobs/administration) — Insufficient admin/service evidence.
 - [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-thrive-education-partnership) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-moseley-school-and-sixth-form-birmingham-west-midlands) — Excluded senior/management title.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-central-region-schools-trust-birmingham-not-recorded) — No usable numeric salary.
 - [Head of Talent and Workforce Planning](https://teaching-vacancies.service.gov.uk/jobs/head-of-talent-and-workforce-planning) — Excluded senior/management title.
 - [Recruitment & Compliance Lead and Executive Assistant to the Principal](https://teaching-vacancies.service.gov.uk/jobs/recruitment-compliance-lead-and-executive-assistant-to-the-principal) — Out-of-scope occupation: principal.
 - [SENIOR ACADEMY ADMINISTRATOR](https://teaching-vacancies.service.gov.uk/jobs/senior-academy-administrator-heathlands-primary-academy) — Excluded senior/management title.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fairway-primary-academy-birmingham-west-midlands) — Excluded senior/management title.
 - [Senior Office Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-office-manager-the-dame-ellen-pinsent-school) — Excluded senior/management title.
 
 ## Safety boundary

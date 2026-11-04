@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-03
-review_fingerprint: 9757b0d8ee73de2ee68d4191e46a17bd7b4790418fa19b2ead256fc4e61517db
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 83fcc6b47356ef9d057fedb877db976025f1f7932ea3b1ffb5512e502c213a68
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 3
+- Records: 14
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
@@ -34,6 +34,21 @@ factual_fingerprint: 507bd28f17a25a9210ddeedaee8e6b6c78cf7a9875bb4ab149a0572353a
 source: Teaching Vacancies
 source_job_id: medical-office-assistant-furze-platt-senior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/medical-office-assistant-furze-platt-senior-school
+---
+
+---
+action: 
+SELECTED | Berkshire | Reading, South East, RG1 8EQ | £23,686.85 Annually (Actual) Working 37 hours per week. Grade 3 SCP 5-6 FTE £26,427.00. Term Time only Plus 5 INSET days including 2 weeks one of which will be in the summer. | Receptionist with Administration and Reprographics responsibility
+employer: River Academy
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c5f13834aea9143056f80b1b66ebca96a45ec8637aa88d3507508d0833c9a4dd
+source: Teaching Vacancies
+source_job_id: receptionist-with-administration-and-reprographics-responsibility-river-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-with-administration-and-reprographics-responsibility-river-academy
 ---
 
 ---
@@ -107,8 +122,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 - [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
 - [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Excluded senior/management title.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer-bradfield-c-e-primary-school) — Insufficient admin/service evidence.
+- [IT Technician](https://teaching-vacancies.service.gov.uk/jobs/it-technician-slough-and-eton-church-of-england-business-and-enterprise-college) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-girls-school-slough) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-littledown-school) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
 - [Site Controller](https://teaching-vacancies.service.gov.uk/jobs/site-controller-reading-school) — Insufficient admin/service evidence.
 - [Trust Solicitor](https://teaching-vacancies.service.gov.uk/jobs/trust-solicitor) — Salary over £50k.

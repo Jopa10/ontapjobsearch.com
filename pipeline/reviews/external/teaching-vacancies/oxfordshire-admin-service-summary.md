@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-03
-review_fingerprint: 55ea607f11edfcba342cefa413b901aa10936238627e6e49b68a2d478cde4965
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 6a8a35440f10afa29a15f50d60b46eafde3d583240efc6824d287f3fc4d7beb4
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 6
-- POSS awaiting decision: 2
+- Selected: 7
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Oxfordshire | Witney, South East, OX29 7DL | £27,710.00 - £30,025.00 Annually (FTE) | Administrative Assistant
+employer: Windrush Church of England Primary School
+closing_date: 2026-11-20T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 34af91b3509c7f77fe4fbfa124b7802f7171e1a094363e91e8e1ac417e4ad3ec
+source: Teaching Vacancies
+source_job_id: administrative-assistant-windrush-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-windrush-church-of-england-primary-school
+---
 
 ---
 action: 
@@ -113,35 +128,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Oxfordshire | Witney, South East, OX28 1DX | £27,151.00 - £28,981.00 Annually (Actual) Grade 7 | Data Officer
-employer: Wood Green School
-closing_date: 2026-11-04T12:00:00+00:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fbfc55a26340553e05bd82e0714dce1a1ef2e0475374d79fd528eec3b0892d58
-source: Teaching Vacancies
-source_job_id: data-officer-wood-green-school-witney-oxfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-wood-green-school-witney-oxfordshire
----
-
----
-action: 
-POSS | Oxfordshire | Abingdon, South East, OX14 5NL | £27,709.00 - £30,023.00 Annually (FTE) Grade 6, SCP 8 - 13. Actual salary - £19,783.71 - £21,435.86 | Office Administrator
-employer: Thameside Primary School
-closing_date: 2026-11-04T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b996bda304d50dc766a5d8f172d3dcd375db54db982bc8776ba8fd6209908cf5
-source: Teaching Vacancies
-source_job_id: office-administrator-thameside-primary-school-abingdon-oxfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-thameside-primary-school-abingdon-oxfordshire
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -149,6 +136,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
+- [Assistant Headteacher (Personal Development)](https://teaching-vacancies.service.gov.uk/jobs/assistant-headteacher-personal-development-the-cherwell-school) — Out-of-scope occupation: teacher, headteacher.
 - [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
 - [RLT Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/rlt-fundraising-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-carterton-primary-school) — Excluded senior/management title.

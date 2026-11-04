@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-03
+review_date: 2026-11-04
 review_fingerprint: 750230def758456d9703f80a5a9200834f0b394a5f4a8f599202f63c9abd1b87
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -62,9 +62,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-noe
 ## HARD_PASS
 
 - [Associate HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/associate-hr-business-partner-derby-college) — Insufficient admin/service evidence.
+- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-belper-school-and-sixth-form-centre) — Excluded senior/management title.
 - [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-da-vinci-academy) — No usable numeric salary.
 - [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-anthony-gell-school) — Excluded senior/management title.
-- [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-brookfield-community-school) — Excluded senior/management title.
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Excluded senior/management title.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-11-03
+review_date: 2026-11-04
 review_fingerprint: 775e08803c0deadc447f40de944d6627d178665d023271d2b1e287e4d206617d
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -75,6 +75,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-lead
 ## HARD_PASS
 
 - [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-160feac7-25e3-4305-b23e-7d8295d40b64) — No usable numeric salary.
+- [Data & Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-systems-manager-long-field-spencer-academy) — Excluded senior/management title.
 - [Education Health Care Plans and Annual Review Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/education-health-care-plans-and-annual-review-co-ordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-11-03
-review_fingerprint: 1d7a57be7af665d9f16059d6b394b3f0a45b57bceaf99d9bf848dcf70f5d2461
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 6224f009e4e38bbd7e90a68e841e0430507ea9551d821f88f93982d670ba7e3c
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -34,21 +34,6 @@ factual_fingerprint: 335d461e2123c36207307cad2c6289819d8f8e2bdeed21ca5fed5f9a881
 source: Teaching Vacancies
 source_job_id: business-support-assistant-st-edward-s-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-st-edward-s-catholic-primary-school
----
-
----
-action: 
-SELECTED | North East - Tees Valley | Middlesbrough, North East, TS3 6PX | £25,989 - £28,142 (actual salary: £22,455 - £24,315) | Business Support Officer
-employer: St Alphonsus' Catholic Primary School
-closing_date: 2026-11-04T09:00:00+00:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 80035e669a1dba58df8edf69e11efdbd0ced02f9a3908155bf80d84da4d66eb2
-source: Teaching Vacancies
-source_job_id: business-support-officer-st-alphonsus-catholic-primary-school-middlesbrough-cleveland
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-st-alphonsus-catholic-primary-school-middlesbrough-cleveland
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-03
-review_fingerprint: c0a3bba490d762f08039cd82b81c06bb05373affe0805f0dc5d86c0558889505
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: a35207cdbd6d40a60cffded487f3c2c87414b8993eac238f02a15801325c2c0c
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 6
+- Records: 26
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 19
 
 ## SELECTED
 
@@ -38,32 +38,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7EB | £23,274.00 - £24,579.00 Annually (Actual) | Attendance Officer
-employer: Bronte Girls' Academy
-closing_date: 2026-11-04T12:00:00+00:00
-reason: Clear admin/service title: attendance officer
+SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD3 3UH | £26,427.00 Annually (FTE) | Business Support Officer - Part Time
+employer: Moorlands Primary School
+closing_date: 2026-11-17T09:00:00+00:00
+reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 266088610da4e1c20cd23015664ef6f551d8484f35e5625882990af1091fb927
+factual_fingerprint: ddc39061466f697dde76cfec175a87fc583b1366ebf907149c63331d85050509
 source: Teaching Vacancies
-source_job_id: attendance-officer-bronte-girls-academy-bradford
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-bronte-girls-academy-bradford
+source_job_id: business-support-officer-part-time-moorlands-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-part-time-moorlands-primary-school
 ---
 
 ---
 action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD4 5JA | £26,583.26 Annually (Actual) Grade 7 SCP14-17 | Data and Exams Administrator
-employer: Moor End Academy
-closing_date: 2026-11-04T09:00:00+00:00
-reason: Clear admin/service title: administrator
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD8 7DX | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 18 (£30, 515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £26,362.80. | PA to the Principal (7519)
+employer: Valley Academy
+closing_date: 2026-11-20T23:59:00+00:00
+reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 7b19a9222eaae1ab200137ee462c88c3dae2a4668d7aaf5fa9584bf520afbab3
+factual_fingerprint: 48fe9acff1e7e4f431779e9119d9427d22af02d81bb6863e40e6b5ec066fb282
 source: Teaching Vacancies
-source_job_id: data-and-exams-administrator-moor-end-academy-huddersfield-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-administrator-moor-end-academy-huddersfield-west-yorkshire
+source_job_id: pa-to-the-principal-7519-valley-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-7519-valley-academy
 ---
 
 ---
@@ -79,21 +79,6 @@ factual_fingerprint: e7337aab6290a3bac4b268796fe61d849eec31c5ab837c96bd2c3c88a2b
 source: Teaching Vacancies
 source_job_id: receptionist-park-lane-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-park-lane-academy
----
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0JY | £11,273.00 - £11,634.00 Annually (Actual) Band B1, SCP 4-6. FTE: £26,016 - £ 26,847 | Receptionist/Administrator
-employer: Meadowfield Primary School
-closing_date: 2026-11-12T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: fd0db2c9357fe5cdf866ad38d8913095a74ff1d5d56a3cf321d7b93fe1e5f9c7
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-ca52dc57-0aa2-4583-be92-409ff21aea72
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ca52dc57-0aa2-4583-be92-409ff21aea72
 ---
 
 ---
@@ -157,14 +142,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — No usable numeric salary.
 - [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-south-pennine-academies) — Excluded senior/management title.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-cockburn-multi-academy-trust) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-high-park-school) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.
 - [Information Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/information-governance-coordinator) — Insufficient admin/service evidence.
 - [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-dixons-academies-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-heaton-primary) — Excluded senior/management title.
 - [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team) — Excluded senior/management title.
 - [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover-abbey-multi-academy-trust) — Insufficient admin/service evidence.
+- [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.
 - [School Support Manager](https://teaching-vacancies.service.gov.uk/jobs/school-support-manager-ark-the-king-s-school) — Excluded senior/management title.
+- [SEN Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/sen-administration-assistant-horbury-academy-wakefield-west-yorkshire) — Insufficient admin/service evidence.
+- [Trust Data & Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-systems-analyst) — Insufficient admin/service evidence.
 - [Work Placement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/work-placement-coordinator-outwood-grange-academy-wakefield-west-yorkshire) — No usable numeric salary.
 
 ## Safety boundary

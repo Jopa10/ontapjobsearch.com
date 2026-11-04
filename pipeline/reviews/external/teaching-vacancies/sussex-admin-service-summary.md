@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-11-03
-review_fingerprint: 8696d1bae8e2abecdbd57859a0fb35e43df6ab382fce777e2e85cb5873a6eb7a
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 82034db2cc2f6a4e23021e989da16abca3526e695b76c774df4f388d05e59b3d
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -45,7 +45,7 @@ reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: fa151c83aeca08223d416e4ab2971b4ebeb19d2c8db880ee4049f5fa65ce30f9
+factual_fingerprint: 5afe769db2dcc73d2cf49e6d435194193f1e126944c3d68c9c5bbfa5c953c32c
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-brantridge-school-haywards-heath-west-sussex
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-brantridge-school-haywards-heath-west-sussex

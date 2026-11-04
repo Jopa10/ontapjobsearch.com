@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-03
-review_fingerprint: 793b138c9c93ebeae06454aa375b5d474ec112ebcf2dc930134946df73b600c3
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 48b27e06678eed7afe532381db5d6403099613bbdfe46bfa74aecb5d2436fd62
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 8
-- POSS awaiting decision: 2
+- Selected: 9
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
@@ -25,12 +25,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 action: 
 SELECTED | Northamptonshire | Northampton, East Midlands, NN2 6JW | £26,016.00 Annually (FTE) NJC4 : £22,234.28pa pro rata - term time | Academy Administrator
 employer: Malcolm Arnold Academy
-closing_date: 2026-11-12T23:59:00+00:00
+closing_date: 2026-11-06T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 36a7606d391342c282c96508aa7652dfc16fdb7263723dbfe976efaae5b48b0a
+factual_fingerprint: 4aace4466467638d5d81c96bbcac6c8d78a56bc590b993bc4f17ddcd2167e14d
 source: Teaching Vacancies
 source_job_id: academy-administrator-malcolm-arnold-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-malcolm-arnold-academy
@@ -128,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN3 6HT | £26,016.00 Annually (FTE) Grade D point 4 | School Office Administrator - Cover Coordinator
+employer: St Thomas Becket Catholic School
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 41341b0e2fcb62220c927f4bfa21d14da325800396bbe8685d933eb4073e3a02
+source: Teaching Vacancies
+source_job_id: school-office-administrator-cover-coordinator-st-thomas-becket-catholic-school-northampton-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-cover-coordinator-st-thomas-becket-catholic-school-northampton-northamptonshire
+---
+
+---
+action: 
 SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7TR | £25,614.00 Annually (FTE) | School Receptionist
 employer: Northampton School
 closing_date: 2026-11-05T09:00:00+00:00
@@ -156,21 +171,6 @@ factual_fingerprint: b6236251c2827a120b5ae6760dc472ebbed1fa16ba7643b9843309e1628
 source: Teaching Vacancies
 source_job_id: administrator-st-barnabas-church-of-england-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barnabas-church-of-england-school
----
-
----
-action: 
-POSS | Northamptonshire | Northampton, East Midlands, NN4 6TP | £22,525.00 - £22,884.00 Annually (Actual) | Technical Administrator
-employer: Caroline Chisholm School
-closing_date: 2026-11-04T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d483896366dafd3a4dd0dcba39122bdf60db61f3f9a8911e9cf4538a5c35a172
-source: Teaching Vacancies
-source_job_id: technical-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/technical-administrator
 ---
 
 ## EXCLUDED BY REVIEW

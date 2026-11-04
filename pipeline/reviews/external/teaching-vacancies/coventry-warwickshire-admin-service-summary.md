@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-03
-review_fingerprint: 21c6d7fa6072fe56ba89d5db5ef7cb324ae947f2d24abb409b9857db2fea0d61
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: d94ec8fcd212a50c08b7cd0d70b6185585540ac28bc7ecbbf360a2db0641677b
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
-- POSS awaiting decision: 0
+- Records: 8
+- Selected: 1
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6DY | £22,318.00 - £24,756.00 Annually (Actual) | ECHP Administrator
-employer: Brooke School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 78558bc5de531c13d5f7f8e665dc5de4d46d96652ff9c6a7eb711cc9248e30ed
-source: Teaching Vacancies
-source_job_id: echp-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/echp-administrator
----
 
 ---
 action: 
@@ -53,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finham-p
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6DY | £22,318.00 - £24,756.00 Annually (Actual) | ECHP Administrator
+employer: Brooke School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 78558bc5de531c13d5f7f8e665dc5de4d46d96652ff9c6a7eb711cc9248e30ed
+source: Teaching Vacancies
+source_job_id: echp-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/echp-administrator
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -66,6 +64,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finham-p
 - [Examinations, Data & Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-data-access-arrangements-coordinator) — Insufficient admin/service evidence.
 - [Marketing Manager](https://teaching-vacancies.service.gov.uk/jobs/marketing-manager-stratford-upon-avon-school) — Excluded senior/management title.
 - [Office Manager and Personal Assistant (PA) to the Principal](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-pa-to-the-principal) — Excluded senior/management title.
+- [Receptionist & Admin Assistant to the Deputy Headteachers](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-to-the-deputy-headteachers) — No usable numeric salary.
 
 ## Safety boundary
 

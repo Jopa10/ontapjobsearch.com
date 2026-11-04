@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-03
-review_fingerprint: 2c63704486635f436787875edfff344aff926d1a2ea13a8f188e8ade44bf8a0e
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: a06f805b880d552c9c82a9f3fe789693d1ed02b30a95204284bf8330adadfc01
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 6
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -64,21 +64,6 @@ factual_fingerprint: 4d2b88285863c2957f55f0cd83fd16948052f9d9e71e3ef13f7ca50b2c0
 source: Teaching Vacancies
 source_job_id: exams-officer-litcham-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-litcham-school
----
-
----
-action: 
-SELECTED | Norfolk | Dereham, East of England, NR19 2EU | £18,629.00 - £18,929.00 Annually (Actual) | Part time Receptionist/Administration Assistant
-employer: Northgate High School
-closing_date: 2026-11-03T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 58a06fb68513f995485840082dfc945b5c9dd292adefa1ba5b226d6374ec4038
-source: Teaching Vacancies
-source_job_id: part-time-receptionist-administration-assistant-northgate-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-administration-assistant-northgate-high-school
 ---
 
 ---
@@ -130,6 +115,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-toftwood-infant-school) — No usable numeric salary.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-734b138f-20ba-4b95-9728-d762be624cd2) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
+- [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-norwich-city-college-of-further-and-higher-education-norwich-norfolk) — Insufficient admin/service evidence.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Excluded senior/management title.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-03
+review_date: 2026-11-04
 review_fingerprint: c69111a934a1e7850b2b015083c331eea9a75a947131c79de9c92bc9fac40cd2
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 17
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
 
@@ -137,10 +137,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 - [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-cambridge-maths-school) — No usable numeric salary.
 - [Administration Assistant & Play Worker](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-play-worker) — No usable numeric salary.
 - [Cleaner](https://teaching-vacancies.service.gov.uk/jobs/cleaner-34934dbc-6989-4466-8253-34da9a9f27cb) — Out-of-scope occupation: cleaner.
+- [Finance / HR manager](https://teaching-vacancies.service.gov.uk/jobs/finance-hr-manager-queen-s-drive-infant-school-peterborough-cambridgeshire) — Excluded senior/management title.
 - [Inclusion and Attendance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-and-attendance-coordinator) — No usable numeric salary.
 - [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-st-luke-s-cofe-primary-school-cambridge-cambridgeshire) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-91d02456-2d21-4a21-9e38-0ce49abf0a82) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-63fc363b-9f14-46e2-b6b0-70de6e80f84c) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-werrington-primary-school) — Excluded senior/management title.
+- [Reception Services](https://teaching-vacancies.service.gov.uk/jobs/reception-services-6d613bb3-be77-444c-9df1-ecc49b46685d) — Insufficient admin/service evidence.
 - [School Receptionist & Finance Assistant (Temporary)](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-finance-assistant-temporary) — No usable numeric salary.
 
 ## Safety boundary

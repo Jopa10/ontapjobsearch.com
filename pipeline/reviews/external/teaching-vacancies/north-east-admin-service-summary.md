@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-03
+review_date: 2026-11-04
 review_fingerprint: e51544c3b4ab4719b69035bc4527a71fc1793c053648fd5d659041a12b01567f
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 11
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -104,7 +104,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administra
 
 ## HARD_PASS
 
+- [Exams Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-office-administration-assistant) — Insufficient admin/service evidence.
 - [Hourly Paid Creative Industries Technician (2026/CS015)](https://teaching-vacancies.service.gov.uk/jobs/hourly-paid-creative-industries-technician-2026-cs015) — Out-of-scope occupation: technician.
+- [HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-prosper-learning-trust) — Insufficient admin/service evidence.
 - [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-connect-multi-academy-trust) — Insufficient admin/service evidence.
 - [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
 - [Part Time Creative Industries Technician (2026/CS014)](https://teaching-vacancies.service.gov.uk/jobs/part-time-creative-industries-technician-2026-cs014) — Out-of-scope occupation: technician.

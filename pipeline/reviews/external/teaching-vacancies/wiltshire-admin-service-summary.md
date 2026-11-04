@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-03
-review_fingerprint: 356ffa1678680abdd81e5315f68ca56f8708729cd9472bc231cf49940b0d1557
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 586d7c9ec00b2b3e2ec9550d753b7453e9f58edade7be58aed92365134354b2a
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
@@ -79,21 +79,6 @@ factual_fingerprint: 1bbeef705e8db9c66a2822392ac8f63c25303ca4a1c034b954bb046f7a9
 source: Teaching Vacancies
 source_job_id: receptionist-first-aider-south-wilts-grammar-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-first-aider-south-wilts-grammar-school
----
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN25 2PP | £13,022.00 - £13,447.00 Annually (Actual) NJC Scale Point 4 - 6 £13.48 - £13.92ph | Sixth Form Admin Assistant
-employer: Great Western Academy
-closing_date: 2026-11-04T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cb3209851bb39f2436e16e94267afe3323b377ec4b73dae65616bd6e5b321e3c
-source: Teaching Vacancies
-source_job_id: sixth-form-admin-assistant-great-western-academy-swindon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admin-assistant-great-western-academy-swindon
 ---
 
 ## POSS — choose SELECT or EXCLUDE

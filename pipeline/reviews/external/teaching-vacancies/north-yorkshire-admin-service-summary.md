@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-03
-review_fingerprint: 7a10ed350dbeb4df150a4e8ad91b06aa0322646a3c3332c40062af7301e5bf02
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 2c976eae0a3152f35d099a306e8f5d9b0e507fe6a1a530e2f078793a7f4eabd0
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 0
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Yorkshire - North | York, YO10 3PR | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
+employer: Ebor Academy Trust
+closing_date: 2026-11-18T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a908c053d7d1c436da36395e4c11818059245352ce7b4626d9718d5a75d2fdff
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-ebor-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ebor-academy-trust
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-03
-review_fingerprint: 2c1a40768eff5bf136b80cb2a96d2fca3b0ceb1d2b521062d259f67cae84e978
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: b08631359789ebd38d8cb8c5d9e956078a74a97df8dc73aa13e16b576e40ed09
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 60
-- Selected: 10
-- POSS awaiting decision: 13
+- Selected: 11
+- POSS awaiting decision: 12
 - Excluded: 0
 - Hard pass: 37
 
@@ -113,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-and
 
 ---
 action: 
+SELECTED | London | Hampton, London, TW12 2HP | £29,562.00 - £31,290.00 Annually (FTE) | Part-time Student Services Officer
+employer: St Mary's Hampton Church of England Primary
+closing_date: 2026-11-17T12:00:00+00:00
+reason: Clear admin/service title: student services officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d4ea5e1243b27175637d7be5230ee4ae257b5b7e178934bf4fffe786a0594569
+source: Teaching Vacancies
+source_job_id: part-time-student-services-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-student-services-officer
+---
+
+---
+action: 
 SELECTED | London | Hayes, London, UB3 1JA | £23,878.00 - £24,220.00 Annually (Actual) | Receptionist & Administration Assistant
 employer: Lake Farm Park Academy
 closing_date: 2026-12-31T12:00:00+00:00
@@ -182,10 +197,10 @@ reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 18a1d99ee9771fb123b5ee4875489962f8bea0d33eabde8da7650cc1af85dd03
+factual_fingerprint: 8f80d3d3324bd6d8d072658d14633ae815aaf678428d87ab13725c35cd299ff8
 source: Teaching Vacancies
-source_job_id: admin-assistant-3fdfc1e3-6219-478b-b4d8-4889ed95e085
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-3fdfc1e3-6219-478b-b4d8-4889ed95e085
+source_job_id: admin-assistant-ca29941e-9010-4765-be98-b1691a7db90c
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-ca29941e-9010-4765-be98-b1691a7db90c
 ---
 
 ---
@@ -235,36 +250,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-POSS | London | Barking, London, IG11 0FU | £27,803.00 Annually (Actual) 5.12 Support Scale Already Pro-Rata | Attendance Officer
-employer: Riverside Bridge School
-closing_date: 2026-11-03T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ab0b8336633321778a8685ae80808082ec05bc1983ddd6152172670eb1ca3cf5
-source: Teaching Vacancies
-source_job_id: attendance-officer-riverside-bridge-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-riverside-bridge-school
----
-
----
-action: 
-POSS | London | Carshalton, London, SM5 2PT | £30,408.00 - £32,655.00 Annually (FTE) | Finance & Administration Assistant
-employer: St Mary's RC Infants School
-closing_date: 2026-11-03T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9fa99b081a038afb45f5a8a89363807f17855f68be2c3765c9f7e633901a9900
-source: Teaching Vacancies
-source_job_id: finance-administration-assistant-st-mary-s-rc-infants-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administration-assistant-st-mary-s-rc-infants-school
----
-
----
-action: 
 POSS | London | Feltham, TW13 4AB | £30,867.00 - £35,158.00 Annually (FTE) (SA6) (pay award pending) | Finance Assistant
 employer: Reach Schools
 closing_date: 2026-11-06T23:59:00+00:00
@@ -306,6 +291,21 @@ factual_fingerprint: 1f1eea54e1a0feb13c17bbf6e86f2f2e18656d0899f8a94c5fb86bcbe68
 source: Teaching Vacancies
 source_job_id: receptionist-lift-bexleyheath-bexleyheath-kent
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-bexleyheath-bexleyheath-kent
+---
+
+---
+action: 
+POSS | London | London, London, NW1 6RX | £31,083 - £34,857 per year | Receptionist/Administrator
+employer: Ark King Solomon Academy
+closing_date: 2026-11-20T00:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a3fa0885fad3489b71de608e58bf1d14c52ce514afba1ec818e7f167ab7f599b
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-ark-king-solomon-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ark-king-solomon-academy
 ---
 
 ---
@@ -391,7 +391,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Head of Year](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-city-of-london-academy-highbury-grove) — Excluded senior/management title.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-dbe8438f-4742-4952-b196-d00e6c812af2) — Out-of-scope occupation: teacher, headteacher.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-orchard-park-high-school-croydon-surrey) — Out-of-scope occupation: teacher, headteacher.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — No usable numeric salary.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Salary over £50k.
 - [HR Coordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-highgate-wood-secondary-school) — No usable numeric salary.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-ernest-bevin-academy) — Excluded senior/management title.
 - [HR, People and Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-and-culture-manager-wren-academies-trust) — Excluded senior/management title.
@@ -407,7 +407,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [School Business and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-and-operations-manager-stanhope-primary-school-greenford) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hobbayne-primary-school-london) — Excluded senior/management title.
-- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-whitehall-park-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shalom-noam-primary-school) — Excluded senior/management title.
 - [School Receptionist, Administrative and Welfare Support](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-administrative-and-welfare-support) — No usable numeric salary.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school-london) — Excluded senior/management title.
 - [Welfare and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-admin-officer-willow-tree-primary-school) — No usable numeric salary.

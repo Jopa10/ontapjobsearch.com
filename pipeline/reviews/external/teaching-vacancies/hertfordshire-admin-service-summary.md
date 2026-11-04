@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-03
-review_fingerprint: 679d68268bed6a7da1e08cc432df70f218c50c0782e7f5193d2b1750c2abb37f
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 2ccb212be940d141c5c21280134b6cfd8942910de1ae99e755cca713eff9fa64
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 1
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Hertfordshire | St Albans, East of England, AL4 0TT | £15,558.00 - £16,315.00 Annually (Actual) H4 - Scale Point 6-9 (Dependent on experience) | Admin Assistant
+employer: Nicholas Breakspear Catholic School
+closing_date: 2026-11-19T12:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 076015d1a97ac898bae2f5809c4190bedacb6dd43dcfa8b01a2ea55738daf3c6
+source: Teaching Vacancies
+source_job_id: admin-assistant-nicholas-breakspear-catholic-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-nicholas-breakspear-catholic-school
+---
 
 ---
 action: 
@@ -61,7 +76,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-reception
 
 - [ATTENDANCE & SAFEGUARDING OFFICER](https://teaching-vacancies.service.gov.uk/jobs/attendance-safeguarding-officer-king-james-academy-royston) — Insufficient admin/service evidence.
 - [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodfield-school) — Insufficient admin/service evidence.
 - [Receptionist/Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school) — No usable numeric salary.
+- [SEND Family Liaison Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/send-family-liaison-co-ordinator) — Insufficient admin/service evidence.
+- [Sixth Form Student Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-student-liaison-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

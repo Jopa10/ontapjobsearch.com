@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-03
-review_fingerprint: 0e0223c2315f50bb8ce2cc06e018763e3a65ad10e6b42a252da559bb19bbb5ea
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: f909fa00b68698339b66f7cf71fa79bddcdb20390e6bdfac99c43a0532285a07
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Greater Manchester - North | Oldham, North West, OL8 3EP | £28,608.00 - £30,023.00 Annually (FTE) Points 10-13 of the School Support Staff pay spine, currently £28,608- £30,023 per annum (Actual salary £25,538 - £26,801) | Administration and Finance Assistant
+employer: The Hathershaw College
+closing_date: 2026-11-13T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9699607483c51786639302f71e553a258b16e7ff1e8f6fbefd44c93e8fffb5eb
+source: Teaching Vacancies
+source_job_id: administration-and-finance-assistant-the-hathershaw-college-oldham-greater-manchester
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-assistant-the-hathershaw-college-oldham-greater-manchester
+---
 
 ---
 action: 
@@ -34,6 +49,21 @@ factual_fingerprint: a4f897b9d8a0b03a3ba2f260485fddc4d4c5accd120abc99614a50fcf52
 source: Teaching Vacancies
 source_job_id: attendance-officer-star-radcliffe-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-star-radcliffe-academy
+---
+
+---
+action: 
+SELECTED | Greater Manchester - North | Oldham, North West, OL8 1LH | £26,016.00 - £26,847.00 Annually (FTE) Scale Points 4-6 of the School Support Staff pay spine, currently £26,016. to £26,847. (Pro Rata) (£21,697 to £22,390 Actual Salary) | Receptionist
+employer: Broadfield Primary School
+closing_date: 2026-11-11T17:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7cc61669d9d5dc413eb5b19cacf5036aaebc7828814e1578d3eadd2632ec2ee2
+source: Teaching Vacancies
+source_job_id: receptionist-broadfield-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-broadfield-primary-school
 ---
 
 ---
@@ -65,6 +95,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-oulder-h
 - [Governance and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-officer-newhouse-academy) — No usable numeric salary.
 - [Grade 2 Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/grade-2-administration-officer) — Insufficient admin/service evidence.
 - [Head of Human Resources](https://teaching-vacancies.service.gov.uk/jobs/head-of-human-resources-st-teresa-of-calcutta-catholic-academy-trust) — Excluded senior/management title.
+- [SEND & Transition Administrator](https://teaching-vacancies.service.gov.uk/jobs/send-transition-administrator) — No usable numeric salary.
 
 ## Safety boundary
 

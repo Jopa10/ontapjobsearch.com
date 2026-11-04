@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-03
-review_fingerprint: dbda381e7db1b0769c432a141aa4d3b6dee7dcd8054837976ad38f776e412376
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 54e4c98a5d3ba1418fad1f672cd44c14ce44dc2c6bb6a8a88b4e398c5d0ba21c
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 2
-- POSS awaiting decision: 3
+- Records: 14
+- Selected: 1
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: cac24a803441f08a26ee50b90cbf51a968f560559b78f41d33b5dbea2d3
 source: Teaching Vacancies
 source_job_id: administration-assistant-high-ongar-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-high-ongar-primary-school
----
-
----
-action: 
-SELECTED | Essex | Westcliff-on-Sea, East of England, SS0 0LG | £9,630.00 - £9,785.00 Annually (Actual) Term Time plus 2 INSET days ( 1 year fixed term) | Administration Assistant - One Year Fixed Term
-employer: Prince Avenue Academy and Nursery
-closing_date: 2026-11-04T08:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e52ee80bd6c29fe60988ced88a243a848d961419360cb38366e306bfd82ec623
-source: Teaching Vacancies
-source_job_id: administration-assistant-one-year-fixed-term
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-one-year-fixed-term
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -85,6 +70,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operational-support-a
 
 ---
 action: 
+POSS | Essex | Clacton On Sea, CO15 6DZ | £28,608.00 - £30,023.00 Annually (Actual) Local Government Scale 5, Point 10-13 | People Operations Officer
+employer: The Sigma Trust
+closing_date: 2026-12-01T23:59:00+00:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 538e21ea1e65310ac8ffa7e5e72b95d2f71d3e9e95b0230eb0d2b8a27c0517b2
+source: Teaching Vacancies
+source_job_id: people-operations-officer-the-sigma-trust-clacton-on-sea-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-officer-the-sigma-trust-clacton-on-sea-not-recorded
+---
+
+---
+action: 
 POSS | Essex | Clacton-on-Sea, East of England, CO15 6DZ | £4,665.00 - £4,739.00 Annually (Actual) | Receptionist
 employer: Clacton County High School
 closing_date: 2026-11-08T23:59:00+00:00
@@ -112,6 +112,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-clacton-
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-the-eastwood-academy) — Excluded senior/management title.
 - [School Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-support-assistant-hilltop-junior-school-wickford-essex) — Insufficient admin/service evidence.
 - [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-harris-academy-wickford) — Excluded senior/management title.
+- [Trust Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-manager-south-west-essex-community-education-trust-limited) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-11-03
-review_fingerprint: 4a639a96e0fe3c71f0fad38e58050c72c92b5c6394143cda32aa9b6c6e738e07
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: 6fa6ae0c49e0430d9bcef18dc058e39e477879b78fbc042333e873b1b49cf5a0
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 3
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
-
----
-action: 
-SELECTED | South West | Bruton, South West, BA10 0DF | £24,978.00 - £28,002.00 Annually (Actual) | Finance Officer
-employer: Sexey's School
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 1bf7ebcc1d333764f13a051e79ca19fe0640587556ae2abff0ccb26338f64582
-source: Teaching Vacancies
-source_job_id: finance-officer-sexey-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-sexey-s-school
----
 
 ---
 action: 

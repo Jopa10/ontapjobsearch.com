@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-11-03
-review_fingerprint: ae9076d5b05e5ca005050baba199940d3f39edfd867898be5cdf4bda7c1d5fc5
-routing_manifest_sha256: 43a5b2a5d916477ae8c3bcbc2cc153b79d52ac42c0470acacc47391a89fdad6e
+review_date: 2026-11-04
+review_fingerprint: d461e5c3b55a1e2c8e413f414cec84dd97e61040a0b44366df0a6c5ea1789a67
+routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 0
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
@@ -38,6 +38,21 @@ factual_fingerprint: 0d5373673fe80cb99e360811186580adf7885c19ef5f55ce7ebd3c00d8b
 source: Teaching Vacancies
 source_job_id: administrative-support-officer-padgate-academy-warrington
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-support-officer-padgate-academy-warrington
+---
+
+---
+action: 
+POSS | Cheshire - Warrington & Halton | Warrington, North West, WA4 3AE | £27,709.00 - £30,515.00 Annually (Actual) Grade 5 SCP 8–14 Actual Salary: £27,709 - £30,515 per annum | School Administrator
+employer: Bridgewater High School
+closing_date: 2026-11-20T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3d812cd95ae60e3dbbaae67ad8cd252d86b467934fa2a4ef5e1991183a06d4b7
+source: Teaching Vacancies
+source_job_id: school-administrator-bridgewater-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-bridgewater-high-school
 ---
 
 ## EXCLUDED BY REVIEW
