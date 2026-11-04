@@ -121,7 +121,7 @@
       "productionChanged": false
     }
   ],
-  "nextAction": "Keep jobs withheld. Review integration receipt, then proceed only with the separate schema/import gating plan. No purge is demonstrated by this run; due-before-purge was 0 for the new feed.",
+  "nextAction": "Pin the 5 November archive, then repeat selector validation and read-only preflight before deciding whether to import it into Preview.",
   "harnessConfigRestored": true,
   "rootCause": {
     "file": "database/shadow/run_selector_parity.py",
@@ -230,5 +230,30 @@
       "productionChanged": false,
       "emailSent": false
     }
-  }
+  },
+  "storageRecalibration": {
+    "readOnlyPreflightBytes": 407732224,
+    "postIntegrationBytes": 485810176,
+    "observedGrowthBytes": 78077952,
+    "maximumDatabaseBytes": 838860800,
+    "reserveBytes": 67108864,
+    "headroomAboveReserveBytes": 285941760,
+    "ceilingUsedPercent": 57.91
+  },
+  "storageRecalibrationFile": "database/shadow/storage-recalibration-2026-11-04.json",
+  "storageSensitivity": {
+    "method": "Repeat the observed first-integration net database growth for future complete daily feeds; add the 64 MiB protected reserve; assume no purge credit.",
+    "oneFurtherFeed": {
+      "projectedDatabaseBytes": 563888128,
+      "requiredWithReserveBytes": 630996992,
+      "remainingToCeilingBytes": 207863808
+    },
+    "twoFurtherFeeds": {
+      "projectedDatabaseBytes": 641966080,
+      "requiredWithReserveBytes": 709074944,
+      "remainingToCeilingBytes": 129785856
+    },
+    "admission": "Illustrative sensitivity only. Feed sizes and changed/new record counts can vary; repeat exact read-only preflight before each import. Not a 90-day or provider-usage certification."
+  },
+  "documentationUpdated": "database/shadow/NEXT_INTEGRATION_TEST.md reflects the passed Preview integration and next feed gates."
 }

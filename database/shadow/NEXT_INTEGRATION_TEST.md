@@ -1,12 +1,12 @@
 # Next compact integration checkpoint
 
-Prepared 3 November 2026 as the local baseline; execution sequence updated 4 November.
-Production remains file-based; draft PR 336 remains unmerged. Fresh-source replay
-and Neon import remain gated by the steps below.
+Updated 4 November 2026 after the first full pinned-feed Preview integration.
+Production remains file-based and PR 336 remains unmerged. The Preview shadow database
+now contains the withheld 4 November snapshot; no production publish or email changed.
 
-**Current source update (4 November):** the pinned 3 November S3 object was overwritten, so the owner approved `jobg8/raw/2026-11-04.zip`. The exact 4 November source passed checksum validation and selector replay (see `selection-verification-2026-11-04.json`). It contained 43,551 rows; two conflicting IDs were held, leaving 43,547 clean records. Plain and observed output files matched across 239 scopes, with zero unknown decisions. No Neon import has run.
+**Current source update (4 November):** the pinned 3 November S3 object was overwritten, so the owner approved `jobg8/raw/2026-11-04.zip`. The exact source passed checksum validation and selector replay. It contained 43,551 rows; two conflicting IDs were held, leaving 43,547 clean records. Plain and observed outputs matched across 239 scopes, with zero unknown decisions. The Preview compact integration then passed raw, selector and display readback; jobs remain withheld.
 
-**Next gate:** run the updated read-only turnover command for this exact 4 November source against the unchanged Neon baseline. It pins the current ZIP by SHA-256, reports raw growth separately from the illustrative seven-snapshot allocation, and keeps the 64 MiB reserve under the 800 MiB ceiling. This remains a forecast, not import authorization. Then refresh the read-only Neon size measurement and review the combined projection before considering the separate Preview migration/integration. Do not artificially age rows to test the three-day expiry.
+**Next gate:** when the 5 November feed is available, pin its exact archive checksum, verify selector parity and run a read-only storage/count preflight before any separate Preview import. The 4 November integration measured 78,077,952 bytes of database growth. A same-growth sensitivity leaves about 129.8 MB above the 64 MiB reserve after two further feeds; this is illustrative only, not a storage guarantee. No purge credit is included. The first three-day retention check is due after the window elapses, from 7 November onward; do not artificially age rows.
 
 ## Starting evidence (do not repeat)
 
@@ -34,10 +34,7 @@ advert is excluded in every production family. Its full payload remains
 available for three calendar days, then `raw_payload` alone is cleared; compact
 decision history, stable identity, hashes and run/job links remain. Repeated
 identical exclusions do not restart the clock; changed content does. The cleanup
-is an explicit transaction with no schedule. Existing Neon needs the additive
-`002_exclude_review_window.sql` migration before this code can run; applying it
-and running the fresh-feed test are separate remote actions and are not included
-in local verification.
+is an explicit transaction with no schedule. Preview Neon has the additive `002_exclude_review_window.sql` migration applied and verified. The 4 November integration used it with jobs withheld and expiry disabled; no purge was attempted.
 
 The three existing stages commit independently. The optional `onCheckpoint`
 callback receives only phase/run ID/archive SHA/feed date after each stage.
