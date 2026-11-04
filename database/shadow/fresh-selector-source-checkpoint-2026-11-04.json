@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-04",
+  "status": "awaiting_owner_fingerprint_for_4_november_saved_feed",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "pullRequest": 336,
+  "preparedFromHead": "d1227bfcc432cabb06977e423a0d2f7983ee166a",
+  "context": {
+    "priorAttemptRunId": 41836073962,
+    "priorAttemptOutcome": "failed before selector replay because current 2026-11-03 S3 object no longer matched the pinned bytes/SHA256",
+    "priorAttemptSelectorStarted": false,
+    "priorAttemptNeonChanged": false,
+    "branchHeadAtCheck": "d1227bfcc432cabb06977e423a0d2f7983ee166a",
+    "draftPrOpen": true
+  },
+  "approvedNextSource": {
+    "feedDate": "2026-11-04",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "region": "eu-west-2",
+    "key": "jobg8/raw/2026-11-04.zip",
+    "bytes": null,
+    "etag": null,
+    "lastModified": null,
+    "sha256": null,
+    "sourceRows": null,
+    "cleanRecords": null,
+    "conflictingIdsHeld": null,
+    "fingerprintStatus": "owner CloudShell verification required before workflow execution"
+  },
+  "neonBaseline": {
+    "deploymentId": "dpl_2cc1SchxPFFGdQ8xUhE1oGm2hgJo",
+    "measuredBytes": 407363584,
+    "payloadRows": 43796,
+    "fullyExcludedPayloadRows": 38633,
+    "fullyExcludedPayloadBytes": 89251788,
+    "readOnly": true
+  },
+  "guardrails": {
+    "selectorParityOnlyFirst": true,
+    "noNeonMutationBeforeParityAndCombinedHeadroomReview": true,
+    "jobsWithheld": true,
+    "expiryDisabled": true,
+    "productionFileBased": true,
+    "noCutoverMergeCleanupIngestionEmailsOrPaidUpgrade": true,
+    "doNotRepeatSizingProbesOldSelectorReplaysArchiveUploadsOrTurnoverComparisons": true
+  },
+  "nextActions": [
+    "Read-only identify the exact 2026-11-04 S3 object and compute its SHA-256; ETag is not a SHA-256 checksum.",
+    "Update the prepared source request and test runner to this exact owner-verified fingerprint.",
+    "Commit the checkpoint and validated request before triggering the isolated selector-parity workflow.",
+    "Review selector evidence and combined storage headroom before any separate Neon integration."
+  ]
+}
