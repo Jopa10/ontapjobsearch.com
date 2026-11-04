@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "pre_run_checkpoint_saved_ready_to_trigger",
+  "status": "attempt_10_failed_before_selector_replay_retry_same_pinned_source",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -45,10 +45,10 @@
     "doNotRepeatSizingProbesOldSelectorReplaysArchiveUploadsOrTurnoverComparisons": true
   },
   "nextActions": [
-    "Adapt the existing fresh-source runner and workflow to accept this exact 4 November checkpoint without assuming 3 November row counts.",
-    "Run focused local request-validation tests and commit all code/docs/checkpoints before the selector workflow.",
-    "Generate a fresh short-lived URL for jobg8/raw/2026-11-04.zip, update the existing ONTAP_SAVED_FEED_URL secret, then trigger the selector-only workflow by updating stage-request.json.",
-    "After selector parity, compute combined storage headroom before any separate Preview Neon integration."
+    "Fix the workflow date path to use a validated GITHUB_OUTPUT value and run local YAML/shell syntax checks.",
+    "Save the retry checkpoint before changing stage-request.json.",
+    "Rerun attempt 11 using the same 4 November SHA-256, size and ETag; do not generate a different source or repeat archive fingerprinting.",
+    "Review selector evidence and combined storage headroom before any separate Neon integration."
   ],
   "updatedAtUtc": "2026-11-04T14:02:00Z",
   "branchHeadBeforeSourcePin": "4dfd6bfc0e1d097acdf4c56f6fa4f6394b03eb6e",
@@ -85,5 +85,22 @@
     "etag": "\"0a16efd3ba33a6018e721d5ef52605a5-5\"",
     "lastModified": "2026-11-04T07:59:10+00:00",
     "sha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06"
-  }
+  },
+  "failedAttempts": [
+    {
+      "attempt": 10,
+      "runId": 41847569371,
+      "commit": "c395fde1e6f7092d2aff1641e232e0d5cc6284c7",
+      "outcome": "failed before selector replay",
+      "archiveDownloaded": true,
+      "archiveSha256Verified": true,
+      "downloadedBytes": 35216405,
+      "focusedWorkflowGuardsPassed": true,
+      "selectorReplayStarted": false,
+      "neonChanged": false,
+      "cause": "The workflow used a nested PYDATE heredoc inside a shell command substitution; YAML indentation prevented the delimiter from being recognized, so bash exited with unexpected EOF.",
+      "artifacts": [],
+      "recovery": "Replace the nested heredoc with the already validated archiveDate output from the request-resolution step, then checkpoint and retry the same pinned source."
+    }
+  ]
 }
