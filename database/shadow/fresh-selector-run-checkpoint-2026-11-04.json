@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "blocked_missing_saved_archive_url_secret",
+  "status": "blocked_malformed_saved_archive_url",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -54,11 +54,13 @@
   "runOutcome": {
     "status": "completed",
     "conclusion": "failure",
+    "attempt": 2,
     "failedStep": "Fetch the owner-pinned 3 November saved source",
-    "reason": "ONTAP_SAVED_FEED_URL was unset at workflow preflight; the required non-empty check exited before download.",
+    "reason": "The secret was present but curl rejected its value as malformed before downloading the archive.",
     "archiveDownloaded": false,
     "selectorParityStarted": false,
     "neonChanged": false,
+    "secretValueRecorded": false,
     "artifacts": []
   }
 }
