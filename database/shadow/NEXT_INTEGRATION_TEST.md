@@ -4,6 +4,8 @@ Prepared 3 November 2026 as the local baseline; execution sequence updated 4 Nov
 Production remains file-based; draft PR 336 remains unmerged. Fresh-source replay
 and Neon import remain gated by the steps below.
 
+**Current source update (4 November):** the pinned 3 November S3 object was overwritten and its checksum guard correctly stopped before selector replay. The owner approved switching to `jobg8/raw/2026-11-04.zip`; its 35,216,405-byte size, ETag and SHA-256 are recorded in `fresh-integration-prep-checkpoint-2026-11-04.json`. Its counts must be captured from that exact archive; do not reuse 3 November counts. The stage request and short-lived download secret must be updated only after preparation is committed.
+
 ## Starting evidence (do not repeat)
 
 - `current-turnover-checkpoint-2026-11-03.json`: exact Neon baseline to saved
