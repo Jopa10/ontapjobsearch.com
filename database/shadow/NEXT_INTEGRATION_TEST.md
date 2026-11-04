@@ -4,7 +4,9 @@ Prepared 3 November 2026 as the local baseline; execution sequence updated 4 Nov
 Production remains file-based; draft PR 336 remains unmerged. Fresh-source replay
 and Neon import remain gated by the steps below.
 
-**Current source update (4 November):** the pinned 3 November S3 object was overwritten and its checksum guard correctly stopped before selector replay. The owner approved switching to `jobg8/raw/2026-11-04.zip`; its 35,216,405-byte size, ETag and SHA-256 are recorded in `fresh-integration-prep-checkpoint-2026-11-04.json`. Its counts must be captured from that exact archive; do not reuse 3 November counts. The stage request and short-lived download secret must be updated only after preparation is committed.
+**Current source update (4 November):** the pinned 3 November S3 object was overwritten, so the owner approved `jobg8/raw/2026-11-04.zip`. The exact 4 November source passed checksum validation and selector replay (see `selection-verification-2026-11-04.json`). It contained 43,551 rows; two conflicting IDs were held, leaving 43,547 clean records. Plain and observed output files matched across 239 scopes, with zero unknown decisions. No Neon import has run.
+
+**Next gate:** update the raw turnover and combined storage forecast for this exact 4 November source against the unchanged Neon baseline, verify the live read-only payload/table counts, and preserve the 64 MiB reserve under the 800 MiB ceiling. Only then consider the separate Preview migration and integration. Do not artificially age rows to test the three-day expiry; no real 4 November exclusion is eligible for purge yet.
 
 ## Starting evidence (do not repeat)
 
