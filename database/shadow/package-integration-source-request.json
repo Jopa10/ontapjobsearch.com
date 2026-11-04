@@ -17,5 +17,6 @@
   "outputSha256": "3a3d84c827252b0c68b48f1a0351e633fe2f44ec01aa5e0bfa4861e667b99734",
   "replayNotRepeated": true,
   "neonWrite": false,
-  "productionChanged": false
+  "productionChanged": false,
+  "packageAttemptNote": "Refresh raw-stage package after rejecting artifact from older commit 9ccacfd438a6209f1ebee61393f7548e4e89c292."
 }
