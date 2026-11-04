@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "blocked_malformed_saved_archive_url",
+  "status": "blocked_archive_url_rejected",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -54,9 +54,9 @@
   "runOutcome": {
     "status": "completed",
     "conclusion": "failure",
-    "attempt": 2,
+    "attempt": 3,
     "failedStep": "Fetch the owner-pinned 3 November saved source",
-    "reason": "The secret was present but curl rejected its value as malformed before downloading the archive.",
+    "reason": "The configured URL was syntactically accepted but S3 returned HTTP 400.",
     "archiveDownloaded": false,
     "selectorParityStarted": false,
     "neonChanged": false,
