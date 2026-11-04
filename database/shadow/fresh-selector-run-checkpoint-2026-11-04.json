@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "blocked_downloaded_object_fails_pinned_fingerprint",
+  "status": "blocked_pinned_object_overwritten_no_s3_versioning",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -44,6 +44,7 @@
     "activeWorkflowAtPreparation": false
   },
   "recovery": [
+    "The pinned 07:59 S3 object was overwritten at 18:04 the same day; S3 versioning is disabled and VersionId is null. Find an independently retained exact copy before continuing; do not use the current object or run selector replay.",
     "Compare the current S3 object metadata with the pinned 3 November ETag/size and recover the pinned object version before selector replay; never accept an unverified hash.",
     "Generate and install a fresh short-lived owner CloudShell URL immediately before the diagnostic run; the prior URL token expired.",
     "Resolve the invalid S3 signing identity in owner CloudShell and validate a fresh short-lived URL before updating the repository secret or retrying.",
@@ -77,5 +78,15 @@
     ],
     "samePinnedArchive": true,
     "neonWrites": false
+  },
+  "liveS3MetadataAtVerification": {
+    "checkedAtUtc": "2026-11-04",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "key": "jobg8/raw/2026-11-03.zip",
+    "bytes": 34546115,
+    "etag": "\"8d9c3335dc833d135490a675160aa96f-5\"",
+    "lastModified": "2026-11-03T18:04:56+00:00",
+    "versionId": null,
+    "comparison": "differs from pinned 07:59:34Z object: 35,800,056 bytes; ETag \"3763376ffef7e7b444b9996b3cbf7bd-5\"; SHA-256 e6dcb08ea537bcb34dffd2ad9da089d443b5f0b1f875018c53aac0357fecc892"
   }
 }
