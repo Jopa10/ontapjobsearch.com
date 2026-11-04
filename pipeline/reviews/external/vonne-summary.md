@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-03
-review_fingerprint: d78b92b903648948d04b5ae15f185212c834729fb50ee285f519ee976881c71b
+review_date: 2026-11-04
+review_fingerprint: 6ceda9a97fa899f5c8aeaca519f0c839f775f461f41d2a79e3e987ef42a72176
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-03T14:34:11+00:00
+Run generated: 2026-11-04T14:48:50+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1090
+JobG8 comparison rows: 1081
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -22,16 +22,16 @@ Approved NEJobs comparison rows: 0
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 14
 - Tees Valley explicitly excluded: 1
-- Outside or unmapped geography excluded: 2
-- Generic/derived geography rows requiring review: 2
-- Retained target candidates: 12
+- Outside or unmapped geography excluded: 1
+- Generic/derived geography rows requiring review: 3
+- Retained target candidates: 13
 
 ## Outcomes
 - HC: 0
-- POSS: 2
+- POSS: 3
 - HARD_PASS: 10
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 1
+- Final POSS awaiting decision: 2
 - Manually excluded: 1
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -54,6 +54,19 @@ tracking_key: vonne-173627
 vacancy_fingerprint: 39d05d5987a989470769e6863d6bc036e0277cdd5a64bb01a9750805dee7287e
 source_job_id: 173627
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173627
+---
+---
+action:
+POSS | North East | Hybrid | £80,000 Per Annum | Regional Director, North East
+employer: AllChild
+closing_date: 23 November 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173648
+vacancy_fingerprint: 7869cf771a4a80e0655ec6751efee7552c837ee65b86bc5114b41a0d54eb3e17
+source_job_id: 173648
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173648
 ---
 ---
 action: exclude
