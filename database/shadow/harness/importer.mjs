@@ -71,7 +71,9 @@ export async function importBatch(client, input) {
         apply_url=EXCLUDED.apply_url,
         raw_payload=CASE WHEN supplier_adverts.content_hash IS DISTINCT FROM EXCLUDED.content_hash OR supplier_adverts.raw_payload IS NULL THEN EXCLUDED.raw_payload ELSE supplier_adverts.raw_payload END,
         content_hash=EXCLUDED.content_hash,last_seen=GREATEST(supplier_adverts.last_seen,EXCLUDED.last_seen),
-        inactive_since=NULL,availability='seen',content_purged_at=NULL`,
+        exclude_review_started_on=CASE WHEN supplier_adverts.content_hash IS DISTINCT FROM EXCLUDED.content_hash THEN NULL ELSE supplier_adverts.exclude_review_started_on END,
+        content_purged_at=CASE WHEN supplier_adverts.content_hash IS DISTINCT FROM EXCLUDED.content_hash OR supplier_adverts.raw_payload IS NULL THEN NULL ELSE supplier_adverts.content_purged_at END,
+        inactive_since=NULL,availability='seen'`,
       [currentAdvertId,supplier,r.job_id,jobId,r.title,r.advertiser_name || r.company || null,r.location || null,r.apply_url,r,contentHash(r),observedOn]);
     await client.query(`UPDATE ontap_shadow.jobs SET first_seen=LEAST(first_seen,$2::date),last_seen=GREATEST(last_seen,$2::date),inactive_since=NULL WHERE id=$1`,[jobId,observedOn]);
     await client.query(`UPDATE ontap_shadow.jobs SET title=$3,employer=$4,location=$5,region=$6,role_family=$7,salary_min=$8,salary_max=$9,salary_period=$10,salary_text=$11,preferred_advert_id=$12

@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-04",
+  "status": "local-design-and-tests-passed-remote-deferred",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "startingHead": "5506d92625578fc7a4c34282ab2722be487106f2",
+  "pullRequest": 336,
+  "draft": true,
+  "policy": {
+    "scope": "adverts excluded in every production family",
+    "fullPayloadReviewDays": 3,
+    "clockStart": "first verified fully-excluded feed date",
+    "identicalRepeat": "does not restart window",
+    "changedContent": "restarts window",
+    "purge": "explicit transaction clears raw_payload only after selector readback",
+    "retained": ["supplier identity", "stable job ID", "content hash", "compact selection history", "run/job links"],
+    "scheduledCleanup": false
+  },
+  "changes": [
+    "Added exclude_review_started_on schema marker and additive migration 002.",
+    "Added compact exclusion classification and transactional payload retention to the compact integration wrapper.",
+    "Added local coverage for review window timing, payload purge, retained identity/decision evidence, and changed-content restart.",
+    "Updated NEXT_INTEGRATION_TEST.md, README.md, SYSTEM_MAP.md and SYSTEM_OVERVIEW.md."
+  ],
+  "localVerification": {
+    "focusedPostgresTests": 4,
+    "fullHarnessTests": 34,
+    "fullHarnessStatus": "passed",
+    "fixtureType": "synthetic local PostgreSQL",
+    "remoteNeonUsed": false
+  },
+  "neonBaseline": {
+    "lastMeasuredBytes": 407363584,
+    "measuredAt": "2026-11-03",
+    "currentReadOnlyMeasurement": "not performed",
+    "schemaMigrationApplied": false,
+    "importOrCleanupRun": false
+  },
+  "production": {
+    "fileBased": true,
+    "changed": false,
+    "jobsWithheld": true,
+    "expiryEnabled": false,
+    "emailsOrPlanChange": false
+  },
+  "next": [
+    "Complete final local harness verification and save resulting commit head.",
+    "After confirming the verified Preview database, apply migration 002 and run read-only payload/database sizing.",
+    "Recheck combined raw/selection/display headroom against the unchanged 800 MiB ceiling and 64 MiB reserve.",
+    "Only then launch the pinned 3 November selector/integration workflow; do not alter the source checksum or age the feed artificially."
+  ]
+}

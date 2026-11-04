@@ -80,11 +80,19 @@ not connect to a database, execute selections or write public inventories.
 
 ## Retention agreed with owner
 
-Keep full adverts for **90 days after inactivity**, resetting the inactivity
-clock on return. Later cleanup will clear raw descriptions/payloads while
-retaining compact identity, relationships and daily appearance history. This
-policy concerns job adverts; subscriber and click retention needs a separate
-purpose-based decision. Cleanup is not implemented or scheduled here.
+The owner-approved general policy is to keep full adverts for **90 days after
+inactivity**, resetting the inactivity clock on return. A narrower exception
+applies to adverts whose verified selector outcome is EXCLUDE in every
+production family: retain their full payload for three calendar days from the
+first fully excluded run, then clear only `raw_payload`. Keep supplier identity,
+content hash, compact selection history and all linked job/run records. Repeated
+identical excluded snapshots do not restart the window; changed content starts
+a new review window, while an advert no longer excluded clears the exclusion
+marker. Payload deletion is transactional and must follow successful selector
+readback. This is an explicit shadow retention operation, not scheduled cleanup
+or an expiry decision. `002_exclude_review_window.sql` adds the marker to an
+already-created test schema without deleting data. Subscriber and click
+retention needs a separate purpose-based decision.
 
 ## Provisioning and cost controls: pending
 

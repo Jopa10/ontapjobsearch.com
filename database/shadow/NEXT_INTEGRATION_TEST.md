@@ -25,6 +25,15 @@ manifest, exact raw/selector hashes and revision/date, complete scoped evidence,
 output checksum/membership and matching Apply URLs. It reads back the full
 selection/display/appearance state, replays all three stages and verifies counts
 and the reserved allocation ceiling. Jobs remain withheld; expiry is disabled.
+After exact selector readback, the integration records the first run where an
+advert is excluded in every production family. Its full payload remains
+available for three calendar days, then `raw_payload` alone is cleared; compact
+decision history, stable identity, hashes and run/job links remain. Repeated
+identical exclusions do not restart the clock; changed content does. The cleanup
+is an explicit transaction with no schedule. Existing Neon needs the additive
+`002_exclude_review_window.sql` migration before this code can run; applying it
+and running the fresh-feed test are separate remote actions and are not included
+in local verification.
 
 The three existing stages commit independently. The optional `onCheckpoint`
 callback receives only phase/run ID/archive SHA/feed date after each stage.
@@ -32,17 +41,24 @@ Caller must persist these events durably. If a later phase fails, inspect the
 actual saved diagnostics and rerun the same pinned input; do not start another
 feed. A complete import is not globally rolled back by this wrapper.
 
-Three focused local PostgreSQL checks cover:
+Four focused local PostgreSQL checks cover:
 
 1. Complete input/output comparisons across initial/update/gap/return
    behavior (three synthetic feed dates), stable public/job IDs, exact replay,
    historical display readback and no per-advert daily decision/appearance rows.
 2. Mismatched dependency context and raw hashes rejected before DB access.
 3. Display failure after committed raw/selection resumes without duplicate jobs.
+4. Fully excluded payload remains through day three and is purged after it,
+   while its compact decisions and stable identity remain.
 
 These are synthetic local fixtures, not production selector/provenance evidence.
 Absence does not imply expiry: the missing advert's prior last-seen/availability
 are preserved. Actual expiry policy and 90-day raw retention remain UNPROVEN.
+The three-day fully-excluded window is tested only with a synthetic local date;
+the pinned 3 November feed is not yet old enough to cause a purge on a current
+Neon run. The fresh integration must report current payload rows/bytes and
+eligible EXCLUDE payload rows/bytes before and after the run; it must not advance
+the review date artificially to force a purge in Neon.
 
 ## Tomorrow: execution order and unresolved inputs
 
@@ -76,16 +92,22 @@ are preserved. Actual expiry policy and 90-day raw retention remain UNPROVEN.
    output arrays and dependency manifests immediately. Confirm actual source,
    register, geography, configuration, environment and runtime capture, workbook
    hash/time, exact output parity and zero unknowns. No selector run may be skipped.
-7. Perform all input validation and combined raw/selection/display headroom checks
+7. Apply `002_exclude_review_window.sql` only to the already verified Preview
+   test database, after confirming the target is `ontap-db-test`; it only adds
+   the review-date column and index. Read-only confirm existing row/payload
+   counts and measure the starting database size. Save a checkpoint before the
+   integration import. Any unavailable starting storage/admission evidence
+   blocks the run.
+8. Perform all input validation and combined raw/selection/display headroom checks
    before any deliberate Preview import. The illustrative forecast is not import
    approval or a live allocation check. Keep the 800 MiB ceiling and 64 MiB
    reserve. No cleanup, plan upgrade or production connection.
-8. Prepare the build-only Preview runner with the existing Neon project, TLS and
+9. Prepare the build-only Preview runner with the existing Neon project, TLS and
    Preview guards; call `verifyCompactIntegration` with those exact artifacts.
    The runner has not been installed or started. Save its source commit and run
    ID before execution. Inspect activity before retries and preserve the original
    pinned legacy evidence.
-9. Compare IDs, hashes, outputs and actual allocation after raw/selection/display;
+10. Compare IDs, hashes, outputs and actual allocation after raw/selection/display;
    verify full replay is idempotent. Persist failure-phase diagnostics. Continue
    with existing publisher/city rendering checks using the same snapshot only
    after raw/scoped display integration passes. Raw/family parity does not itself
@@ -96,8 +118,9 @@ are preserved. Actual expiry policy and 90-day raw retention remain UNPROVEN.
 - Verified supplier expiry/disappearance policy, failed-feed isolation and return
   handling before any availability mutation. Local absence tests are not expiry
   implementation or authorization.
-- Full adverts for 90 days AFTER inactivity, resetting on return. Current raw
-  ZIP age=93 days and display archive WITHOUT raw adverts do not meet this alone.
+- Full adverts for 90 days AFTER inactivity, resetting on return, for records
+  outside the fully-excluded three-day exception. Current raw ZIP age=93 days
+  and display archive WITHOUT raw adverts do not meet this alone.
 - Effective permissions for the eventual runtime; CloudShell root proof is not
   main-only GitHub-role write proof. No IAM trust expansion to bypass this.
 - Sustained storage/turnover and retained-history bounds, real publisher/city

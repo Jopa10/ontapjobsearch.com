@@ -10,6 +10,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 4 November 2026 — The shadow test now prepares a three-day review window for adverts excluded across every job family. It retains full advert text for review, then clears only that text while keeping compact decisions and IDs. The focused local PostgreSQL check passes. The database migration and fresh-feed run have not been applied; read-only Neon measurement and headroom checks remain first.
+
 - 4 November 2026 — The existing isolated selector workflow can now use the pinned 3 November feed through a short-lived private download URL. Its trigger file is unchanged, so no run has started; the fresh replay and Preview integration remain pending.
 
 - 3 November 2026 — **Tomorrow’s compact integration test prepared, no remote run:** a shared wrapper validates captured source/context/output identity before DB access, calls existing compact raw/selection/display entry points, checkpoints committed phases and verifies full readback/replay. Three focused local PostgreSQL checks cover updates, absence/return, stable IDs, invalid evidence and recovery after display failure. No request/schedule/remote build/import changed. Full current ZIP receipt and adaptation of the historically pinned selector runner remain required before execution; expiry and 90-day raw retention remain unproved. Resume: `database/shadow/NEXT_INTEGRATION_TEST.md`.

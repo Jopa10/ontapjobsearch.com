@@ -4,6 +4,7 @@ import {verifyCompactIntegration} from './compact-integration.mjs';
 import {contentHash,stableId} from './importer.mjs';
 import {FAMILIES} from './selection-history.mjs';
 import {readCompactDisplay} from './display-snapshot.mjs';
+import {classifyFullyExcludedRefs} from './exclude-retention.mjs';
 const schema=await fs.readFile(new URL('../001_initial.sql',import.meta.url),'utf8');
 function packet(day,ids,title='Admin'){
  const records=ids.map(ref=>({'/Job/DisplayReference':ref,'/Job/Position':title,'/Job/ApplicationURL':'https://example.org/'+ref}));
@@ -15,6 +16,15 @@ function packet(day,ids,title='Admin'){
  const report={cleanRecords:records.length,exactFileOutputParity:true,unknowns:0,rulesRevision:revision,archiveSha256:sha,outputsSha256:contentHash(outputs),selectedByScope:{'admin_service:Test':records.length},dependencyManifest:m,dependencyManifestSha256:contentHash(m),compactContext:m.context};
  const selection={report,sourceHashes:records.map(r=>[r['/Job/DisplayReference'],contentHash(r)]),decisions:FAMILIES.flatMap((family,i)=>ids.map(ref=>({ref,scope:'production:'+family,decision:i?'exclude':'include',reason:'Synthetic observed fixture',gate:'Test only',regions:i?[]:['Test']})))};
  return {raw:{records,observedOn:day,percentage:100,archiveSha256:sha,sourceRevision:revision,totalReceived:records.length,eligibleRecords:records.length,rawPayloadBytes:Buffer.byteLength(JSON.stringify(records))},selection,outputs};
+}
+function excludedPacket(day,ids){
+ const input=packet(day,ids);input.outputs={};
+ input.selection.decisions=input.selection.decisions.map(x=>({...x,decision:'exclude',regions:[]}));
+ const report=input.selection.report,m=report.dependencyManifest,hash=contentHash(input.outputs);
+ report.outputsSha256=hash;report.selectedByScope={};m.outputsSha256=hash;m.scope.outputScopes=[];
+ const context={...report.compactContext,scopeRegistrySha256:contentHash(m.scope)};
+ m.context=context;report.compactContext=context;report.dependencyManifestSha256=contentHash(m);
+ return input;
 }
 test('complete compact path: update, absence/return, stable IDs and exact replay',async()=>{
  const db=new PGlite();try{await db.exec(schema);let parent=null;const seen=[];
@@ -47,5 +57,34 @@ test('failed display phase resumes from committed raw/selection without duplicat
  await assert.rejects(verifyCompactIntegration(broken,input,{onCheckpoint:async r=>phases.push(r.phase)}),/Injected/);
  assert.deepEqual(phases,['raw-accepted','selection-verified']);
  const r=await verifyCompactIntegration(db,input);assert.equal(r.importReplayed,true);assert.equal(r.selectionReplayed,true);assert.equal(r.counts.jobs,1);
+ }finally{await db.close();}
+});
+test('fully excluded payload stays reviewable for three days, then purges while decisions and identity remain',async()=>{
+ const db=new PGlite();try{await db.exec(schema);let first=excludedPacket('2026-11-02',['1']);
+ const refs=classifyFullyExcludedRefs(first.selection);assert.deepEqual(refs,['1']);
+ const day1=await verifyCompactIntegration(db,first,{excludeReviewAsOfDate:'2026-11-04'});
+ const before=(await db.query("SELECT raw_payload IS NOT NULL AS retained,exclude_review_started_on::text FROM ontap_shadow.supplier_adverts WHERE supplier_job_id='1'")).rows[0];
+ assert.equal(before.retained,true);assert.equal(before.exclude_review_started_on,'2026-11-02');
+ const second=excludedPacket('2026-11-03',['1']);
+ const day2=await verifyCompactIntegration(db,second,{parentRunId:day1.runId,excludeReviewAsOfDate:'2026-11-05'});
+ assert.equal(day2.excludeRetention.purgedCount,1);
+ const after=(await db.query("SELECT raw_payload,content_purged_at IS NOT NULL AS purged,exclude_review_started_on::text FROM ontap_shadow.supplier_adverts WHERE supplier_job_id='1'")).rows[0];
+ assert.equal(after.raw_payload,null);assert.equal(after.purged,true);assert.equal(after.exclude_review_started_on,'2026-11-02');
+ assert.equal((await db.query("SELECT count(*)::int AS n FROM ontap_shadow.jobs WHERE public_id='1'")).rows[0].n,1);
+ assert.equal((await db.query('SELECT count(*)::int AS n FROM ontap_shadow.feed_runs WHERE id=$1',[day2.runId])).rows[0].n,1);
+ const saved=await db.query("SELECT diagnostics->'compact_selection'->'envelope' IS NOT NULL AS retained FROM ontap_shadow.feed_runs WHERE id=$1",[day2.runId]);
+ assert.equal(saved.rows[0].retained,true);
+ const changed=excludedPacket('2026-11-06',['1']);changed.raw.records[0]['/Job/Position']='Changed excluded title';
+ changed.raw.rawPayloadBytes=Buffer.byteLength(JSON.stringify(changed.raw.records));
+ changed.selection.sourceHashes=[["1",contentHash(changed.raw.records[0])]];
+ changed.selection.report.archiveSha256=changed.raw.archiveSha256=contentHash({day:'2026-11-06',records:changed.raw.records});
+ changed.selection.report.dependencyManifest.archiveSha256=changed.selection.report.archiveSha256;
+ changed.selection.report.dependencyManifestSha256=contentHash(changed.selection.report.dependencyManifest);
+ const manifest=changed.selection.report.dependencyManifest;manifest.archiveSha256=changed.raw.archiveSha256;
+ changed.selection.report.dependencyManifestSha256=contentHash(manifest);
+ const day3=await verifyCompactIntegration(db,changed,{parentRunId:day2.runId,excludeReviewAsOfDate:'2026-11-08'});
+ assert.equal(day3.excludeRetention.purgedCount,0);
+ const renewed=(await db.query("SELECT raw_payload IS NOT NULL AS retained,exclude_review_started_on::text FROM ontap_shadow.supplier_adverts WHERE supplier_job_id='1'")).rows[0];
+ assert.equal(renewed.retained,true);assert.equal(renewed.exclude_review_started_on,'2026-11-06');
  }finally{await db.close();}
 });

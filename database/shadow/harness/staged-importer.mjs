@@ -99,6 +99,8 @@ export async function importStage(client,fixture,{chunkSize=300,compactSelection
           apply_url=CASE WHEN EXCLUDED.last_seen>=supplier_adverts.last_seen THEN EXCLUDED.apply_url ELSE supplier_adverts.apply_url END,
           raw_payload=CASE WHEN EXCLUDED.last_seen>=supplier_adverts.last_seen AND (supplier_adverts.content_hash IS DISTINCT FROM EXCLUDED.content_hash OR supplier_adverts.raw_payload IS NULL) THEN EXCLUDED.raw_payload ELSE supplier_adverts.raw_payload END,
           content_hash=CASE WHEN EXCLUDED.last_seen>=supplier_adverts.last_seen THEN EXCLUDED.content_hash ELSE supplier_adverts.content_hash END,
+          exclude_review_started_on=CASE WHEN EXCLUDED.last_seen>=supplier_adverts.last_seen AND supplier_adverts.content_hash IS DISTINCT FROM EXCLUDED.content_hash THEN NULL ELSE supplier_adverts.exclude_review_started_on END,
+          content_purged_at=CASE WHEN EXCLUDED.last_seen>=supplier_adverts.last_seen AND (supplier_adverts.content_hash IS DISTINCT FROM EXCLUDED.content_hash OR supplier_adverts.raw_payload IS NULL) THEN NULL ELSE supplier_adverts.content_purged_at END,
           first_seen=LEAST(supplier_adverts.first_seen,EXCLUDED.first_seen),last_seen=GREATEST(supplier_adverts.last_seen,EXCLUDED.last_seen),
           inactive_since=CASE WHEN EXCLUDED.last_seen>=supplier_adverts.last_seen THEN NULL ELSE supplier_adverts.inactive_since END,
           availability=CASE WHEN EXCLUDED.last_seen>=supplier_adverts.last_seen THEN 'seen' ELSE supplier_adverts.availability END`,args);

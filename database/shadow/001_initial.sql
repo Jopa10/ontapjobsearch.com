@@ -57,6 +57,7 @@ CREATE TABLE supplier_adverts (
     match_method text NOT NULL DEFAULT 'supplier_identity',
     match_evidence jsonb NOT NULL DEFAULT '{}',
     content_purged_at timestamptz,
+    exclude_review_started_on date,
     UNIQUE (supplier_id, supplier_job_id),
     UNIQUE (id, job_id),
     UNIQUE (id, supplier_id),
@@ -68,6 +69,7 @@ ALTER TABLE jobs ADD CONSTRAINT preferred_advert_belongs_to_job
     DEFERRABLE INITIALLY DEFERRED;
 CREATE INDEX supplier_adverts_job ON supplier_adverts(job_id);
 CREATE INDEX supplier_adverts_retention ON supplier_adverts(inactive_since) WHERE raw_payload IS NOT NULL;
+CREATE INDEX supplier_adverts_exclude_review ON supplier_adverts(exclude_review_started_on) WHERE raw_payload IS NOT NULL;
 
 CREATE TABLE feed_runs (
     id uuid PRIMARY KEY,
