@@ -9,6 +9,6 @@
   "maximumDatabaseBytes": 838860800,
   "purpose": "Pinned 3 November saved-archive selector parity only; no supplier feed fetch, Neon import, cleanup, or raw storage rerun",
   "sourceMode": "owner_pinned_saved_archive",
-  "attempt": 6,
+  "attempt": 7,
   "mode": "fresh_selection_parity"
 }
