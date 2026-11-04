@@ -1,12 +1,12 @@
 # Ontap daily job review
 
-> **NOT READY TO REVIEW — waiting for: NEJobs, VONNE, Teaching Vacancies**
+> **NOT READY TO REVIEW — waiting for: NEJobs**
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-11-04
-generated_at: 2026-11-04T09:08:39+00:00
+generated_at: 2026-11-04T15:45:39+00:00
 
-**331 job(s) await a human decision; 0 already answered (331 review rows).**
+**385 job(s) await a human decision; 0 already answered (385 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -23,8 +23,8 @@ Edit only each `action:` line:
 |---|---|---|---:|---|
 | JobG8 | OK | 2026-11-04 | 331 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
-| VONNE | STALE | 2026-11-03 | 0 | — |
-| Teaching Vacancies | STALE | 2026-11-03 | 0 | — |
+| VONNE | OK | 2026-11-04 | 2 | — |
+| Teaching Vacancies | OK | 2026-11-04 | 52 | — |
 | NHS Jobs | OK | 2026-11-04 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
@@ -5987,6 +5987,982 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: e99ac7863aafb8219b7def4373f328e7a67cfbbc3839122eedfca8c7d3df2ce2
+---
+
+## VONNE — 2 to review
+
+---
+action:
+POSS | VONNE | North East | Home-based | £35,000 to 39,000 Per Annum | Embedded Outreach Officer
+source_key: vonne
+source: VONNE
+category: admin_service
+source_job_id: 173627
+title: Embedded Outreach Officer
+employer: King's College Cambridge
+location: Home-based
+region: North East
+salary: £35,000 to 39,000 Per Annum
+closing_date: Monday, November 30, 2026 - 17:00
+reason: North East geography is generic or derived and requires review
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173627
+hub_fingerprint: f5e85f8c875dbbd1755d42a3fd3fadd1ec753490ebcaa5a54409942083552920
+---
+
+---
+action:
+POSS | VONNE | North East | Hybrid | £80,000 Per Annum | Regional Director, North East
+source_key: vonne
+source: VONNE
+category: admin_service
+source_job_id: 173648
+title: Regional Director, North East
+employer: AllChild
+location: Hybrid
+region: North East
+salary: £80,000 Per Annum
+closing_date: 23 November 2026
+reason: North East geography is generic or derived and requires review
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173648
+hub_fingerprint: 7acc7012842d64878d5ae159acb6dd7dec0308ebf66046bd8ff3aa41691aab2c
+---
+
+## Teaching Vacancies — 52 to review
+
+---
+action:
+POSS | Teaching Vacancies | Berkshire | Reading, South East, RG5 4RF | £15,377.30 - £16,389.90 Annually (Actual) Grade 4 SCP 7 to 11 | Data & Exams Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: data-exams-assistant-waingels
+title: Data & Exams Assistant
+employer: Waingels
+location: Reading, South East, RG5 4RF
+region: Berkshire
+salary: £15,377.30 - £16,389.90 Annually (Actual) Grade 4 SCP 7 to 11
+closing_date: 2026-11-17T23:59:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-assistant-waingels
+hub_fingerprint: 40daef59e56fffc1eb5e4f892d4c5ac4c1255a97142c32693ba2db17c7cd9426
+---
+
+---
+action:
+POSS | Teaching Vacancies | Berkshire | Slough, SL3 8TX | FTE range £40,547.00 - £44,799.00 | Executive Assistant (Governance & Compliance Professional)
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: executive-assistant-governance-compliance-professional
+title: Executive Assistant (Governance & Compliance Professional)
+employer: Pioneer Educational Trust
+location: Slough, SL3 8TX
+region: Berkshire
+salary: FTE range £40,547.00 - £44,799.00
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-governance-compliance-professional
+hub_fingerprint: 907bd5db0ca605ceca13002f3422ba6cc8c820dd6a0e8ddf115b1ed3cff8eb26
+---
+
+---
+action:
+POSS | Teaching Vacancies | Buckinghamshire | Beaconsfield, South East, HP9 2TS | £29,114.00 - £31,230.00 Annually (FTE) Bucks Pay Range 3 ISN 16-20 £29,114-£31,230 Pro Rata, Actual Salary £22,395-£24,023 | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-alfriston-school
+title: Receptionist
+employer: Alfriston School
+location: Beaconsfield, South East, HP9 2TS
+region: Buckinghamshire
+salary: £29,114.00 - £31,230.00 Annually (FTE) Bucks Pay Range 3 ISN 16-20 £29,114-£31,230 Pro Rata, Actual Salary £22,395-£24,023
+closing_date: 2026-11-11T10:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-alfriston-school
+hub_fingerprint: 7fd66fc30d678d7ac653b5c825382cc7da925d4ff5bd72703d743bb2f5ba9333
+---
+
+---
+action:
+POSS | Teaching Vacancies | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-lift-sir-herbert-leon
+title: Receptionist
+employer: Lift Sir Herbert Leon
+location: Milton Keynes, South East, MK2 3HQ
+region: Buckinghamshire
+salary: £24413 - £25583 per annum
+closing_date: 2026-11-17T13:08:02+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
+hub_fingerprint: 564c4d4771b043464c6910f7634c770f823cd1895ccae79e3f0f72abb0e7e24c
+---
+
+---
+action:
+POSS | Teaching Vacancies | Buckinghamshire | Milton Keynes, South East, MK8 0PU | £9,700.00 Annually (Actual) | Payroll and HR Support Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: payroll-and-hr-support-administrator-the-woodlands-school
+title: Payroll and HR Support Administrator
+employer: The Woodlands School
+location: Milton Keynes, South East, MK8 0PU
+region: Buckinghamshire
+salary: £9,700.00 Annually (Actual)
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-support-administrator-the-woodlands-school
+hub_fingerprint: c8c38a0e17c53c4933140dc7f8f2904655acf42f872d5db820dadd4dc6b18fb3
+---
+
+---
+action:
+POSS | Teaching Vacancies | Cambridgeshire | Peterborough, East of England, PE7 8HR | £19,985.00 - £22,406.00 Annually (Actual) Grade 7 (£29,541 to £33,119 FTE) | SEN Administration Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: sen-administration-assistant-hampton-gardens-secondary-school
+title: SEN Administration Assistant
+employer: Hampton Gardens Secondary School
+location: Peterborough, East of England, PE7 8HR
+region: Cambridgeshire
+salary: £19,985.00 - £22,406.00 Annually (Actual) Grade 7 (£29,541 to £33,119 FTE)
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-assistant-hampton-gardens-secondary-school
+hub_fingerprint: cc1f0b256c16cb12e2d5c23bac50ab7107a7b61c16d6fda4d1635ff22973bd0b
+---
+
+---
+action:
+POSS | Teaching Vacancies | Cambridgeshire | St Ives, East of England, PE27 6RR | £42,405.00 Annually (Actual) | Finance Manager (Fixed Term Maternity Cover)
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-manager-fixed-term-maternity-cover
+title: Finance Manager (Fixed Term Maternity Cover)
+employer: St Ivo Academy
+location: St Ives, East of England, PE27 6RR
+region: Cambridgeshire
+salary: £42,405.00 Annually (Actual)
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-fixed-term-maternity-cover
+hub_fingerprint: 1a5e10083385a14aef096f8ab786cbc28c46bea08925f2c7d54756c3a8b722b0
+---
+
+---
+action:
+POSS | Teaching Vacancies | Cheshire - Warrington & Halton | Warrington, North West, WA2 0LN | £16,899.00 - £17,556.00 Annually (Actual) Grade 4: NJC SCP 6 to SCP 7 (Full year salary range £26,847 to £27,274; Actual Salary: £16,899 to £17,282 per annum) | Administrative Support Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrative-support-officer-padgate-academy-warrington
+title: Administrative Support Officer
+employer: Padgate Academy
+location: Warrington, North West, WA2 0LN
+region: Cheshire - Warrington & Halton
+salary: £16,899.00 - £17,556.00 Annually (Actual) Grade 4: NJC SCP 6 to SCP 7 (Full year salary range £26,847 to £27,274; Actual Salary: £16,899 to £17,282 per annum)
+closing_date: 2026-11-09T12:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-support-officer-padgate-academy-warrington
+hub_fingerprint: a9e70965b87688612a80e1a56f39f07baef25e4c81cfe40cd91c2933f32b216a
+---
+
+---
+action:
+POSS | Teaching Vacancies | Cheshire - Warrington & Halton | Warrington, North West, WA4 3AE | £27,709.00 - £30,515.00 Annually (Actual) Grade 5 SCP 8–14 Actual Salary: £27,709 - £30,515 per annum | School Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: school-administrator-bridgewater-high-school
+title: School Administrator
+employer: Bridgewater High School
+location: Warrington, North West, WA4 3AE
+region: Cheshire - Warrington & Halton
+salary: £27,709.00 - £30,515.00 Annually (Actual) Grade 5 SCP 8–14 Actual Salary: £27,709 - £30,515 per annum
+closing_date: 2026-11-20T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-bridgewater-high-school
+hub_fingerprint: fa378d1d260880fa681646215abe426acff851f7728907c25ff1186c89314261
+---
+
+---
+action:
+POSS | Teaching Vacancies | Cornwall | Liskeard, PL14 3EA | £32,046.00 - £34,811.00 Annually (FTE) Actual salary approx. £21,727 - £23,602 per annum | Governance Professional to Trust Board and Local Governing Committees
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: governance-professional-to-trust-board-and-local-governing-committees-1594a72d-d462-43fb-b443-b41012e611bd
+title: Governance Professional to Trust Board and Local Governing Committees
+employer: South East Cornwall Multi Academy Regional Trust
+location: Liskeard, PL14 3EA
+region: Cornwall
+salary: £32,046.00 - £34,811.00 Annually (FTE) Actual salary approx. £21,727 - £23,602 per annum
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Borderline school administration title: governance professional
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-to-trust-board-and-local-governing-committees-1594a72d-d462-43fb-b443-b41012e611bd
+hub_fingerprint: 3163723353a8c50ef50a1609120e9553eb1d28873d6c24a5a71ffa0bdd4bca16
+---
+
+---
+action:
+POSS | Teaching Vacancies | Cornwall | St Austell, PL26 7RN | £47,347.00 - £55,796.00 Annually (FTE) Would consider part time 4 days per week. | Finance Business Partner
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-business-partner-cornwall-education-learning-trust-st-austell-not-recorded
+title: Finance Business Partner
+employer: Cornwall Education Learning Trust
+location: St Austell, PL26 7RN
+region: Cornwall
+salary: £47,347.00 - £55,796.00 Annually (FTE) Would consider part time 4 days per week.
+closing_date: 2026-11-16T23:59:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-cornwall-education-learning-trust-st-austell-not-recorded
+hub_fingerprint: b58514e515baa95858f08a2b091a8f3505e17e8d9fd209996d6bc2eed841ca3a
+---
+
+---
+action:
+POSS | Teaching Vacancies | Devon | Plymouth, South West, PL3 4RS | £19,955.00 - £20,595.00 Annually (Actual) Grade C FTE £26,427 - £27,274 | School Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: school-administrator-hyde-park-infants-school
+title: School Administrator
+employer: Hyde Park Infants' School
+location: Plymouth, South West, PL3 4RS
+region: Devon
+salary: £19,955.00 - £20,595.00 Annually (Actual) Grade C FTE £26,427 - £27,274
+closing_date: 2026-11-20T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-hyde-park-infants-school
+hub_fingerprint: 62668e85d77e3a5a82613bd92a88335a49b08135720f852f75b43369e9ce2df8
+---
+
+---
+action:
+POSS | Teaching Vacancies | Essex | Brentwood, CM13 2HG | £29,361.00 - £30,776.00 Annually (FTE) | Operational Support Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: operational-support-assistant
+title: Operational Support Assistant
+employer: Discovery Educational Trust
+location: Brentwood, CM13 2HG
+region: Essex
+salary: £29,361.00 - £30,776.00 Annually (FTE)
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/operational-support-assistant
+hub_fingerprint: a86d2532e556cd7f29d2e81a35860eb12cd70a4087bb4dadb40277fdae3873b3
+---
+
+---
+action:
+POSS | Teaching Vacancies | Essex | Brentwood, East of England, CM15 9NG | £25,171.00 - £26,384.00 Annually (Actual) | Admin Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: admin-assistant-larchwood-primary-school
+title: Admin Assistant
+employer: Larchwood Primary School
+location: Brentwood, East of England, CM15 9NG
+region: Essex
+salary: £25,171.00 - £26,384.00 Annually (Actual)
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-larchwood-primary-school
+hub_fingerprint: ca9a802c55a333dbd9bcf0ac4e3927a0d8ada50d9c53915bfa47184176738b5c
+---
+
+---
+action:
+POSS | Teaching Vacancies | Essex | Clacton On Sea, CO15 6DZ | £28,608.00 - £30,023.00 Annually (Actual) Local Government Scale 5, Point 10-13 | People Operations Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: people-operations-officer-the-sigma-trust-clacton-on-sea-not-recorded
+title: People Operations Officer
+employer: The Sigma Trust
+location: Clacton On Sea, CO15 6DZ
+region: Essex
+salary: £28,608.00 - £30,023.00 Annually (Actual) Local Government Scale 5, Point 10-13
+closing_date: 2026-12-01T23:59:00+00:00
+reason: Borderline school administration title: operations officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-officer-the-sigma-trust-clacton-on-sea-not-recorded
+hub_fingerprint: d364b5be8d7bed60734ab202c701702ae2a585eae53ba9c5a3ae9d621a1ac99a
+---
+
+---
+action:
+POSS | Teaching Vacancies | Essex | Clacton-on-Sea, East of England, CO15 6DZ | £4,665.00 - £4,739.00 Annually (Actual) | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-clacton-county-high-school
+title: Receptionist
+employer: Clacton County High School
+location: Clacton-on-Sea, East of England, CO15 6DZ
+region: Essex
+salary: £4,665.00 - £4,739.00 Annually (Actual)
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-clacton-county-high-school
+hub_fingerprint: bf3697de2506685ca2b0e620594197aea2801b913f4dbcaab0cda185ce747c0f
+---
+
+---
+action:
+POSS | Teaching Vacancies | Greater Manchester - South | Stockport, North West, SK5 6BL | £27,274.00 - £29,071.00 Annually (FTE) Pro rata salary banding £23,380 - £24,921 | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrator-st-elisabeth-s-church-of-england-primary
+title: Administrator
+employer: St Elisabeth's Church of England Primary
+location: Stockport, North West, SK5 6BL
+region: Greater Manchester - South
+salary: £27,274.00 - £29,071.00 Annually (FTE) Pro rata salary banding £23,380 - £24,921
+closing_date: 2026-11-26T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-elisabeth-s-church-of-england-primary
+hub_fingerprint: f960b3d734126edd835d132dbdfb9885166fff55be4e8f26bc5e1fce0d3d1b70
+---
+
+---
+action:
+POSS | Teaching Vacancies | Hertfordshire | Radlett, East of England, WD7 7LQ | £7,737.00 - £7,737.00 Annually (Actual) | Finance and Reception Administrator – Part Time
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-and-reception-administrator-part-time-hertsmere-jewish-primary-school
+title: Finance and Reception Administrator – Part Time
+employer: Hertsmere Jewish Primary School
+location: Radlett, East of England, WD7 7LQ
+region: Hertfordshire
+salary: £7,737.00 - £7,737.00 Annually (Actual)
+closing_date: 2026-11-09T23:59:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-reception-administrator-part-time-hertsmere-jewish-primary-school
+hub_fingerprint: a48f496eb01ac580876aa8ba3dcdc38d67b2c1d667456cc8ab619dd504fa9679
+---
+
+---
+action:
+POSS | Teaching Vacancies | Lancashire - East | Blackburn, North West, BB1 4ED | £34,357.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year | Data Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: data-officer-the-hyndburn-academy-blackburn-lancashire
+title: Data Officer
+employer: The Hyndburn Academy
+location: Blackburn, North West, BB1 4ED
+region: Lancashire - East
+salary: £34,357.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year
+closing_date: 2026-11-16T17:00:00+00:00
+reason: Borderline school administration title: data officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hyndburn-academy-blackburn-lancashire
+hub_fingerprint: 15c017ab5902be33a8f1ee4ee685a20589062efa57916b394779c771c984d67d
+---
+
+---
+action:
+POSS | Teaching Vacancies | Lancashire - East | Nelson, North West, BB9 0PR | £35,000.00 Annually (FTE) Local Government Pension, Health Care Cash Plan, Generous Staff Discount scheme, 3 extra inset days for planning, at least one personal leave day per year | Data Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: data-officer-marsden-heights-community-college
+title: Data Officer
+employer: Marsden Heights Community College
+location: Nelson, North West, BB9 0PR
+region: Lancashire - East
+salary: £35,000.00 Annually (FTE) Local Government Pension, Health Care Cash Plan, Generous Staff Discount scheme, 3 extra inset days for planning, at least one personal leave day per year
+closing_date: 2026-11-08T17:00:00+00:00
+reason: Borderline school administration title: data officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-marsden-heights-community-college
+hub_fingerprint: 2fc0809e11b5cfb50d7e4302178cbf4260ecf179048b76635180e8c8d6beab27
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Beckenham, London, BR3 1RF | £30,843.00 - £32,655.00 Annually (FTE) | Administration Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
+title: Administration Officer
+employer: Worsley Bridge Primary School
+location: Beckenham, London, BR3 1RF
+region: London
+salary: £30,843.00 - £32,655.00 Annually (FTE)
+closing_date: 2026-11-05T12:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
+hub_fingerprint: 82585250193bc9696bb0c1cb5ce6941e2639248fa246c50a1d88daf45291b745
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Bexleyheath, London, DA6 7DA | £26039 - £26412 per annum | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-lift-bexleyheath-bexleyheath-kent
+title: Receptionist
+employer: Lift Bexleyheath
+location: Bexleyheath, London, DA6 7DA
+region: London
+salary: £26039 - £26412 per annum
+closing_date: 2026-11-09T13:15:04+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-bexleyheath-bexleyheath-kent
+hub_fingerprint: d5bb0cdbc5165a410379197cd1753c3805ab03920d0f77573ccdca83ee5ec53f
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Dagenham, London, RM9 4UN | £28,709.00 - £30,364.00 Annually (Actual) full time equivalent £31,290- £32,655 | Admin Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: admin-assistant-ca29941e-9010-4765-be98-b1691a7db90c
+title: Admin Assistant
+employer: Jo Richardson Community School
+location: Dagenham, London, RM9 4UN
+region: London
+salary: £28,709.00 - £30,364.00 Annually (Actual) full time equivalent £31,290- £32,655
+closing_date: 2026-11-11T08:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-ca29941e-9010-4765-be98-b1691a7db90c
+hub_fingerprint: 83f95aae908d04e95b9715655db6399dcbfff009f268564ad381746b27197d7e
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Feltham, TW13 4AB | £30,867.00 - £35,158.00 Annually (FTE) (SA6) (pay award pending) | Finance Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-assistant-reach-schools
+title: Finance Assistant
+employer: Reach Schools
+location: Feltham, TW13 4AB
+region: London
+salary: £30,867.00 - £35,158.00 Annually (FTE) (SA6) (pay award pending)
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-reach-schools
+hub_fingerprint: d3e4fa9bf6d6b3b107ce71a04a2c4284d3f90a095a437916fbcee48bf3925688
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Isleworth, London, TW7 5DB | £33,129.00 - £35,109.00 Annually (FTE) NJC Scale 5 £33,129 to £35,109 (pro rata) Pro rata salary based on working 36 hours a week for 5 days a week, 39 weeks per annum (N.B. this is ‘term time’ i.e. 195 days) | SEND Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: send-administrator-bolder-academy-isleworth
+title: SEND Administrator
+employer: Bolder Academy
+location: Isleworth, London, TW7 5DB
+region: London
+salary: £33,129.00 - £35,109.00 Annually (FTE) NJC Scale 5 £33,129 to £35,109 (pro rata) Pro rata salary based on working 36 hours a week for 5 days a week, 39 weeks per annum (N.B. this is ‘term time’ i.e. 195 days)
+closing_date: 2026-11-09T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bolder-academy-isleworth
+hub_fingerprint: 828fdc3b20cf8258fdf0911991e7c99af5ee71898db69674507cccd6e2485010
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, E14 0AF | £33,700-£35,500 dependent upon experience | Recruitment and HR Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: recruitment-and-hr-administrator-new-city-college
+title: Recruitment and HR Administrator
+employer: New City College
+location: London, London, E14 0AF
+region: London
+salary: £33,700-£35,500 dependent upon experience
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-hr-administrator-new-city-college
+hub_fingerprint: f960d67a88fed35f94dc6d38cb95283d055233ff4c635c84ebd6066a0ada3ab3
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, E17 5SD | £26,016.00 to £26,427.00 per annum (pro rata £22,951.04 to £23,313.62 per annum) plus London Weighting £2,376.00 per annum (pro rata £2,096.08) | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-eden-girls-school-waltham-forest
+title: Receptionist
+employer: Eden Girls' School, Waltham Forest
+location: London, London, E17 5SD
+region: London
+salary: £26,016.00 to £26,427.00 per annum (pro rata £22,951.04 to £23,313.62 per annum) plus London Weighting £2,376.00 per annum (pro rata £2,096.08)
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-eden-girls-school-waltham-forest
+hub_fingerprint: a3df8bfd5d5a49e0640ee2ed0ec8622bec45421d593ad112864bacdf138a63e5
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, E17 8HA | £31,290.00 - £33,129.00 Annually (FTE) Term-Time + 5 Inset days & 4 Plus days | Administration Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-officer-sybourn-primary-school-london
+title: Administration Officer
+employer: Sybourn Primary School
+location: London, London, E17 8HA
+region: London
+salary: £31,290.00 - £33,129.00 Annually (FTE) Term-Time + 5 Inset days & 4 Plus days
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-sybourn-primary-school-london
+hub_fingerprint: 5a82d24380536d6c2373b279786f746f894d74c44968cc8ce93b4e5cf2cff493
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, NW1 6RX | £31,083 - £34,857 per year | Receptionist/Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-administrator-ark-king-solomon-academy
+title: Receptionist/Administrator
+employer: Ark King Solomon Academy
+location: London, London, NW1 6RX
+region: London
+salary: £31,083 - £34,857 per year
+closing_date: 2026-11-20T00:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ark-king-solomon-academy
+hub_fingerprint: f6a0c9f215f93df176ccba668395ebe76b52ed724f804ca2e8f9690482f0180f
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, NW2 1TR | £33,129.00 - £35,628.00 Annually (FTE) Salary subject to skills and previous experiance | Administrative Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrative-assistant-mapledown-school
+title: Administrative Assistant
+employer: Mapledown School
+location: London, London, NW2 1TR
+region: London
+salary: £33,129.00 - £35,628.00 Annually (FTE) Salary subject to skills and previous experiance
+closing_date: 2026-11-20T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-mapledown-school
+hub_fingerprint: 13332310b065af77d23a9f1c48fe4a0dd4c77abbf278b02900510cc58c461e53
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Northolt, London, UB5 6AG | Grade 6 Pt 18 - 20 (£36,834 - £37,935) pro rata salary of £32,725 - £33,703Ppa | Transition, Assessment and Medical/Welfare Coordinator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: transition-assessment-and-medical-welfare-coordinator
+title: Transition, Assessment and Medical/Welfare Coordinator
+employer: Belvue School
+location: Northolt, London, UB5 6AG
+region: London
+salary: Grade 6 Pt 18 - 20 (£36,834 - £37,935) pro rata salary of £32,725 - £33,703Ppa
+closing_date: 2026-11-12T12:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment-and-medical-welfare-coordinator
+hub_fingerprint: 2f91bf4e979b98586e74d747ab87be6b91fd13628e183f58f542c77ceae6878e
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Woodford Green, London, IG8 7DQ | £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£30,288 - £31,611 full time equivalent) | Sixth Form Independent Study Supervisor
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: sixth-form-independent-study-supervisor
+title: Sixth Form Independent Study Supervisor
+employer: Woodbridge High School
+location: Woodford Green, London, IG8 7DQ
+region: London
+salary: £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£30,288 - £31,611 full time equivalent)
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-independent-study-supervisor
+hub_fingerprint: 6f62c9ef655ee246d733ab464506284137faf559e09117d4b260c4db5abbf749
+---
+
+---
+action:
+POSS | Teaching Vacancies | North East | Blyth, NE24 2SY | £25,147.00 - £26,414.00 Annually (Actual) Whole Time | HR & Payroll Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
+title: HR & Payroll Administrator
+employer: Emmanuel Schools Foundation
+location: Blyth, NE24 2SY
+region: North East
+salary: £25,147.00 - £26,414.00 Annually (Actual) Whole Time
+closing_date: 2026-11-12T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
+hub_fingerprint: ae6df7a792d9bc36c269f5779bc2de6204735718d67e67b492010c0ebb96c09b
+---
+
+---
+action:
+POSS | Teaching Vacancies | Northamptonshire | Wellingborough, East Midlands, NN8 3HB | £16,624.20 - £16,889.23 Annually (FTE) Based on NJS Scale F6 - F7, FTE salary is £26,846 - £27,274 | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrator-st-barnabas-church-of-england-school
+title: Administrator
+employer: St Barnabas Church of England School
+location: Wellingborough, East Midlands, NN8 3HB
+region: Northamptonshire
+salary: £16,624.20 - £16,889.23 Annually (FTE) Based on NJS Scale F6 - F7, FTE salary is £26,846 - £27,274
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barnabas-church-of-england-school
+hub_fingerprint: 95dfcb7090b915916c44c627cecff0fb750dcce62bd4dcf96b3d6b71042ab77c
+---
+
+---
+action:
+POSS | Teaching Vacancies | Nottinghamshire | Mansfield, East Midlands, NG18 2DP | £22,569.72 - £22,569.72 Annually (Actual) | Administration Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-assistant-horizons-academy-mansfield-nottinghamshire
+title: Administration Assistant
+employer: Horizons Academy
+location: Mansfield, East Midlands, NG18 2DP
+region: Nottinghamshire
+salary: £22,569.72 - £22,569.72 Annually (Actual)
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy-mansfield-nottinghamshire
+hub_fingerprint: 095a3e9993e6cf95c06e0e92650acc5afbe0692b6280b406c9f8256b63376f46
+---
+
+---
+action:
+POSS | Teaching Vacancies | Staffordshire | Cannock, West Midlands, WS11 4AW | £25,615.00 - Term time plus inset (actual salary paid pro rata). | Administrative Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrative-assistant-cardinal-griffin-catholic-college
+title: Administrative Assistant
+employer: Cardinal Griffin Catholic College
+location: Cannock, West Midlands, WS11 4AW
+region: Staffordshire
+salary: £25,615.00 - Term time plus inset (actual salary paid pro rata).
+closing_date: 2026-11-06T08:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cardinal-griffin-catholic-college
+hub_fingerprint: 6f990f48ab05ff2ebe4412293577761ba29c937b0b53407e9a27857878443f8c
+---
+
+---
+action:
+POSS | Teaching Vacancies | Suffolk | Beccles, East of England, NR34 7BQ | £19,350- £22,735 actual pa | Finance Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-officer-beccles-high-school
+title: Finance Officer
+employer: Beccles High School
+location: Beccles, East of England, NR34 7BQ
+region: Suffolk
+salary: £19,350- £22,735 actual pa
+closing_date: 2026-12-20T00:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccles-high-school
+hub_fingerprint: 5b6530d9bf5f04230d9ace9f8ea873e15a31b749a5177759ae457ecfd935a246
+---
+
+---
+action:
+POSS | Teaching Vacancies | Suffolk | Ipswich, East of England, IP1 6QD | £26,016.00 - £26,847.00 Annually (FTE) | SEND Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: send-administrator-castle-hill-junior-school
+title: SEND Administrator
+employer: Castle Hill Junior School
+location: Ipswich, East of England, IP1 6QD
+region: Suffolk
+salary: £26,016.00 - £26,847.00 Annually (FTE)
+closing_date: 2026-11-05T13:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-castle-hill-junior-school
+hub_fingerprint: 3fc3d115d1d750fbf2201a85f394c8425dc30ee14c91c7d821d5298db1adee4e
+---
+
+---
+action:
+POSS | Teaching Vacancies | Surrey | Caterham, South East, CR3 5YX | £18,199.26 to £18,459.55 (dependent on experience) | Finance Admin Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-admin-assistant-de-stafford-school
+title: Finance Admin Assistant
+employer: de Stafford School
+location: Caterham, South East, CR3 5YX
+region: Surrey
+salary: £18,199.26 to £18,459.55 (dependent on experience)
+closing_date: 2026-11-16T09:00:59+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-de-stafford-school
+hub_fingerprint: 56ed074c8433bf1fdcb1e34e9f303fc7b16fff60b58093e30bc28101449c8671
+---
+
+---
+action:
+POSS | Teaching Vacancies | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 6LN | £26,427.00 - £26,847.00 Annually (FTE) | School Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: school-administrator-holy-name-catholic-primary-school
+title: School Administrator
+employer: Holy Name Catholic Primary School
+location: Birmingham, West Midlands, B43 6LN
+region: West Midlands - Birmingham & Solihull
+salary: £26,427.00 - £26,847.00 Annually (FTE)
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-holy-name-catholic-primary-school
+hub_fingerprint: 1285a3291e3c1de33b54c7d4cae36c41e607965d65e27344174924c0539fb296
+---
+
+---
+action:
+POSS | Teaching Vacancies | West Midlands - Black Country | Halesowen, West Midlands, B63 4HY | £22,812.00 - £22,812.00 Monthly | Administration Assistant - Level 2
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-assistant-level-2-huntingtree-primary-school
+title: Administration Assistant - Level 2
+employer: Huntingtree Primary School
+location: Halesowen, West Midlands, B63 4HY
+region: West Midlands - Black Country
+salary: £22,812.00 - £22,812.00 Monthly
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Salary period needs verification
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-huntingtree-primary-school
+hub_fingerprint: 8e7ea3615ad44fba107a44d85a251885d963b5c581ca1edb6b5f5264e86520d6
+---
+
+---
+action:
+POSS | Teaching Vacancies | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6DY | £22,318.00 - £24,756.00 Annually (Actual) | ECHP Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: echp-administrator
+title: ECHP Administrator
+employer: Brooke School
+location: Rugby, West Midlands, CV22 6DY
+region: West Midlands - Coventry & Warwickshire
+salary: £22,318.00 - £24,756.00 Annually (Actual)
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/echp-administrator
+hub_fingerprint: 289b85cd9136af0ade626c87c942b47b83d2aac4de9e7d7e3584f1cc2682e940
+---
+
+---
+action:
+POSS | Teaching Vacancies | Wiltshire | Salisbury, South West, SP1 1QX | £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE | Clerk to Governors
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: clerk-to-governors-st-andrew-s-church-of-england-voluntary-aided-primary-school-laverstock
+title: Clerk to Governors
+employer: St Andrew's Church of England Voluntary Aided Primary School, Laverstock
+location: Salisbury, South West, SP1 1QX
+region: Wiltshire
+salary: £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE
+closing_date: 2026-11-18T23:59:00+00:00
+reason: Borderline school administration title: clerk to governors
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-st-andrew-s-church-of-england-voluntary-aided-primary-school-laverstock
+hub_fingerprint: 843580bd06ce2b6fec39b8be9f16dd22c8a51ab62c0ea23b2b0d58cb9085d048
+---
+
+---
+action:
+POSS | Teaching Vacancies | Wiltshire | Salisbury, South West, SP4 6JZ | £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE | Clerk to Governors
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: clerk-to-governors-gomeldon-primary-school
+title: Clerk to Governors
+employer: Gomeldon Primary School
+location: Salisbury, South West, SP4 6JZ
+region: Wiltshire
+salary: £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Borderline school administration title: clerk to governors
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gomeldon-primary-school
+hub_fingerprint: b46f094eaae6940cee885eca2ad73745ee4f1c795a6b2fad08f2ac6b85c874d0
+---
+
+---
+action:
+POSS | Teaching Vacancies | Worcestershire | Pershore, West Midlands, WR10 2ER | £21,938.00 Annually (FTE) SC4 | Finance Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-assistant-pinvin-cofe-academy-pershore-worcestershire
+title: Finance Assistant
+employer: Pinvin CofE Academy
+location: Pershore, West Midlands, WR10 2ER
+region: Worcestershire
+salary: £21,938.00 Annually (FTE) SC4
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pinvin-cofe-academy-pershore-worcestershire
+hub_fingerprint: 328262491bea67c72c4c3fd1afe5ccad2319bf490a63885a6820c140c6af5ce8
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - East | Hull, Yorkshire and the Humber, HU3 1UP | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role starts at £26,362.80 | Data Officer (7483)
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: data-officer-7483-hull-trinity-house-academy
+title: Data Officer (7483)
+employer: Hull Trinity House Academy
+location: Hull, Yorkshire and the Humber, HU3 1UP
+region: Yorkshire - East
+salary: £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role starts at £26,362.80
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Borderline school administration title: data officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-7483-hull-trinity-house-academy
+hub_fingerprint: e818ef63daa9c8bb9cfec870a27410a03cb80e5b0c8d8c368056f0e5502e1ff9
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - North | York, YO24 2RU | £19,740.94 - £20,616.86 Annually (Actual) Grade 5, Level 1-4 (£27,631 to £28,857 FTE) | Trust Data Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: trust-data-officer-excel-learning-trust
+title: Trust Data Officer
+employer: Excel Learning Trust
+location: York, YO24 2RU
+region: Yorkshire - North
+salary: £19,740.94 - £20,616.86 Annually (Actual) Grade 5, Level 1-4 (£27,631 to £28,857 FTE)
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Borderline school administration title: data officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-officer-excel-learning-trust
+hub_fingerprint: ae80d379c2539a5e78349fa075c237173b1af05d68dd801c84411d47d60780a4
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - North | York, Yorkshire and the Humber, YO32 4BZ | Grade 4, Level 1-4 (£25,948 to £27,188 p.a.) reduced pro rata to £22,280 to £23,345 (calculated on full time hours) | Administration Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-officer-dc55f46b-8083-476b-9b89-86e66dc7015f
+title: Administration Officer
+employer: Joseph Rowntree School
+location: York, Yorkshire and the Humber, YO32 4BZ
+region: Yorkshire - North
+salary: Grade 4, Level 1-4 (£25,948 to £27,188 p.a.) reduced pro rata to £22,280 to £23,345 (calculated on full time hours)
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-dc55f46b-8083-476b-9b89-86e66dc7015f
+hub_fingerprint: 66215d6dea054a2084a17569ba441f7fdb901e712a223a38e40c660ed64b2b55
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - South | Doncaster, DN9 1HQ | £31,000.00 - £40,000.00 Annually (FTE) | Governance Professional
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: governance-professional-isle-education-trust
+title: Governance Professional
+employer: Isle Education Trust
+location: Doncaster, DN9 1HQ
+region: Yorkshire - South
+salary: £31,000.00 - £40,000.00 Annually (FTE)
+closing_date: 2026-11-12T09:00:00+00:00
+reason: Borderline school administration title: governance professional
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-isle-education-trust
+hub_fingerprint: 16f34e5b2225e2ede4143d6720a2260bbdec00d60e1f18b5b53f9df9becb7a61
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - South | Sheffield, S9 4WG | £42,405.00 Annually (Actual) | Finance Manager (Fixed Term Maternity Cover)
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: finance-manager-fixed-term-maternity-cover-astrea-academy-trust
+title: Finance Manager (Fixed Term Maternity Cover)
+employer: Astrea Academy Trust
+location: Sheffield, S9 4WG
+region: Yorkshire - South
+salary: £42,405.00 Annually (Actual)
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-fixed-term-maternity-cover-astrea-academy-trust
+hub_fingerprint: a45d53fb2240d77017e7ef5c5f103d9a6e48ec7589dca476578b44b88d3094fd
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | HR Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: hr-officer-great-heights-academy-trust
+title: HR Officer
+employer: Great Heights Academy Trust
+location: Elland, HX5 0RY
+region: Yorkshire - West
+salary: £32,578.00 - £34,811.00 Annually (Actual)
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-heights-academy-trust
+hub_fingerprint: 01a04c84fff204f8c5affce01a6ca7a5541c4b7c7fe4cc3176b6e60f3f98c4ea
+---
+
+---
+action:
+POSS | Teaching Vacancies | Yorkshire - West | Wetherby, Yorkshire and the Humber, LS23 6DX | £25,185-£25,989 | Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: office-administrator-primrose-lane-primary-school
+title: Office Administrator
+employer: Primrose Lane Primary School
+location: Wetherby, Yorkshire and the Humber, LS23 6DX
+region: Yorkshire - West
+salary: £25,185-£25,989
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-primrose-lane-primary-school
+hub_fingerprint: 36eba92fc5da13964df8312e727cd867a93079f260317d80590395d1026e2f70
 ---
 
 ## NHS Jobs — 0 to review
