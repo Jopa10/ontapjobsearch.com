@@ -159,3 +159,4 @@ jobs:
           PY
 
 # Owner-requested matched sample: 24 October 2026.
+# Private daily delivery runs only on the explicit approved commit-message trigger.
