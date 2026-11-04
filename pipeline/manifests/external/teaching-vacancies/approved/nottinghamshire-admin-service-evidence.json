@@ -1,20 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:02+00:00",
+  "generated_at": "2026-11-04T19:27:56+00:00",
   "source": "Teaching Vacancies",
   "region": "Nottinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "c7249e2cc005e868ac8063487b932221c100314d9778ba4cebd19699aa5bf60d",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "0e09aee9d08f485e5811f81ab4b147a59ba98c710f8358b622c5757c3d4a655f",
-  "summary_md_sha256": "37ba2c804745773b40600ee3a5a213341d39956629988e8a3407465f29ce5d31",
-  "approved_snapshot_sha256": "e325a67d5600d8a89e8c35b3cc5a69f24d373c717ae2f9b9615737cbaa970ed4",
-  "approved_rows": 3,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "53a6706577b3899a4eaf4e244c1fc4c4b685b12835da13c33672744cd7cc89dd",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "30ed34b33794c0cb62a6e163b457332d379fde2f88d0c5b6c73ce1670f923c4a",
+  "summary_md_sha256": "c7c9f1f915796fbf65d4f12e7c7b2d0cd54f8fabdee0d57ba97317fe52319672",
+  "approved_snapshot_sha256": "e936be402f8f10c00b0dffc8b12a1fce94543985774a1921779347086514ae96",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-finance-administrator-including-trips-and-visits",
     "teaching-vacancies-administrative-assistant-netherfield-primary-school",
-    "teaching-vacancies-administrator-secondary-site"
+    "teaching-vacancies-administrator-receptionist-bramcote-college",
+    "teaching-vacancies-administrative-assistant-our-lady-of-lourdes-catholic-multi-academy-trust-nottingham-not-recorded",
+    "teaching-vacancies-administrator-secondary-site",
+    "teaching-vacancies-finance-administrator-including-trips-and-visits-arnold-hill-spencer-academy"
   ]
 }

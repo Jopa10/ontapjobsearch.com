@@ -1,23 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:04+00:00",
+  "generated_at": "2026-11-04T19:27:57+00:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - West",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "e6ce1f05263bff545284b4a9f447e8df24085871281c727998a9a8770d98c49c",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "7026e4e2f44d77975fc4703baa5e345f108eb0becebc33a745444abcb0810bbd",
-  "summary_md_sha256": "1ae10af62c2da1e6f99e67563270adbe4199bb742b399510fa9c7c92b6d2a051",
-  "approved_snapshot_sha256": "7a4e3b42df7fa8a73667c18d675344b92fc519b8949532a4bd27f11cb0695129",
-  "approved_rows": 6,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "a35207cdbd6d40a60cffded487f3c2c87414b8993eac238f02a15801325c2c0c",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "dd40a3517508d5f54e915ec0621b14148f82464114ea51fc4831af211d5699e0",
+  "summary_md_sha256": "d7fcc917bb714194f5c224a672110afbfba7e4f1d9936b845eb707d4b07d5e78",
+  "approved_snapshot_sha256": "853323f4197c3a89e523b7e00c633e19bf2f81b4b5e4c99255d3bdd89c47c37a",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-attendance-officer-bronte-girls-academy-bradford",
-    "teaching-vacancies-data-and-exams-administrator-moor-end-academy-huddersfield-west-yorkshire",
     "teaching-vacancies-receptionist-park-lane-academy",
     "teaching-vacancies-administration-assistant-horbury-academy",
-    "teaching-vacancies-receptionist-administrator-ca52dc57-0aa2-4583-be92-409ff21aea72",
-    "teaching-vacancies-student-information-desk-receptionist-outwood-grange-academy"
+    "teaching-vacancies-student-information-desk-receptionist-outwood-grange-academy",
+    "teaching-vacancies-business-support-officer-part-time-moorlands-primary-school",
+    "teaching-vacancies-pa-to-the-principal-7519-valley-academy"
   ]
 }

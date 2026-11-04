@@ -1,20 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:32:59+00:00",
+  "generated_at": "2026-11-04T19:27:53+00:00",
   "source": "Teaching Vacancies",
   "region": "Devon",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "4b97b680a3717aeaeaa4b29eca49f9f9232e3924c4d1c26747ee0113d70fc31a",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "72e82956c12bcc0ce1f1a3f8147a16850350cbd7e7bc7f2db4aec91204f82e22",
-  "summary_md_sha256": "33ce19e857c2273fb10826dbc31a842f56c75ba2d0dad5877e6466812c39272b",
-  "approved_snapshot_sha256": "ea08aa82a8d508b8fe3a0233fce3ce4e96d41fe19747a98556df7cebd73854fa",
-  "approved_rows": 4,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "ed171b443224d9d8863b71952de2e49f8c4e9ea2be2ee8a3b65ad2e00da4395a",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "c4ca6066e408bfff6c3a18db9b358c513ea8a623fe43981cc3ed3d51775f7031",
+  "summary_md_sha256": "5c94d9c93882ff5f7a62be8fa8a862b02195575c197dd7ee39e0778bc3c0067f",
+  "approved_snapshot_sha256": "0d4e6ab12043e7fbb5e4b4b3371cd1573e32144542c774662c8c729a62120c12",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-attendance-officer-part-time-st-james-school",
-    "teaching-vacancies-student-funding-administrator-maternity-cover",
     "teaching-vacancies-nursery-administrator-31464adb-0c58-44e0-b86c-35e420fdd035",
     "teaching-vacancies-school-receptionist-stoke-damerel-community-college"
   ]

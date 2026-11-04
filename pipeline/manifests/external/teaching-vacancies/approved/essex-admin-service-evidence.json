@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:32:59+00:00",
+  "generated_at": "2026-11-04T19:27:54+00:00",
   "source": "Teaching Vacancies",
   "region": "Essex",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "3af566b561807e634945dcd6b7e7a3d51e136055c2220301083c1cb43cb252a6",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "45b3a205d63a8bc4fa882c672bea40bff8d205ca2a31990718455f2a4dfc9020",
-  "summary_md_sha256": "583998ed4ed72e9ea579d6026b12240842c53096b709df75213062ecff7d26d0",
-  "approved_snapshot_sha256": "c3d521d17fd4c8486d5afbff3cb11834aea3e2030dddc5a60682eb979b76d1dc",
-  "approved_rows": 2,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "54e4c98a5d3ba1418fad1f672cd44c14ce44dc2c6bb6a8a88b4e398c5d0ba21c",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "fb5dc6ae9f6260efe8c635d535359395d3b093ac4b7373de91bd71fda067a90a",
+  "summary_md_sha256": "cce4fae5d58e85ab25ed50ea8b4678e62c78f5813cf87fb89434fed501747d4e",
+  "approved_snapshot_sha256": "337799062427c89147ae6828b45a9ce11e91901f321d5e03e7810224da887120",
+  "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-one-year-fixed-term",
     "teaching-vacancies-administration-assistant-high-ongar-primary-school"
   ]
 }

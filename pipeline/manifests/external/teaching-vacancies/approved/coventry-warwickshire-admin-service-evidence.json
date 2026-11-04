@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:04+00:00",
+  "generated_at": "2026-11-04T19:27:57+00:00",
   "source": "Teaching Vacancies",
   "region": "West Midlands - Coventry & Warwickshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "21c6d7fa6072fe56ba89d5db5ef7cb324ae947f2d24abb409b9857db2fea0d61",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "06df861ce65eaa70b91bf95ba32ca3a61f5ff98c88e548a79b783c191fc2ffc2",
-  "summary_md_sha256": "afafd33db04b356770ff9cbe954912113c5683cff52ae0f1e634a291fad3e391",
-  "approved_snapshot_sha256": "94ed16f40dc8feebb8f3ff64482fe76e089302cf22d0e18d424db930e4a27470",
-  "approved_rows": 2,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "d94ec8fcd212a50c08b7cd0d70b6185585540ac28bc7ecbbf360a2db0641677b",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "dbbca115b259ceba493ea470e52cd9a89ad4e320e2fac426b7652f49bec38373",
+  "summary_md_sha256": "eb425cdadb3d89da88730a38f9706624e2f74774fffc765a514861c265797de8",
+  "approved_snapshot_sha256": "877cf095060498e18c69b998b22e6d35a4c51e1267b3b1b8e70a9910d11c61ac",
+  "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-echp-administrator",
     "teaching-vacancies-receptionist-finham-park-2-coventry-west-midlands"
   ]
 }

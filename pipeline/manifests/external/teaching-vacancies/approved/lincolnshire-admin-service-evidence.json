@@ -1,17 +1,17 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:01+00:00",
+  "generated_at": "2026-11-04T19:27:55+00:00",
   "source": "Teaching Vacancies",
   "region": "Lincolnshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "3b00ccd0e7667a6fe6d6fdbdc850794a134767ff22024c5f7470e566100079ca",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "1e66d1f325bc79d40f1a410d7658d5265e9d22b5744ffcb078e508f765b26c5f",
-  "summary_md_sha256": "3b185af418f878a49fff1b2681a6a33954c5c73cc041ced30b4c5697b733bcd1",
-  "approved_snapshot_sha256": "3d0ad6687a61aec1db1d2dc07a9b062b120e8ede0369d94226d0f590bd75cdbe",
-  "approved_rows": 7,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "acaf6fe5034d0d82d5537daeaadf977e4531c264a9e275c1a30880308b0d04be",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "d30f966bd6be41c6a390c17350bb0bc86e80fb7bfef88f47a467a5378791cabc",
+  "summary_md_sha256": "da209e962b734b026959b06356f01551106adda330b9151a4d44f01e89209c74",
+  "approved_snapshot_sha256": "050be37a91e45f57366ddc8e8076ca375d68efab5477a34a0974d4b386f07680",
+  "approved_rows": 8,
   "approved_job_ids": [
     "teaching-vacancies-pupil-receptionist-administrator-d44ce344-7740-41cd-9180-1240273f0189",
     "teaching-vacancies-send-administrator-stamford-welland-academy",
@@ -19,6 +19,7 @@
     "teaching-vacancies-office-operations-administrator-healing-primary-academy",
     "teaching-vacancies-attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire",
     "teaching-vacancies-academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef",
-    "teaching-vacancies-admin-assistant-william-farr-cofe-comprehensive-school"
+    "teaching-vacancies-admin-assistant-william-farr-cofe-comprehensive-school",
+    "teaching-vacancies-receptionist-sir-robert-pattinson-academy-lincoln-lincolnshire"
   ]
 }

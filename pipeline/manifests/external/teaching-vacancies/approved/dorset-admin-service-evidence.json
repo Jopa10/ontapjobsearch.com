@@ -1,18 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:32:59+00:00",
+  "generated_at": "2026-11-04T19:27:53+00:00",
   "source": "Teaching Vacancies",
   "region": "Dorset",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "cc778e9c0e3a826b1c388dfa3363cc75bc8bedf56739f37f0c0504e7e93f1707",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "8d30f1752b04baf9ba7bb30087e094c9b7c6e8014a742299abc5cf6c9bc11402",
-  "summary_md_sha256": "6c2320001e70aee1d05b0b55148fc2b13f80e7d902e2e436b456d0d882cc7e6b",
-  "approved_snapshot_sha256": "9ee7a03810a7f5007dea30f0fe9562d3e7541965ddb461abe5d16ef32ce765d3",
-  "approved_rows": 1,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "9beb286ddc064d5645f4b247cd67a4a3f476d2c1b0db1e555caae9e4e44b3309",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "5ef019bfcabceaa3d8956ab41a2cc5b779e9c0036a30c4b8d4bb2a8a61799ac7",
+  "summary_md_sha256": "75b0e6d8eee477f399d74ecbcb3cf068a7a37fae8beffacae33eb4264818c4c7",
+  "approved_snapshot_sha256": "fc7ce95eefabe15465a9a70d7d7a3a7fe65d0516dd0d2de90e5876cba5d404a2",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-send-admin-assistant-ferndown-middle-school"
+    "teaching-vacancies-send-admin-assistant-ferndown-middle-school",
+    "teaching-vacancies-pa-to-leadership-team-43554862-09f3-4c18-971e-b22b13d85dce"
   ]
 }

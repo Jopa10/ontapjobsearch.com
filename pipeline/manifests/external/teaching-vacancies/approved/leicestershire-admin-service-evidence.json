@@ -1,16 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:01+00:00",
+  "generated_at": "2026-11-04T19:27:55+00:00",
   "source": "Teaching Vacancies",
   "region": "Leicestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "04ab6bdf29e2d1b9f4eb53044f63d5f192fa839f938d2d3e0005e384c0497445",
-  "summary_md_sha256": "0b61405662075ae99c77e83eb4135c4ee872f9f7c48468981b54259710f57f23",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "review_date": "2026-11-04",
+  "review_fingerprint": "70e48e0a641c27a1b6b782cce8f6e7d13474f237bd4f386bd64089d4aa1aff4d",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "2526ee90d2a71205bf0fead455046b9dc9589c4520b2fa7b19363c100731c890",
+  "summary_md_sha256": "64c828780cc1252af855d11747ad801a6138d5f9002eb6d5c69f928d0d6f7af2",
+  "approved_snapshot_sha256": "43ee79f85954e0be06199f3714ca40965fb359bd07c20175435008d1722a9dde",
+  "approved_rows": 2,
+  "approved_job_ids": [
+    "teaching-vacancies-administrative-assistant-st-joseph-s-catholic-academy",
+    "teaching-vacancies-recruitment-administrator-loughborough-college"
+  ]
 }

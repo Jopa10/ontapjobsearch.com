@@ -1,19 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:32:58+00:00",
+  "generated_at": "2026-11-04T19:27:52+00:00",
   "source": "Teaching Vacancies",
   "region": "Buckinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "fa52a92f249a823cbea190aff79c31aa0f22dd6a3c9b8fdb10708dabe0e9fcaf",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "fbbad06de7303828e5dc6e6f6066f2c9c4ca181fe6addbc073bdcd4e52c9abc3",
-  "summary_md_sha256": "2defb3018b383976aeb2ad1e8cb781626c65f9b7d637759b569196a1e91cd1c1",
-  "approved_snapshot_sha256": "bdd6142e5f5d1fc10a59155eebfbb31953b4ca8916074a6450cdaa03882fcc3a",
-  "approved_rows": 2,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "edfecc12cb0311cda3ec5487cd14d2446940f1dad36d611b15924f5cd054704f",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "03006a184e4c78f2de652db5b65b0509ecce552bcc42b84d4d4c7e636c8de85e",
+  "summary_md_sha256": "308db6de86d8b25de9c8d5ce8f350897aedd019dc79608bed5660ad1eead4ef3",
+  "approved_snapshot_sha256": "dd594f0f9da1ab82bb60fd59a25788e892e202f1d228775a7a62f93b7db387e8",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-reprographics-administrative-assistant",
-    "teaching-vacancies-school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded"
+    "teaching-vacancies-school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded",
+    "teaching-vacancies-exams-officer-e-act-ousedale-school",
+    "teaching-vacancies-receptionist-stephenson-academy-milton-keynes-buckinghamshire"
   ]
 }

@@ -1,19 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:01+00:00",
+  "generated_at": "2026-11-04T19:27:54+00:00",
   "source": "Teaching Vacancies",
   "region": "Kent",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "6f279f3976a343317ce8385d256dfc8354ce3309ceca6e9a5dee1de7c6abde53",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "3cd3dbe83900c62834e969c58d6d11ea8328816cf356c51c41e778b65ccc4c90",
-  "summary_md_sha256": "3a6e65f93304008c9b70474d2790507a648cc5058f3b09f612c0abc9ae1fc7b8",
-  "approved_snapshot_sha256": "4bc9e92e9a3d8c3a80aaf73e5d970052f655396457d8e44ef8606393890d43e7",
+  "review_date": "2026-11-04",
+  "review_fingerprint": "160af29425b5eb1de8c5bf15b11dd09edfed1138ac5bb78bf34425d1343f73a4",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "7eb5e0b2193d745764213f7e1fa94a364ac066db8d73d598564481a620698f4a",
+  "summary_md_sha256": "cc3df72e48462ed10451dda7f39772c345e32e16da11eb7412f7a47ccdf96530",
+  "approved_snapshot_sha256": "168bb0e0209970eb0b49145aa2fbe5e4a23be272c4b8d0cb0a83c1186f5b201d",
   "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-barnsole-primary-school",
-    "teaching-vacancies-admissions-officer-stone-lodge-school"
+    "teaching-vacancies-admissions-officer-stone-lodge-school",
+    "teaching-vacancies-part-time-music-school-administrator"
   ]
 }

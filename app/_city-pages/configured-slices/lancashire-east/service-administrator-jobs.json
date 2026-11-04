@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "teaching-vacancies-business-support-officer-reception-accrington-academy",
+    "title": "Business Support Officer - Reception",
+    "company": "Accrington Academy",
+    "location": "Accrington",
+    "region": "Lancashire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,852.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year",
+    "work_pattern": "",
+    "posted_date": "2026-10-28",
+    "closing_date": "2026-11-15",
+    "closing_datetime": "2026-11-15T17:00:00+00:00",
+    "summary": "Business Support Officer - Reception with Accrington Academy in Accrington. ['full time']; £25,852.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year.",
+    "description": "Accrington Academy is recruiting for this vacancy in Accrington.\n\nThe advertised position is Business Support Officer - Reception.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,852.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year.\n\nThe stated application deadline is 2026-11-15T17:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-reception-accrington-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "teaching-vacancies-business-support-officer-the-valley-leadership-academy",
     "title": "Business Support Officer",
     "company": "The Valley Leadership Academy",
@@ -22,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Valley Leadership Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -519,6 +541,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -538,6 +563,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3282-26-0019",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -557,6 +585,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0014",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

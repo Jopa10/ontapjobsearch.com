@@ -1,19 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:32:58+00:00",
+  "generated_at": "2026-11-04T19:27:52+00:00",
   "source": "Teaching Vacancies",
   "region": "Berkshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "9757b0d8ee73de2ee68d4191e46a17bd7b4790418fa19b2ead256fc4e61517db",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "136278bfa36cd92e37dad34ee9ce4707fdb0d424347746242f06d831d00faa23",
-  "summary_md_sha256": "10f480bb7925ce8c3a9509c6032891ef4cebff7e2549a8b0acca2f7553058404",
-  "approved_snapshot_sha256": "de3f8258fee7ec5ec0502e5893670201cb820c6a977632df9649ec46bb6c3c40",
-  "approved_rows": 3,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "83fcc6b47356ef9d057fedb877db976025f1f7932ea3b1ffb5512e502c213a68",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "aab989a3cc196bc41fff74fe9de334c67b64ef0c11d54d510b20f7d057f60634",
+  "summary_md_sha256": "6a53cc248a04e7fe2ad36a91f60229841bb84f3fdc1247555f37e01797a7d4aa",
+  "approved_snapshot_sha256": "8661e524c430f0bb794036aff9392bb5d7b037bd0d85becda0729720a33869c9",
+  "approved_rows": 4,
   "approved_job_ids": [
     "teaching-vacancies-medical-office-assistant-furze-platt-senior-school",
+    "teaching-vacancies-receptionist-with-administration-and-reprographics-responsibility-river-academy",
     "teaching-vacancies-school-receptionist-445c0d5c-e6b9-4aae-b312-fdd6826ebbbc",
     "teaching-vacancies-welfare-assistant-administrator-james-elliman-academy-slough-berkshire"
   ]

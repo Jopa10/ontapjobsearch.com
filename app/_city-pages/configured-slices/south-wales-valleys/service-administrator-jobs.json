@@ -50,31 +50,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225742361",
-    "title": "Bookkeeper/Finance Assistant",
-    "company": "Brook Street - Agency - Permanent",
-    "location": "Pontyclun",
-    "region": "Wales South - Valleys",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "32000",
-    "salary_max": "32000",
-    "salary_text": "£32000 per year",
-    "posted_date": "2026-11-03",
-    "description": "Are you a proactive, detail-focused finance professional who enjoys getting things right first time? Our Client is hiring for a reputed client and looking for a Group Finance Assistant to support day-to-day financial operations across multiple sites. If you care about accuracy, process and helping the wider team run smoothly, this could be a great next step.\n\nWhat you'll be doing:\nSupport accounts payable and accounts receivable processing, ensuring transactions are handled accurately and on time\nEnter, verify and maintain financial data in accounting systems (including Sage and Xero)\nSupport month-end and year-end activities by reconciling accounts and preparing reports\nManage vendor and supplier queries relating to payments and invoices\nKeep financial records organised and audit-ready in line with company policy\nCollaborate with the finance team to improve data accuracy and streamline processes across systems\nContribute to internal preparation of financial statements and reporting\n\nWhat you'll bring:\nProven experience using accounting software such as Sage and Xero (and the ability to work confidently across platforms)\nStrong accounts payable knowledge and a real commitment to data entry accuracy\nFamiliarity with financial services industry standards and practices\nExcellent organisation, with the ability to prioritise and work to deadlines in a fast-paced environment\nClear communication skills and a team mindset that adapts well as processes evolve\nA basic understanding of financial regulations and compliance expectations\n\nAdditional information:\nExperience with enterprise systems such as Workday (or similar platforms) is highly desirable\n\nBrook Street NMR is acting as an Employment Agency in relation to this vacancy.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1AqGbzZAab8ITodmYrqDvdoi6GrGfyncl",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Brook Street",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225771505",
     "title": "Medical Administrator",
     "company": "Abatec Recruitment - Agency - Temporary",
@@ -191,6 +166,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0044-26-0356",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

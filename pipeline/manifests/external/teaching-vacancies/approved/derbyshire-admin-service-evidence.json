@@ -1,18 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:32:59+00:00",
+  "generated_at": "2026-11-04T19:27:53+00:00",
   "source": "Teaching Vacancies",
   "region": "Derbyshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "23e51304b6342ca478987cd3887fbb208ce1e1c463b6e3eb4de48625c9acb464",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "ab814fbad2b390fefb402f55d1efe0f8fa8d8d810ab8aa452183961aa8e1c8e3",
-  "summary_md_sha256": "1f46fc0d07e4e028b2f387ba5f17f01449275f563cb3305f618731d78a8bfd65",
-  "approved_snapshot_sha256": "70919b64ee6b758379c582034ac1a4a78046224cfa2c23eff03d2a2cbefd7eb6",
-  "approved_rows": 1,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "750230def758456d9703f80a5a9200834f0b394a5f4a8f599202f63c9abd1b87",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "23fa76d9c36f5970d46ed7b9ae92410c422373d500d40284e135d3aab50f459b",
+  "summary_md_sha256": "d458cc961a2f1745c04f7a691c4bada81e0c49b68a40dc88fecbb9a1612ec332",
+  "approved_snapshot_sha256": "a846962f0bfa7662a680633f527ef7712e5edfd62e54c801a508e5697ce1bb54",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-admin-assistant-student-services-reception-support-murray-park-community-school"
+    "teaching-vacancies-admin-assistant-student-services-reception-support-murray-park-community-school",
+    "teaching-vacancies-pa-to-headteacher-noel-baker-academy"
   ]
 }

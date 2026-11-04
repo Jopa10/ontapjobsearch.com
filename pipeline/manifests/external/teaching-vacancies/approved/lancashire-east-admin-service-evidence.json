@@ -1,18 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:01+00:00",
+  "generated_at": "2026-11-04T19:27:55+00:00",
   "source": "Teaching Vacancies",
   "region": "Lancashire - East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "11527970f6c096977788647782ca6933bfe7a982abfd1ddcebcf61a6412582f4",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "4ddc0c023c784bae17712d12d5102c49eb1553d62c5d727d499b049f3a18dfed",
-  "summary_md_sha256": "337c04992e8eaa490459f972403962f1b6145296ac3d0c56a0c48a95a9b0ad6d",
-  "approved_snapshot_sha256": "58f2427bdbb0d947a5b640ad3a0ae981dee6288bf163832f5866424d4d593bd7",
-  "approved_rows": 1,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "607d8c45d15393c68d3dcfb0e1c3dd24ec28ed355aaf505f4de7a1c28e3103f9",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "4ab7f73701f1dbaa1020c18654c280e858d044b046a74b5446d44d511c7e9834",
+  "summary_md_sha256": "467d0fa439c7c8ad5526c09e7434af4867f68acc384cf9b74aef9aa3d457e016",
+  "approved_snapshot_sha256": "6625472b4433ff56e168ff32a4289b4d1fd27ad4cef28890da58904d0b1c9df2",
+  "approved_rows": 2,
   "approved_job_ids": [
+    "teaching-vacancies-business-support-officer-reception-accrington-academy",
     "teaching-vacancies-business-support-officer-the-valley-leadership-academy"
   ]
 }

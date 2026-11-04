@@ -1,23 +1,24 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:02+00:00",
+  "generated_at": "2026-11-04T19:27:56+00:00",
   "source": "Teaching Vacancies",
   "region": "Oxfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "55ea607f11edfcba342cefa413b901aa10936238627e6e49b68a2d478cde4965",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "23e76d53c2afaccf12abaeea3a5e12efacad404240fbfa8c5ac9f003604b3367",
-  "summary_md_sha256": "7156b2f474de11634c83ca29e1bda313020e665b49f2622784040ae982aef659",
-  "approved_snapshot_sha256": "fc2599eba7b142cbe33f3178cfc8469c0e5f695114ea1996befe15806cf37f20",
-  "approved_rows": 6,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "6a8a35440f10afa29a15f50d60b46eafde3d583240efc6824d287f3fc4d7beb4",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "e42e0f8b3ba13a4e56a5355c9e1b434639713ee8e9b0afe73108bdc034818073",
+  "summary_md_sha256": "fed0f2e0eef498ed0fcc260df14db4e04dcc554e0fcf9b4f40720ffb03c164f4",
+  "approved_snapshot_sha256": "bf1704e58015794a89ecb0f0982471e2d729e96aa35de3294e6413f87574f77d",
+  "approved_rows": 7,
   "approved_job_ids": [
     "teaching-vacancies-attendance-officer-d54c1efe-4fd8-4cc4-a0a6-62106b181556",
     "teaching-vacancies-procurement-administrator-hybrid-role-river-learning-trust",
     "teaching-vacancies-student-services-administrator-faringdon-community-college",
     "teaching-vacancies-administrator-and-finance-assistant-rush-common-school",
     "teaching-vacancies-finance-officer-acer-trust-oxford-not-recorded",
+    "teaching-vacancies-administrative-assistant-windrush-church-of-england-primary-school",
     "teaching-vacancies-finance-and-health-and-safety-admin-assistant"
   ]
 }

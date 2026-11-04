@@ -1,16 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:00+00:00",
+  "generated_at": "2026-11-04T19:27:54+00:00",
   "source": "Teaching Vacancies",
   "region": "Hertfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "6c71bcf533f6b110d85358a555aa081078d5f6293c3c53044c1652bb1c914c97",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "ebc921cbc2ec5bde8501e5733f107688564313cce9a7c92a99e6a479052519ea",
-  "summary_md_sha256": "3eeb6ecd27fbe5a967bcd13c142a7e01943c35a34860eb9448cbbb8f05802ec6",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "review_date": "2026-11-04",
+  "review_fingerprint": "2ccb212be940d141c5c21280134b6cfd8942910de1ae99e755cca713eff9fa64",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "8b69c69d447b64e8effb5dfbd475ca5d0c972ea8ed60e57c5393046a9bd063d9",
+  "summary_md_sha256": "b3fb021b06cb85f1896265bf6bf9860b3dba9c334bd53c97710794552f9de169",
+  "approved_snapshot_sha256": "20c38a253b81cbf1b91b33235b79cd39222d626e2bb0b8ff61089a37a80ced35",
+  "approved_rows": 2,
+  "approved_job_ids": [
+    "teaching-vacancies-office-administrator-31d5e12d-a2a3-4b2c-abdc-52304ac5f2db",
+    "teaching-vacancies-admin-assistant-nicholas-breakspear-catholic-school"
+  ]
 }

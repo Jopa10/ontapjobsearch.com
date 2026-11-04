@@ -1,18 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:03+00:00",
+  "generated_at": "2026-11-04T19:27:56+00:00",
   "source": "Teaching Vacancies",
   "region": "Suffolk",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "062a9eb2f1d976435f12216d6601688b06f75119def796be61afe8abb8fa5ec0",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "6ed5e78585c9141ac965eeb7fc2812355ca6e0a2a2a8a9ba3e5abccf603ef64b",
-  "summary_md_sha256": "b095dfa0272cfc5c7e8714519ec083d25a76b4281cdb864926a12c22d8a76b3a",
-  "approved_snapshot_sha256": "ba9f487740658d4b078c138cab8d5395c1e09a3089cee289df156aeb1730cf32",
-  "approved_rows": 1,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "4a4e36f0ad63a2ec799ea65b9414c47920f4f11f66f0afa8792d8fb60fd8cf5b",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "f307043dccacbfd42d25e31037f2dc8881f66e92005ec68c3056efda74aca349",
+  "summary_md_sha256": "b7e219787bbde862bed2ef0da7604d9ea31d80dce7007b7e1fae2d0c5d9ac015",
+  "approved_snapshot_sha256": "6fba682a25b58430ae8aa1e72fd7bfc39ae53e1f8d50f317eae18d3b490bd85f",
+  "approved_rows": 3,
   "approved_job_ids": [
+    "teaching-vacancies-examinations-officer-stoke-high-school-ormiston-academy-ipswich-suffolk",
+    "teaching-vacancies-receptionist-administrator-murrayfield-primary-a-paradigm-academy",
     "teaching-vacancies-school-administrator-maternity-cover-the-oaks-primary-school"
   ]
 }

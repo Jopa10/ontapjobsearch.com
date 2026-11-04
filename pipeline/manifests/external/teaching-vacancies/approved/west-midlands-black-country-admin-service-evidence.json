@@ -1,20 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:03+00:00",
+  "generated_at": "2026-11-04T19:27:56+00:00",
   "source": "Teaching Vacancies",
   "region": "West Midlands - Black Country",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "35f6a53c9b7cdb6ba245fa2efb4f4c93324ec3c6bf818493518f4b24e14a1911",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "506f897ea866a8acb2a2bf3e939dfc08c1dd001d382218e6db87fb2d89fff75f",
-  "summary_md_sha256": "7e9747f1f9f47a9f597bd57a9d98a2715715e9c05b4d965ce7a9bfc1bfc7382f",
-  "approved_snapshot_sha256": "911cf60b52ba1d02aafb37021869bfcfda3250a1056927b3f7563ddae4b8b711",
-  "approved_rows": 3,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "24c3dfbceb18385681a79441c0c28d94a5eea544ae3b5d14f9a9cfc993db13a4",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "41c0a527a7cb6e9e518cc944c58c99658ce6da02c718ea5ebf7c12f853579f6e",
+  "summary_md_sha256": "6369b049104e866086b60673dd917b770fa563153cf6353b8c73f2507507ca29",
+  "approved_snapshot_sha256": "9d36f9550d3e842d0f0f9f240ade79702bc20325b9b4868b18969a195d893f89",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75",
-    "teaching-vacancies-pastoral-admin-assistant-wolverhampton-girls-high-school",
-    "teaching-vacancies-administrative-assistant-fallings-park-primary-school"
+    "teaching-vacancies-administrative-assistant-fallings-park-primary-school",
+    "teaching-vacancies-it-systems-administrator-bishop-milner-catholic-college"
   ]
 }

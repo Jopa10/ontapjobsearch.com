@@ -1,20 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:32:58+00:00",
+  "generated_at": "2026-11-04T19:27:52+00:00",
   "source": "Teaching Vacancies",
   "region": "Bristol & Bath",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "e72866b96215ef18e16c8d6cf30515222081353e6b5c7e0ad16d0fdcd0528c6a",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "acebed76ceac061d915605fcf67f917164e035126841e75569842e6c7aae7af5",
-  "summary_md_sha256": "5aaec788f6118afc4efdb5a0536efcd5bfe9dd6f78899bb5ad2dec2d326570ea",
-  "approved_snapshot_sha256": "6bb4fc1d835180aed7147439734dc2be99e80fd3970ecb3bb57e2fdd8af5b0f0",
-  "approved_rows": 3,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "1f9450da0c7076f985c39c9b1fbbf58d1b82df70df901a3bbfbb1388b9525f17",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "b1f71f369ea2363102839e8ae8f63a9703379e70419983ac354efcf5937623b0",
+  "summary_md_sha256": "5b1fc272a90924b682c832e711b7f99a060872d355f3a68f8495d1af18df90bc",
+  "approved_snapshot_sha256": "f95525f9bb6df036d3abe6d9758050a35dec9420b8a99dcd9ebb75e81641c72a",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-trips-visits-events",
-    "teaching-vacancies-receptionist-fairfield-high-school",
-    "teaching-vacancies-school-administrator-mat-cover"
+    "teaching-vacancies-school-administrator-mat-cover",
+    "teaching-vacancies-send-administrator-08c1c1a8-e1a3-4e52-84ca-acee5ebb92e5"
   ]
 }

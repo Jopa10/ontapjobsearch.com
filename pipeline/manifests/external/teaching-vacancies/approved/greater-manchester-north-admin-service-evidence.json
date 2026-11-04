@@ -1,19 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:00+00:00",
+  "generated_at": "2026-11-04T19:27:54+00:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - North",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "0e0223c2315f50bb8ce2cc06e018763e3a65ad10e6b42a252da559bb19bbb5ea",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "11cd85b20d03884516fe2da4925d9052fadb5acef3914d1104e09316e4a3e01b",
-  "summary_md_sha256": "b52df6e4434cebaf47eb75950ba54f3ffb805d13ad6277a30e9b10035d0920ae",
-  "approved_snapshot_sha256": "11acd6156728dbd111932c762d8393593110a27c1c694e8208f2633eb741a299",
-  "approved_rows": 2,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "f909fa00b68698339b66f7cf71fa79bddcdb20390e6bdfac99c43a0532285a07",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "d6532126ed6eb6b481152bc0b3d6bd922a977890db199321a9ed892092ae102c",
+  "summary_md_sha256": "621749f4b91168b534d4cc7751788101af975ef3f3fd2595d25a1b9f8267d230",
+  "approved_snapshot_sha256": "59bfe2414a8c3c5a64e56bee112d450bc8d74726ce48793f37e5170f7cbdaa4e",
+  "approved_rows": 4,
   "approved_job_ids": [
     "teaching-vacancies-attendance-officer-star-radcliffe-academy",
+    "teaching-vacancies-receptionist-broadfield-primary-school",
+    "teaching-vacancies-administration-and-finance-assistant-the-hathershaw-college-oldham-greater-manchester",
     "teaching-vacancies-receptionist-oulder-hill-leadership-academy-rochdale-lancashire"
   ]
 }

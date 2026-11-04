@@ -1,21 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:32:58+00:00",
+  "generated_at": "2026-11-04T19:27:53+00:00",
   "source": "Teaching Vacancies",
   "region": "Cambridgeshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "106cf17b66afaab3e720721ba8e2497bcb3e281655886a19fa253d40b87c3302",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "a19a2bfaafd845c20b1402cdb385fa7267075527963d4f361fa37510be29dd86",
-  "summary_md_sha256": "1fdbb55bb04e3b41174ea46e88c0b0e7e79d4b49961830ebfdffb409ac541700",
-  "approved_snapshot_sha256": "ec089bc1bdb556b5171f7cc8e11826a78cb7e674679bcef963417654fccaa197",
-  "approved_rows": 4,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "c69111a934a1e7850b2b015083c331eea9a75a947131c79de9c92bc9fac40cd2",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "ae9bb2d21db1b453b90fd0bf1a6d52ae3d842495668ea2a082ed3cac19cafd3c",
+  "summary_md_sha256": "d52ca713380db6bd789020a08c70fb65bc2f7bd1ff7c68cd3c93f278fa74b252",
+  "approved_snapshot_sha256": "c0461bb834a2ad4baa4e110055f95d064d24c42bafd37994cb51279b043215c7",
+  "approved_rows": 5,
   "approved_job_ids": [
     "teaching-vacancies-admissions-administrator-united-learning-trust",
     "teaching-vacancies-administration-assistant-hardwick-and-cambourne-community-primary-school",
     "teaching-vacancies-receptionist-administrator-hampton-college",
-    "teaching-vacancies-exams-officer-b0378906-8f31-44c2-ae4e-74994a5303b2"
+    "teaching-vacancies-exams-officer-b0378906-8f31-44c2-ae4e-74994a5303b2",
+    "teaching-vacancies-examinations-administrator-long-road-sixth-form-college"
   ]
 }

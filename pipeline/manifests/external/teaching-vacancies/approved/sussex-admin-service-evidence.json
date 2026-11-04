@@ -1,20 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-11-02T21:33:03+00:00",
+  "generated_at": "2026-11-04T19:27:56+00:00",
   "source": "Teaching Vacancies",
   "region": "Sussex",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-11-02",
-  "review_fingerprint": "6256660004090f643ef346dfccf7ca0b2353befaf68539ea1c771bfc95add756",
-  "routing_manifest_sha256": "47d5ea4331a90d6c28268dadc17147029b78785a4d8bae1f577970ccee32e2d8",
-  "review_csv_sha256": "7269a6dd4d7d26a1a8764e64d51775d1c01fd0d24f8ff46b1c7683ada050e1ef",
-  "summary_md_sha256": "5721dd71d03b3e4f2d133ed041158fce590d5ade0c3fc32065a4bec1fb5dbefb",
-  "approved_snapshot_sha256": "e188a1bdcd390a21d4a37a1d060015fde55b9ef3debeaed54b92098ca95fa994",
-  "approved_rows": 3,
+  "review_date": "2026-11-04",
+  "review_fingerprint": "82034db2cc2f6a4e23021e989da16abca3526e695b76c774df4f388d05e59b3d",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "f3d46e18aabfe2ef844835f69d2fe90ff284240f073fdab539a5539f0f15a32b",
+  "summary_md_sha256": "9d71e8cbc53be887067fabda47d540bd8c591578d08ff30f23ae0f221026bcf5",
+  "approved_snapshot_sha256": "fa62c16b72bd67be561d27f6e19d3c7facc9282011ec745f0d590d52a15d93ed",
+  "approved_rows": 4,
   "approved_job_ids": [
     "teaching-vacancies-exams-officer-cardinal-newman-catholic-school-hove-east-sussex",
     "teaching-vacancies-registry-administrator",
-    "teaching-vacancies-receptionist-and-administrative-assistant-heron-park-primary-academy"
+    "teaching-vacancies-receptionist-and-administrative-assistant-heron-park-primary-academy",
+    "teaching-vacancies-receptionist-administrator-brantridge-school-haywards-heath-west-sussex"
   ]
 }
