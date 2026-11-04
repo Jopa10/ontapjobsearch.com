@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-04",
+  "status": "passed-read-only-neon-preview-audit",
+  "deploymentId": "dpl_2cc1SchxPFFGdQ8xUhE1oGm2hgJo",
+  "deploymentCommit": "c1060d939fe2383d64eb5ead987dc838dc726a54",
+  "sourceArchiveSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+  "selectorFeedDate": "2026-11-02",
+  "measuredAt": "2026-11-04T11:47:36.983Z",
+  "transactionReadOnly": true,
+  "databaseBytes": 407363584,
+  "codeCeilingBytes": 838860800,
+  "headroomBeforeImportBytes": 431497216,
+  "tablesBytes": {
+    "selection_decisions": 207028224,
+    "supplier_adverts": 158597120,
+    "jobs": 24428544,
+    "advert_appearances": 8708096
+  },
+  "adverts": {
+    "rows": 43796,
+    "fullPayloadRows": 43796,
+    "rawPayloadPgColumnBytes": 101655870,
+    "rawPayloadTextBytes": 164477431,
+    "fullyExcludedPayloadRows": 38633,
+    "fullyExcludedPayloadPgColumnBytes": 89251788,
+    "otherCompleteSelectorPayloadRows": 5163,
+    "otherCompleteSelectorPayloadPgColumnBytes": 12404082,
+    "withoutCompleteSelectorPayloadRows": 0,
+    "allJobsWithheld": 43796
+  },
+  "feedRuns": 4,
+  "acceptedFullSource": "2026-11-02 pinned fixture; 2026-11-03 feed not imported",
+  "schemaMigration002Applied": false,
+  "cleanupOrExpiryExecuted": false,
+  "productionChanged": false,
+  "limitations": [
+    "Logical payload bytes are not the amount that will be reclaimed from the physical Neon database after raw_payload is cleared.",
+    "The saved 3 November raw-only forecast includes reserve but not selection/display growth; combined admission remains pending fresh selector outputs.",
+    "The fully excluded count is based on the latest accepted run with persisted complete eight-family decisions."
+  ]
+}

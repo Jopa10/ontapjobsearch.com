@@ -10,7 +10,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
-- 4 November 2026 — The shadow test now prepares a three-day review window for adverts excluded across every job family. It retains full advert text for review, then clears only that text while keeping compact decisions and IDs. The focused local PostgreSQL check passes. The database migration and fresh-feed run have not been applied; read-only Neon measurement and headroom checks remain first.
+- 4 November 2026 — The shadow test prepares a three-day review window for adverts excluded across every job family. Its read-only Neon baseline found 43,796 full advert payloads, including 38,633 fully excluded, in a 407 MB database. The migration and fresh-feed import remain pending; combined selection/display headroom is still unverified.
 
 - 4 November 2026 — The existing isolated selector workflow can now use the pinned 3 November feed through a short-lived private download URL. Its trigger file is unchanged, so no run has started; the fresh replay and Preview integration remain pending.
 

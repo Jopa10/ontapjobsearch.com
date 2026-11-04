@@ -33,7 +33,7 @@
   "neonBaseline": {
     "lastMeasuredBytes": 407363584,
     "measuredAt": "2026-11-03",
-    "currentReadOnlyMeasurement": "not performed",
+    "currentReadOnlyMeasurement": "passed; see exclude-review-baseline-2026-11-04.json",
     "schemaMigrationApplied": false,
     "committedFeedImportOrCleanup": false,
     "sampleImportAttemptedInPreview": true,
@@ -45,9 +45,27 @@
     "state": "failed-before-audit",
     "errorCode": "42703",
     "cause": "Vercel used the harness vercel.json buildCommand for verify-neon.mjs; the per-deployment buildCommand override was not honored.",
-    "databaseEffect": "The sample importer transaction errored and rolled back. No feed import, retention purge, cleanup, expiry or committed sample change occurred.",
-    "correction": "Point the harness vercel.json buildCommand at the existing repeatable-read read-only measure-retention.mjs audit, then restore the previous config after obtaining the baseline."
+    "errorDetail": "The safe verifier logs only PostgreSQL code 42703, not the missing column name.",
+    "databaseEffect": "The sample importer transaction errored and rolled back. The successful read-only audit still showed four prior feed runs and 43,796 advert payloads; no new sample/import, retention purge, cleanup or expiry was committed.",
+    "correction": "Temporarily point the harness vercel.json buildCommand at the existing repeatable-read read-only measure-retention.mjs audit, then restore the original configuration after obtaining the baseline.",
+    "otherDeployment": {
+      "deploymentId": "dpl_3zpafsH7ZDXvm2rNhbSoYX7udMZu",
+      "state": "canceled-before-script",
+      "reason": "It used the repository root instead of the harness directory; no database script started."
+    }
   },
+  "readOnlyAudit": {
+    "deploymentId": "dpl_2cc1SchxPFFGdQ8xUhE1oGm2hgJo",
+    "deploymentCommit": "c1060d939fe2383d64eb5ead987dc838dc726a54",
+    "status": "READY",
+    "receipt": "database/shadow/exclude-review-baseline-2026-11-04.json",
+    "databaseBytes": 407363584,
+    "fullyExcludedPayloadRows": 38633,
+    "fullyExcludedPayloadBytes": 89251788,
+    "readOnlyTransaction": true,
+    "noSchemaChangeOrImport": true
+  },
+  "harnessVercelConfig": "restored to its original sample-verification command after the audit",
   "production": {
     "fileBased": true,
     "changed": false,
@@ -56,9 +74,8 @@
     "emailsOrPlanChange": false
   },
   "next": [
-    "Complete final local harness verification and save resulting commit head.",
-    "After confirming the verified Preview database, apply migration 002 and run read-only payload/database sizing.",
-    "Recheck combined raw/selection/display headroom against the unchanged 800 MiB ceiling and 64 MiB reserve.",
-    "Only then launch the pinned 3 November selector/integration workflow; do not alter the source checksum or age the feed artificially."
+    "Apply migration 002 only to the verified Preview test database, then read-only verify the new column/index and remeasure.",
+    "Complete the pinned fresh selector replay and combined raw/selection/display admission check against the unchanged 800 MiB ceiling and 64 MiB reserve.",
+    "Only then launch the pinned 3 November integration; do not alter the source checksum or age the feed artificially."
   ]
 }
