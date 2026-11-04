@@ -1,9 +1,9 @@
 {
   "date": "2026-11-04",
-  "status": "prepared-before-preview-schema-migration",
+  "status": "passed-schema-migration-and-readback",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
-  "parentCommit": "3921fbb0747ff7db9a38d468c2ec32cd497bf861",
+  "previousCheckpointCommit": "33129e8e30a06f29f733bdf9ca201fac3b037a1c",
   "pullRequest": 336,
   "sourceFeedDate": "2026-11-04",
   "sourceArchiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
@@ -14,8 +14,8 @@
     "unknownDecisions": 0,
     "exactFileOutputParity": true
   },
-  "storageComparisonAt": "2026-11-04T15:27:14.507640Z",
   "storageComparison": {
+    "testedAt": "2026-11-04T15:27:14.507640Z",
     "databaseBaselineBytes": 407363584,
     "illustrativeRequiredBytesIncludingReserve": 678544244,
     "ceilingBytes": 838860800,
@@ -23,20 +23,63 @@
     "estimateFits": true,
     "importAuthorizedByForecast": false
   },
-  "operation": {
-    "migration": "database/shadow/002_exclude_review_window.sql",
-    "target": "Preview-only Neon project noisy-fire-97386602",
-    "mode": "apply column/index only then verify in same protected Preview build",
+  "migrationResult": {
+    "date": "2026-11-04",
+    "status": "passed-schema-migration-and-readback",
+    "operation": "schema-only migration 002",
+    "target": {
+      "environment": "Preview",
+      "neonProjectId": "noisy-fire-97386602"
+    },
+    "deployment": {
+      "id": "dpl_FtTakNje7q5s5J3YkxPVT4Jq1Pdm",
+      "url": "ontapjobsearch-i2flp4buk-ontap1.vercel.app",
+      "state": "READY",
+      "sourceCommit": "33129e8e30a06f29f733bdf9ca201fac3b037a1c",
+      "buildId": "bld_dwd0689ic"
+    },
+    "migrationApplied": true,
+    "schema": {
+      "column": {
+        "name": "ontap_shadow.supplier_adverts.exclude_review_started_on",
+        "type": "date"
+      },
+      "index": {
+        "name": "ontap_shadow.supplier_adverts_exclude_review",
+        "key": "exclude_review_started_on",
+        "predicate": "raw_payload IS NOT NULL"
+      }
+    },
+    "before": {
+      "databaseBytes": 407363584,
+      "adverts": 43796,
+      "payloads": 43796,
+      "jobs": 43796,
+      "feedRuns": 4,
+      "publishedJobs": 0
+    },
+    "after": {
+      "databaseBytes": 407683072,
+      "adverts": 43796,
+      "payloads": 43796,
+      "jobs": 43796,
+      "feedRuns": 4,
+      "publishedJobs": 0
+    },
+    "databaseGrowthBytes": 319488,
+    "ceilingBytes": 838860800,
+    "reserveBytes": 67108864,
     "importAttempted": false,
     "purgeAttempted": false,
     "productionChanged": false,
-    "safety": "Preview/project/TLS guards; expected row counts and withheld-job baseline; transaction; 800 MiB ceiling and 64 MiB reserve."
+    "jobsWithheld": true,
+    "note": "Only the additive column and partial index were applied. Feed import and three-day payload cleanup were not run."
   },
   "recovery": {
-    "deploymentDiscovery": "Vercel deployments for project prj_sLI0SohbF03NrRFj6yZyuN8mOOZB, branch feat/neon-shadow-database",
-    "script": "database/shadow/harness/apply-review-window.mjs",
-    "receipt": "deployment dist/report.json and build log line ONTAP_SCHEMA_002_RESULT",
-    "idempotency": "Migration uses IF NOT EXISTS; rerun verifies existing column/index and reports no-op.",
-    "next": "After schema receipt, restore harness/vercel.json build command to node verify-neon.mjs before any further feed integration."
+    "previewDeploymentId": "dpl_FtTakNje7q5s5J3YkxPVT4Jq1Pdm",
+    "migrationIsIdempotent": true,
+    "configurationRestored": "database/shadow/harness/vercel.json buildCommand is node verify-neon.mjs",
+    "doNotRepeat": "No feed import or purge occurred in this operation.",
+    "next": "Before any feed integration, use the pinned 4 November source, recheck size against the now-measured 407,683,072-byte baseline and 64 MiB reserve, then run the separate Preview-only integration with durable phase checkpoints."
   }
 }
