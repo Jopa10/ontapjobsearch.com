@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-04",
+  "status": "prepared-before-preview-schema-migration",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "parentCommit": "3921fbb0747ff7db9a38d468c2ec32cd497bf861",
+  "pullRequest": 336,
+  "sourceFeedDate": "2026-11-04",
+  "sourceArchiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+  "selectorRun": 41848156150,
+  "selectorParity": {
+    "scopes": 239,
+    "cleanRecords": 43547,
+    "unknownDecisions": 0,
+    "exactFileOutputParity": true
+  },
+  "storageComparisonAt": "2026-11-04T15:27:14.507640Z",
+  "storageComparison": {
+    "databaseBaselineBytes": 407363584,
+    "illustrativeRequiredBytesIncludingReserve": 678544244,
+    "ceilingBytes": 838860800,
+    "reserveBytes": 67108864,
+    "estimateFits": true,
+    "importAuthorizedByForecast": false
+  },
+  "operation": {
+    "migration": "database/shadow/002_exclude_review_window.sql",
+    "target": "Preview-only Neon project noisy-fire-97386602",
+    "mode": "apply column/index only then verify in same protected Preview build",
+    "importAttempted": false,
+    "purgeAttempted": false,
+    "productionChanged": false,
+    "safety": "Preview/project/TLS guards; expected row counts and withheld-job baseline; transaction; 800 MiB ceiling and 64 MiB reserve."
+  },
+  "recovery": {
+    "deploymentDiscovery": "Vercel deployments for project prj_sLI0SohbF03NrRFj6yZyuN8mOOZB, branch feat/neon-shadow-database",
+    "script": "database/shadow/harness/apply-review-window.mjs",
+    "receipt": "deployment dist/report.json and build log line ONTAP_SCHEMA_002_RESULT",
+    "idempotency": "Migration uses IF NOT EXISTS; rerun verifies existing column/index and reports no-op.",
+    "next": "After schema receipt, restore harness/vercel.json build command to node verify-neon.mjs before any further feed integration."
+  }
+}

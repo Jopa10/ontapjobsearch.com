@@ -1,7 +1,17 @@
 {
   "framework": null,
-  "buildCommand": "node verify-neon.mjs",
+  "buildCommand": "node apply-review-window.mjs",
   "installCommand": "npm ci --omit=dev --ignore-scripts",
   "outputDirectory": "dist",
-  "headers": [{ "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }]
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ]
 }
