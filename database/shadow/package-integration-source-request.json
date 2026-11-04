@@ -1,0 +1,21 @@
+{
+  "archiveDate": "2026-11-04",
+  "archiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+  "archiveBytes": 35216405,
+  "sourceRevision": "810d3cbd3b4736933564b1294151bc8b48677eca",
+  "selectorRun": 41848156150,
+  "expectedReceipt": {
+    "sourceRows": 43551,
+    "uniqueSupplierIds": 43549,
+    "exactRepeatRows": 0,
+    "conflictingIdsHeld": [
+      "1401785815",
+      "1401786160"
+    ],
+    "cleanRecords": 43547
+  },
+  "outputSha256": "3a3d84c827252b0c68b48f1a0351e633fe2f44ec01aa5e0bfa4861e667b99734",
+  "replayNotRepeated": true,
+  "neonWrite": false,
+  "productionChanged": false
+}

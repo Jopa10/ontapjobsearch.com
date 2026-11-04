@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-04",
+  "status": "prepared-before-integration-source-package-run",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "parentCommit": "ee36ca56718b8f0ef408977626e21de627bb4668",
+  "pullRequest": 336,
+  "migration": {
+    "status": "passed-schema-migration-and-readback",
+    "deploymentId": "dpl_FtTakNje7q5s5J3YkxPVT4Jq1Pdm",
+    "databaseBytes": 407683072,
+    "column": "exclude_review_started_on date",
+    "index": "supplier_adverts_exclude_review"
+  },
+  "source": {
+    "feedDate": "2026-11-04",
+    "sha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+    "bytes": 35216405,
+    "selectorRun": 41848156150,
+    "selectorArtifactIds": [
+      13335378178,
+      13336218119
+    ],
+    "sourceWorkflowUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/41848156150"
+  },
+  "workflow": {
+    "path": ".github/workflows/package-shadow-integration-source.yml",
+    "purpose": "fetch exact saved source using existing ONTAP_SAVED_FEED_URL, validate exact SHA/bytes/counts, prepare full raw stage artifact; no selector rerun and no Neon connection",
+    "triggerPath": "database/shadow/package-integration-source-request.json"
+  },
+  "safety": {
+    "neonImportStarted": false,
+    "productionChanged": false,
+    "emailSent": false,
+    "cleanupExecuted": false
+  },
+  "recovery": {
+    "artifactName": "neon-shadow-integration-source-2026-11-04",
+    "workflowTriggerCommit": "pending commit",
+    "next": "Download the raw-stage artifact and combine with selector/report/output artifacts for the guarded Preview integration."
+  }
+}
