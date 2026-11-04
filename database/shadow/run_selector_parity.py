@@ -53,7 +53,7 @@ def resolve_source_request(path):
     if len(matches) != 1:
         raise ValueError('Pinned current source must identify exactly one S3 object')
     feed_date, item = matches[0]
-    counts = checkpoint.get('expectedCurrentCounts', {})
+    counts = pinned.get('expectedCurrentCounts', {})
     expected_conflicts = ['1401786160']
     if (feed_date != checkpoint.get('date')
             or item.get('key') != f'jobg8/raw/{feed_date}.zip'

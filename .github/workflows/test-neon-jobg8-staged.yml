@@ -99,6 +99,7 @@ jobs:
         run: |
           python -m pip install pandas openpyxl
           python database/shadow/test_selector_capture.py
+          python -m unittest discover -s database/shadow -p test_fresh_source_request.py
           python -m unittest discover -s database/shadow -p test_dependency_provenance.py
           npm ci --ignore-scripts --prefix database/shadow/harness
           node --test database/shadow/harness/selection-importer.test.mjs database/shadow/harness/dependency-provenance.test.mjs

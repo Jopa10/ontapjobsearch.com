@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "blocked_s3_invalid_access_key_id",
+  "status": "prepared_for_retry_after_checkpoint_schema_fix",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -11,7 +11,7 @@
     "path": "database/shadow/stage-request.json",
     "archiveDate": "2026-11-03",
     "mode": "fresh_selection_parity",
-    "attempt": 7,
+    "attempt": 8,
     "sourceRevision": "a828536b62928d5c287fa9e18aa7924769851e29"
   },
   "pinnedArchive": {
@@ -55,21 +55,21 @@
   "runOutcome": {
     "status": "completed",
     "conclusion": "failure",
-    "attempt": 1,
-    "failedStep": "Fetch the owner-pinned 3 November saved source",
-    "reason": "S3 returned HTTP 403 with error code InvalidAccessKeyId after URL whitespace normalization.",
-    "archiveDownloaded": false,
+    "attempt": 2,
+    "failedStep": "Replay unchanged production selectors and record their decisions",
+    "reason": "Archive downloaded and local guard tests passed, but runner read expectedCurrentCounts at the root instead of under pinnedSavedSource.",
+    "archiveDownloaded": true,
     "selectorParityStarted": false,
     "neonChanged": false,
+    "archiveSha256Verified": false,
     "secretValueRecorded": false,
     "artifacts": []
   },
   "nextRetry": {
-    "requestAttempt": 7,
+    "requestAttempt": 8,
     "workflowChanges": [
-      "Strip whitespace from copied URLs without logging the secret.",
-      "Require an https:// prefix.",
-      "On download error, report HTTP status and parsed S3 error code/message."
+      "Read count evidence from the nested pinnedSavedSource object.",
+      "Add and run a focused checkpoint-validation test."
     ],
     "samePinnedArchive": true,
     "neonWrites": false
