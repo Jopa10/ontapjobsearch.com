@@ -1,8 +1,8 @@
 # Next compact integration checkpoint
 
-Prepared 3 November 2026. LOCAL PREPARATION ONLY. No full feed replay, remote
-build or Neon import is authorized for today by this preparation request.
-Production remains file-based; draft PR 336 remains unmerged.
+Prepared 3 November 2026 as the local baseline; execution sequence updated 4 November.
+Production remains file-based; draft PR 336 remains unmerged. Fresh-source replay
+and Neon import remain gated by the steps below.
 
 ## Starting evidence (do not repeat)
 
@@ -72,22 +72,20 @@ are preserved. Actual expiry policy and 90-day raw retention remain UNPROVEN.
    update `stage-request.json` to `fresh_selection_parity` and trigger its
    existing workflow. That file has not been changed yet. Do not fetch a new
    supplier feed or repeat the old replay.
-6. Save the report, complete decisions, source hashes, output arrays and
-   dependency manifests before any Preview import. No selector execution may be
-   skipped.
-   Capture the actual materialized source/register/geography/config/env/runtime,
-   workbook hash/time, full exact file parity and zero unknowns. Save both output
-   and decision artifacts immediately. No selector execution may be skipped.
-6. Do all input validation and combined raw/selection/display headroom checks
-   before any deliberate Preview import. Today's 640 MB illustrative scenario
-   is not admission approval or a live allocation check. Keep the 800 MiB ceiling
-   and 64 MiB reserve. No cleanup, plan upgrade or production connection.
-7. A separately prepared build-only Preview runner must enforce existing Neon
-   project/TLS/Preview guards and call `verifyCompactIntegration` with those exact
-   artifacts. That runner/remote bundle is NOT installed or started today.
-   Save its source commit and execution ID before continuing. Inspect exact
-   activity before retries. Preserve original pinned legacy evidence.
-8. Compare IDs, hashes, outputs and actual allocation after raw/selection/display;
+6. Save the full selector report, complete decisions, source hashes, exact
+   output arrays and dependency manifests immediately. Confirm actual source,
+   register, geography, configuration, environment and runtime capture, workbook
+   hash/time, exact output parity and zero unknowns. No selector run may be skipped.
+7. Perform all input validation and combined raw/selection/display headroom checks
+   before any deliberate Preview import. The illustrative forecast is not import
+   approval or a live allocation check. Keep the 800 MiB ceiling and 64 MiB
+   reserve. No cleanup, plan upgrade or production connection.
+8. Prepare the build-only Preview runner with the existing Neon project, TLS and
+   Preview guards; call `verifyCompactIntegration` with those exact artifacts.
+   The runner has not been installed or started. Save its source commit and run
+   ID before execution. Inspect activity before retries and preserve the original
+   pinned legacy evidence.
+9. Compare IDs, hashes, outputs and actual allocation after raw/selection/display;
    verify full replay is idempotent. Persist failure-phase diagnostics. Continue
    with existing publisher/city rendering checks using the same snapshot only
    after raw/scoped display integration passes. Raw/family parity does not itself
