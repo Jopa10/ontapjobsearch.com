@@ -22,6 +22,14 @@ MAX_ZIP_BYTES = 128 * 1024 * 1024
 BASELINE_SHA = '0629696a63fef39d0e7bc3b4c13e6f1b46424cb96654f9794bac8410d3468d76'
 BASELINE_BYTES = 8147866
 BASELINE_KEY = 'ontap-shadow/display-v1/11111111-1111-5111-8111-111111111111/' + BASELINE_SHA + '.json.gz'
+PINNED_CURRENT_ARCHIVES = {
+    '2026-11-03': 'e6dcb08ea537bcb34dffd2ad9da089d443b5f0b1f875018c53aac0357fecc892',
+    '2026-11-04': 'd691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06',
+}
+PINNED_CURRENT_DIAGNOSTICS = {
+    '2026-11-04': {'sourceRows': 43551, 'uniqueSupplierIds': 43549,
+                   'exactRepeatRows': 0, 'conflictingIdsHeld': ['1401785815', '1401786160']},
+}
 
 
 def checksum(path):
@@ -59,13 +67,22 @@ def load_pinned_baseline(path):
     return {'feed_date':'2026-11-02','adverts':[{'supplier_job_id':ref,'content_hash':h} for ref,h in refs]}
 
 
-def compare(previous_path, current_path, measured, baseline=None):
+def compare(previous_path, current_path, measured, baseline=None, *,
+            current_date='2026-11-03', expected_current_sha256=None):
+    if current_date not in PINNED_CURRENT_ARCHIVES:
+        raise ValueError('Current feed date is not pinned for this comparison')
     previous_hash, current_hash = checksum(previous_path), checksum(current_path)
     previous, current = fingerprint_archive(previous_path), fingerprint_archive(current_path)
     pin_matches = previous_hash == PREVIOUS_SHA
     if pin_matches and previous['diagnostics'] != PREVIOUS_DIAGNOSTICS:
         raise ValueError('Pinned 2 November count/quarantine differs from accepted evidence')
-    previous['feed_date'], current['feed_date'] = '2026-11-02', '2026-11-03'
+    expected_sha = expected_current_sha256 or PINNED_CURRENT_ARCHIVES[current_date]
+    if current_hash != expected_sha:
+        raise ValueError(f'Current archive SHA-256 mismatch for {current_date}')
+    expected_diagnostics = PINNED_CURRENT_DIAGNOSTICS.get(current_date)
+    if expected_diagnostics and current['diagnostics'] != expected_diagnostics:
+        raise ValueError(f'Current archive row/quarantine receipt mismatch for {current_date}')
+    previous['feed_date'], current['feed_date'] = '2026-11-02', current_date
     daily = compare_plans(previous, current)
     old = {r['supplier_job_id']:r for r in previous['adverts']}
     new = {r['supplier_job_id']:r for r in current['adverts']}
@@ -73,7 +90,7 @@ def compare(previous_path, current_path, measured, baseline=None):
     result = {'testedAt':datetime.now(timezone.utc).isoformat(),'mode':'saved-archive-read-only',
         'turnover':daily,'archiveChecksums':{'previous':previous_hash,'current':current_hash},
         'snapshots':{day:{k:v for k,v in data.items() if k!='adverts'} for day,data in
-                     [('2026-11-02',previous),('2026-11-03',current)]},
+                     [('2026-11-02',previous),(current_date,current)]},
         'fieldNamesAdded':sorted(set(current['fieldNames'])-set(previous['fieldNames'])),
         'fieldNamesAbsent':sorted(set(previous['fieldNames'])-set(current['fieldNames'])),
         'addedPreviouslyQuarantined':len(added & set(previous['diagnostics']['conflictingIdsHeld'])),
@@ -111,7 +128,18 @@ def compare(previous_path, current_path, measured, baseline=None):
             'rawRequiredWithReserveBytes':before+growth+reserve,'maximumDatabaseBytes':ceiling,
             'rawEstimateFits':before+growth+reserve<=ceiling,
             'selectionDisplayGrowthIncluded':False,'importAuthorized':False,
-            'limitations':'Forecast against saved 3 November allocation; extra selection/display growth and actual Neon allocation remain unmeasured.'},
+            'limitations':'Raw-only estimate; compact selection/display growth is reported separately.'},
+        combinedIllustrativeForecast={
+            'measuredDatabaseBytes':before,
+            'estimatedRawGrowthBytes':growth,
+            'sevenSnapshotCalibrationBytes':int(measured.get('sevenSnapshotCalibrationBytes',0)),
+            'reserveBytes':reserve,
+            'requiredBytes':before+growth+int(measured.get('sevenSnapshotCalibrationBytes',0))+reserve,
+            'maximumDatabaseBytes':ceiling,
+            'fits':before+growth+int(measured.get('sevenSnapshotCalibrationBytes',0))+reserve<=ceiling,
+            'importAuthorized':False,
+            'limitations':'Illustrative combination of this exact source raw projection, the previously measured synthetic seven-snapshot allocation, and the unchanged reserve. Not a 90-day or provider-usage certification.'
+        },
         legacyAppendProjection=project_storage(baseline_turnover,measured))
     return result
 
@@ -121,7 +149,7 @@ def download_saved(s3, day, target):
 
 
 def download_object(s3, key, target):
-    if key not in {'jobg8/raw/2026-11-02.zip','jobg8/raw/2026-11-03.zip',BASELINE_KEY}:
+    if key not in {'jobg8/raw/2026-11-02.zip','jobg8/raw/2026-11-03.zip','jobg8/raw/2026-11-04.zip',BASELINE_KEY}:
         raise ValueError('Unapproved saved object key')
     head = s3.head_object(Bucket=BUCKET, ExpectedBucketOwner=OWNER, Key=key)
     if not 0 < head['ContentLength'] <= MAX_ZIP_BYTES:
@@ -146,14 +174,16 @@ def download_object(s3, key, target):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--s3', action='store_true', help='Read only existing 2/3 November raw ZIPs')
+    p.add_argument('--s3', action='store_true', help='Read only the pinned 2 November baseline and selected dated saved ZIP')
+    p.add_argument('--current-date', choices=sorted(PINNED_CURRENT_ARCHIVES), default='2026-11-03')
     p.add_argument('--previous', type=Path)
     p.add_argument('--current', type=Path)
     p.add_argument('--baseline',type=Path,default=Path('ontap-full-display-2026-11-02.json.gz'))
-    p.add_argument('--measurement', type=Path, default=Path('retention-measurement-2026-11-03.json'))
+    p.add_argument('--measurement', type=Path)
     p.add_argument('--output', type=Path, default=Path('ontap-current-turnover-result.json'))
     args = p.parse_args()
-    measured = json.loads(args.measurement.read_text())
+    measurement_path = args.measurement or Path(f'retention-measurement-{args.current_date}.json')
+    measured = json.loads(measurement_path.read_text())
     if args.s3:
         if args.previous or args.current: p.error('Choose S3 or local paths')
         import boto3
@@ -165,7 +195,7 @@ def main():
         with tempfile.TemporaryDirectory(prefix='ontap-turnover-') as folder:
             previous, current = Path(folder)/'previous.zip', Path(folder)/'current.zip'
             sources = {day: download_saved(s3,day,path) for day,path in
-                       [('2026-11-02',previous),('2026-11-03',current)]}
+                       [('2026-11-02',previous),(args.current_date,current)]}
             args.output.with_suffix('.sources.json').write_text(json.dumps(sources,indent=2)+'\n')
             baseline_path = args.baseline
             if not baseline_path.is_file():
@@ -173,16 +203,18 @@ def main():
                 sources['pinnedBaseline'] = download_object(s3,BASELINE_KEY,baseline_path)
                 args.output.with_suffix('.sources.json').write_text(json.dumps(sources,indent=2)+'\n')
             baseline = load_pinned_baseline(baseline_path)
-            result = compare(previous,current,measured,baseline)
+            result = compare(previous,current,measured,baseline,current_date=args.current_date,
+                             expected_current_sha256=PINNED_CURRENT_ARCHIVES[args.current_date])
             result['pinnedBaselineArchiveSha256'] = BASELINE_SHA
             result.update(s3Sources=sources,callerArn=caller['Arn'])
     else:
         if not args.previous or not args.current: p.error('Supply two local archives or --s3')
         baseline = load_pinned_baseline(args.baseline) if args.baseline.is_file() else None
-        result = compare(args.previous,args.current,measured,baseline)
+        result = compare(args.previous,args.current,measured,baseline,current_date=args.current_date)
     args.output.write_text(json.dumps(result,indent=2)+'\n')
     summary = {k:result[k] for k in ['testedAt','turnover','databaseBaselineLink',
-        'databaseBaselineTurnover','compactRawProjection','databaseChanged','productionChanged']}
+        'databaseBaselineTurnover','compactRawProjection','combinedIllustrativeForecast',
+        'databaseChanged','productionChanged']}
     summary['sourceCounts'] = {day:snapshot['diagnostics'] for day,snapshot in result['snapshots'].items()}
     summary['outputFile'] = str(args.output)
     if result.get('storageProjectionBlocked'):
