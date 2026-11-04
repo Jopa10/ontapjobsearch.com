@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "blocked_expired_saved_url_token",
+  "status": "blocked_downloaded_object_fails_pinned_fingerprint",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -44,6 +44,7 @@
     "activeWorkflowAtPreparation": false
   },
   "recovery": [
+    "Compare the current S3 object metadata with the pinned 3 November ETag/size and recover the pinned object version before selector replay; never accept an unverified hash.",
     "Generate and install a fresh short-lived owner CloudShell URL immediately before the diagnostic run; the prior URL token expired.",
     "Resolve the invalid S3 signing identity in owner CloudShell and validate a fresh short-lived URL before updating the repository secret or retrying.",
     "Locate the GitHub Actions run for this request commit and continue polling that run; do not start a duplicate.",
@@ -56,13 +57,16 @@
   "runOutcome": {
     "status": "completed",
     "conclusion": "failure",
-    "attempt": 1,
-    "failedStep": "Fetch the owner-pinned 3 November saved source",
-    "reason": "S3 returned HTTP 400 ExpiredToken before the archive could be downloaded.",
-    "archiveDownloaded": false,
+    "attempt": 2,
+    "failedStep": "Replay unchanged production selectors and record their decisions",
+    "reason": "S3 download succeeded and archive guards passed, but the object did not match the pinned SHA-256 or byte length.",
+    "archiveDownloaded": true,
     "selectorParityStarted": false,
     "neonChanged": false,
-    "archiveSha256Verified": false,
+    "expectedSha256": "e6dcb08ea537bcb34dffd2ad9da089d443b5f0b1f875018c53aac0357fecc892",
+    "actualSha256": "444f0f21b1799feda0e1b64559ced614605e61a1267bf9bded27e3fde9ac189c",
+    "expectedBytes": 35800056,
+    "actualBytes": 34546115,
     "secretValueRecorded": false,
     "artifacts": []
   },
