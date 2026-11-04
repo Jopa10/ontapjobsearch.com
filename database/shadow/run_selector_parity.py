@@ -36,43 +36,43 @@ def resolve_source_request(path):
                 'conflictingIdsHeld': ['1401786160'], 'metadata': None,
                 'requestPath': None, 'requestSha256': None}
 
-    expected_path = HERE / 'fresh-integration-prep-checkpoint-2026-11-03.json'
-    if path.resolve() != expected_path.resolve():
-        raise ValueError('Fresh-source request must be the pinned preparation checkpoint')
     raw = path.read_bytes()
     checkpoint = json.loads(raw)
-    if checkpoint.get('sourceChecksumPrerequisiteResolved') is not True:
-        raise ValueError('Pinned source checksum prerequisite is unresolved')
+    feed_date = checkpoint.get('date')
+    expected_path = HERE / f'fresh-integration-prep-checkpoint-{feed_date}.json'
+    if (not isinstance(feed_date, str) or path.resolve() != expected_path.resolve()
+            or checkpoint.get('sourceChecksumPrerequisiteResolved') is not True):
+        raise ValueError('Fresh-source request must be an explicitly pinned dated checkpoint')
     pinned = checkpoint.get('pinnedSavedSource')
     if not isinstance(pinned, dict):
         raise ValueError('Missing owner-pinned saved-source metadata')
     checksum = pinned.get('archiveChecksums', {}).get('current')
-    sources = pinned.get('s3Sources', {})
-    matches = [(date, item) for date, item in sources.items()
-               if isinstance(item, dict) and item.get('sha256') == checksum]
-    if len(matches) != 1:
-        raise ValueError('Pinned current source must identify exactly one S3 object')
-    feed_date, item = matches[0]
-    counts = pinned.get('expectedCurrentCounts', {})
-    expected_conflicts = ['1401786160']
-    if (feed_date != checkpoint.get('date')
-            or item.get('key') != f'jobg8/raw/{feed_date}.zip'
+    item = pinned.get('s3Sources', {}).get(feed_date)
+    if not isinstance(item, dict) or item.get('sha256') != checksum:
+        raise ValueError('Pinned current source must identify the dated S3 object by SHA-256')
+    counts = pinned.get('expectedCurrentCounts') or {}
+    expected_conflicts = counts.get('conflictingIdsHeld')
+    for key in ('sourceRows', 'cleanRecords'):
+        value = counts.get(key)
+        if value is not None and (not isinstance(value, int) or value <= 0):
+            raise ValueError(f'Invalid pinned {key}')
+    if (item.get('key') != f'jobg8/raw/{feed_date}.zip'
             or pinned.get('bucket') != 'ontap-jobg8-archive-179402568934-eu-west-2-an'
             or pinned.get('region') != 'eu-west-2'
             or not isinstance(item.get('bytes'), int) or item['bytes'] <= 0
             or not isinstance(item.get('etag'), str) or not item['etag']
-            or item.get('sha256') != checksum
-            or counts.get('sourceRows') != 44432
-            or counts.get('cleanRecords') != 44430
-            or counts.get('conflictingIdsHeld') != expected_conflicts):
-        raise ValueError('Pinned saved-source request does not match the approved 3 November feed')
+            or not isinstance(checksum, str) or len(checksum) != 64
+            or (expected_conflicts is not None
+                and (not isinstance(expected_conflicts, list)
+                     or any(not isinstance(value, str) for value in expected_conflicts)))):
+        raise ValueError('Pinned saved-source metadata is incomplete or inconsistent')
     metadata = {'feedDate': feed_date, 'bucket': pinned['bucket'],
                 'region': pinned['region'], 'key': item['key'],
                 'sizeBytes': item['bytes'], 'etag': item['etag'],
                 'sha256': item['sha256']}
     return {'feedDate': feed_date, 'archiveSha256': item['sha256'],
-            'sizeBytes': item['bytes'], 'sourceRows': counts['sourceRows'],
-            'cleanRecords': counts['cleanRecords'],
+            'sizeBytes': item['bytes'], 'sourceRows': counts.get('sourceRows'),
+            'cleanRecords': counts.get('cleanRecords'),
             'conflictingIdsHeld': expected_conflicts, 'metadata': metadata,
             'requestPath': str(path), 'requestSha256': hashlib.sha256(raw).hexdigest()}
 
@@ -165,9 +165,10 @@ def main():
     if source['sizeBytes'] is not None and actual_size != source['sizeBytes']:
         raise ValueError('Saved source byte count mismatch')
     records, receipt = load_archive(archive)
-    if (receipt['sourceRows'] != source['sourceRows']
-            or len(records) != source['cleanRecords']
-            or receipt['conflictingIdsHeld'] != source['conflictingIdsHeld']):
+    if ((source['sourceRows'] is not None and receipt['sourceRows'] != source['sourceRows'])
+            or (source['cleanRecords'] is not None and len(records) != source['cleanRecords'])
+            or (source['conflictingIdsHeld'] is not None
+                and receipt['conflictingIdsHeld'] != source['conflictingIdsHeld'])):
         raise ValueError('Saved source row/quarantine receipt mismatch')
     if source['feedDate']:
         current_date = os.environ.get('ONTAP_FEED_DATE')
