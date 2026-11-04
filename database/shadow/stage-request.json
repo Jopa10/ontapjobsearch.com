@@ -1,5 +1,5 @@
 {
-  "archiveDate": "2026-11-03",
+  "archiveDate": "2026-11-04",
   "sourceRevision": "a828536b62928d5c287fa9e18aa7924769851e29",
   "stages": [
     20,
@@ -7,8 +7,8 @@
     100
   ],
   "maximumDatabaseBytes": 838860800,
-  "purpose": "Pinned 3 November saved-archive selector parity only; no supplier feed fetch, Neon import, cleanup, or raw storage rerun",
+  "purpose": "Owner-pinned 4 November saved-archive selector parity only; no supplier feed fetch, Neon import, cleanup, or raw storage rerun",
   "sourceMode": "owner_pinned_saved_archive",
-  "attempt": 9,
+  "attempt": 10,
   "mode": "fresh_selection_parity"
 }
