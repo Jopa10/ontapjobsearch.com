@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "guarded-input-provenance-repair-prepared",
+  "status": "guarded-runner-selected-after-build-command-override-was-ignored",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "parentCommit": "12e744592a8af7c65fc559e5faf0371ae45ed59a",
@@ -111,9 +111,17 @@
       "firstWritePoint": "compact-integration.mjs validates the full selector manifest before invoking importStage; validation threw first.",
       "productionChanged": false,
       "purgeAttempted": false
+    },
+    {
+      "deploymentId": "dpl_D6aKyRbwVUMgB5ozzqjFUJxSUtsc",
+      "commit": "51d7b9de1d42b922f50114826ccdd3a7071c56b2",
+      "outcome": "integration runner did not execute; Vercel used committed harness build command node verify-neon.mjs",
+      "verifierScope": "verify-neon calls verifySample; this includes an accepted 20-record sample import plus rollback-only checks.",
+      "databaseMayHaveChanged": "possible sample rows if failure occurred after initial import; must not assume unchanged",
+      "productionChanged": false
     }
   ],
-  "nextAction": "Reconcile or regenerate selector evidence so both report.archiveSha256 and dependencyManifest.archiveSha256 equal the pinned 4 November ZIP, preserving manifest hashes and captured dependency evidence. Then rerun pure input validation before any database integration.",
+  "nextAction": "Temporarily set harness vercel.json buildCommand to node build-compact-integration.mjs, then deploy. The runner first validates selector/source artifacts offline and enforces an exact read-only database count/size preflight; if any sample-verifier write changed the baseline, it will fail closed before importing the full feed.",
   "harnessConfigRestored": true,
   "rootCause": {
     "file": "database/shadow/run_selector_parity.py",
