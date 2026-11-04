@@ -70,6 +70,7 @@ async function dbPreflight(client){
   await client.query('COMMIT');
   return {databaseBytes:size,...counts,reviewDateColumn:col.type,reviewIndexPresent:idx,readOnly:true};
 }
+let integrationWriteStarted=false;
 async function main(){
   assert.equal(process.env.VERCEL_ENV,'preview','Preview deployment only');
   assert.equal(process.env.VERCEL_GIT_COMMIT_REF,'feat/neon-shadow-database','Wrong Preview branch');
@@ -114,6 +115,7 @@ async function main(){
       await fs.appendFile(checkpoints,line+'\n');
       console.log('ONTAP_INTEGRATION_PHASE '+line);
     };
+    integrationWriteStarted=true;
     const result=await verifyCompactIntegration(client,{raw:rawPacket,selection:selector,outputs},{parentRunId:null,onCheckpoint});
     assert.equal(result.status,'passed');
     assert.equal(result.expiryEnabled,false);
@@ -127,6 +129,6 @@ async function main(){
   }finally{await client.end();}
 }
 main().catch(error=>{
-  console.error('ONTAP_INTEGRATION_FAILED '+JSON.stringify({code:error.code||error.name||'integration_failure',message:String(error.message||'').slice(0,300),importAttempted:'may_have_started_after_guarded_phases',productionChanged:false}));
+  console.error('ONTAP_INTEGRATION_FAILED '+JSON.stringify({code:error.code||error.name||'integration_failure',message:String(error.message||'').slice(0,300),integrationWriteStarted:integrationWriteStarted?'yes_phase_must_be_inspected':'no',productionChanged:false}));
   process.exitCode=1;
 });
