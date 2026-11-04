@@ -35,7 +35,18 @@
     "measuredAt": "2026-11-03",
     "currentReadOnlyMeasurement": "not performed",
     "schemaMigrationApplied": false,
-    "importOrCleanupRun": false
+    "committedFeedImportOrCleanup": false,
+    "sampleImportAttemptedInPreview": true,
+    "sampleTransactionRolledBack": true
+  },
+  "previewAuditAttempt": {
+    "deploymentId": "dpl_B1oBbUCyqHyNXsjQJcNYXH1AbZQU",
+    "deploymentCommit": "fba7db8e54591c8067edb02054fc05464a7a7d08",
+    "state": "failed-before-audit",
+    "errorCode": "42703",
+    "cause": "Vercel used the harness vercel.json buildCommand for verify-neon.mjs; the per-deployment buildCommand override was not honored.",
+    "databaseEffect": "The sample importer transaction errored and rolled back. No feed import, retention purge, cleanup, expiry or committed sample change occurred.",
+    "correction": "Point the harness vercel.json buildCommand at the existing repeatable-read read-only measure-retention.mjs audit, then restore the previous config after obtaining the baseline."
   },
   "production": {
     "fileBased": true,
