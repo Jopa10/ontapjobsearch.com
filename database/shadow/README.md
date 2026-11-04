@@ -361,6 +361,21 @@ database-backed website remain pending. No full-feed storage import is repeated.
 The exact original ZIP has additionally been preserved as `ontap-shadow-feed.zip`
 for continuation after the short-lived GitHub artifact expires.
 
+Fresh saved-source mode was prepared on 4 November 2026. Pass
+`--source-request database/shadow/fresh-integration-prep-checkpoint-2026-11-03.json`
+with the archived ZIP to validate the pinned 3 November S3 object metadata and
+counts before selector execution. The request fixes the archive key, bucket,
+region, 35,800,056-byte length, SHA-256, 44,432 source rows, 44,430 clean
+records and quarantined ID 1401786160. It sets `ONTAP_FEED_DATE=2026-11-03`
+for both isolated selector copies and captures that value in runtime provenance.
+The original command without this option still uses the historical 2 November
+pin. The existing isolated workflow now offers a `fresh_selection_parity`
+request mode that downloads the saved ZIP through a short-lived
+`ONTAP_SAVED_FEED_URL` Actions secret, then runs this exact checkpoint-backed
+validation. Create the presigned GET URL only in owner CloudShell; never put it
+in code or chat. No new workflow or AWS role is added. The mode is not triggered
+until `stage-request.json` is deliberately updated. No fresh replay has run.
+
 ### Durable selector replay execution
 
 Request mode `selection_parity` extends the existing branch-only shadow test
@@ -748,26 +763,36 @@ Receipt: `compact-allocation-verification-2026-11-03.json`; recovery/state:
 `compact-allocation-checkpoint-2026-11-03.json`. Do not repeat this completed probe.
 
 
-## Next-run preparation — 3 November 2026
+## Fresh selector integration preparation — 4 November 2026
 
-The owner reserved remaining usage for local preparation only.
-`harness/compact-integration.mjs` composes existing raw/selection/display
-entry points with strict captured-manifest/raw/date/output validation before
-any DB access, scalar phase checkpoints, exact readback and complete replay.
-Three focused local PostgreSQL checks pass for update/gap/return/stable IDs,
-invalid evidence rejection before access, and resumable display-phase failure.
-The test inputs are synthetic; actual fresh execution/provenance remains pending.
-Underlying stages commit separately; a later failure does not globally roll back
-the accepted raw stage. All jobs remain withheld and expiry remains disabled.
+The exact saved 3 November S3 object metadata is pinned in
+`fresh-integration-prep-checkpoint-2026-11-03.json`; no new supplier feed is
+needed. The existing selector runner now has an explicit option that checks the
+ZIP's SHA-256, byte length, source row count, clean count and quarantined ID,
+sets the pinned feed date, and captures it in runtime provenance. Its original
+2 November default remains unchanged.
 
-No remote entry point, workflow mode, request-file change or run is enabled.
-The full CloudShell source receipt/current ZIP checksum is still needed. The
-existing replay runner still pins the original 2 November feed/count and needs
-explicit validated-source adaptation before tomorrow's fresh saved-feed test.
-The existing 3 November saved feed is preferred over fetching another supplier
-snapshot merely for this test. No storage sizing, selector or archive proof
-should be repeated. No cutover, cleanup, email, schedule or plan change.
+The existing isolated branch workflow now supports
+`fresh_selection_parity`. It downloads the saved ZIP through the
+short-lived `ONTAP_SAVED_FEED_URL` Actions secret, then validates it against
+the pinned checkpoint. The secret must be created from owner CloudShell's
+existing S3 access and kept out of chat and source code. No new IAM role or
+workflow was added. The request file remains unchanged; no fresh selector run
+or Preview integration has started. The current daily JobG8 workflow was still
+running when this checkpoint was prepared.
+
+The wrapper `harness/compact-integration.mjs` remains prepared and its local
+tests passed on 3 November. It requires real selector evidence and runtime
+provenance before accessing Neon. Raw, selection and display stages commit
+separately, so failures remain recoverable rather than globally atomic. Jobs
+remain withheld and expiry remains disabled.
+
+Next: finish the daily feed process; create the short-lived URL/secret; then
+deliberately update `stage-request.json` to run fresh selector parity. Save the
+complete evidence and outputs before preparing the guarded Preview runner and
+combined headroom check. Do not repeat completed sizing, archive transport or
+turnover checks. Production remains file-based; no cutover, cleanup, emails,
+schedule or paid plan change is authorized.
 
 Execution order and remaining expiry/90-day/runtime/publisher gates:
-`NEXT_INTEGRATION_TEST.md`. Prepared state:
-`fresh-integration-prep-checkpoint-2026-11-03.json`.
+`NEXT_INTEGRATION_TEST.md`.

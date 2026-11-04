@@ -27,6 +27,56 @@ def digest(value):
     return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
 
 
+def resolve_source_request(path):
+    # Keep the historical command pinned exactly as before unless a caller
+    # explicitly supplies the owner-verified fresh-source checkpoint.
+    if path is None:
+        return {'feedDate': None, 'archiveSha256': PIN, 'sizeBytes': None,
+                'sourceRows': 43798, 'cleanRecords': 43796,
+                'conflictingIdsHeld': ['1401786160'], 'metadata': None,
+                'requestPath': None, 'requestSha256': None}
+
+    expected_path = HERE / 'fresh-integration-prep-checkpoint-2026-11-03.json'
+    if path.resolve() != expected_path.resolve():
+        raise ValueError('Fresh-source request must be the pinned preparation checkpoint')
+    raw = path.read_bytes()
+    checkpoint = json.loads(raw)
+    if checkpoint.get('sourceChecksumPrerequisiteResolved') is not True:
+        raise ValueError('Pinned source checksum prerequisite is unresolved')
+    pinned = checkpoint.get('pinnedSavedSource')
+    if not isinstance(pinned, dict):
+        raise ValueError('Missing owner-pinned saved-source metadata')
+    checksum = pinned.get('archiveChecksums', {}).get('current')
+    sources = pinned.get('s3Sources', {})
+    matches = [(date, item) for date, item in sources.items()
+               if isinstance(item, dict) and item.get('sha256') == checksum]
+    if len(matches) != 1:
+        raise ValueError('Pinned current source must identify exactly one S3 object')
+    feed_date, item = matches[0]
+    counts = checkpoint.get('expectedCurrentCounts', {})
+    expected_conflicts = ['1401786160']
+    if (feed_date != checkpoint.get('date')
+            or item.get('key') != f'jobg8/raw/{feed_date}.zip'
+            or pinned.get('bucket') != 'ontap-jobg8-archive-179402568934-eu-west-2-an'
+            or pinned.get('region') != 'eu-west-2'
+            or not isinstance(item.get('bytes'), int) or item['bytes'] <= 0
+            or not isinstance(item.get('etag'), str) or not item['etag']
+            or item.get('sha256') != checksum
+            or counts.get('sourceRows') != 44432
+            or counts.get('cleanRecords') != 44430
+            or counts.get('conflictingIdsHeld') != expected_conflicts):
+        raise ValueError('Pinned saved-source request does not match the approved 3 November feed')
+    metadata = {'feedDate': feed_date, 'bucket': pinned['bucket'],
+                'region': pinned['region'], 'key': item['key'],
+                'sizeBytes': item['bytes'], 'etag': item['etag'],
+                'sha256': item['sha256']}
+    return {'feedDate': feed_date, 'archiveSha256': item['sha256'],
+            'sizeBytes': item['bytes'], 'sourceRows': counts['sourceRows'],
+            'cleanRecords': counts['cleanRecords'],
+            'conflictingIdsHeld': expected_conflicts, 'metadata': metadata,
+            'requestPath': str(path), 'requestSha256': hashlib.sha256(raw).hexdigest()}
+
+
 def child(work, observe):
     sys.stdout.reconfigure(line_buffering=True)
     os.chdir(work / 'pipeline')
@@ -95,21 +145,38 @@ def main():
     p.add_argument('--archive', type=Path)
     p.add_argument('--work', type=Path, required=True)
     p.add_argument('--child', choices=['plain', 'observed'])
+    p.add_argument('--source-request', type=Path, help='Use the exact owner-pinned fresh saved-source checkpoint')
     args = p.parse_args()
     work = args.work.resolve()
     if args.child:
         child(work, args.child == 'observed')
         return
+    if args.archive is None:
+        raise ValueError('An archived source ZIP is required')
     archive = args.archive.resolve()
-    if hashlib.sha256(archive.read_bytes()).hexdigest() != PIN:
-        raise ValueError('Pinned source mismatch')
+    source = resolve_source_request(args.source_request)
+    actual_size = archive.stat().st_size
+    actual_sha256 = hashlib.sha256(archive.read_bytes()).hexdigest()
+    if actual_sha256 != source['archiveSha256']:
+        raise ValueError('Saved source SHA-256 mismatch')
+    if source['sizeBytes'] is not None and actual_size != source['sizeBytes']:
+        raise ValueError('Saved source byte count mismatch')
     records, receipt = load_archive(archive)
-    if len(records) != 43796 or receipt['conflictingIdsHeld'] != ['1401786160']:
-        raise ValueError('Pinned receipt mismatch')
+    if (receipt['sourceRows'] != source['sourceRows']
+            or len(records) != source['cleanRecords']
+            or receipt['conflictingIdsHeld'] != source['conflictingIdsHeld']):
+        raise ValueError('Saved source row/quarantine receipt mismatch')
+    if source['feedDate']:
+        current_date = os.environ.get('ONTAP_FEED_DATE')
+        if current_date and current_date != source['feedDate']:
+            raise ValueError('ONTAP_FEED_DATE conflicts with pinned source date')
+        os.environ['ONTAP_FEED_DATE'] = source['feedDate']
     if work.exists():
         raise ValueError('Use a new scratch work directory')
     capture = start_capture(ROOT)
     work.mkdir(parents=True)
+    if source['requestPath']:
+        shutil.copy2(source['requestPath'], work / 'source-request.json')
     (work / 'dependency-start.json').write_text(json.dumps(capture, indent=2) + '\n')
     # Use the actual production XML adapter and its source timestamp. Remove only
     # the already quarantined conflicting ID; preserve supplier order for dedupe.
@@ -117,7 +184,7 @@ def main():
     from pipeline.scripts.jobg8_xml_adapter import convert, _stamp_workbook_core_timestamp
     import openpyxl
     converted = work / 'jobg8.xlsx'
-    convert(archive, converted, 43798, 43798)
+    convert(archive, converted, receipt['sourceRows'], receipt['sourceRows'])
     book = openpyxl.load_workbook(converted, read_only=True)
     stamp = book.properties.created
     rows = book.active.values
@@ -180,7 +247,9 @@ def main():
             decisions.append({'ref': ref, 'scope': 'production:' + family, **record, 'regions': regions})
         counts[family] = dict(Counter(r['decision'] for r in decisions if r['scope'] == 'production:' + family))
     revision = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
-    report = {'archiveSha256': PIN, 'receipt': receipt, 'cleanRecords': len(records), 'rulesRevision': revision,
+    report = {'archiveSha256': source['archiveSha256'], 'archiveDate': source['feedDate'],
+              'sourceMetadata': source['metadata'], 'sourceRequestSha256': source['requestSha256'],
+              'receipt': receipt, 'cleanRecords': len(records), 'rulesRevision': revision,
               'exactFileOutputParity': True, 'outputsSha256': digest(plain), 'scopes': len(plain), 'outcomes': counts,
               'selectedByScope': {scope: len(jobs) for scope, jobs in plain.items()},
               'selectedUniqueJobs': len({str(job['job_id']) for jobs in plain.values() for job in jobs}),

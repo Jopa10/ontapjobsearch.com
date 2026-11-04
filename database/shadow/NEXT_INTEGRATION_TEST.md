@@ -48,21 +48,33 @@ are preserved. Actual expiry policy and 90-day raw retention remain UNPROVEN.
 
 1. Read AGENTS/canonical maps/README/checkpoints. Inspect GitHub/Vercel activity
    first. Keep deployment/run IDs and checkpoints durable before every execution.
-2. Recover the FULL existing CloudShell `ontap-current-turnover-result.json`
-   (not only the pasted terminal summary). It contains current ZIP SHA-256 and
-   S3 ETag/metadata required to pin the exact source. This full receipt has not
-   yet been copied into GitHub. Do not infer its missing checksum.
-3. Prefer that complete saved 3 November archive: it is fresh relative to Neon,
-   reproducible and unaffected by tomorrow's publication. If selecting another
-   date, establish a NEW exact receipt/count/turnover identity first. Never silently
-   substitute tomorrow's supplier feed or mix dates/archives.
-4. The existing `run_selector_parity.py` is still hard-pinned to the original
-   2 November ZIP/43,796 records. It is NOT yet a general fresh-source runner.
-   Adapt its existing entry point to an explicit validated source request before
-   launching the complete fresh replay; preserve its default historical pin.
-   Do not introduce another workflow or rerun old selectors just for sizing.
-5. Pin code plus raw archive/date/quarantine/counts. Run unchanged actual family
-   selectors through the adapted existing isolated path with dependency capture.
+2. Use the owner-pinned source metadata in
+   `fresh-integration-prep-checkpoint-2026-11-03.json`; it supersedes the old
+   missing-checksum note above. The exact source is
+   `jobg8/raw/2026-11-03.zip`, 35,800,056 bytes, SHA-256
+   `e6dcb08ea537bcb34dffd2ad9da089d443b5f0b1f875018c53aac0357fecc892`.
+   Its S3 ETag is multipart metadata, not SHA-256. Do not mix it with the
+   separate original Neon fixture or fetch another supplier feed.
+3. `run_selector_parity.py` now accepts the explicit
+   `--source-request database/shadow/fresh-integration-prep-checkpoint-2026-11-03.json`
+   option. The historical no-option command remains pinned to the original
+   2 November fixture. Fresh mode verifies the exact checkpoint path, source
+   key/bucket/region, byte count, SHA-256, row counts and quarantined ID before
+   running; it sets and captures the pinned `ONTAP_FEED_DATE`.
+4. The existing isolated workflow now supports `fresh_selection_parity` using
+   the same request file and runner. It downloads the exact S3 object through the
+   short-lived `ONTAP_SAVED_FEED_URL` Actions secret, then verifies all pinned
+   metadata locally. The owner must create that URL from the existing CloudShell
+   S3 access and set it as the secret without pasting it into chat. This uses no
+   new AWS role, IAM trust or workflow. The URL must still be valid when the run
+   starts.
+5. After the live JobG8 process is clear and the short-lived secret is ready,
+   update `stage-request.json` to `fresh_selection_parity` and trigger its
+   existing workflow. That file has not been changed yet. Do not fetch a new
+   supplier feed or repeat the old replay.
+6. Save the report, complete decisions, source hashes, output arrays and
+   dependency manifests before any Preview import. No selector execution may be
+   skipped.
    Capture the actual materialized source/register/geography/config/env/runtime,
    workbook hash/time, full exact file parity and zero unknowns. Save both output
    and decision artifacts immediately. No selector execution may be skipped.

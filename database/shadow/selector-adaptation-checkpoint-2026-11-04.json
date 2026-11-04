@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-04",
+  "status": "selector-fresh-source-request-prepared-replay-deferred",
+  "parentCommit": "39be593f844df7a5435281541d4cd457b3a0d4d2",
+  "scope": "existing isolated JobG8 selector parity runner",
+  "sourceRequest": "database/shadow/fresh-integration-prep-checkpoint-2026-11-03.json#pinnedSavedSource",
+  "source": {
+    "date": "2026-11-03",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "region": "eu-west-2",
+    "key": "jobg8/raw/2026-11-03.zip",
+    "bytes": 35800056,
+    "etag": "\"3763376ffef7e7b444b9996b3cbf7bd-5\"",
+    "sha256": "e6dcb08ea537bcb34dffd2ad9da089d443b5f0b1f875018c53aac0357fecc892",
+    "sourceRows": 44432,
+    "cleanRecords": 44430,
+    "conflictingIdsHeld": [
+      "1401786160"
+    ]
+  },
+  "selectorRunner": {
+    "path": "database/shadow/run_selector_parity.py",
+    "freshSourceOption": "--source-request",
+    "historicalDefaultRetained": true,
+    "checks": [
+      "exact committed checkpoint path",
+      "bucket, region and date-derived S3 key",
+      "ZIP byte length and SHA-256",
+      "source row count and clean record count",
+      "conflicting-ID quarantine"
+    ],
+    "feedDateOverride": "ONTAP_FEED_DATE=2026-11-03; included in captured runtime manifest"
+  },
+  "currentActivity": {
+    "githubRunId": 41792815659,
+    "status": "in_progress",
+    "activeStep": "Run service-admin pipeline",
+    "vercelBuildsInProgress": 0,
+    "latestObservedDeployment": "dpl_6FrKNaYcAm15FKLLN66xzFs5CcCX",
+    "latestObservedDeploymentState": "READY"
+  },
+  "unchanged": {
+    "stageRequestFile": true,
+    "workflowModes": true,
+    "production": true,
+    "neonData": true,
+    "s3Objects": true,
+    "schedules": true,
+    "emails": true,
+    "cleanup": true
+  },
+  "execution": {
+    "freshSelectorReplay": false,
+    "remotePreview": false,
+    "neonImport": false,
+    "productionCutover": false
+  },
+  "remaining": [
+    "After the daily JobG8 run finishes, generate a short-lived GET URL in owner CloudShell for the exact pinned S3 key and set it privately as the GitHub Actions secret ONTAP_SAVED_FEED_URL; never expose it in chat or code",
+    "With the saved URL valid, deliberately change stage-request.json to fresh_selection_parity and invoke the existing branch-only workflow; record run ID immediately",
+    "Review full selector evidence/runtime provenance and outputs; then prepare and checkpoint the guarded Preview integration runner and combined headroom gate before any Neon import"
+  ],
+  "recovery": "This checkpoint and the code change are saved on feat/neon-shadow-database. No request file was changed, so no shadow workflow was triggered.",
+  "workflow": {
+    "path": ".github/workflows/test-neon-jobg8-staged.yml",
+    "mode": "fresh_selection_parity",
+    "triggerPathOnly": "database/shadow/stage-request.json",
+    "sourceTransport": "short-lived ONTAP_SAVED_FEED_URL secret; generated from existing owner CloudShell S3 access; no IAM role/trust changes"
+  }
+}

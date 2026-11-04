@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 3 November 2026
+**Last updated:** 4 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 4 November 2026 — The existing isolated selector workflow can now use the pinned 3 November feed through a short-lived private download URL. Its trigger file is unchanged, so no run has started; the fresh replay and Preview integration remain pending.
 
 - 3 November 2026 — **Tomorrow’s compact integration test prepared, no remote run:** a shared wrapper validates captured source/context/output identity before DB access, calls existing compact raw/selection/display entry points, checkpoints committed phases and verifies full readback/replay. Three focused local PostgreSQL checks cover updates, absence/return, stable IDs, invalid evidence and recovery after display failure. No request/schedule/remote build/import changed. Full current ZIP receipt and adaptation of the historically pinned selector runner remain required before execution; expiry and 90-day raw retention remain unproved. Resume: `database/shadow/NEXT_INTEGRATION_TEST.md`.
 
