@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "workflow_queued",
+  "status": "blocked_missing_saved_archive_url_secret",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -50,5 +50,15 @@
     "Do not apply a Neon migration or import this feed until parity evidence and combined storage headroom are reviewed."
   ],
   "triggerCommit": "342e977582cb884668f1302658dad93c09b9cb59",
-  "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/41829612642"
+  "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/41829612642",
+  "runOutcome": {
+    "status": "completed",
+    "conclusion": "failure",
+    "failedStep": "Fetch the owner-pinned 3 November saved source",
+    "reason": "ONTAP_SAVED_FEED_URL was unset at workflow preflight; the required non-empty check exited before download.",
+    "archiveDownloaded": false,
+    "selectorParityStarted": false,
+    "neonChanged": false,
+    "artifacts": []
+  }
 }
