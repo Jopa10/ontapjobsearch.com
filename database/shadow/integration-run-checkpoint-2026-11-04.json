@@ -255,5 +255,17 @@
     },
     "admission": "Illustrative sensitivity only. Feed sizes and changed/new record counts can vary; repeat exact read-only preflight before each import. Not a 90-day or provider-usage certification."
   },
-  "documentationUpdated": "database/shadow/NEXT_INTEGRATION_TEST.md reflects the passed Preview integration and next feed gates."
+  "documentationUpdated": "database/shadow/NEXT_INTEGRATION_TEST.md reflects the passed Preview integration and next feed gates.",
+  "readOnlyFeedRunsDiagnostic": {
+    "status": "pre-run-checkpoint",
+    "commitParent": "40fe5e3c8d3a21868c73f4d464271c0f291fba57",
+    "script": "database/shadow/harness/read-feed-runs-storage.mjs",
+    "queries": [
+      "database and feed_runs relation size",
+      "per-run compact_appearances, compact_selection, compact_display, legacy parity/display snapshot field sizes",
+      "published jobs guard"
+    ],
+    "readOnlyTransaction": true,
+    "fieldValuesRead": false
+  }
 }

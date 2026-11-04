@@ -1,6 +1,6 @@
 {
   "framework": null,
-  "buildCommand": "node verify-neon.mjs",
+  "buildCommand": "node read-feed-runs-storage.mjs",
   "installCommand": "npm ci --omit=dev --ignore-scripts",
   "outputDirectory": "dist",
   "headers": [
