@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "source_fingerprint_pinned_waiting_for_selector_request",
+  "status": "pre_run_checkpoint_saved_ready_to_trigger",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -51,5 +51,39 @@
     "After selector parity, compute combined storage headroom before any separate Preview Neon integration."
   ],
   "updatedAtUtc": "2026-11-04T14:02:00Z",
-  "branchHeadBeforeSourcePin": "4dfd6bfc0e1d097acdf4c56f6fa4f6394b03eb6e"
+  "branchHeadBeforeSourcePin": "4dfd6bfc0e1d097acdf4c56f6fa4f6394b03eb6e",
+  "request": {
+    "path": "database/shadow/stage-request.json",
+    "archiveDate": "2026-11-04",
+    "mode": "fresh_selection_parity",
+    "attempt": 10,
+    "sourceRevision": "a828536b62928d5c287fa9e18aa7924769851e29"
+  },
+  "workflowSafety": {
+    "workflow": ".github/workflows/test-neon-jobg8-staged.yml",
+    "operation": "download exact owner-pinned archive; verify SHA and size; run isolated selector parity only",
+    "expectedDatabaseWrites": false,
+    "expectedSupplierFetch": false,
+    "secretNameOnly": "ONTAP_SAVED_FEED_URL",
+    "secretValueRecorded": false,
+    "ownerConfirmedSecretUpdated": true
+  },
+  "recovery": [
+    "Workflow is triggered only by committing the updated stage-request.json.",
+    "Monitor the resulting GitHub Actions run; inspect its artifact/report before proceeding.",
+    "No Neon mutation occurs in this selector-only run.",
+    "Only after exact selector evidence and combined storage headroom pass, plan a separate Preview-only Neon integration.",
+    "Keep jobs withheld, expiry disabled, and production file-based."
+  ],
+  "checkpointSavedBeforeRemoteExecution": true,
+  "priorCheckpointHead": "142aae849e3daaa4df35af9200cf8cd2a1408c56",
+  "sourcePin": {
+    "date": "2026-11-04",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "key": "jobg8/raw/2026-11-04.zip",
+    "bytes": 35216405,
+    "etag": "\"0a16efd3ba33a6018e721d5ef52605a5-5\"",
+    "lastModified": "2026-11-04T07:59:10+00:00",
+    "sha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06"
+  }
 }
