@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "blocked_no_pinned_archive_copy_found",
+  "status": "awaiting_pre_changeover_copy_check",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -44,6 +44,7 @@
     "activeWorkflowAtPreparation": false
   },
   "recovery": [
+    "Read-only list the 2026-11-03 S3 prefix for a pre-changeover preservation copy; only resume if its metadata matches the pinned morning archive.",
     "The exact 2026-11-03.zip was not found in CloudShell home, failed-run artifacts, or Library title search. The current S3 object is an overwrite and S3 versioning is disabled. Resume only if another exact copy is located; otherwise select and pin a new feed date explicitly.",
     "The pinned 07:59 S3 object was overwritten at 18:04 the same day; S3 versioning is disabled and VersionId is null. Find an independently retained exact copy before continuing; do not use the current object or run selector replay.",
     "Compare the current S3 object metadata with the pinned 3 November ETag/size and recover the pinned object version before selector replay; never accept an unverified hash.",
@@ -94,6 +95,7 @@
     "cloudShellFindCommand": "find ~ -type f -name 2026-11-03.zip -print",
     "result": "no matching file found",
     "githubRunArtifacts": "none retained for the failed fresh-source runs",
-    "exactLibraryFilenameSearch": "no matching file found"
+    "exactLibraryFilenameSearch": "no matching file found",
+    "s3PreservationKeyCheck": "not yet listed; workflow can preserve jobg8/raw/2026-11-03-pre-changeover.zip only when daily cycle is changeover"
   }
 }
