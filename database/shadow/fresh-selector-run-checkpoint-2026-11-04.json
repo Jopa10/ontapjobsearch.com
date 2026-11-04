@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "blocked_pinned_object_overwritten_no_s3_versioning",
+  "status": "blocked_no_pinned_archive_copy_found",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -44,6 +44,7 @@
     "activeWorkflowAtPreparation": false
   },
   "recovery": [
+    "The exact 2026-11-03.zip was not found in CloudShell home, failed-run artifacts, or Library title search. The current S3 object is an overwrite and S3 versioning is disabled. Resume only if another exact copy is located; otherwise select and pin a new feed date explicitly.",
     "The pinned 07:59 S3 object was overwritten at 18:04 the same day; S3 versioning is disabled and VersionId is null. Find an independently retained exact copy before continuing; do not use the current object or run selector replay.",
     "Compare the current S3 object metadata with the pinned 3 November ETag/size and recover the pinned object version before selector replay; never accept an unverified hash.",
     "Generate and install a fresh short-lived owner CloudShell URL immediately before the diagnostic run; the prior URL token expired.",
@@ -88,5 +89,11 @@
     "lastModified": "2026-11-03T18:04:56+00:00",
     "versionId": null,
     "comparison": "differs from pinned 07:59:34Z object: 35,800,056 bytes; ETag \"3763376ffef7e7b444b9996b3cbf7bd-5\"; SHA-256 e6dcb08ea537bcb34dffd2ad9da089d443b5f0b1f875018c53aac0357fecc892"
+  },
+  "recoverySearch": {
+    "cloudShellFindCommand": "find ~ -type f -name 2026-11-03.zip -print",
+    "result": "no matching file found",
+    "githubRunArtifacts": "none retained for the failed fresh-source runs",
+    "exactLibraryFilenameSearch": "no matching file found"
   }
 }
