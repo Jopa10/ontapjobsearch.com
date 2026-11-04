@@ -10,6 +10,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 4 November 2026 — The saved 4 November feed passed selector replay: 43,547 clean adverts, 239 scopes, zero unknown decisions. No Neon import or production change; storage headroom must pass before integration.
+
 - 4 November 2026 — The 3 November archive was overwritten before its pinned copy could be replayed. The 4 November saved archive is now pinned by its downloaded SHA-256; selector replay is next, with no Neon or production changes yet.
 
 - 4 November 2026 — The shadow test prepares a three-day review window for adverts excluded across every job family. Its read-only Neon baseline found 43,796 full advert payloads, including 38,633 fully excluded, in a 407 MB database. The migration and fresh-feed import remain pending; combined selection/display headroom is still unverified.
