@@ -678,6 +678,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5705068",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Kenmore Medical Centre",
+    "advertiser_name": "Kenmore Medical Centre",
+    "location": "Wilmslow, SK9 1PA",
+    "region": "Cheshire - East",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-04T10:23:12.886211454",
+    "closing_date": "2026-12-04",
+    "description": "Kenmore Medical Centre is a large friendly surgery with a registered list of approx 11,200 patients in the centre of Wilmslow. The Team at Kenmore consists of four partners, seven salaried doctors, a nursing team, HCA team, GP registrars, two nurse practitioners, clinical pharmacists, social prescribers and we have access to a large range of other services within our PCN - CHAW. The whole team works effectively together to provide an excellent service to our patients. Due to a promotion within the current team we are looking to recruit two receptionists to join our friendly team starting in January. Hours: Various shifts and hours available from 7.30am - 7.30pm Monday - Friday with potential overtime available to cover annual leave. To provide excellent service to patients. The work is varied and interesting it includes answering the phone, making appointments, welcoming patients and visitors, listening and understanding patient needs, resolving queries and signposting patients to appropriate service or appointment. You need to be well motivated and friendly with good people skills, enjoy working in a busy environment and being part of a team. Be able to communicate clearly and effectively, showing understanding, care and assertiveness when appropriate. You will be capable of developing good administrative and organisational skills and have experience of using computers As part of our reception team you would be expected to provide an excellent service to our patients. The work is varied and interesting and it includes answering the phone, making appointments, actioning online requests from patients, welcoming patients and visitors, listening and understanding patient needs, resolving queries or signposting patients to the appropriate service or appointment. You need to be well motivated and friendly with good people skills, enjoy working in a busy enviroment and being part of a team. You will be able to communicate clearly and effectively, showing understanding, care and assertiveness when appropriate. You will be capable of developing good administritive and organisational skills and have experience of using computers. Experience of working in healthcare is not essential as long as you possess the above qualities and are willing and eager to learn new skills and are flexible in your approach to work. We will provide in house training and continuing support.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1547-26-0014",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1547-26-0014",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5704540",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -693,7 +715,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1218-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1218-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5692369",
@@ -711,6 +737,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3196-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3196-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

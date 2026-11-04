@@ -2,15 +2,51 @@
 
 review_date: 2026-11-04
 
-- Open Administrative & Clerical rows reviewed: 2111
+- Open Administrative & Clerical rows reviewed: 2113
 - Auto/remembered selected: 385
 - Selected HC Tier A: 198
 - Selected HC Tier B: 187
-- POSS awaiting decision: 1633
+- POSS awaiting decision: 1635
 - Excluded: 0
 - HARD_PASS: 93
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Berkshire | Reading, RG1 5AN | £28392.00 to £31157.00 | Band 4 Cardiac Rehabilitation Exercise Co-Ordinator
+source_job_id: 5708304
+title: Band 4 Cardiac Rehabilitation Exercise Co-Ordinator
+employer: Royal Berkshire NHS Foundation Trust
+region: Berkshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0765
+factual_fingerprint: 65ab874b9454fb583938fa5cf3fabb6e75ac73afa68cea9c70db69dbfbc48882
+---
+
+---
+action:
+POSS | NHS Jobs | Bedfordshire | Leighton Buzzard, LU7 0EN | Negotiable | Lead Receptionist (GP Practice)
+source_job_id: 5708312
+title: Lead Receptionist (GP Practice)
+employer: Ashcroft Surgery
+region: Bedfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2513-26-04112
+factual_fingerprint: 63f04032eb1ca2c5cb5438f75e12febe19f497f7347f64064802bfca578bf010
+---
+
+---
+action:
+POSS | NHS Jobs | Bedfordshire | Leighton Buzzard, LU7 0EN | Negotiable | Dispenser (GP Practice)
+source_job_id: 5708310
+title: Dispenser (GP Practice)
+employer: Ashcroft Surgery
+region: Bedfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2513-26-0411
+factual_fingerprint: c12531930df089e50e2f9eda8331b7ef4e2752fc31fb76c3f7f212260039638b
+---
 
 ---
 action:
@@ -9454,18 +9490,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9308-26-0176
 factual_fingerprint: b53eba3b88685c16c1138ef3e10c422a63109e1f0a9a269d9932fe5db932cf68
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - Wirral | Wirral, CH63 4JY | £25760.00 to £27476.00 | People Services Officer
-source_job_id: 5694950
-title: People Services Officer
-employer: The Clatterbridge Cancer Centre NHSFT
-region: Merseyside - Wirral
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9158-26-0281
-factual_fingerprint: f0b607dfb17a935daa9eccb5bb9ad105343ab11e5052cd688052488e37323c57
 ---
 
 ---
