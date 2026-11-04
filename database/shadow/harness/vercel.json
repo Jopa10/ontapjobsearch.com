@@ -1,6 +1,6 @@
 {
   "framework": null,
-  "buildCommand": "node build-compact-integration.mjs",
+  "buildCommand": "node verify-neon.mjs",
   "installCommand": "npm ci --omit=dev --ignore-scripts",
   "outputDirectory": "dist",
   "headers": [

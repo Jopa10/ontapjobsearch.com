@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "fresh-artifact-zip-digest-pinned-after-prewrite-guard-stop",
+  "status": "blocked-before-import-by-selector-dependency-provenance-mismatch",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "parentCommit": "12e744592a8af7c65fc559e5faf0371ae45ed59a",
@@ -86,6 +86,21 @@
       "priorExpectedZipSha256": "72ef75471adf1f92572f9f04c7c4b507391141258229669af532f75b581ce2de",
       "databaseConnected": false,
       "writesStarted": false
+    },
+    {
+      "deploymentId": "dpl_7XW1GkoFQACHCHms28pbotoqmVkB",
+      "commit": "9b85500bf18a0356fb15428067881a7a5f6a445b",
+      "outcome": "read-only-preflight-passed-then-pure-input-validation-rejected-before-import",
+      "validation": "selection.report.archiveSha256 matched the pinned source, but selection.report.dependencyManifest.archiveSha256 was 046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd; manifest internal integrity passed, archive provenance did not.",
+      "databaseConnected": true,
+      "preflightReadOnly": true,
+      "writesStarted": false,
+      "importStageCalled": false,
+      "firstWritePoint": "compact-integration.mjs validates the full selector manifest before invoking importStage; validation threw first.",
+      "productionChanged": false,
+      "purgeAttempted": false
     }
-  ]
+  ],
+  "nextAction": "Reconcile or regenerate selector evidence so both report.archiveSha256 and dependencyManifest.archiveSha256 equal the pinned 4 November ZIP, preserving manifest hashes and captured dependency evidence. Then rerun pure input validation before any database integration.",
+  "harnessConfigRestored": true
 }
