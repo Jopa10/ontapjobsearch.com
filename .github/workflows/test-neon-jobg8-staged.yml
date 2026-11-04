@@ -59,7 +59,7 @@ jobs:
           github-token: ${{ github.token }}
           path: ${{ runner.temp }}/pinned-source
           merge-multiple: true
-      - name: Fetch the owner-pinned 3 November saved source
+      - name: Fetch the owner-pinned dated saved source
         if: steps.request.outputs.mode == 'fresh_selection_parity'
         env:
           ONTAP_SAVED_FEED_URL: ${{ secrets.ONTAP_SAVED_FEED_URL }}
@@ -72,7 +72,16 @@ jobs:
             *) echo "::error::ONTAP_SAVED_FEED_URL must be the complete HTTPS URL."; exit 1 ;;
           esac
           mkdir -p "$RUNNER_TEMP/pinned-source"
-          archive_path="$RUNNER_TEMP/pinned-source/jobg8-raw-2026-11-03.zip"
+          archive_date="$(python - <<'PYDATE'
+          import json, re
+          from pathlib import Path
+          date=json.loads(Path('database/shadow/stage-request.json').read_text()).get('archiveDate','')
+          if not re.fullmatch(r'20\d{2}-\d{2}-\d{2}', date):
+              raise SystemExit('Invalid archiveDate in stage request')
+          print(date)
+          PYDATE
+          )"
+          archive_path="$RUNNER_TEMP/pinned-source/jobg8-raw-${archive_date}.zip"
           response_path="$RUNNER_TEMP/pinned-source/download-response.xml"
           http_code="$(curl --silent --show-error --location --connect-timeout 30 --max-time 180 \
             --write-out '%{http_code}' "$saved_feed_url" --output "$response_path")"
@@ -107,10 +116,18 @@ jobs:
         if: steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity'
         run: |
           if [ "${{ steps.request.outputs.mode }}" = "fresh_selection_parity" ]; then
-            test -s "$RUNNER_TEMP/pinned-source/jobg8-raw-2026-11-03.zip"
+            archive_date="$(python - <<'PYDATE'
+            import json
+            from pathlib import Path
+            print(json.loads(Path('database/shadow/stage-request.json').read_text())['archiveDate'])
+            PYDATE
+            )"
+            archive_path="$RUNNER_TEMP/pinned-source/jobg8-raw-${archive_date}.zip"
+            source_request="database/shadow/fresh-integration-prep-checkpoint-${archive_date}.json"
+            test -s "$archive_path"
             python -u database/shadow/run_selector_parity.py \
-              --archive "$RUNNER_TEMP/pinned-source/jobg8-raw-2026-11-03.zip" \
-              --source-request database/shadow/fresh-integration-prep-checkpoint-2026-11-03.json \
+              --archive "$archive_path" \
+              --source-request "$source_request" \
               --work "$RUNNER_TEMP/selector-parity"
           else
             python -u database/shadow/run_selector_parity.py \
