@@ -66,11 +66,34 @@ jobs:
         run: |
           set -euo pipefail
           test -n "$ONTAP_SAVED_FEED_URL"
+          saved_feed_url="$(printf '%s' "$ONTAP_SAVED_FEED_URL" | tr -d '[:space:]')"
+          case "$saved_feed_url" in
+            https://*) ;;
+            *) echo "::error::ONTAP_SAVED_FEED_URL must be the complete HTTPS URL."; exit 1 ;;
+          esac
           mkdir -p "$RUNNER_TEMP/pinned-source"
-          curl --fail --silent --show-error --location --connect-timeout 30 --max-time 180 \
-            "$ONTAP_SAVED_FEED_URL" \
-            --output "$RUNNER_TEMP/pinned-source/jobg8-raw-2026-11-03.zip"
-          test -s "$RUNNER_TEMP/pinned-source/jobg8-raw-2026-11-03.zip"
+          archive_path="$RUNNER_TEMP/pinned-source/jobg8-raw-2026-11-03.zip"
+          response_path="$RUNNER_TEMP/pinned-source/download-response.xml"
+          http_code="$(curl --silent --show-error --location --connect-timeout 30 --max-time 180 \
+            --write-out '%{http_code}' "$saved_feed_url" --output "$response_path")"
+          if [ "$http_code" != "200" ]; then
+            python - "$response_path" "$http_code" <<'PYERROR'
+          import sys
+          import xml.etree.ElementTree as ET
+          path, status = sys.argv[1:]
+          try:
+              root = ET.parse(path).getroot()
+              fields = {node.tag.rsplit('}', 1)[-1]: (node.text or '') for node in root.iter()}
+              code = fields.get('Code', 'unknown')
+              message = fields.get('Message', 'no S3 error message returned')
+          except (ET.ParseError, OSError):
+              code, message = 'unavailable', 'response was not an S3 XML error'
+          print(f'Saved source request failed: HTTP {status}; S3 code {code}; {message}')
+          PYERROR
+            exit 1
+          fi
+          mv "$response_path" "$archive_path"
+          test -s "$archive_path"
       - name: Verify selection observer and attachment guards
         if: steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity'
         run: |

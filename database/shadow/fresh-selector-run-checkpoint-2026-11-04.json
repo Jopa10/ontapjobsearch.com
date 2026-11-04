@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "blocked_archive_url_rejected",
+  "status": "prepared_for_retry_with_url_whitespace_normalization",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -11,7 +11,7 @@
     "path": "database/shadow/stage-request.json",
     "archiveDate": "2026-11-03",
     "mode": "fresh_selection_parity",
-    "attempt": 6,
+    "attempt": 7,
     "sourceRevision": "a828536b62928d5c287fa9e18aa7924769851e29"
   },
   "pinnedArchive": {
@@ -54,13 +54,23 @@
   "runOutcome": {
     "status": "completed",
     "conclusion": "failure",
-    "attempt": 3,
+    "attempt": 4,
     "failedStep": "Fetch the owner-pinned 3 November saved source",
-    "reason": "The configured URL was syntactically accepted but S3 returned HTTP 400.",
+    "reason": "curl rejected the configured secret as a malformed URL before downloading the archive.",
     "archiveDownloaded": false,
     "selectorParityStarted": false,
     "neonChanged": false,
     "secretValueRecorded": false,
     "artifacts": []
+  },
+  "nextRetry": {
+    "requestAttempt": 7,
+    "workflowChanges": [
+      "Strip whitespace from copied URLs without logging the secret.",
+      "Require an https:// prefix.",
+      "On download error, report HTTP status and parsed S3 error code/message."
+    ],
+    "samePinnedArchive": true,
+    "neonWrites": false
   }
 }
