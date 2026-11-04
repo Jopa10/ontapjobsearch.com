@@ -259,10 +259,12 @@ def main():
               'selectedUniqueJobs': len({str(job['job_id']) for jobs in plain.values() for job in jobs}),
               'unknowns': sum(r['decision'] == 'unknown' for r in decisions),
               'boundary': 'JobG8 family generation only; external composition, enrichment, final publisher/city derivation and email sending were not invoked.'}
-    manifest = finish_capture(capture, ROOT, archive_sha256=PIN,
+    manifest = finish_capture(capture, ROOT, archive_sha256=source['archiveSha256'],
         workbook_sha256=hashlib.sha256((work / 'clean.xlsx').read_bytes()).hexdigest(),
         workbook_created=stamp.isoformat() if stamp else None, families=FAMILIES,
         observer_modules=MODULES, outputs_sha256=report['outputsSha256'], output_scopes=plain)
+    if manifest['archiveSha256'] != report['archiveSha256']:
+        raise ValueError('Selector dependency manifest archive provenance differs from exact replay source')
     report['dependencyManifest'] = manifest
     report['dependencyManifestSha256'] = digest(manifest)
     report['compactContext'] = manifest['context']

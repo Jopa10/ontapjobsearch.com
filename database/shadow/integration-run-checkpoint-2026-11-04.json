@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "blocked-before-import-by-selector-dependency-provenance-mismatch",
+  "status": "pre-run-checkpoint-saved-for-selector-provenance-replay",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "parentCommit": "12e744592a8af7c65fc559e5faf0371ae45ed59a",
@@ -102,5 +102,20 @@
     }
   ],
   "nextAction": "Reconcile or regenerate selector evidence so both report.archiveSha256 and dependencyManifest.archiveSha256 equal the pinned 4 November ZIP, preserving manifest hashes and captured dependency evidence. Then rerun pure input validation before any database integration.",
-  "harnessConfigRestored": true
+  "harnessConfigRestored": true,
+  "rootCause": {
+    "file": "database/shadow/run_selector_parity.py",
+    "bug": "finish_capture was passed historical constant PIN (2026-11-02 SHA 046881...) instead of source['archiveSha256'] for fresh source mode.",
+    "evidence": "Selector report.archiveSha256 was the pinned 4 Nov SHA; dependency manifest.archiveSha256 retained old constant. Its own checksum was internally valid, so guards rejected mismatch.",
+    "correction": "Pass verified source['archiveSha256'] to finish_capture and assert manifest archive SHA equals selector report archive SHA.",
+    "rerun": "Rerun selector-only parity on same pinned 4 Nov source; do not adjust manifest artifact offline."
+  },
+  "selectorRerun": {
+    "attempt": 12,
+    "stageRequestPath": "database/shadow/stage-request.json",
+    "priorPinnedArchiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+    "sourceUrlSecretNameOnly": "ONTAP_SAVED_FEED_URL",
+    "neonMutation": false,
+    "expectedRunDuration": "about 30 minutes based on prior replay"
+  }
 }

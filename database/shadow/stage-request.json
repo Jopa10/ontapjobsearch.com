@@ -7,8 +7,8 @@
     100
   ],
   "maximumDatabaseBytes": 838860800,
-  "purpose": "Owner-pinned 4 November saved-archive selector parity only; no supplier feed fetch, Neon import, cleanup, or raw storage rerun",
+  "purpose": "Fix captured selector provenance: dependency manifest archive SHA must follow the exact verified 4 November replay source; no Neon write.",
   "sourceMode": "owner_pinned_saved_archive",
-  "attempt": 11,
+  "attempt": 12,
   "mode": "fresh_selection_parity"
 }
