@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "awaiting_owner_fingerprint_for_4_november_saved_feed",
+  "status": "source_fingerprint_pinned_waiting_for_selector_request",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -18,14 +18,14 @@
     "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
     "region": "eu-west-2",
     "key": "jobg8/raw/2026-11-04.zip",
-    "bytes": null,
-    "etag": null,
-    "lastModified": null,
-    "sha256": null,
+    "bytes": 35216405,
+    "etag": "\"0a16efd3ba33a6018e721d5ef52605a5-5\"",
+    "lastModified": "2026-11-04T07:59:10+00:00",
+    "sha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
     "sourceRows": null,
     "cleanRecords": null,
     "conflictingIdsHeld": null,
-    "fingerprintStatus": "owner CloudShell verification required before workflow execution"
+    "fingerprintStatus": "owner CloudShell head-object and downloaded-file SHA-256 verified"
   },
   "neonBaseline": {
     "deploymentId": "dpl_2cc1SchxPFFGdQ8xUhE1oGm2hgJo",
@@ -45,9 +45,11 @@
     "doNotRepeatSizingProbesOldSelectorReplaysArchiveUploadsOrTurnoverComparisons": true
   },
   "nextActions": [
-    "Read-only identify the exact 2026-11-04 S3 object and compute its SHA-256; ETag is not a SHA-256 checksum.",
-    "Update the prepared source request and test runner to this exact owner-verified fingerprint.",
-    "Commit the checkpoint and validated request before triggering the isolated selector-parity workflow.",
-    "Review selector evidence and combined storage headroom before any separate Neon integration."
-  ]
+    "Adapt the existing fresh-source runner and workflow to accept this exact 4 November checkpoint without assuming 3 November row counts.",
+    "Run focused local request-validation tests and commit all code/docs/checkpoints before the selector workflow.",
+    "Generate a fresh short-lived URL for jobg8/raw/2026-11-04.zip, update the existing ONTAP_SAVED_FEED_URL secret, then trigger the selector-only workflow by updating stage-request.json.",
+    "After selector parity, compute combined storage headroom before any separate Preview Neon integration."
+  ],
+  "updatedAtUtc": "2026-11-04T14:02:00Z",
+  "branchHeadBeforeSourcePin": "4dfd6bfc0e1d097acdf4c56f6fa4f6394b03eb6e"
 }
