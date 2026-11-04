@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "workflow_queued_after_url_normalization",
+  "status": "blocked_s3_invalid_access_key_id",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -44,6 +44,7 @@
     "activeWorkflowAtPreparation": false
   },
   "recovery": [
+    "Resolve the invalid S3 signing identity in owner CloudShell and validate a fresh short-lived URL before updating the repository secret or retrying.",
     "Locate the GitHub Actions run for this request commit and continue polling that run; do not start a duplicate.",
     "If the run fails, inspect its job logs and uploaded artifacts, then resume from that evidence.",
     "Keep the pinned archive checksum and do not fetch a newer supplier feed.",
@@ -54,9 +55,9 @@
   "runOutcome": {
     "status": "completed",
     "conclusion": "failure",
-    "attempt": 4,
+    "attempt": 1,
     "failedStep": "Fetch the owner-pinned 3 November saved source",
-    "reason": "curl rejected the configured secret as a malformed URL before downloading the archive.",
+    "reason": "S3 returned HTTP 403 with error code InvalidAccessKeyId after URL whitespace normalization.",
     "archiveDownloaded": false,
     "selectorParityStarted": false,
     "neonChanged": false,
