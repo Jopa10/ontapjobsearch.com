@@ -1,12 +1,12 @@
 {
   "checkpointVersion": 1,
-  "status": "prepared_for_retry_with_safe_hash_diagnostic",
+  "status": "workflow_queued_for_archive_fingerprint_diagnostic",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "preparedFromHead": "9653c07cc689ec881a01a02fb3d9c8780c81a4ae",
   "pullRequest": 336,
-  "remoteRunId": 41835639712,
+  "remoteRunId": 41836073962,
   "request": {
     "path": "database/shadow/stage-request.json",
     "archiveDate": "2026-11-03",
@@ -50,8 +50,8 @@
     "Keep the pinned archive checksum and do not fetch a newer supplier feed.",
     "Do not apply a Neon migration or import this feed until parity evidence and combined storage headroom are reviewed."
   ],
-  "triggerCommit": "e84b8f5688f865e30c19917c108b6373cf3944ba",
-  "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/41835639712",
+  "triggerCommit": "5528849c97c7476c50641ccd2814a2999c8de455",
+  "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/41836073962",
   "runOutcome": {
     "status": "completed",
     "conclusion": "failure",
