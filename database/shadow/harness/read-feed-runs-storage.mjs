@@ -39,7 +39,7 @@ async function main(){
              octet_length(diagnostics->'compact_selection'->'envelope'->>'payload') AS compact_selection_base64_bytes,
              octet_length(diagnostics->'compact_display'->>'payload') AS compact_display_base64_bytes,
              ARRAY(SELECT jsonb_object_keys(diagnostics)) AS diagnostic_keys
-      FROM ontap_shadow.feed_runs ORDER BY feed_date,created_at,id
+      FROM ontap_shadow.feed_runs ORDER BY feed_date,started_at,id
     `)).rows;
     assert.equal(runs.length,5,'Feed run baseline changed during diagnostic');
     const publishedJobs=Number((await client.query(`SELECT count(*)::int AS n FROM ontap_shadow.jobs WHERE publication_status<>'withheld'`)).rows[0].n);
