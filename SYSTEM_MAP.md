@@ -12,6 +12,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 4 November 2026 — **Fresh raw headroom check prepared for the verified 4 November feed:** the saved-archive turnover tool now supports only the exact pinned 3/4 November checksums and reports the new-date raw projection alongside the prior calibrated seven-snapshot allocation. It is read-only and does not authorize import. The pinned Neon baseline is 407,363,584 bytes. New storage result pending owner CloudShell read-only comparison.
+
 - 4 November 2026 — **Fresh saved-feed selector replay passed:** the owner-pinned `2026-11-04` archive (SHA-256 `d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06`) was verified, 43,547 clean records were replayed through unchanged selectors, and plain/observed outputs matched across 239 scopes with zero unknown decisions. Two conflicting IDs were quarantined. No Neon or production changes. Storage admission is still pending; report: `database/shadow/selection-verification-2026-11-04.json`.
 
 - 4 November 2026 — **Fresh selector source switched to the verified 4 November saved archive:** owner CloudShell confirmed `jobg8/raw/2026-11-04.zip` (35,216,405 bytes; SHA-256 `d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06`). The dated runner and workflow are being adapted to avoid assuming 3 November row counts. No selector replay, Neon mutation, production change or source fetch occurred in this checkpoint. Resume: `database/shadow/fresh-selector-source-checkpoint-2026-11-04.json`.
