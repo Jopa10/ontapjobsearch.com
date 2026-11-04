@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "guarded-runner-selected-after-build-command-override-was-ignored",
+  "status": "preview-compact-integration-passed",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "parentCommit": "12e744592a8af7c65fc559e5faf0371ae45ed59a",
@@ -121,7 +121,7 @@
       "productionChanged": false
     }
   ],
-  "nextAction": "Temporarily set harness vercel.json buildCommand to node build-compact-integration.mjs, then deploy. The runner first validates selector/source artifacts offline and enforces an exact read-only database count/size preflight; if any sample-verifier write changed the baseline, it will fail closed before importing the full feed.",
+  "nextAction": "Keep jobs withheld. Review integration receipt, then proceed only with the separate schema/import gating plan. No purge is demonstrated by this run; due-before-purge was 0 for the new feed.",
   "harnessConfigRestored": true,
   "rootCause": {
     "file": "database/shadow/run_selector_parity.py",
@@ -148,5 +148,87 @@
     "failedStep": "Fetch the owner-pinned dated saved source",
     "cause": "ONTAP_SAVED_FEED_URL expired before the repeat replay; selector and Neon were not started.",
     "neonChanged": false
+  },
+  "result": {
+    "deploymentId": "dpl_EGXjkTRJwM5c7RcuWRuZ6Ps5h13H",
+    "deploymentUrl": "https://ontapjobsearch-qmqqeg2s6-ontap1.vercel.app",
+    "deploymentState": "READY",
+    "commit": "c20abf41f651b9ce611f31d854b807bdcf7b0966",
+    "feedDate": "2026-11-04",
+    "archiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+    "selectorRun": 41848156150,
+    "selectedUniqueJobs": 4962,
+    "scopes": 239,
+    "outputSha256": "3a3d84c827252b0c68b48f1a0351e633fe2f44ec01aa5e0bfa4861e667b99734",
+    "selectorProvenanceRepair": {
+      "reason": "Historical PIN constant was used in dependency manifest instead of exact source SHA.",
+      "oldArchiveSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+      "correctedArchiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+      "originalManifestSha256": "565171c207571feddb5f776376de935759ae10269fd402cfe4759ca186070f7a",
+      "correctedManifestSha256": "ce1207770ea0708bc12385f64f1c7d1001094fd462a27fa2e4dd985037d924f9",
+      "sourceRequestFingerprintVerified": true,
+      "sourceRowHashesMatched": true,
+      "outputParityUnchanged": true
+    },
+    "phases": [
+      {
+        "phase": "raw-accepted",
+        "at": "2026-11-04T17:00:29.129Z"
+      },
+      {
+        "phase": "selection-verified",
+        "at": "2026-11-04T17:00:51.197Z"
+      },
+      {
+        "phase": "display-verified",
+        "at": "2026-11-04T17:01:11.841Z"
+      }
+    ],
+    "preflight": {
+      "databaseBytes": 407732224,
+      "adverts": 43796,
+      "payloads": 43796,
+      "jobs": 43796,
+      "feedRuns": 4,
+      "publishedJobs": 0,
+      "schema002Verified": true,
+      "readOnly": true
+    },
+    "after": {
+      "status": "passed",
+      "runId": "4f546e2a-319a-5311-a263-cd7b3049aba4",
+      "completeReplayVerified": true,
+      "counts": {
+        "suppliers": 1,
+        "jobs": 47902,
+        "supplierAdverts": 47902,
+        "feedRuns": 5,
+        "advertAppearances": 43796,
+        "selectionDecisions": 424841
+      },
+      "databaseBytes": 485810176,
+      "schemaBytes": 477528064,
+      "reserveBytes": 67108864,
+      "ceilingBytes": 838860800,
+      "remainingAboveReserveBytes": 285941760
+    },
+    "retention": {
+      "excludedCount": 38291,
+      "purgedCount": 0,
+      "dueBeforePurgeRows": 0,
+      "dueBeforePurgeBytes": 0,
+      "payloadRows": 47902,
+      "payloadBytes": 111484360,
+      "asOfDate": "2026-11-04",
+      "reviewDays": 3
+    },
+    "safety": {
+      "jobsWithheld": true,
+      "publishedJobs": 0,
+      "expiryEnabled": false,
+      "purgeAttempted": false,
+      "productionChanged": false,
+      "emailSent": false
+    }
   }
 }
