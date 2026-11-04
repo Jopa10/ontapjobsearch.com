@@ -10,6 +10,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 4 November 2026 — The 4 November selector replay passed; the next check compares that exact saved feed with the unchanged Neon source to update storage headroom. No Neon import has run.
+
 - 4 November 2026 — The saved 4 November feed passed selector replay: 43,547 clean adverts, 239 scopes, zero unknown decisions. No Neon import or production change; storage headroom must pass before integration.
 
 - 4 November 2026 — The 3 November archive was overwritten before its pinned copy could be replayed. The 4 November saved archive is now pinned by its downloaded SHA-256; selector replay is next, with no Neon or production changes yet.
