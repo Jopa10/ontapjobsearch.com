@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "attempt_10_failed_before_selector_replay_retry_same_pinned_source",
+  "status": "pre_run_checkpoint_saved_ready_to_retry_same_source",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -45,10 +45,9 @@
     "doNotRepeatSizingProbesOldSelectorReplaysArchiveUploadsOrTurnoverComparisons": true
   },
   "nextActions": [
-    "Fix the workflow date path to use a validated GITHUB_OUTPUT value and run local YAML/shell syntax checks.",
-    "Save the retry checkpoint before changing stage-request.json.",
-    "Rerun attempt 11 using the same 4 November SHA-256, size and ETag; do not generate a different source or repeat archive fingerprinting.",
-    "Review selector evidence and combined storage headroom before any separate Neon integration."
+    "Commit stage-request.json attempt 11 for the same 2026-11-04 archive; this starts selector-only parity.",
+    "Poll the run and preserve the selector report and decision evidence.",
+    "No Neon changes until selector evidence and combined storage headroom are reviewed."
   ],
   "updatedAtUtc": "2026-11-04T14:02:00Z",
   "branchHeadBeforeSourcePin": "4dfd6bfc0e1d097acdf4c56f6fa4f6394b03eb6e",
@@ -102,5 +101,18 @@
       "artifacts": [],
       "recovery": "Replace the nested heredoc with the already validated archiveDate output from the request-resolution step, then checkpoint and retry the same pinned source."
     }
-  ]
+  ],
+  "retryPlan": {
+    "attempt": 11,
+    "workflowFixCommit": "4311d16b39f73a9edf62d646f8f8a2775781b6ee",
+    "localChecksPassed": [
+      "YAML parsed",
+      "validated archiveDate output produced",
+      "no nested date heredoc remains"
+    ],
+    "secretNameOnly": "ONTAP_SAVED_FEED_URL",
+    "ownerConfirmedSecretUpdated": true,
+    "sourcePinUnchanged": true,
+    "expectedDatabaseWrites": false
+  }
 }
