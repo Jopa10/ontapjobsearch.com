@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "pre_run_checkpoint_saved_ready_to_retry_same_source",
+  "status": "november_4_selector_parity_passed_storage_admission_pending",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -45,9 +45,10 @@
     "doNotRepeatSizingProbesOldSelectorReplaysArchiveUploadsOrTurnoverComparisons": true
   },
   "nextActions": [
-    "Commit stage-request.json attempt 11 for the same 2026-11-04 archive; this starts selector-only parity.",
-    "Poll the run and preserve the selector report and decision evidence.",
-    "No Neon changes until selector evidence and combined storage headroom are reviewed."
+    "Calculate fresh-feed raw turnover and combined raw/selection/display storage headroom against the unchanged Neon baseline of 407363584 bytes, preserving the 64 MiB reserve.",
+    "Read-only verify current Neon table and payload counts before considering the separate Preview-only migration 002 and compact integration.",
+    "Only proceed with Neon writes if the updated combined forecast fits the existing 800 MiB cap; keep jobs withheld and expiry disabled.",
+    "Do not force the real three-day purge: this source date is 2026-11-04 and no rows have aged through the policy window."
   ],
   "updatedAtUtc": "2026-11-04T14:02:00Z",
   "branchHeadBeforeSourcePin": "4dfd6bfc0e1d097acdf4c56f6fa4f6394b03eb6e",
@@ -114,5 +115,88 @@
     "ownerConfirmedSecretUpdated": true,
     "sourcePinUnchanged": true,
     "expectedDatabaseWrites": false
-  }
+  },
+  "selectorRun": {
+    "attempt": 11,
+    "runId": 41848156150,
+    "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/41848156150",
+    "triggerCommit": "810d3cbd3b4736933564b1294151bc8b48677eca",
+    "conclusion": "success",
+    "startedAt": "2026-11-04T14:30:52.233954+00:00",
+    "finishedAt": "2026-11-04T15:02:30.092755+00:00",
+    "selectorRevision": "810d3cbd3b4736933564b1294151bc8b48677eca",
+    "sourceRequestSha256": "ee019e4df2c2a58935922896f6d72e0911a78e6928c6a18f278e5bca70d97b9f",
+    "dependencyManifestSha256": "565171c207571feddb5f776376de935759ae10269fd402cfe4759ca186070f7a",
+    "outputSha256": "3a3d84c827252b0c68b48f1a0351e633fe2f44ec01aa5e0bfa4861e667b99734",
+    "sourceRows": 43551,
+    "uniqueSupplierIds": 43549,
+    "exactRepeatRows": 0,
+    "conflictingIdsHeld": [
+      "1401785815",
+      "1401786160"
+    ],
+    "cleanRecords": 43547,
+    "selectedUniqueJobs": 4962,
+    "scopes": 239,
+    "unknownDecisions": 0,
+    "exactFileOutputParity": true,
+    "runtimeCaptured": true,
+    "sourceUnchanged": true,
+    "outcomes": {
+      "admin_service": {
+        "exclude": 40157,
+        "include": 3222,
+        "review": 168
+      },
+      "support_worker": {
+        "exclude": 43025,
+        "include": 359,
+        "review": 163
+      },
+      "customer_sales": {
+        "exclude": 43128,
+        "include": 419
+      },
+      "finance_accounts": {
+        "exclude": 42539,
+        "include": 1008
+      },
+      "hr_recruitment": {
+        "exclude": 43410,
+        "include": 137
+      },
+      "marketing": {
+        "exclude": 43142,
+        "include": 405
+      },
+      "legal_assistant_paralegal": {
+        "exclude": 43290,
+        "include": 257
+      },
+      "customer_service_contact_centre": {
+        "exclude": 43450,
+        "include": 86,
+        "review": 11
+      }
+    },
+    "neonChanged": false,
+    "productionChanged": false
+  },
+  "resultReport": "database/shadow/selection-verification-2026-11-04.json",
+  "artifacts": [
+    {
+      "name": "neon-shadow-selection-parity",
+      "id": 13335378178,
+      "sizeBytes": 4390288,
+      "expiresAt": "2026-11-11T15:02:36Z",
+      "sha256": "b38ee0dd2b84b1f2a333269bdfdbb729636cd54315c4ddce4cdf827b35ecce29"
+    },
+    {
+      "name": "neon-shadow-selector-recovery",
+      "id": 13336218119,
+      "sizeBytes": 11227227,
+      "expiresAt": "2026-11-06T15:02:38Z",
+      "sha256": "29a734db8b3fedb3c723545ce0fa8cd479e465a46a68ba522172792992f5bf24"
+    }
+  ]
 }
