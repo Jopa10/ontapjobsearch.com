@@ -8,7 +8,7 @@ import {gunzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
 import pg from 'pg';
 import {contentHash} from './importer.mjs';
-import {verifyCompactIntegration} from './compact-integration.mjs';
+import {validateCompactIntegration,verifyCompactIntegration} from './compact-integration.mjs';
 
 const PIN='d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06';
 const OUTPUTS='3a3d84c827252b0c68b48f1a0351e633fe2f44ec01aa5e0bfa4861e667b99734';
@@ -42,7 +42,7 @@ function extractZip(zipPath,dest,kind){
     'src,dst,kind=sys.argv[1:]',
     'wanted={',
     "  'raw':['raw-stage-100.json.gz','raw-stage-100.json.gz.manifest.json'],",
-    "  'parity':['report.json','selection.json.gz'],",
+    "  'parity':['report.json','selection.json.gz','dependency-manifest.json','source-request.json'],",
     "  'recovery':['plain/outputs.json','observed/outputs.json']",
     '}[kind]',
     'out=pathlib.Path(dst); out.mkdir(parents=True,exist_ok=True)',
@@ -89,6 +89,10 @@ async function main(){
   const parity=JSON.parse(await fs.readFile(path.join(parityDir,'report.json'),'utf8'));
   const outputs=JSON.parse(await fs.readFile(path.join(recoveryDir,'observed__outputs.json'),'utf8'));
   const plain=JSON.parse(await fs.readFile(path.join(recoveryDir,'plain__outputs.json'),'utf8'));
+  const standaloneManifest=JSON.parse(await fs.readFile(path.join(parityDir,'dependency-manifest.json'),'utf8'));
+  const sourceRequestBytes=await fs.readFile(path.join(parityDir,'source-request.json'));
+  const sourceRequest=JSON.parse(sourceRequestBytes.toString('utf8'));
+  let selectorProvenanceRepair=null;
   assert.deepEqual(plain,outputs,'Plain and observed output files differ');
   assert.equal(rawPacket.archiveSha256,PIN);assert.equal(rawPacket.archiveDate,'2026-11-04');
   assert.equal(rawPacket.observedOn,'2026-11-04');assert.equal(rawPacket.sourceRevision,RULES);assert.equal(rawPacket.percentage,100);
@@ -97,8 +101,23 @@ async function main(){
   assert.equal(parity.archiveSha256,PIN);assert.equal(parity.rulesRevision,RULES);assert.equal(parity.cleanRecords,43547);
   assert.equal(parity.exactFileOutputParity,true);assert.equal(parity.unknowns,0);assert.equal(parity.outputsSha256,OUTPUTS);
   assert.equal(selector.report.archiveSha256,PIN);assert.equal(selector.report.rulesRevision,RULES);assert.equal(selector.report.outputsSha256,OUTPUTS);
+  assert.deepEqual(standaloneManifest,selector.report.dependencyManifest,'Standalone and embedded selector manifests differ');
+  assert.equal(sha(sourceRequestBytes),selector.report.sourceRequestSha256,'Saved selector source request fingerprint differs');
+  assert.equal(sourceRequest.date,'2026-11-04');assert.equal(sourceRequest.sourceChecksumPrerequisiteResolved,true);
+  assert.equal(sourceRequest.pinnedSavedSource?.archiveChecksums?.current,PIN,'Selector request does not pin this archive');
+  const capturedManifest=selector.report.dependencyManifest;
+  assert.equal(contentHash(capturedManifest),selector.report.dependencyManifestSha256,'Original selector manifest checksum is invalid');
+  if(capturedManifest.archiveSha256!==PIN){
+    assert.equal(capturedManifest.archiveSha256,sourceRequest.pinnedSavedSource.originalNeonSourceSha256,'Unexpected stale selector manifest archive value');
+    capturedManifest.archiveSha256=PIN;
+    selector.report.dependencyManifestSha256=contentHash(capturedManifest);
+    selectorProvenanceRepair={kind:'verified-source-archive-hash-field-correction',oldArchiveSha256:sourceRequest.pinnedSavedSource.originalNeonSourceSha256,newArchiveSha256:PIN,originalDependencyManifestSha256:'565171c207571feddb5f776376de935759ae10269fd402cfe4759ca186070f7a',correctedDependencyManifestSha256:selector.report.dependencyManifestSha256,selectorRun:41848156150,reason:'run_selector_parity.py passed historical PIN instead of source.archiveSha256 to finish_capture; original saved request and archive hash guard independently bind the replay to the pinned 2026-11-04 ZIP.'};
+    console.log('ONTAP_SELECTOR_PROVENANCE_REPAIR '+JSON.stringify(selectorProvenanceRepair));
+  }
   assert.equal(selector.sourceHashes.length,43547);assert.equal(selector.decisions.length,348376);
   assert.equal(contentHash(outputs),OUTPUTS,'Saved output checksum differs');
+  validateCompactIntegration({raw:rawPacket,selection:selector,outputs});
+  console.log('ONTAP_INTEGRATION_INPUT_VALIDATION passed before database connection');
   const u=new URL(process.env.ONTAP_SHADOW_DATABASE_URL);
   assert.ok(u.hostname.endsWith('.neon.tech'),'Expected Neon connection');
   assert.ok(['require','verify-full'].includes(u.searchParams.get('sslmode')),'TLS required');
@@ -121,8 +140,9 @@ async function main(){
     assert.equal(result.expiryEnabled,false);
     assert.equal(result.productionChanged,false);
     await fs.mkdir('dist',{recursive:true});
-    const receipt={status:'passed',feedDate:'2026-11-04',archiveSha256:PIN,selectorRun:41848156150,scopes:239,selectedUniqueJobs:parity.selectedUniqueJobs,outputSha256:OUTPUTS,artifactZipSha256:EXPECTED_ZIP_SHA,preflight,result,importAttempted:true,purgeAttempted:false,productionChanged:false,jobsWithheld:true};
+    const receipt={status:'passed',feedDate:'2026-11-04',archiveSha256:PIN,selectorRun:41848156150,scopes:239,selectedUniqueJobs:parity.selectedUniqueJobs,outputSha256:OUTPUTS,artifactZipSha256:EXPECTED_ZIP_SHA,selectorProvenanceRepair,preflight,result,importAttempted:true,purgeAttempted:false,productionChanged:false,jobsWithheld:true};
     await fs.copyFile(checkpoints,path.join('dist','phase-checkpoints.jsonl'));
+    if(selectorProvenanceRepair)await fs.writeFile(path.join('dist','selector-provenance-repair.json'),JSON.stringify(selectorProvenanceRepair,null,2)+'\\n');
     await fs.writeFile(path.join('dist','integration-result.json'),JSON.stringify(receipt,null,2)+'\n');
     await fs.writeFile(path.join('dist','index.html'),'<!doctype html><meta name="robots" content="noindex,nofollow"><title>Ontap integration receipt</title><p>Preview-only shadow integration receipt.</p>');
     console.log('ONTAP_INTEGRATION_RESULT '+JSON.stringify(receipt));

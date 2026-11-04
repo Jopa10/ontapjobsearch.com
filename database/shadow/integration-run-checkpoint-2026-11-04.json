@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "pre-run-checkpoint-saved-for-selector-provenance-replay",
+  "status": "guarded-input-provenance-repair-prepared",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "parentCommit": "12e744592a8af7c65fc559e5faf0371ae45ed59a",
@@ -63,7 +63,19 @@
   "recovery": {
     "script": "database/shadow/harness/build-compact-integration.mjs",
     "durablePhases": "Vercel build logs beginning ONTAP_INTEGRATION_PHASE plus dist/phase-checkpoints.jsonl",
-    "sameInputRetry": "Use same pinned 4 November source and same deterministic run ID; inspect phase logs before any retry."
+    "sameInputRetry": "Use same pinned 4 November source and same deterministic run ID; inspect phase logs before any retry.",
+    "lastKnownGoodSelectorRun": 41848156150,
+    "lastKnownGoodSelectorArtifacts": {
+      "parityArtifactId": 13335378178,
+      "paritySha256": "b38ee0dd2b84b1f2a333269bdfdbb729636cd54315c4ddce4cdf827b35ecce29",
+      "recoveryArtifactId": 13336218119,
+      "recoverySha256": "29a734db8b3fedb3c723545ce0fa8cd479e465a46a68ba522172792992f5bf24"
+    },
+    "lastKnownGoodRawStagePackage": {
+      "runId": 41869839310,
+      "artifactId": 13344033321,
+      "sha256": "cb31bf448e0ef8187befb13586fad826fb6e7c8205fecea8da18bb5de30a82bf"
+    }
   },
   "failedPreviewAttempt": {
     "deploymentId": "dpl_CQGjbrYiDvBzMxTAQF8KM5w5fyLu",
@@ -108,7 +120,10 @@
     "bug": "finish_capture was passed historical constant PIN (2026-11-02 SHA 046881...) instead of source['archiveSha256'] for fresh source mode.",
     "evidence": "Selector report.archiveSha256 was the pinned 4 Nov SHA; dependency manifest.archiveSha256 retained old constant. Its own checksum was internally valid, so guards rejected mismatch.",
     "correction": "Pass verified source['archiveSha256'] to finish_capture and assert manifest archive SHA equals selector report archive SHA.",
-    "rerun": "Rerun selector-only parity on same pinned 4 Nov source; do not adjust manifest artifact offline."
+    "rerun": "Rerun selector-only parity on same pinned 4 Nov source; do not adjust manifest artifact offline.",
+    "fixAppliedAtIntegrationBoundary": "Before Neon connection, runner now verifies standalone and embedded manifest equality, source request file SHA and archive pin, validates original manifest hash, changes only manifest.archiveSha256 from its recorded historical Neon baseline to exact pinned archive, recomputes manifest hash, then runs pure validateCompactIntegration.",
+    "selectorReplayRequired": false,
+    "selectorReplayRationale": "The successful selector run itself validated and replayed the exact owner-pinned ZIP; only finish_capture provenance argument was wrong. Its report sourceRequestSha256 binds the original owner checkpoint, and raw-stage source record hashes are compared with selector source hashes before import."
   },
   "selectorRerun": {
     "attempt": 12,
@@ -117,5 +132,13 @@
     "sourceUrlSecretNameOnly": "ONTAP_SAVED_FEED_URL",
     "neonMutation": false,
     "expectedRunDuration": "about 30 minutes based on prior replay"
+  },
+  "failedSelectorRerun": {
+    "runId": 41871870815,
+    "commit": "1e6ec3841fee45da199a04b28934762f0bf769ed",
+    "outcome": "failed-before-selector-replay",
+    "failedStep": "Fetch the owner-pinned dated saved source",
+    "cause": "ONTAP_SAVED_FEED_URL expired before the repeat replay; selector and Neon were not started.",
+    "neonChanged": false
   }
 }
