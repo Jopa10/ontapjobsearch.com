@@ -19,12 +19,13 @@
   "changes": [
     "Added exclude_review_started_on schema marker and additive migration 002.",
     "Added compact exclusion classification and transactional payload retention to the compact integration wrapper.",
-    "Added local coverage for review window timing, payload purge, retained identity/decision evidence, and changed-content restart.",
+    "Added a read-only baseline report for fully excluded, other decided, and incomplete-selector payloads.",
+    "Added local coverage for review timing, payload purge, retained identity/decision evidence, changed-content restart, and baseline classification.",
     "Updated NEXT_INTEGRATION_TEST.md, README.md, SYSTEM_MAP.md and SYSTEM_OVERVIEW.md."
   ],
   "localVerification": {
-    "focusedPostgresTests": 4,
-    "fullHarnessTests": 34,
+    "focusedPostgresTests": 5,
+    "fullHarnessTests": 35,
     "fullHarnessStatus": "passed",
     "fixtureType": "synthetic local PostgreSQL",
     "remoteNeonUsed": false

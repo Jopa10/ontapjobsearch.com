@@ -4,7 +4,7 @@ import {verifyCompactIntegration} from './compact-integration.mjs';
 import {contentHash,stableId} from './importer.mjs';
 import {FAMILIES} from './selection-history.mjs';
 import {readCompactDisplay} from './display-snapshot.mjs';
-import {classifyFullyExcludedRefs} from './exclude-retention.mjs';
+import {classifyFullyExcludedRefs,readExcludePayloadBreakdown} from './exclude-retention.mjs';
 const schema=await fs.readFile(new URL('../001_initial.sql',import.meta.url),'utf8');
 function packet(day,ids,title='Admin'){
  const records=ids.map(ref=>({'/Job/DisplayReference':ref,'/Job/Position':title,'/Job/ApplicationURL':'https://example.org/'+ref}));
@@ -86,5 +86,25 @@ test('fully excluded payload stays reviewable for three days, then purges while 
  assert.equal(day3.excludeRetention.purgedCount,0);
  const renewed=(await db.query("SELECT raw_payload IS NOT NULL AS retained,exclude_review_started_on::text FROM ontap_shadow.supplier_adverts WHERE supplier_job_id='1'")).rows[0];
  assert.equal(renewed.retained,true);assert.equal(renewed.exclude_review_started_on,'2026-11-06');
+ }finally{await db.close();}
+});
+test('read-only baseline separates fully excluded payloads from other advert payloads',async()=>{
+ const db=new PGlite();try{await db.exec(schema);
+ const supplier=(await db.query("INSERT INTO ontap_shadow.suppliers(code,name) VALUES('jobg8','JobG8') RETURNING id")).rows[0].id;
+ const runId=stableId('baseline-run');
+ await db.query(`INSERT INTO ontap_shadow.feed_runs(id,supplier_id,feed_key,feed_date,source_checksum,status,completed_at,received_count,diagnostics)
+  VALUES($1,$2,'baseline','2026-11-03',$3,'accepted',now(),3,'{"selection_parity":{}}')`,[runId,supplier,'a'.repeat(64)]);
+ const families=['admin_service','support_worker','customer_sales','finance_accounts','hr_recruitment','marketing','legal_assistant_paralegal','customer_service_contact_centre'];
+ for(let i=1;i<=3;i++){
+  const ref=String(i),jobId=stableId('baseline-job:'+ref),advertId=stableId('baseline-advert:'+ref);
+  await db.query(`INSERT INTO ontap_shadow.jobs(id,public_id,title,first_seen,last_seen,publication_status) VALUES($1,$2,'Admin','2026-11-03','2026-11-03','withheld')`,[jobId,ref]);
+  await db.query(`INSERT INTO ontap_shadow.supplier_adverts(id,supplier_id,supplier_job_id,job_id,title,apply_url,raw_payload,content_hash,first_seen,last_seen)
+    VALUES($1,$2,$3,$4,'Admin',$5,$6,$7,'2026-11-03','2026-11-03')`,[advertId,supplier,ref,jobId,'https://example.org/'+ref,JSON.stringify({description:'x'.repeat(i*100)}),contentHash({ref,i})]);
+  for(let j=0;j<(i===3?4:families.length);j++)await db.query(`INSERT INTO ontap_shadow.selection_decisions(id,advert_id,feed_run_id,scope,decision,reason,rules_revision)
+    VALUES($1,$2,$3,$4,$5,'test','${'b'.repeat(40)}')`,[stableId(`baseline:${ref}:${families[j]}`),advertId,runId,'production:'+families[j],(i===1||j<7)?'exclude':'review']);
+ }
+ const result=await readExcludePayloadBreakdown(db);
+ assert.equal(result.selector_feed_date,'2026-11-03');assert.equal(result.fully_excluded_payload_rows,'1');assert.ok(Number(result.fully_excluded_payload_bytes)>0);
+ assert.equal(result.other_decided_payload_rows,'1');assert.equal(result.without_complete_selector_payload_rows,'1');
  }finally{await db.close();}
 });

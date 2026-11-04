@@ -41,7 +41,7 @@ Caller must persist these events durably. If a later phase fails, inspect the
 actual saved diagnostics and rerun the same pinned input; do not start another
 feed. A complete import is not globally rolled back by this wrapper.
 
-Four focused local PostgreSQL checks cover:
+Five focused local PostgreSQL checks cover:
 
 1. Complete input/output comparisons across initial/update/gap/return
    behavior (three synthetic feed dates), stable public/job IDs, exact replay,
@@ -50,6 +50,8 @@ Four focused local PostgreSQL checks cover:
 3. Display failure after committed raw/selection resumes without duplicate jobs.
 4. Fully excluded payload remains through day three and is purged after it,
    while its compact decisions and stable identity remain.
+5. The read-only Neon baseline query separates fully excluded payloads from
+   other or incomplete selector evidence.
 
 These are synthetic local fixtures, not production selector/provenance evidence.
 Absence does not imply expiry: the missing advert's prior last-seen/availability
@@ -92,22 +94,25 @@ the review date artificially to force a purge in Neon.
    output arrays and dependency manifests immediately. Confirm actual source,
    register, geography, configuration, environment and runtime capture, workbook
    hash/time, exact output parity and zero unknowns. No selector run may be skipped.
-7. Apply `002_exclude_review_window.sql` only to the already verified Preview
-   test database, after confirming the target is `ontap-db-test`; it only adds
-   the review-date column and index. Read-only confirm existing row/payload
-   counts and measure the starting database size. Save a checkpoint before the
-   integration import. Any unavailable starting storage/admission evidence
-   blocks the run.
-8. Perform all input validation and combined raw/selection/display headroom checks
+7. Run the existing Preview-only read-only retention audit before changing the
+   schema. Confirm its Neon project guard, whole-database size, advert payload
+   counts/bytes, and fully-excluded payload counts/bytes from the latest complete
+   selector run. Save the receipt. If the latest selector evidence is absent or
+   the result is over budget, stop and report it.
+8. After the baseline is saved and headroom passes, apply
+   `002_exclude_review_window.sql` only to the verified `ontap-db-test` Preview
+   database; it only adds the review-date column and index. Read-only verify the
+   column, measure the database again, and save a checkpoint before import.
+9. Perform all input validation and combined raw/selection/display headroom checks
    before any deliberate Preview import. The illustrative forecast is not import
    approval or a live allocation check. Keep the 800 MiB ceiling and 64 MiB
    reserve. No cleanup, plan upgrade or production connection.
-9. Prepare the build-only Preview runner with the existing Neon project, TLS and
+10. Prepare the build-only Preview runner with the existing Neon project, TLS and
    Preview guards; call `verifyCompactIntegration` with those exact artifacts.
    The runner has not been installed or started. Save its source commit and run
    ID before execution. Inspect activity before retries and preserve the original
    pinned legacy evidence.
-10. Compare IDs, hashes, outputs and actual allocation after raw/selection/display;
+11. Compare IDs, hashes, outputs and actual allocation after raw/selection/display;
    verify full replay is idempotent. Persist failure-phase diagnostics. Continue
    with existing publisher/city rendering checks using the same snapshot only
    after raw/scoped display integration passes. Raw/family parity does not itself
