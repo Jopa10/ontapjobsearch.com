@@ -47,7 +47,7 @@ async function main(){
     const report={status:'passed',readOnly:true,measuredAtUtc:new Date().toISOString(),databaseBytes,feedRunsRelation:Object.fromEntries(Object.entries(relation).map(([k,v])=>[k,Number(v)])),feedRunRows:runs,publishedJobs,scope:'Read-only size attribution for feed_runs and its compact diagnostic fields; no payload values or IDs read.'};
     await client.query('COMMIT');
     await fs.mkdir('dist',{recursive:true});
-    await fs.writeFile('dist/feed-runs-storage-diagnostic.json',JSON.stringify(report,null,2)+'\\n');
+    await fs.writeFile('dist/feed-runs-storage-diagnostic.json',JSON.stringify(report,null,2)+'\n');
     await fs.writeFile('dist/index.html','<!doctype html><meta name="robots" content="noindex,nofollow"><title>Read-only storage diagnostic</title><p>feed_runs size diagnostic passed; read-only.</p>');
     console.log('ONTAP_FEED_RUNS_STORAGE_DIAGNOSTIC '+JSON.stringify(report));
   }finally{await client.end();}

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "preview-compact-integration-passed",
+  "status": "preview-integration-passed-storage-attribution-complete",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "parentCommit": "12e744592a8af7c65fc559e5faf0371ae45ed59a",
@@ -238,34 +238,58 @@
     "maximumDatabaseBytes": 838860800,
     "reserveBytes": 67108864,
     "headroomAboveReserveBytes": 285941760,
-    "ceilingUsedPercent": 57.91
+    "ceilingUsedPercent": 57.91,
+    "latestReadOnlyBytes": 485834752,
+    "latestReadOnlyAt": "2026-11-04T17:24:00.635Z",
+    "latestHeadroomAboveReserveBytes": 285917184
   },
   "storageRecalibrationFile": "database/shadow/storage-recalibration-2026-11-04.json",
   "storageSensitivity": {
-    "method": "Repeat the observed first-integration net database growth for future complete daily feeds; add the 64 MiB protected reserve; assume no purge credit.",
+    "method": "Latest read-only size check after the integration, then repeat the measured 4 November net growth for future complete daily feeds; add the 64 MiB reserve and assume no purge credit.",
     "oneFurtherFeed": {
-      "projectedDatabaseBytes": 563888128,
-      "requiredWithReserveBytes": 630996992,
-      "remainingToCeilingBytes": 207863808
+      "projectedDatabaseBytes": 563912704,
+      "requiredWithReserveBytes": 631021568,
+      "remainingToCeilingBytes": 207839232
     },
     "twoFurtherFeeds": {
-      "projectedDatabaseBytes": 641966080,
-      "requiredWithReserveBytes": 709074944,
-      "remainingToCeilingBytes": 129785856
+      "projectedDatabaseBytes": 641990656,
+      "requiredWithReserveBytes": 709099520,
+      "remainingToCeilingBytes": 129761280
     },
     "admission": "Illustrative sensitivity only. Feed sizes and changed/new record counts can vary; repeat exact read-only preflight before each import. Not a 90-day or provider-usage certification."
   },
   "documentationUpdated": "database/shadow/NEXT_INTEGRATION_TEST.md reflects the passed Preview integration and next feed gates.",
   "readOnlyFeedRunsDiagnostic": {
-    "status": "pre-run-checkpoint",
-    "commitParent": "40fe5e3c8d3a21868c73f4d464271c0f291fba57",
-    "script": "database/shadow/harness/read-feed-runs-storage.mjs",
-    "queries": [
-      "database and feed_runs relation size",
-      "per-run compact_appearances, compact_selection, compact_display, legacy parity/display snapshot field sizes",
-      "published jobs guard"
-    ],
-    "readOnlyTransaction": true,
-    "fieldValuesRead": false
+    "status": "passed",
+    "deploymentId": "dpl_G8gHwKuhS7EHwqjoSRoAUUFzjUp2",
+    "measuredAtUtc": "2026-11-04T17:24:00.635Z",
+    "readOnly": true,
+    "databaseBytes": 485834752,
+    "publishedJobs": 0,
+    "feedRunsRelation": {
+      "measuredAfterIntegrationBytes": 16367616,
+      "priorMeasuredBytes": 98304,
+      "measuredIncreaseBytes": 16269312,
+      "mainForkBytes": 16384,
+      "indexBytes": 49152,
+      "toastBytes": 16277504,
+      "toastHeapBytes": 16048128,
+      "toastIndexBytes": 196608,
+      "currentRunDiagnosticsBytes": 10942150,
+      "compactSelectionStoredBytes": 4525230,
+      "compactDisplayStoredBytes": 6245928,
+      "compactAppearancesStoredBytes": 170236,
+      "compactPayloadFieldsSumBytes": 10941394,
+      "compactSelectionBase64Bytes": 4524748,
+      "compactDisplayBase64Bytes": 6245680,
+      "otherDiagnosticsBytes": 756,
+      "remainderAfterCurrentRunDiagnosticsBytes": 5425466,
+      "explanation": "The current 4 November run's compact selector history, compact display snapshot and compact appearance manifest account for 10,941,394 bytes of its 10,942,150-byte diagnostics value. This explains most of the feed_runs relation growth. The remaining relation/TOAST allocation is measured but not attributed here to live values versus old TOAST versions/overhead; no vacuum or cleanup was run.",
+      "publishedJobs": 0,
+      "readOnly": true,
+      "diagnosticDeploymentId": "dpl_G8gHwKuhS7EHwqjoSRoAUUFzjUp2",
+      "diagnosticMeasuredAt": "2026-11-04T17:24:00.635Z"
+    },
+    "interpretation": "The 4 November compact_selection, compact_display and compact_appearances stored diagnostic values sum to 10,941,394 bytes. This accounts for most of the 16,367,616-byte relation; remaining 5,425,466 bytes is not further attributed."
   }
 }

@@ -16,7 +16,10 @@
     "maximumDatabaseBytes": 838860800,
     "reserveBytes": 67108864,
     "headroomAboveReserveBytes": 285941760,
-    "ceilingUsedPercent": 57.91
+    "ceilingUsedPercent": 57.91,
+    "latestReadOnlyBytes": 485834752,
+    "latestReadOnlyAt": "2026-11-04T17:24:00.635Z",
+    "latestHeadroomAboveReserveBytes": 285917184
   },
   "postCounts": {
     "jobs": 47902,
@@ -36,16 +39,16 @@
     "purgeCreditIncluded": false
   },
   "sensitivity": {
-    "method": "Repeat the observed first-integration net database growth for future complete daily feeds; add the 64 MiB protected reserve; assume no purge credit.",
+    "method": "Latest read-only size check after the integration, then repeat the measured 4 November net growth for future complete daily feeds; add the 64 MiB reserve and assume no purge credit.",
     "oneFurtherFeed": {
-      "projectedDatabaseBytes": 563888128,
-      "requiredWithReserveBytes": 630996992,
-      "remainingToCeilingBytes": 207863808
+      "projectedDatabaseBytes": 563912704,
+      "requiredWithReserveBytes": 631021568,
+      "remainingToCeilingBytes": 207839232
     },
     "twoFurtherFeeds": {
-      "projectedDatabaseBytes": 641966080,
-      "requiredWithReserveBytes": 709074944,
-      "remainingToCeilingBytes": 129785856
+      "projectedDatabaseBytes": 641990656,
+      "requiredWithReserveBytes": 709099520,
+      "remainingToCeilingBytes": 129761280
     },
     "admission": "Illustrative sensitivity only. Feed sizes and changed/new record counts can vary; repeat exact read-only preflight before each import. Not a 90-day or provider-usage certification."
   },
@@ -63,5 +66,29 @@
     "emailSent": false,
     "purgeAttempted": false
   },
-  "next": "Pin the 5 November archive, then repeat selector validation and read-only preflight before deciding whether to import it into Preview."
+  "next": "Pin the 5 November archive, then repeat selector validation and read-only preflight before deciding whether to import it into Preview.",
+  "feedRunsAttribution": {
+    "measuredAfterIntegrationBytes": 16367616,
+    "priorMeasuredBytes": 98304,
+    "measuredIncreaseBytes": 16269312,
+    "mainForkBytes": 16384,
+    "indexBytes": 49152,
+    "toastBytes": 16277504,
+    "toastHeapBytes": 16048128,
+    "toastIndexBytes": 196608,
+    "currentRunDiagnosticsBytes": 10942150,
+    "compactSelectionStoredBytes": 4525230,
+    "compactDisplayStoredBytes": 6245928,
+    "compactAppearancesStoredBytes": 170236,
+    "compactPayloadFieldsSumBytes": 10941394,
+    "compactSelectionBase64Bytes": 4524748,
+    "compactDisplayBase64Bytes": 6245680,
+    "otherDiagnosticsBytes": 756,
+    "remainderAfterCurrentRunDiagnosticsBytes": 5425466,
+    "explanation": "The current 4 November run's compact selector history, compact display snapshot and compact appearance manifest account for 10,941,394 bytes of its 10,942,150-byte diagnostics value. This explains most of the feed_runs relation growth. The remaining relation/TOAST allocation is measured but not attributed here to live values versus old TOAST versions/overhead; no vacuum or cleanup was run.",
+    "publishedJobs": 0,
+    "readOnly": true,
+    "diagnosticDeploymentId": "dpl_G8gHwKuhS7EHwqjoSRoAUUFzjUp2",
+    "diagnosticMeasuredAt": "2026-11-04T17:24:00.635Z"
+  }
 }
