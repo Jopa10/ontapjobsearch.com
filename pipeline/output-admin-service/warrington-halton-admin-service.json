@@ -850,6 +850,24 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5705605",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "North Cheshire and Mersey NHS Foundation Trust (BCH)",
+    "advertiser_name": "North Cheshire and Mersey NHS Foundation Trust (BCH)",
+    "location": "RUNCORN, WA7 2DA",
+    "region": "Cheshire - Warrington & Halton",
+    "salary": "£25272.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-11-04T09:37:56.111116674",
+    "closing_date": "2026-11-08",
+    "description": "This exciting Band 2 Ward Clerk opportunity will be primarily based on Ward B3 at Halton Hospital, supporting the Community Winter Stepdown Ward from 1 December 2026 to 31 March 2027. The Community Winter Stepdown Ward has been established to support system winter pressures by providing care for medically optimised patients who no longer require acute hospital intervention but require ongoing assessment, rehabilitation, discharge planning, and support to progress through their discharge pathway. The ward plays a key role in reducing hospital length of stay, improving patient flow, and supporting timely discharge back to patients' usual place of residence or onward care settings. Working as an integral member of the ward team, the Ward Clerk will provide comprehensive administrative and clerical support to ensure the smooth day-to-day running of the ward. The post holder will work closely with nurses, therapists, medical staff, discharge coordinators, social workers, community teams and families to facilitate effective communication, maintain accurate records, and support the patient discharge process. This post offers an excellent opportunity for an organised and motivated individual who is passionate about delivering excellent customer service and contributing to high-quality patient care within a rehabilitation and recovery-focused environment. The Ward Clerk is responsible for providing a professional, efficient and confidential administrative and reception service to support the smooth day-to-day running of the ward. Acting as a key point of contact for patients, relatives, visitors and the multidisciplinary team, the post holder maintains accurate patient records, manages ward communications and contributes to delivering a positive patient experience within a busy ward. Provide comprehensive administrative and clerical support to the Community Winter Stepdown Ward. Maintain accurate patient records and documentation using both electronic and paper-based systems in accordance with Trust policies and procedures. Support patient admissions, transfers and discharges by preparing and processing relevant documentation. Act as the first point of contact for telephone enquiries, visitors, relatives and healthcare professionals, ensuring a professional and courteous service at all times. Coordinate communication between ward staff, multidisciplinary teams, community services and external agencies. Arrange and support multidisciplinary team meetings, discharge planning meetings and ward rounds where required. Ensure patient information is accurately entered onto Trust IT systems and databases. Assist with booking transport and coordinating arrangements to support patient discharges. Support discharge coordinators and ward staff in maintaining accurate discharge documentation and tracking patient pathways. Manage incoming and outgoing correspondence, referrals and clinical documentation. Ensure patient notes and records are available, up to date and filed appropriately. Order and maintain ward stationery, supplies and non-clinical stock as required. Assist with data collection, audits and reporting requirements as directed by the ward manager. Monitor and escalate any administrative issues that may impact patient flow or discharge processes. Maintain confidentiality and ensure compliance with information governance requirements at all times. Support the ward in providing a welcoming and professional environment for patients, relatives and visitors. Work collaboratively with the multidisciplinary team to support effective patient flow and timely discharge. Participate in mandatory training, supervision and personal development activities. Work flexibly as part of the ward's seven-day service to meet patient and service requirements. Order ward supplies and equipment through approved Trust ordering systems in line with agreed procedures and budgets. Receive, check, unpack and safely store deliveries, ensuring stock is rotated and stored appropriately. Replenish ward stock, including office supplies, patient information leaflets, PPE, cleaning materials and other ward consumables.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-WA26-175",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-WA26-175",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
+  },
+  {
     "job_id": "nhs-5699955",
     "source": "NHS Jobs",
     "title": "Medical Receptionist",
@@ -865,11 +883,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5911-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5911-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5700008",
@@ -887,11 +901,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2478",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2478",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5695670",
@@ -909,11 +919,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5911-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5911-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5690698",
@@ -931,11 +937,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2115-26-0019",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2115-26-0019",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5675613",
@@ -953,10 +955,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1548-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1548-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

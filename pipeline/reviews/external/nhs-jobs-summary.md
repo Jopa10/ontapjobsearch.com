@@ -2,11 +2,11 @@
 
 review_date: 2026-11-04
 
-- Open Administrative & Clerical rows reviewed: 1967
-- Auto/remembered selected: 357
-- Selected HC Tier A: 188
-- Selected HC Tier B: 169
-- POSS awaiting decision: 1525
+- Open Administrative & Clerical rows reviewed: 1970
+- Auto/remembered selected: 361
+- Selected HC Tier A: 190
+- Selected HC Tier B: 171
+- POSS awaiting decision: 1524
 - Excluded: 0
 - HARD_PASS: 85
 
@@ -2546,18 +2546,6 @@ factual_fingerprint: 10b27ffe3d47923fda8a05112e5f85e1eac4a1d7d15dc160d2d22b50ae5
 
 ---
 action:
-POSS | NHS Jobs | — | Blackheath, SE3 0EN | £30630.00 to £32346.00 | Administrative and Clerical Officer
-source_job_id: 5701999
-title: Administrative and Clerical Officer
-employer: Oxleas NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-1150
-factual_fingerprint: d014c469e4f66beb0c1e5ffe8e0b52bcd91ece68b338756ed3808ae33df8f564
----
-
----
-action:
 POSS | NHS Jobs | Lincolnshire | Sleaford, NG34 7HD | Negotiable | Dispenser
 source_job_id: 5702265
 title: Dispenser
@@ -4293,7 +4281,7 @@ employer: Whitehall Surgery
 region: Yorkshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4035-26-0005
-factual_fingerprint: 2d12cde51682dc95c6b319f42f6219f972ce465e4b8a79d3ef33b72e3cb47feb
+factual_fingerprint: c7169e6259fd935e7671f0ebf382843021e9defb3470370ec98f3665ec08a1af
 ---
 
 ---
