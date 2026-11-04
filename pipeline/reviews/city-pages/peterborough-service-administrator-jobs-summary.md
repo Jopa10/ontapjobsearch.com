@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
-- automatic review: 12
-- automatic exclude: 29
-- effective include: 26
-- effective review: 12
-- effective exclude: 29
+- automatic include: 28
+- automatic review: 13
+- automatic exclude: 28
+- effective include: 28
+- effective review: 13
+- effective exclude: 28
 
-## INCLUDE (26)
+## INCLUDE (28)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Lewis & Co Consulting Ltd - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2146756
+reason: Approved conservative Peterborough launch catchment.
+---
 
 ---
 action: 
@@ -76,6 +88,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor
+company: Adecco - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225794465
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Services Administrator - Part Time
 company: Barker Ross - Agency - Temporary
 location: Peterborough
@@ -88,11 +112,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: Interaction Recruitment - Agency - Temporary
+title: Data Entry Clerk
+company: Adecco - Agency - Temporary
 location: Peterborough
 source: JobG8
-job_id: jobg8-23643_225750441
+job_id: jobg8-23643_225794685
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -100,11 +124,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR MANAGER - PART-TIME
-company: Interaction Recruitment - Agency - Permanent
+title: HR Administrator
+company: Interaction Recruitment - Agency - Temporary
 location: Peterborough
 source: JobG8
-job_id: jobg8-23643_225692804
+job_id: jobg8-23643_225750441
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -336,7 +360,7 @@ job_id: jobg8-2183929
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (13)
 
 ---
 action: 
@@ -378,18 +402,6 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Interaction Recruitment - Agency - Temporary
-location: St. Ives
-source: JobG8
-job_id: jobg8-23643_225690764
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Exams Officer
 company: Ernulf Academy
 location: St. Neots
@@ -407,6 +419,18 @@ company: Pure Resourcing Solutions - Agency - Permanent
 location: Ely
 source: JobG8
 job_id: jobg8-2198983
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Support
+company: Interaction Recruitment - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225794018
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -450,11 +474,11 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support Administrator
-company: Interaction Recruitment - Agency - Permanent
-location: St. Ives
+title: Private Client Secretary/Assistant
+company: Berry Recruitment - Agency - Permanent
+location: March
 source: JobG8
-job_id: jobg8-23643_225768922
+job_id: jobg8-23643_225793160
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -462,11 +486,23 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Administrator
-company: Interaction Recruitment - Agency - Contract
+title: Sales Executive
+company: Interaction Recruitment - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-23643_225691104
+job_id: jobg8-23643_225792962
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Administrator
+company: Interaction Recruitment - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225768922
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -482,7 +518,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -620,6 +656,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Examinations Administrator
+company: Long Road Sixth Form College
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-examinations-administrator-long-road-sixth-form-college
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Executive Assistant
 company: EA First - Agency - Permanent
 location: Cambridge
@@ -637,18 +685,6 @@ company: Select Recruitment Specialists Ltd - Agency - Contract
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225733234
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Italian speaking Credit Controller
-company: Language Business - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225694043
 reason: Separate employment market.
 ---
 
@@ -733,18 +769,6 @@ company: Kidney Research UK - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2192738
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: PR manager
-company: Kidney Research UK - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2196216
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 14
-- automatic exclude: 31
-- effective include: 22
-- effective review: 14
-- effective exclude: 31
+- automatic include: 21
+- automatic review: 15
+- automatic exclude: 33
+- effective include: 21
+- effective review: 15
+- effective exclude: 33
 
-## INCLUDE (22)
+## INCLUDE (21)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Examinations Administrator
+company: Long Road Sixth Form College
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-examinations-administrator-long-road-sixth-form-college
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Executive Assistant
 company: EA First - Agency - Permanent
 location: Cambridge
@@ -117,18 +129,6 @@ company: Select Recruitment Specialists Ltd - Agency - Contract
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225733234
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Italian speaking Credit Controller
-company: Language Business - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225694043
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -208,18 +208,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: PR manager
-company: Kidney Research UK - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2196216
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchasing Assistant
 company: Liz Orpwood Recruitment Ltd - Agency - Permanent
 location: Cambridge
@@ -288,7 +276,7 @@ job_id: jobg8-23643_225721995
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (15)
 
 ---
 action: 
@@ -342,18 +330,6 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Interaction Recruitment - Agency - Temporary
-location: St. Ives
-source: JobG8
-job_id: jobg8-23643_225690764
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Exams Officer
 company: Ernulf Academy
 location: St. Neots
@@ -371,6 +347,18 @@ company: Pure Resourcing Solutions - Agency - Permanent
 location: Ely
 source: JobG8
 job_id: jobg8-2198983
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Support
+company: Interaction Recruitment - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225794018
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -426,11 +414,11 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support Administrator
-company: Interaction Recruitment - Agency - Permanent
-location: St. Ives
+title: Private Client Secretary/Assistant
+company: Berry Recruitment - Agency - Permanent
+location: March
 source: JobG8
-job_id: jobg8-23643_225768922
+job_id: jobg8-23643_225793160
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -438,11 +426,23 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Administrator
-company: Interaction Recruitment - Agency - Contract
+title: Sales Executive
+company: Interaction Recruitment - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-23643_225691104
+job_id: jobg8-23643_225792962
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Administrator
+company: Interaction Recruitment - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225768922
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -458,7 +458,19 @@ job_id: jobg8-23643_225752655
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (33)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Lewis & Co Consulting Ltd - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2146756
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -560,6 +572,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service Advisor
+company: Adecco - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225794465
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Services Administrator - Part Time
 company: Barker Ross - Agency - Temporary
 location: Peterborough
@@ -572,11 +596,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Administrator
-company: Interaction Recruitment - Agency - Temporary
+title: Data Entry Clerk
+company: Adecco - Agency - Temporary
 location: Peterborough
 source: JobG8
-job_id: jobg8-23643_225750441
+job_id: jobg8-23643_225794685
 reason: Separate employment market.
 ---
 
@@ -584,11 +608,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR MANAGER - PART-TIME
-company: Interaction Recruitment - Agency - Permanent
+title: HR Administrator
+company: Interaction Recruitment - Agency - Temporary
 location: Peterborough
 source: JobG8
-job_id: jobg8-23643_225692804
+job_id: jobg8-23643_225750441
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 45
+- Effective included jobs: 44
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 45
-- automatic review: 11
+- automatic include: 44
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 45
-- effective review: 11
+- effective include: 44
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (45)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Coordinator
-company: Stafforce Recruitment - Agency - Temporary
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225684511
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
+## INCLUDE (44)
 
 ---
 action: 
@@ -88,6 +76,18 @@ reason: Exact approved Lincoln workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Accounts Payable Clerk
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2144682
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Admin Assistant
 company: William Farr CofE Comprehensive School
 location: Lincoln
@@ -105,6 +105,18 @@ company: Scout Recruiting LTD - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225745727
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Administrator
+company: Blue Moon Recruitment - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225791104
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -164,18 +176,6 @@ title: Data Protection Coordinator
 company: Akkodis - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2209007
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Data Protection Coordinator
-company: Akkodis - Agency - Permanent
-location: Lincolnshire
-source: JobG8
 job_id: jobg8-23643_225753502
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
@@ -190,18 +190,6 @@ location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225741933
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Benjamin Edwards - Agency - Permanent
-location: Lincoln
-source: JobG8
-job_id: jobg8-23643_225691108
-reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -238,18 +226,6 @@ location: Lincolnshire
 source: JobG8
 job_id: jobg8-2163997
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Secretary
-company: Reflect Recruitment Group - Agency - Contract
-location: Lincoln
-source: JobG8
-job_id: jobg8-23643_225692949
-reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -436,6 +412,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Administrator
+company: Integrity Plus Ltd - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225766192
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Clerk & Accounts Assistant
 company: Manpower UK - Agency - Permanent
 location: Lincolnshire
@@ -496,6 +484,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Sir Robert Pattinson Academy
+location: Lincoln
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-sir-robert-pattinson-academy-lincoln-lincolnshire
+reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist - Care Home
 company: Barchester Healthcare - Company - Permanent
 location: Lincolnshire
@@ -544,18 +544,6 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Traffic Process Administration Assistant
-company: Adecco - Agency - Temporary
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225696261
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Trainee Legal Secretary
 company: LJ Recruitment - Agency - Permanent
 location: Lincolnshire
@@ -564,7 +552,7 @@ job_id: jobg8-23643_225722678
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -576,18 +564,6 @@ location: Boston
 source: Teaching Vacancies
 job_id: teaching-vacancies-academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Northern Lincolnshire and Goole NHS Foundation Trust
-location: Grimsby, DN33 2BA
-source: NHS Jobs
-job_id: nhs-5688703
-reason: The stated location is broader or less specific than the approved Lincoln employment market and needs review.
 ---
 
 ---

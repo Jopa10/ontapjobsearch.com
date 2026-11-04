@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 76
+- automatic include: 9
+- automatic review: 72
 - automatic exclude: 0
-- effective include: 8
-- effective review: 76
+- effective include: 9
+- effective review: 72
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Administration Assistant
-company: St Gerard's Catholic Primary School
+title: Marketing and Communications Officer
+company: Voluntary Action Rotherham - Agency - Contract
 location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-st-gerard-s-catholic-primary-school
+source: JobG8
+job_id: jobg8-23643_225797744
 reason: Exact approved Rotherham workplace.
 ---
 
@@ -45,6 +45,18 @@ company: The Rotherham NHS Foundation Trust
 location: Rotherham, S60 2UD
 source: NHS Jobs
 job_id: nhs-5697202
+reason: Exact approved Rotherham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Greasbrough Medical Centre
+location: Rotherham, S61 4RB
+source: NHS Jobs
+job_id: nhs-5706820
 reason: Exact approved Rotherham workplace.
 ---
 
@@ -120,7 +132,7 @@ job_id: nhs-5695575
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (76)
+## REVIEW (72)
 
 ---
 action: 
@@ -186,18 +198,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant/Receptionist
-company: Rotherham Doncaster and South Humber NHSFT
-location: Doncaster, DN4 6ED
-source: NHS Jobs
-job_id: nhs-5693518
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administration Assistant
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
@@ -247,10 +247,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Office Angels - Agency - Permanent
+company: NHS Professionals - Company - Temporary
 location: Brinsworth
 source: JobG8
-job_id: jobg8-23643_225741868
+job_id: jobg8-23643_225757191
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -259,10 +259,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: TSR Recruitment Limited - Agency - Permanent
-location: Barnsley
+company: Office Angels - Agency - Permanent
+location: Brinsworth
 source: JobG8
-job_id: jobg8-23643_225685872
+job_id: jobg8-23643_225741868
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -275,18 +275,6 @@ company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2210544
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: BMW/MINI Service Advisor
-company: Sytner - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225692016
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -318,11 +306,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Clinical Administrator
-company: Sheffield Health Partnership University NHS Foundation Trust
-location: Sheffield, S2 2BT
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
 source: NHS Jobs
-job_id: nhs-5687642
+job_id: nhs-5705463
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -330,11 +318,23 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: COMMERCIAL OPERATIONS ASSISTANT
-company: A for Appointments - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225695144
+title: Clerical Officer/Receptionist
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5704847
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clinical Administrator
+company: Sheffield Health Partnership University NHS Foundation Trust
+location: Sheffield, S2 2BT
+source: NHS Jobs
+job_id: nhs-5687642
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -522,11 +522,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Finance Officer
-company: Venatu Consulting Ltd - Agency - Permanent
-location: Doncaster
+title: Green Space Activation Coordinator
+company: Voluntary Action Rotherham - Agency - Contract
+location: Brinsworth
 source: JobG8
-job_id: jobg8-23643_225774042
+job_id: jobg8-23643_225797871
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -643,18 +643,6 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
-company: Selborne Road Medical Centre
-location: Sheffield, S10 5ND
-source: NHS Jobs
-job_id: nhs-5685334
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
 company: Staff Partners Business - Agency - Permanent
 location: Barnsley
 source: JobG8
@@ -727,34 +715,10 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
-company: Klipboard - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-2193294
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
 company: Portfolio Payroll Limited - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225760034
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: SARIA - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225684316
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -859,18 +823,6 @@ action:
 decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
-company: Albion Search - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225694244
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
 company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
@@ -911,6 +863,18 @@ company: STEPS Rehabilitation
 location: Sheffield, S7 2QA
 source: NHS Jobs
 job_id: nhs-5686823
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Beauchief Medical Practice
+location: Sheffield, S8 0BJ, Sheffield, S174DQ
+source: NHS Jobs
+job_id: nhs-5706331
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -978,18 +942,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Senior Administrator
-company: STEPS Rehabilitation
-location: Sheffield, S7 2QA
-source: NHS Jobs
-job_id: nhs-5687012
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Administrator
 company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
@@ -1019,6 +971,18 @@ company: Charto Recruitment Ltd - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225749128
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Transactional Finance Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225796381
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

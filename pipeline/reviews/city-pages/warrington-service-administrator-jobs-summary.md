@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
+- automatic include: 30
 - automatic review: 7
-- automatic exclude: 5
-- effective include: 29
+- automatic exclude: 4
+- effective include: 30
 - effective review: 7
-- effective exclude: 5
+- effective exclude: 4
 
-## INCLUDE (29)
+## INCLUDE (30)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: Proactive Personnel Ltd - Agency - Temporary
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225704781
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Care Coordinator
 company: Fawkes & Reece London - Agency - Temporary
 location: Warrington
@@ -141,18 +129,6 @@ company: Reed - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2161558
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Fleet Administrator
-company: Bis Henderson - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225731155
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -352,11 +328,47 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: School Administrator
+company: Forrest Recruitment - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225791707
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
+company: The Solution Auto - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225795786
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temp Receptionist
 company: Zachary Daniels Recruitment - Agency - Temporary
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225760575
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Project Administrator / Project Coordinator
+company: Clarify Consultancy Ltd - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225793459
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -426,11 +438,11 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: PS Recruits Ltd - Agency - Permanent
-location: Widnes
+title: Content Creator Lead
+company: Reed - Agency - Permanent
+location: Cheshire
 source: JobG8
-job_id: jobg8-23643_225685752
+job_id: jobg8-2149374
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -458,7 +470,7 @@ job_id: jobg8-2194574
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -469,30 +481,6 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-2153179
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Administration
-company: PeopleRe - Agency - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-23643_225713196
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Manufacturing Administrator
-company: Search Consultancy Ltd - Agency - Temporary
-location: Runcorn
-source: JobG8
-job_id: jobg8-23643_225693607
 reason: Separate employment market.
 ---
 
@@ -517,5 +505,17 @@ company: Kinetic PLC - Agency - Temporary
 location: Runcorn
 source: JobG8
 job_id: jobg8-23643_225789895
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Clerk
+company: North Cheshire and Mersey NHS Foundation Trust (BCH)
+location: RUNCORN, WA7 2DA
+source: NHS Jobs
+job_id: nhs-5705605
 reason: Separate employment market.
 ---

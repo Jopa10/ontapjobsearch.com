@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 23
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 31
+- automatic include: 21
+- automatic review: 32
 - automatic exclude: 0
-- effective include: 23
-- effective review: 31
+- effective include: 21
+- effective review: 32
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (21)
 
 ---
 action: 
@@ -129,18 +129,6 @@ company: First City Nursing and Care - Agency - Temporary
 location: Swindon
 source: JobG8
 job_id: jobg8-23643_225708747
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Collections Analyst / Credit Controller
-company: Quality Start - Agency - Permanent
-location: Swindon
-source: JobG8
-job_id: jobg8-2180947
 reason: Exact approved Swindon workplace.
 ---
 
@@ -280,18 +268,6 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sixth Form Admin Assistant
-company: Great Western Academy
-location: Swindon
-source: Teaching Vacancies
-job_id: teaching-vacancies-sixth-form-admin-assistant-great-western-academy-swindon
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Train Planner
 company: Ford & Stanley Talentwise - Agency - Permanent
 location: Swindon
@@ -300,7 +276,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (32)
 
 ---
 action: 
@@ -335,6 +311,18 @@ company: South Wilts Grammar School
 location: Salisbury
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-south-wilts-grammar-school
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Co-Ordinator
+company: CMD Recruitment - Agency - Permanent
+location: Salisbury
+source: JobG8
+job_id: jobg8-23643_225794290
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -462,18 +450,6 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Millstream Medical Centre
-location: Salisbury, SP5 5PA, SALISBURY, SP5 5EL
-source: NHS Jobs
-job_id: nhs-5688501
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist & First Aider
 company: South Wilts Grammar School
 location: Salisbury
@@ -552,6 +528,18 @@ location: Salisbury
 source: JobG8
 job_id: jobg8-23643_225709819
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-23643_225795775
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---

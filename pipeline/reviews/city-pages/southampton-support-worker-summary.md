@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 22
-- automatic exclude: 13
-- effective include: 2
-- effective review: 22
-- effective exclude: 13
+- automatic include: 3
+- automatic review: 17
+- automatic exclude: 15
+- effective include: 3
+- effective review: 17
+- effective exclude: 15
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -40,6 +40,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Hourly Lifestyle / Care Assistant for a Female Chemistry Uni Student
+company: Ask Jules - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-108269694
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Youth Support Worker
 company: Brook Street Social Care - Agency - Permanent
 location: Southampton
@@ -48,7 +60,7 @@ job_id: jobg8-23643_225199243
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (17)
 
 ---
 action: 
@@ -71,18 +83,6 @@ company: Hampshire County Council - Company - Permanent
 location: Alton
 source: JobG8
 job_id: jobg8-1401785913
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-1401785962
 reason: Broad location; review before city inclusion.
 ---
 
@@ -210,18 +210,6 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Hiring Support Worker and Health care Assistant for Care Homes
-company: Purus Healthcare Ltd - Agency - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225528449
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Home Care Assistant - Complex Care Adults
 company: Nurseplus UK Ltd - Agency - Temporary
 location: Hampshire
@@ -258,18 +246,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Night Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-1401785959
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Residential Childcare Worker
 company: First For Support - Agency - Temporary
 location: Tadley
@@ -290,31 +266,7 @@ job_id: jobg8-1401786037
 reason: Broad location; review before city inclusion.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker
-company: National Care Group Ltd - Agency - Permanent
-location: New Milton
-source: JobG8
-job_id: jobg8-108247055
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Waking Night Childrens Home Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Romsey
-source: JobG8
-job_id: jobg8-1401785985
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (13)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -325,6 +277,18 @@ company: Avon Search & Selection - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225779755
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Assistant
+company: Care UK - Company - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-108042627
 reason: Separate employment market.
 ---
 
@@ -349,6 +313,18 @@ company: Barchester Healthcare - Company - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_225784306
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Female Healthcare Assistant & Support Worker
+company: Bluelight Healthcare - Agency - Permanent
+location: Farnborough
+source: JobG8
+job_id: jobg8-23643_225790173
 reason: Separate employment market.
 ---
 

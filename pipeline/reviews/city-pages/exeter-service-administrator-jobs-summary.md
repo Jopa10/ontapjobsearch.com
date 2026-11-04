@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 25
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 53
+- automatic include: 26
+- automatic review: 50
 - automatic exclude: 0
-- effective include: 25
-- effective review: 53
+- effective include: 26
+- effective review: 50
 - effective exclude: 0
 
-## INCLUDE (25)
+## INCLUDE (26)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: WR HVAC - Agency - Contract
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225759209
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Pivotal Partnerships - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225796829
 reason: Exact approved Exeter workplace.
 ---
 
@@ -184,18 +196,6 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Administrator - GP Practice
-company: St Thomas Medical Group
-location: Exeter, EX4 1HJ, EXETER, EX4 2AD, Exeter, EX44QP
-source: NHS Jobs
-job_id: nhs-5672950
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Nursery Administrator
 company: Alphington Primary School
 location: Exeter
@@ -225,6 +225,18 @@ company: Woodbury Surgery
 location: Exeter, EX5 1NZ
 source: NHS Jobs
 job_id: nhs-5700141
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Elysium Healthcare
+location: Exeter, EX1 3PZ
+source: NHS Jobs
+job_id: nhs-5702059
 reason: Exact approved Exeter workplace.
 ---
 
@@ -324,7 +336,7 @@ job_id: jobg8-23643_225699564
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (50)
 
 ---
 action: 
@@ -378,11 +390,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Reed - Agency - Permanent
+title: Administration Officer
+company: Hays Business Support - Agency - Temporary
 location: Devon
 source: JobG8
-job_id: jobg8-2164301
+job_id: jobg8-23643_225795021
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -390,11 +402,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Business Development Executive
-company: Ten Recruit Limited - Agency - Permanent
-location: Bideford
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Devon
 source: JobG8
-job_id: jobg8-23643_224726426
+job_id: jobg8-2164301
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -462,18 +474,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Care Coordinator
-company: Fawkes & Reece London - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225690244
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Administrator
 company: Lockhart Recruitment - Agency - Permanent
 location: Devon
@@ -503,18 +503,6 @@ company: untypical - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225720303
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Services Administrator (Manufacturing)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225688579
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -571,18 +559,6 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: Build Recruitment - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225691719
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
 company: Pontoon - Agency - Contract
 location: Devon
 source: JobG8
@@ -606,11 +582,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Coordinator
-company: Pertemps Plymouth - Agency - Permanent
+title: HR Assistant
+company: Premier Foods - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-23643_225698382
+job_id: jobg8-108255868
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -635,6 +611,18 @@ company: Lockhart Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225766926
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Church View Surgery
+location: Plymouth, PL9 9BW
+source: NHS Jobs
+job_id: nhs-5704799
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -923,18 +911,6 @@ company: Acorn by Synergie - Agency - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225789629
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Student Funding Administrator (Maternity Cover)
-company: City College Plymouth
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-student-funding-administrator-maternity-cover
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 52
+- Effective included jobs: 53
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 52
+- automatic include: 53
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 52
+- effective include: 53
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (52)
+## INCLUDE (53)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: The Solution Auto - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225709284
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Mersey Care NHS Foundation Trust
+location: Liverpool, L11 5AF
+source: NHS Jobs
+job_id: nhs-5704390
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -105,6 +117,18 @@ company: Doulaitou Management - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225733206
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Assistant
+company: St Nicholas Catholic Academy
+location: Liverpool
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-assistant-st-nicholas-catholic-academy
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -184,11 +208,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller-6 Months FTC
-company: LJ Recruitment - Agency - Contract
+title: Document Controller
+company: Penguin Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-23643_225684403
+job_id: jobg8-23643_225721850
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -196,11 +220,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Document Controller
-company: Penguin Recruitment - Agency - Permanent
+title: Facilities Administrator
+company: Michael Page - Agency - Temporary
 location: Liverpool
 source: JobG8
-job_id: jobg8-23643_225721850
+job_id: jobg8-23643_225798411
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -316,18 +340,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Manager - Temporary to Permanent
-company: Tradewind Recruitment - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225698676
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Medical Receptionist
 company: Dunstan Village Group Practice
 location: Liverpool, L7 6HD
@@ -352,11 +364,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Operations Administrator
-company: Stafforce Ports - Agency - Permanent
+title: Office Coordinator
+company: Northreach - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-23643_225691969
+job_id: jobg8-23643_225795075
 reason: Approved conservative Liverpool launch catchment.
 ---
 

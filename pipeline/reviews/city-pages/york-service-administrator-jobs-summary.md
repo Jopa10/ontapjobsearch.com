@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 18
-- automatic exclude: 15
-- effective include: 10
-- effective review: 18
-- effective exclude: 15
+- automatic include: 12
+- automatic review: 17
+- automatic exclude: 16
+- effective include: 12
+- effective review: 17
+- effective exclude: 16
 
-## INCLUDE (10)
+## INCLUDE (12)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Employment & Litigation Legal Assistant
+company: Search Consultancy Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225793079
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Consortium Professional Recruitment - Agency - Permanent
 location: York
@@ -112,11 +124,11 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Finance Assistant
-company: Hays Accounts and Finance - Agency - Temporary
-location: York
-source: JobG8
-job_id: jobg8-23643_225696188
+title: Medical Receptionist
+company: Unity Health
+location: York, YO10 5LA, York, YO10 4DU
+source: NHS Jobs
+job_id: nhs-5706440
 reason: Approved York catchment.
 ---
 
@@ -136,6 +148,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist Administrator
+company: Ebor Academy Trust
+location: York
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-ebor-academy-trust
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Reprographics & Admin assistant
 company: PK Education - Agency - Temporary
 location: York
@@ -144,19 +168,7 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (18)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: Abbey Personnel Services Ltd - Agency - Permanent
-location: Sherburn In Elmet
-source: JobG8
-job_id: jobg8-23643_225224895
-reason: No approved York catchment rule matched; local review required.
----
+## REVIEW (17)
 
 ---
 action: 
@@ -362,7 +374,19 @@ job_id: jobg8-108059238
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (16)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care & Support Coordinator
+company: Disability Action Yorkshire - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225792686
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -409,6 +433,18 @@ company: Edwards & Pearce - Agency - Permanent
 location: Selby
 source: JobG8
 job_id: jobg8-23643_225738181
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Assistant - Residential Conveyancing
+company: Edwards & Pearce - Doncaster - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-2149792
 reason: Separate employment market.
 ---
 
@@ -530,16 +566,4 @@ location: Scarborough, North Yorkshire, YO11 3EG
 source: NHS Jobs
 job_id: nhs-5690490
 reason: Broad county/region label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Technical & Quality Support Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225691482
-reason: Separate employment market.
 ---

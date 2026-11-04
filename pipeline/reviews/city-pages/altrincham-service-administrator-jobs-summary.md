@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 30
+- automatic review: 24
 - automatic exclude: 0
 - effective include: 18
-- effective review: 30
+- effective review: 24
 - effective exclude: 0
 
 ## INCLUDE (18)
@@ -105,6 +105,18 @@ company: Robert Walters - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-2163415
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Document Controller
+company: Conrad Consulting Ltd - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225795761
 reason: Exact approved Altrincham workplace.
 ---
 
@@ -220,18 +232,6 @@ reason: Exact approved Altrincham workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Secondary EAL Co-Ordinator
-company: Exclusive Education - Agency - Temporary
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225639110
-reason: Exact approved Altrincham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior Payroll Administrator
 company: Portfolio Payroll Limited - Agency - Permanent
 location: Altrincham
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225715889
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (24)
 
 ---
 action: 
@@ -251,18 +251,6 @@ company: Platinum Recruitment Group - Agency - Permanent
 location: Dukinfield
 source: JobG8
 job_id: jobg8-2187150
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Pure 4 Recruitment - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225687790
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -331,18 +319,6 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
-company: Michael Page - Agency - Permanent
-location: Trafford
-source: JobG8
-job_id: jobg8-23643_225691554
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
 company: NC Associates - Agency - Permanent
 location: Trafford
 source: JobG8
@@ -367,22 +343,10 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: CMR Jobs Limited - Agency - Permanent
-location: Stockport
+company: Search Consultancy Ltd - Agency - Contract
+location: Hyde
 source: JobG8
-job_id: jobg8-23643_225692979
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Jobwise Ltd - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225695945
+job_id: jobg8-23643_225794244
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -474,18 +438,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Coordinator
-company: CMR Jobs Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225693186
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Practice Bookkeeper
 company: Square Peg Associates Ltd - Agency - Permanent
 location: Stockport
@@ -503,18 +455,6 @@ company: Hyde PCN
 location: Hyde, SK14 2QT
 source: NHS Jobs
 job_id: nhs-5701647
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Jobwise Ltd - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225692733
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -587,18 +527,6 @@ company: Global Recruitment Group - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225744140
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary HR Administrator
-company: Office Angels - Agency - Temporary
-location: Trafford
-source: JobG8
-job_id: jobg8-23643_225696497
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

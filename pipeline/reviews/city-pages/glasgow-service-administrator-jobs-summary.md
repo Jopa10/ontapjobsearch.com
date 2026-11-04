@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 35
+- Effective included jobs: 36
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 35
-- automatic review: 6
+- automatic include: 36
+- automatic review: 7
 - automatic exclude: 0
-- effective include: 35
-- effective review: 6
+- effective include: 36
+- effective review: 7
 - effective exclude: 0
 
-## INCLUDE (35)
+## INCLUDE (36)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-2164191
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator Assistant - Immediate Start
-company: Search Consultancy Ltd - Agency - Contract
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225689338
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -88,11 +76,47 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-20279_64324-89740a075c6163b74ea2c52702062e5d
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-20279_64324-73862c8b83139033e4e4a8b6efca9a33
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Client Services Administrator
 company: Realise Recruitment - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225720686
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-20279_64324-d24d3d6916a209e15b1680693740da2f
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -136,11 +160,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Administrator - Immediate Start
-company: Search Consultancy Ltd - Agency - Contract
+title: Customer Service Advisor
+company: EE - Company - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225689360
+job_id: jobg8-20279_64324-153faf593eb64b88272f45adeaa28d87
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -220,18 +244,6 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Secretary (Conveyancing)
-company: Michael Page - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225691854
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Legal Secretary (Family Law)
 company: Michael Page - Agency - Permanent
 location: Glasgow
@@ -292,11 +304,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Operations Administrator
-company: RPJ Energy Solutions Limited - Agency - Permanent
+title: Paralegal
+company: Adecco - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225752498
+job_id: jobg8-2146744
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -321,6 +333,18 @@ company: Stafffinders - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225735910
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist - Immediate Start - North Lanarkshire
+company: Search Consultancy Ltd - Agency - Contract
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225796362
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -369,18 +393,6 @@ company: KB Refrigeration - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225774622
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Social Media & Office Support Apprentice
-company: QA - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2165508
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -444,7 +456,7 @@ job_id: jobg8-23643_225760167
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (7)
 
 ---
 action: 
@@ -491,6 +503,18 @@ company: Michael Page Business Support - Agency - Permanent
 location: Lanarkshire
 source: JobG8
 job_id: jobg8-2192475
+reason: No approved Glasgow catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Advisor
+company: EE - Company - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-20279_64324
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

@@ -64,18 +64,6 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Night Order Processor / Administrator
-company: South West Recruitment - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225692499
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Administrator
 company: Hayley Dexis - Agency - Permanent
 location: Poole
@@ -132,6 +120,18 @@ job_id: jobg8-23643_225788921
 reason: Exact approved Poole workplace.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchasing Administrator
+company: Team Jobs - Commercial - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225795324
+reason: Exact approved Poole workplace.
+---
+
 ## REVIEW (53)
 
 ---
@@ -167,6 +167,42 @@ company: Agincare Group - Agency - Permanent
 location: Weymouth
 source: JobG8
 job_id: jobg8-108179266
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Care UK - Company - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-108242620
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225796724
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Bournemouth, BH7 6JF
+source: NHS Jobs
+job_id: nhs-5694960
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -270,6 +306,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Business Administrator
+company: KAG Recruitment Consultancy - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225771986
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Coordinator
 company: Leaders In Care Recruitment Ltd - Agency - Permanent
 location: Dorset
@@ -282,47 +330,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: PS Recruits Ltd - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225685782
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contact Centre Advisor
-company: Stonewater - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225697970
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225790377
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Tru Talent - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225696513
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -474,6 +486,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Fundraising co-ordinator
+company: Mosaic - Supporting Bereaved Children - Agency - Permanent
+location: Dorchester
+source: JobG8
+job_id: jobg8-2162517
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HubSpot Funnel & Conversion Marketing Manager - Travel Franchise
 company: Recruitment Revolution - Agency - Permanent
 location: Dorset
@@ -534,23 +558,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225689189
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part time Office & HR Administrator
-company: Holt Engineering - Agency - Permanent
-location: Wimborne
-source: JobG8
-job_id: jobg8-23643_225684990
+title: PA to Leadership Team
+company: The Bishop of Winchester Academy
+location: Bournemouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-pa-to-leadership-team-43554862-09f3-4c18-971e-b22b13d85dce
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -587,18 +599,6 @@ company: Morgan McKinley (South West) - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225762250
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225686145
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -726,18 +726,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Senior Marketing Manager (Maternity Cover)
-company: Daisy Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225728254
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Shipping Administrator
 company: Team Jobs - Strategic Accounts - Agency - Contract
 location: Dorset
@@ -767,6 +755,18 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Christchurch, BH23 3AF
 source: NHS Jobs
 job_id: nhs-5692257
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Workflow Administrator
+company: Shore Medical PCN
+location: Bournemouth, BH2 5QR
+source: NHS Jobs
+job_id: nhs-5706522
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

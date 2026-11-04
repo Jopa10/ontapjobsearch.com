@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 38
+- automatic review: 40
 - automatic exclude: 0
 - effective include: 5
-- effective review: 38
+- effective review: 40
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,19 +84,7 @@ job_id: nhs-5690490
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (38)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: Abbey Personnel Services Ltd - Agency - Permanent
-location: Sherburn In Elmet
-source: JobG8
-job_id: jobg8-23643_225224895
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
+## REVIEW (40)
 
 ---
 action: 
@@ -162,6 +150,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Care & Support Coordinator
+company: Disability Action Yorkshire - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225792686
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Commercial Property Paralegal
 company: Search Consultancy Ltd - Agency - Permanent
 location: Yorkshire
@@ -203,6 +203,18 @@ company: No1 Legal and Professional - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2200459
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Employment & Litigation Legal Assistant
+company: Search Consultancy Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225793079
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -318,6 +330,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Legal Assistant - Residential Conveyancing
+company: Edwards & Pearce - Doncaster - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-2149792
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Secretary
 company: Sewell Wallis Ltd - Agency - Permanent
 location: Malton
@@ -354,6 +378,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: Unity Health
+location: York, YO10 5LA, York, YO10 4DU
+source: NHS Jobs
+job_id: nhs-5706440
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Paralegal
 company: Unity Resourcing Ltd - Agency - Permanent
 location: Yorkshire
@@ -371,18 +407,6 @@ company: SF Partners - Agency - Temporary
 location: Easby
 source: JobG8
 job_id: jobg8-23643_225746977
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Finance Assistant
-company: Hays Accounts and Finance - Agency - Temporary
-location: York
-source: JobG8
-job_id: jobg8-23643_225696188
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -443,6 +467,18 @@ company: Nimbuscare
 location: York, YO24 4LJ, York, YO24 1LW, York, YO26 4GG
 source: NHS Jobs
 job_id: nhs-5689323
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist Administrator
+company: Ebor Academy Trust
+location: York
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-ebor-academy-trust
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -527,18 +563,6 @@ company: Interaction - Leeds - Agency - Permanent
 location: Malton
 source: JobG8
 job_id: jobg8-108059238
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical & Quality Support Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225691482
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

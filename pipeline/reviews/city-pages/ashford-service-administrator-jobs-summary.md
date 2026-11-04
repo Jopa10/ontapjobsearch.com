@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 164
+- automatic review: 158
 - automatic exclude: 0
 - effective include: 9
-- effective review: 164
+- effective review: 158
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-2166470
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (164)
+## REVIEW (158)
 
 ---
 action: 
@@ -535,18 +535,6 @@ action:
 decision: review
 automatic_decision: review
 title: Communications Executive
-company: PSM recruitment Ltd - Agency - Permanent
-location: Dover
-source: JobG8
-job_id: jobg8-23643_225736678
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Communications Executive
 company: Trapeze Recruitment Services Ltd - Agency - Permanent
 location: Kent
 source: JobG8
@@ -727,18 +715,6 @@ action:
 decision: review
 automatic_decision: review
 title: Digital Marketing Executive
-company: PSM recruitment Ltd - Agency - Permanent
-location: Dover
-source: JobG8
-job_id: jobg8-23643_225736615
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Marketing Executive
 company: Trapeze Recruitment Services Ltd - Agency - Permanent
 location: Kent
 source: JobG8
@@ -791,18 +767,6 @@ company: Damicor Ltd - Agency - Permanent
 location: Maidstone
 source: JobG8
 job_id: jobg8-23643_225722406
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller - Dungeness
-company: Aureos Group - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225684874
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -863,18 +827,6 @@ company: MidKent College - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225772468
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Facilities Administrator
-company: Reed - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2200364
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1098,6 +1050,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: GP Receptionist (Care Navigator)
+company: Sandwich Medical Practice
+location: Sandwich, CT13 9ET
+source: NHS Jobs
+job_id: nhs-5706325
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Coordinator / HR Advisor
 company: Netbox Recruitment - Agency - Permanent
 location: Kent
@@ -1110,11 +1074,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HVAC Office Administrator
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Rochester
+title: Human Resources Administrator
+company: Hays Specialist Recruitment - Education - Agency - Permanent
+location: Kent
 source: JobG8
-job_id: jobg8-23643_225697754
+job_id: jobg8-23643_225796054
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1182,18 +1146,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Logistics Planner
-company: Four Jays Group - Agency - Permanent
-location: Maidstone
-source: JobG8
-job_id: jobg8-23643_225696655
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Love Living Homes Rental Administrator
 company: Town & Country Housing Group - Agency - Permanent
 location: Kent
@@ -1254,6 +1206,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Officer
+company: Henry Blue - Agency - Temporary
+location: Canterbury
+source: JobG8
+job_id: jobg8-23643_225789719
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical receptionist
 company: Ash Surgery
 location: Canterbury, CT3 2HD
@@ -1280,9 +1244,9 @@ decision: review
 automatic_decision: review
 title: Office Administrator
 company: Hill McGlynn Recruitment Limited - Agency - Permanent
-location: Aylesford
+location: Maidstone
 source: JobG8
-job_id: jobg8-23643_225764947
+job_id: jobg8-23643_225791522
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1386,11 +1350,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Accounts Assistant Dartford Temp to Perm
-company: Office Angels - Agency - Temporary
-location: Dartford
+title: PA to MD
+company: New Appointments Group - Agency - Permanent
+location: Westerham
 source: JobG8
-job_id: jobg8-23643_225697973
+job_id: jobg8-23643_225792973
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1415,6 +1379,18 @@ company: New Appointments Group - Agency - Temporary
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225790604
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Music School Administrator
+company: Dartford Grammar School
+location: Dartford
+source: Teaching Vacancies
+job_id: teaching-vacancies-part-time-music-school-administrator
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1650,42 +1626,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger
-company: Netbox Recruitment - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225698386
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: HR GO Recruitment - Agency - Permanent
-location: Broadstairs
-source: JobG8
-job_id: jobg8-2171611
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: New Appointments Group - Agency - Temporary
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225759058
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchasing & Supply Planning Coordinator
 company: Trapeze Recruitment Services Ltd - Agency - Permanent
 location: Kent
@@ -1739,6 +1679,18 @@ company: Newington Road Surgery
 location: Ramsgate, CT12 6EW
 source: NHS Jobs
 job_id: nhs-5660895
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: St Georges Medical Centre
+location: Sheerness, ME12 1QU
+source: NHS Jobs
+job_id: nhs-5706447
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1890,6 +1842,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Senior Digital & Social Marketing Executive
+company: Huntress - Maidstone - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225795506
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Paid Media Exec
 company: Reed - Agency - Permanent
 location: Kent
@@ -1907,18 +1871,6 @@ company: Kairos Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225774523
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior SEO Manager
-company: Kairos Recruitment - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225688339
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1974,23 +1926,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Administrator
-company: Connect Personnel - Agency - Contract
-location: Rochester
+title: Supply Chain & Purchasing Coordinator
+company: Huntress - Maidstone - Agency - Permanent
+location: Kent
 source: JobG8
-job_id: jobg8-23643_225687129
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Supply Chain Coordinator
-company: Michael Page - Agency - Permanent
-location: Maidstone
-source: JobG8
-job_id: jobg8-23643_225696704
+job_id: jobg8-23643_225792058
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -2063,18 +2003,6 @@ company: James Frank Associates - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225769940
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trusts & Foundations Coordinator
-company: Migrant Help - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225730262
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

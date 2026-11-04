@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 33
 - automatic review: 13
-- automatic exclude: 38
+- automatic exclude: 35
 - effective include: 33
 - effective review: 13
-- effective exclude: 38
+- effective exclude: 35
 
 ## INCLUDE (33)
 
@@ -124,11 +124,23 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: BMW/MINI Service Advisor
-company: Sytner - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225692016
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5705463
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Officer/Receptionist
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5704847
 reason: Approved Sheffield catchment.
 ---
 
@@ -268,18 +280,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Selborne Road Medical Centre
-location: Sheffield, S10 5ND
-source: NHS Jobs
-job_id: nhs-5685334
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Operations Administrator
 company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
@@ -309,18 +309,6 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2178302
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Purchase Ledger Clerk
-company: Albion Search - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225694244
 reason: Approved Sheffield catchment.
 ---
 
@@ -364,6 +352,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Beauchief Medical Practice
+location: Sheffield, S8 0BJ, Sheffield, S174DQ
+source: NHS Jobs
+job_id: nhs-5706331
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Admin Assistant
 company: Anston Park Infant School
 location: Sheffield
@@ -381,18 +381,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: STEPS Rehabilitation
-location: Sheffield, S7 2QA
-source: NHS Jobs
-job_id: nhs-5687012
 reason: Approved Sheffield catchment.
 ---
 
@@ -420,6 +408,18 @@ job_id: jobg8-23643_225789027
 reason: Approved Sheffield catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Transactional Finance Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225796381
+reason: Approved Sheffield catchment.
+---
+
 ## REVIEW (13)
 
 ---
@@ -439,10 +439,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Office Angels - Agency - Permanent
+company: NHS Professionals - Company - Temporary
 location: Brinsworth
 source: JobG8
-job_id: jobg8-23643_225741868
+job_id: jobg8-23643_225757191
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -450,11 +450,11 @@ reason: No approved Sheffield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: COMMERCIAL OPERATIONS ASSISTANT
-company: A for Appointments - Agency - Permanent
+title: Administrator
+company: Office Angels - Agency - Permanent
 location: Brinsworth
 source: JobG8
-job_id: jobg8-23643_225695144
+job_id: jobg8-23643_225741868
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -578,31 +578,7 @@ job_id: jobg8-2153824
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (38)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant/Receptionist
-company: Rotherham Doncaster and South Humber NHSFT
-location: Doncaster, DN4 6ED
-source: NHS Jobs
-job_id: nhs-5693518
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: St Gerard's Catholic Primary School
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-st-gerard-s-catholic-primary-school
-reason: Separate employment market.
----
+## EXCLUDE (35)
 
 ---
 action: 
@@ -613,18 +589,6 @@ company: Caval Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225704747
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: TSR Recruitment Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225685872
 reason: Separate employment market.
 ---
 
@@ -740,11 +704,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Officer
-company: Venatu Consulting Ltd - Agency - Permanent
-location: Doncaster
+title: Green Space Activation Coordinator
+company: Voluntary Action Rotherham - Agency - Contract
+location: Brinsworth
 source: JobG8
-job_id: jobg8-23643_225774042
+job_id: jobg8-23643_225797871
 reason: Separate employment market.
 ---
 
@@ -776,11 +740,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing and Communications Officer
+company: Voluntary Action Rotherham - Agency - Contract
+location: Rotherham
+source: JobG8
+job_id: jobg8-23643_225797744
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Medical Education Administrator
 company: The Rotherham NHS Foundation Trust
 location: Rotherham, S60 2UD
 source: NHS Jobs
 job_id: nhs-5697202
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Greasbrough Medical Centre
+location: Rotherham, S61 4RB
+source: NHS Jobs
+job_id: nhs-5706820
 reason: Separate employment market.
 ---
 
@@ -861,34 +849,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Payroll Administrator
-company: Klipboard - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-2193294
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-2177843
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll Administrator
-company: SARIA - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225684316
 reason: Separate employment market.
 ---
 

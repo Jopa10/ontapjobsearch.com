@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 23
+- automatic review: 25
 - automatic exclude: 0
 - effective include: 10
-- effective review: 23
+- effective review: 25
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225715924
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (25)
 
 ---
 action: 
@@ -179,6 +179,18 @@ company: AMB Recruitment Group - Agency - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-23643_225752911
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: ctrg - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-23643_225794778
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -378,6 +390,30 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Earnswood Medical Centre
+location: Crewe, CW1 3AW
+source: NHS Jobs
+job_id: nhs-5704540
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Kenmore Medical Centre
+location: Wilmslow, SK9 1PA
+source: NHS Jobs
+job_id: nhs-5705068
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist and Admin Assistant (Maternity Cover)
 company: Bexton Primary School
 location: Knutsford
@@ -407,18 +443,6 @@ company: Auto Skills UK - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225699918
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Planner
-company: MURVILLE CONSULTANCY LIMITED - Agency - Permanent
-location: Knutsford
-source: JobG8
-job_id: jobg8-108089811
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

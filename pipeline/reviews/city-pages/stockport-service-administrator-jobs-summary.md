@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 30
+- automatic include: 13
+- automatic review: 29
 - automatic exclude: 0
-- effective include: 18
-- effective review: 30
+- effective include: 13
+- effective review: 29
 - effective exclude: 0
 
-## INCLUDE (18)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Pure 4 Recruitment - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225687790
-reason: Exact approved Stockport workplace.
----
+## INCLUDE (13)
 
 ---
 action: 
@@ -69,30 +57,6 @@ company: Adecco - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225761727
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: CMR Jobs Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225692979
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Jobwise Ltd - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225695945
 reason: Exact approved Stockport workplace.
 ---
 
@@ -160,35 +124,11 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Coordinator
-company: CMR Jobs Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225693186
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Practice Bookkeeper
 company: Square Peg Associates Ltd - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-2151902
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Jobwise Ltd - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225692733
 reason: Exact approved Stockport workplace.
 ---
 
@@ -240,7 +180,7 @@ job_id: jobg8-23643_225744140
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (29)
 
 ---
 action: 
@@ -355,18 +295,6 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
-company: Michael Page - Agency - Permanent
-location: Trafford
-source: JobG8
-job_id: jobg8-23643_225691554
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
 company: NC Associates - Agency - Permanent
 location: Trafford
 source: JobG8
@@ -395,6 +323,30 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-2171395
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Search Consultancy Ltd - Agency - Contract
+location: Hyde
+source: JobG8
+job_id: jobg8-23643_225794244
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Conrad Consulting Ltd - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225795761
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -570,35 +522,11 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Secondary EAL Co-Ordinator
-company: Exclusive Education - Agency - Temporary
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225639110
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Senior Payroll Administrator
 company: Portfolio Payroll Limited - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225715889
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary HR Administrator
-company: Office Angels - Agency - Temporary
-location: Trafford
-source: JobG8
-job_id: jobg8-23643_225696497
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

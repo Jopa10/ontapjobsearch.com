@@ -16,13 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 18
-- automatic exclude: 23
+- automatic review: 17
+- automatic exclude: 26
 - effective include: 2
-- effective review: 18
-- effective exclude: 23
+- effective review: 17
+- effective exclude: 26
 
 ## INCLUDE (2)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Care & Support Coordinator
+company: Disability Action Yorkshire - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225792686
+reason: Exact approved Harrogate workplace.
+---
 
 ---
 action: 
@@ -36,31 +48,7 @@ job_id: jobg8-2205079
 reason: Exact approved Harrogate workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Technical & Quality Support Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225691482
-reason: Exact approved Harrogate workplace.
----
-
-## REVIEW (18)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: Abbey Personnel Services Ltd - Agency - Permanent
-location: Sherburn In Elmet
-source: JobG8
-job_id: jobg8-23643_225224895
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
+## REVIEW (17)
 
 ---
 action: 
@@ -266,7 +254,7 @@ job_id: jobg8-108059238
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -344,6 +332,18 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Employment & Litigation Legal Assistant
+company: Search Consultancy Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225793079
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant
 company: Consortium Professional Recruitment - Agency - Permanent
 location: York
@@ -404,11 +404,35 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Legal Assistant - Residential Conveyancing
+company: Edwards & Pearce - Doncaster - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-2149792
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Executive
 company: KD Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2197052
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Unity Health
+location: York, YO10 5LA, York, YO10 4DU
+source: NHS Jobs
+job_id: nhs-5706440
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -452,18 +476,6 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part Time Finance Assistant
-company: Hays Accounts and Finance - Agency - Temporary
-location: York
-source: JobG8
-job_id: jobg8-23643_225696188
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Part time Reception
 company: Hays Business Support - Agency - Permanent
 location: Northallerton
@@ -493,6 +505,18 @@ company: Nimbuscare
 location: York, YO24 4LJ, York, YO24 1LW, York, YO26 4GG
 source: NHS Jobs
 job_id: nhs-5689323
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist Administrator
+company: Ebor Academy Trust
+location: York
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-ebor-academy-trust
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

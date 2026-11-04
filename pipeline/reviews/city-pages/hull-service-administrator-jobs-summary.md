@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 19
+- automatic include: 16
+- automatic review: 21
 - automatic exclude: 0
-- effective include: 18
-- effective review: 19
+- effective include: 16
+- effective review: 21
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (16)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Administration Apprentice
-company: Prestige Recruitment Specialists - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225687788
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Credit Controller
 company: Reed - Agency - Permanent
 location: Hull
@@ -117,18 +105,6 @@ company: Belmont Recruitment - Agency - Contract
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225787579
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Vizion Network - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225702790
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -240,7 +216,7 @@ job_id: jobg8-23643_225713565
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (21)
 
 ---
 action: 
@@ -443,6 +419,30 @@ company: Permanent Futures Limited - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225737067
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Clerk
+company: Edwards & Pearce - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225793314
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Cottingham, HU16 5JQ
+source: NHS Jobs
+job_id: nhs-5705755
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

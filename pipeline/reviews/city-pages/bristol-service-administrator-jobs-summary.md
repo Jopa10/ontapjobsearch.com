@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 71
+- Effective included jobs: 63
 - Threshold currently met: yes
 
 ## How to review
@@ -15,36 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 71
-- automatic review: 12
+- automatic include: 63
+- automatic review: 11
 - automatic exclude: 4
-- effective include: 71
-- effective review: 12
+- effective include: 63
+- effective review: 11
 - effective exclude: 4
 
-## INCLUDE (71)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Manager
-company: Adecco - Agency - Contract
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225689332
-reason: Approved conservative Bristol launch catchment.
----
+## INCLUDE (63)
 
 ---
 action: 
 decision: include
 automatic_decision: include
 title: Accounts Assistant
-company: Pertemps Gloucester - Agency - Permanent
+company: Ashley Rees Associates - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2195142
+job_id: jobg8-23643_225795475
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -220,6 +208,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Contact Centre Advisor - Working from Home - Part Time
+company: Adecco - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225791333
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Contract Support
 company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
@@ -285,18 +285,6 @@ company: Davies Turner - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225767987
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Sales Coordinator
-company: Tilo Consulting - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225651882
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -376,18 +364,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Facilities Administrator
-company: JLL - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-108145689
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Facilities Coordinator
 company: Project Start Recruitment Solutions - Agency - Permanent
 location: Bristol
@@ -417,30 +393,6 @@ company: Womens Aid - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225740656
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Freight Co-Ordinator
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225685224
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Freight Coordinator
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225686968
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -508,18 +460,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Jaguar Land Rover Accounts Assistant
-company: Sytner - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225743357
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Legal Assistant
 company: eNL Legal Recruitment - Agency - Permanent
 location: Bristol
@@ -544,6 +484,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Grange Road Surgery
+location: Bristol, BS13 8LD
+source: NHS Jobs
+job_id: nhs-5707307
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Motor Trade Service Advisor
 company: Tru Talent - Agency - Permanent
 location: Bristol
@@ -561,18 +513,6 @@ company: MDE Consultants Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225717098
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Outpatient Receptionist
-company: Bristol NHS Foundation Trust
-location: Bristol, BS2 8EG
-source: NHS Jobs
-job_id: nhs-5674929
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -712,54 +652,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Administrator
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225698115
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales administrator
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225733324
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Executive
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225684677
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Salesforce & Sales Pipeline Coordinator
-company: Adria Solutions - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-108225065
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Administrator MAT cover
 company: Little Mead Primary Academy
 location: Bristol
@@ -777,6 +669,18 @@ company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225707937
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: SEND Administrator
+company: Chipping Sodbury School
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrator-08c1c1a8-e1a3-4e52-84ca-acee5ebb92e5
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -844,6 +748,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Service Delivery Administrator
+company: Lancer Scott Holdings Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225794881
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Shipping coordinator
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
@@ -864,31 +780,7 @@ job_id: jobg8-2153487
 reason: Approved conservative Bristol launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Supply Chain Coordinator
-company: Morgan Sindall Property Services - Agency - Contract
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225686977
-reason: Approved conservative Bristol launch catchment.
----
-
-## REVIEW (12)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Brand Manager (Automotive Dealership)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225689683
-reason: No approved Bristol catchment rule matched; local review required.
----
+## REVIEW (11)
 
 ---
 action: 

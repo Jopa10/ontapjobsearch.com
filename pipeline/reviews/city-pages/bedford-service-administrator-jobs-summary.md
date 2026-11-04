@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 37
+- automatic review: 32
 - automatic exclude: 0
 - effective include: 4
-- effective review: 37
+- effective review: 32
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -40,11 +40,11 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator/Customer Service
-company: Watton Recruitment Ltd - Agency - Temporary
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225685492
+title: Legal Services Administrator
+company: East of England Ambulance Service
+location: Bedford, MK41 0RG
+source: NHS Jobs
+job_id: nhs-5705001
 reason: Exact approved Bedford workplace.
 ---
 
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225761869
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (32)
 
 ---
 action: 
@@ -126,18 +126,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-2203856
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Admin Assistant/Receptionist
 company: East of England Community Health and Care NHS Trust (Cambridge)
 location: Luton, LU3 3QN
@@ -155,6 +143,18 @@ company: NHS Central East ICB
 location: Chicksands, Shefford, Bedfordshire, SG17 5TQ
 source: NHS Jobs
 job_id: nhs-5685802
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Pressbeau - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225794752
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -215,18 +215,6 @@ company: Cadence Search Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225766316
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Shepherd Stubbs - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225433810
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -306,23 +294,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Education Administrator
-company: Bedfordshire Hospitals NHS Foundation Trust
-location: Luton, LU4 0DZ
-source: NHS Jobs
-job_id: nhs-5695360
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: New Product Coordinator
-company: Response Personnel Ltd - Agency - Permanent
+title: Maintenance Planning Administrator
+company: Michael Page - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-23643_225696230
+job_id: jobg8-23643_225786518
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -402,18 +378,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Bank
-company: Hamberley Care Management Limited - Company - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225767094
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Repairs Administrator
 company: Gilmartins - Agency - Permanent
 location: Bedfordshire
@@ -462,35 +426,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Planning Administrator
-company: Michael Page - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225786518
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Site Administrator
 company: Harvey Jacob Ltd - Agency - Contract
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225705667
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Supply Chain Administrator
-company: Aspire Personnel Ltd - Agency - Temporary
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225396424
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

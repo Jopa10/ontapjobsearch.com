@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 103
+- automatic review: 96
 - automatic exclude: 0
 - effective include: 4
-- effective review: 103
+- effective review: 96
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225716356
 reason: Exact approved Watford workplace.
 ---
 
-## REVIEW (103)
+## REVIEW (96)
 
 ---
 action: 
@@ -108,18 +108,6 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225752946
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: ERS Recruiting Ltd - Agency - Permanent
-location: Hatfield
-source: JobG8
-job_id: jobg8-2196083
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -210,6 +198,18 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
+title: Admin Assistant
+company: Nicholas Breakspear Catholic School
+location: St Albans
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-nicholas-breakspear-catholic-school
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Admin Officer
 company: Tate - Agency - Permanent
 location: Hertfordshire
@@ -227,30 +227,6 @@ company: Nexus HR Limited - Agency - Temporary
 location: Royston
 source: JobG8
 job_id: jobg8-23643_225759556
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Mission 4 Recruitment - Agency - Permanent
-location: Hatfield
-source: JobG8
-job_id: jobg8-23643_225691436
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: NHS Professionals - Company - Contract
-location: Stevenage
-source: JobG8
-job_id: jobg8-23643_225697596
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -294,11 +270,11 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Brand Manager - Quick & Easy Meals
-company: Premier Foods - Agency - Permanent
+title: Bank Medical Records Administrator
+company: Spire Healthcare - Company - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2207029
+job_id: jobg8-23643_225793429
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -359,18 +335,6 @@ company: Peter Knight Recruitment Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2172257
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Call Centre Advisor
-company: Mission 4 Recruitment - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225692179
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -486,18 +450,6 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Customer service advisor
-company: Think Specialist Recruitment - Agency - Temporary
-location: Hemel Hempstead
-source: JobG8
-job_id: jobg8-23643_225698178
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Coordinator
 company: Tate - Agency - Permanent
 location: Stevenage
@@ -550,7 +502,7 @@ title: Document Controller
 company: Apple Technical Recruitment (UK) Limited - Agency - Permanent
 location: Hertford
 source: JobG8
-job_id: jobg8-23643_225788859
+job_id: jobg8-23643_225795914
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -583,30 +535,6 @@ action:
 decision: review
 automatic_decision: review
 title: Document Controller
-company: Fawkes & Reece London - Agency - Permanent
-location: Hertford
-source: JobG8
-job_id: jobg8-23643_225687600
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
-company: Recco - Agency - Permanent
-location: Hertford
-source: JobG8
-job_id: jobg8-23643_225686769
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
 company: Skilled Careers - Agency - Permanent
 location: Hertford
 source: JobG8
@@ -630,11 +558,11 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Facilities Administrator - 14 Month FTC
-company: Think Specialist Recruitment - Agency - Contract
+title: Executive Assistant
+company: Willmott Dixon Group - Company - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-23643_225687259
+job_id: jobg8-23643_225791817
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -834,11 +762,11 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Lettings & Operations Coordinator
-company: TLTP Education - Agency - Permanent
+title: Lettings Administrator
+company: Tate - Agency - Temporary
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-23643_225702637
+job_id: jobg8-23643_225788192
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -846,12 +774,12 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Lettings Administrator
-company: Tate - Agency - Temporary
-location: Hertfordshire
+title: Logistics Coordinator
+company: HR GO Recruitment - Agency - Permanent
+location: Bishop'S Stortford
 source: JobG8
-job_id: jobg8-23643_225788192
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+job_id: jobg8-23643_225796386
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -870,11 +798,11 @@ reason: No approved Watford employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive
-company: The Hospice of St Francis - Agency - Permanent
+title: Marketing Executive (12M Fixed Term Contract)
+company: Enra Specialist Finance - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2166612
+job_id: jobg8-2145276
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -888,6 +816,30 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225714273
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mental Health Act Administrator
+company: Elysium Healthcare
+location: Potters Bar, EN6 2SE
+source: NHS Jobs
+job_id: nhs-5702069
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Longdean School
+location: Hemel Hempstead
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-31d5e12d-a2a3-4b2c-abdc-52304ac5f2db
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -930,12 +882,12 @@ reason: No approved Watford employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Eclectic Recruitment - Agency - Contract
-location: Hertfordshire
+title: Paralegal
+company: Personnel Link Employment Group Ltd - Agency - Permanent
+location: Hertford
 source: JobG8
-job_id: jobg8-23643_225689918
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+job_id: jobg8-23643_225795262
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -948,30 +900,6 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225721220
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Vitae Financial Recruitment - Agency - Contract
-location: Royston
-source: JobG8
-job_id: jobg8-23643_225686962
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Planned Works Administrator
-company: Howells Solutions Limited - Agency - Permanent
-location: Welwyn Garden City
-source: JobG8
-job_id: jobg8-23643_225688361
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -1212,18 +1140,6 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225744718
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator (Field Operarions)
-company: Think Specialist Recruitment - Agency - Temporary
-location: Hemel Hempstead
-source: JobG8
-job_id: jobg8-23643_225694409
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

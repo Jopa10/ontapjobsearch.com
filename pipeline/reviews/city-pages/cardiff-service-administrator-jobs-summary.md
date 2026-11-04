@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 1
+- automatic include: 17
+- automatic review: 2
 - automatic exclude: 0
-- effective include: 20
-- effective review: 1
+- effective include: 17
+- effective review: 2
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (17)
 
 ---
 action: 
@@ -88,11 +88,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Bookings Coordinator
-company: 2i Recruit Ltd - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-23643_225690978
+title: Business Administrator
+company: Four Elms Medical centre
+location: Cardiff, CF24 2HB
+source: NHS Jobs
+job_id: nhs-5697378
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -100,11 +100,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Administrator
-company: Four Elms Medical centre
-location: Cardiff, CF24 2HB
-source: NHS Jobs
-job_id: nhs-5697378
+title: Customer Field Service Advisor
+company: Hays Business Support - Agency - Temporary
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225792580
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -125,34 +125,10 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
-company: Adecco - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-23643_225691400
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-2151735
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Yolk Recruitment - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-23643_225690422
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -252,19 +228,19 @@ job_id: jobg8-23643_225782187
 reason: Approved conservative Cardiff launch catchment.
 ---
 
+## REVIEW (2)
+
 ---
 action: 
-decision: include
-automatic_decision: include
-title: Team Coordinator
-company: Arup - Agency - Contract
-location: Cardiff
+decision: review
+automatic_decision: review
+title: Accounts Assistant (Purchase Ledger)
+company: Michael Page - Agency - Permanent
+location: South Glamorgan
 source: JobG8
-job_id: jobg8-23643_225692612
-reason: Approved conservative Cardiff launch catchment.
+job_id: jobg8-23643_225794501
+reason: No approved Cardiff catchment rule matched; local review required.
 ---
-
-## REVIEW (1)
 
 ---
 action: 

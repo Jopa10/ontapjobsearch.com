@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 7
+- automatic review: 5
 - automatic exclude: 0
 - effective include: 5
-- effective review: 7
+- effective review: 5
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225775436
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (5)
 
 ---
 action: 
@@ -114,18 +114,6 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Briggs Equipment Ltd - Agency - Contract
-location: Lisburn
-source: JobG8
-job_id: jobg8-108056565
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Administrator
 company: Reed - Agency - Permanent
 location: Larne
@@ -143,18 +131,6 @@ company: Hays Accounts and Finance - Agency - Permanent
 location: Larne
 source: JobG8
 job_id: jobg8-23643_225756135
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Ledger Assistant
-company: Woodside Logistics Group - Agency - Permanent
-location: Ballyclare
-source: JobG8
-job_id: jobg8-108207818
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
