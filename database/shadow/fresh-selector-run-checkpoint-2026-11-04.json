@@ -1,6 +1,6 @@
 {
   "checkpointVersion": 1,
-  "status": "workflow_running_after_checkpoint_schema_fix",
+  "status": "prepared_for_retry_with_safe_hash_diagnostic",
   "createdAtUtc": "2026-11-04",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
@@ -11,7 +11,7 @@
     "path": "database/shadow/stage-request.json",
     "archiveDate": "2026-11-03",
     "mode": "fresh_selection_parity",
-    "attempt": 8,
+    "attempt": 9,
     "sourceRevision": "a828536b62928d5c287fa9e18aa7924769851e29"
   },
   "pinnedArchive": {
@@ -57,7 +57,7 @@
     "conclusion": "failure",
     "attempt": 2,
     "failedStep": "Replay unchanged production selectors and record their decisions",
-    "reason": "Archive downloaded and local guard tests passed, but runner read expectedCurrentCounts at the root instead of under pinnedSavedSource.",
+    "reason": "Download and guard tests passed; parity runner rejected the ZIP because its SHA-256 did not match the pinned source. The runner did not report the actual hash yet.",
     "archiveDownloaded": true,
     "selectorParityStarted": false,
     "neonChanged": false,
@@ -66,10 +66,9 @@
     "artifacts": []
   },
   "nextRetry": {
-    "requestAttempt": 8,
+    "requestAttempt": 9,
     "workflowChanges": [
-      "Read count evidence from the nested pinnedSavedSource object.",
-      "Add and run a focused checkpoint-validation test."
+      "On pinned checksum mismatch, report expected and actual SHA-256 plus byte length only."
     ],
     "samePinnedArchive": true,
     "neonWrites": false

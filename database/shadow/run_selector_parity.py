@@ -158,7 +158,10 @@ def main():
     actual_size = archive.stat().st_size
     actual_sha256 = hashlib.sha256(archive.read_bytes()).hexdigest()
     if actual_sha256 != source['archiveSha256']:
-        raise ValueError('Saved source SHA-256 mismatch')
+        raise ValueError(
+            'Saved source SHA-256 mismatch: '
+            f"expected {source['archiveSha256']}; got {actual_sha256} ({actual_size} bytes)"
+        )
     if source['sizeBytes'] is not None and actual_size != source['sizeBytes']:
         raise ValueError('Saved source byte count mismatch')
     records, receipt = load_archive(archive)
