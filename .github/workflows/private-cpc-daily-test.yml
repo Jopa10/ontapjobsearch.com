@@ -41,7 +41,7 @@ jobs:
         run: npm ci --ignore-scripts
       - name: Test signup confirmations and existing Preview safeguards
         run: npx tsx --test tests/job-alert-signup.test.ts tests/private-job-alert-test.test.ts tests/cpc-job-alerts.test.ts
-      - name: Ensure the private signup confirmation tracking attribute exists
+      - name: Ensure required Brevo alert attributes exist (no emails sent)
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
         run: |
@@ -50,13 +50,32 @@ jobs:
           from pipeline.scripts.send_cpc_job_alerts import _brevo_request
           key = os.environ["BREVO_API_KEY"]
           attrs = _brevo_request("GET", "/contacts/attributes", key).get("attributes", [])
-          for name in ("ALERT_CONFIRMATION_STATE", "ALERT_PREFERENCES"):
+          expected = {
+              "ALERT_CONFIRMATION_STATE": {"text"},
+              "ALERT_PREFERENCES": {"text"},
+              "ALERT_LAST_SENT_DATE": {"text", "date"},
+          }
+          for name, allowed_types in expected.items():
               found = [attr for attr in attrs if attr.get("name") == name]
-              if found and (found[0].get("category") != "normal" or found[0].get("type") != "text"):
-                  raise SystemExit("The private alert attribute has an unexpected type")
-              if not found:
-                  _brevo_request("POST", "/contacts/attributes/normal/" + name, key, {"type": "text"})
-          print("Private signup confirmation tracking attribute ready; no email sent.")
+              if found:
+                  attribute = found[0]
+                  if (attribute.get("category") != "normal"
+                          or attribute.get("type") not in allowed_types):
+                      raise SystemExit(
+                          f"{name} exists as {attribute.get('category')}/{attribute.get('type')}; "
+                          f"expected normal/{' or '.join(sorted(allowed_types))}"
+                      )
+                  print(f"{name}: existing normal/{attribute.get('type')}")
+              else:
+                  create_type = "date" if name == "ALERT_LAST_SENT_DATE" else "text"
+                  _brevo_request("POST", "/contacts/attributes/normal/" + name, key, {"type": create_type})
+                  print(f"{name}: created normal/{create_type}")
+          verified = _brevo_request("GET", "/contacts/attributes", key).get("attributes", [])
+          for name, allowed_types in expected.items():
+              match = next((attr for attr in verified if attr.get("name") == name), None)
+              if not match or match.get("category") != "normal" or match.get("type") not in allowed_types:
+                  raise SystemExit(f"Brevo attribute verification failed for {name}")
+          print("Required Brevo alert attributes confirmed; no email sent.")
           PY
       - name: Read current published job data (no scripts run from main)
         uses: actions/checkout@v4
