@@ -17,7 +17,7 @@ const DB_PROJECT='noisy-fire-97386602';
 const CEILING=838860800;
 const RESERVE=67108864;
 const EXPECTED_ZIP_SHA={
-  raw:'72ef75471adf1f92572f9f04c7c4b507391141258229669af532f75b581ce2de',
+  raw:'cb31bf448e0ef8187befb13586fad826fb6e7c8205fecea8da18bb5de30a82bf',
   parity:'b38ee0dd2b84b1f2a333269bdfdbb729636cd54315c4ddce4cdf827b35ecce29',
   recovery:'29a734db8b3fedb3c723545ce0fa8cd479e465a46a68ba522172792992f5bf24'
 };

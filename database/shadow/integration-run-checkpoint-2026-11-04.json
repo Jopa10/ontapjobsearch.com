@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "status": "repackaged-after-stale-artifact-guard-stop",
+  "status": "fresh-artifact-zip-digest-pinned-after-prewrite-guard-stop",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "parentCommit": "12e744592a8af7c65fc559e5faf0371ae45ed59a",
@@ -76,5 +76,16 @@
     "writesStarted": false,
     "cause": "Artifact ZIP was from workflow run 41866612741 attempt 2, whose head commit was 9ccacfd438a6209f1ebee61393f7548e4e89c292; it did not match the current package-request commit."
   },
-  "nextRunGuard": "Require source package run head_sha to equal the current request commit before deployment; verify raw packet embedded archive SHA equals 4 November pinned SHA before any DB connection."
+  "nextRunGuard": "Require source package run head_sha to equal the current request commit before deployment; verify raw packet embedded archive SHA equals 4 November pinned SHA before any DB connection.",
+  "failedPreviewAttempts": [
+    {
+      "deploymentId": "dpl_2VXLHpnrXpT59tSnZ5q4NBbkQ2ps",
+      "commit": "0ad978170d86e46e6bbd81dce052add34a415d88",
+      "outcome": "failed-at-artifact-zip-digest-guard-before-database-connection",
+      "actualArtifactZipSha256": "cb31bf448e0ef8187befb13586fad826fb6e7c8205fecea8da18bb5de30a82bf",
+      "priorExpectedZipSha256": "72ef75471adf1f92572f9f04c7c4b507391141258229669af532f75b581ce2de",
+      "databaseConnected": false,
+      "writesStarted": false
+    }
+  ]
 }
