@@ -1,8 +1,8 @@
 {
   "framework": null,
-  "buildCommand": "node build-compact-integration.mjs",
+  "buildCommand": "node measure-retention.mjs",
   "installCommand": "npm ci --omit=dev --ignore-scripts",
-  "outputDirectory": "dist",
+  "outputDirectory": "retention-dist",
   "headers": [
     {
       "source": "/(.*)",
