@@ -5,7 +5,7 @@ const canonicalUrl = "https://www.ontapjobsearch.com/ai-at-work";
 
 export const metadata: Metadata = {
   title: "AI at Work: Practical Tips and Course Reviews | Ontap",
-  description: "Practical AI help for everyday office work: example prompts, first-hand beginner course reviews and reports on AI in job adverts.",
+  description: "Practical AI help for everyday office work: advice by job type, example prompts, first-hand course reviews and reports on AI in job adverts.",
   alternates: { canonical: canonicalUrl },
 };
 
@@ -65,6 +65,37 @@ export default function AiAtWorkPage() {
           </div>
         </article>
       </div>
+
+      <section aria-labelledby="ai-advice-by-job-type" className="mt-10 overflow-hidden rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 px-5 py-7 shadow-lg sm:px-8 sm:py-9">
+        <header className="mb-7 max-w-2xl">
+          <p className="mb-3 text-sm font-bold uppercase tracking-wider text-blue-300">Practical help for your role</p>
+          <h2 id="ai-advice-by-job-type" className="mb-3 text-2xl font-bold tracking-tight text-white sm:text-3xl">AI advice by job type</h2>
+          <p className="leading-7 text-slate-300">Straightforward ways to use AI in the work you already do, with the checks and safeguards that matter.</p>
+        </header>
+
+        <div className="grid gap-4 md:grid-cols-2">
+          <article className="group flex flex-col rounded-2xl bg-white p-6 shadow-sm ring-1 ring-white/10 transition duration-200 hover:-translate-y-0.5 hover:shadow-xl">
+            <div className="mb-5 flex items-center justify-between gap-4">
+              <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-blue-100 text-sm font-extrabold text-blue-800">01</span>
+              <span className="rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold uppercase tracking-wider text-emerald-800">New</span>
+            </div>
+            <p className="mb-2 text-sm font-bold uppercase tracking-wider text-blue-700">Reception and office admin</p>
+            <h3 className="mb-3 text-xl font-bold leading-snug text-slate-950">Your front desk, with AI</h3>
+            <p className="mb-6 leading-7 text-slate-700">Four useful tasks to try this week, from clearer emails to meeting actions, plus two important cautions.</p>
+            <Link href="/ai-at-work/reception-and-office-admin" className="mt-auto inline-flex items-center font-bold text-blue-700 underline underline-offset-4 group-hover:text-blue-900">Read the practical guide →</Link>
+          </article>
+
+          <article className="flex flex-col rounded-2xl border border-white/15 bg-white/10 p-6 backdrop-blur-sm">
+            <div className="mb-5 flex items-center justify-between gap-4">
+              <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 text-sm font-extrabold text-white ring-1 ring-white/20">02</span>
+              <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-bold uppercase tracking-wider text-blue-100 ring-1 ring-white/15">Next in the series</span>
+            </div>
+            <p className="mb-2 text-sm font-bold uppercase tracking-wider text-blue-200">Accounts and finance admin</p>
+            <h3 className="mb-3 text-xl font-bold leading-snug text-white">AI is doing the data entry. Checking is your skill.</h3>
+            <p className="leading-7 text-slate-300">How accounts assistants can use AI to draft and explain while keeping control of every figure.</p>
+          </article>
+        </div>
+      </section>
 
       <section aria-labelledby="ai-job-advert-watch" className="mt-8 border-b border-slate-200 py-6">
         <p className="mb-3 text-sm font-semibold text-blue-700">AI Job Advert Watch · October 2026</p>
