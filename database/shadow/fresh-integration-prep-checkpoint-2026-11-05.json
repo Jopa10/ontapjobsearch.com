@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "corrected-preview-integration-retry-building",
+  "status": "wrong-root-preview-deployment-cancelled",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Check deployment dpl_9qRMfbFC8oja2LFZZpvFnh3DBGMF. Confirm buildCompactIntegration command, input validation, read-only baseline guard success, then phase logs. Stop and checkpoint on any failure. If complete, record after-size, counts/readback/replay and no-purge evidence.",
+  "next": "The second attempt was cancelled before the build phase because it used the site root. Recreate deployment with projectSettings.rootDirectory='database/shadow/harness' and source branch head. The first audit-only deploy proved this root setting selects harness/vercel.json. Keep all artifact URLs branch-scoped Preview, and verify the build log before writes.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -269,7 +269,7 @@
     "url": "https://ontapjobsearch-pvpn3ktds-ontap1.vercel.app",
     "createdAt": "2026-11-05T13:03:12Z",
     "sourceCommit": "2687bad0f52a65ea04e64973cda52eebebeaf71d",
-    "state": "INITIALIZING",
+    "state": "CANCELED",
     "target": null,
     "buildCommand": "node build-compact-integration.mjs",
     "rootDirectory": "database/shadow/harness",
@@ -279,6 +279,15 @@
       "expiryEnabled": false,
       "purgeDuePayloads": false,
       "productionChanged": false
-    }
+    },
+    "stopPhase": "wrong project root detected before build command",
+    "buildCommandActuallyRun": "site root npm run build began; canceled immediately",
+    "integrationStarted": false,
+    "neonWrite": false,
+    "databaseChanged": false,
+    "productionChanged": false,
+    "purgeExecuted": false,
+    "expiryEnabled": false,
+    "correction": "Set projectSettings.rootDirectory='database/shadow/harness' explicitly on the next deployment."
   }
 }
