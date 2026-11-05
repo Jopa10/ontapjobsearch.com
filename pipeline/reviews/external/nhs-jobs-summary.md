@@ -2,15 +2,135 @@
 
 review_date: 2026-11-05
 
-- Open Administrative & Clerical rows reviewed: 1995
-- Auto/remembered selected: 369
+- Open Administrative & Clerical rows reviewed: 2006
+- Auto/remembered selected: 370
 - Selected HC Tier A: 188
-- Selected HC Tier B: 181
-- POSS awaiting decision: 1540
+- Selected HC Tier B: 182
+- POSS awaiting decision: 1550
 - Excluded: 0
 - HARD_PASS: 86
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | Leeds/London, SE1 8UG | £94356.00 to £108814.00 | Assistant Director
+source_job_id: 5708531
+title: Assistant Director
+employer: NHS England
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0829
+factual_fingerprint: 0c4627a9c67ddf586d8118aba2f55c33b70beef9f109f632989b3bb730d61304
+---
+
+---
+action:
+POSS | NHS Jobs | Staffordshire | Staffordshire, ST5 5AA | £32073.00 to £39043.00 | IG Support Officer
+source_job_id: 5708559
+title: IG Support Officer
+employer: NHS Shropshire, Telford and Wrekin Integrated Care Board
+region: Staffordshire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9942-26-0096
+factual_fingerprint: 42bbd6ea94423b5f1666bdda91cf01cbebe2c9b032126e5e55769588d690c314
+---
+
+---
+action:
+POSS | NHS Jobs | Staffordshire | Staffordshire, ST5 5AA | £39959.00 to £48117.00 | IG Business Officer
+source_job_id: 5708549
+title: IG Business Officer
+employer: NHS Shropshire, Telford and Wrekin Integrated Care Board
+region: Staffordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9942-26-0095
+factual_fingerprint: ec7b31ac7a123c37f068b0222b887671adb6f3d807ac8e7ca51e81ef2ccca277
+---
+
+---
+action:
+POSS | NHS Jobs | Derbyshire | Derby, DE22 3NE | £28392.00 to £31157.00 | Cancer Centre Data Validator
+source_job_id: 5705466
+title: Cancer Centre Data Validator
+employer: University Hospitals of Derby and Burton NHS Foundation Trust
+region: Derbyshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1147
+factual_fingerprint: 8fc5f6710870d1041b902b648a9518c9d4646c1d7268cdd92768fc05c8509efb
+---
+
+---
+action:
+POSS | NHS Jobs | Staffordshire | Staffordshire, ST5 5AA | £57528.00 to £64750.00 | IG Manager
+source_job_id: 5708526
+title: IG Manager
+employer: NHS Shropshire, Telford and Wrekin Integrated Care Board
+region: Staffordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9942-26-0094
+factual_fingerprint: 877d082b4d4de0c1406b2f827ebdde45dae1d69ddde78f0ed6dd5841d8b9fdcd
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, NW1 2BU | £66274.00 to £73496.00 | Lead Clinical Nurse Specialist – Gynaecology Oncology
+source_job_id: 5706885
+title: Lead Clinical Nurse Specialist – Gynaecology Oncology
+employer: University College London Hospitals NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-1075
+factual_fingerprint: 6f452d03eaaa51271a1eeef25f5345d777c4944e3b936723050b08a90609c215
+---
+
+---
+action:
+POSS | NHS Jobs | East Midlands | Burton on Trent, DE13 0RB | £25760.00 to £27476.00 | Pathway Coordinator (Medical Secretary)
+source_job_id: 5708391
+title: Pathway Coordinator (Medical Secretary)
+employer: University Hospitals of Derby and Burton NHS Foundation Trust
+region: East Midlands
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1155
+factual_fingerprint: 3215c213ba3f294b54ea6e2b7c86193c24efdd387911242f3f49a619e686a482
+---
+
+---
+action:
+POSS | NHS Jobs | East Midlands | Burton on Trent, DE13 0RB | £25272.00 | Front of House Administrator
+source_job_id: 5708381
+title: Front of House Administrator
+employer: University Hospitals of Derby and Burton NHS Foundation Trust
+region: East Midlands
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1154
+factual_fingerprint: 641df551e3c748858718ff44118f6ea2125433eebe64dd56ebe8ad16d3612f17
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M13 9WL | Negotiable | Chief Delivery Officer
+source_job_id: 5708459
+title: Chief Delivery Officer
+employer: Manchester University NHS Foundation Trust
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3333
+factual_fingerprint: e8aca919db79c97d6ca068547fda1fa37634add9e5e9ed3813d0a62d817f0260
+---
+
+---
+action:
+POSS | NHS Jobs | — | St Leonards, BH24 2AD | £21638.00 to £23079.00 | SPOA Call Advisor
+source_job_id: 5708504
+title: SPOA Call Advisor
+employer: Dorset HealthCare University NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1198
+factual_fingerprint: 031f21512ad225df656f56686ef602824d149931582f12a33f0452ec9b516316
+---
 
 ---
 action:
@@ -1610,14 +1730,14 @@ factual_fingerprint: 6cb382647231cd74efc3d3a081bac8a2ea0ff5b7f433eaa0a442ae3a792
 
 ---
 action:
-POSS | NHS Jobs | North East - Tees Valley | Stockton on Tees, TS18 3TX | £33378.00 | Assistant Operations Manager - NE South
+POSS | NHS Jobs | North East - Tees Valley | Stockton on Tees, TS18 3TX, Durham, DH7 8RW, Sunderland, SR5 2AL | £33378.00 | Assistant Operations Manager - NE South
 source_job_id: 5706153
 title: Assistant Operations Manager - NE South
 employer: Intrahealth Ltd
 region: North East - Tees Valley
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0025-26-0177
-factual_fingerprint: 55a8cc0e9f4b4e76c81098b5bbb9202a4da1dd011b0aaebfd9fd1625bcbbb55f
+factual_fingerprint: 0728ca9435759ebbc001f6aa2749034a6fc43729ada137d2cb2983e498255ce4
 ---
 
 ---
@@ -4617,7 +4737,7 @@ employer: Doncaster & Bassetlaw Teaching Hospitals NHS FT
 region: Yorkshire - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0601
-factual_fingerprint: b80cd0621b574c3043df11dc1252a45785c1dfbe2bfe51b0d1eede15a0879291
+factual_fingerprint: 797976b3657e700a177d1aad5c40740d33cec993caea061e69f3ea51472b2481
 ---
 
 ---
