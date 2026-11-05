@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "compact-integration-preview-building",
+  "status": "integration-stopped-at-readonly-baseline-guard",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Inspect dpl_6mcFZkrmJfRmzhmYZSK8Nm2fLdyv build logs. Confirm correct build command and all artifact/input/baseline checks pass before the first raw-accepted phase. Then capture phase IDs, post-run size/readback, and verify no purge/expiry/publication.",
+  "next": "Correct Preview runner expected feed_runs from 14 to 5 live rows (audit showed 5 live and 9 dead stats). Retry only the compact Preview integration after refreshing artifact links if needed. The failed build recorded integrationWriteStarted=no; DB remains unchanged.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -269,7 +269,7 @@
     "url": "https://ontapjobsearch-k52eqboda-ontap1.vercel.app",
     "createdAt": "2026-11-05T13:01:41Z",
     "sourceCommit": "f5e580f4a0fbb7add22fe5c5f15d9f75c73e58be",
-    "state": "INITIALIZING",
+    "state": "ERROR",
     "target": null,
     "buildCommand": "node build-compact-integration.mjs (committed vercel.json)",
     "rootDirectory": "database/shadow/harness",
@@ -285,6 +285,14 @@
       "jobsWithheld": true,
       "expiryEnabled": false,
       "purgeDuePayloads": false
-    }
+    },
+    "stopPhase": "read-only DB preflight",
+    "failure": "Expected feed_runs=14; actual table row count=5. The 9 dead rows are pg_stat_user_tables statistics, not feed_runs records.",
+    "integrationWriteStarted": false,
+    "neonWrite": false,
+    "databaseChanged": false,
+    "productionChanged": false,
+    "purgeExecuted": false,
+    "expiryEnabled": false
   }
 }
