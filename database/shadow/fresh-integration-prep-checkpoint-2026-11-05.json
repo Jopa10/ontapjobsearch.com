@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "5-nov-preview-compact-integration-passed",
+  "status": "5-nov-preview-integration-complete",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Neutralize the three temporary artifact URLs in branch-scoped Preview env vars and restore harness vercel.json to the read-only retention audit command. Then do a final read-only check of deployment status/receipt and leave PR #336 unmerged, production untouched.",
+  "next": "On 6 November, inspect this checkpoint and current branch/PR/workflow state. When the saved feed exists, pin that exact archive, validate selector parity, then run read-only Neon preflight. Do not rerun 5 November selector or integration.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -337,5 +337,31 @@
       "id": "dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq",
       "result": "passed compact Preview integration"
     }
-  ]
+  ],
+  "cleanup": {
+    "status": "complete",
+    "previewArtifactUrlVariablesCleared": true,
+    "variableKeys": [
+      "ONTAP_INTEGRATION_RAW_STAGE_URL",
+      "ONTAP_INTEGRATION_PARITY_URL",
+      "ONTAP_INTEGRATION_RECOVERY_URL"
+    ],
+    "scope": "Preview only, feat/neon-shadow-database",
+    "harnessVercelBuildRestored": "node measure-retention.mjs",
+    "outputDirectory": "retention-dist",
+    "productionEnvChanged": false
+  },
+  "finalVerification": {
+    "pullRequest": 336,
+    "pullRequestState": "open",
+    "merged": false,
+    "deploymentId": "dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq",
+    "deploymentState": "READY",
+    "target": "Preview; Vercel target null",
+    "jobsPublished": 0,
+    "productionChanged": false,
+    "emailSent": false,
+    "purgeExecuted": false,
+    "expiryEnabled": false
+  }
 }
