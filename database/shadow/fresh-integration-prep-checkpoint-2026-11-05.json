@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "selector-parity-passed-readonly-neon-audit-running",
+  "status": "readonly-preflight-passed-retention-safety-review",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Inspect this exact Preview audit deployment to confirm environment guards and read-only measurement. Save its aggregate report. If the project guard, transaction_read_only, size ceiling or 64 MiB reserve check fails, stop; otherwise decide whether a separate Preview integration is safe.",
+  "next": "Do not run compact integration until its retention hook is made explicitly no-purge for this Preview test. Review retention classification, save a safe runner checkpoint, then continue the separately authorized Preview integration with jobs withheld and expiry/purge disabled.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -81,15 +81,75 @@
     }
   },
   "readOnlyNeonPreflight": {
-    "status": "initializing",
+    "status": "passed",
     "deploymentId": "dpl_2Rp4W183qRtBQJFAmSdFupDrw1Xa",
     "deploymentUrl": "https://ontapjobsearch-d9ounsy70-ontap1.vercel.app",
     "sourceCommit": "7e88c839a34d29059d53006a9b36982352aea048",
-    "runner": "database/shadow/harness/measure-retention.mjs",
-    "rootDirectory": "database/shadow/harness",
-    "environmentGuard": "VERCEL_ENV=preview and ONTAP_SHADOW_NEON_PROJECT_ID=noisy-fire-97386602",
-    "databaseTransaction": "REPEATABLE READ READ ONLY",
-    "neonWrite": false,
-    "productionChanged": false
+    "observedAt": "2026-11-05T12:36:08.190Z",
+    "readOnly": true,
+    "transactionReadOnly": "on",
+    "databaseBytes": 485834752,
+    "ceilingBytes": 838860800,
+    "protectedReserveBytes": 67108864,
+    "headroomAboveReserveBytes": 285917184,
+    "storageForecastPriorIntegrationGrowth": 78077952,
+    "illustrativeHeadroomAfterSameGrowth": 207839232,
+    "noPurgeCredit": true,
+    "feedRuns": {
+      "live": 5,
+      "dead": 9,
+      "bytes": 16367616
+    },
+    "supplierAdverts": {
+      "rows": 47902,
+      "bytes": 219226112,
+      "payloadRows": 47902,
+      "payloadBytes": 111484360,
+      "payloadJsonTextBytes": 180471642,
+      "feedDateRange": [
+        "2026-11-02",
+        "2026-11-04"
+      ],
+      "inactiveRows": 0
+    },
+    "jobs": {
+      "withheld": 47902,
+      "bytes": 9274466
+    },
+    "selectorPayloadBreakdown": {
+      "latestSelectorFeedDate": "2026-11-02",
+      "fullyExcluded": {
+        "rows": 38633,
+        "bytes": 89249552
+      },
+      "otherDecided": {
+        "rows": 5163,
+        "bytes": 12406699
+      },
+      "withoutCompleteSelector": {
+        "rows": 4106,
+        "bytes": 9828109
+      }
+    },
+    "tableBytes": {
+      "selection_decisions": 207036416,
+      "jobs": 25944064,
+      "advert_appearances": 8708096
+    },
+    "safety": {
+      "noDatabaseWrite": true,
+      "productionChanged": false,
+      "jobsPublished": false,
+      "emailSent": false,
+      "expiryEnabled": false,
+      "purgeExecuted": false
+    }
+  },
+  "retentionSafetyReview": {
+    "status": "integration-gate-open",
+    "finding": "compact-integration.mjs calls applyExcludeReviewWindow, which contains an unconditional due-payload purge UPDATE. Current as-of date would evaluate prior exclusion dates. Need an explicit no-purge path before the authorized 5 November Preview integration.",
+    "codePath": "database/shadow/harness/compact-integration.mjs -> database/shadow/harness/exclude-retention.mjs",
+    "observedDate": "2026-11-05",
+    "purgeExecuted": false
   }
 }
