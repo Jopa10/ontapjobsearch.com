@@ -1,0 +1,14 @@
+{
+  "archiveDate": "2026-11-05",
+  "sourceRevision": "31778ba7626b4b88f3f0f4d163413543efd06c01",
+  "stages": [
+    20,
+    50,
+    100
+  ],
+  "maximumDatabaseBytes": 838860800,
+  "purpose": "Read-only selector parity on exact owner-pinned 5 November archive; no Neon write or production publish.",
+  "sourceMode": "owner_pinned_saved_archive",
+  "attempt": 13,
+  "mode": "fresh_selection_parity"
+}

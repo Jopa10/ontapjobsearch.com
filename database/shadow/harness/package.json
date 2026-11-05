@@ -1,0 +1,11 @@
+{
+  "name": "ontap-shadow-sample-check",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test *.test.mjs",
+    "build": "node verify-neon.mjs"
+  },
+  "dependencies": { "pg": "8.18.0" },
+  "devDependencies": { "@electric-sql/pglite": "0.5.14" }
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "preparedAt": "2026-11-03T13:35:48.684707+00:00",
+  "status": "prepared-locally-tested-no-replay",
+  "historicalRun": 41530087079,
+  "historicalRulesRevision": "4a3475153ba917fe56d817636cd1449b9d6abc85",
+  "historicalCandidateFiles": 946,
+  "historicalSourceSha256": "248e85e643a49cbc2bb57a2d32d6b75c0b62b2b9ba8f64f11ff0a608c91d36f5",
+  "historicalInventory": "database/shadow/dependency-source-2026-11-02.json",
+  "historicalRuntimeProven": false,
+  "freshRuntimeCaptureImplemented": true,
+  "freshRuntimeCaptureExecuted": false,
+  "pythonBoundaryTestsPassed": 4,
+  "javascriptBindingTestsPassed": 3,
+  "pythonJavascriptHashBindingPassed": true,
+  "fullHarnessResult": {
+    "passed": 26,
+    "failed": 0
+  },
+  "activityAtStart": {
+    "githubInProgress": 0,
+    "githubQueued": 0
+  },
+  "neonWrites": false,
+  "selectorReplayExecuted": false,
+  "supplierFetchExecuted": false,
+  "archiveUploadRepeated": false,
+  "cleanupExecuted": false,
+  "productionChanged": false,
+  "resume": "Inspect current activity first. Do not repeat selector/storage/archive tests. Capture is installed in the existing isolated replay path but no replay was requested or launched. Historical commit inventory is not historical runtime proof; synthetic existing archives remain labelled. Next current saved-feed turnover and measured compact Neon growth, with real provenance emitted on the next separately justified replay. No cutover/daily ingestion/cleanup authorized."
+}

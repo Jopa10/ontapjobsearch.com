@@ -1,0 +1,22 @@
+{
+  "archiveDate": "2026-11-05",
+  "archiveSha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d",
+  "archiveBytes": 35093994,
+  "sourceRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
+  "selectorRun": 42023032553,
+  "expectedReceipt": {
+    "sourceRows": 43391,
+    "uniqueSupplierIds": 43389,
+    "exactRepeatRows": 0,
+    "conflictingIdsHeld": [
+      "1401785815",
+      "1401786160"
+    ],
+    "cleanRecords": 43387
+  },
+  "outputSha256": "b4f3950d3cc1f1ea1fdbaa100b8fdf47a39703a2fc83043b40022d677777a6a2",
+  "artifactName": "neon-shadow-integration-source-2026-11-05",
+  "replayNotRepeated": true,
+  "neonWrite": false,
+  "productionChanged": false
+}

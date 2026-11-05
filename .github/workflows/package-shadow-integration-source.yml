@@ -1,0 +1,103 @@
+name: Package pinned shadow integration source
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/package-integration-source-request.json]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ontap-neon-shadow-source-package
+  cancel-in-progress: false
+jobs:
+  package-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            database/shadow/package-integration-source-request.json
+            database/shadow/prepare_raw_stage.py
+      - name: Resolve pinned request
+        id: request
+        run: |
+          python - <<'PY'
+          import json, os
+          r=json.load(open('database/shadow/package-integration-source-request.json'))
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              for k in ('archiveDate','archiveSha256','archiveBytes','sourceRevision','outputSha256','artifactName'):
+                  f.write(k+'='+str(r[k])+'\n')
+              f.write('expectedReceipt='+json.dumps(r['expectedReceipt'],separators=(',',':'))+'\n')
+          PY
+      - name: Download and verify the exact saved archive
+        env:
+          ONTAP_SAVED_FEED_URL: ${{ secrets.ONTAP_SAVED_FEED_URL }}
+          EXPECTED_SHA: ${{ steps.request.outputs.archiveSha256 }}
+          EXPECTED_BYTES: ${{ steps.request.outputs.archiveBytes }}
+          ARCHIVE_DATE: ${{ steps.request.outputs.archiveDate }}
+        run: |
+          set -euo pipefail
+          test -n "$ONTAP_SAVED_FEED_URL"
+          saved_feed_url="$(printf '%s' "$ONTAP_SAVED_FEED_URL" | tr -d '[:space:]')"
+          case "$saved_feed_url" in https://*) ;; *) echo "::error::Saved source secret must be HTTPS"; exit 1 ;; esac
+          mkdir -p "$RUNNER_TEMP/pinned-source"
+          archive="$RUNNER_TEMP/pinned-source/jobg8-raw-${ARCHIVE_DATE}.zip"
+          code="$(curl --silent --show-error --location --connect-timeout 30 --max-time 180 --write-out '%{http_code}' "$saved_feed_url" --output "$archive")"
+          if [ "$code" != "200" ]; then
+            echo "::error::Pinned source download failed with HTTP $code; response body withheld"
+            exit 1
+          fi
+          actual_bytes="$(wc -c < "$archive" | tr -d '[:space:]')"
+          actual_sha="$(sha256sum "$archive" | cut -d' ' -f1)"
+          if [ "$actual_bytes" != "$EXPECTED_BYTES" ] || [ "$actual_sha" != "$EXPECTED_SHA" ]; then
+            echo "::error::Pinned source fingerprint mismatch; bytes=$actual_bytes sha256=$actual_sha"
+            exit 1
+          fi
+          echo "Pinned source checksum and byte length passed."
+      - name: Prepare and verify the full raw stage
+        env:
+          ARCHIVE_DATE: ${{ steps.request.outputs.archiveDate }}
+          ARCHIVE_SHA: ${{ steps.request.outputs.archiveSha256 }}
+          SOURCE_REVISION: ${{ steps.request.outputs.sourceRevision }}
+          EXPECTED_RECEIPT: ${{ steps.request.outputs.expectedReceipt }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/pinned-source"
+          cat > "$RUNNER_TEMP/pinned-source/raw-request.json" <<EOF
+          {"archiveDate":"$ARCHIVE_DATE","sourceRevision":"$SOURCE_REVISION","maximumDatabaseBytes":838860800}
+          EOF
+          python -u database/shadow/prepare_raw_stage.py \
+            --archive "$RUNNER_TEMP/pinned-source/jobg8-raw-${ARCHIVE_DATE}.zip" \
+            --request "$RUNNER_TEMP/pinned-source/raw-request.json" \
+            --percentage 100 \
+            --output "$RUNNER_TEMP/pinned-source/raw-stage-100.json.gz" \
+            > "$RUNNER_TEMP/pinned-source/raw-stage-summary.json"
+          python - "$RUNNER_TEMP/pinned-source/raw-stage-100.json.gz" "$RUNNER_TEMP/pinned-source/raw-stage-summary.json" "$ARCHIVE_SHA" "$ARCHIVE_DATE" "$SOURCE_REVISION" <<'PY'
+          import gzip, json, sys
+          import os
+          stage_path, summary_path, sha, day, revision = sys.argv[1:]
+          expected=json.loads(os.environ['EXPECTED_RECEIPT'])
+          expected_clean=expected.pop('cleanRecords')
+          stage=json.load(gzip.open(stage_path,'rt',encoding='utf-8'))
+          summary=json.load(open(summary_path))
+          assert stage['archiveSha256']==sha and stage['archiveDate']==day and stage['observedOn']==day
+          assert stage['sourceRevision']==revision and stage['percentage']==100
+          assert stage['receiptDiagnostics']==expected
+          assert stage['eligibleRecords']==expected_clean and len(stage['records'])==expected_clean
+          assert summary['archiveSha256']==sha and summary['percentage']==100
+          with open(stage_path+'.manifest.json','w') as f:
+              json.dump({'archiveDate':day,'archiveSha256':sha,'sourceRevision':revision,'receiptDiagnostics':expected,'cleanRecords':expected_clean},f,indent=2)
+              f.write('\n')
+          print('Raw stage prepared and pinned counts verified; selector was not rerun.')
+          PY
+      - name: Preserve raw-stage input for the guarded Preview build
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ${{ steps.request.outputs.artifactName }}
+          path: |
+            ${{ runner.temp }}/pinned-source/raw-stage-100.json.gz
+            ${{ runner.temp }}/pinned-source/raw-stage-100.json.gz.manifest.json
+          if-no-files-found: error
+          retention-days: 2

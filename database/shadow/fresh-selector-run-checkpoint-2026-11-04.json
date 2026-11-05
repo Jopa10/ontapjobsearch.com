@@ -1,0 +1,101 @@
+{
+  "checkpointVersion": 1,
+  "status": "awaiting_pre_changeover_copy_check",
+  "createdAtUtc": "2026-11-04",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "preparedFromHead": "9653c07cc689ec881a01a02fb3d9c8780c81a4ae",
+  "pullRequest": 336,
+  "remoteRunId": 41836073962,
+  "request": {
+    "path": "database/shadow/stage-request.json",
+    "archiveDate": "2026-11-03",
+    "mode": "fresh_selection_parity",
+    "attempt": 9,
+    "sourceRevision": "a828536b62928d5c287fa9e18aa7924769851e29"
+  },
+  "pinnedArchive": {
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "key": "jobg8/raw/2026-11-03.zip",
+    "bytes": 35800056,
+    "sha256": "e6dcb08ea537bcb34dffd2ad9da089d443b5f0b1f875018c53aac0357fecc892",
+    "sourceRows": 44432,
+    "cleanRecords": 44430,
+    "quarantinedConflictingId": "1401786160"
+  },
+  "preRunNeonBaseline": {
+    "deploymentId": "dpl_2cc1SchxPFFGdQ8xUhE1oGm2hgJo",
+    "sourceCommit": "c1060d939fe2383d64eb5ead987dc838dc726a54",
+    "databaseBytes": 407363584,
+    "advertPayloadRows": 43796,
+    "fullyExcludedPayloadRows": 38633,
+    "fullyExcludedPayloadBytes": 89251788,
+    "feedHistoryThrough": "2026-11-02",
+    "jobsWithheld": true,
+    "NeonMutationInThisStage": false
+  },
+  "workflowSafety": {
+    "workflow": ".github/workflows/test-neon-jobg8-staged.yml",
+    "expectedOperation": "download and validate the pinned saved archive, then run selector parity",
+    "expectedDatabaseWrites": false,
+    "expectedSupplierFetch": false,
+    "secretNameOnly": "ONTAP_SAVED_FEED_URL",
+    "secretValueRecorded": false,
+    "activeWorkflowAtPreparation": false
+  },
+  "recovery": [
+    "Read-only list the 2026-11-03 S3 prefix for a pre-changeover preservation copy; only resume if its metadata matches the pinned morning archive.",
+    "The exact 2026-11-03.zip was not found in CloudShell home, failed-run artifacts, or Library title search. The current S3 object is an overwrite and S3 versioning is disabled. Resume only if another exact copy is located; otherwise select and pin a new feed date explicitly.",
+    "The pinned 07:59 S3 object was overwritten at 18:04 the same day; S3 versioning is disabled and VersionId is null. Find an independently retained exact copy before continuing; do not use the current object or run selector replay.",
+    "Compare the current S3 object metadata with the pinned 3 November ETag/size and recover the pinned object version before selector replay; never accept an unverified hash.",
+    "Generate and install a fresh short-lived owner CloudShell URL immediately before the diagnostic run; the prior URL token expired.",
+    "Resolve the invalid S3 signing identity in owner CloudShell and validate a fresh short-lived URL before updating the repository secret or retrying.",
+    "Locate the GitHub Actions run for this request commit and continue polling that run; do not start a duplicate.",
+    "If the run fails, inspect its job logs and uploaded artifacts, then resume from that evidence.",
+    "Keep the pinned archive checksum and do not fetch a newer supplier feed.",
+    "Do not apply a Neon migration or import this feed until parity evidence and combined storage headroom are reviewed."
+  ],
+  "triggerCommit": "5528849c97c7476c50641ccd2814a2999c8de455",
+  "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/41836073962",
+  "runOutcome": {
+    "status": "completed",
+    "conclusion": "failure",
+    "attempt": 2,
+    "failedStep": "Replay unchanged production selectors and record their decisions",
+    "reason": "S3 download succeeded and archive guards passed, but the object did not match the pinned SHA-256 or byte length.",
+    "archiveDownloaded": true,
+    "selectorParityStarted": false,
+    "neonChanged": false,
+    "expectedSha256": "e6dcb08ea537bcb34dffd2ad9da089d443b5f0b1f875018c53aac0357fecc892",
+    "actualSha256": "444f0f21b1799feda0e1b64559ced614605e61a1267bf9bded27e3fde9ac189c",
+    "expectedBytes": 35800056,
+    "actualBytes": 34546115,
+    "secretValueRecorded": false,
+    "artifacts": []
+  },
+  "nextRetry": {
+    "requestAttempt": 9,
+    "workflowChanges": [
+      "On pinned checksum mismatch, report expected and actual SHA-256 plus byte length only."
+    ],
+    "samePinnedArchive": true,
+    "neonWrites": false
+  },
+  "liveS3MetadataAtVerification": {
+    "checkedAtUtc": "2026-11-04",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "key": "jobg8/raw/2026-11-03.zip",
+    "bytes": 34546115,
+    "etag": "\"8d9c3335dc833d135490a675160aa96f-5\"",
+    "lastModified": "2026-11-03T18:04:56+00:00",
+    "versionId": null,
+    "comparison": "differs from pinned 07:59:34Z object: 35,800,056 bytes; ETag \"3763376ffef7e7b444b9996b3cbf7bd-5\"; SHA-256 e6dcb08ea537bcb34dffd2ad9da089d443b5f0b1f875018c53aac0357fecc892"
+  },
+  "recoverySearch": {
+    "cloudShellFindCommand": "find ~ -type f -name 2026-11-03.zip -print",
+    "result": "no matching file found",
+    "githubRunArtifacts": "none retained for the failed fresh-source runs",
+    "exactLibraryFilenameSearch": "no matching file found",
+    "s3PreservationKeyCheck": "not yet listed; workflow can preserve jobg8/raw/2026-11-03-pre-changeover.zip only when daily cycle is changeover"
+  }
+}

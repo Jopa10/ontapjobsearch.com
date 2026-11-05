@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-04",
+  "status": "passed-schema-migration-and-readback",
+  "operation": "schema-only migration 002",
+  "target": {
+    "environment": "Preview",
+    "neonProjectId": "noisy-fire-97386602"
+  },
+  "deployment": {
+    "id": "dpl_FtTakNje7q5s5J3YkxPVT4Jq1Pdm",
+    "url": "ontapjobsearch-i2flp4buk-ontap1.vercel.app",
+    "state": "READY",
+    "sourceCommit": "33129e8e30a06f29f733bdf9ca201fac3b037a1c",
+    "buildId": "bld_dwd0689ic"
+  },
+  "migrationApplied": true,
+  "schema": {
+    "column": {
+      "name": "ontap_shadow.supplier_adverts.exclude_review_started_on",
+      "type": "date"
+    },
+    "index": {
+      "name": "ontap_shadow.supplier_adverts_exclude_review",
+      "key": "exclude_review_started_on",
+      "predicate": "raw_payload IS NOT NULL"
+    }
+  },
+  "before": {
+    "databaseBytes": 407363584,
+    "adverts": 43796,
+    "payloads": 43796,
+    "jobs": 43796,
+    "feedRuns": 4,
+    "publishedJobs": 0
+  },
+  "after": {
+    "databaseBytes": 407683072,
+    "adverts": 43796,
+    "payloads": 43796,
+    "jobs": 43796,
+    "feedRuns": 4,
+    "publishedJobs": 0
+  },
+  "databaseGrowthBytes": 319488,
+  "ceilingBytes": 838860800,
+  "reserveBytes": 67108864,
+  "importAttempted": false,
+  "purgeAttempted": false,
+  "productionChanged": false,
+  "jobsWithheld": true,
+  "note": "Only the additive column and partial index were applied. Feed import and three-day payload cleanup were not run."
+}

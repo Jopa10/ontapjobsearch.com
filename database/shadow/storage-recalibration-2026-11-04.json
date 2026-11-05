@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-04",
+  "status": "measured-first-full-feed-preview-integration",
+  "source": {
+    "feedDate": "2026-11-04",
+    "archiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+    "cleanRecords": 43547,
+    "sourceRows": 43551,
+    "newIdentitiesVsDatabase": 4106,
+    "changedExistingVsDatabase": 2531
+  },
+  "measurement": {
+    "readOnlyPreflightBytes": 407732224,
+    "postIntegrationBytes": 485810176,
+    "observedGrowthBytes": 78077952,
+    "maximumDatabaseBytes": 838860800,
+    "reserveBytes": 67108864,
+    "headroomAboveReserveBytes": 285941760,
+    "ceilingUsedPercent": 57.91,
+    "latestReadOnlyBytes": 485834752,
+    "latestReadOnlyAt": "2026-11-04T17:24:00.635Z",
+    "latestHeadroomAboveReserveBytes": 285917184
+  },
+  "postCounts": {
+    "jobs": 47902,
+    "supplierAdverts": 47902,
+    "feedRuns": 5,
+    "advertAppearances": 43796,
+    "selectionDecisions": 424841,
+    "publishedJobs": 0
+  },
+  "retention": {
+    "policyDays": 3,
+    "excludedCount": 38291,
+    "purgedCount": 0,
+    "dueBeforePurgeRows": 0,
+    "dueBeforePurgeBytes": 0,
+    "asOfDate": "2026-11-04",
+    "purgeCreditIncluded": false
+  },
+  "sensitivity": {
+    "method": "Latest read-only size check after the integration, then repeat the measured 4 November net growth for future complete daily feeds; add the 64 MiB reserve and assume no purge credit.",
+    "oneFurtherFeed": {
+      "projectedDatabaseBytes": 563912704,
+      "requiredWithReserveBytes": 631021568,
+      "remainingToCeilingBytes": 207839232
+    },
+    "twoFurtherFeeds": {
+      "projectedDatabaseBytes": 641990656,
+      "requiredWithReserveBytes": 709099520,
+      "remainingToCeilingBytes": 129761280
+    },
+    "admission": "Illustrative sensitivity only. Feed sizes and changed/new record counts can vary; repeat exact read-only preflight before each import. Not a 90-day or provider-usage certification."
+  },
+  "comparisonToPriorForecast": {
+    "priorForecastPath": "database/shadow/turnover-budget-verification-2026-11-03.json",
+    "note": "Keep the prior raw-growth and synthetic seven-snapshot calibration as separate planning evidence. This measured first-feed growth does not prove those synthetic multi-snapshot allocations or long-term retention behavior."
+  },
+  "integration": {
+    "deploymentId": "dpl_EGXjkTRJwM5c7RcuWRuZ6Ps5h13H",
+    "runId": "4f546e2a-319a-5311-a263-cd7b3049aba4",
+    "status": "passed",
+    "completeReplayVerified": true,
+    "jobsWithheld": true,
+    "productionChanged": false,
+    "emailSent": false,
+    "purgeAttempted": false
+  },
+  "next": "Pin the 5 November archive, then repeat selector validation and read-only preflight before deciding whether to import it into Preview.",
+  "feedRunsAttribution": {
+    "measuredAfterIntegrationBytes": 16367616,
+    "priorMeasuredBytes": 98304,
+    "measuredIncreaseBytes": 16269312,
+    "mainForkBytes": 16384,
+    "indexBytes": 49152,
+    "toastBytes": 16277504,
+    "toastHeapBytes": 16048128,
+    "toastIndexBytes": 196608,
+    "currentRunDiagnosticsBytes": 10942150,
+    "compactSelectionStoredBytes": 4525230,
+    "compactDisplayStoredBytes": 6245928,
+    "compactAppearancesStoredBytes": 170236,
+    "compactPayloadFieldsSumBytes": 10941394,
+    "compactSelectionBase64Bytes": 4524748,
+    "compactDisplayBase64Bytes": 6245680,
+    "otherDiagnosticsBytes": 756,
+    "remainderAfterCurrentRunDiagnosticsBytes": 5425466,
+    "explanation": "The current 4 November run's compact selector history, compact display snapshot and compact appearance manifest account for 10,941,394 bytes of its 10,942,150-byte diagnostics value. This explains most of the feed_runs relation growth. The remaining relation/TOAST allocation is measured but not attributed here to live values versus old TOAST versions/overhead; no vacuum or cleanup was run.",
+    "publishedJobs": 0,
+    "readOnly": true,
+    "diagnosticDeploymentId": "dpl_G8gHwKuhS7EHwqjoSRoAUUFzjUp2",
+    "diagnosticMeasuredAt": "2026-11-04T17:24:00.635Z"
+  }
+}

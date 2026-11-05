@@ -1,0 +1,109 @@
+{
+  "testedAt": "2026-11-03",
+  "status": "passed",
+  "boundary": "Saved JobG8 snapshot through shared regional publisher, city derivation and actual Next.js rendering; not external-source composition or recurring ingestion",
+  "deploymentId": "dpl_7PjH6yDhdu2esqKB6B8w3BkE2hJV",
+  "deploymentUrl": "https://ontapjobsearch-j6131j2ml-ontap1.vercel.app",
+  "testedCommit": "2ef581c170f2592bda022909dd88bdae5cbca58a",
+  "databaseReadOnly": true,
+  "exactSnapshotHash": "c2b1c7710151669e4592b0954ec6023ddd250638ebbf9eb00aeda6959b02ae83",
+  "regionalOutputs": 239,
+  "activeFamilyCityPages": 66,
+  "activeFamilyCityJobEntries": 1131,
+  "staticRoutesGenerated": 5238,
+  "tests": {
+    "cityDerivation": 19,
+    "activeCityPersistence": 2
+  },
+  "httpChecks": [
+    {
+      "path": "/",
+      "status": 200,
+      "h1": "Find work that fits.Apply direct.",
+      "noindex": "noindex",
+      "cssPresent": true,
+      "uniqueJobLinks": 4
+    },
+    {
+      "path": "/newcastle/service-administrator-jobs",
+      "status": 200,
+      "h1": "Admin, Office, Reception and Customer Service Jobs in Newcastle",
+      "noindex": "noindex",
+      "cssPresent": true,
+      "uniqueJobLinks": 18
+    },
+    {
+      "path": "/leeds/service-administrator-jobs",
+      "status": 200,
+      "h1": "Admin, Office, Reception and Customer Service Jobs in Leeds",
+      "noindex": "noindex",
+      "cssPresent": true,
+      "uniqueJobLinks": 93
+    },
+    {
+      "path": "/nottingham/jobs",
+      "status": 200,
+      "h1": "Jobs in Nottingham",
+      "noindex": "noindex",
+      "cssPresent": true,
+      "uniqueJobLinks": 36
+    },
+    {
+      "path": "/north-east/service-administrator-jobs",
+      "status": 200,
+      "h1": "Admin, Office, Reception and Customer Service Jobs in the North East",
+      "noindex": "noindex",
+      "cssPresent": true,
+      "uniqueJobLinks": 78
+    },
+    {
+      "path": "/jobs/23643_225396424",
+      "status": 200,
+      "h1": "Supply Chain Administrator",
+      "noindex": "noindex",
+      "cssPresent": true,
+      "uniqueJobLinks": 0
+    }
+  ],
+  "verifiedCounts": {
+    "newcastle": 18,
+    "leeds": 93,
+    "northEast": 78,
+    "nottinghamBroad": 36
+  },
+  "productionDeploymentUnchanged": "dpl_EYL6UPXQyg8BHAZpcZHGTWe7MDwb",
+  "pending": [
+    "External-source composition parity",
+    "Today's fresh feed and recurring database ingestion",
+    "Retention/turnover sizing before scheduled ingestion",
+    "Mobile viewport and exhaustive interactive browser testing"
+  ],
+  "failedAttempts": [
+    {
+      "id": "dpl_2TntDxthA37CKoEhtzhGxiX6bDs7",
+      "reason": "openpyxl absent"
+    },
+    {
+      "id": "dpl_62e4aDLetmk6RJMxrAGBnVd1n9pL",
+      "reason": "PEP 668 global pip restriction"
+    }
+  ],
+  "websiteCanonicalJobs": 4849,
+  "countReconciliation": {
+    "selectedAdvertIds": 4884,
+    "duplicateAliases": 33,
+    "existingLondonGuardExclusions": 2,
+    "displayedJobs": 4849,
+    "excludedIds": [
+      "23643_225768535",
+      "2210121"
+    ],
+    "method": "Executed existing getPublishedJobs/getPublishedCanonicalIds and isLondonJob against isolated pinned publisher output; matched deployed homepage"
+  },
+  "browserChecks": {
+    "desktopNewcastleLayout": "passed",
+    "quickDetailedSwitch": "passed (Quick aria-pressed=true and compact listing visually confirmed)",
+    "applicationLink": "exact saved URL present; outbound click not exercised",
+    "browserAppErrors": "No app error observed; console errors seen were browser extension metadata errors"
+  }
+}

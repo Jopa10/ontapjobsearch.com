@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-03",
+  "preparedAt": "2026-11-03T13:49:26.243288+00:00",
+  "status": "owner-verified-current-turnover-passed",
+  "parentCommit": "347dac5ad1a9124681c1767387a88a92c8328c96",
+  "activityAtStart": {
+    "githubInProgress": 0,
+    "githubQueued": 0
+  },
+  "entrypoint": "database/shadow/compare_saved_archives.py --s3",
+  "dates": [
+    "2026-11-02",
+    "2026-11-03"
+  ],
+  "testsPassed": {
+    "comparisonProvider": 7,
+    "existingArchiveStage": 3,
+    "existingPreflight": 6
+  },
+  "actualTurnoverKnown": true,
+  "s3Execution": true,
+  "databaseChanged": false,
+  "productionChanged": false,
+  "supplierFetch": false,
+  "neonMeasurement": "Last saved 407347200 bytes; no fresh measurement in this checkpoint",
+  "resume": "Current turnover checkpoint complete; do not rerun comparison. Against exact pinned Neon source: 1394 added, 952 changed, 760 absent, 42084 unchanged; 2346 changed/new payloads total 9319123 raw bytes. Compact raw forecast including reserve fits 588752379 < 838860800 bytes, excludes selection/display growth and is not import authorization. Next recover full receipt/checksums and prepare bounded Preview-only compact allocation verification; no production cutover, cleanup or daily ingestion. Full captured runtime provenance, update/expiry/duplicate/90-day retention validation remain pending.",
+  "initialExecutionCommit": "02ce630f4f04ce7fd13a0d1dbd05a281b3346a26",
+  "evidenceSource": "Owner pasted CloudShell summary, testedAt 2026-11-03T14:03:37.198194+00:00",
+  "initialError": "2 November archive differs from accepted pinned source",
+  "initialErrorInterpretation": "Daily S3 ZIP differs from separately saved Neon test ZIP; exact byte mismatch is not proof of raw-content change or corruption. No actual checksum/count values were printed before the original guard stopped.",
+  "correction": "Use exact sourceHashes recovered from SHA-pinned already-verified full archive to link forecasts to Neon; report daily S3 pair turnover separately. ZIP identity mismatch never bypasses baseline integrity.",
+  "initialFailureEvidence": {
+    "source": "Owner CloudShell screenshot image(20261103-135725).png",
+    "libraryFile": "libfile_2175d00974c88191a29dbb55e37a9c51"
+  },
+  "result": {
+    "testedAt": "2026-11-03T14:03:37.198194+00:00",
+    "turnover": {
+      "previous_date": "2026-11-02",
+      "current_date": "2026-11-03",
+      "previous_count": 43078,
+      "current_count": 44430,
+      "overlap": 41548,
+      "unchanged": 40620,
+      "changed": 928,
+      "added_vs_previous": 2882,
+      "absent_vs_previous": 1530,
+      "returned_from_earlier_history": null,
+      "note": "Absence is not expiry. Returns require earlier full ID history; otherwise unknown."
+    },
+    "databaseBaselineLink": {
+      "verified": true,
+      "previousZipMatchesNeonPin": false,
+      "explanation": "daily S3 snapshot differs from pinned Neon snapshot; budget uses pinned source hashes separately",
+      "pinnedSourceArchiveSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd"
+    },
+    "databaseBaselineTurnover": {
+      "previous_date": "2026-11-02",
+      "current_date": "2026-11-03",
+      "previous_count": 43796,
+      "current_count": 44430,
+      "overlap": 43036,
+      "unchanged": 42084,
+      "changed": 952,
+      "added_vs_previous": 1394,
+      "absent_vs_previous": 760,
+      "returned_from_earlier_history": null,
+      "note": "Absence is not expiry. Returns require earlier full ID history; otherwise unknown."
+    },
+    "compactRawProjection": {
+      "model": "existing_compact_raw_gate_only_vs_pinned_neon_source",
+      "changedOrNewAdverts": 2346,
+      "changedOrNewRawBytes": 9319123,
+      "changedPayloadArrayBytes": 9321470,
+      "measuredDatabaseBytes": 407347200,
+      "estimatedRawGrowthBytes": 114296315,
+      "reserveBytes": 67108864,
+      "rawRequiredWithReserveBytes": 588752379,
+      "maximumDatabaseBytes": 838860800,
+      "rawEstimateFits": true,
+      "selectionDisplayGrowthIncluded": false,
+      "importAuthorized": false,
+      "limitations": "Forecast against saved 3 November allocation; extra selection/display growth and actual Neon allocation remain unmeasured."
+    },
+    "databaseChanged": false,
+    "productionChanged": false,
+    "sourceCounts": {
+      "2026-11-02": {
+        "sourceRows": 43080,
+        "uniqueSupplierIds": 43079,
+        "exactRepeatRows": 0,
+        "conflictingIdsHeld": [
+          "1401786160"
+        ]
+      },
+      "2026-11-03": {
+        "sourceRows": 44432,
+        "uniqueSupplierIds": 44431,
+        "exactRepeatRows": 0,
+        "conflictingIdsHeld": [
+          "1401786160"
+        ]
+      }
+    },
+    "outputFile": "ontap-current-turnover-result.json"
+  },
+  "executedCodeCommit": "81037fef5f32ccb99c51aa5135678009b99f7976",
+  "fullReceiptLocation": "Owner CloudShell ontap-current-turnover-result.json; pasted summary lacks raw current ZIP/object checksums, so recover full receipt before an actual import."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "implementationCommit": "d471eff9b0e939909062eea8f68a6ec6cbc66409",
+  "deploymentId": "dpl_CpW9YzU2p8Y2foqopoVBKbLtowAV",
+  "url": "https://ontapjobsearch-jndzj7v1r-ontap1.vercel.app",
+  "databaseReadOnly": true,
+  "noImportOrCleanup": true,
+  "previousAttempt": {
+    "deploymentId": "dpl_BTvUGduq8qNYcXHruf6r237bfkcr",
+    "auditCompleted": true,
+    "packagingFailed": "Inherited Next.js detection expected routes-manifest; aggregate log truncated. Retry uses only existing harness dependencies/script and explicit static vercel.json."
+  },
+  "resume": "Read saved receipt/proposal. No measurement retry or import needed. Next offline turnover/admission-budget comparison before any fresh database import.",
+  "receipt": "retention-measurement-2026-11-03.json",
+  "assessment": "retention-assessment-2026-11-03.md"
+}

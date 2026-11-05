@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-04",
+  "preparedAt": "2026-11-04T14:02:00Z",
+  "status": "owner-source-fingerprint-pinned-awaiting-selector-parity",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "pullRequest": 336,
+  "sourceChecksumPrerequisiteResolved": true,
+  "pinnedSavedSource": {
+    "evidenceSource": "Owner CloudShell head-object and sha256sum output supplied 2026-11-04",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "region": "eu-west-2",
+    "archiveChecksums": {
+      "current": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06"
+    },
+    "s3Sources": {
+      "2026-11-04": {
+        "key": "jobg8/raw/2026-11-04.zip",
+        "bytes": 35216405,
+        "etag": "\"0a16efd3ba33a6018e721d5ef52605a5-5\"",
+        "lastModified": "2026-11-04T07:59:10+00:00",
+        "sha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06"
+      }
+    },
+    "expectedCurrentCounts": {
+      "sourceRows": null,
+      "cleanRecords": null,
+      "conflictingIdsHeld": null
+    },
+    "originalNeonSourceSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+    "note": "Bytes/ETag/LastModified came from CloudShell head-object; SHA-256 came from CloudShell download and sha256sum. Source rows, clean rows and conflicts are to be captured from this exact pinned archive during selector preflight."
+  },
+  "approvedSwitchFrom": "2026-11-03 source unavailable: object was overwritten; downloaded current object failed original pinned size/SHA checks",
+  "neonMutationBeforeSelectorParity": false,
+  "productionChanged": false
+}

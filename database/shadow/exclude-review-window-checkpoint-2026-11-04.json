@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-04",
+  "status": "local-design-and-tests-passed-remote-deferred",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "startingHead": "5506d92625578fc7a4c34282ab2722be487106f2",
+  "pullRequest": 336,
+  "draft": true,
+  "policy": {
+    "scope": "adverts excluded in every production family",
+    "fullPayloadReviewDays": 3,
+    "clockStart": "first verified fully-excluded feed date",
+    "identicalRepeat": "does not restart window",
+    "changedContent": "restarts window",
+    "purge": "explicit transaction clears raw_payload only after selector readback",
+    "retained": ["supplier identity", "stable job ID", "content hash", "compact selection history", "run/job links"],
+    "scheduledCleanup": false
+  },
+  "changes": [
+    "Added exclude_review_started_on schema marker and additive migration 002.",
+    "Added compact exclusion classification and transactional payload retention to the compact integration wrapper.",
+    "Added a read-only baseline report for fully excluded, other decided, and incomplete-selector payloads.",
+    "Added local coverage for review timing, payload purge, retained identity/decision evidence, changed-content restart, and baseline classification.",
+    "Updated NEXT_INTEGRATION_TEST.md, README.md, SYSTEM_MAP.md and SYSTEM_OVERVIEW.md."
+  ],
+  "localVerification": {
+    "focusedPostgresTests": 5,
+    "fullHarnessTests": 35,
+    "fullHarnessStatus": "passed",
+    "fixtureType": "synthetic local PostgreSQL",
+    "remoteNeonUsed": false
+  },
+  "neonBaseline": {
+    "lastMeasuredBytes": 407363584,
+    "measuredAt": "2026-11-03",
+    "currentReadOnlyMeasurement": "passed; see exclude-review-baseline-2026-11-04.json",
+    "schemaMigrationApplied": false,
+    "committedFeedImportOrCleanup": false,
+    "sampleImportAttemptedInPreview": true,
+    "sampleTransactionRolledBack": true
+  },
+  "previewAuditAttempt": {
+    "deploymentId": "dpl_B1oBbUCyqHyNXsjQJcNYXH1AbZQU",
+    "deploymentCommit": "fba7db8e54591c8067edb02054fc05464a7a7d08",
+    "state": "failed-before-audit",
+    "errorCode": "42703",
+    "cause": "Vercel used the harness vercel.json buildCommand for verify-neon.mjs; the per-deployment buildCommand override was not honored.",
+    "errorDetail": "The safe verifier logs only PostgreSQL code 42703, not the missing column name.",
+    "databaseEffect": "The sample importer transaction errored and rolled back. The successful read-only audit still showed four prior feed runs and 43,796 advert payloads; no new sample/import, retention purge, cleanup or expiry was committed.",
+    "correction": "Temporarily point the harness vercel.json buildCommand at the existing repeatable-read read-only measure-retention.mjs audit, then restore the original configuration after obtaining the baseline.",
+    "otherDeployment": {
+      "deploymentId": "dpl_3zpafsH7ZDXvm2rNhbSoYX7udMZu",
+      "state": "canceled-before-script",
+      "reason": "It used the repository root instead of the harness directory; no database script started."
+    }
+  },
+  "readOnlyAudit": {
+    "deploymentId": "dpl_2cc1SchxPFFGdQ8xUhE1oGm2hgJo",
+    "deploymentCommit": "c1060d939fe2383d64eb5ead987dc838dc726a54",
+    "status": "READY",
+    "receipt": "database/shadow/exclude-review-baseline-2026-11-04.json",
+    "databaseBytes": 407363584,
+    "fullyExcludedPayloadRows": 38633,
+    "fullyExcludedPayloadBytes": 89251788,
+    "readOnlyTransaction": true,
+    "noSchemaChangeOrImport": true
+  },
+  "harnessVercelConfig": "restored to its original sample-verification command after the audit",
+  "production": {
+    "fileBased": true,
+    "changed": false,
+    "jobsWithheld": true,
+    "expiryEnabled": false,
+    "emailsOrPlanChange": false
+  },
+  "next": [
+    "Apply migration 002 only to the verified Preview test database, then read-only verify the new column/index and remeasure.",
+    "Complete the pinned fresh selector replay and combined raw/selection/display admission check against the unchanged 800 MiB ceiling and 64 MiB reserve.",
+    "Only then launch the pinned 3 November integration; do not alter the source checksum or age the feed artificially."
+  ]
+}

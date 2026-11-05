@@ -1,0 +1,194 @@
+name: Isolated Neon JobG8 shadow tests
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/stage-request.json]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ontap-neon-shadow-staged-test
+  cancel-in-progress: false
+jobs:
+  staged-test:
+    if: github.ref == 'refs/heads/feat/neon-shadow-database'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            database/shadow
+            pipeline/scripts
+            pipeline/config
+            pipeline/geo
+            pipeline/lookup
+            pipeline/registers
+            pipeline/reviews
+            pipeline/module3
+            pipeline/city_pages
+            pipeline/manifests
+            pipeline/external_sources
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - name: Resolve isolated request mode
+        id: request
+        run: |
+          python - <<'PYMODE'
+          import json, os, re
+          from pathlib import Path
+          request=json.loads(Path('database/shadow/stage-request.json').read_text())
+          mode=request.get('mode','source')
+          if mode not in {'source','selection_parity','fresh_selection_parity'}:
+              raise SystemExit('Unknown shadow test mode')
+          archive_date=request.get('archiveDate','')
+          if mode == 'fresh_selection_parity' and not re.fullmatch(r'20[0-9]{2}-[0-9]{2}-[0-9]{2}', archive_date):
+              raise SystemExit('Fresh selector mode requires a valid archiveDate')
+          with open(os.environ['GITHUB_OUTPUT'],'a') as handle:
+              handle.write('mode='+mode+chr(10))
+              if mode == 'fresh_selection_parity':
+                  handle.write('archive_date='+archive_date+chr(10))
+          PYMODE
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        if: steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity'
+        with:
+          python-version: '3.12'
+      - name: Restore the original pinned snapshot
+        if: steps.request.outputs.mode == 'selection_parity'
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          artifact-ids: '13168067903'
+          run-id: '41500434597'
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/pinned-source
+          merge-multiple: true
+      - name: Fetch the owner-pinned dated saved source
+        if: steps.request.outputs.mode == 'fresh_selection_parity'
+        env:
+          ONTAP_SAVED_FEED_URL: ${{ secrets.ONTAP_SAVED_FEED_URL }}
+        run: |
+          set -euo pipefail
+          test -n "$ONTAP_SAVED_FEED_URL"
+          saved_feed_url="$(printf '%s' "$ONTAP_SAVED_FEED_URL" | tr -d '[:space:]')"
+          case "$saved_feed_url" in
+            https://*) ;;
+            *) echo "::error::ONTAP_SAVED_FEED_URL must be the complete HTTPS URL."; exit 1 ;;
+          esac
+          mkdir -p "$RUNNER_TEMP/pinned-source"
+          archive_date="${{ steps.request.outputs.archive_date }}"
+          archive_path="$RUNNER_TEMP/pinned-source/jobg8-raw-${archive_date}.zip"
+          response_path="$RUNNER_TEMP/pinned-source/download-response.xml"
+          http_code="$(curl --silent --show-error --location --connect-timeout 30 --max-time 180 \
+            --write-out '%{http_code}' "$saved_feed_url" --output "$response_path")"
+          if [ "$http_code" != "200" ]; then
+            python - "$response_path" "$http_code" <<'PYERROR'
+          import sys
+          import xml.etree.ElementTree as ET
+          path, status = sys.argv[1:]
+          try:
+              root = ET.parse(path).getroot()
+              fields = {node.tag.rsplit('}', 1)[-1]: (node.text or '') for node in root.iter()}
+              code = fields.get('Code', 'unknown')
+              message = fields.get('Message', 'no S3 error message returned')
+          except (ET.ParseError, OSError):
+              code, message = 'unavailable', 'response was not an S3 XML error'
+          print(f'Saved source request failed: HTTP {status}; S3 code {code}; {message}')
+          PYERROR
+            exit 1
+          fi
+          mv "$response_path" "$archive_path"
+          test -s "$archive_path"
+      - name: Verify selection observer and attachment guards
+        if: steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity'
+        run: |
+          python -m pip install pandas openpyxl
+          python database/shadow/test_selector_capture.py
+          python -m unittest discover -s database/shadow -p test_fresh_source_request.py
+          python -m unittest discover -s database/shadow -p test_dependency_provenance.py
+          npm ci --ignore-scripts --prefix database/shadow/harness
+          node --test database/shadow/harness/selection-importer.test.mjs database/shadow/harness/dependency-provenance.test.mjs
+      - name: Replay unchanged production selectors and record their decisions
+        if: steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity'
+        run: |
+          if [ "${{ steps.request.outputs.mode }}" = "fresh_selection_parity" ]; then
+            archive_date="${{ steps.request.outputs.archive_date }}"
+            archive_path="$RUNNER_TEMP/pinned-source/jobg8-raw-${archive_date}.zip"
+            source_request="database/shadow/fresh-integration-prep-checkpoint-${archive_date}.json"
+            test -s "$archive_path"
+            python -u database/shadow/run_selector_parity.py \
+              --archive "$archive_path" \
+              --source-request "$source_request" \
+              --work "$RUNNER_TEMP/selector-parity"
+          else
+            python -u database/shadow/run_selector_parity.py \
+              --archive "$RUNNER_TEMP/pinned-source/ontap-shadow-feed.zip" \
+              --work "$RUNNER_TEMP/selector-parity"
+          fi
+      - name: Preserve selector parity evidence
+        if: always() && (steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity')
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: neon-shadow-selection-parity
+          path: |
+            ${{ runner.temp }}/selector-parity/dependency-start.json
+            ${{ runner.temp }}/selector-parity/source-request.json
+            ${{ runner.temp }}/selector-parity/dependency-manifest.json
+            ${{ runner.temp }}/selector-parity/report.json
+            ${{ runner.temp }}/selector-parity/selection.json.gz
+            ${{ runner.temp }}/selector-parity/plain.log
+            ${{ runner.temp }}/selector-parity/observed.log
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Preserve available replay files for recovery
+        if: always() && (steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity')
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: neon-shadow-selector-recovery
+          path: |
+            ${{ runner.temp }}/selector-parity/plain/outputs.json
+            ${{ runner.temp }}/selector-parity/observed/outputs.json
+            ${{ runner.temp }}/selector-parity/observed/evidence.json
+          if-no-files-found: ignore
+          retention-days: 2
+      - name: Save one direct supplier snapshot for all test stages
+        if: steps.request.outputs.mode == 'source'
+        env:
+          JOBG8_FEED_URL: ${{ secrets.JOBG8_FEED_URL }}
+        run: |
+          set -euo pipefail
+          test -n "$JOBG8_FEED_URL"
+          curl --fail --silent --show-error --location \
+            --retry 3 --retry-delay 5 --connect-timeout 30 --max-time 180 \
+            "$JOBG8_FEED_URL" --output "$RUNNER_TEMP/ontap-shadow-feed.zip"
+          test -s "$RUNNER_TEMP/ontap-shadow-feed.zip"
+          sha256sum "$RUNNER_TEMP/ontap-shadow-feed.zip"
+      - name: Prepare the bounded source fractions without database access
+        if: steps.request.outputs.mode == 'source'
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/neon-reports"
+          for percentage in 20 50 100; do
+            python database/shadow/prepare_raw_stage.py \
+              --archive "$RUNNER_TEMP/ontap-shadow-feed.zip" \
+              --request database/shadow/stage-request.json \
+              --percentage "$percentage" \
+              --output "$RUNNER_TEMP/stage-${percentage}.json.gz" > "$RUNNER_TEMP/neon-reports/source-${percentage}.json"
+          done
+      - name: Preserve stage measurements only
+        if: always() && steps.request.outputs.mode == 'source'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: neon-shadow-storage-measurements
+          path: ${{ runner.temp }}/neon-reports/*.json
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Preserve the source snapshot for reproducible retry
+        if: always() && steps.request.outputs.mode == 'source'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: neon-shadow-source-snapshot
+          path: ${{ runner.temp }}/ontap-shadow-feed.zip
+          if-no-files-found: ignore
+          retention-days: 2

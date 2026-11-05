@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-03",
+  "mode": "offline-no-import",
+  "historical_validation": {
+    "mode": "offline-preflight-only",
+    "feed_date": "2026-08-12",
+    "supplied": 9998,
+    "appearance_rows": 9998,
+    "published_in_feed": 0,
+    "published_absent_from_feed": [],
+    "unpublished_in_feed": null,
+    "selection_note": "Reuse production selector evidence; unpublished does not mean excluded. Missing evidence remains unknown.",
+    "duplicate_diagnostics": {
+      "source_rows": 10000,
+      "unique_ids": 9999,
+      "exact_repeat_rows": 0,
+      "conflicting_ids_held": [
+        "1401784237"
+      ]
+    },
+    "turnover": {
+      "previous_date": "2026-08-11",
+      "current_date": "2026-08-12",
+      "previous_count": 9998,
+      "current_count": 9998,
+      "overlap": 9316,
+      "unchanged": 8959,
+      "changed": 357,
+      "added_vs_previous": 682,
+      "absent_vs_previous": 682,
+      "returned_from_earlier_history": null,
+      "note": "Absence is not expiry. Returns require earlier full ID history; otherwise unknown."
+    },
+    "snapshot_checksums": {
+      "previous": "7794e5123684f9ef4fa355586b7316895566a92d3a2de38cc79edfa07ca62bff",
+      "current": "8e039c87caf7826211f9ec6a870bd9c14d68126d34d2b9460669ebf7b291dd30",
+      "previous_duplicate_diagnostics": {
+        "source_rows": 10000,
+        "unique_ids": 9999,
+        "exact_repeat_rows": 0,
+        "conflicting_ids_held": [
+          "1401784237"
+        ]
+      }
+    },
+    "storage_projection": {
+      "model": "existing_append_per_run_nine_scopes_no_cleanup",
+      "components_before_headroom": {
+        "new_identity_bytes": 2850112,
+        "changed_payload_overlap_bytes": 1491921,
+        "daily_appearance_bytes": 1987934,
+        "nine_scoped_decision_bytes": 53169279
+      },
+      "safety_factor": 1.5,
+      "reserve_bytes": 67108864,
+      "measured_database_bytes": 407347200,
+      "projected_growth_bytes": 89248867,
+      "projected_database_bytes": 496596067,
+      "required_with_reserve_bytes": 563704931,
+      "maximum_database_bytes": 838860800,
+      "estimate_fits": true,
+      "import_authorized": false,
+      "limitations": "Allocation-based estimate for comparable payload sizes; prewrite live measurement and payload-size checks still required. Not a 90-day or provider-usage certification."
+    }
+  },
+  "current_received_rows": 44432,
+  "current_volume_source": "main:pipeline/reports-daily/jobg8-feed-category-profile.csv, blob e9ba4366b887299a1ffaec74dbb3c19a556b8642",
+  "current_raw_turnover": "UNKNOWN: recent full raw ZIPs reside in private S3, not retained in current output artifacts; no archive access changes made",
+  "budget_scenarios": {
+    "hypothetical_no_new_no_changed": {
+      "model": "existing_append_per_run_nine_scopes_no_cleanup",
+      "components_before_headroom": {
+        "new_identity_bytes": 0,
+        "changed_payload_overlap_bytes": 0,
+        "daily_appearance_bytes": 8834554,
+        "nine_scoped_decision_bytes": 236288995
+      },
+      "safety_factor": 1.5,
+      "reserve_bytes": 67108864,
+      "measured_database_bytes": 407347200,
+      "projected_growth_bytes": 367685323,
+      "projected_database_bytes": 775032523,
+      "required_with_reserve_bytes": 842141387,
+      "maximum_database_bytes": 838860800,
+      "estimate_fits": false,
+      "import_authorized": false,
+      "limitations": "Allocation-based estimate for comparable payload sizes; prewrite live measurement and payload-size checks still required. Not a 90-day or provider-usage certification."
+    },
+    "illustrative_3110_new_1600_changed": {
+      "model": "existing_append_per_run_nine_scopes_no_cleanup",
+      "components_before_headroom": {
+        "new_identity_bytes": 12996845,
+        "changed_payload_overlap_bytes": 6686480,
+        "daily_appearance_bytes": 8834554,
+        "nine_scoped_decision_bytes": 236288995
+      },
+      "safety_factor": 1.5,
+      "reserve_bytes": 67108864,
+      "measured_database_bytes": 407347200,
+      "projected_growth_bytes": 397210310,
+      "projected_database_bytes": 804557510,
+      "required_with_reserve_bytes": 871666374,
+      "maximum_database_bytes": 838860800,
+      "estimate_fits": false,
+      "import_authorized": false,
+      "limitations": "Allocation-based estimate for comparable payload sizes; prewrite live measurement and payload-size checks still required. Not a 90-day or provider-usage certification."
+    },
+    "all_received_rows_new": {
+      "model": "existing_append_per_run_nine_scopes_no_cleanup",
+      "components_before_headroom": {
+        "new_identity_bytes": 185683540,
+        "changed_payload_overlap_bytes": 0,
+        "daily_appearance_bytes": 8834554,
+        "nine_scoped_decision_bytes": 236288995
+      },
+      "safety_factor": 1.5,
+      "reserve_bytes": 67108864,
+      "measured_database_bytes": 407347200,
+      "projected_growth_bytes": 646210633,
+      "projected_database_bytes": 1053557833,
+      "required_with_reserve_bytes": 1120666697,
+      "maximum_database_bytes": 838860800,
+      "estimate_fits": false,
+      "import_authorized": false,
+      "limitations": "Allocation-based estimate for comparable payload sizes; prewrite live measurement and payload-size checks still required. Not a 90-day or provider-usage certification."
+    }
+  },
+  "tests_passed": 10,
+  "production_changed": false,
+  "database_changed": false,
+  "conclusion": "Existing nine-scope append-per-run importer fails the conservative admission estimate even under hypothetical zero turnover. Do not import a fresh full feed until decision-state reuse/compaction is implemented and measured. This is a budget rejection, not measured actual future growth."
+}

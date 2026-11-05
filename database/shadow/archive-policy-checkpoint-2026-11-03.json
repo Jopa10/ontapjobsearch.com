@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-03",
+  "evidence_source": "Owner CloudShell screenshot image(20261103-111751).png",
+  "verified": {
+    "region": "eu-west-2",
+    "lifecycle_global_expiration_days": 93,
+    "versioning": "not enabled",
+    "object_lock": "not configured",
+    "encryption": "AES256",
+    "github_oidc_trust": "main only; duplicate main entries do not grant feature-branch access",
+    "github_new_archive_prefix_get_put_simulation": "allowed; actual writes/immutable conditions untested",
+    "raw_2026_11_02_readable": true,
+    "raw_2026_11_03_readable": true
+  },
+  "proposed_change": {
+    "rule_filter_before": {},
+    "rule_filter_after": {
+      "Prefix": "jobg8/raw/"
+    },
+    "raw_expiration_days_unchanged": 93,
+    "shadow_expiration": "none until verified inactivity-based retention exists"
+  },
+  "aws_change_applied": true,
+  "tests_passed": 3,
+  "resume": "Lifecycle separation applied and verified by owner. Do not rerun apply script (old-policy guard intentionally rejects changed policy). Next verify immutable archive write/read with approved runtime credentials; main-only GitHub trust unchanged. Raw inactivity retention and current turnover remain pending.",
+  "readback_verified": true,
+  "backup_file": "ontap-lifecycle-before-20261103T111731621152Z.json"
+}
