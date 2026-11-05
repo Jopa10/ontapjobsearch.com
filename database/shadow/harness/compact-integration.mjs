@@ -32,7 +32,7 @@ export async function verifyCompactIntegration(client,input,{parentRunId=null,on
  const imported=await importStage(client,raw,{compactSelection:true});await checkpoint('raw-accepted');
  const attached=await attachCompactSelection(client,{runId,fixture:selection,context,parentRunId});await checkpoint('selection-verified');
   const selectionState=(await readCompactSelection(client,runId)).state;
-  const excludeRetention=await applyExcludeReviewWindow(client,{runId,fullyExcludedRefs:classifyFullyExcludedRefs(selectionState),...(excludeReviewAsOfDate?{asOfDate:excludeReviewAsOfDate}:{})});
+  const excludeRetention=await applyExcludeReviewWindow(client,{runId,fullyExcludedRefs:classifyFullyExcludedRefs(selectionState),purgeDuePayloads:false,...(excludeReviewAsOfDate?{asOfDate:excludeReviewAsOfDate}:{})});
  await attachCompactDisplay(client,runId,outputs);await checkpoint('display-verified');
   assert.deepEqual(selectionState,canonicalSelection(selection,context));
  assert.deepEqual(await readCompactDisplay(client,runId),outputs);
