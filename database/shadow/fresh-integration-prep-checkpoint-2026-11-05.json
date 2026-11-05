@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "integration-stopped-at-readonly-baseline-guard",
+  "status": "baseline-guard-corrected-preview-retry-ready",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Correct Preview runner expected feed_runs from 14 to 5 live rows (audit showed 5 live and 9 dead stats). Retry only the compact Preview integration after refreshing artifact links if needed. The failed build recorded integrationWriteStarted=no; DB remains unchanged.",
+  "next": "Refresh three Preview artifact URL variables and create the guarded integration deployment from source commit 267f4fcae2d0467a2182a6d8c41547562945e73d. The previous build failed before any write solely on live feed_runs count mismatch; all input checks passed.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -208,7 +208,7 @@
   "previewRunner": {
     "status": "prepared",
     "runnerPath": "database/shadow/harness/build-compact-integration.mjs",
-    "sourceCommit": "75f640a6c777f60a4441fcb311ba4604fe48a64a",
+    "sourceCommit": "267f4fcae2d0467a2182a6d8c41547562945e73d",
     "projectId": "prj_sLI0SohbF03NrRFj6yZyuN8mOOZB",
     "teamId": "team_xjm8VOa1951ZXxawa7UFF2gd",
     "branch": "feat/neon-shadow-database",
@@ -218,7 +218,7 @@
       "adverts": 47902,
       "payloads": 47902,
       "jobs": 47902,
-      "feedRuns": 14,
+      "feedRuns": 5,
       "publishedJobs": 0,
       "ceilingBytes": 838860800,
       "reserveBytes": 67108864
@@ -286,13 +286,15 @@
       "expiryEnabled": false,
       "purgeDuePayloads": false
     },
-    "stopPhase": "read-only DB preflight",
+    "stopPhase": "read-only preflight, zero writes",
     "failure": "Expected feed_runs=14; actual table row count=5. The 9 dead rows are pg_stat_user_tables statistics, not feed_runs records.",
     "integrationWriteStarted": false,
     "neonWrite": false,
     "databaseChanged": false,
     "productionChanged": false,
     "purgeExecuted": false,
-    "expiryEnabled": false
+    "expiryEnabled": false,
+    "retryOf": "dpl_6mcFZkrmJfRmzhmYZSK8Nm2fLdyv",
+    "neonImportStarted": false
   }
 }
