@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "preview-build-command-override-did-not-take-effect",
+  "status": "guarded-integration-build-configured-ready-to-launch",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Change harness vercel.json buildCommand/outputDirectory explicitly to build-compact-integration.mjs/dist on the feature branch. Save resulting source commit and checkpoint. Refresh short-lived artifact URLs in branch-scoped Preview vars, then create a new Preview deployment. The first deployment only reran the read-only audit and made no DB changes.",
+  "next": "Refresh all three temporary artifact URLs in Vercel Preview variables for feat/neon-shadow-database. Then create Preview deployment from source commit 75f640a6c777f60a4441fcb311ba4604fe48a64a, confirm build log says node build-compact-integration.mjs, and inspect the baseline/input guards before any integration phase.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -208,7 +208,7 @@
   "previewRunner": {
     "status": "prepared",
     "runnerPath": "database/shadow/harness/build-compact-integration.mjs",
-    "sourceCommit": "170f6d9637db4b52eef149b5844dddbd65451f36",
+    "sourceCommit": "75f640a6c777f60a4441fcb311ba4604fe48a64a",
     "projectId": "prj_sLI0SohbF03NrRFj6yZyuN8mOOZB",
     "teamId": "team_xjm8VOa1951ZXxawa7UFF2gd",
     "branch": "feat/neon-shadow-database",
@@ -258,7 +258,11 @@
       "jobsPublished": false,
       "emailSent": false,
       "purgeExecuted": false
-    }
+    },
+    "buildCommand": "node build-compact-integration.mjs",
+    "outputDirectory": "dist",
+    "artifactVariablesBranchScoped": true,
+    "deploymentOverrideFinding": "Per-deployment buildCommand was ignored because committed vercel.json took precedence; vercel.json has now been updated explicitly."
   },
   "previewIntegration": {
     "deploymentId": "dpl_8KZXJcAf7we8xRoaLwzRmiBWb7uZ",
@@ -272,6 +276,9 @@
     "databaseChanged": false,
     "productionChanged": false,
     "purgeExecuted": false,
-    "expiryEnabled": false
+    "expiryEnabled": false,
+    "status": "not-yet-started",
+    "previousReadOnlyAuditDeploymentId": "dpl_8KZXJcAf7we8xRoaLwzRmiBWb7uZ",
+    "neonImportStarted": false
   }
 }
