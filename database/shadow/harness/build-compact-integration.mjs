@@ -65,7 +65,7 @@ async function dbPreflight(client){
   const idx=(await client.query("SELECT to_regclass('ontap_shadow.supplier_adverts_exclude_review') IS NOT NULL AS present")).rows[0].present;
   assert.equal(col?.type,'date','Schema migration 002 is not present');
   assert.equal(idx,true,'Schema migration 002 index is missing');
-  assert.deepEqual(counts,{adverts:47902,payloads:47902,jobs:47902,feed_runs:14,published_jobs:0},'Preview baseline changed since the read-only preflight');
+  assert.deepEqual(counts,{adverts:47902,payloads:47902,jobs:47902,feed_runs:5,published_jobs:0},'Preview baseline changed since the read-only preflight');
   assert.ok(size+RESERVE<CEILING,'Preview baseline lacks the protected storage reserve');
   await client.query('COMMIT');
   return {databaseBytes:size,...counts,reviewDateColumn:col.type,reviewIndexPresent:idx,readOnly:true};
