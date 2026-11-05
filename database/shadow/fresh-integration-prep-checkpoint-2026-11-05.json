@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "source-package-download-verification-failed",
+  "status": "raw-stage-packaged-runner-preparation",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "When available, create a fresh 3600-second presigned URL for the same pinned 2026-11-05 S3 object, update GitHub Actions secret ONTAP_SAVED_FEED_URL, then rerun only failed job 127252477639. Do not repeat selector parity. After raw-stage artifact is created, combine it with selector artifact 13414222935 and proceed to guarded Preview integration with purgeDuePayloads=false.",
+  "next": "Adapt build-compact-integration.mjs from 4 November assumptions to the pinned 5 November archive, exact selector/parity artifacts and current Neon baseline. Keep the Preview no-purge call. Then deploy and inspect full preflight before writes; persist deployment ID before allowing the build to import.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -157,45 +157,44 @@
     "expiryEnabled": false
   },
   "integrationSourcePackage": {
-    "status": "failed-before-raw-stage-artifact",
-    "workflowPath": ".github/workflows/package-shadow-integration-source.yml",
-    "requestPath": "database/shadow/package-integration-source-request.json",
-    "sourceRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
-    "archiveDate": "2026-11-05",
-    "archiveSha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d",
-    "archiveBytes": 35093994,
-    "expectedReceipt": {
-      "sourceRows": 43391,
-      "uniqueSupplierIds": 43389,
-      "exactRepeatRows": 0,
-      "conflictingIdsHeld": [
-        "1401785815",
-        "1401786160"
-      ],
-      "cleanRecords": 43387
-    },
-    "outputSha256": "b4f3950d3cc1f1ea1fdbaa100b8fdf47a39703a2fc83043b40022d677777a6a2",
-    "selectorArtifactId": 13414222935,
-    "artifactName": "neon-shadow-integration-source-2026-11-05",
-    "safety": {
-      "selectorNotRerun": true,
-      "productionChanged": false,
-      "neonWrite": false
-    },
+    "status": "passed",
     "runId": 42029634762,
     "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/42029634762",
-    "jobId": 127252477639,
-    "failedStep": "Download and verify the exact saved archive",
-    "result": "Job stopped before raw-stage preparation/artifact upload. Step logs were not returned by connector; failure may be URL access or fingerprint verification. Do not assume which without a successful retry.",
-    "artifactCreated": false,
-    "retry": "After refreshing ONTAP_SAVED_FEED_URL for the same object, rerun only failed job 127252477639.",
-    "presignCommand": "aws s3 presign s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/2026-11-05.zip --region eu-west-2 --expires-in 3600",
-    "neonImportStarted": false,
-    "databaseChanged": false,
-    "selectorRerun": false,
-    "retryStatus": "attempt-2-queued",
     "retryAttempt": 2,
-    "retryQueuedAt": "2026-11-05T12:49:52Z"
+    "jobId": 127255282171,
+    "artifactId": 13415213643,
+    "artifactName": "neon-shadow-integration-source-2026-11-05",
+    "artifactZipSha256": "76dda805bf5930da1793697bb4ca180beb9ca6011712d122d004d0328cd2b241",
+    "artifactExpiresAt": "2026-11-07T12:50:14Z",
+    "verifiedRawStage": {
+      "archiveDate": "2026-11-05",
+      "archiveSha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d",
+      "sourceRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
+      "percentage": 100,
+      "totalReceived": 43391,
+      "eligibleRecords": 43387,
+      "rawPayloadBytes": 162988947,
+      "receiptDiagnostics": {
+        "sourceRows": 43391,
+        "uniqueSupplierIds": 43389,
+        "exactRepeatRows": 0,
+        "conflictingIdsHeld": [
+          "1401785815",
+          "1401786160"
+        ]
+      }
+    },
+    "selectorArtifact": {
+      "runId": 42023032553,
+      "id": 13414222935,
+      "sha256": "657e1ce3d1f6915984fd1ba8b3dbbe63bec91bf0c06c73f2b2fb20dad1cb1591"
+    },
+    "recoveryArtifact": {
+      "id": 13415015292,
+      "sha256": "14a5771c30eae98eaf595d385d3694f23ba1d45bbebcab726c8f1e93dc61e4fb"
+    },
+    "neonImportStarted": false,
+    "productionChanged": false
   },
   "safety": {
     "sourcePackageFailedBeforeArtifact": true,
