@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "readonly-preflight-passed-retention-safety-review",
+  "status": "preflight-passed-no-purge-integration-guard-added",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Do not run compact integration until its retention hook is made explicitly no-purge for this Preview test. Review retention classification, save a safe runner checkpoint, then continue the separately authorized Preview integration with jobs withheld and expiry/purge disabled.",
+  "next": "Verify no-purge behavior through the existing local retention checks and prepare the exact 5 November raw stage plus saved selector artifacts. Before any Neon import, checkpoint the Preview integration deployment and request; then execute only with jobs withheld, purgeDuePayloads=false, and expiry disabled.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -146,10 +146,14 @@
     }
   },
   "retentionSafetyReview": {
-    "status": "integration-gate-open",
-    "finding": "compact-integration.mjs calls applyExcludeReviewWindow, which contains an unconditional due-payload purge UPDATE. Current as-of date would evaluate prior exclusion dates. Need an explicit no-purge path before the authorized 5 November Preview integration.",
-    "codePath": "database/shadow/harness/compact-integration.mjs -> database/shadow/harness/exclude-retention.mjs",
-    "observedDate": "2026-11-05",
-    "purgeExecuted": false
+    "status": "guard-added",
+    "finding": "compact-integration.mjs now explicitly calls applyExcludeReviewWindow with purgeDuePayloads:false. The helper retains its prior default for other callers; this integration cannot issue the payload-clearing UPDATE.",
+    "commits": [
+      "b188a628b518d80d3b6ec3b4f845402449957fda",
+      "7616b1114952b94265bbb6e4e7106da659260183"
+    ],
+    "noPurgeInIntegration": true,
+    "purgeExecuted": false,
+    "expiryEnabled": false
   }
 }
