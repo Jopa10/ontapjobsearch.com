@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "guarded-integration-build-configured-ready-to-launch",
+  "status": "compact-integration-preview-building",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Refresh all three temporary artifact URLs in Vercel Preview variables for feat/neon-shadow-database. Then create Preview deployment from source commit 75f640a6c777f60a4441fcb311ba4604fe48a64a, confirm build log says node build-compact-integration.mjs, and inspect the baseline/input guards before any integration phase.",
+  "next": "Inspect dpl_6mcFZkrmJfRmzhmYZSK8Nm2fLdyv build logs. Confirm correct build command and all artifact/input/baseline checks pass before the first raw-accepted phase. Then capture phase IDs, post-run size/readback, and verify no purge/expiry/publication.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -265,20 +265,26 @@
     "deploymentOverrideFinding": "Per-deployment buildCommand was ignored because committed vercel.json took precedence; vercel.json has now been updated explicitly."
   },
   "previewIntegration": {
-    "deploymentId": "dpl_8KZXJcAf7we8xRoaLwzRmiBWb7uZ",
-    "url": "https://ontapjobsearch-7ckamjvud-ontap1.vercel.app",
-    "sourceCommit": "c098be8d3ec9e45399536a18998219b2ee1f1733",
-    "state": "READY",
-    "buildCommandActuallyRun": "node measure-retention.mjs from committed vercel.json",
-    "requestedBuildCommand": "node build-compact-integration.mjs",
-    "result": "Read-only retention audit reran; measured size 485834752 bytes and withheld jobs 47902, matching baseline.",
-    "integrationStarted": false,
-    "databaseChanged": false,
-    "productionChanged": false,
-    "purgeExecuted": false,
-    "expiryEnabled": false,
-    "status": "not-yet-started",
-    "previousReadOnlyAuditDeploymentId": "dpl_8KZXJcAf7we8xRoaLwzRmiBWb7uZ",
-    "neonImportStarted": false
+    "deploymentId": "dpl_6mcFZkrmJfRmzhmYZSK8Nm2fLdyv",
+    "url": "https://ontapjobsearch-k52eqboda-ontap1.vercel.app",
+    "createdAt": "2026-11-05T13:01:41Z",
+    "sourceCommit": "f5e580f4a0fbb7add22fe5c5f15d9f75c73e58be",
+    "state": "INITIALIZING",
+    "target": null,
+    "buildCommand": "node build-compact-integration.mjs (committed vercel.json)",
+    "rootDirectory": "database/shadow/harness",
+    "targetEnvironment": "Preview",
+    "artifactIds": [
+      13415213643,
+      13414222935,
+      13415015292
+    ],
+    "artifactUrlsUpdatedForPreviewBranch": true,
+    "safety": {
+      "productionChanged": false,
+      "jobsWithheld": true,
+      "expiryEnabled": false,
+      "purgeDuePayloads": false
+    }
   }
 }
