@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 31
+- automatic review: 34
 - automatic exclude: 0
 - effective include: 9
-- effective review: 31
+- effective review: 34
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (34)
 
 ---
 action: 
@@ -330,11 +330,35 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225698170
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Prince Personnel Limited - Agency - Temporary
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225736709
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim HR Assistant
+company: Liberty HR Recruitment - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225781879
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -414,11 +438,23 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Reception Administrator
-company: Windmill Primary School
-location: Telford
-source: Teaching Vacancies
-job_id: teaching-vacancies-reception-administrator-windmill-primary-school
+title: Purchasing Administrator
+company: Proactive Personnel Ltd - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225798314
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing and Stores Coordinator
+company: Prince Personnel Limited - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-108026901
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

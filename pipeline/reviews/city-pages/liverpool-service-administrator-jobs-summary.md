@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 53
+- Effective included jobs: 55
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 53
+- automatic include: 55
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 53
+- effective include: 55
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (53)
+## INCLUDE (55)
 
 ---
 action: 
@@ -340,6 +340,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Manager - Temporary to Permanent
+company: Tradewind Recruitment - Agency - Temporary
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225698676
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist
 company: Dunstan Village Group Practice
 location: Liverpool, L7 6HD
@@ -525,6 +537,18 @@ company: Dinas Lane Medical Centre
 location: Liverpool, L36 2NW
 source: NHS Jobs
 job_id: nhs-5677636
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Recruitment Administrator
+company: Office Angels - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225799848
 reason: Approved conservative Liverpool launch catchment.
 ---
 

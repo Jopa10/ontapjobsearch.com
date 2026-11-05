@@ -96,6 +96,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Willow Tree Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -159,25 +162,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-26-10-036",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5686077",
-    "source": "NHS Jobs",
-    "title": "Receptionist/Administrator",
-    "company": "Broom Lane Medical Centre",
-    "advertiser_name": "Broom Lane Medical Centre",
-    "location": "Rotherham, S60 3EW, Rotherham, S61 3QH",
-    "region": "Yorkshire - South",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-26T12:04:35.047136766",
-    "closing_date": "2026-11-04",
-    "description": "We're a friendly and supportive GP practice looking for an experienced Receptionist/Administrator to join our team. We have a part time position available; working 25 hours, 5 days per week across both of our sites on a rota basis. This role is ideal for someone who enjoys helping people who thrives in a busy, patient focused environment. You'll be an important part of our front of house and admin team. Your daily tasks will include: Welcoming patients at reception Answering telephone enquiries Booking and managing appointments Completing SystmOne tasks, scanning and attaching documents Handling emails and prescription requests Registering new patients Supporting the practice with general admin duties Full training and ongoing support will be provided. As a Receptionist/Administrator, youll play a key role in helping our practice run smoothly and ensuring patients receive an excellent level of care. Youll support our clinical and administrative teams while providing a warm, professional service to everyone who walks through our doors. Main Duties Manage new and followup appointments efficiently using our clinical IT system Welcome patients and direct them to the appropriate clinician or service Act as a chaperone when required Arrange interpretation services for patients who need language support Maintain accurate, uptodate electronic patient records using the correct coding Prepare the reception area for incoming colleagues and contribute to smooth handovers between shifts Handle telephone enquiries, take messages, and direct calls appropriately Process incoming and outgoing correspondence, including managing workflow tasks Deal with patient and administrative queries promptly and professionally Enter information into patient records as needed Support the team with searches, audits, and recall processes Maintain confidentiality at all times and offer patients a private space if they need to discuss sensitive matters General Responsibilities Follow all health and safety guidelines Take part in training and development opportunities provided by the practice Carry out any other reasonable duties required to support the smooth running of the service",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1937-26-0006",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1937-26-0006",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
     "posted_date_basis": "source"
   },
   {

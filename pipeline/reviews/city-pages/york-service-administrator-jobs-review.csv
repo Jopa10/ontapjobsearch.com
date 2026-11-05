@@ -8,6 +8,7 @@ include,jobg8-2163066,Finance Assistant,Consortium Professional Recruitment - Ag
 include,jobg8-23643_225713571,HR Administrator,Sewell Wallis Ltd - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-23643_225730066,HR Assistant (Maternity Cover),Joseph Rowntree - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,nhs-5706440,Medical Receptionist,Unity Health,"York, YO10 5LA, York, YO10 4DU",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
+include,jobg8-23643_225696188,Part Time Finance Assistant,Hays Accounts and Finance - Agency - Temporary,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,nhs-5689323,Receptionist,Nimbuscare,"York, YO24 4LJ, York, YO24 1LW, York, YO26 4GG",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,teaching-vacancies-receptionist-administrator-ebor-academy-trust,Receptionist Administrator,Ebor Academy Trust,York,Teaching Vacancies,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-23643_225755874,Reprographics & Admin assistant,PK Education - Agency - Temporary,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
@@ -37,10 +38,10 @@ exclude,jobg8-2149792,Legal Assistant - Residential Conveyancing,Edwards & Pearc
 exclude,jobg8-2197052,Marketing Executive,KD Recruitment Limited - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-23643_225700091,Paralegal,Unity Resourcing Ltd - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-23643_225788225,Part Time Administrator,KD Recruitment - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
+exclude,jobg8-108271266,Part Time Administrator,KD Recruitment Limited - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-23643_225782883,Part Time Administrator (Fixed Term Contract - 9 Months),KD Recruitment - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-23643_225765937,Part time Reception,Hays Business Support - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-2205079,Payroll Administrator,IPS Group - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-23643_225746940,Project Administrator,Innovex - Agency - Permanent,Selby,JobG8,exclude,exclude,Separate employment market.,selby,york-service-administrator-jobs
 exclude,jobg8-23643_225779537,Service Coordinator (CUPS),Dale Power Solutions - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
-exclude,jobg8-108026099,Service Coordinator (UPS),Dale Power Solutions - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,nhs-5690490,Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"Scarborough, North Yorkshire, YO11 3EG",NHS Jobs,exclude,exclude,Broad county/region label; not York-city evidence.,north yorkshire,york-service-administrator-jobs

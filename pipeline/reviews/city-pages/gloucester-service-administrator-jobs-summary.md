@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 68
+- automatic review: 70
 - automatic exclude: 0
 - effective include: 12
-- effective review: 68
+- effective review: 70
 - effective exclude: 0
 
 ## INCLUDE (12)
@@ -168,7 +168,7 @@ job_id: jobg8-23643_225790550
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (68)
+## REVIEW (70)
 
 ---
 action: 
@@ -215,6 +215,18 @@ company: HELEN FALLON CONSULTING LTD - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-2205281
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Morgan McKinley (South West) - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225696934
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -378,6 +390,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Client Services Administrator
+company: St. James's Place Wealth Management - Agency - Permanent
+location: Cheltenham
+source: JobG8
+job_id: jobg8-23643_225703579
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Communications Officer (Social Media)
 company: Meningitis Now - Agency - Permanent
 location: Gloucestershire
@@ -479,18 +503,6 @@ company: hireful - Company - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225775668
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: THOMAS Professional - Agency - Temporary
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225503952
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -731,6 +743,18 @@ company: First Base - Agency - Permanent
 location: Stonehouse
 source: JobG8
 job_id: jobg8-23643_225709005
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: i2i Recruitment - Agency - Contract
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225799109
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

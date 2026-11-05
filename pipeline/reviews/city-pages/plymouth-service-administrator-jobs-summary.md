@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 68
+- automatic review: 72
 - automatic exclude: 0
 - effective include: 8
-- effective review: 68
+- effective review: 72
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: teaching-vacancies-school-receptionist-stoke-damerel-community-college
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (68)
+## REVIEW (72)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: Interaction Recruitment - Agency - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225710682
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Office Angels - Agency - Permanent
+location: Cullompton
+source: JobG8
+job_id: jobg8-23643_225798938
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -391,18 +403,6 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: Pertemps Plymouth Commercial - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-2199982
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
 company: Pontoon - Agency - Contract
 location: Devon
 source: JobG8
@@ -419,6 +419,18 @@ company: RGB Recruitment - Agency - Contract
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225774563
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Sellick Partnership - Agency - Temporary
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225799479
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -467,6 +479,18 @@ company: Premier Foods - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-108255868
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: Pertemps Plymouth - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225698382
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -666,6 +690,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Purchasing Administrator
+company: Lockhart Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225801298
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Reception/Administrator
 company: Pertemps Plymouth - Agency - Permanent
 location: Devon
@@ -731,6 +767,18 @@ company: untypical - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225734603
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Scheduling Administrator
+company: Huntress - Maidstone - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225799504
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

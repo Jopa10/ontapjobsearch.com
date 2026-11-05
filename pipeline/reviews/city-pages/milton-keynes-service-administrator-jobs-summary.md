@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 21
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 62
+- automatic include: 23
+- automatic review: 65
 - automatic exclude: 0
-- effective include: 21
-- effective review: 62
+- effective include: 23
+- effective review: 65
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (23)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Working Solutions Recruitment - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225721862
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller (Part Time Hours)
+company: Marstep Resourcing Solutions - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225801549
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -232,6 +244,18 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Stock Administrator
+company: Adecco - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225696301
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Technical Administrator
 company: Altitude-Recruitment Limited - Agency - Permanent
 location: Milton Keynes
@@ -276,7 +300,7 @@ job_id: jobg8-2169089
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (62)
+## REVIEW (65)
 
 ---
 action: 
@@ -546,6 +570,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Customer Care & Complaints Administrator
+company: Pertemps Milton Keynes - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-23643_225698946
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: Think Specialist Recruitment - Agency - Permanent
 location: Chesham
@@ -623,6 +659,18 @@ company: E-Act Ousedale School
 location: Newport Pagnell
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-e-act-ousedale-school
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Pro Staff Recruitment Ltd - Agency - Permanent
+location: Olney
+source: JobG8
+job_id: jobg8-23643_225798208
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -983,6 +1031,18 @@ company: Daniel Owen Ltd - Agency - Permanent
 location: High Wycombe
 source: JobG8
 job_id: jobg8-23643_225765118
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales and Logistics Administrator
+company: Uxbridge Employment Agency - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225696298
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

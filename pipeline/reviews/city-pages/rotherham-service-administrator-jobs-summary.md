@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 8
 - automatic review: 72
 - automatic exclude: 0
-- effective include: 9
+- effective include: 8
 - effective review: 72
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: Willow Tree Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
-reason: Exact approved Rotherham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Administrator
-company: Broom Lane Medical Centre
-location: Rotherham, S60 3EW, Rotherham, S61 3QH
-source: NHS Jobs
-job_id: nhs-5686077
 reason: Exact approved Rotherham workplace.
 ---
 
@@ -186,6 +174,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Payable and Receivable Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225797675
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Activities Coordinator
 company: Runwood Homes - Company - Permanent
 location: Bentley
@@ -239,18 +239,6 @@ company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225743141
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: NHS Professionals - Company - Temporary
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225757191
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -643,6 +631,18 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
+company: Selborne Road Medical Centre
+location: Sheffield, S10 5ND
+source: NHS Jobs
+job_id: nhs-5685334
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
 company: Staff Partners Business - Agency - Permanent
 location: Barnsley
 source: JobG8
@@ -659,6 +659,18 @@ company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: PART TIME ACCOUNT COORDINATOR
+company: Gi Group - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225798831
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -791,18 +803,6 @@ company: Chesterfield Poultry - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225706715
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Programme Marketing Contractor URGENT
-company: The National College - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2193337
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -971,18 +971,6 @@ company: Charto Recruitment Ltd - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225749128
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225796381
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

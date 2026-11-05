@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 29
+- automatic include: 16
+- automatic review: 31
 - automatic exclude: 0
-- effective include: 13
-- effective review: 29
+- effective include: 16
+- effective review: 31
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (16)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Baseline Recruit Ltd - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225766980
+reason: Exact approved Stockport workplace.
+---
 
 ---
 action: 
@@ -57,6 +69,18 @@ company: Adecco - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225761727
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Jobwise Ltd - Agency - Temporary
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225695945
 reason: Exact approved Stockport workplace.
 ---
 
@@ -124,6 +148,18 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225801269
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Practice Bookkeeper
 company: Square Peg Associates Ltd - Agency - Permanent
 location: Stockport
@@ -180,7 +216,7 @@ job_id: jobg8-23643_225744140
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (29)
+## REVIEW (31)
 
 ---
 action: 
@@ -251,6 +287,18 @@ company: Robert Walters - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-2156448
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - 4 month temp contract
+company: UK Staffing Group Limited - Agency - Temporary
+location: Sale
+source: JobG8
+job_id: jobg8-23643_225800973
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -527,6 +575,18 @@ company: Portfolio Payroll Limited - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225715889
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary HR Administrator
+company: Office Angels - Agency - Temporary
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225696497
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

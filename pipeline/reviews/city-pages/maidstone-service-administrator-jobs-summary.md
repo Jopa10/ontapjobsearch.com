@@ -4,7 +4,7 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 162
+- automatic include: 8
+- automatic review: 172
 - automatic exclude: 0
-- effective include: 5
-- effective review: 162
+- effective include: 8
+- effective review: 172
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (8)
 
 ---
 action: 
@@ -40,11 +40,35 @@ reason: Exact approved Maidstone workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Administrator
+company: Gi Group - Agency - Temporary
+location: Maidstone
+source: JobG8
+job_id: jobg8-23643_225800310
+reason: Exact approved Maidstone workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Document Controller
 company: Damicor Ltd - Agency - Permanent
 location: Maidstone
 source: JobG8
 job_id: jobg8-23643_225722406
+reason: Exact approved Maidstone workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Logistics Planner
+company: Four Jays Group - Agency - Permanent
+location: Maidstone
+source: JobG8
+job_id: jobg8-23643_225696655
 reason: Exact approved Maidstone workplace.
 ---
 
@@ -84,7 +108,19 @@ job_id: jobg8-23643_225749263
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (162)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Supply Chain Coordinator
+company: Michael Page - Agency - Permanent
+location: Maidstone
+source: JobG8
+job_id: jobg8-23643_225696704
+reason: Exact approved Maidstone workplace.
+---
+
+## REVIEW (172)
 
 ---
 action: 
@@ -558,6 +594,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Contract Co-ordinator (6month Contract)
+company: Office Angels - Agency - Permanent
+location: Tunbridge Wells
+source: JobG8
+job_id: jobg8-23643_225800740
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Conveyancing Legal Assistant
 company: Diamond Search Recruitment Ltd - Agency - Permanent
 location: Kent
@@ -846,6 +894,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator
+company: Office Angels - Agency - Temporary
+location: Aylesford
+source: JobG8
+job_id: jobg8-23643_225800170
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Cobb & Jones Recruitment Limited - Agency - Permanent
 location: Kent
@@ -990,18 +1050,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Financial Adviser Administrator
-company: Brook Street - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225737709
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: GP Receptionist
 company: Pilgrims Way Surgery
 location: Dartford, DA1 1QY
@@ -1038,6 +1086,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Group Credit Controller
+company: Attega Group Ltd - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225798721
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Coordinator / HR Advisor
 company: Netbox Recruitment - Agency - Permanent
 location: Kent
@@ -1055,6 +1115,18 @@ company: Hays Specialist Recruitment - Education - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225796054
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HVAC Office Administrator
+company: Bennett and Game Recruitment LTD - Agency - Permanent
+location: Rochester
+source: JobG8
+job_id: jobg8-23643_225697754
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1326,6 +1398,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Part-Time Accounts Assistant Dartford Temp to Perm
+company: Office Angels - Agency - Temporary
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225697973
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-Time Administrator
 company: New Appointments Group - Agency - Temporary
 location: Kent
@@ -1411,10 +1495,10 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll and Pensions Officer
-company: New Appointments Group - Agency - Permanent
+company: New Appointments Group - Agency - Contract
 location: Sittingbourne
 source: JobG8
-job_id: jobg8-2169491
+job_id: jobg8-23643_225754147
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1423,10 +1507,10 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll and Pensions Officer
-company: New Appointments Group - Agency - Temporary
+company: New Appointments Group - Agency - Permanent
 location: Sittingbourne
 source: JobG8
-job_id: jobg8-23643_225754147
+job_id: jobg8-2169491
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1463,6 +1547,18 @@ company: Town & Country Housing Group - Agency - Contract
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225747559
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Planner / Scheduler Co-ordinator
+company: Office Angels - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225799454
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1554,6 +1650,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Project Support Administrator
+company: Pyramid Search - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225775127
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Property Maintenance and Legal Administrator
 company: Love Property Management - Agency - Permanent
 location: Kent
@@ -1583,6 +1691,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2163841
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger
+company: Netbox Recruitment - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225698386
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1794,6 +1914,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support Administrator
+company: Pyramid Search - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225775139
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Support Coordinator
 company: Birchley Consultancy Limited - Agency - Permanent
 location: Gravesend
@@ -1842,6 +1974,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Senior Digital Marketing Executive
+company: Diamond Search Recruitment Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225800967
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Paid Media Exec
 company: Reed - Agency - Permanent
 location: Kent
@@ -1883,6 +2027,18 @@ company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225786020
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Site Administrator
+company: VolkerWessels UK Ltd - Company - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225799892
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

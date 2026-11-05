@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 7
 - automatic review: 56
 - automatic exclude: 0
-- effective include: 6
+- effective include: 7
 - effective review: 56
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Bournemouth, BH7 6JF
 source: NHS Jobs
 job_id: nhs-5694960
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Administrator
+company: Tru Talent - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225696513
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -258,23 +270,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Business Administrator
-company: KAG Recruitment Consultancy - Agency - Permanent
+title: Contact Centre Advisor
+company: Stonewater - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225771986
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Leaders In Care Recruitment Ltd - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108069104
+job_id: jobg8-23643_225697970
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -767,6 +767,18 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Christchurch, BH23 3AF
 source: NHS Jobs
 job_id: nhs-5692257
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Dorset HealthCare University NHS Foundation Trust
+location: Weymouth, DT4 0QE
+source: NHS Jobs
+job_id: nhs-5708490
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

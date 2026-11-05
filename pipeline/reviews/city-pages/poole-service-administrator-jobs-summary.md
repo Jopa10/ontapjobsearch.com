@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 53
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 9
-- effective review: 53
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225795324
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (54)
 
 ---
 action: 
@@ -306,23 +306,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Business Administrator
-company: KAG Recruitment Consultancy - Agency - Permanent
+title: Contact Centre Advisor
+company: Stonewater - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225771986
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Leaders In Care Recruitment Ltd - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108069104
+job_id: jobg8-23643_225697970
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -335,6 +323,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225790377
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Tru Talent - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225696513
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -755,6 +755,18 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Christchurch, BH23 3AF
 source: NHS Jobs
 job_id: nhs-5692257
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Dorset HealthCare University NHS Foundation Trust
+location: Weymouth, DT4 0QE
+source: NHS Jobs
+job_id: nhs-5708490
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

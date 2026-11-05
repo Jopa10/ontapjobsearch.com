@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 24
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
+- automatic include: 21
 - automatic review: 79
 - automatic exclude: 0
-- effective include: 24
+- effective include: 21
 - effective review: 79
 - effective exclude: 0
 
-## INCLUDE (24)
+## INCLUDE (21)
 
 ---
 action: 
@@ -77,10 +77,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: St Luke’s Primary Care Centre
-location: Northampton, NN5 6FR
-source: NHS Jobs
-job_id: nhs-5677922
+company: JT Recruit - Agency - Temporary
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225696736
 reason: Exact approved Northampton workplace.
 ---
 
@@ -93,30 +93,6 @@ company: TimePlan Education - Agency - Contract
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225709213
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Officer
-company: Northampton School
-location: Northampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-northampton-school
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Content creator and Admin assistant
-company: Moulton Primary School
-location: Northampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-content-creator-and-admin-assistant
 reason: Exact approved Northampton workplace.
 ---
 
@@ -280,18 +256,6 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: School Receptionist
-company: Northampton School
-location: Northampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-receptionist-northampton-school
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Shipping Coordinator
 company: Impact Recruitment Services - Agency - Permanent
 location: Northampton
@@ -395,6 +359,18 @@ company: Rothwell & Desborough Healthcare Group
 location: Kettering, NN14 6JQ, Kettering, NN14 2NB
 source: NHS Jobs
 job_id: nhs-5688432
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225697797
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -582,6 +558,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Coordinator
+company: Adecco - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225799245
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Dealership Service Advisor
 company: KPI People Ltd - Agency - Permanent
 location: Northamptonshire
@@ -671,6 +659,18 @@ company: Impact Recruitment Services - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225752139
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Events Administrator
+company: K2 Recruitment - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225696885
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -1002,30 +1002,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Parts Administrator
-company: Blusource Professional Services Ltd - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225749319
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll & HR Administrator
-company: Axil - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2194605
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Northamptonshire
@@ -1223,18 +1199,6 @@ company: Pertemps Northampton - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-23643_225723210
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator
-company: Cameo Consultancy - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225764102
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

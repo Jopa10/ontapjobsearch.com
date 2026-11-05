@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 21
-- automatic review: 4
-- automatic exclude: 82
+- automatic review: 6
+- automatic exclude: 87
 - effective include: 21
-- effective review: 4
-- effective exclude: 82
+- effective review: 6
+- effective exclude: 87
 
 ## INCLUDE (21)
 
@@ -136,11 +136,11 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger
-company: SF Partners - Agency - Temporary
+title: Payroll Officer
+company: Transaction Recruitment - Agency - Temporary
 location: Coventry
 source: JobG8
-job_id: jobg8-23643_225715976
+job_id: jobg8-23643_225799792
 reason: Approved Coventry catchment.
 ---
 
@@ -148,11 +148,11 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger Administrator
-company: Camping and Caravanning Club - Agency - Permanent
+title: Purchase Ledger
+company: SF Partners - Agency - Temporary
 location: Coventry
 source: JobG8
-job_id: jobg8-23643_225746008
+job_id: jobg8-23643_225715976
 reason: Approved Coventry catchment.
 ---
 
@@ -276,7 +276,19 @@ job_id: nhs-5706425
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (6)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Workforce Staffing Ltd - Agency - Permanent
+location: Studley
+source: JobG8
+job_id: jobg8-23643_225799801
+reason: No approved Coventry catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -306,6 +318,18 @@ reason: No approved Coventry catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator - Purchasing
+company: Options Resourcing Ltd - Agency - Permanent
+location: Southam
+source: JobG8
+job_id: jobg8-23643_225798822
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Installations Coordinator
 company: Arden Personnel - Agency - Permanent
 location: Alcester
@@ -326,7 +350,7 @@ job_id: jobg8-23643_225796409
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (82)
+## EXCLUDE (87)
 
 ---
 action: 
@@ -457,6 +481,18 @@ company: RTL Group Ltd - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225728034
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Stanair Industrial Door Services - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225799253
 reason: Separate employment market.
 ---
 
@@ -765,6 +801,30 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
+company: Four Squared Recruitment Ltd - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225799804
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225800797
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Warwickshire
 source: JobG8
@@ -980,6 +1040,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Office Support Coordinator
+company: Auctoro Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225798165
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Operations Administrator
 company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Warwickshire
@@ -1088,6 +1160,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: Transaction Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225799083
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Purchasing Administrator
 company: Plus One Recruitment - Agency - Permanent
 location: Warwickshire
@@ -1112,11 +1196,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: SWFT Clinical Services Ltd
-location: Stratford Upon Avon, CV37 6NQ
-source: NHS Jobs
-job_id: nhs-5679471
+title: Recruitment Account Coordinator (Driving)
+company: Winner Recruitment - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-108261084
 reason: Separate employment market.
 ---
 
@@ -1174,7 +1258,7 @@ decision: exclude
 automatic_decision: exclude
 title: Sales Development Representative
 company: Plus One Recruitment - Agency - Permanent
-location: Stratford-upon-avon
+location: Stratford-Upon-Avon
 source: JobG8
 job_id: jobg8-23643_225772548
 reason: Separate employment market.

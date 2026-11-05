@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
-- automatic review: 13
+- automatic include: 34
+- automatic review: 11
 - automatic exclude: 35
-- effective include: 33
-- effective review: 13
+- effective include: 34
+- effective review: 11
 - effective exclude: 35
 
-## INCLUDE (33)
+## INCLUDE (34)
 
 ---
 action: 
@@ -280,11 +280,35 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Selborne Road Medical Centre
+location: Sheffield, S10 5ND
+source: NHS Jobs
+job_id: nhs-5685334
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operations Administrator
 company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: PART TIME ACCOUNT COORDINATOR
+company: Gi Group - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225798831
 reason: Approved Sheffield catchment.
 ---
 
@@ -408,19 +432,7 @@ job_id: jobg8-23643_225789027
 reason: Approved Sheffield catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225796381
-reason: Approved Sheffield catchment.
----
-
-## REVIEW (13)
+## REVIEW (11)
 
 ---
 action: 
@@ -431,18 +443,6 @@ company: Runwood Homes - Company - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225736679
-reason: No approved Sheffield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: NHS Professionals - Company - Temporary
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225757191
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -558,18 +558,6 @@ reason: No approved Sheffield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Programme Marketing Contractor URGENT
-company: The National College - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2193337
-reason: No approved Sheffield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Retail & Brand Partnership Executive
 company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
@@ -579,6 +567,18 @@ reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (35)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable and Receivable Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225797675
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -925,18 +925,6 @@ company: Thorne Moor Medical Practice
 location: Doncaster, DN8 4BQ, Doncaster, DN8 4SB
 source: NHS Jobs
 job_id: nhs-5699812
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Administrator
-company: Broom Lane Medical Centre
-location: Rotherham, S60 3EW, Rotherham, S61 3QH
-source: NHS Jobs
-job_id: nhs-5686077
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 57
+- Effective included jobs: 58
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 57
-- automatic review: 60
-- automatic exclude: 42
-- effective include: 57
-- effective review: 60
-- effective exclude: 42
+- automatic include: 58
+- automatic review: 64
+- automatic exclude: 40
+- effective include: 58
+- effective review: 64
+- effective exclude: 40
 
-## INCLUDE (57)
+## INCLUDE (58)
 
 ---
 action: 
@@ -345,6 +345,18 @@ company: Newburn Surgery
 location: Newcastle upon Tyne, NE15 8LX
 source: NHS Jobs
 job_id: nhs-5684305
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Client Retention & Renewals Executive Permanent - Gateshead
+company: Office Angels - Agency - Permanent
+location: Gateshead
+source: JobG8
+job_id: jobg8-23643_225798287
 reason: Approved Newcastle catchment.
 ---
 
@@ -708,7 +720,7 @@ job_id: jobg8-23643_225729570
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (60)
+## REVIEW (64)
 
 ---
 action: 
@@ -787,23 +799,23 @@ action:
 decision: review
 automatic_decision: review
 title: Activities Coordinator
-company: Exemplar Health Care - Company - Permanent
-location: Bishop Auckland
+company: RG Setsquare - Agency - Permanent
+location: Tyne And Wear
 source: JobG8
-job_id: jobg8-108248247
-reason: No approved Newcastle catchment rule matched; local review required.
+job_id: jobg8-23643_225758640
+reason: Broad location; review before city inclusion.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Activities Coordinator
-company: RG Setsquare - Agency - Permanent
-location: Tyne And Wear
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Washington
 source: JobG8
-job_id: jobg8-23643_225758640
-reason: Broad location; review before city inclusion.
+job_id: jobg8-23643_225801188
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -816,6 +828,18 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225777049
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Adecco - Agency - Temporary
+location: Blyth
+source: JobG8
+job_id: jobg8-23643_225698362
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -1026,30 +1050,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Coordinator
-company: Si Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2183987
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Coordinator (Part-Time)
-company: Si Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2191826
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Baltic Recruitment Services Ltd - Agency - Permanent
 location: Tyne And Wear
@@ -1158,6 +1158,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: SRG - Agency - Contract
+location: Sedgefield
+source: JobG8
+job_id: jobg8-23643_225801420
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator Permanent - Boldon - Hybrid
 company: Office Angels - Agency - Permanent
 location: Tyne And Wear
@@ -1230,6 +1242,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Part-Time Sales, Finance & Marketing Administrator
+company: Executive Compass - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225698481
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: People Coordinator
 company: Belmont Recruitment - Agency - Contract
 location: Washington
@@ -1248,6 +1272,18 @@ location: Seaham
 source: JobG8
 job_id: jobg8-23643_225779215
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Programme Administrator
+company: Kinetic PLC - Agency - Contract
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225696511
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1290,6 +1326,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: RG Setsquare - Agency - Temporary
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225697746
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist/ Front of House
 company: Search Consultancy Ltd - Agency - Contract
 location: Tyne And Wear
@@ -1319,6 +1367,18 @@ company: Capital R2R Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_222841829
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Resourcer (Permanent Recruitment)
+company: CDM Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_208971992
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1430,7 +1490,7 @@ job_id: nhs-5682388
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (42)
+## EXCLUDE (40)
 
 ---
 action: 
@@ -1460,18 +1520,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Payable
-company: Travail Employment Group - Agency - Temporary
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225703713
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Accounts Payable Clerk
 company: Lemon Drizzle Recruitment - Agency - Permanent
 location: County Durham
@@ -1489,18 +1537,6 @@ company: Harry Watts Academy
 location: Sunderland
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-n4
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: North Durham Academy
-location: Stanley
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-north-durham-academy-stanley-county-durham
 reason: Separate employment market.
 ---
 

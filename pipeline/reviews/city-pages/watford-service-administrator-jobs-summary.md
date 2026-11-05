@@ -4,7 +4,7 @@
 - Live route: `/watford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 96
+- automatic include: 5
+- automatic review: 101
 - automatic exclude: 0
-- effective include: 4
-- effective review: 96
+- effective include: 5
+- effective review: 101
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Exact approved Watford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Estates Administrator
+company: Berry Recruitment - Agency - Temporary
+location: Watford
+source: JobG8
+job_id: jobg8-23643_225799358
+reason: Exact approved Watford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operations Co-Ordinator
 company: Zero Surplus - Agency - Permanent
 location: Watford
@@ -72,7 +84,7 @@ job_id: jobg8-23643_225716356
 reason: Exact approved Watford workplace.
 ---
 
-## REVIEW (96)
+## REVIEW (101)
 
 ---
 action: 
@@ -227,6 +239,30 @@ company: Nexus HR Limited - Agency - Temporary
 location: Royston
 source: JobG8
 job_id: jobg8-23643_225759556
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Howells Solutions Limited - Agency - Temporary
+location: Welwyn
+source: JobG8
+job_id: jobg8-23643_225798231
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: NHS Professionals - Company - Contract
+location: Stevenage
+source: JobG8
+job_id: jobg8-23643_225697596
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -402,6 +438,18 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
+title: Contracts Administrator
+company: Tate - Agency - Temporary
+location: Hemel Hempstead
+source: JobG8
+job_id: jobg8-23643_225797540
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: SRM RECRUITMENT LIMITED - Agency - Permanent
 location: Hertfordshire
@@ -444,6 +492,18 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225750609
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer service advisor
+company: Think Specialist Recruitment - Agency - Temporary
+location: Hemel Hempstead
+source: JobG8
+job_id: jobg8-23643_225698178
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -774,6 +834,18 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
+title: Litigation Legal Administrator
+company: Eclectic Recruitment - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225792893
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Logistics Coordinator
 company: HR GO Recruitment - Agency - Permanent
 location: Bishop'S Stortford
@@ -840,18 +912,6 @@ location: Hemel Hempstead
 source: Teaching Vacancies
 job_id: teaching-vacancies-office-administrator-31d5e12d-a2a3-4b2c-abdc-52304ac5f2db
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Administrator
-company: Hales Group - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225700035
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
 ---
@@ -996,6 +1056,18 @@ location: Welwyn Garden City
 source: JobG8
 job_id: jobg8-23643_225733356
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Assistant
+company: Portfolio Procurement - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225800799
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
 ---

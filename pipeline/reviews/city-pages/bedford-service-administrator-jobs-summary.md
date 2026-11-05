@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 32
+- automatic review: 35
 - automatic exclude: 0
 - effective include: 4
-- effective review: 32
+- effective review: 35
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225761869
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (35)
 
 ---
 action: 
@@ -306,11 +306,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Office & Community Administrator
-company: Southcott Lower School
-location: Leighton Buzzard
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-community-administrator
+title: Minute taking Business Administrator
+company: Connect2Luton - Agency - Temporary
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225799190
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -318,11 +318,23 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Online Customer Service Advisor
-company: Hales Group - Agency - Temporary
+title: New Product Coordinator
+company: Response Personnel Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-23643_225699711
+job_id: jobg8-23643_225696230
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office & Community Administrator
+company: Southcott Lower School
+location: Leighton Buzzard
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-community-administrator
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -402,6 +414,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Repairs Planner
+company: Howells Solutions Limited - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-23643_225798201
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Office Administrator (Part time & Flexible working)
 company: St Christophers Academy
 location: Dunstable
@@ -431,6 +455,18 @@ company: Harvey Jacob Ltd - Agency - Contract
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225705667
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Spare Parts Administrator
+company: Think Specialist Recruitment - Agency - Contract
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225800590
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

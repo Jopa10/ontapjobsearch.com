@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 30
-- automatic review: 7
+- automatic review: 8
 - automatic exclude: 4
 - effective include: 30
-- effective review: 7
+- effective review: 8
 - effective exclude: 4
 
 ## INCLUDE (30)
@@ -384,7 +384,7 @@ job_id: nhs-5700008
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -455,6 +455,18 @@ company: Freight Personnel - Agency - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-23643_225747359
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Senior Administrator
+company: Butler Rose - Agency - Permanent
+location: Widnes
+source: JobG8
+job_id: jobg8-2144274
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

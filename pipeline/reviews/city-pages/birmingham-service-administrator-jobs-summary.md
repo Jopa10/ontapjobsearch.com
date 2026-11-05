@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 100
+- Effective included jobs: 109
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 100
-- automatic review: 13
-- automatic exclude: 13
-- effective include: 100
-- effective review: 13
-- effective exclude: 13
+- automatic include: 109
+- automatic review: 15
+- automatic exclude: 12
+- effective include: 109
+- effective review: 15
+- effective exclude: 12
 
-## INCLUDE (100)
+## INCLUDE (109)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Office Angels - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225799361
+reason: Approved conservative Birmingham launch catchment.
+---
 
 ---
 action: 
@@ -129,6 +141,18 @@ company: James Brindley School
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-65a61b9e-be5f-4172-b55c-8b707f8e10f9
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookings Coordinators
+company: Office Angels - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225799370
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -484,6 +508,30 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Digital Marketing Executive
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225799845
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Document Controller
+company: Bennett and Game Recruitment LTD - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225698821
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Document Controller
 company: Boden Group - Agency - Permanent
 location: Birmingham
@@ -736,6 +784,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Shared Services Administrator
+company: Gleeson Recruitment Group - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225699093
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Internal Recruiter / Supported Living / Care Recruitment Experience
 company: Frontier Consulting - Agency - Permanent
 location: Birmingham
@@ -789,6 +849,18 @@ company: Dawn Ellmore Employment - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225783580
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Junior Finance Assistant
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225798243
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -929,18 +1001,6 @@ action:
 decision: include
 automatic_decision: include
 title: Planning Administrator
-company: Rx Plus - Agency - Temporary
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225760430
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Planning Administrator
 company: Search Consultancy Ltd - Agency - Contract
 location: Birmingham
 source: JobG8
@@ -1036,6 +1096,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist - Education Setting
+company: Aspire People - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225801392
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Recruitment Administrator
 company: Dynamic Resourcing - Agency - Permanent
 location: Birmingham
@@ -1065,6 +1137,18 @@ company: Red Recruitment Group Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_216950213
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Ledger Assistant
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225797308
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1156,6 +1240,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Site Administrator
+company: Astute People - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225800117
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Social Media Manager
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Birmingham
@@ -1204,11 +1300,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Administrator
-company: Search Consultancy Ltd - Agency - Contract
+title: Temp Customer Service Advisor
+company: Michael Page - Agency - Temporary
 location: Birmingham
 source: JobG8
-job_id: jobg8-23643_225795367
+job_id: jobg8-23643_225798225
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1224,7 +1320,19 @@ job_id: jobg8-23643_225743447
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (13)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Site Administrator
+company: Search Consultancy Ltd - Agency - Contract
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225795367
+reason: Approved conservative Birmingham launch catchment.
+---
+
+## REVIEW (15)
 
 ---
 action: 
@@ -1247,6 +1355,18 @@ company: Bell Cornwall Recruitment - Agency - Permanent
 location: Sutton Coldfield
 source: JobG8
 job_id: jobg8-23643_225777556
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: SF Partners - Agency - Contract
+location: Shirley
+source: JobG8
+job_id: jobg8-23643_225800312
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
@@ -1374,6 +1494,18 @@ reason: No approved Birmingham catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: School Administrator
+company: The Supply Register - Agency - Temporary
+location: Shirley
+source: JobG8
+job_id: jobg8-23643_225698701
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: VOR Administrator (Vehicle Off Road)
 company: Pertemps Birmingham Industrial - Agency - Temporary
 location: Chelmsley Wood
@@ -1382,7 +1514,7 @@ job_id: jobg8-23643_225731801
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -1465,18 +1597,6 @@ company: The Recruitment Duo - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-23643_225350767
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Leisure and Facilities Coordinator
-company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
-location: Solihull
-source: JobG8
-job_id: jobg8-2188745
 reason: Separate exact-city market at launch.
 ---
 

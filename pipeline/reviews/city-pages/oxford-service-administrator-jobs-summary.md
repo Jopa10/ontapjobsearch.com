@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 35
-- automatic exclude: 34
+- automatic review: 36
+- automatic exclude: 36
 - effective include: 8
-- effective review: 35
-- effective exclude: 34
+- effective review: 36
+- effective exclude: 36
 
 ## INCLUDE (8)
 
@@ -33,30 +33,6 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Oxford
 source: JobG8
 job_id: jobg8-23643_225788858
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Patient Pathway Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 7LE
-source: NHS Jobs
-job_id: nhs-5685147
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Patient Pathway Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DE
-source: NHS Jobs
-job_id: nhs-5686603
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -88,6 +64,18 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Administrator
+company: JGA Recruitment - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-23643_225798030
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Procurement Administrator *Hybrid Role*
 company: River Learning Trust
 location: Oxford
@@ -112,6 +100,18 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger & Office Administrator
+company: Humand - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-23643_225586374
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/Front of House Co-ordinator
 company: Adecco - Agency - Permanent
 location: Oxford
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225746493
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (35)
+## REVIEW (36)
 
 ---
 action: 
@@ -366,6 +366,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist / Office Administrator (Temporary)
+company: Planet Recruitment - Agency - Temporary
+location: Didcot
+source: JobG8
+job_id: jobg8-23643_225698887
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment & HR Administrator
 company: Adecco - Agency - Permanent
 location: Thame
@@ -450,6 +462,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Technical Administrator
+company: Cameo Consultancy - Agency - Permanent
+location: Banbury
+source: JobG8
+job_id: jobg8-23643_225764102
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Technical Publications Administrator
 company: Planet Recruitment - Agency - Permanent
 location: Abingdon
@@ -514,18 +538,6 @@ title: Ward Clerk
 company: Oxford University Hospitals NHS Foundation Trust
 location: Banbury, OX16 9AL
 source: NHS Jobs
-job_id: nhs-5664768
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Oxford University Hospitals NHS Foundation Trust
-location: Banbury, OX16 9AL
-source: NHS Jobs
 job_id: nhs-5707703
 reason: No approved Oxford catchment rule matched; local review required.
 ---
@@ -542,7 +554,7 @@ job_id: jobg8-108158397
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -637,6 +649,18 @@ company: Tech Professionals - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_222392350
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Administrator
+company: Whiteoak Associates - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_214543074
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -841,6 +865,18 @@ company: Platinum Resourcing - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225770320
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Focus Resourcing - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225797593
 reason: Broad county location; not Oxford-city evidence.
 ---
 

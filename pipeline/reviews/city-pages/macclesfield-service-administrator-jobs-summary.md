@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 25
+- automatic include: 11
+- automatic review: 26
 - automatic exclude: 0
-- effective include: 10
-- effective review: 25
+- effective include: 11
+- effective review: 26
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Exact approved Macclesfield workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Operational Administrator
+company: Barlow Wood Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-23643_225799183
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Project Document Controller
 company: Belcan - Agency - Permanent
 location: Macclesfield
@@ -144,7 +156,7 @@ job_id: jobg8-23643_225715924
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (25)
+## REVIEW (26)
 
 ---
 action: 
@@ -167,6 +179,18 @@ company: Anderson Wright Consulting - Agency - Permanent
 location: Sandbach
 source: JobG8
 job_id: jobg8-23643_225721970
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Clerk
+company: System Recruitment - Agency - Permanent
+location: Middlewich
+source: JobG8
+job_id: jobg8-23643_225801237
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

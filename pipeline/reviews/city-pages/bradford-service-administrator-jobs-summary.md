@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 28
-- automatic review: 40
-- automatic exclude: 124
+- automatic review: 43
+- automatic exclude: 128
 - effective include: 28
-- effective review: 40
-- effective exclude: 124
+- effective review: 43
+- effective exclude: 128
 
 ## INCLUDE (28)
 
@@ -360,7 +360,7 @@ job_id: jobg8-2192918
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (40)
+## REVIEW (43)
 
 ---
 action: 
@@ -371,18 +371,6 @@ company: Reed - Agency - Permanent
 location: Holmfirth
 source: JobG8
 job_id: jobg8-2187106
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: RG Consultancy Ltd - Agency - Permanent
-location: Holmfirth
-source: JobG8
-job_id: jobg8-2176967
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -510,6 +498,18 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller- Cleckheaton Immediate Start Available
+company: Office Angels - Agency - Permanent
+location: Cleckheaton
+source: JobG8
+job_id: jobg8-23643_225798083
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Criminal Law Paralegal
 company: The Eventus Recruitment Group - Agency - Permanent
 location: Yorkshire
@@ -599,6 +599,18 @@ company: Loom Talent - Agency - Permanent
 location: Normanton
 source: JobG8
 job_id: jobg8-23643_225721454
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: FM Administrator
+company: 300 North Limited - Agency - Temporary
+location: Normanton
+source: JobG8
+job_id: jobg8-23643_225799000
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -726,6 +738,18 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Office Admin
+company: Concept Recruitment Group Ltd - Agency - Temporary
+location: Brighouse
+source: JobG8
+job_id: jobg8-23643_225505996
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: West Riding Recruitment - Agency - Permanent
 location: Ossett
@@ -743,6 +767,18 @@ company: Sphere Digital Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2197982
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Coordinator
+company: Lucy Walker Recruitment - Agency - Temporary
+location: Castleford
+source: JobG8
+job_id: jobg8-23643_225797828
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -842,7 +878,7 @@ job_id: jobg8-2204175
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (124)
+## EXCLUDE (128)
 
 ---
 action: 
@@ -933,18 +969,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
-company: RG Consultancy Ltd - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2176996
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
 company: Sewell Wallis Ltd - Agency - Temporary
 location: Huddersfield
 source: JobG8
@@ -997,6 +1021,18 @@ company: Horbury Academy
 location: Wakefield
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-horbury-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Ambitions Personnel - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225801332
 reason: Separate employment market.
 ---
 
@@ -1424,6 +1460,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Dental Receptionist
+company: The People Advisory - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-23643_225630226
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Digital Marketing Executive
 company: AWC STAFF SERVICES LTD - Agency - Permanent
 location: Leeds
@@ -1569,7 +1617,7 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Front of House Property Admin
-company: Integro Partners - Agency - Permanent
+company: Integro People Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225723232
@@ -1748,6 +1796,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing & Design Assistant
+company: Lucy Walker Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225794077
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Manager
 company: Hays Technology - Agency - Permanent
 location: Leeds
@@ -1813,6 +1873,18 @@ company: Logical Personnel Solutions - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225661219
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Office Coordinator
+company: Lucy Walker Recruitment - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225696913
 reason: Separate employment market.
 ---
 
@@ -2269,6 +2341,18 @@ company: Outwood Grange Academy
 location: Wakefield
 source: Teaching Vacancies
 job_id: teaching-vacancies-student-information-desk-receptionist-outwood-grange-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temp Customer Service Advisor
+company: Michael Page - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225798071
 reason: Separate employment market.
 ---
 

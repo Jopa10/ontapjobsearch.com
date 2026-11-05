@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 63
+- Effective included jobs: 68
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 63
+- automatic include: 68
 - automatic review: 11
-- automatic exclude: 4
-- effective include: 63
+- automatic exclude: 6
+- effective include: 68
 - effective review: 11
-- effective exclude: 4
+- effective exclude: 6
 
-## INCLUDE (63)
+## INCLUDE (68)
 
 ---
 action: 
@@ -292,6 +292,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Administrator
+company: Ashley Rees Associates - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225504707
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: Interaction Recruitment - Agency - Temporary
 location: Bristol
@@ -400,6 +412,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Freight Co-Ordinator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225799623
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: GP Receptionist
 company: Portishead Medical Group
 location: Bristol, BS20 6AQ
@@ -440,7 +464,7 @@ title: Internal Sales
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225772106
+job_id: jobg8-23643_225799510
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -453,6 +477,18 @@ company: CCA Recruitment Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225712157
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Internal Sales Executive - Electrical Wholesale
+company: Effective Recruitment Solutions Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225799331
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -652,6 +688,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225698115
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Administrator MAT cover
 company: Little Mead Primary Academy
 location: Bristol
@@ -777,6 +825,18 @@ company: Moxie and Mettle Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2153487
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Technical Administrator
+company: Acorn by Synergie - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225799979
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -914,7 +974,7 @@ job_id: jobg8-23643_225746132
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -932,11 +992,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Family Legal Assistant
+company: Yolk Recruitment - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-23643_225800376
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Interim Part-Time Finance Officer
 company: Hays Accounts and Finance - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-23643_225782485
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Secretary (Family)
+company: Thrive Group - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-23643_225800119
 reason: Separate employment market.
 ---
 

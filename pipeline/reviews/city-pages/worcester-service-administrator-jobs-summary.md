@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 30
+- automatic review: 32
 - automatic exclude: 0
 - effective include: 3
-- effective review: 30
+- effective review: 32
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-administrative-finance-assistant-hollymount-school
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (32)
 
 ---
 action: 
@@ -282,11 +282,35 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Night Transport Office Administrator
+company: Workforce Staffing Ltd - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225799806
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Administrator
 company: Adecco - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225785359
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Four Squared Recruitment Ltd - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225797421
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

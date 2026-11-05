@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 15
+- automatic include: 22
+- automatic review: 16
 - automatic exclude: 33
-- effective include: 21
-- effective review: 15
+- effective include: 22
+- effective review: 16
 - effective exclude: 33
 
-## INCLUDE (21)
+## INCLUDE (22)
 
 ---
 action: 
@@ -117,6 +117,18 @@ company: EA First - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225759112
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Experienced Patent Secretary (To &;50,000!) - Cambridge/Hybrid
+company: Dawn Ellmore Employment Agency - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2144050
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -276,7 +288,7 @@ job_id: jobg8-23643_225721995
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (16)
 
 ---
 action: 
@@ -287,6 +299,18 @@ company: Infinity Recruitment Consultancy Limited - Agency - Permanent
 location: St. Ives
 source: JobG8
 job_id: jobg8-23643_225771916
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Coyle Personnel - Agency - Temporary
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225801509
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 

@@ -2,9 +2,9 @@ decision,job_id,title,company,location,source,automatic_decision,effective_decis
 include,jobg8-2195136,Accounts Assistant,Bennett & Game Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225771482,Accounts Assistant,Bennett and Game Recruitment LTD - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225758291,Accounts Assistant,Castle Employment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
-include,jobg8-2176996,Accounts Assistant,RG Consultancy Ltd - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2174117,Accounts Assistant,Synergem Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225551634,Accounts Payable Assistant,BTG Eddisons - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,jobg8-23643_225801332,Administrator,Ambitions Personnel - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2198163,Administrator,Marks Sattin - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,nhs-5694671,Administrator,Practice Plus Group - Health in Justice,"Leeds, LS12 2TJ",NHS Jobs,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225777102,Audi Service Advisor,Sytner - Company - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
@@ -43,7 +43,7 @@ include,jobg8-2167973,Finance Administrator/Bookkeeper,Hays Specialist Recruitme
 include,jobg8-2168050,Finance Assistant,IPS Group - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225740595,Finance Assistant - 12 Month Contract,Office Angels - Agency - Contract,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2152521,Finance Assistant - 12 Month Contract,Office Angels - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
-include,jobg8-23643_225723232,Front of House Property Admin,Integro Partners - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,jobg8-23643_225723232,Front of House Property Admin,Integro People Limited - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225709267,HR Coordinator,Hays Business Support - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2188576,Insurance Broking Finance Assistant,"Everywhen, part of the Ardonagh Group - Agency - Permanent",Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225703687,Interim Finance Assistant,Hamilton Woods - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
@@ -52,9 +52,11 @@ include,jobg8-23643_225786465,Junior PMO Coordinator - Fixed Term Contract - Apr
 include,jobg8-23643_225739622,Legal PA,Lucy Walker Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2151404,Legal PA,Lucy Walker Recruitment Ltd - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225744541,Logistics coordinator,Randstad Delivery - Agency - Contract,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,jobg8-23643_225794077,Marketing & Design Assistant,Lucy Walker Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225724529,Marketing Manager,Hays Technology - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,nhs-5689311,Medical Receptionist,The North Leeds Medical Practice,"Leeds, LS17 6PZ, Leeds, LS9 6EY",NHS Jobs,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225661219,Office Administrator,Logical Personnel Solutions - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,jobg8-23643_225696913,Office Coordinator,Lucy Walker Recruitment - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225752169,PA,Lucy Walker Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225726658,Paid Media Manager,Michael Page - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2184383,Paralegal - Real Estate & Projects - Hybrid working,CRA Consulting - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
@@ -79,11 +81,11 @@ include,jobg8-23643_225774098,Sales Office Administrator,Unity Resourcing Ltd - 
 include,jobg8-23643_225751191,Sales Support & Quotations Coordinator,Curtis Furniture - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225715854,Service Administrator,Working Solutions Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225732511,Service Advisor,Auto Skills UK - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,jobg8-23643_225798071,Temp Customer Service Advisor,Michael Page - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225773650,Temporary HR Administrator - DSAR Project,Huntress - Leeds - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2152307,Temporary to Permanent Credit Controller,Willow Recruit - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,nhs-5707745,Ward Clerk,Leeds Teaching Hospitals,"Leeds, LS9 7TF",NHS Jobs,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 review,jobg8-2187106,Accounts Administrator,Reed - Agency - Permanent,Holmfirth,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
-review,jobg8-2176967,Accounts Assistant,RG Consultancy Ltd - Agency - Permanent,Holmfirth,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2199186,Accounts Assistant/Accounts Payable,RG Consultancy Ltd - Agency - Permanent,Pontefract,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225783816,Accounts Payable,Attega Group Ltd - Agency - Temporary,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2156990,Accounts Payable Clerk,Fin Search Ltd - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
@@ -94,6 +96,7 @@ review,jobg8-23643_225738610,Client Support Administrator,Ellis James Partners L
 review,nhs-5664888,Clinical Administrator,Locala Health and Wellbeing,"Holmfirth, HD1 4EW",NHS Jobs,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2198315,Credit Control,Marks Sattin - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225795777,Credit Controller,Lucy Walker Recruitment - Agency - Temporary,Castleford,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
+review,jobg8-23643_225798083,Credit Controller- Cleckheaton Immediate Start Available,Office Angels - Agency - Permanent,Cleckheaton,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2203862,Criminal Law Paralegal,The Eventus Recruitment Group - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225699257,Customer Service Administrator,Unity Resourcing Ltd - Agency - Permanent,Wetherby,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_224967327,Customer Service Assistant,Pyramid8 - Agency - Permanent,Morley,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
@@ -102,6 +105,7 @@ review,jobg8-23643_225765524,Ecommerce Lister - Books,West Riding Recruitment - 
 review,jobg8-23643_225768365,Finance Administrator,Search Consultancy Ltd - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225710303,Finance Administrator,Unity Resourcing Ltd - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225721454,Finance Assistant- Temp,Loom Talent - Agency - Permanent,Normanton,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
+review,jobg8-23643_225799000,FM Administrator,300 North Limited - Agency - Temporary,Normanton,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2210153,Fundraising and Communications Manager,The Nell Bank Charitable Trust - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,nhs-5684178,GP Practice Receptionist,Meltham Group Practice,"Holmfirth, HD9 5QQ",NHS Jobs,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2170976,Health and Welfare Court of Protection Paralegal,Simpson Millar LLP Solicitors - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
@@ -114,8 +118,10 @@ review,jobg8-23643_223521967,Litigation Paralegal,Sue Ross Recruitment Ltd - Age
 review,jobg8-2184385,Marketing Executive,Reed - Agency - Permanent,Castleford,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2152845,Marketing Executive - Campaign & Performance,Office Angels - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2184393,Marketing Manager,Reed - Agency - Permanent,Castleford,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
+review,jobg8-23643_225505996,Office Admin,Concept Recruitment Group Ltd - Agency - Temporary,Brighouse,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225734433,Office Administrator,West Riding Recruitment - Agency - Permanent,Ossett,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2197982,Payroll Clerk,Sphere Digital Recruitment - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
+review,jobg8-23643_225797828,Project Coordinator,Lucy Walker Recruitment - Agency - Temporary,Castleford,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2150535,Purchase Ledger Assistant,Marks Sattin - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225735707,Purchasing Admin,E3 Recruitment - Agency - Temporary,Shipley,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225737081,Purchasing Administrator,Siamo Recruitment a division of Siamo Group - Agency - Permanent,Normanton,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
@@ -149,6 +155,7 @@ exclude,jobg8-23643_225751342,Credit Controller,Concept Recruitment Group Ltd - 
 exclude,jobg8-23643_225767422,Credit Controller - Bradford BD4,Concept Recruitment Group Ltd - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225756046,Customer / Sales Administrator - Multiple applicants,Office Angels - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225720892,Customer Service Advisor,Search Consultancy Ltd - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
+exclude,jobg8-23643_225630226,Dental Receptionist,The People Advisory - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-2171133,Finance Administrator,Reed - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-2194613,Finance Assistant,CRA Consulting - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225735440,Fleet Operations Account Coordinator,The Solution Auto - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs

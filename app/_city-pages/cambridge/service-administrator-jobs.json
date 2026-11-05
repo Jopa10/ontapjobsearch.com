@@ -47,6 +47,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Hardwick and Cambourne Community Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +125,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Long Road Sixth Form College",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -146,6 +152,31 @@
     "advertiser_name": "EA First",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "2144050",
+    "title": "Experienced Patent Secretary (To &;50,000!) - Cambridge/Hybrid",
+    "company": "Dawn Ellmore Employment Agency - Agency - Permanent",
+    "location": "Cambridge",
+    "region": "Cambridgeshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-10-21",
+    "description": "An exciting opportunity has arisen for a Patent Secretary to join a well-established IP law firm in Cambridge. This is a great opportunity for someone with similar previous experience who enjoys providing essential support to a busy patent team.\n\nKey responsibilities will include:\n- Preparing patent documentation and correspondence.\n- Monitoring deadlines and maintaining accurate records.\n- Managing client communications and electronic files.\n- Assisting with billing and general secretarial support.\n\nThe ideal candidate will have at least three years' experience within an IP firm and a strong understanding of patent administration. On offer is an attractive salary amongst an array of benefits!\n\nDawn Ellmore Employment aims to respond to all applicants, however due to the number of applications received this is regrettably not always possible. If you have not received a response within three working days, you may assume that your application has been unsuccessful on this occasion.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP4Ves1NmyZUo2BSGVpUx2gjy",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Experienced Patent Secretary (To &;50,000!) - Cambridge/Hybrid An exciting opportunity has arisen for a Patent Secretary to join a well-established IP law firm in Cambridge.",
+    "advertiser_name": "Dawn Ellmore Employment Agency",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },

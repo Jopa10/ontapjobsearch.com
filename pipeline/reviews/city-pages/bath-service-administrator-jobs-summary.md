@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 74
+- automatic include: 6
+- automatic review: 79
 - automatic exclude: 0
-- effective include: 4
-- effective review: 74
+- effective include: 6
+- effective review: 79
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (6)
 
 ---
 action: 
@@ -40,11 +40,35 @@ reason: Exact approved Bath workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Family Legal Assistant
+company: Yolk Recruitment - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-23643_225800376
+reason: Exact approved Bath workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Interim Part-Time Finance Officer
 company: Hays Accounts and Finance - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-23643_225782485
+reason: Exact approved Bath workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Secretary (Family)
+company: Thrive Group - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-23643_225800119
 reason: Exact approved Bath workplace.
 ---
 
@@ -72,7 +96,7 @@ job_id: jobg8-2188896
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (74)
+## REVIEW (79)
 
 ---
 action: 
@@ -342,6 +366,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Administrator
+company: Ashley Rees Associates - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225504707
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: Interaction Recruitment - Agency - Temporary
 location: Bristol
@@ -462,6 +498,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Freight Co-Ordinator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225799623
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Fuelcard Telesales Representative
 company: Ford Fuels - Agency - Permanent
 location: Yate
@@ -562,7 +610,7 @@ title: Internal Sales
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225772106
+job_id: jobg8-23643_225799510
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -575,6 +623,18 @@ company: CCA Recruitment Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225712157
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Executive - Electrical Wholesale
+company: Effective Recruitment Solutions Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225799331
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -822,6 +882,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225698115
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Administrator MAT cover
 company: Little Mead Primary Academy
 location: Bristol
@@ -959,6 +1031,18 @@ company: Moxie and Mettle Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2153487
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator
+company: Acorn by Synergie - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225799979
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

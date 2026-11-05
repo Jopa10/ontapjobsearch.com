@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 21
-- automatic review: 32
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 21
-- effective review: 32
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (21)
@@ -244,11 +244,11 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Coordinator
-company: Tate - Agency - Temporary
+title: Office/Transport Administrator
+company: TRAK Employment Solutions Limited - Agency - Temporary
 location: Swindon
 source: JobG8
-job_id: jobg8-23643_225770342
+job_id: jobg8-23643_225797640
 reason: Exact approved Swindon workplace.
 ---
 
@@ -256,11 +256,11 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Pupil Services Administrator
-company: Oakhurst Community Primary School
+title: Patient Coordinator
+company: Tate - Agency - Temporary
 location: Swindon
-source: Teaching Vacancies
-job_id: teaching-vacancies-pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
+source: JobG8
+job_id: jobg8-23643_225770342
 reason: Exact approved Swindon workplace.
 ---
 
@@ -276,7 +276,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (31)
 
 ---
 action: 
@@ -300,6 +300,18 @@ location: Chippenham
 source: JobG8
 job_id: jobg8-2204801
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-23643_225800069
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -583,18 +595,6 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
-company: Thrive Group - Agency - Permanent
-location: Corsham
-source: JobG8
-job_id: jobg8-23643_225774726
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
 company: Tru Talent - Agency - Permanent
 location: Westbury
 source: JobG8
@@ -647,18 +647,6 @@ company: CMA Recruitment Group - Agency - Temporary
 location: Salisbury
 source: JobG8
 job_id: jobg8-23643_225785368
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Warranty Administrator
-company: Thrive Group - Agency - Permanent
-location: Trowbridge
-source: JobG8
-job_id: jobg8-23643_225774859
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

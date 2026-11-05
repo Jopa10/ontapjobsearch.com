@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 17
 - automatic review: 21
 - automatic exclude: 0
-- effective include: 16
+- effective include: 17
 - effective review: 21
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (17)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Account Coordinator
+company: Prestige Recruitment Specialists - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225798510
+reason: Approved conservative Hull launch catchment.
+---
 
 ---
 action: 
@@ -306,18 +318,6 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Logistics Coordinator
-company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-23643_225731622
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Administrator
 company: Drs Reddy & Nunn
 location: Bridlington, YO16 4LZ
@@ -383,6 +383,18 @@ company: Townends Accountants LLP - Agency - Permanent
 location: Goole
 source: JobG8
 job_id: jobg8-23643_225702204
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Administrator
+company: Consortium Professional Recruitment Ltd - Agency - Permanent
+location: Brough
+source: JobG8
+job_id: jobg8-23643_225797818
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

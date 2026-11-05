@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 44
+- Effective included jobs: 47
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 44
-- automatic review: 10
+- automatic include: 47
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 44
-- effective review: 10
+- effective include: 47
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (44)
+## INCLUDE (47)
 
 ---
 action: 
@@ -184,6 +184,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Education Administrator
+company: Dovetail and Slate - Agency - Contract
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225799744
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Engineering Administrator
 company: Branston Potatoes - Agency - Permanent
 location: Lincolnshire
@@ -249,6 +261,18 @@ company: Huntress - Maidstone - Agency - Temporary
 location: Lincoln
 source: JobG8
 job_id: jobg8-23643_225708756
+reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
+company: Blusource - Agency - Permanent
+location: Lincoln
+source: JobG8
+job_id: jobg8-2143583
 reason: Exact approved Lincoln workplace.
 ---
 
@@ -544,6 +568,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Traffic Process Administration Assistant
+company: Adecco - Agency - Temporary
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225696261
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Trainee Legal Secretary
 company: LJ Recruitment - Agency - Permanent
 location: Lincolnshire
@@ -552,7 +588,7 @@ job_id: jobg8-23643_225722678
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (10)
+## REVIEW (12)
 
 ---
 action: 
@@ -570,11 +606,35 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Activities Coordinator
+company: Avon Search & Selection - Agency - Permanent
+location: Gainsborough
+source: JobG8
+job_id: jobg8-23643_225801252
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Attendance Officer
 company: Waltham Toll Bar Academy
 location: Grimsby
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Home Administrator
+company: Avon Search & Selection - Agency - Permanent
+location: Gainsborough
+source: JobG8
+job_id: jobg8-23643_225801264
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

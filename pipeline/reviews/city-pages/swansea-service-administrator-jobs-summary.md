@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 3
+- automatic review: 5
 - automatic exclude: 0
 - effective include: 8
-- effective review: 3
+- effective review: 5
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,31 @@ job_id: jobg8-2101939
 reason: Exact approved Swansea workplace.
 ---
 
-## REVIEW (3)
+## REVIEW (5)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: SATI Services Ltd - Agency - Permanent
+location: Bridgend
+source: JobG8
+job_id: jobg8-23643_225696631
+reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator (30 hours - negotiable) - Financial Services Tech Company
+company: IntaPeople - Agency - Permanent
+location: Bridgend
+source: JobG8
+job_id: jobg8-23643_225695968
+reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 

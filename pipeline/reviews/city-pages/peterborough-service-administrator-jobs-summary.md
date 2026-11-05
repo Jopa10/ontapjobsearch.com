@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 28
-- automatic review: 13
-- automatic exclude: 28
+- automatic review: 14
+- automatic exclude: 29
 - effective include: 28
-- effective review: 13
-- effective exclude: 28
+- effective review: 14
+- effective exclude: 29
 
 ## INCLUDE (28)
 
@@ -360,7 +360,7 @@ job_id: jobg8-2183929
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -371,6 +371,18 @@ company: Infinity Recruitment Consultancy Limited - Agency - Permanent
 location: St. Ives
 source: JobG8
 job_id: jobg8-23643_225771916
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Coyle Personnel - Agency - Temporary
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225801509
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -518,7 +530,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -673,6 +685,18 @@ company: EA First - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225759112
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Experienced Patent Secretary (To &;50,000!) - Cambridge/Hybrid
+company: Dawn Ellmore Employment Agency - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2144050
 reason: Separate employment market.
 ---
 

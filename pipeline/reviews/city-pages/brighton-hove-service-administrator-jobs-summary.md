@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 94
-- automatic exclude: 22
+- automatic review: 98
+- automatic exclude: 23
 - effective include: 12
-- effective review: 94
-- effective exclude: 22
+- effective review: 98
+- effective exclude: 23
 
 ## INCLUDE (12)
 
@@ -168,7 +168,7 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (94)
+## REVIEW (98)
 
 ---
 action: 
@@ -264,6 +264,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-108019280
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin
+company: The Best Connection - Agency - Permanent
+location: Heathfield
+source: JobG8
+job_id: jobg8-23643_225799667
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -371,6 +383,18 @@ company: Rise Technical Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225776908
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Nurseplus UK Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225800016
 reason: Broad location; review before city inclusion.
 ---
 
@@ -635,6 +659,18 @@ company: Travail Employment Group - Burgess Hill - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2210064
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant - Construction
+company: Henley Chase - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225698846
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1182,6 +1218,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Senior Digital Marketing Executive - PPC & Analytics
+company: Skillsbay Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225696903
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Paralegal
 company: Jago Consultants Ltd - Agency - Permanent
 location: Sussex
@@ -1244,7 +1292,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Not Specified
+location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Brighton & Hove catchment rule matched; local review required.
@@ -1298,7 +1346,7 @@ job_id: jobg8-108230183
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -1429,6 +1477,18 @@ company: Skilled Careers - Agency - Permanent
 location: Worthing
 source: JobG8
 job_id: jobg8-23643_225716566
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Academics - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-23643_225697488
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/hemel-hempstead/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 95
+- automatic include: 7
+- automatic review: 99
 - automatic exclude: 0
-- effective include: 5
-- effective review: 95
+- effective include: 7
+- effective review: 99
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (7)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contracts Administrator
+company: Tate - Agency - Temporary
+location: Hemel Hempstead
+source: JobG8
+job_id: jobg8-23643_225797540
+reason: Exact approved Hemel Hempstead workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer service advisor
+company: Think Specialist Recruitment - Agency - Temporary
+location: Hemel Hempstead
+source: JobG8
+job_id: jobg8-23643_225698178
+reason: Exact approved Hemel Hempstead workplace.
+---
 
 ---
 action: 
@@ -84,7 +108,7 @@ job_id: jobg8-23643_225539295
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (95)
+## REVIEW (99)
 
 ---
 action: 
@@ -239,6 +263,30 @@ company: Nexus HR Limited - Agency - Temporary
 location: Royston
 source: JobG8
 job_id: jobg8-23643_225759556
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Howells Solutions Limited - Agency - Temporary
+location: Welwyn
+source: JobG8
+job_id: jobg8-23643_225798231
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: NHS Professionals - Company - Contract
+location: Stevenage
+source: JobG8
+job_id: jobg8-23643_225697596
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -594,6 +642,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Estates Administrator
+company: Berry Recruitment - Agency - Temporary
+location: Watford
+source: JobG8
+job_id: jobg8-23643_225799358
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Executive Assistant
 company: Willmott Dixon Group - Company - Permanent
 location: Hertfordshire
@@ -810,6 +870,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Litigation Legal Administrator
+company: Eclectic Recruitment - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225792893
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Logistics Coordinator
 company: HR GO Recruitment - Agency - Permanent
 location: Bishop'S Stortford
@@ -851,18 +923,6 @@ company: Elysium Healthcare
 location: Potters Bar, EN6 2SE
 source: NHS Jobs
 job_id: nhs-5702069
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Administrator
-company: Hales Group - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225700035
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -995,6 +1055,18 @@ company: Barco Sales - Agency - Permanent
 location: Welwyn Garden City
 source: JobG8
 job_id: jobg8-23643_225733356
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Assistant
+company: Portfolio Procurement - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225800799
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

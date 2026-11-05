@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 13
-- automatic exclude: 53
+- automatic review: 11
+- automatic exclude: 54
 - effective include: 15
-- effective review: 13
-- effective exclude: 53
+- effective review: 11
+- effective exclude: 54
 
 ## INCLUDE (15)
 
@@ -204,7 +204,7 @@ job_id: jobg8-23643_225747598
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (11)
 
 ---
 action: 
@@ -215,18 +215,6 @@ company: Runwood Homes - Company - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225736679
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: NHS Professionals - Company - Temporary
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225757191
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -342,18 +330,6 @@ reason: No approved Doncaster catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Programme Marketing Contractor URGENT
-company: The National College - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2193337
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Retail & Brand Partnership Executive
 company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
@@ -362,7 +338,7 @@ job_id: jobg8-2153824
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (53)
+## EXCLUDE (54)
 
 ---
 action: 
@@ -409,6 +385,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2164314
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable and Receivable Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225797675
 reason: Separate employment market.
 ---
 
@@ -741,6 +729,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Medical Receptionist
+company: Selborne Road Medical Centre
+location: Sheffield, S10 5ND
+source: NHS Jobs
+job_id: nhs-5685334
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
 company: Staff Partners Business - Agency - Permanent
 location: Barnsley
 source: JobG8
@@ -757,6 +757,18 @@ company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: PART TIME ACCOUNT COORDINATOR
+company: Gi Group - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225798831
 reason: Separate employment market.
 ---
 
@@ -884,18 +896,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/Administrator
-company: Broom Lane Medical Centre
-location: Rotherham, S60 3EW, Rotherham, S61 3QH
-source: NHS Jobs
-job_id: nhs-5686077
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: School Admin Assistant
 company: Anston Park Infant School
 location: Sheffield
@@ -961,18 +961,6 @@ company: Charto Recruitment Ltd - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225749128
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225796381
 reason: Separate employment market.
 ---
 

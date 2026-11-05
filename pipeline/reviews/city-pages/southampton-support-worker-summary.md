@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 17
+- automatic review: 16
 - automatic exclude: 15
 - effective include: 3
-- effective review: 17
+- effective review: 16
 - effective exclude: 15
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225199243
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -131,18 +131,6 @@ company: Hampshire County Council - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1401786179
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Child and Family Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Havant
-source: JobG8
-job_id: jobg8-1401786041
 reason: Broad location; review before city inclusion.
 ---
 
@@ -246,11 +234,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Residential Childcare Worker
-company: First For Support - Agency - Temporary
-location: Tadley
+title: Night Support Worker Children's Residential Home
+company: S.N.G Recruitment Solutions Limited - Agency - Permanent
+location: Hedge End
 source: JobG8
-job_id: jobg8-23643_225781662
+job_id: jobg8-108264620
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -258,12 +246,12 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Havant
+title: Residential Childcare Worker
+company: First For Support - Agency - Temporary
+location: Tadley
 source: JobG8
-job_id: jobg8-1401786037
-reason: Broad location; review before city inclusion.
+job_id: jobg8-23643_225781662
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (15)

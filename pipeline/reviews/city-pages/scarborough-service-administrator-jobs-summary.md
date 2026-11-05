@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 40
+- automatic review: 41
 - automatic exclude: 0
 - effective include: 5
-- effective review: 40
+- effective review: 41
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -33,6 +33,18 @@ company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225788225
+reason: Exact approved Scarborough workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Administrator
+company: KD Recruitment Limited - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-108271266
 reason: Exact approved Scarborough workplace.
 ---
 
@@ -64,18 +76,6 @@ reason: Exact approved Scarborough workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Service Coordinator (UPS)
-company: Dale Power Solutions - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108026099
-reason: Exact approved Scarborough workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Scarborough, North Yorkshire, YO11 3EG
@@ -84,7 +84,7 @@ job_id: nhs-5690490
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (40)
+## REVIEW (41)
 
 ---
 action: 
@@ -407,6 +407,18 @@ company: SF Partners - Agency - Temporary
 location: Easby
 source: JobG8
 job_id: jobg8-23643_225746977
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Finance Assistant
+company: Hays Accounts and Finance - Agency - Temporary
+location: York
+source: JobG8
+job_id: jobg8-23643_225696188
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

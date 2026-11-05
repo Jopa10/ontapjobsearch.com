@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 78
+- automatic review: 83
 - automatic exclude: 0
 - effective include: 5
-- effective review: 78
+- effective review: 83
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust-ayles
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (78)
+## REVIEW (83)
 
 ---
 action: 
@@ -354,6 +354,30 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller (Part Time Hours)
+company: Marstep Resourcing Solutions - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225801549
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Care & Complaints Administrator
+company: Pertemps Milton Keynes - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-23643_225698946
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: Think Specialist Recruitment - Agency - Permanent
 location: Chesham
@@ -443,6 +467,18 @@ company: E-Act Ousedale School
 location: Newport Pagnell
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-e-act-ousedale-school
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Pro Staff Recruitment Ltd - Agency - Permanent
+location: Olney
+source: JobG8
+job_id: jobg8-23643_225798208
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -918,6 +954,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Sales and Logistics Administrator
+company: Uxbridge Employment Agency - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225696298
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales and Purchasing Coordinator (finish at 12 on Fridays)
 company: Universal Science Group - Agency - Permanent
 location: Buckinghamshire
@@ -959,6 +1007,18 @@ company: Neos Recruitment Ltd - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225757025
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Stock Administrator
+company: Adecco - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225696301
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

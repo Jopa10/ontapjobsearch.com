@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 17
-- automatic exclude: 26
+- automatic exclude: 27
 - effective include: 2
 - effective review: 17
-- effective exclude: 26
+- effective exclude: 27
 
 ## INCLUDE (2)
 
@@ -254,7 +254,7 @@ job_id: jobg8-108059238
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -464,11 +464,35 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part Time Administrator
+company: KD Recruitment Limited - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-108271266
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part Time Administrator (Fixed Term Contract - 9 Months)
 company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225782883
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Finance Assistant
+company: Hays Accounts and Finance - Agency - Temporary
+location: York
+source: JobG8
+job_id: jobg8-23643_225696188
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -541,18 +565,6 @@ company: Dale Power Solutions - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225779537
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Coordinator (UPS)
-company: Dale Power Solutions - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108026099
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

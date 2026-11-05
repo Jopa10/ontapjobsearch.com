@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 13
+- automatic include: 9
+- automatic review: 11
 - automatic exclude: 60
-- effective include: 8
-- effective review: 13
+- effective include: 9
+- effective review: 11
 - effective exclude: 60
 
-## INCLUDE (8)
+## INCLUDE (9)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable and Receivable Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225797675
+reason: Approved Barnsley catchment.
+---
 
 ---
 action: 
@@ -120,7 +132,7 @@ job_id: jobg8-23643_225749128
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (11)
 
 ---
 action: 
@@ -131,18 +143,6 @@ company: Runwood Homes - Company - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225736679
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: NHS Professionals - Company - Temporary
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225757191
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -251,18 +251,6 @@ company: W Talent - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225712413
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Programme Marketing Contractor URGENT
-company: The National College - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2193337
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -668,11 +656,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Medical Receptionist
+company: Selborne Road Medical Centre
+location: Sheffield, S10 5ND
+source: NHS Jobs
+job_id: nhs-5685334
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Operations Administrator
 company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: PART TIME ACCOUNT COORDINATOR
+company: Gi Group - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225798831
 reason: Separate employment market.
 ---
 
@@ -884,18 +896,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/Administrator
-company: Broom Lane Medical Centre
-location: Rotherham, S60 3EW, Rotherham, S61 3QH
-source: NHS Jobs
-job_id: nhs-5686077
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: School Admin Assistant
 company: Anston Park Infant School
 location: Sheffield
@@ -961,18 +961,6 @@ company: CCA Recruitment Group - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225789027
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225796381
 reason: Separate employment market.
 ---
 

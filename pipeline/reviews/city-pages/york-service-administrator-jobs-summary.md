@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 13
 - automatic review: 17
 - automatic exclude: 16
-- effective include: 12
+- effective include: 13
 - effective review: 17
 - effective exclude: 16
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -129,6 +129,18 @@ company: Unity Health
 location: York, YO10 5LA, York, YO10 4DU
 source: NHS Jobs
 job_id: nhs-5706440
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Finance Assistant
+company: Hays Accounts and Finance - Agency - Temporary
+location: York
+source: JobG8
+job_id: jobg8-23643_225696188
 reason: Approved York catchment.
 ---
 
@@ -488,6 +500,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part Time Administrator
+company: KD Recruitment Limited - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-108271266
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part Time Administrator (Fixed Term Contract - 9 Months)
 company: KD Recruitment - Agency - Permanent
 location: Scarborough
@@ -541,18 +565,6 @@ company: Dale Power Solutions - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225779537
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Coordinator (UPS)
-company: Dale Power Solutions - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108026099
 reason: Separate employment market.
 ---
 

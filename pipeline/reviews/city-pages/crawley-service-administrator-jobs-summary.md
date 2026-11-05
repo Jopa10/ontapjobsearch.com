@@ -4,7 +4,7 @@
 - Live route: `/crawley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 94
+- automatic include: 10
+- automatic review: 98
 - automatic exclude: 25
-- effective include: 9
-- effective review: 94
+- effective include: 10
+- effective review: 98
 - effective exclude: 25
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Exact approved Crawley workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Academics - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-23643_225697488
+reason: Exact approved Crawley workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR & Payroll Administrator - Immediate Start
 company: Office Angels - Agency - Temporary
 location: Crawley
@@ -132,7 +144,7 @@ job_id: jobg8-23643_225721235
 reason: Exact approved Crawley workplace.
 ---
 
-## REVIEW (94)
+## REVIEW (98)
 
 ---
 action: 
@@ -228,6 +240,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-108019280
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin
+company: The Best Connection - Agency - Permanent
+location: Heathfield
+source: JobG8
+job_id: jobg8-23643_225799667
+reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -335,6 +359,18 @@ company: Rise Technical Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225776908
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Nurseplus UK Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225800016
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -599,6 +635,18 @@ company: Travail Employment Group - Burgess Hill - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2210064
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant - Construction
+company: Henley Chase - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225698846
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1146,6 +1194,18 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
+title: Senior Digital Marketing Executive - PPC & Analytics
+company: Skillsbay Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225696903
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Paralegal
 company: Jago Consultants Ltd - Agency - Permanent
 location: Sussex
@@ -1208,7 +1268,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Not Specified
+location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.

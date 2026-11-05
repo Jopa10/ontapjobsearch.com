@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 18
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 17
+- effective include: 18
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (18)
 
 ---
 action: 
@@ -105,6 +105,18 @@ company: Hays Business Support - Agency - Temporary
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225792580
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Yolk Recruitment - Agency - Temporary
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225800208
 reason: Approved conservative Cardiff launch catchment.
 ---
 
