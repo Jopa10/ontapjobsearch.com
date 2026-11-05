@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Park Lane Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-horbury-academy",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Horbury Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-student-information-desk-receptionist-outwood-grange-academy",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Outwood Grange Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-business-support-officer-part-time-moorlands-primary-school",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Moorlands Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-pa-to-the-principal-7519-valley-academy",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Valley Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225703687",
@@ -572,7 +592,7 @@
   {
     "job_id": "23643_225723232",
     "title": "Front of House Property Admin",
-    "company": "Integro Partners - Agency - Permanent",
+    "company": "Integro People Limited - Agency - Permanent",
     "location": "Leeds",
     "region": "Yorkshire - West",
     "country": "UK",
@@ -588,7 +608,7 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Integro Partners",
+    "advertiser_name": "Integro People Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -889,31 +909,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Portfolio Payroll Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "2176996",
-    "title": "Accounts Assistant",
-    "company": "RG Consultancy Ltd - Agency - Permanent",
-    "location": "Leeds",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "We are working with an excellent, well established company who are looking for an accounts payable/accounts assistant to join the finance department on full time, permanent basis. This is a medium sized company who are growing and looking for someone to stay long term and develop within the finance department.\n\nYou will work closely with the finance manager and assist with additional month duties as required.\n\nKey Responsibilities\n- Process supplier invoices accurately and in a timely manner\n- Match invoices against purchase orders and delivery notes\n- Manage the accounts payable inbox and respond to supplier queries\n- Prepare and process weekly and monthly supplier payment runs\n- Reconcile supplier statements and investigate discrepancies\n- Maintain accurate purchase ledger records and ensure invoices are correctly coded\n- Process employee expenses and company credit card reconciliations\n- Perform daily and monthly bank reconciliations\n- Support the Finance Manager with month-end tasks including accruals, prepayments, and balance sheet reconciliations\n- Assist in preparing month-end reports and maintaining financial schedules\n- Ensure finance records and supporting documentation are organised and up to date\n- Liaise with internal departments to obtain invoice approvals and resolve queries\n- Support continuous improvement of finance processes and controls\n\nSkills & Experience\n- Strong understanding of purchase ledger processes and reconciliations\n- Good Excel skills and experience using accounting software\n- AAT qualified or studying towards AAT would be advantageous but not essential\n\nBenefits:\n- 8am - 4pm Monday - Friday\n- 25 days holidays + bank holidays\n- Onsite parking and company standard pension scheme",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1AqGbzZAab%2fNdBc7nffNT9mOMJzmKQzxl",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "RG Consultancy Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -1320,6 +1315,56 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225798071",
+    "title": "Temp Customer Service Advisor",
+    "company": "Michael Page - Agency - Temporary",
+    "location": "Leeds",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "15",
+    "salary_max": "17",
+    "salary_text": "£15 - £17 per hour",
+    "posted_date": "",
+    "description": "As a Temporary Customer Service Advisor in Leeds, you will handle day-to-day customer enquiries and help people access clear, timely information. Your work will support the customer service function within the not-for-profit sector and help services run smoothly.\n\nClient Details\n\nThe organisation operates in the not-for-profit sector in Leeds.\n\nDescription\n- Respond to customer enquiries clearly and professionally through agreed communication channels.\n- Provide accurate information to help customers understand available services and next steps.\n- Record customer contact details and enquiry outcomes accurately on internal systems.\n- Manage a varied workload, ensuring enquiries are handled in a timely way.\n- Resolve straightforward customer queries at the first point of contact where possible.\n- Escalate complex enquiries to the appropriate colleague for further action.\n- Maintain clear and respectful communication throughout each customer interaction.\n- Help keep customer service records up to date and easy to follow.\n\nProfile\n\nA successful Customer Service Advisor should have:\n- Customer service experience, with the ability to handle a range of enquiries.\n- Clear written and verbal communication skills.\n- Confidence providing accurate information in a calm and helpful manner.\n- Good attention to detail when recording customer information.\n- Ability to manage tasks effectively in a temporary customer service role.\n- Comfort using internal systems to record and review customer contact.\n\nJob Offer\n- Temporary contract based in Leeds.\n- Hourly pay of 15 to 17, dependent on the level of experience.\n\nIf you're interested in this role, apply now.\n\nPeople are at the heart of Michael Page. We are committed to creating an inclusive environment. As an inclusive recruiter we welcome applications from people of all backgrounds, identities and experiences. If you require any adjustments or accommodations during the recruitment process, we'll work with you to ensure you can perform at your best.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?%2bsiGSA7VT9CBtSuZf6kVbEkkQ5xw0xnhd",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Michael Page",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225801332",
+    "title": "Administrator",
+    "company": "Ambitions Personnel - Agency - Temporary",
+    "location": "Leeds",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.17",
+    "salary_max": "13.17",
+    "salary_text": "£13.17 per hour",
+    "posted_date": "",
+    "description": "Are you organised and methodical? Do you want to work for an organisation that has a massive impact on the lives of 'everyday people'? Have you worked in a customer service and/or admin capacity previously?\n\nIf you are answering yes to the above, then this could be the role for you.\n\nWe are currently recruiting for an administrator to work for an NHS Trust in Leeds. The role is working full time, Mon-Fri, initially on a 3 months basis, with the possibility of extension for the right individual.\n\nThe main duties will reverberate around providing admin and customer service support within a large department. This will involve:\n- Responding to and answering queries from patients and the general public.\n- Liaising with healthcare professionals.\n- Inputting sensitive, confidential data onto the inhouse system.\n- Coordinating and arranging meetings.\n- Carrying out general clerical tasks.\n- Providing reports for senior management.\n\nThe ideal candidate will have undertaken a similar role previously. However, if you have excellent customer service skills and are very organised, then do not hesitate to apply by using the online facility available.\n\nPlease note that Ambitions Personnel is acting as a recruitment business for this role.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?r8ZOrXHhud9IpVD1%2fAALLBMuLq5ZReh%2fr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ambitions Personnel",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225744541",
     "title": "Logistics coordinator",
     "company": "Randstad Delivery - Agency - Contract",
@@ -1445,6 +1490,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225696913",
+    "title": "Office Coordinator",
+    "company": "Lucy Walker Recruitment - Agency - Temporary",
+    "location": "Leeds",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13",
+    "salary_max": "13",
+    "salary_text": "£13 per hour",
+    "posted_date": "",
+    "description": "We are working with an exciting IT start up in Leeds who are looking for an experienced Office Coordinator to join their team on an ongoing, temporary basis. Working Tuesday- Thursday, the office based role is looking for an engaging, team focussed and experienced administrator to join and support the team. Key duties will include;\n- Front of house support\n- Book and manage room bookings\n- Manage communal areas\n- Stock kitchens\n- Manage event coordination\n- Book travel and accommodation\n- General administration support\n\nThis is an exciting, part-time opportunity and would be ideal for a enthusiastic and engaging candidate who can commit on an ongoing, part-time basis. The successful candidate will;\n- Available immediately\n- Able to commit on an on-going basis\n- Minimum of 2 years administration exuberance\n- Strong coordination skills\n- Excellent communication skills\n- Strong attention to detail\n- Proficient in all MS Office package's\n\nIf you are available immediately and can commit to this long-term role, please submit your CV for review. Please note, if you have not heard from us within 7 days, your application has been unsuccessful.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?55nS72RR%2bGfdjpAqkHolQwg95yBbSzvbf",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Lucy Walker Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225707509",
     "title": "Personal Assistant",
     "company": "Marmon Lift Recruitment - Agency - Permanent",
@@ -1567,31 +1637,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225699257",
-    "title": "Customer Service Administrator",
-    "company": "Unity Resourcing Ltd - Agency - Permanent",
-    "location": "Wetherby",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "25870",
-    "salary_max": "25870",
-    "salary_text": "£25870 per year (plus discretionary company bonus)",
-    "posted_date": "",
-    "description": "Customer Service Administrator\n\nLocation: Wetherby\n\nSalary: £25,870 plus discretionary company bonus\nHours: Monday to Friday, 9am - 5pm\nBenefits: Hybrid working, 25 days holiday plus bank holidays, private health insurance, company pension, employee assistance programme, weekly fitness classes\n\nA fantastic opportunity to join a supportive and thriving business based in Wetherby. As a Customer Service Administrator, you will provide a high standard of administrative support and customer service across the business. You will be the first point of contact for customer enquiries and will support the wider team with a variety of administration and communication tasks.\n\nDue to continued growth, our client currently has two vacancies available within the team\n\nThis opportunity would suit someone looking to build a long-term career within an office-based environment and our client is open to candidates looking to take their first step into an office role.\n\nResponsibilities include:\n- Responding to emails, phone calls and general enquiries in a professional and timely manner.\n- Providing excellent customer service and support to clients and customers.\n- Drafting correspondence and assisting with general administration.\n- Carrying out customer surveys, analysing feedback and summarising key findings for Directors.\n- Maintaining accurate records and updating internal systems.\n- Supporting with onboarding new clients.\n- Assisting the wider team with ad hoc administrative duties.\n\nCandidate requirements:\n- Previous office based experience (administration, customer service or similar)\n- Excellent attention to detail.\n- Strong verbal and written communication skills.\n- Good organisational and time management skills.\n- A positive and proactive attitude.\n- The ability to build rapport and maintain strong working relationships.\n- A professional and confident telephone manner.\n- Comfortable using initiative and managing workload effectively.\n- Enthusiastic and keen to learn.\n\nFor this brilliant opportunity, please send your CV to Beth Davies via the link provided.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh155E0LDsj7kvKMLgrrc%2fdVu",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Customer Service Administrator Customer Service Administrator Location: Wetherby Salary: £25,870 plus discretionary company bonus Hours: Monday to Friday, 9am - 5pm Benefits: Hybrid working, 25 days holiday plus bank holidays, private health insurance, company pension, employee assistance programme, weekly fitness classes A fantastic opportunity to join a supportive and thriving business based in Wetherby.",
-    "advertiser_name": "Unity Resourcing Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -2395,6 +2440,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225799000",
+    "title": "FM Administrator",
+    "company": "300 North Limited - Agency - Temporary",
+    "location": "Normanton",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "17",
+    "salary_max": "17",
+    "salary_text": "£17 per hour",
+    "posted_date": "",
+    "description": "Role: FM / Construction Administrator\n\nHourly rate: £17.00 per hour 40 hours per week. Weekly paid.\n\nLocation: Normanton, Wakefield\n\nContract: Temporary\n\nDuration: 12 months\n\nStart Date: ASAP\n\nHours: 40 hours per week, Monday to Friday\n\nWe are recruiting an experienced FM / Construction Administrator to join an established Facilities Management and Construction services team on a 12-month temporary assignment.\n\nThis is a busy, varied administration role supporting the day-to-day delivery of maintenance and project works. We're looking for someone organised, proactive and comfortable managing a high volume of work in a friendly and fast-paced environment.\n\nPrevious experience within Facilities Management, Construction or Project Works is essential.\n\nThe Role:\n- Processing incoming jobs and work requests, ensuring information is recorded accurately.\n- Managing and updating job records, trackers and internal systems.\n- Receiving, processing and forwarding quotations to the client.\n- Liaising with operational teams, contractors and clients regarding job progress.\n- Monitoring outstanding jobs and following up on quotations and updates.\n- Supporting the team with general administration and document management.\n- Ensuring accurate records are maintained and deadlines are met.\n- Assisting with the smooth running of day-to-day FM and project activities.\n\nAbout You:\n- Previous administration experience within Facilities Management, Construction or Project Works is essential.\n- Confident managing a busy workload and multiple priorities.\n- Strong organisational skills and excellent attention to detail.\n- Comfortable processing job requests, quotations and associated paperwork.\n- Good communication skills, both written and verbal.\n- Competent using Microsoft Office and administration systems.\n- Able to work independently and as part of a team.\n\nApply Now:\n\nIf you have a background in FM or Construction administration and wish to apply, please send your CV to (url removed)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?5k%2b%2bCJQtvIX04Up2mbk%2fjY4LHdF5kzaRn",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "300 North Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225720816",
     "title": "HR Administrator",
     "company": "E3 Recruitment - Agency - Permanent",
@@ -2467,6 +2537,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225505996",
+    "title": "Office Admin",
+    "company": "Concept Recruitment Group Ltd - Agency - Temporary",
+    "location": "Brighouse",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "12.71",
+    "salary_max": "13",
+    "salary_text": "£12.71 - £13 per hour",
+    "posted_date": "",
+    "description": "Job Title: Office Administrator\n\nHours: Full-time, 40 hours per week - 8am-4pm Monday to Friday\n\nKey Responsibilities:\n- Print orders from websites.\n- Type up gift cards and bulk print tickets.\n- Book out orders and process them efficiently.\n- Answer phones and handle queries with a professional and friendly telephone manner.\n- Take customer orders over the phone.\n- Greet and manage click & collect customers at reception.\n- Handle returns and manage the dashboard.\n\nSkills & Requirements:\n- Strong organisational and time management skills.\n- Excellent telephone and communication skills.\n- Basic computer proficiency, especially with order processing systems.\n- Ability to work efficiently under pressure during busy periods.\n- Positive attitude and willingness to assist in various tasks as needed.\n\nWhat We Offer:\n- Full training provided.\n- Friendly and supportive working environment.\n\nIf you're a reliable team player who enjoys working in a fast-paced environment, we d love to hear from you!",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?EkTGaFxfSTV6ebVG5xwipQ%2bIn0TFe%2f3Wg",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Concept Recruitment Group Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
@@ -2670,6 +2765,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225630226",
+    "title": "Dental Receptionist",
+    "company": "The People Advisory - Agency - Permanent",
+    "location": "Wakefield",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "13.3",
+    "salary_max": "13.5",
+    "salary_text": "£13.3 - £13.5 per hour",
+    "posted_date": "",
+    "description": "Front of House Coordinator (Patient Experience)\n\nLocation: Wakefield, WF1\nType: Full Time Permanent\nSalary: 13.30 per hour\n\nCreating Exceptional Patient Experiences\n\nA fast-growing, clinically led dental group is looking for an exceptional Front of House Coordinator to join its team in Wakefield.\n\nThe Role\n\nAs the first point of contact for every patient, you will be responsible for creating a warm, welcoming and seamless experience that reflects the high standards of the practice.\n\nMore than a traditional reception role, this position is about delivering exceptional hospitality, anticipating patient needs, and ensuring every interaction leaves a lasting positive impression.\n\nYou will be the face of the practice, helping patients feel relaxed, valued and cared for from arrival through to departure.\n\nKey Responsibilities\n- Deliver a five-star welcome to every patient entering the practice\n- Create a calm, professional and luxury front-of-house experience\n- Manage appointment scheduling and diary coordination with efficiency and attention to detail\n- Support patients throughout their journey, ensuring a seamless experience at every touchpoint\n- Handle enquiries by phone, email and in person with professionalism and warmth\n- Manage patient payments and maintain accurate records\n- Coordinate patient communications, recalls and follow-up appointments\n- Ensure reception and waiting areas consistently reflect the premium standards of the practice\n- Build positive relationships with patients, helping them feel comfortable and confident in their care\n- Work closely with clinicians and the wider team to deliver an exceptional patient journey\n\nAbout You\n- Previous experience in a front-of-house, hospitality, concierge, reception or customer service role\n- Passionate about delivering exceptional customer experiences\n- Naturally warm, professional and personable\n- Highly organised with excellent attention to detail\n- Confident managing multiple priorities in a busy environment\n- Strong communication and relationship-building skills\n- Able to anticipate patient needs and provide a proactive level of service\n- Dental experience is advantageous but not essential for the right candidate\n\nWhy Join?\n- Join a supportive, people-focused culture\n- Work in a modern practice committed to exceptional patient care\n- Help shape a premium patient experience that sets the practice apart\n- Competitive salary and benefits\n\nThis is an opportunity for someone who takes pride in creating memorable customer experiences and understands that outstanding patient care begins long before a patient sits in the dental chair.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?7Qtr4nk8kAxyq2xR7dpLQ1ZQTWzpmy8Hw",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The People Advisory",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225735707",
     "title": "Purchasing Admin",
     "company": "E3 Recruitment - Agency - Temporary",
@@ -2745,31 +2865,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2176967",
-    "title": "Accounts Assistant",
-    "company": "RG Consultancy Ltd - Agency - Permanent",
-    "location": "Holmfirth",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "We are currently recruiting for an Accounts Assistant to join a friendly and supportive finance team based in Holmfirth. This is an excellent opportunity for someone looking to develop their accounting skills and build a long-term career within finance.\n\nThe role will initially focus on day-to-day transactional finance duties, providing essential support across the accounts function. However, there is a clear progression plan for the successful candidate to become more involved in month-end processes, management accounts preparation and wider financial reporting, working closely with and supporting the Financial Controller.\n\nThis position would suit someone with previous accounts experience who is keen to learn, take on additional responsibilities and progress within a finance team.\n\nKey Responsibilities\n- Processing purchase invoices and matching them to purchase orders where applicable.\n- Managing the purchase ledger, ensuring invoices are accurately recorded and processed.\n- Processing sales invoices and supporting the maintenance of the sales ledger.\n- Assisting with supplier statement reconciliations and resolving invoice queries.\n- Monitoring outstanding payments and assisting with supplier payment runs.\n- Posting bank transactions and assisting with bank reconciliations.\n- Processing expenses and employee claims.\n- Maintaining accurate financial records and ensuring the accounting system is kept up to date.\n- Responding to internal and external finance queries.\n- Providing general administrative support to the finance team as required.\n\nProgression and Development\n\nAs the successful candidate develops within the role, there will be opportunities to take on additional responsibilities and gain greater exposure to the wider finance function.\n\nWith training and support from the Financial Controller, duties will progressively expand to include:\n- Assisting with month-end close procedures.\n- Preparing and posting journals, accruals and prepayments.\n- Supporting balance sheet reconciliations.\n- Assisting with the preparation of monthly management accounts.\n- Reviewing financial information and investigating discrepancies.\n- Supporting the production of financial reports and analysis.\n- Assisting with budgeting, forecasting and cash flow reporting.\n\nThe Ideal Candidate\n- Previous experience in an accounts or finance role.\n- A good understanding of basic accounting principles.\n- Strong attention to detail and a methodical approach to work.\n- Confident using Microsoft Excel and accounting systems.\n- Keen to take on additional responsibilities and progress towards a more rounded finance role.\n\nAAT studies or a willingness to undertake further finance training would be advantageous, although practical experience and the right attitude are equally important.\n\nWhat's on Offer?\n- Hands-on training and development from the Financial Controller.\n- Monday to Friday working hours, 9:00am - 5:00pm.\n- Standard annual leave entitlement plus bank holidays.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?43PI6mYDPX3brK2pZhTS09C50oDXKuEKq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "RG Consultancy Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225772680",
     "title": "Advice Administrator",
     "company": "Arc Recruitment - Agency - Permanent",
@@ -2842,6 +2937,81 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225797828",
+    "title": "Project Coordinator",
+    "company": "Lucy Walker Recruitment - Agency - Temporary",
+    "location": "Castleford",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.04",
+    "salary_max": "13.04",
+    "salary_text": "£13.04 per hour",
+    "posted_date": "",
+    "description": "We are recruiting for a property company with offices in Castleford who are looking for a Project Coordinator on a Temp to Perm basis. This hybrid opportunity will be working closely with to inventory teams, managing stock levels, and coordinating schedules of work. This is a varied opportunity, and the successful candidate will be involved with a number of tasks including;\n- Managing and raising Purchase order numbers\n- Inputting POs to Sage\n- Scheduling work tasks\n- Coordinating deliveries\n- Producing quotes\n- Providing admin\n\nThis full-time temporary role has the possibility of becoming permanent. This is a hybrid role but initially the role will be office based to ensure training and support are provided. The successful candidate will have;\n- Minimum of 1 year's administration experience\n- Excellent communication skills\n- Strong coordination experience\n- Excellent time management\n- Working knowledge of Sage (desirable)\n- Strong Excel experience\n\nIf you are available immediately and can commit to this long-term temp, possibly temp to perm opportunity, please submit your Cv for review. Please note if you have not heard from us within 7 days, your application was unsuccessful.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?EkTGaFxfSTWaE8FKF5kaCu3fg4Qy9%2bAMg",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "This hybrid opportunity will be working closely with to inventory teams, managing stock levels, and coordinating schedules of work.",
+    "advertiser_name": "Lucy Walker Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225798083",
+    "title": "Credit Controller- Cleckheaton Immediate Start Available",
+    "company": "Office Angels - Agency - Permanent",
+    "location": "Cleckheaton",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Credit Controller- Cleckheaton Immediate Start Available\n\nWe are supporting a well-established business within the automotive industry who is looking to recruit a Credit Controller to join their accounts department based in Cleckheaton (BD19). This is a fantastic opportunity for someone who enjoys building relationships, managing a high-volume ledger, and playing a key role in maintaining healthy cash flow within a fast-paced environment.\n\nContract: Permanent Position\n\nLocation: Cleckheaton, BD19- On-site parking available\n\nHours: 37.5 hours per week- 9:00am - 5:00pm with a 30-minute lunch break or alternatively, 8:30am - 5:00pm with a 1-hour lunch break\n\nBenefits\n- 23 days annual leave plus Bank Holidays\n- Company pension scheme\n- Cycle to Work scheme\n- Death in Service cover\n- Smart Health 24-hour access\n- On-site parking\n- Permanent, full-time position with immediate start available\n\nThe Role\n\nWorking as part of a busy and supportive finance team, alongside another Credit Controller and wider accounts personnel, you will be responsible for managing your own ledger and ensuring outstanding debts are collected efficiently and professionally.\n\nKey Responsibilities\n- Managing and collecting payments from a high-volume portfolio of customer accounts.\n- Building strong relationships with customers to ensure timely payment of outstanding invoices.\n- Proactively reducing aged debt and minimising the risk of bad debt exposure.\n- Monitoring customer accounts and taking appropriate action to resolve overdue balances.\n- Reviewing and maintaining customer credit limits in line with company procedures.\n- Liaising with both customers and internal departments to resolve account queries quickly and effectively.\n- Maintaining accurate records of all communications, payment arrangements, and account activity.\n- Supporting the wider accounts team with finance administration where required.\n\nAbout You\n- Previous experience within a Credit Control role is a bonus but not essential\n- Strong communication skills with the confidence to liaise with customers at all levels.\n- Highly organised with excellent attention to detail.\n- Ability to manage a busy workload and prioritise effectively.\n- Proactive and self-motivated with a professional approach to collections.\n\nIf this role sounds like something you would be interested in. Then please apply today or call the office on (phone number removed).\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?iEjrsl8n5i5xBQLr%2bCF1T1v04wgWeQLco",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225699257",
+    "title": "Customer Service Administrator",
+    "company": "Unity Resourcing Ltd - Agency - Permanent",
+    "location": "Wetherby",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "25870",
+    "salary_max": "25870",
+    "salary_text": "£25870 per year (plus discretionary company bonus)",
+    "posted_date": "",
+    "description": "Customer Service Administrator\n\nLocation: Wetherby\n\nSalary: £25,870 plus discretionary company bonus\nHours: Monday to Friday, 9am - 5pm\nBenefits: Hybrid working, 25 days holiday plus bank holidays, private health insurance, company pension, employee assistance programme, weekly fitness classes\n\nA fantastic opportunity to join a supportive and thriving business based in Wetherby. As a Customer Service Administrator, you will provide a high standard of administrative support and customer service across the business. You will be the first point of contact for customer enquiries and will support the wider team with a variety of administration and communication tasks.\n\nDue to continued growth, our client currently has two vacancies available within the team\n\nThis opportunity would suit someone looking to build a long-term career within an office-based environment and our client is open to candidates looking to take their first step into an office role.\n\nResponsibilities include:\n- Responding to emails, phone calls and general enquiries in a professional and timely manner.\n- Providing excellent customer service and support to clients and customers.\n- Drafting correspondence and assisting with general administration.\n- Carrying out customer surveys, analysing feedback and summarising key findings for Directors.\n- Maintaining accurate records and updating internal systems.\n- Supporting with onboarding new clients.\n- Assisting the wider team with ad hoc administrative duties.\n\nCandidate requirements:\n- Previous office based experience (administration, customer service or similar)\n- Excellent attention to detail.\n- Strong verbal and written communication skills.\n- Good organisational and time management skills.\n- A positive and proactive attitude.\n- The ability to build rapport and maintain strong working relationships.\n- A professional and confident telephone manner.\n- Comfortable using initiative and managing workload effectively.\n- Enthusiastic and keen to learn.\n\nFor this brilliant opportunity, please send your CV to Beth Davies via the link provided.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1AqGbzZAab83yrtb2qlysjGds1pw0gfjl",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Customer Service Administrator Customer Service Administrator Location: Wetherby Salary: £25,870 plus discretionary company bonus Hours: Monday to Friday, 9am - 5pm Benefits: Hybrid working, 25 days holiday plus bank holidays, private health insurance, company pension, employee assistance programme, weekly fitness classes A fantastic opportunity to join a supportive and thriving business based in Wetherby.",
+    "advertiser_name": "Unity Resourcing Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -3060,7 +3230,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0296-26-0017",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0296-26-0017",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5702515",
@@ -3078,7 +3252,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1058-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1058-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5698339",
@@ -3096,7 +3274,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1863-26-0052",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1863-26-0052",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5694671",
@@ -3114,7 +3296,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0936",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0936",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5662186",
@@ -3132,7 +3318,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5707745",
@@ -3150,7 +3340,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1234",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1234",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5694172",
@@ -3168,7 +3362,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4379-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4379-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5693252",
@@ -3186,7 +3384,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1201",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1201",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5689311",
@@ -3204,7 +3406,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1137-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1137-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5686373",
@@ -3222,7 +3428,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5220-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5220-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5684178",
@@ -3240,7 +3450,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0817-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0817-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5676393",
@@ -3258,7 +3472,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1425-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1425-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5664888",
@@ -3276,6 +3494,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0534-2026-2032",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0534-2026-2032",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
