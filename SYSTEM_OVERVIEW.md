@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 2 November 2026
+**Last updated:** 5 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 5 November 2026 — **AI advice by job type added:** the AI at Work hub now features a new reception and office-admin guide, while the accounts and finance article remains visibly next in the series. The published guide is included in the sitemap.
 
 - 2 November 2026 — **Publication handoff reliability:** the daily publisher now polls each dispatched run directly and retries temporary GitHub status errors against that same run. Confirmed success continues to production deployment; genuine failure, cancellation, persistent unreadable status or timeout still stops the shared release. No feed rerun or duplicate deployment is started merely because a progress check fails.
 
@@ -215,7 +217,7 @@ Existing established public routes remain stable unless there is a concrete busi
 
 ## 4. Content / positioning
 
-The `/ai-at-work` hub groups `/ai-tips` and `/ai-course-reviews` under a crawlable editorial entrance. AI Job Advert Watch has an index at `/ai-at-work/ai-job-advert-watch` and its first fixed snapshot at `/ai-at-work/ai-job-advert-watch/october-2026`. The October report uses the owner-approved text, whole percentages and italic qualifications; it records the 16 October sample rather than reading changing live job data. Existing tips source/return tracking stays intact.
+The `/ai-at-work` hub groups practical tips, course reviews, AI Job Advert Watch and role-specific guidance under one crawlable entrance. Its first `AI advice by job type` guide covers reception and office administration; accounts and finance remains the next planned article. Existing tips source/return tracking stays intact.
 
 Ontap remains positioned around useful job discovery for ordinary workers in an AI workplace, with sector-switching as an additional route rather than the whole identity.
 
