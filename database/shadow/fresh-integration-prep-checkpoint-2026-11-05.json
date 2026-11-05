@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "harness-root-compact-integration-building",
+  "status": "preview-raw-selection-display-passed-final-replay-pending",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Inspect dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq logs. Confirm harness root and compact integration command. Verify input and Neon read-only guards pass before raw import; record every phase and final storage/readback receipt. Stop on any unexpected output.",
+  "next": "Inspect the remainder of deployment dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq until complete. Capture final receipt, after-size/headroom, counts, replay/idempotence and no-purge result. Then neutralize temporary Preview artifact URLs and save final checkpoint.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -269,7 +269,7 @@
     "url": "https://ontapjobsearch-176ds8cae-ontap1.vercel.app",
     "createdAt": "2026-11-05T13:04:56Z",
     "sourceCommit": "15f38c73508a7607e3ff5405d3c7d36123d89dbf",
-    "state": "INITIALIZING",
+    "state": "BUILDING",
     "target": null,
     "rootDirectory": "database/shadow/harness",
     "buildCommand": "node build-compact-integration.mjs",
@@ -279,6 +279,25 @@
       "expiryEnabled": false,
       "purgeDuePayloads": false,
       "productionChanged": false
-    }
+    },
+    "runId": "714c55e3-0e3c-56b2-9d9f-83ddb62d1b8f",
+    "phases": [
+      {
+        "phase": "raw-accepted",
+        "loggedAt": "2026-11-05T13:06:25.153Z"
+      },
+      {
+        "phase": "selection-verified",
+        "loggedAt": "2026-11-05T13:06:45.496Z"
+      },
+      {
+        "phase": "display-verified",
+        "loggedAt": "2026-11-05T13:07:05.140Z"
+      }
+    ],
+    "expiryEnabled": false,
+    "purgeDuePayloads": false,
+    "jobsWithheld": true,
+    "productionChanged": false
   }
 }
