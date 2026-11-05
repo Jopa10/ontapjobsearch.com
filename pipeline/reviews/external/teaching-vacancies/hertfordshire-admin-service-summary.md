@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-04
-review_fingerprint: 2ccb212be940d141c5c21280134b6cfd8942910de1ae99e755cca713eff9fa64
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: a9df7664bfb59b07a27461845e7f513c166de917e5cfcc559a38dfa0ccfa494d
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 11
 - Selected: 2
-- POSS awaiting decision: 1
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -68,6 +68,51 @@ source_job_id: finance-and-reception-administrator-part-time-hertsmere-jewish-pr
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-reception-administrator-part-time-hertsmere-jewish-primary-school
 ---
 
+---
+action: 
+POSS | Hertfordshire | Hatfield, East of England, AL9 7BN | £26,847.00 - £28,153.00 Annually (FTE) Actual Salary including fringe allowance £23,608.70 per annum | SEND Administrator
+employer: Chancellor's School
+closing_date: 2026-11-06T20:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 524847ec84e1169e944f2ba26111b0cabd11494d7c923cf6e06954da0ea107dd
+source: Teaching Vacancies
+source_job_id: send-administrator-chancellor-s-school-hatfield-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-chancellor-s-school-hatfield-hertfordshire
+---
+
+---
+action: 
+POSS | Hertfordshire | Ware, East of England, SG12 9NX | £15,953.00 - £16,708.00 Annually (Actual) H4 | SEND Administrator
+employer: Presdales School
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bc2bb43779a9dab6bd8c4f217c9cb6cff6167a52e02d52b82443c122b4d63133
+source: Teaching Vacancies
+source_job_id: send-administrator-presdales-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-presdales-school
+---
+
+---
+action: 
+POSS | Hertfordshire | Tring, East of England, HP23 5JD | £24,084.00 - £26,104.00 Annually (Actual) Herts Payscale H5 | SEND Administrator
+employer: Tring School
+closing_date: 2026-11-18T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 469ce1541c37d7040a044326aeef0a0b1b7edbfe18bfa3a2f987ed5d282cf106
+source: Teaching Vacancies
+source_job_id: send-administrator-tring-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-tring-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -77,7 +122,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-reception
 - [ATTENDANCE & SAFEGUARDING OFFICER](https://teaching-vacancies.service.gov.uk/jobs/attendance-safeguarding-officer-king-james-academy-royston) — Insufficient admin/service evidence.
 - [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodfield-school) — Insufficient admin/service evidence.
-- [Receptionist/Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school) — No usable numeric salary.
 - [SEND Family Liaison Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/send-family-liaison-co-ordinator) — Insufficient admin/service evidence.
 - [Sixth Form Student Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-student-liaison-officer) — Insufficient admin/service evidence.
 

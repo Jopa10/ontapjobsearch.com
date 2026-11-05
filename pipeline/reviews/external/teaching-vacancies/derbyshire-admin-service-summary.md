@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-04
-review_fingerprint: 750230def758456d9703f80a5a9200834f0b394a5f4a8f599202f63c9abd1b87
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: de9c3b72a6df9591a823b639e3d5a59ff1a44fb568ff7c3ab256e855a5fce107
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: pa-to-headteacher-noel-baker-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-noel-baker-academy
 ---
 
+---
+action: 
+SELECTED | Derbyshire | Swadlincote, East Midlands, DE12 7RE | £9,932.95 - £10,087.69 Annually (Actual) | School Administrator Part-Time
+employer: Oakthorpe Primary School
+closing_date: 2026-11-20T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9b2302d81ef76728c45b64d98bc18a11b5f481d56368f94654e007a74b76ad24
+source: Teaching Vacancies
+source_job_id: school-administrator-part-time-oakthorpe-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-part-time-oakthorpe-primary-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -64,7 +79,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-noe
 - [Associate HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/associate-hr-business-partner-derby-college) — Insufficient admin/service evidence.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-belper-school-and-sixth-form-centre) — Excluded senior/management title.
 - [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-da-vinci-academy) — No usable numeric salary.
-- [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-anthony-gell-school) — Excluded senior/management title.
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Excluded senior/management title.
 
 ## Safety boundary

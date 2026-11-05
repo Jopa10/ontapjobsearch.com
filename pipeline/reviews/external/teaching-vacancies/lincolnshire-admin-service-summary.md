@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-04
-review_fingerprint: acaf6fe5034d0d82d5537daeaadf977e4531c264a9e275c1a30880308b0d04be
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 49310c91b643fd192683014eda70a6175332daaec596ecca2d0291fa9a3a10e4
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 8
+- Records: 14
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
@@ -64,6 +64,21 @@ factual_fingerprint: 4398f732ce5ba7829b10e197504a00594e5fb3a5533f92dd8892ce2f0b5
 source: Teaching Vacancies
 source_job_id: attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Skegness, East Midlands, PE24 5LS | £10,039.00 - £11,059.00 Annually (Actual) G5.12 (£28,153 FTE) to G5.15 (31,015 FTE) | HR Administrator
+employer: Chapel St Leonards Primary School
+closing_date: 2026-11-20T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5ab593f60027d1bcb8e645a41a5afecfeb32590baced0966e0c9669fb013301d
+source: Teaching Vacancies
+source_job_id: hr-administrator-chapel-st-leonards-primary-school-skegness-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-chapel-st-leonards-primary-school-skegness-lincolnshire
 ---
 
 ---

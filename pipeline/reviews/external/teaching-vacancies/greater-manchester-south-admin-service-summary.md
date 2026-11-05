@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-11-04
-review_fingerprint: 87cc843ecc58c8417254daccfcd7f88f3ef4f02ee5f5b717309f420a75bbf8ea
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 420c2adec4777cbe001917d63d6083b73837694b2b7e0ddad87798b170151698
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 0
+- Records: 4
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Greater Manchester - South | Altrincham, WA15 8QW | £28,598.00 - £31,022.00 Annually (FTE) | Trust Finance Officer
+employer: Achieve And Learn Trust
+closing_date: 2026-11-20T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2e77b1c7b5673ddd2f2c79771502c189dfe94befa7773b0bd82dfecb1c161a20
+source: Teaching Vacancies
+source_job_id: trust-finance-officer-achieve-and-learn-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-achieve-and-learn-trust
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

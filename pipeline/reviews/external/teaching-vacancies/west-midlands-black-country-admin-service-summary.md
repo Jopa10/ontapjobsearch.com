@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-04
-review_fingerprint: 24c3dfbceb18385681a79441c0c28d94a5eea544ae3b5d14f9a9cfc993db13a4
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 1167063af07a7e5860c044a5a45d406da68e84601adcb5e1d3fc08aed46c62bc
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: it-systems-administrator-bishop-milner-catholic-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/it-systems-administrator-bishop-milner-catholic-college
 ---
 
+---
+action: 
+SELECTED | West Midlands - Black Country | Dudley, West Midlands, DY2 9ER | £22,812.38 Annually (FTE) | Receptionist School Office
+employer: Northfield Road Primary School
+closing_date: 2026-11-20T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 70527adb0c6414355ce1072921bd1d602458cab2904e0daffef9200c808e380c
+source: Teaching Vacancies
+source_job_id: receptionist-school-office
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-office
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -78,6 +93,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — No usable numeric salary.
 - [PA to Head Teacher, Executive Assistant to SLT and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-teacher-executive-assistant-to-slt-and-office-manager-q3-academy-langley) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school-dudley-west-midlands) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-wordsley-school) — Excluded senior/management title.
 - [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-barr-beacon-school) — No usable numeric salary.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-04
-review_fingerprint: f909fa00b68698339b66f7cf71fa79bddcdb20390e6bdfac99c43a0532285a07
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: b989b20b48ca2b7bddbc80a997ee8abf9fccd5fe91de1913322efac938985f84
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -60,7 +60,7 @@ reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7cc61669d9d5dc413eb5b19cacf5036aaebc7828814e1578d3eadd2632ec2ee2
+factual_fingerprint: e3054d8d66ab55a3642e327d4ccfe22e393eff2257fe9f7dfb507d1bb205495c
 source: Teaching Vacancies
 source_job_id: receptionist-broadfield-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-broadfield-primary-school

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-04
-review_fingerprint: 4a4e36f0ad63a2ec799ea65b9414c47920f4f11f66f0afa8792d8fb60fd8cf5b
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 35b7e534b763cc1c4afdf1398b7c247fb1fc8815a1694df1dbaf9fca78dbff3b
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 3
-- POSS awaiting decision: 2
+- Records: 10
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | Suffolk | Ipswich, East of England, IP2 8PL | £25,646.00 - £26,920.00 Annually (Actual) | Examinations Officer
-employer: Stoke High School - Ormiston Academy
-closing_date: 2026-11-09T12:00:00+00:00
-reason: Clear admin/service title: examinations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fd3158fd4401bcd6889060e442c3b1acf16ce7029e26f462ea5d00a5b8f3dae9
-source: Teaching Vacancies
-source_job_id: examinations-officer-stoke-high-school-ormiston-academy-ipswich-suffolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-stoke-high-school-ormiston-academy-ipswich-suffolk
----
 
 ---
 action: 
@@ -81,21 +66,6 @@ factual_fingerprint: df0a1bf2719198612e34494b397c10a8080c3cab964f56de4ae8702adb4
 source: Teaching Vacancies
 source_job_id: finance-officer-beccles-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccles-high-school
----
-
----
-action: 
-POSS | Suffolk | Ipswich, East of England, IP1 6QD | £26,016.00 - £26,847.00 Annually (FTE) | SEND Administrator
-employer: Castle Hill Junior School
-closing_date: 2026-11-05T13:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 19ba49581d4ccab5eef4b6f04335baed3910e5ee0d6b82e66c953b0359a0782f
-source: Teaching Vacancies
-source_job_id: send-administrator-castle-hill-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-castle-hill-junior-school
 ---
 
 ## EXCLUDED BY REVIEW

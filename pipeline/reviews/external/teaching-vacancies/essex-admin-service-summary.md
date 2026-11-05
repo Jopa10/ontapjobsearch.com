@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-04
-review_fingerprint: 54e4c98a5d3ba1418fad1f672cd44c14ce44dc2c6bb6a8a88b4e398c5d0ba21c
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: cf847a158ceb100ff7b1538652701b70f72bf067a0e5bc0b062e1af4ba61203f
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,44 +13,31 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 1
+- Records: 13
+- Selected: 0
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
 
+- None.
+
+## POSS — choose SELECT or EXCLUDE
+
 ---
 action: 
-SELECTED | Essex | Ongar, East of England, CM5 9NB | £13,812.00 - £14,022.00 Annually (Actual) Scale 3, Points 4 – 5 with Fringe | Administration assistant
+POSS | Essex | Ongar, East of England, CM5 9NB | £13,812.00 - £14,022.00 Annually (Actual) Scale 3, Points 4 – 5 with Fringe | Administration assistant
 employer: High Ongar Primary School
 closing_date: 2026-11-10T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: cac24a803441f08a26ee50b90cbf51a968f560559b78f41d33b5dbea2d356831
 source: Teaching Vacancies
 source_job_id: administration-assistant-high-ongar-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-high-ongar-primary-school
----
-
-## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Essex | Brentwood, East of England, CM15 9NG | £25,171.00 - £26,384.00 Annually (Actual) | Admin Assistant
-employer: Larchwood Primary School
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cdf3fc9ba128ff76d968e199633829a2a72f6bb1bc98c36e674917f20025991d
-source: Teaching Vacancies
-source_job_id: admin-assistant-larchwood-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-larchwood-primary-school
 ---
 
 ---

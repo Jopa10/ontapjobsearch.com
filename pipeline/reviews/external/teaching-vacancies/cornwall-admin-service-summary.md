@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-11-04
+review_date: 2026-11-05
 review_fingerprint: ff6eaba4efe771e5c2b1cca72e1066b9d29f2f018056102712c8ee326f043a28
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -75,7 +75,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 ## HARD_PASS
 
 - [Academy Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-cusgarne-primary-school-truro-cornwall) — No usable numeric salary.
-- [Apprentice Administrator with Financial Responsibilities](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-with-financial-responsibilities-newquay-junior-academy) — No usable numeric salary.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — No usable numeric salary.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-the-roseland-multi-academy-trust) — Insufficient admin/service evidence.
 

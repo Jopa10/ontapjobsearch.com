@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-04
-review_fingerprint: 2c976eae0a3152f35d099a306e8f5d9b0e507fe6a1a530e2f078793a7f4eabd0
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 0a73024c360927616501245359db33e8989a7894818db1e0f63b14b021ce6013
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO12 6QW | £21,934.00 - £22,278.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £25,614 to £26,016 (Grade C, Scale Points 03-04) | Receptionist
+employer: Graham School
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7be0126fa2630a37605123f14758c3b0a376619f1fa37f1aee4128be26deda0f
+source: Teaching Vacancies
+source_job_id: receptionist-graham-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-graham-school
+---
 
 ---
 action: 
@@ -30,7 +45,7 @@ reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a908c053d7d1c436da36395e4c11818059245352ce7b4626d9718d5a75d2fdff
+factual_fingerprint: 2b67d08a51e0fc3911e12629d133b7a52aa2ea3fe0fe6209d2175cae682ce767
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-ebor-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ebor-academy-trust

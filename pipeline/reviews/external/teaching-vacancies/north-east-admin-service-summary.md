@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-04
-review_fingerprint: e51544c3b4ab4719b69035bc4527a71fc1793c053648fd5d659041a12b01567f
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 4447af969e32f25a9b8e6abdd25a4ca60b17b5a453f85a7ae4529f51322b5c4a
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 4
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: a1011686bc65671eddf3843deeff9c5f6512641e921e523fa2911615482
 source: Teaching Vacancies
 source_job_id: admin-assistant-n4
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-n4
----
-
----
-action: 
-SELECTED | North East | Stanley, North East, DH9 0TW | £18,587.00 - £18,978.00 Annually (Actual) | Administration Assistant
-employer: North Durham Academy
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2c2686b21c6d79bd0e3fb3b2caf13d4b18aae1699316ce01ab24d5c0c13729e2
-source: Teaching Vacancies
-source_job_id: administration-assistant-north-durham-academy-stanley-county-durham
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-north-durham-academy-stanley-county-durham
 ---
 
 ---
@@ -109,6 +94,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administra
 - [HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-prosper-learning-trust) — Insufficient admin/service evidence.
 - [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-connect-multi-academy-trust) — Insufficient admin/service evidence.
 - [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hadrian-learning-trust) — Excluded senior/management title.
 - [Part Time Creative Industries Technician (2026/CS014)](https://teaching-vacancies.service.gov.uk/jobs/part-time-creative-industries-technician-2026-cs014) — Out-of-scope occupation: technician.
 
 ## Safety boundary

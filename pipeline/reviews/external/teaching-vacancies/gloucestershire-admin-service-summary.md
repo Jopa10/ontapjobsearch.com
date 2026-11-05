@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-11-04
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 9d591f10e63231ca0d4551c99fbd37bb268d7a398e77b04083d29de4dee71b6d
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 0
+- Records: 6
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Gloucestershire | Gloucester, South West, GL3 2PL | Scale 5, Points 9-12 (Actual £22,880 - £24,009) | Medical Officer and School Administrator
+employer: Chosen Hill School
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dc8ff3eefd7f9e9c592ac0fc148c5b28756e01fc36ec4cc893cde2ea30c3e5b9
+source: Teaching Vacancies
+source_job_id: medical-officer-and-school-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/medical-officer-and-school-administrator
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

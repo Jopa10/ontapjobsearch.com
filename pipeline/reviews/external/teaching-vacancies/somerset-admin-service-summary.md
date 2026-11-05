@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-04
-review_fingerprint: 882bf9478127d14cf2bbb800131a972a6dff90de3dbcc8333aee1bf535b7a760
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 5bd148b6da360e5eb544bfd7d760556276ae0e267d5c407258fe3f85c872eef9
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -34,6 +34,21 @@ factual_fingerprint: 3a20d299692d0d61fc5531b6484fba0aecdf6b941d954bdc1174e90ca82
 source: Teaching Vacancies
 source_job_id: admin-assistant-cover-coordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-cover-coordinator
+---
+
+---
+action: 
+SELECTED | Somerset | Frome, South West, BA11 3AP | £8,664.00 - £8,800.00 Annually (Actual) | Administrative Assistant
+employer: St Louis Catholic Primary School, Frome
+closing_date: 2026-11-26T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a70e2cb366ba10a5626367e2a49abc42fd17b6a4b1eab26e8fafa43467d310a7
+source: Teaching Vacancies
+source_job_id: administrative-assistant-st-louis-catholic-primary-school-frome
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-louis-catholic-primary-school-frome
 ---
 
 ---

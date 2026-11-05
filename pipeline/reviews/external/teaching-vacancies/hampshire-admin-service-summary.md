@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-04
-review_fingerprint: 804c4f09b1522ee04e5765b2c11a8c83d0c0fd56f1005c5005810b12b207fb72
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 723b5ebb3ca02e56becfeac46911d1068d71a81c48993060692a294b62ee97e2
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 8
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -49,21 +49,6 @@ factual_fingerprint: 6679c66db82b0ccb78a450f10473602e54250b6ba2fe2533f5c33f62df9
 source: Teaching Vacancies
 source_job_id: attendance-officer-66e679cb-65bb-4391-8ecd-a482bdaa6185
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-66e679cb-65bb-4391-8ecd-a482bdaa6185
----
-
----
-action: 
-SELECTED | Hampshire | Portsmouth, South East, PO5 4LS | Band 3 Pt 2-5 £12,296-£12,853 - Actual (£24,482-£25,583 FTE) pending pay award | Part Time Receptionist/Administrator
-employer: Ark Ayrton Primary Academy
-closing_date: 2026-11-05T00:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b59065443bbaa5a1253fe6f53017ff2683dd92afe2f55775acdbd2fed9d162f9
-source: Teaching Vacancies
-source_job_id: part-time-receptionist-administrator-ark-ayrton-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-administrator-ark-ayrton-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

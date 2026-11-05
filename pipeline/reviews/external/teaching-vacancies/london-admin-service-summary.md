@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-04
-review_fingerprint: b08631359789ebd38d8cb8c5d9e956078a74a97df8dc73aa13e16b576e40ed09
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 7bab8ab1153b71d5fe59635d4a1a0fb3e41bdfd96eae2bd126cd5b5ae76ebdc8
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 60
-- Selected: 11
-- POSS awaiting decision: 12
+- Records: 57
+- Selected: 7
+- POSS awaiting decision: 14
 - Excluded: 0
-- Hard pass: 37
+- Hard pass: 36
 
 ## SELECTED
-
----
-action: 
-SELECTED | London | London, London, SE1 0EX | £25,492.00 - £27,400.00 Annually (Actual) Band 5 S13 to S16 for 42.9 weeks (£25,492 - £ 27,400) on the Trust Support Scale for 2025-2026 Including Inner London allowance | Admissions Officer
-employer: Haberdashers' Borough Academy
-closing_date: 2026-11-17T23:59:00+00:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fb4732f593abbc94abff94d03355a04efcaa9eaa1cc1afe65374c3a3279e7d83
-source: Teaching Vacancies
-source_job_id: admissions-officer-76f3f0cc-e80c-4ff0-b105-5b2f6fdc512d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-76f3f0cc-e80c-4ff0-b105-5b2f6fdc512d
----
 
 ---
 action: 
@@ -53,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-or
 
 ---
 action: 
-SELECTED | London | London, London, E20 2AE | £36,540.00 Annually (Actual) ILNJC 14, FTE £36,540 per annum - fixed term maternity cover | Exams Officer
-employer: Bobby Moore Academy
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 27e4b4572f7c37731f7aaf8d10fd49ff410a324d3e676635afb93cabf9563cc8
-source: Teaching Vacancies
-source_job_id: exams-officer-bobby-moore-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bobby-moore-academy
----
-
----
-action: 
 SELECTED | London | Bexleyheath, London, DA6 7DA | £36458 - £38160 per annum | Exams Officer
 employer: Lift Bexleyheath
 closing_date: 2026-11-16T15:04:14+00:00
@@ -79,21 +49,6 @@ factual_fingerprint: 4050b92c229aadf7946f41ec3c42eb93cb17f21082d0cc1865d0a0d3812
 source: Teaching Vacancies
 source_job_id: exams-officer-lift-bexleyheath
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-lift-bexleyheath
----
-
----
-action: 
-SELECTED | London | Sutton, SM1 1DA | OHCAT Outer London Business Support Scale, Grade 5\6, actual salary £12,881.17 - £14,695.33 per annum (FTE £33,123 - £37,788 per annum) | HR Administrator (part-time)
-employer: Orchard Hill College Academy Trust
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 668553e8fdd3af109d89955a635f7c7257a1b970fcf70abf7060f3546c8b7fc6
-source: Teaching Vacancies
-source_job_id: hr-administrator-part-time-orchard-hill-college-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-part-time-orchard-hill-college-academy-trust
 ---
 
 ---
@@ -158,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-firs
 
 ---
 action: 
-SELECTED | London | London, London, SE3 7QR | £31,361.00 Annually (Actual) | Receptionist/Admin Assistant
-employer: The John Roan School
-closing_date: 2026-11-06T16:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 190ac83e30a73502bd24748d5423b6c7c2aff90dc746b476e00089d031adb135
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-the-john-roan-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-the-john-roan-school
----
-
----
-action: 
 SELECTED | London | Woodford Green, London, IG8 7DQ | £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£31290 - £32,655 full time equivalent) | Sixth Form Administrative Assistant & Independent Study Supervisor
 employer: Woodbridge High School
 closing_date: 2026-11-09T09:00:00+00:00
@@ -205,17 +145,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-ca299
 
 ---
 action: 
-POSS | London | Beckenham, London, BR3 1RF | £30,843.00 - £32,655.00 Annually (FTE) | Administration Officer
-employer: Worsley Bridge Primary School
-closing_date: 2026-11-05T12:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+POSS | London | West Wickham, London, BR4 0BA | £22,017.00 - £25,612.00 Annually (Actual) BR5 SCP 13-17 | Administration Assistant
+employer: Hawes Down Primary School
+closing_date: 2026-11-11T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f4c11333622b994e86adf0252b8142e05357200cd7dca57cea29f20574ada861
+factual_fingerprint: f3753f2b791c956eaf89a3fdb1c78fa86d5de9769e80da2bb9033e8137c9a0d1
 source: Teaching Vacancies
-source_job_id: administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
+source_job_id: administration-assistant-hawes-down-primary-school-west-wickham-kent
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hawes-down-primary-school-west-wickham-kent
 ---
 
 ---
@@ -246,6 +186,21 @@ factual_fingerprint: 70ab888b4a7f742f1e2c97cfd7b12f09dc057f3c393f9d0889bef03ecc2
 source: Teaching Vacancies
 source_job_id: administrative-assistant-mapledown-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-mapledown-school
+---
+
+---
+action: 
+POSS | London | London, London, NW7 2EP | SCP 15 £29,291 to SCP 18 £30,612 | Attendance Officer
+employer: Copthall School
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f268b7bcc2f67b9ec641eb09ddbf29ddabe1ddcfba921663534ba1627d50c81e
+source: Teaching Vacancies
+source_job_id: attendance-officer-copthall-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-copthall-school
 ---
 
 ---
@@ -355,6 +310,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-independen
 
 ---
 action: 
+POSS | London | Woodford Green, London, IG8 7DQ | £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£30,288 - £31,611 full time equivalent) | Temporary Sixth Form Independent Study Supervisor (Maternity Cover)
+employer: Woodbridge High School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 99e6be4e2c567ddca2be4fcb046756bcff24ae7db4dad8c82e1ce32ccf18af69
+source: Teaching Vacancies
+source_job_id: temporary-sixth-form-independent-study-supervisor-maternity-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/temporary-sixth-form-independent-study-supervisor-maternity-cover
+---
+
+---
+action: 
 POSS | London | Northolt, London, UB5 6AG | Grade 6 Pt 18 - 20 (£36,834 - £37,935) pro rata salary of £32,725 - £33,703Ppa | Transition, Assessment and Medical/Welfare Coordinator
 employer: Belvue School
 closing_date: 2026-11-12T12:00:00+00:00
@@ -385,13 +355,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
 - [Deputy Exam Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-exam-officer) — No usable numeric salary.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Excluded senior/management title.
+- [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal-haberdashers-borough-academy) — Out-of-scope occupation: principal.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college-london) — Excluded senior/management title.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
+- [Finance officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-kings-cross-academy) — No usable numeric salary.
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
-- [Head of Year](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-city-of-london-academy-highbury-grove) — Excluded senior/management title.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-dbe8438f-4742-4952-b196-d00e6c812af2) — Out-of-scope occupation: teacher, headteacher.
-- [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-orchard-park-high-school-croydon-surrey) — Out-of-scope occupation: teacher, headteacher.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Salary over £50k.
 - [HR Coordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-highgate-wood-secondary-school) — No usable numeric salary.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-ernest-bevin-academy) — Excluded senior/management title.
 - [HR, People and Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-and-culture-manager-wren-academies-trust) — Excluded senior/management title.

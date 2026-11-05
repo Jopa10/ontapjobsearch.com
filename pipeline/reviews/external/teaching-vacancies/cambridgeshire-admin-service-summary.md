@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-04
-review_fingerprint: c69111a934a1e7850b2b015083c331eea9a75a947131c79de9c92bc9fac40cd2
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: d60d900fd8cdbeb30486ba7cc3a269a8b3e3de3a31dc7f31832a06c7ad115453
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 19
+- Selected: 6
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 10
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-b037890
 
 ---
 action: 
+SELECTED | Cambridgeshire | Peterborough, East of England, PE4 7EP | £25,215.00 Annually (Actual) | Higher Level Administrator
+employer: Manor Drive Secondary Academy
+closing_date: 2026-11-16T10:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6c184602946ff31972076577c1bd7e07c12fbda833b2402105b0eae960a806d2
+source: Teaching Vacancies
+source_job_id: higher-level-administrator-manor-drive-secondary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/higher-level-administrator-manor-drive-secondary-academy
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | Peterborough, East of England, PE7 8BF | £25,614.00 - £26,427.00 Annually (FTE) Actual Salary is £8,214 to £8,475 per annum | Receptionist/Administrator
 employer: Hampton College
 closing_date: 2026-11-09T09:00:00+00:00
@@ -97,6 +112,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB1 3RL | £26,427.00 - £26,847.00 Annually (FTE) NJC 5-6 - salary advertised is FTE, salary paid will be pro rata based on hours/weeks worked | Administrator
+employer: Ridgefield Primary School
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c5ce5036d1aa1160c75139462a8da2d18728a0964c12882da7730c1f539ed374
+source: Teaching Vacancies
+source_job_id: administrator-ridgefield-primary-school-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ridgefield-primary-school-cambridge-cambridgeshire
+---
 
 ---
 action: 
@@ -136,9 +166,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 
 - [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-cambridge-maths-school) — No usable numeric salary.
 - [Administration Assistant & Play Worker](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-play-worker) — No usable numeric salary.
+- [Alternative Provision Coordinator](https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-coordinator-ormiston-bushfield-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.
 - [Cleaner](https://teaching-vacancies.service.gov.uk/jobs/cleaner-34934dbc-6989-4466-8253-34da9a9f27cb) — Out-of-scope occupation: cleaner.
 - [Finance / HR manager](https://teaching-vacancies.service.gov.uk/jobs/finance-hr-manager-queen-s-drive-infant-school-peterborough-cambridgeshire) — Excluded senior/management title.
-- [Inclusion and Attendance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-and-attendance-coordinator) — No usable numeric salary.
 - [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-st-luke-s-cofe-primary-school-cambridge-cambridgeshire) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-63fc363b-9f14-46e2-b6b0-70de6e80f84c) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-werrington-primary-school) — Excluded senior/management title.

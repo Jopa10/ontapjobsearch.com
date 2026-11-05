@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-04
-review_fingerprint: a06f805b880d552c9c82a9f3fe789693d1ed02b30a95204284bf8330adadfc01
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: fadf084aebf2c32868db1c9c4e806402a463209dccf32119610e5ae61b6a1213
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 5
+- Records: 18
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 15
 
 ## SELECTED
-
----
-action: 
-SELECTED | Norfolk | Thetford, East of England, IP24 1EB | £18,352 - £19,561 actual pa | Administration Assistant
-employer: The Bishop's Church of England Primary Academy
-closing_date: 2026-11-05T00:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 73dab0ee3ef6a79b5942b10ac34000575d65f6426d24fe2d0d6283ab2a4f5a5f
-source: Teaching Vacancies
-source_job_id: administration-assistant-the-bishop-s-church-of-england-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-bishop-s-church-of-england-primary-academy
----
-
----
-action: 
-SELECTED | Norfolk | Thetford, East of England, IP24 1EB | £6,475 - £6,901 actual pa | Attendance Officer
-employer: The Bishop's Church of England Primary Academy
-closing_date: 2026-11-05T00:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 214d207c9000b1addf365b545e2bdc2780b229519c3dc33a43935162685e6dcd
-source: Teaching Vacancies
-source_job_id: attendance-officer-the-bishop-s-church-of-england-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-bishop-s-church-of-england-primary-academy
----
 
 ---
 action: 
@@ -114,8 +84,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-toftwood-infant-school) — No usable numeric salary.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-734b138f-20ba-4b95-9728-d762be624cd2) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-burston-community-primary-school-diss-norfolk) — Excluded senior/management title.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-norwich-city-college-of-further-and-higher-education-norwich-norfolk) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-11b90931-3ce5-4f00-9d74-fb877f354248) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-caister-junior-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-william-s-primary-school) — Excluded senior/management title.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Excluded senior/management title.
 
 ## Safety boundary

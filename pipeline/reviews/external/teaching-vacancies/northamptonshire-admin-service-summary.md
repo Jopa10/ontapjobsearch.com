@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-04
-review_fingerprint: 48b27e06678eed7afe532381db5d6403099613bbdfe46bfa74aecb5d2436fd62
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: dea6e36efa57d30050aaf42037221c049ee5b70799155ded807b9c8497f15850
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 9
+- Records: 13
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -49,36 +49,6 @@ factual_fingerprint: c7d796e965689c7986537bbc37634f2f54c86a796beeab45af43efe1acd
 source: Teaching Vacancies
 source_job_id: administration-assistant-bishop-stopford-school-kettering-northamptonshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bishop-stopford-school-kettering-northamptonshire
----
-
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7TR | £25,614.00 - £26,427.00 Annually (FTE) | Attendance Officer
-employer: Northampton School
-closing_date: 2026-11-05T09:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 071ce60574d59cc0efa7ba19cc6ee1c64e205db53233545f8bc2a86f73afcf71
-source: Teaching Vacancies
-source_job_id: attendance-officer-northampton-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-northampton-school
----
-
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7SW | £26,016.00 - £26,427.00 Annually (FTE) | Content creator and Admin assistant
-employer: Moulton Primary School
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 53e7ad9b396980b8b0ec47c2dd78e7abc70c8df66c2b0fc749708ee735d9b2c3
-source: Teaching Vacancies
-source_job_id: content-creator-and-admin-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/content-creator-and-admin-assistant
 ---
 
 ---
@@ -141,21 +111,6 @@ source_job_id: school-office-administrator-cover-coordinator-st-thomas-becket-ca
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-cover-coordinator-st-thomas-becket-catholic-school-northampton-northamptonshire
 ---
 
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7TR | £25,614.00 Annually (FTE) | School Receptionist
-employer: Northampton School
-closing_date: 2026-11-05T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 072bcd4c4ad7a3157935aaf6c7e0b4a03867312c8000f5b31e802694b1a47493
-source: Teaching Vacancies
-source_job_id: school-receptionist-northampton-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-northampton-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -182,6 +137,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barn
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-0ddbb56c-5635-4a81-8fed-8aa32c472a35) — Insufficient admin/service evidence.
 - [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant-greenfields-specialist-school-for-communication-northampton-northamptonshire) — Insufficient admin/service evidence.
 - [Northampton Business Partner](https://teaching-vacancies.service.gov.uk/jobs/northampton-business-partner-the-abbey-primary-school) — Insufficient admin/service evidence.
+- [Office Manager / PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-the-headteacher-moulton-school-and-science-college) — Excluded senior/management title.
 - [Part time TLT HR Manager](https://teaching-vacancies.service.gov.uk/jobs/part-time-tlt-hr-manager) — Excluded senior/management title.
 - [Reprographics and Resource Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-resource-assistant-maternity-cover) — Insufficient admin/service evidence.
 

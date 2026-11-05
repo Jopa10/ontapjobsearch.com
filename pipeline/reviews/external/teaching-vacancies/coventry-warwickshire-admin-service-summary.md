@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-04
-review_fingerprint: d94ec8fcd212a50c08b7cd0d70b6185585540ac28bc7ecbbf360a2db0641677b
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 2383c8c57c14736dce06b768ff958974eb3a8d1c5589bbb80ca8bcc8245dc6f0
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 1
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Stratford-upon-Avon, West Midlands, CV37 6TQ | £23,561.00 - £25,621.00 Annually (Actual) | Business Support Officer
+employer: Welcombe Hills School
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ad9d84a1b557d72391e7cac9a4569c231a4804fb71e3822b13bc1e579e2e4a1a
+source: Teaching Vacancies
+source_job_id: business-support-officer-welcombe-hills-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-welcombe-hills-school
+---
 
 ---
 action: 

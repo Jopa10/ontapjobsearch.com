@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-04
-review_fingerprint: 586d7c9ec00b2b3e2ec9550d753b7453e9f58edade7be58aed92365134354b2a
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 7fb5161821e3d0167429852811772813bbf5cbc267f7740e44c6ef03ed48dcc8
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 13
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, South West, SN3 6EX | £19,965.60 - £20,282.91 Annually (Actual) NJC 5-6 (£26,427 - £26,847 FTE) | Administrative Assistant
+employer: Liden Academy
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aa27f9fe857e7c5bc2e8ff038bbc40651abe3fdf0cada59f7feb1780300a9d6f
+source: Teaching Vacancies
+source_job_id: administrative-assistant-007d444f-90ac-4e2a-8799-4dde939dd8f8
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-007d444f-90ac-4e2a-8799-4dde939dd8f8
+---
+
+---
+action: 
+SELECTED | Wiltshire | Salisbury, South West, SP1 3GZ | £26,016.00 Annually (Actual) Actual Salary: £7257 per annum | Administrative Assistant
+employer: Greentrees Primary School
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 224554c65e33986992be017fad09d6c8e85f1479b2cfb13b7d62a3262bcd6108
+source: Teaching Vacancies
+source_job_id: administrative-assistant-0f00fc74-0d9f-4ee5-95bf-98adacca1c95
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-0f00fc74-0d9f-4ee5-95bf-98adacca1c95
+---
 
 ---
 action: 
@@ -53,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrato
 
 ---
 action: 
-SELECTED | Wiltshire | Swindon, South West, SN25 2HY | £26,016.00 - £27,274.00 Annually (FTE) | Pupil Services Administrator
-employer: Oakhurst Community Primary School
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3600ea08da365d5cacbe63d0bc0cca0b83fd4f1bc1c3d5ee0025a3d606ae480a
-source: Teaching Vacancies
-source_job_id: pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
----
-
----
-action: 
 SELECTED | Wiltshire | Salisbury, South West, SP1 3JJ | Scale 4, NJC 7-11 £27,274 – £29,070 FTE | Receptionist & First Aider
 employer: South Wilts Grammar School
 closing_date: 2026-11-09T09:00:00+00:00
@@ -79,6 +94,21 @@ factual_fingerprint: 1bbeef705e8db9c66a2822392ac8f63c25303ca4a1c034b954bb046f7a9
 source: Teaching Vacancies
 source_job_id: receptionist-first-aider-south-wilts-grammar-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-first-aider-south-wilts-grammar-school
+---
+
+---
+action: 
+SELECTED | Wiltshire | Chippenham, South West, SN14 6RJ | £16,002.00 - £16,516.00 Annually (Actual) | Sixth Form and Work Experience Administrator
+employer: Hardenhuish School
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9dd6b9baf96baea3b8dcdae537535e648b4b036cb37b884624960ab95a8b3f48
+source: Teaching Vacancies
+source_job_id: sixth-form-and-work-experience-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-and-work-experience-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -119,6 +149,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-st
 
 ## HARD_PASS
 
+- [Complaints Officer](https://teaching-vacancies.service.gov.uk/jobs/complaints-officer-ascend-learning-trust) — Insufficient admin/service evidence.
 - [HLTA Behaviour and Inclusion](https://teaching-vacancies.service.gov.uk/jobs/hlta-behaviour-and-inclusion-lawn-manor-academy) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-4c722adb-c7a9-4af5-b8d5-bf00527c02c0) — Insufficient admin/service evidence.
 - [Resourcing & Talent Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/resourcing-talent-development-assistant) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-11-04
-review_fingerprint: fbaf4938036a12202ceede71e0543d6eb55d227d1120eae2e191ed6c98c60ea2
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 4627de1184c7aeec6a911e859f5cfed2fd163f41b7b4edddfb7219c92e9f8a7e
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -51,21 +51,6 @@ source_job_id: administrative-assistant-radbrook-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-radbrook-primary-school
 ---
 
----
-action: 
-SELECTED | Shropshire | Telford, West Midlands, TF3 1LG | £17,488.00 - £17,722.00 Annually (Actual) Term time plus PD Days | Reception Administrator
-employer: Windmill Primary School
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dd43b9c0715fd8dce346da963b80b8239301e57420cbd8c21a9b7a7d9a7741b0
-source: Teaching Vacancies
-source_job_id: reception-administrator-windmill-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-windmill-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -77,7 +62,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrat
 ## HARD_PASS
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-radbrook-primary-school) — Insufficient admin/service evidence.
-- [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-meole-brace-church-of-england-primary-school-and-nursery) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-beech-grove-primary-school-wellington-somerset) — Excluded senior/management title.
 
 ## Safety boundary
 

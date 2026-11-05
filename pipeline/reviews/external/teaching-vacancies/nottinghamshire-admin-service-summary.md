@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-04
-review_fingerprint: 53a6706577b3899a4eaf4e244c1fc4c4b685b12835da13c33672744cd7cc89dd
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 75d35b37dde54634fb05a4a025f7aba22a6e810264c68849563a304d7a0f96eb
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 14
 - Selected: 5
-- POSS awaiting decision: 1
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -38,14 +38,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, NG2 1RT | £9,069.00 - £9,511.00 Annually (Actual) Salary will be paid pro rate based on term time weeks and hours worked | Administrative Assistant
+SELECTED | Nottinghamshire | Nottingham, NG2 1RT | £9,069.00 - £9,511.00 Annually (Actual) Salary will be paid pro rata for 12.5 hours per week, all year round | Administrative Assistant
 employer: Our Lady Of Lourdes Catholic Multi Academy Trust
 closing_date: 2026-11-15T23:59:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d5a8933734372962fd70ebc631ec3c6ee05b6ea69c648a1799b8496aa69728f6
+factual_fingerprint: 7f045e46f52bddc9569275783b2577ad95458ab5c9de760e11c9b8ddc31e687f
 source: Teaching Vacancies
 source_job_id: administrative-assistant-our-lady-of-lourdes-catholic-multi-academy-trust-nottingham-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-our-lady-of-lourdes-catholic-multi-academy-trust-nottingham-not-recorded
@@ -53,14 +53,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG9 3GA | £9,174.61 - £9,468.66 Annually (Actual) Grade 3, point 5-7 £26,427 - £27,274 FTE | Administrator & Receptionist
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG9 3GA | £9,174.61 - £9,468.66 Annually (Actual) Grade 3, point 5-7 £26,427 - £27,274 FTE - Pending Job Evaluation | Administrator & Receptionist
 employer: Bramcote College
 closing_date: 2026-11-13T15:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: be47423295dfb5c2c143db6347f9a811acfe9178f5a696d2e9facf89936b8809
+factual_fingerprint: c859980e5e3cd8d269ab093082ce5446fb96c349e358044582631bb335fb80c1
 source: Teaching Vacancies
 source_job_id: administrator-receptionist-bramcote-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-bramcote-college
@@ -100,6 +100,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 
 ---
 action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG5 6NZ | £23,121.00 - £24,234.00 Annually (Actual) NJC 3- 6 (37hrs per week) Term Time Plus 2 Weeks (41 weeks) | Administration Assistant
+employer: Arnold Hill Spencer Academy
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 263459782b0ed053d67dec4b614e420ef0b55a8c4e03df9d4c99b78db19de465
+source: Teaching Vacancies
+source_job_id: administration-assistant-928f59c0-3e7f-4c16-a5e6-cbdd0ac90a06
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-928f59c0-3e7f-4c16-a5e6-cbdd0ac90a06
+---
+
+---
+action: 
 POSS | Nottinghamshire | Mansfield, East Midlands, NG18 2DP | £22,569.72 - £22,569.72 Annually (Actual) | Administration Assistant
 employer: Horizons Academy
 closing_date: 2026-11-08T23:59:00+00:00
@@ -113,6 +128,21 @@ source_job_id: administration-assistant-horizons-academy-mansfield-nottinghamshi
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy-mansfield-nottinghamshire
 ---
 
+---
+action: 
+POSS | Nottinghamshire | Newark, East Midlands, NG22 0JH | £24,821.00 - £24,821.00 Annually (Actual) | Administrator
+employer: Tuxford Academy
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f4217e7a5e1d77a282a27912d9f92877302d337a5c02141f3405ea79ccec43d5
+source: Teaching Vacancies
+source_job_id: administrator-tuxford-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-tuxford-academy
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -123,6 +153,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-ashfield-comprehensive-school) — Excluded senior/management title.
 - [People Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-business-partner-nova-education-trust) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c46abdbf-b851-4f98-b51c-c939f0fd7919) — Insufficient admin/service evidence.
+- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hawthorne-primary-and-nursery-school) — Excluded senior/management title.
 - [Senior Office Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrative-assistant) — Excluded senior/management title.
 
 ## Safety boundary

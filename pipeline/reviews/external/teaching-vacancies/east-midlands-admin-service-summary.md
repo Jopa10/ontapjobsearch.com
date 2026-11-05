@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-11-04
-review_fingerprint: 775e08803c0deadc447f40de944d6627d178665d023271d2b1e287e4d206617d
-routing_manifest_sha256: 16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72
+review_date: 2026-11-05
+review_fingerprint: 0ccbfc5823a88fbb6c90beba5d33894e51bb95e7dd1ac57800f5c75080700ab9
+routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 5
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
@@ -34,21 +34,6 @@ factual_fingerprint: 845f76cdb40abbddc87e65cd127bc7ae5c2525550974886308a4111d09a
 source: Teaching Vacancies
 source_job_id: administrative-assistant-paulet-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-paulet-high-school
----
-
----
-action: 
-SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 8AZ | £26,427.00 Annually (FTE) Actual salary: Grade 3 (SCP 5) £15,505.88 per annum | Receptionist and Data Assistant
-employer: John Taylor High School
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: c1b341e64cbbd7f05c15be7ed9d183f02fb86614f642a5b9446c6c0e0acbce50
-source: Teaching Vacancies
-source_job_id: receptionist-and-data-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-data-assistant
 ---
 
 ## POSS — choose SELECT or EXCLUDE
