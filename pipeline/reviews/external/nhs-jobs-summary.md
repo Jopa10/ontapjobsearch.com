@@ -2,15 +2,63 @@
 
 review_date: 2026-11-05
 
-- Open Administrative & Clerical rows reviewed: 1996
+- Open Administrative & Clerical rows reviewed: 1995
 - Auto/remembered selected: 369
 - Selected HC Tier A: 188
 - Selected HC Tier B: 181
-- POSS awaiting decision: 1541
+- POSS awaiting decision: 1540
 - Excluded: 0
 - HARD_PASS: 86
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | East Midlands | Burton-On-Trent, DE13 0RB | £25272.00 | Diabetes & Endocrinology Receptionist/Administrator
+source_job_id: 5708379
+title: Diabetes & Endocrinology Receptionist/Administrator
+employer: University Hospitals of Derby and Burton NHS Foundation Trust
+region: East Midlands
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1153
+factual_fingerprint: fc5835ade1d07cd23c679fcb6a30712a02a00357f5743c9b1b330617f9ad33c7
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, E14 3PG, London, E14 9WU, London, E14 9SH | £31949.00 | Receptionist/Admin x2
+source_job_id: 5706721
+title: Receptionist/Admin x2
+employer: Hurley Group
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1199-26-0032
+factual_fingerprint: 5bf68f7b1e364fcb06a33231b0f111200b576fba9b796216888edfe54371e64a
+---
+
+---
+action:
+POSS | NHS Jobs | — | HEADINGTON, OX3 7LE | £25272.00 | Radiology Receptionist
+source_job_id: 5708435
+title: Radiology Receptionist
+employer: Oxford University Hospitals NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-2078
+factual_fingerprint: 707b2216de792693d416a2285fecbf422507e247952d617794ae1652ffa310b1
+---
+
+---
+action:
+POSS | NHS Jobs | Worcestershire | Bromsgrove, B61 0PU | Negotiable | GP Surgery Receptionist - EMIS Experience
+source_job_id: 5708451
+title: GP Surgery Receptionist - EMIS Experience
+employer: Catshill Village Surgery
+region: Worcestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5841-26-0002
+factual_fingerprint: 04b2ada5d0b97e74da4b81bd88569f05fc8792e3927a2fc2684c4bd1b258ccbf
+---
 
 ---
 action:
@@ -21,7 +69,7 @@ employer: James Paget University Hospitals NHS Foundation Trust
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0468
-factual_fingerprint: 9254a31ce62f26906d84822768579b648f3a15e3e3cb99fcbc1978a388d2a1ec
+factual_fingerprint: ccb8e8184341f3f679074a0e07b097b9787778d82fb105143ca385234d9584a3
 ---
 
 ---
@@ -1569,7 +1617,7 @@ employer: Intrahealth Ltd
 region: North East - Tees Valley
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0025-26-0177
-factual_fingerprint: 88e6b4ce0dac45ebbef62aa14c56daa361c4fa19479ab4879c1aabb4a984d321
+factual_fingerprint: 55a8cc0e9f4b4e76c81098b5bbb9202a4da1dd011b0aaebfd9fd1625bcbbb55f
 ---
 
 ---
@@ -1617,7 +1665,7 @@ employer: Betsi Cadwaladr University Health Board
 region: North Wales - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2603
-factual_fingerprint: 74a7adb9e2b13833cdaa74eb818224c81133c32356a355da7a5da83a5d9efa34
+factual_fingerprint: 27d7c446ada5d5c798f42b5ced9509d104ee8eb8bdf6e266ca7bb21400a4e9e7
 ---
 
 ---
@@ -3070,18 +3118,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9245-26-0458
 factual_fingerprint: a72e9d90fda0952ed70f4161f5df092c00d8c33d6d74092930804a0fc0d2a586
----
-
----
-action:
-POSS | NHS Jobs | Oxfordshire | Oxford, OX3 9DU | £25760.00 to £27476.00 | Assistant Patient Pathway Coordinator
-source_job_id: 5701506
-title: Assistant Patient Pathway Coordinator
-employer: Oxford University Hospitals NHS Foundation Trust
-region: Oxfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-2050
-factual_fingerprint: 2b042fc7f033eb165dc515c0fb395a2ac225b0da5ecdc9350274af53305c9686
 ---
 
 ---
@@ -5242,18 +5278,6 @@ region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0109
 factual_fingerprint: c55c075102616811acf934a0335b19e6238213b5f5ac719f8e20fde00b2fcdf2
----
-
----
-action:
-POSS | NHS Jobs | London | London, SW17 0QT | £31554.00 to £33270.00 | Ward Clerk - Gunning
-source_job_id: 5701223
-title: Ward Clerk - Gunning
-employer: St George's University Hospitals NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-0998
-factual_fingerprint: 0a9a85416e27237cb4601d8fe7d9de99f461c43f2e7369d8da2e17990731e31a
 ---
 
 ---
@@ -8709,7 +8733,7 @@ employer: University Hospitals of Leicester NHS Trust
 region: Leicestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0735
-factual_fingerprint: 10f944533fbb747f3efa05d7c64024e0bc1e5c3635fd7ebc948ab9cffa8139de
+factual_fingerprint: 7493f777dab02c9642514940778aae7ba888cac21f3d7bb8cd0a3ffbc50a3d87
 ---
 
 ---
@@ -11246,18 +11270,6 @@ factual_fingerprint: f4ff515dd9b64a7f52a38b1b79a62ae4193f1bbe97a7504c42aced38041
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B15 2TH | £25272.00 to £25272.00 | Band 2 Administrative Assistant - Anticoagulant Department
-source_job_id: 5690467
-title: Band 2 Administrative Assistant - Anticoagulant Department
-employer: University Hospitals Birmingham NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1665
-factual_fingerprint: 75882e94838490d6251ac7313d5c2d58574af1406536d8fa44ed14776ff54820
----
-
----
-action:
 POSS | NHS Jobs | — | barming, ME16 9QQ | £39959.00 to £48117.00 | Remote Senior Clinical Coding Analyst
 source_job_id: 5690947
 title: Remote Senior Clinical Coding Analyst
@@ -12610,18 +12622,6 @@ region: Merseyside - Liverpool
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1804
 factual_fingerprint: ea7a9a06b15d725af33b175e0225e5d311c664cb69ca287508dfb71c939b466f
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £25760.00 to £27476.00 | Administrative Officer
-source_job_id: 5688462
-title: Administrative Officer
-employer: Leeds Teaching Hospitals
-region: Yorkshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1198
-factual_fingerprint: bc2468da8a89603c45731e33092bd40b5e45d8515b1f6f85a29b04a931d80d5c
 ---
 
 ---
@@ -14914,18 +14914,6 @@ region: North East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-1047
 factual_fingerprint: 657fbce2e6bcd6a3d555c782055e0a8d9ca7f79a7057b3c1aa703e4e0f2d2124
----
-
----
-action:
-POSS | NHS Jobs | — | Broadland Business Park, NR7 0WF | £25875.00 | Primary Care Services Administrator
-source_job_id: 5683856
-title: Primary Care Services Administrator
-employer: Norfolk Primary Care C.I.C.
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-2004
-factual_fingerprint: 7ff15c80a369ef7a5ce75a1b3f65edca11471dcc8be844e3ecbf15f4183f8beb
 ---
 
 ---
