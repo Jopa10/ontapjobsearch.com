@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "baseline-guard-corrected-preview-retry-ready",
+  "status": "corrected-preview-integration-retry-building",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Refresh three Preview artifact URL variables and create the guarded integration deployment from source commit 267f4fcae2d0467a2182a6d8c41547562945e73d. The previous build failed before any write solely on live feed_runs count mismatch; all input checks passed.",
+  "next": "Check deployment dpl_9qRMfbFC8oja2LFZZpvFnh3DBGMF. Confirm buildCompactIntegration command, input validation, read-only baseline guard success, then phase logs. Stop and checkpoint on any failure. If complete, record after-size, counts/readback/replay and no-purge evidence.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -265,36 +265,20 @@
     "deploymentOverrideFinding": "Per-deployment buildCommand was ignored because committed vercel.json took precedence; vercel.json has now been updated explicitly."
   },
   "previewIntegration": {
-    "deploymentId": "dpl_6mcFZkrmJfRmzhmYZSK8Nm2fLdyv",
-    "url": "https://ontapjobsearch-k52eqboda-ontap1.vercel.app",
-    "createdAt": "2026-11-05T13:01:41Z",
-    "sourceCommit": "f5e580f4a0fbb7add22fe5c5f15d9f75c73e58be",
-    "state": "ERROR",
+    "deploymentId": "dpl_9qRMfbFC8oja2LFZZpvFnh3DBGMF",
+    "url": "https://ontapjobsearch-pvpn3ktds-ontap1.vercel.app",
+    "createdAt": "2026-11-05T13:03:12Z",
+    "sourceCommit": "2687bad0f52a65ea04e64973cda52eebebeaf71d",
+    "state": "INITIALIZING",
     "target": null,
-    "buildCommand": "node build-compact-integration.mjs (committed vercel.json)",
+    "buildCommand": "node build-compact-integration.mjs",
     "rootDirectory": "database/shadow/harness",
-    "targetEnvironment": "Preview",
-    "artifactIds": [
-      13415213643,
-      13414222935,
-      13415015292
-    ],
-    "artifactUrlsUpdatedForPreviewBranch": true,
-    "safety": {
-      "productionChanged": false,
-      "jobsWithheld": true,
-      "expiryEnabled": false,
-      "purgeDuePayloads": false
-    },
-    "stopPhase": "read-only preflight, zero writes",
-    "failure": "Expected feed_runs=14; actual table row count=5. The 9 dead rows are pg_stat_user_tables statistics, not feed_runs records.",
-    "integrationWriteStarted": false,
-    "neonWrite": false,
-    "databaseChanged": false,
-    "productionChanged": false,
-    "purgeExecuted": false,
-    "expiryEnabled": false,
     "retryOf": "dpl_6mcFZkrmJfRmzhmYZSK8Nm2fLdyv",
-    "neonImportStarted": false
+    "safety": {
+      "jobsRemainWithheld": true,
+      "expiryEnabled": false,
+      "purgeDuePayloads": false,
+      "productionChanged": false
+    }
   }
 }
