@@ -1,4 +1,4 @@
-name: Package pinned 4 November shadow integration source
+name: Package pinned shadow integration source
 on:
   push:
     branches: [feat/neon-shadow-database]
@@ -27,8 +27,9 @@ jobs:
           import json, os
           r=json.load(open('database/shadow/package-integration-source-request.json'))
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
-              for k in ('archiveDate','archiveSha256','archiveBytes','sourceRevision'):
+              for k in ('archiveDate','archiveSha256','archiveBytes','sourceRevision','outputSha256','artifactName'):
                   f.write(k+'='+str(r[k])+'\n')
+              f.write('expectedReceipt='+json.dumps(r['expectedReceipt'],separators=(',',':'))+'\n')
           PY
       - name: Download and verify the exact saved archive
         env:
@@ -60,6 +61,8 @@ jobs:
           ARCHIVE_DATE: ${{ steps.request.outputs.archiveDate }}
           ARCHIVE_SHA: ${{ steps.request.outputs.archiveSha256 }}
           SOURCE_REVISION: ${{ steps.request.outputs.sourceRevision }}
+          EXPECTED_RECEIPT: ${{ steps.request.outputs.expectedReceipt }}
+          EXPECTED_OUTPUT_SHA: ${{ steps.request.outputs.outputSha256 }}
         run: |
           set -euo pipefail
           mkdir -p "$RUNNER_TEMP/pinned-source"
@@ -74,23 +77,27 @@ jobs:
             > "$RUNNER_TEMP/pinned-source/raw-stage-summary.json"
           python - "$RUNNER_TEMP/pinned-source/raw-stage-100.json.gz" "$RUNNER_TEMP/pinned-source/raw-stage-summary.json" "$ARCHIVE_SHA" "$ARCHIVE_DATE" "$SOURCE_REVISION" <<'PY'
           import gzip, json, sys
+          import os
           stage_path, summary_path, sha, day, revision = sys.argv[1:]
+          expected=json.loads(os.environ['EXPECTED_RECEIPT'])
+          expected_clean=expected.pop('cleanRecords')
           stage=json.load(gzip.open(stage_path,'rt',encoding='utf-8'))
           summary=json.load(open(summary_path))
           assert stage['archiveSha256']==sha and stage['archiveDate']==day and stage['observedOn']==day
           assert stage['sourceRevision']==revision and stage['percentage']==100
-          assert stage['receiptDiagnostics']=={'sourceRows':43551,'uniqueSupplierIds':43549,'exactRepeatRows':0,'conflictingIdsHeld':['1401785815','1401786160']}
-          assert stage['eligibleRecords']==43547 and len(stage['records'])==43547
+          assert stage['receiptDiagnostics']==expected
+          assert stage['eligibleRecords']==expected_clean and len(stage['records'])==expected_clean
           assert summary['archiveSha256']==sha and summary['percentage']==100
+          assert summary['outputSha256']==os.environ['EXPECTED_OUTPUT_SHA']
           with open(stage_path+'.manifest.json','w') as f:
-              json.dump({'archiveDate':day,'archiveSha256':sha,'sourceRevision':revision,'sourceRows':43551,'cleanRecords':43547,'conflictingIdsHeld':['1401785815','1401786160']},f,indent=2)
+              json.dump({'archiveDate':day,'archiveSha256':sha,'sourceRevision':revision,'receiptDiagnostics':expected,'cleanRecords':expected_clean},f,indent=2)
               f.write('\n')
           print('Raw stage prepared and pinned counts verified; selector was not rerun.')
           PY
       - name: Preserve raw-stage input for the guarded Preview build
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: neon-shadow-integration-source-2026-11-04
+          name: ${{ steps.request.outputs.artifactName }}
           path: |
             ${{ runner.temp }}/pinned-source/raw-stage-100.json.gz
             ${{ runner.temp }}/pinned-source/raw-stage-100.json.gz.manifest.json
