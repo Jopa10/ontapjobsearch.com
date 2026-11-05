@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "preview-integration-deployment-building",
+  "status": "preview-build-command-override-did-not-take-effect",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Inspect deployment dpl_8KZXJcAf7we8xRoaLwzRmiBWb7uZ build output. Stop on any guard/input/baseline failure. If successful, capture raw/selection/display/readback and post-import size; then neutralize temporary artifact URLs in branch-scoped Preview variables and save final receipt.",
+  "next": "Change harness vercel.json buildCommand/outputDirectory explicitly to build-compact-integration.mjs/dist on the feature branch. Save resulting source commit and checkpoint. Refresh short-lived artifact URLs in branch-scoped Preview vars, then create a new Preview deployment. The first deployment only reran the read-only audit and made no DB changes.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -263,24 +263,15 @@
   "previewIntegration": {
     "deploymentId": "dpl_8KZXJcAf7we8xRoaLwzRmiBWb7uZ",
     "url": "https://ontapjobsearch-7ckamjvud-ontap1.vercel.app",
-    "createdAt": "2026-11-05T12:59:34Z",
     "sourceCommit": "c098be8d3ec9e45399536a18998219b2ee1f1733",
-    "state": "BUILDING",
-    "target": null,
-    "buildCommand": "node build-compact-integration.mjs",
-    "rootDirectory": "database/shadow/harness",
-    "targetEnvironment": "Preview (Vercel target null, non-production branch deployment)",
-    "artifactIds": [
-      13415213643,
-      13414222935,
-      13415015292
-    ],
-    "safety": {
-      "neonImportMayBeginAfterPassedGuards": true,
-      "jobsRemainWithheld": true,
-      "expiryEnabled": false,
-      "purgeDuePayloads": false,
-      "productionChanged": false
-    }
+    "state": "READY",
+    "buildCommandActuallyRun": "node measure-retention.mjs from committed vercel.json",
+    "requestedBuildCommand": "node build-compact-integration.mjs",
+    "result": "Read-only retention audit reran; measured size 485834752 bytes and withheld jobs 47902, matching baseline.",
+    "integrationStarted": false,
+    "databaseChanged": false,
+    "productionChanged": false,
+    "purgeExecuted": false,
+    "expiryEnabled": false
   }
 }
