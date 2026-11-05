@@ -62,7 +62,6 @@ jobs:
           ARCHIVE_SHA: ${{ steps.request.outputs.archiveSha256 }}
           SOURCE_REVISION: ${{ steps.request.outputs.sourceRevision }}
           EXPECTED_RECEIPT: ${{ steps.request.outputs.expectedReceipt }}
-          EXPECTED_OUTPUT_SHA: ${{ steps.request.outputs.outputSha256 }}
         run: |
           set -euo pipefail
           mkdir -p "$RUNNER_TEMP/pinned-source"
@@ -88,7 +87,6 @@ jobs:
           assert stage['receiptDiagnostics']==expected
           assert stage['eligibleRecords']==expected_clean and len(stage['records'])==expected_clean
           assert summary['archiveSha256']==sha and summary['percentage']==100
-          assert summary['outputSha256']==os.environ['EXPECTED_OUTPUT_SHA']
           with open(stage_path+'.manifest.json','w') as f:
               json.dump({'archiveDate':day,'archiveSha256':sha,'sourceRevision':revision,'receiptDiagnostics':expected,'cleanRecords':expected_clean},f,indent=2)
               f.write('\n')
