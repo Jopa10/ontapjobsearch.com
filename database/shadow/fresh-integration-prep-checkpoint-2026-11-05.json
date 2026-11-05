@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Verify no-purge behavior through the existing local retention checks and prepare the exact 5 November raw stage plus saved selector artifacts. Before any Neon import, checkpoint the Preview integration deployment and request; then execute only with jobs withheld, purgeDuePayloads=false, and expiry disabled.",
+  "next": "Package the pinned 5 November raw stage from the same saved S3 ZIP using the new generic workflow. Verify artifact counts and manifest; combine it with selector artifact 13414222935. Then prepare and checkpoint a no-purge, jobs-withheld Preview integration deployment before execution.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -155,5 +155,32 @@
     "noPurgeInIntegration": true,
     "purgeExecuted": false,
     "expiryEnabled": false
+  },
+  "integrationSourcePackage": {
+    "status": "ready-to-trigger-after-request-update",
+    "workflowPath": ".github/workflows/package-shadow-integration-source.yml",
+    "requestPath": "database/shadow/package-integration-source-request.json",
+    "sourceRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
+    "archiveDate": "2026-11-05",
+    "archiveSha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d",
+    "archiveBytes": 35093994,
+    "expectedReceipt": {
+      "sourceRows": 43391,
+      "uniqueSupplierIds": 43389,
+      "exactRepeatRows": 0,
+      "conflictingIdsHeld": [
+        "1401785815",
+        "1401786160"
+      ],
+      "cleanRecords": 43387
+    },
+    "outputSha256": "b4f3950d3cc1f1ea1fdbaa100b8fdf47a39703a2fc83043b40022d677777a6a2",
+    "selectorArtifactId": 13414222935,
+    "artifactName": "neon-shadow-integration-source-2026-11-05",
+    "safety": {
+      "selectorNotRerun": true,
+      "productionChanged": false,
+      "neonWrite": false
+    }
   }
 }
