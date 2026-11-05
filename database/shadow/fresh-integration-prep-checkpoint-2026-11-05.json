@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "selector-parity-passed-awaiting-readonly-neon-preflight",
+  "status": "selector-parity-passed-readonly-neon-audit-running",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Run the existing Preview-only read-only Neon storage/count preflight against the same guarded test database. Record current database bytes, payload rows/bytes, fully-excluded payload rows/bytes and publishedJobs; stop if project guard or storage/reserve check fails. No import, purge, expiry, email or production change.",
+  "next": "Inspect this exact Preview audit deployment to confirm environment guards and read-only measurement. Save its aggregate report. If the project guard, transaction_read_only, size ceiling or 64 MiB reserve check fails, stop; otherwise decide whether a separate Preview integration is safe.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -79,5 +79,17 @@
       "productionChanged": false,
       "emailSent": false
     }
+  },
+  "readOnlyNeonPreflight": {
+    "status": "initializing",
+    "deploymentId": "dpl_2Rp4W183qRtBQJFAmSdFupDrw1Xa",
+    "deploymentUrl": "https://ontapjobsearch-d9ounsy70-ontap1.vercel.app",
+    "sourceCommit": "7e88c839a34d29059d53006a9b36982352aea048",
+    "runner": "database/shadow/harness/measure-retention.mjs",
+    "rootDirectory": "database/shadow/harness",
+    "environmentGuard": "VERCEL_ENV=preview and ONTAP_SHADOW_NEON_PROJECT_ID=noisy-fire-97386602",
+    "databaseTransaction": "REPEATABLE READ READ ONLY",
+    "neonWrite": false,
+    "productionChanged": false
   }
 }
