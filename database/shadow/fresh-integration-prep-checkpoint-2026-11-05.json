@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "wrong-root-preview-deployment-cancelled",
+  "status": "harness-root-compact-integration-building",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "The second attempt was cancelled before the build phase because it used the site root. Recreate deployment with projectSettings.rootDirectory='database/shadow/harness' and source branch head. The first audit-only deploy proved this root setting selects harness/vercel.json. Keep all artifact URLs branch-scoped Preview, and verify the build log before writes.",
+  "next": "Inspect dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq logs. Confirm harness root and compact integration command. Verify input and Neon read-only guards pass before raw import; record every phase and final storage/readback receipt. Stop on any unexpected output.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -265,29 +265,20 @@
     "deploymentOverrideFinding": "Per-deployment buildCommand was ignored because committed vercel.json took precedence; vercel.json has now been updated explicitly."
   },
   "previewIntegration": {
-    "deploymentId": "dpl_9qRMfbFC8oja2LFZZpvFnh3DBGMF",
-    "url": "https://ontapjobsearch-pvpn3ktds-ontap1.vercel.app",
-    "createdAt": "2026-11-05T13:03:12Z",
-    "sourceCommit": "2687bad0f52a65ea04e64973cda52eebebeaf71d",
-    "state": "CANCELED",
+    "deploymentId": "dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq",
+    "url": "https://ontapjobsearch-176ds8cae-ontap1.vercel.app",
+    "createdAt": "2026-11-05T13:04:56Z",
+    "sourceCommit": "15f38c73508a7607e3ff5405d3c7d36123d89dbf",
+    "state": "INITIALIZING",
     "target": null,
-    "buildCommand": "node build-compact-integration.mjs",
     "rootDirectory": "database/shadow/harness",
-    "retryOf": "dpl_6mcFZkrmJfRmzhmYZSK8Nm2fLdyv",
+    "buildCommand": "node build-compact-integration.mjs",
+    "retryOf": "dpl_9qRMfbFC8oja2LFZZpvFnh3DBGMF",
     "safety": {
       "jobsRemainWithheld": true,
       "expiryEnabled": false,
       "purgeDuePayloads": false,
       "productionChanged": false
-    },
-    "stopPhase": "wrong project root detected before build command",
-    "buildCommandActuallyRun": "site root npm run build began; canceled immediately",
-    "integrationStarted": false,
-    "neonWrite": false,
-    "databaseChanged": false,
-    "productionChanged": false,
-    "purgeExecuted": false,
-    "expiryEnabled": false,
-    "correction": "Set projectSettings.rootDirectory='database/shadow/harness' explicitly on the next deployment."
+    }
   }
 }
