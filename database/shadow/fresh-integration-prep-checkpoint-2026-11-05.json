@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-05",
+  "status": "saved-object-metadata-and-sha256-confirmed-awaiting-selector-parity",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "pullRequest": 336,
+  "branchHeadBeforeCheckpoint": "e925951c5159e05fc4b89fa4e7e84ac847896a15",
+  "sourceChecksumPrerequisiteResolved": true,
+  "pinnedSavedSource": {
+    "evidenceSource": "Owner CloudShell head-object and sha256sum output supplied 2026-11-05",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "region": "eu-west-2",
+    "s3Sources": {
+      "2026-11-05": {
+        "key": "jobg8/raw/2026-11-05.zip",
+        "bytes": 35093994,
+        "etag": "\"6f9830213c9956b05435f69d59bce540-5\"",
+        "lastModified": "2026-11-05T07:50:24+00:00",
+        "sha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d"
+      }
+    },
+    "expectedCurrentCounts": {
+      "sourceRows": null,
+      "cleanRecords": null,
+      "conflictingIdsHeld": null
+    },
+    "note": "Object size, ETag and LastModified were supplied from CloudShell head-object. SHA-256 was supplied from CloudShell sha256sum. ETag is multipart metadata, not SHA-256. Counts remain to be captured from this exact pinned archive during selector validation."
+  },
+  "selectorWorkflowStarted": false,
+  "neonMutationBeforeSelectorParity": false,
+  "productionChanged": false,
+  "next": "Create a short-lived download URL for this exact S3 object and update the existing saved-source workflow secret. Then run selector parity against this pinned date, record exact source counts and selector code revision, and perform the read-only Neon storage/count preflight before considering a separate Preview integration."
+}
