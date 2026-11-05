@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "preview-raw-selection-display-passed-final-replay-pending",
+  "status": "5-nov-preview-compact-integration-passed",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Inspect the remainder of deployment dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq until complete. Capture final receipt, after-size/headroom, counts, replay/idempotence and no-purge result. Then neutralize temporary Preview artifact URLs and save final checkpoint.",
+  "next": "Neutralize the three temporary artifact URLs in branch-scoped Preview env vars and restore harness vercel.json to the read-only retention audit command. Then do a final read-only check of deployment status/receipt and leave PR #336 unmerged, production untouched.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -265,39 +265,77 @@
     "deploymentOverrideFinding": "Per-deployment buildCommand was ignored because committed vercel.json took precedence; vercel.json has now been updated explicitly."
   },
   "previewIntegration": {
+    "date": "2026-11-05",
+    "status": "passed",
     "deploymentId": "dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq",
-    "url": "https://ontapjobsearch-176ds8cae-ontap1.vercel.app",
-    "createdAt": "2026-11-05T13:04:56Z",
+    "deploymentUrl": "https://ontapjobsearch-176ds8cae-ontap1.vercel.app",
     "sourceCommit": "15f38c73508a7607e3ff5405d3c7d36123d89dbf",
-    "state": "BUILDING",
-    "target": null,
-    "rootDirectory": "database/shadow/harness",
-    "buildCommand": "node build-compact-integration.mjs",
-    "retryOf": "dpl_9qRMfbFC8oja2LFZZpvFnh3DBGMF",
-    "safety": {
-      "jobsRemainWithheld": true,
-      "expiryEnabled": false,
-      "purgeDuePayloads": false,
-      "productionChanged": false
-    },
     "runId": "714c55e3-0e3c-56b2-9d9f-83ddb62d1b8f",
-    "phases": [
-      {
-        "phase": "raw-accepted",
-        "loggedAt": "2026-11-05T13:06:25.153Z"
-      },
-      {
-        "phase": "selection-verified",
-        "loggedAt": "2026-11-05T13:06:45.496Z"
-      },
-      {
-        "phase": "display-verified",
-        "loggedAt": "2026-11-05T13:07:05.140Z"
-      }
-    ],
-    "expiryEnabled": false,
-    "purgeDuePayloads": false,
-    "jobsWithheld": true,
-    "productionChanged": false
-  }
+    "receiptUrl": "https://ontapjobsearch-176ds8cae-ontap1.vercel.app/integration-result.json",
+    "selectorRun": 42023032553,
+    "archive": {
+      "feedDate": "2026-11-05",
+      "bytes": 35093994,
+      "sha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d"
+    },
+    "selector": {
+      "sourceRows": 43391,
+      "cleanRecords": 43387,
+      "scopes": 239,
+      "selectedUniqueJobs": 4946,
+      "unknowns": 0,
+      "outputSha256": "b4f3950d3cc1f1ea1fdbaa100b8fdf47a39703a2fc83043b40022d677777a6a2"
+    },
+    "storage": {
+      "beforeBytes": 485834752,
+      "afterBytes": 518569984,
+      "netGrowthBytes": 32735232,
+      "ceilingBytes": 838860800,
+      "reserveBytes": 67108864,
+      "headroomAboveReserveBeforeBytes": 285917184,
+      "headroomAboveReserveAfterBytes": 253181952
+    },
+    "readback": {
+      "completeReplayVerified": true,
+      "jobs": 50252,
+      "supplierAdverts": 50252,
+      "feedRuns": 6,
+      "publishedJobs": 0,
+      "payloadRows": 50252,
+      "payloadBytes": 117114518
+    },
+    "retention": {
+      "excludedMarked": 38138,
+      "duePayloadRows": 0,
+      "purgedRows": 0,
+      "purgeDuePayloads": false,
+      "expiryEnabled": false
+    },
+    "previousSnapshot": {
+      "jobs": 47902,
+      "adverts": 47902,
+      "feedRuns": 5
+    },
+    "safety": {
+      "jobsWithheld": true,
+      "productionChanged": false,
+      "emailSent": false,
+      "purgeExecuted": false,
+      "expiryEnabled": false
+    }
+  },
+  "previewIntegrationDeploymentAttempts": [
+    {
+      "id": "dpl_8KZXJcAf7we8xRoaLwzRmiBWb7uZ",
+      "result": "read-only retention audit ran; no DB changes"
+    },
+    {
+      "id": "dpl_9qRMfbFC8oja2LFZZpvFnh3DBGMF",
+      "result": "cancelled before build after detecting wrong project root; no integration phase"
+    },
+    {
+      "id": "dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq",
+      "result": "passed compact Preview integration"
+    }
+  ]
 }
