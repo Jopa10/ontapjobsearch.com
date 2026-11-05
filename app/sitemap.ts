@@ -16,6 +16,7 @@ const baseRoutes = [
   '/browse-jobs',
   '/about',
   '/ai-at-work',
+  '/ai-at-work/reception-and-office-admin',
   '/ai-at-work/ai-job-advert-watch',
   '/ai-at-work/ai-job-advert-watch/october-2026',
   '/ai-tips',
