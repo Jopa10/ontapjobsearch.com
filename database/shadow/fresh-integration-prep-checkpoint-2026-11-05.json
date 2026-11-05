@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "source-pinned-url-reported-updated-awaiting-selector-parity",
+  "status": "selector-parity-passed-awaiting-readonly-neon-preflight",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -20,9 +20,14 @@
       }
     },
     "expectedCurrentCounts": {
-      "sourceRows": null,
-      "cleanRecords": null,
-      "conflictingIdsHeld": null
+      "sourceRows": 43391,
+      "uniqueSupplierIds": 43389,
+      "exactRepeatRows": 0,
+      "conflictingIdsHeld": [
+        "1401785815",
+        "1401786160"
+      ],
+      "cleanRecords": 43387
     },
     "note": "Object size, ETag and LastModified were supplied from CloudShell head-object. SHA-256 was supplied from CloudShell sha256sum. Owner reports ONTAP_SAVED_FEED_URL updated for this object; selector workflow must still verify downloaded byte count and SHA-256. Counts remain to be captured from this exact pinned archive during selector validation.",
     "archiveChecksums": {
@@ -33,6 +38,46 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Run the existing fresh_selection_parity workflow for 2026-11-05. Its saved-source download and exact SHA/size validation gate the replay. Capture row/conflict counts, complete parity report and selector code revision. Then do a read-only Neon storage/count preflight before considering any separate Preview integration.",
-  "secretUpdateReportedByOwner": true
+  "next": "Run the existing Preview-only read-only Neon storage/count preflight against the same guarded test database. Record current database bytes, payload rows/bytes, fully-excluded payload rows/bytes and publishedJobs; stop if project guard or storage/reserve check fails. No import, purge, expiry, email or production change.",
+  "secretUpdateReportedByOwner": true,
+  "selectorParity": {
+    "runId": 42023032553,
+    "workflow": "Isolated Neon JobG8 shadow tests",
+    "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/42023032553",
+    "triggerCommit": "8bca60e82c6df07dda33d7fc47129934efb884c0",
+    "rulesRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
+    "sourceRequestSha256": "9ac9b678c9a9ae4493373a8ec4abfe129003a28b27f432fc1cdec6178a1cc99d",
+    "archiveSha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d",
+    "outputsSha256": "b4f3950d3cc1f1ea1fdbaa100b8fdf47a39703a2fc83043b40022d677777a6a2",
+    "scopes": 239,
+    "exactFileOutputParity": true,
+    "selectedUniqueJobs": 4946,
+    "unknowns": 0,
+    "receipt": {
+      "sourceRows": 43391,
+      "uniqueSupplierIds": 43389,
+      "exactRepeatRows": 0,
+      "conflictingIdsHeld": [
+        "1401785815",
+        "1401786160"
+      ],
+      "cleanRecords": 43387
+    },
+    "artifactIds": {
+      "selectionParity": {
+        "id": 13414222935,
+        "expiresAt": "2026-11-12T12:28:27Z"
+      },
+      "selectorRecovery": {
+        "id": 13415015292,
+        "expiresAt": "2026-11-07T12:28:29Z"
+      }
+    },
+    "safety": {
+      "selectorReplayOnly": true,
+      "neonWrite": false,
+      "productionChanged": false,
+      "emailSent": false
+    }
+  }
 }
