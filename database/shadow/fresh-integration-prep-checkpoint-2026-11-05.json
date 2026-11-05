@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "raw-stage-packaged-runner-preparation",
+  "status": "5-nov-runner-pinned-ready-for-preview-deployment",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Adapt build-compact-integration.mjs from 4 November assumptions to the pinned 5 November archive, exact selector/parity artifacts and current Neon baseline. Keep the Preview no-purge call. Then deploy and inspect full preflight before writes; persist deployment ID before allowing the build to import.",
+  "next": "Refresh the three temporary artifact download links, write them only to branch-scoped Preview variables, then create the guarded Vercel Preview deployment from runner commit 170f6d9637db4b52eef149b5844dddbd65451f36. Record deployment ID immediately and inspect build receipt/readback.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -204,5 +204,60 @@
     "purgeExecuted": false,
     "expiryEnabled": false,
     "jobsPublished": false
+  },
+  "previewRunner": {
+    "status": "prepared",
+    "runnerPath": "database/shadow/harness/build-compact-integration.mjs",
+    "sourceCommit": "170f6d9637db4b52eef149b5844dddbd65451f36",
+    "projectId": "prj_sLI0SohbF03NrRFj6yZyuN8mOOZB",
+    "teamId": "team_xjm8VOa1951ZXxawa7UFF2gd",
+    "branch": "feat/neon-shadow-database",
+    "projectGuard": "noisy-fire-97386602",
+    "databaseBaseline": {
+      "bytes": 485834752,
+      "adverts": 47902,
+      "payloads": 47902,
+      "jobs": 47902,
+      "feedRuns": 14,
+      "publishedJobs": 0,
+      "ceilingBytes": 838860800,
+      "reserveBytes": 67108864
+    },
+    "sourcePins": {
+      "archiveDate": "2026-11-05",
+      "archiveSha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d",
+      "rulesRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
+      "outputSha256": "b4f3950d3cc1f1ea1fdbaa100b8fdf47a39703a2fc83043b40022d677777a6a2",
+      "sourceRows": 43391,
+      "cleanRecords": 43387,
+      "scopes": 239,
+      "selectedUniqueJobs": 4946
+    },
+    "artifactZipSha256": {
+      "raw": "76dda805bf5930da1793697bb4ca180beb9ca6011712d122d004d0328cd2b241",
+      "parity": "657e1ce3d1f6915984fd1ba8b3dbbe63bec91bf0c06c73f2b2fb20dad1cb1591",
+      "recovery": "14a5771c30eae98eaf595d385d3694f23ba1d45bbebcab726c8f1e93dc61e4fb"
+    },
+    "guards": {
+      "previewOnly": true,
+      "branchExact": true,
+      "neonProjectExact": true,
+      "publishedJobsMustBeZero": true,
+      "expectedBaselineExact": true,
+      "storageReserveEnforced": true,
+      "expiryEnabled": false,
+      "purgeDuePayloads": false
+    },
+    "localValidation": {
+      "nodeSyntaxCheck": "passed for build-compact-integration.mjs, compact-integration.mjs, exclude-retention.mjs",
+      "purgeCallDisabled": "compact integration passes purgeDuePayloads:false"
+    },
+    "safety": {
+      "neonImportStarted": false,
+      "productionChanged": false,
+      "jobsPublished": false,
+      "emailSent": false,
+      "purgeExecuted": false
+    }
   }
 }
