@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-04
-review_fingerprint: 6ceda9a97fa899f5c8aeaca519f0c839f775f461f41d2a79e3e987ef42a72176
+review_date: 2026-11-05
+review_fingerprint: 64929109b0617f428af41600152d184c2e11b9d736ed363c8f671b60d157de42
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-04T14:48:50+00:00
+Run generated: 2026-11-05T14:53:29+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1081
+JobG8 comparison rows: 1083
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -22,16 +22,16 @@ Approved NEJobs comparison rows: 0
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 14
 - Tees Valley explicitly excluded: 1
-- Outside or unmapped geography excluded: 1
+- Outside or unmapped geography excluded: 2
 - Generic/derived geography rows requiring review: 3
-- Retained target candidates: 13
+- Retained target candidates: 12
 
 ## Outcomes
 - HC: 0
-- POSS: 3
-- HARD_PASS: 10
+- POSS: 4
+- HARD_PASS: 8
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 2
+- Final POSS awaiting decision: 3
 - Manually excluded: 1
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -81,14 +81,25 @@ vacancy_fingerprint: f1178a0e4cbcd10bc69ae022e8d3d130365fd73b4ee5b71246c4d3c40fb
 source_job_id: 173582
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173582
 ---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Newcastle | £ | Placement Programme Lead
+employer: Ouseburn Farm
+closing_date: 22 November 2026
+geography: CONFIRMED — location: exact area
+reason: transferable title with specialist or borderline wording: lead
+source: VONNE
+tracking_key: vonne-173650
+vacancy_fingerprint: 7ee29874d4f22edbdc8893d2d53d81686b72663478fa934b4952a0fa91e5a598
+source_job_id: 173650
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173650
+---
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Access to Work Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173559) — out-of-scope VONNE occupation.
-- [Bid Writer (Trusts and Foundations)](https://www.vonne.org.uk/vonne-jobs-details?cid=173383) — insufficient service-admin evidence.
 - [Cancer and Dementia Care Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173588) — out-of-scope VONNE occupation.
 - [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
 - [Family Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173625) — out-of-scope VONNE occupation.
