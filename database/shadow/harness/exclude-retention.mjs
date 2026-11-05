@@ -48,7 +48,7 @@ export async function readExcludePayloadBreakdown(client){
 
 // Called only after the exact selector state is attached to an accepted run.
 // The caller controls asOfDate in tests; production callers use today's UTC date.
-export async function applyExcludeReviewWindow(client,{runId,fullyExcludedRefs,asOfDate=new Date().toISOString().slice(0,10)}){
+export async function applyExcludeReviewWindow(client,{runId,fullyExcludedRefs,asOfDate=new Date().toISOString().slice(0,10),purgeDuePayloads=true}){
   validDate(asOfDate);
   assert.ok(Array.isArray(fullyExcludedRefs));
   const excluded=new Set(fullyExcludedRefs);
@@ -80,11 +80,11 @@ export async function applyExcludeReviewWindow(client,{runId,fullyExcludedRefs,a
       FROM ontap_shadow.supplier_adverts WHERE supplier_id=$1 AND raw_payload IS NOT NULL
         AND exclude_review_started_on IS NOT NULL AND exclude_review_started_on <= $2::date - $3::int`,
       [run.supplier_id,asOfDate,EXCLUDE_REVIEW_DAYS])).rows[0];
-    const purged=(await client.query(`UPDATE ontap_shadow.supplier_adverts
+    const purged=purgeDuePayloads?(await client.query(`UPDATE ontap_shadow.supplier_adverts
       SET raw_payload=NULL,content_purged_at=now()
       WHERE supplier_id=$1 AND raw_payload IS NOT NULL AND exclude_review_started_on IS NOT NULL
         AND exclude_review_started_on <= $2::date - $3::int
-      RETURNING supplier_job_id`,[run.supplier_id,asOfDate,EXCLUDE_REVIEW_DAYS])).rows;
+      RETURNING supplier_job_id`,[run.supplier_id,asOfDate,EXCLUDE_REVIEW_DAYS])).rows:[];
     const remaining=(await client.query(`SELECT count(*)::int AS payload_rows,
       coalesce(sum(pg_column_size(raw_payload)),0)::text AS payload_bytes
       FROM ontap_shadow.supplier_adverts WHERE supplier_id=$1 AND raw_payload IS NOT NULL`,[run.supplier_id])).rows[0];
