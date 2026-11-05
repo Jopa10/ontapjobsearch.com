@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "saved-object-metadata-and-sha256-confirmed-awaiting-selector-parity",
+  "status": "source-pinned-url-reported-updated-awaiting-selector-parity",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -24,10 +24,15 @@
       "cleanRecords": null,
       "conflictingIdsHeld": null
     },
-    "note": "Object size, ETag and LastModified were supplied from CloudShell head-object. SHA-256 was supplied from CloudShell sha256sum. ETag is multipart metadata, not SHA-256. Counts remain to be captured from this exact pinned archive during selector validation."
+    "note": "Object size, ETag and LastModified were supplied from CloudShell head-object. SHA-256 was supplied from CloudShell sha256sum. Owner reports ONTAP_SAVED_FEED_URL updated for this object; selector workflow must still verify downloaded byte count and SHA-256. Counts remain to be captured from this exact pinned archive during selector validation.",
+    "archiveChecksums": {
+      "current": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d"
+    },
+    "originalNeonSourceSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd"
   },
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Create a short-lived download URL for this exact S3 object and update the existing saved-source workflow secret. Then run selector parity against this pinned date, record exact source counts and selector code revision, and perform the read-only Neon storage/count preflight before considering a separate Preview integration."
+  "next": "Run the existing fresh_selection_parity workflow for 2026-11-05. Its saved-source download and exact SHA/size validation gate the replay. Capture row/conflict counts, complete parity report and selector code revision. Then do a read-only Neon storage/count preflight before considering any separate Preview integration.",
+  "secretUpdateReportedByOwner": true
 }
