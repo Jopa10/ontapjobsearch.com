@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "5-nov-runner-pinned-ready-for-preview-deployment",
+  "status": "preview-integration-deployment-building",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Refresh the three temporary artifact download links, write them only to branch-scoped Preview variables, then create the guarded Vercel Preview deployment from runner commit 170f6d9637db4b52eef149b5844dddbd65451f36. Record deployment ID immediately and inspect build receipt/readback.",
+  "next": "Inspect deployment dpl_8KZXJcAf7we8xRoaLwzRmiBWb7uZ build output. Stop on any guard/input/baseline failure. If successful, capture raw/selection/display/readback and post-import size; then neutralize temporary artifact URLs in branch-scoped Preview variables and save final receipt.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -258,6 +258,29 @@
       "jobsPublished": false,
       "emailSent": false,
       "purgeExecuted": false
+    }
+  },
+  "previewIntegration": {
+    "deploymentId": "dpl_8KZXJcAf7we8xRoaLwzRmiBWb7uZ",
+    "url": "https://ontapjobsearch-7ckamjvud-ontap1.vercel.app",
+    "createdAt": "2026-11-05T12:59:34Z",
+    "sourceCommit": "c098be8d3ec9e45399536a18998219b2ee1f1733",
+    "state": "BUILDING",
+    "target": null,
+    "buildCommand": "node build-compact-integration.mjs",
+    "rootDirectory": "database/shadow/harness",
+    "targetEnvironment": "Preview (Vercel target null, non-production branch deployment)",
+    "artifactIds": [
+      13415213643,
+      13414222935,
+      13415015292
+    ],
+    "safety": {
+      "neonImportMayBeginAfterPassedGuards": true,
+      "jobsRemainWithheld": true,
+      "expiryEnabled": false,
+      "purgeDuePayloads": false,
+      "productionChanged": false
     }
   }
 }
