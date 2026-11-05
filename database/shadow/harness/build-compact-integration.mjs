@@ -1,4 +1,4 @@
-// Guarded, one-shot Preview integration for the pinned 4 November snapshot.
+// Guarded, one-shot Preview integration for the pinned 5 November snapshot.
 import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
@@ -10,16 +10,16 @@ import pg from 'pg';
 import {contentHash} from './importer.mjs';
 import {validateCompactIntegration,verifyCompactIntegration} from './compact-integration.mjs';
 
-const PIN='d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06';
-const OUTPUTS='3a3d84c827252b0c68b48f1a0351e633fe2f44ec01aa5e0bfa4861e667b99734';
-const RULES='810d3cbd3b4736933564b1294151bc8b48677eca';
+const PIN='866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d';
+const OUTPUTS='b4f3950d3cc1f1ea1fdbaa100b8fdf47a39703a2fc83043b40022d677777a6a2';
+const RULES='8bca60e82c6df07dda33d7fc47129934efb884c0';
 const DB_PROJECT='noisy-fire-97386602';
 const CEILING=838860800;
 const RESERVE=67108864;
 const EXPECTED_ZIP_SHA={
-  raw:'cb31bf448e0ef8187befb13586fad826fb6e7c8205fecea8da18bb5de30a82bf',
-  parity:'b38ee0dd2b84b1f2a333269bdfdbb729636cd54315c4ddce4cdf827b35ecce29',
-  recovery:'29a734db8b3fedb3c723545ce0fa8cd479e465a46a68ba522172792992f5bf24'
+  raw:'76dda805bf5930da1793697bb4ca180beb9ca6011712d122d004d0328cd2b241',
+  parity:'657e1ce3d1f6915984fd1ba8b3dbbe63bec91bf0c06c73f2b2fb20dad1cb1591',
+  recovery:'14a5771c30eae98eaf595d385d3694f23ba1d45bbebcab726c8f1e93dc61e4fb'
 };
 
 function sha(bytes){return createHash('sha256').update(bytes).digest('hex');}
@@ -65,7 +65,7 @@ async function dbPreflight(client){
   const idx=(await client.query("SELECT to_regclass('ontap_shadow.supplier_adverts_exclude_review') IS NOT NULL AS present")).rows[0].present;
   assert.equal(col?.type,'date','Schema migration 002 is not present');
   assert.equal(idx,true,'Schema migration 002 index is missing');
-  assert.deepEqual(counts,{adverts:43796,payloads:43796,jobs:43796,feed_runs:4,published_jobs:0},'Preview baseline changed since schema checkpoint');
+  assert.deepEqual(counts,{adverts:47902,payloads:47902,jobs:47902,feed_runs:14,published_jobs:0},'Preview baseline changed since the read-only preflight');
   assert.ok(size+RESERVE<CEILING,'Preview baseline lacks the protected storage reserve');
   await client.query('COMMIT');
   return {databaseBytes:size,...counts,reviewDateColumn:col.type,reviewIndexPresent:idx,readOnly:true};
@@ -75,7 +75,7 @@ async function main(){
   assert.equal(process.env.VERCEL_ENV,'preview','Preview deployment only');
   assert.equal(process.env.VERCEL_GIT_COMMIT_REF,'feat/neon-shadow-database','Wrong Preview branch');
   assert.equal(process.env.ONTAP_SHADOW_NEON_PROJECT_ID,DB_PROJECT,'Wrong Neon project');
-  const work=await fs.mkdtemp(path.join(os.tmpdir(),'ontap-neon-20261104-'));
+  const work=await fs.mkdtemp(path.join(os.tmpdir(),'ontap-neon-20261105-'));
   const rawZip=await fetchZip('ONTAP_INTEGRATION_RAW_STAGE_URL',EXPECTED_ZIP_SHA.raw,50*1024*1024);
   const parityZip=await fetchZip('ONTAP_INTEGRATION_PARITY_URL',EXPECTED_ZIP_SHA.parity,10*1024*1024);
   const recoveryZip=await fetchZip('ONTAP_INTEGRATION_RECOVERY_URL',EXPECTED_ZIP_SHA.recovery,20*1024*1024);
@@ -94,27 +94,21 @@ async function main(){
   const sourceRequest=JSON.parse(sourceRequestBytes.toString('utf8'));
   let selectorProvenanceRepair=null;
   assert.deepEqual(plain,outputs,'Plain and observed output files differ');
-  assert.equal(rawPacket.archiveSha256,PIN);assert.equal(rawPacket.archiveDate,'2026-11-04');
-  assert.equal(rawPacket.observedOn,'2026-11-04');assert.equal(rawPacket.sourceRevision,RULES);assert.equal(rawPacket.percentage,100);
-  assert.equal(rawPacket.receiptDiagnostics.sourceRows,43551);assert.equal(rawPacket.eligibleRecords,43547);assert.equal(rawPacket.records.length,43547);
-  assert.equal(rawManifest.archiveSha256,PIN);assert.equal(rawManifest.cleanRecords,43547);assert.equal(rawManifest.sourceRevision,RULES);
-  assert.equal(parity.archiveSha256,PIN);assert.equal(parity.rulesRevision,RULES);assert.equal(parity.cleanRecords,43547);
+  assert.equal(rawPacket.archiveSha256,PIN);assert.equal(rawPacket.archiveDate,'2026-11-05');
+  assert.equal(rawPacket.observedOn,'2026-11-05');assert.equal(rawPacket.sourceRevision,RULES);assert.equal(rawPacket.percentage,100);
+  assert.deepEqual(rawPacket.receiptDiagnostics,{sourceRows:43391,uniqueSupplierIds:43389,exactRepeatRows:0,conflictingIdsHeld:['1401785815','1401786160']});assert.equal(rawPacket.eligibleRecords,43387);assert.equal(rawPacket.records.length,43387);
+  assert.equal(rawManifest.archiveSha256,PIN);assert.equal(rawManifest.cleanRecords,43387);assert.equal(rawManifest.sourceRevision,RULES);
+  assert.equal(parity.archiveSha256,PIN);assert.equal(parity.rulesRevision,RULES);assert.equal(parity.cleanRecords,43387);
   assert.equal(parity.exactFileOutputParity,true);assert.equal(parity.unknowns,0);assert.equal(parity.outputsSha256,OUTPUTS);
   assert.equal(selector.report.archiveSha256,PIN);assert.equal(selector.report.rulesRevision,RULES);assert.equal(selector.report.outputsSha256,OUTPUTS);
   assert.deepEqual(standaloneManifest,selector.report.dependencyManifest,'Standalone and embedded selector manifests differ');
   assert.equal(sha(sourceRequestBytes),selector.report.sourceRequestSha256,'Saved selector source request fingerprint differs');
-  assert.equal(sourceRequest.date,'2026-11-04');assert.equal(sourceRequest.sourceChecksumPrerequisiteResolved,true);
+  assert.equal(sourceRequest.date,'2026-11-05');assert.equal(sourceRequest.sourceChecksumPrerequisiteResolved,true);
   assert.equal(sourceRequest.pinnedSavedSource?.archiveChecksums?.current,PIN,'Selector request does not pin this archive');
   const capturedManifest=selector.report.dependencyManifest;
   assert.equal(contentHash(capturedManifest),selector.report.dependencyManifestSha256,'Original selector manifest checksum is invalid');
-  if(capturedManifest.archiveSha256!==PIN){
-    assert.equal(capturedManifest.archiveSha256,sourceRequest.pinnedSavedSource.originalNeonSourceSha256,'Unexpected stale selector manifest archive value');
-    capturedManifest.archiveSha256=PIN;
-    selector.report.dependencyManifestSha256=contentHash(capturedManifest);
-    selectorProvenanceRepair={kind:'verified-source-archive-hash-field-correction',oldArchiveSha256:sourceRequest.pinnedSavedSource.originalNeonSourceSha256,newArchiveSha256:PIN,originalDependencyManifestSha256:'565171c207571feddb5f776376de935759ae10269fd402cfe4759ca186070f7a',correctedDependencyManifestSha256:selector.report.dependencyManifestSha256,selectorRun:41848156150,reason:'run_selector_parity.py passed historical PIN instead of source.archiveSha256 to finish_capture; original saved request and archive hash guard independently bind the replay to the pinned 2026-11-04 ZIP.'};
-    console.log('ONTAP_SELECTOR_PROVENANCE_REPAIR '+JSON.stringify(selectorProvenanceRepair));
-  }
-  assert.equal(selector.sourceHashes.length,43547);assert.equal(selector.decisions.length,348376);
+  assert.equal(capturedManifest.archiveSha256,PIN,'Selector dependency manifest must match the pinned 5 November archive');
+  assert.equal(selector.sourceHashes.length,43387);assert.equal(selector.decisions.length,347096);
   assert.equal(contentHash(outputs),OUTPUTS,'Saved output checksum differs');
   validateCompactIntegration({raw:rawPacket,selection:selector,outputs});
   console.log('ONTAP_INTEGRATION_INPUT_VALIDATION passed before database connection');
@@ -122,7 +116,7 @@ async function main(){
   assert.ok(u.hostname.endsWith('.neon.tech'),'Expected Neon connection');
   assert.ok(['require','verify-full'].includes(u.searchParams.get('sslmode')),'TLS required');
   u.searchParams.set('sslmode','verify-full');
-  const client=new pg.Client({connectionString:u.toString(),connectionTimeoutMillis:15000,query_timeout:120000,statement_timeout:90000,application_name:'ontap-shadow-20261104-compact-integration'});
+  const client=new pg.Client({connectionString:u.toString(),connectionTimeoutMillis:15000,query_timeout:120000,statement_timeout:90000,application_name:'ontap-shadow-20261105-compact-integration'});
   let preflight=null;
   try{
     await client.connect();
@@ -140,7 +134,7 @@ async function main(){
     assert.equal(result.expiryEnabled,false);
     assert.equal(result.productionChanged,false);
     await fs.mkdir('dist',{recursive:true});
-    const receipt={status:'passed',feedDate:'2026-11-04',archiveSha256:PIN,selectorRun:41848156150,scopes:239,selectedUniqueJobs:parity.selectedUniqueJobs,outputSha256:OUTPUTS,artifactZipSha256:EXPECTED_ZIP_SHA,selectorProvenanceRepair,preflight,result,importAttempted:true,purgeAttempted:false,productionChanged:false,jobsWithheld:true};
+    const receipt={status:'passed',feedDate:'2026-11-05',archiveSha256:PIN,selectorRun:42023032553,scopes:239,selectedUniqueJobs:parity.selectedUniqueJobs,outputSha256:OUTPUTS,artifactZipSha256:EXPECTED_ZIP_SHA,selectorProvenanceRepair:null,preflight,result,importAttempted:true,purgeAttempted:false,purgeDuePayloads:false,expiryEnabled:false,productionChanged:false,jobsWithheld:true};
     await fs.copyFile(checkpoints,path.join('dist','phase-checkpoints.jsonl'));
     if(selectorProvenanceRepair)await fs.writeFile(path.join('dist','selector-provenance-repair.json'),JSON.stringify(selectorProvenanceRepair,null,2)+'\\n');
     await fs.writeFile(path.join('dist','integration-result.json'),JSON.stringify(receipt,null,2)+'\n');
