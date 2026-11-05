@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "preflight-passed-no-purge-integration-guard-added",
+  "status": "source-package-download-verification-failed",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "pullRequest": 336,
@@ -38,7 +38,7 @@
   "selectorWorkflowStarted": false,
   "neonMutationBeforeSelectorParity": false,
   "productionChanged": false,
-  "next": "Package the pinned 5 November raw stage from the same saved S3 ZIP using the new generic workflow. Verify artifact counts and manifest; combine it with selector artifact 13414222935. Then prepare and checkpoint a no-purge, jobs-withheld Preview integration deployment before execution.",
+  "next": "When available, create a fresh 3600-second presigned URL for the same pinned 2026-11-05 S3 object, update GitHub Actions secret ONTAP_SAVED_FEED_URL, then rerun only failed job 127252477639. Do not repeat selector parity. After raw-stage artifact is created, combine it with selector artifact 13414222935 and proceed to guarded Preview integration with purgeDuePayloads=false.",
   "secretUpdateReportedByOwner": true,
   "selectorParity": {
     "runId": 42023032553,
@@ -157,7 +157,7 @@
     "expiryEnabled": false
   },
   "integrationSourcePackage": {
-    "status": "ready-to-trigger-after-request-update",
+    "status": "failed-before-raw-stage-artifact",
     "workflowPath": ".github/workflows/package-shadow-integration-source.yml",
     "requestPath": "database/shadow/package-integration-source-request.json",
     "sourceRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
@@ -181,6 +181,26 @@
       "selectorNotRerun": true,
       "productionChanged": false,
       "neonWrite": false
-    }
+    },
+    "runId": 42029634762,
+    "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/42029634762",
+    "jobId": 127252477639,
+    "failedStep": "Download and verify the exact saved archive",
+    "result": "Job stopped before raw-stage preparation/artifact upload. Step logs were not returned by connector; failure may be URL access or fingerprint verification. Do not assume which without a successful retry.",
+    "artifactCreated": false,
+    "retry": "After refreshing ONTAP_SAVED_FEED_URL for the same object, rerun only failed job 127252477639.",
+    "presignCommand": "aws s3 presign s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/2026-11-05.zip --region eu-west-2 --expires-in 3600",
+    "neonImportStarted": false,
+    "databaseChanged": false,
+    "selectorRerun": false
+  },
+  "safety": {
+    "sourcePackageFailedBeforeArtifact": true,
+    "neonImportStarted": false,
+    "productionChanged": false,
+    "emailSent": false,
+    "purgeExecuted": false,
+    "expiryEnabled": false,
+    "jobsPublished": false
   }
 }
