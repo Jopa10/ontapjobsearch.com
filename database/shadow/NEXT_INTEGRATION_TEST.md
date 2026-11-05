@@ -1,12 +1,38 @@
 # Next compact integration checkpoint
 
-Updated 4 November 2026 after the first full pinned-feed Preview integration.
-Production remains file-based and PR 336 remains unmerged. The Preview shadow database
-now contains the withheld 4 November snapshot; no production publish or email changed.
+Updated 5 November 2026 after the second full pinned-feed Preview integration.
+Production remains file-based; PR 336 remains unmerged. The isolated Preview Neon
+database contains the 5 November snapshot, with every job withheld. No production
+publish, email, expiry or purge occurred.
 
-**Current source update (4 November):** the pinned 3 November S3 object was overwritten, so the owner approved `jobg8/raw/2026-11-04.zip`. The exact source passed checksum validation and selector replay. It contained 43,551 rows; two conflicting IDs were held, leaving 43,547 clean records. Plain and observed outputs matched across 239 scopes, with zero unknown decisions. The Preview compact integration then passed raw, selector and display readback; jobs remain withheld.
+**5 November source and selector:** S3 object `jobg8/raw/2026-11-05.zip`,
+35,093,994 bytes, SHA-256
+`866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d`.
+The selector replay passed on workflow run 42023032553: 43,391 source rows,
+43,387 clean records, 239 scopes, 4,946 selected unique jobs, zero unknowns.
+Output SHA-256:
+`b4f3950d3cc1f1ea1fdbaa100b8fdf47a39703a2fc83043b40022d677777a6a2`.
 
-**Next gate:** when the 5 November feed is available, pin its exact archive checksum, verify selector parity and run a read-only storage/count preflight before any separate Preview import. The 4 November integration measured 78,077,952 bytes of database growth. A same-growth sensitivity leaves about 129.8 MB above the 64 MiB reserve after two further feeds; this is illustrative only, not a storage guarantee. No purge credit is included. The first three-day retention check is due after the window elapses, from 7 November onward; do not artificially age rows.
+**5 November Preview integration:** run ID
+`714c55e3-0e3c-56b2-9d9f-83ddb62d1b8f`, deployment
+`dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq`. Raw, compact selection and display phases,
+readback, and complete replay passed. Database size grew from 485,834,752 to
+518,569,984 bytes: net 32,735,232 bytes. Measured headroom above the protected
+64 MiB reserve is 253,181,952 bytes. Final counts: 50,252 adverts and jobs,
+6 feed runs, zero published jobs. Purge was explicitly disabled; 38,138 excluded
+records were marked for review, zero were due, and zero were purged.
+
+The temporary Preview artifact URL variables were cleared after the run, and
+`harness/vercel.json` is restored to the read-only retention audit command.
+Checkpoint with full IDs and metrics:
+`fresh-integration-prep-checkpoint-2026-11-05.json`.
+
+**Next gate:** when the saved 6 November feed is available, pin its exact archive
+metadata and checksum, run selector validation, then do the read-only Neon
+storage/count preflight. Only after those pass should a separate Preview
+integration be prepared. Do not repeat the 5 November selector or integration.
+Forecasts give no credit for future purges. The earliest useful three-day
+retention check remains 7 November; do not artificially age rows.
 
 ## Starting evidence (do not repeat)
 
@@ -63,7 +89,7 @@ Neon run. The fresh integration must report current payload rows/bytes and
 eligible EXCLUDE payload rows/bytes before and after the run; it must not advance
 the review date artificially to force a purge in Neon.
 
-## Tomorrow: execution order and unresolved inputs
+## Historical execution notes (4 November; superseded by the current checkpoint)
 
 1. Read AGENTS/canonical maps/README/checkpoints. Inspect GitHub/Vercel activity
    first. Keep deployment/run IDs and checkpoints durable before every execution.
