@@ -17,6 +17,18 @@ async function main(){
   report.transactionReadOnly=(await c.query('SHOW transaction_read_only')).rows[0].transaction_read_only;
   assert.equal(report.transactionReadOnly,'on');
   report.database=(await c.query(`SELECT pg_database_size(current_database())::text AS bytes`)).rows[0];
+  report.retentionCutoff=(await c.query(`SELECT count(*)::text AS payload_rows,
+    coalesce(sum(pg_column_size(raw_payload)),0)::text AS stored_payload_bytes,
+    coalesce(sum(octet_length(raw_payload::text)),0)::text AS text_payload_bytes
+    FROM ontap_shadow.supplier_adverts
+    WHERE exclude_review_started_on <= $1::date AND raw_payload IS NOT NULL`,['2026-11-04'])).rows[0];
+  const dbBytes=BigInt(report.database.bytes);
+  report.storageHeadroom={
+    databaseBytes:report.database.bytes,
+    protectedReserveBytes:67108864,
+    headroomAboveReserveBytes:(838860800n-67108864n-dbBytes).toString(),
+    ceilingBytes:838860800
+  };
   report.tables=(await c.query(`SELECT c.relname AS name,pg_relation_size(c.oid)::text AS heap_bytes,pg_table_size(c.oid)::text AS table_with_toast_bytes,pg_indexes_size(c.oid)::text AS index_bytes,pg_total_relation_size(c.oid)::text AS total_bytes,s.n_live_tup::text,s.n_dead_tup::text FROM pg_class c JOIN pg_namespace n ON n.oid=c.relnamespace LEFT JOIN pg_stat_user_tables s ON s.relid=c.oid WHERE n.nspname='ontap_shadow' AND c.relkind='r' ORDER BY pg_total_relation_size(c.oid) DESC`)).rows;
   report.adverts=(await c.query(`SELECT count(*)::text AS rows,count(raw_payload)::text AS payload_rows,coalesce(sum(pg_column_size(raw_payload)),0)::text AS stored_payload_bytes,coalesce(sum(octet_length(raw_payload::text)),0)::text AS text_payload_bytes,min(first_seen)::text,max(last_seen)::text,count(*) FILTER(WHERE inactive_since IS NOT NULL)::text AS inactive_rows FROM ontap_shadow.supplier_adverts`)).rows[0];
   report.excludeReviewBaseline=await readExcludePayloadBreakdown(c);
