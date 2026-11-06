@@ -2,15 +2,39 @@
 
 review_date: 2026-11-06
 
-- Open Administrative & Clerical rows reviewed: 2091
-- Auto/remembered selected: 385
-- Selected HC Tier A: 195
+- Open Administrative & Clerical rows reviewed: 2094
+- Auto/remembered selected: 386
+- Selected HC Tier A: 196
 - Selected HC Tier B: 190
-- POSS awaiting decision: 1607
+- POSS awaiting decision: 1609
 - Excluded: 0
 - HARD_PASS: 99
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Hertfordshire | Hertfordshire, CM21 0HH | £25654.50 | General admin & Finance Assistant
+source_job_id: 5706769
+title: General admin & Finance Assistant
+employer: Elysium Healthcare
+region: Hertfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2653
+factual_fingerprint: 8a8e6245eec0945e0f6e92b52b1f3d3ccd1f4c3bb27f3e7499f101b36fa266d0
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Salford, M6 7DU | £26013.00 | Medical Secretary/Receptionist
+source_job_id: 5711199
+title: Medical Secretary/Receptionist
+employer: Elysium Healthcare
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2674
+factual_fingerprint: ebac6862f8ad9280a75db778df5652c6f626f14a56fa815a174a7a5851dba246
+---
 
 ---
 action:
@@ -16557,7 +16581,7 @@ employer: Betsi Cadwaladr University Health Board
 region: North Wales - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2487
-factual_fingerprint: cd8dd8902d43f7a931eb54894771678c937f8ec6a33ce9b932d42482626eb6d3
+factual_fingerprint: 8a5d7c2520ebf5a743fbbe8bd1fcb31e505c0822c42b597756bcf801ae7b4461
 ---
 
 ---
