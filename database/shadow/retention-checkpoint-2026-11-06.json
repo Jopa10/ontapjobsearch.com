@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-06",
+  "status": "preview-read-only-retention-check-complete",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "pullRequest": 336,
+  "latestCheckpointReview": {
+    "latestAvailable": "database/shadow/fresh-integration-prep-checkpoint-2026-11-05.json",
+    "nextIntegrationNotes": "database/shadow/NEXT_INTEGRATION_TEST.md",
+    "finding": "No 6 November shadow-feed checkpoint found. The latest checkpoint still says to pin the saved 6 November archive and validate selector parity before any new integration. Today's live publish, reported by owner, does not establish that shadow-feed validation is complete."
+  },
+  "codeCommit": "a40c99b50c5ba403ce3bacbed21cc2273284d08e",
+  "preview": {
+    "deploymentId": "dpl_5CrxTpZcRj3VH5Azv6YCc6WNZgyF",
+    "url": "https://ontapjobsearch-men3gf1po-ontap1.vercel.app",
+    "state": "READY",
+    "projectId": "prj_sLI0SohbF03NrRFj6yZyuN8mOOZB",
+    "neonProjectGuard": "noisy-fire-97386602",
+    "reportUrl": "https://ontapjobsearch-men3gf1po-ontap1.vercel.app/report.json",
+    "measuredAt": "2026-11-06T09:39:54.137Z"
+  },
+  "query": {
+    "transaction": "BEGIN ISOLATION LEVEL REPEATABLE READ READ ONLY",
+    "transactionReadOnly": "on",
+    "sql": "SELECT count(*)::text AS payload_rows, coalesce(sum(pg_column_size(raw_payload)),0)::text AS stored_payload_bytes, coalesce(sum(octet_length(raw_payload::text)),0)::text AS text_payload_bytes FROM ontap_shadow.supplier_adverts WHERE exclude_review_started_on <= $1::date AND raw_payload IS NOT NULL",
+    "parameter": "2026-11-04",
+    "result": {
+      "payloadRows": "34754",
+      "storedPayloadBytes": "80394566",
+      "textPayloadBytes": "130156666"
+    }
+  },
+  "storage": {
+    "databaseBytes": "518569984",
+    "ceilingBytes": 838860800,
+    "protectedReserveBytes": 67108864,
+    "headroomAboveReserveBytes": "253181952"
+  },
+  "verification": {
+    "noDatabaseChanges": true,
+    "basis": "The transaction reported transaction_read_only=on; the measurement used SELECT/SHOW statements only and completed the read-only transaction.",
+    "jobsPublished": 0,
+    "emailsSent": 0,
+    "expiryEnabled": false,
+    "purgeExecuted": false,
+    "compactIntegrationRepeated": false,
+    "applyExcludeReviewWindowCalled": false
+  },
+  "nextAction": "On 7 November, inspect the newest checkpoint and verify the pinned 6 November saved-feed archive and selector-parity status. Do not repeat the 5 November integration."
+}
