@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-11-06
-generated_at: 2026-11-06T15:16:07+00:00
+generated_at: 2026-11-06T18:52:08+00:00
 
-**423 job(s) await a human decision; 0 already answered (423 review rows).**
+**438 job(s) await a human decision; 0 already answered (438 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-11-06 | 347 | — |
+| JobG8 | OK | 2026-11-06 | 362 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-11-06 | 5 | — |
 | Teaching Vacancies | OK | 2026-11-06 | 71 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 347 to review
+## JobG8 — 362 to review
 
 ---
 action:
@@ -109,6 +109,24 @@ POSS | JobG8 | Berkshire | Berkshire | £36000 - £45000 per year | Finance Mana
 source_key: jobg8
 source: JobG8
 category: admin_service
+source_job_id: 2241916
+title: Finance Manager
+employer: 
+location: Berkshire
+region: Berkshire
+salary: £36000 - £45000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: professional accountancy qualification wording needs review; actual part-time annual earnings over £40k
+source_url: 
+hub_fingerprint: a1012d6d5c6b628b7bf5657d8d0c49a0ee9f9864ae03751969056e471b5682b8
+---
+
+---
+action:
+POSS | JobG8 | Berkshire | Berkshire | £36000 - £45000 per year | Finance Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
 source_job_id: 23643_225805096
 title: Finance Manager
 employer: 
@@ -155,24 +173,6 @@ closing_date:
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £42,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: a9868ff14cc9285e166136fb67d670d67bacb51fcaf794a57bfbf9cc05498000
----
-
----
-action:
-POSS | JobG8 | Berkshire | Berkshire | £20.32 per hour | Logistics Operations Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225709854
-title: Logistics Operations Coordinator
-employer: 
-location: Berkshire
-region: Berkshire
-salary: £20.32 per hour
-closing_date: 
-reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £39,624 exceeds regional review point £37,000
-source_url: 
-hub_fingerprint: 72f2ca878d886b41a8db7454dcc988855c9ef1469a535765f08b986e0b1e3622
 ---
 
 ---
@@ -245,6 +245,24 @@ closing_date:
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £39,624 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: 7ae7a571cb87cab793b9f6ba829d8cb9371eec1cdb891b634d143aea072ce0a1
+---
+
+---
+action:
+POSS | JobG8 | Berkshire | Bracknell | £14 per hour | Learning Support Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225807600
+title: Learning Support Assistant
+employer: 
+location: Bracknell
+region: Berkshire
+salary: £14 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 09690548b49860b152a47c7aef0e812d8d0d96d68c4d26eb73dd11d7f06f9e9a
 ---
 
 ---
@@ -483,6 +501,42 @@ hub_fingerprint: 6afdadf48f52f7ab37232fb565914b68af95d17b2f6cf6b0300a1b7380b17ad
 
 ---
 action:
+POSS | JobG8 | Bristol & Bath | Bristol | £45000 - £50000 per year | Network Services Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225807751
+title: Network Services Coordinator
+employer: 
+location: Bristol
+region: Bristol & Bath
+salary: £45000 - £50000 per year
+closing_date: 
+reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £50,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 4f1c05c57b8c9d174e3cdaf0edc862f6de9dedc50f5b8c8211eb7b676e091604
+---
+
+---
+action:
+POSS | JobG8 | Bristol & Bath | Bristol | £30000 - £42000 per year | Office Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225808019
+title: Office Administrator
+employer: 
+location: Bristol
+region: Bristol & Bath
+salary: £30000 - £42000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - title register: high-confidence title pattern: administrator, office administrator; manual review required: Office/finance role salary over £40k
+source_url: 
+hub_fingerprint: a1b85a47d4d98491ea4aa4f0c0ccb3a8c5a6047b6a4fd01f2093c82fdd17fd9c
+---
+
+---
+action:
 POSS | JobG8 | Bristol & Bath | Bristol | £35000 - £45000 per year | Salesforce & Sales Pipeline Coordinator
 source_key: jobg8
 source: JobG8
@@ -519,6 +573,24 @@ hub_fingerprint: 28d229559217a9bf94676435467c70f56491a81413ca4ddb05d4d9b62f074dc
 
 ---
 action:
+POSS | JobG8 | Buckinghamshire | Buckinghamshire | £45000 - £50000 per year | Audit & Certification Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2118325
+title: Audit & Certification Coordinator
+employer: 
+location: Buckinghamshire
+region: Buckinghamshire
+salary: £45000 - £50000 per year
+closing_date: 
+reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £50,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: aab1e941d51add6b7a8ea679b9fd723c0df3516a9c30c7875ccb3096e6b74d24
+---
+
+---
+action:
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £42000 per year | Legal Assistant
 source_key: jobg8
 source: JobG8
@@ -533,6 +605,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: legal assistant; manual review required: annualised upper salary £42,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: 7e58e6fd6aaf2deb6b4559611f6cf2313d2904db5299a8ebc675bd03b3b93559
+---
+
+---
+action:
+POSS | JobG8 | Cambridgeshire | Cambridge | £40000 - £45000 per year | Payroll Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2124538
+title: Payroll Manager
+employer: 
+location: Cambridge
+region: Cambridgeshire
+salary: £40000 - £45000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: salary over £40k under normal selection rules
+source_url: 
+hub_fingerprint: 08639e8d24e27d86d945616486a644da299851c275f0d549d099a6db33bc4dc3
 ---
 
 ---
@@ -555,6 +645,24 @@ hub_fingerprint: a3aa1d7b9648258ca680af53321704041bf38f34bee2f14d19b61c4d4bb735d
 
 ---
 action:
+POSS | JobG8 | Cheshire - East | Macclesfield | — | Senior Payroll Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2115700
+title: Senior Payroll Administrator
+employer: 
+location: Macclesfield
+region: Cheshire - East
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 862abbae4c7e788a50e17db67e963e70551f1b532ce912ef11921cda4a9ea107
+---
+
+---
+action:
 POSS | JobG8 | Cheshire - Warrington & Halton | Warrington | £25 per hour | Finance Manager
 source_key: jobg8
 source: JobG8
@@ -569,6 +677,60 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: salary over £40k under normal selection rules
 source_url: 
 hub_fingerprint: 5251b3af233a895d663dd0fc084a04ae20aefdcb9672826677b3f72161eb7668
+---
+
+---
+action:
+POSS | JobG8 | Cheshire - West | Chester | £24000 - £33000 per year | Audit & Accounts Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2141818
+title: Audit & Accounts Assistant
+employer: 
+location: Chester
+region: Cheshire - West
+salary: £24000 - £33000 per year
+closing_date: 
+reason: possible manual_select candidate for review/swap
+source_url: 
+hub_fingerprint: 140cad02f54a2296db75666707d75773b6a684102d551cbf34b4581076dfbe93
+---
+
+---
+action:
+POSS | JobG8 | Cheshire - West | Chester | — | Senior Payroll Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2115685
+title: Senior Payroll Administrator
+employer: 
+location: Chester
+region: Cheshire - West
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: d5dea5c1f6791b49cc22ebfb89e185eba16ac7fb75b28d3379490274032b3068
+---
+
+---
+action:
+POSS | JobG8 | Cheshire - West | Northwich | — | Senior Payroll Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2115678
+title: Senior Payroll Administrator
+employer: 
+location: Northwich
+region: Cheshire - West
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 0dc4d4c3c566933774dd6ca3ecec2990daa785425604615f4a5318a9e35efde0
 ---
 
 ---
@@ -623,6 +785,42 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: scheduler; manual review required: annualised upper salary £39,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: 65292850323fa3fe4a48a367fe50ce6e4d5331ffeaa4e5aaee7c8f60b4945d5e
+---
+
+---
+action:
+POSS | JobG8 | Devon | Devon | £34425 per year | Assistant Finance Business Partner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2241052
+title: Assistant Finance Business Partner
+employer: 
+location: Devon
+region: Devon
+salary: £34425 per year
+closing_date: 
+reason: possible manual_select candidate for review/swap
+source_url: 
+hub_fingerprint: c019a4ed945ceee811ed8600f9c79e56a04bd16bb49bfe1c4830c52d86c72e11
+---
+
+---
+action:
+POSS | JobG8 | Devon | Devon | £34,425 per year | Assistant Finance Business Partner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2244636
+title: Assistant Finance Business Partner
+employer: 
+location: Devon
+region: Devon
+salary: £34,425 per year
+closing_date: 
+reason: possible manual_select candidate for review/swap
+source_url: 
+hub_fingerprint: ff9d784851765099bb15afc52beacfa5b1c764c5687317706ca721bc1ea7ab9e
 ---
 
 ---
@@ -915,6 +1113,24 @@ hub_fingerprint: c9fb8f4a6b12de78a8b071b11fea3f1f1cb4d484c443603e7971df1f5eeeac2
 
 ---
 action:
+POSS | JobG8 | Essex | Essex | — | Accounts Assistant Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2246239
+title: Accounts Assistant Manager
+employer: 
+location: Essex
+region: Essex
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 795da0e6255f8d407bd535450aa94eda7675cb29014d9b9690b0c348821a0471
+---
+
+---
+action:
 POSS | JobG8 | Essex | Essex | £30000 - £40000 per year | Customer Service Coordinator
 source_key: jobg8
 source: JobG8
@@ -933,20 +1149,20 @@ hub_fingerprint: 768c0630a00a3ddf368ee0e9e35d3a087bcd7b204b2e45e466acc9db073fdc1
 
 ---
 action:
-POSS | JobG8 | Essex | Essex | £40000 - £45000 per year | Finance Assistant
+POSS | JobG8 | Essex | Essex | £37500 - £40500 per year | Finance Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225766050
-title: Finance Assistant
+source_job_id: 2129557
+title: Finance Manager
 employer: 
 location: Essex
 region: Essex
-salary: £40000 - £45000 per year
+salary: £37500 - £40500 per year
 closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - owner-approved ordinary office role; manual review required: Office/finance role salary over £40k
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
 source_url: 
-hub_fingerprint: 3298019be6b3d79086825b999703b512f8f456b560110eba72dee97c7a2c0115
+hub_fingerprint: 1e330ee010bcdc4a320ad2b271c2637ef0a927bd8f5eab3786a30e742f724ec4
 ---
 
 ---
@@ -983,24 +1199,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: e942f79958555aa17128b2963b5abb815a2492bf06a15918b4603aed760b815c
----
-
----
-action:
-POSS | JobG8 | Essex | Essex | £80 - £100 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225704236
-title: Learning Support Assistant
-employer: 
-location: Essex
-region: Essex
-salary: £80 - £100 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: ee6a418557d2bb0f66f9bf4c15779ea7ed9f91874e8a3d8e28bc6a5ebf22501f
 ---
 
 ---
@@ -1347,24 +1545,6 @@ hub_fingerprint: 42fa04fd05f03cc4f61302dbb6e2564821567ae0242020c9f6b285ac5e7abc3
 
 ---
 action:
-POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £12.8 - £17.5 per hour | Experienced Healthcare Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225700983
-title: Experienced Healthcare Assistant
-employer: 
-location: Manchester
-region: Greater Manchester - Manchester & Salford
-salary: £12.8 - £17.5 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 2a8b6aaf5f30966a234a18a7ff8a7745ac10a2de58c5f1ad0175c41da4b644f8
----
-
----
-action:
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £30000 - £50000 per year | Finance Officer (part-time)
 source_key: jobg8
 source: JobG8
@@ -1509,6 +1689,24 @@ hub_fingerprint: 5991f1505e0549cbe6e9230bc6e9a82db03611740b8cfe4fc452927133b3c9d
 
 ---
 action:
+POSS | JobG8 | Greater Manchester - South | Altrincham | — | Senior Payroll Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2115682
+title: Senior Payroll Administrator
+employer: 
+location: Altrincham
+region: Greater Manchester - South
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 8d75e67a00a26dcd7aa2f00f43cdc9320d637fcba4869727af578d17872e1920
+---
+
+---
+action:
 POSS | JobG8 | Greater Manchester - Wigan & Bolton | Bolton | £13.63 - £20.44 per hour (10am - 10pm. 4 on 4 off shift) | Administration Assistant - Transport
 source_key: jobg8
 source: JobG8
@@ -1577,24 +1775,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: d0b4f87acd2e6d46de4b55013913f778fc2ad94006f17ece09be7455a9f564a9
----
-
----
-action:
-POSS | JobG8 | Hampshire | Colden Common | £93.6 - £98.8 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225705948
-title: Learning Support Assistant
-employer: 
-location: Colden Common
-region: Hampshire
-salary: £93.6 - £98.8 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: df912db578a3df081022d250a607789dfdcd408d0cef226e9a21b970521de1df
 ---
 
 ---
@@ -1685,6 +1865,24 @@ closing_date:
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: 1287817cd2ca919937c238cd80c2d362ab3b5759de8edfceb7974ffa365da729
+---
+
+---
+action:
+POSS | JobG8 | Hampshire | Hampshire | — | Bookkeeper
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2114563
+title: Bookkeeper
+employer: 
+location: Hampshire
+region: Hampshire
+salary: 
+closing_date: 
+reason: possible manual_select candidate for review/swap
+source_url: 
+hub_fingerprint: 5a6be06f547848e062f618087df749b29919c64469dbf8884a72d950f61425da
 ---
 
 ---
@@ -2013,20 +2211,38 @@ hub_fingerprint: f5ac8436a09c62172911ab3166128676c4034ceeeb7db6853f34027c6b08f8a
 
 ---
 action:
-POSS | JobG8 | Kent | Dartford | £85 - £95 per daily | Learning Support Assistant
+POSS | JobG8 | Hertfordshire | Hertfordshire | £35000 - £40000 per year | Proposal & Contracts Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225808057
+title: Proposal & Contracts Coordinator
+employer: 
+location: Hertfordshire
+region: Hertfordshire
+salary: £35000 - £40000 per year
+closing_date: 
+reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 77b5c48aa61286e933fdf4d0286b371d065c1796311600fdd53c1366e83529fa
+---
+
+---
+action:
+POSS | JobG8 | Kent | Ashford | £95 - £98 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
 category: support_worker
-source_job_id: 23643_225709513
+source_job_id: 23643_225808616
 title: Learning Support Assistant
 employer: 
-location: Dartford
+location: Ashford
 region: Kent
-salary: £85 - £95 per daily
+salary: £95 - £98 per daily
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 16d7eec29bc0e217f6df4fd380d7b2d92dbc09c427a6832b6cb7457d6460500b
+hub_fingerprint: 9c87029fe64364de809ee495bd36b37a49d59169462cb47fcc19eb33cbfc125f
 ---
 
 ---
@@ -2035,7 +2251,7 @@ POSS | JobG8 | Kent | Hythe | £13.5 - £20.25 per hour | Homecare Assistant
 source_key: jobg8
 source: JobG8
 category: support_worker
-source_job_id: 23643_225702358
+source_job_id: 23643_225807530
 title: Homecare Assistant
 employer: 
 location: Hythe
@@ -2044,7 +2260,7 @@ salary: £13.5 - £20.25 per hour
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 30e88ae88a746215f85f36ca7eb4a6a870a94c63ad5ce1f29d51725754bd8ba3
+hub_fingerprint: 0314ccc6ce816bbab847c1e5567546739116c86c6bc34f1589076c5c4db6b9f4
 ---
 
 ---
@@ -2085,6 +2301,24 @@ hub_fingerprint: ba73553c83176feac60086c2c6f5732d8cb547e7528c6386aad3b0dcb0b0e77
 
 ---
 action:
+POSS | JobG8 | Kent | Kent | £16 - £20 per hour | Accounts Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2243853
+title: Accounts Assistant
+employer: 
+location: Kent
+region: Kent
+salary: £16 - £20 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: annualised upper salary £39,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: a2923e1dbe101b186f79c86f001c3a0e5e205a864f6d63c22d17a3b1505ec531
+---
+
+---
+action:
 POSS | JobG8 | Kent | Kent | £21.00 per hour | Bookkeeper / Accounts Clerk / Payroll Manager
 source_key: jobg8
 source: JobG8
@@ -2121,6 +2355,24 @@ hub_fingerprint: a4fa7221f6fa876d49d121bd1b4f0080d67ad8480749ca1e03e0b297d9a1c16
 
 ---
 action:
+POSS | JobG8 | Kent | Kent | £35000 - £38000 per year | Credit Controller. ASAP Start. Up to &;38k
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2243248
+title: Credit Controller. ASAP Start. Up to &;38k
+employer: 
+location: Kent
+region: Kent
+salary: £35000 - £38000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £38,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 32865a5ede3c13692d2c64854656a28f18b6cda038f1ff0061873a9152de2e7d
+---
+
+---
+action:
 POSS | JobG8 | Kent | Kent | £35000 - £38000 per year (Free Parking) | Credit Controller. ASAP Start. Up to £38k
 source_key: jobg8
 source: JobG8
@@ -2153,6 +2405,24 @@ closing_date:
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £38,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: 9d35d77d47ad42c9e855dc421952ba717d06cd09b206f7a396ab0245bbbf08f6
+---
+
+---
+action:
+POSS | JobG8 | Kent | Kent | — | Finance Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2116362
+title: Finance Assistant
+employer: 
+location: Kent
+region: Kent
+salary: 
+closing_date: 
+reason: possible manual_select candidate for review/swap
+source_url: 
+hub_fingerprint: 0520f35082cdcbe6fc425ee388b6d521538c37e0aabea763b8bf29791e55ce8e
 ---
 
 ---
@@ -2305,7 +2575,7 @@ POSS | JobG8 | Kent | Sandwich | £13.5 - £20.25 per hour | Homecare Assistant
 source_key: jobg8
 source: JobG8
 category: support_worker
-source_job_id: 23643_225702252
+source_job_id: 23643_225807488
 title: Homecare Assistant
 employer: 
 location: Sandwich
@@ -2314,7 +2584,7 @@ salary: £13.5 - £20.25 per hour
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 48ed153f75b153f4724664499bca63047ae35075f05b7c95247b4d4a164592be
+hub_fingerprint: aa4b2d06620dde2ad65f361b847b5aa0b53b758764d5c2ab4dba544b030cff31
 ---
 
 ---
@@ -2553,42 +2823,6 @@ hub_fingerprint: 5e30d7a4c04cd71ac2ba95aca1bba7a9f119885c614e41255e3e685fc9ba09f
 
 ---
 action:
-POSS | JobG8 | London | City | £13.47 - £26.94 per hour | Care Assistant - Fessey House
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225709435
-title: Care Assistant - Fessey House
-employer: 
-location: City
-region: London
-salary: £13.47 - £26.94 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 88779e42fa30faee1ce8d9ca9ffe14f582c17a3483429ac04ed640dc003ea48b
----
-
----
-action:
-POSS | JobG8 | London | City | £13.47 - £26.94 per hour | Care Assistant - Firethorn
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225709408
-title: Care Assistant - Firethorn
-employer: 
-location: City
-region: London
-salary: £13.47 - £26.94 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 43c060e6762cf2d8a590746c2bad2f2a46a7294971132a2ba0d13ebe7ece5aec
----
-
----
-action:
 POSS | JobG8 | London | City | £13.5 - £30.26 per hour | Community Care Assistant
 source_key: jobg8
 source: JobG8
@@ -2787,6 +3021,24 @@ hub_fingerprint: 2343f71d624c3849c26479078ef2e803e76963a86d05e5e5fe8e26670b5331d
 
 ---
 action:
+POSS | JobG8 | London | City | £93 - £110 per daily | Learning support assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225807723
+title: Learning support assistant
+employer: 
+location: City
+region: London
+salary: £93 - £110 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 24d083ebc925ff0961a912c0b990404862cae942f1a9a9066f5dbf4e4edf03ae
+---
+
+---
+action:
 POSS | JobG8 | London | City | £15.40 - £18.45/hour £15.40 - £18.45 per hour | Personal Assistant / Office Automation
 source_key: jobg8
 source: JobG8
@@ -2819,24 +3071,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: e58fda9dd8dec969d80b9c8e0d8f757bc4d927625e2ce4b5472e0b030819d3f4
----
-
----
-action:
-POSS | JobG8 | London | City | £34300 - £37650 per year | Residential Support Worker
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225704124
-title: Residential Support Worker
-employer: 
-location: City
-region: London
-salary: £34300 - £37650 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: a0581ca667bacda831fdd368da35198685c3e7906861454fbf8ab516d2534e05
 ---
 
 ---
@@ -3003,6 +3237,24 @@ hub_fingerprint: 53a71e4b36844e75ee31bee72892b56f30f113245809182c43774ef99156f71
 
 ---
 action:
+POSS | JobG8 | London | Croydon | £23 per hour | Interim Part Time Finance Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2246324
+title: Interim Part Time Finance Assistant
+employer: 
+location: Croydon
+region: London
+salary: £23 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: finance assistant; manual review required: salary over £40k under normal selection rules
+source_url: 
+hub_fingerprint: f1f7983bbf00524ffc3b52bceada1f38521385fb591562b13a82db2336cbb546
+---
+
+---
+action:
 POSS | JobG8 | London | Croydon | £41000 - £44485 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -3089,24 +3341,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: receptionist; manual review required: Receptionist salary over £40k
 source_url: 
 hub_fingerprint: 82f76f6051cbff725861f1695858635d31651bf2d600c5af08cc56df7de3d858
----
-
----
-action:
-POSS | JobG8 | London | Hackney | £95 - £115 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225702968
-title: Learning Support Assistant
-employer: 
-location: Hackney
-region: London
-salary: £95 - £115 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 615f4d6d2e395af59d1c4e0781faaf9dda1751cf5a71b4d33860beff41212f5b
 ---
 
 ---
@@ -3215,24 +3449,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
 source_url: 
 hub_fingerprint: ce095cc878c03bd3dbfd7ecb0f25ced1519c6f0fa2e19e9146e2fa3eb768a981
----
-
----
-action:
-POSS | JobG8 | London | London | £35000 - £45000 per year (£35,000 - £45,000) | Administrative Support
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225709849
-title: Administrative Support
-employer: 
-location: London
-region: London
-salary: £35000 - £45000 per year (£35,000 - £45,000)
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - Owner agreed ordinary administrative support title; manual review required: annualised upper salary £45,000 exceeds regional review point £42,000
-source_url: 
-hub_fingerprint: 3c469981093420e96c0b8d0d26ab06c18e240f6915c7d04e58f3574879f26336
 ---
 
 ---
@@ -3417,6 +3633,24 @@ hub_fingerprint: 074c2f17af380ec6d838f90974f25c63fe1908b3a28f189837f646334f61f4c
 
 ---
 action:
+POSS | JobG8 | London | London | £40,000 - £45,000 per year (FTE) | Finance Officer
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2244670
+title: Finance Officer
+employer: 
+location: London
+region: London
+salary: £40,000 - £45,000 per year (FTE)
+closing_date: 
+reason: possible manual_select candidate for review/swap
+source_url: 
+hub_fingerprint: 0034ac4ce9eb82c9003576032fd5086b22b80f78a2cd1e5779389ed1e1377a11
+---
+
+---
+action:
 POSS | JobG8 | London | London | £23.80 per hour | Finance Service Centre Officer
 source_key: jobg8
 source: JobG8
@@ -3431,6 +3665,42 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
 source_url: 
 hub_fingerprint: 394ba1d2e24b1fa84085c446af5efb82adfad6cb11fcc40d845ebb998439f1a4
+---
+
+---
+action:
+POSS | JobG8 | London | London | £38000 - £48000 per year | Financial Accounts Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2120712
+title: Financial Accounts Assistant
+employer: 
+location: London
+region: London
+salary: £38000 - £48000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: annualised upper salary £48,000 exceeds regional review point £42,000
+source_url: 
+hub_fingerprint: 4e6b51802fdbf9f24bcd397406c3783f10285ecfffdbbf153cf3ac42652a759d
+---
+
+---
+action:
+POSS | JobG8 | London | London | — | Financial Controller Family/Founders Office
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2234825
+title: Financial Controller Family/Founders Office
+employer: 
+location: London
+region: London
+salary: 
+closing_date: 
+reason: possible manual_select candidate for review/swap
+source_url: 
+hub_fingerprint: e9e3b0017dbc1e1f2bb34976e62f26ebeb3e24dbbe64efc553f0d7e3553ebe63
 ---
 
 ---
@@ -3561,42 +3831,6 @@ hub_fingerprint: dc99e1b1f45bced09124ceca5bb38fc479e0967db72a0105e9b17617c5451a0
 
 ---
 action:
-POSS | JobG8 | London | London | £95 - £110 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225705076
-title: Learning Support Assistant
-employer: 
-location: London
-region: London
-salary: £95 - £110 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 2af7aac267956a00d1f9bebc40a8565344bedf26700989cb8d725a9cbfe770c9
----
-
----
-action:
-POSS | JobG8 | London | London | £475 - £500 per weekly | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225709200
-title: Learning Support Assistant
-employer: 
-location: London
-region: London
-salary: £475 - £500 per weekly
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 2f67402f96d5edaa2af96ec5322f4412fb36808914ce524acb2c7db186fbfdee
----
-
----
-action:
 POSS | JobG8 | London | London | £100 - £120 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -3647,24 +3881,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: b6ea51d9de093fec8d215956449b55f9e82acc82896e9b47d716373ceb50c7c5
----
-
----
-action:
-POSS | JobG8 | London | London | £93 - £115 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225791271
-title: Learning Support Assistant
-employer: 
-location: London
-region: London
-salary: £93 - £115 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 39f104a57208043cf38e8cef8735ab7466508e7ccb717fac47746b0e4c06b977
 ---
 
 ---
@@ -3795,6 +4011,24 @@ hub_fingerprint: a897064e20e25ce28a62a2a1bf4f4cea7d9f5713747f303f2a4bb97771a131c
 
 ---
 action:
+POSS | JobG8 | London | London | £38000 - £44000 per year | Practice Bookkeeper - Maternity Cover Contract
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2116315
+title: Practice Bookkeeper - Maternity Cover Contract
+employer: 
+location: London
+region: London
+salary: £38000 - £44000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: Office/finance role salary over £40k
+source_url: 
+hub_fingerprint: a8e0182934457ec8c1a677978fb52f30d92ccf117c4c6fa0bd984dfdff2d8613
+---
+
+---
+action:
 POSS | JobG8 | London | London | £35525 - £50000 per year | Prestige Service Advisor
 source_key: jobg8
 source: JobG8
@@ -3827,6 +4061,42 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: secretary; manual review required: annualised upper salary £45,000 exceeds regional review point £42,000
 source_url: 
 hub_fingerprint: 6989cb9e435645317a3b005a05acdec417b4beaaded7f0f00491a89d3b9179a3
+---
+
+---
+action:
+POSS | JobG8 | London | London | £25.48 per hour | Receptionist
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225808013
+title: Receptionist
+employer: 
+location: London
+region: London
+salary: £25.48 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - title register: high-confidence title pattern: receptionist; manual review required: Receptionist salary over £40k
+source_url: 
+hub_fingerprint: 673c4ba0cf7d935701e9e3e6230429502125d3c0b6f7b78ba6a42a3f1203c99b
+---
+
+---
+action:
+POSS | JobG8 | London | London | — | Senior Development Underwriter - Financial Institutions
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2247524
+title: Senior Development Underwriter - Financial Institutions
+employer: 
+location: London
+region: London
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 44e7444d8c2a11fc1714723b18548f65903053d08d42dc06d26516db2d54ec8f
 ---
 
 ---
@@ -3885,24 +4155,6 @@ hub_fingerprint: c897d9b030fe0f1d79e32d8e4fdde4c0dbd0669f75af1a089b2f4b7d875fc20
 
 ---
 action:
-POSS | JobG8 | London | Newham | £95 - £115 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225708780
-title: Learning Support Assistant
-employer: 
-location: Newham
-region: London
-salary: £95 - £115 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: ef7898834d97067f121057fca44c56a3039bcd72ff958e932b13da7bac800b37
----
-
----
-action:
 POSS | JobG8 | London | Newham | £93 - £115 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -3935,6 +4187,42 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
 source_url: 
 hub_fingerprint: 94d6b0e7f6f09840687740a97477b3b99f7852f086f9ac7049541919ce67d4e4
+---
+
+---
+action:
+POSS | JobG8 | London | Sutton | £20 - £24 per hour | Interim Income and Funding Finance Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2243723
+title: Interim Income and Funding Finance Assistant
+employer: 
+location: Sutton
+region: London
+salary: £20 - £24 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: finance assistant; manual review required: Office/finance role salary over £40k
+source_url: 
+hub_fingerprint: 6addd4098d2c728ed607be45d6848284d4b9cee758517269a66ccfa5f35e66db
+---
+
+---
+action:
+POSS | JobG8 | London | Sutton | £36000 - £40000 per year | Part Time Finance Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2235500
+title: Part Time Finance Manager
+employer: 
+location: Sutton
+region: London
+salary: £36000 - £40000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: cedd569425feb67a3b7956032313bd4d75c8ee624ec5c44359e095707cff409a
 ---
 
 ---
@@ -3989,24 +4277,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 6ae8cbf9d2c6245b38505235f3e02782af20478fef721e16465aa962ac7befe8
----
-
----
-action:
-POSS | JobG8 | London | Wandsworth | £88 - £110 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225705615
-title: Learning Support Assistant
-employer: 
-location: Wandsworth
-region: London
-salary: £88 - £110 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 539a5f6cec2e4024b50479b94cebe3a7de9548408999eebca08af7f32c9d320c
 ---
 
 ---
@@ -4151,6 +4421,42 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - title register: high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
 source_url: 
 hub_fingerprint: a401fb2c409f09540bc2a16e557ccf83525a25a28708599519a0fcb38b0f439d
+---
+
+---
+action:
+POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | County Durham | £17.55 - £23.82 per hour | Materials & Inventory Planner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225803938
+title: Materials & Inventory Planner
+employer: 
+location: County Durham
+region: North East - County Durham & Darlington/Hartlepool
+salary: £17.55 - £23.82 per hour
+closing_date: 
+reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: planner; manual review required: annualised upper salary £46,449 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: c8373e3b925cfbad38c0f071f644f2028c95df13c6229acd08871ae4dd64c476
+---
+
+---
+action:
+POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | County Durham | — | Part time Financial Controller
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2104427
+title: Part time Financial Controller
+employer: 
+location: County Durham
+region: North East - County Durham & Darlington/Hartlepool
+salary: 
+closing_date: 
+reason: possible manual_select candidate for review/swap
+source_url: 
+hub_fingerprint: 75a73747bcf22acd5b03483daf71eac37138812cdbe801be8c11a3ffbd270104
 ---
 
 ---
@@ -4821,24 +5127,6 @@ hub_fingerprint: 1a15bfc43bf419c372a87069ca82684cdaa3389da5360bf038df3e93df66979
 
 ---
 action:
-POSS | JobG8 | Oxfordshire | Oxfordshire | £31870 per year | Support Worker
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225795205
-title: Support Worker
-employer: 
-location: Oxfordshire
-region: Oxfordshire
-salary: £31870 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: af56e1a173efe817867ee1e2984676f950a3ea08efa21badc2d41826d7456836
----
-
----
-action:
 POSS | JobG8 | Oxfordshire | Witney | £31493 - £34495 per year | Children's Residential Support Worker
 source_key: jobg8
 source: JobG8
@@ -5055,6 +5343,24 @@ hub_fingerprint: 615f6dde44eac7c7ff2da6991bc61ed50d2c07b97acc3995a12f3e17b1c39de
 
 ---
 action:
+POSS | JobG8 | Staffordshire | Staffordshire | — | Senior Payroll Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2115687
+title: Senior Payroll Administrator
+employer: 
+location: Staffordshire
+region: Staffordshire
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 9e53a83986823610e48730567a60dfbf077839c1f0af64893d9ea952d49fe01d
+---
+
+---
+action:
 POSS | JobG8 | Suffolk | Suffolk | £30000 - £40000 per year (Excellent benefits) | Executive Assistant
 source_key: jobg8
 source: JobG8
@@ -5105,6 +5411,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 6638804d7e7f93bcc14bb74827630f339c77a7efc94731433d79265de61140be
+---
+
+---
+action:
+POSS | JobG8 | Surrey | Knaphill | £12.85 - £18.4 per hour (weekly pay) | Children's Support Worker
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225809111
+title: Children's Support Worker
+employer: 
+location: Knaphill
+region: Surrey
+salary: £12.85 - £18.4 per hour (weekly pay)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 6275063e07555bddb044436fd057a511b8a78cac7d3280f70a2dc7c4905d8ecc
 ---
 
 ---
@@ -5433,6 +5757,24 @@ hub_fingerprint: b28de0c69d681b8b34f7fafbd3474b88c11f10ecd37d0c16e26d753c6c2e71f
 
 ---
 action:
+POSS | JobG8 | Sussex | Brighton | £19966 - £20606 per year | Learning Support Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225798181
+title: Learning Support Assistant
+employer: 
+location: Brighton
+region: Sussex
+salary: £19966 - £20606 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 94c39e11151316d56d810f4e9e7c481db257a68c05eebdebfe2f7b95cf0f7db4
+---
+
+---
+action:
 POSS | JobG8 | Sussex | Brighton | £12.71 - £20 per hour | Support Worker Young People
 source_key: jobg8
 source: JobG8
@@ -5451,42 +5793,6 @@ hub_fingerprint: f61c352747cd6b05d424d27f166048452152187de7622954cddb7c0e1804a23
 
 ---
 action:
-POSS | JobG8 | Sussex | Burgess Hill | £13 - £18 per hour | Care Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225705742
-title: Care Assistant
-employer: 
-location: Burgess Hill
-region: Sussex
-salary: £13 - £18 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 28b56ae1688a546b0f71aa43b60a663d22e7980609cc1782852bd375e3e570be
----
-
----
-action:
-POSS | JobG8 | Sussex | Crawley | £13 - £18 per hour | Care Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225705688
-title: Care Assistant
-employer: 
-location: Crawley
-region: Sussex
-salary: £13 - £18 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 6370037fc72e183dc7668691f79b713793ca33fead1330dd43bb85bc914d1c24
----
-
----
-action:
 POSS | JobG8 | Sussex | East Grinstead | £13 - £18 per hour | Care Assistant
 source_key: jobg8
 source: JobG8
@@ -5501,24 +5807,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 485fd555b632d58a803021cf207ab3f2893004934fc54e19b2e2874cbf9f5300
----
-
----
-action:
-POSS | JobG8 | Sussex | Haywards Heath | £13 - £18 per hour | Care Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225705708
-title: Care Assistant
-employer: 
-location: Haywards Heath
-region: Sussex
-salary: £13 - £18 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 783982db8f7ee72e09b3cd66b42a4e3b85ce7ad51570eb415a770513ab124511
 ---
 
 ---
@@ -5573,42 +5861,6 @@ closing_date:
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £43,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: d789f9e00dce5d61ea7fab473c7ebd449163712fa6385e1d51f27d13cdfef33e
----
-
----
-action:
-POSS | JobG8 | Sussex | Sussex | £19966 - £20606 per year | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225798181
-title: Learning Support Assistant
-employer: 
-location: Sussex
-region: Sussex
-salary: £19966 - £20606 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: fd42a81729ab3411223591178007dc428b6cab4d6180e23ec48a034141be05a3
----
-
----
-action:
-POSS | JobG8 | Sussex | Sussex | £33000 - £38000 per year | Logistics Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225702897
-title: Logistics Coordinator
-employer: 
-location: Sussex
-region: Sussex
-salary: £33000 - £38000 per year
-closing_date: 
-reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £38,000 exceeds regional review point £37,000
-source_url: 
-hub_fingerprint: 7a00d6668f362e061713920f44ca6fdf239b77972dbeadeef56f86888e3a8726
 ---
 
 ---
@@ -5847,6 +6099,24 @@ hub_fingerprint: 91a86a9fa051e190ddfecac51f4201b4b61d4aa0f3bf25710df478997607ca8
 
 ---
 action:
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | — | Senior Bookkeeper
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2127679
+title: Senior Bookkeeper
+employer: 
+location: Warwickshire
+region: West Midlands - Coventry & Warwickshire
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 18415314bb21044011544b92ff733a78d4c96124fdd4a15505013f85cd61da0f
+---
+
+---
+action:
 POSS | JobG8 | Wiltshire | Salisbury | £92 - £100 per daily | Learning support assistant
 source_key: jobg8
 source: JobG8
@@ -5901,42 +6171,6 @@ hub_fingerprint: da7648da19dc13e2c4c5694f38de415aca40a9ea1c36843d6ad87b3ef2c981f
 
 ---
 action:
-POSS | JobG8 | Wiltshire | Wiltshire | £12.85 - £18.4 per hour (Holiday Pay) | Healthcare assistant - Warminster, Westbury, Trowbridge
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225701975
-title: Healthcare assistant - Warminster, Westbury, Trowbridge
-employer: 
-location: Wiltshire
-region: Wiltshire
-salary: £12.85 - £18.4 per hour (Holiday Pay)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 39c350b06a827ad7ff97e31412854623d9f20676f00c3f2091d043e41a7eb580
----
-
----
-action:
-POSS | JobG8 | Wiltshire | Wiltshire | £12.85 - £18.4 per hour (Holiday Pay) | Support worker - Warminster, Westbury, Trowbridge
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225701979
-title: Support worker - Warminster, Westbury, Trowbridge
-employer: 
-location: Wiltshire
-region: Wiltshire
-salary: £12.85 - £18.4 per hour (Holiday Pay)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: adc43583b2359562c11cd3ea488124166b7444a806f964d696d040bb2c6a490c
----
-
----
-action:
 POSS | JobG8 | Worcestershire | Worcestershire | Competitive | Finance Manager - part or full time
 source_key: jobg8
 source: JobG8
@@ -5969,6 +6203,24 @@ closing_date:
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: 5781daca04c4cf48bd95264aec6d24aed8bec535936bc8d1474ccc6ec7fa9d80
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - North | Scarborough | £40,000 per year | Value Stream Scheduler
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 108283303
+title: Value Stream Scheduler
+employer: 
+location: Scarborough
+region: Yorkshire - North
+salary: £40,000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: scheduler; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 4ec8b2650cd76bc8dd42c8e70ddf4df0f4bfff75c05031f6e7ba6c8a8ee98d61
 ---
 
 ---
@@ -6167,6 +6419,24 @@ closing_date:
 reason: possible manual_select candidate for review/swap
 source_url: 
 hub_fingerprint: 719b04379470165beba09b2305eb0cf6878d193e9cad2c0e571b7e1661c05298
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - West | Leeds | £41869 per year | Bus Service Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225807355
+title: Bus Service Coordinator
+employer: 
+location: Leeds
+region: Yorkshire - West
+salary: £41869 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: service coordinator; manual review required: annualised upper salary £41,869 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 044c95a54817886f31d5ff58307cfa16fe774b2e4d8720687474b28151c2df28
 ---
 
 ---
