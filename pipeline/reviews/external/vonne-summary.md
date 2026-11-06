@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-05
-review_fingerprint: 64929109b0617f428af41600152d184c2e11b9d736ed363c8f671b60d157de42
+review_date: 2026-11-06
+review_fingerprint: 15f49492c68175d9591e11ba9a881eee121d5090fe1d29be65aa1dae79e6ed3b
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-05T14:53:29+00:00
+Run generated: 2026-11-06T14:31:15+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1083
+JobG8 comparison rows: 1101
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -23,16 +23,16 @@ Approved NEJobs comparison rows: 0
 - Obvious hard passes not detail-fetched: 14
 - Tees Valley explicitly excluded: 1
 - Outside or unmapped geography excluded: 2
-- Generic/derived geography rows requiring review: 3
+- Generic/derived geography rows requiring review: 4
 - Retained target candidates: 12
 
 ## Outcomes
 - HC: 0
-- POSS: 4
-- HARD_PASS: 8
+- POSS: 5
+- HARD_PASS: 7
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 3
-- Manually excluded: 1
+- Final POSS awaiting decision: 5
+- Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -42,6 +42,19 @@ Approved NEJobs comparison rows: 0
 
 ## POSS — choose SELECT or EXCLUDE
 
+---
+action:
+POSS | North East | Hybrid | £31,076 Pro Rata | Counsellor
+employer: Eating Distress North East
+closing_date: 30 November 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173656
+vacancy_fingerprint: a664633734d9bbb21d95cb2d15c49387680c810f4de19b6a99d1b400f3d16a73
+source_job_id: 173656
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173656
+---
 ---
 action:
 POSS | North East | Home-based | £35,000 to 39,000 Per Annum | Embedded Outreach Officer
@@ -69,19 +82,6 @@ source_job_id: 173648
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173648
 ---
 ---
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Flexible | £29,503 Per Annum | Employment Support Advisor
-employer: North Tyneside Carers' Centre
-closing_date: 06 November 2026
-geography: DERIVED_REVIEW — employer-derived geography: geography phrase: north tyneside
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173582
-vacancy_fingerprint: f1178a0e4cbcd10bc69ae022e8d3d130365fd73b4ee5b71246c4d3c40fbcaae6
-source_job_id: 173582
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173582
----
----
 action:
 POSS | North East - Tyneside, Wearside & Northumberland | Newcastle | £ | Placement Programme Lead
 employer: Ouseburn Farm
@@ -94,6 +94,19 @@ vacancy_fingerprint: 7ee29874d4f22edbdc8893d2d53d81686b72663478fa934b4952a0fa91e
 source_job_id: 173650
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173650
 ---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Not stated |  | Treasurer
+employer: Sunderland Minster
+closing_date: 01 December 2026
+geography: DERIVED_REVIEW — employer-derived geography: area found in address: sunderland
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173661
+vacancy_fingerprint: 327f5e7dfcaa2e127f2d33d33df9cc3de8825a18e0544e3df0541865913e4b2f
+source_job_id: 173661
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173661
+---
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -101,7 +114,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173650
 ## HARD_PASS
 
 - [Cancer and Dementia Care Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173588) — out-of-scope VONNE occupation.
-- [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
 - [Family Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173625) — out-of-scope VONNE occupation.
 - [Grants Administration Officer (Small and Medium Grants)](https://www.vonne.org.uk/vonne-jobs-details?cid=173618) — insufficient service-admin evidence.
 - [Housing Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173636) — out-of-scope VONNE occupation.
