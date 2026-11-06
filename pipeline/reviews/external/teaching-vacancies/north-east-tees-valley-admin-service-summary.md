@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-11-05
-review_fingerprint: 6224f009e4e38bbd7e90a68e841e0430507ea9551d821f88f93982d670ba7e3c
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 1
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | North East - Tees Valley | Middlesbrough, North East, TS5 6QS | £25,185 - £25,583 pro rata (actual salary: £12,938 - £13,143) | Business Support Assistant
-employer: St Edward's Catholic Primary School
-closing_date: 2026-11-06T09:00:00+00:00
-reason: Clear admin/service title: business support assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 335d461e2123c36207307cad2c6289819d8f8e2bdeed21ca5fed5f9a881438f2
-source: Teaching Vacancies
-source_job_id: business-support-assistant-st-edward-s-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-st-edward-s-catholic-primary-school
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -46,8 +33,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assi
 
 ## HARD_PASS
 
-- [Admin and Reprographics Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-maternity-cover-outwood-academy-ormesby) — No usable numeric salary.
-- [PA to Head of School](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-huntcliff-school) — Excluded senior/management title.
+- [Senior Business Support Officer](https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-sacred-heart-catholic-secondary) — Excluded senior/management title.
 
 ## Safety boundary
 

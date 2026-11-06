@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-11-05
-review_fingerprint: 977f1297d48ed1eaeabfe3cd9847c08c02fc882e2cdc25403d27c3b931b8fa2c
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: a55a481c46d33482b90bb3dd68d27d7478c406e5e50f1902d9808d6ae84ba24b
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -64,21 +64,6 @@ factual_fingerprint: 04e75b8069582759e59df39560fc612eafe31f5a308f192548296b79955
 source: Teaching Vacancies
 source_job_id: school-administrator-reception-firwood-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-reception-firwood-high-school
----
-
----
-action: 
-SELECTED | Greater Manchester - Wigan & Bolton | Wigan, North West, WN3 6BL | £26,016.00 - £26,427.00 Annually (FTE) | School Office Administrative Assistant
-employer: Highfield St Matthew's Church of England Primary School
-closing_date: 2026-11-05T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f1186b551a7b826cfeaf65f958f41bd2bc2b4bcf67821dbbbe0ee6c2ffc432d9
-source: Teaching Vacancies
-source_job_id: school-office-administrative-assistant-highfield-st-matthew-s-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrative-assistant-highfield-st-matthew-s-church-of-england-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

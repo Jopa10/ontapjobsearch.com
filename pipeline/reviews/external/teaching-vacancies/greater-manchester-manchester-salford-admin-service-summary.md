@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-05
-review_fingerprint: 9d68767adf69125d0ccf2e94f0b8839ced0d1043d3cadcab6ce29a2a273e880b
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 9c7fb3c6daee01af236f09eb6c0744efbfb32b08088441ed2306f48c42ceec64
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,47 +13,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
-- POSS awaiting decision: 0
+- Records: 5
+- Selected: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2YS | Grade 3 - £26,427 - £26,847 | Administrative Assistant
-employer: Piper Hill High School
-closing_date: 2026-11-05T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6326069f79cf2264a41cf4d96c918490666158ab843b0ffb206a5f8b9827ead4
-source: Teaching Vacancies
-source_job_id: administrative-assistant-piper-hill-high-school-manchester
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-piper-hill-high-school-manchester
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M27 5TD | £26,001.00 Annually (FTE) Term Time Only plus 5 days | Administrative Assistant
-employer: The Deans Primary School
-closing_date: 2026-11-06T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ebf7b622e05ae9c1e40ae709ca0ed0c536ee67af80567a60cee8e1e3d6bd341b
-source: Teaching Vacancies
-source_job_id: administrative-assistant-the-deans-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-deans-primary-school
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M21 7SX | Grade 4 - £27,274 - £29,071 | Admin Officer
+employer: CHS South
+closing_date: 2026-11-19T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 790e5f68e24d8ab60156020d1b0495cf06a0169120aeb5225e42da6b6cc6395a
+source: Teaching Vacancies
+source_job_id: admin-officer-chs-south
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-chs-south
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -64,7 +49,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 - [Caretaker](https://teaching-vacancies.service.gov.uk/jobs/caretaker-william-hulme-s-grammar-school) — Out-of-scope occupation: caretaker.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Excluded senior/management title.
 - [Reprographics & Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administration-assistant-the-east-manchester-academy) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-s-rc-primary-school-a-voluntary-academy) — Excluded senior/management title.
 - [Trust HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-officer-greater-manchester-academies-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

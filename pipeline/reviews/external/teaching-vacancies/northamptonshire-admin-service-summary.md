@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-05
-review_fingerprint: dea6e36efa57d30050aaf42037221c049ee5b70799155ded807b9c8497f15850
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 4a72f1f7cdd2b2b02a22a046bf0cceae9b39e305437316dc73b1610dc26d8c35
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 6
-- POSS awaiting decision: 1
+- Selected: 8
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -49,6 +49,36 @@ factual_fingerprint: c7d796e965689c7986537bbc37634f2f54c86a796beeab45af43efe1acd
 source: Teaching Vacancies
 source_job_id: administration-assistant-bishop-stopford-school-kettering-northamptonshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bishop-stopford-school-kettering-northamptonshire
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Wellingborough, East Midlands, NN8 3HB | £16,624.20 - £16,889.23 Annually (FTE) Based on NJS Scale F6 - F7, FTE salary is £26,846 - £27,274 | Administrator
+employer: St Barnabas Church of England School
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7e00850851ca6bc614a6d87712453646014b973ffdb1ea99dfc4e5eb866b7a50
+source: Teaching Vacancies
+source_job_id: administrator-st-barnabas-church-of-england-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barnabas-church-of-england-school
+---
+
+---
+action: 
+SELECTED | Northamptonshire | WELLINGBOROUGH, East Midlands, NN8 2AX | £25,614.00 - £26,016.00 Annually (FTE) Actual Salary is £13,845 per year | Administrator/Receptionist
+employer: Croyland Nursery School & Day Nursery
+closing_date: 2026-11-19T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b690818d8af433c46a2ffc8a1de58153573f033d6dabd3b5530bf3e2372bf406
+source: Teaching Vacancies
+source_job_id: administrator-receptionist-croyland-nursery-school-day-nursery
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-croyland-nursery-school-day-nursery
 ---
 
 ---
@@ -113,20 +143,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Northamptonshire | Wellingborough, East Midlands, NN8 3HB | £16,624.20 - £16,889.23 Annually (FTE) Based on NJS Scale F6 - F7, FTE salary is £26,846 - £27,274 | Administrator
-employer: St Barnabas Church of England School
-closing_date: 2026-11-06T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b6236251c2827a120b5ae6760dc472ebbed1fa16ba7643b9843309e1628faa6e
-source: Teaching Vacancies
-source_job_id: administrator-st-barnabas-church-of-england-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barnabas-church-of-england-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -136,10 +153,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barn
 
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-0ddbb56c-5635-4a81-8fed-8aa32c472a35) — Insufficient admin/service evidence.
 - [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant-greenfields-specialist-school-for-communication-northampton-northamptonshire) — Insufficient admin/service evidence.
-- [Northampton Business Partner](https://teaching-vacancies.service.gov.uk/jobs/northampton-business-partner-the-abbey-primary-school) — Insufficient admin/service evidence.
+- [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.
 - [Office Manager / PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-the-headteacher-moulton-school-and-science-college) — Excluded senior/management title.
 - [Part time TLT HR Manager](https://teaching-vacancies.service.gov.uk/jobs/part-time-tlt-hr-manager) — Excluded senior/management title.
-- [Reprographics and Resource Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-resource-assistant-maternity-cover) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

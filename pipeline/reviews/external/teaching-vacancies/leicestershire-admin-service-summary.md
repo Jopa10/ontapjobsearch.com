@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-11-05
-review_fingerprint: 80cc932787211fc0faea7a8ac62f874645b2384bc6f7e59148a94237478d1b51
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: ce5d2ae9101241cb52e5c699baa03c27cc3ca40fb9426cb706f3ccbbba9fe45a
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
-- POSS awaiting decision: 0
+- Records: 9
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -51,13 +51,15 @@ source_job_id: administrative-assistant-st-joseph-s-catholic-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-joseph-s-catholic-academy
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
 action: 
-SELECTED | Leicestershire | Loughborough, East Midlands, LE11 3BT | £26,988 Per Annum | Recruitment Administrator
+POSS | Leicestershire | Loughborough, East Midlands, LE11 3BT | £26,988 Per Annum | Recruitment Administrator
 employer: Loughborough College
 closing_date: 2026-11-18T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: dbb34900ace41e0bfc5952465dd0895561724c1f315d5ca0a2ef1d0d8198f185
@@ -65,10 +67,6 @@ source: Teaching Vacancies
 source_job_id: recruitment-administrator-loughborough-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administrator-loughborough-college
 ---
-
-## POSS — choose SELECT or EXCLUDE
-
-- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -78,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administr
 
 - [Career & Work Experience Lead and DSL (KEY099BC)](https://teaching-vacancies.service.gov.uk/jobs/career-work-experience-lead-and-dsl-key099bc) — Excluded senior/management title.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Excluded senior/management title.
-- [Junior People Business Partner](https://teaching-vacancies.service.gov.uk/jobs/junior-people-business-partner) — Insufficient admin/service evidence.
 - [Office Manager (FAR137BC)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-far137bc) — Excluded senior/management title.
 - [Payroll and Pensions Manager](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-manager-learn-academies-trust) — Excluded senior/management title.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-desford-community-primary-school) — Excluded senior/management title.

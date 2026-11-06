@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-11-05
-review_fingerprint: 0ccbfc5823a88fbb6c90beba5d33894e51bb95e7dd1ac57800f5c75080700ab9
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 89e31b0f09e5481839dd71d4dd247f96827764edc02283b6da6303da8f506e1e
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 1
+- Records: 4
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
 
----
-action: 
-SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE15 9RT | £26,847.00 - £27,274.00 Annually (FTE) Actual salary: Grade 4 (SCP 6-7) £23,313 - £23,684 per annum | Administrative Assistant
-employer: Paulet High School
-closing_date: 2026-11-06T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 845f76cdb40abbddc87e65cd127bc7ae5c2525550974886308a4111d09af017c
-source: Teaching Vacancies
-source_job_id: administrative-assistant-paulet-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-paulet-high-school
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

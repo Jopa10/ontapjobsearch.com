@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-11-05
-review_fingerprint: 4627de1184c7aeec6a911e859f5cfed2fd163f41b7b4edddfb7219c92e9f8a7e
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 1a2318cea76ff6d82b21bb9ec4c3606a0faf5a235a6642bf8d768aea0b91438d
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Shropshire | Bridgnorth, West Midlands, WV16 4ER | £25,890.00 Annually (Actual) Grade 7 Point 12–17 | Admin, Finance & Admissions Officer
-employer: Bridgnorth Endowed School
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Clear admin/service title: admissions officer
+SELECTED | Shropshire | Whitchurch, West Midlands, SY13 1RX | £29,542.00 - £32,046.00 Annually (FTE) (additional hours/pay for Health and Safety Aspects of the role) | Administration and Finance Officer - Level 6
+employer: Whitchurch CofE Junior Academy
+closing_date: 2026-11-20T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0e9eeb1440324d65647daec319f4c379ab247e49f37555c18361936baa131df0
+factual_fingerprint: c85946e0479545b31ad3be5d66cf73929a96a2c32897536761cfa75b8bc027a9
 source: Teaching Vacancies
-source_job_id: admin-finance-admissions-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-admissions-officer
+source_job_id: administration-and-finance-officer-level-6-whitchurch-cofe-junior-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-officer-level-6-whitchurch-cofe-junior-academy
 ---
 
 ---
@@ -49,6 +49,21 @@ factual_fingerprint: 7f0f84e1db0f736c9d85914ddedd5a05aa1a985e30defcdb794c24128a0
 source: Teaching Vacancies
 source_job_id: administrative-assistant-radbrook-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-radbrook-primary-school
+---
+
+---
+action: 
+SELECTED | Shropshire | Wellington, South West, TA21 8SW | NJC Grade 14, Point 4 (£26,016 FTE) | School Administrator - Maternity Cover
+employer: Court Fields School
+closing_date: 2026-11-20T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ccebc9e24236ee0ddd0f96d712f49225547ace276c222184b3687f7ba8f3681e
+source: Teaching Vacancies
+source_job_id: school-administrator-maternity-cover-court-fields-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-maternity-cover-court-fields-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

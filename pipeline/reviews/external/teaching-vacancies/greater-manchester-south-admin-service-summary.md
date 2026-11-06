@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-11-05
-review_fingerprint: 420c2adec4777cbe001917d63d6083b73837694b2b7e0ddad87798b170151698
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 159315a616b2dcda394b2a661c805a2c139f1f7371261df44599d1c6e4517994
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,24 +13,24 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Greater Manchester - South | Altrincham, WA15 8QW | £28,598.00 - £31,022.00 Annually (FTE) | Trust Finance Officer
+SELECTED | Greater Manchester - South | Altrincham, WA15 8QW | £25,410.00 - £27,564.00 Annually (Actual) | Trust Finance Officer
 employer: Achieve And Learn Trust
 closing_date: 2026-11-20T12:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2e77b1c7b5673ddd2f2c79771502c189dfe94befa7773b0bd82dfecb1c161a20
+factual_fingerprint: 32c8829eaa2457904869865ba13cdb8f9ad926528eb71de2434de319db29664a
 source: Teaching Vacancies
 source_job_id: trust-finance-officer-achieve-and-learn-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-achieve-and-learn-trust
@@ -59,6 +59,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-elis
 
 ## HARD_PASS
 
+- [Deputy Chief Executive Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-achieve-and-learn-trust) — Excluded senior/management title.
 - [Librarian and Study Centre Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/librarian-and-study-centre-co-ordinator) — Insufficient admin/service evidence.
 - [School Receptionist](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-alder-community-high-school) — No usable numeric salary.
 

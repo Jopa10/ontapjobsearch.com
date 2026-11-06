@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-11-05
+review_date: 2026-11-06
 review_fingerprint: 6e00758861227b6817c1f5d9c75e9ed18c275b6bc2f341403ff41d3bc874dd10
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assi
 
 ## HARD_PASS
 
-- None.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-finch-woods-academy) — Excluded senior/management title.
 
 ## Safety boundary
 

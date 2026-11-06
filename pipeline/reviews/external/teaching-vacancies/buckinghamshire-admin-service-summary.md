@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-05
-review_fingerprint: edfecc12cb0311cda3ec5487cd14d2446940f1dad36d611b15924f5cd054704f
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: d1580eb163e07a6f489726c5884b24c7f23684a3826c8cacc158170e4f4c02b8
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
-- POSS awaiting decision: 3
+- Records: 9
+- Selected: 2
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 2
 
@@ -51,21 +51,6 @@ source_job_id: receptionist-stephenson-academy-milton-keynes-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stephenson-academy-milton-keynes-buckinghamshire
 ---
 
----
-action: 
-SELECTED | Buckinghamshire | Aylesbury, HP22 6NL | £29,114.00 - £31,230.00 Annually (FTE) Actual salary for hours worked will be £24,690.91 to £26,485.44 | School Administrator
-employer: Chiltern Way Academy Trust
-closing_date: 2026-11-05T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e73b30abf3629fd14a6fb762760b4cd87be307e57332acdd15ab726b236af5de
-source: Teaching Vacancies
-source_job_id: school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -96,6 +81,36 @@ factual_fingerprint: 24e1990decdc59db0b8ed7a4093ad7e990da13d437b3752a22fb1d6be34
 source: Teaching Vacancies
 source_job_id: receptionist-alfriston-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-alfriston-school
+---
+
+---
+action: 
+POSS | Buckinghamshire | Aylesbury, South East, HP20 1DP | £19,870-£20,660 per annum (FTE £24,836 to £25,823) | Receptionist
+employer: Stocklake Park Community School
+closing_date: 2026-11-20T23:59:59+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8daaaa61a719667c10007ba472efa25f8b2557ffd41e16094d3cdc362d2ae064
+source: Teaching Vacancies
+source_job_id: receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
+---
+
+---
+action: 
+POSS | Buckinghamshire | Newport Pagnell, South East, MK16 0BJ | £23,745.79 - £25,316.62 Annually (Actual) NJC SCP 8-12 | Receptionist
+employer: E-Act Ousedale School
+closing_date: 2026-11-11T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 66e38c20c23850f8e0e5a2ff2086d2ebc74e6d8b7e629d0fa38c8a6b7caecb6b
+source: Teaching Vacancies
+source_job_id: receptionist-e-act-ousedale-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-e-act-ousedale-school
 ---
 
 ---

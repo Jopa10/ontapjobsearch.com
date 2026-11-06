@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-05
-review_fingerprint: 6a8a35440f10afa29a15f50d60b46eafde3d583240efc6824d287f3fc4d7beb4
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: e33040e9821ba46393180d463b28c7ed657a7c7e7ec22d4b821c2cde35210999
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 7
+- Records: 10
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
@@ -34,36 +34,6 @@ factual_fingerprint: 34af91b3509c7f77fe4fbfa124b7802f7171e1a094363e91e8e1ac417e4
 source: Teaching Vacancies
 source_job_id: administrative-assistant-windrush-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-windrush-church-of-england-primary-school
----
-
----
-action: 
-SELECTED | Oxfordshire | Abingdon, South East, OX14 2AW | Grade 6 Point 8, £27,710 pro rata | Administrator and Finance Assistant
-employer: Rush Common School
-closing_date: 2026-11-13T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0a52522451ee0d8db77f587df823bb34de409d083080ad0eb25cdf60e1e52b33
-source: Teaching Vacancies
-source_job_id: administrator-and-finance-assistant-rush-common-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-finance-assistant-rush-common-school
----
-
----
-action: 
-SELECTED | Oxfordshire | Didcot, South East, OX11 6FF | GLF Specialist 1 £28,009 (actual £25,099) | Attendance Officer
-employer: Aureus School
-closing_date: 2026-11-06T09:30:59+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1cfc2107476a2642ba221338d74a6db9f04be5596ba04282931f779a4d01217b
-source: Teaching Vacancies
-source_job_id: attendance-officer-d54c1efe-4fd8-4cc4-a0a6-62106b181556
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-d54c1efe-4fd8-4cc4-a0a6-62106b181556
 ---
 
 ---

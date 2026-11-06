@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-05
-review_fingerprint: cb0c6c079421b8f6f177ff18730938b475a4efc6faab3d20d7c71146b79615b0
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 61b278f9dd75142a83c4ccd097fc93c069ef4cd6159453b67e90a4f88ac65040
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 2
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 7
 
 ## SELECTED
 
@@ -51,21 +51,36 @@ source_job_id: attendance-admin-assistant-3eb72589-09a8-45cd-a3b2-637d65a99a60
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-assistant-3eb72589-09a8-45cd-a3b2-637d65a99a60
 ---
 
+---
+action: 
+SELECTED | Staffordshire | Cannock, West Midlands, WS11 4AW | £25,615.00 Annually (Actual) Term Time plus Inset | Clerical Assistant/Receptionist
+employer: Cardinal Griffin Catholic College
+closing_date: 2026-11-13T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ff6b3085050b4746a70cc066801b8e6daaa23a43ec4d1c7512a42d105dc34d13
+source: Teaching Vacancies
+source_job_id: clerical-assistant-receptionist-df868f65-c6ce-4a35-82cd-7dee4b93fd41
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-receptionist-df868f65-c6ce-4a35-82cd-7dee4b93fd41
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Staffordshire | Cannock, West Midlands, WS11 4AW | £25,615.00 - Term time plus inset (actual salary paid pro rata). | Administrative Assistant
-employer: Cardinal Griffin Catholic College
-closing_date: 2026-11-06T08:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+POSS | Staffordshire | Tamworth, West Midlands, B77 2HJ | £15,433.44 - £24,521.29 Annually (FTE) National Minimum Wage (Y1 rate then Y2 age-related). | Apprentice Administration Assistant
+employer: Two Rivers High School
+closing_date: 2026-11-13T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: cf9c278fad03317f53b31d807a936355a2134cf06d8d8fb4cf71de4be8c53b3e
+factual_fingerprint: 539c1cddf26ca77063769ba18c72f348bb5e2782569d962309216a694dfed138
 source: Teaching Vacancies
-source_job_id: administrative-assistant-cardinal-griffin-catholic-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cardinal-griffin-catholic-college
+source_job_id: apprentice-administration-assistant-two-rivers-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administration-assistant-two-rivers-high-school
 ---
 
 ## EXCLUDED BY REVIEW
@@ -75,10 +90,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ## HARD_PASS
 
 - [Chief Finance & Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-operations-officer-john-taylor-mat) — Excluded senior/management title.
-- [Clerical assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-314411d3-39d1-4f06-bb14-44afa0d93c61) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-tynsel-parkes-cofe-primary-academy) — No usable numeric salary.
 - [Contracts Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-manager-the-shaw-education-trust) — Excluded senior/management title.
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-500086d6-4b3c-4af3-bafb-bbb622675f91) — Insufficient admin/service evidence.
 - [Human Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-community-academies-trust-tamworth-not-recorded) — Excluded senior/management title.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-a6176fdf-9fd1-40a5-9965-09d03373dad8) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-manor-hall-academy-trust-stoke-on-trent-not-recorded) — Insufficient admin/service evidence.

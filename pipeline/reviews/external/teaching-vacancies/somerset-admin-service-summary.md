@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-05
-review_fingerprint: 5bd148b6da360e5eb544bfd7d760556276ae0e267d5c407258fe3f85c872eef9
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 6561c0b7d12dee3b451a7a6faeb5f940e72a797b67f5c5610287b13dc133680d
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
-- POSS awaiting decision: 0
+- Records: 8
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
@@ -53,6 +53,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Somerset | Crewkerne, South West, TA18 7NT | Grade 14 Pt.4 –6 – £18,062-£18,639 | Attendance Officer
+employer: Wadham School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fd312abfd9f7dcb044f5c0afd5ffb73312c4fb5d169d478c3fb79380a61fe9c3
+source: Teaching Vacancies
+source_job_id: attendance-officer-986124b8-cd3d-4ad3-a350-f07672d96f8e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-986124b8-cd3d-4ad3-a350-f07672d96f8e
+---
+
+---
+action: 
+SELECTED | Somerset | Crewkerne, South West, TA18 7NT | £18,062-£18,639 | Attendance Officer
+employer: Wadham School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0d604bb710fb4f6bc1e749afece59977051197739bb633fa226f72dcbd3b5337
+source: Teaching Vacancies
+source_job_id: attendance-officer-f1249860-fec2-4640-bf2b-6bc845063a98
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-f1249860-fec2-4640-bf2b-6bc845063a98
+---
+
+---
+action: 
 SELECTED | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
 employer: Writhlington School
 closing_date: 2026-12-07T23:59:59+00:00
@@ -68,7 +98,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Somerset | Wells, South West, BA5 1TS | Salary Scale Grade 12 (point 12-19) £29,542 - £33,119 FTE. (Actual starting salary based on 37 hours per week, Term-time only + 1 week £25,635 - £28,739 pa) | Operations Officer
+employer: St Cuthbert's Church of England Junior School
+closing_date: 2026-11-16T08:00:00+00:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1d3821f7ac2843bde3f95a136d80c60c0139168960b85d5326d7ddb080b3e8c9
+source: Teaching Vacancies
+source_job_id: operations-officer-st-cuthbert-s-church-of-england-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-st-cuthbert-s-church-of-england-junior-school
+---
 
 ## EXCLUDED BY REVIEW
 

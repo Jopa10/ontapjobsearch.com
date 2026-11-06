@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-05
-review_fingerprint: 0c68b03c5661a82ccb9440e7e8c6eaee89686cd62a853eeea8240e8526bf828f
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 53d43cf0685371700334b4a7a9a5aed5af87a9343af9a9f6f2fb30774c02e88e
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 4
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Bedfordshire | Leighton Buzzard, East of England, LU7 2UA | £26,428.00 - £29,070.00 Annually (FTE) Pro-rata | Office & Community Administrator
-employer: Southcott Lower School
-closing_date: 2026-11-05T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 95c2bab11db0b393eb77658d18194c12e0d49c492cc3d909e7fd14a58654ab8b
-source: Teaching Vacancies
-source_job_id: office-community-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-community-administrator
----
 
 ---
 action: 
@@ -91,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assista
 
 ## HARD_PASS
 
+- [Business, Operations, HR & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-hr-compliance-manager-southcott-lower-school) — Excluded senior/management title.
 - [Data Manager and Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-and-examinations-officer-wixams-academy) — Excluded senior/management title.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Excluded senior/management title.
 - [HR Administrator](https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-b9b57f9f-0fa2-4d88-9315-2815357b0303) — No usable numeric salary.

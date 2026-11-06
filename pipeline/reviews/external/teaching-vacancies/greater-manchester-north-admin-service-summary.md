@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-05
+review_date: 2026-11-06
 review_fingerprint: b989b20b48ca2b7bddbc80a997ee8abf9fccd5fe91de1913322efac938985f84
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -91,8 +91,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-oulder-h
 
 ## HARD_PASS
 
-- [Administration Apprentice based at Ram Mill Business Centre, Oldham](https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-based-at-ram-mill-business-centre-oldham) — No usable numeric salary.
 - [Governance and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-officer-newhouse-academy) — No usable numeric salary.
+- [Governance Clerk - Casual](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-casual) — Insufficient admin/service evidence.
 - [Grade 2 Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/grade-2-administration-officer) — Insufficient admin/service evidence.
 - [Head of Human Resources](https://teaching-vacancies.service.gov.uk/jobs/head-of-human-resources-st-teresa-of-calcutta-catholic-academy-trust) — Excluded senior/management title.
 - [SEND & Transition Administrator](https://teaching-vacancies.service.gov.uk/jobs/send-transition-administrator) — No usable numeric salary.

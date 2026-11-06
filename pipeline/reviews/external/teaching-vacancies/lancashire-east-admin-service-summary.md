@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-05
-review_fingerprint: 607d8c45d15393c68d3dcfb0e1c3dd24ec28ed355aaf505f4de7a1c28e3103f9
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 724da64ecf05670aedbaa78e2eddb68dfec07099496dab3a5f8a2a2964f68bfe
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Lancashire - East | Colne, North West, BB8 9AR | £12,396.00 - £12,793.00 Annually (Actual) Term time plus training days | Administration Assistant
+employer: Colne Lord Street School
+closing_date: 2026-11-30T10:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5694f2e57354e612200099eb27ba8c09a956db3a85051bac43542d159112eac8
+source: Teaching Vacancies
+source_job_id: administration-assistant-2502aab8-e8d9-449d-be81-1e8bd0465199
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-2502aab8-e8d9-449d-be81-1e8bd0465199
+---
 
 ---
 action: 
@@ -49,6 +64,36 @@ factual_fingerprint: 6811fb350d3536707edd034e76f02916a57642a0ba636bfcb679181d1e9
 source: Teaching Vacancies
 source_job_id: business-support-officer-reception-accrington-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-reception-accrington-academy
+---
+
+---
+action: 
+SELECTED | Lancashire - East | Blackburn, North West, BB2 2JR | £26,427 - £28,153 pro rata, Actual salary £23,865 - £25,424 | Office and Admissions Administrator
+employer: St Wilfrid's Church of England Academy
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 405e79018bf049a271a3d61aee50992fe60b8fc3eaa5090a89e3976681cc7ec6
+source: Teaching Vacancies
+source_job_id: office-and-admissions-administrator-st-wilfrid-s-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-and-admissions-administrator-st-wilfrid-s-church-of-england-academy
+---
+
+---
+action: 
+SELECTED | Lancashire - East | Blackburn, North West, BB2 2JR | £26,427 - £28,153 pro rata, Actual salary £23,595 - £25,136 | Receptionist
+employer: St Wilfrid's Church of England Academy
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 05a6fc472d7d07423215b2f602af627df32ac5f6c80d0562d009dcbf7632212b
+source: Teaching Vacancies
+source_job_id: receptionist-st-wilfrid-s-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-wilfrid-s-church-of-england-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

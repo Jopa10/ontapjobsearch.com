@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-05
-review_fingerprint: d60d900fd8cdbeb30486ba7cc3a269a8b3e3de3a31dc7f31832a06c7ad115453
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 4206d8bf040903c9b42b0ba8282bc3d748883bb118f1d56643222c6c8c2b1b56
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 18
 - Selected: 6
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB23 7RE | £11,977.00 Annually (Actual) | Administration Assistant
-employer: Hardwick and Cambourne Community Primary School
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 254c295a8e854dfc9bf5b8495c6c80a86cf361513434d550b3cd3396593a8b4b
-source: Teaching Vacancies
-source_job_id: administration-assistant-hardwick-and-cambourne-community-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hardwick-and-cambourne-community-primary-school
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, PE3 6SB | £25,000.00 - £30,000.00 Annually (FTE) | Admissions Administrator
-employer: United Learning Trust
-closing_date: 2026-11-05T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 487590fc46ed15e0edcd739ef79c38a9f5f072805143f6bc57968ebd91ae0c71
-source: Teaching Vacancies
-source_job_id: admissions-administrator-united-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-administrator-united-learning-trust
----
 
 ---
 action: 
@@ -68,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-administ
 
 ---
 action: 
+SELECTED | Cambridgeshire | St Neots, East of England, PE19 1LQ | £32,578.00 - £34,812.00 Annually (FTE) Term time plus 3 weeks. Pro rata salary £30,003 - £32,061 | Exams Officer
+employer: Longsands Academy
+closing_date: 2026-11-17T23:59:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3a8b18c335532d4048d8866455396ef6c4e2ae41518b564a5ec2fa60dbdcdcca
+source: Teaching Vacancies
+source_job_id: exams-officer-0090e197-43a7-49b5-bc39-6bf97e0f4827
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-0090e197-43a7-49b5-bc39-6bf97e0f4827
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | St. Neots, East of England, PE19 2SH | £32,578.00 - £34,812.00 Annually (FTE) Pro rata salary - £30,003 - £32,061 | Exams Officer
 employer: Ernulf Academy
 closing_date: 2026-11-15T23:59:00+00:00
@@ -79,6 +64,21 @@ factual_fingerprint: fe6568984db8a83a349992b7f0365bc8eab37c613f221ee4dcebcedd48d
 source: Teaching Vacancies
 source_job_id: exams-officer-b0378906-8f31-44c2-ae4e-74994a5303b2
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-b0378906-8f31-44c2-ae4e-74994a5303b2
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Huntingdon, PE28 5TQ | £27,320.67 - £30,628.71 Annually (Actual) There is the flexibility for part-time hours and/or more weeks worked | Finance Officer
+employer: Meridian Trust
+closing_date: 2026-11-20T08:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f96a359ee63a04c9074e39e71e215aac02e0c92de60ed1039c367489dbb5668d
+source: Teaching Vacancies
+source_job_id: finance-officer-meridian-trust-huntingdon-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-meridian-trust-huntingdon-not-recorded
 ---
 
 ---
@@ -165,7 +165,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 ## HARD_PASS
 
 - [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-cambridge-maths-school) — No usable numeric salary.
-- [Administration Assistant & Play Worker](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-play-worker) — No usable numeric salary.
 - [Alternative Provision Coordinator](https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-coordinator-ormiston-bushfield-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.
 - [Cleaner](https://teaching-vacancies.service.gov.uk/jobs/cleaner-34934dbc-6989-4466-8253-34da9a9f27cb) — Out-of-scope occupation: cleaner.
 - [Finance / HR manager](https://teaching-vacancies.service.gov.uk/jobs/finance-hr-manager-queen-s-drive-infant-school-peterborough-cambridgeshire) — Excluded senior/management title.

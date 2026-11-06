@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-05
-review_fingerprint: 5ff818c5961f10b793e3ae3e86faa38877c0974b09c03aa9969a3efac6959d35
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: d4da16e828ed13cc831c6e37016a432a238f00adfb180784f53343858f686259
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 6
-- POSS awaiting decision: 1
+- Records: 18
+- Selected: 7
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B92 7RR | £18,058.00 Annually (Actual) Starting band 2, point 5 | Administrative Assistant/Receptionist
-employer: St Margaret's Church of England Primary School
-closing_date: 2026-11-06T10:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3263133a5339352ba98373b65ba78d46d594c2ae7b184b876e8ad886a1274f15
-source: Teaching Vacancies
-source_job_id: administrative-assistant-receptionist-st-margaret-s-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-st-margaret-s-church-of-england-primary-school
----
 
 ---
 action: 
@@ -49,6 +34,21 @@ factual_fingerprint: eb0ef444085858420329d7357598898bdbc1608898d0d67a3242d506b15
 source: Teaching Vacancies
 source_job_id: administrator-receptionist-afc2cbbf-f4cb-42a6-8c94-97d0fc3a0b28
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-afc2cbbf-f4cb-42a6-8c94-97d0fc3a0b28
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 9EL | £23,460.00 - £25,004.00 Annually (Actual) Term Time Only + 5 inset days | Admissions Officer
+employer: Waseley Hills High School
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f6d74bbe652c2c7a139ae86c7685aa70b22dcd0827c3bb53e887153453a5a6bf
+source: Teaching Vacancies
+source_job_id: admissions-officer-waseley-hills-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-waseley-hills-high-school
 ---
 
 ---
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-re
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B24 8RE | actual salary £24729-£25949 (Term Time Only) | Cover Administrator
-employer: Erdington Academy
-closing_date: 2026-11-06T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6c1af6536533385a4a33b726730c5342b08bf08c415394712103d65db997aaa7
-source: Teaching Vacancies
-source_job_id: cover-administrator-erdington-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-erdington-academy
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B24 8BL | Grade 2 - £25,614 - £27,709 FTE (£17,916.34 - £19,381.74 Actual) | Grade 2 Administrative Assistant
 employer: Queensbury School
 closing_date: 2026-11-09T23:59:00+00:00
@@ -111,7 +96,67 @@ source_job_id: grade-2-administrative-assistant-queensbury-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/grade-2-administrative-assistant-queensbury-school
 ---
 
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B6 6DJ | Specific hours and salary to be discussed at interview - salary to be paid at NJC 4 Example salaries: 15 hours +2 days during holidays – actual salary £9,472.94 per annum 20 hours +2 days during holidays – actual salary £12,630.59 per annum | Receptionist/Admin Assistant
+employer: King Edward VI Aston School
+closing_date: 2026-11-18T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ab89aba4f1ae06917f04d95ee48708a7ddcbf1a45f5ebca7881b46ae271cf703
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-king-edward-vi-aston-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-king-edward-vi-aston-school
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B42 2TU | £24,723.00 - £31,271.00 Annually (Actual) | SEND Administrator
+employer: Prince Albert High School
+closing_date: 2026-11-20T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2acddf68090f590a31fdb290deb523752e6620fd5a5b0e10315dd1c3d9dc678f
+source: Teaching Vacancies
+source_job_id: send-administrator-prince-albert-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-prince-albert-high-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B6 4PZ | £25,614.00 - £27,709.00 Annually (FTE) £21,479 to £23,452 (Actual) | Office Administrator
+employer: Aston Manor Academy
+closing_date: 2026-11-20T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0988cb8052b7aeb5f80a4bfcc1571250981fc866d176b737c2b881da02c25bb0
+source: Teaching Vacancies
+source_job_id: office-administrator-aston-manor-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-aston-manor-academy
+---
+
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B6 5UQ | £25,614.00 Annually (FTE) NJC SCP 3-6, REAch2 Ts&Cs, FTE 37 hours per week, 38 TTO plus INSET days , Working 39 weeks . Actual salary £4,465.24 p.a | Office Administrator
+employer: Manor Park Primary Academy
+closing_date: 2026-11-20T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 85785f7dc86bb79a50aa58e3be730c225adb1956d7e6c9de6facefe792696a3b
+source: Teaching Vacancies
+source_job_id: office-administrator-manor-park-primary-academy-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-manor-park-primary-academy-birmingham-west-midlands
+---
 
 ---
 action: 
@@ -137,6 +182,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-thrive-education-partnership) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-moseley-school-and-sixth-form-birmingham-west-midlands) — Excluded senior/management title.
 - [Head of Talent and Workforce Planning](https://teaching-vacancies.service.gov.uk/jobs/head-of-talent-and-workforce-planning) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-heights-academy-solihull) — Excluded senior/management title.
 - [Recruitment & Compliance Lead and Executive Assistant to the Principal](https://teaching-vacancies.service.gov.uk/jobs/recruitment-compliance-lead-and-executive-assistant-to-the-principal) — Out-of-scope occupation: principal.
 - [SENIOR ACADEMY ADMINISTRATOR](https://teaching-vacancies.service.gov.uk/jobs/senior-academy-administrator-heathlands-primary-academy) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fairway-primary-academy-birmingham-west-midlands) — Excluded senior/management title.

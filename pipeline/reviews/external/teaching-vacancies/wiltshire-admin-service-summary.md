@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-05
-review_fingerprint: 7fb5161821e3d0167429852811772813bbf5cbc267f7740e44c6ef03ed48dcc8
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 60127944274a62a07ee70227eeb65b144b9da7e7a06d0363ed983c542fdd2935
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 15
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Wiltshire | Swindon, South West, SN3 1ER | £26,847.00 - £27,709.00 Annually (FTE) | Administrator to SLT and Student Support Team
+employer: Lawn Manor Academy
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e579046f02cda603dca05fed8d0ebdaeed961074296491b28340c741038cc503
+source: Teaching Vacancies
+source_job_id: administrator-to-slt-and-student-support-team-lawn-manor-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-to-slt-and-student-support-team-lawn-manor-academy
+---
+
+---
+action: 
 SELECTED | Wiltshire | Salisbury, South West, SP1 3JJ | NJC Scale 3 (points 5-6) £26,428 - £26,846 FTE (Actual starting salary £22,732) | Attendance Officer
 employer: South Wilts Grammar School
 closing_date: 2026-11-09T09:00:00+00:00
@@ -79,6 +94,21 @@ factual_fingerprint: 69c4da1dcda680e53159944181315c414af766393be4178ed090503b69b
 source: Teaching Vacancies
 source_job_id: pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
+---
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, South West, SN3 1ER | £26,016.00 - £26,847.00 Annually (FTE) | Receptionist
+employer: Lawn Manor Academy
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 41e7055445fc22dc1263f823430cf907ecb67f682fdb3d43173b621d1cb5342e
+source: Teaching Vacancies
+source_job_id: receptionist-b98224b7-a1ba-49ae-9f5c-75b343e4fc3a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-b98224b7-a1ba-49ae-9f5c-75b343e4fc3a
 ---
 
 ---

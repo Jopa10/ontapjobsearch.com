@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-05
-review_fingerprint: 7bab8ab1153b71d5fe59635d4a1a0fb3e41bdfd96eae2bd126cd5b5ae76ebdc8
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 314271c640313a24ca15a90df3fe5cefdced0c4dc86ab410e44bf00c3f87c103
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 57
 - Selected: 7
-- POSS awaiting decision: 14
+- POSS awaiting decision: 18
 - Excluded: 0
-- Hard pass: 36
+- Hard pass: 32
 
 ## SELECTED
 
@@ -190,6 +190,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+POSS | London | London, London, SW14 8HY | £15,432.54 Annually (Actual) | Administrator
+employer: Thomson House School
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6387b67f104b35ca755d4e8ea823623a9b0f64fbfbbf45a79613b45b062931cf
+source: Teaching Vacancies
+source_job_id: administrator-thomson-house-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-thomson-house-school
+---
+
+---
+action: 
 POSS | London | London, London, NW7 2EP | SCP 15 £29,291 to SCP 18 £30,612 | Attendance Officer
 employer: Copthall School
 closing_date: 2026-11-23T12:00:00+00:00
@@ -201,6 +216,36 @@ factual_fingerprint: f268b7bcc2f67b9ec641eb09ddbf29ddabe1ddcfba921663534ba1627d5
 source: Teaching Vacancies
 source_job_id: attendance-officer-copthall-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-copthall-school
+---
+
+---
+action: 
+POSS | London | London, London, W2 1QZ | £30,239.00 Annually (FTE) | Business Support Officer
+employer: Marylebone Academy
+closing_date: 2026-11-10T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 73db8c064a0b64c154f46f41462597b4d1d54b0e30bfae9a0332b5f72fab8e86
+source: Teaching Vacancies
+source_job_id: business-support-officer-marylebone-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-marylebone-academy
+---
+
+---
+action: 
+POSS | London | London, London, SE4 1LE | Actual Salary: £22,189 - £22,866 | Data Officer
+employer: Prendergast School
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bd545e9625634d481e60757b3431c1a90ae7ceaba5018e2d3bf685811eda80d5
+source: Teaching Vacancies
+source_job_id: data-officer-prendergast-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-prendergast-school
 ---
 
 ---
@@ -280,6 +325,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-hr-ad
 
 ---
 action: 
+POSS | London | Orpington, London, BR5 3HS | £27,262 - £29,990 | Resources Administrator
+employer: Riverside School
+closing_date: 2026-11-13T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b4dc7c083fed480fb34f6b07833341b25a542e38ee7678c6a9dc50afd29fc410
+source: Teaching Vacancies
+source_job_id: resources-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/resources-administrator
+---
+
+---
+action: 
 POSS | London | Isleworth, London, TW7 5DB | £33,129.00 - £35,109.00 Annually (FTE) NJC Scale 5 £33,129 to £35,109 (pro rata) Pro rata salary based on working 36 hours a week for 5 days a week, 39 weeks per annum (N.B. this is ‘term time’ i.e. 195 days) | SEND Administrator
 employer: Bolder Academy
 closing_date: 2026-11-09T12:00:00+00:00
@@ -345,7 +405,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 ## HARD_PASS
 
 - [Apprentice Administrator](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-the-john-roan-school-london) — No usable numeric salary.
-- [Assistant Librarian](https://teaching-vacancies.service.gov.uk/jobs/assistant-librarian-davenant-foundation-school) — No usable numeric salary.
 - [Attendance, Data and Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-data-and-administrative-officer) — Insufficient admin/service evidence.
 - [Careers & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-work-experience-co-ordinator-davenant-foundation-school) — No usable numeric salary.
 - [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-5bbd91b2-0afc-4796-b38f-b0811a522b87) — Insufficient admin/service evidence.
@@ -353,6 +412,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Contracts & Procurement Lead](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-lead-greenshaw-learning-trust) — Excluded senior/management title.
 - [Cover Supervisor Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-d381408a-aed2-44f0-8a2b-5602fd447ab9) — Excluded senior/management title.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
+- [Data Assistant and Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-and-exams-assistant) — Insufficient admin/service evidence.
 - [Deputy Exam Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-exam-officer) — No usable numeric salary.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Excluded senior/management title.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal-haberdashers-borough-academy) — Out-of-scope occupation: principal.
@@ -361,15 +421,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Finance officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-kings-cross-academy) — No usable numeric salary.
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-dbe8438f-4742-4952-b196-d00e6c812af2) — Out-of-scope occupation: teacher, headteacher.
-- [HR Coordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-highgate-wood-secondary-school) — No usable numeric salary.
+- [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-girls-learning-trust) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-ernest-bevin-academy) — Excluded senior/management title.
-- [HR, People and Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-and-culture-manager-wren-academies-trust) — Excluded senior/management title.
 - [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c5500de0-8688-44f2-9650-5f16af71c014) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-kate-greenaway-nursery-school-and-children-s-centre-london) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-willowfield-school) — Excluded senior/management title.
 - [Operations Manager - Havering Secondary Hub](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-havering-secondary-hub) — Excluded senior/management title.
-- [Part Time Receptionist](https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-shacklewell-primary-school) — No usable numeric salary.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-girls-learning-trust) — Insufficient admin/service evidence.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Excluded senior/management title.
 - [Receptionist (0.53FTE, Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/receptionist-0-53fte-maternity-cover) — No usable numeric salary.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-05
-review_fingerprint: 1f9450da0c7076f985c39c9b1fbbf58d1b82df70df901a3bbfbb1388b9525f17
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: deb4cefa6343fd0d10fc4e5227bd437e823163aad361c15d4a3b89cbce00f2c8
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS15 4JT | £6,822 - £7,435 | Admin Assistant for SEND
+employer: King's Oak Academy
+closing_date: 2026-11-23T23:59:59+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f8bba93aa8b974dfacbbb71bdec428e7b823fee5e797b845dbd07186b0b47ddd
+source: Teaching Vacancies
+source_job_id: admin-assistant-for-send
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-for-send
+---
 
 ---
 action: 
@@ -62,6 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-08
 ## HARD_PASS
 
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bedminster-down-school) — No usable numeric salary.
+- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-cherry-garden-primary-school) — No usable numeric salary.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-saint-gregory-s-catholic-college) — Excluded senior/management title.
 

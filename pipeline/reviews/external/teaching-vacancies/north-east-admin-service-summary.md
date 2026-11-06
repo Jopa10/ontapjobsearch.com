@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-05
-review_fingerprint: 4447af969e32f25a9b8e6abdd25a4ca60b17b5a453f85a7ae4529f51322b5c4a
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: b04d4077dc0185d189722ed57c104263701d8499db8182f7bcd07ba62ddec6f7
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
+- Records: 13
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: a1011686bc65671eddf3843deeff9c5f6512641e921e523fa2911615482
 source: Teaching Vacancies
 source_job_id: admin-assistant-n4
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-n4
+---
+
+---
+action: 
+SELECTED | North East | Newcastle-upon-Tyne, North East, NE5 4JQ | £27,274 - £28,153 FTE [Actual salary £23,917.20 - £24,688] | Administration Assistant Level 3 (Attendance)
+employer: Callerton Academy
+closing_date: 2026-11-20T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: daf2c95cf8bd5dbe031e29ffdd4fa4f961370f43ab66378abfcd08d6c6a6b061
+source: Teaching Vacancies
+source_job_id: administration-assistant-level-3-attendance
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-3-attendance
 ---
 
 ---
@@ -96,6 +111,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administra
 - [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hadrian-learning-trust) — Excluded senior/management title.
 - [Part Time Creative Industries Technician (2026/CS014)](https://teaching-vacancies.service.gov.uk/jobs/part-time-creative-industries-technician-2026-cs014) — Out-of-scope occupation: technician.
+- [Staff & Student Support Officer](https://teaching-vacancies.service.gov.uk/jobs/staff-student-support-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

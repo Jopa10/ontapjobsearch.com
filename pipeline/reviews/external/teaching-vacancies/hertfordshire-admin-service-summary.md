@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-05
-review_fingerprint: a9df7664bfb59b07a27461845e7f513c166de917e5cfcc559a38dfa0ccfa494d
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 3f3dc77b3ddf3d53d33675d22107f56881724a7fe2b2f3664417a32700f5f1bb
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 2
+- Records: 12
+- Selected: 3
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 5
@@ -34,6 +34,21 @@ factual_fingerprint: 076015d1a97ac898bae2f5809c4190bedacb6dd43dcfa8b01a2ea55738d
 source: Teaching Vacancies
 source_job_id: admin-assistant-nicholas-breakspear-catholic-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-nicholas-breakspear-catholic-school
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Waltham Cross, East of England, EN7 5FB | £25,677.00 - £30,039.00 Annually (Actual) | Finance Officer
+employer: St Mary's Church of England High School (VA)
+closing_date: 2026-11-19T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5165dca69f5a56597a6220b85c372e8d9b84cd006993a865389a921611f7e448
+source: Teaching Vacancies
+source_job_id: finance-officer-st-mary-s-church-of-england-high-school-va
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-mary-s-church-of-england-high-school-va
 ---
 
 ---

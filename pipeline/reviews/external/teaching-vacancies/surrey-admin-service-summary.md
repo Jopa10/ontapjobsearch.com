@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-05
-review_fingerprint: c36ff3096955628ac3c8b1618c8019d99bf71ddf6ca3474e053676f742902617
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: df50570c854061d6087c656ea7266ede17634b440638f2d03726ae2f5856962f
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 0
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
 
@@ -24,6 +24,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - None.
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Surrey | Epsom, South East, KT18 7AD | £15,406.00 - £16,803.00 Annually (Actual) PS5 FTE range £28,769 - £30,819 | Attendance & Communications Officer
+employer: St Martin's Church of England Junior School
+closing_date: 2026-11-17T09:00:00+00:00
+reason: Borderline school administration title: communications officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 913f1dbd539af341a14680fc31747626df13e26ba689e71b1cb603cb0c56fdd9
+source: Teaching Vacancies
+source_job_id: attendance-communications-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-communications-officer
+---
 
 ---
 action: 

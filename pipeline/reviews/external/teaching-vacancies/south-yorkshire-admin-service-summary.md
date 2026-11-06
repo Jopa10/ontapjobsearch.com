@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-05
-review_fingerprint: d7337b6e8de1baaf528368878f514d8f064baf5b31955767324edea1a94963e8
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: e91a6f627a5734ddc0265a02fff8f5e9be7e13fa325885651d2bd04e9b717997
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
+- Records: 21
 - Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 15
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Yorkshire - South | Rotherham, S65 2JW | £22,971.00 - £23,336.00 Annually (Actual) Temporary with a view to Permanent | Receptionist & Admin Assistant
-employer: Willow Tree Academy
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
+SELECTED | Yorkshire - South | Barnsley, S70 2JW | £26,352.00 - £29,251.00 Annually (FTE) Flexible working/Job share/Partial work from home accommodated | Business Support Officer (mobile - dependent on candidate location)
+employer: Wellspring Academy Trust
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0dee8d6ee0d8ebaf7f50fbb7d643e618a740c12e670a806ba33d5fee60542212
+factual_fingerprint: 77b3acb297c49c98d43267c10f6e5f485b22a9a0c0f8fac8aabe1c416c460337
 source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-willow-tree-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-willow-tree-academy
+source_job_id: business-support-officer-mobile-dependent-on-candidate-location-wellspring-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-mobile-dependent-on-candidate-location-wellspring-academy-trust
 ---
 
 ---
@@ -121,6 +121,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 - [Administration and clerical](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical) — Insufficient admin/service evidence.
 - [Administration and Clerical Level 1](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical-level-1-shortbrook-primary-school) — No usable numeric salary.
+- [Administration Assistant - 10 hrs per week Temp until August 2027](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-10-hrs-per-week-temp-until-august-2027) — No usable numeric salary.
 - [Apprentice Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administration-assistant-maltby-lilly-hall-academy) — No usable numeric salary.
 - [Attendance & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-officer-watercliffe-meadow-community-primary-school) — Insufficient admin/service evidence.
 - [Curriculum Manager](https://teaching-vacancies.service.gov.uk/jobs/curriculum-manager-the-sheffield-college) — Excluded senior/management title.

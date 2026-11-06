@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-05
-review_fingerprint: 75d35b37dde54634fb05a4a025f7aba22a6e810264c68849563a304d7a0f96eb
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: da379b81e6020420b8c5208388fdab0f96e6ebbb3952e692dc3ac9529be63073
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
-- POSS awaiting decision: 3
+- Records: 18
+- Selected: 6
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-seconda
 
 ---
 action: 
+SELECTED | Nottinghamshire | Nottingham, NG7 2TU | £26,427 - £26,847 pro rata, £22,691 - £23,052 actual per year | College Secretary
+employer: Nova Education Trust
+closing_date: 2026-11-17T09:00:00+00:00
+reason: Clear admin/service title: secretary
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b6237b28dc3442247c5d83cba7432208f7f9dfb8f376adee1b21f42f33364d68
+source: Teaching Vacancies
+source_job_id: college-secretary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/college-secretary
+---
+
+---
+action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 6NZ | £24,234.00 - £25,823.00 Annually (Actual) NJC6 - NJC10 | Finance Administrator - Including Trips and Visits
 employer: Arnold Hill Spencer Academy
 closing_date: 2026-11-24T23:59:00+00:00
@@ -143,6 +158,21 @@ source_job_id: administrator-tuxford-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-tuxford-academy
 ---
 
+---
+action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG13 0AX | PPS4 £26,016 per annum, pro rata to £14,489 per annum | SEN Administration Assistant
+employer: The Priory Belvoir Academy
+closing_date: 2026-11-23T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 70d19ac909de6d3f916934342185c57e483b749cee2e8f63996049f07156c704
+source: Teaching Vacancies
+source_job_id: sen-administration-assistant-the-priory-belvoir-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-assistant-the-priory-belvoir-academy
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -151,9 +181,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-tuxford
 
 - [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy-nottingham-nottinghamshire) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-ashfield-comprehensive-school) — Excluded senior/management title.
+- [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-djanogly-city-academy) — Insufficient admin/service evidence.
 - [People Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-business-partner-nova-education-trust) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c46abdbf-b851-4f98-b51c-c939f0fd7919) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hawthorne-primary-and-nursery-school) — Excluded senior/management title.
+- [School Resource Officer](https://teaching-vacancies.service.gov.uk/jobs/school-resource-officer-endeavour-academy) — Insufficient admin/service evidence.
 - [Senior Office Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrative-assistant) — Excluded senior/management title.
 
 ## Safety boundary

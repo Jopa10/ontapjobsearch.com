@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-11-05
-review_fingerprint: ff6eaba4efe771e5c2b1cca72e1066b9d29f2f018056102712c8ee326f043a28
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 04592e6b084bc903d37ee997f5814bb856d8a0d8eb92e66f5676a8d19c4c24cc
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 1
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
@@ -53,30 +53,15 @@ source_job_id: finance-business-partner-cornwall-education-learning-trust-st-aus
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-cornwall-education-learning-trust-st-austell-not-recorded
 ---
 
----
-action: 
-POSS | Cornwall | Liskeard, PL14 3EA | £32,046.00 - £34,811.00 Annually (FTE) Actual salary approx. £21,727 - £23,602 per annum | Governance Professional to Trust Board and Local Governing Committees
-employer: South East Cornwall Multi Academy Regional Trust
-closing_date: 2026-11-06T09:00:00+00:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a6a419df1fe8617498101ef0433678577a3919bdcc019b8c23be77b2a3636076
-source: Teaching Vacancies
-source_job_id: governance-professional-to-trust-board-and-local-governing-committees-1594a72d-d462-43fb-b443-b41012e611bd
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-to-trust-board-and-local-governing-committees-1594a72d-d462-43fb-b443-b41012e611bd
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Academy Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-cusgarne-primary-school-truro-cornwall) — No usable numeric salary.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — No usable numeric salary.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-the-roseland-multi-academy-trust) — Insufficient admin/service evidence.
+- [Reception Administrator](https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-newlyn-school) — No usable numeric salary.
 
 ## Safety boundary
 

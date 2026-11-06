@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-05
-review_fingerprint: 1167063af07a7e5860c044a5a45d406da68e84601adcb5e1d3fc08aed46c62bc
-routing_manifest_sha256: e1c0747aeb7e5396177c539c4dc6d7a4890455180a74cad38f43b2f7985c8b9d
+review_date: 2026-11-06
+review_fingerprint: 0ad3d6740982ce771704b3de89480cf5f4924f1894e2f9ef26bfbb1cd0358d14
+routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 12
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: receptionist-school-office
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-office
 ---
 
+---
+action: 
+SELECTED | West Midlands - Black Country | Smethwick, West Midlands, B67 5HX | £26,427.00 - £26,847.00 Annually (FTE) £3,082.75 - £3,202.58 per annum. 'First year salary will reflect number of working days remaining in holiday year' | Wraparound Administrator
+employer: St Gregory's Catholic Primary School
+closing_date: 2026-11-09T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aff9af4e2260157ad92835fe9b69bfee45f57f8dcd8fa1509c5b01c6ab27390e
+source: Teaching Vacancies
+source_job_id: wraparound-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/wraparound-administrator
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -89,6 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## HARD_PASS
 
+- [Chief Finance and Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-operations-officer-wolverhampton-girls-high-school) — Excluded senior/management title.
 - [Educational Visits & DofE Support Officer](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-dofe-support-officer) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — No usable numeric salary.
 - [PA to Head Teacher, Executive Assistant to SLT and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-teacher-executive-assistant-to-slt-and-office-manager-q3-academy-langley) — Excluded senior/management title.
