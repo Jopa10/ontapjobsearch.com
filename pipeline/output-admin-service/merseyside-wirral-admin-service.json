@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "2128919",
+    "title": "Finance Assistant",
+    "company": "Hoot Recruit LTD - Agency - Permanent",
+    "location": "Birkenhead",
+    "region": "Merseyside - Wirral",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£28,000 per year",
+    "posted_date": "",
+    "description": "Finance Assistant - Purchase Ledger\n\nSalary: Circa £28,000\n\nFull-time Permanent\n\nGreat opportunity to join an established finance team!\n\nHoot Recruit is working with a well-established and successful business looking to recruit a Finance Assistant to join its busy accounts team.\n\nWe're looking for someone who's enthusiastic, organised and happy to roll their sleeves up and get stuck in.\n\nYou don't need years of experience or a long list of qualifications. What's more important is having a good understanding of basic accounts processes, a positive attitude and a willingness to learn.\n\nWhat you'll be doing\n- Processing purchase invoices and maintaining the purchase ledger\n- Matching invoices to purchase orders and delivery notes\n- Reconciling supplier statements\n- Dealing with supplier queries and resolving discrepancies\n- Assisting with payment runs\n- Maintaining accurate financial records\n- Supporting the wider finance team with general accounts duties\n\nWhat we're looking for\n- Some previous experience working in an accounts or finance environment\n- Ideally, some knowledge of purchase ledger processes\n- Good attention to detail and organisational skills\n- Comfortable using Excel and accounting software\n- A proactive, hands-on approach to work\n- Someone who's reliable, enthusiastic and enjoys being part of a team\n\nWhat's on offer?\n- Salary circa £28,000\n- Permanent, full-time position\n- Friendly and supportive working environment\n- Opportunity to develop your knowledge and skills\n- Established business offering long-term stability",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fj3ojp7JNcms4CwRADBYgN0i",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hoot Recruit LTD",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "2188496",
     "title": "Accounts Payable Administrator",
     "company": "NMS Recruit Limited - Agency - Permanent",
@@ -72,31 +97,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225701630",
-    "title": "HR Administrator",
-    "company": "Adecco - Agency - Temporary",
-    "location": "Birkenhead",
-    "region": "Merseyside - Wirral",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "14.5",
-    "salary_max": "14.5",
-    "salary_text": "£14.5 per hour",
-    "posted_date": "",
-    "description": "HR Administrator\n\nLocation: Birkenhead (on-site)\nPay: 14.50 per hour\nHours: 37 hours per week (flexible within core hours)\n\nWe are currently recruiting for a proactive and organised HR Administrator to join a well established, international organisation. This is a fantastic opportunity to join a respected employer known for its strong values, supportive culture, and commitment to employee development, with the potential to secure a permanent role.\n\nThe Role\n\nThis is a fast-paced and varied position, supporting the HR function with a range of administrative and employee-facing tasks. You will play a key role in ensuring processes are followed accurately and efficiently, while providing a high level of service.\n\nKey Responsibilities\n- Drafting professional correspondence, including offer letters\n- Managing HR-related inbox queries, including benefits enquiries\n- Supporting HR processes and maintaining process documentation\n- Ensuring accurate record-keeping with strong attention to detail\n- Liaising confidently with employees at all levels\n- Supporting general HR administration duties\n\nAbout You\n- Previous HR or administrative experience (HR experience desirable)\n- Highly organised with excellent attention to detail\n- Conscientious and able to manage workload effectively\n- Confident communicator, comfortable speaking with stakeholders\n- Resilient and able to work in a busy environment\n- Strong written skills with experience in professional letter drafting\n\nAdditional Information\n- This is a fully site-based role (5 days per week)\n- Occasional travel may be required, including visits to operational sites and quarterly team meetings (Dublin and South Wales)\n- Opportunity to join a reputable organisation with a strong focus on safety, collaboration, and employee well being\n\nAdecco aim to respond to all applicants, however due to the substantial number of applications we receive this may not always be possible. Should you not receive a response within five working days please accept this as notice that you have not been shortlisted on this occasion.\n\nAdecco is an equal opportunities employer\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?blsnOwY7lFuIaJkwkeUrMhB7o6Mo00sBh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Adecco",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
@@ -340,6 +340,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9408-26-0474",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9408-26-0474",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

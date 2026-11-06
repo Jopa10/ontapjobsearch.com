@@ -2,15 +2,39 @@
 
 review_date: 2026-11-06
 
-- Open Administrative & Clerical rows reviewed: 2255
+- Open Administrative & Clerical rows reviewed: 2257
 - Auto/remembered selected: 405
 - Selected HC Tier A: 202
 - Selected HC Tier B: 203
-- POSS awaiting decision: 1750
+- POSS awaiting decision: 1752
 - Excluded: 0
 - HARD_PASS: 100
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Merseyside - St Helens & Knowsley | St Helens, WA11 0NA | £50000.00 to £55000.00 | Practice Manager - St Helens Division
+source_job_id: 5713488
+title: Practice Manager - St Helens Division
+employer: Modality Partnership
+region: Merseyside - St Helens & Knowsley
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0281-26-0208
+factual_fingerprint: a27919d27a22c6a66b570be5865da6ccb131b712703b42fe55ad016e0b2d54f1
+---
+
+---
+action:
+POSS | NHS Jobs | Oxfordshire | Oxfordshire, OX3 7JH | £57528.00 to £64750.00 | Procurement and Commissioning Manager
+source_job_id: 5714152
+title: Procurement and Commissioning Manager
+employer: Oxford Health NHS Trust
+region: Oxfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1263
+factual_fingerprint: e0cf8dca5f740d8af382907bae1448cd0ffbf18c125012e39338c35da9c51b6d
+---
 
 ---
 action:
