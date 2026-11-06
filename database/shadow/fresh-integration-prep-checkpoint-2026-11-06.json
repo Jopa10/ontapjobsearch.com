@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-06",
+  "preparedAt": "2026-11-06T09:59:55Z",
+  "status": "6-nov-source-pinned-awaiting-selector-parity",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "pullRequest": 336,
+  "branchHeadBeforeCheckpoint": "95b1188bef970bbf574974501811356fed0bba36",
+  "sourceChecksumPrerequisiteResolved": true,
+  "pinnedSavedSource": {
+    "evidenceSource": "Owner CloudShell head-object and sha256sum output shown 2026-11-06",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "region": "eu-west-2",
+    "s3Sources": {
+      "2026-11-06": {
+        "key": "jobg8/raw/2026-11-06.zip",
+        "bytes": 35301499,
+        "etag": "\"d8984284780f209b4542816cb0ab76c6-5\"",
+        "lastModified": "2026-11-06T07:46:01+00:00",
+        "sha256": "861d80cfc02376d4aa26468365e62af7950ac11e42e5dcb75a5b05affb2db86f"
+      }
+    },
+    "archiveChecksums": {
+      "current": "861d80cfc02376d4aa26468365e62af7950ac11e42e5dcb75a5b05affb2db86f"
+    },
+    "expectedCurrentCounts": {
+      "sourceRows": null,
+      "uniqueSupplierIds": null,
+      "exactRepeatRows": null,
+      "conflictingIdsHeld": null,
+      "cleanRecords": null
+    },
+    "originalNeonSourceSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+    "note": "Byte count, ETag and LastModified are from CloudShell head-object; SHA-256 is from downloaded ZIP sha256sum. Owner confirmed the fresh presigned URL was placed in existing ONTAP_SAVED_FEED_URL secret. Workflow must independently verify downloaded byte count/SHA and capture row/quarantine counts."
+  },
+  "selectorWorkflowStarted": false,
+  "neonMutationBeforeSelectorParity": false,
+  "productionChanged": false,
+  "safety": {
+    "selectorReplayOnly": true,
+    "neonWrite": false,
+    "productionChanged": false,
+    "emailSent": false,
+    "expiryEnabled": false,
+    "purgeExecuted": false
+  },
+  "next": "Trigger the existing fresh_selection_parity workflow for 2026-11-06 by updating stage-request.json. Inspect the archived report and exact parity before any separate read-only Neon preflight; do not repeat the 5 November selector or integration."
+}
