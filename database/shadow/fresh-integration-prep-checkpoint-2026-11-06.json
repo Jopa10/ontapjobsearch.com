@@ -47,7 +47,7 @@
     "expiryEnabled": false,
     "purgeExecuted": false
   },
-  "next": "Selector parity is complete. Next: perform only the separately authorized Preview read-only Neon preflight and capture current storage/retention evidence. Do not import, integrate, cut over, merge, publish, enable expiry, or purge.",
+  "next": "Selector-to-post-review production output ID parity is exact for 5 and 6 November. No selector replay or 5 November integration needs repeating. If full active inventory reconciliation is required, first obtain a date-specific active JobG8 ID list to explain the count-only extras (12 on 5 Nov; 73 on 6 Nov); otherwise proceed only with separately authorized Preview read-only checks.",
   "selectorReplay": {
     "runId": 42199961447,
     "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/42199961447",
@@ -147,5 +147,69 @@
     "headroomAboveReserveBytes": 253181952,
     "transactionReadOnly": "on",
     "verification": "SELECT/SHOW only; no database changes."
+  },
+  "productionOutputComparison": {
+    "method": "Compare unique JobG8 supplier job IDs with decision=include in each shadow selection.json.gz to unique JobG8 IDs in that date's post-review applied production output artifacts (service-admin plus support-worker). Also compare same-day newly-published JobG8 IDs from the production live-job report.",
+    "results": {
+      "2026-11-05": {
+        "shadowSelectedUniqueIds": 4946,
+        "postReviewProductionOutputUniqueIds": 4946,
+        "intersection": 4946,
+        "shadowOnly": 0,
+        "productionOnly": 0,
+        "sortedIdSetSha256": "159cc068b971f1f8e2dcc7c9f8870b4fb104c0e383b2235aec48e39a3b9f53cf",
+        "newlyPublishedJobG8Ids": 219,
+        "newlyPublishedIdsInShadowSet": 219,
+        "liveInventory": {
+          "allSources": 5396,
+          "jobG8": 4958
+        },
+        "activeJobG8CountExcessVsDailyOutput": 12
+      },
+      "2026-11-06": {
+        "shadowSelectedUniqueIds": 4904,
+        "postReviewProductionOutputUniqueIds": 4904,
+        "intersection": 4904,
+        "shadowOnly": 0,
+        "productionOnly": 0,
+        "sortedIdSetSha256": "b3cb44814274c1190f9efc0b4e42a7ae5a5a8cb67a71a0ba6b1c8afdbd7eadcf",
+        "newlyPublishedJobG8Ids": 214,
+        "newlyPublishedIdsInShadowSet": 214,
+        "liveInventory": {
+          "allSources": 5418,
+          "jobG8": 4977
+        },
+        "activeJobG8CountExcessVsDailyOutput": 73
+      }
+    },
+    "evidence": {
+      "shadowSelectorRuns": {
+        "2026-11-05": 42023032553,
+        "2026-11-06": 42199961447
+      },
+      "dailyJobG8Runs": {
+        "2026-11-05": 41987783060,
+        "2026-11-06": 42181392463
+      },
+      "postReviewRuns": {
+        "2026-11-05": 41995739952,
+        "2026-11-06": 42187655651
+      },
+      "productionAppliedOutputArtifactIds": {
+        "2026-11-05": [
+          13403005450,
+          13401419597
+        ],
+        "2026-11-06": [
+          13489862703,
+          13489793166
+        ]
+      },
+      "liveReportArtifactIds": {
+        "2026-11-05": 13403281367,
+        "2026-11-06": 13491405496
+      }
+    },
+    "interpretation": "Exact set parity is proven between the PostgreSQL-method selector results and the post-review daily JobG8 production output for both dates; all same-day newly-published JobG8 IDs are also in the corresponding tested set. This is not parity against every currently active JobG8 URL: the live report supplies counts, not a date-specific active-ID list. Active JobG8 counts exceed the daily output sets by 12 (5 Nov) and 73 (6 Nov); the existing report does not explain those extras, so an all-active-ID reconciliation needs an active listing snapshot."
   }
 }
