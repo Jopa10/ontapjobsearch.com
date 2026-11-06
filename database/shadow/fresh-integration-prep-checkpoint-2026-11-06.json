@@ -128,5 +128,24 @@
       "expiryEnabled": false,
       "purgeExecuted": false
     }
+  },
+  "retentionCheck": {
+    "checkpoint": "database/shadow/retention-checkpoint-2026-11-06.json",
+    "previewOnly": true,
+    "deploymentId": "dpl_5CrxTpZcRj3VH5Azv6YCc6WNZgyF",
+    "projectId": "prj_sLI0SohbF03NrRFj6yZyuN8mOOZB",
+    "neonGuard": "noisy-fire-97386602",
+    "query": "SELECT count(*) AS payload_count, sum(octet_length(raw_payload)) AS stored_payload_bytes, sum(octet_length(raw_payload::text)) AS text_payload_bytes FROM ontap_shadow.supplier_adverts WHERE exclude_review_started_on <= DATE '2026-11-04' AND raw_payload IS NOT NULL;",
+    "result": {
+      "payloadCount": 34754,
+      "storedPayloadBytes": 80394566,
+      "textPayloadBytes": 130156666
+    },
+    "databaseBytes": 518569984,
+    "databaseCeilingBytes": 838860800,
+    "protectedReserveBytes": 67108864,
+    "headroomAboveReserveBytes": 253181952,
+    "transactionReadOnly": "on",
+    "verification": "SELECT/SHOW only; no database changes."
   }
 }
