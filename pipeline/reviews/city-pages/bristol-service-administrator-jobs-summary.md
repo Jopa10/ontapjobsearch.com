@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 68
+- Effective included jobs: 69
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 68
-- automatic review: 11
-- automatic exclude: 6
-- effective include: 68
-- effective review: 11
-- effective exclude: 6
+- automatic include: 69
+- automatic review: 12
+- automatic exclude: 7
+- effective include: 69
+- effective review: 12
+- effective exclude: 7
 
-## INCLUDE (68)
+## INCLUDE (69)
 
 ---
 action: 
@@ -165,6 +165,18 @@ company: Veolia - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225745153
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bikeability Delivery Administrator
+company: Life Cycle - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2236813
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -369,6 +381,18 @@ company: InAnyEvent - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2175432
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Facilities Administrator
+company: Jones Lang LaSalle Limited - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108284517
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -628,18 +652,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Miller Homes - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225790462
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist - Temporary
 company: Office Angels - Agency - Permanent
 location: Bristol
@@ -681,18 +693,6 @@ company: Alexander Mae HR Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225104066
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225698115
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -796,6 +796,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Service Coordinator
+company: Elix Sourcing Solutions - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225806749
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Delivery Administrator
 company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
@@ -840,7 +852,7 @@ job_id: jobg8-23643_225799979
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -954,6 +966,18 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing/Business Development Coordinator
+company: Flux Consulting - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225355733
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Clerk (Temporary)
 company: Adecco - Agency - Temporary
 location: Gloucestershire
@@ -974,7 +998,19 @@ job_id: jobg8-23643_225746132
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (7)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: HCRG Care Group
+location: Bath, BA2 5RP
+source: NHS Jobs
+job_id: nhs-5711219
+reason: Separate employment market.
+---
 
 ---
 action: 

@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 27
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
-- automatic review: 53
+- automatic include: 26
+- automatic review: 54
 - automatic exclude: 0
-- effective include: 27
-- effective review: 53
+- effective include: 26
+- effective review: 54
 - effective exclude: 0
 
-## INCLUDE (27)
+## INCLUDE (26)
 
 ---
 action: 
@@ -53,10 +53,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Veolia - Agency - Permanent
+company: RGB Recruitment - Agency - Contract
 location: Exeter
 source: JobG8
-job_id: jobg8-23643_225718193
+job_id: jobg8-23643_225806631
 reason: Exact approved Exeter workplace.
 ---
 
@@ -65,10 +65,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: WR HVAC - Agency - Contract
+company: Veolia - Agency - Permanent
 location: Exeter
 source: JobG8
-job_id: jobg8-23643_225759209
+job_id: jobg8-23643_225718193
 reason: Exact approved Exeter workplace.
 ---
 
@@ -294,9 +294,9 @@ decision: include
 automatic_decision: include
 title: Service Administrator
 company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
+location: Exeter, EX2 5DW, Exeter, EX1 2ED
 source: NHS Jobs
-job_id: nhs-5693833
+job_id: nhs-5709046
 reason: Exact approved Exeter workplace.
 ---
 
@@ -336,19 +336,7 @@ job_id: jobg8-23643_225730206
 reason: Exact approved Exeter workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Receptionist
-company: Hamilton Woods - Agency - Temporary
-location: Exeter
-source: JobG8
-job_id: jobg8-23643_225699564
-reason: Exact approved Exeter workplace.
----
-
-## REVIEW (53)
+## REVIEW (54)
 
 ---
 action: 
@@ -419,6 +407,18 @@ company: Hays Business Support - Agency - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225795021
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Servara Ltd - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225756253
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -546,6 +546,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Digital Content Coordinator
+company: Donkey Sanctuary - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225805303
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Engineering Administrator
 company: Symmetric Recruitment Ltd - Agency - Permanent
 location: Devon
@@ -611,18 +623,6 @@ company: Premier Foods - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-108255868
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Coordinator
-company: Pertemps Plymouth - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225698382
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -810,6 +810,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales & Operations Administrator
+company: Pertemps Plymouth - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225804731
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator - Housebuilding
 company: untypical - Agency - Permanent
 location: Devon
@@ -971,18 +983,6 @@ company: Devon Partnership NHS Trust
 location: BARNSTAPLE, EX31 4JB
 source: NHS Jobs
 job_id: nhs-5686114
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator
-company: Servara Ltd - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225756253
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 72
+- automatic review: 74
 - automatic exclude: 0
 - effective include: 8
-- effective review: 72
+- effective review: 74
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5695575
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (72)
+## REVIEW (74)
 
 ---
 action: 
@@ -155,18 +155,6 @@ company: Sewell Wallis Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225747949
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable / Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2164314
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -426,6 +414,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor
+company: Search Consultancy Ltd - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225806252
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service and Logistics Coordinator
 company: Adecco - Agency - Permanent
 location: Sheffield
@@ -455,18 +455,6 @@ company: The Talent Division - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225334218
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Factory Administrator
-company: E3 Recruitment - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225700713
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -751,6 +739,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2142627
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
 company: Portfolio Payroll Limited - Agency - Contract
 location: Yorkshire
 source: JobG8
@@ -767,6 +767,18 @@ company: W Talent - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225712413
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Planning Administrator - Customer Service Support
+company: Hays Business Support - Agency - Temporary
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225806804
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -935,6 +947,18 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Administrator
+company: STEPS Rehabilitation
+location: Sheffield, S7 2QA
+source: NHS Jobs
+job_id: nhs-5687012
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

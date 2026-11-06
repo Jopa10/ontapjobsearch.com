@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 54
+- automatic review: 50
 - automatic exclude: 0
 - effective include: 9
-- effective review: 54
+- effective review: 50
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225795324
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (50)
 
 ---
 action: 
@@ -155,18 +155,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225789958
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Agincare Group - Agency - Permanent
-location: Weymouth
-source: JobG8
-job_id: jobg8-108179266
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -203,18 +191,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Bournemouth, BH7 6JF
 source: NHS Jobs
 job_id: nhs-5694960
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: WR HVAC - Agency - Contract
-location: Wimborne
-source: JobG8
-job_id: jobg8-23643_225759239
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -306,35 +282,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Contact Centre Advisor
-company: Stonewater - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225697970
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225790377
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Tru Talent - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225696513
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -359,18 +311,6 @@ company: Simply Automotive Ltd - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225721880
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: CUSTOMER SERVICE ADVISOR
-company: Talent Sure Recruitment Limited - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225699611
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -659,6 +599,18 @@ company: Aspire Jobs - Agency - Permanent
 location: Beaminster
 source: JobG8
 job_id: jobg8-23643_225616407
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Bridport, DT65DR
+source: NHS Jobs
+job_id: nhs-5709438
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 24
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 74
+- automatic include: 23
+- automatic review: 73
 - automatic exclude: 0
-- effective include: 24
-- effective review: 74
+- effective include: 23
+- effective review: 73
 - effective exclude: 0
 
-## INCLUDE (24)
+## INCLUDE (23)
 
 ---
 action: 
@@ -112,23 +112,11 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Contract Administrator
-company: Danny Sullivan & Sons Ltd - Company - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225730878
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
-company: 365 People - Agency - Permanent
+company: CCA Recruitment Group - Agency - Permanent
 location: Leicester
 source: JobG8
-job_id: jobg8-23643_225699891
+job_id: jobg8-23643_225793205
 reason: Exact approved Leicester workplace.
 ---
 
@@ -312,7 +300,7 @@ job_id: jobg8-23643_225761866
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (74)
+## REVIEW (73)
 
 ---
 action: 
@@ -383,18 +371,6 @@ company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2171393
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: SF Partners - Agency - Permanent
-location: Market Harborough
-source: JobG8
-job_id: jobg8-2177260
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -703,18 +679,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Pall-ex - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225697663
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
 company: Vectis Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
@@ -726,11 +690,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Digital Marketing Manager
-company: Sytner - Company - Permanent
+title: Digital Business Analyst
+company: Rise Technical Recruitment - Agency - Temporary
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225698907
+job_id: jobg8-23643_225806830
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1038,6 +1002,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Administrator
+company: Winner Recruitment - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225804585
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Coordinator
 company: Eileen Richards Recruitment - Agency - Permanent
 location: Leicestershire
@@ -1138,18 +1114,6 @@ title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225696162
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: The Solution Auto - Agency - Permanent
-location: Leicestershire
-source: JobG8
 job_id: jobg8-23643_225795843
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
@@ -1199,6 +1163,18 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225751840
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Workspace Operations and Services Coordinator
+company: Jones Lang LaSalle Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-108284328
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

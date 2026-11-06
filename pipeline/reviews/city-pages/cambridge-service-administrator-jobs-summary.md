@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
+- automatic include: 26
 - automatic review: 16
-- automatic exclude: 33
-- effective include: 22
+- automatic exclude: 32
+- effective include: 26
 - effective review: 16
-- effective exclude: 33
+- effective exclude: 32
 
-## INCLUDE (22)
+## INCLUDE (26)
 
 ---
 action: 
@@ -136,6 +136,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: The One Group - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2142657
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Front of House Porter/Security
 company: Select Recruitment Specialists Ltd - Agency - Contract
 location: Cambridge
@@ -165,6 +177,30 @@ company: SoCode Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225765673
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Manager
+company: HR GO Recruitment - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2142957
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Manager
+company: Infinity Recruitment Consultancy Limited - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-23643_225795756
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -237,6 +273,18 @@ company: Adecco - Agency - Temporary
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225724493
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist/Administrator
+company: Cambridge University Hospital NHS Foundation Trust
+location: Cambridge, CB2 9LG
+source: NHS Jobs
+job_id: nhs-5706846
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -482,7 +530,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -560,18 +608,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Admissions Administrator
-company: United Learning Trust
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-administrator-united-learning-trust
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Conveyancing Legal Assistant
 company: Reed - Agency - Permanent
 location: Huntingdon
@@ -620,11 +656,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Data Entry Clerk
-company: Adecco - Agency - Temporary
+title: HR Administrator
+company: Interaction Recruitment - Agency - Temporary
 location: Peterborough
 source: JobG8
-job_id: jobg8-23643_225794685
+job_id: jobg8-23643_225750441
 reason: Separate employment market.
 ---
 
@@ -632,11 +668,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Administrator
-company: Interaction Recruitment - Agency - Temporary
+title: Immediate Start required - Accounts
+company: Commercial Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-23643_225750441
+job_id: jobg8-23643_225703232
 reason: Separate employment market.
 ---
 
@@ -752,6 +788,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: Old Fletton Surgery
+location: Peterborough, PE2 8AY
+source: NHS Jobs
+job_id: nhs-5709087
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist/Administrator
 company: Hampton College
 location: Peterborough
@@ -853,18 +901,6 @@ company: Group 1 Automotive - Company - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2178384
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temp Service Desk Administrator
-company: Hays Technology - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225776492
 reason: Separate employment market.
 ---
 

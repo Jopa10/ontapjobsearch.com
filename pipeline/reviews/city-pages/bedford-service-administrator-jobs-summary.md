@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 35
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 4
-- effective review: 35
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -40,11 +40,11 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Services Administrator
-company: East of England Ambulance Service
-location: Bedford, MK41 0RG
-source: NHS Jobs
-job_id: nhs-5705001
+title: Administrator
+company: Mixxos Group - Agency - Temporary
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225806189
 reason: Exact approved Bedford workplace.
 ---
 
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225761869
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (31)
 
 ---
 action: 
@@ -174,18 +174,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator & Booking Coordinator
-company: Siamo Recruitment a division of Siamo Group - Agency - Temporary
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225760218
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator - Support
 company: Transcomm Recruitment Ltd - Agency - Permanent
 location: Dunstable
@@ -198,35 +186,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: BMW Service Advisor
-company: Sytner Group - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-2192279
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper
 company: Cadence Search Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225766316
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Advancing People - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225699982
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -318,11 +282,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: New Product Coordinator
-company: Response Personnel Ltd - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225696230
+title: Outpatient Clinic Receptionist/Call Centre Clerk
+company: Bedfordshire Hospitals NHS Foundation Trust
+location: Luton, LU4 0DZ
+source: NHS Jobs
+job_id: nhs-5708627
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -330,11 +294,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Office & Community Administrator
-company: Southcott Lower School
-location: Leighton Buzzard
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-community-administrator
+title: Outpatient Clinic Receptionist/Call Centre Clerk
+company: Bedfordshire Hospitals NHS Foundation Trust
+location: Luton, LU4 0DZ
+source: NHS Jobs
+job_id: nhs-5708692
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -443,18 +407,6 @@ company: Beechwood Primary School
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-sen-inclusion-administrator
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Site Administrator
-company: Harvey Jacob Ltd - Agency - Contract
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225705667
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

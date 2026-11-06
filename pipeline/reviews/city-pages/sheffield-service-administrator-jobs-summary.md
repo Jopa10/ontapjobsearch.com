@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
+- automatic include: 35
 - automatic review: 11
-- automatic exclude: 35
-- effective include: 34
+- automatic exclude: 36
+- effective include: 35
 - effective review: 11
-- effective exclude: 35
+- effective exclude: 36
 
-## INCLUDE (34)
+## INCLUDE (35)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Sewell Wallis Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225747949
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable / Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2164314
 reason: Approved Sheffield catchment.
 ---
 
@@ -177,6 +165,18 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_224831378
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Search Consultancy Ltd - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225806252
 reason: Approved Sheffield catchment.
 ---
 
@@ -412,6 +412,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Senior Administrator
+company: STEPS Rehabilitation
+location: Sheffield, S7 2QA
+source: NHS Jobs
+job_id: nhs-5687012
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Administrator
 company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
@@ -455,18 +467,6 @@ company: Office Angels - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225741868
-reason: No approved Sheffield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Factory Administrator
-company: E3 Recruitment - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225700713
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -535,6 +535,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2142627
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
 company: Portfolio Payroll Limited - Agency - Contract
 location: Yorkshire
 source: JobG8
@@ -566,7 +578,7 @@ job_id: jobg8-2153824
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -865,6 +877,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2165598
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Planning Administrator - Customer Service Support
+company: Hays Business Support - Agency - Temporary
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225806804
 reason: Separate employment market.
 ---
 

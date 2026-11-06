@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 98
+- automatic review: 96
 - automatic exclude: 0
 - effective include: 0
-- effective review: 98
+- effective review: 96
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (98)
+## REVIEW (96)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2171393
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: SF Partners - Agency - Permanent
-location: Market Harborough
-source: JobG8
-job_id: jobg8-2177260
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -366,18 +354,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Contract Administrator
-company: Danny Sullivan & Sons Ltd - Company - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225730878
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Control - interim
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Leicestershire
@@ -511,22 +487,10 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: 365 People - Agency - Permanent
+company: CCA Recruitment Group - Agency - Permanent
 location: Leicester
 source: JobG8
-job_id: jobg8-23643_225699891
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Pall-ex - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225697663
+job_id: jobg8-23643_225793205
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -546,11 +510,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Digital Marketing Manager
-company: Sytner - Company - Permanent
+title: Digital Business Analyst
+company: Rise Technical Recruitment - Agency - Temporary
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225698907
+job_id: jobg8-23643_225806830
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -966,6 +930,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Administrator
+company: Winner Recruitment - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225804585
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Coordinator
 company: Eileen Richards Recruitment - Agency - Permanent
 location: Leicestershire
@@ -1126,18 +1102,6 @@ title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225696162
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: The Solution Auto - Agency - Permanent
-location: Leicestershire
-source: JobG8
 job_id: jobg8-23643_225795843
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
@@ -1187,6 +1151,18 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225751840
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Workspace Operations and Services Coordinator
+company: Jones Lang LaSalle Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-108284328
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 56
+- automatic include: 5
+- automatic review: 54
 - automatic exclude: 0
-- effective include: 7
-- effective review: 56
+- effective include: 5
+- effective review: 54
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,30 +33,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Bournemouth, BH7 6JF
 source: NHS Jobs
 job_id: nhs-5694960
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Administrator
-company: Tru Talent - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225696513
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: CUSTOMER SERVICE ADVISOR
-company: Talent Sure Recruitment Limited - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225699611
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -108,7 +84,7 @@ job_id: nhs-5706522
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (54)
 
 ---
 action: 
@@ -139,18 +115,6 @@ action:
 decision: review
 automatic_decision: review
 title: Activities Coordinator
-company: Agincare Group - Agency - Permanent
-location: Weymouth
-source: JobG8
-job_id: jobg8-108179266
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
 company: Care UK - Company - Permanent
 location: Dorset
 source: JobG8
@@ -167,18 +131,6 @@ company: Barchester Healthcare - Company - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225796724
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: WR HVAC - Agency - Contract
-location: Wimborne
-source: JobG8
-job_id: jobg8-23643_225759239
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -263,18 +215,6 @@ company: Trial Balance Consulting - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2177163
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contact Centre Advisor
-company: Stonewater - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225697970
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -671,6 +611,18 @@ company: Aspire Jobs - Agency - Permanent
 location: Beaminster
 source: JobG8
 job_id: jobg8-23643_225616407
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Bridport, DT65DR
+source: NHS Jobs
+job_id: nhs-5709438
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

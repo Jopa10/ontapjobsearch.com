@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 109
-- automatic review: 15
-- automatic exclude: 12
+- automatic review: 16
+- automatic exclude: 13
 - effective include: 109
-- effective review: 15
-- effective exclude: 12
+- effective review: 16
+- effective exclude: 13
 
 ## INCLUDE (109)
 
@@ -448,18 +448,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Data Coordinator
-company: EA Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225699425
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Data Entry Clerk
 company: Pertemps Birmingham Industrial - Agency - Temporary
 location: Birmingham
@@ -772,35 +760,23 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Coordinator
-company: Ashley Kate HR & Finance - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225726369
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Shared Services Administrator
-company: Gleeson Recruitment Group - Agency - Temporary
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225699093
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Internal Recruiter / Supported Living / Care Recruitment Experience
 company: Frontier Consulting - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225674308
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Internal Sales Administrator
+company: Bennett and Game Recruitment LTD - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225802528
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1120,11 +1096,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales & Marketing Executive
-company: Four Squared Recruitment Ltd - Agency - Permanent
+title: Recruitment Administrator
+company: Winner Recruitment - Agency - Temporary
 location: Birmingham
 source: JobG8
-job_id: jobg8-23643_225703485
+job_id: jobg8-23643_225804596
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1217,6 +1193,18 @@ action:
 decision: include
 automatic_decision: include
 title: Service Advisor
+company: Auto Skills UK - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225806115
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Birmingham
 source: JobG8
@@ -1300,11 +1288,23 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temp Customer Service Advisor
-company: Michael Page - Agency - Temporary
+title: Team Administrator
+company: Focus Resourcing - Agency - Temporary
 location: Birmingham
 source: JobG8
-job_id: jobg8-23643_225798225
+job_id: jobg8-23643_225805186
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Assistant
+company: Bell Cornwall Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225806435
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1332,7 +1332,7 @@ job_id: jobg8-23643_225795367
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (16)
 
 ---
 action: 
@@ -1344,6 +1344,18 @@ location: Shirley
 source: JobG8
 job_id: jobg8-23643_225769992
 reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Billing Assistant
+company: RG Setsquare - Agency - Temporary
+location: West Midlands
+source: JobG8
+job_id: jobg8-23643_225804257
+reason: Broad regional location; review before Birmingham inclusion.
 ---
 
 ---
@@ -1458,6 +1470,18 @@ reason: Broad regional location; review before Birmingham inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Manager (12 month maternity cover)
+company: Auriga Services - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-2236820
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: NHS Coordinator
 company: Spire Healthcare - Company - Permanent
 location: Shirley
@@ -1494,18 +1518,6 @@ reason: No approved Birmingham catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: School Administrator
-company: The Supply Register - Agency - Temporary
-location: Shirley
-source: JobG8
-job_id: jobg8-23643_225698701
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: VOR Administrator (Vehicle Off Road)
 company: Pertemps Birmingham Industrial - Agency - Temporary
 location: Chelmsley Wood
@@ -1514,7 +1526,7 @@ job_id: jobg8-23643_225731801
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -1645,6 +1657,18 @@ company: qed legal - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-2181508
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales & Leasing Administrator
+company: Pertemps Solihull - Agency - Temporary
+location: Chelmsley Wood
+source: JobG8
+job_id: jobg8-23643_225802311
 reason: Separate exact-city market at launch.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 29
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 18
-- effective review: 29
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (18)
@@ -112,6 +112,18 @@ reason: Exact approved Altrincham workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service & Sales Administrator
+company: Aspire Recruitment - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225805049
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Document Controller
 company: Conrad Consulting Ltd - Agency - Permanent
 location: Altrincham
@@ -141,18 +153,6 @@ company: Halecroft Recruitment - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225783190
-reason: Exact approved Altrincham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Financial Administration Assistant
-company: Hays Business Support - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225700535
 reason: Exact approved Altrincham workplace.
 ---
 
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225715889
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (29)
+## REVIEW (27)
 
 ---
 action: 
@@ -359,18 +359,6 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-2171395
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Jobwise Ltd - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225695945
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -575,18 +563,6 @@ company: Global Recruitment Group - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225744140
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary HR Administrator
-company: Office Angels - Agency - Temporary
-location: Trafford
-source: JobG8
-job_id: jobg8-23643_225696497
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

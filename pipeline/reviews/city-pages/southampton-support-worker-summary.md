@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 16
-- automatic exclude: 15
+- automatic review: 15
+- automatic exclude: 13
 - effective include: 3
-- effective review: 16
-- effective exclude: 15
+- effective review: 15
+- effective exclude: 13
 
 ## INCLUDE (3)
 
@@ -40,6 +40,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Community Support Worker
+company: The Society of St James - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-2229418
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Hourly Lifestyle / Care Assistant for a Female Chemistry Uni Student
 company: Ask Jules - Agency - Permanent
 location: Southampton
@@ -48,19 +60,7 @@ job_id: jobg8-108269694
 reason: Approved Southampton catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Youth Support Worker
-company: Brook Street Social Care - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225199243
-reason: Approved Southampton catchment.
----
-
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -102,18 +102,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Care Support Worker
-company: Peabody - Agency - Permanent
-location: Alresford
-source: JobG8
-job_id: jobg8-23643_225696530
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Support Worker (Female Only)
 company: Peabody - Agency - Permanent
 location: Alresford
@@ -143,18 +131,6 @@ company: SCA Care - Agency - Temporary
 location: New Milton
 source: JobG8
 job_id: jobg8-108121734
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Extra Care Support Worker - Wooldridge View
-company: SCA Care - Agency - Temporary
-location: New Milton
-source: JobG8
-job_id: jobg8-108121769
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -254,7 +230,19 @@ job_id: jobg8-23643_225781662
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Therapeutic Children's Support Worker
+company: The Tiger Group Consultancy Ltd - Agency - Permanent
+location: Colden Common
+source: JobG8
+job_id: jobg8-23643_225653471
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+## EXCLUDE (13)
 
 ---
 action: 
@@ -265,18 +253,6 @@ company: Avon Search & Selection - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225779755
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Assistant
-company: Care UK - Company - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-108042627
 reason: Separate employment market.
 ---
 
@@ -397,18 +373,6 @@ company: Right Match Recruitment Group Limited - Agency - Permanent
 location: Aldershot
 source: JobG8
 job_id: jobg8-23643_225720535
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Support Worker
-company: SCR - Agency - Temporary
-location: Aldershot
-source: JobG8
-job_id: jobg8-23643_225666663
 reason: Separate employment market.
 ---
 

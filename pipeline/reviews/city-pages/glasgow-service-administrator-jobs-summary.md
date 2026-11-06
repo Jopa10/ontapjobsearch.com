@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 37
-- automatic review: 7
+- automatic review: 5
 - automatic exclude: 0
 - effective include: 37
-- effective review: 7
+- effective review: 5
 - effective exclude: 0
 
 ## INCLUDE (37)
@@ -52,11 +52,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Development Consultant (Digital Media)
-company: Choice Consultants - Agency - Permanent
+title: Building Energy Performance Administrator
+company: Alecto Recruitment - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225772154
+job_id: jobg8-23643_225805862
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -64,11 +64,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Development Executive
-company: Realise Recruitment - Agency - Permanent
+title: Business Development Consultant (Digital Media)
+company: Choice Consultants - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_223109682
+job_id: jobg8-23643_225772154
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -244,18 +244,6 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Secretary (Family Law)
-company: Michael Page - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225764038
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Licensing Coordinator
 company: Adecco - Agency - Temporary
 location: Glasgow
@@ -388,11 +376,23 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Repairs Administrator
+company: RG Setsquare - Agency - Temporary
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225803943
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Account Manager (Marketing Solutions)
 company: Choice Consultants - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225695709
+job_id: jobg8-23643_225802049
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -468,7 +468,7 @@ job_id: jobg8-23643_225760167
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (5)
 
 ---
 action: 
@@ -527,30 +527,6 @@ company: EE - Company - Permanent
 location: Not Specified
 source: JobG8
 job_id: jobg8-20279_64324
-reason: No approved Glasgow catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Executive - Apprenticeships
-company: Realise Recruitment - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_224917035
-reason: No approved Glasgow catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Executive Fire & Security
-company: Realise Recruitment - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_224045478
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 17
-- automatic exclude: 16
-- effective include: 13
-- effective review: 17
-- effective exclude: 16
+- automatic include: 12
+- automatic review: 16
+- automatic exclude: 15
+- effective include: 12
+- effective review: 16
+- effective exclude: 15
 
-## INCLUDE (13)
+## INCLUDE (12)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Headstar - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2143415
+reason: Approved York catchment.
+---
 
 ---
 action: 
@@ -100,18 +112,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: Sewell Wallis Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225713571
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Assistant (Maternity Cover)
 company: Joseph Rowntree - Agency - Permanent
 location: York
@@ -129,18 +129,6 @@ company: Unity Health
 location: York, YO10 5LA, York, YO10 4DU
 source: NHS Jobs
 job_id: nhs-5706440
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time Finance Assistant
-company: Hays Accounts and Finance - Agency - Temporary
-location: York
-source: JobG8
-job_id: jobg8-23643_225696188
 reason: Approved York catchment.
 ---
 
@@ -180,19 +168,7 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (17)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Magpie Recruitment - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-2180626
-reason: No approved York catchment rule matched; local review required.
----
+## REVIEW (16)
 
 ---
 action: 
@@ -378,15 +354,27 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Coordinator
-company: Interaction - Leeds - Agency - Permanent
-location: Malton
+title: Temp Finance Administrator
+company: Office Angels - Agency - Permanent
+location: Richmond
 source: JobG8
-job_id: jobg8-108059238
+job_id: jobg8-2143764
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (15)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Receivable Controller
+company: Nigel Wright Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2207066
+reason: Broad regional label; not York-city evidence.
+---
 
 ---
 action: 
@@ -476,35 +464,11 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Paralegal
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225700091
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Part Time Administrator
 company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225788225
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part Time Administrator
-company: KD Recruitment Limited - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108271266
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
+- automatic include: 28
 - automatic review: 9
 - automatic exclude: 0
-- effective include: 29
+- effective include: 28
 - effective review: 9
 - effective exclude: 0
 
-## INCLUDE (29)
+## INCLUDE (28)
 
 ---
 action: 
@@ -105,18 +105,6 @@ company: Godwin Recruitment - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225259697
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Pontoon - Agency - Temporary
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225696402
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -220,11 +208,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Accounts Assistant
-company: Michael Page - Agency - Permanent
+title: Part Time Administrator
+company: Search Consultancy Ltd - Agency - Contract
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225764352
+job_id: jobg8-23643_225804778
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

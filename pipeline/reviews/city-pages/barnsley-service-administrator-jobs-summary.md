@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 10
 - automatic review: 11
-- automatic exclude: 60
-- effective include: 9
+- automatic exclude: 61
+- effective include: 10
 - effective review: 11
-- effective exclude: 60
+- effective exclude: 61
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Approved Barnsley catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Planning Administrator - Customer Service Support
+company: Hays Business Support - Agency - Temporary
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225806804
+reason: Approved Barnsley catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Practice Bookkeeper
 company: IPS Group - Agency - Permanent
 location: Barnsley
@@ -155,18 +167,6 @@ company: Office Angels - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225741868
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Factory Administrator
-company: E3 Recruitment - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225700713
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -235,6 +235,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2142627
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
 company: Portfolio Payroll Limited - Agency - Contract
 location: Yorkshire
 source: JobG8
@@ -266,7 +278,7 @@ job_id: jobg8-2153824
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (60)
+## EXCLUDE (61)
 
 ---
 action: 
@@ -301,18 +313,6 @@ company: Sewell Wallis Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225747949
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable / Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2164314
 reason: Separate employment market.
 ---
 
@@ -481,6 +481,18 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: Search Consultancy Ltd - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225806252
 reason: Separate employment market.
 ---
 
@@ -925,6 +937,18 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Administrator
+company: STEPS Rehabilitation
+location: Sheffield, S7 2QA
+source: NHS Jobs
+job_id: nhs-5687012
 reason: Separate employment market.
 ---
 

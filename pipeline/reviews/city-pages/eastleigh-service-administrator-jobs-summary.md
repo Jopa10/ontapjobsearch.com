@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 116
-- automatic exclude: 58
+- automatic review: 120
+- automatic exclude: 57
 - effective include: 3
-- effective review: 116
-- effective exclude: 58
+- effective review: 120
+- effective exclude: 57
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: jobg8-2211086
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (116)
+## REVIEW (120)
 
 ---
 action: 
@@ -312,6 +312,18 @@ location: Ringwood
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-66e679cb-65bb-4391-8ecd-a482bdaa6185
 reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Administrator
+company: Bright Selection Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225803614
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
 ---
@@ -726,6 +738,18 @@ reason: No approved Eastleigh employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Fleet Administrator
+company: Dynamite Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225801736
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Freight Operations Coordinator
 company: WR Logistics - Agency - Permanent
 location: Totton
@@ -762,12 +786,24 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Interim Commercial Administrator (12m FTC)
-company: Connect It Utility Services Limited - Agency - Permanent
+title: HR Administrator
+company: Liberty HR Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225698267
+job_id: jobg8-23643_225805865
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim HR Assistant
+company: Liberty HR Recruitment - Agency - Permanent
+location: Gosport
+source: JobG8
+job_id: jobg8-23643_225781879
+reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -918,6 +954,18 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
+title: Office/Scheduling Administrator
+company: Assured Fire Safety Consultancy Ltd - Agency - Permanent
+location: Fleet
+source: JobG8
+job_id: jobg8-23643_225736878
+reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Onboarding Coordinator
 company: Gattaca PLC - Agency - Permanent
 location: Hampshire
@@ -930,12 +978,12 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Operations & Scheduling Administrator
-company: Assured Fire Safety Consultancy Ltd - Agency - Permanent
-location: Fleet
+title: One Stop - Customer Service Assistant
+company: Tesco - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225736878
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
+job_id: jobg8-2244464
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
 ---
@@ -1170,6 +1218,18 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Clerk
+company: Aztec Landscapes - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225743339
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: OutThere RPO Ltd - Agency - Permanent
 location: Hampshire
@@ -1187,18 +1247,6 @@ company: Prospero Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225720582
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Repairs Planner Scheduler
-company: The Hyde Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225754287
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -1454,7 +1502,19 @@ job_id: jobg8-23643_225708197
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (58)
+## EXCLUDE (57)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Howett Thorpe - Agency - Permanent
+location: Aldershot
+source: JobG8
+job_id: jobg8-23643_225804729
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
 
 ---
 action: 
@@ -1489,18 +1549,6 @@ company: Office Angels - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-23643_225783077
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable Assistant
-company: CMA Recruitment Group - Agency - Temporary
-location: Fareham
-source: JobG8
-job_id: jobg8-23643_225698519
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1582,33 +1630,9 @@ decision: exclude
 automatic_decision: exclude
 title: Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO16 7AZ
-source: NHS Jobs
-job_id: nhs-5687091
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO40 8DX
 source: NHS Jobs
 job_id: nhs-5701836
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Mulberry Recruitment - Agency - Permanent
-location: Farnborough
-source: JobG8
-job_id: jobg8-23643_225698459
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1693,6 +1717,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO18 6BT, Chandlers Ford, SO53 3LG
 source: NHS Jobs
 job_id: nhs-5687108
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Home Administrator
+company: Avery Healthcare Group Ltd.
+location: Winchester, SO22 5JH
+source: NHS Jobs
+job_id: nhs-5710227
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1928,18 +1964,6 @@ reason: The stated workplace belongs outside the approved Eastleigh employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Invoicing Clerk
-company: Michael Page Finance - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2151241
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Laboratory Administrator / Archivist (Data Co-ordinator)
 company: DEKRA Organisational & Process Safety - Agency - Contract
 location: Southampton
@@ -2077,6 +2101,18 @@ company: CUBE Consulting - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225736919
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Representative
+company: PHL UK LTD - Agency - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-23643_225805266
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

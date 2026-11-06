@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 15
 - automatic review: 11
-- automatic exclude: 54
+- automatic exclude: 56
 - effective include: 15
 - effective review: 11
-- effective exclude: 54
+- effective exclude: 56
 
 ## INCLUDE (15)
 
@@ -234,18 +234,6 @@ reason: No approved Doncaster catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Factory Administrator
-company: E3 Recruitment - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225700713
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Family Legal Secretary
 company: SJC Partners - Agency - Permanent
 location: Yorkshire
@@ -307,6 +295,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2142627
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
 company: Portfolio Payroll Limited - Agency - Contract
 location: Yorkshire
 source: JobG8
@@ -338,7 +338,7 @@ job_id: jobg8-2153824
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (54)
+## EXCLUDE (56)
 
 ---
 action: 
@@ -373,18 +373,6 @@ company: Sewell Wallis Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225747949
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable / Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2164314
 reason: Separate employment market.
 ---
 
@@ -565,6 +553,18 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-2169132
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: Search Consultancy Ltd - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225806252
 reason: Separate employment market.
 ---
 
@@ -800,6 +800,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Planning Administrator - Customer Service Support
+company: Hays Business Support - Agency - Temporary
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225806804
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Practice Bookkeeper
 company: IPS Group - Agency - Permanent
 location: Barnsley
@@ -913,6 +925,18 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Administrator
+company: STEPS Rehabilitation
+location: Sheffield, S7 2QA
+source: NHS Jobs
+job_id: nhs-5687012
 reason: Separate employment market.
 ---
 

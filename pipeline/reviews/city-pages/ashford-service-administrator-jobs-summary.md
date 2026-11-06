@@ -4,7 +4,7 @@
 - Live route: `/ashford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 171
+- automatic include: 10
+- automatic review: 167
 - automatic exclude: 0
-- effective include: 9
-- effective review: 171
+- effective include: 10
+- effective review: 167
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Exact approved Ashford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: BUSINESS DEVELOPMENT EXECUTIVE - HUNTER
+company: Diamond Search Recruitment Ltd - Agency - Permanent
+location: Ashford
+source: JobG8
+job_id: jobg8-23643_225568309
+reason: Exact approved Ashford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Administrator
 company: Office Angels - Agency - Temporary
 location: Ashford
@@ -76,11 +88,11 @@ reason: Exact approved Ashford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Administrator
-company: TPF Recruitment - Agency - Permanent
-location: Ashford
-source: JobG8
-job_id: jobg8-2158726
+title: Procurement Administrator
+company: Integrated Care 24 Ltd
+location: Ashford, TN24 0GP
+source: NHS Jobs
+job_id: nhs-5710549
 reason: Exact approved Ashford workplace.
 ---
 
@@ -132,7 +144,7 @@ job_id: jobg8-2166470
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (171)
+## REVIEW (167)
 
 ---
 action: 
@@ -367,10 +379,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Hays Business Support - Agency - Temporary
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225757798
+company: Dr C.J. Shimmins & Partners
+location: Dartford, DA1 1QY
+source: NHS Jobs
+job_id: nhs-5709841
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -379,10 +391,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Pearson Whiffin Recruitment Ltd - Agency - Contract
-location: Gillingham
+company: Hays Business Support - Agency - Temporary
+location: Kent
 source: JobG8
-job_id: jobg8-23643_225699710
+job_id: jobg8-23643_225757798
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -431,18 +443,6 @@ company: Stone Lodge School
 location: Dartford
 source: Teaching Vacancies
 job_id: teaching-vacancies-admissions-officer-stone-lodge-school
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bid Administrator Kent
-company: Fawkes & Reece London - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225700463
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -611,6 +611,18 @@ company: Pinpoint Resourcing - Agency - Permanent
 location: Dartford
 source: JobG8
 job_id: jobg8-23643_225786013
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller. ASAP Start. Up to £38k
+company: Office Angels - Agency - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225806205
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -883,10 +895,10 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Administrator
-company: Michael Page Finance - Agency - Permanent
+company: Michael Page - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2203342
+job_id: jobg8-23643_225776304
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1051,18 +1063,6 @@ action:
 decision: review
 automatic_decision: review
 title: GP Receptionist
-company: Pilgrims Way Surgery
-location: Dartford, DA1 1QY
-source: NHS Jobs
-job_id: nhs-5635318
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist
 company: Sheppey Healthy Living Centre
 location: Sheerness, ME12 1HH, SHEERNESS, ME12 3LT
 source: NHS Jobs
@@ -1187,18 +1187,6 @@ company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Chatham
 source: JobG8
 job_id: jobg8-2198441
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Logistics Planner
-company: Four Jays Group - Agency - Permanent
-location: Maidstone
-source: JobG8
-job_id: jobg8-23643_225696655
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1415,18 +1403,6 @@ company: New Appointments Group - Agency - Permanent
 location: Westerham
 source: JobG8
 job_id: jobg8-23643_225792973
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-Time Accounts Assistant Dartford Temp to Perm
-company: Office Angels - Agency - Temporary
-location: Dartford
-source: JobG8
-job_id: jobg8-23643_225697973
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1722,18 +1698,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger
-company: Netbox Recruitment - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225698386
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchasing & Supply Planning Coordinator
 company: Trapeze Recruitment Services Ltd - Agency - Permanent
 location: Kent
@@ -1914,6 +1878,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Representative
+company: CJS Recruitment Limited - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225798756
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Support Administrator
 company: Birchley Consultancy Limited - Agency - Permanent
 location: Dartford
@@ -2075,18 +2051,6 @@ company: Huntress - Maidstone - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225792058
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Supply Chain Coordinator
-company: Michael Page - Agency - Permanent
-location: Maidstone
-source: JobG8
-job_id: jobg8-23643_225696704
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

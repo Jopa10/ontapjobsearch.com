@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 21
+- automatic include: 19
+- automatic review: 20
 - automatic exclude: 0
-- effective include: 17
-- effective review: 21
+- effective include: 19
+- effective review: 20
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (19)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Stafforce Recruitment - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225730083
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Administrator
+company: Edwards & Pearce - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225806293
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -112,18 +124,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Belmont Recruitment - Agency - Contract
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225787579
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Support - MK123
 company: Adecco - Agency - Contract
 location: Hull
@@ -153,6 +153,30 @@ company: GlobalData UK Ltd - Company - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225754589
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Health Centre Receptionist
+company: City Health Care Partnership CIC
+location: Hull, HU3 4AE
+source: NHS Jobs
+job_id: nhs-5709327
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: IT Asset Coordinator
+company: Deerfoot Recruitment Solutions Limited - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225803688
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -228,7 +252,7 @@ job_id: jobg8-23643_225713565
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (21)
+## REVIEW (20)
 
 ---
 action: 
@@ -275,18 +299,6 @@ company: SaB Consulting Yorkshire Limited - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225731702
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance & Reporting Administrator
-company: Consortium Professional Recruitment - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-2165745
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

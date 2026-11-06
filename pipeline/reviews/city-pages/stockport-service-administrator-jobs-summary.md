@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 31
+- automatic include: 15
+- automatic review: 30
 - automatic exclude: 0
-- effective include: 16
-- effective review: 31
+- effective include: 15
+- effective review: 30
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Adecco - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225761727
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Jobwise Ltd - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225695945
 reason: Exact approved Stockport workplace.
 ---
 
@@ -216,7 +204,7 @@ job_id: jobg8-23643_225744140
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (30)
 
 ---
 action: 
@@ -378,6 +366,18 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service & Sales Administrator
+company: Aspire Recruitment - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225805049
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: Search Consultancy Ltd - Agency - Contract
 location: Hyde
@@ -431,18 +431,6 @@ company: Halecroft Recruitment - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225783190
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Administration Assistant
-company: Hays Business Support - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225700535
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -575,18 +563,6 @@ company: Portfolio Payroll Limited - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225715889
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary HR Administrator
-company: Office Angels - Agency - Temporary
-location: Trafford
-source: JobG8
-job_id: jobg8-23643_225696497
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

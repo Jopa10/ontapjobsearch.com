@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 41
+- automatic include: 4
+- automatic review: 39
 - automatic exclude: 0
-- effective include: 5
-- effective review: 41
+- effective include: 4
+- effective review: 39
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225788225
-reason: Exact approved Scarborough workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time Administrator
-company: KD Recruitment Limited - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108271266
 reason: Exact approved Scarborough workplace.
 ---
 
@@ -84,17 +72,29 @@ job_id: nhs-5690490
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (39)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Magpie Recruitment - Agency - Permanent
-location: Richmond
+title: Accounts Assistant
+company: Headstar - Agency - Permanent
+location: York
 source: JobG8
-job_id: jobg8-2180626
+job_id: jobg8-2143415
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Controller
+company: Nigel Wright Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2207066
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -227,18 +227,6 @@ company: Consortium Professional Recruitment - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2163066
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Sewell Wallis Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225713571
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -390,35 +378,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225700091
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Administrator
 company: SF Partners - Agency - Temporary
 location: Easby
 source: JobG8
 job_id: jobg8-23643_225746977
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Finance Assistant
-company: Hays Accounts and Finance - Agency - Temporary
-location: York
-source: JobG8
-job_id: jobg8-23643_225696188
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -570,11 +534,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Service Coordinator
-company: Interaction - Leeds - Agency - Permanent
-location: Malton
+title: Temp Finance Administrator
+company: Office Angels - Agency - Permanent
+location: Richmond
 source: JobG8
-job_id: jobg8-108059238
+job_id: jobg8-2143764
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

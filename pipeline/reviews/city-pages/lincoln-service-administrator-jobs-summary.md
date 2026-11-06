@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 47
+- Effective included jobs: 45
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 47
+- automatic include: 45
 - automatic review: 12
 - automatic exclude: 0
-- effective include: 47
+- effective include: 45
 - effective review: 12
 - effective exclude: 0
 
-## INCLUDE (47)
+## INCLUDE (45)
 
 ---
 action: 
@@ -448,12 +448,12 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Clerk & Accounts Assistant
-company: Manpower UK - Agency - Permanent
-location: Lincolnshire
+title: Payroll Specialist
+company: Marble Mayne Recruitment - Agency - Permanent
+location: Lincoln
 source: JobG8
-job_id: jobg8-108115753
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+job_id: jobg8-2233430
+reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -520,18 +520,6 @@ reason: Exact approved Lincoln workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225767948
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist and Office Administrator
 company: Robert Doughty Consultancy - Agency - Permanent
 location: Lincolnshire
@@ -561,18 +549,6 @@ company: TEAM - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225785369
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Traffic Process Administration Assistant
-company: Adecco - Agency - Temporary
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225696261
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 

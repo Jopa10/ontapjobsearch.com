@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 56
+- automatic include: 10
+- automatic review: 54
 - automatic exclude: 0
-- effective include: 11
-- effective review: 56
+- effective include: 10
+- effective review: 54
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Alma Personnel - Agency - Permanent
 location: Walsall
 source: JobG8
 job_id: jobg8-23643_225710433
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator (Engineering)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225700062
 reason: Exact approved Walsall workplace.
 ---
 
@@ -156,7 +144,7 @@ job_id: jobg8-23643_225783436
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (54)
 
 ---
 action: 
@@ -318,6 +306,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Officer
+company: Black Country Healthcare NHS Foundation Trust
+location: Dudley, DY2 8PS
+source: NHS Jobs
+job_id: nhs-5710047
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Coordinator
 company: Kathryn Rose Consultancy Serviced Limited - Agency - Permanent
 location: Wolverhampton
@@ -395,18 +395,6 @@ company: Adecco - Agency - Temporary
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225743248
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Services Secretary/Administrator
-company: Gleeson Recruitment Group - Agency - Contract
-location: Dudley
-source: JobG8
-job_id: jobg8-23643_225698536
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -680,18 +668,6 @@ decision: review
 automatic_decision: review
 title: Sales Administrator
 company: Pertemps Black Country Perms - Agency - Permanent
-location: Halesowen
-source: JobG8
-job_id: jobg8-23643_225698996
-reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Pertemps Black Country Perms - Agency - Permanent
 location: West Bromwich
 source: JobG8
 job_id: jobg8-23643_225765372
@@ -780,18 +756,6 @@ location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225637300
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Black Country Healthcare NHS Foundation Trust
-location: Halesowen, B63 4SG
-source: NHS Jobs
-job_id: nhs-5681845
-reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 
 ---

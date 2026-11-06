@@ -223,10 +223,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Veolia - Agency - Permanent
+company: RGB Recruitment - Agency - Contract
 location: Exeter
 source: JobG8
-job_id: jobg8-23643_225718193
+job_id: jobg8-23643_225806631
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -235,10 +235,22 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: WR HVAC - Agency - Contract
+company: Servara Ltd - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225756253
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Veolia - Agency - Permanent
 location: Exeter
 source: JobG8
-job_id: jobg8-23643_225759209
+job_id: jobg8-23643_225718193
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -347,6 +359,18 @@ company: NHS Professionals - Company - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225780482
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Content Coordinator
+company: Donkey Sanctuary - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225805303
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -479,18 +503,6 @@ company: Premier Foods - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-108255868
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Coordinator
-company: Pertemps Plymouth - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225698382
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -750,6 +762,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Sales & Operations Administrator
+company: Pertemps Plymouth - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225804731
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator
 company: Contract Staffing Solutions Ltd - Agency - Permanent
 location: Exeter
@@ -824,9 +848,9 @@ decision: review
 automatic_decision: review
 title: Service Administrator
 company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
+location: Exeter, EX2 5DW, Exeter, EX1 2ED
 source: NHS Jobs
-job_id: nhs-5693833
+job_id: nhs-5709046
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -959,30 +983,6 @@ company: Devon Partnership NHS Trust
 location: BARNSTAPLE, EX31 4JB
 source: NHS Jobs
 job_id: nhs-5686114
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator
-company: Servara Ltd - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225756253
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Receptionist
-company: Hamilton Woods - Agency - Temporary
-location: Exeter
-source: JobG8
-job_id: jobg8-23643_225699564
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

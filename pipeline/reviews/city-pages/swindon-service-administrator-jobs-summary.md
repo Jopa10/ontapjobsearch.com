@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 21
-- automatic review: 31
+- automatic review: 33
 - automatic exclude: 0
 - effective include: 21
-- effective review: 31
+- effective review: 33
 - effective exclude: 0
 
 ## INCLUDE (21)
@@ -276,7 +276,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (33)
 
 ---
 action: 
@@ -312,6 +312,30 @@ location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225800069
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Boden Group - Agency - Contract
+location: Wiltshire
+source: JobG8
+job_id: jobg8-23643_225802381
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: HCRG Care Group
+location: Chippenham, SN15 2AJ
+source: NHS Jobs
+job_id: nhs-5711218
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -595,6 +619,18 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
+company: Thrive Group - Agency - Permanent
+location: Corsham
+source: JobG8
+job_id: jobg8-23643_225803345
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
 company: Tru Talent - Agency - Permanent
 location: Westbury
 source: JobG8
@@ -623,18 +659,6 @@ company: AlertSystems - Agency - Permanent
 location: Trowbridge
 source: JobG8
 job_id: jobg8-23643_225721467
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Oxford Health NHS Trust
-location: Melksham, SN12 7NZ
-source: NHS Jobs
-job_id: nhs-5683692
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

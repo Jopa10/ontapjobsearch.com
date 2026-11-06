@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 36
-- automatic exclude: 36
-- effective include: 8
-- effective review: 36
-- effective exclude: 36
+- automatic include: 9
+- automatic review: 35
+- automatic exclude: 39
+- effective include: 9
+- effective review: 35
+- effective exclude: 39
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Quality Control Administrator
+company: Morson Edge - Agency - Contract
+location: Oxford
+source: JobG8
+job_id: jobg8-23643_225804817
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/Front of House Co-ordinator
 company: Adecco - Agency - Permanent
 location: Oxford
@@ -120,7 +132,7 @@ job_id: jobg8-23643_225746493
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (36)
+## REVIEW (35)
 
 ---
 action: 
@@ -330,6 +342,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator ( 12 Month FTC)
+company: hireful - Company - Contract
+location: Henley-On-Thames
+source: JobG8
+job_id: jobg8-23643_225804275
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Procurement Administrator
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Witney
@@ -359,18 +383,6 @@ company: Berry Recruitment - Agency - Permanent
 location: Didcot
 source: JobG8
 job_id: jobg8-23643_225744516
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Office Administrator (Temporary)
-company: Planet Recruitment - Agency - Temporary
-location: Didcot
-source: JobG8
-job_id: jobg8-23643_225698887
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -462,18 +474,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Technical Administrator
-company: Cameo Consultancy - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-23643_225764102
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Technical Publications Administrator
 company: Planet Recruitment - Agency - Permanent
 location: Abingdon
@@ -554,7 +554,19 @@ job_id: jobg8-108158397
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (39)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Downtown Recruitment - Agency - Temporary
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225806209
+reason: Broad county location; not Oxford-city evidence.
+---
 
 ---
 action: 
@@ -620,6 +632,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Care Coordinator
+company: Thomas Gray Ltd - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225806426
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Administrator
 company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -668,11 +692,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance and Resources Administrator
-company: Church Mission Society - Agency - Permanent
+title: Finance Assistant
+company: Philosophy Education - Agency - Contract
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2213585
+job_id: jobg8-23643_225792217
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -680,11 +704,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: Philosophy Education - Agency - Contract
+title: HR & Finance Administrator
+company: Earthwatch Europe - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225792217
+job_id: jobg8-2233425
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -793,6 +817,18 @@ company: Headliners Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225749824
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Executive
+company: Plus One Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225716302
 reason: Broad county location; not Oxford-city evidence.
 ---
 

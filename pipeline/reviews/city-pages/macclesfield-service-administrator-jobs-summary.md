@@ -174,11 +174,35 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: Adecco - Agency - Permanent
+location: Middlewich
+source: JobG8
+job_id: jobg8-23643_225802150
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Assistant / Purchase Ledger Clerk
 company: Anderson Wright Consulting - Agency - Permanent
 location: Sandbach
 source: JobG8
 job_id: jobg8-23643_225721970
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Clerk
+company: Dickson O'Brien - Agency - Permanent
+location: Middlewich
+source: JobG8
+job_id: jobg8-23643_225802620
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -342,18 +366,6 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Rope Green Medical Centre
-location: Crewe, CW2 5DA
-source: NHS Jobs
-job_id: nhs-5692369
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Coordinator
 company: Forrest Recruitment - Agency - Permanent
 location: Wilmslow
@@ -455,18 +467,6 @@ company: CCA Recruitment Group - Agency - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-23643_225710668
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225699918
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

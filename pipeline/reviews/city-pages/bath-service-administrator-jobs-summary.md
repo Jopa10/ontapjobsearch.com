@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 79
+- automatic include: 7
+- automatic review: 81
 - automatic exclude: 0
-- effective include: 6
-- effective review: 79
+- effective include: 7
+- effective review: 81
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (7)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: HCRG Care Group
+location: Bath, BA2 5RP
+source: NHS Jobs
+job_id: nhs-5711219
+reason: Exact approved Bath workplace.
+---
 
 ---
 action: 
@@ -96,7 +108,7 @@ job_id: jobg8-2188896
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (79)
+## REVIEW (81)
 
 ---
 action: 
@@ -239,6 +251,18 @@ company: Veolia - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225745153
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bikeability Delivery Administrator
+company: Life Cycle - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2236813
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -455,6 +479,18 @@ company: InAnyEvent - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2175432
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Facilities Administrator
+company: Jones Lang LaSalle Limited - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108284517
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -690,6 +726,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Marketing/Business Development Coordinator
+company: Flux Consulting - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225355733
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Administrator
 company: The Old School Surgery
 location: Bristol, BS16 1QY
@@ -822,18 +870,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Miller Homes - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225790462
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist - Temporary
 company: Office Angels - Agency - Permanent
 location: Bristol
@@ -875,18 +911,6 @@ company: Alexander Mae HR Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225104066
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225698115
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -995,6 +1019,18 @@ company: First Military Recruitment Ltd - Agency - Permanent
 location: Yate
 source: JobG8
 job_id: jobg8-23643_225746132
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Elix Sourcing Solutions - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225806749
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

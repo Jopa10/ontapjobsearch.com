@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 17
-- automatic exclude: 27
+- automatic review: 16
+- automatic exclude: 25
 - effective include: 2
-- effective review: 17
-- effective exclude: 27
+- effective review: 16
+- effective exclude: 25
 
 ## INCLUDE (2)
 
@@ -48,19 +48,7 @@ job_id: jobg8-2205079
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (17)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Magpie Recruitment - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-2180626
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
+## REVIEW (16)
 
 ---
 action: 
@@ -246,15 +234,39 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Service Coordinator
-company: Interaction - Leeds - Agency - Permanent
-location: Malton
+title: Temp Finance Administrator
+company: Office Angels - Agency - Permanent
+location: Richmond
 source: JobG8
-job_id: jobg8-108059238
+job_id: jobg8-2143764
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (25)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Headstar - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2143415
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Receivable Controller
+company: Nigel Wright Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2207066
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
 
 ---
 action: 
@@ -356,18 +368,6 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Administrator
-company: Sewell Wallis Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225713571
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR Assistant (Maternity Cover)
 company: Joseph Rowntree - Agency - Permanent
 location: York
@@ -440,18 +440,6 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Paralegal
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225700091
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Part Time Administrator
 company: KD Recruitment - Agency - Permanent
 location: Scarborough
@@ -464,35 +452,11 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part Time Administrator
-company: KD Recruitment Limited - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108271266
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Part Time Administrator (Fixed Term Contract - 9 Months)
 company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225782883
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part Time Finance Assistant
-company: Hays Accounts and Finance - Agency - Temporary
-location: York
-source: JobG8
-job_id: jobg8-23643_225696188
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
