@@ -3,7 +3,7 @@
   "status": "preview-read-only-retention-measurement-complete",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
-  "branchHead": "246c559a81015d97a78751422ab81c546efa9777",
+  "branchHeadAtMeasurement": "246c559a81015d97a78751422ab81c546efa9777",
   "pullRequest": {
     "number": 336,
     "state": "open",
@@ -14,7 +14,7 @@
     "deploymentId": "dpl_F9SrnKbYnomCCfZUnzSudfa3RthG",
     "deploymentUrl": "https://ontapjobsearch-eg3dbtpvt-ontap1.vercel.app",
     "deploymentState": "READY",
-    "environment": "Preview (guard asserted VERCEL_ENV=preview)",
+    "environment": "Preview; VERCEL_ENV guard passed",
     "sourceCommit": "246c559a81015d97a78751422ab81c546efa9777",
     "measuredAt": "2026-11-07T10:09:58.568Z",
     "neonProjectId": "noisy-fire-97386602",
@@ -43,11 +43,12 @@
     "expiryEnabled": false,
     "purgeExecuted": false,
     "productionChangedByThisCheck": false,
-    "emailsSentByThisCheck": false
+    "emailsSentByThisCheck": false,
+    "productionDeploymentIdBeforeAndAfter": "dpl_54dwrmhDSetau9bqnaL2QFzBD5nA"
   },
-  "latestSelectorToPostReviewProductionComparisons": {
-    "2026-11-05": "complete; exact ID parity, do not repeat",
-    "2026-11-06": "complete; exact ID parity, do not repeat"
+  "completedComparisons": {
+    "2026-11-05": "selector-to-post-review-production ID parity exact; do not repeat",
+    "2026-11-06": "selector-to-post-review-production ID parity exact; do not repeat"
   },
   "nextAction": "On 2026-11-08, repeat only this Preview read-only retention measurement with inclusive cutoff DATE '2026-11-05'. Do not rerun the 5 November integration or 5/6 November selector-to-published-output comparisons."
 }
