@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-06
-review_fingerprint: 314271c640313a24ca15a90df3fe5cefdced0c4dc86ab410e44bf00c3f87c103
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: 14964fb3dcf4aff712685a5a34e881859874cb3b94ad5e6740257bc70e8d71ff
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 57
+- Records: 54
 - Selected: 7
-- POSS awaiting decision: 18
+- POSS awaiting decision: 16
 - Excluded: 0
-- Hard pass: 32
+- Hard pass: 31
 
 ## SELECTED
 
@@ -160,21 +160,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-POSS | London | London, London, E17 8HA | £31,290.00 - £33,129.00 Annually (FTE) Term-Time + 5 Inset days & 4 Plus days | Administration Officer
-employer: Sybourn Primary School
-closing_date: 2026-11-06T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c0f742d04f16b593f1dc2f848f95c2409d3cac934510e207926432a739086a9d
-source: Teaching Vacancies
-source_job_id: administration-officer-sybourn-primary-school-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-sybourn-primary-school-london
----
-
----
-action: 
 POSS | London | London, London, NW2 1TR | £33,129.00 - £35,628.00 Annually (FTE) Salary subject to skills and previous experiance | Administrative Assistant
 employer: Mapledown School
 closing_date: 2026-11-20T23:59:00+00:00
@@ -246,21 +231,6 @@ factual_fingerprint: bd545e9625634d481e60757b3431c1a90ae7ceaba5018e2d3bf685811ed
 source: Teaching Vacancies
 source_job_id: data-officer-prendergast-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-prendergast-school
----
-
----
-action: 
-POSS | London | Feltham, TW13 4AB | £30,867.00 - £35,158.00 Annually (FTE) (SA6) (pay award pending) | Finance Assistant
-employer: Reach Schools
-closing_date: 2026-11-06T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e8964bd470f9b65d1f5d7bf80f923d0b3e49d74ee678b5ae7f514a276f6ba939
-source: Teaching Vacancies
-source_job_id: finance-assistant-reach-schools
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-reach-schools
 ---
 
 ---
@@ -427,7 +397,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c5500de0-8688-44f2-9650-5f16af71c014) — Excluded senior/management title.
 - [Operations Manager - Havering Secondary Hub](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-havering-secondary-hub) — Excluded senior/management title.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-girls-learning-trust) — Insufficient admin/service evidence.
-- [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Excluded senior/management title.
 - [Receptionist (0.53FTE, Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/receptionist-0-53fte-maternity-cover) — No usable numeric salary.
 - [School Business and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-and-operations-manager-stanhope-primary-school-greenford) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school) — Excluded senior/management title.

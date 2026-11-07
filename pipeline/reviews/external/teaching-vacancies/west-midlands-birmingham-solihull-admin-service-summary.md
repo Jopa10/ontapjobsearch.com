@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-06
-review_fingerprint: d4da16e828ed13cc831c6e37016a432a238f00adfb180784f53343858f686259
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: 9e4e91663f4d81d5bb5745d7ecd86e686dbc0162d5ae26f080b9f0cf8ad37b5b
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 7
-- POSS awaiting decision: 3
+- Records: 16
+- Selected: 6
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 6
 
 ## SELECTED
 
@@ -111,21 +111,6 @@ source_job_id: receptionist-admin-assistant-king-edward-vi-aston-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-king-edward-vi-aston-school
 ---
 
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B42 2TU | £24,723.00 - £31,271.00 Annually (Actual) | SEND Administrator
-employer: Prince Albert High School
-closing_date: 2026-11-20T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2acddf68090f590a31fdb290deb523752e6620fd5a5b0e10315dd1c3d9dc678f
-source: Teaching Vacancies
-source_job_id: send-administrator-prince-albert-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-prince-albert-high-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -173,17 +158,30 @@ source_job_id: school-administrator-holy-name-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-holy-name-catholic-primary-school
 ---
 
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B42 2TU | £24,723.00 - £31,271.00 Annually (Actual) | SEND Administrator
+employer: Prince Albert High School
+closing_date: 2026-11-20T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2acddf68090f590a31fdb290deb523752e6620fd5a5b0e10315dd1c3d9dc678f
+source: Teaching Vacancies
+source_job_id: send-administrator-prince-albert-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-prince-albert-high-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-thrive-education-partnership) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-moseley-school-and-sixth-form-birmingham-west-midlands) — Excluded senior/management title.
 - [Head of Talent and Workforce Planning](https://teaching-vacancies.service.gov.uk/jobs/head-of-talent-and-workforce-planning) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-heights-academy-solihull) — Excluded senior/management title.
-- [Recruitment & Compliance Lead and Executive Assistant to the Principal](https://teaching-vacancies.service.gov.uk/jobs/recruitment-compliance-lead-and-executive-assistant-to-the-principal) — Out-of-scope occupation: principal.
 - [SENIOR ACADEMY ADMINISTRATOR](https://teaching-vacancies.service.gov.uk/jobs/senior-academy-administrator-heathlands-primary-academy) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fairway-primary-academy-birmingham-west-midlands) — Excluded senior/management title.
 - [Senior Office Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-office-manager-the-dame-ellen-pinsent-school) — Excluded senior/management title.

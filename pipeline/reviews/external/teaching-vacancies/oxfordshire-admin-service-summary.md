@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-06
-review_fingerprint: e33040e9821ba46393180d463b28c7ed657a7c7e7ec22d4b821c2cde35210999
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: 75435a2aafd2902f6daca881df3c792f84286abb4b47537e5012ea5c32ece8cf
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
-- POSS awaiting decision: 0
+- Records: 13
+- Selected: 6
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Oxfordshire | Wallingford, South East, OX10 8HH | £27,182.00 - £29,014.00 Annually (Actual) | Attendance Officer
+employer: Wallingford School
+closing_date: 2026-11-19T10:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d2425140ecc2a7730aa6595bd75b5a893ede28a8a67e632516859c3116f2e6e7
+source: Teaching Vacancies
+source_job_id: attendance-officer-wallingford-school-wallingford-oxfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-wallingford-school-wallingford-oxfordshire
+---
+
+---
+action: 
 SELECTED | Oxfordshire | Abingdon, South East, OX14 4JF | £26,017.00 - £26,429.00 Annually (FTE) | Finance and Health and Safety Admin Assistant
 employer: Drayton Community Primary School
 closing_date: 2027-01-08T12:00:00+00:00
@@ -49,21 +64,6 @@ factual_fingerprint: 7a1a6224fab873cf6c9c725fabea5947ea1517375c4a1be2b2379cb49ed
 source: Teaching Vacancies
 source_job_id: finance-and-health-and-safety-admin-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-health-and-safety-admin-assistant
----
-
----
-action: 
-SELECTED | Oxfordshire | Oxford, OX2 9JE | £32,578.00 - £35,570.00 Annually (FTE) | Finance Officer
-employer: Acer Trust
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3a9f75d1056f7302c031942a8c79c25bd919d789b82ffb5367ca9b757fd45290
-source: Teaching Vacancies
-source_job_id: finance-officer-acer-trust-oxford-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-trust-oxford-not-recorded
 ---
 
 ---
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/procurement-administr
 
 ---
 action: 
+SELECTED | Oxfordshire | Faringdon, South East, SN7 7XE | £27,709.00 - £30,023.00 Annually (FTE) Actual salary in the region £12,224 - £13266 | School Administrator
+employer: Folly View Primary
+closing_date: 2026-11-18T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 009becfffedf24fe6121695a372df40c65070135dab14ba544e2d348e21fdd00
+source: Teaching Vacancies
+source_job_id: school-administrator-folly-view-primary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-folly-view-primary
+---
+
+---
+action: 
 SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £26,016.00 - £26,427.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 30 hours per week/38 weeks per year. Actual annual salary in the region of £17,686 to £17,965 | Student Services Administrator
 employer: Faringdon Community College
 closing_date: 2026-11-09T12:00:00+00:00
@@ -98,7 +113,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Oxfordshire | Oxford, OX2 9JE | £32,578.00 - £35,570.00 Annually (FTE) | Finance Officer
+employer: Acer Trust
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3a9f75d1056f7302c031942a8c79c25bd919d789b82ffb5367ca9b757fd45290
+source: Teaching Vacancies
+source_job_id: finance-officer-acer-trust-oxford-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-trust-oxford-not-recorded
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -110,6 +138,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 - [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
 - [RLT Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/rlt-fundraising-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-carterton-primary-school) — Excluded senior/management title.
+- [School Health & Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/school-health-safety-and-compliance-officer) — Insufficient admin/service evidence.
 - [Welfare and Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-personal-care-assistant-4d28f01b-0774-4814-980a-aaa4df4dfb79) — Insufficient admin/service evidence.
 
 ## Safety boundary

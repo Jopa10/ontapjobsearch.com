@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-06
-review_fingerprint: d1580eb163e07a6f489726c5884b24c7f23684a3826c8cacc158170e4f4c02b8
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: 1ed64c026a8f432e35a46eb2070de738708730818a2fac9a9f512fc25007ad95
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 2
-- POSS awaiting decision: 5
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 2
 
@@ -52,21 +52,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stephens
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK8 0PU | £9,700.00 Annually (Actual) | Payroll and HR Support Administrator
-employer: The Woodlands School
-closing_date: 2026-11-06T23:59:00+00:00
-reason: Part-time finance requires actual earnings/hours and qualification checks
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c1afe2ef706425f5c7ff7a3a42f80056bc1ed23ec7cb6dbc1ed4ecda2ffed672
-source: Teaching Vacancies
-source_job_id: payroll-and-hr-support-administrator-the-woodlands-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-support-administrator-the-woodlands-school
----
 
 ---
 action: 

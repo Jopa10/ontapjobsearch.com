@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-06
+review_date: 2026-11-07
 review_fingerprint: fadf084aebf2c32868db1c9c4e806402a463209dccf32119610e5ae61b6a1213
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 14
 
 ## SELECTED
 
@@ -78,7 +78,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-admirals-academy) — No usable numeric salary.
 - [Admissions and Marketing Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-coordinator-university-technical-college-norfolk) — Insufficient admin/service evidence.
-- [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk-norwich-norfolk) — Insufficient admin/service evidence.
 - [Business and Student Services Degree Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-and-student-services-degree-apprentice) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-toftwood-infant-school) — No usable numeric salary.

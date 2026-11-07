@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-06
-review_fingerprint: 4206d8bf040903c9b42b0ba8282bc3d748883bb118f1d56643222c6c8c2b1b56
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: 7cffaf69c7338175d33cca950dfead342e5c47cdc4d4bd458d0ef9dc267521f1
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 6
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
 
@@ -115,21 +115,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-POSS | Cambridgeshire | Cambridge, East of England, CB1 3RL | £26,427.00 - £26,847.00 Annually (FTE) NJC 5-6 - salary advertised is FTE, salary paid will be pro rata based on hours/weeks worked | Administrator
-employer: Ridgefield Primary School
-closing_date: 2026-11-06T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c5ce5036d1aa1160c75139462a8da2d18728a0964c12882da7730c1f539ed374
-source: Teaching Vacancies
-source_job_id: administrator-ridgefield-primary-school-cambridge-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ridgefield-primary-school-cambridge-cambridgeshire
----
-
----
-action: 
 POSS | Cambridgeshire | St Ives, East of England, PE27 6RR | £42,405.00 Annually (Actual) | Finance Manager (Fixed Term Maternity Cover)
 employer: St Ivo Academy
 closing_date: 2026-11-15T23:59:00+00:00
@@ -166,11 +151,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 
 - [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-cambridge-maths-school) — No usable numeric salary.
 - [Alternative Provision Coordinator](https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-coordinator-ormiston-bushfield-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.
+- [Business Services Support Officer](https://teaching-vacancies.service.gov.uk/jobs/business-services-support-officer-the-active-learning-trust-limited) — Insufficient admin/service evidence.
 - [Cleaner](https://teaching-vacancies.service.gov.uk/jobs/cleaner-34934dbc-6989-4466-8253-34da9a9f27cb) — Out-of-scope occupation: cleaner.
 - [Finance / HR manager](https://teaching-vacancies.service.gov.uk/jobs/finance-hr-manager-queen-s-drive-infant-school-peterborough-cambridgeshire) — Excluded senior/management title.
 - [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-st-luke-s-cofe-primary-school-cambridge-cambridgeshire) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-63fc363b-9f14-46e2-b6b0-70de6e80f84c) — Excluded senior/management title.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-werrington-primary-school) — Excluded senior/management title.
 - [Reception Services](https://teaching-vacancies.service.gov.uk/jobs/reception-services-6d613bb3-be77-444c-9df1-ecc49b46685d) — Insufficient admin/service evidence.
 - [School Receptionist & Finance Assistant (Temporary)](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-finance-assistant-temporary) — No usable numeric salary.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-06
+review_date: 2026-11-07
 review_fingerprint: 7d46b2214cedfa812f2734e8f922f1c9c691c7774f39f3bf8ef654ff944e6d85
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 22
 - Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
 
@@ -183,6 +183,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 - [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
 - [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Excluded senior/management title.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer-bradfield-c-e-primary-school) — Insufficient admin/service evidence.
+- [Health Safety & Welfare Manager](https://teaching-vacancies.service.gov.uk/jobs/health-safety-welfare-manager) — Excluded senior/management title.
 - [IT Technician](https://teaching-vacancies.service.gov.uk/jobs/it-technician-slough-and-eton-church-of-england-business-and-enterprise-college) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-girls-school-slough) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-06
+review_date: 2026-11-07
 review_fingerprint: da379b81e6020420b8c5208388fdab0f96e6ebbb3952e692dc3ac9529be63073
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -179,13 +179,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 
 ## HARD_PASS
 
+- [Assistant Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-administration-manager-shirebrook-academy) — Excluded senior/management title.
 - [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy-nottingham-nottinghamshire) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-ashfield-comprehensive-school) — Excluded senior/management title.
 - [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-djanogly-city-academy) — Insufficient admin/service evidence.
 - [People Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-business-partner-nova-education-trust) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c46abdbf-b851-4f98-b51c-c939f0fd7919) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hawthorne-primary-and-nursery-school) — Excluded senior/management title.
-- [School Resource Officer](https://teaching-vacancies.service.gov.uk/jobs/school-resource-officer-endeavour-academy) — Insufficient admin/service evidence.
 - [Senior Office Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrative-assistant) — Excluded senior/management title.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-06
+review_date: 2026-11-07
 review_fingerprint: 53d43cf0685371700334b4a7a9a5aed5af87a9343af9a9f6f2fb30774c02e88e
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -83,6 +83,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assista
 - [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-wixams-academy) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-212db2cc-f077-4618-b1ff-eb892f942ee3) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-templefield-lower-school-bedford-bedfordshire) — Excluded senior/management title.
+- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-380e0b53-9601-45ec-b27b-2407ffe82d18) — Excluded senior/management title.
 - [Science Technician](https://teaching-vacancies.service.gov.uk/jobs/science-technician-daubeney-academy-bedford-bedfordshire) — Out-of-scope occupation: technician.
 
 ## Safety boundary

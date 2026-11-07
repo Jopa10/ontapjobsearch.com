@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-06
+review_date: 2026-11-07
 review_fingerprint: 3dad9d9781b719657f41b0a4586e9f96b24cd2c5db43f0041a7a1b7d5f0d4a36
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
+- Records: 28
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 21
+- Hard pass: 23
 
 ## SELECTED
 
@@ -110,6 +110,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-heig
 - [Apprentice Business Administration Assistant (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-administration-assistant-level-3) — No usable numeric salary.
 - [Attendance Leader](https://teaching-vacancies.service.gov.uk/jobs/attendance-leader-appleton-academy-bradford-west-yorkshire) — Excluded senior/management title.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-leodis-academies-trust) — Excluded senior/management title.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-north-halifax-grammar-school) — Excluded senior/management title.
 - [Data Protection Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-officer-waterton-academy-trust) — Salary over £50k.
 - [Employee Relations Specialist](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — No usable numeric salary.
@@ -122,6 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-heig
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-heaton-primary) — Excluded senior/management title.
 - [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team) — Excluded senior/management title.
 - [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.
+- [Quality Coordinator](https://teaching-vacancies.service.gov.uk/jobs/quality-coordinator) — Insufficient admin/service evidence.
 - [SEN Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/sen-administration-assistant-horbury-academy-wakefield-west-yorkshire) — Insufficient admin/service evidence.
 - [Trust Data & Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-systems-analyst) — Insufficient admin/service evidence.
 - [Work Placement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/work-placement-coordinator-outwood-grange-academy-wakefield-west-yorkshire) — No usable numeric salary.

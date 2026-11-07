@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-06
+review_date: 2026-11-07
 review_fingerprint: 39bc26606524501938179fa50d2bb8f5f963f0f456d304a6f89999f9e36515d3
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 13
 - Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -153,7 +153,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administration-a
 - [Data Analyst](https://teaching-vacancies.service.gov.uk/jobs/data-analyst-franklin-sixth-form-college) — Insufficient admin/service evidence.
 - [Exams & Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-assessment-officer-421a01f6-51ed-4038-8b47-674f51d21e5d) — Insufficient admin/service evidence.
 - [Health, Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/health-safety-and-compliance-officer-voyage-education-partnership) — Insufficient admin/service evidence.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-harbour-learning-trust) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-de-aston-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

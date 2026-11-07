@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-11-06
+review_date: 2026-11-07
 review_fingerprint: 9beb286ddc064d5645f4b247cd67a4a3f476d2c1b0db1e555caae9e4e44b3309
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -64,7 +64,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-
 - [Administration Officer with responsibility for Finance](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-with-responsibility-for-finance) — No usable numeric salary.
 - [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-the-bishop-of-winchester-academy-bournemouth-dorset) — Insufficient admin/service evidence.
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-the-bishop-of-winchester-academy) — No usable numeric salary.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-oak-academy) — No usable numeric salary.
 - [MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/mis-officer-the-bishop-of-winchester-academy) — Insufficient admin/service evidence.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-st-joseph-s-catholic-primary-school-poole) — Excluded senior/management title.
 - [Work Experience and Future Pathways Administrator](https://teaching-vacancies.service.gov.uk/jobs/work-experience-and-future-pathways-administrator-parkstone-grammar-school-poole-dorset) — No usable numeric salary.

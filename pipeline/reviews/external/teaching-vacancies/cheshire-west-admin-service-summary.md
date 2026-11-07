@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-11-06
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: 7d5536a833ffd9f7ea84378c426bb27e02c909a45068356becb7ff694d02f675
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 0
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Cheshire - West | Chester, North West, CH3 8LS | £26,016.00 Annually (FTE) See Main Advert | General Administrative Assistant
+employer: Tarvin Primary School
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 01b25bb5a6db7da7f8e0617651713187e22d36c1668f06727bb1f706aacf2d57
+source: Teaching Vacancies
+source_job_id: general-administrative-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrative-assistant
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

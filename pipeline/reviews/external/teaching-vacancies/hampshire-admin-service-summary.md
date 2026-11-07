@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-06
+review_date: 2026-11-07
 review_fingerprint: 77e122c00d7d06e95f425b5d294fb7fe1f6bf1948472cdea3d3743f05cea2498
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -48,7 +48,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-har
 
 - [Administration Manager (Primary)](https://teaching-vacancies.service.gov.uk/jobs/administration-manager-primary) — Excluded senior/management title.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-haylands-primary-school) — Excluded senior/management title.
-- [HR Advisor (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-fixed-term-king-s-group-academies) — Insufficient admin/service evidence.
 - [Lead Receptionist](https://teaching-vacancies.service.gov.uk/jobs/lead-receptionist-ringwood-school-academy) — Excluded senior/management title.
 
 ## Safety boundary

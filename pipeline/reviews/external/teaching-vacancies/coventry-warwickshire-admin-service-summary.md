@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-06
-review_fingerprint: 2383c8c57c14736dce06b768ff958974eb3a8d1c5589bbb80ca8bcc8245dc6f0
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: 25f21c3b536efefff4a53b902dc40fa2c455693a2a6b052b5ddc87cccebb0039
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 9
-- Selected: 2
-- POSS awaiting decision: 1
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6DY | £22,318.00 - £24,756.00 Annually (Actual) | ECHP Administrator
+employer: Brooke School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 78558bc5de531c13d5f7f8e665dc5de4d46d96652ff9c6a7eb711cc9248e30ed
+source: Teaching Vacancies
+source_job_id: echp-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/echp-administrator
+---
+
+---
+action: 
 SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV4 9WT | £25,614.00 - £26,016.00 Annually (FTE) GRADE 2, Actual Salary £22,227 - £22,575.86 | Receptionist
 employer: Finham Park 2
 closing_date: 2026-11-09T09:00:00+00:00
@@ -53,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finham-p
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6DY | £22,318.00 - £24,756.00 Annually (Actual) | ECHP Administrator
-employer: Brooke School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 78558bc5de531c13d5f7f8e665dc5de4d46d96652ff9c6a7eb711cc9248e30ed
-source: Teaching Vacancies
-source_job_id: echp-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/echp-administrator
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-06
-review_fingerprint: e91a6f627a5734ddc0265a02fff8f5e9be7e13fa325885651d2bd04e9b717997
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: 751c04960e5b20e77b5ab70125a6b0b5cbb79d615569796dc0e5a4dd0b93b6ad
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 4
+- Records: 19
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 14
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: d9d3e13e8c111179a58a2b6c84a1f36f698f95b22789e6d7df0c55a6643
 source: Teaching Vacancies
 source_job_id: receptionist-and-administrator-52-or-42-weeks-considered-sheffield-park-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-52-or-42-weeks-considered-sheffield-park-academy
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S25 2QZ | SCP 5 - 6 £25,583 - £25,989 (pay award pending) | School Admin Assistant
-employer: Anston Park Infant School
-closing_date: 2026-11-06T23:59:59+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 467e15fc8ab8ef5d755b2a068bc178de4c0b331e51d09bc939345c03b3afa793
-source: Teaching Vacancies
-source_job_id: school-admin-assistant-anston-park-infant-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-admin-assistant-anston-park-infant-school
 ---
 
 ---
@@ -131,7 +116,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-af25a6a1-1704-464a-aa02-94005bbeab49) — Salary over £50k.
 - [Inclusion Officer (Alternative Provision)](https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-alternative-provision-sir-thomas-wharton-academy) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy-rotherham-south-yorkshire) — Excluded senior/management title.
-- [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner) — Salary over £50k.
 - [Senior Technician Mechanical Engineering](https://teaching-vacancies.service.gov.uk/jobs/senior-technician-mechanical-engineering) — Out-of-scope occupation: technician.
 - [Strategic Attendance and Family Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/strategic-attendance-and-family-engagement-lead) — Excluded senior/management title.
 

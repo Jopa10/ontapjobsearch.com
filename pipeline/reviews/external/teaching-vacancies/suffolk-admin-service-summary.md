@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-06
-review_fingerprint: 35b7e534b763cc1c4afdf1398b7c247fb1fc8815a1694df1dbaf9fca78dbff3b
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: 218a6e65528e1e303e3c2c2105cb65d79c6c3f9acc557592b037d20bd1606d51
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Suffolk | Ipswich, East of England, IP1 6QD | £26,016.00 - £26,847.00 Annually (FTE) Grade 3, Point 4 to Point 6 | Attendance Administrator
+employer: Castle Hill Junior School
+closing_date: 2026-11-16T13:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f98b0ff5b5dcf5ce5edf587ec8a345aa88d81b61f80a2f76a015b6d54acfca1d
+source: Teaching Vacancies
+source_job_id: attendance-administrator-castle-hill-junior-school-ipswich-suffolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-castle-hill-junior-school-ipswich-suffolk
+---
 
 ---
 action: 

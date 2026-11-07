@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-06
+review_date: 2026-11-07
 review_fingerprint: ed171b443224d9d8863b71952de2e49f8c4e9ea2be2ee8a3b65ad2e00da4395a
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 20
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 17
 
 ## SELECTED
 
@@ -90,6 +90,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-1ab8b680-19b9-400d-b2ad-e7ffeda3ad14) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy) — Excluded senior/management title.
 - [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school-axminster-devon) — Excluded senior/management title.
+- [Skills Planning Analyst](https://teaching-vacancies.service.gov.uk/jobs/skills-planning-analyst) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

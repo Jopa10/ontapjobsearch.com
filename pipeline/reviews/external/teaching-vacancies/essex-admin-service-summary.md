@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-06
+review_date: 2026-11-07
 review_fingerprint: cf847a158ceb100ff7b1538652701b70f72bf067a0e5bc0b062e1af4ba61203f
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 13
 - Selected: 0
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -94,7 +94,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-clacton-
 - [Careers Assistant](https://teaching-vacancies.service.gov.uk/jobs/careers-assistant-st-martin-s-school-brentwood-brentwood-essex) — Insufficient admin/service evidence.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.
 - [Operations Manager - Harwich](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-harwich) — Excluded senior/management title.
-- [Pastoral Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-assistant-the-fitzwimarc-school) — Insufficient admin/service evidence.
 - [Payroll and Pension Analyst](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pension-analyst) — Salary over £50k.
 - [Recruitment Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-manager-south-east-essex-academy-trust) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-the-eastwood-academy) — Excluded senior/management title.

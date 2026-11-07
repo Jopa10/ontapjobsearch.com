@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-11-06
+review_date: 2026-11-07
 review_fingerprint: a55a481c46d33482b90bb3dd68d27d7478c406e5e50f1902d9808d6ae84ba24b
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -76,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-mary-s-rc-primary-school-horwich-bolton-lancashire) — Excluded senior/management title.
 - [Senior Administration Officer (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-fixed-term) — Excluded senior/management title.
 - [Student Behaviour Administrator](https://teaching-vacancies.service.gov.uk/jobs/student-behaviour-administrator-outwood-academy-hindley) — No usable numeric salary.
 

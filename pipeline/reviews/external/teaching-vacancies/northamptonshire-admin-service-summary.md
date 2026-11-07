@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-06
-review_fingerprint: 4a72f1f7cdd2b2b02a22a046bf0cceae9b39e305437316dc73b1610dc26d8c35
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: 764d04e86fc625a5a9e808587486bce09cd01be00a1612b01172fc11354a0d81
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 8
+- Records: 10
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN2 6JW | £26,016.00 Annually (FTE) NJC4 : £22,234.28pa pro rata - term time | Academy Administrator
-employer: Malcolm Arnold Academy
-closing_date: 2026-11-06T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4aace4466467638d5d81c96bbcac6c8d78a56bc590b993bc4f17ddcd2167e14d
-source: Teaching Vacancies
-source_job_id: academy-administrator-malcolm-arnold-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-malcolm-arnold-academy
----
 
 ---
 action: 
@@ -113,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN3 6HT | £26,016.00 Annually (FTE) Grade E Scale point 4 | School Administrator - SLT Support
-employer: St Thomas Becket Catholic School
-closing_date: 2026-11-06T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: aa51826e85937fec2282345d3795294f0703203e09c4b58151c77654cad7c09d
-source: Teaching Vacancies
-source_job_id: school-administrator-slt-support-9645b328-dee2-4ab7-bbe8-0cc977d058d8
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-slt-support-9645b328-dee2-4ab7-bbe8-0cc977d058d8
----
-
----
-action: 
 SELECTED | Northamptonshire | Northampton, East Midlands, NN3 6HT | £26,016.00 Annually (FTE) Grade D point 4 | School Office Administrator - Cover Coordinator
 employer: St Thomas Becket Catholic School
 closing_date: 2026-11-30T12:00:00+00:00
@@ -152,7 +122,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 ## HARD_PASS
 
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-0ddbb56c-5635-4a81-8fed-8aa32c472a35) — Insufficient admin/service evidence.
-- [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant-greenfields-specialist-school-for-communication-northampton-northamptonshire) — Insufficient admin/service evidence.
 - [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.
 - [Office Manager / PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-the-headteacher-moulton-school-and-science-college) — Excluded senior/management title.
 - [Part time TLT HR Manager](https://teaching-vacancies.service.gov.uk/jobs/part-time-tlt-hr-manager) — Excluded senior/management title.

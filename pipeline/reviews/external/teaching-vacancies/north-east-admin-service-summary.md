@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-06
-review_fingerprint: b04d4077dc0185d189722ed57c104263701d8499db8182f7bcd07ba62ddec6f7
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: 8d85ad846fc9b29588a8a70659b3e29d65a2d2b7c3f02f5e150aa762a90120d7
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 4
+- Records: 14
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -49,6 +49,21 @@ factual_fingerprint: daf2c95cf8bd5dbe031e29ffdd4fa4f961370f43ab66378abfcd08d6c6a
 source: Teaching Vacancies
 source_job_id: administration-assistant-level-3-attendance
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-3-attendance
+---
+
+---
+action: 
+SELECTED | North East | Blyth, North East, NE24 2SY | £29,023.00 Annually (Actual) SCP6 | Administrator & Receptionist (Secondary)
+employer: Bede Academy
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9635d6c2aa9301500c1c217a99c9552890d4c29a110a2e0e3b48958a5d8e0f8a
+source: Teaching Vacancies
+source_job_id: administrator-receptionist-secondary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-secondary
 ---
 
 ---

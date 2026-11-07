@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-06
-review_fingerprint: 724da64ecf05670aedbaa78e2eddb68dfec07099496dab3a5f8a2a2964f68bfe
-routing_manifest_sha256: b5b242e8b643df47e89441b7e0ae7a46b071e1e80ba797558f26be96a03d94ae
+review_date: 2026-11-07
+review_fingerprint: e03654f0e6c612656451c585ef1379c2ae2f8d2adffd7df1e0a28c2d1364ee1e
+routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 14
+- Selected: 6
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
 
@@ -34,6 +34,36 @@ factual_fingerprint: 5694f2e57354e612200099eb27ba8c09a956db3a85051bac43542d15911
 source: Teaching Vacancies
 source_job_id: administration-assistant-2502aab8-e8d9-449d-be81-1e8bd0465199
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-2502aab8-e8d9-449d-be81-1e8bd0465199
+---
+
+---
+action: 
+SELECTED | Lancashire - East | Accrington, North West, BB5 4FF | £27,270.00 Annually (FTE) 8 INSET days per year / term time only /26 days annual leave / excellent family friendly policies / use of onsite gym and pool | Attendance Administrator
+employer: Accrington Academy
+closing_date: 2026-11-28T17:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a9f48299cfc36dad0d16e6c8bdab3a28f9256d5ec3b390640b55a6ca6bcf1985
+source: Teaching Vacancies
+source_job_id: attendance-administrator-accrington-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-accrington-academy
+---
+
+---
+action: 
+SELECTED | Lancashire - East | Nelson, North West, BB9 0PR | £25,852.00 Annually (FTE) | Business Support Officer
+employer: Marsden Heights Community College
+closing_date: 2026-11-28T17:00:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c9ffebc5db31cf201133765ed5f37a4db1cbc0f9d97a51f3d55dcc623a394423
+source: Teaching Vacancies
+source_job_id: business-support-officer-marsden-heights-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-marsden-heights-community-college
 ---
 
 ---
@@ -81,21 +111,6 @@ source_job_id: office-and-admissions-administrator-st-wilfrid-s-church-of-englan
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-and-admissions-administrator-st-wilfrid-s-church-of-england-academy
 ---
 
----
-action: 
-SELECTED | Lancashire - East | Blackburn, North West, BB2 2JR | £26,427 - £28,153 pro rata, Actual salary £23,595 - £25,136 | Receptionist
-employer: St Wilfrid's Church of England Academy
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 05a6fc472d7d07423215b2f602af627df32ac5f6c80d0562d009dcbf7632212b
-source: Teaching Vacancies
-source_job_id: receptionist-st-wilfrid-s-church-of-england-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-wilfrid-s-church-of-england-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -126,6 +141,21 @@ factual_fingerprint: f1b9808ae02df50c40f6d5f56bfc23e1e8d3a8d2f54070c484e483e8e4c
 source: Teaching Vacancies
 source_job_id: data-officer-the-hyndburn-academy-blackburn-lancashire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hyndburn-academy-blackburn-lancashire
+---
+
+---
+action: 
+POSS | Lancashire - East | Blackburn, North West, BB2 2JR | £26,427 - £28,153 pro rata, Actual salary £23,595 - £25,136 | Receptionist
+employer: St Wilfrid's Church of England Academy
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 05a6fc472d7d07423215b2f602af627df32ac5f6c80d0562d009dcbf7632212b
+source: Teaching Vacancies
+source_job_id: receptionist-st-wilfrid-s-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-wilfrid-s-church-of-england-academy
 ---
 
 ## EXCLUDED BY REVIEW
