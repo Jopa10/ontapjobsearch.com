@@ -2,15 +2,63 @@
 
 review_date: 2026-11-07
 
-- Open Administrative & Clerical rows reviewed: 2122
-- Auto/remembered selected: 375
-- Selected HC Tier A: 185
-- Selected HC Tier B: 190
-- POSS awaiting decision: 1652
+- Open Administrative & Clerical rows reviewed: 2117
+- Auto/remembered selected: 373
+- Selected HC Tier A: 184
+- Selected HC Tier B: 189
+- POSS awaiting decision: 1649
 - Excluded: 0
 - HARD_PASS: 95
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Romsey, SO51 8EN | £14.50 | Qualified Dispenser
+source_job_id: 5714255
+title: Qualified Dispenser
+employer: Abbeywell Surgery
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3744-26-0008
+factual_fingerprint: 7f98b0d0553b205d3d00136f4c2f3b21a425f19e8885b2dd2f43ce1536c225fd
+---
+
+---
+action:
+POSS | NHS Jobs | Surrey | Guildford, GU2 7XX | £27106.00 to £28850.00 | Payroll & Pensions Administrator
+source_job_id: 5706888
+title: Payroll & Pensions Administrator
+employer: Royal Surrey NHS Foundation Trust
+region: Surrey
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0978
+factual_fingerprint: e2c4d1c929695d95ea5cd8ce4444fd63f44eb80e5747ae0eeb56fa11b26332e1
+---
+
+---
+action:
+POSS | NHS Jobs | Surrey | Guildford, GU2 7XX | £51657.00 to £58785.00 | Senior IT Server Engineer
+source_job_id: 5714253
+title: Senior IT Server Engineer
+employer: Royal Surrey NHS Foundation Trust
+region: Surrey
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0992
+factual_fingerprint: 9da19bfe3ce9fe78ded5d7db5bd8c887fbfad0a811b9a8d4a3e1128b786eb086
+---
+
+---
+action:
+POSS | NHS Jobs | Surrey | Guildford, GU2 7XX | £33677.00 to £40996.00 | Management Accountant
+source_job_id: 5714252
+title: Management Accountant
+employer: Royal Surrey NHS Foundation Trust
+region: Surrey
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0991
+factual_fingerprint: 6205491296e541d80229f134cc062889e7814c43669b8c8b9d9520242b0eb219
+---
 
 ---
 action:
@@ -2602,18 +2650,6 @@ region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0613
 factual_fingerprint: 0cb950fb38e44d9fe64af51054768df52f7489a94d8f2b9f41e0569e33898d19
----
-
----
-action:
-POSS | NHS Jobs | Essex | Basildon, SS16 5NL | £25760.00 | (**) Endoscopy Booking Officer
-source_job_id: 5710923
-title: (**) Endoscopy Booking Officer
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2733
-factual_fingerprint: 3709795f5077b4bae9f5e1a7caa2ee9517d138286d8a9d64613f9c3d60b0d478
 ---
 
 ---
@@ -7586,18 +7622,6 @@ factual_fingerprint: 8bb6409a159daa079e4ba54994f07cd736c72872c859a4488a48b49a06b
 
 ---
 action:
-POSS | NHS Jobs | London | London, SW17 0QT | £66274.00 to £73496.00 | IDT Change Manager
-source_job_id: 5703826
-title: IDT Change Manager
-employer: St George's University Hospitals NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-1001
-factual_fingerprint: 793932d5f39617242272a30d30fa295c764af364b7155cf498bded5bdc4ed9cd
----
-
----
-action:
 POSS | NHS Jobs | Lincolnshire | Grimsby, DN33 2BA | £25760.00 to £27476.00 | Patient Services - Senior Clinical Secretary
 source_job_id: 5703515
 title: Patient Services - Senior Clinical Secretary
@@ -8098,18 +8122,6 @@ region: Oxfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9195-26-0722
 factual_fingerprint: c4544a7c9d9e49320fadf06a609f8443992f20972d7c82cd843b6be43019fd17
----
-
----
-action:
-POSS | NHS Jobs | London | London, EC1A 7BE | £33094.00 to £36195.00 | Patient Pathway Co-ordinator - Specialised Cardiology
-source_job_id: 5702976
-title: Patient Pathway Co-ordinator - Specialised Cardiology
-employer: Barts Health NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9259-26-1894
-factual_fingerprint: 19ad4a8be030f23bf178e865fed61ee374323e4047987e355e30968c6f150bad
 ---
 
 ---
@@ -9722,18 +9734,6 @@ factual_fingerprint: cd12ebe056812e1fafbf8dae02d4971fdff16f7002c6190b764d6900366
 
 ---
 action:
-POSS | NHS Jobs | — | Gorleston, NR31 6LA | £15600.00 | Community Diagnostic Centre Reception Apprentice
-source_job_id: 5697337
-title: Community Diagnostic Centre Reception Apprentice
-employer: James Paget University Hospitals NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0459
-factual_fingerprint: f297b3cda814b6e3389c4dfaaaae914c65e1cdf7fdce056bd1757bd52079e604
----
-
----
-action:
 POSS | NHS Jobs | Nottinghamshire | Sutton in Ashfield, NG17 4JL | £39959.00 to £48117.00 | ITSM Administrator
 source_job_id: 5700654
 title: ITSM Administrator
@@ -10726,18 +10726,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9334-26-1053
 factual_fingerprint: 298a71e42eb72e46ce798a53fa67228d4e909848f00d7daee8ca59de85c0f718
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £57528.00 to £64750.00 | Associate Group Manager, Medicine
-source_job_id: 5698274
-title: Associate Group Manager, Medicine
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1354
-factual_fingerprint: 24af0e14b26fe6e50e879deaca5987bdf749226f1cc8a8001dde4196ffdbb822
 ---
 
 ---
@@ -15374,18 +15362,6 @@ factual_fingerprint: f866dcf327e0f0df8870ed3cc047c2a6133a9371a2e5e13307924643acc
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton, SM2 5PT | £30630.00 to £32346.00 | Medical Secretary
-source_job_id: 5687707
-title: Medical Secretary
-employer: The Royal Marsden NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0905
-factual_fingerprint: 8f491d5cbd8223b6c1adc6cfae7b101b30587dda171e160959fe5438f103b8e5
----
-
----
-action:
 POSS | NHS Jobs | — | Langford, BS40 5EL | £27922.00 to £33456.00 | Patient Services Manager
 source_job_id: 5688940
 title: Patient Services Manager
@@ -16234,18 +16210,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9259-26-1848
 factual_fingerprint: 2838e0a8a106c18591aacf1c0e3461785779b3054006a9f5239f1a23fe7026c9
----
-
----
-action:
-POSS | NHS Jobs | Cumbria - North | Carlisle, CA1 3SX | £25760.00 to £27476.00 | Administration Officer
-source_job_id: 5687427
-title: Administration Officer
-employer: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-region: Cumbria - North
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-1053
-factual_fingerprint: c558e5368e511f22f6595dd7cbbcbbb8d7aae7ce0988134db991d34c9515dd68
 ---
 
 ---
