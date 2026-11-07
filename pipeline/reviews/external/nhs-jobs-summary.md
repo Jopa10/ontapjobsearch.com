@@ -2,11 +2,11 @@
 
 review_date: 2026-11-07
 
-- Open Administrative & Clerical rows reviewed: 2117
+- Open Administrative & Clerical rows reviewed: 2114
 - Auto/remembered selected: 373
 - Selected HC Tier A: 184
 - Selected HC Tier B: 189
-- POSS awaiting decision: 1649
+- POSS awaiting decision: 1646
 - Excluded: 0
 - HARD_PASS: 95
 
@@ -2894,18 +2894,6 @@ factual_fingerprint: cc5b80128029141757b7bd98e51678c377807e4747f45e0da779bd4e75b
 
 ---
 action:
-POSS | NHS Jobs | Kent | Gillingham, ME7 5NY | £25272.00 | Ward Clerk - SMART Virtual Hospital
-source_job_id: 5709541
-title: Ward Clerk - SMART Virtual Hospital
-employer: Medway NHS Foundation Trust
-region: Kent
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9275-26-0244
-factual_fingerprint: 37338509560ee55c3e3bbda8328fb5797858834e00de97e12030c0deafef96f2
----
-
----
-action:
 POSS | NHS Jobs | Kent | Gillingham, ME7 5NY | £25272.00 | Reception Booking Clerk - Imaging
 source_job_id: 5709201
 title: Reception Booking Clerk - Imaging
@@ -4582,18 +4570,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1198
 factual_fingerprint: 031f21512ad225df656f56686ef602824d149931582f12a33f0452ec9b516316
----
-
----
-action:
-POSS | NHS Jobs | East Midlands | Burton-On-Trent, DE13 0RB | £25272.00 | Diabetes & Endocrinology Receptionist/Administrator
-source_job_id: 5708379
-title: Diabetes & Endocrinology Receptionist/Administrator
-employer: University Hospitals of Derby and Burton NHS Foundation Trust
-region: East Midlands
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1153
-factual_fingerprint: fc5835ade1d07cd23c679fcb6a30712a02a00357f5743c9b1b330617f9ad33c7
 ---
 
 ---
@@ -13390,18 +13366,6 @@ region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/I9236-26-0066
 factual_fingerprint: f5a3171531384146255e2734dcbcede2ea3093117cccc725cf4132605c0a5140
----
-
----
-action:
-POSS | NHS Jobs | Essex | Chelmsford, CM1 7ET | £25760.00 | (**) Outpatients Receptionist - Weekends
-source_job_id: 5693894
-title: (**) Outpatients Receptionist - Weekends
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2608
-factual_fingerprint: f82ee7b37a65a7d518bd77cefd7cabbfe9a6cf4676f8ec261f9f9392e283a740
 ---
 
 ---
