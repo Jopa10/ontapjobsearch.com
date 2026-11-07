@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-07",
+  "status": "preview-read-only-retention-measurement-complete",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "branchHead": "246c559a81015d97a78751422ab81c546efa9777",
+  "pullRequest": {
+    "number": 336,
+    "state": "open",
+    "draft": true,
+    "merged": false
+  },
+  "measurement": {
+    "deploymentId": "dpl_F9SrnKbYnomCCfZUnzSudfa3RthG",
+    "deploymentUrl": "https://ontapjobsearch-eg3dbtpvt-ontap1.vercel.app",
+    "deploymentState": "READY",
+    "environment": "Preview (guard asserted VERCEL_ENV=preview)",
+    "sourceCommit": "246c559a81015d97a78751422ab81c546efa9777",
+    "measuredAt": "2026-11-07T10:09:58.568Z",
+    "neonProjectId": "noisy-fire-97386602",
+    "transactionReadOnly": "on"
+  },
+  "cutoff": {
+    "asOfDate": "2026-11-07",
+    "inclusiveDueOnOrBefore": "2026-11-04",
+    "sql": "SELECT count(*)::text AS payload_rows, coalesce(sum(pg_column_size(raw_payload)),0)::text AS stored_payload_bytes, coalesce(sum(octet_length(raw_payload::text)),0)::text AS text_payload_bytes FROM ontap_shadow.supplier_adverts WHERE exclude_review_started_on <= $1::date AND raw_payload IS NOT NULL;",
+    "parameter": "2026-11-04",
+    "payloadRows": 34754,
+    "storedPayloadBytes": 80394566,
+    "textPayloadBytes": 130156666
+  },
+  "storage": {
+    "databaseBytes": 518569984,
+    "protectedReserveBytes": 67108864,
+    "headroomAboveReserveBytes": 253181952,
+    "databaseCeilingBytes": 838860800
+  },
+  "safety": {
+    "selectAndShowOnly": true,
+    "noDatabaseChanges": true,
+    "compactIntegrationRepeated": false,
+    "applyExcludeReviewWindowCalled": false,
+    "expiryEnabled": false,
+    "purgeExecuted": false,
+    "productionChangedByThisCheck": false,
+    "emailsSentByThisCheck": false
+  },
+  "latestSelectorToPostReviewProductionComparisons": {
+    "2026-11-05": "complete; exact ID parity, do not repeat",
+    "2026-11-06": "complete; exact ID parity, do not repeat"
+  },
+  "nextAction": "On 2026-11-08, repeat only this Preview read-only retention measurement with inclusive cutoff DATE '2026-11-05'. Do not rerun the 5 November integration or 5/6 November selector-to-published-output comparisons."
+}
