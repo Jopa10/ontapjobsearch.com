@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 27
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 18
-- effective review: 27
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (18)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Manager - Digital Marketing
-company: Dark Horse - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225703710
-reason: Exact approved Altrincham workplace.
----
 
 ---
 action: 
@@ -69,6 +57,18 @@ company: Robert Walters - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-2156448
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Adecco - Agency - Temporary
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225807382
 reason: Exact approved Altrincham workplace.
 ---
 
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225715889
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (27)
+## REVIEW (31)
 
 ---
 action: 
@@ -275,18 +275,6 @@ company: CMR Jobs Limited - Agency - Permanent
 location: Cheadle
 source: JobG8
 job_id: jobg8-23643_225728738
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin/Contact Centre
-company: Alliance Personnel - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225732366
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -378,6 +366,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Data Entry/Admin
+company: Alliance Personnel - Agency - Temporary
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225808358
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Pickles Recruitment - Agency - Permanent
 location: Denton
@@ -395,6 +395,30 @@ company: JV International - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225778426
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Lettings Coordinator
+company: The People Pod - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2248507
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Lettings Coordinator
+company: The People Pod - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225809769
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -463,10 +487,34 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2235561
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
 company: Portfolio Payroll Limited - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225801269
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Post Appointment Insolvency Administrator
+company: Imperium Financial Recruitment - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2246744
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 21
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 33
+- automatic include: 20
+- automatic review: 38
 - automatic exclude: 0
-- effective include: 21
-- effective review: 33
+- effective include: 20
+- effective review: 38
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (20)
 
 ---
 action: 
@@ -232,18 +232,6 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Assistant (Conveyancing)
-company: Thrive Group - Agency - Permanent
-location: Swindon
-source: JobG8
-job_id: jobg8-23643_225703963
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office/Transport Administrator
 company: TRAK Employment Solutions Limited - Agency - Temporary
 location: Swindon
@@ -276,7 +264,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (38)
 
 ---
 action: 
@@ -299,6 +287,18 @@ company: Autograph Recruitment Ltd - Agency - Permanent
 location: Chippenham
 source: JobG8
 job_id: jobg8-2204801
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: CMD Recruitment - Agency - Permanent
+location: Corsham
+source: JobG8
+job_id: jobg8-2242863
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -354,11 +354,47 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Automobile Service Advisor (auto Service Advisor)
+company: People Solutions - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108284094
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Automobile Service Advisor (auto Service Advisor)
+company: People Solutions Group Limited - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-2235464
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Co-Ordinator
 company: CMD Recruitment - Agency - Permanent
 location: Salisbury
 source: JobG8
 job_id: jobg8-23643_225794290
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Home Administrator
+company: Avery Healthcare Group Ltd.
+location: Marlborough, SN8 1JR
+source: NHS Jobs
+job_id: nhs-5713251
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -438,11 +474,11 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
-title: Financial Services Administrator
-company: St. James's Place Wealth Management - Agency - Permanent
-location: Corsham
+title: Forensics Administrator
+company: Adecco - Agency - Temporary
+location: Devizes
 source: JobG8
-job_id: jobg8-23643_225704099
+job_id: jobg8-23643_225761228
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -450,12 +486,12 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Forensics Administrator
-company: Adecco - Agency - Temporary
-location: Devizes
+title: Junior Security Systems Designer & Sales Administrator
+company: Complete Security Recruitment Ltd - Agency - Permanent
+location: Wiltshire
 source: JobG8
-job_id: jobg8-23643_225761228
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+job_id: jobg8-2114392
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -534,23 +570,23 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
-title: Scheduler
-company: Build Recruitment - Agency - Permanent
-location: Melksham
+title: Sales Ledger Assistant
+company: Reading Industrial Pertemps - Agency - Permanent
+location: Wiltshire
 source: JobG8
-job_id: jobg8-23643_225776404
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+job_id: jobg8-2126623
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Secretary (part-time)
-company: Thrive Group - Agency - Permanent
+title: Scheduler
+company: Build Recruitment - Agency - Permanent
 location: Melksham
 source: JobG8
-job_id: jobg8-23643_225704045
+job_id: jobg8-23643_225776404
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -587,6 +623,18 @@ company: Perfect Placement - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225714158
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-2113865
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

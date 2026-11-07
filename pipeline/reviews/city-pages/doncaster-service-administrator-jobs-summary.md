@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 11
-- automatic exclude: 56
-- effective include: 15
-- effective review: 11
-- effective exclude: 56
+- automatic include: 18
+- automatic review: 14
+- automatic exclude: 57
+- effective include: 18
+- effective review: 14
+- effective exclude: 57
 
-## INCLUDE (15)
+## INCLUDE (18)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Sharp Consultancy - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2115389
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
@@ -93,6 +105,18 @@ company: Chesterfield Poultry - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225749496
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Paralegal
+company: Reed - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2247783
 reason: Approved Doncaster catchment.
 ---
 
@@ -160,11 +184,11 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Production Administrator
-company: Chesterfield Poultry - Agency - Permanent
+title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-23643_225706715
+job_id: jobg8-2204103
 reason: Approved Doncaster catchment.
 ---
 
@@ -172,11 +196,11 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger Clerk
-company: Elevation Recruitment Group - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-2204103
+title: Receptionist
+company: FCMS
+location: Doncaster, DN1 2DJ
+source: NHS Jobs
+job_id: nhs-5711537
 reason: Approved Doncaster catchment.
 ---
 
@@ -196,6 +220,18 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Recruitment Administrator
+company: Doncaster & Bassetlaw Teaching Hospitals NHS FT
+location: Doncaster, DN2 5LT
+source: NHS Jobs
+job_id: nhs-5713874
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Secretary / Assistant EA
 company: Edwards & Pearce - Agency - Permanent
 location: Doncaster
@@ -204,7 +240,7 @@ job_id: jobg8-23643_225747598
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (14)
 
 ---
 action: 
@@ -227,6 +263,18 @@ company: Office Angels - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225741868
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Executive (Content Creation)
+company: Back TO Work - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225808488
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -275,6 +323,18 @@ company: Austin Banks - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2194156
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2142768
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -338,7 +398,19 @@ job_id: jobg8-2153824
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (56)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2245734
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+## EXCLUDE (57)
 
 ---
 action: 
@@ -349,6 +421,30 @@ company: V-Recruit - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225760394
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Administrator
+company: BDS (Northern) Limited - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225809502
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-2129178
 reason: Separate employment market.
 ---
 
@@ -417,18 +513,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Caval Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225704747
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
 company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
@@ -469,18 +553,6 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
 source: NHS Jobs
 job_id: nhs-5704847
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Administrator
-company: Sheffield Health Partnership University NHS Foundation Trust
-location: Sheffield, S2 2BT
-source: NHS Jobs
-job_id: nhs-5687642
 reason: Separate employment market.
 ---
 
@@ -620,11 +692,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Family Legal Secretary - Sheffield
+company: qed legal - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2123182
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2159400
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2122156
 reason: Separate employment market.
 ---
 
@@ -680,6 +776,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Litigation Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2142322
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing and Communications Officer
 company: Voluntary Action Rotherham - Agency - Contract
 location: Rotherham
@@ -704,6 +812,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Matter Administrator
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2134593
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Medical Education Administrator
 company: The Rotherham NHS Foundation Trust
 location: Rotherham, S60 2UD
@@ -721,30 +841,6 @@ company: Greasbrough Medical Centre
 location: Rotherham, S61 4RB
 source: NHS Jobs
 job_id: nhs-5706820
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Selborne Road Medical Centre
-location: Sheffield, S10 5ND
-source: NHS Jobs
-job_id: nhs-5685334
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Staff Partners Business - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225702906
 reason: Separate employment market.
 ---
 
@@ -896,23 +992,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist & Admin Assistant
-company: Willow Tree Academy
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: School Admin Assistant
-company: Anston Park Infant School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-admin-assistant-anston-park-infant-school
+title: Receptionist
+company: Sheffield Health Partnership University NHS Foundation Trust
+location: Sheffield, S11 9BJ
+source: NHS Jobs
+job_id: nhs-5697743
 reason: Separate employment market.
 ---
 
@@ -925,18 +1009,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator
-company: STEPS Rehabilitation
-location: Sheffield, S7 2QA
-source: NHS Jobs
-job_id: nhs-5687012
 reason: Separate employment market.
 ---
 
@@ -985,6 +1057,18 @@ company: Charto Recruitment Ltd - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225749128
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Transactional Finance Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225796381
 reason: Separate employment market.
 ---
 

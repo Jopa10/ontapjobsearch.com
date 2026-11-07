@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 26
+- automatic include: 13
+- automatic review: 29
 - automatic exclude: 0
-- effective include: 11
-- effective review: 26
+- effective include: 13
+- effective review: 29
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (13)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Butler Rose - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-2234951
+reason: Exact approved Macclesfield workplace.
+---
 
 ---
 action: 
@@ -156,7 +168,19 @@ job_id: jobg8-23643_225715924
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (26)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor - Audi Macclesfield
+company: Group 1 Automotive - Company - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-2249893
+reason: Exact approved Macclesfield workplace.
+---
+
+## REVIEW (29)
 
 ---
 action: 
@@ -167,6 +191,18 @@ company: Acorn by Synergie - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225731276
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Adecco - Agency - Permanent
+location: Middlewich
+source: JobG8
+job_id: jobg8-2238038
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -198,11 +234,23 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant / Purchase Ledger Clerk
+company: Anderson Wright Consulting Ltd - Agency - Permanent
+location: Sandbach
+source: JobG8
+job_id: jobg8-2124544
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Clerk
-company: Dickson O'Brien - Agency - Permanent
+company: Dickson O&;Brien Associates - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-23643_225802620
+job_id: jobg8-2239775
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -359,6 +407,18 @@ company: Axon Moore Group Ltd - Agency - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-2165430
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: FNOL Motor Claims Handler
+company: MPJ Recruitment Ltd - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-2109059
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

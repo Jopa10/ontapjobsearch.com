@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 11
-- automatic exclude: 61
-- effective include: 10
-- effective review: 11
-- effective exclude: 61
+- automatic include: 9
+- automatic review: 14
+- automatic exclude: 66
+- effective include: 9
+- effective review: 14
+- effective exclude: 66
 
-## INCLUDE (10)
+## INCLUDE (9)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-2129178
+reason: Approved Barnsley catchment.
+---
 
 ---
 action: 
@@ -33,18 +45,6 @@ company: Sewell Wallis Ltd - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225797675
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Caval Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225704747
 reason: Approved Barnsley catchment.
 ---
 
@@ -100,18 +100,6 @@ reason: Approved Barnsley catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Staff Partners Business - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225702906
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Planning Administrator - Customer Service Support
 company: Hays Business Support - Agency - Temporary
 location: Barnsley
@@ -144,7 +132,7 @@ job_id: jobg8-23643_225749128
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (14)
 
 ---
 action: 
@@ -167,6 +155,18 @@ company: Office Angels - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225741868
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Executive (Content Creation)
+company: Back TO Work - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225808488
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -215,6 +215,18 @@ company: Austin Banks - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2194156
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2142768
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -278,7 +290,19 @@ job_id: jobg8-2153824
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (61)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2245734
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+## EXCLUDE (66)
 
 ---
 action: 
@@ -289,6 +313,18 @@ company: V-Recruit - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225760394
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Administrator
+company: BDS (Northern) Limited - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225809502
 reason: Separate employment market.
 ---
 
@@ -416,18 +452,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clinical Administrator
-company: Sheffield Health Partnership University NHS Foundation Trust
-location: Sheffield, S2 2BT
-source: NHS Jobs
-job_id: nhs-5687642
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Commercial Sales Administrator
 company: Big Fish Little Fish - Agency - Permanent
 location: Sheffield
@@ -469,6 +493,18 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_224831378
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Sharp Consultancy - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2115389
 reason: Separate employment market.
 ---
 
@@ -536,11 +572,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Family Legal Secretary - Sheffield
+company: qed legal - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2123182
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2159400
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2122156
 reason: Separate employment market.
 ---
 
@@ -620,6 +680,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Litigation Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2142322
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing and Communications Officer
 company: Voluntary Action Rotherham - Agency - Contract
 location: Rotherham
@@ -637,6 +709,18 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225731215
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Matter Administrator
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2134593
 reason: Separate employment market.
 ---
 
@@ -668,11 +752,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist
-company: Selborne Road Medical Centre
-location: Sheffield, S10 5ND
-source: NHS Jobs
-job_id: nhs-5685334
+title: Operations Administrator
+company: Sue Ross Recruitment Ltd - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225739418
 reason: Separate employment market.
 ---
 
@@ -680,11 +764,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Operations Administrator
-company: Sue Ross Recruitment Ltd - Agency - Temporary
-location: Sheffield
+title: Paralegal
+company: Reed - Agency - Permanent
+location: Doncaster
 source: JobG8
-job_id: jobg8-23643_225739418
+job_id: jobg8-2247783
 reason: Separate employment market.
 ---
 
@@ -800,18 +884,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Production Administrator
-company: Chesterfield Poultry - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225706715
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Purchase Ledger
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Sheffield
@@ -884,11 +956,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist & Admin Assistant
-company: Willow Tree Academy
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
+title: Receptionist
+company: FCMS
+location: Doncaster, DN1 2DJ
+source: NHS Jobs
+job_id: nhs-5711537
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Sheffield Health Partnership University NHS Foundation Trust
+location: Sheffield, S11 9BJ
+source: NHS Jobs
+job_id: nhs-5697743
 reason: Separate employment market.
 ---
 
@@ -908,11 +992,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: School Admin Assistant
-company: Anston Park Infant School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-admin-assistant-anston-park-infant-school
+title: Recruitment Administrator
+company: Doncaster & Bassetlaw Teaching Hospitals NHS FT
+location: Doncaster, DN2 5LT
+source: NHS Jobs
+job_id: nhs-5713874
 reason: Separate employment market.
 ---
 
@@ -937,18 +1021,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator
-company: STEPS Rehabilitation
-location: Sheffield, S7 2QA
-source: NHS Jobs
-job_id: nhs-5687012
 reason: Separate employment market.
 ---
 
@@ -985,6 +1057,18 @@ company: CCA Recruitment Group - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225789027
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Transactional Finance Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225796381
 reason: Separate employment market.
 ---
 

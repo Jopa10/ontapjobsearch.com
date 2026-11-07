@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 45
+- Effective included jobs: 49
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 45
-- automatic review: 12
+- automatic include: 49
+- automatic review: 13
 - automatic exclude: 0
-- effective include: 45
-- effective review: 12
+- effective include: 49
+- effective review: 13
 - effective exclude: 0
 
-## INCLUDE (45)
+## INCLUDE (49)
 
 ---
 action: 
@@ -52,12 +52,36 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Accounts Assistant
+company: SF Partners - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2114874
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Accounts Payable
 company: Austin Matley HR & Recruitment Ltd - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2192494
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable
+company: Reed - Agency - Permanent
+location: Lincoln
+source: JobG8
+job_id: jobg8-2115691
+reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -82,6 +106,18 @@ location: Lincolnshire
 source: JobG8
 job_id: jobg8-2144682
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Receivable / Credit Controller
+company: Austin Matley HR & Recruitment Ltd - Agency - Permanent
+location: Lincoln
+source: JobG8
+job_id: jobg8-2119538
+reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -412,18 +448,6 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Administrator
-company: Integrity Plus Ltd - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225702694
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Patient Administrator
 company: Lincolnshire Community Health Service NHS Trust
 location: Lincolnshire, LN6 3JY
@@ -477,6 +501,18 @@ company: Barrett Steel - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225740703
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Quality Administrator (Food Manufacturing)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2130275
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -564,7 +600,19 @@ job_id: jobg8-23643_225722678
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (12)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Violence Against Women Scrutiny Panel Coordinator
+company: Adecco - Agency - Temporary
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225808865
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+## REVIEW (13)
 
 ---
 action: 
@@ -678,18 +726,6 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Pupil Receptionist/Administrator
-company: University Academy Long Sutton
-location: Spalding
-source: Teaching Vacancies
-job_id: teaching-vacancies-pupil-receptionist-administrator-d44ce344-7740-41cd-9180-1240273f0189
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Clee Medical Centre
 location: Cleethorpes, DN35 7XE, GRIMSBY, DN31 2BH, Grimsby, DN31 3AE, CLEETHORPES, DN35 0LN
@@ -702,11 +738,35 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: SEND Administrator
-company: Stamford Welland Academy
-location: Stamford
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-stamford-welland-academy
+title: Receptionist
+company: Healing Health Centre
+location: Grimsby, DN41 7JB
+source: NHS Jobs
+job_id: nhs-5711942
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: TeacherActive - Agency - Temporary
+location: Scunthorpe
+source: JobG8
+job_id: jobg8-23643_225807524
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Legal Secretary
+company: Oculus Legal Group - Agency - Permanent
+location: Spalding
+source: JobG8
+job_id: jobg8-2136831
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

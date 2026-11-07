@@ -16,15 +16,27 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 96
+- automatic review: 102
 - automatic exclude: 0
 - effective include: 0
-- effective review: 96
+- effective review: 102
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (96)
+## REVIEW (102)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Coordinator
+company: Mach Recruitment - Agency - Temporary
+location: Lutterworth
+source: JobG8
+job_id: jobg8-108283280
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -167,6 +179,18 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2159804
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Exemplar Health Care - Company - Permanent
+location: Coalville
+source: JobG8
+job_id: jobg8-23643_225759984
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -559,18 +583,6 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: Optima UK Inc Ltd - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225706585
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
 company: RECfinancial - Agency - Permanent
 location: Leicestershire
 source: JobG8
@@ -606,6 +618,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Officer
+company: Reed - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2129647
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Financial Services Administrator
 company: North Oak Recruitment - Agency - Permanent
 location: Leicestershire
@@ -634,7 +658,7 @@ title: HR Assistant
 company: The Portfolio Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225704185
+job_id: jobg8-23643_225810966
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -779,6 +803,18 @@ company: SF Partners - Agency - Contract
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225779153
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time - Accounts Assistant
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2122387
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -1110,11 +1146,23 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Temporary CRM Assistant
-company: Triumph - Agency - Temporary
+title: Site Administrator
+company: Integrate Engineering Resources - Agency - Contract
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225746288
+job_id: jobg8-23643_225565250
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2245726
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -1127,6 +1175,30 @@ company: Vectis Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225753129
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Travel and Expenses Administrator
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2249820
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Travel and Expenses Administrator
+company: Gleeson Recruitment Group - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225811080
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 92
-- automatic exclude: 21
+- automatic review: 100
+- automatic exclude: 23
 - effective include: 14
-- effective review: 92
-- effective exclude: 21
+- effective review: 100
+- effective exclude: 23
 
 ## INCLUDE (14)
 
@@ -160,11 +160,11 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Clearline Recruitment Ltd - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225741908
+title: Receptionist and Administrator
+company: Arch Health CIC
+location: Brighton, BN2 9DH
+source: NHS Jobs
+job_id: nhs-5712884
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -172,11 +172,11 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist / Administrator
-company: Integrated Care 24 Ltd
-location: Brighton, BN1 7GF
-source: NHS Jobs
-job_id: nhs-5649373
+title: Sales Executive
+company: First Recruitment Services - Agency - Permanent
+location: Brighton
+source: JobG8
+job_id: jobg8-23643_225810399
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -192,7 +192,7 @@ job_id: nhs-5704086
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (92)
+## REVIEW (100)
 
 ---
 action: 
@@ -203,18 +203,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2143767
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: KHR - Recruitment Specialists - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225703582
 reason: Broad location; review before city inclusion.
 ---
 
@@ -251,18 +239,6 @@ company: Morgan Mckinley (Crawley) - Agency - Contract
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225734859
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Albion Health - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225782687
 reason: Broad location; review before city inclusion.
 ---
 
@@ -366,18 +342,6 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Office Angels - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225705214
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bus & Coach PSV Warranty Administrator
 company: ACS Automotive Recruitment - Agency - Permanent
 location: Sussex
@@ -408,6 +372,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-23643_225776908
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Handler
+company: Adecco - Agency - Temporary
+location: Lewes
+source: JobG8
+job_id: jobg8-23643_225810333
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -475,6 +451,18 @@ action:
 decision: review
 automatic_decision: review
 title: Commercial Property Paralegal
+company: GerrardWhite - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2123799
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Property Paralegal
 company: TN Recruits - Agency - Permanent
 location: Sussex
 source: JobG8
@@ -491,6 +479,18 @@ company: TN Recruits - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2200039
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Property Trainee Paralegal
+company: GerrardWhite - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2123803
 reason: Broad location; review before city inclusion.
 ---
 
@@ -515,6 +515,18 @@ company: Oraculum - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225746305
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2134374
 reason: Broad location; review before city inclusion.
 ---
 
@@ -570,11 +582,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Representative
+company: Pivotal Partnerships - Agency - Permanent
+location: Heathfield
+source: JobG8
+job_id: jobg8-23643_225808103
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Diary Coordinator
 company: Michael Page - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225766528
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital & Social Media Coordinator
+company: Pineapple Careers - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2247318
 reason: Broad location; review before city inclusion.
 ---
 
@@ -642,11 +678,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator
+company: Morgan McKinley - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2142149
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Michael Page - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225793008
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Tony Alan Recruitment - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2124511
 reason: Broad location; review before city inclusion.
 ---
 
@@ -707,6 +767,18 @@ company: G2 Legal Limited - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2203304
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary - Conveyancing
+company: GM Legal Recruitment - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2142148
 reason: Broad location; review before city inclusion.
 ---
 
@@ -834,12 +906,36 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Operations Scheduler
+company: First Recruitment Services - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225810365
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Finance Assistant
 company: Harvey John - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2174014
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Payroll Administrator
+company: Tony Alan Recruitment - Agency - Permanent
+location: Hailsham
+source: JobG8
+job_id: jobg8-2129118
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -1002,6 +1098,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Assistant
+company: Tony Alan Recruitment - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2237896
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Reception / Administrator - Immediate Start
 company: Office Angels - Agency - Contract
 location: Sussex
@@ -1019,18 +1127,6 @@ company: Elysium Healthcare
 location: Midhurst, West Sussex, GU29 9JP
 source: NHS Jobs
 job_id: nhs-5702104
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Hamberley Care Management Limited - Company - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225732287
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1122,6 +1218,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Residential Property Paralegal
+company: GerrardWhite - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2123927
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator (Order Processing)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Sussex
@@ -1139,18 +1247,6 @@ company: Morgan Mckinley (Crawley) - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225709358
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Administrator
-company: Remarkable Jobs - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225702870
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1244,7 +1340,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Not Specified
+location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Brighton & Hove catchment rule matched; local review required.
@@ -1290,15 +1386,15 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Wellbeing Service Project Coordinator
-company: Southdown - Agency - Temporary
-location: Lewes
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Sussex
 source: JobG8
-job_id: jobg8-108230183
-reason: No approved Brighton & Hove catchment rule matched; local review required.
+job_id: jobg8-2245718
+reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -1369,6 +1465,18 @@ company: Olympus Recruitment - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-23643_225740875
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator (Financial Services)
+company: Morgan Mckinley (Crawley) - Agency - Permanent
+location: Horsham
+source: JobG8
+job_id: jobg8-23643_225808738
 reason: Separate employment market.
 ---
 
@@ -1477,6 +1585,18 @@ company: Recruitment Solutions - Agency - Permanent
 location: Eastbourne
 source: JobG8
 job_id: jobg8-2153115
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Hastings & Rother Healthcare
+location: St. Leonards-on-sea, TN37 6BG, Hastings, TN34 3DW, St. Leonards-on-sea, TN38 9PA
+source: NHS Jobs
+job_id: nhs-5713590
 reason: Separate employment market.
 ---
 

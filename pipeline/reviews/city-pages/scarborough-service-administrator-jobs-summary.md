@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 39
+- automatic review: 52
 - automatic exclude: 0
 - effective include: 4
-- effective review: 39
+- effective review: 52
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5690490
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (39)
+## REVIEW (52)
 
 ---
 action: 
@@ -103,10 +103,34 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Magpie Recruitment - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2243444
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Search Consultancy Ltd - Agency - Contract
 location: York
 source: JobG8
 job_id: jobg8-23643_225718615
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Winsearch - Agency - Temporary
+location: Sherburn In Elmet
+source: JobG8
+job_id: jobg8-23643_225810362
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -162,18 +186,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Commercial Property Paralegal
-company: Search Consultancy Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225706656
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Conveyancing Legal Secretary
 company: G2 Legal Limited - Agency - Permanent
 location: Malton
@@ -210,11 +222,47 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Ecommerce/Shopify Executive
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2250223
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Employment & Litigation Legal Assistant
 company: Search Consultancy Ltd - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225793079
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Family Legal Secretary - Harrogate
+company: qed legal - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2133535
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2120677
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -234,11 +282,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant (Maternity Cover)
-company: Joseph Rowntree - Agency - Permanent
-location: York
+title: Finance Assistant
+company: Orange Cat Recruitment - Agency - Permanent
+location: Richmond
 source: JobG8
-job_id: jobg8-23643_225730066
+job_id: jobg8-2247285
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +294,35 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Junior Administrator
-company: Abbey Personnel Services Ltd - Agency - Temporary
-location: Sherburn In Elmet
+title: Finance Assistant
+company: Orange Cat Recruitment - Agency - Permanent
+location: Richmond
 source: JobG8
-job_id: jobg8-23643_225701763
+job_id: jobg8-23643_225808762
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Services Administrator
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2111325
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant (Maternity Cover)
+company: Joseph Rowntree - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225730066
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -275,6 +347,54 @@ company: Si Recruitment - Agency - Permanent
 location: Bedale
 source: JobG8
 job_id: jobg8-2169315
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-2247374
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant
+company: Reed - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-2140300
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant - Employment
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2249128
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant - Litigation
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2249327
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -342,6 +462,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Legal Secretary & Office Coordinator
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2248914
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
@@ -371,6 +503,18 @@ company: Unity Health
 location: York, YO10 5LA, York, YO10 4DU
 source: NHS Jobs
 job_id: nhs-5706440
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paid Media Specialist - Hybrid working
+company: Mobilus Ltd - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2113473
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -491,6 +635,18 @@ company: Lloyd Recruitment - Epsom - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225744461
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator - Richmond
+company: Turner Wise - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2119691
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

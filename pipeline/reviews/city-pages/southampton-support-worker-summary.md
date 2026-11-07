@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 15
+- automatic review: 13
 - automatic exclude: 13
 - effective include: 3
-- effective review: 15
+- effective review: 13
 - effective exclude: 13
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-108269694
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (13)
 
 ---
 action: 
@@ -126,18 +126,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Extra Care Support Worker - Gore Grange
-company: SCA Care - Agency - Temporary
-location: New Milton
-source: JobG8
-job_id: jobg8-108121734
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Female Support Worker
 company: SeeAbility - Agency - Permanent
 location: Tadley
@@ -192,18 +180,6 @@ location: Fordingbridge
 source: JobG8
 job_id: jobg8-23643_225636734
 reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Night Care Assistant
-company: Barchester Healthcare - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225760950
-reason: Broad location; review before city inclusion.
 ---
 
 ---

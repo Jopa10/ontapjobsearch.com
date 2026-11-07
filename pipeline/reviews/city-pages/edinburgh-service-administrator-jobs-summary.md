@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 32
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
-- automatic review: 9
+- automatic include: 32
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 28
-- effective review: 9
+- effective include: 32
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (28)
+## INCLUDE (32)
 
 ---
 action: 
@@ -40,11 +40,35 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Accounts Assistant
+company: Three Bridges Recruitment LTD - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2250256
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Accounts Assistant (Part-time 30 hrs)
 company: Michael Page - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225723903
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant (Part-time 30 hrs)
+company: Michael Page Business Support - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2126954
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -100,6 +124,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Reed - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2246130
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: Godwin Recruitment - Agency - Permanent
 location: Edinburgh
@@ -141,6 +177,18 @@ company: Spire Healthcare - Company - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225708885
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Executive Assistant
+company: Search Consultancy Ltd - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225810889
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -256,11 +304,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Miller Homes - Agency - Permanent
+title: Reception Administrator
+company: Spire Healthcare - Company - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225756376
+job_id: jobg8-23643_225807631
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -360,7 +408,7 @@ job_id: jobg8-23643_225708327
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -431,6 +479,18 @@ company: JGA Recruitment - Agency - Permanent
 location: Livingston
 source: JobG8
 job_id: jobg8-23643_225781120
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Three Bridges Recruitment LTD - Agency - Permanent
+location: Livingston
+source: JobG8
+job_id: jobg8-2249550
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

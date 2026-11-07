@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 16
-- automatic exclude: 15
-- effective include: 12
-- effective review: 16
-- effective exclude: 15
+- automatic include: 15
+- automatic review: 20
+- automatic exclude: 21
+- effective include: 15
+- effective review: 20
+- effective exclude: 21
 
-## INCLUDE (12)
+## INCLUDE (15)
 
 ---
 action: 
@@ -112,11 +112,47 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Financial Services Administrator
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2111325
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Assistant (Maternity Cover)
 company: Joseph Rowntree - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225730066
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Assistant - Employment
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2249128
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Assistant - Litigation
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2249327
 reason: Approved York catchment.
 ---
 
@@ -168,7 +204,31 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (20)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Magpie Recruitment - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2243444
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Winsearch - Agency - Temporary
+location: Sherburn In Elmet
+source: JobG8
+job_id: jobg8-23643_225810362
+reason: No approved York catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -198,11 +258,23 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Junior Administrator
-company: Abbey Personnel Services Ltd - Agency - Temporary
-location: Sherburn In Elmet
+title: Finance Assistant
+company: Orange Cat Recruitment - Agency - Permanent
+location: Richmond
 source: JobG8
-job_id: jobg8-23643_225701763
+job_id: jobg8-2247285
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Orange Cat Recruitment - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225808762
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -318,6 +390,18 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator - Richmond
+company: Turner Wise - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2119691
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Order Processor
 company: The Clever Fish Recruitment - Agency - Permanent
 location: Whitby
@@ -362,7 +446,7 @@ job_id: jobg8-2143764
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -392,11 +476,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Commercial Property Paralegal
-company: Search Consultancy Ltd - Agency - Permanent
+title: Digital Marketing Assistant
+company: No1 Legal and Professional - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225706656
+job_id: jobg8-2200459
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -404,12 +488,60 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Digital Marketing Assistant
-company: No1 Legal and Professional - Agency - Permanent
+title: Ecommerce/Shopify Executive
+company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2200459
+job_id: jobg8-2250223
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Family Legal Secretary - Harrogate
+company: qed legal - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2133535
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Administrator
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2120677
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Assistant
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-2247374
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Assistant
+company: Reed - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-2140300
+reason: Separate employment market.
 ---
 
 ---
@@ -452,11 +584,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Legal Secretary & Office Coordinator
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2248914
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Executive
 company: KD Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2197052
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Paid Media Specialist - Hybrid working
+company: Mobilus Ltd - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2113473
 reason: Broad regional label; not York-city evidence.
 ---
 

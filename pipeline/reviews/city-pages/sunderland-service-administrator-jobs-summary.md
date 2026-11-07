@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 153
+- automatic review: 172
 - automatic exclude: 0
 - effective include: 8
-- effective review: 153
+- effective review: 172
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5689557
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (153)
+## REVIEW (172)
 
 ---
 action: 
@@ -143,6 +143,30 @@ company: MTrec Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2158034
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts & Billing Assistant - Law Firm - Newcastle
+company: qed legal - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2120675
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Get Recruited (UK) Ltd - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-2123612
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -179,6 +203,18 @@ company: KCR Solutions - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-2204552
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Manpower - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2250701
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -282,6 +318,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Ad hoc Receptionist - Newcastle City Centre
+company: Office Angels - Agency - Temporary
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225808110
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Admin Assistant
 company: Kinetic PLC - Agency - Temporary
 location: Tyne And Wear
@@ -295,10 +343,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Newcastle upon Tyne, NE2 1QE
-source: NHS Jobs
-job_id: nhs-5706264
+company: CKB Recruitment Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225810540
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -306,11 +354,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administrative & Procurement Assistant
-company: Recruitment Helpline - Agency - Permanent
-location: Gateshead
-source: JobG8
-job_id: jobg8-23643_225705347
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Newcastle upon Tyne, NE2 1QE
+source: NHS Jobs
+job_id: nhs-5706264
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -335,18 +383,6 @@ company: Interaction Recruitment - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225777779
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Moorlands Surgery
-location: Darlington, DL3 9JP
-source: NHS Jobs
-job_id: nhs-5672309
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -847,6 +883,30 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2118066
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: KCR Solutions - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2114336
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
 company: MTrec Ltd Commercial - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
@@ -871,10 +931,46 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2120701
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Reed - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2130321
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
 company: Start People Ltd - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225721194
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller - Law Firm - Newcastle
+company: qed legal - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-2120706
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1086,6 +1182,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor
+company: We Are Zenith - Agency - Temporary
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225808707
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Coordinator
 company: Kevin Theobald Employment Agency - Agency - Permanent
 location: Tyne And Wear
@@ -1115,6 +1223,18 @@ company: BMC Recruitment Group Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225771603
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital PR Manager
+company: BMC Recruitment Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2136389
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1206,11 +1326,23 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Wolviston Management Services - Agency - Permanent
-location: Darlington
+title: Finance Coordinator
+company: Si Recruitment - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225706629
+job_id: jobg8-2234946
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Coordinator (Part-Time)
+company: Si Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2234947
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1506,6 +1638,42 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: RW TALENT SOLUTIONS LTD - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2240487
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2236334
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Clerk
+company: Baltic Recruitment Limited - Agency - Permanent
+location: Darlington
+source: JobG8
+job_id: jobg8-2238294
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Clerk
 company: Baltic Recruitment Services Ltd - Agency - Temporary
 location: Darlington
@@ -1571,6 +1739,30 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Seaham
 source: JobG8
 job_id: jobg8-23643_225779215
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Programme Administrator
+company: Kinetic PLC - Agency - Temporary
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225810886
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Property Repairs Administrator
+company: Service Care Solutions - Agency - Temporary
+location: Bishop Auckland
+source: JobG8
+job_id: jobg8-23643_225807428
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1722,6 +1914,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment & People Systems Coordinator
+company: Northern Recruitment Group Limited - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-108230860
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Administrator
 company: SRG - Agency - Temporary
 location: County Durham
@@ -1830,6 +2034,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Senior Customer Care Administrator
+company: Northumbria Healthcare NHS Foundation Trust
+location: Cramlington, NE23 6NZ
+source: NHS Jobs
+job_id: nhs-5711910
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Controller
 company: Kemp Recruitment Ltd - Agency - Permanent
 location: Tyne And Wear
@@ -1919,6 +2135,18 @@ company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225794474
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2245729
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 19
 - automatic review: 30
 - automatic exclude: 0
-- effective include: 15
+- effective include: 19
 - effective review: 30
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (19)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Baseline Recruit Ltd - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225766980
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin/Contact Centre
-company: Alliance Personnel - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225732366
 reason: Exact approved Stockport workplace.
 ---
 
@@ -76,11 +64,47 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Data Entry/Admin
+company: Alliance Personnel - Agency - Temporary
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225808358
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Global Shipping, Logistics & Aftersales Coordinator
 company: JV International - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225778426
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Lettings Coordinator
+company: The People Pod - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2248507
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Lettings Coordinator
+company: The People Pod - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225809769
 reason: Exact approved Stockport workplace.
 ---
 
@@ -137,10 +161,34 @@ action:
 decision: include
 automatic_decision: include
 title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2235561
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
 company: Portfolio Payroll Limited - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225801269
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Post Appointment Insolvency Administrator
+company: Imperium Financial Recruitment - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2246744
 reason: Exact approved Stockport workplace.
 ---
 
@@ -210,18 +258,6 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: review
 automatic_decision: review
-title: Account Manager - Digital Marketing
-company: Dark Horse - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225703710
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Assistant
 company: JANE GORSE RECRUITMENT LIMITED - Agency - Permanent
 location: Altrincham
@@ -275,6 +311,18 @@ company: Robert Walters - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-2156448
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Adecco - Agency - Temporary
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225807382
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/ashford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 167
+- automatic include: 9
+- automatic review: 204
 - automatic exclude: 0
-- effective include: 10
-- effective review: 167
+- effective include: 9
+- effective review: 204
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Exact approved Ashford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Practice Plus Group
-location: Ashford, TW153AA
-source: NHS Jobs
-job_id: nhs-5653187
-reason: Exact approved Ashford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Executive
 company: Netbox Recruitment - Agency - Permanent
 location: Ashford
@@ -144,7 +132,7 @@ job_id: jobg8-2166470
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (167)
+## REVIEW (204)
 
 ---
 action: 
@@ -174,11 +162,35 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Accountancy Administrator Xero Essential &;31k
+company: Office Angels - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2250587
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accountancy Administrator Xero Essential £30k
 company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225789809
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accountancy Administrator Xero Essential £31k
+company: Office Angels - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225811665
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +215,18 @@ company: Julie Rose Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225736321
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: ORP Recruitment - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2114538
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -307,10 +331,58 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2235360
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2243853
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
 company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2176864
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant Trainee
+company: TC Group - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2122567
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant. ASAP Start. Up to £38k
+company: Office Angels - Agency - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225811572
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -370,7 +442,7 @@ title: Administrative Assistant
 company: NOV - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-23643_225701415
+job_id: jobg8-23643_225807399
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -606,11 +678,83 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Legal Secretary
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2240179
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Secretary
+company: G2 Legal Limited - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2134376
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Secretary
+company: Recruitment Solutions - Agency - Permanent
+location: Tonbridge
+source: JobG8
+job_id: jobg8-2134315
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Secretary
+company: Reed - Agency - Permanent
+location: Gillingham
+source: JobG8
+job_id: jobg8-2240579
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Court of Protection Paralegal - Competitive salary - Full or Part time
+company: qed legal - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2245928
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Pinpoint Resourcing - Agency - Permanent
 location: Dartford
 source: JobG8
 job_id: jobg8-23643_225786013
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Reed - Agency - Permanent
+location: Maidstone
+source: JobG8
+job_id: jobg8-2242861
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -731,6 +875,18 @@ company: Diamond Search Recruitment Ltd - Agency - Permanent
 location: Tunbridge Wells
 source: JobG8
 job_id: jobg8-23643_225771699
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Executive
+company: Michael Page Finance - Agency - Permanent
+location: Sevenoaks
+source: JobG8
+job_id: jobg8-2129061
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -918,11 +1074,47 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance and Operations Coordinator
+company: Recruitment Solutions - Agency - Permanent
+location: Sevenoaks
+source: JobG8
+job_id: jobg8-2248741
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Cobb & Jones Recruitment Limited - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2184182
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Cobb & Jones Recruitment Limited - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2243492
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Farrer Barnes Limited - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2116362
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -955,10 +1147,22 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: Pearson Whiffin Recruitment Ltd - Agency - Contract
-location: Sevenoaks
+company: Netbox Recruitment - Agency - Contract
+location: Kent
 source: JobG8
-job_id: jobg8-23643_225701453
+job_id: jobg8-23643_225810884
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Netbox Recruitment - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225810610
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -971,6 +1175,18 @@ company: Placing Talent - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2204642
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Gillingham
+source: JobG8
+job_id: jobg8-2129034
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1098,18 +1314,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Coordinator / HR Advisor
-company: Netbox Recruitment - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225705735
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Human Resources Administrator
 company: Hays Specialist Recruitment - Education - Agency - Permanent
 location: Kent
@@ -1127,6 +1331,18 @@ company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Rochester
 source: JobG8
 job_id: jobg8-23643_225697754
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary
+company: Recruitment Solutions - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2123964
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1230,18 +1446,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Account Executive - Kent - To £30K
-company: Jump IT Recruitment - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225599623
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Account Executive - Kent - £25K
 company: Jump IT Recruitment - Agency - Permanent
 location: Kent
@@ -1254,11 +1458,83 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Communications Executive
+company: Hoot Recruit LTD - Agency - Permanent
+location: Maidstone
+source: JobG8
+job_id: jobg8-2114792
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Officer
 company: Henry Blue - Agency - Temporary
 location: Canterbury
 source: JobG8
 job_id: jobg8-23643_225789719
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Project Coordinator (part-time - 6 month FTC)
+company: Reed - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2133802
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Project Coordinator (part-time - 6 month FTC)
+company: Reed - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2133803
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Project Coordinator (part-time - 6 month FTC)
+company: Reed - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2133804
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Project Coordinator (part-time - 6 month FTC)
+company: Reed - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2133805
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing/Project Assistant
+company: Office Angels - Agency - Permanent
+location: Rochester
+source: JobG8
+job_id: jobg8-2243712
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1319,18 +1595,6 @@ company: Michael Page - Agency - Temporary
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225744699
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: New Appointments Group - Agency - Permanent
-location: Rochester
-source: JobG8
-job_id: jobg8-23643_225744357
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1410,11 +1674,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Admin Assistant
-company: Huntress - Maidstone - Agency - Permanent
-location: Maidstone
+title: Part Time Fully Remote Practice Bookkeeper
+company: TPF Recruitment - Agency - Permanent
+location: Kent
 source: JobG8
-job_id: jobg8-23643_225704651
+job_id: jobg8-2241334
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1471,6 +1735,30 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
+company: Cobb & Jones Recruitment Limited - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2113081
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Cygnet - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2242280
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
 company: Portfolio Payroll Limited - Agency - Permanent
 location: Kent
 source: JobG8
@@ -1506,11 +1794,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll and Pensions Officer
-company: New Appointments Group - Agency - Permanent
-location: Sittingbourne
+title: Payroll Assistant
+company: TPF Recruitment - Agency - Permanent
+location: Kent
 source: JobG8
-job_id: jobg8-2169491
+job_id: jobg8-2210343
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1518,11 +1806,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Assistant
+title: Payroll Executive
 company: TPF Recruitment - Agency - Permanent
-location: Kent
+location: Canterbury
 source: JobG8
-job_id: jobg8-2210343
+job_id: jobg8-2243509
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1578,11 +1866,35 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Practice Bookkeeper
+company: Farrer Barnes Limited - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2235349
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Private Client Legal Secretary
 company: Recruitment Solutions - Agency - Permanent
 location: Gravesend
 source: JobG8
 job_id: jobg8-2152928
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Private Client Paralegal
+company: Recruitment Solutions - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2125846
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1686,11 +1998,35 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Property Services Planner/Scheduler
+company: Riverside Group - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-2242316
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger
 company: Michael Page Finance - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2163841
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Cobb & Jones Recruitment Limited - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2243423
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1727,18 +2063,6 @@ company: Michael Page - Agency - Permanent
 location: Tunbridge Wells
 source: JobG8
 job_id: jobg8-23643_225773035
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Mocketts Wood Surgery
-location: Broadstairs, CT10 2TR
-source: NHS Jobs
-job_id: nhs-5673036
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1794,6 +2118,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist- St Peters Surgery
+company: Invicta Health CIC
+location: Broadstairs, CT10 2SQ
+source: NHS Jobs
+job_id: nhs-5714106
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Administrator
 company: New Appointments Group - Agency - Temporary
 location: Kent
@@ -1842,6 +2178,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator Supervisor
+company: Stellantis &You - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2234872
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Advisor
 company: Vic's Catering Supplies Limited - Agency - Permanent
 location: Sittingbourne
@@ -1871,6 +2219,42 @@ company: Rise Executive Search & Recruitment Ltd - Agency - Permanent
 location: Rochester
 source: JobG8
 job_id: jobg8-23643_225725085
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Clerk
+company: Reed - Agency - Permanent
+location: Sittingbourne
+source: JobG8
+job_id: jobg8-2130121
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Clerk
+company: Reed - Agency - Permanent
+location: Sittingbourne
+source: JobG8
+job_id: jobg8-2130146
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Clerk
+company: Reed - Agency - Permanent
+location: Sittingbourne
+source: JobG8
+job_id: jobg8-2130147
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1950,6 +2334,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Senior Digital & Social Marketing Executive
+company: Reed - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2142367
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Digital Marketing Executive
 company: Diamond Search Recruitment Ltd - Agency - Permanent
 location: Kent
@@ -1979,6 +2375,30 @@ company: Kairos Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225774523
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Prima Hatfield Associates - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2116376
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Prima Hatfield Associates - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2250231
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -2034,6 +2454,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Social Media & Digital Executive
+company: Reed - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2142317
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Stock Administrator
 company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
 location: Kent
@@ -2058,35 +2490,23 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Coordinator
-company: MorePeople - Agency - Permanent
-location: Dartford
-source: JobG8
-job_id: jobg8-23643_225705009
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Supply Chain Coordinator - Fresh Produce
-company: Tailor Made Resources - Agency - Permanent
-location: Dartford
-source: JobG8
-job_id: jobg8-23643_225310610
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Supply School Administrator
 company: Academics - Agency - Contract
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225789240
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Accounts Assistant 2 days a week
+company: Office Angels - Agency - Permanent
+location: Tenterden
+source: JobG8
+job_id: jobg8-2128569
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -2123,6 +2543,18 @@ company: James Frank Associates - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225769940
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Vehicle Administrator
+company: KPI People Ltd - Agency - Temporary
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225734038
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

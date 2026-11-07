@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 32
+- automatic review: 30
 - automatic exclude: 0
 - effective include: 4
-- effective review: 32
+- effective review: 30
 - effective exclude: 0
 
 ## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Four Squared Recruitment Ltd - Agency - Temporary
-location: Worcester
-source: JobG8
-job_id: jobg8-23643_225709610
-reason: Exact approved Worcester workplace.
----
 
 ---
 action: 
@@ -72,7 +60,19 @@ job_id: nhs-5708613
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (32)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Worcester
+source: JobG8
+job_id: jobg8-2234324
+reason: Exact approved Worcester workplace.
+---
+
+## REVIEW (30)
 
 ---
 action: 
@@ -95,18 +95,6 @@ company: Flora Partners - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-23643_225796734
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Herefordshire and Worcestershire Health and Care NHS Trust
-location: Droitwich, WR9 8QU
-source: NHS Jobs
-job_id: nhs-5689137
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -174,6 +162,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Contact Centre Manager
+company: Brellis Recruitment - Agency - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-23643_225779372
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Contact Centre Supervisor
 company: Brellis Recruitment - Agency - Permanent
 location: Worcestershire
@@ -234,18 +234,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: West Midlands & Worcestershire Perm Hub - Agency - Permanent
-location: Redditch
-source: JobG8
-job_id: jobg8-2212036
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Imports Coordinator
 company: Adecco - Agency - Permanent
 location: Worcestershire
@@ -271,10 +259,10 @@ action:
 decision: review
 automatic_decision: review
 title: Junior Finance Assistant
-company: Four Squared Recruitment Ltd - Agency - Temporary
+company: Four Squared - Agency - Permanent
 location: Redditch
 source: JobG8
-job_id: jobg8-23643_225726156
+job_id: jobg8-2129967
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -282,11 +270,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Night Transport Office Administrator
-company: Workforce Staffing Ltd - Agency - Permanent
-location: Worcestershire
+title: Junior Finance Assistant
+company: Four Squared Recruitment Ltd - Agency - Temporary
+location: Redditch
 source: JobG8
-job_id: jobg8-23643_225799806
+job_id: jobg8-23643_225726156
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -431,18 +419,6 @@ company: SRG - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225774635
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Work Experience Co-ordinator
-company: Nova Training - Company - Permanent
-location: Kidderminster
-source: JobG8
-job_id: jobg8-23643_225706634
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

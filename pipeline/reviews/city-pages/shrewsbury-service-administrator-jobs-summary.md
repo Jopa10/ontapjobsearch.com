@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 28
+- automatic include: 13
+- automatic review: 29
 - automatic exclude: 0
-- effective include: 9
-- effective review: 28
+- effective include: 13
+- effective review: 29
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (13)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Account Assistant
+company: Consula Group LTD - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-2110488
+reason: Exact approved Shrewsbury workplace.
+---
 
 ---
 action: 
@@ -45,6 +57,18 @@ company: Prince Personnel Limited - Agency - Temporary
 location: Shrewsbury
 source: JobG8
 job_id: jobg8-23643_225717119
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper
+company: Seymour John - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-2238198
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -112,11 +136,23 @@ reason: Exact approved Shrewsbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Pontesbury & Worthen Medical Practice
-location: Shrewsbury, SY5 0RF, Worthen, SY5 9HT
-source: NHS Jobs
-job_id: nhs-5687044
+title: First Point of Contact Administrator
+company: Hugo Reeves Recruitment - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-23643_225586899
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger
+company: Counted Recruitment - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-2164220
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -132,7 +168,31 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (28)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Accounts Payable Clerk
+company: Seymour John - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-2238322
+reason: Exact approved Shrewsbury workplace.
+---
+
+## REVIEW (29)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Consula Group LTD - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-2241448
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -167,18 +227,6 @@ company: Coverage Care Services - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225728935
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin, Finance & Admissions Officer
-company: Bridgnorth Endowed School
-location: Bridgnorth
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-finance-admissions-officer
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -323,6 +371,18 @@ company: Prince Personnel Limited - Agency - Temporary
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225736709
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim HR Assistant
+company: Liberty HR Recruitment - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225781879
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

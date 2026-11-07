@@ -76,11 +76,11 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: Focus Resourcing - Agency - Permanent
+title: Income Collection Administrator
+company: Opus People Solutions Ltd - Agency - Temporary
 location: Walsall
 source: JobG8
-job_id: jobg8-23643_225792666
+job_id: jobg8-23643_225810957
 reason: Exact approved Walsall workplace.
 ---
 
@@ -163,6 +163,18 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
+company: AD Finance - Agency - Permanent
+location: Wednesbury
+source: JobG8
+job_id: jobg8-2248012
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
 company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Dudley
 source: JobG8
@@ -191,6 +203,18 @@ company: Mitchell Adam - Agency - Permanent
 location: Smethwick
 source: JobG8
 job_id: jobg8-2199478
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable
+company: Mitchell Adam - Agency - Permanent
+location: West Midlands
+source: JobG8
+job_id: jobg8-2243495
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -295,6 +319,18 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
+company: Fortis Recruitment Solutions Ltd - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-2248714
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
 company: Trinity Professional - Agency - Permanent
 location: Brierley Hill
 source: JobG8
@@ -347,18 +383,6 @@ company: Think Accountancy and Finance - Agency - Permanent
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225758753
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer service Advisor
-company: Connect2Dudley - Agency - Temporary
-location: Dudley
-source: JobG8
-job_id: jobg8-23643_225704679
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -474,30 +498,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Learner Resourcer
-company: Nova Training - Company - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-23643_225706901
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Russell House Surgery
-location: Wolverhampton, WV8 1PE
-source: NHS Jobs
-job_id: nhs-5682858
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Optometrist Coordinator
 company: Vision Express - Company - Permanent
 location: Dudley
@@ -534,11 +534,11 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Project Coordinator
-company: MET Recruitment UK LTD - Agency - Contract
-location: Kingswinford
+title: Production Administrator
+company: Prince Personnel Limited - Agency - Permanent
+location: Wolverhampton
 source: JobG8
-job_id: jobg8-23643_225731258
+job_id: jobg8-23643_225796193
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -575,18 +575,6 @@ company: Dr.Singh's Surgery
 location: West Bromwich, B70 8HQ
 source: NHS Jobs
 job_id: nhs-5689520
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Three Villages Medical Practice
-location: Stourbridge, DY8 4JB
-source: NHS Jobs
-job_id: nhs-5685740
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -738,11 +726,23 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Service Desk Coordinator / Scheduler
-company: Elite People Ltd - Agency - Permanent
-location: Stourbridge
+title: Supply Chain Administrator
+company: Adecco - Agency - Permanent
+location: Wolverhampton
 source: JobG8
-job_id: jobg8-23643_225701373
+job_id: jobg8-2249898
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Supply Chain Administrator
+company: Adecco - Agency - Temporary
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-23643_225811182
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
