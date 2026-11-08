@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-07
-review_fingerprint: 8d85ad846fc9b29588a8a70659b3e29d65a2d2b7c3f02f5e150aa762a90120d7
-routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
+review_date: 2026-11-08
+review_fingerprint: a0a063fb246ec253018c84c5d26cbda02bad8caac97d1a4b5efbd7c269d3d0d2
+routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
+- Records: 13
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | North East | Sunderland, North East, SR5 5JA | N4 SCP 7- 9 FTE: £27,274 - £28,153 £14, 485 - £14, 952 actual salary pro-rata (£14.14 - £14.59 hourly rate) | Admin Assistant (N4)
-employer: Harry Watts Academy
-closing_date: 2026-11-08T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a1011686bc65671eddf3843deeff9c5f6512641e921e523fa2911615482d8f2c
-source: Teaching Vacancies
-source_job_id: admin-assistant-n4
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-n4
----
 
 ---
 action: 

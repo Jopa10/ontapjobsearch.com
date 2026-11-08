@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-07
+review_date: 2026-11-08
 review_fingerprint: 8460591b4c263700a541ed92654c46f7749ef5fd77226423d144ef460079d45d
-routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
+routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -119,7 +119,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-tr
 
 ## HARD_PASS
 
-- [ATTENDANCE & SAFEGUARDING OFFICER](https://teaching-vacancies.service.gov.uk/jobs/attendance-safeguarding-officer-king-james-academy-royston) — Insufficient admin/service evidence.
 - [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover) — Insufficient admin/service evidence.
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-ashlyns-school) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodfield-school) — Insufficient admin/service evidence.

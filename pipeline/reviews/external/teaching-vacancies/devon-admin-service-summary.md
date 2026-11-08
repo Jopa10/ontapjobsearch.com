@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-07
-review_fingerprint: ed171b443224d9d8863b71952de2e49f8c4e9ea2be2ee8a3b65ad2e00da4395a
-routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
+review_date: 2026-11-08
+review_fingerprint: e6c9ba898df1c4e9234f1c8867043684949c172e5e2457377b9098065dc35fdb
+routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 20
-- Selected: 2
-- POSS awaiting decision: 1
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 17
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/nursery-administrator
 
 ---
 action: 
+SELECTED | Devon | Plymouth, South West, PL3 4RS | £19,955.00 - £20,595.00 Annually (Actual) Grade C FTE £26,427 - £27,274 | School Administrator
+employer: Hyde Park Infants' School
+closing_date: 2026-11-20T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 81d95315748d8b99fe98f9bf46ea5818dee436b3631100ff0784254ad6aa4d5a
+source: Teaching Vacancies
+source_job_id: school-administrator-hyde-park-infants-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-hyde-park-infants-school
+---
+
+---
+action: 
 SELECTED | Devon | Plymouth, South West, PL3 4BD | £25,614.00 - £26,016.00 Annually (FTE) Actual salary £9173.45 - £9317.42 | School Receptionist
 employer: Stoke Damerel Community College
 closing_date: 2026-11-11T23:59:00+00:00
@@ -53,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-s
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Devon | Plymouth, South West, PL3 4RS | £19,955.00 - £20,595.00 Annually (Actual) Grade C FTE £26,427 - £27,274 | School Administrator
-employer: Hyde Park Infants' School
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 81d95315748d8b99fe98f9bf46ea5818dee436b3631100ff0784254ad6aa4d5a
-source: Teaching Vacancies
-source_job_id: school-administrator-hyde-park-infants-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-hyde-park-infants-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

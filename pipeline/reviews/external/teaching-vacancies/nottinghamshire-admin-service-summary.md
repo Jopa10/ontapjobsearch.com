@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-07
-review_fingerprint: da379b81e6020420b8c5208388fdab0f96e6ebbb3952e692dc3ac9529be63073
-routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
+review_date: 2026-11-08
+review_fingerprint: 0f9053f3d826bc23f7924a295d5a0906cc760d15caef6e75b3e699320d61dbf0
+routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 6
+- Records: 17
+- Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 2LR | £22,753 Actual Salary (£26,016 FTE) | Administrative Assistant
-employer: Netherfield Primary School
-closing_date: 2026-11-08T12:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9588c2b250bf0ebf1de834821ffb1460f1cfe185c955d0151a9ec5e8e937f923
-source: Teaching Vacancies
-source_job_id: administrative-assistant-netherfield-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-netherfield-primary-school
----
 
 ---
 action: 

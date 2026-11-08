@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-07
-review_fingerprint: 39bc26606524501938179fa50d2bb8f5f963f0f456d304a6f89999f9e36515d3
-routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
+review_date: 2026-11-08
+review_fingerprint: 011ed92aa0e23562c99c73afc7b181cc9ccfa301b4571f3fca2b816aaf8967c9
+routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 14
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -34,6 +34,21 @@ factual_fingerprint: 5d6faf98c302e5ae1174342fd014367e737902c198263a390e597217cbf
 source: Teaching Vacancies
 source_job_id: academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN1 1LW | £21,904.90 - £23,088. (Lincolnshire Grade 3, SCP 6–9 (£25,614–£26,847 FTE), pro rata | Admin Assistant
+employer: The St Faith and St Martin Church of England Junior School, Lincoln
+closing_date: 2026-11-24T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5c37fa50a876497b867e54d54480ae1e1430b6446c92cd937d16fecba5539053
+source: Teaching Vacancies
+source_job_id: admin-assistant-the-st-faith-and-st-martin-church-of-england-junior-school-lincoln
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-st-faith-and-st-martin-church-of-england-junior-school-lincoln
 ---
 
 ---

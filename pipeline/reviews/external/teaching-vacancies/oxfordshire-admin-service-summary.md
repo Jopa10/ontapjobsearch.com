@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-07
-review_fingerprint: 75435a2aafd2902f6daca881df3c792f84286abb4b47537e5012ea5c32ece8cf
-routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
+review_date: 2026-11-08
+review_fingerprint: d6889307b6524a1cc558c7d4580ccadcfc249367dd7e40a76d4f441f334e0025
+routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 6
-- POSS awaiting decision: 1
+- Selected: 7
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-health-an
 
 ---
 action: 
+SELECTED | Oxfordshire | Oxford, OX2 9JE | £32,578.00 - £35,570.00 Annually (FTE) | Finance Officer
+employer: Acer Trust
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3a9f75d1056f7302c031942a8c79c25bd919d789b82ffb5367ca9b757fd45290
+source: Teaching Vacancies
+source_job_id: finance-officer-acer-trust-oxford-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-trust-oxford-not-recorded
+---
+
+---
+action: 
 SELECTED | Oxfordshire | Oxford, OX4 4SF | £30,025.00 - £32,046.00 Annually (FTE) 0.4 FTE Actual Salary: £12,010 - £12,818 | Procurement Administrator *Hybrid Role*
 employer: River Learning Trust
 closing_date: 2026-11-09T23:59:00+00:00
@@ -113,20 +128,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Oxfordshire | Oxford, OX2 9JE | £32,578.00 - £35,570.00 Annually (FTE) | Finance Officer
-employer: Acer Trust
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3a9f75d1056f7302c031942a8c79c25bd919d789b82ffb5367ca9b757fd45290
-source: Teaching Vacancies
-source_job_id: finance-officer-acer-trust-oxford-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-trust-oxford-not-recorded
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

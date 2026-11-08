@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **525**
-- REVIEW NOW (LIVE regions): **514**
-- EDITABLE NOW (no remembered action): **514**
+- All routed roles: **520**
+- REVIEW NOW (LIVE regions): **509**
+- EDITABLE NOW (no remembered action): **509**
 - REMEMBERED / RESOLVED: **0**
 - DEFERRED - REGION NOT LIVE: **11**
-- SELECTED: **151**
-- POSS: **68**
-- HARD PASS / EXCLUDED: **295**
+- SELECTED: **150**
+- POSS: **66**
+- HARD PASS / EXCLUDED: **293**
 
 ## BEDFORDSHIRE — SELECTED
 
@@ -554,6 +554,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/nursery-administrator
 
 ---
 action:
+SELECTED | Devon | Plymouth, South West, PL3 4RS | £19,955.00 - £20,595.00 Annually (Actual) Grade C FTE £26,427 - £27,274 | School Administrator
+employer: Hyde Park Infants' School
+closing_date: 2026-11-20T09:00:00+00:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: 81d95315748d8b99fe98f9bf46ea5818dee436b3631100ff0784254ad6aa4d5a
+source_job_id: school-administrator-hyde-park-infants-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-hyde-park-infants-school
+---
+
+---
+action:
 SELECTED | Devon | Plymouth, South West, PL3 4BD | £25,614.00 - £26,016.00 Annually (FTE) Actual salary £9173.45 - £9317.42 | School Receptionist
 employer: Stoke Damerel Community College
 closing_date: 2026-11-11T23:59:00+00:00
@@ -565,16 +576,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-s
 
 ## DEVON — POSSIBLES
 
----
-action:
-POSS | Devon | Plymouth, South West, PL3 4RS | £19,955.00 - £20,595.00 Annually (Actual) Grade C FTE £26,427 - £27,274 | School Administrator
-employer: Hyde Park Infants' School
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-factual_fingerprint: 81d95315748d8b99fe98f9bf46ea5818dee436b3631100ff0784254ad6aa4d5a
-source_job_id: school-administrator-hyde-park-infants-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-hyde-park-infants-school
----
+_No jobs in this group._
 
 ## DORSET — SELECTED
 
@@ -911,17 +913,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-tr
 
 ---
 action:
-SELECTED | Kent | Dartford, South East, DA2 6FY | £23,781.00 - £25,137.00 Annually (Actual) | Admissions Officer
-employer: Stone Lodge School
-closing_date: 2026-11-08T09:00:00+00:00
-reason: Clear admin/service title: admissions officer
-factual_fingerprint: ce6b840fa2cc2d0f8c43241c6d9e752570ce9c8687ba404f082f8be8448e0494
-source_job_id: admissions-officer-stone-lodge-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-stone-lodge-school
----
-
----
-action:
 SELECTED | Kent | Dartford, South East, DA1 2HW | £16,274 actual pro rata salary (DGS3 £26,168fte) | Part-time Music School Administrator
 employer: Dartford Grammar School
 closing_date: 2026-11-23T09:00:00+00:00
@@ -1086,6 +1077,17 @@ reason: Clear admin/service title: administrator
 factual_fingerprint: 5d6faf98c302e5ae1174342fd014367e737902c198263a390e597217cbf5e708
 source_job_id: academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
+---
+
+---
+action:
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN1 1LW | £21,904.90 - £23,088. (Lincolnshire Grade 3, SCP 6–9 (£25,614–£26,847 FTE), pro rata | Admin Assistant
+employer: The St Faith and St Martin Church of England Junior School, Lincoln
+closing_date: 2026-11-24T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
+factual_fingerprint: 5c37fa50a876497b867e54d54480ae1e1430b6446c92cd937d16fecba5539053
+source_job_id: admin-assistant-the-st-faith-and-st-martin-church-of-england-junior-school-lincoln
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-st-faith-and-st-martin-church-of-england-junior-school-lincoln
 ---
 
 ---
@@ -1518,17 +1520,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | North East | Sunderland, North East, SR5 5JA | N4 SCP 7- 9 FTE: £27,274 - £28,153 £14, 485 - £14, 952 actual salary pro-rata (£14.14 - £14.59 hourly rate) | Admin Assistant (N4)
-employer: Harry Watts Academy
-closing_date: 2026-11-08T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-factual_fingerprint: a1011686bc65671eddf3843deeff9c5f6512641e921e523fa2911615482d8f2c
-source_job_id: admin-assistant-n4
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-n4
----
-
----
-action:
 SELECTED | North East | Newcastle-upon-Tyne, North East, NE5 4JQ | £27,274 - £28,153 FTE [Actual salary £23,917.20 - £24,688] | Administration Assistant Level 3 (Attendance)
 employer: Callerton Academy
 closing_date: 2026-11-20T09:00:00+00:00
@@ -1657,17 +1648,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 _No jobs in this group._
 
 ## NOTTINGHAMSHIRE — SELECTED
-
----
-action:
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 2LR | £22,753 Actual Salary (£26,016 FTE) | Administrative Assistant
-employer: Netherfield Primary School
-closing_date: 2026-11-08T12:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-factual_fingerprint: 9588c2b250bf0ebf1de834821ffb1460f1cfe185c955d0151a9ec5e8e937f923
-source_job_id: administrative-assistant-netherfield-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-netherfield-primary-school
----
 
 ---
 action:
@@ -1807,6 +1787,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-health-an
 
 ---
 action:
+SELECTED | Oxfordshire | Oxford, OX2 9JE | £32,578.00 - £35,570.00 Annually (FTE) | Finance Officer
+employer: Acer Trust
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+factual_fingerprint: 3a9f75d1056f7302c031942a8c79c25bd919d789b82ffb5367ca9b757fd45290
+source_job_id: finance-officer-acer-trust-oxford-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-trust-oxford-not-recorded
+---
+
+---
+action:
 SELECTED | Oxfordshire | Oxford, OX4 4SF | £30,025.00 - £32,046.00 Annually (FTE) 0.4 FTE Actual Salary: £12,010 - £12,818 | Procurement Administrator *Hybrid Role*
 employer: River Learning Trust
 closing_date: 2026-11-09T23:59:00+00:00
@@ -1840,16 +1831,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ## OXFORDSHIRE — POSSIBLES
 
----
-action:
-POSS | Oxfordshire | Oxford, OX2 9JE | £32,578.00 - £35,570.00 Annually (FTE) | Finance Officer
-employer: Acer Trust
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-factual_fingerprint: 3a9f75d1056f7302c031942a8c79c25bd919d789b82ffb5367ca9b757fd45290
-source_job_id: finance-officer-acer-trust-oxford-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-trust-oxford-not-recorded
----
+_No jobs in this group._
 
 ## SHROPSHIRE — SELECTED
 
@@ -2260,17 +2242,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 ---
 
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
-
----
-action:
-SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV10 8BN | £14,305.00 Annually (Actual) | Administrative Assistant
-employer: Fallings Park Primary School
-closing_date: 2026-11-07T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-factual_fingerprint: 25fce33f8350e1b85800166339a0554c0fd2361f0b5e087990c07919232db441
-source_job_id: administrative-assistant-fallings-park-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-fallings-park-primary-school
----
 
 ---
 action:

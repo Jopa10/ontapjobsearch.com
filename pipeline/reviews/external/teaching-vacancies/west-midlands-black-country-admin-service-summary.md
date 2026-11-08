@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-07
-review_fingerprint: 0ad3d6740982ce771704b3de89480cf5f4924f1894e2f9ef26bfbb1cd0358d14
-routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
+review_date: 2026-11-08
+review_fingerprint: 3b437addf9840bf6e8b861283af4cfcd22359b037915836cdcffcc9301cc2713
+routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV10 8BN | £14,305.00 Annually (Actual) | Administrative Assistant
-employer: Fallings Park Primary School
-closing_date: 2026-11-07T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 25fce33f8350e1b85800166339a0554c0fd2361f0b5e087990c07919232db441
-source: Teaching Vacancies
-source_job_id: administrative-assistant-fallings-park-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-fallings-park-primary-school
----
 
 ---
 action: 

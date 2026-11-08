@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-11-07
+review_date: 2026-11-08
 review_fingerprint: 9beb286ddc064d5645f4b247cd67a4a3f476d2c1b0db1e555caae9e4e44b3309
-routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
+routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE

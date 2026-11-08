@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-07
+review_date: 2026-11-08
 review_fingerprint: fadf084aebf2c32868db1c9c4e806402a463209dccf32119610e5ae61b6a1213
-routing_manifest_sha256: cfbd8205b850dc58b2b382ea953b91790fd70eaae405dddd31dbfff52438da40
+routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 15
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 12
 
 ## SELECTED
 
@@ -77,11 +77,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-admirals-academy) — No usable numeric salary.
-- [Admissions and Marketing Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-coordinator-university-technical-college-norfolk) — Insufficient admin/service evidence.
 - [Business and Student Services Degree Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-and-student-services-degree-apprentice) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-toftwood-infant-school) — No usable numeric salary.
-- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-734b138f-20ba-4b95-9728-d762be624cd2) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-burston-community-primary-school-diss-norfolk) — Excluded senior/management title.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-norwich-city-college-of-further-and-higher-education-norwich-norfolk) — Insufficient admin/service evidence.
