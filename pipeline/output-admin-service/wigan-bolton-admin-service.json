@@ -884,24 +884,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "nhs-5711034",
-    "source": "NHS Jobs",
-    "title": "Clerical Officer",
-    "company": "Bolton NHS Foundation Trust",
-    "advertiser_name": "Bolton NHS Foundation Trust",
-    "location": "Bolton, BL4 0JR",
-    "region": "Greater Manchester - Wigan & Bolton",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-11-05T16:57:08.234891444",
-    "closing_date": "2026-11-19",
-    "description": "An exciting opportunity has arisen for a clerical officer/receptionist to work within the Maternity Ultrasound Department at Bolton NHS Foundation Trust. We are looking for an enthusiastic, motivated individual with a positive attitude and excellent organisational skills, good attention to detail, excellent communication skills and willingness to learn. The successful applicant will provide general clerical duties on reception and be responsible for attending patients for appointments, accurate data input, booking appointments, taking telephone calls and other administrative duties such as sorting letters and filing. The ideal candidate will have knowledge and experience of working in a similar administrative environment. Please note: This role is not eligible for Skilled Worker visa sponsorship. Applicants must have the right to work in the UK at the time of application, as we are unable to support visa applications for this position. The post holder will be responsible for a wide range of administrative and clerical functions The post holder will be expected to have excellent communication and interpersonal skills, good IT and organisational skills, with the ability to deal sensitively and confidently with people, both face to face and over the telephone, as well as work effectively as part of the team. The ability to work under pressure to meet deadlines is essential. The ability to work using own initiative and without direct supervision. For further information regarding the key responsibilities of this role please see the attached job description and personal specification. If you have any further questions regarding this role please do not hesitate to contact us via the information below.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0416",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0416",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
     "job_id": "nhs-5685575",
     "source": "NHS Jobs",
     "title": "Medical Receptionist",
@@ -917,6 +899,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0776-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0776-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

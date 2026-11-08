@@ -1112,31 +1112,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2178034",
-    "title": "Receptionist",
-    "company": "Venn Group - Agency - Permanent",
-    "location": "Berkshire",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "A fantastic opportunity has arisen for a personable and professional Receptionist to join a leading organisation in a modern corporate environment. This is a highly visible, front-of-house role focused on delivering an exceptional workplace experience for employees, visitors and stakeholders, whilst supporting the smooth day-to-day operation of a busy office.\n\nResponsibilities\n- Provide a warm, professional welcome to all visitors and employees entering the office.\n- Act as the first point of contact for workplace-related queries, resolving issues and ensuring an excellent customer experience.\n- Manage reception operations, visitor registration processes and building access procedures.\n- Coordinate meeting rooms, conference facilities and hospitality requirements, resolving any scheduling conflicts as required.\n- Support the planning and delivery of internal events, employee engagement activities and client visits.\n- Conduct regular workplace walkthroughs to ensure high standards across office facilities and services.\n- Liaise with suppliers, contractors and service partners to ensure seamless service delivery.\n- Assist with reporting, data collection and administrative tasks to support operational performance and continuous improvement initiatives.\n\nRequirements\n- Previous experience in a receptionist/front of house role.\n- Exceptional communication and interpersonal skills with a genuine passion for delivering outstanding service.\n- Professional, polished and confident approach when dealing with visitors and stakeholders.\n- Strong organisational skills with the ability to manage multiple priorities in a fast-paced environment.\n- Experience coordinating meetings, events or facilities-related activities would be advantageous.\n- Proficient in Microsoft Office and comfortable learning new systems and technology.\n- Collaborative team player with a proactive and solutions-focused mindset.\n- Keen to develop within a customer-focused workplace or facilities environment.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?43PI6mYDPX05ticS%2fDzVTj9erCDfGfBJq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Venn Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2176147",
     "title": "Accounts Assistant",
     "company": "Sheridan Maine - Agency - Permanent",
@@ -1877,7 +1852,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4161-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4161-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5692463",
@@ -1895,6 +1874,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0890",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0890",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

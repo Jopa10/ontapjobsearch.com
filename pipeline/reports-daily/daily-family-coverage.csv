@@ -7,7 +7,7 @@
 2026-11-08,Bedfordshire,finance_accounts,9
 2026-11-08,Bedfordshire,hr_recruitment,1
 2026-11-08,Bedfordshire,customer_service_contact_centre,4
-2026-11-08,Berkshire,service_admin,70
+2026-11-08,Berkshire,service_admin,69
 2026-11-08,Berkshire,support_worker,17
 2026-11-08,Berkshire,customer_sales,18
 2026-11-08,Berkshire,legal_assistant_paralegal,6
@@ -15,7 +15,7 @@
 2026-11-08,Berkshire,finance_accounts,26
 2026-11-08,Berkshire,hr_recruitment,4
 2026-11-08,Berkshire,customer_service_contact_centre,1
-2026-11-08,Bristol & Bath,service_admin,60
+2026-11-08,Bristol & Bath,service_admin,59
 2026-11-08,Bristol & Bath,support_worker,8
 2026-11-08,Bristol & Bath,customer_sales,13
 2026-11-08,Bristol & Bath,legal_assistant_paralegal,11
@@ -23,25 +23,25 @@
 2026-11-08,Bristol & Bath,finance_accounts,15
 2026-11-08,Bristol & Bath,hr_recruitment,4
 2026-11-08,Bristol & Bath,customer_service_contact_centre,5
-2026-11-08,Buckinghamshire,service_admin,64
+2026-11-08,Buckinghamshire,service_admin,66
 2026-11-08,Buckinghamshire,support_worker,2
 2026-11-08,Buckinghamshire,customer_sales,7
 2026-11-08,Buckinghamshire,legal_assistant_paralegal,8
 2026-11-08,Buckinghamshire,marketing,11
-2026-11-08,Buckinghamshire,finance_accounts,28
+2026-11-08,Buckinghamshire,finance_accounts,29
 2026-11-08,Buckinghamshire,hr_recruitment,8
 2026-11-08,Buckinghamshire,customer_service_contact_centre,1
 2026-11-08,Cambridgeshire,service_admin,48
 2026-11-08,Cambridgeshire,support_worker,1
 2026-11-08,Cambridgeshire,customer_sales,14
 2026-11-08,Cambridgeshire,legal_assistant_paralegal,27
-2026-11-08,Cambridgeshire,marketing,11
+2026-11-08,Cambridgeshire,marketing,12
 2026-11-08,Cambridgeshire,finance_accounts,19
 2026-11-08,Cambridgeshire,hr_recruitment,1
 2026-11-08,Cambridgeshire,customer_service_contact_centre,2
 2026-11-08,Cheshire - East,service_admin,31
 2026-11-08,Cheshire - East,support_worker,5
-2026-11-08,Cheshire - East,customer_sales,2
+2026-11-08,Cheshire - East,customer_sales,1
 2026-11-08,Cheshire - East,legal_assistant_paralegal,2
 2026-11-08,Cheshire - East,marketing,2
 2026-11-08,Cheshire - East,finance_accounts,21
@@ -55,11 +55,11 @@
 2026-11-08,Cheshire - Warrington & Halton,finance_accounts,15
 2026-11-08,Cheshire - Warrington & Halton,hr_recruitment,1
 2026-11-08,Cheshire - Warrington & Halton,customer_service_contact_centre,2
-2026-11-08,Cheshire - West,service_admin,22
+2026-11-08,Cheshire - West,service_admin,23
 2026-11-08,Cheshire - West,support_worker,2
 2026-11-08,Cheshire - West,customer_sales,3
 2026-11-08,Cheshire - West,legal_assistant_paralegal,5
-2026-11-08,Cheshire - West,marketing,5
+2026-11-08,Cheshire - West,marketing,6
 2026-11-08,Cheshire - West,finance_accounts,10
 2026-11-08,Cheshire - West,hr_recruitment,1
 2026-11-08,Cheshire - West,customer_service_contact_centre,0
@@ -107,7 +107,7 @@
 2026-11-08,Devon,support_worker,17
 2026-11-08,Devon,customer_sales,4
 2026-11-08,Devon,legal_assistant_paralegal,8
-2026-11-08,Devon,marketing,4
+2026-11-08,Devon,marketing,3
 2026-11-08,Devon,finance_accounts,19
 2026-11-08,Devon,hr_recruitment,4
 2026-11-08,Devon,customer_service_contact_centre,6
@@ -116,7 +116,7 @@
 2026-11-08,Dorset,customer_sales,7
 2026-11-08,Dorset,legal_assistant_paralegal,5
 2026-11-08,Dorset,marketing,12
-2026-11-08,Dorset,finance_accounts,22
+2026-11-08,Dorset,finance_accounts,21
 2026-11-08,Dorset,hr_recruitment,2
 2026-11-08,Dorset,customer_service_contact_centre,3
 2026-11-08,Essex,service_admin,114
@@ -129,7 +129,7 @@
 2026-11-08,Essex,customer_service_contact_centre,5
 2026-11-08,Gloucestershire,service_admin,60
 2026-11-08,Gloucestershire,support_worker,7
-2026-11-08,Gloucestershire,customer_sales,6
+2026-11-08,Gloucestershire,customer_sales,7
 2026-11-08,Gloucestershire,legal_assistant_paralegal,4
 2026-11-08,Gloucestershire,marketing,7
 2026-11-08,Gloucestershire,finance_accounts,27
@@ -139,7 +139,7 @@
 2026-11-08,Greater Manchester - Manchester & Salford,support_worker,11
 2026-11-08,Greater Manchester - Manchester & Salford,customer_sales,9
 2026-11-08,Greater Manchester - Manchester & Salford,legal_assistant_paralegal,26
-2026-11-08,Greater Manchester - Manchester & Salford,marketing,28
+2026-11-08,Greater Manchester - Manchester & Salford,marketing,27
 2026-11-08,Greater Manchester - Manchester & Salford,finance_accounts,54
 2026-11-08,Greater Manchester - Manchester & Salford,hr_recruitment,7
 2026-11-08,Greater Manchester - Manchester & Salford,customer_service_contact_centre,11
@@ -169,7 +169,7 @@
 2026-11-08,Greater Manchester - Wigan & Bolton,customer_service_contact_centre,3
 2026-11-08,Hampshire,service_admin,140
 2026-11-08,Hampshire,support_worker,27
-2026-11-08,Hampshire,customer_sales,29
+2026-11-08,Hampshire,customer_sales,30
 2026-11-08,Hampshire,legal_assistant_paralegal,14
 2026-11-08,Hampshire,marketing,18
 2026-11-08,Hampshire,finance_accounts,48
@@ -185,7 +185,7 @@
 2026-11-08,Herefordshire,customer_service_contact_centre,0
 2026-11-08,Hertfordshire,service_admin,102
 2026-11-08,Hertfordshire,support_worker,6
-2026-11-08,Hertfordshire,customer_sales,12
+2026-11-08,Hertfordshire,customer_sales,13
 2026-11-08,Hertfordshire,legal_assistant_paralegal,15
 2026-11-08,Hertfordshire,marketing,7
 2026-11-08,Hertfordshire,finance_accounts,39
@@ -243,7 +243,7 @@
 2026-11-08,Leicestershire,support_worker,7
 2026-11-08,Leicestershire,customer_sales,8
 2026-11-08,Leicestershire,legal_assistant_paralegal,2
-2026-11-08,Leicestershire,marketing,10
+2026-11-08,Leicestershire,marketing,9
 2026-11-08,Leicestershire,finance_accounts,30
 2026-11-08,Leicestershire,hr_recruitment,5
 2026-11-08,Leicestershire,customer_service_contact_centre,2
@@ -255,19 +255,19 @@
 2026-11-08,Lincolnshire,finance_accounts,12
 2026-11-08,Lincolnshire,hr_recruitment,1
 2026-11-08,Lincolnshire,customer_service_contact_centre,0
-2026-11-08,London,service_admin,391
+2026-11-08,London,service_admin,392
 2026-11-08,London,support_worker,117
 2026-11-08,London,customer_sales,117
 2026-11-08,London,legal_assistant_paralegal,93
-2026-11-08,London,marketing,171
+2026-11-08,London,marketing,170
 2026-11-08,London,finance_accounts,163
 2026-11-08,London,hr_recruitment,37
 2026-11-08,London,customer_service_contact_centre,11
-2026-11-08,Merseyside - Liverpool,service_admin,48
+2026-11-08,Merseyside - Liverpool,service_admin,47
 2026-11-08,Merseyside - Liverpool,support_worker,0
 2026-11-08,Merseyside - Liverpool,customer_sales,2
 2026-11-08,Merseyside - Liverpool,legal_assistant_paralegal,8
-2026-11-08,Merseyside - Liverpool,marketing,5
+2026-11-08,Merseyside - Liverpool,marketing,4
 2026-11-08,Merseyside - Liverpool,finance_accounts,24
 2026-11-08,Merseyside - Liverpool,hr_recruitment,3
 2026-11-08,Merseyside - Liverpool,customer_service_contact_centre,1
@@ -307,11 +307,11 @@
 2026-11-08,North East,support_worker,25
 2026-11-08,North East,customer_sales,21
 2026-11-08,North East,legal_assistant_paralegal,9
-2026-11-08,North East,marketing,10
+2026-11-08,North East,marketing,9
 2026-11-08,North East,finance_accounts,35
 2026-11-08,North East,hr_recruitment,8
 2026-11-08,North East,customer_service_contact_centre,7
-2026-11-08,North Scotland,service_admin,11
+2026-11-08,North Scotland,service_admin,12
 2026-11-08,North Scotland,support_worker,2
 2026-11-08,North Scotland,customer_sales,3
 2026-11-08,North Scotland,legal_assistant_paralegal,1
@@ -363,7 +363,7 @@
 2026-11-08,Nottinghamshire,support_worker,19
 2026-11-08,Nottinghamshire,customer_sales,10
 2026-11-08,Nottinghamshire,legal_assistant_paralegal,7
-2026-11-08,Nottinghamshire,marketing,25
+2026-11-08,Nottinghamshire,marketing,24
 2026-11-08,Nottinghamshire,finance_accounts,26
 2026-11-08,Nottinghamshire,hr_recruitment,5
 2026-11-08,Nottinghamshire,customer_service_contact_centre,1
@@ -372,7 +372,7 @@
 2026-11-08,Oxfordshire,customer_sales,10
 2026-11-08,Oxfordshire,legal_assistant_paralegal,10
 2026-11-08,Oxfordshire,marketing,11
-2026-11-08,Oxfordshire,finance_accounts,17
+2026-11-08,Oxfordshire,finance_accounts,16
 2026-11-08,Oxfordshire,hr_recruitment,5
 2026-11-08,Oxfordshire,customer_service_contact_centre,1
 2026-11-08,Rutland,service_admin,0
@@ -392,7 +392,7 @@
 2026-11-08,Scotland - Borders,hr_recruitment,0
 2026-11-08,Scotland - Borders,customer_service_contact_centre,0
 2026-11-08,Scotland Central - Edinburgh & Lothians,service_admin,42
-2026-11-08,Scotland Central - Edinburgh & Lothians,support_worker,0
+2026-11-08,Scotland Central - Edinburgh & Lothians,support_worker,1
 2026-11-08,Scotland Central - Edinburgh & Lothians,customer_sales,2
 2026-11-08,Scotland Central - Edinburgh & Lothians,legal_assistant_paralegal,7
 2026-11-08,Scotland Central - Edinburgh & Lothians,marketing,2
@@ -431,12 +431,12 @@
 2026-11-08,Scotland West - Ayrshire,finance_accounts,1
 2026-11-08,Scotland West - Ayrshire,hr_recruitment,1
 2026-11-08,Scotland West - Ayrshire,customer_service_contact_centre,0
-2026-11-08,Scotland West - Glasgow,service_admin,25
+2026-11-08,Scotland West - Glasgow,service_admin,26
 2026-11-08,Scotland West - Glasgow,support_worker,0
 2026-11-08,Scotland West - Glasgow,customer_sales,8
 2026-11-08,Scotland West - Glasgow,legal_assistant_paralegal,5
 2026-11-08,Scotland West - Glasgow,marketing,10
-2026-11-08,Scotland West - Glasgow,finance_accounts,8
+2026-11-08,Scotland West - Glasgow,finance_accounts,9
 2026-11-08,Scotland West - Glasgow,hr_recruitment,2
 2026-11-08,Scotland West - Glasgow,customer_service_contact_centre,3
 2026-11-08,Scotland West - Lanarkshire,service_admin,7
@@ -463,7 +463,7 @@
 2026-11-08,Shropshire,finance_accounts,8
 2026-11-08,Shropshire,hr_recruitment,4
 2026-11-08,Shropshire,customer_service_contact_centre,3
-2026-11-08,Somerset,service_admin,35
+2026-11-08,Somerset,service_admin,34
 2026-11-08,Somerset,support_worker,7
 2026-11-08,Somerset,customer_sales,6
 2026-11-08,Somerset,legal_assistant_paralegal,3
@@ -511,14 +511,14 @@
 2026-11-08,Wales - Mid,finance_accounts,0
 2026-11-08,Wales - Mid,hr_recruitment,1
 2026-11-08,Wales - Mid,customer_service_contact_centre,0
-2026-11-08,Wales - West,service_admin,1
+2026-11-08,Wales - West,service_admin,2
 2026-11-08,Wales - West,support_worker,2
 2026-11-08,Wales - West,customer_sales,1
 2026-11-08,Wales - West,legal_assistant_paralegal,0
 2026-11-08,Wales - West,marketing,0
 2026-11-08,Wales - West,finance_accounts,2
 2026-11-08,Wales - West,hr_recruitment,0
-2026-11-08,Wales - West,customer_service_contact_centre,0
+2026-11-08,Wales - West,customer_service_contact_centre,1
 2026-11-08,Wales South - Cardiff & Vale,service_admin,20
 2026-11-08,Wales South - Cardiff & Vale,support_worker,0
 2026-11-08,Wales South - Cardiff & Vale,customer_sales,0
@@ -527,7 +527,7 @@
 2026-11-08,Wales South - Cardiff & Vale,finance_accounts,7
 2026-11-08,Wales South - Cardiff & Vale,hr_recruitment,0
 2026-11-08,Wales South - Cardiff & Vale,customer_service_contact_centre,0
-2026-11-08,Wales South - Gwent,service_admin,16
+2026-11-08,Wales South - Gwent,service_admin,17
 2026-11-08,Wales South - Gwent,support_worker,1
 2026-11-08,Wales South - Gwent,customer_sales,2
 2026-11-08,Wales South - Gwent,legal_assistant_paralegal,0
@@ -535,7 +535,7 @@
 2026-11-08,Wales South - Gwent,finance_accounts,2
 2026-11-08,Wales South - Gwent,hr_recruitment,0
 2026-11-08,Wales South - Gwent,customer_service_contact_centre,0
-2026-11-08,Wales South - Swansea Bay,service_admin,14
+2026-11-08,Wales South - Swansea Bay,service_admin,13
 2026-11-08,Wales South - Swansea Bay,support_worker,3
 2026-11-08,Wales South - Swansea Bay,customer_sales,0
 2026-11-08,Wales South - Swansea Bay,legal_assistant_paralegal,0
@@ -568,7 +568,7 @@
 2026-11-08,West Midlands - Black Country,hr_recruitment,6
 2026-11-08,West Midlands - Black Country,customer_service_contact_centre,4
 2026-11-08,West Midlands - Coventry & Warwickshire,service_admin,84
-2026-11-08,West Midlands - Coventry & Warwickshire,support_worker,7
+2026-11-08,West Midlands - Coventry & Warwickshire,support_worker,6
 2026-11-08,West Midlands - Coventry & Warwickshire,customer_sales,11
 2026-11-08,West Midlands - Coventry & Warwickshire,legal_assistant_paralegal,6
 2026-11-08,West Midlands - Coventry & Warwickshire,marketing,6
@@ -577,7 +577,7 @@
 2026-11-08,West Midlands - Coventry & Warwickshire,customer_service_contact_centre,7
 2026-11-08,Wiltshire,service_admin,46
 2026-11-08,Wiltshire,support_worker,10
-2026-11-08,Wiltshire,customer_sales,5
+2026-11-08,Wiltshire,customer_sales,4
 2026-11-08,Wiltshire,legal_assistant_paralegal,2
 2026-11-08,Wiltshire,marketing,5
 2026-11-08,Wiltshire,finance_accounts,13
@@ -595,12 +595,12 @@
 2026-11-08,Yorkshire - East,support_worker,1
 2026-11-08,Yorkshire - East,customer_sales,3
 2026-11-08,Yorkshire - East,legal_assistant_paralegal,5
-2026-11-08,Yorkshire - East,marketing,3
+2026-11-08,Yorkshire - East,marketing,4
 2026-11-08,Yorkshire - East,finance_accounts,9
 2026-11-08,Yorkshire - East,hr_recruitment,1
 2026-11-08,Yorkshire - East,customer_service_contact_centre,0
-2026-11-08,Yorkshire - North,service_admin,39
-2026-11-08,Yorkshire - North,support_worker,15
+2026-11-08,Yorkshire - North,service_admin,38
+2026-11-08,Yorkshire - North,support_worker,14
 2026-11-08,Yorkshire - North,customer_sales,4
 2026-11-08,Yorkshire - North,legal_assistant_paralegal,13
 2026-11-08,Yorkshire - North,marketing,6
@@ -619,7 +619,7 @@
 2026-11-08,Yorkshire - West,support_worker,7
 2026-11-08,Yorkshire - West,customer_sales,19
 2026-11-08,Yorkshire - West,legal_assistant_paralegal,14
-2026-11-08,Yorkshire - West,marketing,21
+2026-11-08,Yorkshire - West,marketing,19
 2026-11-08,Yorkshire - West,finance_accounts,69
 2026-11-08,Yorkshire - West,hr_recruitment,5
 2026-11-08,Yorkshire - West,customer_service_contact_centre,9

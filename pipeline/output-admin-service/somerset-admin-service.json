@@ -706,31 +706,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108284011",
-    "title": "Inbound Customer Service Advisor",
-    "company": "NWF Fuels - Agency - Temporary",
-    "location": "Somerset",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "34999",
-    "salary_max": "34999",
-    "salary_text": "£34999 per year",
-    "posted_date": "",
-    "description": "NWF Fuels are recruiting Customer Service Advisor to join our well-established, high performing, fast paced team, based out of our Yeovil office, initially on a 6 month fixed term contract to support our busy winter peak. Our customers are at the centre of our business and providing the best possible service is paramount. The Customer Service Advisor is responsible for handling queries through to click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?7PhVxzLSGdFBp%2b5UM9UGmixnyZobyqg4v",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "NWF Fuels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "108282231",
     "title": "Scanning Admin Assistant",
     "company": "Exmoor National Park Authority - Agency - Temporary",
@@ -946,7 +921,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1060-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1060-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5692196",
@@ -964,7 +943,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1198-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1198-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5688635",
@@ -982,7 +965,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1537-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1537-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5689012",
@@ -1000,7 +987,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5682551",
@@ -1018,7 +1009,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1541",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1541",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5667697",
@@ -1036,6 +1031,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0497",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0497",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

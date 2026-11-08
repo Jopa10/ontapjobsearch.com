@@ -550,6 +550,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108234469",
+    "title": "Digital Experience Coordinator",
+    "company": "Places for People - Company - Permanent",
+    "location": "Northwich",
+    "region": "Cheshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "34999",
+    "salary_max": "34999",
+    "salary_text": "£34999 per year",
+    "posted_date": "",
+    "description": "Are you passionate about digital customer experiences and looking for an opportunity to help improve the way customers interact with online services?\n\nWe're looking for a Digital Experience Coordinator to support the day-to-day running, performance and continuous improvement of our digital customer platforms click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?BLJDB6rXdtNR2sByXpMQuha07DzUDGRak",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Places for People",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5694184",
     "source": "NHS Jobs",
     "title": "Clerical Officer",
@@ -565,7 +590,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0506",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0506",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5692225",
@@ -583,6 +612,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1609-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1609-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

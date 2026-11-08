@@ -903,31 +903,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108271266",
-    "title": "Part Time Administrator",
-    "company": "KD Recruitment Limited - Agency - Permanent",
-    "location": "Scarborough",
-    "region": "Yorkshire - North",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "14045",
-    "salary_max": "14045",
-    "salary_text": "£14045 per year",
-    "posted_date": "",
-    "description": "Are you an organised, approachable, and customer-focused Administrator looking to make a real difference in Scarborough? Would you like to work for an organisation known for delivering high-quality client support and trusted by the community it serves? Are you looking to join a supportive, client-focused organisation where teamwork and service excellence are at the core?\n\nIf so, this could be the click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gD3sUHW4yqvVKXp33Y%2bVoU8vmj3C1sNQy",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "KD Recruitment Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225810362",
     "title": "Administrator",
     "company": "Winsearch - Agency - Temporary",
@@ -1018,7 +993,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0260-26-0082",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0260-26-0082",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5690490",
@@ -1036,7 +1015,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1354",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1354",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5706440",
@@ -1054,7 +1037,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4504-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4504-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5684296",
@@ -1072,6 +1059,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1323",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1323",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admissions-officer-stone-lodge-school",
-    "title": "Admissions Officer",
-    "company": "Stone Lodge School",
-    "location": "Dartford",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£23,781.00 - £25,137.00 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-10-22",
-    "closing_date": "2026-11-08",
-    "closing_datetime": "2026-11-08T09:00:00+00:00",
-    "summary": "Admissions Officer with Stone Lodge School in Dartford. ['full time']; £23,781.00 - £25,137.00 Annually (Actual).",
-    "description": "Stone Lodge School is recruiting for this vacancy in Dartford.\n\nThe advertised position is Admissions Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £23,781.00 - £25,137.00 Annually (Actual).\n\nThe stated application deadline is 2026-11-08T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-stone-lodge-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Stone Lodge School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-part-time-music-school-administrator",
     "title": "Part-time Music School Administrator",
     "company": "Dartford Grammar School",
@@ -3296,7 +3268,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1475-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1475-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5706447",
@@ -3314,7 +3290,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2869-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2869-26-0012",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5695443",
@@ -3332,7 +3312,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0646-26-0037",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0646-26-0037",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5675071",
@@ -3350,7 +3334,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2757-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2757-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5660895",
@@ -3368,7 +3356,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0624-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0624-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5710549",
@@ -3386,7 +3378,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0169",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0169",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5714106",
@@ -3404,7 +3400,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0082-26-0090",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0082-26-0090",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5706325",
@@ -3422,7 +3422,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2558-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2558-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5695179",
@@ -3440,7 +3444,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3025-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3025-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5681774",
@@ -3458,7 +3466,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5653-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5653-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5682140",
@@ -3476,7 +3488,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0055-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0055-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5675481",
@@ -3494,6 +3510,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0015",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0015",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
