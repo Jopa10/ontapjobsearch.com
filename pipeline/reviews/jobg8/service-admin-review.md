@@ -4361,6 +4361,12 @@ SELECTED | London | London | £28000 per year [JobG8 salary fields] | Care Coord
 job_id: 23643_225784345
 ---
 
+---
+action:
+SELECTED | London | London | £40000 per year [JobG8 salary fields] | Dental Sales / Treatment Co-ordinator
+job_id: 108297467
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -8687,12 +8693,6 @@ job_id: 2179071
 
 ---
 action:
-SELECTED | Berkshire | Berkshire |  | Receptionist
-job_id: 2178034
----
-
----
-action:
 SELECTED | Berkshire | Berkshire | £30000 per year | Accounts Assistant
 job_id: 2176147
 ---
@@ -9237,12 +9237,6 @@ job_id: 23643_225104066
 
 ---
 action:
-SELECTED | Bristol & Bath | Bristol |  | Bikeability Delivery Administrator
-job_id: 2236813
----
-
----
-action:
 SELECTED | Bristol & Bath | Bristol | £30000 - £35000 per year (Progression + Training + Benefits) | Service Coordinator
 job_id: 23643_225806749
 ---
@@ -9705,6 +9699,18 @@ job_id: 108285635
 action:
 SELECTED | Buckinghamshire | Buckinghamshire | £15.8 per hour | Recruitment Administrator
 job_id: 23643_225810808
+---
+
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire | £35659 per year | EfW Administrator and Visitor Centre Supervisor
+job_id: 108286101
+---
+
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire | £14.5 - £15.5 per hour | Purchasing Assistant / Stores Person
+job_id: 23643_225812084
 ---
 
 ## BUCKINGHAMSHIRE — POSSIBLES
@@ -10567,6 +10573,12 @@ job_id: 108234472
 action:
 SELECTED | Cheshire - West | Northwich | £29999 per year | Customer Engagement & Communication Coordinator
 job_id: 108234480
+---
+
+---
+action:
+SELECTED | Cheshire - West | Northwich | £34999 per year | Digital Experience Coordinator
+job_id: 108234469
 ---
 
 ## CHESHIRE - WEST — POSSIBLES
@@ -16005,12 +16017,6 @@ job_id: 23643_225805705
 
 ---
 action:
-SELECTED | Merseyside - Liverpool | Liverpool |  | Youth Administration Coordinator - Merseyside
-job_id: 2244671
----
-
----
-action:
 SELECTED | Merseyside - Liverpool | Liverpool | £29,771 per year | Recovery Coordinator (Young Persons)- Liverpool
 job_id: 2244587
 ---
@@ -16621,6 +16627,12 @@ job_id: 23643_225805378
 action:
 SELECTED | North Scotland | Aberdeen | £16 - £18 per hour | Temporary Document Controller
 job_id: 23643_225805290
+---
+
+---
+action:
+SELECTED | North Scotland | Montrose |  | Repair Technical Sales Coordinator
+job_id: 23643_225812109
 ---
 
 ## NORTH SCOTLAND — POSSIBLES
@@ -17967,12 +17979,6 @@ job_id: 23643_225804817
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £27,175 - £31,601 per year | Finance Administrator
-job_id: 2244585
----
-
----
-action:
 SELECTED | Oxfordshire | Oxfordshire | £27000 - £30000 per year | Account Coordinator
 job_id: 23643_225808500
 ---
@@ -18017,6 +18023,12 @@ job_id: 108260738
 action:
 SELECTED | Oxfordshire | Oxfordshire |  | Document Controller
 job_id: 23643_225812064
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire | £12.79 per hour (plus benefits) | Receptionist - Bank
+job_id: 108297659
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -18655,6 +18667,12 @@ job_id: 2233991
 
 ---
 action:
+SELECTED | Scotland West - Glasgow | Glasgow | £32000 per year | Credit Controller
+job_id: 2250290
+---
+
+---
+action:
 SELECTED | Scotland West - Glasgow | Glasgow | £13.84 per hour | Office Coordinator
 job_id: 23643_225811652
 ---
@@ -18665,6 +18683,12 @@ job_id: 23643_225811652
 action:
 POSS - SCOTLAND WEST - GLASGOW | Scotland West - Glasgow | Glasgow |  | Finance Officer
 job_id: 2144166
+---
+
+---
+action:
+POSS - SCOTLAND WEST - GLASGOW | Scotland West - Glasgow | Glasgow | £40000 per year | Service Manager
+job_id: 108276039
 ---
 
 ## SCOTLAND WEST - LANARKSHIRE — SELECTED
@@ -19163,12 +19187,6 @@ job_id: 23643_225801192
 action:
 SELECTED | Somerset | Somerset | £28000 - £32000 per year | Payroll Assistant
 job_id: 2243451
----
-
----
-action:
-SELECTED | Somerset | Somerset | £34999 per year | Inbound Customer Service Advisor
-job_id: 108284011
 ---
 
 ---
@@ -20093,6 +20111,12 @@ SELECTED | Wales South - Gwent | Tredegar | £27000 per year (flexitime (3.30pm 
 job_id: 23643_225790553
 ---
 
+---
+action:
+SELECTED | Wales South - Gwent | Newport | £28,000 - £35,000 per year | Bookkeeper
+job_id: 2248231
+---
+
 ## WALES SOUTH - GWENT — POSSIBLES
 
 ---
@@ -20161,12 +20185,6 @@ job_id: 23643_225782219
 action:
 SELECTED | Wales South - Swansea Bay | Swansea | £24784 - £26500 per year (A 37.5 hour week excellent benefits) | Administrator Financial Services
 job_id: 23643_225793636
----
-
----
-action:
-SELECTED | Wales South - Swansea Bay | Swansea |  | Trainee HR Administrator
-job_id: 2101939
 ---
 
 ---
@@ -22059,12 +22077,6 @@ job_id: 2249128
 action:
 SELECTED | Yorkshire - North | York | £25000 - £28000 per year | Legal Assistant - Litigation
 job_id: 2249327
----
-
----
-action:
-SELECTED | Yorkshire - North | Scarborough | £14045 per year | Part Time Administrator
-job_id: 108271266
 ---
 
 ---

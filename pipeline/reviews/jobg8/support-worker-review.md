@@ -539,12 +539,6 @@ job_id: 23643_225754037
 
 ---
 action:
-SELECTED | Sussex | Bognor Regis | £14 per hour | Healthcare Support Worker
-job_id: 108275048
----
-
----
-action:
 SELECTED | Sussex | Sussex | £14.8 per hour | Night Care Assistant - Bank
 job_id: 23643_225769816
 ---
@@ -559,6 +553,12 @@ job_id: 23643_225811985
 action:
 SELECTED | Sussex | Brighton | £13.82 per hour | Support Worker (Night Shift)
 job_id: 108263326
+---
+
+---
+action:
+SELECTED | Sussex | Brighton | £14 per hour | Healthcare Support Worker
+job_id: 108297694
 ---
 
 ## SUSSEX — POSSIBLES
@@ -620,12 +620,6 @@ job_id: 108284262
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
-
----
-action:
-POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £26425 per year | Housing Support Worker
-job_id: 108261911
----
 
 ---
 action:
