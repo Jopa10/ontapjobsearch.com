@@ -2,13 +2,13 @@
 
 review_date: 2026-11-08
 
-- Open Administrative & Clerical rows reviewed: 2093
-- Auto/remembered selected: 362
-- Selected HC Tier A: 182
-- Selected HC Tier B: 180
-- POSS awaiting decision: 1636
+- Open Administrative & Clerical rows reviewed: 2086
+- Auto/remembered selected: 360
+- Selected HC Tier A: 179
+- Selected HC Tier B: 181
+- POSS awaiting decision: 1632
 - Excluded: 0
-- HARD_PASS: 95
+- HARD_PASS: 94
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -2342,18 +2342,6 @@ factual_fingerprint: 759d5a331c3f8d50a5518566edd21a270c913b4d09bc5a185a4eb15b84b
 
 ---
 action:
-POSS | NHS Jobs | Sussex | Worthing, BN11 1FG | £28392.00 to £31157.00 | LDA Commissioning Administration Coordinator
-source_job_id: 5708366
-title: LDA Commissioning Administration Coordinator
-employer: Sussex Partnership NHS Foundation Trust
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1294
-factual_fingerprint: 70c395a55d98db197c4d80c0c8236af71cb71fb3a5afdcb0ab6f9eff4936b48a
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - West | Halifax, HX2 0QL | £12.71 | Patient Advisor
 source_job_id: 5711270
 title: Patient Advisor
@@ -3082,18 +3070,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9070-26-0543
 factual_fingerprint: e295016823502b4fbf2ecebd9184a1d033d845c26645428ec8ce3e693b6ac897
----
-
----
-action:
-POSS | NHS Jobs | — | Cross Site, WD18 0HB | £27106.00 to £28850.00 | Band 3 - Ultrasound Clerical Officer, Radiology
-source_job_id: 5710490
-title: Band 3 - Ultrasound Clerical Officer, Radiology
-employer: West Hertfordshire Teaching Hospitals NHS Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9360-26-0517
-factual_fingerprint: 6b868d2517f9fcae8742f976bd08a62e936f37d5d77ad79e96afeaea01786f78
 ---
 
 ---
@@ -8246,18 +8222,6 @@ factual_fingerprint: f848b6146b2dde7c3ba2a30785ceacf4c0d698b3015a638ed455fae99b0
 
 ---
 action:
-POSS | NHS Jobs | Cheshire - East | Victoria Road, Macclesfield, SK10 3BL | £32073.00 to £39043.00 | Improving Screening Uptake Officer
-source_job_id: 5702682
-title: Improving Screening Uptake Officer
-employer: East Cheshire NHS Trust
-region: Cheshire - East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9209-26-0478
-factual_fingerprint: f62746a438062738895e2085850604ceb762c0bb66bc1358648b1cf2cc78cac7
----
-
----
-action:
 POSS | NHS Jobs | West Midlands - Black Country | DUDLEY, DY1 4RD, REDDITCH, B97 6HP | £59000.00 to £65000.00 | Head of Finance
 source_job_id: 5702575
 title: Head of Finance
@@ -9250,18 +9214,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1931
 factual_fingerprint: 3df7c2c5e060ed57705d723c8ca1c38e6278bcc97b3e3afdcbd5c14a616e53d1
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Black Country | Walsall, WS2 9PS | £25272.00 | Clerical Officer - Imaging
-source_job_id: 5699857
-title: Clerical Officer - Imaging
-employer: Walsall Healthcare NHS Trust
-region: West Midlands - Black Country
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9407-26-0430
-factual_fingerprint: efddb0e2c9b383082ab31a476b871e9b41396199e8c8f54c9043a5da762b690e
 ---
 
 ---
