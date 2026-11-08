@@ -4,7 +4,7 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-11-08
-generated_at: 2026-11-08T14:25:03+00:00
+generated_at: 2026-11-08T18:36:27+00:00
 
 **448 job(s) await a human decision; 0 already answered (448 review rows).**
 
@@ -749,24 +749,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: f890854c144140eac80364d09f52cc18d46bc07cbb4643a9c1934cd23f0c07e0
----
-
----
-action:
-POSS | JobG8 | Cumbria - South | Kendal | £26425 per year | Housing Support Worker
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 108261911
-title: Housing Support Worker
-employer: 
-location: Kendal
-region: Cumbria - South
-salary: £26425 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 8ffe4fecbed4326dd87b1ff371fff8cddfee0bf6d75239b5e59c7f5ed01ac184
 ---
 
 ---
@@ -5465,6 +5447,24 @@ closing_date:
 reason: possible manual_select candidate for review/swap
 source_url: 
 hub_fingerprint: e1697ffda10ba738212c38fe366db727258c9616c5c6a8f8abf5d8ff4be75faf
+---
+
+---
+action:
+POSS | JobG8 | Scotland West - Glasgow | Glasgow | £40000 per year | Service Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 108276039
+title: Service Manager
+employer: 
+location: Glasgow
+region: Scotland West - Glasgow
+salary: £40000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: 1dc3559c734c060b08766921b8f854c1e439ef14e7511e80a8da07b5d4dc7b87
 ---
 
 ---
