@@ -558,18 +558,6 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist/Administrator
-company: Cambridge House Surgery
-location: Stoke on Trent, ST2 0EU
-source: NHS Jobs
-job_id: nhs-5684497
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Mortgage Service Administrator
 company: Vivo Talent - Agency - Permanent
 location: Staffordshire
@@ -911,6 +899,18 @@ company: Pertemps Wolverhampton and Walsall - Agency - Temporary
 location: Cannock
 source: JobG8
 job_id: jobg8-23643_225769049
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Housing Repairs Planner - Awaab's Law
+company: Niyaa People - Agency - Temporary
+location: Staffordshire
+source: JobG8
+job_id: jobg8-108237525
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 89
+- automatic include: 15
+- automatic review: 88
 - automatic exclude: 0
-- effective include: 16
-- effective review: 89
+- effective include: 15
+- effective review: 88
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: RG Setsquare - Agency - Contract
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225757897
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Administrator
-company: TimePlan Education - Agency - Contract
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225709213
 reason: Exact approved Northampton workplace.
 ---
 
@@ -216,7 +204,7 @@ job_id: jobg8-23643_225761870
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (89)
+## REVIEW (88)
 
 ---
 action: 
@@ -1247,18 +1235,6 @@ company: Pertemps Northampton - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-23643_225723210
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator
-company: Cameo Consultancy - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225764102
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

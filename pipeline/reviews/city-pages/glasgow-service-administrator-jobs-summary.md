@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 35
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 35
+- automatic include: 33
 - automatic review: 6
 - automatic exclude: 0
-- effective include: 35
+- effective include: 33
 - effective review: 6
 - effective exclude: 0
 
-## INCLUDE (35)
+## INCLUDE (33)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Learning & Capability Administrator - Immediate Start
-company: Search Consultancy Ltd - Agency - Contract
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225708526
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Legal Secretary
 company: Creideas - Agency - Permanent
 location: Glasgow
@@ -213,18 +201,6 @@ company: Adecco - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225811652
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Operations Administrator
-company: RPJ Energy Solutions Limited - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225752498
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -514,7 +490,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2245723
+job_id: jobg8-2252193
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

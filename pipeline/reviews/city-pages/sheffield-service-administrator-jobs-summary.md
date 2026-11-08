@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 38
+- Effective included jobs: 40
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 38
-- automatic review: 14
+- automatic include: 40
+- automatic review: 13
 - automatic exclude: 37
-- effective include: 38
-- effective review: 14
+- effective include: 40
+- effective review: 13
 - effective exclude: 37
 
-## INCLUDE (38)
+## INCLUDE (40)
 
 ---
 action: 
@@ -208,6 +208,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Disrepair Coordinator
+company: The Guinness Partnership - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225811889
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Executive Assistant
 company: The Talent Division - Agency - Permanent
 location: Sheffield
@@ -309,6 +321,18 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225731215
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Manager
+company: Support Dogs - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2250915
 reason: Approved Sheffield catchment.
 ---
 
@@ -480,7 +504,7 @@ job_id: jobg8-23643_225796381
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -635,18 +659,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2153824
-reason: No approved Sheffield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2245734
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 

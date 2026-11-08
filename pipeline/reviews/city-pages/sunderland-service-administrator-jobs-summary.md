@@ -2146,7 +2146,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2245729
+job_id: jobg8-2252199
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

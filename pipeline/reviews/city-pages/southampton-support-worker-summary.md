@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 2
 - automatic review: 13
-- automatic exclude: 13
-- effective include: 3
+- automatic exclude: 12
+- effective include: 2
 - effective review: 13
-- effective exclude: 13
+- effective exclude: 12
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225761993
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Community Support Worker
-company: The Society of St James - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2229418
 reason: Approved Southampton catchment.
 ---
 
@@ -126,18 +114,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Female Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-108059180
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Health Care Assistants (HCA)
 company: Varang Recruitment - Agency - Permanent
 location: Hampshire
@@ -210,6 +186,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Support Worker
+company: National Care Group Ltd - Agency - Permanent
+location: New Milton
+source: JobG8
+job_id: jobg8-108247055
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Therapeutic Children's Support Worker
 company: The Tiger Group Consultancy Ltd - Agency - Permanent
 location: Colden Common
@@ -218,7 +206,7 @@ job_id: jobg8-23643_225653471
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -241,18 +229,6 @@ company: Hampshire County Council - Company - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-1401786107
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Assistant - Bank - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Basingstoke
-source: JobG8
-job_id: jobg8-23643_225784306
 reason: Separate employment market.
 ---
 

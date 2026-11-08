@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 144
+- Effective included jobs: 137
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 144
+- automatic include: 137
 - automatic review: 51
 - automatic exclude: 10
-- effective include: 144
+- effective include: 137
 - effective review: 51
 - effective exclude: 10
 
-## INCLUDE (144)
+## INCLUDE (137)
 
 ---
 action: 
@@ -869,18 +869,6 @@ action:
 decision: include
 automatic_decision: include
 title: Experienced Medical Receptionist
-company: Park View Medical Centre
-location: Manchester, M8 4RF
-source: NHS Jobs
-job_id: nhs-5685284
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Experienced Medical Receptionist
 company: West Point Medical Centre
 location: Manchester, M19 2AF
 source: NHS Jobs
@@ -969,18 +957,6 @@ company: The Portfolio Group - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225795232
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Officer
-company: Consula Group LTD - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2108632
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1108,18 +1084,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Coordinator
-company: Forrest Recruitment - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225710631
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Manager
 company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Manchester
@@ -1149,18 +1113,6 @@ company: RecruitmentRevolution.com - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-2118401
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Human Resources and Organisational Development Manager
-company: Salford CVS - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2174236
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1612,18 +1564,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Administrator
-company: The Solution Auto - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225709219
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Coordinator
 company: Macfarlane Packaging - Company - Permanent
 location: Manchester
@@ -1641,18 +1581,6 @@ company: Adecco - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225789319
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Scheduler (EV Charge-point Installations)
-company: Search Consultancy Ltd - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225709014
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1725,18 +1653,6 @@ company: Office Angels - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225775411
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary School Administrator - Current Enhanced DBS required
-company: Office Angels - Agency - Temporary
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225710086
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -2362,7 +2278,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2245728
+job_id: jobg8-2252198
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 149
+- automatic review: 148
 - automatic exclude: 0
 - effective include: 16
-- effective review: 149
+- effective review: 148
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: jobg8-2200411
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (149)
+## REVIEW (148)
 
 ---
 action: 
@@ -990,18 +990,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: E-Commerce Warehouse Operative
-company: OnetoOne Personnel - Agency - Permanent
-location: Southend-On-Sea
-source: JobG8
-job_id: jobg8-2206572
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Entry Level Credit Controller
 company: Office Angels - Agency - Permanent
 location: Grays
@@ -1470,18 +1458,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Part-time experience Bookkeeper
-company: Oakdin Clinic - Agency - Permanent
-location: Billericay
-source: JobG8
-job_id: jobg8-2188340
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patient Liaison Coordinator
 company: HR GO Recruitment - Agency - Contract
 location: Essex
@@ -1595,6 +1571,18 @@ company: Nicholas Associates - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225749724
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Qube Developer / Administrator
+company: Cobalt Recruitment. - Agency - Permanent
+location: Southend-On-Sea
+source: JobG8
+job_id: jobg8-108241589
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 82
+- automatic review: 83
 - automatic exclude: 0
 - effective include: 7
-- effective review: 82
+- effective review: 83
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5695575
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (82)
+## REVIEW (83)
 
 ---
 action: 
@@ -462,6 +462,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Disrepair Coordinator
+company: The Guinness Partnership - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225811889
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Executive Assistant
 company: The Talent Division - Agency - Permanent
 location: Sheffield
@@ -671,6 +683,18 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2142768
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
+company: Support Dogs - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2250915
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -1043,18 +1067,6 @@ company: CCA Recruitment Group - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225789027
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2245734
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

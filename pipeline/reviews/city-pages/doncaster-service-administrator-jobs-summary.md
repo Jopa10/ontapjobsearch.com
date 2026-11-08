@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 14
-- automatic exclude: 57
+- automatic review: 13
+- automatic exclude: 59
 - effective include: 18
-- effective review: 14
-- effective exclude: 57
+- effective review: 13
+- effective exclude: 59
 
 ## INCLUDE (18)
 
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225747598
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -398,19 +398,7 @@ job_id: jobg8-2153824
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2245734
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
-## EXCLUDE (57)
+## EXCLUDE (59)
 
 ---
 action: 
@@ -668,6 +656,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Disrepair Coordinator
+company: The Guinness Partnership - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225811889
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Executive Assistant
 company: The Talent Division - Agency - Permanent
 location: Sheffield
@@ -805,6 +805,18 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225731215
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Manager
+company: Support Dogs - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2250915
 reason: Separate employment market.
 ---
 

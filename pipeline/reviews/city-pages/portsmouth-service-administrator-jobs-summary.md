@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 186
+- automatic review: 179
 - automatic exclude: 0
 - effective include: 10
-- effective review: 186
+- effective review: 179
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225798173
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (186)
+## REVIEW (179)
 
 ---
 action: 
@@ -359,18 +359,6 @@ company: Pinpoint Resourcing - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225786797
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Assistant
-company: Howett Thorpe - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225709518
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1194,18 +1182,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Finance Operations Administrator
-company: GKN Aerospace - Agency - Permanent
-location: Isle of Wight
-source: JobG8
-job_id: jobg8-108274186
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Fleet Administrator
 company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
@@ -1223,18 +1199,6 @@ company: WR Logistics - Agency - Permanent
 location: Totton
 source: JobG8
 job_id: jobg8-23643_225787196
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Front Of House - Southampton
-company: Catch 22 - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225709345
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1283,18 +1247,6 @@ company: Liberty HR Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225805865
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Inbound Sales Specialist
-company: CCA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225710926
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1542,18 +1494,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: MES Administrator
-company: Randstad Sourceright - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225710966
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office/Scheduling Administrator
 company: Assured Fire Safety Consultancy Ltd - Agency - Permanent
 location: Fleet
@@ -1595,18 +1535,6 @@ company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225782358
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Outbound Sales Advisor
-company: CCA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225710699
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -2339,18 +2267,6 @@ company: CMA Recruitment Group - Agency - Temporary
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225794760
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Tenant and Maintenance Liaison Coordinator
-company: Carrington West - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225708197
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

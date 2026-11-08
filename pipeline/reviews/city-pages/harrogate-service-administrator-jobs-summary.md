@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 20
-- automatic exclude: 32
+- automatic review: 21
+- automatic exclude: 33
 - effective include: 4
-- effective review: 20
-- effective exclude: 32
+- effective review: 21
+- effective exclude: 33
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-2205079
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (21)
 
 ---
 action: 
@@ -234,6 +234,18 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Coordinator
+company: Taskmaster Resources Limited - Agency - Temporary
+location: Sherburn In Elmet
+source: JobG8
+job_id: jobg8-108275823
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Residential Property Legal Secretary
 company: Search Consultancy Ltd - Agency - Permanent
 location: Malton
@@ -314,7 +326,7 @@ job_id: jobg8-2143764
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -601,6 +613,18 @@ company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225788225
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Administrator
+company: KD Recruitment Limited - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-108271266
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 24
-- automatic review: 58
+- automatic review: 55
 - automatic exclude: 0
 - effective include: 24
-- effective review: 58
+- effective review: 55
 - effective exclude: 0
 
 ## INCLUDE (24)
@@ -312,7 +312,7 @@ job_id: jobg8-23643_225730206
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (55)
 
 ---
 action: 
@@ -323,18 +323,6 @@ company: Autograph Recruitment Ltd - Agency - Permanent
 location: Tiverton
 source: JobG8
 job_id: jobg8-2164844
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Interaction Recruitment - Agency - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225710682
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -534,6 +522,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-108260662
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Coordinator
 company: untypical - Agency - Permanent
 location: Devon
@@ -575,18 +575,6 @@ company: NFP People LTD - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2242179
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Content Coordinator
-company: Not For Profit People - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2244605
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -875,30 +863,6 @@ company: Universal Fire & Security - Agency - Permanent
 location: Plymouth
 source: JobG8
 job_id: jobg8-23643_225767515
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: The Supply Register - Agency - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225709311
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: The Supply Register - Agency - Temporary
-location: Plymouth
-source: JobG8
-job_id: jobg8-23643_225709414
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

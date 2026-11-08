@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 32
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
+- automatic include: 32
 - automatic review: 10
 - automatic exclude: 6
-- effective include: 33
+- effective include: 32
 - effective review: 10
 - effective exclude: 6
 
-## INCLUDE (33)
+## INCLUDE (32)
 
 ---
 action: 
@@ -273,18 +273,6 @@ company: Dynamic Resourcing - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225808410
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2188850
 reason: Approved conservative Warrington launch catchment.
 ---
 

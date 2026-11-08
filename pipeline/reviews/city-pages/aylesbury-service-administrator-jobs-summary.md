@@ -4,8 +4,8 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 93
+- automatic include: 3
+- automatic review: 92
 - automatic exclude: 0
-- effective include: 4
-- effective review: 93
+- effective include: 3
+- effective review: 92
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: SF Partners - Agency - Permanent
-location: Aylesbury
-source: JobG8
-job_id: jobg8-23643_225707968
-reason: Exact approved Aylesbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Project Co-ordinator
 company: Adecco - Agency - Permanent
 location: Aylesbury
@@ -72,7 +60,7 @@ job_id: jobg8-23643_225761154
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (93)
+## REVIEW (92)
 
 ---
 action: 
@@ -503,18 +491,6 @@ company: Envelis Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225745809
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: EMEA Senior Brand Manager Growth Platforms (M/F)
-company: McCormick UK Limited - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-108229848
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -1170,11 +1146,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Workplace Facilities Coordinator / Client Host
-company: Jones Lang LaSalle Limited - Agency - Permanent
+title: Trustee - Communications, Marketing and PR
+company: Hope After Harm - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-108285635
+job_id: jobg8-2106884
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -1182,11 +1158,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Youth Mentoring Coordinator
-company: YMCA South Midlands - Agency - Permanent
-location: Milton Keynes
+title: Workplace Facilities Coordinator / Client Host
+company: Jones Lang LaSalle Limited - Agency - Permanent
+location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2169089
+job_id: jobg8-108285635
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

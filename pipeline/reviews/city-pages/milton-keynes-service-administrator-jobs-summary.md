@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 23
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 74
+- automatic include: 22
+- automatic review: 73
 - automatic exclude: 0
-- effective include: 23
-- effective review: 74
+- effective include: 22
+- effective review: 73
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (22)
 
 ---
 action: 
@@ -288,19 +288,7 @@ job_id: jobg8-23643_225761685
 reason: Exact approved Milton Keynes workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Youth Mentoring Coordinator
-company: YMCA South Midlands - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-2169089
-reason: Exact approved Milton Keynes workplace.
----
-
-## REVIEW (74)
+## REVIEW (73)
 
 ---
 action: 
@@ -486,18 +474,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: SF Partners - Agency - Permanent
-location: Aylesbury
-source: JobG8
-job_id: jobg8-23643_225707968
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Children Law Paralegal - Milton Keynes
 company: Duncan Lewis Solictors - Agency - Permanent
 location: Buckinghamshire
@@ -659,18 +635,6 @@ company: Envelis Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225745809
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: EMEA Senior Brand Manager Growth Platforms (M/F)
-company: McCormick UK Limited - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-108229848
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -1175,6 +1139,18 @@ company: Aspire Personnel Ltd - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225790236
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trustee - Communications, Marketing and PR
+company: Hope After Harm - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2106884
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

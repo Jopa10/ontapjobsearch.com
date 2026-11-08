@@ -4,7 +4,7 @@
 - Live route: `/dartford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 154
+- automatic include: 14
+- automatic review: 153
 - automatic exclude: 42
-- effective include: 17
-- effective review: 154
+- effective include: 14
+- effective review: 153
 - effective exclude: 42
 
-## INCLUDE (17)
+## INCLUDE (14)
 
 ---
 action: 
@@ -160,30 +160,6 @@ reason: Exact approved Dartford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Procurement Call Handler
-company: DCV Technologies - Agency - Temporary
-location: Dartford
-source: JobG8
-job_id: jobg8-23643_225710488
-reason: Exact approved Dartford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Procurement Customer Service Advisor/Administrator
-company: DCV Technologies - Agency - Temporary
-location: Dartford
-source: JobG8
-job_id: jobg8-23643_225710538
-reason: Exact approved Dartford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Property Services Planner/Scheduler
 company: Riverside Group - Agency - Permanent
 location: Dartford
@@ -216,19 +192,7 @@ job_id: jobg8-23643_225747333
 reason: Exact approved Dartford workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: School Reception / Administrator Bexley Start ASAP
-company: Office Angels - Agency - Temporary
-location: Dartford
-source: JobG8
-job_id: jobg8-23643_225709764
-reason: Exact approved Dartford workplace.
----
-
-## REVIEW (154)
+## REVIEW (153)
 
 ---
 action: 
@@ -414,11 +378,11 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant. ASAP Start. Up to £38k
-company: Office Angels - Agency - Contract
+title: Accounts Assistant. ASAP Start. Up to &;38k
+company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-23643_225811572
+job_id: jobg8-2250308
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
@@ -906,6 +870,18 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
+title: Family Legal Secretary - Folkestone
+company: TN Recruits - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2252336
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance & Logistics Administrator
 company: Michael Page - Agency - Permanent
 location: Kent
@@ -1115,6 +1091,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Temporary
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225731820
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Adviser Administrator
+company: Brook Street - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225737709
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
@@ -1423,18 +1411,6 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
-company: Portfolio Payroll Limited - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225708705
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
 company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
@@ -1607,30 +1583,6 @@ company: Cobb & Jones Recruitment Limited - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2243423
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchasing & Supply Planning Coordinator
-company: Trapeze Recruitment Services Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225708344
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchasing & Supply Planning Coordinator Canterbury £36k
-company: Office Angels - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225711032
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 

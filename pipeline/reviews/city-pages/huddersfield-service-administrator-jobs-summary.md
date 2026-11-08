@@ -4,7 +4,7 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 49
-- automatic exclude: 151
-- effective include: 19
-- effective review: 49
-- effective exclude: 151
+- automatic include: 18
+- automatic review: 48
+- automatic exclude: 149
+- effective include: 18
+- effective review: 48
+- effective exclude: 149
 
-## INCLUDE (19)
+## INCLUDE (18)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Approved Huddersfield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Internal Sales Executive
-company: TDRS - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-23643_225710102
-reason: Approved Huddersfield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Internal Sales Specialist
 company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Huddersfield
@@ -252,7 +240,7 @@ job_id: jobg8-23643_225760413
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (49)
+## REVIEW (48)
 
 ---
 action: 
@@ -455,18 +443,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225768365
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225710303
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -822,11 +798,11 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Temp to Perm Purchase Ledger
-company: IPS Finance - Agency - Permanent
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225709224
+job_id: jobg8-2252195
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -842,7 +818,7 @@ job_id: jobg8-2204175
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (151)
+## EXCLUDE (149)
 
 ---
 action: 
@@ -1580,18 +1556,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: External Communications Manager
-company: Michael Page - Agency - Contract
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225710931
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Administrator
 company: Reed - Agency - Permanent
 location: Bradford
@@ -1765,18 +1729,6 @@ company: Office Angels - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225809473
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Coordinator
-company: Hays Business Support - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225709267
 reason: Separate employment market.
 ---
 

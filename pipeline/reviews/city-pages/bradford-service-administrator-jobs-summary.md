@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 31
-- automatic review: 49
-- automatic exclude: 139
+- automatic review: 48
+- automatic exclude: 136
 - effective include: 31
-- effective review: 49
-- effective exclude: 139
+- effective review: 48
+- effective exclude: 136
 
 ## INCLUDE (31)
 
@@ -396,7 +396,7 @@ job_id: jobg8-2192918
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (49)
+## REVIEW (48)
 
 ---
 action: 
@@ -599,18 +599,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225768365
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225710303
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -966,11 +954,11 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Temp to Perm Purchase Ledger
-company: IPS Finance - Agency - Permanent
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225709224
+job_id: jobg8-2252195
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -986,7 +974,7 @@ job_id: jobg8-2204175
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (139)
+## EXCLUDE (136)
 
 ---
 action: 
@@ -1676,18 +1664,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: External Communications Manager
-company: Michael Page - Agency - Contract
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225710931
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Administrator
 company: Search Consultancy Ltd - Agency - Permanent
 location: Leeds
@@ -1832,18 +1808,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Coordinator
-company: Hays Business Support - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225709267
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Insurance Broking Finance Assistant
 company: Everywhen, part of the Ardonagh Group - Agency - Permanent
 location: Leeds
@@ -1873,18 +1837,6 @@ company: Huntress - Leeds - Agency - Permanent
 location: Batley
 source: JobG8
 job_id: jobg8-23643_225770043
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Internal Sales Executive
-company: TDRS - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-23643_225710102
 reason: Separate employment market.
 ---
 

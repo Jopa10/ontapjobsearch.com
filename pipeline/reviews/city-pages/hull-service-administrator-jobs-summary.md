@@ -354,6 +354,18 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Logistics Coordinator
+company: Consortium Professional Recruitment Ltd - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-23643_225731622
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Administrator
 company: Drs Reddy & Nunn
 location: Bridlington, YO16 4LZ
@@ -390,18 +402,6 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Clerk
-company: Castle Employment - Agency - Permanent
-location: Bridlington
-source: JobG8
-job_id: jobg8-23643_225709012
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Manager
 company: JGA Recruitment - Agency - Permanent
 location: Goole
@@ -416,7 +416,7 @@ decision: review
 automatic_decision: review
 title: Project Administrator
 company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Brough
+location: Hessle
 source: JobG8
 job_id: jobg8-23643_225797818
 reason: No approved Hull catchment rule matched; local review required.

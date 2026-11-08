@@ -16,27 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 102
+- automatic review: 100
 - automatic exclude: 0
 - effective include: 0
-- effective review: 102
+- effective review: 100
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (102)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Account Coordinator
-company: Mach Recruitment - Agency - Temporary
-location: Lutterworth
-source: JobG8
-job_id: jobg8-108283280
-reason: No exact Wigston workplace matched; local geographic review is required.
----
+## REVIEW (100)
 
 ---
 action: 
@@ -834,18 +822,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Part-time HR Coordinator
-company: Gi Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225711327
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: RECfinancial - Agency - Permanent
 location: Leicestershire
@@ -1162,7 +1138,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2245726
+job_id: jobg8-2252196
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

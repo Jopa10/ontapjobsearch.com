@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 31
+- automatic review: 29
 - automatic exclude: 0
 - effective include: 5
-- effective review: 31
+- effective review: 29
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225761869
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (29)
 
 ---
 action: 
@@ -287,30 +287,6 @@ company: Connect2Luton - Agency - Temporary
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225799190
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Outpatient Clinic Receptionist/Call Centre Clerk
-company: Bedfordshire Hospitals NHS Foundation Trust
-location: Luton, LU4 0DZ
-source: NHS Jobs
-job_id: nhs-5708627
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Outpatient Clinic Receptionist/Call Centre Clerk
-company: Bedfordshire Hospitals NHS Foundation Trust
-location: Luton, LU4 0DZ
-source: NHS Jobs
-job_id: nhs-5708692
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

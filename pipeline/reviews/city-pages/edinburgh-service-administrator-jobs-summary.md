@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
+- automatic include: 31
 - automatic review: 10
 - automatic exclude: 0
-- effective include: 32
+- effective include: 31
 - effective review: 10
 - effective exclude: 0
 
-## INCLUDE (32)
+## INCLUDE (31)
 
 ---
 action: 
@@ -172,18 +172,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Engineering Administrator
-company: Spire Healthcare - Company - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225708885
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Executive Assistant
 company: Search Consultancy Ltd - Agency - Permanent
 location: Edinburgh
@@ -249,6 +237,18 @@ company: Spire Healthcare - Company - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225772869
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Oracle Support Co-Ordinator - Edinburgh/Glasgow
+company: Lorien Resourcing Limited - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-108298927
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -393,18 +393,6 @@ company: Office Angels - Agency - Temporary
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225718450
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Theatre Administrator
-company: Spire Healthcare - Company - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225708327
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

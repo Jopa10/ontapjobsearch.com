@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 120
+- Effective included jobs: 118
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 120
+- automatic include: 118
 - automatic review: 16
 - automatic exclude: 12
-- effective include: 120
+- effective include: 118
 - effective review: 16
 - effective exclude: 12
 
-## INCLUDE (120)
+## INCLUDE (118)
 
 ---
 action: 
@@ -441,18 +441,6 @@ company: EA Recruitment - Agency - Contract
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225767727
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Representative - Administrator
-company: Adecco - Agency - Temporary
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225711052
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1300,18 +1288,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Advisor
-company: The Solution Auto - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225708882
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Coordinator
 company: HP4 Recruitment Ltd - Agency - Permanent
 location: Birmingham
@@ -1460,7 +1436,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2245717
+job_id: jobg8-2252187
 reason: Approved conservative Birmingham launch catchment.
 ---
 

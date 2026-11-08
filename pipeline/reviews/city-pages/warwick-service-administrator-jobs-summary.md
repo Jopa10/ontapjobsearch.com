@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 99
+- automatic review: 97
 - automatic exclude: 0
 - effective include: 23
-- effective review: 99
+- effective review: 97
 - effective exclude: 0
 
 ## INCLUDE (23)
@@ -300,7 +300,7 @@ job_id: jobg8-2186709
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (99)
+## REVIEW (97)
 
 ---
 action: 
@@ -703,18 +703,6 @@ action:
 decision: review
 automatic_decision: review
 title: Document Controller
-company: RTL Group Ltd - Agency - Contract
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225709208
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
 company: Stepnell Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
@@ -851,6 +839,18 @@ company: Arden Personnel - Agency - Permanent
 location: Alcester
 source: JobG8
 job_id: jobg8-23643_225727031
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Supporter Experience / Customer service Support
+company: The Talent Set - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2250909
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1086,18 +1086,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Administrator
-company: Valpak Limited - Agency - Permanent
-location: Stratford-Upon-Avon
-source: JobG8
-job_id: jobg8-23643_225707679
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Warwickshire
@@ -1304,7 +1292,7 @@ decision: review
 automatic_decision: review
 title: Sales Development Representative
 company: Plus One Recruitment - Agency - Permanent
-location: Stratford-upon-avon
+location: Stratford-Upon-Avon
 source: JobG8
 job_id: jobg8-23643_225772548
 reason: No exact Warwick workplace matched; local geographic review is required.
@@ -1462,19 +1450,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2245721
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: University Hospitals Coventry and Warwickshire NHS Trust
-location: Coventry, CV2 2DX
-source: NHS Jobs
-job_id: nhs-5706425
+job_id: jobg8-2252191
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

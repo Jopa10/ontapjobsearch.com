@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 29
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 13
-- effective review: 29
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-2249893
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (29)
+## REVIEW (27)
 
 ---
 action: 
@@ -414,18 +414,6 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: FNOL Motor Claims Handler
-company: MPJ Recruitment Ltd - Agency - Permanent
-location: Wilmslow
-source: JobG8
-job_id: jobg8-2109059
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Coordinator
 company: Forrest Recruitment - Agency - Permanent
 location: Wilmslow
@@ -515,18 +503,6 @@ company: Bexton Primary School
 location: Knutsford
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-and-admin-assistant-maternity-cover
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Advisor
-company: CCA Recruitment Group - Agency - Permanent
-location: Knutsford
-source: JobG8
-job_id: jobg8-23643_225710668
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

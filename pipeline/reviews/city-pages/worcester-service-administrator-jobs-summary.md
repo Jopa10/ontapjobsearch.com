@@ -102,18 +102,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Opus People Solutions Ltd - Agency - Temporary
-location: Redditch
-source: JobG8
-job_id: jobg8-23643_225710701
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator / Data Entry & Planner
 company: Industrial Recruitment Solutions Ltd - Agency - Permanent
 location: Worcestershire
@@ -275,6 +263,18 @@ company: Four Squared Recruitment Ltd - Agency - Temporary
 location: Redditch
 source: JobG8
 job_id: jobg8-23643_225726156
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Night Transport Office Administrator
+company: Workforce Staffing Ltd - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225799806
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

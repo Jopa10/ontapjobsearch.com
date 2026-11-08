@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 54
+- automatic include: 8
+- automatic review: 51
 - automatic exclude: 0
-- effective include: 10
-- effective review: 54
+- effective include: 8
+- effective review: 51
 - effective exclude: 0
 
-## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: Alma Personnel - Agency - Permanent
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225710433
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Advisor
-company: Interaction Recruitment - Agency - Temporary
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225708194
-reason: Exact approved Walsall workplace.
----
+## INCLUDE (8)
 
 ---
 action: 
@@ -144,7 +120,7 @@ job_id: jobg8-23643_225783436
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (51)
 
 ---
 action: 
@@ -179,18 +155,6 @@ company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Dudley
 source: JobG8
 job_id: jobg8-23643_225783603
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: SF Partners - Agency - Temporary
-location: Cradley Heath
-source: JobG8
-job_id: jobg8-23643_225709493
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -239,18 +203,6 @@ company: MET Recruitment UK LTD - Agency - Permanent
 location: Dudley
 source: JobG8
 job_id: jobg8-23643_225748674
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Fallings Park Primary School
-location: Wolverhampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-fallings-park-primary-school
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -515,18 +467,6 @@ company: Adecco - Agency - Temporary
 location: Kingswinford
 source: JobG8
 job_id: jobg8-23643_225741050
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Production Administrator
-company: Major Recruitment Oldbury - Agency - Permanent
-location: Oldbury
-source: JobG8
-job_id: jobg8-23643_225779566
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

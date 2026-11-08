@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 135
-- automatic exclude: 46
+- automatic review: 130
+- automatic exclude: 44
 - effective include: 15
-- effective review: 135
-- effective exclude: 46
+- effective review: 130
+- effective exclude: 44
 
 ## INCLUDE (15)
 
@@ -204,7 +204,7 @@ job_id: jobg8-23643_225719604
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (135)
+## REVIEW (130)
 
 ---
 action: 
@@ -359,18 +359,6 @@ company: Pinpoint Resourcing - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225786797
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Assistant
-company: Howett Thorpe - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225709518
 reason: Broad location; review before city inclusion.
 ---
 
@@ -918,18 +906,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Operations Administrator
-company: GKN Aerospace - Agency - Permanent
-location: Isle of Wight
-source: JobG8
-job_id: jobg8-108274186
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Fleet Administrator
 company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
@@ -948,18 +924,6 @@ location: Totton
 source: JobG8
 job_id: jobg8-23643_225787196
 reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Front Of House - Southampton
-company: Catch 22 - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225709345
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1115,18 +1079,6 @@ company: Staff Partners Business - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225794737
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: MES Administrator
-company: Randstad Sourceright - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225710966
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1806,18 +1758,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Tenant and Maintenance Liaison Coordinator
-company: Carrington West - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225708197
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: World Rally Administrator
 company: HSB Technical - Agency - Contract
 location: Hampshire
@@ -1826,7 +1766,7 @@ job_id: jobg8-23643_225810727
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (46)
+## EXCLUDE (44)
 
 ---
 action: 
@@ -2156,18 +2096,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Inbound Sales Specialist
-company: CCA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225710926
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Internal Sales Executive
 company: Faith Recruitment - Agency - Permanent
 location: Aldershot
@@ -2245,18 +2173,6 @@ company: Huntress - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225768559
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Outbound Sales Advisor
-company: CCA Recruitment Group - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225710699
 reason: Separate employment market.
 ---
 

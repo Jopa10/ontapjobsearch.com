@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 74
+- Effective included jobs: 69
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 74
+- automatic include: 69
 - automatic review: 14
 - automatic exclude: 10
-- effective include: 74
+- effective include: 69
 - effective review: 14
 - effective exclude: 10
 
-## INCLUDE (74)
+## INCLUDE (69)
 
 ---
 action: 
@@ -89,18 +89,6 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Russell Taylor Group Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-108297887
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
 company: Sirona care & health CIC
 location: Bristol, BS16 1EQ
 source: NHS Jobs
@@ -141,18 +129,6 @@ company: Sirona care & health CIC
 location: Warmley, Bristol, BS30 8XP
 source: NHS Jobs
 job_id: nhs-5699781
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sphere Solutions - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225708455
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -484,18 +460,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: GP Receptionist
-company: Portishead Medical Group
-location: Bristol, BS20 6AQ
-source: NHS Jobs
-job_id: nhs-5647790
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Interim Accounts Assistant
 company: Hays Accounts and Finance - Agency - Temporary
 location: Bristol
@@ -772,18 +736,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Secretary / Administrator
-company: Harwood Recruitment Solutions Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225707937
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SEND Administrator
 company: Chipping Sodbury School
 location: Bristol
@@ -837,18 +789,6 @@ company: Sytner Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2178693
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
-company: The Solution Auto - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225708906
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -1078,7 +1018,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2245719
+job_id: jobg8-2252189
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

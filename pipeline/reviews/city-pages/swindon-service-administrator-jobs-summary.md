@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 20
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 38
+- automatic include: 19
+- automatic review: 37
 - automatic exclude: 0
-- effective include: 20
-- effective review: 38
+- effective include: 19
+- effective review: 37
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (19)
 
 ---
 action: 
@@ -117,18 +117,6 @@ company: First City Nursing and Care - Agency - Permanent
 location: Swindon
 source: JobG8
 job_id: jobg8-23643_225781817
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Services Coordinator - Maternity Cover
-company: First City Nursing and Care - Agency - Temporary
-location: Swindon
-source: JobG8
-job_id: jobg8-23643_225708747
 reason: Exact approved Swindon workplace.
 ---
 
@@ -264,7 +252,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (37)
 
 ---
 action: 
@@ -342,24 +330,24 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Officer
-company: South Wilts Grammar School
-location: Salisbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-south-wilts-grammar-school
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+title: Assurance Coordinator Porton Down
+company: Mainstay Facilities - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108182792
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Automobile Service Advisor (auto Service Advisor)
-company: People Solutions - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-108284094
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+title: Attendance Officer
+company: South Wilts Grammar School
+location: Salisbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-south-wilts-grammar-school
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -587,18 +575,6 @@ company: Build Recruitment - Agency - Permanent
 location: Melksham
 source: JobG8
 job_id: jobg8-23643_225776404
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Salisbury
-source: JobG8
-job_id: jobg8-23643_225709819
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

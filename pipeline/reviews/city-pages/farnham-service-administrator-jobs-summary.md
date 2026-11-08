@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 194
+- automatic review: 188
 - automatic exclude: 0
 - effective include: 5
-- effective review: 194
+- effective review: 188
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225798303
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (194)
+## REVIEW (188)
 
 ---
 action: 
@@ -515,18 +515,6 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225777432
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Brand Ambassador
-company: Compass Group UK & Ireland Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2192679
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1710,18 +1698,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal (Lending)
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225709995
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Paralegal (Property and Private Client)
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
@@ -2058,18 +2034,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Repairs Administrator
-company: Fortus Recruitment Group - Agency - Permanent
-location: Horley
-source: JobG8
-job_id: jobg8-23643_225709708
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Repairs Planner Scheduler
 company: Graham Rose - Agency - Contract
 location: Surrey
@@ -2238,18 +2202,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: The Solution Auto - Agency - Permanent
-location: Staines
-source: JobG8
-job_id: jobg8-23643_225708773
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Management Co-ordinator
 company: Opus Technology - Agency - Permanent
 location: Surrey
@@ -2363,30 +2315,6 @@ company: Huntress - Crawley - Agency - Temporary
 location: Epsom
 source: JobG8
 job_id: jobg8-23643_225776950
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Receptionist - Horley
-company: Huntress - Maidstone - Agency - Temporary
-location: Horley
-source: JobG8
-job_id: jobg8-23643_225708589
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Residential Legal Secretary
-company: Office Angels - Agency - Contract
-location: Caterham
-source: JobG8
-job_id: jobg8-23643_225708476
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

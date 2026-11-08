@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 49
+- Effective included jobs: 47
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 49
-- automatic review: 13
+- automatic include: 47
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 49
-- effective review: 13
+- effective include: 47
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (49)
+## INCLUDE (47)
 
 ---
 action: 
@@ -184,6 +184,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: SAB CONSULTING YORKSHIRE LIMITED - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-108290142
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customs Administrator
 company: EL Recruitment Solutions Ltd - Agency - Permanent
 location: Lincolnshire
@@ -274,30 +286,6 @@ location: Lincolnshire
 source: JobG8
 job_id: jobg8-2163997
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Secretary
-company: Talk Staff Group Limited - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225711048
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Records Administrator
-company: Huntress - Maidstone - Agency - Temporary
-location: Lincoln
-source: JobG8
-job_id: jobg8-23643_225708756
-reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -532,18 +520,6 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Reactive Repairs Co-ordinator
-company: ARC Group - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225709194
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Sir Robert Pattinson Academy
 location: Lincoln
@@ -612,7 +588,7 @@ job_id: jobg8-23643_225808865
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (13)
+## REVIEW (12)
 
 ---
 action: 
@@ -695,18 +671,6 @@ company: Reed - Agency - Permanent
 location: Grantham
 source: JobG8
 job_id: jobg8-2197665
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Records Administrator
-company: Huntress - Maidstone - Agency - Temporary
-location: Boston
-source: JobG8
-job_id: jobg8-23643_225708777
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

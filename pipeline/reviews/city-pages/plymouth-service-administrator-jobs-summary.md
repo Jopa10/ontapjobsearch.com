@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 73
+- automatic include: 8
+- automatic review: 71
 - automatic exclude: 0
-- effective include: 9
-- effective review: 73
+- effective include: 8
+- effective review: 71
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -112,18 +112,6 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: School Administrator
-company: The Supply Register - Agency - Temporary
-location: Plymouth
-source: JobG8
-job_id: jobg8-23643_225709414
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Receptionist
 company: Stoke Damerel Community College
 location: Plymouth
@@ -132,7 +120,7 @@ job_id: teaching-vacancies-school-receptionist-stoke-damerel-community-college
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (71)
 
 ---
 action: 
@@ -143,18 +131,6 @@ company: Autograph Recruitment Ltd - Agency - Permanent
 location: Tiverton
 source: JobG8
 job_id: jobg8-2164844
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Interaction Recruitment - Agency - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225710682
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -390,6 +366,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-108260662
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Coordinator
 company: untypical - Agency - Permanent
 location: Devon
@@ -431,18 +419,6 @@ company: NFP People LTD - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2242179
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Content Coordinator
-company: Not For Profit People - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2244605
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -839,18 +815,6 @@ company: Huntress - Maidstone - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225799504
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: The Supply Register - Agency - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225709311
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

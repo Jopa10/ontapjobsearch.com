@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 69
+- automatic review: 66
 - automatic exclude: 0
 - effective include: 14
-- effective review: 69
+- effective review: 66
 - effective exclude: 0
 
 ## INCLUDE (14)
@@ -192,7 +192,7 @@ job_id: jobg8-23643_225790550
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (69)
+## REVIEW (66)
 
 ---
 action: 
@@ -275,30 +275,6 @@ company: ITS (Cheltenham) Ltd - Agency - Contract
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225721488
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Prospectus - Agency - Permanent
-location: Tewkesbury
-source: JobG8
-job_id: jobg8-2233416
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Prospectus - Agency - Permanent
-location: Cheltenham
-source: JobG8
-job_id: jobg8-2244643
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -743,18 +719,6 @@ company: Adecco - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225785346
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: First Base - Agency - Permanent
-location: Stonehouse
-source: JobG8
-job_id: jobg8-23643_225709005
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

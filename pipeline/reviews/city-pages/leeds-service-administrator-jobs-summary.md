@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 96
+- Effective included jobs: 94
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 96
-- automatic review: 51
-- automatic exclude: 72
-- effective include: 96
-- effective review: 51
-- effective exclude: 72
+- automatic include: 94
+- automatic review: 50
+- automatic exclude: 71
+- effective include: 94
+- effective review: 50
+- effective exclude: 71
 
-## INCLUDE (96)
+## INCLUDE (94)
 
 ---
 action: 
@@ -532,18 +532,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: External Communications Manager
-company: Michael Page - Agency - Contract
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225710931
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Administrator
 company: Search Consultancy Ltd - Agency - Permanent
 location: Leeds
@@ -657,18 +645,6 @@ company: Hamilton Woods - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225808065
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Coordinator
-company: Hays Business Support - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225709267
 reason: Approved Leeds catchment.
 ---
 
@@ -1176,7 +1152,7 @@ job_id: nhs-5707745
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (51)
+## REVIEW (50)
 
 ---
 action: 
@@ -1379,18 +1355,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225768365
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225710303
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -1770,11 +1734,11 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Temp to Perm Purchase Ledger
-company: IPS Finance - Agency - Permanent
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225709224
+job_id: jobg8-2252195
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -1790,7 +1754,7 @@ job_id: jobg8-2204175
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (72)
+## EXCLUDE (71)
 
 ---
 action: 
@@ -2209,18 +2173,6 @@ company: Streamline Search - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225792299
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Internal Sales Executive
-company: TDRS - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-23643_225710102
 reason: Separate employment market.
 ---
 

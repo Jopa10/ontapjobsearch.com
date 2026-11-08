@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 88
+- automatic review: 83
 - automatic exclude: 0
 - effective include: 10
-- effective review: 88
+- effective review: 83
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-2188896
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (88)
+## REVIEW (83)
 
 ---
 action: 
@@ -211,18 +211,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Russell Taylor Group Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-108297887
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Sirona care & health CIC
 location: Bristol, BS16 1EQ
 source: NHS Jobs
@@ -263,18 +251,6 @@ company: Sirona care & health CIC
 location: Warmley, Bristol, BS30 8XP
 source: NHS Jobs
 job_id: nhs-5699781
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Sphere Solutions - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225708455
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -623,18 +599,6 @@ company: Ford Fuels - Agency - Permanent
 location: Yate
 source: JobG8
 job_id: jobg8-108070751
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist
-company: Portishead Medical Group
-location: Bristol, BS20 6AQ
-source: NHS Jobs
-job_id: nhs-5647790
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1038,18 +1002,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Secretary / Administrator
-company: Harwood Recruitment Solutions Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225707937
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: SEND Administrator
 company: Chipping Sodbury School
 location: Bristol
@@ -1103,18 +1055,6 @@ company: Sytner Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2178693
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: The Solution Auto - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225708906
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1198,7 +1138,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2245719
+job_id: jobg8-2252189
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

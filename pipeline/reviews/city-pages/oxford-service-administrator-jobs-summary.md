@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 39
-- automatic exclude: 49
-- effective include: 10
-- effective review: 39
-- effective exclude: 49
+- automatic include: 11
+- automatic review: 37
+- automatic exclude: 50
+- effective include: 11
+- effective review: 37
+- effective exclude: 50
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Oxford
 source: JobG8
 job_id: jobg8-23643_225788858
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Digital Platform and Website Executive
+company: Oxfam, GB - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-2250906
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -144,7 +156,7 @@ job_id: jobg8-23643_225746493
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (39)
+## REVIEW (37)
 
 ---
 action: 
@@ -155,18 +167,6 @@ company: Wade Macdonald - Agency - Permanent
 location: Thame
 source: JobG8
 job_id: jobg8-2241746
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Technician (Full or Part Time)
-company: Infinity Recruitment Consultancy Limited - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-23643_225710819
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -306,18 +306,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Officer
-company: Robert Half Limited - Agency - Temporary
-location: Wantage
-source: JobG8
-job_id: jobg8-108072593
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: French Speaking Sales Advisor
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Hook Norton
@@ -359,18 +347,6 @@ company: Berry Recruitment - Agency - Permanent
 location: Didcot
 source: JobG8
 job_id: jobg8-23643_225718509
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mental Health and Wellbeing Partnerships Coordinator
-company: Abingdon School - Agency - Contract
-location: Abingdon
-source: JobG8
-job_id: jobg8-23643_225710419
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -546,6 +522,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Technical Administrator
+company: Cameo Consultancy - Agency - Permanent
+location: Banbury
+source: JobG8
+job_id: jobg8-23643_225764102
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Technical Publications Administrator
 company: Planet Recruitment - Agency - Permanent
 location: Abingdon
@@ -614,7 +602,7 @@ job_id: jobg8-108158397
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (49)
+## EXCLUDE (50)
 
 ---
 action: 
@@ -745,6 +733,18 @@ company: MP Jobs Ltd t/a MP Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225791120
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Document Controller
+company: Sir Robert McAlpine - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225812064
 reason: Broad county location; not Oxford-city evidence.
 ---
 

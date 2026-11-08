@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
+- automatic include: 23
 - automatic review: 4
-- automatic exclude: 94
-- effective include: 24
+- automatic exclude: 93
+- effective include: 23
 - effective review: 4
-- effective exclude: 94
+- effective exclude: 93
 
-## INCLUDE (24)
+## INCLUDE (23)
 
 ---
 action: 
@@ -300,18 +300,6 @@ job_id: jobg8-23643_225744797
 reason: Approved Coventry catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: University Hospitals Coventry and Warwickshire NHS Trust
-location: Coventry, CV2 2DX
-source: NHS Jobs
-job_id: nhs-5706425
-reason: Approved Coventry catchment.
----
-
 ## REVIEW (4)
 
 ---
@@ -362,7 +350,7 @@ job_id: jobg8-23643_225727031
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (94)
+## EXCLUDE (93)
 
 ---
 action: 
@@ -789,18 +777,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Document Controller
-company: RTL Group Ltd - Agency - Contract
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225709208
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Document Controller
 company: Stepnell Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
@@ -992,6 +968,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Interim Supporter Experience / Customer service Support
+company: The Talent Set - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2250909
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Legal Assistant - Litigation
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Nuneaton
@@ -1172,18 +1160,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Purchase Ledger Administrator
-company: Valpak Limited - Agency - Permanent
-location: Stratford-Upon-Avon
-source: JobG8
-job_id: jobg8-23643_225707679
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Warwickshire
@@ -1318,7 +1294,7 @@ decision: exclude
 automatic_decision: exclude
 title: Sales Development Representative
 company: Plus One Recruitment - Agency - Permanent
-location: Stratford-upon-avon
+location: Stratford-Upon-Avon
 source: JobG8
 job_id: jobg8-23643_225772548
 reason: Separate employment market.
@@ -1476,7 +1452,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2245721
+job_id: jobg8-2252191
 reason: Separate employment market.
 ---
 

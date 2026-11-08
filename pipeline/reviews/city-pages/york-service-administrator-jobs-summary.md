@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 20
-- automatic exclude: 21
+- automatic review: 21
+- automatic exclude: 22
 - effective include: 15
-- effective review: 20
-- effective exclude: 21
+- effective review: 21
+- effective exclude: 22
 
 ## INCLUDE (15)
 
@@ -204,7 +204,7 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (21)
 
 ---
 action: 
@@ -366,6 +366,18 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Coordinator
+company: Taskmaster Resources Limited - Agency - Temporary
+location: Sherburn In Elmet
+source: JobG8
+job_id: jobg8-108275823
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Residential Property Legal Secretary
 company: Search Consultancy Ltd - Agency - Permanent
 location: Malton
@@ -446,7 +458,7 @@ job_id: jobg8-2143764
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -625,6 +637,18 @@ company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225788225
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Administrator
+company: KD Recruitment Limited - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-108271266
 reason: Separate employment market.
 ---
 

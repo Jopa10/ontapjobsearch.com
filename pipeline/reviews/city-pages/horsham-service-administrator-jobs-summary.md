@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 100
-- automatic exclude: 36
+- automatic review: 98
+- automatic exclude: 35
 - effective include: 1
-- effective review: 100
-- effective exclude: 36
+- effective review: 98
+- effective exclude: 35
 
 ## INCLUDE (1)
 
@@ -36,7 +36,7 @@ job_id: jobg8-23643_225808738
 reason: Exact approved Horsham workplace.
 ---
 
-## REVIEW (100)
+## REVIEW (98)
 
 ---
 action: 
@@ -144,18 +144,6 @@ location: Lancing
 source: JobG8
 job_id: jobg8-23643_225794252
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Get Staffed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225707665
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
 ---
@@ -1086,18 +1074,6 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support & Customer Service Administrator
-company: Morgan Mckinley (Crawley) - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225709358
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Support Executive
 company: Michael Page - Agency - Permanent
 location: Sussex
@@ -1184,7 +1160,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
@@ -1234,11 +1210,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2245718
+job_id: jobg8-2252188
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -1441,18 +1417,6 @@ company: Clearline Recruitment Ltd - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225747015
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Housing Administrator
-company: BDS (Northern) Limited - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225707578
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 

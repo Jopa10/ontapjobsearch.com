@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 52
+- automatic include: 5
+- automatic review: 53
 - automatic exclude: 0
-- effective include: 4
-- effective review: 52
+- effective include: 5
+- effective review: 53
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225788225
+reason: Exact approved Scarborough workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Administrator
+company: KD Recruitment Limited - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-108271266
 reason: Exact approved Scarborough workplace.
 ---
 
@@ -72,7 +84,7 @@ job_id: nhs-5690490
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (53)
 
 ---
 action: 
@@ -599,6 +611,18 @@ company: Ebor Academy Trust
 location: York
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-administrator-ebor-academy-trust
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Coordinator
+company: Taskmaster Resources Limited - Agency - Temporary
+location: Sherburn In Elmet
+source: JobG8
+job_id: jobg8-108275823
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

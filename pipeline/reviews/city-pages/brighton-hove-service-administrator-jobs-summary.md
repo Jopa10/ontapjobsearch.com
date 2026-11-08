@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 100
+- automatic include: 13
+- automatic review: 98
 - automatic exclude: 23
-- effective include: 14
-- effective review: 100
+- effective include: 13
+- effective review: 98
 - effective exclude: 23
 
-## INCLUDE (14)
+## INCLUDE (13)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: Clearline Recruitment Ltd - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225747015
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Housing Administrator
-company: BDS (Northern) Limited - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225707578
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -192,7 +180,7 @@ job_id: nhs-5704086
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (100)
+## REVIEW (98)
 
 ---
 action: 
@@ -300,18 +288,6 @@ location: Lancing
 source: JobG8
 job_id: jobg8-23643_225794252
 reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Get Staffed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225707665
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1242,18 +1218,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support & Customer Service Administrator
-company: Morgan Mckinley (Crawley) - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225709358
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Support Executive
 company: Michael Page - Agency - Permanent
 location: Sussex
@@ -1340,7 +1304,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Brighton & Hove catchment rule matched; local review required.
@@ -1390,7 +1354,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2245718
+job_id: jobg8-2252188
 reason: Broad location; review before city inclusion.
 ---
 
