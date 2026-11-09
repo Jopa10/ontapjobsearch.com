@@ -10,7 +10,7 @@
     "draft": true,
     "merged": false
   },
-  "measuredAt": "2026-11-09T12:26:37.410Z",
+  "measuredAt": "2026-11-09T13:43:09.569Z",
   "scope": "Read-only review of already-published 5/6 November inventory evidence. No selector replay or selector-to-output comparison rerun.",
   "sources": {
     "nov5": {
@@ -337,7 +337,7 @@
     "repositoryCheckpointUpdated": true,
     "artifactInspectionReadOnly": true
   },
-  "nextAction": "Locate an immutable complete published-job inventory/build manifest from the 5/6 November production build, or use a retained source artifact plus the recorded post-review result through an already-approved read-only reconciliation. The available active-city-page-output archives are insufficient. Keep the 5/6 comparisons closed and do not rerun them.",
+  "nextAction": "If a complete 5/6 November build manifest cannot be recovered, add a future evidence-retention step to the migration checklist: archive the complete generated/published-jobs ID list and source-labelled active inventory for each comparison date alongside the post-review selector result. Do not repeat completed 5/6 comparisons.",
   "homepageCountMethod": {
     "codeAtNov6ProductionCommit": "8787da7cb19b0a9d16c57377eef42c2f922e043f",
     "homepageFile": {
@@ -398,6 +398,34 @@
       }
     },
     "result": "The retained active-city-page-output archives contain city page JSON and review files only; neither provides the complete homepage list or complete active JobG8 inventory. Existing artifact inspection therefore does not close the 12/73 reconciliation.",
-    "selectorOutputArtifacts": "Some dated selector output artifacts also remain available, but the already-completed selector-to-post-review-output comparisons were not repeated."
-  }
+    "selectorOutputArtifacts": "Some dated selector output artifacts also remain available, but the already-completed selector-to-post-review-output comparisons were not repeated.",
+    "additionalRunsChecked": [
+      {
+        "workflow": "Apply and publish Ontap daily review",
+        "runId": 41995626820,
+        "date": "2026-11-05",
+        "artifacts": []
+      },
+      {
+        "workflow": "Apply and publish Ontap daily review",
+        "runId": 42187552927,
+        "date": "2026-11-06",
+        "artifacts": []
+      },
+      {
+        "workflow": "Apply and publish Ontap daily review",
+        "runId": 42089554168,
+        "date": "2026-11-05",
+        "artifacts": []
+      },
+      {
+        "workflow": "Apply and publish Ontap daily review",
+        "runId": 42271211956,
+        "date": "2026-11-06",
+        "artifacts": []
+      }
+    ],
+    "conclusion": "No retained final apply/publish run artifacts were found; the retained city output files are incomplete for full active-inventory reconciliation."
+  },
+  "planDeviationOrAddition": "Evidence-retention step may be needed for future dated reconciliations because final apply/publish runs have no retained artifacts."
 }
