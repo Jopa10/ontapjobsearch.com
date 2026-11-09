@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-08
-review_fingerprint: 15f49492c68175d9591e11ba9a881eee121d5090fe1d29be65aa1dae79e6ed3b
+review_date: 2026-11-09
+review_fingerprint: e94887d68c25777ab7329d15861796157072fb36fc4f80878e06d9bc6a54515d
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,17 +10,17 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-08T13:46:15+00:00
+Run generated: 2026-11-09T16:46:24+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1160
+JobG8 comparison rows: 1176
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 1
-- Detail pages fetched successfully: 1
+- Detail-page candidates: 2
+- Detail pages fetched successfully: 2
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 14
+- Obvious hard passes not detail-fetched: 13
 - Tees Valley explicitly excluded: 1
 - Outside or unmapped geography excluded: 2
 - Generic/derived geography rows requiring review: 4
@@ -28,10 +28,10 @@ Approved NEJobs comparison rows: 0
 
 ## Outcomes
 - HC: 0
-- POSS: 5
-- HARD_PASS: 7
+- POSS: 6
+- HARD_PASS: 6
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 5
+- Final POSS awaiting decision: 6
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -83,6 +83,19 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173648
 ---
 ---
 action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,893 to 34,068 Per Annum | Education Coordinator
+employer: Northumbria Students Union
+closing_date: Wednesday, December 2, 2026 - 12:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £34,068 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173674
+vacancy_fingerprint: 907b4c71ff28143269faf4f196530e1725bf8b14ae2fbdf597f462c0d6662d2d
+source_job_id: 173674
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173674
+---
+---
+action:
 POSS | North East - Tyneside, Wearside & Northumberland | Newcastle | £ | Placement Programme Lead
 employer: Ouseburn Farm
 closing_date: 22 November 2026
@@ -113,13 +126,12 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173661
 
 ## HARD_PASS
 
-- [Cancer and Dementia Care Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173588) — out-of-scope VONNE occupation.
 - [Family Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173625) — out-of-scope VONNE occupation.
 - [Grants Administration Officer (Small and Medium Grants)](https://www.vonne.org.uk/vonne-jobs-details?cid=173618) — insufficient service-admin evidence.
-- [Housing Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173636) — out-of-scope VONNE occupation.
-- [Income and Project Delivery Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173614) — insufficient service-admin evidence.
 - [Monitoring and Co-ordination Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173633) — out-of-scope VONNE occupation.
 - [Outreach Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173624) — out-of-scope VONNE occupation.
+- [Wellbeing & Campaigns Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173673) — out-of-scope VONNE occupation.
+- [Young Carers’ Wellbeing Worker (Triage)](https://www.vonne.org.uk/vonne-jobs-details?cid=173676) — out-of-scope VONNE occupation.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
