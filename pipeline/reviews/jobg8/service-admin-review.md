@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-11-08
+feed_date: 2026-11-09
 
 Edit only the `action:` line in each block:
 
@@ -819,6 +819,12 @@ job_id: 23643_225469534
 action:
 SELECTED | Yorkshire - West | Leeds | no salary in JobG8 salary fields; no supported salary amount found in description | Business Support Administrator
 job_id: 23643_225810852
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Huddersfield | Commensurate with Experience [extracted from description] | Customer Specialist Sales Administrator B2B
+job_id: 23643_225812143
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -1993,6 +1999,12 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | co
 job_id: 23643_225781278
 ---
 
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | no salary in JobG8 salary fields; no supported salary amount found in description | Finance Officer
+job_id: 29110_21887
+---
+
 ## NORTH EAST — POSSIBLES
 
 ---
@@ -3123,12 +3135,6 @@ job_id: 2156790
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Company Secretary
 job_id: 2157144
----
-
----
-action:
-SELECTED | London | London | £19,338 per year [extracted from description] | Finance Assistant
-job_id: 2175925
 ---
 
 ---
@@ -4367,6 +4373,18 @@ SELECTED | London | London | £40000 per year [JobG8 salary fields] | Dental Sal
 job_id: 108297467
 ---
 
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Finance Assistant
+job_id: 2254582
+---
+
+---
+action:
+SELECTED | London | Wembley | £40000 per year [JobG8 salary fields] | Permit Coordinator
+job_id: 108281995
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -4622,12 +4640,6 @@ job_id: 23643_225795158
 ---
 
 ## HAMPSHIRE — SELECTED
-
----
-action:
-SELECTED | Hampshire | Hampshire | £28000 - £30000 per year [JobG8 salary fields] | Accounts Assistant
-job_id: 23643_225711507
----
 
 ---
 action:
@@ -5464,12 +5476,6 @@ job_id: 23643_225810727
 ---
 
 ## HAMPSHIRE — POSSIBLES
-
----
-action:
-POSS - HAMPSHIRE | Hampshire | Hampshire | £25000 - £30000 per year (holiday entitlement, pension scheme) [JobG8 salary fields] | Accounts Assistant
-job_id: 23643_225711504
----
 
 ---
 action:
@@ -7027,12 +7033,6 @@ job_id: 23643_225775127
 
 ---
 action:
-SELECTED | Kent | Kent | £30000 - £32000 per year [JobG8 salary fields] | HVAC Office Administrator
-job_id: 23643_225697754
----
-
----
-action:
 SELECTED | Kent | Kent | £29600 per year (+ Excellent Benefits Package) [JobG8 salary fields] | Planner / Scheduler Co-ordinator
 job_id: 23643_225799454
 ---
@@ -7149,12 +7149,6 @@ job_id: 23643_225811665
 action:
 SELECTED | Kent | Kent | £28,000 - £31,000 per year [extracted from description] | Accountancy Administrator Xero Essential &;31k
 job_id: 2250587
----
-
----
-action:
-SELECTED | Kent | Kent | £30000 per year [JobG8 salary fields] | Financial Adviser Administrator
-job_id: 23643_225737709
 ---
 
 ## KENT — POSSIBLES
@@ -7461,12 +7455,6 @@ job_id: 2169124
 action:
 SELECTED | Sussex | Sussex | £30000 - £34000 per year | Accounts Assistant
 job_id: 2178753
----
-
----
-action:
-SELECTED | Sussex | Sussex |  | IP Records Administrator
-job_id: 2178985
 ---
 
 ---
@@ -9625,6 +9613,12 @@ job_id: 23643_225792910
 
 ---
 action:
+SELECTED | Buckinghamshire | Buckinghamshire | £28000 - £30000 per year | Procurement Assistant
+job_id: 23643_225796525
+---
+
+---
+action:
 SELECTED | Buckinghamshire | Buckinghamshire | £35000 per year | HR Administrator
 job_id: 23643_225795015
 ---
@@ -10431,6 +10425,12 @@ job_id: 23643_225808345
 action:
 SELECTED | Cheshire - Warrington & Halton | Warrington | Dependent on experience | Corporate Insolvency Administrator
 job_id: 2246595
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Warrington | £13.46 per hour (Work Until March 2027) | Records Administrator
+job_id: 23643_225812126
 ---
 
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
@@ -11363,6 +11363,12 @@ SELECTED | Devon | Devon | £13.76 per hour | Customer Service Assistant
 job_id: 108260662
 ---
 
+---
+action:
+SELECTED | Devon | Devon | £14.17 per hour | Finance Assistant
+job_id: 2233949
+---
+
 ## DEVON — POSSIBLES
 
 ---
@@ -11617,6 +11623,12 @@ job_id: 2240519
 action:
 SELECTED | Dorset | Dorset | £30000 - £35000 per year | Credit Controller
 job_id: 2238162
+---
+
+---
+action:
+SELECTED | Dorset | Dorset | £25000 - £30000 per year | Administrator
+job_id: 23643_225812150
 ---
 
 ## DORSET — POSSIBLES
@@ -12155,12 +12167,6 @@ job_id: 23643_225794919
 action:
 SELECTED | Essex | Essex | £12.71 - £14 per hour (DOE) | Booking Coordinator
 job_id: 23643_225794885
----
-
----
-action:
-SELECTED | Essex | Essex | £13.45 per hour | Activities Coordinator
-job_id: 108267202
 ---
 
 ---
@@ -13593,6 +13599,12 @@ SELECTED | Greater Manchester - North | Oldham | £31504 per year | Disrepair Co
 job_id: 23643_225811888
 ---
 
+---
+action:
+SELECTED | Greater Manchester - North | Bury |  | Temporary Credit Controller
+job_id: 2233872
+---
+
 ## GREATER MANCHESTER - NORTH — POSSIBLES
 
 ---
@@ -13879,12 +13891,6 @@ job_id: 2115682
 
 ---
 action:
-SELECTED | Greater Manchester - Wigan & Bolton | Leigh | £27000 - £28000 per year (Birthday Off, Free Parking, Pension) | Customer Account Coordinator
-job_id: 23643_225711476
----
-
----
-action:
 SELECTED | Greater Manchester - Wigan & Bolton | Leigh | £25000 - £30000 per year | Sales Ledger Administrator / Service Administrator
 job_id: 23643_225716960
 ---
@@ -14119,12 +14125,6 @@ job_id: 23643_225764622
 action:
 SELECTED | Herefordshire | Hereford | £30000 per year | HR Administrator
 job_id: 23643_225762012
----
-
----
-action:
-SELECTED | Herefordshire | Ross-on-wye | £14.71 per hour | Activities Coordinator - Care Home
-job_id: 23643_225739526
 ---
 
 ---
@@ -14915,6 +14915,12 @@ job_id: 2247193
 action:
 SELECTED | Lancashire - Central | Leyland |  | Marketing Co-ordinator
 job_id: 2249738
+---
+
+---
+action:
+SELECTED | Lancashire - Central | Chorley |  | One Stop - Customer Service Assistant
+job_id: 2254763
 ---
 
 ## LANCASHIRE - CENTRAL — POSSIBLES
@@ -17441,12 +17447,6 @@ job_id: 23643_225752147
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire |  | HR Administrator
-job_id: 2175889
----
-
----
-action:
 SELECTED | Nottinghamshire | Nottinghamshire | £28000 - £30000 per year | Customs Administrator - Part Time
 job_id: 23643_225758944
 ---
@@ -17913,12 +17913,6 @@ job_id: 23643_225792854
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £28000 - £30000 per year | Procurement Assistant
-job_id: 23643_225796525
----
-
----
-action:
 SELECTED | Oxfordshire | Oxfordshire | £29000 - £34000 per year | Service Advisor
 job_id: 23643_225795406
 ---
@@ -18023,12 +18017,6 @@ job_id: 108260738
 action:
 SELECTED | Oxfordshire | Oxfordshire |  | Document Controller
 job_id: 23643_225812064
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire | £12.79 per hour (plus benefits) | Receptionist - Bank
-job_id: 108297659
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -18675,6 +18663,12 @@ job_id: 2250290
 action:
 SELECTED | Scotland West - Glasgow | Glasgow | £13.84 per hour | Office Coordinator
 job_id: 23643_225811652
+---
+
+---
+action:
+SELECTED | Scotland West - Glasgow | Glasgow | £28000 - £35000 per year | Operations Administrator
+job_id: 23643_225752498
 ---
 
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
@@ -20731,12 +20725,6 @@ job_id: 23643_225796568
 
 ---
 action:
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £35000 per year (company benefits) | Document Controller
-job_id: 23643_225698821
----
-
----
-action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £26000 - £27000 per year | Junior Finance Assistant
 job_id: 23643_225798243
 ---
@@ -21449,6 +21437,12 @@ job_id: 2235464
 action:
 SELECTED | Wiltshire | Wiltshire | £32000 per year | Assurance Coordinator Porton Down
 job_id: 108182792
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire |  | Service Advisor
+job_id: 2233971
 ---
 
 ## WILTSHIRE — POSSIBLES
