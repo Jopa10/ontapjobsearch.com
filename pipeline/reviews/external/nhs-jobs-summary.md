@@ -2,15 +2,63 @@
 
 review_date: 2026-11-09
 
-- Open Administrative & Clerical rows reviewed: 2050
-- Auto/remembered selected: 353
+- Open Administrative & Clerical rows reviewed: 2054
+- Auto/remembered selected: 354
 - Selected HC Tier A: 182
-- Selected HC Tier B: 171
-- POSS awaiting decision: 1603
+- Selected HC Tier B: 172
+- POSS awaiting decision: 1606
 - Excluded: 0
 - HARD_PASS: 94
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Merseyside - Wirral | Birkenhead, CH42 6HB | £13.15 | Patient Coordinator (Receptionist)
+source_job_id: 5717170
+title: Patient Coordinator (Receptionist)
+employer: Hamilton Medical Centre
+region: Merseyside - Wirral
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5675-26-0000
+factual_fingerprint: 484caf602101be71b103a697117dca8ec00a9f2e94b2665a2e80b90037265900
+---
+
+---
+action:
+POSS | NHS Jobs | — | 317 Regent Point, NE3 3HD | £28392.00 to £31157.00 | Assistant Accountant
+source_job_id: 5716921
+title: Assistant Accountant
+employer: The Newcastle upon Tyne Hospitals NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-0937
+factual_fingerprint: bf12ac53d0ed6daa562fcb16aa82bc3a9a374056065fa86b0798339e138d9748
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Keighley, BD20 6TD | £25272.00 | Porter/Receptionist
+source_job_id: 5716249
+title: Porter/Receptionist
+employer: Bradford District Care NHS Foundation Trust
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9453-26-0385
+factual_fingerprint: 0b2fb2a62a359f076d33e285ca5a1980be62363c1b3a860dc3702493543b05d6
+---
+
+---
+action:
+POSS | NHS Jobs | — | Crumpsall, M8 5RB | £25272.00 | Receptionist/Admin Clerk
+source_job_id: 5716958
+title: Receptionist/Admin Clerk
+employer: Manchester University NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3392
+factual_fingerprint: 1481a1627974c06ba4544721a53a4263666674aa0b6dfacb990637989ef6e64a
+---
 
 ---
 action:
@@ -2002,18 +2050,6 @@ region: Cambridgeshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0653
 factual_fingerprint: 8a142280728c758303ea650221a3e0c798450e696c820ae8bce3f2179056a1cc
----
-
----
-action:
-POSS | NHS Jobs | Cambridgeshire | Huntingdon, PE29 6NT | £32073.00 to £39043.00 | Stores & Materials Management Supervisor
-source_job_id: 5713666
-title: Stores & Materials Management Supervisor
-employer: North West Anglia NHS Foundation Trust
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0658
-factual_fingerprint: 84147181168a85b2f2e39e945b30007efa9ee0fad2fcbcec67a61a6339e61ce2
 ---
 
 ---
