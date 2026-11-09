@@ -6,4 +6,13 @@ default,Surrey,35000,Legacy shared threshold retained for families without a spe
 default,Kent,35000,Legacy shared threshold retained for families without a specific policy
 default,DEFAULT,30000,Legacy shared threshold for all other regions and families
 admin_service,London,42000,Admin/Service salary review point agreed 2026-09-25
-admin_service,DEFAULT,37000,Admin/Service salary review point agreed 2026-09-25; all regions outside London
+admin_service,Greater Manchester - Manchester & Salford,42000,Admin/Service salary review point agreed 2026-11-09
+admin_service,West Midlands - Birmingham & Solihull,42000,Admin/Service salary review point agreed 2026-11-09
+admin_service,Bristol & Bath,42000,Admin/Service salary review point agreed 2026-11-09
+admin_service,Berkshire,42000,Admin/Service salary review point agreed 2026-11-09
+admin_service,Surrey,42000,Admin/Service salary review point agreed 2026-11-09
+admin_service,Buckinghamshire,42000,Admin/Service salary review point agreed 2026-11-09
+admin_service,Hertfordshire,42000,Admin/Service salary review point agreed 2026-11-09
+admin_service,Essex,42000,Admin/Service salary review point agreed 2026-11-09
+admin_service,Kent,42000,Admin/Service salary review point agreed 2026-11-09
+admin_service,DEFAULT,37000,Admin/Service default salary review point agreed 2026-09-25; regions without a specific override
