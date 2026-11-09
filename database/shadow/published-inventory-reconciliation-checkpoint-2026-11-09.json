@@ -334,9 +334,10 @@
     "expiryOrPurgeRun": false,
     "emailsSent": false,
     "codeInspectionReadOnly": true,
-    "repositoryCheckpointUpdated": true
+    "repositoryCheckpointUpdated": true,
+    "artifactInspectionReadOnly": true
   },
-  "nextAction": "Recover the exact generated/published-jobs.json (or equivalent dated build manifest) and a complete active JobG8 ID inventory for 5/6 November. Then separately reconcile homepage badge counts, source-report counts and the already-recorded exact selector/output parity. Do not rerun completed comparisons.",
+  "nextAction": "Locate an immutable complete published-job inventory/build manifest from the 5/6 November production build, or use a retained source artifact plus the recorded post-review result through an already-approved read-only reconciliation. The available active-city-page-output archives are insufficient. Keep the 5/6 comparisons closed and do not rerun them.",
   "homepageCountMethod": {
     "codeAtNov6ProductionCommit": "8787da7cb19b0a9d16c57377eef42c2f922e043f",
     "homepageFile": {
@@ -358,5 +359,45 @@
       "blobSha": "1f8a1dd019b678581665fb73e68c9d8f4fd4cbe7"
     },
     "logic": "Reads valid job rows from app JSON files, applies as-of closing-date rules, then deduplicates by source job ID and vacancy fingerprint before source counts."
+  },
+  "artifactRecovery": {
+    "checkedAt": "2026-11-09T13:35:18.222Z",
+    "method": "Read-only GitHub Actions artifact metadata and ZIP file-list inspection; no workflow reruns.",
+    "nov5": {
+      "publishWorkflowRunId": 42002121492,
+      "liveSourceReportArtifact": {
+        "id": 13403281367,
+        "retained": true,
+        "expiresAt": "2026-12-05T09:27:28Z"
+      },
+      "activeCityPageOutputArtifact": {
+        "id": 13403236343,
+        "retained": true,
+        "expiresAt": "2026-12-05T09:27:31Z",
+        "zipFiles": 422,
+        "appCityJsonFiles": 289,
+        "generatedPublishedJobsJsonPresent": false,
+        "nonCityAppJsonPresent": false
+      }
+    },
+    "nov6": {
+      "publishWorkflowRunId": 42192345458,
+      "liveSourceReportArtifact": {
+        "id": 13491405496,
+        "retained": true,
+        "expiresAt": "2026-12-06T09:08:36Z"
+      },
+      "activeCityPageOutputArtifact": {
+        "id": 13490721135,
+        "retained": true,
+        "expiresAt": "2026-12-06T09:08:39Z",
+        "zipFiles": 422,
+        "appCityJsonFiles": 289,
+        "generatedPublishedJobsJsonPresent": false,
+        "nonCityAppJsonPresent": false
+      }
+    },
+    "result": "The retained active-city-page-output archives contain city page JSON and review files only; neither provides the complete homepage list or complete active JobG8 inventory. Existing artifact inspection therefore does not close the 12/73 reconciliation.",
+    "selectorOutputArtifacts": "Some dated selector output artifacts also remain available, but the already-completed selector-to-post-review-output comparisons were not repeated."
   }
 }
