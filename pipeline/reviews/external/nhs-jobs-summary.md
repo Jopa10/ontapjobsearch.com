@@ -2,15 +2,39 @@
 
 review_date: 2026-11-09
 
-- Open Administrative & Clerical rows reviewed: 1910
-- Auto/remembered selected: 338
-- Selected HC Tier A: 173
-- Selected HC Tier B: 165
-- POSS awaiting decision: 1483
+- Open Administrative & Clerical rows reviewed: 1913
+- Auto/remembered selected: 340
+- Selected HC Tier A: 174
+- Selected HC Tier B: 166
+- POSS awaiting decision: 1484
 - Excluded: 0
 - HARD_PASS: 89
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | London | London, SW17 0QT | £31066.00 | Admin & Clerical Assistant
+source_job_id: 5714542
+title: Admin & Clerical Assistant
+employer: St George's University Hospitals NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-1020
+factual_fingerprint: 5cf7f00f181d5ea0f880bcf376ae8dbe09a8ff3d92a4a4b8d417d11fd85376c7
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, WC1N 3JH | £58133.00 to £65261.00 | Senior Configuration Analyst
+source_job_id: 5714744
+title: Senior Configuration Analyst
+employer: Great Ormond Street Hospital for Children NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0463
+factual_fingerprint: 9eb0e43cc915daeeb284ad55fb38e8b2df516e901d87a76d6193ab14eaf62219
+---
 
 ---
 action:
@@ -5409,7 +5433,7 @@ employer: Market Harborough & Bosworth Partnership
 region: Leicestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1377-26-0025
-factual_fingerprint: 0ddf13c6fa22361ac274f4ad00fc4a1e33bc6252be9845c374c80a140c0f53a7
+factual_fingerprint: 05f23c58d52d4f2a78c392245732e030470247d2f6d92bb463b69fac60395d7f
 ---
 
 ---
@@ -5962,18 +5986,6 @@ region: North Wales - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2599
 factual_fingerprint: 46f126fd37a6b43a71e2c13a8a0dbd765d098431a3c7593416724661b3c625e5
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Black Country | Dudley, DY1 2HQ | £25272.00 | Ward Clerk - C7
-source_job_id: 5706706
-title: Ward Clerk - C7
-employer: The Dudley Group NHS Foundation Trust
-region: West Midlands - Black Country
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9253-26-0574
-factual_fingerprint: d37eb9b1453aeccd2d44b68fcb306c69f46d21accd3180e297a52e333ad8cf93
 ---
 
 ---

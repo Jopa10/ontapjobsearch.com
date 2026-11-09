@@ -759,6 +759,24 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5714696",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Woodland Avenue Practice",
+    "advertiser_name": "Woodland Avenue Practice",
+    "location": "Luton, LU3 1RW",
+    "region": "Bedfordshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-09T09:50:27.477694673",
+    "closing_date": "2026-11-30",
+    "description": "We are seeking a dedicated and capable GP Receptionist to join our practice and contribute to the delivery of high quality patient care. Working Hours The working hours will follow a set weekly pattern: Tuesday 8am - 4pm Wednesday to Friday 8am - 6.30pm This role is central to the efficient operation of the surgery, requiring excellent communication skills, strong organisation, and a commitment to providing a courteous and supportive service to all patients. As the first point of contact, you will play a key role in ensuring that every individual receives prompt assistance and a positive experience. Responsibilities include providing a courteous and professional reception service for patients and visitors, managing enquiries both in person and over the telephone, and supporting patients in accessing the appropriate services. The role involves accurately booking, amending, and managing appointments, maintaining up-to-date records, and handling documentation with diligence. The GP Receptionist also processes prescription requests in line with practice procedures, supports clinicians with administrative tasks, and ensures that patient confidentiality is upheld at all times. In addition, the position contributes to general administrative duties such as filing, scanning, and managing correspondence, while maintaining an organised and welcoming reception area. A commitment to teamwork, professionalism, and high quality service is essential to supporting the practice and delivering excellent patient care. Key Responsibilities Patient Reception & Enquiries - Greet patients in a friendly and professional manner. - Manage patient enquiries in person, via telephone, and online. - Provide information regarding appointments, services, and procedures. - Maintain confidentiality in line with GDPR. Appointment & Administrative Support - Book, amend, and cancel appointments using the clinical system. - Process repeat prescriptions. - Update records. - Assist with referrals, results, recalls, and clinical admin. - Ensure accurate data entry. Reception & Office Duties - Answer incoming calls promptly and signpost appropriately. - Handle post, emails, and internal communication. - Maintain a tidy reception area. - Process payments where required. Teamwork & Practice Support - Work effectively with clinical and admin staff. - Follow practice policies and safeguarding guidelines. - Participate in meetings and training. - Provide cover for colleagues as needed.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4183-26-0012",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4183-26-0012",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A"
+  },
+  {
     "job_id": "nhs-5702636",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -774,11 +792,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1899-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1899-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5694372",
@@ -796,11 +810,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0397",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0397",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5691476",
@@ -818,11 +828,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0396",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0396",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5685802",
@@ -840,10 +846,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D9644-26-0089",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D9644-26-0089",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   }
 ]
