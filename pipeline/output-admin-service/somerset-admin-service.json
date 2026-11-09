@@ -231,31 +231,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2112357",
-    "title": "Client Bookkeeper",
-    "company": "Trial Balance Consulting - Agency - Permanent",
-    "location": "Somerset",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Client Bookkeeper - Taunton - £27,000 - £35,000\n\nA fantastic opportunity to join a highly regarded accountancy practice in Taunton as a Client Bookkeeper, working with a varied portfolio of clients in a supportive and collaborative environment.\n\nThis well-established firm is looking to recruit an experienced Client Bookkeeper to become an integral part of its growing team. Offering a broad and varied workload, regular client interaction and ongoing professional development, this role would suit an organised and proactive bookkeeping professional looking to build their long-term career within practice.\n\nAs a Client Bookkeeper, you'll enjoy taking responsibility for your own work whilst also contributing as part of a collaborative and supportive team.\n\nThe role of Client Bookkeeper will include:\n- Managing day-to-day bookkeeping for a varied portfolio of clients\n- Maintaining accounts payable and accounts receivable records\n- Completing bank reconciliations and ensuring financial information remains accurate and up to date\n- Preparing VAT returns and assisting clients with their ongoing VAT obligations\n- Supporting the wider accounting team with additional accounting and bookkeeping duties\n- Liaising with clients and colleagues to ensure deadlines are met and records are maintained to a high standard\n\nThe successful Client Bookkeeper will have previous bookkeeping experience gained within an accountancy practice and be comfortable managing multiple client relationships simultaneously.\n\nYou may be part-qualified, fully AAT qualified or qualified through experience. Strong organisational skills, attention to detail and the ability to communicate effectively with both clients and colleagues will be essential.\n\nThis is a fantastic opportunity for a motivated Client Bookkeeper to join a respected firm where your expertise will be valued and your career development supported.\n\nTo find out more about this Client Bookkeeper opportunity, please apply quoting reference JVS11317, or contact Jay Vilarrubi-Smith for a confidential discussion about this opportunity and your career options.\n\nTrial Balance is a market leading supplier of recruitment services to accountancy practices across the South-West and works on vacancies at all levels in a practice environment. For a confidential discussion about your career options please contact Jay Vilarrubi-Smith, our dedicated practice specialist.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6e4Gdv7uXFC1e44oM1%2bvskNh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Trial Balance Consulting",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225743792",
     "title": "Care Coordinator",
     "company": "Olive Recruit - Agency - Permanent",
@@ -921,7 +896,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1060-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1060-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5692196",
@@ -939,7 +918,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1198-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1198-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5688635",
@@ -957,7 +940,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1537-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1537-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5689012",
@@ -975,7 +962,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5667697",
@@ -993,6 +984,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0497",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0497",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

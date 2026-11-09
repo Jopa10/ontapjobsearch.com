@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-examinations-officer-stoke-high-school-ormiston-academy-ipswich-suffolk",
-    "title": "Examinations Officer",
-    "company": "Stoke High School - Ormiston Academy",
-    "location": "Ipswich",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time', 'part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,646.00 - £26,920.00 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-11-02",
-    "closing_date": "2026-11-09",
-    "closing_datetime": "2026-11-09T12:00:00+00:00",
-    "summary": "Examinations Officer with Stoke High School - Ormiston Academy in Ipswich. ['full time', 'part time']; £25,646.00 - £26,920.00 Annually (Actual).",
-    "description": "Stoke High School - Ormiston Academy is recruiting for this vacancy in Ipswich.\n\nThe advertised position is Examinations Officer.\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is £25,646.00 - £26,920.00 Annually (Actual).\n\nThe stated application deadline is 2026-11-09T12:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-stoke-high-school-ormiston-academy-ipswich-suffolk?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Stoke High School - Ormiston Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-administrator-murrayfield-primary-a-paradigm-academy",
     "title": "Receptionist Administrator",
     "company": "Murrayfield Primary - A Paradigm Academy",
@@ -1324,6 +1296,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

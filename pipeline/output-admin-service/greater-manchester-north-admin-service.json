@@ -359,6 +359,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2256123",
+    "title": "Temporary Accounts Assistant",
+    "company": "Recruitment Solutions (North West) Ltd - Agency - Permanent",
+    "location": "Bury",
+    "region": "Greater Manchester - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£14.50 per hour",
+    "posted_date": "",
+    "description": "Are you confident with numbers, great with people and enjoy keeping things running smoothly?\n\nAre you looking for your next opportunity in accounts where no two days are quite the same?\n\nDo you enjoy a varied finance role where you can take ownership of your workload, build relationships with customers and play an important part in keeping the accounts function running efficiently?\n\nIf so, this could be just the opportunity you're looking for!\n\nWhat will your day look like?\n- Taking ownership of customer accounts and keeping the sales ledger up to date.\n- Proactively chasing outstanding payments and reducing aged debt.\n- Building positive relationships with customers and confidently dealing with payment queries.\n- Allocating payments and investigating discrepancies.\n- Raising sales invoices and processing credit notes.\n- Reconciling customer accounts and resolving any queries.\n- Monitoring credit limits and highlighting potential payment risks.\n- Producing aged debtor reports and keeping track of outstanding balances.\n- Supporting the wider finance team with general accounts administration.\n\nWhat are we looking for?\n- Have you worked in an Accounts Assistant, Sales Ledger or Credit Control position?\n- Are you confident picking up the phone and having conversations about outstanding payments?\n- Can you manage customer queries professionally while maintaining good working relationships?\n- Are you organised, methodical and someone who takes pride in getting the details right?\n- Do you enjoy working independently but also being part of a team?\n- Are you comfortable using Excel and accounting systems?\n\nWhat's in it for you?\n- Hourly rate up to £14.50 p/h plus holiday pay\n- ASAP start / Office based\n- Working hours - Monday to Friday 9 AM-5 PM or 9 AM-3 PM\n- A varied role where you can use and develop your accounts experience.\n\nDisclaimer\n\nDue to the large number of applications we receive, we may not be able to respond to every applicant. If you have not heard from us within two weeks, please consider your application for the currently advertised position unsuccessful. However, we may contact you regarding other suitable roles. We want to emphasize that no wording in this advertisement is intended to discriminate based on gender, marital status, race, religion, ethnicity, age, disability, or sexual orientation. All candidates will be evaluated solely on their merits, qualifications, and ability to fulfil the responsibilities of the role. Recruitment Solutions (NW) LTD operates as an employment agency for both permanent recruitment and temporary placements.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mOAT%2fTh%2bM1M%2fTFc9Tv%2fismyNQpWO6Dawu",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Recruitment Solutions (North West) Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225746444",
     "title": "Temporary Receptionist & Office Assistant",
     "company": "Bayman Atkinson Smythe - Agency - Temporary",
@@ -599,7 +624,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9311-26-0739",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9311-26-0739",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5702607",
@@ -617,7 +646,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9311-26-0732",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9311-26-0732",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5700146",
@@ -635,6 +668,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0363-26-0029",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0363-26-0029",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -431,31 +431,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2114257",
-    "title": "Service Advisor",
-    "company": "The Solution Auto - Agency - Permanent",
-    "location": "Colne",
-    "region": "Lancashire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Service Advisor\n\nFranchised Motor Dealership - Pendle\n\nAn exciting opportunity has arisen for a Service Advisor to join one of the best employers in the motor industry at their main franchised car dealership.\n\nSalary: Basic - £29,800 OTE - £35,500\n\nWorking Hours: Monday - Friday 8.30am - 5.30pm Saturdays - 8.30am - 12.30pm (1 in 2)\n\nThe Job:\n- To handle customer requirements for service and vehicle repairs in an efficient and courteous manner to ensure a high standard of customer satisfaction.\n- To ensure customer requirements are fully understood and communicated in an effective manner to other members of the department.\n- To record vehicle details and service histories accurately and effectively operate a customer follow-up system.\n- Planning the optimum utilisation of workshop capacity in co-operation with the Service Manager and Workshop Controller.\n\nExperience, Qualifications and Training:\n- Ability to communicate clearly and concisely with customers and other staff members.\n- Up-to-date knowledge of warranty procedures and documentation.\n- Maintain knowledge of warranty, customer care and goodwill procedures, and thorough knowledge of manufacturer's information bulletins and service information.\n- Completion of manufacturer training courses as appropriate.\n\nIf this sounds like you we would love to hear from you, please apply with an up to date CV and we will be in touch to discuss your application further.\n\nWho are you applying to?\n\nThe Solution Automotive Recruitment have been placing candidates into the UK Motor Trade since 1999. We have a fantastic relationship with all our clients and candidates across the country, many very long standing relationships. If you are skilled and experienced Automotive candidate, we want to hear from you and rest assured, you'll be dealing with a person, not just a consultant!\n\nUnfortunately due to the volume of applications we get, we can only respond to the candidates who match the criteria set for this vacancy. We will retain your CV on our database and make contact as and when suitable vacancies arise. We will NEVER send your CV anywhere without your permission",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctzkkzyIxGcTQ9FMJruwWFVwp",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Solution Auto",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2152478",
     "title": "Private Client Legal Assistant / Secretary - Clitheroe",
     "company": "qed legal - Agency - Permanent",
@@ -621,7 +596,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5696621",
@@ -639,7 +618,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3282-26-0019",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3282-26-0019",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5690343",
@@ -657,6 +640,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

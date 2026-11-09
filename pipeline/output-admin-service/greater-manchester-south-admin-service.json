@@ -1075,24 +1075,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "nhs-5701647",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Hyde PCN",
-    "advertiser_name": "Hyde PCN",
-    "location": "Hyde, SK14 2QT",
-    "region": "Greater Manchester - South",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-11-02T15:33:07.098466197",
-    "closing_date": "2026-11-12",
-    "description": "About Us: Healthy Hyde PCN is a collaborative network of eight GP practices serving approximately 80,000 patients in the Hyde area. We are dedicated to improving health outcomes and reducing inequalities within our community by providing integrated, patient-centred care. Our services include, complex case management, extended access appointments, ambulatory care, mental health support, and community health initiatives. Job Purpose The Receptionist & Administrator is responsible for providing a professional and efficient reception and administrative service to support the delivery of Primary Care Network (PCN) services. The post holder will act as the first point of contact for patients, visitors, and partner organisations, ensuring effective communication, accurate appointment management, and the smooth coordination of administrative processes across the PCN. Key Duties and Responsibilities Reception Duties Act as the first point of contact for patients and visitors, providing a courteous and professional service at all times Respond to patient enquiries in person, via telephone, and email, ensuring queries are resolved or appropriately escalated Ensure the reception area is maintained in a professional and organised manner Administrative Duties Book, amend, and manage patient appointments in line with service protocols Process caseloads and referrals received from GP practices, ensuring timely and accurate handling Maintain and update patient records in accordance with NHS data protection and confidentiality requirements Undertake general administrative tasks including data entry, filing, scanning, and document management Coordination and Communication Liaise with GP practices and PCN staff to support service delivery and patient pathways Ensure effective communication between clinical and non-clinical teams Support the coordination of clinics and services as required Information Governance Maintain strict confidentiality of patient and organisational information at all times Comply with GDPR, NHS data protection standards, and organisational policies General Work flexibly to meet the needs of the service, including supporting other administrative functions where required Participate in team meetings, training, and development activities Undertake any other duties commensurate with the role as reasonably requested Job Description Job Title: Receptionist & Administrator Organisation: Healthy Hyde Primary Care Network (PCN) Location: Healthy Hyde, Clarendon Mall, Hyde, SK14 2QT Person Specification Essential Experience working in a receptionist and/or administrative role, preferably within a healthcare or GP practice setting Strong communication and interpersonal skills Good organisational skills with attention to detail Competent in the use of IT systems and standard office software Ability to manage sensitive information confidentially Ability to prioritise workload and adapt to changing demands Desirable Experience working within Primary Care or NHS services Knowledge of clinical systems (e.g. EMIS, SystmOne) Reporting Arrangements Reports to: Sam Rothwell Accountable to: PCN Leadership Team Working Relationships GP Practice staff PCN clinical and non-clinical teams Patients and carers External partner organisations Additional Requirements The post holder must comply with all organisational policies and procedures The post holder must maintain confidentiality and adhere to information governance standards The role may require occasional flexibility in working hours to meet service needs Confidentiality: In the course of seeking treatment, patients entrust primary care network staff with, or allow us to gather, sensitive information in relation to their health and other matters. Comply with Legislation with regards to data protection act and ensure confidentiality is maintained at all times. The post-holder must regard all information relating to patients and their carers, primary care network staff and other healthcare workers (as well as information relating to the primary care network as a business organisation) as strictly confidential Information relating to patients, carers, colleagues, other healthcare workers or the business of the primary care network may only be divulged to authorised persons in accordance with the primary care network policies and procedures relating to confidentiality, data protection legislation and the protection of personal and sensitive data, as well as other related healthcare legislation (e.g. the NHS Confidentiality Code of Practice) Health & Safety: The post-holder will comply with primary care network policies, procedures and clinical guidelines for self and others. This includes (but not limited to): Identifying, reporting, and correcting health and safety hazards and infection hazards immediately when recognised Identifying issues and hazards / risks in relation to other work areas within the primary care network Awareness of national standards of infection control and cleanliness, as well as ownership of infection control and clinically based patient care protocols and implementing them across the primary care network. Active observation of current working practices across the primary care network in relation to infection control, cleanliness and related activities, ensuring that procedures are followed and weaknesses / training needs are identified, escalating issues as appropriate. Identifying the risks involved in work activities, raising them with appropriate management and managing those risks across clinical and patient processes. Safe management of sharps procedures, including training, use, storage and disposal Keeping own work areas and general / patient areas generally clean, sterile, assuming responsibility in the maintenance of general standards of cleanliness across the business in consultation (where appropriate) with other managers Demonstrate due regard for safeguarding and promoting the welfare of Adults/Children. Routine management of own team / team areas, and maintenance of work space standards; Waste management, including collection, handling, segregation, container management, storage and collection Spillage control procedures, management and training Decontamination control procedures, management and training, and equipment maintenance Equality and Diversity: The post-holder will support the equality, diversity and rights of patients, carers and colleagues, to include: Acting in a way that recognizes the importance of peoples rights, interpreting them in a way that is consistent with practice procedures and policies, and current legislation Respecting the privacy, dignity, needs and beliefs of patients, carers and colleagues Identify patterns of discrimination and take action to overcome this and promote diversity and equality of opportunity. Behaving in a manner that is welcoming to and of the individual, is non-judgmental and respects their circumstances, feelings priorities and rights. Support people who need assistance in exercising their rights. Quality: The post-holder will strive to maintain quality within the primary care network, and will: Alert other team members to issues of quality and risk Assess own performance and take accountability for own actions, either directly or under supervision Contribute to the effectiveness of the team by reflecting on own and team activities and making suggestions on ways to improve and enhance the teams performance Work effectively with individuals in other agencies to meet patients needs Effectively manage own time, workload and resources Communication: The post-holder should recognise the importance of effective communication within the team and will strive to: Communicate effectively with other team members Communicate effectively with patients and carers Recognise peoples needs for alternative methods of communication and respond accordingly Ensure awareness of sources of support and guidance (e.g. PALS) and provide information in an acceptable format to all patients, recognising any difficulties and referring where appropriate. Contribution to the implementation of services: The post-holder will: Apply Primary Care Networks policies, standards and guidance Discuss with other members of the team how the policies, standards and guidelines will affect own work Participate in audit where appropriate.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3778-26-0000",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3778-26-0000",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
     "job_id": "nhs-5702373",
     "source": "NHS Jobs",
     "title": "Medical Receptionist",
@@ -1108,7 +1090,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3983-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3983-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5698363",
@@ -1126,7 +1112,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2520-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2520-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5693756",
@@ -1144,7 +1134,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4990-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4990-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5671910",
@@ -1162,7 +1156,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4914-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4914-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5660746",
@@ -1180,6 +1178,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4163-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4163-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

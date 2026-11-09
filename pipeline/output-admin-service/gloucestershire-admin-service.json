@@ -1275,6 +1275,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225812712",
+    "title": "Finance Assistant",
+    "company": "Hays Senior Finance - Agency - Permanent",
+    "location": "Gloucestershire",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "34000",
+    "salary_text": "£28000 - £34000 per year (+ up to 10 % bonus)",
+    "posted_date": "",
+    "description": "Your new company:\n\nHays Accountancy & Finance are partnering exclusively with a growing and forward-thinking finance services organisation based in Cheltenham, Gloucestershire to recruit an experienced permanent Finance Assistant. This is an exciting opportunity to join a progressive business that provides high-quality finance support to a varied portfolio of growing organisations. You will work as part of a collaborative client services team, gaining exposure to different businesses while helping clients improve their financial processes, systems and ways of working.\n\nThe organisation embraces technology, automation and continuous improvement, making this an excellent opportunity for an experienced Finance Assistant who enjoys working in a fast-paced, modern finance environment. The position offers remote/office hybrid working of 2 days on-site, 3 days remote, flexible working hours, company/personal annual bonus scheme, development opportunities, study package for AAT if applicable, private healthcare and more.\n\nYour new role:\n\nReporting to the wider client services team, you will work directly with a portfolio of clients, ensuring accurate financial records are maintained while supporting the implementation and improvement of processes and technology.\n\nKey responsibilities will include:\n- Processing sales transactions from sales order through to invoicing and receipt, ensuring a high level of accuracy.\n- Processing purchase transactions from requisition and purchase order through to invoice and payment.\n- Working as part of the client engagement team to support the onboarding of new clients.\n- Supporting the implementation of standardised finance processes and automation tools.\n- Building strong working relationships with clients to ensure the correct information is obtained and transactions are processed accurately.\n- Helping clients adopt new processes, systems and ways of working.\n- Working with the wider team to identify and implement improvements that increase accuracy, efficiency and the overall service delivered to clients.\n\nWhat you'll need to succeed:\nTo be considered for this hands-on Finance Assistant position, you will ideally be AAT qualified or equivalent, with practical transactional finance experience.\n- Previous experience using accounting software such as Xero and/or Sage.\n- Intermediate Microsoft Excel skills.\n- A good understanding of sales and purchase ledger processes.\n- Experience or confidence in using AI-based tools and automation to improve finance processes, reconciliations, data entry or reporting.\n- Strong attention to detail with a process-driven approach.\n- The ability to work independently and manage competing priorities.\n- Excellent communication skills with the ability to explain financial information clearly.\n- Strong organisation and time-management skills.\n- A proactive and adaptable approach with the ability to operate effectively in a fast-paced and changing environment.\n- A genuine interest in continuous improvement, technology and developing more efficient ways of working.\n- Multi-client experience would be advantageous but not essential.\n\nYou will be a collaborative and commercially minded individual who enjoys building trusted relationships with both clients and colleagues. You will take ownership of your work, be comfortable working at pace and enjoy being part of a growing organisation.\n\nWhat you'll get in return\n\nThis permanent Finance Assistant position offers the opportunity to join an ambitious and growing finance services organisation in Cheltenham, Gloucestershire with exposure to a diverse portfolio of clients and businesses. Salary of 28,000 - 34,000 per annum, dependable on experience with up to a 10 % personal/company annual bonus.\n\nThe role offers a flexible working arrangement of two days on-site, three days remote, flexible working hours, private health care, critical illness cover, group income protection, development opportunities, study package for AAT if required and more. It is an excellent opportunity if you are looking to join a modern environment where technology, automation, client service and continuous improvement are central to the organisation.\n\nWhat you need to do now\n\nIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now. If this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion about your career.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?GtUSkRX75DxqLEQHoND%2fH%2brvdyHEDBkxb",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "The position offers remote/office hybrid working of 2 days on-site, 3 days remote, flexible working hours, company/personal annual bonus scheme, development opportunities, study package for AAT if applicable, private healthcare and more.",
+    "advertiser_name": "Hays Senior Finance",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225723584",
     "title": "Supply Chain Coordinator",
     "company": "Expert Employment - Agency - Temporary",
@@ -1500,6 +1525,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108226582",
+    "title": "Sales & Marketing Coordinator",
+    "company": "JSM UK Ltd - Agency - Permanent",
+    "location": "Gloucestershire",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "33000",
+    "salary_max": "33000",
+    "salary_text": "£33000 per year",
+    "posted_date": "",
+    "description": "About us\n\nJSM Brand Exposure is a branded merchandise, print and corporate gifting company based in Gloucester. We work with some of the UK's best known brands, supplying everything from staff uniforms and welcome packs to point of sale for national branch networks. We run our own 16,000 sq ft production and fulfilment site and have a team of around 30 click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?EI3oDmW0F6m8zrqxsbdX%2fi%2bCXy9VQvTdp",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "JSM UK Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5710887",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -1515,7 +1565,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2669",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2669",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5712268",
@@ -1533,7 +1587,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0307-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0307-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5700673",
@@ -1551,7 +1609,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0226-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0226-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5681530",
@@ -1569,6 +1631,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0899",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0899",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -53,31 +53,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225736471",
-    "title": "Service Administrator",
-    "company": "Sue Ross Recruitment Ltd - Agency - Contract",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "27400",
-    "salary_max": "27400",
-    "salary_text": "£27400 per year",
-    "posted_date": "",
-    "description": "Sue Ross Recruitment are delighted to be working with a well-established and highly respected organisation within the healthcare and technical services sector who are seeking an experienced Service Administrator to join their Sheffield-based team.\n\nThis is a varied and fast-paced role, providing operational, administrative and customer support to a busy technical services department. The successful candidate will play a key role in ensuring the efficient processing of service and repair jobs, supporting engineers in the field, coordinating workloads, and delivering exceptional customer service to both internal and external stakeholders.\n\nCustomer Service & Administration\n- Act as the first point of contact for customer enquiries relating to service, repair and maintenance activities.\n- Process and monitor service and repair jobs, ensuring customers and internal teams receive timely updates.\n- Prepare quotations, process repair orders and manage associated contract administration.\n- Record, investigate and escalate customer feedback, complaints and quality issues where required.\n- Liaise with third-party suppliers, repair partners and internal departments to ensure service targets are achieved.\n- Maintain accurate records, documentation and system data to ensure compliance and audit readiness.\n\nPlanning & Scheduling\n- Coordinate and schedule planned maintenance activities and reactive service visits for field service engineers across the UK.\n- Allocate resources effectively to maximise efficiency and meet customer requirements.\n- Triage technical enquiries and ensure requests are directed to the appropriate support channels.\n- Monitor workload and service schedules to ensure agreed KPIs and service levels are achieved.\n\nOperational Support\n- Support the smooth day-to-day operation of the technical services function.\n- Track service activities and provide updates to stakeholders.\n- Assist with performance reporting and continuous improvement initiatives.\n- Ensure all departmental systems and processes remain accurate and up to date.\n- Work closely with engineering teams to support effective service delivery.\n\nThe Successful Candidate Will Have\n- Previous experience within a customer service, service coordination, operational support or scheduling environment.\n- Strong administration skills with excellent attention to detail.\n- Experience planning and coordinating workloads, engineers, service teams or field-based resources.\n- Excellent communication skills and the ability to build positive relationships with customers and colleagues.\n- Strong organisational and prioritisation skills, with the ability to manage multiple tasks simultaneously.\n- Experience using a range of IT systems and Microsoft Office applications.\n- A proactive approach and a commitment to delivering excellent customer service.\n\nWhat's on Offer?\n- Opportunity to join a market-leading organisation with an excellent reputation.\n- Varied and rewarding role within a supportive team environment.\n- Ongoing training and professional development opportunities.\n- Competitive salary and comprehensive benefits package.\n- We are able to consider candidates who are available immediately on a temporary basis , but we are also happy to receive applications if you are seeking a permanent role also.\n\nUnfortunately due to the number of applications we receive, we are unable to provide individual feedback to all applicants. Please assume that if you do not hear from us within 72 hours that your application has been unsuccessful on this occasion.\n\nMay we take this opportunity to thank you for expressing an interest in one of our roles and wish you the very best in your search for employment.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttr6NHsDjlNW864pX13io7N8a",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Sue Ross Recruitment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225739418",
     "title": "Operations Administrator",
     "company": "Sue Ross Recruitment Ltd - Agency - Temporary",
@@ -1053,6 +1028,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2256327",
+    "title": "Payroll Assistant",
+    "company": "PRATAP PARTNERSHIP LTD - Agency - Permanent",
+    "location": "Rotherham",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "W are recruiting an experienced Payroll/Accounts Assistant for a business based in Rotherham.\n\nFull time or part time hours considered.\n- A well-established company with an excellent reputation, positive culture and good staff retention.\n- Strong order book and profitable!\n- A knowledgeable, supportive finance team.\n- Regular opportunities to learn and develop.\n- 6% matched pension 25 days holiday\n\nTHE JOB:\n\nReporting to the Payroll Manager, duties to include but not limited:\n- Processing payroll (including shift patters, attendance bonus, supplements etc) for c 400 employees, including all associated administration.\n- Administration of the time and attendance system.\n- Administration of staff holidays and sickness.\n- Dealing with payroll queries.\n- Other ad hoc duties within the finance team as required.\n\nTHE PERSON:\n- Payroll experience is essential.\n- The ability to work on your own initiative as well as part of a team is required.\n- Good IT skills are required.\n- A flexible and adaptable approach is essential.\n- Most importantly, we are looking for someone who is reliable, proactive and keen to develop in a varied finance role.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?EI3oDmW0F6lw0HPZ6PO71y9FUTLmMmCbp",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "PRATAP PARTNERSHIP LTD",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "2129178",
     "title": "Accounts Assistant",
     "company": "Elevation Recruitment Group - Agency - Permanent",
@@ -1343,7 +1343,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9457-26-0335",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9457-26-0335",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5711537",
@@ -1361,7 +1365,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0051-26-0076",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0051-26-0076",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5713874",
@@ -1379,7 +1387,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0619",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0619",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5705463",
@@ -1397,7 +1409,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0698",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0698",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5706331",
@@ -1415,7 +1431,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3087-26-0015",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3087-26-0015",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5704847",
@@ -1433,7 +1453,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0697",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0697",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5686823",
@@ -1451,7 +1475,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0063-26-0022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0063-26-0022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5706820",
@@ -1469,7 +1497,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1568-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1568-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5699812",
@@ -1487,7 +1519,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0166-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0166-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5697202",
@@ -1505,7 +1541,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-165-26-10-063",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-165-26-10-063",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5695628",
@@ -1523,7 +1563,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0103-26-0083",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0103-26-0083",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5687012",
@@ -1541,6 +1585,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0063-26-0023",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0063-26-0023",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

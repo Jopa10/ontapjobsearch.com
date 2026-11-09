@@ -1203,6 +1203,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5715134",
+    "source": "NHS Jobs",
+    "title": "Clerical Officer - Gastroenterology",
+    "company": "Liverpool University Hospitals NHS Foundation Trust",
+    "advertiser_name": "Liverpool University Hospitals NHS Foundation Trust",
+    "location": "Liverpool, L9 7AL",
+    "region": "Merseyside - Liverpool",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-09T10:47:24.100485587",
+    "closing_date": "2026-11-23",
+    "description": "We have an exciting opportunity for a part time Clerical Officer to join our administration team, here in the Endoscopy Department at Aintree University Hospital. As a clerical officer, your main duty will be working on reception and the admitting and discharging of patients and answering any general queries they may have. Other duties will include registering new patients on our Patient Administration System (IPM), preparing patient notes, answering telephone queries and deal efficiently and professionally to the requests of all service users and patient enquiries and provide a functional flexibility to meet the demands of the service. Due to the nature of the work you will be IT literate, able to use most Office software and work unsupervised. Previous experience in the health sector would be an advantage and excellent customer service, the ability to work as part of a team and work to tight deadlines is essential. You will be expected to be flexible and support the department as and when the need arises. To admit and discharge all patients for the Endoscopy unit and provide the necessary administrative support to ensure that a highquality service is provided at all times, thereby affecting a smooth and efficient running of thedepartment. To work unsupervised but to be available to give advice to junior members of the team. Admitting and discharging of patients on IPM Ensuring all necessary patient documentation is prepared in advance of their arrival Preparing patient packs to be delivered in advance of appointments Liaising with health professionals, wards A/E and GP surgeries as required. Registering new patients on the hospital system PAS and adding to appropriate waiting list. Responsibility for ensuring all outcomes are recorded on the PAS and patients removed from the waiting list as necessary in accordance with the Trusts access policy.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1907",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1907",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5662247",
     "source": "NHS Jobs",
     "title": "GP Receptionist/Administrator",
@@ -1218,7 +1240,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1000-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1000-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5620107",
@@ -1236,6 +1262,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5219-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5219-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
