@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 27
+- automatic review: 26
 - automatic exclude: 0
 - effective include: 13
-- effective review: 27
+- effective review: 26
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-2249893
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (27)
+## REVIEW (26)
 
 ---
 action: 
@@ -491,18 +491,6 @@ company: Kenmore Medical Centre
 location: Wilmslow, SK9 1PA
 source: NHS Jobs
 job_id: nhs-5705068
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist and Admin Assistant (Maternity Cover)
-company: Bexton Primary School
-location: Knutsford
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-admin-assistant-maternity-cover
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

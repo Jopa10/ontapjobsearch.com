@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 92
+- automatic review: 96
 - automatic exclude: 0
 - effective include: 3
-- effective review: 92
+- effective review: 96
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225761154
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (92)
+## REVIEW (96)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: Wade Macdonald - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2210788
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Clerk
+company: In2 Consult - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-2250387
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -491,6 +503,18 @@ company: Envelis Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225745809
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: EfW Administrator and Visitor Centre Supervisor
+company: FCC Environment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-108286101
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -918,6 +942,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Procurement Assistant
+company: Trinity Resource Solutions - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225796525
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project Support Officer
 company: Experis - Agency - Contract
 location: Milton Keynes
@@ -935,6 +971,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: High Wycombe
 source: JobG8
 job_id: jobg8-23643_225745214
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Assistant / Stores Person
+company: Proactive Global - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225812084
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

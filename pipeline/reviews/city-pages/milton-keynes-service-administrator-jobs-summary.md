@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 22
-- automatic review: 73
+- automatic review: 77
 - automatic exclude: 0
 - effective include: 22
-- effective review: 73
+- effective review: 77
 - effective exclude: 0
 
 ## INCLUDE (22)
@@ -288,7 +288,7 @@ job_id: jobg8-23643_225761685
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (77)
 
 ---
 action: 
@@ -383,6 +383,18 @@ company: Wade Macdonald - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2210788
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Clerk
+company: In2 Consult - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-2250387
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -635,6 +647,18 @@ company: Envelis Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225745809
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: EfW Administrator and Visitor Centre Supervisor
+company: FCC Environment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-108286101
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -1002,6 +1026,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Procurement Assistant
+company: Trinity Resource Solutions - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225796525
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project Co-ordinator
 company: Adecco - Agency - Permanent
 location: Aylesbury
@@ -1019,6 +1055,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: High Wycombe
 source: JobG8
 job_id: jobg8-23643_225745214
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Assistant / Stores Person
+company: Proactive Global - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225812084
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

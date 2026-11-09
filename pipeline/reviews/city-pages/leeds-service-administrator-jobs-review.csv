@@ -114,7 +114,6 @@ review,jobg8-2120673,Finance Assistant,Reed - Agency - Permanent,Keighley,JobG8,
 review,jobg8-23643_225721454,Finance Assistant- Temp,Loom Talent - Agency - Permanent,Normanton,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2123716,Finance Assistant- Temp,Loom Talent Limited - Agency - Permanent,Normanton,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225799000,FM Administrator,300 North Limited - Agency - Temporary,Normanton,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
-review,jobg8-2210153,Fundraising and Communications Manager,The Nell Bank Charitable Trust - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2170976,Health and Welfare Court of Protection Paralegal,Simpson Millar LLP Solicitors - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225720816,HR Administrator,E3 Recruitment - Agency - Permanent,Brighouse,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-108257174,Inside Sales Executive,JLA Limited - Agency - Permanent,Sowerby Bridge,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
@@ -141,7 +140,7 @@ review,jobg8-23643_225738536,Sales & Operations Administrator,10 Recruitment Ltd
 review,jobg8-23643_225770103,Sales Admin Co-ordinator,Mpeople Recruitment North West - Agency - Permanent,Batley,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225786450,Sales Administrator - Part time 4 or 5 days,Huntress - Leeds - Agency - Permanent,Batley,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225777396,Studio Administrator,Sayjo Recruitment Ltd - Agency - Permanent,Brighouse,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
-review,jobg8-2252195,Trainee Digital Marketing Manager No experience needed (Ref: 6901),Qualify Nation Recruitment - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
+review,jobg8-2254452,Trainee Digital Marketing Manager No experience needed (Ref: 6901),Qualify Nation Recruitment - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2204175,Transactional Assistant (Accounts Payable focus),Michael Page Finance - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 exclude,jobg8-23643_225751953,Accounts Administrator,Concept Recruitment Group Ltd - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-2178126,Accounts Administrator,Reed - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
@@ -152,7 +151,6 @@ exclude,jobg8-2124271,Accounts Assistant,Reed - Agency - Permanent,Bradford,JobG
 exclude,jobg8-2235048,Accounts Assistant,Reed - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225774451,Accounts Assistant,Sewell Wallis Ltd - Agency - Temporary,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225762112,Accounts Assistant - Practice,W Talent - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
-exclude,teaching-vacancies-administration-assistant-horbury-academy,Administration Assistant,Horbury Academy,Wakefield,Teaching Vacancies,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-20091_328253,Administrator,Blenheim Schools - Company - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225745706,Administrator,Concept Recruitment Group Ltd - Agency - Temporary,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225730421,Administrator,Encon Staffing Associates Ltd - Agency - Temporary,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
@@ -168,6 +166,7 @@ exclude,jobg8-23643_225751342,Credit Controller,Concept Recruitment Group Ltd - 
 exclude,jobg8-23643_225767422,Credit Controller - Bradford BD4,Concept Recruitment Group Ltd - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225756046,Customer / Sales Administrator - Multiple applicants,Office Angels - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225720892,Customer Service Advisor,Search Consultancy Ltd - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
+exclude,jobg8-23643_225812143,Customer Specialist Sales Administrator B2B,Asset Appointments - Agency - Contract,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225630226,Dental Receptionist,The People Advisory - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-2171133,Finance Administrator,Reed - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-2194613,Finance Assistant,CRA Consulting - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
@@ -205,7 +204,6 @@ exclude,jobg8-23643_225769407,Sales Administrator,Headway Recruitment - Agency -
 exclude,jobg8-23643_225809977,Sales Administrator,West Riding Recruitment - Agency - Permanent,Dewsbury,JobG8,exclude,exclude,Separate employment market.,dewsbury,leeds-service-administrator-jobs
 exclude,jobg8-23643_225767713,Sales Administrator - Bradford BD4,Concept Recruitment Group Ltd - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225760536,Sales and Customer Support Assistant,Lucy Walker Recruitment - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
-exclude,jobg8-2120672,Sales Ledger Clerk,Reed - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-2197514,Sales Ledger/Credit Controller,PRATAP PARTNERSHIP LTD - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225715984,School Administrator,PK Education - Agency - Temporary,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225732496,Service Advisor,Auto Skills UK - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs

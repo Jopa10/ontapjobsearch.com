@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 98
+- automatic review: 97
 - automatic exclude: 23
 - effective include: 13
-- effective review: 98
+- effective review: 97
 - effective exclude: 23
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: nhs-5704086
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (98)
+## REVIEW (97)
 
 ---
 action: 
@@ -708,18 +708,6 @@ location: Haywards Heath
 source: JobG8
 job_id: jobg8-23643_225778933
 reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: IP Records Administrator
-company: The Law Support Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2178985
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1304,7 +1292,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Not Specified
+location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Brighton & Hove catchment rule matched; local review required.
@@ -1354,7 +1342,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2252188
+job_id: jobg8-2254445
 reason: Broad location; review before city inclusion.
 ---
 

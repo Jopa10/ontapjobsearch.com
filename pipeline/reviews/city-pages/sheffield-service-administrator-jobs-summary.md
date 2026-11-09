@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 40
+- Effective included jobs: 39
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 40
-- automatic review: 13
-- automatic exclude: 37
-- effective include: 40
-- effective review: 13
-- effective exclude: 37
+- automatic include: 39
+- automatic review: 14
+- automatic exclude: 36
+- effective include: 39
+- effective review: 14
+- effective exclude: 36
 
-## INCLUDE (40)
+## INCLUDE (39)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Sewell Wallis Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225747949
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5694088
 reason: Approved Sheffield catchment.
 ---
 
@@ -472,6 +460,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Senior Administrator
+company: STEPS Rehabilitation
+location: Sheffield, S7 2QA
+source: NHS Jobs
+job_id: nhs-5687012
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Administrator
 company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
@@ -492,19 +492,7 @@ job_id: jobg8-23643_225789027
 reason: Approved Sheffield catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225796381
-reason: Approved Sheffield catchment.
----
-
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -662,7 +650,19 @@ job_id: jobg8-2153824
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (37)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trade Mark Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2233878
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+## EXCLUDE (36)
 
 ---
 action: 
@@ -1093,17 +1093,5 @@ company: Rotherham Hospice - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225728023
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Clerk
-company: The Rotherham NHS Foundation Trust
-location: ROTHERHAM, S60 2UD
-source: NHS Jobs
-job_id: nhs-5695575
 reason: Separate employment market.
 ---

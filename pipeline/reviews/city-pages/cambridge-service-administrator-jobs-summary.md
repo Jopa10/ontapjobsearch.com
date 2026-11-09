@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
-- automatic review: 19
-- automatic exclude: 36
-- effective include: 29
-- effective review: 19
-- effective exclude: 36
+- automatic include: 30
+- automatic review: 18
+- automatic exclude: 34
+- effective include: 30
+- effective review: 18
+- effective exclude: 34
 
-## INCLUDE (29)
+## INCLUDE (30)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2245828
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Brand & Marketing Executive
+company: UBT - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2254309
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -372,7 +384,7 @@ job_id: jobg8-23643_225721995
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (18)
 
 ---
 action: 
@@ -510,18 +522,6 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Patient Services Administrator
-company: Lakeside Healthcare Group
-location: ST. NEOTS, PE19 1BQ
-source: NHS Jobs
-job_id: nhs-5683940
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Personal Assistant
 company: East of England Community Health and Care NHS Trust (Cambridge)
 location: St Ives, PE27 4LG
@@ -602,7 +602,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -889,30 +889,6 @@ company: MHA - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2240155
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Old Fletton Surgery
-location: Peterborough, PE2 8AY
-source: NHS Jobs
-job_id: nhs-5709087
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Administrator
-company: Hampton College
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-hampton-college
 reason: Separate employment market.
 ---
 

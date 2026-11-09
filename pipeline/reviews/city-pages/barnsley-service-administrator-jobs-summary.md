@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 13
-- automatic exclude: 68
+- automatic review: 14
+- automatic exclude: 66
 - effective include: 9
-- effective review: 13
-- effective exclude: 68
+- effective review: 14
+- effective exclude: 66
 
 ## INCLUDE (9)
 
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225749128
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -290,7 +290,19 @@ job_id: jobg8-2153824
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (68)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trade Mark Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2233878
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+## EXCLUDE (66)
 
 ---
 action: 
@@ -337,18 +349,6 @@ company: Sewell Wallis Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225747949
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5694088
 reason: Separate employment market.
 ---
 
@@ -1040,6 +1040,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Senior Administrator
+company: STEPS Rehabilitation
+location: Sheffield, S7 2QA
+source: NHS Jobs
+job_id: nhs-5687012
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Service Administrator
 company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
@@ -1076,34 +1088,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225796381
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Volunteer Coordinator
 company: Rotherham Hospice - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225728023
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Clerk
-company: The Rotherham NHS Foundation Trust
-location: ROTHERHAM, S60 2UD
-source: NHS Jobs
-job_id: nhs-5695575
 reason: Separate employment market.
 ---

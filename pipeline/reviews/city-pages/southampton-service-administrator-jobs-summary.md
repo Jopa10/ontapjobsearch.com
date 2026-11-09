@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 130
-- automatic exclude: 44
-- effective include: 15
-- effective review: 130
-- effective exclude: 44
+- automatic include: 14
+- automatic review: 127
+- automatic exclude: 43
+- effective include: 14
+- effective review: 127
+- effective exclude: 43
 
-## INCLUDE (15)
+## INCLUDE (14)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: NHS Professionals - Company - Temporary
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225788134
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4GX
-source: NHS Jobs
-job_id: nhs-5686999
 reason: Approved Southampton catchment.
 ---
 
@@ -204,7 +192,7 @@ job_id: jobg8-23643_225719604
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (130)
+## REVIEW (127)
 
 ---
 action: 
@@ -239,30 +227,6 @@ company: Accountability Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2148747
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225711504
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225711507
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1062,18 +1026,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Administrator
-company: Vine Medical Group
-location: Waterlooville, PO7 7AH
-source: NHS Jobs
-job_id: nhs-5684220
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Secretary
 company: Staff Partners Business - Agency - Contract
 location: Hampshire
@@ -1766,7 +1718,7 @@ job_id: jobg8-23643_225810727
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (44)
+## EXCLUDE (43)
 
 ---
 action: 
@@ -1885,18 +1837,6 @@ company: Shorterm Group - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-23643_225728168
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator - The Harbour School
-company: The Harbour School
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
 reason: Separate employment market.
 ---
 

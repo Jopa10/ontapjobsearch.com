@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 180
+- automatic review: 175
 - automatic exclude: 0
 - effective include: 9
-- effective review: 180
+- effective review: 175
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225805266
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (180)
+## REVIEW (175)
 
 ---
 action: 
@@ -167,30 +167,6 @@ company: Accountability Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2148747
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225711504
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225711507
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -440,18 +416,6 @@ decision: review
 automatic_decision: review
 title: Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4GX
-source: NHS Jobs
-job_id: nhs-5686999
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO40 8DX
 source: NHS Jobs
 job_id: nhs-5701836
@@ -515,18 +479,6 @@ company: 3D Personnel LTD - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225768701
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - The Harbour School
-company: The Harbour School
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1451,18 +1403,6 @@ company: Lordshill Health Centre
 location: Southampton, SO16 8HY
 source: NHS Jobs
 job_id: nhs-5700697
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Administrator
-company: Vine Medical Group
-location: Waterlooville, PO7 7AH
-source: NHS Jobs
-job_id: nhs-5684220
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

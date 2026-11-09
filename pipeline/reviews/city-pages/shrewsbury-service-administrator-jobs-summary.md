@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 10
 - automatic review: 29
 - automatic exclude: 0
-- effective include: 12
+- effective include: 10
 - effective review: 29
 - effective exclude: 0
 
-## INCLUDE (12)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Assistant
-company: Consula Group LTD - Agency - Permanent
-location: Shrewsbury
-source: JobG8
-job_id: jobg8-2110488
-reason: Exact approved Shrewsbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Radbrook Primary School
-location: Shrewsbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-radbrook-primary-school
-reason: Exact approved Shrewsbury workplace.
----
+## INCLUDE (10)
 
 ---
 action: 

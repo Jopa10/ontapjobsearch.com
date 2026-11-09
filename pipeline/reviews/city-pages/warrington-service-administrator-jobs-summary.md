@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 32
 - automatic review: 10
-- automatic exclude: 6
+- automatic exclude: 5
 - effective include: 32
 - effective review: 10
-- effective exclude: 6
+- effective exclude: 5
 
 ## INCLUDE (32)
 
@@ -256,18 +256,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist/Administrator
-company: Birchwood Medical Centre
-location: Warrington, WA3 7PJ
-source: NHS Jobs
-job_id: nhs-5690698
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Operations Coordinator
 company: Dynamic Resourcing - Agency - Permanent
 location: Warrington
@@ -333,6 +321,18 @@ company: Salter Grange Limited - Agency - Contract
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225788627
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Records Administrator
+company: Meridian Business Support - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225812126
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -530,7 +530,7 @@ job_id: jobg8-23643_225805278
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -589,17 +589,5 @@ company: Kinetic PLC - Agency - Temporary
 location: Runcorn
 source: JobG8
 job_id: jobg8-23643_225789895
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Clerk
-company: North Cheshire and Mersey NHS Foundation Trust (BCH)
-location: RUNCORN, WA7 2DA
-source: NHS Jobs
-job_id: nhs-5705605
 reason: Separate employment market.
 ---

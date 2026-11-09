@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 24
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 55
+- automatic include: 26
+- automatic review: 54
 - automatic exclude: 0
-- effective include: 24
-- effective review: 55
+- effective include: 26
+- effective review: 54
 - effective exclude: 0
 
-## INCLUDE (24)
+## INCLUDE (26)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Administrator
+company: WR HVAC - Agency - Contract
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225812149
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Pertemps Plymouth - Agency - Temporary
 location: Exeter
@@ -105,6 +117,18 @@ company: RGB Recruitment - Agency - Contract
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225774563
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Sellick Partnership - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-2233949
 reason: Exact approved Exeter workplace.
 ---
 
@@ -312,7 +336,7 @@ job_id: jobg8-23643_225730206
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (54)
 
 ---
 action: 
@@ -683,18 +707,6 @@ company: Lockhart Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225766926
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Church View Surgery
-location: Plymouth, PL9 9BW
-source: NHS Jobs
-job_id: nhs-5704799
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

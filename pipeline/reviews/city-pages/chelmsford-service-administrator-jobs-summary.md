@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 148
+- automatic review: 147
 - automatic exclude: 0
 - effective include: 16
-- effective review: 148
+- effective review: 147
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: jobg8-2200411
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (148)
+## REVIEW (147)
 
 ---
 action: 
@@ -359,18 +359,6 @@ company: Pursuit Resources Group - Agency - Permanent
 location: Witham
 source: JobG8
 job_id: jobg8-2243547
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: The Priory Group - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-108267202
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

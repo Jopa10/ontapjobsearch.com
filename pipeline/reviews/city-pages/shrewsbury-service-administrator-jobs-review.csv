@@ -1,6 +1,4 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
-include,jobg8-2110488,Account Assistant,Consula Group LTD - Agency - Permanent,Shrewsbury,JobG8,include,include,Exact approved Shrewsbury workplace.,exact:shrewsbury,shrewsbury-service-administrator-jobs
-include,teaching-vacancies-administrative-assistant-radbrook-primary-school,Administrative Assistant,Radbrook Primary School,Shrewsbury,Teaching Vacancies,include,include,Exact approved Shrewsbury workplace.,exact:shrewsbury,shrewsbury-service-administrator-jobs
 include,jobg8-23643_225717119,Administrator,Prince Personnel Limited - Agency - Temporary,Shrewsbury,JobG8,include,include,Exact approved Shrewsbury workplace.,exact:shrewsbury,shrewsbury-service-administrator-jobs
 include,jobg8-2238198,Bookkeeper,Seymour John - Agency - Permanent,Shrewsbury,JobG8,include,include,Exact approved Shrewsbury workplace.,exact:shrewsbury,shrewsbury-service-administrator-jobs
 include,jobg8-23643_225771593,Business Support Officer,Opus People Solutions Ltd - Agency - Temporary,Shrewsbury,JobG8,include,include,Exact approved Shrewsbury workplace.,exact:shrewsbury,shrewsbury-service-administrator-jobs

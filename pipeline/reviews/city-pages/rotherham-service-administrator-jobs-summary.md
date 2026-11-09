@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 6
 - automatic review: 83
 - automatic exclude: 0
-- effective include: 7
+- effective include: 6
 - effective review: 83
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: Unicorn Resourcing - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-23643_225739769
-reason: Exact approved Rotherham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: The Rotherham NHS Foundation Trust
-location: ROTHERHAM, S60 2UD
-source: NHS Jobs
-job_id: nhs-5695575
 reason: Exact approved Rotherham workplace.
 ---
 
@@ -191,18 +179,6 @@ company: Runwood Homes - Company - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225736679
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5694088
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -1050,6 +1026,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Senior Administrator
+company: STEPS Rehabilitation
+location: Sheffield, S7 2QA
+source: NHS Jobs
+job_id: nhs-5687012
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Administrator
 company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
@@ -1074,11 +1062,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Training Coordinator
-company: Charto Recruitment Ltd - Agency - Permanent
-location: Barnsley
+title: Trade Mark Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225749128
+job_id: jobg8-2233878
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -1086,11 +1074,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
+title: Training Coordinator
+company: Charto Recruitment Ltd - Agency - Permanent
+location: Barnsley
 source: JobG8
-job_id: jobg8-23643_225796381
+job_id: jobg8-23643_225749128
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

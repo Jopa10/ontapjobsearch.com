@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
-- automatic review: 17
-- automatic exclude: 37
-- effective include: 30
-- effective review: 17
-- effective exclude: 37
+- automatic include: 28
+- automatic review: 16
+- automatic exclude: 38
+- effective include: 28
+- effective review: 16
+- effective exclude: 38
 
-## INCLUDE (30)
+## INCLUDE (28)
 
 ---
 action: 
@@ -268,30 +268,6 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Old Fletton Surgery
-location: Peterborough, PE2 8AY
-source: NHS Jobs
-job_id: nhs-5709087
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Administrator
-company: Hampton College
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-hampton-college
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Executive
 company: Interaction Recruitment - Agency - Permanent
 location: Peterborough
@@ -384,7 +360,7 @@ job_id: jobg8-2183929
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -510,18 +486,6 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Patient Services Administrator
-company: Lakeside Healthcare Group
-location: ST. NEOTS, PE19 1BQ
-source: NHS Jobs
-job_id: nhs-5683940
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Print Administrator
 company: Infinity Recruitment Consultancy Limited - Agency - Permanent
 location: St. Ives
@@ -590,7 +554,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (38)
 
 ---
 action: 
@@ -661,6 +625,18 @@ company: Cambridge University Hospital NHS Foundation Trust
 location: Ely, CB6 1DN
 source: NHS Jobs
 job_id: nhs-5695551
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Brand & Marketing Executive
+company: UBT - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2254309
 reason: Separate employment market.
 ---
 

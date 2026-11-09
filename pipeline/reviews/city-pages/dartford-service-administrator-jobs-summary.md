@@ -4,7 +4,7 @@
 - Live route: `/dartford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 153
+- automatic include: 13
+- automatic review: 151
 - automatic exclude: 42
-- effective include: 14
-- effective review: 153
+- effective include: 13
+- effective review: 151
 - effective exclude: 42
 
-## INCLUDE (14)
+## INCLUDE (13)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Dr C.J. Shimmins & Partners
 location: Dartford, DA1 1QY
 source: NHS Jobs
 job_id: nhs-5709841
-reason: Exact approved Dartford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admissions Officer
-company: Stone Lodge School
-location: Dartford
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-officer-stone-lodge-school
 reason: Exact approved Dartford workplace.
 ---
 
@@ -192,7 +180,7 @@ job_id: jobg8-23643_225747333
 reason: Exact approved Dartford workplace.
 ---
 
-## REVIEW (153)
+## REVIEW (151)
 
 ---
 action: 
@@ -1098,18 +1086,6 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
-title: Financial Adviser Administrator
-company: Brook Street - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225737709
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: GP Receptionist
 company: Sheppey Healthy Living Centre
 location: Sheerness, ME12 1HH, SHEERNESS, ME12 3LT
@@ -1655,18 +1631,6 @@ company: New Appointments Group - Agency - Temporary
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225741605
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Retail Social Media Manager
-company: Reed - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2205977
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
@@ -2276,18 +2240,6 @@ reason: The stated workplace belongs outside the approved Dartford employment ma
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HVAC Office Administrator
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Rochester
-source: JobG8
-job_id: jobg8-23643_225697754
-reason: The stated workplace belongs outside the approved Dartford employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Lettings Administrator
 company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Chatham
@@ -2461,6 +2413,18 @@ company: Michael Page - Agency - Permanent
 location: Tunbridge Wells
 source: JobG8
 job_id: jobg8-23643_225773035
+reason: The stated workplace belongs outside the approved Dartford employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist Administrator
+company: East Kent Hospitals University NHS Foundation Trust
+location: Canterbury, CT1 3NG
+source: NHS Jobs
+job_id: nhs-5714638
 reason: The stated workplace belongs outside the approved Dartford employment market.
 ---
 

@@ -104,7 +104,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2252186
+job_id: jobg8-2254443
 reason: Approved conservative Belfast launch catchment.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 98
+- automatic review: 97
 - automatic exclude: 35
 - effective include: 1
-- effective review: 98
+- effective review: 97
 - effective exclude: 35
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-23643_225808738
 reason: Exact approved Horsham workplace.
 ---
 
-## REVIEW (98)
+## REVIEW (97)
 
 ---
 action: 
@@ -564,18 +564,6 @@ location: Haywards Heath
 source: JobG8
 job_id: jobg8-23643_225778933
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: IP Records Administrator
-company: The Law Support Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2178985
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
 ---
@@ -1160,7 +1148,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Not Specified
+location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
@@ -1210,7 +1198,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2252188
+job_id: jobg8-2254445
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 

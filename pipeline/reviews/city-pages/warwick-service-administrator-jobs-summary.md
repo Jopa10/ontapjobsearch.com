@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 97
+- automatic review: 96
 - automatic exclude: 0
 - effective include: 23
-- effective review: 97
+- effective review: 96
 - effective exclude: 0
 
 ## INCLUDE (23)
@@ -300,7 +300,7 @@ job_id: jobg8-2186709
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (97)
+## REVIEW (96)
 
 ---
 action: 
@@ -1183,18 +1183,6 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Finham Park 2
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-finham-park-2-coventry-west-midlands
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: Stockingford Medical Centre
 location: Nuneaton, CV10 8EJ
 source: NHS Jobs
@@ -1292,7 +1280,7 @@ decision: review
 automatic_decision: review
 title: Sales Development Representative
 company: Plus One Recruitment - Agency - Permanent
-location: Stratford-Upon-Avon
+location: Stratford-upon-avon
 source: JobG8
 job_id: jobg8-23643_225772548
 reason: No exact Warwick workplace matched; local geographic review is required.
@@ -1450,7 +1438,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2252191
+job_id: jobg8-2254448
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

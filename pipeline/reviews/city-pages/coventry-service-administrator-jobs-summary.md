@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 22
 - automatic review: 4
 - automatic exclude: 93
-- effective include: 23
+- effective include: 22
 - effective review: 4
 - effective exclude: 93
 
-## INCLUDE (23)
+## INCLUDE (22)
 
 ---
 action: 
@@ -249,18 +249,6 @@ company: Sustainable Building Services - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225730944
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Finham Park 2
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-finham-park-2-coventry-west-midlands
 reason: Approved Coventry catchment.
 ---
 
@@ -1294,7 +1282,7 @@ decision: exclude
 automatic_decision: exclude
 title: Sales Development Representative
 company: Plus One Recruitment - Agency - Permanent
-location: Stratford-Upon-Avon
+location: Stratford-upon-avon
 source: JobG8
 job_id: jobg8-23643_225772548
 reason: Separate employment market.
@@ -1452,7 +1440,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2252191
+job_id: jobg8-2254448
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 172
+- automatic include: 7
+- automatic review: 169
 - automatic exclude: 0
-- effective include: 8
-- effective review: 172
+- effective include: 7
+- effective review: 169
 - effective exclude: 0
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant (N4)
-company: Harry Watts Academy
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-n4
-reason: Exact approved Sunderland workplace.
----
+## INCLUDE (7)
 
 ---
 action: 
@@ -120,7 +108,7 @@ job_id: nhs-5689557
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (172)
+## REVIEW (169)
 
 ---
 action: 
@@ -738,18 +726,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5YA
-source: NHS Jobs
-job_id: nhs-5684079
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Communications Executive
 company: Wolviston Management Services - Agency - Permanent
 location: Yorkshire
@@ -1278,18 +1254,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Exams Officer
-company: English Martyrs Catholic School and Sixth Form College
-location: Hartlepool
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-english-martyrs-catholic-school-and-sixth-form-college
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance & Payroll Assistant
 company: James Andrew Recruitment Solutions (JAR Solutions) - Agency - Permanent
 location: Durham
@@ -1343,6 +1307,18 @@ company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2234947
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: Parkdean Resorts - Company - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-29110_21887
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1487,18 +1463,6 @@ company: Wolviston Management Services - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225780133
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Great Lumley Surgery
-location: Chester le Street, DH3 4LE
-source: NHS Jobs
-job_id: nhs-5686212
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -2146,7 +2110,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2252199
+job_id: jobg8-2254456
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -2171,18 +2135,6 @@ company: County Durham & Darlington NHS Foundation Trust
 location: DURHAM, DH1 5TW
 source: NHS Jobs
 job_id: nhs-5704250
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Northumbria Healthcare NHS Foundation Trust
-location: Berwick-upon-Tweed, TD15 1LT
-source: NHS Jobs
-job_id: nhs-5682388
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

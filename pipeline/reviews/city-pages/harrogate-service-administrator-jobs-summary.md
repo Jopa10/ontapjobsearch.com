@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 21
-- automatic exclude: 33
+- automatic review: 20
+- automatic exclude: 32
 - effective include: 4
-- effective review: 21
-- effective exclude: 33
+- effective review: 20
+- effective exclude: 32
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-2205079
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (20)
 
 ---
 action: 
@@ -294,18 +294,6 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Senior Administrator - Medical Secretary
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Ripon, HG4 1HZ
-source: NHS Jobs
-job_id: nhs-5684296
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Richmond
@@ -326,7 +314,7 @@ job_id: jobg8-2143764
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -613,18 +601,6 @@ company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225788225
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part Time Administrator
-company: KD Recruitment Limited - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108271266
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

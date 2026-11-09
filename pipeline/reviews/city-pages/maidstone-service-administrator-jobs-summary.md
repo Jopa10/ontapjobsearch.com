@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 202
+- automatic review: 199
 - automatic exclude: 0
 - effective include: 7
-- effective review: 202
+- effective review: 199
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225749263
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (202)
+## REVIEW (199)
 
 ---
 action: 
@@ -503,18 +503,6 @@ company: Faversham Medical Practice
 location: Faversham, ME13 8QR, Faversham, ME13 8FH
 source: NHS Jobs
 job_id: nhs-5695443
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admissions Officer
-company: Stone Lodge School
-location: Dartford
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-officer-stone-lodge-school
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1278,18 +1266,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Financial Adviser Administrator
-company: Brook Street - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225737709
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: GP Receptionist
 company: Sheppey Healthy Living Centre
 location: Sheerness, ME12 1HH, SHEERNESS, ME12 3LT
@@ -1331,18 +1307,6 @@ company: Hays Specialist Recruitment - Education - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225796054
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HVAC Office Administrator
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Rochester
-source: JobG8
-job_id: jobg8-23643_225697754
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -2058,6 +2022,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist Administrator
+company: East Kent Hospitals University NHS Foundation Trust
+location: Canterbury, CT1 3NG
+source: NHS Jobs
+job_id: nhs-5714638
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist- St Peters Surgery
 company: Invicta Health CIC
 location: Broadstairs, CT10 2SQ
@@ -2087,18 +2063,6 @@ company: RG Setsquare - Agency - Contract
 location: Canterbury
 source: JobG8
 job_id: jobg8-23643_225775110
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Retail Social Media Manager
-company: Reed - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2205977
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 47
+- Effective included jobs: 46
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 47
+- automatic include: 46
 - automatic review: 12
 - automatic exclude: 0
-- effective include: 47
+- effective include: 46
 - effective review: 12
 - effective exclude: 0
 
-## INCLUDE (47)
+## INCLUDE (46)
 
 ---
 action: 
@@ -465,18 +465,6 @@ company: Marble Mayne Recruitment - Agency - Permanent
 location: Lincoln
 source: JobG8
 job_id: jobg8-2233430
-reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Personal Assistant
-company: The Barnes Wallis Academy
-location: Lincoln
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-the-barnes-wallis-academy
 reason: Exact approved Lincoln workplace.
 ---
 

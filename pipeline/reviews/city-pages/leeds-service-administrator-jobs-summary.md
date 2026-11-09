@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 94
-- automatic review: 50
-- automatic exclude: 71
+- automatic review: 49
+- automatic exclude: 70
 - effective include: 94
-- effective review: 50
-- effective exclude: 71
+- effective review: 49
+- effective exclude: 70
 
 ## INCLUDE (94)
 
@@ -1152,7 +1152,7 @@ job_id: nhs-5707745
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (50)
+## REVIEW (49)
 
 ---
 action: 
@@ -1403,18 +1403,6 @@ company: 300 North Limited - Agency - Temporary
 location: Normanton
 source: JobG8
 job_id: jobg8-23643_225799000
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Fundraising and Communications Manager
-company: The Nell Bank Charitable Trust - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2210153
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -1738,7 +1726,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2252195
+job_id: jobg8-2254452
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -1754,7 +1742,7 @@ job_id: jobg8-2204175
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (71)
+## EXCLUDE (70)
 
 ---
 action: 
@@ -1861,18 +1849,6 @@ company: W Talent - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-23643_225762112
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Horbury Academy
-location: Wakefield
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-horbury-academy
 reason: Separate employment market.
 ---
 
@@ -2053,6 +2029,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225720892
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Specialist Sales Administrator B2B
+company: Asset Appointments - Agency - Contract
+location: Huddersfield
+source: JobG8
+job_id: jobg8-23643_225812143
 reason: Separate employment market.
 ---
 
@@ -2497,18 +2485,6 @@ company: Lucy Walker Recruitment - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225760536
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Ledger Clerk
-company: Reed - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-2120672
 reason: Separate employment market.
 ---
 

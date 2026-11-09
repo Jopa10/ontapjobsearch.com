@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 127
+- automatic review: 126
 - automatic exclude: 0
 - effective include: 6
-- effective review: 127
+- effective review: 126
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225539295
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (127)
+## REVIEW (126)
 
 ---
 action: 
@@ -623,18 +623,6 @@ company: Cityscape Recruitment - Agency - Permanent
 location: Watford
 source: JobG8
 job_id: jobg8-23643_225804710
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service
-company: TalentHQ Ltd - Agency - Permanent
-location: Welwyn Garden City
-source: JobG8
-job_id: jobg8-23643_224839746
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

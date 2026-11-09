@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 69
+- Effective included jobs: 65
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 69
+- automatic include: 65
 - automatic review: 14
 - automatic exclude: 10
-- effective include: 69
+- effective include: 65
 - effective review: 14
 - effective exclude: 10
 
-## INCLUDE (69)
+## INCLUDE (65)
 
 ---
 action: 
@@ -148,18 +148,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Bikeability Delivery Administrator
-company: Life Cycle - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2236813
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Care Coordinator
 company: Olive Recruit - Agency - Permanent
 location: Bristol
@@ -177,18 +165,6 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225752416
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Navigator (Receptionist)
-company: Air Balloon Surgery
-location: Bristol, BS5 7PD
-source: NHS Jobs
-job_id: nhs-5684455
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -237,18 +213,6 @@ company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225387220
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Court of Protection Paralegal
-company: Davies and Partners - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2118071
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -537,18 +501,6 @@ company: CHM - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2112361
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Administrator
-company: The Old School Surgery
-location: Bristol, BS16 1QY
-source: NHS Jobs
-job_id: nhs-5678615
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -1018,7 +970,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2252189
+job_id: jobg8-2254446
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

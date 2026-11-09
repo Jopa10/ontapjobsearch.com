@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 21
-- automatic exclude: 22
+- automatic review: 20
+- automatic exclude: 21
 - effective include: 15
-- effective review: 21
-- effective exclude: 22
+- effective review: 20
+- effective exclude: 21
 
 ## INCLUDE (15)
 
@@ -204,7 +204,7 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (21)
+## REVIEW (20)
 
 ---
 action: 
@@ -426,18 +426,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Senior Administrator - Medical Secretary
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Ripon, HG4 1HZ
-source: NHS Jobs
-job_id: nhs-5684296
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Richmond
@@ -458,7 +446,7 @@ job_id: jobg8-2143764
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -637,18 +625,6 @@ company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225788225
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part Time Administrator
-company: KD Recruitment Limited - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108271266
 reason: Separate employment market.
 ---
 

@@ -224,18 +224,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-1401786107
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Female Healthcare Assistant & Support Worker
 company: Bluelight Healthcare - Agency - Permanent
 location: Farnborough
@@ -289,6 +277,18 @@ company: SCR - Agency - Temporary
 location: Aldershot
 source: JobG8
 job_id: jobg8-23643_225505280
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Specialist Care Support Worker
+company: SCA Care - Agency - Permanent
+location: Winchester
+source: JobG8
+job_id: jobg8-108298282
 reason: Separate employment market.
 ---
 

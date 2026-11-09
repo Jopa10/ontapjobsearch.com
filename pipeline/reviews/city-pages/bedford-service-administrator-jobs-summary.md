@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 29
+- automatic review: 30
 - automatic exclude: 0
 - effective include: 5
-- effective review: 29
+- effective review: 30
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225761869
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (29)
+## REVIEW (30)
 
 ---
 action: 
@@ -335,6 +335,18 @@ company: Shefford Health Centre
 location: Shefford, SG17 5FS
 source: NHS Jobs
 job_id: nhs-5702636
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Woodland Avenue Practice
+location: Luton, LU3 1RW
+source: NHS Jobs
+job_id: nhs-5714696
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

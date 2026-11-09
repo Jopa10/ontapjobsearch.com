@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 58
+- Effective included jobs: 57
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 58
+- automatic include: 57
 - automatic review: 10
 - automatic exclude: 0
-- effective include: 58
+- effective include: 57
 - effective review: 10
 - effective exclude: 0
 
-## INCLUDE (58)
+## INCLUDE (57)
 
 ---
 action: 
@@ -708,18 +708,6 @@ job_id: jobg8-23643_225761106
 reason: Approved conservative Liverpool launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Youth Administration Coordinator - Merseyside
-company: The King's Trust - Company - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2244671
-reason: Approved conservative Liverpool launch catchment.
----
-
 ## REVIEW (10)
 
 ---
@@ -838,7 +826,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2252197
+job_id: jobg8-2254454
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

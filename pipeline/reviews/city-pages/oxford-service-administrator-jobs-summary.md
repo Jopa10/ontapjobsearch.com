@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 11
 - automatic review: 37
-- automatic exclude: 50
+- automatic exclude: 49
 - effective include: 11
 - effective review: 37
-- effective exclude: 50
+- effective exclude: 49
 
 ## INCLUDE (11)
 
@@ -602,7 +602,7 @@ job_id: jobg8-108158397
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (50)
+## EXCLUDE (49)
 
 ---
 action: 
@@ -769,18 +769,6 @@ company: Tech Professionals - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_222392350
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Administrator
-company: UCCF The Christian Unions - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2244585
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -956,6 +944,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing Executive
+company: Plus One Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225716302
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Manager (Hybrid)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Oxfordshire
@@ -1093,18 +1093,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225743229
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Procurement Assistant
-company: Trinity Resource Solutions - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225796525
 reason: Broad county location; not Oxford-city evidence.
 ---
 

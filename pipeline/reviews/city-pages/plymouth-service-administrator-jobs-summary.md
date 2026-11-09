@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 71
+- automatic include: 7
+- automatic review: 73
 - automatic exclude: 0
-- effective include: 8
-- effective review: 71
+- effective include: 7
+- effective review: 73
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Plymouth
 source: JobG8
 job_id: jobg8-2240730
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: Church View Surgery
-location: Plymouth, PL9 9BW
-source: NHS Jobs
-job_id: nhs-5704799
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -120,7 +108,7 @@ job_id: teaching-vacancies-school-receptionist-stoke-damerel-community-college
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (71)
+## REVIEW (73)
 
 ---
 action: 
@@ -462,6 +450,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator
+company: WR HVAC - Agency - Contract
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225812149
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Pertemps Plymouth - Agency - Temporary
 location: Exeter
@@ -491,6 +491,18 @@ company: RGB Recruitment - Agency - Contract
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225774563
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Sellick Partnership - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-2233949
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

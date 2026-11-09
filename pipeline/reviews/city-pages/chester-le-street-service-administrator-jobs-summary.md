@@ -4,7 +4,7 @@
 - Live route: `/chester-le-street/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,28 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 179
+- automatic include: 0
+- automatic review: 176
 - automatic exclude: 0
-- effective include: 1
-- effective review: 179
+- effective include: 0
+- effective review: 176
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: Great Lumley Surgery
-location: Chester le Street, DH3 4LE
-source: NHS Jobs
-job_id: nhs-5686212
-reason: Exact approved Chester Le Street workplace.
----
-
-## REVIEW (179)
+## REVIEW (176)
 
 ---
 action: 
@@ -251,18 +239,6 @@ company: Kinetic PLC - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225777049
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant (N4)
-company: Harry Watts Academy
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-n4
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -683,18 +659,6 @@ company: Office Angels - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225798287
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5YA
-source: NHS Jobs
-job_id: nhs-5684079
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1254,18 +1218,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Exams Officer
-company: English Martyrs Catholic School and Sixth Form College
-location: Hartlepool
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-english-martyrs-catholic-school-and-sixth-form-college
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance & Payroll Assistant
 company: James Andrew Recruitment Solutions (JAR Solutions) - Agency - Permanent
 location: Durham
@@ -1319,6 +1271,18 @@ company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2234947
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: Parkdean Resorts - Company - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-29110_21887
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -2134,7 +2098,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2252199
+job_id: jobg8-2254456
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -2159,18 +2123,6 @@ company: County Durham & Darlington NHS Foundation Trust
 location: DURHAM, DH1 5TW
 source: NHS Jobs
 job_id: nhs-5704250
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Northumbria Healthcare NHS Foundation Trust
-location: Berwick-upon-Tweed, TD15 1LT
-source: NHS Jobs
-job_id: nhs-5682388
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

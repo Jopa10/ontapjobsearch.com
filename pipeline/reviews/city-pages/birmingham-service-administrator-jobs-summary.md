@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 118
+- Effective included jobs: 117
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 118
+- automatic include: 117
 - automatic review: 16
-- automatic exclude: 12
-- effective include: 118
+- automatic exclude: 11
+- effective include: 117
 - effective review: 16
-- effective exclude: 12
+- effective exclude: 11
 
-## INCLUDE (118)
+## INCLUDE (117)
 
 ---
 action: 
@@ -561,18 +561,6 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225799845
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Document Controller
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225698821
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1436,7 +1424,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2252187
+job_id: jobg8-2254444
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1634,7 +1622,7 @@ job_id: jobg8-23643_225731801
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -1729,18 +1717,6 @@ company: Richmond Medical Centre
 location: Solihull, B92 7SA
 source: NHS Jobs
 job_id: nhs-5693015
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Reception Administrator
-company: GPS Healthcare
-location: Solihull, B90 4DD
-source: NHS Jobs
-job_id: nhs-5679907
 reason: Separate exact-city market at launch.
 ---
 

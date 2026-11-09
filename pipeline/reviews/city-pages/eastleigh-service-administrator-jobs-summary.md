@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 130
-- automatic exclude: 55
+- automatic review: 127
+- automatic exclude: 53
 - effective include: 4
-- effective review: 130
-- effective exclude: 55
+- effective review: 127
+- effective exclude: 53
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225810949
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (130)
+## REVIEW (127)
 
 ---
 action: 
@@ -107,30 +107,6 @@ company: Accountability Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2148747
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225711504
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225711507
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -930,18 +906,6 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Medical Administrator
-company: Vine Medical Group
-location: Waterlooville, PO7 7AH
-source: NHS Jobs
-job_id: nhs-5684220
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Secretary
 company: Staff Partners Business - Agency - Contract
 location: Hampshire
@@ -1634,7 +1598,7 @@ job_id: jobg8-23643_225810727
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (55)
+## EXCLUDE (53)
 
 ---
 action: 
@@ -1750,18 +1714,6 @@ decision: exclude
 automatic_decision: exclude
 title: Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4GX
-source: NHS Jobs
-job_id: nhs-5686999
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO40 8DX
 source: NHS Jobs
 job_id: nhs-5701836
@@ -1801,18 +1753,6 @@ company: 3D Personnel LTD - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225768701
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator - The Harbour School
-company: The Harbour School
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

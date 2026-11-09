@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 60
-- automatic review: 80
-- automatic exclude: 40
+- automatic review: 79
+- automatic exclude: 37
 - effective include: 60
-- effective review: 80
-- effective exclude: 40
+- effective review: 79
+- effective exclude: 37
 
 ## INCLUDE (60)
 
@@ -744,7 +744,7 @@ job_id: jobg8-23643_225729570
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (80)
+## REVIEW (79)
 
 ---
 action: 
@@ -1218,6 +1218,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Officer
+company: Parkdean Resorts - Company - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-29110_21887
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Baltic Recruitment Services Ltd - Agency - Permanent
 location: Tyne And Wear
@@ -1283,18 +1295,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2183876
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Great Lumley Surgery
-location: Chester le Street, DH3 4LE
-source: NHS Jobs
-job_id: nhs-5686212
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1678,7 +1678,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2252199
+job_id: jobg8-2254456
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1694,19 +1694,7 @@ job_id: jobg8-23643_225781278
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Northumbria Healthcare NHS Foundation Trust
-location: Berwick-upon-Tweed, TD15 1LT
-source: NHS Jobs
-job_id: nhs-5682388
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
-## EXCLUDE (40)
+## EXCLUDE (37)
 
 ---
 action: 
@@ -1729,18 +1717,6 @@ company: Lemon Drizzle Recruitment - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225771802
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant (N4)
-company: Harry Watts Academy
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-n4
 reason: Separate employment market.
 ---
 
@@ -1777,18 +1753,6 @@ company: EE - Company - Permanent
 location: Sunderland
 source: JobG8
 job_id: jobg8-20279_64242-a6e2ad7cee3c43ab7465fc57eabd4302
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5YA
-source: NHS Jobs
-job_id: nhs-5684079
 reason: Separate employment market.
 ---
 
@@ -1862,18 +1826,6 @@ location: County Durham
 source: JobG8
 job_id: jobg8-2176401
 reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Exams Officer
-company: English Martyrs Catholic School and Sixth Form College
-location: Hartlepool
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-english-martyrs-catholic-school-and-sixth-form-college
-reason: Outside Newcastle catchment.
 ---
 
 ---

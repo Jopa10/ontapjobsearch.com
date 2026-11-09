@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 83
+- automatic review: 79
 - automatic exclude: 0
 - effective include: 10
-- effective review: 83
+- effective review: 79
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-2188896
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (83)
+## REVIEW (79)
 
 ---
 action: 
@@ -270,18 +270,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Bikeability Delivery Administrator
-company: Life Cycle - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2236813
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: Olive Recruit - Agency - Permanent
 location: Bristol
@@ -299,18 +287,6 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225752416
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Navigator (Receptionist)
-company: Air Balloon Surgery
-location: Bristol, BS5 7PD
-source: NHS Jobs
-job_id: nhs-5684455
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -359,18 +335,6 @@ company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225387220
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Court of Protection Paralegal
-company: Davies and Partners - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2118071
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -798,18 +762,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Medical Administrator
-company: The Old School Surgery
-location: Bristol, BS16 1QY
-source: NHS Jobs
-job_id: nhs-5678615
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist
 company: Grange Road Surgery
 location: Bristol, BS13 8LD
@@ -1138,7 +1090,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2252189
+job_id: jobg8-2254446
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

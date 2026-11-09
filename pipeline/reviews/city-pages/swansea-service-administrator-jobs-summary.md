@@ -4,7 +4,7 @@
 - Live route: `/swansea/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 10
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 11
+- effective include: 10
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -141,18 +141,6 @@ company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Swansea
 source: JobG8
 job_id: jobg8-2188341
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee HR Administrator
-company: ITOL Recruit - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-2101939
 reason: Exact approved Swansea workplace.
 ---
 

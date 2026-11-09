@@ -222,6 +222,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: WR HVAC - Agency - Contract
+location: Wimborne
+source: JobG8
+job_id: jobg8-23643_225812150
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bookkeeper
 company: CMA Recruitment Group - Agency - Contract
 location: Ferndown
@@ -611,18 +623,6 @@ company: Christchurch Medical Practice
 location: Christchurch, BH23 3AF
 source: NHS Jobs
 job_id: nhs-5700886
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Bridport
-source: JobG8
-job_id: jobg8-2192349
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

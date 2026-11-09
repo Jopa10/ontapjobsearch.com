@@ -4,7 +4,7 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 179
+- automatic include: 9
+- automatic review: 175
 - automatic exclude: 0
-- effective include: 10
-- effective review: 179
+- effective include: 9
+- effective review: 175
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Adecco - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225730783
-reason: Exact approved Portsmouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator - The Harbour School
-company: The Harbour School
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -144,7 +132,7 @@ job_id: jobg8-23643_225798173
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (179)
+## REVIEW (175)
 
 ---
 action: 
@@ -179,30 +167,6 @@ company: Accountability Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2148747
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225711504
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225711507
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -419,18 +383,6 @@ company: Dynamite Recruitment - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225799936
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4GX
-source: NHS Jobs
-job_id: nhs-5686999
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1463,18 +1415,6 @@ company: Lordshill Health Centre
 location: Southampton, SO16 8HY
 source: NHS Jobs
 job_id: nhs-5700697
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Administrator
-company: Vine Medical Group
-location: Waterlooville, PO7 7AH
-source: NHS Jobs
-job_id: nhs-5684220
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

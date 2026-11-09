@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 125
+- automatic review: 124
 - automatic exclude: 0
 - effective include: 8
-- effective review: 125
+- effective review: 124
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225716356
 reason: Exact approved Watford workplace.
 ---
 
-## REVIEW (125)
+## REVIEW (124)
 
 ---
 action: 
@@ -624,18 +624,6 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225729762
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service
-company: TalentHQ Ltd - Agency - Permanent
-location: Welwyn Garden City
-source: JobG8
-job_id: jobg8-23643_224839746
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

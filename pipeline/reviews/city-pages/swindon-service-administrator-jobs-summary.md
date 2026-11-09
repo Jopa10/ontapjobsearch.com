@@ -342,18 +342,6 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Officer
-company: South Wilts Grammar School
-location: Salisbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-south-wilts-grammar-school
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Automobile Service Advisor (auto Service Advisor)
 company: People Solutions Group Limited - Agency - Permanent
 location: Wiltshire
@@ -510,11 +498,11 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist & First Aider
-company: South Wilts Grammar School
+title: Purchase Ledger
+company: CMA Recruitment Group - Agency - Permanent
 location: Salisbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-first-aider-south-wilts-grammar-school
+source: JobG8
+job_id: jobg8-23643_225812184
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -612,6 +600,18 @@ location: Wiltshire
 source: JobG8
 job_id: jobg8-2113865
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Purely Recruitment Solutions - Agency - Permanent
+location: Chippenham
+source: JobG8
+job_id: jobg8-2233971
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
