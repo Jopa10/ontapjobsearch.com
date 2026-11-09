@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-08
-review_fingerprint: 25f21c3b536efefff4a53b902dc40fa2c455693a2a6b052b5ddc87cccebb0039
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 488cd375b88b81dd85015aeeb35215138d61b73c49ef96f6224451fa1a9ff0ea
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
-- POSS awaiting decision: 0
+- Records: 10
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6EA | £11,943.00 Annually (Actual) Monday - Friday - 9am - 1pm | Business Administrator
+employer: Harris Church of England Academy
+closing_date: 2026-11-26T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4f762e2c3b199dd44b4002816821dbcb904b4ad1109515fbde6009893d548602
+source: Teaching Vacancies
+source_job_id: business-administrator-harris-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-harris-church-of-england-academy
+---
 
 ---
 action: 
@@ -36,39 +51,22 @@ source_job_id: business-support-officer-welcombe-hills-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-welcombe-hills-school
 ---
 
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6DY | £22,318.00 - £24,756.00 Annually (Actual) | ECHP Administrator
-employer: Brooke School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 78558bc5de531c13d5f7f8e665dc5de4d46d96652ff9c6a7eb711cc9248e30ed
-source: Teaching Vacancies
-source_job_id: echp-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/echp-administrator
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV4 9WT | £25,614.00 - £26,016.00 Annually (FTE) GRADE 2, Actual Salary £22,227 - £22,575.86 | Receptionist
-employer: Finham Park 2
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ca0bfd11104307c029c22ddca0ead989a647c61a2c9b733818f68666abe981f0
-source: Teaching Vacancies
-source_job_id: receptionist-finham-park-2-coventry-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finham-park-2-coventry-west-midlands
----
-
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Kenilworth, CV8 2AL | £28,598.00 - £31,022.00 Annually (FTE) | KMAT Data Officer
+employer: Kenilworth Multi Academy Trust
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 640c027ffe68529744f487dbac4b72c7855520e91565c51d69d175cd6f0b3b58
+source: Teaching Vacancies
+source_job_id: kmat-data-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -79,6 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finham-p
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-transforming-lives-educational-trust) — No usable numeric salary.
 - [APPRENTICE ADMINISTRATOR/RECEPTIONIST – PARKGATE PRIMARY SCHOOL](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-receptionist-parkgate-primary-school) — No usable numeric salary.
 - [Examinations, Data & Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-data-access-arrangements-coordinator) — Insufficient admin/service evidence.
+- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-harris-church-of-england-academy) — Insufficient admin/service evidence.
 - [Marketing Manager](https://teaching-vacancies.service.gov.uk/jobs/marketing-manager-stratford-upon-avon-school) — Excluded senior/management title.
 - [Office Manager and Personal Assistant (PA) to the Principal](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-pa-to-the-principal) — Excluded senior/management title.
 - [Receptionist & Admin Assistant to the Deputy Headteachers](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-to-the-deputy-headteachers) — No usable numeric salary.

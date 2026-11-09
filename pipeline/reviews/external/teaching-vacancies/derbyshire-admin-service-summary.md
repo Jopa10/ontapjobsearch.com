@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-08
-review_fingerprint: af4a9983b189a5bf03555ea91d74fbdd06543d77ada15a1fc1e0a6b65074f4a1
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 7c1cbfd9a88bfa38258aa3cb1f37db456ab86043ea50500ad5590e7cab18a1b0
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Derbyshire | Derby, East Midlands, DE3 9LL | £17,198.00 - £17,466.00 Annually (Actual) NJC 7-8 | Admin Assistant (Student Services & Reception Support)
-employer: Murray Park Community School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c68185b03a6c1f436f65074c67abbe7083beebf9b20406398b8f6fbe1dce9afd
-source: Teaching Vacancies
-source_job_id: admin-assistant-student-services-reception-support-murray-park-community-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-student-services-reception-support-murray-park-community-school
----
 
 ---
 action: 
@@ -89,11 +74,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-47c1efc2
 
 ## HARD_PASS
 
-- [Associate HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/associate-hr-business-partner-derby-college) — Insufficient admin/service evidence.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-belper-school-and-sixth-form-centre) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-chellaston-academy-derby-derbyshire) — Excluded senior/management title.
-- [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-da-vinci-academy) — No usable numeric salary.
-- [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Excluded senior/management title.
 - [Plant Centre Lead](https://teaching-vacancies.service.gov.uk/jobs/plant-centre-lead) — Excluded senior/management title.
 
 ## Safety boundary

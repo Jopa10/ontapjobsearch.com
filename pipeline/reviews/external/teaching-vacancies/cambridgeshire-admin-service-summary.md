@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-08
-review_fingerprint: 7cffaf69c7338175d33cca950dfead342e5c47cdc4d4bd458d0ef9dc267521f1
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 4fe6f6055c36e3bc2c01e535066d8ec6fa73fe46fb72cf48fa3d7fd5d5de7ed1
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 6
+- Records: 15
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -96,21 +96,6 @@ source_job_id: higher-level-administrator-manor-drive-secondary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/higher-level-administrator-manor-drive-secondary-academy
 ---
 
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE7 8BF | £25,614.00 - £26,427.00 Annually (FTE) Actual Salary is £8,214 to £8,475 per annum | Receptionist/Administrator
-employer: Hampton College
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 296c529b886821902f74e884bab261018d6df06bc5fb4b2b27d20a10fa404036
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-hampton-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-hampton-college
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -153,9 +138,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 - [Alternative Provision Coordinator](https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-coordinator-ormiston-bushfield-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.
 - [Business Services Support Officer](https://teaching-vacancies.service.gov.uk/jobs/business-services-support-officer-the-active-learning-trust-limited) — Insufficient admin/service evidence.
 - [Cleaner](https://teaching-vacancies.service.gov.uk/jobs/cleaner-34934dbc-6989-4466-8253-34da9a9f27cb) — Out-of-scope occupation: cleaner.
+- [Corporate Administrator](https://teaching-vacancies.service.gov.uk/jobs/corporate-administrator) — No usable numeric salary.
 - [Finance / HR manager](https://teaching-vacancies.service.gov.uk/jobs/finance-hr-manager-queen-s-drive-infant-school-peterborough-cambridgeshire) — Excluded senior/management title.
-- [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-st-luke-s-cofe-primary-school-cambridge-cambridgeshire) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-63fc363b-9f14-46e2-b6b0-70de6e80f84c) — Excluded senior/management title.
 - [Reception Services](https://teaching-vacancies.service.gov.uk/jobs/reception-services-6d613bb3-be77-444c-9df1-ecc49b46685d) — Insufficient admin/service evidence.
 - [School Receptionist & Finance Assistant (Temporary)](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-finance-assistant-temporary) — No usable numeric salary.
 

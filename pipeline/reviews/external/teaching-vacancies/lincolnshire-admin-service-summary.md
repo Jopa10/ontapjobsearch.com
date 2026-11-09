@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-08
-review_fingerprint: 011ed92aa0e23562c99c73afc7b181cc9ccfa301b4571f3fca2b816aaf8967c9
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 6c5e3928602ff4d2312405e02934c9fc496c47d72078812334f86de7736e13f3
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 14
-- Selected: 8
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-wa
 
 ---
 action: 
-SELECTED | Lincolnshire | Skegness, East Midlands, PE24 5LS | £10,039.00 - £11,059.00 Annually (Actual) G5.12 (£28,153 FTE) to G5.15 (31,015 FTE) | HR Administrator
-employer: Chapel St Leonards Primary School
-closing_date: 2026-11-20T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5ab593f60027d1bcb8e645a41a5afecfeb32590baced0966e0c9669fb013301d
-source: Teaching Vacancies
-source_job_id: hr-administrator-chapel-st-leonards-primary-school-skegness-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-chapel-st-leonards-primary-school-skegness-lincolnshire
----
-
----
-action: 
 SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN41 7RS | £29,542.00 - £32,046.00 Annually (FTE) Actual salary £26,028 - £28,234 | Office Operations/Administrator
 employer: Healing Primary Academy
 closing_date: 2026-11-10T23:59:00+00:00
@@ -115,15 +100,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-operations-adm
 action: 
 SELECTED | Lincolnshire | Lincoln, East Midlands, LN4 4PN | £30,023.00 - £30,023.00 Annually (Actual) NJC13 : £27,723.95pa pro rata | Personal Assistant
 employer: The Barnes Wallis Academy
-closing_date: 2026-11-08T23:59:00+00:00
+closing_date: 2026-11-27T23:59:00+00:00
 reason: Clear admin/service title: personal assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ef1466679579971ee15f4e3246f1a0b4ba10cf8bd469e72c125960ccbcdd846a
+factual_fingerprint: 599f97cd2271cd9b98cf4401c7cb07ebd223e62377c337750b6b3f3bf953e3ed
 source: Teaching Vacancies
-source_job_id: personal-assistant-the-barnes-wallis-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-the-barnes-wallis-academy
+source_job_id: personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
 ---
 
 ---
@@ -167,6 +152,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administration-a
 - [Clerical Assistant & Opal Playleader MSA – linked role](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-opal-playleader-msa-linked-role) — Insufficient admin/service evidence.
 - [Data Analyst](https://teaching-vacancies.service.gov.uk/jobs/data-analyst-franklin-sixth-form-college) — Insufficient admin/service evidence.
 - [Exams & Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-assessment-officer-421a01f6-51ed-4038-8b47-674f51d21e5d) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-e6664367-3eb0-42c0-9724-283bf6ac70a0) — Excluded senior/management title.
 - [Health, Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/health-safety-and-compliance-officer-voyage-education-partnership) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-de-aston-school) — Insufficient admin/service evidence.
 

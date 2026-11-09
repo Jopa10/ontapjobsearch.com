@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-08
-review_fingerprint: a0a063fb246ec253018c84c5d26cbda02bad8caac97d1a4b5efbd7c269d3d0d2
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 7009a4839ed23d21e54bcd7610805ae9b0019ca1cd4c80e32b403b7c1a87646a
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 4
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 6
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 9635d6c2aa9301500c1c217a99c9552890d4c29a110a2e0e3b48958a5d8
 source: Teaching Vacancies
 source_job_id: administrator-receptionist-secondary
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-secondary
----
-
----
-action: 
-SELECTED | North East | Hartlepool, North East, TS25 4HA | £35,571.00 - £38,511.00 Annually (FTE) Actual Salary £30,730.82 - £34,024.53 / Term Time + 5 Days | Exams Officer
-employer: English Martyrs Catholic School and Sixth Form College
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0266e88cb2effea794940174b02076353455a2c9af11cd2bff1b76f565f7122b
-source: Teaching Vacancies
-source_job_id: exams-officer-english-martyrs-catholic-school-and-sixth-form-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-english-martyrs-catholic-school-and-sixth-form-college
 ---
 
 ---
@@ -105,12 +90,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administra
 ## HARD_PASS
 
 - [Exams Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-office-administration-assistant) — Insufficient admin/service evidence.
-- [Hourly Paid Creative Industries Technician (2026/CS015)](https://teaching-vacancies.service.gov.uk/jobs/hourly-paid-creative-industries-technician-2026-cs015) — Out-of-scope occupation: technician.
 - [HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-prosper-learning-trust) — Insufficient admin/service evidence.
 - [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-connect-multi-academy-trust) — Insufficient admin/service evidence.
 - [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hadrian-learning-trust) — Excluded senior/management title.
-- [Part Time Creative Industries Technician (2026/CS014)](https://teaching-vacancies.service.gov.uk/jobs/part-time-creative-industries-technician-2026-cs014) — Out-of-scope occupation: technician.
 - [Staff & Student Support Officer](https://teaching-vacancies.service.gov.uk/jobs/staff-student-support-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

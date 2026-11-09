@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-11-08
-review_fingerprint: 9e148de7bc0e145d1b7a180edfdf7b8702b8fbb17570f06226fb941a04d85fc3
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 18bb05eced0a67d2d1f20c8e2fb7e16d36eeed943528b0f8ecb00abb16d3712c
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 0
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Yorkshire - East | Bridlington, Yorkshire and the Humber, YO16 4QU | £9,304.00 Annually (Actual) | Receptionist
+employer: Bridlington School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b8add3499f66c804b72970ca2d371685a85dba44a17f7dd97cecdd47e1abd80b
+source: Teaching Vacancies
+source_job_id: receptionist-bridlington-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-bridlington-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

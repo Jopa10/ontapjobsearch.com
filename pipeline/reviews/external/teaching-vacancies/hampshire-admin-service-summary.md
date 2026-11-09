@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-08
-review_fingerprint: 77e122c00d7d06e95f425b5d294fb7fe1f6bf1948472cdea3d3743f05cea2498
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 42349981fc2efba7c00b1eaa6810f609fb61b8edfa025fdf79b06e16cf08b13a
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Hampshire | Portsmouth, South East, PO2 8RA | £26,427 - £27,274 per annum (actual salary for term time plus 3 weeks £24,343 - £25,123) | Administrator - The Harbour School
-employer: The Harbour School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: administrator
+SELECTED | Hampshire | Southampton, South East, SO30 4EJ | £26,017.00 Annually (FTE) Grade C – Step 1 £26,017 FTE, Actual Annual Salary £7,091.12. | Evening Receptionist/Front of House
+employer: Wildern School
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1fdc5b734072970bae525f055364544b977e7e1bd25480bb2d584b38be5d6e1c
+factual_fingerprint: 847af01cf855f18c8ac30bfd57e730e4ae29ed498e5536bcba6beb1c756d52aa
 source: Teaching Vacancies
-source_job_id: administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
+source_job_id: evening-receptionist-front-of-house
+source_url: https://teaching-vacancies.service.gov.uk/jobs/evening-receptionist-front-of-house
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -48,7 +48,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-har
 
 - [Administration Manager (Primary)](https://teaching-vacancies.service.gov.uk/jobs/administration-manager-primary) — Excluded senior/management title.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-haylands-primary-school) — Excluded senior/management title.
-- [Lead Receptionist](https://teaching-vacancies.service.gov.uk/jobs/lead-receptionist-ringwood-school-academy) — Excluded senior/management title.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-crofton-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-08
-review_fingerprint: e03654f0e6c612656451c585ef1379c2ae2f8d2adffd7df1e0a28c2d1364ee1e
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 254546db93f106d8f8ab9d1745c190f8782cca9bb918b36eda689eb560296ee9
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 12
 - Selected: 6
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -115,21 +115,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-and-admissions
 
 ---
 action: 
-POSS | Lancashire - East | Nelson, North West, BB9 0PR | £35,000.00 Annually (FTE) Local Government Pension, Health Care Cash Plan, Generous Staff Discount scheme, 3 extra inset days for planning, at least one personal leave day per year | Data Officer
-employer: Marsden Heights Community College
-closing_date: 2026-11-08T17:00:00+00:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: aaab2b5cca3a62845155bbf4224101ed753ebd2fc0d563ff71183f1d7ec14b23
-source: Teaching Vacancies
-source_job_id: data-officer-marsden-heights-community-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-marsden-heights-community-college
----
-
----
-action: 
 POSS | Lancashire - East | Blackburn, North West, BB1 4ED | £34,357.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year | Data Officer
 employer: The Hyndburn Academy
 closing_date: 2026-11-16T17:00:00+00:00
@@ -164,10 +149,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-wilfr
 
 ## HARD_PASS
 
-- [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-accrington-academy) — Insufficient admin/service evidence.
-- [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-marsden-heights-community-college) — Insufficient admin/service evidence.
-- [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-the-hyndburn-academy) — Insufficient admin/service evidence.
-- [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-marsden-heights-community-college) — Insufficient admin/service evidence.
+- [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-accrington-academy) — Expired, closed or invalid deadline.
+- [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-marsden-heights-community-college) — Expired, closed or invalid deadline.
+- [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-the-hyndburn-academy) — Expired, closed or invalid deadline.
 - [Personal Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-newfield-school) — No usable numeric salary.
 
 ## Safety boundary

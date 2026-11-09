@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-08
-review_fingerprint: 8460591b4c263700a541ed92654c46f7749ef5fd77226423d144ef460079d45d
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: edacb82d7090bf92a2352b83a37e806aa5d64ee6f26c3e18b902707e76341701
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -102,12 +102,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 action: 
 POSS | Hertfordshire | Tring, East of England, HP23 5JD | £24,084.00 - £26,104.00 Annually (Actual) Herts Payscale H5 | SEND Administrator
 employer: Tring School
-closing_date: 2026-11-18T12:00:00+00:00
+closing_date: 2026-11-12T12:00:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 469ce1541c37d7040a044326aeef0a0b1b7edbfe18bfa3a2f987ed5d282cf106
+factual_fingerprint: 90adeee8801151bb39824c4132b366bae0b132fab9b50c658dccf55d515fa6f7
 source: Teaching Vacancies
 source_job_id: send-administrator-tring-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-tring-school
@@ -123,6 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-tr
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-ashlyns-school) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodfield-school) — Insufficient admin/service evidence.
 - [SEND Family Liaison Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/send-family-liaison-co-ordinator) — Insufficient admin/service evidence.
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-st-mary-s-church-of-england-high-school-va) — Excluded senior/management title.
 - [Sixth Form Student Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-student-liaison-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-08
-review_fingerprint: e6c9ba898df1c4e9234f1c8867043684949c172e5e2457377b9098065dc35fdb
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: e0a40990855b22b46cd90b0aac16edbfe98277e641fa6fe4630ebf0dfdb93600
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 20
 - Selected: 3
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 16
 
 ## SELECTED
 
@@ -68,7 +68,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-s
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Devon | Ivybridge, South West, PL21 0JA | £23,212.00 - £24,494.00 Annually (Actual) | Administrator
+employer: Ivybridge Community College
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9275819156fd92f1610dcd889c8d0a27952bf2938c5fe34d0d4129e34f788117
+source: Teaching Vacancies
+source_job_id: administrator-ivybridge-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ivybridge-community-college
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -77,6 +90,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-s
 ## HARD_PASS
 
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sidmouth-church-of-england-primary-school) — No usable numeric salary.
+- [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-team-multi-academy-trust) — No usable numeric salary.
 - [Administrator for Support Teams](https://teaching-vacancies.service.gov.uk/jobs/administrator-for-support-teams) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-a1a3a65a-9f2f-47b9-8227-68ba8ca76cf9) — No usable numeric salary.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-holsworthy-community-college) — Excluded senior/management title.
@@ -85,10 +99,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-s
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college-chulmleigh-devon) — No usable numeric salary.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/governance-coordinator-westcountry-schools-trust) — Insufficient admin/service evidence.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-montpelier-primary-school) — Excluded senior/management title.
 - [Local Governance Officer – Teignmouth Community School](https://teaching-vacancies.service.gov.uk/jobs/local-governance-officer-teignmouth-community-school) — Insufficient admin/service evidence.
-- [Patroller](https://teaching-vacancies.service.gov.uk/jobs/patroller) — Insufficient admin/service evidence.
-- [Post-16 Transition Coordinator](https://teaching-vacancies.service.gov.uk/jobs/post-16-transition-coordinator-isca-academy) — No usable numeric salary.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-boringdon-primary-school-plymouth-devon) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-1ab8b680-19b9-400d-b2ad-e7ffeda3ad14) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy) — Excluded senior/management title.
 - [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school-axminster-devon) — Excluded senior/management title.

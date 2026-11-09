@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-08
-review_fingerprint: cf847a158ceb100ff7b1538652701b70f72bf067a0e5bc0b062e1af4ba61203f
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: f0fc32977d926ae1235f539172e102693420b2c77940dd2413781fc946eae2fe
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 14
 - Selected: 0
-- POSS awaiting decision: 4
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 11
 
 ## SELECTED
 
@@ -70,27 +70,14 @@ source_job_id: people-operations-officer-the-sigma-trust-clacton-on-sea-not-reco
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-officer-the-sigma-trust-clacton-on-sea-not-recorded
 ---
 
----
-action: 
-POSS | Essex | Clacton-on-Sea, East of England, CO15 6DZ | £4,665.00 - £4,739.00 Annually (Actual) | Receptionist
-employer: Clacton County High School
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5f4b6ecb0a0b88d7ece9777e20458c3bf1f111a0c24baf77c59f60ca3a2ecc9e
-source: Teaching Vacancies
-source_job_id: receptionist-clacton-county-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-clacton-county-high-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-fd8ff3fc-5891-4768-96d5-0b8898f17568) — No usable numeric salary.
+- [Assistant Data Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-manager-the-basildon-upper-academy) — Excluded senior/management title.
 - [Careers Assistant](https://teaching-vacancies.service.gov.uk/jobs/careers-assistant-st-martin-s-school-brentwood-brentwood-essex) — Insufficient admin/service evidence.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.
 - [Operations Manager - Harwich](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-harwich) — Excluded senior/management title.

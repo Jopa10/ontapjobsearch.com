@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-11-08
+review_date: 2026-11-09
 review_fingerprint: ce5d2ae9101241cb52e5c699baa03c27cc3ca40fb9426cb706f3ccbbba9fe45a
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -78,7 +78,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administr
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Excluded senior/management title.
 - [Office Manager (FAR137BC)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-far137bc) — Excluded senior/management title.
 - [Payroll and Pensions Manager](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-manager-learn-academies-trust) — Excluded senior/management title.
-- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-desford-community-primary-school) — Excluded senior/management title.
 - [SENCo Administration Assistant (KE98BC)](https://teaching-vacancies.service.gov.uk/jobs/senco-administration-assistant-ke98bc) — Insufficient admin/service evidence.
 
 ## Safety boundary

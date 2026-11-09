@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-11-08
-review_fingerprint: 04592e6b084bc903d37ee997f5814bb856d8a0d8eb92e66f5676a8d19c4c24cc
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 50d24fec3281114541e629052a52c9e5766d227aaaf26ef4ea021f919d5d07d1
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 1
+- Records: 4
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
 
----
-action: 
-SELECTED | Cornwall | Truro, South West, TR1 1TN | E1 FTE £24,796 actual £21,027 | Cover and supply administrator
-employer: Penair School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c7b938cb40ea4657e478ae1a83757725b488e6c34d0434217a27e1cf009e2449
-source: Teaching Vacancies
-source_job_id: cover-and-supply-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-and-supply-administrator
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

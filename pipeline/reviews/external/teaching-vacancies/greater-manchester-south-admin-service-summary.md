@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-11-08
+review_date: 2026-11-09
 review_fingerprint: 159315a616b2dcda394b2a661c805a2c139f1f7371261df44599d1c6e4517994
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -59,9 +59,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-elis
 
 ## HARD_PASS
 
-- [Deputy Chief Executive Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-achieve-and-learn-trust) — Excluded senior/management title.
+- [Deputy Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-financial-officer-achieve-and-learn-trust) — Excluded senior/management title.
 - [Librarian and Study Centre Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/librarian-and-study-centre-co-ordinator) — Insufficient admin/service evidence.
-- [School Receptionist](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-alder-community-high-school) — No usable numeric salary.
 
 ## Safety boundary
 

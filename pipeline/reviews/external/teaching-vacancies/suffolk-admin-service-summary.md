@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-08
-review_fingerprint: 218a6e65528e1e303e3c2c2105cb65d79c6c3f9acc557592b037d20bd1606d51
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: a89f1141370be1ddaaea3f07e672569f2b6cd4936a12bfb7de5d60319c29be73
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 10
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_job_id: finance-officer-beccles-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccles-high-school
 ---
 
+---
+action: 
+POSS | Suffolk | Woodbridge, IP13 0RP | £45,166.00 - £48,607.00 Annually (FTE) | Trust Finance Officer
+employer: East Anglian Schools Trust Ltd
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5bfb12c3b2a362a0f641b365106ddd7e1fc8d77c7fad1901ec7847dbfbb6c867
+source: Teaching Vacancies
+source_job_id: trust-finance-officer-east-anglian-schools-trust-ltd
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-east-anglian-schools-trust-ltd
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -90,7 +105,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccl
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-stradbroke-high-school-eye-suffolk) — Insufficient admin/service evidence.
-- [Admissions and Review Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-review-officer-stone-lodge-academy) — Insufficient admin/service evidence.
 - [SEND Officer](https://teaching-vacancies.service.gov.uk/jobs/send-officer-east-coast-college) — Insufficient admin/service evidence.
 - [Success Coach - Lowestoft Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/success-coach-lowestoft-sixth-form) — Out-of-scope occupation: coach.
 - [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare) — Insufficient admin/service evidence.

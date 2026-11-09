@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-08
+review_date: 2026-11-09
 review_fingerprint: 1ed64c026a8f432e35a46eb2070de738708730818a2fac9a9f512fc25007ad95
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -120,7 +120,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir
 ## HARD_PASS
 
 - [Curriculum Administrator Apprentice](https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-apprentice) — No usable numeric salary.
-- [Registrar](https://teaching-vacancies.service.gov.uk/jobs/registrar-lord-grey-academy) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-8c405d99-71b2-47dd-917c-3ee6490352e3) — Excluded senior/management title.
 
 ## Safety boundary
 

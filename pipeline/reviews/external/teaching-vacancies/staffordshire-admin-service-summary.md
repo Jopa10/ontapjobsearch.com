@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-08
-review_fingerprint: 16f5312df9c8e77985a2e853e90cbcfe7f6f66af3163a1897270c7b87520b370
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 4ff29bb61bf855ed887764e05ef3bab0edfd5a74fd8f9bad80f6b992a38f6ce6
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 10
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | Staffordshire | Rugeley, West Midlands, WS15 2UE | Grade 4, SCP 4-6 (£22,374 to £23,089 per annum actual salary) | Administrative Assistant
-employer: The Hart School
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 12c96e7d002cf8c3c9f749048af421f7cec57d7c408e3497581af483d8e115a9
-source: Teaching Vacancies
-source_job_id: administrative-assistant-the-hart-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-hart-school
----
-
----
-action: 
-SELECTED | Staffordshire | Rugeley, West Midlands, WS15 2UE | Grade 4, SCP 4-6 (£13,606 to £14,040 per annum actual salary) | Attendance & Admin Assistant
-employer: The Hart School
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9de5e47d90e7da500996ecd9d5ef1892c847aa2f1268cc2c891f1a70150a75eb
-source: Teaching Vacancies
-source_job_id: attendance-admin-assistant-3eb72589-09a8-45cd-a3b2-637d65a99a60
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-assistant-3eb72589-09a8-45cd-a3b2-637d65a99a60
----
 
 ---
 action: 
@@ -85,6 +55,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admin-assi
 
 ---
 action: 
+POSS | Staffordshire | Lichfield, West Midlands, WS14 0AL | £25,614 - £26,016 FTE, actual salary £17,274 - £17,545 per annum | Administration Assistant
+employer: Anna Seward Primary
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1183a1c0adbb1b9d33d40f1e4ce4705ab8d21e3bad51eb906f3af728446382f3
+source: Teaching Vacancies
+source_job_id: administration-assistant-anna-seward-primary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-anna-seward-primary
+---
+
+---
+action: 
 POSS | Staffordshire | Tamworth, West Midlands, B77 2HJ | £15,433.44 - £24,521.29 Annually (FTE) National Minimum Wage (Y1 rate then Y2 age-related). | Apprentice Administration Assistant
 employer: Two Rivers High School
 closing_date: 2026-11-13T23:59:00+00:00
@@ -109,7 +94,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administra
 - [Contracts Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-manager-the-shaw-education-trust) — Excluded senior/management title.
 - [Human Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-community-academies-trust-tamworth-not-recorded) — Excluded senior/management title.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-a6176fdf-9fd1-40a5-9965-09d03373dad8) — Insufficient admin/service evidence.
-- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-manor-hall-academy-trust-stoke-on-trent-not-recorded) — Insufficient admin/service evidence.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college-stoke-on-trent-staffordshire) — Excluded senior/management title.
 
 ## Safety boundary

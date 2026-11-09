@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-08
-review_fingerprint: 764d04e86fc625a5a9e808587486bce09cd01be00a1612b01172fc11354a0d81
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: b7069c7a8184c6c68cb6cc17c6d0cd791f6b2d3903d11d89af0b69caa9f14425
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 6
+- Records: 9
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -34,21 +34,6 @@ factual_fingerprint: c7d796e965689c7986537bbc37634f2f54c86a796beeab45af43efe1acd
 source: Teaching Vacancies
 source_job_id: administration-assistant-bishop-stopford-school-kettering-northamptonshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bishop-stopford-school-kettering-northamptonshire
----
-
----
-action: 
-SELECTED | Northamptonshire | Wellingborough, East Midlands, NN8 3HB | £16,624.20 - £16,889.23 Annually (FTE) Based on NJS Scale F6 - F7, FTE salary is £26,846 - £27,274 | Administrator
-employer: St Barnabas Church of England School
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7e00850851ca6bc614a6d87712453646014b973ffdb1ea99dfc4e5eb866b7a50
-source: Teaching Vacancies
-source_job_id: administrator-st-barnabas-church-of-england-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-barnabas-church-of-england-school
 ---
 
 ---

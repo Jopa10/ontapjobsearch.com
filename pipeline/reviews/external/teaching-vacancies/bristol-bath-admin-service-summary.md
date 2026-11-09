@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-08
+review_date: 2026-11-09
 review_fingerprint: deb4cefa6343fd0d10fc4e5227bd437e823163aad361c15d4a3b89cbce00f2c8
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 9
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -78,8 +78,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-08
 
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bedminster-down-school) — No usable numeric salary.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-cherry-garden-primary-school) — No usable numeric salary.
+- [Educational Visits and Enrichment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-and-enrichment-coordinator) — No usable numeric salary.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-saint-gregory-s-catholic-college) — Excluded senior/management title.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-the-castle-school) — Excluded senior/management title.
 
 ## Safety boundary
 

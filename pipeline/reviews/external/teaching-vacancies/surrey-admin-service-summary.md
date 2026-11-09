@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-08
-review_fingerprint: df50570c854061d6087c656ea7266ede17634b440638f2d03726ae2f5856962f
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 1d5246dbf9b569c2c698cfe56d76582908e209f9dc005cc12d91b104b779a034
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 0
-- POSS awaiting decision: 2
+- Records: 8
+- Selected: 1
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Surrey | Godalming, South East, GU8 4DX | S3, scale points 20.1 – 23, depending on experience. FTE: £29,583 - £31,491; Actual: £24,628.23 - £26,216.66 | SEN Administrator
+employer: St Dominic's School
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a279019f9becd361c96d55015825c444373113cbb9274da09cdc783f48a01652
+source: Teaching Vacancies
+source_job_id: sen-administrator-1b1c73e5-4e8e-49ee-8b2a-4e536b9524c9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-1b1c73e5-4e8e-49ee-8b2a-4e536b9524c9
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -38,6 +51,21 @@ factual_fingerprint: 913f1dbd539af341a14680fc31747626df13e26ba689e71b1cb603cb0c5
 source: Teaching Vacancies
 source_job_id: attendance-communications-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-communications-officer
+---
+
+---
+action: 
+POSS | Surrey | Horley, South East, RH6 7JF | £33,367.00 - £36,257.00 Annually (FTE) Pro rata £2,392.11 - £2,599.30 | Clerk to Governors
+employer: Horley Infant School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Borderline school administration title: clerk to governors
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c904be462266d018561c2a6aab9093349d6f45c60c787b21ffc7d80b067d6a73
+source: Teaching Vacancies
+source_job_id: clerk-to-governors-3018924e-8bbc-4597-a55c-086b85d6c5cf
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-3018924e-8bbc-4597-a55c-086b85d6c5cf
 ---
 
 ---
@@ -64,6 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assista
 - [EHCP Administrator](https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-gosden-house-school-guildford-surrey) — No usable numeric salary.
 - [Office & Facilities Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-facilities-assistant) — Insufficient admin/service evidence.
 - [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-0884c9ad-ae56-44bf-a477-68f17351dcd8) — Excluded senior/management title.
+- [Sustainability Officer](https://teaching-vacancies.service.gov.uk/jobs/sustainability-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

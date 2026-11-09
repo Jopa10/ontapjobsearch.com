@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-08
-review_fingerprint: b989b20b48ca2b7bddbc80a997ee8abf9fccd5fe91de1913322efac938985f84
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: f8c0dfa24b80535f3fa2e24bae9ec1338854a63342da3ff568d7c589acbaaf4a
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -34,21 +34,6 @@ factual_fingerprint: 9699607483c51786639302f71e553a258b16e7ff1e8f6fbefd44c93e8ff
 source: Teaching Vacancies
 source_job_id: administration-and-finance-assistant-the-hathershaw-college-oldham-greater-manchester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-assistant-the-hathershaw-college-oldham-greater-manchester
----
-
----
-action: 
-SELECTED | Greater Manchester - North | Radcliffe, North West, M26 2SZ | £32,578 to £35,570 per annum (pro rata £30,176 to £32,948 per annum) | Attendance Officer
-employer: Star Radcliffe Academy
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a4f897b9d8a0b03a3ba2f260485fddc4d4c5accd120abc99614a50fcf529b973
-source: Teaching Vacancies
-source_job_id: attendance-officer-star-radcliffe-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-star-radcliffe-academy
 ---
 
 ---
@@ -91,7 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-oulder-h
 
 ## HARD_PASS
 
-- [Governance and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-officer-newhouse-academy) — No usable numeric salary.
+- [Administrative Officer (MAT COVER)](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-mat-cover) — Insufficient admin/service evidence.
 - [Governance Clerk - Casual](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-casual) — Insufficient admin/service evidence.
 - [Head of Human Resources](https://teaching-vacancies.service.gov.uk/jobs/head-of-human-resources-st-teresa-of-calcutta-catholic-academy-trust) — Excluded senior/management title.
 - [SEND & Transition Administrator](https://teaching-vacancies.service.gov.uk/jobs/send-transition-administrator) — No usable numeric salary.

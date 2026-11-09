@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-08
-review_fingerprint: 0f9053f3d826bc23f7924a295d5a0906cc760d15caef6e75b3e699320d61dbf0
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 73e6f56d5dd72bd6639c9e1875f7e1e225c28911762615c4c2b40d39fa2c5974
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 5
-- POSS awaiting decision: 4
+- Selected: 6
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 8
 
@@ -55,12 +55,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-recepti
 action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 7EB | £22,934.00 - £25,229.00 Annually (Actual) GAT 4/5, 37 hours per week, 39 weeks per year | Administrator - Secondary Site
 employer: Nottingham Academy
-closing_date: 2026-11-16T23:59:00+00:00
+closing_date: 2026-11-16T08:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: fa00206f45c0d35e636e132017a75e65ad386aee0c6054104645a5dee3c607fc
+factual_fingerprint: bdbbd01b8d9f7cd9281f2f03d1f01feee55b34832890ce133b3c96d1139d8d8d
 source: Teaching Vacancies
 source_job_id: administrator-secondary-site
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-secondary-site
@@ -96,6 +96,21 @@ source_job_id: finance-administrator-including-trips-and-visits-arnold-hill-spen
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-including-trips-and-visits-arnold-hill-spencer-academy
 ---
 
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG8 2FT | £28,276.00 - £30,423.00 Annually (FTE) | Finance Officer
+employer: Fernwood School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b1eb00ad2cd1eaf7adf3cbb43a0614699650360ad351e449b7ea1c4f16af481a
+source: Teaching Vacancies
+source_job_id: finance-officer-fernwood-school-nottingham-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-fernwood-school-nottingham-nottinghamshire
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -111,21 +126,6 @@ factual_fingerprint: 263459782b0ed053d67dec4b614e420ef0b55a8c4e03df9d4c99b78db19
 source: Teaching Vacancies
 source_job_id: administration-assistant-928f59c0-3e7f-4c16-a5e6-cbdd0ac90a06
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-928f59c0-3e7f-4c16-a5e6-cbdd0ac90a06
----
-
----
-action: 
-POSS | Nottinghamshire | Mansfield, East Midlands, NG18 2DP | £22,569.72 - £22,569.72 Annually (Actual) | Administration Assistant
-employer: Horizons Academy
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d899813d4cf8922713d60e8a54242012f2c2b74e2d686003fe8c356326338421
-source: Teaching Vacancies
-source_job_id: administration-assistant-horizons-academy-mansfield-nottinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy-mansfield-nottinghamshire
 ---
 
 ---
@@ -166,10 +166,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 
 - [Assistant Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-administration-manager-shirebrook-academy) — Excluded senior/management title.
 - [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy-nottingham-nottinghamshire) — Excluded senior/management title.
+- [Marketing and Reprographics Assistant (fixed term maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-reprographics-assistant-fixed-term-maternity-cover) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-ashfield-comprehensive-school) — Excluded senior/management title.
-- [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-djanogly-city-academy) — Insufficient admin/service evidence.
+- [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-a64c421f-6231-4592-9c8e-33d9670e968a) — Insufficient admin/service evidence.
 - [People Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-business-partner-nova-education-trust) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c46abdbf-b851-4f98-b51c-c939f0fd7919) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hawthorne-primary-and-nursery-school) — Excluded senior/management title.
 - [Senior Office Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrative-assistant) — Excluded senior/management title.
 

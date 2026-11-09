@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-08
-review_fingerprint: 3dad9d9781b719657f41b0a4586e9f96b24cd2c5db43f0041a7a1b7d5f0d4a36
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 4ae6c2dc92ef2499e17c4fa24698765e88eee30c7669d40ee6abf91be22e4794
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 23
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 23
+- Hard pass: 20
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF4 5HE | Band D, £22,401 to £22,757 per annum (actual salary) Contract: 37 Hours Per Week, Term Time + 2 Insets Days | Administration Assistant
-employer: Horbury Academy
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: d7d5cf1ca3472f28b0c2b47a3ee198492898f255b2de424b3d671091faaf1014
-source: Teaching Vacancies
-source_job_id: administration-assistant-horbury-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horbury-academy
----
 
 ---
 action: 
@@ -83,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-information-d
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | HR Officer
-employer: Great Heights Academy Trust
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: cb72494f6b56c6d181f0dbbe2b33e3f3b76d2b6e9214fc41b4313f7eb1a39120
-source: Teaching Vacancies
-source_job_id: hr-officer-great-heights-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-heights-academy-trust
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -104,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-heig
 
 ## HARD_PASS
 
-- [Academy Operations Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-administrator-co-op-academy-brierley) — No usable numeric salary.
 - [Administration assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chapel-allerton-primary-school) — No usable numeric salary.
 - [Administrative Support Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/administrative-support-assistant-maternity-cover-gledhow-primary-school) — Insufficient admin/service evidence.
 - [Apprentice Business Administration Assistant (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-administration-assistant-level-3) — No usable numeric salary.
@@ -116,15 +87,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-heig
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — No usable numeric salary.
 - [Exams Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-liaison-officer) — Insufficient admin/service evidence.
 - [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-south-pennine-academies) — Excluded senior/management title.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-cockburn-multi-academy-trust) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.
-- [Information Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/information-governance-coordinator) — Insufficient admin/service evidence.
-- [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-dixons-academies-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-heaton-primary) — Excluded senior/management title.
-- [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team) — Excluded senior/management title.
 - [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.
 - [Quality Coordinator](https://teaching-vacancies.service.gov.uk/jobs/quality-coordinator) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-westbrook-lane-primary-school) — Excluded senior/management title.
 - [SEN Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/sen-administration-assistant-horbury-academy-wakefield-west-yorkshire) — Insufficient admin/service evidence.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-meadowfield-primary-school) — Excluded senior/management title.
 - [Trust Data & Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-systems-analyst) — Insufficient admin/service evidence.
 - [Work Placement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/work-placement-coordinator-outwood-grange-academy-wakefield-west-yorkshire) — No usable numeric salary.
 

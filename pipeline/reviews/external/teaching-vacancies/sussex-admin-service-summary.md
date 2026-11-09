@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-11-08
+review_date: 2026-11-09
 review_fingerprint: 82034db2cc2f6a4e23021e989da16abca3526e695b76c774df4f388d05e59b3d
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -93,7 +93,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/registry-administrato
 
 - [Business & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-manager-the-littlehampton-academy) — Excluded senior/management title.
 - [Business Administrator - Finance](https://teaching-vacancies.service.gov.uk/jobs/business-administrator-finance-st-richard-s-catholic-college) — No usable numeric salary.
-- [Cover Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-felpham-community-college) — No usable numeric salary.
 - [Cover, Data & Exams Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-data-exams-administrator) — No usable numeric salary.
 - [Nursery Manager](https://teaching-vacancies.service.gov.uk/jobs/nursery-manager-desmond-anderson-primary-academy) — Out-of-scope occupation: nurse.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-08
-review_fingerprint: 60127944274a62a07ee70227eeb65b144b9da7e7a06d0363ed983c542fdd2935
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 5a535245b23f4d947059a4bdf1ed94824d5524e9ccd63ba6a1fe434f6b524555
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 8
+- Records: 13
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -60,25 +60,10 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e579046f02cda603dca05fed8d0ebdaeed961074296491b28340c741038cc503
+factual_fingerprint: f7554443ec3d46c1f84119d5f26cc3f86e8469459a859676dab962c2ff762dc6
 source: Teaching Vacancies
 source_job_id: administrator-to-slt-and-student-support-team-lawn-manor-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-to-slt-and-student-support-team-lawn-manor-academy
----
-
----
-action: 
-SELECTED | Wiltshire | Salisbury, South West, SP1 3JJ | NJC Scale 3 (points 5-6) £26,428 - £26,846 FTE (Actual starting salary £22,732) | Attendance Officer
-employer: South Wilts Grammar School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6ea78b4b65b0b1514ed15568f69210a770cf124071869998533594a4c3227b4c
-source: Teaching Vacancies
-source_job_id: attendance-officer-south-wilts-grammar-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-south-wilts-grammar-school
 ---
 
 ---
@@ -113,17 +98,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-b98224b7
 
 ---
 action: 
-SELECTED | Wiltshire | Salisbury, South West, SP1 3JJ | Scale 4, NJC 7-11 £27,274 – £29,070 FTE | Receptionist & First Aider
-employer: South Wilts Grammar School
-closing_date: 2026-11-09T09:00:00+00:00
+SELECTED | Wiltshire | Chippenham, South West, SN14 6RJ | £22,415.00 - £23,617.00 Annually (Actual) | Receptionist
+employer: Hardenhuish School
+closing_date: 2026-11-30T08:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1bbeef705e8db9c66a2822392ac8f63c25303ca4a1c034b954bb046f7a93d0b7
+factual_fingerprint: 1eed06555b2503e17617ce392b2cf2ff5162a0cc736d5c4c524792cf971fa179
 source: Teaching Vacancies
-source_job_id: receptionist-first-aider-south-wilts-grammar-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-first-aider-south-wilts-grammar-school
+source_job_id: receptionist-hardenhuish-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-hardenhuish-school
 ---
 
 ---
@@ -180,8 +165,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-st
 ## HARD_PASS
 
 - [Complaints Officer](https://teaching-vacancies.service.gov.uk/jobs/complaints-officer-ascend-learning-trust) — Insufficient admin/service evidence.
-- [HLTA Behaviour and Inclusion](https://teaching-vacancies.service.gov.uk/jobs/hlta-behaviour-and-inclusion-lawn-manor-academy) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-4c722adb-c7a9-4af5-b8d5-bf00527c02c0) — Insufficient admin/service evidence.
+- [Day Care Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/day-care-admin-officer) — Insufficient admin/service evidence.
 - [Resourcing & Talent Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/resourcing-talent-development-assistant) — Insufficient admin/service evidence.
 - [School Receptionist](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-even-swindon-primary-school-swindon-wiltshire) — No usable numeric salary.
 

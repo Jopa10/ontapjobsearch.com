@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-08
+review_date: 2026-11-09
 review_fingerprint: 6561c0b7d12dee3b451a7a6faeb5f940e72a797b67f5c5610287b13dc133680d
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -119,7 +119,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-st
 
 ## HARD_PASS
 
-- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Excluded senior/management title.
 - [Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/trust-clerk-db16844e-9a97-47b1-aa98-b5573ee8890a) — Insufficient admin/service evidence.
 
 ## Safety boundary

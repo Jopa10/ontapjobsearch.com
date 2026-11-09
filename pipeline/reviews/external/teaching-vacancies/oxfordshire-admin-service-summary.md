@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-08
-review_fingerprint: d6889307b6524a1cc558c7d4580ccadcfc249367dd7e40a76d4f441f334e0025
-routing_manifest_sha256: 86c064a6117641da30c32c6df90a71aaee3b0be13ea58d473ff89b3f67783e16
+review_date: 2026-11-09
+review_fingerprint: 02deedb86b16c9baaca01810e58da0b40de7d5adba619a3968c35dc70a31e495
+routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 7
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -111,21 +111,6 @@ source_job_id: school-administrator-folly-view-primary
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-folly-view-primary
 ---
 
----
-action: 
-SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £26,016.00 - £26,427.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 30 hours per week/38 weeks per year. Actual annual salary in the region of £17,686 to £17,965 | Student Services Administrator
-employer: Faringdon Community College
-closing_date: 2026-11-09T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 308966495f1155bbacf8b672e74f562b3de8a50fda6c554da41b03c4fca94360
-source: Teaching Vacancies
-source_job_id: student-services-administrator-faringdon-community-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-administrator-faringdon-community-college
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -137,6 +122,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 ## HARD_PASS
 
 - [Assistant Headteacher (Personal Development)](https://teaching-vacancies.service.gov.uk/jobs/assistant-headteacher-personal-development-the-cherwell-school) — Out-of-scope occupation: teacher, headteacher.
+- [Estates and Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-and-facilities-manager-alt-trust) — Excluded senior/management title.
 - [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
 - [RLT Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/rlt-fundraising-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-carterton-primary-school) — Excluded senior/management title.
