@@ -334,7 +334,9 @@
     "expiryOrPurgeRun": false,
     "selectorComparisonsRepeated": false,
     "priorRecoverySearchRepeated": false,
-    "recordsInspectedReadOnly": true
+    "recordsInspectedReadOnly": true,
+    "privateAlertWorkflowTriggeredByThisReview": false,
+    "externalPrivateAlertWorkflowObserved": true
   },
   "nextAction": "Keep the 5/6 Nov historical reconciliation incomplete because its exact active JobG8 lists and generated homepage lists are unavailable. Do not rerun the completed comparisons or recovery search. Preserve full dated source and published ID lists plus checksums with each future comparison; then continue with separately gated Preview work.",
   "homepageCountMethod": {
@@ -525,7 +527,20 @@
     "selectorComparisonsRepeated": false,
     "productionPublishingTriggeredByThisReview": false,
     "emailsSentByThisReview": false,
-    "expiryOrPurgeRun": false
+    "expiryOrPurgeRun": false,
+    "privateAlertWorkflow": {
+      "name": "Send private CPC job alerts after publish",
+      "runId": 42789750468,
+      "status": "success",
+      "completedAt": "2026-11-10T09:20:04Z",
+      "runTriggeredByThisReview": false,
+      "matchingResults": [
+        8,
+        1
+      ],
+      "providerResponse": "Both private digests were accepted by Brevo.",
+      "deliveryConfirmed": false
+    }
   },
   "branchHeadAfterCheckpoint": "5d24ebdb564d69c2338e58cdccc0cdf71295cbd9"
 }
