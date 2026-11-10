@@ -7,10 +7,10 @@
     100
   ],
   "maximumDatabaseBytes": 838860800,
-  "purpose": "Run Neon Preview write/readback from saved 10 November selector evidence using Preview-only environment variables; no selector replay or feed refetch.",
+  "purpose": "Run Neon Preview write/readback from exact saved 10 November selector evidence using explicit Preview project identifiers; no selector replay or feed refetch.",
   "sourceMode": "owner_pinned_saved_archive",
-  "attempt": 19,
+  "attempt": 20,
   "mode": "fresh_selection_parity",
-  "reuseEvidenceRunId": 42839573991,
-  "reuseEvidenceArtifactId": 13774498829
+  "reuseEvidenceRunId": 42840398681,
+  "reuseEvidenceArtifactId": 13774604463
 }
