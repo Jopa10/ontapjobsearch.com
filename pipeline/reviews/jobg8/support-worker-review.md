@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-11-09
+feed_date: 2026-11-10
 
 Edit only the `action:` line in each block:
 
@@ -37,12 +37,6 @@ job_id: 23643_225770654
 
 ---
 action:
-SELECTED | Yorkshire - West | Leeds | £12.71 - £13 per hour | Hiring Support Worker and Health care Assistant for Care Homes
-job_id: 23643_225676613
----
-
----
-action:
 SELECTED | Yorkshire - West | Huddersfield | £12.71 - £14 per hour | Health Care Assistant
 job_id: 23643_225781886
 ---
@@ -51,6 +45,12 @@ job_id: 23643_225781886
 action:
 SELECTED | Yorkshire - West | Liversedge | £13.5 - £14 per hour | Complex Care Support Worker
 job_id: 23643_223400221
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Castleford | £95 - £110 per daily | Learning Care Assistant
+job_id: 23643_225816651
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -65,12 +65,6 @@ job_id: 23643_225747101
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £27144 - £37440 per year (Pension, Holidays) | Support Worker
 job_id: 23643_225747105
----
-
----
-action:
-POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £93 - £120 per daily | Experienced Autism Support Worker
-job_id: 23643_225801440
 ---
 
 ---
@@ -114,12 +108,6 @@ job_id: 23643_225747091
 ---
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Corbridge | £14.27 per hour | Healthcare Assistant
-job_id: 23643_225715797
----
 
 ---
 action:
@@ -215,6 +203,18 @@ job_id: 23643_225801617
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Cramlington | £13.5 per hour | Childrens Residential Support Worker
 job_id: 108087762
+---
+
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Bedlington | £14.21 per hour | Regional Care Assistant
+job_id: 23643_225813738
+---
+
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Corbridge | £14.27 per hour | Healthcare Assistant
+job_id: 23643_225715797
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -351,17 +351,11 @@ job_id: 23643_225611014
 
 ---
 action:
-POSS - NE - Co Durham & Dar/Htlpl | North East - County Durham & Darlington/Hartlepool | County Durham | £100 - £110 per daily | Learning Support Assistant
-job_id: 23643_225794120
+POSS - NE - Co Durham & Dar/Htlpl | North East - County Durham & Darlington/Hartlepool | County Durham | £32211 - £34811 per year | Childrens Residential Support Worker
+job_id: 23643_225814960
 ---
 
 ## SUSSEX — SELECTED
-
----
-action:
-SELECTED | Sussex | Brighton | £15 - £17 per hour | Personal Assistant - Immediate Start
-job_id: 23643_225715425
----
 
 ---
 action:
@@ -455,12 +449,6 @@ job_id: 23643_225467693
 
 ---
 action:
-SELECTED | Sussex | Sussex | £15.5 per hour | Care Assistant - Care Home
-job_id: 23643_225739546
----
-
----
-action:
 SELECTED | Sussex | Southwick | £14.8 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225777711
 ---
@@ -527,18 +515,6 @@ job_id: 23643_225806451
 
 ---
 action:
-SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225804482
----
-
----
-action:
-SELECTED | Sussex | Sussex | £14.8 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225754037
----
-
----
-action:
 SELECTED | Sussex | Eastbourne | £15 - £16.93 per hour | Female Support Worker
 job_id: 23643_225811985
 ---
@@ -563,14 +539,20 @@ job_id: 108275048
 
 ---
 action:
-SELECTED | Sussex | Sussex | £14.8 per hour | Night Care Assistant - Bank
-job_id: 23643_225769816
+SELECTED | Sussex | Crawley | £14 - £16 per hour | Care Worker (Domiciliary)
+job_id: 23643_225414813
 ---
 
 ---
 action:
-SELECTED | Sussex | Crawley | £14 - £16 per hour | Care Worker (Domiciliary)
-job_id: 23643_225414813
+SELECTED | Sussex | Brighton | £15 - £17 per hour | Personal Assistant - Immediate Start
+job_id: 23643_225715425
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £13.21 per hour | Night Care Assistant
+job_id: 23643_225751206
 ---
 
 ## SUSSEX — POSSIBLES
@@ -579,6 +561,12 @@ job_id: 23643_225414813
 action:
 POSS - SUSSEX | Sussex | Brighton | £12.71 - £20 per hour | Support Worker Young People
 job_id: 23643_224709931
+---
+
+---
+action:
+POSS - SUSSEX | Sussex | Sussex | £12.85 - £18.4 per hour | Support Worker
+job_id: 23643_225814190
 ---
 
 ---
@@ -633,6 +621,12 @@ job_id: 23643_225798181
 
 ---
 action:
+SELECTED | Cumbria - South | Ulverston | £24,479 per annum | Support Worker
+job_id: 23643_225753456
+---
+
+---
+action:
 SELECTED | Cumbria - South | Ulverston | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 108239449
 ---
@@ -653,12 +647,6 @@ job_id: 108278854
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Waking Night Extra Care Support Worker
 job_id: 108278866
----
-
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.71 - £18 per hour | Female Bank Rehabilitation Support Worker
-job_id: 23643_225712948
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -835,8 +823,20 @@ job_id: 108298282
 
 ---
 action:
-SELECTED | Hampshire | Basingstoke | £93 - £100 per daily | Student Support Worker
-job_id: 23643_225712958
+SELECTED | Hampshire | Southampton | £13.5 - £14.5 per hour | Support Worker
+job_id: 23643_225813909
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £13.99 per hour | Care Assistant - Care Home
+job_id: 23643_225815477
+---
+
+---
+action:
+SELECTED | Hampshire | Basingstoke | £13.21 per hour | Night Care Assistant
+job_id: 23643_225815487
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -863,6 +863,18 @@ job_id: 1401786204
 action:
 POSS - HAMPSHIRE | Hampshire | Southampton | £32290 - £35210 per year | Childrens Support Worker
 job_id: 23643_225670771
+---
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Southampton | £12.85 - £18.4 per hour (Holiday Pay) | Support Worker
+job_id: 23643_225815366
+---
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Southampton | £12.85 - £18.4 per hour (Holiday Pay) | Healthcare Assistant
+job_id: 23643_225815438
 ---
 
 ---
@@ -899,6 +911,12 @@ job_id: 1401786178
 action:
 POSS - HAMPSHIRE | Hampshire | Emsworth | £25186 - £26244 per year | Care Assistant (Older Adults)
 job_id: 1401786385
+---
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Ryde | £12.71 - £19.25 per hour (Negotiable) | Healthcare Assistant
+job_id: 23643_225815813
 ---
 
 ---
@@ -1087,6 +1105,12 @@ job_id: 23643_225738185
 
 ---
 action:
+POSS - BERKSHIRE | Berkshire | Maidenhead | £32916 - £51048 per year | Learning Support Assistant
+job_id: 23643_225816593
+---
+
+---
+action:
 POSS - BERKSHIRE | Berkshire | Berkshire | £14 - £14.5 per hour (dependent on experience) | Learning Support Assistant
 job_id: 23643_225798575
 ---
@@ -1199,6 +1223,30 @@ job_id: 108284034
 
 ---
 action:
+POSS - DORSET | Dorset | Bournemouth | £12.85 - £18.4 per hour (Holiday Pay) | Healthcare Assistant
+job_id: 23643_225815711
+---
+
+---
+action:
+POSS - DORSET | Dorset | Bournemouth | £12.85 - £18.4 per hour (Holiday Pay) | Support Worker
+job_id: 23643_225815767
+---
+
+---
+action:
+POSS - DORSET | Dorset | Sherborne | £13 - £20.63 per hour (Negotiable) | Healthcare Assistant
+job_id: 23643_225814905
+---
+
+---
+action:
+POSS - DORSET | Dorset | Wareham | £13 - £20.6 per hour (Negotiable) | Healthcare Assistant
+job_id: 23643_225815669
+---
+
+---
+action:
 POSS - DORSET | Dorset | Bournemouth | £21 - £23 per hour | Recovery Worker
 job_id: 23643_225810515
 ---
@@ -1216,18 +1264,6 @@ job_id: 23643_225803440
 ---
 
 ## ESSEX — SELECTED
-
----
-action:
-SELECTED | Essex | Basildon | £15737 per year (25 days leave plus bank holidays) | Care Support Worker - British Sign Language
-job_id: 23643_225714335
----
-
----
-action:
-SELECTED | Essex | Waltham Abbey | £26298 per year | Support Worker - Mental Health
-job_id: 23643_225715675
----
 
 ---
 action:
@@ -1319,13 +1355,19 @@ SELECTED | Essex | Braintree | £28600 per year | Care Assistant
 job_id: 23643_225807738
 ---
 
-## ESSEX — POSSIBLES
+---
+action:
+SELECTED | Essex | Waltham Abbey | £26298 per year | Support Worker - Mental Health
+job_id: 23643_225715675
+---
 
 ---
 action:
-POSS - ESSEX | Essex | Basildon | £13 - £18 per hour | Mental Health Support Worker - Basildon
-job_id: 23643_225802475
+SELECTED | Essex | Basildon | £15737 per year (25 days leave plus bank holidays) | Care Support Worker - British Sign Language
+job_id: 23643_225714335
 ---
+
+## ESSEX — POSSIBLES
 
 ---
 action:
@@ -1365,6 +1407,12 @@ job_id: 23643_225773041
 
 ---
 action:
+POSS - ESSEX | Essex | Basildon | £13 - £18 per hour | Mental Health Support Worker - Basildon
+job_id: 23643_225802475
+---
+
+---
+action:
 POSS - ESSEX | Essex | Maldon | £28000 - £32000 per year | Home Carer
 job_id: 23643_225804409
 ---
@@ -1395,18 +1443,6 @@ job_id: 23643_225811939
 
 ---
 action:
-POSS - ESSEX | Essex | Basildon | £95 - £105 per daily | Learning Support Assistant
-job_id: 23643_225811943
----
-
----
-action:
-POSS - ESSEX | Essex | Clacton-on-sea | £90 - £110 per daily | Learning Support Assistant
-job_id: 23643_225716465
----
-
----
-action:
 POSS - ESSEX | Essex | Essex | £14.37 per hour | Learning Support Assistant
 job_id: 23643_225603760
 ---
@@ -1415,6 +1451,12 @@ job_id: 23643_225603760
 action:
 POSS - ESSEX | Essex | Essex | £95 - £105 per daily | Learning Support Assistant
 job_id: 23643_225811940
+---
+
+---
+action:
+POSS - ESSEX | Essex | Clacton-on-sea | £90 - £110 per daily | Learning Support Assistant
+job_id: 23643_225716465
 ---
 
 ---
@@ -1437,8 +1479,20 @@ job_id: 23643_225744304
 
 ---
 action:
+POSS - ESSEX | Essex | Southend-on-sea | £109 - £117 per daily (£150 Love2Shop Voucher Referral) | Learning Support Assistant
+job_id: 23643_225814909
+---
+
+---
+action:
 POSS - ESSEX | Essex | Billericay | £100 - £105 per daily | Learning Support Assistant
 job_id: 23643_225811942
+---
+
+---
+action:
+POSS - ESSEX | Essex | Basildon | £95 - £105 per daily | Learning Support Assistant
+job_id: 23643_225811943
 ---
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — SELECTED
@@ -1521,6 +1575,12 @@ job_id: 23643_225780374
 action:
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £128 per daily | Outreach Worker
 job_id: 23643_225732337
+---
+
+---
+action:
+POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Salford | £15.47 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225813732
 ---
 
 ---
@@ -1629,14 +1689,14 @@ job_id: 23643_225779312
 
 ---
 action:
-SELECTED | Kent | Kent | £15.35 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225769412
+SELECTED | Kent | Kent | £12.71 - £13 per hour | Hiring Support Worker and Health care Assistant for Care Homes
+job_id: 23643_225676613
 ---
 
 ---
 action:
-SELECTED | Kent | Sevenoaks | £14.61 per hour | Care Assistant - Care Home
-job_id: 23643_225771606
+SELECTED | Kent | Kent | £15.35 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225769412
 ---
 
 ---
@@ -1687,6 +1747,30 @@ SELECTED | Kent | Kent | £13.7 per hour | Night Care Assistant
 job_id: 23643_225811655
 ---
 
+---
+action:
+SELECTED | Kent | Sittingbourne | £26000 per year | Outreach Recovery Worker
+job_id: 23643_225814729
+---
+
+---
+action:
+SELECTED | Kent | Herne Bay | £13.31 - £14.5 per daily | Children's Residential Support Worker
+job_id: 23643_225817096
+---
+
+---
+action:
+SELECTED | Kent | Sevenoaks | £14.8 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225816063
+---
+
+---
+action:
+SELECTED | Kent | Kent | £15 - £18 per hour | Family Support Worker/Maidstone, Kent/GBP15-18p/h
+job_id: 23643_225816816
+---
+
 ## KENT — POSSIBLES
 
 ---
@@ -1715,6 +1799,24 @@ job_id: 23643_225797413
 
 ---
 action:
+POSS - KENT | Kent | Kent | £13.15 - £19 per hour | Children Support Worker
+job_id: 23643_225815295
+---
+
+---
+action:
+POSS - KENT | Kent | Kent | £18.50 per hour | Healthcare Assistant
+job_id: 23643_225815423
+---
+
+---
+action:
+POSS - KENT | Kent | Tonbridge | £12.85 - £18.4 per hour | Support Worker
+job_id: 23643_225814102
+---
+
+---
+action:
 POSS - KENT | Kent | Hythe | £13.5 - £20.25 per hour | Homecare Assistant
 job_id: 23643_225807530
 ---
@@ -1723,6 +1825,12 @@ job_id: 23643_225807530
 action:
 POSS - KENT | Kent | Sandwich | £13.5 - £20.25 per hour | Homecare Assistant
 job_id: 23643_225807488
+---
+
+---
+action:
+POSS - KENT | Kent | Broadstairs | £12.85 - £19 per hour | Health Care Assistant
+job_id: 23643_225815157
 ---
 
 ---
@@ -1756,12 +1864,6 @@ job_id: 23643_225808616
 ---
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | London | £15.5 - £17.25 per hour | Learning Support Assistant
-job_id: 23643_225715163
----
 
 ---
 action:
@@ -1969,32 +2071,8 @@ job_id: 23643_225744321
 
 ---
 action:
-SELECTED | London | City | £30000 - £32000 per year | Personal Assistant to the CEO
-job_id: 23643_225743869
----
-
----
-action:
-SELECTED | London | London | £29336 - £32903 per year | Young People Support Worker
-job_id: 23643_225746374
----
-
----
-action:
 SELECTED | London | London | £16.59 per hour | Waking Night Support Worker
 job_id: 23643_225750658
----
-
----
-action:
-SELECTED | London | London | £14.91 per hour | Bank Support Worker
-job_id: 23643_225749654
----
-
----
-action:
-SELECTED | London | City | £14.65 per hour | Bank Support Worker
-job_id: 23643_225749797
 ---
 
 ---
@@ -2431,26 +2509,50 @@ job_id: 23643_225431688
 
 ---
 action:
-SELECTED | London | City | £23886 - £31848 per year | Care Assistant - Maternity Cover
-job_id: 23643_225713187
----
-
----
-action:
 SELECTED | London | London | £14 - £15.25 per hour | Female/Male support worker
 job_id: 23643_225813063
 ---
 
 ---
 action:
-SELECTED | London | Carshalton | £86 - £105 per daily | Male Support Worker
-job_id: 23643_225713028
+SELECTED | London | City | £23232 - £25862 per year | Attendance and Family Support Worker
+job_id: 23643_225813023
 ---
 
 ---
 action:
-SELECTED | London | London | £97 - £125 per daily | Behaviour Support Assistant
-job_id: 23643_225712760
+SELECTED | London | London | £28937 per year | Community Mental Health Support Worker
+job_id: 23643_225813443
+---
+
+---
+action:
+SELECTED | London | City | £13 - £13.25 per hour | Weekend Care Assistants
+job_id: 23643_225814912
+---
+
+---
+action:
+SELECTED | London | City | £14.19 - £14.24 per hour (Full Training,Pension,Mileage) | Care Assistant - End Of Life
+job_id: 23643_225813344
+---
+
+---
+action:
+SELECTED | London | London | £15.5 - £17.25 per hour | Learning Support Assistant
+job_id: 23643_225715163
+---
+
+---
+action:
+SELECTED | London | London | £14.5 - £16.5 per hour | Children's Residential Support Worker Flexible Ad Hoc Shifts
+job_id: 23643_225817090
+---
+
+---
+action:
+SELECTED | London | Croydon | £13.25 - £13.4 per daily | Children's Residential Support Worker
+job_id: 23643_225817105
 ---
 
 ## LONDON — POSSIBLES
@@ -2465,6 +2567,12 @@ job_id: 23643_225404276
 action:
 POSS - LONDON | London | London | £30 - £40 per hour | Communication Support Worker
 job_id: 23643_225784099
+---
+
+---
+action:
+POSS - LONDON | London | London | £121 - £210 per daily | Calling all Youth Workers, Sports Coaches, Support Workers (MUST HOLD
+job_id: 23643_225816788
 ---
 
 ---
@@ -2573,6 +2681,12 @@ job_id: 23643_225680522
 action:
 POSS - LONDON | London | City | £13.5 - £30.26 per hour | Community Care Assistant
 job_id: 23643_225812952
+---
+
+---
+action:
+POSS - LONDON | London | City | £12.71 - £18 per hour (Negotiable) | Healthcare Assistant
+job_id: 23643_225814927
 ---
 
 ---
@@ -2865,6 +2979,18 @@ SELECTED | Nottinghamshire | Nottingham | £12.71 - £14 per hour | Healthcare A
 job_id: 23643_225808956
 ---
 
+---
+action:
+SELECTED | Nottinghamshire | Nottingham | £95 - £110 per daily | Behaviour Support Assistant
+job_id: 23643_225813930
+---
+
+---
+action:
+SELECTED | Nottinghamshire | Worksop | £14.5 - £15 per hour | Children's Residential Support Worker
+job_id: 23643_225234674
+---
+
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
@@ -2993,17 +3119,23 @@ job_id: 23643_225795205
 
 ---
 action:
+POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £12.85 - £18.4 per hour (Holiday Pay) | Healthcare Assistant
+job_id: 23643_225815807
+---
+
+---
+action:
+POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £12.85 - £18.4 per hour (Holiday Pay) | Support Worker
+job_id: 23643_225815866
+---
+
+---
+action:
 POSS - OXFORDSHIRE | Oxfordshire | Witney | £31493 - £34495 per year | Children's Residential Support Worker
 job_id: 23643_225709338
 ---
 
 ## SURREY — SELECTED
-
----
-action:
-SELECTED | Surrey | Reigate | £13 - £15 per hour | Home Care Assistant
-job_id: 23643_225715909
----
 
 ---
 action:
@@ -3103,23 +3235,23 @@ job_id: 23643_225804483
 
 ---
 action:
-SELECTED | Surrey | Epsom | £13.5 per hour | Care Assistant - Care Home
-job_id: 23643_225804489
----
-
----
-action:
 SELECTED | Surrey | Leatherhead | £15 per hour | Hourly Personal Care Assistant to a Sociology Uni Graduate - Guildford
 job_id: 108051444
 ---
 
-## SURREY — POSSIBLES
+---
+action:
+SELECTED | Surrey | Whyteleafe | £14 - £16 per hour | Support Worker
+job_id: 23643_217540138
+---
 
 ---
 action:
-POSS - SURREY | Surrey | Reigate | £12.85 - £18.4 per hour | Healthcare Assistant
-job_id: 23643_225724510
+SELECTED | Surrey | Reigate | £13 - £15 per hour | Home Care Assistant
+job_id: 23643_225715909
 ---
+
+## SURREY — POSSIBLES
 
 ---
 action:
@@ -3131,6 +3263,12 @@ job_id: 23643_225722476
 action:
 POSS - SURREY | Surrey | Redhill | £12.85 - £18.4 per hour | Healthcare Assistant
 job_id: 23643_225724486
+---
+
+---
+action:
+POSS - SURREY | Surrey | Reigate | £12.85 - £18.4 per hour | Healthcare Assistant
+job_id: 23643_225724510
 ---
 
 ---
@@ -3191,7 +3329,7 @@ job_id: 23643_225791805
 
 ---
 action:
-SELECTED | Wiltshire | Wiltshire | £14.8 per hour | Night Care Assistant - Bank
+SELECTED | Wiltshire | Warminster | £14.8 per hour | Night Care Assistant - Bank
 job_id: 23643_225796347
 ---
 
