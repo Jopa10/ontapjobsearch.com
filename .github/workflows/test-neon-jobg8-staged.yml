@@ -299,9 +299,13 @@ jobs:
           npm ci --omit=dev --ignore-scripts --prefix "$harness"
           cli_dir="$RUNNER_TEMP/vercel-cli"
           npm install --prefix "$cli_dir" --no-save --ignore-scripts --no-audit --no-fund vercel@65.14.0
-          VERCEL_ENV=preview "$cli_dir/node_modules/.bin/vercel" env run --cwd "$harness" --token="$VERCEL_TOKEN" -e preview -- node bootstrap-stage.mjs
-          cp "$harness/dist/report.json" "$work/neon-readback-report.json"
-          cp "$harness/dist/per-id-readback-manifest.json" "$work/per-id-readback-manifest.json"
+          cd "$harness"
+          deploy_log="$RUNNER_TEMP/vercel-preview-deploy.log"
+          "$cli_dir/node_modules/.bin/vercel" deploy --yes --token="$VERCEL_TOKEN" --scope ontap1 2>&1 | tee "$deploy_log"
+          deployment_url="$(grep -Eo 'https://[^[:space:]]+\\.vercel\\.app' "$deploy_log" | tail -n 1)"
+          test -n "$deployment_url"
+          "$cli_dir/node_modules/.bin/vercel" curl /report.json --deployment "$deployment_url" --token="$VERCEL_TOKEN" > "$work/neon-readback-report.json"
+          "$cli_dir/node_modules/.bin/vercel" curl /per-id-readback-manifest.json --deployment "$deployment_url" --token="$VERCEL_TOKEN" > "$work/per-id-readback-manifest.json"
           python - "$work" "${{ steps.request.outputs.archive_date }}" <<'PYVERIFY'
           import json, sys
           from pathlib import Path
