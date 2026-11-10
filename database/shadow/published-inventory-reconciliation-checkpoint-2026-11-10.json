@@ -588,7 +588,14 @@
         "publishedCount": 5541,
         "publishedStageVerified": true
       },
-      "note": "The report columns are total_jobs, published_jobg8_jobs, jobg8_category, count, published_count. Therefore 1,177 is the Administration published output reference and 5,541 is the total across listed JobG8 categories."
+      "note": "The report columns are total_jobs, published_jobg8_jobs, jobg8_category, count, published_count. Therefore 1,177 is the Administration published output reference and 5,541 is the total across listed JobG8 categories.",
+      "countSemantics": {
+        "reportCode": "pipeline/scripts/build_jobg8_category_profile.py",
+        "method": "published_jobg8_jobs counts unique JobG8 IDs read from family output JSON directories; published_count groups those IDs by each feed row's /Job/Classification.",
+        "administration": "The 1,793 Administration jobs are received feed rows. The 1,177 published_count is the unique Administration-classified ID count present in the family output JSONs after the Python selection outputs.",
+        "allJobG8": "The 5,541 published_jobg8_jobs value is the unique JobG8 ID count in family output JSONs.",
+        "boundary": "These are selector family-output stage counts. They are not the later full website live-source inventory."
+      }
     },
     "parity": {
       "administration": {
