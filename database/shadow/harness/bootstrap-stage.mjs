@@ -11,6 +11,7 @@ try {
   if(!response.ok) throw new Error('Source download failed');
   const bytes=Buffer.from(await response.arrayBuffer());
   if(source.mode==='selection_parity' && bytes.length>25*1024*1024) throw new Error('Selection artifact too large');
+  if(source.mode==='fresh_selection_neon' && bytes.length>200*1024*1024) throw new Error('Fresh selector artifact too large');
   await fs.writeFile('source-artifact.zip',bytes);
   if(source.mode==='selection_parity') {
     if(!/^[a-f0-9]{64}$/.test(source.fixtureSha256)) throw new Error('Missing selection fingerprint');
@@ -23,6 +24,26 @@ with zipfile.ZipFile('source-artifact.zip') as a:
     const actual=createHash('sha256').update(await fs.readFile('selection.json.gz')).digest('hex');
     if(actual!==source.fixtureSha256) throw new Error('Selection fingerprint changed');
     await import('./verify-selection-neon.mjs');
+  } else if(source.mode==='fresh_selection_neon') {
+    for(const key of ['rawStageSha256','fixtureSha256','outputsSha256','productionOutputsSha256','productionReferenceSha256','feedCategoryMapSha256']) if(!/^[a-f0-9]{64}$/.test(source[key]||'')) throw new Error('Missing fresh selector artifact fingerprint');
+    execFileSync('python3',['-c',`import zipfile,shutil
+with zipfile.ZipFile('source-artifact.zip') as a:
+ expected={'raw-stage.json.gz','selection.json.gz','plain/outputs.json','production-outputs.json','production-reference.json','feed-category-map.json'}
+ for name in expected:
+  matches=[n for n in a.namelist() if n==name]
+  if len(matches)!=1: raise RuntimeError('Missing or duplicate '+name)
+  with a.open(matches[0]) as src,open(name.rsplit('/',1)[-1],'wb') as dst: shutil.copyfileobj(src,dst)
+`],{stdio:'pipe'});
+    const rawHash=createHash('sha256').update(await fs.readFile('raw-stage.json.gz')).digest('hex');
+    const selectionHash=createHash('sha256').update(await fs.readFile('selection.json.gz')).digest('hex');
+    const outputsHash=createHash('sha256').update(await fs.readFile('outputs.json')).digest('hex');
+    const productionOutputsHash=createHash('sha256').update(await fs.readFile('production-outputs.json')).digest('hex');
+    const productionReferenceHash=createHash('sha256').update(await fs.readFile('production-reference.json')).digest('hex');
+    const feedCategoryMapHash=createHash('sha256').update(await fs.readFile('feed-category-map.json')).digest('hex');
+    if(rawHash!==source.rawStageSha256 || selectionHash!==source.fixtureSha256 || outputsHash!==source.outputsSha256
+      || productionOutputsHash!==source.productionOutputsSha256 || productionReferenceHash!==source.productionReferenceSha256
+      || feedCategoryMapHash!==source.feedCategoryMapSha256) throw new Error('Fresh selector artifact fingerprint changed');
+    await import('./verify-fresh-selection-neon.mjs');
   } else {
     execFileSync('python3',['-c',`import zipfile,shutil
   with zipfile.ZipFile('source-artifact.zip') as a:

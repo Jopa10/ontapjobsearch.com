@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 4 November 2026
-**Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
+**Last updated:** 10 November 2026
+**Status:** Production baseline reconciled on 31 October 2026; PR #336 shadow-workflow state updated on 10 November 2026. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 10 November 2026 — The feature branch is being updated to compare the 10 November Python outputs with same-run production IDs: Administration first against 1,177, then all unique JobG8 IDs against 5,541. It will store Python decisions in Neon Preview and compare exact read-back outcomes, not only counts. The 10 November archive SHA-256 is recorded; 11 Node tests and 3 source-receipt tests pass locally. No feed replay or Neon write/readback has run. `stage-request.json` still points to 6 November. Same-run output artifacts lack per-ID human-review timestamps, so final Published/Review parity remains blocked. The future migration uses each day's feed and records its checksum; no production workflow was changed.
 
 - 4 November 2026 — The 4 November selector replay passed; the next check compares that exact saved feed with the unchanged Neon source to update storage headroom. No Neon import has run.
 

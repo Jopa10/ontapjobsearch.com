@@ -100,6 +100,44 @@ jobs:
           fi
           mv "$response_path" "$archive_path"
           test -s "$archive_path"
+      - name: Resolve same-date production output artifacts and report references
+        id: production-reference
+        if: steps.request.outputs.mode == 'fresh_selection_parity'
+        run: |
+          python - "${{ steps.request.outputs.archive_date }}" <<'PYREF'
+          import json, os, sys
+          from pathlib import Path
+          day=sys.argv[1]
+          path=Path(f'database/shadow/published-inventory-reconciliation-checkpoint-{day}.json')
+          if not path.is_file(): raise SystemExit(f'Missing date-matched publication checkpoint: {path}')
+          checkpoint=json.loads(path.read_text())
+          parity=checkpoint.get('nov10SameFeedSelectorVsPostgresComparison',{})
+          report=parity.get('dailyCategoryReport',{})
+          if report.get('feedDate')!=day: raise SystemExit('Production category report date mismatch')
+          admin=report.get('administration',{}).get('publishedCount')
+          all_jobg8=report.get('allJobG8',{}).get('publishedCount')
+          publication=checkpoint.get('tuesdayPublicationEvidence',{})
+          runs=[r for r in publication.get('workflows',[]) if r.get('name')=='Run full JobG8 daily process' and r.get('conclusion')=='success']
+          if len(runs)!=1 or publication.get('date')!=day: raise SystemExit('Missing or ambiguous same-date production JobG8 run')
+          artifacts={a.get('name'):a.get('id') for a in runs[0].get('artifacts',[])}
+          ids=[artifacts.get('service-admin-output'),artifacts.get('support-worker-output')]
+          if not all(isinstance(x,int) for x in ids): raise SystemExit('Missing same-run per-ID production output artifacts')
+          if not isinstance(admin,int) or not isinstance(all_jobg8,int): raise SystemExit('Missing date-matched category report references')
+          out=Path(os.environ['RUNNER_TEMP'])/'production-reference.json'
+          out.write_text(json.dumps({'feedDate':day,'productionWorkflowRunId':runs[0]['runId'],'artifactIds':ids,
+            'administrationClassifiedPublishedIds':admin,'allJobG8PublishedIds':all_jobg8},indent=2)+'\n')
+          with open(os.environ['GITHUB_OUTPUT'],'a') as handle:
+              handle.write(f"run_id={runs[0]['runId']}\nartifact_ids={','.join(map(str,ids))}\n")
+          PYREF
+      - name: Download same-date production family outputs
+        if: steps.request.outputs.mode == 'fresh_selection_parity'
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          artifact-ids: ${{ steps.production-reference.outputs.artifact_ids }}
+          run-id: ${{ steps.production-reference.outputs.run_id }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/production-output
+          merge-multiple: true
       - name: Verify selection observer and attachment guards
         if: steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity'
         run: |
@@ -129,9 +167,91 @@ jobs:
       - name: Build dated per-ID selector manifest
         if: steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity'
         run: |
-          python database/shadow/build_per_id_manifest.py \\
-            --work "$RUNNER_TEMP/selector-parity" \\
+          python database/shadow/build_per_id_manifest.py \
+            --work "$RUNNER_TEMP/selector-parity" \
             --output "$RUNNER_TEMP/selector-parity/per-id-manifest.json"
+      - name: Prepare same-run full raw snapshot for Preview writeback
+        if: steps.request.outputs.mode == 'fresh_selection_parity'
+        run: |
+          set -euo pipefail
+          archive_date="${{ steps.request.outputs.archive_date }}"
+          archive_path="$RUNNER_TEMP/pinned-source/jobg8-raw-${archive_date}.zip"
+          python - "$RUNNER_TEMP/selector-parity/report.json" "$RUNNER_TEMP/selector-parity/raw-stage-request.json" <<'PYREQUEST'
+          import json, sys
+          from pathlib import Path
+          report=json.loads(Path(sys.argv[1]).read_text())
+          request={
+            'archiveDate': report['archiveDate'],
+            'sourceRevision': report['rulesRevision'],
+            'maximumDatabaseBytes': 838860800,
+          }
+          Path(sys.argv[2]).write_text(json.dumps(request, indent=2)+'\n')
+          PYREQUEST
+          python database/shadow/prepare_raw_stage.py \
+            --archive "$archive_path" \
+            --request "$RUNNER_TEMP/selector-parity/raw-stage-request.json" \
+            --percentage 100 \
+            --output "$RUNNER_TEMP/selector-parity/raw-stage.json.gz"
+          python - "$RUNNER_TEMP/selector-parity" <<'PYEVIDENCE'
+          import gzip, hashlib, json, sys
+          from pathlib import Path
+          work=Path(sys.argv[1])
+          report=json.loads((work/'report.json').read_text())
+          selection=json.loads(gzip.open(work/'selection.json.gz','rt',encoding='utf-8').read())
+          outputs=json.loads((work/'plain/outputs.json').read_text())
+          hash_file=lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
+          admin_ids={str(row['job_id']) for key, rows in outputs.items() if key.startswith('admin_service:') for row in rows}
+          bundle={
+            'schemaVersion': 1,
+            'mode': 'fresh_selection_neon',
+            'feedDate': report['archiveDate'],
+            'archiveSha256': report['archiveSha256'],
+            'selectorRevision': report['rulesRevision'],
+            'fixtureSha256': hash_file(work/'selection.json.gz'),
+            'rawStageSha256': hash_file(work/'raw-stage.json.gz'),
+            'outputsSha256': hash_file(work/'plain/outputs.json'),
+            'feedCategoryMapSha256': hash_file(work/'feed-category-map.json'),
+            'pythonOutputsContentSha256': report['outputsSha256'],
+            'automatedDecisions': len(selection['decisions']),
+            'adminServiceFamilyOutputUniqueIds': len(admin_ids),
+            'neonReadback': 'pending_preview_run',
+          }
+          (work/'neon-writeback-request.json').write_text(json.dumps(bundle,indent=2)+'\n')
+          PYEVIDENCE
+          python - "$RUNNER_TEMP/production-output" "$RUNNER_TEMP/production-reference.json" "$RUNNER_TEMP/selector-parity/production-outputs.json" <<'PYOUTPUTS'
+          import json, sys
+          from pathlib import Path
+          scripts=Path('pipeline/scripts').resolve()
+          sys.path.insert(0,str(scripts))
+          from slice_registry import live_slices
+          from slice_catalog import output_filename
+          source=Path(sys.argv[1]); reference=json.loads(Path(sys.argv[2]).read_text())
+          outputs={}
+          expected=set()
+          for region,family in sorted(live_slices()):
+              name=output_filename(region,family); expected.add(name)
+              path=source/name
+              if not path.is_file(): raise SystemExit(f'Missing date-matched production output: {name}')
+              rows=json.loads(path.read_text(encoding='utf-8-sig'))
+              if not isinstance(rows,list): raise SystemExit(f'Production output is not a list: {name}')
+              outputs[f'{family}:{region}']=[str(row['job_id']) for row in rows if row.get('source')=='JobG8' and row.get('job_id')]
+          actual={p.name for p in source.glob('*.json')}
+          if actual!=expected: raise SystemExit(f'Production output scope/file set differs: expected {len(expected)}, got {len(actual)}')
+          if reference['feedDate']!="${{ steps.request.outputs.archive_date }}": raise SystemExit('Production output feed date mismatch')
+          Path(sys.argv[3]).write_text(json.dumps(outputs,separators=(',',':'))+'\n')
+          PYOUTPUTS
+          cp "$RUNNER_TEMP/production-reference.json" "$RUNNER_TEMP/selector-parity/production-reference.json"
+          python - "$RUNNER_TEMP/selector-parity" <<'PYHASH'
+          import hashlib, json, sys
+          from pathlib import Path
+          work=Path(sys.argv[1]); path=work/'neon-writeback-request.json'
+          request=json.loads(path.read_text())
+          for field, filename in [('productionOutputsSha256','production-outputs.json'),
+                                  ('productionReferenceSha256','production-reference.json'),
+                                  ('feedCategoryMapSha256','feed-category-map.json')]:
+              request[field]=hashlib.sha256((work/filename).read_bytes()).hexdigest()
+          path.write_text(json.dumps(request,indent=2)+'\n')
+          PYHASH
       - name: Preserve selector parity evidence
         if: always() && (steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity')
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
@@ -144,6 +264,11 @@ jobs:
             ${{ runner.temp }}/selector-parity/report.json
             ${{ runner.temp }}/selector-parity/selection.json.gz
             ${{ runner.temp }}/selector-parity/per-id-manifest.json
+            ${{ runner.temp }}/selector-parity/raw-stage.json.gz
+            ${{ runner.temp }}/selector-parity/neon-writeback-request.json
+            ${{ runner.temp }}/selector-parity/production-outputs.json
+            ${{ runner.temp }}/selector-parity/production-reference.json
+            ${{ runner.temp }}/selector-parity/feed-category-map.json
             ${{ runner.temp }}/selector-parity/plain/outputs.json
             ${{ runner.temp }}/selector-parity/observed/outputs.json
             ${{ runner.temp }}/selector-parity/observed/evidence.json

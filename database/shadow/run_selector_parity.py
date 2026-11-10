@@ -60,7 +60,6 @@ def resolve_source_request(path):
             or pinned.get('bucket') != 'ontap-jobg8-archive-179402568934-eu-west-2-an'
             or pinned.get('region') != 'eu-west-2'
             or not isinstance(item.get('bytes'), int) or item['bytes'] <= 0
-            or not isinstance(item.get('etag'), str) or not item['etag']
             or not isinstance(checksum, str) or len(checksum) != 64
             or (expected_conflicts is not None
                 and (not isinstance(expected_conflicts, list)
@@ -68,7 +67,7 @@ def resolve_source_request(path):
         raise ValueError('Pinned saved-source metadata is incomplete or inconsistent')
     metadata = {'feedDate': feed_date, 'bucket': pinned['bucket'],
                 'region': pinned['region'], 'key': item['key'],
-                'sizeBytes': item['bytes'], 'etag': item['etag'],
+                'sizeBytes': item['bytes'], 'etag': item.get('etag'),
                 'sha256': item['sha256']}
     return {'feedDate': feed_date, 'archiveSha256': item['sha256'],
             'sizeBytes': item['bytes'], 'sourceRows': counts.get('sourceRows'),
@@ -194,12 +193,18 @@ def main():
     rows = book.active.values
     columns = next(rows)
     ref_column = columns.index('/Job/DisplayReference')
+    category_column = columns.index('/Job/Classification')
+    category_by_id = {}
     clean = openpyxl.Workbook(write_only=True)
     sheet = clean.create_sheet('Jobs')
     sheet.append(columns)
     for row in rows:
+        source_id = str(row[ref_column] or '').strip()
+        if source_id:
+            category_by_id[source_id] = str(row[category_column] or '').strip() or '(blank)'
         if str(row[ref_column]) not in receipt['conflictingIdsHeld']:
             sheet.append(row)
+    (work / 'feed-category-map.json').write_text(json.dumps(category_by_id, ensure_ascii=False, sort_keys=True) + '\n')
     clean.save(work / 'clean.xlsx')
     book.close()
     _stamp_workbook_core_timestamp(work / 'clean.xlsx', stamp)
@@ -253,6 +258,7 @@ def main():
     revision = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     report = {'archiveSha256': source['archiveSha256'], 'archiveDate': source['feedDate'],
               'sourceMetadata': source['metadata'], 'sourceRequestSha256': source['requestSha256'],
+              'feedCategoryMapSha256': hashlib.sha256((work / 'feed-category-map.json').read_bytes()).hexdigest(),
               'receipt': receipt, 'cleanRecords': len(records), 'rulesRevision': revision,
               'exactFileOutputParity': True, 'outputsSha256': digest(plain), 'scopes': len(plain), 'outcomes': counts,
               'selectedByScope': {scope: len(jobs) for scope, jobs in plain.items()},

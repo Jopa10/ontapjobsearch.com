@@ -27,6 +27,5 @@ class FreshSourceRequestTests(unittest.TestCase):
         self.assertIsNone(resolved['cleanRecords'])
         self.assertIsNone(resolved['conflictingIdsHeld'])
 
-
 if __name__ == '__main__':
     unittest.main()

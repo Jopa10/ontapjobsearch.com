@@ -452,12 +452,16 @@
           {
             "id": 13746955350,
             "name": "service-admin-output",
-            "expiresAt": "2026-11-17T08:20:05Z"
+            "expiresAt": "2026-11-17T08:20:05Z",
+            "sha256": "2b8dafe1308916b3010a46b3ffbcd171f3997e97e46c8a205e3118e36340d28f",
+            "sizeBytes": 5782652
           },
           {
             "id": 13746187400,
             "name": "support-worker-output",
-            "expiresAt": "2026-11-17T08:20:06Z"
+            "expiresAt": "2026-11-17T08:20:06Z",
+            "sha256": "1d6dc487ff019de712b98c9b87580d5703f5cbbdbe95e86e2e0e553dc87acc5a",
+            "sizeBytes": 306354
           }
         ]
       },
@@ -520,7 +524,7 @@
       "path": "generated/published-jobs.json",
       "availableAtProductionSourceCommit": false
     },
-    "interpretation": "Tuesday’s artifacts provide source counts, newly-published IDs, city output JSON and a verified production SHA. They do not provide the complete active JobG8 ID inventory or full generated homepage list. They cannot explain or substitute for the missing 5/6 Nov inventories.",
+    "interpretation": "Tuesday\u2019s artifacts provide source counts, newly-published IDs, city output JSON and a verified production SHA. They do not provide the complete active JobG8 ID inventory or full generated homepage list. They cannot explain or substitute for the missing 5/6 Nov inventories.",
     "productionStateChangedByThisReview": false,
     "databaseAccessed": false,
     "databaseChanged": false,
@@ -572,8 +576,8 @@
       "receivedRows": 46440,
       "downloadedBytes": 37926215,
       "archivedKey": "s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/2026-11-10.zip",
-      "sha256": "not-recorded-in-daily-workflow-log",
-      "exactArchiveAvailability": "dated archive confirmed by production workflow success and archive log; exact bytes not verified against a downloaded copy in this review"
+      "sha256": "da0d20498d25005dd66bc5a843105c082d6481d95f61cd74e31c60a55a440c15",
+      "exactArchiveAvailability": "Owner CloudShell downloaded the exact dated S3 object, measured 37,926,215 bytes and computed SHA-256; this confirms the saved archive bytes."
     },
     "dailyCategoryReport": {
       "path": "pipeline/reports-daily/jobg8-feed-category-profile.csv",
@@ -600,15 +604,17 @@
     "parity": {
       "administration": {
         "referencePublishedCount": 1177,
-        "exactIdsAvailable": false,
+        "exactIdsAvailable": true,
         "outcomesAvailable": false,
-        "comparisonRun": false
+        "comparisonRun": false,
+        "evidence": "Same-run production family-output artifacts are available for per-ID ID-set comparison; per-ID human review outcomes/timestamps are absent."
       },
       "allJobG8": {
         "referencePublishedCount": 5541,
-        "exactIdsAvailable": false,
+        "exactIdsAvailable": true,
         "outcomesAvailable": false,
-        "comparisonRun": false
+        "comparisonRun": false,
+        "evidence": "Same-run production family-output artifacts are available for per-ID ID-set comparison; per-ID human review outcomes/timestamps are absent."
       },
       "postgresReadbackFor10Nov": "not found",
       "result": "BLOCKED. Counts and the dated source are evidenced, but no checksum-verified 10 Nov archive and no matching 10 Nov PostgreSQL readback were available. Do not compare to the 6 Nov feed."
@@ -638,6 +644,11 @@
           "76cac4aef92904023a7e9cc3616837b5a5477732"
         ],
         "notExecuted": true
+      },
+      "artifactAudit": {
+        "checkedAt": "2026-11-10T13:17:48Z",
+        "runId": 42775839327,
+        "result": "Exactly two artifacts: service-admin-output and support-worker-output. Both contain output JSON; neither includes dated per-ID human review decisions/timestamps or final Published/Review outcome manifest."
       }
     },
     "websiteInventory": {
@@ -665,7 +676,7 @@
       "expiryOrPurgeRun": false,
       "mergeOrCutover": false
     },
-    "nextAction": "Before parity: use the existing CloudShell/S3 access to retrieve the exact s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/2026-11-10.zip object and record its byte count and SHA-256 in a dated 10 Nov source request; provide the matching 10 Nov per-ID human review decisions/timestamps and an isolated Preview run that stores and reads back decisions keyed to the same checksum and selector revision. Then run Administration ID/outcome comparison first (1,177 report reference), followed by all JobG8 categories (5,541). Do not use the 6 Nov feed."
+    "nextAction": "Complete and locally verify the feature-branch workflow that compares same-run production IDs with Python, stores Python decisions in isolated Neon Preview, reads them back, and retains a dated manifest. Then provide a fresh presigned URL for the exact 10 Nov S3 object in ONTAP_SAVED_FEED_URL; do not rerun the live feed. Full Published/Review outcome parity remains blocked unless same-run per-ID human review decisions and timestamps are captured. Never infer Review from absence in output files."
   },
   "branchHeadBeforeEvidenceChanges": "e225a64d840d8be0f6f898dd43c3f92b3692e3a4"
 }

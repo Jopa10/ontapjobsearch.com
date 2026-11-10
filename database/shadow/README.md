@@ -409,6 +409,37 @@ supported temporary file URL, verify its separately supplied SHA-256, and run
 later Preview build can attach decisions; the GitHub replay has no database
 credentials. Selection artifact extraction and decompression are bounded.
 
+Fresh-run writeback is a separate explicit Preview build mode,
+`fresh_selection_neon`. The branch workflow prepares a 100% raw-stage file from
+the very same dated archive used by Python, and retains it beside the compact
+Python decisions, outputs, per-ID manifest and a checksum handoff receipt. The
+Preview bootstrap verifies the supplied checksums before invoking
+`verify-fresh-selection-neon.mjs`. Before database access, that runner checks
+feed date, archive SHA-256, selector revision, dependency provenance, every raw
+ID/hash, every family output ID and the output checksum. It compares the
+Administration-classified exact ID set first against that date's report
+reference, then compares all JobG8 output IDs and each family/region ID set
+against same-run production output artifacts. These report counts are at the
+family-output stage, not the downstream live website inventory. It then imports
+the raw snapshot into isolated Neon Preview, stores compact per-ID Python
+decisions, reads them back and compares automated IDs/outcomes/reasons/gates/
+regions, then confirms replay adds nothing. Test jobs remain withheld; expiry, purge,
+publication and production writes are not invoked. Neon credentials stay in
+Vercel Preview, never GitHub Actions.
+
+The run's date comes from its dated source request and checksum receipt; no
+calendar date is fixed in the verifier. `stage-request.json` still names 6
+November, so this new mode has not been run against 10 November. The 10 November
+archive's byte count and SHA-256 are now recorded, but the dated request and a
+fresh presigned download URL still need to be prepared before execution. The
+feature-branch workflow itself remains a request-driven
+test harness, not a daily production schedule; the eventual live migration must
+consume each day's exact production feed and record that run's date/checksum.
+The 10 November output artifacts lack per-ID human-review decisions and
+timestamps. An ID absent from the output files is not assumed to be in Review;
+that final Published/Review parity remains blocked until same-run review
+evidence is retained.
+
 A no-write replay verifies the existing full evidence before reserving storage;
 it does not project another copy of rows already stored. New attachments still
 pass both projected and measured storage checks. A PostgreSQL-backed regression
