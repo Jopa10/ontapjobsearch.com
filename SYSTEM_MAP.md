@@ -251,7 +251,7 @@ This changes the trigger from every `main` push to a successful verified-page pu
 
 ## Validation state
 
-As reconciled from `pipeline/registers/region_category_slice_register.csv` on 31 October 2026, the register contains **239 LIVE rows**: Service Admin 64, Marketing 31, Customer Sales 28, Finance / Accounts 47, Support Worker 16, HR / Recruitment 19, Customer Service / Contact Centre 11 and Legal Assistant / Paralegal 23. A further 8 rows are CANDIDATE. The LIVE register is authoritative for family/region activation; activation does not itself prove deployed inventory.
+As reconciled from `pipeline/registers/region_category_slice_register.csv` on 10 November 2026 in this Preview branch, the register contains **239 LIVE rows** and **19 CANDIDATE rows**. The 11 new requested pairs remain candidates pending generated page data and exact job-ID reconciliation. The LIVE register is authoritative for family/region activation; activation does not itself prove deployed inventory.
 
 The full JobG8 workflow enforces the current **78 markets × eight families = 624 rows** diagnostic contract and up to 14 feed-date snapshots. `city-page-register.json` contains **66 active permanent family-city routes (65 Admin and office, one Support Worker)**; `broad-city-page-register.json` contains **41 active permanent all-jobs city routes** (registered activation state; deployed population requires separate verification). NHS feed isolation, the 20% Service Admin ceiling, the 4+1 display rhythm, Teaching Vacancies source isolation, deployment-built search/static live vacancy pages and publish-triggered Vercel CLI deployment with live-SHA verification remains the verified production architecture.
 
