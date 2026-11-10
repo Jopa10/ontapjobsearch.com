@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "status": "historical-5-6-nov-inventory-reconciliation-blocked; 10-nov-publication-evidence-reviewed",
+  "status": "10-nov-selector-to-postgres-parity-blocked; feature-workflow-evidence-retention-updated",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "branchHeadAtStart": "f5832961d415ee8604d91414609b7946d3c74df1",
@@ -542,5 +542,123 @@
       "deliveryConfirmed": false
     }
   },
-  "branchHeadAfterCheckpoint": "5d24ebdb564d69c2338e58cdccc0cdf71295cbd9"
+  "branchHeadAfterCheckpoint": "5d24ebdb564d69c2338e58cdccc0cdf71295cbd9",
+  "nov10SameFeedSelectorVsPostgresComparison": {
+    "recordedAt": "2026-11-10T11:00:00+00:00",
+    "stage": "3/5",
+    "scope": "Check exact 10 Nov JobG8 feed provenance and same-run ID-level Python selector versus PostgreSQL readback evidence. No selector replay or database access performed.",
+    "currentPr": {
+      "number": 336,
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "branch": "feat/neon-shadow-database",
+      "headBeforeEvidenceChanges": "e225a64d840d8be0f6f898dd43c3f92b3692e3a4"
+    },
+    "stagedRequest": {
+      "path": "database/shadow/stage-request.json",
+      "archiveDate": "2026-11-06",
+      "sourceRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
+      "mode": "fresh_selection_parity",
+      "attempt": 14,
+      "changedTo10Nov": false
+    },
+    "tenNovProductionFeed": {
+      "workflowRunId": 42775839327,
+      "conclusion": "success",
+      "downloadedAt": "2026-11-10T07:31:09Z",
+      "reportedFeedDate": "2026-11-10",
+      "feedTimestamp": "2026-11-10T07:05:28",
+      "receivedRows": 46440,
+      "downloadedBytes": 37926215,
+      "archivedKey": "s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/2026-11-10.zip",
+      "sha256": "not-recorded-in-daily-workflow-log",
+      "exactArchiveAvailability": "dated archive confirmed by production workflow success and archive log; exact bytes not verified against a downloaded copy in this review"
+    },
+    "dailyCategoryReport": {
+      "path": "pipeline/reports-daily/jobg8-feed-category-profile.csv",
+      "feedDate": "2026-11-10",
+      "administration": {
+        "category": "Administration",
+        "received": 1793,
+        "publishedCount": 1177,
+        "publishedStageVerified": true
+      },
+      "allJobG8": {
+        "publishedCount": 5541,
+        "publishedStageVerified": true
+      },
+      "note": "The report columns are total_jobs, published_jobg8_jobs, jobg8_category, count, published_count. Therefore 1,177 is the Administration published output reference and 5,541 is the total across listed JobG8 categories."
+    },
+    "parity": {
+      "administration": {
+        "referencePublishedCount": 1177,
+        "exactIdsAvailable": false,
+        "outcomesAvailable": false,
+        "comparisonRun": false
+      },
+      "allJobG8": {
+        "referencePublishedCount": 5541,
+        "exactIdsAvailable": false,
+        "outcomesAvailable": false,
+        "comparisonRun": false
+      },
+      "postgresReadbackFor10Nov": "not found",
+      "result": "BLOCKED. Counts and the dated source are evidenced, but no checksum-verified 10 Nov archive and no matching 10 Nov PostgreSQL readback were available. Do not compare to the 6 Nov feed."
+    },
+    "workflowEvidenceReview": {
+      "existingArtifacts": {
+        "selectorEvidenceRetentionDays": 7,
+        "recoveryRetentionDays": 2,
+        "includesPerIdSelectorDecisionEvidence": true,
+        "includesHumanReviewDecisionAndTimestamp": false,
+        "includesPostgresReadback": false,
+        "includesFinalPublishedReviewIds": false
+      },
+      "update": {
+        "addedFile": "database/shadow/build_per_id_manifest.py",
+        "updatedFile": ".github/workflows/test-neon-jobg8-staged.yml",
+        "selectorAndRecoveryArtifactRetentionDays": 90,
+        "addsDatedPerIdManifest": true,
+        "includesPerIdAutomatedOutcomesAndPythonOutputMembership": true,
+        "missingFieldsExplicitlyMarked": [
+          "human review decisions/timestamps when not present in selector evidence",
+          "PostgreSQL readback",
+          "final website Published/Review IDs"
+        ],
+        "commits": [
+          "b4b8235b6700f345fed9f12ff3c97990ecbe8a04",
+          "76cac4aef92904023a7e9cc3616837b5a5477732"
+        ],
+        "notExecuted": true
+      }
+    },
+    "websiteInventory": {
+      "userProvidedReference": {
+        "jobg8UniqueLive": 5457,
+        "otherSourcesUniqueLive": 360,
+        "sitewideUniqueLive": 5817
+      },
+      "previouslyRecorded10NovLiveSourceReport": {
+        "jobg8": 5594,
+        "external": 363,
+        "allSources": 5957,
+        "workflowRunId": 42787470863
+      },
+      "reconciled": false,
+      "note": "These are downstream website/source-inventory measures, separate from the 5,541 category-profile published count. The observed 10 Nov report differs from the supplied reference; reconcile by run/date/ID later and do not infer a cause."
+    },
+    "safety": {
+      "exactFeedReplayPerformed": false,
+      "neonAccessed": false,
+      "neonChanged": false,
+      "productionChanged": false,
+      "productionPublishTriggered": false,
+      "emailSent": false,
+      "expiryOrPurgeRun": false,
+      "mergeOrCutover": false
+    },
+    "nextAction": "Before parity: use the existing CloudShell/S3 access to retrieve the exact s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/2026-11-10.zip object and record its byte count and SHA-256 in a dated 10 Nov source request; provide the matching 10 Nov per-ID human review decisions/timestamps and an isolated Preview run that stores and reads back decisions keyed to the same checksum and selector revision. Then run Administration ID/outcome comparison first (1,177 report reference), followed by all JobG8 categories (5,541). Do not use the 6 Nov feed."
+  },
+  "branchHeadBeforeEvidenceChanges": "e225a64d840d8be0f6f898dd43c3f92b3692e3a4"
 }
