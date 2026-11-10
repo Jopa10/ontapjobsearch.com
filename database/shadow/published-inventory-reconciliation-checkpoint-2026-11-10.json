@@ -1,0 +1,531 @@
+{
+  "date": "2026-11-10",
+  "status": "historical-5-6-nov-inventory-reconciliation-blocked; 10-nov-publication-evidence-reviewed",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "branchHeadAtStart": "f5832961d415ee8604d91414609b7946d3c74df1",
+  "pullRequest": {
+    "number": 336,
+    "state": "open",
+    "draft": true,
+    "merged": false
+  },
+  "measuredAt": "2026-11-09T13:43:09.569Z",
+  "scope": "Read-only review of already-published 5/6 November inventory evidence. No selector replay or selector-to-output comparison rerun.",
+  "sources": {
+    "nov5": {
+      "productionDeploymentId": "dpl_EHDpxjGGQC9zvFQRHDozh46xFCQ3",
+      "productionCommit": "2e58aee754c903daae3bde89674d20b62b45564e",
+      "sitemapLastmod": "2026-11-05T09:05:59.237Z",
+      "sitemapUniqueJobIds": 5312,
+      "liveReportArtifactId": 13403281367,
+      "liveCounts": {
+        "allSources": 5396,
+        "jobg8": 4958
+      },
+      "alreadyCompletedParity": {
+        "selectorIds": 4946,
+        "postReviewOutputIds": 4946,
+        "difference": 0
+      },
+      "previouslyNotedActiveCountExcess": 12
+    },
+    "nov6": {
+      "productionDeploymentId": "dpl_E2umu7RdV5FpmQgefSGyrwjMNgdF",
+      "productionCommit": "8787da7cb19b0a9d16c57377eef42c2f922e043f",
+      "sitemapLastmod": "2026-11-06T08:53:40.488Z",
+      "sitemapUniqueJobIds": 5276,
+      "liveReportArtifactId": 13491405496,
+      "liveCounts": {
+        "allSources": 5418,
+        "jobg8": 4977
+      },
+      "alreadyCompletedParity": {
+        "selectorIds": 4904,
+        "postReviewOutputIds": 4904,
+        "difference": 0
+      },
+      "previouslyNotedActiveCountExcess": 73
+    }
+  },
+  "manualReviewDecisions": {
+    "method": "Parsed ONTAP_PERSISTENT_DECISIONS_V1 from review files at each dated production commit and intersected decision IDs with that date's sitemap IDs. All recorded decision dates precede the publication dates.",
+    "nov5": [
+      {
+        "family": "service-admin",
+        "blobSha": "3471db5560a2e7978865ef2185319d7c7d3eb0fd",
+        "storedDecisionCount": 1691,
+        "storedActions": {
+          "select": 1174,
+          "exclude": 517
+        },
+        "sitemapMatches": {
+          "select": 96,
+          "exclude": 3
+        },
+        "matchedIds": [
+          "108062183",
+          "2152925",
+          "2155607",
+          "2157148",
+          "2164237",
+          "2165709",
+          "2165745",
+          "2165855",
+          "2169203",
+          "2172257",
+          "2174234",
+          "2174236",
+          "2175492",
+          "23643_225104066",
+          "23643_225334218",
+          "23643_225367093",
+          "23643_225496399",
+          "23643_225629342",
+          "23643_225696188",
+          "23643_225696478",
+          "23643_225696631",
+          "23643_225698168",
+          "23643_225698676",
+          "23643_225698771",
+          "23643_225698846",
+          "23643_225699848",
+          "23643_225700463",
+          "23643_225701876",
+          "23643_225702204",
+          "23643_225702765",
+          "23643_225703101",
+          "23643_225703679",
+          "23643_225703687",
+          "23643_225704275",
+          "23643_225705535",
+          "23643_225706585",
+          "23643_225706886",
+          "23643_225707509",
+          "23643_225708270",
+          "23643_225709208",
+          "23643_225714726",
+          "23643_225714759",
+          "23643_225715477",
+          "23643_225716005",
+          "23643_225716342",
+          "23643_225717737",
+          "23643_225717756",
+          "23643_225718910",
+          "23643_225719266",
+          "23643_225719494",
+          "23643_225719729",
+          "23643_225720634",
+          "23643_225721284",
+          "23643_225721610",
+          "23643_225721850",
+          "23643_225722164",
+          "23643_225722938",
+          "23643_225724868",
+          "23643_225725644",
+          "23643_225726044",
+          "23643_225726635",
+          "23643_225726636",
+          "23643_225727890",
+          "23643_225728034",
+          "23643_225728290",
+          "23643_225730499",
+          "23643_225730878",
+          "23643_225730889",
+          "23643_225731820",
+          "23643_225732789",
+          "23643_225733368",
+          "23643_225733777",
+          "23643_225734026",
+          "23643_225735615",
+          "23643_225735976",
+          "23643_225736170",
+          "23643_225739232",
+          "23643_225739294",
+          "23643_225740239",
+          "23643_225740599",
+          "23643_225743045",
+          "23643_225743111",
+          "23643_225743229",
+          "23643_225743545",
+          "23643_225744140",
+          "23643_225745890",
+          "23643_225746065",
+          "23643_225747598",
+          "23643_225751758",
+          "23643_225752169",
+          "23643_225752697",
+          "23643_225753839",
+          "23643_225754324",
+          "23643_225754589",
+          "23643_225754850",
+          "23643_225755741",
+          "23643_225756915",
+          "23643_225759198",
+          "23643_225759283"
+        ]
+      },
+      {
+        "family": "support-worker",
+        "blobSha": "3ceb32821a2170aee73a536497d6c7853cd9cb51",
+        "storedDecisionCount": 110,
+        "storedActions": {
+          "select": 83,
+          "exclude": 27
+        },
+        "sitemapMatches": {
+          "select": 11,
+          "exclude": 0
+        },
+        "matchedIds": [
+          "23643_225046457",
+          "23643_225686112",
+          "23643_225710192",
+          "23643_225712948",
+          "23643_225713768",
+          "23643_225715163",
+          "23643_225721722",
+          "23643_225724515",
+          "23643_225735406",
+          "23643_225736598",
+          "23643_225762327"
+        ]
+      }
+    ],
+    "nov6": [
+      {
+        "family": "service-admin",
+        "blobSha": "29e03d34422b2a766fd96d56accaf9bff5b8e5ed",
+        "storedDecisionCount": 1691,
+        "storedActions": {
+          "select": 1174,
+          "exclude": 517
+        },
+        "sitemapMatches": {
+          "select": 81,
+          "exclude": 3
+        },
+        "matchedIds": [
+          "108062183",
+          "2152925",
+          "2155607",
+          "2157148",
+          "2164237",
+          "2165709",
+          "2165855",
+          "2169203",
+          "2174234",
+          "2174236",
+          "2175492",
+          "23643_225104066",
+          "23643_225334218",
+          "23643_225367093",
+          "23643_225496399",
+          "23643_225629342",
+          "23643_225698168",
+          "23643_225701876",
+          "23643_225702204",
+          "23643_225703101",
+          "23643_225703679",
+          "23643_225703687",
+          "23643_225704275",
+          "23643_225705535",
+          "23643_225706585",
+          "23643_225706886",
+          "23643_225707509",
+          "23643_225708270",
+          "23643_225709208",
+          "23643_225714726",
+          "23643_225714759",
+          "23643_225715477",
+          "23643_225716005",
+          "23643_225716342",
+          "23643_225717737",
+          "23643_225717756",
+          "23643_225718910",
+          "23643_225719266",
+          "23643_225719494",
+          "23643_225719729",
+          "23643_225720634",
+          "23643_225721284",
+          "23643_225721850",
+          "23643_225722164",
+          "23643_225722938",
+          "23643_225724868",
+          "23643_225725644",
+          "23643_225726044",
+          "23643_225726635",
+          "23643_225726636",
+          "23643_225727890",
+          "23643_225728034",
+          "23643_225728290",
+          "23643_225730499",
+          "23643_225730889",
+          "23643_225731820",
+          "23643_225732789",
+          "23643_225733777",
+          "23643_225734026",
+          "23643_225735615",
+          "23643_225735976",
+          "23643_225736170",
+          "23643_225739232",
+          "23643_225739294",
+          "23643_225740239",
+          "23643_225740599",
+          "23643_225743045",
+          "23643_225743111",
+          "23643_225743229",
+          "23643_225743545",
+          "23643_225744140",
+          "23643_225745890",
+          "23643_225746065",
+          "23643_225747598",
+          "23643_225751758",
+          "23643_225752169",
+          "23643_225752697",
+          "23643_225753839",
+          "23643_225754324",
+          "23643_225754589",
+          "23643_225754850",
+          "23643_225755741",
+          "23643_225756915",
+          "23643_225759198"
+        ]
+      },
+      {
+        "family": "support-worker",
+        "blobSha": "50e475368df177d08611d4d36529c4352a534012",
+        "storedDecisionCount": 110,
+        "storedActions": {
+          "select": 83,
+          "exclude": 27
+        },
+        "sitemapMatches": {
+          "select": 11,
+          "exclude": 0
+        },
+        "matchedIds": [
+          "23643_225046457",
+          "23643_225686112",
+          "23643_225710192",
+          "23643_225712948",
+          "23643_225713768",
+          "23643_225715163",
+          "23643_225721722",
+          "23643_225724515",
+          "23643_225735406",
+          "23643_225736598",
+          "23643_225762327"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Sitemap membership is not the exact dated post-review output ID list, so manual intersections do not explain the active-count excesses.",
+    "Archived live reports contain source counts and first-seen histories, not a complete active JobG8 ID inventory.",
+    "Prior post-review output artifact URLs for 5/6 November now return 404; their exact parity results remain in the existing checkpoint."
+  ],
+  "safety": {
+    "databaseAccessed": false,
+    "databaseChanged": false,
+    "productionChanged": false,
+    "selectorComparisonsRepeated": false,
+    "compactIntegrationRun": false,
+    "expiryOrPurgeRun": false,
+    "emailsSent": false,
+    "codeInspectionReadOnly": true,
+    "repositoryCheckpointUpdated": true,
+    "artifactInspectionReadOnly": true
+  },
+  "nextAction": "Keep the 5/6 Nov historical reconciliation incomplete because its exact active JobG8 lists and generated homepage lists are unavailable. Do not rerun the completed comparisons or recovery search. Preserve full dated source and published ID lists plus checksums with each future comparison; then continue with separately gated Preview work.",
+  "homepageCountMethod": {
+    "codeAtNov6ProductionCommit": "8787da7cb19b0a9d16c57377eef42c2f922e043f",
+    "homepageFile": {
+      "path": "app/page.tsx",
+      "blobSha": "3d70a58d5707e867b157567b35587165b9edda5d",
+      "logic": "const jobs = getPublishedJobs(); badge renders jobs.length."
+    },
+    "publishedJobsFile": {
+      "path": "lib/published-jobs.ts",
+      "blobSha": "70eb7fa6e5d7f5cfc679bbf4a2dfd61be9cc25df",
+      "logic": "getPublishedJobs() returns imported generated/published-jobs.json."
+    },
+    "generatedDataAvailability": "generated/published-jobs.json is absent from the dated Git commit; it is a build-generated file, so the exact historical homepage ID set/count cannot be recalculated from the source tree alone.",
+    "tuesdayReviewedAt": "2026-11-10",
+    "tuesdayOutcome": "The dated production source commit does not contain generated/published-jobs.json; saved publication artifacts contain city outputs and source/new-job reports, not the complete homepage list."
+  },
+  "liveSourceCountMethod": {
+    "codeAtNov6ProductionCommit": "8787da7cb19b0a9d16c57377eef42c2f922e043f",
+    "file": {
+      "path": "pipeline/scripts/live_job_source_counter.py",
+      "blobSha": "1f8a1dd019b678581665fb73e68c9d8f4fd4cbe7"
+    },
+    "logic": "Reads valid job rows from app JSON files, applies as-of closing-date rules, then deduplicates by source job ID and vacancy fingerprint before source counts."
+  },
+  "artifactRecovery": {
+    "checkedAt": "2026-11-09T13:35:18.222Z",
+    "method": "Read-only GitHub Actions artifact metadata and ZIP file-list inspection; no workflow reruns.",
+    "nov5": {
+      "publishWorkflowRunId": 42002121492,
+      "liveSourceReportArtifact": {
+        "id": 13403281367,
+        "retained": true,
+        "expiresAt": "2026-12-05T09:27:28Z"
+      },
+      "activeCityPageOutputArtifact": {
+        "id": 13403236343,
+        "retained": true,
+        "expiresAt": "2026-12-05T09:27:31Z",
+        "zipFiles": 422,
+        "appCityJsonFiles": 289,
+        "generatedPublishedJobsJsonPresent": false,
+        "nonCityAppJsonPresent": false
+      }
+    },
+    "nov6": {
+      "publishWorkflowRunId": 42192345458,
+      "liveSourceReportArtifact": {
+        "id": 13491405496,
+        "retained": true,
+        "expiresAt": "2026-12-06T09:08:36Z"
+      },
+      "activeCityPageOutputArtifact": {
+        "id": 13490721135,
+        "retained": true,
+        "expiresAt": "2026-12-06T09:08:39Z",
+        "zipFiles": 422,
+        "appCityJsonFiles": 289,
+        "generatedPublishedJobsJsonPresent": false,
+        "nonCityAppJsonPresent": false
+      }
+    },
+    "result": "The retained active-city-page-output archives contain city page JSON and review files only; neither provides the complete homepage list or complete active JobG8 inventory. Existing artifact inspection therefore does not close the 12/73 reconciliation.",
+    "selectorOutputArtifacts": "Some dated selector output artifacts also remain available, but the already-completed selector-to-post-review-output comparisons were not repeated.",
+    "additionalRunsChecked": [
+      {
+        "workflow": "Apply and publish Ontap daily review",
+        "runId": 41995626820,
+        "date": "2026-11-05",
+        "artifacts": []
+      },
+      {
+        "workflow": "Apply and publish Ontap daily review",
+        "runId": 42187552927,
+        "date": "2026-11-06",
+        "artifacts": []
+      },
+      {
+        "workflow": "Apply and publish Ontap daily review",
+        "runId": 42089554168,
+        "date": "2026-11-05",
+        "artifacts": []
+      },
+      {
+        "workflow": "Apply and publish Ontap daily review",
+        "runId": 42271211956,
+        "date": "2026-11-06",
+        "artifacts": []
+      }
+    ],
+    "conclusion": "No retained final apply/publish run artifacts were found; the retained city output files are incomplete for full active-inventory reconciliation."
+  },
+  "planDeviationOrAddition": "Evidence-retention step may be needed for future dated reconciliations because final apply/publish runs have no retained artifacts.",
+  "previousCheckpoint": "database/shadow/published-inventory-reconciliation-checkpoint-2026-11-09.json",
+  "updatedAt": "2026-11-10",
+  "recoveryAttemptDisposition": {
+    "priorAttemptDate": "2026-11-09",
+    "result": "The single read-only recovery search is already complete in the prior checkpoint. No complete 5/6 Nov active JobG8 ID inventories or final generated/published-jobs.json lists were recovered.",
+    "actionThisRun": "Did not repeat the recovery search or any completed selector/publication comparison.",
+    "nextStep": "Retain full source-labelled active JobG8 IDs and full generated/published job IDs, timestamp, checksum, selector results, and human review choices with each future comparison."
+  },
+  "tuesdayPublicationEvidence": {
+    "date": "2026-11-10",
+    "workflows": [
+      {
+        "name": "Run full JobG8 daily process",
+        "runId": 42775839327,
+        "conclusion": "success",
+        "startedAt": "2026-11-10T07:31:09Z",
+        "completedAt": "2026-11-10T08:20:10Z",
+        "artifacts": [
+          {
+            "id": 13746955350,
+            "name": "service-admin-output",
+            "expiresAt": "2026-11-17T08:20:05Z"
+          },
+          {
+            "id": 13746187400,
+            "name": "support-worker-output",
+            "expiresAt": "2026-11-17T08:20:06Z"
+          }
+        ]
+      },
+      {
+        "name": "Publish verified pages",
+        "runId": 42787470863,
+        "conclusion": "success",
+        "startedAt": "2026-11-10T09:03:18Z",
+        "completedAt": "2026-11-10T09:06:52Z",
+        "artifacts": [
+          {
+            "id": 13749804358,
+            "name": "live-job-source-report-2026-11-10",
+            "expiresAt": "2026-12-10T09:06:45Z"
+          },
+          {
+            "id": 13749489568,
+            "name": "active-city-page-output",
+            "expiresAt": "2026-12-10T09:06:48Z"
+          }
+        ]
+      },
+      {
+        "name": "Deploy Ontap production after publish",
+        "runId": 42787977876,
+        "conclusion": "success",
+        "startedAt": "2026-11-10T09:06:58Z",
+        "completedAt": "2026-11-10T09:19:28Z",
+        "artifacts": [
+          {
+            "id": 13751711078,
+            "name": "verified-production-sha",
+            "expiresAt": "2026-11-17T09:19:23Z"
+          }
+        ]
+      }
+    ],
+    "liveSourceReport": {
+      "artifactId": 13749804358,
+      "counts": {
+        "allSources": 5957,
+        "jobG8": 5594,
+        "external": 363
+      },
+      "files": [
+        "live-job-source-count-2026-11-10.csv",
+        "newly-published-jobs-2026-11-10.csv",
+        "live-job-source-history.csv",
+        "published-job-first-seen-history.csv"
+      ],
+      "includesCompleteActiveJobG8Ids": false
+    },
+    "activeCityOutput": {
+      "artifactId": 13749489568,
+      "containsCityPageJsonAndReviewFiles": true,
+      "containsGeneratedPublishedJobsJson": false,
+      "completeHomepageJobIdList": false
+    },
+    "generatedHomepageFile": {
+      "path": "generated/published-jobs.json",
+      "availableAtProductionSourceCommit": false
+    },
+    "interpretation": "Tuesday’s artifacts provide source counts, newly-published IDs, city output JSON and a verified production SHA. They do not provide the complete active JobG8 ID inventory or full generated homepage list. They cannot explain or substitute for the missing 5/6 Nov inventories.",
+    "productionStateChangedByThisReview": false,
+    "databaseAccessed": false,
+    "databaseChanged": false,
+    "selectorComparisonsRepeated": false,
+    "productionPublishingTriggeredByThisReview": false,
+    "emailsSentByThisReview": false,
+    "expiryOrPurgeRun": false
+  }
+}
