@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "status": "10-nov-selector-to-postgres-parity-blocked; feature-workflow-evidence-retention-updated",
+  "status": "10-nov-neon-readback-passed; production-selector-parity-unresolved",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "branchHeadAtStart": "f5832961d415ee8604d91414609b7946d3c74df1",
@@ -432,7 +432,7 @@
   },
   "planDeviationOrAddition": "Evidence-retention step may be needed for future dated reconciliations because final apply/publish runs have no retained artifacts.",
   "previousCheckpoint": "database/shadow/published-inventory-reconciliation-checkpoint-2026-11-09.json",
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-10T16:48:48.130Z",
   "recoveryAttemptDisposition": {
     "priorAttemptDate": "2026-11-09",
     "result": "The single read-only recovery search is already complete in the prior checkpoint. No complete 5/6 Nov active JobG8 ID inventories or final generated/published-jobs.json lists were recovered.",
@@ -524,7 +524,7 @@
       "path": "generated/published-jobs.json",
       "availableAtProductionSourceCommit": false
     },
-    "interpretation": "Tuesday\u2019s artifacts provide source counts, newly-published IDs, city output JSON and a verified production SHA. They do not provide the complete active JobG8 ID inventory or full generated homepage list. They cannot explain or substitute for the missing 5/6 Nov inventories.",
+    "interpretation": "Tuesday’s artifacts provide source counts, newly-published IDs, city output JSON and a verified production SHA. They do not provide the complete active JobG8 ID inventory or full generated homepage list. They cannot explain or substitute for the missing 5/6 Nov inventories.",
     "productionStateChangedByThisReview": false,
     "databaseAccessed": false,
     "databaseChanged": false,
@@ -678,5 +678,49 @@
     },
     "nextAction": "Complete and locally verify the feature-branch workflow that compares same-run production IDs with Python, stores Python decisions in isolated Neon Preview, reads them back, and retains a dated manifest. Then provide a fresh presigned URL for the exact 10 Nov S3 object in ONTAP_SAVED_FEED_URL; do not rerun the live feed. Full Published/Review outcome parity remains blocked unless same-run per-ID human review decisions and timestamps are captured. Never infer Review from absence in output files."
   },
-  "branchHeadBeforeEvidenceChanges": "e225a64d840d8be0f6f898dd43c3f92b3692e3a4"
+  "branchHeadBeforeEvidenceChanges": "e225a64d840d8be0f6f898dd43c3f92b3692e3a4",
+  "latestNeonReadback": {
+    "recordedAt": "2026-11-10T16:48:48.131Z",
+    "sourceEvidence": {
+      "workflowRunId": 42840691383,
+      "artifactId": 13780145442,
+      "feedDate": "2026-11-10",
+      "selectorReplayRefetched": false
+    },
+    "workflowRequestAttempt": 27,
+    "previewDeployment": {
+      "id": "dpl_2RSSuWKfsToSw6qJ7bqsKH8c5yw5",
+      "url": "https://ontapjobsearch-136znevpu-ontap1.vercel.app",
+      "ready": true
+    },
+    "result": {
+      "neonWriteReadback": "passed",
+      "neonRunId": "6434af3b-a4cf-5a88-9b46-717220d0aa6f",
+      "rawImported": 46434,
+      "decisionsReadBack": 371472,
+      "replayImportVerified": true,
+      "replaySelectionVerified": true,
+      "jobsWithheld": true,
+      "expiryEnabled": false,
+      "purgeExecuted": false,
+      "productionChanged": false
+    },
+    "productionComparison": {
+      "exactParity": false,
+      "administration": {
+        "selectorIds": 1171,
+        "productionIds": 1177,
+        "productionOnlyIds": 6,
+        "selectorOnlyIds": 0
+      },
+      "allJobG8": {
+        "selectorIds": 5521,
+        "productionIds": 5541,
+        "productionOnlyUniqueIds": 20,
+        "selectorOnlyIds": 0,
+        "productionOnlyScopePlacements": 32
+      },
+      "interpretation": "Same-date production output includes manual-selection stages, but the saved selector evidence has no per-ID human review decisions. The 20 production-only IDs therefore remain unexplained at per-ID level; exact production parity is not claimed."
+    }
+  }
 }
