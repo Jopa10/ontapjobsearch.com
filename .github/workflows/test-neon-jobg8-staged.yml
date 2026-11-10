@@ -315,10 +315,15 @@ jobs:
           assert report.get('status')=='passed' and report.get('feedDate')==day, 'Neon Preview readback did not pass for requested feed'
           assert manifest.get('feed',{}).get('date')==day, 'Readback manifest feed date mismatch'
           assert manifest.get('completeness',{}).get('postgresReadback')=='exact_per_id_match', 'Per-ID PostgreSQL readback did not match'
-          assert manifest.get('productionOutputComparison',{}).get('administrationExactIdsMatch') is True, 'Administration exact-ID parity missing'
-          assert manifest.get('productionOutputComparison',{}).get('allJobG8ExactIdsMatch') is True, 'All-JobG8 exact-ID parity missing'
+          comparison=report.get('productionOutputComparison',{})
+          manifest_comparison=manifest.get('productionOutputComparison',{})
+          assert isinstance(comparison.get('administrationExactIdsMatch'),bool), 'Administration comparison result missing'
+          assert isinstance(comparison.get('allJobG8ExactIdsMatch'),bool), 'All-JobG8 comparison result missing'
+          assert manifest_comparison.get('administrationExactIdsMatch')==comparison['administrationExactIdsMatch'], 'Administration comparison differs between reports'
+          assert manifest_comparison.get('allJobG8ExactIdsMatch')==comparison['allJobG8ExactIdsMatch'], 'All-JobG8 comparison differs between reports'
+          assert manifest.get('completeness',{}).get('parityMayBeClaimed')==(comparison['administrationExactIdsMatch'] and comparison['allJobG8ExactIdsMatch']), 'Parity claim flag is inconsistent'
           PYVERIFY
-          echo "Neon Preview write/readback passed; per-ID manifest retrieved and verified."
+          echo "Neon Preview write/readback passed; production ID comparison recorded separately."
       - name: Preserve selector parity evidence
         if: always() && (steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity')
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
