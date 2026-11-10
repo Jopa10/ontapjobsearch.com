@@ -1,11 +1,15 @@
 {
   "archiveDate": "2026-11-10",
   "sourceRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
-  "stages": [20, 50, 100],
+  "stages": [
+    20,
+    50,
+    100
+  ],
   "maximumDatabaseBytes": 838860800,
-  "purpose": "Retry Neon Preview readback from exact saved 10 November selector evidence via direct Vercel CLI; no selector replay or feed refetch.",
+  "purpose": "Retry Neon Preview write/readback from exact saved 10 November selector evidence; run verifier in an isolated protected Preview build so Vercel supplies sensitive Preview settings. No selector replay or feed refetch.",
   "sourceMode": "owner_pinned_saved_archive",
-  "attempt": 23,
+  "attempt": 24,
   "mode": "fresh_selection_parity",
   "reuseEvidenceRunId": 42840691383,
   "reuseEvidenceArtifactId": 13780145442
