@@ -304,8 +304,8 @@ jobs:
           "$cli_dir/node_modules/.bin/vercel" deploy --yes --token="$VERCEL_TOKEN" --scope ontap1 2>&1 | tee "$deploy_log"
           deployment_url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$deploy_log" | tail -n 1)"
           test -n "$deployment_url"
-          "$cli_dir/node_modules/.bin/vercel" curl /report.json --deployment "$deployment_url" --token="$VERCEL_TOKEN" > "$work/neon-readback-report.json"
-          "$cli_dir/node_modules/.bin/vercel" curl /per-id-readback-manifest.json --deployment "$deployment_url" --token="$VERCEL_TOKEN" > "$work/per-id-readback-manifest.json"
+          "$cli_dir/node_modules/.bin/vercel" curl /report.json --deployment "$deployment_url" --scope ontap1 > "$work/neon-readback-report.json"
+          "$cli_dir/node_modules/.bin/vercel" curl /per-id-readback-manifest.json --deployment "$deployment_url" --scope ontap1 > "$work/per-id-readback-manifest.json"
           python - "$work" "${{ steps.request.outputs.archive_date }}" <<'PYVERIFY'
           import json, sys
           from pathlib import Path
