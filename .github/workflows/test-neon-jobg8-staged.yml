@@ -3,6 +3,7 @@ on:
   push:
     branches: [feat/neon-shadow-database]
     paths: [database/shadow/stage-request.json]
+  workflow_dispatch:
 permissions:
   contents: read
   actions: read
