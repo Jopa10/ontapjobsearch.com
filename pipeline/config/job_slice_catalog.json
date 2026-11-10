@@ -310,6 +310,10 @@
       "slug": "lancashire-central",
       "anchor_town": "Preston"
     },
+    "Lancashire - Blackpool & Fylde": {
+      "slug": "blackpool-fylde",
+      "anchor_town": "Blackpool"
+    },
     "North Wales - East": {
       "slug": "north-wales-east",
       "anchor_town": "Wrexham"
