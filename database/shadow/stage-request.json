@@ -7,10 +7,10 @@
     100
   ],
   "maximumDatabaseBytes": 838860800,
-  "purpose": "Complete the exact saved 10 November selector Neon readback and GitHub report verification; Preview Neon roundtrip already passed and all records remain withheld. Production ID parity remains separately reported as unresolved.",
+  "purpose": "Use the exact saved 10 November selector evidence from run 428316, artifact 13775030527. Skip feed fetch and selector replay; perform isolated Neon Preview write/readback, then validate the Administration reference stage before any Published parity claim. Production remains read-only.",
   "sourceMode": "owner_pinned_saved_archive",
-  "attempt": 28,
+  "attempt": 29,
   "mode": "fresh_selection_parity",
-  "reuseEvidenceRunId": 42840691383,
-  "reuseEvidenceArtifactId": 13780145442
+  "reuseEvidenceRunId": 42831639152,
+  "reuseEvidenceArtifactId": 13775030527
 }
