@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 58
+- automatic include: 7
+- automatic review: 55
 - automatic exclude: 0
-- effective include: 5
-- effective review: 58
+- effective include: 7
+- effective review: 55
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (7)
 
 ---
 action: 
@@ -33,6 +33,42 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Bournemouth, BH7 6JF
 source: NHS Jobs
 job_id: nhs-5694960
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-2255955
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Account Manager
+company: Rise Technical Recruitment - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225813896
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Administrator
+company: Tru Talent - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225813746
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -64,18 +100,6 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Administrator
-company: Auto Skills UK - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225730020
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Workflow Administrator
 company: Shore Medical PCN
 location: Bournemouth, BH2 5QR
@@ -84,7 +108,7 @@ job_id: nhs-5706522
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (55)
 
 ---
 action: 
@@ -215,30 +239,6 @@ company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2154176
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Brand & Creative Manager - Hands-On Leadership. Travel
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2111426
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Brand & Creative Manager - Hands-On Leadership. Travel
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225712285
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -486,30 +486,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Operations Lead - Campaigns, Creative & Communications
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225712182
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Operations Lead - Campaigns, Creative & Communications. Travel
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2111341
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Media Sales Executive
 company: Dovetail Recruitment Ltd - Agency - Permanent
 location: Ferndown
@@ -618,18 +594,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Clerk
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2113654
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchasing Administrator
 company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Poole
@@ -659,6 +623,30 @@ company: Aspire Jobs - Agency - Permanent
 location: Beaminster
 source: JobG8
 job_id: jobg8-23643_225616407
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Dorset HealthCare University NHS Foundation Trust
+location: Poole, BH15 2NT
+source: NHS Jobs
+job_id: nhs-5716637
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Bridport, DT65DR
+source: NHS Jobs
+job_id: nhs-5713414
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -738,23 +726,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Social Media Executive - Travel Content, Video & Community
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
+title: Supply Chain Administrator
+company: Team Jobs - Commercial - Agency - Permanent
+location: Poole
 source: JobG8
-job_id: jobg8-2111486
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Media Executive - Travel Content, Video & Community
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225712305
+job_id: jobg8-23643_225815784
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -767,6 +743,18 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Christchurch, BH23 3AF
 source: NHS Jobs
 job_id: nhs-5692257
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Finance Assistant
+company: Team Jobs - Commercial - Agency - Temporary
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225817065
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

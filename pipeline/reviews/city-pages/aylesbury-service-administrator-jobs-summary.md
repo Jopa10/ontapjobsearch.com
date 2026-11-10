@@ -4,8 +4,8 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 96
+- automatic include: 4
+- automatic review: 97
 - automatic exclude: 0
-- effective include: 3
-- effective review: 96
+- effective include: 4
+- effective review: 97
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Primary Care Management Solutions Ltd
+location: Aylesbury, HP21 8TR
+source: NHS Jobs
+job_id: nhs-5717360
+reason: Exact approved Aylesbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Project Co-ordinator
 company: Adecco - Agency - Permanent
 location: Aylesbury
@@ -60,7 +72,7 @@ job_id: jobg8-23643_225761154
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (96)
+## REVIEW (97)
 
 ---
 action: 
@@ -258,11 +270,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Amazon PPC Executive
-company: FS1 Recruitment - Agency - Permanent
+title: Afternoon Receptionist
+company: Osborne Appointments - Agency - Temporary
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-23643_225609420
+job_id: jobg8-23643_225816827
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -498,6 +510,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Digital Marketing Specialist
+company: Response Personnel Ltd - Agency - Contract
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225812911
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Document Controller
 company: Envelis Limited - Agency - Permanent
 location: Buckinghamshire
@@ -539,6 +563,18 @@ company: E-Act Ousedale School
 location: Newport Pagnell
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-e-act-ousedale-school
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Facilities Account Coordinator
+company: Aspire Personnel Ltd - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225789466
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -635,6 +671,18 @@ company: Options Resourcing Ltd - Agency - Temporary
 location: High Wycombe
 source: JobG8
 job_id: jobg8-23643_225786844
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Hr Administrator
+company: The Bukola Group - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225817018
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -774,11 +822,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Coordinator
-company: Journey Recruitment Ltd - Agency - Permanent
+title: Marketing Manager
+company: Connells Group HQ - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225746573
+job_id: jobg8-2243973
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -786,11 +834,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Manager
-company: Connells Group HQ - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2243973
+title: Medical Receptionist
+company: Primary Care Management Solutions Ltd
+location: High Wycombe, HP135DN
+source: NHS Jobs
+job_id: nhs-5717373
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -935,18 +983,6 @@ company: Trinity Resource Solutions - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225775806
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Procurement Assistant
-company: Trinity Resource Solutions - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225796525
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -1146,6 +1182,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2256263
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Technical Administrator
 company: Altitude-Recruitment Limited - Agency - Permanent
 location: Milton Keynes
@@ -1170,18 +1218,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Temporary HR Administrator
-company: Osborne Appointments - Agency - Temporary
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225761685
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Vehicle Pricing Administrator
 company: Aspire Personnel Ltd - Agency - Temporary
 location: Buckinghamshire
@@ -1199,18 +1235,6 @@ company: Hope After Harm - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2106884
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Workplace Facilities Coordinator / Client Host
-company: Jones Lang LaSalle Limited - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-108285635
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

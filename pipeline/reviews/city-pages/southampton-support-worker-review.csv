@@ -1,9 +1,11 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225761993,Care Assistant,Hamberley Care Management Limited - Company - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-108269694,Hourly Lifestyle / Care Assistant for a Female Chemistry Uni Student,Ask Jules - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
+include,jobg8-23643_225813909,Support Worker,First For Support - Agency - Temporary,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 review,jobg8-23643_225760935,Care Assistant,Care First UK Recruitment Solutions - Agency - Permanent,Totton,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401785913,Care Assistant,Hampshire County Council - Company - Permanent,Alton,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-23643_225745178,Care Assistant - Bank - Care Home,Barchester Healthcare - Company - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
+review,jobg8-23643_225815477,Care Assistant - Care Home,Barchester Healthcare - Company - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
 review,jobg8-23643_225724325,Care Support Worker (Female Only),Peabody - Agency - Permanent,Alresford,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401786179,Casual Care Assistant,Hampshire County Council - Company - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
 review,jobg8-23643_209680922,Health Care Assistants (HCA),Varang Recruitment - Agency - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
@@ -17,11 +19,11 @@ review,jobg8-23643_225653471,Therapeutic Children's Support Worker,The Tiger Gro
 exclude,jobg8-23643_225779755,Care Assistant,Avon Search & Selection - Agency - Permanent,Fareham,JobG8,exclude,exclude,Separate employment market.,fareham,southampton-support-worker
 exclude,jobg8-23643_225790173,Female Healthcare Assistant & Support Worker,Bluelight Healthcare - Agency - Permanent,Farnborough,JobG8,exclude,exclude,Separate employment market.,farnborough,southampton-support-worker
 exclude,jobg8-23643_225779158,Health Care Assistant,Resilience Personnel Ltd - Agency - Permanent,Basingstoke,JobG8,exclude,exclude,Separate employment market.,basingstoke,southampton-support-worker
+exclude,jobg8-23643_225815487,Night Care Assistant,Barchester Healthcare - Company - Permanent,Basingstoke,JobG8,exclude,exclude,Separate employment market.,basingstoke,southampton-support-worker
 exclude,jobg8-23643_225761985,Night Care Assistant,Hamberley Care Management Limited - Company - Permanent,Eastleigh,JobG8,exclude,exclude,Separate employment market.,eastleigh,southampton-support-worker
 exclude,jobg8-23643_225725370,Relief Healthcare Support Worker / Portsmouth,AA Euro Group - Agency - Temporary,Portsmouth,JobG8,exclude,exclude,Separate employment market.,portsmouth,southampton-support-worker
 exclude,jobg8-23643_225505280,Residential Support Worker,SCR - Agency - Temporary,Aldershot,JobG8,exclude,exclude,Separate employment market.,aldershot,southampton-support-worker
 exclude,jobg8-108298282,Specialist Care Support Worker,SCA Care - Agency - Permanent,Winchester,JobG8,exclude,exclude,Separate employment market.,winchester,southampton-support-worker
-exclude,jobg8-23643_225712958,Student Support Worker,Academics - Agency - Contract,Basingstoke,JobG8,exclude,exclude,Separate employment market.,basingstoke,southampton-support-worker
 exclude,jobg8-23643_225726054,Support Worker,Enham Trust - Agency - Permanent,Andover,JobG8,exclude,exclude,Separate employment market.,andover,southampton-support-worker
 exclude,jobg8-23643_225720535,Support Worker,Right Match Recruitment Group Limited - Agency - Permanent,Aldershot,JobG8,exclude,exclude,Separate employment market.,aldershot,southampton-support-worker
 exclude,jobg8-23643_225725917,Support Worker - Full Time,Enham Trust - Agency - Permanent,Andover,JobG8,exclude,exclude,Separate employment market.,andover,southampton-support-worker

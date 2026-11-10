@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 126
+- automatic review: 123
 - automatic exclude: 0
 - effective include: 6
-- effective review: 126
+- effective review: 123
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225539295
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (126)
+## REVIEW (123)
 
 ---
 action: 
@@ -270,18 +270,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant - Entry Level
-company: Accountancy Action - Agency - Permanent
-location: Hatfield
-source: JobG8
-job_id: jobg8-2114484
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Assistant / Administrator
 company: Daniel Robinson & Sons Ltd - Agency - Permanent
 location: Hertfordshire
@@ -323,18 +311,6 @@ company: Nexus HR Limited - Agency - Temporary
 location: Royston
 source: JobG8
 job_id: jobg8-23643_225759556
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Avery Healthcare Group Ltd.
-location: Chorleywood, WD3 5TQ
-source: NHS Jobs
-job_id: nhs-5709659
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -462,18 +438,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper Administrator
-company: Hue Recruitment Limited - Agency - Permanent
-location: Stevenage
-source: JobG8
-job_id: jobg8-2112528
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Commercial Property Legal Assistant
 company: GerrardWhite - Agency - Permanent
 location: Hertfordshire
@@ -515,18 +479,6 @@ company: Hertfordshire County Council - Agency - Permanent
 location: Stevenage
 source: JobG8
 job_id: jobg8-2191561
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Complaints Handler
-company: Adecco - Agency - Temporary
-location: Watford
-source: JobG8
-job_id: jobg8-23643_225774554
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -811,18 +763,6 @@ action:
 decision: review
 automatic_decision: review
 title: Family Paralegal
-company: Additional Resources Ltd - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2116313
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Family Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Hertfordshire
 source: JobG8
@@ -863,18 +803,6 @@ company: Abbeygate Search Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225717460
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Bennett & Game Recruitment - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2114459
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1134,6 +1062,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: One Stop - Customer Service Assistant
+company: Tesco - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2260668
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Assistant
 company: Mellcrest Ltd - Agency - Permanent
 location: Hertfordshire
@@ -1194,11 +1134,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator - 12 month FTC
-company: Reed - Agency - Permanent
+title: Payroll Officer
+company: VolkerWessels UK Ltd - Company - Temporary
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2112891
+job_id: jobg8-23643_225809613
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1206,11 +1146,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Officer
-company: VolkerWessels UK Ltd - Company - Temporary
+title: People Operations Coordinator (HR & AI Curious)
+company: Fixatex Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-23643_225809613
+job_id: jobg8-23643_225740953
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1259,6 +1199,30 @@ company: Altro - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225772036
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Coordinator
+company: Think Specialist Recruitment - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225814134
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Proposal & Contracts Coordinator
+company: EA First - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225808057
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

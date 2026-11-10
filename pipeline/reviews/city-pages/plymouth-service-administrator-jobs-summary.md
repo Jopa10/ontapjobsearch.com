@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 73
+- automatic include: 8
+- automatic review: 82
 - automatic exclude: 0
-- effective include: 7
-- effective review: 73
+- effective include: 8
+- effective review: 82
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist/Administration
+company: Dean Cross Surgery
+location: Plymouth, PL9 9DL
+source: NHS Jobs
+job_id: nhs-5715255
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Resource Management Planner
 company: Adecco - Agency - Temporary
 location: Plymouth
@@ -108,7 +120,7 @@ job_id: teaching-vacancies-school-receptionist-stoke-damerel-community-college
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (82)
 
 ---
 action: 
@@ -126,11 +138,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: Office Angels - Agency - Permanent
-location: Cullompton
+title: Accounts Administrator
+company: AMR - Specialist Property Recruiters - Agency - Permanent
+location: Exeter
 source: JobG8
-job_id: jobg8-23643_225798938
+job_id: jobg8-2256467
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -139,10 +151,22 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: Trial Balance Consulting - Agency - Permanent
-location: Devon
+company: Office Angels - Agency - Permanent
+location: Cullompton
 source: JobG8
-job_id: jobg8-2112344
+job_id: jobg8-2233369
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Office Angels - Agency - Permanent
+location: Cullompton
+source: JobG8
+job_id: jobg8-23643_225798938
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -179,6 +203,18 @@ company: Autograph Recruitment Ltd - Agency - Permanent
 location: Tiverton
 source: JobG8
 job_id: jobg8-2119734
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: ITS (Exeter) Ltd - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225656895
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -343,6 +379,18 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
+company: Gap Personnel - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225812779
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
 company: Pivotal Partnerships - Agency - Permanent
 location: Exeter
 source: JobG8
@@ -463,6 +511,18 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
+company: BRC - Agency - Contract
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225814962
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
 company: Pertemps Plymouth - Agency - Temporary
 location: Exeter
 source: JobG8
@@ -522,6 +582,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant (temp)
+company: Butler Rose - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2259912
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Fleet Distribution Administrator
 company: Switch - Agency - Permanent
 location: Exeter
@@ -539,18 +611,6 @@ company: 4Recruitment Services - Agency - Contract
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225720286
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator/Assistant
-company: Adecco - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-23643_225734169
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -678,6 +738,30 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Finance Administrator
+company: Office Angels - Agency - Permanent
+location: Cullompton
+source: JobG8
+job_id: jobg8-2259612
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Finance Administrator
+company: Office Angels - Agency - Permanent
+location: Cullompton
+source: JobG8
+job_id: jobg8-23643_225816405
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patient Administrator
 company: Woodbury Surgery
 location: Exeter, EX5 1NZ
@@ -762,6 +846,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Administrator
+company: Acorn by Synergie - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225813879
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Renewables Administrator
 company: Servara Ltd - Agency - Permanent
 location: Devon
@@ -803,6 +899,18 @@ company: Contract Staffing Solutions Ltd - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225786768
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Office Angels - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225814618
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -983,6 +1091,18 @@ company: Devon Partnership NHS Trust
 location: BARNSTAPLE, EX31 4JB
 source: NHS Jobs
 job_id: nhs-5686114
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Volunteer Coordinator
+company: NDADA - Agency - Contract
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225815338
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

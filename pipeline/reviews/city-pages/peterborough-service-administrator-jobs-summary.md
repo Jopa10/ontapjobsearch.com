@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 28
 - automatic review: 16
-- automatic exclude: 38
+- automatic exclude: 35
 - effective include: 28
 - effective review: 16
-- effective exclude: 38
+- effective exclude: 35
 
 ## INCLUDE (28)
 
@@ -81,18 +81,6 @@ company: The Collective Network Limited - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225807363
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Adecco - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225794465
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -261,6 +249,18 @@ company: MHA - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2240155
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Clerk - 3 month FTC
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2257705
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -554,7 +554,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (38)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -565,18 +565,6 @@ company: Nxtgen Recruitment - Agency - Permanent
 location: Huntingdon
 source: JobG8
 job_id: jobg8-2191806
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Pure Resourcing Solutions Limited - Agency - Temporary
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225712372
 reason: Separate employment market.
 ---
 
@@ -601,18 +589,6 @@ company: East of England Community Health and Care NHS Trust (Cambridge)
 location: Huntingdon, PE29 7HN
 source: NHS Jobs
 job_id: nhs-5694740
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Huntingdon, PE29 6FN
-source: NHS Jobs
-job_id: nhs-5685853
 reason: Separate employment market.
 ---
 
@@ -949,18 +925,6 @@ company: Pure Resourcing Solutions Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225777944
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Wisbech, PE13 3AB
-source: NHS Jobs
-job_id: nhs-5685474
 reason: Separate employment market.
 ---
 

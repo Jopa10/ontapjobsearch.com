@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 66
+- automatic review: 67
 - automatic exclude: 0
 - effective include: 9
-- effective review: 66
+- effective review: 67
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225810447
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (66)
+## REVIEW (67)
 
 ---
 action: 
@@ -151,10 +151,46 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Tamworth
+source: JobG8
+job_id: jobg8-2256325
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Tamworth
+source: JobG8
+job_id: jobg8-23643_225813498
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
 company: SF Partners - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225806557
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: SJC Partners - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-2259572
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -318,18 +354,6 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Reed - Agency - Permanent
-location: Cannock
-source: JobG8
-job_id: jobg8-2115694
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller 6 month FTC
 company: Premier Placement Services - Agency - Contract
 location: Staffordshire
@@ -379,6 +403,18 @@ action:
 decision: review
 automatic_decision: review
 title: Distribution & Logistics Coordinator
+company: MET Recruitment UK LTD - Agency - Permanent
+location: Tamworth
+source: JobG8
+job_id: jobg8-23643_225815721
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Distribution & Logistics Coordinator
 company: The Best Connection - Agency - Permanent
 location: Tamworth
 source: JobG8
@@ -395,18 +431,6 @@ company: Global Recruitment Services Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225725469
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Hire Customer Service Administrator
-company: Universal Business Team - Agency - Permanent
-location: Stafford
-source: JobG8
-job_id: jobg8-23643_225739392
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -551,6 +575,18 @@ company: EL Recruitment Solutions Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225751707
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Operations Assistant
+company: Maintech Recruitment - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225816121
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -738,18 +774,6 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Stafford Health & Wellbeing
-location: Stafford, ST16 3EB
-source: NHS Jobs
-job_id: nhs-5687790
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist/Care Navigator
 company: Leek Health Centre
 location: Leek, ST13 6JB
@@ -875,18 +899,6 @@ company: Pertemps Wolverhampton and Walsall - Agency - Temporary
 location: Cannock
 source: JobG8
 job_id: jobg8-23643_225769049
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Housing Repairs Planner - Awaab's Law
-company: Niyaa People - Agency - Temporary
-location: Staffordshire
-source: JobG8
-job_id: jobg8-108237525
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 37
+- automatic review: 40
 - automatic exclude: 0
 - effective include: 19
-- effective review: 37
+- effective review: 40
 - effective exclude: 0
 
 ## INCLUDE (19)
@@ -252,7 +252,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (40)
 
 ---
 action: 
@@ -276,6 +276,18 @@ location: Chippenham
 source: JobG8
 job_id: jobg8-2204801
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Robert Half - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-2233563
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -462,12 +474,36 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Junior Security Systems Designer & Sales Administrator
-company: Complete Security Recruitment Ltd - Agency - Permanent
+title: Interim Accounts Payable
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Warminster
+source: JobG8
+job_id: jobg8-2259674
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Accounts Payable - 3-4 Months
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2114392
+job_id: jobg8-2256641
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Administrator
+company: Walsh Employment - Agency - Permanent
+location: Marlborough
+source: JobG8
+job_id: jobg8-2260126
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -571,6 +607,18 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
+company: Ascend Talent - Agency - Permanent
+location: Chippenham
+source: JobG8
+job_id: jobg8-23643_225807860
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
 company: Pembrook Resourcing - Agency - Permanent
 location: Wiltshire
 source: JobG8
@@ -587,18 +635,6 @@ company: Perfect Placement - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225714158
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Perfect Placement Uk Ltd - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-2113865
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

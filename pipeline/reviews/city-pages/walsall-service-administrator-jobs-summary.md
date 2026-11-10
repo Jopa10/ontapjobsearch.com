@@ -16,13 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 51
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 8
-- effective review: 51
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (8)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Oliver Rae - Agency - Permanent
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_225814343
+reason: Exact approved Walsall workplace.
+---
 
 ---
 action: 
@@ -108,19 +120,7 @@ job_id: jobg8-23643_225397260
 reason: Exact approved Walsall workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary HR Administrator
-company: Bell Cornwall Recruitment - Agency - Temporary
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225783436
-reason: Exact approved Walsall workplace.
----
-
-## REVIEW (51)
+## REVIEW (56)
 
 ---
 action: 
@@ -186,11 +186,23 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Receivable/Credit Control Administrator
-company: MET Recruitment UK Ltd - Agency - Permanent
+title: Accounts Receivable Administrator
+company: People Solutions Group Limited - Agency - Permanent
 location: Dudley
 source: JobG8
-job_id: jobg8-2162362
+job_id: jobg8-2255573
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Administrator
+company: People Solutions Group Limited - Agency - Permanent
+location: Dudley
+source: JobG8
+job_id: jobg8-2259613
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -199,10 +211,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Receivable/Credit Control Administrator
-company: MET Recruitment UK LTD - Agency - Permanent
+company: MET Recruitment UK Ltd - Agency - Permanent
 location: Dudley
 source: JobG8
-job_id: jobg8-23643_225748674
+job_id: jobg8-2162362
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -263,6 +275,30 @@ company: Sytner - Company - Permanent
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225786966
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: BMW Service Advisor
+company: Sytner - Company - Permanent
+location: Oldbury
+source: JobG8
+job_id: jobg8-23643_225815664
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: BMW Service Advisor
+company: Sytner Group - Agency - Permanent
+location: Oldbury
+source: JobG8
+job_id: jobg8-2258845
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -450,6 +486,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: One Stop - Customer Service Assistant
+company: Tesco - Agency - Permanent
+location: Brierley Hill
+source: JobG8
+job_id: jobg8-2260653
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Optometrist Coordinator
 company: Vision Express - Company - Permanent
 location: Dudley
@@ -540,6 +588,18 @@ location: Halesowen
 source: JobG8
 job_id: jobg8-23643_225741797
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Adecco - Agency - Permanent
+location: Kingswinford
+source: JobG8
+job_id: jobg8-23643_225815468
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

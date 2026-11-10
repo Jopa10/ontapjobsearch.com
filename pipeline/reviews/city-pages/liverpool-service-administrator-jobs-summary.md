@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 57
+- Effective included jobs: 59
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 57
-- automatic review: 10
+- automatic include: 59
+- automatic review: 9
 - automatic exclude: 0
-- effective include: 57
-- effective review: 10
+- effective include: 59
+- effective review: 9
 - effective exclude: 0
 
-## INCLUDE (57)
+## INCLUDE (59)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-2126503
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Assistant - Suitable for a Graduate
+company: Adecco - Agency - Temporary
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225814705
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -141,6 +153,18 @@ company: Diamond Blaque HR Solutions - Agency - Contract
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225750475
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Officer - Gastroenterology
+company: Liverpool University Hospitals NHS Foundation Trust
+location: Liverpool, L9 7AL
+source: NHS Jobs
+job_id: nhs-5715134
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -708,7 +732,7 @@ job_id: jobg8-23643_225761106
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -738,6 +762,18 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Housing Disrepair Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-2256308
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Paralegal
 company: Kingsgate Recruitment Ltd - Agency - Permanent
 location: Merseyside
@@ -750,35 +786,11 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Patent Paralegal - Liverpool Area
-company: Dawn Ellmore Employment Agency - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2112354
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll & Benefits Administrator
 company: Michael Page Finance - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-2193412
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll and Benefits Administrator
-company: Adaptable Recruitment - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2112764
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -826,7 +838,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2254454
+job_id: jobg8-2255393
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

@@ -74,6 +74,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "2256327",
+    "title": "Payroll Assistant",
+    "company": "PRATAP PARTNERSHIP LTD - Agency - Permanent",
+    "location": "Rotherham",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-11-10",
+    "description": "W are recruiting an experienced Payroll/Accounts Assistant for a business based in Rotherham.\n\nFull time or part time hours considered.\n- A well-established company with an excellent reputation, positive culture and good staff retention.\n- Strong order book and profitable!\n- A knowledgeable, supportive finance team.\n- Regular opportunities to learn and develop.\n- 6% matched pension 25 days holiday\n\nTHE JOB:\n\nReporting to the Payroll Manager, duties to include but not limited:\n- Processing payroll (including shift patters, attendance bonus, supplements etc) for c 400 employees, including all associated administration.\n- Administration of the time and attendance system.\n- Administration of staff holidays and sickness.\n- Dealing with payroll queries.\n- Other ad hoc duties within the finance team as required.\n\nTHE PERSON:\n- Payroll experience is essential.\n- The ability to work on your own initiative as well as part of a team is required.\n- Good IT skills are required.\n- A flexible and adaptable approach is essential.\n- Most importantly, we are looking for someone who is reliable, proactive and keen to develop in a varied finance role.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?EI3oDmW0F6lw0HPZ6PO71y9FUTLmMmCbp",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "PRATAP PARTNERSHIP LTD",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225739769",
     "title": "Service and Validation Administrator",
     "company": "Unicorn Resourcing - Agency - Permanent",
@@ -99,25 +124,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "nhs-5697202",
-    "source": "NHS Jobs",
-    "title": "Medical Education Administrator",
-    "company": "The Rotherham NHS Foundation Trust",
-    "advertiser_name": "The Rotherham NHS Foundation Trust",
-    "location": "Rotherham, S60 2UD",
-    "region": "Yorkshire - South",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-30T10:37:51.608642870",
-    "closing_date": "2026-11-09",
-    "description": "Are you organised, approachable and looking for a varied administrative role where you can make a real difference to the education and experience of future and current doctors? We are looking for a motivated and enthusiastic Band 3 (Banding is subject to job evaluation) Medical Education Administrator to join our Medical Education team, based in the Medical Education Centre. This is a busy and varied role providing administrative support to the Medical Undergraduate Team and wider Medical Education Team. You will help coordinate education and training for medical students, resident doctors and other learners, including teaching programmes, placements, inductions, examinations and educational events. As a key point of contact for learners, faculty and external partners, you will maintain accurate records, respond to enquiries, support meetings, coordinate rooms and resources, collect feedback and use departmental systems. We are looking for someone who is organised, accurate, a confident communicator and able to manage competing priorities while contributing positively to a busy team. The role is predominantly based within the Medical Education Centre, with occasional attendance at other locations within South Yorkshire. Join us and play an important part in supporting the next generation of doctors. The Medical Education Administrator plays an important role in helping us provide a welcoming, organised and positive educational experience for medical students, resident doctors and other learners. We are looking for someone who enjoys working with people, takes pride in delivering a high-quality service and can bring enthusiasm, flexibility and attention to detail to a busy team. You will need to be approachable and professional, with good communication and organisational skills and the confidence to manage changing priorities. Medical Education is a varied and rewarding environment where no two days are quite the same. You will work with learners at different stages of their careers and alongside colleagues who are passionate about supporting education, training and development. In return, you will join a friendly and supportive team where your contribution is valued and where you will have opportunities to develop your knowledge, skills and experience. If you enjoy working as part of a team, building positive working relationships and knowing that your work contributes to the development of our future medical workforce, we would love to hear from you Please see attached the job description and person specification for the full details about the role and the responsibilities",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-165-26-10-063",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-165-26-10-063",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nhs-5706820",
     "source": "NHS Jobs",
     "title": "Medical Receptionist",
@@ -134,6 +140,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1568-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

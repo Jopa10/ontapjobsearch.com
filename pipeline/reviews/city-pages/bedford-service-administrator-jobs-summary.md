@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 30
+- automatic include: 7
+- automatic review: 26
 - automatic exclude: 0
-- effective include: 5
-- effective review: 30
+- effective include: 7
+- effective review: 26
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (7)
 
 ---
 action: 
@@ -52,11 +52,35 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: Robert Walters - Agency - Permanent
+title: Finance Assistant
+company: Abacus Consulting - Agency - Permanent
 location: Bedford
 source: JobG8
-job_id: jobg8-2115720
+job_id: jobg8-2259632
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Abacus Consulting - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225816391
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: BMSL Group Ltd - Agency - Contract
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225568924
 reason: Exact approved Bedford workplace.
 ---
 
@@ -84,19 +108,7 @@ job_id: jobg8-23643_225761869
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (30)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: 1st Choice Rec - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-2113807
-reason: No exact Bedford workplace matched; local geographic review is required.
----
+## REVIEW (26)
 
 ---
 action: 
@@ -143,30 +155,6 @@ company: Hello Recruitment Associates Ltd - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-2176678
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant/Receptionist
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: Luton, LU3 3QN
-source: NHS Jobs
-job_id: nhs-5691476
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: NHS Central East ICB
-location: Chicksands, Shefford, Bedfordshire, SG17 5TQ
-source: NHS Jobs
-job_id: nhs-5685802
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -311,18 +299,6 @@ company: Adapro Talent Partners - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225765202
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: The Disability Resource Centre - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225734218
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

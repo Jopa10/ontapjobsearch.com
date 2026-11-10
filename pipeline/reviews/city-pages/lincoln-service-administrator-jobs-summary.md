@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 46
-- automatic review: 12
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 46
-- effective review: 12
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (46)
@@ -52,36 +52,12 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Assistant
-company: SF Partners - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2114874
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Accounts Payable
 company: Austin Matley HR & Recruitment Ltd - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2192494
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable
-company: Reed - Agency - Permanent
-location: Lincoln
-source: JobG8
-job_id: jobg8-2115691
-reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -316,6 +292,18 @@ reason: Exact approved Lincoln workplace.
 action: 
 decision: include
 automatic_decision: include
+title: One Stop - Customer Service Assistant
+company: Tesco - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2260681
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operational Administrator
 company: Magnus Search - Agency - Permanent
 location: Lincolnshire
@@ -544,6 +532,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Scrutiny Support Officer Co-Ordinator
+company: Adecco - Agency - Temporary
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225813604
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Supply Chain Coordinator
 company: TEAM - Agency - Permanent
 location: Lincolnshire
@@ -576,7 +576,7 @@ job_id: jobg8-23643_225808865
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (12)
+## REVIEW (14)
 
 ---
 action: 
@@ -666,6 +666,18 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: Sleaford Medical Group
+location: Sleaford, NG34 7HD
+source: NHS Jobs
+job_id: nhs-5715632
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Operations/Administrator
 company: Healing Primary Academy
 location: Grimsby
@@ -678,11 +690,11 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Clee Medical Centre
-location: Cleethorpes, DN35 7XE, GRIMSBY, DN31 2BH, Grimsby, DN31 3AE, CLEETHORPES, DN35 0LN
-source: NHS Jobs
-job_id: nhs-5686851
+title: Primary School Attendance Officer - Waltham Forest, London
+company: Academics - Agency - Permanent
+location: Waltham
+source: JobG8
+job_id: jobg8-23643_225812830
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -696,6 +708,18 @@ location: Grimsby, DN41 7JB
 source: NHS Jobs
 job_id: nhs-5711942
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Lincolnshire Partnership NHS Foundation Trust
+location: Boston, PE21 9QS
+source: NHS Jobs
+job_id: nhs-5715160
+reason: The stated location is broader or less specific than the approved Lincoln employment market and needs review.
 ---
 
 ---

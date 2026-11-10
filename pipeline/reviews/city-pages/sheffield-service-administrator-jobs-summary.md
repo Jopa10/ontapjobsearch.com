@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 39
+- Effective included jobs: 40
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 39
+- automatic include: 40
 - automatic review: 14
-- automatic exclude: 36
-- effective include: 39
+- automatic exclude: 35
+- effective include: 40
 - effective review: 14
-- effective exclude: 36
+- effective exclude: 35
 
-## INCLUDE (39)
+## INCLUDE (40)
 
 ---
 action: 
@@ -93,6 +93,18 @@ company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225743141
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: The Talent Division - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225815405
 reason: Approved Sheffield catchment.
 ---
 
@@ -201,6 +213,18 @@ company: The Guinness Partnership - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225811889
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Document Controller
+company: Build Recruitment - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225814635
 reason: Approved Sheffield catchment.
 ---
 
@@ -364,18 +388,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Procurement Administrator
-company: Sue Ross Recruitment Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225774666
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchase Ledger
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Sheffield
@@ -472,11 +484,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Administrator
-company: Sue Ross Recruitment Ltd - Agency - Contract
+title: Temporary Receptionist
+company: CCA Recruitment Group - Agency - Temporary
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225736471
+job_id: jobg8-23643_225789027
 reason: Approved Sheffield catchment.
 ---
 
@@ -484,11 +496,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Receptionist
-company: CCA Recruitment Group - Agency - Temporary
+title: Transactional Finance Officer
+company: Sewell Wallis Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225789027
+job_id: jobg8-23643_225796381
 reason: Approved Sheffield catchment.
 ---
 
@@ -630,18 +642,6 @@ reason: No approved Sheffield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Officer
-company: W Talent - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225712413
-reason: No approved Sheffield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Retail & Brand Partnership Executive
 company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
@@ -662,7 +662,19 @@ job_id: jobg8-2233878
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2255399
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+## EXCLUDE (35)
 
 ---
 action: 
@@ -776,18 +788,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller
-company: Sharp Consultancy - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-2115389
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
@@ -853,18 +853,6 @@ company: Voluntary Action Rotherham - Agency - Contract
 location: Rotherham
 source: JobG8
 job_id: jobg8-23643_225797744
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Education Administrator
-company: The Rotherham NHS Foundation Trust
-location: Rotherham, S60 2UD
-source: NHS Jobs
-job_id: nhs-5697202
 reason: Separate employment market.
 ---
 
@@ -961,6 +949,18 @@ company: Portfolio Payroll - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-2177843
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Assistant
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-2256327
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
+- automatic include: 29
 - automatic review: 18
-- automatic exclude: 34
-- effective include: 30
+- automatic exclude: 32
+- effective include: 29
 - effective review: 18
-- effective exclude: 34
+- effective exclude: 32
 
-## INCLUDE (30)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Pure Resourcing Solutions Limited - Agency - Temporary
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225712372
-reason: Approved conservative Cambridge launch catchment.
----
+## INCLUDE (29)
 
 ---
 action: 
@@ -602,7 +590,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -668,18 +656,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Huntingdon, PE29 6FN
-source: NHS Jobs
-job_id: nhs-5685853
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Conveyancing Legal Assistant
 company: Reed - Agency - Permanent
 location: Huntingdon
@@ -709,18 +685,6 @@ company: The Collective Network Limited - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225807363
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: Adecco - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225794465
 reason: Separate employment market.
 ---
 
@@ -896,6 +860,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Purchase Ledger Clerk - 3 month FTC
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2257705
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales Executive
 company: Interaction Recruitment - Agency - Permanent
 location: Peterborough
@@ -925,18 +901,6 @@ company: Strange and Wright Recruitment Partners LTD - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225739501
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Wisbech, PE13 3AB
-source: NHS Jobs
-job_id: nhs-5685474
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 117
+- Effective included jobs: 119
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 117
+- automatic include: 119
 - automatic review: 16
 - automatic exclude: 11
-- effective include: 117
+- effective include: 119
 - effective review: 16
 - effective exclude: 11
 
-## INCLUDE (117)
+## INCLUDE (119)
 
 ---
 action: 
@@ -317,6 +317,18 @@ action:
 decision: include
 automatic_decision: include
 title: Credit Controller
+company: James Andrew Recruitment Solutions (JAR Solutions) - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2258599
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
 company: Mitchell Adam - Agency - Permanent
 location: Birmingham
 source: JobG8
@@ -357,18 +369,6 @@ company: SF Partners - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2178677
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Workforce Staffing Ltd - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225712233
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -568,6 +568,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Digital Marketing Executive
+company: Smile Education Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225816655
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Document Controller
 company: Boden Group - Agency - Permanent
 location: Birmingham
@@ -616,18 +628,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Document Controller HS2
-company: Charlton Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225721856
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: E-commerce Specialist
 company: VIQU IT - Agency - Permanent
 location: Birmingham
@@ -645,18 +645,6 @@ company: G2 Legal Limited - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2204885
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Employment Paralegal, Birmingham, &;24,000 - &;28,000 DOE, Excellent training, Legal 500
-company: qed legal - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2116074
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -741,18 +729,6 @@ company: Counted Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2163258
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Grade 2 Administrative Assistant
-company: Queensbury School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-grade-2-administrative-assistant-queensbury-school
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -897,6 +873,18 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225798243
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal PA
+company: Bell Cornwall Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225815217
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1132,18 +1120,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger Clerk - 9 Month FTC
-company: AD Finance - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2150473
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchasing Assistant
 company: TMR Group Ltd - Agency - Permanent
 location: Birmingham
@@ -1173,6 +1149,18 @@ company: Aspire People - Agency - Temporary
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225801392
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist - Marston Green
+company: Office Angels - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225812847
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1245,6 +1233,18 @@ company: Aspire People - Agency - Temporary
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225785638
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Digital Marketing Executive
+company: Smile Education Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225816586
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1336,6 +1336,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Stock Control Coordinator - East & West Midlands
+company: Adecco - Agency - Contract
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225755216
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Streetworks Faults Administrator
 company: Doocey Group - Agency - Permanent
 location: Birmingham
@@ -1396,6 +1408,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Temporary Receptionist
+company: Office Angels - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225815524
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Site Administrator
 company: Search Consultancy Ltd - Agency - Contract
 location: Birmingham
@@ -1412,7 +1436,7 @@ title: Trainee Digital Marketing Assistant
 company: Netcom Online Learning - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2239947
+job_id: jobg8-2257143
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1424,7 +1448,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2254444
+job_id: jobg8-2255383
 reason: Approved conservative Birmingham launch catchment.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 66
+- automatic include: 15
+- automatic review: 70
 - automatic exclude: 0
-- effective include: 14
-- effective review: 66
+- effective include: 15
+- effective review: 70
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -148,6 +148,18 @@ reason: Exact approved Gloucester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Sales & Marketing Coordinator
+company: JSM UK Ltd - Agency - Permanent
+location: Gloucester
+source: JobG8
+job_id: jobg8-108226582
+reason: Exact approved Gloucester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Senior Administrative Assistant - Immunisation Team
 company: Gloucestershire Health and Care NHS Foundation Trust
 location: Gloucester, GL3 4AW
@@ -192,7 +204,7 @@ job_id: jobg8-23643_225790550
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (66)
+## REVIEW (70)
 
 ---
 action: 
@@ -287,6 +299,18 @@ company: MSRec Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225792523
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Office Angels - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225815377
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -563,6 +587,18 @@ company: Seymour John - Agency - Permanent
 location: Cheltenham
 source: JobG8
 job_id: jobg8-2180644
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Hays Senior Finance - Agency - Permanent
+location: Cheltenham
+source: JobG8
+job_id: jobg8-23643_225812712
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -871,6 +907,18 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
+company: Amida Consulting Solutions Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225815421
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
 company: Travail Employment Group - Agency - Temporary
 location: Gloucestershire
 source: JobG8
@@ -971,6 +1019,18 @@ company: Expert Employment - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225723584
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Coordinator
+company: Morson Edge - Agency - Contract
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225813404
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

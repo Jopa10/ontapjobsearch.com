@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 87
+- automatic include: 16
+- automatic review: 90
 - automatic exclude: 0
-- effective include: 15
-- effective review: 87
+- effective include: 16
+- effective review: 90
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (16)
 
 ---
 action: 
@@ -172,6 +172,18 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Support Administrator
+company: Osborne Appointments - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225816330
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Office Administrator - Cover Coordinator
 company: St Thomas Becket Catholic School
 location: Northampton
@@ -204,7 +216,7 @@ job_id: jobg8-23643_225761870
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (87)
+## REVIEW (90)
 
 ---
 action: 
@@ -282,6 +294,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Payable Clerk - Temporary
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2259155
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Technician (Full or Part Time)
 company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: Kettering
@@ -299,18 +323,6 @@ company: Bishop Stopford School
 location: Kettering
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-bishop-stopford-school-kettering-northamptonshire
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Rothwell & Desborough Healthcare Group
-location: Kettering, NN14 6JQ, Kettering, NN14 2NB
-source: NHS Jobs
-job_id: nhs-5688432
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -918,6 +930,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Operations Assistant
+company: ACS Staffing Solutions - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225813673
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Finance Assistant
 company: Adapro Talent Partners - Agency - Permanent
 location: Northamptonshire
@@ -1007,6 +1031,18 @@ company: Portfolio Payroll Limited - Agency - Temporary
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225779046
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator - 6 months fixed-term
+company: RS Components Holdings Limited - Agency - Permanent
+location: Corby
+source: JobG8
+job_id: jobg8-2256734
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -1223,6 +1259,18 @@ company: Pertemps Northampton - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-23643_225723210
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator
+company: Cameo Consultancy - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225764102
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

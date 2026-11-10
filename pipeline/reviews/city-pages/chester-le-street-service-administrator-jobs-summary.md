@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 176
+- automatic review: 179
 - automatic exclude: 0
 - effective include: 0
-- effective review: 176
+- effective review: 179
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (176)
+## REVIEW (179)
 
 ---
 action: 
@@ -823,18 +823,6 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
-company: KCR Solutions - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2114336
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
 company: MTrec Ltd Commercial - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
@@ -1146,11 +1134,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Data Entry Administrator
+title: Customer Service Representative
 company: MTrec Recruitment - Agency - Permanent
-location: County Durham
+location: Washington
 source: JobG8
-job_id: jobg8-2176401
+job_id: jobg8-2256025
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1307,6 +1295,18 @@ company: Branta Consulting Limited - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225805692
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Home Administrator
+company: Gillespie Recruitment Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225813242
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1627,6 +1627,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Officer
+company: Paul Card Recruitment - Agency - Temporary
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225815067
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
 company: Si Recruitment - Agency - Permanent
 location: County Durham
 source: JobG8
@@ -1667,18 +1679,6 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Seaham
 source: JobG8
 job_id: jobg8-23643_225779215
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Procurement Assistant
-company: Taryn Hall Recruitment - Agency - Permanent
-location: Sunderland
-source: JobG8
-job_id: jobg8-23643_225712467
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1998,6 +1998,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Site Administrator
+company: We Are Footprint - Agency - Contract
+location: Northumberland
+source: JobG8
+job_id: jobg8-23643_225815942
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Supply Chain Administrator
 company: Search Consultancy Ltd - Agency - Temporary
 location: Shildon
@@ -2058,6 +2070,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Temporary Administrator - Part - Time - Sunderland
+company: Office Angels - Agency - Temporary
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225814411
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temporary Administrator Newcastle City Centre
 company: Office Angels - Agency - Temporary
 location: Newcastle
@@ -2094,11 +2118,23 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Temporary School Administrator - Sunderland - Part - Time
+company: Office Angels - Agency - Temporary
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225814580
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2254456
+job_id: jobg8-2255395
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

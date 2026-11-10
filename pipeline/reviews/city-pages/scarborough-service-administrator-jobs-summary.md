@@ -186,6 +186,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Commercial Property & Corporate Legal Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2259535
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Conveyancing Legal Secretary
 company: G2 Legal Limited - Agency - Permanent
 location: Malton
@@ -215,6 +227,18 @@ company: No1 Legal and Professional - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2200459
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ecommerce Website Specialist
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2256198
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -286,7 +310,7 @@ title: Finance Assistant
 company: Orange Cat Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
-job_id: jobg8-2247285
+job_id: jobg8-2259302
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -299,18 +323,6 @@ company: Orange Cat Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225808762
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Services Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2111325
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -402,30 +414,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Legal Assistant - Private Client
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225775070
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant - Residential
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-23643_225775024
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Assistant - Residential Conveyancing
 company: Edwards & Pearce - Agency - Permanent
 location: Selby
@@ -474,6 +462,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Litigation Legal Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-2259549
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
@@ -499,10 +499,10 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
-company: Unity Health
-location: York, YO10 5LA, York, YO10 4DU
+company: Posterngate Surgery
+location: Selby, YO8 4QH
 source: NHS Jobs
-job_id: nhs-5706440
+job_id: nhs-5716437
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -510,11 +510,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Paid Media Specialist - Hybrid working
-company: Mobilus Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2113473
+title: Medical Receptionist
+company: Unity Health
+location: York, YO10 5LA, York, YO10 4DU
+source: NHS Jobs
+job_id: nhs-5706440
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

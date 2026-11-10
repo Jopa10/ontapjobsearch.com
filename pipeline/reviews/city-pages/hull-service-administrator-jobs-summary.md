@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 21
-- automatic review: 19
+- automatic review: 18
 - automatic exclude: 0
 - effective include: 21
-- effective review: 19
+- effective review: 18
 - effective exclude: 0
 
 ## INCLUDE (21)
@@ -276,7 +276,7 @@ job_id: jobg8-23643_225713565
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (18)
 
 ---
 action: 
@@ -354,18 +354,6 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Logistics Coordinator
-company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-23643_225731622
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Administrator
 company: Drs Reddy & Nunn
 location: Bridlington, YO16 4LZ
@@ -416,7 +404,7 @@ decision: review
 automatic_decision: review
 title: Project Administrator
 company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Hessle
+location: Brough
 source: JobG8
 job_id: jobg8-23643_225797818
 reason: No approved Hull catchment rule matched; local review required.

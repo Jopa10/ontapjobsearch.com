@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 65
+- Effective included jobs: 61
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 65
-- automatic review: 14
+- automatic include: 61
+- automatic review: 12
 - automatic exclude: 10
-- effective include: 65
-- effective review: 14
+- effective include: 61
+- effective review: 12
 - effective exclude: 10
 
-## INCLUDE (65)
+## INCLUDE (61)
 
 ---
 action: 
@@ -184,30 +184,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Complaints Handler
-company: G2 Legal Limited - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2113334
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Advisor - Working from Home - Part Time
-company: Adecco - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225791333
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Contract Support
 company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
@@ -352,18 +328,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Event Co-ordinator
-company: InAnyEvent - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2175432
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Facilities Coordinator
 company: Project Start Recruitment Solutions - Agency - Permanent
 location: Bristol
@@ -424,11 +388,23 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Interim Accounts Assistant
-company: Hays Accounts and Finance - Agency - Temporary
+title: HR and Payroll Officer
+company: Bristol Charities Props - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225740039
+job_id: jobg8-23643_225813071
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Assistant
+company: CMD Recruitment - Agency - Contract
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225813829
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -460,18 +436,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Internal Sales Account Manager
-company: CCA Recruitment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225712157
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Internal Sales Executive - Electrical Wholesale
 company: Effective Recruitment Solutions Ltd - Agency - Permanent
 location: Bristol
@@ -489,18 +453,6 @@ company: eNL Legal Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2186589
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing Coordinator
-company: CHM - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2112361
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -628,18 +580,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist - Temporary
-company: Office Angels - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2209103
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Recruitment Coordinator
 company: Experis - Agency - Permanent
 location: Bristol
@@ -676,11 +616,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: School Administrator MAT cover
-company: Little Mead Primary Academy
+title: Salesforce & Sales Pipeline Coordinator
+company: Adria Solutions - Agency - Permanent
 location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-mat-cover
+source: JobG8
+job_id: jobg8-108225065
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -804,19 +744,19 @@ job_id: jobg8-23643_225799979
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (14)
-
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Event Co-ordinator
-company: In Any Event - Agency - Permanent
-location: Portishead
+decision: include
+automatic_decision: include
+title: Temporary Recruitment Account Coordinator
+company: Staffline Divisions - Agency - Temporary
+location: Bristol
 source: JobG8
-job_id: jobg8-23643_225757463
-reason: No approved Bristol catchment rule matched; local review required.
+job_id: jobg8-108277024
+reason: Approved conservative Bristol launch catchment.
 ---
+
+## REVIEW (12)
 
 ---
 action: 
@@ -851,18 +791,6 @@ company: Adecco - Agency - Contract
 location: Yate
 source: JobG8
 job_id: jobg8-23643_225730843
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Accounts Payable Assistant
-company: Hays Accounts and Finance - Agency - Temporary
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225740068
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -970,7 +898,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2254446
+job_id: jobg8-2255385
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

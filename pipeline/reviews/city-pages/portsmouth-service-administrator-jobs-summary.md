@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 175
+- automatic review: 182
 - automatic exclude: 0
 - effective include: 9
-- effective review: 175
+- effective review: 182
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225798173
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (175)
+## REVIEW (182)
 
 ---
 action: 
@@ -251,6 +251,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2197915
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Robert Half - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2259715
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -403,6 +415,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO16 4GX
+source: NHS Jobs
+job_id: nhs-5716963
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Morgan McKinley (Guildford) - Agency - Permanent
 location: Hook
 source: JobG8
@@ -431,6 +455,18 @@ company: Royal Surrey NHS Foundation Trust
 location: Aldershot, Hampshire, GU11 1AY
 source: NHS Jobs
 job_id: nhs-5694422
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Trusted Technology Partnership - Agency - Permanent
+location: Ringwood
+source: JobG8
+job_id: jobg8-23643_225813263
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -474,18 +510,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: The Niche Partnership - Agency - Permanent
-location: Waterlooville
-source: JobG8
-job_id: jobg8-2114563
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Administration Apprentice
 company: Tate - Agency - Permanent
 location: Eastleigh
@@ -499,34 +523,10 @@ action:
 decision: review
 automatic_decision: review
 title: Business Administrator
-company: Bright Selection Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225803614
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator
 company: Matchtech - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225768816
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO18 6BT, Chandlers Ford, SO53 3LG
-source: NHS Jobs
-job_id: nhs-5687108
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -575,18 +575,6 @@ company: Vine Medical Group
 location: Waterlooville, PO7 7AH, Waterlooville, PO7 6AL, Waterlooville, PO7 8NS
 source: NHS Jobs
 job_id: nhs-5689872
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Navigator Receptionist
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Gosport, PO13 0EW, Gosport, PO12 3JP, Gosport, PO12 3AQ, Gosport, PO12 1PA, Gosport, PO12 1BA
-source: NHS Jobs
-job_id: nhs-5687086
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -727,18 +715,6 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Romsey
-source: JobG8
-job_id: jobg8-2113244
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
 company: Park Street People - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -800,6 +776,30 @@ decision: review
 automatic_decision: review
 title: Credit Controllers
 company: CMA Recruitment Group - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-2233233
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controllers
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2233259
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controllers
+company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225798871
@@ -839,18 +839,6 @@ company: Hiringpeople.co.uk - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225783577
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Faith Recruitment - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225768087
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -923,6 +911,18 @@ company: WR Logistics - Agency - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-23643_225787297
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customs Coordinator
+company: WR Logistics - Agency - Permanent
+location: Totton
+source: JobG8
+job_id: jobg8-23643_225813257
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1182,6 +1182,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Temporary
+location: Gosport
+source: JobG8
+job_id: jobg8-23643_225814754
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Howett Thorpe - Agency - Permanent
 location: Hampshire
@@ -1278,18 +1290,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Junior Security Systems Designer & Sales Administrator
-company: Complete Security Recruitment - Agency - Permanent
-location: Hook
-source: JobG8
-job_id: jobg8-23643_225711975
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Laboratory Administrator / Archivist (Data Co-ordinator)
 company: DEKRA Organisational & Process Safety - Agency - Contract
 location: Southampton
@@ -1374,18 +1374,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Lettings Administrator
-company: Mulberry Recruitment - Agency - Permanent
-location: Farnborough
-source: JobG8
-job_id: jobg8-23643_225712981
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Coordinator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Hampshire
@@ -1458,6 +1446,30 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: One Stop - Customer Service Assistant
+company: Tesco - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2260671
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: One Stop - Customer Service Assistant
+company: Tesco - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2260685
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Administrator
 company: Wild Recruitment - Agency - Permanent
 location: Hampshire
@@ -1475,6 +1487,18 @@ company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225782358
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Operations Support Coordinator
+company: ISR RECRUITMENT LIMITED - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225816997
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1566,35 +1590,23 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Patent Secretary - Southampton
-company: Dawn Ellmore Employment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225712374
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Patent Secretary - Southampton
-company: Dawn Ellmore Employment Agency - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2111622
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patient Coordinator
 company: 2i Recruit Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225789915
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Services Administrator
+company: Salus Medical Services Ltd
+location: Farnborough, GU14 8UE
+source: NHS Jobs
+job_id: nhs-5716646
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1643,6 +1655,18 @@ company: Clockwork Recruitment Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225744116
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: People Assistant
+company: Liberty HR Recruitment - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225814478
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1782,11 +1806,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: OutThere RPO Ltd - Agency - Permanent
+title: Purchase Ledger Clerk
+company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225749059
+job_id: jobg8-2257731
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1794,11 +1818,23 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist and Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO18 6BT, Southampton, SO14 0YG
-source: NHS Jobs
-job_id: nhs-5687345
+title: Purchase Ledger Clerk
+company: The Niche Partnership - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2259713
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: OutThere RPO Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225749059
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1974,6 +2010,30 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support Administrator (Engineering)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2259275
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Administrator (Engineering)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225816040
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Conveyancing Assistant
 company: 2i Recruit Ltd - Agency - Permanent
 location: Hampshire
@@ -2082,6 +2142,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2256448
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Coordinator
 company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Emsworth
@@ -2171,6 +2243,18 @@ company: Michael Page - Agency - Temporary
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225719604
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Credit Controller
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2256926
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

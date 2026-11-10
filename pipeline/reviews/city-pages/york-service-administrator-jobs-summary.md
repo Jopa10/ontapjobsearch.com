@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 20
-- automatic exclude: 21
-- effective include: 15
-- effective review: 20
-- effective exclude: 21
+- automatic include: 14
+- automatic review: 19
+- automatic exclude: 23
+- effective include: 14
+- effective review: 19
+- effective exclude: 23
 
-## INCLUDE (15)
+## INCLUDE (14)
 
 ---
 action: 
@@ -112,18 +112,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Financial Services Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2111325
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Assistant (Maternity Cover)
 company: Joseph Rowntree - Agency - Permanent
 location: York
@@ -204,7 +192,7 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -262,7 +250,7 @@ title: Finance Assistant
 company: Orange Cat Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
-job_id: jobg8-2247285
+job_id: jobg8-2259302
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -299,18 +287,6 @@ company: Si Recruitment - Agency - Permanent
 location: Bedale
 source: JobG8
 job_id: jobg8-2169315
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant - Private Client
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225775070
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -446,7 +422,7 @@ job_id: jobg8-2143764
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -476,11 +452,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Commercial Property & Corporate Legal Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2259535
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Digital Marketing Assistant
 company: No1 Legal and Professional - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2200459
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ecommerce Website Specialist
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2256198
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -548,18 +548,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Legal Assistant - Residential
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-23643_225775024
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Legal Assistant - Residential Conveyancing
 company: Edwards & Pearce - Agency - Permanent
 location: Selby
@@ -596,6 +584,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Litigation Legal Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-2259549
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Executive
 company: KD Recruitment Limited - Agency - Permanent
 location: Yorkshire
@@ -608,12 +608,12 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Paid Media Specialist - Hybrid working
-company: Mobilus Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2113473
-reason: Broad regional label; not York-city evidence.
+title: Medical Receptionist
+company: Posterngate Surgery
+location: Selby, YO8 4QH
+source: NHS Jobs
+job_id: nhs-5716437
+reason: Separate employment market.
 ---
 
 ---

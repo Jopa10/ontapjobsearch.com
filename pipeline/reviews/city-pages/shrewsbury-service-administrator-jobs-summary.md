@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 29
+- automatic include: 9
+- automatic review: 27
 - automatic exclude: 0
-- effective include: 10
-- effective review: 29
+- effective include: 9
+- effective review: 27
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -132,19 +132,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Accounts Payable Clerk
-company: Seymour John - Agency - Permanent
-location: Shrewsbury
-source: JobG8
-job_id: jobg8-2238322
-reason: Exact approved Shrewsbury workplace.
----
-
-## REVIEW (29)
+## REVIEW (27)
 
 ---
 action: 
@@ -167,18 +155,6 @@ company: Hays Accounts and Finance - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225775219
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-2200876
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -335,18 +311,6 @@ company: Prince Personnel Limited - Agency - Temporary
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225736709
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim HR Assistant
-company: Liberty HR Recruitment - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225781879
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

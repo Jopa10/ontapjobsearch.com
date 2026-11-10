@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 13
+- automatic include: 3
+- automatic review: 14
 - automatic exclude: 12
-- effective include: 2
-- effective review: 13
+- effective include: 3
+- effective review: 14
 - effective exclude: 12
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -48,7 +48,19 @@ job_id: jobg8-108269694
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (13)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Support Worker
+company: First For Support - Agency - Temporary
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225813909
+reason: Approved Southampton catchment.
+---
+
+## REVIEW (14)
 
 ---
 action: 
@@ -83,6 +95,18 @@ company: Barchester Healthcare - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225745178
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Assistant - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225815477
 reason: Broad location; review before city inclusion.
 ---
 
@@ -249,6 +273,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Night Care Assistant
+company: Barchester Healthcare - Company - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-23643_225815487
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Night Care Assistant
 company: Hamberley Care Management Limited - Company - Permanent
 location: Eastleigh
 source: JobG8
@@ -289,18 +325,6 @@ company: SCA Care - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-108298282
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Student Support Worker
-company: Academics - Agency - Contract
-location: Basingstoke
-source: JobG8
-job_id: jobg8-23643_225712958
 reason: Separate employment market.
 ---
 

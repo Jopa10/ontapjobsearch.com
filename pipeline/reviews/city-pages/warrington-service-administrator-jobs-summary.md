@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
-- automatic review: 10
+- automatic include: 31
+- automatic review: 11
 - automatic exclude: 5
-- effective include: 32
-- effective review: 10
+- effective include: 31
+- effective review: 11
 - effective exclude: 5
 
-## INCLUDE (32)
+## INCLUDE (31)
 
 ---
 action: 
@@ -105,6 +105,18 @@ company: Accountable Recruitment - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2122564
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Adecco - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225816768
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -225,18 +237,6 @@ company: High Street Surgery
 location: Warrington, WA3 3GS
 source: NHS Jobs
 job_id: nhs-5695670
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: High Street Surgery
-location: Warrington, WA3 3GS
-source: NHS Jobs
-job_id: nhs-5699955
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -396,19 +396,7 @@ job_id: jobg8-23643_225793459
 reason: Approved conservative Warrington launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Administrator
-company: Elysium Healthcare
-location: Warrington, WA2 8DB
-source: NHS Jobs
-job_id: nhs-5700008
-reason: Approved conservative Warrington launch catchment.
----
-
-## REVIEW (10)
+## REVIEW (11)
 
 ---
 action: 
@@ -491,6 +479,18 @@ company: Freight Personnel - Agency - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-23643_225747359
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Reed - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-2259675
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

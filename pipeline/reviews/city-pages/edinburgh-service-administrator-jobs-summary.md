@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 31
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 31
+- automatic include: 34
 - automatic review: 10
 - automatic exclude: 0
-- effective include: 31
+- effective include: 34
 - effective review: 10
 - effective exclude: 0
 
-## INCLUDE (31)
+## INCLUDE (34)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator - HYBRID
+company: Office Angels - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225816537
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator/ Co-ordinator
 company: Spire Healthcare - Company - Permanent
 location: Edinburgh
@@ -136,11 +148,47 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Three Bridges Recruitment LTD - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2259227
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Adviser
+company: Pontoon - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225813779
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: Godwin Recruitment - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225259697
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Pontoon - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225816628
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -261,18 +309,6 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225804778
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time Finance & Corporate Service Assistant
-company: Office Angels - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225787722
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

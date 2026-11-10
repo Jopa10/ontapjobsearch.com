@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 31
+- automatic include: 19
+- automatic review: 33
 - automatic exclude: 0
-- effective include: 18
-- effective review: 31
+- effective include: 19
+- effective review: 33
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -197,6 +197,18 @@ action:
 decision: include
 automatic_decision: include
 title: Office Administrator
+company: Adecco - Agency - Temporary
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225815933
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
 company: Rogers McHugh Recruitment - Agency - Permanent
 location: Altrincham
 source: JobG8
@@ -240,7 +252,7 @@ job_id: jobg8-23643_225715889
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (33)
 
 ---
 action: 
@@ -251,6 +263,30 @@ company: Baseline Recruit Ltd - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225766980
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Halecroft Recruitment - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-2258630
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Halecroft Recruitment - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225815533
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -534,11 +570,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Hyde PCN
-location: Hyde, SK14 2QT
-source: NHS Jobs
-job_id: nhs-5701647
+title: Reception
+company: Jobwise Ltd - Agency - Temporary
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225814368
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

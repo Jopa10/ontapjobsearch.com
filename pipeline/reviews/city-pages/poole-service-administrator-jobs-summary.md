@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 53
+- automatic include: 13
+- automatic review: 49
 - automatic exclude: 0
-- effective include: 10
-- effective review: 53
+- effective include: 13
+- effective review: 49
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (13)
 
 ---
 action: 
@@ -144,7 +144,43 @@ job_id: jobg8-23643_225795324
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (53)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Dorset HealthCare University NHS Foundation Trust
+location: Poole, BH15 2NT
+source: NHS Jobs
+job_id: nhs-5716637
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Supply Chain Administrator
+company: Team Jobs - Commercial - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225815784
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Finance Assistant
+company: Team Jobs - Commercial - Agency - Temporary
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225817065
+reason: Exact approved Poole workplace.
+---
+
+## REVIEW (49)
 
 ---
 action: 
@@ -294,23 +330,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Brand & Creative Manager - Hands-On Leadership. Travel
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Bournemouth
 source: JobG8
-job_id: jobg8-2111426
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Brand & Creative Manager - Hands-On Leadership. Travel
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225712285
+job_id: jobg8-2255955
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -335,6 +359,30 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225790377
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Account Manager
+company: Rise Technical Recruitment - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225813896
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Tru Talent - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225813746
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -522,30 +570,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Operations Lead - Campaigns, Creative & Communications
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225712182
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Operations Lead - Campaigns, Creative & Communications. Travel
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2111341
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Media Sales Executive
 company: Dovetail Recruitment Ltd - Agency - Permanent
 location: Ferndown
@@ -563,18 +587,6 @@ company: The Bishop of Winchester Academy
 location: Bournemouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-pa-to-leadership-team-43554862-09f3-4c18-971e-b22b13d85dce
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Auto Skills UK - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225730020
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -630,11 +642,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Clerk
-company: Reed - Agency - Permanent
-location: Dorset
+title: Receptionist
+company: Aspire Jobs - Agency - Permanent
+location: Beaminster
 source: JobG8
-job_id: jobg8-2113654
+job_id: jobg8-23643_225616407
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -642,11 +654,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Aspire Jobs - Agency - Permanent
-location: Beaminster
-source: JobG8
-job_id: jobg8-23643_225616407
+title: Receptionist/Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Bridport, DT65DR
+source: NHS Jobs
+job_id: nhs-5713414
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -719,30 +731,6 @@ company: Team Jobs - Strategic Accounts - Agency - Contract
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225790287
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Media Executive - Travel Content, Video & Community
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2111486
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Media Executive - Travel Content, Video & Community
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225712305
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

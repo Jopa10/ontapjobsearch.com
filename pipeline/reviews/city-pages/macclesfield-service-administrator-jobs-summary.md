@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 26
+- automatic include: 16
+- automatic review: 25
 - automatic exclude: 0
-- effective include: 13
-- effective review: 26
+- effective include: 16
+- effective review: 25
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (16)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Macclesfield
 source: JobG8
 job_id: jobg8-23643_225779659
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Car Leasing Sales Advisor
+company: Barlow Wood Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-23643_225815001
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -136,11 +148,35 @@ reason: Exact approved Macclesfield workplace.
 action: 
 decision: include
 automatic_decision: include
+title: One Stop - Customer Service Assistant
+company: Tesco - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-2260633
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operational Administrator
 company: Barlow Wood Ltd - Agency - Permanent
 location: Macclesfield
 source: JobG8
 job_id: jobg8-23643_225799183
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: McLennan Knight Recruitment Limited - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-2259115
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -180,7 +216,7 @@ job_id: jobg8-2249893
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (25)
 
 ---
 action: 
@@ -455,18 +491,6 @@ company: Kenneth Brian Associates Limited - Agency - Permanent
 location: Wilmslow
 source: JobG8
 job_id: jobg8-2210598
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Michael Page - Agency - Temporary
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225712143
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

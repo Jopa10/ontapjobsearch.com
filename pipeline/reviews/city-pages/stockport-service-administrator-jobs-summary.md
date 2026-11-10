@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 30
+- automatic include: 20
+- automatic review: 32
 - automatic exclude: 0
-- effective include: 19
-- effective review: 30
+- effective include: 20
+- effective review: 32
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (20)
 
 ---
 action: 
@@ -208,6 +208,18 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Reception
+company: Jobwise Ltd - Agency - Temporary
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225814368
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Winsearch - Agency - Temporary
 location: Stockport
@@ -252,7 +264,31 @@ job_id: jobg8-23643_225744140
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (32)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Halecroft Recruitment - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-2258630
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Halecroft Recruitment - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225815533
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -535,6 +571,18 @@ action:
 decision: review
 automatic_decision: review
 title: Office Administrator
+company: Adecco - Agency - Temporary
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225815933
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
 company: Rogers McHugh Recruitment - Agency - Permanent
 location: Altrincham
 source: JobG8
@@ -551,18 +599,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-2165151
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Hyde PCN
-location: Hyde, SK14 2QT
-source: NHS Jobs
-job_id: nhs-5701647
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
