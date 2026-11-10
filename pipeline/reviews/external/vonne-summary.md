@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-09
-review_fingerprint: e94887d68c25777ab7329d15861796157072fb36fc4f80878e06d9bc6a54515d
+review_date: 2026-11-10
+review_fingerprint: 3699c21237352f0568583d91a4ff40cdb98611d98089066c1da347a0c43a5875
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-09T16:46:24+00:00
+Run generated: 2026-11-10T15:09:52+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1176
+JobG8 comparison rows: 1179
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -23,15 +23,15 @@ Approved NEJobs comparison rows: 0
 - Obvious hard passes not detail-fetched: 13
 - Tees Valley explicitly excluded: 1
 - Outside or unmapped geography excluded: 2
-- Generic/derived geography rows requiring review: 4
+- Generic/derived geography rows requiring review: 5
 - Retained target candidates: 12
 
 ## Outcomes
 - HC: 0
-- POSS: 6
-- HARD_PASS: 6
+- POSS: 7
+- HARD_PASS: 5
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 6
+- Final POSS awaiting decision: 7
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -83,14 +83,27 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173648
 ---
 ---
 action:
+POSS | North East - County Durham & Darlington/Hartlepool | Durham | £28,000 Per Annum | Support Worker
+employer: Emmaus North East
+closing_date: 31 December 2026
+geography: CONFIRMED — location: exact area
+reason: possible cross-source duplicate requires review
+source: VONNE
+tracking_key: vonne-173685
+vacancy_fingerprint: 4dbabf7aeb40063930d204bde3bf4242013702296b5f91843b8728a09983368a
+source_job_id: 173685
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173685
+---
+---
+action:
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,893 to 34,068 Per Annum | Education Coordinator
-employer: Northumbria Students Union
+employer: Northumbria Students' Union
 closing_date: Wednesday, December 2, 2026 - 12:00
 geography: CONFIRMED — location: approved location fallback
 reason: annualised upper salary £34,068 exceeds North East review point £30,000
 source: VONNE
 tracking_key: vonne-173674
-vacancy_fingerprint: 907b4c71ff28143269faf4f196530e1725bf8b14ae2fbdf597f462c0d6662d2d
+vacancy_fingerprint: 0b7852170ec9a508eb04cdf6a884992552734e881edecf642fbd4ce831a63a93
 source_job_id: 173674
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173674
 ---
@@ -126,10 +139,9 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173661
 
 ## HARD_PASS
 
-- [Family Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173625) — out-of-scope VONNE occupation.
+- [Communications & Brand Identity Consultant (freelance)](https://www.vonne.org.uk/vonne-jobs-details?cid=173679) — out-of-scope VONNE occupation.
 - [Grants Administration Officer (Small and Medium Grants)](https://www.vonne.org.uk/vonne-jobs-details?cid=173618) — insufficient service-admin evidence.
 - [Monitoring and Co-ordination Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173633) — out-of-scope VONNE occupation.
-- [Outreach Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173624) — out-of-scope VONNE occupation.
 - [Wellbeing & Campaigns Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173673) — out-of-scope VONNE occupation.
 - [Young Carers’ Wellbeing Worker (Triage)](https://www.vonne.org.uk/vonne-jobs-details?cid=173676) — out-of-scope VONNE occupation.
 
