@@ -274,6 +274,7 @@ jobs:
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
         run: |
           set -euo pipefail
           test -n "$VERCEL_TOKEN"
@@ -294,7 +295,6 @@ jobs:
           PYPACK
           cleanup() { rm -f "$harness/source-artifact.zip" "$harness/source-download.json"; }
           trap cleanup EXIT
-          npx --yes vercel@latest link --cwd "$harness" --project="$VERCEL_PROJECT_ID" --yes --token="$VERCEL_TOKEN"
           npm ci --omit=dev --ignore-scripts --prefix "$harness"
           VERCEL_ENV=preview npx --yes vercel@latest env run --cwd "$harness" --token="$VERCEL_TOKEN" -e preview -- node bootstrap-stage.mjs
           cp "$harness/dist/report.json" "$work/neon-readback-report.json"
