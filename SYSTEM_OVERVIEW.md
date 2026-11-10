@@ -3,12 +3,15 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 5 November 2026
+**Last updated:** 10 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 10 November 2026 — **Eleven requested region/family pages registered for the next feed:** the exact owner-requested pairs are now LIVE in the pipeline register, and Lancashire - Blackpool & Fylde has been added using its established Blackpool anchor. The existing public inventory and deployment are untouched. Tomorrow's feed will generate their lists; reconcile counts and exact job IDs before running the verified publisher.
+
 
 - 5 November 2026 — **AI advice by job type added:** the AI at Work hub now features a new reception and office-admin guide, while the accounts and finance article remains visibly next in the series. The published guide is included in the sitemap.
 
@@ -274,7 +277,7 @@ PostgreSQL must precede a second commercial job feed. Build and test JobG8 → d
 
 ## Current state
 
-Reconciled from `pipeline/registers/region_category_slice_register.csv` on 31 October 2026, the current register contains **239 LIVE rows**: Service Admin 64, Marketing 31, Customer Sales 28, Finance / Accounts 47, Support Worker 16, HR / Recruitment 19, Customer Service / Contact Centre 11 and Legal Assistant / Paralegal 23. Another 8 rows are CANDIDATE. These are activation counts; current job availability must be read from the deployed inventory.
+Reconciled from `pipeline/registers/region_category_slice_register.csv` on 10 November 2026, the register contains **250 LIVE rows** and **8 CANDIDATE rows**. The 11 new pairs are registered, but their page data and exact job IDs still need reconciliation before publication. These are activation counts; current job availability must be read from the deployed inventory.
 
 The full JobG8 workflow assesses all eight families across all 78 UK markets (624 rows) and retains up to 14 feed-date snapshots. The shared city mechanism owns 66 active permanent routes (65 Admin and office, one Support Worker). Production deployment uses a Vercel CLI deployment after successful verified-page publishing; automatic Git builds are disabled. NHS Administrative & Clerical inventory is isolated safely on feed failure, remains capped at 20% per Service Admin page and uses the 4+1 display order. Live vacancy pages and search use deployment-built static/current inventory; expired-job recovery remains separate. Teaching Vacancies retains the source-isolation and concurrent-write safeguards described above.
 - 21 September 2026 — **Google indexing now gives JobG8 first claim on the daily allowance:** after the fixed deletion allowance, every available eligible JobG8 URL is selected before any non-JobG8 URL. Non-paying sources are capped at **20 of 200 submissions (10%)**; unused JobG8 capacity is never released to them. Workflow summaries now show live inventory, indexing candidates and selected submissions by source.

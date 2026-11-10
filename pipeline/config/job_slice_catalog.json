@@ -120,6 +120,7 @@
     "Scotland Central - Tayside": { "slug": "tayside", "anchor_town": "Dundee" },
     "Wales South - Valleys": { "slug": "south-wales-valleys", "anchor_town": "Merthyr Tydfil" },
     "Lancashire - Central": { "slug": "lancashire-central", "anchor_town": "Preston" },
+    "Lancashire - Blackpool & Fylde": { "slug": "blackpool-fylde", "anchor_town": "Blackpool" },
     "North Wales - East": { "slug": "north-wales-east", "anchor_town": "Wrexham" },
     "Scotland Central - Falkirk & Stirling": { "slug": "falkirk-stirling", "anchor_town": "Stirling" },
     "Wales South - Gwent": { "slug": "gwent", "anchor_town": "Newport" }

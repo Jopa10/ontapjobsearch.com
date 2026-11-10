@@ -3,7 +3,7 @@ Total output lines: 420
 
 # Ontap System Map
 
-**Last updated:** 5 November 2026
+**Last updated:** 10 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -11,6 +11,9 @@ Total output lines: 420
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 10 November 2026 — **Eleven requested region/family pages registered for the next feed:** added the exact owner-requested pairs to the LIVE register and configured Lancashire - Blackpool & Fylde with its established slug and Blackpool anchor from `england_assessable_regions.json`. The next daily JobG8 run will generate their pipeline outputs. No public page data or production deployment is changed by registration; keep the verified publisher blocked until each output's counts and exact job IDs are reconciled against the existing inventory.
+
 
 - 5 November 2026 — **Role-specific AI advice added:** the `/ai-at-work` hub now includes an `AI advice by job type` section. The first published guide at `/ai-at-work/reception-and-office-admin` gives practical reception and office-admin examples with workplace-data safeguards; the accounts and finance guide is presented as the next item rather than published simultaneously. The new guide is included in the sitemap.
 
@@ -248,7 +251,7 @@ This changes the trigger from every `main` push to a successful verified-page pu
 
 ## Validation state
 
-As reconciled from `pipeline/registers/region_category_slice_register.csv` on 31 October 2026, the register contains **239 LIVE rows**: Service Admin 64, Marketing 31, Customer Sales 28, Finance / Accounts 47, Support Worker 16, HR / Recruitment 19, Customer Service / Contact Centre 11 and Legal Assistant / Paralegal 23. A further 8 rows are CANDIDATE. The LIVE register is authoritative for family/region activation; activation does not itself prove deployed inventory.
+As reconciled from `pipeline/registers/region_category_slice_register.csv` on 10 November 2026, the register contains **250 LIVE rows** and **8 CANDIDATE rows**. The 11 newly registered pairs still require generated page data and exact job-ID reconciliation before publication. The LIVE register is authoritative for family/region activation; activation does not itself prove deployed inventory.
 
 The full JobG8 workflow enforces the current **78 markets × eight families = 624 rows** diagnostic contract and up to 14 feed-date snapshots. `city-page-register.json` contains **66 active permanent family-city routes (65 Admin and office, one Support Worker)**; `broad-city-page-register.json` contains **41 active permanent all-jobs city routes** (registered activation state; deployed population requires separate verification). NHS feed isolation, the 20% Service Admin ceiling, the 4+1 display rhythm, Teaching Vacancies source isolation, deployment-built search/static live vacancy pages and publish-triggered Vercel CLI deployment with live-SHA verification remains the verified production architecture.
 
