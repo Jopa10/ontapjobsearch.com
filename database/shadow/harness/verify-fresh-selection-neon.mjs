@@ -25,6 +25,42 @@ function unionIds(byScope) {
   return new Set(Object.values(byScope).flat());
 }
 
+function compareProductionOutputs({ outputs, productionOutputs, productionReference, feedCategoryMap }) {
+  const pythonByScope = Object.fromEntries(Object.entries(outputs).map(([scope, rows]) => [scope, rows.map(row => String(row.job_id))]));
+  const productionByScope = uniqueIdsByScope(productionOutputs, 'Same-date production outputs');
+  const pythonIdsByScope = uniqueIdsByScope(pythonByScope, 'Python outputs');
+  assert.deepEqual(Object.keys(productionByScope).sort(), Object.keys(pythonIdsByScope).sort(), 'Production/Python output scopes differ');
+  const scopeDifferences = {};
+  for (const scope of Object.keys(pythonIdsByScope).sort()) {
+    const python = new Set(pythonIdsByScope[scope]);
+    const production = new Set(productionByScope[scope]);
+    const selectorOnlyIds = [...python].filter(id => !production.has(id)).sort();
+    const productionOnlyIds = [...production].filter(id => !python.has(id)).sort();
+    if (selectorOnlyIds.length || productionOnlyIds.length) scopeDifferences[scope] = { selectorOnlyIds, productionOnlyIds };
+  }
+  const pythonPublished = unionIds(pythonIdsByScope);
+  const productionPublished = unionIds(productionByScope);
+  const adminFeedIds = new Set(Object.entries(feedCategoryMap).filter(([, category]) => category === 'Administration').map(([id]) => id));
+  const adminPythonIds = [...pythonPublished].filter(id => adminFeedIds.has(id)).sort();
+  const adminProductionIds = [...productionPublished].filter(id => adminFeedIds.has(id)).sort();
+  return {
+    feedDate: productionReference.feedDate,
+    administrationReportReference: productionReference.administrationClassifiedPublishedIds,
+    administrationSelectorUniqueIds: adminPythonIds.length,
+    administrationProductionUniqueIds: adminProductionIds.length,
+    administrationExactIdsMatch: JSON.stringify(adminPythonIds) === JSON.stringify(adminProductionIds),
+    administrationSelectorOnlyIds: adminPythonIds.filter(id => !adminProductionIds.includes(id)),
+    administrationProductionOnlyIds: adminProductionIds.filter(id => !adminPythonIds.includes(id)),
+    allJobG8ReportReference: productionReference.allJobG8PublishedIds,
+    allJobG8SelectorUniqueIds: pythonPublished.size,
+    allJobG8ProductionUniqueIds: productionPublished.size,
+    allJobG8ExactIdsMatch: JSON.stringify([...pythonPublished].sort()) === JSON.stringify([...productionPublished].sort()),
+    selectorOnlyJobG8Ids: [...pythonPublished].filter(id => !productionPublished.has(id)).sort(),
+    productionOnlyJobG8Ids: [...productionPublished].filter(id => !pythonPublished.has(id)).sort(),
+    scopeDifferences
+  };
+}
+
 export function validateFreshSelectionInput({ raw, selection, outputs, productionOutputs, productionReference, feedCategoryMap }) {
   assert.equal(raw.percentage, 100, 'Full dated feed required');
   assert.equal(raw.archiveDate, raw.observedOn, 'Raw feed date mismatch');
@@ -49,25 +85,11 @@ export function validateFreshSelectionInput({ raw, selection, outputs, productio
   assert.ok(feedCategoryMap && typeof feedCategoryMap === 'object' && !Array.isArray(feedCategoryMap), 'Feed category map is required');
   const feedIds = new Set(raw.records.map(row => String(row['/Job/DisplayReference'])));
   for (const id of feedIds) assert.ok(Object.hasOwn(feedCategoryMap, id), `Feed category is missing for job ${id}`);
-  const pythonByScope = Object.fromEntries(Object.entries(outputs).map(([scope, rows]) => [scope, rows.map(row => String(row.job_id))]));
-  const productionByScope = uniqueIdsByScope(productionOutputs, 'Same-date production outputs');
-  const pythonIdsByScope = uniqueIdsByScope(pythonByScope, 'Python outputs');
-  assert.deepEqual(Object.keys(productionByScope).sort(), Object.keys(pythonIdsByScope).sort(), 'Production/Python output scopes differ');
-  for (const scope of Object.keys(pythonByScope).sort()) {
-    assert.deepEqual(productionByScope[scope], pythonIdsByScope[scope].sort(), `Production/Python output IDs differ in ${scope}`);
-  }
-
-  const adminFeedIds = new Set(Object.entries(feedCategoryMap).filter(([, category]) => category === 'Administration').map(([id]) => id));
-  const pythonPublished = unionIds(pythonByScope);
-  const productionPublished = unionIds(productionByScope);
-  const adminPythonIds = [...pythonPublished].filter(id => adminFeedIds.has(id)).sort();
-  const adminProductionIds = [...productionPublished].filter(id => adminFeedIds.has(id)).sort();
-  assert.deepEqual(adminPythonIds, adminProductionIds, 'Administration-classified Python/production IDs differ');
-  assert.equal(adminPythonIds.length, productionReference.administrationClassifiedPublishedIds,
-    'Administration ID set does not match its same-date report reference');
-  assert.deepEqual([...pythonPublished].sort(), [...productionPublished].sort(), 'All JobG8 Python/production IDs differ');
-  assert.equal(pythonPublished.size, productionReference.allJobG8PublishedIds,
-    'All JobG8 ID set does not match its same-date report reference');
+  const productionComparison = compareProductionOutputs({ outputs, productionOutputs, productionReference, feedCategoryMap });
+  assert.equal(productionComparison.administrationProductionUniqueIds, productionReference.administrationClassifiedPublishedIds,
+    'Same-date production Administration IDs do not match their report reference');
+  assert.equal(productionComparison.allJobG8ProductionUniqueIds, productionReference.allJobG8PublishedIds,
+    'Same-date production JobG8 IDs do not match their report reference');
 
   const state = canonicalSelection(selection, selection.report.compactContext);
   for (const family of ['admin_service', 'support_worker', 'customer_sales', 'finance_accounts',
@@ -108,15 +130,7 @@ export function buildFreshReadbackManifest({ raw, selection, outputs, production
     automatedOutcomeCountsByScope: counts,
     finalPythonOutputIdsByScope: idsByScope,
     finalPythonOutputCountsByScope: Object.fromEntries(Object.entries(idsByScope).map(([scope, ids]) => [scope, ids.length])),
-    productionOutputComparison: {
-      feedDate: productionReference.feedDate,
-      administrationClassifiedPublishedIds: productionReference.administrationClassifiedPublishedIds,
-      administrationExactIdsMatch: true,
-      administrationPublishedIds,
-      allJobG8PublishedIds: productionReference.allJobG8PublishedIds,
-      allJobG8ExactIdsMatch: true,
-      sameRunScopeIds: uniqueIdsByScope(productionOutputs, 'Same-date production outputs'),
-    },
+    productionOutputComparison: compareProductionOutputs({ outputs, productionOutputs, productionReference, feedCategoryMap }),
     humanReviewEvidence: { available: false, missingPerIdRecords: perId.length, reason: 'Selector replay does not contain the later human-review decision and timestamp.' },
     finalPublishedReviewEvidence: { available: false, publishedIds: null, reviewIds: null, reason: 'Requires the matching dated post-review production artifact.' },
     completeness: { postgresReadback: 'exact_per_id_match', humanReviewRecordsMissing: perId.length, finalPublishedReviewList: 'not_available', parityMayBeClaimed: false }
@@ -126,6 +140,7 @@ export function buildFreshReadbackManifest({ raw, selection, outputs, production
 export async function storeAndReadBackFreshSelection(client, input) {
   const { raw, selection } = input;
   const expected = validateFreshSelectionInput(input);
+  const productionOutputComparison = compareProductionOutputs(input);
   const runId = stableId(`run:jobg8:raw-stage:${raw.archiveSha256}:100`);
   const beforeCounts = await counts(client);
   const imported = await importStage(client, raw, { compactSelection: true });
@@ -168,6 +183,7 @@ export async function storeAndReadBackFreshSelection(client, input) {
     allJobG8PythonOutputIds: allJobG8OutputIds,
     allJobG8ReportReference: input.productionReference.allJobG8PublishedIds,
     pythonOutputsSha256: selection.report.outputsSha256,
+    productionOutputComparison,
     initialImportReplayed: imported.replayed, initialSelectionReplayed: attached.replayed,
     replayImportVerified: replayImport.replayed, replaySelectionVerified: replaySelection.replayed,
     countsBefore: beforeCounts, countsAfter: afterCounts, allocation,
