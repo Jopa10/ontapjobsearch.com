@@ -174,7 +174,7 @@ export async function storeAndReadBackFreshSelection(client, input) {
     jobsWithheld: true, expiryEnabled: false, purgeExecuted: false, productionChanged: false };
 }
 
-async function main() {
+export async function runFreshSelectionReadback() {
   assert.equal(process.env.VERCEL_ENV, 'preview', 'Preview only');
   assert.equal(process.env.ONTAP_SHADOW_NEON_PROJECT_ID, 'noisy-fire-97386602', 'Wrong Neon test project');
   const url = new URL(process.env.ONTAP_SHADOW_DATABASE_URL);
@@ -206,7 +206,7 @@ async function main() {
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
-  main().catch(error => {
+  runFreshSelectionReadback().catch(error => {
     console.error('ONTAP_FRESH_SELECTION_NEON_FAILED', error.code || error.name || 'verification_error',
       error.name === 'AssertionError' ? error.message.split('\n')[0] : '');
     process.exitCode = 1;
