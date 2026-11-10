@@ -12,7 +12,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
-- 10 November 2026 — **Eleven requested region/family pages prepared as candidates:** added the exact owner-requested pairs to the CANDIDATE register and configured Lancashire - Blackpool & Fylde with its established slug and Blackpool anchor from `england_assessable_regions.json`. This is Preview preparation only: no JobG8 outputs, public page data or production deployment are changed. Move a pair to LIVE only after its generated output and exact job IDs are reconciled against the existing inventory.
+- 10 November 2026 — **Eleven requested region/family pages registered for the next feed:** added the exact owner-requested pairs to the LIVE register and configured Lancashire - Blackpool & Fylde with its established slug and Blackpool anchor from `england_assessable_regions.json`. The next daily JobG8 run will generate their pipeline outputs. No public page data or production deployment is changed by registration; keep the verified publisher blocked until each output's counts and exact job IDs are reconciled against the existing inventory.
 
 
 - 5 November 2026 — **Role-specific AI advice added:** the `/ai-at-work` hub now includes an `AI advice by job type` section. The first published guide at `/ai-at-work/reception-and-office-admin` gives practical reception and office-admin examples with workplace-data safeguards; the accounts and finance guide is presented as the next item rather than published simultaneously. The new guide is included in the sitemap.
@@ -251,7 +251,7 @@ This changes the trigger from every `main` push to a successful verified-page pu
 
 ## Validation state
 
-As reconciled from `pipeline/registers/region_category_slice_register.csv` on 10 November 2026 in this Preview branch, the register contains **239 LIVE rows** and **19 CANDIDATE rows**. The 11 new requested pairs remain candidates pending generated page data and exact job-ID reconciliation. The LIVE register is authoritative for family/region activation; activation does not itself prove deployed inventory.
+As reconciled from `pipeline/registers/region_category_slice_register.csv` on 10 November 2026, the register contains **250 LIVE rows** and **8 CANDIDATE rows**. The 11 newly registered pairs still require generated page data and exact job-ID reconciliation before publication. The LIVE register is authoritative for family/region activation; activation does not itself prove deployed inventory.
 
 The full JobG8 workflow enforces the current **78 markets × eight families = 624 rows** diagnostic contract and up to 14 feed-date snapshots. `city-page-register.json` contains **66 active permanent family-city routes (65 Admin and office, one Support Worker)**; `broad-city-page-register.json` contains **41 active permanent all-jobs city routes** (registered activation state; deployed population requires separate verification). NHS feed isolation, the 20% Service Admin ceiling, the 4+1 display rhythm, Teaching Vacancies source isolation, deployment-built search/static live vacancy pages and publish-triggered Vercel CLI deployment with live-SHA verification remains the verified production architecture.
 
