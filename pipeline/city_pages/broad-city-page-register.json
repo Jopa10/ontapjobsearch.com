@@ -285,5 +285,40 @@
     "region": "North Wales - East",
     "route": "/wrexham/jobs",
     "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Kettering",
+    "slug": "kettering",
+    "region": "Northamptonshire",
+    "route": "/kettering/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "High Wycombe",
+    "slug": "high-wycombe",
+    "region": "Buckinghamshire",
+    "route": "/high-wycombe/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Dudley",
+    "slug": "dudley",
+    "region": "West Midlands - Black Country",
+    "route": "/dudley/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Dundee",
+    "slug": "dundee",
+    "region": "Scotland Central - Tayside",
+    "route": "/dundee/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Wirral",
+    "slug": "wirral",
+    "region": "Merseyside - Wirral",
+    "route": "/wirral/jobs",
+    "lifecycle_state": "active"
   }
 ]
