@@ -1,15 +1,23 @@
 import fs from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
+import path from 'node:path';
 
 try {
   if(process.env.VERCEL_ENV!=='preview') throw new Error('Preview required');
   const source=JSON.parse(await fs.readFile('source-download.json','utf8'));
-  const url=new URL(source.downloadUrl);
-  if(url.protocol!=='https:' || !url.hostname.endsWith('.oaiusercontent.com')) throw new Error('Unexpected temporary artifact host');
-  const response=await fetch(url,{signal:AbortSignal.timeout(60000)});
-  if(!response.ok) throw new Error('Source download failed');
-  const bytes=Buffer.from(await response.arrayBuffer());
+  let bytes;
+  if(source.localArtifact) {
+    const localPath=path.resolve(process.cwd(),source.localArtifact);
+    if(path.dirname(localPath)!==process.cwd() || path.basename(localPath)!=='source-artifact.zip') throw new Error('Unexpected local artifact path');
+    bytes=await fs.readFile(localPath);
+  } else {
+    const url=new URL(source.downloadUrl);
+    if(url.protocol!=='https:' || !url.hostname.endsWith('.oaiusercontent.com')) throw new Error('Unexpected temporary artifact host');
+    const response=await fetch(url,{signal:AbortSignal.timeout(60000)});
+    if(!response.ok) throw new Error('Source download failed');
+    bytes=Buffer.from(await response.arrayBuffer());
+  }
   if(source.mode==='selection_parity' && bytes.length>25*1024*1024) throw new Error('Selection artifact too large');
   if(source.mode==='fresh_selection_neon' && bytes.length>200*1024*1024) throw new Error('Fresh selector artifact too large');
   await fs.writeFile('source-artifact.zip',bytes);
