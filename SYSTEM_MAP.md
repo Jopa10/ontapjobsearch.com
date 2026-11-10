@@ -3,7 +3,7 @@ Total output lines: 420
 
 # Ontap System Map
 
-**Last updated:** 5 November 2026
+**Last updated:** 10 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -11,6 +11,9 @@ Total output lines: 420
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 10 November 2026 — **Eleven requested region/family pages prepared as candidates:** added the exact owner-requested pairs to the CANDIDATE register and configured Lancashire - Blackpool & Fylde with its established slug and Blackpool anchor from `england_assessable_regions.json`. This is Preview preparation only: no JobG8 outputs, public page data or production deployment are changed. Move a pair to LIVE only after its generated output and exact job IDs are reconciled against the existing inventory.
+
 
 - 5 November 2026 — **Role-specific AI advice added:** the `/ai-at-work` hub now includes an `AI advice by job type` section. The first published guide at `/ai-at-work/reception-and-office-admin` gives practical reception and office-admin examples with workplace-data safeguards; the accounts and finance guide is presented as the next item rather than published simultaneously. The new guide is included in the sitemap.
 
