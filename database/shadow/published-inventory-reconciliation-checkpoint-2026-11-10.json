@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "status": "10-nov-neon-readback-passed; production-selector-parity-unresolved",
+  "status": "10-nov-neon-readback-passed; exact-ID-parity-unresolved; per-ID-review-outcomes-missing",
   "repository": "Jopa10/ontapjobsearch.com",
   "branch": "feat/neon-shadow-database",
   "branchHeadAtStart": "f5832961d415ee8604d91414609b7946d3c74df1",
@@ -338,7 +338,7 @@
     "privateAlertWorkflowTriggeredByThisReview": false,
     "externalPrivateAlertWorkflowObserved": true
   },
-  "nextAction": "Keep the 5/6 Nov historical reconciliation incomplete because its exact active JobG8 lists and generated homepage lists are unavailable. Do not rerun the completed comparisons or recovery search. Preserve full dated source and published ID lists plus checksums with each future comparison; then continue with separately gated Preview work.",
+  "nextAction": "Resolve the 6 Administration and 20 all-JobG8 production-only IDs using retained per-ID production and human-review evidence; do not claim Published/Review outcome parity while those records are unavailable. Keep website inventory (5,457 JobG8 + 360 other sources = 5,817) as a separate downstream stage.",
   "homepageCountMethod": {
     "codeAtNov6ProductionCommit": "8787da7cb19b0a9d16c57377eef42c2f922e043f",
     "homepageFile": {
@@ -432,7 +432,7 @@
   },
   "planDeviationOrAddition": "Evidence-retention step may be needed for future dated reconciliations because final apply/publish runs have no retained artifacts.",
   "previousCheckpoint": "database/shadow/published-inventory-reconciliation-checkpoint-2026-11-09.json",
-  "updatedAt": "2026-11-10T16:48:48.130Z",
+  "updatedAt": "2026-11-10T17:32:04.950Z",
   "recoveryAttemptDisposition": {
     "priorAttemptDate": "2026-11-09",
     "result": "The single read-only recovery search is already complete in the prior checkpoint. No complete 5/6 Nov active JobG8 ID inventories or final generated/published-jobs.json lists were recovered.",
@@ -546,9 +546,9 @@
       "deliveryConfirmed": false
     }
   },
-  "branchHeadAfterCheckpoint": "5d24ebdb564d69c2338e58cdccc0cdf71295cbd9",
+  "branchHeadAfterCheckpoint": "48f7a7559ac424f9e72fa343d42351c51b41e2aa",
   "nov10SameFeedSelectorVsPostgresComparison": {
-    "recordedAt": "2026-11-10T11:00:00+00:00",
+    "recordedAt": "2026-11-10T17:23:23Z",
     "stage": "3/5",
     "scope": "Check exact 10 Nov JobG8 feed provenance and same-run ID-level Python selector versus PostgreSQL readback evidence. No selector replay or database access performed.",
     "currentPr": {
@@ -603,21 +603,21 @@
     },
     "parity": {
       "administration": {
-        "referencePublishedCount": 1177,
-        "exactIdsAvailable": true,
-        "outcomesAvailable": false,
-        "comparisonRun": false,
-        "evidence": "Same-run production family-output artifacts are available for per-ID ID-set comparison; per-ID human review outcomes/timestamps are absent."
+        "pythonOutputIds": 1171,
+        "productionIds": 1177,
+        "selectorOnlyIds": 0,
+        "productionOnlyIds": 6,
+        "exactIdsMatch": false,
+        "perIdOutcomes": "missing"
       },
       "allJobG8": {
-        "referencePublishedCount": 5541,
-        "exactIdsAvailable": true,
-        "outcomesAvailable": false,
-        "comparisonRun": false,
-        "evidence": "Same-run production family-output artifacts are available for per-ID ID-set comparison; per-ID human review outcomes/timestamps are absent."
-      },
-      "postgresReadbackFor10Nov": "not found",
-      "result": "BLOCKED. Counts and the dated source are evidenced, but no checksum-verified 10 Nov archive and no matching 10 Nov PostgreSQL readback were available. Do not compare to the 6 Nov feed."
+        "pythonOutputIds": 5521,
+        "productionIds": 5541,
+        "selectorOnlyIds": 0,
+        "productionOnlyIds": 20,
+        "exactIdsMatch": false,
+        "perIdOutcomes": "missing"
+      }
     },
     "workflowEvidenceReview": {
       "existingArtifacts": {
@@ -667,60 +667,135 @@
       "note": "These are downstream website/source-inventory measures, separate from the 5,541 category-profile published count. The observed 10 Nov report differs from the supplied reference; reconcile by run/date/ID later and do not infer a cause."
     },
     "safety": {
-      "exactFeedReplayPerformed": false,
-      "neonAccessed": false,
-      "neonChanged": false,
       "productionChanged": false,
-      "productionPublishTriggered": false,
-      "emailSent": false,
-      "expiryOrPurgeRun": false,
+      "jobsWithheld": true,
+      "expiryEnabled": false,
+      "purgeExecuted": false,
       "mergeOrCutover": false
     },
-    "nextAction": "Complete and locally verify the feature-branch workflow that compares same-run production IDs with Python, stores Python decisions in isolated Neon Preview, reads them back, and retains a dated manifest. Then provide a fresh presigned URL for the exact 10 Nov S3 object in ONTAP_SAVED_FEED_URL; do not rerun the live feed. Full Published/Review outcome parity remains blocked unless same-run per-ID human review decisions and timestamps are captured. Never infer Review from absence in output files."
+    "nextAction": "Complete and locally verify the feature-branch workflow that compares same-run production IDs with Python, stores Python decisions in isolated Neon Preview, reads them back, and retains a dated manifest. Then provide a fresh presigned URL for the exact 10 Nov S3 object in ONTAP_SAVED_FEED_URL; do not rerun the live feed. Full Published/Review outcome parity remains blocked unless same-run per-ID human review decisions and timestamps are captured. Never infer Review from absence in output files.",
+    "sourceEvidence": {
+      "workflowRunId": 42831639152,
+      "artifactId": 13775030527,
+      "feedDate": "2026-11-10",
+      "sha256": "da0d20498d25005dd66bc5a843105c082d6481d95f61cd74e31c60a55a440c15",
+      "selectorRefetched": false,
+      "selectorRerun": false
+    },
+    "administrationReferenceStage": {
+      "verified": true,
+      "received": 1793,
+      "publishedCount": 1177,
+      "definition": "Unique JobG8 IDs in family-output JSONs grouped by original feed classification. This is before website inventory reconciliation."
+    },
+    "neonReadback": {
+      "workflowRunId": 42864052686,
+      "requestAttempt": 29,
+      "result": "passed",
+      "rawRowsImported": 46434,
+      "perIdDecisionsReadBack": 371472,
+      "exactPerIdMatch": true
+    },
+    "separation": {
+      "receivedFeedRows": 46440,
+      "jobG8PublishedFamilyOutput": 5541,
+      "jobG8LiveWebsite": 5457,
+      "otherSourceLive": 360,
+      "sitewideLive": 5817
+    }
   },
   "branchHeadBeforeEvidenceChanges": "e225a64d840d8be0f6f898dd43c3f92b3692e3a4",
   "latestNeonReadback": {
-    "recordedAt": "2026-11-10T16:48:48.131Z",
+    "recordedAt": "2026-11-10T17:23:23Z",
+    "workflowRunId": 42864052686,
+    "workflowAttempt": 1,
+    "workflowRequestAttempt": 29,
     "sourceEvidence": {
-      "workflowRunId": 42840691383,
-      "artifactId": 13780145442,
+      "workflowRunId": 42831639152,
+      "artifactId": 13775030527,
       "feedDate": "2026-11-10",
-      "selectorReplayRefetched": false
+      "archiveSha256": "da0d20498d25005dd66bc5a843105c082d6481d95f61cd74e31c60a55a440c15",
+      "selectorReplayRefetched": false,
+      "selectorRerun": false
     },
-    "workflowRequestAttempt": 27,
     "previewDeployment": {
-      "id": "dpl_2RSSuWKfsToSw6qJ7bqsKH8c5yw5",
-      "url": "https://ontapjobsearch-136znevpu-ontap1.vercel.app",
-      "ready": true
+      "id": "dpl_AbabMgNh3vdtSs8dPkdD2CkDENnj",
+      "url": "https://ontapjobsearch-3zx1j762a-ontap1.vercel.app",
+      "state": "READY"
     },
     "result": {
       "neonWriteReadback": "passed",
       "neonRunId": "6434af3b-a4cf-5a88-9b46-717220d0aa6f",
-      "rawImported": 46434,
+      "rawReceived": 46440,
+      "cleanRecordsImported": 46434,
+      "conflictingIdsHeld": 3,
       "decisionsReadBack": 371472,
+      "postgresReadback": "exact_per_id_match",
+      "initialImportReplayed": true,
+      "initialSelectionReplayed": true,
       "replayImportVerified": true,
       "replaySelectionVerified": true,
+      "databaseBytes": 541245440,
       "jobsWithheld": true,
       "expiryEnabled": false,
       "purgeExecuted": false,
       "productionChanged": false
     },
+    "administrationReference": {
+      "verified": true,
+      "sourcePath": "pipeline/reports-daily/jobg8-feed-category-profile.csv",
+      "sourceCommit": "c49db013ac1f88116a84793c2b402cbee0b6bfed",
+      "feedDate": "2026-11-10",
+      "receivedRows": 1793,
+      "publishedCount": 1177,
+      "stageDefinition": "Unique JobG8 IDs present in family output JSONs, grouped by each ID's original JobG8 feed classification. This is the family-output published stage, before downstream website inventory reconciliation.",
+      "codePath": "pipeline/scripts/build_jobg8_category_profile.py"
+    },
     "productionComparison": {
-      "exactParity": false,
       "administration": {
-        "selectorIds": 1171,
-        "productionIds": 1177,
-        "productionOnlyIds": 6,
-        "selectorOnlyIds": 0
+        "pythonOutputUniqueIds": 1171,
+        "productionUniqueIds": 1177,
+        "exactIdsMatch": false,
+        "pythonOnlyIds": [],
+        "productionOnlyIds": [
+          "23643_225751130",
+          "23643_225762297",
+          "23643_225764426",
+          "23643_225772603",
+          "23643_225800486",
+          "23643_225808057"
+        ]
       },
       "allJobG8": {
-        "selectorIds": 5521,
-        "productionIds": 5541,
-        "productionOnlyUniqueIds": 20,
-        "selectorOnlyIds": 0,
-        "productionOnlyScopePlacements": 32
+        "pythonOutputUniqueIds": 5521,
+        "productionUniqueIds": 5541,
+        "exactIdsMatch": false,
+        "pythonOnlyIds": [],
+        "productionOnlyIds": [
+          "2243248",
+          "23643_225636848",
+          "23643_225740953",
+          "23643_225751130",
+          "23643_225755216",
+          "23643_225757786",
+          "23643_225762297",
+          "23643_225764426",
+          "23643_225765089",
+          "23643_225765366",
+          "23643_225766642",
+          "23643_225772603",
+          "23643_225775622",
+          "23643_225775730",
+          "23643_225789524",
+          "23643_225790331",
+          "23643_225800486",
+          "23643_225800948",
+          "23643_225808057",
+          "23643_225811572"
+        ]
       },
-      "interpretation": "Same-date production output includes manual-selection stages, but the saved selector evidence has no per-ID human review decisions. The 20 production-only IDs therefore remain unexplained at per-ID level; exact production parity is not claimed."
+      "outcomesParity": "not complete: production per-ID human-review decisions/timestamps are not present in the saved evidence; do not infer Review from absence in Python output.",
+      "websiteInventoryBoundary": "5,457 JobG8 + 360 other-source = 5,817 sitewide remains a separate downstream reconciliation."
     }
   }
 }
