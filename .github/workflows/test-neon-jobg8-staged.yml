@@ -297,7 +297,9 @@ jobs:
           cleanup() { rm -f "$harness/source-artifact.zip" "$harness/source-download.json"; }
           trap cleanup EXIT
           npm ci --omit=dev --ignore-scripts --prefix "$harness"
-          VERCEL_ENV=preview npx --yes vercel@latest env run --cwd "$harness" --token="$VERCEL_TOKEN" -e preview -- node bootstrap-stage.mjs
+          cli_dir="$RUNNER_TEMP/vercel-cli"
+          npm install --prefix "$cli_dir" --no-save --ignore-scripts --no-audit --no-fund vercel@65.14.0
+          VERCEL_ENV=preview "$cli_dir/node_modules/.bin/vercel" env run --cwd "$harness" --token="$VERCEL_TOKEN" -e preview -- node bootstrap-stage.mjs
           cp "$harness/dist/report.json" "$work/neon-readback-report.json"
           cp "$harness/dist/per-id-readback-manifest.json" "$work/per-id-readback-manifest.json"
           python - "$work" "${{ steps.request.outputs.archive_date }}" <<'PYVERIFY'
