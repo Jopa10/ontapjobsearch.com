@@ -121,6 +121,7 @@ export function buildFreshReadbackManifest({ raw, selection, outputs, production
   }));
   const counts = {};
   for (const row of perId) counts[row.scope] = { ...(counts[row.scope] || {}), [row.automatedOutcome]: (counts[row.scope]?.[row.automatedOutcome] || 0) + 1 };
+  const productionOutputComparison = compareProductionOutputs({ outputs, productionOutputs, productionReference, feedCategoryMap });
   return {
     schemaVersion: 2,
     feed: { date: raw.observedOn, sha256: raw.archiveSha256 },
@@ -130,10 +131,10 @@ export function buildFreshReadbackManifest({ raw, selection, outputs, production
     automatedOutcomeCountsByScope: counts,
     finalPythonOutputIdsByScope: idsByScope,
     finalPythonOutputCountsByScope: Object.fromEntries(Object.entries(idsByScope).map(([scope, ids]) => [scope, ids.length])),
-    productionOutputComparison: compareProductionOutputs({ outputs, productionOutputs, productionReference, feedCategoryMap }),
+    productionOutputComparison,
     humanReviewEvidence: { available: false, missingPerIdRecords: perId.length, reason: 'Selector replay does not contain the later human-review decision and timestamp.' },
     finalPublishedReviewEvidence: { available: false, publishedIds: null, reviewIds: null, reason: 'Requires the matching dated post-review production artifact.' },
-    completeness: { postgresReadback: 'exact_per_id_match', humanReviewRecordsMissing: perId.length, finalPublishedReviewList: 'not_available', parityMayBeClaimed: false }
+    completeness: { postgresReadback: 'exact_per_id_match', humanReviewRecordsMissing: perId.length, finalPublishedReviewList: 'not_available', parityMayBeClaimed: productionOutputComparison.administrationExactIdsMatch && productionOutputComparison.allJobG8ExactIdsMatch }
   };
 }
 
