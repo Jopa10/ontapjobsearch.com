@@ -1,5 +1,5 @@
 {
-  "archiveDate": "2026-11-06",
+  "archiveDate": "2026-11-10",
   "sourceRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
   "stages": [
     20,
@@ -7,8 +7,8 @@
     100
   ],
   "maximumDatabaseBytes": 838860800,
-  "purpose": "Read-only selector parity on exact owner-pinned 6 November archive; no Neon write or production publish.",
+  "purpose": "Run the existing Python selector on the exact owner-pinned 10 November archive; write and read back automated per-job decisions in isolated Neon Preview; keep production read-only.",
   "sourceMode": "owner_pinned_saved_archive",
-  "attempt": 14,
+  "attempt": 15,
   "mode": "fresh_selection_parity"
 }
