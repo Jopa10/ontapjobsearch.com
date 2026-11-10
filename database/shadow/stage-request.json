@@ -7,10 +7,10 @@
     100
   ],
   "maximumDatabaseBytes": 838860800,
-  "purpose": "Retry only the Neon Preview write/readback using exact saved 10 November selector evidence; do not rerun Python or refetch the archive.",
+  "purpose": "Retry Neon Preview write/readback from saved 10 November selector evidence after framework config fix; no selector replay or feed refetch.",
   "sourceMode": "owner_pinned_saved_archive",
-  "attempt": 16,
+  "attempt": 17,
   "mode": "fresh_selection_parity",
-  "reuseEvidenceRunId": 42831639152,
-  "reuseEvidenceArtifactId": 13775030527
+  "reuseEvidenceRunId": 42838362380,
+  "reuseEvidenceArtifactId": 13774602524
 }
