@@ -67,6 +67,7 @@ with zipfile.ZipFile('source-artifact.zip') as a:
     await import('./verify-stage-neon.mjs');
   }
 } catch(error) {
-  console.error('ONTAP_STAGE_BOOTSTRAP_FAILED',String(error.code || 'source_or_configuration_error'));
+  const detail=String(error.message || '').split('\\n')[0].slice(0,160);
+  console.error('ONTAP_STAGE_BOOTSTRAP_FAILED',String(error.code || error.name || 'source_or_configuration_error'),detail);
   process.exitCode=1;
 }
