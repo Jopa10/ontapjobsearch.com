@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-09
-review_fingerprint: 751c04960e5b20e77b5ab70125a6b0b5cbb79d615569796dc0e5a4dd0b93b6ad
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: c1f04c364d83841afff0d6553579c6efa1e3333659ae50ae67c2a420ac12db9b
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 3
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 11
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
 ---
 
+---
+action: 
+SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN6 7SF | £21,489 - £22,225 | Student Information Desk Receptionist
+employer: Outwood Academy Adwick
+closing_date: 2026-11-16T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ac5c188bbaa3dad09525b98fe519d86237325358ce770e104bc39700a6b67b81
+source: Teaching Vacancies
+source_job_id: student-information-desk-receptionist-outwood-academy-adwick
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-information-desk-receptionist-outwood-academy-adwick
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -104,7 +119,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
-- [Administration and clerical](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical) — Insufficient admin/service evidence.
 - [Administration and Clerical Level 1](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical-level-1-shortbrook-primary-school) — No usable numeric salary.
 - [Administration Assistant - 10 hrs per week Temp until August 2027](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-10-hrs-per-week-temp-until-august-2027) — No usable numeric salary.
 - [Apprentice Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administration-assistant-maltby-lilly-hall-academy) — No usable numeric salary.

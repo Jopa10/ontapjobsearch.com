@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - North
 
-review_date: 2026-11-09
-review_fingerprint: 3e18f44585bbe4ee5a2bd3ca8fd72203c096c7fffeb6a0bde8270bc759e3c3b3
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: 64c345943a77ec691acffc9bfefaa5f59da8fd10472d81e2fefdfb0a9c2ed319
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Cumbria - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 2
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
@@ -34,21 +34,6 @@ factual_fingerprint: 2e6c187c3602af4514d55d60e8c770dca724f70d844b55c034001fc830e
 source: Teaching Vacancies
 source_job_id: finance-officer-james-rennie-school-carlisle-cumbria
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-james-rennie-school-carlisle-cumbria
----
-
----
-action: 
-SELECTED | Cumbria - North | Carlisle, North West, CA6 5UG | £23,951.00 Annually (Actual) Grade 6A/B | School Office Administrator
-employer: Longtown Primary School
-closing_date: 2026-11-09T23:59:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2a0cb592aded04f24f1835329b9ee7a5496681e2e1aed25159410c903ca1cd8a
-source: Teaching Vacancies
-source_job_id: school-office-administrator-longtown-primary-school-carlisle-cumbria
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-longtown-primary-school-carlisle-cumbria
 ---
 
 ## POSS — choose SELECT or EXCLUDE

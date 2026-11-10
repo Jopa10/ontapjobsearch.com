@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-09
-review_fingerprint: ecd4bbe10045564ab1664ea5a3ac3a9d868317cee2ab8049b4b0ee455d530c76
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: 19b6c3b2057c75b2044bfcb0ebe2fc7dec83f9924dadd7afc6bc87f6bfdee47a
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 5
+- Records: 18
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £23,424.17 Annually (Actual) | Administrative Assistant
+employer: Sharnbrook Academy
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e0a03a299caa4f6e1ff4d60f16e2f2306871ff4d02265060d1c8e1865cd9ad4e
+source: Teaching Vacancies
+source_job_id: administrative-assistant-f0403612-0f69-4ba8-89fc-23ac79f34462
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-f0403612-0f69-4ba8-89fc-23ac79f34462
+---
 
 ---
 action: 
@@ -100,17 +115,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assista
 
 ---
 action: 
-POSS | Bedfordshire | Luton, East of England, LU4 0PF | £23,233.00 - £23,979.00 Annually (Actual) | Admissions, Attendance and Administartion Officer
+POSS | Bedfordshire | Luton, East of England, LU4 0PF | £23,233.00 - £23,979.00 Annually (Actual) | Admissions, Attendance and Administration Officer
 employer: St Martin De Porres Catholic Primary School
 closing_date: 2026-11-22T23:59:00+00:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 84bc57b699744b56a9d53c6fbfc0ef0908ef2a914ab3d6cb1e7bbfcedd835e4e
+factual_fingerprint: d6ee0f03e996ed5c695f5827e7ec4e5cde5ff4ce35ebf26dd8ff0b5308ead6dc
 source: Teaching Vacancies
-source_job_id: admissions-attendance-and-administartion-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-and-administartion-officer
+source_job_id: admissions-attendance-and-administration-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-and-administration-officer
 ---
 
 ---
@@ -135,6 +150,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-la
 ## HARD_PASS
 
 - [Admin Manager and PA to SLT](https://teaching-vacancies.service.gov.uk/jobs/admin-manager-and-pa-to-slt) — Excluded senior/management title.
+- [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-0901ff45-843f-48f1-86f8-3ff333e31507) — No usable numeric salary.
 - [Business, Operations, HR & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-hr-compliance-manager-southcott-lower-school) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-houstone-school-dunstable) — Excluded senior/management title.
 - [Data Manager and Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-and-examinations-officer-wixams-academy) — Excluded senior/management title.

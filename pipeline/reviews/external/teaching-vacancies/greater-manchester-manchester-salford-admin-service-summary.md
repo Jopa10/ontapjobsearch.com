@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-09
+review_date: 2026-11-10
 review_fingerprint: 9c7fb3c6daee01af236f09eb6c0744efbfb32b08088441ed2306f48c42ceec64
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-chs-sou
 
 ## HARD_PASS
 
+- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-b22a2c58-c885-4d63-82a5-8952d92812d9) — No usable numeric salary.
 - [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-all-saints-primary-school) — Excluded senior/management title.
 - [Caretaker](https://teaching-vacancies.service.gov.uk/jobs/caretaker-william-hulme-s-grammar-school) — Out-of-scope occupation: caretaker.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Excluded senior/management title.

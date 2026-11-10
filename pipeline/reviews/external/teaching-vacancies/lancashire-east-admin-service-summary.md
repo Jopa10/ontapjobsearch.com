@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-09
-review_fingerprint: 254546db93f106d8f8ab9d1745c190f8782cca9bb918b36eda689eb560296ee9
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: e3ae97e80c4532f6b92801282680bcdd74367f1b06c9c1525d84706e8d407f92
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 6
+- Records: 8
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Lancashire - East | Colne, North West, BB8 9AR | £12,396.00 - £12,793.00 Annually (Actual) Term time plus training days | Administration Assistant
-employer: Colne Lord Street School
-closing_date: 2026-11-30T10:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5694f2e57354e612200099eb27ba8c09a956db3a85051bac43542d159112eac8
-source: Teaching Vacancies
-source_job_id: administration-assistant-2502aab8-e8d9-449d-be81-1e8bd0465199
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-2502aab8-e8d9-449d-be81-1e8bd0465199
----
 
 ---
 action: 
@@ -149,9 +134,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-wilfr
 
 ## HARD_PASS
 
-- [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-accrington-academy) — Expired, closed or invalid deadline.
-- [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-marsden-heights-community-college) — Expired, closed or invalid deadline.
-- [Cluster HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/cluster-hr-assistant-the-hyndburn-academy) — Expired, closed or invalid deadline.
 - [Personal Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-newfield-school) — No usable numeric salary.
 
 ## Safety boundary

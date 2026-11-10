@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-09
-review_fingerprint: 1fe9e162e44348da47a192a63034ee35158153b166d916aa8bfa1ea557691f15
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: d79d94655c916ffd2170bc2229f32bb06d9687a5557445655187d54d5d674882
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -20,6 +20,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Black Country | Wolverhampton, WV10 0BB | £31,015.00 - £34,881.00 Annually (Actual) Grade 5, points 12 to 16 | IT & Business Support Officer
+employer: Ignite Learning Partnership
+closing_date: 2026-11-20T10:00:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2fe502c900c10799c7d56920d7241b1021515a8b60052eb0937c9f357796a4fc
+source: Teaching Vacancies
+source_job_id: it-business-support-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/it-business-support-officer
+---
 
 ---
 action: 
@@ -49,21 +64,6 @@ factual_fingerprint: 70527adb0c6414355ce1072921bd1d602458cab2904e0daffef9200c808
 source: Teaching Vacancies
 source_job_id: receptionist-school-office
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-office
----
-
----
-action: 
-SELECTED | West Midlands - Black Country | Smethwick, West Midlands, B67 5HX | £26,427.00 - £26,847.00 Annually (FTE) £3,082.75 - £3,202.58 per annum. 'First year salary will reflect number of working days remaining in holiday year' | Wraparound Administrator
-employer: St Gregory's Catholic Primary School
-closing_date: 2026-11-09T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: aff9af4e2260157ad92835fe9b69bfee45f57f8dcd8fa1509c5b01c6ab27390e
-source: Teaching Vacancies
-source_job_id: wraparound-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/wraparound-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE

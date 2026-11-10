@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-09
+review_date: 2026-11-10
 review_fingerprint: 4fe6f6055c36e3bc2c01e535066d8ec6fa73fe46fb72cf48fa3d7fd5d5de7ed1
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 16
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -134,14 +134,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 
 ## HARD_PASS
 
-- [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-cambridge-maths-school) — No usable numeric salary.
 - [Alternative Provision Coordinator](https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-coordinator-ormiston-bushfield-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.
 - [Business Services Support Officer](https://teaching-vacancies.service.gov.uk/jobs/business-services-support-officer-the-active-learning-trust-limited) — Insufficient admin/service evidence.
 - [Cleaner](https://teaching-vacancies.service.gov.uk/jobs/cleaner-34934dbc-6989-4466-8253-34da9a9f27cb) — Out-of-scope occupation: cleaner.
 - [Corporate Administrator](https://teaching-vacancies.service.gov.uk/jobs/corporate-administrator) — No usable numeric salary.
 - [Finance / HR manager](https://teaching-vacancies.service.gov.uk/jobs/finance-hr-manager-queen-s-drive-infant-school-peterborough-cambridgeshire) — Excluded senior/management title.
+- [Governance & Assurance Lead](https://teaching-vacancies.service.gov.uk/jobs/governance-assurance-lead) — Excluded senior/management title.
 - [Reception Services](https://teaching-vacancies.service.gov.uk/jobs/reception-services-6d613bb3-be77-444c-9df1-ecc49b46685d) — Insufficient admin/service evidence.
 - [School Receptionist & Finance Assistant (Temporary)](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-finance-assistant-temporary) — No usable numeric salary.
+- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-80df4620-91d1-4dc5-b093-4937c078bedb) — Salary over £50k.
 
 ## Safety boundary
 

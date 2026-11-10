@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-09
+review_date: 2026-11-10
 review_fingerprint: e0a40990855b22b46cd90b0aac16edbfe98277e641fa6fe4630ebf0dfdb93600
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -94,13 +94,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ivybrid
 - [Administrator for Support Teams](https://teaching-vacancies.service.gov.uk/jobs/administrator-for-support-teams) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-a1a3a65a-9f2f-47b9-8227-68ba8ca76cf9) — No usable numeric salary.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-holsworthy-community-college) — Excluded senior/management title.
-- [Exam & Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exam-data-assistant) — No usable numeric salary.
 - [Exams Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-maternity-cover-atlantic-academy) — No usable numeric salary.
-- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college-chulmleigh-devon) — No usable numeric salary.
+- [Finance and Business Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-business-officer-all-saints-church-of-england-academy) — No usable numeric salary.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/governance-coordinator-westcountry-schools-trust) — Insufficient admin/service evidence.
 - [Local Governance Officer – Teignmouth Community School](https://teaching-vacancies.service.gov.uk/jobs/local-governance-officer-teignmouth-community-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-boringdon-primary-school-plymouth-devon) — Excluded senior/management title.
+- [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon) — No usable numeric salary.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-1ab8b680-19b9-400d-b2ad-e7ffeda3ad14) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy) — Excluded senior/management title.
 - [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school-axminster-devon) — Excluded senior/management title.

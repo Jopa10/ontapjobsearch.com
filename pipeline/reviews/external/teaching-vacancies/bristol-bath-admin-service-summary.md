@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-09
-review_fingerprint: deb4cefa6343fd0d10fc4e5227bd437e823163aad361c15d4a3b89cbce00f2c8
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: e892a6225bdc6fb3e5bf21b3b1d30524077c36bb0e21f44014a6a3fd4d7b4c3d
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 8
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -30,25 +30,10 @@ reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f8bba93aa8b974dfacbbb71bdec428e7b823fee5e797b845dbd07186b0b47ddd
+factual_fingerprint: 1600e5e652543a2f543d15c8381bdf8170f2bfe63491e2c289c90b066bea5beb
 source: Teaching Vacancies
 source_job_id: admin-assistant-for-send
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-for-send
----
-
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS10 6DS | £26,847.00 - £27,274.00 Annually (FTE) | School Administrator MAT cover
-employer: Little Mead Primary Academy
-closing_date: 2026-11-09T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cd55fa00f417c09bca538a85cd01eb56f15af7c32e0f0766c9273589b7f3c002
-source: Teaching Vacancies
-source_job_id: school-administrator-mat-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-mat-cover
 ---
 
 ---

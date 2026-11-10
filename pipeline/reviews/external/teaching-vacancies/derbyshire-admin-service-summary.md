@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-09
+review_date: 2026-11-10
 review_fingerprint: 7c1cbfd9a88bfa38258aa3cb1f37db456ab86043ea50500ad5590e7cab18a1b0
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 8
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -76,6 +76,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-47c1efc2
 
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-belper-school-and-sixth-form-centre) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-chellaston-academy-derby-derbyshire) — Excluded senior/management title.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-ashwood-spencer-academy) — Excluded senior/management title.
+- [PA to SLT & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-cover-manager) — Excluded senior/management title.
 - [Plant Centre Lead](https://teaching-vacancies.service.gov.uk/jobs/plant-centre-lead) — Excluded senior/management title.
 
 ## Safety boundary

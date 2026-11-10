@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-09
-review_fingerprint: 4ae6c2dc92ef2499e17c4fa24698765e88eee30c7669d40ee6abf91be22e4794
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: 0784eefbd2a085d1399fa4281fcc6765e031acacceb653c846aa1a67476b87d6
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 3
+- Records: 27
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 20
+- Hard pass: 23
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-7
 
 ---
 action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS6 2LG | £32,305.00 - £34,115.00 Annually (Actual) 37 hours per week, term time only plus 15 additional days | Personal Assistant to the Principal & Administrator
+employer: Leeds City Academy
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrator, personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: d9f8c17d7f21e689f16ee78a5927a700e59ae54bfd413a79025ef41e2f568518
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-the-principal-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-administrator
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF1 2PF | £21,784.89 to £22,126.80. | Student Information Desk Receptionist
 employer: Outwood Grange Academy
 closing_date: 2026-11-13T08:00:00+00:00
@@ -76,6 +91,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-information-d
 
 ## HARD_PASS
 
+- [019 - HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/019-hr-assistant) — Insufficient admin/service evidence.
+- [Academy Business Leader](https://teaching-vacancies.service.gov.uk/jobs/academy-business-leader-e9234181-3796-40b5-8607-aa4c0657cf7a) — Excluded senior/management title.
 - [Administration assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chapel-allerton-primary-school) — No usable numeric salary.
 - [Administrative Support Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/administrative-support-assistant-maternity-cover-gledhow-primary-school) — Insufficient admin/service evidence.
 - [Apprentice Business Administration Assistant (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-administration-assistant-level-3) — No usable numeric salary.
@@ -87,6 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-information-d
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — No usable numeric salary.
 - [Exams Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-liaison-officer) — Insufficient admin/service evidence.
 - [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-south-pennine-academies) — Excluded senior/management title.
+- [HR Administration Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-team-leader) — Excluded senior/management title.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-heaton-primary) — Excluded senior/management title.
 - [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-11-09
-review_fingerprint: 722929a24acd28afb988c8223b3d009a34cd56ac896a323ffb76e0bf42ab0796
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: af233e14623585a314d699907f0be9e74edba46d628a0005eca5c477545fa042
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 8
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Greater Manchester - Wigan & Bolton | Leigh, North West, WN7 5NL | Grade 6, SCP 20 - 24, £28,153 - £31,015 - FTE | Administrative Assistant (with Marketing)
+employer: The Westleigh School
+closing_date: 2026-11-24T09:00:59+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f5f8fca06d99be9c75e1f6754d2a018cf2fc9540cdac551bcd247d77957a65e0
+source: Teaching Vacancies
+source_job_id: administrative-assistant-with-marketing-the-westleigh-school-leigh-lancashire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-marketing-the-westleigh-school-leigh-lancashire
+---
 
 ---
 action: 

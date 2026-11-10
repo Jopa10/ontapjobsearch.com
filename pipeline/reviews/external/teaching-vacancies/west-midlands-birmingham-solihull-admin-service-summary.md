@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-09
-review_fingerprint: 5be3630ff6d6c81a875ac68738a92f8cb2d0ec0fa9506e4b9062cb07cfd08a70
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: cd6f793a961b7f601e94387ddd95bd9484b53eed776d59c4b7704d0bce24be99
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 6
-- POSS awaiting decision: 3
+- Records: 14
+- Selected: 4
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 6
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-wa
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B15 2AF | £28,153.00 - £34,811.00 Annually (FTE) Salary: Grade 3: £28,153pa (pro rata) - £34,811pa (pro rata) + SEN 1,780pa (pro rata) | Attendance Officer
-employer: James Brindley School
-closing_date: 2026-11-10T09:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: da3d22964b042004eb98ce60197bbdd73c21227988be9cd89e85e581cb6a31cd
-source: Teaching Vacancies
-source_job_id: attendance-officer-65a61b9e-be5f-4172-b55c-8b707f8e10f9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-65a61b9e-be5f-4172-b55c-8b707f8e10f9
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B37 5DP | £25,614.00 - £26,427.00 Annually (FTE) Band B - Actual salary £18,990.61 to £19,593.38 based on 32 working hours and 39 weeks | Clerical Assistant/Receptionist
 employer: St Anne's Catholic Primary School
 closing_date: 2026-11-12T23:59:00+00:00
@@ -79,21 +64,6 @@ factual_fingerprint: f74f059efcbd8c74859a3eb0552a6dd6bf227009f7a06790ef0afa42e74
 source: Teaching Vacancies
 source_job_id: clerical-assistant-receptionist-st-anne-s-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-receptionist-st-anne-s-catholic-primary-school
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B24 8BL | Grade 2 - £25,614 - £27,709 FTE (£17,916.34 - £19,381.74 Actual) | Grade 2 Administrative Assistant
-employer: Queensbury School
-closing_date: 2026-11-09T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9e6f5e3d7389abbb1d72de5bdedd655ef7cc2119f39dcf623defbb3d19613bc4
-source: Teaching Vacancies
-source_job_id: grade-2-administrative-assistant-queensbury-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/grade-2-administrative-assistant-queensbury-school
 ---
 
 ---
@@ -112,6 +82,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 2NH | £22,858.00 - £23,218.00 Annually (Actual) | Exam and Central Services Assistant
+employer: Bishop Vesey's Grammar School
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d1f19abf0aa66f6f7d6f56a6d45f4c7ee1b259d931055a145f2e4dc8b2622f60
+source: Teaching Vacancies
+source_job_id: exam-and-central-services-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-and-central-services-assistant
+---
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-09
-review_fingerprint: edacb82d7090bf92a2352b83a37e806aa5d64ee6f26c3e18b902707e76341701
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: 9f95a659cc2e5e497f016cc7473d993752a3e6a20ef40003d8458b672a55a4ee
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 3
-- POSS awaiting decision: 3
+- Records: 13
+- Selected: 4
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -66,22 +66,22 @@ source_job_id: office-administrator-31d5e12d-a2a3-4b2c-abdc-52304ac5f2db
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-31d5e12d-a2a3-4b2c-abdc-52304ac5f2db
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Hertfordshire | Radlett, East of England, WD7 7LQ | £7,737.00 - £7,737.00 Annually (Actual) | Finance and Reception Administrator – Part Time
-employer: Hertsmere Jewish Primary School
-closing_date: 2026-11-09T23:59:00+00:00
-reason: Part-time finance requires actual earnings/hours and qualification checks
+SELECTED | Hertfordshire | Knebworth, East of England, SG3 6AA | £28,153.00 - £30,515.00 Annually (FTE) | Office Administrator (Maternity Cover)
+employer: Knebworth Primary and Nursery School
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4e2eb822820d5c43e39f59dc39442b63cceaaa169cd7bb79864788518b047cb9
+factual_fingerprint: 53c584f797c644d480afba29d1f4eaf6075925b28a5c8fefa0c55ffcc5838409
 source: Teaching Vacancies
-source_job_id: finance-and-reception-administrator-part-time-hertsmere-jewish-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-reception-administrator-part-time-hertsmere-jewish-primary-school
+source_job_id: office-administrator-maternity-cover-knebworth-primary-and-nursery-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-maternity-cover-knebworth-primary-and-nursery-school
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
@@ -122,6 +122,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-tr
 - [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover) — Insufficient admin/service evidence.
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-ashlyns-school) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodfield-school) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lodge-farm-primary-school) — Excluded senior/management title.
 - [SEND Family Liaison Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/send-family-liaison-co-ordinator) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-st-mary-s-church-of-england-high-school-va) — Excluded senior/management title.
 - [Sixth Form Student Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-student-liaison-officer) — Insufficient admin/service evidence.

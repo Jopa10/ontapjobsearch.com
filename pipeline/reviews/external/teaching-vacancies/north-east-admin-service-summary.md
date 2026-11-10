@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-09
-review_fingerprint: 7009a4839ed23d21e54bcd7610805ae9b0019ca1cd4c80e32b403b7c1a87646a
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: dd1ffd9990d0a495a3b7609666176150e110c996ad65879b6345a9c0ffd9f11d
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 11
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -34,6 +34,21 @@ factual_fingerprint: daf2c95cf8bd5dbe031e29ffdd4fa4f961370f43ab66378abfcd08d6c6a
 source: Teaching Vacancies
 source_job_id: administration-assistant-level-3-attendance
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-3-attendance
+---
+
+---
+action: 
+SELECTED | North East | Newcastle-upon-Tyne, North East, NE5 2LW | N4 scale point 7- 9 FTE: £27,274 - £28,153 £23,420 - £24,175 actual salary pro-rata (£14.14 - £14.59 per hour) | Administrative Assistants
+employer: Thomas Bewick School
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4edb314bc2adccd3a52a7beade54d67df1ef3fc1c8195741564296ea637e7cad
+source: Teaching Vacancies
+source_job_id: administrative-assistants-thomas-bewick-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistants-thomas-bewick-school
 ---
 
 ---

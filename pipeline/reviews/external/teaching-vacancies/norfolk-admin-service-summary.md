@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-09
-review_fingerprint: 7a6745135256f51eef0388e4448e3366425910f08ead3509dbf7cca08d6961dd
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: 8bd964b0cd752a5e747bb70eda48e9d879e728b7b43dd5fe752b4d500291f4e8
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 2
+- Records: 15
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 12
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Norfolk | Thetford, East of England, IP26 4PE | £25,682.00 - £27,329.00 Annually (Actual) NJC 7-11 | Exams Officer
+employer: Iceni Secondary Academy
+closing_date: 2026-12-01T09:00:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5c940adeae89a9549bcacca71f57605d8e93c4bdf928e7ad646ff6082e78b0e7
+source: Teaching Vacancies
+source_job_id: exams-officer-iceni-secondary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-iceni-secondary-academy
+---
 
 ---
 action: 
@@ -64,11 +79,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-admirals-academy) — No usable numeric salary.
 - [Business and Student Services Degree Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-and-student-services-degree-apprentice) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-toftwood-infant-school) — No usable numeric salary.
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-824224c2-5ae7-482b-a4c3-25f64d69671f) — Insufficient admin/service evidence.
 - [Estates Compliance and Contracts Supervisor (East & South)](https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-and-contracts-supervisor-east-south) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-burston-community-primary-school-diss-norfolk) — Excluded senior/management title.
 - [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-norwich-city-college-of-further-and-higher-education-norwich-norfolk) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-caister-junior-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-william-s-primary-school) — Excluded senior/management title.
+- [Trust Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-capital-projects-manager-notre-dame-high-school-norwich) — Excluded senior/management title.
 - [Trust Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-capital-projects-manager-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Excluded senior/management title.
 

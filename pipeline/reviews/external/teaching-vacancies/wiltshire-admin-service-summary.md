@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-09
-review_fingerprint: 5a535245b23f4d947059a4bdf1ed94824d5524e9ccd63ba6a1fe434f6b524555
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: af5b3a89aac68afd8af20e26686b24274e0910c6fdc56ebb2f697004f3f85bb5
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 14
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
@@ -64,6 +64,21 @@ factual_fingerprint: f7554443ec3d46c1f84119d5f26cc3f86e8469459a859676dab962c2ff7
 source: Teaching Vacancies
 source_job_id: administrator-to-slt-and-student-support-team-lawn-manor-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-to-slt-and-student-support-team-lawn-manor-academy
+---
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, South East, SN6 8FX | £27,709.00 - £30,023.00 Annually (FTE) Support Staff NJC Grade 6, SCP 8 - 13. Actual salary range - £11,572.11 - £12,538.50 | Office Administrator
+employer: Shrivenham Church of England School
+closing_date: 2026-11-24T23:59:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a12e62bbdd75e1f03774445ad7322dc49c23ce2e7e13abd1383fec239cfd2594
+source: Teaching Vacancies
+source_job_id: office-administrator-0cb1df0c-ffca-4e9e-89e2-435084e74288
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-0cb1df0c-ffca-4e9e-89e2-435084e74288
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-11-09
-review_fingerprint: ce5d2ae9101241cb52e5c699baa03c27cc3ca40fb9426cb706f3ccbbba9fe45a
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: e73146bdf1ea4c8424215fa35975a55d56de9e4e41f9ab6ed04541da089238f7
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
-- POSS awaiting decision: 1
+- Records: 9
+- Selected: 1
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
 
@@ -23,11 +23,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE3 1PF | £15,019.00 - £15,255.00 Annually (Actual) GAT 3, 25 hours per week, 39 weeks per year. | Administration Assistant
+SELECTED | Leicestershire | Leicester, East Midlands, LE9 7PD | £17,891.00 Annually (Actual) | Receptionist/Administrator
+employer: Heath Lane Academy
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fa284602c9d7d0f013eb1eae7c828046b42110bb032ec939c036fbd745a0dc6c
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-heath-lane-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-heath-lane-academy
+---
+
+## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Leicestershire | Leicester, East Midlands, LE3 1PF | £15,019.00 - £15,255.00 Annually (Actual) GAT 3, 25 hours per week, 39 weeks per year. | Administration Assistant
 employer: Queensmead Primary Academy
 closing_date: 2026-11-29T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 403b786e8196a1e54ca1ec0101a8aa8a240153958f40125984615a7373500def
@@ -38,11 +55,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE5 1HF | £10,448.00 - £10,780.00 Annually (Actual) £25,614 - 26,427 Full Time Equivalent (band 2 point 3-5) | Administrative Assistant
+POSS | Leicestershire | Leicester, East Midlands, LE5 1HF | £10,448.00 - £10,780.00 Annually (Actual) £25,614 - 26,427 Full Time Equivalent (band 2 point 3-5) | Administrative Assistant
 employer: St Joseph's Catholic Academy
 closing_date: 2026-11-16T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 8bcd1dd65b6801d2d6c9954590e04857f874ec58ae28fc9ed18aac1b1afc2b1c
@@ -50,8 +67,6 @@ source: Teaching Vacancies
 source_job_id: administrative-assistant-st-joseph-s-catholic-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-joseph-s-catholic-academy
 ---
-
-## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 

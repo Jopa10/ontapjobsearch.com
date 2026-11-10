@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-09
+review_date: 2026-11-10
 review_fingerprint: 488cd375b88b81dd85015aeeb35215138d61b73c49ef96f6224451fa1a9ff0ea
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -75,7 +75,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
 ## HARD_PASS
 
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-transforming-lives-educational-trust) — No usable numeric salary.
-- [APPRENTICE ADMINISTRATOR/RECEPTIONIST – PARKGATE PRIMARY SCHOOL](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-receptionist-parkgate-primary-school) — No usable numeric salary.
+- [Cover Co-ordinator / Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-administrator-stoke-park-school) — No usable numeric salary.
 - [Examinations, Data & Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-data-access-arrangements-coordinator) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-harris-church-of-england-academy) — Insufficient admin/service evidence.
 - [Marketing Manager](https://teaching-vacancies.service.gov.uk/jobs/marketing-manager-stratford-upon-avon-school) — Excluded senior/management title.

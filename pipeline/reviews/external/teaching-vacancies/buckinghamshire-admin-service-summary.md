@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-09
-review_fingerprint: 1ed64c026a8f432e35a46eb2070de738708730818a2fac9a9f512fc25007ad95
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: b4727c9468c8c7d8c7dca841088bee9ebbbaba850d68a9821517bca3d43d9ad4
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
-- POSS awaiting decision: 4
+- Records: 10
+- Selected: 3
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 2
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-e-act-o
 
 ---
 action: 
+SELECTED | Buckinghamshire | Aylesbury, South East, HP22 7BR | £24,623.00 - £26,412.00 Annually (Actual) Bucks Pay Range 3 – actual salary £24,623 - £26,412 (Equivalent to £29,114 - £31,230 for full time) | Librarian and Careers Administrator
+employer: The Kingsbrook School
+closing_date: 2026-11-27T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8895a1a2391693fd9f36162502660b98a5a4e18cd80bb263f45f5342838e7e0e
+source: Teaching Vacancies
+source_job_id: librarian-and-careers-administrator-the-kingsbrook-school-aylesbury-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/librarian-and-careers-administrator-the-kingsbrook-school-aylesbury-buckinghamshire
+---
+
+---
+action: 
 SELECTED | Buckinghamshire | Milton Keynes, South East, MK14 6AX | £29,070.00 - £31,015.00 Annually (Actual) Point 11 -15 £29,070 - £31,015 FTE, Pro rata accordingly | Receptionist
 employer: Stephenson Academy
 closing_date: 2026-11-19T12:00:00+00:00
@@ -52,6 +67,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stephens
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Buckinghamshire | Aylesbury, HP21 8PE | £27,807.00 - £32,283.00 Annually (Actual) Bucks Pay Range 3/4 – actual salary £27,807 to £32,283 (equivalent to £29,114 to £33,735 for full time) | Human Resources Officer (Employee Relations)
+employer: Insignis Academy Trust
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 881a657dc4002df9e62f2c4ca0a70ae8e926ff74d1bc65b22a6e3e5839694949
+source: Teaching Vacancies
+source_job_id: human-resources-officer-employee-relations
+source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-employee-relations
+---
 
 ---
 action: 
@@ -120,7 +150,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir
 ## HARD_PASS
 
 - [Curriculum Administrator Apprentice](https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-apprentice) — No usable numeric salary.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-8c405d99-71b2-47dd-917c-3ee6490352e3) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-b186e459-f769-41b9-9390-e923eedcb0b6) — Excluded senior/management title.
 
 ## Safety boundary
 

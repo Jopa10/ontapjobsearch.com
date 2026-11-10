@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-09
-review_fingerprint: bd3f41b959c49e68a9f71f495f56e86f97ba3fffbaf5a37df78409f509675abe
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: 3d05edb28a0b054964927a22fe33e11d5ded559e00cbcf0df7b189e964aec757
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-graham-s
 
 ---
 action: 
-SELECTED | Yorkshire - North | York, YO10 3PR | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
-employer: Ebor Academy Trust
-closing_date: 2026-11-18T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
+SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO24 4PS | £25,614.00 - £26,427.00 Annually (FTE) | SEN Administrator
+employer: Hob Moor Community Primary Academy
+closing_date: 2026-11-27T12:00:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2b67d08a51e0fc3911e12629d133b7a52aa2ea3fe0fe6209d2175cae682ce767
+factual_fingerprint: f9e15e1b5097da55bddd3d928a7a516a1742d8cf40d4186f070c130a1b16aff4
 source: Teaching Vacancies
-source_job_id: receptionist-administrator-ebor-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ebor-academy-trust
+source_job_id: sen-administrator-hob-moor-community-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-hob-moor-community-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

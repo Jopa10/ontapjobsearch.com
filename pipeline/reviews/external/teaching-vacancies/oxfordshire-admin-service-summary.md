@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-09
-review_fingerprint: 02deedb86b16c9baaca01810e58da0b40de7d5adba619a3968c35dc70a31e495
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: 4fb60c9ed0ee694b90ea69d541af473d005cb2c2163946fba98b764739255355
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -79,21 +79,6 @@ factual_fingerprint: 3a9f75d1056f7302c031942a8c79c25bd919d789b82ffb5367ca9b757fd
 source: Teaching Vacancies
 source_job_id: finance-officer-acer-trust-oxford-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-trust-oxford-not-recorded
----
-
----
-action: 
-SELECTED | Oxfordshire | Oxford, OX4 4SF | £30,025.00 - £32,046.00 Annually (FTE) 0.4 FTE Actual Salary: £12,010 - £12,818 | Procurement Administrator *Hybrid Role*
-employer: River Learning Trust
-closing_date: 2026-11-09T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 28971049b20848973643a4f7d28cb50a80ac099d7e59600eea846555ba8d648a
-source: Teaching Vacancies
-source_job_id: procurement-administrator-hybrid-role-river-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/procurement-administrator-hybrid-role-river-learning-trust
 ---
 
 ---

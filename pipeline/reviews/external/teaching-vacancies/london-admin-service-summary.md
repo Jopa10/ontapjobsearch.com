@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-09
-review_fingerprint: 3c4a1bcfb615d908c606b2a996fecbc0409b8167486cd68b3d2197b79be453e2
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: 8e12c2b83b5214550c616c33ab0eaf2492185a7249e23571bc423f76df7ab967
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 47
 - Selected: 6
-- POSS awaiting decision: 15
+- POSS awaiting decision: 17
 - Excluded: 0
-- Hard pass: 26
+- Hard pass: 24
 
 ## SELECTED
 
@@ -115,6 +115,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-firs
 
 ---
 action: 
+POSS | London | London, London, E1 2ND | NJC Scale 2 to 4 £31,224 to £34,448 full-time equivalent | Admin & Finance Officer
+employer: Bigland Green Primary School
+closing_date: 2026-11-27T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b1c4bcd512df01d20137e1c387dd863a9b27c53c52cfe14c3514460cafc2bb24
+source: Teaching Vacancies
+source_job_id: admin-finance-officer-bigland-green-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer-bigland-green-primary-school
+---
+
+---
+action: 
 POSS | London | Dagenham, London, RM9 4UN | £28,709.00 - £30,364.00 Annually (Actual) full time equivalent £31,290- £32,655 | Admin Assistant
 employer: Jo Richardson Community School
 closing_date: 2026-11-11T08:00:00+00:00
@@ -160,14 +175,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-POSS | London | Borehamwood, East of England, WD6 5HL | £26,427.00 Annually (FTE) H3.1-H3.2 - 3days a week 12.30pm - 4.30pm | Administrative Assistant
+POSS | London | Borehamwood, East of England, WD6 5HL | £26,427.00 Annually (FTE) H3.1-H3.2 - 3 afternoons a week 12.30pm - 4.30pm | Administrative Assistant
 employer: St Teresa Catholic Primary School
 closing_date: 2026-11-20T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c15793ba2af69c80ead1cb8e3e4ef977e40301bc74a3b307dc807b772c930198
+factual_fingerprint: 031b2681e777121aa3de0340cd81d4287e8c992e214a313623624f068b144da3
 source: Teaching Vacancies
 source_job_id: administrative-assistant-st-teresa-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-teresa-catholic-primary-school
@@ -231,6 +246,21 @@ factual_fingerprint: bd545e9625634d481e60757b3431c1a90ae7ceaba5018e2d3bf685811ed
 source: Teaching Vacancies
 source_job_id: data-officer-prendergast-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-prendergast-school
+---
+
+---
+action: 
+POSS | London | Morden, London, SM4 5LT | £31,290.00 - £33,129.00 Annually (FTE) | EHCP Administrative Assistant
+employer: Perseid School
+closing_date: 2026-11-20T16:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6ac589fd856da7f3a5d55c5eb30970369e75d713552a73cf1da0668c66cf98fd
+source: Teaching Vacancies
+source_job_id: ehcp-administrative-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrative-assistant
 ---
 
 ---
@@ -345,13 +375,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 ## HARD_PASS
 
 - [Attendance, Data and Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-data-and-administrative-officer) — Insufficient admin/service evidence.
-- [Careers & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-work-experience-co-ordinator-davenant-foundation-school) — No usable numeric salary.
-- [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-5bbd91b2-0afc-4796-b38f-b0811a522b87) — Insufficient admin/service evidence.
 - [Chief Financial & Operations Officer (CFOO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-operations-officer-cfoo) — Excluded senior/management title.
-- [Cover Supervisor Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-d381408a-aed2-44f0-8a2b-5602fd447ab9) — Excluded senior/management title.
 - [Data & Cover Manager - Deputy Head of MIS (Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/data-cover-manager-deputy-head-of-mis-maternity-cover) — Out-of-scope occupation: deputy head.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
 - [Data Assistant and Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-and-exams-assistant) — Insufficient admin/service evidence.
+- [Data Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/data-governance-officer) — Insufficient admin/service evidence.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Excluded senior/management title.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal-haberdashers-borough-academy) — Out-of-scope occupation: principal.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college-london) — Excluded senior/management title.

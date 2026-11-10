@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-09
-review_fingerprint: 7d46b2214cedfa812f2734e8f922f1c9c691c7774f39f3bf8ef654ff944e6d85
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: 5679bbaa0fab46222d3f3d505951f1f497f1fbf6cadd836f88d74dc5f6344b82
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 8
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 38cae0225772c0b7cd18eaf066df39ac3d73086aa431f38f618adf0b176
 source: Teaching Vacancies
 source_job_id: administrative-assistant-staff-attendance-and-absence-management
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-staff-attendance-and-absence-management
----
-
----
-action: 
-SELECTED | Berkshire | Maidenhead, South East, SL6 7NQ | £16,473.00 - £16,735.00 Annually (Actual) Actual salary based on 25 hours per week | Medical Office Assistant
-employer: Furze Platt Senior School
-closing_date: 2026-11-10T09:00:00+00:00
-reason: Clear admin/service title: office assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 507bd28f17a25a9210ddeedaee8e6b6c78cf7a9875bb4ab149a0572353a741ae
-source: Teaching Vacancies
-source_job_id: medical-office-assistant-furze-platt-senior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/medical-office-assistant-furze-platt-senior-school
 ---
 
 ---
@@ -181,7 +166,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 
 - [Admin Assistant (Staff Attendance & Absence Monitoring) - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-staff-attendance-absence-monitoring-the-avenue-school) — No usable numeric salary.
 - [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
-- [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Excluded senior/management title.
 - [Health Safety & Welfare Manager](https://teaching-vacancies.service.gov.uk/jobs/health-safety-welfare-manager) — Excluded senior/management title.
 - [IT Technician](https://teaching-vacancies.service.gov.uk/jobs/it-technician-slough-and-eton-church-of-england-business-and-enterprise-college) — Out-of-scope occupation: technician.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.

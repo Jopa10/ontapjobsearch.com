@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-09
+review_date: 2026-11-10
 review_fingerprint: b7069c7a8184c6c68cb6cc17c6d0cd791f6b2d3903d11d89af0b69caa9f14425
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -106,6 +106,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1dc6e624-98dc-4337-8b41-8fb9e586f829) — Insufficient admin/service evidence.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-0ddbb56c-5635-4a81-8fed-8aa32c472a35) — Insufficient admin/service evidence.
 - [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.
 - [Office Manager / PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-the-headteacher-moulton-school-and-science-college) — Excluded senior/management title.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-09
+review_date: 2026-11-10
 review_fingerprint: f0fc32977d926ae1235f539172e102693420b2c77940dd2413781fc946eae2fe
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -85,7 +85,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 - [Recruitment Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-manager-south-east-essex-academy-trust) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-the-eastwood-academy) — Excluded senior/management title.
 - [School Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-support-assistant-hilltop-junior-school-wickford-essex) — Insufficient admin/service evidence.
-- [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-harris-academy-wickford) — Excluded senior/management title.
+- [Senior PA to Leadership Team and Inclusion Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-pa-to-leadership-team-and-inclusion-coordinator) — Excluded senior/management title.
 - [Trust Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-manager-south-west-essex-community-education-trust-limited) — Excluded senior/management title.
 
 ## Safety boundary

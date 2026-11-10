@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-09
-review_fingerprint: 6c5e3928602ff4d2312405e02934c9fc496c47d72078812334f86de7736e13f3
-routing_manifest_sha256: 19b254235cb14007f139986794594ea664fe2b5fbc1e642c5b9b8d22a3a3fb6c
+review_date: 2026-11-10
+review_fingerprint: 2c881e49d837e6cffad8f1886e2da18f67b905eba42a8b909735630e4a11e90a
+routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -68,17 +68,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-willi
 
 ---
 action: 
-SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN36 4RZ | £30,213.00 - £33,610.00 Annually (FTE) Actual Salary: £25,832.12 (LGAT 10) - £28,736.55 (LGAT 14) | Attendance Officer
-employer: Waltham Toll Bar Academy
-closing_date: 2026-11-13T12:00:00+00:00
-reason: Clear admin/service title: attendance officer
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 7SX | £21,196.00 - £21,869.00 Annually (Actual) Band 2, SCP 3 - 5 | Administrative Assistant
+employer: St Peter and St Paul, Catholic Voluntary Academy
+closing_date: 2026-11-23T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4398f732ce5ba7829b10e197504a00594e5fb3a5533f92dd8892ce2f0b5d43df
+factual_fingerprint: 0100da555a308d0c80d388cb05f255ec65c741ce84fe432584ac7e340d6a8a22
 source: Teaching Vacancies
-source_job_id: attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
+source_job_id: administrative-assistant-st-peter-and-st-paul-catholic-voluntary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-peter-and-st-paul-catholic-voluntary-academy
 ---
 
 ---
