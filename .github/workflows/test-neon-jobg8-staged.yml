@@ -294,7 +294,7 @@ jobs:
           PYPACK
           cat > "$harness/vercel.json" <<'PYVERCEL'
           {
-            "framework": "other",
+            "framework": "node",
             "buildCommand": "node bootstrap-stage.mjs",
             "installCommand": "npm ci --omit=dev --ignore-scripts",
             "outputDirectory": "dist",
