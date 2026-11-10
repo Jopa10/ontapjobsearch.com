@@ -51,7 +51,8 @@ with zipfile.ZipFile('source-artifact.zip') as a:
     if(rawHash!==source.rawStageSha256 || selectionHash!==source.fixtureSha256 || outputsHash!==source.outputsSha256
       || productionOutputsHash!==source.productionOutputsSha256 || productionReferenceHash!==source.productionReferenceSha256
       || feedCategoryMapHash!==source.feedCategoryMapSha256) throw new Error('Fresh selector artifact fingerprint changed');
-    await import('./verify-fresh-selection-neon.mjs');
+    const verifier = await import('./verify-fresh-selection-neon.mjs');
+    await verifier.runFreshSelectionReadback();
   } else {
     execFileSync('python3',['-c',`import zipfile,shutil
   with zipfile.ZipFile('source-artifact.zip') as a:
