@@ -7,9 +7,9 @@
     100
   ],
   "maximumDatabaseBytes": 838860800,
-  "purpose": "Retry Neon Preview write/readback from exact saved 10 November selector evidence; run verifier in an isolated protected Preview build so Vercel supplies sensitive Preview settings. No selector replay or feed refetch.",
+  "purpose": "Retry exact saved 10 November selector evidence in isolated protected Preview build and capture safe verifier failure detail if needed; no selector replay or feed refetch.",
   "sourceMode": "owner_pinned_saved_archive",
-  "attempt": 24,
+  "attempt": 25,
   "mode": "fresh_selection_parity",
   "reuseEvidenceRunId": 42840691383,
   "reuseEvidenceArtifactId": 13780145442
