@@ -11,7 +11,7 @@
     "merged": false
   },
   "measuredAt": "2026-11-09T13:43:09.569Z",
-  "scope": "Read-only review of already-published 5/6 November inventory evidence. No selector replay or selector-to-output comparison rerun.",
+  "scope": "Read-only review of already-published 5/6 November evidence and Tuesday 10 November publication artifacts. No selector replay, no 5/6 selector-to-output comparison, and no repeat of the 9 November recovery search.",
   "sources": {
     "nov5": {
       "productionDeploymentId": "dpl_EHDpxjGGQC9zvFQRHDozh46xFCQ3",
@@ -328,14 +328,13 @@
   "safety": {
     "databaseAccessed": false,
     "databaseChanged": false,
-    "productionChanged": false,
-    "selectorComparisonsRepeated": false,
-    "compactIntegrationRun": false,
+    "productionChangedByThisReview": false,
+    "publicationRunTriggeredByThisReview": false,
+    "emailsSentByThisReview": false,
     "expiryOrPurgeRun": false,
-    "emailsSent": false,
-    "codeInspectionReadOnly": true,
-    "repositoryCheckpointUpdated": true,
-    "artifactInspectionReadOnly": true
+    "selectorComparisonsRepeated": false,
+    "priorRecoverySearchRepeated": false,
+    "recordsInspectedReadOnly": true
   },
   "nextAction": "Keep the 5/6 Nov historical reconciliation incomplete because its exact active JobG8 lists and generated homepage lists are unavailable. Do not rerun the completed comparisons or recovery search. Preserve full dated source and published ID lists plus checksums with each future comparison; then continue with separately gated Preview work.",
   "homepageCountMethod": {
@@ -527,5 +526,6 @@
     "productionPublishingTriggeredByThisReview": false,
     "emailsSentByThisReview": false,
     "expiryOrPurgeRun": false
-  }
+  },
+  "branchHeadAfterCheckpoint": "5d24ebdb564d69c2338e58cdccc0cdf71295cbd9"
 }
