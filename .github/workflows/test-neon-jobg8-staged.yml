@@ -126,6 +126,12 @@ jobs:
               --archive "$RUNNER_TEMP/pinned-source/ontap-shadow-feed.zip" \
               --work "$RUNNER_TEMP/selector-parity"
           fi
+      - name: Build dated per-ID selector manifest
+        if: steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity'
+        run: |
+          python database/shadow/build_per_id_manifest.py \\
+            --work "$RUNNER_TEMP/selector-parity" \\
+            --output "$RUNNER_TEMP/selector-parity/per-id-manifest.json"
       - name: Preserve selector parity evidence
         if: always() && (steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity')
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
@@ -137,10 +143,14 @@ jobs:
             ${{ runner.temp }}/selector-parity/dependency-manifest.json
             ${{ runner.temp }}/selector-parity/report.json
             ${{ runner.temp }}/selector-parity/selection.json.gz
+            ${{ runner.temp }}/selector-parity/per-id-manifest.json
+            ${{ runner.temp }}/selector-parity/plain/outputs.json
+            ${{ runner.temp }}/selector-parity/observed/outputs.json
+            ${{ runner.temp }}/selector-parity/observed/evidence.json
             ${{ runner.temp }}/selector-parity/plain.log
             ${{ runner.temp }}/selector-parity/observed.log
           if-no-files-found: ignore
-          retention-days: 7
+          retention-days: 90
       - name: Preserve available replay files for recovery
         if: always() && (steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity')
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
@@ -151,7 +161,7 @@ jobs:
             ${{ runner.temp }}/selector-parity/observed/outputs.json
             ${{ runner.temp }}/selector-parity/observed/evidence.json
           if-no-files-found: ignore
-          retention-days: 2
+          retention-days: 90
       - name: Save one direct supplier snapshot for all test stages
         if: steps.request.outputs.mode == 'source'
         env:
