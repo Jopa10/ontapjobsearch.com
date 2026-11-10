@@ -292,28 +292,13 @@ jobs:
           request['localArtifact']='source-artifact.zip'
           (harness/'source-download.json').write_text(json.dumps(request,indent=2)+'\n')
           PYPACK
-          cat > "$harness/vercel.json" <<'PYVERCEL'
-          {
-            "framework": null,
-            "buildCommand": "node bootstrap-stage.mjs",
-            "installCommand": "npm ci --omit=dev --ignore-scripts",
-            "outputDirectory": "dist",
-            "headers": [{"source":"/(.*)","headers":[{"key":"X-Robots-Tag","value":"noindex, nofollow"}]}]
-          }
-          PYVERCEL
-          cleanup() { rm -f "$harness/source-artifact.zip" "$harness/source-download.json" "$harness/vercel.json"; }
+          cleanup() { rm -f "$harness/source-artifact.zip" "$harness/source-download.json"; }
           trap cleanup EXIT
-          deployment_url="$(npx --yes vercel@latest deploy --cwd "$harness" --yes \
-            --local-config "$PWD/$harness/vercel.json" \
-            --project="$VERCEL_PROJECT_ID" --environment=preview --token="$VERCEL_TOKEN" \
-            --meta "githubCommitRef=feat/neon-shadow-database" \
-            --meta "ontapFeedDate=${{ steps.request.outputs.archive_date }}")"
-          test -n "$deployment_url"
-          printf '%s\n' "$deployment_url" > "$work/neon-preview-deployment-url.txt"
-          npx --yes vercel@latest curl --url "$deployment_url/report.json" --token="$VERCEL_TOKEN" \
-            > "$work/neon-readback-report.json"
-          npx --yes vercel@latest curl --url "$deployment_url/per-id-readback-manifest.json" --token="$VERCEL_TOKEN" \
-            > "$work/per-id-readback-manifest.json"
+          npx --yes vercel@latest link --cwd "$harness" --project="$VERCEL_PROJECT_ID" --yes --token="$VERCEL_TOKEN"
+          npm ci --omit=dev --ignore-scripts --prefix "$harness"
+          VERCEL_ENV=preview npx --yes vercel@latest env run --cwd "$harness" --token="$VERCEL_TOKEN" -e preview -- node bootstrap-stage.mjs
+          cp "$harness/dist/report.json" "$work/neon-readback-report.json"
+          cp "$harness/dist/per-id-readback-manifest.json" "$work/per-id-readback-manifest.json"
           python - "$work" "${{ steps.request.outputs.archive_date }}" <<'PYVERIFY'
           import json, sys
           from pathlib import Path
@@ -326,7 +311,7 @@ jobs:
           assert manifest.get('productionOutputComparison',{}).get('administrationExactIdsMatch') is True, 'Administration exact-ID parity missing'
           assert manifest.get('productionOutputComparison',{}).get('allJobG8ExactIdsMatch') is True, 'All-JobG8 exact-ID parity missing'
           PYVERIFY
-          echo "Vercel Preview Neon write/readback passed; per-ID manifest retrieved and verified."
+          echo "Neon Preview write/readback passed; per-ID manifest retrieved and verified."
       - name: Preserve selector parity evidence
         if: always() && (steps.request.outputs.mode == 'selection_parity' || steps.request.outputs.mode == 'fresh_selection_parity')
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
