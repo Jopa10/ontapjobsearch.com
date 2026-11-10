@@ -7,8 +7,10 @@
     100
   ],
   "maximumDatabaseBytes": 838860800,
-  "purpose": "Run the existing Python selector on the exact owner-pinned 10 November archive; write and read back automated per-job decisions in isolated Neon Preview; keep production read-only.",
+  "purpose": "Retry only the Neon Preview write/readback using exact saved 10 November selector evidence; do not rerun Python or refetch the archive.",
   "sourceMode": "owner_pinned_saved_archive",
-  "attempt": 15,
-  "mode": "fresh_selection_parity"
+  "attempt": 16,
+  "mode": "fresh_selection_parity",
+  "reuseEvidenceRunId": 42831639152,
+  "reuseEvidenceArtifactId": 13775030527
 }
