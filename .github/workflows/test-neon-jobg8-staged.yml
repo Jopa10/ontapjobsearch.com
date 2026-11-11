@@ -99,7 +99,8 @@ jobs:
                   handle.write(f"production_app_commit_sha={values['production_app_commit_sha']}\n")
                   handle.write(f"production_app_snapshot_at={values['production_app_snapshot_at']}\n")
                   handle.write(f"expected_json_files={values['expected_json_files']}\nexpected_jobg8_rows={values['expected_jobg8_rows']}\n")
-                  handle.write(f"expected_unique_ids={values['expected_unique_ids']}\n")              if reuse_run is not None:
+                  handle.write(f"expected_unique_ids={values['expected_unique_ids']}\n")
+              if reuse_run is not None:
                   handle.write(f'reuse_run_id={reuse_run}\nreuse_artifact_id={reuse_artifact}\n')
           PYMODE
       - name: Restore exact selector evidence from prior run
