@@ -59,24 +59,47 @@ jobs:
                   handle.write('archive_date='+archive_date+chr(10))
               if mode == 'published_snapshot':
                   date=request.get('archiveDate','')
+                  artifacts=request.get('publishedOutputArtifacts')
                   values={
                     'published_run_id':request.get('publishedOutputRunId'),
-                    'published_artifact_id':request.get('publishedOutputArtifactId'),
                     'expected_json_files':request.get('expectedOutputJsonFiles'),
                     'expected_jobg8_rows':request.get('expectedJobG8Rows'),
                     'expected_unique_ids':request.get('expectedUniqueJobG8Ids'),
-                    'artifact_sha256':request.get('productionArtifactSha256'),
+                    'production_app_commit_sha':request.get('productionAppCommitSha'),
+                    'production_app_snapshot_at':request.get('productionAppSnapshotAt'),
                   }
-                  if not re.fullmatch(r'20[0-9]{2}-[0-9]{2}-[0-9]{2}',date):
+                  if not re.fullmatch(r'20\d\d-\d\d-\d\d',date):
                       raise SystemExit('Published snapshot requires a valid archiveDate')
-                  if any(not isinstance(values[k],int) or values[k]<=0 for k in ('published_run_id','published_artifact_id','expected_json_files','expected_jobg8_rows','expected_unique_ids')):
-                      raise SystemExit('Published snapshot requires positive run, artifact and row counts')
-                  if not re.fullmatch(r'[a-f0-9]{64}',values['artifact_sha256'] or ''):
-                      raise SystemExit('Published snapshot requires the exact artifact SHA-256')
-                  handle.write(f"published_run_id={values['published_run_id']}\npublished_artifact_id={values['published_artifact_id']}\n")
+                  if not isinstance(values['published_run_id'],int) or values['published_run_id']<=0:
+                      raise SystemExit('Published snapshot requires a positive applied-output run ID')
+                  if any(not isinstance(values[k],int) or values[k]<=0 for k in ('expected_json_files','expected_jobg8_rows','expected_unique_ids')):
+                      raise SystemExit('Published snapshot requires positive file and row counts')
+                  if not isinstance(artifacts,list) or len(artifacts)!=2:
+                      raise SystemExit('Published snapshot requires both applied output artifacts')
+                  names={a.get('name') for a in artifacts if isinstance(a,dict)}
+                  if names!={'applied-service-admin-output','applied-support-worker-output'}:
+                      raise SystemExit('Published snapshot artifact names do not match Wednesday outputs')
+                  if any(not isinstance(a.get('id'),int) or a['id']<=0 or not re.fullmatch(r'[a-f0-9]{64}',a.get('sha256','')) for a in artifacts):
+                      raise SystemExit('Published snapshot artifact IDs or digests are invalid')
+                  if len({a['id'] for a in artifacts})!=2:
+                      raise SystemExit('Published snapshot artifact IDs must be distinct')
+                  if not re.fullmatch(r'[a-f0-9]{40}',values['production_app_commit_sha'] or ''):
+                      raise SystemExit('Published snapshot requires the exact final app commit SHA')
+                  try:
+                      from datetime import datetime
+                      datetime.fromisoformat(values['production_app_snapshot_at'].replace('Z','+00:00'))
+                  except (TypeError,ValueError):
+                      raise SystemExit('Published snapshot requires a valid final app snapshot time')
+                  primary=next(a for a in artifacts if a['name']=='applied-service-admin-output')
+                  handle.write(f"published_run_id={values['published_run_id']}\n")
+                  handle.write(f"published_artifact_id={primary['id']}\n")
+                  handle.write(f"published_artifact_ids={','.join(str(a['id']) for a in artifacts)}\n")
+                  handle.write(f"artifact_sha256={primary['sha256']}\n")
+                  handle.write(f"source_artifacts_json={json.dumps(artifacts,separators=(',',':'))}\n")
+                  handle.write(f"production_app_commit_sha={values['production_app_commit_sha']}\n")
+                  handle.write(f"production_app_snapshot_at={values['production_app_snapshot_at']}\n")
                   handle.write(f"expected_json_files={values['expected_json_files']}\nexpected_jobg8_rows={values['expected_jobg8_rows']}\n")
-                  handle.write(f"expected_unique_ids={values['expected_unique_ids']}\nartifact_sha256={values['artifact_sha256']}\n")
-              if reuse_run is not None:
+                  handle.write(f"expected_unique_ids={values['expected_unique_ids']}\n")              if reuse_run is not None:
                   handle.write(f'reuse_run_id={reuse_run}\nreuse_artifact_id={reuse_artifact}\n')
           PYMODE
       - name: Restore exact selector evidence from prior run
@@ -289,15 +312,14 @@ jobs:
               request[field]=hashlib.sha256((work/filename).read_bytes()).hexdigest()
           path.write_text(json.dumps(request,indent=2)+'\n')
           PYHASH
-      - name: Download exact 11 November applied output
+      - name: Download both exact 11 November applied outputs
         if: steps.request.outputs.mode == 'published_snapshot'
         uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
         with:
-          artifact-ids: ${{ steps.request.outputs.published_artifact_id }}
+          artifact-ids: ${{ steps.request.outputs.published_artifact_ids }}
           run-id: ${{ steps.request.outputs.published_run_id }}
           github-token: ${{ github.token }}
           path: ${{ runner.temp }}/published-output
-          merge-multiple: true
       - name: Build compact published-job projection
         if: steps.request.outputs.mode == 'published_snapshot'
         run: |
@@ -306,6 +328,9 @@ jobs:
             --date "${{ steps.request.outputs.archive_date }}" \
             --production-run-id "${{ steps.request.outputs.published_run_id }}" \
             --artifact-id "${{ steps.request.outputs.published_artifact_id }}" \
+            --source-artifacts-json '${{ steps.request.outputs.source_artifacts_json }}' \
+            --production-app-commit-sha "${{ steps.request.outputs.production_app_commit_sha }}" \
+            --production-app-snapshot-at "${{ steps.request.outputs.production_app_snapshot_at }}" \
             --expected-json-files "${{ steps.request.outputs.expected_json_files }}" \
             --expected-jobg8-rows "${{ steps.request.outputs.expected_jobg8_rows }}" \
             --expected-unique-jobg8-ids "${{ steps.request.outputs.expected_unique_ids }}" \
@@ -314,25 +339,83 @@ jobs:
       - name: Package compact snapshot for isolated Neon Preview
         if: steps.request.outputs.mode == 'published_snapshot'
         run: |
-          python - "$RUNNER_TEMP/published-snapshot.json" database/shadow/harness <<'PYPACK'
+          python - "$RUNNER_TEMP/published-snapshot.json" "$RUNNER_TEMP/source-download.json" database/shadow/harness <<'PYPACK'
           import hashlib,json,sys,zipfile
           from pathlib import Path
-          snapshot_path,harness=map(Path,sys.argv[1:])
+          snapshot_path,source_path,harness=map(Path,sys.argv[1:])
           snapshot_bytes=snapshot_path.read_bytes()
-          request={
+          snapshot=json.loads(snapshot_bytes)
+          source={
             'mode':'published_snapshot',
-            'feedDate':'${{ steps.request.outputs.archive_date }}',
-            'productionWorkflowRunId':int("${{ steps.request.outputs.published_run_id }}"),
-            'productionArtifactId':int("${{ steps.request.outputs.published_artifact_id }}"),
-            'productionArtifactSha256':'${{ steps.request.outputs.artifact_sha256 }}',
-            'expectedJobG8Rows':int("${{ steps.request.outputs.expected_jobg8_rows }}"),
-            'expectedUniqueJobG8Ids':int("${{ steps.request.outputs.expected_unique_ids }}"),
+            'feedDate':snapshot['feedDate'],
+            'productionWorkflowRunId':snapshot['productionWorkflowRunId'],
+            'productionArtifactId':snapshot['productionArtifactId'],
+            'productionArtifactSha256':snapshot['productionArtifactSha256'],
+            'productionArtifacts':snapshot['productionArtifacts'],
+            'productionAppCommitSha':snapshot['productionAppCommitSha'],
+            'productionAppSnapshotAt':snapshot['productionAppSnapshotAt'],
+            'expectedJobG8Rows':snapshot['jobg8OutputRows'],
+            'expectedUniqueJobG8Ids':snapshot['uniqueJobG8Ids'],
             'snapshotSha256':hashlib.sha256(snapshot_bytes).hexdigest(),
             'localArtifact':'source-artifact.zip',
           }
+          source_path.write_text(json.dumps(source,indent=2)+'\n')
           with zipfile.ZipFile(harness/'source-artifact.zip','w',compression=zipfile.ZIP_DEFLATED) as archive:
               archive.writestr('published-snapshot.json',snapshot_bytes)
-          (harness/'source-download.json').write_text(json.dumps(request,indent=2)+'\n')
+          (harness/'source-download.json').write_text(json.dumps(source,indent=2)+'\n')
+      - name: Checkout final Wednesday published app JSON
+        if: steps.request.outputs.mode == 'published_snapshot'
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: ${{ github.repository }}
+          ref: ${{ steps.request.outputs.production_app_commit_sha }}
+          path: production-final
+          persist-credentials: false
+          sparse-checkout: |
+            app
+            pipeline/scripts/live_job_source_counter.py
+          sparse-checkout-cone-mode: false
+      - name: Compare snapshot IDs with final published app IDs
+        if: steps.request.outputs.mode == 'published_snapshot'
+        run: |
+          python - "$RUNNER_TEMP/published-snapshot.json" "$RUNNER_TEMP/published-final-id-comparison.json" <<'PYCOMPARE'
+          import importlib.util,json,sys
+          from datetime import date,datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+          snapshot_path,report_path=map(Path,sys.argv[1:])
+          snapshot=json.loads(snapshot_path.read_text())
+          counter_path=Path('production-final/pipeline/scripts/live_job_source_counter.py')
+          spec=importlib.util.spec_from_file_location('live_job_source_counter',counter_path)
+          counter=importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(counter)
+          snapshot_time=datetime.fromisoformat(snapshot['productionAppSnapshotAt'].replace('Z','+00:00')).astimezone(ZoneInfo('Europe/London'))
+          inventory=counter.collect_live_inventory(
+              Path('production-final/app'),
+              as_of=date.fromisoformat(snapshot['feedDate']),
+              now=snapshot_time,
+          )
+          final_ids=sorted(job.job_id for job in inventory.jobs if job.source=='JobG8')
+          snapshot_ids=sorted(row['job_id'] for row in snapshot['records'])
+          final_set=set(final_ids)
+          snapshot_set=set(snapshot_ids)
+          report={
+            'status':'passed' if final_set==snapshot_set else 'failed',
+            'feedDate':snapshot['feedDate'],
+            'productionAppCommitSha':snapshot['productionAppCommitSha'],
+            'productionAppSnapshotAt':snapshot['productionAppSnapshotAt'],
+            'counterAppJsonFiles':inventory.job_json_files,
+            'counterJobG8Ids':len(final_ids),
+            'snapshotJobG8Ids':len(snapshot_ids),
+            'onlyInSnapshot':sorted(snapshot_set-final_set),
+            'onlyInFinalPublishedApp':sorted(final_set-snapshot_set),
+            'finalPublishedJobG8Ids':final_ids,
+          }
+          report_path.write_text(json.dumps(report,indent=2)+'\n')
+          print(json.dumps({k:v for k,v in report.items() if k not in ('onlyInSnapshot','onlyInFinalPublishedApp','finalPublishedJobG8Ids')}))
+          if final_set!=snapshot_set:
+              raise SystemExit('Applied outputs do not match final published app JobG8 IDs')
+          PYCOMPARE
       - name: Store and verify published jobs in isolated Neon Preview
         if: steps.request.outputs.mode == 'published_snapshot'
         env:
