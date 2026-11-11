@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-10
-review_fingerprint: e0a40990855b22b46cd90b0aac16edbfe98277e641fa6fe4630ebf0dfdb93600
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 31dda8e52307d4a5b4b5a3632b48b7e98e042207435a86f5536464b6132354af
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 3
-- POSS awaiting decision: 1
+- Records: 22
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 18
 
 ## SELECTED
-
----
-action: 
-SELECTED | Devon | Exeter, South West, EX2 8RQ | £26,847 - £27,274 per annum FTE | Nursery Administrator
-employer: Alphington Primary School
-closing_date: 2026-11-11T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e181feb89e9d315d0fa3aabcbecadd76ccf513a7ed3c44533625a9384cdf1ccd
-source: Teaching Vacancies
-source_job_id: nursery-administrator-31464adb-0c58-44e0-b86c-35e420fdd035
-source_url: https://teaching-vacancies.service.gov.uk/jobs/nursery-administrator-31464adb-0c58-44e0-b86c-35e420fdd035
----
 
 ---
 action: 
@@ -83,6 +68,21 @@ source_job_id: administrator-ivybridge-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ivybridge-community-college
 ---
 
+---
+action: 
+POSS | Devon | Torquay, South West, TQ1 4QH | £7,594.00 Annually (Actual) | Pupil Services Officer
+employer: St Marychurch Church of England Primary and Nursery School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 23189389d94c620df22651fcef75f0dd2f71739d4fc6a83f957f87cc01058f4b
+source: Teaching Vacancies
+source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school-torquay-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school-torquay-devon
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -92,6 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ivybrid
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sidmouth-church-of-england-primary-school) — No usable numeric salary.
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-team-multi-academy-trust) — No usable numeric salary.
 - [Administrator for Support Teams](https://teaching-vacancies.service.gov.uk/jobs/administrator-for-support-teams) — No usable numeric salary.
+- [Clerk to Governors](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-woodlands-school) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-a1a3a65a-9f2f-47b9-8227-68ba8ca76cf9) — No usable numeric salary.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-holsworthy-community-college) — Excluded senior/management title.
 - [Exams Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-maternity-cover-atlantic-academy) — No usable numeric salary.
@@ -101,6 +102,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ivybrid
 - [Local Governance Officer – Teignmouth Community School](https://teaching-vacancies.service.gov.uk/jobs/local-governance-officer-teignmouth-community-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-boringdon-primary-school-plymouth-devon) — Excluded senior/management title.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon) — No usable numeric salary.
+- [School Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-caretaker-st-sidwell-s-church-of-england-primary-school-nursery) — Out-of-scope occupation: caretaker.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-1ab8b680-19b9-400d-b2ad-e7ffeda3ad14) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy) — Excluded senior/management title.
 - [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school-axminster-devon) — Excluded senior/management title.

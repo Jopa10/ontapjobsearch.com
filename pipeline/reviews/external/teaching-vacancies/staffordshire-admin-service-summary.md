@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-10
+review_date: 2026-11-11
 review_fingerprint: 4ff29bb61bf855ed887764e05ef3bab0edfd5a74fd8f9bad80f6b992a38f6ce6
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 11
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -93,6 +93,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administra
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-tynsel-parkes-cofe-primary-academy) — No usable numeric salary.
 - [Contracts Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-manager-the-shaw-education-trust) — Excluded senior/management title.
 - [Human Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-community-academies-trust-tamworth-not-recorded) — Excluded senior/management title.
+- [Leadership Support Officer (Part-time)](https://teaching-vacancies.service.gov.uk/jobs/leadership-support-officer-part-time) — No usable numeric salary.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-a6176fdf-9fd1-40a5-9965-09d03373dad8) — Insufficient admin/service evidence.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college-stoke-on-trent-staffordshire) — Excluded senior/management title.
 

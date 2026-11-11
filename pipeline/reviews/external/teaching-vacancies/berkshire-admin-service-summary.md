@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-10
-review_fingerprint: 5679bbaa0fab46222d3f3d505951f1f497f1fbf6cadd836f88d74dc5f6344b82
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 28927353711c75ff93c5892ca9f372e87537488f6d6f77d6452e4e7afadf4a96
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 7
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
@@ -94,6 +94,21 @@ factual_fingerprint: 06d2322c4cbc6344f4c3234770488518cf27a3a93bb1280485e0f7ec9a3
 source: Teaching Vacancies
 source_job_id: school-receptionist-445c0d5c-e6b9-4aae-b312-fdd6826ebbbc
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-445c0d5c-e6b9-4aae-b312-fdd6826ebbbc
+---
+
+---
+action: 
+SELECTED | Berkshire | Windsor, South East, SL4 5EH | Salary for full time (37 hours per week), term time only is £24,114 which can be pro-rated for part time, depending on hours. | Sixth Form Administrator
+employer: The Windsor Boys' School
+closing_date: 2026-11-25T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1ce1161017c02a1e09c61ac5e58f0a91c04656450e58eccbf0fd85d98deea9fa
+source: Teaching Vacancies
+source_job_id: sixth-form-administrator-fb317f6e-92a0-4f5d-98e7-b22ff7afb408
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-fb317f6e-92a0-4f5d-98e7-b22ff7afb408
 ---
 
 ---

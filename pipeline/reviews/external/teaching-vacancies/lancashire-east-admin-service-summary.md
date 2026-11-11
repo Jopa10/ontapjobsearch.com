@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-10
+review_date: 2026-11-11
 review_fingerprint: e3ae97e80c4532f6b92801282680bcdd74367f1b06c9c1525d84706e8d407f92
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 10
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 3
 
 ## SELECTED
 
@@ -134,7 +134,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-wilfr
 
 ## HARD_PASS
 
+- [Admissions Interviewer](https://teaching-vacancies.service.gov.uk/jobs/admissions-interviewer) — No usable numeric salary.
 - [Personal Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-newfield-school) — No usable numeric salary.
+- [Talent Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/talent-systems-manager) — Excluded senior/management title.
 
 ## Safety boundary
 

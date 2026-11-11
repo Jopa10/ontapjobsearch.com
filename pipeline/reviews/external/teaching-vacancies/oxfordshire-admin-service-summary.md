@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-10
-review_fingerprint: 4fb60c9ed0ee694b90ea69d541af473d005cb2c2163946fba98b764739255355
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 1a324702e51eba0db3a7a7037089a6f1ce0dcddc1d2cbbe6a121263b426e481a
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 15
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Oxfordshire | Carterton, South East, OX18 1BU | £22,068.00 - £23,533.00 Annually (Actual) Based on £27,274 - £29,071 FTE | Administration Assistant
+employer: Carterton Community College
+closing_date: 2026-12-08T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d019bfa0410fa110daefdb2d8780bd7acd20f1aa5ee0e04b4792015b6c533f8f
+source: Teaching Vacancies
+source_job_id: administration-assistant-carterton-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-carterton-community-college
+---
 
 ---
 action: 
@@ -108,6 +123,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 - [Assistant Headteacher (Personal Development)](https://teaching-vacancies.service.gov.uk/jobs/assistant-headteacher-personal-development-the-cherwell-school) — Out-of-scope occupation: teacher, headteacher.
 - [Estates and Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-and-facilities-manager-alt-trust) — Excluded senior/management title.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-6bdfda73-c107-431f-a62a-1680d58b5c49) — Insufficient admin/service evidence.
+- [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust-oxford-not-recorded) — Insufficient admin/service evidence.
 - [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
 - [RLT Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/rlt-fundraising-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-carterton-primary-school) — Excluded senior/management title.

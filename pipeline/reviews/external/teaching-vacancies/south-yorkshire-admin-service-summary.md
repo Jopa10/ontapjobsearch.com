@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-10
-review_fingerprint: c1f04c364d83841afff0d6553579c6efa1e3333659ae50ae67c2a420ac12db9b
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 582529758bb7b89031912bd2dc49a1cdc3c89c5f44db1a7a301192c4aaaed1ca
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 4
+- Records: 20
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 13
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - South | Barnsley, Yorkshire and the Humber, S71 3TP | £26,427 to £26,847 | Administration Assistant
+employer: Athersley South Primary School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 44018d9f64fd1ae6a59fb8c875d7ddfa1e6e0d00492877b568c6a655819cf675
+source: Teaching Vacancies
+source_job_id: administration-assistant-athersley-south-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-athersley-south-primary-school
+---
 
 ---
 action: 
@@ -124,12 +139,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Apprentice Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administration-assistant-maltby-lilly-hall-academy) — No usable numeric salary.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-brinsworth-academy-rotherham-south-yorkshire) — Insufficient admin/service evidence.
 - [Curriculum Manager](https://teaching-vacancies.service.gov.uk/jobs/curriculum-manager-the-sheffield-college) — Excluded senior/management title.
+- [Director of Health & Safety](https://teaching-vacancies.service.gov.uk/jobs/director-of-health-safety) — Excluded senior/management title.
 - [Examinations Invigilator](https://teaching-vacancies.service.gov.uk/jobs/examinations-invigilator-maltby-academy) — No usable numeric salary.
 - [Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/executive-support-officer-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy-rotherham-south-yorkshire) — Excluded senior/management title.
 - [Pupil Premium Extracurricular Visits Coordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extracurricular-visits-coordinator-forge-valley-school-sixth-form-sheffield-south-yorkshire) — No usable numeric salary.
 - [Senior Technician Mechanical Engineering](https://teaching-vacancies.service.gov.uk/jobs/senior-technician-mechanical-engineering) — Out-of-scope occupation: technician.
 - [Strategic Attendance and Family Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/strategic-attendance-and-family-engagement-lead) — Excluded senior/management title.
+- [VICE PRINCIPAL (Lead on Behaviour and Personal Development)](https://teaching-vacancies.service.gov.uk/jobs/vice-principal-lead-on-behaviour-and-personal-development) — Out-of-scope occupation: principal.
 
 ## Safety boundary
 

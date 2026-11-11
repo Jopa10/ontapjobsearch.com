@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-11-10
-review_fingerprint: f551257a2b5e0ff1042139f56f299ee1328bb72b4316e20d1497f739216a57b0
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 4bc63a5dadbc601c7d4535ed92a85acb2e9af9ac6fb6b26e67c026cf92ae1386
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 2
+- Records: 4
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
@@ -49,6 +49,21 @@ factual_fingerprint: ccebc9e24236ee0ddd0f96d712f49225547ace276c222184b3687f7ba8f
 source: Teaching Vacancies
 source_job_id: school-administrator-maternity-cover-court-fields-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-maternity-cover-court-fields-school
+---
+
+---
+action: 
+SELECTED | Shropshire | Telford, West Midlands, TF3 1ET | £25,614.00 - £26,016.00 Annually (FTE) | School Receptionist / Administrative Assistant
+employer: Grange Park Primary School
+closing_date: 2026-11-20T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 71c4d7e77500ef019d5899fa4e6d81bbd991defcad5eda8ad2a02da8cb5a8ebe
+source: Teaching Vacancies
+source_job_id: school-receptionist-administrative-assistant-grange-park-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-administrative-assistant-grange-park-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-10
-review_fingerprint: cd6f793a961b7f601e94387ddd95bd9484b53eed776d59c4b7704d0bce24be99
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 8f8e8132bdcd2b3a3e173f26f209f85c8f8e5eb56bf8a7fc52ed94bc5451a981
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B92 7DJ | £25,615.00 - £26,017.00 Annually (FTE) Grade 2 Point 3 - 4 (Salary will be pro-rated based on weeks/hours worked) | Administrator/Receptionist
-employer: Tudor Grange Primary Academy Langley
-closing_date: 2026-11-11T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B14 7EG | Full-Time Equivalent Salary: Grade 2, £24,796 - £26,824, Pro Rata (Actual Salary): £21,775 - £23,556 | Administration Assistant (Temporary Contract)
+employer: Bishop Challoner Catholic College
+closing_date: 2026-11-23T10:00:00+00:00
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: eb0ef444085858420329d7357598898bdbc1608898d0d67a3242d506b151671c
+factual_fingerprint: d8da855a5895e4ae7c031bdfe55323e1aaa1ffee40830a430b702f39ccf3f9d6
 source: Teaching Vacancies
-source_job_id: administrator-receptionist-afc2cbbf-f4cb-42a6-8c94-97d0fc3a0b28
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-afc2cbbf-f4cb-42a6-8c94-97d0fc3a0b28
+source_job_id: administration-assistant-temporary-contract
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-temporary-contract
 ---
 
 ---

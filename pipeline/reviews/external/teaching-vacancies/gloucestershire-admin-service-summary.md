@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-11-10
-review_fingerprint: 9d591f10e63231ca0d4551c99fbd37bb268d7a398e77b04083d29de4dee71b6d
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: c8e59b8b3d4f5eebda4323f42671d5d1e55b9d07d0472b69d96ea16b4d100b62
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 1
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Gloucestershire | Cheltenham, South West, GL51 0WH | £27,274.00 - £28,608.00 Annually (FTE) Actual pro-rata salary range £12,653 - £13,272 per annum | Academy Administrator and Receptionist
+employer: All Saints' Academy, Cheltenham
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0a7a53d78dd18e12cdc0285fb99299bce3376d5bfbf02ba12ba4aa6e68e96954
+source: Teaching Vacancies
+source_job_id: academy-administrator-and-receptionist-all-saints-academy-cheltenham
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-and-receptionist-all-saints-academy-cheltenham
+---
 
 ---
 action: 

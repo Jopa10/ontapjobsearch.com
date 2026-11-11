@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-10
-review_fingerprint: f0fc32977d926ae1235f539172e102693420b2c77940dd2413781fc946eae2fe
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: f3cf1c52068841c332a9e9bbf7a35dd192dec8a18de5ab2d6e6a40f8f6b24293
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,32 +13,30 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 0
-- POSS awaiting decision: 3
+- Records: 16
+- Selected: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 13
 
 ## SELECTED
 
-- None.
-
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Essex | Ongar, East of England, CM5 9NB | £13,812.00 - £14,022.00 Annually (Actual) Scale 3, Points 4 – 5 with Fringe | Administration assistant
-employer: High Ongar Primary School
-closing_date: 2026-11-10T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+SELECTED | Essex | Leigh-On-Sea, SS9 3TG | £30,515.00 - £32,557.00 Annually (FTE) | HR Administrator - Remote
+employer: Legra Academy Trust
+closing_date: 2026-11-20T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: cac24a803441f08a26ee50b90cbf51a968f560559b78f41d33b5dbea2d356831
+factual_fingerprint: 096969a3824da4a3c17bfcc2463e69f2c9c48ebf87a26c3ec7e9f3fa10d48a1d
 source: Teaching Vacancies
-source_job_id: administration-assistant-high-ongar-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-high-ongar-primary-school
+source_job_id: hr-administrator-remote
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-remote
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
@@ -79,6 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-fd8ff3fc-5891-4768-96d5-0b8898f17568) — No usable numeric salary.
 - [Assistant Data Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-manager-the-basildon-upper-academy) — Excluded senior/management title.
 - [Careers Assistant](https://teaching-vacancies.service.gov.uk/jobs/careers-assistant-st-martin-s-school-brentwood-brentwood-essex) — Insufficient admin/service evidence.
+- [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services-st-martin-s-school-brentwood) — Out-of-scope occupation: deputy head.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.
 - [Operations Manager - Harwich](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-harwich) — Excluded senior/management title.
 - [Payroll and Pension Analyst](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pension-analyst) — Salary over £50k.
@@ -86,6 +85,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-the-eastwood-academy) — Excluded senior/management title.
 - [School Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-support-assistant-hilltop-junior-school-wickford-essex) — Insufficient admin/service evidence.
 - [Senior PA to Leadership Team and Inclusion Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-pa-to-leadership-team-and-inclusion-coordinator) — Excluded senior/management title.
+- [Support Officer](https://teaching-vacancies.service.gov.uk/jobs/support-officer-brentwood-county-high-school-brentwood-essex) — Insufficient admin/service evidence.
 - [Trust Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-manager-south-west-essex-community-education-trust-limited) — Excluded senior/management title.
 
 ## Safety boundary

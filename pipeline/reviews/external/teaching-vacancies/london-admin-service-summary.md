@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-10
-review_fingerprint: 8e12c2b83b5214550c616c33ab0eaf2492185a7249e23571bc423f76df7ab967
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 1ce2785265c7c9610e1abd96c8954b3851e758895be57682d50c56e759bc1e34
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 47
-- Selected: 6
+- Records: 50
+- Selected: 7
 - POSS awaiting decision: 17
 - Excluded: 0
-- Hard pass: 24
+- Hard pass: 26
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: e6f99a8bed024e845a292712cdd0f1a9cdf28b0fff6edd6c19f9771e000
 source: Teaching Vacancies
 source_job_id: administrative-assistant-to-the-senco
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-to-the-senco
+---
+
+---
+action: 
+SELECTED | London | London, London, N9 8DR | £29,077.83 - £31,410.96 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,708.76 - £28,851.80 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
+employer: Woodpecker Hall Primary Academy
+closing_date: 2026-12-01T23:59:00+00:00
+reason: Clear admin/service title: business support assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ad21c857526bc6cc2d2b08364cbd38e1e8546b4511a2d0630112158801cb7706
+source: Teaching Vacancies
+source_job_id: business-support-assistant-b0e92129-9a1b-4671-8806-6ea3c3ec8ece
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-b0e92129-9a1b-4671-8806-6ea3c3ec8ece
 ---
 
 ---
@@ -130,21 +145,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer
 
 ---
 action: 
-POSS | London | Dagenham, London, RM9 4UN | £28,709.00 - £30,364.00 Annually (Actual) full time equivalent £31,290- £32,655 | Admin Assistant
-employer: Jo Richardson Community School
-closing_date: 2026-11-11T08:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f6bc541eb65cc3387db8bbd0414157fc16e7b727e503c338d7159f9a71bfc3e2
-source: Teaching Vacancies
-source_job_id: admin-assistant-267341e2-5d14-45f8-a72d-2c270f59a438
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-267341e2-5d14-45f8-a72d-2c270f59a438
----
-
----
-action: 
 POSS | London | West Wickham, London, BR4 0BA | £22,017.00 - £25,612.00 Annually (Actual) BR5 SCP 13-17 | Administration Assistant
 employer: Hawes Down Primary School
 closing_date: 2026-11-11T23:59:00+00:00
@@ -222,12 +222,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-co
 action: 
 POSS | London | London, London, W2 1QZ | £30,239.00 Annually (FTE) | Business Support Officer
 employer: Marylebone Academy
-closing_date: 2026-11-10T23:59:00+00:00
+closing_date: 2026-11-23T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 73db8c064a0b64c154f46f41462597b4d1d54b0e30bfae9a0332b5f72fab8e86
+factual_fingerprint: b720dbece8bb2c7ef36d2a21704f73622035d70db4539a0b8a4bad6226a93923
 source: Teaching Vacancies
 source_job_id: business-support-officer-marylebone-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-marylebone-academy
@@ -340,6 +340,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/resources-administrat
 
 ---
 action: 
+POSS | London | Sutton, SM1 4AF | £32,278.00 - £34,425.00 Annually (FTE) Actual salary £27,197- £29,007 per annum | SENDCO Admin
+employer: Greenshaw Learning Trust
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e3e5ab94e5667e9bc0f891d9663aae74ba9b2d390b94ea2dddb76fc7e0720cae
+source: Teaching Vacancies
+source_job_id: sendco-admin
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sendco-admin
+---
+
+---
+action: 
 POSS | London | Enfield, London, EN2 8GH | £27,666.00 - £29,303.00 Annually (Actual) NJC 8-12 | Sixth Form Administrator
 employer: Wren Academy Enfield
 closing_date: 2026-11-23T09:00:00+00:00
@@ -374,6 +389,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 
 ## HARD_PASS
 
+- [Academy Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-assistant-3389a695-6951-4d89-80ca-382a223ca50f) — Insufficient admin/service evidence.
 - [Attendance, Data and Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-data-and-administrative-officer) — Insufficient admin/service evidence.
 - [Chief Financial & Operations Officer (CFOO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-operations-officer-cfoo) — Excluded senior/management title.
 - [Data & Cover Manager - Deputy Head of MIS (Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/data-cover-manager-deputy-head-of-mis-maternity-cover) — Out-of-scope occupation: deputy head.
@@ -393,7 +409,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
 - [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c5500de0-8688-44f2-9650-5f16af71c014) — Excluded senior/management title.
-- [Receptionist (0.53FTE, Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/receptionist-0-53fte-maternity-cover) — No usable numeric salary.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-deer-park-school) — Excluded senior/management title.
+- [PA to Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-office-manager-the-quest-academy) — Excluded senior/management title.
 - [School Business and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-and-operations-manager-stanhope-primary-school-greenford) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hobbayne-primary-school-london) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shalom-noam-primary-school) — Excluded senior/management title.

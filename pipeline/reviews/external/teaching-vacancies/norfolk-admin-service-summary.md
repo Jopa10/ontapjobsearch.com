@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-10
-review_fingerprint: 8bd964b0cd752a5e747bb70eda48e9d879e728b7b43dd5fe752b4d500291f4e8
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: deabf022ce6d5aa1c3b1f50ddb5f08ebd7405b0474520e7e5b3e594f7b7b344c
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 17
 - Selected: 3
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 13
 
 ## SELECTED
 
@@ -68,7 +68,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Norfolk | Norwich, East of England, NR7 9DL | £7,154 - £7,267 actual pa | Receptionist
+employer: The Open Academy
+closing_date: 2026-11-20T00:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0590c6a12a3edc4d38b965cf670e77e48b8a9e220317a7775eb9d02f5664e9ad
+source: Teaching Vacancies
+source_job_id: receptionist-the-open-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-open-academy
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -85,6 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-norwich-city-college-of-further-and-higher-education-norwich-norfolk) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-caister-junior-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-william-s-primary-school) — Excluded senior/management title.
+- [Secretary](https://teaching-vacancies.service.gov.uk/jobs/secretary-ba66d09b-86c1-44c3-b32c-07b2f7c540d1) — No usable numeric salary.
 - [Trust Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-capital-projects-manager-notre-dame-high-school-norwich) — Excluded senior/management title.
 - [Trust Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-capital-projects-manager-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Excluded senior/management title.

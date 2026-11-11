@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-10
+review_date: 2026-11-11
 review_fingerprint: 7c1cbfd9a88bfa38258aa3cb1f37db456ab86043ea50500ad5590e7cab18a1b0
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -78,6 +78,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-47c1efc2
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-chellaston-academy-derby-derbyshire) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-ashwood-spencer-academy) — Excluded senior/management title.
 - [PA to SLT & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-cover-manager) — Excluded senior/management title.
+- [Peripatetic Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-administration-officer-alvaston-junior-academy) — Insufficient admin/service evidence.
 - [Plant Centre Lead](https://teaching-vacancies.service.gov.uk/jobs/plant-centre-lead) — Excluded senior/management title.
 
 ## Safety boundary

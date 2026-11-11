@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-10
-review_fingerprint: dd1ffd9990d0a495a3b7609666176150e110c996ad65879b6345a9c0ffd9f11d
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 4ed15cbb78b3f9bd82ec1e513008a969017b9afaff3c4adc987890f4911cbc94
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | North East | Wallsend, North East, NE28 7LQ | Grade 5 - £26,403 - £27,254 *Pay Award Pending* | Administration Assistant
+employer: Burnside College
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8053979fbb45946a01e4a884e9d8664ccb0630a0b6fac48e19aa274877c0627b
+source: Teaching Vacancies
+source_job_id: administration-assistant-7c7ff27b-428f-43f8-b838-19b0716cb7d9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-7c7ff27b-428f-43f8-b838-19b0716cb7d9
+---
 
 ---
 action: 
@@ -106,7 +121,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administra
 
 - [Exams Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-office-administration-assistant) — Insufficient admin/service evidence.
 - [HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-prosper-learning-trust) — Insufficient admin/service evidence.
-- [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-connect-multi-academy-trust) — Insufficient admin/service evidence.
 - [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hadrian-learning-trust) — Excluded senior/management title.
 - [Staff & Student Support Officer](https://teaching-vacancies.service.gov.uk/jobs/staff-student-support-officer) — Insufficient admin/service evidence.

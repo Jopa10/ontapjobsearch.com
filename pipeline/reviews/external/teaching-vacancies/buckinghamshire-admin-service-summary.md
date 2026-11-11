@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-10
-review_fingerprint: b4727c9468c8c7d8c7dca841088bee9ebbbaba850d68a9821517bca3d43d9ad4
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: b76470717279cf7f43a0dae12e484b86067c81f9713966a2a57bc99add348b8d
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
-- POSS awaiting decision: 5
+- Records: 14
+- Selected: 5
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 5
 
 ## SELECTED
 
@@ -66,6 +66,36 @@ source_job_id: receptionist-stephenson-academy-milton-keynes-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stephenson-academy-milton-keynes-buckinghamshire
 ---
 
+---
+action: 
+SELECTED | Buckinghamshire | Aylesbury, South East, HP18 0WS | £26,522.00 - £28,742.00 Annually (FTE) Actual salary will reflect working pattern of 32 hours per week, 39 weeks per year | Receptionist (Admin Support and Medical Assistant)
+employer: The Aylesbury Vale Academy
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 55c6957f136dc06bc1a950471aac1e56780468209e9e10bffadf37737e2de2c6
+source: Teaching Vacancies
+source_job_id: receptionist-admin-support-and-medical-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-support-and-medical-assistant
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK7 6BZ | £27,709.00 Annually (FTE) Full time, Term time plus 5 Inset days | Reprographics Technician and Office Administrator
+employer: Kents Hill Park all-through school
+closing_date: 2026-11-24T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a2e37e3e5ac4eb597d95a32521fa119e20be05d176973b4b7727b60e6651e40f
+source: Teaching Vacancies
+source_job_id: reprographics-technician-and-office-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-and-office-administrator
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -85,21 +115,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-offic
 
 ---
 action: 
-POSS | Buckinghamshire | Beaconsfield, South East, HP9 2TS | £29,114.00 - £31,230.00 Annually (FTE) Bucks Pay Range 3 ISN 16-20 £29,114-£31,230 Pro Rata, Actual Salary £22,395-£24,023 | Receptionist
-employer: Alfriston School
-closing_date: 2026-11-11T10:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 24e1990decdc59db0b8ed7a4093ad7e990da13d437b3752a22fb1d6be34723b7
-source: Teaching Vacancies
-source_job_id: receptionist-alfriston-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-alfriston-school
----
-
----
-action: 
 POSS | Buckinghamshire | Aylesbury, South East, HP20 1DP | £19,870-£20,660 per annum (FTE £24,836 to £25,823) | Receptionist
 employer: Stocklake Park Community School
 closing_date: 2026-11-20T23:59:59+00:00
@@ -111,21 +126,6 @@ factual_fingerprint: 8daaaa61a719667c10007ba472efa25f8b2557ffd41e16094d3cdc362d2
 source: Teaching Vacancies
 source_job_id: receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
----
-
----
-action: 
-POSS | Buckinghamshire | Newport Pagnell, South East, MK16 0BJ | £23,745.79 - £25,316.62 Annually (Actual) NJC SCP 8-12 | Receptionist
-employer: E-Act Ousedale School
-closing_date: 2026-11-11T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 66e38c20c23850f8e0e5a2ff2086d2ebc74e6d8b7e629d0fa38c8a6b7caecb6b
-source: Teaching Vacancies
-source_job_id: receptionist-e-act-ousedale-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-e-act-ousedale-school
 ---
 
 ---
@@ -143,6 +143,21 @@ source_job_id: receptionist-lift-sir-herbert-leon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
 ---
 
+---
+action: 
+POSS | Buckinghamshire | Buckingham, South East, MK18 1AX | £9,015.36 Annually (Actual) 38.6 weeks per annum (to include 3 INSET days) | School Trip / Enrichment Coordinator
+employer: Royal Latin School
+closing_date: 2026-11-23T10:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ce52cfed346a48e0cf8f2b4d8907b85a23ed6277f56ff68c615645018fd78430
+source: Teaching Vacancies
+source_job_id: school-trip-enrichment-coordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-trip-enrichment-coordinator
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -151,6 +166,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir
 
 - [Curriculum Administrator Apprentice](https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-apprentice) — No usable numeric salary.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-b186e459-f769-41b9-9390-e923eedcb0b6) — Excluded senior/management title.
+- [School Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/school-operations-co-ordinator) — Insufficient admin/service evidence.
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-stephenson-mk-trust) — Excluded senior/management title.
+- [Sixth Form Study Supervisor & DofE Coordinator](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-study-supervisor-dofe-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

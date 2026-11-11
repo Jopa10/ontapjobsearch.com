@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-10
-review_fingerprint: 9f95a659cc2e5e497f016cc7473d993752a3e6a20ef40003d8458b672a55a4ee
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: a306ccb9d7791de27075ba2093b9330bde04d7a906c5b202280ac206cd8e98ec
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 4
+- Records: 16
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 076015d1a97ac898bae2f5809c4190bedacb6dd43dcfa8b01a2ea55738d
 source: Teaching Vacancies
 source_job_id: admin-assistant-nicholas-breakspear-catholic-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-nicholas-breakspear-catholic-school
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Stevenage, East of England, SG1 3RB | £32,578.00 - £34,811.00 pro rata, starting point depending on experience | Exams Officer - HT
+employer: Barclay Academy
+closing_date: 2026-11-24T12:00:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2f77281a39112c61a9f938b904bac1cb6f56960b3569f3e7a29027420f2ffd84
+source: Teaching Vacancies
+source_job_id: exams-officer-ht
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-ht
 ---
 
 ---
@@ -121,11 +136,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-tr
 
 - [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover) — Insufficient admin/service evidence.
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-ashlyns-school) — Insufficient admin/service evidence.
+- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-st-george-s-school) — Excluded senior/management title.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodfield-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lodge-farm-primary-school) — Excluded senior/management title.
 - [SEND Family Liaison Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/send-family-liaison-co-ordinator) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-st-mary-s-church-of-england-high-school-va) — Excluded senior/management title.
 - [Sixth Form Student Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-student-liaison-officer) — Insufficient admin/service evidence.
+- [Trust Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-manager-st-francis-of-assisi-catholic-academy-trust) — Excluded senior/management title.
 
 ## Safety boundary
 

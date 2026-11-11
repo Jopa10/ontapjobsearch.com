@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-10
+review_date: 2026-11-11
 review_fingerprint: af5b3a89aac68afd8af20e26686b24274e0910c6fdc56ebb2f697004f3f85bb5
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -181,8 +181,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-st
 
 - [Complaints Officer](https://teaching-vacancies.service.gov.uk/jobs/complaints-officer-ascend-learning-trust) — Insufficient admin/service evidence.
 - [Day Care Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/day-care-admin-officer) — Insufficient admin/service evidence.
-- [Resourcing & Talent Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/resourcing-talent-development-assistant) — Insufficient admin/service evidence.
 - [School Receptionist](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-even-swindon-primary-school-swindon-wiltshire) — No usable numeric salary.
+- [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-5cad4b3d-60eb-45ce-9201-1c3edf7de3a6) — Excluded senior/management title.
 
 ## Safety boundary
 

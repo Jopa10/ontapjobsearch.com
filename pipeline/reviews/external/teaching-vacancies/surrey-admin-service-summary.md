@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-10
-review_fingerprint: 1d5246dbf9b569c2c698cfe56d76582908e209f9dc005cc12d91b104b779a034
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 608ed3c93b37357a088cb0708c22d2a9f88f48ca74e73e912edf2f9aa341641f
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 1
-- POSS awaiting decision: 3
+- Records: 9
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Surrey | Caterham, South East, CR3 5YX | £18,199.26 to £18,459.55 (dependent on experience) | Finance Admin Assistant
+employer: de Stafford School
+closing_date: 2026-11-16T09:00:59+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3993f4dc11bb25c17144cb4ce78857de1b8da2e25bebdee794a68e4fd2e0de9b
+source: Teaching Vacancies
+source_job_id: finance-admin-assistant-de-stafford-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-de-stafford-school
+---
 
 ---
 action: 
@@ -62,25 +77,10 @@ reason: Borderline school administration title: clerk to governors
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c904be462266d018561c2a6aab9093349d6f45c60c787b21ffc7d80b067d6a73
+factual_fingerprint: 70417516497bfeb2e31ebb86df5f02707f03b108289186c3cd5ebc29e4400eac
 source: Teaching Vacancies
-source_job_id: clerk-to-governors-3018924e-8bbc-4597-a55c-086b85d6c5cf
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-3018924e-8bbc-4597-a55c-086b85d6c5cf
----
-
----
-action: 
-POSS | Surrey | Caterham, South East, CR3 5YX | £18,199.26 to £18,459.55 (dependent on experience) | Finance Admin Assistant
-employer: de Stafford School
-closing_date: 2026-11-16T09:00:59+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3993f4dc11bb25c17144cb4ce78857de1b8da2e25bebdee794a68e4fd2e0de9b
-source: Teaching Vacancies
-source_job_id: finance-admin-assistant-de-stafford-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-de-stafford-school
+source_job_id: clerk-to-governors-73528dcf-b3d5-4459-ae85-9fc0cb25775c
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-73528dcf-b3d5-4459-ae85-9fc0cb25775c
 ---
 
 ## EXCLUDED BY REVIEW
@@ -92,6 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assista
 - [EHCP Administrator](https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-gosden-house-school-guildford-surrey) — No usable numeric salary.
 - [Office & Facilities Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-facilities-assistant) — Insufficient admin/service evidence.
 - [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-0884c9ad-ae56-44bf-a477-68f17351dcd8) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-grange-community-infant-school) — Excluded senior/management title.
 - [Sustainability Officer](https://teaching-vacancies.service.gov.uk/jobs/sustainability-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

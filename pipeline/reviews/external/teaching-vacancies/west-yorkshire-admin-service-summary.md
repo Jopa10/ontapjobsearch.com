@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-10
+review_date: 2026-11-11
 review_fingerprint: 0784eefbd2a085d1399fa4281fcc6765e031acacceb653c846aa1a67476b87d6
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
+- Records: 28
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 23
+- Hard pass: 24
 
 ## SELECTED
 
@@ -106,7 +106,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-information-d
 - [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-south-pennine-academies) — Excluded senior/management title.
 - [HR Administration Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-team-leader) — Excluded senior/management title.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-heaton-primary) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-upper-heaton) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hillside-primary-school-huddersfield-west-yorkshire) — Excluded senior/management title.
 - [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.
 - [Quality Coordinator](https://teaching-vacancies.service.gov.uk/jobs/quality-coordinator) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-westbrook-lane-primary-school) — Excluded senior/management title.

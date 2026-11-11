@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-10
-review_fingerprint: a89f1141370be1ddaaea3f07e672569f2b6cd4936a12bfb7de5d60319c29be73
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: a1fd50460e3ee3644d444cd4d3969c6a78655727b60949b29a8439cb1450df1a
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Suffolk | Ipswich, East of England, IP1 5JN | £22,376.00 - £23,091.00 Annually (Actual) NJC Salary Scale: 4 - 6 | Academy Receptionist
+employer: Westbourne Academy
+closing_date: 2026-11-25T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 07c053231dd8d80913024afd79a7c8402b191bbc81f87bd031c005097896b26c
+source: Teaching Vacancies
+source_job_id: academy-receptionist-westbourne-academy-ipswich-suffolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-westbourne-academy-ipswich-suffolk
+---
 
 ---
 action: 
@@ -34,6 +49,21 @@ factual_fingerprint: f98b0ff5b5dcf5ce5edf587ec8a345aa88d81b61f80a2f76a015b6d54ac
 source: Teaching Vacancies
 source_job_id: attendance-administrator-castle-hill-junior-school-ipswich-suffolk
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-castle-hill-junior-school-ipswich-suffolk
+---
+
+---
+action: 
+SELECTED | Suffolk | Beccles, East of England, NR34 9PG | £10,537.00 - £10,874.00 Annually (Actual) Grade 3, points 4-6, £26,016-£26,847 FTE | Business Support Officer - Sixth Form
+employer: Sir John Leman High School
+closing_date: 2026-11-27T12:00:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2087dfe1e8d9e8c826fb48d9712639b4f3d2c7ae609f01bf88f5ce238e110845
+source: Teaching Vacancies
+source_job_id: business-support-officer-sixth-form
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-sixth-form
 ---
 
 ---

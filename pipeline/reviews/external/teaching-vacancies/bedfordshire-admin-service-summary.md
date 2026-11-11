@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-10
+review_date: 2026-11-11
 review_fingerprint: 19b6c3b2057c75b2044bfcb0ebe2fc7dec83f9924dadd7afc6bc87f6bfdee47a
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -150,11 +150,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-la
 ## HARD_PASS
 
 - [Admin Manager and PA to SLT](https://teaching-vacancies.service.gov.uk/jobs/admin-manager-and-pa-to-slt) — Excluded senior/management title.
+- [Administration Services Manager](https://teaching-vacancies.service.gov.uk/jobs/administration-services-manager) — Excluded senior/management title.
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-0901ff45-843f-48f1-86f8-3ff333e31507) — No usable numeric salary.
 - [Business, Operations, HR & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-hr-compliance-manager-southcott-lower-school) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-houstone-school-dunstable) — Excluded senior/management title.
 - [Data Manager and Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-and-examinations-officer-wixams-academy) — Excluded senior/management title.
-- [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Excluded senior/management title.
 - [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-wixams-academy) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-212db2cc-f077-4618-b1ff-eb892f942ee3) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-templefield-lower-school-bedford-bedfordshire) — Excluded senior/management title.

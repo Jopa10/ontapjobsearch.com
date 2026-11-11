@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-10
+review_date: 2026-11-11
 review_fingerprint: 9c7fb3c6daee01af236f09eb6c0744efbfb32b08088441ed2306f48c42ceec64
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -49,6 +49,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-chs-sou
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-b22a2c58-c885-4d63-82a5-8952d92812d9) — No usable numeric salary.
 - [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-all-saints-primary-school) — Excluded senior/management title.
 - [Caretaker](https://teaching-vacancies.service.gov.uk/jobs/caretaker-william-hulme-s-grammar-school) — Out-of-scope occupation: caretaker.
+- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-lowry-academy) — Excluded senior/management title.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Excluded senior/management title.
 - [PDI Operations, Marketing & Programme Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pdi-operations-marketing-programme-support-officer) — Insufficient admin/service evidence.
 - [Reprographics & Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administration-assistant-the-east-manchester-academy) — Insufficient admin/service evidence.

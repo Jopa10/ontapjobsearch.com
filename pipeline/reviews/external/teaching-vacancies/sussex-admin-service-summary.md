@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-11-10
-review_fingerprint: 82034db2cc2f6a4e23021e989da16abca3526e695b76c774df4f388d05e59b3d
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 385c70d7d7b193a8f0bc0602760715dcae959ad735ba01cf713c8907d611cb01
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Sussex | Hove, South East, BN3 6ND | £ 31,746 Actual Salary | Exams Officer
-employer: Cardinal Newman Catholic School
-closing_date: 2026-11-11T12:00:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dbbcf180222d8625b08a44dcdc6ebe390ec6bae6f505c194f0fccdde53fd9c00
-source: Teaching Vacancies
-source_job_id: exams-officer-cardinal-newman-catholic-school-hove-east-sussex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cardinal-newman-catholic-school-hove-east-sussex
----
 
 ---
 action: 

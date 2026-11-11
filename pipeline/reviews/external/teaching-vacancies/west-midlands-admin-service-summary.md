@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-11-10
-review_fingerprint: 12539e271aae596ab78bb659223a8f8672322ffe287d1cef87696459f4b5e835
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: eb09ded036adb90511b407dfd29c9a6e746dffdf50fc00e85dc80724a82ae82a
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 3
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
@@ -34,21 +34,6 @@ factual_fingerprint: f0950816fbfeca71724702f4cfdafd85387e906d6893ebed2678c474274
 source: Teaching Vacancies
 source_job_id: administrative-assistant-reception-moseley-park
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-reception-moseley-park
----
-
----
-action: 
-SELECTED | West Midlands | Royal Leamington Spa, West Midlands, CV32 5JE | £24,897 pro rata, per annum | Campus Hub Administrator - CS12485
-employer: Warwickshire College Group
-closing_date: 2026-11-10T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 590d61936c60c6824ca934e4bb2f3fb11947ee9b295f014b049d8a162287ad58
-source: Teaching Vacancies
-source_job_id: campus-hub-administrator-cs12485
-source_url: https://teaching-vacancies.service.gov.uk/jobs/campus-hub-administrator-cs12485
 ---
 
 ---

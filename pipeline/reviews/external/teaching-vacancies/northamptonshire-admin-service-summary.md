@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-10
-review_fingerprint: b7069c7a8184c6c68cb6cc17c6d0cd791f6b2d3903d11d89af0b69caa9f14425
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 1a52b6e9e40cc316ec8f4d629fbb126dd1fefef35fa574b29187376c21533f3c
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
@@ -64,21 +64,6 @@ factual_fingerprint: 106e3ef1f209bc869422c54a0d17d2ba6eee43b32b0c4793fff707d2425
 source: Teaching Vacancies
 source_job_id: exams-officer-corby-business-academy-corby-northamptonshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-corby-business-academy-corby-northamptonshire
----
-
----
-action: 
-SELECTED | Northamptonshire | Wellingborough, East Midlands, NN8 2LA | £26,847.00 - £27,274.00 Annually (FTE) 38 Weeks Term Time plus 5 training days | Office Administrator
-employer: Friars Academy
-closing_date: 2026-11-11T09:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3025cba3ab39d59ca64d30b3c374a54c565936646076c96f1827a95039c6f76e
-source: Teaching Vacancies
-source_job_id: office-administrator-friars-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-friars-academy
 ---
 
 ---

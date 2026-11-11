@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-10
-review_fingerprint: 2c881e49d837e6cffad8f1886e2da18f67b905eba42a8b909735630e4a11e90a
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: ed59629a7c8af9dc90d934ed2def42e99293e9d36f91540fa6298821d83b1f93
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 16
 - Selected: 7
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-willi
 
 ---
 action: 
+SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 1TX | £22,377.00 - £22,731.00 Annually (Actual) OAT Grade 2, Scale Point 4 - 5 | Administration Assistant
+employer: Ormiston South Parade Academy
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: caf6acbd481f59a78028ba6b4e14dd32c3cd9cd3bf751a7c17b45bcda0662d8e
+source: Teaching Vacancies
+source_job_id: administration-assistant-ormiston-south-parade-academy-grimsby
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-ormiston-south-parade-academy-grimsby
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 7SX | £21,196.00 - £21,869.00 Annually (Actual) Band 2, SCP 3 - 5 | Administrative Assistant
 employer: St Peter and St Paul, Catholic Voluntary Academy
 closing_date: 2026-11-23T23:59:00+00:00
@@ -79,21 +94,6 @@ factual_fingerprint: 0100da555a308d0c80d388cb05f255ec65c741ce84fe432584ac7e340d6
 source: Teaching Vacancies
 source_job_id: administrative-assistant-st-peter-and-st-paul-catholic-voluntary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-peter-and-st-paul-catholic-voluntary-academy
----
-
----
-action: 
-SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN41 7RS | £29,542.00 - £32,046.00 Annually (FTE) Actual salary £26,028 - £28,234 | Office Operations/Administrator
-employer: Healing Primary Academy
-closing_date: 2026-11-10T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dd0136208b262703d5af5ba2209a4349753f5b3e7f27203a77ecadec10209285
-source: Teaching Vacancies
-source_job_id: office-operations-administrator-healing-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-operations-administrator-healing-primary-academy
 ---
 
 ---
@@ -130,6 +130,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sir-robe
 
 ---
 action: 
+POSS | Lincolnshire | Skegness, East Midlands, PE24 5LS | £13,385.00 - £14,746.00 Annually (Actual) G5.12 (£28,153 FTE) to G5.15 (£31,015 FTE) | HR & Finance Administrator
+employer: Chapel St Leonards Primary School
+closing_date: 2026-11-20T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bfcd55bb1b8d50e39be31bb908f080e215e02871dc9f20dcea2f8fbc2d65273e
+source: Teaching Vacancies
+source_job_id: hr-finance-administrator-chapel-st-leonards-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-finance-administrator-chapel-st-leonards-primary-school
+---
+
+---
+action: 
 POSS | Lincolnshire | Lincoln, East Midlands, LN5 0PA | £22,003.00 - £23,063.00 Annually (Actual) NJC 3 - 6 | SEND Administration Assistant
 employer: Sir William Robertson Academy, Welbourn
 closing_date: 2026-11-22T23:59:00+00:00
@@ -155,6 +170,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administration-a
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-e6664367-3eb0-42c0-9724-283bf6ac70a0) — Excluded senior/management title.
 - [Health, Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/health-safety-and-compliance-officer-voyage-education-partnership) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-de-aston-school) — Insufficient admin/service evidence.
+- [Pastoral Administrator](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
 
 ## Safety boundary
 

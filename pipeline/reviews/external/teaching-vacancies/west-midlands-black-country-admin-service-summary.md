@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-10
-review_fingerprint: d79d94655c916ffd2170bc2229f32bb06d9687a5557445655187d54d5d674882
-routing_manifest_sha256: 3782110eb308137e67ac59798a6109407efc6e36ce8b426262c4ec19b85484e0
+review_date: 2026-11-11
+review_fingerprint: 8663a8b90fd2c7b9f8dd41b06376e5e436ab6b5e8349810604438acce7cd5884
+routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
-- POSS awaiting decision: 0
+- Records: 10
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
@@ -66,9 +66,37 @@ source_job_id: receptionist-school-office
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-office
 ---
 
+---
+action: 
+SELECTED | West Midlands - Black Country | Cradley Heath, West Midlands, B64 6QU | £26,016.00 - £26,427.00 Annually (Actual) OAT Grade 2, Scale Point 4 - 5 | Safeguarding Administrator
+employer: Ormiston Forge Academy
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cba5625ddd60b7df9e8e678b5c4abf590c5c65fa7b4c2fd6944dff5c0905e312
+source: Teaching Vacancies
+source_job_id: safeguarding-administrator-ormiston-forge-academy-cradley-heath-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-ormiston-forge-academy-cradley-heath-west-midlands
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | West Midlands - Black Country | Tipton, West Midlands, DY4 0BZ | £18,432.00 - £18,723.00 Annually (Actual) | Administrator
+employer: Gospel Oak School
+closing_date: 2026-11-20T10:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9c5defcd74bacfe200f22ec7cac8f7e699f6aa59d59144e7ebc43573bb934cac
+source: Teaching Vacancies
+source_job_id: administrator-gospel-oak-school-tipton-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-gospel-oak-school-tipton-west-midlands
+---
 
 ## EXCLUDED BY REVIEW
 
