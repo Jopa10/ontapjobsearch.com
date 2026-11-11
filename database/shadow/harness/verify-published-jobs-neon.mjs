@@ -27,6 +27,9 @@ function validateSnapshot(snapshot, source) {
   assert.equal(snapshot.productionWorkflowRunId, source.productionWorkflowRunId);
   assert.equal(snapshot.productionArtifactId, source.productionArtifactId);
   assert.equal(snapshot.productionArtifactSha256, source.productionArtifactSha256);
+  assert.deepEqual(snapshot.productionArtifacts, source.productionArtifacts);
+  assert.equal(snapshot.productionAppCommitSha, source.productionAppCommitSha);
+  assert.equal(snapshot.productionAppSnapshotAt, source.productionAppSnapshotAt);
   assert.equal(snapshot.uniqueJobG8Ids, source.expectedUniqueJobG8Ids);
   assert.equal(snapshot.jobg8OutputRows, source.expectedJobG8Rows);
   assert.ok(Array.isArray(snapshot.records));
@@ -89,6 +92,9 @@ async function upsertSnapshot(client, snapshot) {
         workflow_run_id: snapshot.productionWorkflowRunId,
         artifact_id: snapshot.productionArtifactId,
         artifact_sha256: snapshot.productionArtifactSha256,
+        source_artifacts: snapshot.productionArtifacts,
+        final_published_app_commit_sha: snapshot.productionAppCommitSha,
+        snapshot_at: snapshot.productionAppSnapshotAt,
       },
     };
     jobs.push({
@@ -190,6 +196,9 @@ async function verifySnapshot(client, snapshot, source, expectedIds) {
     productionWorkflowRunId: source.productionWorkflowRunId,
     productionArtifactId: source.productionArtifactId,
     productionArtifactSha256: source.productionArtifactSha256,
+    productionArtifacts: source.productionArtifacts,
+    productionAppCommitSha: source.productionAppCommitSha,
+    productionAppSnapshotAt: source.productionAppSnapshotAt,
     publishedOutputRows: snapshot.jobg8OutputRows,
     uniquePublishedJobG8Ids: expectedIds.size,
     neonJobRows: result.rows.length,
@@ -251,10 +260,9 @@ export async function runPublishedJobsReadback() {
       await fs.writeFile('dist/published-readback-manifest.json', JSON.stringify({
         ...report,
         publishedJobIds: [...expectedIds].sort(),
-        sourceArtifact: {
-          date: source.feedDate, workflowRunId: source.productionWorkflowRunId,
-          artifactId: source.productionArtifactId, sha256: source.productionArtifactSha256,
-        },
+        sourceArtifacts: source.productionArtifacts,
+        productionAppCommitSha: source.productionAppCommitSha,
+        productionAppSnapshotAt: source.productionAppSnapshotAt,
       }, null, 2) + '\n');
       await fs.writeFile('dist/index.html', '<!doctype html><meta name="robots" content="noindex,nofollow"><title>Ontap published job readback</title><h1>Isolated Neon published-job readback</h1><p>This is a Preview-only verification.</p>');
       console.log('ONTAP_PUBLISHED_JOBS_NEON_REPORT ' + JSON.stringify(report));
