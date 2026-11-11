@@ -24,7 +24,7 @@ def main():
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
 
-    if not re.fullmatch(r"20\\d\\d-\\d\\d-\\d\\d", args.date):
+    if not re.fullmatch(r"20\d\d-\d\d-\d\d", args.date):
         raise SystemExit("Invalid publication date")
     if not re.fullmatch(r"[a-f0-9]{64}", args.archive_sha256):
         raise SystemExit("Invalid primary artifact SHA-256")
@@ -139,7 +139,7 @@ def main():
     }
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\\n", encoding="utf-8")
+    output.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(json.dumps({
         "feedDate": args.date,
         "productionWorkflowRunId": args.production_run_id,
