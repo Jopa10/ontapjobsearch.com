@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-10
-review_fingerprint: 3699c21237352f0568583d91a4ff40cdb98611d98089066c1da347a0c43a5875
+review_date: 2026-11-11
+review_fingerprint: 087d8a2edc12643aa21871b6b44d15cdc135bab2b84b5f05fe5ed8ffdd372f76
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-10T15:09:52+00:00
+Run generated: 2026-11-11T14:39:54+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1179
+JobG8 comparison rows: 1042
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -139,8 +139,8 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173661
 
 ## HARD_PASS
 
+- [CLA Triage Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173690) — out-of-scope VONNE occupation.
 - [Communications & Brand Identity Consultant (freelance)](https://www.vonne.org.uk/vonne-jobs-details?cid=173679) — out-of-scope VONNE occupation.
-- [Grants Administration Officer (Small and Medium Grants)](https://www.vonne.org.uk/vonne-jobs-details?cid=173618) — insufficient service-admin evidence.
 - [Monitoring and Co-ordination Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173633) — out-of-scope VONNE occupation.
 - [Wellbeing & Campaigns Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173673) — out-of-scope VONNE occupation.
 - [Young Carers’ Wellbeing Worker (Triage)](https://www.vonne.org.uk/vonne-jobs-details?cid=173676) — out-of-scope VONNE occupation.
