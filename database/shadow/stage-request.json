@@ -12,7 +12,7 @@
     {
       "name": "applied-support-worker-output",
       "id": 13843153505,
-      "sha256": "68b134ec30b77a802dd01ffd70e058fe05ea82b94b0e147abd3493ce5b4da3"
+      "sha256": "68b134ec30b77a802dd01ffd70e058fe05ea82b94b0e14797abd3493ce5b4da3"
     }
   ],
   "expectedOutputJsonFiles": 250,
@@ -20,5 +20,6 @@
   "expectedUniqueJobG8Ids": 5491,
   "productionAppCommitSha": "e9daaadb06c8b1c18ca034bb407edd0a008ea142",
   "productionAppSnapshotAt": "2026-11-11T09:31:00Z",
-  "maximumDatabaseBytes": 838860800
+  "maximumDatabaseBytes": 838860800,
+  "attempt": 2
 }
