@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 32
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
+- automatic include: 32
 - automatic review: 7
 - automatic exclude: 0
-- effective include: 33
+- effective include: 32
 - effective review: 7
 - effective exclude: 0
 
-## INCLUDE (33)
+## INCLUDE (32)
 
 ---
 action: 
@@ -124,18 +124,6 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Coordinator
-company: Adecco - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225756220
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Legal Secretary
 company: Creideas - Agency - Permanent
 location: Glasgow
@@ -184,11 +172,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Assistant
-company: We Love Sales - Agency - Permanent
+title: Office Coordinator
+company: Adecco - Agency - Temporary
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225718042
+job_id: jobg8-23643_225811652
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -196,11 +184,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Coordinator
-company: Adecco - Agency - Temporary
+title: Operations Administrator
+company: RPJ Energy Solutions Limited - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225811652
+job_id: jobg8-23643_225752498
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -502,7 +490,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2255389
+job_id: jobg8-2262219
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

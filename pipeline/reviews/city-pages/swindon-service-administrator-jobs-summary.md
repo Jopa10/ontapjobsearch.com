@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 40
+- automatic include: 20
+- automatic review: 41
 - automatic exclude: 0
-- effective include: 19
-- effective review: 40
+- effective include: 20
+- effective review: 41
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (20)
 
 ---
 action: 
@@ -88,11 +88,11 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Payable Analyst
-company: Quality Start - Agency - Contract
+title: Accounts Receivable
+company: Reed - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-23643_225509639
+job_id: jobg8-2193836
 reason: Exact approved Swindon workplace.
 ---
 
@@ -100,11 +100,11 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Receivable
-company: Reed - Agency - Permanent
-location: Swindon
-source: JobG8
-job_id: jobg8-2193836
+title: Administrator
+company: HCRG Care Group
+location: Swindon, SN25 4AN
+source: NHS Jobs
+job_id: nhs-5720380
 reason: Exact approved Swindon workplace.
 ---
 
@@ -196,11 +196,11 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Inbound Banking Customer Service Advisors
-company: Office Angels - Agency - Temporary
+title: Decant Coordinator
+company: Aster Group - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-23643_225747832
+job_id: jobg8-23643_225817914
 reason: Exact approved Swindon workplace.
 ---
 
@@ -208,11 +208,11 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: IT & MI Coordinator
-company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
+title: Inbound Banking Customer Service Advisors
+company: Office Angels - Agency - Temporary
 location: Swindon
 source: JobG8
-job_id: jobg8-23643_225736419
+job_id: jobg8-23643_225747832
 reason: Exact approved Swindon workplace.
 ---
 
@@ -244,6 +244,18 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Hawthorn Medical Centre
+location: Swindon, SN2 1UU
+source: NHS Jobs
+job_id: nhs-5718475
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Train Planner
 company: Ford & Stanley Talentwise - Agency - Permanent
 location: Swindon
@@ -252,7 +264,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (40)
+## REVIEW (41)
 
 ---
 action: 
@@ -462,6 +474,18 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
+title: Excel & Data Administrator
+company: Adecco - Agency - Temporary
+location: Trowbridge
+source: JobG8
+job_id: jobg8-23643_225817962
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Forensics Administrator
 company: Adecco - Agency - Temporary
 location: Devizes
@@ -570,6 +594,18 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: E3 Recruitment - Agency - Permanent
+location: Westbury
+source: JobG8
+job_id: jobg8-23643_225820403
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Ledger Assistant
 company: Pertemps Reading - Agency - Permanent
 location: Wiltshire
@@ -623,18 +659,6 @@ company: Pembrook Resourcing - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225795775
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Perfect Placement - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225714158
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

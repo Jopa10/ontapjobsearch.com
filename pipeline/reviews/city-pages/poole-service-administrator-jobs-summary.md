@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 49
+- automatic include: 14
+- automatic review: 50
 - automatic exclude: 0
-- effective include: 13
-- effective review: 49
+- effective include: 14
+- effective review: 50
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (14)
 
 ---
 action: 
@@ -160,6 +160,18 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Service Administrator
+company: Wallace Hind Selection LTD - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225821253
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Supply Chain Administrator
 company: Team Jobs - Commercial - Agency - Permanent
 location: Poole
@@ -180,7 +192,7 @@ job_id: jobg8-23643_225817065
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (49)
+## REVIEW (50)
 
 ---
 action: 
@@ -211,10 +223,34 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
+company: HSB Technical - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225821709
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
 company: HYERED LIMITED - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2125864
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Silcom Recruitment Limited - Agency - Permanent
+location: Christchurch
+source: JobG8
+job_id: jobg8-2258255
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -378,6 +414,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Sales Advisor
+company: Cowell Recruitment - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225797881
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: Tru Talent - Agency - Permanent
 location: Bournemouth
@@ -534,30 +582,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HubSpot Funnel & Conversion Marketing Manager - Travel Franchise
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225717779
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HubSpot Funnel & Conversion Marketing Manager - Travel Franchise. Hybrid or Remote
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2118439
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Internal Sales Executive
 company: The Work Shop Resourcing Ltd - Agency - Permanent
 location: Ferndown
@@ -582,11 +606,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: PA to Leadership Team
-company: The Bishop of Winchester Academy
+title: Operations Assistant
+company: Team Jobs - Commercial - Agency - Temporary
 location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-leadership-team-43554862-09f3-4c18-971e-b22b13d85dce
+source: JobG8
+job_id: jobg8-23643_225818968
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -594,11 +618,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Chalk Hill Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2176920
+title: PA to Leadership Team
+company: The Bishop of Winchester Academy
+location: Bournemouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-pa-to-leadership-team-43554862-09f3-4c18-971e-b22b13d85dce
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

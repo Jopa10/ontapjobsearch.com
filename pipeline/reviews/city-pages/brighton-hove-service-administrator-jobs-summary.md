@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 106
-- automatic exclude: 25
-- effective include: 14
-- effective review: 106
-- effective exclude: 25
+- automatic include: 15
+- automatic review: 101
+- automatic exclude: 26
+- effective include: 15
+- effective review: 101
+- effective exclude: 26
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -40,11 +40,11 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service & After Sales Coordinator
-company: Office Angels - Agency - Permanent
-location: Hove
+title: Admin Coordinator - Immediate Start
+company: Office Angels - Agency - Contract
+location: Brighton
 source: JobG8
-job_id: jobg8-23643_225770354
+job_id: jobg8-23643_225819747
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -52,11 +52,11 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Document Controller
-company: Tradeline Recruitment - Agency - Permanent
-location: Brighton
+title: Customer Service & After Sales Coordinator
+company: Office Angels - Agency - Permanent
+location: Hove
 source: JobG8
-job_id: jobg8-23643_225488297
+job_id: jobg8-23643_225770354
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -172,6 +172,18 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Recruitment & Training Administrator
+company: Office Angels - Agency - Contract
+location: Hove
+source: JobG8
+job_id: jobg8-23643_225819101
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Executive
 company: First Recruitment Services - Agency - Permanent
 location: Brighton
@@ -192,19 +204,7 @@ job_id: nhs-5704086
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (106)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Account Manager
-company: Lloyd Recruitment - East Grinstead - Agency - Permanent
-location: Hailsham
-source: JobG8
-job_id: jobg8-23643_225816743
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
+## REVIEW (101)
 
 ---
 action: 
@@ -475,18 +475,6 @@ action:
 decision: review
 automatic_decision: review
 title: Commercial Property Paralegal
-company: GerrardWhite - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2123799
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Paralegal
 company: TN Recruits - Agency - Permanent
 location: Sussex
 source: JobG8
@@ -503,18 +491,6 @@ company: TN Recruits - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2200039
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Trainee Paralegal
-company: GerrardWhite - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2123803
 reason: Broad location; review before city inclusion.
 ---
 
@@ -678,18 +654,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Document Controller
-company: Skilled Careers - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225714726
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Facilities and Administration Coordinator
 company: Morgan Mckinley (Crawley) - Agency - Temporary
 location: Sussex
@@ -743,18 +707,6 @@ company: Michael Page - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225793008
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Tony Alan Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2124511
 reason: Broad location; review before city inclusion.
 ---
 
@@ -930,11 +882,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator / Customer Service Coordinator
-company: The Admin House - Agency - Permanent
+title: Neighbourhood Coordinator
+company: The Hyde Group - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225771936
+job_id: jobg8-23643_225821236
 reason: Broad location; review before city inclusion.
 ---
 
@@ -942,11 +894,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Onboarding Coordinator
-company: UK Power Networks (Operations) Ltd - Company - Contract
+title: Office Administrator
+company: The Hyde Group - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225762485
+job_id: jobg8-23643_225821283
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator / Customer Service Coordinator
+company: The Admin House - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225771936
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1194,6 +1158,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Purchasing Coordinator
+company: First Recruitment Services - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225821992
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Reception / Administrator - Immediate Start
 company: Office Angels - Agency - Contract
 location: Sussex
@@ -1290,18 +1266,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Residential Property Paralegal
-company: GerrardWhite - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2123927
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Administrator (Order Processing)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Sussex
@@ -1355,18 +1319,6 @@ company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2151146
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor (VAG Group)
-company: Holt Recruitment Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225717756
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1462,11 +1414,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2255384
+job_id: jobg8-2262211
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -1604,18 +1556,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Document Controller (Construction)
-company: Skilled Careers - Agency - Permanent
-location: Worthing
-source: JobG8
-job_id: jobg8-23643_225716566
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Financial Services Administrator
 company: Morgan Mckinley (Crawley) - Agency - Permanent
 location: Horsham
@@ -1676,6 +1616,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Purchasing Coordinator
+company: Lloyd Recruitment - East Grinstead - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-23643_225822036
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchasing Coordinator / Procurement Administrator
+company: Office Angels - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-23643_225819075
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist
 company: Hastings & Rother Healthcare
 location: St. Leonards-on-sea, TN37 6BG, Hastings, TN34 3DW, St. Leonards-on-sea, TN38 9PA
@@ -1712,18 +1676,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/Telephonist
-company: Sussex Partnership NHS Foundation Trust
-location: Chichester, PO19 1BX
-source: NHS Jobs
-job_id: nhs-5688745
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Recruitment Admin (Part-Time) Temp
 company: Pertemps Crawley - Agency - Temporary
 location: Eastbourne
@@ -1741,6 +1693,18 @@ company: Office Angels - Agency - Contract
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225721235
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Smart Interventions Scheduler
+company: First Recruitment Services - Agency - Contract
+location: Crawley
+source: JobG8
+job_id: jobg8-23643_225819757
 reason: Separate employment market.
 ---
 

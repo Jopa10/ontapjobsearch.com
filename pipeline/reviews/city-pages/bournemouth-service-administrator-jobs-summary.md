@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 9
 - automatic review: 55
 - automatic exclude: 0
-- effective include: 7
+- effective include: 9
 - effective review: 55
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (9)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Sales Advisor
+company: Cowell Recruitment - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225797881
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Administrator
 company: Tru Talent - Agency - Permanent
 location: Bournemouth
@@ -81,6 +93,18 @@ company: The Work Shop Resourcing Ltd - Agency - Temporary
 location: Bournemouth
 source: JobG8
 job_id: jobg8-23643_225729918
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Operations Assistant
+company: Team Jobs - Commercial - Agency - Temporary
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225818968
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -139,10 +163,34 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
+company: HSB Technical - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225821709
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
 company: HYERED LIMITED - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2125864
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Silcom Recruitment Limited - Agency - Permanent
+location: Christchurch
+source: JobG8
+job_id: jobg8-2258255
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -438,30 +486,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: HubSpot Funnel & Conversion Marketing Manager - Travel Franchise
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225717779
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HubSpot Funnel & Conversion Marketing Manager - Travel Franchise. Hybrid or Remote
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2118439
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Internal Sales Executive
 company: Effective Recruitment Solutions Ltd - Agency - Permanent
 location: Poole
@@ -527,18 +551,6 @@ company: Ashley Rees Associates - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225776924
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Chalk Hill Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2176920
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -707,6 +719,18 @@ company: Ferndown Middle School
 location: Ferndown
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-admin-assistant-ferndown-middle-school
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: Wallace Hind Selection LTD - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225821253
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

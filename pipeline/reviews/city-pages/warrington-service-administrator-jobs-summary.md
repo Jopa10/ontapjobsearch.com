@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 31
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 31
+- automatic include: 29
 - automatic review: 11
-- automatic exclude: 5
-- effective include: 31
+- automatic exclude: 4
+- effective include: 29
 - effective review: 11
-- effective exclude: 5
+- effective exclude: 4
 
-## INCLUDE (31)
+## INCLUDE (29)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Bis Henderson - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2268326
+reason: Approved conservative Warrington launch catchment.
+---
 
 ---
 action: 
@@ -100,35 +112,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Control
-company: Accountable Recruitment - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2122564
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Credit Controller
 company: Adecco - Agency - Temporary
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225816768
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Tribal Tech Limited - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2120097
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -220,30 +208,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: IT Project Coordinator
-company: P3M Recruitment - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225754229
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: High Street Surgery
-location: Warrington, WA3 3GS
-source: NHS Jobs
-job_id: nhs-5695670
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Medical Receptionist
 company: The Surgery
 location: Warrington, WA1 3RB
@@ -273,6 +237,18 @@ company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2167523
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Presenter and Content Creator
+company: Reed - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2263858
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -530,7 +506,7 @@ job_id: jobg8-23643_225805278
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -541,18 +517,6 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-2153179
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable Assistant
-company: Resourcery Group - Agency - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-2118101
 reason: Separate employment market.
 ---
 

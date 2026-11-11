@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 21
-- automatic review: 80
+- automatic review: 78
 - automatic exclude: 0
 - effective include: 21
-- effective review: 80
+- effective review: 78
 - effective exclude: 0
 
 ## INCLUDE (21)
@@ -276,7 +276,7 @@ job_id: jobg8-23643_225796161
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (80)
+## REVIEW (78)
 
 ---
 action: 
@@ -311,18 +311,6 @@ company: Robert Half - Agency - Permanent
 location: High Wycombe
 source: JobG8
 job_id: jobg8-2161605
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable
-company: Michael Page - Agency - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225795008
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -426,18 +414,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Activities Coordinator - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225790460
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Carmichael UK - Agency - Contract
 location: Aylesbury
@@ -486,23 +462,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Commercial Property Legal Secretary
-company: SJC Partners - Agency - Permanent
+title: Client Support Executive
+company: Meridian Business Support - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2119703
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Conveyancing Paralegal 2
-company: Better People - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225716385
+job_id: jobg8-23643_225776817
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -563,6 +527,18 @@ company: Marc Daniels - Agency - Permanent
 location: High Wycombe
 source: JobG8
 job_id: jobg8-23643_225792910
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Woodfines Solicitors - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2264068
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -715,10 +691,10 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Administrator
-company: Pro Staff Recruitment Ltd - Agency - Permanent
-location: Olney
+company: Bucks and Berks Recruitment - Agency - Permanent
+location: High Wycombe
 source: JobG8
-job_id: jobg8-23643_225798208
+job_id: jobg8-2264425
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -726,11 +702,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Finance assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Buckinghamshire
+title: Finance Administrator
+company: Pro Staff Recruitment Ltd - Agency - Permanent
+location: Olney
 source: JobG8
-job_id: jobg8-2123860
+job_id: jobg8-23643_225798208
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -942,18 +918,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Operations Coordinator
-company: Adecco - Agency - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225715853
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Paralegal - Conveyancing
 company: Cameo Consultancy - Agency - Permanent
 location: Beaconsfield
@@ -1055,6 +1019,18 @@ company: Trinity Resource Solutions - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225775806
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Procurement Assistant
+company: Trinity Resource Solutions - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225796525
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

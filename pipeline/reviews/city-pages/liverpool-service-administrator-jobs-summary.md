@@ -136,6 +136,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Business Support Administrator
+company: Belmont Recruitment - Agency - Contract
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225821886
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Business Support Assistant
 company: St Nicholas Catholic Academy
 location: Liverpool
@@ -268,18 +280,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Document Controller
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2124299
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Facilities Administrator
 company: Michael Page - Agency - Temporary
 location: Liverpool
@@ -344,7 +344,7 @@ title: Financial Services Administrator
 company: Search Consultancy Ltd - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-23643_225734026
+job_id: jobg8-23643_225820233
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -417,6 +417,18 @@ company: Bond Turner - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-2250389
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Manager
+company: Matchtech - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225818476
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -585,18 +597,6 @@ company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-2204312
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Property Paralegal
-company: Adele Carr Recruitment Limited - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2122930
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -838,7 +838,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2255393
+job_id: jobg8-2262223
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

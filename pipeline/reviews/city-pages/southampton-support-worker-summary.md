@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 14
-- automatic exclude: 12
-- effective include: 3
-- effective review: 14
-- effective exclude: 12
+- automatic include: 4
+- automatic review: 15
+- automatic exclude: 11
+- effective include: 4
+- effective review: 15
+- effective exclude: 11
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225761993
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Healthcare Assistant
+company: Prime Healthcare Solutions Ltd - Agency - Temporary
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225820911
 reason: Approved Southampton catchment.
 ---
 
@@ -60,7 +72,19 @@ job_id: jobg8-23643_225813909
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (15)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care & Support Worker
+company: Southern Housing - Agency - Permanent
+location: Isle of Wight
+source: JobG8
+job_id: jobg8-108270897
+reason: No approved Southampton catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -230,7 +254,7 @@ job_id: jobg8-23643_225653471
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -301,18 +325,6 @@ company: AA Euro Group - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225725370
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Residential Support Worker
-company: SCR - Agency - Temporary
-location: Aldershot
-source: JobG8
-job_id: jobg8-23643_225505280
 reason: Separate employment market.
 ---
 

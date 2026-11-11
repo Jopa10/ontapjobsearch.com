@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
+- automatic include: 24
 - automatic review: 18
 - automatic exclude: 0
-- effective include: 21
+- effective include: 24
 - effective review: 18
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (24)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administration Assistant
+company: Humber Teaching NHS Foundation Trust
+location: Hull, HU3 2RT
+source: NHS Jobs
+job_id: nhs-5719125
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrative Assistant
 company: Tradewind Recruitment - Agency - Temporary
 location: Hull
@@ -113,10 +125,34 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: KD Recruitment - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225715470
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU3 2JZ
+source: NHS Jobs
+job_id: nhs-5718162
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU3 2JZ
+source: NHS Jobs
+job_id: nhs-5719234
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU3 2JZ
+source: NHS Jobs
+job_id: nhs-5719236
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -165,18 +201,6 @@ company: qed legal - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-2192471
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: HW Finance - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-2122181
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -268,11 +292,23 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Theatre Administrator
-company: Spire Healthcare - Company - Permanent
+title: Senior Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU3 2JZ
+source: NHS Jobs
+job_id: nhs-5718980
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Treasury Administrator
+company: GlobalData UK Ltd - Company - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-23643_225713565
+job_id: jobg8-23643_225818060
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -299,6 +335,18 @@ company: Scientific Laboratory Supplies - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-23643_225768501
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Cottingham, HU16 5JQ
+source: NHS Jobs
+job_id: nhs-5718208
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -347,18 +395,6 @@ company: Consortium Professional Recruitment Ltd - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-23643_225751816
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Administrator
-company: Drs Reddy & Nunn
-location: Bridlington, YO16 4LZ
-source: NHS Jobs
-job_id: nhs-5684409
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

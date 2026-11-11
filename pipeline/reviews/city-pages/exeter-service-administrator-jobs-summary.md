@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 29
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
-- automatic review: 61
+- automatic include: 25
+- automatic review: 58
 - automatic exclude: 0
-- effective include: 29
-- effective review: 61
+- effective include: 25
+- effective review: 58
 - effective exclude: 0
 
-## INCLUDE (29)
+## INCLUDE (25)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: AMR - Specialist Property Recruiters - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-2256467
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Devon Partnership NHS Trust
-location: Exeter, EX2 7FW
-source: NHS Jobs
-job_id: nhs-5686960
 reason: Exact approved Exeter workplace.
 ---
 
@@ -69,18 +57,6 @@ company: RGB Recruitment - Agency - Contract
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225806631
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Veolia - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-23643_225718193
 reason: Exact approved Exeter workplace.
 ---
 
@@ -184,18 +160,6 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: HR Operations Administrator
-company: Portfolio HR & Reward - Agency - Temporary
-location: Exeter
-source: JobG8
-job_id: jobg8-23643_225716272
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Interim Accounts Assistant
 company: Hays Senior Finance - Agency - Temporary
 location: Exeter
@@ -237,18 +201,6 @@ company: Office Angels - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225782457
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Patient Administrator
-company: Woodbury Surgery
-location: Exeter, EX5 1NZ
-source: NHS Jobs
-job_id: nhs-5700141
 reason: Exact approved Exeter workplace.
 ---
 
@@ -372,7 +324,7 @@ job_id: jobg8-23643_225730206
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (61)
+## REVIEW (58)
 
 ---
 action: 
@@ -414,35 +366,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: Trial Balance Consulting - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2119355
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Payable Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2203976
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Technician (Bookkeeper)
-company: Autograph Recruitment Ltd - Agency - Permanent
-location: Tiverton
-source: JobG8
-job_id: jobg8-2119734
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -510,6 +438,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Administrator
+company: Devon Partnership NHS Trust
+location: Tavistock, PL19 8AB
+source: NHS Jobs
+job_id: nhs-5718178
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Call Centre Advisor
 company: DK Recruitment - Agency - Permanent
 location: Plymouth
@@ -527,18 +467,6 @@ company: Nurseplus UK Ltd - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225768762
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Complaints Administrator
-company: Red Recruitment - Agency - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225716372
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -594,23 +522,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor - Hybrid
-company: Adecco - Agency - Temporary
+title: Customer Service Assistant
+company: Acorn by Synergie - Agency - Temporary
 location: Plymouth
 source: JobG8
-job_id: jobg8-23643_225715832
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-108260662
+job_id: jobg8-23643_225818503
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -978,6 +894,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales and Logistics Administrator
+company: Gap Personnel - Agency - Permanent
+location: Willand
+source: JobG8
+job_id: jobg8-23643_225818887
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Scheduling Co-ordinator Part time
 company: Universal Fire & Security - Agency - Permanent
 location: Plymouth
@@ -1079,18 +1007,6 @@ company: Interaction Recruitment - Agency - Temporary
 location: Cullompton
 source: JobG8
 job_id: jobg8-23643_225755551
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Devon Partnership NHS Trust
-location: BARNSTAPLE, EX31 4JB
-source: NHS Jobs
-job_id: nhs-5686114
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

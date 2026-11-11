@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 13
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 0
-- effective review: 13
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Rise Technical Recruitment - Agency - Permanent
 location: Antrim
 source: JobG8
 job_id: jobg8-23643_225750735
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Corporate Receptionist
+company: Invictus Group - Agency - Temporary
+location: Belfast
+source: JobG8
+job_id: jobg8-23643_225820940
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -178,7 +190,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2255382
+job_id: jobg8-2262209
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

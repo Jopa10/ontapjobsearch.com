@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 3
+- automatic review: 2
 - automatic exclude: 0
 - effective include: 10
-- effective review: 3
+- effective review: 2
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-2188341
 reason: Exact approved Swansea workplace.
 ---
 
-## REVIEW (3)
+## REVIEW (2)
 
 ---
 action: 
@@ -155,18 +155,6 @@ company: Work Wales - Agency - Permanent
 location: Maesteg
 source: JobG8
 job_id: jobg8-23643_225719374
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Service Coordinator
-company: Exponential-e - Agency - Permanent
-location: Bridgend
-source: JobG8
-job_id: jobg8-23643_225514692
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

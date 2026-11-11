@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 27
+- automatic include: 7
+- automatic review: 33
 - automatic exclude: 0
-- effective include: 9
-- effective review: 27
+- effective include: 7
+- effective review: 33
 - effective exclude: 0
 
-## INCLUDE (9)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Prince Personnel Limited - Agency - Temporary
-location: Shrewsbury
-source: JobG8
-job_id: jobg8-23643_225717119
-reason: Exact approved Shrewsbury workplace.
----
+## INCLUDE (7)
 
 ---
 action: 
@@ -69,18 +57,6 @@ company: Hays Accounts and Finance - Agency - Permanent
 location: Shrewsbury
 source: JobG8
 job_id: jobg8-23643_225788411
-reason: Exact approved Shrewsbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: ED&I Administrator
-company: Hays - Agency - Temporary
-location: Shrewsbury
-source: JobG8
-job_id: jobg8-108276593
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -128,11 +104,11 @@ title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Shrewsbury
 source: JobG8
-job_id: jobg8-23643_225715945
+job_id: jobg8-23643_225821529
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (27)
+## REVIEW (33)
 
 ---
 action: 
@@ -198,11 +174,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - Data Entry Project
-company: Think Specialist Recruitment - Agency - Contract
-location: Telford
+title: Brand Manager
+company: Muller UK & Ireland - Company - Permanent
+location: Shropshire
 source: JobG8
-job_id: jobg8-23643_225717318
+job_id: jobg8-2237567
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -227,6 +203,54 @@ company: I force - Agency - Temporary
 location: Shropshire
 source: JobG8
 job_id: jobg8-108178433
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Marketing Manager
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Telford
+source: JobG8
+job_id: jobg8-2233237
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Marketing Manager
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Telford
+source: JobG8
+job_id: jobg8-23643_225798837
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Control
+company: Consula Group LTD - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-2263526
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Prince Personnel Limited - Agency - Temporary
+location: Shropshire
+source: JobG8
+job_id: jobg8-108113495
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -263,6 +287,30 @@ company: KPA Recruitment Ltd - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225772483
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Assistant
+company: No1 Legal and Professional - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2200418
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Executive
+company: Consula Group LTD - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-2241411
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -342,11 +390,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Assistant
-company: Huntress - Maidstone - Agency - Temporary
+title: Product & Brand Executive
+company: Berwick Care - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-23643_225714724
+job_id: jobg8-23643_225741893
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

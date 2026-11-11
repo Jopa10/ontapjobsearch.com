@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 23
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 82
+- automatic include: 25
+- automatic review: 83
 - automatic exclude: 0
-- effective include: 23
-- effective review: 82
+- effective include: 25
+- effective review: 83
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (25)
 
 ---
 action: 
@@ -220,11 +220,35 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger Clerk
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-2267969
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchasing Assistant - early Friday finish
 company: Office Angels - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225746931
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: The Orchard Medical Practice
+location: Leicester, LE9 6RG
+source: NHS Jobs
+job_id: nhs-5719347
 reason: Exact approved Leicester workplace.
 ---
 
@@ -280,6 +304,18 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: School Administrator
+company: The Supply Register - Agency - Temporary
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225822093
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Senior Marketing Executive
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
@@ -288,31 +324,7 @@ job_id: jobg8-2152805
 reason: Exact approved Leicester workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Youth Employability Activity Coordinator - Leicester
-company: Trigon Recruitment Ltd - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225761866
-reason: Exact approved Leicester workplace.
----
-
-## REVIEW (82)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts & Office Administrator
-company: Proftech Talent - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225633721
-reason: No exact Leicester workplace matched; local geographic review is required.
----
+## REVIEW (83)
 
 ---
 action: 
@@ -347,6 +359,18 @@ company: Blusource Professional Services Ltd - Agency - Temporary
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225731478
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2268027
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -511,18 +535,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: JR Personnel - Agency - Temporary
-location: Loughborough
-source: JobG8
-job_id: jobg8-23643_225511737
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Office Angels - Agency - Permanent
 location: Leicestershire
 source: JobG8
@@ -551,6 +563,18 @@ company: Regional Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225725112
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator (Warehouse Department)
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
+location: Loughborough
+source: JobG8
+job_id: jobg8-23643_225821863
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -894,18 +918,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive
-company: The Portfolio Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225718503
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Manager
 company: Michael Page - Agency - Permanent
 location: Leicestershire
@@ -942,11 +954,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Operations Coordinator
-company: SF Partners - Agency - Contract
+title: Office Administrator
+company: Sellick Partnership - Agency - Contract
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225779153
+job_id: jobg8-23643_225822544
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -954,11 +966,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Part Time - Accounts Assistant
-company: Macildowie Recruitment and Retention - Agency - Permanent
+title: Operations Coordinator
+company: SF Partners - Agency - Contract
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2122387
+job_id: jobg8-23643_225779153
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -995,6 +1007,18 @@ company: Portfolio Payroll Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225795339
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225821426
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1055,6 +1079,18 @@ company: Fisher German - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225724433
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Coordinator
+company: Fabric Recruitment Ltd - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225822054
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1210,7 +1246,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2255392
+job_id: jobg8-2262222
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

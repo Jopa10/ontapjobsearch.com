@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 83
+- automatic review: 82
 - automatic exclude: 0
 - effective include: 6
-- effective review: 83
+- effective review: 82
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (83)
+## REVIEW (82)
 
 ---
 action: 
@@ -270,6 +270,30 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Central Transport Purchasing Administrator
+company: ReFood - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2264115
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Central Transport Purchasing Administrator
+company: Refood - Agency - Permanent
+location: Bentley
+source: JobG8
+job_id: jobg8-23643_225819676
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Clerical Officer
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
@@ -414,18 +438,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Data Protection Paralegal
-company: Sue Ross Recruitment Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225663389
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Digital Marketing Executive (Content Creation)
 company: Back TO Work - Agency - Permanent
 location: Yorkshire
@@ -498,35 +510,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Family Legal Secretary - Sheffield
-company: qed legal - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2123182
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2159400
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2122156
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -587,18 +575,6 @@ company: Ranson Barnes Recruitment Limited - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225733777
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: IP Administrator (Experienced)
-company: Withers & Rogers - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-108207449
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -798,11 +774,35 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2266717
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant Interim
 company: Michael Page Finance - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2165598
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Beyond Talent Solutions Ltd - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225821310
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -990,6 +990,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Sales Ledger Administrator
+company: Sewell Wallis Ltd - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225816534
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Secretary / Assistant EA
 company: Edwards & Pearce - Agency - Permanent
 location: Doncaster
@@ -1054,7 +1066,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2255399
+job_id: jobg8-2262229
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -1067,30 +1079,6 @@ company: Charto Recruitment Ltd - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225749128
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225796381
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Volunteer Coordinator
-company: Rotherham Hospice - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225728023
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 61
+- Effective included jobs: 65
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 61
+- automatic include: 65
 - automatic review: 12
 - automatic exclude: 10
-- effective include: 61
+- effective include: 65
 - effective review: 12
 - effective exclude: 10
 
-## INCLUDE (61)
+## INCLUDE (65)
 
 ---
 action: 
@@ -137,10 +137,34 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
+company: Sirona care & health CIC
+location: Bristol, BS6 6AU
+source: NHS Jobs
+job_id: nhs-5716128
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
 company: Veolia - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225745153
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business & Marketing Graduate
+company: Elix Sourcing Solutions Limited - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2262244
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -184,6 +208,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Commercial Property Legal Assistant
+company: Law Staff Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225820863
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Contract Support
 company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
@@ -213,6 +249,18 @@ company: HSB Technical - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225790286
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Robert Half - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2263191
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -460,6 +508,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Litigation Paralegal
+company: Reed - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2263892
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist
 company: Grange Road Surgery
 location: Bristol, BS13 8LD
@@ -477,18 +537,6 @@ company: Tru Talent - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225753239
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Operations Coordinator
-company: MDE Consultants Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225717098
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -748,11 +796,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Recruitment Account Coordinator
-company: Staffline Divisions - Agency - Temporary
+title: Workforce Planner
+company: Huntress - Maidstone - Agency - Temporary
 location: Bristol
 source: JobG8
-job_id: jobg8-108277024
+job_id: jobg8-23643_225821474
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -898,7 +946,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2255385
+job_id: jobg8-2262212
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

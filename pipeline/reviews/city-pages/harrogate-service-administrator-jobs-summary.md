@@ -4,7 +4,7 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 19
-- automatic exclude: 32
-- effective include: 5
-- effective review: 19
-- effective exclude: 32
+- automatic include: 7
+- automatic review: 14
+- automatic exclude: 29
+- effective include: 7
+- effective review: 14
+- effective exclude: 29
 
-## INCLUDE (5)
+## INCLUDE (7)
 
 ---
 action: 
@@ -68,7 +68,7 @@ title: Legal Secretary & Office Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2248914
+job_id: jobg8-2262438
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -77,14 +77,38 @@ action:
 decision: include
 automatic_decision: include
 title: Payroll Administrator
-company: IPS Group - Agency - Permanent
+company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2205079
+job_id: jobg8-2268263
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (19)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225822176
+reason: Exact approved Harrogate workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: Sharp Consultancy - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2262968
+reason: Exact approved Harrogate workplace.
+---
+
+## REVIEW (14)
 
 ---
 action: 
@@ -162,18 +186,6 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Ledger Clerk
-company: Optimum Recruitment Group Limited - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-23643_225457257
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Administrator
 company: Si Recruitment - Agency - Permanent
 location: Bedale
@@ -222,59 +234,11 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Practice Administrator
-company: Magpie Recruitment - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-23643_225719224
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Coordinator
-company: Taskmaster Resources Limited - Agency - Temporary
-location: Sherburn In Elmet
-source: JobG8
-job_id: jobg8-108275823
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Residential Property Legal Secretary
-company: Search Consultancy Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225717661
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales & Operations Administrator
 company: Lloyd Recruitment - Epsom - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225744461
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator - Richmond
-company: Turner Wise - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-2119691
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -314,7 +278,7 @@ job_id: jobg8-2143764
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -337,18 +301,6 @@ company: Nigel Wright Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2207066
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Search Consultancy Ltd - Agency - Contract
-location: York
-source: JobG8
-job_id: jobg8-23643_225718615
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -441,10 +393,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Administrator
-company: Reed - Agency - Permanent
+company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2120677
+job_id: jobg8-2268077
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -644,18 +596,6 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Nimbuscare
-location: York, YO24 4LJ, York, YO24 1LW, York, YO26 4GG
-source: NHS Jobs
-job_id: nhs-5689323
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist Administrator
 company: Ebor Academy Trust
 location: York
@@ -685,17 +625,5 @@ company: Dale Power Solutions - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225779537
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Scarborough, North Yorkshire, YO11 3EG
-source: NHS Jobs
-job_id: nhs-5690490
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---

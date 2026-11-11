@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 4
-- automatic exclude: 95
-- effective include: 23
-- effective review: 4
-- effective exclude: 95
+- automatic include: 20
+- automatic review: 3
+- automatic exclude: 96
+- effective include: 20
+- effective review: 3
+- effective exclude: 96
 
-## INCLUDE (23)
+## INCLUDE (20)
 
 ---
 action: 
@@ -101,10 +101,10 @@ action:
 decision: include
 automatic_decision: include
 title: Bookkeeper
-company: Bennett and Game Recruitment LTD - Agency - Permanent
+company: Reed - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-23643_225702322
+job_id: jobg8-2126585
 reason: Approved Coventry catchment.
 ---
 
@@ -112,11 +112,11 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Bookkeeper
-company: Reed - Agency - Permanent
+title: Construction Quality Administrator
+company: Sustainable Building Services - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-2126585
+job_id: jobg8-23643_225730944
 reason: Approved Coventry catchment.
 ---
 
@@ -141,18 +141,6 @@ company: Manpower - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-2190045
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Facilities and Maintenance Administrator
-company: EA First - Agency - Temporary
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225717657
 reason: Approved Coventry catchment.
 ---
 
@@ -208,18 +196,6 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger
-company: SF Partners - Agency - Temporary
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225715976
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchase Ledger Clerk
 company: SF Partners - Agency - Permanent
 location: Coventry
@@ -249,18 +225,6 @@ company: Construction Resources - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225792268
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Quality Administrator
-company: Sustainable Building Services - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225730944
 reason: Approved Coventry catchment.
 ---
 
@@ -300,7 +264,7 @@ job_id: jobg8-23643_225744797
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (3)
 
 ---
 action: 
@@ -330,18 +294,6 @@ reason: No approved Coventry catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - Purchasing
-company: Options Resourcing Ltd - Agency - Permanent
-location: Southam
-source: JobG8
-job_id: jobg8-23643_225798822
-reason: No approved Coventry catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Installations Coordinator
 company: Arden Personnel - Agency - Permanent
 location: Alcester
@@ -350,7 +302,19 @@ job_id: jobg8-23643_225727031
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (95)
+## EXCLUDE (96)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Debbie Burbage Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225806319
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -361,6 +325,30 @@ company: Michael Page - Agency - Contract
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225742987
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Mitchell Adam - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2268268
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Stratford-Upon-Avon
+source: JobG8
+job_id: jobg8-2266965
 reason: Separate employment market.
 ---
 
@@ -409,18 +397,6 @@ company: Barchester Healthcare - Company - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225756406
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant
-company: Plus One Recruitment - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225744644
 reason: Separate employment market.
 ---
 
@@ -512,6 +488,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Billings Administrator
+company: Arden Personnel - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2268394
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: BMW Accounts Assistant
 company: Sytner - Company - Permanent
 location: Warwickshire
@@ -577,6 +565,18 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225768258
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Property Paralegal
+company: The Eventus Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2258099
 reason: Separate employment market.
 ---
 
@@ -873,30 +873,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-2235123
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225800797
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Warwickshire
 source: JobG8
@@ -1040,6 +1016,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Logistics Coordinator
+company: MorePeople - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225821988
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Executive
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Warwickshire
@@ -1112,11 +1100,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part-time Administrator
-company: Brellis Recruitment - Agency - Permanent
+title: Payroll Coordinator
+company: Owen Daniels - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225743721
+job_id: jobg8-2268269
 reason: Separate employment market.
 ---
 
@@ -1153,18 +1141,6 @@ company: Pontoon - Agency - Contract
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225775786
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Project Coordinator
-company: Pure Talent Group - Agency - Permanent
-location: Leamington Spa
-source: JobG8
-job_id: jobg8-23643_225739232
 reason: Separate employment market.
 ---
 
@@ -1225,18 +1201,6 @@ company: Plus One Recruitment - Agency - Permanent
 location: Nuneaton
 source: JobG8
 job_id: jobg8-23643_225809777
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Stockingford Medical Centre
-location: Nuneaton, CV10 8EJ
-source: NHS Jobs
-job_id: nhs-5688616
 reason: Separate employment market.
 ---
 
@@ -1476,7 +1440,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2255387
+job_id: jobg8-2262217
 reason: Separate employment market.
 ---
 

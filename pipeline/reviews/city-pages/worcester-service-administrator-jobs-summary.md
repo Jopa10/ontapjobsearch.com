@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 30
+- automatic include: 4
+- automatic review: 26
 - automatic exclude: 0
-- effective include: 5
-- effective review: 30
+- effective include: 4
+- effective review: 26
 - effective exclude: 0
 
-## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Herefordshire and Worcestershire Health and Care NHS Trust
-location: Worcester, WR5 1JF
-source: NHS Jobs
-job_id: nhs-5690811
-reason: Exact approved Worcester workplace.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -84,19 +72,7 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (30)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Four Squared Recruitment Ltd - Agency - Permanent
-location: Droitwich
-source: JobG8
-job_id: jobg8-23643_225780209
-reason: No exact Worcester workplace matched; local geographic review is required.
----
+## REVIEW (26)
 
 ---
 action: 
@@ -155,18 +131,6 @@ company: Pertemps Black Country Perms - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225767657
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contact Centre Manager
-company: Brellis Recruitment - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225779372
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -282,18 +246,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Night Transport Office Administrator
-company: Workforce Staffing Ltd - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225799806
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Operations Administrator
 company: Adecco - Agency - Permanent
 location: Worcestershire
@@ -342,11 +294,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Assistant
-company: MultiStaff Recruitment Solutions Ltd - Agency - Permanent
+title: Payroll Officer
+company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-23643_225794632
+job_id: jobg8-23643_225820459
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -431,18 +383,6 @@ company: SRG - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225774635
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Workforce Compliance and Assurance Administrator
-company: Vertis Health
-location: Redditch, B97 5JX
-source: NHS Jobs
-job_id: nhs-5674934
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

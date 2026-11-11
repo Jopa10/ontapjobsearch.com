@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 26
+- automatic include: 9
+- automatic review: 27
 - automatic exclude: 0
-- effective include: 7
-- effective review: 26
+- effective include: 9
+- effective review: 27
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (9)
 
 ---
 action: 
@@ -52,11 +52,11 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Abacus Consulting - Agency - Permanent
+title: Customer Service
+company: 1st Choice Staff Recruitment - Agency - Temporary
 location: Bedford
 source: JobG8
-job_id: jobg8-2259632
+job_id: jobg8-23643_225795458
 reason: Exact approved Bedford workplace.
 ---
 
@@ -76,11 +76,47 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Sales
+company: Aspion - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225810634
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: BMSL Group Ltd - Agency - Contract
 location: Bedford
 source: JobG8
 job_id: jobg8-23643_225568924
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Executive
+company: Wallace Hind Selection LTD - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225782296
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Executive (Manufacturing)
+company: RETAIND Ltd - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225756568
 reason: Exact approved Bedford workplace.
 ---
 
@@ -96,19 +132,7 @@ job_id: jobg8-23643_225782845
 reason: Exact approved Bedford workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Youth Employability Activity Coordinator - Bedfordshire
-company: Trigon Recruitment Ltd - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225761869
-reason: Exact approved Bedford workplace.
----
-
-## REVIEW (26)
+## REVIEW (27)
 
 ---
 action: 
@@ -118,7 +142,7 @@ title: Accounts Assistant
 company: Abacus Consulting - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2175144
+job_id: jobg8-23643_225758063
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +263,18 @@ company: Think Specialist Recruitment - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-23643_225761491
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Executive
+company: Tate - Agency - Permanent
+location: Potton
+source: JobG8
+job_id: jobg8-23643_225741129
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

@@ -4,8 +4,8 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 52
+- automatic include: 3
+- automatic review: 47
 - automatic exclude: 0
-- effective include: 4
-- effective review: 52
+- effective include: 3
+- effective review: 47
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -60,19 +60,7 @@ job_id: jobg8-23643_225779537
 reason: Exact approved Scarborough workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Scarborough, North Yorkshire, YO11 3EG
-source: NHS Jobs
-job_id: nhs-5690490
-reason: Exact approved Scarborough workplace.
----
-
-## REVIEW (52)
+## REVIEW (47)
 
 ---
 action: 
@@ -107,18 +95,6 @@ company: Magpie Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-2243444
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Search Consultancy Ltd - Agency - Contract
-location: York
-source: JobG8
-job_id: jobg8-23643_225718615
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -283,10 +259,10 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Administrator
-company: Reed - Agency - Permanent
+company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2120677
+job_id: jobg8-2268077
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -335,18 +311,6 @@ company: Joseph Rowntree - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225730066
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ledger Clerk
-company: Optimum Recruitment Group Limited - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-23643_225457257
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -454,7 +418,7 @@ title: Legal Secretary & Office Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2248914
+job_id: jobg8-2262438
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -547,10 +511,10 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
-company: IPS Group - Agency - Permanent
+company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2205079
+job_id: jobg8-2268263
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -558,11 +522,23 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Practice Administrator
-company: Magpie Recruitment - Agency - Permanent
-location: Richmond
+title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Harrogate
 source: JobG8
-job_id: jobg8-23643_225719224
+job_id: jobg8-23643_225822176
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Sharp Consultancy - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2262968
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -582,35 +558,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Nimbuscare
-location: York, YO24 4LJ, York, YO24 1LW, York, YO26 4GG
-source: NHS Jobs
-job_id: nhs-5689323
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist Administrator
 company: Ebor Academy Trust
 location: York
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-administrator-ebor-academy-trust
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Coordinator
-company: Taskmaster Resources Limited - Agency - Temporary
-location: Sherburn In Elmet
-source: JobG8
-job_id: jobg8-108275823
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -630,35 +582,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Residential Property Legal Secretary
-company: Search Consultancy Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225717661
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales & Operations Administrator
 company: Lloyd Recruitment - Epsom - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225744461
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator - Richmond
-company: Turner Wise - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-2119691
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

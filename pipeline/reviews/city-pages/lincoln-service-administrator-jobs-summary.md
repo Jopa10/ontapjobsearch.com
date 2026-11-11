@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 46
+- Effective included jobs: 42
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 46
-- automatic review: 14
+- automatic include: 42
+- automatic review: 17
 - automatic exclude: 0
-- effective include: 46
-- effective review: 14
+- effective include: 42
+- effective review: 17
 - effective exclude: 0
 
-## INCLUDE (46)
+## INCLUDE (42)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Reed - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2176835
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: SF Partners - Agency - Contract
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225715193
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -82,18 +70,6 @@ location: Lincolnshire
 source: JobG8
 job_id: jobg8-2144682
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Receivable / Credit Controller
-company: Austin Matley HR & Recruitment Ltd - Agency - Permanent
-location: Lincoln
-source: JobG8
-job_id: jobg8-2119538
-reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -172,6 +148,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-108255899
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customs Administrator
 company: EL Recruitment Solutions Ltd - Agency - Permanent
 location: Lincolnshire
@@ -190,18 +178,6 @@ location: Lincoln
 source: JobG8
 job_id: jobg8-23643_225720797
 reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Data Protection Coordinator
-company: Akkodis - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225753502
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---
@@ -286,18 +262,6 @@ location: Lincoln
 source: JobG8
 job_id: jobg8-23643_225736096
 reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: One Stop - Customer Service Assistant
-company: Tesco - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2260681
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---
@@ -460,18 +424,6 @@ reason: Exact approved Lincoln workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Production Administrator
-company: Barrett Steel - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225740703
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Quality Administrator (Food Manufacturing)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Lincolnshire
@@ -576,7 +528,7 @@ job_id: jobg8-23643_225808865
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (14)
+## REVIEW (17)
 
 ---
 action: 
@@ -642,6 +594,30 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator
+company: Future Prospects - Agency - Permanent
+location: Grantham
+source: JobG8
+job_id: jobg8-2264167
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Future Prospects Group Ltd - Agency - Permanent
+location: Grantham
+source: JobG8
+job_id: jobg8-23643_225819688
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: BTG Recruitment - Agency - Permanent
 location: Grantham
@@ -666,6 +642,18 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: GP Receptionist / Care Navigator
+company: Tasburgh Lodge Surgery
+location: Woodhall Spa, LN10 6TX
+source: NHS Jobs
+job_id: nhs-5717449
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist
 company: Sleaford Medical Group
 location: Sleaford, NG34 7HD
@@ -678,11 +666,11 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Office Operations/Administrator
-company: Healing Primary Academy
-location: Grimsby
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-operations-administrator-healing-primary-academy
+title: Primary School Attendance Officer - Waltham Forest, London
+company: Academics - Agency - Permanent
+location: Waltham
+source: JobG8
+job_id: jobg8-23643_225812830
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -690,11 +678,11 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Primary School Attendance Officer - Waltham Forest, London
-company: Academics - Agency - Permanent
-location: Waltham
+title: Project Administrator
+company: Future Prospects Group Ltd - Agency - Permanent
+location: Grantham
 source: JobG8
-job_id: jobg8-23643_225812830
+job_id: jobg8-23643_225821990
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

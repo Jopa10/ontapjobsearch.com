@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 25
+- automatic include: 15
+- automatic review: 22
 - automatic exclude: 0
-- effective include: 16
-- effective review: 25
+- effective include: 15
+- effective review: 22
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Macclesfield
 source: JobG8
 job_id: jobg8-23643_225779659
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-23643_225817544
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -148,18 +160,6 @@ reason: Exact approved Macclesfield workplace.
 action: 
 decision: include
 automatic_decision: include
-title: One Stop - Customer Service Assistant
-company: Tesco - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-2260633
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Operational Administrator
 company: Barlow Wood Ltd - Agency - Permanent
 location: Macclesfield
@@ -196,18 +196,6 @@ reason: Exact approved Macclesfield workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Senior Payroll Administrator
-company: Portfolio Payroll Limited - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-23643_225715924
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Advisor - Audi Macclesfield
 company: Group 1 Automotive - Company - Permanent
 location: Macclesfield
@@ -216,7 +204,7 @@ job_id: jobg8-2249893
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (25)
+## REVIEW (22)
 
 ---
 action: 
@@ -263,18 +251,6 @@ company: Anderson Wright Consulting - Agency - Permanent
 location: Sandbach
 source: JobG8
 job_id: jobg8-23643_225721970
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant / Purchase Ledger Clerk
-company: Anderson Wright Consulting Ltd - Agency - Permanent
-location: Sandbach
-source: JobG8
-job_id: jobg8-2124544
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -343,18 +319,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Acorn by Synergie - Agency - Contract
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225715162
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
 company: Barlow Wood Ltd - Agency - Permanent
 location: Alderley Edge
 source: JobG8
@@ -371,18 +335,6 @@ company: Solus Accident Repair Centres - Company - Permanent
 location: Middlewich
 source: JobG8
 job_id: jobg8-23643_225761938
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Facilities Coordinator
-company: RG Setsquare - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225718706
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

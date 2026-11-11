@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 19
-- automatic exclude: 23
-- effective include: 14
-- effective review: 19
-- effective exclude: 23
+- automatic include: 12
+- automatic review: 14
+- automatic exclude: 24
+- effective include: 12
+- effective review: 14
+- effective exclude: 24
 
-## INCLUDE (14)
+## INCLUDE (12)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Headstar - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2143415
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Search Consultancy Ltd - Agency - Contract
-location: York
-source: JobG8
-job_id: jobg8-23643_225718615
 reason: Approved York catchment.
 ---
 
@@ -160,18 +148,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Nimbuscare
-location: York, YO24 4LJ, York, YO24 1LW, York, YO26 4GG
-source: NHS Jobs
-job_id: nhs-5689323
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist Administrator
 company: Ebor Academy Trust
 location: York
@@ -192,7 +168,7 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (14)
 
 ---
 action: 
@@ -270,18 +246,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Ledger Clerk
-company: Optimum Recruitment Group Limited - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-23643_225457257
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Administrator
 company: Si Recruitment - Agency - Permanent
 location: Bedale
@@ -330,59 +294,11 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Practice Administrator
-company: Magpie Recruitment - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-23643_225719224
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Coordinator
-company: Taskmaster Resources Limited - Agency - Temporary
-location: Sherburn In Elmet
-source: JobG8
-job_id: jobg8-108275823
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Residential Property Legal Secretary
-company: Search Consultancy Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225717661
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales & Operations Administrator
 company: Lloyd Recruitment - Epsom - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225744461
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator - Richmond
-company: Turner Wise - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-2119691
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -422,7 +338,7 @@ job_id: jobg8-2143764
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -513,10 +429,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Administrator
-company: Reed - Agency - Permanent
+company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2120677
+job_id: jobg8-2268077
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -576,7 +492,7 @@ title: Legal Secretary & Office Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2248914
+job_id: jobg8-2262438
 reason: Separate employment market.
 ---
 
@@ -657,10 +573,34 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Payroll Administrator
-company: IPS Group - Agency - Permanent
+company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2205079
+job_id: jobg8-2268263
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225822176
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Sharp Consultancy - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2262968
 reason: Separate employment market.
 ---
 
@@ -686,16 +626,4 @@ location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225779537
 reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Scarborough, North Yorkshire, YO11 3EG
-source: NHS Jobs
-job_id: nhs-5690490
-reason: Broad county/region label; not York-city evidence.
 ---

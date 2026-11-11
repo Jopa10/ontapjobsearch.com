@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 33
+- automatic include: 18
+- automatic review: 34
 - automatic exclude: 0
-- effective include: 19
-- effective review: 33
+- effective include: 18
+- effective review: 34
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (18)
 
 ---
 action: 
@@ -240,19 +240,7 @@ job_id: jobg8-23643_225733574
 reason: Exact approved Altrincham workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Payroll Administrator
-company: Portfolio Payroll Limited - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225715889
-reason: Exact approved Altrincham workplace.
----
-
-## REVIEW (33)
+## REVIEW (34)
 
 ---
 action: 
@@ -318,6 +306,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Payable Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-2174982
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administration Assistant
 company: Hays Business Support - Agency - Permanent
 location: Stockport
@@ -347,6 +347,18 @@ company: UK Staffing Group Limited - Agency - Temporary
 location: Sale
 source: JobG8
 job_id: jobg8-23643_225800973
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Premier Recruitment Solutions Ltd - Agency - Permanent
+location: Denton
+source: JobG8
+job_id: jobg8-23643_225821201
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -414,6 +426,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator
+company: Platinum Recruitment Group - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-2194669
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Pickles Recruitment - Agency - Permanent
 location: Denton
@@ -463,18 +487,6 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
-company: Chadsfield Medical Practice
-location: Stockport, SK6 4QR
-source: NHS Jobs
-job_id: nhs-5698363
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
 company: HT Practice
 location: Ashton Under Lyne, OL7 0NW
 source: NHS Jobs
@@ -491,6 +503,18 @@ company: The Reddish Family Practice
 location: Stockport, SK6 6RN, STOCKPORT, SK5 7QU
 source: NHS Jobs
 job_id: nhs-5693756
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Outcomes First Group - Company - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-20091_330300
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -570,18 +594,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Reception
-company: Jobwise Ltd - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225814368
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Winsearch - Agency - Temporary
 location: Stockport
@@ -611,18 +623,6 @@ company: Adecco - Agency - Temporary
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225778251
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Bayman Atkinson Smythe - Agency - Permanent
-location: Trafford
-source: JobG8
-job_id: jobg8-23643_225735521
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

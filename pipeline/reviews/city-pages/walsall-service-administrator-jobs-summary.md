@@ -40,6 +40,18 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Transaction Recruitment - Agency - Permanent
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_225818882
+reason: Exact approved Walsall workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: Interaction Recruitment - Agency - Temporary
 location: Walsall
@@ -81,18 +93,6 @@ company: Belmont Recruitment - Agency - Contract
 location: Walsall
 source: JobG8
 job_id: jobg8-23643_225766602
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: PSR Solutions - Agency - Temporary
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225714561
 reason: Exact approved Walsall workplace.
 ---
 
@@ -222,6 +222,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Administrative Assistant
+company: Connect2Dudley - Agency - Temporary
+location: Dudley
+source: JobG8
+job_id: jobg8-23643_225820779
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: Adecco - Agency - Permanent
 location: Wolverhampton
@@ -342,6 +354,18 @@ reason: The stated location is broader or less specific than the approved Walsal
 action: 
 decision: review
 automatic_decision: review
+title: CAD Administrator
+company: Conrad Consulting Ltd - Agency - Permanent
+location: Kingswinford
+source: JobG8
+job_id: jobg8-23643_225818034
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Coordinator
 company: Kathryn Rose Consultancy Serviced Limited - Agency - Permanent
 location: Wolverhampton
@@ -414,18 +438,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: General Administrator
-company: The Job People - Agency - Temporary
-location: Kingswinford
-source: JobG8
-job_id: jobg8-23643_225714396
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: GP Receptionist
 company: Tudor Medical Group
 location: Wolverhampton, WV100LS
@@ -479,18 +491,6 @@ company: Bishop Milner Catholic College
 location: Dudley
 source: Teaching Vacancies
 job_id: teaching-vacancies-it-systems-administrator-bishop-milner-catholic-college
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: One Stop - Customer Service Assistant
-company: Tesco - Agency - Permanent
-location: Brierley Hill
-source: JobG8
-job_id: jobg8-2260653
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -599,6 +599,18 @@ company: Adecco - Agency - Permanent
 location: Kingswinford
 source: JobG8
 job_id: jobg8-23643_225815468
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Adecco - Agency - Permanent
+location: Oldbury
+source: JobG8
+job_id: jobg8-23643_225822179
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -755,18 +767,6 @@ company: Accept Recruitment - Agency - Permanent
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225637300
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Secretary
-company: Gleeson Recruitment Group - Agency - Contract
-location: Dudley
-source: JobG8
-job_id: jobg8-23643_225774106
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
