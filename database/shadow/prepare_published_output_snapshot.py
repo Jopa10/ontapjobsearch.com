@@ -1,29 +1,48 @@
 #!/usr/bin/env python3
-"""Build a compact, date-pinned projection from production applied JobG8 outputs."""
+"""Build a compact, date-pinned projection from applied JobG8 output artifacts."""
 import argparse
 import json
 import re
 from pathlib import Path
 
 CORE_FIELDS = ("title", "employer", "advertiser_name", "apply_url", "salary_min", "salary_max", "salary_period", "salary_text")
+EXPECTED_ARTIFACT_NAMES = {"applied-service-admin-output", "applied-support-worker-output"}
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", required=True)
     parser.add_argument("--date", required=True)
     parser.add_argument("--production-run-id", type=int, required=True)
-    parser.add_argument("--artifact-id", type=int, required=True)
+    parser.add_argument("--artifact-id", type=int, required=True, help="Primary artifact ID (service-admin)")
+    parser.add_argument("--source-artifacts-json", required=True)
+    parser.add_argument("--production-app-commit-sha", required=True)
+    parser.add_argument("--production-app-snapshot-at", required=True)
     parser.add_argument("--expected-json-files", type=int, required=True)
     parser.add_argument("--expected-jobg8-rows", type=int, required=True)
     parser.add_argument("--expected-unique-jobg8-ids", type=int, required=True)
-    parser.add_argument("--archive-sha256", required=True)
+    parser.add_argument("--archive-sha256", required=True, help="Primary artifact digest")
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
 
-    if not re.fullmatch(r"20\d\d-\d\d-\d\d", args.date):
+    if not re.fullmatch(r"20\\d\\d-\\d\\d-\\d\\d", args.date):
         raise SystemExit("Invalid publication date")
     if not re.fullmatch(r"[a-f0-9]{64}", args.archive_sha256):
-        raise SystemExit("Invalid production artifact SHA-256")
+        raise SystemExit("Invalid primary artifact SHA-256")
+    if not re.fullmatch(r"[a-f0-9]{40}", args.production_app_commit_sha):
+        raise SystemExit("Invalid final production app commit SHA")
+    artifacts = json.loads(args.source_artifacts_json)
+    if not isinstance(artifacts, list) or len(artifacts) != 2:
+        raise SystemExit("Expected both Wednesday applied output artifacts")
+    if {item.get("name") for item in artifacts} != EXPECTED_ARTIFACT_NAMES:
+        raise SystemExit("Unexpected applied output artifact names")
+    for item in artifacts:
+        if (not isinstance(item.get("id"), int) or item["id"] <= 0
+                or not re.fullmatch(r"[a-f0-9]{64}", item.get("sha256", ""))):
+            raise SystemExit("Invalid applied output artifact ID or digest")
+    primary = next(item for item in artifacts if item["name"] == "applied-service-admin-output")
+    if primary["id"] != args.artifact_id or primary["sha256"] != args.archive_sha256:
+        raise SystemExit("Primary artifact ID/digest does not match the recorded artifact list")
+
     root = Path(args.input)
     files = sorted(root.rglob("*.json"))
     if len(files) != args.expected_json_files:
@@ -109,6 +128,9 @@ def main():
         "productionWorkflowRunId": args.production_run_id,
         "productionArtifactId": args.artifact_id,
         "productionArtifactSha256": args.archive_sha256,
+        "productionArtifacts": artifacts,
+        "productionAppCommitSha": args.production_app_commit_sha,
+        "productionAppSnapshotAt": args.production_app_snapshot_at,
         "productionOutputJsonFiles": len(files),
         "jobg8OutputRows": jobg8_rows,
         "uniqueJobG8Ids": len(compact),
@@ -117,12 +139,12 @@ def main():
     }
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    output.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\\n", encoding="utf-8")
     print(json.dumps({
         "feedDate": args.date,
         "productionWorkflowRunId": args.production_run_id,
-        "productionArtifactId": args.artifact_id,
-        "productionArtifactSha256": args.archive_sha256,
+        "productionArtifacts": artifacts,
+        "productionAppCommitSha": args.production_app_commit_sha,
         "productionOutputJsonFiles": len(files),
         "jobg8OutputRows": jobg8_rows,
         "uniqueJobG8Ids": len(compact),
