@@ -442,16 +442,23 @@ jobs:
           from pathlib import Path
           report=json.loads(Path(sys.argv[1]).read_text())
           manifest=json.loads(Path(sys.argv[2]).read_text())
+          stage_request=json.loads(Path('database/shadow/stage-request.json').read_text())
+          final_compare=json.loads(Path(sys.argv[3]).read_text())
           assert report.get('status')=='passed'
           assert report.get('feedDate')=='${{ steps.request.outputs.archive_date }}'
           assert report.get('productionWorkflowRunId')==int("${{ steps.request.outputs.published_run_id }}")
           assert report.get('productionArtifactId')==int("${{ steps.request.outputs.published_artifact_id }}")
+          assert report.get('productionArtifacts')==stage_request['publishedOutputArtifacts']
+          assert report.get('productionAppCommitSha')==stage_request['productionAppCommitSha']
           assert report.get('uniquePublishedJobG8Ids')==int("${{ steps.request.outputs.expected_unique_ids }}")
           assert report.get('neonJobRows')==report.get('uniquePublishedJobG8Ids')
           assert report.get('exactIdsMatch') is True and report.get('exactKeyFieldsMatch') is True
           assert report.get('fullDescriptionsStored') is False
+          assert final_compare.get('status')=='passed'
+          assert final_compare.get('counterJobG8Ids')==report['uniquePublishedJobG8Ids']
+          assert sorted(manifest.get('publishedJobIds',[]))==final_compare.get('finalPublishedJobG8Ids')
           assert len(manifest.get('publishedJobIds',[]))==report['uniquePublishedJobG8Ids']
-          print('Published job Neon Preview readback verified:',report['uniquePublishedJobG8Ids'],'IDs.')
+          print('Neon Preview readback matches the final published app:',report['uniquePublishedJobG8Ids'],'IDs.')
           PYVERIFY
       - name: Preserve published-job Neon evidence
         if: always() && steps.request.outputs.mode == 'published_snapshot'
@@ -462,6 +469,7 @@ jobs:
             ${{ runner.temp }}/published-snapshot.json
             ${{ runner.temp }}/published-readback-report.json
             ${{ runner.temp }}/published-readback-manifest.json
+            ${{ runner.temp }}/published-final-id-comparison.json
             ${{ runner.temp }}/published-preview-deployment-url.txt
             database/shadow/stage-request.json
           if-no-files-found: ignore
