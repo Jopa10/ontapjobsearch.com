@@ -42,7 +42,7 @@ jobs:
           from pathlib import Path
           request=json.loads(Path('database/shadow/stage-request.json').read_text())
           mode=request.get('mode','source')
-          if mode not in {'source','selection_parity','fresh_selection_parity'}:
+          if mode not in {'source','selection_parity','fresh_selection_parity','published_snapshot'}:
               raise SystemExit('Unknown shadow test mode')
           archive_date=request.get('archiveDate','')
           reuse_run=request.get('reuseEvidenceRunId')
@@ -55,8 +55,27 @@ jobs:
               raise SystemExit('Evidence reuse IDs must be integers')
           with open(os.environ['GITHUB_OUTPUT'],'a') as handle:
               handle.write('mode='+mode+chr(10))
-              if mode == 'fresh_selection_parity':
+              if mode in {'fresh_selection_parity','published_snapshot'}:
                   handle.write('archive_date='+archive_date+chr(10))
+              if mode == 'published_snapshot':
+                  date=request.get('archiveDate','')
+                  values={
+                    'published_run_id':request.get('publishedOutputRunId'),
+                    'published_artifact_id':request.get('publishedOutputArtifactId'),
+                    'expected_json_files':request.get('expectedOutputJsonFiles'),
+                    'expected_jobg8_rows':request.get('expectedJobG8Rows'),
+                    'expected_unique_ids':request.get('expectedUniqueJobG8Ids'),
+                    'artifact_sha256':request.get('productionArtifactSha256'),
+                  }
+                  if not re.fullmatch(r'20[0-9]{2}-[0-9]{2}-[0-9]{2}',date):
+                      raise SystemExit('Published snapshot requires a valid archiveDate')
+                  if any(not isinstance(values[k],int) or values[k]<=0 for k in ('published_run_id','published_artifact_id','expected_json_files','expected_jobg8_rows','expected_unique_ids')):
+                      raise SystemExit('Published snapshot requires positive run, artifact and row counts')
+                  if not re.fullmatch(r'[a-f0-9]{64}',values['artifact_sha256'] or ''):
+                      raise SystemExit('Published snapshot requires the exact artifact SHA-256')
+                  handle.write(f"published_run_id={values['published_run_id']}\npublished_artifact_id={values['published_artifact_id']}\n")
+                  handle.write(f"expected_json_files={values['expected_json_files']}\nexpected_jobg8_rows={values['expected_jobg8_rows']}\n")
+                  handle.write(f"expected_unique_ids={values['expected_unique_ids']}\nartifact_sha256={values['artifact_sha256']}\n")
               if reuse_run is not None:
                   handle.write(f'reuse_run_id={reuse_run}\nreuse_artifact_id={reuse_artifact}\n')
           PYMODE
@@ -270,6 +289,100 @@ jobs:
               request[field]=hashlib.sha256((work/filename).read_bytes()).hexdigest()
           path.write_text(json.dumps(request,indent=2)+'\n')
           PYHASH
+      - name: Download exact 11 November applied output
+        if: steps.request.outputs.mode == 'published_snapshot'
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          artifact-ids: ${{ steps.request.outputs.published_artifact_id }}
+          run-id: ${{ steps.request.outputs.published_run_id }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/published-output
+          merge-multiple: true
+      - name: Build compact published-job projection
+        if: steps.request.outputs.mode == 'published_snapshot'
+        run: |
+          python database/shadow/prepare_published_output_snapshot.py \
+            --input "$RUNNER_TEMP/published-output" \
+            --date "${{ steps.request.outputs.archive_date }}" \
+            --production-run-id "${{ steps.request.outputs.published_run_id }}" \
+            --artifact-id "${{ steps.request.outputs.published_artifact_id }}" \
+            --expected-json-files "${{ steps.request.outputs.expected_json_files }}" \
+            --expected-jobg8-rows "${{ steps.request.outputs.expected_jobg8_rows }}" \
+            --expected-unique-jobg8-ids "${{ steps.request.outputs.expected_unique_ids }}" \
+            --archive-sha256 "${{ steps.request.outputs.artifact_sha256 }}" \
+            --output "$RUNNER_TEMP/published-snapshot.json"
+      - name: Package compact snapshot for isolated Neon Preview
+        if: steps.request.outputs.mode == 'published_snapshot'
+        run: |
+          python - "$RUNNER_TEMP/published-snapshot.json" database/shadow/harness <<'PYPACK'
+          import hashlib,json,sys,zipfile
+          from pathlib import Path
+          snapshot_path,harness=map(Path,sys.argv[1:])
+          snapshot_bytes=snapshot_path.read_bytes()
+          request={
+            'mode':'published_snapshot',
+            'feedDate':'${{ steps.request.outputs.archive_date }}',
+            'productionWorkflowRunId':int("${{ steps.request.outputs.published_run_id }}"),
+            'productionArtifactId':int("${{ steps.request.outputs.published_artifact_id }}"),
+            'productionArtifactSha256':'${{ steps.request.outputs.artifact_sha256 }}',
+            'expectedJobG8Rows':int("${{ steps.request.outputs.expected_jobg8_rows }}"),
+            'expectedUniqueJobG8Ids':int("${{ steps.request.outputs.expected_unique_ids }}"),
+            'snapshotSha256':hashlib.sha256(snapshot_bytes).hexdigest(),
+            'localArtifact':'source-artifact.zip',
+          }
+          with zipfile.ZipFile(harness/'source-artifact.zip','w',compression=zipfile.ZIP_DEFLATED) as archive:
+              archive.writestr('published-snapshot.json',snapshot_bytes)
+          (harness/'source-download.json').write_text(json.dumps(request,indent=2)+'\n')
+      - name: Store and verify published jobs in isolated Neon Preview
+        if: steps.request.outputs.mode == 'published_snapshot'
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+        run: |
+          set -euo pipefail
+          test -n "$VERCEL_TOKEN"
+          harness="database/shadow/harness"
+          npm ci --omit=dev --ignore-scripts --prefix "$harness"
+          cli_dir="$RUNNER_TEMP/vercel-cli"
+          npm install --prefix "$cli_dir" --no-save --ignore-scripts --no-audit --no-fund vercel@65.14.0
+          cd "$harness"
+          deploy_log="$RUNNER_TEMP/vercel-published-preview-deploy.log"
+          "$cli_dir/node_modules/.bin/vercel" deploy --yes --token="$VERCEL_TOKEN" --scope ontap1 2>&1 | tee "$deploy_log"
+          deployment_url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$deploy_log" | tail -n 1)"
+          test -n "$deployment_url"
+          "$cli_dir/node_modules/.bin/vercel" curl /published-readback-report.json --deployment "$deployment_url" --scope ontap1 > "$RUNNER_TEMP/published-readback-report.json"
+          "$cli_dir/node_modules/.bin/vercel" curl /published-readback-manifest.json --deployment "$deployment_url" --scope ontap1 > "$RUNNER_TEMP/published-readback-manifest.json"
+          printf '%s\n' "$deployment_url" > "$RUNNER_TEMP/published-preview-deployment-url.txt"
+          python - "$RUNNER_TEMP/published-readback-report.json" "$RUNNER_TEMP/published-readback-manifest.json" <<'PYVERIFY'
+          import json,sys
+          from pathlib import Path
+          report=json.loads(Path(sys.argv[1]).read_text())
+          manifest=json.loads(Path(sys.argv[2]).read_text())
+          assert report.get('status')=='passed'
+          assert report.get('feedDate')=='${{ steps.request.outputs.archive_date }}'
+          assert report.get('productionWorkflowRunId')==int("${{ steps.request.outputs.published_run_id }}")
+          assert report.get('productionArtifactId')==int("${{ steps.request.outputs.published_artifact_id }}")
+          assert report.get('uniquePublishedJobG8Ids')==int("${{ steps.request.outputs.expected_unique_ids }}")
+          assert report.get('neonJobRows')==report.get('uniquePublishedJobG8Ids')
+          assert report.get('exactIdsMatch') is True and report.get('exactKeyFieldsMatch') is True
+          assert report.get('fullDescriptionsStored') is False
+          assert len(manifest.get('publishedJobIds',[]))==report['uniquePublishedJobG8Ids']
+          print('Published job Neon Preview readback verified:',report['uniquePublishedJobG8Ids'],'IDs.')
+          PYVERIFY
+      - name: Preserve published-job Neon evidence
+        if: always() && steps.request.outputs.mode == 'published_snapshot'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: neon-shadow-published-jobs-2026-11-11
+          path: |
+            ${{ runner.temp }}/published-snapshot.json
+            ${{ runner.temp }}/published-readback-report.json
+            ${{ runner.temp }}/published-readback-manifest.json
+            ${{ runner.temp }}/published-preview-deployment-url.txt
+            database/shadow/stage-request.json
+          if-no-files-found: ignore
+          retention-days: 90
       - name: Write decisions to Neon Preview and verify readback
         if: steps.request.outputs.mode == 'fresh_selection_parity'
         env:
