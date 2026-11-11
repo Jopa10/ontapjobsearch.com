@@ -388,6 +388,7 @@ jobs:
           counter_path=Path('production-final/pipeline/scripts/live_job_source_counter.py')
           spec=importlib.util.spec_from_file_location('live_job_source_counter',counter_path)
           counter=importlib.util.module_from_spec(spec)
+          sys.modules[spec.name]=counter
           spec.loader.exec_module(counter)
           snapshot_time=datetime.fromisoformat(snapshot['productionAppSnapshotAt'].replace('Z','+00:00')).astimezone(ZoneInfo('Europe/London'))
           inventory=counter.collect_live_inventory(
