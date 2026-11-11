@@ -431,6 +431,7 @@ jobs:
           npm ci --omit=dev --ignore-scripts --prefix "$harness"
           cli_dir="$RUNNER_TEMP/vercel-cli"
           npm install --prefix "$cli_dir" --no-save --ignore-scripts --no-audit --no-fund vercel@65.14.0
+          cp database/shadow/stage-request.json "$RUNNER_TEMP/published-stage-request.json"
           cd "$harness"
           deploy_log="$RUNNER_TEMP/vercel-published-preview-deploy.log"
           "$cli_dir/node_modules/.bin/vercel" deploy --yes --token="$VERCEL_TOKEN" --scope ontap1 2>&1 | tee "$deploy_log"
@@ -439,13 +440,13 @@ jobs:
           "$cli_dir/node_modules/.bin/vercel" curl /published-readback-report.json --deployment "$deployment_url" --scope ontap1 > "$RUNNER_TEMP/published-readback-report.json"
           "$cli_dir/node_modules/.bin/vercel" curl /published-readback-manifest.json --deployment "$deployment_url" --scope ontap1 > "$RUNNER_TEMP/published-readback-manifest.json"
           printf '%s\n' "$deployment_url" > "$RUNNER_TEMP/published-preview-deployment-url.txt"
-          python - "$RUNNER_TEMP/published-readback-report.json" "$RUNNER_TEMP/published-readback-manifest.json" <<'PYVERIFY'
+          python - "$RUNNER_TEMP/published-readback-report.json" "$RUNNER_TEMP/published-readback-manifest.json" "$RUNNER_TEMP/published-final-id-comparison.json" "$RUNNER_TEMP/published-stage-request.json" <<'PYVERIFY'
           import json,sys
           from pathlib import Path
           report=json.loads(Path(sys.argv[1]).read_text())
           manifest=json.loads(Path(sys.argv[2]).read_text())
-          stage_request=json.loads(Path('database/shadow/stage-request.json').read_text())
           final_compare=json.loads(Path(sys.argv[3]).read_text())
+          stage_request=json.loads(Path(sys.argv[4]).read_text())
           assert report.get('status')=='passed'
           assert report.get('feedDate')=='${{ steps.request.outputs.archive_date }}'
           assert report.get('productionWorkflowRunId')==int("${{ steps.request.outputs.published_run_id }}")
