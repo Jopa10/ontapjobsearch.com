@@ -1,16 +1,24 @@
 {
-  "archiveDate": "2026-11-10",
-  "sourceRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
-  "stages": [
-    20,
-    50,
-    100
+  "archiveDate": "2026-11-11",
+  "mode": "published_snapshot",
+  "purpose": "Store Wednesday's complete post-review JobG8 published set in isolated Neon Preview, read it back, and compare exact IDs and key fields against final app JSON after the full city-page build.",
+  "publishedOutputRunId": 42989332810,
+  "publishedOutputArtifacts": [
+    {
+      "name": "applied-service-admin-output",
+      "id": 13843755060,
+      "sha256": "6df8152fd3e549f6123d1f9220e0552e12fca6c06ac93999b08cf05b928bf2d3"
+    },
+    {
+      "name": "applied-support-worker-output",
+      "id": 13843153505,
+      "sha256": "68b134ec30b77a802dd01ffd70e058fe05ea82b94b0e147abd3493ce5b4da3"
+    }
   ],
-  "maximumDatabaseBytes": 838860800,
-  "purpose": "Use the exact saved 10 November selector evidence from run 428316, artifact 13775030527. Skip feed fetch and selector replay; perform isolated Neon Preview write/readback, then validate the Administration reference stage before any Published parity claim. Production remains read-only.",
-  "sourceMode": "owner_pinned_saved_archive",
-  "attempt": 29,
-  "mode": "fresh_selection_parity",
-  "reuseEvidenceRunId": 42831639152,
-  "reuseEvidenceArtifactId": 13775030527
+  "expectedOutputJsonFiles": 250,
+  "expectedJobG8Rows": 6650,
+  "expectedUniqueJobG8Ids": 5491,
+  "productionAppCommitSha": "e9daaadb06c8b1c18ca034bb407edd0a008ea142",
+  "productionAppSnapshotAt": "2026-11-11T09:31:00Z",
+  "maximumDatabaseBytes": 838860800
 }
