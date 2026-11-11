@@ -20,6 +20,7 @@ try {
   }
   if(source.mode==='selection_parity' && bytes.length>25*1024*1024) throw new Error('Selection artifact too large');
   if(source.mode==='fresh_selection_neon' && bytes.length>200*1024*1024) throw new Error('Fresh selector artifact too large');
+  if(source.mode==='published_snapshot' && bytes.length>40*1024*1024) throw new Error('Published snapshot artifact too large');
   await fs.writeFile('source-artifact.zip',bytes);
   if(source.mode==='selection_parity') {
     if(!/^[a-f0-9]{64}$/.test(source.fixtureSha256)) throw new Error('Missing selection fingerprint');
@@ -53,6 +54,13 @@ with zipfile.ZipFile('source-artifact.zip') as a:
       || feedCategoryMapHash!==source.feedCategoryMapSha256) throw new Error('Fresh selector artifact fingerprint changed');
     const verifier = await import('./verify-fresh-selection-neon.mjs');
     await verifier.runFreshSelectionReadback();
+  } else if(source.mode==='published_snapshot') {
+    if(!/^[a-f0-9]{64}$/.test(source.snapshotSha256 || '')) throw new Error('Missing published snapshot fingerprint');
+    execFileSync('python3',['-c',"import zipfile; z=zipfile.ZipFile('source-artifact.zip'); n=[x for x in z.namelist() if x=='published-snapshot.json']; assert len(n)==1; assert z.getinfo(n[0]).file_size<=20000000; z.extract(n[0],'.')"],{stdio:'pipe'});
+    const actual=createHash('sha256').update(await fs.readFile('published-snapshot.json')).digest('hex');
+    if(actual!==source.snapshotSha256) throw new Error('Published snapshot fingerprint changed');
+    const verifier=await import('./verify-published-jobs-neon.mjs');
+    await verifier.runPublishedJobsReadback();
   } else {
     execFileSync('python3',['-c',`import zipfile,shutil
   with zipfile.ZipFile('source-artifact.zip') as a:
