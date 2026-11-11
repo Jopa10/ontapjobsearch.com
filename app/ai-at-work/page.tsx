@@ -85,14 +85,15 @@ export default function AiAtWorkPage() {
             <Link href="/ai-at-work/reception-and-office-admin" className="mt-auto inline-flex items-center font-bold text-blue-700 underline underline-offset-4 group-hover:text-blue-900">Read the practical guide →</Link>
           </article>
 
-          <article className="flex flex-col rounded-2xl border border-white/15 bg-white/10 p-6 backdrop-blur-sm">
+          <article className="group flex flex-col rounded-2xl border border-white/15 bg-white/10 p-6 backdrop-blur-sm transition duration-200 hover:-translate-y-0.5 hover:bg-white/15">
             <div className="mb-5 flex items-center justify-between gap-4">
               <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 text-sm font-extrabold text-white ring-1 ring-white/20">02</span>
-              <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-bold uppercase tracking-wider text-blue-100 ring-1 ring-white/15">Next in the series</span>
+              <span className="rounded-full bg-emerald-200/15 px-3 py-1 text-xs font-bold uppercase tracking-wider text-emerald-100 ring-1 ring-emerald-100/20">New</span>
             </div>
             <p className="mb-2 text-sm font-bold uppercase tracking-wider text-blue-200">Accounts and finance admin</p>
             <h3 className="mb-3 text-xl font-bold leading-snug text-white">AI is doing the data entry. Checking is your skill.</h3>
-            <p className="leading-7 text-slate-300">How accounts assistants can use AI to draft and explain while keeping control of every figure.</p>
+            <p className="mb-6 leading-7 text-slate-300">How accounts assistants can use AI to draft and explain while keeping control of every figure.</p>
+            <Link href="/ai-at-work/accounts-and-finance-admin" className="mt-auto inline-flex items-center font-bold text-blue-200 underline underline-offset-4 group-hover:text-white">Read the practical guide →</Link>
           </article>
         </div>
       </section>
