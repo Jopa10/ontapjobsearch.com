@@ -3,14 +3,26 @@
 review_date: 2026-11-11
 
 - Open Administrative & Clerical rows reviewed: 2033
-- Auto/remembered selected: 354
-- Selected HC Tier A: 179
-- Selected HC Tier B: 175
-- POSS awaiting decision: 1581
+- Auto/remembered selected: 357
+- Selected HC Tier A: 180
+- Selected HC Tier B: 177
+- POSS awaiting decision: 1579
 - Excluded: 0
-- HARD_PASS: 98
+- HARD_PASS: 97
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Merseyside - Sefton | Southport, PR8 6PN | £25272.00 | Receptionist - Patient Access
+source_job_id: 5720261
+title: Receptionist - Patient Access
+employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
+region: Merseyside - Sefton
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-1155
+factual_fingerprint: 072d27f672c905daf8e9d454f98bc6a9bd0c380871841f72d56aea1507b1cd21
+---
 
 ---
 action:
@@ -33,7 +45,7 @@ employer: Surrey and Borders Partnership NHS Foundation Trust
 region: Surrey
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9325-26-0921
-factual_fingerprint: b1e1e31f3b3c53773b421ad2866332653fe63c485483a1b659bb2efce78a029a
+factual_fingerprint: 6118bb1c4224b395c059dab6cfeb84d83988f0ba789d9c9a27d4306ddd2eb4e1
 ---
 
 ---
@@ -3686,18 +3698,6 @@ factual_fingerprint: ebce879e5aeedbc307f1ac273674f0e08746459d9d702b681356c066b0d
 
 ---
 action:
-POSS | NHS Jobs | Surrey | Chertsey, KT16 9FG | £33677.00 to £40996.00 | B5 Senior Administrator & Business Support manager
-source_job_id: 5712678
-title: B5 Senior Administrator & Business Support manager
-employer: Surrey and Borders Partnership NHS Foundation Trust
-region: Surrey
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9325-26-0902
-factual_fingerprint: 723fdd40ab60beca48b4bd2f5ac0b75ac5a9704340b1cba84468959d52ed0050
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - West | Leeds, LS12 2TJ | £33510.00 | Patient Engagement Lead
 source_job_id: 5716231
 title: Patient Engagement Lead
@@ -6130,18 +6130,6 @@ region: Cheshire - Warrington & Halton
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9370-ADM5MEL-2620
 factual_fingerprint: d60bbbb22040aef53e843db5e8624997f882e690c841dd382b7685341a668c8e
----
-
----
-action:
-POSS | NHS Jobs | Lincolnshire | Grimsby, DN33 2BA | £28392.00 to £31157.00 | Patient Services Team Leader - Gastroenterology
-source_job_id: 5712292
-title: Patient Services Team Leader - Gastroenterology
-employer: Northern Lincolnshire and Goole NHS Foundation Trust
-region: Lincolnshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0660
-factual_fingerprint: 764dcf2db374d4eddff6a1a16254e03fa7b1a5163677330d6df867dabf12cc4a
 ---
 
 ---
@@ -16882,18 +16870,6 @@ region: Cheshire - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0521-26-0001
 factual_fingerprint: 7764bdd1b364c10261204db221305897468db337886929bb4510dc074f629b78
----
-
----
-action:
-POSS | NHS Jobs | — | Bebington, CH63 4JY | £32073.00 to £39043.00 | Buyer
-source_job_id: 5691030
-title: Buyer
-employer: Wirral University Teaching Hospitals NHS Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9408-26-0468
-factual_fingerprint: b4cbdfa0da0aaed50960963f9dcbb8fb3d0835fb3cdc04085a79c6eb7ab0335c
 ---
 
 ---
