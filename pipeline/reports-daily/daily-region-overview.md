@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Production source commit: `e9daaadb06c8b1c18ca034bb407edd0a008ea142`
+Production source commit: `c88d74bcc669dfef0cd0b491b85b50f786e3f142`
 
-Generated: 2026-11-11T09:42:44+00:00
+Generated: 2026-11-11T18:43:25+00:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -105,13 +105,13 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 
 ## PAGES
 
-**Published/indexable URLs: 6,185** — 5,807 individual job pages, 258 regional/category pages, 112 city pages and 8 core pages.
+**Published/indexable URLs: 6,186** — 5,807 individual job pages, 259 regional/category pages, 112 city pages and 8 core pages.
 
 | Level | Page type | Area | Family | URL | Page count | Live jobs | In sitemap |
 |---|---|---|---|---|---:|---:|---|
-| Summary | All published/indexable URLs | Sitewide |  |  | 6,185 |  | Yes |
+| Summary | All published/indexable URLs | Sitewide |  |  | 6,186 |  | Yes |
 | Summary | Individual job | Sitewide |  | /jobs/[id] | 5,807 | 5,807 | Yes |
-| Summary | Regional/category | Sitewide |  | Multiple | 258 |  | Yes |
+| Summary | Regional/category | Sitewide |  | Multiple | 259 |  | Yes |
 | Summary | City | Sitewide |  | Multiple | 112 |  | Yes |
 | Summary | Core | Sitewide |  | Multiple | 8 |  | Yes |
 | Detail | Core | Sitewide |  | / | 1 |  | Yes |
@@ -119,6 +119,7 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | Detail | Core | Sitewide |  | /about | 1 |  | Yes |
 | Detail | Regional/category | Ai At Work | Ai At Work | /ai-at-work | 1 |  | Yes |
 | Detail | Regional/category | Ai At Work | Reception And Office Admin | /ai-at-work/reception-and-office-admin | 1 |  | Yes |
+| Detail | Regional/category | Ai At Work | Accounts And Finance Admin | /ai-at-work/accounts-and-finance-admin | 1 |  | Yes |
 | Detail | Regional/category | Ai At Work | Ai Job Advert Watch | /ai-at-work/ai-job-advert-watch | 1 |  | Yes |
 | Detail | Regional/category | Ai At Work | October 2026 | /ai-at-work/ai-job-advert-watch/october-2026 | 1 |  | Yes |
 | Detail | Core | Sitewide |  | /ai-tips | 1 |  | Yes |
