@@ -61,6 +61,17 @@ with zipfile.ZipFile('source-artifact.zip') as a:
     if(actual!==source.snapshotSha256) throw new Error('Published snapshot fingerprint changed');
     const verifier=await import('./verify-published-jobs-neon.mjs');
     await verifier.runPublishedJobsReadback();
+  } else if(source.mode==='selected_review_payloads') {
+    if(!/^[a-f0-9]{64}$/.test(source.snapshotSha256 || '')) throw new Error('Missing selected/review payload fingerprint');
+    execFileSync('python3',['-c',`import zipfile
+with zipfile.ZipFile('source-artifact.zip') as a:
+ names=[n for n in a.namelist() if n=='selected-review-payloads.json']
+ if len(names)!=1 or a.getinfo(names[0]).file_size>200000000: raise RuntimeError('Invalid selected/review payload fixture')
+ a.extract(names[0],'.')
+`],{stdio:'pipe'});
+    const actual=createHash('sha256').update(await fs.readFile('selected-review-payloads.json')).digest('hex');
+    if(actual!==source.snapshotSha256) throw new Error('Selected/review payload fingerprint changed');
+    await import('./verify-selected-review-payloads-neon.mjs');
   } else {
     execFileSync('python3',['-c',`import zipfile,shutil
   with zipfile.ZipFile('source-artifact.zip') as a:
