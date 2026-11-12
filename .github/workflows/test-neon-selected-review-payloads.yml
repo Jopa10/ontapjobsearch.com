@@ -6,7 +6,6 @@ on:
 permissions:
   contents: read
   actions: read
-  id-token: write
 concurrency:
   group: ontap-neon-selected-review-payloads
   cancel-in-progress: false
@@ -49,15 +48,24 @@ jobs:
               f.write('app_sha='+r['productionAppCommitSha']+'\n')
               f.write('run_sha='+r['productionRunCommitSha']+'\n')
           PY
-      - uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd
-        with:
-          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
-          aws-region: eu-west-2
-      - name: Read exact dated raw archive
+      - name: Read exact dated raw archive from the owner-pinned URL
+        env:
+          ONTAP_SAVED_FEED_URL: ${{ secrets.ONTAP_SAVED_FEED_URL }}
         run: |
           set -euo pipefail
+          test -n "$ONTAP_SAVED_FEED_URL"
+          archive_url="$(printf '%s' "$ONTAP_SAVED_FEED_URL" | tr -d '[:space:]')"
+          case "$archive_url" in https://*) ;; *) echo "::error::Saved feed URL must use HTTPS"; exit 1 ;; esac
+          python - "$archive_url" "${{ steps.req.outputs.day }}" <<'PY'
+          import sys
+          from urllib.parse import urlparse, unquote
+          path=unquote(urlparse(sys.argv[1]).path)
+          expected=sys.argv[2]+'.zip'
+          if not path.endswith('/'+expected):
+              raise SystemExit('Saved feed URL does not identify the exact dated raw archive')
+          PY
           mkdir -p "$RUNNER_TEMP/raw"
-          aws s3 cp "s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/${{ steps.req.outputs.day }}.zip" "$RUNNER_TEMP/raw/jobg8.zip" --only-show-errors
+          curl --fail --silent --show-error --location --retry 3 --retry-delay 5 --connect-timeout 30 --max-time 180 "$archive_url" --output "$RUNNER_TEMP/raw/jobg8.zip"
           test -s "$RUNNER_TEMP/raw/jobg8.zip"
           sha256sum "$RUNNER_TEMP/raw/jobg8.zip" | tee "$RUNNER_TEMP/raw/archive-sha256.txt"
       - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
