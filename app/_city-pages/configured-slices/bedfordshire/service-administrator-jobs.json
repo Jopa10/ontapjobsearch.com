@@ -609,31 +609,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225758063",
-    "title": "Accounts Assistant",
-    "company": "Abacus Consulting - Agency - Permanent",
-    "location": "Bedfordshire",
-    "region": "Bedfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "25000",
-    "salary_max": "26000",
-    "salary_text": "£25000 - £26000 per year",
-    "posted_date": "2026-11-11",
-    "description": "Finance Assistant Luton - £25,000-£26,(Apply online only)% onsite\n\nAbacus Consulting are delighted to be working with a well-respected professional services business in their search for a Finance Assistant. The role is permanent, full time and 100% office based.\n\nWorking as part of a team in a busy finance environment, your duties as the Finance Assistant will include:\n- Processing invoices\n- Chasing payment\n- Cash allocation\n- Bank reconciliations\n- Query resolution\n- Finance inbox/admin\n\nThe ideal candidate will live locally and have some finance experience. Great role in a supportive environment where you can expect ongoing personal and professional development.\n\nAbacus Consulting are acting as an Employment Agency in connection with this recruitment.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?55nS72RR%2bGfLjL08PzegHWhe%2b4qdNK3Nf",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Abacus Consulting",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225782845",
     "title": "Sales Support / Client Services",
     "company": "Allstaff - Agency - Permanent",
@@ -763,6 +738,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0397",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5723010",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "Bedfordshire Hospitals NHS Foundation Trust",
+    "advertiser_name": "Bedfordshire Hospitals NHS Foundation Trust",
+    "location": "Luton, LU4 0DZ",
+    "region": "Bedfordshire",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-11T16:07:13.103159028",
+    "closing_date": "2026-11-24",
+    "description": "We currently have an exciting opportunity for a ward clerk to come and join our team. The post holder will undertake clerical work, necessary in the efficient running of the ward, and will need to work without supervision, using their own initiative when dealing with enquiries that arise. The post also demands the ability to communicate at all levels with patients, relatives and medical colleagues to maintain a high standard of service to meet the needs of the patients. The post-holder will be an integral part of the ward team ensuring that it runs smoothly on a day to day basis. The ward clerk will undertake clerical work, necessary in the efficient running of the ward, and will need to work without supervision, using their own initiative when dealing with enquires that arise. The post also demands the ability to communicate at all levels with patients, relatives and medical colleagues to maintain a high standard of service to meet the needs of the patients. To provide support regarding communication for staff within the Trust and with patients/ relatives, to facilitate a successful outcome of all enquires.To keep a full record of patients admitted and discharged (in/Out Book), i.e., Hospital Number, follow-up appointment, movement of notes, and patient information. Updating IT systems for admission and discharge of patientsDuties to include but not exhaustive: -a) To update IT systems: to include, admissions, discharges, updating of patient details (correct address, GP details, next of kin).b) To ensure that the patient is admitted under the correct Consultant.c) To file admission packs for new patients in accordance with admission pack filing notes.d) To ensure trollies are ready for Ward rounds, also ensuring that there are continuation sheets and labels for all in patientse) To make/request follow up appointments for discharged patients.f) To file discharge episode in accordance with discharge filing notes.g) In the case of deceased patients, ensure correct paperwork is printed for Bereavement office and contact GP.h) To continually monitor IT systems throughout the working day for any changes in patients status.To support Ward staff in dealing with telephone enquiriesTo sort and distribute mail, re-addressing discharged patients' mail.Report any faults/work required or faulty equipment to facilities help desk and clinical engineering.Order non-stock equipment and stationery from Lyreco/ADB, keeping minimal stock as next day delivery available.To support with the training of new members of staff.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-1157",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-1157",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]

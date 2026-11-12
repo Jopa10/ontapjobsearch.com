@@ -2,15 +2,39 @@
 
 review_date: 2026-11-12
 
-- Open Administrative & Clerical rows reviewed: 2052
+- Open Administrative & Clerical rows reviewed: 2054
 - Auto/remembered selected: 345
 - Selected HC Tier A: 177
 - Selected HC Tier B: 168
-- POSS awaiting decision: 1608
+- POSS awaiting decision: 1610
 - Excluded: 0
 - HARD_PASS: 99
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Essex | Colchester, CO4 5JL | £57528.00 to £64750.00 | Business Manager
+source_job_id: 5723553
+title: Business Manager
+employer: East Suffolk and North Essex NHS Foundation Trust
+region: Essex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0869
+factual_fingerprint: 86574614b508627279a2cbadced0ac23c889d251ac8664f9127b5f7f321c2671
+---
+
+---
+action:
+POSS | NHS Jobs | Oxfordshire | Oxford, OX3 8RZ | Negotiable | Regional General Manager (Leeds)
+source_job_id: 5723504
+title: Regional General Manager (Leeds)
+employer: MSI Reproductive Choices
+region: Oxfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0539-26-0261
+factual_fingerprint: f6d33ee6529734a0adfdcee3d45f0a08396bcc7b7149c3410f5ed07766423b24
+---
 
 ---
 action:
@@ -1605,7 +1629,7 @@ employer: Dorset HealthCare University NHS Foundation Trust
 region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1224
-factual_fingerprint: d38bed26bee72153f4124507c2d2e07c160eeb4073bd0faf9a65db2d8fc9e121
+factual_fingerprint: b1ba5cd554b219d6fc53767772e0b38f23fd986ab4802b87d97198729f078bce
 ---
 
 ---
@@ -3861,7 +3885,7 @@ employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3402
-factual_fingerprint: 35006745963ba1a3de26b171e57fafe43309cba69c6b7a91e3abcb56d8bc0153
+factual_fingerprint: 4af56159160bf2f74706132691d26a6b278fec42293e630da983e2ffe4f03b4b
 ---
 
 ---
