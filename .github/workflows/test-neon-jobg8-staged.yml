@@ -42,7 +42,7 @@ jobs:
           from pathlib import Path
           request=json.loads(Path('database/shadow/stage-request.json').read_text())
           mode=request.get('mode','source')
-          if mode not in {'source','selection_parity','fresh_selection_parity','published_snapshot'}:
+          if mode not in {'source','selection_parity','fresh_selection_parity','published_snapshot','selected_review_payloads'}:
               raise SystemExit('Unknown shadow test mode')
           archive_date=request.get('archiveDate','')
           reuse_run=request.get('reuseEvidenceRunId')

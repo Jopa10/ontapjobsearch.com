@@ -1,0 +1,143 @@
+name: Neon Preview full payload selected and review
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/stage-request.json]
+permissions:
+  contents: read
+  actions: read
+  id-token: write
+concurrency:
+  group: ontap-neon-selected-review-payloads
+  cancel-in-progress: false
+jobs:
+  preview-payload-test:
+    if: github.ref == 'refs/heads/feat/neon-shadow-database'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+          sparse-checkout: |
+            database/shadow
+            pipeline/scripts
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Validate dated request
+        id: req
+        run: |
+          python - <<'PY'
+          import json, os, re
+          from pathlib import Path
+          r=json.loads(Path('database/shadow/stage-request.json').read_text())
+          if r.get('mode')!='selected_review_payloads': raise SystemExit('Not the selected/review payload test request')
+          d=r.get('archiveDate','')
+          if not re.fullmatch(r'20\d\d-\d\d-\d\d',d): raise SystemExit('Invalid archive date')
+          for k in ('productionOutputRunId','productionAppCommitSha','productionRunCommitSha'):
+              if k not in r: raise SystemExit('Missing '+k)
+          arts=r.get('publishedOutputArtifacts',[])
+          if len(arts)!=2 or {x.get('name') for x in arts}!={'service-admin-output','support-worker-output'}:
+              raise SystemExit('Need the two exact production output artifacts')
+          if any(not isinstance(x.get('id'),int) for x in arts): raise SystemExit('Invalid artifact IDs')
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              f.write('day='+d+'\n')
+              f.write('run_id='+str(r['productionOutputRunId'])+'\n')
+              f.write('artifact_ids='+','.join(str(x['id']) for x in arts)+'\n')
+              f.write('app_sha='+r['productionAppCommitSha']+'\n')
+              f.write('run_sha='+r['productionRunCommitSha']+'\n')
+          PY
+      - uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd
+        with:
+          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
+          aws-region: eu-west-2
+      - name: Read exact dated raw archive
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/raw"
+          aws s3 cp "s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/${{ steps.req.outputs.day }}.zip" "$RUNNER_TEMP/raw/jobg8.zip" --only-show-errors
+          test -s "$RUNNER_TEMP/raw/jobg8.zip"
+          sha256sum "$RUNNER_TEMP/raw/jobg8.zip" | tee "$RUNNER_TEMP/raw/archive-sha256.txt"
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          artifact-ids: ${{ steps.req.outputs.artifact_ids }}
+          run-id: ${{ steps.req.outputs.run_id }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/production-output
+          merge-multiple: true
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: ${{ github.repository }}
+          ref: ${{ steps.req.outputs.app_sha }}
+          path: production-final
+          persist-credentials: false
+          sparse-checkout: |
+            pipeline/reviews/jobg8
+          sparse-checkout-cone-mode: false
+      - name: Prepare selected and review payloads only
+        run: |
+          python database/shadow/prepare_selected_review_payloads.py \
+            --archive "$RUNNER_TEMP/raw/jobg8.zip" \
+            --outputs "$RUNNER_TEMP/production-output" \
+            --reviews production-final/pipeline/reviews/jobg8 \
+            --date "${{ steps.req.outputs.day }}" \
+            --production-run-id "${{ steps.req.outputs.run_id }}" \
+            --production-run-commit "${{ steps.req.outputs.run_sha }}" \
+            --app-commit "${{ steps.req.outputs.app_sha }}" \
+            --output "$RUNNER_TEMP/selected-review-payloads.json"
+      - name: Package full payloads for isolated Preview build
+        run: |
+          python - "$RUNNER_TEMP/selected-review-payloads.json" database/shadow/harness <<'PY'
+          import hashlib,json,sys,zipfile
+          from pathlib import Path
+          p,h=map(Path,sys.argv[1:])
+          b=p.read_bytes(); s=json.loads(b)
+          source={'mode':'selected_review_payloads','feedDate':s['feedDate'],
+            'productionWorkflowRunId':s['productionWorkflowRunId'],
+            'productionRunCommit':s['productionRunCommit'],'productionAppCommit':s['productionAppCommit'],
+            'expectedRecords':s['uniqueSelectedOrReviewIds'],'snapshotSha256':hashlib.sha256(b).hexdigest()}
+          (h/'source-download.json').write_text(json.dumps(source,indent=2)+'\n')
+          with zipfile.ZipFile(h/'source-artifact.zip','w',zipfile.ZIP_DEFLATED) as z:
+              z.writestr('selected-review-payloads.json',b)
+      - name: Deploy verifier to Vercel Preview and read Neon result
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -n "$VERCEL_TOKEN"
+          harness=database/shadow/harness
+          npm ci --omit=dev --ignore-scripts --prefix "$harness"
+          cli="$RUNNER_TEMP/vercel-cli"
+          npm install --prefix "$cli" --no-save --ignore-scripts --no-audit --no-fund vercel@65.14.0
+          cd "$harness"
+          "$cli/node_modules/.bin/vercel" deploy --yes --token="$VERCEL_TOKEN" --scope ontap1 2>&1 | tee "$RUNNER_TEMP/vercel-deploy.log"
+          url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/vercel-deploy.log" | tail -1)"
+          test -n "$url"
+          "$cli/node_modules/.bin/vercel" curl /selected-review-readback-report.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/selected-review-readback-report.json"
+          "$cli/node_modules/.bin/vercel" curl /selected-review-readback-manifest.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/selected-review-readback-manifest.json"
+          printf '%s\n' "$url" > "$RUNNER_TEMP/preview-url.txt"
+          python - "$RUNNER_TEMP/selected-review-readback-report.json" <<'PY'
+          import json,sys
+          r=json.load(open(sys.argv[1]))
+          assert r.get('status')=='passed'
+          assert r.get('exactIdsMatch') is True and r.get('fullPayloadAndHashesMatch') is True
+          assert r.get('excludedFeedPayloadsStored')==0
+          assert r.get('preservedWednesday',{}).get('unchanged') is True
+          print('Full selected/review payload Preview readback passed:',r['neonRows'],'records')
+          PY
+      - name: Preserve full payload Preview evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: neon-shadow-selected-review-payloads-${{ steps.req.outputs.day }}
+          path: |
+            ${{ runner.temp }}/raw/archive-sha256.txt
+            ${{ runner.temp }}/selected-review-payloads.json
+            ${{ runner.temp }}/selected-review-readback-report.json
+            ${{ runner.temp }}/selected-review-readback-manifest.json
+            ${{ runner.temp }}/preview-url.txt
+            database/shadow/stage-request.json
+          if-no-files-found: ignore
+          retention-days: 90

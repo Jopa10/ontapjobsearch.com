@@ -6,6 +6,8 @@ import { verifySample } from './verify-client.mjs';
 async function main() {
   if (process.env.VERCEL_ENV !== 'preview') throw new Error('Preview-only verification');
   if (process.env.ONTAP_SHADOW_NEON_PROJECT_ID !== 'noisy-fire-97386602') throw new Error('Wrong Neon test project');
+  const sourcePath=new URL('./source-download.json',import.meta.url);
+  try { const source=JSON.parse(await fs.readFile(sourcePath,'utf8')); if (source.mode==='selected_review_payloads') { await import('./verify-selected-review-payloads-neon.mjs'); return; } } catch (e) { if (e.code!=='ENOENT') throw e; }
   const connectionString=process.env.ONTAP_SHADOW_DATABASE_URL;
   if (!connectionString) throw new Error('Missing shadow connection');
   const url=new URL(connectionString);

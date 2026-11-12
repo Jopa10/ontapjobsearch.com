@@ -1,9 +1,9 @@
 {
   "archiveDate": "2026-11-12",
-  "mode": "published_snapshot",
-  "purpose": "Store Thursday's post-review JobG8 published set in isolated Neon Preview as a separate dated snapshot, read it back, compare exact IDs with the final published app JSON, and preserve Wednesday's existing Neon records.",
-  "publishedOutputRunId": 43175843740,
-  "publishedOutputArtifacts": [
+  "mode": "selected_review_payloads",
+  "purpose": "Store only full JobG8 payloads for Thursday production-selected and automated-review jobs in isolated Neon Preview, verify exact IDs/payload hashes/outcome and preserve the Wednesday snapshot.",
+  "productionOutputRunId": 43175843740,
+  "productionOutputArtifacts": [
     {
       "name": "service-admin-output",
       "id": 13927235898,
@@ -15,11 +15,8 @@
       "sha256": "e04bbd4ae225c511cd83b5c3532c90f2deea097e3d1a7197c859389b6cd75410"
     }
   ],
-  "expectedOutputJsonFiles": 250,
-  "expectedJobG8Rows": 6602,
-  "expectedUniqueJobG8Ids": 5447,
   "productionAppCommitSha": "bbd0f37a060131727042827513277b2bc116c2fa",
-  "productionAppSnapshotAt": "2026-11-12T08:58:18.386Z",
+  "productionRunCommitSha": "f8268505468af9b5b21b1d6260047455104bd5c9",
   "maximumDatabaseBytes": 838860800,
-  "attempt": 2
+  "reserveBytes": 67108864
 }
