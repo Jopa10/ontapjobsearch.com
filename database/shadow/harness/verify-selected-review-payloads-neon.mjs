@@ -9,8 +9,16 @@ const canon=v=>Array.isArray(v)?v.map(canon):v&&typeof v==='object'
   ?Object.fromEntries(Object.keys(v).sort().map(k=>[k,canon(v[k])])):v;
 const bytes=async c=>Number((await c.query('SELECT pg_database_size(current_database())::text AS n')).rows[0].n);
 async function wed(c) {
- const r=await c.query("SELECT public_id,projected_fields,snapshot_metadata FROM ontap_shadow.published_output_snapshot_records WHERE feed_date='2026-11-11'::date ORDER BY public_id");
- assert.equal(r.rows.length,5491,'Wednesday published snapshot row count changed');
+ const r=await c.query(
+  "SELECT j.public_id,j.title,j.employer,j.location,j.region,j.role_family,"+
+  "j.salary_min::text AS salary_min,j.salary_max::text AS salary_max,j.salary_period,j.salary_text,"+
+  "a.advertiser_name,a.apply_url,"+
+  "j.classification_evidence->'published_output_snapshot'->>'date' AS snapshot_date "+
+  "FROM ontap_shadow.jobs j JOIN ontap_shadow.supplier_adverts a ON a.job_id=j.id "+
+  "JOIN ontap_shadow.suppliers s ON s.id=a.supplier_id "+
+  "WHERE s.code='jobg8' AND j.publication_status='published' ORDER BY j.public_id");
+ assert.equal(r.rows.length,5491,'Wednesday published set row count changed');
+ assert.ok(r.rows.every(row=>row.snapshot_date==='2026-11-11'),'Existing published set is not the Wednesday snapshot');
  return {date:'2026-11-11',count:r.rows.length,sha256:hash(JSON.stringify(canon(r.rows)))};
 }
 async function run() {
