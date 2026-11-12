@@ -2,15 +2,87 @@
 
 review_date: 2026-11-12
 
-- Open Administrative & Clerical rows reviewed: 2048
+- Open Administrative & Clerical rows reviewed: 2052
 - Auto/remembered selected: 345
 - Selected HC Tier A: 177
 - Selected HC Tier B: 168
-- POSS awaiting decision: 1604
+- POSS awaiting decision: 1608
 - Excluded: 0
 - HARD_PASS: 99
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Oxfordshire | Oxford, OX39DU | £32073.00 to £39043.00 | Team Leader
+source_job_id: 5719711
+title: Team Leader
+employer: Oxford University Hospitals NHS Foundation Trust
+region: Oxfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-2136
+factual_fingerprint: 16065fb41a2fc4f93d9514a5011c5576ed30950cc3c311f87470fa8d0151c0cc
+---
+
+---
+action:
+POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L24 8RF | £25272.00 | HR Hub Assistant - Recruitment
+source_job_id: 5723221
+title: HR Hub Assistant - Recruitment
+employer: North West Ambulance Service NHS Trust
+region: Merseyside - Liverpool
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9242-26-0224
+factual_fingerprint: 43f155e55a9df410ceeb66f869a36512b83d1862187fd6fe4af81f89b5795d2c
+---
+
+---
+action:
+POSS | NHS Jobs | — | Wimbledon, SW191RH | £36943.00 to £44900.00 | PHB Support Officer
+source_job_id: 5722074
+title: PHB Support Officer
+employer: South West London Integrated Care Board
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9491-26-0026
+factual_fingerprint: 61ff4c4230a94993e3a2d82a1eded7137a604d925149537fb84413cffaefae63
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Wigan & Bolton | Bolton, BL4 0JR | Negotiable | Volunteer Maternity Ward Helper
+source_job_id: 5723432
+title: Volunteer Maternity Ward Helper
+employer: Bolton NHS Foundation Trust
+region: Greater Manchester - Wigan & Bolton
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0430
+factual_fingerprint: 9a56dd7e1141a64b0b931ff6f2c60bd99b0b7fd51dcf6e603cae930ff32fc777
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M1 1PL | £28642.00 | Senior Administrator - City Health Centre
+source_job_id: 5719296
+title: Senior Administrator - City Health Centre
+employer: Gtd Healthcare
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0157
+factual_fingerprint: 033a49162131214c6d67fa56b40236022b6015bdeb372b81ccf85fbc088ae7c6
+---
+
+---
+action:
+POSS | NHS Jobs | Gloucestershire | Gloucester, GL1 2DB | £24625.00 to £25674.00 | Respiratory Service Administrator
+source_job_id: 5723408
+title: Respiratory Service Administrator
+employer: Gloucestershire Health and Care NHS Foundation Trust
+region: Gloucestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0963
+factual_fingerprint: 23a939e4a2792c45a1046c2a87c04f4f712796b5f55537e03da3f4bd83313f44
+---
 
 ---
 action:
@@ -1905,7 +1977,7 @@ employer: Cambridge University Hospital NHS Foundation Trust
 region: Cambridgeshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1418
-factual_fingerprint: 5f7cc824bd41049f46d31acd4bce46de780b2f2acca7d46fb5e9caba7e3ba4b0
+factual_fingerprint: aaa357c8be6387421d58f7332b517c94aad1ef7e1dddf3072bd275ef54ccf3b8
 ---
 
 ---
@@ -6753,7 +6825,7 @@ employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2310
-factual_fingerprint: 149a6a91464c642b4b79e382b54779dd873d2a8bade62417e983e54d9faf56c3
+factual_fingerprint: ae8a2ee2f54d0b9c7a9efdf2f436a5b2386c34f3a0d972414a0608833ccd5ad9
 ---
 
 ---
@@ -6765,7 +6837,7 @@ employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2309
-factual_fingerprint: 0fb0a4fac953b1d4ff3a3db3f1e873861edc0fc949e9e2d3b11722cf2f4468ea
+factual_fingerprint: f7b31a624a160022599949ab9cccbec1166064ad645c523e4d0ff3e7b9b70f5f
 ---
 
 ---
@@ -7810,18 +7882,6 @@ region: Yorkshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0887-26-0005
 factual_fingerprint: 38aac7a348a3f08a15eb35bf45d953a91b32f793e9b8c18b24f8c5d91e052ca4
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - West | Bradford, BD9 6RJ | £25272.00 | Patient Admin Clerk, Maternity Admissions
-source_job_id: 5713350
-title: Patient Admin Clerk, Maternity Admissions
-employer: Bradford Teaching Hospitals NHS Foundation Trust
-region: Yorkshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0605
-factual_fingerprint: 4e2e1c89acdbeb48ffeb98ed3f74bfbf43b4d9e87ad209ea6c3deb11e4e863d6
 ---
 
 ---
@@ -9334,18 +9394,6 @@ region: Kent
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9275-26-0243
 factual_fingerprint: 3c2b5e3fd809102671410ce239ff2ed5305297ec0605b869f00a6f4218b2e6e2
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B15 2TG | £25760.00 to £27476.00 | Safeguarding Administrator
-source_job_id: 5710649
-title: Safeguarding Administrator
-employer: Birmingham Women's and Children's NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9284-26-0509
-factual_fingerprint: fa2cb582d597adf46724d3917883f2905f226caed1cbe1ce0d0b2128775a69a0
 ---
 
 ---
@@ -12189,7 +12237,7 @@ employer: Ashfields Primary Care Centre
 region: Cheshire - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2297-26-0025
-factual_fingerprint: 4d35bc1eb101b467d7643c6d980fadffa866421dc7cdb766145b753453344c8a
+factual_fingerprint: 02cf29f47904bb144b98c3f749570d516995c673d997923901d2d2bf21b164a6
 ---
 
 ---
