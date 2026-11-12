@@ -275,6 +275,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225827055",
+    "title": "HR Assistant",
+    "company": "Supertemps Ltd - Agency - Temporary",
+    "location": "Wrexham",
+    "region": "North Wales - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "15",
+    "salary_max": "15",
+    "salary_text": "£15 per hour (benefits)",
+    "posted_date": "",
+    "description": "Are you an organised people-focused administrator looking for a varied role within a busy yet friendly People Team? This is a great opportunity to use your HR, administration and IT skills while gaining further experience supporting a professional HR function.\n\nIn the HR / People Team Assistant role you will be:\n- Administering recruitment and onboarding, including DBS and Right to Work checks\n- Supporting employee lifecycle processes including flexible working, sickness absence and annual leave\n- Maintaining accurate employee records across HR, payroll and other systems\n- Responding to queries by email, telephone and face-to-face, resolving or escalating where appropriate\n- Supporting payroll and recruitment administration, including purchase orders and BACS requests\n- Arranging meetings, maintaining records and supporting document management\n- Providing flexible support and cover to other members of the People Team\n\nTo be successful, you will need:\n- Previous HR and office administration experience\n- Strong organisational and administrative skills with excellent attention to detail\n- Good IT skills and confidence using computerised systems including Microsoft Office and internal systems\n- Excellent communication and interpersonal skills\n- The ability to handle confidential information with discretion\n- A proactive, flexible approach and the ability to hit the ground running\n\nThis is a 9-month temporary, full-time opportunity based in Wrexham, offering a competitive salary up to £15p/h depending on experience.\n\nIf your wanting to gain valuable experience within a busy environment, apply now or get in touch to find out more!",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?7PhVxzLSGdH6EckJ8pU2JQDdao%2bF0jXpv",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Supertemps Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225743198",
     "title": "Administrator",
     "company": "Adecco - Agency - Temporary",
@@ -600,24 +625,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "nhs-5707662",
-    "source": "NHS Jobs",
-    "title": "Health Records Clerk",
-    "company": "Betsi Cadwaladr University Health Board",
-    "advertiser_name": "Betsi Cadwaladr University Health Board",
-    "location": "Rhyl, LL18 5UJ",
-    "region": "North Wales - East",
-    "salary": "£26300.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-11-04T14:56:57.699835243",
-    "closing_date": "2026-11-11",
-    "description": "An exciting opportunity has arisen for a Health Records Clerk in Central. The medical Records Clerk will be responsible for providing an essential support service in the continuing care of patients, ensuring that the case notes are at the right place at the right time. The post holder will cover all aspects of the role including, the pulling, filing, pruning, destruction, preparation amalgamation and secure transportation of case notes. The Health Records Clerk will be responsible for providing an essential support service in the continuing care of patients, ensuring that the case notes are at the right place at the right time. To actively promote the vision for the Health Records service working towards a Digital Records future and support the delivery of modernisation plans for Health Records. This will require the post holder to support with the delivery of the Health Records Operational Plan by supporting the Health Records Supervisors/Co-ordinator/ Assistant Site Manager. The ability to speak Welsh is desirable for this post; English and/or Welsh speakers are equally welcome to apply. You will be able to find a full Job description and Person Specification attached within the supporting documents or please click Apply now to view in Trac.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2614",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2614",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
     "job_id": "nhs-5612971",
     "source": "NHS Jobs",
     "title": "Medical Receptionist",
@@ -633,6 +640,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0749-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0749-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

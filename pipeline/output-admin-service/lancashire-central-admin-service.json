@@ -25,31 +25,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2126907",
-    "title": "Accounts Assistant",
-    "company": "Reed - Agency - Permanent",
-    "location": "Preston",
-    "region": "Lancashire - Central",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Finance Assistant\n\nLocation: Preston\n\nSalary: Up to £30,000\n\nHours: Full-time or Part-time considered\n\nWorking Pattern: Hybrid working available\n\nReed Accountancy are recruiting on behalf of a well-established and growing Lancashire-based business for an experienced Finance Assistant to support the Regional Finance Director and wider finance team. This is an excellent opportunity for an AAT qualified or part-qualified accountant looking to further develop their career within a successful organisation known for its growth, stability and excellent staff retention.\n\nKey Responsibilities\n- Processing purchase and sales invoices using Sage\n- Maintaining accurate purchase and sales ledgers\n- Preparing payment runs and completing bank reconciliations\n- Posting journals, accruals and prepayments\n- Managing credit control activities and cash allocations\n- Preparing and submitting VAT and CIS returns\n- Assisting with the production of management accounts\n- Supporting year-end audit processes\n- Producing ad-hoc financial reports and analysis as required\n- Providing general support to the Regional Finance Director and finance team\n\nBenefits\n- Salary up to £30,000\n- Hybrid working arrangement\n- Full-time or part-time hours considered\n- 25 days annual leave plus bank holidays\n- Annual leave increases to 27 days after 2 years' service\n- Additional company holiday on the working day after Boxing Day\n- 4x salary life cover\n- Personal travel insurance\n- Regular company events and social activities\n- Opportunity to develop within a growing and supportive finance team\n\nThis position would suit a finance professional with strong transactional accounting experience who is looking to broaden their exposure and progress within a forward-thinking organisation.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNtto5wc4KzrIRYr1zh8mciw3xa",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Accounts Assistant Finance Assistant Location: Preston Salary: Up to £30,000 Hours: Full-time or Part-time considered Working Pattern: Hybrid working available Reed Accountancy are recruiting on behalf of a well-established and growing Lancashire-based business for an experienced Finance Assistant to support the Regional Finance Director and wider finance team.",
-    "advertiser_name": "Reed",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2203492",
     "title": "Accounts Assistant (6 Month FTC)",
     "company": "Axon Moore Group Ltd - Agency - Permanent",
@@ -390,7 +365,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2412-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2412-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5714083",
@@ -408,7 +387,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0416-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0416-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5713910",
@@ -426,6 +409,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0573-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0573-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
