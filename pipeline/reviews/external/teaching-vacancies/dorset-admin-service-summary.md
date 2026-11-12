@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-11-11
-review_fingerprint: 9beb286ddc064d5645f4b247cd67a4a3f476d2c1b0db1e555caae9e4e44b3309
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: 7b95a8f1bd55d2b3850d7d8b93d4d9b47d7a28524bb976ce7aa895821181724c
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Dorset | Bournemouth, South West, BH9 2TG | £27,274 - £29,071 per annum (actual salary for term-time working £23,917 - £25,493) | Finance and Admin Assistant - Winton Primary School
+employer: Winton Primary School
+closing_date: 2026-11-23T08:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6297b311aa212f679384c07b24bf1ff8b6a8cd1c19da9ffb8b3f08e05594f703
+source: Teaching Vacancies
+source_job_id: finance-and-admin-assistant-winton-primary-school-winton-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-admin-assistant-winton-primary-school-winton-primary-school
+---
 
 ---
 action: 

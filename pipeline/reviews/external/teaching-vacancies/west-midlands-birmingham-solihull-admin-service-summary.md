@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-11
-review_fingerprint: 8f8e8132bdcd2b3a3e173f26f209f85c8f8e5eb56bf8a7fc52ed94bc5451a981
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: 63053d3fe732099d9405ecfa7f11db8cc6f0eaab6eb6a3184f77905e5bb713ba
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 15
 - Selected: 4
-- POSS awaiting decision: 4
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 6
 
@@ -126,6 +126,21 @@ factual_fingerprint: 85785f7dc86bb79a50aa58e3be730c225adb1956d7e6c9de6facefe7926
 source: Teaching Vacancies
 source_job_id: office-administrator-manor-park-primary-academy-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-manor-park-primary-academy-birmingham-west-midlands
+---
+
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 7SD | £25,614.00 - £26,016.00 Annually (Actual) Grade 2 SCP 3-4 (£25614 - £26016 FTE) | 52.14 Weeks Per year | Receptionist
+employer: Q3 Academy Great Barr
+closing_date: 2026-11-26T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 877aa585a8c0ba751f5e96df63a5c981c95efdce0f5cf392050e014881b7dbf9
+source: Teaching Vacancies
+source_job_id: receptionist-085b338d-4d42-40aa-92a2-f945aaf9e693
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-085b338d-4d42-40aa-92a2-f945aaf9e693
 ---
 
 ---

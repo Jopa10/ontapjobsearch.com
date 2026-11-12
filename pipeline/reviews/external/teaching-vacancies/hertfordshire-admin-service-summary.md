@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-11
-review_fingerprint: a306ccb9d7791de27075ba2093b9330bde04d7a906c5b202280ac206cd8e98ec
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: b90a3ed411f9c96c7fff708099a40877ca18c86508a2e2acf4adc1acb869643c
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 14
 - Selected: 5
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -113,21 +113,6 @@ source_job_id: send-administrator-presdales-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-presdales-school
 ---
 
----
-action: 
-POSS | Hertfordshire | Tring, East of England, HP23 5JD | £24,084.00 - £26,104.00 Annually (Actual) Herts Payscale H5 | SEND Administrator
-employer: Tring School
-closing_date: 2026-11-12T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 90adeee8801151bb39824c4132b366bae0b132fab9b50c658dccf55d515fa6f7
-source: Teaching Vacancies
-source_job_id: send-administrator-tring-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-tring-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -139,7 +124,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-tr
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-st-george-s-school) — Excluded senior/management title.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodfield-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lodge-farm-primary-school) — Excluded senior/management title.
-- [SEND Family Liaison Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/send-family-liaison-co-ordinator) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-st-mary-s-church-of-england-high-school-va) — Excluded senior/management title.
 - [Sixth Form Student Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-student-liaison-officer) — Insufficient admin/service evidence.
 - [Trust Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-manager-st-francis-of-assisi-catholic-academy-trust) — Excluded senior/management title.

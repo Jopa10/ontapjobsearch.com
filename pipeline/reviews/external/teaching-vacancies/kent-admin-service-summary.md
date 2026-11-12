@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-11-11
+review_date: 2026-11-12
 review_fingerprint: 0255fb6b40c60fc930adc2b0de54f0a2d37a10f66c2aed88f443a39ad7e0e8b7
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -48,7 +48,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-music-schoo
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-staplehurst-school) — Insufficient admin/service evidence.
 - [Admission Officer](https://teaching-vacancies.service.gov.uk/jobs/admission-officer-st-john-fisher-catholic-comprehensive-school) — Insufficient admin/service evidence.
-- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-hillview-school-for-girls-tonbridge-kent) — Excluded senior/management title.
 - [Executive Team Operations & Admin Coordinator](https://teaching-vacancies.service.gov.uk/jobs/executive-team-operations-admin-coordinator) — Insufficient admin/service evidence.
 - [Head of Data & Insights](https://teaching-vacancies.service.gov.uk/jobs/head-of-data-insights-the-howard-academy-trust) — Excluded senior/management title.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-wrotham-school) — No usable numeric salary.

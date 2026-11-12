@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-11
-review_fingerprint: b76470717279cf7f43a0dae12e484b86067c81f9713966a2a57bc99add348b8d
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: f65f31cf1bd1e3c52422797d5ff1f74060c30d57a27b8ab6c99eac5637d73f37
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
-- POSS awaiting decision: 4
+- Records: 15
+- Selected: 8
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
@@ -53,6 +53,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/librarian-and-careers
 
 ---
 action: 
+SELECTED | Buckinghamshire | Aylesbury, South East, HP20 1DP | £19,870-£20,660 per annum (FTE £24,836 to £25,823) | Receptionist
+employer: Stocklake Park Community School
+closing_date: 2026-11-20T23:59:59+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8daaaa61a719667c10007ba472efa25f8b2557ffd41e16094d3cdc362d2ae064
+source: Teaching Vacancies
+source_job_id: receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
+employer: Lift Sir Herbert Leon
+closing_date: 2026-11-17T13:08:02+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 881a26fa6ab64cba8a0f0aa26f4b8c19a4ad0a8dd29f6f1b9b9c13aba98ab33b
+source: Teaching Vacancies
+source_job_id: receptionist-lift-sir-herbert-leon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
+---
+
+---
+action: 
 SELECTED | Buckinghamshire | Milton Keynes, South East, MK14 6AX | £29,070.00 - £31,015.00 Annually (Actual) Point 11 -15 £29,070 - £31,015 FTE, Pro rata accordingly | Receptionist
 employer: Stephenson Academy
 closing_date: 2026-11-19T12:00:00+00:00
@@ -79,6 +109,21 @@ factual_fingerprint: 55c6957f136dc06bc1a950471aac1e56780468209e9e10bffadf37737e2
 source: Teaching Vacancies
 source_job_id: receptionist-admin-support-and-medical-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-support-and-medical-assistant
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Beaconsfield, South East, HP9 1RR | £21,944.00 - £23,781.00 Annually (Actual) Bucks Pay Scale R2 | Receptionist and Reprographics Assistant
+employer: Beaconsfield High School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 05748830a041a4fdfb67a26f3226c6fc5925273bf6e963c215a754df488471e3
+source: Teaching Vacancies
+source_job_id: receptionist-and-reprographics-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-reprographics-assistant
 ---
 
 ---
@@ -111,36 +156,6 @@ factual_fingerprint: 881a657dc4002df9e62f2c4ca0a70ae8e926ff74d1bc65b22a6e3e58396
 source: Teaching Vacancies
 source_job_id: human-resources-officer-employee-relations
 source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-employee-relations
----
-
----
-action: 
-POSS | Buckinghamshire | Aylesbury, South East, HP20 1DP | £19,870-£20,660 per annum (FTE £24,836 to £25,823) | Receptionist
-employer: Stocklake Park Community School
-closing_date: 2026-11-20T23:59:59+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8daaaa61a719667c10007ba472efa25f8b2557ffd41e16094d3cdc362d2ae064
-source: Teaching Vacancies
-source_job_id: receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
----
-
----
-action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
-employer: Lift Sir Herbert Leon
-closing_date: 2026-11-17T13:08:02+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 881a26fa6ab64cba8a0f0aa26f4b8c19a4ad0a8dd29f6f1b9b9c13aba98ab33b
-source: Teaching Vacancies
-source_job_id: receptionist-lift-sir-herbert-leon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
 ---
 
 ---

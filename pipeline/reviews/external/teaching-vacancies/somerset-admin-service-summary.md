@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-11
-review_fingerprint: 6561c0b7d12dee3b451a7a6faeb5f940e72a797b67f5c5610287b13dc133680d
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: a1e8bd03c3910668037aa765e1e8b3526a7a2f26fbe7034402c48db64eb5582c
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 5
+- Records: 8
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -49,6 +49,21 @@ factual_fingerprint: a70e2cb366ba10a5626367e2a49abc42fd17b6a4b1eab26e8fafa43467d
 source: Teaching Vacancies
 source_job_id: administrative-assistant-st-louis-catholic-primary-school-frome
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-louis-catholic-primary-school-frome
+---
+
+---
+action: 
+SELECTED | Somerset | Weston-Super-Mare, South West, BS23 4XH | Actual Annual Salary:?£13,024 - £14,195 | Administrator Level 1 (Part time, FTC)
+employer: Uphill Village Academy
+closing_date: 2026-11-23T23:59:59+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 46a307766a5ecce7d7c402f3b530a1036616927f6cebce6fdd7dd70e0bacd1a1
+source: Teaching Vacancies
+source_job_id: administrator-level-1-part-time-ftc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-level-1-part-time-ftc
 ---
 
 ---

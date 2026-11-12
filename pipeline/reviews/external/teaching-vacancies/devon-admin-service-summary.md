@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-11
-review_fingerprint: 31dda8e52307d4a5b4b5a3632b48b7e98e042207435a86f5536464b6132354af
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: 558811ed8f27345d7b8ba4332d6fd3193d92f95a894de26885baff22a424f103
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
+- Records: 21
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 18
+- Hard pass: 17
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL5 4LS | £6777 to £6884 ACTUAL | Administrative Assistant
+employer: Mary Dean's CofE Primary School and Nursery
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9845cfb10561a30dc94e591b0b29612a29e62e136d16f9ccaa52dbc8404a0e59
+source: Teaching Vacancies
+source_job_id: administrative-assistant-mary-dean-s-cofe-primary-school-and-nursery
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-mary-dean-s-cofe-primary-school-and-nursery
+---
 
 ---
 action: 
@@ -34,21 +49,6 @@ factual_fingerprint: 81d95315748d8b99fe98f9bf46ea5818dee436b3631100ff0784254ad6a
 source: Teaching Vacancies
 source_job_id: school-administrator-hyde-park-infants-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-hyde-park-infants-school
----
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL3 4BD | £25,614.00 - £26,016.00 Annually (FTE) Actual salary £9173.45 - £9317.42 | School Receptionist
-employer: Stoke Damerel Community College
-closing_date: 2026-11-11T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 00922d76a9688076ae6d8ea8c28281b87e286c73dcc7660622e04554bd51583f
-source: Teaching Vacancies
-source_job_id: school-receptionist-stoke-damerel-community-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-stoke-damerel-community-college
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -91,7 +91,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-office
 
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sidmouth-church-of-england-primary-school) — No usable numeric salary.
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-team-multi-academy-trust) — No usable numeric salary.
-- [Administrator for Support Teams](https://teaching-vacancies.service.gov.uk/jobs/administrator-for-support-teams) — No usable numeric salary.
 - [Clerk to Governors](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-woodlands-school) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-a1a3a65a-9f2f-47b9-8227-68ba8ca76cf9) — No usable numeric salary.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-holsworthy-community-college) — Excluded senior/management title.

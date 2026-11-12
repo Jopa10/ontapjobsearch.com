@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-11
-review_fingerprint: 4fe6f6055c36e3bc2c01e535066d8ec6fa73fe46fb72cf48fa3d7fd5d5de7ed1
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: afd7ecbd8654c5811e7738708c23dbfcbfa916e119c846c20fa6ec22dc0fccc7
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 5
+- Records: 18
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
@@ -96,6 +96,36 @@ source_job_id: higher-level-administrator-manor-drive-secondary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/higher-level-administrator-manor-drive-secondary-academy
 ---
 
+---
+action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB24 1DJ | £8,918.00 - £8,918.00 Annually (Actual) Meridian Trust Support Staff Table: Grade 4, Point 3 | Receptionist (part-time) - Northstowe Secondary College
+employer: Northstowe Learning Community
+closing_date: 2026-11-25T08:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b73637f2b10cb6a5890664983f97d7d2aeec632365650c4c6201bf69eb874332
+source: Teaching Vacancies
+source_job_id: receptionist-part-time-northstowe-secondary-college-northstowe-learning-community
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-northstowe-secondary-college-northstowe-learning-community
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB2 9FS | £26,427.00 - £26,847.00 Annually (FTE) | Receptionist/Administrator
+employer: Fawcett Primary School
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7c532c62c1f01216864d48e397301713f5a2ed20e864955578472e09aeaf7b95
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-fawcett-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-fawcett-primary-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -140,8 +170,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 - [Corporate Administrator](https://teaching-vacancies.service.gov.uk/jobs/corporate-administrator) — No usable numeric salary.
 - [Finance / HR manager](https://teaching-vacancies.service.gov.uk/jobs/finance-hr-manager-queen-s-drive-infant-school-peterborough-cambridgeshire) — Excluded senior/management title.
 - [Governance & Assurance Lead](https://teaching-vacancies.service.gov.uk/jobs/governance-assurance-lead) — Excluded senior/management title.
+- [Personal Assistant to Headteacher and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-and-senior-leadership-team-st-john-fisher-catholic-high-school) — Excluded senior/management title.
 - [Reception Services](https://teaching-vacancies.service.gov.uk/jobs/reception-services-6d613bb3-be77-444c-9df1-ecc49b46685d) — Insufficient admin/service evidence.
-- [School Receptionist & Finance Assistant (Temporary)](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-finance-assistant-temporary) — No usable numeric salary.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-80df4620-91d1-4dc5-b093-4937c078bedb) — Salary over £50k.
 
 ## Safety boundary

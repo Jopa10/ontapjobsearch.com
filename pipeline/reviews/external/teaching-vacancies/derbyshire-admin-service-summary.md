@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-11
-review_fingerprint: 7c1cbfd9a88bfa38258aa3cb1f37db456ab86043ea50500ad5590e7cab18a1b0
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: afaa380b2520f120b81d6acccc918b9c96b09ef36772c263d1d9364b10660eb3
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 2
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
 
@@ -45,7 +45,7 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9b2302d81ef76728c45b64d98bc18a11b5f481d56368f94654e007a74b76ad24
+factual_fingerprint: 96e154227eefd8b2db4cc5564be6438b697864be9ab5df13692741f8adefe387
 source: Teaching Vacancies
 source_job_id: school-administrator-part-time-oakthorpe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-part-time-oakthorpe-primary-school
@@ -66,6 +66,21 @@ factual_fingerprint: e9d8090fb8aefae1cd6443865e18246a2cb57683d84eeb2fc407d525434
 source: Teaching Vacancies
 source_job_id: receptionist-47c1efc2-2f4c-4f78-b74d-250c1f8dce9e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-47c1efc2-2f4c-4f78-b74d-250c1f8dce9e
+---
+
+---
+action: 
+POSS | Derbyshire | Derby, East Midlands, DE24 0BR | SCP 5 - 10 with an Actual Salary of £22,901.28 - £24,789.43 | Receptionist
+employer: Noel-Baker Academy
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e2895d58c8ebb5aafe60860c68ca4e1d4dcebb64debd62ed40457f20bd9e319d
+source: Teaching Vacancies
+source_job_id: receptionist-noel-baker-academy-derby-derbyshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-noel-baker-academy-derby-derbyshire
 ---
 
 ## EXCLUDED BY REVIEW

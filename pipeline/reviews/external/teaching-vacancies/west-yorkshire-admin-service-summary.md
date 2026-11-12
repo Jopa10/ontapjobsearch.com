@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-11
-review_fingerprint: 0784eefbd2a085d1399fa4281fcc6765e031acacceb653c846aa1a67476b87d6
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: 273d5fd607e9e74544b442e704bc80f1cf3b6a2120e401ccf7177e438ecc46fd
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
-- Selected: 4
+- Records: 30
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 24
@@ -68,6 +68,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ---
 action: 
+SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF1 4SF | £24,161 to £25,284 | School Attendance Officer
+employer: Outwood Academy City Fields
+closing_date: 2026-11-26T12:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: d76497f6798b010df780b298de69c5a71abe75d4d07ed813b119cf9e7896d897
+source: Teaching Vacancies
+source_job_id: school-attendance-officer-a2c32571-8c87-456e-945f-48de729c3dcf
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-attendance-officer-a2c32571-8c87-456e-945f-48de729c3dcf
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Keighley, Yorkshire and the Humber, BD20 6EB | £30,198.00 - £31,890.00 Annually (Actual) Band SO1, SCP 23-25, Fixed Term until July 2027, Core working pattern Mon-Thu 8:00am-4:00pm, Fri 8:00am-3:30pm (need of flexibility) | Sports Coach & School Games Administrator
+employer: Carlton Keighley
+closing_date: 2026-11-23T10:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 0c4822f60b6c3f31688f7c7cffc7d6f7df2c08fdf18c91661696a12c030ab814
+source: Teaching Vacancies
+source_job_id: sports-coach-school-games-administrator-carlton-keighley
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-games-administrator-carlton-keighley
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF1 2PF | £21,784.89 to £22,126.80. | Student Information Desk Receptionist
 employer: Outwood Grange Academy
 closing_date: 2026-11-13T08:00:00+00:00
@@ -98,6 +128,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-information-d
 - [Apprentice Business Administration Assistant (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-administration-assistant-level-3) — No usable numeric salary.
 - [Attendance Leader](https://teaching-vacancies.service.gov.uk/jobs/attendance-leader-appleton-academy-bradford-west-yorkshire) — Excluded senior/management title.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-leodis-academies-trust) — Excluded senior/management title.
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-owlcotes-multi-academy-trust) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-north-halifax-grammar-school) — Excluded senior/management title.
 - [Data Protection Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-officer-waterton-academy-trust) — Salary over £50k.
 - [Employee Relations Specialist](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist) — Insufficient admin/service evidence.
@@ -114,7 +145,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-information-d
 - [SEN Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/sen-administration-assistant-horbury-academy-wakefield-west-yorkshire) — Insufficient admin/service evidence.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-meadowfield-primary-school) — Excluded senior/management title.
 - [Trust Data & Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-systems-analyst) — Insufficient admin/service evidence.
-- [Work Placement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/work-placement-coordinator-outwood-grange-academy-wakefield-west-yorkshire) — No usable numeric salary.
 
 ## Safety boundary
 

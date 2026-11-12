@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Herefordshire
 
-review_date: 2026-11-11
+review_date: 2026-11-12
 review_fingerprint: 38160f2daa01f19d5d5c349c2c337c3d2824912563c9be9b94cf500f7f2eb7a2
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Herefordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personnel-administrat
 
 ## HARD_PASS
 
-- None.
+- [Head of MIS, Exams and Reporting](https://teaching-vacancies.service.gov.uk/jobs/head-of-mis-exams-and-reporting) — Excluded senior/management title.
 
 ## Safety boundary
 

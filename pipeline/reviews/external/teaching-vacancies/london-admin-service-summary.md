@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-11
-review_fingerprint: 1ce2785265c7c9610e1abd96c8954b3851e758895be57682d50c56e759bc1e34
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: a2de73cda4cb5adade6be4d87155be9853446f628b5a218470b4019104742cdc
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 50
-- Selected: 7
-- POSS awaiting decision: 17
+- Records: 53
+- Selected: 9
+- POSS awaiting decision: 14
 - Excluded: 0
-- Hard pass: 26
+- Hard pass: 30
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/librarian-and-adminis
 
 ---
 action: 
+SELECTED | London | London, London, NW7 4LL | NJC 7 - 8 (£14,504 - £14,708) | Part Time Student Services Administrator
+employer: Mill Hill County High School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4c35c680e3e4580355d0f842d2614b5909b5b628b71efa92337c07e8b910d418
+source: Teaching Vacancies
+source_job_id: part-time-student-services-administrator-mill-hill-county-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-student-services-administrator-mill-hill-county-high-school
+---
+
+---
+action: 
 SELECTED | London | Hampton, London, TW12 2HP | £29,562.00 - £31,290.00 Annually (FTE) | Part-time Student Services Officer
 employer: St Mary's Hampton Church of England Primary
 closing_date: 2026-11-17T12:00:00+00:00
@@ -126,6 +141,21 @@ source_job_id: receptionist-and-first-aider-st-anne-s-catholic-high-school-for-g
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-first-aider-st-anne-s-catholic-high-school-for-girls
 ---
 
+---
+action: 
+SELECTED | London | London, London, SE28 8AT | £30,408.00 - £32,655.00 Annually (FTE) pro rata = £26,507 - £28,466 per annum dependant on experience | SEND Administrative Assistant
+employer: Woolwich Polytechnic School
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: af7198216d15aa4ff4c788e80cee96a99b7de6c828e93cd9e2293d3a4d40b498
+source: Teaching Vacancies
+source_job_id: send-administrative-assistant-woolwich-polytechnic-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-assistant-woolwich-polytechnic-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -141,21 +171,6 @@ factual_fingerprint: b1c4bcd512df01d20137e1c387dd863a9b27c53c52cfe14c3514460cafc
 source: Teaching Vacancies
 source_job_id: admin-finance-officer-bigland-green-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer-bigland-green-primary-school
----
-
----
-action: 
-POSS | London | West Wickham, London, BR4 0BA | £22,017.00 - £25,612.00 Annually (Actual) BR5 SCP 13-17 | Administration Assistant
-employer: Hawes Down Primary School
-closing_date: 2026-11-11T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f3753f2b791c956eaf89a3fdb1c78fa86d5de9769e80da2bb9033e8137c9a0d1
-source: Teaching Vacancies
-source_job_id: administration-assistant-hawes-down-primary-school-west-wickham-kent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hawes-down-primary-school-west-wickham-kent
 ---
 
 ---
@@ -310,21 +325,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-POSS | London | London, London, E14 0AF | £33,700-£35,500 dependent upon experience | Recruitment and HR Administrator
-employer: New City College
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1c2e8aba4a8354a26afa93d4171b4e11ddf4a5684deced8dd93ed82edbc7b2cd
-source: Teaching Vacancies
-source_job_id: recruitment-and-hr-administrator-new-city-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-hr-administrator-new-city-college
----
-
----
-action: 
 POSS | London | Orpington, London, BR5 3HS | £27,262 - £29,990 | Resources Administrator
 employer: Riverside School
 closing_date: 2026-11-13T09:00:00+00:00
@@ -368,28 +368,14 @@ source_job_id: sixth-form-administrator-wren-academy-enfield
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-wren-academy-enfield
 ---
 
----
-action: 
-POSS | London | Northolt, London, UB5 6AG | Grade 6 Pt 18 - 20 (£36,834 - £37,935) pro rata salary of £32,725 - £33,703Ppa | Transition, Assessment and Medical/Welfare Coordinator
-employer: Belvue School
-closing_date: 2026-11-12T12:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c44130993da9c79ea99924284615e6daeabd96c8db68e195099470e0f88752d9
-source: Teaching Vacancies
-source_job_id: transition-assessment-and-medical-welfare-coordinator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment-and-medical-welfare-coordinator
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Academy Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-assistant-3389a695-6951-4d89-80ca-382a223ca50f) — Insufficient admin/service evidence.
+- [Academy Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-assistant-075b1c19-1c1d-4bac-b270-4510c6226bb0) — Insufficient admin/service evidence.
+- [Attendance & Inclusion Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-inclusion-officer-hurstmere-school) — Insufficient admin/service evidence.
 - [Attendance, Data and Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-data-and-administrative-officer) — Insufficient admin/service evidence.
 - [Chief Financial & Operations Officer (CFOO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-operations-officer-cfoo) — Excluded senior/management title.
 - [Data & Cover Manager - Deputy Head of MIS (Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/data-cover-manager-deputy-head-of-mis-maternity-cover) — Out-of-scope occupation: deputy head.
@@ -400,6 +386,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal-haberdashers-borough-academy) — Out-of-scope occupation: principal.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college-london) — Excluded senior/management title.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-newham-community-learning) — Salary over £50k.
 - [Finance officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-kings-cross-academy) — No usable numeric salary.
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-dbe8438f-4742-4952-b196-d00e6c812af2) — Out-of-scope occupation: teacher, headteacher.
@@ -407,12 +394,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Salary over £50k.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-ernest-bevin-academy) — Excluded senior/management title.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
+- [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college-london) — Insufficient admin/service evidence.
 - [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c5500de0-8688-44f2-9650-5f16af71c014) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-deer-park-school) — Excluded senior/management title.
+- [PA to Group Executive Director of HR](https://teaching-vacancies.service.gov.uk/jobs/pa-to-group-executive-director-of-hr) — Excluded senior/management title.
 - [PA to Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-office-manager-the-quest-academy) — Excluded senior/management title.
+- [Receptionist (0.53FTE, Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/receptionist-0-53fte-maternity-cover) — No usable numeric salary.
 - [School Business and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-and-operations-manager-stanhope-primary-school-greenford) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hobbayne-primary-school-london) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shalom-noam-primary-school) — Excluded senior/management title.
 - [School Receptionist, Administrative and Welfare Support](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-administrative-and-welfare-support) — No usable numeric salary.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-11
+review_date: 2026-11-12
 review_fingerprint: e892a6225bdc6fb3e5bf21b3b1d30524077c36bb0e21f44014a6a3fd4d7b4c3d
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -62,10 +62,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-08
 ## HARD_PASS
 
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bedminster-down-school) — No usable numeric salary.
-- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-cherry-garden-primary-school) — No usable numeric salary.
 - [Educational Visits and Enrichment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-and-enrichment-coordinator) — No usable numeric salary.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-saint-gregory-s-catholic-college) — Excluded senior/management title.
+- [Personal Care Assistant (EYFS + SEND)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-eyfs-send-bridge-learning-campus) — Insufficient admin/service evidence.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-the-castle-school) — Excluded senior/management title.
 
 ## Safety boundary

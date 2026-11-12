@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-11
-review_fingerprint: f8c0dfa24b80535f3fa2e24bae9ec1338854a63342da3ff568d7c589acbaaf4a
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: fac358b8372dca4fb1942806746eb1f2b3e43b8b176c7bf67b8929a1a100291d
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
@@ -34,21 +34,6 @@ factual_fingerprint: 9699607483c51786639302f71e553a258b16e7ff1e8f6fbefd44c93e8ff
 source: Teaching Vacancies
 source_job_id: administration-and-finance-assistant-the-hathershaw-college-oldham-greater-manchester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-assistant-the-hathershaw-college-oldham-greater-manchester
----
-
----
-action: 
-SELECTED | Greater Manchester - North | Oldham, North West, OL8 1LH | £26,016.00 - £26,847.00 Annually (FTE) Scale Points 4-6 of the School Support Staff pay spine, currently £26,016. to £26,847. (Pro Rata) (£21,697 to £22,390 Actual Salary) | Receptionist
-employer: Broadfield Primary School
-closing_date: 2026-11-11T17:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e3054d8d66ab55a3642e327d4ccfe22e393eff2257fe9f7dfb507d1bb205495c
-source: Teaching Vacancies
-source_job_id: receptionist-broadfield-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-broadfield-primary-school
 ---
 
 ---

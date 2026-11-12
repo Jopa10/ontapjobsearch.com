@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-11-11
-review_fingerprint: 08c8114b285e35eab3189995afd38fe533fcab0a3eceae3f1273f13c6a4693c0
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: 649d71c6f8eeae9f811cf681f6e1293ea45665490bad4c9abac1e56eea07aebc
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 0
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
 
@@ -24,6 +24,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - None.
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Cheshire - Warrington & Halton | Warrington, North West, WA4 6RD | £25,558.00 - £29,544.00 Annually (FTE) | Finance Assistant
+employer: Priestley College
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: acb3fc30585e8db6dbddc760dcd012e7a64ca3bfc41b1e9530e3feba84cf0ebf
+source: Teaching Vacancies
+source_job_id: finance-assistant-5a6ad070-e384-48fa-ab50-605d6091576b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-5a6ad070-e384-48fa-ab50-605d6091576b
+---
 
 ---
 action: 

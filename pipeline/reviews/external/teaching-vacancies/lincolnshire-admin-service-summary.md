@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-11
-review_fingerprint: ed59629a7c8af9dc90d934ed2def42e99293e9d36f91540fa6298821d83b1f93
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: 2ba1e59d79ecdebb3ccec9c7cec7df2549d31c84c326bf6b0ae1a8d5521a04d1
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 7
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Lincolnshire | Skegness, East Midlands, PE25 2QU | £23,669.00 - £25,229.00 Annually (Actual) Grade GAT-5 | Administrator
+employer: Skegness Infant Academy
+closing_date: 2026-11-24T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 669bd74911001f023487765827c51c5da1f3ddd283007def64a00795e0c83150
+source: Teaching Vacancies
+source_job_id: administrator-skegness-infant-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-skegness-infant-academy
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Lincoln, East Midlands, LN4 4PN | £30,023.00 - £30,023.00 Annually (Actual) NJC13 : £27,723.95pa pro rata | Personal Assistant
 employer: The Barnes Wallis Academy
 closing_date: 2026-11-27T23:59:00+00:00
@@ -165,12 +180,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administration-a
 ## HARD_PASS
 
 - [Clerical Assistant & Opal Playleader MSA – linked role](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-opal-playleader-msa-linked-role) — Insufficient admin/service evidence.
-- [Data Analyst](https://teaching-vacancies.service.gov.uk/jobs/data-analyst-franklin-sixth-form-college) — Insufficient admin/service evidence.
 - [Exams & Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-assessment-officer-421a01f6-51ed-4038-8b47-674f51d21e5d) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-e6664367-3eb0-42c0-9724-283bf6ac70a0) — Excluded senior/management title.
-- [Health, Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/health-safety-and-compliance-officer-voyage-education-partnership) — Insufficient admin/service evidence.
-- [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-de-aston-school) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-john-leggott-sixth-form-college) — Insufficient admin/service evidence.
 - [Pastoral Administrator](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
+- [School Business Manager (CFO)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cfo) — Excluded senior/management title.
 
 ## Safety boundary
 

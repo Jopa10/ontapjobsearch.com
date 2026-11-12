@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-11
-review_fingerprint: 73e6f56d5dd72bd6639c9e1875f7e1e225c28911762615c4c2b40d39fa2c5974
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: 9af34be451ecfc9c65d69f1c3e2a0833c78bbc7cfd962506fce9218de99180c0
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 19
 - Selected: 6
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 9
 
@@ -141,6 +141,21 @@ factual_fingerprint: f4217e7a5e1d77a282a27912d9f92877302d337a5c02141f3405ea79cce
 source: Teaching Vacancies
 source_job_id: administrator-tuxford-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-tuxford-academy
+---
+
+---
+action: 
+POSS | Nottinghamshire | Retford, East Midlands, DN22 7NJ | £18,299.77 - £18,299.77 Annually (Actual) | Adminstration Assistant
+employer: Retford Oaks Academy
+closing_date: 2026-11-25T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7eab00cad6bfe34fcb7139872f451f8a3039a07763a00b039936ce5c1b5e8318
+source: Teaching Vacancies
+source_job_id: adminstration-assistant-retford-oaks-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/adminstration-assistant-retford-oaks-academy
 ---
 
 ---

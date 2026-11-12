@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-11
+review_date: 2026-11-12
 review_fingerprint: f3cf1c52068841c332a9e9bbf7a35dd192dec8a18de5ab2d6e6a40f8f6b24293
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 17
 - Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 14
 
 ## SELECTED
 
@@ -76,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-fd8ff3fc-5891-4768-96d5-0b8898f17568) — No usable numeric salary.
 - [Assistant Data Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-manager-the-basildon-upper-academy) — Excluded senior/management title.
+- [Attendance and Educational Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-educational-support-officer) — Insufficient admin/service evidence.
 - [Careers Assistant](https://teaching-vacancies.service.gov.uk/jobs/careers-assistant-st-martin-s-school-brentwood-brentwood-essex) — Insufficient admin/service evidence.
 - [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services-st-martin-s-school-brentwood) — Out-of-scope occupation: deputy head.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.

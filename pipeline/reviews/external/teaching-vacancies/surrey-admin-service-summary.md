@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-11
-review_fingerprint: 608ed3c93b37357a088cb0708c22d2a9f88f48ca74e73e912edf2f9aa341641f
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: c262384179aa0844f9d079fb9f2dc9797e080e222d84a46d1b7b74b967646cd8
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 2
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Surrey | Epsom, South East, KT18 7NQ | Associate 2.1 - £24,751 (Actual - £18,483.63) | Central Administrator
+employer: Rosebery School
+closing_date: 2026-11-29T23:59:59+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e4e00a75ebb754c1af9b34e0f5521dffa30a6a621fc56a20e4117e5bb79aa93b
+source: Teaching Vacancies
+source_job_id: central-administrator-rosebery-school-epsom-surrey
+source_url: https://teaching-vacancies.service.gov.uk/jobs/central-administrator-rosebery-school-epsom-surrey
+---
 
 ---
 action: 
@@ -34,21 +49,6 @@ factual_fingerprint: 3993f4dc11bb25c17144cb4ce78857de1b8da2e25bebdee794a68e4fd2e
 source: Teaching Vacancies
 source_job_id: finance-admin-assistant-de-stafford-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-de-stafford-school
----
-
----
-action: 
-SELECTED | Surrey | Godalming, South East, GU8 4DX | S3, scale points 20.1 – 23, depending on experience. FTE: £29,583 - £31,491; Actual: £24,628.23 - £26,216.66 | SEN Administrator
-employer: St Dominic's School
-closing_date: 2026-11-29T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a279019f9becd361c96d55015825c444373113cbb9274da09cdc783f48a01652
-source: Teaching Vacancies
-source_job_id: sen-administrator-1b1c73e5-4e8e-49ee-8b2a-4e536b9524c9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-1b1c73e5-4e8e-49ee-8b2a-4e536b9524c9
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -83,15 +83,30 @@ source_job_id: clerk-to-governors-73528dcf-b3d5-4459-ae85-9fc0cb25775c
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-73528dcf-b3d5-4459-ae85-9fc0cb25775c
 ---
 
+---
+action: 
+POSS | Surrey | Godalming, South East, GU8 4DX | S3, scale points 20.1 – 23, depending on experience. FTE: £29,583 - £31,491; Actual: £24,628.23 - £26,216.66 | SEN Administrator
+employer: St Dominic's School
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a279019f9becd361c96d55015825c444373113cbb9274da09cdc783f48a01652
+source: Teaching Vacancies
+source_job_id: sen-administrator-1b1c73e5-4e8e-49ee-8b2a-4e536b9524c9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-1b1c73e5-4e8e-49ee-8b2a-4e536b9524c9
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Apprenticeships Review Officer](https://teaching-vacancies.service.gov.uk/jobs/apprenticeships-review-officer) — Insufficient admin/service evidence.
 - [EHCP Administrator](https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-gosden-house-school-guildford-surrey) — No usable numeric salary.
 - [Office & Facilities Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-facilities-assistant) — Insufficient admin/service evidence.
-- [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-0884c9ad-ae56-44bf-a477-68f17351dcd8) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-grange-community-infant-school) — Excluded senior/management title.
 - [Sustainability Officer](https://teaching-vacancies.service.gov.uk/jobs/sustainability-officer) — Insufficient admin/service evidence.
 

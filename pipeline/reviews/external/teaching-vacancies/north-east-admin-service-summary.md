@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-11
-review_fingerprint: 4ed15cbb78b3f9bd82ec1e513008a969017b9afaff3c4adc987890f4911cbc94
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: e08b2df3c9ea44e83ff84ba292ecf648c4d7ecfe568811b1a9e5a5a72acd8d5b
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 14
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-recepti
 
 ---
 action: 
+SELECTED | North East | Darlington, North East, DL3 8NN | NJC Points 8 - 10 £23,939 - £24,716 | Office Administrator
+employer: Abbey Junior School
+closing_date: 2026-11-23T08:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 84a4f601ef11a3ea35a5c0f8c814787bfd1e78ac25dc325f5ff4331d4cafde16
+source: Teaching Vacancies
+source_job_id: office-administrator-abbey-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-abbey-junior-school
+---
+
+---
+action: 
 SELECTED | North East | Morpeth, North East, NE61 2HA | £26,403.00 - £28,142.00 Annually (FTE) Pay Award Pending | School Business Support Officer
 employer: Morpeth Stobhillgate First School
 closing_date: 2026-11-18T23:59:00+00:00
@@ -119,6 +134,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administra
 
 ## HARD_PASS
 
+- [Attendance Pastoral Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-pastoral-support-officer-the-orme-academy) — Insufficient admin/service evidence.
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-jarrow-school) — Excluded senior/management title.
 - [Exams Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-office-administration-assistant) — Insufficient admin/service evidence.
 - [HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-prosper-learning-trust) — Insufficient admin/service evidence.
 - [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.

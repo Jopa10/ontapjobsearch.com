@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-11
+review_date: 2026-11-12
 review_fingerprint: af5b3a89aac68afd8af20e26686b24274e0910c6fdc56ebb2f697004f3f85bb5
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 15
 - Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -181,6 +181,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-st
 
 - [Complaints Officer](https://teaching-vacancies.service.gov.uk/jobs/complaints-officer-ascend-learning-trust) — Insufficient admin/service evidence.
 - [Day Care Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/day-care-admin-officer) — Insufficient admin/service evidence.
+- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-kingsdown-school) — Excluded senior/management title.
 - [School Receptionist](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-even-swindon-primary-school-swindon-wiltshire) — No usable numeric salary.
 - [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-5cad4b3d-60eb-45ce-9201-1c3edf7de3a6) — Excluded senior/management title.
 

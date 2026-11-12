@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-11
-review_fingerprint: 3d05edb28a0b054964927a22fe33e11d5ded559e00cbcf0df7b189e964aec757
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: c651a92f5e4320419becbc2bb95b80a8f9ffe58a0346e79c6358a4b82410a85c
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -45,7 +45,7 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f9e15e1b5097da55bddd3d928a7a516a1742d8cf40d4186f070c130a1b16aff4
+factual_fingerprint: 9b9df6a8bfedafb7ffbe50e130ed1cc5d327643eda2f1a019ec2b2e6169c251b
 source: Teaching Vacancies
 source_job_id: sen-administrator-hob-moor-community-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-hob-moor-community-primary-academy

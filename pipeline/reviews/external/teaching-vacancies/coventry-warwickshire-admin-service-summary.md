@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-11
-review_fingerprint: 488cd375b88b81dd85015aeeb35215138d61b73c49ef96f6224451fa1a9ff0ea
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: d614858dc47a31d96ac368c03c9780659059497b04f6091b4fdc0b8188587b9c
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 4
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: business-support-officer-welcombe-hills-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-welcombe-hills-school
 ---
 
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Leamington Spa, West Midlands, CV31 2LJ | £22,278.00 - £22,630.00 Annually (Actual) Band D - SCP 4 -5 | Office Administrator
+employer: St Joseph's Catholic Primary Academy
+closing_date: 2026-11-26T16:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 806bf91e1119d597835e1c3c84ea580b03879c11de60e34f64da81a9518ec8e8
+source: Teaching Vacancies
+source_job_id: office-administrator-st-joseph-s-catholic-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-joseph-s-catholic-primary-academy
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -75,10 +90,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
 ## HARD_PASS
 
 - [Cover Co-ordinator / Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-administrator-stoke-park-school) — No usable numeric salary.
-- [Examinations, Data & Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-data-access-arrangements-coordinator) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-harris-church-of-england-academy) — Insufficient admin/service evidence.
 - [Marketing Manager](https://teaching-vacancies.service.gov.uk/jobs/marketing-manager-stratford-upon-avon-school) — Excluded senior/management title.
-- [Office Manager and Personal Assistant (PA) to the Principal](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-pa-to-the-principal) — Excluded senior/management title.
 - [Receptionist & Admin Assistant to the Deputy Headteachers](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-to-the-deputy-headteachers) — No usable numeric salary.
 
 ## Safety boundary

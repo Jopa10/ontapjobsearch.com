@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-11
-review_fingerprint: 582529758bb7b89031912bd2dc49a1cdc3c89c5f44db1a7a301192c4aaaed1ca
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: 4081a7cd06472219afc57545426dc4f22c9c474691b8415a8b6bba8f6962e84b
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 24
+- Selected: 4
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 16
 
 ## SELECTED
 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ---
 action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S26 4SF | £23,199.00 - £23,315.00 Annually (Actual) Band D Points 6 - 7. Based on full time salary of £26,340 - £26,472 - pay award pending. (plus an additional 1 week of pay if the appointee has 5 years or more continuous service with the Local Authority) | SEND Administrator
-employer: Aston Academy
-closing_date: 2026-11-16T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 415aa88f20672fe5afcb591ee833153fdc92efb50ec153318f620490a8992e1b
-source: Teaching Vacancies
-source_job_id: send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
----
-
----
-action: 
 SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN6 7SF | £21,489 - £22,225 | Student Information Desk Receptionist
 employer: Outwood Academy Adwick
 closing_date: 2026-11-16T12:00:00+00:00
@@ -97,6 +82,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-information-d
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Yorkshire - South | Barnsley, Yorkshire and the Humber, S70 1TS | £21,026.87 - £21,430.76 Annually (Actual) Term time plus 5 days. (39 weeks) (FTE £25,614-26,016) | Administrator
+employer: Oakwell Rise Primary Academy
+closing_date: 2026-11-25T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d17af65e1212aa5cc66616e919f47c7c4bedf189ae3f2d26e4b8a5ec2328e162
+source: Teaching Vacancies
+source_job_id: administrator-oakwell-rise-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-oakwell-rise-primary-academy
+---
+
+---
+action: 
+POSS | Yorkshire - South | DONCASTER, Yorkshire and the Humber, DN7 6JH | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 - £26,847 Full Time Equivalent). The minimum actual pro rata salary per annum for this job starts at £13,021.44. | Finance Administrator (7904)
+employer: Ash Hill Academy
+closing_date: 2026-11-25T23:59:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ec6a8c21cfcf6a1f3c27905e175c8e72e42dd8f50293c9eca8cc90332b33469d
+source: Teaching Vacancies
+source_job_id: finance-administrator-7904
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-7904
+---
 
 ---
 action: 
@@ -115,17 +130,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-fixed
 
 ---
 action: 
-POSS | Yorkshire - South | Doncaster, DN9 1HQ | £31,000.00 - £40,000.00 Annually (FTE) | Governance Professional
-employer: Isle Education Trust
-closing_date: 2026-11-12T09:00:00+00:00
-reason: Borderline school administration title: governance professional
+POSS | Yorkshire - South | Sheffield, Yorkshire and the Humber, S4 8GB | £37,384.00 Annually (FTE) | Operations Officer
+employer: Fir Vale Academy
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Borderline school administration title: operations officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0ba3fe2fb3f0a789cab0e7a03c724292a3b6c40d1b38f46e47c9fdcc86a7cabe
+factual_fingerprint: 98403a5a1ba5175129a5344accbab9dc3baec77a1dbe4484121bd9917cc57c8e
 source: Teaching Vacancies
-source_job_id: governance-professional-isle-education-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-isle-education-trust
+source_job_id: operations-officer-fir-vale-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-fir-vale-academy
 ---
 
 ## EXCLUDED BY REVIEW
@@ -142,7 +157,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Director of Health & Safety](https://teaching-vacancies.service.gov.uk/jobs/director-of-health-safety) — Excluded senior/management title.
 - [Examinations Invigilator](https://teaching-vacancies.service.gov.uk/jobs/examinations-invigilator-maltby-academy) — No usable numeric salary.
 - [Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/executive-support-officer-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
+- [Head of Business Development (VRN000003)](https://teaching-vacancies.service.gov.uk/jobs/head-of-business-development-vrn000003) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy-rotherham-south-yorkshire) — Excluded senior/management title.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-1e4ec526-7e90-471c-ac7b-53d95ee8bda4) — Insufficient admin/service evidence.
+- [Personal Care Assistant (PCA)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-pca-newman-school) — Insufficient admin/service evidence.
 - [Pupil Premium Extracurricular Visits Coordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extracurricular-visits-coordinator-forge-valley-school-sixth-form-sheffield-south-yorkshire) — No usable numeric salary.
 - [Senior Technician Mechanical Engineering](https://teaching-vacancies.service.gov.uk/jobs/senior-technician-mechanical-engineering) — Out-of-scope occupation: technician.
 - [Strategic Attendance and Family Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/strategic-attendance-and-family-engagement-lead) — Excluded senior/management title.

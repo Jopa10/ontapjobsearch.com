@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-11
-review_fingerprint: 28927353711c75ff93c5892ca9f372e87537488f6d6f77d6452e4e7afadf4a96
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: 9322e41721d9a75561b525076ad1336596ca96fdf91a112e54434bc15832aae7
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 8
+- Records: 19
+- Selected: 9
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 38cae0225772c0b7cd18eaf066df39ac3d73086aa431f38f618adf0b176
 source: Teaching Vacancies
 source_job_id: administrative-assistant-staff-attendance-and-absence-management
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-staff-attendance-and-absence-management
+---
+
+---
+action: 
+SELECTED | Berkshire | Reading, South East, RG4 8LR | GLF Associate 3.1-3.9 salary: £19,502 - £20,891 | Behaviour Administrative Assistant
+employer: Highdown School and Sixth Form Centre
+closing_date: 2026-11-26T23:59:59+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e4a42e4ba8a73b61d669a68ce082c3a18a514b27aa68c4e7467cebc31e0a7e35
+source: Teaching Vacancies
+source_job_id: behaviour-administrative-assistant-highdown-school-and-sixth-form-centre
+source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-administrative-assistant-highdown-school-and-sixth-form-centre
 ---
 
 ---
@@ -182,10 +197,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 - [Admin Assistant (Staff Attendance & Absence Monitoring) - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-staff-attendance-absence-monitoring-the-avenue-school) — No usable numeric salary.
 - [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
 - [Health Safety & Welfare Manager](https://teaching-vacancies.service.gov.uk/jobs/health-safety-welfare-manager) — Excluded senior/management title.
-- [IT Technician](https://teaching-vacancies.service.gov.uk/jobs/it-technician-slough-and-eton-church-of-england-business-and-enterprise-college) — Out-of-scope occupation: technician.
+- [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school-reading-berkshire) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
 - [Student Admissions and Onboarding Officer](https://teaching-vacancies.service.gov.uk/jobs/student-admissions-and-onboarding-officer) — Insufficient admin/service evidence.
 - [Student Admissions and Onboarding Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/student-admissions-and-onboarding-officer-the-wren-school) — Insufficient admin/service evidence.
+- [Technology Technician](https://teaching-vacancies.service.gov.uk/jobs/technology-technician-slough-and-eton-church-of-england-business-and-enterprise-college) — Out-of-scope occupation: technician.
 
 ## Safety boundary
 

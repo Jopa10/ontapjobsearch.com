@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-11-11
-review_fingerprint: 5e9c6a6aa8fe03c74c583bfe8102a9f21d62d5ce9f1549f6a9f4518c2537a1e9
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: 0cdb102b2cc6056577bd697ce9c8f48efc8b51af414bf6a2a01570ec40e85db1
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -34,6 +34,21 @@ factual_fingerprint: 3e941176ab7d235eeda06b37afda973e49cd9bb3f724546d4a98af899cc
 source: Teaching Vacancies
 source_job_id: attendance-officer-cottingham-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-cottingham-high-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 4EE | £27,004.00 - £29,309.00 Annually (Actual) Term time plus 10 days (200 days per year) | Human Resources Administrator
+employer: The Marvell College
+closing_date: 2026-11-23T11:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8e144776c603985e74d71e0a07cce76117cee28fd9cf8a3d7c2361d80a56c96b
+source: Teaching Vacancies
+source_job_id: human-resources-administrator-the-marvell-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-administrator-the-marvell-college
 ---
 
 ---

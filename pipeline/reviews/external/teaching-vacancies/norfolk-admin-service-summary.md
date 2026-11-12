@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-11
-review_fingerprint: deabf022ce6d5aa1c3b1f50ddb5f08ebd7405b0474520e7e5b3e594f7b7b344c
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: dc2d9d545d0b91c11ec358f25c95e96c0588767e53a9b7d6945adb615e83c352
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 3
+- Records: 18
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 12
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Norfolk | Great Yarmouth, East of England, NR30 4AE | Scale D5 - 6 (£26,428 - £26,847 pro rata) Actual Salary £19,878 - £20,193 per annum | Administrator with timetabling responsibilities
+employer: Bure Park Specialist Academy
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6b87ff9d670ab711b6a2ce0f2b0a38ac9f83cbb90fabadcef365e4cc86c04a9c
+source: Teaching Vacancies
+source_job_id: administrator-with-timetabling-responsibilities
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-timetabling-responsibilities
+---
+
+---
+action: 
+SELECTED | Norfolk | Great Yarmouth, East of England, NR30 4AE | Scale E7 - 11 (£27,274 - £29,071 pro rata) Actual Salary £22,092 - £23,548 per annum | EHCP Administrator
+employer: Bure Park Specialist Academy
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3d14f79cdd637cf7a72633e00bd701698edcdddda658dbe5e3efb803dfdd937b
+source: Teaching Vacancies
+source_job_id: ehcp-administrator-bure-park-specialist-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-bure-park-specialist-academy
+---
 
 ---
 action: 
@@ -89,7 +119,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-open
 
 ## HARD_PASS
 
-- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-admirals-academy) — No usable numeric salary.
 - [Business and Student Services Degree Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-and-student-services-degree-apprentice) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-toftwood-infant-school) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-824224c2-5ae7-482b-a4c3-25f64d69671f) — Insufficient admin/service evidence.

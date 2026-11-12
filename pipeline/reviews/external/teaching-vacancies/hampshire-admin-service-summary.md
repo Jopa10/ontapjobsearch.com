@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-11
-review_fingerprint: 5ea61d7d931b868d613fda84b33b72459b31bd39fb65cce0c24127a5c3feeebc
-routing_manifest_sha256: 7fae803b7e88e3df3f5d12fa6aa043b2c4238f2972e4b11b5f58f2db9ecff46d
+review_date: 2026-11-12
+review_fingerprint: e33bb7bb211cb2139e9f6e89b5fb94815bb936f543ba5d92d26e669f22323ddb
+routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 1
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
@@ -34,6 +34,21 @@ factual_fingerprint: 847af01cf855f18c8ac30bfd57e730e4ae29ed498e5536bcba6beb1c756
 source: Teaching Vacancies
 source_job_id: evening-receptionist-front-of-house
 source_url: https://teaching-vacancies.service.gov.uk/jobs/evening-receptionist-front-of-house
+---
+
+---
+action: 
+SELECTED | Hampshire | Southampton, South East, SO15 7QU | £26,824 – £28,902 (£29,741-£32,045) | Finance Assistant (term time only)
+employer: Upper Shirley High School
+closing_date: 2026-11-26T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3b0dbafaca1fc73d2a7033bc0e12a7613fcf4a8dc17e5c698f33aac76a335357
+source: Teaching Vacancies
+source_job_id: finance-assistant-term-time-only-upper-shirley-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-term-time-only-upper-shirley-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
