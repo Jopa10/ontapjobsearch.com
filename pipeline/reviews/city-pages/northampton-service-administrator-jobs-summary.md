@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 89
+- automatic review: 82
 - automatic exclude: 0
 - effective include: 15
-- effective review: 89
+- effective review: 82
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -204,7 +204,7 @@ job_id: jobg8-23643_225767603
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (89)
+## REVIEW (82)
 
 ---
 action: 
@@ -239,18 +239,6 @@ company: Debbie Burbage Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2176668
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Impact Recruitment Services - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225722683
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -654,11 +642,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Facilities Coordinator
-company: Major Recruitment North West Perms - Agency - Permanent
-location: Northamptonshire
+title: Finance & Administration Coordinator
+company: Axil - Agency - Permanent
+location: Corby
 source: JobG8
-job_id: jobg8-23643_225721443
+job_id: jobg8-2274346
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -738,30 +726,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Provit Recruitment - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225721542
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Hire Controller/Administrator
-company: Advanced Access Platforms - Agency - Permanent
-location: Corby
-source: JobG8
-job_id: jobg8-23643_225718945
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Hire Coordinator
 company: Interaction Recruitment - Agency - Permanent
 location: Northamptonshire
@@ -834,35 +798,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Junior Business Development Executive
-company: Commercial Recruitment - Agency - Permanent
-location: Corby
-source: JobG8
-job_id: jobg8-23643_225719414
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Project Administrator (CAD)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225760702
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant
-company: Office Angels - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2125901
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -971,18 +911,6 @@ company: JM&Co Recruitment Ltd - Agency - Permanent
 location: Daventry
 source: JobG8
 job_id: jobg8-23643_225725649
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-Time Finance Officer (with Administrative Support)
-company: JM&Co. Recruitment Agency - Agency - Permanent
-location: Daventry
-source: JobG8
-job_id: jobg8-2129537
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -1146,18 +1074,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator - Temp to Perm - Immediate Start
-company: Interaction Recruitment - Agency - Temporary
-location: Corby
-source: JobG8
-job_id: jobg8-23643_225724757
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Executive
 company: Wallace Hind Selection LTD - Agency - Permanent
 location: Irchester
@@ -1242,11 +1158,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain And Logistics Coordinator
-company: Pertemps Northampton - Agency - Permanent
-location: Kettering
+title: Technical Administrator
+company: Cameo Consultancy - Agency - Permanent
+location: Northamptonshire
 source: JobG8
-job_id: jobg8-23643_225723210
+job_id: jobg8-23643_225764102
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

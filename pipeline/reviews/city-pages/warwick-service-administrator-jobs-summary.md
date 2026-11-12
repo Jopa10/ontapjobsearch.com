@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 20
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 99
+- automatic include: 18
+- automatic review: 102
 - automatic exclude: 0
-- effective include: 20
-- effective review: 99
+- effective include: 18
+- effective review: 102
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (18)
 
 ---
 action: 
@@ -240,31 +240,7 @@ job_id: jobg8-23643_225775786
 reason: Exact approved Warwick workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Billing Administrator
-company: Brellis Recruitment - Agency - Temporary
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225764503
-reason: Exact approved Warwick workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Billing Administrator
-company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-2186709
-reason: Exact approved Warwick workplace.
----
-
-## REVIEW (99)
+## REVIEW (102)
 
 ---
 action: 
@@ -371,30 +347,6 @@ company: 3 Point Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2188924
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable
-company: SF Partners - Agency - Contract
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225722424
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable
-company: SF Partners - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-2125589
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -510,6 +462,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Billings Administrator
+company: Arden Personnel - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225824788
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: BMW Accounts Assistant
 company: Sytner - Company - Permanent
 location: Warwickshire
@@ -539,18 +503,6 @@ company: University Hospitals Coventry and Warwickshire NHS Trust
 location: Coventry, CV2 2DX
 source: NHS Jobs
 job_id: nhs-5710097
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Reed - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-2126585
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -611,6 +563,18 @@ company: G2 Legal Limited - Agency - Permanent
 location: Leamington Spa
 source: JobG8
 job_id: jobg8-2211295
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Paralegal
+company: Reed - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-2273896
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -695,18 +659,6 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225813599
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Reed - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2128582
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -918,6 +870,30 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Internal Sales Executive
+company: Reed - Agency - Permanent
+location: Nuneaton
+source: JobG8
+job_id: jobg8-2273895
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Executive
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Nuneaton
+source: JobG8
+job_id: jobg8-23643_225826414
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Logistics & Installations Coordinator
 company: Glue Resourcing - Agency - Permanent
 location: Leamington Spa
@@ -947,6 +923,18 @@ company: MorePeople - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225821988
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Assistant
+company: Morris Clarke Recruitment Ltd - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-23643_225822134
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1050,11 +1038,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Coordinator
-company: Owen Daniels - Agency - Permanent
+title: Payroll Administrator - Part Time
+company: Orbit Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2268269
+job_id: jobg8-23643_225826435
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1194,18 +1182,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist / FOH
-company: Brellis Recruitment - Agency - Temporary
-location: Leamington Spa
-source: JobG8
-job_id: jobg8-23643_225810935
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Account Coordinator (Driving)
 company: Winner Recruitment - Agency - Permanent
 location: Rugby
@@ -1280,9 +1256,21 @@ decision: review
 automatic_decision: review
 title: Sales Development Representative
 company: Plus One Recruitment - Agency - Permanent
-location: Stratford-Upon-Avon
+location: Stratford-upon-avon
 source: JobG8
 job_id: jobg8-23643_225772548
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Specialist
+company: Arden Personnel - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225826712
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1438,7 +1426,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2262217
+job_id: jobg8-2269619
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1451,6 +1439,30 @@ company: Genesis Employment Services Ltd - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225803452
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Wellbeing Co-ordinator (12 Months FTC)
+company: Valley House - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225825389
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Workplace Assistant
+company: Bell Cornwall Recruitment - Agency - Permanent
+location: Stratford-Upon-Avon
+source: JobG8
+job_id: jobg8-23643_225824492
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

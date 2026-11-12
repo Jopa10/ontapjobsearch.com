@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 55
+- automatic include: 10
+- automatic review: 53
 - automatic exclude: 0
-- effective include: 9
-- effective review: 55
+- effective include: 10
+- effective review: 53
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Rise Technical Recruitment - Agency - Permanent
 location: Bournemouth
 source: JobG8
 job_id: jobg8-23643_225813896
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Operations Coordinator
+company: Team Jobs - Commercial - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225824953
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -132,7 +144,7 @@ job_id: nhs-5706522
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (53)
 
 ---
 action: 
@@ -167,18 +179,6 @@ company: HSB Technical - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225821709
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: HYERED LIMITED - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2125864
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -306,6 +306,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Business Administrator
+company: KAG Recruitment Consultancy - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225771986
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
@@ -366,11 +378,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Simply Automotive Ltd - Agency - Permanent
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225721880
+job_id: jobg8-108203744
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -383,18 +395,6 @@ company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225747710
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Marketing Specialist
-company: Jobshop UK Limited - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2130051
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -522,6 +522,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Office & Sales Coordinator
+company: Marine Resources - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225826301
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: Hayley Dexis - Agency - Permanent
 location: Poole
@@ -606,6 +618,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Clerk
+company: Hays Accounts and Finance - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225827011
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchasing Administrator
 company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Poole
@@ -631,18 +655,6 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Aspire Jobs - Agency - Permanent
-location: Beaminster
-source: JobG8
-job_id: jobg8-23643_225616407
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: Dorset HealthCare University NHS Foundation Trust
 location: Poole, BH15 2NT
 source: NHS Jobs
@@ -658,7 +670,7 @@ title: Receptionist/Administrator
 company: Dorset HealthCare University NHS Foundation Trust
 location: Bridport, DT65DR
 source: NHS Jobs
-job_id: nhs-5713414
+job_id: nhs-5720791
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -738,35 +750,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Shipping Administrator
-company: Team Jobs - Strategic Accounts - Agency - Contract
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225790287
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Supply Chain Administrator
 company: Team Jobs - Commercial - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225815784
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Christchurch, BH23 3AF
-source: NHS Jobs
-job_id: nhs-5692257
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

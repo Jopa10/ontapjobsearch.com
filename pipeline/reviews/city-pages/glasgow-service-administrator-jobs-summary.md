@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
-- automatic review: 7
+- automatic include: 27
+- automatic review: 8
 - automatic exclude: 0
-- effective include: 32
-- effective review: 7
+- effective include: 27
+- effective review: 8
 - effective exclude: 0
 
-## INCLUDE (32)
+## INCLUDE (27)
 
 ---
 action: 
@@ -52,11 +52,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Client Services Administrator
+title: Business Development Executive
 company: Realise Recruitment - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225720686
+job_id: jobg8-23643_223109682
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -105,18 +105,6 @@ company: Pertemps Warwickshire County Council - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225734998
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Red Recruitment - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225721667
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -256,18 +244,6 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Procurement Administrator
-company: Pertemps Scotland Perms - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2233991
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist - Immediate Start - North Lanarkshire
 company: Search Consultancy Ltd - Agency - Contract
 location: Glasgow
@@ -297,18 +273,6 @@ company: Additional Resources Ltd - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-2256149
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Recruitment Coordinator
-company: Pertemps Glasgow Perms - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225724778
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -376,30 +340,6 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Facilities Coordinator
-company: Office Angels - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225721009
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Office Administrator
-company: Office Angels - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225719474
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary Receptionist/Administrator
 company: Office Angels - Agency - Temporary
 location: Glasgow
@@ -408,7 +348,7 @@ job_id: jobg8-23643_225760167
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -474,6 +414,18 @@ reason: No approved Glasgow catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Executive Fire & Security
+company: Realise Recruitment - Agency - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-23643_224045478
+reason: No approved Glasgow catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temp Marketing & Communications Officer
 company: Morgan Hunt Recruitment - Agency - Permanent
 location: Lanarkshire
@@ -490,7 +442,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2262219
+job_id: jobg8-2269621
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

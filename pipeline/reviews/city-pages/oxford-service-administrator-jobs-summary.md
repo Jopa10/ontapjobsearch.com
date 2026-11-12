@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 34
-- automatic exclude: 44
+- automatic review: 32
+- automatic exclude: 53
 - effective include: 12
-- effective review: 34
-- effective exclude: 44
+- effective review: 32
+- effective exclude: 53
 
 ## INCLUDE (12)
 
@@ -168,7 +168,7 @@ job_id: jobg8-23643_225746493
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (34)
+## REVIEW (32)
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: Wade Macdonald - Agency - Permanent
 location: Thame
 source: JobG8
 job_id: jobg8-2241746
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Care UK - Company - Permanent
-location: Witney
-source: JobG8
-job_id: jobg8-108062084
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -239,6 +227,18 @@ company: Operose Health
 location: Didcot, OX11 7GD
 source: NHS Jobs
 job_id: nhs-5677546
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Development Executive
+company: Red King Resourcing - Agency - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-23643_225826664
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -390,30 +390,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Assistant
-company: Language Business - Agency - Contract
-location: Bicester
-source: JobG8
-job_id: jobg8-23643_225721957
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Assistant
-company: The Language Business - Language Recruitment Specialists - Agency - Permanent
-location: Bicester
-source: JobG8
-job_id: jobg8-2129006
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Berry Recruitment - Agency - Permanent
 location: Didcot
@@ -510,11 +486,23 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Technical Administrator
-company: Cameo Consultancy - Agency - Permanent
-location: Banbury
+title: Service Administrator
+company: Auto Skills UK - Agency - Permanent
+location: Bicester
 source: JobG8
-job_id: jobg8-23643_225764102
+job_id: jobg8-23643_225825328
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator - Motor Trade
+company: ISQ Recruitment - Agency - Permanent
+location: Bicester
+source: JobG8
+job_id: jobg8-2270827
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -558,18 +546,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Transport Planner/Administrator
-company: Berry Recruitment - Agency - Temporary
-location: Banbury
-source: JobG8
-job_id: jobg8-23643_225720033
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Ward Clerk
 company: Oxford University Hospitals NHS Foundation Trust
 location: Banbury, OX16 9AL
@@ -578,7 +554,7 @@ job_id: nhs-5707703
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (44)
+## EXCLUDE (53)
 
 ---
 action: 
@@ -613,6 +589,18 @@ company: Savant Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2256080
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Wade Macdonald - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2273517
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -680,6 +668,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Conveyancing Assistant
+company: Reed - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2273661
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Care Coordinator
 company: Thomas Gray Ltd - Agency - Permanent
 location: Oxfordshire
@@ -697,18 +697,6 @@ company: MP Jobs Ltd t/a MP Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225791120
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Event Project Coordinator
-company: Live Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2126347
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -745,6 +733,18 @@ company: Philosophy Education - Agency - Contract
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225792217
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Officer
+company: Reed - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2267211
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -812,6 +812,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Litigation Paralegal
+company: Reed - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2273951
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing and Communications Manager
 company: Abingdon School - Agency - Permanent
 location: Oxfordshire
@@ -853,6 +865,30 @@ company: Headliners Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225749824
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Executive
+company: Plus One Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2270110
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Executive
+company: Plus One Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225823002
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -1004,6 +1040,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Procurement Assistant
+company: Trinity Resource Solutions - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225796525
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Project & Procurement Assistant
 company: One Way Resourcing - Agency - Permanent
 location: Oxfordshire
@@ -1052,11 +1100,47 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Recruitment Coordinator
+company: AIR Personnel Ltd - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225826309
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales Operations Administrator
 company: Glen Callum Associates Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225724962
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Administrator (Automotive)
+company: hireful - Company - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225824052
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Administrator (Automotive)
+company: hireful. - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2271111
 reason: Broad county location; not Oxford-city evidence.
 ---
 

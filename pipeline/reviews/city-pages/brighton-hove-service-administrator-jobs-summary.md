@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 101
-- automatic exclude: 26
-- effective include: 15
-- effective review: 101
-- effective exclude: 26
+- automatic include: 14
+- automatic review: 109
+- automatic exclude: 25
+- effective include: 14
+- effective review: 109
+- effective exclude: 25
 
-## INCLUDE (15)
+## INCLUDE (14)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Office Angels - Agency - Permanent
 location: Hove
 source: JobG8
 job_id: jobg8-23643_225770354
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Exams Officer
-company: Cardinal Newman Catholic School
-location: Hove
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-cardinal-newman-catholic-school-hove-east-sussex
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -204,7 +192,7 @@ job_id: nhs-5704086
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (101)
+## REVIEW (109)
 
 ---
 action: 
@@ -215,6 +203,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2143767
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Michael Page - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225826941
 reason: Broad location; review before city inclusion.
 ---
 
@@ -570,11 +570,47 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: Michael Page - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225827464
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Michael Page - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225827469
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Curriculum Administrative Assistant
 company: Brinsbury College - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-108243078
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Morgan Mckinley (Crawley) - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225826906
 reason: Broad location; review before city inclusion.
 ---
 
@@ -654,6 +690,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Digital Marketing Executive
+company: Reed - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2271554
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Facilities and Administration Coordinator
 company: Morgan Mckinley (Crawley) - Agency - Temporary
 location: Sussex
@@ -672,6 +720,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2188162
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Michael Page - Agency - Permanent
+location: Haywards Heath
+source: JobG8
+job_id: jobg8-23643_225827470
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -719,6 +779,18 @@ company: Office Angels - Agency - Contract
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225748731
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Credit Controller
+company: Michael Page - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225827108
 reason: Broad location; review before city inclusion.
 ---
 
@@ -846,11 +918,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Operations Manager - Fixed-Term Contract
-company: International Logistics Group - Agency - Permanent
+title: Marketing Manager
+company: Lloyd Recruitment - East Grinstead - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2184352
+job_id: jobg8-23643_225826650
 reason: Broad location; review before city inclusion.
 ---
 
@@ -858,11 +930,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Reception
-company: Hamilton Mayday - Agency - Temporary
+title: Marketing Operations Manager - Fixed-Term Contract
+company: International Logistics Group - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225720958
+job_id: jobg8-2184352
 reason: Broad location; review before city inclusion.
 ---
 
@@ -936,18 +1008,6 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2174014
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Payroll Administrator
-company: Tony Alan Recruitment - Agency - Permanent
-location: Hailsham
-source: JobG8
-job_id: jobg8-2129118
-reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -1068,6 +1128,18 @@ location: Uckfield
 source: JobG8
 job_id: jobg8-2191128
 reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Lloyd Recruitment Services Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2274667
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1230,6 +1302,18 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Administrator
+company: Tate - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225825699
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Officer
 company: Tate - Agency - Temporary
 location: Sussex
@@ -1302,11 +1386,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: SEO Manager
-company: Kairos Recruitment - Agency - Permanent
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225721980
+job_id: jobg8-2151146
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1314,11 +1398,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: Perfect Placement Uk Ltd - Agency - Permanent
+title: Service Advisor (VAG Group)
+company: Holt Recruitment Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2151146
+job_id: jobg8-23643_225822946
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1340,7 +1424,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Not Specified
+location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Brighton & Hove catchment rule matched; local review required.
@@ -1414,11 +1498,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2262211
+job_id: jobg8-2269616
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -1568,18 +1652,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR & Payroll Administrator - Immediate Start
-company: Office Angels - Agency - Temporary
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225718910
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Legal Secretary - Private Client
 company: TN Recruits - Agency - Permanent
 location: Eastbourne
@@ -1597,6 +1669,18 @@ company: Office Angels - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225736740
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Assistant
+company: Michael Page - Agency - Permanent
+location: Eastbourne
+source: JobG8
+job_id: jobg8-23643_225827467
 reason: Separate employment market.
 ---
 
@@ -1652,18 +1736,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Witterings Medical Centre
-location: Chichester, PO20 8BH
-source: NHS Jobs
-job_id: nhs-5691080
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist and Administrative Assistant
 company: Heron Park Primary Academy
 location: Eastbourne
@@ -1688,11 +1760,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: SCHOOL ADMINISTRATOR - IMMEDIATE START - DBS
-company: Office Angels - Agency - Contract
-location: Crawley
+title: Sales & Quotation Support Administrator
+company: Morgan Mckinley (Crawley) - Agency - Permanent
+location: Horsham
 source: JobG8
-job_id: jobg8-23643_225721235
+job_id: jobg8-23643_225825157
 reason: Separate employment market.
 ---
 

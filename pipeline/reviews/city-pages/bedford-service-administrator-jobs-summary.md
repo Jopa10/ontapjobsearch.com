@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 27
+- automatic review: 28
 - automatic exclude: 0
 - effective include: 9
-- effective review: 27
+- effective review: 28
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,19 +132,7 @@ job_id: jobg8-23643_225782845
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (27)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Abacus Consulting - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225758063
-reason: No exact Bedford workplace matched; local geographic review is required.
----
+## REVIEW (28)
 
 ---
 action: 
@@ -179,6 +167,18 @@ company: Hello Recruitment Associates Ltd - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-2176678
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Movianto - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2269535
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -455,6 +455,18 @@ company: St Thomas Catholic Academies Trust
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-trust-finance-assistant-st-thomas-catholic-academies-trust
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Bedfordshire Hospitals NHS Foundation Trust
+location: Luton, LU4 0DZ
+source: NHS Jobs
+job_id: nhs-5723010
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

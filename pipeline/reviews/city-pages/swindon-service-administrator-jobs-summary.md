@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 41
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 20
-- effective review: 41
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (20)
@@ -264,7 +264,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (36)
 
 ---
 action: 
@@ -402,18 +402,6 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Case and Client Co-ordinator - Maternity Cover
-company: CMD Recruitment - Agency - Permanent
-location: Marlborough
-source: JobG8
-job_id: jobg8-23643_225748318
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: hireful - Company - Permanent
 location: Wiltshire
@@ -479,18 +467,6 @@ company: Adecco - Agency - Temporary
 location: Trowbridge
 source: JobG8
 job_id: jobg8-23643_225817962
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Forensics Administrator
-company: Adecco - Agency - Temporary
-location: Devizes
-source: JobG8
-job_id: jobg8-23643_225761228
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -583,47 +559,11 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
-company: CMD Recruitment - Agency - Contract
-location: Devizes
-source: JobG8
-job_id: jobg8-23643_225741364
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
 company: E3 Recruitment - Agency - Permanent
 location: Westbury
 source: JobG8
 job_id: jobg8-23643_225820403
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Ledger Assistant
-company: Pertemps Reading - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225723594
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Ledger Assistant
-company: Reading Industrial Pertemps - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-2126623
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -648,6 +588,18 @@ location: Chippenham
 source: JobG8
 job_id: jobg8-23643_225807860
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Octane Recruitment - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108286433
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -731,18 +683,6 @@ company: Interaction Recruitment - Agency - Permanent
 location: Devizes
 source: JobG8
 job_id: jobg8-23643_225777424
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Support Coordinator
-company: AlertSystems - Agency - Permanent
-location: Trowbridge
-source: JobG8
-job_id: jobg8-23643_225721467
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 42
+- Effective included jobs: 38
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 42
+- automatic include: 38
 - automatic review: 17
 - automatic exclude: 0
-- effective include: 42
+- effective include: 38
 - effective review: 17
 - effective exclude: 0
 
-## INCLUDE (42)
+## INCLUDE (38)
 
 ---
 action: 
@@ -166,18 +166,6 @@ location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225104910
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Data Coordinator
-company: Randstad Sourceright - Agency - Contract
-location: Lincoln
-source: JobG8
-job_id: jobg8-23643_225720797
-reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -388,18 +376,6 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Patient Administrator
-company: Lincolnshire Community Health Service NHS Trust
-location: Lincolnshire, LN6 3JY
-source: NHS Jobs
-job_id: nhs-5696977
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Administrator
 company: Integrity Plus Ltd - Agency - Permanent
 location: Lincolnshire
@@ -418,18 +394,6 @@ location: Lincoln
 source: JobG8
 job_id: jobg8-2233430
 reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Quality Administrator (Food Manufacturing)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2130275
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---
@@ -476,7 +440,7 @@ title: Sales and Logistics Coordinator
 company: Edwards & Pearce - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-23643_225720981
+job_id: jobg8-23643_225823253
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -501,18 +465,6 @@ company: TEAM - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225785369
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Legal Secretary
-company: LJ Recruitment - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225722678
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -558,6 +510,18 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Administrative Assistant
+company: Care Plus Group
+location: Grimsby, DN32 7DH
+source: NHS Jobs
+job_id: nhs-5722358
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Attendance Officer
 company: Waltham Toll Bar Academy
 location: Grimsby
@@ -575,18 +539,6 @@ company: Avon Search & Selection - Agency - Permanent
 location: Gainsborough
 source: JobG8
 job_id: jobg8-23643_225801264
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Business Assistant
-company: Commercial Recruitment - Agency - Permanent
-location: Stamford
-source: JobG8
-job_id: jobg8-23643_225719266
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

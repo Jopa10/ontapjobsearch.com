@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 59
+- Effective included jobs: 52
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 59
+- automatic include: 52
 - automatic review: 9
 - automatic exclude: 0
-- effective include: 59
+- effective include: 52
 - effective review: 9
 - effective exclude: 0
 
-## INCLUDE (59)
+## INCLUDE (52)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Adaptable Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-2174017
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Adele Carr Recruitment Limited - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2126503
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -172,18 +160,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical Officer - Gastroenterology
-company: Liverpool University Hospitals NHS Foundation Trust
-location: Liverpool, L9 7AL
-source: NHS Jobs
-job_id: nhs-5715134
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Client Administrator
 company: Search Consultancy Ltd - Agency - Permanent
 location: Liverpool
@@ -268,30 +244,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Document Controller
-company: Penguin Recruitment - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225721850
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Facilities Administrator
-company: Michael Page - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225798411
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Assistant
 company: Adaptable Recruitment - Agency - Permanent
 location: Liverpool
@@ -369,30 +321,6 @@ company: Time Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-2175511
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator
-company: Hays Business Support - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225747159
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Coordinator
-company: Michael Page - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225739687
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -700,18 +628,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Technical Administrator
-company: Morgan Ryder Associates - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225725401
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary Receptionist
 company: Office Angels - Agency - Temporary
 location: Liverpool
@@ -838,7 +754,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2262223
+job_id: jobg8-2269625
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

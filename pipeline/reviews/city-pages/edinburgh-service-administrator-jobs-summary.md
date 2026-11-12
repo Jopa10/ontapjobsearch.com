@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
+- automatic include: 29
 - automatic review: 13
 - automatic exclude: 0
-- effective include: 32
+- effective include: 29
 - effective review: 13
 - effective exclude: 0
 
-## INCLUDE (32)
+## INCLUDE (29)
 
 ---
 action: 
@@ -45,30 +45,6 @@ company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-2250256
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant (Part-time 30 hrs)
-company: Michael Page - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225723903
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant (Part-time 30 hrs)
-company: Michael Page Business Support - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2126954
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -364,35 +340,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Site Administrator (Construction)
-company: CNX Recruitment - Agency - Contract
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225782091
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temp Administrator (Pot to go Perm) HYBRID
 company: Office Angels - Agency - Temporary
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225789104
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Administrator
-company: Escape - Agency - Temporary
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225800891
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -408,6 +360,18 @@ job_id: jobg8-23643_225620197
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Receptionist & Administration Assistant
+company: Office Angels - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225826088
+reason: Approved conservative Edinburgh launch catchment.
+---
+
 ## REVIEW (13)
 
 ---
@@ -419,18 +383,6 @@ company: Able Bridge Recruitment - Agency - Permanent
 location: Prestonpans
 source: JobG8
 job_id: jobg8-2203782
-reason: No approved Edinburgh catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Clerk
-company: ctrg - Agency - Temporary
-location: Livingston
-source: JobG8
-job_id: jobg8-23643_225719849
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 
@@ -563,6 +515,18 @@ company: Questech Recruitment Ltd - Agency - Temporary
 location: Dalkeith
 source: JobG8
 job_id: jobg8-23643_225793155
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Administrator
+company: Escape - Agency - Temporary
+location: Livingston
+source: JobG8
+job_id: jobg8-23643_225825687
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

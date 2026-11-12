@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 52
+- Effective included jobs: 50
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 52
+- automatic include: 50
 - automatic review: 18
-- automatic exclude: 31
-- effective include: 52
+- automatic exclude: 30
+- effective include: 50
 - effective review: 18
-- effective exclude: 31
+- effective exclude: 30
 
-## INCLUDE (52)
+## INCLUDE (50)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2274549
+reason: Approved conservative Cambridge launch catchment.
+---
 
 ---
 action: 
@@ -568,18 +580,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist / Front of House
-company: Adecco - Agency - Temporary
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225724493
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist/Administrator
 company: Cambridge University Hospital NHS Foundation Trust
 location: Cambridge, CB2 9LG
@@ -621,30 +621,6 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225735950
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Accounts Assistant
-company: Eclectic Recruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2125626
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Accounts Assistant
-company: Eclectic Recruitment - Agency - Temporary
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225721995
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -866,7 +842,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -913,18 +889,6 @@ company: East of England Community Health and Care NHS Trust (Cambridge)
 location: Huntingdon, PE29 7HN
 source: NHS Jobs
 job_id: nhs-5694740
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Barker Ross - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225719523
 reason: Separate employment market.
 ---
 
@@ -1092,7 +1056,7 @@ title: Outside Account Manager
 company: The Work Shop - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2212003
+job_id: jobg8-2274055
 reason: Separate employment market.
 ---
 
@@ -1185,6 +1149,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Service Advisor
+company: Commercial Recruitment - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225811425
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor
 company: Scout Recruiting LTD - Agency - Permanent
 location: Peterborough
 source: JobG8
@@ -1213,18 +1189,6 @@ company: ISQ Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225789639
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor - Volkswagen Peterborough
-company: Group 1 Automotive - Company - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2178384
 reason: Separate employment market.
 ---
 

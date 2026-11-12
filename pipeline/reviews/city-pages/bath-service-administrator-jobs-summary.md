@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 77
+- automatic review: 80
 - automatic exclude: 0
 - effective include: 10
-- effective review: 77
+- effective review: 80
 - effective exclude: 0
 
 ## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts and Lettings Administrator
-company: Juice Recruitment Ltd - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2130369
-reason: Exact approved Bath workplace.
----
 
 ---
 action: 
@@ -69,6 +57,18 @@ company: Red Recruitment - Agency - Temporary
 location: Bath
 source: JobG8
 job_id: jobg8-23643_225732800
+reason: Exact approved Bath workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Digital Marketing & Performance Manager
+company: Truespeed - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2274552
 reason: Exact approved Bath workplace.
 ---
 
@@ -144,7 +144,7 @@ job_id: jobg8-2188896
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (77)
+## REVIEW (80)
 
 ---
 action: 
@@ -203,18 +203,6 @@ company: Rise Technical Recruitment Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2200810
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Sirona care & health CIC
-location: Bristol, BS16 1EQ
-source: NHS Jobs
-job_id: nhs-5691597
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -439,10 +427,10 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Interaction Recruitment - Agency - Temporary
+company: Hamilton Woods - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225758669
+job_id: jobg8-23643_225826675
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -451,10 +439,10 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Tate - Agency - Temporary
+company: Interaction Recruitment - Agency - Temporary
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225723001
+job_id: jobg8-23643_225758669
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -702,6 +690,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Legal Personal Assistant
+company: Owen Reed - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2272016
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Litigation Paralegal
 company: Reed - Agency - Permanent
 location: Bristol
@@ -906,6 +906,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Sales administrator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225826303
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Salesforce & Sales Pipeline Coordinator
 company: Adria Solutions - Agency - Permanent
 location: Bristol
@@ -1050,11 +1062,35 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Temporary Receptionist
+company: CCA Recruitment Group - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225826098
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2262212
+job_id: jobg8-2269617
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Transactional Finance Officer
+company: Michael Page - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225827241
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

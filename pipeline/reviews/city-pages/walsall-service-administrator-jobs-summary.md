@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 56
+- automatic include: 10
+- automatic review: 57
 - automatic exclude: 0
-- effective include: 8
-- effective review: 56
+- effective include: 10
+- effective review: 57
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (10)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Aspire People - Agency - Temporary
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_225826398
+reason: Exact approved Walsall workplace.
+---
 
 ---
 action: 
@@ -57,6 +69,18 @@ company: Interaction Recruitment - Agency - Temporary
 location: Walsall
 source: JobG8
 job_id: jobg8-23643_225740640
+reason: Exact approved Walsall workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: MET Recruitment UK LTD - Agency - Temporary
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_225826686
 reason: Exact approved Walsall workplace.
 ---
 
@@ -120,7 +144,19 @@ job_id: jobg8-23643_225397260
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (57)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Reed - Agency - Permanent
+location: Dudley
+source: JobG8
+job_id: jobg8-2270129
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -239,6 +275,18 @@ company: Adecco - Agency - Permanent
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225790350
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: The Royal Wolverhampton NHS Trust
+location: Wolverhampton, WV10 0QP
+source: NHS Jobs
+job_id: nhs-5721401
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -443,18 +491,6 @@ company: Tudor Medical Group
 location: Wolverhampton, WV100LS
 source: NHS Jobs
 job_id: nhs-5700366
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Doocey Group - Agency - Permanent
-location: Tipton
-source: JobG8
-job_id: jobg8-23643_225724176
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

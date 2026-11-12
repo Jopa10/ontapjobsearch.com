@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 15
-- automatic exclude: 53
+- automatic review: 12
+- automatic exclude: 54
 - effective include: 20
-- effective review: 15
-- effective exclude: 53
+- effective review: 12
+- effective exclude: 54
 
 ## INCLUDE (20)
 
@@ -112,11 +112,11 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Paralegal
-company: Reed - Agency - Permanent
+title: Logistics Coordinator
+company: Questech Recruitment Ltd - Agency - Contract
 location: Doncaster
 source: JobG8
-job_id: jobg8-2247783
+job_id: jobg8-23643_225813718
 reason: Approved Doncaster catchment.
 ---
 
@@ -124,11 +124,11 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Payroll Administrator
-company: Travail Employment Group - Agency - Permanent
+title: Paralegal
+company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-23643_225346567
+job_id: jobg8-2247783
 reason: Approved Doncaster catchment.
 ---
 
@@ -164,7 +164,7 @@ title: Payroll Administrator
 company: Edwards & Pearce - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-23643_225720547
+job_id: jobg8-23643_225823247
 reason: Approved Doncaster catchment.
 ---
 
@@ -264,7 +264,7 @@ job_id: jobg8-23643_225747598
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (12)
 
 ---
 action: 
@@ -275,18 +275,6 @@ company: Runwood Homes - Company - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225736679
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Office Angels - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225741868
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -343,18 +331,6 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Executive
-company: Andy File Associates Limited - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2155938
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
 company: Austin Banks - Agency - Permanent
 location: Yorkshire
 source: JobG8
@@ -402,18 +378,6 @@ reason: No approved Doncaster catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Officer
-company: Portfolio Payroll Limited - Agency - Contract
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225718956
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Retail & Brand Partnership Executive
 company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
@@ -442,11 +406,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2262229
+job_id: jobg8-2269631
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (53)
+## EXCLUDE (54)
 
 ---
 action: 
@@ -469,18 +433,6 @@ company: BDS (Northern) Limited - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225809502
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-2129178
 reason: Separate employment market.
 ---
 
@@ -897,10 +849,34 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Payroll Administrator
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2274221
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-2177843
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225825341
 reason: Separate employment market.
 ---
 
@@ -1052,11 +1028,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Service and Validation Administrator
-company: Unicorn Resourcing - Agency - Permanent
-location: Rotherham
+title: Site Administrator
+company: Albion Search - Agency - Permanent
+location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225739769
+job_id: jobg8-23643_225823403
 reason: Separate employment market.
 ---
 

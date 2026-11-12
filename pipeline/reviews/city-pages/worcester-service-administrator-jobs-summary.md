@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 26
+- automatic include: 5
+- automatic review: 28
 - automatic exclude: 0
-- effective include: 4
-- effective review: 26
+- effective include: 5
+- effective review: 28
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Business Development Executive
+company: SJR Partners - Agency - Permanent
+location: Worcester
+source: JobG8
+job_id: jobg8-23643_225824076
+reason: Exact approved Worcester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Worcester
@@ -72,7 +84,7 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (28)
 
 ---
 action: 
@@ -138,11 +150,47 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Contact Centre Manager
+company: Brellis Recruitment - Agency - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-23643_225779372
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Contact Centre Supervisor
 company: Brellis Recruitment - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225779323
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contracts Coordinator
+company: Arden Personnel - Agency - Permanent
+location: Redditch
+source: JobG8
+job_id: jobg8-23643_225824628
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: AMCO - Agency - Permanent
+location: Redditch
+source: JobG8
+job_id: jobg8-23643_225824362
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -186,18 +234,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Vibe Recruit - Agency - Permanent
-location: Malvern
-source: JobG8
-job_id: jobg8-23643_225722826
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Imports Coordinator
 company: Adecco - Agency - Permanent
 location: Worcestershire
@@ -222,11 +258,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Junior Finance Assistant
-company: Four Squared - Agency - Permanent
+title: Logistics Coordinator
+company: AMCO - Agency - Permanent
 location: Redditch
 source: JobG8
-job_id: jobg8-2129967
+job_id: jobg8-23643_225824299
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -234,11 +270,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Junior Finance Assistant
-company: Four Squared Recruitment Ltd - Agency - Temporary
-location: Redditch
+title: Night Transport Office Administrator
+company: Workforce Staffing Ltd - Agency - Permanent
+location: Worcestershire
 source: JobG8
-job_id: jobg8-23643_225726156
+job_id: jobg8-23643_225799806
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -294,18 +330,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Officer
-company: Hawk 3 Talent Solutions - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225820459
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Clerk
 company: Transaction Recruitment - Agency - Temporary
 location: Worcestershire
@@ -323,6 +347,18 @@ company: Pershore Medical Practice
 location: Pershore, WR10 1PX
 source: NHS Jobs
 job_id: nhs-5702469
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment & Resourcing Administrator - Temporary Staffing
+company: The Logistics Partnership - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225776688
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

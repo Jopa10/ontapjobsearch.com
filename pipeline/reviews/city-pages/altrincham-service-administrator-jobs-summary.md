@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 34
+- automatic review: 33
 - automatic exclude: 0
 - effective include: 18
-- effective review: 34
+- effective review: 33
 - effective exclude: 0
 
 ## INCLUDE (18)
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225733574
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (33)
 
 ---
 action: 
@@ -342,18 +342,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - 4 month temp contract
-company: UK Staffing Group Limited - Agency - Temporary
-location: Sale
-source: JobG8
-job_id: jobg8-23643_225800973
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: Premier Recruitment Solutions Ltd - Agency - Permanent
 location: Denton
@@ -367,10 +355,10 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
-company: Hays Accounts and Finance - Agency - Permanent
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-23643_225737501
+job_id: jobg8-2271165
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -594,18 +582,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Winsearch - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225720848
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Reporting Administrator
 company: Halecroft Recruitment - Agency - Temporary
 location: Trafford
@@ -623,6 +599,18 @@ company: Adecco - Agency - Temporary
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225778251
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Bayman Atkinson Smythe - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225825293
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

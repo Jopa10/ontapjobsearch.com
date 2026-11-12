@@ -372,5 +372,24 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5722895",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Mid and South Essex NHS Foundation Trust",
+    "advertiser_name": "Mid and South Essex NHS Foundation Trust",
+    "location": "Chelmsford, CM1 7ET",
+    "region": "Essex",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-11T15:57:40.222011772",
+    "closing_date": "2026-11-16",
+    "description": "We have a fantastic opportunity for someone looking for a part-time role in administration. The role is based within the Medical Secretarial Service at Broomfield Hospital, and comes with some great benefits including, a very generous holiday allowance, a brilliant pension and the opportunity to work with some great people. There is a wide range of support for staff covering a broad range of subjects such as child care, health and fitness and mental health, and financially supported schemes for travel such as cycle to work and discounted bus tickets . We can also offer some great flexibility on working hours and working patterns and a full training and mentoring is available if required. Please note we are unable to offer VISA sponsorship for this role. This role will involve a range of administrative tasks involved in patient care including - filing, scanning, sending letters, collecting post, retrieving messages on phones, populating spreadsheets and completing forms. It may also involve tracking patients, collating diagnostic results, calling patients and supporting secretarial tasks. For full details about this varied and rewarding role, please see attached job description. We look forward to your application. Please be aware that we reserve the right to close this vacancy early if we receive a suitable number of applications.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2773",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2773",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
   }
 ]

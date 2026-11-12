@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 26
 - automatic review: 16
-- automatic exclude: 58
-- effective include: 27
+- automatic exclude: 56
+- effective include: 26
 - effective review: 16
-- effective exclude: 58
+- effective exclude: 56
 
-## INCLUDE (27)
+## INCLUDE (26)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2175388
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Barker Ross - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225719523
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -212,7 +200,7 @@ title: Outside Account Manager
 company: The Work Shop - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2212003
+job_id: jobg8-2274055
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -293,6 +281,18 @@ action:
 decision: include
 automatic_decision: include
 title: Service Advisor
+company: Commercial Recruitment - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225811425
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
 company: Scout Recruiting LTD - Agency - Permanent
 location: Peterborough
 source: JobG8
@@ -321,18 +321,6 @@ company: ISQ Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225789639
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor - Volkswagen Peterborough
-company: Group 1 Automotive - Company - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2178384
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -542,7 +530,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (58)
+## EXCLUDE (56)
 
 ---
 action: 
@@ -553,6 +541,18 @@ company: Nxtgen Recruitment - Agency - Permanent
 location: Huntingdon
 source: JobG8
 job_id: jobg8-2191806
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2274549
 reason: Separate employment market.
 ---
 
@@ -1148,18 +1148,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist / Front of House
-company: Adecco - Agency - Temporary
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225724493
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist/Administrator
 company: Cambridge University Hospital NHS Foundation Trust
 location: Cambridge, CB2 9LG
@@ -1213,29 +1201,5 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225735950
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Accounts Assistant
-company: Eclectic Recruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2125626
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Accounts Assistant
-company: Eclectic Recruitment - Agency - Temporary
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225721995
 reason: Separate employment market.
 ---

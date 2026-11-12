@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 75
+- automatic include: 9
+- automatic review: 78
 - automatic exclude: 0
-- effective include: 8
-- effective review: 75
+- effective include: 9
+- effective review: 78
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -52,11 +52,35 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-2267901
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Interim Purchase Ledger
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Plymouth
 source: JobG8
 job_id: jobg8-2240730
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist/Administrator
+company: Oakside Surgery
+location: Plymouth, PL5 3PY, PLYMOUTH, PL5 4DU
+source: NHS Jobs
+job_id: nhs-5719324
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -108,19 +132,7 @@ job_id: jobg8-23643_225767515
 reason: Exact approved Plymouth workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: School Receptionist
-company: Stoke Damerel Community College
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-receptionist-stoke-damerel-community-college
-reason: Exact approved Plymouth workplace.
----
-
-## REVIEW (75)
+## REVIEW (78)
 
 ---
 action: 
@@ -143,6 +155,30 @@ company: AMR - Specialist Property Recruiters - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-2256467
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Backline Logistics - Agency - Contract
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225823724
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Butler Rose - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2274255
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -222,6 +258,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Administration Support
+company: NHS Professionals - Company - Temporary
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225766994
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: Office Angels - Agency - Permanent
 location: Exeter
@@ -275,6 +323,18 @@ company: Devon Partnership NHS Trust
 location: Tavistock, PL19 8AB
 source: NHS Jobs
 job_id: nhs-5718178
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support Officer
+company: Fusion People Ltd - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225826662
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -354,11 +414,23 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: untypical - Agency - Permanent
-location: Devon
+title: Customer Service Receptionist
+company: Amour Recruitment - Agency - Permanent
+location: Exeter
 source: JobG8
-job_id: jobg8-23643_225720303
+job_id: jobg8-2270981
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Receptionist
+company: Amour Recruitment - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225823946
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -463,6 +535,18 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
+company: Build Recruitment - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225822938
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
 company: Pertemps Plymouth - Agency - Temporary
 location: Exeter
 source: JobG8
@@ -546,30 +630,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: 4Recruitment Services - Agency - Contract
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225720286
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant
-company: Premier Foods - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-108255868
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Interim Accounts Assistant
 company: Hays Senior Finance - Agency - Temporary
 location: Exeter
@@ -623,18 +683,6 @@ company: Elysium Healthcare
 location: Cullompton, EX15 1EA
 source: NHS Jobs
 job_id: nhs-5699161
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Nursery Administrator
-company: Alphington Primary School
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-nursery-administrator-31464adb-0c58-44e0-b86c-35e420fdd035
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

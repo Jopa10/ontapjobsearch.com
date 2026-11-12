@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 15
-- automatic exclude: 11
+- automatic exclude: 8
 - effective include: 4
 - effective review: 15
-- effective exclude: 11
+- effective exclude: 8
 
 ## INCLUDE (4)
 
@@ -106,7 +106,7 @@ title: Care Assistant
 company: Hampshire County Council - Company - Permanent
 location: Alton
 source: JobG8
-job_id: jobg8-1401785913
+job_id: jobg8-1401786463
 reason: Broad location; review before city inclusion.
 ---
 
@@ -132,18 +132,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225815477
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Support Worker (Female Only)
-company: Peabody - Agency - Permanent
-location: Alresford
-source: JobG8
-job_id: jobg8-23643_225724325
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -222,6 +210,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Care Assistant
+company: Barchester Healthcare - Company - Permanent
+location: Hedge End
+source: JobG8
+job_id: jobg8-23643_225825929
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Residential Childcare Worker
 company: First For Support - Agency - Temporary
 location: Tadley
@@ -254,7 +254,7 @@ job_id: jobg8-23643_225653471
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -265,6 +265,18 @@ company: Avon Search & Selection - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225779755
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Assistant
+company: Enham Trust - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-23643_225827174
 reason: Separate employment market.
 ---
 
@@ -337,53 +349,5 @@ company: SCA Care - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-108298282
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Support Worker
-company: Enham Trust - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225726054
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Support Worker
-company: Right Match Recruitment Group Limited - Agency - Permanent
-location: Aldershot
-source: JobG8
-job_id: jobg8-23643_225720535
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Support Worker - Full Time
-company: Enham Trust - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225725917
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Support Worker - Part Time Hours
-company: Enham Trust - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225725899
 reason: Separate employment market.
 ---

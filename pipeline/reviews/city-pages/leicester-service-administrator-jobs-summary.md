@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 25
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 83
+- automatic include: 26
+- automatic review: 80
 - automatic exclude: 0
-- effective include: 25
-- effective review: 83
+- effective include: 26
+- effective review: 80
 - effective exclude: 0
 
-## INCLUDE (25)
+## INCLUDE (26)
 
 ---
 action: 
@@ -244,6 +244,18 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Quality Administrator
+company: TSR Recruitment Limited - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225824773
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: The Orchard Medical Practice
 location: Leicester, LE9 6RG
@@ -324,7 +336,7 @@ job_id: jobg8-2152805
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (83)
+## REVIEW (80)
 
 ---
 action: 
@@ -523,18 +535,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225724494
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Office Angels - Agency - Permanent
 location: Leicestershire
 source: JobG8
@@ -618,6 +618,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Bentley & Lamborghini Receptionist / Host
+company: Sytner - Company - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225825190
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: BMW Service Advisor
 company: Sytner - Company - Permanent
 location: Leicestershire
@@ -659,18 +671,6 @@ company: RECfinancial - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225735417
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Saint Gobain - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225773382
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -786,18 +786,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Digital Business Analyst
-company: Rise Technical Recruitment - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225806830
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Loughborough
@@ -814,7 +802,7 @@ title: Finance Assistant
 company: RECfinancial - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225766866
+job_id: jobg8-23643_225823784
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -827,18 +815,6 @@ company: RECfinancial - Agency - Temporary
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225801367
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Officer
-company: Reed - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2129647
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1018,6 +994,18 @@ title: Payroll Officer
 company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
+job_id: jobg8-2267126
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
 job_id: jobg8-23643_225821426
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
@@ -1074,35 +1062,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Controller
-company: Fisher German - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225724433
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchasing Coordinator
 company: Fabric Recruitment Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225822054
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist - LE4
-company: Office Angels - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225721480
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1242,11 +1206,23 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Temporary Administrator
+company: Eaton Syalon Ltd - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225825174
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2262222
+job_id: jobg8-2269624
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

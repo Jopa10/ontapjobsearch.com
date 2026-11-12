@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 84
+- automatic review: 90
 - automatic exclude: 39
 - effective include: 20
-- effective review: 84
+- effective review: 90
 - effective exclude: 39
 
 ## INCLUDE (20)
@@ -33,18 +33,6 @@ company: Office Angels - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225822053
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Get-Recruited (UK) Ltd - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-23643_225721307
 reason: Approved Newcastle catchment.
 ---
 
@@ -148,11 +136,11 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Document Controller
-company: Rullion Managed Services - Agency - Contract
+title: Customer Service Representative
+company: Adecco - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
-job_id: jobg8-23643_225820434
+job_id: jobg8-23643_225826135
 reason: Approved Newcastle catchment.
 ---
 
@@ -160,11 +148,11 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Graduate Accounts Assistant
-company: Get-Recruited (UK) Ltd - Agency - Permanent
+title: Document Controller
+company: Rullion Managed Services - Agency - Contract
 location: Newcastle Upon Tyne
 source: JobG8
-job_id: jobg8-23643_225721329
+job_id: jobg8-23643_225820434
 reason: Approved Newcastle catchment.
 ---
 
@@ -256,6 +244,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Scheduler/ Planner
+company: Adecco - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-23643_225826542
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Administrator Newcastle City Centre
 company: Office Angels - Agency - Temporary
 location: Newcastle
@@ -264,7 +264,7 @@ job_id: jobg8-23643_225729570
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (84)
+## REVIEW (90)
 
 ---
 action: 
@@ -276,6 +276,30 @@ location: North Shields
 source: JobG8
 job_id: jobg8-23643_225779396
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Manager (Marketing Agency)
+company: Candidate Source - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225823528
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Manager (Marketing Agency)
+company: Candidate Source Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2270614
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -299,6 +323,18 @@ company: Jackson Hogg - Agency - Permanent
 location: Northumberland
 source: JobG8
 job_id: jobg8-2142637
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: KCR Solutions - Agency - Permanent
+location: Washington
+source: JobG8
+job_id: jobg8-2273997
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -474,30 +510,6 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Call Centre Customer Enabling Services Advocate
-company: Executive Connect LTD - Agency - Contract
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_223850779
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Candidate Manager / Resourcer
-company: Prospero Group Internal - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225720328
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Clinical Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Sedgefield, TS21 3EE
@@ -516,6 +528,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225782849
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Content Editor (3 months)
+company: Reed - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2272177
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -606,30 +630,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Reed - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2130321
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Start People Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225721194
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Care Coordinator
 company: Westray Recruitment Consultants Ltd - Agency - Permanent
 location: Tyne And Wear
@@ -659,6 +659,18 @@ company: We Are Zenith - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225808707
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor part time
+company: We Are Zenith - Agency - Temporary
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225809107
 reason: Broad location; review before city inclusion.
 ---
 
@@ -726,18 +738,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Document Controller
-company: MTrec Ltd Technical - Agency - Permanent
-location: Northumberland
-source: JobG8
-job_id: jobg8-23643_225630974
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: ED Receptionist
 company: Northumbria Healthcare NHS Foundation Trust
 location: Cramlington, NE23 6NZ
@@ -755,6 +755,30 @@ company: Coleman James - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225724955
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: External Affairs Manager
+company: Michael Page Marketing - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2274438
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance and Accounts Administrator
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2274234
 reason: Broad location; review before city inclusion.
 ---
 
@@ -780,6 +804,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2234947
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Full Time Customer Service Advisor
+company: We Are Zenith - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225808743
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -852,6 +888,18 @@ location: Blaydon-on-tyne
 source: JobG8
 job_id: jobg8-23643_225796037
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Junior Warehouse Administrator
+company: MTrec Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2273965
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -972,6 +1020,18 @@ location: North Shields
 source: JobG8
 job_id: jobg8-23643_225822497
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Customer Service Advisor
+company: We Are Zenith - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225808674
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1158,6 +1218,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Sales, Finance & Marketing Administrator
+company: Executive Compass - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225823158
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Business Support Officer
 company: Morpeth Stobhillgate First School
 location: Morpeth
@@ -1230,18 +1302,6 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Coordinator
-company: AM Global - Agency - Contract
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225714293
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary ECO Administrator - Newcastle
 company: Office Angels - Agency - Temporary
 location: Tyne And Wear
@@ -1258,7 +1318,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2262225
+job_id: jobg8-2269627
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1271,6 +1331,18 @@ company: Spire Healthcare - Company - Permanent
 location: Washington
 source: JobG8
 job_id: jobg8-23643_225781278
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Typing Coordinator
+company: Spire Healthcare - Company - Permanent
+location: Washington
+source: JobG8
+job_id: jobg8-23643_225825664
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1400,6 +1472,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Digital Communications and Marketing Officer
+company: CAV Ice Protection Ltd - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225825706
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance & Payroll Assistant
 company: James Andrew Recruitment Solutions (JAR Solutions) - Agency - Permanent
 location: Durham
@@ -1429,6 +1513,18 @@ company: Penn Gregory Recruitment Ltd - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225764054
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Front of House Property Admin
+company: Integro People Limited - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225826691
 reason: Separate employment market.
 ---
 
@@ -1616,35 +1712,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Recruitment Administrator
-company: SRG - Agency - Temporary
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225723153
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales Administrator
 company: Towne Lifting & Testing - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225725446
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: School Administrator/Receptionist
-company: Empowering Learning - Agency - Contract
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225806242
 reason: Separate employment market.
 ---
 

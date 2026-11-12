@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 18
 - automatic review: 33
 - automatic exclude: 0
-- effective include: 19
+- effective include: 18
 - effective review: 33
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (18)
 
 ---
 action: 
@@ -208,18 +208,6 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Winsearch - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225720848
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Administrator
 company: Adecco - Agency - Temporary
 location: Stockport
@@ -366,18 +354,6 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - 4 month temp contract
-company: UK Staffing Group Limited - Agency - Temporary
-location: Sale
-source: JobG8
-job_id: jobg8-23643_225800973
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: Premier Recruitment Solutions Ltd - Agency - Permanent
 location: Denton
@@ -415,10 +391,10 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
-company: Hays Accounts and Finance - Agency - Permanent
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-23643_225737501
+job_id: jobg8-2271165
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -647,6 +623,18 @@ company: Halecroft Recruitment - Agency - Temporary
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225757919
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Bayman Atkinson Smythe - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225825293
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

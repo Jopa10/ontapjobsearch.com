@@ -16,13 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 29
-- automatic review: 11
+- automatic review: 10
 - automatic exclude: 4
 - effective include: 29
-- effective review: 11
+- effective review: 10
 - effective exclude: 4
 
 ## INCLUDE (29)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2270650
+reason: Approved conservative Warrington launch catchment.
+---
 
 ---
 action: 
@@ -136,18 +148,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Care Coordinator
-company: Fawkes & Reece London - Agency - Temporary
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225721355
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
 company: Michael Page - Agency - Contract
 location: Warrington
@@ -196,23 +196,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: FTC Administrator
-company: Zachary Daniels Recruitment - Agency - Contract
+title: Front of House Administrator
+company: Fawkes & Reece London - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-23643_225724405
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: The Surgery
-location: Warrington, WA1 3RB
-source: NHS Jobs
-job_id: nhs-5675613
+job_id: jobg8-23643_225822871
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -225,6 +213,18 @@ company: Dynamic Resourcing - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225808410
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: JGA Recruitment - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225824091
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -372,7 +372,7 @@ job_id: jobg8-23643_225793459
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -419,18 +419,6 @@ company: Neos Recruitment Ltd - Agency - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-23643_225737277
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Content Creator Lead
-company: Reed - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-2149374
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

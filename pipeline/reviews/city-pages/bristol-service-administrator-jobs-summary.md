@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 65
+- Effective included jobs: 66
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 65
-- automatic review: 12
+- automatic include: 66
+- automatic review: 14
 - automatic exclude: 10
-- effective include: 65
-- effective review: 12
+- effective include: 66
+- effective review: 14
 - effective exclude: 10
 
-## INCLUDE (65)
+## INCLUDE (66)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: Rise Technical Recruitment Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2200810
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sirona care & health CIC
-location: Bristol, BS16 1EQ
-source: NHS Jobs
-job_id: nhs-5691597
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -317,10 +305,10 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
-company: Interaction Recruitment - Agency - Temporary
+company: Hamilton Woods - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225758669
+job_id: jobg8-23643_225826675
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -329,10 +317,10 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
-company: Tate - Agency - Temporary
+company: Interaction Recruitment - Agency - Temporary
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225723001
+job_id: jobg8-23643_225758669
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -664,6 +652,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales administrator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225826303
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Salesforce & Sales Pipeline Coordinator
 company: Adria Solutions - Agency - Permanent
 location: Bristol
@@ -796,6 +796,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Temporary Receptionist
+company: CCA Recruitment Group - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225826098
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Workforce Planner
 company: Huntress - Maidstone - Agency - Temporary
 location: Bristol
@@ -804,7 +816,7 @@ job_id: jobg8-23643_225821474
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (14)
 
 ---
 action: 
@@ -882,6 +894,18 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Legal Personal Assistant
+company: Owen Reed - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2272016
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Logistics Coordinator
 company: Employal - Agency - Permanent
 location: Portishead
@@ -946,23 +970,23 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2262212
+job_id: jobg8-2269617
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Transactional Finance Officer
+company: Michael Page - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225827241
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (10)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts and Lettings Administrator
-company: Juice Recruitment Ltd - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2130369
-reason: Separate employment market.
----
 
 ---
 action: 
@@ -997,6 +1021,18 @@ company: Red Recruitment - Agency - Temporary
 location: Bath
 source: JobG8
 job_id: jobg8-23643_225732800
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Digital Marketing & Performance Manager
+company: Truespeed - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2274552
 reason: Separate employment market.
 ---
 

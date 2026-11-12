@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 33
+- automatic include: 9
+- automatic review: 32
 - automatic exclude: 0
-- effective include: 7
-- effective review: 33
+- effective include: 9
+- effective review: 32
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (9)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Exact approved Shrewsbury workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing Manager
+company: Greenfield I T Recruitment - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-2274542
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger
 company: Counted Recruitment - Agency - Permanent
 location: Shrewsbury
@@ -108,7 +120,19 @@ job_id: jobg8-23643_225821529
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (33)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: Midlands Partnership NHS Foundation Trust
+location: Shrewsbury, SY1 4RQ
+source: NHS Jobs
+job_id: nhs-5719661
+reason: Exact approved Shrewsbury workplace.
+---
+
+## REVIEW (32)
 
 ---
 action: 
@@ -210,47 +234,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Commercial Marketing Manager
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Telford
-source: JobG8
-job_id: jobg8-2233237
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Marketing Manager
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Telford
-source: JobG8
-job_id: jobg8-23643_225798837
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-2263526
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Prince Personnel Limited - Agency - Temporary
-location: Shropshire
-source: JobG8
-job_id: jobg8-108113495
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -354,6 +342,18 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Temporary
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225814754
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Prince Personnel Limited - Agency - Temporary
 location: Shropshire
@@ -443,6 +443,18 @@ company: Pertemps Telford - Agency - Temporary
 location: Telford
 source: JobG8
 job_id: jobg8-23643_225735083
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Midlands Partnership NHS Foundation Trust
+location: Telford, TF3 4NP
+source: NHS Jobs
+job_id: nhs-5718651
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

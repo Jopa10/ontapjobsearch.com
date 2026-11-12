@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 14
+- automatic review: 18
 - automatic exclude: 24
 - effective include: 12
-- effective review: 14
+- effective review: 18
 - effective exclude: 24
 
 ## INCLUDE (12)
@@ -89,10 +89,10 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
-company: Consortium Professional Recruitment - Agency - Permanent
+company: Michael Page - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2163066
+job_id: jobg8-23643_225827394
 reason: Approved York catchment.
 ---
 
@@ -168,7 +168,19 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (18)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-2272349
+reason: No approved York catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -258,18 +270,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Legal Secretary
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225719942
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
@@ -294,11 +294,11 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales & Operations Administrator
-company: Lloyd Recruitment - Epsom - Agency - Permanent
-location: Richmond
+title: Part-time Finance Assistant
+company: Michael Page - Agency - Contract
+location: Skipton
 source: JobG8
-job_id: jobg8-23643_225744461
+job_id: jobg8-23643_225827387
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -306,11 +306,23 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Order Processor
-company: The Clever Fish Recruitment - Agency - Permanent
-location: Whitby
+title: Private Client Legal Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Malton
 source: JobG8
-job_id: jobg8-23643_225719241
+job_id: jobg8-2271389
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales & Operations Administrator
+company: Lloyd Recruitment - Epsom - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225744461
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -330,11 +342,47 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Service Coordinator
+company: Travail Employment Group - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-23643_225825906
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temp Finance Administrator
 company: Office Angels - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-2143764
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary finance assistant
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-2272372
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary finance assistant
+company: Capital Outsourcing Group Ltd - Agency - Temporary
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225825278
 reason: No approved York catchment rule matched; local review required.
 ---
 

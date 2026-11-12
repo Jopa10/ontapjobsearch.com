@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 47
+- automatic review: 51
 - automatic exclude: 0
 - effective include: 3
-- effective review: 47
+- effective review: 51
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225779537
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (51)
 
 ---
 action: 
@@ -83,6 +83,18 @@ company: Nigel Wright Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2207066
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-2272349
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -271,10 +283,10 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: Consortium Professional Recruitment - Agency - Permanent
+company: Michael Page - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2163066
+job_id: jobg8-23643_225827394
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -402,18 +414,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Legal Secretary
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225719942
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Secretary & Office Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
@@ -510,6 +510,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Part-time Finance Assistant
+company: Michael Page - Agency - Contract
+location: Skipton
+source: JobG8
+job_id: jobg8-23643_225827387
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
@@ -539,6 +551,18 @@ company: Sharp Consultancy - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2262968
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Private Client Legal Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-2271389
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -594,18 +618,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Sales Order Processor
-company: The Clever Fish Recruitment - Agency - Permanent
-location: Whitby
-source: JobG8
-job_id: jobg8-23643_225719241
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Richmond
@@ -618,11 +630,47 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Service Coordinator
+company: Travail Employment Group - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-23643_225825906
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temp Finance Administrator
 company: Office Angels - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-2143764
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary finance assistant
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-2272372
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary finance assistant
+company: Capital Outsourcing Group Ltd - Agency - Temporary
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225825278
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
