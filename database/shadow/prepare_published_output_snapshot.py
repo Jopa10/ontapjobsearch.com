@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 CORE_FIELDS = ("title", "employer", "advertiser_name", "apply_url", "salary_min", "salary_max", "salary_period", "salary_text")
-EXPECTED_ARTIFACT_NAMES = {"applied-service-admin-output", "applied-support-worker-output"}
+EXPECTED_ARTIFACT_NAMES = {"service-admin-output", "support-worker-output"}
 
 def main():
     parser = argparse.ArgumentParser()
@@ -32,14 +32,14 @@ def main():
         raise SystemExit("Invalid final production app commit SHA")
     artifacts = json.loads(args.source_artifacts_json)
     if not isinstance(artifacts, list) or len(artifacts) != 2:
-        raise SystemExit("Expected both Wednesday applied output artifacts")
+        raise SystemExit("Expected both Thursday production output artifacts")
     if {item.get("name") for item in artifacts} != EXPECTED_ARTIFACT_NAMES:
         raise SystemExit("Unexpected applied output artifact names")
     for item in artifacts:
         if (not isinstance(item.get("id"), int) or item["id"] <= 0
                 or not re.fullmatch(r"[a-f0-9]{64}", item.get("sha256", ""))):
             raise SystemExit("Invalid applied output artifact ID or digest")
-    primary = next(item for item in artifacts if item["name"] == "applied-service-admin-output")
+    primary = next(item for item in artifacts if item["name"] == "service-admin-output")
     if primary["id"] != args.artifact_id or primary["sha256"] != args.archive_sha256:
         raise SystemExit("Primary artifact ID/digest does not match the recorded artifact list")
 

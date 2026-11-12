@@ -77,7 +77,7 @@ jobs:
                   if not isinstance(artifacts,list) or len(artifacts)!=2:
                       raise SystemExit('Published snapshot requires both applied output artifacts')
                   names={a.get('name') for a in artifacts if isinstance(a,dict)}
-                  if names!={'applied-service-admin-output','applied-support-worker-output'}:
+                  if names!={'service-admin-output','support-worker-output'}:
                       raise SystemExit('Published snapshot artifact names do not match Wednesday outputs')
                   if any(not isinstance(a.get('id'),int) or a['id']<=0 or not re.fullmatch(r'[a-f0-9]{64}',a.get('sha256','')) for a in artifacts):
                       raise SystemExit('Published snapshot artifact IDs or digests are invalid')
@@ -90,7 +90,7 @@ jobs:
                       datetime.fromisoformat(values['production_app_snapshot_at'].replace('Z','+00:00'))
                   except (TypeError,ValueError):
                       raise SystemExit('Published snapshot requires a valid final app snapshot time')
-                  primary=next(a for a in artifacts if a['name']=='applied-service-admin-output')
+                  primary=next(a for a in artifacts if a['name']=='service-admin-output')
                   handle.write(f"published_run_id={values['published_run_id']}\n")
                   handle.write(f"published_artifact_id={primary['id']}\n")
                   handle.write(f"published_artifact_ids={','.join(str(a['id']) for a in artifacts)}\n")
@@ -313,7 +313,7 @@ jobs:
               request[field]=hashlib.sha256((work/filename).read_bytes()).hexdigest()
           path.write_text(json.dumps(request,indent=2)+'\n')
           PYHASH
-      - name: Download both exact 11 November applied outputs
+      - name: Download both exact 12 November production outputs
         if: steps.request.outputs.mode == 'published_snapshot'
         uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
         with:
@@ -454,8 +454,8 @@ jobs:
           assert report.get('productionArtifacts')==stage_request['publishedOutputArtifacts']
           assert report.get('productionAppCommitSha')==stage_request['productionAppCommitSha']
           assert report.get('uniquePublishedJobG8Ids')==int("${{ steps.request.outputs.expected_unique_ids }}")
-          assert report.get('neonJobRows')==report.get('uniquePublishedJobG8Ids')
-          assert report.get('exactIdsMatch') is True and report.get('exactKeyFieldsMatch') is True
+          assert report.get('neonSnapshotRows')==report.get('uniquePublishedJobG8Ids')
+          assert report.get('exactIdsMatch') is True and report.get('exactKeyFieldsMatch') is True\n          preserved=report.get('preservedPreviousPublishedSet',{})\n          assert preserved.get('date')=='2026-11-11' and preserved.get('count')==5491 and preserved.get('unchanged') is True
           assert report.get('fullDescriptionsStored') is False
           assert final_compare.get('status')=='passed'
           assert final_compare.get('counterJobG8Ids')==report['uniquePublishedJobG8Ids']
