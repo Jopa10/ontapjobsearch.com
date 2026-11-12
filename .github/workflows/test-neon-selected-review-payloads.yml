@@ -112,6 +112,8 @@ jobs:
       - name: Deploy verifier to Vercel Preview and read Neon result
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
         run: |
           set -euo pipefail
           test -n "$VERCEL_TOKEN"
@@ -120,7 +122,7 @@ jobs:
           cli="$RUNNER_TEMP/vercel-cli"
           npm install --prefix "$cli" --no-save --ignore-scripts --no-audit --no-fund vercel@65.14.0
           cd "$harness"
-          "$cli/node_modules/.bin/vercel" deploy --yes --token="$VERCEL_TOKEN" --scope ontap1 2>&1 | tee "$RUNNER_TEMP/vercel-deploy.log"
+          "$cli/node_modules/.bin/vercel" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 2>&1 | tee "$RUNNER_TEMP/vercel-deploy.log"
           url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/vercel-deploy.log" | tail -1)"
           test -n "$url"
           "$cli/node_modules/.bin/vercel" curl /selected-review-readback-report.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/selected-review-readback-report.json"
