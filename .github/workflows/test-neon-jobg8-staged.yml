@@ -364,7 +364,7 @@ jobs:
           with zipfile.ZipFile(harness/'source-artifact.zip','w',compression=zipfile.ZIP_DEFLATED) as archive:
               archive.writestr('published-snapshot.json',snapshot_bytes)
           (harness/'source-download.json').write_text(json.dumps(source,indent=2)+'\n')
-      - name: Checkout final Wednesday published app JSON
+      - name: Checkout final Thursday published app JSON
         if: steps.request.outputs.mode == 'published_snapshot'
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
@@ -455,7 +455,9 @@ jobs:
           assert report.get('productionAppCommitSha')==stage_request['productionAppCommitSha']
           assert report.get('uniquePublishedJobG8Ids')==int("${{ steps.request.outputs.expected_unique_ids }}")
           assert report.get('neonSnapshotRows')==report.get('uniquePublishedJobG8Ids')
-          assert report.get('exactIdsMatch') is True and report.get('exactKeyFieldsMatch') is True\n          preserved=report.get('preservedPreviousPublishedSet',{})\n          assert preserved.get('date')=='2026-11-11' and preserved.get('count')==5491 and preserved.get('unchanged') is True
+          assert report.get('exactIdsMatch') is True and report.get('exactKeyFieldsMatch') is True
+          preserved=report.get('preservedPreviousPublishedSet',{})
+          assert preserved.get('date')=='2026-11-11' and preserved.get('count')==5491 and preserved.get('unchanged') is True
           assert report.get('fullDescriptionsStored') is False
           assert final_compare.get('status')=='passed'
           assert final_compare.get('counterJobG8Ids')==report['uniquePublishedJobG8Ids']
@@ -467,7 +469,7 @@ jobs:
         if: always() && steps.request.outputs.mode == 'published_snapshot'
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: neon-shadow-published-jobs-2026-11-11
+          name: neon-shadow-published-jobs-2026-11-12
           path: |
             ${{ runner.temp }}/published-snapshot.json
             ${{ runner.temp }}/published-readback-report.json
