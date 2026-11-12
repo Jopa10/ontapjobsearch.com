@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-11
-review_fingerprint: 087d8a2edc12643aa21871b6b44d15cdc135bab2b84b5f05fe5ed8ffdd372f76
+review_date: 2026-11-12
+review_fingerprint: f2a935d86e0ae654172a2a210b770169025a6dbc645f6c396a43cb736d6f891a
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,28 +10,28 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-11T14:39:54+00:00
+Run generated: 2026-11-12T15:31:29+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1042
+JobG8 comparison rows: 1014
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 2
-- Detail pages fetched successfully: 2
+- Detail-page candidates: 1
+- Detail pages fetched successfully: 1
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 13
-- Tees Valley explicitly excluded: 1
-- Outside or unmapped geography excluded: 2
-- Generic/derived geography rows requiring review: 5
-- Retained target candidates: 12
+- Obvious hard passes not detail-fetched: 14
+- Tees Valley explicitly excluded: 0
+- Outside or unmapped geography excluded: 1
+- Generic/derived geography rows requiring review: 4
+- Retained target candidates: 14
 
 ## Outcomes
 - HC: 0
-- POSS: 7
-- HARD_PASS: 5
+- POSS: 8
+- HARD_PASS: 6
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 7
+- Final POSS awaiting decision: 8
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -54,19 +54,6 @@ tracking_key: vonne-173656
 vacancy_fingerprint: a664633734d9bbb21d95cb2d15c49387680c810f4de19b6a99d1b400f3d16a73
 source_job_id: 173656
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173656
----
----
-action:
-POSS | North East | Home-based | £35,000 to 39,000 Per Annum | Embedded Outreach Officer
-employer: King's College Cambridge
-closing_date: Monday, November 30, 2026 - 17:00
-geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173627
-vacancy_fingerprint: 39d05d5987a989470769e6863d6bc036e0277cdd5a64bb01a9750805dee7287e
-source_job_id: 173627
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173627
 ---
 ---
 action:
@@ -96,6 +83,19 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173685
 ---
 ---
 action:
+POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside | £51,525 Pro Rata | Director of Culture, Enrichment and Creativity
+employer: Groundwork South and North Tyneside
+closing_date: 01 December 2026
+geography: CONFIRMED — location: geography phrase: south tyneside
+reason: annualised upper salary £51,525 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173704
+vacancy_fingerprint: d8b3a0b86a8bc3a4cbd9a985e981f47de2c81bf28894812c7d2b755b157cccc5
+source_job_id: 173704
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173704
+---
+---
+action:
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,893 to 34,068 Per Annum | Education Coordinator
 employer: Northumbria Students' Union
 closing_date: Wednesday, December 2, 2026 - 12:00
@@ -106,6 +106,19 @@ tracking_key: vonne-173674
 vacancy_fingerprint: 0b7852170ec9a508eb04cdf6a884992552734e881edecf642fbd4ce831a63a93
 source_job_id: 173674
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173674
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £33,323 Per Annum | Help employers create better work and reduce in-work poverty
+employer: Good Work Grants Lead Officer
+closing_date: 14 December 2026
+geography: CONFIRMED — location: exact area
+reason: annualised upper salary £33,323 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173702
+vacancy_fingerprint: f90a54e77acdcabbdbc567807c7369ff60b1db1894444277d3cb15cdfd082ef4
+source_job_id: 173702
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173702
 ---
 ---
 action:
@@ -139,9 +152,10 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173661
 
 ## HARD_PASS
 
+- [Build employer relationships that help make working life better for families.](https://www.vonne.org.uk/vonne-jobs-details?cid=173703) — insufficient service-admin evidence.
 - [CLA Triage Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173690) — out-of-scope VONNE occupation.
 - [Communications & Brand Identity Consultant (freelance)](https://www.vonne.org.uk/vonne-jobs-details?cid=173679) — out-of-scope VONNE occupation.
-- [Monitoring and Co-ordination Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173633) — out-of-scope VONNE occupation.
+- [School Based Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173700) — insufficient service-admin evidence.
 - [Wellbeing & Campaigns Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173673) — out-of-scope VONNE occupation.
 - [Young Carers’ Wellbeing Worker (Triage)](https://www.vonne.org.uk/vonne-jobs-details?cid=173676) — out-of-scope VONNE occupation.
 
