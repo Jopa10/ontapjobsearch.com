@@ -3,7 +3,11 @@
   "mode": "selected_review_payloads",
   "purpose": "Store only full JobG8 payloads for Thursday production-selected and automated-review jobs in isolated Neon Preview, verify exact IDs/payload hashes/outcome and preserve the Wednesday snapshot.",
   "productionOutputRunId": 43175843740,
-  "productionOutputArtifacts": [
+  "productionAppCommitSha": "bbd0f37a060131727042827513277b2bc116c2fa",
+  "productionRunCommitSha": "f8268505468af9b5b21b1d6260047455104bd5c9",
+  "maximumDatabaseBytes": 838860800,
+  "reserveBytes": 67108864,
+  "publishedOutputArtifacts": [
     {
       "name": "service-admin-output",
       "id": 13927235898,
@@ -14,9 +18,5 @@
       "id": 13926532615,
       "sha256": "e04bbd4ae225c511cd83b5c3532c90f2deea097e3d1a7197c859389b6cd75410"
     }
-  ],
-  "productionAppCommitSha": "bbd0f37a060131727042827513277b2bc116c2fa",
-  "productionRunCommitSha": "f8268505468af9b5b21b1d6260047455104bd5c9",
-  "maximumDatabaseBytes": 838860800,
-  "reserveBytes": 67108864
+  ]
 }
