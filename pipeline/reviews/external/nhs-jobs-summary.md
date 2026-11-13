@@ -2,15 +2,99 @@
 
 review_date: 2026-11-13
 
-- Open Administrative & Clerical rows reviewed: 2136
+- Open Administrative & Clerical rows reviewed: 2140
 - Auto/remembered selected: 359
 - Selected HC Tier A: 186
 - Selected HC Tier B: 173
-- POSS awaiting decision: 1677
+- POSS awaiting decision: 1681
 - Excluded: 0
 - HARD_PASS: 100
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS1 3EX | £28392.00 to £31157.00 | MDT Co-ordinator - CEW Service - Paediatric
+source_job_id: 5726402
+title: MDT Co-ordinator - CEW Service - Paediatric
+employer: Leeds Teaching Hospitals
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1275
+factual_fingerprint: df051b67bbb1d8d442e1d2e3b5b928e08f42f779c26a3095006900d119c1d1fe
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B15 2TH | £28392.00 to £31157.00 | Band 4 Junior IT Support Officer
+source_job_id: 5726092
+title: Band 4 Junior IT Support Officer
+employer: University Hospitals Birmingham NHS Foundation Trust
+region: West Midlands - Birmingham & Solihull
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1763
+factual_fingerprint: 0107622ff26471d3260985b076c57b35a28ceb6140f5af5783baebf67348e637
+---
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Portsmouth, PO2 8AL | £40000.00 | Business Intelligence Analyst
+source_job_id: 5726356
+title: Business Intelligence Analyst
+employer: Portsdown Group Practice
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2111-26-0041
+factual_fingerprint: ce1206a4e9eba53efa1d917c65754bc367e4930f1b9bf67a53ca706e6a035423
+---
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Southampton, SO16 6YD | £25760.00 to £27476.00 | Perioperative Digital Support Assistant
+source_job_id: 5722207
+title: Perioperative Digital Support Assistant
+employer: University Hospital Southampton NHS Trust
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-1013
+factual_fingerprint: 40fccb7c7d06f6a204e106c6d892de04612951f3ef4dc92dba6e38d426622ad3
+---
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Southampton, SO16 6YD | £25760.00 to £27476.00 | IT Service desk Operator
+source_job_id: 5722909
+title: IT Service desk Operator
+employer: University Hospital Southampton NHS Trust
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-1016
+factual_fingerprint: a69c2843014826a634b474b8033f8b2547da8761a12f5e4673d957f5547620b5
+---
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Southampton, SO16 6YD | £25832.56 | Urology RTT Validator
+source_job_id: 5723684
+title: Urology RTT Validator
+employer: University Hospital Southampton NHS Trust
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-1018
+factual_fingerprint: ab0539d8317c08df4da8b8aa6286cae738ae90ef5303c62ed1d8d5b4038bd067
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Salford, M6 8HD | £32073.00 to £39043.00 | Corporate Governance Officer
+source_job_id: 5725759
+title: Corporate Governance Officer
+employer: Northern Care Alliance NHS Foundation Trust
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9236-26-1548
+factual_fingerprint: 16d8d8d4e2666ec522b078fa2f8ab222b4ee944e3cd5095f7263244e5a7a76b6
+---
 
 ---
 action:
@@ -154,18 +238,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9396-26-0472
 factual_fingerprint: 93eb6b9189d54f5130ecb656efc5cea4771c0a8a8005a5fd102ba1364f734e2b
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - South | Ashton-Under-Lyne, OL6 9RW | £28392.00 to £31157.00 | Personal Assistant to Clinical Support Services (CSS) Team.
-source_job_id: 5723008
-title: Personal Assistant to Clinical Support Services (CSS) Team.
-employer: Tameside and Glossop Integrated Care NHS Foundation Trust
-region: Greater Manchester - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9245-26-0473
-factual_fingerprint: 2f481e049c1be55733346daba6fcb7b9ef72de20e0532612b3a38191bf4e8525
 ---
 
 ---
@@ -3226,18 +3298,6 @@ region: Berkshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0790
 factual_fingerprint: 8ec8b8560003fba47c54d0d174f31d05318b5bf8cae6ff139f139fb5c998435a
----
-
----
-action:
-POSS | NHS Jobs | Hampshire | Portsmouth, PO2 8AL | £40000.00 | Business Intelligence Analyst
-source_job_id: 5722540
-title: Business Intelligence Analyst
-employer: Portsdown Group Practice
-region: Hampshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2111-26-0037
-factual_fingerprint: 84d52db2355487858732563bc2086ff2289e51e6f3c0dfd46e70555936dea844
 ---
 
 ---
@@ -9778,18 +9838,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9828-26-0272
 factual_fingerprint: 4a61156696264721c26f3659d4a4f18cdc081b6131d1e74ee47a9d1a19c805af
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £28392.00 to £31157.00 | Surgical Oncology Data Coordinator
-source_job_id: 5713701
-title: Surgical Oncology Data Coordinator
-employer: Leeds Teaching Hospitals
-region: Yorkshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1248
-factual_fingerprint: 40f08f3f16b9905fc314fc3f551ee2549959873e3a0244061c912f14fd9a10b7
 ---
 
 ---
