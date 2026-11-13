@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-12
-review_fingerprint: 558811ed8f27345d7b8ba4332d6fd3193d92f95a894de26885baff22a424f103
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: 1664b8a99dfb2ad778ca2019bcb786b86924ce8e6ccb27d28dc35813fcc1ef3b
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 2
-- POSS awaiting decision: 2
+- Records: 22
+- Selected: 1
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 17
 
@@ -34,21 +34,6 @@ factual_fingerprint: 9845cfb10561a30dc94e591b0b29612a29e62e136d16f9ccaa52dbc8404
 source: Teaching Vacancies
 source_job_id: administrative-assistant-mary-dean-s-cofe-primary-school-and-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-mary-dean-s-cofe-primary-school-and-nursery
----
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL3 4RS | £19,955.00 - £20,595.00 Annually (Actual) Grade C FTE £26,427 - £27,274 | School Administrator
-employer: Hyde Park Infants' School
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 81d95315748d8b99fe98f9bf46ea5818dee436b3631100ff0784254ad6aa4d5a
-source: Teaching Vacancies
-source_job_id: school-administrator-hyde-park-infants-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-hyde-park-infants-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -70,6 +55,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ivybrid
 
 ---
 action: 
+POSS | Devon | Okehampton, EX20 1PU | £26,847.00 Annually (FTE) NJC Grade C6 - Range 6 | Estates Administrator
+employer: Dartmoor Multi Academy Trust
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b2e59bd11b9cf3de86fb99eec34162a282fe1f5125a70fcfd426f4a5c0b67132
+source: Teaching Vacancies
+source_job_id: estates-administrator-dartmoor-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-administrator-dartmoor-multi-academy-trust
+---
+
+---
+action: 
 POSS | Devon | Torquay, South West, TQ1 4QH | £7,594.00 Annually (Actual) | Pupil Services Officer
 employer: St Marychurch Church of England Primary and Nursery School
 closing_date: 2026-11-30T09:00:00+00:00
@@ -81,6 +81,21 @@ factual_fingerprint: 23189389d94c620df22651fcef75f0dd2f71739d4fc6a83f957f87cc010
 source: Teaching Vacancies
 source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school-torquay-devon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school-torquay-devon
+---
+
+---
+action: 
+POSS | Devon | Plymouth, South West, PL3 4RS | £19,955.00 - £20,595.00 Annually (Actual) Grade C FTE £26,427 - £27,274 | School Administrator
+employer: Hyde Park Infants' School
+closing_date: 2026-11-20T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 81d95315748d8b99fe98f9bf46ea5818dee436b3631100ff0784254ad6aa4d5a
+source: Teaching Vacancies
+source_job_id: school-administrator-hyde-park-infants-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-hyde-park-infants-school
 ---
 
 ## EXCLUDED BY REVIEW

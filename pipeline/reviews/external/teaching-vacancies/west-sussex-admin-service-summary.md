@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Sussex
 
-review_date: 2026-11-12
+review_date: 2026-11-13
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: West Sussex
 slice_category: admin_service
 slice_status: UNREGISTERED

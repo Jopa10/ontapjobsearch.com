@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-12
-review_fingerprint: 4081a7cd06472219afc57545426dc4f22c9c474691b8415a8b6bba8f6962e84b
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: 358e79b95693b3fb85dfd88d50ccae7a01926b2e4c6476543747b3e5bf38dbce
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 4
+- Records: 26
+- Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 17
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 77b3acb297c49c98d43267c10f6e5f485b22a9a0c0f8fac8aabe1c416c4
 source: Teaching Vacancies
 source_job_id: business-support-officer-mobile-dependent-on-candidate-location-wellspring-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-mobile-dependent-on-candidate-location-wellspring-academy-trust
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, S9 4LR | £31,015.00 - £33,673.00 Annually (Actual) | HR Administrator
+employer: Chorus Education Trust
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c5c626cd51632a3f761bef38095cd5db60ab68b8229dd63f54e49344c8a118ce
+source: Teaching Vacancies
+source_job_id: hr-administrator-chorus-education-trust-sheffield-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-chorus-education-trust-sheffield-not-recorded
 ---
 
 ---
@@ -162,9 +177,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-fi
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-1e4ec526-7e90-471c-ac7b-53d95ee8bda4) — Insufficient admin/service evidence.
 - [Personal Care Assistant (PCA)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-pca-newman-school) — Insufficient admin/service evidence.
 - [Pupil Premium Extracurricular Visits Coordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extracurricular-visits-coordinator-forge-valley-school-sixth-form-sheffield-south-yorkshire) — No usable numeric salary.
+- [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust-sheffield-not-recorded) — Excluded senior/management title.
 - [Senior Technician Mechanical Engineering](https://teaching-vacancies.service.gov.uk/jobs/senior-technician-mechanical-engineering) — Out-of-scope occupation: technician.
 - [Strategic Attendance and Family Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/strategic-attendance-and-family-engagement-lead) — Excluded senior/management title.
-- [VICE PRINCIPAL (Lead on Behaviour and Personal Development)](https://teaching-vacancies.service.gov.uk/jobs/vice-principal-lead-on-behaviour-and-personal-development) — Out-of-scope occupation: principal.
+- [Transactional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/transactional-finance-manager-minerva-learning-trust) — Excluded senior/management title.
 
 ## Safety boundary
 

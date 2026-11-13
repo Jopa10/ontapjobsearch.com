@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-12
+review_date: 2026-11-13
 review_fingerprint: 2ba1e59d79ecdebb3ccec9c7cec7df2549d31c84c326bf6b0ae1a8d5521a04d1
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 18
 - Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -179,9 +179,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administration-a
 
 ## HARD_PASS
 
+- [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-franklin-sixth-form-college) — Excluded senior/management title.
 - [Clerical Assistant & Opal Playleader MSA – linked role](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-opal-playleader-msa-linked-role) — Insufficient admin/service evidence.
 - [Exams & Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-assessment-officer-421a01f6-51ed-4038-8b47-674f51d21e5d) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-e6664367-3eb0-42c0-9724-283bf6ac70a0) — Excluded senior/management title.
+- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership-boston-not-recorded) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-john-leggott-sixth-form-college) — Insufficient admin/service evidence.
 - [Pastoral Administrator](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
 - [School Business Manager (CFO)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cfo) — Excluded senior/management title.

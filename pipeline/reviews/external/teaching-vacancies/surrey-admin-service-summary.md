@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-12
-review_fingerprint: c262384179aa0844f9d079fb9f2dc9797e080e222d84a46d1b7b74b967646cd8
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: e2ebd1c040dc5e6020172e62ee702618c21470bae299d560f86b83d5c8af251c
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 2
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
@@ -23,14 +23,29 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Surrey | Epsom, South East, KT18 7NQ | Associate 2.1 - £24,751 (Actual - £18,483.63) | Central Administrator
+SELECTED | Surrey | Horley, South East, RH6 8SU | Apprenticeship rates - £13,317.00 (£8ph for the first year, then dependent on age) | Administrative Assistant and Receptionist
+employer: Westvale Park Primary Academy
+closing_date: 2026-11-24T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 863e945579a53eeaccc54d244b22c5b351f4e4618df5b7dc7e366983e4ecd6ab
+source: Teaching Vacancies
+source_job_id: administrative-assistant-and-receptionist-westvale-park-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-receptionist-westvale-park-primary-academy
+---
+
+---
+action: 
+SELECTED | Surrey | Epsom, South East, KT18 7NQ | Associate 2.1 - £24,751 (Actual - £11,238.05) | Central Administrator
 employer: Rosebery School
 closing_date: 2026-11-29T23:59:59+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e4e00a75ebb754c1af9b34e0f5521dffa30a6a621fc56a20e4117e5bb79aa93b
+factual_fingerprint: 3a4270dd31dee1cf2bf5a3c093d722c9aeca556df454a91477de9f7b5367ba94
 source: Teaching Vacancies
 source_job_id: central-administrator-rosebery-school-epsom-surrey
 source_url: https://teaching-vacancies.service.gov.uk/jobs/central-administrator-rosebery-school-epsom-surrey

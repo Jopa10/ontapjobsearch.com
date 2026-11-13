@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-12
-review_fingerprint: e08b2df3c9ea44e83ff84ba292ecf648c4d7ecfe568811b1a9e5a5a72acd8d5b
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: 6ad454e9a9f87838b3b87186a3201c1449c2244addd08543633460fa5ab10b64
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 14
-- Selected: 6
-- POSS awaiting decision: 1
+- Selected: 7
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
+SELECTED | North East | Sunderland, North East, SR2 7HJ | £22,635.70 - £22,990.95 Annually (Actual) | Receptionist/Administration Assistant
+employer: St Aidan's Catholic Academy
+closing_date: 2026-11-24T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7ab320bc120aed4e70bebe598ad77eb3c7546fdcc45e350c78f1a53a097df103
+source: Teaching Vacancies
+source_job_id: receptionist-administration-assistant-st-aidan-s-catholic-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-st-aidan-s-catholic-academy
+---
+
+---
+action: 
 SELECTED | North East | Morpeth, North East, NE61 2HA | £26,403.00 - £28,142.00 Annually (FTE) Pay Award Pending | School Business Support Officer
 employer: Morpeth Stobhillgate First School
 closing_date: 2026-11-18T23:59:00+00:00
@@ -113,20 +128,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-suppo
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | North East | Blyth, NE24 2SY | £25,147.00 - £26,414.00 Annually (Actual) Whole Time | HR & Payroll Administrator
-employer: Emmanuel Schools Foundation
-closing_date: 2026-11-12T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e0d49fd08dbe02e94f2330853f051522c6a13f009ed150113a7ae1428e9fc242
-source: Teaching Vacancies
-source_job_id: hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

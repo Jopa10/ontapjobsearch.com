@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-12
-review_fingerprint: d614858dc47a31d96ac368c03c9780659059497b04f6091b4fdc0b8188587b9c
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: d1bca41baa601f49f00bc15138693718bb97512e49d1ba277b4944ad39874b3b
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
-- POSS awaiting decision: 1
+- Records: 11
+- Selected: 4
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Leamington Spa, West Midlands, CV31 1NJ | £9,468.00 - £10,091.00 Annually (Actual) Band F - SCP 7 - 10 | Office Administrator
+employer: St Anthony's Catholic Primary Academy
+closing_date: 2026-11-22T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2ea748922426d92ed443bf264dd5fede8bfc7e59d39cc110ae468335d9d13f4a
+source: Teaching Vacancies
+source_job_id: office-administrator-st-anthony-s-catholic-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-anthony-s-catholic-primary-academy
+---
+
+---
+action: 
 SELECTED | West Midlands - Coventry & Warwickshire | Leamington Spa, West Midlands, CV31 2LJ | £22,278.00 - £22,630.00 Annually (Actual) Band D - SCP 4 -5 | Office Administrator
 employer: St Joseph's Catholic Primary Academy
 closing_date: 2026-11-26T16:00:00+00:00
@@ -67,6 +82,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Shipston-on-Stour, West Midlands, CV36 4DY | Grade G £29,071 to £32,046 pro rata (£20,161 to £22,224) actual salary based on 30 hours) | Inclusion Assistant
+employer: Shipston High School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dff7f45317f629e4f2fa04b84ecc4419a6f22b3fd5ac4f9a801f2901a6bdb02c
+source: Teaching Vacancies
+source_job_id: inclusion-assistant-shipston-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-assistant-shipston-high-school
+---
 
 ---
 action: 
@@ -93,6 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-harris-church-of-england-academy) — Insufficient admin/service evidence.
 - [Marketing Manager](https://teaching-vacancies.service.gov.uk/jobs/marketing-manager-stratford-upon-avon-school) — Excluded senior/management title.
 - [Receptionist & Admin Assistant to the Deputy Headteachers](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-to-the-deputy-headteachers) — No usable numeric salary.
+- [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant-finham-park-school-coventry-west-midlands) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

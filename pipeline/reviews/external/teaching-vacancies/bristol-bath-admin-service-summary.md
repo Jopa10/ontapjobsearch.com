@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-12
-review_fingerprint: e892a6225bdc6fb3e5bf21b3b1d30524077c36bb0e21f44014a6a3fd4d7b4c3d
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: 1a0de378542591bfe733ba425c01aab98ea31f81310aba80eeda8a8a7e8e9182
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
+- Records: 9
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -34,6 +34,21 @@ factual_fingerprint: 1600e5e652543a2f543d15c8381bdf8170f2bfe63491e2c289c90b066be
 source: Teaching Vacancies
 source_job_id: admin-assistant-for-send
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-for-send
+---
+
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS7 8HP | £26,847.00 - £27,269.00 Annually (FTE) | School Administrator (School Office Level 2)
+employer: St Bonaventure's Catholic Primary School
+closing_date: 2026-11-26T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ddd9dda95163cf1ab26c3d3c3db3fdb20f0bbb1fcd972b863c260100835daee6
+source: Teaching Vacancies
+source_job_id: school-administrator-school-office-level-2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-school-office-level-2
 ---
 
 ---

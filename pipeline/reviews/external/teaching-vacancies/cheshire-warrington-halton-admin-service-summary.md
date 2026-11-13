@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-11-12
+review_date: 2026-11-13
 review_fingerprint: 649d71c6f8eeae9f811cf681f6e1293ea45665490bad4c9abac1e56eea07aebc
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 6
 - Selected: 0
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 4
 
 ## SELECTED
 
@@ -64,9 +64,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Assistant Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-management-accountant-the-great-schools-trust) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-great-schools-trust-warrington-not-recorded) — Excluded senior/management title.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-great-schools-trust) — Salary over £50k.
-- [Nursery Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/nursery-administration-officer) — Out-of-scope occupation: nurse.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-philip-westbrook-cofe-primary-school-warrington-cheshire) — Excluded senior/management title.
-- [Trust Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-manager-the-challenge-academy-trust) — Excluded senior/management title.
 
 ## Safety boundary
 

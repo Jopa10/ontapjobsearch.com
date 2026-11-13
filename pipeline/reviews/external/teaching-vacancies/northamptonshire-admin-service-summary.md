@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-12
-review_fingerprint: f2c29db71c78ba3d8b761b8690e1dc6e01fb6903746b65782ca7a081bc759cd7
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: 7fa2b73ba0c197918da2bde2d4b947a3084596a7956e244b8944740e5dfaae53
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 6
-- POSS awaiting decision: 0
+- Records: 9
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,36 +34,6 @@ factual_fingerprint: 62ef2ed82ee56d952997235fdc91f5d12f0c4248572439c63c54810f4ed
 source: Teaching Vacancies
 source_job_id: admin-assistant-c747c61f-0b1c-4935-a76c-8007c77aaf0b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-c747c61f-0b1c-4935-a76c-8007c77aaf0b
----
-
----
-action: 
-SELECTED | Northamptonshire | Kettering, East Midlands, NN15 6BJ | £26,427.53 Annually (FTE) | Administration Assistant
-employer: Bishop Stopford School
-closing_date: 2026-11-13T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c7d796e965689c7986537bbc37634f2f54c86a796beeab45af43efe1acd86b7a
-source: Teaching Vacancies
-source_job_id: administration-assistant-bishop-stopford-school-kettering-northamptonshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bishop-stopford-school-kettering-northamptonshire
----
-
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN6 0AW | £26,846.00 - £27,274.00 Annually (FTE) Pro rata to £21,819.63 to £22,167.49 | Administrator
-employer: Sywell Church of England Primary School
-closing_date: 2026-11-20T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 283d89169947b238a3b7a2adcaafde0fe98ec26bb8fdb3618aab58c2c89b0592
-source: Teaching Vacancies
-source_job_id: administrator-sywell-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sywell-church-of-england-primary-school
 ---
 
 ---
@@ -113,7 +83,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Northamptonshire | Northampton, East Midlands, NN6 0AW | £26,846.00 - £27,274.00 Annually (FTE) Pro rata to £21,819.63 to £22,167.49 | Administrator
+employer: Sywell Church of England Primary School
+closing_date: 2026-11-20T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 283d89169947b238a3b7a2adcaafde0fe98ec26bb8fdb3618aab58c2c89b0592
+source: Teaching Vacancies
+source_job_id: administrator-sywell-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sywell-church-of-england-primary-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -125,7 +108,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-0ddbb56c-5635-4a81-8fed-8aa32c472a35) — Insufficient admin/service evidence.
 - [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.
 - [Office Manager / PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-the-headteacher-moulton-school-and-science-college) — Excluded senior/management title.
-- [Part time TLT HR Manager](https://teaching-vacancies.service.gov.uk/jobs/part-time-tlt-hr-manager) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-11-12
+review_date: 2026-11-13
 review_fingerprint: 19713924b244ea46c9df7feacb2643c7203d5b0a284ef7622dac17c37e2e3810
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -59,7 +59,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pin
 
 ## HARD_PASS
 
-- [Admin Officer (maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-maternity-cover) — Insufficient admin/service evidence.
 - [Governance and Projects Professional](https://teaching-vacancies.service.gov.uk/jobs/governance-and-projects-professional) — No usable numeric salary.
 
 ## Safety boundary

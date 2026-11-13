@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-12
-review_fingerprint: 9c7fb3c6daee01af236f09eb6c0744efbfb32b08088441ed2306f48c42ceec64
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: a57aa5b720d53a320f0b1fd9605f130fde29b2d7f075a39e5efaacdee089028a
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 0
+- Records: 13
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 10
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M24 2GT | DAT Level 3, SCP 18-25 (Actual salary £26,101-£30,667) | Academy Administrator L3
+employer: Dixons Middleton Academy
+closing_date: 2026-11-27T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 52214d612a876fe1aba6dbd1138f796d6cbff5afbe05aa2ea0916ef4687580eb
+source: Teaching Vacancies
+source_job_id: academy-administrator-l3-dixons-middleton-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-middleton-academy
+---
+
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M24 2GT | DAT Level 3, SCP 18-25 (Actual salary £26,101-£30,667) | Academy Administrator L3
+employer: Dixons Middleton Academy
+closing_date: 2026-11-27T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 25a8f27e02e877ee8f2d75b8420a0c7c01fc7a86af3ce424b6acebd23344e4f5
+source: Teaching Vacancies
+source_job_id: academy-administrator-l3-dixons-middleton-academy-manchester
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-middleton-academy-manchester
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

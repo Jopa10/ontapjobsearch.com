@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-12
-review_fingerprint: 9af34be451ecfc9c65d69f1c3e2a0833c78bbc7cfd962506fce9218de99180c0
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: 1ded4475d24830a289dd1cf94fafa617e92d001122aca059ca0f2ea24dfbdfa1
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 19
-- Selected: 6
+- Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 7f045e46f52bddc9569275783b2577ad95458ab5c9de760e11c9b8ddc31
 source: Teaching Vacancies
 source_job_id: administrative-assistant-our-lady-of-lourdes-catholic-multi-academy-trust-nottingham-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-our-lady-of-lourdes-catholic-multi-academy-trust-nottingham-not-recorded
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG9 3GA | £9,174.61 - £9,468.66 Annually (Actual) Grade 3, point 5-7 £26,427 - £27,274 FTE - Pending Job Evaluation | Administrator & Receptionist
-employer: Bramcote College
-closing_date: 2026-11-13T15:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c859980e5e3cd8d269ab093082ce5446fb96c349e358044582631bb335fb80c1
-source: Teaching Vacancies
-source_job_id: administrator-receptionist-bramcote-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-bramcote-college
 ---
 
 ---
@@ -180,6 +165,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 ## HARD_PASS
 
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-king-edward-primary-school-nursery) — No usable numeric salary.
+- [Administrator & Receptionist](https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-bramcote-college) — Expired, closed or invalid deadline.
 - [Assistant Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-administration-manager-shirebrook-academy) — Excluded senior/management title.
 - [Finance & Estate Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-estate-officer) — Salary over £50k.
 - [Marketing and Reprographics Assistant (fixed term maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-reprographics-assistant-fixed-term-maternity-cover) — Insufficient admin/service evidence.

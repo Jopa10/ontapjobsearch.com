@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-12
-review_fingerprint: 63053d3fe732099d9405ecfa7f11db8cc6f0eaab6eb6a3184f77905e5bb713ba
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: 9c17a5ab1d06d33efcbd3584eb55a07b1e4158f9a96714328fab57468500b269
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 4
-- POSS awaiting decision: 5
+- Records: 14
+- Selected: 3
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: f6d74bbe652c2c7a139ae86c7685aa70b22dcd0827c3bb53e887153453a
 source: Teaching Vacancies
 source_job_id: admissions-officer-waseley-hills-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-waseley-hills-high-school
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B37 5DP | £25,614.00 - £26,427.00 Annually (FTE) Band B - Actual salary £18,990.61 to £19,593.38 based on 32 working hours and 39 weeks | Clerical Assistant/Receptionist
-employer: St Anne's Catholic Primary School
-closing_date: 2026-11-12T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f74f059efcbd8c74859a3eb0552a6dd6bf227009f7a06790ef0afa42e74a2281
-source: Teaching Vacancies
-source_job_id: clerical-assistant-receptionist-st-anne-s-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-receptionist-st-anne-s-catholic-primary-school
 ---
 
 ---
@@ -145,6 +130,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-085b338d
 
 ---
 action: 
+POSS | West Midlands - Birmingham & Solihull | Solihull, B91 3PD | £29,542.00 - £31,526.00 Annually (FTE) Actual salary £4571 to £4959 p/a 250 hours per year over 38 weeks (6.75 hours per week) | Regional Hub Governance Professional
+employer: Tudor Grange Academies Trust
+closing_date: 2026-12-04T12:00:00+00:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 47173c8197cfda778401942d21eb5ec5b3c17f541fa8588c7cad3d675a21dab5
+source: Teaching Vacancies
+source_job_id: regional-hub-governance-professional-tudor-grange-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/regional-hub-governance-professional-tudor-grange-academies-trust
+---
+
+---
+action: 
 POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B42 2TU | £24,723.00 - £31,271.00 Annually (Actual) | SEND Administrator
 employer: Prince Albert High School
 closing_date: 2026-11-20T12:00:00+00:00
@@ -164,10 +164,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 
 ## HARD_PASS
 
+- [Assistant Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/assistant-trust-clerk-summit-learning-trust) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-moseley-school-and-sixth-form-birmingham-west-midlands) — Excluded senior/management title.
-- [Head of Talent and Workforce Planning](https://teaching-vacancies.service.gov.uk/jobs/head-of-talent-and-workforce-planning) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-clement-s-church-of-england-academy-birmingham-west-midlands) — Excluded senior/management title.
-- [SENIOR ACADEMY ADMINISTRATOR](https://teaching-vacancies.service.gov.uk/jobs/senior-academy-administrator-heathlands-primary-academy) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fairway-primary-academy-birmingham-west-midlands) — Excluded senior/management title.
 - [Senior Office Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-office-manager-the-dame-ellen-pinsent-school) — Excluded senior/management title.
 

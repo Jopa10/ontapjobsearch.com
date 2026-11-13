@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-12
-review_fingerprint: a2de73cda4cb5adade6be4d87155be9853446f628b5a218470b4019104742cdc
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: f4a6f034ca6300ca92a4869d83f930aa49ba3e1ea9c7da115a039d890b718eae
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 53
-- Selected: 9
-- POSS awaiting decision: 14
+- Records: 56
+- Selected: 11
+- POSS awaiting decision: 12
 - Excluded: 0
-- Hard pass: 30
+- Hard pass: 33
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: e6f99a8bed024e845a292712cdd0f1a9cdf28b0fff6edd6c19f9771e000
 source: Teaching Vacancies
 source_job_id: administrative-assistant-to-the-senco
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-to-the-senco
+---
+
+---
+action: 
+SELECTED | London | Lewisham, London, SE4 1SA | £28,947.00 - £29,789.00 Annually (Actual) Scale 4, (point 8-10), £33,515 - £34,488 (pro rata) | Administrator - SEND
+employer: Prendergast Ladywell School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 41f2038325c7101e3ce20ba07fb36738e23e442baeecc9987fdf4392ff7836b8
+source: Teaching Vacancies
+source_job_id: administrator-send-prendergast-ladywell-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-send-prendergast-ladywell-school
 ---
 
 ---
@@ -156,6 +171,21 @@ source_job_id: send-administrative-assistant-woolwich-polytechnic-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-assistant-woolwich-polytechnic-school
 ---
 
+---
+action: 
+SELECTED | London | Enfield, London, EN2 8GH | £27,666.00 - £29,303.00 Annually (Actual) NJC 8-12 | Sixth Form Administrator
+employer: Wren Academy Enfield
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a6f40da14893d12a465071c054e7a0bed41d06034400fcdb00551edd739a240f
+source: Teaching Vacancies
+source_job_id: sixth-form-administrator-wren-academy-enfield
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-wren-academy-enfield
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -177,12 +207,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer
 action: 
 POSS | London | London, London, NW2 1TR | £33,129.00 - £35,628.00 Annually (FTE) Salary subject to skills and previous experiance | Administrative Assistant
 employer: Mapledown School
-closing_date: 2026-11-20T23:59:00+00:00
+closing_date: 2026-11-15T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 70ab888b4a7f742f1e2c97cfd7b12f09dc057f3c393f9d0889bef03ecc2295ed
+factual_fingerprint: 3a33bf9abe8eee854302708f08e7ee93e8abf702f7e1ee55fcd108802814257d
 source: Teaching Vacancies
 source_job_id: administrative-assistant-mapledown-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-mapledown-school
@@ -325,21 +355,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-POSS | London | Orpington, London, BR5 3HS | £27,262 - £29,990 | Resources Administrator
-employer: Riverside School
-closing_date: 2026-11-13T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b4dc7c083fed480fb34f6b07833341b25a542e38ee7678c6a9dc50afd29fc410
-source: Teaching Vacancies
-source_job_id: resources-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/resources-administrator
----
-
----
-action: 
 POSS | London | Sutton, SM1 4AF | £32,278.00 - £34,425.00 Annually (FTE) Actual salary £27,197- £29,007 per annum | SENDCO Admin
 employer: Greenshaw Learning Trust
 closing_date: 2026-11-22T23:59:00+00:00
@@ -353,21 +368,6 @@ source_job_id: sendco-admin
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sendco-admin
 ---
 
----
-action: 
-POSS | London | Enfield, London, EN2 8GH | £27,666.00 - £29,303.00 Annually (Actual) NJC 8-12 | Sixth Form Administrator
-employer: Wren Academy Enfield
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a6f40da14893d12a465071c054e7a0bed41d06034400fcdb00551edd739a240f
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-wren-academy-enfield
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-wren-academy-enfield
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -375,8 +375,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 ## HARD_PASS
 
 - [Academy Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-assistant-075b1c19-1c1d-4bac-b270-4510c6226bb0) — Insufficient admin/service evidence.
+- [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-paddock-school-london) — No usable numeric salary.
 - [Attendance & Inclusion Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-inclusion-officer-hurstmere-school) — Insufficient admin/service evidence.
-- [Attendance, Data and Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-data-and-administrative-officer) — Insufficient admin/service evidence.
+- [Attendance, Data and Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-data-and-administrative-officer) — Expired, closed or invalid deadline.
 - [Chief Financial & Operations Officer (CFOO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-operations-officer-cfoo) — Excluded senior/management title.
 - [Data & Cover Manager - Deputy Head of MIS (Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/data-cover-manager-deputy-head-of-mis-maternity-cover) — Out-of-scope occupation: deputy head.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
@@ -391,6 +392,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-dbe8438f-4742-4952-b196-d00e6c812af2) — Out-of-scope occupation: teacher, headteacher.
 - [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-girls-learning-trust) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-paddock-school) — No usable numeric salary.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Salary over £50k.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-ernest-bevin-academy) — Excluded senior/management title.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
@@ -404,6 +406,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 - [School Business and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-and-operations-manager-stanhope-primary-school-greenford) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shalom-noam-primary-school) — Excluded senior/management title.
 - [School Receptionist, Administrative and Welfare Support](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-administrative-and-welfare-support) — No usable numeric salary.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-sarah-bonnell-school-london) — Excluded senior/management title.
 
 ## Safety boundary
 

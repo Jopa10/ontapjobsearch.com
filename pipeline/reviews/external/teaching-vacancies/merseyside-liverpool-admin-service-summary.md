@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-11-12
-review_fingerprint: 6e00758861227b6817c1f5d9c75e9ed18c275b6bc2f341403ff41d3bc874dd10
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: 4db3526af0c2ca5f8119d5ee33b61269655d6d3d4805885558bcd799d0a4afef
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Merseyside - Liverpool | Liverpool, North West, L5 3QG | £15,854.76 - £15,854.76 Annually (Actual) | Administrative Assistant
+employer: The Beacon Church of England Primary School
+closing_date: 2026-11-13T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 00a49abbfce97664e1a000e1d4fd64e9af556ce9449eb4293e117829b2d9ac70
+source: Teaching Vacancies
+source_job_id: administrative-assistant-0aad250a-3a92-4b6a-849d-723f8be33647
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-0aad250a-3a92-4b6a-849d-723f8be33647
+---
 
 ---
 action: 

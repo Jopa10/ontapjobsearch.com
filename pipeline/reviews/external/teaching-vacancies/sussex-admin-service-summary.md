@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-11-12
+review_date: 2026-11-13
 review_fingerprint: 385c70d7d7b193a8f0bc0602760715dcae959ad735ba01cf713c8907d611cb01
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -77,7 +77,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/registry-administrato
 ## HARD_PASS
 
 - [Business & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-manager-the-littlehampton-academy) — Excluded senior/management title.
-- [Business Administrator - Finance](https://teaching-vacancies.service.gov.uk/jobs/business-administrator-finance-st-richard-s-catholic-college) — No usable numeric salary.
 - [Cover, Data & Exams Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-data-exams-administrator) — No usable numeric salary.
 - [Nursery Manager](https://teaching-vacancies.service.gov.uk/jobs/nursery-manager-desmond-anderson-primary-academy) — Out-of-scope occupation: nurse.
 

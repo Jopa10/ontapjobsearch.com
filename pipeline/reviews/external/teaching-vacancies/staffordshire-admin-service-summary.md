@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-12
-review_fingerprint: 4ff29bb61bf855ed887764e05ef3bab0edfd5a74fd8f9bad80f6b992a38f6ce6
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: d9444eed145f75a299d5652f3af658f0f221df0bf82807224667ec51c82f0a92
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 10
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Staffordshire | Stoke-on-Trent, West Midlands, ST10 1LH | £22,948.00 Annually (Actual) | Administration Assistant -Data & Reports Co-Ordinator
+employer: Painsley Catholic College
+closing_date: 2026-11-25T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 848b1ebdc6186b34e0934ad1da77f00cbb14407a2f303deea68e9a51177a1958
+source: Teaching Vacancies
+source_job_id: administration-assistant-data-reports-co-ordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-data-reports-co-ordinator
+---
 
 ---
 action: 
@@ -93,7 +108,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administra
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-tynsel-parkes-cofe-primary-academy) — No usable numeric salary.
 - [Contracts Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-manager-the-shaw-education-trust) — Excluded senior/management title.
 - [Leadership Support Officer (Part-time)](https://teaching-vacancies.service.gov.uk/jobs/leadership-support-officer-part-time) — No usable numeric salary.
-- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-a6176fdf-9fd1-40a5-9965-09d03373dad8) — Insufficient admin/service evidence.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college-stoke-on-trent-staffordshire) — Excluded senior/management title.
 
 ## Safety boundary

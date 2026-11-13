@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-12
-review_fingerprint: dc2d9d545d0b91c11ec358f25c95e96c0588767e53a9b7d6945adb615e83c352
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: f6682958eb2b575bd6078aaa4666a7112f4652bcaf31fe08a29d3a655f7ef440
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -83,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-litcham
 
 ---
 action: 
-SELECTED | Norfolk | Norwich, East of England, NR5 0RR | £26,847.00 - £27,274.00 Annually (FTE) Scale D - Norfolk Support Staff pay scales | School Administrator
-employer: Costessey Primary School
-closing_date: 2026-11-13T12:00:00+00:00
+SELECTED | Norfolk | Norwich, East of England, NR14 6JX | £18,788.02 - £19,547.60 Annually (Actual) ALT Grade E Point 12-15 £27,060-£28,154 Annually, FTE | SEND Specialist Administrator
+employer: Loddon Junior School
+closing_date: 2026-11-23T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 81bc1e7cfb0f57716a9d637dd017a179222da56425f8f88d6bf5de775ca0d56a
+factual_fingerprint: ee08de88883322c4a7a867cadfd3b661f062739768fdd29f7ba430ec41a5376a
 source: Teaching Vacancies
-source_job_id: school-administrator-costessey-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-costessey-primary-school
+source_job_id: send-specialist-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-specialist-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-12
-review_fingerprint: 19b6c3b2057c75b2044bfcb0ebe2fc7dec83f9924dadd7afc6bc87f6bfdee47a
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: 7afb9a28e51f6d1221a427cfd7f13d1c06a0ebac92d4b35b06fdad8f74b79b7c
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 6
+- Records: 18
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 11
@@ -64,21 +64,6 @@ factual_fingerprint: a9dd5ebc6be99a3534fbc68b2b51b747f2ffd070f57ca38818389b4f32f
 source: Teaching Vacancies
 source_job_id: office-administrator-st-john-rigby-catholic-primary-school-bedford-bedfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-john-rigby-catholic-primary-school-bedford-bedfordshire
----
-
----
-action: 
-SELECTED | Bedfordshire | Dunstable, East of England, LU5 4NJ | £18,959.00 Annually (Actual) FTE £24,790 (NJC Scale 3A pro rata) | School Office Administrator (Part time & Flexible working)
-employer: St Christophers Academy
-closing_date: 2026-11-13T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: abe5a21fe7b925341e41b031384ebfbb6fb75454f2715cfabfaee79ad5a09390
-source: Teaching Vacancies
-source_job_id: school-office-administrator-part-time-flexible-working
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-part-time-flexible-working
 ---
 
 ---

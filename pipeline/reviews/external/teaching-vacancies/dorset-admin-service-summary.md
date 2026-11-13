@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-11-12
-review_fingerprint: 7b95a8f1bd55d2b3850d7d8b93d4d9b47d7a28524bb976ce7aa895821181724c
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: e1be9528c16d29dc209cc8261faa0874dc80cdf302ab49960f92d98e52b9faea
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 11
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -34,6 +34,21 @@ factual_fingerprint: 6297b311aa212f679384c07b24bf1ff8b6a8cd1c19da9ffb8b3f08e0559
 source: Teaching Vacancies
 source_job_id: finance-and-admin-assistant-winton-primary-school-winton-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-admin-assistant-winton-primary-school-winton-primary-school
+---
+
+---
+action: 
+SELECTED | Dorset | Bournemouth, South West, BH8 9PW | £31,071 | HR Administrator & Recruitment Coordinator
+employer: The Bishop of Winchester Academy
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6c208e7206e5e8a4c267118f3c8a0e50eb436f97c1d5afe9fb6f5788b1bd3dcd
+source: Teaching Vacancies
+source_job_id: hr-administrator-recruitment-coordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-recruitment-coordinator
 ---
 
 ---

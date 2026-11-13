@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-11-12
+review_date: 2026-11-13
 review_fingerprint: c8e59b8b3d4f5eebda4323f42671d5d1e55b9d07d0472b69d96ea16b4d100b62
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE

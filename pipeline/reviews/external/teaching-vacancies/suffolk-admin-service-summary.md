@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-12
+review_date: 2026-11-13
 review_fingerprint: a1fd50460e3ee3644d444cd4d3969c6a78655727b60949b29a8439cb1450df1a
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -135,6 +135,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-stradbroke-high-school-eye-suffolk) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-northgate-high-school-ipswich-suffolk) — Excluded senior/management title.
 - [SEND Officer](https://teaching-vacancies.service.gov.uk/jobs/send-officer-east-coast-college) — Insufficient admin/service evidence.
 - [Success Coach - Lowestoft Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/success-coach-lowestoft-sixth-form) — Out-of-scope occupation: coach.
 - [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare) — Insufficient admin/service evidence.

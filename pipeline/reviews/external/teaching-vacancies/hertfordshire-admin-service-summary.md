@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-12
-review_fingerprint: b90a3ed411f9c96c7fff708099a40877ca18c86508a2e2acf4adc1acb869643c
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: 39e9dd8247ca43d3ff49ae90ae8bc39e36d24264c91a90502c0c4a24e219ad2a
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -34,6 +34,21 @@ factual_fingerprint: 076015d1a97ac898bae2f5809c4190bedacb6dd43dcfa8b01a2ea55738d
 source: Teaching Vacancies
 source_job_id: admin-assistant-nicholas-breakspear-catholic-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-nicholas-breakspear-catholic-school
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Hatfield, East of England, AL10 8NL | £24,447.00 - £24,825.00 Annually (Actual) H3, £27,180 - £27,600 per annum pro rata | Administration Assistant / Receptionist
+employer: Bishop's Hatfield Girls' School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e9e4cdb5aac75678eba3a08f9c36195bbecc6d589d8062af08b3f14e6c3e28ab
+source: Teaching Vacancies
+source_job_id: administration-assistant-receptionist-bishop-s-hatfield-girls-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-receptionist-bishop-s-hatfield-girls-school
 ---
 
 ---
@@ -96,6 +111,21 @@ source_job_id: office-administrator-maternity-cover-knebworth-primary-and-nurser
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-maternity-cover-knebworth-primary-and-nursery-school
 ---
 
+---
+action: 
+SELECTED | Hertfordshire | Watford, East of England, WD25 0SS | Salary Grade H5 £29,688 (£25,693 pro-rata) | Special Educational Needs Administrative Assistant
+employer: Saint Michael's Catholic High School
+closing_date: 2026-11-25T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 990ecaef16115fb1315bde39ce29dbf511e546304bf331eddc83cb5a3aa9444e
+source: Teaching Vacancies
+source_job_id: special-educational-needs-administrative-assistant-saint-michael-s-catholic-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/special-educational-needs-administrative-assistant-saint-michael-s-catholic-high-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -119,10 +149,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 
 ## HARD_PASS
 
+- [Administrative and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-and-data-assistant) — Insufficient admin/service evidence.
 - [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover) — Insufficient admin/service evidence.
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-ashlyns-school) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-st-george-s-school) — Excluded senior/management title.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodfield-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lodge-farm-primary-school) — Excluded senior/management title.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-st-mary-s-church-of-england-high-school-va) — Excluded senior/management title.
 - [Sixth Form Student Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-student-liaison-officer) — Insufficient admin/service evidence.

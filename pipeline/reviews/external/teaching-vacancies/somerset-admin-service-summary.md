@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-12
-review_fingerprint: a1e8bd03c3910668037aa765e1e8b3526a7a2f26fbe7034402c48db64eb5582c
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+review_date: 2026-11-13
+review_fingerprint: dbc3796e510c6b34a98658d16a33ed478cc6944811aeb00948e41512c37f4f10
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 6
+- Records: 7
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Somerset | Weston-Super-Mare, South West, BS23 4NP | £18,411 - £19,943 | Admin Assistant & Cover Coordinator
-employer: Broadoak Academy
-closing_date: 2026-11-13T11:59:59+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3a20d299692d0d61fc5531b6484fba0aecdf6b941d954bdc1174e90ca82f2f37
-source: Teaching Vacancies
-source_job_id: admin-assistant-cover-coordinator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-cover-coordinator
----
 
 ---
 action: 
@@ -53,14 +38,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Somerset | Weston-Super-Mare, South West, BS23 4XH | Actual Annual Salary:?£13,024 - £14,195 | Administrator Level 1 (Part time, FTC)
+SELECTED | Somerset | Weston-Super-Mare, South West, BS23 4XH | £13,024 - £14,195 | Administrator Level 1 (Part time, FTC)
 employer: Uphill Village Academy
 closing_date: 2026-11-23T23:59:59+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 46a307766a5ecce7d7c402f3b530a1036616927f6cebce6fdd7dd70e0bacd1a1
+factual_fingerprint: 485dc337d62fde891c71b6e44b9681e9f0e85ee7f27d8dc912a1f8d2f4f594a5
 source: Teaching Vacancies
 source_job_id: administrator-level-1-part-time-ftc
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-level-1-part-time-ftc

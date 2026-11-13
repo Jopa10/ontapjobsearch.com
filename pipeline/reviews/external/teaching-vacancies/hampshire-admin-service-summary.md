@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-12
+review_date: 2026-11-13
 review_fingerprint: e33bb7bb211cb2139e9f6e89b5fb94815bb936f543ba5d92d26e669f22323ddb
-routing_manifest_sha256: d1f6bc8eeb747c7fe0d594ad77dd05787dffac31d4b4e9f891da84103c0b2ead
+routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -76,7 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0843015e
 
 - [Administration Manager (Primary)](https://teaching-vacancies.service.gov.uk/jobs/administration-manager-primary) — Excluded senior/management title.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-haylands-primary-school) — Excluded senior/management title.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-crofton-school) — Insufficient admin/service evidence.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-inspire-learning-partnership) — Salary over £50k.
 
 ## Safety boundary
 
