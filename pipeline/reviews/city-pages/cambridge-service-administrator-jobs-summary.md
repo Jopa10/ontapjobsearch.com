@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 50
+- Effective included jobs: 51
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 50
+- automatic include: 51
 - automatic review: 18
 - automatic exclude: 30
-- effective include: 50
+- effective include: 51
 - effective review: 18
 - effective exclude: 30
 
-## INCLUDE (50)
+## INCLUDE (51)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Pure Resourcing Solutions Limited - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225828067
+reason: Approved conservative Cambridge launch catchment.
+---
 
 ---
 action: 
@@ -225,6 +237,18 @@ company: Pure Resourcing Solutions Limited - Agency - Temporary
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225819865
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2281391
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -580,23 +604,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Administrator
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 9LG
-source: NHS Jobs
-job_id: nhs-5706846
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Ledger Assistant
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridgeshire
+title: Receptionist
+company: Peasgood & Skeates - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-2205119
+job_id: jobg8-23643_225830754
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -604,11 +616,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Ledger Assistant
+title: Senior Marketing Executive/Marketing Manager
 company: Pure Resourcing Solutions Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-23643_225777944
+job_id: jobg8-23643_225830190
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -642,11 +654,11 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Coyle Personnel - Agency - Temporary
+title: Accounts Assistant
+company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-23643_225801509
+job_id: jobg8-2280813
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -654,11 +666,11 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Booking Administrator
-company: Cambridge University Hospital NHS Foundation Trust
-location: Ely, CB6 1DN
-source: NHS Jobs
-job_id: nhs-5695551
+title: Administrator
+company: Coyle Personnel - Agency - Temporary
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225801509
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -849,18 +861,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
-company: Lewis & Co Consulting Ltd - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2146756
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
 company: Nxtgen Recruitment - Agency - Permanent
 location: Huntingdon
 source: JobG8
@@ -885,10 +885,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administration Assistant
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: Huntingdon, PE29 7HN
-source: NHS Jobs
-job_id: nhs-5694740
+company: Adecco - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225828884
 reason: Separate employment market.
 ---
 
@@ -944,6 +944,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Credit Controller
+company: Seismic Recruitment - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2282725
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Services Administrator - Part Time
 company: Barker Ross - Agency - Temporary
 location: Peterborough
@@ -968,18 +980,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: E-Commerce Manager
-company: ALH Recruitment Ltd - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2233894
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR Administrator
 company: Interaction Recruitment - Agency - Temporary
 location: Peterborough
@@ -997,6 +997,18 @@ company: Strange and Wright Recruitment Partners LTD - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225766094
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Administrator
+company: Oculus Legal Group - Agency - Permanent
+location: Huntingdon
+source: JobG8
+job_id: jobg8-2278488
 reason: Separate employment market.
 ---
 

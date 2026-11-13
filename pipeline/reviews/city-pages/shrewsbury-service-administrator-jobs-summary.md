@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 32
+- automatic include: 10
+- automatic review: 30
 - automatic exclude: 0
-- effective include: 9
-- effective review: 32
+- effective include: 10
+- effective review: 30
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -89,10 +89,22 @@ action:
 decision: include
 automatic_decision: include
 title: Marketing Manager
+company: Absolute Personnel - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-23643_225828013
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Manager
 company: Greenfield I T Recruitment - Agency - Permanent
 location: Shrewsbury
 source: JobG8
-job_id: jobg8-2274542
+job_id: jobg8-2277411
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -132,7 +144,7 @@ job_id: nhs-5719661
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (30)
 
 ---
 action: 
@@ -155,18 +167,6 @@ company: Hays Accounts and Finance - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225775219
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activity Co-ordinator
-company: Coverage Care Services - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225728935
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -215,18 +215,6 @@ company: Proactive Personnel Ltd - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225770486
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Support Administrator
-company: I force - Agency - Temporary
-location: Shropshire
-source: JobG8
-job_id: jobg8-108178433
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -378,18 +366,6 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: PA
-company: Hays Business Support - Agency - Temporary
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225726044
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Product & Brand Executive
 company: Berwick Care - Agency - Permanent
 location: Shropshire
@@ -491,6 +467,18 @@ company: Red Sky Personnel Ltd - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225739181
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Accounts Payable Clerk
+company: Seymour John - Agency - Permanent
+location: Telford
+source: JobG8
+job_id: jobg8-2280814
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

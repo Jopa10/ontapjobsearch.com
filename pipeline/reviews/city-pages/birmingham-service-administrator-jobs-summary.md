@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 133
+- Effective included jobs: 137
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 133
-- automatic review: 20
-- automatic exclude: 11
-- effective include: 133
-- effective review: 20
-- effective exclude: 11
+- automatic include: 137
+- automatic review: 19
+- automatic exclude: 10
+- effective include: 137
+- effective review: 19
+- effective exclude: 10
 
-## INCLUDE (133)
+## INCLUDE (137)
 
 ---
 action: 
@@ -149,6 +149,18 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
+company: Michael Page - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225830072
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
 company: SF Partners - Agency - Permanent
 location: Birmingham
 source: JobG8
@@ -244,6 +256,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Change and Communications Lead
+company: Michael Page Marketing - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2277100
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Children Law Paralegal
 company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
 location: Birmingham
@@ -256,35 +280,23 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical Assistant/Receptionist
-company: St Anne's Catholic Primary School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-clerical-assistant-receptionist-st-anne-s-catholic-primary-school
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Client Care Administrator
-company: SF Partners - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225726719
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Clinical Negligence Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2168705
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Communications Officer
+company: Sellick Partnership - Agency - Contract
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225831363
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -760,11 +772,35 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR & Operations Administrator
+company: Blue Thorn - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225831886
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Co-ordinator
 company: SF Partners - Agency - Contract
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225777890
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Interim Credit Controller
+company: TAILORED SEARCH RECRUITMENT LIMITED - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2281921
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1048,11 +1084,47 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Office Administrator
+company: Western Trading Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225829928
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Assistant
 company: Affinity People - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225683390
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Paid Media Executive
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2280817
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Paid Media Executive
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225830555
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1088,7 +1160,19 @@ title: Part Time Payroll Administrator
 company: Butler Rose - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2234138
+job_id: jobg8-2280718
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part-Time Senior Digital Marketing Executive
+company: Smile Education Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225830724
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1113,18 +1197,6 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225765197
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Procurement Assistant
-company: Reed - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2132455
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1288,18 +1360,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: School Administrator
-company: TeacherActive - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225726824
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Receptionist
 company: Aspire People - Agency - Temporary
 location: Birmingham
@@ -1372,6 +1432,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Social Media Executive
+company: Totum - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2277932
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Social Media Manager
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Birmingham
@@ -1420,18 +1492,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sourcing Administrator
-company: Reed - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2132456
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sourcing Coordinator
 company: Reed Specialist Recruitment - Agency - Permanent
 location: Birmingham
@@ -1473,18 +1533,6 @@ company: Proprec - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2203703
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Focus Resourcing - Agency - Temporary
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225805186
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1568,7 +1616,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2269615
+job_id: jobg8-2276699
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1620,19 +1668,7 @@ job_id: jobg8-2270560
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (20)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: SF Partners - Agency - Permanent
-location: Shirley
-source: JobG8
-job_id: jobg8-23643_225769992
-reason: No approved Birmingham catchment rule matched; local review required.
----
+## REVIEW (19)
 
 ---
 action: 
@@ -1862,19 +1898,7 @@ job_id: jobg8-23643_225731801
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Administrator
-company: SF Partners - Agency - Permanent
-location: Solihull
-source: JobG8
-job_id: jobg8-2193443
-reason: Separate exact-city market at launch.
----
+## EXCLUDE (10)
 
 ---
 action: 

@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
-- automatic review: 10
+- automatic include: 35
+- automatic review: 9
 - automatic exclude: 4
-- effective include: 29
-- effective review: 10
+- effective include: 35
+- effective review: 9
 - effective exclude: 4
 
-## INCLUDE (29)
+## INCLUDE (35)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Accounts Assistant - Temp to Perm
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2282327
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Accounts Payable Assistant
 company: Reed - Agency - Permanent
 location: Warrington
@@ -112,11 +124,35 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Activities Coordinator
+company: Exemplar Health Care - Company - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-108302757
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Corporate Insolvency Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2246595
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Adecco - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2281357
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -148,6 +184,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Care Coordinator
+company: Michael Page - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225831531
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: Michael Page - Agency - Contract
 location: Warrington
@@ -165,6 +213,18 @@ company: Adecco - Agency - Contract
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225753704
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2280762
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -201,6 +261,18 @@ company: Fawkes & Reece London - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225822871
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing and Business Development Executive
+company: Hoot Recruit LTD - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2278938
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -372,7 +444,7 @@ job_id: jobg8-23643_225793459
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -383,18 +455,6 @@ company: Cummins Mellor Recruitment - Agency - Permanent
 location: Cheshire
 source: JobG8
 job_id: jobg8-2170727
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Advanced Bookkeeper (On-site)
-company: Canning Generator Solutions Ltd - Agency - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-23643_225745382
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -419,18 +479,6 @@ company: Neos Recruitment Ltd - Agency - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-23643_225737277
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contracts Administrator
-company: PPM Recruitment - Agency - Permanent
-location: Lymm
-source: JobG8
-job_id: jobg8-23643_225808345
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -491,6 +539,18 @@ company: Hays Business Support - Agency - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-23643_225805278
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Desk Administrator
+company: PPM Recruitment - Agency - Permanent
+location: Lymm
+source: JobG8
+job_id: jobg8-23643_225830602
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

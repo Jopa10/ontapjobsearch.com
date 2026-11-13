@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 78
+- automatic include: 8
+- automatic review: 81
 - automatic exclude: 0
-- effective include: 9
-- effective review: 78
+- effective include: 8
+- effective review: 81
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Administration
-company: Dean Cross Surgery
-location: Plymouth, PL9 9DL
-source: NHS Jobs
-job_id: nhs-5715255
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Resource Management Planner
 company: Adecco - Agency - Temporary
 location: Plymouth
@@ -132,7 +120,7 @@ job_id: jobg8-23643_225767515
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (78)
+## REVIEW (81)
 
 ---
 action: 
@@ -283,6 +271,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Pertemps Bridgwater - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-108313409
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: RGB Recruitment - Agency - Contract
 location: Exeter
 source: JobG8
@@ -323,6 +323,18 @@ company: Devon Partnership NHS Trust
 location: Tavistock, PL19 8AB
 source: NHS Jobs
 job_id: nhs-5718178
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support Administrator
+company: Devon Partnership NHS Trust
+location: Newton Abbot, TQ12 4PH
+source: NHS Jobs
+job_id: nhs-5724759
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -583,18 +595,6 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: Sellick Partnership - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-2233949
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
 company: Sellick Partnership - Agency - Temporary
 location: Exeter
 source: JobG8
@@ -623,6 +623,18 @@ company: Switch - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-107939734
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Ops Support Administrator
+company: Adecco - Agency - Temporary
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225829775
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -918,6 +930,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: School Administrator
+company: Lockhart Recruitment - Agency - Contract
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225829719
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Finance Officer
 company: Trial Balance Consulting - Agency - Permanent
 location: Devon
@@ -1038,11 +1062,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: Tru Talent - Agency - Permanent
-location: Exeter
+title: Service Coordinator
+company: Luton Bennett - Agency - Permanent
+location: Devon
 source: JobG8
-job_id: jobg8-23643_225730206
+job_id: jobg8-23643_225828126
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

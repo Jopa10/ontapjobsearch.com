@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 69
+- automatic include: 17
+- automatic review: 67
 - automatic exclude: 0
-- effective include: 18
-- effective review: 69
+- effective include: 17
+- effective review: 67
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (17)
 
 ---
 action: 
@@ -172,18 +172,6 @@ reason: Exact approved Gloucester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sales & Marketing Coordinator
-company: JSM UK Ltd - Agency - Permanent
-location: Gloucester
-source: JobG8
-job_id: jobg8-108226582
-reason: Exact approved Gloucester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior Administrative Assistant - Immunisation Team
 company: Gloucestershire Health and Care NHS Foundation Trust
 location: Gloucester, GL3 4AW
@@ -240,7 +228,7 @@ job_id: jobg8-23643_225790550
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (69)
+## REVIEW (67)
 
 ---
 action: 
@@ -546,18 +534,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Digital Marketing Executive
-company: Juice Recruitment Ltd - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-2133048
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Dispatch Coordinator - (Logistics)
 company: Shorterm Group - Agency - Contract
 location: Gloucestershire
@@ -690,18 +666,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: G-TEKT Europe Manufacturing Limited - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225729665
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Insurance Claims Administrator
 company: Travail Employment Group - Agency - Permanent
 location: Gloucestershire
@@ -731,6 +695,18 @@ company: Anderson Recruitment Ltd - Agency - Permanent
 location: Cheltenham
 source: JobG8
 job_id: jobg8-2201012
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Travail Employment Group - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225830933
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -875,18 +851,6 @@ company: Cobalt
 location: Cheltenham, GL53 7AS
 source: NHS Jobs
 job_id: nhs-5712268
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Workforce Staffing Ltd - Agency - Temporary
-location: Cheltenham
-source: JobG8
-job_id: jobg8-23643_225727854
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

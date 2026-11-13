@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 33
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 18
-- effective review: 33
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (18)
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225733574
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (36)
 
 ---
 action: 
@@ -294,18 +294,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant (Apprentice)
-company: CMR Jobs Limited - Agency - Permanent
-location: Cheadle
-source: JobG8
-job_id: jobg8-23643_225728738
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Payable Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cheshire
@@ -342,11 +330,59 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: Pennine Care NHS FT
+location: Stalybridge, SK15 2AU
+source: NHS Jobs
+job_id: nhs-5723418
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Pennine Care NHS FT
+location: Stockport, SK2 5EQ
+source: NHS Jobs
+job_id: nhs-5723899
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Coordinator
 company: Premier Recruitment Solutions Ltd - Agency - Permanent
 location: Denton
 source: JobG8
 job_id: jobg8-23643_225821201
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clinical Administrator
+company: Willow Wood Hospice
+location: Ashton under Lyne, OL6 6SL
+source: NHS Jobs
+job_id: nhs-5725408
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-2279291
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -535,18 +571,6 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2235561
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
 company: Portfolio Payroll Limited - Agency - Permanent
 location: Stockport
 source: JobG8
@@ -575,6 +599,18 @@ company: Square Peg Associates Ltd - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-2151902
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger/Accounts Assistant
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-2278397
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

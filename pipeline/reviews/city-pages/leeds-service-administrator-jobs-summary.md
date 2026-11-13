@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 95
+- Effective included jobs: 88
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 95
-- automatic review: 48
-- automatic exclude: 76
-- effective include: 95
-- effective review: 48
-- effective exclude: 76
+- automatic include: 88
+- automatic review: 46
+- automatic exclude: 73
+- effective include: 88
+- effective review: 46
+- effective exclude: 73
 
-## INCLUDE (95)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts / Payroll Assistant
-company: Sharp Consultancy - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2233732
-reason: Approved Leeds catchment.
----
+## INCLUDE (88)
 
 ---
 action: 
@@ -68,7 +56,7 @@ title: Accounts Assistant
 company: Campbell Grove Talent Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2235358
+job_id: jobg8-2282696
 reason: Approved Leeds catchment.
 ---
 
@@ -105,6 +93,18 @@ company: Synergem Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2174117
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant Billing & Sales Ledger
+company: Axon Moore Group Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2279306
 reason: Approved Leeds catchment.
 ---
 
@@ -184,35 +184,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Bookkeeper
-company: Verelogic - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225729716
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Brand Manager
 company: Reed Specialist Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225673075
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: Morgan King - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225810852
 reason: Approved Leeds catchment.
 ---
 
@@ -364,6 +340,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Control
+company: Consula Group LTD - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2278038
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Credit Control Administrator
 company: Headstar - Agency - Permanent
 location: Leeds
@@ -393,18 +381,6 @@ company: Headway Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225764645
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service
-company: RG Setsquare - Agency - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225729701
 reason: Approved Leeds catchment.
 ---
 
@@ -472,18 +448,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Assistant
-company: Michael Page - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225727565
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Services Advisor
 company: Zachary Daniels Recruitment - Agency - Permanent
 location: Leeds
@@ -501,18 +465,6 @@ company: Huntress - Leeds - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225786547
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Digital Marketing Coordinator - Maternity Cover
-company: Dream Big Digital - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2135519
 reason: Approved Leeds catchment.
 ---
 
@@ -548,31 +500,7 @@ title: Experimentation & Optimisation Coordinator - 12 Month Fixed term
 company: ASDA - Company - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2211693
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Administrator/Bookkeeper
-company: Hays Accounts and Finance - Agency - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225753232
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Administrator/Bookkeeper
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2167973
+job_id: jobg8-2281094
 reason: Approved Leeds catchment.
 ---
 
@@ -725,18 +653,6 @@ action:
 decision: include
 automatic_decision: include
 title: Legal Administrator
-company: eNL Legal Recruitment - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2132562
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Administrator
 company: Wrigleys Solicitors - Agency - Permanent
 location: Leeds
 source: JobG8
@@ -844,18 +760,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Paid Media Manager
-company: Michael Page - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225726658
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Paralegal - Real Estate & Projects - Hybrid working
 company: CRA Consulting - Agency - Permanent
 location: Leeds
@@ -885,6 +789,18 @@ company: Huntress - Leeds - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225751213
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Administrator
+company: Headway Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225831377
 reason: Approved Leeds catchment.
 ---
 
@@ -1108,11 +1024,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: SEO Manager
-company: Oscar Technology - Agency - Permanent
+title: Service Advisor
+company: Auto Skills UK - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2137045
+job_id: jobg8-23643_225732511
 reason: Approved Leeds catchment.
 ---
 
@@ -1120,11 +1036,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
+title: Social Media Executive
+company: Totum - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-23643_225732511
+job_id: jobg8-2277947
 reason: Approved Leeds catchment.
 ---
 
@@ -1164,7 +1080,7 @@ job_id: jobg8-2264423
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (48)
+## REVIEW (46)
 
 ---
 action: 
@@ -1386,18 +1302,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: FM Administrator
-company: 300 North Limited - Agency - Temporary
-location: Normanton
-source: JobG8
-job_id: jobg8-23643_225799000
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Health and Welfare Court of Protection Paralegal
 company: Simpson Millar LLP Solicitors - Agency - Permanent
 location: Yorkshire
@@ -1482,6 +1386,18 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Executive (CRM & Data)
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2278393
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive - Campaign & Performance
 company: Office Angels - Agency - Permanent
 location: Yorkshire
@@ -1542,18 +1458,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal
-company: Kingsgate Recruitment Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2132629
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patient Services Administrator
 company: NORTHGATE SURGERY
 location: Pontefract, WF8 1NF
@@ -1571,18 +1475,6 @@ company: Sphere Digital Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2197982
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Coordinator
-company: Lucy Walker Recruitment - Agency - Temporary
-location: Castleford
-source: JobG8
-job_id: jobg8-23643_225797828
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -1742,7 +1634,7 @@ job_id: jobg8-2204175
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (76)
+## EXCLUDE (73)
 
 ---
 action: 
@@ -1812,7 +1704,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Wakefield
 source: JobG8
-job_id: jobg8-2235048
+job_id: jobg8-2282291
 reason: Separate employment market.
 ---
 
@@ -1849,18 +1741,6 @@ company: Concept Recruitment Group Ltd - Agency - Temporary
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225745706
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Encon Staffing Associates Ltd - Agency - Temporary
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225730421
 reason: Separate employment market.
 ---
 
@@ -2196,7 +2076,7 @@ title: HR & Payroll Administrator
 company: Driver Hire Group Services Ltd - Agency - Permanent
 location: Bradford
 source: JobG8
-job_id: jobg8-23643_225469534
+job_id: jobg8-23643_225829521
 reason: Separate employment market.
 ---
 
@@ -2252,11 +2132,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Legal Secretary - Care Department - Huddersfield
-company: qed legal - Agency - Permanent
-location: Huddersfield
+title: Junior Marketing Executive
+company: Reed - Agency - Permanent
+location: Bradford
 source: JobG8
-job_id: jobg8-2155893
+job_id: jobg8-2277550
 reason: Separate employment market.
 ---
 
@@ -2264,11 +2144,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Legal Secretary - Plot Sales/New Build - Wakefield
+title: Legal Secretary - Care Department - Huddersfield
 company: qed legal - Agency - Permanent
-location: Wakefield
+location: Huddersfield
 source: JobG8
-job_id: jobg8-2137359
+job_id: jobg8-2155893
 reason: Separate employment market.
 ---
 
@@ -2389,18 +2269,6 @@ company: West Riding Recruitment - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225804361
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger
-company: Axon Moore Group Ltd - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-2148695
 reason: Separate employment market.
 ---
 
@@ -2617,18 +2485,6 @@ company: Swedencare - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-2192918
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Student Information Desk Receptionist
-company: Outwood Grange Academy
-location: Wakefield
-source: Teaching Vacancies
-job_id: teaching-vacancies-student-information-desk-receptionist-outwood-grange-academy
 reason: Separate employment market.
 ---
 

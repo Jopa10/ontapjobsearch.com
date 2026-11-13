@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 81
+- automatic review: 84
 - automatic exclude: 0
 - effective include: 9
-- effective review: 81
+- effective review: 84
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225810447
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (81)
+## REVIEW (84)
 
 ---
 action: 
@@ -426,11 +426,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Brampton Recruitment Ltd - Agency - Contract
-location: Staffordshire
+title: Credit Control Assistant
+company: Proftech Talent Ltd - Agency - Permanent
+location: Tamworth
 source: JobG8
-job_id: jobg8-23643_225758647
+job_id: jobg8-2282201
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -491,18 +491,6 @@ company: Eurocell PLC - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225796726
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Distribution & Logistics Coordinator
-company: MET Recruitment UK LTD - Agency - Permanent
-location: Tamworth
-source: JobG8
-job_id: jobg8-23643_225815721
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -587,6 +575,30 @@ company: Portfolio HR & Reward - Agency - Temporary
 location: Stafford
 source: JobG8
 job_id: jobg8-23643_225819796
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HubSpot Marketing Manager
+company: Workstreet - Agency - Permanent
+location: Tamworth
+source: JobG8
+job_id: jobg8-2283426
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Recruiter / Talent Acquisition
+company: Ruth Wagstaff Recruitment - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225831827
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -738,6 +750,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Part-Time Admin Assistant
+company: Brampton Recruitment Ltd - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225830813
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-Time Administrator
 company: Fusion People Ltd - Agency - Contract
 location: Staffordshire
@@ -834,6 +858,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Project Coordinator
+company: Starkey Recruitment Group - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225831125
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Assistant - Temporary
 company: Ashley Kate HR & Finance - Agency - Temporary
 location: Tamworth
@@ -911,18 +947,6 @@ company: Avery Healthcare Group Ltd.
 location: Rugeley, WS15 2EJ
 source: NHS Jobs
 job_id: nhs-5723387
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist Administrator
-company: MOP Healthcare Ltd - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225299559
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -1103,6 +1127,18 @@ company: Work Lyf Group Ltd - Agency - Permanent
 location: Stafford
 source: JobG8
 job_id: jobg8-23643_225706813
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Weekend Receptionist Administrator
+company: MOP Healthcare Ltd - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225299559
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

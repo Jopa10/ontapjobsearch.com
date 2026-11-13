@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 149
+- automatic review: 145
 - automatic exclude: 0
 - effective include: 0
-- effective review: 149
+- effective review: 145
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (149)
+## REVIEW (145)
 
 ---
 action: 
@@ -104,9 +104,9 @@ decision: review
 automatic_decision: review
 title: Accounts Assistant
 company: KCR Solutions - Agency - Permanent
-location: Newcastle
+location: Washington
 source: JobG8
-job_id: jobg8-2204552
+job_id: jobg8-2273997
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -116,9 +116,9 @@ decision: review
 automatic_decision: review
 title: Accounts Assistant
 company: KCR Solutions - Agency - Permanent
-location: Washington
+location: Blyth
 source: JobG8
-job_id: jobg8-2273997
+job_id: jobg8-2278020
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -306,6 +306,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: South Tyneside and Sunderland NHS Foundation Trust
+location: JARROW, NE32 5NN
+source: NHS Jobs
+job_id: nhs-5721195
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Assistant Scheme Coordinator
 company: RG Setsquare - Agency - Permanent
 location: Tyne And Wear
@@ -354,6 +366,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Business Development Executive
+company: Ronald James - Agency - Permanent
+location: Stockton-on-tees
+source: JobG8
+job_id: jobg8-2277553
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Development Executives
 company: CKB Recruitment Ltd - Agency - Permanent
 location: Not Specified
@@ -371,6 +395,18 @@ company: North East & North Cumbria ICB
 location: Sunderland, SR5 3XB
 source: NHS Jobs
 job_id: nhs-5717699
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support Administrator
+company: Wolviston Management Services - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225389742
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -431,6 +467,18 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Durham, DH9 0AB
 source: NHS Jobs
 job_id: nhs-5717516
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Communications and Engagement Coordinator
+company: Jackson Hogg Ltd - Agency - Permanent
+location: Northumberland
+source: JobG8
+job_id: jobg8-23643_225830227
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -570,6 +618,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: CRM Executive
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2277526
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Care Coordinator
 company: Westray Recruitment Consultants Ltd - Agency - Permanent
 location: Tyne And Wear
@@ -666,6 +726,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisors
+company: Michael Page - Agency - Contract
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225829577
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Coordinator
 company: Kevin Theobald Employment Agency - Agency - Permanent
 location: Tyne And Wear
@@ -726,30 +798,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Digital PR Manager
-company: BMC Recruitment Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2136389
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital PR Manager
-company: BMC Recruitment Group Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225730825
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Document Controller
 company: Rullion Managed Services - Agency - Contract
 location: Newcastle Upon Tyne
@@ -774,35 +822,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Electrical Service Administrator
-company: Coleman James - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225724955
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: External Affairs Manager
 company: Michael Page Marketing - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2274438
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance & Payroll Assistant
-company: James Andrew Recruitment Solutions (JAR Solutions) - Agency - Permanent
-location: Durham
-source: JobG8
-job_id: jobg8-2175168
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -870,18 +894,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Front of House Property Admin
-company: Integro People Limited - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225826691
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Full Time Customer Service Advisor
 company: We Are Zenith - Agency - Permanent
 location: Tyne And Wear
@@ -894,11 +906,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Graduate Paralegal - Housing Disrepair
-company: Standard 8 - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2153850
+title: GP Receptionist/Administrator
+company: Hylton Medical Group
+location: Sunderland, SR4 7XF
+source: NHS Jobs
+job_id: nhs-5723467
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -906,11 +918,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Helpdesk Administrator
-company: Branta Consulting Limited - Agency - Permanent
-location: Gateshead
+title: Graduate Paralegal - Housing Disrepair
+company: Standard 8 - Agency - Permanent
+location: Tyne And Wear
 source: JobG8
-job_id: jobg8-23643_225805692
+job_id: jobg8-2153850
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -978,6 +990,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Hr Assistant
+company: Belmont Recruitment - Agency - Contract
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225827931
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Support Officer
 company: Hays Business Support - Agency - Permanent
 location: Yorkshire
@@ -995,6 +1019,18 @@ company: Westray Recruitment Consultants Ltd - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225782029
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Executive
+company: Effective Recruitment Solutions Ltd - Agency - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225831279
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1134,18 +1170,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator Permanent - Boldon - Hybrid
-company: Office Angels - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225728484
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office and Finance Administrator
 company: MTrec Recruitment - Agency - Permanent
 location: Northumberland
@@ -1175,18 +1199,6 @@ company: Staff Power Group - Agency - Permanent
 location: Stanley
 source: JobG8
 job_id: jobg8-23643_225485412
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Paralegal
-company: Kingsgate Recruitment Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2132630
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1278,18 +1290,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2236334
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Clerk
 company: Baltic Recruitment Limited - Agency - Permanent
 location: Darlington
@@ -1307,18 +1307,6 @@ company: Baltic Recruitment Services Ltd - Agency - Temporary
 location: Darlington
 source: JobG8
 job_id: jobg8-23643_225802387
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Paul Card Recruitment - Agency - Temporary
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225736941
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1350,11 +1338,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: People Coordinator
-company: Belmont Recruitment - Agency - Contract
-location: Washington
+title: PPC & SEO Account Executive Permanent - North Tyneside
+company: Office Angels - Agency - Permanent
+location: Not Specified
 source: JobG8
-job_id: jobg8-23643_225729527
+job_id: jobg8-2142975
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1362,11 +1350,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: PPC & SEO Account Executive Permanent - North Tyneside
-company: Office Angels - Agency - Permanent
-location: Not Specified
+title: PPC Manager
+company: Jackson Hogg - Agency - Permanent
+location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2142975
+job_id: jobg8-2281129
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1523,18 +1511,6 @@ company: CDM Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_208971992
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Towne Lifting & Testing - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225725446
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1734,35 +1710,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Administrator Newcastle City Centre
-company: Office Angels - Agency - Temporary
-location: Newcastle
-source: JobG8
-job_id: jobg8-23643_225729570
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary ECO Administrator - Newcastle
 company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225794474
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary School Administrator - Sunderland
-company: Office Angels - Agency - Temporary
-location: Sunderland
-source: JobG8
-job_id: jobg8-23643_225729432
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1786,7 +1738,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2269627
+job_id: jobg8-2276711
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

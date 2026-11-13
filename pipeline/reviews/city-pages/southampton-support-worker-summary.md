@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 15
-- automatic exclude: 8
+- automatic review: 16
+- automatic exclude: 6
 - effective include: 4
-- effective review: 15
-- effective exclude: 8
+- effective review: 16
+- effective exclude: 6
 
 ## INCLUDE (4)
 
@@ -40,11 +40,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Healthcare Assistant
-company: Prime Healthcare Solutions Ltd - Agency - Temporary
+title: Care Assistant Domiciliary Care
+company: S.N.G Recruitment Solutions Limited - Agency - Temporary
 location: Southampton
 source: JobG8
-job_id: jobg8-23643_225820911
+job_id: jobg8-108288427
 reason: Approved Southampton catchment.
 ---
 
@@ -52,11 +52,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Hourly Lifestyle / Care Assistant for a Female Chemistry Uni Student
-company: Ask Jules - Agency - Permanent
+title: Healthcare Assistant
+company: Prime Healthcare Solutions Ltd - Agency - Temporary
 location: Southampton
 source: JobG8
-job_id: jobg8-108269694
+job_id: jobg8-23643_225820911
 reason: Approved Southampton catchment.
 ---
 
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225813909
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (16)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: Hampshire County Council - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1401786179
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Female Support Worker
+company: Choice Support - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225819638
 reason: Broad location; review before city inclusion.
 ---
 
@@ -254,7 +266,7 @@ job_id: jobg8-23643_225653471
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -309,34 +321,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Night Care Assistant
-company: Barchester Healthcare - Company - Permanent
-location: Basingstoke
-source: JobG8
-job_id: jobg8-23643_225815487
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Night Care Assistant
 company: Hamberley Care Management Limited - Company - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-23643_225761985
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Relief Healthcare Support Worker / Portsmouth
-company: AA Euro Group - Agency - Temporary
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225725370
 reason: Separate employment market.
 ---
 

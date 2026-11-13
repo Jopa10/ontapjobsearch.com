@@ -16,13 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 18
-- automatic exclude: 29
+- automatic review: 15
+- automatic exclude: 28
 - effective include: 7
-- effective review: 18
-- effective exclude: 29
+- effective review: 15
+- effective exclude: 28
 
 ## INCLUDE (7)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225830047
+reason: Exact approved Harrogate workplace.
+---
 
 ---
 action: 
@@ -45,18 +57,6 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2259535
-reason: Exact approved Harrogate workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Family Legal Secretary - Harrogate
-company: qed legal - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2133535
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -108,19 +108,7 @@ job_id: jobg8-2262968
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (18)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-2272349
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
+## REVIEW (15)
 
 ---
 action: 
@@ -270,18 +258,6 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-23643_225729465
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Coordinator
 company: Travail Employment Group - Agency - Permanent
 location: Knaresborough
@@ -314,19 +290,7 @@ job_id: jobg8-2272372
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary finance assistant
-company: Capital Outsourcing Group Ltd - Agency - Temporary
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225825278
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
-## EXCLUDE (29)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -428,6 +392,18 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Education Delivery Coordinator, Alternative Provision North Yorkshire (new Yorkshire office opening early 2027)
+company: AP Education - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225828358
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Employment & Litigation Legal Assistant
 company: Search Consultancy Ltd - Agency - Permanent
 location: York
@@ -457,30 +433,6 @@ company: Michael Page - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225827394
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Assistant (Maternity Cover)
-company: Joseph Rowntree - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225730066
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Legal Assistant
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-2247374
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

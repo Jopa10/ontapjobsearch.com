@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 48
+- automatic include: 16
+- automatic review: 47
 - automatic exclude: 0
-- effective include: 15
-- effective review: 48
+- effective include: 16
+- effective review: 47
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (16)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: CAMHS Team Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Poole, BH17 8WG
+source: NHS Jobs
+job_id: nhs-5724228
+reason: Exact approved Poole workplace.
+---
 
 ---
 action: 
@@ -45,18 +57,6 @@ company: Team Jobs - Commercial - Agency - Temporary
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225763450
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Account Coordinator
-company: Team Jobs - Commercial - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225726239
 reason: Exact approved Poole workplace.
 ---
 
@@ -100,6 +100,18 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Part Time Marketing Executive
+company: Aspire Jobs - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225826692
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Administrator
 company: Ashley Rees Associates - Agency - Permanent
 location: Poole
@@ -129,18 +141,6 @@ company: McGinnis Loy Associates Ltd - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-2181226
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Purchasing Administrator
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225788921
 reason: Exact approved Poole workplace.
 ---
 
@@ -196,6 +196,18 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Team Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Poole, BH17 0RB
+source: NHS Jobs
+job_id: nhs-5723987
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Finance Assistant
 company: Team Jobs - Commercial - Agency - Temporary
 location: Poole
@@ -204,7 +216,7 @@ job_id: jobg8-23643_225817065
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (48)
+## REVIEW (47)
 
 ---
 action: 
@@ -275,18 +287,6 @@ company: Care UK - Company - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-108242620
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Bournemouth, BH7 6JF
-source: NHS Jobs
-job_id: nhs-5694960
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -383,18 +383,6 @@ company: Trial Balance Consulting - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2177163
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator
-company: KAG Recruitment Consultancy - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225771986
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -707,6 +695,18 @@ company: Pin Point Recruitment - Agency - Permanent
 location: Wimborne
 source: JobG8
 job_id: jobg8-23643_225785867
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Coordinator
+company: Rubicon Recruitment - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225830816
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

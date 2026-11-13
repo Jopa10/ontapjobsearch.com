@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 11
 - automatic review: 28
 - automatic exclude: 0
-- effective include: 9
+- effective include: 11
 - effective review: 28
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (11)
 
 ---
 action: 
@@ -68,6 +68,18 @@ title: Finance Assistant
 company: Abacus Consulting - Agency - Permanent
 location: Bedford
 source: JobG8
+job_id: jobg8-2266486
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Abacus Consulting - Agency - Permanent
+location: Bedford
+source: JobG8
 job_id: jobg8-23643_225816391
 reason: Exact approved Bedford workplace.
 ---
@@ -93,6 +105,18 @@ company: BMSL Group Ltd - Agency - Contract
 location: Bedford
 source: JobG8
 job_id: jobg8-23643_225568924
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Executive
+company: RETAIND Ltd - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225832167
 reason: Exact approved Bedford workplace.
 ---
 
@@ -133,6 +157,18 @@ reason: Exact approved Bedford workplace.
 ---
 
 ## REVIEW (28)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: 1st Choice Rec - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2281336
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -275,18 +311,6 @@ company: Tate - Agency - Permanent
 location: Potton
 source: JobG8
 job_id: jobg8-23643_225741129
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Logistics Administrator
-company: Osborne Appointments - Agency - Temporary
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225746423
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

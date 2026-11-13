@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 57
+- automatic include: 11
+- automatic review: 60
 - automatic exclude: 0
-- effective include: 10
-- effective review: 57
+- effective include: 11
+- effective review: 60
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Facilities Coordinator
+company: Michael Page - Agency - Contract
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_225829223
+reason: Exact approved Walsall workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Fleet Administrator
 company: BCS Group - Agency - Permanent
 location: Walsall
@@ -144,7 +156,7 @@ job_id: jobg8-23643_225397260
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (57)
+## REVIEW (60)
 
 ---
 action: 
@@ -191,6 +203,18 @@ company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Dudley
 source: JobG8
 job_id: jobg8-23643_225783603
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Marks Sattin - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-2282654
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -324,18 +348,6 @@ location: West Midlands
 source: JobG8
 job_id: jobg8-23643_225792067
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: BMW Service Advisor
-company: Sytner - Company - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-23643_225786966
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -804,6 +816,42 @@ location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225637300
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Black Country Healthcare NHS Foundation Trust
+location: West Bromwich, B70 8NL
+source: NHS Jobs
+job_id: nhs-5724905
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Black Country Healthcare NHS Foundation Trust
+location: Dudley, DY1 1RN
+source: NHS Jobs
+job_id: nhs-5725105
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Black Country Healthcare NHS Foundation Trust
+location: Oldbury, B69 1EJ
+source: NHS Jobs
+job_id: nhs-5725126
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 
 ---

@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 10
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 9
+- effective include: 10
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (9)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts & Payroll Administrator
-company: Hays Accounts and Finance - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225726032
-reason: Approved conservative Belfast launch catchment.
----
+## INCLUDE (10)
 
 ---
 action: 
@@ -65,6 +53,18 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-23643_225830618
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
 company: Hays Accounts and Finance - Agency - Permanent
 location: Belfast
 source: JobG8
@@ -81,6 +81,18 @@ company: rated traders ltd - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2192202
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Financial Services Administrator
+company: Brook Street - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-23643_225830214
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -128,11 +140,23 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2269614
+job_id: jobg8-2276698
 reason: Approved conservative Belfast launch catchment.
 ---
 
 ## REVIEW (5)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Rise Technical Recruitment - Agency - Permanent
+location: Antrim
+source: JobG8
+job_id: jobg8-23643_225828159
+reason: No approved Belfast catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -143,18 +167,6 @@ company: Reed - Agency - Permanent
 location: Ballymena
 source: JobG8
 job_id: jobg8-2178321
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contracts Administrator
-company: Rise Technical Recruitment - Agency - Permanent
-location: Antrim
-source: JobG8
-job_id: jobg8-23643_225750735
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

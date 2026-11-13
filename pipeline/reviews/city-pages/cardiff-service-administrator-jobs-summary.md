@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 0
+- automatic include: 23
+- automatic review: 1
 - automatic exclude: 0
-- effective include: 19
-- effective review: 0
+- effective include: 23
+- effective review: 1
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (23)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Robert Half - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2280967
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Field Service Advisor
 company: Hays Business Support - Agency - Temporary
 location: Cardiff
@@ -172,6 +184,30 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2151735
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Graduate Accounts Assistant
+company: Robert Half - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2281358
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Key Account Coordinator and Customer Support
 company: Work Wales - Agency - Permanent
 location: Cardiff
@@ -189,6 +225,18 @@ company: Pertemps Cardiff - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-2192388
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2178886
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -252,6 +300,18 @@ job_id: jobg8-23643_225782187
 reason: Approved conservative Cardiff launch catchment.
 ---
 
-## REVIEW (0)
+## REVIEW (1)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant (Purchase Ledger)
+company: Michael Page - Agency - Permanent
+location: South Glamorgan
+source: JobG8
+job_id: jobg8-23643_225794501
+reason: No approved Cardiff catchment rule matched; local review required.
+---
 
 ## EXCLUDE (0)

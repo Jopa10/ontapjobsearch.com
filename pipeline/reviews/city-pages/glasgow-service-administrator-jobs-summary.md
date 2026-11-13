@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 29
 - automatic review: 8
 - automatic exclude: 0
-- effective include: 27
+- effective include: 29
 - effective review: 8
 - effective exclude: 0
 
-## INCLUDE (27)
+## INCLUDE (29)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-2164191
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Administrator
+company: Reed - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2282337
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -57,6 +69,18 @@ company: Realise Recruitment - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_223109682
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent - Outbound Sales
+company: OPTICAL EXPRESS (WESTFIELD) LIMITED - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-108308789
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -105,6 +129,18 @@ company: Pertemps Warwickshire County Council - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225734998
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Red Recruitment - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225830678
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -165,18 +201,6 @@ company: Adecco - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225811652
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Operations Administrator
-company: RPJ Energy Solutions Limited - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225752498
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -442,7 +466,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2269621
+job_id: jobg8-2276705
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

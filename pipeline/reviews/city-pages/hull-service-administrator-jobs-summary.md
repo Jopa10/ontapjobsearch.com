@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 20
+- automatic include: 22
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 23
-- effective review: 20
+- effective include: 22
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (22)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Prestige Recruitment Specialists - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225798510
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Coordinator
-company: Stafforce Recruitment - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225730083
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -300,7 +288,7 @@ job_id: jobg8-23643_225818060
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (16)
 
 ---
 action: 
@@ -354,18 +342,6 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Aftersales Coordinator
-company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-23643_225731742
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Support Administrator
 company: SaB Consulting Yorkshire Limited - Agency - Permanent
 location: Beverley
@@ -395,30 +371,6 @@ company: Consortium Professional Recruitment Ltd - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-23643_225751816
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Logistics Coordinator
-company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-23643_225731622
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: SI Recruitment - Agency - Permanent
-location: Goole
-source: JobG8
-job_id: jobg8-107919887
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -503,18 +455,6 @@ company: Edwards & Pearce - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225793314
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Cottingham, HU16 5JQ
-source: NHS Jobs
-job_id: nhs-5705755
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

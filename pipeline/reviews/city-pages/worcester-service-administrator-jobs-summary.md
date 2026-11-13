@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 28
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 5
-- effective review: 28
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -68,7 +68,7 @@ title: Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Worcester
 source: JobG8
-job_id: jobg8-2234324
+job_id: jobg8-2280982
 reason: Exact approved Worcester workplace.
 ---
 
@@ -84,7 +84,19 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (31)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: TMR Group Ltd - Agency - Permanent
+location: Droitwich
+source: JobG8
+job_id: jobg8-2281842
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -95,18 +107,6 @@ company: Flora Partners - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-23643_225796734
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator / Data Entry & Planner
-company: Industrial Recruitment Solutions Ltd - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225729147
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -143,18 +143,6 @@ company: Pertemps Black Country Perms - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225767657
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contact Centre Manager
-company: Brellis Recruitment - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225779372
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -210,6 +198,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Education Delivery Coordinator, Alternative Provision West Midlands (new office opening mid-2027)
+company: AP Education - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225831004
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: European and UK Road Coordinator
 company: Freight Personnel - Agency - Permanent
 location: Worcestershire
@@ -227,6 +227,18 @@ company: Willis Global - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225636272
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: General Administrator
+company: Workforce Staffing Ltd - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225827696
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -323,6 +335,30 @@ company: Michael Page Finance - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-2178283
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-2281345
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225820459
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

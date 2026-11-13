@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 36
+- automatic review: 34
 - automatic exclude: 0
 - effective include: 20
-- effective review: 36
+- effective review: 34
 - effective exclude: 0
 
 ## INCLUDE (20)
@@ -264,7 +264,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (34)
 
 ---
 action: 
@@ -288,18 +288,6 @@ location: Chippenham
 source: JobG8
 job_id: jobg8-2204801
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Robert Half - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-2233563
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -370,7 +358,7 @@ title: Automobile Service Advisor (auto Service Advisor)
 company: People Solutions Group Limited - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2235464
+job_id: jobg8-2282845
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -510,6 +498,18 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Legal Assistant Bath
+company: Thrive Group - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-23643_225829032
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Pastoral Administrator
 company: Melksham Oak Community School
 location: Melksham
@@ -619,18 +619,6 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
-company: Purely Recruitment Solutions - Agency - Permanent
-location: Chippenham
-source: JobG8
-job_id: jobg8-2233971
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Wiltshire
 source: JobG8
@@ -648,18 +636,6 @@ location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225779110
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Thrive Group - Agency - Permanent
-location: Corsham
-source: JobG8
-job_id: jobg8-23643_225803345
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

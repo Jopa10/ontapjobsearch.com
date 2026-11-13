@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 38
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 38
+- automatic include: 35
 - automatic review: 17
 - automatic exclude: 0
-- effective include: 38
+- effective include: 35
 - effective review: 17
 - effective exclude: 0
 
-## INCLUDE (38)
+## INCLUDE (35)
 
 ---
 action: 
@@ -46,18 +46,6 @@ location: Lincolnshire
 source: JobG8
 job_id: jobg8-2192494
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Clerk
-company: Blusource Professional Services Ltd - Agency - Temporary
-location: Lincoln
-source: JobG8
-job_id: jobg8-23643_225728373
-reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -129,18 +117,6 @@ company: Reed - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2163998
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: SAB CONSULTING YORKSHIRE LIMITED - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-108290142
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -400,18 +376,6 @@ reason: Exact approved Lincoln workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Quality Administrator (Food Manufacturing)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225726482
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Sir Robert Pattinson Academy
 location: Lincoln
@@ -515,6 +479,18 @@ company: Care Plus Group
 location: Grimsby, DN32 7DH
 source: NHS Jobs
 job_id: nhs-5722358
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Support
+company: NHS Professionals - Company - Temporary
+location: Scunthorpe
+source: JobG8
+job_id: jobg8-23643_225819175
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -671,18 +647,6 @@ company: TeacherActive - Agency - Temporary
 location: Scunthorpe
 source: JobG8
 job_id: jobg8-23643_225807524
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Legal Secretary
-company: Oculus Legal Group - Agency - Permanent
-location: Spalding
-source: JobG8
-job_id: jobg8-2136831
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

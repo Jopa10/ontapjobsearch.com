@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 109
-- automatic exclude: 36
+- automatic review: 108
+- automatic exclude: 35
 - effective include: 3
-- effective review: 109
-- effective exclude: 36
+- effective review: 108
+- effective exclude: 35
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225825157
 reason: Exact approved Horsham workplace.
 ---
 
-## REVIEW (109)
+## REVIEW (108)
 
 ---
 action: 
@@ -402,18 +402,6 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2134374
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Creative Content Lead
 company: Travail Employment Group - Agency - Permanent
 location: Sussex
@@ -678,18 +666,6 @@ reason: No approved Horsham employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Internal Sales Executive
-company: Wise Monkey Recruitment ltd - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225816202
-reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Leasehold Enfranchisement Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Sussex
@@ -762,6 +738,18 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
+title: Marketing & Membership Manager
+company: First Recruitment Services - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225830529
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive
 company: GM Legal Recruitment - Agency - Permanent
 location: Sussex
@@ -774,11 +762,11 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Graduate
-company: Me Learning - Agency - Permanent
+title: Marketing Manager
+company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225730465
+job_id: jobg8-23643_225830544
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -1182,11 +1170,11 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Officer
-company: Tate - Agency - Temporary
+title: Regional marketing Manager
+company: Tria - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225726103
+job_id: jobg8-23643_225830459
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -1292,7 +1280,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
@@ -1366,11 +1354,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2269616
+job_id: jobg8-2276700
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -1429,18 +1417,6 @@ company: The Recruitment Lab - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225751541
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Fox and Sons - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-2201378
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 
@@ -1628,11 +1604,11 @@ reason: The stated workplace belongs outside the approved Horsham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Project Administrator
-company: University Hospitals Sussex NHS Foundation Trust (279)
-location: Brighton, BN2 5BE
-source: NHS Jobs
-job_id: nhs-5705725
+title: Property & Lettings Administrator
+company: Office Angels - Agency - Permanent
+location: Hove
+source: JobG8
+job_id: jobg8-23643_225749024
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 
@@ -1640,11 +1616,11 @@ reason: The stated workplace belongs outside the approved Horsham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Property & Lettings Administrator
-company: Office Angels - Agency - Permanent
-location: Hove
+title: Purchase Ledger Administrator
+company: First Recruitment Services - Agency - Temporary
+location: Brighton
 source: JobG8
-job_id: jobg8-23643_225749024
+job_id: jobg8-23643_225828831
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 

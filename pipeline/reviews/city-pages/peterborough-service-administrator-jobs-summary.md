@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 26
-- automatic review: 16
+- automatic review: 17
 - automatic exclude: 56
 - effective include: 26
-- effective review: 16
+- effective review: 17
 - effective exclude: 56
 
 ## INCLUDE (26)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Lewis & Co Consulting Ltd - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2146756
-reason: Approved conservative Peterborough launch catchment.
----
 
 ---
 action: 
@@ -45,6 +33,18 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2175388
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Adecco - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225828884
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -88,6 +88,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Seismic Recruitment - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2282725
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Services Administrator - Part Time
 company: Barker Ross - Agency - Temporary
 location: Peterborough
@@ -105,18 +117,6 @@ company: Astute People - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225821578
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: E-Commerce Manager
-company: ALH Recruitment Ltd - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2233894
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -336,7 +336,7 @@ job_id: jobg8-2183929
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (17)
 
 ---
 action: 
@@ -347,6 +347,18 @@ company: Infinity Recruitment Consultancy Limited - Agency - Permanent
 location: St. Ives
 source: JobG8
 job_id: jobg8-23643_225808208
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-2280813
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -549,6 +561,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
+company: Pure Resourcing Solutions Limited - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225828067
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
@@ -565,30 +589,6 @@ company: Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2245828
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: Huntingdon, PE29 7HN
-source: NHS Jobs
-job_id: nhs-5694740
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Booking Administrator
-company: Cambridge University Hospital NHS Foundation Trust
-location: Ely, CB6 1DN
-source: NHS Jobs
-job_id: nhs-5695551
 reason: Separate employment market.
 ---
 
@@ -789,6 +789,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2281391
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
 company: The One Group - Agency - Permanent
 location: Cambridge
 source: JobG8
@@ -817,6 +829,18 @@ company: Language Business - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225807184
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Administrator
+company: Oculus Legal Group - Agency - Permanent
+location: Huntingdon
+source: JobG8
+job_id: jobg8-2278488
 reason: Separate employment market.
 ---
 
@@ -1148,35 +1172,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/Administrator
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 9LG
-source: NHS Jobs
-job_id: nhs-5706846
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Ledger Assistant
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridgeshire
+title: Receptionist
+company: Peasgood & Skeates - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-2205119
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Ledger Assistant
-company: Pure Resourcing Solutions Limited - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225777944
+job_id: jobg8-23643_225830754
 reason: Separate employment market.
 ---
 
@@ -1189,6 +1189,18 @@ company: Proximity Recruitment - Agency - Permanent
 location: Huntingdon
 source: JobG8
 job_id: jobg8-2247104
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Marketing Executive/Marketing Manager
+company: Pure Resourcing Solutions Limited - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-23643_225830190
 reason: Separate employment market.
 ---
 

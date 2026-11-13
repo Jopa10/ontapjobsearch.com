@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 21
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 15
-- effective review: 21
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: Butler Rose - Agency - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2234951
+job_id: jobg8-2282040
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -204,7 +204,7 @@ job_id: jobg8-2249893
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (22)
 
 ---
 action: 
@@ -239,6 +239,18 @@ company: Adecco - Agency - Permanent
 location: Middlewich
 source: JobG8
 job_id: jobg8-23643_225802150
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: KPI Recruiting - Agency - Permanent
+location: Middlewich
+source: JobG8
+job_id: jobg8-23643_225828608
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

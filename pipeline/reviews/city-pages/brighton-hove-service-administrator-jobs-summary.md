@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 109
-- automatic exclude: 25
+- automatic review: 108
+- automatic exclude: 24
 - effective include: 14
-- effective review: 109
-- effective exclude: 25
+- effective review: 108
+- effective exclude: 24
 
 ## INCLUDE (14)
 
@@ -112,11 +112,11 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Project Administrator
-company: University Hospitals Sussex NHS Foundation Trust (279)
-location: Brighton, BN2 5BE
-source: NHS Jobs
-job_id: nhs-5705725
+title: Property & Lettings Administrator
+company: Office Angels - Agency - Permanent
+location: Hove
+source: JobG8
+job_id: jobg8-23643_225749024
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -124,11 +124,11 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Property & Lettings Administrator
-company: Office Angels - Agency - Permanent
-location: Hove
+title: Purchase Ledger Administrator
+company: First Recruitment Services - Agency - Temporary
+location: Brighton
 source: JobG8
-job_id: jobg8-23643_225749024
+job_id: jobg8-23643_225828831
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -192,7 +192,7 @@ job_id: nhs-5704086
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (109)
+## REVIEW (108)
 
 ---
 action: 
@@ -534,18 +534,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2134374
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Creative Content Lead
 company: Travail Employment Group - Agency - Permanent
 location: Sussex
@@ -810,18 +798,6 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Internal Sales Executive
-company: Wise Monkey Recruitment ltd - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225816202
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Leasehold Enfranchisement Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Sussex
@@ -894,6 +870,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing & Membership Manager
+company: First Recruitment Services - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225830529
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive
 company: GM Legal Recruitment - Agency - Permanent
 location: Sussex
@@ -906,11 +894,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Graduate
-company: Me Learning - Agency - Permanent
+title: Marketing Manager
+company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225730465
+job_id: jobg8-23643_225830544
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1314,11 +1302,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Officer
-company: Tate - Agency - Temporary
+title: Regional marketing Manager
+company: Tria - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225726103
+job_id: jobg8-23643_225830459
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1424,7 +1412,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Brighton & Hove catchment rule matched; local review required.
@@ -1498,11 +1486,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2269616
+job_id: jobg8-2276700
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -1537,18 +1525,6 @@ company: The Recruitment Lab - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225751541
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Fox and Sons - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-2201378
 reason: Separate employment market.
 ---
 

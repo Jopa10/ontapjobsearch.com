@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 18
-- automatic exclude: 24
+- automatic review: 15
+- automatic exclude: 23
 - effective include: 12
-- effective review: 18
-- effective exclude: 24
+- effective review: 15
+- effective exclude: 23
 
 ## INCLUDE (12)
 
@@ -76,6 +76,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Education Delivery Coordinator, Alternative Provision North Yorkshire (new Yorkshire office opening early 2027)
+company: AP Education - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225828358
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Employment & Litigation Legal Assistant
 company: Search Consultancy Ltd - Agency - Permanent
 location: York
@@ -93,18 +105,6 @@ company: Michael Page - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225827394
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Assistant (Maternity Cover)
-company: Joseph Rowntree - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225730066
 reason: Approved York catchment.
 ---
 
@@ -168,19 +168,7 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (18)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-2272349
-reason: No approved York catchment rule matched; local review required.
----
+## REVIEW (15)
 
 ---
 action: 
@@ -330,18 +318,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-23643_225729465
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Coordinator
 company: Travail Employment Group - Agency - Permanent
 location: Knaresborough
@@ -374,19 +350,7 @@ job_id: jobg8-2272372
 reason: No approved York catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary finance assistant
-company: Capital Outsourcing Group Ltd - Agency - Temporary
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225825278
-reason: No approved York catchment rule matched; local review required.
----
-
-## EXCLUDE (24)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -398,6 +362,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2207066
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225830047
+reason: Separate employment market.
 ---
 
 ---
@@ -464,36 +440,12 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Family Legal Secretary - Harrogate
-company: qed legal - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2133535
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Administrator
 company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2268077
 reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Legal Assistant
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-2247374
-reason: Separate employment market.
 ---
 
 ---

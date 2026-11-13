@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 13
 - automatic review: 32
-- automatic exclude: 53
-- effective include: 12
+- automatic exclude: 54
+- effective include: 13
 - effective review: 32
-- effective exclude: 53
+- effective exclude: 54
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX3 7LD
 source: NHS Jobs
 job_id: nhs-5715496
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Officer
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
+location: Oxford
+source: JobG8
+job_id: jobg8-23643_225827664
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -169,6 +181,18 @@ reason: Approved conservative Oxford launch catchment.
 ---
 
 ## REVIEW (32)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Manager
+company: Tech Connect Group - Agency - Permanent
+location: Hook Norton
+source: JobG8
+job_id: jobg8-23643_225831592
+reason: No approved Oxford catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -342,18 +366,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Legal Secretary / Assistant - Residential Conveyancing
-company: 360 Recruitment - Agency - Permanent
-location: Witney
-source: JobG8
-job_id: jobg8-2135114
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Litigation Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Abingdon
@@ -414,11 +426,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Repairs Planner
-company: Daniel Owen Ltd - Agency - Contract
-location: Thame
+title: Recruitment Coordinator
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
+location: Kidlington
 source: JobG8
-job_id: jobg8-23643_225750549
+job_id: jobg8-23643_225828894
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -426,11 +438,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: MP Jobs Ltd t/a MP Recruitment Group - Agency - Permanent
-location: Abingdon
+title: Repairs Planner
+company: Daniel Owen Ltd - Agency - Contract
+location: Thame
 source: JobG8
-job_id: jobg8-23643_225724950
+job_id: jobg8-23643_225750549
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -510,6 +522,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Technical Administrator
+company: Cameo Consultancy - Agency - Permanent
+location: Banbury
+source: JobG8
+job_id: jobg8-23643_225764102
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Technical Publications Administrator
 company: Planet Recruitment - Agency - Permanent
 location: Abingdon
@@ -534,18 +558,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Finance Manager
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
-location: Witney
-source: JobG8
-job_id: jobg8-23643_225727890
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Ward Clerk
 company: Oxford University Hospitals NHS Foundation Trust
 location: Banbury, OX16 9AL
@@ -554,7 +566,7 @@ job_id: nhs-5707703
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (53)
+## EXCLUDE (54)
 
 ---
 action: 
@@ -673,6 +685,18 @@ company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2273661
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Conveyancing Paralegal
+company: Reed - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2273626
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -800,6 +824,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Learning and Development Coordinator
+company: Cameo Consultancy - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225830996
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Legal Assistant - Conveyancing
 company: Berry Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -817,18 +853,6 @@ company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2273951
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing and Communications Manager
-company: Abingdon School - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2137594
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -1112,11 +1136,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Operations Administrator
-company: Glen Callum Associates Ltd - Agency - Permanent
+title: Sales Administrator
+company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225724962
+job_id: jobg8-23643_225831982
 reason: Broad county location; not Oxford-city evidence.
 ---
 
