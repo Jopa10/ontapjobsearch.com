@@ -3,14 +3,26 @@
 review_date: 2026-11-13
 
 - Open Administrative & Clerical rows reviewed: 2140
-- Auto/remembered selected: 359
-- Selected HC Tier A: 186
+- Auto/remembered selected: 358
+- Selected HC Tier A: 185
 - Selected HC Tier B: 173
-- POSS awaiting decision: 1681
+- POSS awaiting decision: 1682
 - Excluded: 0
 - HARD_PASS: 100
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B37 7GN | Negotiable | Client Care Coordinator (Birmingham)
+source_job_id: 5726420
+title: Client Care Coordinator (Birmingham)
+employer: MSI Reproductive Choices
+region: West Midlands - Birmingham & Solihull
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0539-26-0262
+factual_fingerprint: 85688d916b2d18b414eb792356f5c821bf3ce582bcb8d8a3b0b33e411a0e1784
+---
 
 ---
 action:
