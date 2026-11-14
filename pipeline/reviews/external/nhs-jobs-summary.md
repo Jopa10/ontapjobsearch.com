@@ -2,15 +2,39 @@
 
 review_date: 2026-11-14
 
-- Open Administrative & Clerical rows reviewed: 2163
+- Open Administrative & Clerical rows reviewed: 2162
 - Auto/remembered selected: 355
 - Selected HC Tier A: 186
 - Selected HC Tier B: 169
-- POSS awaiting decision: 1712
+- POSS awaiting decision: 1711
 - Excluded: 0
 - HARD_PASS: 96
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Cambridgeshire | Peterborough, PE2 8AL | £25000.00 to £26500.00 | Service Coordinator- Hospital at home
+source_job_id: 5728276
+title: Service Coordinator- Hospital at home
+employer: Greater Peterborough Network
+region: Cambridgeshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0088-26-0028
+factual_fingerprint: 44457f98b6b7d315bc8f7591336f26bfb83b3b5865ad951a09d553fb8210f2be
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M1 3BN | £1.00 to £300.00 | Specialist Committee Member (Quality Standards) Anxiety disorders
+source_job_id: 5726608
+title: Specialist Committee Member (Quality Standards) Anxiety disorders
+employer: NICE – The National Institute for Health and Care Excellence
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/G9907-26-0142
+factual_fingerprint: 7e303e646982851d2cc195275a63d735956eb17fcb33c9794c1d6b1471f61747
+---
 
 ---
 action:
@@ -7318,18 +7342,6 @@ region: Oxfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1329
 factual_fingerprint: 51a7ac33c2950accd49290cbc6932036d888f05f186023ada868df9361267a9c
----
-
----
-action:
-POSS | NHS Jobs | Shropshire | Shrewsbury, SY1 3RG | £49387.00 to £56515.00 | Support Services Delivery Manager
-source_job_id: 5719114
-title: Support Services Delivery Manager
-employer: Shropshire Community Health NHS Trust
-region: Shropshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9825-26-0359
-factual_fingerprint: 49e6c98b2da30edd5ab806f261f2f3d399ac55e4b50e07d0c9506ce73fb51342
 ---
 
 ---
@@ -16214,18 +16226,6 @@ factual_fingerprint: eb02ca1267e3d8d3f0bd688a5d4bfa512bd0ad9c16f6f8983aaab3bceb5
 
 ---
 action:
-POSS | NHS Jobs | — | Ashton Under Lynne, OL6 9RW | £49387.00 to £56515.00 | Deputy Directorate Manager
-source_job_id: 5704007
-title: Deputy Directorate Manager
-employer: Tameside and Glossop Integrated Care NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9245-26-0458
-factual_fingerprint: a72e9d90fda0952ed70f4161f5df092c00d8c33d6d74092930804a0fc0d2a586
----
-
----
-action:
 POSS | NHS Jobs | Norfolk | King’s Lynn, PE31 6BH | Negotiable | Head of Finance
 source_job_id: 5704031
 title: Head of Finance
@@ -17050,18 +17050,6 @@ region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0626
 factual_fingerprint: eb81610cfdd48feffae902e5585d05d8ff34c0639f78fc00150f5266a113c5f6
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - East | Hull, HU3 4AE | £28392.00 to £31157.00 | Marketing and Communications Assistant
-source_job_id: 5701718
-title: Marketing and Communications Assistant
-employer: City Health Care Partnership CIC
-region: Yorkshire - East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0350
-factual_fingerprint: 533e1715d17946f4746f8850775039ae6756478927176fcf971dc8c68c88c42a
 ---
 
 ---

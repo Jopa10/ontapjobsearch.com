@@ -50,31 +50,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2247193",
-    "title": "Bookkeeper",
-    "company": "Reed - Agency - Permanent",
-    "location": "Preston",
-    "region": "Lancashire - Central",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Competitive",
-    "posted_date": "",
-    "description": "Bookkeeper\n\nRemote 16-24 Hours per Week Competitive Salary DOE\n\nJoin a Growing Business in a Flexible, Part-Time Bookkeeping Role\n\nReed Accountancy are delighted to be recruiting for an experienced and proactive Bookkeeper on behalf of a growing business operating within the manufacturing and construction support sector.\n\nThis is an exciting opportunity to join a forward-thinking company in a flexible, fully remote position, with the potential for office-based working as the business continues to expand. Reporting directly to the leadership team, you'll play a key role in maintaining accurate financial records, supporting month-end processes, and delivering valuable financial information to support business decisions.\n\nBenefits\n- Fully remote working initially\n- Flexible part-time hours (16-24 hours per week)\n- Competitive salary dependent on experience\n- Opportunity to join a growing and ambitious business\n- Varied role with autonomy and ownership\n- Supportive and collaborative working environment\n\nKey Responsibilities\n- Planning and raising orders for products and materials\n- Processing purchase invoices and supplier payments\n- Managing purchase and sales ledgers\n- Performing regular account reconciliations and resolving discrepancies\n- Completing bank reconciliations and supporting cash management activities\n- Assisting with the preparation of monthly management accounts\n- Supporting month-end procedures, including journals where required\n- Monitoring expenditure and maintaining accurate financial records\n- Liaising with suppliers and resolving account queries\n- Producing financial reports and information for management\n- Supporting the ongoing development and improvement of finance processes\n- Ensuring compliance with internal controls and financial procedures\n\nTo be successful in this role, you will have:\n- Previous experience as a Bookkeeper, Accounts Assistant, Finance Officer, or similar finance professional\n- Strong bookkeeping and reconciliation experience\n- Experience assisting with or preparing management accounts\n- Confident working knowledge of Xero (essential)\n\nDesirable Experience\n- Experience within manufacturing, construction, engineering, or a related sector\n- Knowledge of stock-based businesses and supplier management processes\n\nApply Now\n\nIf you're looking for a flexible part-time opportunity where you can take ownership of a varied finance role and contribute to the growth of an ambitious business, we'd love to hear from you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eW9k8KgTdhNK3ja0E0QvMm3SlwuFLDhCj",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Reed",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2232915",
     "title": "Service Advisor",
     "company": "The Solution Auto - Agency - Permanent",
@@ -121,6 +96,31 @@
     "advertiser_name": "AFR Consulting",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "2297583",
+    "title": "Bookkeeper",
+    "company": "Reed - Agency - Permanent",
+    "location": "Preston",
+    "region": "Lancashire - Central",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Competitive",
+    "posted_date": "",
+    "description": "Bookkeeper\n\nRemote 16-24 Hours per Week Competitive Salary DOE\n\nJoin a Growing Business in a Flexible, Part-Time Bookkeeping Role\n\nReed Accountancy are delighted to be recruiting for an experienced and proactive Bookkeeper on behalf of a growing business operating within the manufacturing and construction support sector.\n\nThis is an exciting opportunity to join a forward-thinking company in a flexible, fully remote position, with the potential for office-based working as the business continues to expand. Reporting directly to the leadership team, you'll play a key role in maintaining accurate financial records, supporting month-end processes, and delivering valuable financial information to support business decisions.\n\nBenefits\n- Fully remote working initially\n- Flexible part-time hours (16-24 hours per week)\n- Competitive salary dependent on experience\n- Opportunity to join a growing and ambitious business\n- Varied role with autonomy and ownership\n- Supportive and collaborative working environment\n\nKey Responsibilities\n- Planning and raising orders for products and materials\n- Processing purchase invoices and supplier payments\n- Managing purchase and sales ledgers\n- Performing regular account reconciliations and resolving discrepancies\n- Completing bank reconciliations and supporting cash management activities\n- Assisting with the preparation of monthly management accounts\n- Supporting month-end procedures, including journals where required\n- Monitoring expenditure and maintaining accurate financial records\n- Liaising with suppliers and resolving account queries\n- Producing financial reports and information for management\n- Supporting the ongoing development and improvement of finance processes\n- Ensuring compliance with internal controls and financial procedures\n\nTo be successful in this role, you will have:\n- Previous experience as a Bookkeeper, Accounts Assistant, Finance Officer, or similar finance professional\n- Strong bookkeeping and reconciliation experience\n- Experience assisting with or preparing management accounts\n- Confident working knowledge of Xero (essential)\n\nDesirable Experience\n- Experience within manufacturing, construction, engineering, or a related sector\n- Knowledge of stock-based businesses and supplier management processes\n\nApply Now\n\nIf you're looking for a flexible part-time opportunity where you can take ownership of a varied finance role and contribute to the growth of an ambitious business, we'd love to hear from you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?KY4ye8HUBXz%2bhvd5tw2NTjonCiLYQJNTc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Reed",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -315,7 +315,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2412-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2412-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5726223",
@@ -333,7 +337,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9438-26-0633",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9438-26-0633",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5723698",
@@ -351,6 +359,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2494-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2494-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -2128,31 +2128,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225826691",
-    "title": "Front of House Property Admin",
-    "company": "Integro People Limited - Agency - Permanent",
-    "location": "County Durham",
-    "region": "North East - County Durham & Darlington/Hartlepool",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "29000",
-    "salary_max": "30000",
-    "salary_text": "£29000 - £30000 per year",
-    "posted_date": "",
-    "description": "Front Of House Property Admin\n29000\nWest London\n\nOur client is a property management organisation seeking a Front of House Property Admin to join their team on a permanent basis. On a salary of 29000, you'll be the first point of contact for residents, contractors, and visitors, ensuring the property runs smoothly, securely, and to a high standard every single day.\n- Hands-on responsibility for site maintenance, health and safety compliance, and day-to-day reactive maintenance coordination\n\nPreferred Requirements\n- Proven experience in property management, facilities, or front-of-house operations\n- Strong knowledge of access control systems, CCTV monitoring, and building security protocols\n- Excellent customer service skills with the ability to handle resident enquiries, complaints, and inductions professionally\n- Competence in health and safety compliance, fire safety procedures, and site maintenance coordination\n- Comfortable working independently on a lone worker basis and managing multiple priorities across a busy shift\n\nDisclaimer\nIntegro Partners Ltd operates as an employment agency and employment business. No terminology in this advert is intended to discriminate on the grounds of age or experience, and we confirm that we are happy to accept applications from persons of any age or experience for this role",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mOAT%2fTh%2bM1MMudWwtbRJ%2fmB6559yjwGmu",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Integro People Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225389742",
     "title": "Business Support Administrator",
     "company": "Wolviston Management Services - Agency - Permanent",
@@ -2553,31 +2528,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108230860",
-    "title": "Recruitment & People Systems Coordinator",
-    "company": "Northern Recruitment Group Limited - Agency - Permanent",
-    "location": "Tyne And Wear",
-    "region": "North East - Tyneside, Wearside & Northumberland",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "16",
-    "salary_max": "16",
-    "salary_text": "£16 per hour",
-    "posted_date": "",
-    "description": "We are delighted to be recruiting for a Recruitment & People Systems Coordinator to join a busy and supportive People & Culture team within a well-established organisation.\n\nThis is a fantastic opportunity for an organised and proactive HR or recruitment professional who enjoys working across recruitment, HR systems and people administration click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?BLJDB6rXdtMkxbA5cYpscpXNe2yJrOk5k",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Northern Recruitment Group Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225781278",
     "title": "Typing Coordinator",
     "company": "Spire Healthcare - Company - Permanent",
@@ -2793,7 +2743,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4678-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4678-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5721195",
@@ -2811,7 +2765,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-CMAC-1126-28",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-CMAC-1126-28",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5718143",
@@ -2829,7 +2787,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1440",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1440",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5717470",
@@ -2847,25 +2809,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1413",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1413",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5706264",
-    "source": "NHS Jobs",
-    "title": "Administration Assistant",
-    "company": "Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust",
-    "advertiser_name": "Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust",
-    "location": "Newcastle upon Tyne, NE2 1QE",
-    "region": "North East",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-11-04T10:56:16.281112811",
-    "closing_date": "2026-11-18",
-    "description": "Applications are invited from qualified and experienced administration candidates to join our busy administration team. We currently have a full time vacancy for a Band 2 Administration Assistant with the Children and Young People's Service (CYPS) based at Benton House, 136 Sandyford Road, Newcastle upon Tyne NE2 1QE. In times of service delivery need the successful candidate must be willing to travel to and work at the CYPS office based at Bensham Hospital, Fontwell Drive Gateshead NE8 4YL. Working hours are (37.5hrs working Monday to Friday 9am to 5pm / 8am to 8pm on a rota basis - will be discussed at interview) This is a very busy service and the successful post holder will be a member of the admin team to support the multi-disciplinary clinical team to provide a comprehensive, high quality administrative service at all times. The post holder must facilitate excellent customer service and be confident in dealing with service users face to face as well as on the telephone. Candidates must be adaptable, work well as a team and provide a positive patient experience which are essential skills for the role of Administration Assistant. Candidates will be responsible for administrative functions and must have demonstrable recent 12 month experienceincluding, but not limited, to the following: ( see job description for further information): Experience working in a customer / patient focused environment (face to face and telephone) General administrative duties Fast, accurate typing/keyboard skills Typing letters/reports Ability to be self-directed, motivated and be able to contribute positively within a team Ability to change tasks at short notice Reliable and punctual The post holder will be expected to demonstrate flexibility in the role The post holder will be able to demonstrate the ability to deal with possible exposure to highly distressing or highly emotional circumstances and will be expected to participate on all relevant training courses appropriate to the role You should currently hold the required level of qualifications, as outlined in the Essential Criteria of the Personal Specification. If you do not meet this criteria you will not be shortlisted. Please find attached job description for full details. Advertising date : 4th November2026 Closing date : 18th November2026 We welcome your application. Please note - this vacancy may close early once a suitable number of applications are received.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-1090",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-1090",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-3828022",
@@ -2883,7 +2831,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2556-28-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2556-28-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5707294",
@@ -2901,7 +2853,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1393",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1393",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5723467",
@@ -2919,7 +2875,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4820-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4820-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5717699",
@@ -2937,7 +2897,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D9134-26-0087",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D9134-26-0087",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5717516",
@@ -2955,7 +2919,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1415",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1415",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5717493",
@@ -2973,7 +2941,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1414",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1414",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5717692",
@@ -2991,7 +2963,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-1066",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-1066",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5711910",
@@ -3009,7 +2985,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-1056",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-1056",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5707453",
@@ -3027,7 +3007,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5254-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5254-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5705569",
@@ -3045,6 +3029,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1381",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1381",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

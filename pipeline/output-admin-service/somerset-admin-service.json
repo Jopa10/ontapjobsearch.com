@@ -203,31 +203,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225776817",
-    "title": "Client Support Executive",
-    "company": "Meridian Business Support - Agency - Permanent",
-    "location": "Somerset",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "32000",
-    "salary_text": "£30000 - £32000 per year",
-    "posted_date": "",
-    "description": "We are currently recruiting on behalf of our client for a Client Support Executive to join their team on a permanent basis.\nThis is an excellent opportunity for someone with strong customer service, administration and organisational skills who enjoys working in a busy, customer-focused environment.\nWorking closely with the Client and Growth teams, you will play a key role in supporting customer relationships, coordinating appointments, managing orders and assisting with sales activities. You will help ensure customers receive an excellent level of service while supporting the wider team in achieving its business and sales objectives.\nThe role would suit someone who is proactive, confident communicating with customers and colleagues, and able to manage a varied workload with accuracy and attention to detail.\nKey Responsibilities\n- Coordinate customer and prospective client appointments, meetings and diaries.\n- Provide professional and customer-focused support by telephone, email and online.\n- Respond to customer enquiries, resolve queries and help ensure a positive customer experience.\n- Support the sales process by following up on quotations and prospective business opportunities.\n- Process sales orders and raise purchase orders with suppliers.\n- Obtain supplier quotations and prepare customer quotations for review and issue.\n- Maintain accurate customer records, databases and order management systems.\n- Monitor orders and customer queries, ensuring information is kept up to date.\n- Provide administrative support to the Client Relations Manager, including diary management, correspondence and meeting preparation.\n- Arrange travel and itineraries where required.\n- Assist with cross-selling opportunities and support the wider team in achieving sales targets.\n\nAbout You\nThe successful candidate will ideally have:\n- Previous experience in a customer service, sales support or administrative role.\n- Excellent verbal and written communication skills.\n- Strong organisational skills and the ability to prioritise a varied workload.\n- A customer-first approach, with a friendly and professional manner.\n- Good attention to detail and the ability to maintain accurate records.\n- Confidence handling customer enquiries and resolving issues effectively.\n- A proactive approach, with the ability to work independently and as part of a team.\n- The ability to remain positive, resilient and professional in a busy environment.\n- Good IT skills, including Microsoft Office applications such as Excel and Outlook.\n\nExperience with CRM or ERP systems would be beneficial, although a willingness to learn new systems is important.\nWhat Our Client Offers\n- A permanent position with an established business.\n- The opportunity to develop your customer service, sales support and administrative skills.\n- A varied role working closely with customer-facing and sales teams.\n- The opportunity to contribute to customer satisfaction and business growth.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nU7c8AUWcSt7jsLMrg7NbNYQsdQnIktYt",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Meridian Business Support",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2204335",
     "title": "Receptionist",
     "company": "Cygnet - Agency - Permanent",
@@ -818,7 +793,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2380",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2380",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5725416",
@@ -836,7 +815,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1677-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1677-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5723322",
@@ -854,7 +837,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5697637",
@@ -872,7 +859,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1060-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1060-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5692196",
@@ -890,7 +881,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1198-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1198-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5688635",
@@ -908,6 +903,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1537-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1537-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
