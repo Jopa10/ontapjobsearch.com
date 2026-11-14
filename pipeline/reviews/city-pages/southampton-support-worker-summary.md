@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 16
-- automatic exclude: 6
-- effective include: 4
-- effective review: 16
-- effective exclude: 6
+- automatic include: 3
+- automatic review: 14
+- automatic exclude: 5
+- effective include: 3
+- effective review: 14
+- effective exclude: 5
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Assistant
-company: Hamberley Care Management Limited - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225761993
-reason: Approved Southampton catchment.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -72,7 +60,7 @@ job_id: jobg8-23643_225813909
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (14)
 
 ---
 action: 
@@ -83,18 +71,6 @@ company: Southern Housing - Agency - Permanent
 location: Isle of Wight
 source: JobG8
 job_id: jobg8-108270897
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Assistant
-company: Care First UK Recruitment Solutions - Agency - Permanent
-location: Totton
-source: JobG8
-job_id: jobg8-23643_225760935
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -150,18 +126,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Female Support Worker
-company: Choice Support - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225819638
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Health Care Assistants (HCA)
 company: Varang Recruitment - Agency - Permanent
 location: Hampshire
@@ -180,18 +144,6 @@ location: Lyndhurst
 source: JobG8
 job_id: jobg8-23643_223548398
 reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Home Care Assistant - Complex Care Adults
-company: Nurseplus UK Ltd - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225730890
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -266,7 +218,19 @@ job_id: jobg8-23643_225653471
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Waking Night Childrens Home Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Romsey
+source: JobG8
+job_id: jobg8-1401786329
+reason: Broad location; review before city inclusion.
+---
+
+## EXCLUDE (5)
 
 ---
 action: 
@@ -313,18 +277,6 @@ company: Resilience Personnel Ltd - Agency - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_225779158
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Night Care Assistant
-company: Hamberley Care Management Limited - Company - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-23643_225761985
 reason: Separate employment market.
 ---
 

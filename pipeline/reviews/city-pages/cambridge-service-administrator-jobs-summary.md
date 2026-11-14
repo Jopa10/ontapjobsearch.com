@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 51
+- Effective included jobs: 49
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 51
+- automatic include: 49
 - automatic review: 18
-- automatic exclude: 30
-- effective include: 51
+- automatic exclude: 27
+- effective include: 49
 - effective review: 18
-- effective exclude: 30
+- effective exclude: 27
 
-## INCLUDE (51)
+## INCLUDE (49)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2277289
+reason: Approved conservative Cambridge launch catchment.
+---
 
 ---
 action: 
@@ -148,18 +160,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Digital Marketing and Sales
-company: Interaction Recruitment - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225744955
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Digital Marketing Officer
 company: CPSL Mind - Agency - Permanent
 location: Cambridgeshire
@@ -189,18 +189,6 @@ company: EA First - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225759112
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Experienced Patent Secretary (To &;50,000!) - Cambridge/Hybrid
-company: Dawn Ellmore Employment Agency - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2144050
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -256,23 +244,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: The One Group - Agency - Permanent
+title: Italian speaking Credit Controller
+company: Language Business - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2142657
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Front of House Porter/Security
-company: Select Recruitment Specialists Ltd - Agency - Contract
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225733234
+job_id: jobg8-23643_225807184
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -281,10 +257,22 @@ action:
 decision: include
 automatic_decision: include
 title: Italian speaking Credit Controller
-company: Language Business - Agency - Permanent
-location: Cambridge
+company: The Language Business - Language Recruitment Specialists - Agency - Permanent
+location: Cambridgeshire
 source: JobG8
-job_id: jobg8-23643_225807184
+job_id: jobg8-2228420
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal PA
+company: Owen Reed - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2230391
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -345,18 +333,6 @@ company: Infinity Recruitment Consultancy Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225795756
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Administrator (IT)
-company: The Perse School - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225748756
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -544,18 +520,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Services Administrator
-company: Red House Surgery
-location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
-source: NHS Jobs
-job_id: nhs-5698853
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Admin
 company: Portfolio Payroll Limited - Agency - Permanent
 location: Cambridgeshire
@@ -592,6 +556,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger Clerk
+company: LHH Recruitment Solutions - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2220704
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchasing Assistant
 company: Liz Orpwood Recruitment Ltd - Agency - Permanent
 location: Cambridge
@@ -617,10 +593,10 @@ action:
 decision: include
 automatic_decision: include
 title: Senior Marketing Executive/Marketing Manager
-company: Pure Resourcing Solutions Limited - Agency - Permanent
+company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-23643_225830190
+job_id: jobg8-2280484
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -628,11 +604,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Telesales Executive
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Cambridge
+title: Senior Marketing Executive/Marketing Manager
+company: Pure Resourcing Solutions Limited - Agency - Permanent
+location: Cambridgeshire
 source: JobG8
-job_id: jobg8-23643_225735950
+job_id: jobg8-23643_225830190
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -854,7 +830,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -920,11 +896,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Credit Control Admin
+company: Robert Half - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2220802
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Control Administrator
 company: The Collective Network Limited - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225807363
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Control Administrator
+company: The One Group - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2289970
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Broster Buchanan - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2287609
 reason: Separate employment market.
 ---
 
@@ -956,18 +968,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Services Administrator - Part Time
-company: Barker Ross - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225739330
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Document Controller
 company: Astute People - Agency - Permanent
 location: Peterborough
@@ -980,11 +980,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Administrator
-company: Interaction Recruitment - Agency - Temporary
+title: E-Commerce Manager
+company: ALH Recruitment Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-23643_225750441
+job_id: jobg8-2280348
 reason: Separate employment market.
 ---
 
@@ -1052,18 +1052,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist/ Administrator
-company: Dr Laliwala and Partners
-location: Peterborough, PE1 4FS
-source: NHS Jobs
-job_id: nhs-5668718
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Outside Account Manager
 company: The Work Shop - Agency - Permanent
 location: Peterborough
@@ -1076,23 +1064,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Outside Account Manager
-company: The Work Shop Resourcing Ltd - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225725165
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Payroll Coordinator
 company: MHA - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2240155
+job_id: jobg8-2286895
 reason: Separate employment market.
 ---
 
@@ -1104,43 +1080,7 @@ title: Purchase Ledger Clerk - 3 month FTC
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2257705
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Executive
-company: Interaction Recruitment - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225762952
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Executive
-company: Red Cannon Recruitment Ltd - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225397564
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Support Executive
-company: Strange and Wright Recruitment Partners LTD - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225739501
+job_id: jobg8-2289000
 reason: Separate employment market.
 ---
 

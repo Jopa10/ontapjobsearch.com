@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 18
 - automatic review: 2
-- automatic exclude: 98
+- automatic exclude: 100
 - effective include: 18
 - effective review: 2
-- effective exclude: 98
+- effective exclude: 100
 
 ## INCLUDE (18)
 
@@ -76,11 +76,11 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Construction Quality Administrator
-company: Sustainable Building Services - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225730944
+title: Business Support Officer
+company: Coventry and Warwickshire Partnership Trust
+location: Coventry, CV1 4FS
+source: NHS Jobs
+job_id: nhs-5726680
 reason: Approved Coventry catchment.
 ---
 
@@ -105,6 +105,18 @@ company: Manpower - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-2190045
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-2225334
 reason: Approved Coventry catchment.
 ---
 
@@ -184,18 +196,6 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Residential Conveyancing Paralegal
-company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225740090
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Administrator
 company: Metalis Recruitment Group - Agency - Permanent
 location: Coventry
@@ -208,11 +208,11 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Supply Chain Operations Coordinator
-company: Major Recruitment Coventry - Agency - Permanent
+title: Senior Accounts Payable Assistant
+company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-23643_225792003
+job_id: jobg8-2227034
 reason: Approved Coventry catchment.
 ---
 
@@ -220,11 +220,11 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Technical Customer Support Coordinator
-company: Adecco - Agency - Permanent
+title: Supply Chain Operations Coordinator
+company: Major Recruitment Coventry - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-23643_225744797
+job_id: jobg8-23643_225792003
 reason: Approved Coventry catchment.
 ---
 
@@ -247,10 +247,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Administrator
-company: Workforce Staffing Ltd - Agency - Permanent
+company: FindCore - Agency - Permanent
 location: Studley
 source: JobG8
-job_id: jobg8-23643_225799801
+job_id: jobg8-2224121
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
@@ -258,15 +258,15 @@ reason: No approved Coventry catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Administration Assistants
-company: Hiringpeople.co.uk - Agency - Permanent
-location: Southam
+title: Accounts Administrator
+company: Workforce Staffing Ltd - Agency - Permanent
+location: Studley
 source: JobG8
-job_id: jobg8-23643_225745080
+job_id: jobg8-23643_225799801
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (98)
+## EXCLUDE (100)
 
 ---
 action: 
@@ -277,18 +277,6 @@ company: Debbie Burbage Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225806319
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Michael Page - Agency - Contract
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225742987
 reason: Separate employment market.
 ---
 
@@ -332,6 +320,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Accounts Assistant
+company: TMR Group Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2225863
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Accounts Payable
 company: 3 Point Recruitment - Agency - Permanent
 location: Warwickshire
@@ -349,6 +349,18 @@ company: Barchester Healthcare - Company - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225756406
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: South Warwickshire University NHS Foundation Trust
+location: Warwick, CV34 5BW
+source: NHS Jobs
+job_id: nhs-5722009
 reason: Separate employment market.
 ---
 
@@ -416,30 +428,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: The Job People - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225739713
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator - GAP Claims Assessment
-company: SVB Solutions - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225731383
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Billing Admin - Immediate Start
 company: Manpower - Agency - Permanent
 location: Warwickshire
@@ -488,11 +476,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: BMW Accounts Assistant
+company: Sytner Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2218020
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: BMW Service Advisor
 company: Sytner - Company - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225795589
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: BMW Service Advisor
+company: Sytner Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2227469
 reason: Separate employment market.
 ---
 
@@ -552,7 +564,7 @@ title: Commercial Property Paralegal
 company: The Eventus Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2258099
+job_id: jobg8-2289707
 reason: Separate employment market.
 ---
 
@@ -636,7 +648,7 @@ title: Credit Controller
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2256382
+job_id: jobg8-2286920
 reason: Separate employment market.
 ---
 
@@ -716,18 +728,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: Brellis Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225748714
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor - FULL TIME
 company: Adecco - Agency - Permanent
 location: Warwick
@@ -776,11 +776,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Dealership Service Advisor
-company: KPI People Ltd - Agency - Temporary
+title: Document Controller
+company: Stepnell Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225733770
+job_id: jobg8-23643_225640022
 reason: Separate employment market.
 ---
 
@@ -788,11 +788,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Document Controller
-company: Stepnell Ltd - Agency - Permanent
-location: Warwickshire
+title: Employment Law Paralegal
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Leamington Spa
 source: JobG8
-job_id: jobg8-23643_225640022
+job_id: jobg8-2286432
 reason: Separate employment market.
 ---
 
@@ -817,6 +817,18 @@ company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-23643_225765982
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Administrator
+company: 3 Point Recruitment - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-2229141
 reason: Separate employment market.
 ---
 
@@ -932,6 +944,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Immediate Start Payroll Clerk
+company: Mitchell Adam - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2283858
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Interim Supporter Experience / Customer service Support
 company: The Talent Set - Agency - Permanent
 location: Warwickshire
@@ -980,18 +1004,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Logistics Administrator
-company: EA First - Agency - Permanent
-location: Rugby
-source: JobG8
-job_id: jobg8-23643_225730774
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Logistics Coordinator
 company: MorePeople - Agency - Permanent
 location: Warwickshire
@@ -1016,35 +1028,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing Assistant
+company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2218087
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Executive
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2159396
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Manager
-company: ChilliMint (Europe) Limited - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225760687
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Manager (French Fluent Speaker)
-company: ChilliMint (Europe) Limited - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225760700
 reason: Separate employment market.
 ---
 
@@ -1088,11 +1088,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part Time Administrator
-company: Provit Recruitment - Agency - Permanent
+title: Payroll Administrator
+company: 3 Point Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225745042
+job_id: jobg8-2217524
 reason: Separate employment market.
 ---
 
@@ -1105,6 +1105,18 @@ company: Orbit Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225826435
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Coordinator
+company: Owen Daniels - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2272415
 reason: Separate employment market.
 ---
 
@@ -1141,6 +1153,30 @@ company: Pontoon - Agency - Contract
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225775786
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: 3 Point Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2222107
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: 3 Point Recruitment - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2229140
 reason: Separate employment market.
 ---
 
@@ -1220,18 +1256,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Recruitment Partner
-company: Vectis Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225736964
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales Administrator
 company: Plus One Recruitment - Agency - Permanent
 location: Warwickshire
@@ -1258,9 +1282,21 @@ decision: exclude
 automatic_decision: exclude
 title: Sales Development Representative
 company: Plus One Recruitment - Agency - Permanent
-location: Stratford-upon-avon
+location: Stratford-Upon-Avon
 source: JobG8
 job_id: jobg8-23643_225772548
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Ledger Clerk
+company: Mitchell Adam - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2262797
 reason: Separate employment market.
 ---
 
@@ -1416,19 +1452,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2276703
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Warehouse Administrator/ In and Outbound
-company: Genesis Employment Services Ltd - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225803452
+job_id: jobg8-2284873
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 30
+- automatic include: 11
+- automatic review: 28
 - automatic exclude: 0
-- effective include: 10
-- effective review: 30
+- effective include: 11
+- effective review: 28
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -32,7 +32,7 @@ title: Bookkeeper
 company: Seymour John - Agency - Permanent
 location: Shrewsbury
 source: JobG8
-job_id: jobg8-2238198
+job_id: jobg8-2285845
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -57,6 +57,18 @@ company: Hays Accounts and Finance - Agency - Permanent
 location: Shrewsbury
 source: JobG8
 job_id: jobg8-23643_225788411
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-2219320
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -144,7 +156,7 @@ job_id: nhs-5719661
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (28)
 
 ---
 action: 
@@ -154,7 +166,7 @@ title: Accounts Assistant
 company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2241448
+job_id: jobg8-2288799
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -167,6 +179,18 @@ company: Hays Accounts and Finance - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225775219
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant/ Sales Ledger
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-2232937
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -202,7 +226,7 @@ title: Brand Manager
 company: Muller UK & Ireland - Company - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2237567
+job_id: jobg8-2292511
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -215,6 +239,18 @@ company: Proactive Personnel Ltd - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225770486
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Childcare Legal Assistant
+company: G2 Legal Limited - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-2221308
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -286,7 +322,7 @@ title: Digital Marketing Executive
 company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2241411
+job_id: jobg8-2288630
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -330,18 +366,6 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Temporary
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225814754
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Prince Personnel Limited - Agency - Temporary
 location: Shropshire
@@ -359,18 +383,6 @@ company: KAG Recruitment Consultancy - Agency - Permanent
 location: Oswestry
 source: JobG8
 job_id: jobg8-23643_225765256
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Product & Brand Executive
-company: Berwick Care - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225741893
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -402,11 +414,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Adecco - Agency - Contract
+title: SAP Stock Control & Purchasing Coordinator
+company: SF Partners - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-23643_225740864
+job_id: jobg8-2226287
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -414,11 +426,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Stores Coordinator / Front Counter Support
-company: Pertemps Telford - Agency - Temporary
-location: Telford
+title: Social Media and Community Manager
+company: Muller UK & Ireland - Company - Permanent
+location: Shropshire
 source: JobG8
-job_id: jobg8-23643_225735083
+job_id: jobg8-2227561
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -443,30 +455,6 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225754538
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator ( Aviation)
-company: Rise Technical Recruitment - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225750867
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Records Administrator - MFTS
-company: Red Sky Personnel Ltd - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225739181
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

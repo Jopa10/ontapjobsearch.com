@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 54
+- automatic review: 65
 - automatic exclude: 0
 - effective include: 9
-- effective review: 54
+- effective review: 65
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -32,7 +32,7 @@ title: Bookkeeper
 company: Reed - Agency - Permanent
 location: Bournemouth
 source: JobG8
-job_id: jobg8-2255955
+job_id: jobg8-2285891
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -132,7 +132,7 @@ job_id: nhs-5706522
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (65)
 
 ---
 action: 
@@ -140,9 +140,21 @@ decision: review
 automatic_decision: review
 title: Account Manager
 company: Collaborate Recruitment - Agency - Permanent
-location: Broadstone
+location: Poole
 source: JobG8
-job_id: jobg8-23643_225761280
+job_id: jobg8-2220382
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2220843
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -178,7 +190,19 @@ title: Accounts Assistant
 company: Silcom Recruitment Limited - Agency - Permanent
 location: Christchurch
 source: JobG8
-job_id: jobg8-2258255
+job_id: jobg8-2290155
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant - Poole - up to &;28,000 + good bens
+company: Bond Williams - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-2274973
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -190,7 +214,19 @@ title: Accounts Assistant - Wareham - &;28-32K
 company: Bond Williams - Agency - Permanent
 location: Wareham
 source: JobG8
-job_id: jobg8-2240519
+job_id: jobg8-2287526
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-2225026
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +239,18 @@ company: Care UK - Company - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-108242620
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Dorset HealthCare University NHS Foundation Trust
+location: Wareham, BH20 4PP
+source: NHS Jobs
+job_id: nhs-5726997
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -227,6 +275,18 @@ company: CMA Recruitment Group - Agency - Contract
 location: Ferndown
 source: JobG8
 job_id: jobg8-23643_225775336
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: CMA Recruitment Group - Agency - Permanent
+location: Ferndown
+source: JobG8
+job_id: jobg8-2220509
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -282,6 +342,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Bookkeeper - Bournemouth - up to &;40,000
+company: Bond Williams - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2231155
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bureau Payroll Officer
 company: Trial Balance Consulting - Agency - Permanent
 location: Dorset
@@ -310,6 +382,18 @@ title: Credit Controller
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
+job_id: jobg8-2221373
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
 job_id: jobg8-23643_225790377
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
@@ -322,7 +406,7 @@ title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-2238162
+job_id: jobg8-2285832
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -366,11 +450,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Digital Marketing Executive
-company: Rubicon Recruitment - Agency - Permanent
+title: Document Administrator
+company: Randstad Construction and Property - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225747710
+job_id: jobg8-23643_225755741
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -378,11 +462,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Document Administrator
-company: Randstad Construction and Property - Agency - Permanent
+title: Finance Assistant
+company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225755741
+job_id: jobg8-2220951
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -450,6 +534,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Group Accounts Assistant - Bournemouth - &;29,400
+company: Bond Williams - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2231673
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HubSpot Funnel & Conversion Marketing Manager - Travel Franchise
 company: Recruitment Revolution - Agency - Permanent
 location: Dorset
@@ -467,30 +563,6 @@ company: Effective Recruitment Solutions Ltd - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225785254
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Internal Sales Executive
-company: The Work Shop Resourcing Ltd - Agency - Permanent
-location: Ferndown
-source: JobG8
-job_id: jobg8-23643_224829412
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Media Sales Executive
-company: Dovetail Recruitment Ltd - Agency - Permanent
-location: Ferndown
-source: JobG8
-job_id: jobg8-23643_225742169
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -522,11 +594,35 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Accounts Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2220547
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Marketing Executive
 company: Aspire Jobs - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225826692
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Administrator
+company: University Hospitals Dorset NHS Foundation Trust
+location: Poole, BH12 5AG
+source: NHS Jobs
+job_id: nhs-5726284
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -563,6 +659,18 @@ company: Morgan McKinley (South West) - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225762250
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2223726
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -618,11 +726,35 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing Administrator
-company: Team Jobs - Commercial - Agency - Permanent
+title: Purchase Ledger Clerk
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2274728
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Reed - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-23643_225795324
+job_id: jobg8-2220559
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Reed - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2277257
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

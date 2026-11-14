@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 22
+- automatic review: 23
 - automatic exclude: 0
 - effective include: 15
-- effective review: 22
+- effective review: 23
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -176,7 +176,7 @@ title: Payroll Administrator
 company: McLennan Knight Recruitment Limited - Agency - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2259115
+job_id: jobg8-2292069
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -204,19 +204,7 @@ job_id: jobg8-2249893
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (22)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Acorn by Synergie - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225731276
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
+## REVIEW (23)
 
 ---
 action: 
@@ -226,7 +214,7 @@ title: Accounts Assistant
 company: Adecco - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2238038
+job_id: jobg8-2285685
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -258,11 +246,23 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: Platinum Recruitment Group - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-2280481
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Clerk
 company: Dickson O&;Brien Associates - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2239775
+job_id: jobg8-2286307
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -275,6 +275,18 @@ company: System Recruitment - Agency - Permanent
 location: Middlewich
 source: JobG8
 job_id: jobg8-23643_225801237
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Officer
+company: Michael Page Finance - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-2290183
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

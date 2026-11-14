@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 15
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 0
-- effective review: 15
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (15)
+## REVIEW (16)
 
 ---
 action: 
@@ -78,6 +78,18 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: Fieldfisher - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2231809
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Administrator
 company: Reed - Agency - Permanent
 location: Larne
@@ -95,18 +107,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-23643_225830618
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225743179
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -143,6 +143,18 @@ company: Brook Street - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-23643_225830214
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Billing Assistant
+company: Fieldfisher - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2231139
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -202,7 +214,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2276698
+job_id: jobg8-2284868
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

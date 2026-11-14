@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 31
+- automatic review: 33
 - automatic exclude: 0
 - effective include: 5
-- effective review: 31
+- effective review: 33
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (33)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: TMR Group Ltd - Agency - Permanent
 location: Droitwich
 source: JobG8
 job_id: jobg8-2281842
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Administrator
+company: Flora Partners - Agency - Permanent
+location: Redditch
+source: JobG8
+job_id: jobg8-2228878
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +138,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Bell Cornwall Recruitment - Agency - Permanent
-location: Droitwich
+title: BMW Accounts Assistant
+company: Sytner Group - Agency - Permanent
+location: Worcestershire
 source: JobG8
-job_id: jobg8-23643_225732789
+job_id: jobg8-2218066
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -282,11 +294,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Night Transport Office Administrator
-company: Workforce Staffing Ltd - Agency - Permanent
+title: Operations Administrator
+company: Adecco - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-23643_225799806
+job_id: jobg8-23643_225785359
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -294,11 +306,23 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Operations Administrator
-company: Adecco - Agency - Permanent
+title: Payroll Administrator
+company: Flora Partners - Agency - Permanent
+location: Redditch
+source: JobG8
+job_id: jobg8-2228727
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Four Squared - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-23643_225785359
+job_id: jobg8-2230900
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -414,18 +438,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Jonathan Lee Recruitment Ltd - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225730839
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Administrator
 company: Rise Technical Recruitment - Agency - Permanent
 location: Worcestershire
@@ -455,6 +467,18 @@ company: SRG - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225774635
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Weekend Receptionist
+company: Listers - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-108307904
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

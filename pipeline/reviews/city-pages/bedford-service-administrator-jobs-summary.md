@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 28
+- automatic include: 12
+- automatic review: 27
 - automatic exclude: 0
-- effective include: 11
-- effective review: 28
+- effective include: 12
+- effective review: 27
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Administration Assistant
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: Bedford, MK42 0AH
-source: NHS Jobs
-job_id: nhs-5694372
+title: Accounts Payable Clerk - 6 Month FTC
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-2294869
 reason: Exact approved Bedford workplace.
 ---
 
@@ -45,6 +45,30 @@ company: Mixxos Group - Agency - Temporary
 location: Bedford
 source: JobG8
 job_id: jobg8-23643_225806189
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Logistics Coordinator
+company: Matchtech - Agency - Contract
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225832461
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Assistant
+company: Abacus Consulting - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-2266532
 reason: Exact approved Bedford workplace.
 ---
 
@@ -136,18 +160,6 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Executive (Manufacturing)
-company: RETAIND Ltd - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225756568
-reason: Exact approved Bedford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Support / Client Services
 company: Allstaff - Agency - Permanent
 location: Bedford
@@ -156,7 +168,19 @@ job_id: jobg8-23643_225782845
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (27)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Hello Recruitment Associates Ltd - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2287618
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -210,6 +234,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: Hello Recruitment Associates Ltd - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2216785
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Payable Assistant
 company: Movianto - Agency - Permanent
 location: Bedfordshire
@@ -227,18 +263,6 @@ company: Pressbeau - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225794752
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Support
-company: Transcomm Recruitment Ltd - Agency - Permanent
-location: Dunstable
-source: JobG8
-job_id: jobg8-23643_225742377
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -306,18 +330,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Internal Sales Executive
-company: Tate - Agency - Permanent
-location: Potton
-source: JobG8
-job_id: jobg8-23643_225741129
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Maintenance Planning Administrator
 company: Michael Page - Agency - Permanent
 location: Bedfordshire
@@ -366,6 +378,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Assistant
+company: NLB Solutions - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-2289400
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Shefford Health Centre
 location: Shefford, SG17 5FS
@@ -391,18 +415,6 @@ action:
 decision: review
 automatic_decision: review
 title: Repairs Administrator
-company: Gilmartins - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225742694
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Repairs Administrator
 company: Nuco Solutions Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
@@ -419,18 +431,6 @@ company: Howells Solutions Limited - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-23643_225798201
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Office Administrator (Part time & Flexible working)
-company: St Christophers Academy
-location: Dunstable
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-office-administrator-part-time-flexible-working
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

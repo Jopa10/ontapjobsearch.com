@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 196
+- automatic review: 189
 - automatic exclude: 0
 - effective include: 6
-- effective review: 196
+- effective review: 189
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225825665
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (196)
+## REVIEW (189)
 
 ---
 action: 
@@ -162,6 +162,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Administrator
+company: RD Financial Recruitment - Agency - Permanent
+location: Staines
+source: JobG8
+job_id: jobg8-2292989
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Administrator (QuickBooks)
 company: Kenneth Brian Associates Limited - Agency - Permanent
 location: Surrey
@@ -199,6 +211,18 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
+company: Kenneth Brian Associates Limited - Agency - Permanent
+location: Weybridge
+source: JobG8
+job_id: jobg8-2290216
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
 company: Michael Page Business Support - Agency - Permanent
 location: Surrey
 source: JobG8
@@ -211,10 +235,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: Pertemps Crawley Perms - Agency - Permanent
-location: Cranleigh
+company: Plum Personnel - Agency - Permanent
+location: Surrey
 source: JobG8
-job_id: jobg8-23643_225739888
+job_id: jobg8-2289899
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -235,22 +259,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant/Bookkeeper
-company: Lloyd Recruitment - Epsom - Agency - Permanent
-location: Camberley
-source: JobG8
-job_id: jobg8-23643_225743391
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant/Bookkeeper
 company: Lloyd Recruitment Services Ltd - Agency - Permanent
 location: Camberley
 source: JobG8
-job_id: jobg8-2156106
+job_id: jobg8-2287427
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -262,7 +274,19 @@ title: Accounts Payable
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2240522
+job_id: jobg8-2287529
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Kenneth Brian Associates Limited - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2278310
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -274,7 +298,7 @@ title: Accounts Payable Assistant
 company: Kenneth Brian Associates Limited - Agency - Permanent
 location: Leatherhead
 source: JobG8
-job_id: jobg8-2240118
+job_id: jobg8-2286873
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -294,11 +318,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Assistant
-company: Venture Recruitment Partners - Agency - Temporary
-location: Guildford
+title: Accounts Payable/Purchase Ledger
+company: E Personnel Recruitment - Agency - Permanent
+location: Surrey
 source: JobG8
-job_id: jobg8-23643_225736626
+job_id: jobg8-2286835
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -311,6 +335,18 @@ company: ITSS Recruitment - Agency - Permanent
 location: Caterham
 source: JobG8
 job_id: jobg8-23643_225829455
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Assistant / Credit Controller
+company: ITSS Recruitment Ltd - Agency - Permanent
+location: Caterham
+source: JobG8
+job_id: jobg8-2278450
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -546,11 +582,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Administrator
-company: Hello Recruitment Associates - Agency - Permanent
-location: Epsom
+title: Commercial Coordinator
+company: First Choice Staff - Agency - Permanent
+location: Sunbury-on-thames
 source: JobG8
-job_id: jobg8-23643_225732668
+job_id: jobg8-23643_225835210
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -599,18 +635,6 @@ company: Michael Page Business Support - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-2198854
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contract Administrator
-company: Huntress - Crawley - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225740620
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -691,10 +715,34 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
+company: JEMSTONE RECRUITMENT LIMITED - Agency - Permanent
+location: Guildford
+source: JobG8
+job_id: jobg8-2283055
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
 company: Kenneth Brian Associates Limited - Agency - Permanent
 location: Epsom
 source: JobG8
 job_id: jobg8-2158396
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Kenneth Brian Associates Limited - Agency - Permanent
+location: Redhill
+source: JobG8
+job_id: jobg8-2227571
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -798,18 +846,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service
-company: Team Jobs - Commercial - Agency - Temporary
-location: Haslemere
-source: JobG8
-job_id: jobg8-23643_225765565
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Administrator
 company: Faith Recruitment - Agency - Temporary
 location: Surrey
@@ -827,18 +863,6 @@ company: Huntress - Bracknell - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225787782
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225731927
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -942,23 +966,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Executive Assistant
-company: Facilities by ADF - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225730952
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Experienced Bookkeeper
 company: Roland White - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2241666
+job_id: jobg8-2287970
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -994,7 +1006,7 @@ title: Finance Assistant
 company: Giordani Resourcing - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2258187
+job_id: jobg8-2289880
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1015,10 +1027,10 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: Optima Recruitment - Agency - Permanent
-location: Leatherhead
+company: Reed - Agency - Permanent
+location: Caterham
 source: JobG8
-job_id: jobg8-2143527
+job_id: jobg8-2226465
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1026,11 +1038,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Optima Recruitment - Agency - Permanent
-location: Leatherhead
+title: Finance Assistant (Sales Ledger)
+company: YourRecruit - Agency - Permanent
+location: Surrey
 source: JobG8
-job_id: jobg8-23643_225735124
+job_id: jobg8-2266545
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1043,6 +1055,18 @@ company: This is Alexander Faraday Limited - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225251795
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer 12 Month Fixed-Term Contract
+company: This is Alexander Faraday Recruitment - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2217799
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1098,6 +1122,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Graduate Accounts Assistant
+company: Kenneth Brian Associates Limited - Agency - Permanent
+location: Reigate
+source: JobG8
+job_id: jobg8-2217895
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Graduate Marketing Executive
 company: Optima Recruitment - Agency - Permanent
 location: Weybridge
@@ -1114,7 +1150,7 @@ title: Graduate Marketing Executive Opportunity
 company: Office Angels - Agency - Permanent
 location: Godalming
 source: JobG8
-job_id: jobg8-2243199
+job_id: jobg8-2292832
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1206,35 +1242,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Coordinator
-company: Venus Recruitment Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225736812
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Operations & Payroll Officer
 company: Wade Macdonald - Agency - Permanent
 location: Middlesex
 source: JobG8
-job_id: jobg8-2242071
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Internal Sales Executive
-company: TRS (Technical Recruitment Solutions) - Agency - Permanent
-location: Knaphill
-source: JobG8
-job_id: jobg8-23643_225730672
+job_id: jobg8-2289631
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1278,42 +1290,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Learning Coordinator
-company: Huntress - Maidstone - Agency - Temporary
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225750523
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2271196
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225818061
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal PA
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
@@ -1330,7 +1306,7 @@ title: Legal PA
 company: Faith Recruitment - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2243070
+job_id: jobg8-2292551
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1343,6 +1319,18 @@ company: Faith Recruitment - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225806042
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Personal Assistant
+company: Reed - Agency - Permanent
+location: Guildford
+source: JobG8
+job_id: jobg8-2218395
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1426,7 +1414,7 @@ title: Marketing Coordinator
 company: Hello Recruitment Associates Ltd - Agency - Permanent
 location: Epsom
 source: JobG8
-job_id: jobg8-2256660
+job_id: jobg8-2287407
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1474,7 +1462,7 @@ title: Marketing Executive
 company: Personnel Selection - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2258253
+job_id: jobg8-2290153
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1518,18 +1506,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Lead ( Sales & Events )
-company: Impact Food Group - Company - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225763226
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Manager - Launch
 company: Wise Monkey Recruitment ltd - Agency - Permanent
 location: Surrey
@@ -1547,6 +1523,18 @@ company: Wise Monkey Recruitment ltd - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225783528
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Specialist
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2224515
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1638,18 +1626,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Co-Ordinator
-company: AuB Talent - Agency - Permanent
-location: Staines
-source: JobG8
-job_id: jobg8-23643_225359316
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Operations Assistant
 company: Charterhouse - Agency - Permanent
 location: Godalming
@@ -1691,18 +1667,6 @@ company: Ascend Consulting - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225448514
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Paralegal (Commercial/Corporate)
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225761779
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1782,18 +1746,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Sales Administrator
-company: Faith Recruitment - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225731110
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-time Accounts Assistant
 company: Stirling Ellis - Agency - Permanent
 location: Surrey
@@ -1810,7 +1762,7 @@ title: Payroll & Benefits Coordinator
 company: Schindler UK & Ireland - Agency - Permanent
 location: Addlestone
 source: JobG8
-job_id: jobg8-2237945
+job_id: jobg8-2285402
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1870,7 +1822,7 @@ title: Practice Bookkeeper (Management Accounts and VAT)
 company: TPF Recruitment - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2237864
+job_id: jobg8-2285275
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1895,18 +1847,6 @@ company: Mane Contract Services - Agency - Contract
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225814984
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Product Marketing Executive
-company: Acuro Associates Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225761688
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -2003,42 +1943,6 @@ company: Heathrow Personnel - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-2187103
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist - Bank
-company: Hamberley Care Management Limited - Company - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225822765
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist - Part Time
-company: Hamberley Care Management Limited - Company - Permanent
-location: Dorking
-source: JobG8
-job_id: jobg8-23643_225747476
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Patient Care Coordinator
-company: Recruitment Services UK - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225746524
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -2178,18 +2082,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support Administrator
-company: Optima Recruitment - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225735398
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Scheduler / Repairs Planner
 company: Ganymede Solutions - Agency - Permanent
 location: Surrey
@@ -2251,6 +2143,18 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2223594
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
 company: Perfect Placement - Agency - Permanent
 location: Surrey
 source: JobG8
@@ -2266,7 +2170,7 @@ title: Service Advisor
 company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2256528
+job_id: jobg8-2287230
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -2291,18 +2195,6 @@ company: The Recruitment Solution - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225783701
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Management Co-ordinator
-company: Opus Technology - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225735744
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -2386,7 +2278,19 @@ title: Temporary Accounts Admin
 company: Optima Recruitment - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2259497
+job_id: jobg8-2292889
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Accounts Assistant
+company: Huntress - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2274697
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -2399,6 +2303,18 @@ company: Huntress - Bracknell - Agency - Temporary
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225826955
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Credit Controller
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2231084
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 27
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
-- automatic review: 77
+- automatic include: 28
+- automatic review: 79
 - automatic exclude: 0
-- effective include: 27
-- effective review: 77
+- effective include: 28
+- effective review: 79
 - effective exclude: 0
 
-## INCLUDE (27)
+## INCLUDE (28)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts & Purchasing Administrator
+company: Altitude-Recruitment Limited - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2221631
+reason: Exact approved Milton Keynes workplace.
+---
 
 ---
 action: 
@@ -64,6 +76,18 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Campaign Manager
+company: VIA MATCH LIMITED - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2288252
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Credit Controller
 company: Allstaff - Agency - Permanent
 location: Milton Keynes
@@ -93,6 +117,18 @@ company: Osborne Appointments - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225823761
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller (Part Time Hours)
+company: Marstep Resourcing Solutions - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2283812
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -160,35 +196,11 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Logistics Coordinator
-company: Working Solutions Recruitment - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225730523
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Marketing and Content Coordinator
 company: MFK Recruitment - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225776201
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Coordinator
-company: Randstad Finance - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225739749
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -348,7 +360,7 @@ job_id: jobg8-23643_225796161
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (77)
+## REVIEW (79)
 
 ---
 action: 
@@ -414,6 +426,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Payable
+company: Michael Page Finance - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2227015
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Payable Assistant
 company: Morgan McKinley (Milton Keynes) - Agency - Permanent
 location: Buckinghamshire
@@ -430,7 +454,7 @@ title: Accounts Payable Assistant
 company: Techtronic Industries UK (TTI) - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2242281
+job_id: jobg8-2290124
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -499,34 +523,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Carmichael UK - Agency - Contract
-location: Aylesbury
-source: JobG8
-job_id: jobg8-23643_225732937
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Equation Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225506226
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: NHS Professionals - Company - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225734546
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -630,6 +630,30 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Credit Control
+company: Reed - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2218232
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Marc Daniels - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-2224968
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Marc Daniels - Agency - Permanent
 location: High Wycombe
@@ -647,6 +671,18 @@ company: Woodfines Solicitors - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2264068
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: CRM Lead
+company: Agria Pet Insurance - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2230631
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -678,18 +714,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Customer Support Advisor
-company: Aspire Personnel Ltd - Agency - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_224284334
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Digital Marketing Specialist
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
@@ -706,7 +730,7 @@ title: Digital Marketing Specialist
 company: Quality Personnel Services Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2250022
+job_id: jobg8-2293280
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -719,18 +743,6 @@ company: Response Personnel Ltd - Agency - Contract
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225812911
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
-company: Envelis Limited - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225745809
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -779,18 +791,6 @@ company: Aspire Personnel Ltd - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225789466
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Family Law Paralegal
-company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2140993
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -850,7 +850,7 @@ title: Finance Assistant
 company: Techtronic Industries UK (TTI) - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2242311
+job_id: jobg8-2290132
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -894,47 +894,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant
-company: Fawkes & Reece London - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225740239
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant Manager
-company: Michael Page - Agency - Contract
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225742846
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Coordinator and Onboarding Specialist
 company: Orion Electrotech - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225749883
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Immigration Paralegal
-company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2141016
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -979,6 +943,18 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Coordinator
+company: Bucks and Berks Recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2280362
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Coordinator
 company: Journey recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
@@ -990,11 +966,35 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Coordinator
+company: Reed - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2231593
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Brand Recruitment - Agency - Permanent
+location: Buckingham
+source: JobG8
+job_id: jobg8-2294078
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Manager
 company: Connells Group HQ - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2281652
+job_id: jobg8-2294143
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -1026,11 +1026,35 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: PARALEGAL
+company: Maze Recruitment Services Limited - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2280410
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part time Accounts Payable
 company: Morgan McKinley (Milton Keynes) - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225787233
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Credit Controller
+company: STORMX RECRUITMENT LIMITED - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2283149
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -1086,6 +1110,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: PPC Executive - German Speaking
+company: Advancing People - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2227714
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Procurement Assistant
 company: Trinity Resource Solutions - Agency - Permanent
 location: Buckinghamshire
@@ -1098,11 +1134,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Project Co-ordinator
-company: Adecco - Agency - Permanent
-location: Aylesbury
+title: Procurement Assistant
+company: Trinity Resource Solutions - Agency - Permanent
+location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225761154
+job_id: jobg8-23643_225796525
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -1110,11 +1146,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Property Secretary
-company: Search Consultancy Ltd - Agency - Permanent
-location: High Wycombe
+title: Project Co-ordinator
+company: Adecco - Agency - Permanent
+location: Aylesbury
 source: JobG8
-job_id: jobg8-23643_225745214
+job_id: jobg8-23643_225761154
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -1210,7 +1246,7 @@ title: Service Advisor
 company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2256263
+job_id: jobg8-2286738
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -1243,10 +1279,10 @@ action:
 decision: review
 automatic_decision: review
 title: Temporary Purchase Ledger Clerk
-company: Morgan McKinley (Milton Keynes) - Agency - Temporary
+company: Morgan McKinley - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225831978
+job_id: jobg8-2283236
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

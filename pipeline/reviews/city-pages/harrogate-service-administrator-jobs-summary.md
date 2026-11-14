@@ -4,7 +4,7 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 15
+- automatic include: 10
+- automatic review: 11
 - automatic exclude: 28
-- effective include: 7
-- effective review: 15
+- effective include: 10
+- effective review: 11
 - effective exclude: 28
 
-## INCLUDE (7)
+## INCLUDE (10)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Willow Recruit - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2294281
+reason: Exact approved Harrogate workplace.
+---
 
 ---
 action: 
@@ -56,7 +68,19 @@ title: Commercial Property & Corporate Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2259535
+job_id: jobg8-2292900
+reason: Exact approved Harrogate workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller - Harrogate
+company: Willow Recruit - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2228393
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -108,19 +132,19 @@ job_id: jobg8-2262968
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (15)
-
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Magpie Recruitment - Agency - Permanent
-location: Richmond
+decision: include
+automatic_decision: include
+title: Sales Support Assistant
+company: Lookers PLC - Agency - Permanent
+location: Harrogate
 source: JobG8
-job_id: jobg8-2243444
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+job_id: jobg8-108312447
+reason: Exact approved Harrogate workplace.
 ---
+
+## REVIEW (11)
 
 ---
 action: 
@@ -138,11 +162,11 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Administrator / Coordinator
-company: KD Recruitment - Agency - Permanent
-location: Bedale
+title: Commercial Property Legal Assistant - West Yorkshire
+company: qed legal - Agency - Permanent
+location: Skipton
 source: JobG8
-job_id: jobg8-23643_225745343
+job_id: jobg8-2217236
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -166,7 +190,7 @@ title: Finance Assistant
 company: Orange Cat Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
-job_id: jobg8-2259302
+job_id: jobg8-2292289
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -198,11 +222,11 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: Knaresborough
+title: Legal Assistant
+company: Reed - Agency - Permanent
+location: Malton
 source: JobG8
-job_id: jobg8-2210748
+job_id: jobg8-2292701
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -210,11 +234,11 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Administrator
-company: SF Partners - Agency - Temporary
-location: Easby
+title: Marketing Executive
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Knaresborough
 source: JobG8
-job_id: jobg8-23643_225746977
+job_id: jobg8-2210748
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -246,47 +270,11 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Sales & Operations Administrator
-company: Lloyd Recruitment - Epsom - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-23643_225744461
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Coordinator
 company: Travail Employment Group - Agency - Permanent
 location: Knaresborough
 source: JobG8
 job_id: jobg8-23643_225825906
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temp Finance Administrator
-company: Office Angels - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-2143764
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary finance assistant
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-2272372
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -297,10 +285,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
-company: Headstar - Agency - Permanent
-location: York
+company: Si Recruitment - Agency - Permanent
+location: Northallerton
 source: JobG8
-job_id: jobg8-2143415
+job_id: jobg8-2292919
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -332,11 +320,11 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Assistant Project Administrator (Construction)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
+title: Credit Control
+company: Reed - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-23643_225747065
+job_id: jobg8-2289654
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -372,7 +360,7 @@ title: Ecommerce Website Specialist
 company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2256198
+job_id: jobg8-2286571
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -440,11 +428,11 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Legal Assistant
-company: Reed - Agency - Permanent
-location: Selby
+title: Finance Assistant
+company: Persimmon Homes - Agency - Permanent
+location: York
 source: JobG8
-job_id: jobg8-2140300
+job_id: jobg8-2217575
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -477,18 +465,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Legal Assistant - Residential Conveyancing
-company: Edwards & Pearce - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-23643_225738181
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Legal Assistant - Residential Conveyancing
 company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Selby
 source: JobG8
@@ -504,7 +480,7 @@ title: Litigation Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
-job_id: jobg8-2259549
+job_id: jobg8-2292907
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -572,6 +548,18 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part Time Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2285496
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part time Reception
 company: Hays Business Support - Agency - Permanent
 location: Northallerton
@@ -584,11 +572,11 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Project Administrator
-company: Innovex - Agency - Permanent
-location: Selby
+title: Purchase Ledger Administrator
+company: Sharp Consultancy - Agency - Permanent
+location: York
 source: JobG8
-job_id: jobg8-23643_225746940
+job_id: jobg8-2220460
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

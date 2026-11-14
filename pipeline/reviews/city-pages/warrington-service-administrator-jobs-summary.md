@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 35
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 35
+- automatic include: 31
 - automatic review: 9
 - automatic exclude: 4
-- effective include: 35
+- effective include: 31
 - effective review: 9
 - effective exclude: 4
 
-## INCLUDE (35)
+## INCLUDE (31)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Bis Henderson - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2268326
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Michael Page - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225740957
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -196,30 +184,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Michael Page - Agency - Contract
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225745949
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Facilities Coordinator
-company: Adecco - Agency - Contract
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225753704
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
@@ -237,18 +201,6 @@ company: Reed - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2161558
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Fleet Coordinator
-company: Jobwise Ltd - Agency - Temporary
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225732768
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -305,10 +257,34 @@ action:
 decision: include
 automatic_decision: include
 title: Payroll Officer
+company: Accountable Recruitment - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2277712
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Officer
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2167523
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Officer
+company: STORMX RECRUITMENT LIMITED - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2280020
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -328,35 +304,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Project Administrator
-company: Envipco - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225745141
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Dallam Lane Medical Centre
 location: Warrington, WA2 7NG
 source: NHS Jobs
 job_id: nhs-5710046
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Velocity Recruitment - Agency - Contract
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225746391
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -388,11 +340,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Administrator
-company: Envipco - Agency - Permanent
+title: School Administrator
+company: Forrest Recruitment - Agency - Temporary
 location: Warrington
 source: JobG8
-job_id: jobg8-23643_225736171
+job_id: jobg8-23643_225791707
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -400,11 +352,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: School Administrator
-company: Forrest Recruitment - Agency - Temporary
+title: Service Advisor
+company: The Solution Auto - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-23643_225791707
+job_id: jobg8-2227619
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -450,6 +402,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Widnes
+source: JobG8
+job_id: jobg8-2279239
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Payable Assistant
 company: Cummins Mellor Recruitment - Agency - Permanent
 location: Cheshire
@@ -474,11 +438,11 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: Neos Recruitment Ltd - Agency - Permanent
+title: Breakdown & Recovery Co-ordinator
+company: Hough Green - Agency - Permanent
 location: Widnes
 source: JobG8
-job_id: jobg8-23643_225737277
+job_id: jobg8-2226123
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -502,19 +466,7 @@ title: Finance Administrator
 company: Reed - Agency - Permanent
 location: Cheshire
 source: JobG8
-job_id: jobg8-2259675
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Senior Administrator
-company: Butler Rose - Agency - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-2144274
+job_id: jobg8-2293355
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -576,7 +528,7 @@ title: Marketing Account Manager
 company: Meriden Media - Agency - Permanent
 location: Runcorn
 source: JobG8
-job_id: jobg8-2238235
+job_id: jobg8-2285861
 reason: Separate employment market.
 ---
 

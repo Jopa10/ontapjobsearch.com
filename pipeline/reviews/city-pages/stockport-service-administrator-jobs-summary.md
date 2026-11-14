@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 36
+- automatic include: 17
+- automatic review: 34
 - automatic exclude: 0
-- effective include: 18
-- effective review: 36
+- effective include: 17
+- effective review: 34
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (17)
 
 ---
 action: 
@@ -173,6 +173,18 @@ action:
 decision: include
 automatic_decision: include
 title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2283027
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
 company: Portfolio Payroll Limited - Agency - Permanent
 location: Stockport
 source: JobG8
@@ -216,31 +228,7 @@ job_id: jobg8-23643_225778251
 reason: Exact approved Stockport workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
-company: VRS-UK - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225749890
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Social Value Wellbeing Coordinator
-company: Global Recruitment Group - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225744140
-reason: Exact approved Stockport workplace.
----
-
-## REVIEW (36)
+## REVIEW (34)
 
 ---
 action: 
@@ -250,7 +238,7 @@ title: Accounts Assistant
 company: Halecroft Recruitment - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2258630
+job_id: jobg8-2290775
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -546,11 +534,11 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: GP Receptionist / Administrator
-company: Barrington Medical Centre Partnership
-location: Altrincham, WA14 1PF
-source: NHS Jobs
-job_id: nhs-5660746
+title: Finance Assistant / Stock Controller
+company: AWD online - Agency - Permanent
+location: Hyde
+source: JobG8
+job_id: jobg8-2220786
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -606,18 +594,6 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Rogers McHugh Recruitment - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225748331
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger - Altrincham (Part-Time 3days pw) 21hours
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Altrincham
@@ -635,18 +611,6 @@ company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-2278397
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment & HR Administrator
-company: Halecroft Recruitment - Agency - Temporary
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225733574
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

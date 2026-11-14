@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 11
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 10
+- effective include: 11
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -52,11 +52,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
+title: Credit Controller
+company: Fieldfisher - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-23643_225830618
+job_id: jobg8-2231809
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -65,10 +65,10 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
-company: Hays Accounts and Finance - Agency - Permanent
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-23643_225743179
+job_id: jobg8-23643_225830618
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -93,6 +93,18 @@ company: Brook Street - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-23643_225830214
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Billing Assistant
+company: Fieldfisher - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2231139
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -140,7 +152,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2276698
+job_id: jobg8-2284868
 reason: Approved conservative Belfast launch catchment.
 ---
 
