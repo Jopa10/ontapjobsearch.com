@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-11-14
-generated_at: 2026-11-14T14:23:57+00:00
+generated_at: 2026-11-14T18:40:23+00:00
 
-**470 job(s) await a human decision; 0 already answered (470 review rows).**
+**471 job(s) await a human decision; 0 already answered (471 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-11-14 | 386 | — |
+| JobG8 | OK | 2026-11-14 | 387 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-11-14 | 6 | — |
 | Teaching Vacancies | OK | 2026-11-14 | 78 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 386 to review
+## JobG8 — 387 to review
 
 ---
 action:
@@ -65,6 +65,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
 source_url: 
 hub_fingerprint: 1c4201c0df900a614dbee7b093c6744a530e097e4cd45d389f85147a2fe6438f
+---
+
+---
+action:
+POSS | JobG8 | Berkshire | Berkshire | £17.11 per hour | Care Assistant - Bank - Care Home
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225789125
+title: Care Assistant - Bank - Care Home
+employer: 
+location: Berkshire
+region: Berkshire
+salary: £17.11 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 788198a96a946e0ebc7a47535a1d306fdcbbfa3bdabee171a9d51e3d9a7b0b3b
 ---
 
 ---
@@ -433,7 +451,7 @@ POSS | JobG8 | Cornwall | St. Austell | £55,000 per year (FTE) | Finance Manage
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2263865
+source_job_id: 2297516
 title: Finance Manager (part time)
 employer: 
 location: St. Austell
@@ -442,7 +460,7 @@ salary: £55,000 per year (FTE)
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
 source_url: 
-hub_fingerprint: 6c018bbc328c721b932e3209250ed53801b82121ae58b715e6a6a6b493ca4d96
+hub_fingerprint: 752a831305401f8cc6fa43da2a4d9356b67f023d33563771e588161ce9f61485
 ---
 
 ---
@@ -1009,7 +1027,7 @@ POSS | JobG8 | Essex | Essex | — | Accounts Assistant Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2246239
+source_job_id: 2296336
 title: Accounts Assistant Manager
 employer: 
 location: Essex
@@ -1018,7 +1036,7 @@ salary:
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
 source_url: 
-hub_fingerprint: 795da0e6255f8d407bd535450aa94eda7675cb29014d9b9690b0c348821a0471
+hub_fingerprint: 33154e99c9f8ef198778e9ca5ee8870f9c61cb4cd8f589ac7eace19b19df604d
 ---
 
 ---
@@ -1189,7 +1207,7 @@ POSS | JobG8 | Essex | Essex | Competitive | Payroll Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2219880
+source_job_id: 2299181
 title: Payroll Manager
 employer: 
 location: Essex
@@ -1198,7 +1216,7 @@ salary: Competitive
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
 source_url: 
-hub_fingerprint: cd4c4476d6aee1cd1b8d490eeae8dc167499e797705b8ec2e30ef2d4063b891c
+hub_fingerprint: d6908fb615936b324ff4cc6b535de4ba669e7726824f6ed028177d54fd97f140
 ---
 
 ---
@@ -3007,7 +3025,7 @@ POSS | JobG8 | London | Croydon | £23 per hour | Interim Part Time Finance Assi
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2246324
+source_job_id: 2298027
 title: Interim Part Time Finance Assistant
 employer: 
 location: Croydon
@@ -3016,7 +3034,7 @@ salary: £23 per hour
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: finance assistant; manual review required: salary over £40k under normal selection rules
 source_url: 
-hub_fingerprint: f1f7983bbf00524ffc3b52bceada1f38521385fb591562b13a82db2336cbb546
+hub_fingerprint: bbef67224e51af6e099323d1faa8a94921e01e6764e302e65ff99f6a820fafb0
 ---
 
 ---
@@ -3345,24 +3363,6 @@ hub_fingerprint: 848657ac3a10848afc192c6ea67e67dcb3c2021064f7bb3c46423d6eee20092
 
 ---
 action:
-POSS | JobG8 | London | London | £40000 - £50000 per year | Bookkeeper
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2217930
-title: Bookkeeper
-employer: 
-location: London
-region: London
-salary: £40000 - £50000 per year
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: professional accountancy qualification wording needs review; Office/finance role salary over £40k
-source_url: 
-hub_fingerprint: 90cfbbeefb4c489e050eb19eb3672268f78a03baa5cfae8541767e2b4273ed01
----
-
----
-action:
 POSS | JobG8 | London | London | competitive | Bookkeeper
 source_key: jobg8
 source: JobG8
@@ -3377,6 +3377,24 @@ closing_date:
 reason: possible manual_select candidate for review/swap
 source_url: 
 hub_fingerprint: cd7da4c299228577e3d22b77d56abde7ee2033b7f6b5f4bfb79867c282bbd0db
+---
+
+---
+action:
+POSS | JobG8 | London | London | £40000 - £50000 per year | Bookkeeper
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2297161
+title: Bookkeeper
+employer: 
+location: London
+region: London
+salary: £40000 - £50000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: professional accountancy qualification wording needs review; Office/finance role salary over £40k
+source_url: 
+hub_fingerprint: 1f275d59e5924c9a0c41cf97d75bd6610eb858b2b6cfe49aba7563c7d676fb84
 ---
 
 ---
@@ -3727,7 +3745,7 @@ POSS | JobG8 | London | London | — | Interim Accounts Assistant - AP
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2218366
+source_job_id: 2297959
 title: Interim Accounts Assistant - AP
 employer: 
 location: London
@@ -3736,7 +3754,7 @@ salary:
 closing_date: 
 reason: possible manual_select candidate for review/swap
 source_url: 
-hub_fingerprint: fe9e7fe394f5b460ac254e1d265585cd801f4cdea6ea804d89b57d3b815e1389
+hub_fingerprint: 06b5024edfc6d8fd08821d9fa2eb5a06733005abbac89f80af3642cc7912341f
 ---
 
 ---
@@ -4105,7 +4123,7 @@ POSS | JobG8 | London | London | — | Senior Development Underwriter - Financia
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2247524
+source_job_id: 2298210
 title: Senior Development Underwriter - Financial Institutions
 employer: 
 location: London
@@ -4114,7 +4132,7 @@ salary:
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
 source_url: 
-hub_fingerprint: 44e7444d8c2a11fc1714723b18548f65903053d08d42dc06d26516db2d54ec8f
+hub_fingerprint: 64c29f9ce3140317c670fb5ed563bbefb6f9d76b522aed060df2af0f5502b24d
 ---
 
 ---
@@ -4457,24 +4475,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - title register: high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
 source_url: 
 hub_fingerprint: a401fb2c409f09540bc2a16e557ccf83525a25a28708599519a0fcb38b0f439d
----
-
----
-action:
-POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | County Durham | £100 - £110 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225794120
-title: Learning Support Assistant
-employer: 
-location: County Durham
-region: North East - County Durham & Darlington/Hartlepool
-salary: £100 - £110 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 43d01224179896764f4d80509212b1cd76ed547930319d78a26b5d27026dba12
 ---
 
 ---
@@ -5271,24 +5271,6 @@ hub_fingerprint: 4931b5ed6768cb635ab06e6d283b8ded645f6757d5efe7d82a4a827366f3cc9
 
 ---
 action:
-POSS | JobG8 | Oxfordshire | Oxfordshire | £31870 per year | Support Worker
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225795205
-title: Support Worker
-employer: 
-location: Oxfordshire
-region: Oxfordshire
-salary: £31870 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: af56e1a173efe817867ee1e2984676f950a3ea08efa21badc2d41826d7456836
----
-
----
-action:
 POSS | JobG8 | Oxfordshire | Oxfordshire | £12.85 - £18.4 per hour (Holiday Pay) | Support Worker
 source_key: jobg8
 source: JobG8
@@ -5761,7 +5743,7 @@ POSS | JobG8 | Surrey | Surrey | — | Graduate Accounts Assistant
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2217895
+source_job_id: 2297155
 title: Graduate Accounts Assistant
 employer: 
 location: Surrey
@@ -5770,7 +5752,7 @@ salary:
 closing_date: 
 reason: possible manual_select candidate for review/swap
 source_url: 
-hub_fingerprint: c0d02c2fca37380b67e50b127bd55a364ebac87bd5a58f6a793cafc64d287581
+hub_fingerprint: 03203d547a39f06e39569d3043dfc996491a78b5807f41a29ed087e25a8c9542
 ---
 
 ---
@@ -5797,7 +5779,7 @@ POSS | JobG8 | Surrey | Surrey | £40000 - £50000 per year | Part Time Bookkeep
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2264243
+source_job_id: 2298375
 title: Part Time Bookkeeper
 employer: 
 location: Surrey
@@ -5806,7 +5788,7 @@ salary: £40000 - £50000 per year
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: professional accountancy qualification wording needs review; salary over £40k under normal selection rules
 source_url: 
-hub_fingerprint: fef283248c7146383fff0ee06f2c62acde0d7e6111ae03691b1942ff9fdc7bce
+hub_fingerprint: f18187f3cc908a424e0afae1115b1d7c3d19edc69a7de463620a3171dadef317
 ---
 
 ---
@@ -6211,7 +6193,7 @@ POSS | JobG8 | Wales South - Gwent | Newport | £40000 per year | Retail Marketi
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2217550
+source_job_id: 2296700
 title: Retail Marketing Coordinator
 employer: 
 location: Newport
@@ -6220,7 +6202,7 @@ salary: £40000 per year
 closing_date: 
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
 source_url: 
-hub_fingerprint: ee3cea60419fa07bc017a9bb0795b84a00994c00c4ffd642cf539ac1379e9885
+hub_fingerprint: 2036c4d239857c76ded7503b9eb0b2b204cf0274297b4fe24356144b631c40b0
 ---
 
 ---
@@ -6283,7 +6265,7 @@ POSS | JobG8 | Wales South - Swansea Bay | Bridgend | £15.75 per hour | Account
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2264746
+source_job_id: 2298988
 title: Accounts Administrator
 employer: 
 location: Bridgend
@@ -6292,7 +6274,7 @@ salary: £15.75 per hour
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - Basic accounts administration is transferable unless specialist qualifications are mandatory; manual review required: description appears to make specialist qualifications or substantial prior experience mandatory
 source_url: 
-hub_fingerprint: 1a285e2524fd678132e6e72257cb9837e5c2eabcf694655cf19b47046de5b32a
+hub_fingerprint: 89d2eb593725803c90cf199f0a8eba64a000ca30e652789ab597f9d7a73457c1
 ---
 
 ---
@@ -6661,7 +6643,7 @@ POSS | JobG8 | Worcestershire | Worcestershire | £40000 per year | Retail Marke
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2217553
+source_job_id: 2296702
 title: Retail Marketing Coordinator
 employer: 
 location: Worcestershire
@@ -6670,7 +6652,7 @@ salary: £40000 per year
 closing_date: 
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
 source_url: 
-hub_fingerprint: ace7ec3360a4441c8a13f960388be2785e2fb75b29927810b91dca976359da2a
+hub_fingerprint: c8fc1c2b63dbfdda51325230c72d5f720ca357c39ee6749c0b40de652f4ca931
 ---
 
 ---
@@ -6689,6 +6671,24 @@ closing_date:
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: 5781daca04c4cf48bd95264aec6d24aed8bec535936bc8d1474ccc6ec7fa9d80
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - North | Harrogate | £45000 per year | Credit Controller
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 108320734
+title: Credit Controller
+employer: 
+location: Harrogate
+region: Yorkshire - North
+salary: £45000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £45,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: c760ac93be4556fe10ae31bb4e172a95f927469fa4cd64b39d84f59e6967b017
 ---
 
 ---
@@ -6761,6 +6761,24 @@ closing_date:
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £45,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: f02845e0bef5734d4dee517cbcb57682aef257caf6aab85c112efd551cfb5fb8
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - South | Sheffield | £38000 per year | Sales Support Executive
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 108318255
+title: Sales Support Executive
+employer: 
+location: Sheffield
+region: Yorkshire - South
+salary: £38000 per year
+closing_date: 
+reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: sales support; manual review required: annualised upper salary £38,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: ca9792f9dd76d69af38eeb414790fc3dc4b1dd27c2393df79c3f71f934378dd9
 ---
 
 ---
