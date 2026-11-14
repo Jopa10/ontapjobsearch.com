@@ -2,11 +2,11 @@
 
 review_date: 2026-11-14
 
-- Open Administrative & Clerical rows reviewed: 2169
-- Auto/remembered selected: 357
-- Selected HC Tier A: 187
-- Selected HC Tier B: 170
-- POSS awaiting decision: 1716
+- Open Administrative & Clerical rows reviewed: 2163
+- Auto/remembered selected: 355
+- Selected HC Tier A: 186
+- Selected HC Tier B: 169
+- POSS awaiting decision: 1712
 - Excluded: 0
 - HARD_PASS: 96
 
@@ -2378,18 +2378,6 @@ factual_fingerprint: eab2e7f7a4b1cf3a5bb428ab585a184eb3a79db6ec0ef90d18cd85a7455
 
 ---
 action:
-POSS | NHS Jobs | — | Basildonn, SS16 5NL | £25760.00 | (**) Endoscopy Booking Officer
-source_job_id: 5724829
-title: (**) Endoscopy Booking Officer
-employer: Mid and South Essex NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2781
-factual_fingerprint: 85360f2058c08be01ad6b0b03de94a361c0b889f6eeb265f198474e26ee6c21b
----
-
----
-action:
 POSS | NHS Jobs | Cumbria - West | Whitehaven, CA28 8JG | £25760.00 to £27476.00 | A&E receptionist
 source_job_id: 5724984
 title: A&E receptionist
@@ -2806,18 +2794,6 @@ region: Greater Manchester - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9362-26-0862
 factual_fingerprint: eae21ecf483cace46ce13dd0120000598d394c911e3f23394b89bfd419f74782
----
-
----
-action:
-POSS | NHS Jobs | London | Wembley, HA0 4UZ | £30630.00 to £32346.00 | SPA Administrator
-source_job_id: 5725323
-title: SPA Administrator
-employer: Central London Community Health Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9824-26-1053
-factual_fingerprint: 17bafef82e7000f1f96ca6941e8e3cf31bc2192ec8f35868b959ae3116da45c5
 ---
 
 ---
@@ -4318,18 +4294,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9491-26-0026
 factual_fingerprint: 61ff4c4230a94993e3a2d82a1eded7137a604d925149537fb84413cffaefae63
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Wigan & Bolton | Bolton, BL4 0JR | Negotiable | Volunteer Maternity Ward Helper
-source_job_id: 5723432
-title: Volunteer Maternity Ward Helper
-employer: Bolton NHS Foundation Trust
-region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0430
-factual_fingerprint: 9a56dd7e1141a64b0b931ff6f2c60bd99b0b7fd51dcf6e603cae930ff32fc777
 ---
 
 ---
@@ -7018,18 +6982,6 @@ region: Bedfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-1150
 factual_fingerprint: 312659abb19d6ea793cd0d8dc3437cc79979c9a4a7d1a58e0edeb11ca1367f89
----
-
----
-action:
-POSS | NHS Jobs | Bedfordshire | Luton, LU4 0DZ | £39959.00 to £48117.00 | Assistant Service Manager
-source_job_id: 5719170
-title: Assistant Service Manager
-employer: Bedfordshire Hospitals NHS Foundation Trust
-region: Bedfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-1149
-factual_fingerprint: ebc61c4fa2a1a58a7c5c1a342c396da10a79f8d807980c1e5338175f77342a3f
 ---
 
 ---
