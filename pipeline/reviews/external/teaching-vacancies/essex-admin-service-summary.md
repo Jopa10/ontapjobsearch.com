@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-13
-review_fingerprint: f3cf1c52068841c332a9e9bbf7a35dd192dec8a18de5ab2d6e6a40f8f6b24293
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+review_date: 2026-11-14
+review_fingerprint: c6ca83e92a6e2a1cb65b1809913c8278bda0ea868d5071ae35190f5d75634ec9
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 17
 - Selected: 1
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 13
 
 ## SELECTED
 
@@ -55,6 +55,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operational-support-a
 
 ---
 action: 
+POSS | Essex | Brentwood, CM13 2HG | £33,872.00 - £37,334.00 Annually (Actual) Includes Fringe Allowance | Payroll Officer
+employer: Discovery Educational Trust
+closing_date: 2026-11-24T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c9d0112c514c4323681d93a0c7d9b07ea08e2cfa626b9b0cc1c10f9480714281
+source: Teaching Vacancies
+source_job_id: payroll-officer-discovery-educational-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-discovery-educational-trust
+---
+
+---
+action: 
 POSS | Essex | Clacton On Sea, CO15 6DZ | £28,608.00 - £30,023.00 Annually (Actual) Local Government Scale 5, Point 10-13 | People Operations Officer
 employer: The Sigma Trust
 closing_date: 2026-12-01T23:59:00+00:00
@@ -81,7 +96,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 - [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services-st-martin-s-school-brentwood) — Out-of-scope occupation: deputy head.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.
 - [Operations Manager - Harwich](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-harwich) — Excluded senior/management title.
-- [Payroll and Pension Analyst](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pension-analyst) — Salary over £50k.
 - [Recruitment Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-manager-south-east-essex-academy-trust) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-the-eastwood-academy) — Excluded senior/management title.
 - [School Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-support-assistant-hilltop-junior-school-wickford-essex) — Insufficient admin/service evidence.

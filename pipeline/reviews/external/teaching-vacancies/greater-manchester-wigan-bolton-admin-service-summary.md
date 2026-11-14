@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-11-13
-review_fingerprint: af233e14623585a314d699907f0be9e74edba46d628a0005eca5c477545fa042
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+review_date: 2026-11-14
+review_fingerprint: e366fb3c808e739b5f733a479e7912db6d14913f75f359d42b47ad0dc2595582
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: bf701f344742e60a49f32dcd68118a215ee0343150259d49a3a789102c0
 source: Teaching Vacancies
 source_job_id: attendance-and-admissions-officer-firwood-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-firwood-high-school
----
-
----
-action: 
-SELECTED | Greater Manchester - Wigan & Bolton | Bolton, North West, BL1 3DX | £26,847 to £27,274 per annum (pro-rata £23,524.11 to 23,898.26 per annum) | Business Support Officer
-employer: The Olive School, Bolton
-closing_date: 2026-11-13T23:59:00+00:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 82480ca49bb7390d26f4a7d5df6191f9615e03901f537735428b63d3c643c78b
-source: Teaching Vacancies
-source_job_id: business-support-officer-30ebbcc4-4c53-4a32-b6d8-28daba6bbea5
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-30ebbcc4-4c53-4a32-b6d8-28daba6bbea5
 ---
 
 ---
@@ -104,7 +89,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-services-ass
 
 ## HARD_PASS
 
-- [Senior Administration Officer (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-fixed-term) — Excluded senior/management title.
 - [Senior Clerical Assistant for SEN and Inclusion (Grade C)](https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-for-sen-and-inclusion-grade-c) — Excluded senior/management title.
 - [Student Behaviour Administrator](https://teaching-vacancies.service.gov.uk/jobs/student-behaviour-administrator-outwood-academy-hindley) — No usable numeric salary.
 

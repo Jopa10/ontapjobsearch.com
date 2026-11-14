@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: dbc3796e510c6b34a98658d16a33ed478cc6944811aeb00948e41512c37f4f10
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -119,6 +119,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-st
 
 ## HARD_PASS
 
+- [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-avanti-park-school) — No usable numeric salary.
 - [Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/trust-clerk-db16844e-9a97-47b1-aa98-b5573ee8890a) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: 2185b0ac1b4808e591e13255bf40f56657199eabc342f4a45ea01a9246b26750
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 15
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -136,7 +136,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-
 
 - [Assistant Headteacher (Personal Development)](https://teaching-vacancies.service.gov.uk/jobs/assistant-headteacher-personal-development-the-cherwell-school) — Out-of-scope occupation: teacher, headteacher.
 - [Estates and Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-and-facilities-manager-alt-trust) — Excluded senior/management title.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-6bdfda73-c107-431f-a62a-1680d58b5c49) — Insufficient admin/service evidence.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust-oxford-not-recorded) — Insufficient admin/service evidence.
 - [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
 - [RLT Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/rlt-fundraising-officer) — Insufficient admin/service evidence.

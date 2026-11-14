@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: 7fa2b73ba0c197918da2bde2d4b947a3084596a7956e244b8944740e5dfaae53
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -106,6 +106,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sywell-
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1dc6e624-98dc-4337-8b41-8fb9e586f829) — Insufficient admin/service evidence.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-0ddbb56c-5635-4a81-8fed-8aa32c472a35) — Insufficient admin/service evidence.
+- [Data Management Coordinator](https://teaching-vacancies.service.gov.uk/jobs/data-management-coordinator-kingsthorpe-college) — Insufficient admin/service evidence.
 - [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.
 - [Office Manager / PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-the-headteacher-moulton-school-and-science-college) — Excluded senior/management title.
 

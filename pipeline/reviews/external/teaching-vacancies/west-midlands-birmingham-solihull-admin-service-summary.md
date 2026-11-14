@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-13
-review_fingerprint: 9c17a5ab1d06d33efcbd3584eb55a07b1e4158f9a96714328fab57468500b269
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+review_date: 2026-11-14
+review_fingerprint: e8ada6f4f8f5d3d7fb4dac16f156cb6fdc7b763c6a00453e87ffa91e632d8e60
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 16
 - Selected: 3
-- POSS awaiting decision: 6
+- POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -67,6 +67,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B38 9DE | £29,540 - £35,412 per year | Data Officer
+employer: Ark Kings Academy
+closing_date: 2026-11-25T00:00:00+00:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 857759b674dff191132e70045887f1aef1e2b31ce9811ca3c026bfe56284dd52
+source: Teaching Vacancies
+source_job_id: data-officer-22c8b0c5-6d50-431d-927d-1723b68da93a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-22c8b0c5-6d50-431d-927d-1723b68da93a
+---
 
 ---
 action: 
@@ -167,6 +182,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 - [Assistant Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/assistant-trust-clerk-summit-learning-trust) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-moseley-school-and-sixth-form-birmingham-west-midlands) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-clement-s-church-of-england-academy-birmingham-west-midlands) — Excluded senior/management title.
+- [School Office Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-senior-administrator) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fairway-primary-academy-birmingham-west-midlands) — Excluded senior/management title.
 - [Senior Office Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-office-manager-the-dame-ellen-pinsent-school) — Excluded senior/management title.
 

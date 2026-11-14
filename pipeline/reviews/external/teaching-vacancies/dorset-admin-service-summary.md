@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: e1be9528c16d29dc209cc8261faa0874dc80cdf302ab49960f92d98e52b9faea
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -94,6 +94,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-
 - [Administration Officer with responsibility for Finance](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-with-responsibility-for-finance) — No usable numeric salary.
 - [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-the-bishop-of-winchester-academy-bournemouth-dorset) — Insufficient admin/service evidence.
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-the-bishop-of-winchester-academy) — No usable numeric salary.
+- [Financial Accounting Manager](https://teaching-vacancies.service.gov.uk/jobs/financial-accounting-manager) — Excluded senior/management title.
 - [MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/mis-officer-the-bishop-of-winchester-academy) — Insufficient admin/service evidence.
 - [Receptionist (part-time)](https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-bournemouth-school) — No usable numeric salary.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-st-joseph-s-catholic-primary-school-poole) — Excluded senior/management title.

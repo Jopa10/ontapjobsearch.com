@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-13
-review_fingerprint: f4a6f034ca6300ca92a4869d83f930aa49ba3e1ea9c7da115a039d890b718eae
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+review_date: 2026-11-14
+review_fingerprint: 29f7889d2e9d160bb33c86868d43092a37cbeb36bd012e0e85c5907bf6f4fc41
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 56
-- Selected: 11
-- POSS awaiting decision: 12
+- Records: 54
+- Selected: 13
+- POSS awaiting decision: 10
 - Excluded: 0
-- Hard pass: 33
+- Hard pass: 31
 
 ## SELECTED
+
+---
+action: 
+SELECTED | London | London, London, NW2 1TR | £33,129.00 - £35,628.00 Annually (FTE) Salary subject to skills and previous experiance | Administrative Assistant
+employer: Mapledown School
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3a33bf9abe8eee854302708f08e7ee93e8abf702f7e1ee55fcd108802814257d
+source: Teaching Vacancies
+source_job_id: administrative-assistant-mapledown-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-mapledown-school
+---
 
 ---
 action: 
@@ -64,6 +79,21 @@ factual_fingerprint: ad21c857526bc6cc2d2b08364cbd38e1e8546b4511a2d0630112158801c
 source: Teaching Vacancies
 source_job_id: business-support-assistant-b0e92129-9a1b-4671-8806-6ea3c3ec8ece
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-b0e92129-9a1b-4671-8806-6ea3c3ec8ece
+---
+
+---
+action: 
+SELECTED | London | Morden, London, SM4 5LT | £31,290.00 - £33,129.00 Annually (FTE) | EHCP Administrative Assistant
+employer: Perseid School
+closing_date: 2026-11-20T16:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6ac589fd856da7f3a5d55c5eb30970369e75d713552a73cf1da0668c66cf98fd
+source: Teaching Vacancies
+source_job_id: ehcp-administrative-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrative-assistant
 ---
 
 ---
@@ -205,21 +235,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer
 
 ---
 action: 
-POSS | London | London, London, NW2 1TR | £33,129.00 - £35,628.00 Annually (FTE) Salary subject to skills and previous experiance | Administrative Assistant
-employer: Mapledown School
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3a33bf9abe8eee854302708f08e7ee93e8abf702f7e1ee55fcd108802814257d
-source: Teaching Vacancies
-source_job_id: administrative-assistant-mapledown-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-mapledown-school
----
-
----
-action: 
 POSS | London | Borehamwood, East of England, WD6 5HL | £26,427.00 Annually (FTE) H3.1-H3.2 - 3 afternoons a week 12.30pm - 4.30pm | Administrative Assistant
 employer: St Teresa Catholic Primary School
 closing_date: 2026-11-20T23:59:00+00:00
@@ -295,21 +310,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-prenderg
 
 ---
 action: 
-POSS | London | Morden, London, SM4 5LT | £31,290.00 - £33,129.00 Annually (FTE) | EHCP Administrative Assistant
-employer: Perseid School
-closing_date: 2026-11-20T16:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6ac589fd856da7f3a5d55c5eb30970369e75d713552a73cf1da0668c66cf98fd
-source: Teaching Vacancies
-source_job_id: ehcp-administrative-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrative-assistant
----
-
----
-action: 
 POSS | London | London, SE28 8AT | £30,408.00 - £32,655.00 Annually (Actual) | Finance Assistant
 employer: Polymat
 closing_date: 2026-11-22T23:59:00+00:00
@@ -377,7 +377,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sendco-admin
 - [Academy Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-assistant-075b1c19-1c1d-4bac-b270-4510c6226bb0) — Insufficient admin/service evidence.
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-paddock-school-london) — No usable numeric salary.
 - [Attendance & Inclusion Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-inclusion-officer-hurstmere-school) — Insufficient admin/service evidence.
-- [Attendance, Data and Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-data-and-administrative-officer) — Expired, closed or invalid deadline.
 - [Chief Financial & Operations Officer (CFOO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-operations-officer-cfoo) — Excluded senior/management title.
 - [Data & Cover Manager - Deputy Head of MIS (Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/data-cover-manager-deputy-head-of-mis-maternity-cover) — Out-of-scope occupation: deputy head.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
@@ -390,22 +389,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sendco-admin
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-newham-community-learning) — Salary over £50k.
 - [Finance officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-kings-cross-academy) — No usable numeric salary.
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
-- [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-dbe8438f-4742-4952-b196-d00e6c812af2) — Out-of-scope occupation: teacher, headteacher.
 - [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-girls-learning-trust) — Insufficient admin/service evidence.
+- [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-barking-abbey-school-a-specialist-sports-and-humanities-college) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-paddock-school) — No usable numeric salary.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Salary over £50k.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-ernest-bevin-academy) — Excluded senior/management title.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
 - [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college-london) — Insufficient admin/service evidence.
 - [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c5500de0-8688-44f2-9650-5f16af71c014) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-deer-park-school) — Excluded senior/management title.
 - [PA to Group Executive Director of HR](https://teaching-vacancies.service.gov.uk/jobs/pa-to-group-executive-director-of-hr) — Excluded senior/management title.
 - [PA to Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-office-manager-the-quest-academy) — Excluded senior/management title.
 - [Receptionist (0.53FTE, Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/receptionist-0-53fte-maternity-cover) — No usable numeric salary.
 - [School Business and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-and-operations-manager-stanhope-primary-school-greenford) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shalom-noam-primary-school) — Excluded senior/management title.
-- [School Receptionist, Administrative and Welfare Support](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-administrative-and-welfare-support) — No usable numeric salary.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-sherwood-school) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-sarah-bonnell-school-london) — Excluded senior/management title.
 
 ## Safety boundary

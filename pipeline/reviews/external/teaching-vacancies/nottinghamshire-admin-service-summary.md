@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: 1ded4475d24830a289dd1cf94fafa617e92d001122aca059ca0f2ea24dfbdfa1
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 18
 - Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -165,7 +165,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 ## HARD_PASS
 
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-king-edward-primary-school-nursery) — No usable numeric salary.
-- [Administrator & Receptionist](https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-bramcote-college) — Expired, closed or invalid deadline.
 - [Assistant Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-administration-manager-shirebrook-academy) — Excluded senior/management title.
 - [Finance & Estate Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-estate-officer) — Salary over £50k.
 - [Marketing and Reprographics Assistant (fixed term maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-reprographics-assistant-fixed-term-maternity-cover) — Insufficient admin/service evidence.

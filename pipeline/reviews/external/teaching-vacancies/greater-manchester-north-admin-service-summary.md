@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: acb2bca15cabfc55c809d6314b0162c99cd06533857cbddc5d7eb180d1b1072c
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -51,6 +51,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-oulder-h
 - [Governance Clerk - Casual](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-casual) — Insufficient admin/service evidence.
 - [Head of Human Resources](https://teaching-vacancies.service.gov.uk/jobs/head-of-human-resources-st-teresa-of-calcutta-catholic-academy-trust) — Excluded senior/management title.
 - [MIS and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/mis-and-data-manager-north-chadderton-school) — Excluded senior/management title.
+- [SEND & Transition Administrator](https://teaching-vacancies.service.gov.uk/jobs/send-transition-administrator) — No usable numeric salary.
 
 ## Safety boundary
 

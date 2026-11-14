@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: d1bca41baa601f49f00bc15138693718bb97512e49d1ba277b4944ad39874b3b
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -121,7 +121,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
 
 - [Cover Co-ordinator / Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-administrator-stoke-park-school) — No usable numeric salary.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-harris-church-of-england-academy) — Insufficient admin/service evidence.
-- [Marketing Manager](https://teaching-vacancies.service.gov.uk/jobs/marketing-manager-stratford-upon-avon-school) — Excluded senior/management title.
 - [Receptionist & Admin Assistant to the Deputy Headteachers](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-to-the-deputy-headteachers) — No usable numeric salary.
 - [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant-finham-park-school-coventry-west-midlands) — Insufficient admin/service evidence.
 

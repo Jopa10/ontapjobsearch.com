@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-13
-review_fingerprint: c6cd421d173c6427a89b6958cfa26c566d73a911bda6b200e7fb0e02d927828f
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+review_date: 2026-11-14
+review_fingerprint: 2f3825709d86689ba8892b58f31ce2d780367c046f2569281388ceb08a8bbc84
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 16
 - Selected: 6
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
 
@@ -141,6 +141,21 @@ factual_fingerprint: 18fd16186bb83c241c32f742c8026b603340fa393d00c9d40b467882beb
 source: Teaching Vacancies
 source_job_id: hr-administrator-caldmore-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-caldmore-primary-academy
+---
+
+---
+action: 
+POSS | West Midlands - Black Country | Stourbridge, West Midlands, DY7 6AA | Grade 7 SCP 18 - 23 (£32,578 - £35,570 FTE) | HR Support Officer
+employer: Kinver High School and Sixth Form
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a36a9a95326e2d6e21c93added3bb2bcef3ef834fd9768c91810a4bb28829144
+source: Teaching Vacancies
+source_job_id: hr-support-officer-kinver-high-school-and-sixth-form
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-support-officer-kinver-high-school-and-sixth-form
 ---
 
 ## EXCLUDED BY REVIEW

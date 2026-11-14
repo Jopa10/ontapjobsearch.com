@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East of England
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: cd9d423239ad003d95510a8c48b4a13be7429f301de34ee4d4338b030deb64f1
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: East of England
 slice_category: admin_service
 slice_status: UNREGISTERED

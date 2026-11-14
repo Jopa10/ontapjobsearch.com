@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: f65f31cf1bd1e3c52422797d5ff1f74060c30d57a27b8ab6c99eac5637d73f37
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 14
 - Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -179,7 +179,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-trip-enrichmen
 
 ## HARD_PASS
 
-- [Curriculum Administrator Apprentice](https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-apprentice) — No usable numeric salary.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-b186e459-f769-41b9-9390-e923eedcb0b6) — Excluded senior/management title.
 - [School Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/school-operations-co-ordinator) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-stephenson-mk-trust) — Excluded senior/management title.

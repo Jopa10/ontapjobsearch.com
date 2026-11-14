@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: c651a92f5e4320419becbc2bb95b80a8f9ffe58a0346e79c6358a4b82410a85c
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -75,6 +75,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-officer-ex
 ## HARD_PASS
 
 - [Clerk to School Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-school-governing-body-sherburn-church-of-england-primary-academy-malton-north-yorkshire) — No usable numeric salary.
+- [School Administrator Role - Admin and Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-admin-and-reprographics-assistant-outwood-academy-easingwold) — No usable numeric salary.
 - [School Business Officer](https://teaching-vacancies.service.gov.uk/jobs/school-business-officer-harrogate-high-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

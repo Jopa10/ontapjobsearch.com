@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: 89e31b0f09e5481839dd71d4dd247f96827764edc02283b6da6303da8f506e1e
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-lead
 
 ## HARD_PASS
 
-- None.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-60a4994f-056b-4122-b6f7-e735bd180e61) — Excluded senior/management title.
 
 ## Safety boundary
 

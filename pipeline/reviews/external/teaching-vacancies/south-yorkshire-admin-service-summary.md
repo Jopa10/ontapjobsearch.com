@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-13
-review_fingerprint: 358e79b95693b3fb85dfd88d50ccae7a01926b2e4c6476543747b3e5bf38dbce
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+review_date: 2026-11-14
+review_fingerprint: 4d011b26ef274ae2879146ca556db56e9f053cec5c851be611ed44d3d033267c
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 5
-- POSS awaiting decision: 4
+- Records: 29
+- Selected: 6
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 18
 
 ## SELECTED
 
@@ -64,6 +64,21 @@ factual_fingerprint: c5c626cd51632a3f761bef38095cd5db60ab68b8229dd63f54e49344c8a
 source: Teaching Vacancies
 source_job_id: hr-administrator-chorus-education-trust-sheffield-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-chorus-education-trust-sheffield-not-recorded
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Rotherham, S60 2EN | £26,427.00 - £26,847.00 Annually (FTE) Band D Points 5-6 | Office Administrator
+employer: St Francis Catholic Multi Academy Trust
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f939f33b6eade2849668c51bef14ae7a3a0412848e635b3518bd927987829fee
+source: Teaching Vacancies
+source_job_id: office-administrator-st-francis-catholic-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-francis-catholic-multi-academy-trust
 ---
 
 ---
@@ -158,12 +173,28 @@ source_job_id: operations-officer-fir-vale-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-fir-vale-academy
 ---
 
+---
+action: 
+POSS | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5EJ | £26,427 to £26,847 | SEND Admin Support Assistant
+employer: Brinsworth Academy
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cf11daae670670d5717d9e5d3bea3f07636d099d6a90815e831e075b21947653
+source: Teaching Vacancies
+source_job_id: send-admin-support-assistant-brinsworth-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-assistant-brinsworth-academy
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-beck-primary-school) — No usable numeric salary.
 - [Administration and Clerical Level 1](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical-level-1-shortbrook-primary-school) — No usable numeric salary.
 - [Administration Assistant - 10 hrs per week Temp until August 2027](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-10-hrs-per-week-temp-until-august-2027) — No usable numeric salary.
 - [Apprentice Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administration-assistant-maltby-lilly-hall-academy) — No usable numeric salary.

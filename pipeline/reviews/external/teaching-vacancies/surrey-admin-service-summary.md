@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-13
-review_fingerprint: e2ebd1c040dc5e6020172e62ee702618c21470bae299d560f86b83d5c8af251c
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+review_date: 2026-11-14
+review_fingerprint: 472b090cf182db4e95d21eebf7897bd33e4e49d65671006378178b127b62ce9b
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
+- Records: 12
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
@@ -23,14 +23,29 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Surrey | Horley, South East, RH6 8SU | Apprenticeship rates - £13,317.00 (£8ph for the first year, then dependent on age) | Administrative Assistant and Receptionist
+SELECTED | Surrey | Redhill, South East, RH1 3PU | Actual Salary: £21,293.13 | Administrative Assistant
+employer: Merstham Park School
+closing_date: 2026-11-29T23:59:59+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b9603fd8e9662bfeb666dc12eda5c1bfb2dbadf5b663565a9eaaf8e5e90fc905
+source: Teaching Vacancies
+source_job_id: administrative-assistant-merstham-park-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-merstham-park-school
+---
+
+---
+action: 
+SELECTED | Surrey | Horley, South East, RH6 8SU | Apprenticeship rates - £13,317.00 (£8ph for the first year, then dependent on age) | Apprentice Administrative Assistant and Receptionist
 employer: Westvale Park Primary Academy
 closing_date: 2026-11-24T12:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 863e945579a53eeaccc54d244b22c5b351f4e4618df5b7dc7e366983e4ecd6ab
+factual_fingerprint: f71e1aa8c5e3c4df5e7cb1d21904920ea52677596a982cd51d26164c50b7c63b
 source: Teaching Vacancies
 source_job_id: administrative-assistant-and-receptionist-westvale-park-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-receptionist-westvale-park-primary-academy

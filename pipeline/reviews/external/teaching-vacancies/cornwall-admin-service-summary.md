@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: 50d24fec3281114541e629052a52c9e5766d227aaaf26ef4ea021f919d5d07d1
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-business-part
 
 ## HARD_PASS
 
+- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cornwall-education-learning-trust) — Excluded senior/management title.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — No usable numeric salary.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-the-roseland-multi-academy-trust) — Insufficient admin/service evidence.
 - [Reception Administrator](https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-newlyn-school) — No usable numeric salary.

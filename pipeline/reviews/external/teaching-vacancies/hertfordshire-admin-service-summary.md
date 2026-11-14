@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-13
-review_fingerprint: 39e9dd8247ca43d3ff49ae90ae8bc39e36d24264c91a90502c0c4a24e219ad2a
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+review_date: 2026-11-14
+review_fingerprint: 7642f04b1e8fda923f726d3748c2d7c99c749133b528a85707ea364941bb05e4
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 7
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -49,6 +49,21 @@ factual_fingerprint: e9e4cdb5aac75678eba3a08f9c36195bbecc6d589d8062af08b3f14e6c3
 source: Teaching Vacancies
 source_job_id: administration-assistant-receptionist-bishop-s-hatfield-girls-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-receptionist-bishop-s-hatfield-girls-school
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Hatfield, East of England, AL9 7BN | £30,515.00 - £33,120.00 Annually (FTE) Actual Salary including fringe allowance: £28,125 per annum | Admissions Administrator
+employer: Chancellor's School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5cb0df7e25a63a4049e8deb8234990ec306da6244b47ba360f2c97bff08f97e2
+source: Teaching Vacancies
+source_job_id: admissions-administrator-chancellor-s-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-administrator-chancellor-s-school
 ---
 
 ---

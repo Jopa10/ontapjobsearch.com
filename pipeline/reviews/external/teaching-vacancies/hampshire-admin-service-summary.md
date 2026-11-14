@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-13
-review_fingerprint: e33bb7bb211cb2139e9f6e89b5fb94815bb936f543ba5d92d26e669f22323ddb
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+review_date: 2026-11-14
+review_fingerprint: c842ec0f02ba88b87621a130a6344cd45fd0b51eea2a847df24b9c8bd97cb951
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
@@ -51,21 +51,36 @@ source_job_id: finance-assistant-term-time-only-upper-shirley-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-term-time-only-upper-shirley-high-school
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Hampshire | Romsey, South East, SO51 8ZB | £14.87 Hourly Pay: £14.87 per hour (£24,538.47 Actual) | Receptionist
+SELECTED | Hampshire | Romsey, South East, SO51 8ZB | £14.87 Hourly Pay: £14.87 per hour (£24,538.47 Actual) | Receptionist
 employer: The Romsey School
 closing_date: 2026-11-23T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 6fb5c2a54b1f9c9cffe69e89600d96cecc07470fc3d68c3ab957c831290909af
 source: Teaching Vacancies
 source_job_id: receptionist-0843015e-4edd-4eed-82fa-deb742659791
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0843015e-4edd-4eed-82fa-deb742659791
+---
+
+## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Hampshire | Portsmouth, South East, PO1 1FG | £23,567.00 - £25,544.00 Annually (Actual) | Administrative Officer
+employer: Arundel Court Primary Academy and Nursery
+closing_date: 2026-11-28T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d3bb72ffb72d8a29c63f58a065cce5d5e2c7f30357b3cb4a6514f6a93b4430ad
+source: Teaching Vacancies
+source_job_id: administrative-officer-6f5b3994-a8dd-421a-bcd8-4822e0fb211d
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-6f5b3994-a8dd-421a-bcd8-4822e0fb211d
 ---
 
 ## EXCLUDED BY REVIEW

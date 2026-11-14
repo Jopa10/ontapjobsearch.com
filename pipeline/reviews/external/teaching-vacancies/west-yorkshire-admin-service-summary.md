@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: aef2dadd90cf039181a874bbcfc6fd83b1d62e1cda694a157ba0c4e784855abd
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 30
+- Records: 29
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 24
+- Hard pass: 23
 
 ## SELECTED
 
@@ -125,7 +125,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-g
 - [Academy Business Leader](https://teaching-vacancies.service.gov.uk/jobs/academy-business-leader-e9234181-3796-40b5-8607-aa4c0657cf7a) — Excluded senior/management title.
 - [Administration assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chapel-allerton-primary-school) — No usable numeric salary.
 - [Apprentice Business Administration Assistant (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-administration-assistant-level-3) — No usable numeric salary.
-- [Attendance Leader](https://teaching-vacancies.service.gov.uk/jobs/attendance-leader-appleton-academy-bradford-west-yorkshire) — Expired, closed or invalid deadline.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-leodis-academies-trust) — Excluded senior/management title.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-owlcotes-multi-academy-trust) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-north-halifax-grammar-school) — Excluded senior/management title.

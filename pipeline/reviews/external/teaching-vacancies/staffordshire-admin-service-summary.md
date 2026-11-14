@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-13
-review_fingerprint: d9444eed145f75a299d5652f3af658f0f221df0bf82807224667ec51c82f0a92
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+review_date: 2026-11-14
+review_fingerprint: 49e206d96e28c8dd9614c71b380f5bed65f99116067ca52d4bd5368b4bbd7383
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 8
 - Selected: 3
-- POSS awaiting decision: 2
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Staffordshire | Lichfield, West Midlands, WS14 0AL | £25,614 - £26,016 FTE, actual salary £17,274 - £17,545 per annum | Administration Assistant
+employer: Anna Seward Primary
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1183a1c0adbb1b9d33d40f1e4ce4705ab8d21e3bad51eb906f3af728446382f3
+source: Teaching Vacancies
+source_job_id: administration-assistant-anna-seward-primary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-anna-seward-primary
+---
 
 ---
 action: 
@@ -34,21 +49,6 @@ factual_fingerprint: 848b1ebdc6186b34e0934ad1da77f00cbb14407a2f303deea68e9a51177
 source: Teaching Vacancies
 source_job_id: administration-assistant-data-reports-co-ordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-data-reports-co-ordinator
----
-
----
-action: 
-SELECTED | Staffordshire | Cannock, West Midlands, WS11 4AW | £25,615.00 Annually (Actual) Term Time plus Inset | Clerical Assistant/Receptionist
-employer: Cardinal Griffin Catholic College
-closing_date: 2026-11-13T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ff6b3085050b4746a70cc066801b8e6daaa23a43ec4d1c7512a42d105dc34d13
-source: Teaching Vacancies
-source_job_id: clerical-assistant-receptionist-df868f65-c6ce-4a35-82cd-7dee4b93fd41
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-receptionist-df868f65-c6ce-4a35-82cd-7dee4b93fd41
 ---
 
 ---
@@ -68,35 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admin-assi
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Staffordshire | Lichfield, West Midlands, WS14 0AL | £25,614 - £26,016 FTE, actual salary £17,274 - £17,545 per annum | Administration Assistant
-employer: Anna Seward Primary
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1183a1c0adbb1b9d33d40f1e4ce4705ab8d21e3bad51eb906f3af728446382f3
-source: Teaching Vacancies
-source_job_id: administration-assistant-anna-seward-primary
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-anna-seward-primary
----
-
----
-action: 
-POSS | Staffordshire | Tamworth, West Midlands, B77 2HJ | £15,433.44 - £24,521.29 Annually (FTE) National Minimum Wage (Y1 rate then Y2 age-related). | Apprentice Administration Assistant
-employer: Two Rivers High School
-closing_date: 2026-11-13T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 539c1cddf26ca77063769ba18c72f348bb5e2782569d962309216a694dfed138
-source: Teaching Vacancies
-source_job_id: apprentice-administration-assistant-two-rivers-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administration-assistant-two-rivers-high-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

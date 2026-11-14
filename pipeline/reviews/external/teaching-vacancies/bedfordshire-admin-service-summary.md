@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-13
+review_date: 2026-11-14
 review_fingerprint: 7afb9a28e51f6d1221a427cfd7f13d1c06a0ebac92d4b35b06fdad8f74b79b7c
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
 
@@ -138,7 +138,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-la
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-pirton-hill-primary-school-luton-bedfordshire) — Insufficient admin/service evidence.
 - [Administration Services Manager](https://teaching-vacancies.service.gov.uk/jobs/administration-services-manager) — Excluded senior/management title.
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-0901ff45-843f-48f1-86f8-3ff333e31507) — No usable numeric salary.
-- [Business, Operations, HR & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-hr-compliance-manager-southcott-lower-school) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-houstone-school-dunstable) — Excluded senior/management title.
 - [Data Manager and Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-and-examinations-officer-wixams-academy) — Excluded senior/management title.
 - [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-wixams-academy) — Insufficient admin/service evidence.

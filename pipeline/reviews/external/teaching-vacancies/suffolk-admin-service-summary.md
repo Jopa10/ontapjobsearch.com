@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-13
-review_fingerprint: a1fd50460e3ee3644d444cd4d3969c6a78655727b60949b29a8439cb1450df1a
-routing_manifest_sha256: 7bb4651238a543a10336e4d74a401615c93a609c091d6a04f8db407e9f63349a
+review_date: 2026-11-14
+review_fingerprint: 48ffa23659020c8624f16c2de77283ac0a64b7555964b53a4a33c828ab836653
+routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -103,8 +103,8 @@ action:
 POSS | Suffolk | Beccles, East of England, NR34 7BQ | £19,350- £22,735 actual pa | Finance Officer
 employer: Beccles High School
 closing_date: 2026-12-20T00:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Part-time finance requires actual earnings/hours and qualification checks
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: df0a1bf2719198612e34494b397c10a8080c3cab964f56de4ae8702adb4e0feb
@@ -118,8 +118,8 @@ action:
 POSS | Suffolk | Woodbridge, IP13 0RP | £45,166.00 - £48,607.00 Annually (FTE) | Trust Finance Officer
 employer: East Anglian Schools Trust Ltd
 closing_date: 2026-11-23T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Office/finance salary over £40k
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 5bfb12c3b2a362a0f641b365106ddd7e1fc8d77c7fad1901ec7847dbfbb6c867
