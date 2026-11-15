@@ -601,6 +601,12 @@ SELECTED | Cumbria - South | Appleby-in-westmorland | £ | Childrens Residential
 job_id: 108318897
 ---
 
+---
+action:
+SELECTED | Cumbria - South | Ulverston | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 108310093
+---
+
 ## CUMBRIA SOUTH — POSSIBLES
 
 _No jobs in this group._
@@ -735,8 +741,8 @@ job_id: 1401786329
 
 ---
 action:
-SELECTED | Hampshire | Tadley | £27456 per year | Female Waking Night Support Worker
-job_id: 108316978
+SELECTED | Hampshire | New Milton | £12.8 - £15.75 per hour | Extra Care Support Worker
+job_id: 108321029
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -1219,6 +1225,12 @@ job_id: 23643_225810531
 action:
 POSS - ESSEX | Essex | Southend-on-sea | £21 - £23 per hour | Recovery Worker
 job_id: 23643_225810545
+---
+
+---
+action:
+POSS - ESSEX | Essex | Brentwood | £93 - £130 per daily | Autism Support Assistant
+job_id: 108157907
 ---
 
 ---
