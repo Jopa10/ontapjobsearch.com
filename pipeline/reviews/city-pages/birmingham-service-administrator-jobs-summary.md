@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: AD Finance - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2264493
+job_id: jobg8-2298708
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -68,7 +68,7 @@ title: Accounts Payable Clerk
 company: Flora Partners - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2262684
+job_id: jobg8-2296129
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -344,7 +344,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2263627
+job_id: jobg8-2297302
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -368,7 +368,7 @@ title: Credit Controller
 company: Flora Partners - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2218356
+job_id: jobg8-2297764
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -440,7 +440,7 @@ title: Credit Controller
 company: TAILORED SEARCH RECRUITMENT LIMITED - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2221797
+job_id: jobg8-2302077
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -452,7 +452,7 @@ title: CRM Executive
 company: Jenkins Recruitment Solutions Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2262908
+job_id: jobg8-2296381
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -513,18 +513,6 @@ company: Hays Specialist Recruitment - Education - Agency - Temporary
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225761623
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Data Administrator
-company: Reed - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2235331
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -632,7 +620,7 @@ title: Employment Paralegal, Birmingham, &;24,000 - &;28,000 DOE, Excellent trai
 company: qed legal - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2262654
+job_id: jobg8-2296113
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -740,7 +728,7 @@ title: Home Based Marketing and Sales
 company: Etre Professional - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2246828
+job_id: jobg8-2296965
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -789,18 +777,6 @@ company: TAILORED SEARCH RECRUITMENT LIMITED - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2281921
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Internal Recruiter / Supported Living / Care Recruitment Experience
-company: Frontier Consulting - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225674308
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -908,7 +884,7 @@ title: Junior Purchasing Assistant
 company: TMR Group Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2263998
+job_id: jobg8-2297837
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -944,7 +920,7 @@ title: Local Offer Website Coordinator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2249986
+job_id: jobg8-2301448
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1516,11 +1492,35 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sourcing Coordinator
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225749901
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Stock Control Coordinator - East & West Midlands
 company: Adecco - Agency - Contract
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225755216
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Streetworks Faults Administrator
+company: Doocey Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225749758
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1604,7 +1604,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2284869
+job_id: jobg8-2295660
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1908,7 +1908,7 @@ title: Credit Controller
 company: Tirebuck Recruitment - Agency - Permanent
 location: Solihull
 source: JobG8
-job_id: jobg8-2221729
+job_id: jobg8-2301912
 reason: Separate exact-city market at launch.
 ---
 
@@ -1956,7 +1956,7 @@ title: Immediate Start Payroll Assistant
 company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
-job_id: jobg8-2266706
+job_id: jobg8-2300036
 reason: Separate exact-city market at launch.
 ---
 

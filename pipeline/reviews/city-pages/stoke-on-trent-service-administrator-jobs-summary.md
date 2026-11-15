@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 74
+- automatic review: 76
 - automatic exclude: 0
 - effective include: 8
-- effective review: 74
+- effective review: 76
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225810447
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (74)
+## REVIEW (76)
 
 ---
 action: 
@@ -179,6 +179,18 @@ company: TeacherActive - Agency - Temporary
 location: Cannock
 source: JobG8
 job_id: jobg8-23643_225754033
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Project Coordinator
+company: Berry Recruitment - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225747933
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -443,6 +455,18 @@ company: Anderson Scott Solutions - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225820180
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Coordinator
+company: NFU - Agency - Permanent
+location: Stone
+source: JobG8
+job_id: jobg8-108316277
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -718,7 +742,7 @@ title: Payroll Officer
 company: SF Partners - Agency - Permanent
 location: Staffordshire
 source: JobG8
-job_id: jobg8-2266374
+job_id: jobg8-2299567
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

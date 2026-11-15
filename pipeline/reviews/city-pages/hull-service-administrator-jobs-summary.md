@@ -68,7 +68,7 @@ title: Accounts Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-2248123
+job_id: jobg8-2298823
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -358,7 +358,7 @@ title: Temporary Bookkeeper
 company: KD Recruitment Limited - Agency - Permanent
 location: Bridlington
 source: JobG8
-job_id: jobg8-2218789
+job_id: jobg8-2298443
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

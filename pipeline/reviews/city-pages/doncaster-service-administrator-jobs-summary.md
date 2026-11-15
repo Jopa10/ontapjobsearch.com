@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 17
 - automatic review: 11
-- automatic exclude: 55
+- automatic exclude: 56
 - effective include: 17
 - effective review: 11
-- effective exclude: 55
+- effective exclude: 56
 
 ## INCLUDE (17)
 
@@ -56,7 +56,7 @@ title: Central Transport Purchasing Administrator
 company: ReFood - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2264115
+job_id: jobg8-2298105
 reason: Approved Doncaster catchment.
 ---
 
@@ -116,7 +116,7 @@ title: Paralegal
 company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2247783
+job_id: jobg8-2298573
 reason: Approved Doncaster catchment.
 ---
 
@@ -152,7 +152,7 @@ title: Payroll Administrator
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2266717
+job_id: jobg8-2300272
 reason: Approved Doncaster catchment.
 ---
 
@@ -358,11 +358,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2284885
+job_id: jobg8-2295676
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (55)
+## EXCLUDE (56)
 
 ---
 action: 
@@ -588,7 +588,7 @@ title: Customer Service Advisor
 company: Blundells - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2281566
+job_id: jobg8-2303130
 reason: Separate employment market.
 ---
 
@@ -624,19 +624,7 @@ title: Debt Recovery Paralegal
 company: CRA Consulting - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2266415
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Disrepair Coordinator
-company: The Guinness Partnership - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225811889
+job_id: jobg8-2299591
 reason: Separate employment market.
 ---
 
@@ -649,6 +637,18 @@ company: Build Recruitment - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225814635
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Education Delivery Coordinator, Alternative Provision South Yorkshire (new Yorkshire office opening early 2027)
+company: AP Education - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225830921
 reason: Separate employment market.
 ---
 
@@ -1021,5 +1021,17 @@ company: CCA Recruitment Group - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225789027
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Training Coordinator
+company: Charto Recruitment Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225749128
 reason: Separate employment market.
 ---

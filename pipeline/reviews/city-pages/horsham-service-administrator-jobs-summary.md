@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 120
-- automatic exclude: 42
+- automatic review: 119
+- automatic exclude: 41
 - effective include: 3
-- effective review: 120
-- effective exclude: 42
+- effective review: 119
+- effective exclude: 41
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225825157
 reason: Exact approved Horsham workplace.
 ---
 
-## REVIEW (120)
+## REVIEW (119)
 
 ---
 action: 
@@ -598,7 +598,7 @@ title: Digital & Social Media Coordinator
 company: Pineapple Careers - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2247318
+job_id: jobg8-2297805
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -623,18 +623,6 @@ company: William Reed - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2221606
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Facilities and Administration Coordinator
-company: Morgan Mckinley (Crawley) - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225736208
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -694,7 +682,7 @@ title: Finance Officer - Charity Sector
 company: Grafton Banks Limited - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2221785
+job_id: jobg8-2302071
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -1498,11 +1486,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2284870
+job_id: jobg8-2295661
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
-## EXCLUDE (42)
+## EXCLUDE (41)
 
 ---
 action: 
@@ -1753,18 +1741,6 @@ company: TN Recruits - Agency - Permanent
 location: Eastbourne
 source: JobG8
 job_id: jobg8-2157738
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Coordinator / Sales Administrator - Immediate Start
-company: Office Angels - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225736740
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 

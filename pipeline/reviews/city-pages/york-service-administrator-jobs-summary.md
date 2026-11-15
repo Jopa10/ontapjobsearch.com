@@ -104,7 +104,7 @@ title: Finance Assistant
 company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2217575
+job_id: jobg8-2296072
 reason: Approved York catchment.
 ---
 
@@ -116,7 +116,7 @@ title: Legal Assistant - Employment
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2249128
+job_id: jobg8-2300253
 reason: Approved York catchment.
 ---
 
@@ -128,7 +128,7 @@ title: Legal Assistant - Litigation
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2249327
+job_id: jobg8-2300535
 reason: Approved York catchment.
 ---
 
@@ -164,7 +164,7 @@ title: Purchase Ledger Administrator
 company: Sharp Consultancy - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2220460
+job_id: jobg8-2300408
 reason: Approved York catchment.
 ---
 
@@ -214,7 +214,7 @@ title: Commercial Property Legal Assistant - West Yorkshire
 company: qed legal - Agency - Permanent
 location: Skipton
 source: JobG8
-job_id: jobg8-2217236
+job_id: jobg8-2296407
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -404,6 +404,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Credit Controller
+company: Inicio Funding Solutions Ltd_2026-10-19-08:21:16.112 - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-108320734
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Controller - Harrogate
 company: Willow Recruit - Agency - Permanent
 location: Harrogate
@@ -444,7 +456,7 @@ title: Ecommerce/Shopify Executive
 company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2250223
+job_id: jobg8-2302015
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -456,7 +468,7 @@ title: Finance Administrator
 company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2268077
+job_id: jobg8-2301626
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -480,7 +492,7 @@ title: Legal Secretary & Office Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2262438
+job_id: jobg8-2299949
 reason: Separate employment market.
 ---
 
@@ -564,7 +576,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2268263
+job_id: jobg8-2301867
 reason: Separate employment market.
 ---
 
@@ -588,19 +600,7 @@ title: Payroll Administrator
 company: Sharp Consultancy - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2262968
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Support Assistant
-company: Lookers PLC - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-108312447
+job_id: jobg8-2296494
 reason: Separate employment market.
 ---
 

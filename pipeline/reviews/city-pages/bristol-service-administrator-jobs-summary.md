@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 68
+- Effective included jobs: 69
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 68
+- automatic include: 69
 - automatic review: 15
 - automatic exclude: 9
-- effective include: 68
+- effective include: 69
 - effective review: 15
 - effective exclude: 9
 
-## INCLUDE (68)
+## INCLUDE (69)
 
 ---
 action: 
@@ -56,7 +56,7 @@ title: Accounts Assistant
 company: Jury O&;Shea LLP - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2225610
+job_id: jobg8-2298160
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -152,7 +152,7 @@ title: Business & Marketing Graduate
 company: Elix Sourcing Solutions Limited - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2262244
+job_id: jobg8-2295811
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -260,7 +260,7 @@ title: Credit Controller
 company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2263191
+job_id: jobg8-2296767
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -345,6 +345,18 @@ company: PSR Solutions - Agency - Contract
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225763843
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Engineer Administrator
+company: AMS CWS - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-108322428
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -512,7 +524,7 @@ title: Litigation Paralegal
 company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2263892
+job_id: jobg8-2297617
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -994,7 +1006,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2284871
+job_id: jobg8-2295662
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -1044,7 +1056,7 @@ title: Credit Controller
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2249855
+job_id: jobg8-2301237
 reason: Separate employment market.
 ---
 
@@ -1128,6 +1140,6 @@ title: Property Coordinator
 company: Allen and Harris - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2281752
+job_id: jobg8-2303159
 reason: Separate employment market.
 ---

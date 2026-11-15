@@ -148,6 +148,18 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Salesperson
+company: Reed - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2298303
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal Secretary
 company: Creideas - Agency - Permanent
 location: Glasgow
@@ -201,18 +213,6 @@ company: Adecco - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225811652
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal
-company: Adecco - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2146744
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -406,7 +406,7 @@ title: Performance Marketing Lead
 company: Hydrogen - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2248656
+job_id: jobg8-2299661
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 
@@ -442,7 +442,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2284875
+job_id: jobg8-2295666
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

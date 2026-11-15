@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 46
+- Effective included jobs: 47
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 46
-- automatic review: 11
+- automatic include: 47
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 46
-- effective review: 11
+- effective include: 47
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (46)
+## INCLUDE (47)
 
 ---
 action: 
@@ -80,7 +80,7 @@ title: Accounts Assistant / Bookkeeper
 company: Beam Recruit - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2221144
+job_id: jobg8-2300615
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -141,6 +141,18 @@ company: St Nicholas Catholic Academy
 location: Liverpool
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-support-assistant-st-nicholas-catholic-academy
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Minute Taker - Local Government
+company: Diamond Blaque HR Solutions - Agency - Contract
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225750475
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -284,7 +296,7 @@ title: Legal Assistant - Court Team
 company: Bond Turner - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2250389
+job_id: jobg8-2302227
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -320,7 +332,7 @@ title: MOJ Portal Legal Assistant
 company: Bond Turner - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2250394
+job_id: jobg8-2302230
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -452,7 +464,7 @@ title: Payroll Officer
 company: Beam Recruit - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2221125
+job_id: jobg8-2301193
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -576,7 +588,7 @@ job_id: jobg8-23643_225761106
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -611,18 +623,6 @@ company: Resourcery Group - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-2188658
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Officer
-company: Royal College of Physicians - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2220579
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -706,7 +706,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2284879
+job_id: jobg8-2295670
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

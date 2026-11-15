@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 53
+- Effective included jobs: 52
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 53
-- automatic review: 84
-- automatic exclude: 42
-- effective include: 53
-- effective review: 84
-- effective exclude: 42
+- automatic include: 52
+- automatic review: 83
+- automatic exclude: 41
+- effective include: 52
+- effective review: 83
+- effective exclude: 41
 
-## INCLUDE (53)
+## INCLUDE (52)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Office Angels - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225822053
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Newcastle upon Tyne, NE2 1QE
-source: NHS Jobs
-job_id: nhs-5706264
 reason: Approved Newcastle catchment.
 ---
 
@@ -660,7 +648,7 @@ job_id: jobg8-23643_225826542
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (84)
+## REVIEW (83)
 
 ---
 action: 
@@ -970,7 +958,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2263528
+job_id: jobg8-2297261
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1518,18 +1506,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment & People Systems Coordinator
-company: Northern Recruitment Group Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-108230860
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Resourcer (Permanent Recruitment)
 company: CDM Recruitment - Agency - Permanent
 location: Tyne And Wear
@@ -1642,7 +1618,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2284881
+job_id: jobg8-2295672
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1670,7 +1646,7 @@ job_id: jobg8-23643_225825664
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (42)
+## EXCLUDE (41)
 
 ---
 action: 
@@ -1892,18 +1868,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Front of House Property Admin
-company: Integro People Limited - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225826691
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: GP Receptionist/Administrator
 company: Hylton Medical Group
 location: Sunderland, SR4 7XF
@@ -1944,7 +1908,7 @@ title: Legal Administrator - Commercial Property - Stockton-on-Tees
 company: qed legal - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2262474
+job_id: jobg8-2296001
 reason: Separate employment market.
 ---
 
@@ -1956,7 +1920,7 @@ title: Legal Administrator - Residential Property - Stockton-on Tees
 company: qed legal - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2262686
+job_id: jobg8-2296131
 reason: Separate employment market.
 ---
 
@@ -1968,7 +1932,7 @@ title: Legal Secretary - Dispute Resolution - Stockton-on-Tees
 company: qed legal - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2262449
+job_id: jobg8-2295986
 reason: Separate employment market.
 ---
 
@@ -2088,7 +2052,7 @@ title: Purchase Ledger Clerk
 company: RW TALENT SOLUTIONS LTD - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2219246
+job_id: jobg8-2298887
 reason: Separate employment market.
 ---
 

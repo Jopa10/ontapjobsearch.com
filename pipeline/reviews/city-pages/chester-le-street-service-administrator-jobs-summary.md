@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 179
+- automatic review: 176
 - automatic exclude: 0
 - effective include: 0
-- effective review: 179
+- effective review: 176
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (179)
+## REVIEW (176)
 
 ---
 action: 
@@ -251,18 +251,6 @@ company: CKB Recruitment Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225810540
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Newcastle upon Tyne, NE2 1QE
-source: NHS Jobs
-job_id: nhs-5706264
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -898,7 +886,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2263528
+job_id: jobg8-2297261
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1302,18 +1290,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Front of House Property Admin
-company: Integro People Limited - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225826691
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Full Time Customer Service Advisor
 company: We Are Zenith - Agency - Permanent
 location: Tyne And Wear
@@ -1450,7 +1426,7 @@ title: Legal Administrator - Commercial Property - Stockton-on-Tees
 company: qed legal - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2262474
+job_id: jobg8-2296001
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1462,7 +1438,7 @@ title: Legal Administrator - Residential Property - Stockton-on Tees
 company: qed legal - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2262686
+job_id: jobg8-2296131
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1474,7 +1450,7 @@ title: Legal Secretary - Dispute Resolution - Stockton-on-Tees
 company: qed legal - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2262449
+job_id: jobg8-2295986
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1846,7 +1822,7 @@ title: Purchase Ledger Clerk
 company: RW TALENT SOLUTIONS LTD - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2219246
+job_id: jobg8-2298887
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1907,18 +1883,6 @@ company: Capital R2R Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_222841829
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment & People Systems Coordinator
-company: Northern Recruitment Group Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-108230860
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -2146,7 +2110,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2284881
+job_id: jobg8-2295672
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

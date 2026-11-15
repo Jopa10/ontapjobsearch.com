@@ -68,7 +68,7 @@ title: Credit Controller
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Shrewsbury
 source: JobG8
-job_id: jobg8-2219320
+job_id: jobg8-2299012
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -250,7 +250,7 @@ title: Childcare Legal Assistant
 company: G2 Legal Limited - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2221308
+job_id: jobg8-2301401
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -262,7 +262,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2263526
+job_id: jobg8-2297259
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -366,18 +366,6 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Prince Personnel Limited - Agency - Temporary
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225736709
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Logistics Co-Ordinator
 company: KAG Recruitment Consultancy - Agency - Permanent
 location: Oswestry
@@ -455,6 +443,18 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225754538
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator ( Aviation)
+company: Rise Technical Recruitment - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225750867
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 164
+- automatic review: 165
 - automatic exclude: 0
 - effective include: 11
-- effective review: 164
+- effective review: 165
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: jobg8-23643_225798173
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (164)
+## REVIEW (165)
 
 ---
 action: 
@@ -346,7 +346,7 @@ title: Accounts Assistant
 company: We Do Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2250390
+job_id: jobg8-2302228
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -407,6 +407,18 @@ company: Agincare Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-108278716
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Care Concern Group - Company - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-108314514
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -586,7 +598,7 @@ title: Brand Manager
 company: Pure Human Resources - Agency - Permanent
 location: Andover
 source: JobG8
-job_id: jobg8-2250220
+job_id: jobg8-2301945
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -766,7 +778,7 @@ title: Credit Controller
 company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2217555
+job_id: jobg8-2296819
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1102,7 +1114,7 @@ title: Finance Assistant
 company: ParkAndersen - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2267770
+job_id: jobg8-2301128
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1446,18 +1458,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Office/Scheduling Administrator
-company: Assured Fire Safety Consultancy Ltd - Agency - Permanent
-location: Fleet
-source: JobG8
-job_id: jobg8-23643_225736878
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Onboarding Coordinator
 company: Gattaca PLC - Agency - Permanent
 location: Hampshire
@@ -1702,7 +1702,7 @@ title: Purchase Ledger
 company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2264250
+job_id: jobg8-23643_225819863
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1739,6 +1739,18 @@ company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2289016
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: OutThere RPO Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225749059
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

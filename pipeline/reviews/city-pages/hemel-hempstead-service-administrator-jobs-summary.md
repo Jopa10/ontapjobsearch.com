@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 103
+- automatic review: 102
 - automatic exclude: 0
 - effective include: 7
-- effective review: 103
+- effective review: 102
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -44,7 +44,7 @@ title: Accounts Payable Assistant
 company: Think Accountancy and Finance - Agency - Permanent
 location: Hemel Hempstead
 source: JobG8
-job_id: jobg8-2266368
+job_id: jobg8-2299561
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225771491
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (103)
+## REVIEW (102)
 
 ---
 action: 
@@ -130,7 +130,7 @@ title: Accounts Assistant
 company: Berry Recruitment - Agency - Permanent
 location: Harpenden
 source: JobG8
-job_id: jobg8-2263263
+job_id: jobg8-2296791
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -190,7 +190,7 @@ title: Accounts Assistant
 company: Every Step Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2248575
+job_id: jobg8-2299489
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -214,7 +214,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2246215
+job_id: jobg8-2296324
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -238,7 +238,7 @@ title: Accounts Assistant
 company: The GK Group Limited - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2246089
+job_id: jobg8-2296103
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -715,18 +715,6 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225714630
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
 company: Casanovas Recruitment Solutions - Agency - Permanent
 location: Hertfordshire
 source: JobG8
@@ -922,7 +910,7 @@ title: Marketing Campaign Manager
 company: The Institution of Engineering & Technology - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2268023
+job_id: jobg8-2301496
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1054,7 +1042,7 @@ title: Private Client Legal Assistant
 company: G2 Legal Limited - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2248743
+job_id: jobg8-2299688
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1246,7 +1234,7 @@ title: Senior Communications and PR Executive
 company: The Institution of Engineering & Technology - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2267986
+job_id: jobg8-2301477
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1306,7 +1294,7 @@ title: Subcontract Administrator
 company: Adecco - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2220000
+job_id: jobg8-2299863
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

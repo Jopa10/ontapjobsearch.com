@@ -126,6 +126,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Female Waking Night Support Worker
+company: SeeAbility - Agency - Permanent
+location: Tadley
+source: JobG8
+job_id: jobg8-108316978
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Health Care Assistants (HCA)
 company: Varang Recruitment - Agency - Permanent
 location: Hampshire
@@ -191,18 +203,6 @@ company: First For Support - Agency - Temporary
 location: Tadley
 source: JobG8
 job_id: jobg8-23643_225781662
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker
-company: National Care Group Ltd - Agency - Permanent
-location: New Milton
-source: JobG8
-job_id: jobg8-108247055
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 

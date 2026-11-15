@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 53
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 10
-- effective review: 53
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225397260
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (54)
 
 ---
 action: 
@@ -178,7 +178,7 @@ title: Accounts Assistant
 company: AD Finance - Agency - Permanent
 location: Wednesbury
 source: JobG8
-job_id: jobg8-2248012
+job_id: jobg8-2298640
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -318,6 +318,18 @@ reason: The stated location is broader or less specific than the approved Walsal
 action: 
 decision: review
 automatic_decision: review
+title: Asbestos Removals Administrator / Coordinator
+company: Future Select Recruitment - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-23643_225751147
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Assistant Company Secretary
 company: Reed - Agency - Permanent
 location: Wolverhampton
@@ -382,7 +394,7 @@ title: Bookkeeper
 company: Fortis Recruitment Solutions Ltd - Agency - Permanent
 location: Wolverhampton
 source: JobG8
-job_id: jobg8-2248714
+job_id: jobg8-2299677
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -430,7 +442,7 @@ title: Credit Controller
 company: Pertemps Black Country Perms - Agency - Permanent
 location: Smethwick
 source: JobG8
-job_id: jobg8-2264842
+job_id: jobg8-2299128
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 
@@ -442,7 +454,7 @@ title: Credit Controller
 company: Robert Walters - Agency - Permanent
 location: Wolverhampton
 source: JobG8
-job_id: jobg8-2262733
+job_id: jobg8-2296147
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -478,7 +490,7 @@ title: Immediate Start Accounts Payable Clerk
 company: Mitchell Adam - Agency - Permanent
 location: Dudley
 source: JobG8
-job_id: jobg8-2264826
+job_id: jobg8-2299115
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -694,7 +706,7 @@ title: Supply Chain Administrator
 company: Adecco - Agency - Permanent
 location: Wolverhampton
 source: JobG8
-job_id: jobg8-2249898
+job_id: jobg8-2301415
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

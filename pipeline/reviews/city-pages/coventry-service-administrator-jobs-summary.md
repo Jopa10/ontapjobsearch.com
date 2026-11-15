@@ -288,7 +288,7 @@ title: Accounts Assistant
 company: Mitchell Adam - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2268268
+job_id: jobg8-2301872
 reason: Separate employment market.
 ---
 
@@ -300,7 +300,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Stratford-Upon-Avon
 source: JobG8
-job_id: jobg8-2266965
+job_id: jobg8-2300558
 reason: Separate employment market.
 ---
 
@@ -444,7 +444,7 @@ title: Billings Administrator
 company: Arden Personnel - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2268394
+job_id: jobg8-2302055
 reason: Separate employment market.
 ---
 
@@ -480,7 +480,7 @@ title: BMW Accounts Assistant
 company: Sytner Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2218020
+job_id: jobg8-2297341
 reason: Separate employment market.
 ---
 
@@ -1032,7 +1032,7 @@ title: Marketing Assistant
 company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2218087
+job_id: jobg8-2297357
 reason: Separate employment market.
 ---
 
@@ -1092,7 +1092,7 @@ title: Payroll Administrator
 company: 3 Point Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2217524
+job_id: jobg8-2296690
 reason: Separate employment market.
 ---
 
@@ -1162,9 +1162,9 @@ decision: exclude
 automatic_decision: exclude
 title: Purchase Ledger Clerk
 company: 3 Point Recruitment - Agency - Permanent
-location: Warwickshire
+location: Warwick
 source: JobG8
-job_id: jobg8-2222107
+job_id: jobg8-2229140
 reason: Separate employment market.
 ---
 
@@ -1174,9 +1174,9 @@ decision: exclude
 automatic_decision: exclude
 title: Purchase Ledger Clerk
 company: 3 Point Recruitment - Agency - Permanent
-location: Warwick
+location: Warwickshire
 source: JobG8
-job_id: jobg8-2229140
+job_id: jobg8-2302387
 reason: Separate employment market.
 ---
 
@@ -1296,7 +1296,7 @@ title: Sales Ledger Clerk
 company: Mitchell Adam - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2262797
+job_id: jobg8-2296254
 reason: Separate employment market.
 ---
 
@@ -1452,7 +1452,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2284873
+job_id: jobg8-2295664
 reason: Separate employment market.
 ---
 

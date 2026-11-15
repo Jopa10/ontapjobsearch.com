@@ -176,7 +176,7 @@ title: Part Time Accounts Assistant
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
 source: JobG8
-job_id: jobg8-2218913
+job_id: jobg8-2297971
 reason: Exact approved Leicester workplace.
 ---
 
@@ -200,7 +200,7 @@ title: Purchase Ledger Clerk
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
 source: JobG8
-job_id: jobg8-2267969
+job_id: jobg8-2301471
 reason: Exact approved Leicester workplace.
 ---
 
@@ -562,7 +562,7 @@ title: Commercial Insurance Administrator
 company: Stride Resource Management - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2218541
+job_id: jobg8-2298156
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -862,7 +862,7 @@ title: Payroll Officer
 company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2267126
+job_id: jobg8-2300910
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -946,7 +946,7 @@ title: Purchase Ledger CXlerk
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Glenfield
 source: JobG8
-job_id: jobg8-2219242
+job_id: jobg8-2298884
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -958,7 +958,7 @@ title: Purchasing Administrator Apprentice
 company: BPX Electro Mechanical Co Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2218120
+job_id: jobg8-2297373
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1102,7 +1102,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2284878
+job_id: jobg8-2295669
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1126,7 +1126,7 @@ title: Travel and Expenses Administrator
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2249820
+job_id: jobg8-2301220
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

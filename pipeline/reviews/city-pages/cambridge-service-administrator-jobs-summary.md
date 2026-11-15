@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 49
+- Effective included jobs: 50
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 49
+- automatic include: 50
 - automatic review: 18
-- automatic exclude: 27
-- effective include: 49
+- automatic exclude: 28
+- effective include: 50
 - effective review: 18
-- effective exclude: 27
+- effective exclude: 28
 
-## INCLUDE (49)
+## INCLUDE (50)
 
 ---
 action: 
@@ -68,7 +68,7 @@ title: Accounts Receivable
 company: Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2245828
+job_id: jobg8-2295815
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -212,7 +212,7 @@ title: Finance Administrator
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2264251
+job_id: jobg8-2298382
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -333,6 +333,18 @@ company: Infinity Recruitment Consultancy Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225795756
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator (IT)
+company: The Perse School - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225748756
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -500,7 +512,7 @@ title: Part Time Bookkeeper - Accountancy Practice
 company: Butler Rose - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2250224
+job_id: jobg8-2302016
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -560,7 +572,7 @@ title: Purchase Ledger Clerk
 company: LHH Recruitment Solutions - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2220704
+job_id: jobg8-2300808
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -830,7 +842,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -900,7 +912,7 @@ title: Credit Control Admin
 company: Robert Half - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2220802
+job_id: jobg8-2300984
 reason: Separate employment market.
 ---
 
@@ -948,7 +960,7 @@ title: Credit Controller
 company: Outsource UK - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2263960
+job_id: jobg8-2297655
 reason: Separate employment market.
 ---
 
@@ -985,6 +997,18 @@ company: ALH Recruitment Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2280348
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator
+company: Interaction Recruitment - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225750441
 reason: Separate employment market.
 ---
 
@@ -1092,7 +1116,7 @@ title: Senior Marketing Executive
 company: Proximity Recruitment - Agency - Permanent
 location: Huntingdon
 source: JobG8
-job_id: jobg8-2247104
+job_id: jobg8-2297424
 reason: Separate employment market.
 ---
 

@@ -130,7 +130,7 @@ title: Bookkeeper
 company: Robert Half - Agency - Permanent
 location: Bridgend
 source: JobG8
-job_id: jobg8-2266463
+job_id: jobg8-2299724
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

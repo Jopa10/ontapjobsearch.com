@@ -166,7 +166,7 @@ title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2246890
+job_id: jobg8-2297206
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -214,7 +214,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2284868
+job_id: jobg8-2295659
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

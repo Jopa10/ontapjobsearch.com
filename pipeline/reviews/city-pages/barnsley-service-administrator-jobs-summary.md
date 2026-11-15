@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 8
 - automatic review: 11
 - automatic exclude: 65
-- effective include: 7
+- effective include: 8
 - effective review: 11
 - effective exclude: 65
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -105,6 +105,18 @@ company: IPS Group - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-2175838
+reason: Approved Barnsley catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Training Coordinator
+company: Charto Recruitment Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225749128
 reason: Approved Barnsley catchment.
 ---
 
@@ -238,7 +250,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2284885
+job_id: jobg8-2295676
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -360,7 +372,7 @@ title: Central Transport Purchasing Administrator
 company: ReFood - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2264115
+job_id: jobg8-2298105
 reason: Separate employment market.
 ---
 
@@ -456,7 +468,7 @@ title: Customer Service Advisor
 company: Blundells - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2281566
+job_id: jobg8-2303130
 reason: Separate employment market.
 ---
 
@@ -504,19 +516,7 @@ title: Debt Recovery Paralegal
 company: CRA Consulting - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2266415
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Disrepair Coordinator
-company: The Guinness Partnership - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225811889
+job_id: jobg8-2299591
 reason: Separate employment market.
 ---
 
@@ -529,6 +529,18 @@ company: Build Recruitment - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225814635
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Education Delivery Coordinator, Alternative Provision South Yorkshire (new Yorkshire office opening early 2027)
+company: AP Education - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225830921
 reason: Separate employment market.
 ---
 
@@ -696,7 +708,7 @@ title: Paralegal
 company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2247783
+job_id: jobg8-2298573
 reason: Separate employment market.
 ---
 
@@ -816,7 +828,7 @@ title: Payroll Administrator
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2266717
+job_id: jobg8-2300272
 reason: Separate employment market.
 ---
 

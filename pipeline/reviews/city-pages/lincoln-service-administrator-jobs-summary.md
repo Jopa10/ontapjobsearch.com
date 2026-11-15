@@ -176,7 +176,7 @@ title: Legal Assistant
 company: G2 Legal Limited - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2219717
+job_id: jobg8-2299599
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -466,7 +466,7 @@ title: Finance Administrator
 company: Future Prospects - Agency - Permanent
 location: Grantham
 source: JobG8
-job_id: jobg8-2264167
+job_id: jobg8-2298257
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

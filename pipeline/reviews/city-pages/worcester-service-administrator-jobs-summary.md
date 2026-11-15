@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 33
+- automatic review: 32
 - automatic exclude: 0
 - effective include: 5
-- effective review: 33
+- effective review: 32
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (32)
 
 ---
 action: 
@@ -142,7 +142,7 @@ title: BMW Accounts Assistant
 company: Sytner Group - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2218066
+job_id: jobg8-2297353
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -467,18 +467,6 @@ company: SRG - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225774635
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Weekend Receptionist
-company: Listers - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-108307904
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

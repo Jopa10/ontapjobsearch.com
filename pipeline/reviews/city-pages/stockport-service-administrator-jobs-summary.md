@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 34
+- automatic review: 35
 - automatic exclude: 0
 - effective include: 17
-- effective review: 34
+- effective review: 35
 - effective exclude: 0
 
 ## INCLUDE (17)
@@ -104,7 +104,7 @@ title: Lettings Coordinator
 company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-2248507
+job_id: jobg8-2299253
 reason: Exact approved Stockport workplace.
 ---
 
@@ -200,7 +200,7 @@ title: Post Appointment Insolvency Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-2246744
+job_id: jobg8-2296915
 reason: Exact approved Stockport workplace.
 ---
 
@@ -228,7 +228,7 @@ job_id: jobg8-23643_225778251
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (35)
 
 ---
 action: 
@@ -538,7 +538,7 @@ title: Finance Assistant / Stock Controller
 company: AWD online - Agency - Permanent
 location: Hyde
 source: JobG8
-job_id: jobg8-2220786
+job_id: jobg8-2300980
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -587,6 +587,18 @@ company: Adecco - Agency - Temporary
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225815933
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Rogers McHugh Recruitment - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225748331
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

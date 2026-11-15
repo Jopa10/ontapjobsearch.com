@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 65
+- automatic review: 64
 - automatic exclude: 0
 - effective include: 9
-- effective review: 65
+- effective review: 64
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: nhs-5706522
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (65)
+## REVIEW (64)
 
 ---
 action: 
@@ -142,7 +142,7 @@ title: Account Manager
 company: Collaborate Recruitment - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-2220382
+job_id: jobg8-2300181
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -154,7 +154,7 @@ title: Accounts Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2220843
+job_id: jobg8-2300999
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -382,7 +382,7 @@ title: Credit Controller
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2221373
+job_id: jobg8-2301520
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -438,18 +438,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108203744
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Document Administrator
 company: Randstad Construction and Property - Agency - Permanent
 location: Dorset
@@ -466,7 +454,7 @@ title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2220951
+job_id: jobg8-2301160
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -740,9 +728,9 @@ decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
-location: Poole
+location: Dorset
 source: JobG8
-job_id: jobg8-2220559
+job_id: jobg8-2277257
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -752,9 +740,9 @@ decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
-location: Dorset
+location: Poole
 source: JobG8
-job_id: jobg8-2277257
+job_id: jobg8-2300440
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

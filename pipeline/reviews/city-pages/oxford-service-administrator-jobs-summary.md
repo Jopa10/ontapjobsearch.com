@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 24
+- automatic review: 23
 - automatic exclude: 58
 - effective include: 16
-- effective review: 24
+- effective review: 23
 - effective exclude: 58
 
 ## INCLUDE (16)
@@ -44,7 +44,7 @@ title: Accounts Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Oxford
 source: JobG8
-job_id: jobg8-2219724
+job_id: jobg8-2299605
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -216,7 +216,7 @@ job_id: nhs-5716518
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (23)
 
 ---
 action: 
@@ -455,18 +455,6 @@ company: ISQ Recruitment - Agency - Permanent
 location: Bicester
 source: JobG8
 job_id: jobg8-2270827
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator
-company: Cameo Consultancy - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-23643_225764102
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -744,7 +732,7 @@ title: Finance Officer
 company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2267211
+job_id: jobg8-2300936
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -816,7 +804,7 @@ title: Legal Assistant
 company: Oculus Legal Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2217589
+job_id: jobg8-2296834
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -972,7 +960,7 @@ title: Payroll Administrator (12 Month Fixed Term Maternity Cover)
 company: Verallo - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2249409
+job_id: jobg8-2300702
 reason: Broad county location; not Oxford-city evidence.
 ---
 

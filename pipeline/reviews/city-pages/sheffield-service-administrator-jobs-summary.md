@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 40
 - automatic review: 11
-- automatic exclude: 32
+- automatic exclude: 33
 - effective include: 40
 - effective review: 11
-- effective exclude: 32
+- effective exclude: 33
 
 ## INCLUDE (40)
 
@@ -176,7 +176,7 @@ title: Customer Service Advisor
 company: Blundells - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2281566
+job_id: jobg8-2303130
 reason: Approved Sheffield catchment.
 ---
 
@@ -212,19 +212,7 @@ title: Debt Recovery Paralegal
 company: CRA Consulting - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2266415
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Disrepair Coordinator
-company: The Guinness Partnership - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225811889
+job_id: jobg8-2299591
 reason: Approved Sheffield catchment.
 ---
 
@@ -237,6 +225,18 @@ company: Build Recruitment - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225814635
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Education Delivery Coordinator, Alternative Provision South Yorkshire (new Yorkshire office opening early 2027)
+company: AP Education - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225830921
 reason: Approved Sheffield catchment.
 ---
 
@@ -634,11 +634,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2284885
+job_id: jobg8-2295676
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -696,7 +696,7 @@ title: Central Transport Purchasing Administrator
 company: ReFood - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2264115
+job_id: jobg8-2298105
 reason: Separate employment market.
 ---
 
@@ -852,7 +852,7 @@ title: Paralegal
 company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2247783
+job_id: jobg8-2298573
 reason: Separate employment market.
 ---
 
@@ -912,7 +912,7 @@ title: Payroll Administrator
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2266717
+job_id: jobg8-2300272
 reason: Separate employment market.
 ---
 
@@ -1021,5 +1021,17 @@ company: Office Angels - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-2281849
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Training Coordinator
+company: Charto Recruitment Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225749128
 reason: Separate employment market.
 ---

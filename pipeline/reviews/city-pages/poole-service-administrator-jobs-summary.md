@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 54
+- automatic review: 53
 - automatic exclude: 0
 - effective include: 20
-- effective review: 54
+- effective review: 53
 - effective exclude: 0
 
 ## INCLUDE (20)
@@ -32,7 +32,7 @@ title: Account Manager
 company: Collaborate Recruitment - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-2220382
+job_id: jobg8-2300181
 reason: Exact approved Poole workplace.
 ---
 
@@ -200,7 +200,7 @@ title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-2220559
+job_id: jobg8-2300440
 reason: Exact approved Poole workplace.
 ---
 
@@ -264,7 +264,7 @@ job_id: jobg8-23643_225817065
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (53)
 
 ---
 action: 
@@ -274,7 +274,7 @@ title: Accounts Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2220843
+job_id: jobg8-2300999
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -478,7 +478,7 @@ title: Credit Controller
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2221373
+job_id: jobg8-2301520
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -570,18 +570,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108203744
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Document Administrator
 company: Randstad Construction and Property - Agency - Permanent
 location: Dorset
@@ -598,7 +586,7 @@ title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2220951
+job_id: jobg8-2301160
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

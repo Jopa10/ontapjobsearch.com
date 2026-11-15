@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 16
 - automatic review: 36
 - automatic exclude: 0
-- effective include: 15
+- effective include: 16
 - effective review: 36
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (16)
 
 ---
 action: 
@@ -189,6 +189,18 @@ company: Adecco - Agency - Temporary
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225815933
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
+company: Rogers McHugh Recruitment - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225748331
 reason: Exact approved Altrincham workplace.
 ---
 
@@ -442,7 +454,7 @@ title: Finance Assistant / Stock Controller
 company: AWD online - Agency - Permanent
 location: Hyde
 source: JobG8
-job_id: jobg8-2220786
+job_id: jobg8-2300980
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -466,7 +478,7 @@ title: Lettings Coordinator
 company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-2248507
+job_id: jobg8-2299253
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -574,7 +586,7 @@ title: Post Appointment Insolvency Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-2246744
+job_id: jobg8-2296915
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

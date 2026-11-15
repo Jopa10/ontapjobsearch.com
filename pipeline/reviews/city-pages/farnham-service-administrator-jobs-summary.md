@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 189
+- automatic review: 190
 - automatic exclude: 0
 - effective include: 6
-- effective review: 189
+- effective review: 190
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225825665
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (189)
+## REVIEW (190)
 
 ---
 action: 
@@ -178,7 +178,7 @@ title: Accounts Administrator (QuickBooks)
 company: Kenneth Brian Associates Limited - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2247029
+job_id: jobg8-2297247
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1042,7 +1042,7 @@ title: Finance Assistant (Sales Ledger)
 company: YourRecruit - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2266545
+job_id: jobg8-2299758
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1066,7 +1066,7 @@ title: Finance Officer 12 Month Fixed-Term Contract
 company: This is Alexander Faraday Recruitment - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2217799
+job_id: jobg8-2297004
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1126,7 +1126,7 @@ title: Graduate Accounts Assistant
 company: Kenneth Brian Associates Limited - Agency - Permanent
 location: Reigate
 source: JobG8
-job_id: jobg8-2217895
+job_id: jobg8-2297155
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1290,6 +1290,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Learning Coordinator
+company: Huntress - Maidstone - Agency - Temporary
+location: Surrey
+source: JobG8
+job_id: jobg8-23643_225750523
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal PA
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
@@ -1330,7 +1342,7 @@ title: Legal Personal Assistant
 company: Reed - Agency - Permanent
 location: Guildford
 source: JobG8
-job_id: jobg8-2218395
+job_id: jobg8-2297968
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1450,7 +1462,7 @@ title: Marketing Executive
 company: Mulberry Recruitment - Agency - Permanent
 location: Godalming
 source: JobG8
-job_id: jobg8-2249406
+job_id: jobg8-2300700
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

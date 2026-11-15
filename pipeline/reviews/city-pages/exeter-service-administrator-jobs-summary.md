@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 26
-- automatic review: 58
+- automatic review: 59
 - automatic exclude: 0
 - effective include: 26
-- effective review: 58
+- effective review: 59
 - effective exclude: 0
 
 ## INCLUDE (26)
@@ -336,7 +336,7 @@ job_id: jobg8-23643_225782201
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (59)
 
 ---
 action: 
@@ -431,6 +431,18 @@ company: Hays Business Support - Agency - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225795021
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Pertemps Bridgwater - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-108313409
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -670,7 +682,7 @@ title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Plymouth
 source: JobG8
-job_id: jobg8-2267901
+job_id: jobg8-2301323
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

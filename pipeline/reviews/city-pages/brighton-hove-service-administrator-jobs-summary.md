@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 120
-- automatic exclude: 33
+- automatic review: 119
+- automatic exclude: 32
 - effective include: 12
-- effective review: 120
-- effective exclude: 33
+- effective review: 119
+- effective exclude: 32
 
 ## INCLUDE (12)
 
@@ -168,7 +168,7 @@ job_id: nhs-5704086
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (120)
+## REVIEW (119)
 
 ---
 action: 
@@ -706,7 +706,7 @@ title: Digital & Social Media Coordinator
 company: Pineapple Careers - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2247318
+job_id: jobg8-2297805
 reason: Broad location; review before city inclusion.
 ---
 
@@ -731,18 +731,6 @@ company: William Reed - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2221606
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Facilities and Administration Coordinator
-company: Morgan Mckinley (Crawley) - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225736208
 reason: Broad location; review before city inclusion.
 ---
 
@@ -802,7 +790,7 @@ title: Finance Officer - Charity Sector
 company: Grafton Banks Limited - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2221785
+job_id: jobg8-2302071
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1606,11 +1594,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2284870
+job_id: jobg8-2295661
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -1825,18 +1813,6 @@ company: TN Recruits - Agency - Permanent
 location: Eastbourne
 source: JobG8
 job_id: jobg8-2157738
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Coordinator / Sales Administrator - Immediate Start
-company: Office Angels - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225736740
 reason: Separate employment market.
 ---
 

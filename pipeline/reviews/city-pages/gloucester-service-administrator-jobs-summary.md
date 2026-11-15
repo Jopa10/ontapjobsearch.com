@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 70
+- automatic review: 69
 - automatic exclude: 0
 - effective include: 17
-- effective review: 70
+- effective review: 69
 - effective exclude: 0
 
 ## INCLUDE (17)
@@ -128,7 +128,7 @@ title: Purchase Ledger Administrator
 company: Morgan McKinley - Agency - Permanent
 location: Gloucester
 source: JobG8
-job_id: jobg8-2267369
+job_id: jobg8-2301086
 reason: Exact approved Gloucester workplace.
 ---
 
@@ -228,7 +228,7 @@ job_id: jobg8-23643_225790550
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (70)
+## REVIEW (69)
 
 ---
 action: 
@@ -238,7 +238,7 @@ title: Accounts Administrator
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2264037
+job_id: jobg8-2297860
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -358,19 +358,7 @@ title: Bookkeeping and payroll assistant
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2220558
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims Administrator
-company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225737090
+job_id: jobg8-2300439
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -526,7 +514,7 @@ title: Digital Communications Executive
 company: Wildfowl & Wetland Trust - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2266798
+job_id: jobg8-2300315
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -646,7 +634,7 @@ title: French speaking Payroll & HR Coordinator
 company: Euro London - Agency - Permanent
 location: Cirencester
 source: JobG8
-job_id: jobg8-2246202
+job_id: jobg8-2296318
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -1018,7 +1006,7 @@ title: Temporary Bookkeeping & Payroll Assistant
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2262923
+job_id: jobg8-2296485
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -1054,7 +1042,7 @@ title: Trainee Insurance Administrator
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2264018
+job_id: jobg8-2297268
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

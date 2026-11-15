@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 83
+- automatic review: 84
 - automatic exclude: 0
 - effective include: 9
-- effective review: 83
+- effective review: 84
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -44,7 +44,7 @@ title: Credit Controller
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2249855
+job_id: jobg8-2301237
 reason: Exact approved Bath workplace.
 ---
 
@@ -128,11 +128,11 @@ title: Property Coordinator
 company: Allen and Harris - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2281752
+job_id: jobg8-2303159
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (83)
+## REVIEW (84)
 
 ---
 action: 
@@ -166,7 +166,7 @@ title: Accounts Assistant
 company: Jury O&;Shea LLP - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2225610
+job_id: jobg8-2298160
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -262,7 +262,7 @@ title: Business & Marketing Graduate
 company: Elix Sourcing Solutions Limited - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2262244
+job_id: jobg8-2295811
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -370,7 +370,7 @@ title: Credit Controller
 company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2263191
+job_id: jobg8-2296767
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -455,6 +455,18 @@ company: PSR Solutions - Agency - Contract
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225763843
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Engineer Administrator
+company: AMS CWS - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-108322428
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -694,7 +706,7 @@ title: Litigation Paralegal
 company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2263892
+job_id: jobg8-2297617
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1090,7 +1102,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2284871
+job_id: jobg8-2295662
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

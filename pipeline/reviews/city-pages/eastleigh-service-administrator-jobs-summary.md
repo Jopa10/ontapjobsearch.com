@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 116
+- automatic review: 117
 - automatic exclude: 53
 - effective include: 6
-- effective review: 116
+- effective review: 117
 - effective exclude: 53
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225810949
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (116)
+## REVIEW (117)
 
 ---
 action: 
@@ -262,7 +262,7 @@ title: Accounts Assistant
 company: We Do Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2250390
+job_id: jobg8-2302228
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -287,6 +287,18 @@ company: Agincare Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-108278716
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Care Concern Group - Company - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-108314514
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -514,7 +526,7 @@ title: Credit Controller
 company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2217555
+job_id: jobg8-2296819
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -730,7 +742,7 @@ title: Finance Assistant
 company: ParkAndersen - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2267770
+job_id: jobg8-2301128
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -990,18 +1002,6 @@ reason: No approved Eastleigh employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Office/Scheduling Administrator
-company: Assured Fire Safety Consultancy Ltd - Agency - Permanent
-location: Fleet
-source: JobG8
-job_id: jobg8-23643_225736878
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Onboarding Coordinator
 company: Gattaca PLC - Agency - Permanent
 location: Hampshire
@@ -1210,7 +1210,7 @@ title: Purchase Ledger
 company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2264250
+job_id: jobg8-23643_225819863
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -1247,6 +1247,18 @@ company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2289016
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: OutThere RPO Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225749059
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -1644,7 +1656,7 @@ title: Brand Manager
 company: Pure Human Resources - Agency - Permanent
 location: Andover
 source: JobG8
-job_id: jobg8-2250220
+job_id: jobg8-2301945
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
