@@ -1,12 +1,12 @@
 ﻿metric,value
-total rows input,40045
-total rows included,263
-total rows dropped,39630
-title classification count - HIGH_CONFIDENCE,810
-title classification count - ELASTIC_FIT,244
+total rows input,40353
+total rows included,264
+total rows dropped,39936
+title classification count - HIGH_CONFIDENCE,811
+title classification count - ELASTIC_FIT,245
 title classification count - REVIEW_CONTEXT_DEPENDENT,112
-title classification count - HARD_PASS,20276
-title classification count - OUT_OF_SCOPE,18603
+title classification count - HARD_PASS,20470
+title classification count - OUT_OF_SCOPE,18715
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,5
@@ -40,21 +40,21 @@ other elastic count - Sussex,8
 total rows output - Sussex,39
 job_id included - Sussex,23643_222307132; 23643_225754126; 23643_225467680; 23643_225737488; 23643_225828867; 23643_225828850; 23643_225828846; 23643_225828864; 23643_225828849; 23643_225828869; 23643_225836354; 23643_225750767; 23643_225786658; 23643_225806451; 23643_225761986; 23643_225836353; 23643_225768622; 23643_225739546; 23643_225831820; 23643_225793834; 23643_225788644; 23643_225795181; 23643_225811985; 23643_225792612; 23643_225823996; 23643_225800354; 23643_225800269; 23643_225414813; 23643_225823983; 23643_225836352; 23643_225836355; 23643_225467693; 23643_225828853; 23643_225634209; 23643_225800070; 23643_225769816; 23643_225820014; 23643_225777711; 23643_225792096
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Cumbria - South,Cumbria - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Cumbria - South,4
+selection message - Cumbria - South,Cumbria - South selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Cumbria - South,5
 high confidence count - Cumbria - South,1
 anchor elastic count - Cumbria - South,1
-other elastic count - Cumbria - South,2
-total rows output - Cumbria - South,4
-job_id included - Cumbria - South,108278854; 108299319; 108317128; 108318897
+other elastic count - Cumbria - South,3
+total rows output - Cumbria - South,5
+job_id included - Cumbria - South,108278854; 108299319; 108310093; 108317128; 108318897
 selection scenario - Hampshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - Hampshire,"Hampshire selection complete: 22 selected after HIGH_CONFIDENCE, Southampton ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - Hampshire,22
-high confidence count - Hampshire,20
+high confidence count - Hampshire,21
 anchor elastic count - Hampshire,0
-other elastic count - Hampshire,2
+other elastic count - Hampshire,1
 total rows output - Hampshire,22
-job_id included - Hampshire,108288427; 23643_225813909; 23643_225820911; 23643_209680922; 1401786179; 23643_225815477; 23643_223548398; 23643_225779158; 23643_225636734; 23643_225779755; 23643_225781662; 23643_225790173; 23643_225653471; 108264620; 23643_225825929; 108298282; 108270897; 23643_225827174; 1401786463; 1401786329; 23643_225745178; 108316978
+job_id included - Hampshire,108288427; 23643_225813909; 23643_225820911; 23643_209680922; 1401786179; 23643_225815477; 23643_223548398; 23643_225779158; 23643_225636734; 23643_225779755; 23643_225781662; 23643_225790173; 23643_225653471; 108264620; 23643_225825929; 108298282; 108270897; 23643_225827174; 1401786463; 1401786329; 108321029; 23643_225745178
 selection scenario - Berkshire,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC
 selection message - Berkshire,Berkshire selection complete: HIGH_CONFIDENCE plus Reading ELASTIC_FIT selected.
 credible total - Berkshire,9

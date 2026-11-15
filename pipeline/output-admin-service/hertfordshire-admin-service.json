@@ -1281,31 +1281,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2270952",
-    "title": "Interim Credit Controller - 6 month contract",
-    "company": "Accountancy Action - Agency - Permanent",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Interim Credit Controller - 6 Month Contract\n\nMy client is looking to recruit an experienced Credit Controller to join their team on an initial 6 month contract.\n\nTaking responsibility for your own customer accounts, you will play a key role in managing outstanding debt, minimising DSO and ensuring the timely resolution of customer queries. Working closely with customers and internal departments, you will be confident in building effective relationships and resolving issues.\n\nThis role would suit a proactive and tenacious individual who is comfortable taking ownership of their own accounts, identifying potential credit risks and working to achieve cash collection targets.\n\nThe Ideal Candidate:\n\nYou will be an experienced Credit Controller with a proven track record in managing your own ledger and achieving effective cash collection. You will have excellent communication and negotiation skills, a strong attention to detail and the ability to build positive relationships with customers and colleagues across the business.\n\nThis is an excellent opportunity for an experienced Credit Controller who is available for an interim assignment and can hit the ground running.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?KY4ye8HUBXxesMDX0b5jSZboIV4HHaeGc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Accountancy Action",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225826299",
     "title": "Finance Assistant",
     "company": "Parkside - Agency - Contract",
@@ -1700,6 +1675,31 @@
     "working_arrangement_text": "Hybrid working",
     "working_arrangement_evidence": "Subcontract Administrator Subcontract Administrator Stevenage (Office-based, not hybrid) 39 hours per week £29,000 + excellent benefits Our client, a leading manufacturing and production business, is seeking a Subcontract Administrator to join their Stevenage team.",
     "advertiser_name": "Adecco",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "2304710",
+    "title": "Interim Credit Controller - 6 month contract",
+    "company": "Accountancy Action - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Interim Credit Controller - 6 Month Contract\n\nMy client is looking to recruit an experienced Credit Controller to join their team on an initial 6 month contract.\n\nTaking responsibility for your own customer accounts, you will play a key role in managing outstanding debt, minimising DSO and ensuring the timely resolution of customer queries. Working closely with customers and internal departments, you will be confident in building effective relationships and resolving issues.\n\nThis role would suit a proactive and tenacious individual who is comfortable taking ownership of their own accounts, identifying potential credit risks and working to achieve cash collection targets.\n\nThe Ideal Candidate:\n\nYou will be an experienced Credit Controller with a proven track record in managing your own ledger and achieving effective cash collection. You will have excellent communication and negotiation skills, a strong attention to detail and the ability to build positive relationships with customers and colleagues across the business.\n\nThis is an excellent opportunity for an experienced Credit Controller who is available for an interim assignment and can hit the ground running.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?GtUSkRX75DzkASje4RjWcgcm8uwmbIXob",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Accountancy Action",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -2146,7 +2146,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5702069",
@@ -2164,6 +2168,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2575",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2575",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

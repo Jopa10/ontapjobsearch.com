@@ -775,31 +775,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2273316",
-    "title": "Finance Assistant - Maternity Cover",
-    "company": "Outlook Publishing - Agency - Permanent",
-    "location": "Norfolk",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "27000",
-    "salary_max": "27000",
-    "salary_text": "£27000 per year",
-    "posted_date": "",
-    "description": "Job Role: Finance Assistant - Maternity Cover\n\nWe have an exciting opportunity for a Finance Assistant to join our team on a 12-month maternity cover basis.\n\nOutlook Publishing is an award-winning digital media publisher, providing business and lifestyle content to a diverse international audience. Our clients span Europe, The Middle East, Africa, Asia, Australia and North America.\n\nThe successful candidate will be responsible for providing pro-forma invoices at the point of sale, building relationships with clients, handling queries and information requests, and maintaining regular contact throughout the payment cycle.\n\nThe Finance Assistant will primarily utilise telephone and email communication to connect with clients around the world, so the successful candidate will be comfortable with a high volume of outbound calls and emails, and confident speaking with clients of varied nationality and seniority.\n\nPerson Specification:\n- Previous experience in an administrative and/or finance role\n- Experience of Microsoft OS and Windows\n- Thorough with an excellent attention to detail\n- A team player with strong work ethic\n- A confident telephone manner and all-round communicator\n- Good level of organisation and multi-tasking skills\n\nSchedule:\n- Mon-Fri: 7am-4pm\n- Location: Norwich (on-site)\n- Job type: Full time, fixed-term 12-month contract\n\nBenefits:\n- Salary of £27,000 per annum\n- 28 days annual leave inc. Bank Holidays\n- Personal and professional development opportunities\n- A friendly and productive working environment",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?EI3oDmW0F6kuSiunWWpfuvkFCMZT0EHUp",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Outlook Publishing",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2277200",
     "title": "Part-time Finance Assistant",
     "company": "Hays Specialist Recruitment Limited - Agency - Permanent",
@@ -1100,6 +1075,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2306389",
+    "title": "Finance Assistant - Maternity Cover",
+    "company": "Outlook Publishing - Agency - Permanent",
+    "location": "Norfolk",
+    "region": "Norfolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27000",
+    "salary_max": "27000",
+    "salary_text": "£27000 per year",
+    "posted_date": "",
+    "description": "Job Role: Finance Assistant - Maternity Cover\n\nWe have an exciting opportunity for a Finance Assistant to join our team on a 12-month maternity cover basis.\n\nOutlook Publishing is an award-winning digital media publisher, providing business and lifestyle content to a diverse international audience. Our clients span Europe, The Middle East, Africa, Asia, Australia and North America.\n\nThe successful candidate will be responsible for providing pro-forma invoices at the point of sale, building relationships with clients, handling queries and information requests, and maintaining regular contact throughout the payment cycle.\n\nThe Finance Assistant will primarily utilise telephone and email communication to connect with clients around the world, so the successful candidate will be comfortable with a high volume of outbound calls and emails, and confident speaking with clients of varied nationality and seniority.\n\nPerson Specification:\n- Previous experience in an administrative and/or finance role\n- Experience of Microsoft OS and Windows\n- Thorough with an excellent attention to detail\n- A team player with strong work ethic\n- A confident telephone manner and all-round communicator\n- Good level of organisation and multi-tasking skills\n\nSchedule:\n- Mon-Fri: 7am-4pm\n- Location: Norwich (on-site)\n- Job type: Full time, fixed-term 12-month contract\n\nBenefits:\n- Salary of £27,000 per annum\n- 28 days annual leave inc. Bank Holidays\n- Personal and professional development opportunities\n- A friendly and productive working environment",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?7Qtr4nk8kAxXZ0vnEixzVvrspYJuyW61w",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Outlook Publishing",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225752379",
     "title": "Supply Chain & Procurement Coordinator",
     "company": "Shorterm Group - Agency - Permanent",
@@ -1165,7 +1165,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-1069",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-1069",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5695775",
@@ -1183,7 +1187,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4552",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4552",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5724965",
@@ -1201,7 +1209,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0393",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0393",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5702991",
@@ -1219,7 +1231,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1050",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1050",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5691163",
@@ -1237,7 +1253,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1021",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-1021",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572899",
@@ -1255,6 +1275,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

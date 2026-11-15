@@ -2009,31 +2009,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2225023",
-    "title": "Finance Assistant",
-    "company": "Michael Page Finance - Agency - Permanent",
-    "location": "Sussex",
-    "region": "Sussex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£28,000 per year",
-    "posted_date": "",
-    "description": "As a Finance Assistant in Brighton, you will help keep day-to-day finance activity organised for the organisation, ensuring records and information are handled accurately. You will work within the Accounting & Finance department to provide reliable administrative support that helps the wider business run smoothly.\n\nClient Details\n\nThe organisation operates in an established sector in Brighton.\n\nDescription\n- Maintain accurate financial records and supporting documentation for day-to-day transactions.\n- Process finance information promptly to help keep records up to date.\n- Check data for accuracy and resolve straightforward discrepancies where needed.\n- Prepare clear finance information for review by colleagues in the Accounting & Finance department.\n- Organise financial files and records so information can be located easily when required.\n- Respond to routine finance queries with clear and accurate information.\n- Support regular finance administration to keep processes running efficiently.\n\nProfile\n\nA successful Finance Assistant should have:\n- Experience of maintaining accurate financial records and documentation.\n- Confidence processing finance information with care and attention to detail.\n- Ability to check data, identify discrepancies and follow them through.\n- Experience preparing clear information for finance reviews.\n- Ability to organise files and manage routine finance administration.\n- Clear written communication skills for responding to finance queries.\n\nJob Offer\n- Permanent Finance Assistant position based in Brighton.\n- Salary of £28,000 to £30,000, dependent on the level of experience.\n\nIf you're interested in this role, apply now.\n\nPeople are at the heart of Michael Page. We are committed to creating an inclusive environment. As an inclusive recruiter we welcome applications from people of all backgrounds, identities and experiences. If you require any adjustments or accommodations during the recruitment process, we'll work with you to ensure you can perform at your best.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iEjrsl8n5i7a8yNgxeqPSgrjMBXEgjQpo",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Michael Page Finance",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2223725",
     "title": "Accounts Payable",
     "company": "CMA Recruitment Group - Agency - Permanent",
@@ -2305,6 +2280,31 @@
     "advertiser_name": "Lloyd Recruitment Services Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "2305157",
+    "title": "Finance Assistant",
+    "company": "Michael Page Finance - Agency - Permanent",
+    "location": "Sussex",
+    "region": "Sussex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£28,000 per year",
+    "posted_date": "",
+    "description": "As a Finance Assistant in Brighton, you will help keep day-to-day finance activity organised for the organisation, ensuring records and information are handled accurately. You will work within the Accounting & Finance department to provide reliable administrative support that helps the wider business run smoothly.\n\nClient Details\n\nThe organisation operates in an established sector in Brighton.\n\nDescription\n- Maintain accurate financial records and supporting documentation for day-to-day transactions.\n- Process finance information promptly to help keep records up to date.\n- Check data for accuracy and resolve straightforward discrepancies where needed.\n- Prepare clear finance information for review by colleagues in the Accounting & Finance department.\n- Organise financial files and records so information can be located easily when required.\n- Respond to routine finance queries with clear and accurate information.\n- Support regular finance administration to keep processes running efficiently.\n\nProfile\n\nA successful Finance Assistant should have:\n- Experience of maintaining accurate financial records and documentation.\n- Confidence processing finance information with care and attention to detail.\n- Ability to check data, identify discrepancies and follow them through.\n- Experience preparing clear information for finance reviews.\n- Ability to organise files and manage routine finance administration.\n- Clear written communication skills for responding to finance queries.\n\nJob Offer\n- Permanent Finance Assistant position based in Brighton.\n- Salary of £28,000 to £30,000, dependent on the level of experience.\n\nIf you're interested in this role, apply now.\n\nPeople are at the heart of Michael Page. We are committed to creating an inclusive environment. As an inclusive recruiter we welcome applications from people of all backgrounds, identities and experiences. If you require any adjustments or accommodations during the recruitment process, we'll work with you to ensure you can perform at your best.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?FRrQRv47Zn3qdCBUmCA5s5zT5HrdI3h4z",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Michael Page Finance",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -2799,7 +2799,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1335",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1335",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5715234",
@@ -2817,7 +2821,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3016-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3016-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5713590",
@@ -2835,7 +2843,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3728-26-0021",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3728-26-0021",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5712884",
@@ -2853,7 +2865,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1065-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1065-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5702104",
@@ -2871,7 +2887,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2597",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2597",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5727859",
@@ -2889,7 +2909,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3728-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3728-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5704086",
@@ -2907,6 +2931,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1288",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1288",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

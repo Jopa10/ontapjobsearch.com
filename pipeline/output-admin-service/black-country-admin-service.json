@@ -753,31 +753,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2270129",
-    "title": "Accounts Administrator",
-    "company": "Reed - Agency - Permanent",
-    "location": "Dudley",
-    "region": "West Midlands - Black Country",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "15",
-    "salary_max": "15",
-    "salary_text": "£15 per hour",
-    "posted_date": "",
-    "description": "Job Title: Accounts Administrator (Temporary Role)\n\nLocation: Dudley\n\nSalary: £15ph\n\nWe are currently recruiting for an Accounts Administrator, on a temporary basis, for a brilliant, local company that are well known in the area! We are looking for a candidate with at least 12 months' experience in an Accounts office, using a Sage package. This is a varied role across Accounts Payable, Accounts Receivable and Administration. There will be a hand over period for this role but previous experience in a varied Accounts role and use of Sage is essential.\n\nResponsibilities Will Include:\n- Matching delivery notes to supplier invoices\n- Entering purchase invoices onto Sage Accounts\n- Creating and processing customer invoices on Sage\n- Filing and maintaining accurate records and documentation\n\nIdeally, You Will:\n- Have a minimum of 12 months' experience working within an accounts or finance office environment\n- Have at least 12 months' experience using a Sage Accounts package\n- Have strong computer literacy and confidence using office systems\n- Be proactive, reliable and eager to learn new skills\n\nBenefits:\n- Join a supportive and friendly working environment, surrounded by likeminded people!\n- Benefit from a 2 week handover period, to settle you into the role!\n- Enjoy working in environment where there is lots to learn and support from those around you!\n- Benefit from free, on-site parking!\n\nWhat Now?\n\nIf you are interested in this position, please don't hesitate to apply as interviews can take place immediately!",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?5k%2b%2bCJQtvIWwBzgmqGmpHv%2fn48re6WZ%2bn",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Reed",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2285293",
     "title": "Accounts Receivable Administrator",
     "company": "People Solutions Group Limited - Agency - Permanent",
@@ -825,6 +800,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "2304201",
+    "title": "Accounts Administrator",
+    "company": "Reed - Agency - Permanent",
+    "location": "Dudley",
+    "region": "West Midlands - Black Country",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "15",
+    "salary_max": "15",
+    "salary_text": "£15 per hour",
+    "posted_date": "",
+    "description": "Job Title: Accounts Administrator (Temporary Role)\n\nLocation: Dudley\n\nSalary: £15ph\n\nWe are currently recruiting for an Accounts Administrator, on a temporary basis, for a brilliant, local company that are well known in the area! We are looking for a candidate with at least 12 months' experience in an Accounts office, using a Sage package. This is a varied role across Accounts Payable, Accounts Receivable and Administration. There will be a hand over period for this role but previous experience in a varied Accounts role and use of Sage is essential.\n\nResponsibilities Will Include:\n- Matching delivery notes to supplier invoices\n- Entering purchase invoices onto Sage Accounts\n- Creating and processing customer invoices on Sage\n- Filing and maintaining accurate records and documentation\n\nIdeally, You Will:\n- Have a minimum of 12 months' experience working within an accounts or finance office environment\n- Have at least 12 months' experience using a Sage Accounts package\n- Have strong computer literacy and confidence using office systems\n- Be proactive, reliable and eager to learn new skills\n\nBenefits:\n- Join a supportive and friendly working environment, surrounded by likeminded people!\n- Benefit from a 2 week handover period, to settle you into the role!\n- Enjoy working in environment where there is lots to learn and support from those around you!\n- Benefit from free, on-site parking!\n\nWhat Now?\n\nIf you are interested in this position, please don't hesitate to apply as interviews can take place immediately!",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?43PI6mYDPX0trlxpAP%2b1ozYu%2f8j%2bO0VSq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Reed",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
@@ -1243,7 +1243,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0796",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0796",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5725126",
@@ -1261,7 +1265,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0791",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0791",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5725105",
@@ -1279,7 +1287,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0790",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0790",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5724905",
@@ -1297,7 +1309,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0777",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0777",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5689520",
@@ -1315,7 +1331,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5089-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5089-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5710047",
@@ -1333,7 +1353,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0759",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0759",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5679905",
@@ -1351,7 +1375,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5253-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5253-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5700366",
@@ -1369,6 +1397,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3694-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3694-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
