@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-11-15
-generated_at: 2026-11-15T14:55:01+00:00
+generated_at: 2026-11-15T18:58:24+00:00
 
-**475 job(s) await a human decision; 0 already answered (475 review rows).**
+**477 job(s) await a human decision; 0 already answered (477 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-11-15 | 389 | — |
+| JobG8 | OK | 2026-11-15 | 391 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-11-15 | 6 | — |
 | Teaching Vacancies | OK | 2026-11-15 | 80 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 389 to review
+## JobG8 — 391 to review
 
 ---
 action:
@@ -843,6 +843,24 @@ hub_fingerprint: 87a5e5bc17cbe7e2f28e1299dd1166460de4d5f2f784d55385c5bab97595daa
 
 ---
 action:
+POSS | JobG8 | Essex | Brentwood | £93 - £130 per daily | Autism Support Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 108157907
+title: Autism Support Assistant
+employer: 
+location: Brentwood
+region: Essex
+salary: £93 - £130 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: e6a5abfa693f94e59efe869cbf55d983893a6367ba7f55e46fabbc4e52210bfc
+---
+
+---
+action:
 POSS | JobG8 | Essex | Chelmsford | £96.86 - £106 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -1387,7 +1405,7 @@ POSS | JobG8 | Greater Manchester - Manchester & Salford | Eccles | — | Financ
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2226304
+source_job_id: 2306325
 title: Finance Manager
 employer: 
 location: Eccles
@@ -1396,7 +1414,7 @@ salary:
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
 source_url: 
-hub_fingerprint: a53b7fd0b45f52306833a579dac6f4b83cdf234043400f4f1df43d3b98d94533
+hub_fingerprint: 8417d58a6846727dfd53e29084545556c9359acb7fc41c0c23fb0a4826ac51d3
 ---
 
 ---
@@ -2053,7 +2071,7 @@ POSS | JobG8 | Hertfordshire | Hertfordshire | £40000 per year | Finance Manage
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2271481
+source_job_id: 2305214
 title: Finance Manager / Bookkeeper - Part Time
 employer: 
 location: Hertfordshire
@@ -2062,7 +2080,7 @@ salary: £40000 per year
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
 source_url: 
-hub_fingerprint: 6f20c3f71163fe0d18c86db6f77b1600a3ed8529e3f807c38031ce957845e477
+hub_fingerprint: 64b8a65e33824365fc0c410fa9208692c25f6ef4ace9daa938f7d89405d87ed7
 ---
 
 ---
@@ -2431,7 +2449,7 @@ POSS | JobG8 | Lancashire - East | Blackburn | — | Fractional Financial Contro
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2252350
+source_job_id: 2305188
 title: Fractional Financial Controller
 employer: 
 location: Blackburn
@@ -2440,7 +2458,7 @@ salary:
 closing_date: 
 reason: possible manual_select candidate for review/swap
 source_url: 
-hub_fingerprint: 23f4b32a81d70c9743e2f66f5e858c66f865a2a9fddd6dc847a30c05bf8d24dc
+hub_fingerprint: 0361cc42830e6743e0b045ae2b209907b4aa89eb0acfebc65352c83549942bf9
 ---
 
 ---
@@ -2521,7 +2539,7 @@ POSS | JobG8 | Leicestershire | Leicestershire | £38,000 - £42,000 per year (F
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2226085
+source_job_id: 2306111
 title: Finance Manager - Part Time
 employer: 
 location: Leicestershire
@@ -2530,7 +2548,7 @@ salary: £38,000 - £42,000 per year (FTE)
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: professional accountancy qualification wording needs review; part-time manager role requires owner review
 source_url: 
-hub_fingerprint: 1d6fa25756774b6377e99acdb1c5caaaa2211d6023fbd40397a8b85c17bccf9e
+hub_fingerprint: 4bb1d57dd01a7017a2f681c3a9f90d017fe35cce3d587a92bbaef965de62a38c
 ---
 
 ---
@@ -3133,7 +3151,7 @@ POSS | JobG8 | London | Harrow | — | Senior Finance Officer
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2271269
+source_job_id: 2304930
 title: Senior Finance Officer
 employer: 
 location: Harrow
@@ -3142,7 +3160,7 @@ salary:
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
 source_url: 
-hub_fingerprint: 0f8a1555ccfa3a2625f924b84da521bfd98b7f392344d165eeb8e3f4d60eefae
+hub_fingerprint: 5f8866220e91db5585952c2729f509a1f09894c723709e54bf0585cefb8fde61
 ---
 
 ---
@@ -3385,7 +3403,7 @@ POSS | JobG8 | London | London | £35000 - £45000 per year | Bookkeeper - 2 day
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2224069
+source_job_id: 2304266
 title: Bookkeeper - 2 days per week
 employer: 
 location: London
@@ -3394,7 +3412,7 @@ salary: £35000 - £45000 per year
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: bookkeeper; manual review required: salary over £40k under normal selection rules
 source_url: 
-hub_fingerprint: a43f1d9c901f7be498ecdfda4897ee5f72d126d17b31ec2688920d7817a3c1e2
+hub_fingerprint: f9d9d727de1e778369956d94f0ec2491cd1fe0076b475407c420a45661464fbc
 ---
 
 ---
@@ -4735,7 +4753,7 @@ POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Tyne And Wear 
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2224368
+source_job_id: 2304646
 title: Payroll Manager - Part Time
 employer: 
 location: Tyne And Wear
@@ -4744,7 +4762,7 @@ salary: competitive
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
 source_url: 
-hub_fingerprint: d2eec0a46b5dd000abb8f53c5b3dac863c9ff242e230bb9ae854d2951b0555a4
+hub_fingerprint: a9fabb2ef54f3725cf5ae57aa2871bc04d6ed2857f2bbe8647da9ad5863a3c42
 ---
 
 ---
@@ -4817,6 +4835,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
 source_url: 
 hub_fingerprint: f0d2efc0abd9c577bc86aa7f95ff2ab9822b589b3ef121de5b16c6ccf664427a
+---
+
+---
+action:
+POSS | JobG8 | North Scotland | Inverness | £40000 per year | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 108314961
+title: Executive Assistant
+employer: 
+location: Inverness
+region: North Scotland
+salary: £40000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - Owner-reviewed adverts confirm corporate executive office support; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: a6627289a8c32e734258a50ecf7a5a3cfa68c77d157d2c936b3dbb5919259ecf
 ---
 
 ---
@@ -6463,7 +6499,7 @@ POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £28,000
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2224121
+source_job_id: 2304291
 title: Accounts Administrator
 employer: 
 location: Warwickshire
@@ -6472,7 +6508,7 @@ salary: £28,000 - £32,000 per year
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - Basic accounts administration is transferable unless specialist qualifications are mandatory; manual review required: description appears to make specialist qualifications or substantial prior experience mandatory
 source_url: 
-hub_fingerprint: eda93425d4e7f14d83822cad79462a92fc76fd1ba53ca131795fcf5b0f040963
+hub_fingerprint: 58c24b665b7c8214e0e3d4d3513d351c6e6639ab31033f527ad91acef373ec3d
 ---
 
 ---
@@ -7021,7 +7057,7 @@ POSS | JobG8 | Yorkshire - West | Leeds | £43000 per year | Payroll Team Leader
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2225462
+source_job_id: 2305440
 title: Payroll Team Leader
 employer: 
 location: Leeds
@@ -7030,7 +7066,7 @@ salary: £43000 per year
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: salary over £40k under normal selection rules
 source_url: 
-hub_fingerprint: 33499039acb52eaac6cb3ddff629e11a01597dfb9d1753878195eca47bfed2fd
+hub_fingerprint: 79ac810f4c4a213f8fbba635cba03f07b9f2f7c09401c5fd9b13412a631c797f
 ---
 
 ## VONNE — 6 to review
