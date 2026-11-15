@@ -1,12 +1,12 @@
 ﻿metric,value
-total rows input,39749
-total rows included,260
-total rows dropped,39339
-title classification count - HIGH_CONFIDENCE,808
-title classification count - ELASTIC_FIT,243
+total rows input,40045
+total rows included,263
+total rows dropped,39630
+title classification count - HIGH_CONFIDENCE,810
+title classification count - ELASTIC_FIT,244
 title classification count - REVIEW_CONTEXT_DEPENDENT,112
-title classification count - HARD_PASS,20096
-title classification count - OUT_OF_SCOPE,18490
+title classification count - HARD_PASS,20276
+title classification count - OUT_OF_SCOPE,18603
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,5
@@ -16,13 +16,13 @@ other elastic count - Yorkshire - West,1
 total rows output - Yorkshire - West,5
 job_id included - Yorkshire - West,23643_225676613; 23643_225770654; 23643_225781886; 23643_225816651; 23643_223400221
 selection scenario - Yorkshire - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Yorkshire - South,2
-high confidence count - Yorkshire - South,1
+selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - South,3
+high confidence count - Yorkshire - South,2
 anchor elastic count - Yorkshire - South,0
 other elastic count - Yorkshire - South,1
-total rows output - Yorkshire - South,2
-job_id included - Yorkshire - South,23643_225798534; 108314217
+total rows output - Yorkshire - South,3
+job_id included - Yorkshire - South,23643_225798534; 108081829; 108314217
 selection scenario - North East,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - North East,"North East selection complete: 18 selected after HIGH_CONFIDENCE, Newcastle Upon Tyne ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - North East,18
@@ -32,13 +32,13 @@ other elastic count - North East,8
 total rows output - North East,18
 job_id included - North East,23643_225764079; 23643_225787271; 23643_225772927; 23643_225801184; 23643_225789046; 23643_225791838; 23643_225679272; 23643_225795609; 23643_225801617; 23643_225813738; 23643_225760952; 23643_225760948; 23643_225760954; 23643_225801182; 23643_225796871; 23643_225801614; 2225674; 108087762
 selection scenario - Sussex,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Sussex,"Sussex selection complete: 38 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Sussex,38
-high confidence count - Sussex,29
+selection message - Sussex,"Sussex selection complete: 39 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Sussex,39
+high confidence count - Sussex,30
 anchor elastic count - Sussex,1
 other elastic count - Sussex,8
-total rows output - Sussex,38
-job_id included - Sussex,23643_222307132; 23643_225754126; 23643_225467680; 23643_225737488; 23643_225828867; 23643_225828850; 23643_225828846; 23643_225828864; 23643_225828849; 23643_225828869; 23643_225836354; 23643_225750767; 23643_225786658; 23643_225806451; 23643_225761986; 23643_225836353; 23643_225768622; 23643_225800269; 23643_225793834; 23643_225788644; 23643_225795181; 23643_225811985; 23643_225792612; 23643_225823996; 23643_225800354; 23643_225414813; 23643_225823983; 23643_225836352; 23643_225836355; 108313113; 23643_225467693; 23643_225828853; 23643_225634209; 23643_225800070; 23643_225769816; 23643_225820014; 23643_225777711; 23643_225792096
+total rows output - Sussex,39
+job_id included - Sussex,23643_222307132; 23643_225754126; 23643_225467680; 23643_225737488; 23643_225828867; 23643_225828850; 23643_225828846; 23643_225828864; 23643_225828849; 23643_225828869; 23643_225836354; 23643_225750767; 23643_225786658; 23643_225806451; 23643_225761986; 23643_225836353; 23643_225768622; 23643_225739546; 23643_225831820; 23643_225793834; 23643_225788644; 23643_225795181; 23643_225811985; 23643_225792612; 23643_225823996; 23643_225800354; 23643_225800269; 23643_225414813; 23643_225823983; 23643_225836352; 23643_225836355; 23643_225467693; 23643_225828853; 23643_225634209; 23643_225800070; 23643_225769816; 23643_225820014; 23643_225777711; 23643_225792096
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Cumbria - South,Cumbria - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Cumbria - South,4
@@ -88,13 +88,13 @@ other elastic count - Greater Manchester - Manchester & Salford,0
 total rows output - Greater Manchester - Manchester & Salford,5
 job_id included - Greater Manchester - Manchester & Salford,23643_225780308; 23643_225765042; 23643_225790644; 2145581; 23643_225800073
 selection scenario - Kent,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Kent,"Kent selection complete: 12 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Kent,12
-high confidence count - Kent,7
+selection message - Kent,"Kent selection complete: 13 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Kent,13
+high confidence count - Kent,8
 anchor elastic count - Kent,0
 other elastic count - Kent,5
-total rows output - Kent,12
-job_id included - Kent,23643_225767091; 23643_225779312; 23643_225816816; 23643_225790148; 23643_225795244; 23643_225827811; 23643_225596089; 23643_225816063; 23643_225769412; 23643_225817096; 23643_225814729; 23643_225820030
+total rows output - Kent,13
+job_id included - Kent,23643_225767091; 23643_225779312; 23643_225816816; 23643_225819638; 23643_225790148; 23643_225795244; 23643_225827811; 23643_225596089; 23643_225816063; 23643_225769412; 23643_225817096; 23643_225814729; 23643_225820030
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - London,London manual_select applied additively: 1 row(s) prioritised; 79 selected.
 credible total - London,79
@@ -134,4 +134,4 @@ high confidence count - Wiltshire,7
 anchor elastic count - Wiltshire,0
 other elastic count - Wiltshire,2
 total rows output - Wiltshire,11
-job_id included - Wiltshire,23643_225710192; 23643_225713768; 23643_225819160; 23643_225710191; 23643_225809739; 23643_225793275; 23643_225831818; 23643_225791805; 23643_225682544; 23643_225796347; 23643_225809270
+job_id included - Wiltshire,23643_225710192; 23643_225713768; 23643_225819160; 23643_225710191; 23643_225809739; 23643_225793275; 23643_225831818; 23643_225791805; 23643_225682544; 23643_225809270; 23643_225796347
