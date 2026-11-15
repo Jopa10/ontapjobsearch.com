@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-11-14
+feed_date: 2026-11-15
 
 Edit only the `action:` line in each block:
 
@@ -391,12 +391,6 @@ job_id: 2247224
 
 ---
 action:
-SELECTED | Yorkshire - West | Leeds | £30000 per year [JobG8 salary fields] | Accounts Assistant
-job_id: 2248931
----
-
----
-action:
 SELECTED | Yorkshire - West | Huddersfield | Commensurate with Experience [extracted from description] | Customer Specialist Sales Administrator B2B
 job_id: 23643_225812143
 ---
@@ -601,12 +595,6 @@ job_id: 2280177
 
 ---
 action:
-SELECTED | Yorkshire - West | Wakefield | no salary in JobG8 salary fields; no supported salary amount found in description | Group Finance Assistant
-job_id: 2266424
----
-
----
-action:
 SELECTED | Yorkshire - West | Leeds | £30000 per year [JobG8 salary fields] | Legal Accounts Assistant
 job_id: 2231369
 ---
@@ -719,6 +707,18 @@ SELECTED | Yorkshire - West | Castleford | £29,879 per year [extracted from des
 job_id: 2296946
 ---
 
+---
+action:
+SELECTED | Yorkshire - West | Leeds | £30000 per year [JobG8 salary fields] | Accounts Assistant
+job_id: 2300196
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Wakefield | no salary in JobG8 salary fields; no supported salary amount found in description | Group Finance Assistant
+job_id: 2299717
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -817,6 +817,12 @@ job_id: 23643_225749496
 action:
 SELECTED | Yorkshire - South | Sheffield | £28000 - £30000 per year [JobG8 salary fields] | Accounts Assistant
 job_id: 23643_225747949
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Barnsley | £32000 - £36000 per year [JobG8 salary fields] | Training Coordinator
+job_id: 23643_225749128
 ---
 
 ---
@@ -953,12 +959,6 @@ job_id: 23643_225819676
 
 ---
 action:
-SELECTED | Yorkshire - South | Doncaster | Competitive [extracted from description] | Payroll Administrator
-job_id: 2266717
----
-
----
-action:
 SELECTED | Yorkshire - South | Sheffield | £30000 - £35000 per year [JobG8 salary fields] | Site Administrator
 job_id: 23643_225823403
 ---
@@ -1007,14 +1007,14 @@ job_id: 2272484
 
 ---
 action:
-SELECTED | Yorkshire - South | Sheffield | Competitive [extracted from description] | Part Time Accounts Assistant
-job_id: 2281395
+SELECTED | Yorkshire - South | Sheffield | £30000 - £35000 per year (one + Com) [JobG8 salary fields] | Education Delivery Coordinator, Alternative Provision South Yorkshire (new Yorkshire office opening early 2027)
+job_id: 23643_225830921
 ---
 
 ---
 action:
-SELECTED | Yorkshire - South | Sheffield | £25,000 per year [extracted from description] | Customer Service Advisor
-job_id: 2281566
+SELECTED | Yorkshire - South | Sheffield | Competitive [extracted from description] | Part Time Accounts Assistant
+job_id: 2281395
 ---
 
 ---
@@ -1057,6 +1057,18 @@ job_id: 2285140
 action:
 SELECTED | Yorkshire - South | Doncaster | Competitive [extracted from description] | Central Transport Purchasing Administrator
 job_id: 2298105
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | Competitive [extracted from description] | Payroll Administrator
+job_id: 2300272
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £25,000 per year [extracted from description] | Customer Service Advisor
+job_id: 2303130
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -1911,6 +1923,12 @@ job_id: 23643_225751049
 action:
 SELECTED | London | London | £25000 - £35000 per year (package) [JobG8 salary fields] | Project Administrator
 job_id: 23643_225749638
+---
+
+---
+action:
+SELECTED | London | London | £15 per hour [JobG8 salary fields] | Business Support Coordinator - Hounslow
+job_id: 23643_225750795
 ---
 
 ---
@@ -3001,26 +3019,8 @@ job_id: 2245968
 
 ---
 action:
-SELECTED | London | London | £40000 per year [JobG8 salary fields] | Permanent: Accounts Assistant to &;40,000
-job_id: 2250138
----
-
----
-action:
-SELECTED | London | Barking | £28,000 - £35,000 per year [extracted from description] | Sales Administrator
-job_id: 2248916
----
-
----
-action:
 SELECTED | London | London | £14.8 per hour [JobG8 salary fields] | Administrator
 job_id: 23643_225811619
----
-
----
-action:
-SELECTED | London | London | £37000 per year [JobG8 salary fields] | Personal Assistant
-job_id: 2250653
 ---
 
 ---
@@ -3175,38 +3175,8 @@ job_id: 23643_225819023
 
 ---
 action:
-SELECTED | London | London | £28,000 - £30,000 per year [extracted from description] | Pre-Tenancy Administrator
-job_id: 2267776
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Interim Finance Officer (Income)
-job_id: 2268026
----
-
----
-action:
-SELECTED | London | Mitcham | no salary in JobG8 salary fields; no supported salary amount found in description | Finance Officer
-job_id: 2268380
----
-
----
-action:
 SELECTED | London | New Malden | competitive [extracted from description] | Commercial Property Legal Assistant
 job_id: 2266738
----
-
----
-action:
-SELECTED | London | Feltham | no salary in JobG8 salary fields; no supported salary amount found in description | Credit Controller
-job_id: 2268684
----
-
----
-action:
-SELECTED | London | Uxbridge | £31000 - £36000 per year [JobG8 salary fields] | Marketing Coordinator - Join an Award-Winning Tech Innovator
-job_id: 2267068
 ---
 
 ---
@@ -3451,18 +3421,6 @@ job_id: 2277436
 
 ---
 action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Receptionist - ETM Collection
-job_id: 2266638
----
-
----
-action:
-SELECTED | London | New Malden | £38000 per year [JobG8 salary fields] | Commercial Property Legal Assistant
-job_id: 2266552
----
-
----
-action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Wholesale Administration Assistant
 job_id: 23643_225829899
 ---
@@ -3475,7 +3433,7 @@ job_id: 23643_225829797
 
 ---
 action:
-SELECTED | London | London | £25000 - £35000 per year [JobG8 salary fields] | Administrator
+SELECTED | London | Bromley | £25000 - £35000 per year [JobG8 salary fields] | Administrator
 job_id: 23643_225831766
 ---
 
@@ -3681,12 +3639,6 @@ job_id: 2223921
 action:
 SELECTED | London | London | £28,000 - £35,000 per year [extracted from description] | Sales Administrator
 job_id: 2223381
----
-
----
-action:
-SELECTED | London | London | £30000 per year [JobG8 salary fields] | Administrator - Innovation
-job_id: 2221686
 ---
 
 ---
@@ -3947,6 +3899,78 @@ SELECTED | London | London | £12.71 per hour [extracted from description] | Mar
 job_id: 2297191
 ---
 
+---
+action:
+SELECTED | London | Feltham | no salary in JobG8 salary fields; no supported salary amount found in description | Credit Controller
+job_id: 2302417
+---
+
+---
+action:
+SELECTED | London | London | £37000 per year [JobG8 salary fields] | Personal Assistant
+job_id: 2302393
+---
+
+---
+action:
+SELECTED | London | Mitcham | no salary in JobG8 salary fields; no supported salary amount found in description | Finance Officer
+job_id: 2302044
+---
+
+---
+action:
+SELECTED | London | London | £40000 per year [JobG8 salary fields] | Permanent: Accounts Assistant to &;40,000
+job_id: 2301773
+---
+
+---
+action:
+SELECTED | London | London | £28,000 - £30,000 per year [extracted from description] | Pre-Tenancy Administrator
+job_id: 2301258
+---
+
+---
+action:
+SELECTED | London | London | £30000 per year [JobG8 salary fields] | Administrator - Innovation
+job_id: 2301901
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Interim Finance Officer (Income)
+job_id: 2301499
+---
+
+---
+action:
+SELECTED | London | Uxbridge | £31000 - £36000 per year [JobG8 salary fields] | Marketing Coordinator - Join an Award-Winning Tech Innovator
+job_id: 2300893
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Receptionist - ETM Collection
+job_id: 2300007
+---
+
+---
+action:
+SELECTED | London | New Malden | £38000 per year [JobG8 salary fields] | Commercial Property Legal Assistant
+job_id: 2299972
+---
+
+---
+action:
+SELECTED | London | Barking | £28,000 - £35,000 per year [extracted from description] | Sales Administrator
+job_id: 2299951
+---
+
+---
+action:
+SELECTED | London | London | £17 - £20 per hour [JobG8 salary fields] | Accounts Assistant
+job_id: 2299911
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -4065,12 +4089,6 @@ job_id: 23643_225808013
 
 ---
 action:
-POSS - LONDON | London | London | £42000 - £45000 per year [JobG8 salary fields] | Part-time Bookkeeper
-job_id: 2249297
----
-
----
-action:
 POSS - LONDON | London | London | £50000 per year [JobG8 salary fields] | Service Advisor Supervisor
 job_id: 2251304
 ---
@@ -4097,12 +4115,6 @@ job_id: 23643_225815142
 action:
 POSS - LONDON | London | London | £35,000 - £42,000 per year [extracted from description] | Property & Building Services Administrator
 job_id: 23643_225820196
----
-
----
-action:
-POSS - LONDON | London | London | £38000 - £45000 per year [JobG8 salary fields] | Finance & Business Support/Office Administrator
-job_id: 2268158
 ---
 
 ---
@@ -4187,6 +4199,18 @@ job_id: 2298210
 action:
 POSS - LONDON | London | London | £40000 - £50000 per year [JobG8 salary fields] | Bookkeeper
 job_id: 2297161
+---
+
+---
+action:
+POSS - LONDON | London | London | £38000 - £45000 per year [JobG8 salary fields] | Finance & Business Support/Office Administrator
+job_id: 2301797
+---
+
+---
+action:
+POSS - LONDON | London | London | £42000 - £45000 per year [JobG8 salary fields] | Part-time Bookkeeper
+job_id: 2300516
 ---
 
 ---
@@ -4757,12 +4781,6 @@ job_id: 23643_225804741
 
 ---
 action:
-SELECTED | Hampshire | Hampshire | £30,000 - £35,000 per year (FTE) [extracted from description] | Accounts Assistant
-job_id: 2250390
----
-
----
-action:
 SELECTED | Hampshire | Hampshire | £27000 - £29000 per year [JobG8 salary fields] | Bookings Coordinator
 job_id: 23643_225810845
 ---
@@ -4903,12 +4921,6 @@ job_id: 23643_225821677
 action:
 SELECTED | Hampshire | Hampshire | £13.02 - £15.43 per hour [JobG8 salary fields] | Shift Coordinator IBT
 job_id: 23643_225820121
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | £16500 - £18700 per year [JobG8 salary fields] | Finance Assistant
-job_id: 2267770
 ---
 
 ---
@@ -5071,6 +5083,18 @@ job_id: 108314514
 action:
 SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Credit Controller
 job_id: 2296819
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £30,000 - £35,000 per year (FTE) [extracted from description] | Accounts Assistant
+job_id: 2302228
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £16500 - £18700 per year [JobG8 salary fields] | Finance Assistant
+job_id: 2301128
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -5769,12 +5793,6 @@ job_id: 2278134
 
 ---
 action:
-SELECTED | Surrey | Surrey | £25,000 per year [extracted from description] | Finance Assistant (Sales Ledger)
-job_id: 2266545
----
-
----
-action:
 SELECTED | Surrey | Surrey | £15 - £16.05 per hour [JobG8 salary fields] | HR Assistant
 job_id: 23643_225831737
 ---
@@ -5893,6 +5911,12 @@ SELECTED | Surrey | Surrey | £16 - £17 per hour [JobG8 salary fields] | Accoun
 job_id: 2297247
 ---
 
+---
+action:
+SELECTED | Surrey | Surrey | £25,000 per year [extracted from description] | Finance Assistant (Sales Ledger)
+job_id: 2299758
+---
+
 ## SURREY — POSSIBLES
 
 ---
@@ -6003,6 +6027,12 @@ job_id: 23643_225744931
 action:
 SELECTED | Kent | Kent | £30000 per year [JobG8 salary fields] | Office Administrator
 job_id: 23643_225749694
+---
+
+---
+action:
+SELECTED | Kent | Kent | £28000 per year [JobG8 salary fields] | Customer Administrator
+job_id: 23643_225749598
 ---
 
 ---
@@ -6361,18 +6391,6 @@ job_id: 23643_225807399
 
 ---
 action:
-SELECTED | Kent | Kent | £33000 per year [JobG8 salary fields] | Service Advisor
-job_id: 2250231
----
-
----
-action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Finance and Operations Coordinator
-job_id: 2248741
----
-
----
-action:
 SELECTED | Kent | Kent | £30000 - £35000 per year [JobG8 salary fields] | Finance Assistant
 job_id: 23643_225810884
 ---
@@ -6381,12 +6399,6 @@ job_id: 23643_225810884
 action:
 SELECTED | Kent | Kent | £28000 - £31000 per year [JobG8 salary fields] | Accountancy Administrator Xero Essential £31k
 job_id: 23643_225811665
----
-
----
-action:
-SELECTED | Kent | Kent | £28,000 - £31,000 per year [extracted from description] | Accountancy Administrator Xero Essential &;31k
-job_id: 2250587
 ---
 
 ---
@@ -6529,12 +6541,6 @@ job_id: 2223908
 
 ---
 action:
-SELECTED | Kent | Kent | £28,000 - £30,000 per year [extracted from description] | Accountancy Administrator Xero Essential &;30k
-job_id: 2220761
----
-
----
-action:
 SELECTED | Kent | Kent | Competitive [extracted from description] | Credit Controller
 job_id: 2289232
 ---
@@ -6603,6 +6609,30 @@ job_id: 2296678
 action:
 SELECTED | Kent | Kent | £32000 per year [JobG8 salary fields] | Payroll Assistant
 job_id: 2297260
+---
+
+---
+action:
+SELECTED | Kent | Kent | £28,000 - £31,000 per year [extracted from description] | Accountancy Administrator Xero Essential &;31k
+job_id: 2302341
+---
+
+---
+action:
+SELECTED | Kent | Kent | £33000 per year [JobG8 salary fields] | Service Advisor
+job_id: 2301925
+---
+
+---
+action:
+SELECTED | Kent | Kent | £28,000 - £30,000 per year [extracted from description] | Accountancy Administrator Xero Essential &;30k
+job_id: 2300836
+---
+
+---
+action:
+SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Finance and Operations Coordinator
+job_id: 2299686
 ---
 
 ## KENT — POSSIBLES
@@ -7678,24 +7708,6 @@ job_id: 23643_225806319
 
 ---
 action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Accounts Assistant
-job_id: 2268268
----
-
----
-action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £32000 per year | Billings Administrator
-job_id: 2268394
----
-
----
-action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £33000 per year | Accounts Assistant
-job_id: 2266965
----
-
----
-action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £35000 per year | Logistics Coordinator
 job_id: 23643_225821988
 ---
@@ -7812,6 +7824,24 @@ job_id: 2296690
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | BMW Accounts Assistant
 job_id: 2297341
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £32000 per year | Billings Administrator
+job_id: 2302055
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Accounts Assistant
+job_id: 2301872
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £33000 per year | Accounts Assistant
+job_id: 2300558
 ---
 
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
@@ -7987,12 +8017,6 @@ job_id: 2266532
 
 ---
 action:
-SELECTED | Bedfordshire | Bedfordshire | £40000 per year | Finance Assistant
-job_id: 2266486
----
-
----
-action:
 SELECTED | Bedfordshire | Bedfordshire | £32000 - £34000 per year | Accounts Assistant
 job_id: 2281336
 ---
@@ -8019,6 +8043,12 @@ job_id: 2289400
 action:
 SELECTED | Bedfordshire | Bedfordshire | £27,500 per year | Accounts Assistant
 job_id: 2296049
+---
+
+---
+action:
+SELECTED | Bedfordshire | Bedfordshire | £40000 per year | Finance Assistant
+job_id: 2301453
 ---
 
 ## BEDFORDSHIRE — POSSIBLES
@@ -8285,12 +8315,6 @@ job_id: 23643_225813259
 
 ---
 action:
-SELECTED | Berkshire | Berkshire |  | Bookkeeper
-job_id: 2267365
----
-
----
-action:
 SELECTED | Berkshire | Berkshire | £28,000 - £30,000 per year (FTE) | Bookkeeper
 job_id: 2270448
 ---
@@ -8375,12 +8399,6 @@ job_id: 2226426
 
 ---
 action:
-SELECTED | Berkshire | Berkshire |  | Part-Time Credit Controller
-job_id: 2220315
----
-
----
-action:
 SELECTED | Berkshire | Berkshire | £18.00-£20.00 per hour | Temporary Payroll Administrator
 job_id: 2287998
 ---
@@ -8401,6 +8419,18 @@ job_id: 2295706
 action:
 SELECTED | Berkshire | Berkshire | £30000 - £35000 per year | Payroll Administrator
 job_id: 2296069
+---
+
+---
+action:
+SELECTED | Berkshire | Berkshire |  | Bookkeeper
+job_id: 2301082
+---
+
+---
+action:
+SELECTED | Berkshire | Berkshire |  | Part-Time Credit Controller
+job_id: 2300128
 ---
 
 ## BERKSHIRE — POSSIBLES
@@ -8673,12 +8703,6 @@ job_id: 23643_225809651
 
 ---
 action:
-SELECTED | Bristol & Bath | Bath | Competitive | Credit Controller
-job_id: 2249855
----
-
----
-action:
 SELECTED | Bristol & Bath | Bristol | £45000 per year | Salesforce & Sales Pipeline Coordinator
 job_id: 108225065
 ---
@@ -8745,12 +8769,6 @@ job_id: 2281885
 
 ---
 action:
-SELECTED | Bristol & Bath | Bath |  | Property Coordinator
-job_id: 2281752
----
-
----
-action:
 SELECTED | Bristol & Bath | Bath | £34000 - £38000 per year | Finance Assistant
 job_id: 2230307
 ---
@@ -8801,6 +8819,18 @@ job_id: 2298160
 action:
 SELECTED | Bristol & Bath | Bristol | £32000 per year | Credit Controller
 job_id: 2296767
+---
+
+---
+action:
+SELECTED | Bristol & Bath | Bath | Competitive | Credit Controller
+job_id: 2301237
+---
+
+---
+action:
+SELECTED | Bristol & Bath | Bath |  | Property Coordinator
+job_id: 2303159
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -9097,12 +9127,6 @@ job_id: 23643_225817018
 
 ---
 action:
-SELECTED | Buckinghamshire | Buckinghamshire | £28,000 - £30,000 per year (pro rata) | CREDIT CONTROLLER - PART-TIME
-job_id: 2267767
----
-
----
-action:
 SELECTED | Buckinghamshire | Buckinghamshire | £28000 - £30000 per year (pension, private medical insurance) | HR Administrator
 job_id: 23643_225823550
 ---
@@ -9175,12 +9199,6 @@ job_id: 2281227
 
 ---
 action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | Payroll Administrator
-job_id: 2281740
----
-
----
-action:
 SELECTED | Buckinghamshire | Buckinghamshire | £32000 per year | Credit Controller (Part Time Hours)
 job_id: 2283812
 ---
@@ -9205,12 +9223,6 @@ job_id: 2224968
 
 ---
 action:
-SELECTED | Buckinghamshire | Buckinghamshire | £30000 - £32000 per year | Accounts & Purchasing Administrator
-job_id: 2221631
----
-
----
-action:
 SELECTED | Buckinghamshire | Buckinghamshire | £38000 per year | Service Advisor
 job_id: 2286738
 ---
@@ -9225,6 +9237,24 @@ job_id: 2290132
 action:
 SELECTED | Buckinghamshire | Buckinghamshire |  | Credit Controller
 job_id: 2298087
+---
+
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire | £30000 - £32000 per year | Accounts & Purchasing Administrator
+job_id: 2301743
+---
+
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire | £28,000 - £30,000 per year (pro rata) | CREDIT CONTROLLER - PART-TIME
+job_id: 2301127
+---
+
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire |  | Payroll Administrator
+job_id: 2302869
 ---
 
 ## BUCKINGHAMSHIRE — POSSIBLES
@@ -9261,6 +9291,12 @@ job_id: 2164052
 action:
 SELECTED | Cambridgeshire | Peterborough | £26000 - £30000 per year | HR Administrator
 job_id: 23643_225750441
+---
+
+---
+action:
+SELECTED | Cambridgeshire | Cambridge | £34901 per year | Office Administrator (IT)
+job_id: 23643_225748756
 ---
 
 ---
@@ -9409,12 +9445,6 @@ job_id: 2241665
 
 ---
 action:
-SELECTED | Cambridgeshire | Cambridge | £26,000 - £27,500 per year | Part Time Bookkeeper - Accountancy Practice
-job_id: 2250224
----
-
----
-action:
 SELECTED | Cambridgeshire | Duxford | Competitive, dependent on experience | Project Management Assistant
 job_id: 23643_225811453
 ---
@@ -9519,6 +9549,12 @@ job_id: 2289970
 action:
 SELECTED | Cambridgeshire | Peterborough |  | Credit Controller
 job_id: 2297655
+---
+
+---
+action:
+SELECTED | Cambridgeshire | Cambridge | £26,000 - £27,500 per year | Part Time Bookkeeper - Accountancy Practice
+job_id: 2302016
 ---
 
 ## CAMBRIDGESHIRE — POSSIBLES
@@ -9671,12 +9707,6 @@ job_id: 23643_225802150
 
 ---
 action:
-SELECTED | Cheshire - East | Macclesfield |  | Service Advisor - Audi Macclesfield
-job_id: 2249893
----
-
----
-action:
 SELECTED | Cheshire - East | Macclesfield | £25000 - £26500 per year (+ GREAT BENEFITS) | Administrative Assistant
 job_id: 23643_225817544
 ---
@@ -9709,6 +9739,12 @@ job_id: 2285685
 action:
 SELECTED | Cheshire - East | Macclesfield |  | Payroll Administrator
 job_id: 2292069
+---
+
+---
+action:
+SELECTED | Cheshire - East | Macclesfield |  | Service Advisor - Audi Macclesfield
+job_id: 2301412
 ---
 
 ## CHESHIRE - EAST — POSSIBLES
@@ -9833,12 +9869,6 @@ job_id: 23643_225816768
 
 ---
 action:
-SELECTED | Cheshire - Warrington & Halton | Warrington | £25,000 - £30,000 per year | Accounts Assistant
-job_id: 2268326
----
-
----
-action:
 SELECTED | Cheshire - Warrington & Halton | Warrington | £13.51 - £15.14 per hour | Front of House Administrator
 job_id: 23643_225822871
 ---
@@ -9921,6 +9951,12 @@ SELECTED | Cheshire - Warrington & Halton | Warrington | Dependent on experience
 job_id: 2296861
 ---
 
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Warrington | £25,000 - £30,000 per year | Accounts Assistant
+job_id: 2301980
+---
+
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
 _No jobs in this group._
@@ -9943,6 +9979,12 @@ job_id: 2162130
 action:
 SELECTED | Cheshire - West | Tarporley | £26000 - £35000 per year | Bookkeeper
 job_id: 23643_225748384
+---
+
+---
+action:
+SELECTED | Cheshire - West | Chester | £35000 - £40000 per year (Mileage) | Project Coordinator
+job_id: 23643_225749656
 ---
 
 ---
@@ -10025,12 +10067,6 @@ job_id: 23643_225830173
 
 ---
 action:
-SELECTED | Cheshire - West | Tarporley | £26,000 - £35,000 per year | Bookkeeper
-job_id: 2220950
----
-
----
-action:
 SELECTED | Cheshire - West | Chester |  | Accounts Assistant
 job_id: 2294250
 ---
@@ -10039,6 +10075,12 @@ job_id: 2294250
 action:
 SELECTED | Cheshire - West | Winsford |  | Equipment Purchasing & Warranty Co-Ordinator
 job_id: 2292625
+---
+
+---
+action:
+SELECTED | Cheshire - West | Tarporley | £26,000 - £35,000 per year | Bookkeeper
+job_id: 2301159
 ---
 
 ## CHESHIRE - WEST — POSSIBLES
@@ -10134,6 +10176,12 @@ job_id: 23643_225751483
 _No jobs in this group._
 
 ## DERBYSHIRE — SELECTED
+
+---
+action:
+SELECTED | Derbyshire | Derbyshire | £28000 - £32000 per year | Administrator
+job_id: 23643_225749834
+---
 
 ---
 action:
@@ -10235,6 +10283,12 @@ job_id: 23643_225801494
 action:
 SELECTED | Derbyshire | Derby |  | Credit Control Assistant
 job_id: 23643_225800297
+---
+
+---
+action:
+SELECTED | Derbyshire | Derbyshire | £31000 - £34000 per year | Night Transport Office Administrator
+job_id: 23643_225799806
 ---
 
 ---
@@ -10377,12 +10431,6 @@ job_id: 2293836
 
 ---
 action:
-SELECTED | Derbyshire | Derbyshire |  | Property Coordinator
-job_id: 2294149
----
-
----
-action:
 SELECTED | Derbyshire | Derbyshire |  | Credit Controller
 job_id: 2290759
 ---
@@ -10391,6 +10439,12 @@ job_id: 2290759
 action:
 SELECTED | Derbyshire | Derbyshire |  | Finance Assistant - Temporary
 job_id: 2296996
+---
+
+---
+action:
+SELECTED | Derbyshire | Derbyshire |  | Property Coordinator
+job_id: 2303083
 ---
 
 ## DERBYSHIRE — POSSIBLES
@@ -10723,12 +10777,6 @@ job_id: 23643_225818887
 
 ---
 action:
-SELECTED | Devon | Devon | £15 per hour | Finance Assistant
-job_id: 2267901
----
-
----
-action:
 SELECTED | Devon | Devon | £13 per hour (Salary TBC) | Accounts Assistant
 job_id: 23643_225823724
 ---
@@ -10815,6 +10863,18 @@ job_id: 2293125
 action:
 SELECTED | Devon | Devon | £31493 per year | Digital Content Coordinator
 job_id: 2289835
+---
+
+---
+action:
+SELECTED | Devon | Devon | £15 per hour | Finance Assistant
+job_id: 2301323
+---
+
+---
+action:
+SELECTED | Devon | Devon | £13 - £14 per hour | Administrator
+job_id: 108313409
 ---
 
 ## DEVON — POSSIBLES
@@ -10915,12 +10975,6 @@ job_id: 23643_225767372
 action:
 SELECTED | Dorset | Dorset | £12.82 - £13 per hour | Customer Service Advisor
 job_id: 23643_225767383
----
-
----
-action:
-SELECTED | Dorset | Dorset | Competitive | Business Administrator
-job_id: 23643_225771986
 ---
 
 ---
@@ -11093,12 +11147,6 @@ job_id: 2223726
 
 ---
 action:
-SELECTED | Dorset | Dorset |  | Credit Controller
-job_id: 2221373
----
-
----
-action:
 SELECTED | Dorset | Dorset | £15 - £16 per hour | Part Time Accounts Assistant
 job_id: 2220547
 ---
@@ -11107,12 +11155,6 @@ job_id: 2220547
 action:
 SELECTED | Dorset | Dorset |  | Bookkeeper
 job_id: 2220509
----
-
----
-action:
-SELECTED | Dorset | Dorset |  | Accounts Assistant
-job_id: 2220843
 ---
 
 ---
@@ -11137,6 +11179,18 @@ job_id: 2285832
 action:
 SELECTED | Dorset | Dorset |  | Accounts Assistant
 job_id: 2290155
+---
+
+---
+action:
+SELECTED | Dorset | Dorset |  | Credit Controller
+job_id: 2301520
+---
+
+---
+action:
+SELECTED | Dorset | Dorset |  | Accounts Assistant
+job_id: 2300999
 ---
 
 ## DORSET — POSSIBLES
@@ -11655,12 +11709,6 @@ job_id: 23643_225808522
 
 ---
 action:
-SELECTED | Essex | Essex | £18 per hour | Accounts Payable Finance Assistant
-job_id: 2243547
----
-
----
-action:
 SELECTED | Essex | Essex | £14.28 per hour (Car parking) | Administrator
 job_id: 23643_225810872
 ---
@@ -11717,18 +11765,6 @@ job_id: 23643_225819763
 action:
 SELECTED | Essex | Essex | £26,000 - £28,000 per year | Claims & Customer Service Advisor
 job_id: 2266819
----
-
----
-action:
-SELECTED | Essex | Essex | £13.50 - £14.00 per hour | Finance Assistant
-job_id: 2267238
----
-
----
-action:
-SELECTED | Essex | Essex | £32000 - £38000 per year | Accounts Assistant
-job_id: 2267085
 ---
 
 ---
@@ -11799,18 +11835,6 @@ job_id: 2222292
 
 ---
 action:
-SELECTED | Essex | Essex |  | Credit Controller
-job_id: 2219734
----
-
----
-action:
-SELECTED | Essex | Essex | £28,000 - £30,000 per year | Credit Controller
-job_id: 2219722
----
-
----
-action:
 SELECTED | Essex | Essex | £32000 per year | Accounts Assistant
 job_id: 2287568
 ---
@@ -11843,6 +11867,30 @@ job_id: 2297755
 action:
 SELECTED | Essex | Essex | £20.45 per hour | Financial Accounts Administrator
 job_id: 2296429
+---
+
+---
+action:
+SELECTED | Essex | Essex | £13.50 - £14.00 per hour | Finance Assistant
+job_id: 2300952
+---
+
+---
+action:
+SELECTED | Essex | Essex | £32000 - £38000 per year | Accounts Assistant
+job_id: 2300759
+---
+
+---
+action:
+SELECTED | Essex | Essex |  | Credit Controller
+job_id: 2299613
+---
+
+---
+action:
+SELECTED | Essex | Essex | £28,000 - £30,000 per year | Credit Controller
+job_id: 2299603
 ---
 
 ## ESSEX — POSSIBLES
@@ -12193,12 +12241,6 @@ job_id: 23643_225820783
 
 ---
 action:
-SELECTED | Gloucestershire | Gloucestershire | £30000 - £33000 per year | Purchase Ledger Administrator
-job_id: 2267369
----
-
----
-action:
 SELECTED | Gloucestershire | Gloucestershire | £13.11 per hour | Customer Service Advisor
 job_id: 23643_225822967
 ---
@@ -12235,12 +12277,6 @@ job_id: 2226051
 
 ---
 action:
-SELECTED | Gloucestershire | Gloucestershire | Competitive | Bookkeeping and payroll assistant
-job_id: 2220558
----
-
----
-action:
 SELECTED | Gloucestershire | Gloucestershire | Competitive | Credit Controller
 job_id: 2287507
 ---
@@ -12273,6 +12309,18 @@ job_id: 2296485
 action:
 SELECTED | Gloucestershire | Gloucestershire |  | Trainee Insurance Administrator
 job_id: 2297268
+---
+
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £30000 - £33000 per year | Purchase Ledger Administrator
+job_id: 2301086
+---
+
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | Competitive | Bookkeeping and payroll assistant
+job_id: 2300439
 ---
 
 ## GLOUCESTERSHIRE — POSSIBLES
@@ -12659,24 +12707,6 @@ job_id: 23643_225808991
 
 ---
 action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester | £26,000 - £28,000 per year | FNOL Claims Handler
-job_id: 2249340
----
-
----
-action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | FNOL Claims Handler
-job_id: 2248711
----
-
----
-action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Credit Controller
-job_id: 2248705
----
-
----
-action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester | £13.28 per hour | Administrator
 job_id: 23643_225813330
 ---
@@ -12883,6 +12913,24 @@ job_id: 2296758
 action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester | Competitive, dependent on experience | Corporate Insolvency Administrator
 job_id: 2296876
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester | £26,000 - £28,000 per year | FNOL Claims Handler
+job_id: 2300669
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | FNOL Claims Handler
+job_id: 2299674
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Credit Controller
+job_id: 2299668
 ---
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
@@ -13297,12 +13345,6 @@ job_id: 2283027
 
 ---
 action:
-SELECTED | Greater Manchester - South | Hyde | £25000 - £27500 per year | Finance Assistant / Stock Controller
-job_id: 2220786
----
-
----
-action:
 SELECTED | Greater Manchester - South | Trafford | £26,500 - £28,500 per year | Accounts Assistant
 job_id: 2290775
 ---
@@ -13317,6 +13359,12 @@ job_id: 2299253
 action:
 SELECTED | Greater Manchester - South | Stockport | Competitive, dependent on experience | Post Appointment Insolvency Administrator
 job_id: 2296915
+---
+
+---
+action:
+SELECTED | Greater Manchester - South | Hyde | £25000 - £27500 per year | Finance Assistant / Stock Controller
+job_id: 2300980
 ---
 
 ## GREATER MANCHESTER - SOUTH — POSSIBLES
@@ -13359,6 +13407,12 @@ job_id: 23643_225766657
 action:
 SELECTED | Greater Manchester - Wigan & Bolton | Bolton | £28000 - £32000 per year | Production Administrator
 job_id: 23643_225659427
+---
+
+---
+action:
+SELECTED | Greater Manchester - Wigan & Bolton | Leigh | Competitive | Business Administrator
+job_id: 23643_225771986
 ---
 
 ---
@@ -13407,24 +13461,6 @@ job_id: 23643_225805844
 action:
 SELECTED | Greater Manchester - Wigan & Bolton | Bolton | £28000 - £30000 per year | Commercial Administrator
 job_id: 23643_225809310
----
-
----
-action:
-SELECTED | Greater Manchester - Wigan & Bolton | Bolton |  | Finance Assistant
-job_id: 2249436
----
-
----
-action:
-SELECTED | Greater Manchester - Wigan & Bolton | Bolton | £30000 per year | Service Advisor
-job_id: 2248785
----
-
----
-action:
-SELECTED | Greater Manchester - Wigan & Bolton | Leigh | £28,000 per year | Credit Controller
-job_id: 2249367
 ---
 
 ---
@@ -13503,6 +13539,24 @@ job_id: 2286859
 action:
 SELECTED | Greater Manchester - Wigan & Bolton | Bolton | £32500 per year | Service Advisor
 job_id: 2289589
+---
+
+---
+action:
+SELECTED | Greater Manchester - Wigan & Bolton | Bolton |  | Finance Assistant
+job_id: 2300704
+---
+
+---
+action:
+SELECTED | Greater Manchester - Wigan & Bolton | Leigh | £28,000 per year | Credit Controller
+job_id: 2300682
+---
+
+---
+action:
+SELECTED | Greater Manchester - Wigan & Bolton | Bolton | £30000 per year | Service Advisor
+job_id: 2299899
 ---
 
 ## GREATER MANCHESTER - WIGAN & BOLTON — POSSIBLES
@@ -13931,18 +13985,6 @@ job_id: 23643_225810250
 
 ---
 action:
-SELECTED | Hertfordshire | Hertfordshire |  | Private Client Legal Assistant
-job_id: 2248743
----
-
----
-action:
-SELECTED | Hertfordshire | Hertfordshire | £26000 per year | Accounts Assistant
-job_id: 2248575
----
-
----
-action:
 SELECTED | Hertfordshire | Hertfordshire | £28000 - £34000 per year | Project Coordinator
 job_id: 23643_225814134
 ---
@@ -14039,12 +14081,6 @@ job_id: 2223574
 
 ---
 action:
-SELECTED | Hertfordshire | Hertfordshire | £29,000 per year | Subcontract Administrator
-job_id: 2220000
----
-
----
-action:
 SELECTED | Hertfordshire | Hertfordshire |  | Accounts Payable / Accounts Assistant
 job_id: 2286056
 ---
@@ -14071,6 +14107,24 @@ job_id: 2296324
 action:
 SELECTED | Hertfordshire | Hertfordshire |  | Accounts Assistant
 job_id: 2296103
+---
+
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire | £26000 per year | Accounts Assistant
+job_id: 2299489
+---
+
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire |  | Private Client Legal Assistant
+job_id: 2299688
+---
+
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire | £29,000 per year | Subcontract Administrator
+job_id: 2299863
 ---
 
 ## HERTFORDSHIRE — POSSIBLES
@@ -14109,14 +14163,14 @@ job_id: 2205569
 
 ---
 action:
-SELECTED | Lancashire - Blackpool & Fylde | Blackpool |  | Accounts Assistant
-job_id: 2249989
+SELECTED | Lancashire - Blackpool & Fylde | Blackpool | competitive | Sales Administrator
+job_id: 23643_225814820
 ---
 
 ---
 action:
-SELECTED | Lancashire - Blackpool & Fylde | Blackpool | competitive | Sales Administrator
-job_id: 23643_225814820
+SELECTED | Lancashire - Blackpool & Fylde | Blackpool |  | Accounts Assistant
+job_id: 2301451
 ---
 
 ## LANCASHIRE - BLACKPOOL & FYLDE — POSSIBLES
@@ -14175,12 +14229,6 @@ job_id: 23643_225802273
 
 ---
 action:
-SELECTED | Lancashire - Central | Leyland |  | Marketing Co-ordinator
-job_id: 2249738
----
-
----
-action:
 SELECTED | Lancashire - Central | Preston |  | Service Advisor
 job_id: 2232915
 ---
@@ -14195,6 +14243,12 @@ job_id: 2294263
 action:
 SELECTED | Lancashire - Central | Preston | Competitive | Bookkeeper
 job_id: 2297583
+---
+
+---
+action:
+SELECTED | Lancashire - Central | Leyland |  | Marketing Co-ordinator
+job_id: 2301061
 ---
 
 ## LANCASHIRE - CENTRAL — POSSIBLES
@@ -14623,12 +14677,6 @@ job_id: 23643_225759984
 
 ---
 action:
-SELECTED | Leicestershire | Leicestershire |  | Travel and Expenses Administrator
-job_id: 2249820
----
-
----
-action:
 SELECTED | Leicestershire | Leicestershire | £26000 - £30000 per year | HR Assistant
 job_id: 23643_225810966
 ---
@@ -14697,12 +14745,6 @@ job_id: 23643_225822544
 action:
 SELECTED | Leicestershire | Leicestershire | £13.4 - £13.75 per hour (overtime rates and on site parking) | Administrator (Warehouse Department)
 job_id: 23643_225821863
----
-
----
-action:
-SELECTED | Leicestershire | Leicestershire | £27200 - £29500 per year | Payroll Officer
-job_id: 2267126
 ---
 
 ---
@@ -14793,6 +14835,18 @@ job_id: 2298156
 action:
 SELECTED | Leicestershire | Leicestershire |  | Purchasing Administrator Apprentice
 job_id: 2297373
+---
+
+---
+action:
+SELECTED | Leicestershire | Leicestershire |  | Travel and Expenses Administrator
+job_id: 2301220
+---
+
+---
+action:
+SELECTED | Leicestershire | Leicestershire | £27200 - £29500 per year | Payroll Officer
+job_id: 2300910
 ---
 
 ## LEICESTERSHIRE — POSSIBLES
@@ -14987,14 +15041,14 @@ job_id: 23643_225819175
 
 ---
 action:
-SELECTED | Lincolnshire | Lincolnshire | Competitive | Legal Assistant
-job_id: 2219717
+SELECTED | Lincolnshire | Lincolnshire | £26000 - £29000 per year | Finance Administrator
+job_id: 2298257
 ---
 
 ---
 action:
-SELECTED | Lincolnshire | Lincolnshire | £26000 - £29000 per year | Finance Administrator
-job_id: 2298257
+SELECTED | Lincolnshire | Lincolnshire | Competitive | Legal Assistant
+job_id: 2299599
 ---
 
 ## LINCOLNSHIRE — POSSIBLES
@@ -15029,6 +15083,12 @@ job_id: 2165438
 action:
 SELECTED | Merseyside - Liverpool | Liverpool | £12.71 per hour | Contact Centre Advisor - Working from Home
 job_id: 23643_225748136
+---
+
+---
+action:
+SELECTED | Merseyside - Liverpool | Liverpool | £133 per daily | Business Support Minute Taker - Local Government
+job_id: 23643_225750475
 ---
 
 ---
@@ -15165,18 +15225,6 @@ job_id: 2244587
 
 ---
 action:
-SELECTED | Merseyside - Liverpool | Liverpool | competitive | MOJ Portal Legal Assistant
-job_id: 2250394
----
-
----
-action:
-SELECTED | Merseyside - Liverpool | Liverpool | competitive | Legal Assistant - Court Team
-job_id: 2250389
----
-
----
-action:
 SELECTED | Merseyside - Liverpool | Liverpool | £16 - £17 per hour | Corporate Receptionist
 job_id: 23643_225810508
 ---
@@ -15201,18 +15249,6 @@ job_id: 2282829
 
 ---
 action:
-SELECTED | Merseyside - Liverpool | Liverpool | £27,000 per year | Payroll Officer
-job_id: 2221125
----
-
----
-action:
-SELECTED | Merseyside - Liverpool | Liverpool |  | Accounts Assistant / Bookkeeper
-job_id: 2221144
----
-
----
-action:
 SELECTED | Merseyside - Liverpool | Liverpool | £14.00 - £19.00 per Hour | Sales Ledger
 job_id: 2287014
 ---
@@ -15227,6 +15263,30 @@ job_id: 2292867
 action:
 SELECTED | Merseyside - Liverpool | Liverpool | £14.00 per hour | Accounts Assistant
 job_id: 2294894
+---
+
+---
+action:
+SELECTED | Merseyside - Liverpool | Liverpool | competitive | MOJ Portal Legal Assistant
+job_id: 2302230
+---
+
+---
+action:
+SELECTED | Merseyside - Liverpool | Liverpool | competitive | Legal Assistant - Court Team
+job_id: 2302227
+---
+
+---
+action:
+SELECTED | Merseyside - Liverpool | Liverpool | £27,000 per year | Payroll Officer
+job_id: 2301193
+---
+
+---
+action:
+SELECTED | Merseyside - Liverpool | Liverpool |  | Accounts Assistant / Bookkeeper
+job_id: 2300615
 ---
 
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
@@ -15375,20 +15435,20 @@ job_id: 23643_225821081
 
 ---
 action:
-SELECTED | Merseyside - Wirral | Wirral |  | Client Support Administrator
-job_id: 2268456
----
-
----
-action:
 SELECTED | Merseyside - Wirral | Prenton | £12.93 per hour | Sales Administrator
 job_id: 23643_225827365
 ---
 
 ---
 action:
+SELECTED | Merseyside - Wirral | Wirral |  | Client Support Administrator
+job_id: 2302151
+---
+
+---
+action:
 SELECTED | Merseyside - Wirral | Birkenhead | £25,000 per year | Corporate Property Coordinator
-job_id: 2281807
+job_id: 2303207
 ---
 
 ## MERSEYSIDE - WIRRAL — POSSIBLES
@@ -15849,12 +15909,6 @@ job_id: 23643_225682550
 
 ---
 action:
-SELECTED | North Wales - East | Corwen | £24479 per year | Receptionist
-job_id: 23643_225779935
----
-
----
-action:
 SELECTED | North Wales - East | Wrexham | £27000 - £33000 per year | Credit Controller
 job_id: 23643_225785837
 ---
@@ -16245,12 +16299,6 @@ job_id: 23643_225821679
 
 ---
 action:
-SELECTED | Northamptonshire | Northamptonshire |  | Company Secretarial Assistant
-job_id: 2267959
----
-
----
-action:
 SELECTED | Northamptonshire | Northamptonshire | £26000 per year | Finance & Administration Coordinator
 job_id: 2274346
 ---
@@ -16311,18 +16359,6 @@ job_id: 2226573
 
 ---
 action:
-SELECTED | Northamptonshire | Northamptonshire |  | Sales & Purchase Ledger Administrator
-job_id: 2221547
----
-
----
-action:
-SELECTED | Northamptonshire | Northamptonshire | £30000 - £35000 per year | Administrator
-job_id: 2221532
----
-
----
-action:
 SELECTED | Northamptonshire | Northamptonshire |  | Accounts Administrator
 job_id: 2288499
 ---
@@ -16343,6 +16379,18 @@ job_id: 2288748
 action:
 SELECTED | Northamptonshire | Northamptonshire |  | Credit Controller
 job_id: 2297397
+---
+
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire |  | Sales & Purchase Ledger Administrator
+job_id: 2301709
+---
+
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire |  | Company Secretarial Assistant
+job_id: 2301462
 ---
 
 ## NORTHAMPTONSHIRE — POSSIBLES
@@ -16611,12 +16659,6 @@ job_id: 23643_225808595
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire | £35000 per year | Interim Credit Controller
-job_id: 2248925
----
-
----
-action:
 SELECTED | Nottinghamshire | Nottinghamshire | £34000 - £36000 per year (Training + Progression) | Service Administrator (Construction Machinery)
 job_id: 23643_225810607
 ---
@@ -16653,12 +16695,6 @@ job_id: 23643_225821430
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire | £35000 per year | Payroll Administrator
-job_id: 2267944
----
-
----
-action:
 SELECTED | Nottinghamshire | Nottinghamshire |  | School Administrator
 job_id: 23643_225822552
 ---
@@ -16689,18 +16725,6 @@ job_id: 2273431
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire |  | Client Accounts Administrator
-job_id: 2281517
----
-
----
-action:
-SELECTED | Nottinghamshire | Nottinghamshire |  | Marketing Sales Coordinator
-job_id: 2281646
----
-
----
-action:
 SELECTED | Nottinghamshire | Nottinghamshire |  | Conveyancing Administration Assistant
 job_id: 2282265
 ---
@@ -16719,14 +16743,38 @@ job_id: 2231059
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire | £28,000 per year | Part Time Payroll Administrator
-job_id: 2221793
+SELECTED | Nottinghamshire | Nottinghamshire |  | Tax Administrator
+job_id: 2287235
 ---
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire |  | Tax Administrator
-job_id: 2287235
+SELECTED | Nottinghamshire | Nottinghamshire | £28,000 per year | Part Time Payroll Administrator
+job_id: 2302073
+---
+
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire | £35000 per year | Payroll Administrator
+job_id: 2301461
+---
+
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire | £35000 per year | Interim Credit Controller
+job_id: 2299957
+---
+
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire |  | Marketing Sales Coordinator
+job_id: 2303183
+---
+
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire |  | Client Accounts Administrator
+job_id: 2302992
 ---
 
 ## NOTTINGHAMSHIRE — POSSIBLES
@@ -16769,12 +16817,6 @@ job_id: 23643_225821161
 
 ---
 action:
-POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £45000 - £50000 per year | Payroll Manager
-job_id: 2266888
----
-
----
-action:
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £23.07 - £25.64 per hour (2 days in office) | Payroll Manager
 job_id: 23643_225826003
 ---
@@ -16783,6 +16825,12 @@ job_id: 23643_225826003
 action:
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £45000 - £50000 per year | Payroll Manager
 job_id: 2275534
+---
+
+---
+action:
+POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £45000 - £50000 per year | Payroll Manager
+job_id: 2300552
 ---
 
 ---
@@ -16999,12 +17047,6 @@ job_id: 23643_225805625
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £35000 - £40000 per year | Payroll Administrator (12 Month Fixed Term Maternity Cover)
-job_id: 2249409
----
-
----
-action:
 SELECTED | Oxfordshire | Oxfordshire | £32000 - £40000 per year | Bookkeeper
 job_id: 23643_225815202
 ---
@@ -17131,12 +17173,6 @@ job_id: 2224897
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £16 - £18 per hour | Accounts Assistant
-job_id: 2219724
----
-
----
-action:
 SELECTED | Oxfordshire | Oxfordshire | £20.00 per hour | Quality Control Administrator
 job_id: 2289138
 ---
@@ -17163,6 +17199,18 @@ job_id: 2289340
 action:
 SELECTED | Oxfordshire | Oxfordshire | £28,000 per year | Legal Assistant
 job_id: 2296834
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire | £35000 - £40000 per year | Payroll Administrator (12 Month Fixed Term Maternity Cover)
+job_id: 2300702
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire | £16 - £18 per hour | Accounts Assistant
+job_id: 2299605
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -17199,14 +17247,14 @@ job_id: 23643_225819914
 
 ---
 action:
-POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire |  | Finance Officer
-job_id: 2267211
+POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £50,000 per year (FTE) | Part Time Payroll Supervisor
+job_id: 2292336
 ---
 
 ---
 action:
-POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £50,000 per year (FTE) | Part Time Payroll Supervisor
-job_id: 2292336
+POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire |  | Finance Officer
+job_id: 2300936
 ---
 
 ---
@@ -17357,18 +17405,6 @@ job_id: 2246130
 
 ---
 action:
-SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £33000 per year | Accounts Assistant
-job_id: 2250256
----
-
----
-action:
-SELECTED | Scotland Central - Edinburgh & Lothians | Livingston |  | Payroll Administrator
-job_id: 2249550
----
-
----
-action:
 SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh |  | Executive Assistant
 job_id: 23643_225810889
 ---
@@ -17423,18 +17459,6 @@ job_id: 23643_225620197
 
 ---
 action:
-SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £30000 per year | Junior Accounts Assistant - Customer Service
-job_id: 2220249
----
-
----
-action:
-SELECTED | Scotland Central - Edinburgh & Lothians | Dalkeith | £35000 - £38000 per year | Payroll Team Leader
-job_id: 2220660
----
-
----
-action:
 SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £14 - £17 per hour | Credit Controller / Billing Assistant
 job_id: 2288249
 ---
@@ -17443,6 +17467,30 @@ job_id: 2288249
 action:
 SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £30000 - £35000 per year | Credit Controller
 job_id: 2294895
+---
+
+---
+action:
+SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £33000 per year | Accounts Assistant
+job_id: 2302022
+---
+
+---
+action:
+SELECTED | Scotland Central - Edinburgh & Lothians | Livingston |  | Payroll Administrator
+job_id: 2300868
+---
+
+---
+action:
+SELECTED | Scotland Central - Edinburgh & Lothians | Dalkeith | £35000 - £38000 per year | Payroll Team Leader
+job_id: 2300648
+---
+
+---
+action:
+SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £30000 per year | Junior Accounts Assistant - Customer Service
+job_id: 2299891
 ---
 
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
@@ -17789,6 +17837,12 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | Shropshire | Shropshire | negotiable | Technical Administrator ( Aviation)
+job_id: 23643_225750867
+---
+
+---
+action:
 SELECTED | Shropshire | Shropshire | £13 per hour | Administrator
 job_id: 23643_225710678
 ---
@@ -17927,12 +17981,6 @@ job_id: 2226287
 
 ---
 action:
-SELECTED | Shropshire | Shropshire |  | Childcare Legal Assistant
-job_id: 2221308
----
-
----
-action:
 SELECTED | Shropshire | Shropshire | £28000 - £31000 per year | Accounts Assistant
 job_id: 2288799
 ---
@@ -17947,6 +17995,12 @@ job_id: 2285845
 action:
 SELECTED | Shropshire | Shropshire |  | Credit Controller
 job_id: 2299012
+---
+
+---
+action:
+SELECTED | Shropshire | Shropshire |  | Childcare Legal Assistant
+job_id: 2301401
 ---
 
 ## SHROPSHIRE — POSSIBLES
@@ -18123,12 +18177,6 @@ job_id: 23643_225820214
 
 ---
 action:
-SELECTED | Somerset | Somerset | £27000 - £33000 per year | Accounts Assistant
-job_id: 2268254
----
-
----
-action:
 SELECTED | Somerset | Somerset | £28000 - £33000 per year | Scheduling Coordinator
 job_id: 23643_225830073
 ---
@@ -18161,6 +18209,12 @@ job_id: 2226209
 action:
 SELECTED | Somerset | Somerset | £28000 - £32000 per year | Payroll Assistant
 job_id: 2293316
+---
+
+---
+action:
+SELECTED | Somerset | Somerset | £27000 - £33000 per year | Accounts Assistant
+job_id: 2301596
 ---
 
 ## SOMERSET — POSSIBLES
@@ -18527,6 +18581,12 @@ SELECTED | Staffordshire | Staffordshire | £27,500 per year | Returns Coordinat
 job_id: 2286542
 ---
 
+---
+action:
+SELECTED | Staffordshire | Stone | £25999 per year | Finance Coordinator
+job_id: 108316277
+---
+
 ## STAFFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -18775,12 +18835,6 @@ job_id: 2266400
 
 ---
 action:
-SELECTED | Suffolk | Suffolk |  | Accounts Assistant
-job_id: 2220614
----
-
----
-action:
 SELECTED | Suffolk | Suffolk |  | Finance Assistant
 job_id: 2288641
 ---
@@ -18801,6 +18855,12 @@ job_id: 2290843
 action:
 SELECTED | Suffolk | Suffolk |  | Finance Assistant
 job_id: 2298402
+---
+
+---
+action:
+SELECTED | Suffolk | Suffolk |  | Accounts Assistant
+job_id: 2300626
 ---
 
 ## SUFFOLK — POSSIBLES
@@ -19011,14 +19071,14 @@ job_id: 23643_225822483
 
 ---
 action:
-SELECTED | Wales South - Gwent | Newport |  | Bookkeeper
-job_id: 2267118
+SELECTED | Wales South - Gwent | Newport | £28,000 - £35,000 per year | Bookkeeper
+job_id: 2298921
 ---
 
 ---
 action:
-SELECTED | Wales South - Gwent | Newport | £28,000 - £35,000 per year | Bookkeeper
-job_id: 2298921
+SELECTED | Wales South - Gwent | Newport |  | Bookkeeper
+job_id: 2300903
 ---
 
 ## WALES SOUTH - GWENT — POSSIBLES
@@ -19106,7 +19166,7 @@ job_id: 23643_225800761
 ---
 action:
 SELECTED | Wales South - Swansea Bay | Bridgend | £27,000 - £30,000 per year (pro rata) | Bookkeeper
-job_id: 2266463
+job_id: 2299724
 ---
 
 ## WALES SOUTH - SWANSEA BAY — POSSIBLES
@@ -19170,7 +19230,7 @@ job_id: 23643_225805429
 ---
 action:
 SELECTED | Wales South - Valleys | Pontypridd | £27000 - £29000 per year | Accounts Assistant
-job_id: 2220258
+job_id: 2300127
 ---
 
 ## WALES SOUTH - VALLEYS — POSSIBLES
@@ -19553,18 +19613,6 @@ job_id: 23643_225809975
 
 ---
 action:
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Data Administrator
-job_id: 2235331
----
-
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Local Offer Website Coordinator
-job_id: 2249986
----
-
----
-action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £25000 - £28000 per year | Administrator
 job_id: 23643_225811500
 ---
@@ -19609,12 +19657,6 @@ job_id: 23643_225683390
 action:
 SELECTED | West Midlands - Birmingham & Solihull | Solihull | £13.46 per hour | Customer Service Administrator
 job_id: 23643_225820220
----
-
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Solihull |  | Immediate Start Payroll Assistant
-job_id: 2266706
 ---
 
 ---
@@ -19739,18 +19781,6 @@ job_id: 2224135
 
 ---
 action:
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Credit Controller
-job_id: 2221797
----
-
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Solihull | £18 - £20 per hour | Credit Controller
-job_id: 2221729
----
-
----
-action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Deployment Planner
 job_id: 643965500
 ---
@@ -19797,6 +19827,30 @@ SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £3300
 job_id: 2297764
 ---
 
+---
+action:
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Credit Controller
+job_id: 2302077
+---
+
+---
+action:
+SELECTED | West Midlands - Birmingham & Solihull | Solihull | £18 - £20 per hour | Credit Controller
+job_id: 2301912
+---
+
+---
+action:
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Local Offer Website Coordinator
+job_id: 2301448
+---
+
+---
+action:
+SELECTED | West Midlands - Birmingham & Solihull | Solihull |  | Immediate Start Payroll Assistant
+job_id: 2300036
+---
+
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
@@ -19823,6 +19877,12 @@ job_id: 23643_225822306
 action:
 SELECTED | West Midlands - Black Country | Walsall | Competitive | Fleet Administrator
 job_id: 23643_225742721
+---
+
+---
+action:
+SELECTED | West Midlands - Black Country | Wolverhampton | £26000 - £31000 per year (Training & Benefits) | Asbestos Removals Administrator / Coordinator
+job_id: 23643_225751147
 ---
 
 ---
@@ -19959,18 +20019,6 @@ job_id: 23643_225796193
 
 ---
 action:
-SELECTED | West Midlands - Black Country | Wolverhampton | £17.00 per hour | Supply Chain Administrator
-job_id: 2249898
----
-
----
-action:
-SELECTED | West Midlands - Black Country | Wolverhampton |  | Bookkeeper
-job_id: 2248714
----
-
----
-action:
 SELECTED | West Midlands - Black Country | Walsall | £14.14 per hour | Income Collection Administrator
 job_id: 23643_225810957
 ---
@@ -20099,6 +20147,18 @@ job_id: 2298640
 action:
 SELECTED | West Midlands - Black Country | Wolverhampton | £28,000 - £33,000 per year | Credit Controller
 job_id: 2296147
+---
+
+---
+action:
+SELECTED | West Midlands - Black Country | Wolverhampton | £17.00 per hour | Supply Chain Administrator
+job_id: 2301415
+---
+
+---
+action:
+SELECTED | West Midlands - Black Country | Wolverhampton |  | Bookkeeper
+job_id: 2299677
 ---
 
 ## WEST MIDLANDS - BLACK COUNTRY — POSSIBLES
@@ -20495,12 +20555,6 @@ job_id: 23643_225797421
 
 ---
 action:
-SELECTED | Worcestershire | Worcestershire | £31000 - £34000 per year | Night Transport Office Administrator
-job_id: 23643_225799806
----
-
----
-action:
 SELECTED | Worcestershire | Worcestershire | £25000 - £27000 per year | Payroll Administrator
 job_id: 23643_225815367
 ---
@@ -20685,7 +20739,7 @@ job_id: 23643_225798510
 
 ---
 action:
-SELECTED | Yorkshire - East | Brough | £27000 - £30000 per year | Project Administrator
+SELECTED | Yorkshire - East | Hessle | £27000 - £30000 per year | Project Administrator
 job_id: 23643_225797818
 ---
 
@@ -20811,24 +20865,6 @@ job_id: 23643_225810362
 
 ---
 action:
-SELECTED | Yorkshire - North | York | £25000 - £28000 per year | Legal Assistant - Employment
-job_id: 2249128
----
-
----
-action:
-SELECTED | Yorkshire - North | York | £25000 - £28000 per year | Legal Assistant - Litigation
-job_id: 2249327
----
-
----
-action:
-SELECTED | Yorkshire - North | Harrogate |  | Payroll Administrator
-job_id: 2268263
----
-
----
-action:
 SELECTED | Yorkshire - North | Harrogate | £28000 - £35000 per year | Payroll Administrator
 job_id: 23643_225822176
 ---
@@ -20873,12 +20909,6 @@ job_id: 23643_225830047
 action:
 SELECTED | Yorkshire - North | Harrogate | £33000 per year | Credit Controller - Harrogate
 job_id: 2228393
----
-
----
-action:
-SELECTED | Yorkshire - North | York | £25500 per year | Purchase Ledger Administrator
-job_id: 2220460
 ---
 
 ---
@@ -20945,6 +20975,30 @@ job_id: 2296407
 action:
 SELECTED | Yorkshire - North | York | Competitive | Finance Assistant
 job_id: 2296072
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Harrogate |  | Payroll Administrator
+job_id: 2301867
+---
+
+---
+action:
+SELECTED | Yorkshire - North | York | £25000 - £28000 per year | Legal Assistant - Litigation
+job_id: 2300535
+---
+
+---
+action:
+SELECTED | Yorkshire - North | York | £25500 per year | Purchase Ledger Administrator
+job_id: 2300408
+---
+
+---
+action:
+SELECTED | Yorkshire - North | York | £25000 - £28000 per year | Legal Assistant - Employment
+job_id: 2300253
 ---
 
 ## YORKSHIRE - NORTH — POSSIBLES

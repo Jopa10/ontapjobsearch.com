@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-11-14
+feed_date: 2026-11-15
 
 Edit only the `action:` line in each block:
 
@@ -61,6 +61,12 @@ job_id: 23643_225798534
 action:
 SELECTED | Yorkshire - South | Barnsley | £25357 per year | Residential Child Care Worker
 job_id: 108314217
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Mexborough | £12.9 per hour | Care Assistant
+job_id: 108081829
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -249,6 +255,12 @@ job_id: 23643_225818672
 
 ---
 action:
+POSS - NE - Co Durham & Dar/Htlpl | North East - County Durham & Darlington/Hartlepool | County Durham | £100 - £110 per daily | Learning Support Assistant
+job_id: 23643_225794120
+---
+
+---
+action:
 POSS - NE - Co Durham & Dar/Htlpl | North East - County Durham & Darlington/Hartlepool | Durham | £95 - £110 per daily | Learning Support Assistant
 job_id: 23643_225817899
 ---
@@ -311,6 +323,12 @@ job_id: 23643_225467693
 
 ---
 action:
+SELECTED | Sussex | Sussex | £15.5 per hour | Care Assistant - Care Home
+job_id: 23643_225739546
+---
+
+---
+action:
 SELECTED | Sussex | Southwick | £14.8 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225777711
 ---
@@ -359,7 +377,7 @@ job_id: 23643_225800354
 
 ---
 action:
-SELECTED | Sussex | Sussex | £12.71 - £12.8 per hour (Support Worker) | Support Worker
+SELECTED | Sussex | Saltdean | £12.71 - £12.8 per hour (Support Worker) | Support Worker
 job_id: 23643_225800269
 ---
 
@@ -449,6 +467,12 @@ job_id: 23643_225828869
 
 ---
 action:
+SELECTED | Sussex | Sussex | £14.79 per hour | Part Time Care Assistant
+job_id: 23643_225831820
+---
+
+---
+action:
 SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
 job_id: 23643_225820014
 ---
@@ -475,12 +499,6 @@ job_id: 23643_225836355
 action:
 SELECTED | Sussex | Hailsham | £13.82 - £17.29 per hour | Residential Support Worker - Children's Residential Home
 job_id: 23643_225836353
----
-
----
-action:
-SELECTED | Sussex | Littlehampton | £12.75 per hour (£40 per sleep) | Children's Therapeutic Support Worker
-job_id: 108313113
 ---
 
 ## SUSSEX — POSSIBLES
@@ -547,8 +565,14 @@ job_id: 23643_225810561
 
 ---
 action:
-POSS - SUSSEX | Sussex | Sussex | £19966 - £20606 per year | Learning Support Assistant
+POSS - SUSSEX | Sussex | Brighton | £19966 - £20606 per year | Learning Support Assistant
 job_id: 23643_225798181
+---
+
+---
+action:
+POSS - SUSSEX | Sussex | Sussex | £85 - £100 per daily | Learning Support Assistant
+job_id: 23643_225804070
 ---
 
 ## CUMBRIA SOUTH — SELECTED
@@ -881,12 +905,6 @@ job_id: 23643_225432456
 action:
 POSS - BERKSHIRE | Berkshire | Bracknell | £31200 - £32300 per year | Waking Night Support Worker
 job_id: 23643_225432422
----
-
----
-action:
-POSS - BERKSHIRE | Berkshire | Berkshire | £17.11 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225789125
 ---
 
 ---
@@ -1375,6 +1393,12 @@ job_id: 23643_225816063
 action:
 SELECTED | Kent | Kent | £15 - £18 per hour | Family Support Worker/Maidstone, Kent/GBP15-18p/h
 job_id: 23643_225816816
+---
+
+---
+action:
+SELECTED | Kent | Kent | £12.82 per hour | Female Support Worker
+job_id: 23643_225819638
 ---
 
 ---
@@ -2075,6 +2099,12 @@ job_id: 23643_225739195
 
 ---
 action:
+POSS - LONDON | London | London | £93 - £115 per daily | Learning Support Assistant
+job_id: 23643_225791271
+---
+
+---
+action:
 POSS - LONDON | London | London | £24000 - £28000 per year | Learning Support Assistant
 job_id: 23643_225796743
 ---
@@ -2203,7 +2233,7 @@ job_id: 23643_225780755
 
 ---
 action:
-SELECTED | Nottinghamshire | Worksop | £13.91 per hour | Care Assistant - Bank - Care Home
+SELECTED | Nottinghamshire | Nottinghamshire | £13.91 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225787002
 ---
 
@@ -2479,7 +2509,7 @@ job_id: 23643_225791805
 
 ---
 action:
-SELECTED | Wiltshire | Wiltshire | £14.8 per hour | Night Care Assistant - Bank
+SELECTED | Wiltshire | Warminster | £14.8 per hour | Night Care Assistant - Bank
 job_id: 23643_225796347
 ---
 
