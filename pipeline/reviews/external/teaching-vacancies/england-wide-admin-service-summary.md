@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **598**
+- All routed roles: **597**
 - REVIEW NOW (LIVE regions): **586**
 - EDITABLE NOW (no remembered action): **586**
 - REMEMBERED / RESOLVED: **0**
-- DEFERRED - REGION NOT LIVE: **12**
-- SELECTED: **191**
-- POSS: **78**
-- HARD PASS / EXCLUDED: **317**
+- DEFERRED - REGION NOT LIVE: **11**
+- SELECTED: **190**
+- POSS: **80**
+- HARD PASS / EXCLUDED: **316**
 
 ## BEDFORDSHIRE — SELECTED
 
@@ -389,6 +389,17 @@ reason: Administrative duties evidenced in description
 factual_fingerprint: 881a657dc4002df9e62f2c4ca0a70ae8e926ff74d1bc65b22a6e3e5839694949
 source_job_id: human-resources-officer-employee-relations
 source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-employee-relations
+---
+
+---
+action:
+POSS | Buckinghamshire | High Wycombe, South East, HP15 6AH | £26,522.00 - £28,742.00 Annually (FTE) | Receptionist / Administrator
+employer: Widmer End Community Combined School
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 1ac225eed834c15558d7babe437fba0a61a961e1bf3fd4978b27e073988a56ad
+source_job_id: receptionist-administrator-widmer-end-community-combined-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-widmer-end-community-combined-school
 ---
 
 ---
@@ -1037,17 +1048,6 @@ source_job_id: finance-assistant-term-time-only-upper-shirley-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-term-time-only-upper-shirley-high-school
 ---
 
----
-action:
-SELECTED | Hampshire | Romsey, South East, SO51 8ZB | £14.87 Hourly Pay: £14.87 per hour (£24,538.47 Actual) | Receptionist
-employer: The Romsey School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-factual_fingerprint: 6fb5c2a54b1f9c9cffe69e89600d96cecc07470fc3d68c3ab957c831290909af
-source_job_id: receptionist-0843015e-4edd-4eed-82fa-deb742659791
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0843015e-4edd-4eed-82fa-deb742659791
----
-
 ## HAMPSHIRE — POSSIBLES
 
 ---
@@ -1059,6 +1059,17 @@ reason: Administrative duties evidenced in description
 factual_fingerprint: d3bb72ffb72d8a29c63f58a065cce5d5e2c7f30357b3cb4a6514f6a93b4430ad
 source_job_id: administrative-officer-6f5b3994-a8dd-421a-bcd8-4822e0fb211d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-6f5b3994-a8dd-421a-bcd8-4822e0fb211d
+---
+
+---
+action:
+POSS | Hampshire | Romsey, South East, SO51 8ZB | £14.87 Hourly Pay: £14.87 per hour (£24,538.47 Actual) | Receptionist
+employer: The Romsey School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 6fb5c2a54b1f9c9cffe69e89600d96cecc07470fc3d68c3ab957c831290909af
+source_job_id: receptionist-0843015e-4edd-4eed-82fa-deb742659791
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0843015e-4edd-4eed-82fa-deb742659791
 ---
 
 ## HEREFORDSHIRE — SELECTED
@@ -2556,9 +2567,9 @@ POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B38 9D
 employer: Ark Kings Academy
 closing_date: 2026-11-25T00:00:00+00:00
 reason: Borderline school administration title: data officer
-factual_fingerprint: 857759b674dff191132e70045887f1aef1e2b31ce9811ca3c026bfe56284dd52
-source_job_id: data-officer-22c8b0c5-6d50-431d-927d-1723b68da93a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-22c8b0c5-6d50-431d-927d-1723b68da93a
+factual_fingerprint: 5220218bb6f9280bafdbd53dcd7aea1f1e6fcd57255be2e11d9fac0f9107c1fd
+source_job_id: data-officer-1ec12220-a804-47ff-8c60-69dfaee65e1d
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-1ec12220-a804-47ff-8c60-69dfaee65e1d
 ---
 
 ---
@@ -3231,7 +3242,7 @@ These roles remain visible in the CSV but are not individually marked until the 
 | Cumbria - South / admin_service | 1 | 1 | 0 | 0 |
 | East Midlands / admin_service | 2 | 0 | 1 | 1 |
 | East of England / admin_service | 1 | 1 | 0 | 0 |
-| North East - Tees Valley / admin_service | 4 | 1 | 0 | 3 |
+| North East - Tees Valley / admin_service | 3 | 1 | 0 | 2 |
 | South West / admin_service | 1 | 1 | 0 | 0 |
 | West Midlands / admin_service | 2 | 2 | 0 | 0 |
 | West Sussex / admin_service | 1 | 0 | 0 | 1 |

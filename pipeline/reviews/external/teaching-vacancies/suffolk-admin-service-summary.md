@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-14
+review_date: 2026-11-15
 review_fingerprint: 48ffa23659020c8624f16c2de77283ac0a64b7555964b53a4a33c828ab836653
-routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
+routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE

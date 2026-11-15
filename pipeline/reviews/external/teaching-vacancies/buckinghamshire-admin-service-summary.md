@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-14
-review_fingerprint: f65f31cf1bd1e3c52422797d5ff1f74060c30d57a27b8ab6c99eac5637d73f37
-routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
+review_date: 2026-11-15
+review_fingerprint: 96abd882616a223c1a5bc954258836c034f7662e9e90b2953d75a6cdfe859f88
+routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 15
 - Selected: 8
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 4
 
@@ -156,6 +156,21 @@ factual_fingerprint: 881a657dc4002df9e62f2c4ca0a70ae8e926ff74d1bc65b22a6e3e58396
 source: Teaching Vacancies
 source_job_id: human-resources-officer-employee-relations
 source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-employee-relations
+---
+
+---
+action: 
+POSS | Buckinghamshire | High Wycombe, South East, HP15 6AH | £26,522.00 - £28,742.00 Annually (FTE) | Receptionist / Administrator
+employer: Widmer End Community Combined School
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1ac225eed834c15558d7babe437fba0a61a961e1bf3fd4978b27e073988a56ad
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-widmer-end-community-combined-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-widmer-end-community-combined-school
 ---
 
 ---

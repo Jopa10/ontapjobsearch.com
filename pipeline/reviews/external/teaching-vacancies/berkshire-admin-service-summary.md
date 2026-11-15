@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-14
+review_date: 2026-11-15
 review_fingerprint: 9322e41721d9a75561b525076ad1336596ca96fdf91a112e54434bc15832aae7
-routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
+routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE

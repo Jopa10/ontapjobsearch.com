@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-14
+review_date: 2026-11-15
 review_fingerprint: 49e206d96e28c8dd9614c71b380f5bed65f99116067ca52d4bd5368b4bbd7383
-routing_manifest_sha256: 2bd017c1cb63338003369c74d4d9b9f4ecec3578cceffa49cc0a8e3c1adfa218
+routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -78,7 +78,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admin-assi
 
 - [Chief Finance & Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-operations-officer-john-taylor-mat) — Excluded senior/management title.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-tynsel-parkes-cofe-primary-academy) — No usable numeric salary.
-- [Contracts Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-manager-the-shaw-education-trust) — Excluded senior/management title.
 - [Leadership Support Officer (Part-time)](https://teaching-vacancies.service.gov.uk/jobs/leadership-support-officer-part-time) — No usable numeric salary.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college-stoke-on-trent-staffordshire) — Excluded senior/management title.
 
