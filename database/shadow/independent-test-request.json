@@ -14,6 +14,6 @@
       "sha256": "b251a3ee3c57310496d91da95ad79ef3784d81c45dc66839a01a2c2137433777"
     }
   ],
-  "attempt": 1,
+  "attempt": 2,
   "notes": "Re-run original Python selectors from saved raw feed in isolated GitHub worker; production output artifacts are comparison-only, never selector input. No publish or merge."
 }
