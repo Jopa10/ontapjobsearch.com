@@ -439,8 +439,8 @@ QUALIFICATION_SIGNAL_RE = re.compile(
     re.IGNORECASE,
 )
 PREFERRED_QUALIFICATION_RE = re.compile(
-    r"\b(?:preferred|desirable|advantageous|ideally|would be useful|"
-    r"study support|working towards)\b",
+    r"\b(?:preferred|desirable|advantageous|ideally|would be useful|optional|"
+    r"study support|working towards|part[- ]qualified)\b",
     re.IGNORECASE,
 )
 NON_NUMERIC_SALARY_RE = re.compile(
@@ -1761,9 +1761,9 @@ def assess_practical_role_qualifications(title: str, description: Any) -> tuple[
     if MANDATORY_PROFESSIONAL_QUALIFICATION_RE.search(text):
         return "exclude", "explicit mandatory ACCA/ACA/CIMA requirement"
 
-    # AAT is expressly allowed.  A clearly stated AAT-only requirement is
-    # therefore not an exclusion; absent/unclear/preferred qualifications still
-    # remain review cases under the owner policy below.
+    # AAT is expressly allowed. A clearly stated AAT-only requirement is
+    # not an exclusion. Optional/preferred professional qualifications pass;
+    # mandatory ACCA/ACA/CIMA requirements are excluded above.
     if re.search(r"\baat\b", text, flags=re.IGNORECASE) and not re.search(
         r"\b(?:acca|aca|cima|solicitor|barrister|law degree|lpc)\b", text, flags=re.IGNORECASE
     ):
@@ -1773,7 +1773,7 @@ def assess_practical_role_qualifications(title: str, description: Any) -> tuple[
     if not QUALIFICATION_SIGNAL_RE.search(text):
         return "review", "qualification information absent from full advert"
     if PREFERRED_QUALIFICATION_RE.search(text):
-        return "review", "qualification is preferred/uncertain rather than a clear automatic pass"
+        return "ok", "professional qualification is optional/preferred"
     return "review", "qualification wording is present but not confidently interpretable"
 
 
@@ -1788,16 +1788,30 @@ def assess_admin_duties(title: str, description: Any) -> tuple[str, str]:
         return "exclude", "warehouse advert requires forklift/heavy-equipment operation"
     if not FINANCE_PART_TIME_TITLE_RE.search(title):
         return "ok", ""
-    # Required professional accountancy is not made ordinary admin work by a
-    # payroll/finance title or a part-time label. Preferred/study-only wording
-    # remains a review case rather than an automatic exclusion.
+    # Mandatory professional accountancy qualifications remain excluded.
+    # Optional/preferred/study-support wording is a straight pass.
     for sentence in re.split(r"[\n.!?]+", text):
         professional = re.search(r"\b(?:ACA|ACCA|CIMA)\b|\bprofessionally\s+qualified\s+accountant\b", sentence, re.IGNORECASE)
         if not professional:
             continue
-        if re.search(r"\b(?:not\s+(?:required|essential)|no\s+requirement|preferred|desirable|advantageous|working\s+towards|study\s+support|part[- ]qualified)\b", sentence, re.IGNORECASE):
-            return "review", "professional accountancy qualification wording needs review"
-        if re.search(r"\b(?:qualified|required|essential|must|mandatory|need|looking\s+for)\b", sentence, re.IGNORECASE):
+        mandatory = re.search(
+            r"\b(?:must|required|essential|mandatory|need|looking\s+for|qualified)\b",
+            sentence,
+            re.IGNORECASE,
+        )
+        optional = re.search(
+            r"\b(?:not\s+(?:required|essential)|no\s+requirement|optional|preferred|"
+            r"desirable|advantageous|working\s+towards|study\s+support|part[- ]qualified)\b",
+            sentence,
+            re.IGNORECASE,
+        )
+        # A positive mandatory statement wins if the same sentence also says
+        # another qualification is optional.
+        if mandatory and not re.search(r"\b(?:not\s+(?:required|essential)|no\s+requirement)\b", sentence, re.IGNORECASE):
+            return "exclude", "advert requires a professionally qualified accountant (ACA/ACCA/CIMA)"
+        if optional:
+            continue
+        if mandatory:
             return "exclude", "advert requires a professionally qualified accountant (ACA/ACCA/CIMA)"
     if re.search(r"\bfinancial\s+controller\b", title, re.IGNORECASE):
         return "review", "financial controller duties need specialist/seniority review"
