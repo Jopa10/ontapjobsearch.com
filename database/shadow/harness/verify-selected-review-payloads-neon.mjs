@@ -50,9 +50,12 @@ async function run() {
  const c=new pg.Client({connectionString:url.toString(),connectionTimeoutMillis:15000,query_timeout:120000,statement_timeout:90000,application_name:'ontap-shadow-selected-review-full-payload-test'});
  try {
   await c.connect();
-  const before=await bytes(c), wedBefore=await wed(c);
-  const estimate=Math.max(32*1024*1024,Buffer.byteLength(raw)*5);
-  assert.ok(before+estimate+RESERVE<=MAX_BYTES,'Storage estimate exceeds protected Preview ceiling');
+  let before=null,wedBefore=null;
+  if(!source.captureFeedOrderOnly){
+   before=await bytes(c);wedBefore=await wed(c);
+   const estimate=Math.max(32*1024*1024,Buffer.byteLength(raw)*5);
+   assert.ok(before+estimate+RESERVE<=MAX_BYTES,'Storage estimate exceeds protected Preview ceiling');
+  }
   const provenance={archiveKey:snapshot.archiveKey,archiveSha256:snapshot.archiveSha256,productionWorkflowRunId:snapshot.productionWorkflowRunId,productionRunCommit:snapshot.productionRunCommit,productionAppCommit:snapshot.productionAppCommit};
   await c.query('BEGIN');
   try {
