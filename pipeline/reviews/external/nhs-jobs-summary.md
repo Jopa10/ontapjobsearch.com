@@ -2,15 +2,51 @@
 
 review_date: 2026-11-16
 
-- Open Administrative & Clerical rows reviewed: 2109
-- Auto/remembered selected: 353
-- Selected HC Tier A: 186
+- Open Administrative & Clerical rows reviewed: 2111
+- Auto/remembered selected: 352
+- Selected HC Tier A: 185
 - Selected HC Tier B: 167
-- POSS awaiting decision: 1648
+- POSS awaiting decision: 1651
 - Excluded: 0
 - HARD_PASS: 108
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Essex | WESTCLIFF-ON-SEA, SS0 8BU | £12.71 | Care Navigator
+source_job_id: 5731441
+title: Care Navigator
+employer: Southend Coastal Surgeries
+region: Essex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5883-26-0028
+factual_fingerprint: e05678f8e4a8620725ad4afa5038e74c71445d7e272431cc916493d160ff9b7b
+---
+
+---
+action:
+POSS | NHS Jobs | — | Seaton Delaval, NE25 0QJ | £25272.00 | Health Records Assistant
+source_job_id: 5728731
+title: Health Records Assistant
+employer: Northumbria Healthcare NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-1087
+factual_fingerprint: 2d11ac7a3bf6d6cdd01fb2e04da00755b03054a2908bbbadb04788eb878d4928
+---
+
+---
+action:
+POSS | NHS Jobs | Essex | Southend-on-Sea, SS1 3HD | £12.71 | Medical Secretary
+source_job_id: 5731431
+title: Medical Secretary
+employer: Southend Coastal Surgeries
+region: Essex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5883-26-0027
+factual_fingerprint: fcc36d0af5d11f0c4ea36fdf639c28bb18fc4f30ca06bf6a41313b1e04e5e74d
+---
 
 ---
 action:
