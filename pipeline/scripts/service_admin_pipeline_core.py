@@ -1845,7 +1845,9 @@ def absolute_hard_fail_hits(title_key: str) -> list[str]:
 
 
 def owner_title_salary_rule(
-    title: str, annual_upper_gbp: float | None
+    title: str,
+    annual_upper_gbp: float | None,
+    annual_lower_gbp: float | None = None,
 ) -> tuple[str | None, str | None, str | None]:
     """Return (status, reason, hard-fail reason) for agreed title/pay rules."""
     title_key = normalise_title_for_register(title)
@@ -1871,12 +1873,16 @@ def owner_title_salary_rule(
         if annual_upper_gbp is None:
             return "review", f"{role} salary is unavailable or unclear", None
         if annual_upper_gbp > COMMON_OFFICE_ROLE_QUERY_GBP:
+            if annual_lower_gbp is not None and annual_lower_gbp <= COMMON_OFFICE_ROLE_QUERY_GBP:
+                return "ok", f"{role} salary range starts at or below £40k", None
             return "review", f"{role} salary over £40k", None
         return "ok", f"{role} salary at or below £40k", None
     if re.search(r"\breceptionist\b", title_key):
         if annual_upper_gbp is None:
             return "review", "Receptionist salary is unavailable or unclear", None
         if annual_upper_gbp > COMMON_OFFICE_ROLE_QUERY_GBP:
+            if annual_lower_gbp is not None and annual_lower_gbp <= COMMON_OFFICE_ROLE_QUERY_GBP:
+                return "ok", "Receptionist salary range starts at or below £40k", None
             return "review", "Receptionist salary over £40k", None
         return "ok", "Receptionist salary at or below £40k", None
     return None, None, None
@@ -1920,6 +1926,7 @@ def assess_part_time_role(
         return True, "exclude", salary_assessment.annual_upper_gbp, "director/head or specialist finance work"
 
     annual_upper = salary_assessment.annual_upper_gbp
+    annual_lower = salary_assessment.annual_lower_gbp
     if annual_upper is None:
         return True, "review", None, "part-time earnings are unclear"
 
@@ -1930,6 +1937,8 @@ def assess_part_time_role(
         if always_review:
             return True, "review", annual_upper, "part-time manager role requires owner review"
         if annual_upper > 40_000:
+            if annual_lower is not None and annual_lower <= 40_000:
+                return True, "ok", annual_upper, "salary range lower bound is within £40k under normal selection rules"
             return True, "review", annual_upper, "salary over £40k under normal selection rules"
         return True, "ok", annual_upper, "salary at or below £40k under normal selection rules"
 
@@ -1939,16 +1948,24 @@ def assess_part_time_role(
     salary_basis = f"{salary_period} {salary_text}".casefold()
     if re.search(r"\b(?:hour|hourly|hr|per\s+hour|/\s*hour)\b", salary_basis):
         annual_upper *= stated_hours / 37.5
+        if annual_lower is not None:
+            annual_lower *= stated_hours / 37.5
     elif re.search(r"\b(?:day|daily|per\s+day)\b", salary_basis):
         annual_upper *= stated_hours / 37.5
+        if annual_lower is not None:
+            annual_lower *= stated_hours / 37.5
     elif PART_TIME_FTE_SALARY_RE.search(description):
         annual_upper *= stated_hours / 37.5
+        if annual_lower is not None:
+            annual_lower *= stated_hours / 37.5
 
     if annual_upper > 50_000:
         return True, "exclude", annual_upper, "actual part-time annual earnings over £50k"
     if always_review:
         return True, "review", annual_upper, "part-time manager role requires owner review"
     if annual_upper > 40_000:
+        if annual_lower is not None and annual_lower <= 40_000:
+            return True, "ok", annual_upper, "actual part-time salary range lower bound is within £40k"
         return True, "review", annual_upper, "actual part-time annual earnings over £40k"
     return True, "ok", annual_upper, "actual part-time annual earnings at or below £40k"
 
@@ -2272,7 +2289,11 @@ def _process_batch(
         owner_salary_status, owner_salary_reason, owner_salary_hard_fail = (
             (None, None, None)
             if part_time_active or missing_pay
-            else owner_title_salary_rule(title, salary_assessment.annual_upper_gbp)
+            else owner_title_salary_rule(
+            title,
+            salary_assessment.annual_upper_gbp,
+            salary_assessment.annual_lower_gbp,
+        )
         )
         if missing_pay and not (
             part_time_active
