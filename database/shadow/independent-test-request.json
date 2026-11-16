@@ -1,0 +1,19 @@
+{
+  "mode": "independent_selector_replay",
+  "archiveDate": "2026-11-16",
+  "productionOutputRunId": 43824436796,
+  "publishedOutputArtifacts": [
+    {
+      "name": "service-admin-output",
+      "id": 14208439791,
+      "sha256": "cfa469ea836f5d2d0b12421003dc1b31302d85ce0898cb533948a1307f1b2dbc"
+    },
+    {
+      "name": "support-worker-output",
+      "id": 14209236979,
+      "sha256": "b251a3ee3c57310496d91da95ad79ef3784d81c45dc66839a01a2c2137433777"
+    }
+  ],
+  "attempt": 1,
+  "notes": "Re-run original Python selectors from saved raw feed in isolated GitHub worker; production output artifacts are comparison-only, never selector input. No publish or merge."
+}
