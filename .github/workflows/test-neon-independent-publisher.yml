@@ -6,6 +6,7 @@ on:
 permissions:
   contents: read
   actions: read
+  id-token: write
 concurrency:
   group: ontap-neon-independent-publisher
   cancel-in-progress: false
@@ -41,20 +42,18 @@ jobs:
             f.write('run_id='+str(x['productionOutputRunId'])+'\n')
             f.write('artifact_ids='+','.join(str(v['id']) for v in a)+'\n')
           PY
-      - name: Read archived Monday raw feed only — no current supplier fetch
-        env:
-          ONTAP_SAVED_FEED_URL: ${{ secrets.ONTAP_SAVED_FEED_URL }}
+      - name: Read archived Monday raw feed using existing GitHub AWS role
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
+          aws-region: eu-west-2
+      - name: Restore exactly dated raw ZIP from Ontap S3 archive
         run: |
           set -euo pipefail
-          test -n "$ONTAP_SAVED_FEED_URL"
-          url="$(printf '%s' "$ONTAP_SAVED_FEED_URL" | tr -d '[:space:]')"
-          python - "$url" "${{ steps.req.outputs.day }}" <<'PY'
-          import sys
-          from urllib.parse import urlparse,unquote
-          u=urlparse(sys.argv[1]);assert u.scheme=='https'
-          assert unquote(u.path).endswith('/'+sys.argv[2]+'.zip'), 'Saved raw feed date differs from selected reference'
-          PY
-          curl --fail --silent --show-error --location --retry 3 --retry-delay 5 --connect-timeout 30 --max-time 180 "$url" -o "$RUNNER_TEMP/replay-jobg8.zip"
+          archive_key="jobg8/raw/${{ steps.req.outputs.day }}.zip"
+          aws s3 cp --only-show-errors \\
+            "s3://ontap-jobg8-archive-179402568934-eu-west-2-an/$archive_key" \\
+            "$RUNNER_TEMP/replay-jobg8.zip"
           test -s "$RUNNER_TEMP/replay-jobg8.zip"
           sha256sum "$RUNNER_TEMP/replay-jobg8.zip" > "$RUNNER_TEMP/replay-feed-sha256.txt"
       - name: Convert dated feed with existing JobG8 XML adapter
