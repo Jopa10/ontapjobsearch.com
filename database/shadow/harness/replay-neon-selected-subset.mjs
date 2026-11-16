@@ -49,7 +49,7 @@ const convert = [
  'book.save(dst)',
  'src.unlink()',
  "print('ONTAP_NEON_SUBSET_XLSX_READY',dst.stat().st_size)"
-].join('\\n');
+].join('\n');
 execFileSync('python3',['-c',convert],{stdio:'inherit',env});
 const commands=[
  ['-m','scripts.service_admin_pipeline_north_yorkshire'],
