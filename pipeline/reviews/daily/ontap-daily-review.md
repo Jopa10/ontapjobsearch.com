@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-11-16
-generated_at: 2026-11-16T17:14:36+00:00
+generated_at: 2026-11-16T18:35:36+00:00
 
-**468 job(s) await a human decision; 0 already answered (468 review rows).**
+**471 job(s) await a human decision; 0 already answered (471 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-11-16 | 390 | — |
+| JobG8 | OK | 2026-11-16 | 393 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-11-16 | 6 | — |
 | Teaching Vacancies | OK | 2026-11-16 | 72 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 390 to review
+## JobG8 — 393 to review
 
 ---
 action:
@@ -1149,6 +1149,24 @@ hub_fingerprint: c520955a4bb2ca73796900e53680c826b508bba7f54140bd61b566c8732964f
 
 ---
 action:
+POSS | JobG8 | Essex | Essex | — | Part Time Managing Partner , Finance & Strategy
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2312534
+title: Part Time Managing Partner , Finance & Strategy
+employer: 
+location: Essex
+region: Essex
+salary: 
+closing_date: 
+reason: possible manual_select candidate for review/swap
+source_url: 
+hub_fingerprint: 2b6ffebe84f886efeda6a6bad926eab32d33ee6d287a2e6adf382122f556546d
+---
+
+---
+action:
 POSS | JobG8 | Essex | Essex | — | Part Time Managing Partner - Finance & Strategy
 source_key: jobg8
 source: JobG8
@@ -2085,24 +2103,6 @@ hub_fingerprint: 33d9c710e755cb0791a9b14a198c63ec7d7fc4bf30e72b27ecdf234609dc326
 
 ---
 action:
-POSS | JobG8 | Hertfordshire | Hertfordshire | £40000 per year | Finance Manager / Bookkeeper - Part Time
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2305214
-title: Finance Manager / Bookkeeper - Part Time
-employer: 
-location: Hertfordshire
-region: Hertfordshire
-salary: £40000 per year
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
-source_url: 
-hub_fingerprint: 64b8a65e33824365fc0c410fa9208692c25f6ef4ace9daa938f7d89405d87ed7
----
-
----
-action:
 POSS | JobG8 | Hertfordshire | Hertfordshire | £130 - £180 per daily | Ophthalmology Administrator
 source_key: jobg8
 source: JobG8
@@ -2269,7 +2269,7 @@ POSS | JobG8 | Kent | Kent | — | Finance Assistant
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2288174
+source_job_id: 2312728
 title: Finance Assistant
 employer: 
 location: Kent
@@ -2278,7 +2278,7 @@ salary:
 closing_date: 
 reason: possible manual_select candidate for review/swap
 source_url: 
-hub_fingerprint: 958c29a9e9b1ad65356f9084e5306e280236afd404e37839603d0218e53eb3c2
+hub_fingerprint: 4ba66bd491a6da4cc8cebadca6d31422379023e6104da031fd3ec2fc4dcc65bb
 ---
 
 ---
@@ -2351,6 +2351,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: b8998b11cd7fec291ddbb59b584c3180d8682963a2559ba10dbe7e250ea74f00
+---
+
+---
+action:
+POSS | JobG8 | Kent | Kent | — | Procurement Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2313811
+title: Procurement Administrator
+employer: 
+location: Kent
+region: Kent
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - Procurement administration is eligible unless substantial expertise or qualifications are mandatory; manual review required: description appears to make specialist qualifications or substantial prior experience mandatory
+source_url: 
+hub_fingerprint: 6791d2faeae9df212bdc68292f3186604376ebf5f5f1dc4361b779373c6790ea
 ---
 
 ---
@@ -3939,24 +3957,6 @@ hub_fingerprint: dc331170581dac2fb7fb03d1942d49a957d7ded750c03728b033b9b517ba853
 
 ---
 action:
-POSS | JobG8 | London | London | £40000 - £45000 per year | Legal Credit Controller - 6 month contract
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2151142
-title: Legal Credit Controller - 6 month contract
-employer: 
-location: London
-region: London
-salary: £40000 - £45000 per year
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £45,000 exceeds regional review point £42,000
-source_url: 
-hub_fingerprint: fe846ea07d2c35815d079a26a7a5da9aa27f6ec5058d314d767d18f0cdde665d
----
-
----
-action:
 POSS | JobG8 | London | London | £19 - £23 per hour | Master Data Coordinator
 source_key: jobg8
 source: JobG8
@@ -4515,6 +4515,24 @@ hub_fingerprint: a401fb2c409f09540bc2a16e557ccf83525a25a28708599519a0fcb38b0f439
 
 ---
 action:
+POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | County Durham | £100 - £110 per daily | Learning Support Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225794120
+title: Learning Support Assistant
+employer: 
+location: County Durham
+region: North East - County Durham & Darlington/Hartlepool
+salary: £100 - £110 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 43d01224179896764f4d80509212b1cd76ed547930319d78a26b5d27026dba12
+---
+
+---
+action:
 POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | County Durham | £17.55 - £23.82 per hour | Materials & Inventory Planner
 source_key: jobg8
 source: JobG8
@@ -4637,6 +4655,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 583a79a59718c55a878b7a1f9d74e10f1a22a988f1cd1a990df2cf123c17b14b
+---
+
+---
+action:
+POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Alnwick | £40000 per year | Personal Assistant (Financial Services)
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 108321798
+title: Personal Assistant (Financial Services)
+employer: 
+location: Alnwick
+region: North East - Tyneside, Wearside & Northumberland
+salary: £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 564e9ad919700edb2288ef8b90534c40682d469e09dd1737f309b5abba0ef657
 ---
 
 ---
@@ -4929,24 +4965,6 @@ hub_fingerprint: ba16b0970e61f549eb0f8592c432fe9436a049a28d45732db3c9369e953a13e
 
 ---
 action:
-POSS | JobG8 | Nottinghamshire | Nottinghamshire | £95 - £110 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225812633
-title: Learning Support Assistant
-employer: 
-location: Nottinghamshire
-region: Nottinghamshire
-salary: £95 - £110 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 25879e027ca0848c19041a8ddabb2305ef52bcfe1ee4f71d74605069ceb2a2a7
----
-
----
-action:
 POSS | JobG8 | Nottinghamshire | Nottinghamshire | £45000 - £50000 per year | Payroll Manager
 source_key: jobg8
 source: JobG8
@@ -5105,24 +5123,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: customer service assistant; manual review required: annualised upper salary £41,600 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: 06d95d919cfca14c701d194fb767d9f251f3fe15204821564a51a5d8514fe91f
----
-
----
-action:
-POSS | JobG8 | Nottinghamshire | Sutton-in-ashfield | £95 - £110 per daily | Learning Support Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225812636
-title: Learning Support Assistant
-employer: 
-location: Sutton-in-ashfield
-region: Nottinghamshire
-salary: £95 - £110 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 6e9b8728554cee615ca7f6ff5a4221ff58a75eea189187bb971996bd4776e4fa
 ---
 
 ---
@@ -5325,6 +5325,24 @@ hub_fingerprint: 4931b5ed6768cb635ab06e6d283b8ded645f6757d5efe7d82a4a827366f3cc9
 
 ---
 action:
+POSS | JobG8 | Oxfordshire | Oxfordshire | £31870 per year | Support Worker
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225795205
+title: Support Worker
+employer: 
+location: Oxfordshire
+region: Oxfordshire
+salary: £31870 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: af56e1a173efe817867ee1e2984676f950a3ea08efa21badc2d41826d7456836
+---
+
+---
+action:
 POSS | JobG8 | Oxfordshire | Oxfordshire | £12.85 - £18.4 per hour (Holiday Pay) | Support Worker
 source_key: jobg8
 source: JobG8
@@ -5357,6 +5375,24 @@ closing_date:
 reason: possible manual_select candidate for review/swap
 source_url: 
 hub_fingerprint: b2c6731b3c214dc7551d177bd50f8c9339fcfe0d257e8c24e5f8eeceabef07b9
+---
+
+---
+action:
+POSS | JobG8 | Scotland Central - Edinburgh & Lothians | Edinburgh | £36000 - £39000 per year | Finance Analyst (12-month Fixed Term Contract)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2312031
+title: Finance Analyst (12-month Fixed Term Contract)
+employer: 
+location: Edinburgh
+region: Scotland Central - Edinburgh & Lothians
+salary: £36000 - £39000 per year
+closing_date: 
+reason: possible manual_select candidate for review/swap
+source_url: 
+hub_fingerprint: b37f0a79bc6c75c18245e396bb71b9763180d72c6d59deed7fbde0f1897ac6c7
 ---
 
 ---
@@ -5599,7 +5635,7 @@ POSS | JobG8 | Suffolk | Suffolk | — | Finance Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2278178
+source_job_id: 2312466
 title: Finance Manager
 employer: 
 location: Suffolk
@@ -5608,7 +5644,7 @@ salary:
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
 source_url: 
-hub_fingerprint: 285a99e9edc8ecb2b4dffa5ff4a3579d6750e3ab98f6b82f855879922f53543f
+hub_fingerprint: f31eaa513a179ad21eaaad93955ba90870c96f192e29fc42e6f6b2daf85f1529
 ---
 
 ---
@@ -6441,24 +6477,6 @@ hub_fingerprint: e2db3649d33586b7c079548223c46e2a518d156192e5d4c43afffd710e8a7c3
 
 ---
 action:
-POSS | JobG8 | West Midlands - Birmingham & Solihull | Sutton Coldfield | £33000 - £35000 per year | Finance Officer
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2153048
-title: Finance Officer
-employer: 
-location: Sutton Coldfield
-region: West Midlands - Birmingham & Solihull
-salary: £33000 - £35000 per year
-closing_date: 
-reason: possible manual_select candidate for review/swap
-source_url: 
-hub_fingerprint: 24c4d050bbcbd57a774d9a823950f08eab160d9a9af17541602c1e18f794c189
----
-
----
-action:
 POSS | JobG8 | West Midlands - Black Country | Oldbury | £18 - £21 per hour | Site Administrator
 source_key: jobg8
 source: JobG8
@@ -6513,6 +6531,24 @@ hub_fingerprint: 58c24b665b7c8214e0e3d4d3513d351c6e6639ab31033f527ad91acef373ec3
 
 ---
 action:
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £40000 per year | Accounts Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2310650
+title: Accounts Assistant
+employer: 
+location: Warwickshire
+region: West Midlands - Coventry & Warwickshire
+salary: £40000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: accounts assistant; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: e27221fe69f21728def832b4c31276bb4927d81434ef6242c2e34576f25a102a
+---
+
+---
+action:
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £40000 per year | Credit Controller
 source_key: jobg8
 source: JobG8
@@ -6527,6 +6563,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: 0b1f331cba1ad5b9c8bd6198b28f8b1c7a88489f71b87464bc2221afe35bb019
+---
+
+---
+action:
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £20 - £23 per hour | Credit Controller
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2313027
+title: Credit Controller
+employer: 
+location: Warwickshire
+region: West Midlands - Coventry & Warwickshire
+salary: £20 - £23 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £44,850 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 8ed992e247dd7d07196567155150382cb11ef59b52d80cc56860e606497f8e6d
 ---
 
 ---
@@ -6823,7 +6877,7 @@ POSS | JobG8 | Yorkshire - South | Sheffield | £35000 - £45000 per year | Demo
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2280620
+source_job_id: 2315412
 title: Demobilisation Fleet and Asset Coordinator
 employer: 
 location: Sheffield
@@ -6832,7 +6886,7 @@ salary: £35000 - £45000 per year
 closing_date: 
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £45,000 exceeds regional review point £37,000
 source_url: 
-hub_fingerprint: f02845e0bef5734d4dee517cbcb57682aef257caf6aab85c112efd551cfb5fb8
+hub_fingerprint: 5462c262d201f0dc6c5445502dcda8ee090d8170ed77fee8a9cfae7df3ff1d82
 ---
 
 ---
@@ -6985,7 +7039,7 @@ POSS | JobG8 | Yorkshire - West | Leeds | £29,000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2279306
+source_job_id: 2313928
 title: Accounts Assistant Billing & Sales Ledger
 employer: 
 location: Leeds
@@ -6994,7 +7048,7 @@ salary: £29,000 per year
 closing_date: 
 reason: possible manual_select candidate for review/swap
 source_url: 
-hub_fingerprint: 89b01f7a7028d6d8e477d07f54c1b3d6b4aac655106e1742b833427556a4e9e2
+hub_fingerprint: 7ffdbf5362853ac8b423814e2a8499c69ff4772012c6592d1337a643193a5cd5
 ---
 
 ---
