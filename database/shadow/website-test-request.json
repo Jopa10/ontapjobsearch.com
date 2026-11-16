@@ -1,0 +1,18 @@
+{
+  "mode": "website_parity",
+  "purpose": "Preview-only complete Next.js website build from read-back Neon scoped publisher rows, preserving external sources and comparing latest completed publication. Selection rules and production remain untouched.",
+  "archiveDate": "2026-11-16",
+  "productionOutputRunId": 43824436796,
+  "publishedOutputArtifacts": [
+    {
+      "name": "service-admin-output",
+      "id": 14208439791,
+      "sha256": "cfa469ea836f5d2d0b12421003dc1b31302d85ce0898cb533948a1307f1b2dbc"
+    },
+    {
+      "name": "support-worker-output",
+      "id": 14209236979,
+      "sha256": "b251a3ee3c57310496d91da95ad79ef3784d81c45dc66839a01a2c2137433777"
+    }
+  ]
+}
