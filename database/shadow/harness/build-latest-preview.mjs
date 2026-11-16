@@ -88,6 +88,11 @@ try {
 }finally{await c.end().catch(()=>{});}
 execFileSync('python3',['-m','pip','install','--disable-pip-version-check','--target','/tmp/ontap-preview-python','openpyxl==3.1.5'],{stdio:'inherit'});
 execFileSync('python3',['database/shadow/harness/prepare-full-preview.py'],{stdio:'inherit',env:{...process.env,PYTHONPATH:'/tmp/ontap-preview-python'}});
+// Remove large build-only source evidence before Next.js/Vercel trace their runtime bundles.
+// The validated readback report remains available under public/shadow-verification.
+await fs.rm('database/shadow/website-source.json',{force:true});
+await fs.rm('shadow-db-outputs.json',{force:true});
+await fs.rm('shadow-preview-metadata.json',{force:true});
 const layout='app/layout.tsx';let s=await fs.readFile(layout,'utf8');
 s=s.replace(/<Analytics\s*\/>/g,'').replace(/<Script\b[\s\S]*?<\/Script>/g,'');await fs.writeFile(layout,s);
 execFileSync('npm',['run','build'],{stdio:'inherit',env:{...process.env,NEXT_TELEMETRY_DISABLED:'1'}});
