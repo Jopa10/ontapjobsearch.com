@@ -123,6 +123,7 @@ jobs:
         env:
           FEED_DATE: ${{ steps.request.outputs.date }}
           PRODUCTION_RUN_ID: ${{ steps.request.outputs.run_id }}
+          ARTIFACT_IDS: ${{ steps.request.outputs.artifact_ids }}
         run: |
           python - <<'PY'
           import collections, hashlib, json, os
@@ -189,8 +190,6 @@ jobs:
           if exact != len(published):
               raise SystemExit('Full-feed parity did not exactly reproduce Monday published ordering and membership')
           PY
-        env:
-          ARTIFACT_IDS: ${{ steps.request.outputs.artifact_ids }}
       - name: Preserve full-feed parity report
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
