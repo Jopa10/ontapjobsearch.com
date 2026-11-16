@@ -35,6 +35,22 @@ await fs.writeFile(f, keys.map(csv).join(',')+'\n'+records.map(x=>keys.map(k=>cs
 console.log('ONTAP_NEON_SELECTED_SUBSET_INPUT',{day:dateRequest.archiveDate,rows:records.length,selected:selected.length,review:records.length-selected.length,columns:keys.length});
 execFileSync('python3',['-m','pip','install','--disable-pip-version-check','--target','/tmp/ontap-subset-python','pandas','openpyxl==3.1.5','boto3'],{stdio:'inherit'});
 const env={...process.env,PYTHONPATH:'/tmp/ontap-subset-python'};
+// The unmodified multi-family Python pipeline expects a single .xlsx feed.
+const convert = [
+ 'import csv',
+ 'from openpyxl import Workbook',
+ 'from pathlib import Path',
+ "src=Path('pipeline/input/jobg8.csv')",
+ "dst=Path('pipeline/input/jobg8.xlsx')",
+ 'book=Workbook(write_only=True)',
+ "sheet=book.create_sheet(title='Jobs')",
+ "with src.open(newline='',encoding='utf-8') as handle:",
+ '    for row in csv.reader(handle): sheet.append(row)',
+ 'book.save(dst)',
+ 'src.unlink()',
+ "print('ONTAP_NEON_SUBSET_XLSX_READY',dst.stat().st_size)"
+].join('\\n');
+execFileSync('python3',['-c',convert],{stdio:'inherit',env});
 const commands=[
  ['-m','scripts.service_admin_pipeline_north_yorkshire'],
  ['-m','scripts.enrich_job_metadata','--category','admin-service'],
