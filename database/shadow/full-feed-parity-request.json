@@ -14,6 +14,6 @@
       "sha256": "b251a3ee3c57310496d91da95ad79ef3784d81c45dc66839a01a2c2137433777"
     }
   ],
-  "purpose": "Run transient full-feed parity after correcting workflow environment mapping. No Neon writes.",
-  "retry": 2
+  "purpose": "Rerun transient Monday full-feed parity after refreshing the signed archive URL. No Neon writes or production changes.",
+  "retry": 3
 }
