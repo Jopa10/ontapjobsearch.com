@@ -320,5 +320,19 @@
     "region": "Merseyside - Wirral",
     "route": "/wirral/jobs",
     "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Luton",
+    "slug": "luton",
+    "region": "Bedfordshire",
+    "route": "/luton/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Trafford",
+    "slug": "trafford",
+    "region": "Greater Manchester - South",
+    "route": "/trafford/jobs",
+    "lifecycle_state": "active"
   }
 ]
