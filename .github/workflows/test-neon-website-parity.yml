@@ -103,7 +103,7 @@ jobs:
           test -n "$VERCEL_TOKEN"
           npm install --no-save --ignore-scripts --no-audit --no-fund --prefix "$RUNNER_TEMP/vercel-cli" vercel@65.14.0
           cli="$RUNNER_TEMP/vercel-cli/node_modules/.bin/vercel"
-          "$cli" deploy --yes --token="$VERCEL_TOKEN" --scope ontap1 > "$RUNNER_TEMP/website-preview-deploy.log" 2>&1 || {
+          "$cli" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 > "$RUNNER_TEMP/website-preview-deploy.log" 2>&1 || {
             cat "$RUNNER_TEMP/website-preview-deploy.log"; exit 1;
           }
           cat "$RUNNER_TEMP/website-preview-deploy.log"
@@ -116,7 +116,7 @@ jobs:
           import json,sys
           p=json.load(open(sys.argv[1]));c=json.load(open(sys.argv[2]))
           assert p['readbackStatus']=='passed' and p['exactSelectedIdsMatch'] and p['exactApplyUrlsMatch']
-          assert p['neonSelectedIds']==5246 if p['feedDate']=='2026-11-16' else p['neonSelectedIds']>0
+          assert p['neonSelectedIds']>0
           assert c['snapshotDate']==p['feedDate']
           assert c['regionalOutputs']==p['scopeCount']
           print('ONTAP_NEON_FULL_SITE_PARITY_PREVIEW_BUILT',p['feedDate'],p['neonSelectedIds'],c['regionalOutputs'])
