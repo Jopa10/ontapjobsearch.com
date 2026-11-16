@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-11-15
-review_fingerprint: 4bc63a5dadbc601c7d4535ed92a85acb2e9af9ac6fb6b26e67c026cf92ae1386
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: e56fc7700315772787e72157a1f970004e5cbd4080aa72efe387022727320b7f
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-and-fi
 
 ---
 action: 
+SELECTED | Shropshire | Church Stretton, West Midlands, SY6 6EX | £27,709 - £29071 pro rata | Data & Exams Officer
+employer: Church Stretton School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2cdbfaacbc07b235daf8b381b569d37c313a133fc1f357d271f5a4342199e673
+source: Teaching Vacancies
+source_job_id: data-exams-officer-church-stretton-school-church-stretton-shropshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-church-stretton-school-church-stretton-shropshire
+---
+
+---
+action: 
 SELECTED | Shropshire | Wellington, South West, TA21 8SW | NJC Grade 14, Point 4 (£26,016 FTE) | School Administrator - Maternity Cover
 employer: Court Fields School
 closing_date: 2026-11-20T09:00:00+00:00
@@ -49,21 +64,6 @@ factual_fingerprint: ccebc9e24236ee0ddd0f96d712f49225547ace276c222184b3687f7ba8f
 source: Teaching Vacancies
 source_job_id: school-administrator-maternity-cover-court-fields-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-maternity-cover-court-fields-school
----
-
----
-action: 
-SELECTED | Shropshire | Telford, West Midlands, TF3 1ET | £25,614.00 - £26,016.00 Annually (FTE) | School Receptionist / Administrative Assistant
-employer: Grange Park Primary School
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 71c4d7e77500ef019d5899fa4e6d81bbd991defcad5eda8ad2a02da8cb5a8ebe
-source: Teaching Vacancies
-source_job_id: school-receptionist-administrative-assistant-grange-park-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-administrative-assistant-grange-park-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

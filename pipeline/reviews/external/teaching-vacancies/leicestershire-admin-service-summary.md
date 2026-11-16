@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-11-15
-review_fingerprint: e73146bdf1ea4c8424215fa35975a55d56de9e4e41f9ab6ed04541da089238f7
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 1215ce6195634c1ca5c2d6075d82fde548e8442f595e6eb5f70155e38dd8d69c
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 1
-- POSS awaiting decision: 3
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE1 7RJ | The salary banding for this post will be 7 - 10 which ranges from £25,951 to £27,733 per annum. The pro rata starting salary for this post will be £24,264. | Administration Assistant (Curriculum & Progression)
+employer: WQE and Regent College Group
+closing_date: 2026-11-26T15:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9821a21a572acbe64e49ad1c9dc2da469758a5ad6897412ca2c5982f4fda0470
+source: Teaching Vacancies
+source_job_id: administration-assistant-curriculum-progression
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-curriculum-progression
+---
 
 ---
 action: 
@@ -51,21 +66,6 @@ factual_fingerprint: 403b786e8196a1e54ca1ec0101a8aa8a240153958f40125984615a73735
 source: Teaching Vacancies
 source_job_id: administration-assistant-queensmead-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-queensmead-primary-academy
----
-
----
-action: 
-POSS | Leicestershire | Leicester, East Midlands, LE5 1HF | £10,448.00 - £10,780.00 Annually (Actual) £25,614 - 26,427 Full Time Equivalent (band 2 point 3-5) | Administrative Assistant
-employer: St Joseph's Catholic Academy
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8bcd1dd65b6801d2d6c9954590e04857f874ec58ae28fc9ed18aac1b1afc2b1c
-source: Teaching Vacancies
-source_job_id: administrative-assistant-st-joseph-s-catholic-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-joseph-s-catholic-academy
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-15
-review_fingerprint: dbc3796e510c6b34a98658d16a33ed478cc6944811aeb00948e41512c37f4f10
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 34b3e6c84ba2d7a52feae8462c82062d272d61233a7b8233d6c61a3ade82ba17
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 5
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
@@ -98,20 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Somerset | Wells, South West, BA5 1TS | Salary Scale Grade 12 (point 12-19) £29,542 - £33,119 FTE. (Actual starting salary based on 37 hours per week, Term-time only + 1 week £25,635 - £28,739 pa) | Operations Officer
-employer: St Cuthbert's Church of England Junior School
-closing_date: 2026-11-16T08:00:00+00:00
-reason: Borderline school administration title: operations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1d3821f7ac2843bde3f95a136d80c60c0139168960b85d5326d7ddb080b3e8c9
-source: Teaching Vacancies
-source_job_id: operations-officer-st-cuthbert-s-church-of-england-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-st-cuthbert-s-church-of-england-junior-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -120,7 +107,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-st
 ## HARD_PASS
 
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-avanti-park-school) — No usable numeric salary.
-- [Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/trust-clerk-db16844e-9a97-47b1-aa98-b5573ee8890a) — Insufficient admin/service evidence.
+- [SEND Administrator](https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bridgwater-college-academy) — No usable numeric salary.
 
 ## Safety boundary
 

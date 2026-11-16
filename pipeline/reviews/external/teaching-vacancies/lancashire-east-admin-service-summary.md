@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-15
-review_fingerprint: e3ae97e80c4532f6b92801282680bcdd74367f1b06c9c1525d84706e8d407f92
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 1f614a140cebf0643ae97d16ffc019c0b7918eb11180d4746153e49ad1410231
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 6
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -66,36 +66,6 @@ source_job_id: business-support-officer-the-valley-leadership-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-the-valley-leadership-academy
 ---
 
----
-action: 
-SELECTED | Lancashire - East | Accrington, North West, BB5 4FF | £25,852.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year | Business Support Officer - Reception
-employer: Accrington Academy
-closing_date: 2026-11-15T17:00:00+00:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6811fb350d3536707edd034e76f02916a57642a0ba636bfcb679181d1e9f6ef1
-source: Teaching Vacancies
-source_job_id: business-support-officer-reception-accrington-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-reception-accrington-academy
----
-
----
-action: 
-SELECTED | Lancashire - East | Blackburn, North West, BB2 2JR | £26,427 - £28,153 pro rata, Actual salary £23,865 - £25,424 | Office and Admissions Administrator
-employer: St Wilfrid's Church of England Academy
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 405e79018bf049a271a3d61aee50992fe60b8fc3eaa5090a89e3976681cc7ec6
-source: Teaching Vacancies
-source_job_id: office-and-admissions-administrator-st-wilfrid-s-church-of-england-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-and-admissions-administrator-st-wilfrid-s-church-of-england-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -113,28 +83,12 @@ source_job_id: data-officer-the-hyndburn-academy-blackburn-lancashire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hyndburn-academy-blackburn-lancashire
 ---
 
----
-action: 
-POSS | Lancashire - East | Blackburn, North West, BB2 2JR | £26,427 - £28,153 pro rata, Actual salary £23,595 - £25,136 | Receptionist
-employer: St Wilfrid's Church of England Academy
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 05a6fc472d7d07423215b2f602af627df32ac5f6c80d0562d009dcbf7632212b
-source: Teaching Vacancies
-source_job_id: receptionist-st-wilfrid-s-church-of-england-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-wilfrid-s-church-of-england-academy
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Admissions Interviewer](https://teaching-vacancies.service.gov.uk/jobs/admissions-interviewer) — No usable numeric salary.
 - [Personal Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-newfield-school) — No usable numeric salary.
 - [Talent Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/talent-systems-manager) — Excluded senior/management title.
 

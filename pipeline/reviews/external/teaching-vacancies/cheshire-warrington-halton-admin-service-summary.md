@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-11-15
-review_fingerprint: 649d71c6f8eeae9f811cf681f6e1293ea45665490bad4c9abac1e56eea07aebc
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 5c2928bf11c75d66d9169d01c415a7349afd0bce84110597db0db1ef366638cf
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -14,14 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 0
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Cheshire - Warrington & Halton | Widnes, North West, WA8 7QQ | £26,889 - £28,299 - Dependent upon skills and experience | Finance Assistant (S301)
+employer: Riverside College Halton
+closing_date: 2026-11-25T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8b6f5cdb75b144ee581cb8fc002a116832024872ff31e0e764b62c933244be0d
+source: Teaching Vacancies
+source_job_id: finance-assistant-s301
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-s301
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -61,7 +74,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Assistant Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-management-accountant-the-great-schools-trust) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-great-schools-trust-warrington-not-recorded) — Excluded senior/management title.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-great-schools-trust) — Salary over £50k.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-philip-westbrook-cofe-primary-school-warrington-cheshire) — Excluded senior/management title.

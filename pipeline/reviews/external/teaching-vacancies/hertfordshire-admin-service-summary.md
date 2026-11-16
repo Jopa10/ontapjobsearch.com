@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-15
-review_fingerprint: 7642f04b1e8fda923f726d3748c2d7c99c749133b528a85707ea364941bb05e4
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 4792dd769f974e22f42f61ae5afeb30da255f406cad03a1600d17fab4e89f7eb
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 8
-- POSS awaiting decision: 1
+- Records: 16
+- Selected: 9
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hertfordshire | St Albans, East of England, AL4 0TT | £15,558.00 - £16,315.00 Annually (Actual) H4 - Scale Point 6-9 (Dependent on experience) | Admin Assistant
-employer: Nicholas Breakspear Catholic School
-closing_date: 2026-11-19T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 076015d1a97ac898bae2f5809c4190bedacb6dd43dcfa8b01a2ea55738daf3c6
-source: Teaching Vacancies
-source_job_id: admin-assistant-nicholas-breakspear-catholic-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-nicholas-breakspear-catholic-school
----
 
 ---
 action: 
@@ -49,6 +34,21 @@ factual_fingerprint: e9e4cdb5aac75678eba3a08f9c36195bbecc6d589d8062af08b3f14e6c3
 source: Teaching Vacancies
 source_job_id: administration-assistant-receptionist-bishop-s-hatfield-girls-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-receptionist-bishop-s-hatfield-girls-school
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP3 8RL | £26,847.00 - £30,515.00 Annually (FTE) Actual Salary TBC. | Administrative Assistant
+employer: Woodfield School
+closing_date: 2026-11-23T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 70c76b28a705c2d00b2f4eb3f36d80fa4c868aeb2ff6daad15b3fbe0a1ef08d7
+source: Teaching Vacancies
+source_job_id: administrative-assistant-woodfield-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-woodfield-school
 ---
 
 ---
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-ma
 
 ---
 action: 
+SELECTED | Hertfordshire | St Albans, East of England, AL4 0TT | £23,672.00 - £24,792.00 Annually (Actual) H4 - Scale Point 6-9 (Dependent on experience) | Inclusion Administrator
+employer: Nicholas Breakspear Catholic School
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1ac2445fc5d090840c0861148acec515e82605b021247186e8e1d56fdd386838
+source: Teaching Vacancies
+source_job_id: inclusion-administrator-nicholas-breakspear-catholic-school-st-albans-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-nicholas-breakspear-catholic-school-st-albans-hertfordshire
+---
+
+---
+action: 
 SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP3 8JB | £12,761.00 Annually (Actual) H4 + fringe pro rata | Office Administrator
 employer: Longdean School
 closing_date: 2026-11-17T09:00:00+00:00
@@ -143,20 +158,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/special-educational-n
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Hertfordshire | Ware, East of England, SG12 9NX | £15,953.00 - £16,708.00 Annually (Actual) H4 | SEND Administrator
-employer: Presdales School
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bc2bb43779a9dab6bd8c4f217c9cb6cff6167a52e02d52b82443c122b4d63133
-source: Teaching Vacancies
-source_job_id: send-administrator-presdales-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-presdales-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -165,7 +167,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 ## HARD_PASS
 
 - [Administrative and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-and-data-assistant) — Insufficient admin/service evidence.
-- [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover) — Insufficient admin/service evidence.
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-ashlyns-school) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-st-george-s-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lodge-farm-primary-school) — Excluded senior/management title.

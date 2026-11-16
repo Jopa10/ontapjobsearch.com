@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Wirral
 
-review_date: 2026-11-15
+review_date: 2026-11-16
 review_fingerprint: 1ce3e83b3c4e37921fdccf929b8513bf421edd402d859525d18f6497e7e8785a
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Merseyside - Wirral
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 
 ## HARD_PASS
 
-- None.
+- [School Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/school-operations-lead-thurstaston-dawpool-cofe-primary-school) — Excluded senior/management title.
 
 ## Safety boundary
 

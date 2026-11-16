@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-15
-review_fingerprint: aef2dadd90cf039181a874bbcfc6fd83b1d62e1cda694a157ba0c4e784855abd
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 9abc9e6dd94cf6317b138412b4e264b0d7b0c61770eed0eec4f071995d5cc72a
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 29
-- Selected: 6
+- Records: 32
+- Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 23
+- Hard pass: 24
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - West | Dewsbury, Yorkshire and the Humber, WF12 0HE | £20,222.00 - £20,543.00 Annually (Actual) Band C SCP 5-6 | Admin Assistant
+employer: Thornhill Community Academy, A Share Academy
+closing_date: 2026-11-29T23:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: f81f4e6ec4f542568465a87eb62a9c685b9b334d6f25808c3f285edea08f6bd1
+source: Teaching Vacancies
+source_job_id: admin-assistant-thornhill-community-academy-a-share-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-thornhill-community-academy-a-share-academy
+---
 
 ---
 action: 
@@ -34,6 +49,21 @@ factual_fingerprint: 5c67550d81dc1ae8a16f9fc567fdcd9ba58854d8320c241667d74047bb4
 source: Teaching Vacancies
 source_job_id: administration-assistant-farnham-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-farnham-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Wakefield, WF1 2PF | £28,153 - £29,071 | Administrative Assistant
+employer: Outwood Grange Academies Trust
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 31fcb51682213b83a0c2f293f751315f6aeed11907435038195f642921c037d7
+source: Teaching Vacancies
+source_job_id: administrative-assistant-outwood-grange-academies-trust-wakefield-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-outwood-grange-academies-trust-wakefield-not-recorded
 ---
 
 ---
@@ -123,16 +153,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-g
 
 - [019 - HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/019-hr-assistant) — Insufficient admin/service evidence.
 - [Academy Business Leader](https://teaching-vacancies.service.gov.uk/jobs/academy-business-leader-e9234181-3796-40b5-8607-aa4c0657cf7a) — Excluded senior/management title.
+- [Admin and Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-18575951-37f7-4cf2-88ec-92eda75445ad) — No usable numeric salary.
 - [Administration assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chapel-allerton-primary-school) — No usable numeric salary.
+- [Administration Officer - SEND & Pastoral](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-send-pastoral) — Insufficient admin/service evidence.
 - [Apprentice Business Administration Assistant (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-administration-assistant-level-3) — No usable numeric salary.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-leodis-academies-trust) — Excluded senior/management title.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-owlcotes-multi-academy-trust) — Excluded senior/management title.
+- [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-north-halifax-grammar-school) — Excluded senior/management title.
 - [Data Protection Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-officer-waterton-academy-trust) — Salary over £50k.
-- [Employee Relations Specialist](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — No usable numeric salary.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-impact-education-multi-academy-trust) — Excluded senior/management title.
-- [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-south-pennine-academies) — Excluded senior/management title.
 - [HR Administration Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-team-leader) — Excluded senior/management title.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-upper-heaton) — Excluded senior/management title.

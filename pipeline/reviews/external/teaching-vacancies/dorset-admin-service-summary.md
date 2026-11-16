@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-11-15
-review_fingerprint: e1be9528c16d29dc209cc8261faa0874dc80cdf302ab49960f92d98e52b9faea
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 9d7a0af980d2eb1ce6c9b5e0be78d3bb1a50c6756fab5b75d05f9b13a5b96df4
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 8
@@ -66,21 +66,6 @@ source_job_id: pa-to-leadership-team-43554862-09f3-4c18-971e-b22b13d85dce
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team-43554862-09f3-4c18-971e-b22b13d85dce
 ---
 
----
-action: 
-SELECTED | Dorset | Ferndown, South West, BH22 9UP | £26,427-£27,274 per annum | SEND Admin Assistant
-employer: Ferndown Middle School
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 20313f7704eec3483bbf1b668b202161072729f18c1e38af2fc7bb0583187e88
-source: Teaching Vacancies
-source_job_id: send-admin-assistant-ferndown-middle-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-ferndown-middle-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -91,11 +76,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-
 
 ## HARD_PASS
 
-- [Administration Officer with responsibility for Finance](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-with-responsibility-for-finance) — No usable numeric salary.
 - [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-the-bishop-of-winchester-academy-bournemouth-dorset) — Insufficient admin/service evidence.
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-the-bishop-of-winchester-academy) — No usable numeric salary.
 - [Financial Accounting Manager](https://teaching-vacancies.service.gov.uk/jobs/financial-accounting-manager) — Excluded senior/management title.
 - [MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/mis-officer-the-bishop-of-winchester-academy) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-longspee-academy-poole-dorset) — Excluded senior/management title.
 - [Receptionist (part-time)](https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-bournemouth-school) — No usable numeric salary.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-st-joseph-s-catholic-primary-school-poole) — Excluded senior/management title.
 - [Work Experience and Future Pathways Administrator](https://teaching-vacancies.service.gov.uk/jobs/work-experience-and-future-pathways-administrator-parkstone-grammar-school-poole-dorset) — No usable numeric salary.

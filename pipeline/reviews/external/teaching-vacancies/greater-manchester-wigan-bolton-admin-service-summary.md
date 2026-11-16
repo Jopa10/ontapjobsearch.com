@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-11-15
-review_fingerprint: e366fb3c808e739b5f733a479e7912db6d14913f75f359d42b47ad0dc2595582
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 3a59c38f203f82228e420aa319c2633987d60c1f6f567e48d441001466549eec
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -34,36 +34,6 @@ factual_fingerprint: f5f8fca06d99be9c75e1f6754d2a018cf2fc9540cdac551bcd247d77957
 source: Teaching Vacancies
 source_job_id: administrative-assistant-with-marketing-the-westleigh-school-leigh-lancashire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-marketing-the-westleigh-school-leigh-lancashire
----
-
----
-action: 
-SELECTED | Greater Manchester - Wigan & Bolton | Bolton, North West, BL2 4HU | £25,534.00 - £28,615.00 Annually (Actual) based on 37 hours per week, plus 10 days | Attendance and Admissions Officer
-employer: Firwood High School
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bf701f344742e60a49f32dcd68118a215ee0343150259d49a3a789102c0265e3
-source: Teaching Vacancies
-source_job_id: attendance-and-admissions-officer-firwood-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-firwood-high-school
----
-
----
-action: 
-SELECTED | Greater Manchester - Wigan & Bolton | Bolton, North West, BL2 4HU | £22,989.00 - £24,893.00 Annually (Actual) Term Time plus 5 days - 37 hours per week | School Administrator (Reception)
-employer: Firwood High School
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 04e75b8069582759e59df39560fc612eafe31f5a308f192548296b79955c7472
-source: Teaching Vacancies
-source_job_id: school-administrator-reception-firwood-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-reception-firwood-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -89,7 +59,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-services-ass
 
 ## HARD_PASS
 
-- [Senior Clerical Assistant for SEN and Inclusion (Grade C)](https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-for-sen-and-inclusion-grade-c) — Excluded senior/management title.
 - [Student Behaviour Administrator](https://teaching-vacancies.service.gov.uk/jobs/student-behaviour-administrator-outwood-academy-hindley) — No usable numeric salary.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-11-15
-review_fingerprint: 50d24fec3281114541e629052a52c9e5766d227aaaf26ef4ea021f919d5d07d1
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 5c59b07d46779091047ea66116e840ec44820dd1e99b6d28475b581129033182
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 0
+- Records: 6
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Cornwall | Truro, South West, TR4 9DA | Level 3A - Actual Annual Salary £21,846 (FTE £27,368) | Academy Administrator
+employer: Shortlanesend School
+closing_date: 2026-11-27T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: faa818c7e85ec03cb79df2fb29ef19a8141d09ba2282b13bda3e36d57d0809f0
+source: Teaching Vacancies
+source_job_id: academy-administrator-shortlanesend-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-shortlanesend-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

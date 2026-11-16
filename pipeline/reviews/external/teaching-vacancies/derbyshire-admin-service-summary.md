@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-15
-review_fingerprint: afaa380b2520f120b81d6acccc918b9c96b09ef36772c263d1d9364b10660eb3
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: c2aee92992ebb873ec9756b5acf255cc3e40b28a48010efaaf950e175d86a8bf
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 11
 - Selected: 2
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -55,6 +55,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
+POSS | Derbyshire | Derby, DE1 3TQ | £26,847.00 - £28,153.00 Annually (Actual) Band 3, SCP 6 - 9 | Finance Assistant
+employer: St Ralph Sherwin Catholic Multi Academy Trust
+closing_date: 2026-11-21T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 033e0a0ff21cfaa20901ec683cac5d79bc194dc0ff1c29bc4938f21529c6791b
+source: Teaching Vacancies
+source_job_id: finance-assistant-st-ralph-sherwin-catholic-multi-academy-trust-derby-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-ralph-sherwin-catholic-multi-academy-trust-derby-not-recorded
+---
+
+---
+action: 
 POSS | Derbyshire | Hope Valley, East Midlands, S33 6SD | £26,427.00 - £26,847.00 Annually (FTE) Actual Salary £13,823 - £14,043 | Receptionist
 employer: Hope Valley College
 closing_date: 2026-11-22T23:59:00+00:00
@@ -89,8 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-noel-bak
 
 ## HARD_PASS
 
-- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-belper-school-and-sixth-form-centre) — Excluded senior/management title.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-chellaston-academy-derby-derbyshire) — Excluded senior/management title.
+- [Employer Partnership Officer - Student Employment](https://teaching-vacancies.service.gov.uk/jobs/employer-partnership-officer-student-employment) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-ashwood-spencer-academy) — Excluded senior/management title.
 - [PA to SLT & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-cover-manager) — Excluded senior/management title.
 - [Pastoral Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-officer-93d815b7-0e82-49a1-9ded-1395abd2f79a) — No usable numeric salary.

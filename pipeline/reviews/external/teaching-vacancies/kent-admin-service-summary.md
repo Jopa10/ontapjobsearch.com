@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-11-15
+review_date: 2026-11-16
 review_fingerprint: 0255fb6b40c60fc930adc2b0de54f0a2d37a10f66c2aed88f443a39ad7e0e8b7
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE

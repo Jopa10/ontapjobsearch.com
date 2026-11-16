@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-11-15
-review_fingerprint: 385c70d7d7b193a8f0bc0602760715dcae959ad735ba01cf713c8907d611cb01
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: d680c3885f723786980702166fdad4bb66c755a24d0b772a8e847d19f8a8b7da
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 3
-- POSS awaiting decision: 0
+- Selected: 1
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -36,39 +36,22 @@ source_job_id: receptionist-administrator-brantridge-school-haywards-heath-west-
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-brantridge-school-haywards-heath-west-sussex
 ---
 
----
-action: 
-SELECTED | Sussex | Eastbourne, South East, BN22 9EE | FTE: £26,017.00 - £26,429.00 (actual salary: £21,167.55 to £21,502.76) | Receptionist and Administrative Assistant
-employer: Heron Park Primary Academy
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4c06e8853c290bb91f15240cc047de5fd64ebf3fb66079907b6d6d4c2a8791b1
-source: Teaching Vacancies
-source_job_id: receptionist-and-administrative-assistant-heron-park-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-heron-park-primary-academy
----
-
----
-action: 
-SELECTED | Sussex | Lewes, South East, BN7 3AE | Up to £28,796 per annum | Registry Administrator
-employer: Plumpton College
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6605f7f2fffae750d7301c361017bab1f74e450873f741be5dd21ac5c1abedb0
-source: Teaching Vacancies
-source_job_id: registry-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/registry-administrator
----
-
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Sussex | Haywards Heath, South East, RH17 5DP | 25615.00 - £26017.00 | Office Administrator
+employer: Warden Park Secondary Academy
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fe8776b7cc331e68fc4b96967839f8477e824b3e74cd4ae10e47059eefd6d056
+source: Teaching Vacancies
+source_job_id: office-administrator-e72282fa-c4f6-4f9c-856f-8183f54822a0
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-e72282fa-c4f6-4f9c-856f-8183f54822a0
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -78,6 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/registry-administrato
 
 - [Business & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-manager-the-littlehampton-academy) — Excluded senior/management title.
 - [Cover, Data & Exams Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-data-exams-administrator) — No usable numeric salary.
+- [MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/mis-officer-plumpton-college) — Insufficient admin/service evidence.
 - [Nursery Manager](https://teaching-vacancies.service.gov.uk/jobs/nursery-manager-desmond-anderson-primary-academy) — Out-of-scope occupation: nurse.
 
 ## Safety boundary

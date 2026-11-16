@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-15
-review_fingerprint: d1bca41baa601f49f00bc15138693718bb97512e49d1ba277b4944ad39874b3b
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: c78e2d7fe721b4777472ee78c676cbe66748685111d3d779c207375ffc6f7536
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
-- POSS awaiting decision: 2
+- Records: 11
+- Selected: 5
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Rugby, East Midlands, CV23 8TR | £26,846.00 - £27,274.00 Annually (FTE) £10,044.12 - £10,450.38 | Administrator 16.5 hours (2.5 days a week)
+employer: Barby Church of England Primary School
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8e30ca7a03f9f36a271262c23fc701b32ce8509292551419d8bd57f4c276a6f6
+source: Teaching Vacancies
+source_job_id: administrator-16-5-hours-2-5-days-a-week
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-16-5-hours-2-5-days-a-week
+---
 
 ---
 action: 
@@ -34,21 +49,6 @@ factual_fingerprint: 4f762e2c3b199dd44b4002816821dbcb904b4ad1109515fbde6009893d5
 source: Teaching Vacancies
 source_job_id: business-administrator-harris-church-of-england-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-harris-church-of-england-academy
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Stratford-upon-Avon, West Midlands, CV37 6TQ | £23,561.00 - £25,621.00 Annually (Actual) | Business Support Officer
-employer: Welcombe Hills School
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ad9d84a1b557d72391e7cac9a4569c231a4804fb71e3822b13bc1e579e2e4a1a
-source: Teaching Vacancies
-source_job_id: business-support-officer-welcombe-hills-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-welcombe-hills-school
 ---
 
 ---
@@ -81,7 +81,37 @@ source_job_id: office-administrator-st-joseph-s-catholic-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-joseph-s-catholic-primary-academy
 ---
 
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 7HN | NJC05 to NJC06 £26,427.00 to £26,847.00 FTE £13,745.72 to £13,964.18 Actual | Receptionist
+employer: Henry Hinde School
+closing_date: 2026-12-07T00:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0f9f0e7b119e07edfaabc8008f9a7ed7afba601448b68594f8d61b3cd7d18da6
+source: Teaching Vacancies
+source_job_id: receptionist-henry-hinde-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-henry-hinde-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 7HN | NJC07 to NJC11 £27,274.00 to £29,071.00 FTE £24,173.93 to £25,766.67 Actual | Administrator
+employer: Henry Hinde School
+closing_date: 2026-12-07T00:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d04a46d9e400c5079ff2035cf01f4a8b07dd04973706b6adfc0d9f3aed71542d
+source: Teaching Vacancies
+source_job_id: administrator-henry-hinde-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-henry-hinde-school
+---
 
 ---
 action: 
@@ -121,7 +151,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
 
 - [Cover Co-ordinator / Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-administrator-stoke-park-school) — No usable numeric salary.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-harris-church-of-england-academy) — Insufficient admin/service evidence.
-- [Receptionist & Admin Assistant to the Deputy Headteachers](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-to-the-deputy-headteachers) — No usable numeric salary.
 - [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant-finham-park-school-coventry-west-midlands) — Insufficient admin/service evidence.
 
 ## Safety boundary

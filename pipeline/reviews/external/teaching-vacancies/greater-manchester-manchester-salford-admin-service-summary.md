@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-15
-review_fingerprint: a57aa5b720d53a320f0b1fd9605f130fde29b2d7f075a39e5efaacdee089028a
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 6d858095cf182b3d98c753cc83d07fecb3684f3462edf4bbb4530576de0d8dcc
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,24 +13,24 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 2
-- POSS awaiting decision: 1
+- Records: 11
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M24 2GT | DAT Level 3, SCP 18-25 (Actual salary £26,101-£30,667) | Academy Administrator L3
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M24 2GT | DAT Level 3, SCP 18-25 (Actual salary £26,455-£31,083) | Academy Administrator L3
 employer: Dixons Middleton Academy
 closing_date: 2026-11-27T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 52214d612a876fe1aba6dbd1138f796d6cbff5afbe05aa2ea0916ef4687580eb
+factual_fingerprint: ca710110be217aade762213f235ece0348ce57ae50d1f32babdd88ef93f0724e
 source: Teaching Vacancies
 source_job_id: academy-administrator-l3-dixons-middleton-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-middleton-academy
@@ -38,35 +38,37 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M24 2GT | DAT Level 3, SCP 18-25 (Actual salary £26,101-£30,667) | Academy Administrator L3
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M24 2GT | DAT Level 3, SCP 18-25 (Actual salary £26,455-£31,083) | Academy Administrator L3
 employer: Dixons Middleton Academy
 closing_date: 2026-11-27T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 25a8f27e02e877ee8f2d75b8420a0c7c01fc7a86af3ce424b6acebd23344e4f5
+factual_fingerprint: ece7237408d21af950c82ebc946beb3afde1c220786646cf81f277f0149117ae
 source: Teaching Vacancies
 source_job_id: academy-administrator-l3-dixons-middleton-academy-manchester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-middleton-academy-manchester
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M21 7SX | Grade 4 - £27,274 - £29,071 | Admin Officer
-employer: CHS South
-closing_date: 2026-11-19T23:59:00+00:00
-reason: Administrative duties evidenced in description
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M27 0AP | £23,733.00 - £24,110.00 Annually (Actual) Grade 3 (NJC scale point 5 – 6) | Administration Assistant
+employer: Moorside High School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 790e5f68e24d8ab60156020d1b0495cf06a0169120aeb5225e42da6b6cc6395a
+factual_fingerprint: 53958c6cc96cf84cc6c930bfd600810bab214b0c956a5103909433287b710949
 source: Teaching Vacancies
-source_job_id: admin-officer-chs-south
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-chs-south
+source_job_id: administration-assistant-fb86228d-d40f-40f1-8095-d68548677b77
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fb86228d-d40f-40f1-8095-d68548677b77
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -74,13 +76,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-chs-sou
 
 ## HARD_PASS
 
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-b22a2c58-c885-4d63-82a5-8952d92812d9) — No usable numeric salary.
+- [Academy Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-manager-dixons-middleton-academy) — Excluded senior/management title.
 - [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-all-saints-primary-school) — Excluded senior/management title.
 - [Caretaker](https://teaching-vacancies.service.gov.uk/jobs/caretaker-william-hulme-s-grammar-school) — Out-of-scope occupation: caretaker.
-- [Data Systems & Business Intelligence Manager](https://teaching-vacancies.service.gov.uk/jobs/data-systems-business-intelligence-manager) — Excluded senior/management title.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-lowry-academy) — Excluded senior/management title.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Excluded senior/management title.
-- [MIS Manager](https://teaching-vacancies.service.gov.uk/jobs/mis-manager-xaverian-college) — Excluded senior/management title.
 - [PDI Operations, Marketing & Programme Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pdi-operations-marketing-programme-support-officer) — Insufficient admin/service evidence.
 - [Reprographics & Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administration-assistant-the-east-manchester-academy) — Insufficient admin/service evidence.
 - [Trust HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-officer-greater-manchester-academies-trust) — Insufficient admin/service evidence.

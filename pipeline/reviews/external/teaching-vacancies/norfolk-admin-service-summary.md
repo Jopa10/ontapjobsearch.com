@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-15
-review_fingerprint: f6682958eb2b575bd6078aaa4666a7112f4652bcaf31fe08a29d3a655f7ef440
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 90e1d91aab11fe93aa881492e6f64da987e63d66adef23b961e6d20c01b5c5a7
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 5
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 11
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-litcham
 
 ---
 action: 
+SELECTED | Norfolk | King's Lynn, East of England, PE30 4AY | Scale E, Point 8 – 11, £14.36 to £15.06 per hour approx. £23,727 to £24,893 per annum. (FTE £27,709 to £29,071 – please note the salary for this role will be pro rata) | Primary SEND Administrator
+employer: Gaywood Primary School
+closing_date: 2026-11-27T00:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7e25bdabf7732b58ebb78f94f7ee023a0e150b26538b32c18e4e4c4662ecf2c0
+source: Teaching Vacancies
+source_job_id: primary-send-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-send-administrator
+---
+
+---
+action: 
 SELECTED | Norfolk | Norwich, East of England, NR14 6JX | £18,788.02 - £19,547.60 Annually (Actual) ALT Grade E Point 12-15 £27,060-£28,154 Annually, FTE | SEND Specialist Administrator
 employer: Loddon Junior School
 closing_date: 2026-11-23T23:59:00+00:00
@@ -124,9 +139,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-open
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-824224c2-5ae7-482b-a4c3-25f64d69671f) — Insufficient admin/service evidence.
 - [Estates Compliance and Contracts Supervisor (East & South)](https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-and-contracts-supervisor-east-south) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-burston-community-primary-school-diss-norfolk) — Excluded senior/management title.
-- [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-norwich-city-college-of-further-and-higher-education-norwich-norfolk) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-3b7d300e-e3f4-42fe-968e-6e538254b2cd) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-caister-junior-school) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-william-s-primary-school) — Excluded senior/management title.
 - [Secretary](https://teaching-vacancies.service.gov.uk/jobs/secretary-ba66d09b-86c1-44c3-b32c-07b2f7c540d1) — No usable numeric salary.
 - [Trust Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-capital-projects-manager-notre-dame-high-school-norwich) — Excluded senior/management title.
 - [Trust Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-capital-projects-manager-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-15
-review_fingerprint: 1ded4475d24830a289dd1cf94fafa617e92d001122aca059ca0f2ea24dfbdfa1
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: c0e9fad9a5d430ae795bf3683ae3dcfa41766ce336bd6cf5c4decb998a3fdd9b
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,42 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 5
-- POSS awaiting decision: 4
+- Selected: 3
+- POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, NG2 1RT | £9,069.00 - £9,511.00 Annually (Actual) Salary will be paid pro rata for 12.5 hours per week, all year round | Administrative Assistant
-employer: Our Lady Of Lourdes Catholic Multi Academy Trust
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7f045e46f52bddc9569275783b2577ad95458ab5c9de760e11c9b8ddc31e687f
-source: Teaching Vacancies
-source_job_id: administrative-assistant-our-lady-of-lourdes-catholic-multi-academy-trust-nottingham-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-our-lady-of-lourdes-catholic-multi-academy-trust-nottingham-not-recorded
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 7EB | £22,934.00 - £25,229.00 Annually (Actual) GAT 4/5, 37 hours per week, 39 weeks per year | Administrator - Secondary Site
-employer: Nottingham Academy
-closing_date: 2026-11-16T08:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bdbbd01b8d9f7cd9281f2f03d1f01feee55b34832890ce133b3c96d1139d8d8d
-source: Teaching Vacancies
-source_job_id: administrator-secondary-site
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-secondary-site
----
 
 ---
 action: 
@@ -115,6 +85,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG17 7HZ | £22,726.00 - £23,454.00 Annually (Actual) Support Pay Scale - Grade 3 (Points 5-7), FTE Salary £26,428 - £27,274 per annum | Administration Assistant
+employer: Bracken Hill School
+closing_date: 2026-11-30T10:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e698ff845ead9b31d239bb975d6f70e4e78951e404151662d455d6e6aa814500
+source: Teaching Vacancies
+source_job_id: administration-assistant-bracken-hill-school-nottingham-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bracken-hill-school-nottingham-nottinghamshire
+---
+
+---
+action: 
 POSS | Nottinghamshire | Newark, East Midlands, NG22 0JH | £24,821.00 - £24,821.00 Annually (Actual) | Administrator
 employer: Tuxford Academy
 closing_date: 2026-11-22T23:59:00+00:00
@@ -145,6 +130,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/adminstration-assista
 
 ---
 action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG17 7DH | Grade 5 SCP 9 - £28,153 | Finance Assistant
+employer: Outwood Academy Kirkby
+closing_date: 2026-12-01T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9e0747e080e58c79cc6c381e10d76891db43869c01444d913b48e8749968941e
+source: Teaching Vacancies
+source_job_id: finance-assistant-outwood-academy-kirkby
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-outwood-academy-kirkby
+---
+
+---
+action: 
 POSS | Nottinghamshire | Nottingham, East Midlands, NG13 0AX | PPS4 £26,016 per annum, pro rata to £14,489 per annum | SEN Administration Assistant
 employer: The Priory Belvoir Academy
 closing_date: 2026-11-23T23:59:00+00:00
@@ -166,13 +166,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-king-edward-primary-school-nursery) — No usable numeric salary.
 - [Assistant Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-administration-manager-shirebrook-academy) — Excluded senior/management title.
+- [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby-nottingham-nottinghamshire) — Insufficient admin/service evidence.
 - [Finance & Estate Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-estate-officer) — Salary over £50k.
 - [Marketing and Reprographics Assistant (fixed term maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-reprographics-assistant-fixed-term-maternity-cover) — Insufficient admin/service evidence.
 - [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-a64c421f-6231-4592-9c8e-33d9670e968a) — Insufficient admin/service evidence.
-- [People Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-business-partner-nova-education-trust) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c4d506e4-2227-47db-b7f1-9c4c2546f3eb) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hawthorne-primary-and-nursery-school) — Excluded senior/management title.
-- [Senior Office Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrative-assistant) — Excluded senior/management title.
+- [Senior Administrator (Governance)](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-governance) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-11-15
+review_date: 2026-11-16
 review_fingerprint: 7d5536a833ffd9f7ea84378c426bb27e02c909a45068356becb7ff694d02f675
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrativ
 
 ## HARD_PASS
 
-- [Finance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-administration-officer-kelsall-primary-and-nursery-school) — Insufficient admin/service evidence.
 - [Strategic School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/strategic-school-business-manager-the-whitby-high-school) — Excluded senior/management title.
 
 ## Safety boundary

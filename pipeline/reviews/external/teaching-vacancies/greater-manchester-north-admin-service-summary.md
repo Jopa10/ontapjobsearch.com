@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-15
-review_fingerprint: acb2bca15cabfc55c809d6314b0162c99cd06533857cbddc5d7eb180d1b1072c
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: c4fe660cc56fe99771f33e07eb6701c2c24be50fa369cf1c4e32ead74c08f6d5
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Greater Manchester - North | Rochdale, North West, OL11 5EF | £26,016.00 to £26,427.00 per annum (pro rata- £22,377.26 to £22,730.78 per annum) | Receptionist
-employer: Oulder Hill Leadership Academy
-closing_date: 2026-11-15T23:59:00+00:00
+SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £22,881.69 - £23,612.57 Annually (Actual) SCP4-6 - £22,881.69 - £23,612.57 - FTE: £26,016.00 - £26,847.00 - 39 weeks, 37 hours. | Academy Receptionist & Administrator
+employer: E-ACT the Oldham Academy North
+closing_date: 2026-11-30T09:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8d8757a0d165e868b7cb62d475cfef95cc921b3cada480188e0553ac581e0fb8
+factual_fingerprint: d941f2336a6aa45e2ad972b124e007c61b954b36dea8a5eef5821cfe77e2f48e
 source: Teaching Vacancies
-source_job_id: receptionist-oulder-hill-leadership-academy-rochdale-lancashire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-oulder-hill-leadership-academy-rochdale-lancashire
+source_job_id: academy-receptionist-administrator-e-act-the-oldham-academy-north-oldham-greater-manchester
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-administrator-e-act-the-oldham-academy-north-oldham-greater-manchester
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -51,7 +51,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-oulder-h
 - [Governance Clerk - Casual](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-casual) — Insufficient admin/service evidence.
 - [Head of Human Resources](https://teaching-vacancies.service.gov.uk/jobs/head-of-human-resources-st-teresa-of-calcutta-catholic-academy-trust) — Excluded senior/management title.
 - [MIS and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/mis-and-data-manager-north-chadderton-school) — Excluded senior/management title.
-- [SEND & Transition Administrator](https://teaching-vacancies.service.gov.uk/jobs/send-transition-administrator) — No usable numeric salary.
+- [Peripatetic Admin Officer Derby](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-admin-officer-derby) — No usable numeric salary.
 
 ## Safety boundary
 

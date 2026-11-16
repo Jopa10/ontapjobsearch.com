@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-11-15
-review_fingerprint: 0cdb102b2cc6056577bd697ce9c8f48efc8b51af414bf6a2a01570ec40e85db1
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 0334bff616b9eebe2cd9ec10fb07b9de3668d88d035daab8ecf56146a9c37788
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
@@ -68,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-bridling
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Yorkshire - East | Hull, Yorkshire and the Humber, HU3 1UP | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role starts at £26,362.80 | Data Officer (7483)
-employer: Hull Trinity House Academy
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c5d70b5dd49f9831b5c7e2413d70fa0f1ee698bbdfa0fc090222d0f0818ad07f
-source: Teaching Vacancies
-source_job_id: data-officer-7483-hull-trinity-house-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-7483-hull-trinity-house-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

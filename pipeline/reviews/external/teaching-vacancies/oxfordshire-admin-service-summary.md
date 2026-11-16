@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-15
-review_fingerprint: 2185b0ac1b4808e591e13255bf40f56657199eabc342f4a45ea01a9246b26750
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 72d4f9111a015b687c7a41d7c0db0a83f989999262e43df798afbeba8b1927b2
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 6
+- Records: 14
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 6
 
 ## SELECTED
 
@@ -111,21 +111,36 @@ source_job_id: school-administrator-folly-view-primary
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-folly-view-primary
 ---
 
+---
+action: 
+SELECTED | Oxfordshire | Thame, South East, OX9 2AQ | £22,261.00 Annually (Actual) Actual salary based on 37 hours per week, term-time only. The full-time equivalent salary is £26,429 - £27,275. | School Office Receptionist & Administrative Assistant
+employer: Lord Williams's School
+closing_date: 2026-11-27T10:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cf4209fc3aedffcefdcc02966b009534bf7a7ac95096ab0c298dc9e5e8c1230e
+source: Teaching Vacancies
+source_job_id: school-office-receptionist-administrative-assistant-lord-williams-s-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-receptionist-administrative-assistant-lord-williams-s-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Oxfordshire | Oxford, OX2 9JE | £32,578.00 - £35,570.00 Annually (FTE) | Finance Officer
-employer: Acer Trust
-closing_date: 2026-11-16T09:00:00+00:00
+POSS | Oxfordshire | Abingdon, South East, OX14 5NL | £27,709.00 - £30,023.00 Annually (FTE) Grade 6, SCP 8 - 13. Actual salary - £19,783.71 - £21,435.86 | Office Administrator
+employer: Thameside Primary School
+closing_date: 2026-11-30T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 3a9f75d1056f7302c031942a8c79c25bd919d789b82ffb5367ca9b757fd45290
+factual_fingerprint: 4459d393fa4b73b60d8ff52cea3c72628f64315978dab56f236cdd3111b47205
 source: Teaching Vacancies
-source_job_id: finance-officer-acer-trust-oxford-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-trust-oxford-not-recorded
+source_job_id: office-administrator-90a33dd1-b9f7-42da-901e-966e5f21e04c
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-90a33dd1-b9f7-42da-901e-966e5f21e04c
 ---
 
 ## EXCLUDED BY REVIEW
@@ -134,12 +149,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-acer-
 
 ## HARD_PASS
 
-- [Assistant Headteacher (Personal Development)](https://teaching-vacancies.service.gov.uk/jobs/assistant-headteacher-personal-development-the-cherwell-school) — Out-of-scope occupation: teacher, headteacher.
 - [Estates and Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-and-facilities-manager-alt-trust) — Excluded senior/management title.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust-oxford-not-recorded) — Insufficient admin/service evidence.
 - [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
 - [RLT Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/rlt-fundraising-officer) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-carterton-primary-school) — Excluded senior/management title.
 - [School Health & Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/school-health-safety-and-compliance-officer) — Insufficient admin/service evidence.
 - [Welfare and Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-personal-care-assistant-4d28f01b-0774-4814-980a-aaa4df4dfb79) — Insufficient admin/service evidence.
 

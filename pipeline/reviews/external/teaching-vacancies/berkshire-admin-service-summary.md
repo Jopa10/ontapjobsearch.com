@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-15
-review_fingerprint: 9322e41721d9a75561b525076ad1336596ca96fdf91a112e54434bc15832aae7
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 4270cdb13f5d113fdf16c5d31426cf04756d4cf54c84ef0edfacf5dc10b3d328
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 19
-- Selected: 9
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-administrat
 
 ---
 action: 
-SELECTED | Berkshire | Reading, South East, RG1 8EQ | £23,686.85 Annually (Actual) Working 37 hours per week. Grade 3 SCP 5-6 FTE £26,427.00. Term Time only Plus 5 INSET days including 2 weeks one of which will be in the summer. | Receptionist with Administration and Reprographics responsibility
-employer: River Academy
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c5f13834aea9143056f80b1b66ebca96a45ec8637aa88d3507508d0833c9a4dd
-source: Teaching Vacancies
-source_job_id: receptionist-with-administration-and-reprographics-responsibility-river-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-with-administration-and-reprographics-responsibility-river-academy
----
-
----
-action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Receptionist/Administrative Assistant
 employer: James Elliman Academy
 closing_date: 2026-12-31T12:00:00+00:00
@@ -98,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-SELECTED | Berkshire | Maidenhead, South East, SL6 1BN | £26,583.00 - £27,854.00 Annually (Actual) Salary: £26,583 - £27,854 (Actual), including Fringe, SCP 8-11. Term Time Only (including 5 INSET days), plus 3 weeks. Full-time, 37 hours per week | School Receptionist
-employer: Forest Bridge School
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 06d2322c4cbc6344f4c3234770488518cf27a3a93bb1280485e0f7ec9a3385a7
-source: Teaching Vacancies
-source_job_id: school-receptionist-445c0d5c-e6b9-4aae-b312-fdd6826ebbbc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-445c0d5c-e6b9-4aae-b312-fdd6826ebbbc
----
-
----
-action: 
 SELECTED | Berkshire | Windsor, South East, SL4 5EH | Salary for full time (37 hours per week), term time only is £24,114 which can be pro-rated for part time, depending on hours. | Sixth Form Administrator
 employer: The Windsor Boys' School
 closing_date: 2026-11-25T23:59:00+00:00
@@ -139,6 +109,21 @@ factual_fingerprint: cd6ee1ffc10e320239b5ac8db2290d60f33bc1619f0d4b1a68df82b4e3b
 source: Teaching Vacancies
 source_job_id: supported-learning-admin-assistant-sandhurst-school-sandhurst-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/supported-learning-admin-assistant-sandhurst-school-sandhurst-berkshire
+---
+
+---
+action: 
+SELECTED | Berkshire | Reading, RG6 7HS | £19,339.00 Annually (FTE) Grade 4 SCP 7 - 30 hours per week TTO plus 2 weeks during the Summer Holidays - FTE Salary £27,274 | Trust Data Administrator
+employer: Maiden Erlegh Trust
+closing_date: 2026-12-03T23:59:00+00:00
+reason: Clear admin/service title: administrator, data administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: afaa78c4d453c339d1fc4b2fef970bb1825849c51f8782423d4a18590d98683f
+source: Teaching Vacancies
+source_job_id: trust-data-administrator-28fe9c81-ffb6-46e6-8110-6841eaf6af75
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-administrator-28fe9c81-ffb6-46e6-8110-6841eaf6af75
 ---
 
 ---
@@ -197,6 +182,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 - [Admin Assistant (Staff Attendance & Absence Monitoring) - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-staff-attendance-absence-monitoring-the-avenue-school) — No usable numeric salary.
 - [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
 - [Health Safety & Welfare Manager](https://teaching-vacancies.service.gov.uk/jobs/health-safety-welfare-manager) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-all-saints-junior-school-reading-berkshire) — Excluded senior/management title.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school-reading-berkshire) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
 - [Student Admissions and Onboarding Officer](https://teaching-vacancies.service.gov.uk/jobs/student-admissions-and-onboarding-officer) — Insufficient admin/service evidence.

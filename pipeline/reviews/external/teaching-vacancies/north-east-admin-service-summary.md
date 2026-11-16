@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-15
+review_date: 2026-11-16
 review_fingerprint: 6ad454e9a9f87838b3b87186a3201c1449c2244addd08543633460fa5ab10b64
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 13
 - Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -136,11 +136,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-suppo
 
 ## HARD_PASS
 
-- [Attendance Pastoral Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-pastoral-support-officer-the-orme-academy) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-jarrow-school) — Excluded senior/management title.
-- [Exams Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-office-administration-assistant) — Insufficient admin/service evidence.
 - [HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-prosper-learning-trust) — Insufficient admin/service evidence.
 - [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-af43e27f-b30c-4ed7-9581-5362fb482ff1) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hadrian-learning-trust) — Excluded senior/management title.
 - [Staff & Student Support Officer](https://teaching-vacancies.service.gov.uk/jobs/staff-student-support-officer) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-15
-review_fingerprint: 06435a6e2cd3d9d3cf425311d1b8b646266424c38a20e6fc72b46105cebbc88a
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 8d6f32629b5ece5398464f4280c2e3824dcdd649561b2d4f21cb58c76ca3b102
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 10
-- POSS awaiting decision: 3
+- Records: 18
+- Selected: 7
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: ed04fa5ddae9c07f80336ec989b81c31cba10cff02aec03b23d4ba91b1f
 source: Teaching Vacancies
 source_job_id: administrator-sen-and-careers-marshland-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sen-and-careers-marshland-high-school
----
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB23 7DU | £27,274.00 - £29,071.00 Annually (FTE) NJC Scale 4, Points 7 to 11 . Actual salary £23,078 per annum on point 7. | Alternative Provision & Safegaurding Administrator
-employer: Comberton Village College
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e2346785c89aaa5dddec87c2bf9b513c4bee6253370018026afc4ad82302f4db
-source: Teaching Vacancies
-source_job_id: alternative-provision-safegaurding-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-safegaurding-administrator
 ---
 
 ---
@@ -83,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-0090e19
 
 ---
 action: 
-SELECTED | Cambridgeshire | St. Neots, East of England, PE19 2SH | £32,578.00 - £34,812.00 Annually (FTE) Pro rata salary - £30,003 - £32,061 | Exams Officer
-employer: Ernulf Academy
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fe6568984db8a83a349992b7f0365bc8eab37c613f221ee4dcebcedd48ded4fc
-source: Teaching Vacancies
-source_job_id: exams-officer-b0378906-8f31-44c2-ae4e-74994a5303b2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-b0378906-8f31-44c2-ae4e-74994a5303b2
----
-
----
-action: 
 SELECTED | Cambridgeshire | Huntingdon, PE28 5TQ | £27,320.67 - £30,628.71 Annually (Actual) There is the flexibility for part-time hours and/or more weeks worked | Finance Officer
 employer: Meridian Trust
 closing_date: 2026-11-20T08:00:00+00:00
@@ -109,21 +79,6 @@ factual_fingerprint: f96a359ee63a04c9074e39e71e215aac02e0c92de60ed1039c367489dbb
 source: Teaching Vacancies
 source_job_id: finance-officer-meridian-trust-huntingdon-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-meridian-trust-huntingdon-not-recorded
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE4 7EP | £25,215.00 Annually (Actual) | Higher Level Administrator
-employer: Manor Drive Secondary Academy
-closing_date: 2026-11-16T10:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6c184602946ff31972076577c1bd7e07c12fbda833b2402105b0eae960a806d2
-source: Teaching Vacancies
-source_job_id: higher-level-administrator-manor-drive-secondary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/higher-level-administrator-manor-drive-secondary-academy
 ---
 
 ---
@@ -175,21 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-POSS | Cambridgeshire | St Ives, East of England, PE27 6RR | £42,405.00 Annually (Actual) | Finance Manager (Fixed Term Maternity Cover)
-employer: St Ivo Academy
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Part-time finance requires actual earnings/hours and qualification checks
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4b9242ccc1c907db0e936d56ad245f4e62fc2344d1385cc9edbf5f5662836607
-source: Teaching Vacancies
-source_job_id: finance-manager-fixed-term-maternity-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-fixed-term-maternity-cover
----
-
----
-action: 
 POSS | Cambridgeshire | Huntingdon, East of England, PE26 2NJ | Point 3 (£25,614 FTE) | Office Administrator
 employer: Bury CofE Primary School
 closing_date: 2026-11-29T23:59:00+00:00
@@ -201,21 +141,6 @@ factual_fingerprint: 7967fd57d291ff2817006dc3ac03592e852fb7bd9aae7be46ae55c6e406
 source: Teaching Vacancies
 source_job_id: office-administrator-cbd6c43f-57ab-4772-adb4-47b38750d543
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cbd6c43f-57ab-4772-adb4-47b38750d543
----
-
----
-action: 
-POSS | Cambridgeshire | Peterborough, East of England, PE7 8HR | £19,985.00 - £22,406.00 Annually (Actual) Grade 7 (£29,541 to £33,119 FTE) | SEN Administration Assistant
-employer: Hampton Gardens Secondary School
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: be425d0ecd4904a2c4e2f83673a4d9da546c3df6061347f240b24ce5a34c5434
-source: Teaching Vacancies
-source_job_id: sen-administration-assistant-hampton-gardens-secondary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-assistant-hampton-gardens-secondary-school
 ---
 
 ## EXCLUDED BY REVIEW
@@ -233,7 +158,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 - [Internal Scrutiny Officer](https://teaching-vacancies.service.gov.uk/jobs/internal-scrutiny-officer) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambourne-village-college) — Excluded senior/management title.
 - [Personal Assistant to Headteacher and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-and-senior-leadership-team-st-john-fisher-catholic-high-school) — Excluded senior/management title.
-- [Reception Services](https://teaching-vacancies.service.gov.uk/jobs/reception-services-6d613bb3-be77-444c-9df1-ecc49b46685d) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-80df4620-91d1-4dc5-b093-4937c078bedb) — Salary over £50k.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-15
-review_fingerprint: c651a92f5e4320419becbc2bb95b80a8f9ffe58a0346e79c6358a4b82410a85c
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 0e22d8fe8b23feba3ae14ca0c8dd5c8f39a980c696803bdf39d249951210c151
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
-- POSS awaiting decision: 1
+- Records: 4
+- Selected: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO12 6QW | £21,934.00 - £22,278.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £25,614 to £26,016 (Grade C, Scale Points 03-04) | Receptionist
-employer: Graham School
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7be0126fa2630a37605123f14758c3b0a376619f1fa37f1aee4128be26deda0f
-source: Teaching Vacancies
-source_job_id: receptionist-graham-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-graham-school
----
 
 ---
 action: 
@@ -53,20 +38,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-hob
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Yorkshire - North | York, YO24 2RU | £19,740.94 - £20,616.86 Annually (Actual) Grade 5, Level 1-4 (£27,631 to £28,857 FTE) | Trust Data Officer
-employer: Excel Learning Trust
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5abd1540cbe9e1523cba159ac694b2a7d4d00f928f4cea54f15d1ad65fd2ab56
-source: Teaching Vacancies
-source_job_id: trust-data-officer-excel-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-officer-excel-learning-trust
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

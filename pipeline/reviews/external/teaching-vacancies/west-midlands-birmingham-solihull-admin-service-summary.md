@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-15
-review_fingerprint: 3152f4e8741f867f21f62bb31875e9dcd49f881940560bce7852e6bd2294e174
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 9761f51e00a78e6ac0ee76cc96a71b917bedc2c24697601de4916c65a1fdab85
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 3
+- Records: 19
+- Selected: 7
 - POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 6HZ | £18,408.00 - £19,928.00 Annually (Actual) Selly Oak pay scale band B points 9-18 | Admin Assistant - SEND
+employer: Selly Oak Trust School
+closing_date: 2026-11-27T23:59:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f06258990d13900416a7488d8992d6b1dfa4f17909cbe1a91314367cb1c31436
+source: Teaching Vacancies
+source_job_id: admin-assistant-send-selly-oak-trust-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-send-selly-oak-trust-school
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B75 5BL | £25,614 - £27,709, actual salary £12,122 - £13,113 per annum | Administration Assistant
+employer: Mere Green Primary School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a51265b6a15691c46cdf02e097e547019590ac83b4aa46aa60895e9b501880f8
+source: Teaching Vacancies
+source_job_id: administration-assistant-mere-green-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-mere-green-primary-school
+---
 
 ---
 action: 
@@ -38,17 +68,47 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 9EL | £23,460.00 - £25,004.00 Annually (Actual) Term Time Only + 5 inset days | Admissions Officer
-employer: Waseley Hills High School
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: admissions officer
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B9 5RX | £25,614.00 - £27,709.00 Annually (FTE) Pro rata - £23,621 - £25,553 - TTO + 2 weeks | Administrative Assistant
+employer: Saltley Academy
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f6d74bbe652c2c7a139ae86c7685aa70b22dcd0827c3bb53e887153453a5a6bf
+factual_fingerprint: 2d798898e9953c0c882a3efd901a4d76f994aff87a0dbc7c9d9ff0e330fc06fe
 source: Teaching Vacancies
-source_job_id: admissions-officer-waseley-hills-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-waseley-hills-high-school
+source_job_id: administrative-assistant-saltley-academy-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-saltley-academy-birmingham-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, B15 2AF | £25,721.00 - £27,709.00 Annually (FTE) | Finance Assistant
+employer: Think Differently Education Trust
+closing_date: 2026-12-06T20:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8bba36f0920649ce85e8295d2f1b0ae08810c8d9610be47515968a22df2d73f0
+source: Teaching Vacancies
+source_job_id: finance-assistant-think-differently-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-think-differently-education-trust
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B75 5BL | £25,614 - £27,709 FTE, actual salary £22,426 - £24,260 per annum | Receptionist / Admin Assistant
+employer: Mere Green Primary School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7f40f71ca01ad45b7800482d3f2e329d5bd93555a2c908d3f29a3d76d3f5696f
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-mere-green-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-mere-green-primary-school
 ---
 
 ---
@@ -77,10 +137,10 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5220218bb6f9280bafdbd53dcd7aea1f1e6fcd57255be2e11d9fac0f9107c1fd
+factual_fingerprint: ff6042b5ccbea98bfbfa7068507bd4ed3f8b2d837bdb79e77764dad309ae2330
 source: Teaching Vacancies
-source_job_id: data-officer-1ec12220-a804-47ff-8c60-69dfaee65e1d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-1ec12220-a804-47ff-8c60-69dfaee65e1d
+source_job_id: data-officer-b0bb20b5-eb18-4e54-b20d-19ed1abe66f0
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-b0bb20b5-eb18-4e54-b20d-19ed1abe66f0
 ---
 
 ---
@@ -180,7 +240,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 ## HARD_PASS
 
 - [Assistant Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/assistant-trust-clerk-summit-learning-trust) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-moseley-school-and-sixth-form-birmingham-west-midlands) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-clement-s-church-of-england-academy-birmingham-west-midlands) — Excluded senior/management title.
 - [School Office Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-senior-administrator) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fairway-primary-academy-birmingham-west-midlands) — Excluded senior/management title.

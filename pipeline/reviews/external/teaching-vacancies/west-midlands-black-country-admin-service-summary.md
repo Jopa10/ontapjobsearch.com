@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-15
-review_fingerprint: 2f3825709d86689ba8892b58f31ce2d780367c046f2569281388ceb08a8bbc84
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 472632848759d3342f9e867e99fa7447635d24f484af854713854337f6763c90
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 6
+- Records: 18
+- Selected: 8
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV1 2BS | £26,427.00 - £26,847.00 Annually (FTE) Pro rata actual salary £19,283.98-£19,590.45 | Administration Assistant
+employer: Holy Rosary Catholic Primary Academy
+closing_date: 2026-11-27T12:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b7270c86dd789652fe588dffe81c4c171ad344cd3391f8ec526751c719ca5053
+source: Teaching Vacancies
+source_job_id: administration-assistant-30ea18f5-6687-43df-b73a-b5583b1ab71b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-30ea18f5-6687-43df-b73a-b5583b1ab71b
+---
 
 ---
 action: 
@@ -109,6 +124,21 @@ factual_fingerprint: cba5625ddd60b7df9e8e678b5c4abf590c5c65fa7b4c2fd6944dff5c090
 source: Teaching Vacancies
 source_job_id: safeguarding-administrator-ormiston-forge-academy-cradley-heath-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-ormiston-forge-academy-cradley-heath-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B68 8NE | £22,812.00 Annually (Actual) Grade 3 SCP 5 | School Administrative Assistant
+employer: Oldbury Academy
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2d18f7f97c87887119ae5a32bcc00eb14659e1411baf5122626110179fce0630
+source: Teaching Vacancies
+source_job_id: school-administrative-assistant-oldbury-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative-assistant-oldbury-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

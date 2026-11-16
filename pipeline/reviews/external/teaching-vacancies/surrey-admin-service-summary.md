@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-15
-review_fingerprint: 472b090cf182db4e95d21eebf7897bd33e4e49d65671006378178b127b62ce9b
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 1cd079fac93142a4657fbecbf4ea81f0d9216150aa4ecb461623642d605f9c19
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
@@ -64,21 +64,6 @@ factual_fingerprint: 3a4270dd31dee1cf2bf5a3c093d722c9aeca556df454a91477de9f7b536
 source: Teaching Vacancies
 source_job_id: central-administrator-rosebery-school-epsom-surrey
 source_url: https://teaching-vacancies.service.gov.uk/jobs/central-administrator-rosebery-school-epsom-surrey
----
-
----
-action: 
-SELECTED | Surrey | Caterham, South East, CR3 5YX | £18,199.26 to £18,459.55 (dependent on experience) | Finance Admin Assistant
-employer: de Stafford School
-closing_date: 2026-11-16T09:00:59+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3993f4dc11bb25c17144cb4ce78857de1b8da2e25bebdee794a68e4fd2e0de9b
-source: Teaching Vacancies
-source_job_id: finance-admin-assistant-de-stafford-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-de-stafford-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

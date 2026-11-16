@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-15
-review_fingerprint: 2ba1e59d79ecdebb3ccec9c7cec7df2549d31c84c326bf6b0ae1a8d5521a04d1
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 6b09a2032cc49d1b739076f229e59436d8e9ebea52c0373f40ca2237deb008d0
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 8
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
-
----
-action: 
-SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £26,016.00 - £26,016.00 Annually (FTE) NJC 4: £26,016 - pro rata £13,896.42 per annum | Academy Administrator
-employer: Thomas Middlecott Academy
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5d6faf98c302e5ae1174342fd014367e737902c198263a390e597217cbf5e708
-source: Teaching Vacancies
-source_job_id: academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
----
 
 ---
 action: 
@@ -49,21 +34,6 @@ factual_fingerprint: 5c37fa50a876497b867e54d54480ae1e1430b6446c92cd937d16fecba55
 source: Teaching Vacancies
 source_job_id: admin-assistant-the-st-faith-and-st-martin-church-of-england-junior-school-lincoln
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-st-faith-and-st-martin-church-of-england-junior-school-lincoln
----
-
----
-action: 
-SELECTED | Lincolnshire | Lincoln, East Midlands, LN2 3JB | Salary: £21,904.90 - £23,088.42 (FTE WFS Grade 3 – £25,614 - £26,847) | Admin Assistant
-employer: William Farr CofE Comprehensive School
-closing_date: 2026-11-16T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d16f5b641c32b7697189960379b23aea58f9d9e0eaf79cb1c678804a1e55ad30
-source: Teaching Vacancies
-source_job_id: admin-assistant-william-farr-cofe-comprehensive-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-william-farr-cofe-comprehensive-school
 ---
 
 ---
@@ -98,14 +68,29 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN3 4JP | PPS4 £26,016 per annum, pro rata to £19,621 | Administrative Assistant
+employer: The Priory Pembroke Academy
+closing_date: 2026-11-23T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 064824734fa02f0c1702a31d6f4dd594edb3f198d71c4ba0db0cec66003cf29a
+source: Teaching Vacancies
+source_job_id: administrative-assistant-the-priory-pembroke-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-priory-pembroke-academy
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Skegness, East Midlands, PE25 2QU | £23,669.00 - £25,229.00 Annually (Actual) Grade GAT-5 | Administrator
 employer: Skegness Infant Academy
-closing_date: 2026-11-24T23:59:00+00:00
+closing_date: 2026-11-18T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 669bd74911001f023487765827c51c5da1f3ddd283007def64a00795e0c83150
+factual_fingerprint: 0a18b1591af966c8cd7c69a8e5d38a77615648d43c4b2c0e0f035ff3801b74e3
 source: Teaching Vacancies
 source_job_id: administrator-skegness-infant-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-skegness-infant-academy
@@ -187,6 +172,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administration-a
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-john-leggott-sixth-form-college) — Insufficient admin/service evidence.
 - [Pastoral Administrator](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
 - [School Business Manager (CFO)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cfo) — Excluded senior/management title.
+- [SEND Admin](https://teaching-vacancies.service.gov.uk/jobs/send-admin-sir-robert-pattinson-academy) — No usable numeric salary.
 
 ## Safety boundary
 

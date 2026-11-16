@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-11-15
-review_fingerprint: 20ad35b92f3101d5c1f5e30bfa5bf19a5cc4d6923415da7d48ce09ffdbaf9357
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: f1a459ea7bfcff0de70ac43cef736537ce1fedf3784d789df8d114a10331c651
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -23,14 +23,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Greater Manchester - South | Ashton-under-Lyne, North West, OL6 8RF | DAT Level 2, SCP 14-17 (Actual salary £25,290-£25,691) | Academy Administrator L2
+SELECTED | Greater Manchester - South | Ashton-under-Lyne, North West, OL6 8RF | DAT Level 2, SCP 14-17 (Actual salary £25,634-£26,040) | Academy Administrator L2
 employer: Dixons Ashton Academy
 closing_date: 2026-11-27T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0435a1b8ba1ba7891fe631bd67aadab22b41e634e470274276171a25a12fd691
+factual_fingerprint: a064cedb587b8405fbc95318ed587bbbb95a8eae681b1cf0e9aaae82b8842557
 source: Teaching Vacancies
 source_job_id: academy-administrator-l2-dixons-ashton-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l2-dixons-ashton-academy
@@ -38,14 +38,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Greater Manchester - South | Ashton-under-Lyne, North West, OL6 8RF | DAT Level 2, SCP 14-17 (Actual salary £25,290-£25,691) | Academy Administrator L2
+SELECTED | Greater Manchester - South | Ashton-under-Lyne, North West, OL6 8RF | DAT Level 2, SCP 14-17 (Actual salary £25,634-£26,040) | Academy Administrator L2
 employer: Dixons Ashton Academy
 closing_date: 2026-11-27T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 3e80104f76d4f842bca32af6f63784ad83c954456163838aad358c71de562c7b
+factual_fingerprint: b87fcd4a4d40c8dbb3e0c99f379043c1061b6368397c9d60c5c1c48ea2552e1d
 source: Teaching Vacancies
 source_job_id: academy-administrator-l2-dixons-ashton-academy-ashton-under-lyne-lancashire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l2-dixons-ashton-academy-ashton-under-lyne-lancashire
@@ -53,14 +53,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Greater Manchester - South | Stalybridge, North West, SK15 3RR | DAT Level 3, SCP 18-25 (Actual salary £26,101-£30,667) | Academy Administrator L3
+SELECTED | Greater Manchester - South | Stalybridge, North West, SK15 3RR | DAT Level 3, SCP 18-25 (Actual salary £26,455-£31,083) | Academy Administrator L3
 employer: Dixons Pennine Academy
 closing_date: 2026-11-27T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: dc0d403eceb6e884ca52d87684230cf11a9fb1d934cc804e429cd1f468421a98
+factual_fingerprint: 802d4fb359727f7c398b080ba54216846899e856e41e4fe7902694160812e446
 source: Teaching Vacancies
 source_job_id: academy-administrator-l3-dixons-pennine-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-pennine-academy
@@ -104,8 +104,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-elis
 
 ## HARD_PASS
 
+- [Academy Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-manager-dixons-ashton-academy) — Excluded senior/management title.
 - [Deputy Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-financial-officer-achieve-and-learn-trust) — Excluded senior/management title.
-- [Librarian and Study Centre Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/librarian-and-study-centre-co-ordinator) — Insufficient admin/service evidence.
 - [School Receptionist](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-gatley-primary-school) — No usable numeric salary.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-15
-review_fingerprint: af5b3a89aac68afd8af20e26686b24274e0910c6fdc56ebb2f697004f3f85bb5
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 9788183d6b647b48830805ef56dca190cbb3d102f16b1c9613b57cd047e56897
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 8
+- Records: 11
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Wiltshire | Swindon, South West, SN3 6EX | £19,965.60 - £20,282.91 Annually (Actual) NJC 5-6 (£26,427 - £26,847 FTE) | Administrative Assistant
-employer: Liden Academy
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | Wiltshire | Salisbury, South West, SP4 8FB | £13.48 per hour (£26,016 pro rata per annum) | Admin Assistant
+employer: St Michael's Church of England Primary School
+closing_date: 2026-11-30T12:00:59+00:00
+reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: aa27f9fe857e7c5bc2e8ff038bbc40651abe3fdf0cada59f7feb1780300a9d6f
+factual_fingerprint: 72f2cac22e24bdc5d8edb0faa4674e030805cbaafe28ce4c5a7049ea41a5b472
 source: Teaching Vacancies
-source_job_id: administrative-assistant-007d444f-90ac-4e2a-8799-4dde939dd8f8
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-007d444f-90ac-4e2a-8799-4dde939dd8f8
+source_job_id: admin-assistant-st-michael-s-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-michael-s-church-of-england-primary-school
 ---
 
 ---
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Wiltshire | Swindon, South West, SN3 1ER | £26,847.00 - £27,709.00 Annually (FTE) | Administrator to SLT and Student Support Team
-employer: Lawn Manor Academy
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f7554443ec3d46c1f84119d5f26cc3f86e8469459a859676dab962c2ff762dc6
-source: Teaching Vacancies
-source_job_id: administrator-to-slt-and-student-support-team-lawn-manor-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-to-slt-and-student-support-team-lawn-manor-academy
----
-
----
-action: 
 SELECTED | Wiltshire | Swindon, South East, SN6 8FX | £27,709.00 - £30,023.00 Annually (FTE) Support Staff NJC Grade 6, SCP 8 - 13. Actual salary range - £11,572.11 - £12,538.50 | Office Administrator
 employer: Shrivenham Church of England School
 closing_date: 2026-11-24T23:59:00+00:00
@@ -83,36 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Wiltshire | Melksham, South West, SN12 6QZ | £18,143.00 - £19,021.00 Annually (Actual) WHFNJC K Grade | Pastoral Administrator
-employer: Melksham Oak Community School
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 69c4da1dcda680e53159944181315c414af766393be4178ed090503b69b64087
-source: Teaching Vacancies
-source_job_id: pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
----
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN3 1ER | £26,016.00 - £26,847.00 Annually (FTE) | Receptionist
-employer: Lawn Manor Academy
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 41e7055445fc22dc1263f823430cf907ecb67f682fdb3d43173b621d1cb5342e
-source: Teaching Vacancies
-source_job_id: receptionist-b98224b7-a1ba-49ae-9f5c-75b343e4fc3a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-b98224b7-a1ba-49ae-9f5c-75b343e4fc3a
----
-
----
-action: 
 SELECTED | Wiltshire | Chippenham, South West, SN14 6RJ | £22,415.00 - £23,617.00 Annually (Actual) | Receptionist
 employer: Hardenhuish School
 closing_date: 2026-11-30T08:00:00+00:00
@@ -124,21 +79,6 @@ factual_fingerprint: 1eed06555b2503e17617ce392b2cf2ff5162a0cc736d5c4c524792cf971
 source: Teaching Vacancies
 source_job_id: receptionist-hardenhuish-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-hardenhuish-school
----
-
----
-action: 
-SELECTED | Wiltshire | Chippenham, South West, SN14 6RJ | £16,002.00 - £16,516.00 Annually (Actual) | Sixth Form and Work Experience Administrator
-employer: Hardenhuish School
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9dd6b9baf96baea3b8dcdae537535e648b4b036cb37b884624960ab95a8b3f48
-source: Teaching Vacancies
-source_job_id: sixth-form-and-work-experience-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-and-work-experience-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE

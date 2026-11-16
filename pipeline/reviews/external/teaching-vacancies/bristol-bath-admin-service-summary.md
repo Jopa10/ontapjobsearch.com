@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-15
-review_fingerprint: 6f650f5f820464998feace82ca72ad5708b7cb75121b59a2c367cf003f419ce1
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 1a1443d7aeee142344d8accc9fa351b5398f298f16fc9e03a9b0497e8572eabc
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 13
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -49,6 +49,21 @@ factual_fingerprint: 6e54a76f27c3bdaf4801d8fa08106f516b800c99594d293c79f980ee558
 source: Teaching Vacancies
 source_job_id: attendance-administrator-e-act-bristol-academy-south
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-e-act-bristol-academy-south
+---
+
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS9 2NT | £26,824.00 - £28,142.00 Annually (Actual) Actual salary £22,677 - £23,791 per annum | School Administrator
+employer: North Star 265°
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f1bda74bce5da97a45d1f4761f62462e3388ec6f943aebf2bc532b8270ff1389
+source: Teaching Vacancies
+source_job_id: school-administrator-9a743689-f06f-4d48-a1e9-e6d50eeadb67
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-9a743689-f06f-4d48-a1e9-e6d50eeadb67
 ---
 
 ---

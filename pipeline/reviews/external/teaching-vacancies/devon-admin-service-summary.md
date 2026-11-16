@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-15
-review_fingerprint: 1664b8a99dfb2ad778ca2019bcb786b86924ce8e6ccb27d28dc35813fcc1ef3b
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 2974f478277345c657a4349be5eec8b24ae497db998dd3b5329a5a41e0e3b448
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 1
-- POSS awaiting decision: 4
+- Records: 21
+- Selected: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 16
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Devon | Paignton, South West, TQ3 2SH | £10546.89 - £10883.77 | Admin Assistant
+employer: Sacred Heart Catholic School
+closing_date: 2026-11-27T17:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 660bf3afd040144725bd5e99b5dbf3f7be153ee3378517aefcd1677b5ab0fc7c
+source: Teaching Vacancies
+source_job_id: admin-assistant-sacred-heart-catholic-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-sacred-heart-catholic-school
+---
 
 ---
 action: 
@@ -37,21 +52,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Devon | Ivybridge, South West, PL21 0JA | £23,212.00 - £24,494.00 Annually (Actual) | Administrator
-employer: Ivybridge Community College
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9275819156fd92f1610dcd889c8d0a27952bf2938c5fe34d0d4129e34f788117
-source: Teaching Vacancies
-source_job_id: administrator-ivybridge-community-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ivybridge-community-college
----
 
 ---
 action: 
@@ -108,17 +108,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-team-multi-academy-trust) — No usable numeric salary.
 - [Clerk to Governors](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-woodlands-school) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-a1a3a65a-9f2f-47b9-8227-68ba8ca76cf9) — No usable numeric salary.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-holsworthy-community-college) — Excluded senior/management title.
 - [Exams Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-maternity-cover-atlantic-academy) — No usable numeric salary.
 - [Finance and Business Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-business-officer-all-saints-church-of-england-academy) — No usable numeric salary.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/governance-coordinator-westcountry-schools-trust) — Insufficient admin/service evidence.
-- [Local Governance Officer – Teignmouth Community School](https://teaching-vacancies.service.gov.uk/jobs/local-governance-officer-teignmouth-community-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-boringdon-primary-school-plymouth-devon) — Excluded senior/management title.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon) — No usable numeric salary.
 - [School Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-caretaker-st-sidwell-s-church-of-england-primary-school-nursery) — Out-of-scope occupation: caretaker.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-1ab8b680-19b9-400d-b2ad-e7ffeda3ad14) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy) — Excluded senior/management title.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy-newton-abbot-devon) — Excluded senior/management title.
 - [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school-axminster-devon) — Excluded senior/management title.
 - [Skills Planning Analyst](https://teaching-vacancies.service.gov.uk/jobs/skills-planning-analyst) — Insufficient admin/service evidence.
 

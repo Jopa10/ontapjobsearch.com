@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-11-15
-review_fingerprint: ba2a9a46b44187fa8bd80210aeac229daa0b65b0541d37e75888b65452c2f36a
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 31fcf2362261f9e4026431aadb5d2529387b5ccc60b9253e35e84a67d4e3a183
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 1
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | South West | Ludgershall, South West, SP11 9RR | £30,023.00 - £32,046.00 Annually (FTE) | PA to the Headteacher
+employer: The Wellington Academy
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: c54e30df0f1a6ea3875ab9d5a4e85c60e577189e5a6dcae733009b45bbdc808c
+source: Teaching Vacancies
+source_job_id: pa-to-the-headteacher-the-wellington-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-headteacher-the-wellington-academy
+---
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-15
-review_fingerprint: 48ffa23659020c8624f16c2de77283ac0a64b7555964b53a4a33c828ab836653
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 2f83ca1f06c868b5c9648330817287845ee32c558cca038819118f100e20a623
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 5
+- Records: 12
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
@@ -34,21 +34,6 @@ factual_fingerprint: 07c053231dd8d80913024afd79a7c8402b191bbc81f87bd031c00509789
 source: Teaching Vacancies
 source_job_id: academy-receptionist-westbourne-academy-ipswich-suffolk
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-westbourne-academy-ipswich-suffolk
----
-
----
-action: 
-SELECTED | Suffolk | Ipswich, East of England, IP1 6QD | £26,016.00 - £26,847.00 Annually (FTE) Grade 3, Point 4 to Point 6 | Attendance Administrator
-employer: Castle Hill Junior School
-closing_date: 2026-11-16T13:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f98b0ff5b5dcf5ce5edf587ec8a345aa88d81b61f80a2f76a015b6d54acfca1d
-source: Teaching Vacancies
-source_job_id: attendance-administrator-castle-hill-junior-school-ipswich-suffolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-castle-hill-junior-school-ipswich-suffolk
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-15
-review_fingerprint: 4d011b26ef274ae2879146ca556db56e9f053cec5c851be611ed44d3d033267c
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: d525e6307c427877305bdd5b0cc12de65a5947e01e9fd6a86c193cfbb67ec612
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 29
-- Selected: 6
-- POSS awaiting decision: 5
+- Records: 25
+- Selected: 4
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 18
+- Hard pass: 17
 
 ## SELECTED
 
@@ -81,36 +81,6 @@ source_job_id: office-administrator-st-francis-catholic-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-francis-catholic-multi-academy-trust
 ---
 
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 1SN | £24,978.00 gross per annum – if 52w or £23,210.33 gross per annum if 42w | Receptionist and Administrator – (52 or 42 weeks considered)
-employer: Sheffield Park Academy
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d9d3e13e8c111179a58a2b6c84a1f36f698f95b22789e6d7df0c55a664312417
-source: Teaching Vacancies
-source_job_id: receptionist-and-administrator-52-or-42-weeks-considered-sheffield-park-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-52-or-42-weeks-considered-sheffield-park-academy
----
-
----
-action: 
-SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN6 7SF | £21,489 - £22,225 | Student Information Desk Receptionist
-employer: Outwood Academy Adwick
-closing_date: 2026-11-16T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ac5c188bbaa3dad09525b98fe519d86237325358ce770e104bc39700a6b67b81
-source: Teaching Vacancies
-source_job_id: student-information-desk-receptionist-outwood-academy-adwick
-source_url: https://teaching-vacancies.service.gov.uk/jobs/student-information-desk-receptionist-outwood-academy-adwick
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -141,21 +111,6 @@ factual_fingerprint: ec6a8c21cfcf6a1f3c27905e175c8e72e42dd8f50293c9eca8cc90332b3
 source: Teaching Vacancies
 source_job_id: finance-administrator-7904
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-7904
----
-
----
-action: 
-POSS | Yorkshire - South | Sheffield, S9 4WG | £42,405.00 Annually (Actual) | Finance Manager (Fixed Term Maternity Cover)
-employer: Astrea Academy Trust
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Part-time finance requires actual earnings/hours and qualification checks
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8a3abcc4c7b1d7b6fa061c5d051304bdd3913e9ee184c33f36c21831b0134325
-source: Teaching Vacancies
-source_job_id: finance-manager-fixed-term-maternity-cover-astrea-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-fixed-term-maternity-cover-astrea-academy-trust
 ---
 
 ---
@@ -204,7 +159,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-as
 - [Examinations Invigilator](https://teaching-vacancies.service.gov.uk/jobs/examinations-invigilator-maltby-academy) — No usable numeric salary.
 - [Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/executive-support-officer-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Head of Business Development (VRN000003)](https://teaching-vacancies.service.gov.uk/jobs/head-of-business-development-vrn000003) — Excluded senior/management title.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy-rotherham-south-yorkshire) — Excluded senior/management title.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-1e4ec526-7e90-471c-ac7b-53d95ee8bda4) — Insufficient admin/service evidence.
 - [Personal Care Assistant (PCA)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-pca-newman-school) — Insufficient admin/service evidence.
 - [Pupil Premium Extracurricular Visits Coordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extracurricular-visits-coordinator-forge-valley-school-sixth-form-sheffield-south-yorkshire) — No usable numeric salary.

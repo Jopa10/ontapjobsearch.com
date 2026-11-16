@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-15
-review_fingerprint: 96abd882616a223c1a5bc954258836c034f7662e9e90b2953d75a6cdfe859f88
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 2dd6883b0b7fe7dd90a322f05e5f870d87d75f7e319a3b44ad2b50224d85c3fb
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 17
 - Selected: 8
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Buckinghamshire | Newport Pagnell, South East, MK16 0BJ | £35,607.51 - £37,395.75 Annually (Actual) NJC SCP 26-28 | Exams Officer
-employer: E-Act Ousedale School
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Clear admin/service title: exams officer
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK6 5LP | Up to £25,844 per annum (Subject to experience) | Administrator - Prison Education - HMP Bullingdon
+employer: Milton Keynes College
+closing_date: 2026-11-25T23:59:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ff461688d7892354f1206fc08dc271f475e6935551fbd47ea17e5c17a649fbe4
+factual_fingerprint: a346b032f4e9aae3a8878f93986caacae68683a7be963a011edb231013d7bdfe
 source: Teaching Vacancies
-source_job_id: exams-officer-e-act-ousedale-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-e-act-ousedale-school
+source_job_id: administrator-prison-education-hmp-bullingdon-milton-keynes-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-education-hmp-bullingdon-milton-keynes-college
 ---
 
 ---
@@ -194,6 +194,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-trip-enrichmen
 
 ## HARD_PASS
 
+- [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-wycombe-high-school) — Excluded senior/management title.
+- [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-kents-hill-park-all-through-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-b186e459-f769-41b9-9390-e923eedcb0b6) — Excluded senior/management title.
 - [School Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/school-operations-co-ordinator) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-stephenson-mk-trust) — Excluded senior/management title.

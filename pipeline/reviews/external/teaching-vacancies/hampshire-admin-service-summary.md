@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-15
-review_fingerprint: b6479ab088abbd05be77fbe7f0d46c43561ac1d4a896c55e26621e2f67183b7c
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: c5458e115c64415050cfbec705f5eb0fcf2cfe33dadf7988c710d59638e8881d
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 7
 - Selected: 2
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -83,13 +83,27 @@ source_job_id: receptionist-0843015e-4edd-4eed-82fa-deb742659791
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0843015e-4edd-4eed-82fa-deb742659791
 ---
 
+---
+action: 
+POSS | Hampshire | Basingstoke, South East, RG22 6HA | £12,975.00 - £14,267.00 Annually (Actual) | Receptionist
+employer: The Blue Coat School Basingstoke
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 75220bd5ea55edefcb55a95c04f078c2a6b84f7762930cce409c62827462e4e5
+source: Teaching Vacancies
+source_job_id: receptionist-the-blue-coat-school-basingstoke
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-blue-coat-school-basingstoke
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Administration Manager (Primary)](https://teaching-vacancies.service.gov.uk/jobs/administration-manager-primary) — Excluded senior/management title.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-haylands-primary-school) — Excluded senior/management title.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-inspire-learning-partnership) — Salary over £50k.
 

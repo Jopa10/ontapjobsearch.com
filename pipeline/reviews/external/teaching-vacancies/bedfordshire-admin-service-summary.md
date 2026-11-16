@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-15
-review_fingerprint: 7afb9a28e51f6d1221a427cfd7f13d1c06a0ebac92d4b35b06fdad8f74b79b7c
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 5721112e15739b1d09888cdc948c0e2ab3b06ab4d80c74c6f2cf985285bf028d
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -23,6 +23,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
+SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £17,303.57 Annually (Actual) | 6th Form Administrative Assistant
+employer: Sharnbrook Academy
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f154e2211d7cd75535bd33352d1050c3388b6c495631eef5df48744a6f74178e
+source: Teaching Vacancies
+source_job_id: 6th-form-administrative-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/6th-form-administrative-assistant
+---
+
+---
+action: 
 SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £23,424.17 Annually (Actual) | Administrative Assistant
 employer: Sharnbrook Academy
 closing_date: 2026-11-23T09:00:00+00:00
@@ -34,21 +49,6 @@ factual_fingerprint: e0a03a299caa4f6e1ff4d60f16e2f2306871ff4d02265060d1c8e1865cd
 source: Teaching Vacancies
 source_job_id: administrative-assistant-f0403612-0f69-4ba8-89fc-23ac79f34462
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-f0403612-0f69-4ba8-89fc-23ac79f34462
----
-
----
-action: 
-SELECTED | Bedfordshire | Luton, LU3 3QN | £19,841.00 - £21,506.00 Annually (Actual) L4 pts 9 - 14 pro rata'd | HR Administrator
-employer: Chiltern Learning Trust
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b5160a8d8a55b61cbf80cc6898f5583ccca671ee803fb9d2d3fc69e61afac71e
-source: Teaching Vacancies
-source_job_id: hr-administrator-05ae1022-156b-4eef-9fc5-f112d4feb40d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-05ae1022-156b-4eef-9fc5-f112d4feb40d
 ---
 
 ---
@@ -138,9 +138,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-la
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-pirton-hill-primary-school-luton-bedfordshire) — Insufficient admin/service evidence.
 - [Administration Services Manager](https://teaching-vacancies.service.gov.uk/jobs/administration-services-manager) — Excluded senior/management title.
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-0901ff45-843f-48f1-86f8-3ff333e31507) — No usable numeric salary.
+- [Attendance Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-0aafd306-24bd-4142-babf-029988a737dd) — No usable numeric salary.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-houstone-school-dunstable) — Excluded senior/management title.
 - [Data Manager and Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-and-examinations-officer-wixams-academy) — Excluded senior/management title.
-- [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-wixams-academy) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-212db2cc-f077-4618-b1ff-eb892f942ee3) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-templefield-lower-school-bedford-bedfordshire) — Excluded senior/management title.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-380e0b53-9601-45ec-b27b-2407ffe82d18) — Excluded senior/management title.

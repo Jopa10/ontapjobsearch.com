@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-15
-review_fingerprint: 7fa2b73ba0c197918da2bde2d4b947a3084596a7956e244b8944740e5dfaae53
-routing_manifest_sha256: 83e84ecbe0056690efbcdb39f7da4b2ca1f74c15af80424d9a5f475b3c0da93d
+review_date: 2026-11-16
+review_fingerprint: 05b61621c64d9654c8abaf40584be53fb858af506525267733909819a9028a66
+routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -49,6 +49,21 @@ factual_fingerprint: b690818d8af433c46a2ffc8a1de58153573f033d6dabd3b5530bf3e2372
 source: Teaching Vacancies
 source_job_id: administrator-receptionist-croyland-nursery-school-day-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-croyland-nursery-school-day-nursery
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN4 8BU | £26,846.00 - £27,274.00 Annually (FTE) Grade F, Point 6 to 7: £26,846 to £27,274 FTE | Attendance Administrator
+employer: Abbeyfield School
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0088c24a1ab055b80c076ca9aa0119935180dd64d00d232fa19af7dbfc071cac
+source: Teaching Vacancies
+source_job_id: attendance-administrator-abbeyfield-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-abbeyfield-school
 ---
 
 ---
