@@ -49,9 +49,10 @@ jobs:
           python - "$RUNNER_TEMP/selected-subset-replay-report.json" <<'PY'
           import json,sys
           r=json.load(open(sys.argv[1]))
-          assert r['inputRows']>5500 and r['liveScopes']>=230
+          assert r['inputRows']==5581 and r['liveScopes']==250
+          assert r['referenceUniqueLiveIds']==5246
           assert r['scopeInputReconstructionIndependent'] and not r['publishedArtifactsUsedAsSelectorInput']
-          print('ONTAP_PREVIEW_SELECTED_SUBSET_FEASIBILITY',json.dumps({k:r[k] for k in ['status','inputRows','liveScopes','scopesWithDifferences','generatedUniqueIds']}))
+          print('ONTAP_PREVIEW_SELECTED_SUBSET_FEASIBILITY',json.dumps({k:r[k] for k in ['status','inputRows','liveScopes','exactScopes','orderOnlyScopes','membershipDifferentScopes','generatedUniqueIds']}))
           PY
       - name: Preserve independent test evidence
         if: always()
