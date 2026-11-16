@@ -1,6 +1,6 @@
 {
   "mode": "selected_subset_feasibility",
   "archiveDate": "2026-11-16",
-  "attempt": 3,
+  "attempt": 4,
   "notes": "Preview-only Python selector replay from 5,581 stored selected/review raw payloads. No excluded raw adverts, not complete feed parity. Compares regenerated region/family ordering to previously checked read-only scoped snapshot, without using published rows as selector input."
 }
