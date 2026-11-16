@@ -43,12 +43,13 @@ MAX_CREDIBLE_ANNUAL_SALARY = 250_000.0
 
 @dataclass(frozen=True)
 class SalaryAssessment:
-    """Result of comparing a job's upper salary with its regional policy."""
+    """Result of comparing a job's salary range with its applicable policy."""
 
     status: str
     annual_upper_gbp: float | None
     review_threshold_gbp: float
     reason: str
+    annual_lower_gbp: float | None = None
 
     @property
     def review_required(self) -> bool:
@@ -159,12 +160,12 @@ def assess_salary(
     family: str = "default",
     reviewed_ceiling_gbp: Any = None,
 ) -> SalaryAssessment:
-    """Annualise the upper figure and apply the agreed regional review rule.
+    """Annualise the salary range and apply the agreed regional review rule.
 
-    Structured JobG8 fields take precedence.  Text parsing is used only when
-    structured amounts are unavailable.  A reviewed title may carry a ceiling:
-    the previous ruling remains reusable up to that pay level, while any higher
-    future advert returns to POSS for another look.
+    Structured JobG8 fields take precedence. Text parsing is used only when
+    structured amounts are unavailable. If the advertised lower bound is within
+    the review point, the salary range passes the salary check. A reviewed title
+    may also carry a ceiling that remains reusable for future adverts.
     """
     amounts = [
         amount
@@ -187,6 +188,7 @@ def assess_salary(
             "salary period unavailable; no automatic salary decision",
         )
 
+    annual_lower = min(amounts) * ANNUAL_SALARY_FACTORS[period]
     annual_upper = max(amounts) * ANNUAL_SALARY_FACTORS[period]
     if (
         annual_upper < MIN_CREDIBLE_ANNUAL_SALARY
@@ -197,6 +199,7 @@ def assess_salary(
             annual_upper,
             threshold,
             f"implausible annualised salary £{annual_upper:,.0f}",
+            annual_lower,
         )
 
     reviewed_ceiling = _parse_amount(reviewed_ceiling_gbp)
@@ -206,14 +209,24 @@ def assess_salary(
             annual_upper,
             threshold,
             f"within agreed title-specific reviewed ceiling £{reviewed_ceiling:,.0f}",
+            annual_lower,
         )
 
     if annual_upper > threshold:
+        if annual_lower <= threshold:
+            return SalaryAssessment(
+                "ok",
+                annual_upper,
+                threshold,
+                f"salary range starts at £{annual_lower:,.0f}, within regional review point £{threshold:,.0f}",
+                annual_lower,
+            )
         return SalaryAssessment(
             "review",
             annual_upper,
             threshold,
             f"annualised upper salary £{annual_upper:,.0f} exceeds regional review point £{threshold:,.0f}",
+            annual_lower,
         )
 
     return SalaryAssessment(
@@ -221,6 +234,7 @@ def assess_salary(
         annual_upper,
         threshold,
         f"annualised upper salary £{annual_upper:,.0f} is within regional review point £{threshold:,.0f}",
+        annual_lower,
     )
 
 
