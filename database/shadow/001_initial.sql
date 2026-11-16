@@ -94,6 +94,7 @@ CREATE TABLE advert_appearances (
     seen_on date NOT NULL,
     supplier_id bigint NOT NULL,
     feed_run_id uuid NOT NULL,
+    source_row_position integer CHECK (source_row_position IS NULL OR source_row_position > 0),
     PRIMARY KEY (advert_id, seen_on),
     FOREIGN KEY (advert_id, supplier_id) REFERENCES supplier_adverts(id, supplier_id),
     FOREIGN KEY (feed_run_id, supplier_id) REFERENCES feed_runs(id, supplier_id)

@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   staged-test:
-    if: github.ref == 'refs/heads/feat/neon-shadow-database'
+    if: github.ref == 'refs/heads/feat/neon-shadow-database' && !contains(github.event.head_commit.message, '[feed-order-capture]')
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:

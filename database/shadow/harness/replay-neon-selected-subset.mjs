@@ -19,10 +19,12 @@ try {
  await c.connect();await c.query('BEGIN READ ONLY');
  const current=(await c.query('SELECT max(feed_date)::text AS day FROM ontap_shadow.selected_review_payload_records')).rows[0].day;
  assert.equal(current,dateRequest.archiveDate);
- records=(await c.query('SELECT public_id,decision,raw_payload FROM ontap_shadow.selected_review_payload_records WHERE feed_date=$1::date ORDER BY public_id',[current])).rows;
+ records=(await c.query('SELECT public_id,decision,raw_payload,source_row_position FROM ontap_shadow.selected_review_payload_records WHERE feed_date=$1::date ORDER BY source_row_position',[current])).rows;
  reference=(await c.query("SELECT scope,position,public_id,source FROM ontap_shadow.published_scope_rows WHERE feed_date=$1::date AND source='JobG8' ORDER BY scope,position",[current])).rows;
  await c.query('COMMIT');
 }finally{await c.end().catch(()=>{});}
+assert.ok(records.every(r=>Number.isInteger(r.source_row_position)&&r.source_row_position>0),'Missing 1-based source feed-row positions');
+assert.equal(new Set(records.map(r=>r.source_row_position)).size,records.length,'Duplicate source feed-row positions');
 const selected=records.filter(r=>r.decision==='SELECTED');
 assert.equal(selected.length,5246);
 assert.ok(records.length>5500);
@@ -107,7 +109,8 @@ for(const k of scopes){
    unexpectedButStored:e.filter(id=>known.has(id))});stat.membershipDifferent++;}
 }
 const report={status:!membership.length&&!orderOnly.length?'matched':'differences',
- feedDate:dateRequest.archiveDate,input:'Neon raw selected + review adverts only; no published output artifact used as selector input',
+ feedDate:dateRequest.archiveDate,input:'Neon raw selected + review adverts ordered by original JobG8 feed-row position; no published output artifact used as selector input',
+ sourceRowPositionField:'source_row_position',sourceRowPositionRows:records.length,sourceRowPositionsUnique:true,
  inputRows:records.length,neonSelected:selected.length,referenceRows:reference.length,
  liveScopes:scopes.length,referenceLiveScopes:expected.size,exactScopes:exact.length,orderOnlyScopes:orderOnly.length,membershipDifferentScopes:membership.length,
  familyStats,referenceUniqueLiveIds:allRefIds.size,generatedUniqueIds:ids.size,

@@ -19,5 +19,6 @@
       "sha256": "b251a3ee3c57310496d91da95ad79ef3784d81c45dc66839a01a2c2137433777"
     }
   ],
-  "attempt": 3
+  "attempt": 3,
+  "captureFeedOrderOnly": true
 }

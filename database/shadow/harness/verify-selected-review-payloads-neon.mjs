@@ -38,6 +38,7 @@ async function run() {
  const seen=new Set();
  for(const r of snapshot.records) {
   assert.ok(r.public_id && !seen.has(r.public_id)); seen.add(r.public_id);
+  assert.ok(Number.isInteger(r.source_row_position)&&r.source_row_position>0,'Missing original JobG8 feed-row position');
   assert.ok(['SELECTED','REVIEW'].includes(r.decision));
   assert.equal(r.selector_revision,snapshot.productionRunCommit);
   assert.equal(hash(JSON.stringify(canon(r.raw_payload))),r.payload_sha256,'full payload hash mismatch: '+r.public_id);
@@ -60,16 +61,33 @@ async function run() {
     'feed_date date NOT NULL,public_id text NOT NULL,decision text NOT NULL CHECK (decision IN (\'SELECTED\',\'REVIEW\')),'+
     'decision_reason text NOT NULL,selector_revision text NOT NULL,archive_sha256 text NOT NULL,'+
     'raw_payload jsonb NOT NULL,payload_sha256 text NOT NULL,source_provenance jsonb NOT NULL,'+
+    'source_row_position integer,'+
     'created_at timestamptz NOT NULL DEFAULT now(),PRIMARY KEY(feed_date,public_id))');
+   await c.query('ALTER TABLE ontap_shadow.selected_review_payload_records ADD COLUMN IF NOT EXISTS source_row_position integer');
    const rows=snapshot.records;
+   if(source.captureFeedOrderOnly){
+    const updated=await c.query('UPDATE ontap_shadow.selected_review_payload_records AS t SET source_row_position=r.source_row_position FROM jsonb_to_recordset($3::jsonb) AS r(public_id text,source_row_position integer,payload_sha256 text) WHERE t.feed_date=$1::date AND t.public_id=r.public_id AND t.archive_sha256=$2 AND t.payload_sha256=r.payload_sha256',[snapshot.feedDate,snapshot.archiveSha256,JSON.stringify(rows.map(({public_id,source_row_position,payload_sha256})=>({public_id,source_row_position,payload_sha256})))]);
+    assert.equal(updated.rowCount,rows.length,'Position backfill did not match the exact stored feed payloads');
+    const got=await c.query('SELECT public_id,source_row_position,payload_sha256 FROM ontap_shadow.selected_review_payload_records WHERE feed_date=$1::date ORDER BY source_row_position',[snapshot.feedDate]);
+    assert.equal(got.rows.length,rows.length);assert.ok(got.rows.every(r=>Number.isInteger(r.source_row_position)&&r.source_row_position>0));
+    assert.equal(new Set(got.rows.map(r=>r.source_row_position)).size,rows.length,'Duplicate source positions in Neon');
+    const expected=[...rows].sort((a,b)=>a.source_row_position-b.source_row_position).map(r=>[r.public_id,r.source_row_position,r.payload_sha256]);
+    assert.deepEqual(got.rows.map(r=>[r.public_id,r.source_row_position,r.payload_sha256]),expected,'Neon feed-row order does not match the archived XML');
+    await c.query('COMMIT');
+    const report={status:'passed',mode:'feed_order_backfill_only',feedDate:snapshot.feedDate,archiveSha256:snapshot.archiveSha256,neonRows:got.rows.length,sourceRowPositionField:'source_row_position',sourceRowPositionsUnique:true,exactArchivedOrderReadback:true,payloadsRewritten:0,fullPayloadParityRepeated:false};
+    await fs.mkdir('dist',{recursive:true});await fs.writeFile('dist/selected-review-readback-report.json',JSON.stringify(report,null,2)+'\n');
+    await fs.writeFile('dist/selected-review-readback-manifest.json',JSON.stringify(report,null,2)+'\n');
+    await fs.writeFile('dist/index.html','<!doctype html><meta name="robots" content="noindex,nofollow"><title>Ontap feed-order capture</title><h1>Preview only</h1>');
+    console.log('ONTAP_FEED_ORDER_CAPTURE '+JSON.stringify(report));return;
+   }
    for(let i=0;i<rows.length;i+=100) {
-    await c.query('INSERT INTO ontap_shadow.selected_review_payload_records(feed_date,public_id,decision,decision_reason,selector_revision,archive_sha256,raw_payload,payload_sha256,source_provenance) '+
-     'SELECT $1::date,r.public_id,r.decision,r.decision_reason,r.selector_revision,$2,r.raw_payload,r.payload_sha256,$3::jsonb '+
-     'FROM jsonb_to_recordset($4::jsonb) AS r(public_id text,decision text,decision_reason text,selector_revision text,raw_payload jsonb,payload_sha256 text) '+
-     'ON CONFLICT(feed_date,public_id) DO NOTHING',
+    await c.query('INSERT INTO ontap_shadow.selected_review_payload_records(feed_date,public_id,decision,decision_reason,selector_revision,archive_sha256,raw_payload,payload_sha256,source_provenance,source_row_position) '+
+     'SELECT $1::date,r.public_id,r.decision,r.decision_reason,r.selector_revision,$2,r.raw_payload,r.payload_sha256,$3::jsonb,r.source_row_position '+
+     'FROM jsonb_to_recordset($4::jsonb) AS r(public_id text,decision text,decision_reason text,selector_revision text,raw_payload jsonb,payload_sha256 text,source_row_position integer) '+
+     'ON CONFLICT(feed_date,public_id) DO UPDATE SET source_row_position=EXCLUDED.source_row_position',
      [snapshot.feedDate,snapshot.archiveSha256,JSON.stringify(provenance),JSON.stringify(rows.slice(i,i+100))]);
    }
-   const got=await c.query('SELECT public_id,decision,decision_reason,selector_revision,archive_sha256,raw_payload,payload_sha256,source_provenance FROM ontap_shadow.selected_review_payload_records WHERE feed_date=$1::date ORDER BY public_id',[snapshot.feedDate]);
+   const got=await c.query('SELECT public_id,decision,decision_reason,selector_revision,archive_sha256,raw_payload,payload_sha256,source_provenance,source_row_position FROM ontap_shadow.selected_review_payload_records WHERE feed_date=$1::date ORDER BY public_id',[snapshot.feedDate]);
    assert.equal(got.rows.length,rows.length,'Neon payload row count mismatch');
    const byId=new Map(got.rows.map(r=>[r.public_id,r]));
    assert.deepEqual([...byId.keys()].sort(),rows.map(r=>r.public_id).sort(),'Neon selected/review IDs differ');
@@ -79,6 +97,7 @@ async function run() {
     assert.equal(a.selector_revision,e.selector_revision); assert.equal(a.archive_sha256,snapshot.archiveSha256);
     assert.equal(a.payload_sha256,e.payload_sha256);
     assert.deepEqual(canon(a.raw_payload),canon(e.raw_payload),'full raw payload differs: '+e.public_id);
+    assert.equal(a.source_row_position,e.source_row_position,'source feed-row position differs: '+e.public_id);
     assert.deepEqual(canon(a.source_provenance),canon(provenance));
    }
    const wedAfter=await wed(c); assert.deepEqual(wedAfter,wedBefore,'Wednesday snapshot changed');

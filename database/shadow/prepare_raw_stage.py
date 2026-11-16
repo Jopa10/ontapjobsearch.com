@@ -19,7 +19,7 @@ def flatten(node, path, out):
         flatten(child, path + [child.tag.rsplit('}', 1)[-1]], out)
 
 
-def load_archive(path):
+def load_archive(path, include_positions=False):
     with zipfile.ZipFile(path) as archive:
         names = [n for n in archive.namelist() if Path(n).name.lower() == 'jobs.xml']
         if len(names) != 1:
@@ -27,6 +27,7 @@ def load_archive(path):
         with archive.open(names[0]) as handle:
             root = ET.parse(handle).getroot()
     by_id = {}
+    source_positions = {}
     conflicting_ids = set()
     total_rows = 0
     exact_repeats = 0
@@ -46,15 +47,18 @@ def load_archive(path):
                 conflicting_ids.add(ref)
         else:
             by_id[ref] = row
+            source_positions[ref] = total_rows
     if len(conflicting_ids) > 15:
         raise ValueError(f'Source integrity review needed: {len(conflicting_ids)} conflicting IDs')
     rows = [row for ref, row in by_id.items() if ref not in conflicting_ids]
+    source_positions = {ref: pos for ref, pos in source_positions.items() if ref not in conflicting_ids}
     if not 1 <= total_rows <= 60000 or not rows:
         raise ValueError('Archive outside bounded 1–60,000 record test capacity')
     # Hash ordering spreads sectors/locations; prefixes are nested at every stage.
     rows = sorted(rows, key=lambda r: hashlib.sha256(r['/Job/DisplayReference'].encode()).hexdigest())
-    return rows, {'sourceRows': total_rows, 'uniqueSupplierIds': len(by_id),
+    diagnostics = {'sourceRows': total_rows, 'uniqueSupplierIds': len(by_id),
                   'exactRepeatRows': exact_repeats, 'conflictingIdsHeld': sorted(conflicting_ids)}
+    return (rows, diagnostics, source_positions) if include_positions else (rows, diagnostics)
 
 
 def fingerprint_archive(path):
@@ -110,7 +114,7 @@ def fingerprint_archive(path):
 
 
 def prepare(path, percentage, archive_date, revision, budget):
-    rows, diagnostics = load_archive(path)
+    rows, diagnostics, source_positions = load_archive(path, include_positions=True)
     selected = rows[:max(1, len(rows) * percentage // 100)]
     payload_bytes = sum(len(json.dumps(r, ensure_ascii=False).encode()) for r in selected)
     return {'archiveDate': archive_date, 'observedOn': archive_date,
@@ -118,7 +122,7 @@ def prepare(path, percentage, archive_date, revision, budget):
             'sourceRevision': revision, 'percentage': percentage, 'totalReceived': diagnostics['sourceRows'],
             'eligibleRecords': len(rows), 'receiptDiagnostics': diagnostics,
             'rawPayloadBytes': payload_bytes, 'maximumDatabaseBytes': budget,
-            'records': selected}
+            'records': selected, 'sourceRowPositions': source_positions}
 
 
 if __name__ == '__main__':

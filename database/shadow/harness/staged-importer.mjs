@@ -14,13 +14,14 @@ function number(value) {
   const n=Number(value);
   return Number.isFinite(n) ? n : null;
 }
-function normalize(raw) {
+function normalize(raw, sourceRowPosition) {
   const ref=raw['/Job/DisplayReference'];
   const title=raw['/Job/Position'];
   if (typeof ref!=='string' || !ref.trim() || typeof title!=='string' || !title.trim()) throw new Error('Invalid raw identity');
   const url=new URL(raw['/Job/ApplicationURL']);
   if (!['https:','http:'].includes(url.protocol)) throw new Error('Invalid apply URL');
-  return {initial_id:stableId(`job:jobg8:${ref}`),advert_id:stableId(`advert:jobg8:${ref}`),ref,title,
+  if(!Number.isInteger(sourceRowPosition)||sourceRowPosition<1) throw new Error('Missing original JobG8 feed-row position');
+  return {initial_id:stableId(`job:jobg8:${ref}`),advert_id:stableId(`advert:jobg8:${ref}`),ref,title,source_row_position:sourceRowPosition,
     advertiser:raw['/Job/AdvertiserName'] || null,location:raw['/Job/Location'] || null,
     apply_url:raw['/Job/ApplicationURL'],salary_min:number(raw['/Job/SalaryMinimum']),
     salary_max:number(raw['/Job/SalaryMaximum']),salary_period:raw['/Job/SalaryPeriod'] || null,
@@ -33,7 +34,7 @@ export async function measure(client) {
     FROM pg_class c JOIN pg_namespace n ON n.oid=c.relnamespace WHERE n.nspname='ontap_shadow' AND c.relkind='r' ORDER BY c.relname`)).rows;
   return {databaseBytes:db,schemaBytes:tables.reduce((n,r)=>n+Number(r.bytes),0),tables};
 }
-const definition=`initial_id uuid,advert_id uuid,ref text,title text,advertiser text,location text,apply_url text,salary_min numeric,salary_max numeric,salary_period text,salary_text text,raw_payload jsonb,content_hash text`;
+const definition=`initial_id uuid,advert_id uuid,ref text,title text,source_row_position integer,advertiser text,location text,apply_url text,salary_min numeric,salary_max numeric,salary_period text,salary_text text,raw_payload jsonb,content_hash text`;
 const input=`jsonb_to_recordset($1::jsonb) AS r(${definition})`;
 
 export async function importStage(client,fixture,{chunkSize=300,compactSelection=false}={}) {
@@ -44,7 +45,9 @@ export async function importStage(client,fixture,{chunkSize=300,compactSelection
   if (!/^\d{4}-\d{2}-\d{2}$/.test(observedOn) || !/^[a-f0-9]{64}$/.test(archiveSha256)) throw new Error('Missing archive provenance');
   if(typeof compactSelection!=='boolean') throw new Error('Invalid compact selection mode');
   if(compactSelection && percentage!==100) throw new Error('Compact selection requires a full snapshot');
-  const normalized=records.map(normalize);
+  const sourcePositions=fixture.sourceRowPositions;
+  if(!sourcePositions||typeof sourcePositions!=='object') throw new Error('Missing original feed-row position manifest');
+  const normalized=records.map(raw=>normalize(raw,sourcePositions[raw['/Job/DisplayReference']]));
   if (new Set(normalized.map(r=>r.ref)).size!==records.length) throw new Error('Duplicate IDs');
   const sourceHash=contentHash(records);
   const feedKey=`raw-stage:${archiveSha256}:${percentage}`;
@@ -110,9 +113,9 @@ export async function importStage(client,fixture,{chunkSize=300,compactSelection
         location=CASE WHEN $3::date>=j.last_seen AND (j.preferred_advert_id IS NULL OR j.preferred_advert_id=a.id) THEN r.location ELSE j.location END,
         preferred_advert_id=COALESCE(j.preferred_advert_id,a.id)
         FROM ${input} JOIN ontap_shadow.supplier_adverts a ON a.supplier_id=$2 AND a.supplier_job_id=r.ref WHERE j.id=a.job_id`,args);
-      if(!compactSelection) await client.query(`INSERT INTO ontap_shadow.advert_appearances(advert_id,seen_on,supplier_id,feed_run_id)
-        SELECT a.id,$3::date,$2,$4 FROM ${input} JOIN ontap_shadow.supplier_adverts a ON a.supplier_id=$2 AND a.supplier_job_id=r.ref
-        ON CONFLICT(advert_id,seen_on) DO UPDATE SET feed_run_id=EXCLUDED.feed_run_id`,[...args,runId]);
+      if(!compactSelection) await client.query(`INSERT INTO ontap_shadow.advert_appearances(advert_id,seen_on,supplier_id,feed_run_id,source_row_position)
+        SELECT a.id,$3::date,$2,$4,r.source_row_position FROM ${input} JOIN ontap_shadow.supplier_adverts a ON a.supplier_id=$2 AND a.supplier_job_id=r.ref
+        ON CONFLICT(advert_id,seen_on) DO UPDATE SET feed_run_id=EXCLUDED.feed_run_id,source_row_position=EXCLUDED.source_row_position`,[...args,runId]);
       if(!compactSelection) await client.query(`INSERT INTO ontap_shadow.selection_decisions(id,advert_id,feed_run_id,scope,decision,reason,rules_revision,evidence)
         SELECT (md5($4::text || ':' || a.id::text))::uuid,a.id,$4::uuid,'raw_feed_pending_selection','unknown',
         'Raw advert retained; same-snapshot production selector evidence has not been attached.',$5,

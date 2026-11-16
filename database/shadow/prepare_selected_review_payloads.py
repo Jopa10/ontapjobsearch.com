@@ -51,8 +51,8 @@ def load_candidate_payloads(archive_path, candidate_ids):
         if jid not in candidate_ids: continue
         if not row.get("/Job/Position") or not row.get("/Job/ApplicationURL"):
             raise SystemExit("A selected/review candidate lacks its title or apply URL in the raw payload: "+jid)
-        if jid in payloads and payloads[jid]!=row: conflicts.add(jid)
-        else: payloads[jid]=row
+        if jid in payloads and payloads[jid][0]!=row: conflicts.add(jid)
+        else: payloads.setdefault(jid,(row,job_nodes))
     if conflicts: raise SystemExit("Conflicting duplicate raw records for selected/review IDs: "+", ".join(sorted(conflicts)[:10]))
     missing=sorted(candidate_ids-set(payloads))
     if missing: raise SystemExit(f"{len(missing)} selected/review IDs are absent from the dated raw feed; first: {missing[:10]}")
@@ -84,11 +84,11 @@ def main():
     payloads,job_nodes=load_candidate_payloads(a.archive,candidate_ids)
     records=[]
     for jid in sorted(candidate_ids):
-        payload=payloads[jid]
+        payload,source_row_position=payloads[jid]
         decision="SELECTED" if jid in selected else "REVIEW"
         reason="present in final production output" if decision=="SELECTED" else reviews[jid]
         records.append({"public_id":jid,"decision":decision,"decision_reason":reason,
-          "selector_revision":a.production_run_commit,"raw_payload":payload,
+          "selector_revision":a.production_run_commit,"source_row_position":source_row_position,"raw_payload":payload,
           "payload_sha256":hashlib.sha256(canonical(payload).encode()).hexdigest()})
     archive=Path(a.archive)
     result={"schemaVersion":1,"feedDate":a.date,"productionWorkflowRunId":a.production_run_id,
