@@ -70,21 +70,47 @@ for(const [region,category] of entries){
  produced.set(category+':'+region,rows.filter(x=>x.source==='JobG8').map(x=>String(x.job_id)));
 }
 const scopes=[...produced.keys()];
-const differing=scopes.filter(k=>JSON.stringify(produced.get(k))!==JSON.stringify(expected.get(k)||[]));
 const known=new Set(selected.map(x=>x.public_id));
+const allRefIds=new Set(reference.map(r=>r.public_id));
 const ids=new Set([...produced.values()].flat());
-const report={status:differing.length===0?'matched':'differences',
-  feedDate:dateRequest.archiveDate,
-  input:'Neon raw selected + review adverts only; no published output artifact used as selector input',
-  inputRows:records.length,neonSelected:selected.length,referenceRows:reference.length,
-  liveScopes:scopes.length,scopesWithDifferences:differing.length,
-  generatedUniqueIds:ids.size,generatedSelectedOverlap:[...ids].filter(x=>known.has(x)).length,
-  generatedIdsNotInNeonSelected:[...ids].filter(x=>!known.has(x)).slice(0,30),
-  differingScopes:differing.slice(0,25).map(k=>({scope:k,actual:produced.get(k).length,reference:(expected.get(k)||[]).length,missing:(expected.get(k)||[]).filter(x=>!produced.get(k).includes(x)).slice(0,10)})),
-  scopeInputReconstructionIndependent:true,fullFeedAvailable:false,
-  excludedRawRecordsSupplied:false,fullProductionParityEstablished:false,
-  publishedArtifactsUsedAsSelectorInput:false,databaseWrites:false,productionChanged:false};
+const exact=[], orderOnly=[], membership=[];
+const familyStats={};
+const allMissing=new Set(),allExtra=new Set();
+for(const k of scopes){
+ const a=produced.get(k),b=expected.get(k)||[];
+ const x=new Set(a),y=new Set(b);
+ const m=b.filter(id=>!x.has(id)),e=a.filter(id=>!y.has(id));
+ const family=k.split(':')[0];
+ if(!familyStats[family])familyStats[family]={scopes:0,exact:0,orderOnly:0,membershipDifferent:0,referenceOccurrences:0,generatedOccurrences:0,missingOccurrences:0,extraOccurrences:0};
+ const stat=familyStats[family];stat.scopes++;stat.referenceOccurrences+=b.length;stat.generatedOccurrences+=a.length;
+ stat.missingOccurrences+=m.length;stat.extraOccurrences+=e.length;
+ m.forEach(v=>allMissing.add(v));e.forEach(v=>allExtra.add(v));
+ if(JSON.stringify(a)===JSON.stringify(b)){exact.push(k);stat.exact++;}
+ else if(!m.length&&!e.length){orderOnly.push(k);stat.orderOnly++;}
+ else {membership.push({scope:k,actual:a.length,reference:b.length,missing:m,extra:e,
+   missingInNeonSelected:m.filter(id=>!known.has(id)),
+   unexpectedButStored:e.filter(id=>known.has(id))});stat.membershipDifferent++;}
+}
+const report={status:!membership.length&&!orderOnly.length?'matched':'differences',
+ feedDate:dateRequest.archiveDate,input:'Neon raw selected + review adverts only; no published output artifact used as selector input',
+ inputRows:records.length,neonSelected:selected.length,referenceRows:reference.length,
+ liveScopes:scopes.length,exactScopes:exact.length,orderOnlyScopes:orderOnly.length,membershipDifferentScopes:membership.length,
+ familyStats,referenceUniqueLiveIds:allRefIds.size,generatedUniqueIds:ids.size,
+ missingUniqueLiveIds:[...allRefIds].filter(id=>!ids.has(id)).length,
+ extraUniqueLiveIds:[...ids].filter(id=>!allRefIds.has(id)).length,
+ referenceLiveIdsOutsideNeonSelected:[...allRefIds].filter(id=>!known.has(id)).length,
+ referenceLiveIdsOutsideNeonSelectedSample:[...allRefIds].filter(id=>!known.has(id)).slice(0,30),
+ missingInNeonSelected:[...allMissing].filter(id=>!known.has(id)).length,
+ missingDespitePresentInNeonSelected:[...allMissing].filter(id=>known.has(id)).length,
+ generatedIdsNotInNeonSelected:[...ids].filter(id=>!known.has(id)).slice(0,30),
+ missingGlobalIds:[...allRefIds].filter(id=>!ids.has(id)).slice(0,50),
+ extraGlobalIds:[...ids].filter(id=>!allRefIds.has(id)).slice(0,50),
+ membershipDifferences:membership,
+ orderOnlyExamples:orderOnly.slice(0,20).map(k=>({scope:k,referenceFirst:(expected.get(k)||[]).slice(0,8),generatedFirst:produced.get(k).slice(0,8)})),
+ scopeInputReconstructionIndependent:true,fullFeedAvailable:false,
+ excludedRawRecordsSupplied:false,fullProductionParityEstablished:false,
+ publishedArtifactsUsedAsSelectorInput:false,databaseWrites:false,productionChanged:false};
 await fs.mkdir('dist',{recursive:true});
 await fs.writeFile('dist/selected-subset-replay-report.json',JSON.stringify(report,null,2));
-console.log('ONTAP_NEON_SUBSET_REPLAY_RESULT '+JSON.stringify({...report,differingScopes:report.differingScopes.slice(0,3)}));
+console.log('ONTAP_NEON_SUBSET_REPLAY_RESULT '+JSON.stringify({status:report.status,exact:report.exactScopes,orderOnly:report.orderOnlyScopes,membershipDifferent:report.membershipDifferentScopes,referenceUniqueLiveIds:report.referenceUniqueLiveIds,generatedUniqueIds:report.generatedUniqueIds,familyStats:report.familyStats}));
 await fs.writeFile('dist/index.html','<html><head><meta name="robots" content="noindex,nofollow"/></head><body><h1>Ontap Preview selected-only selector replay</h1><p>See <a href="/selected-subset-replay-report.json">report</a>.</p></body></html>');
