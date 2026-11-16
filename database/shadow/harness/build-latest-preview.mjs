@@ -15,7 +15,7 @@ const source = JSON.parse(await fs.readFile('database/shadow/website-source.json
 assert.equal(process.env.VERCEL_ENV,'preview');
 assert.equal(process.env.ONTAP_SHADOW_NEON_PROJECT_ID,'noisy-fire-97386602');
 assert.match(source.feedDate,/^20\d\d-\d\d-\d\d$/);
-assert.equal(source.productionRunId,43824436796); // provenance guard: replaced by source run metadata when generalized
+assert.ok(Number.isInteger(source.productionRunId) && source.productionRunId > 0, 'Missing completed publication run provenance');
 const url = new URL(process.env.ONTAP_SHADOW_DATABASE_URL);
 assert.ok(url.hostname.endsWith('.neon.tech'));
 assert.ok(['require','verify-full'].includes(url.searchParams.get('sslmode')));
@@ -66,13 +66,14 @@ try {
   }
   await c.query('COMMIT');
  }catch(e){await c.query('ROLLBACK');throw e;}
+ const expectedByPosition = new Map(rows.map(r=>[r.scope+':'+r.position,r]));
  const query=await c.query('SELECT scope,position,public_id,source,display FROM ontap_shadow.published_scope_rows WHERE feed_date=$1::date ORDER BY scope,position',[current]);
  assert.equal(query.rows.length,rows.length,'Neon publisher rows missing');
  const output=Object.fromEntries(names.map(n=>[n,[]]));
  for(const record of query.rows){
    assert.ok(record.scope in output);
    assert.equal(record.position,output[record.scope].length,'Scope ordering differs');
-   const expected=rows.find(r=>r.scope===record.scope && r.position===record.position);
+   const expected=expectedByPosition.get(record.scope+':'+record.position);
    assert.deepEqual(record.display,expected.display,'Publisher row differs '+record.scope);
    output[record.scope].push(record.display);
  }
