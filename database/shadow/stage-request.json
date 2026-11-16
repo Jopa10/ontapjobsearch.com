@@ -1,23 +1,23 @@
 {
-  "archiveDate": "2026-11-12",
+  "archiveDate": "2026-11-16",
   "mode": "selected_review_payloads",
-  "purpose": "Store only full JobG8 payloads for Thursday production-selected and automated-review jobs in isolated Neon Preview, verify exact IDs/payload hashes/outcome and preserve the Wednesday snapshot.",
-  "productionOutputRunId": 43175843740,
-  "productionAppCommitSha": "bbd0f37a060131727042827513277b2bc116c2fa",
-  "productionRunCommitSha": "f8268505468af9b5b21b1d6260047455104bd5c9",
+  "purpose": "Preview-only daily ingestion test: store Monday 16 November JobG8 selected and automated-review full payloads from the matching production run; verify exact IDs and payload hashes without changing production or selection rules.",
+  "productionOutputRunId": 43824436796,
+  "productionAppCommitSha": "7f98d2919902d6af57d861d5734d5d75fc6b2094",
+  "productionRunCommitSha": "5c9f616ba20febf9b04894e7e9086dc6a0337e65",
   "maximumDatabaseBytes": 838860800,
   "reserveBytes": 67108864,
   "publishedOutputArtifacts": [
     {
       "name": "service-admin-output",
-      "id": 13927235898,
-      "sha256": "8e58ed4b7ac7149601798bce7459e2e56da4736a481366c05bb2cd13a881245e"
+      "id": 14208439791,
+      "sha256": "cfa469ea836f5d2d0b12421003dc1b31302d85ce0898cb533948a1307f1b2dbc"
     },
     {
       "name": "support-worker-output",
-      "id": 13926532615,
-      "sha256": "e04bbd4ae225c511cd83b5c3532c90f2deea097e3d1a7197c859389b6cd75410"
+      "id": 14209236979,
+      "sha256": "b251a3ee3c57310496d91da95ad79ef3784d81c45dc66839a01a2c2137433777"
     }
   ],
-  "attempt": 8
+  "attempt": 1
 }
