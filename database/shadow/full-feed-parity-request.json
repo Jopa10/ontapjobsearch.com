@@ -14,5 +14,6 @@
       "sha256": "b251a3ee3c57310496d91da95ad79ef3784d81c45dc66839a01a2c2137433777"
     }
   ],
-  "purpose": "Transient full-feed parity replay. Use the exact saved Monday JobG8 archive and exact same-day production artifacts; no Neon writes or production changes."
+  "purpose": "Transient full-feed parity replay. Use the exact saved Monday JobG8 archive and exact same-day production artifacts; no Neon writes or production changes. Retry after correcting workflow YAML validation.",
+  "retry": 1
 }
