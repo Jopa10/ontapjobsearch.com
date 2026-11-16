@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 76
+- automatic review: 75
 - automatic exclude: 0
 - effective include: 8
-- effective review: 76
+- effective review: 75
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225810447
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (76)
+## REVIEW (75)
 
 ---
 action: 
@@ -815,18 +815,6 @@ company: Consult KA Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2192972
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Aelfgar Surgery
-location: Rugeley, WS15 2AB
-source: NHS Jobs
-job_id: nhs-5687199
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 54
+- automatic include: 11
+- automatic review: 53
 - automatic exclude: 0
-- effective include: 10
-- effective review: 54
+- effective include: 11
+- effective review: 53
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Outpatient Receptionist
+company: Walsall Healthcare NHS Trust
+location: Walsall, WS2 9PS
+source: NHS Jobs
+job_id: nhs-5724521
+reason: Exact approved Walsall workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Project Support Officer
 company: Belmont Recruitment - Agency - Contract
 location: Walsall
@@ -144,7 +156,7 @@ job_id: jobg8-23643_225397260
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (53)
 
 ---
 action: 
@@ -154,7 +166,7 @@ title: Accounts Administrator
 company: Reed - Agency - Permanent
 location: Dudley
 source: JobG8
-job_id: jobg8-2270129
+job_id: jobg8-2304201
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -354,18 +366,6 @@ reason: The stated location is broader or less specific than the approved Walsal
 action: 
 decision: review
 automatic_decision: review
-title: Billing Administrator
-company: Pertemps Black Country Perms - Agency - Permanent
-location: West Midlands
-source: JobG8
-job_id: jobg8-2224100
-reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: BMW Service Advisor
 company: Sytner - Company - Permanent
 location: Oldbury
@@ -526,7 +526,7 @@ title: Payroll Administrator
 company: Reed - Agency - Permanent
 location: Wolverhampton
 source: JobG8
-job_id: jobg8-2227292
+job_id: jobg8-2307189
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

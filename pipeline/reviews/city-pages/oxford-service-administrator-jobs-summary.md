@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 16
 - automatic review: 23
-- automatic exclude: 58
+- automatic exclude: 60
 - effective include: 16
 - effective review: 23
-- effective exclude: 58
+- effective exclude: 60
 
 ## INCLUDE (16)
 
@@ -322,7 +322,7 @@ title: Credit Controller
 company: Evolve Recruitment - Agency - Permanent
 location: Wallingford
 source: JobG8
-job_id: jobg8-2227409
+job_id: jobg8-2307302
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -454,7 +454,7 @@ title: Service Administrator - Motor Trade
 company: ISQ Recruitment - Agency - Permanent
 location: Bicester
 source: JobG8
-job_id: jobg8-2270827
+job_id: jobg8-2304560
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -494,7 +494,7 @@ job_id: nhs-5707703
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (58)
+## EXCLUDE (60)
 
 ---
 action: 
@@ -552,7 +552,7 @@ title: Accounts Assistant
 company: Wade Macdonald - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2273517
+job_id: jobg8-2306694
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -624,7 +624,7 @@ title: Bookkeeper
 company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2228556
+job_id: jobg8-2308245
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -636,7 +636,7 @@ title: Conveyancing Assistant
 company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2273661
+job_id: jobg8-2306827
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -648,7 +648,7 @@ title: Conveyancing Paralegal
 company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2273626
+job_id: jobg8-2306805
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -684,7 +684,7 @@ title: E-Commerce Marketing Executive
 company: Robert Half - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2223702
+job_id: jobg8-2303880
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -828,7 +828,7 @@ title: Litigation Paralegal
 company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2273951
+job_id: jobg8-2307239
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -864,7 +864,19 @@ title: Marketing Executive
 company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2270110
+job_id: jobg8-2303844
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Executive
+company: Plus One Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225823002
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -972,7 +984,7 @@ title: Payroll Administrator (Fixed Term Cover)
 company: RD Financial Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2227687
+job_id: jobg8-2307623
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -984,7 +996,7 @@ title: Payroll Administrator - FTC
 company: Cripps Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2227346
+job_id: jobg8-2307209
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -996,7 +1008,7 @@ title: Payroll Administrator - FTC
 company: Curtis Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2227282
+job_id: jobg8-2307181
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -1056,7 +1068,7 @@ title: Purchasing Administrator
 company: Adecco - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2224897
+job_id: jobg8-2305017
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -1081,6 +1093,18 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225816178
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Guidant Global - Agency - Temporary
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-108317671
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -1140,7 +1164,7 @@ title: Service Administrator (Automotive)
 company: hireful. - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2271111
+job_id: jobg8-2304809
 reason: Broad county location; not Oxford-city evidence.
 ---
 

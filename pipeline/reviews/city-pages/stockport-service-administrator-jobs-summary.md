@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 35
+- automatic include: 16
+- automatic review: 32
 - automatic exclude: 0
-- effective include: 17
-- effective review: 35
+- effective include: 16
+- effective review: 32
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (16)
 
 ---
 action: 
@@ -124,18 +124,6 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist / Administrator
-company: The Reddish Family Practice
-location: Stockport, SK6 6RN, STOCKPORT, SK5 7QU
-source: NHS Jobs
-job_id: nhs-5693756
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Administrator
 company: Outcomes First Group - Company - Permanent
 location: Stockport
@@ -228,7 +216,7 @@ job_id: jobg8-23643_225778251
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (32)
 
 ---
 action: 
@@ -330,18 +318,6 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Pennine Care NHS FT
-location: Stalybridge, SK15 2AU
-source: NHS Jobs
-job_id: nhs-5723418
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: Premier Recruitment Solutions Ltd - Agency - Permanent
 location: Denton
@@ -406,7 +382,7 @@ title: Credit Controller
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2271165
+job_id: jobg8-2304900
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -551,30 +527,6 @@ company: NC Associates - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-2205270
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: HT Practice
-location: Ashton Under Lyne, OL7 0NW
-source: NHS Jobs
-job_id: nhs-5671910
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Shay Lane Medical Centre
-location: Altrincham, WA15 8NZ
-source: NHS Jobs
-job_id: nhs-5702373
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

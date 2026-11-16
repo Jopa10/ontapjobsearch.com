@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2270650
+job_id: jobg8-2304344
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -356,7 +356,7 @@ title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2227619
+job_id: jobg8-2307510
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -442,7 +442,7 @@ title: Breakdown & Recovery Co-ordinator
 company: Hough Green - Agency - Permanent
 location: Widnes
 source: JobG8
-job_id: jobg8-2226123
+job_id: jobg8-2306136
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 52
 - automatic review: 83
-- automatic exclude: 41
+- automatic exclude: 42
 - effective include: 52
 - effective review: 83
-- effective exclude: 41
+- effective exclude: 42
 
 ## INCLUDE (52)
 
@@ -682,7 +682,7 @@ title: Account Manager (Marketing Agency)
 company: Candidate Source Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2270614
+job_id: jobg8-2304332
 reason: Broad location; review before city inclusion.
 ---
 
@@ -704,9 +704,9 @@ decision: review
 automatic_decision: review
 title: Accounts Assistant
 company: KCR Solutions - Agency - Permanent
-location: Washington
+location: Blyth
 source: JobG8
-job_id: jobg8-2273997
+job_id: jobg8-2278020
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -716,9 +716,9 @@ decision: review
 automatic_decision: review
 title: Accounts Assistant
 company: KCR Solutions - Agency - Permanent
-location: Blyth
+location: Washington
 source: JobG8
-job_id: jobg8-2278020
+job_id: jobg8-2307262
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -755,6 +755,18 @@ company: Reed - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2169531
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Clerk
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2306477
 reason: Broad location; review before city inclusion.
 ---
 
@@ -816,18 +828,6 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225810540
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Greystoke Surgery
-location: Morpeth, NE61 1JX
-source: NHS Jobs
-job_id: nhs-3828022
-reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -922,7 +922,19 @@ title: Content Editor (3 months)
 company: Reed - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2272177
+job_id: jobg8-2306057
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Assistant
+company: Adkins & Cheurfi Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225765435
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1078,7 +1090,7 @@ title: External Affairs Manager
 company: Michael Page Marketing - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2274438
+job_id: jobg8-2307725
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1102,7 +1114,7 @@ title: Finance and Accounts Administrator
 company: Nigel Wright Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2274234
+job_id: jobg8-2307539
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1114,7 +1126,7 @@ title: Finance Assistant
 company: KCR Solutions - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2227242
+job_id: jobg8-2307068
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1234,7 +1246,7 @@ title: Junior Warehouse Administrator
 company: MTrec Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2273965
+job_id: jobg8-2307249
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1271,18 +1283,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2183876
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Hadrian Health Centre
-location: Wallsend, NE28 8QU, Wallsend, NE28 9DX
-source: NHS Jobs
-job_id: nhs-5707453
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1618,7 +1618,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2295672
+job_id: jobg8-2303677
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1646,7 +1646,7 @@ job_id: jobg8-23643_225825664
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (41)
+## EXCLUDE (42)
 
 ---
 action: 
@@ -1668,7 +1668,7 @@ title: Accounts Payable Assistant
 company: Reed - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2228520
+job_id: jobg8-2307296
 reason: Separate employment market.
 ---
 
@@ -1680,7 +1680,7 @@ title: Accounts Payable Assistant
 company: Si Recruitment - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2224318
+job_id: jobg8-2304542
 reason: Separate employment market.
 ---
 
@@ -1765,6 +1765,18 @@ company: EE - Company - Permanent
 location: Sunderland
 source: JobG8
 job_id: jobg8-20279_64242-a6e2ad7cee3c43ab7465fc57eabd4302
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clerical Officer
+company: South Tyneside and Sunderland NHS Foundation Trust
+location: South Shields, NE34 0PL, SUNDERLAND, SR4 7TP
+source: NHS Jobs
+job_id: nhs-5728477
 reason: Separate employment market.
 ---
 

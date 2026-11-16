@@ -250,7 +250,7 @@ title: Accounts Payable Assistant
 company: Movianto - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2269535
+job_id: jobg8-2303612
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

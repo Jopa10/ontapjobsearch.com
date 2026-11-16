@@ -128,7 +128,7 @@ title: Collections Analyst / Credit Controller
 company: Quality Start - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-2288881
+job_id: jobg8-2308052
 reason: Exact approved Swindon workplace.
 ---
 
@@ -140,7 +140,7 @@ title: Collections Analyst / Credit Controller
 company: Quality Start - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-2288883
+job_id: jobg8-2308053
 reason: Exact approved Swindon workplace.
 ---
 
@@ -330,18 +330,6 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Assurance Coordinator Porton Down
-company: Mainstay Facilities - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-108182792
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Automobile Service Advisor (auto Service Advisor)
 company: People Solutions Group Limited - Agency - Permanent
 location: Wiltshire
@@ -384,6 +372,18 @@ location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225751919
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Tru Talent - Agency - Permanent
+location: Westbury
+source: JobG8
+job_id: jobg8-23643_225750752
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -468,18 +468,6 @@ location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225829032
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Pastoral Administrator
-company: Melksham Oak Community School
-location: Melksham
-source: Teaching Vacancies
-job_id: teaching-vacancies-pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -586,7 +574,7 @@ title: Service Advisor
 company: Pembrook Resourcing - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2223597
+job_id: jobg8-2306210
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -635,6 +623,18 @@ company: The Solution Auto - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225779110
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: The Solution Automotive Limited - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108258797
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

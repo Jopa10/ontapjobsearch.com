@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 84
+- automatic review: 83
 - automatic exclude: 0
 - effective include: 9
-- effective review: 84
+- effective review: 83
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -56,7 +56,7 @@ title: Digital Marketing & Performance Manager
 company: Truespeed - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2274552
+job_id: jobg8-2307833
 reason: Exact approved Bath workplace.
 ---
 
@@ -132,7 +132,7 @@ job_id: jobg8-2303159
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (84)
+## REVIEW (83)
 
 ---
 action: 
@@ -142,7 +142,7 @@ title: Accounts Assistant
 company: Ashley Rees Associates - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2227370
+job_id: jobg8-2307220
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -514,7 +514,7 @@ title: Finance Assistant/Sales Ledger
 company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2227474
+job_id: jobg8-2307323
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -551,18 +551,6 @@ company: Portishead Medical Group
 location: Bristol, BS20 6AQ
 source: NHS Jobs
 job_id: nhs-5725850
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Home Based Marketing and Sales
-company: Etre Professional - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2246867
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -694,7 +682,7 @@ title: Legal Personal Assistant
 company: Owen Reed - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2272016
+job_id: jobg8-2305816
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -742,7 +730,7 @@ title: Marketing Executive
 company: Moxie and Mettle Limited - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2227715
+job_id: jobg8-2307640
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -874,7 +862,7 @@ title: PPC Executive - German Speaking
 company: Advancing People - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2227741
+job_id: jobg8-2307653
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1102,7 +1090,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2295662
+job_id: jobg8-2303667
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1126,7 +1114,7 @@ title: Transactional Finance Officer
 company: Michael Page Finance - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2274946
+job_id: jobg8-2308280
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

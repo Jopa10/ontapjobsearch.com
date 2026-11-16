@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 146
+- automatic review: 144
 - automatic exclude: 0
 - effective include: 13
-- effective review: 146
+- effective review: 144
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-2200411
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (146)
+## REVIEW (144)
 
 ---
 action: 
@@ -214,7 +214,7 @@ title: Accounts and Administration Assistant
 company: Rutherford Briant - Agency - Permanent
 location: Colchester
 source: JobG8
-job_id: jobg8-2272503
+job_id: jobg8-2306371
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -284,18 +284,6 @@ decision: review
 automatic_decision: review
 title: Accounts Assistant
 company: Reed - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2223952
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Reed - Agency - Permanent
 location: Wickford
 source: JobG8
 job_id: jobg8-2287568
@@ -311,6 +299,18 @@ company: Reed - Agency - Permanent
 location: Basildon
 source: JobG8
 job_id: jobg8-2300759
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-2304191
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -371,18 +371,6 @@ company: Elysium Healthcare
 location: Chigwell, IG7 6HH
 source: NHS Jobs
 job_id: nhs-5726181
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Essex Partnership University NHS Foundation Trust
-location: Grays, Essex, RM16 2PX
-source: NHS Jobs
-job_id: nhs-5711891
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -658,7 +646,7 @@ title: Conveyancer
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Epping
 source: JobG8
-job_id: jobg8-2226801
+job_id: jobg8-2306689
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1210,7 +1198,7 @@ title: Legal Secretary
 company: Harwood Recruitment Solutions Limited - Agency - Permanent
 location: Essex
 source: JobG8
-job_id: jobg8-2272509
+job_id: jobg8-2306377
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1366,7 +1354,7 @@ title: Part Time HR Assistant
 company: Adore Recruitment - Agency - Permanent
 location: Essex
 source: JobG8
-job_id: jobg8-2271949
+job_id: jobg8-2305679
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1654,7 +1642,7 @@ title: Residential Property Paralegal
 company: The Recruiter Specialists Group Ltd - Agency - Permanent
 location: Essex
 source: JobG8
-job_id: jobg8-2271985
+job_id: jobg8-2305758
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1835,18 +1823,6 @@ company: ACS Automotive Recruitment - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225788222
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Single Point of Access Administrator
-company: East Suffolk and North Essex NHS Foundation Trust
-location: Colchester, CO4 5JL
-source: NHS Jobs
-job_id: nhs-5710787
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 26
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
+- automatic include: 25
 - automatic review: 59
 - automatic exclude: 0
-- effective include: 26
+- effective include: 25
 - effective review: 59
 - effective exclude: 0
 
-## INCLUDE (26)
+## INCLUDE (25)
 
 ---
 action: 
@@ -92,7 +92,7 @@ title: Customer Service Receptionist
 company: Amour Recruitment - Agency - Permanent
 location: Exeter
 source: JobG8
-job_id: jobg8-2270981
+job_id: jobg8-2304726
 reason: Exact approved Exeter workplace.
 ---
 
@@ -189,18 +189,6 @@ company: Sellick Partnership - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225799479
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Fleet Distribution Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107939734
 reason: Exact approved Exeter workplace.
 ---
 
@@ -370,7 +358,7 @@ title: Accounts Assistant
 company: Butler Rose - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2274255
+job_id: jobg8-2307549
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

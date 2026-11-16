@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 136
+- Effective included jobs: 134
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 136
+- automatic include: 134
 - automatic review: 18
 - automatic exclude: 11
-- effective include: 136
+- effective include: 134
 - effective review: 18
 - effective exclude: 11
 
-## INCLUDE (136)
+## INCLUDE (134)
 
 ---
 action: 
@@ -44,7 +44,7 @@ title: Accounts Assistant
 company: Mitchell Adam - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2224135
+job_id: jobg8-2304303
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -308,7 +308,7 @@ title: Content Editor (3 months)
 company: Reed - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2272153
+job_id: jobg8-2306046
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -520,18 +520,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Deployment Planner
-company: HMRC - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-643965500
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Digital Marketing Account Executive
 company: Elite Executive Recruitment - Agency - Permanent
 location: Birmingham
@@ -724,18 +712,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Home Based Marketing and Sales
-company: Etre Professional - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2296965
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Housing Management and Property Litigation Paralegal
 company: Ryder Reid Legal Ltd - Agency - Permanent
 location: Birmingham
@@ -824,7 +800,7 @@ title: IP Administrator - Birmingham
 company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2274865
+job_id: jobg8-2308212
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1172,7 +1148,7 @@ title: PPC Executive - German Speaking
 company: Advancing People - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2227716
+job_id: jobg8-2307641
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1460,7 +1436,7 @@ title: Social Media Manager
 company: SF Partners - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2271772
+job_id: jobg8-2305487
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1484,7 +1460,7 @@ title: Social Media Trainee
 company: Netcom Online Learning - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2270563
+job_id: jobg8-2304326
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1592,7 +1568,7 @@ title: Trainee Digital Marketing Assistant
 company: Netcom Online Learning - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2270564
+job_id: jobg8-2304327
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1604,7 +1580,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2295660
+job_id: jobg8-2303665
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1616,7 +1592,7 @@ title: Trainee Digital Marketing Specialist
 company: Netcom Online Learning - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2270558
+job_id: jobg8-2304321
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1628,7 +1604,7 @@ title: Trainee Social Media Assistant
 company: Netcom Online Learning - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2270561
+job_id: jobg8-2304324
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1640,7 +1616,7 @@ title: Trainee Social Media Marketing Assistant
 company: Netcom Online Learning - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2270567
+job_id: jobg8-2304329
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1652,7 +1628,7 @@ title: Trainee Social Media Specialist
 company: Netcom Online Learning - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2270560
+job_id: jobg8-2304323
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1798,7 +1774,7 @@ title: Immediate Start Accounts Payable Clerk
 company: Mitchell Adam - Agency - Permanent
 location: West Midlands
 source: JobG8
-job_id: jobg8-2269593
+job_id: jobg8-2303643
 reason: Broad regional location; review before Birmingham inclusion.
 ---
 

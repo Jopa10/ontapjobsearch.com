@@ -363,25 +363,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0051-26-0076",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5713874",
-    "source": "NHS Jobs",
-    "title": "Recruitment Administrator",
-    "company": "Doncaster & Bassetlaw Teaching Hospitals NHS FT",
-    "advertiser_name": "Doncaster & Bassetlaw Teaching Hospitals NHS FT",
-    "location": "Doncaster, DN2 5LT",
-    "region": "Yorkshire - South",
-    "salary": "£25272.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-11-06T15:49:41.681983724",
-    "closing_date": "2026-11-15",
-    "description": "Are you ready for an exciting and dynamic role where no two days are the same! At DBTH, we're seeking two motivated colleagues who thrives in a fast-paced environment. As our Recruitment Administrator, you'll be at the forefront of our recruitment efforts, working alongside a supportive team to deliver exceptional service. Join us in a key role where your attention to detail and finesse will ensure a seamless recruitment journey for both candidates and hiring managers alike. At DBTH, we're on a mission to build a diverse, inclusive, and compassionate workforce. As a Recruitment Administrator, you'll play a crucial role in our hiring process, embodying the \"DBTH Way\" every step of the way. Your primary responsibility will be to provide efficient and excellent customer service to candidates, ensuring our recruiting managers receive top-notch support to efficiently meet our hiring needs. This role offers a unique opportunity for career growth. Depending on the level of experience, we're open to offering a band 2 to band 3 development opportunity, reflecting our commitment to nurturing talent within our organisation. This vacancy is based on site at Doncaster Royal Infirmary, our office hours are between 8:30am and 5pm. After a period of induction and training there is an opportunity to work one day a week from home. Interviews will take place face to face on Thursday 26th November 2026. Your role will centre on managing recruitment tasks, ensuring a fluid process from start to finish. This includes not only advertising jobs and coordinating assessment days/events but also overseeing the crucial step of sending out offer letters and ensuring all necessary safe recruitment checks are completed seamlessly. You'll play a pivotal role in safeguarding our recruitment process and maintaining compliance with NHS standards. Additionally, you'll serve as a trusted advisor, providing invaluable guidance on recruitment guidelines, processes, and best practices to our hiring managers. You'll be administering our recruitment process, handling multiple tasks under tight deadlines. But don't worry, you won't be alone in this! We're all about teamwork here, supporting each other every step of the way to overcome challenges and achieve excellence. Your proactive approach will be key in driving continuous improvement in our recruitment administration service. We're not just looking for someone to fill a role - we want a proactive problem-solver who is dedicated to delivering high-quality work. Join us at DBTH and make a meaningful difference while advancing your career in recruitment. Apply now to become part of a team where your contributions truly makes a difference and that cares about your growth! Please see attached to the advert a job description and person specification for further details. Please ensure you read both documents carefully. Please note, if your application is successful you will be required to present original certificates of qualifications that are listed in the person specification under essential. Although this position is advertised as full-time, part-time and flexible working arrangements will also be considered. However, please note that due to business needs working on Friday is a requirement. If you are inspired by the opportunity to positively contribute to our exciting future by being part of our amazing team, please apply today. For further information and an informal discussion about the role please contact of our Recruitment Team Leaders. Certificate of sponsorship For individuals who may require sponsorship under the skilled worker or health & care visa route please use the link below to check your eligibility. Check if you need a UK visa - GOV.UK Please note that from 9th April2025, band 2 & 3 entry roles are no longer eligible for sponsorship.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0619",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0619",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -401,6 +385,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0765-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

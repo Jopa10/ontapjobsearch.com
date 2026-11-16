@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 31
-- automatic review: 16
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 31
-- effective review: 16
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (31)
@@ -396,19 +396,7 @@ job_id: jobg8-23643_225808865
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (16)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Academy Administrator
-company: Thomas Middlecott Academy
-location: Boston
-source: Teaching Vacancies
-job_id: teaching-vacancies-academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
+## REVIEW (15)
 
 ---
 action: 

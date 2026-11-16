@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 17
+- automatic include: 23
+- automatic review: 16
 - automatic exclude: 55
-- effective include: 24
-- effective review: 17
+- effective include: 23
+- effective review: 16
 - effective exclude: 55
 
-## INCLUDE (24)
+## INCLUDE (23)
 
 ---
 action: 
@@ -292,18 +292,6 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Advisor - Automotive Dealership
-company: ISQ Recruitment - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225789639
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Trainee HR Administrator
 company: ITOL Recruit - Agency - Permanent
 location: Peterborough
@@ -312,7 +300,7 @@ job_id: jobg8-2183929
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -371,18 +359,6 @@ company: The One Group - Agency - Permanent
 location: Ely
 source: JobG8
 job_id: jobg8-2206773
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams Officer
-company: Ernulf Academy
-location: St. Neots
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-b0378906-8f31-44c2-ae4e-74994a5303b2
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -564,7 +540,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2274549
+job_id: jobg8-2307830
 reason: Separate employment market.
 ---
 

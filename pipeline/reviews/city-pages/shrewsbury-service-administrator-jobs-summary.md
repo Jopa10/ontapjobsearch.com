@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 28
+- automatic review: 29
 - automatic exclude: 0
 - effective include: 11
-- effective review: 28
+- effective review: 29
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: nhs-5719661
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (29)
 
 ---
 action: 
@@ -366,6 +366,18 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Temporary
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225814754
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Logistics Co-Ordinator
 company: KAG Recruitment Consultancy - Agency - Permanent
 location: Oswestry
@@ -406,7 +418,7 @@ title: SAP Stock Control & Purchasing Coordinator
 company: SF Partners - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2226287
+job_id: jobg8-2306309
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -418,7 +430,7 @@ title: Social Media and Community Manager
 company: Muller UK & Ireland - Company - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2227561
+job_id: jobg8-2307594
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

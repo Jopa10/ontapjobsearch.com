@@ -706,7 +706,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2295670
+job_id: jobg8-2303675
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

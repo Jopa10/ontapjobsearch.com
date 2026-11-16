@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 170
+- automatic review: 168
 - automatic exclude: 0
 - effective include: 6
-- effective review: 170
+- effective review: 168
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225805266
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (170)
+## REVIEW (168)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Gi Group - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225793113
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Accountability Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2148747
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -166,7 +154,7 @@ title: Accounts Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Waterlooville
 source: JobG8
-job_id: jobg8-2226576
+job_id: jobg8-2306557
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -274,7 +262,7 @@ title: Accounts Assistant
 company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2273931
+job_id: jobg8-2307232
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -346,7 +334,7 @@ title: Accounts Receivable
 company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2227463
+job_id: jobg8-2307313
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -370,7 +358,7 @@ title: Accounts Receivable Clerk
 company: The Niche Partnership - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2227909
+job_id: jobg8-2307924
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -452,18 +440,6 @@ decision: review
 automatic_decision: review
 title: Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO40 8DX
-source: NHS Jobs
-job_id: nhs-5701836
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO16 4GX
 source: NHS Jobs
 job_id: nhs-5716963
@@ -526,7 +502,7 @@ title: Aftersales Administrator
 company: Cluett Reeve Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2274238
+job_id: jobg8-2307542
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -658,7 +634,7 @@ title: Communications and Engagement Manager
 company: Saab UK - Company - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2224730
+job_id: jobg8-2304875
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1206,18 +1182,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Temporary
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225814754
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Howett Thorpe - Agency - Permanent
 location: Hampshire
@@ -1319,6 +1283,18 @@ company: BramahHR Ltd - Agency - Permanent
 location: Fleet
 source: JobG8
 job_id: jobg8-2184013
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant
+company: Brook Street - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2308325
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1654,7 +1630,7 @@ title: PR Account Executive
 company: Whiteoaks International - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2271631
+job_id: jobg8-2305330
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1810,7 +1786,7 @@ title: Senior Conveyancing Assistant
 company: 2i Recruit Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2271017
+job_id: jobg8-2304527
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1918,7 +1894,7 @@ title: Service Receptionist (Automotive)
 company: Amour Recruitment - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2270953
+job_id: jobg8-2304711
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1955,6 +1931,18 @@ company: Adecco - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225820121
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Single Point of Access Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 6AR
+source: NHS Jobs
+job_id: nhs-5728489
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -2000,18 +1988,6 @@ decision: review
 automatic_decision: review
 title: Team Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Winchester, SO23 7BT
-source: NHS Jobs
-job_id: nhs-5701516
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Winchester, SO23 7BT, Southampton, SO40 2RZ
 source: NHS Jobs
 job_id: nhs-5726607
@@ -2038,7 +2014,7 @@ title: Temporary Accounts Payable Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Fareham
 source: JobG8
-job_id: jobg8-2226767
+job_id: jobg8-2306672
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -2086,7 +2062,7 @@ title: Temporary Payroll Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Fareham
 source: JobG8
-job_id: jobg8-2226738
+job_id: jobg8-2306658
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 14
+- automatic review: 15
 - automatic exclude: 5
 - effective include: 3
-- effective review: 14
+- effective review: 15
 - effective exclude: 5
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225813909
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (15)
 
 ---
 action: 
@@ -126,12 +126,24 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Female Waking Night Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
+title: Extra Care Support Worker
+company: SCA Care - Agency - Temporary
+location: New Milton
 source: JobG8
-job_id: jobg8-108316978
+job_id: jobg8-108321029
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Female Support Worker
+company: Choice Support - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225819638
+reason: Broad location; review before city inclusion.
 ---
 
 ---

@@ -226,7 +226,7 @@ title: Accounts Administrator
 company: FindCore - Agency - Permanent
 location: Studley
 source: JobG8
-job_id: jobg8-2224121
+job_id: jobg8-2304291
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -310,7 +310,7 @@ title: Accounts Assistant
 company: TMR Group Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2225863
+job_id: jobg8-2305865
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -502,7 +502,7 @@ title: BMW Service Advisor
 company: Sytner Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2227469
+job_id: jobg8-2307319
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -586,7 +586,7 @@ title: Conveyancing Paralegal
 company: Reed - Agency - Permanent
 location: Leamington Spa
 source: JobG8
-job_id: jobg8-2273896
+job_id: jobg8-2307146
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -682,7 +682,7 @@ title: Credit Controller
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-2225334
+job_id: jobg8-2305285
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -886,7 +886,7 @@ title: Internal Sales Executive
 company: Reed - Agency - Permanent
 location: Nuneaton
 source: JobG8
-job_id: jobg8-2273895
+job_id: jobg8-2307145
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1030,7 +1030,7 @@ title: Payroll Coordinator
 company: Owen Daniels - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2272415
+job_id: jobg8-2308117
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1318,7 +1318,7 @@ title: Senior Accounts Payable Assistant
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-2227034
+job_id: jobg8-2306952
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1438,7 +1438,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2295664
+job_id: jobg8-2303669
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 96
+- automatic review: 95
 - automatic exclude: 0
 - effective include: 0
-- effective review: 96
+- effective review: 95
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (96)
+## REVIEW (95)
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: Exemplar Health Care - Company - Permanent
 location: Coalville
 source: JobG8
 job_id: jobg8-23643_225759984
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Leicestershire Partnership NHS Trust
-location: Leicester, LE3 8TB
-source: NHS Jobs
-job_id: nhs-5695173
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -802,7 +790,7 @@ title: Performance Marketing Manager
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Loughborough
 source: JobG8
-job_id: jobg8-2225700
+job_id: jobg8-2305698
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -1066,7 +1054,7 @@ title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2227642
+job_id: jobg8-2307600
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -1102,7 +1090,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2295669
+job_id: jobg8-2303674
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

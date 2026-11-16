@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 79
+- automatic include: 20
+- automatic review: 77
 - automatic exclude: 0
-- effective include: 19
-- effective review: 79
+- effective include: 20
+- effective review: 77
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (20)
 
 ---
 action: 
@@ -196,6 +196,18 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Sales & Purchase Ledger Admin
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-2308536
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Support Administrator
 company: Osborne Appointments - Agency - Permanent
 location: Northampton
@@ -252,7 +264,7 @@ job_id: jobg8-2282121
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (79)
+## REVIEW (77)
 
 ---
 action: 
@@ -547,18 +559,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Administrator
-company: Hawk 3 Talent Solutions - Agency - Permanent
-location: Rushden
-source: JobG8
-job_id: jobg8-23643_225766315
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
 company: Impact Recruitment Services - Agency - Temporary
 location: Kettering
 source: JobG8
@@ -646,7 +646,7 @@ title: Events & Digital Marketing Coordinator
 company: HYERED LIMITED - Agency - Permanent
 location: Daventry
 source: JobG8
-job_id: jobg8-2226573
+job_id: jobg8-2306554
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -694,7 +694,7 @@ title: Finance & Administration Coordinator
 company: Axil - Agency - Permanent
 location: Corby
 source: JobG8
-job_id: jobg8-2274346
+job_id: jobg8-2307583
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -798,18 +798,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Lakeside Healthcare Group
-location: Corby, NN17 1TY
-source: NHS Jobs
-job_id: nhs-5690261
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Inbound Call Handler (Late Shift)
 company: SolviT Recruitment Ltd - Agency - Temporary
 location: Daventry
@@ -851,18 +839,6 @@ company: Morgan McKinley (Milton Keynes) - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225792402
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Plus One Recruitment - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225823002
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -1026,6 +1002,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Co-ordinator
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2306848
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Polish Speaking Accounts Assistant
 company: Michael Page - Agency - Permanent
 location: Northamptonshire
@@ -1042,7 +1030,7 @@ title: PPC / Paid Search Specialist
 company: Enorth Resourcing Limited - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-2228708
+job_id: jobg8-2308373
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

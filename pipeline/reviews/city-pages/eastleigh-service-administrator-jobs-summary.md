@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 117
-- automatic exclude: 53
+- automatic review: 116
+- automatic exclude: 52
 - effective include: 6
-- effective review: 117
-- effective exclude: 53
+- effective review: 116
+- effective exclude: 52
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225810949
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (117)
+## REVIEW (116)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Gi Group - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225793113
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Accountability Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2148747
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -166,7 +154,7 @@ title: Accounts Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Waterlooville
 source: JobG8
-job_id: jobg8-2226576
+job_id: jobg8-2306557
 reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -250,7 +238,7 @@ title: Accounts Assistant
 company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2273931
+job_id: jobg8-2307232
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -370,7 +358,7 @@ title: Aftersales Administrator
 company: Cluett Reeve Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2274238
+job_id: jobg8-2307542
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -454,7 +442,7 @@ title: Communications and Engagement Manager
 company: Saab UK - Company - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2224730
+job_id: jobg8-2304875
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -846,18 +834,6 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Temporary
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225814754
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Howett Thorpe - Agency - Permanent
 location: Hampshire
@@ -936,6 +912,18 @@ location: Fleet
 source: JobG8
 job_id: jobg8-2184013
 reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant
+company: Brook Street - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2308325
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
 ---
@@ -1162,7 +1150,7 @@ title: PR Account Executive
 company: Whiteoaks International - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2271631
+job_id: jobg8-2305330
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -1306,7 +1294,7 @@ title: Senior Conveyancing Assistant
 company: 2i Recruit Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2271017
+job_id: jobg8-2304527
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -1502,7 +1490,7 @@ job_id: jobg8-23643_225810727
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (53)
+## EXCLUDE (52)
 
 ---
 action: 
@@ -1572,7 +1560,7 @@ title: Accounts Receivable
 company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2227463
+job_id: jobg8-2307313
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1596,7 +1584,7 @@ title: Accounts Receivable Clerk
 company: The Niche Partnership - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2227909
+job_id: jobg8-2307924
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1609,18 +1597,6 @@ company: Amour Recruitment - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225819016
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO40 8DX
-source: NHS Jobs
-job_id: nhs-5701836
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -2040,7 +2016,7 @@ title: Service Receptionist (Automotive)
 company: Amour Recruitment - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2270953
+job_id: jobg8-2304711
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -2060,11 +2036,11 @@ reason: The stated workplace belongs outside the approved Eastleigh employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Team Administrator
+title: Single Point of Access Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Winchester, SO23 7BT
+location: Fareham, PO17 6AR
 source: NHS Jobs
-job_id: nhs-5701516
+job_id: nhs-5728489
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -2088,7 +2064,7 @@ title: Temporary Accounts Payable Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Fareham
 source: JobG8
-job_id: jobg8-2226767
+job_id: jobg8-2306672
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -2112,7 +2088,7 @@ title: Temporary Payroll Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Fareham
 source: JobG8
-job_id: jobg8-2226738
+job_id: jobg8-2306658
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

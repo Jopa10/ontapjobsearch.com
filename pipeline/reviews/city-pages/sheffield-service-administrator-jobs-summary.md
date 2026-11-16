@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 40
+- Effective included jobs: 38
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 40
-- automatic review: 11
+- automatic include: 38
+- automatic review: 12
 - automatic exclude: 33
-- effective include: 40
-- effective review: 11
+- effective include: 38
+- effective review: 12
 - effective exclude: 33
 
-## INCLUDE (40)
+## INCLUDE (38)
 
 ---
 action: 
@@ -104,19 +104,7 @@ title: Bookkeeper
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2225370
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5705463
+job_id: jobg8-2305405
 reason: Approved Sheffield catchment.
 ---
 
@@ -153,18 +141,6 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
 source: NHS Jobs
 job_id: nhs-5726273
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clerical Officer/Receptionist
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5704847
 reason: Approved Sheffield catchment.
 ---
 
@@ -272,6 +248,18 @@ title: GP Receptionist
 company: Elm Lane & Chapeltown Surgery
 location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
 source: NHS Jobs
+job_id: nhs-5725305
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: GP Receptionist
+company: Elm Lane & Chapeltown Surgery
+location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
+source: NHS Jobs
 job_id: nhs-5725571
 reason: Approved Sheffield catchment.
 ---
@@ -284,7 +272,7 @@ title: Insolvency Case Administrator
 company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2226933
+job_id: jobg8-2308169
 reason: Approved Sheffield catchment.
 ---
 
@@ -368,7 +356,7 @@ title: Payroll Administrator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2274221
+job_id: jobg8-2307405
 reason: Approved Sheffield catchment.
 ---
 
@@ -380,7 +368,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2272484
+job_id: jobg8-2306291
 reason: Approved Sheffield catchment.
 ---
 
@@ -417,18 +405,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2176622
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Reception Administrator
-company: STEPS Rehabilitation
-location: Sheffield, S7 2QA
-source: NHS Jobs
-job_id: nhs-5686823
 reason: Approved Sheffield catchment.
 ---
 
@@ -504,7 +480,7 @@ job_id: jobg8-23643_225789027
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -514,7 +490,7 @@ title: Accounts Payable (temp - perm)
 company: Michael Page Finance - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2274583
+job_id: jobg8-2307843
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -594,11 +570,23 @@ reason: No approved Sheffield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Officer
+company: Portfolio Payroll - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2307073
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Clerk
 company: Sharp Consultancy - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2228499
+job_id: jobg8-2308189
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -634,7 +622,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2295676
+job_id: jobg8-2303681
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -848,6 +836,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Medical Receptionist
+company: Greasbrough Medical Centre
+location: Rotherham, S61 4RB
+source: NHS Jobs
+job_id: nhs-5706820
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Paralegal
 company: Reed - Agency - Permanent
 location: Doncaster
@@ -997,18 +997,6 @@ company: Bentley Surgery
 location: Doncaster, DN5 0AT, DONCASTER, DN5 8DA
 source: NHS Jobs
 job_id: nhs-5726734
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Administrator
-company: Doncaster & Bassetlaw Teaching Hospitals NHS FT
-location: Doncaster, DN2 5LT
-source: NHS Jobs
-job_id: nhs-5713874
 reason: Separate employment market.
 ---
 

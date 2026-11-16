@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 16
 - automatic review: 69
 - automatic exclude: 0
-- effective include: 17
+- effective include: 16
 - effective review: 69
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (16)
 
 ---
 action: 
@@ -201,18 +201,6 @@ company: E3 Recruitment - Agency - Permanent
 location: Gloucester
 source: JobG8
 job_id: jobg8-23643_225820783
-reason: Exact approved Gloucester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
-company: ISQ Recruitment - Agency - Permanent
-location: Gloucester
-source: JobG8
-job_id: jobg8-23643_225791578
 reason: Exact approved Gloucester workplace.
 ---
 
@@ -454,7 +442,7 @@ title: Credit Controller (contract to perm)
 company: CWC Recruitment Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2226051
+job_id: jobg8-2306026
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

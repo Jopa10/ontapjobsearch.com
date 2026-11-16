@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 22
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
+- automatic include: 21
 - automatic review: 74
 - automatic exclude: 0
-- effective include: 22
+- effective include: 21
 - effective review: 74
 - effective exclude: 0
 
-## INCLUDE (22)
+## INCLUDE (21)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: SF Partners - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225775352
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Leicestershire Partnership NHS Trust
-location: Leicester, LE3 8TB
-source: NHS Jobs
-job_id: nhs-5695173
 reason: Exact approved Leicester workplace.
 ---
 
@@ -910,7 +898,7 @@ title: Performance Marketing Manager
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Loughborough
 source: JobG8
-job_id: jobg8-2225700
+job_id: jobg8-2305698
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1066,7 +1054,7 @@ title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2227642
+job_id: jobg8-2307600
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1102,7 +1090,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2295669
+job_id: jobg8-2303674
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

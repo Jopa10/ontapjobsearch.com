@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 17
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 18
+- effective include: 17
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (17)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Gofal Cymru Care Ltd - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225807314
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Administrator
-company: Four Elms Medical centre
-location: Cardiff, CF24 2HB
-source: NHS Jobs
-job_id: nhs-5697378
 reason: Approved conservative Cardiff launch catchment.
 ---
 

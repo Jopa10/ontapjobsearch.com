@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 53
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 20
-- effective review: 53
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (20)
@@ -44,7 +44,7 @@ title: Accounts Assistant - Poole - up to &;28,000 + good bens
 company: Bond Williams - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-2274973
+job_id: jobg8-2308317
 reason: Exact approved Poole workplace.
 ---
 
@@ -56,7 +56,7 @@ title: Accounts Payable Clerk
 company: Michael Page Finance - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-2225026
+job_id: jobg8-2305160
 reason: Exact approved Poole workplace.
 ---
 
@@ -264,7 +264,7 @@ job_id: jobg8-23643_225817065
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (54)
 
 ---
 action: 
@@ -467,6 +467,18 @@ company: Trial Balance Consulting - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2177163
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Administrator
+company: KAG Recruitment Consultancy - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225771986
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -778,7 +790,7 @@ title: Purchase Ledger Clerk
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2274728
+job_id: jobg8-2308035
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -815,6 +827,18 @@ company: Pin Point Recruitment - Agency - Permanent
 location: Wimborne
 source: JobG8
 job_id: jobg8-23643_225785867
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Coordinator
+company: Agincare Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-108323767
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -863,18 +887,6 @@ company: Build Recruitment - Agency - Permanent
 location: Shaftesbury
 source: JobG8
 job_id: jobg8-23643_225774315
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: SEND Admin Assistant
-company: Ferndown Middle School
-location: Ferndown
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-admin-assistant-ferndown-middle-school
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

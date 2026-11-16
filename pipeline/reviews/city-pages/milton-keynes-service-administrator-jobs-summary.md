@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 28
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
+- automatic include: 29
 - automatic review: 80
 - automatic exclude: 0
-- effective include: 28
+- effective include: 29
 - effective review: 80
 - effective exclude: 0
 
-## INCLUDE (28)
+## INCLUDE (29)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Altitude-Recruitment Limited - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-2301743
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2307051
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -104,7 +116,7 @@ title: Credit Controller
 company: Osborne Appointments - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-2270871
+job_id: jobg8-2304584
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -212,7 +224,7 @@ title: Paralegal
 company: Osborne Appointments - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-2275481
+job_id: jobg8-23643_225827397
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -382,7 +394,7 @@ title: Accounts Assistant
 company: Adecco - Agency - Permanent
 location: Aylesbury
 source: JobG8
-job_id: jobg8-2274022
+job_id: jobg8-2307354
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -430,7 +442,7 @@ title: Accounts Payable
 company: Michael Page Finance - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2227015
+job_id: jobg8-2306938
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -558,23 +570,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Client Support Executive
-company: Meridian Business Support - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225776817
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Conveyancing Paralegal
 company: Reed - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2273608
+job_id: jobg8-2306799
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -658,7 +658,7 @@ title: Credit Controller
 company: Marc Daniels - Agency - Permanent
 location: High Wycombe
 source: JobG8
-job_id: jobg8-2224968
+job_id: jobg8-2305027
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -814,7 +814,7 @@ title: Family Legal Secretary
 company: Reed - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2273928
+job_id: jobg8-2307163
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -1074,6 +1074,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Service Advisor
+company: Lookers PLC - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-108312907
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-Time Credit Control Administrator
 company: Vanta Staffing Limited - Agency - Permanent
 location: High Wycombe
@@ -1126,7 +1138,7 @@ title: PPC Executive - German Speaking
 company: Advancing People - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2227714
+job_id: jobg8-2307639
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

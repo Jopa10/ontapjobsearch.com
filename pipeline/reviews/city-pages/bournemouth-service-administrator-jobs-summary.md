@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 64
+- automatic review: 65
 - automatic exclude: 0
 - effective include: 9
-- effective review: 64
+- effective review: 65
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: nhs-5706522
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (64)
+## REVIEW (65)
 
 ---
 action: 
@@ -202,7 +202,7 @@ title: Accounts Assistant - Poole - up to &;28,000 + good bens
 company: Bond Williams - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-2274973
+job_id: jobg8-2308317
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -226,7 +226,7 @@ title: Accounts Payable Clerk
 company: Michael Page Finance - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-2225026
+job_id: jobg8-2305160
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -359,6 +359,18 @@ company: Trial Balance Consulting - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2177163
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Administrator
+company: KAG Recruitment Consultancy - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225771986
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -718,7 +730,7 @@ title: Purchase Ledger Clerk
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2274728
+job_id: jobg8-2308035
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -787,6 +799,18 @@ action:
 decision: review
 automatic_decision: review
 title: Recruitment Coordinator
+company: Agincare Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-108323767
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Coordinator
 company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
@@ -827,18 +851,6 @@ company: Build Recruitment - Agency - Permanent
 location: Shaftesbury
 source: JobG8
 job_id: jobg8-23643_225774315
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: SEND Admin Assistant
-company: Ferndown Middle School
-location: Ferndown
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-admin-assistant-ferndown-middle-school
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

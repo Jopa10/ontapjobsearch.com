@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 69
-- automatic review: 15
+- automatic review: 14
 - automatic exclude: 9
 - effective include: 69
-- effective review: 15
+- effective review: 14
 - effective exclude: 9
 
 ## INCLUDE (69)
@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: Ashley Rees Associates - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2227370
+job_id: jobg8-2307220
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -404,7 +404,7 @@ title: Finance Assistant/Sales Ledger
 company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2227474
+job_id: jobg8-2307323
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -852,19 +852,7 @@ job_id: jobg8-23643_225821474
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (15)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Home Based Marketing and Sales
-company: Etre Professional - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2246867
-reason: No approved Bristol catchment rule matched; local review required.
----
+## REVIEW (14)
 
 ---
 action: 
@@ -922,7 +910,7 @@ title: Legal Personal Assistant
 company: Owen Reed - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2272016
+job_id: jobg8-2305816
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -958,7 +946,7 @@ title: Marketing Executive
 company: Moxie and Mettle Limited - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2227715
+job_id: jobg8-2307640
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -982,7 +970,7 @@ title: PPC Executive - German Speaking
 company: Advancing People - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2227741
+job_id: jobg8-2307653
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -1006,7 +994,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2295662
+job_id: jobg8-2303667
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -1030,7 +1018,7 @@ title: Transactional Finance Officer
 company: Michael Page Finance - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2274946
+job_id: jobg8-2308280
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -1068,7 +1056,7 @@ title: Digital Marketing & Performance Manager
 company: Truespeed - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2274552
+job_id: jobg8-2307833
 reason: Separate employment market.
 ---
 

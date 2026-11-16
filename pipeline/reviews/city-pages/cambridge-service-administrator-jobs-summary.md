@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 50
-- automatic review: 18
-- automatic exclude: 28
+- automatic review: 17
+- automatic exclude: 27
 - effective include: 50
-- effective review: 18
-- effective exclude: 28
+- effective review: 17
+- effective exclude: 27
 
 ## INCLUDE (50)
 
@@ -56,7 +56,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2274549
+job_id: jobg8-2307830
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -624,7 +624,7 @@ job_id: jobg8-23643_225830190
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (17)
 
 ---
 action: 
@@ -683,18 +683,6 @@ company: The One Group - Agency - Permanent
 location: Ely
 source: JobG8
 job_id: jobg8-2206773
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams Officer
-company: Ernulf Academy
-location: St. Neots
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-b0378906-8f31-44c2-ae4e-74994a5303b2
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -842,7 +830,7 @@ job_id: jobg8-23643_225752655
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -1153,18 +1141,6 @@ company: The Recruitment Solution (London) Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2194126
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor - Automotive Dealership
-company: ISQ Recruitment - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225789639
 reason: Separate employment market.
 ---
 

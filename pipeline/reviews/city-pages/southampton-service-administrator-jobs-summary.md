@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 117
+- automatic include: 12
+- automatic review: 116
 - automatic exclude: 46
-- effective include: 13
-- effective review: 117
+- effective include: 12
+- effective review: 116
 - effective exclude: 46
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Amour Recruitment - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225819016
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO40 8DX
-source: NHS Jobs
-job_id: nhs-5701836
 reason: Approved Southampton catchment.
 ---
 
@@ -180,7 +168,7 @@ job_id: jobg8-23643_225814478
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (117)
+## REVIEW (116)
 
 ---
 action: 
@@ -191,18 +179,6 @@ company: Gi Group - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225793113
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Accountability Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2148747
 reason: Broad location; review before city inclusion.
 ---
 
@@ -250,7 +226,7 @@ title: Accounts Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Waterlooville
 source: JobG8
-job_id: jobg8-2226576
+job_id: jobg8-2306557
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -334,7 +310,7 @@ title: Accounts Assistant
 company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2273931
+job_id: jobg8-2307232
 reason: Broad location; review before city inclusion.
 ---
 
@@ -454,7 +430,7 @@ title: Aftersales Administrator
 company: Cluett Reeve Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2274238
+job_id: jobg8-2307542
 reason: Broad location; review before city inclusion.
 ---
 
@@ -538,7 +514,7 @@ title: Communications and Engagement Manager
 company: Saab UK - Company - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2224730
+job_id: jobg8-2304875
 reason: Broad location; review before city inclusion.
 ---
 
@@ -930,18 +906,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Temporary
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225814754
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Howett Thorpe - Agency - Permanent
 location: Hampshire
@@ -1020,6 +984,18 @@ location: Fleet
 source: JobG8
 job_id: jobg8-2184013
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant
+company: Brook Street - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2308325
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1246,7 +1222,7 @@ title: PR Account Executive
 company: Whiteoaks International - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2271631
+job_id: jobg8-2305330
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1390,7 +1366,7 @@ title: Senior Conveyancing Assistant
 company: 2i Recruit Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2271017
+job_id: jobg8-2304527
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1656,7 +1632,7 @@ title: Accounts Receivable
 company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2227463
+job_id: jobg8-2307313
 reason: Separate employment market.
 ---
 
@@ -1680,7 +1656,7 @@ title: Accounts Receivable Clerk
 company: The Niche Partnership - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2227909
+job_id: jobg8-2307924
 reason: Separate employment market.
 ---
 
@@ -2028,7 +2004,7 @@ title: Service Receptionist (Automotive)
 company: Amour Recruitment - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2270953
+job_id: jobg8-2304711
 reason: Separate employment market.
 ---
 
@@ -2048,11 +2024,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Student Services Administrator
-company: Tate - Agency - Temporary
-location: Eastleigh
-source: JobG8
-job_id: jobg8-23643_225810949
+title: Single Point of Access Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 6AR
+source: NHS Jobs
+job_id: nhs-5728489
 reason: Separate employment market.
 ---
 
@@ -2060,11 +2036,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Team Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Winchester, SO23 7BT
-source: NHS Jobs
-job_id: nhs-5701516
+title: Student Services Administrator
+company: Tate - Agency - Temporary
+location: Eastleigh
+source: JobG8
+job_id: jobg8-23643_225810949
 reason: Separate employment market.
 ---
 
@@ -2088,7 +2064,7 @@ title: Temporary Accounts Payable Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Fareham
 source: JobG8
-job_id: jobg8-2226767
+job_id: jobg8-2306672
 reason: Separate employment market.
 ---
 
@@ -2112,7 +2088,7 @@ title: Temporary Payroll Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Fareham
 source: JobG8
-job_id: jobg8-2226738
+job_id: jobg8-2306658
 reason: Separate employment market.
 ---
 

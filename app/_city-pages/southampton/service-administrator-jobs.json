@@ -265,6 +265,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2485",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -284,25 +287,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5988-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5701836",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
-    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
-    "location": "Southampton, SO40 8DX",
-    "region": "Hampshire",
-    "salary": "£25272.00 to £25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-11-02T15:28:56.157975557",
-    "closing_date": "2026-11-15",
-    "description": "Administrator / Receptionist -New Forest East Community Mental Health Treatment Team Band 2 - Part-Time (15 Hours per Week). Location: Totton, Southampton. Working Days: Thursday and Friday Are you an organised and proactive administrator with excellent communication skills? Do you enjoy working as part of a supportive team and making a positive difference to people accessing mental health services? We are seeking a friendly and reliable Administrator / Receptionist to join the New Forest East Community Mental Health Treatment Team. This rewarding role is central to the smooth and effective running of our service, providing high-quality administrative support to colleagues, service users, and partner agencies. As a key member of our administrative team, you will be responsible for a wide range of reception and office duties, ensuring service users receive a professional and responsive experience. This is an excellent opportunity to join a dedicated mental health team and contribute to improving the experience of people accessing essential services within the community. You will work in a welcoming and supportive environment where your contribution is valued and recognised. If you are organised, motivated, and passionate about providing excellent administrative support, we would love to hear from you. Answer and manage calls through a busy switchboard. Monitor and respond to enquiries through the team's generic email inbox. Provide professional support to service users, carers, and partner agencies. Maintain accurate records and administration systems. Order office supplies and equipment as required. Support the team with a variety of general administrative duties. Ensure information is handled confidentially and in accordance with organisational policies. Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2450",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2450",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

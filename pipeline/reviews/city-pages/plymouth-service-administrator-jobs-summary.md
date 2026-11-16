@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 79
+- automatic review: 78
 - automatic exclude: 0
 - effective include: 6
-- effective review: 79
+- effective review: 78
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225767515
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (79)
+## REVIEW (78)
 
 ---
 action: 
@@ -142,7 +142,7 @@ title: Accounts Assistant
 company: Butler Rose - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2274255
+job_id: jobg8-2307549
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -406,7 +406,7 @@ title: Customer Service Receptionist
 company: Amour Recruitment - Agency - Permanent
 location: Exeter
 source: JobG8
-job_id: jobg8-2270981
+job_id: jobg8-2304726
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -599,18 +599,6 @@ company: Butler Rose - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2293859
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Fleet Distribution Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107939734
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

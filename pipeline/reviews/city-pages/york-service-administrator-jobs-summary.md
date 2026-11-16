@@ -310,7 +310,7 @@ title: Private Client Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Malton
 source: JobG8
-job_id: jobg8-2271389
+job_id: jobg8-2305095
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -420,7 +420,7 @@ title: Credit Controller - Harrogate
 company: Willow Recruit - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2228393
+job_id: jobg8-2308097
 reason: Separate employment market.
 ---
 

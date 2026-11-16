@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 36
+- automatic include: 15
+- automatic review: 33
 - automatic exclude: 0
-- effective include: 16
-- effective review: 36
+- effective include: 15
+- effective review: 33
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -172,18 +172,6 @@ reason: Exact approved Altrincham workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Shay Lane Medical Centre
-location: Altrincham, WA15 8NZ
-source: NHS Jobs
-job_id: nhs-5702373
-reason: Exact approved Altrincham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Administrator
 company: Adecco - Agency - Temporary
 location: Altrincham
@@ -216,7 +204,7 @@ job_id: jobg8-2165151
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (33)
 
 ---
 action: 
@@ -308,18 +296,6 @@ decision: review
 automatic_decision: review
 title: Administrator
 company: Pennine Care NHS FT
-location: Stalybridge, SK15 2AU
-source: NHS Jobs
-job_id: nhs-5723418
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Pennine Care NHS FT
 location: Stockport, SK2 5EQ
 source: NHS Jobs
 job_id: nhs-5723899
@@ -370,7 +346,7 @@ title: Credit Controller
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2271165
+job_id: jobg8-2304900
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -491,30 +467,6 @@ company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225809769
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: HT Practice
-location: Ashton Under Lyne, OL7 0NW
-source: NHS Jobs
-job_id: nhs-5671910
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist / Administrator
-company: The Reddish Family Practice
-location: Stockport, SK6 6RN, STOCKPORT, SK5 7QU
-source: NHS Jobs
-job_id: nhs-5693756
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
