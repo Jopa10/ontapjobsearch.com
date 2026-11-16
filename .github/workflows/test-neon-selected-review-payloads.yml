@@ -133,10 +133,17 @@ jobs:
           import json,sys
           r=json.load(open(sys.argv[1]))
           assert r.get('status')=='passed'
-          assert r.get('exactIdsMatch') is True and r.get('fullPayloadAndHashesMatch') is True
-          assert r.get('excludedFeedPayloadsStored')==0
-          assert r.get('preservedWednesday',{}).get('unchanged') is True
-          print('Full selected/review payload Preview readback passed:',r['neonRows'],'records')
+          if r.get('mode')=='feed_order_backfill_only':
+              assert r.get('sourceRowPositionsUnique') is True
+              assert r.get('exactArchivedOrderReadback') is True
+              assert r.get('payloadsRewritten')==0
+              assert r.get('fullPayloadParityRepeated') is False
+              print('Feed-row position Preview backfill passed:',r['neonRows'],'records')
+          else:
+              assert r.get('exactIdsMatch') is True and r.get('fullPayloadAndHashesMatch') is True
+              assert r.get('excludedFeedPayloadsStored')==0
+              assert r.get('preservedWednesday',{}).get('unchanged') is True
+              print('Full selected/review payload Preview readback passed:',r['neonRows'],'records')
           PY
       - name: Preserve full payload Preview evidence
         if: always()
