@@ -1,0 +1,66 @@
+name: Neon selected/review independent selector feasibility Preview
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/neon-subset-test-request.json]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ontap-neon-independent-subset
+  cancel-in-progress: false
+jobs:
+  preview-subset:
+    if: github.ref == 'refs/heads/feat/neon-shadow-database'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - name: Prepare independent isolated selector runtime
+        run: |
+          set -euo pipefail
+          cp -a pipeline database/shadow/harness/pipeline
+          cp database/shadow/neon-subset-test-request.json database/shadow/harness/independent-neon-subset-request.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('database/shadow/harness/vercel.json')
+          x=json.loads(p.read_text());x['buildCommand']='node replay-neon-selected-subset.mjs'
+          p.write_text(json.dumps(x,indent=2)+'\n')
+          PY
+      - name: Run existing Python selectors against Neon source in Vercel Preview
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+        run: |
+          set -euo pipefail
+          test -n "$VERCEL_TOKEN"
+          npm ci --omit=dev --ignore-scripts --prefix database/shadow/harness
+          npm install --prefix "$RUNNER_TEMP/vercel-cli" --no-save --ignore-scripts --no-audit --no-fund vercel@65.14.0
+          cd database/shadow/harness
+          "$RUNNER_TEMP/vercel-cli/node_modules/.bin/vercel" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 2>&1 | tee "$RUNNER_TEMP/neon-subset-deploy.log"
+          url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/neon-subset-deploy.log" | tail -1)"
+          test -n "$url"
+          "$RUNNER_TEMP/vercel-cli/node_modules/.bin/vercel" curl /selected-subset-replay-report.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/selected-subset-replay-report.json"
+          python - "$RUNNER_TEMP/selected-subset-replay-report.json" <<'PY'
+          import json,sys
+          r=json.load(open(sys.argv[1]))
+          assert r['inputRows']>5500 and r['liveScopes']>=230
+          assert r['scopeInputReconstructionIndependent'] and not r['publishedArtifactsUsedAsSelectorInput']
+          print('ONTAP_PREVIEW_SELECTED_SUBSET_FEASIBILITY',json.dumps({k:r[k] for k in ['status','inputRows','liveScopes','scopesWithDifferences','generatedUniqueIds']}))
+          PY
+      - name: Preserve independent test evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: neon-independent-selected-subset-replay
+          path: |
+            ${{ runner.temp }}/neon-subset-deploy.log
+            ${{ runner.temp }}/selected-subset-replay-report.json
+            database/shadow/neon-subset-test-request.json
+          if-no-files-found: ignore
+          retention-days: 30
