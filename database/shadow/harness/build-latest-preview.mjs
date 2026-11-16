@@ -22,10 +22,10 @@ assert.ok(['require','verify-full'].includes(url.searchParams.get('sslmode')));
 url.searchParams.set('sslmode','verify-full');
 const c=new pg.Client({connectionString:url.toString(),connectionTimeoutMillis:15000,query_timeout:120000,
   application_name:'ontap-preview-complete-site-parity'});
-const scopes=source.outputs, names=Object.keys(scopes);
-assert.ok(names.length>=200,'Incomplete region/family publication');
+const scopes=source.outputs, names=Object.keys(scopes), extra=source.additionalOutputs || {};
+assert.ok(names.length>=200,'Incomplete LIVE region/family publication');
 const rows=[];
-for(const [scope,list] of Object.entries(scopes)) {
+for(const [scope,list] of [...Object.entries(scopes), ...Object.entries(extra).map(([filename,list])=>['artifact:'+filename,list])]) {
   assert.ok(Array.isArray(list));
   const seen=new Set();
   for(const [position,row] of list.entries()) {
@@ -36,7 +36,7 @@ for(const [scope,list] of Object.entries(scopes)) {
   }
 }
 let report={feedDate:source.feedDate,productionRunId:source.productionRunId,
-  scopeCount:names.length,referenceRows:rows.length,referenceJobG8Rows:0,
+  scopeCount:names.length,additionalArtifactScopes:Object.keys(extra).length,referenceRows:rows.length,referenceJobG8Rows:0,
   neonSelectedIds:0,exactSelectedIdsMatch:false,exactApplyUrlsMatch:false,
   referenceOrigin:'verified production output artifacts',scopedPlacementOrigin:'production artifact',
   independentSelectorReplay:false,productionChanged:false,
@@ -70,12 +70,13 @@ try {
  const query=await c.query('SELECT scope,position,public_id,source,display FROM ontap_shadow.published_scope_rows WHERE feed_date=$1::date ORDER BY scope,position',[current]);
  assert.equal(query.rows.length,rows.length,'Neon publisher rows missing');
  const output=Object.fromEntries(names.map(n=>[n,[]]));
+ const readbackPositions=new Map();
  for(const record of query.rows){
-   assert.ok(record.scope in output);
-   assert.equal(record.position,output[record.scope].length,'Scope ordering differs');
+   assert.equal(record.position,readbackPositions.get(record.scope) ?? 0,'Scope ordering differs');
+   readbackPositions.set(record.scope,record.position+1);
    const expected=expectedByPosition.get(record.scope+':'+record.position);
    assert.deepEqual(record.display,expected.display,'Publisher row differs '+record.scope);
-   output[record.scope].push(record.display);
+   if(record.scope in output) output[record.scope].push(record.display);
  }
  await fs.writeFile('shadow-db-outputs.json',JSON.stringify(output));
  await fs.writeFile('shadow-preview-metadata.json',JSON.stringify({date:current,...report}));
