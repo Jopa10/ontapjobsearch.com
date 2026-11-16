@@ -1,0 +1,74 @@
+// Isolated Preview-only feasibility check: can existing Python selectors generate
+// region/family placements from the currently stored SELECTED + REVIEW raw adverts?
+// This is explicitly NOT full-feed parity: excluded feed rows are not retained.
+import pg from 'pg';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {execFileSync} from 'node:child_process';
+const dateRequest=JSON.parse(await fs.readFile('independent-neon-subset-request.json','utf8'));
+assert.equal(process.env.VERCEL_ENV,'preview');
+assert.equal(process.env.ONTAP_SHADOW_NEON_PROJECT_ID,'noisy-fire-97386602');
+const url = new URL(process.env.ONTAP_SHADOW_DATABASE_URL);
+assert.ok(url.hostname.endsWith('.neon.tech'));
+assert.ok(['require','verify-full'].includes(url.searchParams.get('sslmode')));
+url.searchParams.set('sslmode','verify-full');
+const c=new pg.Client({connectionString:url.toString(),connectionTimeoutMillis:15000,query_timeout:120000});
+let records, reference;
+try {
+ await c.connect();await c.query('BEGIN READ ONLY');
+ const current=(await c.query('SELECT max(feed_date)::text AS day FROM ontap_shadow.selected_review_payload_records')).rows[0].day;
+ assert.equal(current,dateRequest.archiveDate);
+ records=(await c.query('SELECT public_id,decision,raw_payload FROM ontap_shadow.selected_review_payload_records WHERE feed_date=$1::date ORDER BY public_id',[current])).rows;
+ reference=(await c.query("SELECT scope,position,public_id,source FROM ontap_shadow.published_scope_rows WHERE feed_date=$1::date AND source='JobG8' AND scope NOT LIKE 'artifact:%' ORDER BY scope,position",[current])).rows;
+ await c.query('COMMIT');
+}finally{await c.end().catch(()=>{});}
+const selected=records.filter(r=>r.decision==='SELECTED');
+assert.equal(selected.length,5246);
+assert.ok(records.length>5500);
+assert.ok(reference.length>6000);
+const keys=[...new Set(records.flatMap(x=>Object.keys(x.raw_payload)))].sort();
+const csv = x=>'"'+String(x??'').replaceAll('"','""')+'"';
+await fs.mkdir('pipeline/input',{recursive:true});
+const f='pipeline/input/jobg8.csv';
+await fs.writeFile(f, keys.map(csv).join(',')+'\n'+records.map(x=>keys.map(k=>csv(x.raw_payload[k])).join(',')).join('\n')+'\n');
+console.log('ONTAP_NEON_SELECTED_SUBSET_INPUT',{day:dateRequest.archiveDate,rows:records.length,selected:selected.length,review:records.length-selected.length,columns:keys.length});
+execFileSync('python3',['-m','pip','install','--disable-pip-version-check','--target','/tmp/ontap-subset-python','pandas','openpyxl==3.1.5','boto3'],{stdio:'inherit'});
+const env={...process.env,PYTHONPATH:'/tmp/ontap-subset-python'};
+const commands=[
+ ['-m','scripts.service_admin_pipeline_north_yorkshire'],
+ ['-m','scripts.enrich_job_metadata','--category','admin-service'],
+ ['-m','scripts.support_worker_pipeline_live_config'],
+ ['-m','scripts.enrich_job_metadata','--category','support-worker']
+];
+for(const args of commands){console.log('ONTAP_SUBSET_SELECTOR_START',args.join(' '));execFileSync('python3',args,{stdio:'inherit',cwd:'pipeline',env,timeout:1200000});}
+const reg=await fs.readFile('pipeline/registers/region_category_slice_register.csv','utf8');
+const entries=reg.trim().split(/\r?\n/).slice(1).map(x=>x.split(',')).filter(x=>x[2]==='LIVE');
+const catalog=JSON.parse(await fs.readFile('pipeline/config/job_slice_catalog.json','utf8'));
+const expected=new Map(), produced=new Map();
+for(const r of reference){if(!expected.has(r.scope)) expected.set(r.scope,[]);expected.get(r.scope).push(r.public_id);}
+for(const [region,category] of entries){
+ const meta=catalog.categories[category],slug=catalog.regions[region].slug;
+ const filename=slug+'-'+meta.file_suffix+'.json';
+ const rows=JSON.parse(await fs.readFile(path.join('pipeline',meta.output_dir,filename),'utf8'));
+ produced.set(category+':'+region,rows.filter(x=>x.source==='JobG8').map(x=>String(x.job_id)));
+}
+const scopes=[...produced.keys()];
+const differing=scopes.filter(k=>JSON.stringify(produced.get(k))!==JSON.stringify(expected.get(k)||[]));
+const known=new Set(selected.map(x=>x.public_id));
+const ids=new Set([...produced.values()].flat());
+const report={status:differing.length===0?'matched':'differences',
+  feedDate:dateRequest.archiveDate,
+  input:'Neon raw selected + review adverts only; no published output artifact used as selector input',
+  inputRows:records.length,neonSelected:selected.length,referenceRows:reference.length,
+  liveScopes:scopes.length,scopesWithDifferences:differing.length,
+  generatedUniqueIds:ids.size,generatedSelectedOverlap:[...ids].filter(x=>known.has(x)).length,
+  generatedIdsNotInNeonSelected:[...ids].filter(x=>!known.has(x)).slice(0,30),
+  differingScopes:differing.slice(0,25).map(k=>({scope:k,actual:produced.get(k).length,reference:(expected.get(k)||[]).length,missing:(expected.get(k)||[]).filter(x=>!produced.get(k).includes(x)).slice(0,10)})),
+  scopeInputReconstructionIndependent:true,fullFeedAvailable:false,
+  excludedRawRecordsSupplied:false,fullProductionParityEstablished:false,
+  publishedArtifactsUsedAsSelectorInput:false,databaseWrites:false,productionChanged:false};
+await fs.mkdir('dist',{recursive:true});
+await fs.writeFile('dist/selected-subset-replay-report.json',JSON.stringify(report,null,2));
+console.log('ONTAP_NEON_SUBSET_REPLAY_RESULT '+JSON.stringify({...report,differingScopes:report.differingScopes.slice(0,3)}));
+await fs.writeFile('dist/index.html','<html><head><meta name="robots" content="noindex,nofollow"/></head><body><h1>Ontap Preview selected-only selector replay</h1><p>See <a href="/selected-subset-replay-report.json">report</a>.</p></body></html>');
