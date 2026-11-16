@@ -20,13 +20,13 @@ try {
  const current=(await c.query('SELECT max(feed_date)::text AS day FROM ontap_shadow.selected_review_payload_records')).rows[0].day;
  assert.equal(current,dateRequest.archiveDate);
  records=(await c.query('SELECT public_id,decision,raw_payload FROM ontap_shadow.selected_review_payload_records WHERE feed_date=$1::date ORDER BY public_id',[current])).rows;
- reference=(await c.query("SELECT scope,position,public_id,source FROM ontap_shadow.published_scope_rows WHERE feed_date=$1::date AND source='JobG8' AND scope NOT LIKE 'artifact:%' ORDER BY scope,position",[current])).rows;
+ reference=(await c.query("SELECT scope,position,public_id,source FROM ontap_shadow.published_scope_rows WHERE feed_date=$1::date AND source='JobG8' ORDER BY scope,position",[current])).rows;
  await c.query('COMMIT');
 }finally{await c.end().catch(()=>{});}
 const selected=records.filter(r=>r.decision==='SELECTED');
 assert.equal(selected.length,5246);
 assert.ok(records.length>5500);
-assert.ok(reference.length>6000);
+assert.ok(reference.length>6400,'Incomplete 250-scope publisher reference');
 const keys=[...new Set(records.flatMap(x=>Object.keys(x.raw_payload)))].sort();
 const csv = x=>'"'+String(x??'').replaceAll('"','""')+'"';
 await fs.mkdir('pipeline/input',{recursive:true});
@@ -62,7 +62,22 @@ const reg=await fs.readFile('pipeline/registers/region_category_slice_register.c
 const entries=reg.trim().split(/\r?\n/).slice(1).map(x=>x.split(',')).filter(x=>x[2]==='LIVE');
 const catalog=JSON.parse(await fs.readFile('pipeline/config/job_slice_catalog.json','utf8'));
 const expected=new Map(), produced=new Map();
-for(const r of reference){if(!expected.has(r.scope)) expected.set(r.scope,[]);expected.get(r.scope).push(r.public_id);}
+const outputToScope=new Map();
+for(const [region,category] of entries){
+  const meta=catalog.categories[category],slug=catalog.regions[region]?.slug;
+  assert.ok(slug,'Missing catalog location '+region);
+  const filename=slug+'-'+meta.file_suffix+'.json';
+  assert.ok(!outputToScope.has(filename),'Duplicate LIVE output '+filename);
+  outputToScope.set(filename,category+':'+region);
+}
+assert.equal(entries.length,250,'Preview register must match all 250 production LIVE scopes');
+for(const r of reference){
+  const scope=r.scope.startsWith('artifact:')?outputToScope.get(r.scope.slice('artifact:'.length)):r.scope;
+  assert.ok(scope,'Unmapped production additional artifact: '+r.scope);
+  assert.ok([...outputToScope.values()].includes(scope),'Artifact scope not currently LIVE: '+scope);
+  if(!expected.has(scope))expected.set(scope,[]);
+  expected.get(scope).push(r.public_id);
+}
 for(const [region,category] of entries){
  const meta=catalog.categories[category],slug=catalog.regions[region].slug;
  const filename=slug+'-'+meta.file_suffix+'.json';
@@ -94,7 +109,7 @@ for(const k of scopes){
 const report={status:!membership.length&&!orderOnly.length?'matched':'differences',
  feedDate:dateRequest.archiveDate,input:'Neon raw selected + review adverts only; no published output artifact used as selector input',
  inputRows:records.length,neonSelected:selected.length,referenceRows:reference.length,
- liveScopes:scopes.length,exactScopes:exact.length,orderOnlyScopes:orderOnly.length,membershipDifferentScopes:membership.length,
+ liveScopes:scopes.length,referenceLiveScopes:expected.size,exactScopes:exact.length,orderOnlyScopes:orderOnly.length,membershipDifferentScopes:membership.length,
  familyStats,referenceUniqueLiveIds:allRefIds.size,generatedUniqueIds:ids.size,
  missingUniqueLiveIds:[...allRefIds].filter(id=>!ids.has(id)).length,
  extraUniqueLiveIds:[...ids].filter(id=>!allRefIds.has(id)).length,
