@@ -68,7 +68,7 @@ jobs:
       - name: Independently enrich selected admin and support-worker JobG8 payloads
         run: |
           python pipeline/scripts/enrich_job_metadata.py --category admin-service
-          python -m pipeline.scripts.support_worker_pipeline_live_config
+          (cd pipeline && python -m scripts.support_worker_pipeline_live_config)
           python pipeline/scripts/enrich_job_metadata.py --category support-worker
       - name: Load the Monday production files strictly as an independent reference
         uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
