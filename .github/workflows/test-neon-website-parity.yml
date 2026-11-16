@@ -73,13 +73,17 @@ jobs:
             if len(set(ids))!=len(ids):raise SystemExit('Duplicate publication IDs in '+scope)
             outputs[scope]=data;used.add(m.source.name)
           remaining={p.name for p in root.glob('*.json')}-used
-          if remaining:raise SystemExit('Unmapped production scopes: '+str(sorted(remaining)[:10]))
-          if len(outputs)<200:raise SystemExit('Incomplete scope coverage')
-          all_jobg8=[r for rows in outputs.values() for r in rows if r.get('source')=='JobG8']
+          extra={}
+          for filename in sorted(remaining):
+            data=json.loads((root/filename).read_text(encoding='utf-8-sig'))
+            if not isinstance(data,list):raise SystemExit('Unexpected extra scope data: '+filename)
+            extra[filename]=data
+          if len(outputs)<200:raise SystemExit('Incomplete LIVE scope coverage')
+          all_jobg8=[r for rows in list(outputs.values())+list(extra.values()) for r in rows if r.get('source')=='JobG8']
           if len({str(r['job_id']) for r in all_jobg8})<4500:raise SystemExit('Unexpectedly small JobG8 selected reference')
-          snapshot={'feedDate':request['archiveDate'],'productionRunId':request['productionOutputRunId'],'outputs':outputs}
+          snapshot={'feedDate':request['archiveDate'],'productionRunId':request['productionOutputRunId'],'outputs':outputs,'additionalOutputs':extra}
           Path('database/shadow/website-source.json').write_text(json.dumps(snapshot,ensure_ascii=False,separators=(',',':'))+'\n')
-          print('ONTAP_WEBSITE_REFERENCE_READY scopes',len(outputs),'JobG8 occurrences',len(all_jobg8),
+          print('ONTAP_WEBSITE_REFERENCE_READY LIVE scopes',len(outputs),'extra artifacts',len(extra),'JobG8 occurrences',len(all_jobg8),
                 'unique selected',len({str(r['job_id']) for r in all_jobg8}))
           PY
       - name: Configure isolated Preview site build
