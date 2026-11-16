@@ -31,12 +31,12 @@ export async function GET() {
     const selected = r.rows.filter(x => x.decision === 'SELECTED');
     const review = r.rows.filter(x => x.decision === 'REVIEW');
     const ids = selected.map(x => String(x.public_id));
-    const apply = selected.map(x => String(x.public_id)+'\\t'+String(x.apply_url ?? ''));
-    const title = selected.map(x => String(x.public_id)+'\\t'+String(x.title ?? ''));
+    const apply = selected.map(x => String(x.public_id)+'\t'+String(x.apply_url ?? ''));
+    const title = selected.map(x => String(x.public_id)+'\t'+String(x.title ?? ''));
     return NextResponse.json({
       snapshotDate: date, selectedCount: selected.length, reviewCount: review.length,
-      selectedUniqueIds: new Set(ids).size, selectedIdsSha256: sha(ids.join('\\n')),
-      applyUrlsSha256: sha(apply.join('\\n')), titlesSha256: sha(title.join('\\n')),
+      selectedUniqueIds: new Set(ids).size, selectedIdsSha256: sha(ids.join('\n')),
+      applyUrlsSha256: sha(apply.join('\n')), titlesSha256: sha(title.join('\n')),
       missingTitle: selected.filter(x=>!x.title).length,
       missingApplyUrl: selected.filter(x=>!x.apply_url).length,
       source: 'ontap_shadow.selected_review_payload_records', neonReadOnly:true,
