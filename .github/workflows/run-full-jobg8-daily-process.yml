@@ -141,12 +141,16 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_jobg8_s3_archive.py' -v
 
       - name: Configure AWS credentials for JobG8 archive
+        id: aws_archive_auth
+        continue-on-error: true
         uses: aws-actions/configure-aws-credentials@v6
         with:
           role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
           aws-region: eu-west-2
 
       - name: Archive validated JobG8 raw feed
+        id: archive_raw_feed
+        continue-on-error: true
         env:
           JOBG8_ARCHIVE_BUCKET: ontap-jobg8-archive-179402568934-eu-west-2-an
           JOBG8_ARCHIVE_REGION: eu-west-2
@@ -163,6 +167,11 @@ jobs:
             archive_args+=(--preserve-existing-as pre-changeover)
           fi
           python pipeline/scripts/jobg8_s3_archive.py "${archive_args[@]}" --skip-prune
+
+      - name: Warn if JobG8 S3 archive failed
+        if: steps.archive_raw_feed.outcome == 'failure'
+        run: |
+          echo "::warning title=JobG8 S3 archive failed::The validated feed is available in this GitHub run. Selection and publishing will continue; the S3 copy needs recovery."
 
       - name: Read LIVE slices from register
         id: slice-register
