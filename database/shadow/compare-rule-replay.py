@@ -38,7 +38,7 @@ for key in b:
         'before':{f:old[f] for f in fields+['reason','qualification_reason','salary_text','annual_salary_upper','regional_salary_review_point']},
         'after':{f:new[f] for f in fields+['reason','qualification_reason','salary_text','annual_salary_upper','regional_salary_review_point']}})
 direct_regions={x['region'] for x in changes if x['salaryRuleEvidence'] or x['qualificationRuleEvidence']}
-unexplained=[x['jobId'] for x in changes if not (x['salaryRuleEvidence'] or x['qualificationRuleEvidence']) and x['region'] not in direct_regions]
+unexplained=[x['jobId'] for x in changes if ('context_status' in x['changedFields']) or (not (x['salaryRuleEvidence'] or x['qualificationRuleEvidence']) and (x['region'] not in direct_regions or not set(x['changedFields']).issubset({'decision','selector_outcome','selection_status'})))]
 all_before={j for rows in before.values() for j in ids(rows)}
 all_after={j for rows in after.values() for j in ids(rows)}
 scope_changes=[{'scopeFile':n,'before':len(ids(before[n])),'after':len(ids(after[n])),
