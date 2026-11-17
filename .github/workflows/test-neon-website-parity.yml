@@ -101,7 +101,7 @@ jobs:
       - name: Configure isolated Preview site build
         run: |
           mkdir -p production-site/database/shadow/harness
-          cp database/shadow/harness/build-latest-preview.mjs database/shadow/harness/publisher-safeguards.mjs database/shadow/harness/prepare-full-preview.py production-site/database/shadow/harness/
+          cp database/shadow/harness/build-latest-preview.mjs database/shadow/harness/current-publication.mjs database/shadow/harness/publisher-safeguards.mjs database/shadow/harness/prepare-full-preview.py production-site/database/shadow/harness/
           cp database/shadow/website-source.json production-site/database/shadow/
           cd production-site
           python - <<'PY'
