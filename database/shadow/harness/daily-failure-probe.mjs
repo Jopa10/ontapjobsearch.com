@@ -25,6 +25,8 @@ export async function loadDailyFailureProbe(c,source){
  const baseline=await view(c);assert.equal(baseline.feedDate,source.archiveDate);
  assert.equal(Number((await c.query('SELECT count(*)::text AS n FROM ontap_shadow.selected_review_payload_records WHERE feed_date>$1::date',[baseline.feedDate])).rows[0].n),0,'Unexpected future feed data; do not inject');
  console.log('ONTAP_DAILY_FAILURE_BASELINE '+JSON.stringify({...baseline,stage:config.stage,runToken:config.runToken}));
+ const gate=JSON.parse(await fs.readFile('failure-recovery-request.json','utf8'));
+ assert.equal(gate.mode,'failure_recovery');assert.equal(gate.runToken,config.runToken);
  return {...config,baseline};
 }
 export async function injectDailyFailure(c,probe,stage,{snapshot,source}){
@@ -68,5 +70,5 @@ export async function verifyNoDailyFailureResidue(c,day){
  const future=Number((await c.query('SELECT count(*)::text AS n FROM ontap_shadow.daily_refresh_receipts WHERE feed_date>$1::date',[day])).rows[0].n);
  assert.equal(probes,0,'Uncommitted fault probe survived');
  assert.equal(future,0,'Uncommitted future completion receipt survived');
- return {remainingProbeRows:probes,remainingFutureReceipts:future};
+ return {remainingProbeRows:probes,remainingFutureReceipts:future,publication:await view(c)};
 }
