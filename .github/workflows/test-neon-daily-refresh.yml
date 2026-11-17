@@ -2,7 +2,7 @@ name: Neon automatic daily refresh (Preview only)
 on:
   push:
     branches: [feat/neon-shadow-database]
-    paths: [database/shadow/daily-refresh-request.json]
+    paths: [database/shadow/daily-refresh-request.json, database/shadow/daily-failure-test-request.json]
   workflow_dispatch:
 permissions:
   contents: read
@@ -15,6 +15,8 @@ jobs:
     if: github.ref == 'refs/heads/feat/neon-shadow-database'
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    env:
+      RUN_DAILY_FAILURE_TEST: ${{ contains(github.event.head_commit.modified, 'database/shadow/daily-failure-test-request.json') || contains(github.event.head_commit.added, 'database/shadow/daily-failure-test-request.json') }}
     permissions:
       contents: read
       actions: read
@@ -89,6 +91,8 @@ jobs:
           (harness/'selected-review-payloads.json').write_bytes(raw)
           (harness/'daily-source.json').write_text(json.dumps(source))
           (harness/'daily-scopes.json').write_bytes(Path('daily-scopes.json').read_bytes())
+          if os.environ.get('RUN_DAILY_FAILURE_TEST')=='true':
+              (harness/'failure-recovery-request.json').write_text(json.dumps({'mode':'failure_recovery','runToken':'daily-'+os.environ['GITHUB_RUN_ID']}))
           config=json.loads((harness/'vercel.json').read_text());config['buildCommand']='node verify-daily-refresh-neon.mjs'
           (harness/'vercel.json').write_text(json.dumps(config))
           PY
@@ -102,9 +106,13 @@ jobs:
           npm install --no-save --ignore-scripts --no-audit --no-fund --prefix "$RUNNER_TEMP/cli" vercel@65.14.0
           cli="$RUNNER_TEMP/cli/node_modules/.bin/vercel"
           cd database/shadow/harness
-          "$cli" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 > "$RUNNER_TEMP/daily-deploy.log" 2>&1 || { cat "$RUNNER_TEMP/daily-deploy.log"; exit 1; }
-          url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/daily-deploy.log" | tail -1)"
-          "$cli" curl /daily-refresh-report.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/daily-refresh-report.json"
+          if [ "$RUN_DAILY_FAILURE_TEST" = "true" ]; then
+            python "$GITHUB_WORKSPACE/database/shadow/run-daily-failure-recovery.py" "$cli"
+          else
+            "$cli" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 > "$RUNNER_TEMP/daily-deploy.log" 2>&1 || { cat "$RUNNER_TEMP/daily-deploy.log"; exit 1; }
+            url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/daily-deploy.log" | tail -1)"
+            "$cli" curl /daily-refresh-report.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/daily-refresh-report.json"
+          fi
           python - <<'PY'
           import json,os
           from pathlib import Path
@@ -123,6 +131,8 @@ jobs:
             daily-scopes.json
             ${{ runner.temp }}/daily-refresh-report.json
             ${{ runner.temp }}/daily-deploy.log
+            ${{ runner.temp }}/daily-failure-*.log
+            ${{ runner.temp }}/daily-failure-recovery-report.json
             database/shadow/daily-refresh-request.json
           if-no-files-found: ignore
           retention-days: 90
