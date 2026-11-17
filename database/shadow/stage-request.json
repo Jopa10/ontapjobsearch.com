@@ -1,7 +1,7 @@
 {
   "archiveDate": "2026-11-17",
   "mode": "selected_review_payloads",
-  "purpose": "Preview-only Tuesday 17 November ingestion and full-payload readback using the exact saved raw feed and matching completed Tuesday production run; capture original feed row positions and verify IDs, decisions, hashes, without production changes.",
+  "purpose": "Preview-only Tuesday 17 November full payload write and readback using the exact saved raw feed and matching completed production run; capture original feed row positions, compare IDs/decisions/hashes, and retain no EXCLUDE payloads long-term.",
   "productionOutputRunId": 44039319889,
   "productionAppCommitSha": "6e001e11000854fd211f984c7d4db9f8b40e51e1",
   "productionRunCommitSha": "6e001e11000854fd211f984c7d4db9f8b40e51e1",
@@ -19,6 +19,6 @@
       "sha256": "09bfd854487b24e2ded737285d26503799b03dba9eb296a9ac5a4802080dd369"
     }
   ],
-  "attempt": 5,
-  "captureFeedOrderOnly": true
+  "attempt": 6,
+  "captureFeedOrderOnly": false
 }
