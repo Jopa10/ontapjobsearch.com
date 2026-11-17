@@ -6,13 +6,14 @@ All reads/writes are on the GitHub runner checkout. No live publication.
 """
 import argparse,json,sys
 from pathlib import Path
-sys.path.insert(0,str(Path(__file__).resolve().parents[2]/"pipeline"))
-from scripts import publish_verified_pages_live_config as configured
-
 p=argparse.ArgumentParser()
 p.add_argument('--production-output',required=True,type=Path)
+p.add_argument('--selector-root',required=True,type=Path,help='Exact production repository checkout used for replay')
 p.add_argument('--report',required=True,type=Path)
 a=p.parse_args()
+root=a.selector_root.resolve()
+sys.path.insert(0,str(root/'pipeline'))
+from scripts import publish_verified_pages_live_config as configured
 production=a.production_output
 mappings=configured.core.MAPPINGS
 details=[]
@@ -20,7 +21,7 @@ reference_ids=set()
 produced_ids=set()
 extra=0
 for m in mappings:
-    src=Path(m.source)
+    src=root/Path(m.source)
     ref=production/src.name
     if not ref.is_file() or not src.is_file():
         raise SystemExit(f'Missing independently generated or reference scope: {src.name}')
