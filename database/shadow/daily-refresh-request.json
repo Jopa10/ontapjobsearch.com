@@ -1,6 +1,5 @@
 {
   "mode": "today",
-  "attempt": 1,
-  "cancelSupersededRuleRun": 44080130595,
+  "attempt": 2,
   "purpose": "Discover today's latest verified completed production publication, update isolated Neon Preview, and verify parity and idempotency. No selector rerun or production publish."
 }
