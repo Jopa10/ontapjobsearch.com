@@ -29,10 +29,12 @@ Workflow **44059470460** used Tuesday production artifacts as the immutable comp
 
 ## Remaining gates
 
-1. Run daily Neon refreshes on at least two more publication days to verify that the date follows the current feed and that retention/expiry behaves as intended; Tuesday alone does not prove rollover.
-2. Finish a separate rule-change replay against the exact Tuesday feed. Tuesday production used the merged rules and Neon holds those production decisions, but no isolated before/after ID comparison was completed. The PR #336 branch’s selector core is stale relative to PR #342, so do not use it as the revised-rule replay until aligned to the production source.
-3. Website build, final 316-file membership/order and external-source composition checks have now passed (see follow-on receipts below); do not repeat them. Final authenticated route checks are being collected.
-4. Test production safeguards and rollback before any cutover.
+1. Complete the full-feed before/after approved-rule replay, changed-decision Neon write/readback and changed-job payload verification. The prepared workflow is blocked only at saved-archive transport: `ONTAP_SAVED_FEED_URL` returned HTTP 400. Renew it for `jobg8/raw/2026-11-17.zip`, then increment `rule-replay-request.json`. Do not repeat the passed unchanged-selector replay.
+2. Complete actual subsequent publication-day refreshes, returning/absent-advert and duplicate/update checks. Follow-up checks are scheduled for 18, 19 and 20 November around 10:00 Europe/London. Today's stale-date rejection and fixture retention tests do not replace actual daily rollover evidence.
+3. Complete the master-advert inactivity/expiry and recoverable archive-before-purge path for the agreed 90 days after inactivity. The daily selected/review snapshot path is distinct; older master imports currently have expiry disabled. Three-day EXCLUDE fixture boundaries have passed. No production or historical Neon purge has been performed.
+4. Finish cutover-specific production fail-closed and deployment rollback preparation before seeking any production switch approval. Preview environment/storage/date/corrupt-snapshot safeguards and actual Preview database transaction rollback have passed; no production traffic rollback has been exercised.
+
+The full Neon-backed website build, final 316-file inventory/source/order parity, and six live HTTP/SEO checks are complete. Do not repeat them without a relevant code/data change.
 
 ## Guardrails and branch state
 
@@ -99,10 +101,26 @@ Workflow **44072468086**, evidence artifact **14323811386**, passed.
 - Scope occurrences across those compared website files: **7,927 JobG8**, **360 NHS Jobs**, **45 Teaching Vacancies**. These are repeated placements across files, not unique job counts.
 - Final snapshot in Neon: **6,990** publisher rows / **256** scopes; **6,680** JobG8 scope occurrences / **5,372** unique JobG8 IDs; **310** approved external-source scope occurrences. Compressed bytes **5,600,375**; uncompressed **24,286,392**; SHA-256 `d1a387b3b6b95242403cd71265ff1558818f13204273691f869fcb9b91e9af7e`.
 - Latest recorded database bytes after snapshot replacement **686,579,712**, below the unchanged 800 MiB ceiling with the 64 MiB reserve.
-- Final full website build workflow **44073576579** passed; evidence artifact **14323974863**; deployment **dpl_371jhLTVUajoQKeH8FiqgqxiNXG5** is READY. Next.js generated **6,036** pages. Authenticated live route checks are being collected separately.
+- Final full website build workflow **44073576579** passed; evidence artifact **14323974863**; deployment **dpl_371jhLTVUajoQKeH8FiqgqxiNXG5** is READY. Next.js generated **6,036** pages. Authenticated live route checks also passed in workflow **44076082639**, artifact **14325496308**.
 
 ### Continuation instructions
 
 The owner has authorised continuing these Preview tests without routine permission stops. Reuse passed evidence; only stop for a real missing credential, required policy decision, destructive/production action or guardrail. Keep PR #336 unmerged. The rule replay transport is blocked by HTTP 400 from the signed archive URL; no baseline/revised decision comparison has yet run. Renew only `ONTAP_SAVED_FEED_URL` for Tuesday's exact archive and bump `rule-replay-request.json` to continue the prepared test.
 
 Daily snapshot payload rows are currently keyed by date and advert, while the older master importer still has expiry disabled. This is a test snapshot path, not proof of a bounded recurring master-state store or of the 90-day archive/purge implementation. The admission guard must remain enabled; a future daily import that cannot fit must stop before writes and report the storage gate.
+
+### Final authenticated HTTP and SEO verification — passed
+
+Workflow **44076082639**, evidence artifact **14325496308**, passed against the final READY deployment.
+
+All six returned HTTP **200** with Preview `X-Robots-Tag: noindex`:
+- `/` — server HTML and canonical.
+- `/north-east/service-administrator-jobs` — server HTML and canonical.
+- `/newcastle/service-administrator-jobs` — server HTML and canonical.
+- `/nottingham/jobs` — registered broad-city route, server HTML and canonical.
+- `/jobs/23643_225841577` — canonical and server-rendered `JobPosting` JSON-LD.
+- `/sitemap.xml` — production canonical domain URLs.
+
+Apply links were not followed. The earlier Newcastle broad-city sample was not registered and correctly returned 404; the final test uses Nottingham from the approved broad-city register. The connector's share-link authentication failed, so the successful check used the existing authenticated Vercel CLI without changing protection settings.
+
+PR **#336** was rechecked: **open, draft, unmerged**. Current production deployment remains **dpl_EQ21vBWBmt2dDL8bMANXb1v6zkM8** on Tuesday publication source **dc31cdb5ca846cc29f712700a59f80d807cf4912**. All requested work that needs neither a new feed day nor renewed archive access is recorded above; the master expiry/cutover gates remain explicitly open.
