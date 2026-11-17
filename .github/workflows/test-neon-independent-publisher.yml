@@ -11,7 +11,7 @@ concurrency:
   group: ontap-neon-independent-publisher
   cancel-in-progress: false
 jobs:
-  replay-existing-python-selector:
+  replay-production-python-selector:
     if: github.ref == 'refs/heads/feat/neon-shadow-database'
     runs-on: ubuntu-latest
     timeout-minutes: 90
@@ -23,9 +23,7 @@ jobs:
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.12'
-      - name: Install original selector dependencies
-        run: python -m pip install --disable-pip-version-check pandas openpyxl==3.1.5 boto3
-      - name: Validate pinned completed reference and feed date
+      - name: Validate Tuesday source and production artifacts
         id: req
         run: |
           python - <<'PY'
@@ -34,42 +32,56 @@ jobs:
           x=json.loads(Path('database/shadow/independent-test-request.json').read_text())
           assert x['mode']=='independent_selector_replay'
           assert re.fullmatch(r'20\d\d-\d\d-\d\d',x['archiveDate'])
-          assert x['productionOutputRunId']>0
-          a=x['publishedOutputArtifacts']
-          assert len(a)==2 and {v['name'] for v in a}=={'service-admin-output','support-worker-output'}
+          assert isinstance(x['productionOutputRunId'],int) and x['productionOutputRunId']>0
+          sha=x['productionRunCommitSha']
+          assert re.fullmatch(r'[a-f0-9]{40}',sha)
+          artifacts=x['publishedOutputArtifacts']
+          assert len(artifacts)==2 and {a['name'] for a in artifacts}=={'service-admin-output','support-worker-output'}
+          assert all(isinstance(a['id'],int) and re.fullmatch(r'[a-f0-9]{64}',a['sha256']) for a in artifacts)
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
             f.write('day='+x['archiveDate']+'\n')
             f.write('run_id='+str(x['productionOutputRunId'])+'\n')
-            f.write('artifact_ids='+','.join(str(v['id']) for v in a)+'\n')
+            f.write('artifact_ids='+','.join(str(a['id']) for a in artifacts)+'\n')
+            f.write('source_sha='+sha+'\n')
           PY
-      - name: Read archived Monday raw feed using existing GitHub AWS role
-        uses: aws-actions/configure-aws-credentials@v6
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: Jopa10/ontapjobsearch.com
+          ref: ${{ steps.req.outputs.source_sha }}
+          path: production-source
+          persist-credentials: false
+      - name: Install production selector dependencies
+        run: python -m pip install --disable-pip-version-check pandas openpyxl==3.1.5
+      - name: Configure read-only JobG8 archive access
+        uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd
         with:
           role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
           aws-region: eu-west-2
-      - name: Restore exactly dated raw ZIP from Ontap S3 archive
+      - name: Restore exact saved feed from S3
+        env:
+          ARCHIVE_DATE: ${{ steps.req.outputs.day }}
         run: |
           set -euo pipefail
-          archive_key="jobg8/raw/${{ steps.req.outputs.day }}.zip"
-          aws s3 cp --only-show-errors \\
-            "s3://ontap-jobg8-archive-179402568934-eu-west-2-an/$archive_key" \\
+          aws s3 cp --only-show-errors \
+            "s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/$ARCHIVE_DATE.zip" \
             "$RUNNER_TEMP/replay-jobg8.zip"
           test -s "$RUNNER_TEMP/replay-jobg8.zip"
-          sha256sum "$RUNNER_TEMP/replay-jobg8.zip" > "$RUNNER_TEMP/replay-feed-sha256.txt"
-      - name: Convert dated feed with existing JobG8 XML adapter
+          sha256sum "$RUNNER_TEMP/replay-jobg8.zip" | tee "$RUNNER_TEMP/replay-feed-sha256.txt"
+      - name: Convert the saved feed using the production XML adapter
         run: |
-          mkdir -p pipeline/input
-          rm -f pipeline/input/*.xlsx pipeline/input/*.xls pipeline/input/*.csv
-          python pipeline/scripts/jobg8_xml_adapter.py --zip "$RUNNER_TEMP/replay-jobg8.zip" --output pipeline/input/jobg8.xlsx --expected-min 5000 --expected-max 60000
-      - name: Generate JobG8 scopes independently using existing Python selector
-        working-directory: pipeline
-        run: python -m scripts.service_admin_pipeline_north_yorkshire
-      - name: Independently enrich selected admin and support-worker JobG8 payloads
+          mkdir -p production-source/pipeline/input
+          rm -f production-source/pipeline/input/*.xlsx production-source/pipeline/input/*.xls production-source/pipeline/input/*.csv
+          python production-source/pipeline/scripts/jobg8_xml_adapter.py \
+            --zip "$RUNNER_TEMP/replay-jobg8.zip" \
+            --output production-source/pipeline/input/jobg8.xlsx \
+            --expected-min 5000 --expected-max 60000
+      - name: Run the exact production Python selectors
         run: |
-          python pipeline/scripts/enrich_job_metadata.py --category admin-service
-          (cd pipeline && python -m scripts.support_worker_pipeline_live_config)
-          python pipeline/scripts/enrich_job_metadata.py --category support-worker
-      - name: Load the Monday production files strictly as an independent reference
+          (cd production-source/pipeline && python -m scripts.service_admin_pipeline_north_yorkshire)
+          python production-source/pipeline/scripts/enrich_job_metadata.py --category admin-service
+          (cd production-source/pipeline && python -m scripts.support_worker_pipeline_live_config)
+          python production-source/pipeline/scripts/enrich_job_metadata.py --category support-worker
+      - name: Download matching Tuesday production output artifacts
         uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
         with:
           artifact-ids: ${{ steps.req.outputs.artifact_ids }}
@@ -77,19 +89,22 @@ jobs:
           github-token: ${{ github.token }}
           path: ${{ runner.temp }}/reference
           merge-multiple: true
-      - name: Compare every regional/family JobG8 ID and its exact placement order
+      - name: Compare every live scope and JobG8 ordering
         run: |
-          python database/shadow/verify-independent-selector-replay.py --production-output "$RUNNER_TEMP/reference" --report "$RUNNER_TEMP/independent-publisher-report.json"
-      - name: Save independent replay results and generated scopes
+          python database/shadow/verify-independent-selector-replay.py \
+            --selector-root production-source \
+            --production-output "$RUNNER_TEMP/reference" \
+            --report "$RUNNER_TEMP/independent-publisher-report.json"
+      - name: Preserve full-feed selector replay evidence
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: independent-neon-publisher-replay
+          name: independent-production-selector-replay-${{ steps.req.outputs.day }}
           path: |
             ${{ runner.temp }}/replay-feed-sha256.txt
             ${{ runner.temp }}/independent-publisher-report.json
-            pipeline/output-admin-service/*.json
-            pipeline/output-support-worker/*.json
+            production-source/pipeline/output-admin-service/*.json
+            production-source/pipeline/output-support-worker/*.json
             database/shadow/independent-test-request.json
           if-no-files-found: ignore
           retention-days: 30
