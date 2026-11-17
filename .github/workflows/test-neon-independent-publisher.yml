@@ -6,7 +6,6 @@ on:
 permissions:
   contents: read
   actions: read
-  id-token: write
 concurrency:
   group: ontap-neon-independent-publisher
   cancel-in-progress: false
@@ -52,19 +51,22 @@ jobs:
           persist-credentials: false
       - name: Install production selector dependencies
         run: python -m pip install --disable-pip-version-check pandas openpyxl==3.1.5
-      - name: Configure read-only JobG8 archive access
-        uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd
-        with:
-          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
-          aws-region: eu-west-2
-      - name: Restore exact saved feed from S3
+      - name: Fetch exact dated saved feed through refreshed URL
         env:
+          ONTAP_SAVED_FEED_URL: ${{ secrets.ONTAP_SAVED_FEED_URL }}
           ARCHIVE_DATE: ${{ steps.req.outputs.day }}
         run: |
           set -euo pipefail
-          aws s3 cp --only-show-errors \
-            "s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/$ARCHIVE_DATE.zip" \
-            "$RUNNER_TEMP/replay-jobg8.zip"
+          test -n "$ONTAP_SAVED_FEED_URL"
+          archive_url="$(printf '%s' "$ONTAP_SAVED_FEED_URL" | tr -d '[:space:]')"
+          case "$archive_url" in https://*) ;; *) echo "::error::Saved feed URL must use HTTPS"; exit 1 ;; esac
+          python - "$archive_url" "$ARCHIVE_DATE" <<'PY'
+          import sys
+          from urllib.parse import urlparse,unquote
+          if not unquote(urlparse(sys.argv[1]).path).endswith('/'+sys.argv[2]+'.zip'):
+              raise SystemExit('Saved feed URL does not identify the exact dated raw archive')
+          PY
+          curl --fail --silent --show-error --location --retry 3 --retry-delay 5 --connect-timeout 30 --max-time 180 "$archive_url" --output "$RUNNER_TEMP/replay-jobg8.zip"
           test -s "$RUNNER_TEMP/replay-jobg8.zip"
           sha256sum "$RUNNER_TEMP/replay-jobg8.zip" | tee "$RUNNER_TEMP/replay-feed-sha256.txt"
       - name: Convert the saved feed using the production XML adapter
