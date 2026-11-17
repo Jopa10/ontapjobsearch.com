@@ -1,0 +1,165 @@
+name: Private CPC daily matching test
+
+on:
+  push:
+    branches: [feat/cpc-job-alerts-clean]
+    paths:
+      - pipeline/scripts/send_cpc_job_alerts.py
+      - pipeline/tests/test_send_cpc_job_alerts.py
+      - .github/workflows/private-cpc-daily-test.yml
+      - lib/job-alert-signup.ts
+      - app/api/job-alerts/route.ts
+      - tests/job-alert-signup.test.ts
+
+concurrency:
+  group: ontap-private-cpc-daily-test
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    if: github.ref == 'refs/heads/feat/cpc-job-alerts-clean'
+    runs-on: ubuntu-latest
+    environment: ontap-brevo-private-test
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test matching and private daily delivery safeguards
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_send_cpc_job_alerts.py' -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install locked dependencies without lifecycle scripts
+        run: npm ci --ignore-scripts
+      - name: Test signup confirmations and existing Preview safeguards
+        run: npx tsx --test tests/job-alert-signup.test.ts tests/private-job-alert-test.test.ts tests/cpc-job-alerts.test.ts
+      - name: Ensure required Brevo alert attributes exist (no emails sent)
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          from pipeline.scripts.send_cpc_job_alerts import _brevo_request
+          key = os.environ["BREVO_API_KEY"]
+          attrs = _brevo_request("GET", "/contacts/attributes", key).get("attributes", [])
+          expected = {
+              "ALERT_CONFIRMATION_STATE": {"text"},
+              "ALERT_PREFERENCES": {"text"},
+              "ALERT_REGION": {"text"},
+              "ALERT_LAST_SENT_DATE": {"text", "date"},
+          }
+          for name, allowed_types in expected.items():
+              found = [attr for attr in attrs if attr.get("name") == name]
+              if found:
+                  attribute = found[0]
+                  if (attribute.get("category") != "normal"
+                          or attribute.get("type") not in allowed_types):
+                      raise SystemExit(
+                          f"{name} exists as {attribute.get('category')}/{attribute.get('type')}; "
+                          f"expected normal/{' or '.join(sorted(allowed_types))}"
+                      )
+                  print(f"{name}: existing normal/{attribute.get('type')}")
+              else:
+                  create_type = "date" if name == "ALERT_LAST_SENT_DATE" else "text"
+                  _brevo_request("POST", "/contacts/attributes/normal/" + name, key, {"type": create_type})
+                  print(f"{name}: created normal/{create_type}")
+          verified = _brevo_request("GET", "/contacts/attributes", key).get("attributes", [])
+          for name, allowed_types in expected.items():
+              match = next((attr for attr in verified if attr.get("name") == name), None)
+              if not match or match.get("category") != "normal" or match.get("type") not in allowed_types:
+                  raise SystemExit(f"Brevo attribute verification failed for {name}")
+          print("Required Brevo alert attributes confirmed; no email sent.")
+          PY
+      - name: Read current published job data (no scripts run from main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: published-inputs
+          persist-credentials: false
+      - name: Match only the private test contact without sending
+        env:
+          CPC_JOB_ALERTS_ENABLED: 'true'
+          BREVO_JOB_ALERTS_LIST_ID: '3'
+          BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
+        run: |
+          python - <<'PY'
+          import datetime
+          import os
+          import pathlib
+          import subprocess
+          import sys
+          required = ("BREVO_API_KEY", "JOB_ALERTS_UNSUBSCRIBE_SECRET")
+          if any(not os.environ.get(key) for key in required):
+              print("Private matching not run: add the existing Brevo API key and unsubscribe secret to the ontap-brevo-private-test GitHub environment. No email sent.")
+              sys.exit(1)
+          dates = sorted(pathlib.Path("published-inputs/pipeline/reports-daily").glob("newly-published-jobs-????-??-??.csv"))
+          if not dates:
+              sys.exit("No daily new-jobs report in the feature checkout; no email sent.")
+          date = dates[-1].stem.removeprefix("newly-published-jobs-")
+          print("Matching report date:", date, flush=True)
+          for recipient in ("jpbt801@gmail.com",):
+              subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py", "--private-daily-test", "--private-recipient", recipient, "--dry-run", "--date", date, "--app-dir", "published-inputs/app", "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
+          PY
+
+      - name: Private daily delivery runner (starts 23 October)
+        if: github.event.head_commit.message == 'Enable private daily test runner'
+        env:
+          CPC_JOB_ALERTS_ENABLED: 'true'
+          BREVO_JOB_ALERTS_LIST_ID: '3'
+          BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
+        run: |
+          python - <<'PY'
+          import datetime
+          import pathlib
+          import subprocess
+          import sys
+          date = datetime.datetime.now(datetime.timezone.utc).date()
+          if date < datetime.date(2026, 10, 23):
+              print("Private daily runner is prepared; no delivery before 23 October.")
+              sys.exit(0)
+          report = pathlib.Path(f"published-inputs/pipeline/reports-daily/newly-published-jobs-{date.isoformat()}.csv")
+          if not report.is_file():
+              sys.exit("Today's new-jobs report is not ready; no old report will be sent.")
+          for recipient in ("jpbt801@gmail.com",):
+              subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py",
+                              "--private-daily-test", "--private-recipient", recipient,
+                              "--date", date.isoformat(),
+                              "--app-dir", "published-inputs/app",
+                              "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
+          PY
+
+
+      - name: Send one explicitly requested private matched sample
+        if: github.event.head_commit.message == 'Send one private matched-alert test'
+        env:
+          CPC_JOB_ALERTS_ENABLED: 'true'
+          BREVO_JOB_ALERTS_LIST_ID: '3'
+          BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
+        run: |
+          python - <<'PY'
+          import datetime
+          import subprocess
+          import sys
+          date = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+          subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py",
+                          "--private-daily-test", "--private-matching-sample", "--date", date,
+                          "--app-dir", "published-inputs/app",
+                          "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
+          PY
+
+# Owner-requested matched sample: 24 October 2026.
+# Private daily delivery runs only on the explicit approved commit-message trigger.

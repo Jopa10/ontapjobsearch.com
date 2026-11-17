@@ -451,6 +451,18 @@ jobs:
               echo "::warning::Private CPC alert check could not be dispatched; published jobs remain live."
               echo "- Private CPC alert check could not be dispatched after deployment $deployment_run_id." >> "$GITHUB_STEP_SUMMARY"
             fi
+            cpc_alert_started_epoch="$(date -u +%s)"
+            if gh workflow run send-cpc-job-alerts.yml --ref main -f "report_date=$(date -u +%Y-%m-%d)"; then
+              if wait_for_dispatched_run "send-cpc-job-alerts.yml" "$cpc_alert_started_epoch"; then
+                echo "CPC job-alert delivery workflow completed after production deployment."
+              else
+                echo "::warning::CPC job-alert delivery workflow failed; published jobs remain live."
+                echo "- CPC job-alert delivery workflow failed after deployment $deployment_run_id." >> "$GITHUB_STEP_SUMMARY"
+              fi
+            else
+              echo "::warning::CPC job-alert delivery workflow could not be dispatched; published jobs remain live."
+              echo "- CPC job-alert delivery workflow could not be dispatched after deployment $deployment_run_id." >> "$GITHUB_STEP_SUMMARY"
+            fi
             report_started_epoch="$(date -u +%s)"
 
             if gh workflow run build-daily-region-overview.yml \
