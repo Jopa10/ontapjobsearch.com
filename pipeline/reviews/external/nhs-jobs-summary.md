@@ -3,14 +3,26 @@
 review_date: 2026-11-17
 
 - Open Administrative & Clerical rows reviewed: 2159
-- Auto/remembered selected: 360
+- Auto/remembered selected: 359
 - Selected HC Tier A: 197
-- Selected HC Tier B: 163
-- POSS awaiting decision: 1695
+- Selected HC Tier B: 162
+- POSS awaiting decision: 1696
 - Excluded: 0
 - HARD_PASS: 104
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M13 9WL | £25272.00 | Radiology Receptionist
+source_job_id: 5734166
+title: Radiology Receptionist
+employer: Manchester University NHS Foundation Trust
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3461
+factual_fingerprint: 42435dd3d0661412980e4051d4b4af6d1cdc2e58e1c87b7059c96989073740b6
+---
 
 ---
 action:
