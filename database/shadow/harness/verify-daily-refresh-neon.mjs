@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import pg from 'pg';
+import {readCurrentPublication} from './current-publication.mjs';
 import {gunzipSync} from 'node:zlib';
 import {requirePreview,hash,MAX,RESERVE} from './publisher-safeguards.mjs';
 requirePreview(process.env);
@@ -95,7 +96,10 @@ try{
   await c.query('COMMIT');
   const active=(await c.query('SELECT feed_date::text,record_count,state_sha256 FROM ontap_shadow.daily_refresh_receipts ORDER BY feed_date DESC LIMIT 1')).rows[0];
   assert.equal(active.feed_date,snapshot.feedDate);assert.equal(active.record_count,got.length);assert.equal(active.state_sha256,stateDigest);
-  const report={status:'passed',mode:'automatic_daily_refresh',feedDate:snapshot.feedDate,dateProvidedByRequest:false,productionDeploymentRunId:source.productionDeploymentRunId,productionOutputRunId:snapshot.productionWorkflowRunId,productionCommit:snapshot.productionAppCommit,selectedIds:selected.size,reviewOnlyIds:got.length-selected.size,reviewListIds:snapshot.reviewIds,neonRows:got.length,
+  const visible=await readCurrentPublication(c);
+  assert.equal(visible.feedDate,snapshot.feedDate);
+  assert.deepEqual(visible.records.map(r=>r.public_id).sort(),[...selected].sort());
+  const report={currentPublicationReaderVerified:true,status:'passed',mode:'automatic_daily_refresh',feedDate:snapshot.feedDate,dateProvidedByRequest:false,productionDeploymentRunId:source.productionDeploymentRunId,productionOutputRunId:snapshot.productionWorkflowRunId,productionCommit:snapshot.productionAppCommit,selectedIds:selected.size,reviewOnlyIds:got.length-selected.size,reviewListIds:snapshot.reviewIds,neonRows:got.length,
    exactIdsAndDecisionsMatch:true,fullPayloadAndHashesMatch:true,exactFeedPositionsMatch:true,scopeCount:scopes.length,exactScopeOrderingMatch:true,
    insertedRows:newRows.length,updatedPayloadRows:changedPayloads.length,metadataOnlyUpdatedRows:metadataOnly,unchangedRows:snapshot.records.length-delta.length,
    identicalReplayRowsToWrite:0,duplicates:0,activeFeedDate:active.feed_date,existingVerifiedPreviewScopesMatch:previousPreviewBuildMatches,excludedPayloadsWritten:0,
