@@ -28,7 +28,8 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p replay-input
-          curl --fail --silent --show-error --location --max-time 180 "$SAVED_URL" -o replay-input/feed.zip
+          archive_url="$(printf '%s' "$SAVED_URL" | tr -d '[:space:]')"
+          curl --fail --silent --show-error --location --max-time 180 "$archive_url" -o replay-input/feed.zip
           python - <<'PY'
           import hashlib
           from pathlib import Path
