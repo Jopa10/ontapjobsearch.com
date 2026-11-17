@@ -48,3 +48,7 @@ The test backend `github-actions-test` accepts only records explicitly marked wi
 ## Proven tests
 
 The exact cleanup implementation was run on marked records in the actual master tables (not the earlier pg_temp simulation). Ages 89/90/91, return protection, published/current SELECTED protection, missing/corrupt archive rollback, exact clicked-version recovery, preserved FKs and repeat idempotency all passed. Synthetic data changes were finally rolled back; the additive metadata schema remains available.
+
+## Prepared permanent-store connection files
+
+The S3 adapter implementation is `harness/s3-master-archive-store.mjs`; its four transport guard checks passed. `prepare_preview_archive_role.py` prepares a separate prefix-limited Preview role (plan-only unless `--apply` is given). `test-preview-permanent-archive.yml` is ready for live immutable write/read verification after owner-authenticated AWS access is configured. None of those live AWS changes has been executed. See `master-cleanup-checkpoint-2026-11-17.md` for receipts.
