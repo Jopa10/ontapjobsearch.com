@@ -1,6 +1,6 @@
 import subprocess,json,re,html,os
 from pathlib import Path
-cli=os.environ['VERCEL_CLI'];url='https://ontapjobsearch-a45l04pus-ontap1.vercel.app'
+cli=os.environ['VERCEL_CLI'];url=json.loads(Path('database/shadow/route-test-request.json').read_text())['previewUrl']
 out=Path(os.environ['RUNNER_TEMP'])/'routes';out.mkdir()
 def fetch(path,label):
     p=subprocess.run([cli,'curl',path,'--deployment',url,'--scope','ontap1','--','-i','--max-time','90'],text=True,capture_output=True)
