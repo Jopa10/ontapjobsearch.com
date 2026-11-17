@@ -39,3 +39,17 @@ Workflow **44059470460** used Tuesday production artifacts as the immutable comp
 - Preview only. No production publishing or production data changes.
 - PR #336 remains draft, open, and unmerged.
 - Keep the current daily publishing process and SEO requirements unchanged.
+
+
+## Full-feed Python selector replay — completed 17 November
+
+Successful Preview-only workflow: **44065809719**; evidence artifact **14321382604**.
+
+- Reused the exact saved feed `jobg8/raw/2026-11-17.zip`, SHA-256 `8638a31e4baca46665fed119fc2ddb227e48959a5da3b055189ae41d6ed55486`.
+- Ran the exact production selector revision used for Tuesday’s publication: `6e001e11000854fd211f984c7d4db9f8b40e51e1`. Input was the full feed in its original row order; the Tuesday production outputs were comparison references only.
+- Comparator result: **PASS** across **256 scopes**; **0 scopes with differences**; **5,372 unique JobG8 IDs** in both the replay and production reference; **0 missing** and **0 extra** IDs. Scope membership and JobG8 ordering matched exactly.
+- Production artifacts were downloaded and their SHA-256 digests verified against the pinned values above.
+- The feed emitted duplicate-metadata quarantine warnings for IDs **644940444** and **644940753**; these caused no difference against Tuesday’s published output.
+- No Neon write, production publish, rule edit, PR merge, or production change occurred in this test.
+
+This completes the full-feed selector replay/parity check. It does not replace the outstanding Neon-backed website build, multi-day daily-refresh/expiry checks, the separate counterfactual rule-change comparison, or production-safeguard/rollback checks.
