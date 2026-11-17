@@ -1,0 +1,50 @@
+name: Verify Preview permanent archive access
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/preview-archive-access-request.json]
+permissions:
+  contents: read
+  id-token: write
+jobs:
+  verify-archive-write-read:
+    if: github.ref == 'refs/heads/feat/neon-shadow-database'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::179402568934:role/OntapNeonPreviewArchiveRole
+          aws-region: eu-west-2
+      - name: Verify immutable S3 archive write and readback only in the approved Preview prefix
+        run: |
+          python - <<'PY'
+          import base64,gzip,hashlib,json,os,subprocess,uuid
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']);bucket='ontap-jobg8-archive-179402568934-eu-west-2-an'
+          raw=json.dumps({'fixtureOnly':True,'runId':os.environ['GITHUB_RUN_ID']},sort_keys=True).encode()
+          packed=gzip.compress(raw,mtime=0);digest=hashlib.sha256(packed).hexdigest()
+          key='ontap-shadow/advert-versions/'+str(uuid.uuid4())+'/'+hashlib.sha256(raw).hexdigest()+'/'+digest+'.json.gz'
+          src=root/'archive.json.gz';src.write_bytes(packed);dst=root/'readback.json.gz'
+          common=['--bucket',bucket,'--key',key,'--expected-bucket-owner','179402568934','--region','eu-west-2']
+          put=['aws','s3api','put-object',*common,'--body',str(src),'--if-none-match','*','--server-side-encryption','AES256','--checksum-sha256',base64.b64encode(hashlib.sha256(packed).digest()).decode()]
+          subprocess.run(put,check=True,capture_output=True)
+          duplicate=subprocess.run(put,capture_output=True,text=True)
+          assert duplicate.returncode!=0 and ('PreconditionFailed' in duplicate.stderr or '412' in duplicate.stderr),duplicate.stderr
+          subprocess.run(['aws','s3api','get-object',*common,str(dst)],check=True,capture_output=True)
+          assert hashlib.sha256(dst.read_bytes()).hexdigest()==digest
+          assert gzip.decompress(dst.read_bytes())==raw
+          report={'status':'passed','fixtureOnly':True,'bucket':bucket,'key':key,'sha256':digest,'immutableDuplicateRejected':True,'exactReadback':True,'productionChanged':False}
+          (root/'preview-archive-access-report.json').write_text(json.dumps(report,indent=2)+'\n')
+          print(json.dumps(report))
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: preview-permanent-archive-access
+          path: ${{ runner.temp }}/preview-archive-access-report.json
+          retention-days: 90
