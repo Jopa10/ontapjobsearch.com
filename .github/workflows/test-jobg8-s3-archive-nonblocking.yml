@@ -40,7 +40,7 @@ jobs:
           )
 
           for label, block in (("AWS credential setup", auth), ("S3 archive", archive)):
-              assert re.search(r"^\\s+continue-on-error: true$", block, re.MULTILINE), (
+              assert re.search(r"^\s+continue-on-error: true$", block, re.MULTILINE), (
                   f"{label} is not configured as non-blocking"
               )
           print("Both AWS-only steps are configured as non-blocking.")
