@@ -75,3 +75,7 @@ All four agreed Preview simulations and a separate durable artifact recovery rou
 ## Subsequent actual cleanup implementation
 
 The actual master-table cleanup routine has now been built and tested at 89/90/91 days against marked records in the real Preview tables, with archives uploaded/downloaded before apply mode. It is connected to the automatic daily refresh in dry-run mode. Read `master-cleanup-checkpoint-2026-11-17.md` for exact receipts and remaining permanent-S3/master-ingestion gates. Do not repeat the older temporary-table simulations. No production change or real-advert purge occurred.
+
+## Subsequent actual daily workflow failure/recovery test
+
+Workflow **44102521633**, artifact **14337116998**, passed two deliberate interruptions (after a partial write and immediately before commit), verified old-set visibility from an independent PostgreSQL connection, and retried normally. All **5,372 selected / 5,561 saved records / 256 scopes** and their exact publication digest remained unchanged; **0 duplicates or leftover probe/receipt rows**. Read `daily-failure-recovery-checkpoint-2026-11-17.md`. Fault mode is one-off; normal daily refreshes do not enable it. Wednesday's actual feed rollover remains the next useful test.
