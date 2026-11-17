@@ -1,6 +1,6 @@
 # Ontap automatic daily Neon refresh — 17 November 2026
 
-Status: **Automatic current-day discovery and Neon refresh passed. An identical workflow repeat is in progress to confirm no duplicate or unchanged-row writes.**
+Status: **Automatic current-day discovery, Neon refresh and identical real workflow repeat all passed. No manually pinned feed date or production run/commit IDs were supplied.**
 
 ## Owner's scope and decisions
 
@@ -49,7 +49,16 @@ Three resolver tests passed: unchanged logic discovers Tuesday then Wednesday us
 
 ## Identical real workflow repeat
 
-Workflow **44082575857** repeats the same `today` request with only the attempt incremented. Final result pending; append its job/artifact and exact write counts below.
+Workflow **44082575857**, job **134036640911**, evidence artifact **14328635017**, repeated the same `today` request with only the attempt incremented and **passed**.
+
+- Automatically rediscovered the same current publication/feed and verified the same 5,372 SELECTED + 189 REVIEW-only records.
+- **5,561 unchanged rows**; **0 inserts, 0 payload updates, 0 metadata updates, 0 duplicates**.
+- All IDs/decisions, full payload hashes, feed positions and all 256 scope orders matched again; existing verified website scope inputs matched.
+- Active receipt date remained **2026-11-17**.
+- Database bytes **681,279,488 → 681,279,488**, exactly no growth during the repeat.
+- No production or expiry change.
+
+Step 1 is complete. The real next-day rollover test still requires Wednesday's actual completed publication; the resolver's simulated Wednesday fixture is not a substitute.
 
 ## What remains
 
