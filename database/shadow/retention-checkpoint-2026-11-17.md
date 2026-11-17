@@ -69,3 +69,7 @@ The archive roundtrip used fixture evidence files in GitHub Actions, not a newly
 3. Cutover-specific production safeguards and deployment rollback preparation, followed by explicit production-switch approval.
 
 Keep PR #336 draft/unmerged, the normal publishing schedule and SEO behavior unchanged. Do not repeat the passed selector, 316-file website, daily same-day refresh/idempotency or four retention simulations without a relevant change.
+
+## Subsequent actual cleanup implementation
+
+The actual master-table cleanup routine has now been built and tested at 89/90/91 days against marked records in the real Preview tables, with archives uploaded/downloaded before apply mode. It is connected to the automatic daily refresh in dry-run mode. Read `master-cleanup-checkpoint-2026-11-17.md` for exact receipts and remaining permanent-S3/master-ingestion gates. Do not repeat the older temporary-table simulations. No production change or real-advert purge occurred.
