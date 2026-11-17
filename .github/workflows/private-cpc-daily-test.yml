@@ -41,6 +41,10 @@ jobs:
         run: npm ci --ignore-scripts
       - name: Test signup confirmations and existing Preview safeguards
         run: npx tsx --test tests/job-alert-signup.test.ts tests/private-job-alert-test.test.ts tests/cpc-job-alerts.test.ts
+      - name: Type-check the signup UI and alert routes
+        run: |
+          npx prisma generate
+          npx tsc --noEmit
       - name: Ensure required Brevo alert attributes exist (no emails sent)
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
