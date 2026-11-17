@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import pg from 'pg';
-import {requirePreview,hash} from './publisher-safeguards.mjs';
+import {requirePreview,requireBudget,hash} from './publisher-safeguards.mjs';
 import {readCurrentPublication} from './current-publication.mjs';
 import {payloadHash,dayOffset,makeMasterArchive,verifyMasterArchive,registerMasterVersion,archiveMasterVersion,cleanupMasterPayloads,recoverMasterClick} from './master-cleanup.mjs';
 requirePreview(process.env);
@@ -53,6 +53,7 @@ async function setup(current){
 }
 try{
  await c.connect();
+ requireBudget(Number((await c.query('SELECT pg_database_size(current_database())::text AS bytes')).rows[0].bytes),1024*1024);
  // Additive version/archive metadata only; no cleanup is performed by migration.
  await c.query(await fs.readFile('master-cleanup-migration.sql','utf8'));
  const current=await readCurrentPublication(c),before=digestCurrent(current);
