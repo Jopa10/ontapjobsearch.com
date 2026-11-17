@@ -100,31 +100,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225778251",
-    "title": "Sales Administrator",
-    "company": "Adecco - Agency - Temporary",
-    "location": "Stockport",
-    "region": "Greater Manchester - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.5",
-    "salary_max": "14",
-    "salary_text": "£13.5 - £14 per hour",
-    "posted_date": "",
-    "description": "Sales Administrator\n\nLocation: Stockport\nHours: Monday to Friday, 8:00 AM - 4:30 PM\nPay Rate: 13.89 per hour\nContract: Temporary Ongoing\n\nRole Overview\n\nWe are looking for a proactive and versatile Sales Administrator to join our team in Stockport. This is a varied role supporting branch operations across the office, customer service counter, and warehouse. You will play a key role in delivering excellent customer service, processing orders accurately, and ensuring smooth day-to-day operations.\n\nKey Responsibilities\nSales Administration Duties\n- Manage inbound calls and respond to customer enquiries in a professional and timely manner.\n- Prepare and process customer quotations.\n- Accurately process customer orders and update records.\n- Track and manage Proof of Delivery (POD) documentation.\n- Complete a range of administrative tasks using SAP.\n- Provide general administrative support to ensure efficient branch operations.\n\nCustomer Service Duties\n- Manage Click & Collect orders, ensuring they are prepared and ready on time.\n- Serve customers at the trade counter, providing excellent customer service and product support.\n- Build positive relationships with customers and assist with queries.\n- Maintain a professional, clean, and organised customer-facing area.\n\nWarehouse Support Duties\n- Assist with picking and packing customer orders accurately.\n- Support stock control activities and inventory checks.\n- Follow all health and safety procedures within the warehouse environment.\n- Assist with general warehouse activities as required.\n\nSkills & Requirements\n- Previous experience in administration, sales support, or customer service.\n- Strong communication and customer service skills.\n- Good organisational skills with the ability to manage multiple tasks.\n- High level of accuracy and attention to detail.\n- Confident using IT systems and data entry software.\n- Experience using SAP is advantageous but not essential.\n- Flexible approach and willingness to support different areas of the branch.\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?%2bsiGSA7VT9D8gG7DUVjsL2FxeIdjD6Q0d",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Adecco",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225801269",
     "title": "Payroll Administrator",
     "company": "Portfolio Payroll Limited - Agency - Permanent",
@@ -344,31 +319,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "The People Pod",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "2156448",
-    "title": "Accounts Assistant - R2R",
-    "company": "Robert Walters - Agency - Permanent",
-    "location": "Altrincham",
-    "region": "Greater Manchester - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Finance Assistant - R2 R\n\nSouth Manchester Hybrid Working\n\nAbout the Company\n\nAre you a part-qualified accountant looking for greater exposure, responsibility and career progression?\n\nWe're working with a global organisation with a strong and growing finance function, offering the opportunity to work in a collaborative, international environment. As the business continues to expand, they're investing in their people and creating opportunities for ambitious finance professionals to develop their skills and progress their careers.\n\nThe Role\n\nAs a R2 R Finance Assistant, you'll join the Record-to-Report (R2 R) team, supporting key finance processes across the wider business.\n\nKey responsibilities include:\n- Supporting month-end and year-end close\n- Processing transactions and completing reconciliations\n- Managing finance queries and internal stakeholders\n- Maintaining financial data and controls\n- Supporting audit and compliance\n- Identifying process improvement opportunities\n- Working with teams across different functions and countries\n\nWhy Join?\n\nA great opportunity for a part-qualified accountant looking to move beyond a purely transactional role.\n- Strong career progression and development\n- Study support\n- Global finance exposure\n- Broader R2 R and month-end experience\n- Hybrid working - 3 days office, 2 from home\n- Flexible start times\n- South Manchester location\n- Growing team with development opportunities\n\nInterested?\n\nIf you're part-qualified and ready for your next step, this is a great opportunity to broaden your experience and build a long-term career in a global finance function.\n\nApply now or contact Oliver Gibson at Robert Walters for more information.\n\nRobert Walters Operations Limited is an employment business and employment agency and welcomes applications from all candidates",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctxB2JIlTjZm%2bYd1Mv%2bTITZvp",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Accounts Assistant - R2 R Finance Assistant - R2 R South Manchester Hybrid Working About the Company Are you a part-qualified accountant looking for greater exposure, responsibility and career progression?",
-    "advertiser_name": "Robert Walters",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -1040,7 +990,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9311-26-0761",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9311-26-0761",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5729674",
@@ -1058,7 +1012,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0160",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0160",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5731374",
@@ -1076,7 +1034,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9362-26-0866",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9362-26-0866",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5725408",
@@ -1094,6 +1056,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0588-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0588-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

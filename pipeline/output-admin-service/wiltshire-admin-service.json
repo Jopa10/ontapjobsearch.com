@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "23643_225747832",
+    "title": "Inbound Banking Customer Service Advisors",
+    "company": "Office Angels - Agency - Temporary",
+    "location": "Swindon",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "14.56",
+    "salary_max": "14.56",
+    "salary_text": "£14.56 per hour",
+    "posted_date": "",
+    "description": "Job Title: Inbound Banking Customer Service Advisors\n\nLocation: Swindon\nContract Type: Temporary Ongoing\nSalary: 14.56 an hour\n\nWorking days: Monday to Sunday (Working 5 days only)\n\nWorking hours: 8am to 8pm (Shift patterns Vary between)\n\nDBS and credit check required\n\nAre you passionate about delivering exceptional customer service in the banking sector? Our client, a prominent organisation within the Government and Public Sector, is seeking enthusiastic Inbound Banking Customer Service Advisors to join their dynamic team. This is an exciting opportunity to contribute to a vital service while enhancing your skills in a supportive environment.\n\nKey Responsibilities:\n\nAs an Inbound Banking Customer Service Advisor, you will be the first point of contact for customers seeking assistance with their banking needs. Your primary responsibilities will include:\n- Responding to incoming calls and inquiries with professionalism and enthusiasm.\n- Providing accurate information regarding banking products and services.\n- Assisting customers with account-related questions and transactions.\n- Resolving customer issues effectively and efficiently, ensuring a positive experience.\n- Maintaining up-to-date knowledge of policies and procedures to offer informed solutions.\n\nWhat's in it for You?\n- Competitive Salary: Enjoy a competitive pay package that reflects your skills and experience.\n- Flexible Working Hours: Our client values work-life balance and offers flexible scheduling options.\n- Training and Development: Benefit from comprehensive training to help you excel in your role and advance your career.\n- Supportive Environment: Join a friendly team that promotes collaboration and teamwork.\n\nWho Should Apply?\n\nOur client is looking for individuals who possess the following attributes:\n- Excellent communication skills, both verbal and written.\n- A customer-centric approach with a genuine desire to help others.\n- Ability to handle inquiries with patience and professionalism.\n- Experience in a customer service role, preferably within the banking or financial sector.\n- Strong problem-solving skills and the ability to work effectively under pressure.\n\nOffice Angels is an employment agency. We are an equal opportunities employer who put expertise, energy, and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. We do this by showcasing their talents, skills and unique experience in an inclusive environment that helps them thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp5Zz0CajHHqcUGWROuT2cU%2fg",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225749696",
     "title": "Customer Service Advisor",
     "company": "Adecco - Agency - Contract",
@@ -950,31 +975,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108308431",
-    "title": "Service Advisor",
-    "company": "Octane Recruitment - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "40000",
-    "salary_max": "40000",
-    "salary_text": "£40000 per year",
-    "posted_date": "",
-    "description": "Service Advisor role for a busy dealership, working within a fast-paced aftersales department and acting as a key point of contact between customers and the workshop. Great salary, benefits, bonus opportunities and ongoing manufacturer-led training available.\nMust have the right to work in the UK and a full UK driving licence click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?7Qtr4nk8kAyPD3lspcvb5EWloHgt9Eqrw",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Octane Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2314996",
     "title": "Service Advisor",
     "company": "Purely Recruitment Solutions - Agency - Permanent",
@@ -1190,7 +1190,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-3102",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-3102",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5718475",
@@ -1208,7 +1212,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0750-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0750-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5711218",
@@ -1226,7 +1234,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-3072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-3072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5713251",
@@ -1244,6 +1256,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4714",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4714",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -565,7 +565,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5732870",
+    "source": "NHS Jobs",
+    "title": "GP Receptionist/Care Navigator",
+    "company": "Rossendale Valley Medical Practice",
+    "advertiser_name": "Rossendale Valley Medical Practice",
+    "location": "Haslingden, BB4 5SL",
+    "region": "Lancashire - East",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-17T12:37:51.362557311",
+    "closing_date": "2026-12-10",
+    "description": "This position is a permanent position. The hours of work will be Friday 8.00am to 6.30pm with the requirement to provide occasional cover for leave etc. We are looking for an experienced Receptionist/Care Navigator to join our small, friendly team. Your role will involve helping patients access the most appropriate service or healthcare professional in a courteous, efficient and effective way. You will provide general assistance to the Practice Team and project a positive and friendly image towards patients and other visitors, either in person or via the telephone. You will need to feel comfortable with technology and change/updates since the NHS is required to constantly meet the emerging needs of our population. Have a thorough knowledge of all Practice procedures. Work in accordance with written protocols. Process prescription requests via email, in person and over the telephone in accordance with Practice guidelines. Scan documentation into patients' medical records. Process appointment requests for current and future appointments from patients by telephone and in person. Deal with home visits requests and action in a timely manner. Registration of new patients, computer data entry into medical records. Be able to cover all reception positions as necessary. Be flexible in your approach and provide cover for colleagues when required. Process changes in patients' details. To provide a high standard of customer service on behalf of the Practice. To adopt an empathic approach to communication in all circumstances.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2336-26-0003",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2336-26-0003",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5726886",
@@ -583,7 +609,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1720-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1720-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5108547",
@@ -601,7 +631,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3891-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3891-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5690343",
@@ -619,6 +653,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
