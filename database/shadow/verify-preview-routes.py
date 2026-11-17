@@ -17,7 +17,7 @@ def fetch(path,label):
     return p.stdout
 results=[]
 home=fetch('/','homepage')
-for path,label in [('/','homepage'),('/north-east/service-administrator-jobs','region'),('/newcastle/service-administrator-jobs','city'),('/newcastle/jobs','broad-city')]:
+for path,label in [('/','homepage'),('/north-east/service-administrator-jobs','region'),('/newcastle/service-administrator-jobs','city'),('/nottingham/jobs','broad-city')]:
     text=home if path=='/' else fetch(path,label)
     assert '<h1' in text,(path,'no server HTML h1')
     assert 'canonical' in text,(path,'no canonical')
