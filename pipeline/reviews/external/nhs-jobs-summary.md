@@ -2,15 +2,27 @@
 
 review_date: 2026-11-17
 
-- Open Administrative & Clerical rows reviewed: 1988
-- Auto/remembered selected: 341
+- Open Administrative & Clerical rows reviewed: 1987
+- Auto/remembered selected: 340
 - Selected HC Tier A: 181
-- Selected HC Tier B: 160
+- Selected HC Tier B: 159
 - POSS awaiting decision: 1548
 - Excluded: 0
 - HARD_PASS: 99
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Derbyshire | Derby, DE23 8RJ | £35000.00 to £40000.00 | Quality and Patient Engagement Manager
+source_job_id: 5731634
+title: Quality and Patient Engagement Manager
+employer: Lister House Surgery
+region: Derbyshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5287-26-0043
+factual_fingerprint: 248ed4446f8c85bb002624ca702e13a58895ed63dc9b8cd97d86ed94f5c05837
+---
 
 ---
 action:
@@ -5409,7 +5421,7 @@ employer: Betsi Cadwaladr University Health Board
 region: North Wales - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2699
-factual_fingerprint: 4d7af5884514815d4eb1515334f36f92afa983b033e71aa0863375ebef585a86
+factual_fingerprint: 24b42a712669785ab1c920e9c285741e93c40e1dd1389be1588f33859ebab31e
 ---
 
 ---
@@ -6370,18 +6382,6 @@ region: Oxfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-2160
 factual_fingerprint: 51ed8e6a4974cdab49b2a9bf1d82dd993099c6107f16816cd2865d4cadb3f952
----
-
----
-action:
-POSS | NHS Jobs | Derbyshire | Derby, DE23 8RJ | Negotiable | Quality and Patient Engagement Manager
-source_job_id: 5719886
-title: Quality and Patient Engagement Manager
-employer: Lister House Surgery
-region: Derbyshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5287-26-0046
-factual_fingerprint: 158d91ec1c59c65018f6cf2c11a242925cde173996053d560af299fe32dca90d
 ---
 
 ---
