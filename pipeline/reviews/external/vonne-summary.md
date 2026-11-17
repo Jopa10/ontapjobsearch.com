@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-16
-review_fingerprint: e8c1c95d3936577b05337d57f5981fb54b689a060d8f589b1026ba808aba72e6
+review_date: 2026-11-17
+review_fingerprint: 4495b641aa8757ac93822e976612ff0c3d8736604f14718c809ef73483a4c707
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-16T16:17:19+00:00
+Run generated: 2026-11-17T16:22:51+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1032
+JobG8 comparison rows: 937
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -23,7 +23,7 @@ Approved NEJobs comparison rows: 0
 - Obvious hard passes not detail-fetched: 11
 - Tees Valley explicitly excluded: 3
 - Outside or unmapped geography excluded: 0
-- Generic/derived geography rows requiring review: 0
+- Generic/derived geography rows requiring review: 1
 - Retained target candidates: 12
 
 ## Outcomes
@@ -54,6 +54,19 @@ tracking_key: vonne-173726
 vacancy_fingerprint: 39d71f5e1d6c45ac60285e0fab04d3f72d8df2bb061d0e4b346745830a9e31d8
 source_job_id: 173726
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173726
+---
+---
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | Hybrid | £ Pro Rata | Independent Sexual Violence Advisor (ISVA)
+employer: Rape and Sexual Abuse Counselling Centre (Darlington and County Durham)
+closing_date: 07 December 2026
+geography: DERIVED_REVIEW — employer-derived geography: area found in address: darlington
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173736
+vacancy_fingerprint: 7f6b1cc06aa7b624ef8729732e782384d57ac6bb9660b64803b1291ce9c96c91
+source_job_id: 173736
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173736
 ---
 ---
 action:
@@ -106,19 +119,6 @@ tracking_key: vonne-173707
 vacancy_fingerprint: fd3d605595b9359680e360ca098216b05d4d00136b171a311893c9d9ea36b9f5
 source_job_id: 173707
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173707
----
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £33,323 Per Annum | Good Work Grants Lead Officer
-employer: Society Matters CIC
-closing_date: 14 December 2026
-geography: CONFIRMED — location: exact area
-reason: transferable title with specialist or borderline wording: lead
-source: VONNE
-tracking_key: vonne-173702
-vacancy_fingerprint: c8ff0702d0cadb59987d047e95cd6083b7009cc8ade06b11fc4012a595b4a9ab
-source_job_id: 173702
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173702
 ---
 ## EXCLUDED BY REVIEW
 
