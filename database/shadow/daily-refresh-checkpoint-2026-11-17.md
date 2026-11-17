@@ -71,3 +71,7 @@ PR #336 stays draft/unmerged; existing production publishing and SEO requirement
 ## Subsequent expiry/retention checkpoint
 
 All four agreed Preview simulations and a separate durable artifact recovery roundtrip passed. Read `retention-checkpoint-2026-11-17.md` for exact scope and receipts. The current daily process saves **zero EXCLUDE payloads**; the old three-day EXCLUDE helper is a legacy test path, not current policy. The shared current-publication reader now uses the latest completed daily receipt. Real 90-day master-table cleanup remains disabled; these tests changed only temporary fixture records and preserved the actual current publication.
+
+## Subsequent actual cleanup implementation
+
+The actual master-table cleanup routine has now been built and tested at 89/90/91 days against marked records in the real Preview tables, with archives uploaded/downloaded before apply mode. It is connected to the automatic daily refresh in dry-run mode. Read `master-cleanup-checkpoint-2026-11-17.md` for exact receipts and remaining permanent-S3/master-ingestion gates. Do not repeat the older temporary-table simulations. No production change or real-advert purge occurred.
