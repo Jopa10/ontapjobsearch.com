@@ -1,0 +1,95 @@
+name: Neon four expiry and retention tests (Preview only)
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/retention-test-request.json]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ontap-neon-retention-tests
+  cancel-in-progress: false
+jobs:
+  verify-neon-temporary-lifecycle:
+    if: github.ref == 'refs/heads/feat/neon-shadow-database'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - name: Configure temporary-table-only Neon expiry verifier
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('database/shadow/harness/vercel.json')
+          config=json.loads(p.read_text());config['buildCommand']='node verify-retention-neon.mjs'
+          p.write_text(json.dumps(config))
+          PY
+      - name: Run all four retention simulations in Neon Preview
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+        run: |
+          set -euo pipefail
+          npm install --no-save --ignore-scripts --no-audit --no-fund --prefix "$RUNNER_TEMP/cli" vercel@65.14.0
+          cli="$RUNNER_TEMP/cli/node_modules/.bin/vercel"
+          cd database/shadow/harness
+          "$cli" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 > "$RUNNER_TEMP/retention-deploy.log" 2>&1 || { cat "$RUNNER_TEMP/retention-deploy.log"; exit 1; }
+          url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/retention-deploy.log" | tail -1)"
+          mkdir -p "$RUNNER_TEMP/retention-evidence"
+          "$cli" curl /retention-test-report.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/retention-evidence/retention-test-report.json"
+          "$cli" curl /retention-archive-manifest.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/retention-evidence/retention-archive-manifest.json"
+          export VERCEL_CLI="$cli" RETENTION_PREVIEW_URL="$url"
+          python - <<'PY'
+          import hashlib,json,os,subprocess
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP'])/'retention-evidence'
+          report=json.loads((root/'retention-test-report.json').read_text())
+          assert report['status']=='passed' and report['testCount']==4
+          manifest=json.loads((root/'retention-archive-manifest.json').read_text())
+          for a in manifest['archives']:
+              response=subprocess.run([os.environ['VERCEL_CLI'],'curl','/retention-archives/'+a['key'],'--deployment',os.environ['RETENTION_PREVIEW_URL'],'--scope','ontap1'],capture_output=True,check=True)
+              assert hashlib.sha256(response.stdout).hexdigest()==a['compressedSha256']
+              path=root/'retention-archives'/a['key'];path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(response.stdout)
+          print('ONTAP_FOUR_RETENTION_READBACK',json.dumps(report))
+          PY
+      - name: Preserve recoverable fixture adverts and test evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: neon-four-retention-evidence
+          path: |
+            ${{ runner.temp }}/retention-evidence/
+            ${{ runner.temp }}/retention-deploy.log
+          if-no-files-found: ignore
+          retention-days: 90
+  verify-uploaded-archive-recovery:
+    needs: verify-neon-temporary-lifecycle
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: neon-four-retention-evidence
+          path: downloaded-evidence
+      - name: Restore advert versions from a fresh artifact download
+        run: |
+          mkdir retention-evidence
+          cp -a downloaded-evidence/retention-evidence/. retention-evidence/
+          python database/shadow/verify-retention-archive-roundtrip.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: neon-retention-archive-roundtrip-receipt
+          path: retention-evidence/archive-roundtrip-report.json
+          retention-days: 90
