@@ -55,7 +55,7 @@ jobs:
       - name: Checkout Tuesday production website and publishing code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
-          ref: c3073794abc4b3246a4504434b2366fee2bfaba1
+          ref: dc31cdb5ca846cc29f712700a59f80d807cf4912
           path: production-site
           persist-credentials: false
       - name: Install existing publisher Python dependency
@@ -79,7 +79,11 @@ jobs:
             if scope in outputs:raise SystemExit('Duplicate publisher scope: '+scope)
             ids=[str(r['job_id']) for r in data]
             if len(set(ids))!=len(ids):raise SystemExit('Duplicate publication IDs in '+scope)
-            outputs[scope]=data;used.add(m.source.name)
+            published_path=Path('production-site')/m.source
+            approved=json.loads(published_path.read_text(encoding='utf-8-sig'))
+            def jobg8_ids(rows):return [str(r['job_id']) for r in rows if r.get('source')=='JobG8']
+            assert jobg8_ids(approved)==jobg8_ids(data),'Published JobG8 pipeline differs from selector artifact: '+m.source.name
+            outputs[scope]=approved;used.add(m.source.name)
           remaining={p.name for p in root.glob('*.json')}-used
           extra={}
           for filename in sorted(remaining):
