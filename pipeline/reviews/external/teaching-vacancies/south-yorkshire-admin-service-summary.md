@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-16
+review_date: 2026-11-17
 review_fingerprint: d525e6307c427877305bdd5b0cc12de65a5947e01e9fd6a86c193cfbb67ec612
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
+- Records: 28
 - Selected: 4
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 20
 
 ## SELECTED
 
@@ -153,19 +153,22 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-as
 - [Administration and Clerical Level 1](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical-level-1-shortbrook-primary-school) — No usable numeric salary.
 - [Administration Assistant - 10 hrs per week Temp until August 2027](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-10-hrs-per-week-temp-until-august-2027) — No usable numeric salary.
 - [Apprentice Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administration-assistant-maltby-lilly-hall-academy) — No usable numeric salary.
+- [Assistant Financial Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-financial-accountant-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-brinsworth-academy-rotherham-south-yorkshire) — Insufficient admin/service evidence.
-- [Curriculum Manager](https://teaching-vacancies.service.gov.uk/jobs/curriculum-manager-the-sheffield-college) — Excluded senior/management title.
 - [Director of Health & Safety](https://teaching-vacancies.service.gov.uk/jobs/director-of-health-safety) — Excluded senior/management title.
 - [Examinations Invigilator](https://teaching-vacancies.service.gov.uk/jobs/examinations-invigilator-maltby-academy) — No usable numeric salary.
 - [Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/executive-support-officer-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Head of Business Development (VRN000003)](https://teaching-vacancies.service.gov.uk/jobs/head-of-business-development-vrn000003) — Excluded senior/management title.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-1e4ec526-7e90-471c-ac7b-53d95ee8bda4) — Insufficient admin/service evidence.
 - [Personal Care Assistant (PCA)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-pca-newman-school) — Insufficient admin/service evidence.
 - [Pupil Premium Extracurricular Visits Coordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extracurricular-visits-coordinator-forge-valley-school-sixth-form-sheffield-south-yorkshire) — No usable numeric salary.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust-sheffield-not-recorded) — Excluded senior/management title.
 - [Senior Technician Mechanical Engineering](https://teaching-vacancies.service.gov.uk/jobs/senior-technician-mechanical-engineering) — Out-of-scope occupation: technician.
+- [Sports Centre and Lettings Supervisor](https://teaching-vacancies.service.gov.uk/jobs/sports-centre-and-lettings-supervisor-forge-valley-school-sixth-form) — No usable numeric salary.
 - [Strategic Attendance and Family Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/strategic-attendance-and-family-engagement-lead) — Excluded senior/management title.
 - [Transactional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/transactional-finance-manager-minerva-learning-trust) — Excluded senior/management title.
+- [Trust Insights and Governance Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-insights-and-governance-lead) — Excluded senior/management title.
 
 ## Safety boundary
 

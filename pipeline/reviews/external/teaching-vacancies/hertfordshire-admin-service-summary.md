@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-16
-review_fingerprint: 4792dd769f974e22f42f61ae5afeb30da255f406cad03a1600d17fab4e89f7eb
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 8a99377440146f911fd8ca12f809817fc107e12e88cb59288791110025a0d7e5
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 9
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 9
 
 ## SELECTED
 
@@ -113,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 
 ---
 action: 
-SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP3 8JB | £12,761.00 Annually (Actual) H4 + fringe pro rata | Office Administrator
-employer: Longdean School
-closing_date: 2026-11-17T09:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1e3d93d0ba67e16cac8b57749309e1b24c4a4c7d5e9acfee8c04c6f9c238ff3e
-source: Teaching Vacancies
-source_job_id: office-administrator-31d5e12d-a2a3-4b2c-abdc-52304ac5f2db
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-31d5e12d-a2a3-4b2c-abdc-52304ac5f2db
----
-
----
-action: 
 SELECTED | Hertfordshire | Knebworth, East of England, SG3 6AA | £28,153.00 - £30,515.00 Annually (FTE) | Office Administrator (Maternity Cover)
 employer: Knebworth Primary and Nursery School
 closing_date: 2026-11-23T12:00:00+00:00
@@ -167,11 +152,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/special-educational-n
 ## HARD_PASS
 
 - [Administrative and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-and-data-assistant) — Insufficient admin/service evidence.
+- [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover-ridgeway-academy) — Insufficient admin/service evidence.
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-ashlyns-school) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-st-george-s-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lodge-farm-primary-school) — Excluded senior/management title.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-st-mary-s-church-of-england-high-school-va) — Excluded senior/management title.
 - [Sixth Form Student Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-student-liaison-officer) — Insufficient admin/service evidence.
+- [Trips and Activities Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trips-and-activities-coordinator) — Insufficient admin/service evidence.
 - [Trust Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-manager-st-francis-of-assisi-catholic-academy-trust) — Excluded senior/management title.
 
 ## Safety boundary

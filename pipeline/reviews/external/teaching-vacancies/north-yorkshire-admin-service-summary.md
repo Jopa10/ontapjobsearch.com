@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-16
-review_fingerprint: 0e22d8fe8b23feba3ae14ca0c8dd5c8f39a980c696803bdf39d249951210c151
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 57f6c9d5bf9255e62cb4c70ce407f9d9ff523636bf91cbd77852ef0b59428e09
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 1
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
@@ -38,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-hob
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Yorkshire - North | York, YO10 5ZA | Grade 5 Levels 1 - 4 (£27,631 - £28,857 FTE) | Finance Assistant
+employer: Pathfinder Multi Academy Trust
+closing_date: 2026-11-30T08:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 676112bb7f78ee2b8e2c791f0ed90af64fd2d491b24429b0dc947e93772addc0
+source: Teaching Vacancies
+source_job_id: finance-assistant-pathfinder-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pathfinder-multi-academy-trust
+---
 
 ## EXCLUDED BY REVIEW
 

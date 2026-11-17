@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-11-16
-review_fingerprint: 9d7a0af980d2eb1ce6c9b5e0be78d3bb1a50c6756fab5b75d05f9b13a5b96df4
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 5f0fc5c4cd591eed6c538f2cdc6ecf064cb4680bc8bb03e2c01faffe9805a58b
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
+- Records: 10
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 8
@@ -49,21 +49,6 @@ factual_fingerprint: 6c208e7206e5e8a4c267118f3c8a0e50eb436f97c1d5afe9fb6f5788b1b
 source: Teaching Vacancies
 source_job_id: hr-administrator-recruitment-coordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-recruitment-coordinator
----
-
----
-action: 
-SELECTED | Dorset | Bournemouth, South West, BH8 9PW | Full time, Term Time Only plus two weeks contract (41 weeks per annum) . Actual - £27,339 (The Full Time Equivalent is £31,071). | PA to Leadership Team
-employer: The Bishop of Winchester Academy
-closing_date: 2026-11-18T23:59:00+00:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5e611aa709cf8822ae4a5a5fa3dd40396608850a24bc1b5f8cad9d9dafae66b7
-source: Teaching Vacancies
-source_job_id: pa-to-leadership-team-43554862-09f3-4c18-971e-b22b13d85dce
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team-43554862-09f3-4c18-971e-b22b13d85dce
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-16
+review_date: 2026-11-17
 review_fingerprint: be8b2a9d68d12c9f9e1b858e353dd72c44cf699ac45f57b4c09f06ad4d8e02f3
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 15
 - Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
 
@@ -83,6 +83,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 - [Operations Manager - Harwich](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-harwich) — Excluded senior/management title.
 - [Recruitment Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-manager-south-east-essex-academy-trust) — Excluded senior/management title.
 - [Senior Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/senior-cover-supervisor-st-john-payne-catholic-school-chelmsford) — Excluded senior/management title.
+- [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-plume-school) — Excluded senior/management title.
 - [Senior PA to Leadership Team and Inclusion Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-pa-to-leadership-team-and-inclusion-coordinator) — Excluded senior/management title.
 - [Trust Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-manager-south-west-essex-community-education-trust-limited) — Excluded senior/management title.
 

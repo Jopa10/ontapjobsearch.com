@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-16
-review_fingerprint: c78e2d7fe721b4777472ee78c676cbe66748685111d3d779c207375ffc6f7536
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: a08b5e148a5665c52417af61b6c7cff012ae1ec7488721cb1d4305ed3d39414e
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 13
 - Selected: 5
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -143,6 +143,21 @@ source_job_id: kmat-data-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
 ---
 
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 2AJ | £22,932.00 - £23,296.00 Annually (Actual) Romero Grade 3 | School Receptionist
+employer: Cardinal Wiseman Catholic School
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6091705f8b1fdede13156d9fae31b09bb3edf09223b8873a562836b7d0883f04
+source: Teaching Vacancies
+source_job_id: school-receptionist-73981d4d-77b2-4607-b7b4-a3402b88378e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-73981d4d-77b2-4607-b7b4-a3402b88378e
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -151,6 +166,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
 
 - [Cover Co-ordinator / Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-administrator-stoke-park-school) — No usable numeric salary.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-harris-church-of-england-academy) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-aylesford-school-warwick) — Excluded senior/management title.
 - [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant-finham-park-school-coventry-west-midlands) — Insufficient admin/service evidence.
 
 ## Safety boundary

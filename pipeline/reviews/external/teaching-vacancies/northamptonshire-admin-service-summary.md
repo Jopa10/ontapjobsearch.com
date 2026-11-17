@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-16
+review_date: 2026-11-17
 review_fingerprint: 05b61621c64d9654c8abaf40584be53fb858af506525267733909819a9028a66
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -122,8 +122,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sywell-
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1dc6e624-98dc-4337-8b41-8fb9e586f829) — Insufficient admin/service evidence.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-0ddbb56c-5635-4a81-8fed-8aa32c472a35) — Insufficient admin/service evidence.
 - [Data Management Coordinator](https://teaching-vacancies.service.gov.uk/jobs/data-management-coordinator-kingsthorpe-college) — Insufficient admin/service evidence.
+- [Finance and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-administration-officer-gloucester-nursery-school) — Insufficient admin/service evidence.
 - [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.
-- [Office Manager / PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-the-headteacher-moulton-school-and-science-college) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-billing-brook-special-school) — Excluded senior/management title.
 
 ## Safety boundary
 

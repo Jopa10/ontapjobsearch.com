@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-16
-review_fingerprint: 2dd6883b0b7fe7dd90a322f05e5f870d87d75f7e319a3b44ad2b50224d85c3fb
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 5b97aca0c71d3f6e4e1b1f5aaaa9120f92dd9204fcfbb61a8ceffd73094ee899
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 8
+- Selected: 7
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -64,21 +64,6 @@ factual_fingerprint: 8daaaa61a719667c10007ba472efa25f8b2557ffd41e16094d3cdc362d2
 source: Teaching Vacancies
 source_job_id: receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
-employer: Lift Sir Herbert Leon
-closing_date: 2026-11-17T13:08:02+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 881a26fa6ab64cba8a0f0aa26f4b8c19a4ad0a8dd29f6f1b9b9c13aba98ab33b
-source: Teaching Vacancies
-source_job_id: receptionist-lift-sir-herbert-leon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
 ---
 
 ---
@@ -195,6 +180,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-trip-enrichmen
 ## HARD_PASS
 
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-wycombe-high-school) — Excluded senior/management title.
+- [Examination Manager](https://teaching-vacancies.service.gov.uk/jobs/examination-manager-holmer-green-senior-school) — Excluded senior/management title.
 - [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-kents-hill-park-all-through-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-b186e459-f769-41b9-9390-e923eedcb0b6) — Excluded senior/management title.
 - [School Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/school-operations-co-ordinator) — Insufficient admin/service evidence.

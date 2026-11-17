@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-16
-review_fingerprint: 6d858095cf182b3d98c753cc83d07fecb3684f3462edf4bbb4530576de0d8dcc
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 359c0179a74fe64ad911486f94b974fe1d88380b912d774697c7fcc603dc3743
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 3
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
 
@@ -68,7 +68,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Greater Manchester - Manchester & Salford | Manchester, M22 4FL | £34,237 - £37,563 | Finance Officer
+employer: Connect Alliance Trust
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d0d1237ee8f0e479afd344cd6015231956f3b91b4b69d3931dda88b89c9507a3
+source: Teaching Vacancies
+source_job_id: finance-officer-connect-alliance-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-connect-alliance-trust
+---
 
 ## EXCLUDED BY REVIEW
 

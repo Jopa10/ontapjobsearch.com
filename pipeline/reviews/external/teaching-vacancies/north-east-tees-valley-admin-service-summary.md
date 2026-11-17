@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-11-16
+review_date: 2026-11-17
 review_fingerprint: b568237579fae36afebf804df6de292251d450384a5238fcea870d541cc7c57c
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -47,7 +47,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-
 ## HARD_PASS
 
 - [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-river-tees-hospital-school) — Excluded senior/management title.
-- [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-372e944c-6347-4f8d-9b31-a9346893bcd3) — Excluded senior/management title.
+- [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-0059e65f-970d-422a-9b7d-94a093a318d4) — Excluded senior/management title.
 
 ## Safety boundary
 

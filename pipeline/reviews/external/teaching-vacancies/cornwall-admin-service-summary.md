@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-11-16
-review_fingerprint: 5c59b07d46779091047ea66116e840ec44820dd1e99b6d28475b581129033182
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 38bc47e00d02e292ae6e854402c4885c2b1150850d7bef4f21eea583f34b1f1a
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
-- POSS awaiting decision: 1
+- Records: 5
+- Selected: 2
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -36,22 +36,24 @@ source_job_id: academy-administrator-shortlanesend-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-shortlanesend-school
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Cornwall | St Austell, PL26 7RN | £47,347.00 - £55,796.00 Annually (FTE) Would consider part time 4 days per week. | Finance Business Partner
+SELECTED | Cornwall | St Austell, PL26 7RN | £15,433.44 Annually (Actual) National Minimum Wage for Apprentices | Apprentice Business Administrator
 employer: Cornwall Education Learning Trust
-closing_date: 2026-11-16T23:59:00+00:00
-reason: Part-time finance requires actual earnings/hours and qualification checks
+closing_date: 2026-11-23T23:59:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 34eb6b8fc9be31e512f2a7aa5001ab37888589859b0be0de4eab053efbfd43b5
+factual_fingerprint: 2fe5551d317d133f4010aaf786009a9cc54f6627ef6d1314c6662d8315489799
 source: Teaching Vacancies
-source_job_id: finance-business-partner-cornwall-education-learning-trust-st-austell-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-cornwall-education-learning-trust-st-austell-not-recorded
+source_job_id: apprentice-business-administrator-cornwall-education-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-administrator-cornwall-education-learning-trust
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -59,7 +61,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-business-part
 
 ## HARD_PASS
 
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cornwall-education-learning-trust) — Excluded senior/management title.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — No usable numeric salary.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-the-roseland-multi-academy-trust) — Insufficient admin/service evidence.
 - [Reception Administrator](https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-newlyn-school) — No usable numeric salary.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-16
-review_fingerprint: 1a1443d7aeee142344d8accc9fa351b5398f298f16fc9e03a9b0497e8572eabc
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 6289548ba809124731f6f08b4d114a7a468ffe20ad3025f7ee2b21f909f7c75a
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
-- POSS awaiting decision: 0
+- Records: 12
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 1600e5e652543a2f543d15c8381bdf8170f2bfe63491e2c289c90b066be
 source: Teaching Vacancies
 source_job_id: admin-assistant-for-send
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-for-send
----
-
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS13 9AJ | £19,002.86 - £19,611.91 Annually (Actual) SCP 5 - 7 | Attendance Administrator
-employer: E-ACT Bristol Academy South
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6e54a76f27c3bdaf4801d8fa08106f516b800c99594d293c79f980ee558ab236
-source: Teaching Vacancies
-source_job_id: attendance-administrator-e-act-bristol-academy-south
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-e-act-bristol-academy-south
 ---
 
 ---
@@ -113,7 +98,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ma
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Bristol & Bath | Bristol, South West, BS13 9AJ | £19,002.86 - £19,611.91 Annually (Actual) SCP 5 - 7 | Attendance Administrator
+employer: E-ACT Bristol Academy South
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6e54a76f27c3bdaf4801d8fa08106f516b800c99594d293c79f980ee558ab236
+source: Teaching Vacancies
+source_job_id: attendance-administrator-e-act-bristol-academy-south
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-e-act-bristol-academy-south
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -121,7 +119,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ma
 
 ## HARD_PASS
 
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bedminster-down-school) — No usable numeric salary.
 - [Educational Visits and Enrichment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-and-enrichment-coordinator) — No usable numeric salary.
 - [Employer Engagement Advisor](https://teaching-vacancies.service.gov.uk/jobs/employer-engagement-advisor) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.

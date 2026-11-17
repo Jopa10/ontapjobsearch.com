@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-11-16
+review_date: 2026-11-17
 review_fingerprint: 3a59c38f203f82228e420aa319c2633987d60c1f6f567e48d441001466549eec
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -59,6 +59,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-services-ass
 
 ## HARD_PASS
 
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-joseph-s-rc-high-school) — Excluded senior/management title.
 - [Student Behaviour Administrator](https://teaching-vacancies.service.gov.uk/jobs/student-behaviour-administrator-outwood-academy-hindley) — No usable numeric salary.
 
 ## Safety boundary

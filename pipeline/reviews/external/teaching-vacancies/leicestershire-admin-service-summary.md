@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-11-16
+review_date: 2026-11-17
 review_fingerprint: 1215ce6195634c1ca5c2d6075d82fde548e8442f595e6eb5f70155e38dd8d69c
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 9
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 5
 
 ## SELECTED
 
@@ -91,9 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administr
 
 - [Admin Assistant & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-office-manager) — Excluded senior/management title.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-english-martyrs-catholic-school-a-voluntary-academy) — Insufficient admin/service evidence.
-- [Career & Work Experience Lead and DSL (KEY099BC)](https://teaching-vacancies.service.gov.uk/jobs/career-work-experience-lead-and-dsl-key099bc) — Excluded senior/management title.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Excluded senior/management title.
-- [Office Manager (FAR137BC)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-far137bc) — Excluded senior/management title.
 - [Payroll and Pensions Manager](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-manager-learn-academies-trust) — Excluded senior/management title.
 - [SENCo Administration Assistant (KE98BC)](https://teaching-vacancies.service.gov.uk/jobs/senco-administration-assistant-ke98bc) — Insufficient admin/service evidence.
 

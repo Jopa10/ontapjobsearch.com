@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-16
-review_fingerprint: 2f83ca1f06c868b5c9648330817287845ee32c558cca038819118f100e20a623
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 4dc9e29591e34c7138c1b6b1559916f3b1893cde4fbee965858caa4b35722582
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 2087dfe1e8d9e8c826fb48d9712639b4f3d2c7ae609f01bf88f5ce238e1
 source: Teaching Vacancies
 source_job_id: business-support-officer-sixth-form
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-sixth-form
+---
+
+---
+action: 
+SELECTED | Suffolk | Ipswich, East of England, IP1 6SG | £26,677.00 Annually (Actual) | Examinations Officer
+employer: Ormiston Endeavour Academy
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 17f6af7165da3d0dd7c8ba3ec49f85d576fefc2e3aec3ac828b710e68d62584b
+source: Teaching Vacancies
+source_job_id: examinations-officer-ormiston-endeavour-academy-ipswich-suffolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-ormiston-endeavour-academy-ipswich-suffolk
 ---
 
 ---
@@ -100,14 +115,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccl
 
 ---
 action: 
-POSS | Suffolk | Woodbridge, IP13 0RP | £45,166.00 - £48,607.00 Annually (FTE) | Trust Finance Officer
+POSS | Suffolk | Woodbridge, IP13 0RP | £41,177.00 - £45,166.00 Annually (FTE) | Trust Finance Officer
 employer: East Anglian Schools Trust Ltd
 closing_date: 2026-11-23T09:00:00+00:00
 reason: Office/finance salary over £40k
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5bfb12c3b2a362a0f641b365106ddd7e1fc8d77c7fad1901ec7847dbfbb6c867
+factual_fingerprint: 7d0fffc5c952566c08c864a8143115f3efea1c08de3979b53a563bea60670265
 source: Teaching Vacancies
 source_job_id: trust-finance-officer-east-anglian-schools-trust-ltd
 source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-east-anglian-schools-trust-ltd
@@ -122,7 +137,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-stradbroke-high-school-eye-suffolk) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-northgate-high-school-ipswich-suffolk) — Excluded senior/management title.
 - [SEND Officer](https://teaching-vacancies.service.gov.uk/jobs/send-officer-east-coast-college) — Insufficient admin/service evidence.
-- [Success Coach - Lowestoft Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/success-coach-lowestoft-sixth-form) — Out-of-scope occupation: coach.
 - [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare) — Insufficient admin/service evidence.
 - [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare-east-coast-college) — Insufficient admin/service evidence.
 

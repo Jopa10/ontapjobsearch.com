@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-16
-review_fingerprint: 6b09a2032cc49d1b739076f229e59436d8e9ebea52c0373f40ca2237deb008d0
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 28f717f71c722c9b7515e5adb13e945cd5fe964b6760526f239c2bb495d6af3f
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 7
+- Records: 17
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
@@ -109,21 +109,6 @@ factual_fingerprint: 599f97cd2271cd9b98cf4401c7cb07ebd223e62377c337750b6b3f3bf95
 source: Teaching Vacancies
 source_job_id: personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
----
-
----
-action: 
-SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 9AF | Grade 3 £23,490 - £24620 | Receptionist
-employer: Sir Robert Pattinson Academy
-closing_date: 2026-11-17T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6a934b085abee9c58709ee44f7c7f0e611260d516e1199cc273136f7db242fb0
-source: Teaching Vacancies
-source_job_id: receptionist-sir-robert-pattinson-academy-lincoln-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sir-robert-pattinson-academy-lincoln-lincolnshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

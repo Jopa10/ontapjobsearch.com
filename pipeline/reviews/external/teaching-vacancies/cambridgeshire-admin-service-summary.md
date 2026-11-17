@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-16
-review_fingerprint: 8d6f32629b5ece5398464f4280c2e3824dcdd649561b2d4f21cb58c76ca3b102
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: b2cc55b7e98b62f56f15d49fdbf3e4ce31dbebd7b77374ca18c30dfa34980a56
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 20
 - Selected: 7
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sen-and
 
 ---
 action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB2 8PX | £25,159.00 - £25,951.00 Annually (FTE) Starting Salary £25,159.00 | Examinations Administrator
-employer: Long Road Sixth Form College
-closing_date: 2026-11-17T09:00:00+00:00
+SELECTED | Cambridgeshire | Cambridge, East of England, CB23 7DU | £27,274.00 - £29,071.00 Annually (FTE) NJC Scale 4, Points 7 to 11 . Actual salary £23,078 per annum on point 7. | Alternative Provision & Safeguarding Administrator
+employer: Comberton Village College
+closing_date: 2026-11-20T09:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2ca164877615e5a0ed517c56151a502ed553f62228a9c955b25a8c6fed414efb
+factual_fingerprint: 0f6fe396cc6c468929478643cb2dfb69ebb64b3220a2b8e0055a4fded587f4d3
 source: Teaching Vacancies
-source_job_id: examinations-administrator-long-road-sixth-form-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-administrator-long-road-sixth-form-college
+source_job_id: alternative-provision-safeguarding-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-safeguarding-administrator
 ---
 
 ---
@@ -130,6 +130,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB23 7RE | £11,977.00 Annually (Actual) | Administration Assistant
+employer: Hardwick and Cambourne Community Primary School
+closing_date: 2026-12-31T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5f1916996ecd3ce48d1fe6fde5980ab31538a2536c2d6caf5ce5d7ec9bef7f0c
+source: Teaching Vacancies
+source_job_id: administration-assistant-hardwick-and-cambourne-community-primary-school-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hardwick-and-cambourne-community-primary-school-cambridge-cambridgeshire
+---
+
+---
+action: 
 POSS | Cambridgeshire | Huntingdon, East of England, PE26 2NJ | Point 3 (£25,614 FTE) | Office Administrator
 employer: Bury CofE Primary School
 closing_date: 2026-11-29T23:59:00+00:00
@@ -152,11 +167,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Alternative Provision Coordinator](https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-coordinator-ormiston-bushfield-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.
 - [Business Services Support Officer](https://teaching-vacancies.service.gov.uk/jobs/business-services-support-officer-the-active-learning-trust-limited) — Insufficient admin/service evidence.
 - [Corporate Administrator](https://teaching-vacancies.service.gov.uk/jobs/corporate-administrator) — No usable numeric salary.
-- [Finance / HR manager](https://teaching-vacancies.service.gov.uk/jobs/finance-hr-manager-queen-s-drive-infant-school-peterborough-cambridgeshire) — Excluded senior/management title.
 - [Governance & Assurance Lead](https://teaching-vacancies.service.gov.uk/jobs/governance-assurance-lead) — Excluded senior/management title.
 - [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-grace-schools) — Insufficient admin/service evidence.
 - [Internal Scrutiny Officer](https://teaching-vacancies.service.gov.uk/jobs/internal-scrutiny-officer) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambourne-village-college) — Excluded senior/management title.
+- [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-longsands-academy) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-2caf4b0b-10ec-4bc7-9232-16c27b370a5f) — Excluded senior/management title.
 - [Personal Assistant to Headteacher and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-and-senior-leadership-team-st-john-fisher-catholic-high-school) — Excluded senior/management title.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-80df4620-91d1-4dc5-b093-4937c078bedb) — Salary over £50k.
 

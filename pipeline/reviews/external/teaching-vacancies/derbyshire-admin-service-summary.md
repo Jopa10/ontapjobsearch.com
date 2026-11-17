@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-16
-review_fingerprint: c2aee92992ebb873ec9756b5acf255cc3e40b28a48010efaaf950e175d86a8bf
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: ab0fc4caf32568f2d66a7c5803060982a7cc0a5d118bc8f6eca9c57b95c2a2d2
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 11
 - Selected: 2
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_job_id: receptionist-47c1efc2-2f4c-4f78-b74d-250c1f8dce9e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-47c1efc2-2f4c-4f78-b74d-250c1f8dce9e
 ---
 
----
-action: 
-POSS | Derbyshire | Derby, East Midlands, DE24 0BR | SCP 5 - 10 with an Actual Salary of £22,901.28 - £24,789.43 | Receptionist
-employer: Noel-Baker Academy
-closing_date: 2026-11-29T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e2895d58c8ebb5aafe60860c68ca4e1d4dcebb64debd62ed40457f20bd9e319d
-source: Teaching Vacancies
-source_job_id: receptionist-noel-baker-academy-derby-derbyshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-noel-baker-academy-derby-derbyshire
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -110,6 +95,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-noel-bak
 - [Pastoral Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-officer-93d815b7-0e82-49a1-9ded-1395abd2f79a) — No usable numeric salary.
 - [Peripatetic Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-administration-officer-alvaston-junior-academy) — Insufficient admin/service evidence.
 - [Plant Centre Lead](https://teaching-vacancies.service.gov.uk/jobs/plant-centre-lead) — Excluded senior/management title.
+- [SEND Admin Assistant Derby](https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-derby) — No usable numeric salary.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-16
-review_fingerprint: 9761f51e00a78e6ac0ee76cc96a71b917bedc2c24697601de4916c65a1fdab85
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 4bea40e6a26612ecb7b131192d4f8ae0fedacce75dc26d73f032b2f3527187ed
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 7
+- Records: 20
+- Selected: 8
 - POSS awaiting decision: 7
 - Excluded: 0
 - Hard pass: 5
@@ -75,10 +75,25 @@ reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2d798898e9953c0c882a3efd901a4d76f994aff87a0dbc7c9d9ff0e330fc06fe
+factual_fingerprint: cdcc1e743a6fd1009c30fcd851e631e139682942f4acdc69fc57a74acb33ab9d
 source: Teaching Vacancies
 source_job_id: administrative-assistant-saltley-academy-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-saltley-academy-birmingham-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B10 0EG | £27,709.00 to £29,071.00 per annum (pro rata £19,555.67 to £20,516.90 per annum) | Business Support Officer - Finance
+employer: The Olive School, Small Heath
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c317a7615cb9bd3ee7f9a1a78cdad4dfae06633dc1d04b8e0fa8a0efe7dd3466
+source: Teaching Vacancies
+source_job_id: business-support-officer-finance-the-olive-school-small-heath-birmingham
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-finance-the-olive-school-small-heath-birmingham
 ---
 
 ---
@@ -132,15 +147,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 action: 
 POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B38 9DE | £29,540 - £35,412 per year | Data Officer
 employer: Ark Kings Academy
-closing_date: 2026-11-25T00:00:00+00:00
+closing_date: 2026-12-08T00:00:00+00:00
 reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ff6042b5ccbea98bfbfa7068507bd4ed3f8b2d837bdb79e77764dad309ae2330
+factual_fingerprint: 6618a012b9fa1c5e2c3d355395ffe3e526a764ba7d054469cbf86413727ba03d
 source: Teaching Vacancies
-source_job_id: data-officer-b0bb20b5-eb18-4e54-b20d-19ed1abe66f0
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-b0bb20b5-eb18-4e54-b20d-19ed1abe66f0
+source_job_id: data-officer-cfa78fef-9663-4f09-9214-63ef7222598a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-cfa78fef-9663-4f09-9214-63ef7222598a
 ---
 
 ---

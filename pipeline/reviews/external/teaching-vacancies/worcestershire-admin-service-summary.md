@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-11-16
-review_fingerprint: 19713924b244ea46c9df7feacb2643c7203d5b0a284ef7622dac17c37e2e3810
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: f52a7d33c61ffa7067d5c013b8c21f9859ea3eebab58a28eb57b2a27b0ecbdc6
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 0
@@ -34,6 +34,21 @@ factual_fingerprint: f4402cdb09254c1212cfde47ef316bec6ea0e7db617e516c5567d74dbf0
 source: Teaching Vacancies
 source_job_id: administrative-finance-assistant-hollymount-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-finance-assistant-hollymount-school
+---
+
+---
+action: 
+SELECTED | Worcestershire | Kidderminster, West Midlands, DY10 1XA | £27,274-£29,071 | People Administrator
+employer: King Charles I School
+closing_date: 2026-11-30T08:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 031caafcf6fafaf5759c99e004000635c0a889b92e78cb7e0b2060c7c2ada87f
+source: Teaching Vacancies
+source_job_id: people-administrator-king-charles-i-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-king-charles-i-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-16
-review_fingerprint: 6ad454e9a9f87838b3b87186a3201c1449c2244addd08543633460fa5ab10b64
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 64396890ee5c26fe5710527b52fcb0c5c6b2f32384b620c5140ace1b58389d4f
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
-- POSS awaiting decision: 0
+- Records: 18
+- Selected: 8
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 8053979fbb45946a01e4a884e9d8664ccb0630a0b6fac48e19aa274877c
 source: Teaching Vacancies
 source_job_id: administration-assistant-7c7ff27b-428f-43f8-b838-19b0716cb7d9
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-7c7ff27b-428f-43f8-b838-19b0716cb7d9
+---
+
+---
+action: 
+SELECTED | North East | Sunderland, North East, SR2 7JN | £26,427.00 - £26,847.00 Annually (Actual) | Administration Assistant
+employer: St Anthony's Girls' Catholic Academy
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2d870adc6bb8aa06adcc1296d08091134b907f87d68fa003683287df9a71d48f
+source: Teaching Vacancies
+source_job_id: administration-assistant-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear
 ---
 
 ---
@@ -128,7 +143,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-suppo
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | North East | Bishop Auckland, North East, DL14 6JZ | harmonised pay scale 10-12 (£25,812.38-£26,412.67 pro rata) | Finance Administration Assistant
+employer: Bishop Auckland College
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9bd2073ff6ca63f1a74ac09add9b35bde97b9bf023c221489ec32bd5d39edc4b
+source: Teaching Vacancies
+source_job_id: finance-administration-assistant-bishop-auckland-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administration-assistant-bishop-auckland-college
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -137,10 +165,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-suppo
 ## HARD_PASS
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-jarrow-school) — Excluded senior/management title.
-- [HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-prosper-learning-trust) — Insufficient admin/service evidence.
+- [Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-partner-the-education-village-academy-trust-darlington-not-recorded) — Insufficient admin/service evidence.
+- [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-bishop-auckland-college) — Insufficient admin/service evidence.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-centurion-multi-academy-trust) — Insufficient admin/service evidence.
 - [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-af43e27f-b30c-4ed7-9581-5362fb482ff1) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hadrian-learning-trust) — Excluded senior/management title.
+- [Payroll Partner](https://teaching-vacancies.service.gov.uk/jobs/payroll-partner) — Insufficient admin/service evidence.
 - [Staff & Student Support Officer](https://teaching-vacancies.service.gov.uk/jobs/staff-student-support-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

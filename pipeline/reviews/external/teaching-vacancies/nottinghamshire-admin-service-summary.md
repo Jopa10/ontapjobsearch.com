@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-16
-review_fingerprint: c0e9fad9a5d430ae795bf3683ae3dcfa41766ce336bd6cf5c4decb998a3fdd9b
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 90965d04faefab8fda566cf6ff09ed996b2ad6f5788288568f493b64fb648fc0
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 3
+- Records: 20
+- Selected: 2
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 12
 
 ## SELECTED
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, NG7 2TU | £26,427 - £26,847 pro rata, £22,691 - £23,052 actual per year | College Secretary
-employer: Nova Education Trust
-closing_date: 2026-11-17T09:00:00+00:00
-reason: Clear admin/service title: secretary
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b6237b28dc3442247c5d83cba7432208f7f9dfb8f376adee1b21f42f33364d68
-source: Teaching Vacancies
-source_job_id: college-secretary
-source_url: https://teaching-vacancies.service.gov.uk/jobs/college-secretary
----
 
 ---
 action: 
@@ -168,7 +153,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 - [Assistant Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-administration-manager-shirebrook-academy) — Excluded senior/management title.
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby-nottingham-nottinghamshire) — Insufficient admin/service evidence.
 - [Finance & Estate Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-estate-officer) — Salary over £50k.
+- [Healthcare Assistant / Administrator](https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-b6dad597-ef3e-406f-a693-7ada1eddda55) — No usable numeric salary.
 - [Marketing and Reprographics Assistant (fixed term maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-reprographics-assistant-fixed-term-maternity-cover) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-nova-education-trust) — Excluded senior/management title.
+- [Pastoral Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-assistant-the-newark-academy) — Insufficient admin/service evidence.
 - [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-a64c421f-6231-4592-9c8e-33d9670e968a) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c4d506e4-2227-47db-b7f1-9c4c2546f3eb) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hawthorne-primary-and-nursery-school) — Excluded senior/management title.

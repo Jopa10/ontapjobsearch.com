@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-16
-review_fingerprint: 1f614a140cebf0643ae97d16ffc019c0b7918eb11180d4746153e49ad1410231
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: be5ba39e41f1532bbd6439ed5b06db4e168887145a533089d9b835c6400a802e
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -53,34 +53,34 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
-SELECTED | Lancashire - East | Bacup, North West, OL13 0TG | £27,709.00 to £29,071.00 per annum (Pro rata £23,833.47 to £25,004.97 per annum) | Business Support Officer
-employer: The Valley Leadership Academy
-closing_date: 2026-11-16T23:59:00+00:00
-reason: Clear admin/service title: business support officer
+SELECTED | Lancashire - East | Burnley, North West, BB10 3AA | £26,016.00 - £26,847.00 Annually (FTE) Actual salary - £21,998 - £22,700 PRO-RATA | School Business Officer/Receptionist
+employer: Blessed Trinity Roman Catholic College, A Voluntary Academy
+closing_date: 2026-12-02T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 76afd54c624a5f741af1330f3917ee9202c2ff0d3c81b7bc0105c59cb142d555
+factual_fingerprint: 68ffccca57438c0e751ccdf8649489a83430ae7ac3542adc430c1f7f46be5a5b
 source: Teaching Vacancies
-source_job_id: business-support-officer-the-valley-leadership-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-the-valley-leadership-academy
+source_job_id: school-business-officer-receptionist
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-officer-receptionist
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Lancashire - East | Blackburn, North West, BB1 4ED | £34,357.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year | Data Officer
-employer: The Hyndburn Academy
-closing_date: 2026-11-16T17:00:00+00:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
+POSS | Lancashire - East | Blackburn, North West, BB2 2JR | £26,427 - £28,153 pro rata, Actual salary £23,595 - £25,136 | Receptionist
+employer: St Wilfrid's Church of England Academy
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f1b9808ae02df50c40f6d5f56bfc23e1e8d3a8d2f54070c484e483e8e4cdb618
+factual_fingerprint: a04ac4997b5b9aea93d5481c546e5594379b4195f46f008381ab76d09fbd421b
 source: Teaching Vacancies
-source_job_id: data-officer-the-hyndburn-academy-blackburn-lancashire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hyndburn-academy-blackburn-lancashire
+source_job_id: receptionist-st-wilfrid-s-church-of-england-academy-blackburn-lancashire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-wilfrid-s-church-of-england-academy-blackburn-lancashire
 ---
 
 ## EXCLUDED BY REVIEW
@@ -89,6 +89,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hynd
 
 ## HARD_PASS
 
+- [Funding & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/funding-compliance-manager) — Excluded senior/management title.
 - [Personal Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-newfield-school) — No usable numeric salary.
 - [Talent Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/talent-systems-manager) — Excluded senior/management title.
 

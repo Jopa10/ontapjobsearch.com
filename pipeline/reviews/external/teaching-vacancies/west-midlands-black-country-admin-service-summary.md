@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-16
-review_fingerprint: 472632848759d3342f9e867e99fa7447635d24f484af854713854337f6763c90
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 1643ef0a4fc813c1ed81348477ee8bb38747853fc0bf5d327b41a20edf19cbaf
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 8
+- Records: 20
+- Selected: 9
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -94,6 +94,21 @@ factual_fingerprint: cc6c5c4db1696e4e3e2112456844ac040d30945062a512f4daaad56a2b7
 source: Teaching Vacancies
 source_job_id: it-systems-administrator-bishop-milner-catholic-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/it-systems-administrator-bishop-milner-catholic-college
+---
+
+---
+action: 
+SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B68 0RG | £25,615.00 - £27,710.00 Annually (FTE) Grade 2 Points 3-8 | Receptionist / Administrator
+employer: Perryfields Academy
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 94988bb8b99b9f7625fe308220a6d484531dfcaacb01156c2c4b904881e6ba5f
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-perryfields-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-perryfields-academy
 ---
 
 ---
@@ -194,6 +209,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-support-officer-ki
 
 ## HARD_PASS
 
+- [Aministration Assistant](https://teaching-vacancies.service.gov.uk/jobs/aministration-assistant) — Insufficient admin/service evidence.
 - [Chief Finance and Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-operations-officer-wolverhampton-girls-high-school) — Excluded senior/management title.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-hales-valley-trust) — Excluded senior/management title.
 - [HR Advisor - Senior](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-senior) — Excluded senior/management title.

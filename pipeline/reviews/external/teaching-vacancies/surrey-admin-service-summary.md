@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-16
-review_fingerprint: 1cd079fac93142a4657fbecbf4ea81f0d9216150aa4ecb461623642d605f9c19
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 706b56192e77b2d751e593d84a980943e985ef50bb2e1f36a096200d8e097fa8
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 3
-- POSS awaiting decision: 3
+- Selected: 4
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
@@ -66,22 +66,22 @@ source_job_id: central-administrator-rosebery-school-epsom-surrey
 source_url: https://teaching-vacancies.service.gov.uk/jobs/central-administrator-rosebery-school-epsom-surrey
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Surrey | Epsom, South East, KT18 7AD | £15,406.00 - £16,803.00 Annually (Actual) PS5 FTE range £28,769 - £30,819 | Attendance & Communications Officer
-employer: St Martin's Church of England Junior School
-closing_date: 2026-11-17T09:00:00+00:00
-reason: Borderline school administration title: communications officer
+SELECTED | Surrey | Leatherhead, South East, KT22 7PW | £20,550.00 - £20,550.00 Annually (Actual) P3 £24,691 per annum FTE | Office Assistant
+employer: Fox Grove School
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: office assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 913f1dbd539af341a14680fc31747626df13e26ba689e71b1cb603cb0c56fdd9
+factual_fingerprint: 0f236550263359619a6f42fa32cad412800b22c331832b34fa03093b9c049396
 source: Teaching Vacancies
-source_job_id: attendance-communications-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-communications-officer
+source_job_id: office-assistant-fox-grove-school-leatherhead-surrey
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-fox-grove-school-leatherhead-surrey
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 

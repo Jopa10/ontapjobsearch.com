@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-16
-review_fingerprint: 2974f478277345c657a4349be5eec8b24ae497db998dd3b5329a5a41e0e3b448
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: e8df85aaa3e90ada4bc11ee56d50771197d5c4a056afc6eb67310daf3541db32
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 21
 - Selected: 2
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 17
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-an
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school-torquay-devon
 ---
 
----
-action: 
-POSS | Devon | Plymouth, South West, PL3 4RS | £19,955.00 - £20,595.00 Annually (Actual) Grade C FTE £26,427 - £27,274 | School Administrator
-employer: Hyde Park Infants' School
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 81d95315748d8b99fe98f9bf46ea5818dee436b3631100ff0784254ad6aa4d5a
-source: Teaching Vacancies
-source_job_id: school-administrator-hyde-park-infants-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-hyde-park-infants-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -116,6 +101,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon) — No usable numeric salary.
 - [School Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-caretaker-st-sidwell-s-church-of-england-primary-school-nursery) — Out-of-scope occupation: caretaker.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-1ab8b680-19b9-400d-b2ad-e7ffeda3ad14) — Excluded senior/management title.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-bb6742ca-488b-4508-aac4-ff3a63b58893) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy-newton-abbot-devon) — Excluded senior/management title.
 - [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school-axminster-devon) — Excluded senior/management title.

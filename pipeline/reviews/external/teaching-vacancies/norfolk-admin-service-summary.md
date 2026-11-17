@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-16
-review_fingerprint: 90e1d91aab11fe93aa881492e6f64da987e63d66adef23b961e6d20c01b5c5a7
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: af80e985df9d34b54e24f28de72597a76b89ae31da1986286e69686054292787
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-litcham
 
 ---
 action: 
+SELECTED | Norfolk | Wymondham, East of England, NR18 9SZ | £21,329- £23,144 | HR Administrator
+employer: Wymondham College
+closing_date: 2027-01-17T00:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6b0b77349a5d5a5c97433b71a082bdd2c07616915dbb86673132bf6435945cbb
+source: Teaching Vacancies
+source_job_id: hr-administrator-wymondham-college-wymondham-norfolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymondham-college-wymondham-norfolk
+---
+
+---
+action: 
 SELECTED | Norfolk | King's Lynn, East of England, PE30 4AY | Scale E, Point 8 – 11, £14.36 to £15.06 per hour approx. £23,727 to £24,893 per annum. (FTE £27,709 to £29,071 – please note the salary for this role will be pro rata) | Primary SEND Administrator
 employer: Gaywood Primary School
 closing_date: 2026-11-27T00:00:00+00:00
@@ -134,7 +149,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-open
 
 ## HARD_PASS
 
-- [Business and Student Services Degree Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-and-student-services-degree-apprentice) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-toftwood-infant-school) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-824224c2-5ae7-482b-a4c3-25f64d69671f) — Insufficient admin/service evidence.
 - [Estates Compliance and Contracts Supervisor (East & South)](https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-and-contracts-supervisor-east-south) — Insufficient admin/service evidence.

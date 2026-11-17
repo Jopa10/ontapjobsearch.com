@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-11-16
-review_fingerprint: f1a459ea7bfcff0de70ac43cef736537ce1fedf3784d789df8d114a10331c651
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 59915515421726eb79c13aebe19e6568d93314a5da7e9ee0daad9c0564d74b4a
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 10
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -85,6 +85,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 
 ---
 action: 
+POSS | Greater Manchester - South | Sale, North West, M33 3JR | £27,922.00 Annually (FTE) 22.5 hours – 3 days a week (8.00am – 4.00pm) Mon to Wed (30 minutes unpaid lunch). Term Time plus 5 INSET days . Actual Salary £14,456 per annum. | Administration Assistant
+employer: Sale High School
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ad963fbc9b18a4752df3cf816adea5379794e46fb7cb677c21a6bfd97309f84f
+source: Teaching Vacancies
+source_job_id: administration-assistant-sale-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-sale-high-school
+---
+
+---
+action: 
 POSS | Greater Manchester - South | Stockport, North West, SK5 6BL | £27,274.00 - £29,071.00 Annually (FTE) Pro rata salary banding £23,380 - £24,921 | Administrator
 employer: St Elisabeth's Church of England Primary
 closing_date: 2026-11-26T23:59:00+00:00
@@ -106,6 +121,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-elis
 
 - [Academy Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-manager-dixons-ashton-academy) — Excluded senior/management title.
 - [Deputy Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-financial-officer-achieve-and-learn-trust) — Excluded senior/management title.
+- [Personal Care Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-maternity-cover) — Insufficient admin/service evidence.
 - [School Receptionist](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-gatley-primary-school) — No usable numeric salary.
 
 ## Safety boundary

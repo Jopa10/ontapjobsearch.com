@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-16
+review_date: 2026-11-17
 review_fingerprint: 34b3e6c84ba2d7a52feae8462c82062d272d61233a7b8233d6c61a3ade82ba17
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -107,6 +107,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator
 ## HARD_PASS
 
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-avanti-park-school) — No usable numeric salary.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-writhlington-school) — Insufficient admin/service evidence.
 - [SEND Administrator](https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bridgwater-college-academy) — No usable numeric salary.
 
 ## Safety boundary

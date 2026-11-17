@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-16
+review_date: 2026-11-17
 review_fingerprint: 72d4f9111a015b687c7a41d7c0db0a83f989999262e43df798afbeba8b1927b2
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 13
 - Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -152,7 +152,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Estates and Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-and-facilities-manager-alt-trust) — Excluded senior/management title.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust-oxford-not-recorded) — Insufficient admin/service evidence.
 - [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
-- [RLT Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/rlt-fundraising-officer) — Insufficient admin/service evidence.
 - [School Health & Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/school-health-safety-and-compliance-officer) — Insufficient admin/service evidence.
 - [Welfare and Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-personal-care-assistant-4d28f01b-0774-4814-980a-aaa4df4dfb79) — Insufficient admin/service evidence.
 

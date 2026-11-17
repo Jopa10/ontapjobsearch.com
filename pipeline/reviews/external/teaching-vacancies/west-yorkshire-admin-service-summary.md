@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-16
-review_fingerprint: 9abc9e6dd94cf6317b138412b4e264b0d7b0c61770eed0eec4f071995d5cc72a
-routing_manifest_sha256: 622ea16d3584e46a7005e0f6b899b3d940fbddc3134fa7c5a5cff5a604234ac1
+review_date: 2026-11-17
+review_fingerprint: 647ebd537adb878cdec8875bc77a243890cd2fa0a6fe9cc8522e887b86daac9e
+routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD3 3UH | £26,427.00 Annually (FTE) | Business Support Officer - Part Time
-employer: Moorlands Primary School
-closing_date: 2026-11-17T09:00:00+00:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: ddc39061466f697dde76cfec175a87fc583b1366ebf907149c63331d85050509
-source: Teaching Vacancies
-source_job_id: business-support-officer-part-time-moorlands-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-part-time-moorlands-primary-school
----
-
----
-action: 
 SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD8 7DX | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 18 (£30, 515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £26,362.80. | PA to the Principal (7519)
 employer: Valley Academy
 closing_date: 2026-11-20T23:59:00+00:00
@@ -109,6 +94,21 @@ factual_fingerprint: d9f8c17d7f21e689f16ee78a5927a700e59ae54bfd413a79025ef41e2f5
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-principal-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-administrator
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS28 8EP | £27,274 - £29,071 pro rata £20,078 - £21,784 actual | School Administrator
+employer: Pudsey Bolton Royd Primary School
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: a764d53bad1689ba5e2c8fbbef932e2ec8c426a9a0f0f05aa24f88d611f569c8
+source: Teaching Vacancies
+source_job_id: school-administrator-pudsey-bolton-royd-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-pudsey-bolton-royd-primary-school
 ---
 
 ---
@@ -157,6 +157,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-g
 - [Administration assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chapel-allerton-primary-school) — No usable numeric salary.
 - [Administration Officer - SEND & Pastoral](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-send-pastoral) — Insufficient admin/service evidence.
 - [Apprentice Business Administration Assistant (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-administration-assistant-level-3) — No usable numeric salary.
+- [Attendance Coordinator (7902)](https://teaching-vacancies.service.gov.uk/jobs/attendance-coordinator-7902) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-leodis-academies-trust) — Excluded senior/management title.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-owlcotes-multi-academy-trust) — Excluded senior/management title.
 - [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
@@ -166,7 +167,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-g
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-impact-education-multi-academy-trust) — Excluded senior/management title.
 - [HR Administration Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-team-leader) — Excluded senior/management title.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-upper-heaton) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hillside-primary-school-huddersfield-west-yorkshire) — Excluded senior/management title.
 - [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team-temple-learning-academy) — Excluded senior/management title.
 - [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.
