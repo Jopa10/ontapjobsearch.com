@@ -1,0 +1,1 @@
+{"mode":"failure_recovery","attempt":1,"scope":"Preview daily update only","failurePoints":["after-payload-write","before-commit"],"retryNormally":true}
