@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 65
+- automatic review: 61
 - automatic exclude: 0
 - effective include: 9
-- effective review: 65
+- effective review: 61
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: nhs-5706522
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (65)
+## REVIEW (61)
 
 ---
 action: 
@@ -330,23 +330,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2154176
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper - Bournemouth - up to &;40,000
 company: Bond Williams - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2231155
+job_id: jobg8-2310906
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -366,11 +354,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Business Administrator
-company: KAG Recruitment Consultancy - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225771986
+title: Business Support for Children in Care
+company: Dorset HealthCare University NHS Foundation Trust
+location: Dorchester, DT2 9TB
+source: NHS Jobs
+job_id: nhs-5729649
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -486,6 +474,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Rubicon Recruitment - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2315209
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant - Part Time
 company: Jigsaw Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
@@ -538,7 +538,7 @@ title: Group Accounts Assistant - Bournemouth - &;29,400
 company: Bond Williams - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2231673
+job_id: jobg8-2312218
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -594,30 +594,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2220547
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Marketing Executive
-company: Aspire Jobs - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225826692
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patient Administrator
 company: University Hospitals Dorset NHS Foundation Trust
 location: Poole, BH12 5AG
@@ -666,35 +642,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2223726
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Clerk
 company: McGinnis Loy Associates Ltd - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-2181226
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Sheridan Maine - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2152509
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -740,9 +692,9 @@ decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
-location: Dorset
+location: Poole
 source: JobG8
-job_id: jobg8-2277257
+job_id: jobg8-2300440
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -752,9 +704,9 @@ decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
-location: Poole
+location: Dorset
 source: JobG8
-job_id: jobg8-2300440
+job_id: jobg8-2310586
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

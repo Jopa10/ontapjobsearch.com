@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 34
+- automatic review: 38
 - automatic exclude: 0
 - effective include: 4
-- effective review: 34
+- effective review: 38
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -56,7 +56,7 @@ title: Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Worcester
 source: JobG8
-job_id: jobg8-2280982
+job_id: jobg8-2315794
 reason: Exact approved Worcester workplace.
 ---
 
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (38)
 
 ---
 action: 
@@ -82,7 +82,7 @@ title: Accounts Assistant
 company: TMR Group Ltd - Agency - Permanent
 location: Droitwich
 source: JobG8
-job_id: jobg8-2281842
+job_id: jobg8-2316772
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -107,6 +107,30 @@ company: Flora Partners - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-23643_225796734
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Co-ordinator
+company: Four Squared - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-2312695
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Droitwich, WR98RD
+source: NHS Jobs
+job_id: nhs-5729748
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -143,18 +167,6 @@ company: Pertemps Black Country Perms - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225767657
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contact Centre Manager
-company: Brellis Recruitment - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225779372
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +251,18 @@ company: Willis Global - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225636272
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Fleet Coordinator
+company: Elite People - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-2314421
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -334,7 +358,7 @@ title: Payroll Administrator
 company: Four Squared - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2230900
+job_id: jobg8-2310294
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -382,7 +406,7 @@ title: Payroll Officer
 company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2281345
+job_id: jobg8-2316504
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -395,6 +419,18 @@ company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225820459
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Kidderminster
+source: JobG8
+job_id: jobg8-2318839
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -443,6 +479,18 @@ company: Opus People Solutions Ltd - Agency - Temporary
 location: Redditch
 source: JobG8
 job_id: jobg8-23643_225783276
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Retail Marketing Coordinator
+company: Zachary Daniels Recruitment - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225786729
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

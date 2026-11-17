@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 23
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 15
-- effective review: 23
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: Butler Rose - Agency - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2282040
+job_id: jobg8-2318064
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -204,7 +204,19 @@ job_id: jobg8-2301412
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (27)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Acorn by Synergie - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-2315473
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -250,7 +262,7 @@ title: Accounts Assistant
 company: Platinum Recruitment Group - Agency - Permanent
 location: Wilmslow
 source: JobG8
-job_id: jobg8-2280481
+job_id: jobg8-2315044
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -414,6 +426,18 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Junior Administrator
+company: ECS Recruitment Consultants Ltd - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-108223251
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Coordinator
 company: Forrest Recruitment - Agency - Permanent
 location: Wilmslow
@@ -462,6 +486,18 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-2309568
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Earnswood Medical Centre
 location: Crewe, CW1 3AW
@@ -479,6 +515,18 @@ company: Kenmore Medical Centre
 location: Wilmslow, SK9 1PA
 source: NHS Jobs
 job_id: nhs-5705068
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Coordinator
+company: HR Recruit - Agency - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-108319267
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

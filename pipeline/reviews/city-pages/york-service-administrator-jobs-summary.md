@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 11
-- automatic exclude: 24
+- automatic review: 12
+- automatic exclude: 23
 - effective include: 14
-- effective review: 11
-- effective exclude: 24
+- effective review: 12
+- effective exclude: 23
 
 ## INCLUDE (14)
 
@@ -104,7 +104,7 @@ title: Finance Assistant
 company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2296072
+job_id: jobg8-2311259
 reason: Approved York catchment.
 ---
 
@@ -192,7 +192,7 @@ job_id: jobg8-23643_225755874
 reason: Approved York catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -227,6 +227,18 @@ company: G2 Legal Limited - Agency - Permanent
 location: Malton
 source: JobG8
 job_id: jobg8-2211808
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Bedale
+source: JobG8
+job_id: jobg8-20279_63331-002a3d68d1ccfcef2ea5de713d71ff34
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -326,7 +338,7 @@ job_id: jobg8-23643_225825906
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -404,23 +416,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller
-company: Inicio Funding Solutions Ltd_2026-10-19-08:21:16.112 - Agency - Permanent
-location: Yorkshire
+title: Credit Controller - Harrogate
+company: Willow Recruit - Agency - Permanent
+location: Harrogate
 source: JobG8
-job_id: jobg8-108320734
-reason: Broad regional label; not York-city evidence.
+job_id: jobg8-2308097
+reason: Separate employment market.
 ---
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller - Harrogate
-company: Willow Recruit - Agency - Permanent
-location: Harrogate
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Northallerton
 source: JobG8
-job_id: jobg8-2308097
+job_id: jobg8-20279_63331-5b8c65a16e74a9f9ccfca20e1c562ac6
 reason: Separate employment market.
 ---
 
@@ -470,18 +482,6 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2301626
 reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Legal Assistant - Residential Conveyancing
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-2149792
-reason: Separate employment market.
 ---
 
 ---

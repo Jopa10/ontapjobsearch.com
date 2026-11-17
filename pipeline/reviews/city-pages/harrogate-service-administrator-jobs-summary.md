@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 11
-- automatic exclude: 29
+- automatic review: 12
+- automatic exclude: 28
 - effective include: 9
-- effective review: 11
-- effective exclude: 29
+- effective review: 12
+- effective exclude: 28
 
 ## INCLUDE (9)
 
@@ -132,7 +132,7 @@ job_id: jobg8-2296494
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -167,6 +167,18 @@ company: G2 Legal Limited - Agency - Permanent
 location: Malton
 source: JobG8
 job_id: jobg8-2211808
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Bedale
+source: JobG8
+job_id: jobg8-20279_63331-002a3d68d1ccfcef2ea5de713d71ff34
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -266,7 +278,7 @@ job_id: jobg8-23643_225825906
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -320,11 +332,11 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller
-company: Inicio Funding Solutions Ltd_2026-10-19-08:21:16.112 - Agency - Permanent
-location: Yorkshire
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Northallerton
 source: JobG8
-job_id: jobg8-108320734
+job_id: jobg8-20279_63331-5b8c65a16e74a9f9ccfca20e1c562ac6
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -432,7 +444,7 @@ title: Finance Assistant
 company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2296072
+job_id: jobg8-2311259
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -457,18 +469,6 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2300535
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Legal Assistant - Residential Conveyancing
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-2149792
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

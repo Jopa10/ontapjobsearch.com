@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 21
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
+- automatic include: 20
 - automatic review: 74
 - automatic exclude: 0
-- effective include: 21
+- effective include: 20
 - effective review: 74
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (20)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: SF Partners - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225775352
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: St Joseph's Catholic Academy
-location: Leicester
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-st-joseph-s-catholic-academy
 reason: Exact approved Leicester workplace.
 ---
 
@@ -268,11 +256,11 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Senior Marketing Executive
-company: Macildowie Recruitment and Retention - Agency - Permanent
+title: Service Coordinator
+company: Adullam Homes - Agency - Permanent
 location: Leicester
 source: JobG8
-job_id: jobg8-2152805
+job_id: jobg8-108205427
 reason: Exact approved Leicester workplace.
 ---
 
@@ -358,7 +346,7 @@ title: Accounts Payable Assistant
 company: Distinct Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2233372
+job_id: jobg8-2313728
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -510,18 +498,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Bentley & Lamborghini Receptionist / Host
-company: Sytner - Company - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225825190
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: BMW Service Advisor
 company: Sytner - Company - Permanent
 location: Leicestershire
@@ -642,11 +618,35 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Coordinator
+company: Approach Personnel Ltd - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225828110
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Digital Marketer
 company: Go Websites - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2283322
+job_id: jobg8-2320110
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance and Systems Coordinator
+company: Trinity House Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2315464
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1090,7 +1090,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2303674
+job_id: jobg8-2309342
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1139,18 +1139,6 @@ company: AD Finance - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2155722
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Web Content Administrator (admin)
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225751840
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

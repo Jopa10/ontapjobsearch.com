@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 36
+- automatic include: 18
+- automatic review: 38
 - automatic exclude: 0
-- effective include: 19
-- effective review: 36
+- effective include: 18
+- effective review: 38
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (18)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: The Solution Auto - Agency - Permanent
 location: Swindon
 source: JobG8
 job_id: jobg8-23643_225769775
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Receivable
-company: Reed - Agency - Permanent
-location: Swindon
-source: JobG8
-job_id: jobg8-2193836
 reason: Exact approved Swindon workplace.
 ---
 
@@ -172,18 +160,6 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Services Information Guide (Contact Centre)
-company: Connect2Swindon - Agency - Temporary
-location: Swindon
-source: JobG8
-job_id: jobg8-23643_225783150
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Data Cleansing Administrator
 company: Alexander Mann Solutions - Contingency - Agency - Contract
 location: Swindon
@@ -244,6 +220,18 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Technical Sales Administrator
+company: Pangea Recruitment Ltd - Agency - Permanent
+location: Swindon
+source: JobG8
+job_id: jobg8-23643_225825955
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Train Planner
 company: Ford & Stanley Talentwise - Agency - Permanent
 location: Swindon
@@ -252,7 +240,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (38)
 
 ---
 action: 
@@ -274,7 +262,7 @@ title: Accounts Assistant
 company: Robert Half - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2279952
+job_id: jobg8-2313888
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -330,11 +318,23 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Assurance Coordinator Porton Down
+company: Mainstay Facilities - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108182792
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Automobile Service Advisor (auto Service Advisor)
 company: People Solutions Group Limited - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2282845
+job_id: jobg8-2319121
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -571,6 +571,18 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
+company: Octane Recruitment - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108308431
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
 company: Pembrook Resourcing - Agency - Permanent
 location: Wiltshire
 source: JobG8
@@ -598,7 +610,7 @@ title: Service Advisor
 company: Purely Recruitment Solutions - Agency - Permanent
 location: Chippenham
 source: JobG8
-job_id: jobg8-2280562
+job_id: jobg8-2314996
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

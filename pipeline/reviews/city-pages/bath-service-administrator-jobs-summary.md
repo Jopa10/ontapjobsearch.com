@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 83
+- automatic review: 88
 - automatic exclude: 0
 - effective include: 9
-- effective review: 83
+- effective review: 88
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -80,7 +80,7 @@ title: Family Legal Assistant
 company: Yolk Recruitment Ltd - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2281885
+job_id: jobg8-2316707
 reason: Exact approved Bath workplace.
 ---
 
@@ -92,7 +92,7 @@ title: Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2230307
+job_id: jobg8-2309294
 reason: Exact approved Bath workplace.
 ---
 
@@ -104,7 +104,7 @@ title: Finance Assistant
 company: Robert Half - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2283143
+job_id: jobg8-2319617
 reason: Exact approved Bath workplace.
 ---
 
@@ -132,7 +132,7 @@ job_id: jobg8-2303159
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (83)
+## REVIEW (88)
 
 ---
 action: 
@@ -187,6 +187,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Bristol NHS Foundation Trust
+location: Bristol, BS10 5NB
+source: NHS Jobs
+job_id: nhs-5730875
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: NMS Recruit Ltd t/a Russell Taylor Group - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -215,18 +227,6 @@ company: Rise Technical Recruitment Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2200810
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Sirona care & health CIC
-location: Warmley, Bristol, BS30 8XP
-source: NHS Jobs
-job_id: nhs-5699781
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -334,7 +334,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2278033
+job_id: jobg8-2312269
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -438,6 +438,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisors
+company: Tate - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225840513
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Document Controller
 company: Conrad Consulting Ltd - Agency - Permanent
 location: Bristol
@@ -503,6 +515,18 @@ company: Morgan McKinley (South West) - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225760729
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: red recruitment - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2310630
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -666,6 +690,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Jaguar Land Rover Accounts Assistant
+company: Sytner Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2311038
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Assistant
 company: eNL Legal Recruitment - Agency - Permanent
 location: Bristol
@@ -707,6 +743,18 @@ company: Employal - Agency - Permanent
 location: Portishead
 source: JobG8
 job_id: jobg8-23643_225766717
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Logistics Operations Coordinator
+company: Freight Personnel - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225839394
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -786,6 +834,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Finance Administrator
+company: Pertemps Bristol Commercial - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2316352
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patent Records Paralegal - Bristol Hybrid
 company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Bristol
@@ -851,6 +911,18 @@ company: Yolk Recruitment Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2155891
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Personal Injury Paralegal (Remote)
+company: CRA Consulting - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2310682
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -956,7 +1028,7 @@ decision: review
 automatic_decision: review
 title: Senior Administrator
 company: Sirona care & health CIC
-location: Bristol, BS6 6AU
+location: Bristol, BS15 1LF
 source: NHS Jobs
 job_id: nhs-5725048
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
@@ -1038,23 +1110,11 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Social Media and Marketing Executive
-company: Moxie and Mettle Limited - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2153487
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Technical Administrator
 company: Acorn by Synergie - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2280994
+job_id: jobg8-2315806
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1090,7 +1150,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2303667
+job_id: jobg8-2309335
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 23
-- automatic exclude: 60
-- effective include: 16
-- effective review: 23
-- effective exclude: 60
+- automatic include: 12
+- automatic review: 24
+- automatic exclude: 62
+- effective include: 12
+- effective review: 24
+- effective exclude: 62
 
-## INCLUDE (16)
+## INCLUDE (12)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Assistant Patient Pathway Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 7LD
-source: NHS Jobs
-job_id: nhs-5715496
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Business Support Officer
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Oxford
@@ -100,23 +88,11 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Officer
-company: Acer Trust
-location: Oxford
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-officer-acer-trust-oxford-not-recorded
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Administrator
-company: JGA Recruitment - Agency - Permanent
-location: Oxford
-source: JobG8
-job_id: jobg8-23643_225798030
+title: Patient Pathway Administrator
+company: Oxford University Hospitals NHS Foundation Trust
+location: Oxford, OX3 9DU
+source: NHS Jobs
+job_id: nhs-5729139
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -172,18 +148,6 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DU
-source: NHS Jobs
-job_id: nhs-5727274
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist & Administrator
 company: Oxford Health NHS Trust
 location: Oxford, OX2 8TA
@@ -204,19 +168,7 @@ job_id: nhs-5725243
 reason: Approved conservative Oxford launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Oxford Health NHS Trust
-location: Oxford, OX3 7JH
-source: NHS Jobs
-job_id: nhs-5716518
-reason: Approved conservative Oxford launch catchment.
----
-
-## REVIEW (23)
+## REVIEW (24)
 
 ---
 action: 
@@ -462,6 +414,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Technical Administrator
+company: Cameo Consultancy - Agency - Permanent
+location: Banbury
+source: JobG8
+job_id: jobg8-23643_225764102
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Technical Publications Administrator
 company: Planet Recruitment - Agency - Permanent
 location: Abingdon
@@ -494,7 +458,7 @@ job_id: nhs-5707703
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (60)
+## EXCLUDE (62)
 
 ---
 action: 
@@ -765,6 +729,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: HR and Payroll Officer
+company: NFP People LTD - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2170144
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR and Payroll Officer
 company: Not For Profit People - Agency - Permanent
 location: Oxfordshire
 source: JobG8
@@ -872,18 +848,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Executive
-company: Plus One Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225823002
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Marketing Manager (Hybrid)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Oxfordshire
@@ -925,6 +889,18 @@ company: Carmichael UK - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225780408
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Payroll Supervisor
+company: Portfolio Payroll Limited - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225816023
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -1052,6 +1028,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Procurement Assistant
+company: Trinity Resource Solutions - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225796525
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Project & Procurement Assistant
 company: One Way Resourcing - Agency - Permanent
 location: Oxfordshire
@@ -1093,18 +1081,6 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225816178
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Guidant Global - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-108317671
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -1201,6 +1177,18 @@ company: Perfect Placement - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225805625
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor (Premium Brand)
+company: Performance Resourcing - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225819914
 reason: Broad county location; not Oxford-city evidence.
 ---
 

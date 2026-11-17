@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 33
+- automatic review: 32
 - automatic exclude: 0
 - effective include: 15
-- effective review: 33
+- effective review: 32
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -204,7 +204,7 @@ job_id: jobg8-2165151
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (32)
 
 ---
 action: 
@@ -239,18 +239,6 @@ company: Halecroft Recruitment - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225815533
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Platinum Recruitment Group - Agency - Permanent
-location: Dukinfield
-source: JobG8
-job_id: jobg8-2187150
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -334,7 +322,7 @@ title: Credit Controller
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2279291
+job_id: jobg8-2313913
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -395,6 +383,18 @@ company: Alliance Personnel - Agency - Temporary
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225808358
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Gtd Healthcare
+location: Denton, M34 2GP
+source: NHS Jobs
+job_id: nhs-5729674
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -514,7 +514,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-2283027
+job_id: jobg8-2319468
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -546,23 +546,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Practice Bookkeeper
-company: Square Peg Associates Ltd - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2151902
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger/Accounts Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2278397
+job_id: jobg8-2312934
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -594,11 +582,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Bayman Atkinson Smythe - Agency - Permanent
-location: Trafford
-source: JobG8
-job_id: jobg8-23643_225825293
+title: Ward Clerk
+company: Stockport NHS Foundation Trust
+location: Stockport, SK2 7JE
+source: NHS Jobs
+job_id: nhs-5731374
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 12
-- automatic exclude: 55
+- automatic review: 11
+- automatic exclude: 58
 - effective include: 16
-- effective review: 12
-- effective exclude: 55
+- effective review: 11
+- effective exclude: 58
 
 ## INCLUDE (16)
 
@@ -128,7 +128,7 @@ title: Part-time Payroll Admin
 company: Portfolio Payroll - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2152567
+job_id: jobg8-2319470
 reason: Approved Doncaster catchment.
 ---
 
@@ -216,7 +216,7 @@ job_id: nhs-5726734
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -330,23 +330,11 @@ reason: No approved Doncaster catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Retail & Brand Partnership Executive
-company: Elevation Recruitment Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2153824
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Trade Mark Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2280337
+job_id: jobg8-2314650
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -358,11 +346,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2303681
+job_id: jobg8-2309349
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (55)
+## EXCLUDE (58)
 
 ---
 action: 
@@ -456,7 +444,7 @@ title: Audience Development Coordinator - Local Authority - Libraries
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2210544
+job_id: jobg8-2309570
 reason: Separate employment market.
 ---
 
@@ -481,18 +469,6 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
 source: NHS Jobs
 job_id: nhs-5723458
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2TB
-source: NHS Jobs
-job_id: nhs-5724467
 reason: Separate employment market.
 ---
 
@@ -584,6 +560,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service Advisor - Apprentice
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_63201
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service and Logistics Coordinator
 company: Adecco - Agency - Permanent
 location: Sheffield
@@ -601,6 +589,18 @@ company: CRA Consulting - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2299591
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Demobilisation Fleet and Asset Coordinator
+company: Morgan Sindall Property Services - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2315412
 reason: Separate employment market.
 ---
 
@@ -716,18 +716,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: IP Administrator (Experienced)
-company: Withers & Rogers - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2153052
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Junior Digital Marketing Executive
 company: Back TO Work - Agency - Permanent
 location: Sheffield
@@ -744,7 +732,7 @@ title: Marketing and Communications Officer
 company: Get Staffed Online Recruitment Limited - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2231143
+job_id: jobg8-2310894
 reason: Separate employment market.
 ---
 
@@ -800,6 +788,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Medical Receptionist Administrator
+company: Foxhill Medical Centre
+location: Sheffield, S6 1GA
+source: NHS Jobs
+job_id: nhs-5730059
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: PART TIME ACCOUNT COORDINATOR
 company: Gi Group - Agency - Temporary
 location: Sheffield
@@ -816,7 +816,7 @@ title: Part Time Accounts Assistant
 company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2281395
+job_id: jobg8-2316529
 reason: Separate employment market.
 ---
 
@@ -933,6 +933,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Sheffield, S6 4TF
+source: NHS Jobs
+job_id: nhs-5730417
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
 company: Beauchief Medical Practice
 location: Sheffield, S8 0BJ, Sheffield, S174DQ
 source: NHS Jobs
@@ -968,11 +980,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: SEND Administrator
-company: Aston Academy
+title: Sales Support Executive
+company: Bowdon Associates Limited - Agency - Permanent
 location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
+source: JobG8
+job_id: jobg8-23643_225821916
 reason: Separate employment market.
 ---
 
@@ -992,11 +1004,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Technical Administrator
+company: Kingdom People - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225799720
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Temp Accounts Assistant - Charity Organisation
 company: Office Angels - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2281849
+job_id: jobg8-2316779
 reason: Separate employment market.
 ---
 

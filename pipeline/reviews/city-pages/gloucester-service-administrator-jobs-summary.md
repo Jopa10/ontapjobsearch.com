@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 69
+- automatic review: 75
 - automatic exclude: 0
 - effective include: 16
-- effective review: 69
+- effective review: 75
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225790550
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (69)
+## REVIEW (75)
 
 ---
 action: 
@@ -354,11 +354,35 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Care Navigator / Receptionist
+company: Sixways
+location: Cheltenham, GL52 6HS
+source: NHS Jobs
+job_id: nhs-5729034
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Client Services Administrator
 company: CKB Recruitment Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225807708
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Collections Coordinator
+company: Anderson Recruitment Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2316429
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -690,6 +714,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Management Accounts Assistant
+company: Crowe UK - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2318981
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Assistant - Hybrid Working!
 company: Anderson Recruitment Ltd - Agency - Permanent
 location: Gloucestershire
@@ -786,11 +822,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Ashley Rees Associates - Agency - Permanent
+title: Payroll Assistant
+company: Crowe UK - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2153208
+job_id: jobg8-2318842
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -827,6 +863,30 @@ company: Moxie and Mettle Limited - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-2174765
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Practice Administrator
+company: Easton Bevins Limited - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225838308
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Coordinator
+company: RE Recruitment - Agency - Permanent
+location: Cheltenham
+source: JobG8
+job_id: jobg8-23643_225838357
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -899,6 +959,18 @@ company: Travail Employment Group - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225826151
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Administrator
+company: Autograph Specialist Recruitment - Agency - Permanent
+location: Lydney
+source: JobG8
+job_id: jobg8-23643_225837697
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

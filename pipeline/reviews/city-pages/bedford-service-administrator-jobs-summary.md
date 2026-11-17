@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 26
+- automatic review: 32
 - automatic exclude: 0
 - effective include: 12
-- effective review: 26
+- effective review: 32
 - effective exclude: 0
 
 ## INCLUDE (12)
@@ -168,7 +168,7 @@ job_id: jobg8-23643_225782845
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (32)
 
 ---
 action: 
@@ -330,6 +330,54 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Legal Secretary
+company: Additional Resources - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225832105
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary
+company: Additional Resources Ltd - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2320387
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary
+company: Oculus Legal Group - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-2198398
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary (Private Client)
+company: LR Legal Recruitment - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2197742
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Maintenance Planning Administrator
 company: Michael Page - Agency - Permanent
 location: Bedfordshire
@@ -354,6 +402,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Paralegal/Fee Earner - Private Client
+company: Reed - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2164060
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patient Co-ordinator, Langford, North Somerset
 company: Menlo Park - Agency - Permanent
 location: Bedfordshire
@@ -371,6 +431,18 @@ company: Adapro Talent Partners - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225765202
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2312321
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

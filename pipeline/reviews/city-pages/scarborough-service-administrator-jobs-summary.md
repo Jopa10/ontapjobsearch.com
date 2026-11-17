@@ -198,11 +198,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Inicio Funding Solutions Ltd_2026-10-19-08:21:16.112 - Agency - Permanent
-location: Yorkshire
+title: Credit Controller - Harrogate
+company: Willow Recruit - Agency - Permanent
+location: Harrogate
 source: JobG8
-job_id: jobg8-108320734
+job_id: jobg8-2308097
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -210,11 +210,23 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller - Harrogate
-company: Willow Recruit - Agency - Permanent
-location: Harrogate
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Bedale
 source: JobG8
-job_id: jobg8-2308097
+job_id: jobg8-20279_63331-002a3d68d1ccfcef2ea5de713d71ff34
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-20279_63331-5b8c65a16e74a9f9ccfca20e1c562ac6
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -346,7 +358,7 @@ title: Finance Assistant
 company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2296072
+job_id: jobg8-2311259
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -395,18 +407,6 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2300535
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant - Residential Conveyancing
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Selby
-source: JobG8
-job_id: jobg8-2149792
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

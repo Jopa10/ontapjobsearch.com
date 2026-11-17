@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 119
-- automatic exclude: 32
-- effective include: 11
-- effective review: 119
-- effective exclude: 32
+- automatic include: 12
+- automatic review: 122
+- automatic exclude: 35
+- effective include: 12
+- effective review: 122
+- effective exclude: 35
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Office Angels - Agency - Contract
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225819747
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contracts Administrator
+company: Matchtech - Agency - Contract
+location: Brighton
+source: JobG8
+job_id: jobg8-23643_225838562
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -156,7 +168,7 @@ job_id: nhs-5704086
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (119)
+## REVIEW (122)
 
 ---
 action: 
@@ -211,18 +223,6 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: Tony Alan Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2219849
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
 company: TPF Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
@@ -238,7 +238,7 @@ title: Accounts Payable Assistant
 company: Reed - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2280559
+job_id: jobg8-2314993
 reason: Broad location; review before city inclusion.
 ---
 
@@ -334,8 +334,20 @@ title: Bookkeeper
 company: Recruitment Solutions - Agency - Permanent
 location: East Grinstead
 source: JobG8
-job_id: jobg8-2279262
+job_id: jobg8-2313904
 reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Building Safety Levy and Building Control Administrator
+company: Hays - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-108313716
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -426,6 +438,18 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
+title: Client Services Administrator
+company: First Recruitment Services - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225840273
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Commercial Property Paralegal
 company: CKB Recruitment Ltd - Agency - Permanent
 location: Sussex
@@ -454,7 +478,7 @@ title: Commercial Property Paralegal
 company: Recruitment Solutions - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2231149
+job_id: jobg8-2310900
 reason: Broad location; review before city inclusion.
 ---
 
@@ -550,7 +574,7 @@ title: Credit Control Assistant Trainee Finance Assistant
 company: Harvey John - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2283821
+job_id: jobg8-2320493
 reason: Broad location; review before city inclusion.
 ---
 
@@ -599,6 +623,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2308707
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: NC Associates - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2312022
 reason: Broad location; review before city inclusion.
 ---
 
@@ -707,18 +743,6 @@ company: Reed - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2305320
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Marketing Executive
-company: William Reed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2221606
 reason: Broad location; review before city inclusion.
 ---
 
@@ -922,7 +946,7 @@ title: Marketing & Membership Manager
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2280640
+job_id: jobg8-2315425
 reason: Broad location; review before city inclusion.
 ---
 
@@ -970,7 +994,7 @@ title: Marketing Manager
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2280672
+job_id: jobg8-2315449
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1266,6 +1290,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Property Coordinator - Immediate Start
+company: Office Angels - Agency - Temporary
+location: Burgess Hill
+source: JobG8
+job_id: jobg8-23643_225841315
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Property Legal Secretary
 company: TN Recruits - Agency - Permanent
 location: Sussex
@@ -1471,6 +1507,18 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
+company: Excel Resourcing - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225840605
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
 company: Lookers PLC - Agency - Permanent
 location: Sussex
 source: JobG8
@@ -1486,7 +1534,7 @@ title: Service Advisor
 company: Pembrook Resourcing - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2230644
+job_id: jobg8-2311343
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1495,10 +1543,10 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
-company: Perfect Placement Uk Ltd - Agency - Permanent
+company: Reed - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2151146
+job_id: jobg8-2315775
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1518,11 +1566,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Streetworks Planner (12 month FTC)
-company: Browne Construction - Agency - Temporary
+title: Street Works Administrator
+company: AWC STAFF SERVICES LTD - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225806286
+job_id: jobg8-23643_225825855
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1582,11 +1630,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2303666
+job_id: jobg8-2309334
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -1616,11 +1664,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Payable
-company: CMA Recruitment Group - Agency - Permanent
-location: Chichester
+title: Accounts Payable Assistant
+company: Reed - Agency - Permanent
+location: Crawley
 source: JobG8
-job_id: jobg8-2223725
+job_id: jobg8-2311069
 reason: Separate employment market.
 ---
 
@@ -1669,6 +1717,18 @@ company: Morgan Mckinley (Crawley) - Agency - Permanent
 location: Horsham
 source: JobG8
 job_id: jobg8-23643_225808738
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Building Safety Levy and Building Control Admin Officer
+company: Daniel Owen Ltd - Agency - Temporary
+location: Crawley
+source: JobG8
+job_id: jobg8-23643_225830867
 reason: Separate employment market.
 ---
 
@@ -1736,6 +1796,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Credit Controller
+company: Reed - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-2318254
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Crewing Operations Coordinator
 company: Reed - Agency - Permanent
 location: Crawley
@@ -1784,11 +1856,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Global Shipping Coordinator
+company: Lloyd Recruitment - East Grinstead - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-23643_225746859
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Internal Sales Executive
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-23643_225841200
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Legal Assistant
 company: Recruitment Solutions - Agency - Permanent
 location: Eastbourne
 source: JobG8
-job_id: jobg8-2231088
+job_id: jobg8-2310733
 reason: Separate employment market.
 ---
 
@@ -1836,7 +1932,7 @@ title: Private Client Legal Secretary
 company: Recruitment Solutions - Agency - Permanent
 location: Eastbourne
 source: JobG8
-job_id: jobg8-2153115
+job_id: jobg8-2310883
 reason: Separate employment market.
 ---
 
@@ -1873,18 +1969,6 @@ company: Hastings & Rother Healthcare
 location: St. Leonards-on-sea, TN37 6BG, Hastings, TN34 3DW, St. Leonards-on-sea, TN38 9PA
 source: NHS Jobs
 job_id: nhs-5713590
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist and Administrative Assistant
-company: Heron Park Primary Academy
-location: Eastbourne
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrative-assistant-heron-park-primary-academy
 reason: Separate employment market.
 ---
 

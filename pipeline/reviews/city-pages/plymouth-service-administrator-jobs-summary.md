@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 78
+- automatic include: 5
+- automatic review: 85
 - automatic exclude: 0
-- effective include: 6
-- effective review: 78
+- effective include: 5
+- effective review: 85
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Reed - Agency - Permanent
 location: Plymouth
 source: JobG8
 job_id: jobg8-2301323
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Interim Purchase Ledger
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Plymouth
-source: JobG8
-job_id: jobg8-2287996
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -96,7 +84,7 @@ job_id: jobg8-23643_225767515
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (78)
+## REVIEW (85)
 
 ---
 action: 
@@ -154,7 +142,7 @@ title: Accounts Assistant
 company: Office Angels - Agency - Permanent
 location: Cullompton
 source: JobG8
-job_id: jobg8-2233369
+job_id: jobg8-2313725
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -342,11 +330,35 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Assistant
+company: DK Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225807508
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Conveyancing Legal Assistant
 company: G2 Legal Limited - Agency - Permanent
 location: Totnes
 source: JobG8
 job_id: jobg8-2162129
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Paralegal
+company: SJC Partners - Agency - Permanent
+location: Honiton
+source: JobG8
+job_id: jobg8-2206998
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -574,7 +586,7 @@ title: Finance Assistant
 company: Sellick Partnership - Agency - Permanent
 location: Exeter
 source: JobG8
-job_id: jobg8-2280448
+job_id: jobg8-2314825
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -599,6 +611,18 @@ company: Butler Rose - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2293859
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Fleet Distribution Administrator
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107939734
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -762,11 +786,23 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Private Client Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Tiverton
+source: JobG8
+job_id: jobg8-2315383
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project Finance Support Officer (Hybrid)
 company: Essential Employment - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2278286
+job_id: jobg8-2312672
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -779,6 +815,18 @@ company: Lockhart Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225801298
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: N.E. Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2312071
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -930,6 +978,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5731221
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Exeter
@@ -1019,6 +1079,18 @@ company: Interaction Recruitment - Agency - Temporary
 location: Cullompton
 source: JobG8
 job_id: jobg8-23643_225755551
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Finance Officer
+company: Trial Balance Consulting - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2313087
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

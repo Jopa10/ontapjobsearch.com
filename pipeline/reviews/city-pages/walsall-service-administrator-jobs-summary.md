@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 53
+- automatic review: 55
 - automatic exclude: 0
 - effective include: 11
-- effective review: 53
+- effective review: 55
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: jobg8-23643_225397260
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (55)
 
 ---
 action: 
@@ -251,6 +251,18 @@ company: Mitchell Adam - Agency - Permanent
 location: West Midlands
 source: JobG8
 job_id: jobg8-2289233
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: SF Partners - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-2314376
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -690,35 +702,23 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Site Administrator
+company: We Are Footprint - Agency - Contract
+location: Oldbury
+source: JobG8
+job_id: jobg8-23643_225816227
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Social Housing Repairs Planner - Awaab's Law
 company: Niyaa People - Agency - Temporary
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-108307716
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Supply Chain Administrator
-company: Adecco - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-2301415
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Supply Chain Administrator
-company: Adecco - Agency - Temporary
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-23643_225811182
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -767,6 +767,30 @@ company: Black Country Healthcare NHS Foundation Trust
 location: Oldbury, B69 1EJ
 source: NHS Jobs
 job_id: nhs-5725126
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Black Country Healthcare NHS Foundation Trust
+location: Oldbury, B69 2DG
+source: NHS Jobs
+job_id: nhs-5730000
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Black Country Healthcare NHS Foundation Trust
+location: Oldbury, B69 2DG
+source: NHS Jobs
+job_id: nhs-5730022
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 

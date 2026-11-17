@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 32
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 16
-- effective review: 32
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -164,7 +164,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-2283027
+job_id: jobg8-2319468
 reason: Exact approved Stockport workplace.
 ---
 
@@ -196,18 +196,6 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Practice Bookkeeper
-company: Square Peg Associates Ltd - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2151902
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Administrator
 company: Adecco - Agency - Temporary
 location: Stockport
@@ -216,7 +204,19 @@ job_id: jobg8-23643_225778251
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (32)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: Stockport NHS Foundation Trust
+location: Stockport, SK2 7JE
+source: NHS Jobs
+job_id: nhs-5731374
+reason: Exact approved Stockport workplace.
+---
+
+## REVIEW (31)
 
 ---
 action: 
@@ -263,18 +263,6 @@ company: NC Associates - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-2179220
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Platinum Recruitment Group - Agency - Permanent
-location: Dukinfield
-source: JobG8
-job_id: jobg8-2187150
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -346,7 +334,7 @@ title: Credit Controller
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2279291
+job_id: jobg8-2313913
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -455,6 +443,18 @@ company: Conrad Consulting Ltd - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225795761
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Gtd Healthcare
+location: Denton, M34 2GP
+source: NHS Jobs
+job_id: nhs-5729674
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -574,7 +574,7 @@ title: Purchase Ledger/Accounts Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2278397
+job_id: jobg8-2312934
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -587,18 +587,6 @@ company: Halecroft Recruitment - Agency - Temporary
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225757919
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Bayman Atkinson Smythe - Agency - Permanent
-location: Trafford
-source: JobG8
-job_id: jobg8-23643_225825293
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

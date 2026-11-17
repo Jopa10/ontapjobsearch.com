@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 76
+- automatic review: 78
 - automatic exclude: 0
 - effective include: 7
-- effective review: 76
+- effective review: 78
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -32,7 +32,7 @@ title: Marketing and Communications Officer
 company: Get Staffed Online Recruitment Limited - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2231143
+job_id: jobg8-2310894
 reason: Exact approved Rotherham workplace.
 ---
 
@@ -104,11 +104,11 @@ title: Temp Accounts Assistant - Charity Organisation
 company: Office Angels - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2281849
+job_id: jobg8-2316779
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (76)
+## REVIEW (78)
 
 ---
 action: 
@@ -214,7 +214,7 @@ title: Audience Development Coordinator - Local Authority - Libraries
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2210544
+job_id: jobg8-2309570
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -287,18 +287,6 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
 source: NHS Jobs
 job_id: nhs-5723458
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2TB
-source: NHS Jobs
-job_id: nhs-5724467
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -414,6 +402,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor - Apprentice
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_63201
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service and Logistics Coordinator
 company: Adecco - Agency - Permanent
 location: Sheffield
@@ -431,6 +431,18 @@ company: CRA Consulting - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2299591
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Demobilisation Fleet and Asset Coordinator
+company: Morgan Sindall Property Services - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2315412
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -582,18 +594,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: IP Administrator (Experienced)
-company: Withers & Rogers - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2153052
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Digital Marketing Executive
 company: Back TO Work - Agency - Permanent
 location: Sheffield
@@ -666,6 +666,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist Administrator
+company: Foxhill Medical Centre
+location: Sheffield, S6 1GA
+source: NHS Jobs
+job_id: nhs-5730059
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Paralegal
 company: Reed - Agency - Permanent
 location: Doncaster
@@ -694,7 +706,7 @@ title: Part Time Accounts Assistant
 company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2281395
+job_id: jobg8-2316529
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -706,7 +718,7 @@ title: Part-time Payroll Admin
 company: Portfolio Payroll - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2152567
+job_id: jobg8-2319470
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -883,6 +895,18 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Sheffield, S6 4TF
+source: NHS Jobs
+job_id: nhs-5730417
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
 company: Beauchief Medical Practice
 location: Sheffield, S8 0BJ, Sheffield, S174DQ
 source: NHS Jobs
@@ -930,18 +954,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Retail & Brand Partnership Executive
-company: Elevation Recruitment Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2153824
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Ledger Administrator
 company: Sewell Wallis Ltd - Agency - Temporary
 location: Sheffield
@@ -954,11 +966,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: SEND Administrator
-company: Aston Academy
+title: Sales Support Executive
+company: Bowdon Associates Limited - Agency - Permanent
 location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
+source: JobG8
+job_id: jobg8-23643_225821916
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -971,6 +983,18 @@ company: Albion Search - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225823403
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator
+company: Kingdom People - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225799720
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -994,7 +1018,7 @@ title: Trade Mark Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2280337
+job_id: jobg8-2314650
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -1006,7 +1030,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2303681
+job_id: jobg8-2309349
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

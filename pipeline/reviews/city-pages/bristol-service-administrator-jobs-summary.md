@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 69
+- Effective included jobs: 73
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 69
-- automatic review: 14
+- automatic include: 73
+- automatic review: 15
 - automatic exclude: 9
-- effective include: 69
-- effective review: 14
+- effective include: 73
+- effective review: 15
 - effective exclude: 9
 
-## INCLUDE (69)
+## INCLUDE (73)
 
 ---
 action: 
@@ -77,6 +77,18 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
+company: Bristol NHS Foundation Trust
+location: Bristol, BS10 5NB
+source: NHS Jobs
+job_id: nhs-5730875
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
 company: NMS Recruit Ltd t/a Russell Taylor Group - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -105,18 +117,6 @@ company: Rise Technical Recruitment Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2200810
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sirona care & health CIC
-location: Warmley, Bristol, BS30 8XP
-source: NHS Jobs
-job_id: nhs-5699781
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -224,7 +224,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2278033
+job_id: jobg8-2312269
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -328,6 +328,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisors
+company: Tate - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225840513
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Document Controller
 company: Conrad Consulting Ltd - Agency - Permanent
 location: Bristol
@@ -393,6 +405,18 @@ company: Morgan McKinley (South West) - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225760729
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: red recruitment - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2310630
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -508,6 +532,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Jaguar Land Rover Accounts Assistant
+company: Sytner Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2311038
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal Assistant
 company: eNL Legal Recruitment - Agency - Permanent
 location: Bristol
@@ -525,6 +561,18 @@ company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2297617
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Logistics Operations Coordinator
+company: Freight Personnel - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225839394
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -561,6 +609,18 @@ company: Alexander Mae (Bristol) Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2294309
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Finance Administrator
+company: Pertemps Bristol Commercial - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2316352
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -726,7 +786,7 @@ decision: include
 automatic_decision: include
 title: Senior Administrator
 company: Sirona care & health CIC
-location: Bristol, BS6 6AU
+location: Bristol, BS15 1LF
 source: NHS Jobs
 job_id: nhs-5725048
 reason: Approved conservative Bristol launch catchment.
@@ -796,23 +856,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Social Media and Marketing Executive
-company: Moxie and Mettle Limited - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2153487
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Technical Administrator
 company: Acorn by Synergie - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2280994
+job_id: jobg8-2315806
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -852,7 +900,7 @@ job_id: jobg8-23643_225821474
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (15)
 
 ---
 action: 
@@ -966,6 +1014,18 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Personal Injury Paralegal (Remote)
+company: CRA Consulting - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2310682
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: PPC Executive - German Speaking
 company: Advancing People - Agency - Permanent
 location: Somerset
@@ -994,7 +1054,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2303667
+job_id: jobg8-2309335
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -1080,7 +1140,7 @@ title: Family Legal Assistant
 company: Yolk Recruitment Ltd - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2281885
+job_id: jobg8-2316707
 reason: Separate employment market.
 ---
 
@@ -1092,7 +1152,7 @@ title: Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2230307
+job_id: jobg8-2309294
 reason: Separate employment market.
 ---
 
@@ -1104,7 +1164,7 @@ title: Finance Assistant
 company: Robert Half - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2283143
+job_id: jobg8-2319617
 reason: Separate employment market.
 ---
 

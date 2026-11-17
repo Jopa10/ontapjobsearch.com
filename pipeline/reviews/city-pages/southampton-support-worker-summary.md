@@ -4,8 +4,8 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 8
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 15
-- automatic exclude: 5
-- effective include: 3
-- effective review: 15
-- effective exclude: 5
+- automatic include: 8
+- automatic review: 13
+- automatic exclude: 7
+- effective include: 8
+- effective review: 13
+- effective exclude: 7
 
-## INCLUDE (3)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: S.N.G Recruitment Solutions Limited - Agency - Temporary
 location: Southampton
 source: JobG8
 job_id: jobg8-108288427
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Childrens Support Worker
+company: Vetro Recruitment - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225670771
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Healthcare Assistant
+company: Nurseplus UK Ltd - Agency - Temporary
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225815438
 reason: Approved Southampton catchment.
 ---
 
@@ -52,6 +76,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Hourly Lifestyle / Care Assistant for a Female Chemistry Uni Student
+company: Ask Jules - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-108269694
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Support Worker
 company: First For Support - Agency - Temporary
 location: Southampton
@@ -60,19 +96,31 @@ job_id: jobg8-23643_225813909
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (15)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Support Worker
+company: Homecare First - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225779445
+reason: Approved Southampton catchment.
+---
 
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Care & Support Worker
-company: Southern Housing - Agency - Permanent
-location: Isle of Wight
+decision: include
+automatic_decision: include
+title: Support Worker
+company: Nurseplus UK Ltd - Agency - Temporary
+location: Southampton
 source: JobG8
-job_id: jobg8-108270897
-reason: No approved Southampton catchment rule matched; local review required.
+job_id: jobg8-23643_225815366
+reason: Approved Southampton catchment.
 ---
+
+## REVIEW (13)
 
 ---
 action: 
@@ -126,36 +174,24 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Extra Care Support Worker
-company: SCA Care - Agency - Temporary
-location: New Milton
-source: JobG8
-job_id: jobg8-108321029
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Female Support Worker
-company: Choice Support - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225819638
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Health Care Assistants (HCA)
 company: Varang Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_209680922
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Healthcare Assistant
+company: Evolve Staffing Ltd - Agency - Permanent
+location: Ryde
+source: JobG8
+job_id: jobg8-23643_225815813
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -242,7 +278,7 @@ job_id: jobg8-1401786329
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -296,10 +332,34 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Secure Children's Home Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-1401786178
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Specialist Care Support Worker
 company: SCA Care - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-108298282
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Support Worker
+company: Consensus Support Services Limited - Agency - Permanent
+location: Farnborough
+source: JobG8
+job_id: jobg8-108307172
 reason: Separate employment market.
 ---

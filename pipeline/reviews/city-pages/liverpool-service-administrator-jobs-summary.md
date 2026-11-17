@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 47
+- Effective included jobs: 48
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 47
+- automatic include: 48
 - automatic review: 10
 - automatic exclude: 0
-- effective include: 47
+- effective include: 48
 - effective review: 10
 - effective exclude: 0
 
-## INCLUDE (47)
+## INCLUDE (48)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Accounts Assistant
+company: Resourcery Group - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2314884
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Accounts Assistant / Bookkeeper
 company: Beam Recruit - Agency - Permanent
 location: Liverpool
@@ -116,7 +128,7 @@ title: Bookkeeper
 company: Reed - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2282829
+job_id: jobg8-2319103
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -634,7 +646,7 @@ title: Clinical Negligence Paralegal
 company: eNL Legal Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2277120
+job_id: jobg8-2310020
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -706,7 +718,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2303675
+job_id: jobg8-2309343
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

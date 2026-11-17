@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 32
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
+- automatic include: 32
 - automatic review: 13
 - automatic exclude: 0
-- effective include: 33
+- effective include: 32
 - effective review: 13
 - effective exclude: 0
 
-## INCLUDE (33)
+## INCLUDE (32)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Gillespie People Solutions - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225786572
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Pertemps Scotland - Agency - Temporary
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225758655
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -128,7 +116,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2278056
+job_id: jobg8-2312283
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -141,6 +129,18 @@ company: ICONIC RESOURCING LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-2203978
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: ICONIC RESOURCING LTD - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2318189
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -292,6 +292,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Junior Financial Administrator - Edinburgh Hybrid - 26/27K
+company: Lorien - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225818489
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal Administrator
 company: Reed - Agency - Permanent
 location: Edinburgh
@@ -340,18 +352,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Administrator
-company: Si Recruitment - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2149770
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Procurement Assistant
 company: Robert Half - Agency - Permanent
 location: Edinburgh
@@ -381,18 +381,6 @@ company: Office Angels - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225822027
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temp Administrator (Pot to go Perm) HYBRID
-company: Office Angels - Agency - Temporary
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225789104
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
