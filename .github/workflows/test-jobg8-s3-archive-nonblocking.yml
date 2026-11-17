@@ -1,6 +1,9 @@
 name: Verify JobG8 S3 archive failure is non-blocking
 
 on:
+  push:
+    branches:
+      - fix/jobg8-s3-archive-nonblocking
   pull_request:
     paths:
       - ".github/workflows/run-full-jobg8-daily-process.yml"
