@@ -171,7 +171,7 @@ jobs:
       - name: Warn if JobG8 S3 archive failed
         if: steps.archive_raw_feed.outcome == 'failure'
         run: |
-          echo "::warning title=JobG8 S3 archive failed::The validated feed is available in this GitHub run. Selection and publishing will continue; the S3 copy needs recovery."
+          echo "::warning title=JobG8 S3 archive failed::Selection and publishing continue from the local feed. The S3 copy was not saved, and the runner's temporary copy disappears when this job ends."
 
       - name: Read LIVE slices from register
         id: slice-register
