@@ -1,19 +1,19 @@
 {
   "mode": "website_parity",
-  "purpose": "Preview-only complete Next.js website build from read-back Neon scoped publisher rows, preserving external sources and comparing latest completed publication. Selection rules and production remain untouched.",
-  "archiveDate": "2026-11-16",
-  "productionOutputRunId": 43824436796,
+  "purpose": "Preview-only Tuesday 17 November complete Next.js website build from Tuesday's read-back Neon records; compare JobG8 scopes to actual Tuesday production artifacts, preserve existing external-source inputs, and verify routes with noindex.",
+  "archiveDate": "2026-11-17",
+  "productionOutputRunId": 44039319889,
   "publishedOutputArtifacts": [
     {
       "name": "service-admin-output",
-      "id": 14208439791,
-      "sha256": "cfa469ea836f5d2d0b12421003dc1b31302d85ce0898cb533948a1307f1b2dbc"
+      "id": 14311541647,
+      "sha256": "4810e5e48995767e5db4f234b5defde7aaa01907abea56239769d010bcaa6f71"
     },
     {
       "name": "support-worker-output",
-      "id": 14209236979,
-      "sha256": "b251a3ee3c57310496d91da95ad79ef3784d81c45dc66839a01a2c2137433777"
+      "id": 14311691542,
+      "sha256": "09bfd854487b24e2ded737285d26503799b03dba9eb296a9ac5a4802080dd369"
     }
   ],
-  "attempt": 4
+  "attempt": 5
 }
