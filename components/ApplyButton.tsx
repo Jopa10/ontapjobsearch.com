@@ -127,7 +127,7 @@ export default function ApplyButton({
                     {([["Job clicked on + similar roles", role, setRole], ["Location", alertLocation, setAlertLocation], ["Salary", salary, setSalary]] as const).map(([label, value, setValue]) => (
                       <label key={label} style={{ display: "block", margin: "4px 0", color: "#475569", fontSize: 14 }}>
                         {label}
-                        <input type="text" required={label === "Role" || label === "Location"} disabled={state === "saving"} maxLength={120} value={value} onChange={event => setValue(event.target.value)}
+                        <input type="text" required={label === "Job clicked on + similar roles" || label === "Location"} disabled={state === "saving"} maxLength={120} value={value} onChange={event => setValue(event.target.value)}
                           style={{ display: "block", width: "100%", height: 38, marginTop: 3, padding: "8px 10px", border: "1px solid #cbd5e1", borderRadius: 6, background: "#fff", color: "#171717", font: "inherit" }} />
                       </label>
                     ))}
