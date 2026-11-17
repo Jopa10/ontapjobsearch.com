@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import pg from 'pg';
+import {loadDailyFailureProbe,injectDailyFailure,verifyNoDailyFailureResidue} from './daily-failure-probe.mjs';
 import {readCurrentPublication} from './current-publication.mjs';
 import {runMasterCleanup} from './master-cleanup.mjs';
 import {gunzipSync} from 'node:zlib';
@@ -37,6 +38,7 @@ const read=async()=> (await c.query('SELECT '+columns+' FROM '+table+' WHERE fee
 function different(a,b){return !a||fields.some(f=>a[f]!==b[f])||a.archive_sha256!==snapshot.archiveSha256||fingerprint(a.source_provenance)!==fingerprint(expectedProvenance);}
 try{
  await c.connect();
+ const failureProbe=await loadDailyFailureProbe(c,source);
  const beforeBytes=Number((await c.query('SELECT pg_database_size(current_database())::text AS bytes')).rows[0].bytes);
  await c.query('BEGIN');
  try{
@@ -61,6 +63,7 @@ try{
    'ON CONFLICT(feed_date,public_id) DO UPDATE SET decision=excluded.decision,decision_reason=excluded.decision_reason,selector_revision=excluded.selector_revision,archive_sha256=excluded.archive_sha256,'+
    'raw_payload=CASE WHEN t.payload_sha256 IS DISTINCT FROM excluded.payload_sha256 THEN excluded.raw_payload ELSE t.raw_payload END,payload_sha256=excluded.payload_sha256,source_provenance=excluded.source_provenance,source_row_position=excluded.source_row_position',
    [snapshot.feedDate,snapshot.archiveSha256,JSON.stringify(expectedProvenance),JSON.stringify(delta.slice(i,i+100))]);
+  await injectDailyFailure(c,failureProbe,'after-payload-write',{snapshot,source});
   const got=await read(),gotById=new Map(got.map(r=>[r.public_id,r]));
   assert.equal(got.length,snapshot.records.length);
   assert.deepEqual([...gotById.keys()].sort(),[...seen].sort());
@@ -94,6 +97,7 @@ try{
   await c.query('INSERT INTO ontap_shadow.daily_refresh_receipts(feed_date,production_commit,feed_run_id,record_count,state_sha256) VALUES($1::date,$2,$3,$4,$5) ON CONFLICT(feed_date) DO UPDATE SET production_commit=excluded.production_commit,feed_run_id=excluded.feed_run_id,record_count=excluded.record_count,state_sha256=excluded.state_sha256 WHERE daily_refresh_receipts.state_sha256 IS DISTINCT FROM excluded.state_sha256',[snapshot.feedDate,snapshot.productionAppCommit,snapshot.productionWorkflowRunId,got.length,stateDigest]);
   const afterBytes=Number((await c.query('SELECT pg_database_size(current_database())::text AS bytes')).rows[0].bytes);
   assert.ok(afterBytes+RESERVE<=MAX,'Post-write Preview reserve breached');
+  await injectDailyFailure(c,failureProbe,'before-commit',{snapshot,source});
   await c.query('COMMIT');
   const active=(await c.query('SELECT feed_date::text,record_count,state_sha256 FROM ontap_shadow.daily_refresh_receipts ORDER BY feed_date DESC LIMIT 1')).rows[0];
   assert.equal(active.feed_date,snapshot.feedDate);assert.equal(active.record_count,got.length);assert.equal(active.state_sha256,stateDigest);
@@ -101,7 +105,8 @@ try{
   assert.equal(visible.feedDate,snapshot.feedDate);
   assert.deepEqual(visible.records.map(r=>r.public_id).sort(),[...selected].sort());
   const masterCleanupPlan=await runMasterCleanup(c,{asOfDate:snapshot.feedDate,mode:'dry-run'});
-  const report={masterCleanupPlan,currentPublicationReaderVerified:true,status:'passed',mode:'automatic_daily_refresh',feedDate:snapshot.feedDate,dateProvidedByRequest:false,productionDeploymentRunId:source.productionDeploymentRunId,productionOutputRunId:snapshot.productionWorkflowRunId,productionCommit:snapshot.productionAppCommit,selectedIds:selected.size,reviewOnlyIds:got.length-selected.size,reviewListIds:snapshot.reviewIds,neonRows:got.length,
+  const failureResidue=await verifyNoDailyFailureResidue(c,snapshot.feedDate);
+  const report={failureResidue,masterCleanupPlan,currentPublicationReaderVerified:true,status:'passed',mode:'automatic_daily_refresh',feedDate:snapshot.feedDate,dateProvidedByRequest:false,productionDeploymentRunId:source.productionDeploymentRunId,productionOutputRunId:snapshot.productionWorkflowRunId,productionCommit:snapshot.productionAppCommit,selectedIds:selected.size,reviewOnlyIds:got.length-selected.size,reviewListIds:snapshot.reviewIds,neonRows:got.length,
    exactIdsAndDecisionsMatch:true,fullPayloadAndHashesMatch:true,exactFeedPositionsMatch:true,scopeCount:scopes.length,exactScopeOrderingMatch:true,
    insertedRows:newRows.length,updatedPayloadRows:changedPayloads.length,metadataOnlyUpdatedRows:metadataOnly,unchangedRows:snapshot.records.length-delta.length,
    identicalReplayRowsToWrite:0,duplicates:0,activeFeedDate:active.feed_date,existingVerifiedPreviewScopesMatch:previousPreviewBuildMatches,excludedPayloadsWritten:0,
