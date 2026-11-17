@@ -1,6 +1,6 @@
 # Tuesday 17 November 2026 — Neon Preview migration checkpoint
 
-Status: **Full Tuesday SELECT/REVIEW payload write/readback and full-feed selector parity passed. The website storage blocker is resolved, a complete Neon-backed Preview build passed, and final comparison against the completed Tuesday website publication is in progress. Preview safeguards, EXCLUDE retention boundaries and real Neon rollback verification passed. Production remains unchanged.**
+Status: **Full Tuesday SELECT/REVIEW payload write/readback and full-feed selector parity passed. The website storage blocker is resolved, a complete Neon-backed Preview build passed, and final comparison against the completed Tuesday website publication passed. Preview safeguards, EXCLUDE retention boundaries and real Neon rollback verification passed. Production remains unchanged.**
 
 ## Exact Tuesday source and production reference
 
@@ -31,7 +31,7 @@ Workflow **44059470460** used Tuesday production artifacts as the immutable comp
 
 1. Run daily Neon refreshes on at least two more publication days to verify that the date follows the current feed and that retention/expiry behaves as intended; Tuesday alone does not prove rollover.
 2. Finish a separate rule-change replay against the exact Tuesday feed. Tuesday production used the merged rules and Neon holds those production decisions, but no isolated before/after ID comparison was completed. The PR #336 branch’s selector core is stale relative to PR #342, so do not use it as the revised-rule replay until aligned to the production source.
-3. Complete Neon-backed website route/build, scope ordering, external-source composition, and SEO checks after resolving the headroom blocker. Tuesday’s attempt did not establish full website parity.
+3. Website build, final 316-file membership/order and external-source composition checks have now passed (see follow-on receipts below); do not repeat them. Final authenticated route checks are being collected.
 4. Test production safeguards and rollback before any cutover.
 
 ## Guardrails and branch state
@@ -99,7 +99,7 @@ Workflow **44072468086**, evidence artifact **14323811386**, passed.
 - Scope occurrences across those compared website files: **7,927 JobG8**, **360 NHS Jobs**, **45 Teaching Vacancies**. These are repeated placements across files, not unique job counts.
 - Final snapshot in Neon: **6,990** publisher rows / **256** scopes; **6,680** JobG8 scope occurrences / **5,372** unique JobG8 IDs; **310** approved external-source scope occurrences. Compressed bytes **5,600,375**; uncompressed **24,286,392**; SHA-256 `d1a387b3b6b95242403cd71265ff1558818f13204273691f869fcb9b91e9af7e`.
 - Latest recorded database bytes after snapshot replacement **686,579,712**, below the unchanged 800 MiB ceiling with the 64 MiB reserve.
-- The exact final build and live route checks are still being collected; update this section with their final receipts.
+- Final full website build workflow **44073576579** passed; evidence artifact **14323974863**; deployment **dpl_371jhLTVUajoQKeH8FiqgqxiNXG5** is READY. Next.js generated **6,036** pages. Authenticated live route checks are being collected separately.
 
 ### Continuation instructions
 
