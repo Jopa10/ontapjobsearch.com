@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import pg from 'pg';
 import {readCurrentPublication} from './current-publication.mjs';
+import {runMasterCleanup} from './master-cleanup.mjs';
 import {gunzipSync} from 'node:zlib';
 import {requirePreview,hash,MAX,RESERVE} from './publisher-safeguards.mjs';
 requirePreview(process.env);
@@ -99,7 +100,8 @@ try{
   const visible=await readCurrentPublication(c);
   assert.equal(visible.feedDate,snapshot.feedDate);
   assert.deepEqual(visible.records.map(r=>r.public_id).sort(),[...selected].sort());
-  const report={currentPublicationReaderVerified:true,status:'passed',mode:'automatic_daily_refresh',feedDate:snapshot.feedDate,dateProvidedByRequest:false,productionDeploymentRunId:source.productionDeploymentRunId,productionOutputRunId:snapshot.productionWorkflowRunId,productionCommit:snapshot.productionAppCommit,selectedIds:selected.size,reviewOnlyIds:got.length-selected.size,reviewListIds:snapshot.reviewIds,neonRows:got.length,
+  const masterCleanupPlan=await runMasterCleanup(c,{asOfDate:snapshot.feedDate,mode:'dry-run'});
+  const report={masterCleanupPlan,currentPublicationReaderVerified:true,status:'passed',mode:'automatic_daily_refresh',feedDate:snapshot.feedDate,dateProvidedByRequest:false,productionDeploymentRunId:source.productionDeploymentRunId,productionOutputRunId:snapshot.productionWorkflowRunId,productionCommit:snapshot.productionAppCommit,selectedIds:selected.size,reviewOnlyIds:got.length-selected.size,reviewListIds:snapshot.reviewIds,neonRows:got.length,
    exactIdsAndDecisionsMatch:true,fullPayloadAndHashesMatch:true,exactFeedPositionsMatch:true,scopeCount:scopes.length,exactScopeOrderingMatch:true,
    insertedRows:newRows.length,updatedPayloadRows:changedPayloads.length,metadataOnlyUpdatedRows:metadataOnly,unchangedRows:snapshot.records.length-delta.length,
    identicalReplayRowsToWrite:0,duplicates:0,activeFeedDate:active.feed_date,existingVerifiedPreviewScopesMatch:previousPreviewBuildMatches,excludedPayloadsWritten:0,
