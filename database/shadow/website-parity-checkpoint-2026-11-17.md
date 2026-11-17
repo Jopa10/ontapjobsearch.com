@@ -29,7 +29,7 @@ Workflow **44059470460** used Tuesday production artifacts as the immutable comp
 
 ## Remaining gates
 
-1. Complete the full-feed before/after approved-rule replay, changed-decision Neon write/readback and changed-job payload verification. The prepared workflow is blocked only at saved-archive transport: `ONTAP_SAVED_FEED_URL` returned HTTP 400. Renew it for `jobg8/raw/2026-11-17.zip`, then increment `rule-replay-request.json`. Do not repeat the passed unchanged-selector replay.
+1. The owner explicitly dropped the optional before/after selector-rule comparison as unnecessary for migration once revised outputs match production. Do not restart it. Workflow 44080130595 restored and verified the refreshed saved feed successfully; its unneeded selector comparisons were cancelled when switching to automatic daily-refresh testing.
 2. Complete actual subsequent publication-day refreshes, returning/absent-advert and duplicate/update checks. Follow-up checks are scheduled for 18, 19 and 20 November around 10:00 Europe/London. Today's stale-date rejection and fixture retention tests do not replace actual daily rollover evidence.
 3. Complete the master-advert inactivity/expiry and recoverable archive-before-purge path for the agreed 90 days after inactivity. The daily selected/review snapshot path is distinct; older master imports currently have expiry disabled. Three-day EXCLUDE fixture boundaries have passed. No production or historical Neon purge has been performed.
 4. Finish cutover-specific production fail-closed and deployment rollback preparation before seeking any production switch approval. Preview environment/storage/date/corrupt-snapshot safeguards and actual Preview database transaction rollback have passed; no production traffic rollback has been exercised.
@@ -124,3 +124,7 @@ All six returned HTTP **200** with Preview `X-Robots-Tag: noindex`:
 Apply links were not followed. The earlier Newcastle broad-city sample was not registered and correctly returned 404; the final test uses Nottingham from the approved broad-city register. The connector's share-link authentication failed, so the successful check used the existing authenticated Vercel CLI without changing protection settings.
 
 PR **#336** was rechecked: **open, draft, unmerged**. Current production deployment remains **dpl_EQ21vBWBmt2dDL8bMANXb1v6zkM8** on Tuesday publication source **dc31cdb5ca846cc29f712700a59f80d807cf4912**. All requested work that needs neither a new feed day nor renewed archive access is recorded above; the master expiry/cutover gates remain explicitly open.
+
+## Automatic today refresh — subsequent checkpoint
+
+The owner requested an automatic latest-completed-publication refresh instead of a pinned Tuesday request. See `daily-refresh-checkpoint-2026-11-17.md` for the current executable workflow, automatic discovery, exact counts and idempotency receipts. The optional before/after rule replay is no longer a required migration gate. Existing passed payload, selector, website, safeguards and rollback evidence remains valid; do not repeat it unnecessarily.
