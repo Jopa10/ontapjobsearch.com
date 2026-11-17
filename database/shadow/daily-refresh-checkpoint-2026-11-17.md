@@ -67,3 +67,7 @@ Step 1 is complete. The real next-day rollover test still requires Wednesday's a
 3. Cutover-specific production safeguards and deployment rollback preparation before any production switch approval.
 
 PR #336 stays draft/unmerged; existing production publishing and SEO requirements remain in force.
+
+## Subsequent expiry/retention checkpoint
+
+All four agreed Preview simulations and a separate durable artifact recovery roundtrip passed. Read `retention-checkpoint-2026-11-17.md` for exact scope and receipts. The current daily process saves **zero EXCLUDE payloads**; the old three-day EXCLUDE helper is a legacy test path, not current policy. The shared current-publication reader now uses the latest completed daily receipt. Real 90-day master-table cleanup remains disabled; these tests changed only temporary fixture records and preserved the actual current publication.
