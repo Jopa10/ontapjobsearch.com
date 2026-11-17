@@ -110,6 +110,27 @@ jobs:
           github-token: ${{ github.token }}
           path: production-reference
       - run: python database/shadow/compare-rule-replay.py
+      - name: Verify changed selector decisions and payloads in Neon Preview
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+        run: |
+          set -euo pipefail
+          cp rule-change-report.json rule-change-jobs.json database/shadow/harness/
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('database/shadow/harness/vercel.json')
+          x=json.loads(p.read_text());x['buildCommand']='node verify-rule-replay-neon.mjs';p.write_text(json.dumps(x))
+          PY
+          npm install --no-save --ignore-scripts --prefix "$RUNNER_TEMP/cli" vercel@65.14.0
+          cli="$RUNNER_TEMP/cli/node_modules/.bin/vercel"
+          cd database/shadow/harness
+          "$cli" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 > "$RUNNER_TEMP/rule-neon-deploy.log" 2>&1 || { cat "$RUNNER_TEMP/rule-neon-deploy.log"; exit 1; }
+          url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/rule-neon-deploy.log" | tail -1)"
+          "$cli" curl /rule-replay-neon-report.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/rule-replay-neon-report.json"
+          python -c "import json,os; r=json.load(open(os.environ['RUNNER_TEMP']+'/rule-replay-neon-report.json')); assert r['status']=='passed'; print(r['changedDecisionRows'])"
       - name: Preserve exact rule-change decisions and production parity
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
@@ -118,4 +139,6 @@ jobs:
           path: |
             rule-change-report.json
             rule-change-jobs.json
+            ${{ runner.temp }}/rule-replay-neon-report.json
+            ${{ runner.temp }}/rule-neon-deploy.log
           retention-days: 90
