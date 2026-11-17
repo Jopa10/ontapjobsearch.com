@@ -7,6 +7,7 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
 import pg from 'pg';
+import {requirePreview,requireBudget,requireSameDay,unpackSnapshot} from './publisher-safeguards.mjs';
 import {gzipSync,gunzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
 
@@ -14,6 +15,7 @@ const MAX=838860800, RESERVE=67108864;
 const canon = x => JSON.stringify(x);
 const bytes = async c => Number((await c.query('SELECT pg_database_size(current_database())::text AS bytes')).rows[0].bytes);
 const source = JSON.parse(await fs.readFile('database/shadow/website-source.json','utf8'));
+requirePreview(process.env);
 assert.equal(process.env.VERCEL_ENV,'preview');
 assert.equal(process.env.ONTAP_SHADOW_NEON_PROJECT_ID,'noisy-fire-97386602');
 assert.match(source.feedDate,/^20\d\d-\d\d-\d\d$/);
@@ -46,7 +48,7 @@ let report={feedDate:source.feedDate,productionRunId:source.productionRunId,
 try {
  await c.connect();
  const current=(await c.query('SELECT max(feed_date)::text AS date FROM ontap_shadow.selected_review_payload_records')).rows[0]?.date;
- assert.equal(current,source.feedDate,'Production artifacts and latest Neon date differ');
+ requireSameDay(source.feedDate,current);
  const selected=(await c.query("SELECT public_id,raw_payload->>'/Job/ApplicationURL' AS apply_url FROM ontap_shadow.selected_review_payload_records WHERE feed_date=$1::date AND decision='SELECTED' ORDER BY public_id",[current])).rows;
  const sourceSelected=rows.filter(r=>r.source==='JobG8');
  const actualIds=new Set(sourceSelected.map(r=>r.public_id));
@@ -60,7 +62,7 @@ try {
  const sha256=b=>createHash('sha256').update(b).digest('hex');
  const digest=sha256(serialized);
  const estimated=packed.length*4+32*1024*1024;
- assert.ok(before+estimated+RESERVE<MAX,'Insufficient Neon test database headroom');
+ requireBudget(before,packed.length);
  await c.query('BEGIN');
  try{
   await c.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:preview-scope-publisher'))");
@@ -78,7 +80,7 @@ try {
  assert.equal(sha256(unpacked),digest,'Snapshot hash differs');
  assert.equal(snapshot.uncompressed_sha256,digest);
  assert.equal(String(snapshot.production_run_id),String(source.productionRunId));
- const readbackRows=JSON.parse(unpacked.toString('utf8'));
+ const readbackRows=unpackSnapshot(snapshot.compressed_payload,digest);
  assert.equal(readbackRows.length,rows.length,'Neon publisher rows missing');
  assert.deepEqual(readbackRows,rows,'Neon publisher snapshot differs');
  report.snapshotStorage='gzip JSON with SHA-256 verification';
