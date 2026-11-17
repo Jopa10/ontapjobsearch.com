@@ -7,6 +7,8 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
 import pg from 'pg';
+import {gzipSync,gunzipSync} from 'node:zlib';
+import {createHash} from 'node:crypto';
 
 const MAX=838860800, RESERVE=67108864;
 const canon = x => JSON.stringify(x);
@@ -40,7 +42,7 @@ let report={feedDate:source.feedDate,productionRunId:source.productionRunId,
   neonSelectedIds:0,exactSelectedIdsMatch:false,exactApplyUrlsMatch:false,
   referenceOrigin:'verified production output artifacts',scopedPlacementOrigin:'production artifact',
   independentSelectorReplay:false,productionChanged:false,
-  databaseWriteScope:'ontap_shadow.published_scope_rows (Preview only)'};
+  databaseWriteScope:'ontap_shadow.publisher_snapshots (Preview only)'};
 try {
  await c.connect();
  const current=(await c.query('SELECT max(feed_date)::text AS date FROM ontap_shadow.selected_review_payload_records')).rows[0]?.date;
@@ -54,21 +56,37 @@ try {
  report.referenceJobG8Rows=sourceSelected.length;report.neonSelectedIds=selected.length;
  report.exactSelectedIdsMatch=true;report.exactApplyUrlsMatch=true;
  const before=await bytes(c);
- const estimated=Buffer.byteLength(canon(rows))*4+32*1024*1024;
+ const serialized=Buffer.from(canon(rows)), packed=gzipSync(serialized,{level:9});
+ const sha256=b=>createHash('sha256').update(b).digest('hex');
+ const digest=sha256(serialized);
+ const estimated=packed.length*4+32*1024*1024;
  assert.ok(before+estimated+RESERVE<MAX,'Insufficient Neon test database headroom');
  await c.query('BEGIN');
  try{
   await c.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:preview-scope-publisher'))");
-  await c.query("CREATE TABLE IF NOT EXISTS ontap_shadow.published_scope_rows (feed_date date NOT NULL,scope text NOT NULL,position integer NOT NULL,public_id text NOT NULL,source text NOT NULL,display jsonb NOT NULL,PRIMARY KEY(feed_date,scope,position))");
-  for(let i=0;i<rows.length;i+=100){
-   await c.query("INSERT INTO ontap_shadow.published_scope_rows(feed_date,scope,position,public_id,source,display) SELECT $1::date,t.scope,t.position,t.public_id,t.source,t.display FROM jsonb_to_recordset($2::jsonb) AS t(scope text,position int,public_id text,source text,display jsonb) ON CONFLICT(feed_date,scope,position) DO UPDATE SET public_id=excluded.public_id,source=excluded.source,display=excluded.display",
-     [current,JSON.stringify(rows.slice(i,i+100))]);
-  }
+  await c.query("CREATE TABLE IF NOT EXISTS ontap_shadow.publisher_snapshots (feed_date date PRIMARY KEY,production_run_id bigint NOT NULL,row_count integer NOT NULL,uncompressed_sha256 text NOT NULL,compressed_payload bytea NOT NULL)");
+  // Prove transaction rollback on this isolated snapshot before making the final write.
+  await c.query('SAVEPOINT rollback_probe');
+  await c.query("INSERT INTO ontap_shadow.publisher_snapshots VALUES($1::date,$2,$3,$4,$5) ON CONFLICT(feed_date) DO UPDATE SET production_run_id=excluded.production_run_id,row_count=excluded.row_count,uncompressed_sha256=excluded.uncompressed_sha256,compressed_payload=excluded.compressed_payload",[current,source.productionRunId,rows.length,digest,packed]);
+  await c.query('ROLLBACK TO SAVEPOINT rollback_probe');
+  await c.query("INSERT INTO ontap_shadow.publisher_snapshots VALUES($1::date,$2,$3,$4,$5) ON CONFLICT(feed_date) DO UPDATE SET production_run_id=excluded.production_run_id,row_count=excluded.row_count,uncompressed_sha256=excluded.uncompressed_sha256,compressed_payload=excluded.compressed_payload",[current,source.productionRunId,rows.length,digest,packed]);
+  assert.ok(await bytes(c)+RESERVE<MAX,'Post-write Neon headroom breached');
   await c.query('COMMIT');
  }catch(e){await c.query('ROLLBACK');throw e;}
+ const snapshot=(await c.query('SELECT * FROM ontap_shadow.publisher_snapshots WHERE feed_date=$1::date',[current])).rows[0];
+ const unpacked=gunzipSync(snapshot.compressed_payload);
+ assert.equal(sha256(unpacked),digest,'Snapshot hash differs');
+ assert.equal(snapshot.uncompressed_sha256,digest);
+ assert.equal(String(snapshot.production_run_id),String(source.productionRunId));
+ const readbackRows=JSON.parse(unpacked.toString('utf8'));
+ assert.equal(readbackRows.length,rows.length,'Neon publisher rows missing');
+ assert.deepEqual(readbackRows,rows,'Neon publisher snapshot differs');
+ report.snapshotStorage='gzip JSON with SHA-256 verification';
+ report.snapshotBytes=serialized.length;report.compressedSnapshotBytes=packed.length;
+ report.snapshotSha256=digest;
+ report.rollbackProbeExecuted=true;
  const expectedByPosition = new Map(rows.map(r=>[r.scope+':'+r.position,r]));
- const query=await c.query('SELECT scope,position,public_id,source,display FROM ontap_shadow.published_scope_rows WHERE feed_date=$1::date ORDER BY scope,position',[current]);
- assert.equal(query.rows.length,rows.length,'Neon publisher rows missing');
+ const query={rows:readbackRows.sort((a,b)=>a.scope.localeCompare(b.scope)||a.position-b.position)};
  const output=Object.fromEntries(names.map(n=>[n,[]]));
  const readbackPositions=new Map();
  for(const record of query.rows){
