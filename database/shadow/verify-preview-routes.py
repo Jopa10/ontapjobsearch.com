@@ -1,9 +1,14 @@
-import subprocess,json,re,html,os
+import subprocess,json,re,html,os,time
 from pathlib import Path
 cli=os.environ['VERCEL_CLI'];url=json.loads(Path('database/shadow/route-test-request.json').read_text())['previewUrl']
 out=Path(os.environ['RUNNER_TEMP'])/'routes';out.mkdir()
 def fetch(path,label):
-    p=subprocess.run([cli,'curl',path,'--deployment',url,'--scope','ontap1','--','-i','--max-time','90'],text=True,capture_output=True)
+    for attempt in range(20 if path=='/' else 1):
+        p=subprocess.run([cli,'curl',path,'--deployment',url,'--scope','ontap1','--','-i','--max-time','90'],text=True,capture_output=True)
+        codes=re.findall(r'HTTP/[0-9.]+\\s+(\\d+)',p.stdout)
+        if p.returncode==0 and codes and codes[-1]=='200':break
+        if path=='/' and attempt<19:time.sleep(30)
+
     (out/(label+'.http')).write_text(p.stdout)
     assert p.returncode==0,(path,p.stderr[-500:])
     statuses=re.findall(r'HTTP/[0-9.]+\s+(\d+)',p.stdout)
