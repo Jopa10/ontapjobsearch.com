@@ -87,7 +87,7 @@ async function run() {
     await c.query('INSERT INTO ontap_shadow.selected_review_payload_records(feed_date,public_id,decision,decision_reason,selector_revision,archive_sha256,raw_payload,payload_sha256,source_provenance,source_row_position) '+
      'SELECT $1::date,r.public_id,r.decision,r.decision_reason,r.selector_revision,$2,r.raw_payload,r.payload_sha256,$3::jsonb,r.source_row_position '+
      'FROM jsonb_to_recordset($4::jsonb) AS r(public_id text,decision text,decision_reason text,selector_revision text,raw_payload jsonb,payload_sha256 text,source_row_position integer) '+
-     'ON CONFLICT(feed_date,public_id) DO UPDATE SET source_row_position=EXCLUDED.source_row_position',
+     'ON CONFLICT(feed_date,public_id) DO UPDATE SET decision=EXCLUDED.decision,decision_reason=EXCLUDED.decision_reason,selector_revision=EXCLUDED.selector_revision,archive_sha256=EXCLUDED.archive_sha256,raw_payload=EXCLUDED.raw_payload,payload_sha256=EXCLUDED.payload_sha256,source_provenance=EXCLUDED.source_provenance,source_row_position=EXCLUDED.source_row_position',
      [snapshot.feedDate,snapshot.archiveSha256,JSON.stringify(provenance),JSON.stringify(rows.slice(i,i+100))]);
    }
    const got=await c.query('SELECT public_id,decision,decision_reason,selector_revision,archive_sha256,raw_payload,payload_sha256,source_provenance,source_row_position FROM ontap_shadow.selected_review_payload_records WHERE feed_date=$1::date ORDER BY public_id',[snapshot.feedDate]);
