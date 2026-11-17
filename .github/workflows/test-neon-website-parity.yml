@@ -140,6 +140,8 @@ jobs:
           assert p['neonSelectedIds']>0
           assert c['snapshotDate']==p['feedDate']
           assert c['regionalOutputs']==p['scopeCount']
+          assert c.get('exactPublishedInventoryMembershipAndOrder') is True
+          assert c.get('productionInventoryFilesCompared',0)>0
           print('ONTAP_NEON_FULL_SITE_PARITY_PREVIEW_BUILT',p['feedDate'],p['neonSelectedIds'],c['regionalOutputs'])
           PY
       - name: Keep full-site parity evidence
