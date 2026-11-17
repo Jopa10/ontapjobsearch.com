@@ -90,3 +90,19 @@ Workflow **44072468086**, evidence artifact **14323811386**, passed.
 - Derive the date from each completed feed/publication, reuse saved selector evidence, then test latest-date readback, returning/absent IDs, duplicates, payload updates and retention.
 - Existing policy from `retention-assessment-2026-11-03.md`: selected/review advert evidence retained **90 days after inactivity**, permanent public identity preserved, expired adverts must not expose an active Apply link; EXCLUDE payload review window is separately **3 days**.
 - The current selected/review daily snapshot table is not yet proof of master-advert inactivity/expiry or verified archive-before-purge. Existing shadow master imports explicitly have expiry disabled. Keep this as a separate remaining gate and do not silently shorten retention or purge historical evidence.
+
+### Final Tuesday published-inventory comparison
+
+- Final comparison workflow **44073576579**, deployment **dpl_371jhLTVUajoQKeH8FiqgqxiNXG5**, uses the actual production publication commit **dc31cdb5ca846cc29f712700a59f80d807cf4912**.
+- Confirmed current production deployment **dpl_EQ21vBWBmt2dDL8bMANXb1v6zkM8** is READY on that same source commit. It was not changed by these tests.
+- All **316** original website job inventory files matched the newly generated Neon-backed files by ordered **(job ID, source, Apply URL)** tuples: **0 differing files**, no missing/extra inventory members or introduced ordering differences.
+- Scope occurrences across those compared website files: **7,927 JobG8**, **360 NHS Jobs**, **45 Teaching Vacancies**. These are repeated placements across files, not unique job counts.
+- Final snapshot in Neon: **6,990** publisher rows / **256** scopes; **6,680** JobG8 scope occurrences / **5,372** unique JobG8 IDs; **310** approved external-source scope occurrences. Compressed bytes **5,600,375**; uncompressed **24,286,392**; SHA-256 `d1a387b3b6b95242403cd71265ff1558818f13204273691f869fcb9b91e9af7e`.
+- Latest recorded database bytes after snapshot replacement **686,579,712**, below the unchanged 800 MiB ceiling with the 64 MiB reserve.
+- The exact final build and live route checks are still being collected; update this section with their final receipts.
+
+### Continuation instructions
+
+The owner has authorised continuing these Preview tests without routine permission stops. Reuse passed evidence; only stop for a real missing credential, required policy decision, destructive/production action or guardrail. Keep PR #336 unmerged. The rule replay transport is blocked by HTTP 400 from the signed archive URL; no baseline/revised decision comparison has yet run. Renew only `ONTAP_SAVED_FEED_URL` for Tuesday's exact archive and bump `rule-replay-request.json` to continue the prepared test.
+
+Daily snapshot payload rows are currently keyed by date and advert, while the older master importer still has expiry disabled. This is a test snapshot path, not proof of a bounded recurring master-state store or of the 90-day archive/purge implementation. The admission guard must remain enabled; a future daily import that cannot fit must stop before writes and report the storage gate.
