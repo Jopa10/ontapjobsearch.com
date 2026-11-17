@@ -15,6 +15,6 @@
       "sha256": "09bfd854487b24e2ded737285d26503799b03dba9eb296a9ac5a4802080dd369"
     }
   ],
-  "attempt": 4,
+  "attempt": 5,
   "notes": "Replay the complete archived Tuesday feed through the exact Python selector revision used by production run 44039319889; compare against Tuesday production artifacts only after selection. No Neon write, production publish or rule edit."
 }
