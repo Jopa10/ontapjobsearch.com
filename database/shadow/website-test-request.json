@@ -15,7 +15,8 @@
       "sha256": "09bfd854487b24e2ded737285d26503799b03dba9eb296a9ac5a4802080dd369"
     }
   ],
-  "attempt": 6,
+  "attempt": 7,
   "storageMode": "compressed_verified_snapshot",
-  "productionAppCommitSha": "c3073794abc4b3246a4504434b2366fee2bfaba1"
+  "productionAppCommitSha": "c3073794abc4b3246a4504434b2366fee2bfaba1",
+  "compareFinalInventories": true
 }
