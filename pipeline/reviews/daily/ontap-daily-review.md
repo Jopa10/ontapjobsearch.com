@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-11-17
-generated_at: 2026-11-17T16:59:45+00:00
+generated_at: 2026-11-17T18:59:01+00:00
 
-**288 job(s) await a human decision; 0 already answered (288 review rows).**
+**286 job(s) await a human decision; 0 already answered (286 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-11-17 | 206 | — |
+| JobG8 | OK | 2026-11-17 | 204 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-11-17 | 6 | — |
 | Teaching Vacancies | OK | 2026-11-17 | 76 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 206 to review
+## JobG8 — 204 to review
 
 ---
 action:
@@ -289,7 +289,7 @@ POSS | JobG8 | Cambridgeshire | Peterborough | £20 per hour | Credit Controller
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2288202
+source_job_id: 2332604
 title: Credit Controller / Accounts Receivable Analyst
 employer: 
 location: Peterborough
@@ -298,7 +298,7 @@ salary: £20 per hour
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £39,000 exceeds regional review point £37,000
 source_url: 
-hub_fingerprint: 40f4abc7cfbbe82e5c26d3812e643aa78bb0a3d07d239b651a096edf69afe059
+hub_fingerprint: 9efece33ac73b0134f15d473fc3c1b2b2e1d219f372e9e1248a67ddc5bd04fcc
 ---
 
 ---
@@ -623,24 +623,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: bc366a2e90ead79af3b86171f14eb7948ebd786280d215b154ca1421e0fd2977
----
-
----
-action:
-POSS | JobG8 | Essex | Essex | — | Part-Time - Accounts Assistant Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2158375
-title: Part-Time - Accounts Assistant Manager
-employer: 
-location: Essex
-region: Essex
-salary: 
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url: 
-hub_fingerprint: 921bb34d0d83a6bd4667cbe6caade631887ae2c1aaf8b8c0b6d6e092d4c3695c
 ---
 
 ---
@@ -1167,24 +1149,6 @@ hub_fingerprint: 9c87029fe64364de809ee495bd36b37a49d59169462cb47fcc19eb33cbfc125
 
 ---
 action:
-POSS | JobG8 | Kent | Kent | £21.00 per hour | Bookkeeper / Accounts Clerk / Payroll Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2157508
-title: Bookkeeper / Accounts Clerk / Payroll Manager
-employer: 
-location: Kent
-region: Kent
-salary: £21.00 per hour
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
-source_url: 
-hub_fingerprint: dddfd108ee185574a1b0445cc063bb5d496847173169748abffc5f7a583a8ae0
----
-
----
-action:
 POSS | JobG8 | Kent | Kent | £18.50 per hour | Healthcare Assistant
 source_key: jobg8
 source: JobG8
@@ -1297,7 +1261,7 @@ POSS | JobG8 | Leicestershire | Leicestershire | £22.11 per hour | Freight Anal
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2287199
+source_job_id: 2331066
 title: Freight Analyst / Freight Administrator
 employer: 
 location: Leicestershire
@@ -1306,7 +1270,7 @@ salary: £22.11 per hour
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
 source_url: 
-hub_fingerprint: 283a706f9420023e02ab9ce6835723772b1603c1efb8b68f6a42bf59984b6a40
+hub_fingerprint: 199cafc06c9c9b280a6559449c9385913650441b90560ff6ed901b127f1117fc
 ---
 
 ---
@@ -1617,24 +1581,6 @@ hub_fingerprint: 5f8866220e91db5585952c2729f509a1f09894c723709e54bf0585cefb8fde6
 
 ---
 action:
-POSS | JobG8 | London | Hillingdon | £35000 per year | Housing and Support Officer
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225739195
-title: Housing and Support Officer
-employer: 
-location: Hillingdon
-region: London
-salary: £35000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: c568b60c62bcfce01656a89b292b1d15ca06c4c9d293232d762e528e5af50c87
----
-
----
-action:
 POSS | JobG8 | London | Islington | £25.39 per hour | LD - Support Worker
 source_key: jobg8
 source: JobG8
@@ -1793,24 +1739,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - owner-approved ordinary office role; manual review required: actual part-time annual earnings over £40k
 source_url: 
 hub_fingerprint: 074c2f17af380ec6d838f90974f25c63fe1908b3a28f189837f646334f61f4c7
----
-
----
-action:
-POSS | JobG8 | London | London | £23.80 per hour | Finance Service Centre Officer
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2156666
-title: Finance Service Centre Officer
-employer: 
-location: London
-region: London
-salary: £23.80 per hour
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
-source_url: 
-hub_fingerprint: 394ba1d2e24b1fa84085c446af5efb82adfad6cb11fcc40d845ebb998439f1a4
 ---
 
 ---
@@ -2355,6 +2283,24 @@ hub_fingerprint: 5f1fce8cd0b546e4d65cd151606fbfbe12dc0813054d4c413e9ebdacd973dd2
 
 ---
 action:
+POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | Darlington | £12.85 per hour | Female Support Worker (Driver)
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 108314529
+title: Female Support Worker (Driver)
+employer: 
+location: Darlington
+region: North East - County Durham & Darlington/Hartlepool
+salary: £12.85 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: d157e1311a7a5c551ed073e67250a9bee39792a81e464e87a9d481b2bf4e41b3
+---
+
+---
+action:
 POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | Durham | £16 - £20 per hour (Mileage Paid if business insured) | Children and Family Support Worker Durham
 source_key: jobg8
 source: JobG8
@@ -2405,24 +2351,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 583a79a59718c55a878b7a1f9d74e10f1a22a988f1cd1a990df2cf123c17b14b
----
-
----
-action:
-POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Alnwick | £40000 per year | Personal Assistant (Financial Services)
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 108321798
-title: Personal Assistant (Financial Services)
-employer: 
-location: Alnwick
-region: North East - Tyneside, Wearside & Northumberland
-salary: £40000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 564e9ad919700edb2288ef8b90534c40682d469e09dd1737f309b5abba0ef657
 ---
 
 ---
@@ -2787,6 +2715,24 @@ hub_fingerprint: acd2d51e3c3902ace3126af146111de95774f0383a3df5413ae96725a4cd83a
 
 ---
 action:
+POSS | JobG8 | Oxfordshire | Oxfordshire | £19.12 per hour (PAYE or 25.58 Umbrella) | Facilities Co-ordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 108303136
+title: Facilities Co-ordinator
+employer: 
+location: Oxfordshire
+region: Oxfordshire
+salary: £19.12 per hour (PAYE or 25.58 Umbrella)
+closing_date: 
+reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: co-ordinator; manual review required: annualised upper salary £37,284 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: be7c61672af9c1b5b357df4ce55b78fd778ed432c0474849bd4922529901eb90
+---
+
+---
+action:
 POSS | JobG8 | Oxfordshire | Oxfordshire | £50,000 per year (FTE) | Part Time Payroll Supervisor
 source_key: jobg8
 source: JobG8
@@ -3071,24 +3017,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
 source_url: 
 hub_fingerprint: 438bef097c2fdf49afb6aec6c5426400a93e8defcc1a34adb3a3ee9c577175e2
----
-
----
-action:
-POSS | JobG8 | Surrey | Surrey | £44000 per year | Payroll & Credit Controller - Ref (8813)
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2158445
-title: Payroll & Credit Controller - Ref (8813)
-employer: 
-location: Surrey
-region: Surrey
-salary: £44000 per year
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £44,000 exceeds regional review point £42,000
-source_url: 
-hub_fingerprint: feb04e3d5dd669845937384a536ebc3a55f9f383da315cb0a1ec4fdcbcd9db9f
 ---
 
 ---
@@ -3381,6 +3309,24 @@ hub_fingerprint: da552ebc655296d855ab6cbc9dfb215627cfaf67ed3e548c2926e2091822bad
 
 ---
 action:
+POSS | JobG8 | West Midlands - Black Country | West Bromwich | £45,000 per year (FTE) | Finance Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2328412
+title: Finance Manager
+employer: 
+location: West Bromwich
+region: West Midlands - Black Country
+salary: £45,000 per year (FTE)
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: dd330134104089cbd9f987cf60f1b1ea656610a784b73399242e29224c95d736
+---
+
+---
+action:
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £28,000 - £32,000 per year | Accounts Administrator
 source_key: jobg8
 source: JobG8
@@ -3417,24 +3363,6 @@ hub_fingerprint: e27221fe69f21728def832b4c31276bb4927d81434ef6242c2e34576f25a102
 
 ---
 action:
-POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £40000 per year | Credit Controller
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2286920
-title: Credit Controller
-employer: 
-location: Warwickshire
-region: West Midlands - Coventry & Warwickshire
-salary: £40000 per year
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
-source_url: 
-hub_fingerprint: 0b1f331cba1ad5b9c8bd6198b28f8b1c7a88489f71b87464bc2221afe35bb019
----
-
----
-action:
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £20 - £23 per hour | Credit Controller
 source_key: jobg8
 source: JobG8
@@ -3449,6 +3377,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £44,850 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: 8ed992e247dd7d07196567155150382cb11ef59b52d80cc56860e606497f8e6d
+---
+
+---
+action:
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £40000 per year | Credit Controller
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2330740
+title: Credit Controller
+employer: 
+location: Warwickshire
+region: West Midlands - Coventry & Warwickshire
+salary: £40000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 8f1d0b5909120a427807d58145db4fc6ef425d2d5749b32da08e738f3a2bad84
 ---
 
 ---
@@ -3543,24 +3489,6 @@ hub_fingerprint: 8dc07add9c6c94bddce78723672a99401f135ec1b47d8a1c44dd51db3e275b1
 
 ---
 action:
-POSS | JobG8 | Worcestershire | Worcestershire | Competitive | Finance Manager - part or full time
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2156246
-title: Finance Manager - part or full time
-employer: 
-location: Worcestershire
-region: Worcestershire
-salary: Competitive
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
-source_url: 
-hub_fingerprint: fa5f1c52a439983b4de07b83c30a0641c40cd228047b82729fdf5e365dac5f97
----
-
----
-action:
 POSS | JobG8 | Worcestershire | Worcestershire | £40000 per year | Retail Marketing Coordinator
 source_key: jobg8
 source: JobG8
@@ -3575,6 +3503,42 @@ closing_date:
 reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: coordinator; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: c8fc1c2b63dbfdda51325230c72d5f720ca357c39ee6749c0b40de652f4ca931
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - North | Harrogate | £45000 per year | Credit Controller
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 108320734
+title: Credit Controller
+employer: 
+location: Harrogate
+region: Yorkshire - North
+salary: £45000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £45,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: c760ac93be4556fe10ae31bb4e172a95f927469fa4cd64b39d84f59e6967b017
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - North | Harrogate | £40000 per year | Credit Controller (Debt Recovery)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 108326695
+title: Credit Controller (Debt Recovery)
+employer: 
+location: Harrogate
+region: Yorkshire - North
+salary: £40000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: c4030ec6c88257b18e7ddb02b53d91a4867fdacc20bb4b486a1f30a618d5bc34
 ---
 
 ---
