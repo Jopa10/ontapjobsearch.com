@@ -87,18 +87,6 @@ job_id: 23643_225772927
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | £14.8 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225760952
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Washington | £14.8 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225760954
----
-
----
-action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £13.45 per hour | Female Enabling Support Worker
 job_id: 23643_225787271
 ---
@@ -185,12 +173,6 @@ job_id: 23643_225819097
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Peterlee | £14.8 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225760948
----
-
----
-action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £12.71 per hour | Healthcare Assistant
 job_id: 23643_225795609
 ---
@@ -213,12 +195,6 @@ job_id: 23643_225819120
 action:
 POSS - NE - Tyneside/Wearside/N'land | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £16 - £20 per hour (Mileage Paid if business insured) | Children and Families Support Worker Newcastle/Gateshead
 job_id: 23643_225803517
----
-
----
-action:
-POSS - NE - Tyneside/Wearside/N'land | North East - Tyneside, Wearside & Northumberland | Alnwick | £40000 per year | Personal Assistant (Financial Services)
-job_id: 108321798
 ---
 
 ---
@@ -249,6 +225,12 @@ job_id: 23643_225805941
 
 ---
 action:
+POSS - NE - Co Durham & Dar/Htlpl | North East - County Durham & Darlington/Hartlepool | Darlington | £12.85 per hour | Female Support Worker (Driver)
+job_id: 108314529
+---
+
+---
+action:
 POSS - NE - Co Durham & Dar/Htlpl | North East - County Durham & Darlington/Hartlepool | Darlington | £15.58 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225818672
 ---
@@ -271,12 +253,6 @@ job_id: 23643_225817899
 action:
 SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
 job_id: 23643_222307132
----
-
----
-action:
-SELECTED | Sussex | Bognor Regis | £29744 - £30576 per year | Children's Residential Support Worker
-job_id: 23643_225634209
 ---
 
 ---
@@ -747,14 +723,8 @@ job_id: 1401786329
 
 ---
 action:
-SELECTED | Hampshire | Farnborough | £12.91 - £13.21 per hour | Support Worker
-job_id: 108307172
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £14 - £15 per hour | Hourly Lifestyle / Care Assistant for a Female Chemistry Uni Student
-job_id: 108269694
+SELECTED | Hampshire | New Milton | £12.8 - £15.75 per hour | Extra Care Support Worker
+job_id: 108321029
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -1003,6 +973,12 @@ job_id: 23643_225815767
 action:
 SELECTED | Dorset | Dorset | £12.21 - £13.5 per hour | Health Care Assistant/ Support worker
 job_id: 23643_225817410
+---
+
+---
+action:
+SELECTED | Dorset | Dorchester | £12.79 - £14.5 per hour | Residential Childcare Support Worker
+job_id: 108284034
 ---
 
 ## DORSET — POSSIBLES
@@ -1417,12 +1393,6 @@ job_id: 23643_225814729
 action:
 SELECTED | Kent | Herne Bay | £13.31 - £14.5 per daily | Children's Residential Support Worker
 job_id: 23643_225817096
----
-
----
-action:
-SELECTED | Kent | Sevenoaks | £14.8 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225816063
 ---
 
 ---
@@ -2051,12 +2021,6 @@ job_id: 23643_225796819
 
 ---
 action:
-POSS - LONDON | London | Hillingdon | £35000 per year | Housing and Support Officer
-job_id: 23643_225739195
----
-
----
-action:
 POSS - LONDON | London | London | £93 - £115 per daily | Learning Support Assistant
 job_id: 23643_225791271
 ---
@@ -2291,12 +2255,6 @@ job_id: 23643_224191576
 
 ---
 action:
-SELECTED | Oxfordshire | Oxford | £14.37 - £15.02 per hour | Care Assistant
-job_id: 23643_225776165
----
-
----
-action:
 SELECTED | Oxfordshire | Oxford | £14.24 - £19.05 per hour | Healthcare Assistant
 job_id: 23643_225782942
 ---
@@ -2363,12 +2321,6 @@ job_id: 23643_225751661
 action:
 SELECTED | Surrey | Horley | £14.8 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225756404
----
-
----
-action:
-SELECTED | Surrey | Cranleigh | £15 - £17 per hour | Residential Support Worker
-job_id: 23643_225741404
 ---
 
 ---
