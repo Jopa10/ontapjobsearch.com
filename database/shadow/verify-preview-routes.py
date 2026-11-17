@@ -5,7 +5,7 @@ out=Path(os.environ['RUNNER_TEMP'])/'routes';out.mkdir()
 def fetch(path,label):
     for attempt in range(20 if path=='/' else 1):
         p=subprocess.run([cli,'curl',path,'--deployment',url,'--scope','ontap1','--','-i','--max-time','90'],text=True,capture_output=True)
-        codes=re.findall(r'HTTP/[0-9.]+\\s+(\\d+)',p.stdout)
+        codes=re.findall(r'HTTP/[0-9.]+\s+(\d+)',p.stdout)
         if p.returncode==0 and codes and codes[-1]=='200':break
         if path=='/' and attempt<19:time.sleep(30)
 
