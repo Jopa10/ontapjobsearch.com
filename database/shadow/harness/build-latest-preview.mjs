@@ -7,6 +7,7 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
 import pg from 'pg';
+import {readCurrentPublication} from './current-publication.mjs';
 import {requirePreview,requireBudget,requireSameDay,unpackSnapshot} from './publisher-safeguards.mjs';
 import {gzipSync,gunzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
@@ -47,9 +48,10 @@ let report={feedDate:source.feedDate,productionRunId:source.productionRunId,
   databaseWriteScope:'ontap_shadow.publisher_snapshots (Preview only)'};
 try {
  await c.connect();
- const current=(await c.query('SELECT max(feed_date)::text AS date FROM ontap_shadow.selected_review_payload_records')).rows[0]?.date;
+ const publication=await readCurrentPublication(c);
+ const current=publication.feedDate;
  requireSameDay(source.feedDate,current);
- const selected=(await c.query("SELECT public_id,raw_payload->>'/Job/ApplicationURL' AS apply_url FROM ontap_shadow.selected_review_payload_records WHERE feed_date=$1::date AND decision='SELECTED' ORDER BY public_id",[current])).rows;
+ const selected=publication.records.map(r=>({public_id:r.public_id,apply_url:r.raw_payload['/Job/ApplicationURL']}));
  const sourceSelected=rows.filter(r=>r.source==='JobG8');
  const actualIds=new Set(sourceSelected.map(r=>r.public_id));
  assert.equal(actualIds.size,selected.length,'Exact published IDs vs Neon differ');
