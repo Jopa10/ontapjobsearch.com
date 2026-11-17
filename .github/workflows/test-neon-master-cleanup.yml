@@ -1,0 +1,142 @@
+name: Neon real master cleanup verification (Preview only)
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/master-cleanup-test-request.json]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ontap-neon-master-cleanup
+  cancel-in-progress: false
+jobs:
+  archive-test-versions:
+    if: github.ref == 'refs/heads/feat/neon-shadow-database'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    outputs:
+      archive_id: ${{ steps.archive.outputs.artifact-id }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - name: Package archive preparation
+        run: |
+          cp database/shadow/004_master_cleanup_versions.sql database/shadow/harness/master-cleanup-migration.sql
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          h=Path('database/shadow/harness')
+          (h/'master-cleanup-request.json').write_text(json.dumps({'phase':'archive','runToken':'cleanup-'+os.environ['GITHUB_RUN_ID']}))
+          p=h/'vercel.json';x=json.loads(p.read_text());x['buildCommand']='node verify-master-cleanup-neon.mjs';p.write_text(json.dumps(x))
+          PY
+      - name: Prepare verified master-version archives in Preview
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+        run: |
+          set -euo pipefail
+          npm install --no-save --ignore-scripts --no-audit --no-fund --prefix "$RUNNER_TEMP/cli" vercel@65.14.0
+          cli="$RUNNER_TEMP/cli/node_modules/.bin/vercel"
+          cd database/shadow/harness
+          "$cli" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 > "$RUNNER_TEMP/master-archive-deploy.log" 2>&1 || { cat "$RUNNER_TEMP/master-archive-deploy.log"; exit 1; }
+          url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/master-archive-deploy.log" | tail -1)"
+          mkdir -p "$RUNNER_TEMP/master-evidence"
+          "$cli" curl /master-cleanup-manifest.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/master-evidence/master-cleanup-manifest.json"
+          "$cli" curl /master-cleanup-report.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/master-evidence/archive-preparation-report.json"
+          export VERCEL_CLI="$cli" MASTER_PREVIEW_URL="$url"
+          python - <<'PY'
+          import hashlib,json,os,subprocess
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP'])/'master-evidence'
+          report=json.loads((root/'archive-preparation-report.json').read_text());assert report['status']=='passed' and report['payloadsCleared']==0
+          manifest=json.loads((root/'master-cleanup-manifest.json').read_text());assert len(manifest['archives'])==3
+          for a in manifest['archives']:
+              result=subprocess.run([os.environ['VERCEL_CLI'],'curl','/master-cleanup-archives/'+a['key'],'--deployment',os.environ['MASTER_PREVIEW_URL'],'--scope','ontap1'],capture_output=True,check=True)
+              assert hashlib.sha256(result.stdout).hexdigest()==a['sha256']
+              p=root/'master-cleanup-archives'/a['key'];p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(result.stdout)
+          print('ONTAP_MASTER_ARCHIVES_PREPARED',json.dumps(report))
+          PY
+      - name: Upload durable archives before any cleanup test
+        id: archive
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: master-cleanup-preverified-archives
+          path: ${{ runner.temp }}/master-evidence/
+          retention-days: 90
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: failure()
+        with:
+          name: master-archive-failure-log
+          path: ${{ runner.temp }}/master-archive-deploy.log
+          retention-days: 30
+  cleanup-real-master-test-records:
+    needs: archive-test-versions
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          artifact-ids: ${{ needs.archive-test-versions.outputs.archive_id }}
+          path: downloaded-master-archives
+          merge-multiple: true
+      - name: Package durable archive receipts and actual cleanup entry point
+        env:
+          DURABLE_ARTIFACT_ID: ${{ needs.archive-test-versions.outputs.archive_id }}
+        run: |
+          cp database/shadow/004_master_cleanup_versions.sql database/shadow/harness/master-cleanup-migration.sql
+          cp downloaded-master-archives/master-cleanup-manifest.json database/shadow/harness/
+          cp -a downloaded-master-archives/master-cleanup-archives database/shadow/harness/
+          python - <<'PY'
+          import gzip,hashlib,json,os
+          from pathlib import Path
+          h=Path('database/shadow/harness')
+          manifest=json.loads((h/'master-cleanup-manifest.json').read_text())
+          for a in manifest['archives']:
+              b=(h/'master-cleanup-archives'/a['key']).read_bytes()
+              assert hashlib.sha256(b).hexdigest()==a['sha256'];json.loads(gzip.decompress(b))
+          (h/'master-cleanup-request.json').write_text(json.dumps({'phase':'apply-test','runToken':'cleanup-'+os.environ['GITHUB_RUN_ID'],'durableArtifactId':int(os.environ['DURABLE_ARTIFACT_ID'])}))
+          p=h/'vercel.json';x=json.loads(p.read_text());x['buildCommand']='node verify-master-cleanup-neon.mjs';p.write_text(json.dumps(x))
+          PY
+      - name: Verify actual master cleanup at 89 90 and 91 days
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+        run: |
+          set -euo pipefail
+          npm install --no-save --ignore-scripts --no-audit --no-fund --prefix "$RUNNER_TEMP/cli" vercel@65.14.0
+          cli="$RUNNER_TEMP/cli/node_modules/.bin/vercel"
+          cd database/shadow/harness
+          "$cli" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 > "$RUNNER_TEMP/master-cleanup-deploy.log" 2>&1 || { cat "$RUNNER_TEMP/master-cleanup-deploy.log"; exit 1; }
+          url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/master-cleanup-deploy.log" | tail -1)"
+          "$cli" curl /master-cleanup-report.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/master-cleanup-report.json"
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          r=json.loads(Path(os.environ['RUNNER_TEMP']+'/master-cleanup-report.json').read_text())
+          assert r['status']=='passed' and r['usesActualMasterTables']
+          assert r['syntheticMasterPayloadsCleared']==2 and r['realAdvertsPurged']==0
+          assert r['existingPublicationUnchanged'] and r['originalClickedVersionRecovered']
+          print('ONTAP_REAL_MASTER_CLEANUP_PASSED',json.dumps(r))
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: real-master-cleanup-verification
+          path: |
+            ${{ runner.temp }}/master-cleanup-report.json
+            ${{ runner.temp }}/master-cleanup-deploy.log
+          retention-days: 90
