@@ -22,7 +22,7 @@ for path,label in [('/','homepage'),('/north-east/service-administrator-jobs','r
     assert '<h1' in text,(path,'no server HTML h1')
     assert 'canonical' in text,(path,'no canonical')
     results.append({'path':path,'status':200,'serverHtml':True,'canonicalPresent':True,'previewNoindex':True})
-jobs=re.findall(r'href="(/jobs/[^"#?]+)"',home)
+jobs=[p for p in re.findall(r'href="(/jobs/[^"#?]+)"',home) if p.rstrip('/') not in {'/jobs/all','/jobs/search'}]
 assert jobs,'No job detail links in rendered homepage'
 job=html.unescape(jobs[0])
 text=fetch(job,'job')
