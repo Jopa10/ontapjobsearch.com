@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "scope": "ontap_shadow job/feed test data only; preserve suppliers and abort if any subscriber, consent, email, recommendation, or activity-event rows exist",
   "purpose": "One-time clear of pre-Wednesday Preview data before the selected-only Wednesday rollover test."
 }
