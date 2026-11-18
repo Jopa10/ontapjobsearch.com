@@ -59,3 +59,20 @@ Capture the exact Neon byte count and admission estimate on the rejection path, 
 The exact refusal is explained by the current table design budgeting a full selected/review payload row for each advert on this new feed date. A storage-bounded design must retain Tuesday's historical identity/decision evidence while avoiding this projected full-payload growth. Do not retry the update until that design fits the existing ceiling and reserve without weakening the guard.
 
 The optional log-only instrumentation is committed on `feat/neon-shadow-database`; PR #336 remains draft/unmerged. No production code, data, publishing, or cleanup-apply mode changed.
+
+
+## Scheduled daily-check follow-up — 18 November
+
+Reviewed the three 17 November daily/cleanup/failure-recovery checkpoints, this rollover evidence and PR #336 (draft/unmerged). Request remains `mode: today`, attempt **6**. No duplicate refresh was triggered: the confirmed capacity rejection remains unresolved.
+
+Independent read-only audit workflow **44281384493**, job **134722663120**, passed:
+- Database **681,426,944 bytes**, unchanged from the rejected daily admission.
+- Daily selected/review table: **0 EXCLUDE rows / 0 EXCLUDE payload rows**.
+- Legacy master audit found **3,716 confirmed all-family excluded payload candidates**, **0 hash mismatches**, using date-matched complete eight-family evidence. Candidate JSON bytes **15,014,362**; stored bytes **9,340,530**. This is an audit, not a purge receipt or evidence that disk capacity has been recovered.
+- **39,691** master payloads had decision evidence for a different payload date; **16,764** had no selector evidence; **389** were not excluded in every family. These classifications must not be treated as confirmed exclusions.
+- Legacy exclude-review markers numbered **37,631**, but overlapped **68 current selected/review rows** and **69 published rows**; markers alone cannot safely identify deletable payloads.
+- Subsequent broader audit **44281949209**, job **134724655190**, failed with PostgreSQL `Query read timeout` at `audit-exclude-payloads.mjs:60`; no successful broader report or cleanup is established.
+
+Wednesday Neon write/readback, rollover ID-level additions/changes/absences/returns, active Wednesday receipt, Wednesday idempotency and fresh `report.failureResidue` verification remain pending. Tuesday's successful zero-residue result is historical evidence only. Wednesday master-cleanup dry-run did not execute; the last successful plan remains **0 candidates / 0 cleared**, with incomplete recurring master/version and inactivity coverage.
+
+Resume only after a storage-bounded implementation or independently verified capacity recovery fits the unchanged **800 MiB ceiling / 64 MiB reserve**. No further secret renewal is shown necessary by the successful Wednesday archive restoration; access may expire later. Permanent immutable archive access and live read/write/lifecycle receipts remain gates; real cleanup apply stays disabled. No supplier refetch, selector rerun, failure injection, 316-file website rerun, real purge, AWS change, production action or PR merge occurred in this follow-up.
