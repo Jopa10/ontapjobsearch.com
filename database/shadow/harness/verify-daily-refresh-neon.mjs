@@ -55,6 +55,7 @@ try{
   const payloadBytes=bulky.reduce((n,r)=>n+Buffer.byteLength(JSON.stringify(r)),0);
   const metadataBytes=delta.reduce((n,r)=>n+Buffer.byteLength(JSON.stringify({...r,raw_payload:undefined})),0);
   const estimate=Math.max(32*1024*1024,payloadBytes*5+metadataBytes*3+8*1024*1024);
+  console.log('ONTAP_DAILY_REFRESH_STORAGE_ADMISSION '+JSON.stringify({databaseBytesBefore:beforeBytes,estimatedAdmissionBytes:estimate,maximumBytes:MAX,reserveBytes:RESERVE,remainingBytesBeforeReserve:MAX-RESERVE-beforeBytes,payloadBytes,metadataBytes,newRows:newRows.length,changedPayloadRows:changedPayloads.length,metadataOnlyRows:metadataOnly}));
   assert.ok(beforeBytes+estimate+RESERVE<=MAX,'Storage estimate exceeds protected Preview ceiling');
   for(let i=0;i<delta.length;i+=100)await c.query(
    'INSERT INTO '+table+' AS t(feed_date,public_id,decision,decision_reason,selector_revision,archive_sha256,raw_payload,payload_sha256,source_provenance,source_row_position) '+
