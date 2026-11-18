@@ -106,6 +106,12 @@ jobs:
           config=json.loads((harness/'vercel.json').read_text());config['buildCommand']='node verify-daily-master-refresh-neon.mjs'
           (harness/'vercel.json').write_text(json.dumps(config))
           PY
+      - name: Check daily master refresh JavaScript syntax
+        run: |
+          node --check database/shadow/harness/daily-master-snapshot.mjs
+          node --check database/shadow/harness/current-publication.mjs
+          node --check database/shadow/harness/master-cleanup.mjs
+          node --check database/shadow/harness/verify-daily-master-refresh-neon.mjs
       - name: Refresh Neon Preview and verify active date IDs payloads and scope order
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
