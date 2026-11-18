@@ -43,3 +43,19 @@ No Wednesday cleanup dry-run ran because the refresh failed before commit. The l
 ## Next safe step
 
 Capture the exact Neon byte count and admission estimate on the rejection path, then review a storage-bounded way to retain Tuesday history while storing Wednesday's current payloads within the **800 MiB ceiling and 64 MiB reserve**. Do not retry by weakening the guard, deleting history or applying cleanup. PR #336 remains draft and unmerged.
+
+
+## Exact guarded admission diagnostic — attempt 6
+
+- Added a log-only admission report immediately before the existing assertion; no threshold or write behavior changed.
+- Workflow **44277554479** again found Wednesday's publication and archive, reused the saved outputs, and confirmed **256 scopes**.
+- Database before: **681,426,944 bytes**.
+- Protected maximum: **838,860,800 bytes** (800 MiB); required reserve: **67,108,864 bytes** (64 MiB).
+- Available projected growth while preserving the reserve: **90,324,992 bytes**.
+- Wednesday's conservative estimated growth: **129,547,100 bytes**; it exceeds the available amount by **39,222,108 bytes** (~37.4 MiB).
+- Estimate components: **23,291,643 payload bytes**, **1,566,759 metadata bytes**, **5,619 new date-specific rows**; no changed payload rows and no metadata-only updates.
+- The same guard rejected the update before the first write. Neon remains unchanged; no threshold or reserve was bypassed.
+
+The exact refusal is explained by the current table design budgeting a full selected/review payload row for each advert on this new feed date. A storage-bounded design must retain Tuesday's historical identity/decision evidence while avoiding this projected full-payload growth. Do not retry the update until that design fits the existing ceiling and reserve without weakening the guard.
+
+The optional log-only instrumentation is committed on `feat/neon-shadow-database`; PR #336 remains draft/unmerged. No production code, data, publishing, or cleanup-apply mode changed.
