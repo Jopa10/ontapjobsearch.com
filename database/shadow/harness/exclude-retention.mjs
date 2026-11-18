@@ -1,14 +1,7 @@
 import assert from 'node:assert/strict';
-import {decodeAppearances} from './appearance-manifest.mjs';
 
-const DAY_MS=24*60*60*1000;
-export const EXCLUDE_REVIEW_DAYS=3;
-
-function validDate(value){
-  assert.match(value,/^\d{4}-\d{2}-\d{2}$/,'Invalid review date');
-  assert.equal(new Date(`${value}T00:00:00Z`).toISOString().slice(0,10),value,'Invalid review date');
-  return value;
-}
+// The former three-day EXCLUDE window is retired. EXCLUDE payloads are never stored.
+export const EXCLUDE_REVIEW_DAYS=0;
 
 export function classifyFullyExcludedRefs(state){
   const refs=new Set(state.sourceHashes.map(([ref])=>ref));
