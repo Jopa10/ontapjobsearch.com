@@ -2,11 +2,11 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import pg from 'pg';
-import {requirePreview,hash} from './publisher-safeguards.mjs';
+import {requirePreview} from './publisher-safeguards.mjs';
 
 requirePreview(process.env);
 const request=JSON.parse(await fs.readFile('exclude-payload-audit-request.json','utf8'));
-assert.equal(request.mode,'audit','This first pass is read-only');
+assert.equal(request.mode,'audit','This pass is read-only');
 const u=new URL(process.env.ONTAP_SHADOW_DATABASE_URL);
 u.searchParams.set('sslmode','verify-full');
 const c=new pg.Client({connectionString:u.toString(),connectionTimeoutMillis:15000,query_timeout:120000,application_name:'ontap-preview-exclude-payload-audit'});
@@ -27,20 +27,25 @@ const cte=[
 "), latest AS (",
 " SELECT DISTINCT ON(advert_id) advert_id,run_id,decision_feed_date,family_rows,excluded_rows",
 " FROM decisions_by_run ORDER BY advert_id,decision_feed_date DESC,started_at DESC",
-"), active_day AS (",
-" SELECT max(feed_date)::text AS feed_date FROM ontap_shadow.daily_refresh_receipts",
 "), classified AS (",
 " SELECT s.code AS supplier_code,a.id::text AS advert_id,a.supplier_job_id,a.job_id::text AS job_id,",
-"  a.content_hash,a.last_seen::text AS last_seen,a.raw_payload,",
+"  a.content_hash,a.last_seen::text AS last_seen,a.exclude_review_started_on::text AS legacy_marker,a.raw_payload,",
 "  COALESCE(j.publication_status,'missing') AS publication_status,l.decision_feed_date,l.family_rows,l.excluded_rows,",
 "  CASE",
+"   WHEN j.publication_status='published' THEN 'published_protection'",
+"   WHEN EXISTS(SELECT 1 FROM ontap_shadow.selected_review_payload_records p WHERE p.public_id=a.supplier_job_id) THEN 'historical_selected_review_protection'",
+"   WHEN a.exclude_review_started_on IS NOT NULL AND EXISTS(",
+"    SELECT 1 FROM ontap_shadow.selection_decisions d JOIN ontap_shadow.feed_runs r ON r.id=d.feed_run_id",
+"    WHERE d.advert_id=a.id AND r.status='accepted' AND r.diagnostics ? 'selection_parity'",
+"     AND d.scope LIKE 'production:%' AND d.decision IN ('include','review')",
+"     AND r.feed_date>=a.exclude_review_started_on::date",
+"   ) THEN 'legacy_marker_contradicted_by_later_positive'",
+"   WHEN a.exclude_review_started_on IS NOT NULL THEN 'legacy_exclude_marker_candidate'",
 "   WHEN l.advert_id IS NULL THEN 'no_selector_evidence'",
 "   WHEN l.family_rows<>8 THEN 'incomplete_selector_decisions'",
 "   WHEN l.decision_feed_date<>a.last_seen::text THEN 'decision_not_for_current_payload_date'",
 "   WHEN l.excluded_rows<>8 THEN 'not_excluded_in_every_family'",
-"   WHEN j.publication_status='published' THEN 'published_protection'",
-"   WHEN EXISTS(SELECT 1 FROM ontap_shadow.selected_review_payload_records p WHERE p.feed_date=(SELECT feed_date::date FROM active_day) AND p.public_id=a.supplier_job_id) THEN 'current_selected_review_protection'",
-"   ELSE 'confirmed_exclude_candidate'",
+"   ELSE 'complete_date_matched_exclude_candidate'",
 "  END AS classification",
 " FROM ontap_shadow.supplier_adverts a",
 " JOIN ontap_shadow.suppliers s ON s.id=a.supplier_id",
@@ -64,30 +69,35 @@ try{
   "SELECT count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL)::int AS marked_adverts,"+
   "count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL)::int AS marked_payload_rows,"+
   "coalesce(sum(pg_column_size(a.raw_payload)) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL),0)::text AS marked_payload_bytes,"+
-  "count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL AND EXISTS(SELECT 1 FROM ontap_shadow.selected_review_payload_records p WHERE p.feed_date=(SELECT max(feed_date) FROM ontap_shadow.daily_refresh_receipts) AND p.public_id=a.supplier_job_id))::int AS marked_current_selected_review_rows,"+
+  "count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL AND EXISTS(SELECT 1 FROM ontap_shadow.selected_review_payload_records p WHERE p.public_id=a.supplier_job_id))::int AS marked_historical_selected_review_rows,"+
   "count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL AND j.publication_status='published')::int AS marked_published_rows,"+
   "min(a.exclude_review_started_on)::text AS oldest_marker,max(a.exclude_review_started_on)::text AS newest_marker "+
   "FROM ontap_shadow.supplier_adverts a LEFT JOIN ontap_shadow.jobs j ON j.id=a.job_id")).rows[0];
  const candidateRows=(await c.query(cte+
-  "\nSELECT advert_id,supplier_job_id,job_id,content_hash,raw_payload "+
-  "FROM classified WHERE classification='confirmed_exclude_candidate' AND raw_payload IS NOT NULL "+
-  "ORDER BY supplier_job_id")).rows;
+  "\nSELECT advert_id,supplier_job_id,job_id,content_hash,raw_payload,classification "+
+  "FROM classified WHERE classification IN ('legacy_exclude_marker_candidate','complete_date_matched_exclude_candidate') "+
+  "AND raw_payload IS NOT NULL ORDER BY supplier_job_id")).rows;
  let hashMatches=0,hashMismatches=0,hashBytes=0;
- const candidateIds=[];
+ const candidateSamples=[];
+ const validCandidates=[];
  for(const r of candidateRows){
-  const bytes=Buffer.byteLength(JSON.stringify(canonical(r.raw_payload)));
-  hashBytes+=bytes;
-  if(payloadHash(r.raw_payload)===r.content_hash){hashMatches++;candidateIds.push(r.supplier_job_id);}
-  else hashMismatches++;
+  hashBytes+=Buffer.byteLength(JSON.stringify(canonical(r.raw_payload)));
+  if(payloadHash(r.raw_payload)===r.content_hash){
+   hashMatches++;
+   validCandidates.push({publicId:r.supplier_job_id,advertId:r.advert_id,jobId:r.job_id,evidence:r.classification});
+   if(candidateSamples.length<25)candidateSamples.push(r.supplier_job_id);
+  }else hashMismatches++;
  }
  const report={
-  status:'passed',mode:'read_only_audit',feedDatePolicy:'latest complete selector evidence must match advert last_seen date',
-  selectorFamilyCountRequired:8,databaseBytes:before,
+  status:'passed',mode:'read_only_audit',selectorFamilyCountRequired:8,databaseBytes:before,
   masterPayloadBreakdown:totals.map(r=>({supplier:r.supplier_code,classification:r.classification,rows:r.payload_rows,storedBytes:Number(r.payload_bytes)})),
-  fullyExcludedPayloadCandidates:hashMatches,excludedPayloadHashMismatches:hashMismatches,
-  candidateJsonBytes:hashBytes,excludedPayloadIdsSample:candidateIds.slice(0,25),
+  confirmedExcludePayloadCandidates:hashMatches,excludedPayloadHashMismatches:hashMismatches,candidateJsonBytes:hashBytes,
+  excludedPayloadIdsSample:candidateSamples,
   dailySelectedReviewExcludeRows:Number(daily.exclude_rows),dailySelectedReviewExcludePayloadRows:Number(daily.exclude_payload_rows),
-  legacyExcludeReviewMarkers:Number(markers.marked_adverts),legacyMarkerPayloadRows:Number(markers.marked_payload_rows),legacyMarkerPayloadBytes:Number(markers.marked_payload_bytes),legacyMarkerCurrentSelectedReviewRows:Number(markers.marked_current_selected_review_rows),legacyMarkerPublishedRows:Number(markers.marked_published_rows),oldestLegacyMarker:markers.oldest_marker,newestLegacyMarker:markers.newest_marker,productionChanged:false,dataChanged:false,readOnly:true
+  legacyExcludeReviewMarkers:Number(markers.marked_adverts),legacyMarkerPayloadRows:Number(markers.marked_payload_rows),
+  legacyMarkerPayloadBytes:Number(markers.marked_payload_bytes),legacyMarkerHistoricalSelectedReviewRows:Number(markers.marked_historical_selected_review_rows),
+  legacyMarkerPublishedRows:Number(markers.marked_published_rows),oldestLegacyMarker:markers.oldest_marker,newestLegacyMarker:markers.newest_marker,
+  productionChanged:false,dataChanged:false,readOnly:true
  };
  await c.query('COMMIT');
  await fs.mkdir('dist',{recursive:true});
