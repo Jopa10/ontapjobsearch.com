@@ -2,7 +2,8 @@ import { createHash, createHmac } from "node:crypto";
 
 export const PRIVATE_TEST_EMAIL = "jpbt801@gmail.com";
 export const PRIVATE_TEST_EMAILS: readonly string[] = [PRIVATE_TEST_EMAIL];
-const TEST_BRANCH = "feat/cpc-job-alerts-clean";
+export const ALERT_SIGNUP_TEST_BRANCH = "feat/cpc-alert-neon-signup";
+const TEST_BRANCH = ALERT_SIGNUP_TEST_BRANCH;
 
 type Env = Record<string, string | undefined>;
 type SampleJob = { job_id: string; title: string; location: string; source: string; apply_url: string };

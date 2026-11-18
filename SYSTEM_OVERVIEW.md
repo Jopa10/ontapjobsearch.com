@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 10 November 2026
+**Last updated:** 18 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 18 November 2026 — **Private email signup integration prepared for Preview:** the signup screen asks for clear email consent, then the Preview backend records the user, email address, preferences and consent in the isolated Neon test database after Brevo accepts the signup. The change is not merged or live; the database migration and owner-submitted signup test are still required. `jnabon1108@gmail.com` remains excluded from daily test emails, and public delivery stays off.
 
 - 10 November 2026 — **Eleven requested region/family pages registered for the next feed:** the exact owner-requested pairs are now LIVE in the pipeline register, and Lancashire - Blackpool & Fylde has been added using its established Blackpool anchor. The existing public inventory and deployment are untouched. Tomorrow's feed will generate their lists; reconcile counts and exact job IDs before running the verified publisher.
 

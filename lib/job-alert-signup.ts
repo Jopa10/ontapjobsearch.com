@@ -1,5 +1,8 @@
 import { createHash, createHmac } from "node:crypto";
-import { privateTestEnabled, PRIVATE_TEST_EMAILS } from "./private-job-alert-test";
+import { privateTestEnabled } from "./private-job-alert-test";
+import { JOB_ALERT_CONSENT_VERSION } from "./job-alert-consent";
+
+export const PRIVATE_SIGNUP_TEST_EMAILS: readonly string[] = ["jpbt801@gmail.com", "jnabon1108@gmail.com"];
 
 type Env = Record<string, string | undefined>;
 export type Preferences = { role: string; location: string; salary: string; region?: string };
@@ -32,7 +35,7 @@ export function savedAlerts(attrs: Record<string, unknown>): Preferences[] {
 }
 const STATE = "ALERT_CONFIRMATION_STATE";
 const API = "https://api.brevo.com/v3";
-const VERSION = "cpc-job-alert-v1";
+const VERSION = JOB_ALERT_CONSENT_VERSION;
 
 function escapeHtml(value: string): string {
   return value.replace(/[&<>"']/g, character => ({
@@ -70,11 +73,11 @@ export async function saveJobAlert(
   signup: Signup,
   { env, fetcher = fetch, now = () => new Date() }:
   { env: Env; fetcher?: typeof fetch; now?: () => Date },
-): Promise<{ ok: true; confirmationSent: boolean; unchanged: boolean; alertCount: number }> {
+): Promise<{ ok: true; confirmationSent: boolean; subscriptionActive: boolean; unchanged: boolean; alertCount: number }> {
   // Public signup remains explicitly gated; Preview remains restricted to the approved private testers.
   const production = env.VERCEL_ENV === "production";
   if (production ? env.CPC_JOB_ALERTS_LIVE_ENABLED !== "true" :
-      (!privateTestEnabled(env) || !PRIVATE_TEST_EMAILS.includes(signup.email.trim().toLowerCase()))) {
+      (!privateTestEnabled(env) || !PRIVATE_SIGNUP_TEST_EMAILS.includes(signup.email.trim().toLowerCase()))) {
     throw new Error("Job-alert signup is not enabled for this environment.");
   }
   const key = env.BREVO_API_KEY;
@@ -117,7 +120,7 @@ export async function saveJobAlert(
   const alertCount = alerts.length;
   const state = String(attrs[STATE] || "");
   if (same && /^sent:[a-f0-9-]{36}$/.test(state)) {
-    return { ok: true, confirmationSent: false, unchanged: true, alertCount };
+    return { ok: true, confirmationSent: false, subscriptionActive: true, unchanged: true, alertCount };
   }
   const pending = same && /^pending-(?:saved|updated):[a-f0-9-]{36}$/.test(state);
   const confirmationKey = pending ? state.split(":")[1] : uuid(JSON.stringify([
@@ -149,7 +152,7 @@ export async function saveJobAlert(
       contact.attributes?.ALERT_ROLE !== signup.role || contact.attributes?.ALERT_LOCATION !== signup.location ||
       String(contact.attributes?.ALERT_SALARY || "") !== signup.salary ||
       (signup.region ? contact.attributes?.ALERT_REGION !== signup.region : false)) {
-    return { ok: true, confirmationSent: false, unchanged: same, alertCount };
+    return { ok: true, confirmationSent: false, subscriptionActive: false, unchanged: same, alertCount };
   }
   const payload = Buffer.from(JSON.stringify({ email, version: 1 })).toString("base64url");
   const signature = createHmac("sha256", secret).update(payload, "ascii").digest("base64url");
@@ -168,13 +171,13 @@ export async function saveJobAlert(
       // A retry after an accepted send can return Brevo's duplicate-key response.
       accepted = error.code === "duplicate_parameter";
     }
-    if (!accepted) return { ok: true, confirmationSent: false, unchanged: same, alertCount };
+    if (!accepted) return { ok: true, confirmationSent: false, subscriptionActive: true, unchanged: same, alertCount };
     await call("/contacts/" + encodeURIComponent(email), {
       method: "PUT", body: JSON.stringify({ attributes: { [STATE]: "sent:" + confirmationKey } }),
     });
-    return { ok: true, confirmationSent: true, unchanged: same, alertCount };
+    return { ok: true, confirmationSent: true, subscriptionActive: true, unchanged: same, alertCount };
   } catch {
     // Pending marker permits a later retry with the same idempotency key.
-    return { ok: true, confirmationSent: false, unchanged: same, alertCount };
+    return { ok: true, confirmationSent: false, subscriptionActive: true, unchanged: same, alertCount };
   }
 }
