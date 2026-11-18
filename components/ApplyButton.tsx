@@ -8,6 +8,21 @@ import { JOB_ALERT_CONSENT_TEXT } from "@/lib/job-alert-consent";
 
 type AlertState = "editing" | "saving" | "saved" | "failed";
 
+function minimumPayFromAdvert(value: string): string {
+  const text = value.trim();
+  if (!text || /\\b(?:salary not stated|competitive|negotiable|up to)\\b/i.test(text)) return "";
+  const match = text.match(/£?\\s*(\\d[\\d,]*(?:\\.\\d+)?)\\s*(k)?(?:\\s*(?:-|–|—|to)\\s*£?\\s*(\\d[\\d,]*(?:\\.\\d+)?)\\s*(k)?)?/i);
+  if (!match) return "";
+
+  const lower = Number(match[1].replace(/,/g, ""));
+  if (!Number.isFinite(lower) || lower <= 0) return "";
+  const thousands = match[2] || (match[4] && lower < 1000 ? "k" : "");
+  const unit = text.match(/\\bper\\s+(?:hour|day|week|month|year)\\b|\\b(?:ph|pa)\\b|p\\.a\\./i)?.[0];
+  const period = unit || (lower * (thousands ? 1000 : 1) >= 1000 ? "per year" : "");
+  if (!period) return "";
+  return `£${match[1]}${thousands} ${period}`;
+}
+
 export default function ApplyButton({
   apply_url, job_id, title, employer, location, region, source, slice_path, salary_text = "",
 }: ApplyClickDetails) {
@@ -17,7 +32,7 @@ export default function ApplyButton({
   const [role, setRole] = useState(title);
   const [alertLocation, setAlertLocation] = useState(location);
   const [includeRegion, setIncludeRegion] = useState(Boolean(region && region !== location));
-  const [salary, setSalary] = useState(salary_text);
+  const [salary, setSalary] = useState(minimumPayFromAdvert(salary_text));
   const [errorMessage, setErrorMessage] = useState("");
   const [website, setWebsite] = useState("");
   const [consent, setConsent] = useState(false);
@@ -61,7 +76,7 @@ export default function ApplyButton({
     setRole(title);
     setAlertLocation(location);
     setIncludeRegion(Boolean(region && region !== location));
-    setSalary(salary_text);
+    setSalary(minimumPayFromAdvert(salary_text));
     setConsent(false);
     setSignupAttemptId(window.crypto.randomUUID());
     setState("editing");
@@ -134,11 +149,12 @@ export default function ApplyButton({
                 <div className="cpc-job-alert-preference-panel" style={{ margin: "10px 0", padding: "10px 12px", background: "#f8fafc", border: "1px solid #dbe3ee", borderRadius: 8 }}>
                   <div style={{ marginBottom: 6, fontSize: 14, fontWeight: 600 }}>New alert preferences — change anything</div>
                   <div className="cpc-job-alert-preferences">
-                    {([["Job clicked on + similar roles", role, setRole], ["Location", alertLocation, setAlertLocation], ["Salary", salary, setSalary]] as const).map(([label, value, setValue]) => (
+                    {([["Job clicked on + similar roles", role, setRole], ["Location", alertLocation, setAlertLocation], ["Minimum pay (optional)", salary, setSalary]] as const).map(([label, value, setValue]) => (
                       <label key={label} style={{ display: "block", margin: "4px 0", color: "#475569", fontSize: 14 }}>
                         {label}
-                        <input type="text" required={label === "Job clicked on + similar roles" || label === "Location"} disabled={state === "saving"} maxLength={120} value={value} onChange={event => { setValue(event.target.value); setConsent(false); setSignupAttemptId(window.crypto.randomUUID()); }}
+                        <input type="text" required={label === "Job clicked on + similar roles" || label === "Location"} disabled={state === "saving"} maxLength={120} value={value} onChange={event => { setValue(event.target.value); setConsent(false); setSignupAttemptId(window.crypto.randomUUID()); }} placeholder={label === "Minimum pay (optional)" ? "e.g. £13 per hour or £32,000 per year" : undefined}
                           style={{ display: "block", width: "100%", height: 38, marginTop: 3, padding: "8px 10px", border: "1px solid #cbd5e1", borderRadius: 6, background: "#fff", color: "#171717", font: "inherit" }} />
+                        {label === "Minimum pay (optional)" ? <span style={{ display: "block", marginTop: 3, color: "#64748b", fontSize: 11, lineHeight: 1.3 }}>Leave blank for any pay, or enter the minimum pay you’d consider.</span> : null}
                       </label>
                     ))}
                   </div>
