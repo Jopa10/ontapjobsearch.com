@@ -127,7 +127,7 @@ try{
   storageCeilingBytes:MAX_DB,reserveBytes:RESERVE,stoppedAtDatabaseBytes:guardDatabaseBytes||null,
   productionChanged:false,decisionAndIdentityRowsDeleted:0};
  await fs.mkdir('dist',{recursive:true});
- await fs.writeFile('dist/exclude-payload-purge-report.json',JSON.stringify(report,null,2)+'\\n');
+ await fs.writeFile('dist/exclude-payload-purge-report.json',JSON.stringify(report,null,2)+'\n');
  await fs.writeFile('dist/index.html','<!doctype html><meta name="robots" content="noindex,nofollow"><h1>Preview exclude payload cleanup</h1>');
  console.log('ONTAP_EXCLUDE_PAYLOAD_PURGE '+JSON.stringify(report));
  assert.equal(hashMismatches,0,'Hash mismatch found; review the report before continuing');
