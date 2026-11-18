@@ -153,7 +153,7 @@ export default function ApplyButton({
                 <button type="submit" disabled={state === "saving"} style={{ width: "100%", border: 0, borderRadius: 7, padding: "12px 15px", background: state === "saving" ? "#94a3b8" : "#1d4ed8", color: "#fff", font: "inherit", fontWeight: 700, cursor: state === "saving" ? "wait" : "pointer" }}>
                   {state === "saving" ? "Saving your alert…" : "Yes — save alert and continue to apply"}
                 </button>
-                <button type="button" disabled={state === "saving"} onClick={continueToEmployer} style={{ display: "block", marginTop: 4, marginBottom: 0, padding: "8px 0", border: 0, background: "transparent", color: "#1d4ed8", font: "inherit", textDecoration: "underline", cursor: "pointer" }}>No thanks — continue to apply</button>
+                <button type="button" disabled={state === "saving"} onClick={continueToEmployer} style={{ display: "block", margin: "4px auto 0", padding: "8px 0", border: 0, background: "transparent", color: "#1d4ed8", font: "inherit", textDecoration: "underline", cursor: "pointer" }}>No thanks — continue to apply</button>
                 <p style={{ margin: "6px 0 0", color: "#64748b", fontSize: 12, lineHeight: 1.4 }}>Save up to 10 different alerts per email. New preferences add an alert. Matches arrive in one daily email. Unsubscribe stops all alerts.</p>
                 </div>
                 <label aria-hidden="true" style={{ position: "absolute", left: -10000, width: 1, height: 1, overflow: "hidden" }}>Leave this field empty<input tabIndex={-1} autoComplete="off" name="website" value={website} onChange={event => setWebsite(event.target.value)} /></label>
