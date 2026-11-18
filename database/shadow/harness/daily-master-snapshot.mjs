@@ -97,7 +97,7 @@ export async function upsertSelectedMaster(c,{snapshot,scopes,source}){
    "FROM jsonb_to_recordset($1::jsonb) AS r(id uuid,public_id text,content_hash text,source_row_position integer,scopes jsonb) JOIN ontap_shadow.supplier_adverts a ON a.supplier_id=$4 AND a.supplier_job_id=r.public_id ON CONFLICT(advert_id,feed_run_id,scope) DO UPDATE SET decision='include',reason=EXCLUDED.reason,rules_revision=EXCLUDED.rules_revision,evidence=EXCLUDED.evidence",
    [JSON.stringify(batch.map(r=>({id:stableId('daily-selected:'+runId+':'+r.advert_id),public_id:r.public_id,content_hash:r.content_hash,source_row_position:r.source_row_position,scopes:r.scopes}))),runId,snapshot.productionRunCommit,supplier]);
  }
- await c.query('UPDATE ontap_shadow.jobs j SET preferred_advert_id=a.id FROM ontap_shadow.supplier_adverts a WHERE a.job_id=j.id AND a.preferred_advert_id IS NULL AND a.supplier_id=$1',[supplier]);
+ await c.query('UPDATE ontap_shadow.jobs j SET preferred_advert_id=a.id FROM ontap_shadow.supplier_adverts a WHERE a.job_id=j.id AND j.preferred_advert_id IS NULL AND a.supplier_id=$1',[supplier]);
  const storedRows=await readMasterAppearance(c,snapshot.feedDate);
  assert.equal(storedRows.length,snapshot.records.length,'Master daily appearance count mismatch');
  const byId=new Map(storedRows.map(r=>[r.public_id,r]));
