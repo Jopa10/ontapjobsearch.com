@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-11-17
-review_fingerprint: 6e00758861227b6817c1f5d9c75e9ed18c275b6bc2f341403ff41d3bc874dd10
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: fd32726afa21684b14fcfc55b6791d6cd0577025da8ce7b6e04cfe8b676a55da
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Merseyside - Liverpool | Liverpool, North West, L13 5UQ | DAT Level 3, SCP 18-25 (Actual salary £25,228-£29,641) | Academy Administrator L3
+employer: Dixons Broadgreen Academy
+closing_date: 2026-12-02T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8c10cf1038ab08c80aa6ddba60f8f632ce5287d3390edc59bbcdee734bcc525c
+source: Teaching Vacancies
+source_job_id: academy-administrator-l3-dixons-broadgreen-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-broadgreen-academy
+---
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Central
 
-review_date: 2026-11-17
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: d9ec25a93906269159d152bea7f96166c8bcb7fcf6a69fe3e823b0b4a0f128ca
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Lancashire - Central
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 0
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Lancashire - Central | Preston, North West, PR1 4BD | £27,709.00 to £29,071.00 per annum (pro rata equivalent £25,666.81 - £26,928.43 per annum) | Business Support Officer (Fixed Term from January 2027 until 20/08/2027)
+employer: Eden Boys' School, Preston
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bd60e7d263cf35c72a37c546288c45fedcc0426b373a960b44ad7e3b1cffe524
+source: Teaching Vacancies
+source_job_id: business-support-officer-fixed-term-from-january-2027-until-20-08-2027
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-fixed-term-from-january-2027-until-20-08-2027
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

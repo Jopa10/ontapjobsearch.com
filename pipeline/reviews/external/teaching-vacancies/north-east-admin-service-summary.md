@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-17
-review_fingerprint: 64396890ee5c26fe5710527b52fcb0c5c6b2f32384b620c5140ace1b58389d4f
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: b8c0cf27c5c0bff3d4244cd2bb582c25225a6c6b56dd29828ed8c19809c4cd6b
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 8
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -126,21 +126,6 @@ source_job_id: receptionist-administration-assistant-st-aidan-s-catholic-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-st-aidan-s-catholic-academy
 ---
 
----
-action: 
-SELECTED | North East | Morpeth, North East, NE61 2HA | £26,403.00 - £28,142.00 Annually (FTE) Pay Award Pending | School Business Support Officer
-employer: Morpeth Stobhillgate First School
-closing_date: 2026-11-18T23:59:00+00:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7df6492f242a282419abdbc6e1b10c90b3a4e6b9cd9b2e8d3d4e54a8471cee9f
-source: Teaching Vacancies
-source_job_id: school-business-support-officer-4f666a22-4f7e-406a-a455-26990b223448
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-support-officer-4f666a22-4f7e-406a-a455-26990b223448
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -170,7 +155,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administratio
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-centurion-multi-academy-trust) — Insufficient admin/service evidence.
 - [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-af43e27f-b30c-4ed7-9581-5362fb482ff1) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hadrian-learning-trust) — Excluded senior/management title.
 - [Payroll Partner](https://teaching-vacancies.service.gov.uk/jobs/payroll-partner) — Insufficient admin/service evidence.
 - [Staff & Student Support Officer](https://teaching-vacancies.service.gov.uk/jobs/staff-student-support-officer) — Insufficient admin/service evidence.
 

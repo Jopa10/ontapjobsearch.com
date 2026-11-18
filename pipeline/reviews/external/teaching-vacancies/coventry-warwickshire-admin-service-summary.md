@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-17
+review_date: 2026-11-18
 review_fingerprint: a08b5e148a5665c52417af61b6c7cff012ae1ec7488721cb1d4305ed3d39414e
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 15
 - Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -167,6 +167,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-7
 - [Cover Co-ordinator / Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-administrator-stoke-park-school) — No usable numeric salary.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-harris-church-of-england-academy) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-aylesford-school-warwick) — Excluded senior/management title.
+- [Office Manager and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-hr-assistant) — Excluded senior/management title.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-rugby-free-primary-school) — Excluded senior/management title.
 - [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant-finham-park-school-coventry-west-midlands) — Insufficient admin/service evidence.
 
 ## Safety boundary

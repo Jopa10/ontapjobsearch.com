@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-11-17
-review_fingerprint: eb09ded036adb90511b407dfd29c9a6e746dffdf50fc00e85dc80724a82ae82a
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: 462a8e7e774b4aa48fa49c1f910e89845730c1c75439a6fd6675e6dec0da095e
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 2
+- Records: 1
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
@@ -34,21 +34,6 @@ factual_fingerprint: f0950816fbfeca71724702f4cfdafd85387e906d6893ebed2678c474274
 source: Teaching Vacancies
 source_job_id: administrative-assistant-reception-moseley-park
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-reception-moseley-park
----
-
----
-action: 
-SELECTED | West Midlands | Willenhall, West Midlands, WV12 4QZ | £9,510.00 - £10,136.00 Annually (Actual) NJC Salary Scale 7 - 11 | SEN Administrator
-employer: Pool Hayes Academy
-closing_date: 2026-11-18T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 08f948f67ab6fe1b429dc17484718b1b49892556904bbce2e4f58e155bd25772
-source: Teaching Vacancies
-source_job_id: sen-administrator-pool-hayes-academy-willenhall-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-pool-hayes-academy-willenhall-west-midlands
 ---
 
 ## POSS — choose SELECT or EXCLUDE

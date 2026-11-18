@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-17
-review_fingerprint: 72d4f9111a015b687c7a41d7c0db0a83f989999262e43df798afbeba8b1927b2
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: 1ae2178eb7a3f110aa3281eef2024929e0607fbda6a344dc780847ae7a89f935
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 12
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: d019bfa0410fa110daefdb2d8780bd7acd20f1aa5ee0e04b4792015b6c5
 source: Teaching Vacancies
 source_job_id: administration-assistant-carterton-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-carterton-community-college
----
-
----
-action: 
-SELECTED | Oxfordshire | Witney, South East, OX29 7DL | £27,710.00 - £30,025.00 Annually (FTE) | Administrative Assistant
-employer: Windrush Church of England Primary School
-closing_date: 2026-11-20T12:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 34af91b3509c7f77fe4fbfa124b7802f7171e1a094363e91e8e1ac417e4ad3ec
-source: Teaching Vacancies
-source_job_id: administrative-assistant-windrush-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-windrush-church-of-england-primary-school
 ---
 
 ---
@@ -79,36 +64,6 @@ factual_fingerprint: 135fed40106a7c533682be8bfae8e46f219df9d587b50b0ff404060a7e2
 source: Teaching Vacancies
 source_job_id: faculty-administrator-languages-lord-williams-s-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/faculty-administrator-languages-lord-williams-s-school
----
-
----
-action: 
-SELECTED | Oxfordshire | Abingdon, South East, OX14 4JF | £26,017.00 - £26,429.00 Annually (FTE) | Finance and Health and Safety Admin Assistant
-employer: Drayton Community Primary School
-closing_date: 2027-01-08T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7a1a6224fab873cf6c9c725fabea5947ea1517375c4a1be2b2379cb49edf2aa2
-source: Teaching Vacancies
-source_job_id: finance-and-health-and-safety-admin-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-health-and-safety-admin-assistant
----
-
----
-action: 
-SELECTED | Oxfordshire | Faringdon, South East, SN7 7XE | £27,709.00 - £30,023.00 Annually (FTE) Actual salary in the region £12,224 - £13266 | School Administrator
-employer: Folly View Primary
-closing_date: 2026-11-18T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 009becfffedf24fe6121695a372df40c65070135dab14ba544e2d348e21fdd00
-source: Teaching Vacancies
-source_job_id: school-administrator-folly-view-primary
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-folly-view-primary
 ---
 
 ---
@@ -150,6 +105,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [Estates and Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-and-facilities-manager-alt-trust) — Excluded senior/management title.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-93fd9e38-fdd6-4e06-b69b-4e58480cf32b) — Insufficient admin/service evidence.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-cambrian-learning-trust) — Insufficient admin/service evidence.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust-oxford-not-recorded) — Insufficient admin/service evidence.
 - [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
 - [School Health & Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/school-health-safety-and-compliance-officer) — Insufficient admin/service evidence.

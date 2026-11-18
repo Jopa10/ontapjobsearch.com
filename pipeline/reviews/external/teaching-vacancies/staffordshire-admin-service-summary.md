@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-17
-review_fingerprint: 49e206d96e28c8dd9614c71b380f5bed65f99116067ca52d4bd5368b4bbd7383
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: 8b900c3c20d3bf7c6bebe05b084d0329f0431220489f87b6bdcb36944d9b0c2f
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -49,21 +49,6 @@ factual_fingerprint: 848b1ebdc6186b34e0934ad1da77f00cbb14407a2f303deea68e9a51177
 source: Teaching Vacancies
 source_job_id: administration-assistant-data-reports-co-ordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-data-reports-co-ordinator
----
-
----
-action: 
-SELECTED | Staffordshire | Stoke-on-Trent, West Midlands, ST4 5NT | £22,403.00 - £23,866.00 Annually (Actual) | Sixth Form Admin Assistant
-employer: St Joseph's College
-closing_date: 2026-11-18T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 414c817284d24c7ead22e9c328c9aee8562e5a2b25b81126ec246e218a8d4a79
-source: Teaching Vacancies
-source_job_id: sixth-form-admin-assistant-st-joseph-s-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admin-assistant-st-joseph-s-college
 ---
 
 ## POSS — choose SELECT or EXCLUDE

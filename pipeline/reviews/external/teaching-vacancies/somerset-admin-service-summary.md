@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-17
-review_fingerprint: 34b3e6c84ba2d7a52feae8462c82062d272d61233a7b8233d6c61a3ade82ba17
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: be1bd687db08b57ce4d4cb3079cff26f1cdcfa5e945c3ee45f803b713ca20809
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 5
+- Records: 10
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-f1
 
 ---
 action: 
+SELECTED | Somerset | Weston-Super-Mare, South West, BS23 3TZ | £14,504.36 (actual salary) | Office Administrator
+employer: Windwhistle Primary School
+closing_date: 2026-12-01T23:59:59+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ba271eb4b94d6bcd5d162f992596685f4b7ee824dfe1bb6d7cd9f7de0bacab87
+source: Teaching Vacancies
+source_job_id: office-administrator-windwhistle-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-windwhistle-primary-school
+---
+
+---
+action: 
 SELECTED | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
 employer: Writhlington School
 closing_date: 2026-12-07T23:59:59+00:00
@@ -108,6 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator
 
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-avanti-park-school) — No usable numeric salary.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-writhlington-school) — Insufficient admin/service evidence.
+- [Positive Behaviour Support Practitioner and Administrator](https://teaching-vacancies.service.gov.uk/jobs/positive-behaviour-support-practitioner-and-administrator-chilton-trinity-school) — No usable numeric salary.
 - [SEND Administrator](https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bridgwater-college-academy) — No usable numeric salary.
 
 ## Safety boundary

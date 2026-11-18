@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-17
-review_fingerprint: b2cc55b7e98b62f56f15d49fdbf3e4ce31dbebd7b77374ca18c30dfa34980a56
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: 89a7b62e6c601a20fddf7984f7ae4bc250aedcf3fde37494b8e53ab3fb1ebc01
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
+- Records: 22
 - Selected: 7
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/alternative-provision
 
 ---
 action: 
-SELECTED | Cambridgeshire | St Neots, East of England, PE19 1LQ | £32,578.00 - £34,812.00 Annually (FTE) Term time plus 3 weeks. Pro rata salary £30,003 - £32,061 | Exams Officer
-employer: Longsands Academy
-closing_date: 2026-11-17T23:59:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3a8b18c335532d4048d8866455396ef6c4e2ae41518b564a5ec2fa60dbdcdcca
-source: Teaching Vacancies
-source_job_id: exams-officer-0090e197-43a7-49b5-bc39-6bf97e0f4827
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-0090e197-43a7-49b5-bc39-6bf97e0f4827
----
-
----
-action: 
 SELECTED | Cambridgeshire | Huntingdon, PE28 5TQ | £27,320.67 - £30,628.71 Annually (Actual) There is the flexibility for part-time hours and/or more weeks worked | Finance Officer
 employer: Meridian Trust
 closing_date: 2026-11-20T08:00:00+00:00
@@ -79,6 +64,21 @@ factual_fingerprint: f96a359ee63a04c9074e39e71e215aac02e0c92de60ed1039c367489dbb
 source: Teaching Vacancies
 source_job_id: finance-officer-meridian-trust-huntingdon-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-meridian-trust-huntingdon-not-recorded
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB25 9DL | NJC Cambridgeshire Scale 5 Point 12-17 (£29,542 to £32,046 FTE per annum) | PA to the Principal
+employer: Bottisham Village College
+closing_date: 2026-11-26T23:59:00+00:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dd7fcb042384d93fc3c14bd38d2ccd8e8d6c24dbc4c8319fa765c93d4a9a2b0c
+source: Teaching Vacancies
+source_job_id: pa-to-the-principal-bottisham-village-college-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-bottisham-village-college-cambridge-cambridgeshire
 ---
 
 ---
@@ -145,6 +145,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+POSS | Cambridgeshire | Huntingdon, PE28 5TQ | £29,176.57 - £32,226.45 Annually (Actual) | Legal Support Officer
+employer: Meridian Trust
+closing_date: 2026-12-01T08:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ad5ceae0306ed038205d13df8eb14547543cfbda732cbb491608d9dd6924eb2b
+source: Teaching Vacancies
+source_job_id: legal-support-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/legal-support-officer
+---
+
+---
+action: 
 POSS | Cambridgeshire | Huntingdon, East of England, PE26 2NJ | Point 3 (£25,614 FTE) | Office Administrator
 employer: Bury CofE Primary School
 closing_date: 2026-11-29T23:59:00+00:00
@@ -170,6 +185,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Governance & Assurance Lead](https://teaching-vacancies.service.gov.uk/jobs/governance-assurance-lead) — Excluded senior/management title.
 - [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-grace-schools) — Insufficient admin/service evidence.
 - [Internal Scrutiny Officer](https://teaching-vacancies.service.gov.uk/jobs/internal-scrutiny-officer) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bottisham-village-college) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambourne-village-college) — Excluded senior/management title.
 - [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-longsands-academy) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-2caf4b0b-10ec-4bc7-9232-16c27b370a5f) — Excluded senior/management title.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-17
-review_fingerprint: 4bea40e6a26612ecb7b131192d4f8ae0fedacce75dc26d73f032b2f3527187ed
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: c1abe71871bb887c94aea23a833c41ac729aee2fc9ca1ee3389935eefe6ff351
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 8
-- POSS awaiting decision: 7
+- Records: 22
+- Selected: 9
+- POSS awaiting decision: 8
 - Excluded: 0
 - Hard pass: 5
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B15 2EF | £24,620.00 - £27,122.00 Hourly GR3a PT9-15 (Salary Information Pro Rata) | Attendance Officer
+employer: City Academy
+closing_date: 2026-12-02T23:59:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3f3947a1bce782955d790c73e64cf6d2d60636ae74aee62889fc597aa6c87e00
+source: Teaching Vacancies
+source_job_id: attendance-officer-city-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-city-academy
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B10 0EG | £27,709.00 to £29,071.00 per annum (pro rata £19,555.67 to £20,516.90 per annum) | Business Support Officer - Finance
 employer: The Olive School, Small Heath
 closing_date: 2026-11-29T23:59:00+00:00
@@ -94,6 +109,21 @@ factual_fingerprint: c317a7615cb9bd3ee7f9a1a78cdad4dfae06633dc1d04b8e0fa8a0efe7d
 source: Teaching Vacancies
 source_job_id: business-support-officer-finance-the-olive-school-small-heath-birmingham
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-finance-the-olive-school-small-heath-birmingham
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B37 6NU | £27,275.00 - £29,071.00 Annually (FTE) Term time + 2 weeks - Salary will be prorated based on weeks and hours worked | Cover Administrator (including reprographics) - TTO + 2 Weeks
+employer: Tudor Grange Academy Kingshurst
+closing_date: 2026-11-25T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 58edc5a2638c697e7e1d4c45ecd9270ca92c0f72f4bb2227646de2b794d60c29
+source: Teaching Vacancies
+source_job_id: cover-administrator-including-reprographics-tto-2-weeks-0690dce7-5cdf-441b-80c1-5de2256fd164
+source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-including-reprographics-tto-2-weeks-0690dce7-5cdf-441b-80c1-5de2256fd164
 ---
 
 ---
@@ -126,21 +156,6 @@ source_job_id: receptionist-admin-assistant-mere-green-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-mere-green-primary-school
 ---
 
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B6 6DJ | Specific hours and salary to be discussed at interview - salary to be paid at NJC 4 Example salaries: 15 hours +2 days during holidays – actual salary £9,472.94 per annum 20 hours +2 days during holidays – actual salary £12,630.59 per annum | Receptionist/Admin Assistant
-employer: King Edward VI Aston School
-closing_date: 2026-11-18T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ab89aba4f1ae06917f04d95ee48708a7ddcbf1a45f5ebca7881b46ae271cf703
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-king-edward-vi-aston-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-king-edward-vi-aston-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -152,10 +167,10 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 6618a012b9fa1c5e2c3d355395ffe3e526a764ba7d054469cbf86413727ba03d
+factual_fingerprint: a00d87d57516372516f8f89b1e3233ebd05b69f4fba091b72688bea922f3848b
 source: Teaching Vacancies
-source_job_id: data-officer-cfa78fef-9663-4f09-9214-63ef7222598a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-cfa78fef-9663-4f09-9214-63ef7222598a
+source_job_id: data-officer-de43ba2e-8423-4b07-9d68-d7f70a52c854
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-de43ba2e-8423-4b07-9d68-d7f70a52c854
 ---
 
 ---
@@ -220,6 +235,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-085b338d
 
 ---
 action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B28 9JJ | £24,796.00 - £26,824.00 Monthly Pay Range is Grade 2: Point 3 - 8 (Pro Rata) | Receptionist / administrative assistant – fixed term maternity cover
+employer: St Ambrose Barlow Catholic Primary School
+closing_date: 2026-11-25T23:59:00+00:00
+reason: Salary period needs verification
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7b17d23420cc69a2f9616910468e9f95a45ebd289ee5b7f681b4db15a279b9f7
+source: Teaching Vacancies
+source_job_id: receptionist-administrative-assistant-fixed-term-maternity-cover-st-ambrose-barlow-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-fixed-term-maternity-cover-st-ambrose-barlow-catholic-primary-school
+---
+
+---
+action: 
 POSS | West Midlands - Birmingham & Solihull | Solihull, B91 3PD | £29,542.00 - £31,526.00 Annually (FTE) Actual salary £4571 to £4959 p/a 250 hours per year over 38 weeks (6.75 hours per week) | Regional Hub Governance Professional
 employer: Tudor Grange Academies Trust
 closing_date: 2026-12-04T12:00:00+00:00
@@ -255,10 +285,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 ## HARD_PASS
 
 - [Assistant Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/assistant-trust-clerk-summit-learning-trust) — Insufficient admin/service evidence.
+- [Attendance Welfare Officer - Term Time Plus 2 Weeks / 37 Hours per week](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-term-time-plus-2-weeks-37-hours-per-week-tudor-grange-academy-kingshurst) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-clement-s-church-of-england-academy-birmingham-west-midlands) — Excluded senior/management title.
 - [School Office Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-senior-administrator) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fairway-primary-academy-birmingham-west-midlands) — Excluded senior/management title.
-- [Senior Office Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-office-manager-the-dame-ellen-pinsent-school) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-17
-review_fingerprint: 8a99377440146f911fd8ca12f809817fc107e12e88cb59288791110025a0d7e5
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: 356ef44cb28bc2e6f949f824957cbdc1ec3b3d43c4d525c542d4d94edd61b3b5
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 18
 - Selected: 8
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -143,7 +143,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/special-educational-n
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Hertfordshire | Chorleywood, WD3 6EW | £30,515.00 Annually (FTE) | HR Advisor
+employer: Danes Educational Trust
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: be9e273e96ee84205178d03882427067f63a463d12645538ac1729a1eca4d3f6
+source: Teaching Vacancies
+source_job_id: hr-advisor-cb6272e2-ba31-4c89-b8a9-37a8f96cd3b1
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-cb6272e2-ba31-4c89-b8a9-37a8f96cd3b1
+---
 
 ## EXCLUDED BY REVIEW
 

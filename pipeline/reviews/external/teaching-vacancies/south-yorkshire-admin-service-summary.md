@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-17
-review_fingerprint: d525e6307c427877305bdd5b0cc12de65a5947e01e9fd6a86c193cfbb67ec612
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: b8dcfa15a143c0b7775d0e243350c18e5c66bd14b6849a5c189adfd384e900de
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 28
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 20
+- Hard pass: 19
 
 ## SELECTED
 
@@ -79,6 +79,21 @@ factual_fingerprint: f939f33b6eade2849668c51bef14ae7a3a0412848e635b3518bd9279878
 source: Teaching Vacancies
 source_job_id: office-administrator-st-francis-catholic-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-francis-catholic-multi-academy-trust
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Rotherham, S65 2JW | £22,971.00 - £23,336.00 Annually (Actual) Temporary with a view to permanent following successful probation period | Receptionist & Admin Assistant
+employer: Willow Tree Academy
+closing_date: 2026-12-01T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 26dff8386ec77f37bed0b040dbf7445496f58d3d3b3c36ad1001c9aff0ab47db
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-willow-tree-academy-rotherham-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-willow-tree-academy-rotherham-not-recorded
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -160,13 +175,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-as
 - [Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/executive-support-officer-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Head of Business Development (VRN000003)](https://teaching-vacancies.service.gov.uk/jobs/head-of-business-development-vrn000003) — Excluded senior/management title.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-cascade-multi-academy-trust) — Salary over £50k.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-1e4ec526-7e90-471c-ac7b-53d95ee8bda4) — Insufficient admin/service evidence.
 - [Personal Care Assistant (PCA)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-pca-newman-school) — Insufficient admin/service evidence.
 - [Pupil Premium Extracurricular Visits Coordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extracurricular-visits-coordinator-forge-valley-school-sixth-form-sheffield-south-yorkshire) — No usable numeric salary.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust-sheffield-not-recorded) — Excluded senior/management title.
-- [Senior Technician Mechanical Engineering](https://teaching-vacancies.service.gov.uk/jobs/senior-technician-mechanical-engineering) — Out-of-scope occupation: technician.
 - [Sports Centre and Lettings Supervisor](https://teaching-vacancies.service.gov.uk/jobs/sports-centre-and-lettings-supervisor-forge-valley-school-sixth-form) — No usable numeric salary.
-- [Strategic Attendance and Family Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/strategic-attendance-and-family-engagement-lead) — Excluded senior/management title.
 - [Transactional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/transactional-finance-manager-minerva-learning-trust) — Excluded senior/management title.
 - [Trust Insights and Governance Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-insights-and-governance-lead) — Excluded senior/management title.
 

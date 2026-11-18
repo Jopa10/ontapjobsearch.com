@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-17
-review_fingerprint: 05b61621c64d9654c8abaf40584be53fb858af506525267733909819a9028a66
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: fe57d965e3dd4a4dea5657059a5af92438002fdef2a4ab9dbbdb3f816f25cff4
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 62ef2ed82ee56d952997235fdc91f5d12f0c4248572439c63c54810f4ed
 source: Teaching Vacancies
 source_job_id: admin-assistant-c747c61f-0b1c-4935-a76c-8007c77aaf0b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-c747c61f-0b1c-4935-a76c-8007c77aaf0b
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7SD | £26,016.00 - £26,427.00 Annually (FTE) | Administration Assistant (with responsibility for Exams)
+employer: Moulton School and Science College
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8abb2d387354cb260cef523bfada5a344d87eaf4c7ca82e2b396e983f6c76588
+source: Teaching Vacancies
+source_job_id: administration-assistant-with-responsibility-for-exams
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-with-responsibility-for-exams
 ---
 
 ---
@@ -68,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7SD | £26,016.00 - £26,427.00 Annually (FTE) | Attendance Officer
+employer: Moulton School and Science College
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 077ecb8d32676ced128355eb5fdd1352b0280afb0fc2506093071a0f6f96bdd0
+source: Teaching Vacancies
+source_job_id: attendance-officer-moulton-school-and-science-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-moulton-school-and-science-college
+---
+
+---
+action: 
 SELECTED | Northamptonshire | Corby, East Midlands, NN17 5EB | £27,690 | Exams Officer
 employer: Corby Business Academy
 closing_date: 2026-11-20T15:00:00+00:00
@@ -79,6 +109,21 @@ factual_fingerprint: 106e3ef1f209bc869422c54a0d17d2ba6eee43b32b0c4793fff707d2425
 source: Teaching Vacancies
 source_job_id: exams-officer-corby-business-academy-corby-northamptonshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-corby-business-academy-corby-northamptonshire
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN6 0AG | £26,016.00 - £26,427.00 Annually (FTE) | Receptionist/Administration Assistant
+employer: Overstone Primary School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6db89591c55564162eddc99b34b9299272af5f6ddb6cf78423bbf7ad077781bc
+source: Teaching Vacancies
+source_job_id: receptionist-administration-assistant-overstone-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-overstone-primary-school
 ---
 
 ---
@@ -120,6 +165,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sywell-
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1dc6e624-98dc-4337-8b41-8fb9e586f829) — Insufficient admin/service evidence.
+- [Admissions & Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-manager-moulton-school-and-science-college) — Excluded senior/management title.
+- [Attendance Support Worker](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-worker-northampton-school) — Insufficient admin/service evidence.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-0ddbb56c-5635-4a81-8fed-8aa32c472a35) — Insufficient admin/service evidence.
 - [Data Management Coordinator](https://teaching-vacancies.service.gov.uk/jobs/data-management-coordinator-kingsthorpe-college) — Insufficient admin/service evidence.
 - [Finance and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-administration-officer-gloucester-nursery-school) — Insufficient admin/service evidence.

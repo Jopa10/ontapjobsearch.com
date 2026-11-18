@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-17
-review_fingerprint: 6289548ba809124731f6f08b4d114a7a468ffe20ad3025f7ee2b21f909f7c75a
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: 08c77b1d698e975be5577a25412f8bb8a5312738d9f777bae0ca39bbf7df9fe6
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS37 6EW | £12,482.00 - £12,681.00 Annually (Actual) NJC SCP 6 to SCP 7 | SEND Administrator
-employer: Chipping Sodbury School
-closing_date: 2026-11-18T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4f114fb316320d447de2d84a198ce33e2bbe582e50baf299883d42fed38c99b4
-source: Teaching Vacancies
-source_job_id: send-administrator-08c1c1a8-e1a3-4e52-84ca-acee5ebb92e5
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-08c1c1a8-e1a3-4e52-84ca-acee5ebb92e5
----
-
----
-action: 
 SELECTED | Bristol & Bath | Bristol, South West, BS16 9LH | PATH 6 up to £24,036 prorated | SEND Administrator
 employer: Mangotsfield School
 closing_date: 2026-11-23T09:00:59+00:00
@@ -122,7 +107,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 - [Educational Visits and Enrichment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-and-enrichment-coordinator) — No usable numeric salary.
 - [Employer Engagement Advisor](https://teaching-vacancies.service.gov.uk/jobs/employer-engagement-advisor) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-saint-gregory-s-catholic-college) — Excluded senior/management title.
 - [Personal Care Assistant (EYFS + SEND)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-eyfs-send-bridge-learning-campus) — Insufficient admin/service evidence.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-the-castle-school) — Excluded senior/management title.
 

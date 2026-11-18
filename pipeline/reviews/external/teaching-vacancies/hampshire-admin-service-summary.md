@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-17
+review_date: 2026-11-18
 review_fingerprint: c5458e115c64415050cfbec705f5eb0fcf2cfe33dadf7988c710d59638e8881d
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 2
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -106,6 +106,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-blue
 
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-haylands-primary-school) — Excluded senior/management title.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-inspire-learning-partnership) — Salary over £50k.
+- [Support Officer - Cover & Examinations](https://teaching-vacancies.service.gov.uk/jobs/support-officer-cover-examinations) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

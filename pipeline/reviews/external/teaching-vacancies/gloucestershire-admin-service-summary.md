@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-11-17
-review_fingerprint: c8e59b8b3d4f5eebda4323f42671d5d1e55b9d07d0472b69d96ea16b4d100b62
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: baea75353876f4cc2fcbdbc1fe065c65b9ed04e47269c1de1b9778adb6d8d236
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Gloucestershire | Gloucester, South West, GL3 2PL | Scale 5, Points 9-12 (Actual £22,880 - £24,009) | Medical Officer and School Administrator
+SELECTED | Gloucestershire | Gloucester, South West, GL3 2PL | Salary: Grade 4, points 6 - 8, Actual Salary: £22,551 - £23,275 | Inclusion Administrator
 employer: Chosen Hill School
-closing_date: 2026-11-22T23:59:00+00:00
+closing_date: 2026-11-29T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: dc8ff3eefd7f9e9c592ac0fc148c5b28756e01fc36ec4cc893cde2ea30c3e5b9
+factual_fingerprint: 25e720c38f7bc58ac251e2e5814791f9e0c2cba4f10cd9875463d3d9aab3ddbc
 source: Teaching Vacancies
-source_job_id: medical-officer-and-school-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/medical-officer-and-school-administrator
+source_job_id: inclusion-administrator-chosen-hill-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-chosen-hill-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-17
-review_fingerprint: 90965d04faefab8fda566cf6ff09ed996b2ad6f5788288568f493b64fb648fc0
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: 5abb00467a79ab5d2d7e9e9f0108ab58b669cd629f5f8a40f396882242871643
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 2
+- Records: 21
+- Selected: 3
 - POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 12
@@ -49,6 +49,21 @@ factual_fingerprint: b1eb00ad2cd1eaf7adf3cbb43a0614699650360ad351e449b7ea1c4f16a
 source: Teaching Vacancies
 source_job_id: finance-officer-fernwood-school-nottingham-nottinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-fernwood-school-nottingham-nottinghamshire
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG16 4HL | £26,847.00 - £27,331.00 Annually (FTE) | Student Services Administrator
+employer: Aldercar High School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a594de9d2101148c0a0ccfcff120b0843c5365050b979236525d789432b26bbb
+source: Teaching Vacancies
+source_job_id: student-services-administrator-aldercar-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-administrator-aldercar-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -150,7 +165,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 ## HARD_PASS
 
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-king-edward-primary-school-nursery) — No usable numeric salary.
-- [Assistant Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-administration-manager-shirebrook-academy) — Excluded senior/management title.
+- [Data, Timetable and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-timetable-and-cover-manager) — Excluded senior/management title.
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby-nottingham-nottinghamshire) — Insufficient admin/service evidence.
 - [Finance & Estate Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-estate-officer) — Salary over £50k.
 - [Healthcare Assistant / Administrator](https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-b6dad597-ef3e-406f-a693-7ada1eddda55) — No usable numeric salary.

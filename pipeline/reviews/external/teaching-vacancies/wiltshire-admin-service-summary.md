@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-17
-review_fingerprint: 9788183d6b647b48830805ef56dca190cbb3d102f16b1c9613b57cd047e56897
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: 42469b7729590747e6cec75231b448971805f7be6af732f81d97febea144cc41
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
@@ -49,6 +49,21 @@ factual_fingerprint: 224554c65e33986992be017fad09d6c8e85f1479b2cfb13b7d62a3262bc
 source: Teaching Vacancies
 source_job_id: administrative-assistant-0f00fc74-0d9f-4ee5-95bf-98adacca1c95
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-0f00fc74-0d9f-4ee5-95bf-98adacca1c95
+---
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, South West, SN2 5DE | £20,297.00 - £21,663.00 Annually (Actual) | Finance and HR Administrator
+employer: Seven Fields Primary School
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8328d819eea8649c95dabc0f8dfedd263a1dc431ae1274170c335a34897e66c9
+source: Teaching Vacancies
+source_job_id: finance-and-hr-administrator-seven-fields-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-administrator-seven-fields-primary-school
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-17
-review_fingerprint: 2a6a88eb1f5d8f8c72bbebed59516b5d3d9fb07f16ab4d91936c1f320b99a2d6
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: 83b88bcfaf2ed0606c118acd3fcd2e7b7907844e90aadbdd332546f7a62381c9
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 57
-- Selected: 11
-- POSS awaiting decision: 10
+- Records: 62
+- Selected: 12
+- POSS awaiting decision: 12
 - Excluded: 0
-- Hard pass: 36
+- Hard pass: 38
 
 ## SELECTED
 
@@ -158,6 +158,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-student-ser
 
 ---
 action: 
+SELECTED | London | London, London, E9 6EJ | £36,581 to £40,444 per annum (Pro rata £19,174.68 to £21,169.70 per annum) plus Inner London Weighting £4,463 per annum (Pro rata £2,336.08 per annum) | Personal Assistant with HR Support
+employer: The Olive School, Hackney
+closing_date: 2026-12-13T23:59:00+00:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f538cc8e2c1b9eb064d6441a877d4450a13eca3b0053579ea407047cc8414220
+source: Teaching Vacancies
+source_job_id: personal-assistant-with-hr-support
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-with-hr-support
+---
+
+---
+action: 
 SELECTED | London | Hayes, London, UB3 1JA | £23,878.00 - £24,220.00 Annually (Actual) | Receptionist & Administration Assistant
 employer: Lake Farm Park Academy
 closing_date: 2026-12-31T12:00:00+00:00
@@ -265,6 +280,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-1c7
 
 ---
 action: 
+POSS | London | London, London, SE10 0BG | £30,408.00 - £30,843.00 Annually (FTE) Greenwich Scale 3 (5-6) £26,506.04 - £27,250.18 Actual Salary | Office Administrator
+employer: Millennium Primary School
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 353c2ea4a06c21a74dcb06635c1f79f370d6d507e0eed04ca9ed91a6d1a7902c
+source: Teaching Vacancies
+source_job_id: office-administrator-millennium-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-millennium-primary-school
+---
+
+---
+action: 
+POSS | London | Hounslow, London, TW3 1AX | £26709 - £27091 per annum | Receptionist
+employer: Lift Kingsley
+closing_date: 2026-12-02T14:54:40+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3ae5338d51d19166b76dbfcf01cabf95469b9624996600b6a1df31791e219726
+source: Teaching Vacancies
+source_job_id: receptionist-lift-kingsley
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-kingsley
+---
+
+---
+action: 
 POSS | London | London, London, N1 5JU | £36,776.00 - £37,883.00 Annually (Actual) Local Government Pension Scheme | Receptionist & Administrator
 employer: City of London Academy, Shoreditch Park
 closing_date: 2026-11-23T09:00:00+00:00
@@ -356,24 +401,26 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
 - [Data Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/data-governance-officer) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-winchmore-school) — Excluded senior/management title.
-- [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Excluded senior/management title.
-- [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college-london) — Excluded senior/management title.
+- [Finance and Admissions Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-admissions-assistant) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-newham-community-learning) — Salary over £50k.
 - [Finance officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-kings-cross-academy) — No usable numeric salary.
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
+- [Headteacher's PA and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-and-office-manager-carshalton-high-school-for-girls) — Out-of-scope occupation: teacher, headteacher.
 - [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-girls-learning-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-barking-abbey-school-a-specialist-sports-and-humanities-college) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-paddock-school) — No usable numeric salary.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Salary over £50k.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
 - [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college-london) — Insufficient admin/service evidence.
+- [Music Department Administrator](https://teaching-vacancies.service.gov.uk/jobs/music-department-administrator) — No usable numeric salary.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-0e28a447-7d05-4d98-a982-7c5d569e40f0) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-ark-evelyn-grace-academy) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-haberdashers-hatcham-college) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-deer-park-school) — Excluded senior/management title.
 - [PA to Group Executive Director of HR](https://teaching-vacancies.service.gov.uk/jobs/pa-to-group-executive-director-of-hr) — Excluded senior/management title.
 - [PA to Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-office-manager-the-quest-academy) — Excluded senior/management title.
+- [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy-orpington-kent) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shalom-noam-primary-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-sherwood-school) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-connaught-special-school-london) — Excluded senior/management title.

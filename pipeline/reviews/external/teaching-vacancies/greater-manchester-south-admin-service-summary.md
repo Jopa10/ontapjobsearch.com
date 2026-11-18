@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-11-17
+review_date: 2026-11-18
 review_fingerprint: 59915515421726eb79c13aebe19e6568d93314a5da7e9ee0daad9c0564d74b4a
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE

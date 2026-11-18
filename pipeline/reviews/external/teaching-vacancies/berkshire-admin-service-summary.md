@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-17
-review_fingerprint: 4270cdb13f5d113fdf16c5d31426cf04756d4cf54c84ef0edfacf5dc10b3d328
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: 3432cfeea7ca99e1352dc2f71892e5ece1cc68ca83fa23c75a70f897e893a7c7
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 18
 - Selected: 8
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-administrat
 
 ---
 action: 
+SELECTED | Berkshire | Bracknell, South East, RG45 7HD | £26,367.00 - £27,600.00 Annually (FTE) Actual annual salary £19,583.33- £20499.10 | Receptionist/ Administrator
+employer: Wildmoor Heath School
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 46df077a6db3502c444141bd7a732fe2ddea85aacf10878fc8b1e40602bcc284
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-wildmoor-heath-school-bracknell-berkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-wildmoor-heath-school-bracknell-berkshire
+---
+
+---
+action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Receptionist/Administrative Assistant
 employer: James Elliman Academy
 closing_date: 2026-12-31T12:00:00+00:00
@@ -79,21 +94,6 @@ factual_fingerprint: 6b25434ada9e00bf658ed793332e9cb8bf8f870ba1b75f4821345b56dd3
 source: Teaching Vacancies
 source_job_id: school-administrator-grazeley-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-grazeley-church-of-england-primary-school
----
-
----
-action: 
-SELECTED | Berkshire | Windsor, South East, SL4 5EH | Salary for full time (37 hours per week), term time only is £24,114 which can be pro-rated for part time, depending on hours. | Sixth Form Administrator
-employer: The Windsor Boys' School
-closing_date: 2026-11-25T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1ce1161017c02a1e09c61ac5e58f0a91c04656450e58eccbf0fd85d98deea9fa
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-fb317f6e-92a0-4f5d-98e7-b22ff7afb408
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-fb317f6e-92a0-4f5d-98e7-b22ff7afb408
 ---
 
 ---
@@ -145,21 +145,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 
 ---
 action: 
-POSS | Berkshire | Reading, South East, RG5 4RF | £15,377.30 - £16,389.90 Annually (Actual) Grade 4 SCP 7 to 11 | Data & Exams Assistant
-employer: Waingels
-closing_date: 2026-11-17T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1077f4cb166320846e8c5dcceaa00f915c86db6c5b0595decf67e16db906f6e3
-source: Teaching Vacancies
-source_job_id: data-exams-assistant-waingels
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-assistant-waingels
----
-
----
-action: 
 POSS | Berkshire | Slough, SL3 8TX | FTE range £40,547.00 - £44,799.00 | Executive Assistant (Governance & Compliance Professional)
 employer: Pioneer Educational Trust
 closing_date: 2026-11-23T09:00:00+00:00
@@ -182,8 +167,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 - [Admin Assistant (Staff Attendance & Absence Monitoring) - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-staff-attendance-absence-monitoring-the-avenue-school) — No usable numeric salary.
 - [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
 - [Health Safety & Welfare Manager](https://teaching-vacancies.service.gov.uk/jobs/health-safety-welfare-manager) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-all-saints-junior-school-reading-berkshire) — Excluded senior/management title.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school-reading-berkshire) — Excluded senior/management title.
+- [Project Manager - Systems Implementation (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/project-manager-systems-implementation-maternity-cover) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
 - [Student Admissions and Onboarding Officer](https://teaching-vacancies.service.gov.uk/jobs/student-admissions-and-onboarding-officer) — Insufficient admin/service evidence.
 - [Student Admissions and Onboarding Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/student-admissions-and-onboarding-officer-the-wren-school) — Insufficient admin/service evidence.

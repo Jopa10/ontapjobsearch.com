@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-11-17
-review_fingerprint: 0255fb6b40c60fc930adc2b0de54f0a2d37a10f66c2aed88f443a39ad7e0e8b7
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: dca8bf495e7194965103bc50db7981face7ea46edcca4c106395dad4f58b6f34
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 1
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 2
 
 ## SELECTED
 
@@ -36,6 +36,21 @@ source_job_id: part-time-music-school-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-music-school-administrator
 ---
 
+---
+action: 
+SELECTED | Kent | Ashford, South East, TN24 8UD | £26,956pa | Safeguarding Administrator
+employer: Highworth Grammar School
+closing_date: 2026-12-03T08:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 68e0e26a137e8f54105d8344b715e38e6e312e8184b6ab5b1874509d36e8eb3a
+source: Teaching Vacancies
+source_job_id: safeguarding-administrator-highworth-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-highworth-grammar-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -47,8 +62,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-music-schoo
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-staplehurst-school) — Insufficient admin/service evidence.
-- [Admission Officer](https://teaching-vacancies.service.gov.uk/jobs/admission-officer-st-john-fisher-catholic-comprehensive-school) — Insufficient admin/service evidence.
-- [Executive Team Operations & Admin Coordinator](https://teaching-vacancies.service.gov.uk/jobs/executive-team-operations-admin-coordinator) — Insufficient admin/service evidence.
 - [Head of Data & Insights](https://teaching-vacancies.service.gov.uk/jobs/head-of-data-insights-the-howard-academy-trust) — Excluded senior/management title.
 
 ## Safety boundary

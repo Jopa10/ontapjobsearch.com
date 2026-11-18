@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-17
-review_fingerprint: 5b97aca0c71d3f6e4e1b1f5aaaa9120f92dd9204fcfbb61a8ceffd73094ee899
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: 51f0ba4352968077bcb2fda6f12ce33fe06081bbd8c9b7145ccb40e112e4ddb8
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -85,12 +85,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stephens
 action: 
 SELECTED | Buckinghamshire | Aylesbury, South East, HP18 0WS | £26,522.00 - £28,742.00 Annually (FTE) Actual salary will reflect working pattern of 32 hours per week, 39 weeks per year | Receptionist (Admin Support and Medical Assistant)
 employer: The Aylesbury Vale Academy
-closing_date: 2026-11-23T12:00:00+00:00
+closing_date: 2026-11-20T12:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 55c6957f136dc06bc1a950471aac1e56780468209e9e10bffadf37737e2de2c6
+factual_fingerprint: f890e5da08b1de58ff25abb5fda07e81dcaca041d5e390396d8c227dea7c554b
 source: Teaching Vacancies
 source_job_id: receptionist-admin-support-and-medical-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-support-and-medical-assistant

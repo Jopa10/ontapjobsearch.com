@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-17
-review_fingerprint: 706b56192e77b2d751e593d84a980943e985ef50bb2e1f36a096200d8e097fa8
-routing_manifest_sha256: 236f621abecc15e87dcc0824ca55cf0f90d55aad3d4a89c05e49af1b868995e9
+review_date: 2026-11-18
+review_fingerprint: adfdd7bbd69ea697b8f5e950d0898c13a2e37231e1e56faf8b4bd2e41d764057
+routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 4
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: f71e1aa8c5e3c4df5e7cb1d21904920ea52677596a982cd51d26164c50b
 source: Teaching Vacancies
 source_job_id: administrative-assistant-and-receptionist-westvale-park-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-receptionist-westvale-park-primary-academy
----
-
----
-action: 
-SELECTED | Surrey | Epsom, South East, KT18 7NQ | Associate 2.1 - £24,751 (Actual - £11,238.05) | Central Administrator
-employer: Rosebery School
-closing_date: 2026-11-29T23:59:59+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3a4270dd31dee1cf2bf5a3c093d722c9aeca556df454a91477de9f7b5367ba94
-source: Teaching Vacancies
-source_job_id: central-administrator-rosebery-school-epsom-surrey
-source_url: https://teaching-vacancies.service.gov.uk/jobs/central-administrator-rosebery-school-epsom-surrey
 ---
 
 ---
@@ -119,6 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-1b1
 
 ## HARD_PASS
 
+- [Annual Review Lead](https://teaching-vacancies.service.gov.uk/jobs/annual-review-lead) — Excluded senior/management title.
 - [Apprenticeships Review Officer](https://teaching-vacancies.service.gov.uk/jobs/apprenticeships-review-officer) — Insufficient admin/service evidence.
 - [EHCP Administrator](https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-gosden-house-school-guildford-surrey) — No usable numeric salary.
 - [Office & Facilities Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-facilities-assistant) — Insufficient admin/service evidence.
