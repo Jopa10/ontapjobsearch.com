@@ -19,6 +19,7 @@ export function changeNote(fields){
  return [...new Set(names)].map(name=>name+' updated').join('; ');
 }
 export async function ensureDailyMasterSchema(c){
+ await c.query('ALTER TABLE ontap_shadow.advert_appearances ADD COLUMN IF NOT EXISTS source_row_position integer CHECK (source_row_position IS NULL OR source_row_position > 0)');
  await c.query('ALTER TABLE ontap_shadow.advert_appearances ADD COLUMN IF NOT EXISTS payload_sha256 text');
  await c.query("ALTER TABLE ontap_shadow.advert_appearances ADD COLUMN IF NOT EXISTS changed_fields jsonb NOT NULL DEFAULT '[]'::jsonb");
  await c.query('ALTER TABLE ontap_shadow.advert_appearances ADD COLUMN IF NOT EXISTS change_note text');
