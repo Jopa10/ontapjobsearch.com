@@ -100,34 +100,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-business-support-officer-part-time-moorlands-primary-school",
-    "title": "Business Support Officer - Part Time",
-    "company": "Moorlands Primary School",
-    "location": "Huddersfield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,427.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-09-08",
-    "closing_date": "2026-11-17",
-    "closing_datetime": "2026-11-17T09:00:00+00:00",
-    "summary": "Business Support Officer - Part Time with Moorlands Primary School in Huddersfield. ['full time']; £26,427.00 Annually (FTE).",
-    "description": "Moorlands Primary School is recruiting for this vacancy in Huddersfield.\n\nThe advertised position is Business Support Officer - Part Time.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,427.00 Annually (FTE).\n\nThe stated application deadline is 2026-11-17T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-part-time-moorlands-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Moorlands Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "2298166",
     "title": "Commercial Account Executive",
     "company": "Get Recruited (UK) Ltd - Agency - Permanent",
@@ -253,30 +225,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "2155893",
-    "display_reference": "2155893",
-    "title": "Legal Secretary - Care Department - Huddersfield",
-    "company": "qed legal - Agency - Permanent",
-    "advertiser_name": "qed legal",
-    "advertiser_type": "Agency",
-    "location": "Huddersfield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Legal Assistant / Paralegal",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Competitive, dependent on experience",
-    "posted_date": "2026-10-21",
-    "description": "Legal Secretary - Care Department - Huddersfield Location: Huddersfield, West Yorkshire\nSalary: Competitive, dependent on experience\nJob Type: Full Time Permanent\nBenefits: Hybrid/Flexible Working 25 Days Holiday + Bank Holidays Excellent Benefits\n\nAn excellent opportunity has arisen for an experienced Legal Secretary to join the busy Care Department of a well-established and highly regarded law firm in Huddersfield.\n\nThis is a fantastic opportunity for an organised and proactive Legal Secretary with experience in Family Law, Child Care Law, Social Services or Care Proceedings to provide essential secretarial and administrative support to a friendly and supportive team of fee earners.\n\nThe Role Your responsibilities will include:\n- Preparing court documents, correspondence and legal documentation.\n- Managing digital dictation, typing and administrative tasks.\n- Preparing Legal Aid applications using CCMS and CivApply.\n- Working with the HMCTS court portal and preparing court bundles using BundleDocs.\n- Opening and maintaining client files and case management records.\n- Managing diaries, appointments, emails and telephone enquiries.\n- Liaising with clients, courts, professionals and external organisations.\n- Assisting with time recording, billing preparation and general secretarial support.\n\nAbout You\n- Previous experience as a Legal Secretary or Legal PA, ideally within Family Law, Child Care or Care Proceedings.\n- Strong typing and digital dictation skills.\n- Experience with CCMS, CivApply, BigHand or BundleDocs would be advantageous.\n- Excellent organisational and communication skills.\n- Ability to manage competing priorities and support multiple fee earners.\n- A professional, approachable manner and commitment to excellent client care.\n\nWhat's on Offer?\n- Competitive salary, dependent on experience.\n- Flexible and hybrid working arrangements.\n- 25 days' holiday plus bank holidays.\n- Additional birthday holiday or Life Admin Days.\n- Health scheme and pension.\n- Ongoing training and career development.\n- Friendly, supportive working environment.\n\nInterested?\n\nIf you're an experienced Legal Secretary looking for a new opportunity within a well-regarded Care Law team in Huddersfield, we'd love to hear from you.\n\nApply today or get in touch for a confidential discussion.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVat78kkDnudU2%2f0we%2beE04hj",
-    "source": "JobG8",
-    "legal_family_reason": "approved Legal family title",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "2296483",
     "display_reference": "2296483",
     "title": "Purchase Ledger Clerk",
@@ -392,6 +340,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1567-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -411,6 +362,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0911-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

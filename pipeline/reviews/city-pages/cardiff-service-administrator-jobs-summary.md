@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 19
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 18
+- effective include: 19
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -184,6 +184,18 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Part-Time Finance Administrator
+company: Môrwell Talent Solutions - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2333830
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger Officer
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cardiff
@@ -250,7 +262,7 @@ title: Accounts Assistant
 company: Môrwell Talent Solutions - Agency - Permanent
 location: South Glamorgan
 source: JobG8
-job_id: jobg8-2312379
+job_id: jobg8-2328206
 reason: No approved Cardiff catchment rule matched; local review required.
 ---
 

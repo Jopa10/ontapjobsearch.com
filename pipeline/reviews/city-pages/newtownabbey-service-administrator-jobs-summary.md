@@ -4,7 +4,7 @@
 - Live route: `/newtownabbey/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,16 +15,28 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
-- automatic review: 16
+- automatic include: 1
+- automatic review: 23
 - automatic exclude: 0
-- effective include: 0
-- effective review: 16
+- effective include: 1
+- effective review: 23
 - effective exclude: 0
 
-## INCLUDE (0)
+## INCLUDE (1)
 
-## REVIEW (16)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor - Belfast
+company: EE - Company - Permanent
+location: Newtownabbey
+source: JobG8
+job_id: jobg8-20279_64731-99c44a5496aea2a2093ed0c187c2f159
+reason: Exact approved Newtownabbey workplace.
+---
+
+## REVIEW (23)
 
 ---
 action: 
@@ -83,6 +95,90 @@ company: Fieldfisher - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2312432
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Teleperformance Ltd - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2337889
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor - Belfast
+company: EE - Company - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-20279_64731
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor - Belfast
+company: EE - Company - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-20279_64731-0e084e3021d753237ec1419a8b5b04eb
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor - Belfast
+company: EE - Company - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-20279_64731-2c119d0ba036d6f7367ecfffee6618af
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor - Belfast
+company: EE - Company - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-20279_64731-b4b6b9ae4fb4eb12bc54ffcc44c879ab
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor - Belfast
+company: EE - Company - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-20279_64731-cf1f0735ef24eccac835e07e273f4178
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor - Belfast
+company: EE - Company - Permanent
+location: Antrim
+source: JobG8
+job_id: jobg8-20279_64731-d4f0c9d138ec49292a2de744e4ac35b0
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -214,7 +310,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2309332
+job_id: jobg8-2321849
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

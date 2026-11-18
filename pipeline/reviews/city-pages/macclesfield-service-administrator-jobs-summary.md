@@ -176,7 +176,7 @@ title: Payroll Administrator
 company: McLennan Knight Recruitment Limited - Agency - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2292069
+job_id: jobg8-2336027
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -226,7 +226,7 @@ title: Accounts Assistant
 company: Adecco - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2285685
+job_id: jobg8-2328042
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +239,18 @@ company: Adecco - Agency - Permanent
 location: Middlewich
 source: JobG8
 job_id: jobg8-23643_225802150
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: KPI Recruiting - Agency - Permanent
+location: Middlewich
+source: JobG8
+job_id: jobg8-2328150
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -270,11 +282,23 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant - Supplier Rebates
+company: Axon Moore Group Ltd - Agency - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-2330557
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Clerk
 company: Dickson O&;Brien Associates - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2286307
+job_id: jobg8-2329964
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -298,7 +322,7 @@ title: Accounts Payable Officer
 company: Michael Page Finance - Agency - Permanent
 location: Cheshire
 source: JobG8
-job_id: jobg8-2290183
+job_id: jobg8-2335094
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -395,18 +419,6 @@ company: Forrest Recruitment - Agency - Permanent
 location: Cheshire
 source: JobG8
 job_id: jobg8-23643_225768872
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Adaptable Recruitment - Agency - Permanent
-location: Knutsford
-source: JobG8
-job_id: jobg8-2157174
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -515,18 +527,6 @@ company: Kenmore Medical Centre
 location: Wilmslow, SK9 1PA
 source: NHS Jobs
 job_id: nhs-5705068
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Coordinator
-company: HR Recruit - Agency - Permanent
-location: Knutsford
-source: JobG8
-job_id: jobg8-108319267
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

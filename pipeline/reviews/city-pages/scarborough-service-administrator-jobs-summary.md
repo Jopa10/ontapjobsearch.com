@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 46
+- automatic review: 50
 - automatic exclude: 0
 - effective include: 3
-- effective review: 46
+- effective review: 50
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225779537
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (46)
+## REVIEW (50)
 
 ---
 action: 
@@ -70,7 +70,19 @@ title: Accounts Assistant
 company: Si Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
-job_id: jobg8-2292919
+job_id: jobg8-2336749
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: SI RECRUITMENT LIMITED - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-108322584
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -82,7 +94,7 @@ title: Accounts Assistant
 company: Willow Recruit - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2294281
+job_id: jobg8-2338819
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -154,7 +166,7 @@ title: Commercial Property & Corporate Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2292900
+job_id: jobg8-2337024
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -190,7 +202,31 @@ title: Credit Control
 company: Reed - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2289654
+job_id: jobg8-2334351
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Inicio Funding Solutions Ltd_2026-10-19-08:21:16.112 - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-108320734
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller (Debt Recovery)
+company: Inicio Funding Solutions Ltd_2026-10-19-08:21:16.112 - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-108326695
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -235,18 +271,6 @@ action:
 decision: review
 automatic_decision: review
 title: Digital Marketing Assistant
-company: Brooklyn Recruitment - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2157570
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Marketing Assistant
 company: No1 Legal and Professional - Agency - Permanent
 location: Yorkshire
 source: JobG8
@@ -262,7 +286,7 @@ title: Ecommerce Website Specialist
 company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2286571
+job_id: jobg8-2330278
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -319,6 +343,18 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
+company: IPS Group - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2329859
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
 company: Michael Page - Agency - Permanent
 location: York
 source: JobG8
@@ -334,7 +370,7 @@ title: Finance Assistant
 company: Orange Cat Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
-job_id: jobg8-2292289
+job_id: jobg8-2331878
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -382,7 +418,7 @@ title: Legal Assistant
 company: Reed - Agency - Permanent
 location: Malton
 source: JobG8
-job_id: jobg8-2292701
+job_id: jobg8-2336375
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -430,7 +466,7 @@ title: Litigation Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
-job_id: jobg8-2292907
+job_id: jobg8-2337031
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -490,7 +526,7 @@ title: Part Time Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2285496
+job_id: jobg8-2327948
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -551,6 +587,18 @@ company: Sharp Consultancy - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2296494
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Si Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2327758
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

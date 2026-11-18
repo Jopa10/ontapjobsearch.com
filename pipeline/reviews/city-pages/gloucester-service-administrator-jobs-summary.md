@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 75
+- automatic review: 78
 - automatic exclude: 0
 - effective include: 16
-- effective review: 75
+- effective review: 78
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -80,7 +80,7 @@ title: Credit Controller
 company: Morgan McKinley - Agency - Permanent
 location: Gloucester
 source: JobG8
-job_id: jobg8-2287507
+job_id: jobg8-2331542
 reason: Exact approved Gloucester workplace.
 ---
 
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225790550
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (75)
+## REVIEW (78)
 
 ---
 action: 
@@ -335,6 +335,18 @@ company: Office Angels - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225815377
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper/Accounts Assistant
+company: Jobsworth Recruitment Solutions LTD - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225845383
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -487,18 +499,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: hireful - Company - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225775668
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
 company: Jackie Kerr Recruitment - Agency - Temporary
 location: Fairford
 source: JobG8
@@ -563,6 +563,18 @@ company: Winner Recruitment - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225767161
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Factory Administrator
+company: Travail Employment Group - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225846334
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -690,6 +702,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Junior Customer Service & Office Administrator
+company: Motofix Accident Repair Centres - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225844245
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Land and Property Coordinator
 company: The Ernest Cook Trust - Agency - Permanent
 location: Gloucestershire
@@ -730,7 +754,7 @@ title: Marketing Assistant - Hybrid Working!
 company: Anderson Recruitment Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2293656
+job_id: jobg8-2338321
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -1002,6 +1026,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: School Support & Administrator
+company: Elementa Support Services - Agency - Contract
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225843158
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Tewkesbury
@@ -1110,11 +1146,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Sales Support Executive
-company: Usay Compare - Agency - Permanent
+title: Vetting Co-ordinator
+company: Adecco - Agency - Temporary
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-108302520
+job_id: jobg8-23643_225846098
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

@@ -164,7 +164,7 @@ title: Credit Controller
 company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2294895
+job_id: jobg8-2339665
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -176,7 +176,7 @@ title: Credit Controller / Billing Assistant
 company: Michael Page Business Support - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2288249
+job_id: jobg8-2332618
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -256,6 +256,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Robert Half - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2336439
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Financial & Procurement Administrator
 company: Construction & Property Recruitment - Agency - Temporary
 location: Edinburgh
@@ -297,18 +309,6 @@ company: Lorien - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225818489
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Administrator
-company: Reed - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2156776
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -478,7 +478,7 @@ title: Legal PA - Corporate and Employment
 company: Creideas - Agency - Permanent
 location: Midlothian
 source: JobG8
-job_id: jobg8-2287162
+job_id: jobg8-2331031
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

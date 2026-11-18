@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 36
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
+- automatic include: 36
 - automatic review: 10
 - automatic exclude: 0
-- effective include: 34
+- effective include: 36
 - effective review: 10
 - effective exclude: 0
 
-## INCLUDE (34)
+## INCLUDE (36)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-2318696
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Assistant - Ongoing Temp - Hybrid
+company: Reed - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2332846
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -140,7 +152,7 @@ title: Credit Controller
 company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2294792
+job_id: jobg8-2339477
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -200,7 +212,19 @@ title: Finance Officer - Glasgow - Part-Time
 company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2284914
+job_id: jobg8-2321889
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Internal Sales Executive
+company: Reed - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2334824
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -368,7 +392,7 @@ title: Receptionist / Front of house
 company: Additional Resources Ltd - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2286063
+job_id: jobg8-2328073
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -550,7 +574,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2309339
+job_id: jobg8-2321856
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

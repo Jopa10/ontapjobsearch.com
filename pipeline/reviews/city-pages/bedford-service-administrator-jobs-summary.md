@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 32
+- automatic review: 33
 - automatic exclude: 0
 - effective include: 12
-- effective review: 32
+- effective review: 33
 - effective exclude: 0
 
 ## INCLUDE (12)
@@ -32,7 +32,7 @@ title: Accounts Payable Clerk - 6 Month FTC
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Bedford
 source: JobG8
-job_id: jobg8-2294869
+job_id: jobg8-2339549
 reason: Exact approved Bedford workplace.
 ---
 
@@ -168,7 +168,7 @@ job_id: jobg8-23643_225782845
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (33)
 
 ---
 action: 
@@ -178,7 +178,7 @@ title: Accounts Administrator
 company: Hello Recruitment Associates Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2287618
+job_id: jobg8-2331932
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -294,6 +294,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Credit Control/Accounts Receivable
+company: Michael Page Finance - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2332207
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Go Interiors Ltd - Agency - Permanent
 location: Bedfordshire
@@ -346,7 +358,7 @@ title: Legal Secretary
 company: Additional Resources Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2320387
+job_id: jobg8-2325880
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -454,7 +466,7 @@ title: Payroll Assistant
 company: NLB Solutions - Agency - Permanent
 location: Luton
 source: JobG8
-job_id: jobg8-2289400
+job_id: jobg8-2334085
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

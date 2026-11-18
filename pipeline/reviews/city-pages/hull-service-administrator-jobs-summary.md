@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 13
 - automatic review: 14
 - automatic exclude: 0
-- effective include: 15
+- effective include: 13
 - effective review: 14
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (13)
 
 ---
 action: 
@@ -33,30 +33,6 @@ company: Prestige Recruitment Specialists - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225798510
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: Edwards & Pearce - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225806293
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-2293070
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -296,7 +272,7 @@ decision: review
 automatic_decision: review
 title: Project Administrator
 company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Brough
+location: Hessle
 source: JobG8
 job_id: jobg8-23643_225797818
 reason: No approved Hull catchment rule matched; local review required.

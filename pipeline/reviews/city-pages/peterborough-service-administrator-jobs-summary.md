@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 16
-- automatic exclude: 54
-- effective include: 24
-- effective review: 16
-- effective exclude: 54
+- automatic include: 23
+- automatic review: 15
+- automatic exclude: 57
+- effective include: 23
+- effective review: 15
+- effective exclude: 57
 
-## INCLUDE (24)
+## INCLUDE (23)
 
 ---
 action: 
@@ -92,7 +92,7 @@ title: Credit Control Administrator
 company: The One Group - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2289970
+job_id: jobg8-2335067
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -104,19 +104,7 @@ title: Credit Controller
 company: Broster Buchanan - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2287609
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Outsource UK - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2297655
+job_id: jobg8-2331670
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -248,7 +236,7 @@ title: Payroll Coordinator
 company: MHA - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2286895
+job_id: jobg8-2330719
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -256,11 +244,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger Clerk - 3 month FTC
-company: Hays Specialist Recruitment Limited - Agency - Permanent
+title: Sales Executive
+company: Interaction Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2289000
+job_id: jobg8-23643_225762952
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -312,7 +300,7 @@ job_id: jobg8-2183929
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -450,18 +438,6 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Private Client Secretary/Assistant
-company: Berry Recruitment - Agency - Permanent
-location: March
-source: JobG8
-job_id: jobg8-23643_225793160
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Management Assistant
 company: Platform Recruitment - Agency - Permanent
 location: Duxford
@@ -506,7 +482,19 @@ job_id: jobg8-23643_225752655
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (54)
+## EXCLUDE (57)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: EC Resourcing - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2338520
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -553,6 +541,30 @@ company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2307830
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable Officer
+company: Eclectic Recruitment - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2338363
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable Officer
+company: Eclectic Recruitment - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-23643_225846373
 reason: Separate employment market.
 ---
 
@@ -656,35 +668,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
+location: Huntingdon
+source: JobG8
+job_id: jobg8-2336558
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Advisor
 company: Countrywide HQ - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2315510
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Digital Marketing Officer
-company: CPSL Mind - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225764192
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Examinations Administrator
-company: Long Road Sixth Form College
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-examinations-administrator-long-road-sixth-form-college
 reason: Separate employment market.
 ---
 
@@ -740,6 +740,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Graduate Finance Assistant
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2337155
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Italian speaking Credit Controller
 company: Language Business - Agency - Permanent
 location: Cambridge
@@ -752,11 +764,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Italian speaking Credit Controller
-company: The Language Business - Language Recruitment Specialists - Agency - Permanent
-location: Cambridgeshire
+title: Junior Finance Assistant
+company: Reed - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-2228420
+job_id: jobg8-2337135
 reason: Separate employment market.
 ---
 

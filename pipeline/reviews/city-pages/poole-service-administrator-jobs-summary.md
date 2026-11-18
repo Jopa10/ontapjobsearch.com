@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 51
+- automatic review: 53
 - automatic exclude: 0
 - effective include: 19
-- effective review: 51
+- effective review: 53
 - effective exclude: 0
 
 ## INCLUDE (19)
@@ -80,7 +80,7 @@ title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-2285832
+job_id: jobg8-2328246
 reason: Exact approved Poole workplace.
 ---
 
@@ -252,7 +252,7 @@ job_id: jobg8-23643_225817065
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (51)
+## REVIEW (53)
 
 ---
 action: 
@@ -298,7 +298,7 @@ title: Accounts Assistant
 company: Silcom Recruitment Limited - Agency - Permanent
 location: Christchurch
 source: JobG8
-job_id: jobg8-2290155
+job_id: jobg8-2335022
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -310,7 +310,7 @@ title: Accounts Assistant - Wareham - &;28-32K
 company: Bond Williams - Agency - Permanent
 location: Wareham
 source: JobG8
-job_id: jobg8-2287526
+job_id: jobg8-2331560
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -418,7 +418,7 @@ title: Bookkeeper
 company: Reed - Agency - Permanent
 location: Bournemouth
 source: JobG8
-job_id: jobg8-2285891
+job_id: jobg8-2328305
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -479,6 +479,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225790377
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: T2M Resourcing Ltd - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2337209
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -558,6 +570,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-108267388
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Document Administrator
 company: Randstad Construction and Property - Agency - Permanent
 location: Dorset
@@ -611,6 +635,18 @@ company: Jigsaw Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2170716
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant - Poole - up to &;16.00 per hour
+company: Bond Williams - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2338215
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -779,18 +815,6 @@ company: Pin Point Recruitment - Agency - Permanent
 location: Wimborne
 source: JobG8
 job_id: jobg8-23643_225785867
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Coordinator
-company: Agincare Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108323767
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

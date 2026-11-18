@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 38
+- automatic review: 37
 - automatic exclude: 0
 - effective include: 4
-- effective review: 38
+- effective review: 37
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (37)
 
 ---
 action: 
@@ -234,30 +234,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: European and UK Road Coordinator
-company: Freight Personnel - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225637689
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: European Operations Coordinator
-company: Willis Global - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225636272
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Fleet Coordinator
 company: Elite People - Agency - Permanent
 location: Worcestershire
@@ -311,6 +287,18 @@ company: AMCO - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-23643_225824299
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Administrator
+company: Riverside Surgery
+location: Evesham, WR11 1JP
+source: NHS Jobs
+job_id: nhs-5732427
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

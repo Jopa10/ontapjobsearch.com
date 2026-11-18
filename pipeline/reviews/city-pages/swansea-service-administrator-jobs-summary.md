@@ -64,11 +64,11 @@ reason: Exact approved Swansea workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Document Controller
-company: Elite Construction Talent Ltd - Agency - Permanent
+title: Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Swansea
 source: JobG8
-job_id: jobg8-23643_225739326
+job_id: jobg8-2332139
 reason: Exact approved Swansea workplace.
 ---
 

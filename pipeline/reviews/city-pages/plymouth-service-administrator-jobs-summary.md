@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 85
+- automatic include: 4
+- automatic review: 83
 - automatic exclude: 0
-- effective include: 5
-- effective review: 85
+- effective include: 4
+- effective review: 83
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Livewell Southwest
-location: Plymouth, PL6 5AF
-source: NHS Jobs
-job_id: nhs-5699625
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Scheduling Co-ordinator Part time
 company: Universal Fire & Security - Agency - Permanent
 location: Plymouth
@@ -84,7 +72,7 @@ job_id: jobg8-23643_225767515
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (85)
+## REVIEW (83)
 
 ---
 action: 
@@ -106,7 +94,7 @@ title: Accounts Administrator
 company: AMR - Specialist Property Recruiters - Agency - Permanent
 location: Exeter
 source: JobG8
-job_id: jobg8-2287198
+job_id: jobg8-2331065
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -402,18 +390,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Pivotal Partnerships - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-23643_225796829
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Receptionist
 company: Amour Recruitment - Agency - Permanent
 location: Exeter
@@ -451,22 +427,10 @@ action:
 decision: review
 automatic_decision: review
 title: Digital Content Coordinator
-company: Donkey Sanctuary - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225805303
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Content Coordinator
 company: NFP People LTD - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2289835
+job_id: jobg8-2334655
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -610,7 +574,7 @@ title: Finance Assistant (temp)
 company: Butler Rose - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2293859
+job_id: jobg8-2338287
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -642,11 +606,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Interim Accounts Assistant
+title: Interim Finance Officer
 company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Exeter
+location: Kingsteignton
 source: JobG8
-job_id: jobg8-2161608
+job_id: jobg8-2338181
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -718,7 +682,7 @@ title: Part Time Finance Administrator
 company: Office Angels - Agency - Permanent
 location: Cullompton
 source: JobG8
-job_id: jobg8-2293125
+job_id: jobg8-2337487
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

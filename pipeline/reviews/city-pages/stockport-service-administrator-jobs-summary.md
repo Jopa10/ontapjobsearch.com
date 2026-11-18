@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 31
+- automatic review: 29
 - automatic exclude: 0
 - effective include: 16
-- effective review: 31
+- effective review: 29
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -33,6 +33,18 @@ company: Baseline Recruit Ltd - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225766980
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant (Study Support)
+company: RG Consultancy Ltd - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2337419
 reason: Exact approved Stockport workplace.
 ---
 
@@ -196,18 +208,6 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Administrator
-company: Adecco - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225778251
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Ward Clerk
 company: Stockport NHS Foundation Trust
 location: Stockport, SK2 7JE
@@ -216,7 +216,7 @@ job_id: nhs-5731374
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (29)
 
 ---
 action: 
@@ -226,7 +226,7 @@ title: Accounts Assistant
 company: Halecroft Recruitment - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2290775
+job_id: jobg8-2335409
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -263,18 +263,6 @@ company: NC Associates - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-2179220
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant - R2R
-company: Robert Walters - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-2156448
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -455,18 +443,6 @@ company: Gtd Healthcare
 location: Denton, M34 2GP
 source: NHS Jobs
 job_id: nhs-5729674
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Platinum Recruitment Group - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-2194669
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

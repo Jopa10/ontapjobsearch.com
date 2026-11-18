@@ -3,7 +3,6 @@ include,jobg8-108288427,Care Assistant Domiciliary Care,S.N.G Recruitment Soluti
 include,jobg8-23643_225670771,Childrens Support Worker,Vetro Recruitment - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-23643_225815438,Healthcare Assistant,Nurseplus UK Ltd - Agency - Temporary,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-23643_225820911,Healthcare Assistant,Prime Healthcare Solutions Ltd - Agency - Temporary,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
-include,jobg8-108269694,Hourly Lifestyle / Care Assistant for a Female Chemistry Uni Student,Ask Jules - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-23643_225813909,Support Worker,First For Support - Agency - Temporary,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-23643_225779445,Support Worker,Homecare First - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-23643_225815366,Support Worker,Nurseplus UK Ltd - Agency - Temporary,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
@@ -11,6 +10,7 @@ review,jobg8-1401786463,Care Assistant,Hampshire County Council - Company - Perm
 review,jobg8-23643_225745178,Care Assistant - Bank - Care Home,Barchester Healthcare - Company - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
 review,jobg8-23643_225815477,Care Assistant - Care Home,Barchester Healthcare - Company - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
 review,jobg8-1401786179,Casual Care Assistant,Hampshire County Council - Company - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
+review,jobg8-108321029,Extra Care Support Worker,SCA Care - Agency - Temporary,New Milton,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-23643_209680922,Health Care Assistants (HCA),Varang Recruitment - Agency - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
 review,jobg8-23643_225815813,Healthcare Assistant,Evolve Staffing Ltd - Agency - Permanent,Ryde,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-23643_223548398,Healthcare Assistant,Excelsis Healthcare Recruitment - Agency - Permanent,Lyndhurst,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
@@ -26,4 +26,3 @@ exclude,jobg8-23643_225790173,Female Healthcare Assistant & Support Worker,Bluel
 exclude,jobg8-23643_225779158,Health Care Assistant,Resilience Personnel Ltd - Agency - Permanent,Basingstoke,JobG8,exclude,exclude,Separate employment market.,basingstoke,southampton-support-worker
 exclude,jobg8-1401786178,Secure Children's Home Support Worker,Hampshire County Council - Company - Permanent,Eastleigh,JobG8,exclude,exclude,Separate employment market.,eastleigh,southampton-support-worker
 exclude,jobg8-108298282,Specialist Care Support Worker,SCA Care - Agency - Permanent,Winchester,JobG8,exclude,exclude,Separate employment market.,winchester,southampton-support-worker
-exclude,jobg8-108307172,Support Worker,Consensus Support Services Limited - Agency - Permanent,Farnborough,JobG8,exclude,exclude,Separate employment market.,farnborough,southampton-support-worker

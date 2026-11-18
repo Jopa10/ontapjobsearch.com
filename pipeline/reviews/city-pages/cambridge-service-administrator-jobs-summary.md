@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 49
+- Effective included jobs: 51
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 49
-- automatic review: 17
+- automatic include: 51
+- automatic review: 16
 - automatic exclude: 28
-- effective include: 49
-- effective review: 17
+- effective include: 51
+- effective review: 16
 - effective exclude: 28
 
-## INCLUDE (49)
+## INCLUDE (51)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: EC Resourcing - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2338520
+reason: Approved conservative Cambridge launch catchment.
+---
 
 ---
 action: 
@@ -57,6 +69,30 @@ company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2307830
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Officer
+company: Eclectic Recruitment - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2338363
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Officer
+company: Eclectic Recruitment - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-23643_225846373
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -160,30 +196,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Digital Marketing Officer
-company: CPSL Mind - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225764192
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Examinations Administrator
-company: Long Road Sixth Form College
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-examinations-administrator-long-road-sixth-form-college
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Family Paralegal
 company: Reed - Agency - Permanent
 location: Cambridgeshire
@@ -232,6 +244,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Graduate Finance Assistant
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2337155
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Italian speaking Credit Controller
 company: Language Business - Agency - Permanent
 location: Cambridge
@@ -244,11 +268,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Italian speaking Credit Controller
-company: The Language Business - Language Recruitment Specialists - Agency - Permanent
-location: Cambridgeshire
+title: Junior Finance Assistant
+company: Reed - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-2228420
+job_id: jobg8-2337135
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -612,7 +636,7 @@ job_id: jobg8-23643_225830190
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -762,18 +786,6 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Private Client Secretary/Assistant
-company: Berry Recruitment - Agency - Permanent
-location: March
-source: JobG8
-job_id: jobg8-23643_225793160
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Management Assistant
 company: Platform Recruitment - Agency - Permanent
 location: Duxford
@@ -912,7 +924,7 @@ title: Credit Control Administrator
 company: The One Group - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2289970
+job_id: jobg8-2335067
 reason: Separate employment market.
 ---
 
@@ -924,7 +936,7 @@ title: Credit Controller
 company: Broster Buchanan - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2287609
+job_id: jobg8-2331670
 reason: Separate employment market.
 ---
 
@@ -933,10 +945,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Credit Controller
-company: Outsource UK - Agency - Permanent
-location: Peterborough
+company: Michael Page Finance - Agency - Permanent
+location: Huntingdon
 source: JobG8
-job_id: jobg8-2297655
+job_id: jobg8-2336558
 reason: Separate employment market.
 ---
 
@@ -1080,7 +1092,7 @@ title: Payroll Coordinator
 company: MHA - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2286895
+job_id: jobg8-2330719
 reason: Separate employment market.
 ---
 
@@ -1088,11 +1100,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Purchase Ledger Clerk - 3 month FTC
-company: Hays Specialist Recruitment Limited - Agency - Permanent
+title: Sales Executive
+company: Interaction Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2289000
+job_id: jobg8-23643_225762952
 reason: Separate employment market.
 ---
 

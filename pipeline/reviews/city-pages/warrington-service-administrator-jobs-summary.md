@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
-- automatic review: 10
+- automatic include: 31
+- automatic review: 8
 - automatic exclude: 3
-- effective include: 30
-- effective review: 10
+- effective include: 31
+- effective review: 8
 - effective exclude: 3
 
-## INCLUDE (30)
+## INCLUDE (31)
 
 ---
 action: 
@@ -177,6 +177,18 @@ company: Michael Page - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225831531
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: eCommerce Co-Ordinator
+company: The Solution Auto - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2332279
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -384,7 +396,7 @@ job_id: jobg8-23643_225793459
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (8)
 
 ---
 action: 
@@ -438,23 +450,11 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Courier Planner
-company: Freight Personnel - Agency - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-23643_225747359
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Administrator
 company: Reed - Agency - Permanent
 location: Cheshire
 source: JobG8
-job_id: jobg8-2293355
+job_id: jobg8-2337786
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -494,18 +494,6 @@ job_id: jobg8-23643_225805278
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Desk Administrator
-company: PPM Recruitment - Agency - Permanent
-location: Lymm
-source: JobG8
-job_id: jobg8-23643_225830602
-reason: No approved Warrington catchment rule matched; local review required.
----
-
 ## EXCLUDE (3)
 
 ---
@@ -516,7 +504,7 @@ title: Marketing Account Manager
 company: Meriden Media - Agency - Permanent
 location: Runcorn
 source: JobG8
-job_id: jobg8-2285861
+job_id: jobg8-2328275
 reason: Separate employment market.
 ---
 

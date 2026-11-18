@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 55
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 11
-- effective review: 55
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: jobg8-23643_225397260
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (56)
 
 ---
 action: 
@@ -199,10 +199,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: Four Squared Recruitment Ltd - Agency - Permanent
-location: Dudley
+company: Marks Sattin - Agency - Permanent
+location: Wolverhampton
 source: JobG8
-job_id: jobg8-23643_225783603
+job_id: jobg8-2282654
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -211,10 +211,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: Marks Sattin - Agency - Permanent
-location: Wolverhampton
+company: Robert Half - Agency - Permanent
+location: Oldbury
 source: JobG8
-job_id: jobg8-2282654
+job_id: jobg8-2333858
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -238,7 +238,7 @@ title: Accounts Payable
 company: Mitchell Adam - Agency - Permanent
 location: West Midlands
 source: JobG8
-job_id: jobg8-2293339
+job_id: jobg8-2337771
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -250,7 +250,7 @@ title: Accounts Payable Assistant
 company: Mitchell Adam - Agency - Permanent
 location: West Midlands
 source: JobG8
-job_id: jobg8-2289233
+job_id: jobg8-2334134
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -274,7 +274,7 @@ title: Accounts Receivable Administrator
 company: People Solutions Group Limited - Agency - Permanent
 location: Dudley
 source: JobG8
-job_id: jobg8-2285293
+job_id: jobg8-2325875
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -286,7 +286,7 @@ title: Accounts Receivable Administrator
 company: People Solutions Group Limited - Agency - Permanent
 location: Dudley
 source: JobG8
-job_id: jobg8-2293126
+job_id: jobg8-2337488
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -394,7 +394,7 @@ title: BMW Service Advisor
 company: Sytner Group - Agency - Permanent
 location: Oldbury
 source: JobG8
-job_id: jobg8-2291831
+job_id: jobg8-2335731
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -444,18 +444,6 @@ location: Kingswinford
 source: JobG8
 job_id: jobg8-23643_225818034
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Pertemps Black Country Perms - Agency - Permanent
-location: Smethwick
-source: JobG8
-job_id: jobg8-2299128
-reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 
 ---
@@ -642,6 +630,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: Pertemps Black Country Perms - Agency - Permanent
+location: West Bromwich
+source: JobG8
+job_id: jobg8-23643_225765372
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Support Co-ordinator
 company: Trinity Professional - Agency - Permanent
 location: Dudley
@@ -731,6 +731,18 @@ company: Accept Recruitment - Agency - Permanent
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225637300
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Talent Acquisition Consultant
+company: Michael Page - Agency - Contract
+location: Oldbury
+source: JobG8
+job_id: jobg8-23643_225846416
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

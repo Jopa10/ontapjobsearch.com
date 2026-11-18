@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 13
 - automatic review: 12
-- automatic exclude: 23
-- effective include: 14
+- automatic exclude: 28
+- effective include: 13
 - effective review: 12
-- effective exclude: 23
+- effective exclude: 28
 
-## INCLUDE (14)
+## INCLUDE (13)
 
 ---
 action: 
@@ -44,19 +44,7 @@ title: Credit Control
 company: Reed - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2289654
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Digital Marketing Assistant
-company: Brooklyn Recruitment - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2157570
+job_id: jobg8-2334351
 reason: Approved York catchment.
 ---
 
@@ -152,7 +140,7 @@ title: Part Time Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2285496
+job_id: jobg8-2327948
 reason: Approved York catchment.
 ---
 
@@ -250,7 +238,7 @@ title: Finance Assistant
 company: Orange Cat Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
-job_id: jobg8-2292289
+job_id: jobg8-2331878
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -286,7 +274,7 @@ title: Legal Assistant
 company: Reed - Agency - Permanent
 location: Malton
 source: JobG8
-job_id: jobg8-2292701
+job_id: jobg8-2336375
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -338,7 +326,7 @@ job_id: jobg8-23643_225825906
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -348,7 +336,19 @@ title: Accounts Assistant
 company: Si Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
-job_id: jobg8-2292919
+job_id: jobg8-2336749
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: SI RECRUITMENT LIMITED - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-108322584
 reason: Separate employment market.
 ---
 
@@ -360,7 +360,7 @@ title: Accounts Assistant
 company: Willow Recruit - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2294281
+job_id: jobg8-2338819
 reason: Separate employment market.
 ---
 
@@ -408,8 +408,32 @@ title: Commercial Property & Corporate Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2292900
+job_id: jobg8-2337024
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Inicio Funding Solutions Ltd_2026-10-19-08:21:16.112 - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-108320734
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller (Debt Recovery)
+company: Inicio Funding Solutions Ltd_2026-10-19-08:21:16.112 - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-108326695
+reason: Broad regional label; not York-city evidence.
 ---
 
 ---
@@ -456,7 +480,7 @@ title: Ecommerce Website Specialist
 company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2286571
+job_id: jobg8-2330278
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -488,6 +512,18 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance Assistant
+company: IPS Group - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2329859
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Legal Secretary & Office Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
@@ -504,7 +540,7 @@ title: Litigation Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
-job_id: jobg8-2292907
+job_id: jobg8-2337031
 reason: Separate employment market.
 ---
 
@@ -602,6 +638,18 @@ location: Harrogate
 source: JobG8
 job_id: jobg8-2296494
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Officer
+company: Si Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2327758
+reason: Broad regional label; not York-city evidence.
 ---
 
 ---

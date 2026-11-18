@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 32
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
+- automatic include: 32
 - automatic review: 15
 - automatic exclude: 0
-- effective include: 30
+- effective include: 32
 - effective review: 15
 - effective exclude: 0
 
-## INCLUDE (30)
+## INCLUDE (32)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Scout Recruiting LTD - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225745727
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper (Practice)
+company: Butler Rose - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2338177
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -100,6 +112,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-20279_64721-75eb2d6d3a9cf2a646b85dba47edfb43
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Assistant
 company: Compass UK & Ireland - Company - Permanent
 location: Lincolnshire
@@ -117,6 +141,18 @@ company: EL Recruitment Solutions Ltd - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225104910
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2333593
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -321,18 +357,6 @@ company: Marble Mayne Recruitment - Agency - Permanent
 location: Lincoln
 source: JobG8
 job_id: jobg8-2233430
-reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Sir Robert Pattinson Academy
-location: Lincoln
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-sir-robert-pattinson-academy-lincoln-lincolnshire
 reason: Exact approved Lincoln workplace.
 ---
 

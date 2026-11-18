@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 19
 - automatic review: 38
 - automatic exclude: 0
-- effective include: 18
+- effective include: 19
 - effective review: 38
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -184,6 +184,18 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Inbound Banking Customer Service Advisors
+company: Office Angels - Agency - Temporary
+location: Swindon
+source: JobG8
+job_id: jobg8-23643_225747832
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office/Transport Administrator
 company: TRAK Employment Solutions Limited - Agency - Temporary
 location: Swindon
@@ -274,7 +286,7 @@ title: Accounts Payable Assistant
 company: CMD Recruitment - Agency - Permanent
 location: Corsham
 source: JobG8
-job_id: jobg8-2292041
+job_id: jobg8-2335999
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -438,11 +450,23 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Housing Administrator
+company: Salisbury Trust for the Homeless Ltd - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108325682
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Interim Accounts Payable - 3-4 Months
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2287401
+job_id: jobg8-2331337
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -454,7 +478,7 @@ title: Legal Administrator
 company: Walsh Employment - Agency - Permanent
 location: Marlborough
 source: JobG8
-job_id: jobg8-2294280
+job_id: jobg8-2338818
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -502,7 +526,7 @@ title: Purchase Ledger Clerk / Finance Administrator
 company: Casali Recruitment - Agency - Permanent
 location: Chippenham
 source: JobG8
-job_id: jobg8-2289564
+job_id: jobg8-2334450
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -563,18 +587,6 @@ company: Octane Recruitment - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-108286433
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Octane Recruitment - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-108308431
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

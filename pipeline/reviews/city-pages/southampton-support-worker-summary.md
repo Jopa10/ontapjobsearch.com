@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 13
-- automatic exclude: 7
-- effective include: 8
-- effective review: 13
-- effective exclude: 7
+- automatic include: 7
+- automatic review: 14
+- automatic exclude: 6
+- effective include: 7
+- effective review: 14
+- effective exclude: 6
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -76,18 +76,6 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Hourly Lifestyle / Care Assistant for a Female Chemistry Uni Student
-company: Ask Jules - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-108269694
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Support Worker
 company: First For Support - Agency - Temporary
 location: Southampton
@@ -120,7 +108,7 @@ job_id: jobg8-23643_225815366
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -168,6 +156,18 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-1401786179
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Extra Care Support Worker
+company: SCA Care - Agency - Temporary
+location: New Milton
+source: JobG8
+job_id: jobg8-108321029
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -278,7 +278,7 @@ job_id: jobg8-1401786329
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -349,17 +349,5 @@ company: SCA Care - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-108298282
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Support Worker
-company: Consensus Support Services Limited - Agency - Permanent
-location: Farnborough
-source: JobG8
-job_id: jobg8-108307172
 reason: Separate employment market.
 ---

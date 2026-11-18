@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 32
+- automatic include: 14
+- automatic review: 31
 - automatic exclude: 0
-- effective include: 15
-- effective review: 32
+- effective include: 14
+- effective review: 31
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (14)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: NC Associates - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-2179220
-reason: Exact approved Altrincham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant - R2R
-company: Robert Walters - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-2156448
 reason: Exact approved Altrincham workplace.
 ---
 
@@ -204,7 +192,7 @@ job_id: jobg8-2165151
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (31)
 
 ---
 action: 
@@ -226,7 +214,7 @@ title: Accounts Assistant
 company: Halecroft Recruitment - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2290775
+job_id: jobg8-2335409
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +227,18 @@ company: Halecroft Recruitment - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225815533
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant (Study Support)
+company: RG Consultancy Ltd - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2337419
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -402,18 +402,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator
-company: Platinum Recruitment Group - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-2194669
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Pickles Recruitment - Agency - Permanent
 location: Denton
@@ -563,18 +551,6 @@ company: Halecroft Recruitment - Agency - Temporary
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225757919
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Adecco - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225778251
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
