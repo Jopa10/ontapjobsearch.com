@@ -89,8 +89,8 @@ rule versions, feed references and linked history remain for audit and replay.
 
 The older three-day EXCLUDE window described in earlier checkpoints is
 superseded. Treat `exclude_review_started_on` as a legacy marker only; it is
-not an active retention timer. The old compact full-feed helper must not be used
-for current ingestion unless it is changed to avoid writing EXCLUDE payloads.
+not an active retention timer. The legacy compact full-feed helper now rejects any input containing an
+EXCLUDE before it writes to Neon. It is not the current daily ingestion path.
 
 ### 18 November Preview cleanup
 
