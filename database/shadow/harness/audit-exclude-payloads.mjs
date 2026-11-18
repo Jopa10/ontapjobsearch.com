@@ -61,8 +61,13 @@ try{
   "count(*) FILTER(WHERE decision='EXCLUDE' AND raw_payload IS NOT NULL)::int AS exclude_payload_rows "+
   "FROM ontap_shadow.selected_review_payload_records")).rows[0];
  const markers=(await c.query(
-  "SELECT count(*)::int AS marked_adverts FROM ontap_shadow.supplier_adverts "+
-  "WHERE exclude_review_started_on IS NOT NULL")).rows[0];
+  "SELECT count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL)::int AS marked_adverts,"+
+  "count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL)::int AS marked_payload_rows,"+
+  "coalesce(sum(pg_column_size(a.raw_payload)) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL),0)::text AS marked_payload_bytes,"+
+  "count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL AND EXISTS(SELECT 1 FROM ontap_shadow.selected_review_payload_records p WHERE p.feed_date=(SELECT max(feed_date) FROM ontap_shadow.daily_refresh_receipts) AND p.public_id=a.supplier_job_id))::int AS marked_current_selected_review_rows,"+
+  "count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL AND j.publication_status='published')::int AS marked_published_rows,"+
+  "min(a.exclude_review_started_on)::text AS oldest_marker,max(a.exclude_review_started_on)::text AS newest_marker "+
+  "FROM ontap_shadow.supplier_adverts a LEFT JOIN ontap_shadow.jobs j ON j.id=a.job_id")).rows[0];
  const candidateRows=(await c.query(cte+
   "\nSELECT advert_id,supplier_job_id,job_id,content_hash,raw_payload "+
   "FROM classified WHERE classification='confirmed_exclude_candidate' AND raw_payload IS NOT NULL "+
@@ -82,7 +87,7 @@ try{
   fullyExcludedPayloadCandidates:hashMatches,excludedPayloadHashMismatches:hashMismatches,
   candidateJsonBytes:hashBytes,excludedPayloadIdsSample:candidateIds.slice(0,25),
   dailySelectedReviewExcludeRows:Number(daily.exclude_rows),dailySelectedReviewExcludePayloadRows:Number(daily.exclude_payload_rows),
-  legacyExcludeReviewMarkers:Number(markers.marked_adverts),productionChanged:false,dataChanged:false,readOnly:true
+  legacyExcludeReviewMarkers:Number(markers.marked_adverts),legacyMarkerPayloadRows:Number(markers.marked_payload_rows),legacyMarkerPayloadBytes:Number(markers.marked_payload_bytes),legacyMarkerCurrentSelectedReviewRows:Number(markers.marked_current_selected_review_rows),legacyMarkerPublishedRows:Number(markers.marked_published_rows),oldestLegacyMarker:markers.oldest_marker,newestLegacyMarker:markers.newest_marker,productionChanged:false,dataChanged:false,readOnly:true
  };
  await c.query('COMMIT');
  await fs.mkdir('dist',{recursive:true});
