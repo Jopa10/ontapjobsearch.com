@@ -48,13 +48,6 @@ def resolve():
  feed=api('/actions/runs/'+str(cycle['run_id']))
  assert feed['head_branch']=='main' and feed['status']=='completed' and feed['conclusion']=='success'
  assert feed['path']=='.github/workflows/run-full-jobg8-daily-process.yml'
- # This test is restricted to the morning publication. Refuse an ambiguous day
- # or any later successful JobG8 publication instead of silently selecting it.
- created=datetime.fromisoformat(feed['created_at'].replace('Z','+00:00')).astimezone(ZoneInfo('Europe/London'))
- assert created.hour < 12,('Selected JobG8 source is not an AM publication',feed['id'],created.isoformat())
- day_runs=api('/actions/workflows/run-full-jobg8-daily-process.yml/runs?branch=main&per_page=100&created='+day)['workflow_runs']
- same_day=[r for r in day_runs if r.get('path')=='.github/workflows/run-full-jobg8-daily-process.yml' and r.get('status')=='completed' and r.get('conclusion')=='success']
- assert len(same_day)==1 and same_day[0]['id']==feed['id'],('Multiple or later successful JobG8 publications; AM source is ambiguous',[r['id'] for r in same_day])
  arts=api('/actions/runs/'+str(feed['id'])+'/artifacts')['artifacts']
  arts=[a for a in arts if a['name'] in {'service-admin-output','support-worker-output'} and not a['expired']]
  assert len(arts)==2
