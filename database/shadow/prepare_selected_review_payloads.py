@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Package only Thursday production-selected and automated-review adverts."""
+"""Package only production-selected adverts for the Neon daily Preview test."""
 import argparse, csv, hashlib, json, re, sys, zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -33,8 +33,8 @@ def review_ids(root, day):
     return found
 
 def load_candidate_payloads(archive_path, candidate_ids):
-    # Parse all Job nodes, but validate and retain only selected/review IDs.
-    # This keeps malformed, non-candidate feed rows out of the test scope.
+    # Parse all Job nodes, but validate and retain only selected IDs.
+    # Review and excluded payloads are not retained in Neon.
     sys.path.insert(0,str(Path(__file__).parent))
     from prepare_raw_stage import flatten
     with zipfile.ZipFile(archive_path) as archive:
@@ -80,22 +80,23 @@ def main():
                 if jid: selected.add(jid)
     if not selected: raise SystemExit("No selected JobG8 IDs found in production output artifacts")
     reviews=review_ids(Path(a.reviews),a.date)
-    candidate_ids=selected|set(reviews)
-    payloads,job_nodes=load_candidate_payloads(a.archive,candidate_ids)
+    review_set=set(reviews)
+    payloads,job_nodes=load_candidate_payloads(a.archive,selected)
     records=[]
-    for jid in sorted(candidate_ids):
+    for jid in sorted(selected):
         payload,source_row_position=payloads[jid]
-        decision="SELECTED" if jid in selected else "REVIEW"
-        reason="present in final production output" if decision=="SELECTED" else reviews[jid]
+        decision="SELECTED"
+        reason="present in final production output"
         records.append({"public_id":jid,"decision":decision,"decision_reason":reason,
           "selector_revision":a.production_run_commit,"source_row_position":source_row_position,"raw_payload":payload,
           "payload_sha256":hashlib.sha256(canonical(payload).encode()).hexdigest()})
     archive=Path(a.archive)
-    result={"schemaVersion":1,"feedDate":a.date,"productionWorkflowRunId":a.production_run_id,
+    result={"schemaVersion":2,"feedDate":a.date,"productionWorkflowRunId":a.production_run_id,
       "productionRunCommit":a.production_run_commit,"productionAppCommit":a.app_commit,
       "archiveKey":"jobg8/raw/"+a.date+".zip","archiveSha256":hashlib.sha256(archive.read_bytes()).hexdigest(),
-      "rawFeedJobNodes":job_nodes,"selectedIds":len(selected),"reviewIds":len(reviews),
-      "uniqueSelectedOrReviewIds":len(records),
+      "rawFeedJobNodes":job_nodes,"selectedIds":len(selected),"reviewListIds":len(review_set),
+      "reviewOverlapIds":len(selected & review_set),"reviewOnlyIds":len(review_set-selected),
+      "selectedPayloadRecords":len(records),
       "payloadBytes":sum(len(canonical(r["raw_payload"]).encode()) for r in records),"records":records}
     Path(a.output).write_text(json.dumps(result,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
     print(json.dumps({k:v for k,v in result.items() if k!="records"},sort_keys=True))
