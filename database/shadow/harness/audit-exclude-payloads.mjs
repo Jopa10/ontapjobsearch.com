@@ -16,43 +16,53 @@ function canonical(v){
  return v;
 }
 function payloadHash(v){return createHash('sha256').update(JSON.stringify(canonical(v))).digest('hex');}
-const cte=[
-"WITH decisions_by_run AS (",
-" SELECT d.advert_id,r.id AS run_id,r.feed_date::text AS decision_feed_date,r.started_at,",
-"  count(*) FILTER(WHERE d.scope LIKE 'production:%')::int AS family_rows,",
-"  count(*) FILTER(WHERE d.scope LIKE 'production:%' AND d.decision='exclude')::int AS excluded_rows",
-" FROM ontap_shadow.selection_decisions d JOIN ontap_shadow.feed_runs r ON r.id=d.feed_run_id",
-" WHERE r.status='accepted' AND r.diagnostics ? 'selection_parity' AND d.scope LIKE 'production:%'",
-" GROUP BY d.advert_id,r.id,r.feed_date,r.started_at",
-"), latest AS (",
-" SELECT DISTINCT ON(advert_id) advert_id,run_id,decision_feed_date,family_rows,excluded_rows",
-" FROM decisions_by_run ORDER BY advert_id,decision_feed_date DESC,started_at DESC",
-"), classified AS (",
-" SELECT s.code AS supplier_code,a.id::text AS advert_id,a.supplier_job_id,a.job_id::text AS job_id,",
-"  a.content_hash,a.last_seen::text AS last_seen,a.exclude_review_started_on::text AS legacy_marker,a.raw_payload,",
-"  COALESCE(j.publication_status,'missing') AS publication_status,l.decision_feed_date,l.family_rows,l.excluded_rows,",
-"  CASE",
-"   WHEN j.publication_status='published' THEN 'published_protection'",
-"   WHEN EXISTS(SELECT 1 FROM ontap_shadow.selected_review_payload_records p WHERE p.public_id=a.supplier_job_id) THEN 'historical_selected_review_protection'",
-"   WHEN a.exclude_review_started_on IS NOT NULL AND EXISTS(",
-"    SELECT 1 FROM ontap_shadow.selection_decisions d JOIN ontap_shadow.feed_runs r ON r.id=d.feed_run_id",
-"    WHERE d.advert_id=a.id AND r.status='accepted' AND r.diagnostics ? 'selection_parity'",
-"     AND d.scope LIKE 'production:%' AND d.decision IN ('include','review')",
-"     AND r.feed_date>=a.exclude_review_started_on::date",
-"   ) THEN 'legacy_marker_contradicted_by_later_positive'",
-"   WHEN a.exclude_review_started_on IS NOT NULL THEN 'legacy_exclude_marker_candidate'",
-"   WHEN l.advert_id IS NULL THEN 'no_selector_evidence'",
-"   WHEN l.family_rows<>8 THEN 'incomplete_selector_decisions'",
-"   WHEN l.decision_feed_date<>a.last_seen::text THEN 'decision_not_for_current_payload_date'",
-"   WHEN l.excluded_rows<>8 THEN 'not_excluded_in_every_family'",
-"   ELSE 'complete_date_matched_exclude_candidate'",
-"  END AS classification",
-" FROM ontap_shadow.supplier_adverts a",
-" JOIN ontap_shadow.suppliers s ON s.id=a.supplier_id",
-" LEFT JOIN ontap_shadow.jobs j ON j.id=a.job_id",
-" LEFT JOIN latest l ON l.advert_id=a.id",
-")"
-].join('\n');
+const cte=`WITH decision_rows AS MATERIALIZED (
+ SELECT d.advert_id,r.id AS run_id,r.feed_date::date AS decision_feed_date,r.started_at,d.scope,d.decision
+ FROM ontap_shadow.selection_decisions d
+ JOIN ontap_shadow.feed_runs r ON r.id=d.feed_run_id
+ WHERE r.status='accepted' AND r.diagnostics ? 'selection_parity'
+   AND d.scope LIKE 'production:%'
+), decisions_by_run AS MATERIALIZED (
+ SELECT advert_id,run_id,decision_feed_date,started_at,
+  count(*)::int AS family_rows,
+  count(*) FILTER(WHERE decision='exclude')::int AS excluded_rows
+ FROM decision_rows
+ GROUP BY advert_id,run_id,decision_feed_date,started_at
+), latest AS MATERIALIZED (
+ SELECT DISTINCT ON(advert_id) advert_id,decision_feed_date,family_rows,excluded_rows
+ FROM decisions_by_run
+ ORDER BY advert_id,decision_feed_date DESC,started_at DESC
+), later_positive AS MATERIALIZED (
+ SELECT advert_id,max(decision_feed_date) AS latest_positive_date
+ FROM decision_rows WHERE decision IN ('include','review') GROUP BY advert_id
+), historical_ids AS MATERIALIZED (
+ SELECT public_id FROM ontap_shadow.selected_review_payload_records GROUP BY public_id
+), classified AS (
+ SELECT s.code AS supplier_code,a.id::text AS advert_id,a.supplier_job_id,a.job_id::text AS job_id,
+  a.content_hash,a.last_seen::text AS last_seen,a.exclude_review_started_on::text AS legacy_marker,a.raw_payload,
+  COALESCE(j.publication_status,'missing') AS publication_status,
+  l.decision_feed_date,l.family_rows,l.excluded_rows,
+  (h.public_id IS NOT NULL) AS has_selected_review_history,
+  lp.latest_positive_date,
+  CASE
+   WHEN j.publication_status='published' THEN 'published_protection'
+   WHEN h.public_id IS NOT NULL THEN 'historical_selected_review_protection'
+   WHEN a.exclude_review_started_on IS NOT NULL AND lp.latest_positive_date>=a.exclude_review_started_on::date
+     THEN 'legacy_marker_contradicted_by_later_positive'
+   WHEN a.exclude_review_started_on IS NOT NULL THEN 'legacy_exclude_marker_candidate'
+   WHEN l.advert_id IS NULL THEN 'no_selector_evidence'
+   WHEN l.family_rows<>8 THEN 'incomplete_selector_decisions'
+   WHEN l.decision_feed_date<>a.last_seen::date THEN 'decision_not_for_current_payload_date'
+   WHEN l.excluded_rows<>8 THEN 'not_excluded_in_every_family'
+   ELSE 'complete_date_matched_exclude_candidate'
+  END AS classification
+ FROM ontap_shadow.supplier_adverts a
+ JOIN ontap_shadow.suppliers s ON s.id=a.supplier_id
+ LEFT JOIN ontap_shadow.jobs j ON j.id=a.job_id
+ LEFT JOIN latest l ON l.advert_id=a.id
+ LEFT JOIN historical_ids h ON h.public_id=a.supplier_job_id
+ LEFT JOIN later_positive lp ON lp.advert_id=a.id
+)`;
 try{
  await c.connect();
  await c.query('BEGIN ISOLATION LEVEL REPEATABLE READ READ ONLY');
@@ -65,14 +75,16 @@ try{
   "SELECT count(*) FILTER(WHERE decision='EXCLUDE')::int AS exclude_rows,"+
   "count(*) FILTER(WHERE decision='EXCLUDE' AND raw_payload IS NOT NULL)::int AS exclude_payload_rows "+
   "FROM ontap_shadow.selected_review_payload_records")).rows[0];
- const markers=(await c.query(
-  "SELECT count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL)::int AS marked_adverts,"+
-  "count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL)::int AS marked_payload_rows,"+
-  "coalesce(sum(pg_column_size(a.raw_payload)) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL),0)::text AS marked_payload_bytes,"+
-  "count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL AND EXISTS(SELECT 1 FROM ontap_shadow.selected_review_payload_records p WHERE p.public_id=a.supplier_job_id))::int AS marked_historical_selected_review_rows,"+
-  "count(*) FILTER(WHERE a.exclude_review_started_on IS NOT NULL AND a.raw_payload IS NOT NULL AND j.publication_status='published')::int AS marked_published_rows,"+
-  "min(a.exclude_review_started_on)::text AS oldest_marker,max(a.exclude_review_started_on)::text AS newest_marker "+
-  "FROM ontap_shadow.supplier_adverts a LEFT JOIN ontap_shadow.jobs j ON j.id=a.job_id")).rows[0];
+ const markers=(await c.query(cte+`
+  SELECT
+   count(*) FILTER(WHERE legacy_marker IS NOT NULL)::int AS marked_adverts,
+   count(*) FILTER(WHERE legacy_marker IS NOT NULL AND raw_payload IS NOT NULL)::int AS marked_payload_rows,
+   coalesce(sum(pg_column_size(raw_payload)) FILTER(WHERE legacy_marker IS NOT NULL AND raw_payload IS NOT NULL),0)::text AS marked_payload_bytes,
+   count(*) FILTER(WHERE legacy_marker IS NOT NULL AND raw_payload IS NOT NULL AND has_selected_review_history)::int AS marked_historical_selected_review_rows,
+   count(*) FILTER(WHERE legacy_marker IS NOT NULL AND raw_payload IS NOT NULL AND publication_status='published')::int AS marked_published_rows,
+   min(legacy_marker) AS oldest_marker,max(legacy_marker) AS newest_marker
+  FROM classified
+ `)).rows[0];
  const candidateRows=(await c.query(cte+
   "\nSELECT advert_id,supplier_job_id,job_id,content_hash,raw_payload,classification "+
   "FROM classified WHERE classification IN ('legacy_exclude_marker_candidate','complete_date_matched_exclude_candidate') "+
