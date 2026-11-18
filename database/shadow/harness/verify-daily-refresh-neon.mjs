@@ -73,7 +73,10 @@ try{
    resetResult={enabled:true,tables,rowCountsBefore:resetResult.rowCountsBefore,databaseBytesBefore:databaseBytesBeforeReset};
    console.log('ONTAP_DAILY_RESET_COMPLETED '+JSON.stringify(resetResult));
   }
+  await c.query('COMMIT');
   const beforeBytes=Number((await c.query('SELECT pg_database_size(current_database())::text AS bytes')).rows[0].bytes);
+  await c.query('BEGIN');
+  await c.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:selected-review-full-payload'))");
   const existing=await read(),byId=new Map(existing.map(r=>[r.public_id,r]));
   assert.ok(existing.every(r=>seen.has(r.public_id)),'Existing same-day IDs differ; do not silently retain or delete unexpected rows');
   const delta=snapshot.records.filter(r=>different(byId.get(r.public_id),r));
