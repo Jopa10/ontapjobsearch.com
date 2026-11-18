@@ -12,7 +12,7 @@ assert.equal(source.mode,'daily_latest');assert.equal(source.dateProvidedByReque
 const raw=await fs.readFile('selected-review-payloads.json');
 assert.equal(hash(raw),source.payloadPackageSha256);
 const snapshot=JSON.parse(raw);
-assert.equal(snapshot.feedDate,source.archiveDate);assert.equal(snapshot.archiveSha256,source.archiveSha256);
+assert.equal(snapshot.schemaVersion,2);assert.equal(snapshot.selectedPayloadRecords,snapshot.records.length);assert.equal(snapshot.feedDate,source.archiveDate);assert.equal(snapshot.archiveSha256,source.archiveSha256);
 assert.equal(snapshot.productionAppCommit,source.productionAppCommitSha);
 assert.equal(snapshot.productionWorkflowRunId,source.productionOutputRunId);
 const scopes=JSON.parse(await fs.readFile('daily-scopes.json','utf8'));
@@ -23,11 +23,11 @@ const fields=['decision','decision_reason','selector_revision','source_row_posit
 const seen=new Set(),positions=new Set();
 for(const row of snapshot.records){
  assert.ok(row.public_id&&!seen.has(row.public_id));seen.add(row.public_id);
- assert.ok(['SELECTED','REVIEW'].includes(row.decision));
+ assert.equal(row.decision,'SELECTED');
  assert.ok(Number.isInteger(row.source_row_position)&&row.source_row_position>0&&!positions.has(row.source_row_position));positions.add(row.source_row_position);
  assert.equal(fingerprint(row.raw_payload),row.payload_sha256);
 }
-const selected=new Set(snapshot.records.filter(r=>r.decision==='SELECTED').map(r=>r.public_id));
+const selected=new Set(snapshot.records.map(r=>r.public_id));
 assert.deepEqual([...new Set(scopes.flatMap(s=>s.jobg8Ids))].sort(),[...selected].sort());
 for(const s of scopes)assert.equal(new Set(s.jobg8Ids).size,s.jobg8Ids.length,'Duplicate within scope '+s.scope);
 const u=new URL(process.env.ONTAP_SHADOW_DATABASE_URL);u.searchParams.set('sslmode','verify-full');
@@ -39,12 +39,41 @@ function different(a,b){return !a||fields.some(f=>a[f]!==b[f])||a.archive_sha256
 try{
  await c.connect();
  const failureProbe=await loadDailyFailureProbe(c,source);
- const beforeBytes=Number((await c.query('SELECT pg_database_size(current_database())::text AS bytes')).rows[0].bytes);
+ const databaseBytesBeforeReset=Number((await c.query('SELECT pg_database_size(current_database())::text AS bytes')).rows[0].bytes);
  await c.query('BEGIN');
  try{
   await c.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:selected-review-full-payload'))");
   const latest=(await c.query('SELECT max(feed_date)::text AS date FROM '+table)).rows[0].date;
   assert.ok(!latest||latest<=snapshot.feedDate,'Refuse an older feed over a newer Neon snapshot');
+  const previousDateRow=(await c.query('SELECT max(feed_date)::text AS date FROM ontap_shadow.daily_refresh_receipts WHERE feed_date<$1::date',[snapshot.feedDate])).rows[0];
+  const previousDate=previousDateRow?.date||null;
+  const previousRows=previousDate?(await c.query("SELECT public_id,payload_sha256 FROM "+table+" WHERE feed_date=$1::date AND decision='SELECTED'",[previousDate])).rows:[];
+  const previousById=new Map(previousRows.map(r=>[r.public_id,r]));
+  const earlierIds=new Set(previousDate?(await c.query("SELECT DISTINCT public_id FROM "+table+" WHERE feed_date<$1::date AND decision='SELECTED'",[previousDate])).rows.map(r=>r.public_id):[]);
+  const currentById=new Map(snapshot.records.map(r=>[r.public_id,r]));
+  const addedIds=[...selected].filter(id=>!previousById.has(id)).sort();
+  const absentIds=[...previousById.keys()].filter(id=>!selected.has(id)).sort();
+  const returningIds=addedIds.filter(id=>earlierIds.has(id));
+  const changedIds=[...selected].filter(id=>previousById.has(id)&&previousById.get(id).payload_sha256!==currentById.get(id).payload_sha256).sort();
+  const resetRequest=JSON.parse(await fs.readFile('daily-reset-request.json','utf8'));
+  let resetResult={enabled:false,tables:[],rowCountsBefore:{},databaseBytesBefore:databaseBytesBeforeReset};
+  if(resetRequest.enabled===true){
+   const userTables=['subscribers','subscriber_preferences','consent_history','emails_sent','job_recommendations','activity_events'];
+   const present=(await c.query("SELECT table_name FROM information_schema.tables WHERE table_schema='ontap_shadow' AND table_type='BASE TABLE'")).rows.map(r=>r.table_name);
+   const userCounts={};
+   for(const t of userTables)if(present.includes(t)){
+    const q=await c.query('SELECT count(*)::int AS n FROM ontap_shadow.'+t);userCounts[t]=q.rows[0].n;
+   }
+   console.log('ONTAP_DAILY_RESET_USER_DATA_CHECK '+JSON.stringify(userCounts));
+   assert.equal(Object.values(userCounts).reduce((a,n)=>a+n,0),0,'Reset stopped: user/subscriber/click-history rows exist and must be preserved');
+   const tables=present.filter(t=>t!=='suppliers').sort();
+   for(const t of tables){const q=await c.query('SELECT count(*)::int AS n FROM ontap_shadow."'+t.replaceAll('"','""')+'"');resetResult.rowCountsBefore[t]=q.rows[0].n;}
+   assert.ok(tables.includes('selected_review_payload_records'),'Reset refused: daily payload table is missing');
+   await c.query('TRUNCATE TABLE '+tables.map(t=>'ontap_shadow."'+t.replaceAll('"','""')+'"').join(',')+' RESTART IDENTITY');
+   resetResult={enabled:true,tables,rowCountsBefore:resetResult.rowCountsBefore,databaseBytesBefore:databaseBytesBeforeReset};
+   console.log('ONTAP_DAILY_RESET_COMPLETED '+JSON.stringify(resetResult));
+  }
+  const beforeBytes=Number((await c.query('SELECT pg_database_size(current_database())::text AS bytes')).rows[0].bytes);
   const existing=await read(),byId=new Map(existing.map(r=>[r.public_id,r]));
   assert.ok(existing.every(r=>seen.has(r.public_id)),'Existing same-day IDs differ; do not silently retain or delete unexpected rows');
   const delta=snapshot.records.filter(r=>different(byId.get(r.public_id),r));
@@ -66,7 +95,7 @@ try{
    [snapshot.feedDate,snapshot.archiveSha256,JSON.stringify(expectedProvenance),JSON.stringify(delta.slice(i,i+100))]);
   await injectDailyFailure(c,failureProbe,'after-payload-write',{snapshot,source});
   const got=await read(),gotById=new Map(got.map(r=>[r.public_id,r]));
-  assert.equal(got.length,snapshot.records.length);
+  assert.equal(got.length,selected.size);
   assert.deepEqual([...gotById.keys()].sort(),[...seen].sort());
   for(const e of snapshot.records){
    const a=gotById.get(e.public_id);
@@ -107,11 +136,11 @@ try{
   assert.deepEqual(visible.records.map(r=>r.public_id).sort(),[...selected].sort());
   const masterCleanupPlan=await runMasterCleanup(c,{asOfDate:snapshot.feedDate,mode:'dry-run'});
   const failureResidue=await verifyNoDailyFailureResidue(c,snapshot.feedDate);
-  const report={failureResidue,masterCleanupPlan,currentPublicationReaderVerified:true,status:'passed',mode:'automatic_daily_refresh',feedDate:snapshot.feedDate,dateProvidedByRequest:false,productionDeploymentRunId:source.productionDeploymentRunId,productionOutputRunId:snapshot.productionWorkflowRunId,productionCommit:snapshot.productionAppCommit,selectedIds:selected.size,reviewOnlyIds:got.length-selected.size,reviewListIds:snapshot.reviewIds,neonRows:got.length,
+  const report={failureResidue,masterCleanupPlan,resetResult,comparison:{previousFeedDate:previousDate,previousSelected:previousById.size,currentSelected:selected.size,addedIds,absentIds,returningIds,changedIds},currentPublicationReaderVerified:true,status:'passed',mode:'automatic_daily_refresh',feedDate:snapshot.feedDate,dateProvidedByRequest:false,productionDeploymentRunId:source.productionDeploymentRunId,productionOutputRunId:snapshot.productionWorkflowRunId,productionCommit:snapshot.productionAppCommit,selectedIds:selected.size,reviewOnlyIds:0,reviewListIds:snapshot.reviewListIds,reviewOverlapIds:snapshot.reviewOverlapIds,reviewOnlySourceIds:snapshot.reviewOnlyIds,neonRows:got.length,
    exactIdsAndDecisionsMatch:true,fullPayloadAndHashesMatch:true,exactFeedPositionsMatch:true,scopeCount:scopes.length,exactScopeOrderingMatch:true,
    insertedRows:newRows.length,updatedPayloadRows:changedPayloads.length,metadataOnlyUpdatedRows:metadataOnly,unchangedRows:snapshot.records.length-delta.length,
    identicalReplayRowsToWrite:0,duplicates:0,activeFeedDate:active.feed_date,existingVerifiedPreviewScopesMatch:previousPreviewBuildMatches,excludedPayloadsWritten:0,
-   databaseBytesBefore:beforeBytes,databaseBytesAfter:afterBytes,estimatedAdmissionBytes:estimate,productionChanged:false,expiryChanged:false};
+   databaseBytesBeforeReset,databaseBytesBefore:beforeBytes,databaseBytesAfter:afterBytes,estimatedAdmissionBytes:estimate,productionChanged:false,expiryChanged:false};
   await fs.mkdir('dist',{recursive:true});await fs.writeFile('dist/daily-refresh-report.json',JSON.stringify(report,null,2)+'\n');
   await fs.writeFile('dist/index.html','<!doctype html><meta name="robots" content="noindex,nofollow"><h1>Neon automatic daily refresh passed</h1>');
   console.log('ONTAP_AUTOMATIC_DAILY_REFRESH '+JSON.stringify(report));
