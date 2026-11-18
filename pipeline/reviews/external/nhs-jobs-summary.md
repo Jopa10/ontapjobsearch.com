@@ -2,15 +2,27 @@
 
 review_date: 2026-11-18
 
-- Open Administrative & Clerical rows reviewed: 2215
-- Auto/remembered selected: 378
-- Selected HC Tier A: 201
+- Open Administrative & Clerical rows reviewed: 2213
+- Auto/remembered selected: 377
+- Selected HC Tier A: 200
 - Selected HC Tier B: 177
-- POSS awaiting decision: 1737
+- POSS awaiting decision: 1736
 - Excluded: 0
 - HARD_PASS: 100
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | High Peak, SK22 4BP, HIGH PEAK, SK22 2EP | £13.00 to £14.00 | Secretary - GP Practice
+source_job_id: 5737435
+title: Secretary - GP Practice
+employer: Sett Valley Medical Centre
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0072-26-00000
+factual_fingerprint: c1c639b70aa3fcb4573aafb358a217470e193fe24a9eed7c804443f508af7ba4
+---
 
 ---
 action:
@@ -3154,18 +3166,6 @@ region: Shropshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9825-26-0371
 factual_fingerprint: bd4afc1100b8c2fb09353b27cf70eb8ec1d21a28784dcdc3254498602fa5008a
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £25272.00 | Emergency Department Receptionist
-source_job_id: 5732320
-title: Emergency Department Receptionist
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1427
-factual_fingerprint: af9edcef66d8f81f705dc3855792919f2bce95f4f9196ff2f4747a93a74772d0
 ---
 
 ---
@@ -17302,18 +17302,6 @@ region: Sussex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4054-26-0017
 factual_fingerprint: 8beec156def6aa93e7ce8b6b82033a5d476e3ea21c94b4f623eaf8800874f17a
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - South | Stockport, SK2 7JE | £32073.00 to £39043.00 | Employee Relations Advisor
-source_job_id: 5709492
-title: Employee Relations Advisor
-employer: Stockport NHS Foundation Trust
-region: Greater Manchester - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9362-26-0834
-factual_fingerprint: 83184a155bc91565f7c983f902ed9a10ff10c355b1a1943653677654b57bb26d
 ---
 
 ---
