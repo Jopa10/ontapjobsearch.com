@@ -68,54 +68,50 @@ try{
  assert.ok(initialBytes+RESERVE<=MAX_DB,'Database is already above the 800 MiB ceiling with 64 MiB reserve');
  let clearedRows=0,clearedPayloadBytes=0,hashMismatches=0,skippedIds=[];
  let stoppedByStorageGuard=false,guardDatabaseBytes=0;
- while(true){
-  await c.query('BEGIN ISOLATION LEVEL SERIALIZABLE');
-  try{
-   await c.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:jobg8'))");
-   const batch=(await c.query(cte+`
-    SELECT x.advert_uuid::text AS advert_id,x.supplier_job_id,x.content_hash,x.raw_payload,
-      pg_column_size(x.raw_payload)::text AS stored_bytes
-    FROM classified x
-    JOIN ontap_shadow.supplier_adverts a ON a.id=x.advert_uuid
-    WHERE x.supplier_code='jobg8' AND x.raw_payload IS NOT NULL
-      AND x.classification IN ('legacy_exclude_marker_candidate','complete_date_matched_exclude_candidate')
-      AND NOT (x.advert_uuid=ANY($1::uuid[]))
-    ORDER BY x.supplier_job_id
-    LIMIT $2
-    FOR UPDATE OF a SKIP LOCKED
-   `,[skippedIds,BATCH])).rows;
-   if(!batch.length){await c.query('COMMIT');break;}
-   const valid=[];
-   let plannedBytes=0;
-   for(const row of batch){
-    if(payloadHash(row.raw_payload)===row.content_hash){
-     valid.push({id:row.advert_id,content_hash:row.content_hash});
-     plannedBytes+=Number(row.stored_bytes);
-    }else{
-     hashMismatches++;skippedIds.push(row.advert_id);
-    }
-   }
-   if(!valid.length){await c.query('COMMIT');continue;}
-   const before=Number((await c.query("SELECT pg_database_size(current_database())::text AS bytes")).rows[0].bytes);
-   const conservativeBatchGrowth=Math.max(1024*1024,plannedBytes*2+valid.length*4096);
-   if(before+RESERVE+conservativeBatchGrowth>MAX_DB){
-    await c.query('ROLLBACK');
-    stoppedByStorageGuard=true;guardDatabaseBytes=before;break;
-   }
+ await c.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:jobg8'))");
+ const candidates=(await c.query(cte+`
+  SELECT x.advert_uuid::text AS advert_id,x.supplier_job_id,x.content_hash,x.raw_payload,
+    pg_column_size(x.raw_payload)::text AS stored_bytes
+  FROM classified x
+  JOIN ontap_shadow.supplier_adverts a ON a.id=x.advert_uuid
+  WHERE x.supplier_code='jobg8' AND x.raw_payload IS NOT NULL
+    AND x.classification IN ('legacy_exclude_marker_candidate','complete_date_matched_exclude_candidate')
+  ORDER BY x.supplier_job_id
+  FOR UPDATE OF a
+ `)).rows;
+ const valid=[];
+ for(const row of candidates){
+  if(payloadHash(row.raw_payload)===row.content_hash){
+   valid.push({id:row.advert_id,content_hash:row.content_hash});
+   clearedPayloadBytes+=Number(row.stored_bytes);
+  }else{
+   hashMismatches++;skippedIds.push(row.supplier_job_id);
+  }
+ }
+ assert.equal(hashMismatches,0,'Payload hash mismatch; no rows were changed');
+ const conservativeGrowth=Math.max(16*1024*1024,valid.length*2048);
+ if(initialBytes+RESERVE+conservativeGrowth>MAX_DB){
+  await c.query('ROLLBACK');
+  stoppedByStorageGuard=true;guardDatabaseBytes=initialBytes;
+ }else{
+  for(let i=0;i<valid.length;i+=1000){
+   const chunk=valid.slice(i,i+1000);
    const changed=(await c.query(`UPDATE ontap_shadow.supplier_adverts a
     SET raw_payload=NULL,content_purged_at=now()
     FROM jsonb_to_recordset($1::jsonb) AS x(id uuid,content_hash text)
     WHERE a.id=x.id AND a.content_hash=x.content_hash AND a.raw_payload IS NOT NULL
-    RETURNING a.id`,[JSON.stringify(valid)])).rows;
-   assert.equal(changed.length,valid.length,'Candidate set changed; batch rolled back');
-   const after=Number((await c.query("SELECT pg_database_size(current_database())::text AS bytes")).rows[0].bytes);
-   if(after+RESERVE>MAX_DB){
+    RETURNING a.id`,[JSON.stringify(chunk)])).rows;
+   assert.equal(changed.length,chunk.length,'Candidate set changed; transaction rolled back');
+   clearedRows+=changed.length;
+   const liveBytes=Number((await c.query("SELECT pg_database_size(current_database())::text AS bytes")).rows[0].bytes);
+   if(liveBytes+RESERVE>MAX_DB){
     await c.query('ROLLBACK');
-    stoppedByStorageGuard=true;guardDatabaseBytes=before;break;
+    clearedRows=0;clearedPayloadBytes=0;
+    stoppedByStorageGuard=true;guardDatabaseBytes=initialBytes;
+    break;
    }
-   await c.query('COMMIT');
-   clearedRows+=changed.length;clearedPayloadBytes+=plannedBytes;
-  }catch(e){try{await c.query('ROLLBACK');}catch{};throw e;}
+  }
+  if(!stoppedByStorageGuard) await c.query('COMMIT');
  }
  const finalBytes=Number((await c.query('SELECT pg_database_size(current_database())::text AS bytes')).rows[0].bytes);
  assert.ok(finalBytes+RESERVE<=MAX_DB,'Final database size would breach the 64 MiB reserve');
