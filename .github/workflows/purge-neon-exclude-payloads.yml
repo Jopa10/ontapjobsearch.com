@@ -49,7 +49,11 @@ jobs:
           python - <<'PY'
           import json,os
           from pathlib import Path
-          r=json.loads(Path(os.environ['RUNNER_TEMP']+'/exclude-payload-purge-report.json').read_text())
+          raw=Path(os.environ['RUNNER_TEMP']+'/exclude-payload-purge-report.json').read_text()
+          start=raw.find('{')
+          if start < 0:
+              raise SystemExit('No JSON report found')
+          r,_=json.JSONDecoder().raw_decode(raw[start:])
           assert r['status'] in ('completed','stopped_at_storage_guard')
           assert r['productionChanged'] is False and r['decisionAndIdentityRowsDeleted']==0
           print('ONTAP_EXCLUDE_PAYLOAD_PURGE',json.dumps(r))
