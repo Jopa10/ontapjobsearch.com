@@ -50,12 +50,12 @@ def load_candidate_payloads(archive_path, candidate_ids):
         jid=row.get("/Job/DisplayReference","").strip()
         if jid not in candidate_ids: continue
         if not row.get("/Job/Position") or not row.get("/Job/ApplicationURL"):
-            raise SystemExit("A selected/review candidate lacks its title or apply URL in the raw payload: "+jid)
+            raise SystemExit("A selected candidate lacks its title or apply URL in the raw payload: "+jid)
         if jid in payloads and payloads[jid][0]!=row: conflicts.add(jid)
         else: payloads.setdefault(jid,(row,job_nodes))
-    if conflicts: raise SystemExit("Conflicting duplicate raw records for selected/review IDs: "+", ".join(sorted(conflicts)[:10]))
+    if conflicts: raise SystemExit("Conflicting duplicate raw records for selected IDs: "+", ".join(sorted(conflicts)[:10]))
     missing=sorted(candidate_ids-set(payloads))
-    if missing: raise SystemExit(f"{len(missing)} selected/review IDs are absent from the dated raw feed; first: {missing[:10]}")
+    if missing: raise SystemExit(f"{len(missing)} selected IDs are absent from the dated raw feed; first: {missing[:10]}")
     return payloads,job_nodes
 
 def main():
