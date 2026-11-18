@@ -20,7 +20,7 @@ function minimumPayFromAdvert(value: string): string {
   const unit = text.match(/\bper\s+(?:hour|day|week|month|year)\b|\b(?:ph|pa)\b|p\.a\./i)?.[0];
   const period = unit || (lower * (thousands ? 1000 : 1) >= 1000 ? "per year" : "");
   if (!period) return "";
-  return \`£\${match[1]}\${thousands} \${period}\`;
+  return `£${match[1]}${thousands} ${period}`;
 }
 
 export default function ApplyButton({
