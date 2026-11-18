@@ -59,33 +59,13 @@ test('failed display phase resumes from committed raw/selection without duplicat
  const r=await verifyCompactIntegration(db,input);assert.equal(r.importReplayed,true);assert.equal(r.selectionReplayed,true);assert.equal(r.counts.jobs,1);
  }finally{await db.close();}
 });
-test('fully excluded payload stays reviewable for three days, then purges while decisions and identity remain',async()=>{
- const db=new PGlite();try{await db.exec(schema);let first=excludedPacket('2026-11-02',['1']);
- const refs=classifyFullyExcludedRefs(first.selection);assert.deepEqual(refs,['1']);
- const day1=await verifyCompactIntegration(db,first,{excludeReviewAsOfDate:'2026-11-04'});
- const before=(await db.query("SELECT raw_payload IS NOT NULL AS retained,exclude_review_started_on::text FROM ontap_shadow.supplier_adverts WHERE supplier_job_id='1'")).rows[0];
- assert.equal(before.retained,true);assert.equal(before.exclude_review_started_on,'2026-11-02');
- const second=excludedPacket('2026-11-03',['1']);
- const day2=await verifyCompactIntegration(db,second,{parentRunId:day1.runId,excludeReviewAsOfDate:'2026-11-05'});
- assert.equal(day2.excludeRetention.purgedCount,1);
- const after=(await db.query("SELECT raw_payload,content_purged_at IS NOT NULL AS purged,exclude_review_started_on::text FROM ontap_shadow.supplier_adverts WHERE supplier_job_id='1'")).rows[0];
- assert.equal(after.raw_payload,null);assert.equal(after.purged,true);assert.equal(after.exclude_review_started_on,'2026-11-02');
- assert.equal((await db.query("SELECT count(*)::int AS n FROM ontap_shadow.jobs WHERE public_id='1'")).rows[0].n,1);
- assert.equal((await db.query('SELECT count(*)::int AS n FROM ontap_shadow.feed_runs WHERE id=$1',[day2.runId])).rows[0].n,1);
- const saved=await db.query("SELECT diagnostics->'compact_selection'->'envelope' IS NOT NULL AS retained FROM ontap_shadow.feed_runs WHERE id=$1",[day2.runId]);
- assert.equal(saved.rows[0].retained,true);
- const changed=excludedPacket('2026-11-06',['1']);changed.raw.records[0]['/Job/Position']='Changed excluded title';
- changed.raw.rawPayloadBytes=Buffer.byteLength(JSON.stringify(changed.raw.records));
- changed.selection.sourceHashes=[["1",contentHash(changed.raw.records[0])]];
- changed.selection.report.archiveSha256=changed.raw.archiveSha256=contentHash({day:'2026-11-06',records:changed.raw.records});
- changed.selection.report.dependencyManifest.archiveSha256=changed.selection.report.archiveSha256;
- changed.selection.report.dependencyManifestSha256=contentHash(changed.selection.report.dependencyManifest);
- const manifest=changed.selection.report.dependencyManifest;manifest.archiveSha256=changed.raw.archiveSha256;
- changed.selection.report.dependencyManifestSha256=contentHash(manifest);
- const day3=await verifyCompactIntegration(db,changed,{parentRunId:day2.runId,excludeReviewAsOfDate:'2026-11-08'});
- assert.equal(day3.excludeRetention.purgedCount,0);
- const renewed=(await db.query("SELECT raw_payload IS NOT NULL AS retained,exclude_review_started_on::text FROM ontap_shadow.supplier_adverts WHERE supplier_job_id='1'")).rows[0];
- assert.equal(renewed.retained,true);assert.equal(renewed.exclude_review_started_on,'2026-11-06');
+test('full-feed EXCLUDE input is rejected before any Neon write',async()=>{
+ const db=new PGlite();try{await db.exec(schema);
+ const input=excludedPacket('2026-11-02',['1']);
+ await assert.rejects(verifyCompactIntegration(db,input),/EXCLUDE payloads are disabled/);
+ assert.equal((await db.query('SELECT count(*)::int AS n FROM ontap_shadow.jobs')).rows[0].n,0);
+ assert.equal((await db.query('SELECT count(*)::int AS n FROM ontap_shadow.supplier_adverts')).rows[0].n,0);
+ assert.equal((await db.query('SELECT count(*)::int AS n FROM ontap_shadow.feed_runs')).rows[0].n,0);
  }finally{await db.close();}
 });
 test('read-only baseline separates fully excluded payloads from other advert payloads',async()=>{
