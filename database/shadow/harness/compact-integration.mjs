@@ -6,7 +6,7 @@ import {canonicalSelection,verifyDependencyManifest} from './selection-history.m
 import {attachCompactSelection,readCompactSelection} from './selection-importer.mjs';
 import {encodeCompactDisplay,attachCompactDisplay,readCompactDisplay} from './display-snapshot.mjs';
 import {readAppearances} from './appearance-manifest.mjs';
-import {applyExcludeReviewWindow,classifyFullyExcludedRefs} from './exclude-retention.mjs';
+import {classifyFullyExcludedRefs} from './exclude-retention.mjs';
 export function validateCompactIntegration({raw,selection,outputs}){
  assert.equal(raw.percentage,100,'Complete snapshot required');
  const context=selection.report.compactContext;
@@ -25,6 +25,8 @@ export function validateCompactIntegration({raw,selection,outputs}){
 }
 export async function verifyCompactIntegration(client,input,{parentRunId=null,onCheckpoint=async()=>{},excludeReviewAsOfDate}={}){
  const context=validateCompactIntegration(input),{raw,selection,outputs}=input;
+ const expectedSelection=canonicalSelection(selection,context);
+ assert.equal(classifyFullyExcludedRefs(expectedSelection).length,0,'EXCLUDE payloads are disabled in Neon; use the selected/review-only daily write path');
  const runId=stableId('run:jobg8:raw-stage:'+raw.archiveSha256+':100');
  const checkpoint=phase=>onCheckpoint({phase,runId,archiveSha256:raw.archiveSha256,feedDate:raw.observedOn});
  // These existing entry points commit independently. A failed later phase
@@ -32,7 +34,6 @@ export async function verifyCompactIntegration(client,input,{parentRunId=null,on
  const imported=await importStage(client,raw,{compactSelection:true});await checkpoint('raw-accepted');
  const attached=await attachCompactSelection(client,{runId,fixture:selection,context,parentRunId});await checkpoint('selection-verified');
   const selectionState=(await readCompactSelection(client,runId)).state;
-  const excludeRetention=await applyExcludeReviewWindow(client,{runId,fullyExcludedRefs:classifyFullyExcludedRefs(selectionState),purgeDuePayloads:false,...(excludeReviewAsOfDate?{asOfDate:excludeReviewAsOfDate}:{})});
  await attachCompactDisplay(client,runId,outputs);await checkpoint('display-verified');
   assert.deepEqual(selectionState,canonicalSelection(selection,context));
  assert.deepEqual(await readCompactDisplay(client,runId),outputs);
@@ -44,5 +45,5 @@ export async function verifyCompactIntegration(client,input,{parentRunId=null,on
  assert.deepEqual(await counts(client),after,'Complete replay changed counts');
  assert.equal(Number((await client.query("SELECT count(*)::int AS n FROM ontap_shadow.jobs WHERE publication_status<>'withheld'")).rows[0].n),0);
  const allocation=await measure(client);assert.ok(allocation.databaseBytes+64*1024*1024<DEFAULT_BUDGET,'Measured integration exceeds reserved ceiling');
-  return {status:'passed',runId,importReplayed:imported.replayed,selectionReplayed:attached.replayed,completeReplayVerified:true,counts:after,allocation,excludeRetention,expiryEnabled:false,productionChanged:false};
+  return {status:'passed',runId,importReplayed:imported.replayed,selectionReplayed:attached.replayed,completeReplayVerified:true,counts:after,allocation,excludeRetention:{disabled:true,purgedCount:0},expiryEnabled:false,productionChanged:false};
 }
