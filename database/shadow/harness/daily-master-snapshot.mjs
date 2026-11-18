@@ -81,7 +81,7 @@ export async function upsertSelectedMaster(c,{snapshot,scopes,source}){
    'raw_payload=CASE WHEN ontap_shadow.supplier_adverts.content_hash IS DISTINCT FROM EXCLUDED.content_hash OR ontap_shadow.supplier_adverts.raw_payload IS NULL THEN EXCLUDED.raw_payload ELSE ontap_shadow.supplier_adverts.raw_payload END,'+
    'content_hash=EXCLUDED.content_hash,first_seen=LEAST(ontap_shadow.supplier_adverts.first_seen,EXCLUDED.first_seen),last_seen=GREATEST(ontap_shadow.supplier_adverts.last_seen,EXCLUDED.last_seen),inactive_since=NULL,availability=\'seen\','+
    'content_purged_at=CASE WHEN ontap_shadow.supplier_adverts.content_hash IS DISTINCT FROM EXCLUDED.content_hash OR ontap_shadow.supplier_adverts.raw_payload IS NULL THEN NULL ELSE ontap_shadow.supplier_adverts.content_purged_at END,'+
-   'exclude_review_started_on=CASE WHEN ontap_shadow.supplier_adverts.content_hash IS DISTINCT FROM EXCLUDED.content_hash THEN NULL ELSE ontap_shadow.supplier_adverts.exclude_review_started_on END',
+   'exclude_review_started_on=CASE WHEN ontap_shadow.supplier_adverts.content_hash IS DISTINCT FROM EXCLUDED.content_hash THEN NULL ELSE ontap_shadow.supplier_adverts.exclude_review_started_on END WHERE ontap_shadow.supplier_adverts.content_hash IS DISTINCT FROM EXCLUDED.content_hash OR ontap_shadow.supplier_adverts.raw_payload IS NULL OR ontap_shadow.supplier_adverts.last_seen < EXCLUDED.last_seen OR ontap_shadow.supplier_adverts.title IS DISTINCT FROM EXCLUDED.title OR ontap_shadow.supplier_adverts.advertiser_name IS DISTINCT FROM EXCLUDED.advertiser_name OR ontap_shadow.supplier_adverts.location IS DISTINCT FROM EXCLUDED.location OR ontap_shadow.supplier_adverts.apply_url IS DISTINCT FROM EXCLUDED.apply_url OR ontap_shadow.supplier_adverts.inactive_since IS NOT NULL OR ontap_shadow.supplier_adverts.availability IS DISTINCT FROM 'seen' OR ontap_shadow.supplier_adverts.content_purged_at IS NOT NULL',
    [json,supplier,snapshot.feedDate]);
   await c.query(
    'INSERT INTO ontap_shadow.advert_appearances(advert_id,seen_on,supplier_id,feed_run_id,source_row_position,payload_sha256,changed_fields,change_note) '+
@@ -105,5 +105,5 @@ export async function upsertSelectedMaster(c,{snapshot,scopes,source}){
  const changedCount=rows.filter(r=>{const old=oldById.get(r.public_id);return old&&old.content_hash!==r.payload_sha256;}).length;
  const insertedMasterCount=rows.length-oldMasterCount;
  const noteCount=rows.filter(r=>r.changed_fields?.length).length;
- return {supplierId:supplier,feedRunId:runId,feedKey,insertedMasterRows:insertedMasterCount,updatedPayloadRows:changedCount,unchangedMasterRows:rows.length-insertedMasterCount-changedCount,appearanceRows:rows.length,changedAdvertCount:noteCount};
+ return {supplierId:supplier,feedRunId:runId,feedKey:runKey,insertedMasterRows:insertedMasterCount,updatedPayloadRows:changedCount,unchangedMasterRows:rows.length-insertedMasterCount-changedCount,appearanceRows:rows.length,changedAdvertCount:noteCount};
 }
