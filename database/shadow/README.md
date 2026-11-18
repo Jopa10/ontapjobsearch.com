@@ -84,8 +84,17 @@ not connect to a database, execute selections or write public inventories.
 
 Never retain a full EXCLUDE advert payload in Neon, even for a same-day or
 three-day review period. The current daily write stores full payloads only for
-SELECTED and REVIEW. Permanent advert IDs, hashes, selector outcomes/reasons,
-rule versions, feed references and linked history remain for audit and replay.
+SELECTED; REVIEW-only and EXCLUDE payloads are not written to Neon. Their
+selector evidence stays in the GitHub production/test artifacts.
+
+On 18 November, the owner approved a one-time clean reset before the Wednesday
+rollover test. It cleared prior job, feed, appearance, decision and publication
+rows from the isolated `ontap_shadow` schema after verifying that subscriber,
+consent, email, recommendation and activity-event tables were empty. Supplier
+lookup rows and the schema were preserved. This reset removed old permanent
+advert IDs and inactivity history from those application tables; the current
+Preview holds Wednesday's SELECTED payloads and supporting daily scope/receipt
+data only. The 90-day inactivity cleanup remains unproven and under review.
 
 The older three-day EXCLUDE window described in earlier checkpoints is
 superseded. Treat `exclude_review_started_on` as a legacy marker only; it is
