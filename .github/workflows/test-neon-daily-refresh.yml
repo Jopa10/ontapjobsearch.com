@@ -77,7 +77,7 @@ jobs:
           Path('daily-scopes.json').write_text(json.dumps(scopes,separators=(',',':'))+'\n')
           print('Verified automatic-day published JobG8 scope order:',len(scopes))
           PY
-      - name: Prepare current selected and review payloads without rerunning selector
+      - name: Prepare selected-only payloads without rerunning selector
         run: |
           python database/shadow/prepare_selected_review_payloads.py \
             --archive "$RUNNER_TEMP/daily-input/feed.zip" \
@@ -101,6 +101,7 @@ jobs:
           (harness/'daily-scopes.json').write_bytes(Path('daily-scopes.json').read_bytes())
           if os.environ.get('RUN_DAILY_FAILURE_TEST')=='true':
               (harness/'failure-recovery-request.json').write_text(json.dumps({'mode':'failure_recovery','runToken':'daily-'+os.environ['GITHUB_RUN_ID']}))
+          (harness/'daily-reset-request.json').write_bytes(Path('database/shadow/daily-refresh-reset-request.json').read_bytes())
           config=json.loads((harness/'vercel.json').read_text());config['buildCommand']='node verify-daily-refresh-neon.mjs'
           (harness/'vercel.json').write_text(json.dumps(config))
           PY
