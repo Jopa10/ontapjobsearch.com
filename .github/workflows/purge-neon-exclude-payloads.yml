@@ -1,0 +1,64 @@
+name: Neon exclude payload cleanup (Preview only)
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/exclude-payload-purge-request.json]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ontap-neon-exclude-payload-purge
+  cancel-in-progress: false
+jobs:
+  purge:
+    if: github.ref == 'refs/heads/feat/neon-shadow-database'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - name: Package Preview cleanup
+        run: |
+          cp database/shadow/exclude-payload-purge-request.json database/shadow/harness/exclude-payload-purge-request.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('database/shadow/harness/vercel.json')
+          x=json.loads(p.read_text())
+          x['buildCommand']='node purge-excluded-adverts.mjs'
+          p.write_text(json.dumps(x))
+          PY
+      - name: Remove only confirmed EXCLUDE payloads in Neon Preview
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+        run: |
+          set -euo pipefail
+          npm install --no-save --ignore-scripts --no-audit --no-fund --prefix "$RUNNER_TEMP/cli" vercel@65.14.0
+          cli="$RUNNER_TEMP/cli/node_modules/.bin/vercel"
+          cd database/shadow/harness
+          "$cli" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 > "$RUNNER_TEMP/exclude-payload-purge-deploy.log" 2>&1 || { cat "$RUNNER_TEMP/exclude-payload-purge-deploy.log"; exit 1; }
+          url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/exclude-payload-purge-deploy.log" | tail -1)"
+          "$cli" curl /exclude-payload-purge-report.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/exclude-payload-purge-report.json"
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          r=json.loads(Path(os.environ['RUNNER_TEMP']+'/exclude-payload-purge-report.json').read_text())
+          assert r['status'] in ('completed','stopped_at_storage_guard')
+          assert r['productionChanged'] is False and r['decisionAndIdentityRowsDeleted']==0
+          print('ONTAP_EXCLUDE_PAYLOAD_PURGE',json.dumps(r))
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: neon-exclude-payload-purge
+          path: |
+            ${{ runner.temp }}/exclude-payload-purge-report.json
+            ${{ runner.temp }}/exclude-payload-purge-deploy.log
+          retention-days: 30
