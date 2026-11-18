@@ -27,3 +27,7 @@ The read-only audit found raw payloads without enough matching evidence to safel
 Never store full EXCLUDE payloads in Neon, even temporarily. The old three-day EXCLUDE window is superseded. Keep permanent IDs, hashes, decisions/reasons, rule versions, feed and appearance history, and linked user history. Current daily payload writes contain SELECTED and REVIEW only.
 
 The general 90-day inactivity policy remains under owner review, not an active cleanup timer. See the current retention section in `database/shadow/README.md`.
+
+## Code policy follow-through
+
+The legacy compact full-feed importer now rejects any input containing fully excluded advert outcomes before it writes to Neon. The old three-day retention helper is retired and always refuses to run. The prior tests describing three-day retention were updated to assert rejection before writes; the test suite was not run in this pass. These changes are on `feat/neon-shadow-database`; PR #336 remains unmerged.
