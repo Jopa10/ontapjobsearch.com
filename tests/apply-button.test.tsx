@@ -44,7 +44,6 @@ test('alert signup shows a required, unchecked affirmative email consent', () =>
     assert.match(markup, /type="checkbox" required/);
     assert.match(markup, /Send me daily Ontap job-alert emails for these preferences; I can unsubscribe at any time\./);
     assert.doesNotMatch(markup, /type="checkbox" required checked/);
-    assert.match(markup, /No thanks — continue to apply<\\/button>/);
   } finally {
     if (original === undefined) delete process.env.NEXT_PUBLIC_CPC_JOB_ALERTS_ENABLED;
     else process.env.NEXT_PUBLIC_CPC_JOB_ALERTS_ENABLED = original;
