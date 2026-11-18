@@ -97,13 +97,13 @@ export async function upsertSelectedMaster(c,{snapshot,scopes,source}){
    [JSON.stringify(batch.map(r=>({id:stableId('daily-selected:'+runId+':'+r.advert_id),public_id:r.public_id,content_hash:r.content_hash,source_row_position:r.source_row_position,scopes:r.scopes}))),runId,snapshot.productionRunCommit,supplier]);
  }
  await c.query('UPDATE ontap_shadow.jobs j SET preferred_advert_id=a.id FROM ontap_shadow.supplier_adverts a WHERE a.job_id=j.id AND a.preferred_advert_id IS NULL AND a.supplier_id=$1',[supplier]);
- const rows=await readMasterAppearance(c,snapshot.feedDate);
- assert.equal(rows.length,snapshot.records.length,'Master daily appearance count mismatch');
- const byId=new Map(rows.map(r=>[r.public_id,r]));
+ const storedRows=await readMasterAppearance(c,snapshot.feedDate);
+ assert.equal(storedRows.length,snapshot.records.length,'Master daily appearance count mismatch');
+ const byId=new Map(storedRows.map(r=>[r.public_id,r]));
  for(const expected of snapshot.records){const actual=byId.get(expected.public_id);assert.ok(actual,'Missing master row '+expected.public_id);assert.equal(actual.payload_sha256,expected.payload_sha256,'Master payload hash differs '+expected.public_id);assert.deepEqual(actual.raw_payload,expected.raw_payload,'Master raw payload differs '+expected.public_id);assert.equal(actual.source_row_position,expected.source_row_position);}
  const oldMasterCount=oldRows.length;
- const changedCount=rows.filter(r=>{const old=oldById.get(r.public_id);return old&&old.content_hash!==r.payload_sha256;}).length;
- const insertedMasterCount=rows.length-oldMasterCount;
- const noteCount=rows.filter(r=>r.changed_fields?.length).length;
- return {supplierId:supplier,feedRunId:runId,feedKey:runKey,insertedMasterRows:insertedMasterCount,updatedPayloadRows:changedCount,unchangedMasterRows:rows.length-insertedMasterCount-changedCount,appearanceRows:rows.length,changedAdvertCount:noteCount};
+ const changedCount=storedRows.filter(r=>{const old=oldById.get(r.public_id);return old&&old.content_hash!==r.payload_sha256;}).length;
+ const insertedMasterCount=storedRows.length-oldMasterCount;
+ const noteCount=storedRows.filter(r=>r.changed_fields?.length).length;
+ return {supplierId:supplier,feedRunId:runId,feedKey:runKey,insertedMasterRows:insertedMasterCount,updatedPayloadRows:changedCount,unchangedMasterRows:storedRows.length-insertedMasterCount-changedCount,appearanceRows:storedRows.length,changedAdvertCount:noteCount};
 }
