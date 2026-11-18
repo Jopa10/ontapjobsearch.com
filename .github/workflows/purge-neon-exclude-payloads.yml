@@ -8,7 +8,7 @@ permissions:
   actions: read
 concurrency:
   group: ontap-neon-exclude-payload-purge
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   purge:
     if: github.ref == 'refs/heads/feat/neon-shadow-database'
