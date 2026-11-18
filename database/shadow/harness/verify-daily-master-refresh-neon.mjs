@@ -7,11 +7,11 @@ import {readMasterAppearance,upsertSelectedMaster} from './daily-master-snapshot
 import {runMasterCleanup} from './master-cleanup.mjs';
 
 requirePreview(process.env);
-const request=JSON.parse(await fs.readFile('../daily-refresh-request.json','utf8'));
+const request=JSON.parse(await fs.readFile('daily-refresh-request.json','utf8'));
 assert.equal(request.mode,'today','Refresh request must remain in today mode');
 assert.ok(Number.isInteger(request.attempt)&&request.attempt>0);
 assert.equal(Object.keys(request).some(k=>/date|run.?id|artifact.?id|commit/i.test(k)),false,'Do not pin date or production identifiers in request');
-const reset=JSON.parse(await fs.readFile('../daily-refresh-reset-request.json','utf8'));
+const reset=JSON.parse(await fs.readFile('daily-reset-request.json','utf8'));
 assert.notEqual(reset.enabled,true,'Neon reset is forbidden for this refresh');
 const source=JSON.parse(await fs.readFile('daily-source.json','utf8'));
 assert.equal(source.mode,'daily_latest');assert.equal(source.dateProvidedByRequest,false);
@@ -94,6 +94,9 @@ try{
   const absentIds=[...previousById.keys()].filter(id=>!seen.has(id)).sort();
   const changedIds=[...seen].filter(id=>previousById.has(id)&&previousById.get(id)!==currentById.get(id)).sort();
   const masterWrite=await upsertSelectedMaster(c,{snapshot,scopes,source});
+  const idempotentReplay=await upsertSelectedMaster(c,{snapshot,scopes,source});
+  assert.equal(idempotentReplay.insertedMasterRows,0,'Identical refresh inserted duplicate master rows');
+  assert.equal(idempotentReplay.updatedPayloadRows,0,'Identical refresh rewrote unchanged master payloads');
   await c.query('CREATE TABLE IF NOT EXISTS ontap_shadow.daily_publication_scopes(feed_date date NOT NULL,scope text NOT NULL,jobg8_ids jsonb NOT NULL,PRIMARY KEY(feed_date,scope))');
   for(const s of scopes)await c.query('INSERT INTO ontap_shadow.daily_publication_scopes AS t VALUES($1::date,$2,$3::jsonb) ON CONFLICT(feed_date,scope) DO UPDATE SET jobg8_ids=excluded.jobg8_ids WHERE t.jobg8_ids IS DISTINCT FROM excluded.jobg8_ids',[snapshot.feedDate,s.scope,JSON.stringify(s.jobg8Ids)]);
   const orders=(await c.query('SELECT scope,jobg8_ids FROM ontap_shadow.daily_publication_scopes WHERE feed_date=$1::date ORDER BY scope',[snapshot.feedDate])).rows;
@@ -148,7 +151,7 @@ try{
    masterCleanupDryRun:cleanup,masterRowsMissingAppearanceTracking:tracking,
    appearanceMetadataRetention:'No automatic expiry is configured; dated appearance rows are retained.',
    databaseBytesBefore:before,databaseBytesAfter:after,estimatedAdmissionBytes:estimate,maximumBytes:MAX,reserveBytes:RESERVE,
-   identicalReplayRowsToWrite:masterWrite.insertedMasterRows+masterWrite.updatedPayloadRows,duplicates:0,productionChanged:false,expiryChanged:false};
+   identicalReplayRowsToWrite:idempotentReplay.insertedMasterRows+idempotentReplay.updatedPayloadRows,duplicates:0,productionChanged:false,expiryChanged:false};
   await fs.mkdir('dist',{recursive:true});await fs.writeFile('dist/daily-refresh-report.json',JSON.stringify(report,null,2)+'\n');
   await fs.writeFile('dist/index.html','<!doctype html><meta name="robots" content="noindex,nofollow"><h1>Neon daily master refresh passed</h1>');
   console.log('ONTAP_DAILY_MASTER_REFRESH '+JSON.stringify(report));
