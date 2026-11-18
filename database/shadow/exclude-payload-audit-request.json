@@ -1,5 +1,5 @@
 {
   "mode": "audit",
-  "attempt": 4,
+  "attempt": 5,
   "purpose": "Read-only inventory of complete-evidence EXCLUDE advert payloads in isolated Neon Preview; preserve IDs and decisions; no data changes."
 }
