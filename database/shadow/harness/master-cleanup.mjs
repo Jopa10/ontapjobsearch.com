@@ -3,6 +3,7 @@
 import assert from 'node:assert/strict';
 import {gzipSync,gunzipSync} from 'node:zlib';
 import {requirePreview,hash} from './publisher-safeguards.mjs';
+import {readCurrentPublication} from './current-publication.mjs';
 export const canonical=v=>Array.isArray(v)?v.map(canonical):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,canonical(v[k])])):v;
 export const payloadHash=v=>hash(JSON.stringify(canonical(v)));
 export function dayOffset(day,n){const d=new Date(day+'T00:00:00Z');d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10);}
@@ -42,12 +43,12 @@ export async function cleanupMasterPayloads(c,{asOfDate=new Date().toISOString()
  requirePreview(process.env);validDay(asOfDate);assert.ok(['dry-run','apply'].includes(mode));
  await c.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:jobg8'))");
  await c.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:selected-review-full-payload'))");
- const activeIds=(await c.query("SELECT public_id FROM ontap_shadow.selected_review_payload_records WHERE feed_date=(SELECT max(feed_date) FROM ontap_shadow.daily_refresh_receipts) AND decision='SELECTED'")).rows.map(r=>r.public_id);
+ const currentPublication=await readCurrentPublication(c);const activeIds=currentPublication.records.map(r=>r.public_id);
  const params=[asOfDate,activeIds];
  let filter='';
  if(testRunId){assert.match(testRunId,/^[a-z0-9-]{1,100}$/);params.push(testRunId);filter=" AND a.match_evidence->>'cleanup_test_run'=$3";}
- const candidates=(await c.query("SELECT a.id AS advert_id,a.job_id,a.supplier_job_id,a.content_hash,a.raw_payload,a.inactive_since::text,a.availability,a.match_evidence,j.public_id,j.publication_status FROM ontap_shadow.supplier_adverts a JOIN ontap_shadow.jobs j ON j.id=a.job_id JOIN ontap_shadow.suppliers s ON s.id=a.supplier_id WHERE s.code='jobg8' AND a.raw_payload IS NOT NULL AND a.inactive_since IS NOT NULL AND a.inactive_since <= $1::date - 90 AND a.availability IN ('missing','expired') AND j.publication_status <> 'published' AND NOT (a.supplier_job_id=ANY($2::text[]) OR j.public_id=ANY($2::text[]))"+filter+" ORDER BY a.id FOR UPDATE OF a,j",params)).rows;
- const result={mode,asOfDate,retentionDays:90,candidateIds:candidates.map(r=>r.supplier_job_id),candidateCount:candidates.length,purgedCount:0,purgedIds:[],preservedIdentities:true,productionChanged:false};
+ const candidates=(await c.query("SELECT a.id AS advert_id,a.job_id,a.supplier_job_id,a.content_hash,a.raw_payload,a.inactive_since::text,a.availability,a.match_evidence,j.public_id,j.publication_status,(SELECT max(aa.seen_on) FROM ontap_shadow.advert_appearances aa WHERE aa.advert_id=a.id)::text AS last_selected_on FROM ontap_shadow.supplier_adverts a JOIN ontap_shadow.jobs j ON j.id=a.job_id JOIN ontap_shadow.suppliers s ON s.id=a.supplier_id WHERE s.code='jobg8' AND a.raw_payload IS NOT NULL AND (SELECT max(aa.seen_on) FROM ontap_shadow.advert_appearances aa WHERE aa.advert_id=a.id) IS NOT NULL AND (SELECT max(aa.seen_on) FROM ontap_shadow.advert_appearances aa WHERE aa.advert_id=a.id) <= $1::date - 30 AND j.publication_status <> 'published' AND NOT (a.supplier_job_id=ANY($2::text[]) OR j.public_id=ANY($2::text[]))"+filter+" ORDER BY a.id FOR UPDATE OF a,j",params)).rows;
+ const result={mode,asOfDate,retentionDays:30,appearanceMetadataRetention:'No expiry configured; appearance rows are retained.',candidateIds:candidates.map(r=>r.supplier_job_id),candidateCount:candidates.length,purgedCount:0,purgedIds:[],preservedIdentities:true,productionChanged:false};
  if(mode==='dry-run')return result;
  assert.ok(store,'Verified durable archive store is required before cleanup');
  // Verify every candidate archive first, so a bad/missing archive blocks the whole batch.
@@ -64,7 +65,7 @@ export async function cleanupMasterPayloads(c,{asOfDate=new Date().toISOString()
   const receipt=receipts[i];
   // Revalidate the externally stored bytes immediately before clearing hot payload.
   verifyMasterArchive(await store.get(receipt.key),receipt);
-  const updated=await c.query("UPDATE ontap_shadow.supplier_adverts SET raw_payload=NULL,content_purged_at=now(),availability='expired' WHERE id=$1 AND content_hash=$2 AND inactive_since=$3::date AND raw_payload IS NOT NULL RETURNING id",[row.advert_id,row.content_hash,row.inactive_since]);
+  const updated=await c.query("UPDATE ontap_shadow.supplier_adverts SET raw_payload=NULL,content_purged_at=now(),availability='expired' WHERE id=$1 AND content_hash=$2 AND raw_payload IS NOT NULL AND (SELECT max(aa.seen_on) FROM ontap_shadow.advert_appearances aa WHERE aa.advert_id=$1)=$3::date AND $4::date >= $3::date + 30 RETURNING id",[row.advert_id,row.content_hash,row.last_selected_on,asOfDate]);
   assert.equal(updated.rowCount,1,'Advert changed during cleanup');
   const links=(await c.query('SELECT job_id FROM ontap_shadow.supplier_adverts WHERE id=$1',[row.advert_id])).rows[0];
   assert.equal(links.job_id,row.job_id);
