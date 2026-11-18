@@ -1,12 +1,12 @@
 # Ontap daily job review
 
-> **NOT READY TO REVIEW — waiting for: NEJobs, NHS Jobs**
+> **NOT READY TO REVIEW — waiting for: NEJobs**
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-11-18
-generated_at: 2026-11-18T16:39:12+00:00
+generated_at: 2026-11-18T18:33:43+00:00
 
-**293 job(s) await a human decision; 0 already answered (293 review rows).**
+**309 job(s) await a human decision; 0 already answered (309 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,15 +21,15 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-11-18 | 206 | — |
+| JobG8 | OK | 2026-11-18 | 222 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-11-18 | 6 | — |
 | Teaching Vacancies | OK | 2026-11-18 | 81 | — |
-| NHS Jobs | STALE | 2026-11-17 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
+| NHS Jobs | OK | 2026-11-18 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 206 to review
+## JobG8 — 222 to review
 
 ---
 action:
@@ -51,6 +51,24 @@ hub_fingerprint: 3fe66d24a88a99e2082cb9c92699795442bbedc58d9b5c1857fc26e8ca5eb60
 
 ---
 action:
+POSS | JobG8 | Berkshire | Berkshire | £17.11 per hour | Care Assistant - Bank - Care Home
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225789125
+title: Care Assistant - Bank - Care Home
+employer: 
+location: Berkshire
+region: Berkshire
+salary: £17.11 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 788198a96a946e0ebc7a47535a1d306fdcbbfa3bdabee171a9d51e3d9a7b0b3b
+---
+
+---
+action:
 POSS | JobG8 | Berkshire | Berkshire | £14 - £14.5 per hour (dependent on experience) | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -65,6 +83,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 3a70d654be6ef9d1f945cda6ee481118b92c1b4a5afe1d000c72ce645dbe65c0
+---
+
+---
+action:
+POSS | JobG8 | Berkshire | Berkshire | £22.67 per hour | MRI Academy Revenues & Benefits Application Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2300907
+title: MRI Academy Revenues & Benefits Application Administrator
+employer: 
+location: Berkshire
+region: Berkshire
+salary: £22.67 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - education sector with office/admin function: administrator; manual review required: Office/finance role salary over £40k
+source_url: 
+hub_fingerprint: 41cb82235fb48fc1711e068f3f1f8bae0c0a43798c55621fc2a4693fb5976583
 ---
 
 ---
@@ -307,7 +343,7 @@ POSS | JobG8 | Cornwall | St. Austell | £55,000 per year (FTE) | Finance Manage
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2297516
+source_job_id: 2343912
 title: Finance Manager (part time)
 employer: 
 location: St. Austell
@@ -316,7 +352,133 @@ salary: £55,000 per year (FTE)
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
 source_url: 
-hub_fingerprint: 752a831305401f8cc6fa43da2a4d9356b67f023d33563771e588161ce9f61485
+hub_fingerprint: 4b94be146976005c5b6039c33302ede56b9f1eefe66e7ec2576fedbe6affc985
+---
+
+---
+action:
+POSS | JobG8 | Cumbria - South | Appleby-in-westmorland | £50 per hour | Care Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2311009
+title: Care Assistant
+employer: 
+location: Appleby-in-westmorland
+region: Cumbria - South
+salary: £50 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 4e874744608ccde5ce6f0de6925c3cf4ad27031dae0075928d2eb6df611a31bd
+---
+
+---
+action:
+POSS | JobG8 | Cumbria - South | Grange-over-sands | £50 per hour | Care Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2311012
+title: Care Assistant
+employer: 
+location: Grange-over-sands
+region: Cumbria - South
+salary: £50 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: cccd5be63efc3a56b3df81bcc8dbd96266df1869a427d7a70b0bd4e385c62f34
+---
+
+---
+action:
+POSS | JobG8 | Cumbria - South | Kendal | £50 per hour | Care Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2311015
+title: Care Assistant
+employer: 
+location: Kendal
+region: Cumbria - South
+salary: £50 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: b1295303aff4aa36ca064c3d4afe9a6b9024a4afde536948935983eb50ee0be7
+---
+
+---
+action:
+POSS | JobG8 | Cumbria - South | Kirkby Stephen | £50 per hour | Care Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2311016
+title: Care Assistant
+employer: 
+location: Kirkby Stephen
+region: Cumbria - South
+salary: £50 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 34a6395675a5a63fb0a71b987472f29d8d161539aeb4b2c8f49b5e83063a8b46
+---
+
+---
+action:
+POSS | JobG8 | Cumbria - South | Ulverston | £50 per hour | Care Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2311011
+title: Care Assistant
+employer: 
+location: Ulverston
+region: Cumbria - South
+salary: £50 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 0d77119d4747d52a56c89803d939f658aec072b3a812a999f98fbe6f99e13bbe
+---
+
+---
+action:
+POSS | JobG8 | Cumbria - South | Windermere | £50 per hour | Care Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2311008
+title: Care Assistant
+employer: 
+location: Windermere
+region: Cumbria - South
+salary: £50 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 821fa5f42e70f8dab96446898979b3abc0add8e60b2fc8c43779267510fee283
+---
+
+---
+action:
+POSS | JobG8 | Dorset | Bournemouth | £20 - £24 per hour | Healthcare Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2301551
+title: Healthcare Assistant
+employer: 
+location: Bournemouth
+region: Dorset
+salary: £20 - £24 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 5c8ae3c29d40ab0586f3cdcf6e53c86bf466d65bac54554e2f03dfaad5406fde
 ---
 
 ---
@@ -483,6 +645,24 @@ hub_fingerprint: 872e905e232e44937c1772e71d5e369806a1895d6a9b0b5e1fe8e827ddeab7c
 
 ---
 action:
+POSS | JobG8 | Dorset | Swanage | £34,220.00 per annum | Care Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2337200
+title: Care Assistant
+employer: 
+location: Swanage
+region: Dorset
+salary: £34,220.00 per annum
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 35453d585c467625512c76fc998595ac4c98926ed6a8c795f41fc6469f09d5eb
+---
+
+---
+action:
 POSS | JobG8 | Essex | Basildon | £95 - £105 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -595,7 +775,7 @@ POSS | JobG8 | Essex | Essex | — | Accounts Assistant Manager
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2296336
+source_job_id: 2342167
 title: Accounts Assistant Manager
 employer: 
 location: Essex
@@ -604,7 +784,7 @@ salary:
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
 source_url: 
-hub_fingerprint: 33154e99c9f8ef198778e9ca5ee8870f9c61cb4cd8f589ac7eace19b19df604d
+hub_fingerprint: bbb1b3ae5c730113fdfdbf420e98f4aef7c8683273c43f1a003191dd0bcfefec
 ---
 
 ---
@@ -839,6 +1019,42 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: salary over £40k under normal selection rules
 source_url: 
 hub_fingerprint: 79551eda02e272c9bd3393e630720a677531de9a064d11d344ead1ddad456516
+---
+
+---
+action:
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £45000 per year | Specialist Complaints Handler (Financial Services)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2208977
+title: Specialist Complaints Handler (Financial Services)
+employer: 
+location: Manchester
+region: Greater Manchester - Manchester & Salford
+salary: £45000 per year
+closing_date: 
+reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: complaints handler; manual review required: annualised upper salary £45,000 exceeds regional review point £42,000
+source_url: 
+hub_fingerprint: 9b91d2201a0bc9b616e57461d98dcc5258830e9d6619ae22b8e9bcde480c8528
+---
+
+---
+action:
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £26.00 per hour | Support Worker - Scottish Islands
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2310578
+title: Support Worker - Scottish Islands
+employer: 
+location: Manchester
+region: Greater Manchester - Manchester & Salford
+salary: £26.00 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 3509e02bb0fc2405905d2201faf1ebe29ab45a5a7d79a45a2374e96452c58d48
 ---
 
 ---
@@ -1671,6 +1887,24 @@ hub_fingerprint: bf7334185de0548e8d0aa0f3f65ab6c29ea59750488201d952bfe9c35fcc3c0
 
 ---
 action:
+POSS | JobG8 | London | London | £45000 per year | Commercial Property Secretary
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225847323
+title: Commercial Property Secretary
+employer: 
+location: London
+region: London
+salary: £45000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: secretary; manual review required: annualised upper salary £45,000 exceeds regional review point £42,000
+source_url: 
+hub_fingerprint: f722c09070021256d79d69ce99ac44606fd439ea7f454e5445314338aa444989
+---
+
+---
+action:
 POSS | JobG8 | London | London | £30 - £40 per hour | Communication Support Worker
 source_key: jobg8
 source: JobG8
@@ -1779,6 +2013,24 @@ hub_fingerprint: 074c2f17af380ec6d838f90974f25c63fe1908b3a28f189837f646334f61f4c
 
 ---
 action:
+POSS | JobG8 | London | London | — | Financial Assessment Team Leader (Adult Social Care)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2169763
+title: Financial Assessment Team Leader (Adult Social Care)
+employer: 
+location: London
+region: London
+salary: 
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
+source_url: 
+hub_fingerprint: 47ce937ae5e57bcc2de288bafcf39c7a8442407fb28a1c4c693e7dedf8c7225d
+---
+
+---
+action:
 POSS | JobG8 | London | London | — | Financial Controller Family/Founders Office
 source_key: jobg8
 source: JobG8
@@ -1815,6 +2067,24 @@ hub_fingerprint: 441bbcd59499ccdec25e3e195c84967489349f3416b7577df3ac8cb00766038
 
 ---
 action:
+POSS | JobG8 | London | London | £42500 per year | HR Systems and Operations Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225848751
+title: HR Systems and Operations Administrator
+employer: 
+location: London
+region: London
+salary: £42500 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
+source_url: 
+hub_fingerprint: 304d508c84bff1c638eebeca274a6a8577310a044e7ff5cb6beb6468e53a7515
+---
+
+---
+action:
 POSS | JobG8 | London | London | £50000 per year | HRIS Coordinator (Workday)
 source_key: jobg8
 source: JobG8
@@ -1847,24 +2117,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
 source_url: 
 hub_fingerprint: 8fa340f683a27c59d475a8777842af91c5f1dccea9a85a301077815450d4f7a6
----
-
----
-action:
-POSS | JobG8 | London | London | £21 - £23 per hour | Interim Accounts Payable Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2163803
-title: Interim Accounts Payable Assistant
-employer: 
-location: London
-region: London
-salary: £21 - £23 per hour
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: salary over £40k under normal selection rules
-source_url: 
-hub_fingerprint: 37d3ea0f4034d39352adff2b0381cce54b619c180f341af58684e882bd6dba0f
 ---
 
 ---
@@ -2089,7 +2341,7 @@ POSS | JobG8 | London | London | — | Senior Development Underwriter - Financia
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2298210
+source_job_id: 2344736
 title: Senior Development Underwriter - Financial Institutions
 employer: 
 location: London
@@ -2098,7 +2350,7 @@ salary:
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time earnings are unclear
 source_url: 
-hub_fingerprint: 64c29f9ce3140317c670fb5ed563bbefb6f9d76b522aed060df2af0f5502b24d
+hub_fingerprint: 8be9c388ab263869e2f0c42dffd08502b1719c735f9322f6d2c3b8db4adca0ae
 ---
 
 ---
@@ -2409,6 +2661,24 @@ hub_fingerprint: f2e0ebedb6cd9593ce0aa1a93a0a592366497db1d061da5d3c3c210009f321d
 
 ---
 action:
+POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £23 per hour | Care Home Support Worker - &;23p/h
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2179581
+title: Care Home Support Worker - &;23p/h
+employer: 
+location: Newcastle Upon Tyne
+region: North East - Tyneside, Wearside & Northumberland
+salary: £23 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 4507b0088184858be852ab83a3f06a8b623b4d9cdc0d0c795fc52601c8cf3e08
+---
+
+---
+action:
 POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £16 - £20 per hour (Mileage Paid if business insured) | Children and Families Support Worker Newcastle/Gateshead
 source_key: jobg8
 source: JobG8
@@ -2427,24 +2697,6 @@ hub_fingerprint: f6a6d5d9416c3594f9075c312e8ad07c7473f45428f712d6aa5ee5d39859a93
 
 ---
 action:
-POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £13.6 - £17.43 per hour | Housing Support Worker
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225744992
-title: Housing Support Worker
-employer: 
-location: Newcastle Upon Tyne
-region: North East - Tyneside, Wearside & Northumberland
-salary: £13.6 - £17.43 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 8995d2270b0a8dc98a652c12190c5db54db4cded91f8e6bb07504678f8c89144
----
-
----
-action:
 POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £18 - £20 per hour | Recovery Worker
 source_key: jobg8
 source: JobG8
@@ -2459,6 +2711,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 54b4c2b2eeec3890751462bb4fc0828fafea2d192d53c3ba2ec05bba33748bae
+---
+
+---
+action:
+POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £30170 per year | Support Worker - British Sign Language / BSL
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2319144
+title: Support Worker - British Sign Language / BSL
+employer: 
+location: Newcastle Upon Tyne
+region: North East - Tyneside, Wearside & Northumberland
+salary: £30170 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 98ea3cda95cc942104c8e4f75b358cdfe60aea461d2d6ffa87689f27c05abdce
 ---
 
 ---
@@ -2787,24 +3057,6 @@ hub_fingerprint: be7c61672af9c1b5b357df4ce55b78fd778ed432c0474849bd4922529901eb9
 
 ---
 action:
-POSS | JobG8 | Scotland Central - Edinburgh & Lothians | Edinburgh | £36000 - £39000 per year | Finance Analyst (12-month Fixed Term Contract)
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2312031
-title: Finance Analyst (12-month Fixed Term Contract)
-employer: 
-location: Edinburgh
-region: Scotland Central - Edinburgh & Lothians
-salary: £36000 - £39000 per year
-closing_date: 
-reason: possible manual_select candidate for review/swap
-source_url: 
-hub_fingerprint: b37f0a79bc6c75c18245e396bb71b9763180d72c6d59deed7fbde0f1897ac6c7
----
-
----
-action:
 POSS | JobG8 | Scotland Central - Fife | Fife | £13.5 - £14.5 per hour | HR Administrator
 source_key: jobg8
 source: JobG8
@@ -3093,6 +3345,24 @@ hub_fingerprint: 526cf9d583080af82cf77e9d59c856e1ec3df71161dd7c933107e79a11f2c8c
 
 ---
 action:
+POSS | JobG8 | Sussex | Brighton | £19966 - £20606 per year | Learning Support Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225798181
+title: Learning Support Assistant
+employer: 
+location: Brighton
+region: Sussex
+salary: £19966 - £20606 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 94c39e11151316d56d810f4e9e7c481db257a68c05eebdebfe2f7b95cf0f7db4
+---
+
+---
+action:
 POSS | JobG8 | Sussex | Eastbourne | £21 - £23 per hour | Recovery Worker
 source_key: jobg8
 source: JobG8
@@ -3111,20 +3381,38 @@ hub_fingerprint: b168b8b70677a178026017019de141beece104c6a200c2329ff94a3b9ab7e52
 
 ---
 action:
-POSS | JobG8 | Sussex | Sussex | £19966 - £20606 per year | Learning Support Assistant
+POSS | JobG8 | Sussex | Sussex | £40000 per year | Intelligent Office / Dynamic Planner Technology training officer
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2209478
+title: Intelligent Office / Dynamic Planner Technology training officer
+employer: 
+location: Sussex
+region: Sussex
+salary: £40000 per year
+closing_date: 
+reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: planner; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: da6a02a74e543411898e3f14909de08ee27216fa3e150dabca9388297261212f
+---
+
+---
+action:
+POSS | JobG8 | Sussex | Sussex | £85 - £100 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
 category: support_worker
-source_job_id: 23643_225798181
+source_job_id: 23643_225804070
 title: Learning Support Assistant
 employer: 
 location: Sussex
 region: Sussex
-salary: £19966 - £20606 per year
+salary: £85 - £100 per daily
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: fd42a81729ab3411223591178007dc428b6cab4d6180e23ec48a034141be05a3
+hub_fingerprint: 0ba3205d44cb6403aa01cac513991dd02fc1e72fcb967e0d21f6cd5d2fc1b3b5
 ---
 
 ---
@@ -3215,6 +3503,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - title register: high-confidence title pattern: administrative assistant; manual review required: annualised upper salary £37,362 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: a34655e66314289424097c11effae49d79cd912d7e044d23f4b19d1ec1c5d60b
+---
+
+---
+action:
+POSS | JobG8 | Wales South - Gwent | Usk | £21.00 - £24.20 per hour | Senior Finance Business Partner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2312674
+title: Senior Finance Business Partner
+employer: 
+location: Usk
+region: Wales South - Gwent
+salary: £21.00 - £24.20 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: actual part-time annual earnings over £40k
+source_url: 
+hub_fingerprint: 1f1bbc4576816b9917d138f4726e27a297af43213fffad0689849ed0c1fa5491
 ---
 
 ---
@@ -3323,24 +3629,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - Owner-reviewed adverts confirm corporate executive office support; manual review required: annualised upper salary £50,000 exceeds regional review point £42,000
 source_url: 
 hub_fingerprint: e2db3649d33586b7c079548223c46e2a518d156192e5d4c43afffd710e8a7c37
----
-
----
-action:
-POSS | JobG8 | West Midlands - Black Country | Wednesbury | £40,000 per year | Light Rail Fleet Planner
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225745718
-title: Light Rail Fleet Planner
-employer: 
-location: Wednesbury
-region: West Midlands - Black Country
-salary: £40,000 per year
-closing_date: 
-reason: manual review required: title classification: ELASTIC_FIT - elastic-fit title pattern: planner; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
-source_url: 
-hub_fingerprint: da552ebc655296d855ab6cbc9dfb215627cfaf67ed3e548c2926e2091822bad7
 ---
 
 ---
@@ -5308,3 +5596,7 @@ reason: Borderline school administration title: operations officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-fir-vale-academy
 hub_fingerprint: 38515c305bbd0c75d15408eca52b5e499561a92818be83b79c8bc95f07bea52b
 ---
+
+## NHS Jobs — 0 to review
+
+_No new or changed human decisions required._
