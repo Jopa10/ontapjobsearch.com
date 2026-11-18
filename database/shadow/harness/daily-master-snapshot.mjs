@@ -62,7 +62,7 @@ export async function upsertSelectedMaster(c,{snapshot,scopes,source}){
    role_family:split>=0?first.slice(0,split):null,salary_min:number(raw['/Job/SalaryMinimum']),salary_max:number(raw['/Job/SalaryMaximum']),
    salary_period:text(raw['/Job/SalaryPeriod']),salary_text:text(raw['/Job/SalaryAdditional']),advertiser:text(raw['/Job/AdvertiserName']),
    apply_url:text(raw['/Job/ApplicationURL']),raw_payload:raw,content_hash:r.payload_sha256,source_row_position:r.source_row_position,
-   changed_fields:changed,change_note:changeNote(changed),scopes:scopesFor,first_seen:snapshot.feedDate});
+   changed_fields:changed,change_note:changeNote(changed),scopes:scopesFor,first_seen:snapshot.feedDate};
  });
  for(let i=0;i<rows.length;i+=250){
   const batch=rows.slice(i,i+250);
