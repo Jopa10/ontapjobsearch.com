@@ -1,5 +1,5 @@
 """Resolve today's completed production publication and its exact saved inputs."""
-import base64,hashlib,io,json,os,re,sys,urllib.request,urllib.parse,zipfile
+import base64,hashlib,io,json,os,re,sys,urllib.request,urllib.parse,urllib.error,zipfile,xml.etree.ElementTree as ET
 from datetime import datetime
 import datetime as datetime_lib
 from pathlib import Path
@@ -15,7 +15,16 @@ def raw(path):
  url=path if path.startswith('https://') else API+path
  headers={'User-Agent':'ontap-neon-preview-daily'}
  if url.startswith(API):headers['Authorization']='Bearer '+os.environ['GH_TOKEN']
- with opener.open(urllib.request.Request(url,headers=headers),timeout=120) as r:return r.read()
+ try:
+  with opener.open(urllib.request.Request(url,headers=headers),timeout=120) as r:return r.read()
+ except urllib.error.HTTPError as e:
+  body=e.read()
+  try:
+   root=ET.fromstring(body)
+   fields={node.tag.rsplit('}',1)[-1]:(node.text or '') for node in root.iter()}
+   code=fields.get('Code','unknown');message=fields.get('Message','no service error text')
+  except Exception:code='unavailable';message='non-XML error response'
+  raise RuntimeError('Saved source request failed: HTTP '+str(e.code)+'; '+code+': '+message) from None
 def api(path):return json.loads(raw(path))
 def content(path,ref):
  d=api('/contents/'+path+'?ref='+urllib.parse.quote(ref,safe=''))
