@@ -17,7 +17,7 @@ function minimumPayFromAdvert(value: string): string {
   const lower = Number(match[1].replace(/,/g, ""));
   if (!Number.isFinite(lower) || lower <= 0) return "";
   const thousands = match[2] || (match[4] && lower < 1000 ? "k" : "");
-  const unit = text.match(/\bper\s+(?:hour|day|week|month|year)\b|\b(?:ph|pa)\b|p\.a\./i)?.[0];
+  const unit = text.match(/\bper\s+(?:hour|day|week|month|year)\b|\b(?:ph|pa)\b|(?<=\d)ph\b|(?<=\d)pa\b|p\.a\./i)?.[0];
   const period = unit || (lower * (thousands ? 1000 : 1) >= 1000 ? "per year" : "");
   if (!period) return "";
   return `£${match[1]}${thousands} ${period}`;
