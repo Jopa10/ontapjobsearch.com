@@ -78,21 +78,48 @@ published-but-absent IDs rather than inventing an expiry decision. It checks
 identity, content hashes, daily appearance keys and raw/published counts. It does
 not connect to a database, execute selections or write public inventories.
 
-## Retention agreed with owner
+## Retention policy — current (18 November 2026)
 
-The owner-approved general policy is to keep full adverts for **90 days after
-inactivity**, resetting the inactivity clock on return. A narrower exception
-applies to adverts whose verified selector outcome is EXCLUDE in every
-production family: retain their full payload for three calendar days from the
-first fully excluded run, then clear only `raw_payload`. Keep supplier identity,
-content hash, compact selection history and all linked job/run records. Repeated
-identical excluded snapshots do not restart the window; changed content starts
-a new review window, while an advert no longer excluded clears the exclusion
-marker. Payload deletion is transactional and must follow successful selector
-readback. This is an explicit shadow retention operation, not scheduled cleanup
-or an expiry decision. `002_exclude_review_window.sql` adds the marker to an
-already-created test schema without deleting data. Subscriber and click
-retention needs a separate purpose-based decision.
+### Excluded adverts
+
+Never retain a full EXCLUDE advert payload in Neon, even for a same-day or
+three-day review period. The current daily write stores full payloads only for
+SELECTED and REVIEW. Permanent advert IDs, hashes, selector outcomes/reasons,
+rule versions, feed references and linked history remain for audit and replay.
+
+The older three-day EXCLUDE window described in earlier checkpoints is
+superseded. Treat `exclude_review_started_on` as a legacy marker only; it is
+not an active retention timer. The old compact full-feed helper must not be used
+for current ingestion unless it is changed to avoid writing EXCLUDE payloads.
+
+### 18 November Preview cleanup
+
+- The before-audit found **41,257** raw advert payloads supported by either a
+  date-matched eight-family all-EXCLUDE result or a legacy fully-excluded marker,
+  with matching payload hashes and no published, saved SELECTED/REVIEW, or later
+  positive-selection protection.
+- Those raw payload fields were cleared. Advert/job IDs, hashes, decisions,
+  reasons, rule versions, feed runs, appearances and linked history were kept.
+- A fresh read-only audit found **0 confirmed EXCLUDE payloads remaining**.
+  The current selected/review table also contains **0 EXCLUDE rows**.
+- **90** legacy-marker payloads remain because they overlap protected saved
+  SELECTED/REVIEW history or published state (88 have saved SELECTED/REVIEW
+  history; 69 are published, with overlap). They are not treated as
+  exclude-only adverts.
+- Records without matching current evidence remain untouched: **3,666** had
+  selector decisions for a different payload date; **9,720** had no selector
+  evidence; **389** had at least one non-EXCLUDE family decision.
+
+The database measured **681,713,664 bytes** after cleanup, below the 800 MiB
+ceiling and with the 64 MiB reserve intact. Clearing JSON payloads did not
+immediately reduce Neon’s reported database size; no manual vacuum or physical
+shrink operation was run.
+
+### Other retention decisions
+
+The general **90-day inactivity** full-detail retention/archive policy is under
+owner review and is not an active cleanup timer. Subscriber and click retention
+remain purpose-specific. The earlier three-day EXCLUDE policy is not current.
 
 ## Provisioning and cost controls: pending
 
