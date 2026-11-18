@@ -1,6 +1,7 @@
 """Resolve today's completed production publication and its exact saved inputs."""
 import base64,hashlib,io,json,os,re,sys,urllib.request,urllib.parse,zipfile
 from datetime import datetime
+import datetime as datetime_lib
 from pathlib import Path
 from zoneinfo import ZoneInfo
 API='https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY']
@@ -39,7 +40,11 @@ def resolve():
  day=max(state['completed_cycles'])
  today=datetime.now(ZoneInfo('Europe/London')).date().isoformat()
  assert day==today,('Latest completed publication is not today; no stale update',day,today)
- cycle=max(state['completed_cycles'][day].values(),key=lambda x:x['completed_at'])
+ cycles=state['completed_cycles'][day]
+ assert len(cycles)==1,('Multiple JobG8 publications for today; AM source is ambiguous',list(cycles))
+ cycle=next(iter(cycles.values()))
+ completed=datetime_lib.datetime.fromisoformat(cycle['completed_at'].replace('Z','+00:00')).astimezone(ZoneInfo('Europe/London'))
+ assert completed.hour < 12,('Selected JobG8 source is not an AM publication',cycle['run_id'],completed.isoformat())
  feed=api('/actions/runs/'+str(cycle['run_id']))
  assert feed['head_branch']=='main' and feed['status']=='completed' and feed['conclusion']=='success'
  assert feed['path']=='.github/workflows/run-full-jobg8-daily-process.yml'
