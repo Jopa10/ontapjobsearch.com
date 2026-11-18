@@ -64,6 +64,8 @@ const cte=`WITH decision_rows AS MATERIALIZED (
 )`;
 try{
  await c.connect();
+ const initialBytes=Number((await c.query('SELECT pg_database_size(current_database())::text AS bytes')).rows[0].bytes);
+ assert.ok(initialBytes+RESERVE<=MAX_DB,'Database is already above the 800 MiB ceiling with 64 MiB reserve');
  let clearedRows=0,clearedPayloadBytes=0,hashMismatches=0,skippedIds=[];
  let stoppedByStorageGuard=false,guardDatabaseBytes=0;
  while(true){
@@ -116,6 +118,7 @@ try{
   }catch(e){try{await c.query('ROLLBACK');}catch{};throw e;}
  }
  const finalBytes=Number((await c.query('SELECT pg_database_size(current_database())::text AS bytes')).rows[0].bytes);
+ assert.ok(finalBytes+RESERVE<=MAX_DB,'Final database size would breach the 64 MiB reserve');
  const remaining=(await c.query(cte+`
   SELECT count(*)::int AS rows
   FROM classified
@@ -124,7 +127,7 @@ try{
  `)).rows[0].rows;
  const report={status:stoppedByStorageGuard?'stopped_at_storage_guard':'completed',mode:'preview_payload_cleanup',
   clearedRows,estimatedPayloadBytesCleared:clearedPayloadBytes,hashMismatches,hashMismatchIds:skippedIds.slice(0,25),
-  remainingConfirmedCandidates:Number(remaining),databaseBytesBeforeCleanup:null,databaseBytesAfterCleanup:finalBytes,
+  remainingConfirmedCandidates:Number(remaining),databaseBytesBeforeCleanup:initialBytes,databaseBytesAfterCleanup:finalBytes,
   storageCeilingBytes:MAX_DB,reserveBytes:RESERVE,stoppedAtDatabaseBytes:guardDatabaseBytes||null,
   productionChanged:false,decisionAndIdentityRowsDeleted:0};
  await fs.mkdir('dist',{recursive:true});
