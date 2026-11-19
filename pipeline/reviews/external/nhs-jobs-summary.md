@@ -2,15 +2,63 @@
 
 review_date: 2026-11-19
 
-- Open Administrative & Clerical rows reviewed: 2077
+- Open Administrative & Clerical rows reviewed: 2081
 - Auto/remembered selected: 356
 - Selected HC Tier A: 188
 - Selected HC Tier B: 168
-- POSS awaiting decision: 1627
+- POSS awaiting decision: 1631
 - Excluded: 0
 - HARD_PASS: 94
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L7 8XP | Negotiable | Meet and Greet Volunteer - Royal Site
+source_job_id: 5737803
+title: Meet and Greet Volunteer - Royal Site
+employer: Liverpool University Hospitals NHS Foundation Trust
+region: Merseyside - Liverpool
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-00017
+factual_fingerprint: 5294d7a01bf85afdabf8d77d0e3f1526350ba76ab0d95dd4bc8d3f3fbb44edb1
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, NW3 2QG | £66274.00 to £73496.00 | Band 8A Senior Information Governance Manager
+source_job_id: 5721177
+title: Band 8A Senior Information Governance Manager
+employer: Royal Free London NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-2013
+factual_fingerprint: dbbf30709bf2df12024ff17b4a7d2124a57178b186e032b72a550122545e0ed2
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, NW3 2QG | £38488.00 to £46852.00 | Band 5 CRF Data Manager
+source_job_id: 5737821
+title: Band 5 CRF Data Manager
+employer: Royal Free London NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-00006
+factual_fingerprint: f7f09d76fb24977b6cbf530c344939aa89ce474e4f045df9963e10bdc971efc5
+---
+
+---
+action:
+POSS | NHS Jobs | Lincolnshire | Lincoln, LN2 4AZ | £25760.00 to £27476.00 | Occupational Health Administrator - Band 3
+source_job_id: 5737815
+title: Occupational Health Administrator - Band 3
+employer: United Lincolnshire Hospitals NHS Trust
+region: Lincolnshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-00006
+factual_fingerprint: 6473053c690c5f555ea9e2844a4e60640349ed19adb985545a2c81623d69cf30
+---
 
 ---
 action:
@@ -5277,7 +5325,7 @@ employer: The Hillingdon Hospital NHS Foundation Trust
 region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9394-26-0536
-factual_fingerprint: af5bb96063c8384a69e4304f0ab3e60c9696b25e3d972c858339bf6143297336
+factual_fingerprint: ba382a977f7560660774ca2a2cfda088c9c2ee70f556575d07aad32332f2c7d7
 ---
 
 ---
