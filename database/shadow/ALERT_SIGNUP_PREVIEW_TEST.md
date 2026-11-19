@@ -7,8 +7,8 @@ Status: code prepared on `feat/cpc-alert-neon-signup`; not merged or live. Do no
 1. Confirm PR #336's Preview schema migrations `001_initial.sql` through `004_master_cleanup_versions.sql` are already applied to the isolated Neon test database.
 2. Run `database/shadow/005_user_identity_for_alerts.sql` once in that same Neon database. It adds stable user IDs, separate email-address IDs, direct user links on preferences and delivery history, and address-linked consent records. It preserves any existing subscriber IDs.
 3. Run `database/shadow/006_signup_device.sql` once in the same Neon database. It adds a coarse signup-device category (`mobile`, `laptop`/desktop browser, or `unknown`).
-4. Confirm the Vercel Preview branch is `feat/cpc-alert-neon-signup` and has the Preview-only `ONTAP_SHADOW_DATABASE_URL`, Brevo, sender and unsubscribe settings. Do not use `DATABASE_URL` or production variables.
-4. Verify `jnabon1108@gmail.com` is still unsubscribed in Brevo before the owner chooses to submit the new form. The earlier unsubscribe test is already complete; do not repeat it.
+5. Confirm the Vercel Preview branch is `feat/cpc-alert-neon-signup` and has the Preview-only `ONTAP_SHADOW_DATABASE_URL`, Brevo, sender and unsubscribe settings. Do not use `DATABASE_URL` or production variables.
+6. Verify `jnabon1108@gmail.com` is still unsubscribed in Brevo before the owner chooses to submit the new form. The earlier unsubscribe test is already complete; do not repeat it.
 
 ## Signup test
 
