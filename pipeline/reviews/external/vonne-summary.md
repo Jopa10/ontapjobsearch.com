@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-18
-review_fingerprint: 4495b641aa8757ac93822e976612ff0c3d8736604f14718c809ef73483a4c707
+review_date: 2026-11-19
+review_fingerprint: dd2717f609431a856891116f13fc7e5b953122bc277a323724e1c685fb544c19
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-18T15:55:14+00:00
+Run generated: 2026-11-19T15:59:40+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1047
+JobG8 comparison rows: 1058
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -21,17 +21,17 @@ Approved NEJobs comparison rows: 0
 - Detail pages fetched successfully: 4
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 11
-- Tees Valley explicitly excluded: 3
+- Tees Valley explicitly excluded: 1
 - Outside or unmapped geography excluded: 0
-- Generic/derived geography rows requiring review: 1
-- Retained target candidates: 12
+- Generic/derived geography rows requiring review: 2
+- Retained target candidates: 14
 
 ## Outcomes
 - HC: 0
-- POSS: 6
+- POSS: 8
 - HARD_PASS: 6
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 6
+- Final POSS awaiting decision: 8
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -67,6 +67,19 @@ tracking_key: vonne-173736
 vacancy_fingerprint: 7f6b1cc06aa7b624ef8729732e782384d57ac6bb9660b64803b1291ce9c96c91
 source_job_id: 173736
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173736
+---
+---
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | Durham | £28,000 Per Annum | Support Worker
+employer: Emmaus North East
+closing_date: 31 December 2026
+geography: CONFIRMED — location: exact area
+reason: possible cross-source duplicate requires review
+source: VONNE
+tracking_key: vonne-173685
+vacancy_fingerprint: 4dbabf7aeb40063930d204bde3bf4242013702296b5f91843b8728a09983368a
+source_job_id: 173685
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173685
 ---
 ---
 action:
@@ -120,6 +133,19 @@ vacancy_fingerprint: fd3d605595b9359680e360ca098216b05d4d00136b171a311893c9d9ea3
 source_job_id: 173707
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173707
 ---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £33,323 Per Annum | Good Work Grants Lead Officer
+employer: Society Matters CIC
+closing_date: 14 December 2026
+geography: CONFIRMED — location: exact area
+reason: transferable title with specialist or borderline wording: lead
+source: VONNE
+tracking_key: vonne-173702
+vacancy_fingerprint: c8ff0702d0cadb59987d047e95cd6083b7009cc8ade06b11fc4012a595b4a9ab
+source_job_id: 173702
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173702
+---
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -127,11 +153,11 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173707
 ## HARD_PASS
 
 - [Business Crime Navigator](https://www.vonne.org.uk/vonne-jobs-details?cid=173723) — insufficient service-admin evidence.
-- [Project Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173712) — out-of-scope VONNE occupation.
+- [CLA Triage Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173690) — out-of-scope VONNE occupation.
+- [Communications & Brand Identity Consultant (freelance)](https://www.vonne.org.uk/vonne-jobs-details?cid=173679) — out-of-scope VONNE occupation.
+- [School Based Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173700) — insufficient service-admin evidence.
 - [South Tyneside Child and Young Person Mental Health Service Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173730) — insufficient service-admin evidence.
 - [Team Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173717) — out-of-scope VONNE occupation.
-- [Visits Services Catering Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173714) — out-of-scope VONNE occupation.
-- [Visits Services Play Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173713) — out-of-scope VONNE occupation.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
