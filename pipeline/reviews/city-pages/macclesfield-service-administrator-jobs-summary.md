@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 27
+- automatic review: 23
 - automatic exclude: 0
 - effective include: 15
-- effective review: 27
+- effective review: 23
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -200,11 +200,11 @@ title: Service Advisor - Audi Macclesfield
 company: Group 1 Automotive - Company - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2301412
+job_id: jobg8-2349543
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (27)
+## REVIEW (23)
 
 ---
 action: 
@@ -226,19 +226,7 @@ title: Accounts Assistant
 company: Adecco - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2328042
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Adecco - Agency - Permanent
-location: Middlewich
-source: JobG8
-job_id: jobg8-23643_225802150
+job_id: jobg8-2345637
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -367,18 +355,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Barlow Wood Ltd - Agency - Permanent
-location: Alderley Edge
-source: JobG8
-job_id: jobg8-23643_225755085
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
 company: Solus Accident Repair Centres - Company - Permanent
 location: Middlewich
 source: JobG8
@@ -419,18 +395,6 @@ company: Forrest Recruitment - Agency - Permanent
 location: Cheshire
 source: JobG8
 job_id: jobg8-23643_225768872
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant - Sales Ledger
-company: Axon Moore Group Ltd - Agency - Permanent
-location: Knutsford
-source: JobG8
-job_id: jobg8-2165430
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -503,18 +467,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-2309568
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Earnswood Medical Centre
-location: Crewe, CW1 3AW
-source: NHS Jobs
-job_id: nhs-5704540
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

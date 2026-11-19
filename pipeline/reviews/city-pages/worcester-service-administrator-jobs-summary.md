@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 37
+- automatic include: 6
+- automatic review: 40
 - automatic exclude: 0
-- effective include: 4
-- effective review: 37
+- effective include: 6
+- effective review: 40
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (6)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Hollymount School
 location: Worcester
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-finance-assistant-hollymount-school
+reason: Exact approved Worcester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Worcester, WR4 9PA
+source: NHS Jobs
+job_id: nhs-5735198
 reason: Exact approved Worcester workplace.
 ---
 
@@ -64,6 +76,18 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Financial Planning Administrator
+company: mbf. - Agency - Permanent
+location: Worcester
+source: JobG8
+job_id: jobg8-2168053
+reason: Exact approved Worcester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Administrator
 company: CY Executive Resourcing - Agency - Contract
 location: Worcester
@@ -72,7 +96,7 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (40)
 
 ---
 action: 
@@ -138,6 +162,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Annual Review Administrator (IFA)
+company: NJR Recruitment - Agency - Permanent
+location: Bromsgrove
+source: JobG8
+job_id: jobg8-2316497
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: BMW Accounts Assistant
 company: Sytner - Company - Permanent
 location: Worcestershire
@@ -174,6 +210,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Co-ordinator
+company: VolkerWessels UK Ltd - Company - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225847837
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Contact Centre Supervisor
 company: Brellis Recruitment - Agency - Permanent
 location: Worcestershire
@@ -191,6 +239,18 @@ company: Arden Personnel - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-23643_225824628
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Processing Administrator
+company: Workforce Staffing Ltd - Agency - Permanent
+location: Bromsgrove
+source: JobG8
+job_id: jobg8-23643_225844877
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -227,6 +287,18 @@ company: AP Education - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225831004
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Administrator
+company: Cap Resourcing Ltd - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-2179145
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -299,6 +371,18 @@ company: Riverside Surgery
 location: Evesham, WR11 1JP
 source: NHS Jobs
 job_id: nhs-5732427
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mortgage Administrator
+company: Eden Rose - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-2316476
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -402,18 +486,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Officer
-company: Hawk 3 Talent Solutions - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225820459
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Clerk
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Kidderminster
@@ -431,18 +503,6 @@ company: Transaction Recruitment - Agency - Temporary
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225773731
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Pershore Medical Practice
-location: Pershore, WR10 1PX
-source: NHS Jobs
-job_id: nhs-5702469
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

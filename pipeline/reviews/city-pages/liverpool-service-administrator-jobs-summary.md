@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 51
+- Effective included jobs: 47
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 51
+- automatic include: 47
 - automatic review: 10
 - automatic exclude: 0
-- effective include: 51
+- effective include: 47
 - effective review: 10
 - effective exclude: 0
 
-## INCLUDE (51)
+## INCLUDE (47)
 
 ---
 action: 
@@ -172,18 +172,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Support Minute Taker - Local Government
-company: Diamond Blaque HR Solutions - Agency - Contract
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225750475
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Clinical Negligence Paralegal
 company: Capio Recruitment Legal - Agency - Permanent
 location: Liverpool
@@ -256,18 +244,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Adaptable Recruitment - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2162061
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Officer
 company: Sellick Partnership - Agency - Permanent
 location: Liverpool
@@ -320,7 +296,7 @@ title: Legal Assistant - Court Team
 company: Bond Turner - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2302227
+job_id: jobg8-2350759
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -380,7 +356,7 @@ title: MOJ Portal Legal Assistant
 company: Bond Turner - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2302230
+job_id: jobg8-2350762
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -405,30 +381,6 @@ company: Adecco - Agency - Temporary
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225753553
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time Payroll Officer
-company: Portfolio Payroll - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2165438
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time Payroll Officer
-company: Portfolio Payroll Limited - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225751406
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -642,18 +594,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Clerk
-company: Adaptable Recruitment - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2166195
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Payable Assistant - Suitable for a Graduate
 company: Adecco - Agency - Permanent
 location: Merseyside
@@ -683,6 +623,18 @@ company: eNL Legal Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-2310020
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Corporate Paralegal (Liverpool)
+company: Larbey Evans - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-2348940
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -754,7 +706,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2321860
+job_id: jobg8-2340988
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

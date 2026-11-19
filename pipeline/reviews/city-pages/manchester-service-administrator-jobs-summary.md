@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 136
+- Effective included jobs: 142
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 136
-- automatic review: 59
-- automatic exclude: 13
-- effective include: 136
-- effective review: 59
-- effective exclude: 13
+- automatic include: 142
+- automatic review: 62
+- automatic exclude: 11
+- effective include: 142
+- effective review: 62
+- effective exclude: 11
 
-## INCLUDE (136)
+## INCLUDE (142)
 
 ---
 action: 
@@ -92,7 +92,7 @@ title: Accounts Assistant
 company: HW Finance - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2299091
+job_id: jobg8-2346024
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -128,7 +128,7 @@ title: Accounts Payable
 company: Accountable Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2298373
+job_id: jobg8-2345060
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -221,6 +221,18 @@ action:
 decision: include
 automatic_decision: include
 title: Assistant Company Secretary
+company: AJ Bell - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2303106
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Company Secretary
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Manchester
 source: JobG8
@@ -236,7 +248,19 @@ title: Bankruptcy Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2296758
+job_id: jobg8-2342811
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bid Coordinator
+company: Barhale - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-108326684
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -285,6 +309,18 @@ company: Aimee Willow Connex Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225774571
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Care Coordinator
+company: red recruitment - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2319841
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -356,7 +392,7 @@ title: Conveyancing Legal Secretary - Highly Experienced
 company: qed legal - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2297611
+job_id: jobg8-2344045
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -368,7 +404,7 @@ title: Corporate Insolvency Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2296876
+job_id: jobg8-2342997
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -533,34 +569,10 @@ action:
 decision: include
 automatic_decision: include
 title: Credit Controller
-company: The Portfolio Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2165380
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: The Portfolio Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225751363
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
 company: Totum - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2299668
+job_id: jobg8-2347195
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -573,6 +585,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-2337467
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Criminal Defence Paralegal
+company: IPS Group - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2347811
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -621,18 +645,6 @@ company: Forrest Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225821761
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Bridgfords - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2313916
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -788,7 +800,7 @@ title: Facilities Coordinator
 company: Reed - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2295833
+job_id: jobg8-2341188
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -848,6 +860,18 @@ title: Finance Assistant
 company: The Portfolio Group - Agency - Permanent
 location: Manchester
 source: JobG8
+job_id: jobg8-2307078
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: The Portfolio Group - Agency - Permanent
+location: Manchester
+source: JobG8
 job_id: jobg8-23643_225795232
 reason: Approved conservative Manchester launch catchment.
 ---
@@ -873,6 +897,18 @@ company: Venn Group - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-2306320
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Financial Planning Assistant
+company: NJR Recruitment - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2242673
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -908,7 +944,7 @@ title: FNOL Claims Handler
 company: MPJ Recruitment Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2300669
+job_id: jobg8-2348581
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -920,7 +956,7 @@ title: FNOL Claims Handler
 company: NJR Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2299674
+job_id: jobg8-2347200
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -945,6 +981,18 @@ company: Cornishway Group Practice
 location: Manchester, M22 5RX
 source: NHS Jobs
 job_id: nhs-5712381
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: GP Receptionist
+company: The Limes Medical Centre
+location: Manchester, M28 3AT
+source: NHS Jobs
+job_id: nhs-5736645
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -981,6 +1029,42 @@ company: Jobwise Ltd - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225796286
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: IFA Client Services Executive
+company: NJR Recruitment - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2282467
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Insolvency Administrator
+company: FRP Group - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2333063
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Insolvency Case Administrator
+company: Dickson O&;Brien Associates - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2329978
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1041,6 +1125,18 @@ company: Calibre Search - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225823407
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Secretary
+company: Jobwise Ltd - Agency - Temporary
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225762706
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1137,18 +1233,6 @@ company: JT Recruit - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225834747
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Ocean Freight Coordinator
-company: Willis Global - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225745279
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1316,7 +1400,7 @@ title: Post Completions Executive - Residential Conveyancing - Small firm, close
 company: qed legal - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2298092
+job_id: jobg8-2344564
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1349,10 +1433,10 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Hays Business Support - Agency - Temporary
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225829194
+company: The Urmston Group Practice
+location: Manchester, M41 8AA
+source: NHS Jobs
+job_id: nhs-5726493
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1361,10 +1445,10 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: The Urmston Group Practice
-location: Manchester, M41 8AA
-source: NHS Jobs
-job_id: nhs-5726493
+company: UK Management College - Agency - Contract
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225848177
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1480,11 +1564,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: SAP Customer Service Administrator
-company: Adecco - Agency - Permanent
+title: Sales Development Representative
+company: Aimee Willow Connex - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-23643_225789319
+job_id: jobg8-2348577
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1509,18 +1593,6 @@ company: Cover People - Agency - Contract
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225807366
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Account Manager - PR & Social Media
-company: Four Recruitment - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-108318233
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1636,18 +1708,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Purchase Ledger
-company: Forrest Recruitment - Agency - Temporary
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225743837
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Warranty Administrator
 company: Auto Skills UK - Agency - Permanent
 location: Manchester
@@ -1656,7 +1716,31 @@ job_id: jobg8-23643_225800357
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (59)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Workplace Operations Coordinator
+company: Premier Jobs UK Limited - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2349562
+reason: Approved conservative Manchester launch catchment.
+---
+
+## REVIEW (62)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Manager, Marketing Communications Agency, S Manchester
+company: Perfect Marketing People - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-2342225
+reason: No approved Manchester catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -1667,6 +1751,18 @@ company: Recruitment Solutions (North West) Ltd - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2209694
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Robert Walters - Agency - Permanent
+location: Eccles
+source: JobG8
+job_id: jobg8-2334358
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -1727,18 +1823,6 @@ company: Express Solicitors - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2206524
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: B2B marketing Manager
-company: Nigel Wright Group - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-2166142
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -1854,11 +1938,11 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Content Editor (3 months)
-company: Reed - Agency - Permanent
+title: Copywriter - Website content
+company: ALTECH GROUP LTD - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2306049
+job_id: jobg8-2350051
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -1866,11 +1950,11 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Copywriter - Website content
-company: ALTECH GROUP LTD - Agency - Permanent
+title: Corporate Paralegal
+company: K3 Advisory Group - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2301759
+job_id: jobg8-2189275
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -1882,7 +1966,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2297272
+job_id: jobg8-2343570
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -1954,7 +2038,7 @@ title: Executive Assistant - Corporate Commercial
 company: 360 Recruitment - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2302392
+job_id: jobg8-2350984
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -1966,7 +2050,7 @@ title: Finance Administrator
 company: Nightingale Consulting Ltd - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2302090
+job_id: jobg8-2350607
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2014,7 +2098,7 @@ title: Housing Disrepair Fee Earner / Paralegal
 company: Standard 8 - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2301422
+job_id: jobg8-2349552
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2059,10 +2143,22 @@ action:
 decision: review
 automatic_decision: review
 title: Litigation Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-2348477
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Litigation Paralegal
 company: Reed - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2301212
+job_id: jobg8-2349272
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2074,7 +2170,7 @@ title: Marketing Automation Manager - HubSpot
 company: Salt Search - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2299910
+job_id: jobg8-2347689
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2122,7 +2218,7 @@ title: Marketing Operations Manager - HubSpot
 company: Salt Search - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2299898
+job_id: jobg8-2347677
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2146,7 +2242,7 @@ title: National Campaigns Marketing Manager - Sectors/North
 company: FRP Group - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2302315
+job_id: jobg8-2350900
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2171,6 +2267,18 @@ company: Portfolio Payroll - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2170781
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Performance Marketing Manager
+company: Aimee Willow Connex - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-2346945
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2219,6 +2327,18 @@ company: Black Cherry Recruitment Ltd - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2318110
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Protection Sales Consultant
+company: Lifesearch - Agency - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-2311072
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2286,18 +2406,6 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Social Content Creator
-company: Zachary Daniels - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-2165466
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Social Media Executive
 company: Ambition Europe Limited - Agency - Permanent
 location: Lancashire
@@ -2326,7 +2434,7 @@ title: Social Media Executive
 company: University Academy 92 (UA92) - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2298687
+job_id: jobg8-2345435
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2338,7 +2446,7 @@ title: Social Media Manager (Podcasts / Video)
 company: Adria Solutions - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2296024
+job_id: jobg8-2341584
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2362,11 +2470,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2321861
+job_id: jobg8-2340989
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -2401,18 +2509,6 @@ company: Reed - Agency - Permanent
 location: Salford
 source: JobG8
 job_id: jobg8-2310839
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Administrator
-company: Northern Care Alliance NHS Foundation Trust
-location: Salford, M6 8HD
-source: NHS Jobs
-job_id: nhs-5722114
 reason: Separate exact-city market at launch.
 ---
 
@@ -2473,18 +2569,6 @@ company: Salford Medical Centre
 location: Salford, M6 5PP, Salford, M5 3PH
 source: NHS Jobs
 job_id: nhs-5712045
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: The Christie NHS FT
-location: Salford, M6 8HD
-source: NHS Jobs
-job_id: nhs-5724073
 reason: Separate exact-city market at launch.
 ---
 

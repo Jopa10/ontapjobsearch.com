@@ -44,7 +44,7 @@ title: Accounts Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-2298823
+job_id: jobg8-2345567
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -112,11 +112,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: Reed - Agency - Permanent
+title: Customer Service Assistant (PFI)
+company: Riverside Group - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-2164416
+job_id: jobg8-2338677
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -234,11 +234,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance & Reporting Administrator
+title: Finance Assistant
 company: Consortium Professional Recruitment - Agency - Permanent
 location: Hessle
 source: JobG8
-job_id: jobg8-2237941
+job_id: jobg8-2344106
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -246,11 +246,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance & Reporting Administrator
+title: Finance Assistant
 company: Consortium Professional Recruitment Ltd - Agency - Permanent
 location: Hessle
 source: JobG8
-job_id: jobg8-23643_225751816
+job_id: jobg8-23643_225848634
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

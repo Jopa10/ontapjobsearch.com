@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 15
-- automatic exclude: 57
-- effective include: 23
-- effective review: 15
-- effective exclude: 57
+- automatic include: 20
+- automatic review: 13
+- automatic exclude: 40
+- effective include: 20
+- effective review: 13
+- effective exclude: 40
 
-## INCLUDE (23)
+## INCLUDE (20)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Adecco - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225828884
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Conveyancing Legal Assistant
-company: Reed - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2164053
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -148,6 +136,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller / Accounts Receivable Specialist
+company: Randstad Technologies - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2317966
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Document Controller
 company: Astute People - Agency - Permanent
 location: Peterborough
@@ -165,30 +165,6 @@ company: ALH Recruitment Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2314658
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator
-company: Interaction Recruitment - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225750441
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Assistant Commercial Property
-company: Reed - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2163996
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -269,18 +245,6 @@ action:
 decision: include
 automatic_decision: include
 title: Service Advisor
-company: Scout Recruiting LTD - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_221302954
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
 company: The Recruitment Solution (London) Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
@@ -300,7 +264,7 @@ job_id: jobg8-2183929
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (13)
 
 ---
 action: 
@@ -342,35 +306,11 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Legal Assistant
-company: Reed - Agency - Permanent
-location: Ely
-source: JobG8
-job_id: jobg8-2164057
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: The One Group - Agency - Permanent
 location: Ely
 source: JobG8
 job_id: jobg8-2206773
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Ely
-source: JobG8
-job_id: jobg8-2198983
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -406,7 +346,7 @@ title: Marketing Assistant
 company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-2184879
+job_id: jobg8-2341287
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -482,7 +422,19 @@ job_id: jobg8-23643_225752655
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (57)
+## EXCLUDE (40)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: EC Resourcing - Agency - Contract
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225846603
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -576,7 +528,7 @@ title: Accounts Receivable
 company: Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2295815
+job_id: jobg8-2341164
 reason: Separate employment market.
 ---
 
@@ -608,59 +560,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Conveyancing - Flexible Working - Fee Earner/Paralegal
-company: Reed - Agency - Permanent
+title: Credit Control
+company: Michael Page Finance - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2163993
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Conveyancing Assistant/Paralegal
-company: REED - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2163982
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Conveyancing Legal Assistant
-company: Reed - Agency - Permanent
-location: Huntingdon
-source: JobG8
-job_id: jobg8-2164052
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Conveyancing Legal Assistant
-company: Reed - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2164056
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Conveyancing Paralegal/Fee Earner Hybrid Working
-company: REED - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2163981
+job_id: jobg8-2343139
 reason: Separate employment market.
 ---
 
@@ -692,23 +596,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Family Paralegal
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164100
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Administrator
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2298382
+job_id: jobg8-2345069
 reason: Separate employment market.
 ---
 
@@ -721,6 +613,18 @@ company: Pure Resourcing Solutions Limited - Agency - Temporary
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225819865
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Polytec Personnel Ltd - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225846125
 reason: Separate employment market.
 ---
 
@@ -744,7 +648,7 @@ title: Graduate Finance Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2337155
+job_id: jobg8-2348900
 reason: Separate employment market.
 ---
 
@@ -768,7 +672,7 @@ title: Junior Finance Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2337135
+job_id: jobg8-2345095
 reason: Separate employment market.
 ---
 
@@ -800,35 +704,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Legal Secretary - Excellent Benefits & Environment
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164002
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Legal Secretary - Flexible Options
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164111
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Logistics Coordinator
 company: Proactive Global - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225762099
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Maintenance Administrator
+company: Curve Recruitment - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225847939
 reason: Separate employment market.
 ---
 
@@ -860,18 +752,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Office Administrator (IT)
-company: The Perse School - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225748756
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: paralegal
 company: Kingsgate Recruitment Ltd - Agency - Permanent
 location: Cambridgeshire
@@ -884,155 +764,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Paralegal/Fee Earner - Commercial Property
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164020
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal/Fee Earner - Commercial Property
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164021
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal/Fee Earner - Conveyancing
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2163988
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal/Fee Earner - Conveyancing
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164005
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal/Fee Earner - Corporate & Commercial
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164016
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal/Fee Earner - Corporate & Commercial
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164017
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal/Fee Earner - Family
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164012
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal/Fee Earner - Family
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164081
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal/Fee Earner - Private Client
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164062
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal/Fee Earner - Private Client
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164082
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal/Fee Earner - Private Client
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164084
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Paralegal/Fee Earner - Private Client
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164085
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Part Time Bookkeeper - Accountancy Practice
 company: Butler Rose - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2302016
+job_id: jobg8-2350377
 reason: Separate employment market.
 ---
 
@@ -1052,6 +788,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Patent Administrator
+company: The Law Support Group - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2342350
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Payroll Admin
 company: Portfolio Payroll Limited - Agency - Permanent
 location: Cambridgeshire
@@ -1064,35 +812,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Personal Assistant
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: St Ives, PE27 4LG
-source: NHS Jobs
-job_id: nhs-5701035
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: PR manager
 company: Kidney Research UK - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2192738
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Private Client Paralegal
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2164025
 reason: Separate employment market.
 ---
 
@@ -1125,6 +849,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
+company: Hamberley Care Management Limited - Company - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225846991
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
 company: Peasgood & Skeates - Agency - Permanent
 location: Cambridge
 source: JobG8
@@ -1140,7 +876,7 @@ title: Senior Marketing Executive
 company: Proximity Recruitment - Agency - Permanent
 location: Huntingdon
 source: JobG8
-job_id: jobg8-2297424
+job_id: jobg8-2343828
 reason: Separate employment market.
 ---
 

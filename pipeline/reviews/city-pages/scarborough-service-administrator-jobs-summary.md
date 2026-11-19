@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 50
+- automatic review: 51
 - automatic exclude: 0
 - effective include: 3
-- effective review: 50
+- effective review: 51
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225779537
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (50)
+## REVIEW (51)
 
 ---
 action: 
@@ -79,10 +79,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: SI RECRUITMENT LIMITED - Agency - Permanent
-location: Northallerton
+company: Si Recruitment - Agency - Permanent
+location: Harrogate
 source: JobG8
-job_id: jobg8-108322584
+job_id: jobg8-2349003
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -107,6 +107,18 @@ company: Nigel Wright Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2207066
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Purchasing Assistant
+company: Michael Page - Agency - Temporary
+location: Northallerton
+source: JobG8
+job_id: jobg8-23643_225848550
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -298,7 +310,7 @@ title: Ecommerce/Shopify Executive
 company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2302015
+job_id: jobg8-2350376
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -334,7 +346,7 @@ title: Finance Administrator
 company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2301626
+job_id: jobg8-2349855
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -430,7 +442,7 @@ title: Legal Assistant - Employment
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2300253
+job_id: jobg8-2348097
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -442,7 +454,7 @@ title: Legal Assistant - Litigation
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2300535
+job_id: jobg8-2348413
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -454,7 +466,7 @@ title: Legal Secretary & Office Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2299949
+job_id: jobg8-2347726
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -562,7 +574,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2301867
+job_id: jobg8-2350145
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -583,10 +595,22 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225847720
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
 company: Sharp Consultancy - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2296494
+job_id: jobg8-2342416
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -623,18 +647,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2300408
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist Administrator
-company: Ebor Academy Trust
-location: York
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-ebor-academy-trust
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

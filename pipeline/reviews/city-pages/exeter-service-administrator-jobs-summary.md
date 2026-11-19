@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 25
-- automatic review: 62
+- automatic review: 61
 - automatic exclude: 0
 - effective include: 25
-- effective review: 62
+- effective review: 61
 - effective exclude: 0
 
 ## INCLUDE (25)
@@ -33,6 +33,18 @@ company: AMR - Specialist Property Recruiters - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-2331065
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant - Care Home
+company: Barchester Healthcare
+location: Exeter, EX2 8TU
+source: NHS Jobs
+job_id: nhs-5736756
 reason: Exact approved Exeter workplace.
 ---
 
@@ -294,18 +306,6 @@ decision: include
 automatic_decision: include
 title: Service Administrator
 company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW, Exeter, EX1 2ED
-source: NHS Jobs
-job_id: nhs-5709046
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
 source: NHS Jobs
 job_id: nhs-5731221
@@ -324,19 +324,7 @@ job_id: jobg8-23643_225782201
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (62)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: AAT Accounts Assistant
-company: Autograph Recruitment Ltd - Agency - Permanent
-location: Tiverton
-source: JobG8
-job_id: jobg8-2164844
-reason: No exact Exeter workplace matched; local geographic review is required.
----
+## REVIEW (61)
 
 ---
 action: 
@@ -419,18 +407,6 @@ company: Hays Business Support - Agency - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225795021
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Pertemps Bridgwater - Agency - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-108313409
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -527,18 +503,6 @@ company: DK Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225807508
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Conveyancing Legal Assistant
-company: G2 Legal Limited - Agency - Permanent
-location: Totnes
-source: JobG8
-job_id: jobg8-2162129
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -682,7 +646,7 @@ title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Plymouth
 source: JobG8
-job_id: jobg8-2301323
+job_id: jobg8-2349376
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -714,6 +678,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Investigations Administrator
+company: Pertemps Plymouth - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225844323
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Assistant
 company: eNL Legal Recruitment - Agency - Permanent
 location: Devon
@@ -738,6 +714,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Logistics Administrator
+company: DX Group - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225848422
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist/Administrator
 company: Oakside Surgery
 location: Plymouth, PL5 3PY, PLYMOUTH, PL5 4DU
@@ -755,6 +743,18 @@ company: Elysium Healthcare
 location: Cullompton, EX15 1EA
 source: NHS Jobs
 job_id: nhs-5699161
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: MRO Stores Coordinator
+company: Randstad Construction and Property - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225848823
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -947,18 +947,6 @@ company: Lockhart Recruitment - Agency - Contract
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225829719
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Finance Officer
-company: Trial Balance Consulting - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2163206
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

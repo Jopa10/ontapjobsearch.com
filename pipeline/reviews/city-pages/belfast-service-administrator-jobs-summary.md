@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 8
+- automatic include: 17
+- automatic review: 7
 - automatic exclude: 0
-- effective include: 16
-- effective review: 8
+- effective include: 17
+- effective review: 7
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (17)
 
 ---
 action: 
@@ -152,6 +152,18 @@ title: Financial Services Administrator
 company: Brook Street - Agency - Permanent
 location: Belfast
 source: JobG8
+job_id: jobg8-2319506
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Financial Services Administrator
+company: Brook Street - Agency - Permanent
+location: Belfast
+source: JobG8
 job_id: jobg8-23643_225830214
 reason: Approved conservative Belfast launch catchment.
 ---
@@ -176,7 +188,7 @@ title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2297206
+job_id: jobg8-2343508
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -212,11 +224,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2321849
+job_id: jobg8-2340977
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -275,18 +287,6 @@ company: EE - Company - Permanent
 location: Antrim
 source: JobG8
 job_id: jobg8-20279_64731-d4f0c9d138ec49292a2de744e4ac35b0
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Reed - Agency - Permanent
-location: Larne
-source: JobG8
-job_id: jobg8-2165079
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

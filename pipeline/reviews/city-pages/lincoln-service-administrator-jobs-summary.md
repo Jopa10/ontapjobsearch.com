@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
+- automatic include: 21
 - automatic review: 15
 - automatic exclude: 0
-- effective include: 32
+- effective include: 21
 - effective review: 15
 - effective exclude: 0
 
-## INCLUDE (32)
+## INCLUDE (21)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Bookkeeper
-company: Scout Recruiting LTD - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225745727
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Bookkeeper (Practice)
 company: Butler Rose - Agency - Permanent
 location: Lincolnshire
@@ -81,18 +69,6 @@ company: Blue Moon Recruitment - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225791104
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Conveyancing Assistant - Flexible working 1 office day per week.
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2163998
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -208,131 +184,11 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Legal Assistant Commercial Property
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2163997
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Operational Administrator
 company: Magnus Search - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225655530
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal/Fee Earner - Commercial Property
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2164023
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal/Fee Earner - Conveyancing
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2164008
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal/Fee Earner - Corporate & Commercial
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2164019
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal/Fee Earner - Family
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2164015
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal/Fee Earner - Private Client
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2164063
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal/Fee Earner - Private Client
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2164088
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal/Fee Earner - Private Client
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2164089
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal/Fee Earner - Private Client
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2164091
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal/Fee Earner - Private Client
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2164092
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -388,6 +244,18 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Service Coordinator
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225845196
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Team Administrator
 company: Lincolnshire Partnership NHS Foundation Trust
 location: Lincoln, LN2 5UA
@@ -426,11 +294,11 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant
-company: Care Plus Group
-location: Grimsby, DN32 7DH
-source: NHS Jobs
-job_id: nhs-5722358
+title: Activities Coordinator
+company: Avon Search & Selection Ltd - Agency - Permanent
+location: Gainsborough
+source: JobG8
+job_id: jobg8-2319454
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -450,11 +318,23 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Care Home Administrator
+company: Avon Search & Selection Ltd - Agency - Permanent
+location: Gainsborough
+source: JobG8
+job_id: jobg8-2319464
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Administrator
 company: Future Prospects - Agency - Permanent
 location: Grantham
 source: JobG8
-job_id: jobg8-2298257
+job_id: jobg8-2344782
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -552,18 +432,6 @@ location: Grimsby, DN41 7JB
 source: NHS Jobs
 job_id: nhs-5711942
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Lincolnshire Partnership NHS Foundation Trust
-location: Boston, PE21 9QS
-source: NHS Jobs
-job_id: nhs-5715160
-reason: The stated location is broader or less specific than the approved Lincoln employment market and needs review.
 ---
 
 ---

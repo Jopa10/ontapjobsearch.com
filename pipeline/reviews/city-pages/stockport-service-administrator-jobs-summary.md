@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 29
+- automatic include: 15
+- automatic review: 26
 - automatic exclude: 0
-- effective include: 16
-- effective review: 29
+- effective include: 15
+- effective review: 26
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Hays Business Support - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225753753
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Adecco - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225761727
 reason: Exact approved Stockport workplace.
 ---
 
@@ -116,7 +104,7 @@ title: Lettings Coordinator
 company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-2299253
+job_id: jobg8-2346242
 reason: Exact approved Stockport workplace.
 ---
 
@@ -200,7 +188,7 @@ title: Post Appointment Insolvency Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-2296915
+job_id: jobg8-2343035
 reason: Exact approved Stockport workplace.
 ---
 
@@ -216,7 +204,7 @@ job_id: nhs-5731374
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (29)
+## REVIEW (26)
 
 ---
 action: 
@@ -378,18 +366,6 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Robert Walters - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-2163415
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller - Hybrid working
 company: RG Consultancy Ltd - Agency - Permanent
 location: Trafford
@@ -515,30 +491,6 @@ company: Adecco - Agency - Temporary
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225815933
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: Rogers McHugh Recruitment - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225748331
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger - Altrincham (Part-Time 3days pw) 21hours
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-2165151
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

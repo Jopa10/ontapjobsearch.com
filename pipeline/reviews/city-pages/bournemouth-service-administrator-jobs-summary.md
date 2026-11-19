@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 63
+- automatic include: 8
+- automatic review: 66
 - automatic exclude: 0
-- effective include: 9
-- effective review: 63
+- effective include: 8
+- effective review: 66
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -112,18 +112,6 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: PA to Leadership Team
-company: The Bishop of Winchester Academy
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-leadership-team-43554862-09f3-4c18-971e-b22b13d85dce
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Workflow Administrator
 company: Shore Medical PCN
 location: Bournemouth, BH2 5QR
@@ -132,7 +120,7 @@ job_id: nhs-5706522
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (63)
+## REVIEW (66)
 
 ---
 action: 
@@ -534,6 +522,30 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Finance Business Partner
+company: Canford School - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2344135
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Business Partner
+company: Canford School - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225848160
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Officer - Part Time
 company: Jigsaw Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
@@ -551,6 +563,18 @@ company: Burgh Recruitment Limited - Agency - Permanent
 location: Shaftesbury
 source: JobG8
 job_id: jobg8-108113939
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Services Administrator
+company: Burgh Recruitment Ltd - Agency - Permanent
+location: Shaftesbury
+source: JobG8
+job_id: jobg8-2203472
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

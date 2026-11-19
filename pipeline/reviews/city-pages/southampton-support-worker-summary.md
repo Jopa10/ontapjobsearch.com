@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 14
-- automatic exclude: 6
-- effective include: 7
-- effective review: 14
-- effective exclude: 6
+- automatic include: 8
+- automatic review: 16
+- automatic exclude: 7
+- effective include: 8
+- effective review: 16
+- effective exclude: 7
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -108,7 +108,19 @@ job_id: jobg8-23643_225815366
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (14)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Support Worker (Learning Disabilities)
+company: Cygnet - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-2300147
+reason: Approved Southampton catchment.
+---
+
+## REVIEW (16)
 
 ---
 action: 
@@ -120,6 +132,18 @@ location: Alton
 source: JobG8
 job_id: jobg8-1401786463
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Assistant
+company: TRIDENT HEALTHCARE SOLUTIONS LIMITED - Agency - Permanent
+location: Alton
+source: JobG8
+job_id: jobg8-2299788
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -144,6 +168,18 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225815477
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Worker
+company: Southern Housing - Agency - Permanent
+location: Ventnor
+source: JobG8
+job_id: jobg8-108320920
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -278,7 +314,7 @@ job_id: jobg8-1401786329
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -289,6 +325,18 @@ company: Avon Search & Selection - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225779755
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Assistant
+company: Avon Search & Selection Ltd - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-2207699
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 12
 - automatic review: 12
-- automatic exclude: 28
-- effective include: 13
+- automatic exclude: 30
+- effective include: 12
 - effective review: 12
-- effective exclude: 28
+- effective exclude: 30
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -104,7 +104,7 @@ title: Legal Assistant - Employment
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2300253
+job_id: jobg8-2348097
 reason: Approved York catchment.
 ---
 
@@ -116,7 +116,7 @@ title: Legal Assistant - Litigation
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2300535
+job_id: jobg8-2348413
 reason: Approved York catchment.
 ---
 
@@ -153,18 +153,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2300408
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist Administrator
-company: Ebor Academy Trust
-location: York
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-ebor-academy-trust
 reason: Approved York catchment.
 ---
 
@@ -326,7 +314,7 @@ job_id: jobg8-23643_225825906
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -345,10 +333,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
-company: SI RECRUITMENT LIMITED - Agency - Permanent
-location: Northallerton
+company: Si Recruitment - Agency - Permanent
+location: Harrogate
 source: JobG8
-job_id: jobg8-108322584
+job_id: jobg8-2349003
 reason: Separate employment market.
 ---
 
@@ -374,6 +362,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2207066
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Purchasing Assistant
+company: Michael Page - Agency - Temporary
+location: Northallerton
+source: JobG8
+job_id: jobg8-23643_225848550
+reason: Separate employment market.
 ---
 
 ---
@@ -492,7 +492,7 @@ title: Ecommerce/Shopify Executive
 company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2302015
+job_id: jobg8-2350376
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -504,7 +504,7 @@ title: Finance Administrator
 company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2301626
+job_id: jobg8-2349855
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -528,7 +528,7 @@ title: Legal Secretary & Office Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2299949
+job_id: jobg8-2347726
 reason: Separate employment market.
 ---
 
@@ -612,7 +612,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2301867
+job_id: jobg8-2350145
 reason: Separate employment market.
 ---
 
@@ -633,10 +633,22 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225847720
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
 company: Sharp Consultancy - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2296494
+job_id: jobg8-2342416
 reason: Separate employment market.
 ---
 

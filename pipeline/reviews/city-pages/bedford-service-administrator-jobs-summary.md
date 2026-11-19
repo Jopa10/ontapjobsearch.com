@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 33
+- automatic include: 13
+- automatic review: 32
 - automatic exclude: 0
-- effective include: 12
-- effective review: 33
+- effective include: 13
+- effective review: 32
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -68,7 +68,7 @@ title: Commercial Assistant
 company: Abacus Consulting - Agency - Permanent
 location: Bedford
 source: JobG8
-job_id: jobg8-2266532
+job_id: jobg8-2342902
 reason: Exact approved Bedford workplace.
 ---
 
@@ -88,11 +88,23 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Administrator
+company: Orion Electrotech - Midlands - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225845774
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Abacus Consulting - Agency - Permanent
 location: Bedford
 source: JobG8
-job_id: jobg8-2301453
+job_id: jobg8-2349581
 reason: Exact approved Bedford workplace.
 ---
 
@@ -168,7 +180,7 @@ job_id: jobg8-23643_225782845
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (32)
 
 ---
 action: 
@@ -282,11 +294,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Legal Assistant
-company: Reed - Agency - Permanent
+title: Business Support Co-ordinator
+company: Reed Talent Solutions - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2164055
+job_id: jobg8-2176704
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -367,10 +379,10 @@ action:
 decision: review
 automatic_decision: review
 title: Legal Secretary
-company: Oculus Legal Group - Agency - Permanent
-location: Luton
+company: Hello Recruitment Associates Ltd - Agency - Permanent
+location: Bedfordshire
 source: JobG8
-job_id: jobg8-2198398
+job_id: jobg8-2345480
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -378,11 +390,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Legal Secretary (Private Client)
-company: LR Legal Recruitment - Agency - Permanent
-location: Bedfordshire
+title: Legal Secretary
+company: Oculus Legal Group - Agency - Permanent
+location: Luton
 source: JobG8
-job_id: jobg8-2197742
+job_id: jobg8-2198398
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -407,18 +419,6 @@ company: Connect2Luton - Agency - Temporary
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225799190
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Paralegal/Fee Earner - Private Client
-company: Reed - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-2164060
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 53
+- automatic review: 55
 - automatic exclude: 0
 - effective include: 19
-- effective review: 53
+- effective review: 55
 - effective exclude: 0
 
 ## INCLUDE (19)
@@ -252,7 +252,7 @@ job_id: jobg8-23643_225817065
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (55)
 
 ---
 action: 
@@ -654,6 +654,30 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Business Partner
+company: Canford School - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2344135
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Business Partner
+company: Canford School - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225848160
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Officer - Part Time
 company: Jigsaw Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
@@ -671,6 +695,18 @@ company: Burgh Recruitment Limited - Agency - Permanent
 location: Shaftesbury
 source: JobG8
 job_id: jobg8-108113939
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Services Administrator
+company: Burgh Recruitment Ltd - Agency - Permanent
+location: Shaftesbury
+source: JobG8
+job_id: jobg8-2203472
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -719,18 +755,6 @@ company: Team Jobs - Commercial - Agency - Temporary
 location: Bournemouth
 source: JobG8
 job_id: jobg8-23643_225818968
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: PA to Leadership Team
-company: The Bishop of Winchester Academy
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-leadership-team-43554862-09f3-4c18-971e-b22b13d85dce
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

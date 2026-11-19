@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 31
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 31
+- automatic include: 30
 - automatic review: 8
-- automatic exclude: 3
-- effective include: 31
+- automatic exclude: 4
+- effective include: 30
 - effective review: 8
-- effective exclude: 3
+- effective exclude: 4
 
-## INCLUDE (31)
+## INCLUDE (30)
 
 ---
 action: 
@@ -44,7 +44,7 @@ title: Accounts Assistant
 company: Bis Henderson - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2301980
+job_id: jobg8-2350303
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -112,23 +112,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Activities Coordinator
-company: Exemplar Health Care - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-108302757
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Corporate Insolvency Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2296861
+job_id: jobg8-2342982
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -209,10 +197,10 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
-company: Reed - Agency - Permanent
+company: RK Accountancy - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2161558
+job_id: jobg8-23643_225845688
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -237,6 +225,18 @@ company: Dynamic Resourcing - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225808410
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Administrator
+company: Pertemps North West and North Wales - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225848053
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -296,19 +296,7 @@ title: Presenter and Content Creator
 company: Reed - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2297509
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Dallam Lane Medical Centre
-location: Warrington, WA2 7NG
-source: NHS Jobs
-job_id: nhs-5710046
+job_id: jobg8-2343905
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -494,7 +482,7 @@ job_id: jobg8-23643_225805278
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -505,6 +493,18 @@ company: Meriden Media - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-2328275
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Butler Rose - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-2348261
 reason: Separate employment market.
 ---
 

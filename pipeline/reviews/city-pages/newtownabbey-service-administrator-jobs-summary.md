@@ -186,18 +186,6 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator
-company: Reed - Agency - Permanent
-location: Larne
-source: JobG8
-job_id: jobg8-2165079
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Belfast
@@ -238,6 +226,18 @@ title: Financial Services Administrator
 company: Brook Street - Agency - Permanent
 location: Belfast
 source: JobG8
+job_id: jobg8-2319506
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Services Administrator
+company: Brook Street - Agency - Permanent
+location: Belfast
+source: JobG8
 job_id: jobg8-23643_225830214
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
@@ -262,7 +262,7 @@ title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2297206
+job_id: jobg8-2343508
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -310,7 +310,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2321849
+job_id: jobg8-2340977
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

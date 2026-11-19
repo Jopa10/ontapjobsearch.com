@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
-- automatic review: 13
+- automatic include: 33
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 32
-- effective review: 13
+- effective include: 33
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (32)
+## INCLUDE (33)
 
 ---
 action: 
@@ -44,7 +44,7 @@ title: Accounts Assistant
 company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2302022
+job_id: jobg8-2350382
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -400,6 +400,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Temporary Project Coordinator - Full Time or Part Time
+company: Office Angels - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225848951
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Receptionist & Administration Assistant
 company: Office Angels - Agency - Temporary
 location: Edinburgh
@@ -408,7 +420,7 @@ job_id: jobg8-23643_225826088
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -514,7 +526,7 @@ title: Payroll Administrator
 company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Livingston
 source: JobG8
-job_id: jobg8-2300868
+job_id: jobg8-2348825
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 
@@ -551,6 +563,18 @@ company: Questech Recruitment Ltd - Agency - Temporary
 location: Dalkeith
 source: JobG8
 job_id: jobg8-23643_225793155
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Property Legal Secretary - Edinburgh
+company: qed legal - Agency - Permanent
+location: Midlothian
+source: JobG8
+job_id: jobg8-2343124
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

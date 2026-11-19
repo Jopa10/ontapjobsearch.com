@@ -6,9 +6,12 @@ include,jobg8-23643_225820911,Healthcare Assistant,Prime Healthcare Solutions Lt
 include,jobg8-23643_225813909,Support Worker,First For Support - Agency - Temporary,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-23643_225779445,Support Worker,Homecare First - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-23643_225815366,Support Worker,Nurseplus UK Ltd - Agency - Temporary,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
+include,jobg8-2300147,Support Worker (Learning Disabilities),Cygnet - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 review,jobg8-1401786463,Care Assistant,Hampshire County Council - Company - Permanent,Alton,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
+review,jobg8-2299788,Care Assistant,TRIDENT HEALTHCARE SOLUTIONS LIMITED - Agency - Permanent,Alton,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-23643_225745178,Care Assistant - Bank - Care Home,Barchester Healthcare - Company - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
 review,jobg8-23643_225815477,Care Assistant - Care Home,Barchester Healthcare - Company - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
+review,jobg8-108320920,Care Worker,Southern Housing - Agency - Permanent,Ventnor,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401786179,Casual Care Assistant,Hampshire County Council - Company - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
 review,jobg8-108321029,Extra Care Support Worker,SCA Care - Agency - Temporary,New Milton,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-23643_209680922,Health Care Assistants (HCA),Varang Recruitment - Agency - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-support-worker
@@ -21,6 +24,7 @@ review,jobg8-23643_225781662,Residential Childcare Worker,First For Support - Ag
 review,jobg8-23643_225653471,Therapeutic Children's Support Worker,The Tiger Group Consultancy Ltd - Agency - Permanent,Colden Common,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401786329,Waking Night Childrens Home Support Worker,Hampshire County Council - Company - Permanent,Romsey,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 exclude,jobg8-23643_225779755,Care Assistant,Avon Search & Selection - Agency - Permanent,Fareham,JobG8,exclude,exclude,Separate employment market.,fareham,southampton-support-worker
+exclude,jobg8-2207699,Care Assistant,Avon Search & Selection Ltd - Agency - Permanent,Fareham,JobG8,exclude,exclude,Separate employment market.,fareham,southampton-support-worker
 exclude,jobg8-23643_225827174,Care Assistant,Enham Trust - Agency - Permanent,Andover,JobG8,exclude,exclude,Separate employment market.,andover,southampton-support-worker
 exclude,jobg8-23643_225790173,Female Healthcare Assistant & Support Worker,Bluelight Healthcare - Agency - Permanent,Farnborough,JobG8,exclude,exclude,Separate employment market.,farnborough,southampton-support-worker
 exclude,jobg8-23643_225779158,Health Care Assistant,Resilience Personnel Ltd - Agency - Permanent,Basingstoke,JobG8,exclude,exclude,Separate employment market.,basingstoke,southampton-support-worker
