@@ -2,7 +2,7 @@ import { createHash, createHmac } from "node:crypto";
 import { privateTestEnabled } from "./private-job-alert-test";
 import { JOB_ALERT_CONSENT_VERSION } from "./job-alert-consent";
 
-export const PRIVATE_SIGNUP_TEST_EMAILS: readonly string[] = ["jpbt801@gmail.com", "jnabon1108@gmail.com"];
+export const PRIVATE_SIGNUP_TEST_EMAILS: readonly string[] = ["jpbt801@gmail.com", "jnabon1108@gmail.com", "elbt801@gmail.com"];
 
 type Env = Record<string, string | undefined>;
 export type Preferences = { role: string; location: string; salary: string; region?: string };
