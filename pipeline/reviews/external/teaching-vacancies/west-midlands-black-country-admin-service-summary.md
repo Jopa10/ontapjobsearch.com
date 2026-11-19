@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-18
-review_fingerprint: 1643ef0a4fc813c1ed81348477ee8bb38747853fc0bf5d327b41a20edf19cbaf
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 28158a2b9a9211e5bdb8510e82715e45301aff381a8e82a8a5835bdca2c5687b
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 9
+- Records: 20
+- Selected: 8
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 9
@@ -79,21 +79,6 @@ factual_fingerprint: 2fe502c900c10799c7d56920d7241b1021515a8b60052eb0937c9f35779
 source: Teaching Vacancies
 source_job_id: it-business-support-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/it-business-support-officer
----
-
----
-action: 
-SELECTED | West Midlands - Black Country | Dudley, West Midlands, DY1 3BY | £33,699.00 - £37,280.00 Annually (Actual) | IT Systems Administrator
-employer: Bishop Milner Catholic College
-closing_date: 2026-11-19T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cc6c5c4db1696e4e3e2112456844ac040d30945062a512f4daaad56a2b772b39
-source: Teaching Vacancies
-source_job_id: it-systems-administrator-bishop-milner-catholic-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/it-systems-administrator-bishop-milner-catholic-college
 ---
 
 ---

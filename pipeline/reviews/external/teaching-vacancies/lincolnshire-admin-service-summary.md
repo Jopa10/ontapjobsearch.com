@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-18
-review_fingerprint: 28f717f71c722c9b7515e5adb13e945cd5fe964b6760526f239c2bb495d6af3f
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: daf084f291aa86d133e1b078298e303061cd536df8bb6574b5c793aee7b62389
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 17
 - Selected: 6
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 8
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN16 2PZ | £25,269.00 Annually (FTE) | Admin Assistant
+employer: Coritani Academy
+closing_date: 2026-11-20T12:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 839cebd796c498cfa614335ae14e86e778fa92209484a7a554d7c0699228bdee
+source: Teaching Vacancies
+source_job_id: admin-assistant-coritani-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-coritani-academy
+---
 
 ---
 action: 
@@ -83,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Lincolnshire | Skegness, East Midlands, PE25 2QU | £23,669.00 - £25,229.00 Annually (Actual) Grade GAT-5 | Administrator
-employer: Skegness Infant Academy
-closing_date: 2026-11-18T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0a18b1591af966c8cd7c69a8e5d38a77615648d43c4b2c0e0f035ff3801b74e3
-source: Teaching Vacancies
-source_job_id: administrator-skegness-infant-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-skegness-infant-academy
----
-
----
-action: 
 SELECTED | Lincolnshire | Lincoln, East Midlands, LN4 4PN | £30,023.00 - £30,023.00 Annually (Actual) NJC13 : £27,723.95pa pro rata | Personal Assistant
 employer: The Barnes Wallis Academy
 closing_date: 2026-11-27T23:59:00+00:00
@@ -112,6 +112,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-th
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Lincolnshire | Spalding, PE12 7PU | £33,673.00 - £36,571.00 Annually (FTE) | Governance Professional & Trust Administration
+employer: University Of Lincoln Academy Trust
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ffd8e8b732f8da69d0ff863975ad98c7dd9de395097e06147cea503270964268
+source: Teaching Vacancies
+source_job_id: governance-professional-trust-administration-30854185-0942-4718-8d96-39eba204d5e2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-trust-administration-30854185-0942-4718-8d96-39eba204d5e2
+---
 
 ---
 action: 

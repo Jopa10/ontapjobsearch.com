@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-18
-review_fingerprint: 647ebd537adb878cdec8875bc77a243890cd2fa0a6fe9cc8522e887b86daac9e
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 48f986bbeaecb17ca7bef8e7450797a0c0cd92e8e6367a19278558f391ebb534
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 32
-- Selected: 8
+- Records: 37
+- Selected: 11
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 24
+- Hard pass: 26
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Yorkshire - West | LEEDS, Yorkshire and the Humber, LS16 6NF | £26,016.00 - £26,846.00 Annually (FTE) 32 hours per week. Salary NJC Grade B1, Scale Points 4-6. Actual Salary £19,051-19,658 per annum | Administrative Assistant
+employer: Holy Name Catholic Voluntary Academy
+closing_date: 2026-12-10T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 3d2b8285a5bc910dd1150e69f903227b4a72aea3974fb105f48741e7c63aca16
+source: Teaching Vacancies
+source_job_id: administrative-assistant-holy-name-catholic-voluntary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-holy-name-catholic-voluntary-academy
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Wakefield, WF1 2PF | £28,153 - £29,071 | Administrative Assistant
 employer: Outwood Grange Academies Trust
 closing_date: 2026-11-30T09:00:00+00:00
@@ -64,6 +79,21 @@ factual_fingerprint: 31fcb51682213b83a0c2f293f751315f6aeed11907435038195f642921c
 source: Teaching Vacancies
 source_job_id: administrative-assistant-outwood-grange-academies-trust-wakefield-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-outwood-grange-academies-trust-wakefield-not-recorded
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £33,673.00 - £36,581.00 Annually (FTE) Grade G Points 20 - 24 (£33,673 - £36,581 Full Time Equivalent). The minimum actual pro rata salary per annum for this job starts at £30,104.34. | PA to Principal (7934)
+employer: De Lacy Academy
+closing_date: 2026-12-03T23:59:00+00:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: afc081d18848231956fb3272c17f896ebeefada118a3d10ca9231d25bf31fa28
+source: Teaching Vacancies
+source_job_id: pa-to-principal-7934
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-7934
 ---
 
 ---
@@ -94,6 +124,21 @@ factual_fingerprint: d9f8c17d7f21e689f16ee78a5927a700e59ae54bfd413a79025ef41e2f5
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-principal-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-administrator
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Batley, Yorkshire and the Humber, WF17 0AD | £23,021.00 Annually (Actual) Grade 5 | Receptionist/Administration Officer
+employer: Batley Grammar School
+closing_date: 2026-12-03T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: aded80c6e3ef87123b6175bb1db567c9affa42d5f77e081ec926769c12369689
+source: Teaching Vacancies
+source_job_id: receptionist-administration-officer-batley-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-officer-batley-grammar-school
 ---
 
 ---
@@ -156,14 +201,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-g
 - [Admin and Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-18575951-37f7-4cf2-88ec-92eda75445ad) — No usable numeric salary.
 - [Administration assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chapel-allerton-primary-school) — No usable numeric salary.
 - [Administration Officer - SEND & Pastoral](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-send-pastoral) — Insufficient admin/service evidence.
-- [Apprentice Business Administration Assistant (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-administration-assistant-level-3) — No usable numeric salary.
 - [Attendance Coordinator (7902)](https://teaching-vacancies.service.gov.uk/jobs/attendance-coordinator-7902) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-leodis-academies-trust) — Excluded senior/management title.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-owlcotes-multi-academy-trust) — Excluded senior/management title.
 - [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-north-halifax-grammar-school) — Excluded senior/management title.
 - [Data Protection Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-officer-waterton-academy-trust) — Salary over £50k.
+- [Director of People & Culture](https://teaching-vacancies.service.gov.uk/jobs/director-of-people-culture-shipley-college) — Excluded senior/management title.
+- [Employee Relations (ER) Advisor - Fixed Term until 17th December 2027](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-er-advisor-fixed-term-until-17th-december-2027) — No usable numeric salary.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — No usable numeric salary.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dixons-academies-trust) — Salary over £50k.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-impact-education-multi-academy-trust) — Excluded senior/management title.
 - [HR Administration Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-team-leader) — Excluded senior/management title.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.

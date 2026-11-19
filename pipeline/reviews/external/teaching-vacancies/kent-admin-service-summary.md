@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-11-18
-review_fingerprint: dca8bf495e7194965103bc50db7981face7ea46edcca4c106395dad4f58b6f34
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: b90d4041cd5f74f6975265c11e8736a62cf363cda59513d7c3ea68bbbaf74395
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
-- POSS awaiting decision: 0
+- Records: 6
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Kent | Gillingham, South West, SP8 5QD | £26,427.00 - £26,846.00 Annually (FTE) Dorset Grade 5, pay point 5-6, £26,427-£26,846 per annum (DOE) FTE | Admin Assistant
+employer: Milton-on-Stour Church of England Primary School
+closing_date: 2026-11-25T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 84d85e30b046209e02971e7760fd499c0a925760c200e115a5aa4058913ca794
+source: Teaching Vacancies
+source_job_id: admin-assistant-milton-on-stour-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-milton-on-stour-church-of-england-primary-school
+---
 
 ---
 action: 
@@ -53,7 +68,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administ
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Kent | Dartford, South East, DA2 6FY | £22,621.00 Annually (Actual) | Receptionist
+employer: Stone Lodge School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 13fcba29f33c0769a07d4b2ae8ea1a77b5001eee71bbcc3eeece4f13547d4de6
+source: Teaching Vacancies
+source_job_id: receptionist-stone-lodge-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stone-lodge-school
+---
 
 ## EXCLUDED BY REVIEW
 

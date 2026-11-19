@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-11-18
-review_fingerprint: 0334bff616b9eebe2cd9ec10fb07b9de3668d88d035daab8ecf56146a9c37788
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 51913867233c5241ae793fef1a09995b994cba75dd1dec680cd7284f96707c3c
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 3
+- Records: 5
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
@@ -34,6 +34,21 @@ factual_fingerprint: 3e941176ab7d235eeda06b37afda973e49cd9bb3f724546d4a98af899cc
 source: Teaching Vacancies
 source_job_id: attendance-officer-cottingham-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-cottingham-high-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU12 8UZ | £23,113.00 - £23,870.00 Annually (Actual) Band 5 (FTE: £29,071 - £30,023) | Exams Officer
+employer: Holderness Academy
+closing_date: 2026-12-02T10:00:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8a8b1be1c9d2e452dc59e8d15c98739051796e98223f23cbfcb6c8b242f65145
+source: Teaching Vacancies
+source_job_id: exams-officer-holderness-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-holderness-academy
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-18
-review_fingerprint: c4fe660cc56fe99771f33e07eb6701c2c24be50fa369cf1c4e32ead74c08f6d5
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 0535d16b4f836b6b4106e7a963c400e1ff061ee402b0b0e7a5fa3172729aa29d
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 1
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Greater Manchester - North | Oldham, North West, OL2 6NT | £24,761.23 - £28,195.21 Annually (Actual) SCP 9-17 - 37 Hours per week/39 Weeks per year | Academy Administrator
+employer: E-ACT Royton and Crompton Academy
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b667c15be0ad2ac1316aee92b38b188b70c82f993faac75e32d835f28a7a4d97
+source: Teaching Vacancies
+source_job_id: academy-administrator-e-act-royton-and-crompton-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-e-act-royton-and-crompton-academy
+---
 
 ---
 action: 
@@ -49,7 +64,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-
 - [Administrative Officer (MAT COVER)](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-mat-cover) — Insufficient admin/service evidence.
 - [Chief Finance and Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-operations-officer-the-pinnacle-learning-trust) — Excluded senior/management title.
 - [Governance Clerk - Casual](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-casual) — Insufficient admin/service evidence.
-- [Head of Human Resources](https://teaching-vacancies.service.gov.uk/jobs/head-of-human-resources-st-teresa-of-calcutta-catholic-academy-trust) — Excluded senior/management title.
 - [MIS and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/mis-and-data-manager-north-chadderton-school) — Excluded senior/management title.
 - [Peripatetic Admin Officer Derby](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-admin-officer-derby) — No usable numeric salary.
 

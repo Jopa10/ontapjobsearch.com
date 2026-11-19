@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-18
-review_fingerprint: 356ef44cb28bc2e6f949f824957cbdc1ec3b3d43c4d525c542d4d94edd61b3b5
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: e254a1c6d44ad2baecbaf9ac9bde47eb0e46626e475a7b122dd4247fe86b8f2b
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 8
+- Records: 17
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 7
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-ht
 
 ---
 action: 
-SELECTED | Hertfordshire | Waltham Cross, East of England, EN7 5FB | £25,677.00 - £30,039.00 Annually (Actual) | Finance Officer
-employer: St Mary's Church of England High School (VA)
-closing_date: 2026-11-19T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5165dca69f5a56597a6220b85c372e8d9b84cd006993a865389a921611f7e448
-source: Teaching Vacancies
-source_job_id: finance-officer-st-mary-s-church-of-england-high-school-va
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-mary-s-church-of-england-high-school-va
----
-
----
-action: 
 SELECTED | Hertfordshire | St Albans, East of England, AL4 0TT | £23,672.00 - £24,792.00 Annually (Actual) H4 - Scale Point 6-9 (Dependent on experience) | Inclusion Administrator
 employer: Nicholas Breakspear Catholic School
 closing_date: 2026-11-29T23:59:00+00:00
@@ -124,6 +109,36 @@ factual_fingerprint: 53c584f797c644d480afba29d1f4eaf6075925b28a5c8fefa0c55ffcc58
 source: Teaching Vacancies
 source_job_id: office-administrator-maternity-cover-knebworth-primary-and-nursery-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-maternity-cover-knebworth-primary-and-nursery-school
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Bishop's Stortford, East of England, CM23 5BD | £31,268.00 - £33,872.00 Annually (FTE) Actual pro rata salary approximately from £28,004 per annum | Personal Assistant to the Principal & HR Support
+employer: Birchwood High School
+closing_date: 2026-11-30T10:00:00+00:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 06f889fe6bd022b53ecfb22218323c02bf8b969d5c47b4ee9d9ab1ec48c48ffd
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-the-principal-hr-support
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-hr-support
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Hertford, East of England, SG13 8AJ | £22,605.00 - £24,080.00 Annually (Actual) H3-H4 | Receptionist/Administrator
+employer: Simon Balle All-Through School
+closing_date: 2026-11-26T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: df1c06f5b2346d8471fed72c2ededb449cbe088efc0964506ef35c7d83903347
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-simon-balle-all-through-school-hertford-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school-hertford-hertfordshire
 ---
 
 ---
@@ -166,11 +181,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-cb6272e2-b
 
 - [Administrative and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-and-data-assistant) — Insufficient admin/service evidence.
 - [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover-ridgeway-academy) — Insufficient admin/service evidence.
-- [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-ashlyns-school) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-st-george-s-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lodge-farm-primary-school) — Excluded senior/management title.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-st-mary-s-church-of-england-high-school-va) — Excluded senior/management title.
-- [Sixth Form Student Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-student-liaison-officer) — Insufficient admin/service evidence.
 - [Trips and Activities Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trips-and-activities-coordinator) — Insufficient admin/service evidence.
 - [Trust Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-manager-st-francis-of-assisi-catholic-academy-trust) — Excluded senior/management title.
 

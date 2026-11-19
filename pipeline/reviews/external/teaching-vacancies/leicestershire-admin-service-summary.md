@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-11-18
-review_fingerprint: 1215ce6195634c1ca5c2d6075d82fde548e8442f595e6eb5f70155e38dd8d69c
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: f3c57a53e91740d4c6616ebc8c2b6d5756662ce05639ac2bbb959d3bae40030a
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -55,6 +55,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
+POSS | Leicestershire | Loughborough, East Midlands, LE12 9DB | £22,118.00 - £22,470.00 Annually (Actual) | Administration Assistant
+employer: Iveshead School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0f7b25d965d3dfe1b703678113a684080872d2ffd17f13a86803658f690b68e8
+source: Teaching Vacancies
+source_job_id: administration-assistant-iveshead-school-loughborough-leicestershire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-iveshead-school-loughborough-leicestershire
+---
+
+---
+action: 
 POSS | Leicestershire | Leicester, East Midlands, LE3 1PF | £15,019.00 - £15,255.00 Annually (Actual) GAT 3, 25 hours per week, 39 weeks per year. | Administration Assistant
 employer: Queensmead Primary Academy
 closing_date: 2026-11-29T23:59:00+00:00
@@ -68,21 +83,6 @@ source_job_id: administration-assistant-queensmead-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-queensmead-primary-academy
 ---
 
----
-action: 
-POSS | Leicestershire | Loughborough, East Midlands, LE11 3BT | £26,988 Per Annum | Recruitment Administrator
-employer: Loughborough College
-closing_date: 2026-11-18T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dbb34900ace41e0bfc5952465dd0895561724c1f315d5ca0a2ef1d0d8198f185
-source: Teaching Vacancies
-source_job_id: recruitment-administrator-loughborough-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administrator-loughborough-college
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -92,7 +92,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administr
 - [Admin Assistant & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-office-manager) — Excluded senior/management title.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-english-martyrs-catholic-school-a-voluntary-academy) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Excluded senior/management title.
-- [Payroll and Pensions Manager](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-manager-learn-academies-trust) — Excluded senior/management title.
 - [SENCo Administration Assistant (KE98BC)](https://teaching-vacancies.service.gov.uk/jobs/senco-administration-assistant-ke98bc) — Insufficient admin/service evidence.
 
 ## Safety boundary

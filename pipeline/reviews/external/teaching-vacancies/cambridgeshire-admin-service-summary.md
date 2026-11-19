@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-18
+review_date: 2026-11-19
 review_fingerprint: 89a7b62e6c601a20fddf7984f7ae4bc250aedcf3fde37494b8e53ab3fb1ebc01
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
+- Records: 21
 - Selected: 7
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 11
 
 ## SELECTED
 
@@ -187,7 +187,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Internal Scrutiny Officer](https://teaching-vacancies.service.gov.uk/jobs/internal-scrutiny-officer) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bottisham-village-college) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambourne-village-college) — Excluded senior/management title.
-- [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-longsands-academy) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-2caf4b0b-10ec-4bc7-9232-16c27b370a5f) — Excluded senior/management title.
 - [Personal Assistant to Headteacher and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-and-senior-leadership-team-st-john-fisher-catholic-high-school) — Excluded senior/management title.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-80df4620-91d1-4dc5-b093-4937c078bedb) — Salary over £50k.

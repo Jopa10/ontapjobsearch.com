@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-18
-review_fingerprint: 3432cfeea7ca99e1352dc2f71892e5ece1cc68ca83fa23c75a70f897e893a7c7
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 5e9abd977ba942f7b635eba61b26eec147a74c4c7543d18737e63e1349643a1a
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 21
 - Selected: 8
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 11
 
 ## SELECTED
 
@@ -145,6 +145,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 
 ---
 action: 
+POSS | Berkshire | Reading, South East, RG5 4RF | £15,377.30 - £16,389.90 Annually (Actual) Grade 4 SCP 7 to 11 | Data & Exams Assistant
+employer: Waingels
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1f95582be6692f3ed08418e12989e2bb8dc44de0cedf2164df57bd99f0011fc8
+source: Teaching Vacancies
+source_job_id: data-exams-assistant-waingels-reading-berkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-assistant-waingels-reading-berkshire
+---
+
+---
+action: 
 POSS | Berkshire | Slough, SL3 8TX | FTE range £40,547.00 - £44,799.00 | Executive Assistant (Governance & Compliance Professional)
 employer: Pioneer Educational Trust
 closing_date: 2026-11-23T09:00:00+00:00
@@ -166,9 +181,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 
 - [Admin Assistant (Staff Attendance & Absence Monitoring) - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-staff-attendance-absence-monitoring-the-avenue-school) — No usable numeric salary.
 - [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
+- [Federation Business Officer](https://teaching-vacancies.service.gov.uk/jobs/federation-business-officer) — Insufficient admin/service evidence.
 - [Health Safety & Welfare Manager](https://teaching-vacancies.service.gov.uk/jobs/health-safety-welfare-manager) — Excluded senior/management title.
+- [Level 3 School Administrator Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/level-3-school-administrator-apprenticeship) — No usable numeric salary.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school-reading-berkshire) — Excluded senior/management title.
-- [Project Manager - Systems Implementation (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/project-manager-systems-implementation-maternity-cover) — Excluded senior/management title.
+- [Project Manager - Systems Implementation (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/project-manager-systems-implementation-maternity-cover-maiden-erlegh-trust) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
 - [Student Admissions and Onboarding Officer](https://teaching-vacancies.service.gov.uk/jobs/student-admissions-and-onboarding-officer) — Insufficient admin/service evidence.
 - [Student Admissions and Onboarding Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/student-admissions-and-onboarding-officer-the-wren-school) — Insufficient admin/service evidence.

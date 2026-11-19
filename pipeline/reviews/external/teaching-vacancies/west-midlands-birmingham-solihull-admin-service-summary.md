@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-18
-review_fingerprint: c1abe71871bb887c94aea23a833c41ac729aee2fc9ca1ee3389935eefe6ff351
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 24fd2bbb064a0fbe7851e43f1db3c83eb531fdbad919df144ec89fb7db444996
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 22
-- Selected: 9
-- POSS awaiting decision: 8
+- Selected: 11
+- POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £28,899.00 - £30,345.00 Annually (Actual) SCP 13-16 FTE £30,023-£31,525 (Actual Salary: £28,899-£30,345) | Attendance & Admissions Officer
+employer: King Edward VI Balaam Wood Academy
+closing_date: 2026-12-04T09:00:00+00:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ea62224b58352dddb3cca22a1a19ad6e422dcc001f09ed519866621e6f42b490
+source: Teaching Vacancies
+source_job_id: attendance-admissions-officer-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-officer-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B15 2EF | £24,620.00 - £27,122.00 Hourly GR3a PT9-15 (Salary Information Pro Rata) | Attendance Officer
 employer: City Academy
 closing_date: 2026-12-02T23:59:00+00:00
@@ -143,6 +158,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-thi
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 7SD | £25,614.00 - £26,016.00 Annually (Actual) Grade 2 SCP 3-4 (£25614 - £26016 FTE) | 52.14 Weeks Per year | Receptionist
+employer: Q3 Academy Great Barr
+closing_date: 2026-11-26T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 877aa585a8c0ba751f5e96df63a5c981c95efdce0f5cf392050e014881b7dbf9
+source: Teaching Vacancies
+source_job_id: receptionist-085b338d-4d42-40aa-92a2-f945aaf9e693
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-085b338d-4d42-40aa-92a2-f945aaf9e693
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B75 5BL | £25,614 - £27,709 FTE, actual salary £22,426 - £24,260 per annum | Receptionist / Admin Assistant
 employer: Mere Green Primary School
 closing_date: 2026-11-30T09:00:00+00:00
@@ -167,10 +197,10 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a00d87d57516372516f8f89b1e3233ebd05b69f4fba091b72688bea922f3848b
+factual_fingerprint: be19d16b26d000850ebbf9fde80c280a9d540464f30dc7230e7c7a0e9f078803
 source: Teaching Vacancies
-source_job_id: data-officer-de43ba2e-8423-4b07-9d68-d7f70a52c854
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-de43ba2e-8423-4b07-9d68-d7f70a52c854
+source_job_id: data-officer-06909c45-073c-4212-8191-c7e5c70aeb70
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-06909c45-073c-4212-8191-c7e5c70aeb70
 ---
 
 ---
@@ -216,21 +246,6 @@ factual_fingerprint: 85785f7dc86bb79a50aa58e3be730c225adb1956d7e6c9de6facefe7926
 source: Teaching Vacancies
 source_job_id: office-administrator-manor-park-primary-academy-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-manor-park-primary-academy-birmingham-west-midlands
----
-
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 7SD | £25,614.00 - £26,016.00 Annually (Actual) Grade 2 SCP 3-4 (£25614 - £26016 FTE) | 52.14 Weeks Per year | Receptionist
-employer: Q3 Academy Great Barr
-closing_date: 2026-11-26T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 877aa585a8c0ba751f5e96df63a5c981c95efdce0f5cf392050e014881b7dbf9
-source: Teaching Vacancies
-source_job_id: receptionist-085b338d-4d42-40aa-92a2-f945aaf9e693
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-085b338d-4d42-40aa-92a2-f945aaf9e693
 ---
 
 ---
@@ -288,7 +303,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 - [Attendance Welfare Officer - Term Time Plus 2 Weeks / 37 Hours per week](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-term-time-plus-2-weeks-37-hours-per-week-tudor-grange-academy-kingshurst) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-clement-s-church-of-england-academy-birmingham-west-midlands) — Excluded senior/management title.
 - [School Office Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-senior-administrator) — Excluded senior/management title.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fairway-primary-academy-birmingham-west-midlands) — Excluded senior/management title.
 
 ## Safety boundary
 

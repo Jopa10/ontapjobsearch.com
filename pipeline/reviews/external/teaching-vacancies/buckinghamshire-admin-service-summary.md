@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-18
-review_fingerprint: 51f0ba4352968077bcb2fda6f12ce33fe06081bbd8c9b7145ccb40e112e4ddb8
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 5b73c9e2e6dccd7935440bd2901eacb573aa3b7b34145d42b608da52fdc54254
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 15
+- Selected: 5
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
@@ -64,36 +64,6 @@ factual_fingerprint: 8daaaa61a719667c10007ba472efa25f8b2557ffd41e16094d3cdc362d2
 source: Teaching Vacancies
 source_job_id: receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK14 6AX | £29,070.00 - £31,015.00 Annually (Actual) Point 11 -15 £29,070 - £31,015 FTE, Pro rata accordingly | Receptionist
-employer: Stephenson Academy
-closing_date: 2026-11-19T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5a3642f48ae18615e92e950f3fbeccb9dc33ff7fc4f59bfcf3e58859cede07b0
-source: Teaching Vacancies
-source_job_id: receptionist-stephenson-academy-milton-keynes-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stephenson-academy-milton-keynes-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | Aylesbury, South East, HP18 0WS | £26,522.00 - £28,742.00 Annually (FTE) Actual salary will reflect working pattern of 32 hours per week, 39 weeks per year | Receptionist (Admin Support and Medical Assistant)
-employer: The Aylesbury Vale Academy
-closing_date: 2026-11-20T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f890e5da08b1de58ff25abb5fda07e81dcaca041d5e390396d8c227dea7c554b
-source: Teaching Vacancies
-source_job_id: receptionist-admin-support-and-medical-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-support-and-medical-assistant
 ---
 
 ---

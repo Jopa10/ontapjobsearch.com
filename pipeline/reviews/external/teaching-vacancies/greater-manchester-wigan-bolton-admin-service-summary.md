@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-11-18
+review_date: 2026-11-19
 review_fingerprint: 3a59c38f203f82228e420aa319c2633987d60c1f6f567e48d441001466549eec
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -60,8 +60,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-services-ass
 ## HARD_PASS
 
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-st-joseph-s-rc-high-school) — Insufficient admin/service evidence.
+- [Management Information Systems (MIS) & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-systems-mis-data-manager) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-joseph-s-rc-high-school) — Excluded senior/management title.
-- [Student Behaviour Administrator](https://teaching-vacancies.service.gov.uk/jobs/student-behaviour-administrator-outwood-academy-hindley) — No usable numeric salary.
 
 ## Safety boundary
 

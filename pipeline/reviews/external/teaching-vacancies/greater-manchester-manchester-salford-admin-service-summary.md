@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-18
-review_fingerprint: 359c0179a74fe64ad911486f94b974fe1d88380b912d774697c7fcc603dc3743
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: ff388cc9a70492f68b4fbcfb31c80c64812f6350400634638b16522c9e898cef
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 3
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: administration-assistant-fb86228d-d40f-40f1-8095-d68548677b77
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fb86228d-d40f-40f1-8095-d68548677b77
 ---
 
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2YS | £26,427 | Administration Assistant
+employer: Piper Hill High School
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 20968fbaf8ee4bd07000dfbef8c20bd3826a22af05d779b2776eea65361696db
+source: Teaching Vacancies
+source_job_id: administration-assistant-piper-hill-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-piper-hill-high-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -89,9 +104,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-conne
 
 ## HARD_PASS
 
-- [Academy Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-manager-dixons-middleton-academy) — Excluded senior/management title.
 - [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-all-saints-primary-school) — Excluded senior/management title.
-- [Caretaker](https://teaching-vacancies.service.gov.uk/jobs/caretaker-william-hulme-s-grammar-school) — Out-of-scope occupation: caretaker.
+- [First Aid, Medical and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/first-aid-medical-and-administration-assistant-the-east-manchester-academy) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-lowry-academy) — Excluded senior/management title.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-3d87884e-d7d8-49bb-ac76-95af803b7698) — Insufficient admin/service evidence.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Excluded senior/management title.

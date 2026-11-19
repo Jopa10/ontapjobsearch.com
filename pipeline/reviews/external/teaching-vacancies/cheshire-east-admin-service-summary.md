@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-11-18
-review_fingerprint: b45f0ddc95d01cce82c3e3d53fe9d90685475a85330e59d7d44646f806019d11
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 6edf3aafb9117ec90ea8f0bf089fa55993daefc349d70d27df85f559384aad05
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cheshire - East | Sandbach, North West, CW11 3NT | Grade 4 £24,908.22 - £26,652.47 | Administration Assistant
+employer: Sandbach High School and Sixth Form College
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 933a94753845a48563f787e03471902aab888d64e24bc8259877baad2e05b18c
+source: Teaching Vacancies
+source_job_id: administration-assistant-1618707c-198b-4e80-b128-597ef70669a9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-1618707c-198b-4e80-b128-597ef70669a9
+---
+
+---
+action: 
+SELECTED | Cheshire - East | Sandbach, North West, CW11 3NT | Grade 5 £26652.47 - £29542.48 (Pro Rata) | HR/Payroll Finance Assistant
+employer: Sandbach High School and Sixth Form College
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ff165dd23d6ca0680c2a02979dd6132934ce7060824c0d7fb728d4c1019c7d08
+source: Teaching Vacancies
+source_job_id: hr-payroll-finance-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-finance-assistant
+---
 
 ---
 action: 

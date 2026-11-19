@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-18
-review_fingerprint: b8c0cf27c5c0bff3d4244cd2bb582c25225a6c6b56dd29828ed8c19809c4cd6b
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 8b7fc54c4d9595f2292def82da3fef58f25b1ac133f64b40ed4c06d8ec1bc211
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 7
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -64,6 +64,21 @@ factual_fingerprint: daf2c95cf8bd5dbe031e29ffdd4fa4f961370f43ab66378abfcd08d6c6a
 source: Teaching Vacancies
 source_job_id: administration-assistant-level-3-attendance
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-3-attendance
+---
+
+---
+action: 
+SELECTED | North East | Hartlepool, North East, TS24 7HT | £19,851.00 - £20,624.00 Annually (Actual) | Administrative Assistant
+employer: St Joseph's Catholic Primary School, Hartlepool
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2e8126900367c6f72d16045ea20a134f243a77e6c301569286416cb8f0206972
+source: Teaching Vacancies
+source_job_id: administrative-assistant-st-joseph-s-catholic-primary-school-hartlepool
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-joseph-s-catholic-primary-school-hartlepool
 ---
 
 ---

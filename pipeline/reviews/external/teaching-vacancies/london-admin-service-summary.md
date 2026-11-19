@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-18
-review_fingerprint: 83b88bcfaf2ed0606c118acd3fcd2e7b7907844e90aadbdd332546f7a62381c9
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: e1d836aa4baacd4db86ee21193d909c02ff608fcc34b1ece9a2669112c9fe670
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 62
-- Selected: 12
-- POSS awaiting decision: 12
+- Records: 65
+- Selected: 11
+- POSS awaiting decision: 14
 - Excluded: 0
-- Hard pass: 38
+- Hard pass: 40
 
 ## SELECTED
 
@@ -109,21 +109,6 @@ factual_fingerprint: 75c0fb929c93bd2188f642d7e0bb2d887c79575713b25ae8fbd6dedec0d
 source: Teaching Vacancies
 source_job_id: exams-officer-robert-clack-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-robert-clack-school
----
-
----
-action: 
-SELECTED | London | London, London, SE6 2SE | £27,360.66 Annually (Actual) | Librarian and Administrative Assistant
-employer: Conisborough College
-closing_date: 2026-11-22T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 706e89c569130331a31307f889d503466ea607438039052d8a2ad0a7124e8271
-source: Teaching Vacancies
-source_job_id: librarian-and-administrative-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/librarian-and-administrative-assistant
 ---
 
 ---
@@ -235,6 +220,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-co
 
 ---
 action: 
+POSS | London | Stanmore, London, HA7 1PL | £33,129.00 - £35,109.00 Annually (FTE) | Attendance Officer
+employer: Park High School
+closing_date: 2026-11-26T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 51d30ab88510d4886f343c7dab95c43716f7a74ae8d2f2b7506df5c0b623be36
+source: Teaching Vacancies
+source_job_id: attendance-officer-park-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-park-high-school
+---
+
+---
+action: 
 POSS | London | London, London, SE24 9JH | £36,543.00 - £43,014.00 Annually (FTE) Hay 7, 14 - 25 | Attendance Officer
 employer: The Charter School North Dulwich
 closing_date: 2026-11-23T23:59:00+00:00
@@ -340,6 +340,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
+POSS | London | Croydon, London, CR0 9AZ | Grade 4/5 (FTE SP18 £31,281– SP 25 £35,106) Actual: 28,849.57 – 32,377.26 | SEN Administrator
+employer: Addington Valley Academy
+closing_date: 2026-12-03T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aae2e98ff780434afbbe9d0aa9561e8b12a8b43ad3e296f64b435707a12208ed
+source: Teaching Vacancies
+source_job_id: sen-administrator-addington-valley-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-addington-valley-academy
+---
+
+---
+action: 
 POSS | London | Sutton, SM1 4AF | £32,278.00 - £34,425.00 Annually (FTE) Actual salary £27,197- £29,007 per annum | SENDCO Admin
 employer: Greenshaw Learning Trust
 closing_date: 2026-11-22T23:59:00+00:00
@@ -397,6 +412,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-haberdashers-hatcham-college) — Insufficient admin/service evidence.
 - [Casual Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-administrative-assistant) — No usable numeric salary.
 - [Communications & Digital Media Intern](https://teaching-vacancies.service.gov.uk/jobs/communications-digital-media-intern) — No usable numeric salary.
+- [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-the-boxing-academy-ap-free-school) — Insufficient admin/service evidence.
 - [Data & Cover Manager - Deputy Head of MIS (Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/data-cover-manager-deputy-head-of-mis-maternity-cover) — Out-of-scope occupation: deputy head.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
 - [Data Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/data-governance-officer) — Insufficient admin/service evidence.
@@ -408,6 +424,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
 - [Headteacher's PA and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-and-office-manager-carshalton-high-school-for-girls) — Out-of-scope occupation: teacher, headteacher.
 - [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-girls-learning-trust) — Insufficient admin/service evidence.
+- [HR and Recruitment co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-co-ordinator) — Insufficient admin/service evidence.
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-barking-abbey-school-a-specialist-sports-and-humanities-college) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-paddock-school) — No usable numeric salary.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Salary over £50k.
@@ -426,7 +443,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-connaught-special-school-london) — Excluded senior/management title.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-haberdashers-knights-academy) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-sarah-bonnell-school-london) — Excluded senior/management title.
-- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-anthem-schools-trust) — Excluded senior/management title.
+- [Sixth Form Admissions and Administration](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admissions-and-administration) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

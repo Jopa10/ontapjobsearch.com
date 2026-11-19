@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-18
-review_fingerprint: 42469b7729590747e6cec75231b448971805f7be6af732f81d97febea144cc41
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 25ddd8dd4248ad0bc87796f043ce0bbf69b8d1d7dd36bff4ccfc4968c434cbf1
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 5
-- POSS awaiting decision: 2
+- Selected: 6
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
@@ -96,6 +96,21 @@ source_job_id: receptionist-hardenhuish-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-hardenhuish-school
 ---
 
+---
+action: 
+SELECTED | Wiltshire | Chippenham, South West, SN15 3EA | £13,910.00 - £14,354.00 Annually (Actual) Trust Scale Point 4-6 | School Administrative Assistant
+employer: Charter Primary School
+closing_date: 2026-12-06T17:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9520899aa0a2a6afd19dbeab54066d5ed88f86931bba03ff8bc18018dcd8ed68
+source: Teaching Vacancies
+source_job_id: school-administrative-assistant-charter-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative-assistant-charter-primary-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -113,30 +128,15 @@ source_job_id: clerk-to-governors-gomeldon-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gomeldon-primary-school
 ---
 
----
-action: 
-POSS | Wiltshire | Salisbury, South West, SP1 1QX | £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE | Clerk to Governors
-employer: St Andrew's Church of England Voluntary Aided Primary School, Laverstock
-closing_date: 2026-11-18T23:59:00+00:00
-reason: Borderline school administration title: clerk to governors
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0719b43ec612943715ae9bc94390ce203bd036d1506c5b75d17b622965a32cd1
-source: Teaching Vacancies
-source_job_id: clerk-to-governors-st-andrew-s-church-of-england-voluntary-aided-primary-school-laverstock
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-st-andrew-s-church-of-england-voluntary-aided-primary-school-laverstock
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Complaints Officer](https://teaching-vacancies.service.gov.uk/jobs/complaints-officer-ascend-learning-trust) — Insufficient admin/service evidence.
+- [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-bulford-st-leonard-s-c-of-e-va-primary-school-salisbury-wiltshire) — Insufficient admin/service evidence.
 - [Day Care Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/day-care-admin-officer) — Insufficient admin/service evidence.
-- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-kingsdown-school) — Excluded senior/management title.
+- [Primary Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/primary-operations-manager-excalibur-academies-trust) — Excluded senior/management title.
 - [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-5cad4b3d-60eb-45ce-9201-1c3edf7de3a6) — Excluded senior/management title.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Herefordshire
 
-review_date: 2026-11-18
-review_fingerprint: a0d4f5dee94fc2604e5f883fe28124569cf44da784c089ae50fa39bf3e8f9aec
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 243480737ab72124b72941b6d00fb67bb245e149d732aaf5080b7ba0bbd42e83
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Herefordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Herefordshire | Leominster, West Midlands, HR6 9UW | HC3 £25,614.00 - £26,016.00 (pro-rata) | Admin Assistant
+employer: Wigmore School
+closing_date: 2026-12-03T12:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ef6eec0a46d7a57366458bace6d06f6cd1ae2dcbb6b600a3729c6e80a1b4f014
+source: Teaching Vacancies
+source_job_id: admin-assistant-wigmore-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-wigmore-school
+---
 
 ---
 action: 

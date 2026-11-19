@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-18
-review_fingerprint: c5458e115c64415050cfbec705f5eb0fcf2cfe33dadf7988c710d59638e8881d
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 4c1b8aafb0399f9ee428ddfd47a2efeb666a35e0bc1b66b86f52c3ac27fd42f0
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
-- POSS awaiting decision: 3
+- Records: 9
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -51,6 +51,36 @@ source_job_id: finance-assistant-term-time-only-upper-shirley-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-term-time-only-upper-shirley-high-school
 ---
 
+---
+action: 
+SELECTED | Hampshire | Romsey, South East, SO51 8ZB | £14.87 Hourly Pay: £14.87 per hour (£24,538.47 Actual) | Receptionist
+employer: The Romsey School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6fb5c2a54b1f9c9cffe69e89600d96cecc07470fc3d68c3ab957c831290909af
+source: Teaching Vacancies
+source_job_id: receptionist-0843015e-4edd-4eed-82fa-deb742659791
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0843015e-4edd-4eed-82fa-deb742659791
+---
+
+---
+action: 
+SELECTED | Hampshire | Basingstoke, South East, RG22 6HA | £12,975.00 - £14,267.00 Annually (Actual) | Receptionist
+employer: The Blue Coat School Basingstoke
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 75220bd5ea55edefcb55a95c04f078c2a6b84f7762930cce409c62827462e4e5
+source: Teaching Vacancies
+source_job_id: receptionist-the-blue-coat-school-basingstoke
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-blue-coat-school-basingstoke
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -68,36 +98,6 @@ source_job_id: administrative-officer-6f5b3994-a8dd-421a-bcd8-4822e0fb211d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-6f5b3994-a8dd-421a-bcd8-4822e0fb211d
 ---
 
----
-action: 
-POSS | Hampshire | Romsey, South East, SO51 8ZB | £14.87 Hourly Pay: £14.87 per hour (£24,538.47 Actual) | Receptionist
-employer: The Romsey School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6fb5c2a54b1f9c9cffe69e89600d96cecc07470fc3d68c3ab957c831290909af
-source: Teaching Vacancies
-source_job_id: receptionist-0843015e-4edd-4eed-82fa-deb742659791
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0843015e-4edd-4eed-82fa-deb742659791
----
-
----
-action: 
-POSS | Hampshire | Basingstoke, South East, RG22 6HA | £12,975.00 - £14,267.00 Annually (Actual) | Receptionist
-employer: The Blue Coat School Basingstoke
-closing_date: 2026-11-29T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 75220bd5ea55edefcb55a95c04f078c2a6b84f7762930cce409c62827462e4e5
-source: Teaching Vacancies
-source_job_id: receptionist-the-blue-coat-school-basingstoke
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-blue-coat-school-basingstoke
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -106,6 +106,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-blue
 
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-haylands-primary-school) — Excluded senior/management title.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-inspire-learning-partnership) — Salary over £50k.
+- [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-hisp-multi-academy-trust-ltd) — Insufficient admin/service evidence.
 - [Support Officer - Cover & Examinations](https://teaching-vacancies.service.gov.uk/jobs/support-officer-cover-examinations) — Insufficient admin/service evidence.
 
 ## Safety boundary

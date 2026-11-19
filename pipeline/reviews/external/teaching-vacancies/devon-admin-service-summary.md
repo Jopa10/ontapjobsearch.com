@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-18
-review_fingerprint: e8df85aaa3e90ada4bc11ee56d50771197d5c4a056afc6eb67310daf3541db32
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 9be9bfa8b6ee3f5716aee1d26c86bed250b0d72315664a5c978bc41d651db397
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
+- Records: 24
 - Selected: 2
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 18
+- Hard pass: 19
 
 ## SELECTED
 
@@ -52,6 +52,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Devon | Okehampton, EX20 1PU | £21,767.00 - £22,114.00 Annually (Actual) NJC Grade C. Range 6 to 7 | Administrator
+employer: Dartmoor Multi Academy Trust
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c314fc4c9f27c90706674d57be621c121e8e3f09f3498a0bda370937228e59e2
+source: Teaching Vacancies
+source_job_id: administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
+---
 
 ---
 action: 
@@ -100,7 +115,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-office
 - [Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/governance-coordinator-westcountry-schools-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-boringdon-primary-school-plymouth-devon) — Excluded senior/management title.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon) — No usable numeric salary.
-- [School Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-caretaker-st-sidwell-s-church-of-england-primary-school-nursery) — Out-of-scope occupation: caretaker.
+- [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-f0cae92f-fab5-4d71-9217-1ffc67fdf32d) — No usable numeric salary.
+- [School Buildings and Grounds Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-buildings-and-grounds-caretaker) — Out-of-scope occupation: caretaker.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-1ab8b680-19b9-400d-b2ad-e7ffeda3ad14) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-bb6742ca-488b-4508-aac4-ff3a63b58893) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy) — Excluded senior/management title.

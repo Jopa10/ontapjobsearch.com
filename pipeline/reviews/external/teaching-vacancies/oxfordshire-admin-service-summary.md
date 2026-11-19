@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-18
-review_fingerprint: 1ae2178eb7a3f110aa3281eef2024929e0607fbda6a344dc780847ae7a89f935
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: af9aaf0a722e2f85516a2a476c596705c69540aff54b06533434faf4688bc905
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
@@ -34,21 +34,6 @@ factual_fingerprint: d019bfa0410fa110daefdb2d8780bd7acd20f1aa5ee0e04b4792015b6c5
 source: Teaching Vacancies
 source_job_id: administration-assistant-carterton-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-carterton-community-college
----
-
----
-action: 
-SELECTED | Oxfordshire | Wallingford, South East, OX10 8HH | £27,182.00 - £29,014.00 Annually (Actual) | Attendance Officer
-employer: Wallingford School
-closing_date: 2026-11-19T10:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d2425140ecc2a7730aa6595bd75b5a893ede28a8a67e632516859c3116f2e6e7
-source: Teaching Vacancies
-source_job_id: attendance-officer-wallingford-school-wallingford-oxfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-wallingford-school-wallingford-oxfordshire
 ---
 
 ---

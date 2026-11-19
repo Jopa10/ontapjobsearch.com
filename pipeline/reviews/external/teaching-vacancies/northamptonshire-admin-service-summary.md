@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-18
-review_fingerprint: fe57d965e3dd4a4dea5657059a5af92438002fdef2a4ab9dbbdb3f816f25cff4
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: a6f1cfa85c1476ed593c6cb9431c3e9ef68617886422a1bd4df072ebba3a350f
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 19
 - Selected: 8
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -158,6 +158,21 @@ source_job_id: administrator-sywell-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sywell-church-of-england-primary-school
 ---
 
+---
+action: 
+POSS | Northamptonshire | Kettering, NN15 6HE | Orbis Payscale 12-16 (£27,476 - £29,273 FTE). Actual pro-rata salary: £25,688 – 27,368. | HR and Recruitment Administrator
+employer: Orbis Education Trust
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8fc8c609c05df5a263ff3b8c7a7583310416f173b726735b9059f48360ae0722
+source: Teaching Vacancies
+source_job_id: hr-and-recruitment-administrator-orbis-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-administrator-orbis-education-trust
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -171,6 +186,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sywell-
 - [Data Management Coordinator](https://teaching-vacancies.service.gov.uk/jobs/data-management-coordinator-kingsthorpe-college) — Insufficient admin/service evidence.
 - [Finance and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-administration-officer-gloucester-nursery-school) — Insufficient admin/service evidence.
 - [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.
+- [Marketing and events lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-events-lead) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-billing-brook-special-school) — Excluded senior/management title.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-18
-review_fingerprint: 08c77b1d698e975be5577a25412f8bb8a5312738d9f777bae0ca39bbf7df9fe6
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 65a89266aed28d74187e1b9bc4da144c9ab28df0db201dafcf57de26ad391dca
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -81,6 +81,21 @@ source_job_id: send-administrator-mangotsfield-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-mangotsfield-school
 ---
 
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS7 0XZ | £26,847.00 - £27,274.00 Annually (FTE) | Student Receptionist
+employer: Orchard School Bristol
+closing_date: 2026-12-07T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8711d542b690434f0054a2ab7e4d43e69fb0767202e533f4fe3eed515b8f3767
+source: Teaching Vacancies
+source_job_id: student-receptionist-orchard-school-bristol
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-orchard-school-bristol
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -104,11 +119,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ## HARD_PASS
 
+- [Behaviour Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/behaviour-support-administrator-sir-bernard-lovell-academy) — No usable numeric salary.
 - [Educational Visits and Enrichment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-and-enrichment-coordinator) — No usable numeric salary.
 - [Employer Engagement Advisor](https://teaching-vacancies.service.gov.uk/jobs/employer-engagement-advisor) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
 - [Personal Care Assistant (EYFS + SEND)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-eyfs-send-bridge-learning-campus) — Insufficient admin/service evidence.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-the-castle-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-pauls-nursery-school-children-s-centre) — Excluded senior/management title.
 
 ## Safety boundary
 

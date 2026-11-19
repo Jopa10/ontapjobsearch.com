@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-11-18
-review_fingerprint: fd32726afa21684b14fcfc55b6791d6cd0577025da8ce7b6e04cfe8b676a55da
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 2c3544e6df20bda9761734cadeb7668ff761338fbb0ba448072751a59f6fd729
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 6
 - Selected: 2
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -53,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assi
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Merseyside - Liverpool | Liverpool, North West, L12 1LF | £24,106.00 Annually (Actual) 28153 FTE | Student Services Assistant
+employer: St Edward's College
+closing_date: 2026-12-01T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 79a8ec9a52662302e4300f24bb4f833833cec36e6badaac64fb892cfb9eb7032
+source: Teaching Vacancies
+source_job_id: student-services-assistant-st-edward-s-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-assistant-st-edward-s-college
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -62,6 +75,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assi
 ## HARD_PASS
 
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-the-laetare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bishop-martin-church-of-england-primary-school-woolton) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-finch-woods-academy) — Excluded senior/management title.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-18
-review_fingerprint: e405699f8c30b667fafb95580d14fd977085826fe1674a830aa61a134bcab232
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: dab90e345cfd49aebac2631737c73ef72a72a6ac7bbc4a898db6a28e681543c7
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Essex | Leigh-On-Sea, SS9 3TG | £30,515.00 - £32,557.00 Annually (FTE) | HR Administrator - Remote
-employer: Legra Academy Trust
-closing_date: 2026-11-20T23:59:00+00:00
+SELECTED | Essex | Leigh-on-Sea, East of England, SS9 3TG | £27,274.00 Annually (FTE) Pro rata: £11,455 | Post 16 Administrator
+employer: Belfairs Academy
+closing_date: 2026-11-24T23:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 096969a3824da4a3c17bfcc2463e69f2c9c48ebf87a26c3ec7e9f3fa10d48a1d
+factual_fingerprint: c5bbb20e6d0b08f7d8fcf41d213ae4fc5076d970515b9a2b338d36f8639c0c4a
 source: Teaching Vacancies
-source_job_id: hr-administrator-remote
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-remote
+source_job_id: post-16-administrator-belfairs-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-administrator-belfairs-academy
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-18
+review_date: 2026-11-19
 review_fingerprint: 8a4c66f80d2892aeca7e9accf05c32d8f6c97c92cd01ec496bba13d56b623329
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -74,8 +74,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pat
 
 ## HARD_PASS
 
-- [Clerk to School Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-school-governing-body-sherburn-church-of-england-primary-academy-malton-north-yorkshire) — No usable numeric salary.
-- [School Administrator Role - Admin and Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-admin-and-reprographics-assistant-outwood-academy-easingwold) — No usable numeric salary.
+- [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-4cb2fc12-063c-4983-8b85-55032fc1e76b) — Insufficient admin/service evidence.
 - [School Business Officer](https://teaching-vacancies.service.gov.uk/jobs/school-business-officer-harrogate-high-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

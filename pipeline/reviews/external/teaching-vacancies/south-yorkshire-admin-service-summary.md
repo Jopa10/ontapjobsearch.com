@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-18
-review_fingerprint: b8dcfa15a143c0b7775d0e243350c18e5c66bd14b6849a5c189adfd384e900de
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 476e67d0092eb7414367b03ad79bcedc780fca61b727ae5c00f99a166801bf45
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
-- Selected: 5
-- POSS awaiting decision: 4
+- Records: 32
+- Selected: 6
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 19
+- Hard pass: 21
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 77b3acb297c49c98d43267c10f6e5f485b22a9a0c0f8fac8aabe1c416c4
 source: Teaching Vacancies
 source_job_id: business-support-officer-mobile-dependent-on-candidate-location-wellspring-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-mobile-dependent-on-candidate-location-wellspring-academy-trust
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 1SN | £32,044.00 Annually (FTE) | Finance Administrator
+employer: Sheffield Park Academy
+closing_date: 2026-12-07T23:59:00+00:00
+reason: Clear admin/service title: administrator, finance administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9bddfdeaf7a42bc31b8ac2912733026d68e3d463141a355ef9fd6e25da3b7aff
+source: Teaching Vacancies
+source_job_id: finance-administrator-sheffield-park-academy-sheffield-south-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-sheffield-park-academy-sheffield-south-yorkshire
 ---
 
 ---
@@ -90,7 +105,7 @@ reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 26dff8386ec77f37bed0b040dbf7445496f58d3d3b3c36ad1001c9aff0ab47db
+factual_fingerprint: c8838d3e98edfe7fbde807c54ac6c9af1712fe44bb8801be476f290b73310d54
 source: Teaching Vacancies
 source_job_id: receptionist-admin-assistant-willow-tree-academy-rotherham-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-willow-tree-academy-rotherham-not-recorded
@@ -145,6 +160,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-fi
 
 ---
 action: 
+POSS | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN12 3LZ | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £22,215.66. | SEN Support Officer (SENSO) (7956)
+employer: Morley Place Academy
+closing_date: 2026-12-03T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5bcf5f5638d82fc2bf4285e5c6eefbfc808a0be8573795886b5400e742f27e93
+source: Teaching Vacancies
+source_job_id: sen-support-officer-senso-7956
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-senso-7956
+---
+
+---
+action: 
 POSS | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5EJ | £26,427 to £26,847 | SEND Admin Support Assistant
 employer: Brinsworth Academy
 closing_date: 2026-11-23T09:00:00+00:00
@@ -166,18 +196,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-as
 
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-beck-primary-school) — No usable numeric salary.
 - [Administration and Clerical Level 1](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical-level-1-shortbrook-primary-school) — No usable numeric salary.
-- [Administration Assistant - 10 hrs per week Temp until August 2027](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-10-hrs-per-week-temp-until-august-2027) — No usable numeric salary.
 - [Apprentice Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administration-assistant-maltby-lilly-hall-academy) — No usable numeric salary.
 - [Assistant Financial Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-financial-accountant-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-brinsworth-academy-rotherham-south-yorkshire) — Insufficient admin/service evidence.
 - [Director of Health & Safety](https://teaching-vacancies.service.gov.uk/jobs/director-of-health-safety) — Excluded senior/management title.
 - [Examinations Invigilator](https://teaching-vacancies.service.gov.uk/jobs/examinations-invigilator-maltby-academy) — No usable numeric salary.
+- [Exams & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-cover-manager-fir-vale-academy) — Excluded senior/management title.
 - [Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/executive-support-officer-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Head of Business Development (VRN000003)](https://teaching-vacancies.service.gov.uk/jobs/head-of-business-development-vrn000003) — Excluded senior/management title.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-cascade-multi-academy-trust) — Salary over £50k.
+- [KS5 Attendance and Inclusion Lead](https://teaching-vacancies.service.gov.uk/jobs/ks5-attendance-and-inclusion-lead) — Excluded senior/management title.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-1e4ec526-7e90-471c-ac7b-53d95ee8bda4) — Insufficient admin/service evidence.
 - [Personal Care Assistant (PCA)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-pca-newman-school) — Insufficient admin/service evidence.
+- [Pupil Premium Extra Curricular Visits Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extra-curricular-visits-co-ordinator) — No usable numeric salary.
 - [Pupil Premium Extracurricular Visits Coordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extracurricular-visits-coordinator-forge-valley-school-sixth-form-sheffield-south-yorkshire) — No usable numeric salary.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust-sheffield-not-recorded) — Excluded senior/management title.
 - [Sports Centre and Lettings Supervisor](https://teaching-vacancies.service.gov.uk/jobs/sports-centre-and-lettings-supervisor-forge-valley-school-sixth-form) — No usable numeric salary.

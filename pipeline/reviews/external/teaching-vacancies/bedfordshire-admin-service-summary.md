@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-18
-review_fingerprint: 3293a8b9642f657ee116db5b3ffcd1daa0bcf263d8b264b768978ea4dd80d39c
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: a4a4e4595d07bcc9fccfb2142f4469543ace13bd72011241764911c0678cd7f0
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 6
+- Records: 19
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 12
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Bedfordshire | Luton, East of England, LU4 9RD | £8,790.00 - £9,073.00 Annually (Actual) | SEN Inclusion Administrator
-employer: Beechwood Primary School
-closing_date: 2026-11-19T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0f8b05796b1f5987aee3c1a991aab362ecc90488fecad33a7b49db4b1235c5d7
-source: Teaching Vacancies
-source_job_id: sen-inclusion-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-inclusion-administrator
----
-
----
-action: 
 SELECTED | Bedfordshire | Luton, LU4 0PF | £26,847.00 - £27,709.00 Annually (Actual) | Trust Finance Assistant
 employer: St Thomas Catholic Academies Trust
 closing_date: 2026-11-29T23:59:00+00:00
@@ -156,6 +141,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-la
 - [Attendance Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-0aafd306-24bd-4142-babf-029988a737dd) — No usable numeric salary.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-houstone-school-dunstable) — Excluded senior/management title.
 - [Data Manager and Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-and-examinations-officer-wixams-academy) — Excluded senior/management title.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bedford-inclusive-learning-and-training-trust-bedford-not-recorded) — Excluded senior/management title.
+- [Finance manager - Job Share](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-job-share) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-212db2cc-f077-4618-b1ff-eb892f942ee3) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-templefield-lower-school-bedford-bedfordshire) — Excluded senior/management title.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-380e0b53-9601-45ec-b27b-2407ffe82d18) — Excluded senior/management title.

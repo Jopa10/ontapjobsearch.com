@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-18
+review_date: 2026-11-19
 review_fingerprint: adfdd7bbd69ea697b8f5e950d0898c13a2e37231e1e56faf8b4bd2e41d764057
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -106,9 +106,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-1b1
 
 - [Annual Review Lead](https://teaching-vacancies.service.gov.uk/jobs/annual-review-lead) — Excluded senior/management title.
 - [Apprenticeships Review Officer](https://teaching-vacancies.service.gov.uk/jobs/apprenticeships-review-officer) — Insufficient admin/service evidence.
-- [EHCP Administrator](https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-gosden-house-school-guildford-surrey) — No usable numeric salary.
 - [Office & Facilities Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-facilities-assistant) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-grange-community-infant-school) — Excluded senior/management title.
+- [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-south-farnham-educational-trust) — Excluded senior/management title.
 - [Sustainability Officer](https://teaching-vacancies.service.gov.uk/jobs/sustainability-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

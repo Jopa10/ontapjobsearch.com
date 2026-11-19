@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-18
-review_fingerprint: af80e985df9d34b54e24f28de72597a76b89ae31da1986286e69686054292787
-routing_manifest_sha256: b6b929ebd685400d4d9fed662a9f6c9786e5eee4f55c402046a83359aaad9c48
+review_date: 2026-11-19
+review_fingerprint: 60914b9b92067b754f9284f82790620eba82bdaa179eb11e3bd7ac4772e34110
+routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,42 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 7
-- POSS awaiting decision: 1
+- Selected: 5
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | Norfolk | Great Yarmouth, East of England, NR30 4AE | Scale D5 - 6 (£26,428 - £26,847 pro rata) Actual Salary £19,878 - £20,193 per annum | Administrator with timetabling responsibilities
-employer: Bure Park Specialist Academy
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6b87ff9d670ab711b6a2ce0f2b0a38ac9f83cbb90fabadcef365e4cc86c04a9c
-source: Teaching Vacancies
-source_job_id: administrator-with-timetabling-responsibilities
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-timetabling-responsibilities
----
-
----
-action: 
-SELECTED | Norfolk | Great Yarmouth, East of England, NR30 4AE | Scale E7 - 11 (£27,274 - £29,071 pro rata) Actual Salary £22,092 - £23,548 per annum | EHCP Administrator
-employer: Bure Park Specialist Academy
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3d14f79cdd637cf7a72633e00bd701698edcdddda658dbe5e3efb803dfdd937b
-source: Teaching Vacancies
-source_job_id: ehcp-administrator-bure-park-specialist-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-bure-park-specialist-academy
----
 
 ---
 action: 
@@ -83,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-litcham
 
 ---
 action: 
-SELECTED | Norfolk | Wymondham, East of England, NR18 9SZ | £21,329- £23,144 | HR Administrator
-employer: Wymondham College
-closing_date: 2027-01-17T00:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6b0b77349a5d5a5c97433b71a082bdd2c07616915dbb86673132bf6435945cbb
-source: Teaching Vacancies
-source_job_id: hr-administrator-wymondham-college-wymondham-norfolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymondham-college-wymondham-norfolk
----
-
----
-action: 
 SELECTED | Norfolk | King's Lynn, East of England, PE30 4AY | Scale E, Point 8 – 11, £14.36 to £15.06 per hour approx. £23,727 to £24,893 per annum. (FTE £27,709 to £29,071 – please note the salary for this role will be pro rata) | Primary SEND Administrator
 employer: Gaywood Primary School
 closing_date: 2026-11-27T00:00:00+00:00
@@ -109,6 +64,21 @@ factual_fingerprint: 7e25bdabf7732b58ebb78f94f7ee023a0e150b26538b32c18e4e4c4662e
 source: Teaching Vacancies
 source_job_id: primary-send-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-send-administrator
+---
+
+---
+action: 
+SELECTED | Norfolk | Norwich, East of England, NR7 9DL | £7,154 - £7,267 actual pa | Receptionist
+employer: The Open Academy
+closing_date: 2026-11-27T00:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 467542be1e42be8590b832506051e79dfe6f6728b9a3cb07e6922473ab1dab3a
+source: Teaching Vacancies
+source_job_id: receptionist-the-open-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-open-academy
 ---
 
 ---
@@ -130,17 +100,47 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-specialist-admin
 
 ---
 action: 
-POSS | Norfolk | Norwich, East of England, NR7 9DL | £7,154 - £7,267 actual pa | Receptionist
-employer: The Open Academy
-closing_date: 2026-11-20T00:00:00+00:00
+POSS | Norfolk | Great Yarmouth, East of England, NR30 4AE | Scale D5 - 6 (£26,428 - £26,847 pro rata) Actual Salary £19,878 - £20,193 per annum | Administrator with timetabling responsibilities
+employer: Bure Park Specialist Academy
+closing_date: 2026-11-27T09:00:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0590c6a12a3edc4d38b965cf670e77e48b8a9e220317a7775eb9d02f5664e9ad
+factual_fingerprint: 6b87ff9d670ab711b6a2ce0f2b0a38ac9f83cbb90fabadcef365e4cc86c04a9c
 source: Teaching Vacancies
-source_job_id: receptionist-the-open-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-open-academy
+source_job_id: administrator-with-timetabling-responsibilities
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-timetabling-responsibilities
+---
+
+---
+action: 
+POSS | Norfolk | Great Yarmouth, East of England, NR30 4AE | Scale E7 - 11 (£27,274 - £29,071 pro rata) Actual Salary £22,092 - £23,548 per annum | EHCP Administrator
+employer: Bure Park Specialist Academy
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3d14f79cdd637cf7a72633e00bd701698edcdddda658dbe5e3efb803dfdd937b
+source: Teaching Vacancies
+source_job_id: ehcp-administrator-bure-park-specialist-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-bure-park-specialist-academy
+---
+
+---
+action: 
+POSS | Norfolk | Wymondham, East of England, NR18 9SZ | £21,329- £23,144 | HR Administrator
+employer: Wymondham College
+closing_date: 2027-01-17T00:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6b0b77349a5d5a5c97433b71a082bdd2c07616915dbb86673132bf6435945cbb
+source: Teaching Vacancies
+source_job_id: hr-administrator-wymondham-college-wymondham-norfolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymondham-college-wymondham-norfolk
 ---
 
 ## EXCLUDED BY REVIEW
@@ -149,7 +149,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-open
 
 ## HARD_PASS
 
-- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-toftwood-infant-school) — No usable numeric salary.
+- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-bure-valley-school) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-824224c2-5ae7-482b-a4c3-25f64d69671f) — Insufficient admin/service evidence.
 - [Estates Compliance and Contracts Supervisor (East & South)](https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-and-contracts-supervisor-east-south) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-burston-community-primary-school-diss-norfolk) — Excluded senior/management title.
