@@ -7,7 +7,7 @@ const env = { VERCEL_ENV: "preview", VERCEL_GIT_COMMIT_REF: "feat/cpc-alert-neon
   ONTAP_SHADOW_DATABASE_URL: "postgres://preview-only.invalid/test" };
 const signup = { email: " JNABON1108@gmail.com ", role: "Accounts Assistant", location: "Leeds",
   salary: "£27,000", region: "West Yorkshire", jobId: "12345", source: "JobG8",
-  signupAttemptId: "1b7d1d7e-47fb-4a72-9c88-9a06df9d4c2b",
+  signupAttemptId: "1b7d1d7e-47fb-4a72-9c88-9a06df9d4c2b", signupDevice: "mobile" as const,
   consentText: JOB_ALERT_CONSENT_TEXT, consentVersion: JOB_ALERT_CONSENT_VERSION,
   consentSource: "apply_job_alert_signup" };
 function fakePool() {
@@ -39,6 +39,7 @@ test("signup stores linked user, address, preference, clicked job and consent in
   const consent = f.statements.find(s => s.sql.includes("INSERT INTO ontap_shadow.consent_history"));
   assert.equal(consent?.values?.[4], JOB_ALERT_CONSENT_TEXT);
   assert.equal(consent?.values?.[8], signup.signupAttemptId);
+  assert.equal(consent?.values?.[9], "mobile");
 });
 test("activation is Preview-branch-only and follows provider acceptance", async () => {
   const f = fakePool();
