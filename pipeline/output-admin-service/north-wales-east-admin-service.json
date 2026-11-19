@@ -225,31 +225,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225747537",
-    "title": "Office Coordinator",
-    "company": "Recruit4staff LTD - Agency - Permanent",
-    "location": "Wrexham",
-    "region": "North Wales - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26483",
-    "salary_max": "27500",
-    "salary_text": "£26483 - £27500 per year",
-    "posted_date": "",
-    "description": "Recruit 4staff are representing a well-established environmental services business in their search for a Office Coordinator to work in Wrexham\n\nJob Details:\n- Pay: £26,483 - £27,500 per annum\n- Hours of Work: Once trained, will move onto a 4-week rotating shift pattern. Week 1: 6:00am - 2:30pm. Weeks 2, 3 & 4: 8:30am - 5:00pm\n- Duration: Permanent\n- Benefits: Standard pension, free parking, 20 days holiday plus bank holidays (increases with length of service)\n\nJob Role: The Office Coordinator will provide administrative support within a busy recycling depot, supporting Operations Managers with day-to-day activities, completing proactive and reactive route planning for drivers, producing reports and assisting with operational administration. This Office Coordinator opportunity offers full training and the chance to develop valuable logistics and transport planning skills within an established environmental services business.\n\nEssential Skills, Experience, or Qualifications:\n- Previous administration experience\n- Strong organisational and communication skills\n- Desire to learn and develop new skills\n- Ability to work accurately in a fast-paced environment\n- Good attention to detail\n- Ability to succeed as an Office Coordinator within a busy operational environment\n\nAdvantageous Skills, Experience, or Qualifications\n- Previous route planning experience\n- Experience within transport, logistics, recycling or environmental services sectors\n- Knowledge of driver scheduling and planning processes\n\nAdditional Information\n- Based within a busy recycling depot\n- Full training provided\n- Free parking available\n- Permanent Office Coordinator opportunity with long-term prospects\n\nCommutable From: Wrexham, Chester, Flint, Denbighshire\n\nSimilar Job Titles: Administrator, Coordinator, Office Clerk, Office Assistant, Support Administrator\n\nFor further information about this Office Coordinator position and other positions please apply now. This vacancy is being advertised on behalf of Recruit 4staff who are operating as a recruitment agency, agent, agencies, employment agency or employment business.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eW9k8KgTdhOy5GzIjcaYa5DM%2f4k2yL46j",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Recruit4staff LTD",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225766497",
     "title": "Administrator - Temp",
     "company": "Smartsearch Recruitment - Agency - Temporary",
@@ -490,7 +465,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1955-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1955-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5740097",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "Betsi Cadwaladr University Health Board",
+    "advertiser_name": "Betsi Cadwaladr University Health Board",
+    "location": "Rhyl, LL18 5UJ",
+    "region": "North Wales - East",
+    "salary": "£26300.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-19T15:54:08.622090265",
+    "closing_date": "2026-11-26",
+    "description": "The ability to speak Welsh is essential for this post The Ward Clerk will give efficient clerical assistance to the Ward. The provision of an efficient clerical service is essential to ensure the speedy admission, discharge, and transfer of patients. By the nature of the duties, the Ward Clerk will be required to maintain strict confidentiality and will be expected to deal with patients and relatives with courtesy and discretion at all times. The Ward Clerk is responsible to the Service Manager in providing an efficient clerical service across the wards. For accountability and development purposes, the Ward Clerk will be under the direct responsibility of the Service Manager. You will be able to find a full Job description and Person Specification attached within the supporting documents or please click Apply now to view in Trac.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-00030",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-00030",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5736113",
@@ -508,7 +509,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-00009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-00009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5612971",
@@ -526,6 +531,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0749-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0749-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
