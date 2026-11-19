@@ -159,11 +159,11 @@ export default function ApplyButton({
                     ))}
                   </div>
                 </div>
-                {region && region !== location ? <label style={{ display: "flex", gap: 9, alignItems: "flex-start", margin: "8px 0 2px", color: "#334155", fontSize: 14, lineHeight: 1.4 }}><input type="checkbox" checked={includeRegion} disabled={state === "saving"} onChange={event => { setIncludeRegion(event.target.checked); setConsent(false); setSignupAttemptId(window.crypto.randomUUID()); }} style={{ marginTop: 3 }} /><span>Also include the wider region: <strong>{region === "Yorkshire - West" ? "West Yorkshire" : region}</strong></span></label> : null}
+                {region && region !== location ? <label style={{ display: "flex", gap: 9, alignItems: "flex-start", margin: "8px 0 2px", color: "#334155", fontSize: 14, lineHeight: 1.4 }}><input type="checkbox" checked={includeRegion} disabled={state === "saving"} onChange={event => { setIncludeRegion(event.target.checked); setConsent(false); setSignupAttemptId(window.crypto.randomUUID()); }} style={{ width: 26, height: 26, flex: "0 0 26px", marginTop: 0, accentColor: "#2563eb" }} /><span>Also include the wider region: <strong>{region === "Yorkshire - West" ? "West Yorkshire" : region}</strong></span></label> : null}
                 </div>
                 <div className="cpc-job-alert-actions">
                 <label style={{ display: "flex", gap: 9, alignItems: "flex-start", margin: "10px 0 8px", color: "#334155", fontSize: 13, lineHeight: 1.45 }}>
-                  <input type="checkbox" required checked={consent} disabled={state === "saving"} onChange={event => { setConsent(event.target.checked); setSignupAttemptId(window.crypto.randomUUID()); }} style={{ marginTop: 3 }} />
+                  <input type="checkbox" required checked={consent} disabled={state === "saving"} onChange={event => { setConsent(event.target.checked); setSignupAttemptId(window.crypto.randomUUID()); }} style={{ width: 26, height: 26, flex: "0 0 26px", marginTop: 0, accentColor: "#2563eb" }} />
                   <span>{JOB_ALERT_CONSENT_TEXT}</span>
                 </label>
                 <button type="submit" disabled={state === "saving"} style={{ width: "100%", border: 0, borderRadius: 7, padding: "12px 15px", background: state === "saving" ? "#94a3b8" : "#1d4ed8", color: "#fff", font: "inherit", fontWeight: 700, cursor: state === "saving" ? "wait" : "pointer" }}>
