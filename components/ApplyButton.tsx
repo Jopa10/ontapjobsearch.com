@@ -166,7 +166,8 @@ export default function ApplyButton({
                   <input type="checkbox" required checked={consent} disabled={state === "saving"} onChange={event => { setConsent(event.target.checked); setSignupAttemptId(window.crypto.randomUUID()); }} style={{ width: 26, height: 26, flex: "0 0 26px", marginTop: 0, accentColor: "#2563eb" }} />
                   <span>{JOB_ALERT_CONSENT_TEXT}</span>
                 </label>
-                <button type="submit" disabled={state === "saving"} style={{ width: "100%", border: 0, borderRadius: 7, padding: "12px 15px", background: state === "saving" ? "#94a3b8" : "#1d4ed8", color: "#fff", font: "inherit", fontWeight: 700, cursor: state === "saving" ? "wait" : "pointer" }}>
+                {!consent ? <p style={{ margin: "4px 0 8px", color: "#64748b", fontSize: 12, lineHeight: 1.4 }}>Tick the box above to save an alert. “No thanks” continues without one.</p> : null}
+                <button type="submit" disabled={state === "saving" || !consent} style={{ width: "100%", border: 0, borderRadius: 7, padding: "12px 15px", background: state === "saving" ? "#94a3b8" : consent ? "#1d4ed8" : "#94a3b8", color: "#fff", font: "inherit", fontWeight: 700, cursor: state === "saving" ? "wait" : consent ? "pointer" : "not-allowed" }}>
                   {state === "saving" ? "Saving your alert…" : "Yes — save alert and continue to apply"}
                 </button>
                 <button type="button" disabled={state === "saving"} onClick={continueToEmployer} style={{ display: "block", width: "fit-content", margin: "4px auto 0", padding: "8px 0", border: 0, background: "transparent", color: "#1d4ed8", font: "inherit", textDecoration: "underline", cursor: "pointer" }}>No thanks — continue to apply</button>
