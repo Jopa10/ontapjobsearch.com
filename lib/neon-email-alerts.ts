@@ -13,7 +13,7 @@ export type AlertDbPool = { connect(): Promise<DbClient> };
 
 type Signup = {
   email: string; role: string; location: string; salary: string; region?: string;
-  jobId: string; source: string; signupAttemptId: string;
+  jobId: string; source: string; signupAttemptId: string; signupDevice: "mobile" | "laptop" | "unknown";
   consentText: string; consentVersion: string; consentSource: string;
 };
 
@@ -112,12 +112,12 @@ export async function saveJobAlertSignupToNeon(
 
     const consent = (await client.query(
       "INSERT INTO ontap_shadow.consent_history " +
-      "(id, subscriber_id, user_email_id, purpose, action, wording_version, wording_text, source, occurred_at, evidence, idempotency_key) " +
-      "VALUES ($1, $2, $3, 'cpc_job_alerts', 'granted', $4, $5, $6, $7, $8::jsonb, $9) " +
+      "(id, subscriber_id, user_email_id, purpose, action, wording_version, wording_text, source, occurred_at, evidence, idempotency_key, signup_device) " +
+      "VALUES ($1, $2, $3, 'cpc_job_alerts', 'granted', $4, $5, $6, $7, $8::jsonb, $9, $10) " +
       "ON CONFLICT (idempotency_key) DO NOTHING RETURNING id",
       [consentId, subscriberId, userEmailId, signup.consentVersion, signup.consentText, signup.consentSource, createdAt,
         JSON.stringify({ signupAttemptId: signup.signupAttemptId, sourceJobPublicId: signup.jobId, preferenceKey: key }),
-        signup.signupAttemptId],
+        signup.signupAttemptId, signup.signupDevice],
     )).rows[0];
     await client.query("COMMIT");
 
