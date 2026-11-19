@@ -18,6 +18,11 @@ function shortText(value: unknown, maxLength = 120): string {
   return typeof value === "string" ? value.trim().slice(0, maxLength) : "";
 }
 
+function signupDevice(userAgent: string | null): "mobile" | "laptop" | "unknown" {
+  if (!userAgent) return "unknown";
+  return /android|iphone|ipad|ipod|mobile|tablet/i.test(userAgent) ? "mobile" : "laptop";
+}
+
 export async function POST(request: NextRequest) {
   if (!privateTestEnabled(process.env)) {
     return NextResponse.json({ error: "Job alerts are not available just yet." }, { status: 503 });
@@ -74,7 +79,7 @@ export async function POST(request: NextRequest) {
     const result = await saveJobAlert(alert, { env: process.env });
     if (!result.subscriptionActive) throw new Error("The email provider did not confirm an active subscription.");
     await saveJobAlertSignupToNeon({
-      ...alert, signupAttemptId, consentText: JOB_ALERT_CONSENT_TEXT,
+      ...alert, signupAttemptId, signupDevice: signupDevice(request.headers.get("user-agent")), consentText: JOB_ALERT_CONSENT_TEXT,
       consentVersion: JOB_ALERT_CONSENT_VERSION, consentSource: "apply_job_alert_signup",
     }, { env: process.env });
     await activateJobAlertSignupInNeon(email, { env: process.env });
