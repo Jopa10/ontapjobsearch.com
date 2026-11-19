@@ -141,8 +141,14 @@ try{
   const cleanup=await runMasterCleanup(c,{asOfDate:snapshot.feedDate,mode:'dry-run'});
   assert.equal(cleanup.mode,'dry-run');assert.equal(cleanup.purgedCount,0);
   const tracking=(await c.query("SELECT count(*)::int AS n FROM ontap_shadow.supplier_adverts a JOIN ontap_shadow.suppliers s ON s.id=a.supplier_id WHERE s.code='jobg8' AND a.raw_payload IS NOT NULL AND NOT EXISTS(SELECT 1 FROM ontap_shadow.advert_appearances aa WHERE aa.advert_id=a.id)")).rows[0].n;
+  const payloadCounts=(await c.query("SELECT count(*) FILTER (WHERE a.raw_payload IS NOT NULL)::int AS total_full_payloads,count(*) FILTER (WHERE a.raw_payload IS NOT NULL AND EXISTS(SELECT 1 FROM ontap_shadow.advert_appearances aa WHERE aa.advert_id=a.id AND aa.seen_on=$1::date))::int AS selected_today_full_payloads,count(*) FILTER (WHERE a.raw_payload IS NOT NULL AND NOT EXISTS(SELECT 1 FROM ontap_shadow.advert_appearances aa WHERE aa.advert_id=a.id AND aa.seen_on=$1::date))::int AS retained_absent_today_full_payloads FROM ontap_shadow.supplier_adverts a JOIN ontap_shadow.suppliers s ON s.id=a.supplier_id WHERE s.code='jobg8'",[snapshot.feedDate])).rows[0];
+  assert.equal(payloadCounts.selected_today_full_payloads,seen.size,'Current selected adverts are missing full master payloads');
+  const receiptCheck=(await c.query('SELECT count(*)::int AS n,max(record_count)::int AS record_count,max(state_sha256) AS state_sha256 FROM ontap_shadow.daily_refresh_receipts WHERE feed_date=$1::date',[snapshot.feedDate])).rows[0];
+  assert.equal(receiptCheck.n,1,'Expected exactly one refresh receipt for current date');
+  assert.equal(receiptCheck.record_count,seen.size,'Refresh receipt count differs from selected set');
+  assert.equal(receiptCheck.state_sha256,stateDigest,'Refresh receipt digest differs from verified selected state');
   const report={status:'passed',mode:'automatic_daily_master_refresh',feedDate:snapshot.feedDate,dateProvidedByRequest:false,amSourceGuardPassed:true,productionOutputRunId:snapshot.productionWorkflowRunId,selectedIds:seen.size,
-   reviewOnlyRowsSaved:0,excludedRowsSaved:0,masterPayloadRows:seen.size,appearanceRows:master.rows.length,decisionRows:master.decisions,
+   reviewOnlyRowsSaved:0,excludedRowsSaved:0,masterPayloadRows:seen.size,totalMasterPayloadRows:payloadCounts.total_full_payloads,currentSelectedFullPayloadRows:payloadCounts.selected_today_full_payloads,retainedAbsentTodayFullPayloadRows:payloadCounts.retained_absent_today_full_payloads,previousSelectedAbsentTodayCount:absentIds.length,appearanceRows:master.rows.length,decisionRows:master.decisions,refreshReceiptCount:receiptCheck.n,
    exactIdsPayloadsHashesPositionsDecisionsMatch:true,scopeCount:scopes.length,exactScopeOrderingMatch:true,
    insertedMasterRows:masterWrite.insertedMasterRows,updatedPayloadRows:masterWrite.updatedPayloadRows,unchangedMasterRows:masterWrite.unchangedMasterRows,
    changedFieldNotes:master.changedNotes,legacySelectedPayloadRowsRemoved:removedLegacyPayloadRows,legacySelectedRowsRemaining:leftover,
