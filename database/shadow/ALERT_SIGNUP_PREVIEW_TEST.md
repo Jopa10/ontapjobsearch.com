@@ -6,7 +6,8 @@ Status: code prepared on `feat/cpc-alert-neon-signup`; not merged or live. Do no
 
 1. Confirm PR #336's Preview schema migrations `001_initial.sql` through `004_master_cleanup_versions.sql` are already applied to the isolated Neon test database.
 2. Run `database/shadow/005_user_identity_for_alerts.sql` once in that same Neon database. It adds stable user IDs, separate email-address IDs, direct user links on preferences and delivery history, and address-linked consent records. It preserves any existing subscriber IDs.
-3. Confirm the Vercel Preview branch is `feat/cpc-alert-neon-signup` and has the Preview-only `ONTAP_SHADOW_DATABASE_URL`, Brevo, sender and unsubscribe settings. Do not use `DATABASE_URL` or production variables.
+3. Run `database/shadow/006_signup_device.sql` once in the same Neon database. It adds a coarse signup-device category (`mobile`, `laptop`/desktop browser, or `unknown`).
+4. Confirm the Vercel Preview branch is `feat/cpc-alert-neon-signup` and has the Preview-only `ONTAP_SHADOW_DATABASE_URL`, Brevo, sender and unsubscribe settings. Do not use `DATABASE_URL` or production variables.
 4. Verify `jnabon1108@gmail.com` is still unsubscribed in Brevo before the owner chooses to submit the new form. The earlier unsubscribe test is already complete; do not repeat it.
 
 ## Signup test
@@ -24,7 +25,7 @@ SELECT u.id AS user_id, ue.id AS user_email_id, ue.email, ue.alert_status,
        s.id AS subscriber_id, s.status AS subscriber_status,
        p.id AS preference_id, p.criteria, p.signup_job_public_id,
        c.id AS consent_id, c.action, c.wording_version, c.wording_text,
-       c.source, c.occurred_at, c.idempotency_key
+       c.source, c.occurred_at, c.idempotency_key, c.signup_device
 FROM ontap_shadow.users u
 JOIN ontap_shadow.user_emails ue ON ue.user_id = u.id
 JOIN ontap_shadow.subscribers s ON s.user_id = u.id AND s.user_email_id = ue.id
@@ -35,7 +36,7 @@ ORDER BY c.occurred_at DESC
 LIMIT 10;
 ```
 
-Expected: one canonical user, one associated address, the Leeds and selected region criteria, the clicked job's public ID, active delivery state, and a grant record with the exact displayed consent wording and a timestamp. A repeat network submission with the same signup attempt must not create a second consent row or preference.
+Expected: one canonical user, one associated address, the submitted role/location criteria, the clicked job's public ID, active delivery state, and a grant record with the exact displayed consent wording, timestamp, and detected signup device. A repeat network submission with the same signup attempt must not create a second consent row or preference.
 
 ## Isolation checks
 
