@@ -1,4 +1,4 @@
-import importlib.util,io,json,os,tempfile,unittest,zipfile
+import importlib.util,io,json,os,subprocess,tempfile,unittest,zipfile
 from datetime import datetime as RealDatetime
 from pathlib import Path
 from unittest.mock import patch
@@ -35,6 +35,22 @@ class ResolverTests(unittest.TestCase):
    self.assertEqual(r['productionOutputRunId'],int(day.replace('-','')))
  def test_yesterdays_publication_cannot_be_used_as_todays(self):
   with self.assertRaises(AssertionError):self.run_case('2026-11-18','2026-11-17')
+ def test_saved_feed_uses_automatically_derived_s3_key_without_url_secret(self):
+  source={'archiveDate':'2026-11-20','archiveKey':'jobg8/raw/2026-11-20.zip'}
+  with tempfile.TemporaryDirectory() as tmp:
+   def get_object(args,**kwargs):
+    self.assertEqual(args[:4],['aws','s3api','get-object','--bucket'])
+    self.assertEqual(args[args.index('--key')+1],'jobg8/raw/2026-11-20.zip')
+    self.assertEqual(args[args.index('--expected-bucket-owner')+1],'179402568934')
+    Path(args[-1]).write_bytes(b'saved-zip')
+    return subprocess.CompletedProcess(args,0,'{}','')
+   clean={k:v for k,v in os.environ.items() if k!='ONTAP_SAVED_FEED_URL'}
+   clean['RUNNER_TEMP']=tmp
+   with patch.object(m.subprocess,'run',side_effect=get_object),patch.dict(os.environ,clean,clear=True):
+    data,origin=m.restore_archive(source)
+  self.assertEqual(data,b'saved-zip')
+  self.assertEqual(origin['kind'],'S3 saved archive via GitHub OIDC')
+  self.assertEqual(origin['key'],'jobg8/raw/2026-11-20.zip')
  def test_missing_verified_live_commit_receipt_stops_discovery(self):
   with self.assertRaises(AssertionError):self.run_case('2026-11-18','2026-11-18',receipt=False)
 if __name__=='__main__':unittest.main()
