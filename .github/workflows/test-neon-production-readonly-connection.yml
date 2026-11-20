@@ -36,10 +36,10 @@ jobs:
         run: node database/shadow/harness/verify-production-connection-readonly.mjs
 
       - name: Save sanitized check report
-        if: always() && hashFiles(runner.temp + '/production-readonly-check-report.json') != ''
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: production-neon-readonly-check
           path: ${{ runner.temp }}/production-readonly-check-report.json
-          if-no-files-found: error
+          if-no-files-found: ignore
           retention-days: 30
