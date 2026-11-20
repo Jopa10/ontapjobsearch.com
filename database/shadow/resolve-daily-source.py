@@ -1,5 +1,5 @@
 """Resolve today's completed production publication and its exact saved inputs."""
-import base64,hashlib,io,json,os,re,sys,urllib.request,urllib.parse,urllib.error,zipfile,xml.etree.ElementTree as ET
+import base64,hashlib,io,json,os,re,subprocess,sys,urllib.request,urllib.parse,urllib.error,zipfile,xml.etree.ElementTree as ET
 from datetime import datetime
 import datetime as datetime_lib
 from pathlib import Path
@@ -72,27 +72,24 @@ def resolve():
  print('ONTAP_AUTOMATIC_DAILY_SOURCE '+json.dumps(result))
  return result
 def restore_archive(source):
- # Reuse a successfully prepared matching archived feed, never a supplier refetch.
- runs=api('/actions/runs?branch=feat%2Fneon-shadow-database&per_page=30')['workflow_runs']
- for run in runs:
-  if run['path']!='.github/workflows/test-neon-rule-change-replay.yml':continue
-  try:
-   request=json.loads(content('database/shadow/rule-replay-request.json',run['head_sha']))
-   if request.get('feedDate')!=source['archiveDate']:continue
-   jobs=api('/actions/runs/'+str(run['id'])+'/jobs')['jobs']
-   if not any(j['name']=='source' and j['conclusion']=='success' for j in jobs):continue
-   matches=[a for a in api('/actions/runs/'+str(run['id'])+'/artifacts')['artifacts'] if a['name']=='rule-replay-input' and not a['expired']]
-   if len(matches)!=1:continue
-   with zipfile.ZipFile(io.BytesIO(artifact_bytes(matches[0]))) as z:
-    candidates=[n for n in z.namelist() if n.endswith('feed.zip')]
-    assert len(candidates)==1
-    data=z.read(candidates[0])
-   return data,{'kind':'verified cached archive artifact','runId':run['id'],'artifactId':matches[0]['id']}
-  except (KeyError,ValueError):continue
- url=''.join(os.environ.get('ONTAP_SAVED_FEED_URL','').split())
- u=urllib.parse.urlparse(url)
- assert u.scheme=='https' and urllib.parse.unquote(u.path).endswith('/'+source['archiveDate']+'.zip'),'Saved URL does not identify automatically discovered current feed'
- return raw(url),{'kind':'dated S3 saved archive URL'}
+ # Read the saved production archive with the branch-scoped GitHub AWS identity.
+ # The feed date and S3 key come only from automatic publication discovery.
+ day=source['archiveDate']
+ key='jobg8/raw/'+day+'.zip'
+ assert source['archiveKey']==key,'Resolved archive key does not match the automatically discovered publication date'
+ path=Path(os.environ['RUNNER_TEMP'])/'daily-input'/'feed.zip'
+ path.parent.mkdir(parents=True,exist_ok=True)
+ result=subprocess.run(
+  ['aws','s3api','get-object','--bucket','ontap-jobg8-archive-179402568934-eu-west-2-an',
+   '--key',key,'--expected-bucket-owner','179402568934','--region','eu-west-2',str(path)],
+  text=True,capture_output=True,timeout=180)
+ if result.returncode:
+  message=(result.stderr or '').strip()[:600]
+  raise RuntimeError('Saved S3 archive read failed through the Preview AWS role: '+message)
+ data=path.read_bytes()
+ assert data,'Automatically retrieved saved feed archive is empty'
+ return data,{'kind':'S3 saved archive via GitHub OIDC','bucket':'ontap-jobg8-archive-179402568934-eu-west-2-an','key':key}
+
 def main():
  source=resolve()
  archive,origin=restore_archive(source)
