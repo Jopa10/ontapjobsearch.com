@@ -4,7 +4,7 @@ import test from "node:test";
 import { AlertLimitError, confirmationContent, savedAlerts, saveJobAlert } from "../lib/job-alert-signup";
 
 const env = {
-  VERCEL_ENV: "preview", VERCEL_GIT_COMMIT_REF: "feat/cpc-job-alerts-clean",
+  VERCEL_ENV: "preview", VERCEL_GIT_COMMIT_REF: "feat/cpc-alert-neon-signup",
   VERCEL_URL: "ontap-test.vercel.app", CPC_JOB_ALERTS_ENABLED: "true",
   BREVO_JOB_ALERTS_LIST_ID: "3", BREVO_API_KEY: "fake",
   JOB_ALERTS_UNSUBSCRIBE_SECRET: "fake", BREVO_SENDER_EMAIL: "jobs@ontapjobsearch.com",

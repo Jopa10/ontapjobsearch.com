@@ -35,7 +35,7 @@ class CpcJobAlertMatchingTests(unittest.TestCase):
         self.assertFalse(is_cpc_job("JobG8", "https://example.com/apply"))
         self.assertFalse(is_cpc_job("JobG8", "https://jobg8.com/Traffic.aspx?x"))
 
-    def test_alert_matches_role_location_and_overlapping_salary(self):
+    def test_alert_matches_role_location_and_minimum_salary(self):
         attributes = {
             "ALERT_ROLE": "Receptionist",
             "ALERT_LOCATION": "Bristol",
@@ -372,9 +372,9 @@ class AgreedMatchingRulesTests(unittest.TestCase):
         self.assertFalse(matches_alert(self.attrs(ALERT_LOCATION="Yorkshire - West"),
                                        self.job(region="Yorkshire - South")))
 
-    def test_overlap_and_separated_ranges(self):
+    def test_minimum_salary_threshold(self):
         self.assertTrue(matches_alert(self.attrs(), self.job()))
-        self.assertFalse(matches_alert(self.attrs(), self.job(salary_text="£33-35k")))
+        self.assertTrue(matches_alert(self.attrs(), self.job(salary_text="£33-35k")) )
         self.assertTrue(matches_alert(self.attrs(), self.job(salary_text="£32k")))
         self.assertFalse(matches_alert(self.attrs(), self.job(salary_text="£20,000 - £25,000 annually")))
 
@@ -470,7 +470,7 @@ class MultipleAlertTests(unittest.TestCase):
             {"job_id": "4", "title": "Receptionist", "location": "Leeds", "salary_text": "£35k"},
         ]
         result = matching_jobs(attrs, jobs + jobs)
-        self.assertEqual([j["job_id"] for j in result], ["1", "2"])
+        self.assertEqual([j["job_id"] for j in result], ["1", "2", "4"])
         self.assertEqual(len(result), 2)
 
     def test_malformed_storage_fails_closed_and_legacy_still_matches(self):

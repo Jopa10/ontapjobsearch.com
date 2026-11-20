@@ -1,7 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getPublishedJob } from "@/lib/published-jobs";
 import { isCpcJobAlertEligible } from "@/lib/cpc-job-alerts";
-import { AlertLimitError, saveJobAlert } from "@/lib/job-alert-signup";
+import { AlertLimitError, saveJobAlert, PRIVATE_SIGNUP_TEST_EMAILS } from "@/lib/job-alert-signup";
+import { privateTestEnabled } from "@/lib/private-job-alert-test";
+import { isValidJobAlertConsent, JOB_ALERT_CONSENT_TEXT, JOB_ALERT_CONSENT_VERSION } from "@/lib/job-alert-consent";
+import { saveJobAlertSignupToNeon, activateJobAlertSignupInNeon } from "@/lib/neon-email-alerts";
 
 export const runtime = "nodejs";
 
@@ -15,9 +18,13 @@ function shortText(value: unknown, maxLength = 120): string {
   return typeof value === "string" ? value.trim().slice(0, maxLength) : "";
 }
 
+function signupDevice(userAgent: string | null): "mobile" | "laptop" | "unknown" {
+  if (!userAgent) return "unknown";
+  return /android|iphone|ipad|ipod|mobile|tablet/i.test(userAgent) ? "mobile" : "laptop";
+}
+
 export async function POST(request: NextRequest) {
-  if (process.env.CPC_JOB_ALERTS_ENABLED !== "true" ||
-      (process.env.VERCEL_ENV === "production" && process.env.CPC_JOB_ALERTS_LIVE_ENABLED !== "true")) {
+  if (!privateTestEnabled(process.env)) {
     return NextResponse.json({ error: "Job alerts are not available just yet." }, { status: 503 });
   }
   const origin = request.headers.get("origin");
@@ -43,6 +50,10 @@ export async function POST(request: NextRequest) {
   }
 
   const email = shortText(body.email, 254).toLowerCase();
+  const signupAttemptId = shortText(body.signupAttemptId, 36);
+  if (!PRIVATE_SIGNUP_TEST_EMAILS.includes(email) || !isValidJobAlertConsent(body.consent, signupAttemptId)) {
+    return NextResponse.json({ error: "Please confirm consent to job-alert emails and check your details." }, { status: 400 });
+  }
   const jobId = shortText(body.jobId, 100);
   const role = shortText(body.role);
   const location = shortText(body.location);
@@ -64,17 +75,21 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const result = await saveJobAlert(
-      { email, role, location, salary, region: body.includeRegion === true && job.region !== location ? job.region : "", jobId: job.job_id, source: job.source },
-      { env: process.env },
-    );
+    const alert = { email, role, location, salary, region: body.includeRegion === true && job.region !== location ? job.region : "", jobId: job.job_id, source: job.source };
+    const result = await saveJobAlert(alert, { env: process.env });
+    if (!result.subscriptionActive) throw new Error("The email provider did not confirm an active subscription.");
+    await saveJobAlertSignupToNeon({
+      ...alert, signupAttemptId, signupDevice: signupDevice(request.headers.get("user-agent")), consentText: JOB_ALERT_CONSENT_TEXT,
+      consentVersion: JOB_ALERT_CONSENT_VERSION, consentSource: "apply_job_alert_signup",
+    }, { env: process.env });
+    await activateJobAlertSignupInNeon(email, { env: process.env });
     if (!result.confirmationSent && !result.unchanged) {
       console.warn("Alert saved; signup confirmation was not accepted or is awaiting retry.");
     }
-    return NextResponse.json(result);
+    return NextResponse.json({ ...result, neonSaved: true });
   } catch (error) {
     if (error instanceof AlertLimitError) return NextResponse.json({ error: error.message }, { status: 409 });
-    console.error("Brevo job-alert signup failed");
+    console.error("Preview job-alert signup or Neon write failed");
     return NextResponse.json({ error: "We couldn't save your alert just now. Please try again." }, { status: 502 });
   }
 }

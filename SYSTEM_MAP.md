@@ -3,7 +3,7 @@ Total output lines: 420
 
 # Ontap System Map
 
-**Last updated:** 10 November 2026
+**Last updated:** 18 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -11,6 +11,8 @@ Total output lines: 420
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 18 November 2026 — **Private CPC alert signup wired for isolated Preview testing:** the signup form now requires an unchecked-by-default, versioned email consent; the Preview API records the canonical user, address, alert preference and consent in `ontap_shadow` after Brevo accepts the address. This code is on `feat/cpc-alert-neon-signup`; it is not merged or live. `jnabon1108@gmail.com` is allowed only through the signup path and remains excluded from daily private sends. The additive user-identity migration must be applied to the Preview database before the owner submits the signup. Production storage and public delivery remain off.
 
 - 10 November 2026 — **Eleven requested region/family pages registered for the next feed:** added the exact owner-requested pairs to the LIVE register and configured Lancashire - Blackpool & Fylde with its established slug and Blackpool anchor from `england_assessable_regions.json`. The next daily JobG8 run will generate their pipeline outputs. No public page data or production deployment is changed by registration; keep the verified publisher blocked until each output's counts and exact job IDs are reconciled against the existing inventory.
 

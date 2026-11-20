@@ -230,7 +230,9 @@ def _salary_decision(preference: str, job: dict[str, Any]) -> tuple[bool, str]:
             return True, raw + " · Full-time equivalent—actual part-time pay unclear"
     if not preferred:
         return True, label
-    p_low, p_high, p_period = preferred
+    # The saved salary is a minimum threshold. A job matches when its advertised
+    # range reaches that amount; older saved ranges use their lower end as the floor.
+    p_low, _p_high, p_period = preferred
     if p_period != period:
         hours = _weekly_hours(job)
         if hours and {p_period, period} == {"hour", "year"}:
@@ -241,7 +243,7 @@ def _salary_decision(preference: str, job: dict[str, Any]) -> tuple[bool, str]:
                 p_period = "year"
         else:
             return True, label + " · Salary not comparable with your preference"
-    return low <= p_high and high >= p_low, label
+    return high >= p_low, label
 
 
 def _salary_matches(preference: str, job_salary: str) -> bool:

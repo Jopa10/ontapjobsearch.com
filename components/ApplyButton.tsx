@@ -4,8 +4,24 @@ import { useEffect, useRef, useState, type FormEvent, type MouseEvent } from "re
 import { sessionReferralForApplyClick } from "@/lib/session-referral";
 import { buildApplyClickParameters, type ApplyClickDetails } from "@/lib/apply-click-tracking";
 import { isCpcJobAlertEligible } from "@/lib/cpc-job-alerts";
+import { JOB_ALERT_CONSENT_TEXT } from "@/lib/job-alert-consent";
 
 type AlertState = "editing" | "saving" | "saved" | "failed";
+
+function minimumPayFromAdvert(value: string): string {
+  const text = value.trim();
+  if (!text || /\b(?:salary not stated|competitive|negotiable|up to)\b/i.test(text)) return "";
+  const match = text.match(/£?\s*(\d[\d,]*(?:\.\d+)?)\s*(k)?(?:\s*(?:-|–|—|to)\s*£?\s*(\d[\d,]*(?:\.\d+)?)\s*(k)?)?/i);
+  if (!match) return "";
+
+  const lower = Number(match[1].replace(/,/g, ""));
+  if (!Number.isFinite(lower) || lower <= 0) return "";
+  const thousands = match[2] || (match[4] && lower < 1000 ? "k" : "");
+  const unit = text.match(/\bper\s+(?:hour|day|week|month|year)\b|\b(?:ph|pa)\b|(?<=\d)ph\b|(?<=\d)pa\b|p\.a\./i)?.[0];
+  const period = unit || (lower * (thousands ? 1000 : 1) >= 1000 ? "per year" : "");
+  if (!period) return "";
+  return `£${match[1]}${thousands} ${period}`;
+}
 
 export default function ApplyButton({
   apply_url, job_id, title, employer, location, region, source, slice_path, salary_text = "",
@@ -16,9 +32,11 @@ export default function ApplyButton({
   const [role, setRole] = useState(title);
   const [alertLocation, setAlertLocation] = useState(location);
   const [includeRegion, setIncludeRegion] = useState(Boolean(region && region !== location));
-  const [salary, setSalary] = useState(salary_text);
+  const [salary, setSalary] = useState(minimumPayFromAdvert(salary_text));
   const [errorMessage, setErrorMessage] = useState("");
   const [website, setWebsite] = useState("");
+  const [consent, setConsent] = useState(false);
+  const [signupAttemptId, setSignupAttemptId] = useState("");
   const emailRef = useRef<HTMLInputElement>(null);
   const eligible = process.env.NEXT_PUBLIC_CPC_JOB_ALERTS_ENABLED === "true" && isCpcJobAlertEligible(source, apply_url);
 
@@ -58,7 +76,9 @@ export default function ApplyButton({
     setRole(title);
     setAlertLocation(location);
     setIncludeRegion(Boolean(region && region !== location));
-    setSalary(salary_text);
+    setSalary(minimumPayFromAdvert(salary_text));
+    setConsent(false);
+    setSignupAttemptId(window.crypto.randomUUID());
     setState("editing");
     setErrorMessage("");
     setOpen(true);
@@ -70,13 +90,18 @@ export default function ApplyButton({
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    if (!consent || !signupAttemptId) {
+      setErrorMessage("Please confirm you want Ontap job-alert emails before saving.");
+      setState("failed");
+      return;
+    }
     setState("saving");
     setErrorMessage("");
     try {
       const response = await fetch("/api/job-alerts", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email, jobId: job_id, role, location: alertLocation, salary, includeRegion, website }),
+        body: JSON.stringify({ email, jobId: job_id, role, location: alertLocation, salary, includeRegion, website, consent, signupAttemptId }),
       });
       if (!response.ok) {
         const result = (await response.json().catch(() => null)) as { error?: string } | null;
@@ -119,27 +144,33 @@ export default function ApplyButton({
                 <h2 id="job-alert-title" style={{ margin: "8px 42px 8px 0", fontSize: 25, lineHeight: 1.25 }}>Get alerts for this job + similar roles</h2>
                 
                 <label htmlFor="job-alert-email" style={{ display: "block", margin: "12px 0 5px", fontSize: 14, fontWeight: 600 }}>Email address</label>
-                <input ref={emailRef} id="job-alert-email" type="email" autoComplete="email" required disabled={state === "saving"} maxLength={254} value={email} onChange={event => setEmail(event.target.value)} placeholder="you@example.com"
+                <input ref={emailRef} id="job-alert-email" type="email" autoComplete="email" required disabled={state === "saving"} maxLength={254} value={email} onChange={event => { setEmail(event.target.value); setConsent(false); setSignupAttemptId(window.crypto.randomUUID()); }} placeholder="you@example.com"
                   style={{ width: "100%", height: 42, padding: "9px 11px", border: "1px solid #cbd5e1", borderRadius: 6, background: "#fff", color: "#171717", font: "inherit" }} />
                 <div className="cpc-job-alert-preference-panel" style={{ margin: "10px 0", padding: "10px 12px", background: "#f8fafc", border: "1px solid #dbe3ee", borderRadius: 8 }}>
                   <div style={{ marginBottom: 6, fontSize: 14, fontWeight: 600 }}>New alert preferences — change anything</div>
                   <div className="cpc-job-alert-preferences">
-                    {([["Job clicked on + similar roles", role, setRole], ["Location", alertLocation, setAlertLocation], ["Salary", salary, setSalary]] as const).map(([label, value, setValue]) => (
+                    {([["Job clicked on + similar roles", role, setRole], ["Location", alertLocation, setAlertLocation], ["Minimum pay (optional)", salary, setSalary]] as const).map(([label, value, setValue]) => (
                       <label key={label} style={{ display: "block", margin: "4px 0", color: "#475569", fontSize: 14 }}>
                         {label}
-                        <input type="text" required={label === "Job clicked on + similar roles" || label === "Location"} disabled={state === "saving"} maxLength={120} value={value} onChange={event => setValue(event.target.value)}
+                        <input type="text" required={label === "Job clicked on + similar roles" || label === "Location"} disabled={state === "saving"} maxLength={120} value={value} onChange={event => { setValue(event.target.value); setConsent(false); setSignupAttemptId(window.crypto.randomUUID()); }} placeholder={label === "Minimum pay (optional)" ? "e.g. £13 per hour or £32,000 per year" : undefined}
                           style={{ display: "block", width: "100%", height: 38, marginTop: 3, padding: "8px 10px", border: "1px solid #cbd5e1", borderRadius: 6, background: "#fff", color: "#171717", font: "inherit" }} />
+                        {label === "Minimum pay (optional)" ? <span style={{ display: "block", marginTop: 3, color: "#64748b", fontSize: 11, lineHeight: 1.3 }}>Leave blank for any pay, or enter the minimum pay you’d consider.</span> : null}
                       </label>
                     ))}
                   </div>
                 </div>
-                {region && region !== location ? <label style={{ display: "flex", gap: 9, alignItems: "flex-start", margin: "8px 0 2px", color: "#334155", fontSize: 14, lineHeight: 1.4 }}><input type="checkbox" checked={includeRegion} disabled={state === "saving"} onChange={event => setIncludeRegion(event.target.checked)} style={{ marginTop: 3 }} /><span>Also include the wider region: <strong>{region === "Yorkshire - West" ? "West Yorkshire" : region}</strong></span></label> : null}
+                {region && region !== location ? <label style={{ display: "flex", gap: 9, alignItems: "flex-start", margin: "8px 0 2px", color: "#334155", fontSize: 14, lineHeight: 1.4 }}><input type="checkbox" checked={includeRegion} disabled={state === "saving"} onChange={event => { setIncludeRegion(event.target.checked); setConsent(false); setSignupAttemptId(window.crypto.randomUUID()); }} style={{ width: 26, height: 26, flex: "0 0 26px", marginTop: 0, accentColor: "#2563eb" }} /><span>Also include the wider region: <strong>{region === "Yorkshire - West" ? "West Yorkshire" : region}</strong></span></label> : null}
                 </div>
                 <div className="cpc-job-alert-actions">
-                <button type="submit" disabled={state === "saving"} style={{ width: "100%", border: 0, borderRadius: 7, padding: "12px 15px", background: state === "saving" ? "#94a3b8" : "#1d4ed8", color: "#fff", font: "inherit", fontWeight: 700, cursor: state === "saving" ? "wait" : "pointer" }}>
+                <label style={{ display: "flex", gap: 9, alignItems: "flex-start", margin: "10px 0 8px", color: "#334155", fontSize: 13, lineHeight: 1.45 }}>
+                  <input type="checkbox" required checked={consent} disabled={state === "saving"} onChange={event => { setConsent(event.target.checked); setSignupAttemptId(window.crypto.randomUUID()); }} style={{ width: 26, height: 26, flex: "0 0 26px", marginTop: 0, accentColor: "#2563eb" }} />
+                  <span>{JOB_ALERT_CONSENT_TEXT}</span>
+                </label>
+                {!consent ? <p style={{ margin: "4px 0 8px", color: "#64748b", fontSize: 12, lineHeight: 1.4 }}>Tick the box above to save an alert. “No thanks” continues without one.</p> : null}
+                <button type="submit" disabled={state === "saving" || !consent} style={{ width: "100%", border: 0, borderRadius: 7, padding: "12px 15px", background: state === "saving" ? "#94a3b8" : consent ? "#1d4ed8" : "#94a3b8", color: "#fff", font: "inherit", fontWeight: 700, cursor: state === "saving" ? "wait" : consent ? "pointer" : "not-allowed" }}>
                   {state === "saving" ? "Saving your alert…" : "Yes — save alert and continue to apply"}
                 </button>
-                <button type="button" disabled={state === "saving"} onClick={continueToEmployer} style={{ display: "block", marginTop: 4, marginBottom: 0, padding: "8px 0", border: 0, background: "transparent", color: "#1d4ed8", font: "inherit", textDecoration: "underline", cursor: "pointer" }}>No thanks — continue to apply</button>
+                <button type="button" disabled={state === "saving"} onClick={continueToEmployer} style={{ display: "block", width: "fit-content", margin: "4px auto 0", padding: "8px 0", border: 0, background: "transparent", color: "#1d4ed8", font: "inherit", textDecoration: "underline", cursor: "pointer" }}>No thanks — continue to apply</button>
                 <p style={{ margin: "6px 0 0", color: "#64748b", fontSize: 12, lineHeight: 1.4 }}>Save up to 10 different alerts per email. New preferences add an alert. Matches arrive in one daily email. Unsubscribe stops all alerts.</p>
                 </div>
                 <label aria-hidden="true" style={{ position: "absolute", left: -10000, width: 1, height: 1, overflow: "hidden" }}>Leave this field empty<input tabIndex={-1} autoComplete="off" name="website" value={website} onChange={event => setWebsite(event.target.value)} /></label>
