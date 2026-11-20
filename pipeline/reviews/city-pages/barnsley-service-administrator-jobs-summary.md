@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 12
-- automatic exclude: 68
-- effective include: 9
-- effective review: 12
-- effective exclude: 68
+- automatic include: 6
+- automatic review: 11
+- automatic exclude: 65
+- effective include: 6
+- effective review: 11
+- effective exclude: 65
 
-## INCLUDE (9)
+## INCLUDE (6)
 
 ---
 action: 
@@ -44,7 +44,7 @@ title: Assistant Credit Controller
 company: Elevation Recruitment Group - Agency - Permanent
 location: Barnsley
 source: JobG8
-job_id: jobg8-2323146
+job_id: jobg8-2365699
 reason: Approved Barnsley catchment.
 ---
 
@@ -52,23 +52,11 @@ reason: Approved Barnsley catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Commercial Property Assistant
+title: Conveyancing Assistant
 company: SJC Partners - Agency - Permanent
 location: Barnsley
 source: JobG8
-job_id: jobg8-2171014
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Elevation Recruitment Group - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-2169132
+job_id: jobg8-2399824
 reason: Approved Barnsley catchment.
 ---
 
@@ -81,30 +69,6 @@ company: EE - Company - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-20279_64721-73c6bdafd2de8d1f8e432733f85ddafd
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Family Legal Secretary
-company: G2 Legal Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-2175263
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Practice Bookkeeper
-company: IPS Group - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-2175838
 reason: Approved Barnsley catchment.
 ---
 
@@ -132,7 +96,7 @@ job_id: jobg8-23643_225846974
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -142,7 +106,7 @@ title: Accounts Payable (temp - perm)
 company: Michael Page Finance - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2307843
+job_id: jobg8-2399288
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -186,35 +150,11 @@ reason: No approved Barnsley catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Family Legal Secretary
-company: SJC Partners - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2176216
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior Digital Marketing Executive
-company: Back TO Work - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225829077
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Executive
 company: Austin Banks - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2194156
+job_id: jobg8-2373523
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -238,7 +178,19 @@ title: Payroll Officer
 company: Portfolio Payroll - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2307073
+job_id: jobg8-2359579
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2364613
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -250,7 +202,7 @@ title: Purchase Ledger Clerk
 company: Sharp Consultancy - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2308189
+job_id: jobg8-2359627
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -262,7 +214,7 @@ title: Trade Mark Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2314650
+job_id: jobg8-2369032
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -274,11 +226,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2340994
+job_id: jobg8-2397641
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (68)
+## EXCLUDE (65)
 
 ---
 action: 
@@ -300,7 +252,7 @@ title: Accounts Receivable Officer
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2335257
+job_id: jobg8-2387649
 reason: Separate employment market.
 ---
 
@@ -312,7 +264,7 @@ title: Activity Coordinator
 company: Cygnet - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2305119
+job_id: jobg8-2390551
 reason: Separate employment market.
 ---
 
@@ -348,7 +300,7 @@ title: Audience Development Coordinator - Local Authority - Libraries
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2309570
+job_id: jobg8-2359207
 reason: Separate employment market.
 ---
 
@@ -360,7 +312,7 @@ title: Bookkeeper
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2305405
+job_id: jobg8-2385781
 reason: Separate employment market.
 ---
 
@@ -396,7 +348,7 @@ title: Central Transport Purchasing Administrator
 company: ReFood - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2344578
+job_id: jobg8-2390454
 reason: Separate employment market.
 ---
 
@@ -492,7 +444,7 @@ title: Customer Service Advisor
 company: Blundells - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2303130
+job_id: jobg8-2388888
 reason: Separate employment market.
 ---
 
@@ -552,7 +504,7 @@ title: Debt Recovery Paralegal
 company: CRA Consulting - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2347074
+job_id: jobg8-2365206
 reason: Separate employment market.
 ---
 
@@ -564,7 +516,7 @@ title: Demobilisation Fleet and Asset Coordinator
 company: Morgan Sindall Property Services - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2341692
+job_id: jobg8-2390804
 reason: Separate employment market.
 ---
 
@@ -584,11 +536,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: GP Receptionist
-company: Elm Lane & Chapeltown Surgery
-location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
-source: NHS Jobs
-job_id: nhs-5725305
+title: Education Delivery Coordinator, Alternative Provision South Yorkshire (new Yorkshire office opening early 2027)
+company: AP Education - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225830921
 reason: Separate employment market.
 ---
 
@@ -624,19 +576,7 @@ title: Insolvency Case Administrator
 company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2308169
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Junior Digital Marketing Executive
-company: Back TO Work - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225829076
+job_id: jobg8-2377837
 reason: Separate employment market.
 ---
 
@@ -660,7 +600,7 @@ title: Marketing and Communications Officer
 company: Get Staffed Online Recruitment Limited - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2310894
+job_id: jobg8-2382373
 reason: Separate employment market.
 ---
 
@@ -720,7 +660,7 @@ title: Paralegal
 company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2345326
+job_id: jobg8-2360201
 reason: Separate employment market.
 ---
 
@@ -744,7 +684,7 @@ title: Part Time Accounts Assistant
 company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2316529
+job_id: jobg8-2365610
 reason: Separate employment market.
 ---
 
@@ -756,7 +696,7 @@ title: Part-time Payroll Admin
 company: Portfolio Payroll - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2319470
+job_id: jobg8-2359784
 reason: Separate employment market.
 ---
 
@@ -768,7 +708,7 @@ title: Payroll Administrator
 company: Chase and Holland Recruitment Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2324029
+job_id: jobg8-2361743
 reason: Separate employment market.
 ---
 
@@ -792,7 +732,7 @@ title: Payroll Administrator
 company: Elevation Recruitment Group - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2191592
+job_id: jobg8-2363027
 reason: Separate employment market.
 ---
 
@@ -804,7 +744,7 @@ title: Payroll Administrator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2307405
+job_id: jobg8-2398944
 reason: Separate employment market.
 ---
 
@@ -816,7 +756,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2177843
+job_id: jobg8-2358585
 reason: Separate employment market.
 ---
 
@@ -828,7 +768,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2306291
+job_id: jobg8-2396665
 reason: Separate employment market.
 ---
 
@@ -852,7 +792,7 @@ title: Payroll Administrator
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2348115
+job_id: jobg8-2386656
 reason: Separate employment market.
 ---
 
@@ -864,7 +804,7 @@ title: Payroll Administrator - Local Authority
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2327967
+job_id: jobg8-2361759
 reason: Separate employment market.
 ---
 
@@ -876,7 +816,7 @@ title: Payroll Assistant
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2330504
+job_id: jobg8-2386390
 reason: Separate employment market.
 ---
 
@@ -908,35 +848,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Purchase Ledger
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2178302
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Clerk
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2176622
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Purchase Ledger Clerk
 company: Elevation Recruitment Group - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2204103
+job_id: jobg8-2363386
 reason: Separate employment market.
 ---
 
@@ -1028,23 +944,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Secretary / Assistant EA
-company: Edwards & Pearce - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225747598
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: SEO Executive
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2336931
+job_id: jobg8-2361989
 reason: Separate employment market.
 ---
 
@@ -1068,7 +972,7 @@ title: Temp Accounts Assistant - Charity Organisation
 company: Office Angels - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2316779
+job_id: jobg8-2383578
 reason: Separate employment market.
 ---
 
@@ -1081,6 +985,18 @@ company: CCA Recruitment Group - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225789027
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Transactional Finance Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225796381
 reason: Separate employment market.
 ---
 

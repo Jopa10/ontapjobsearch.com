@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 14
+- automatic include: 8
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 13
-- effective review: 14
+- effective include: 8
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (8)
 
 ---
 action: 
@@ -40,47 +40,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-2345567
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-2169240
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Administration Assistant
 company: Humber Teaching NHS Foundation Trust
 location: Hull, HU3 2RT
 source: NHS Jobs
 job_id: nhs-5719125
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU3 2JZ
-source: NHS Jobs
-job_id: nhs-5718162
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -116,7 +80,7 @@ title: Customer Service Assistant (PFI)
 company: Riverside Group - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-2338677
+job_id: jobg8-2375881
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -128,31 +92,7 @@ title: Facilities Coordinator - 12 Month FTC - Hull
 company: qed legal - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-2192471
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Procurement Administrator ( Part-Time)
-company: GlobalData UK Ltd - Company - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225754589
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part-time Payroll specialist
-company: Portfolio Payroll - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-2178612
+job_id: jobg8-2371486
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -180,7 +120,7 @@ job_id: jobg8-23643_225818060
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (12)
 
 ---
 action: 
@@ -190,19 +130,7 @@ title: AAT Accounts Assistant - Practice
 company: Si Recruitment - Agency - Permanent
 location: Goole
 source: JobG8
-job_id: jobg8-2306738
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Administrator
-company: Scientific Laboratory Supplies - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-2192112
+job_id: jobg8-2398432
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -222,11 +150,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Cottingham, HU16 5JQ
-source: NHS Jobs
-job_id: nhs-5718208
+title: Accounts Receivable Administrator
+company: Scientific Laboratory Supplies - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-2389086
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -238,7 +166,7 @@ title: Finance Assistant
 company: Consortium Professional Recruitment - Agency - Permanent
 location: Hessle
 source: JobG8
-job_id: jobg8-2344106
+job_id: jobg8-2391448
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -258,11 +186,23 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Material & Logistics Planner
+company: Rullion Limited - Agency - Temporary
+location: Goole
+source: JobG8
+job_id: jobg8-108339348
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: Si Recruitment - Agency - Permanent
 location: Goole
 source: JobG8
-job_id: jobg8-2183319
+job_id: jobg8-2358022
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -275,18 +215,6 @@ company: Consortium Professional Recruitment Ltd - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-23643_225797818
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Bridlington
-source: JobG8
-job_id: jobg8-2178394
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -310,7 +238,7 @@ title: Sales Ledger Clerk
 company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2305409
+job_id: jobg8-2392956
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -334,19 +262,7 @@ title: Temporary Bookkeeper
 company: KD Recruitment Limited - Agency - Permanent
 location: Bridlington
 source: JobG8
-job_id: jobg8-2298443
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Visits Receptionist
-company: Forward Trust - Agency - Permanent
-location: Full Sutton
-source: JobG8
-job_id: jobg8-23643_225753087
+job_id: jobg8-2385601
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

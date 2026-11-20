@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 23
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 15
-- effective review: 23
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: Butler Rose - Agency - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2318064
+job_id: jobg8-2393194
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -44,7 +44,7 @@ title: Accounts Assistant
 company: Get Recruited (UK) Ltd - Agency - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2207159
+job_id: jobg8-2363504
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -92,7 +92,7 @@ title: Credit Controller
 company: Get Recruited (UK) Ltd - Agency - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2207169
+job_id: jobg8-2363505
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -116,7 +116,7 @@ title: Credit Controller (Temporary)
 company: Get Recruited (UK) Ltd - Agency - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2207086
+job_id: jobg8-2363501
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -140,7 +140,7 @@ title: Finance Assistant
 company: Get Recruited (UK) Ltd - Agency - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2207228
+job_id: jobg8-2363506
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -176,7 +176,7 @@ title: Payroll Administrator
 company: McLennan Knight Recruitment Limited - Agency - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2336027
+job_id: jobg8-2396419
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -200,11 +200,11 @@ title: Service Advisor - Audi Macclesfield
 company: Group 1 Automotive - Company - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2349543
+job_id: jobg8-2379182
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (22)
 
 ---
 action: 
@@ -214,7 +214,7 @@ title: Accounts Assistant
 company: Acorn by Synergie - Agency - Permanent
 location: Crewe
 source: JobG8
-job_id: jobg8-2315473
+job_id: jobg8-2361612
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -226,7 +226,7 @@ title: Accounts Assistant
 company: Adecco - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2345637
+job_id: jobg8-23643_225849436
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -235,10 +235,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: KPI Recruiting - Agency - Permanent
+company: Adecco - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2328150
+job_id: jobg8-2384214
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -259,10 +259,22 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
+company: KPI Recruiting - Agency - Permanent
+location: Middlewich
+source: JobG8
+job_id: jobg8-2391231
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
 company: Platinum Recruitment Group - Agency - Permanent
 location: Wilmslow
 source: JobG8
-job_id: jobg8-2315044
+job_id: jobg8-2365584
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -274,7 +286,7 @@ title: Accounts Assistant - Supplier Rebates
 company: Axon Moore Group Ltd - Agency - Permanent
 location: Knutsford
 source: JobG8
-job_id: jobg8-2330557
+job_id: jobg8-2366220
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -286,7 +298,7 @@ title: Accounts Clerk
 company: Dickson O&;Brien Associates - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2329964
+job_id: jobg8-2374800
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -310,19 +322,7 @@ title: Accounts Payable Officer
 company: Michael Page Finance - Agency - Permanent
 location: Cheshire
 source: JobG8
-job_id: jobg8-2335094
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: AMB Recruitment Group - Agency - Permanent
-location: Knutsford
-source: JobG8
-job_id: jobg8-23643_225752911
+job_id: jobg8-2376643
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -342,11 +342,23 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Audit & Accounts Assistant
+company: Reed - Agency - Permanent
+location: Nantwich
+source: JobG8
+job_id: jobg8-2398570
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit controller
 company: Robert Walters - Agency - Permanent
 location: Wilmslow
 source: JobG8
-job_id: jobg8-2188574
+job_id: jobg8-2373349
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -366,30 +378,6 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Finance & Administration Coordinator
-company: Adecco - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-2168706
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance & Administration Coordinator
-company: Adecco - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225753338
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Administrator
 company: Forrest Recruitment - Agency - Permanent
 location: Cheshire
@@ -402,11 +390,11 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Junior Administrator
-company: ECS Recruitment Consultants Ltd - Agency - Permanent
-location: Wilmslow
+title: MARAC & DAFSU Co-ordinator
+company: Belmont Recruitment - Agency - Contract
+location: Crewe
 source: JobG8
-job_id: jobg8-108223251
+job_id: jobg8-23643_225850618
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -414,11 +402,11 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Office Coordinator
-company: Forrest Recruitment - Agency - Permanent
-location: Wilmslow
+title: Operations Administrator - Part Time
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Crewe
 source: JobG8
-job_id: jobg8-23643_225755757
+job_id: jobg8-23643_225850437
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -442,7 +430,7 @@ title: Payroll Assistant
 company: PARALLEL RECRUITMENT LTD - Agency - Permanent
 location: Wilmslow
 source: JobG8
-job_id: jobg8-2188848
+job_id: jobg8-2395414
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -454,7 +442,7 @@ title: Purchase Ledger Clerk
 company: Kenneth Brian Associates Limited - Agency - Permanent
 location: Wilmslow
 source: JobG8
-job_id: jobg8-2210598
+job_id: jobg8-2381947
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -466,7 +454,7 @@ title: Purchase Ledger Clerk
 company: Michael Page Finance - Agency - Permanent
 location: Crewe
 source: JobG8
-job_id: jobg8-2309568
+job_id: jobg8-2373099
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/swansea/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 8
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 9
+- effective include: 8
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -40,11 +40,11 @@ reason: Exact approved Swansea workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Automotive Service Advisor
-company: AKA The Recruitment Specialists - Agency - Permanent
+title: Customer Service Advisor
+company: Acorn by Synergie - Agency - Temporary
 location: Swansea
 source: JobG8
-job_id: jobg8-23643_225753695
+job_id: jobg8-23643_225850283
 reason: Exact approved Swansea workplace.
 ---
 
@@ -68,7 +68,7 @@ title: Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Swansea
 source: JobG8
-job_id: jobg8-2332139
+job_id: jobg8-2379299
 reason: Exact approved Swansea workplace.
 ---
 
@@ -80,7 +80,7 @@ title: Mortgage Administrator
 company: KFS Recruitment - Agency - Permanent
 location: Swansea
 source: JobG8
-job_id: jobg8-2306058
+job_id: jobg8-2379690
 reason: Exact approved Swansea workplace.
 ---
 
@@ -93,18 +93,6 @@ company: CPS Group (UK) Limited - Agency - Permanent
 location: Swansea
 source: JobG8
 job_id: jobg8-23643_225781406
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Reservations & Sales Support
-company: Real Adventure Group - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225807188
 reason: Exact approved Swansea workplace.
 ---
 
@@ -128,7 +116,7 @@ title: Service Advisor
 company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Swansea
 source: JobG8
-job_id: jobg8-2188341
+job_id: jobg8-2367598
 reason: Exact approved Swansea workplace.
 ---
 
@@ -154,7 +142,7 @@ title: Bookkeeper
 company: Robert Half - Agency - Permanent
 location: Bridgend
 source: JobG8
-job_id: jobg8-2347247
+job_id: jobg8-2393829
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

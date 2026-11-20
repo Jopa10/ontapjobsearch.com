@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: HR GO Recruitment - Agency - Permanent
 location: Maidstone
 source: JobG8
-job_id: jobg8-2341829
+job_id: jobg8-2372577
 reason: Exact approved Maidstone workplace.
 ---
 
@@ -56,7 +56,7 @@ title: Credit Controller
 company: Reed - Agency - Permanent
 location: Maidstone
 source: JobG8
-job_id: jobg8-2335997
+job_id: jobg8-2360038
 reason: Exact approved Maidstone workplace.
 ---
 
@@ -80,7 +80,7 @@ title: Financial Administrator
 company: Financial Divisions - Agency - Permanent
 location: Maidstone
 source: JobG8
-job_id: jobg8-2311205
+job_id: jobg8-2361088
 reason: Exact approved Maidstone workplace.
 ---
 
@@ -118,7 +118,7 @@ title: Accountancy Administrator Xero Essential
 company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2188065
+job_id: jobg8-2381470
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -130,7 +130,7 @@ title: Accountancy Administrator Xero Essential &;30k
 company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2300836
+job_id: jobg8-2382143
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -142,7 +142,7 @@ title: Accountancy Administrator Xero Essential &;31k
 company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2350923
+job_id: jobg8-2382853
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -154,7 +154,7 @@ title: Accountancy Administrator Xero Essential &;32k
 company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2349193
+job_id: jobg8-2384266
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -186,11 +186,23 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Accountancy Administrator Xero Essential £32k
+company: Office Angels - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225850876
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accountancy Practice Bookkeeper
 company: TPF Recruitment - Agency - Permanent
 location: Folkestone
 source: JobG8
-job_id: jobg8-2211108
+job_id: jobg8-2389493
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -202,31 +214,7 @@ title: Accounts Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2197622
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: KHR - Recruitment Specialists - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225752529
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: KHR Recruitment Specialists - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2167396
+job_id: jobg8-2378256
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -248,9 +236,9 @@ decision: review
 automatic_decision: review
 title: Accounts Assistant
 company: Michael Page Finance - Agency - Permanent
-location: Chatham
+location: Kent
 source: JobG8
-job_id: jobg8-2211038
+job_id: jobg8-2377008
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -262,19 +250,7 @@ title: Accounts Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2332003
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: TN Recruits - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2176864
+job_id: jobg8-2399757
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -342,18 +318,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Administrator- Immediate Start
-company: Huntress - Maidstone - Agency - Temporary
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225756347
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bid Administrator
 company: Edge Careers - Agency - Permanent
 location: Kent
@@ -382,7 +346,7 @@ title: Bookkeeper
 company: Reed - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2315768
+job_id: jobg8-2361632
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -394,7 +358,7 @@ title: Bookkeeper
 company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2304683
+job_id: jobg8-2374383
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -406,7 +370,19 @@ title: Bookkeeper
 company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2344326
+job_id: jobg8-2375926
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: TPF Recruitment - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225849802
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -418,7 +394,7 @@ title: Bookkeeper
 company: TPF Recruitment - Agency - Permanent
 location: Tunbridge Wells
 source: JobG8
-job_id: jobg8-2332162
+job_id: jobg8-2390307
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -430,7 +406,7 @@ title: Bookkeeper
 company: TPF Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2347350
+job_id: jobg8-2391477
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -466,7 +442,7 @@ title: Campaign Manager
 company: Recruitment Solutions - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2320266
+job_id: jobg8-2365678
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -490,7 +466,7 @@ title: Client Administrator
 company: IDEX Consulting Ltd - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2183809
+job_id: jobg8-2373225
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -522,18 +498,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Commercial Support Assistant
-company: Kingdom People - Agency - Permanent
-location: Sittingbourne
-source: JobG8
-job_id: jobg8-23643_225755172
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Community Administrator
 company: Forward Trust - Agency - Permanent
 location: Sittingbourne
@@ -550,7 +514,7 @@ title: Company Secretary - Qualified or PQ - Canterbury - Financial Services
 company: Hawke Search - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2335786
+job_id: jobg8-2386488
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -562,7 +526,7 @@ title: Company Secretary - Qualified or PQ - Canterbury - Financial Services..n
 company: Hawke Search - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2304116
+job_id: jobg8-2385756
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -574,7 +538,7 @@ title: Content & Social Media Specialist
 company: Burgess Hodgson - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2202913
+job_id: jobg8-2395663
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -586,7 +550,7 @@ title: Content Manager
 company: Reed - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2206114
+job_id: jobg8-2359072
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -622,7 +586,7 @@ title: Conveyancing Legal Secretary
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2331018
+job_id: jobg8-2369209
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -634,19 +598,7 @@ title: Conveyancing Legal Secretary
 company: Reed - Agency - Permanent
 location: Gillingham
 source: JobG8
-job_id: jobg8-2331576
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Court of Protection Paralegal
-company: Recruitment Solutions - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2310718
+job_id: jobg8-2359885
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -658,7 +610,7 @@ title: Court of Protection Paralegal - Competitive salary - Full or Part time
 company: qed legal - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2341328
+job_id: jobg8-2371959
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -670,7 +622,7 @@ title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2334133
+job_id: jobg8-2376612
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -694,7 +646,19 @@ title: Credit Controller Sage line 50/200 &;36k Dover
 company: Office Angels - Agency - Permanent
 location: Dover
 source: JobG8
-job_id: jobg8-2349445
+job_id: jobg8-2384901
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller Sage line 50/200 £36k Dover
+company: Office Angels - Agency - Permanent
+location: Dover
+source: JobG8
+job_id: jobg8-23643_225851010
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -714,11 +678,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Curriculum Administrator
-company: MidKent College - Agency - Permanent
+title: Customer Service Advisor
+company: South East Water - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-23643_225753756
+job_id: jobg8-23643_225778001
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -726,11 +690,35 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: South East Water - Agency - Permanent
+title: Customer Service Advisor- 14 month contract- Office based
+company: Office Angels - Agency - Contract
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225852784
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor- Awaab's Law Specialist
+company: MMP Consultancy - Agency - Contract
 location: Kent
 source: JobG8
-job_id: jobg8-23643_225778001
+job_id: jobg8-23643_225854617
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service and Logistics Co-ordinator - 13mth Contract
+company: Office Angels - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225854731
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -774,11 +762,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Digital Marketing Manager (B2C)
-company: Reed - Agency - Permanent
+title: Exhibition Logistics & Sales Coordinator
+company: Detail 2 Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2178805
+job_id: jobg8-23643_225766642
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -786,11 +774,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Exhibition Logistics & Sales Coordinator
-company: Detail 2 Limited - Agency - Permanent
+title: Experienced Property Bookkeeper
+company: Recruitment Solutions - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-23643_225766642
+job_id: jobg8-2366722
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -814,7 +802,7 @@ title: Family & Childcare Legal Secretary - Canterbury
 company: qed legal - Agency - Permanent
 location: Canterbury
 source: JobG8
-job_id: jobg8-2328286
+job_id: jobg8-2372028
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -826,7 +814,7 @@ title: Family Legal Assistant
 company: Recruitment Solutions - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2310914
+job_id: jobg8-2364213
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -838,7 +826,7 @@ title: Family Legal Secretary - Folkestone
 company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2304891
+job_id: jobg8-2375662
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -850,7 +838,7 @@ title: Finance & Administration Assistant
 company: Farrer Barnes Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2314647
+job_id: jobg8-2364274
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -898,7 +886,19 @@ title: Finance Administrator Dover &;28k
 company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2349496
+job_id: jobg8-2384907
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator Dover £28k
+company: Office Angels - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225851074
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -910,7 +910,7 @@ title: Finance Administrator Start ASAP Temp to Perm Aylesford
 company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2341369
+job_id: jobg8-2384128
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -922,19 +922,7 @@ title: Finance and Operations Coordinator
 company: Recruitment Solutions - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2211452
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance and Operations Coordinator
-company: Recruitment Solutions - Agency - Permanent
-location: Sevenoaks
-source: JobG8
-job_id: jobg8-2330035
+job_id: jobg8-2363646
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -946,7 +934,19 @@ title: Finance and Operations Coordinator
 company: Recruitment Solutions - Agency - Permanent
 location: Sevenoaks
 source: JobG8
-job_id: jobg8-2347211
+job_id: jobg8-2364659
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance and Operations Coordinator
+company: Recruitment Solutions - Agency - Permanent
+location: Sevenoaks
+source: JobG8
+job_id: jobg8-2365715
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -958,7 +958,7 @@ title: Finance Assistant
 company: Cobb & Jones Recruitment Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2184182
+job_id: jobg8-2384922
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -970,7 +970,7 @@ title: Finance Assistant
 company: Cobb & Jones Recruitment Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2331559
+job_id: jobg8-2386020
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -994,7 +994,7 @@ title: Finance Assistant
 company: Placing Talent - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2204642
+job_id: jobg8-2388801
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1006,7 +1006,7 @@ title: Finance Assistant
 company: Redhat - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2312728
+job_id: jobg8-2375731
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1018,7 +1018,7 @@ title: Finance Assistant
 company: Reed - Agency - Permanent
 location: West Malling
 source: JobG8
-job_id: jobg8-2181980
+job_id: jobg8-2358441
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1030,7 +1030,7 @@ title: Finance Assistant
 company: Reed - Agency - Permanent
 location: West Malling
 source: JobG8
-job_id: jobg8-2187735
+job_id: jobg8-2358533
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1042,7 +1042,7 @@ title: Finance Assistant
 company: Reed - Agency - Permanent
 location: West Malling
 source: JobG8
-job_id: jobg8-2187736
+job_id: jobg8-2358534
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1054,7 +1054,7 @@ title: Finance Assistant
 company: Reed - Agency - Permanent
 location: West Malling
 source: JobG8
-job_id: jobg8-2187739
+job_id: jobg8-2358535
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1066,7 +1066,7 @@ title: Finance Assistant Temporary
 company: Robert Walters - Agency - Permanent
 location: Tonbridge
 source: JobG8
-job_id: jobg8-2336441
+job_id: jobg8-2377122
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1078,7 +1078,19 @@ title: Finance Officer
 company: HR GO Recruitment - Agency - Permanent
 location: Canterbury
 source: JobG8
-job_id: jobg8-2200407
+job_id: jobg8-2371584
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Float Legal Secretary
+company: TN Recruits - Agency - Permanent
+location: Sevenoaks
+source: JobG8
+job_id: jobg8-2377514
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1090,7 +1102,7 @@ title: Graduate Communications Executive
 company: Recruitment Solutions - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2320267
+job_id: jobg8-2365679
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1122,18 +1134,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Human Resources Administrator
-company: Hays Specialist Recruitment - Education - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225796054
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Estimator / Project Administrator
 company: Rise Technical Recruitment - Agency - Permanent
 location: Kent
@@ -1158,6 +1158,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Legal Secretary Residential Property
+company: TN Recruits - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2377513
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Lettings Administrator
 company: Paul Roberts Development (St Peters) Ltd - Agency - Permanent
 location: Kent
@@ -1174,7 +1186,7 @@ title: Lettings Administrator
 company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Chatham
 source: JobG8
-job_id: jobg8-2198441
+job_id: jobg8-2388941
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1186,19 +1198,7 @@ title: Litigation Legal Secretary Tonbridge
 company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2297559
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Love Living Homes Rental Administrator
-company: Town & Country Housing Group - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225747510
+job_id: jobg8-2374233
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1210,7 +1210,7 @@ title: Marketing Account Executive
 company: James Frank Associates - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2211898
+job_id: jobg8-2381985
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1222,7 +1222,7 @@ title: Marketing Account Executive - Kent - &;25K
 company: Jump IT Recruitment Solutions Ltd - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2192757
+job_id: jobg8-2381574
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1246,7 +1246,7 @@ title: Marketing Manager
 company: Reed - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2312973
+job_id: jobg8-2361133
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1258,7 +1258,7 @@ title: Marketing/Project Assistant
 company: Office Angels - Agency - Permanent
 location: Rochester
 source: JobG8
-job_id: jobg8-2338426
+job_id: jobg8-2382694
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1282,7 +1282,7 @@ title: Mortgage Administrators required top London Brokerage REMOTE / RARE
 company: Astral Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2300612
+job_id: jobg8-2362341
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1366,7 +1366,7 @@ title: Part Time Bookkeeper
 company: TPF Recruitment - Agency - Permanent
 location: Tunbridge Wells
 source: JobG8
-job_id: jobg8-2332172
+job_id: jobg8-2390309
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1378,7 +1378,7 @@ title: Part Time Fully Remote Practice Bookkeeper
 company: TPF Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2332753
+job_id: jobg8-2390015
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1386,11 +1386,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Administrator
-company: New Appointments Group - Agency - Temporary
-location: Kent
+title: Part-Time Finance Assistant Dartford Start ASAP
+company: Office Angels - Agency - Permanent
+location: Dartford
 source: JobG8
-job_id: jobg8-23643_225790604
+job_id: jobg8-2384326
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1402,7 +1402,7 @@ title: Part-Time Legal Secretary
 company: Recruitment Solutions - Agency - Permanent
 location: Tunbridge Wells
 source: JobG8
-job_id: jobg8-2305662
+job_id: jobg8-2365360
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1450,7 +1450,7 @@ title: Payroll Administrator
 company: Cygnet - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2334985
+job_id: jobg8-2390055
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1462,7 +1462,7 @@ title: Payroll Administrator
 company: TC Group - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2307288
+job_id: jobg8-2390872
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1474,7 +1474,7 @@ title: Payroll Administrator
 company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2200035
+job_id: jobg8-2373708
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1486,7 +1486,7 @@ title: Payroll Assistant
 company: Cobb & Jones Recruitment Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2343560
+job_id: jobg8-2386596
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1498,7 +1498,7 @@ title: Payroll Assistant
 company: Sirius Search HR Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2283721
+job_id: jobg8-2393085
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1510,7 +1510,7 @@ title: Payroll Assistant
 company: TPF Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2210343
+job_id: jobg8-2389463
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1522,31 +1522,7 @@ title: Payroll Executive
 company: TPF Recruitment - Agency - Permanent
 location: Canterbury
 source: JobG8
-job_id: jobg8-2337998
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Michael Page Finance - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2170148
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Planner
-company: Town & Country Housing Group - Agency - Contract
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225747559
+job_id: jobg8-2390094
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1570,7 +1546,7 @@ title: Practice Bookkeeper
 company: Farrer Barnes Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2318908
+job_id: jobg8-2364337
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1582,7 +1558,7 @@ title: Private Client Paralegal
 company: Reed - Agency - Permanent
 location: Canterbury
 source: JobG8
-job_id: jobg8-2184102
+job_id: jobg8-2358471
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1630,7 +1606,7 @@ title: PT Finance and Office Administrator
 company: Farrer Barnes Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2311200
+job_id: jobg8-2365494
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1642,7 +1618,7 @@ title: PT Finance Assistant
 company: Farrer Barnes Limited - Agency - Permanent
 location: Gravesend
 source: JobG8
-job_id: jobg8-2311218
+job_id: jobg8-2365498
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1654,7 +1630,7 @@ title: Purchase Ledger Clerk
 company: Cobb & Jones Recruitment Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2319137
+job_id: jobg8-2386086
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1666,7 +1642,19 @@ title: Purchase Ledger Clerk
 company: Michael Page Finance - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2311761
+job_id: jobg8-2376770
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception/Administrator
+company: Opus Care Limited - Agency - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225851259
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1762,7 +1750,7 @@ title: Retail or FMCG Social Media Manager
 company: Reed - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2307381
+job_id: jobg8-2398923
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1774,7 +1762,7 @@ title: Sales Administrator Supervisor
 company: Stellantis &You - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2316731
+job_id: jobg8-2389936
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1798,7 +1786,7 @@ title: Sales Executive
 company: KFS Recruitment - Agency - Permanent
 location: Gravesend
 source: JobG8
-job_id: jobg8-2309776
+job_id: jobg8-2379749
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1810,7 +1798,7 @@ title: Sales Ledger Assistant
 company: JMF Associates - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2308085
+job_id: jobg8-2368848
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1882,7 +1870,7 @@ title: Senior Digital Marketing Executive
 company: Reed - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2329760
+job_id: jobg8-2360353
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1894,7 +1882,7 @@ title: Senior Paid Media Exec
 company: Reed - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2212010
+job_id: jobg8-2359260
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1918,7 +1906,19 @@ title: Senior PR Account Manager
 company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2335815
+job_id: jobg8-2376653
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator Temp Start ASAP Strood
+company: Office Angels - Agency - Temporary
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225850944
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1930,7 +1930,7 @@ title: Service Advisor
 company: Prima Hatfield Associates - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2257575
+job_id: jobg8-2391770
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1942,7 +1942,7 @@ title: Service Advisor
 company: Prima Hatfield Associates - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2296678
+job_id: jobg8-2392764
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1954,7 +1954,7 @@ title: Service Advisor
 company: Prima Hatfield Associates - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2314755
+job_id: jobg8-2394177
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1966,7 +1966,7 @@ title: Service Advisor
 company: Prima Hatfield Associates - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2350253
+job_id: jobg8-2396478
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1979,18 +1979,6 @@ company: Key Recruitment Limited - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225764426
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Care Credit Controller
-company: Cygnet - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2167781
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -2026,7 +2014,7 @@ title: Temporary Credit Controller
 company: Cobb & Jones Recruitment Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2184039
+job_id: jobg8-2384899
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -2050,7 +2038,7 @@ title: Trainee Payroll Admin - Fantastic Canterbury firm - Great Training
 company: Hawke Search - Agency - Permanent
 location: Canterbury
 source: JobG8
-job_id: jobg8-2335788
+job_id: jobg8-2386490
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -2086,7 +2074,7 @@ title: Warranty Administrator
 company: Prima Hatfield Associates - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2195201
+job_id: jobg8-2392341
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -2099,6 +2087,18 @@ company: RG Setsquare - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225780694
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Works Planner/ Scheduler
+company: RG Setsquare - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225850698
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

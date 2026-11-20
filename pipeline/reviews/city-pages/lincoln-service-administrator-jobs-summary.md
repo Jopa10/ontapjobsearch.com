@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 15
+- automatic include: 19
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 21
-- effective review: 15
+- effective include: 19
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (21)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2176835
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
+## INCLUDE (19)
 
 ---
 action: 
@@ -56,7 +44,7 @@ title: Bookkeeper (Practice)
 company: Butler Rose - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2338177
+job_id: jobg8-2394863
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -80,7 +68,7 @@ title: Credit Controller
 company: Reed - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2315659
+job_id: jobg8-2361620
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -93,18 +81,6 @@ company: EE - Company - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-20279_64721-75eb2d6d3a9cf2a646b85dba47edfb43
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-108255899
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -128,7 +104,7 @@ title: Finance Assistant
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2333593
+job_id: jobg8-2387617
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -176,7 +152,7 @@ title: Legal Assistant
 company: G2 Legal Limited - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2299599
+job_id: jobg8-2368578
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -276,7 +252,7 @@ job_id: jobg8-23643_225808865
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (15)
+## REVIEW (14)
 
 ---
 action: 
@@ -298,7 +274,7 @@ title: Activities Coordinator
 company: Avon Search & Selection Ltd - Agency - Permanent
 location: Gainsborough
 source: JobG8
-job_id: jobg8-2319454
+job_id: jobg8-2385975
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -322,7 +298,7 @@ title: Care Home Administrator
 company: Avon Search & Selection Ltd - Agency - Permanent
 location: Gainsborough
 source: JobG8
-job_id: jobg8-2319464
+job_id: jobg8-2385977
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -334,7 +310,7 @@ title: Finance Administrator
 company: Future Prospects - Agency - Permanent
 location: Grantham
 source: JobG8
-job_id: jobg8-2344782
+job_id: jobg8-2375932
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -358,7 +334,7 @@ title: Finance Assistant
 company: BTG Recruitment - Agency - Permanent
 location: Grantham
 source: JobG8
-job_id: jobg8-2183793
+job_id: jobg8-2384895
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -370,7 +346,7 @@ title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Grantham
 source: JobG8
-job_id: jobg8-2197665
+job_id: jobg8-2358793
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -419,18 +395,6 @@ company: Future Prospects Group Ltd - Agency - Permanent
 location: Grantham
 source: JobG8
 job_id: jobg8-23643_225821990
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Healing Health Centre
-location: Grimsby, DN41 7JB
-source: NHS Jobs
-job_id: nhs-5711942
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

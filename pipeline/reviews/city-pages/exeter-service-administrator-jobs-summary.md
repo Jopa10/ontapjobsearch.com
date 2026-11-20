@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 25
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 61
+- automatic include: 24
+- automatic review: 56
 - automatic exclude: 0
-- effective include: 25
-- effective review: 61
+- effective include: 24
+- effective review: 56
 - effective exclude: 0
 
-## INCLUDE (25)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: AMR - Specialist Property Recruiters - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-2331065
-reason: Exact approved Exeter workplace.
----
+## INCLUDE (24)
 
 ---
 action: 
@@ -92,7 +80,7 @@ title: Customer Service Receptionist
 company: Amour Recruitment - Agency - Permanent
 location: Exeter
 source: JobG8
-job_id: jobg8-2304726
+job_id: jobg8-23643_225823946
 reason: Exact approved Exeter workplace.
 ---
 
@@ -104,7 +92,7 @@ title: Customer Service Receptionist
 company: Amour Recruitment - Agency - Permanent
 location: Exeter
 source: JobG8
-job_id: jobg8-23643_225823946
+job_id: jobg8-2376174
 reason: Exact approved Exeter workplace.
 ---
 
@@ -176,7 +164,7 @@ title: Finance Assistant
 company: Sellick Partnership - Agency - Permanent
 location: Exeter
 source: JobG8
-job_id: jobg8-2314825
+job_id: jobg8-2364133
 reason: Exact approved Exeter workplace.
 ---
 
@@ -324,7 +312,7 @@ job_id: jobg8-23643_225782201
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (61)
+## REVIEW (56)
 
 ---
 action: 
@@ -346,19 +334,7 @@ title: Accounts Assistant
 company: Butler Rose - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2307549
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Office Angels - Agency - Permanent
-location: Cullompton
-source: JobG8
-job_id: jobg8-2313725
+job_id: jobg8-2394028
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -378,11 +354,23 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: Office Angels - Agency - Permanent
+location: Cullompton
+source: JobG8
+job_id: jobg8-2382411
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Payable Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2203976
+job_id: jobg8-2373886
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -414,23 +402,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Servara Ltd - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225756253
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper
 company: Reed - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2249591
+job_id: jobg8-2358380
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -514,7 +490,7 @@ title: Conveyancing Paralegal
 company: SJC Partners - Agency - Permanent
 location: Honiton
 source: JobG8
-job_id: jobg8-2206998
+job_id: jobg8-2373990
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -582,18 +558,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Digital Content Coordinator
-company: NFP People LTD - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2334655
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Engineering Administrator
 company: Symmetric Recruitment Ltd - Agency - Permanent
 location: Devon
@@ -618,18 +582,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator
-company: JobMatcha - Agency - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225647242
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Pontoon - Agency - Contract
 location: Devon
@@ -646,7 +598,7 @@ title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Plymouth
 source: JobG8
-job_id: jobg8-2349376
+job_id: jobg8-2360713
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -658,7 +610,7 @@ title: Finance Assistant (temp)
 company: Butler Rose - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2338287
+job_id: jobg8-2393717
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -670,7 +622,7 @@ title: Interim Finance Officer
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Kingsteignton
 source: JobG8
-job_id: jobg8-2338181
+job_id: jobg8-2380467
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -707,6 +659,18 @@ company: Lockhart Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225766926
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary
+company: Pertemps Gloucester - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-2398560
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -762,30 +726,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Interaction Recruitment - Agency - Temporary
-location: Cullompton
-source: JobG8
-job_id: jobg8-23643_225755597
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Finance Administrator
-company: Office Angels - Agency - Permanent
-location: Cullompton
-source: JobG8
-job_id: jobg8-2337487
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Finance Administrator
 company: Office Angels - Agency - Permanent
 location: Cullompton
@@ -798,11 +738,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Ashley Rees Associates - Agency - Permanent
-location: Torquay
+title: Part Time Finance Administrator
+company: Office Angels - Agency - Permanent
+location: Cullompton
 source: JobG8
-job_id: jobg8-2203955
+job_id: jobg8-2382980
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -815,6 +755,18 @@ company: Ashley Rees Associates - Agency - Permanent
 location: Torquay
 source: JobG8
 job_id: jobg8-23643_225776971
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Ashley Rees Associates - Agency - Permanent
+location: Torquay
+source: JobG8
+job_id: jobg8-2373883
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -850,7 +802,19 @@ title: Private Client Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Tiverton
 source: JobG8
-job_id: jobg8-2315383
+job_id: jobg8-2369045
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Procurement Coordinator
+company: DK Recruitment - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-23643_225855447
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -862,7 +826,7 @@ title: Project Finance Support Officer (Hybrid)
 company: Essential Employment - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2312672
+job_id: jobg8-2376412
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -886,19 +850,7 @@ title: Receptionist
 company: N.E. Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2312071
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Renewables Administrator
-company: Servara Ltd - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225756254
+job_id: jobg8-2370717
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -970,19 +922,7 @@ title: Service Advisor
 company: Pembrook Resourcing - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2167941
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Pembrook Resourcing - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2197021
+job_id: jobg8-2381195
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -1006,7 +946,7 @@ title: Service Advisor
 company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2188492
+job_id: jobg8-2367613
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -1026,23 +966,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Shipping Coordinator
-company: Interaction Recruitment - Agency - Temporary
-location: Cullompton
-source: JobG8
-job_id: jobg8-23643_225755551
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Finance Officer
 company: Trial Balance Consulting - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2313087
+job_id: jobg8-2365994
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

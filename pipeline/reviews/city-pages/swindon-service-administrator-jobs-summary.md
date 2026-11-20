@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 43
+- automatic include: 16
+- automatic review: 38
 - automatic exclude: 0
-- effective include: 19
-- effective review: 43
+- effective include: 16
+- effective review: 38
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (16)
 
 ---
 action: 
@@ -68,7 +68,7 @@ title: Accounts Assistant
 company: The Solution Auto - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-2193295
+job_id: jobg8-23643_225769775
 reason: Exact approved Swindon workplace.
 ---
 
@@ -80,7 +80,7 @@ title: Accounts Assistant
 company: The Solution Auto - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-23643_225769775
+job_id: jobg8-2367767
 reason: Exact approved Swindon workplace.
 ---
 
@@ -104,7 +104,7 @@ title: Administrator
 company: Robert Half - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-2313438
+job_id: jobg8-2394145
 reason: Exact approved Swindon workplace.
 ---
 
@@ -128,7 +128,7 @@ title: Collections Analyst / Credit Controller
 company: Quality Start - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-2308052
+job_id: jobg8-2399472
 reason: Exact approved Swindon workplace.
 ---
 
@@ -140,31 +140,7 @@ title: Collections Analyst / Credit Controller
 company: Quality Start - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-2308053
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contracts Administrator
-company: Tech-People - Agency - Permanent
-location: Swindon
-source: JobG8
-job_id: jobg8-23643_225754604
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Data Cleansing Administrator
-company: Alexander Mann Solutions - Contingency - Agency - Contract
-location: Swindon
-source: JobG8
-job_id: jobg8-23643_225754804
+job_id: jobg8-2399473
 reason: Exact approved Swindon workplace.
 ---
 
@@ -184,23 +160,11 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Inbound Banking Customer Service Advisors
-company: Office Angels - Agency - Temporary
-location: Swindon
-source: JobG8
-job_id: jobg8-23643_225747832
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Italian or French Speaking Accounts Receivable Credit Controller
 company: French Selection UK - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-2343451
+job_id: jobg8-2362799
 reason: Exact approved Swindon workplace.
 ---
 
@@ -252,7 +216,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (38)
 
 ---
 action: 
@@ -262,7 +226,7 @@ title: Accounts Assistant
 company: Autograph Recruitment Ltd - Agency - Permanent
 location: Chippenham
 source: JobG8
-job_id: jobg8-2204801
+job_id: jobg8-2378406
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -274,7 +238,7 @@ title: Accounts Assistant
 company: Robert Half - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2313888
+job_id: jobg8-2393152
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -286,7 +250,7 @@ title: Accounts Payable Assistant
 company: CMD Recruitment - Agency - Permanent
 location: Corsham
 source: JobG8
-job_id: jobg8-2335999
+job_id: jobg8-2369320
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -346,7 +310,7 @@ title: Automobile Service Advisor (auto Service Advisor)
 company: People Solutions Group Limited - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2319121
+job_id: jobg8-2382509
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -382,20 +346,8 @@ title: Credit Controller
 company: Robert Half - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2342878
+job_id: jobg8-2394933
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: CMD Recruitment - Agency - Temporary
-location: Corsham
-source: JobG8
-job_id: jobg8-23643_225753440
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -407,18 +359,6 @@ company: Travail Employment Group - Agency - Temporary
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225848736
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-108260668
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -450,18 +390,6 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Financial Services Administrator
-company: Burgh Recruitment Ltd - Agency - Permanent
-location: Corsham
-source: JobG8
-job_id: jobg8-2203473
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Housing Administrator
 company: Salisbury Trust for the Homeless Ltd - Agency - Permanent
 location: Wiltshire
@@ -478,7 +406,7 @@ title: Interim Accounts Payable - 3-4 Months
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2331337
+job_id: jobg8-2379290
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -490,20 +418,8 @@ title: Legal Administrator
 company: Walsh Employment - Agency - Permanent
 location: Marlborough
 source: JobG8
-job_id: jobg8-2338818
+job_id: jobg8-2386512
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant Bath
-company: Thrive Group - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225829032
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -538,7 +454,7 @@ title: Purchase Ledger Clerk / Finance Administrator
 company: Casali Recruitment - Agency - Permanent
 location: Chippenham
 source: JobG8
-job_id: jobg8-2334450
+job_id: jobg8-2394333
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -610,7 +526,7 @@ title: Service Advisor
 company: Pembrook Resourcing - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2306210
+job_id: jobg8-23643_225795775
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -622,7 +538,7 @@ title: Service Advisor
 company: Pembrook Resourcing - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-23643_225795775
+job_id: jobg8-2381221
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -634,7 +550,7 @@ title: Service Advisor
 company: Purely Recruitment Solutions - Agency - Permanent
 location: Chippenham
 source: JobG8
-job_id: jobg8-2314996
+job_id: jobg8-2374655
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -646,7 +562,7 @@ title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2206579
+job_id: jobg8-23643_225779110
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -658,7 +574,7 @@ title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-23643_225779110
+job_id: jobg8-2368236
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -690,18 +606,6 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: Tru Talent - Agency - Permanent
-location: Westbury
-source: JobG8
-job_id: jobg8-23643_225755022
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Controller
 company: Interaction Recruitment - Agency - Permanent
 location: Devizes
@@ -718,7 +622,7 @@ title: Temporary Purchase Ledger Clerk
 company: CMA Recruitment Group - Agency - Permanent
 location: Salisbury
 source: JobG8
-job_id: jobg8-2221255
+job_id: jobg8-2364693
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -742,7 +646,7 @@ title: Urgent Care Coordinator(Non Clinical) - Chippenham (OOH, Minimum hours Co
 company: HealthHero - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2197840
+job_id: jobg8-2392364
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -754,7 +658,7 @@ title: Urgent Care Coordinator(Non clinical) - Chippenham (OOH, Weekend & Overni
 company: HealthHero - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2197841
+job_id: jobg8-2392365
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

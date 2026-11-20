@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 7
+- automatic include: 13
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 17
-- effective review: 7
+- effective include: 13
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (13)
 
 ---
 action: 
@@ -56,19 +56,7 @@ title: Credit Controller
 company: Fieldfisher - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2312432
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Teleperformance Ltd - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2337889
+job_id: jobg8-2378903
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -140,7 +128,7 @@ title: Finance Assistant
 company: rated traders ltd - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2192202
+job_id: jobg8-2395522
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -152,43 +140,7 @@ title: Financial Services Administrator
 company: Brook Street - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2319506
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Financial Services Administrator
-company: Brook Street - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225830214
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Billing Assistant
-company: Fieldfisher - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2310890
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Purchase Ledger Clerk
-company: Reed - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2343508
+job_id: jobg8-2396889
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -224,11 +176,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2340977
+job_id: jobg8-2397624
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (5)
 
 ---
 action: 
@@ -239,18 +191,6 @@ company: Rise Technical Recruitment - Agency - Permanent
 location: Antrim
 source: JobG8
 job_id: jobg8-23643_225828159
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper/ Accounting Technician
-company: Reed - Agency - Permanent
-location: Ballymena
-source: JobG8
-job_id: jobg8-2178321
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -294,23 +234,11 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Larne
-source: JobG8
-job_id: jobg8-23643_225756135
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Advisor
 company: The Recruitment Solution (London) Ltd - Agency - Permanent
 location: Newtownards
 source: JobG8
-job_id: jobg8-2201038
+job_id: jobg8-2381748
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 13
-- automatic exclude: 40
-- effective include: 20
-- effective review: 13
-- effective exclude: 40
+- automatic include: 24
+- automatic review: 12
+- automatic exclude: 42
+- effective include: 24
+- effective review: 12
+- effective exclude: 42
 
-## INCLUDE (20)
+## INCLUDE (24)
 
 ---
 action: 
@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2175388
+job_id: jobg8-2399230
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -56,7 +56,7 @@ title: Credit Control Admin
 company: Robert Half - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2300984
+job_id: jobg8-2392873
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -80,7 +80,7 @@ title: Credit Control Administrator
 company: The One Group - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2335067
+job_id: jobg8-2361390
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -92,7 +92,7 @@ title: Credit Controller
 company: Broster Buchanan - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2331670
+job_id: jobg8-2379992
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -104,7 +104,7 @@ title: credit controller
 company: Page Group - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2319401
+job_id: jobg8-2376906
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -116,7 +116,7 @@ title: Credit Controller
 company: Seismic Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2319150
+job_id: jobg8-2370483
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -140,7 +140,7 @@ title: Credit Controller / Accounts Receivable Specialist
 company: Randstad Technologies - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2317966
+job_id: jobg8-2394637
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -164,7 +164,31 @@ title: E-Commerce Manager
 company: ALH Recruitment Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2314658
+job_id: jobg8-2389909
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance & Accounts Coordinator
+company: Huntress - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225852564
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance & Accounts Coordinator
+company: Huntress - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2395125
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -200,7 +224,7 @@ title: Outside Account Manager
 company: The Work Shop - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2317989
+job_id: jobg8-2362656
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -212,7 +236,31 @@ title: Payroll Coordinator
 company: MHA - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2330719
+job_id: jobg8-2386010
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Project Administrator
+company: Interaction Recruitment - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225850025
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchasing & Supply Chain Coordinator
+company: Huntress - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225852471
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -248,7 +296,7 @@ title: Service Advisor
 company: The Recruitment Solution (London) Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2194126
+job_id: jobg8-2381604
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -264,7 +312,7 @@ job_id: jobg8-2183929
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (12)
 
 ---
 action: 
@@ -286,7 +334,7 @@ title: Accounts Assistant
 company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-2315639
+job_id: jobg8-2387141
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -310,7 +358,7 @@ title: Credit Controller
 company: The One Group - Agency - Permanent
 location: Ely
 source: JobG8
-job_id: jobg8-2206773
+job_id: jobg8-2359109
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -346,7 +394,7 @@ title: Marketing Assistant
 company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-2341287
+job_id: jobg8-2387810
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -358,7 +406,7 @@ title: Part Time Accounts Assistant
 company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-2196956
+job_id: jobg8-2385223
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -410,19 +458,7 @@ job_id: jobg8-23643_225768922
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Receptionist
-company: Interaction Recruitment - Agency - Temporary
-location: Little Paxton
-source: JobG8
-job_id: jobg8-23643_225752655
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
-## EXCLUDE (40)
+## EXCLUDE (42)
 
 ---
 action: 
@@ -444,7 +480,7 @@ title: Accounts Assistant
 company: EC Resourcing - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2338520
+job_id: jobg8-2371024
 reason: Separate employment market.
 ---
 
@@ -456,7 +492,7 @@ title: Accounts Assistant
 company: Nxtgen Recruitment - Agency - Permanent
 location: Huntingdon
 source: JobG8
-job_id: jobg8-2191806
+job_id: jobg8-2385059
 reason: Separate employment market.
 ---
 
@@ -468,7 +504,7 @@ title: Accounts Assistant
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2310606
+job_id: jobg8-2372215
 reason: Separate employment market.
 ---
 
@@ -492,19 +528,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2307830
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable Officer
-company: Eclectic Recruitment - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2338363
+job_id: jobg8-2399277
 reason: Separate employment market.
 ---
 
@@ -524,11 +548,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Accounts Payable Officer
+company: Eclectic Recruitment - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2389759
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Accounts Receivable
 company: Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2341164
+job_id: jobg8-2360124
 reason: Separate employment market.
 ---
 
@@ -540,7 +576,19 @@ title: Brand & Marketing Executive
 company: UBT - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2254309
+job_id: jobg8-2373832
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Construction Paralegal
+company: eNL Legal Recruitment - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2352833
 reason: Separate employment market.
 ---
 
@@ -552,7 +600,7 @@ title: Contract Credit Controller
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2241665
+job_id: jobg8-2359267
 reason: Separate employment market.
 ---
 
@@ -564,7 +612,7 @@ title: Credit Control
 company: Michael Page Finance - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2343139
+job_id: jobg8-2377226
 reason: Separate employment market.
 ---
 
@@ -576,7 +624,7 @@ title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Huntingdon
 source: JobG8
-job_id: jobg8-2336558
+job_id: jobg8-2377127
 reason: Separate employment market.
 ---
 
@@ -588,7 +636,7 @@ title: Customer Service Advisor
 company: Countrywide HQ - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2315510
+job_id: jobg8-2391152
 reason: Separate employment market.
 ---
 
@@ -600,7 +648,7 @@ title: Finance Administrator
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2345069
+job_id: jobg8-2372130
 reason: Separate employment market.
 ---
 
@@ -636,7 +684,7 @@ title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2316345
+job_id: jobg8-2361207
 reason: Separate employment market.
 ---
 
@@ -648,7 +696,7 @@ title: Graduate Finance Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2348900
+job_id: jobg8-2362000
 reason: Separate employment market.
 ---
 
@@ -672,7 +720,7 @@ title: Junior Finance Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2345095
+job_id: jobg8-2361995
 reason: Separate employment market.
 ---
 
@@ -684,7 +732,7 @@ title: Legal Administrator
 company: Oculus Legal Group - Agency - Permanent
 location: Huntingdon
 source: JobG8
-job_id: jobg8-2312978
+job_id: jobg8-2394144
 reason: Separate employment market.
 ---
 
@@ -696,7 +744,7 @@ title: Legal PA
 company: Owen Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2309408
+job_id: jobg8-2368887
 reason: Separate employment market.
 ---
 
@@ -728,11 +776,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing Campaigns Executive
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2399271
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Coordinator
 company: Thurlow Resource Solutions - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225818495
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Executive
+company: Ascend Consulting - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2399985
 reason: Separate employment market.
 ---
 
@@ -756,7 +828,7 @@ title: paralegal
 company: Kingsgate Recruitment Ltd - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2198241
+job_id: jobg8-2363220
 reason: Separate employment market.
 ---
 
@@ -768,19 +840,7 @@ title: Part Time Bookkeeper - Accountancy Practice
 company: Butler Rose - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2350377
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part-time Finance Assistant - Remote
-company: Reed - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2171867
+job_id: jobg8-2393511
 reason: Separate employment market.
 ---
 
@@ -792,7 +852,7 @@ title: Patent Administrator
 company: The Law Support Group - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2342350
+job_id: jobg8-2377772
 reason: Separate employment market.
 ---
 
@@ -816,7 +876,19 @@ title: PR manager
 company: Kidney Research UK - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2192738
+job_id: jobg8-2385080
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Product Marketing Executive
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2399568
 reason: Separate employment market.
 ---
 
@@ -828,7 +900,7 @@ title: Purchase Ledger Clerk
 company: LHH Recruitment Solutions - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2300808
+job_id: jobg8-2392870
 reason: Separate employment market.
 ---
 
@@ -876,19 +948,7 @@ title: Senior Marketing Executive
 company: Proximity Recruitment - Agency - Permanent
 location: Huntingdon
 source: JobG8
-job_id: jobg8-2343828
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Marketing Executive/Marketing Manager
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2315047
+job_id: jobg8-2386190
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 40
+- automatic include: 5
+- automatic review: 43
 - automatic exclude: 0
-- effective include: 6
-- effective review: 40
+- effective include: 5
+- effective review: 43
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -68,19 +68,7 @@ title: Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Worcester
 source: JobG8
-job_id: jobg8-2315794
-reason: Exact approved Worcester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Financial Planning Administrator
-company: mbf. - Agency - Permanent
-location: Worcester
-source: JobG8
-job_id: jobg8-2168053
+job_id: jobg8-2378935
 reason: Exact approved Worcester workplace.
 ---
 
@@ -96,7 +84,7 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (40)
+## REVIEW (43)
 
 ---
 action: 
@@ -106,19 +94,7 @@ title: Accounts Assistant
 company: TMR Group Ltd - Agency - Permanent
 location: Droitwich
 source: JobG8
-job_id: jobg8-2316772
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Administrator
-company: Flora Partners - Agency - Permanent
-location: Redditch
-source: JobG8
-job_id: jobg8-2228878
+job_id: jobg8-2383576
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -138,11 +114,35 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Payable Administrator
+company: Flora Partners - Agency - Permanent
+location: Redditch
+source: JobG8
+job_id: jobg8-2389841
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Receivable Co-ordinator
 company: Four Squared - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-2312695
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Opus People Solutions Ltd - Agency - Permanent
+location: Redditch
+source: JobG8
+job_id: jobg8-23643_225850495
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -166,7 +166,7 @@ title: Annual Review Administrator (IFA)
 company: NJR Recruitment - Agency - Permanent
 location: Bromsgrove
 source: JobG8
-job_id: jobg8-2316497
+job_id: jobg8-2376485
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -190,7 +190,7 @@ title: BMW Accounts Assistant
 company: Sytner Group - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2297353
+job_id: jobg8-2378609
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -215,6 +215,18 @@ company: VolkerWessels UK Ltd - Company - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225847837
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Claims Co-ordinator Subsidence
+company: Davies Group - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-2400217
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -282,6 +294,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Document Controller
+company: Linear Recruitment Ltd - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225853209
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Education Delivery Coordinator, Alternative Provision West Midlands (new office opening mid-2027)
 company: AP Education - Agency - Permanent
 location: Worcestershire
@@ -294,11 +318,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Financial Administrator
-company: Cap Resourcing Ltd - Agency - Permanent
+title: European Operations Coordinator
+company: Willis Global - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2179145
+job_id: jobg8-23643_225220847
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -310,7 +334,7 @@ title: Fleet Coordinator
 company: Elite People - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2314421
+job_id: jobg8-2376809
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -382,7 +406,7 @@ title: Mortgage Administrator
 company: Eden Rose - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2316476
+job_id: jobg8-2359754
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -407,18 +431,6 @@ company: Adecco - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225785359
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Flora Partners - Agency - Permanent
-location: Redditch
-source: JobG8
-job_id: jobg8-2308418
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -466,7 +478,7 @@ title: Payroll Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2178283
+job_id: jobg8-2373413
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -478,7 +490,19 @@ title: Payroll Officer
 company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2316504
+job_id: jobg8-23643_225820459
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-2379835
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -490,7 +514,7 @@ title: Purchase Ledger Clerk
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Kidderminster
 source: JobG8
-job_id: jobg8-2318839
+job_id: jobg8-2380239
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -562,7 +586,7 @@ title: Service Administrator
 company: Rise Technical Recruitment Limited - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2206466
+job_id: jobg8-2373966
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
