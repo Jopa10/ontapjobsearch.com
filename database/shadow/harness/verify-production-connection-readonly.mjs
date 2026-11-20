@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
 import pg from 'pg';
 
 const expectedRole = 'ontap_prod_readonly_probe';
@@ -91,6 +92,10 @@ if (!connectionString) {
         writesPerformed: false,
         productionSiteDeployed: false,
       };
+      const reportJson = JSON.stringify(report, null, 2) + '\n';
+      if (process.env.RUNNER_TEMP) {
+        await fs.writeFile(`${process.env.RUNNER_TEMP}/production-readonly-check-report.json`, reportJson);
+      }
       console.log('ONTAP_PROD_NEON_READONLY_CHECK', JSON.stringify(report));
     } catch (error) {
       if (connected) {
