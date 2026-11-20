@@ -46,7 +46,7 @@ jobs:
       - name: Configure the Preview workflow's AWS identity for saved-feed reads
         uses: aws-actions/configure-aws-credentials@v6
         with:
-          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
+          role-to-assume: arn:aws:iam::179402568934:role/OntapNeonPreviewFeedReadRole
           aws-region: eu-west-2
           role-session-name: ontap-neon-preview-feed-read
           role-duration-seconds: 900
