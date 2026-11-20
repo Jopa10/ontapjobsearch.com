@@ -1,5 +1,5 @@
 {
   "mode": "today",
-  "attempt": 26,
+  "attempt": 27,
   "purpose": "Discover today's latest verified completed production publication, update isolated Neon Preview, and verify parity and idempotency. No selector rerun or production publish."
 }
