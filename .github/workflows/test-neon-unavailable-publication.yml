@@ -67,7 +67,7 @@ jobs:
           PY
       - name: Deploy the normal site to Vercel Preview with Neon unreachable
         env:
-          VERCEL_TOKEN: \${{ secrets.VERCEL_TOKEN }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
           VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
         run: |
@@ -98,10 +98,10 @@ jobs:
         with:
           name: neon-unavailable-normal-publication-preview
           path: |
-            \${{ runner.temp }}/neon-outage-publish-report.json
-            \${{ runner.temp }}/neon-outage-preview-deploy.log
-            \${{ runner.temp }}/neon-outage-preview-url.txt
-            \${{ runner.temp }}/neon-outage-preview-home.html
-            \${{ runner.temp }}/normal-publish.log
+            ${{ runner.temp }}/neon-outage-publish-report.json
+            ${{ runner.temp }}/neon-outage-preview-deploy.log
+            ${{ runner.temp }}/neon-outage-preview-url.txt
+            ${{ runner.temp }}/neon-outage-preview-home.html
+            ${{ runner.temp }}/normal-publish.log
           if-no-files-found: ignore
           retention-days: 30
