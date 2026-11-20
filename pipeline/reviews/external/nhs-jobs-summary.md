@@ -2,15 +2,87 @@
 
 review_date: 2026-11-20
 
-- Open Administrative & Clerical rows reviewed: 2109
-- Auto/remembered selected: 366
+- Open Administrative & Clerical rows reviewed: 2115
+- Auto/remembered selected: 368
 - Selected HC Tier A: 190
-- Selected HC Tier B: 176
-- POSS awaiting decision: 1648
+- Selected HC Tier B: 178
+- POSS awaiting decision: 1652
 - Excluded: 0
 - HARD_PASS: 95
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M20 4BX | £66582.00 to £77368.00 | Clinical Services Manager
+source_job_id: 5740144
+title: Clinical Services Manager
+employer: The Christie NHS FT
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-00009
+factual_fingerprint: 8b0edd9bc59d4454d262bfdfb3a5d663a12eb0f08ede861dbb686c61d3f95794
+---
+
+---
+action:
+POSS | NHS Jobs | — | Bulwell, NG6 9DR | £28392.00 to £31157.00 | Senior Postgraduate Administrator
+source_job_id: 5740816
+title: Senior Postgraduate Administrator
+employer: Nottinghamshire Healthcare NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-00011
+factual_fingerprint: f82242982acc0970a3ef55d48c860424a706fc96534fb849be707de7b1d3de31
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | BRADFORD, BD1 4AS | £49387.00 to £56515.00 | Procurement & Market Management Manager
+source_job_id: 5738127
+title: Procurement & Market Management Manager
+employer: NHS West Yorkshire Integrated Care Board
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9475-ICB-692
+factual_fingerprint: cae37d83870e7dac7d9928c8664b88b40c456249cd53cb9e30c9a40adf0a6219
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M20 4BX | £28392.00 to £31157.00 | Administration Assistant/PA
+source_job_id: 5740729
+title: Administration Assistant/PA
+employer: The Christie NHS FT
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-00010
+factual_fingerprint: 855666ae6f313e89feb10fc43bc76bc25ed97bc0b3c933ce89e0020bb0891cef
+---
+
+---
+action:
+POSS | NHS Jobs | Lancashire - Central | Chorley, PR7 1PP | £25760.00 to £27476.00 | Waiting List & Procedures Clerk
+source_job_id: 5740785
+title: Waiting List & Procedures Clerk
+employer: Lancashire Teaching Hospitals NHS Foundation Trust
+region: Lancashire - Central
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9438-26-00006
+factual_fingerprint: 56aac9a5a0523d346510f8e4ab291f113775f32e3ca892c1148813c5ed529aca
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Weston-super-Mare, BS23 4TQ | £25500.00 to £29000.00 | Patient Pathway Co-ordinator
+source_job_id: 1439660
+title: Patient Pathway Co-ordinator
+employer: Somerset Surgical Services
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0032-22-6919
+factual_fingerprint: 785f089b7d80c7e415f399100d3ee747df0f24787c9d5a52561d8144a9f82628
+---
 
 ---
 action:
@@ -17018,18 +17090,6 @@ factual_fingerprint: ebac6862f8ad9280a75db778df5652c6f626f14a56fa815a174a7a5851d
 
 ---
 action:
-POSS | NHS Jobs | Staffordshire | STAFFORD, ST21 6BW | Negotiable | General Practice Assistant
-source_job_id: 5707409
-title: General Practice Assistant
-employer: GP First Ltd
-region: Staffordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0176-26-0017
-factual_fingerprint: 454466e06f6650bda9f4002a60854bfb36203fdc1054bd4f8230f50f83ee6958
----
-
----
-action:
 POSS | NHS Jobs | — | Southend, SS0 0RY | £12.71 | Bank Driver and Receptionist
 source_job_id: 5710546
 title: Bank Driver and Receptionist
@@ -18238,18 +18298,6 @@ region: Oxfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0301-26-0006
 factual_fingerprint: ff1fe626efeff6f98eb98b9a900fa30dede3f2ebb93d11bf8862492285fc5141
----
-
----
-action:
-POSS | NHS Jobs | Staffordshire | STONE, ST15 8YE | Negotiable | General Practice Assistant
-source_job_id: 5703254
-title: General Practice Assistant
-employer: GP First Ltd
-region: Staffordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0176-26-0015
-factual_fingerprint: 94d520e330821a66db439003a90cb0cb77eca6fa86f2e3a0d89fb94aa15f0073
 ---
 
 ---

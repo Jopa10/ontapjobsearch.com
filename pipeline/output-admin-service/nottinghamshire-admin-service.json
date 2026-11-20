@@ -1543,11 +1543,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-00009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-00009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5726763",
@@ -1565,11 +1561,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1530-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1530-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5671545",
@@ -1587,11 +1579,25 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1902-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1902-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5740690",
+    "source": "NHS Jobs",
+    "title": "GP receptionist",
+    "company": "Family Medical Centre Kirkby",
+    "advertiser_name": "Family Medical Centre Kirkby",
+    "location": "NOTTINGHAM, NG17 7BG",
+    "region": "Nottinghamshire",
+    "salary": "£12.73",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-20T09:32:04.569702570",
+    "closing_date": "2026-12-01",
+    "description": "We are looking for a friendly IT literate hard working individual to join our team, due to an internal transfer we are looking for someone who can multi task, you will be patient facing, answering the telephone, admin work and everything else that comes our way. We are situated in the heart of Kirkby in Ashfield with a growing patient list size. Experience would be an advantage but full training will be provided. helping patients, answering the telephone, working on Systemone, sorting out e-mails, prescriptions, referrals, general admin work.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5724-26-00000",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5724-26-00000",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5723967",
@@ -1609,11 +1615,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0220-26-0018",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0220-26-0018",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5730729",
@@ -1631,11 +1633,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1818-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1818-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5728303",
@@ -1653,11 +1651,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4601-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4601-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5686384",
@@ -1675,10 +1669,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0510",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0510",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]
