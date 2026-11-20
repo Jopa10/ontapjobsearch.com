@@ -7,6 +7,7 @@ on:
 permissions:
   contents: read
   actions: read
+  id-token: write
 concurrency:
   group: ontap-neon-selected-review-payloads
   cancel-in-progress: false
@@ -20,6 +21,7 @@ jobs:
     permissions:
       contents: read
       actions: read
+      id-token: write
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
@@ -41,12 +43,27 @@ jobs:
           node-version: '24'
       - name: Check automatic date discovery and fail-closed behavior
         run: python -m unittest discover -s database/shadow -p test_resolve_daily_source.py -v
+      - name: Configure the Preview workflow's AWS identity for saved-feed reads
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
+          aws-region: eu-west-2
+          role-session-name: ontap-neon-preview-feed-read
+          role-duration-seconds: 900
+      - name: Confirm the saved-feed AWS account
+        run: |
+          account="$(aws sts get-caller-identity --query Account --output text)"
+          test "$account" = "179402568934"
       - name: Discover today's completed publication and restore matching saved feed
         id: daily
         env:
           GH_TOKEN: ${{ github.token }}
-          ONTAP_SAVED_FEED_URL: ${{ secrets.ONTAP_SAVED_FEED_URL }}
         run: python database/shadow/resolve-daily-source.py
+      - name: Clear temporary AWS credentials before Preview Neon work
+        run: |
+          for name in AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN AWS_REGION AWS_DEFAULT_REGION AWS_CREDENTIAL_EXPIRATION; do
+            echo "$name=" >> "$GITHUB_ENV"
+          done
       - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
         with:
           artifact-ids: ${{ steps.daily.outputs.artifact_ids }}
