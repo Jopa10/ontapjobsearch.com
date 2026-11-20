@@ -93,7 +93,7 @@ def restore_archive(source):
 def main():
  source=resolve()
  archive,origin=restore_archive(source)
- target=Path(os.environ['RUNNER_TEMP'])/'daily-input';target.mkdir()
+ target=Path(os.environ['RUNNER_TEMP'])/'daily-input';target.mkdir(parents=True, exist_ok=True)
  (target/'feed.zip').write_bytes(archive)
  source.update(archiveSha256=hashlib.sha256(archive).hexdigest(),archiveOrigin=origin)
  Path('daily-source.json').write_text(json.dumps(source,indent=2)+'\n')
