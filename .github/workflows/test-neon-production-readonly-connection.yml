@@ -1,0 +1,45 @@
+name: Production Neon read-only connection check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-neon-readonly-check
+  cancel-in-progress: false
+
+jobs:
+  verify-production-neon-readonly:
+    if: github.ref == 'refs/heads/feat/neon-shadow-database'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment: neon-prod-readonly-check
+    env:
+      ONTAP_NEON_PROD_READONLY_URL: ${{ secrets.ONTAP_NEON_PROD_READONLY_URL }}
+    steps:
+      - name: Check out feature branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install pinned database client
+        run: npm ci --prefix database/shadow/harness --ignore-scripts --no-audit --no-fund
+
+      - name: Run read-only Production connection check
+        run: node database/shadow/harness/verify-production-connection-readonly.mjs
+
+      - name: Save sanitized check report
+        if: always() && hashFiles(runner.temp + '/production-readonly-check-report.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-neon-readonly-check
+          path: ${{ runner.temp }}/production-readonly-check-report.json
+          if-no-files-found: error
+          retention-days: 30
