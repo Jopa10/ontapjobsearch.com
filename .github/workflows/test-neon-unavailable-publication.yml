@@ -1,0 +1,107 @@
+name: Preview publication with Neon unavailable
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/neon-outage-publication-test-request.json]
+permissions:
+  contents: read
+concurrency:
+  group: ontap-neon-outage-publication-preview
+  cancel-in-progress: false
+jobs:
+  preview-publish:
+    if: github.ref == 'refs/heads/feat/neon-shadow-database'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          path: production-source
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Install normal publisher dependency
+        run: python -m pip install --disable-pip-version-check openpyxl==3.1.5
+      - name: Run normal verified-page publisher with Neon unreachable
+        working-directory: production-source/pipeline
+        env:
+          VERCEL_ENV: preview
+          ONTAP_SHADOW_NEON_PROJECT_ID: noisy-fire-97386602
+          ONTAP_SHADOW_DATABASE_URL: postgresql://unavailable:unavailable@127.0.0.1:1/ontap?sslmode=verify-full&connect_timeout=1
+          DATABASE_URL: postgresql://unavailable:unavailable@127.0.0.1:1/ontap?sslmode=verify-full&connect_timeout=1
+        run: |
+          set -euo pipefail
+          python -m scripts.publish_verified_pages_north_yorkshire --write \
+            | tee "$RUNNER_TEMP/normal-publish.log"
+      - name: Confirm the normal publisher produced live job files
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          root=Path('production-source/app')
+          files=0
+          rows=0
+          for p in root.rglob('*.json'):
+              try:
+                  value=json.loads(p.read_text(encoding='utf-8'))
+              except Exception:
+                  continue
+              if isinstance(value,list):
+                  jobs=[x for x in value if isinstance(x,dict) and x.get('job_id')]
+                  if jobs:
+                      files+=1
+                      rows+=len(jobs)
+          if files==0 or rows==0:
+              raise SystemExit('Normal publisher produced no job-listing files')
+          report={'status':'passed','neonEndpoint':'unreachable loopback address','normalPublisherCompleted':True,
+                  'jobJsonFilesWithListings':files,'publishedJobRowsAcrossSlices':rows,
+                  'productionRepositoryWrites':False,'feedFetched':False,'selectorsRerun':False}
+          Path(os.environ['RUNNER_TEMP']+'/neon-outage-publish-report.json').write_text(json.dumps(report,indent=2)+'\n')
+          print('ONTAP_NEON_OUTAGE_PUBLISH '+json.dumps(report))
+          PY
+      - name: Deploy the normal site to Vercel Preview with Neon unreachable
+        env:
+          VERCEL_TOKEN: \${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+        run: |
+          set -euo pipefail
+          npm install --no-save --ignore-scripts --no-audit --no-fund --prefix "$RUNNER_TEMP/cli" vercel@65.14.0
+          cli="$RUNNER_TEMP/cli/node_modules/.bin/vercel"
+          cd production-source
+          "$cli" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 \
+            --build-env 'DATABASE_URL=postgresql://unavailable:unavailable@127.0.0.1:1/ontap?sslmode=verify-full&connect_timeout=1' \
+            --build-env 'ONTAP_SHADOW_DATABASE_URL=postgresql://unavailable:unavailable@127.0.0.1:1/ontap?sslmode=verify-full&connect_timeout=1' \
+            --build-env 'ONTAP_SHADOW_NEON_PROJECT_ID=noisy-fire-97386602' \
+            > "$RUNNER_TEMP/neon-outage-preview-deploy.log" 2>&1 || { cat "$RUNNER_TEMP/neon-outage-preview-deploy.log"; exit 1; }
+          url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/neon-outage-preview-deploy.log" | tail -1)"
+          test -n "$url"
+          echo "$url" > "$RUNNER_TEMP/neon-outage-preview-url.txt"
+          "$cli" curl / --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/neon-outage-preview-home.html"
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          p=Path(os.environ['RUNNER_TEMP']+'/neon-outage-preview-home.html')
+          html=p.read_text(encoding='utf-8',errors='replace')
+          if 'jobs live today' not in html.lower():
+              raise SystemExit('Preview homepage did not show its normal live-job count')
+          print('Preview homepage served the normal live-job publication while Neon was configured unreachable.')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: neon-unavailable-normal-publication-preview
+          path: |
+            \${{ runner.temp }}/neon-outage-publish-report.json
+            \${{ runner.temp }}/neon-outage-preview-deploy.log
+            \${{ runner.temp }}/neon-outage-preview-url.txt
+            \${{ runner.temp }}/neon-outage-preview-home.html
+            \${{ runner.temp }}/normal-publish.log
+          if-no-files-found: ignore
+          retention-days: 30
