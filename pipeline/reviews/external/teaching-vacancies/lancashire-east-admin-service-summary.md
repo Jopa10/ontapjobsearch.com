@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-19
-review_fingerprint: be5ba39e41f1532bbd6439ed5b06db4e168887145a533089d9b835c6400a802e
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 2e870d3d63cdf214ac989e9033be9901f8d9980d4ada711a308f9e6c090916ff
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 8
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
@@ -49,6 +49,21 @@ factual_fingerprint: c9ffebc5db31cf201133765ed5f37a4db1cbc0f9d97a51f3d55dcc623a3
 source: Teaching Vacancies
 source_job_id: business-support-officer-marsden-heights-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-marsden-heights-community-college
+---
+
+---
+action: 
+SELECTED | Lancashire - East | Burnley, North West, BB12 0AN | £30,064.00 - £37,878.00 Annually (Actual) | Exams Officer
+employer: Burnley College
+closing_date: 2026-12-01T17:00:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e6a324cc3e8452b95bd16bd33e05f2ca0447d91aed8c2dff3a251b85e1867179
+source: Teaching Vacancies
+source_job_id: exams-officer-burnley-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-burnley-college
 ---
 
 ---

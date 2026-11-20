@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-19
-review_fingerprint: a6f1cfa85c1476ed593c6cb9431c3e9ef68617886422a1bd4df072ebba3a350f
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: caf868837e9561f052884f017d032352f1241e0189efb9d1a10972a296961a0c
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 8
+- Records: 20
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 11
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Northamptonshire | WELLINGBOROUGH, East Midlands, NN8 2AX | £25,614.00 - £26,016.00 Annually (FTE) Actual Salary is £13,845 per year | Administrator/Receptionist
-employer: Croyland Nursery School & Day Nursery
-closing_date: 2026-11-19T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b690818d8af433c46a2ffc8a1de58153573f033d6dabd3b5530bf3e2372bf406
-source: Teaching Vacancies
-source_job_id: administrator-receptionist-croyland-nursery-school-day-nursery
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-croyland-nursery-school-day-nursery
----
-
----
-action: 
 SELECTED | Northamptonshire | Northampton, East Midlands, NN4 8BU | £26,846.00 - £27,274.00 Annually (FTE) Grade F, Point 6 to 7: £26,846 to £27,274 FTE | Attendance Administrator
 employer: Abbeyfield School
 closing_date: 2026-11-29T23:59:00+00:00
@@ -98,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-mo
 
 ---
 action: 
-SELECTED | Northamptonshire | Corby, East Midlands, NN17 5EB | £27,690 | Exams Officer
-employer: Corby Business Academy
-closing_date: 2026-11-20T15:00:00+00:00
-reason: Clear admin/service title: exams officer
+SELECTED | Northamptonshire | Daventry, East Midlands, NN11 0QE | £28,653.12 - £30,617.10 Annually (Actual) NJC SCP 18-22 | Attendance Officer
+employer: The Parker E-ACT Academy
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 106e3ef1f209bc869422c54a0d17d2ba6eee43b32b0c4793fff707d2425e3705
+factual_fingerprint: 9a8eceffd38dcb843aedadea931ebe4be777c308723af7c57d86c53ac8887f7c
 source: Teaching Vacancies
-source_job_id: exams-officer-corby-business-academy-corby-northamptonshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-corby-business-academy-corby-northamptonshire
+source_job_id: attendance-officer-the-parker-e-act-academy-daventry-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-parker-e-act-academy-daventry-northamptonshire
 ---
 
 ---
@@ -180,12 +165,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-ad
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1dc6e624-98dc-4337-8b41-8fb9e586f829) — Insufficient admin/service evidence.
+- [Administrator - Admissions, Data & Attendance](https://teaching-vacancies.service.gov.uk/jobs/administrator-admissions-data-attendance) — No usable numeric salary.
 - [Admissions & Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-manager-moulton-school-and-science-college) — Excluded senior/management title.
 - [Attendance Support Worker](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-worker-northampton-school) — Insufficient admin/service evidence.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-0ddbb56c-5635-4a81-8fed-8aa32c472a35) — Insufficient admin/service evidence.
 - [Data Management Coordinator](https://teaching-vacancies.service.gov.uk/jobs/data-management-coordinator-kingsthorpe-college) — Insufficient admin/service evidence.
 - [Finance and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-administration-officer-gloucester-nursery-school) — Insufficient admin/service evidence.
 - [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-76534355-af89-45a3-936c-3fdc5fe94bd4) — Salary over £50k.
 - [Marketing and events lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-events-lead) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-billing-brook-special-school) — Excluded senior/management title.
 

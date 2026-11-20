@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-19
-review_fingerprint: 8b7fc54c4d9595f2292def82da3fef58f25b1ac133f64b40ed4c06d8ec1bc211
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 07453fd3620d9e3dd47c8e621fe6517e68987c41a6465df9e78ec64346f4c99d
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 8
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 2d870adc6bb8aa06adcc1296d08091134b907f87d68fa003683287df9a7
 source: Teaching Vacancies
 source_job_id: administration-assistant-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear
----
-
----
-action: 
-SELECTED | North East | Newcastle-upon-Tyne, North East, NE5 4JQ | £27,274 - £28,153 FTE [Actual salary £23,917.20 - £24,688] | Administration Assistant Level 3 (Attendance)
-employer: Callerton Academy
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: daf2c95cf8bd5dbe031e29ffdd4fa4f961370f43ab66378abfcd08d6c6a6b061
-source: Teaching Vacancies
-source_job_id: administration-assistant-level-3-attendance
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-3-attendance
 ---
 
 ---
@@ -165,13 +150,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administratio
 ## HARD_PASS
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-jarrow-school) — Excluded senior/management title.
+- [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-hurworth-school-darlington-county-durham) — No usable numeric salary.
 - [Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-partner-the-education-village-academy-trust-darlington-not-recorded) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-kings-priory-school) — Insufficient admin/service evidence.
 - [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-bishop-auckland-college) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-centurion-multi-academy-trust) — Insufficient admin/service evidence.
 - [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-af43e27f-b30c-4ed7-9581-5362fb482ff1) — Excluded senior/management title.
 - [Payroll Partner](https://teaching-vacancies.service.gov.uk/jobs/payroll-partner) — Insufficient admin/service evidence.
-- [Staff & Student Support Officer](https://teaching-vacancies.service.gov.uk/jobs/staff-student-support-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

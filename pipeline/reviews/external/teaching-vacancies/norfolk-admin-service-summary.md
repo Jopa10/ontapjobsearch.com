@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-19
-review_fingerprint: 60914b9b92067b754f9284f82790620eba82bdaa179eb11e3bd7ac4772e34110
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 8bccdb7cd377e0d4ab74e05724138d670ea5645cf91f805ec7bd550952520ce0
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 5
+- Records: 17
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 10
@@ -34,21 +34,6 @@ factual_fingerprint: 5c940adeae89a9549bcacca71f57605d8e93c4bdf928e7ad646ff6082e7
 source: Teaching Vacancies
 source_job_id: exams-officer-iceni-secondary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-iceni-secondary-academy
----
-
----
-action: 
-SELECTED | Norfolk | King's Lynn, East of England, PE32 2NS | £20,512.00 - £22,254.00 Annually (Actual) | Exams Officer
-employer: Litcham School
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ba512ba531dd9455d167df3b97c96ff77aa99134fae7863f8e70bbc680a8190f
-source: Teaching Vacancies
-source_job_id: exams-officer-litcham-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-litcham-school
 ---
 
 ---

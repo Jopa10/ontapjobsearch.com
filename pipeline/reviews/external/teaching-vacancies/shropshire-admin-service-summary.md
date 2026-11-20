@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-11-19
-review_fingerprint: cc7b7fb3c6ca924bce5b37fd89c2b9bae93d84b5c2aa1627c393735fd349edb5
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: a6799d1eca55590e521d658d85af0ea11b8180b4dc331d57ba89e6189f3ea079
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 4
+- Records: 4
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
@@ -64,21 +64,6 @@ factual_fingerprint: 2cdbfaacbc07b235daf8b381b569d37c313a133fc1f357d271f5a434219
 source: Teaching Vacancies
 source_job_id: data-exams-officer-church-stretton-school-church-stretton-shropshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-church-stretton-school-church-stretton-shropshire
----
-
----
-action: 
-SELECTED | Shropshire | Wellington, South West, TA21 8SW | NJC Grade 14, Point 4 (£26,016 FTE) | School Administrator - Maternity Cover
-employer: Court Fields School
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ccebc9e24236ee0ddd0f96d712f49225547ace276c222184b3687f7ba8f3681e
-source: Teaching Vacancies
-source_job_id: school-administrator-maternity-cover-court-fields-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-maternity-cover-court-fields-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

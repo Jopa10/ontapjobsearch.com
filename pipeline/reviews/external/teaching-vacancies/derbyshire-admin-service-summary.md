@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-19
+review_date: 2026-11-20
 review_fingerprint: ab0fc4caf32568f2d66a7c5803060982a7cc0a5d118bc8f6eca9c57b95c2a2d2
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -95,6 +95,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-47c1efc2
 - [Pastoral Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-officer-93d815b7-0e82-49a1-9ded-1395abd2f79a) — No usable numeric salary.
 - [Peripatetic Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-administration-officer-alvaston-junior-academy) — Insufficient admin/service evidence.
 - [Plant Centre Lead](https://teaching-vacancies.service.gov.uk/jobs/plant-centre-lead) — Excluded senior/management title.
+- [Primary Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/primary-operations-manager-duckmanton-primary-school) — Excluded senior/management title.
 - [SEND Admin Assistant Derby](https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-derby) — No usable numeric salary.
 
 ## Safety boundary

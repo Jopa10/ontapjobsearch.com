@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-19
+review_date: 2026-11-20
 review_fingerprint: 476e67d0092eb7414367b03ad79bcedc780fca61b727ae5c00f99a166801bf45
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 32
+- Records: 33
 - Selected: 6
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 21
+- Hard pass: 22
 
 ## SELECTED
 
@@ -195,22 +195,23 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-as
 ## HARD_PASS
 
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-beck-primary-school) — No usable numeric salary.
-- [Administration and Clerical Level 1](https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical-level-1-shortbrook-primary-school) — No usable numeric salary.
 - [Apprentice Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-administration-assistant-maltby-lilly-hall-academy) — No usable numeric salary.
 - [Assistant Financial Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-financial-accountant-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-brinsworth-academy-rotherham-south-yorkshire) — Insufficient admin/service evidence.
+- [Data, Exams & Academic Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-exams-academic-operations-assistant) — Insufficient admin/service evidence.
 - [Director of Health & Safety](https://teaching-vacancies.service.gov.uk/jobs/director-of-health-safety) — Excluded senior/management title.
-- [Examinations Invigilator](https://teaching-vacancies.service.gov.uk/jobs/examinations-invigilator-maltby-academy) — No usable numeric salary.
 - [Exams & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-cover-manager-fir-vale-academy) — Excluded senior/management title.
 - [Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/executive-support-officer-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Head of Business Development (VRN000003)](https://teaching-vacancies.service.gov.uk/jobs/head-of-business-development-vrn000003) — Excluded senior/management title.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-cascade-multi-academy-trust) — Salary over £50k.
+- [Information Advice and Guidance Officer - Employability](https://teaching-vacancies.service.gov.uk/jobs/information-advice-and-guidance-officer-employability) — No usable numeric salary.
 - [KS5 Attendance and Inclusion Lead](https://teaching-vacancies.service.gov.uk/jobs/ks5-attendance-and-inclusion-lead) — Excluded senior/management title.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-1e4ec526-7e90-471c-ac7b-53d95ee8bda4) — Insufficient admin/service evidence.
 - [Personal Care Assistant (PCA)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-pca-newman-school) — Insufficient admin/service evidence.
 - [Pupil Premium Extra Curricular Visits Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extra-curricular-visits-co-ordinator) — No usable numeric salary.
 - [Pupil Premium Extracurricular Visits Coordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extracurricular-visits-coordinator-forge-valley-school-sixth-form-sheffield-south-yorkshire) — No usable numeric salary.
+- [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner-nexus-multi-academy-trust) — Salary over £50k.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust-sheffield-not-recorded) — Excluded senior/management title.
 - [Sports Centre and Lettings Supervisor](https://teaching-vacancies.service.gov.uk/jobs/sports-centre-and-lettings-supervisor-forge-valley-school-sixth-form) — No usable numeric salary.
 - [Transactional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/transactional-finance-manager-minerva-learning-trust) — Excluded senior/management title.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-19
-review_fingerprint: 8b900c3c20d3bf7c6bebe05b084d0329f0431220489f87b6bdcb36944d9b0c2f
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 839190289d7aa57a638cf4d5940a356e8d095e6801a72db9fb4173e1761a775d
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: administration-assistant-data-reports-co-ordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-data-reports-co-ordinator
 ---
 
+---
+action: 
+SELECTED | Staffordshire | Stafford, West Midlands, ST19 9DS | £24,218.00 Annually (FTE) LA Grade SCP 5 (Term Time Only - TTF 46.3) 37 hours per week | Administrator Assistant with Responsibility for First Aid
+employer: Brewood Middle CofE Academy
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 44bf85db6a26b316692b5dcdb775d0bb0dd29077ab504b1c5bd4bba0c4111381
+source: Teaching Vacancies
+source_job_id: administrator-assistant-with-responsibility-for-first-aid
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-assistant-with-responsibility-for-first-aid
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -63,7 +78,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-tynsel-parkes-cofe-primary-academy) — No usable numeric salary.
 - [Leadership Support Officer (Part-time)](https://teaching-vacancies.service.gov.uk/jobs/leadership-support-officer-part-time) — No usable numeric salary.
-- [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college-stoke-on-trent-staffordshire) — Excluded senior/management title.
 
 ## Safety boundary
 

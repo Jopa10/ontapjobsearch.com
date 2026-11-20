@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-11-19
-review_fingerprint: f3c57a53e91740d4c6616ebc8c2b6d5756662ce05639ac2bbb959d3bae40030a
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 403fb192663315c63a9dafe0f391664573f8ee331e265cd03f6f2573c89b834e
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -38,14 +38,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE9 7PD | £17,891.00 Annually (Actual) | Receptionist/Administrator
+SELECTED | Leicestershire | Leicester, East Midlands, LE9 7PD | £17,891.00 - £17,891.00 Annually (Actual) | Receptionist/Administrator
 employer: Heath Lane Academy
 closing_date: 2026-12-06T23:59:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: fa284602c9d7d0f013eb1eae7c828046b42110bb032ec939c036fbd745a0dc6c
+factual_fingerprint: ecafbd3d981b1690f3c463fad792d6f7900e54930e4b4078ce03e224aa326ebf
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-heath-lane-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-heath-lane-academy
@@ -92,7 +92,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 - [Admin Assistant & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-office-manager) — Excluded senior/management title.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-english-martyrs-catholic-school-a-voluntary-academy) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Excluded senior/management title.
-- [SENCo Administration Assistant (KE98BC)](https://teaching-vacancies.service.gov.uk/jobs/senco-administration-assistant-ke98bc) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

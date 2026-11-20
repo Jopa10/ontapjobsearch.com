@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-19
+review_date: 2026-11-20
 review_fingerprint: ff388cc9a70492f68b4fbcfb31c80c64812f6350400634638b16522c9e898cef
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 15
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
 
@@ -104,9 +104,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-conne
 
 ## HARD_PASS
 
+- [Assistant Headteacher – Pastoral, Attendance and Personal Development](https://teaching-vacancies.service.gov.uk/jobs/assistant-headteacher-pastoral-attendance-and-personal-development) — Out-of-scope occupation: teacher, headteacher.
 - [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-all-saints-primary-school) — Excluded senior/management title.
+- [Employee Relations Lead](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-lead-57b52671-5866-471a-8be0-8d506d6078e0) — Excluded senior/management title.
 - [First Aid, Medical and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/first-aid-medical-and-administration-assistant-the-east-manchester-academy) — Insufficient admin/service evidence.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-lowry-academy) — Excluded senior/management title.
+- [Governance and Compliance Professional](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-professional-greater-manchester-academies-trust-manchester-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-3d87884e-d7d8-49bb-ac76-95af803b7698) — Insufficient admin/service evidence.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Excluded senior/management title.
 - [PDI Operations, Marketing & Programme Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pdi-operations-marketing-programme-support-officer) — Insufficient admin/service evidence.

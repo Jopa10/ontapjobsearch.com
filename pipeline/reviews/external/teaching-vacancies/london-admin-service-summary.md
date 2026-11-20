@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-19
-review_fingerprint: e1d836aa4baacd4db86ee21193d909c02ff608fcc34b1ece9a2669112c9fe670
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 15417b43e22b580afaa5d7c4d5b7aa2bd1928318beefcab5624fed843e6d4392
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 65
 - Selected: 11
-- POSS awaiting decision: 14
+- POSS awaiting decision: 15
 - Excluded: 0
-- Hard pass: 40
+- Hard pass: 39
 
 ## SELECTED
 
@@ -68,6 +68,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-send-pr
 
 ---
 action: 
+SELECTED | London | Wallington, London, SM6 7PH | £34,104.00 - £37,794.00 Annually (FTE) Actual salary (£26,301.98 - £29,271.03 per annum pro-rated). Salary will be determined subject to experience and qualifications. Term time plus 4 weeks. | Admissions Officer
+employer: Wallington County Grammar School
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 89ffa5b4314203090264567301b99667a1fc5a4d39984e150b9cc88e652784aa
+source: Teaching Vacancies
+source_job_id: admissions-officer-8487a9d6-e7b9-46ca-a705-8c0a51c097f2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-8487a9d6-e7b9-46ca-a705-8c0a51c097f2
+---
+
+---
+action: 
+SELECTED | London | Bushey, East of England, WD23 4PA | £26,427.00 - £27,709.00 Annually (FTE) The salary for this post is APT&C points 5 -8 plus London Fringe. Full time figures are £26,427pa - £27,709pa + £1079pa, paid pro-rata and based on experience. The actual pro-rata salary range is £14,661pa - £15,372pa + £598pa. | Afternoon Receptionist
+employer: Bushey Meads School
+closing_date: 2026-12-01T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4dac70c9d6a52ac3b8bc15c30655a5b46041d043d1a5ab8811f56216dd801e53
+source: Teaching Vacancies
+source_job_id: afternoon-receptionist-bushey-meads-school-bushey-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/afternoon-receptionist-bushey-meads-school-bushey-hertfordshire
+---
+
+---
+action: 
 SELECTED | London | London, London, N9 8DR | £29,077.83 - £31,410.96 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,708.76 - £28,851.80 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
 employer: Woodpecker Hall Primary Academy
 closing_date: 2026-12-01T23:59:00+00:00
@@ -79,36 +109,6 @@ factual_fingerprint: ad21c857526bc6cc2d2b08364cbd38e1e8546b4511a2d0630112158801c
 source: Teaching Vacancies
 source_job_id: business-support-assistant-b0e92129-9a1b-4671-8806-6ea3c3ec8ece
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-b0e92129-9a1b-4671-8806-6ea3c3ec8ece
----
-
----
-action: 
-SELECTED | London | Morden, London, SM4 5LT | £31,290.00 - £33,129.00 Annually (FTE) | EHCP Administrative Assistant
-employer: Perseid School
-closing_date: 2026-11-20T16:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6ac589fd856da7f3a5d55c5eb30970369e75d713552a73cf1da0668c66cf98fd
-source: Teaching Vacancies
-source_job_id: ehcp-administrative-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrative-assistant
----
-
----
-action: 
-SELECTED | London | Dagenham, London, RM8 1JU | £35,896-£36,855 | Exams Officer
-employer: Robert Clack School
-closing_date: 2026-11-23T08:00:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 75c0fb929c93bd2188f642d7e0bb2d887c79575713b25ae8fbd6dedec0dbafbe
-source: Teaching Vacancies
-source_job_id: exams-officer-robert-clack-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-robert-clack-school
 ---
 
 ---
@@ -265,6 +265,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
+POSS | London | Morden, London, SM4 5LT | £31,290.00 - £33,129.00 Annually (FTE) | EHCP Administrative Assistant
+employer: Perseid School
+closing_date: 2026-11-20T16:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6ac589fd856da7f3a5d55c5eb30970369e75d713552a73cf1da0668c66cf98fd
+source: Teaching Vacancies
+source_job_id: ehcp-administrative-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrative-assistant
+---
+
+---
+action: 
 POSS | London | London, SE28 8AT | £30,408.00 - £32,655.00 Annually (Actual) | Finance Assistant
 employer: Polymat
 closing_date: 2026-11-22T23:59:00+00:00
@@ -325,21 +340,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-POSS | London | London, London, NW1 6RX | £31,083 - £34,857 per year | Receptionist/Administrator
-employer: Ark King Solomon Academy
-closing_date: 2026-11-20T00:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a3fa0885fad3489b71de608e58bf1d14c52ce514afba1ec818e7f167ab7f599b
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-ark-king-solomon-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ark-king-solomon-academy
----
-
----
-action: 
 POSS | London | Croydon, London, CR0 9AZ | Grade 4/5 (FTE SP18 £31,281– SP 25 £35,106) Actual: 28,849.57 – 32,377.26 | SEN Administrator
 employer: Addington Valley Academy
 closing_date: 2026-12-03T23:59:00+00:00
@@ -351,6 +351,21 @@ factual_fingerprint: aae2e98ff780434afbbe9d0aa9561e8b12a8b43ad3e296f64b435707a12
 source: Teaching Vacancies
 source_job_id: sen-administrator-addington-valley-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-addington-valley-academy
+---
+
+---
+action: 
+POSS | London | Bushey, East of England, WD23 4PA | £23,699.00 - £25,267.00 Annually (Actual) APT&C points 8 - 12 plus London Fringe | SEND Administrator
+employer: Bushey Meads School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 43243893f4c7395846d7c58867c2ff77d378680c9904c465a26b1335da13b4a6
+source: Teaching Vacancies
+source_job_id: send-administrator-bushey-meads-school-bushey-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bushey-meads-school-bushey-hertfordshire
 ---
 
 ---
@@ -413,15 +428,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Casual Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-administrative-assistant) — No usable numeric salary.
 - [Communications & Digital Media Intern](https://teaching-vacancies.service.gov.uk/jobs/communications-digital-media-intern) — No usable numeric salary.
 - [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-the-boxing-academy-ap-free-school) — Insufficient admin/service evidence.
-- [Data & Cover Manager - Deputy Head of MIS (Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/data-cover-manager-deputy-head-of-mis-maternity-cover) — Out-of-scope occupation: deputy head.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
 - [Data Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/data-governance-officer) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-winchmore-school) — Excluded senior/management title.
 - [Finance and Admissions Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-admissions-assistant) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-newham-community-learning) — Salary over £50k.
-- [Finance officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-kings-cross-academy) — No usable numeric salary.
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
+- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-8fc0a6b4-5e0b-4d7f-b5d4-016bc3b41dab) — Excluded senior/management title.
 - [Headteacher's PA and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-and-office-manager-carshalton-high-school-for-girls) — Out-of-scope occupation: teacher, headteacher.
 - [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-girls-learning-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-co-ordinator) — Insufficient admin/service evidence.
@@ -438,11 +452,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [PA to Group Executive Director of HR](https://teaching-vacancies.service.gov.uk/jobs/pa-to-group-executive-director-of-hr) — Excluded senior/management title.
 - [PA to Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-office-manager-the-quest-academy) — Excluded senior/management title.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy-orpington-kent) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shalom-noam-primary-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-sherwood-school) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-connaught-special-school-london) — Excluded senior/management title.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-haberdashers-knights-academy) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-sarah-bonnell-school-london) — Excluded senior/management title.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-the-grove) — Excluded senior/management title.
 - [Sixth Form Admissions and Administration](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admissions-and-administration) — Insufficient admin/service evidence.
 
 ## Safety boundary

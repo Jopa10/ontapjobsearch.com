@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-19
-review_fingerprint: 89a7b62e6c601a20fddf7984f7ae4bc250aedcf3fde37494b8e53ab3fb1ebc01
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 2a1d1c52505468ed37f868eca8d1ebed020868f73fe7eaf6e6ad08baa6a7b390
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,58 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 7
+- Records: 18
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 11
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cambridgeshire | Wisbech, East of England, PE14 7HA | Scale D, Pt 6-7, £13.91 - £14.13/hour. Approx £22,989 - £23,354/year (FTE £26,847 - £27,274 per year, based on a 37hr week) Please note this salary will be paid pro rata | Administrator (SEN and Careers)
-employer: Marshland High School
-closing_date: 2026-11-20T00:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ed04fa5ddae9c07f80336ec989b81c31cba10cff02aec03b23d4ba91b1f75319
-source: Teaching Vacancies
-source_job_id: administrator-sen-and-careers-marshland-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sen-and-careers-marshland-high-school
----
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB23 7DU | £27,274.00 - £29,071.00 Annually (FTE) NJC Scale 4, Points 7 to 11 . Actual salary £23,078 per annum on point 7. | Alternative Provision & Safeguarding Administrator
-employer: Comberton Village College
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0f6fe396cc6c468929478643cb2dfb69ebb64b3220a2b8e0055a4fded587f4d3
-source: Teaching Vacancies
-source_job_id: alternative-provision-safeguarding-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-safeguarding-administrator
----
-
----
-action: 
-SELECTED | Cambridgeshire | Huntingdon, PE28 5TQ | £27,320.67 - £30,628.71 Annually (Actual) There is the flexibility for part-time hours and/or more weeks worked | Finance Officer
-employer: Meridian Trust
-closing_date: 2026-11-20T08:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f96a359ee63a04c9074e39e71e215aac02e0c92de60ed1039c367489dbb5668d
-source: Teaching Vacancies
-source_job_id: finance-officer-meridian-trust-huntingdon-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-meridian-trust-huntingdon-not-recorded
----
 
 ---
 action: 

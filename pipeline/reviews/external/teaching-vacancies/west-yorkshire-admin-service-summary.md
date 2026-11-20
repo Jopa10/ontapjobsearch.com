@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-19
-review_fingerprint: 48f986bbeaecb17ca7bef8e7450797a0c0cd92e8e6367a19278558f391ebb534
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: e10291beb391d65c6f97b89e1e599db1bc5ccf7f867ad03eafc97628a6130b0c
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 37
-- Selected: 11
+- Selected: 12
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 26
+- Hard pass: 25
 
 ## SELECTED
 
@@ -173,6 +173,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-attendance-off
 
 ---
 action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS14 6HA | £25,061.00 - £25,646.00 Annually (Actual) Grade B3, SCP 7 - 11 | SEND Administrator
+employer: Leeds East Academy
+closing_date: 2026-12-04T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: e6ae7886fbb2f5333b9108cdf2db7f2293a5c76799a558d0e5e1879626dfdb14
+source: Teaching Vacancies
+source_job_id: send-administrator-leeds-east-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-leeds-east-academy
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Keighley, Yorkshire and the Humber, BD20 6EB | £30,198.00 - £31,890.00 Annually (Actual) Band SO1, SCP 23-25, Fixed Term until July 2027, Core working pattern Mon-Thu 8:00am-4:00pm, Fri 8:00am-3:30pm (need of flexibility) | Sports Coach & School Games Administrator
 employer: Carlton Keighley
 closing_date: 2026-11-23T10:00:00+00:00
@@ -201,7 +216,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-g
 - [Admin and Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-18575951-37f7-4cf2-88ec-92eda75445ad) — No usable numeric salary.
 - [Administration assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chapel-allerton-primary-school) — No usable numeric salary.
 - [Administration Officer - SEND & Pastoral](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-send-pastoral) — Insufficient admin/service evidence.
-- [Attendance Coordinator (7902)](https://teaching-vacancies.service.gov.uk/jobs/attendance-coordinator-7902) — Insufficient admin/service evidence.
+- [Attendance and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-welfare-officer-leeds-city-academy) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-leodis-academies-trust) — Excluded senior/management title.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-owlcotes-multi-academy-trust) — Excluded senior/management title.
 - [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
@@ -213,13 +228,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-g
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dixons-academies-trust) — Salary over £50k.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-impact-education-multi-academy-trust) — Excluded senior/management title.
 - [HR Administration Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-team-leader) — Excluded senior/management title.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-crawshaw-academy) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hillside-primary-school-huddersfield-west-yorkshire) — Excluded senior/management title.
 - [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team-temple-learning-academy) — Excluded senior/management title.
 - [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-westbrook-lane-primary-school) — Excluded senior/management title.
-- [SEN Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/sen-administration-assistant-horbury-academy-wakefield-west-yorkshire) — Insufficient admin/service evidence.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-meadowfield-primary-school) — Excluded senior/management title.
 - [Trust Data & Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-systems-analyst) — Insufficient admin/service evidence.
 - [Trust Service Officer - Governance, Assurance and Compliance](https://teaching-vacancies.service.gov.uk/jobs/trust-service-officer-governance-assurance-and-compliance) — Insufficient admin/service evidence.
 

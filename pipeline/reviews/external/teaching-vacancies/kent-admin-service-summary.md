@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-11-19
-review_fingerprint: b90d4041cd5f74f6975265c11e8736a62cf363cda59513d7c3ea68bbbaf74395
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 24b29a63d6bfcc7dcbfc2aca6ee7a2c9e5e5f1822ff7aa9cfef6fdcc591ec0e2
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 10
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 5
 
 ## SELECTED
 
@@ -70,6 +70,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administ
 
 ---
 action: 
+POSS | Kent | Dartford, South East, DA2 6JX | £23,485.45 | Receptionist
+employer: Fleetdown Primary Academy
+closing_date: 2026-12-03T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f13641218ac268efecdc37e2221bb0938d3a424a09a10506db9edffbb91fe693
+source: Teaching Vacancies
+source_job_id: receptionist-fleetdown-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-fleetdown-primary-academy
+---
+
+---
+action: 
 POSS | Kent | Dartford, South East, DA2 6FY | £22,621.00 Annually (Actual) | Receptionist
 employer: Stone Lodge School
 closing_date: 2026-12-06T23:59:00+00:00
@@ -90,7 +105,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stone-lo
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-staplehurst-school) — Insufficient admin/service evidence.
+- [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy-rochester-kent) — Insufficient admin/service evidence.
 - [Head of Data & Insights](https://teaching-vacancies.service.gov.uk/jobs/head-of-data-insights-the-howard-academy-trust) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school-tonbridge-kent) — Excluded senior/management title.
+- [Payroll & HR Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-hr-officer-the-howard-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

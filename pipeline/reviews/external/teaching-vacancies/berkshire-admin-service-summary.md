@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-19
-review_fingerprint: 5e9abd977ba942f7b635eba61b26eec147a74c4c7543d18737e63e1349643a1a
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 7afa298f73c8565e0924662f364cfb6ad637b9216b8348acc15afa1dd1629123
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,26 +15,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 21
 - Selected: 8
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG30 4BZ | £11,296.73 Annually (Actual) | Administrative Assistant (Staff Attendance and Absence Management)
-employer: The Avenue Special School
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 38cae0225772c0b7cd18eaf066df39ac3d73086aa431f38f618adf0b1764ae0d
-source: Teaching Vacancies
-source_job_id: administrative-assistant-staff-attendance-and-absence-management
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-staff-attendance-and-absence-management
----
 
 ---
 action: 
@@ -128,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-administra
 
 ---
 action: 
+SELECTED | Berkshire | Wokingham, RG40 1SS | £27,274-£29,071 per annum | Trust Operations Administrator
+employer: The Circle Trust
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 31e129f93e4691b6a55a7c1abbf494bf096714e746547f9a68c42f178d54e887
+source: Teaching Vacancies
+source_job_id: trust-operations-administrator-the-circle-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-operations-administrator-the-circle-trust
+---
+
+---
+action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
 employer: James Elliman Academy
 closing_date: 2026-12-31T23:59:00+00:00
@@ -142,6 +142,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Berkshire | Bracknell, South East, RG42 1SY | £26,032.00 - £27,346.00 Annually (FTE) Pro rata for hours and weeks | Administration Officer
+employer: King's Academy Meadow Vale
+closing_date: 2026-12-03T12:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f87c4fdc10db777b4eb7ed99a48ebbf84a6a235e367b1aadba34f8a506fc13d7
+source: Teaching Vacancies
+source_job_id: administration-officer-king-s-academy-meadow-vale
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-king-s-academy-meadow-vale
+---
 
 ---
 action: 
@@ -179,12 +194,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 
 ## HARD_PASS
 
-- [Admin Assistant (Staff Attendance & Absence Monitoring) - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-staff-attendance-absence-monitoring-the-avenue-school) — No usable numeric salary.
 - [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
 - [Federation Business Officer](https://teaching-vacancies.service.gov.uk/jobs/federation-business-officer) — Insufficient admin/service evidence.
+- [Finance and Administration Officer - Educational Visits](https://teaching-vacancies.service.gov.uk/jobs/finance-and-administration-officer-educational-visits) — Insufficient admin/service evidence.
 - [Health Safety & Welfare Manager](https://teaching-vacancies.service.gov.uk/jobs/health-safety-welfare-manager) — Excluded senior/management title.
 - [Level 3 School Administrator Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/level-3-school-administrator-apprenticeship) — No usable numeric salary.
-- [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school-reading-berkshire) — Excluded senior/management title.
 - [Project Manager - Systems Implementation (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/project-manager-systems-implementation-maternity-cover-maiden-erlegh-trust) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
 - [Student Admissions and Onboarding Officer](https://teaching-vacancies.service.gov.uk/jobs/student-admissions-and-onboarding-officer) — Insufficient admin/service evidence.

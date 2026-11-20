@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-19
+review_date: 2026-11-20
 review_fingerprint: af9aaf0a722e2f85516a2a476c596705c69540aff54b06533434faf4688bc905
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -90,10 +90,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [Estates and Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-and-facilities-manager-alt-trust) — Excluded senior/management title.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-93fd9e38-fdd6-4e06-b69b-4e58480cf32b) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-cambrian-learning-trust) — Insufficient admin/service evidence.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust-oxford-not-recorded) — Insufficient admin/service evidence.
-- [Part Time Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school) — No usable numeric salary.
+- [RLT Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/rlt-fundraising-officer-river-learning-trust) — Insufficient admin/service evidence.
 - [School Health & Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/school-health-safety-and-compliance-officer) — Insufficient admin/service evidence.
 - [Welfare and Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-personal-care-assistant-4d28f01b-0774-4814-980a-aaa4df4dfb79) — Insufficient admin/service evidence.
 

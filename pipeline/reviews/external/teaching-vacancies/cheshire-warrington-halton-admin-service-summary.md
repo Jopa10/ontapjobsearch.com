@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-11-19
-review_fingerprint: 5c2928bf11c75d66d9169d01c415a7349afd0bce84110597db0db1ef366638cf
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 74e7aeb6c1e15e5df5fd447a24e3d4372e36a36bbe82044ff65bae0dbd0dc913
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -40,6 +40,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-s30
 
 ---
 action: 
+POSS | Cheshire - Warrington & Halton | Warrington, North West, WA2 9PH | £23,092.00 - £23,460.00 Annually (Actual) Grade 4, Point 6-7 (£26,847 - £27,274 full time equivalent) | Clerical Assistant (Fixed Term Maternity Cover)
+employer: Meadowside Community Primary and Nursery School
+closing_date: 2026-12-07T12:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0f024b8579485a85da8a755c721b521356f08ad0ec8e375b77ec212e60bcc182
+source: Teaching Vacancies
+source_job_id: clerical-assistant-fixed-term-maternity-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-fixed-term-maternity-cover
+---
+
+---
+action: 
 POSS | Cheshire - Warrington & Halton | Warrington, North West, WA4 6RD | £25,558.00 - £29,544.00 Annually (FTE) | Finance Assistant
 employer: Priestley College
 closing_date: 2026-11-23T12:00:00+00:00
@@ -53,21 +68,6 @@ source_job_id: finance-assistant-5a6ad070-e384-48fa-ab50-605d6091576b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-5a6ad070-e384-48fa-ab50-605d6091576b
 ---
 
----
-action: 
-POSS | Cheshire - Warrington & Halton | Warrington, North West, WA4 3AE | £27,709.00 - £30,515.00 Annually (Actual) Grade 5 SCP 8–14 Actual Salary: £27,709 - £30,515 per annum | School Administrator
-employer: Bridgewater High School
-closing_date: 2026-11-20T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3d812cd95ae60e3dbbaae67ad8cd252d86b467934fa2a4ef5e1991183a06d4b7
-source: Teaching Vacancies
-source_job_id: school-administrator-bridgewater-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-bridgewater-high-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -75,7 +75,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-great-schools-trust-warrington-not-recorded) — Excluded senior/management title.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-great-schools-trust) — Salary over £50k.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-philip-westbrook-cofe-primary-school-warrington-cheshire) — Excluded senior/management title.
 
 ## Safety boundary

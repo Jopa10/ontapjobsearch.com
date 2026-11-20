@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-11-19
+review_date: 2026-11-20
 review_fingerprint: baea75353876f4cc2fcbdbc1fe065c65b9ed04e47269c1de1b9778adb6d8d236
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 3
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -61,7 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 
 ## HARD_PASS
 
-- None.
+- [B038 Student Data Supervisor](https://teaching-vacancies.service.gov.uk/jobs/b038-student-data-supervisor) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

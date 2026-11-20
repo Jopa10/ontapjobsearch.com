@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-19
+review_date: 2026-11-20
 review_fingerprint: 9be9bfa8b6ee3f5716aee1d26c86bed250b0d72315664a5c978bc41d651db397
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
+- Records: 23
 - Selected: 2
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 19
+- Hard pass: 18
 
 ## SELECTED
 
@@ -106,20 +106,19 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-office
 
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sidmouth-church-of-england-primary-school) — No usable numeric salary.
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-team-multi-academy-trust) — No usable numeric salary.
+- [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-holsworthy-community-college) — Insufficient admin/service evidence.
 - [Clerk to Governors](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-woodlands-school) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-a1a3a65a-9f2f-47b9-8227-68ba8ca76cf9) — No usable numeric salary.
 - [Exams Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-maternity-cover-atlantic-academy) — No usable numeric salary.
-- [Finance and Business Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-business-officer-all-saints-church-of-england-academy) — No usable numeric salary.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Governance and Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/governance-and-administrative-assistant) — No usable numeric salary.
 - [Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/governance-coordinator-westcountry-schools-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-boringdon-primary-school-plymouth-devon) — Excluded senior/management title.
+- [Permanent Pupil Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/permanent-pupil-support-administrator) — No usable numeric salary.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon) — No usable numeric salary.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-f0cae92f-fab5-4d71-9217-1ffc67fdf32d) — No usable numeric salary.
 - [School Buildings and Grounds Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-buildings-and-grounds-caretaker) — Out-of-scope occupation: caretaker.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-1ab8b680-19b9-400d-b2ad-e7ffeda3ad14) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-bb6742ca-488b-4508-aac4-ff3a63b58893) — Excluded senior/management title.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy-newton-abbot-devon) — Excluded senior/management title.
 - [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school-axminster-devon) — Excluded senior/management title.
 - [Skills Planning Analyst](https://teaching-vacancies.service.gov.uk/jobs/skills-planning-analyst) — Insufficient admin/service evidence.

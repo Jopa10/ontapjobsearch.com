@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-11-19
-review_fingerprint: 59915515421726eb79c13aebe19e6568d93314a5da7e9ee0daad9c0564d74b4a
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: f9f34ef74924efa99e8f873d936c6528386f6534f3e8f131ff06aa5eab418cee
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 8
 - Selected: 4
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -68,28 +68,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Greater Manchester - South | Altrincham, WA15 8QW | £25,410.00 - £27,564.00 Annually (Actual) | Trust Finance Officer
-employer: Achieve And Learn Trust
-closing_date: 2026-11-20T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 32c8829eaa2457904869865ba13cdb8f9ad926528eb71de2434de319db29664a
-source: Teaching Vacancies
-source_job_id: trust-finance-officer-achieve-and-learn-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-achieve-and-learn-trust
----
-
-## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Greater Manchester - South | Sale, North West, M33 3JR | £27,922.00 Annually (FTE) 22.5 hours – 3 days a week (8.00am – 4.00pm) Mon to Wed (30 minutes unpaid lunch). Term Time plus 5 INSET days . Actual Salary £14,456 per annum. | Administration Assistant
+SELECTED | Greater Manchester - South | Sale, North West, M33 3JR | £27,922.00 Annually (FTE) 22.5 hours – 3 days a week (8.00am – 4.00pm) Mon to Wed (30 minutes unpaid lunch). Term Time plus 5 INSET days . Actual Salary £14,456 per annum. | Administration Assistant
 employer: Sale High School
 closing_date: 2026-11-29T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: ad963fbc9b18a4752df3cf816adea5379794e46fb7cb677c21a6bfd97309f84f
@@ -97,6 +80,8 @@ source: Teaching Vacancies
 source_job_id: administration-assistant-sale-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-sale-high-school
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
@@ -120,7 +105,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-elis
 ## HARD_PASS
 
 - [Academy Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-manager-dixons-ashton-academy) — Excluded senior/management title.
-- [Deputy Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-financial-officer-achieve-and-learn-trust) — Excluded senior/management title.
 - [Personal Care Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-maternity-cover) — Insufficient admin/service evidence.
 - [School Receptionist](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-gatley-primary-school) — No usable numeric salary.
 

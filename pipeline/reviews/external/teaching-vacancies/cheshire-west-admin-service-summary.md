@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-11-19
-review_fingerprint: 7d5536a833ffd9f7ea84378c426bb27e02c909a45068356becb7ff694d02f675
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 4484ebb8d1302fbd32fe0861d3b0cf9177b3838e72339016abfda1119f529d20
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cheshire - West | Northwich, North West, CW8 4RN | £21,380.16 - £23,304.53 Annually (Actual) Grade 5, SCP 7-11. 34.5 hours per week, term-time only (38 weeks per year) | Administration Assistant
+employer: Little Leigh Primary School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2ddab28f67f21741cd2a299da0ee6efe50ff88f0c1164fe7646998d5b250632a
+source: Teaching Vacancies
+source_job_id: administration-assistant-little-leigh-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-little-leigh-primary-school
+---
 
 ---
 action: 

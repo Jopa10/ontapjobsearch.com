@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-19
-review_fingerprint: 5abb00467a79ab5d2d7e9e9f0108ab58b669cd629f5f8a40f396882242871643
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 8c7d0d870c0daeccee4be7ceb52ba03b2df9b3ce86353bacb0e91f42317d4c9e
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 23
 - Selected: 3
-- POSS awaiting decision: 6
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 15
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 6NZ | £24,234.00 - £25,823.00 Annually (Actual) NJC6 - NJC10 | Finance Administrator - Including Trips and Visits
-employer: Arnold Hill Spencer Academy
-closing_date: 2026-11-24T23:59:00+00:00
-reason: Clear admin/service title: administrator, finance administrator
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG2 5NH | £20,151.00 - £20,791.00 Annually (Actual) Band 2, Scale Points 3 - 5 | Administrative Assistant
+employer: St Edmund Campion Catholic Primary School
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d4a3b99062730895c7ce2cf300d1c90c1b961fcbd97a7e8adb267af34e97f8b6
+factual_fingerprint: 66670c8b4ebc07c02ab4441a5762fe2de4dfe059c4f4b2bfb6c7ee7cdf8a0f1f
 source: Teaching Vacancies
-source_job_id: finance-administrator-including-trips-and-visits-arnold-hill-spencer-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-including-trips-and-visits-arnold-hill-spencer-academy
+source_job_id: administrative-assistant-st-edmund-campion-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-edmund-campion-catholic-primary-school
 ---
 
 ---
@@ -67,21 +67,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG5 6NZ | £23,121.00 - £24,234.00 Annually (Actual) NJC 3- 6 (37hrs per week) Term Time Plus 2 Weeks (41 weeks) | Administration Assistant
-employer: Arnold Hill Spencer Academy
-closing_date: 2026-11-30T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 263459782b0ed053d67dec4b614e420ef0b55a8c4e03df9d4c99b78db19de465
-source: Teaching Vacancies
-source_job_id: administration-assistant-928f59c0-3e7f-4c16-a5e6-cbdd0ac90a06
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-928f59c0-3e7f-4c16-a5e6-cbdd0ac90a06
----
 
 ---
 action: 
@@ -165,9 +150,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 ## HARD_PASS
 
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-king-edward-primary-school-nursery) — No usable numeric salary.
+- [Business Team Leader](https://teaching-vacancies.service.gov.uk/jobs/business-team-leader) — Excluded senior/management title.
 - [Data, Timetable and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-timetable-and-cover-manager) — Excluded senior/management title.
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby-nottingham-nottinghamshire) — Insufficient admin/service evidence.
 - [Finance & Estate Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-estate-officer) — Salary over £50k.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-east-midlands-education-trust) — Excluded senior/management title.
 - [Healthcare Assistant / Administrator](https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-b6dad597-ef3e-406f-a693-7ada1eddda55) — No usable numeric salary.
 - [Marketing and Reprographics Assistant (fixed term maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-reprographics-assistant-fixed-term-maternity-cover) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-nova-education-trust) — Excluded senior/management title.
@@ -175,6 +162,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 - [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-a64c421f-6231-4592-9c8e-33d9670e968a) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c4d506e4-2227-47db-b7f1-9c4c2546f3eb) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hawthorne-primary-and-nursery-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hucknall-national-church-of-england-primary-school) — Excluded senior/management title.
 - [Senior Administrator (Governance)](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-governance) — Excluded senior/management title.
 
 ## Safety boundary

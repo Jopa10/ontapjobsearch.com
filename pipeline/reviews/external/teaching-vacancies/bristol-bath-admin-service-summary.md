@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-19
-review_fingerprint: 65a89266aed28d74187e1b9bc4da144c9ab28df0db201dafcf57de26ad391dca
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 3bc0566d492b7b09db46defb1f3ecdb02b7e17bbb35302ba5bdb23b1f80dcd3c
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 11
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS16 9LH | PATH 6 up to £24,036 prorated | SEND Administrator
-employer: Mangotsfield School
-closing_date: 2026-11-23T09:00:59+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 658d9b21158c3a625398bd2481c10b221147d4720dd549c91279fd2b48930c07
-source: Teaching Vacancies
-source_job_id: send-administrator-mangotsfield-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-mangotsfield-school
----
-
----
-action: 
 SELECTED | Bristol & Bath | Bristol, South West, BS7 0XZ | £26,847.00 - £27,274.00 Annually (FTE) | Student Receptionist
 employer: Orchard School Bristol
 closing_date: 2026-12-07T23:59:00+00:00
@@ -119,7 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ## HARD_PASS
 
-- [Behaviour Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/behaviour-support-administrator-sir-bernard-lovell-academy) — No usable numeric salary.
+- [Behaviour Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/behaviour-support-administrator-sir-bernard-lovell-academy-bristol) — No usable numeric salary.
 - [Educational Visits and Enrichment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-and-enrichment-coordinator) — No usable numeric salary.
 - [Employer Engagement Advisor](https://teaching-vacancies.service.gov.uk/jobs/employer-engagement-advisor) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.

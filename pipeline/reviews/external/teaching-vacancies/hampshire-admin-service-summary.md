@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-19
-review_fingerprint: 4c1b8aafb0399f9ee428ddfd47a2efeb666a35e0bc1b66b86f52c3ac27fd42f0
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: c89200b8b0a91d4a8cdf313d66ee69a315b59ac12757236bd04f3a98686adcab
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 4
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 3b0dbafaca1fc73d2a7033bc0e12a7613fcf4a8dc17e5c698f33aac76a3
 source: Teaching Vacancies
 source_job_id: finance-assistant-term-time-only-upper-shirley-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-term-time-only-upper-shirley-high-school
+---
+
+---
+action: 
+SELECTED | Hampshire | Fareham, South East, PO16 8AH | £26,017.00 - £27,110.00 Annually (FTE) Actual Salary £18,092 - £18,853 per annum | Pastoral Administrator
+employer: Cams Hill School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6ccdc07365e87581f93a8d7a3eb1037911fe93d9e68dcb4691d6710c5e019c43
+source: Teaching Vacancies
+source_job_id: pastoral-administrator-cams-hill-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-cams-hill-school
 ---
 
 ---
@@ -104,6 +119,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-office
 
 ## HARD_PASS
 
+- [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school-portsmouth-hampshire) — No usable numeric salary.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-haylands-primary-school) — Excluded senior/management title.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-inspire-learning-partnership) — Salary over £50k.
 - [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-hisp-multi-academy-trust-ltd) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-11-19
+review_date: 2026-11-20
 review_fingerprint: b568237579fae36afebf804df6de292251d450384a5238fcea870d541cc7c57c
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 5
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
 
@@ -47,7 +47,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-
 ## HARD_PASS
 
 - [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-river-tees-hospital-school) — Excluded senior/management title.
+- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-fecc3916-9c14-434c-9e0b-d39660391a02) — Insufficient admin/service evidence.
 - [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-0059e65f-970d-422a-9b7d-94a093a318d4) — Excluded senior/management title.
+- [Trust HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-officer-spark-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

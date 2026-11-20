@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-11-19
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 2a8f0f277e2bfecc510a0210fa1bcfdd52dfb6b8e1786518cc77cc30fa2c609c
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 0
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 9AG | £18,515.00 Annually (Actual) | Administrative Assistant
+employer: John of Rolleston Primary School
+closing_date: 2026-12-14T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 3be098174c0b88a21d496228a442cc51958cfa9b126441ce6d4ff87b9ef88171
+source: Teaching Vacancies
+source_job_id: administrative-assistant-john-of-rolleston-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-john-of-rolleston-primary-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

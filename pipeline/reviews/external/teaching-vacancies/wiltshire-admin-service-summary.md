@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-19
-review_fingerprint: 25ddd8dd4248ad0bc87796f043ce0bbf69b8d1d7dd36bff4ccfc4968c434cbf1
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: c0a765cd64567b0c09461504d14ba817e6404636bd0060c46d1378976d111211
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
+SELECTED | Wiltshire | Salisbury, South West, SP1 2ED | £22,733 to £24,171 per year | Receptionist
+employer: Bishop Wordsworth's Church of England Grammar School
+closing_date: 2026-12-06T00:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e11779434caafed1aa69618bfbc1690a1d88b262aba0ec00a4e1fa9be4e844a3
+source: Teaching Vacancies
+source_job_id: receptionist-bishop-wordsworth-s-church-of-england-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-bishop-wordsworth-s-church-of-england-grammar-school
+---
+
+---
+action: 
 SELECTED | Wiltshire | Chippenham, South West, SN14 6RJ | £22,415.00 - £23,617.00 Annually (Actual) | Receptionist
 employer: Hardenhuish School
 closing_date: 2026-11-30T08:00:00+00:00
@@ -137,7 +152,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-go
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-bulford-st-leonard-s-c-of-e-va-primary-school-salisbury-wiltshire) — Insufficient admin/service evidence.
 - [Day Care Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/day-care-admin-officer) — Insufficient admin/service evidence.
 - [Primary Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/primary-operations-manager-excalibur-academies-trust) — Excluded senior/management title.
-- [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-5cad4b3d-60eb-45ce-9201-1c3edf7de3a6) — Excluded senior/management title.
 
 ## Safety boundary
 

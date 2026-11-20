@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-11-19
+review_date: 2026-11-20
 review_fingerprint: 51913867233c5241ae793fef1a09995b994cba75dd1dec680cd7284f96707c3c
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -91,7 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-bridling
 
 ## HARD_PASS
 
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-endsleigh-holy-child-vc-academy) — Excluded senior/management title.
+- None.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-11-19
+review_date: 2026-11-20
 review_fingerprint: 5f0fc5c4cd591eed6c538f2cdc6ecf064cb4680bc8bb03e2c01faffe9805a58b
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 7
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 5
 
 ## SELECTED
 
@@ -64,10 +64,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-recr
 - [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-the-bishop-of-winchester-academy-bournemouth-dorset) — Insufficient admin/service evidence.
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-the-bishop-of-winchester-academy) — No usable numeric salary.
 - [Financial Accounting Manager](https://teaching-vacancies.service.gov.uk/jobs/financial-accounting-manager) — Excluded senior/management title.
-- [MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/mis-officer-the-bishop-of-winchester-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-longspee-academy-poole-dorset) — Excluded senior/management title.
-- [Receptionist (part-time)](https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-bournemouth-school) — No usable numeric salary.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-st-joseph-s-catholic-primary-school-poole) — Excluded senior/management title.
 - [Work Experience and Future Pathways Administrator](https://teaching-vacancies.service.gov.uk/jobs/work-experience-and-future-pathways-administrator-parkstone-grammar-school-poole-dorset) — No usable numeric salary.
 
 ## Safety boundary

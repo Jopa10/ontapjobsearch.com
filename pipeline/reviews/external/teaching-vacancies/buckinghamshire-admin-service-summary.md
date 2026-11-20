@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-19
+review_date: 2026-11-20
 review_fingerprint: 5b73c9e2e6dccd7935440bd2901eacb573aa3b7b34145d42b608da52fdc54254
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 16
 - Selected: 5
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -152,8 +152,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-trip-enrichmen
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-wycombe-high-school) — Excluded senior/management title.
 - [Examination Manager](https://teaching-vacancies.service.gov.uk/jobs/examination-manager-holmer-green-senior-school) — Excluded senior/management title.
 - [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-kents-hill-park-all-through-school) — Insufficient admin/service evidence.
+- [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-5-dimensions-trust) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-broughton-fields-primary-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-b186e459-f769-41b9-9390-e923eedcb0b6) — Excluded senior/management title.
-- [School Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/school-operations-co-ordinator) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-stephenson-mk-trust) — Excluded senior/management title.
 - [Sixth Form Study Supervisor & DofE Coordinator](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-study-supervisor-dofe-coordinator) — Insufficient admin/service evidence.
 

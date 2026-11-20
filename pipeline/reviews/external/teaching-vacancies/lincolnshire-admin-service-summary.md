@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-19
-review_fingerprint: daf084f291aa86d133e1b078298e303061cd536df8bb6574b5c793aee7b62389
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: eb08bfec1200987525238b1dd2556ae7295183082aba89c9f753c1c79895e83f
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -20,36 +20,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN16 2PZ | £25,269.00 Annually (FTE) | Admin Assistant
-employer: Coritani Academy
-closing_date: 2026-11-20T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 839cebd796c498cfa614335ae14e86e778fa92209484a7a554d7c0699228bdee
-source: Teaching Vacancies
-source_job_id: admin-assistant-coritani-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-coritani-academy
----
-
----
-action: 
-SELECTED | Lincolnshire | Lincoln, East Midlands, LN1 1LW | £21,904.90 - £23,088. (Lincolnshire Grade 3, SCP 6–9 (£25,614–£26,847 FTE), pro rata | Admin Assistant
-employer: The St Faith and St Martin Church of England Junior School, Lincoln
-closing_date: 2026-11-24T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5c37fa50a876497b867e54d54480ae1e1430b6446c92cd937d16fecba5539053
-source: Teaching Vacancies
-source_job_id: admin-assistant-the-st-faith-and-st-martin-church-of-england-junior-school-lincoln
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-st-faith-and-st-martin-church-of-england-junior-school-lincoln
----
 
 ---
 action: 
@@ -75,7 +45,7 @@ reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0100da555a308d0c80d388cb05f255ec65c741ce84fe432584ac7e340d6a8a22
+factual_fingerprint: 139322b53b3666ab6da11b111290100c1d6322853badd11b20ead3db87373529
 source: Teaching Vacancies
 source_job_id: administrative-assistant-st-peter-and-st-paul-catholic-voluntary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-peter-and-st-paul-catholic-voluntary-academy
@@ -98,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN3 4JP | PPS6 £26,847 per annum, pro rata to £23,052 per annum | Administrator
+employer: The Priory Pembroke Academy
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9baf217d6595d3283ec26352ad1c689ba279a677d27d51da19258dbe45f95d1e
+source: Teaching Vacancies
+source_job_id: administrator-the-priory-pembroke-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-priory-pembroke-academy
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Lincoln, East Midlands, LN4 4PN | £30,023.00 - £30,023.00 Annually (Actual) NJC13 : £27,723.95pa pro rata | Personal Assistant
 employer: The Barnes Wallis Academy
 closing_date: 2026-11-27T23:59:00+00:00
@@ -109,6 +94,21 @@ factual_fingerprint: 599f97cd2271cd9b98cf4401c7cb07ebd223e62377c337750b6b3f3bf95
 source: Teaching Vacancies
 source_job_id: personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN34 5BY | £25,626.00 - £25,626.00 Annually (FTE) As the role is part time, term time only, the actual salary is £13,386.60 per annum | Receptionist & Welcome Ambassador
+employer: Franklin Sixth Form College
+closing_date: 2026-12-03T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0a1cc6d650a4139fb9bab86f43a2aacc901d7dd606fb928e63da41c6100ec14e
+source: Teaching Vacancies
+source_job_id: receptionist-welcome-ambassador
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-welcome-ambassador
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -168,10 +168,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administration-a
 - [Clerical Assistant & Opal Playleader MSA – linked role](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-opal-playleader-msa-linked-role) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-e6664367-3eb0-42c0-9724-283bf6ac70a0) — Excluded senior/management title.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership-boston-not-recorded) — Insufficient admin/service evidence.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-john-leggott-sixth-form-college) — Insufficient admin/service evidence.
 - [Pastoral Administrator](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
 - [School Business Manager (CFO)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cfo) — Excluded senior/management title.
 - [SEND Admin](https://teaching-vacancies.service.gov.uk/jobs/send-admin-sir-robert-pattinson-academy) — No usable numeric salary.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-thomas-middlecott-academy-boston-lincolnshire) — Excluded senior/management title.
 
 ## Safety boundary
 

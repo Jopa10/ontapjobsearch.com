@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-11-19
-review_fingerprint: 6edf3aafb9117ec90ea8f0bf089fa55993daefc349d70d27df85f559384aad05
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: beff4098690e1b15dd6f98a6bf3930305beb69115fa55b7c1cc229fe1fdf113e
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -30,10 +30,10 @@ reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 933a94753845a48563f787e03471902aab888d64e24bc8259877baad2e05b18c
+factual_fingerprint: 18a284254a0ba942da94b1a6caf704f219f727f01023ccee63b0a906e21fb96a
 source: Teaching Vacancies
-source_job_id: administration-assistant-1618707c-198b-4e80-b128-597ef70669a9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-1618707c-198b-4e80-b128-597ef70669a9
+source_job_id: administration-assistant-90e315a4-5a44-4b76-a04f-c4a9542504c8
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-90e315a4-5a44-4b76-a04f-c4a9542504c8
 ---
 
 ---

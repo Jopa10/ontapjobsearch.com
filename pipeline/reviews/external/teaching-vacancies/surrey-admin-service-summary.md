@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-19
-review_fingerprint: adfdd7bbd69ea697b8f5e950d0898c13a2e37231e1e56faf8b4bd2e41d764057
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: c4c92b748ec81b105e514da7a0756798ea248ec538b09947a9cbfd14880d52b5
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
+- Records: 10
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
@@ -49,21 +49,6 @@ factual_fingerprint: f71e1aa8c5e3c4df5e7cb1d21904920ea52677596a982cd51d26164c50b
 source: Teaching Vacancies
 source_job_id: administrative-assistant-and-receptionist-westvale-park-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-receptionist-westvale-park-primary-academy
----
-
----
-action: 
-SELECTED | Surrey | Leatherhead, South East, KT22 7PW | £20,550.00 - £20,550.00 Annually (Actual) P3 £24,691 per annum FTE | Office Assistant
-employer: Fox Grove School
-closing_date: 2026-11-29T23:59:00+00:00
-reason: Clear admin/service title: office assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0f236550263359619a6f42fa32cad412800b22c331832b34fa03093b9c049396
-source: Teaching Vacancies
-source_job_id: office-assistant-fox-grove-school-leatherhead-surrey
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-fox-grove-school-leatherhead-surrey
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -106,10 +91,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-1b1
 
 - [Annual Review Lead](https://teaching-vacancies.service.gov.uk/jobs/annual-review-lead) — Excluded senior/management title.
 - [Apprenticeships Review Officer](https://teaching-vacancies.service.gov.uk/jobs/apprenticeships-review-officer) — Insufficient admin/service evidence.
-- [Office & Facilities Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-facilities-assistant) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-grange-community-infant-school) — Excluded senior/management title.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-south-farnham-educational-trust) — Excluded senior/management title.
 - [Sustainability Officer](https://teaching-vacancies.service.gov.uk/jobs/sustainability-officer) — Insufficient admin/service evidence.
+- [Weekend Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/weekend-lettings-assistant-45375d5d-6f2d-419c-818e-6b822630e49f) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

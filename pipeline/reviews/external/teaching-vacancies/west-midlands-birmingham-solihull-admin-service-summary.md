@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-19
-review_fingerprint: 24fd2bbb064a0fbe7851e43f1db3c83eb531fdbad919df144ec89fb7db444996
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: dae0507fbb3416a66a1e70b1d9800365c2edcaf66a65d47f009a7de23a5e2ddc
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
+- Records: 24
 - Selected: 11
-- POSS awaiting decision: 7
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 8
 
 ## SELECTED
 
@@ -150,7 +150,7 @@ reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8bba36f0920649ce85e8295d2f1b0ae08810c8d9610be47515968a22df2d73f0
+factual_fingerprint: 2d83bed9b59df00e9a57590ea63b69e0c2db4ff7353f50041709d42de8d578f3
 source: Teaching Vacancies
 source_job_id: finance-assistant-think-differently-education-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-think-differently-education-trust
@@ -165,10 +165,10 @@ reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 877aa585a8c0ba751f5e96df63a5c981c95efdce0f5cf392050e014881b7dbf9
+factual_fingerprint: 0f50e2dd0301f311807ee92d79d00e288fcfc1621415e5fe214e3c91f3daaf61
 source: Teaching Vacancies
-source_job_id: receptionist-085b338d-4d42-40aa-92a2-f945aaf9e693
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-085b338d-4d42-40aa-92a2-f945aaf9e693
+source_job_id: receptionist-4ad69169-9809-4683-85c8-88b46b3db2a6
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-4ad69169-9809-4683-85c8-88b46b3db2a6
 ---
 
 ---
@@ -197,10 +197,10 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: be19d16b26d000850ebbf9fde80c280a9d540464f30dc7230e7c7a0e9f078803
+factual_fingerprint: 1a5c224219e00abbd541ed294143c3d8b34a5d8e84fe55a8d164a6d1918a35eb
 source: Teaching Vacancies
-source_job_id: data-officer-06909c45-073c-4212-8191-c7e5c70aeb70
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-06909c45-073c-4212-8191-c7e5c70aeb70
+source_job_id: data-officer-dcc1f193-b40f-4b11-8933-d6450a06e482
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-dcc1f193-b40f-4b11-8933-d6450a06e482
 ---
 
 ---
@@ -216,21 +216,6 @@ factual_fingerprint: d1f19abf0aa66f6f7d6f56a6d45f4c7ee1b259d931055a145f2e4dc8b26
 source: Teaching Vacancies
 source_job_id: exam-and-central-services-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-and-central-services-assistant
----
-
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B6 4PZ | £25,614.00 - £27,709.00 Annually (FTE) £21,479 to £23,452 (Actual) | Office Administrator
-employer: Aston Manor Academy
-closing_date: 2026-11-20T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0988cb8052b7aeb5f80a4bfcc1571250981fc866d176b737c2b881da02c25bb0
-source: Teaching Vacancies
-source_job_id: office-administrator-aston-manor-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-aston-manor-academy
 ---
 
 ---
@@ -278,21 +263,6 @@ source_job_id: regional-hub-governance-professional-tudor-grange-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/regional-hub-governance-professional-tudor-grange-academies-trust
 ---
 
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B42 2TU | £24,723.00 - £31,271.00 Annually (Actual) | SEND Administrator
-employer: Prince Albert High School
-closing_date: 2026-11-20T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2acddf68090f590a31fdb290deb523752e6620fd5a5b0e10315dd1c3d9dc678f
-source: Teaching Vacancies
-source_job_id: send-administrator-prince-albert-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-prince-albert-high-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -301,8 +271,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 
 - [Assistant Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/assistant-trust-clerk-summit-learning-trust) — Insufficient admin/service evidence.
 - [Attendance Welfare Officer - Term Time Plus 2 Weeks / 37 Hours per week](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-term-time-plus-2-weeks-37-hours-per-week-tudor-grange-academy-kingshurst) — Insufficient admin/service evidence.
+- [Exam Access Arrangement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exam-access-arrangement-coordinator) — Insufficient admin/service evidence.
+- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-leigh-trust-birmingham-not-recorded) — Excluded senior/management title.
+- [Head of House PA](https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-dame-elizabeth-cadbury-school-birmingham-west-midlands) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-clement-s-church-of-england-academy-birmingham-west-midlands) — Excluded senior/management title.
 - [School Office Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-senior-administrator) — Excluded senior/management title.
+- [Senior Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-assistant-birches-green-primary-school) — Excluded senior/management title.
 
 ## Safety boundary
 

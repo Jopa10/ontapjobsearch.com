@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-19
-review_fingerprint: a4a4e4595d07bcc9fccfb2142f4469543ace13bd72011241764911c0678cd7f0
-routing_manifest_sha256: afb393ef821c5bd1cf552d1319cebea846dc44bccc4678180522f2357653fef1
+review_date: 2026-11-20
+review_fingerprint: 4797b6ea1f5ae7df9fb7f9fff5f96b50de796b255dcbc48ba402de3de02a19bb
+routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 18
+- Selected: 6
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 11
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: f154e2211d7cd75535bd33352d1050c3388b6c495631eef5df48744a6f7
 source: Teaching Vacancies
 source_job_id: 6th-form-administrative-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/6th-form-administrative-assistant
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Dunstable, East of England, LU5 4JA | £22,605.00 - £22,605.00 Annually (Actual) | Admin Assistant
+employer: Priory Academy
+closing_date: 2026-12-01T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4371ca59ddd5a6e4f266800a590bc12d6d8edb2db3e285900ec6452798275418
+source: Teaching Vacancies
+source_job_id: admin-assistant-priory-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-priory-academy
 ---
 
 ---
@@ -113,21 +128,6 @@ source_job_id: admissions-attendance-and-administration-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-and-administration-officer
 ---
 
----
-action: 
-POSS | Bedfordshire | Biggleswade, East of England, SG18 0LX | £26,016.00 - £26,427.00 Annually (FTE) NJC Scale 4-5 (or equivalent governance clerking rate), dependent on experience | Clerk to Governors
-employer: Lawnside Academy
-closing_date: 2026-11-20T09:00:00+00:00
-reason: Borderline school administration title: clerk to governors
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f665fc3c744325f9f067d490b5e857b0cf4ad4e769ca16b0914b306fa103eb88
-source: Teaching Vacancies
-source_job_id: clerk-to-governors-lawnside-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-lawnside-academy
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -144,7 +144,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-la
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bedford-inclusive-learning-and-training-trust-bedford-not-recorded) — Excluded senior/management title.
 - [Finance manager - Job Share](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-job-share) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-212db2cc-f077-4618-b1ff-eb892f942ee3) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-templefield-lower-school-bedford-bedfordshire) — Excluded senior/management title.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-380e0b53-9601-45ec-b27b-2407ffe82d18) — Excluded senior/management title.
 
 ## Safety boundary
