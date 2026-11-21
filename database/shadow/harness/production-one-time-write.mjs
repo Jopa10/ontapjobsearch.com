@@ -117,6 +117,7 @@ let connected = false;
 let transaction = false;
 let committed = false;
 let report;
+let failureStage = 'database connection and identity checks';
 
 try {
   await client.connect();
@@ -141,6 +142,7 @@ try {
   )).rows[0].can_create;
   assert.equal(canCreate, true, 'Temporary writer lacks schema-create permission');
 
+  failureStage = 'database size and empty-schema checks';
   const before = Number(identity.database_bytes);
   assert.ok(Number.isSafeInteger(before) && before >= 0);
   const estimate = Math.max(32 * 1024 * 1024, raw.length * 5 + 8 * 1024 * 1024);
@@ -152,6 +154,7 @@ try {
   assert.equal(existingSchema.exists, false, 'Production ontap_shadow schema already exists; refusing a second setup');
   assert.equal(existingSchema.tables, 0);
 
+  failureStage = 'schema migrations';
   await client.query('BEGIN');
   transaction = true;
   await client.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:jobg8'))");
@@ -165,10 +168,12 @@ try {
     await client.query(sql);
   }
 
+  failureStage = 'selected master write';
   const masterWrite = await upsertSelectedMaster(client, {snapshot, scopes, source});
   assert.equal(masterWrite.insertedMasterRows, EXPECTED.selectedCount);
   assert.equal(masterWrite.updatedPayloadRows, 0);
   assert.equal(masterWrite.unchangedMasterRows, 0);
+  failureStage = 'publication scope receipt';
   await client.query(
     'CREATE TABLE ontap_shadow.daily_publication_scopes(feed_date date NOT NULL,scope text NOT NULL,jobg8_ids jsonb NOT NULL,PRIMARY KEY(feed_date,scope))'
   );
@@ -192,6 +197,7 @@ try {
     [snapshot.feedDate,snapshot.productionAppCommit,snapshot.productionWorkflowRunId,EXPECTED.selectedCount,stateDigest]
   );
 
+  failureStage = 'full row, decision and scope comparison';
   const rows = await readMasterAppearance(client, snapshot.feedDate);
   assert.equal(rows.length, EXPECTED.selectedCount);
   const byId = new Map(rows.map(row => [row.public_id, row]));
@@ -266,12 +272,14 @@ try {
     stateSha256: stateDigest,
     writesCommitted: false,
   };
+  failureStage = 'transaction commit';
   await client.query('COMMIT');
   transaction = false;
   committed = true;
   report.writesCommitted = true;
 
   // Re-read committed rows and the receipt before reporting success.
+  failureStage = 'committed receipt verification';
   const committedRows = await readMasterAppearance(client, snapshot.feedDate);
   assert.equal(committedRows.length, EXPECTED.selectedCount);
   const receipt = (await client.query(
@@ -288,7 +296,7 @@ try {
     try { await client.query('ROLLBACK'); } catch {}
   }
   if (!report) {
-    report = {status:'failed',writesCommitted:committed,productionChanged:committed,cleanupPerformed:false,liveSiteSwitched:false};
+    report = {status:'failed',failureStage,writesCommitted:committed,productionChanged:committed,cleanupPerformed:false,liveSiteSwitched:false};
   }
   if (process.env.ONTAP_PROD_REPORT_PATH) {
     try {
