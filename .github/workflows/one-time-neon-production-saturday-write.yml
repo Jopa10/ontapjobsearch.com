@@ -23,7 +23,7 @@ jobs:
       github.ref == 'refs/heads/feat/neon-shadow-database' &&
       (
         (github.event_name == 'workflow_dispatch' && github.event.inputs.confirm == 'write-saturday-2026-11-21') ||
-        (github.event_name == 'push' && github.event.before == 'ccc200b397eb54576b5aa77f0d73818ad6531ac5' && github.event.head_commit.message == 'ONETIME_PROD_NEON_SAT_2026-11-21')
+        (github.event_name == 'push' && github.event.before == 'f080c10a923e7a938c81459b69fe730ff3e6795f' && github.event.head_commit.message == 'ONETIME_PROD_NEON_SAT_2026-11-21')
       )
     runs-on: ubuntu-latest
     timeout-minutes: 30
@@ -176,7 +176,7 @@ jobs:
       github.ref == 'refs/heads/feat/neon-shadow-database' &&
       (
         (github.event_name == 'workflow_dispatch' && github.event.inputs.confirm == 'write-saturday-2026-11-21') ||
-        (github.event_name == 'push' && github.event.before == 'ccc200b397eb54576b5aa77f0d73818ad6531ac5' && github.event.head_commit.message == 'ONETIME_PROD_NEON_SAT_2026-11-21')
+        (github.event_name == 'push' && github.event.before == 'f080c10a923e7a938c81459b69fe730ff3e6795f' && github.event.head_commit.message == 'ONETIME_PROD_NEON_SAT_2026-11-21')
       ) && needs.prepare-source.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 30
