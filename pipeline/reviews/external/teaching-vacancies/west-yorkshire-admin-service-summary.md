@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-20
-review_fingerprint: e10291beb391d65c6f97b89e1e599db1bc5ccf7f867ad03eafc97628a6130b0c
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: 81ca656542cb5562108888533290bade876155786471b77cada46f8e469f5e17
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 37
-- Selected: 12
+- Records: 36
+- Selected: 11
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 25
@@ -94,21 +94,6 @@ factual_fingerprint: afc081d18848231956fb3272c17f896ebeefada118a3d10ca9231d25bf3
 source: Teaching Vacancies
 source_job_id: pa-to-principal-7934
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-7934
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD8 7DX | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 18 (£30, 515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £26,362.80. | PA to the Principal (7519)
-employer: Valley Academy
-closing_date: 2026-11-20T23:59:00+00:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 48fe9acff1e7e4f431779e9119d9427d22af02d81bb6863e40e6b5ec066fb282
-source: Teaching Vacancies
-source_job_id: pa-to-the-principal-7519-valley-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-7519-valley-academy
 ---
 
 ---

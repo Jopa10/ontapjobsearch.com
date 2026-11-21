@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-20
-review_fingerprint: 5b73c9e2e6dccd7935440bd2901eacb573aa3b7b34145d42b608da52fdc54254
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: 038969e7f4f0640ff8f57642dbda32b44f4185ff479e409aa7c600400eb5fcdf
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 5
+- Records: 15
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 8
@@ -49,21 +49,6 @@ factual_fingerprint: 8895a1a2391693fd9f36162502660b98a5a4e18cd80bb263f45f5342838
 source: Teaching Vacancies
 source_job_id: librarian-and-careers-administrator-the-kingsbrook-school-aylesbury-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/librarian-and-careers-administrator-the-kingsbrook-school-aylesbury-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | Aylesbury, South East, HP20 1DP | £19,870-£20,660 per annum (FTE £24,836 to £25,823) | Receptionist
-employer: Stocklake Park Community School
-closing_date: 2026-11-20T23:59:59+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8daaaa61a719667c10007ba472efa25f8b2557ffd41e16094d3cdc362d2ae064
-source: Teaching Vacancies
-source_job_id: receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-dc474c09-5a66-47e0-ade6-5b192da8eecc
 ---
 
 ---

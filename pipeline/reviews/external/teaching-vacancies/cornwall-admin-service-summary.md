@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-11-20
+review_date: 2026-11-21
 review_fingerprint: 38bc47e00d02e292ae6e854402c4885c2b1150850d7bef4f21eea583f34b1f1a
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -61,6 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-a
 
 ## HARD_PASS
 
+- [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-brannel-school) — Insufficient admin/service evidence.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — No usable numeric salary.
 - [Trust People and HR Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-people-and-hr-lead) — Excluded senior/management title.
 

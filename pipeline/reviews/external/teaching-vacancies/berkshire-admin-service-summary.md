@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-20
-review_fingerprint: 7afa298f73c8565e0924662f364cfb6ad637b9216b8348acc15afa1dd1629123
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: 154c827dc683b49d78e8793b1a03f81cbcc99c0168d2028a87d00aaf36b4a256
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 8
+- Records: 23
+- Selected: 9
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: e4a42e4ba8a73b61d669a68ce082c3a18a514b27aa68c4e7467cebc31e0
 source: Teaching Vacancies
 source_job_id: behaviour-administrative-assistant-highdown-school-and-sixth-form-centre
 source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-administrative-assistant-highdown-school-and-sixth-form-centre
+---
+
+---
+action: 
+SELECTED | Berkshire | Reading, South East, RG1 7HL | £25,614.00 - £26,847.00 Annually (FTE) NJC England & Wales, SCP 3-6, REAch2 Ts&Cs | Office Administrator
+employer: Civitas Academy
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2c272fcc2793f06ef9560792dcf305702f78eaccee4428a23fae7c05ac963a6e
+source: Teaching Vacancies
+source_job_id: office-administrator-civitas-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-civitas-academy
 ---
 
 ---
@@ -199,6 +214,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-g
 - [Finance and Administration Officer - Educational Visits](https://teaching-vacancies.service.gov.uk/jobs/finance-and-administration-officer-educational-visits) — Insufficient admin/service evidence.
 - [Health Safety & Welfare Manager](https://teaching-vacancies.service.gov.uk/jobs/health-safety-welfare-manager) — Excluded senior/management title.
 - [Level 3 School Administrator Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/level-3-school-administrator-apprenticeship) — No usable numeric salary.
+- [Office Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/office-co-ordinator-civitas-academy) — Insufficient admin/service evidence.
 - [Project Manager - Systems Implementation (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/project-manager-systems-implementation-maternity-cover-maiden-erlegh-trust) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
 - [Student Admissions and Onboarding Officer](https://teaching-vacancies.service.gov.uk/jobs/student-admissions-and-onboarding-officer) — Insufficient admin/service evidence.

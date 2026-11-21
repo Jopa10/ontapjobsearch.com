@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-20
+review_date: 2026-11-21
 review_fingerprint: 0535d16b4f836b6b4106e7a963c400e1ff061ee402b0b0e7a5fa3172729aa29d
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE

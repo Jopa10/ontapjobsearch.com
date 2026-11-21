@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-20
-review_fingerprint: dae0507fbb3416a66a1e70b1d9800365c2edcaf66a65d47f009a7de23a5e2ddc
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: e4dc8aa7d8550da0f2c409031c0c0194529d17359958ce90cf4215e43709bc04
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
+- Records: 23
 - Selected: 11
-- POSS awaiting decision: 5
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 8
 
@@ -197,10 +197,10 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1a5c224219e00abbd541ed294143c3d8b34a5d8e84fe55a8d164a6d1918a35eb
+factual_fingerprint: 373a7800ad9d13c1828356add882e19ebbabc04b62fa76f9b0d78ef3ec58a5fc
 source: Teaching Vacancies
-source_job_id: data-officer-dcc1f193-b40f-4b11-8933-d6450a06e482
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-dcc1f193-b40f-4b11-8933-d6450a06e482
+source_job_id: data-officer-b1ad482a-c5d0-4d59-88df-dbe1fd45ba9d
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-b1ad482a-c5d0-4d59-88df-dbe1fd45ba9d
 ---
 
 ---
@@ -216,21 +216,6 @@ factual_fingerprint: d1f19abf0aa66f6f7d6f56a6d45f4c7ee1b259d931055a145f2e4dc8b26
 source: Teaching Vacancies
 source_job_id: exam-and-central-services-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-and-central-services-assistant
----
-
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B6 5UQ | £25,614.00 Annually (FTE) NJC SCP 3-6, REAch2 Ts&Cs, FTE 37 hours per week, 38 TTO plus INSET days , Working 39 weeks . Actual salary £4,465.24 p.a | Office Administrator
-employer: Manor Park Primary Academy
-closing_date: 2026-11-20T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 85785f7dc86bb79a50aa58e3be730c225adb1956d7e6c9de6facefe792696a3b
-source: Teaching Vacancies
-source_job_id: office-administrator-manor-park-primary-academy-birmingham-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-manor-park-primary-academy-birmingham-west-midlands
 ---
 
 ---

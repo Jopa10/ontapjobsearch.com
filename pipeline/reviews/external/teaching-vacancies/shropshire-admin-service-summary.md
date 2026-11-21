@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-11-20
-review_fingerprint: a6799d1eca55590e521d658d85af0ea11b8180b4dc331d57ba89e6189f3ea079
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: 931070f513150e7b259d3c82eec1b68ed22781295bfd04a8dd3fa9e7e0a26fa9
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 3
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Shropshire | Whitchurch, West Midlands, SY13 1RX | £29,542.00 - £32,046.00 Annually (FTE) (additional hours/pay for Health and Safety Aspects of the role) | Administration and Finance Officer - Level 6
-employer: Whitchurch CofE Junior Academy
-closing_date: 2026-11-20T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c85946e0479545b31ad3be5d66cf73929a96a2c32897536761cfa75b8bc027a9
-source: Teaching Vacancies
-source_job_id: administration-and-finance-officer-level-6-whitchurch-cofe-junior-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-officer-level-6-whitchurch-cofe-junior-academy
----
 
 ---
 action: 

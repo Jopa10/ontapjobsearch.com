@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-20
-review_fingerprint: caf868837e9561f052884f017d032352f1241e0189efb9d1a10972a296961a0c
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: 4ae112c0a998ace2fe5a23a37e60e27f080944d9c73c8077c7a5eec4d2eec7e1
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
+- Records: 19
 - Selected: 7
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 11
 
@@ -127,21 +127,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Northamptonshire | Northampton, East Midlands, NN6 0AW | £26,846.00 - £27,274.00 Annually (FTE) Pro rata to £21,819.63 to £22,167.49 | Administrator
-employer: Sywell Church of England Primary School
-closing_date: 2026-11-20T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 283d89169947b238a3b7a2adcaafde0fe98ec26bb8fdb3618aab58c2c89b0592
-source: Teaching Vacancies
-source_job_id: administrator-sywell-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sywell-church-of-england-primary-school
----
 
 ---
 action: 

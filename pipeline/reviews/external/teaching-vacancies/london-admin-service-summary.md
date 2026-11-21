@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-20
-review_fingerprint: 15417b43e22b580afaa5d7c4d5b7aa2bd1928318beefcab5624fed843e6d4392
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: 3d454a34f8f6d3e5a14046f3add833cfd029ed8427320d519e4e62516bd544f6
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 65
-- Selected: 11
-- POSS awaiting decision: 15
+- Selected: 14
+- POSS awaiting decision: 10
 - Excluded: 0
-- Hard pass: 39
+- Hard pass: 41
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 19e25ac02bcc26851356020bca7a3276280bd907024ffcf98e4bd6411e1
 source: Teaching Vacancies
 source_job_id: academy-administrator-pimlico-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-pimlico-academy
+---
+
+---
+action: 
+SELECTED | London | London, London, E1 2ND | NJC Scale 2 to 4 £31,224 to £34,448 full-time equivalent | Admin & Finance Officer
+employer: Bigland Green Primary School
+closing_date: 2026-11-27T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b1c4bcd512df01d20137e1c387dd863a9b27c53c52cfe14c3514460cafc2bb24
+source: Teaching Vacancies
+source_job_id: admin-finance-officer-bigland-green-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer-bigland-green-primary-school
 ---
 
 ---
@@ -98,6 +113,51 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/afternoon-receptionis
 
 ---
 action: 
+SELECTED | London | London, London, NW7 2EP | SCP 15 £29,291 to SCP 18 £30,612 | Attendance Officer
+employer: Copthall School
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f268b7bcc2f67b9ec641eb09ddbf29ddabe1ddcfba921663534ba1627d50c81e
+source: Teaching Vacancies
+source_job_id: attendance-officer-copthall-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-copthall-school
+---
+
+---
+action: 
+SELECTED | London | Stanmore, London, HA7 1PL | £33,129.00 - £35,109.00 Annually (FTE) | Attendance Officer
+employer: Park High School
+closing_date: 2026-11-26T23:59:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 51d30ab88510d4886f343c7dab95c43716f7a74ae8d2f2b7506df5c0b623be36
+source: Teaching Vacancies
+source_job_id: attendance-officer-park-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-park-high-school
+---
+
+---
+action: 
+SELECTED | London | London, London, SE24 9JH | £36,543.00 - £43,014.00 Annually (FTE) Hay 7, 14 - 25 | Attendance Officer
+employer: The Charter School North Dulwich
+closing_date: 2026-11-23T23:59:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4be2bf5fd0c41e894d1f532ccd0b34f175e6a90a6bd13b66827f76f29479d1f4
+source: Teaching Vacancies
+source_job_id: attendance-officer-the-charter-school-north-dulwich
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-charter-school-north-dulwich
+---
+
+---
+action: 
 SELECTED | London | London, London, N9 8DR | £29,077.83 - £31,410.96 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,708.76 - £28,851.80 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
 employer: Woodpecker Hall Primary Academy
 closing_date: 2026-12-01T23:59:00+00:00
@@ -124,21 +184,6 @@ factual_fingerprint: c57469b259000b13c86fbbd9f3277a70f8803d7c28f34fea6b7c66259a2
 source: Teaching Vacancies
 source_job_id: office-assistant-and-receptionist-chestnut-park-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-and-receptionist-chestnut-park-primary-school
----
-
----
-action: 
-SELECTED | London | London, London, NW7 4LL | NJC 7 - 8 (£14,504 - £14,708) | Part Time Student Services Administrator
-employer: Mill Hill County High School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4c35c680e3e4580355d0f842d2614b5909b5b628b71efa92337c07e8b910d418
-source: Teaching Vacancies
-source_job_id: part-time-student-services-administrator-mill-hill-county-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-student-services-administrator-mill-hill-county-high-school
 ---
 
 ---
@@ -190,66 +235,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-a
 
 ---
 action: 
-POSS | London | London, London, E1 2ND | NJC Scale 2 to 4 £31,224 to £34,448 full-time equivalent | Admin & Finance Officer
-employer: Bigland Green Primary School
-closing_date: 2026-11-27T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b1c4bcd512df01d20137e1c387dd863a9b27c53c52cfe14c3514460cafc2bb24
-source: Teaching Vacancies
-source_job_id: admin-finance-officer-bigland-green-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer-bigland-green-primary-school
----
-
----
-action: 
-POSS | London | London, London, NW7 2EP | SCP 15 £29,291 to SCP 18 £30,612 | Attendance Officer
-employer: Copthall School
-closing_date: 2026-11-23T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f268b7bcc2f67b9ec641eb09ddbf29ddabe1ddcfba921663534ba1627d50c81e
-source: Teaching Vacancies
-source_job_id: attendance-officer-copthall-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-copthall-school
----
-
----
-action: 
-POSS | London | Stanmore, London, HA7 1PL | £33,129.00 - £35,109.00 Annually (FTE) | Attendance Officer
-employer: Park High School
-closing_date: 2026-11-26T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 51d30ab88510d4886f343c7dab95c43716f7a74ae8d2f2b7506df5c0b623be36
-source: Teaching Vacancies
-source_job_id: attendance-officer-park-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-park-high-school
----
-
----
-action: 
-POSS | London | London, London, SE24 9JH | £36,543.00 - £43,014.00 Annually (FTE) Hay 7, 14 - 25 | Attendance Officer
-employer: The Charter School North Dulwich
-closing_date: 2026-11-23T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4be2bf5fd0c41e894d1f532ccd0b34f175e6a90a6bd13b66827f76f29479d1f4
-source: Teaching Vacancies
-source_job_id: attendance-officer-the-charter-school-north-dulwich
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-charter-school-north-dulwich
----
-
----
-action: 
 POSS | London | London, London, W2 1QZ | £30,239.00 Annually (FTE) | Business Support Officer
 employer: Marylebone Academy
 closing_date: 2026-11-23T23:59:00+00:00
@@ -261,21 +246,6 @@ factual_fingerprint: b720dbece8bb2c7ef36d2a21704f73622035d70db4539a0b8a4bad6226a
 source: Teaching Vacancies
 source_job_id: business-support-officer-marylebone-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-marylebone-academy
----
-
----
-action: 
-POSS | London | Morden, London, SM4 5LT | £31,290.00 - £33,129.00 Annually (FTE) | EHCP Administrative Assistant
-employer: Perseid School
-closing_date: 2026-11-20T16:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6ac589fd856da7f3a5d55c5eb30970369e75d713552a73cf1da0668c66cf98fd
-source: Teaching Vacancies
-source_job_id: ehcp-administrative-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrative-assistant
 ---
 
 ---
@@ -428,6 +398,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Casual Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-administrative-assistant) — No usable numeric salary.
 - [Communications & Digital Media Intern](https://teaching-vacancies.service.gov.uk/jobs/communications-digital-media-intern) — No usable numeric salary.
 - [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-the-boxing-academy-ap-free-school) — Insufficient admin/service evidence.
+- [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-wallington-county-grammar-school) — Excluded senior/management title.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
 - [Data Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/data-governance-officer) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-winchmore-school) — Excluded senior/management title.
@@ -452,10 +423,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [PA to Group Executive Director of HR](https://teaching-vacancies.service.gov.uk/jobs/pa-to-group-executive-director-of-hr) — Excluded senior/management title.
 - [PA to Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-office-manager-the-quest-academy) — Excluded senior/management title.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy-orpington-kent) — Excluded senior/management title.
+- [Receptionist / Administrator in a large primary school](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-in-a-large-primary-school) — No usable numeric salary.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school-london) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-sherwood-school) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-connaught-special-school-london) — Excluded senior/management title.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-haberdashers-knights-academy) — Excluded senior/management title.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-sarah-bonnell-school-london) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-the-grove) — Excluded senior/management title.
 - [Sixth Form Admissions and Administration](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admissions-and-administration) — Insufficient admin/service evidence.
 

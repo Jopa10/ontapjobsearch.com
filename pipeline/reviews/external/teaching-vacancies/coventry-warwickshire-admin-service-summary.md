@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-20
-review_fingerprint: a08b5e148a5665c52417af61b6c7cff012ae1ec7488721cb1d4305ed3d39414e
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: a24965e130742dc6750ee98fe17f39ee5fba15a9b29adfaeee8f61f322ff2c31
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 5
-- POSS awaiting decision: 4
+- Selected: 3
+- POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 8
 
@@ -49,36 +49,6 @@ factual_fingerprint: 4f762e2c3b199dd44b4002816821dbcb904b4ad1109515fbde6009893d5
 source: Teaching Vacancies
 source_job_id: business-administrator-harris-church-of-england-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-harris-church-of-england-academy
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Leamington Spa, West Midlands, CV31 1NJ | £9,468.00 - £10,091.00 Annually (Actual) Band F - SCP 7 - 10 | Office Administrator
-employer: St Anthony's Catholic Primary Academy
-closing_date: 2026-11-22T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2ea748922426d92ed443bf264dd5fede8bfc7e59d39cc110ae468335d9d13f4a
-source: Teaching Vacancies
-source_job_id: office-administrator-st-anthony-s-catholic-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-anthony-s-catholic-primary-academy
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Leamington Spa, West Midlands, CV31 2LJ | £22,278.00 - £22,630.00 Annually (Actual) Band D - SCP 4 -5 | Office Administrator
-employer: St Joseph's Catholic Primary Academy
-closing_date: 2026-11-26T16:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 806bf91e1119d597835e1c3c84ea580b03879c11de60e34f64da81a9518ec8e8
-source: Teaching Vacancies
-source_job_id: office-administrator-st-joseph-s-catholic-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-joseph-s-catholic-primary-academy
 ---
 
 ---
@@ -141,6 +111,36 @@ factual_fingerprint: 640c027ffe68529744f487dbac4b72c7855520e91565c51d69d175cd6f0
 source: Teaching Vacancies
 source_job_id: kmat-data-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
+---
+
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Leamington Spa, West Midlands, CV31 1NJ | £9,468.00 - £10,091.00 Annually (Actual) Band F - SCP 7 - 10 | Office Administrator
+employer: St Anthony's Catholic Primary Academy
+closing_date: 2026-11-22T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2ea748922426d92ed443bf264dd5fede8bfc7e59d39cc110ae468335d9d13f4a
+source: Teaching Vacancies
+source_job_id: office-administrator-st-anthony-s-catholic-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-anthony-s-catholic-primary-academy
+---
+
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Leamington Spa, West Midlands, CV31 2LJ | £22,278.00 - £22,630.00 Annually (Actual) Band D - SCP 4 -5 | Office Administrator
+employer: St Joseph's Catholic Primary Academy
+closing_date: 2026-11-26T16:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 806bf91e1119d597835e1c3c84ea580b03879c11de60e34f64da81a9518ec8e8
+source: Teaching Vacancies
+source_job_id: office-administrator-st-joseph-s-catholic-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-joseph-s-catholic-primary-academy
 ---
 
 ---

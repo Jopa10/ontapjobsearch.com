@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-20
-review_fingerprint: ff388cc9a70492f68b4fbcfb31c80c64812f6350400634638b16522c9e898cef
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: 6b801dc374d3393c809e531c08786409af295aceb7a27d8daa51d381aebacc97
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 16
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 10
 
@@ -96,6 +96,21 @@ factual_fingerprint: d0d1237ee8f0e479afd344cd6015231956f3b91b4b69d3931dda88b89c9
 source: Teaching Vacancies
 source_job_id: finance-officer-connect-alliance-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-connect-alliance-trust
+---
+
+---
+action: 
+POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2YS | Grade 4 - £27,274 - £29,071 | HR Administrator
+employer: Piper Hill High School
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6e42aa692b8a5d9bc588f93acd44eab0115cc487e61f7e42aa3f32c51284059e
+source: Teaching Vacancies
+source_job_id: hr-administrator-piper-hill-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-piper-hill-high-school
 ---
 
 ## EXCLUDED BY REVIEW

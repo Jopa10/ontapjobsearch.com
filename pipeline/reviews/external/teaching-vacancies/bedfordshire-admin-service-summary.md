@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-20
+review_date: 2026-11-21
 review_fingerprint: 4797b6ea1f5ae7df9fb7f9fff5f96b50de796b255dcbc48ba402de3de02a19bb
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -140,11 +140,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-0901ff45-843f-48f1-86f8-3ff333e31507) — No usable numeric salary.
 - [Attendance Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-0aafd306-24bd-4142-babf-029988a737dd) — No usable numeric salary.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-houstone-school-dunstable) — Excluded senior/management title.
-- [Data Manager and Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-and-examinations-officer-wixams-academy) — Excluded senior/management title.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bedford-inclusive-learning-and-training-trust-bedford-not-recorded) — Excluded senior/management title.
 - [Finance manager - Job Share](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-job-share) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-212db2cc-f077-4618-b1ff-eb892f942ee3) — Excluded senior/management title.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-380e0b53-9601-45ec-b27b-2407ffe82d18) — Excluded senior/management title.
+- [Trust Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-governance-manager-bedfordshire-schools-trust-limited) — Excluded senior/management title.
 
 ## Safety boundary
 

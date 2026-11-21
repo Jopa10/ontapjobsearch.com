@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-20
-review_fingerprint: e5bc0b1581637daa82068e027438ba87ce178010ab7c39dfb2714f2625222459
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: c71408d3713c28fdacb088654fcbab6e1d87b383226b327998fedc1aded009bd
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 5
-- POSS awaiting decision: 3
+- Records: 20
+- Selected: 4
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: c5bbb20e6d0b08f7d8fcf41d213ae4fc5076d970515b9a2b338d36f8639
 source: Teaching Vacancies
 source_job_id: post-16-administrator-belfairs-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-administrator-belfairs-academy
----
-
----
-action: 
-SELECTED | Essex | Brentwood, East of England, CM13 2HG | £25,171.00 - £26,384.00 Annually (Actual) | SEND Administrator
-employer: St Martin's School Brentwood
-closing_date: 2026-11-30T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ba933990988139deb9f69b4bb79dd083509855e32c5615020e836c111cb726f7
-source: Teaching Vacancies
-source_job_id: send-administrator-st-martin-s-school-brentwood
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st-martin-s-school-brentwood
 ---
 
 ---
@@ -115,6 +100,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-porte
 
 ---
 action: 
+POSS | Essex | Brentwood, CM13 2HG | £18,272.00 - £19,646.00 Annually (Actual) Includes Fringe Allowance | Governance Professional
+employer: Discovery Educational Trust
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f63dbaa666611ddf7d2b1f65e9e27ae37d3346cc489947ca07defbc50d276ea8
+source: Teaching Vacancies
+source_job_id: governance-professional-discovery-educational-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-discovery-educational-trust
+---
+
+---
+action: 
 POSS | Essex | Brentwood, CM13 2HG | £33,872.00 - £37,334.00 Annually (Actual) Includes Fringe Allowance | Payroll Officer
 employer: Discovery Educational Trust
 closing_date: 2026-11-26T12:00:00+00:00
@@ -143,6 +143,21 @@ source_job_id: people-operations-officer-the-sigma-trust-clacton-on-sea-not-reco
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-officer-the-sigma-trust-clacton-on-sea-not-recorded
 ---
 
+---
+action: 
+POSS | Essex | Brentwood, East of England, CM13 2HG | £25,171.00 - £26,384.00 Annually (Actual) | SEND Administrator
+employer: St Martin's School Brentwood
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ba933990988139deb9f69b4bb79dd083509855e32c5615020e836c111cb726f7
+source: Teaching Vacancies
+source_job_id: send-administrator-st-martin-s-school-brentwood
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st-martin-s-school-brentwood
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -155,6 +170,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 - [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services-st-martin-s-school-brentwood) — Out-of-scope occupation: deputy head.
 - [Director of Human Resources and Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-human-resources-and-operations) — Excluded senior/management title.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.
+- [Human Resources Business Partner (L&D/Projects)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-l-d-projects) — Salary over £50k.
 - [Midday Assistant](https://teaching-vacancies.service.gov.uk/jobs/midday-assistant-the-fitzwimarc-school) — Insufficient admin/service evidence.
 - [Senior Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/senior-cover-supervisor-st-john-payne-catholic-school-chelmsford) — Excluded senior/management title.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-plume-school) — Excluded senior/management title.

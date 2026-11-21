@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-11-20
-review_fingerprint: 2c3544e6df20bda9761734cadeb7668ff761338fbb0ba448072751a59f6fd729
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: c56c46fc08ce7498d8e95f90459e6d853b514b7e92eb6a7f1de6ebc0e2511c12
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
@@ -49,6 +49,21 @@ factual_fingerprint: 114220b2febe223d99d592e3e87552db4cf87eed22195c79185e9dcccb3
 source: Teaching Vacancies
 source_job_id: business-support-assistant-st-nicholas-catholic-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-st-nicholas-catholic-academy
+---
+
+---
+action: 
+SELECTED | Merseyside - Liverpool | Liverpool, North West, L31 6DE | £25,614.00 Annually (FTE) | Receptionist / Administrator
+employer: Deyes High School
+closing_date: 2026-12-04T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dbff12817050532796a29063d9bbeffb79ff70a265a889d32660be62187e8dd9
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-deyes-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-deyes-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

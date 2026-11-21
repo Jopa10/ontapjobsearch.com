@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-20
-review_fingerprint: eb08bfec1200987525238b1dd2556ae7295183082aba89c9f753c1c79895e83f
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: 6a66b155a54d74b645c46e07e179dda1e84d1d1e8694374c0dfb03e6a6391c6d
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 15
 - Selected: 6
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -130,21 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ---
 action: 
-POSS | Lincolnshire | Skegness, East Midlands, PE24 5LS | £13,385.00 - £14,746.00 Annually (Actual) G5.12 (£28,153 FTE) to G5.15 (£31,015 FTE) | HR & Finance Administrator
-employer: Chapel St Leonards Primary School
-closing_date: 2026-11-20T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bfcd55bb1b8d50e39be31bb908f080e215e02871dc9f20dcea2f8fbc2d65273e
-source: Teaching Vacancies
-source_job_id: hr-finance-administrator-chapel-st-leonards-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-finance-administrator-chapel-st-leonards-primary-school
----
-
----
-action: 
 POSS | Lincolnshire | Lincoln, East Midlands, LN5 0PA | £22,003.00 - £23,063.00 Annually (Actual) NJC 3 - 6 | SEND Administration Assistant
 employer: Sir William Robertson Academy, Welbourn
 closing_date: 2026-11-22T23:59:00+00:00
@@ -165,7 +150,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administration-a
 ## HARD_PASS
 
 - [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-franklin-sixth-form-college) — Excluded senior/management title.
-- [Clerical Assistant & Opal Playleader MSA – linked role](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-opal-playleader-msa-linked-role) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-e6664367-3eb0-42c0-9724-283bf6ac70a0) — Excluded senior/management title.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership-boston-not-recorded) — Insufficient admin/service evidence.
 - [Pastoral Administrator](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-20
-review_fingerprint: ab0fc4caf32568f2d66a7c5803060982a7cc0a5d118bc8f6eca9c57b95c2a2d2
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: 7ae0e3ec42d9b33fb238f5fb392b1f5ef94c1d48cf84b18d17e5d690d467b1c9
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 2
+- Records: 11
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
@@ -25,30 +25,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 action: 
 SELECTED | Derbyshire | Derby, East Midlands, DE24 0BR | SCP 15 - SCP20 FTE £31,025 - £33,673 (Actual £26,875.15 - £29,178.36) | PA to Headteacher
 employer: Noel-Baker Academy
-closing_date: 2026-11-22T23:00:00+00:00
+closing_date: 2026-11-29T23:00:00+00:00
 reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 33b0fe6716247f6e5998ac65008c5b415c7eb421612b43ca9de06f02c44faca8
+factual_fingerprint: b0a36582603f8740fb99da043f4d072b792f37afea7e80703c31db0314d27cef
 source: Teaching Vacancies
 source_job_id: pa-to-headteacher-noel-baker-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-noel-baker-academy
----
-
----
-action: 
-SELECTED | Derbyshire | Swadlincote, East Midlands, DE12 7RE | £9,932.95 - £10,087.69 Annually (Actual) | School Administrator Part-Time
-employer: Oakthorpe Primary School
-closing_date: 2026-11-20T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 96e154227eefd8b2db4cc5564be6438b697864be9ab5df13692741f8adefe387
-source: Teaching Vacancies
-source_job_id: school-administrator-part-time-oakthorpe-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-part-time-oakthorpe-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

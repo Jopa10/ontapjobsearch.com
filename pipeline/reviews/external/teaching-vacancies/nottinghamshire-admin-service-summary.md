@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-20
-review_fingerprint: 8c7d0d870c0daeccee4be7ceb52ba03b2df9b3ce86353bacb0e91f42317d4c9e
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: 1667c0eb3fd8e5132d5e6231b7b43ccc9dec3c3e46a3a89d612c002e69051a58
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
+- Records: 20
 - Selected: 3
-- POSS awaiting decision: 5
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 13
 
 ## SELECTED
 
@@ -115,21 +115,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/adminstration-assista
 
 ---
 action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG17 7DH | Grade 5 SCP 9 - £28,153 | Finance Assistant
-employer: Outwood Academy Kirkby
-closing_date: 2026-12-01T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9e0747e080e58c79cc6c381e10d76891db43869c01444d913b48e8749968941e
-source: Teaching Vacancies
-source_job_id: finance-assistant-outwood-academy-kirkby
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-outwood-academy-kirkby
----
-
----
-action: 
 POSS | Nottinghamshire | Nottingham, East Midlands, NG13 0AX | PPS4 £26,016 per annum, pro rata to £14,489 per annum | SEN Administration Assistant
 employer: The Priory Belvoir Academy
 closing_date: 2026-11-23T23:59:00+00:00
@@ -152,11 +137,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-king-edward-primary-school-nursery) — No usable numeric salary.
 - [Business Team Leader](https://teaching-vacancies.service.gov.uk/jobs/business-team-leader) — Excluded senior/management title.
 - [Data, Timetable and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-timetable-and-cover-manager) — Excluded senior/management title.
-- [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby-nottingham-nottinghamshire) — Insufficient admin/service evidence.
 - [Finance & Estate Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-estate-officer) — Salary over £50k.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-east-midlands-education-trust) — Excluded senior/management title.
 - [Healthcare Assistant / Administrator](https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-b6dad597-ef3e-406f-a693-7ada1eddda55) — No usable numeric salary.
-- [Marketing and Reprographics Assistant (fixed term maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-reprographics-assistant-fixed-term-maternity-cover) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-nova-education-trust) — Excluded senior/management title.
 - [Pastoral Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-assistant-the-newark-academy) — Insufficient admin/service evidence.
 - [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-a64c421f-6231-4592-9c8e-33d9670e968a) — Insufficient admin/service evidence.

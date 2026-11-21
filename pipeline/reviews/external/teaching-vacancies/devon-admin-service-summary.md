@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-20
+review_date: 2026-11-21
 review_fingerprint: 9be9bfa8b6ee3f5716aee1d26c86bed250b0d72315664a5c978bc41d651db397
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
+- Records: 24
 - Selected: 2
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 18
+- Hard pass: 19
 
 ## SELECTED
 
@@ -113,6 +113,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-office
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Governance and Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/governance-and-administrative-assistant) — No usable numeric salary.
 - [Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/governance-coordinator-westcountry-schools-trust) — Insufficient admin/service evidence.
+- [HR Recruitment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-coordinator-the-academies-for-character-and-excellence) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-boringdon-primary-school-plymouth-devon) — Excluded senior/management title.
 - [Permanent Pupil Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/permanent-pupil-support-administrator) — No usable numeric salary.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon) — No usable numeric salary.

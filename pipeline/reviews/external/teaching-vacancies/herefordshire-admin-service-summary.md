@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Herefordshire
 
-review_date: 2026-11-20
-review_fingerprint: 243480737ab72124b72941b6d00fb67bb245e149d732aaf5080b7ba0bbd42e83
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: 5cab3768fce32079b0e6c95f05dfb57e638774e4817ed37e1c24011ea259def6
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Herefordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -34,21 +34,6 @@ factual_fingerprint: ef6eec0a46d7a57366458bace6d06f6cd1ae2dcbb6b600a3729c6e80a1b
 source: Teaching Vacancies
 source_job_id: admin-assistant-wigmore-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-wigmore-school
----
-
----
-action: 
-SELECTED | Herefordshire | Leominster, West Midlands, HR6 8JJ | £18,727.00 - £20,278.00 Annually (Actual) | Personnel Administrator
-employer: Earl Mortimer College
-closing_date: 2026-11-20T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ecc207debd7f4926a05b48eef66f6ca02ad24e329c11e9e9357f20f17ac9c5c9
-source: Teaching Vacancies
-source_job_id: personnel-administrator-earl-mortimer-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personnel-administrator-earl-mortimer-college
 ---
 
 ---

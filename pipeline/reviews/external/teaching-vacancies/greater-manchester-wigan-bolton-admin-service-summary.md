@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-11-20
-review_fingerprint: 3a59c38f203f82228e420aa319c2633987d60c1f6f567e48d441001466549eec
-routing_manifest_sha256: bb742bfb8b50fe3f9164fa28f8a4624517a43a213274762bf9025622f69e09cc
+review_date: 2026-11-21
+review_fingerprint: a15fb2fe66b7b7b1336813da6687f1b25143dbefcef4d328cfa8d877e98ede9c
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
@@ -38,20 +38,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Greater Manchester - Wigan & Bolton | Bolton, North West, BL4 8HY | Grade 4, SCP 10-12, FTE salary £28,608.00 - £29,542.00 | Business Services Assistant
-employer: Kearsley Academy
-closing_date: 2026-11-20T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0399dbd3118337850e19a2695105eaee3dd428d4a4f35868b878e81c1757d30a
-source: Teaching Vacancies
-source_job_id: business-services-assistant-20998ca2-84e7-404c-811c-37d0bf35cbaa
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-services-assistant-20998ca2-84e7-404c-811c-37d0bf35cbaa
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
