@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 44
+- Effective included jobs: 40
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 44
-- automatic review: 12
+- automatic include: 40
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 44
-- effective review: 12
+- effective include: 40
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (44)
+## INCLUDE (40)
 
 ---
 action: 
@@ -68,7 +68,7 @@ title: Accounts Assistant
 company: Resourcery Group - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2391142
+job_id: jobg8-2406931
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -376,18 +376,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Admin
-company: Portfolio Payroll Limited - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225760831
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Assistant
 company: Construction Resources - Agency - Permanent
 location: Liverpool
@@ -508,18 +496,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Resourcing Administrator
-company: Gordon Yates Recruitment Consultancy - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225757525
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Ledger
 company: Reed - Agency - Permanent
 location: Liverpool
@@ -528,31 +504,7 @@ job_id: jobg8-2358347
 reason: Approved conservative Liverpool launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Receptionist
-company: Office Angels - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225761410
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Workplace Assistant
-company: Adecco - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225761106
-reason: Approved conservative Liverpool launch catchment.
----
-
-## REVIEW (12)
+## REVIEW (14)
 
 ---
 action: 
@@ -586,7 +538,7 @@ title: Clinical Negligence Paralegal
 company: eNL Legal Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2310020
+job_id: jobg8-2402128
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -599,6 +551,18 @@ company: Michael Page Legal - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-2399400
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Corporate Paralegal
+company: Morgan Spencer - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-2404421
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -690,11 +654,23 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Trade Mark Paralegal
+company: The Law Support Group - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-2409373
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2397635
+job_id: jobg8-2401679
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

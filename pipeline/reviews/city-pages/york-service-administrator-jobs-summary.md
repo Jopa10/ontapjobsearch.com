@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 12
-- automatic exclude: 31
-- effective include: 11
-- effective review: 12
-- effective exclude: 31
+- automatic include: 12
+- automatic review: 13
+- automatic exclude: 32
+- effective include: 12
+- effective review: 13
+- effective exclude: 32
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Reed - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2360419
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Sharp Consultancy - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2402977
 reason: Approved York catchment.
 ---
 
@@ -92,7 +104,7 @@ title: Finance Assistant
 company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2387347
+job_id: jobg8-2403068
 reason: Approved York catchment.
 ---
 
@@ -156,7 +168,7 @@ job_id: jobg8-2359409
 reason: Approved York catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (13)
 
 ---
 action: 
@@ -203,6 +215,18 @@ company: EE - Company - Permanent
 location: Bedale
 source: JobG8
 job_id: jobg8-20279_63331-002a3d68d1ccfcef2ea5de713d71ff34
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: finance assistant
+company: Michael Page Finance - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2403117
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -302,7 +326,7 @@ job_id: jobg8-2399792
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -373,6 +397,18 @@ company: Travail Employment Group - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-23643_225830047
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator - Receptionist
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Northallerton, DL6 2FG
+source: NHS Jobs
+job_id: nhs-5740921
 reason: Separate employment market.
 ---
 

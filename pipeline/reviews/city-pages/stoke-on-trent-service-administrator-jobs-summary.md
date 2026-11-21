@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 75
+- automatic review: 76
 - automatic exclude: 0
 - effective include: 9
-- effective review: 75
+- effective review: 76
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -104,7 +104,7 @@ title: Payroll Project consutlant - Interim - Part time o Full Time
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Stoke-On-Trent
 source: JobG8
-job_id: jobg8-2370799
+job_id: jobg8-2408662
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225810447
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (75)
+## REVIEW (76)
 
 ---
 action: 
@@ -166,7 +166,7 @@ title: Accounts Assistant
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Tamworth
 source: JobG8
-job_id: jobg8-2370347
+job_id: jobg8-2403594
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -502,7 +502,7 @@ title: Finance Officer
 company: Trinity House Group - Agency - Permanent
 location: Staffordshire
 source: JobG8
-job_id: jobg8-2390240
+job_id: jobg8-2409929
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -574,7 +574,7 @@ title: HubSpot Marketing Manager
 company: Workstreet - Agency - Permanent
 location: Tamworth
 source: JobG8
-job_id: jobg8-2365683
+job_id: jobg8-2411068
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -683,6 +683,18 @@ company: Zachary Daniels - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2368232
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist/Administrator
+company: Prima Care Surgeries
+location: Stoke on Trent, ST1 2BN, STOKE-ON-TRENT, ST4 4BX, STOKE-ON-TRENT, ST2 8DH
+source: NHS Jobs
+job_id: nhs-5740826
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -871,6 +883,18 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Stafford, ST16 1LD
+source: NHS Jobs
+job_id: nhs-5743664
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
 company: Balance Street Practice
 location: Uttoxeter, ST14 8JG
 source: NHS Jobs
@@ -887,18 +911,6 @@ company: Avery Healthcare Group Ltd.
 location: Rugeley, WS15 2EJ
 source: NHS Jobs
 job_id: nhs-5723387
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Coordinator
-company: Adecco - Agency - Contract
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225758295
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

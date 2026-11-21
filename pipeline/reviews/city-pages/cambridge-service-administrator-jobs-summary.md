@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 38
+- Effective included jobs: 40
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 38
+- automatic include: 40
 - automatic review: 12
 - automatic exclude: 28
-- effective include: 38
+- effective include: 40
 - effective review: 12
 - effective exclude: 28
 
-## INCLUDE (38)
+## INCLUDE (40)
 
 ---
 action: 
@@ -56,7 +56,7 @@ title: Accounts Assistant
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2372215
+job_id: jobg8-2402619
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -176,7 +176,19 @@ title: Customer Service Advisor
 company: Countrywide HQ - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2391152
+job_id: jobg8-2407570
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Family Legal PA
+company: G2 Legal Limited - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2407008
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -221,10 +233,22 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2410088
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2361207
+job_id: jobg8-2408366
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -502,7 +526,7 @@ title: Accounts Assistant
 company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-2387141
+job_id: jobg8-2407540
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -732,7 +756,7 @@ title: credit controller
 company: Page Group - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2376906
+job_id: jobg8-2410280
 reason: Separate employment market.
 ---
 
@@ -744,7 +768,7 @@ title: Credit Controller
 company: Seismic Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2370483
+job_id: jobg8-2409945
 reason: Separate employment market.
 ---
 
@@ -768,7 +792,7 @@ title: Credit Controller / Accounts Receivable Specialist
 company: Randstad Technologies - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2394637
+job_id: jobg8-2408931
 reason: Separate employment market.
 ---
 
@@ -828,7 +852,7 @@ title: Legal Administrator
 company: Oculus Legal Group - Agency - Permanent
 location: Huntingdon
 source: JobG8
-job_id: jobg8-2394144
+job_id: jobg8-2405045
 reason: Separate employment market.
 ---
 
@@ -848,18 +872,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist / Administrator
-company: Abbeyview Surgery
-location: Peterborough, PE6 0AL
-source: NHS Jobs
-job_id: nhs-5711352
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Outside Account Manager
 company: The Work Shop - Agency - Permanent
 location: Peterborough
@@ -872,11 +884,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll Coordinator
-company: MHA - Agency - Permanent
+title: Outside Account Manager
+company: The Work Shop Resourcing Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2386010
+job_id: jobg8-23643_225725165
 reason: Separate employment market.
 ---
 
@@ -937,6 +949,18 @@ company: Commercial Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225811425
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor
+company: Scout Recruiting LTD - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_221302954
 reason: Separate employment market.
 ---
 

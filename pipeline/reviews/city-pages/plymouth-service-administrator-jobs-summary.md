@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 74
+- automatic include: 7
+- automatic review: 70
 - automatic exclude: 0
-- effective include: 6
-- effective review: 74
+- effective include: 7
+- effective review: 70
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Reed - Agency - Permanent
 location: Plymouth
 source: JobG8
 job_id: jobg8-2360713
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Coordinator
+company: Randstad Delivery - Agency - Contract
+location: Plymouth
+source: JobG8
+job_id: jobg8-23643_225860380
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -96,7 +108,7 @@ job_id: jobg8-23643_225767515
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (74)
+## REVIEW (70)
 
 ---
 action: 
@@ -248,30 +260,6 @@ decision: review
 automatic_decision: review
 title: Business Support Administrator
 company: Devon Partnership NHS Trust
-location: PAIGNTON, TQ3 2DW
-source: NHS Jobs
-job_id: nhs-5695745
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Devon Partnership NHS Trust
-location: Newton Abbot, TQ12 4PH
-source: NHS Jobs
-job_id: nhs-5704460
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Devon Partnership NHS Trust
 location: Tavistock, PL19 8AB
 source: NHS Jobs
 job_id: nhs-5718178
@@ -323,6 +311,18 @@ company: SJC Partners - Agency - Permanent
 location: Honiton
 source: JobG8
 job_id: jobg8-2373990
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller - Part Time
+company: Mego Employment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225857690
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -395,18 +395,6 @@ company: NHS Professionals - Company - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225780482
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Engineering Administrator
-company: Symmetric Recruitment Ltd - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225171007
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -618,18 +606,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Mental Health Act Administrator
-company: Elysium Healthcare
-location: Cullompton, EX15 1EA
-source: NHS Jobs
-job_id: nhs-5699161
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: MRO Stores Coordinator
 company: Randstad Construction and Property - Agency - Permanent
 location: Devon
@@ -742,7 +718,7 @@ title: Project Finance Support Officer (Hybrid)
 company: Essential Employment - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2376412
+job_id: jobg8-2404801
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -766,7 +742,7 @@ title: Receptionist
 company: N.E. Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2370717
+job_id: jobg8-2404368
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -931,18 +907,6 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
-company: Perfect Placement - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225759002
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
 company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Devon
 source: JobG8
@@ -970,7 +934,7 @@ title: Temporary Finance Officer
 company: Trial Balance Consulting - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2365994
+job_id: jobg8-2405644
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

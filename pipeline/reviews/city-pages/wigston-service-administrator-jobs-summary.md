@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 98
+- automatic review: 99
 - automatic exclude: 0
 - effective include: 0
-- effective review: 98
+- effective review: 99
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (98)
+## REVIEW (99)
 
 ---
 action: 
@@ -71,18 +71,6 @@ company: Reed - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-2359022
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: SF Partners - Agency - Permanent
-location: Market Harborough
-source: JobG8
-job_id: jobg8-23643_225759675
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -330,6 +318,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service & Sales Coordinator
+company: Fabric Recruitment Ltd - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225761329
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: Universal Business Team - Agency - Permanent
 location: Loughborough
@@ -382,7 +382,7 @@ title: Digital Marketer
 company: Go Websites - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2394251
+job_id: jobg8-2410889
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -406,7 +406,7 @@ title: Finance and Systems Coordinator
 company: Trinity House Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2391147
+job_id: jobg8-2407366
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -491,6 +491,18 @@ company: RECfinancial - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225853270
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Governance Coordinator
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Loughborough
+source: JobG8
+job_id: jobg8-2407247
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -738,6 +750,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: This is Alexander Faraday Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2407446
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Officer
 company: Portfolio Payroll Limited - Agency - Permanent
 location: Leicestershire
@@ -954,18 +978,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: The Orchard Medical Practice
-location: Leicester, LE9 6RG
-source: NHS Jobs
-job_id: nhs-5719347
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist/Administrator
 company: Aylestone Health Centre
 location: Leicester, LE2 8SF
@@ -1150,7 +1162,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2397634
+job_id: jobg8-2401678
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

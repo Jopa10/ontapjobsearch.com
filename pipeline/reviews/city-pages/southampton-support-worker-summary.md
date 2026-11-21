@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 10
 - automatic review: 14
-- automatic exclude: 8
-- effective include: 9
+- automatic exclude: 10
+- effective include: 10
 - effective review: 14
-- effective exclude: 8
+- effective exclude: 10
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: S.N.G Recruitment Solutions Limited - Agency - Temporary
 location: Southampton
 source: JobG8
 job_id: jobg8-108288427
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Child and Family Support Worker (Adopt South)
+company: Hampshire County Council - Company - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1401786637
 reason: Approved Southampton catchment.
 ---
 
@@ -139,6 +151,18 @@ action:
 decision: review
 automatic_decision: review
 title: Care Assistant
+company: Care First UK Recruitment Solutions - Agency - Permanent
+location: Totton
+source: JobG8
+job_id: jobg8-23643_225760935
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Assistant
 company: Hampshire County Council - Company - Permanent
 location: Alton
 source: JobG8
@@ -192,18 +216,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-1401786179
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Extra Care Support Worker
-company: SCA Care - Agency - Temporary
-location: New Milton
-source: JobG8
-job_id: jobg8-108321029
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -302,7 +314,7 @@ job_id: jobg8-23643_225653471
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -337,6 +349,18 @@ company: Enham Trust - Agency - Permanent
 location: Andover
 source: JobG8
 job_id: jobg8-23643_225827174
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Assistant
+company: Hampshire County Council - Company - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-1401786682
 reason: Separate employment market.
 ---
 
@@ -397,5 +421,17 @@ company: SCA Care - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-108298282
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Support Worker - Part Time Hours
+company: Enham Trust - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-108330792
 reason: Separate employment market.
 ---

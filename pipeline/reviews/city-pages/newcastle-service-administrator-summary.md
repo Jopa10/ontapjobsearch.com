@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 60
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
-- automatic review: 87
-- automatic exclude: 45
-- effective include: 29
-- effective review: 87
-- effective exclude: 45
+- automatic include: 60
+- automatic review: 90
+- automatic exclude: 48
+- effective include: 60
+- effective review: 90
+- effective exclude: 48
 
-## INCLUDE (29)
+## INCLUDE (60)
 
 ---
 action: 
@@ -88,6 +88,246 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-14ed80d091f0fb71e92c86010d5a3182
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-20fc350b6789c39cd18ccac91ac57148
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-33210dbc92626a35bffe42114b330ff3
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-3c79e0d2d8b9dc829f1439ebfbd69827
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-5e8fd437c2acaed207d238cf1b10801c
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-698a92f99cf89eb23ba18f264114428f
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-89740a075c6163b74ea2c52702062e5d
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-8a1a3115f2a3a8d81cb3d4b82beceb79
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-8bb4b73a68aaaf346f4a919e26e44f12
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-deab967b99c6e63d0dd459a12179664a
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-0dc834e990c9af3799011e2ebb0fc687
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-5eabb6aaa6c5dac84023535f868d0408
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-66639f8323c007f7dc9fbe6bba756b48
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-73862c8b83139033e4e4a8b6efca9a33
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-9e0925ea7011aabd1d54e5dea129a8dc
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-a2e2a028139730a5ef289161f72b755f
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-bbd8f3ecb6935e720a2d5c3d16688989
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-c1a6ac509cb9c4268f3a1776a95bcbae
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-d981bcbe71d3685b877d6079499a3efa
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-e4ee71039bd31be98b939fb7f674e2f2
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Care Coordinator
 company: Loomer Medical Ltd - Agency - Permanent
 location: Newcastle
@@ -117,6 +357,126 @@ company: Office Angels - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225798287
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-274537a8c8f64b291278ed309ad39199
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-33ae573bb155210411f372c9d91f6158
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-3718a736a0687d2f5641b4cf254429ac
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-7a7e76d52c9040e914f50eb1adbbf613
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-97145bde79d4715fedcbeec5440b2d7f
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-b63960d4b5dd52aa15bb6dd10e1e6082
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-b84827dfe56f1cdb62c773823ebeb739
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-d24d3d6916a209e15b1680693740da2f
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-d4d35e2bbb6c679f616e4c8b02eb2ef5
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_64242-fe2d4c4f1fcad2f2bfa762c2a07144fd
 reason: Approved Newcastle catchment.
 ---
 
@@ -292,6 +652,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Oxford Terrace and Rawling Road Medical Group
+location: Gateshead, NE8 1RQ
+source: NHS Jobs
+job_id: nhs-5743211
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Newcastle
@@ -309,6 +681,18 @@ company: Portfolio Payroll Limited - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-23643_225778560
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Procurement Coordinator
+company: AMS CWS - Agency - Temporary
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-108351542
 reason: Approved Newcastle catchment.
 ---
 
@@ -340,18 +724,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Coordinator
-company: Macfarlane Packaging - Company - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-108092501
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Executive
 company: RecruitedUK - Agency - Permanent
 location: Newcastle Upon Tyne
@@ -372,7 +744,7 @@ job_id: jobg8-23643_225826542
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (87)
+## REVIEW (90)
 
 ---
 action: 
@@ -610,7 +982,7 @@ title: Business Development Executive
 company: Ronald James - Agency - Permanent
 location: Stockton-on-tees
 source: JobG8
-job_id: jobg8-2387081
+job_id: jobg8-2403266
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -646,7 +1018,7 @@ title: Communications and Engagement Coordinator
 company: Jackson Hogg - Agency - Permanent
 location: Northumberland
 source: JobG8
-job_id: jobg8-2379809
+job_id: jobg8-2407101
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -730,7 +1102,7 @@ title: CRM Executive
 company: Nigel Wright Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2361079
+job_id: jobg8-2403067
 reason: Broad location; review before city inclusion.
 ---
 
@@ -846,6 +1218,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Executive Assistant / Office Administrator 18.5 hrs
+company: LaunchPad Associates Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225858431
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: External Affairs Manager
 company: Michael Page Marketing - Agency - Permanent
 location: Tyne And Wear
@@ -874,7 +1258,7 @@ title: Finance Administrator (Contractor payroll)
 company: Tenth Revolution Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2394188
+job_id: jobg8-2407321
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1150,7 +1534,7 @@ title: Payroll Administrator
 company: Reed - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2361697
+job_id: jobg8-2409996
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1186,7 +1570,7 @@ title: PPC Manager
 company: Jackson Hogg - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2379824
+job_id: jobg8-2408088
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1272,6 +1656,30 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_208971992
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Conveyancing Paralegal
+company: eNL Legal Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2410320
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Advisor
+company: EE - Company - Permanent
+location: Cramlington
+source: JobG8
+job_id: jobg8-20279_64242-8a947d76c6803dd88116d68f668dce22
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -1378,7 +1786,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2397637
+job_id: jobg8-2401681
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1418,7 +1826,7 @@ job_id: jobg8-2379186
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (45)
+## EXCLUDE (48)
 
 ---
 action: 
@@ -1508,6 +1916,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-20279_64242-2d6e64b23b0ce48f6b159ac15e45402e
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-20279_64242-a6e2ad7cee3c43ab7465fc57eabd4302
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Clerical Officer
 company: South Tyneside and Sunderland NHS Foundation Trust
 location: South Shields, NE34 0PL, SUNDERLAND, SR4 7TP
@@ -1537,6 +1969,18 @@ company: Jackson Hogg Ltd - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225646128
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-20279_64242-87702a1e673975e9bbf89c3879ce0d96
 reason: Separate employment market.
 ---
 
@@ -1692,7 +2136,7 @@ title: Financial Services Administrator
 company: Reed - Agency - Permanent
 location: Durham
 source: JobG8
-job_id: jobg8-2361595
+job_id: jobg8-2406930
 reason: Separate employment market.
 ---
 
@@ -1860,7 +2304,7 @@ title: Purchase Ledger
 company: Si Recruitment - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2361491
+job_id: jobg8-2402858
 reason: Separate employment market.
 ---
 

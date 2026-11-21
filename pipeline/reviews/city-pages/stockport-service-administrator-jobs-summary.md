@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 26
+- automatic include: 18
+- automatic review: 25
 - automatic exclude: 0
-- effective include: 16
-- effective review: 26
+- effective include: 18
+- effective review: 25
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (18)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Baseline Recruit Ltd - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225766980
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: RG Consultancy Ltd - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2408465
 reason: Exact approved Stockport workplace.
 ---
 
@@ -69,6 +81,18 @@ company: Pennine Care NHS FT
 location: Stockport, SK2 5EQ
 source: NHS Jobs
 job_id: nhs-5723899
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Assistant
+company: Stockport NHS Foundation Trust
+location: Stockport, SK2 7JE
+source: NHS Jobs
+job_id: nhs-5728388
 reason: Exact approved Stockport workplace.
 ---
 
@@ -216,7 +240,7 @@ job_id: jobg8-23643_225850411
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (25)
 
 ---
 action: 
@@ -294,6 +318,18 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Officer
+company: NHS Greater Manchester Integrated Care
+location: Ashton-Under-Lyne, OL6 6BH
+source: NHS Jobs
+job_id: nhs-5741156
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Coordinator
 company: Premier Recruitment Solutions Ltd - Agency - Permanent
 location: Denton
@@ -311,18 +347,6 @@ company: Willow Wood Hospice
 location: Ashton under Lyne, OL6 6SL
 source: NHS Jobs
 job_id: nhs-5725408
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Axon Moore - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225760850
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -514,19 +538,7 @@ title: Purchase Ledger/Accounts Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2370372
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reporting Administrator
-company: Halecroft Recruitment - Agency - Temporary
-location: Trafford
-source: JobG8
-job_id: jobg8-23643_225757919
+job_id: jobg8-2405001
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

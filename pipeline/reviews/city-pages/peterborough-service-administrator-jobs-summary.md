@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 24
 - automatic review: 12
-- automatic exclude: 42
+- automatic exclude: 44
 - effective include: 24
 - effective review: 12
-- effective exclude: 42
+- effective exclude: 44
 
 ## INCLUDE (24)
 
@@ -104,7 +104,7 @@ title: credit controller
 company: Page Group - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2376906
+job_id: jobg8-2410280
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -116,7 +116,7 @@ title: Credit Controller
 company: Seismic Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2370483
+job_id: jobg8-2409945
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -140,7 +140,7 @@ title: Credit Controller / Accounts Receivable Specialist
 company: Randstad Technologies - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2394637
+job_id: jobg8-2408931
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -208,18 +208,6 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist / Administrator
-company: Abbeyview Surgery
-location: Peterborough, PE6 0AL
-source: NHS Jobs
-job_id: nhs-5711352
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Outside Account Manager
 company: The Work Shop - Agency - Permanent
 location: Peterborough
@@ -232,11 +220,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Coordinator
-company: MHA - Agency - Permanent
+title: Outside Account Manager
+company: The Work Shop Resourcing Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2386010
+job_id: jobg8-23643_225725165
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -293,6 +281,18 @@ action:
 decision: include
 automatic_decision: include
 title: Service Advisor
+company: Scout Recruiting LTD - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_221302954
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
 company: The Recruitment Solution (London) Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
@@ -334,7 +334,7 @@ title: Accounts Assistant
 company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-2387141
+job_id: jobg8-2407540
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -458,7 +458,7 @@ job_id: jobg8-23643_225768922
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (42)
+## EXCLUDE (44)
 
 ---
 action: 
@@ -504,7 +504,7 @@ title: Accounts Assistant
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2372215
+job_id: jobg8-2402619
 reason: Separate employment market.
 ---
 
@@ -636,7 +636,19 @@ title: Customer Service Advisor
 company: Countrywide HQ - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2391152
+job_id: jobg8-2407570
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Family Legal PA
+company: G2 Legal Limited - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2407008
 reason: Separate employment market.
 ---
 
@@ -681,10 +693,22 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2410088
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2361207
+job_id: jobg8-2408366
 reason: Separate employment market.
 ---
 
@@ -732,7 +756,7 @@ title: Legal Administrator
 company: Oculus Legal Group - Agency - Permanent
 location: Huntingdon
 source: JobG8
-job_id: jobg8-2394144
+job_id: jobg8-2405045
 reason: Separate employment market.
 ---
 

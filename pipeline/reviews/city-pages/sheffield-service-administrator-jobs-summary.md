@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 41
-- automatic review: 11
-- automatic exclude: 30
+- automatic review: 13
+- automatic exclude: 31
 - effective include: 41
-- effective review: 11
-- effective exclude: 30
+- effective review: 13
+- effective exclude: 31
 
 ## INCLUDE (41)
 
@@ -45,18 +45,6 @@ company: Cygnet - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2390551
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Co-ordinator
-company: Sue Ross Recruitment Ltd - Agency - Contract
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225613243
 reason: Approved Sheffield catchment.
 ---
 
@@ -136,6 +124,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5742840
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Client Relationship Administrator
 company: St. James's Place Wealth Management - Agency - Permanent
 location: Sheffield
@@ -196,18 +196,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor - Apprentice
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_63201
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Debt Recovery Paralegal
 company: CRA Consulting - Agency - Permanent
 location: Sheffield
@@ -256,11 +244,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: GP Receptionist
-company: Elm Lane & Chapeltown Surgery
-location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
-source: NHS Jobs
-job_id: nhs-5725571
+title: Education, Communications & Outreach Officer
+company: Veolia - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225849624
 reason: Approved Sheffield catchment.
 ---
 
@@ -332,7 +320,7 @@ title: Part Time Accounts Assistant
 company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2365610
+job_id: jobg8-2408370
 reason: Approved Sheffield catchment.
 ---
 
@@ -428,7 +416,7 @@ title: Receptionist
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
 source: NHS Jobs
-job_id: nhs-5726281
+job_id: nhs-5743031
 reason: Approved Sheffield catchment.
 ---
 
@@ -484,6 +472,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Switchboard Operator/Receptionist
+company: Staff 365 Recruitment Services - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225860479
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Receptionist
 company: CCA Recruitment Group - Agency - Temporary
 location: Sheffield
@@ -516,7 +516,7 @@ job_id: nhs-5734842
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (13)
 
 ---
 action: 
@@ -582,11 +582,23 @@ reason: No approved Sheffield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Portfolio Payroll Limited - Agency - Permanent
-location: Brinsworth
+title: Marketing Executive
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225760034
+job_id: jobg8-2406118
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paid Social & Digital Campaigns Specialist
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2406119
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -610,7 +622,19 @@ title: Purchase Ledger Clerk
 company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2364613
+job_id: jobg8-2402611
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Marks Sattin - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2408729
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -646,11 +670,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2397641
+job_id: jobg8-2401685
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -788,6 +812,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: GP Receptionist
+company: Wickersley Medical Practice
+location: Rotherham, S66 2JQ
+source: NHS Jobs
+job_id: nhs-5742402
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Green Space Activation Coordinator
 company: Voluntary Action Rotherham - Agency - Contract
 location: Brinsworth
@@ -909,6 +945,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2407670
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -968,18 +1016,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist & Care Navigator
-company: Bentley Surgery
-location: Doncaster, DN5 0AT, DONCASTER, DN5 8DA
-source: NHS Jobs
-job_id: nhs-5726734
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Technical Administrator
 company: Kingdom People - Agency - Permanent
 location: Barnsley
@@ -996,7 +1032,7 @@ title: Temp Accounts Assistant - Charity Organisation
 company: Office Angels - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2383578
+job_id: jobg8-2408637
 reason: Separate employment market.
 ---
 

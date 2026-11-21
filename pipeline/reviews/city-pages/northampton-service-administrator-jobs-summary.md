@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 70
+- automatic include: 17
+- automatic review: 72
 - automatic exclude: 0
-- effective include: 18
-- effective review: 70
+- effective include: 17
+- effective review: 72
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (17)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: ACS Recruitment Solutions Ltd - Agency - Permanent
 location: Northampton
 source: JobG8
 job_id: jobg8-2370900
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Officer (Northampton)
-company: RG Setsquare - Agency - Contract
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225757897
 reason: Exact approved Northampton workplace.
 ---
 
@@ -224,7 +212,7 @@ title: Temporary Purchase Ledger Clerk
 company: Morgan McKinley - Agency - Permanent
 location: Northampton
 source: JobG8
-job_id: jobg8-2361222
+job_id: jobg8-2409261
 reason: Exact approved Northampton workplace.
 ---
 
@@ -240,7 +228,7 @@ job_id: jobg8-23643_225841092
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (70)
+## REVIEW (72)
 
 ---
 action: 
@@ -251,6 +239,18 @@ company: Abbeygate Search Ltd - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2395743
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: ACS Recruitment Solutions Ltd - Agency - Permanent
+location: Kettering
+source: JobG8
+job_id: jobg8-2404665
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -546,30 +546,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Events & Digital Marketing Coordinator
-company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2175438
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams Officer
-company: Corby Business Academy
-location: Corby
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-corby-business-academy-corby-northamptonshire
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance & Administration Coordinator
 company: Axil - Agency - Permanent
 location: Corby
@@ -594,6 +570,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator - Payroll
+company: Interaction Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225857338
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Abacus Consulting - Agency - Permanent
 location: Wellingborough
@@ -610,7 +598,7 @@ title: Finance Officer
 company: Virtuoso Recruitment Limited - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-2315650
+job_id: jobg8-2407553
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -642,18 +630,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: HR & Recruitment Administrator
-company: Workforce Staffing Ltd - Agency - Permanent
-location: Kettering
-source: JobG8
-job_id: jobg8-23643_225831786
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Inbound Call Handler (Late Shift)
 company: SolviT Recruitment Ltd - Agency - Temporary
 location: Daventry
@@ -671,18 +647,6 @@ company: SolviT Recruitment Ltd - Agency - Temporary
 location: Daventry
 source: JobG8
 job_id: jobg8-23643_225772722
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior Project Administrator (CAD)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225760702
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -715,10 +679,34 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Executive
+company: Plus One Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225823002
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
 company: Silverstone Museum - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2395600
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Avens Limited - Agency - Temporary
+location: Kettering
+source: JobG8
+job_id: jobg8-23643_225854343
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -874,7 +862,7 @@ title: Payroll Clerk
 company: Michael Page Finance - Agency - Permanent
 location: Corby
 source: JobG8
-job_id: jobg8-2376386
+job_id: jobg8-2403839
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -978,6 +966,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Residential Conveyancing Legal Assistant
+company: The Eventus Recruitment Group - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2405661
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales & Purchase Ledger Administrator
 company: Oasis Business Personnel Ltd - Agency - Permanent
 location: Northamptonshire
@@ -1067,6 +1067,18 @@ company: Auto Skills UK - Agency - Permanent
 location: Corby
 source: JobG8
 job_id: jobg8-23643_225805591
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator
+company: Cameo Consultancy - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225764102
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

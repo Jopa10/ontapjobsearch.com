@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 41
+- automatic include: 11
+- automatic review: 43
 - automatic exclude: 0
-- effective include: 12
-- effective review: 41
+- effective include: 11
+- effective review: 43
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Exact approved Shrewsbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: ED&I Administrator
-company: Hays Business Support - Agency - Temporary
-location: Shrewsbury
-source: JobG8
-job_id: jobg8-23643_225793752
-reason: Exact approved Shrewsbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: First Point of Contact Administrator
 company: Hugo Reeves Recruitment - Agency - Permanent
 location: Shrewsbury
@@ -104,7 +92,7 @@ title: Marketing Manager
 company: Greenfield I T Recruitment - Agency - Permanent
 location: Shrewsbury
 source: JobG8
-job_id: jobg8-2376282
+job_id: jobg8-2409499
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -168,7 +156,7 @@ job_id: jobg8-23643_225794761
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (43)
 
 ---
 action: 
@@ -178,7 +166,7 @@ title: Accounts Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2370776
+job_id: jobg8-2406088
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +191,30 @@ company: Hays Accounts and Finance - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225775219
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Seymour John - Agency - Permanent
+location: Oswestry
+source: JobG8
+job_id: jobg8-2401960
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Seymour John Ltd - Agency - Contract
+location: Oswestry
+source: JobG8
+job_id: jobg8-23643_225856476
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -451,6 +463,18 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
+company: Office Angels - Agency - Permanent
+location: Wellington
+source: JobG8
+job_id: jobg8-2406462
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
 company: Robert Half - Agency - Permanent
 location: Telford
 source: JobG8
@@ -562,7 +586,7 @@ title: Sales Ledger Clerk
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2371410
+job_id: jobg8-2406756
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -622,7 +646,7 @@ title: Temporary Accounts Payable Clerk
 company: Seymour John - Agency - Permanent
 location: Telford
 source: JobG8
-job_id: jobg8-2372245
+job_id: jobg8-2407541
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -647,18 +671,6 @@ company: Office Angels - Agency - Permanent
 location: Wellington
 source: JobG8
 job_id: jobg8-23643_225774898
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Urgent Care Coordinator(Non-clinical) - Permanent(OOH, Part time & Full-time hrs, Shropshire, Telford & Wrekin)
-company: HealthHero - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-2393379
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

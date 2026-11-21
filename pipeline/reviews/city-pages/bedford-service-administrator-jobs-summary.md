@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 34
+- automatic include: 15
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 14
-- effective review: 34
+- effective include: 15
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -160,6 +160,18 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist / Administration Assistant
+company: Allstaff - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225857121
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Executive
 company: RETAIND Ltd - Agency - Permanent
 location: Bedford
@@ -192,7 +204,7 @@ job_id: jobg8-23643_225782845
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (35)
 
 ---
 action: 
@@ -215,18 +227,6 @@ company: 1st Choice Rec - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-2362681
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Hello Recruitment Associates - Agency - Permanent
-location: Luton
-source: JobG8
-job_id: jobg8-23643_225759015
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -366,18 +366,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Think Specialist Recruitment - Agency - Permanent
-location: Luton
-source: JobG8
-job_id: jobg8-23643_225761491
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Database Office Administrator
 company: Hello Recruitment Associates - Agency - Permanent
 location: Bedfordshire
@@ -502,7 +490,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2361528
+job_id: jobg8-2404610
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -515,6 +503,42 @@ company: NLB Solutions - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-2375758
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Private Client Paralegal
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2404233
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Procurement Assistant
+company: Rise 10 Talent Ltd - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225855073
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing/Procurement Assistant
+company: Proactive Global - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225856539
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -539,6 +563,18 @@ company: Woodland Avenue Practice
 location: Luton, LU3 1RW
 source: NHS Jobs
 job_id: nhs-5714696
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Leighton Forest - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225855383
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -575,18 +611,6 @@ company: Think Specialist Recruitment - Agency - Contract
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225800590
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Records Administrator
-company: Matchtech - Agency - Contract
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225760744
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

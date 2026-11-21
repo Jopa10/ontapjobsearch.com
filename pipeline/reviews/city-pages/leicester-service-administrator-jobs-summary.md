@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 25
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 73
+- automatic include: 24
+- automatic review: 75
 - automatic exclude: 0
-- effective include: 25
-- effective review: 73
+- effective include: 24
+- effective review: 75
 - effective exclude: 0
 
-## INCLUDE (25)
+## INCLUDE (24)
 
 ---
 action: 
@@ -232,18 +232,6 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: The Orchard Medical Practice
-location: Leicester, LE9 6RG
-source: NHS Jobs
-job_id: nhs-5719347
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist/Administrator
 company: Aylestone Health Centre
 location: Leicester, LE2 8SF
@@ -324,7 +312,7 @@ job_id: nhs-5736375
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (75)
 
 ---
 action: 
@@ -359,18 +347,6 @@ company: RECfinancial - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225852598
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: SF Partners - Agency - Permanent
-location: Market Harborough
-source: JobG8
-job_id: jobg8-23643_225759675
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -558,6 +534,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service & Sales Coordinator
+company: Fabric Recruitment Ltd - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225761329
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: Universal Business Team - Agency - Permanent
 location: Loughborough
@@ -598,7 +586,7 @@ title: Digital Marketer
 company: Go Websites - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2394251
+job_id: jobg8-2410889
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -622,7 +610,7 @@ title: Finance and Systems Coordinator
 company: Trinity House Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2391147
+job_id: jobg8-2407366
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -695,6 +683,18 @@ company: RECfinancial - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225853270
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Governance Coordinator
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Loughborough
+source: JobG8
+job_id: jobg8-2407247
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -875,6 +875,18 @@ company: RECfinancial - Agency - Contract
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225852669
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: This is Alexander Faraday Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2407446
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1162,7 +1174,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2397634
+job_id: jobg8-2401678
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

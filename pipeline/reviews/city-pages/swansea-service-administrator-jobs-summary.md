@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 3
+- automatic review: 5
 - automatic exclude: 0
 - effective include: 8
-- effective review: 3
+- effective review: 5
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,19 @@ job_id: jobg8-2367598
 reason: Exact approved Swansea workplace.
 ---
 
-## REVIEW (3)
+## REVIEW (5)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Prospero Teaching Cardiff - Agency - Temporary
+location: Bridgend
+source: JobG8
+job_id: jobg8-23643_225856958
+reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -143,6 +155,18 @@ company: Robert Half - Agency - Permanent
 location: Bridgend
 source: JobG8
 job_id: jobg8-2393829
+reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Admin Assistant
+company: Prospero Teaching Cardiff - Agency - Temporary
+location: Bridgend
+source: JobG8
+job_id: jobg8-23643_225857064
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

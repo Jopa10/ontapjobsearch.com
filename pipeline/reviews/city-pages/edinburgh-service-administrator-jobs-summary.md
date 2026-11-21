@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 35
+- Effective included jobs: 37
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 35
+- automatic include: 37
 - automatic review: 13
 - automatic exclude: 0
-- effective include: 35
+- effective include: 37
 - effective review: 13
 - effective exclude: 0
 
-## INCLUDE (35)
+## INCLUDE (37)
 
 ---
 action: 
@@ -140,7 +140,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2396765
+job_id: jobg8-2404323
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -164,7 +164,7 @@ title: Credit Controller
 company: ICONIC RESOURCING LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2397070
+job_id: jobg8-2409308
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -232,18 +232,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Support Administrator
-company: Search Consultancy Ltd - Agency - Contract
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225761200
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Executive Assistant
 company: Search Consultancy Ltd - Agency - Permanent
 location: Edinburgh
@@ -304,11 +292,35 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administrator
+company: Michael Page - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225858483
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Administrator (Part Time or Full Time)
 company: Michael Page - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225793975
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator (Part Time)
+company: Michael Page - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225857917
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -357,6 +369,18 @@ company: Spire Healthcare - Company - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225772869
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Administrator
+company: Michael Page - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225857955
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

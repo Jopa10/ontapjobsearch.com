@@ -50,8 +50,8 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "2372439",
-    "display_reference": "2372439",
+    "job_id": "2410805",
+    "display_reference": "2410805",
     "title": "Credit Control",
     "company": "Pure Resourcing Solutions - Agency - Permanent",
     "advertiser_name": "Pure Resourcing Solutions",
@@ -64,9 +64,9 @@
     "salary_min": "",
     "salary_max": "",
     "salary_text": "",
-    "posted_date": "2026-11-20",
+    "posted_date": "2026-11-21",
     "description": "Are you looking to take your first steps into an accountancy and finance career?\n\nWe're working with a well-established business in Chelmsford who are looking for a Trainee Credit Controller to join their finance team.\n\nThis is a great opportunity for someone keen to get into finance. Previous accounts experience isn't essential, and we'd love to hear from candidates with customer service or administration experience who are confident communicating with customers and keen to learn.\n\nThe role will involve:\n- Monitoring customer accounts and outstanding invoices.\n- Contacting customers by telephone and email regarding payments.\n- Allocating and reconciling customer payments.\n- Dealing with customer queries and maintaining accurate records.\n- Producing aged debtor reports.\n- Supporting the wider finance team.\n\nWhat we're looking for:\n- Good communication and customer service skills.\n- A confident telephone manner.\n- Good attention to detail and organisation.\n- A positive attitude and willingness to learn.\n- An interest in developing a career in finance.\n- Ideally interested in studying towards AAT.\n\nWhat's on offer?\n- An excellent opportunity to break into finance.\n- Full training and support.\n- Opportunity to develop and progress.\n- Potential support with AAT studies.\n\nIf you're looking for an opportunity to start a career in accountancy and finance, we'd love to hear from you!",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?55nS72RR%2bGcMYm4OrugHpxYu0zfao0Gtf",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?5k%2b%2bCJQtvIWlWdmmwpWundLf%2bvl2Iio2n",
     "source": "JobG8",
     "finance_accounts_family_reason": "approved Accounts & Finance Operations title",
     "work_pattern": "Not Specified",
@@ -295,5 +295,24 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5743093",
+    "source": "NHS Jobs",
+    "title": "Senior Administrator",
+    "company": "Provide CIC",
+    "advertiser_name": "Provide CIC",
+    "location": "Chelmsford, CM2 5PF",
+    "region": "Essex",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-20T16:01:44.400449732",
+    "closing_date": "2026-12-04",
+    "description": "Joining an established administration team, the post holder will provide comprehensive, professional and effective administrative support. The post holder must display a considerable degree of initiative, possess good judgement and maintain a calm, friendly and efficient manner when dealing with staff, service users, colleagues and visitors. The post holder will be required to work independently using initiative, and applying a high degree of confidentiality to all of their work, whilst ensuring clear communication with all services, teams and colleagues. Applicants will have previous medical administrative experience, including excellent typing skills with audio typing experience and working in a healthcare setting; experience of using IT systems like SystmOne or relevant IT Skills and be able to work on own their initiative with minimal supervision. Providing comprehensive administrative support for clinicians and medical staff eg; High quality production of patient records/correspondence using audio typing skills. Specialist knowledge of a clinical service area or range of services supported by the Administration Support Team. Answering queries, progress chasing, task-related problem solving and resolving issues for clinical/medical staff or patients and providing non-clinical advice or information to others. Data inputting into clinical and administrative systems and ensuring data quality/accuracy. Use of SystmOne. Producing standard reports from databases. Audio Typing Please see the attached job description for a full list of the main responsibilities for this role. Thank you for taking the time to apply for a role within Provide.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9828-26-00002",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9828-26-00002",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "posted_date_basis": "source"
   }
 ]

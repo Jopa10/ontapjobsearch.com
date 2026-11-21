@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 21
-- automatic exclude: 58
-- effective include: 17
-- effective review: 21
-- effective exclude: 58
+- automatic include: 18
+- automatic review: 16
+- automatic exclude: 59
+- effective include: 18
+- effective review: 16
+- effective exclude: 59
 
-## INCLUDE (17)
+## INCLUDE (18)
 
 ---
 action: 
@@ -148,6 +148,18 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Administrator
+company: Robert Half - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-2410068
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Programme Administrator
 company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX4 2PG
@@ -228,7 +240,7 @@ job_id: nhs-5725243
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (21)
+## REVIEW (16)
 
 ---
 action: 
@@ -258,35 +270,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant
-company: Windrush Church of England Primary School
-location: Witney
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-windrush-church-of-england-primary-school
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Development Executive
 company: Red King Resourcing - Agency - Permanent
 location: Witney
 source: JobG8
 job_id: jobg8-23643_225826664
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Consumer Service Advisor
-company: Berry Recruitment - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-23643_225760577
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -446,43 +434,7 @@ job_id: jobg8-2393941
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator
-company: Cameo Consultancy - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-23643_225764102
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Publications Administrator
-company: Planet Recruitment - Agency - Permanent
-location: Abingdon
-source: JobG8
-job_id: jobg8-23643_225766984
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Publications Administrator
-company: PLANET RECRUITMENT SERVICES LTD - Agency - Permanent
-location: Abingdon
-source: JobG8
-job_id: jobg8-2189910
-reason: No approved Oxford catchment rule matched; local review required.
----
-
-## EXCLUDE (58)
+## EXCLUDE (59)
 
 ---
 action: 
@@ -589,6 +541,18 @@ company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2359630
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2410378
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -837,10 +801,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Marketing Executive
-company: Plus One Recruitment - Agency - Permanent
+company: Get Staffed Online Recruitment Limited - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225823002
+job_id: jobg8-2409651
 reason: Broad county location; not Oxford-city evidence.
 ---
 

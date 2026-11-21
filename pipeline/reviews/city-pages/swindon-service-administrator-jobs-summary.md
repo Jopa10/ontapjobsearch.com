@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 38
+- automatic include: 17
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 16
-- effective review: 38
+- effective include: 17
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (17)
 
 ---
 action: 
@@ -104,7 +104,7 @@ title: Administrator
 company: Robert Half - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-2394145
+job_id: jobg8-2405477
 reason: Exact approved Swindon workplace.
 ---
 
@@ -141,6 +141,18 @@ company: Quality Start - Agency - Permanent
 location: Swindon
 source: JobG8
 job_id: jobg8-2399473
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Data Administrator Swindon
+company: Office Angels - Agency - Temporary
+location: Swindon
+source: JobG8
+job_id: jobg8-23643_225855014
 reason: Exact approved Swindon workplace.
 ---
 
@@ -216,7 +228,7 @@ job_id: jobg8-23643_225759929
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (35)
 
 ---
 action: 
@@ -318,18 +330,6 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
-title: Business Co-Ordinator
-company: CMD Recruitment - Agency - Permanent
-location: Salisbury
-source: JobG8
-job_id: jobg8-23643_225794290
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Home Administrator
 company: Avery Healthcare Group Ltd.
 location: Marlborough, SN8 1JR
@@ -366,36 +366,12 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
-title: Document Controller
-company: Abatec Recruitment - Agency - Temporary
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225761078
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Excel & Data Administrator
 company: Adecco - Agency - Temporary
 location: Trowbridge
 source: JobG8
 job_id: jobg8-23643_225817962
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Administrator
-company: Salisbury Trust for the Homeless Ltd - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-108325682
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -420,6 +396,30 @@ location: Marlborough
 source: JobG8
 job_id: jobg8-2386512
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant - Family
+company: 360 Recruitment - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-2409428
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Customer Service Administrator
+company: 911 Staffing Ltd - Agency - Temporary
+location: Wiltshire
+source: JobG8
+job_id: jobg8-23643_225854891
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -636,30 +636,6 @@ location: Salisbury
 source: JobG8
 job_id: jobg8-23643_225785368
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Urgent Care Coordinator(Non Clinical) - Chippenham (OOH, Minimum hours Contract)
-company: HealthHero - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-2392364
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Urgent Care Coordinator(Non clinical) - Chippenham (OOH, Weekend & Overnight shifts, up to 30hrs/wk)
-company: HealthHero - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-2392365
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---

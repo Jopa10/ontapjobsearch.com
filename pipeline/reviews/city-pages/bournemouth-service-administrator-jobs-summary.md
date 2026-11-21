@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 59
+- automatic include: 6
+- automatic review: 61
 - automatic exclude: 0
-- effective include: 8
-- effective review: 59
+- effective include: 6
+- effective review: 61
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Sales Advisor
-company: Cowell Recruitment - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225797881
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Administrator
 company: Tru Talent - Agency - Permanent
 location: Bournemouth
@@ -108,19 +96,7 @@ job_id: jobg8-23643_225818968
 reason: Exact approved Bournemouth workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Workflow Administrator
-company: Shore Medical PCN
-location: Bournemouth, BH2 5QR
-source: NHS Jobs
-job_id: nhs-5706522
-reason: Exact approved Bournemouth workplace.
----
-
-## REVIEW (59)
+## REVIEW (61)
 
 ---
 action: 
@@ -342,6 +318,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Business Administrator
+company: KAG Recruitment Consultancy - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225771986
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support for Children in Care
 company: Dorset HealthCare University NHS Foundation Trust
 location: Dorchester, DT2 9TB
@@ -359,6 +347,18 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Poole, BH17 8WG
 source: NHS Jobs
 job_id: nhs-5724228
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Assistant
+company: 360 Recruitment - Agency - Permanent
+location: Wimborne
+source: JobG8
+job_id: jobg8-2409717
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -474,18 +474,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Rubicon Recruitment - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2370792
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant - Poole - up to &;16.00 per hour
 company: Bond Williams - Agency - Permanent
 location: Dorset
@@ -563,6 +551,18 @@ company: Effective Recruitment Solutions Ltd - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225785254
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Accounts Assistant
+company: Reed - Agency - Permanent
+location: Ferndown
+source: JobG8
+job_id: jobg8-2402087
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -694,7 +694,7 @@ title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2361064
+job_id: jobg8-2402601
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

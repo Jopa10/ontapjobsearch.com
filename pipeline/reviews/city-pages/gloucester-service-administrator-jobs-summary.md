@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 77
+- automatic include: 17
+- automatic review: 79
 - automatic exclude: 0
-- effective include: 18
-- effective review: 77
+- effective include: 17
+- effective review: 79
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (17)
 
 ---
 action: 
@@ -117,18 +117,6 @@ company: Morson Edge - Agency - Contract
 location: Gloucester
 source: JobG8
 job_id: jobg8-23643_225763075
-reason: Exact approved Gloucester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist / Care Navigator
-company: The Alney Practice
-location: Gloucester, GL2 0LS, Gloucester, GL2 8DH
-source: NHS Jobs
-job_id: nhs-5700673
 reason: Exact approved Gloucester workplace.
 ---
 
@@ -240,7 +228,7 @@ job_id: jobg8-23643_225790550
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (77)
+## REVIEW (79)
 
 ---
 action: 
@@ -311,6 +299,18 @@ company: Barchester Healthcare - Company - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225759490
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Officer
+company: Gov Facility Services Ltd (GFSL - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-108336073
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -466,7 +466,7 @@ title: Collections Coordinator
 company: Anderson Recruitment Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2380214
+job_id: jobg8-2408425
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -742,7 +742,7 @@ title: Management Accounts Assistant
 company: Crowe UK - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2380243
+job_id: jobg8-2409809
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -834,6 +834,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Operations Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Tewkesbury
+source: JobG8
+job_id: jobg8-23643_225857786
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Paid Social Executive
 company: Salt Search - Agency - Permanent
 location: Cheltenham
@@ -874,7 +886,7 @@ title: Payroll Assistant
 company: Crowe UK - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2380240
+job_id: jobg8-2409796
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

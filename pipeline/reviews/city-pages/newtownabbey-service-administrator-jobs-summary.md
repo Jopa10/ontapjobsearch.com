@@ -28,7 +28,7 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor - Belfast
+title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Newtownabbey
 source: JobG8
@@ -90,7 +90,7 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor - Belfast
+title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Belfast
 source: JobG8
@@ -102,7 +102,7 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor - Belfast
+title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Belfast
 source: JobG8
@@ -114,7 +114,7 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor - Belfast
+title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Belfast
 source: JobG8
@@ -126,7 +126,7 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor - Belfast
+title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Lisburn
 source: JobG8
@@ -138,7 +138,7 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor - Belfast
+title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Belfast
 source: JobG8
@@ -150,7 +150,7 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor - Belfast
+title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Antrim
 source: JobG8
@@ -190,7 +190,7 @@ title: Financial Services Administrator
 company: Brook Street - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2396889
+job_id: jobg8-2410209
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -238,7 +238,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2397624
+job_id: jobg8-2401668
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 22
+- automatic review: 23
 - automatic exclude: 0
 - effective include: 15
-- effective review: 22
+- effective review: 23
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -204,7 +204,7 @@ job_id: jobg8-2379182
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (23)
 
 ---
 action: 
@@ -214,7 +214,7 @@ title: Accounts Assistant
 company: Acorn by Synergie - Agency - Permanent
 location: Crewe
 source: JobG8
-job_id: jobg8-2361612
+job_id: jobg8-2407373
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -271,10 +271,22 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-2410497
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
 company: Platinum Recruitment Group - Agency - Permanent
 location: Wilmslow
 source: JobG8
-job_id: jobg8-2365584
+job_id: jobg8-2407088
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

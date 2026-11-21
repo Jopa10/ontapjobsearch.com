@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 51
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 3
-- effective review: 51
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225779537
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (51)
+## REVIEW (54)
 
 ---
 action: 
@@ -162,6 +162,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Administrator - Receptionist
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Northallerton, DL6 2FG
+source: NHS Jobs
+job_id: nhs-5740921
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care & Support Coordinator
 company: Disability Action Yorkshire - Agency - Permanent
 location: Harrogate
@@ -227,6 +239,18 @@ company: Reed - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2360419
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Sharp Consultancy - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2402977
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -378,6 +402,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: finance assistant
+company: Michael Page Finance - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2403117
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Orange Cat Recruitment - Agency - Permanent
 location: Richmond
@@ -406,7 +442,7 @@ title: Finance Assistant
 company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2387347
+job_id: jobg8-2403068
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

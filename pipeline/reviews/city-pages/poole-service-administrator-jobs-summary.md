@@ -438,11 +438,35 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Business Administrator
+company: KAG Recruitment Consultancy - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225771986
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support for Children in Care
 company: Dorset HealthCare University NHS Foundation Trust
 location: Dorchester, DT2 9TB
 source: NHS Jobs
 job_id: nhs-5729649
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Assistant
+company: 360 Recruitment - Agency - Permanent
+location: Wimborne
+source: JobG8
+job_id: jobg8-2409717
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -503,18 +527,6 @@ company: Team Jobs - Commercial - Agency - Permanent
 location: Bournemouth
 source: JobG8
 job_id: jobg8-23643_225824953
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Sales Advisor
-company: Cowell Recruitment - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225797881
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -594,18 +606,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Rubicon Recruitment - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2370792
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant - Poole - up to &;16.00 per hour
 company: Bond Williams - Agency - Permanent
 location: Dorset
@@ -678,6 +678,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Legal Accounts Assistant
+company: Reed - Agency - Permanent
+location: Ferndown
+source: JobG8
+job_id: jobg8-2402087
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Assistant
 company: Team Jobs - Commercial - Agency - Temporary
 location: Bournemouth
@@ -742,7 +754,7 @@ title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2361064
+job_id: jobg8-2402601
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -815,18 +827,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Dorchester, DT2 9TB
 source: NHS Jobs
 job_id: nhs-5736394
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Workflow Administrator
-company: Shore Medical PCN
-location: Bournemouth, BH2 5QR
-source: NHS Jobs
-job_id: nhs-5706522
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

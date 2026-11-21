@@ -28,6 +28,18 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
+title: Accounts Assistant
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2402175
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Accounts Payable
 company: Austin Matley HR & Recruitment Ltd - Agency - Permanent
 location: Lincolnshire
@@ -68,7 +80,7 @@ title: Credit Controller
 company: Reed - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2361620
+job_id: jobg8-2407597
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -93,18 +105,6 @@ company: EL Recruitment Solutions Ltd - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225104910
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2387617
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
-- automatic review: 7
-- automatic exclude: 4
-- effective include: 29
-- effective review: 7
-- effective exclude: 4
+- automatic include: 30
+- automatic review: 8
+- automatic exclude: 5
+- effective include: 30
+- effective review: 8
+- effective exclude: 5
 
-## INCLUDE (29)
+## INCLUDE (30)
 
 ---
 action: 
@@ -80,7 +80,7 @@ title: Accounts Assistant - Part-time
 company: RG Consultancy Ltd - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2372385
+job_id: jobg8-2403632
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -92,7 +92,7 @@ title: Accounts Assistant - Temp to Perm
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2370477
+job_id: jobg8-2409283
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -188,7 +188,7 @@ title: Finance Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2370454
+job_id: jobg8-2407511
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -212,7 +212,7 @@ title: Marketing and Business Development Executive
 company: Hoot Recruit LTD - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2396775
+job_id: jobg8-2405577
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -260,7 +260,7 @@ title: Payroll Officer
 company: Accountable Recruitment - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2372220
+job_id: jobg8-2403559
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -328,6 +328,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Security Receptionist
+company: Momentum Security Recruitment - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225856922
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Warrington
@@ -372,7 +384,7 @@ job_id: jobg8-23643_225793459
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -406,7 +418,7 @@ title: Marketing Assistant
 company: NMS Recruit Limited - Agency - Permanent
 location: Cheshire
 source: JobG8
-job_id: jobg8-2383784
+job_id: jobg8-2404861
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -458,7 +470,31 @@ job_id: jobg8-2398894
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Clerk
+company: NC Associates - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-2408460
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+## EXCLUDE (5)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Receivable & Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-2410498
+reason: Separate employment market.
+---
 
 ---
 action: 

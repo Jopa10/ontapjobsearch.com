@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 7
 - automatic review: 12
 - automatic exclude: 0
-- effective include: 8
+- effective include: 7
 - effective review: 12
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part-time Payroll specialist
-company: Portfolio Payroll Limited - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225760812
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Treasury Administrator
 company: GlobalData UK Ltd - Company - Permanent
 location: Hull
@@ -138,11 +126,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Receivable Administrator
-company: Scientific Laboratory Supplies - Agency - Permanent
-location: Hessle
+title: Accounts Payable Controller
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225768501
+job_id: jobg8-2406775
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -150,11 +138,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Receivable Administrator
-company: Scientific Laboratory Supplies - Agency - Permanent
-location: Hessle
+title: Accounts Receivable Controller
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-2389086
+job_id: jobg8-2409367
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -212,7 +200,7 @@ decision: review
 automatic_decision: review
 title: Project Administrator
 company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Hessle
+location: Brough
 source: JobG8
 job_id: jobg8-23643_225797818
 reason: No approved Hull catchment rule matched; local review required.
