@@ -1,0 +1,33 @@
+name: Probe Production Neon daily writer
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe-production-neon-writer:
+    name: Read-only Production Neon writer probe
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: neon-prod-daily-shadow
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Neon harness dependencies
+        run: npm ci --prefix database/shadow/harness --ignore-scripts --no-audit --no-fund
+
+      - name: Verify Production writer secret and privileges without writing
+        env:
+          ONTAP_NEON_PROD_DAILY_WRITE_URL: ${{ secrets.ONTAP_NEON_PROD_DAILY_WRITE_URL }}
+        run: node database/shadow/harness/probe-production-daily-writer.mjs

@@ -31,8 +31,8 @@ export async function readMasterAppearance(c,feedDate){
   "JOIN ontap_shadow.jobs j ON j.id=a.job_id JOIN ontap_shadow.suppliers s ON s.id=aa.supplier_id "+
   "WHERE aa.seen_on=$1::date AND s.code='jobg8' ORDER BY j.public_id",[feedDate])).rows;
 }
-export async function upsertSelectedMaster(c,{snapshot,scopes,source}){
- await ensureDailyMasterSchema(c);
+export async function upsertSelectedMaster(c,{snapshot,scopes,source,ensureSchema=true}){
+ if(ensureSchema)await ensureDailyMasterSchema(c);
  const ids=snapshot.records.map(r=>r.public_id);
  const supplier=Number((await c.query("INSERT INTO ontap_shadow.suppliers(code,name) VALUES('jobg8','JobG8') ON CONFLICT(code) DO UPDATE SET name=EXCLUDED.name RETURNING id")).rows[0].id);
  const oldRows=(await c.query(
