@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-11-21
-generated_at: 2026-11-21T15:30:02+00:00
+generated_at: 2026-11-21T18:49:48+00:00
 
-**324 job(s) await a human decision; 0 already answered (324 review rows).**
+**327 job(s) await a human decision; 0 already answered (327 review rows).**
 
 Edit only each `action:` line:
 - `action: sel` (or `action: select`) = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-11-21 | 235 | — |
+| JobG8 | OK | 2026-11-21 | 238 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-11-21 | 9 | — |
 | Teaching Vacancies | OK | 2026-11-21 | 80 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 235 to review
+## JobG8 — 238 to review
 
 ---
 action:
@@ -47,6 +47,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
 source_url: 
 hub_fingerprint: 48200040ce866696de92c8f1e198d8476afbcc344b49339c2d3d323c3c1b3d3b
+---
+
+---
+action:
+POSS | JobG8 | Berkshire | Berkshire | £17.11 per hour | Care Assistant - Bank - Care Home
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225789125
+title: Care Assistant - Bank - Care Home
+employer: 
+location: Berkshire
+region: Berkshire
+salary: £17.11 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 788198a96a946e0ebc7a47535a1d306fdcbbfa3bdabee171a9d51e3d9a7b0b3b
 ---
 
 ---
@@ -213,24 +231,6 @@ hub_fingerprint: 1445bdb1e9028e621816f8d191632d81095451f2989a9daff82f12b7d36c659
 
 ---
 action:
-POSS | JobG8 | Berkshire | Reading | £16 - £20 per hour | Part Time Care Assistant Support Worker
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225759160
-title: Part Time Care Assistant Support Worker
-employer: 
-location: Reading
-region: Berkshire
-salary: £16 - £20 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: f3383b7d2b92823dda4e01915e75ffc011e5f8290cd8810ed1dac19541ed2fcd
----
-
----
-action:
 POSS | JobG8 | Berkshire | Reading | £170 - £190 per daily | Workplace Experience Ambassador / Facilities Coordinator
 source_key: jobg8
 source: JobG8
@@ -325,7 +325,7 @@ POSS | JobG8 | Cambridgeshire | Peterborough | £20 per hour | Credit Controller
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2376589
+source_job_id: 2415072
 title: Credit Controller / Accounts Receivable Analyst
 employer: 
 location: Peterborough
@@ -334,7 +334,7 @@ salary: £20 per hour
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £39,000 exceeds regional review point £37,000
 source_url: 
-hub_fingerprint: 779f5c40d2622c51fb6c05206054fcbd9eae843112281febf56a98a962357422
+hub_fingerprint: 0b2e7364545e6a683321d2ac88845e7cdc5c8acd18f240ca617a79a1aad49053
 ---
 
 ---
@@ -1023,6 +1023,24 @@ hub_fingerprint: 159397e5605c996b7ea54c99f3e3f69e2d49cefa724495ced09bffa62747dad
 
 ---
 action:
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £43149 per year (Excellent Benefits) | Charity Office Manager
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225860780
+title: Charity Office Manager
+employer: 
+location: Manchester
+region: Greater Manchester - Manchester & Salford
+salary: £43149 per year (Excellent Benefits)
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: bcd6142d3f84595630d753136eec5a01486264f2783a1718ac803504ed55ba8d
+---
+
+---
+action:
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £112 - £115 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -1527,24 +1545,6 @@ hub_fingerprint: 6f373451674a9db9bae000ecf30f304a4e0691af658ee2d7686479aa00b2fbc
 
 ---
 action:
-POSS | JobG8 | Kent | Rochester | £35360 per year (plus overtime (optional)) | Residential Support Worker
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225289882
-title: Residential Support Worker
-employer: 
-location: Rochester
-region: Kent
-salary: £35360 per year (plus overtime (optional))
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 2ad584fe18b20320535a19b0cc44690a94aaf86f9a96cdf5a9647a8fad85fd24
----
-
----
-action:
 POSS | JobG8 | Lancashire - East | Blackburn | — | Fractional Financial Controller
 source_key: jobg8
 source: JobG8
@@ -1621,7 +1621,7 @@ POSS | JobG8 | Leicestershire | Leicestershire | £22.11 per hour | Freight Anal
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2375698
+source_job_id: 2414178
 title: Freight Analyst / Freight Administrator
 employer: 
 location: Leicestershire
@@ -1630,7 +1630,7 @@ salary: £22.11 per hour
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
 source_url: 
-hub_fingerprint: 2b0bb28c06b3e017b5d95d4698b69cea0dd7f951076a27815f5c05978a8d5876
+hub_fingerprint: bb512b62c71817fe40d8e292d9ba08b12d535493abef1853ec3eca0c7d8a4490
 ---
 
 ---
@@ -2643,6 +2643,24 @@ hub_fingerprint: abac4d1762ac112f3903ad23c5842fbc363cb357b7c83b27b1ab5e2feb1921b
 
 ---
 action:
+POSS | JobG8 | London | South Croydon | £24.62 per hour | Housing Administrator - Housing - grade 6 - Housing
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225859907
+title: Housing Administrator - Housing - grade 6 - Housing
+employer: 
+location: South Croydon
+region: London
+salary: £24.62 per hour
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: administrator; manual review required: Office/finance role salary over £40k
+source_url: 
+hub_fingerprint: cb7c9dca3fa4a14bf78deed762f4a5dbc9236bc5eec50db13f412cfdc2f88a2e
+---
+
+---
+action:
 POSS | JobG8 | London | Sutton | £36000 - £40000 per year | Part Time Finance Manager
 source_key: jobg8
 source: JobG8
@@ -3021,6 +3039,24 @@ hub_fingerprint: f0d2efc0abd9c577bc86aa7f95ff2ab9822b589b3ef121de5b16c6ccf664427
 
 ---
 action:
+POSS | JobG8 | Northamptonshire | Northamptonshire | £21312 per year | Service Manager (Northampton)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 108334958
+title: Service Manager (Northampton)
+employer: 
+location: Northamptonshire
+region: Northamptonshire
+salary: £21312 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
+source_url: 
+hub_fingerprint: edad6807171a79c3c15843f5e91592620135e5ad48905178ebf01d629ce25389
+---
+
+---
+action:
 POSS | JobG8 | Nottinghamshire | Mansfield | £30500 - £32500 per year | Residential Support Worker
 source_key: jobg8
 source: JobG8
@@ -3053,6 +3089,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: e67341b228949be5179ade4ad0bd9334a7def84ab8d45b61328aba33d7006c73
+---
+
+---
+action:
+POSS | JobG8 | Nottinghamshire | Nottingham | £18.91 per hour (Rate is for self-employed PAs.) | Self-Employed Personal Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 108339781
+title: Self-Employed Personal Assistant
+employer: 
+location: Nottingham
+region: Nottinghamshire
+salary: £18.91 per hour (Rate is for self-employed PAs.)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 77676717d5572f61cf9a22423717c9a06620ab4ad96b2083cb24bf9ee2832938
 ---
 
 ---
@@ -3269,6 +3323,24 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
 source_url: 
 hub_fingerprint: a592ce39a230eb0310049c301bffe55f596f71439aa04a20b83ab7f17944cd3d
+---
+
+---
+action:
+POSS | JobG8 | Oxfordshire | Oxfordshire | £31870 per year | Support Worker
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225795205
+title: Support Worker
+employer: 
+location: Oxfordshire
+region: Oxfordshire
+salary: £31870 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: af56e1a173efe817867ee1e2984676f950a3ea08efa21badc2d41826d7456836
 ---
 
 ---
@@ -3579,6 +3651,24 @@ hub_fingerprint: dc38fc6ccb953bc4b3a914595dff41b30c5edbdf33e3c39e4d4eeffea3ac20b
 
 ---
 action:
+POSS | JobG8 | Sussex | Sussex | £85 - £100 per daily | Learning Support Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225804070
+title: Learning Support Assistant
+employer: 
+location: Sussex
+region: Sussex
+salary: £85 - £100 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 0ba3205d44cb6403aa01cac513991dd02fc1e72fcb967e0d21f6cd5d2fc1b3b5
+---
+
+---
+action:
 POSS | JobG8 | Sussex | Sussex | £21.48 per hr | Legal Assistant
 source_key: jobg8
 source: JobG8
@@ -3835,7 +3925,7 @@ POSS | JobG8 | West Midlands - Black Country | West Bromwich | £45,000 per year
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 2394718
+source_job_id: 2413429
 title: Finance Manager
 employer: 
 location: West Bromwich
@@ -3844,7 +3934,7 @@ salary: £45,000 per year (FTE)
 closing_date: 
 reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
 source_url: 
-hub_fingerprint: f64d361f080f133897134eb19cafed1d6d0c13d5266c1342f5ae1414d26077d7
+hub_fingerprint: f892ce737bd4d14cb16bf9d2f047dbe2fac157e00bae1ee7d8b66a1752de4631
 ---
 
 ---
@@ -3885,24 +3975,6 @@ hub_fingerprint: 00a011ebba5e4d70ec5ee5bb6f1940ce27b70c81d0431b005c745d5f4f88289
 
 ---
 action:
-POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £40000 per year | Credit Controller
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2369638
-title: Credit Controller
-employer: 
-location: Warwickshire
-region: West Midlands - Coventry & Warwickshire
-salary: £40000 per year
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
-source_url: 
-hub_fingerprint: 2a7f32ab0c87f7ac3e0ef232c869146bd4f44a2af3db334db9412d90f5fac68c
----
-
----
-action:
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £20 - £23 per hour | Credit Controller
 source_key: jobg8
 source: JobG8
@@ -3921,6 +3993,24 @@ hub_fingerprint: e9942ef7904707b931f6e234856f09e6b4086a3802094e01aaae96178382d69
 
 ---
 action:
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £40000 per year | Credit Controller
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2414056
+title: Credit Controller
+employer: 
+location: Warwickshire
+region: West Midlands - Coventry & Warwickshire
+salary: £40000 per year
+closing_date: 
+reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: credit controller; manual review required: annualised upper salary £40,000 exceeds regional review point £37,000
+source_url: 
+hub_fingerprint: 28f99674c1c6fb241b86430804382eb4fcc7328c7709a2094e23ca92806d8c5f
+---
+
+---
+action:
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £21 per hour | Customer Service Support Coordinator
 source_key: jobg8
 source: JobG8
@@ -3935,24 +4025,6 @@ closing_date:
 reason: manual review required: title classification: HIGH_CONFIDENCE - high-confidence title pattern: customer service support; manual review required: annualised upper salary £40,950 exceeds regional review point £37,000
 source_url: 
 hub_fingerprint: a5ee9b5e3857e6560a38f5c31871cfa94d095f415be924c0607f81d0f30b5ed4
----
-
----
-action:
-POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £35001 - £40000 per year | Deputy Service Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225760957
-title: Deputy Service Manager
-employer: 
-location: Warwickshire
-region: West Midlands - Coventry & Warwickshire
-salary: £35001 - £40000 per year
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
-source_url: 
-hub_fingerprint: 0df63169db0dad4985e62c72c161472a8a2c152a65294d3679941f7e78d76199
 ---
 
 ---
@@ -4151,24 +4223,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 349f051ff8674a5ed87583b152444de508e09362b816dd057ce42eab2e9a5b17
----
-
----
-action:
-POSS | JobG8 | Yorkshire - West | Halifax | £21942 per year | Homeless Shelter Service Manager
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 108330552
-title: Homeless Shelter Service Manager
-employer: 
-location: Halifax
-region: Yorkshire - West
-salary: £21942 per year
-closing_date: 
-reason: manual review required: title classification: HIGH_CONFIDENCE - explicit part-time finance role rule; manual review required: part-time manager role requires owner review
-source_url: 
-hub_fingerprint: 946d620f449fd900383d4ec9efadc923bffb20d17a3d4e7693e15ebf61f07939
 ---
 
 ---
