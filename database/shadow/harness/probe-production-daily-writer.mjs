@@ -1,4 +1,3 @@
-import assert from 'node:assert/strict';
 import pg from 'pg';
 
 const expected = {
@@ -6,14 +5,41 @@ const expected = {
   database: 'neondb',
   role: 'ontap_prod_daily_writer',
 };
-const input = process.env.ONTAP_NEON_PROD_DAILY_WRITE_URL;
-assert.ok(input, 'Production writer secret is unavailable to this workflow');
 
-const url = new URL(input);
-assert.equal(url.hostname, expected.host, 'Unexpected Neon endpoint');
-assert.equal(url.pathname.slice(1), expected.database, 'Unexpected database');
-assert.equal(decodeURIComponent(url.username), expected.role, 'Unexpected database role');
-assert.ok(['require', 'verify-full'].includes(url.searchParams.get('sslmode')), 'TLS is required');
+class ProbeCheckError extends Error {
+  constructor(check) {
+    super(check);
+    this.check = check;
+  }
+}
+
+function requireCheck(condition, check) {
+  if (!condition) throw new ProbeCheckError(check);
+}
+
+const input = process.env.ONTAP_NEON_PROD_DAILY_WRITE_URL;
+requireCheck(Boolean(input), 'GitHub secret is available to the workflow');
+
+let url;
+try {
+  url = new URL(input);
+} catch {
+  throw new ProbeCheckError('connection string format');
+}
+
+requireCheck(url.hostname === expected.host, 'Neon endpoint host matches Production');
+requireCheck(url.pathname.slice(1) === expected.database, 'database name matches Production');
+let roleName;
+try {
+  roleName = decodeURIComponent(url.username);
+} catch {
+  throw new ProbeCheckError('database role name format');
+}
+requireCheck(roleName === expected.role, 'database role is the limited daily writer');
+requireCheck(
+  ['require', 'verify-full'].includes(url.searchParams.get('sslmode')),
+  'TLS is required by the connection string',
+);
 url.searchParams.set('sslmode', 'verify-full');
 
 const client = new pg.Client({
@@ -25,27 +51,33 @@ const client = new pg.Client({
 });
 
 let connected = false;
+let stage = 'database connection';
 try {
   await client.connect();
   connected = true;
+
+  stage = 'database identity query';
   const identity = (await client.query(
     'SELECT current_database() AS database, current_user AS role, pg_database_size(current_database())::text AS bytes'
   )).rows[0];
-  assert.equal(identity.database, expected.database);
-  assert.equal(identity.role, expected.role);
-  assert.equal(client.connection?.stream?.encrypted, true, 'TLS is not active');
+  requireCheck(identity.database === expected.database, 'connected database identity');
+  requireCheck(identity.role === expected.role, 'connected role identity');
+  requireCheck(client.connection?.stream?.encrypted === true, 'TLS is active');
 
+  stage = 'role safety query';
   const role = (await client.query(
     'SELECT rolsuper, rolcreatedb, rolcreaterole, rolreplication FROM pg_roles WHERE rolname = current_user'
   )).rows[0];
-  assert.ok(role, 'Database role was not found');
+  requireCheck(Boolean(role), 'daily writer role exists');
   for (const attr of ['rolsuper', 'rolcreatedb', 'rolcreaterole', 'rolreplication']) {
-    assert.equal(role[attr], false, 'Unexpected elevated role attribute: ' + attr);
+    requireCheck(role[attr] === false, `role is not elevated (${attr})`);
   }
 
-  assert.equal((await client.query(
+  stage = 'schema privilege query';
+  const schemaUsage = (await client.query(
     "SELECT has_schema_privilege(current_user, 'ontap_shadow', 'USAGE') AS allowed"
-  )).rows[0].allowed, true);
+  )).rows[0].allowed;
+  requireCheck(schemaUsage === true, 'USAGE on ontap_shadow schema');
 
   const tables = [
     'suppliers', 'feed_runs', 'jobs', 'supplier_adverts', 'advert_appearances',
@@ -53,22 +85,25 @@ try {
   ];
   for (const table of tables) {
     for (const privilege of ['SELECT', 'INSERT', 'UPDATE']) {
+      stage = `table privilege query: ${privilege} on ontap_shadow.${table}`;
       const allowed = (await client.query(
         'SELECT has_table_privilege(current_user, $1, $2) AS allowed',
         ['ontap_shadow.' + table, privilege]
       )).rows[0].allowed;
-      assert.equal(allowed, true, 'Missing ' + privilege + ' on ' + table);
+      requireCheck(allowed === true, `${privilege} on ontap_shadow.${table}`);
     }
   }
 
+  stage = 'supplier identity sequence query';
   const sequence = (await client.query(
     "SELECT pg_get_serial_sequence('ontap_shadow.suppliers', 'id') AS name"
   )).rows[0].name;
-  assert.ok(sequence, 'Suppliers identity sequence was not found');
-  assert.equal((await client.query(
+  requireCheck(Boolean(sequence), 'suppliers identity sequence exists');
+  const sequenceUsage = (await client.query(
     "SELECT has_sequence_privilege(current_user, $1, 'USAGE') AS allowed",
     [sequence]
-  )).rows[0].allowed, true, 'Missing supplier identity sequence privilege');
+  )).rows[0].allowed;
+  requireCheck(sequenceUsage === true, 'USAGE on suppliers identity sequence');
 
   const result = {
     status: 'passed',
@@ -86,7 +121,11 @@ try {
   };
   console.log('ONTAP_NEON_PRODUCTION_DAILY_WRITER_PROBE ' + JSON.stringify(result));
 } catch (error) {
-  console.error('Production writer probe failed:', error.code || error.name || 'connection error');
+  if (error instanceof ProbeCheckError) {
+    console.error('Production writer probe failed at check:', error.check);
+  } else {
+    console.error('Production writer probe failed during:', stage, error.code || error.name || 'query error');
+  }
   throw new Error('Production Neon writer connection probe failed');
 } finally {
   if (connected) await client.end().catch(() => {});
