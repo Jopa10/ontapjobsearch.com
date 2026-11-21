@@ -124,11 +124,12 @@ try {
   connected = true;
   failureStage = 'checking database identity and TLS';
   const identity = (await client.query(
-    'SELECT current_database() AS database_name,current_user AS role_name,pg_database_size(current_database())::text AS database_bytes,(SELECT ssl FROM pg_stat_ssl WHERE pid=pg_backend_pid()) AS tls'
+    'SELECT current_database() AS database_name,current_user AS role_name,pg_database_size(current_database())::text AS database_bytes'
   )).rows[0];
   assert.equal(identity.database_name, EXPECTED.database);
   assert.equal(identity.role_name, EXPECTED.role);
-  assert.equal(identity.tls, true, 'TLS is not active');
+  const tls = client.connection?.stream?.encrypted === true;
+  assert.equal(tls, true, 'TLS is not active');
 
   failureStage = 'checking writer role attributes';
   const role = (await client.query(
