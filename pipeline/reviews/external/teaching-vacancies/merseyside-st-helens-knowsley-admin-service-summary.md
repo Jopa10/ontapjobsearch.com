@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - St Helens & Knowsley
 
-review_date: 2026-11-01
-review_fingerprint: 445b098c1cdae5824be3228d86c61b052614cc03499f7bbc5b9075ea990c3862
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Merseyside - St Helens & Knowsley
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 1
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Merseyside - St Helens & Knowsley | Prescot, North West, L35 6NY | £26,427 - £26,847 FTE | Sixth form Admin Assistant (Part time)
-employer: Rainhill High School
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e302abd09b97410d94372db0b5192ff2806e86c2c2baf592ec9c3aac4c0bd697
-source: Teaching Vacancies
-source_job_id: sixth-form-admin-assistant-part-time-rainhill-high-school-prescot-merseyside
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admin-assistant-part-time-rainhill-high-school-prescot-merseyside
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -46,7 +33,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admin-assi
 
 ## HARD_PASS
 
-- [SEND Access Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/send-access-compliance-officer) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-haydock-st-helens-merseyside) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

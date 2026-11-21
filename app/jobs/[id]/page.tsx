@@ -224,6 +224,7 @@ export default async function JobPage({ params }: PageProps) {
               employer={job.company}
               location={job.location}
               region={job.region}
+              salary_text={job.salary_text}
               source={job.source}
               slice_path={job.slice_path}
             />

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-01
-review_fingerprint: bf30585e44095910a319fefe89bc05ac855e63f49fc86b25907adebb970a9ab3
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 038969e7f4f0640ff8f57642dbda32b44f4185ff479e409aa7c600400eb5fcdf
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,89 +13,119 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 15
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 8
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Buckinghamshire | Chesham, South East, HP5 1BA | £29,114.00 - £31,230.00 Annually (FTE) FTE £29,114 - £31,230 / pro rata £4,880 - £5,234 | Development Administrator
-employer: Chesham Grammar School
-closing_date: 2026-11-02T12:00:00+00:00
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK6 5LP | Up to £25,844 per annum (Subject to experience) | Administrator - Prison Education - HMP Bullingdon
+employer: Milton Keynes College
+closing_date: 2026-11-25T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2e085c2fab448729576ef6497ee937e9250416ab2cae19046aa69d4e9feb2478
+factual_fingerprint: a346b032f4e9aae3a8878f93986caacae68683a7be963a011edb231013d7bdfe
 source: Teaching Vacancies
-source_job_id: development-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/development-administrator
+source_job_id: administrator-prison-education-hmp-bullingdon-milton-keynes-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-education-hmp-bullingdon-milton-keynes-college
 ---
 
 ---
 action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK10 9JQ | £16,347.00 Annually (Actual) 27.5 hours per week, term time only with mandatory training days in addition | Receptionist (General Administrator)
-employer: Oakgrove School
-closing_date: 2026-11-02T09:00:00+00:00
+SELECTED | Buckinghamshire | Aylesbury, South East, HP22 7BR | £24,623.00 - £26,412.00 Annually (Actual) Bucks Pay Range 3 – actual salary £24,623 - £26,412 (Equivalent to £29,114 - £31,230 for full time) | Librarian and Careers Administrator
+employer: The Kingsbrook School
+closing_date: 2026-11-27T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8895a1a2391693fd9f36162502660b98a5a4e18cd80bb263f45f5342838e7e0e
+source: Teaching Vacancies
+source_job_id: librarian-and-careers-administrator-the-kingsbrook-school-aylesbury-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/librarian-and-careers-administrator-the-kingsbrook-school-aylesbury-buckinghamshire
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Beaconsfield, South East, HP9 1RR | £21,944.00 - £23,781.00 Annually (Actual) Bucks Pay Scale R2 | Receptionist and Reprographics Assistant
+employer: Beaconsfield High School
+closing_date: 2026-11-30T09:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8eb1ffb64e564a62e800de1803baa8009966a3dcb7160b655c6433d901d4c1dc
+factual_fingerprint: 05748830a041a4fdfb67a26f3226c6fc5925273bf6e963c215a754df488471e3
 source: Teaching Vacancies
-source_job_id: receptionist-general-administrator-ad565c22-7800-442c-b92a-0cd4c39c9cec
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-general-administrator-ad565c22-7800-442c-b92a-0cd4c39c9cec
+source_job_id: receptionist-and-reprographics-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-reprographics-assistant
 ---
 
 ---
 action: 
-SELECTED | Buckinghamshire | Buckingham, South East, MK18 1AX | £15,025.00 Annually (Actual) 38.6 weeks per year (includes 3 INSET training days) | Reprographics & Administrative Assistant
-employer: Royal Latin School
-closing_date: 2026-11-03T10:00:00+00:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK7 6BZ | £27,709.00 Annually (FTE) Full time, Term time plus 5 Inset days | Reprographics Technician and Office Administrator
+employer: Kents Hill Park all-through school
+closing_date: 2026-11-24T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 86825223ab3a3787b02fe252b9cc3e6d2674af2e82e685a0c532dd7d282f5ae0
+factual_fingerprint: a2e37e3e5ac4eb597d95a32521fa119e20be05d176973b4b7727b60e6651e40f
 source: Teaching Vacancies
-source_job_id: reprographics-administrative-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrative-assistant
----
-
----
-action: 
-SELECTED | Buckinghamshire | Aylesbury, HP22 6NL | £29,114.00 - £31,230.00 Annually (FTE) Actual salary for hours worked will be £24,690.91 to £26,485.44 | School Administrator
-employer: Chiltern Way Academy Trust
-closing_date: 2026-11-05T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e73b30abf3629fd14a6fb762760b4cd87be307e57332acdd15ab726b236af5de
-source: Teaching Vacancies
-source_job_id: school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded
+source_job_id: reprographics-technician-and-office-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-and-office-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
-employer: Lift Sir Herbert Leon
-closing_date: 2026-11-17T13:08:02+00:00
+POSS | Buckinghamshire | Aylesbury, HP21 8PE | £27,807.00 - £32,283.00 Annually (Actual) Bucks Pay Range 3/4 – actual salary £27,807 to £32,283 (equivalent to £29,114 to £33,735 for full time) | Human Resources Officer (Employee Relations)
+employer: Insignis Academy Trust
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 881a657dc4002df9e62f2c4ca0a70ae8e926ff74d1bc65b22a6e3e5839694949
+source: Teaching Vacancies
+source_job_id: human-resources-officer-employee-relations
+source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-employee-relations
+---
+
+---
+action: 
+POSS | Buckinghamshire | High Wycombe, South East, HP15 6AH | £26,522.00 - £28,742.00 Annually (FTE) | Receptionist / Administrator
+employer: Widmer End Community Combined School
+closing_date: 2026-11-30T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 881a26fa6ab64cba8a0f0aa26f4b8c19a4ad0a8dd29f6f1b9b9c13aba98ab33b
+factual_fingerprint: 1ac225eed834c15558d7babe437fba0a61a961e1bf3fd4978b27e073988a56ad
 source: Teaching Vacancies
-source_job_id: receptionist-lift-sir-herbert-leon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
+source_job_id: receptionist-administrator-widmer-end-community-combined-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-widmer-end-community-combined-school
+---
+
+---
+action: 
+POSS | Buckinghamshire | Buckingham, South East, MK18 1AX | £9,015.36 Annually (Actual) 38.6 weeks per annum (to include 3 INSET days) | School Trip / Enrichment Coordinator
+employer: Royal Latin School
+closing_date: 2026-11-23T10:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ce52cfed346a48e0cf8f2b4d8907b85a23ed6277f56ff68c615645018fd78430
+source: Teaching Vacancies
+source_job_id: school-trip-enrichment-coordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-trip-enrichment-coordinator
 ---
 
 ## EXCLUDED BY REVIEW
@@ -104,10 +134,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir
 
 ## HARD_PASS
 
-- [Business Support L3](https://teaching-vacancies.service.gov.uk/jobs/business-support-l3-brooklands-farm-primary-school) — Insufficient admin/service evidence.
-- [Curriculum Administrator Apprentice](https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-apprentice) — No usable numeric salary.
-- [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Excluded senior/management title.
-- [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-7e5d89f3-aa30-4103-8e70-a83b509a9118) — Insufficient admin/service evidence.
+- [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-wycombe-high-school) — Excluded senior/management title.
+- [Examination Manager](https://teaching-vacancies.service.gov.uk/jobs/examination-manager-holmer-green-senior-school) — Excluded senior/management title.
+- [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-kents-hill-park-all-through-school) — Insufficient admin/service evidence.
+- [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-5-dimensions-trust) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-broughton-fields-primary-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-b186e459-f769-41b9-9390-e923eedcb0b6) — Excluded senior/management title.
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-stephenson-mk-trust) — Excluded senior/management title.
+- [Sixth Form Study Supervisor & DofE Coordinator](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-study-supervisor-dofe-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

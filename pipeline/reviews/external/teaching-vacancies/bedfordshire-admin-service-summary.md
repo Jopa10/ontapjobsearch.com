@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-01
-review_fingerprint: cfe2ecc3ea6c575ce34dbbf0545020931586a3d3ec275b3775ce553cf3795099
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 4797b6ea1f5ae7df9fb7f9fff5f96b50de796b255dcbc48ba402de3de02a19bb
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,102 +13,87 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
-- POSS awaiting decision: 0
+- Records: 18
+- Selected: 6
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 11
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Bedfordshire | Dunstable, East of England, LU6 2AP | £17,109.00 Annually (Actual) | Administration Assistant / Receptionist
-employer: Lancot School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6bb5d5fbdc17b3fbb865e5ddfc7588f7810f7977e177faa13509e64e0e32585e
-source: Teaching Vacancies
-source_job_id: administration-assistant-receptionist-c822ff8b-c75d-4a91-a4a3-0b0ba42c70f9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-receptionist-c822ff8b-c75d-4a91-a4a3-0b0ba42c70f9
----
-
----
-action: 
-SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £17,303.57 Annually (Actual) | Administrative Assistant
+SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £17,303.57 Annually (Actual) | 6th Form Administrative Assistant
 employer: Sharnbrook Academy
-closing_date: 2026-11-02T09:00:00+00:00
+closing_date: 2026-11-23T09:00:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: afd2f06474966cf6edaf7e21aabb90256392b78709d4aaf831723691eb304076
+factual_fingerprint: f154e2211d7cd75535bd33352d1050c3388b6c495631eef5df48744a6f74178e
 source: Teaching Vacancies
-source_job_id: administrative-assistant-cf37bca3-64ec-41f1-b25b-fecf7343f14a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cf37bca3-64ec-41f1-b25b-fecf7343f14a
+source_job_id: 6th-form-administrative-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/6th-form-administrative-assistant
 ---
 
 ---
 action: 
-SELECTED | Bedfordshire | Luton, East of England, LU2 8HJ | £24,470.00 - £26,523.00 Annually (Actual) L4 (actual starting salary £24,470 pa) | Attendance Officer
-employer: Putteridge High School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: attendance officer
+SELECTED | Bedfordshire | Dunstable, East of England, LU5 4JA | £22,605.00 - £22,605.00 Annually (Actual) | Admin Assistant
+employer: Priory Academy
+closing_date: 2026-12-01T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 872e04b9d437b65c206bdcd0b4d96ba23cac2871147c002377d6368df508633f
+factual_fingerprint: 4371ca59ddd5a6e4f266800a590bc12d6d8edb2db3e285900ec6452798275418
 source: Teaching Vacancies
-source_job_id: attendance-officer-putteridge-high-school-luton-bedfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-putteridge-high-school-luton-bedfordshire
+source_job_id: admin-assistant-priory-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-priory-academy
 ---
 
 ---
 action: 
-SELECTED | Bedfordshire | Leighton Buzzard, East of England, LU7 2UA | £26,428.00 - £29,070.00 Annually (FTE) Pro-rata | Office & Community Administrator
-employer: Southcott Lower School
-closing_date: 2026-11-05T23:59:00+00:00
-reason: Clear admin/service title: administrator
+SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £23,424.17 Annually (Actual) | Administrative Assistant
+employer: Sharnbrook Academy
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 95c2bab11db0b393eb77658d18194c12e0d49c492cc3d909e7fd14a58654ab8b
+factual_fingerprint: e0a03a299caa4f6e1ff4d60f16e2f2306871ff4d02265060d1c8e1865cd9ad4e
 source: Teaching Vacancies
-source_job_id: office-community-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-community-administrator
+source_job_id: administrative-assistant-f0403612-0f69-4ba8-89fc-23ac79f34462
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-f0403612-0f69-4ba8-89fc-23ac79f34462
 ---
 
 ---
 action: 
-SELECTED | Bedfordshire | Dunstable, East of England, LU5 4NJ | £18,959.00 Annually (Actual) FTE £24,790 (NJC Scale 3A pro rata) | School Office Administrator (Part time & Flexible working)
-employer: St Christophers Academy
-closing_date: 2026-11-13T12:00:00+00:00
+SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £22,696.73 Annually (Actual) | Finance & Trips Admin Assistant
+employer: Sharnbrook Academy
+closing_date: 2026-11-26T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: baada672967662672cb95ce93d98ecb09b5e8d8de079971ea6d9117368a3e772
+source: Teaching Vacancies
+source_job_id: finance-trips-admin-assistant-0e7c7043-6f5e-428b-82dd-4f08e507403e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-trips-admin-assistant-0e7c7043-6f5e-428b-82dd-4f08e507403e
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Bedford, East of England, MK41 9DQ | £26,016.00 - £26,427.00 Annually (FTE) | Office Administrator
+employer: St John Rigby Catholic Primary School
+closing_date: 2026-11-26T12:00:00+00:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: abe5a21fe7b925341e41b031384ebfbb6fb75454f2715cfabfaee79ad5a09390
+factual_fingerprint: a9dd5ebc6be99a3534fbc68b2b51b747f2ffd070f57ca38818389b4f32f91380
 source: Teaching Vacancies
-source_job_id: school-office-administrator-part-time-flexible-working
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-part-time-flexible-working
----
-
----
-action: 
-SELECTED | Bedfordshire | Luton, East of England, LU4 9RD | £8,790.00 - £9,073.00 Annually (Actual) | SEN Inclusion Administrator
-employer: Beechwood Primary School
-closing_date: 2026-11-19T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0f8b05796b1f5987aee3c1a991aab362ecc90488fecad33a7b49db4b1235c5d7
-source: Teaching Vacancies
-source_job_id: sen-inclusion-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-inclusion-administrator
+source_job_id: office-administrator-st-john-rigby-catholic-primary-school-bedford-bedfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-john-rigby-catholic-primary-school-bedford-bedfordshire
 ---
 
 ---
@@ -128,7 +113,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assista
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Bedfordshire | Luton, East of England, LU4 0PF | £23,233.00 - £23,979.00 Annually (Actual) | Admissions, Attendance and Administration Officer
+employer: St Martin De Porres Catholic Primary School
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d6ee0f03e996ed5c695f5827e7ec4e5cde5ff4ce35ebf26dd8ff0b5308ead6dc
+source: Teaching Vacancies
+source_job_id: admissions-attendance-and-administration-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-and-administration-officer
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -136,13 +134,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assista
 
 ## HARD_PASS
 
-- [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-queensbury-academy) — Excluded senior/management title.
-- [Data Manager and Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-and-examinations-officer-wixams-academy) — Excluded senior/management title.
-- [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Excluded senior/management title.
-- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-567766f1-1593-41ed-9bcc-141b66967e36) — Salary over £50k.
-- [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-wixams-academy) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-bedf544f-713f-4984-9b85-f92bc8169be5) — Excluded senior/management title.
-- [Science Technician](https://teaching-vacancies.service.gov.uk/jobs/science-technician-daubeney-academy-bedford-bedfordshire) — Out-of-scope occupation: technician.
+- [Admin Manager and PA to SLT](https://teaching-vacancies.service.gov.uk/jobs/admin-manager-and-pa-to-slt) — Excluded senior/management title.
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-pirton-hill-primary-school-luton-bedfordshire) — Insufficient admin/service evidence.
+- [Administration Services Manager](https://teaching-vacancies.service.gov.uk/jobs/administration-services-manager) — Excluded senior/management title.
+- [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-0901ff45-843f-48f1-86f8-3ff333e31507) — No usable numeric salary.
+- [Attendance Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-0aafd306-24bd-4142-babf-029988a737dd) — No usable numeric salary.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-houstone-school-dunstable) — Excluded senior/management title.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bedford-inclusive-learning-and-training-trust-bedford-not-recorded) — Excluded senior/management title.
+- [Finance manager - Job Share](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-job-share) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-212db2cc-f077-4618-b1ff-eb892f942ee3) — Excluded senior/management title.
+- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-380e0b53-9601-45ec-b27b-2407ffe82d18) — Excluded senior/management title.
+- [Trust Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-governance-manager-bedfordshire-schools-trust-limited) — Excluded senior/management title.
 
 ## Safety boundary
 

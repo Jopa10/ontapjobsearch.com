@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-11-01
-review_fingerprint: a3420b3ee7fc5c579ad5869391b4b546df87a040ab1e79fa9898a4e4d5c9ada3
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 5f0fc5c4cd591eed6c538f2cdc6ecf064cb4680bc8bb03e2c01faffe9805a58b
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,42 +13,42 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 7
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Dorset | Poole, BH12 4HU | £27,274 – £29,071 per annum (actual salary for term-time working £23,917 – £25,493) | Admin Assistant
-employer: Southern Education Trust
-closing_date: 2026-11-02T08:00:00+00:00
+SELECTED | Dorset | Bournemouth, South West, BH9 2TG | £27,274 - £29,071 per annum (actual salary for term-time working £23,917 - £25,493) | Finance and Admin Assistant - Winton Primary School
+employer: Winton Primary School
+closing_date: 2026-11-23T08:00:00+00:00
 reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f27f2cc2673bfddb6aee95774aeda445524a98e4a9bb81080fae60b8ea2a8cc9
+factual_fingerprint: 6297b311aa212f679384c07b24bf1ff8b6a8cd1c19da9ffb8b3f08e05594f703
 source: Teaching Vacancies
-source_job_id: admin-assistant-southern-education-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-southern-education-trust
+source_job_id: finance-and-admin-assistant-winton-primary-school-winton-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-admin-assistant-winton-primary-school-winton-primary-school
 ---
 
 ---
 action: 
-SELECTED | Dorset | Ferndown, South West, BH22 9UP | £26,427-£27,274 per annum | SEND Admin Assistant
-employer: Ferndown Middle School
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: admin assistant
+SELECTED | Dorset | Bournemouth, South West, BH8 9PW | £31,071 | HR Administrator & Recruitment Coordinator
+employer: The Bishop of Winchester Academy
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 20313f7704eec3483bbf1b668b202161072729f18c1e38af2fc7bb0583187e88
+factual_fingerprint: 6c208e7206e5e8a4c267118f3c8a0e50eb436f97c1d5afe9fb6f5788b1bd3dcd
 source: Teaching Vacancies
-source_job_id: send-admin-assistant-ferndown-middle-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-ferndown-middle-school
+source_job_id: hr-administrator-recruitment-coordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-recruitment-coordinator
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -61,9 +61,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-
 
 ## HARD_PASS
 
+- [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-the-bishop-of-winchester-academy-bournemouth-dorset) — Insufficient admin/service evidence.
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-the-bishop-of-winchester-academy) — No usable numeric salary.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-oak-academy) — No usable numeric salary.
-- [Pastoral Manager – Ferndown Middle School](https://teaching-vacancies.service.gov.uk/jobs/pastoral-manager-ferndown-middle-school) — Excluded senior/management title.
+- [Financial Accounting Manager](https://teaching-vacancies.service.gov.uk/jobs/financial-accounting-manager) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-longspee-academy-poole-dorset) — Excluded senior/management title.
+- [Work Experience and Future Pathways Administrator](https://teaching-vacancies.service.gov.uk/jobs/work-experience-and-future-pathways-administrator-parkstone-grammar-school-poole-dorset) — No usable numeric salary.
 
 ## Safety boundary
 

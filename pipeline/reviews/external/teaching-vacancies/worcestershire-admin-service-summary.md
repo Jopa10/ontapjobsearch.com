@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-11-01
-review_fingerprint: 1601e721554c96dc1e22939fb49d3a9a48821b43933d5acd39d9af8fc763640d
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: f52a7d33c61ffa7067d5c013b8c21f9859ea3eebab58a28eb57b2a27b0ecbdc6
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 1
-- POSS awaiting decision: 2
+- Records: 4
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 1
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: f4402cdb09254c1212cfde47ef316bec6ea0e7db617e516c5567d74dbf0
 source: Teaching Vacancies
 source_job_id: administrative-finance-assistant-hollymount-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-finance-assistant-hollymount-school
+---
+
+---
+action: 
+SELECTED | Worcestershire | Kidderminster, West Midlands, DY10 1XA | £27,274-£29,071 | People Administrator
+employer: King Charles I School
+closing_date: 2026-11-30T08:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 031caafcf6fafaf5759c99e004000635c0a889b92e78cb7e0b2060c7c2ada87f
+source: Teaching Vacancies
+source_job_id: people-administrator-king-charles-i-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-king-charles-i-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -53,31 +68,13 @@ source_job_id: finance-assistant-pinvin-cofe-academy-pershore-worcestershire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pinvin-cofe-academy-pershore-worcestershire
 ---
 
----
-action: 
-POSS | Worcestershire | Worcester, WR4 9SG | £27,273.00 - £27,273.00 Annually (FTE) Casual zero hour contract - hourly rate | Governance Professional/Clerk
-employer: The Black Pear Trust
-closing_date: 2026-11-04T12:00:00+00:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7f36147f620add0982c72606e5cab78a827e3b68649fa464e70bda616db407d1
-source: Teaching Vacancies
-source_job_id: governance-professional-clerk-the-black-pear-trust-worcester-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-the-black-pear-trust-worcester-not-recorded
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Admin Officer (maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-maternity-cover) — Insufficient admin/service evidence.
-- [Governance and Projects Professional](https://teaching-vacancies.service.gov.uk/jobs/governance-and-projects-professional) — No usable numeric salary.
-- [Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/office-administrator-northleigh-cofe-primary-school) — No usable numeric salary.
-- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-king-charles-i-school) — Excluded senior/management title.
+- [Data Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administrative-assistant) — No usable numeric salary.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-01
-review_fingerprint: ed8065a24a3dfd460e5727c067f98ad80bf624fa5578965b9c6a500dca0cc0a8
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: c0a765cd64567b0c09461504d14ba817e6404636bd0060c46d1378976d111211
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,132 +13,117 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 8
-- POSS awaiting decision: 2
+- Records: 11
+- Selected: 7
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 3
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Wiltshire | Chippenham, South West, SN15 3EA | £9,676.00 - £9,985.00 Annually (Actual) Trust Scale Point 4-6 | Administrative Assistant
-employer: Charter Primary School
-closing_date: 2026-11-02T09:00:00+00:00
+SELECTED | Wiltshire | Salisbury, South West, SP4 8FB | £13.48 per hour (£26,016 pro rata per annum) | Admin Assistant
+employer: St Michael's Church of England Primary School
+closing_date: 2026-11-30T12:00:59+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 72f2cac22e24bdc5d8edb0faa4674e030805cbaafe28ce4c5a7049ea41a5b472
+source: Teaching Vacancies
+source_job_id: admin-assistant-st-michael-s-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-michael-s-church-of-england-primary-school
+---
+
+---
+action: 
+SELECTED | Wiltshire | Salisbury, South West, SP1 3GZ | £26,016.00 Annually (Actual) Actual Salary: £7257 per annum | Administrative Assistant
+employer: Greentrees Primary School
+closing_date: 2026-11-23T12:00:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5670a8b61b2fbb1c99c93318188f1cf16994498caaf7c9d47253afa824be53a4
+factual_fingerprint: 224554c65e33986992be017fad09d6c8e85f1479b2cfb13b7d62a3262bcd6108
 source: Teaching Vacancies
-source_job_id: administrative-assistant-charter-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-charter-primary-school
+source_job_id: administrative-assistant-0f00fc74-0d9f-4ee5-95bf-98adacca1c95
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-0f00fc74-0d9f-4ee5-95bf-98adacca1c95
 ---
 
 ---
 action: 
-SELECTED | Wiltshire | Salisbury, South West, SP1 3JJ | NJC Scale 3 (points 5-6) £26,428 - £26,846 FTE (Actual starting salary £22,732) | Attendance Officer
-employer: South Wilts Grammar School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6ea78b4b65b0b1514ed15568f69210a770cf124071869998533594a4c3227b4c
-source: Teaching Vacancies
-source_job_id: attendance-officer-south-wilts-grammar-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-south-wilts-grammar-school
----
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN2 7SH | £26,429.00 - £27,275.00 Annually (FTE) Actual £23,852 - £24,615 | First Aider & Admin Assistant (Front Office)
-employer: Kingsdown School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 081ba487ef64eebdadc840533118ce95ebb03bf62038e01bb189267de73b80ec
-source: Teaching Vacancies
-source_job_id: first-aider-admin-assistant-front-office
-source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aider-admin-assistant-front-office
----
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN2 1JR | £12,931.00 Annually (Actual) | Part-Time Receptionist (Mat Cover 12 months FTC)
-employer: Swindon Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9fc4cedc2ba103a8703a636b602400cf77e8b2d86a404ac5db04f84c946f41d0
-source: Teaching Vacancies
-source_job_id: part-time-receptionist-mat-cover-12-months-ftc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-mat-cover-12-months-ftc
----
-
----
-action: 
-SELECTED | Wiltshire | Melksham, South West, SN12 6QZ | £18,143.00 - £19,021.00 Annually (Actual) WHFNJC K Grade | Pastoral Administrator
-employer: Melksham Oak Community School
-closing_date: 2026-11-15T23:59:00+00:00
+SELECTED | Wiltshire | Swindon, South West, SN2 5DE | £20,297.00 - £21,663.00 Annually (Actual) | Finance and HR Administrator
+employer: Seven Fields Primary School
+closing_date: 2026-11-30T12:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 69c4da1dcda680e53159944181315c414af766393be4178ed090503b69b64087
+factual_fingerprint: 8328d819eea8649c95dabc0f8dfedd263a1dc431ae1274170c335a34897e66c9
 source: Teaching Vacancies
-source_job_id: pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
+source_job_id: finance-and-hr-administrator-seven-fields-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-administrator-seven-fields-primary-school
 ---
 
 ---
 action: 
-SELECTED | Wiltshire | Swindon, South West, SN25 2HY | £26,016.00 - £27,274.00 Annually (FTE) | Pupil Services Administrator
-employer: Oakhurst Community Primary School
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Clear admin/service title: administrator
+SELECTED | Wiltshire | Swindon, South East, SN6 8FX | £27,709.00 - £30,023.00 Annually (FTE) Support Staff NJC Grade 6, SCP 8 - 13. Actual salary range - £11,572.11 - £12,538.50 | Office Administrator
+employer: Shrivenham Church of England School
+closing_date: 2026-11-24T23:59:00+00:00
+reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2fa0d574db1d3799e6827dfd3524ff65f197a679e6bb586a663b5547e2e694c6
+factual_fingerprint: a12e62bbdd75e1f03774445ad7322dc49c23ce2e7e13abd1383fec239cfd2594
 source: Teaching Vacancies
-source_job_id: pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
+source_job_id: office-administrator-0cb1df0c-ffca-4e9e-89e2-435084e74288
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-0cb1df0c-ffca-4e9e-89e2-435084e74288
 ---
 
 ---
 action: 
-SELECTED | Wiltshire | Salisbury, South West, SP1 3JJ | Scale 4, NJC 7-11 £27,274 – £29,070 FTE | Receptionist & First Aider
-employer: South Wilts Grammar School
-closing_date: 2026-11-09T09:00:00+00:00
+SELECTED | Wiltshire | Salisbury, South West, SP1 2ED | £22,733 to £24,171 per year | Receptionist
+employer: Bishop Wordsworth's Church of England Grammar School
+closing_date: 2026-12-06T00:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1bbeef705e8db9c66a2822392ac8f63c25303ca4a1c034b954bb046f7a93d0b7
+factual_fingerprint: e11779434caafed1aa69618bfbc1690a1d88b262aba0ec00a4e1fa9be4e844a3
 source: Teaching Vacancies
-source_job_id: receptionist-first-aider-south-wilts-grammar-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-first-aider-south-wilts-grammar-school
+source_job_id: receptionist-bishop-wordsworth-s-church-of-england-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-bishop-wordsworth-s-church-of-england-grammar-school
 ---
 
 ---
 action: 
-SELECTED | Wiltshire | Swindon, South West, SN25 2PP | £13,022.00 - £13,447.00 Annually (Actual) NJC Scale Point 4 - 6 £13.48 - £13.92ph | Sixth Form Admin Assistant
-employer: Great Western Academy
-closing_date: 2026-11-04T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
+SELECTED | Wiltshire | Chippenham, South West, SN14 6RJ | £22,415.00 - £23,617.00 Annually (Actual) | Receptionist
+employer: Hardenhuish School
+closing_date: 2026-11-30T08:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: cb3209851bb39f2436e16e94267afe3323b377ec4b73dae65616bd6e5b321e3c
+factual_fingerprint: 1eed06555b2503e17617ce392b2cf2ff5162a0cc736d5c4c524792cf971fa179
 source: Teaching Vacancies
-source_job_id: sixth-form-admin-assistant-great-western-academy-swindon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admin-assistant-great-western-academy-swindon
+source_job_id: receptionist-hardenhuish-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-hardenhuish-school
+---
+
+---
+action: 
+SELECTED | Wiltshire | Chippenham, South West, SN15 3EA | £13,910.00 - £14,354.00 Annually (Actual) Trust Scale Point 4-6 | School Administrative Assistant
+employer: Charter Primary School
+closing_date: 2026-12-06T17:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9520899aa0a2a6afd19dbeab54066d5ed88f86931bba03ff8bc18018dcd8ed68
+source: Teaching Vacancies
+source_job_id: school-administrative-assistant-charter-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative-assistant-charter-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -158,33 +143,15 @@ source_job_id: clerk-to-governors-gomeldon-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gomeldon-primary-school
 ---
 
----
-action: 
-POSS | Wiltshire | Salisbury, South West, SP1 1QX | £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE | Clerk to Governors
-employer: St Andrew's Church of England Voluntary Aided Primary School, Laverstock
-closing_date: 2026-11-18T23:59:00+00:00
-reason: Borderline school administration title: clerk to governors
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0719b43ec612943715ae9bc94390ce203bd036d1506c5b75d17b622965a32cd1
-source: Teaching Vacancies
-source_job_id: clerk-to-governors-st-andrew-s-church-of-england-voluntary-aided-primary-school-laverstock
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-st-andrew-s-church-of-england-voluntary-aided-primary-school-laverstock
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-diocese-of-salisbury-academy-trust) — Excluded senior/management title.
-- [Clerk to Governors](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-grove-learning-trust) — No usable numeric salary.
-- [HLTA Behaviour and Inclusion](https://teaching-vacancies.service.gov.uk/jobs/hlta-behaviour-and-inclusion-lawn-manor-academy) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-4c722adb-c7a9-4af5-b8d5-bf00527c02c0) — Insufficient admin/service evidence.
-- [Resourcing & Talent Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/resourcing-talent-development-assistant) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-william-morris-primary-school-swindon-wiltshire) — Excluded senior/management title.
+- [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-bulford-st-leonard-s-c-of-e-va-primary-school-salisbury-wiltshire) — Insufficient admin/service evidence.
+- [Day Care Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/day-care-admin-officer) — Insufficient admin/service evidence.
+- [Primary Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/primary-operations-manager-excalibur-academies-trust) — Excluded senior/management title.
 
 ## Safety boundary
 

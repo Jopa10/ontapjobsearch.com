@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-01
-review_fingerprint: a1fe366d58c59493aded94313144e9613bde8dab9bb9d8f8148e7e8877db534b
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 8bccdb7cd377e0d4ab74e05724138d670ea5645cf91f805ec7bd550952520ce0
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 7
-- POSS awaiting decision: 0
+- Selected: 4
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 10
 
@@ -23,112 +23,110 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Norfolk | Thetford, East of England, IP24 1EB | £18,352 - £19,561 actual pa | Administration Assistant
-employer: The Bishop's Church of England Primary Academy
-closing_date: 2026-11-05T00:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 73dab0ee3ef6a79b5942b10ac34000575d65f6426d24fe2d0d6283ab2a4f5a5f
-source: Teaching Vacancies
-source_job_id: administration-assistant-the-bishop-s-church-of-england-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-bishop-s-church-of-england-primary-academy
----
-
----
-action: 
-SELECTED | Norfolk | Downham Market, East of England, PE38 9LL | £27,275-£29,071 FTE £14.18- £15.11 per hour | Attendance Administrator
-employer: Downham Market Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 43dc1723442a6f33cfc81b6207a4c5a3bddb36797b6bd705f13da39413c01698
-source: Teaching Vacancies
-source_job_id: attendance-administrator-downham-market-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-downham-market-academy
----
-
----
-action: 
-SELECTED | Norfolk | Thetford, East of England, IP24 1EB | £6,475 - £6,901 actual pa | Attendance Officer
-employer: The Bishop's Church of England Primary Academy
-closing_date: 2026-11-05T00:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 214d207c9000b1addf365b545e2bdc2780b229519c3dc33a43935162685e6dcd
-source: Teaching Vacancies
-source_job_id: attendance-officer-the-bishop-s-church-of-england-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-bishop-s-church-of-england-primary-academy
----
-
----
-action: 
-SELECTED | Norfolk | King's Lynn, East of England, PE32 2NS | £20,512.00 - £22,254.00 Annually (Actual) | Exams Officer
-employer: Litcham School
-closing_date: 2026-11-09T09:00:00+00:00
+SELECTED | Norfolk | Thetford, East of England, IP26 4PE | £25,682.00 - £27,329.00 Annually (Actual) NJC 7-11 | Exams Officer
+employer: Iceni Secondary Academy
+closing_date: 2026-12-01T09:00:00+00:00
 reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4d2b88285863c2957f55f0cd83fd16948052f9d9e71e3ef13f7ca50b2c03d9f1
+factual_fingerprint: 5c940adeae89a9549bcacca71f57605d8e93c4bdf928e7ad646ff6082e78b0e7
 source: Teaching Vacancies
-source_job_id: exams-officer-litcham-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-litcham-school
+source_job_id: exams-officer-iceni-secondary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-iceni-secondary-academy
 ---
 
 ---
 action: 
-SELECTED | Norfolk | Dereham, East of England, NR19 2EU | £18,629.00 - £18,929.00 Annually (Actual) | Part time Receptionist/Administration Assistant
-employer: Northgate High School
-closing_date: 2026-11-03T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 58a06fb68513f995485840082dfc945b5c9dd292adefa1ba5b226d6374ec4038
-source: Teaching Vacancies
-source_job_id: part-time-receptionist-administration-assistant-northgate-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-administration-assistant-northgate-high-school
----
-
----
-action: 
-SELECTED | Norfolk | Attleborough, East of England, NR17 1RL | £28,028 - £30,470 actual pa | Personal Assistant to the Headteacher
-employer: Old Buckenham High School
-closing_date: 2026-11-09T00:00:00+00:00
-reason: Clear admin/service title: personal assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 892ce1979380155f9c52ab0a7d00406f9a1e6880366e433eb5228e5c3631cc1b
-source: Teaching Vacancies
-source_job_id: personal-assistant-to-the-headteacher-old-buckenham-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-old-buckenham-high-school
----
-
----
-action: 
-SELECTED | Norfolk | Norwich, East of England, NR5 0RR | £26,847.00 - £27,274.00 Annually (FTE) Scale D - Norfolk Support Staff pay scales | School Administrator
-employer: Costessey Primary School
-closing_date: 2026-11-13T12:00:00+00:00
+SELECTED | Norfolk | King's Lynn, East of England, PE30 4AY | Scale E, Point 8 – 11, £14.36 to £15.06 per hour approx. £23,727 to £24,893 per annum. (FTE £27,709 to £29,071 – please note the salary for this role will be pro rata) | Primary SEND Administrator
+employer: Gaywood Primary School
+closing_date: 2026-11-27T00:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 81bc1e7cfb0f57716a9d637dd017a179222da56425f8f88d6bf5de775ca0d56a
+factual_fingerprint: 7e25bdabf7732b58ebb78f94f7ee023a0e150b26538b32c18e4e4c4662ecf2c0
 source: Teaching Vacancies
-source_job_id: school-administrator-costessey-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-costessey-primary-school
+source_job_id: primary-send-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-send-administrator
+---
+
+---
+action: 
+SELECTED | Norfolk | Norwich, East of England, NR7 9DL | £7,154 - £7,267 actual pa | Receptionist
+employer: The Open Academy
+closing_date: 2026-11-27T00:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 467542be1e42be8590b832506051e79dfe6f6728b9a3cb07e6922473ab1dab3a
+source: Teaching Vacancies
+source_job_id: receptionist-the-open-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-open-academy
+---
+
+---
+action: 
+SELECTED | Norfolk | Norwich, East of England, NR14 6JX | £18,788.02 - £19,547.60 Annually (Actual) ALT Grade E Point 12-15 £27,060-£28,154 Annually, FTE | SEND Specialist Administrator
+employer: Loddon Junior School
+closing_date: 2026-11-23T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ee08de88883322c4a7a867cadfd3b661f062739768fdd29f7ba430ec41a5376a
+source: Teaching Vacancies
+source_job_id: send-specialist-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-specialist-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Norfolk | Great Yarmouth, East of England, NR30 4AE | Scale D5 - 6 (£26,428 - £26,847 pro rata) Actual Salary £19,878 - £20,193 per annum | Administrator with timetabling responsibilities
+employer: Bure Park Specialist Academy
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6b87ff9d670ab711b6a2ce0f2b0a38ac9f83cbb90fabadcef365e4cc86c04a9c
+source: Teaching Vacancies
+source_job_id: administrator-with-timetabling-responsibilities
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-timetabling-responsibilities
+---
+
+---
+action: 
+POSS | Norfolk | Great Yarmouth, East of England, NR30 4AE | Scale E7 - 11 (£27,274 - £29,071 pro rata) Actual Salary £22,092 - £23,548 per annum | EHCP Administrator
+employer: Bure Park Specialist Academy
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3d14f79cdd637cf7a72633e00bd701698edcdddda658dbe5e3efb803dfdd937b
+source: Teaching Vacancies
+source_job_id: ehcp-administrator-bure-park-specialist-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-bure-park-specialist-academy
+---
+
+---
+action: 
+POSS | Norfolk | Wymondham, East of England, NR18 9SZ | £21,329- £23,144 | HR Administrator
+employer: Wymondham College
+closing_date: 2027-01-17T00:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6b0b77349a5d5a5c97433b71a082bdd2c07616915dbb86673132bf6435945cbb
+source: Teaching Vacancies
+source_job_id: hr-administrator-wymondham-college-wymondham-norfolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymondham-college-wymondham-norfolk
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -136,15 +134,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-admirals-academy) — No usable numeric salary.
-- [Admissions and Marketing Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-coordinator-university-technical-college-norfolk) — Insufficient admin/service evidence.
-- [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk-norwich-norfolk) — Insufficient admin/service evidence.
-- [Attendance and Cover Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-cover-officer) — Insufficient admin/service evidence.
-- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
-- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-734b138f-20ba-4b95-9728-d762be624cd2) — Insufficient admin/service evidence.
-- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
-- [Student Administration & Customer Service Assistant Degree Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/student-administration-customer-service-assistant-degree-apprenticeship) — Insufficient admin/service evidence.
-- [Student Services Assistant](https://teaching-vacancies.service.gov.uk/jobs/student-services-assistant-east-norfolk-multi-academy-trust) — No usable numeric salary.
+- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-bure-valley-school) — Insufficient admin/service evidence.
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-824224c2-5ae7-482b-a4c3-25f64d69671f) — Insufficient admin/service evidence.
+- [Estates Compliance and Contracts Supervisor (East & South)](https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-and-contracts-supervisor-east-south) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-burston-community-primary-school-diss-norfolk) — Excluded senior/management title.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-3b7d300e-e3f4-42fe-968e-6e538254b2cd) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-caister-junior-school) — Excluded senior/management title.
+- [Secretary](https://teaching-vacancies.service.gov.uk/jobs/secretary-ba66d09b-86c1-44c3-b32c-07b2f7c540d1) — No usable numeric salary.
+- [Trust Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-capital-projects-manager-notre-dame-high-school-norwich) — Excluded senior/management title.
+- [Trust Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-capital-projects-manager-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Excluded senior/management title.
 
 ## Safety boundary

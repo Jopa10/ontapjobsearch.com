@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-01
-review_fingerprint: 253e14ebd60bc3f009b3fd30acfbe3c7fd46839887e74e9d4d5c110b68160bf8
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: c4c92b748ec81b105e514da7a0756798ea248ec538b09947a9cbfd14880d52b5
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,74 +13,74 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
-- POSS awaiting decision: 1
+- Records: 11
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 7
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Surrey | Epsom, South East, KT19 9SE | Specialist - £28,009 FTE (Actual - £16,733.32) | Attendance and Admissions Officer
-employer: Danetree Primary School
-closing_date: 2026-11-01T23:59:59+00:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 691ef51dcd433205dc96f3d8426dab2b2d760632ce0f728f508da1efbf0bfb84
-source: Teaching Vacancies
-source_job_id: attendance-and-admissions-officer-99fe5e07-7ceb-4f8e-990c-280021c94b74
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-99fe5e07-7ceb-4f8e-990c-280021c94b74
----
-
----
-action: 
-SELECTED | Surrey | Godalming, South East, GU7 1RS | £39,075.00 - £40,238.00 Annually (Actual) The salary for this role is based on Scale SS7 of the Godalming College Support Staff pay scale which is currently £39,075 – £40,238 per annum inclusive of fringe | Deputy Examinations Officer
-employer: Godalming College
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: examinations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1f56404cdfacfb19297173edf8a8e6defd4ee02207257e20385e99ebef0c8a81
-source: Teaching Vacancies
-source_job_id: deputy-examinations-officer-godalming-college-godalming-surrey
-source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-examinations-officer-godalming-college-godalming-surrey
----
-
----
-action: 
-SELECTED | Surrey | Leatherhead, South East, KT23 3PP | £25,940.00 - £28,220.00 Annually (FTE) P4 - £12337 - £13422pa (actual) | Safeguarding and SEND Administrative Assistant
-employer: Eastwick Infant School
-closing_date: 2026-11-01T23:59:00+00:00
+SELECTED | Surrey | Redhill, South East, RH1 3PU | Actual Salary: £21,293.13 | Administrative Assistant
+employer: Merstham Park School
+closing_date: 2026-11-29T23:59:59+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 52e6a1b91d2aee27329b9d2271a599dd824c9d67b4354503ffe4c1ae2cc02067
+factual_fingerprint: b9603fd8e9662bfeb666dc12eda5c1bfb2dbadf5b663565a9eaaf8e5e90fc905
 source: Teaching Vacancies
-source_job_id: safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey
-source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey
+source_job_id: administrative-assistant-merstham-park-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-merstham-park-school
+---
+
+---
+action: 
+SELECTED | Surrey | Horley, South East, RH6 8SU | Apprenticeship rates - £13,317.00 (£8ph for the first year, then dependent on age) | Apprentice Administrative Assistant and Receptionist
+employer: Westvale Park Primary Academy
+closing_date: 2026-11-24T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f71e1aa8c5e3c4df5e7cb1d21904920ea52677596a982cd51d26164c50b7c63b
+source: Teaching Vacancies
+source_job_id: administrative-assistant-and-receptionist-westvale-park-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-receptionist-westvale-park-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Surrey | Sunbury-on-Thames, South East, TW16 6LF | £24,570.00 - £26,730.00 Annually (Actual) P5 (FTE £28,700 to £31,224pa) | SEND Adminstrator
-employer: Sunbury Manor School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Administrative duties evidenced in description
+POSS | Surrey | Horley, South East, RH6 7JF | £33,367.00 - £36,257.00 Annually (FTE) Pro rata £2,392.11 - £2,599.30 | Clerk to Governors
+employer: Horley Infant School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Borderline school administration title: clerk to governors
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f241a6c1b7930d298bacae43f1e69441d63eaacbe1af868f713a812f501c4352
+factual_fingerprint: 70417516497bfeb2e31ebb86df5f02707f03b108289186c3cd5ebc29e4400eac
 source: Teaching Vacancies
-source_job_id: send-adminstrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator
+source_job_id: clerk-to-governors-73528dcf-b3d5-4459-ae85-9fc0cb25775c
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-73528dcf-b3d5-4459-ae85-9fc0cb25775c
+---
+
+---
+action: 
+POSS | Surrey | Godalming, South East, GU8 4DX | S3, scale points 20.1 – 23, depending on experience. FTE: £29,583 - £31,491; Actual: £24,628.23 - £26,216.66 | SEN Administrator
+employer: St Dominic's School
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a279019f9becd361c96d55015825c444373113cbb9274da09cdc783f48a01652
+source: Teaching Vacancies
+source_job_id: sen-administrator-1b1c73e5-4e8e-49ee-8b2a-4e536b9524c9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-1b1c73e5-4e8e-49ee-8b2a-4e536b9524c9
 ---
 
 ## EXCLUDED BY REVIEW
@@ -89,8 +89,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator
 
 ## HARD_PASS
 
-- [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-the-howard-partnership-trust) — Excluded senior/management title.
-- [HR Project Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-project-lead) — Excluded senior/management title.
+- [Annual Review Lead](https://teaching-vacancies.service.gov.uk/jobs/annual-review-lead) — Excluded senior/management title.
+- [Apprenticeships Review Officer](https://teaching-vacancies.service.gov.uk/jobs/apprenticeships-review-officer) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-grange-community-infant-school) — Excluded senior/management title.
+- [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-south-farnham-educational-trust) — Excluded senior/management title.
+- [Sustainability Officer](https://teaching-vacancies.service.gov.uk/jobs/sustainability-officer) — Insufficient admin/service evidence.
+- [Trust Leader Data and Insights](https://teaching-vacancies.service.gov.uk/jobs/trust-leader-data-and-insights) — Excluded senior/management title.
+- [Weekend Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/weekend-lettings-assistant-45375d5d-6f2d-419c-818e-6b822630e49f) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

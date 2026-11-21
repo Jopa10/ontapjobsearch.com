@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-01
-review_fingerprint: d64a86ec6f2c66487366c902baedcff86ba6ae1d80d115c3a9288c610844d08c
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: c89200b8b0a91d4a8cdf313d66ee69a315b59ac12757236bd04f3a98686adcab
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,89 +13,104 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 3
-- POSS awaiting decision: 2
+- Records: 11
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 5
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Hampshire | Portsmouth, South East, PO2 8RA | £26,427 - £27,274 per annum (actual salary for term time plus 3 weeks £24,343 - £25,123) | Administrator - The Harbour School
-employer: The Harbour School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1fdc5b734072970bae525f055364544b977e7e1bd25480bb2d584b38be5d6e1c
-source: Teaching Vacancies
-source_job_id: administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-harbour-school-the-harbour-school-portsmouth-hampshire
----
-
----
-action: 
-SELECTED | Hampshire | Ringwood, South East, BH24 1SE | £27,937.00 - £30,843.00 Annually (FTE) Salary will be pro rated to term time, plus one week of INSET days | Attendance Officer
-employer: Ringwood School Academy
-closing_date: 2026-11-06T09:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6679c66db82b0ccb78a450f10473602e54250b6ba2fe2533f5c33f62df9fb9d3
-source: Teaching Vacancies
-source_job_id: attendance-officer-66e679cb-65bb-4391-8ecd-a482bdaa6185
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-66e679cb-65bb-4391-8ecd-a482bdaa6185
----
-
----
-action: 
-SELECTED | Hampshire | Portsmouth, South East, PO5 4LS | Band 3 Pt 2-5 £12,296-£12,853 - Actual (£24,482-£25,583 FTE) pending pay award | Part Time Receptionist/Administrator
-employer: Ark Ayrton Primary Academy
-closing_date: 2026-11-05T00:00:00+00:00
+SELECTED | Hampshire | Southampton, South East, SO30 4EJ | £26,017.00 Annually (FTE) Grade C – Step 1 £26,017 FTE, Actual Annual Salary £7,091.12. | Evening Receptionist/Front of House
+employer: Wildern School
+closing_date: 2026-11-23T12:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b59065443bbaa5a1253fe6f53017ff2683dd92afe2f55775acdbd2fed9d162f9
+factual_fingerprint: 847af01cf855f18c8ac30bfd57e730e4ae29ed498e5536bcba6beb1c756d52aa
 source: Teaching Vacancies
-source_job_id: part-time-receptionist-administrator-ark-ayrton-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-administrator-ark-ayrton-primary-academy
+source_job_id: evening-receptionist-front-of-house
+source_url: https://teaching-vacancies.service.gov.uk/jobs/evening-receptionist-front-of-house
+---
+
+---
+action: 
+SELECTED | Hampshire | Southampton, South East, SO15 7QU | £26,824 – £28,902 (£29,741-£32,045) | Finance Assistant (term time only)
+employer: Upper Shirley High School
+closing_date: 2026-11-26T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3b0dbafaca1fc73d2a7033bc0e12a7613fcf4a8dc17e5c698f33aac76a335357
+source: Teaching Vacancies
+source_job_id: finance-assistant-term-time-only-upper-shirley-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-term-time-only-upper-shirley-high-school
+---
+
+---
+action: 
+SELECTED | Hampshire | Fareham, South East, PO16 8AH | £26,017.00 - £27,110.00 Annually (FTE) Actual Salary £18,092 - £18,853 per annum | Pastoral Administrator
+employer: Cams Hill School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6ccdc07365e87581f93a8d7a3eb1037911fe93d9e68dcb4691d6710c5e019c43
+source: Teaching Vacancies
+source_job_id: pastoral-administrator-cams-hill-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-cams-hill-school
+---
+
+---
+action: 
+SELECTED | Hampshire | Romsey, South East, SO51 8ZB | £14.87 Hourly Pay: £14.87 per hour (£24,538.47 Actual) | Receptionist
+employer: The Romsey School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6fb5c2a54b1f9c9cffe69e89600d96cecc07470fc3d68c3ab957c831290909af
+source: Teaching Vacancies
+source_job_id: receptionist-0843015e-4edd-4eed-82fa-deb742659791
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0843015e-4edd-4eed-82fa-deb742659791
+---
+
+---
+action: 
+SELECTED | Hampshire | Basingstoke, South East, RG22 6HA | £12,975.00 - £14,267.00 Annually (Actual) | Receptionist
+employer: The Blue Coat School Basingstoke
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 75220bd5ea55edefcb55a95c04f078c2a6b84f7762930cce409c62827462e4e5
+source: Teaching Vacancies
+source_job_id: receptionist-the-blue-coat-school-basingstoke
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-blue-coat-school-basingstoke
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Hampshire | Portsmouth, South East, PO1 1FG | £22,814.00 - £24,728.00 Annually (Actual) | Administrative Officer
+POSS | Hampshire | Portsmouth, South East, PO1 1FG | £23,567.00 - £25,544.00 Annually (Actual) | Administrative Officer
 employer: Arundel Court Primary Academy and Nursery
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+closing_date: 2026-11-28T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f1288050d008cfa0c1bac949fbfa80f3200bff82347a1e289da70e2d63996625
+factual_fingerprint: d3bb72ffb72d8a29c63f58a065cce5d5e2c7f30357b3cb4a6514f6a93b4430ad
 source: Teaching Vacancies
-source_job_id: administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
----
-
----
-action: 
-POSS | Hampshire | Portsmouth, South East, PO1 1RX | £26,033-£29,170 | SEN Administrator
-employer: St Edmund's Catholic School
-closing_date: 2026-11-02T15:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6243a6aabf6db67ddbf8988459fe85eb0177f5165ca2ae6240276a4e8665b4c4
-source: Teaching Vacancies
-source_job_id: sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
+source_job_id: administrative-officer-6f5b3994-a8dd-421a-bcd8-4822e0fb211d
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-6f5b3994-a8dd-421a-bcd8-4822e0fb211d
 ---
 
 ## EXCLUDED BY REVIEW
@@ -104,13 +119,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-st-
 
 ## HARD_PASS
 
-- [Access Arrangements Co-ordinator/Assessor](https://teaching-vacancies.service.gov.uk/jobs/access-arrangements-co-ordinator-assessor) — Insufficient admin/service evidence.
-- [Administration & Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-reception-assistant-cove-school-farnborough-hampshire) — No usable numeric salary.
-- [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-kanes-hill-primary-school) — Insufficient admin/service evidence.
-- [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — No usable numeric salary.
-- [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-the-romsey-school) — Insufficient admin/service evidence.
-- [Lead Receptionist](https://teaching-vacancies.service.gov.uk/jobs/lead-receptionist-ringwood-school-academy) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-college-park-junior) — Excluded senior/management title.
+- [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school-portsmouth-hampshire) — No usable numeric salary.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-haylands-primary-school) — Excluded senior/management title.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-inspire-learning-partnership) — Salary over £50k.
+- [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-hisp-multi-academy-trust-ltd) — Insufficient admin/service evidence.
+- [Support Officer - Cover & Examinations](https://teaching-vacancies.service.gov.uk/jobs/support-officer-cover-examinations) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

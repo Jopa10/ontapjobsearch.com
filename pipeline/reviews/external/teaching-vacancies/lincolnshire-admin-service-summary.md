@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-01
-review_fingerprint: 256cfb54537af60e6047be4b433dae125b395feff284d69d1f49521aac58f0ef
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 6a66b155a54d74b645c46e07e179dda1e84d1d1e8694374c0dfb03e6a6391c6d
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,151 +14,134 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 9
-- POSS awaiting decision: 0
+- Selected: 6
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £26,016.00 - £26,016.00 Annually (FTE) NJC 4: £26,016 - pro rata £13,896.42 per annum | Academy Administrator
-employer: Thomas Middlecott Academy
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: administrator
+SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 1TX | £22,377.00 - £22,731.00 Annually (Actual) OAT Grade 2, Scale Point 4 - 5 | Administration Assistant
+employer: Ormiston South Parade Academy
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5d6faf98c302e5ae1174342fd014367e737902c198263a390e597217cbf5e708
+factual_fingerprint: caf6acbd481f59a78028ba6b4e14dd32c3cd9cd3bf751a7c17b45bcda0662d8e
 source: Teaching Vacancies
-source_job_id: academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
+source_job_id: administration-assistant-ormiston-south-parade-academy-grimsby
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-ormiston-south-parade-academy-grimsby
 ---
 
 ---
 action: 
-SELECTED | Lincolnshire | Lincoln, East Midlands, LN2 3JB | Salary: £21,904.90 - £23,088.42 (FTE WFS Grade 3 – £25,614 - £26,847) | Admin Assistant
-employer: William Farr CofE Comprehensive School
-closing_date: 2026-11-16T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d16f5b641c32b7697189960379b23aea58f9d9e0eaf79cb1c678804a1e55ad30
-source: Teaching Vacancies
-source_job_id: admin-assistant-william-farr-cofe-comprehensive-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-william-farr-cofe-comprehensive-school
----
-
----
-action: 
-SELECTED | Lincolnshire | Sleaford, East Midlands, NG34 7AT | £11,046.00 - £11,396.00 Annually (Actual) | Administrative Assistant - band 2
-employer: Our Lady of Good Counsel Catholic Primary School, A Voluntary Academy
-closing_date: 2026-11-02T09:00:00+00:00
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 7SX | £21,196.00 - £21,869.00 Annually (Actual) Band 2, SCP 3 - 5 | Administrative Assistant
+employer: St Peter and St Paul, Catholic Voluntary Academy
+closing_date: 2026-11-23T23:59:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 243b1348bdb8dc67e8b860b3239e7802a6b0e5c8a89b627cb198b29686f5fac7
+factual_fingerprint: 139322b53b3666ab6da11b111290100c1d6322853badd11b20ead3db87373529
 source: Teaching Vacancies
-source_job_id: administrative-assistant-band-2-96d0a457-1878-4579-bc10-d33c9990b986
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-band-2-96d0a457-1878-4579-bc10-d33c9990b986
+source_job_id: administrative-assistant-st-peter-and-st-paul-catholic-voluntary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-peter-and-st-paul-catholic-voluntary-academy
 ---
 
 ---
 action: 
-SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN36 4RZ | £30,213.00 - £33,610.00 Annually (FTE) Actual Salary: £25,832.12 (LGAT 10) - £28,736.55 (LGAT 14) | Attendance Officer
-employer: Waltham Toll Bar Academy
-closing_date: 2026-11-13T12:00:00+00:00
-reason: Clear admin/service title: attendance officer
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN3 4JP | PPS4 £26,016 per annum, pro rata to £19,621 | Administrative Assistant
+employer: The Priory Pembroke Academy
+closing_date: 2026-11-23T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4398f732ce5ba7829b10e197504a00594e5fb3a5533f92dd8892ce2f0b5d43df
+factual_fingerprint: 064824734fa02f0c1702a31d6f4dd594edb3f198d71c4ba0db0cec66003cf29a
 source: Teaching Vacancies
-source_job_id: attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-waltham-toll-bar-academy-grimsby-lincolnshire
+source_job_id: administrative-assistant-the-priory-pembroke-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-priory-pembroke-academy
 ---
 
 ---
 action: 
-SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN41 7RS | £29,542.00 - £32,046.00 Annually (FTE) Actual salary £26,028 - £28,234 | Office Operations/Administrator
-employer: Healing Primary Academy
-closing_date: 2026-11-10T23:59:00+00:00
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN3 4JP | PPS6 £26,847 per annum, pro rata to £23,052 per annum | Administrator
+employer: The Priory Pembroke Academy
+closing_date: 2026-11-29T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: dd0136208b262703d5af5ba2209a4349753f5b3e7f27203a77ecadec10209285
+factual_fingerprint: 9baf217d6595d3283ec26352ad1c689ba279a677d27d51da19258dbe45f95d1e
 source: Teaching Vacancies
-source_job_id: office-operations-administrator-healing-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-operations-administrator-healing-primary-academy
+source_job_id: administrator-the-priory-pembroke-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-priory-pembroke-academy
 ---
 
 ---
 action: 
 SELECTED | Lincolnshire | Lincoln, East Midlands, LN4 4PN | £30,023.00 - £30,023.00 Annually (Actual) NJC13 : £27,723.95pa pro rata | Personal Assistant
 employer: The Barnes Wallis Academy
-closing_date: 2026-11-08T23:59:00+00:00
+closing_date: 2026-11-27T23:59:00+00:00
 reason: Clear admin/service title: personal assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ef1466679579971ee15f4e3246f1a0b4ba10cf8bd469e72c125960ccbcdd846a
+factual_fingerprint: 599f97cd2271cd9b98cf4401c7cb07ebd223e62377c337750b6b3f3bf953e3ed
 source: Teaching Vacancies
-source_job_id: personal-assistant-the-barnes-wallis-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-the-barnes-wallis-academy
+source_job_id: personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
 ---
 
 ---
 action: 
-SELECTED | Lincolnshire | Spalding, East Midlands, PE12 9LF | Salary: Grade 3 Point 6 £25,614 FTE Actual Salary: £21,968 | Pupil Receptionist/Administrator
-employer: University Academy Long Sutton
-closing_date: 2026-11-06T12:00:00+00:00
+SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN34 5BY | £25,626.00 - £25,626.00 Annually (FTE) As the role is part time, term time only, the actual salary is £13,386.60 per annum | Receptionist & Welcome Ambassador
+employer: Franklin Sixth Form College
+closing_date: 2026-12-03T12:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 081379c8381ecf2938665d49eefee16b0e31771f2ea630a772ed24b834f5f63a
+factual_fingerprint: 0a1cc6d650a4139fb9bab86f43a2aacc901d7dd606fb928e63da41c6100ec14e
 source: Teaching Vacancies
-source_job_id: pupil-receptionist-administrator-d44ce344-7740-41cd-9180-1240273f0189
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-receptionist-administrator-d44ce344-7740-41cd-9180-1240273f0189
----
-
----
-action: 
-SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 9AF | Grade 3 £23,490 - £24620 | Receptionist
-employer: Sir Robert Pattinson Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0c8ea0631a409a88a3c1a778698ef7570935cbdfef5289842cd9333eb9ed4e51
-source: Teaching Vacancies
-source_job_id: receptionist-sir-robert-pattinson-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sir-robert-pattinson-academy
----
-
----
-action: 
-SELECTED | Lincolnshire | Stamford, East Midlands, PE9 1HE | £19,129.00 - £25,372.00 Annually (Actual) | SEND Administrator
-employer: Stamford Welland Academy
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e6f58bfa4e977961443206431f80d9230be15ec908ca8f86482e542d2ea8af5b
-source: Teaching Vacancies
-source_job_id: send-administrator-stamford-welland-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-stamford-welland-academy
+source_job_id: receptionist-welcome-ambassador
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-welcome-ambassador
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Lincolnshire | Spalding, PE12 7PU | £33,673.00 - £36,571.00 Annually (FTE) | Governance Professional & Trust Administration
+employer: University Of Lincoln Academy Trust
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ffd8e8b732f8da69d0ff863975ad98c7dd9de395097e06147cea503270964268
+source: Teaching Vacancies
+source_job_id: governance-professional-trust-administration-30854185-0942-4718-8d96-39eba204d5e2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-trust-administration-30854185-0942-4718-8d96-39eba204d5e2
+---
+
+---
+action: 
+POSS | Lincolnshire | Lincoln, East Midlands, LN5 0PA | £22,003.00 - £23,063.00 Annually (Actual) NJC 3 - 6 | SEND Administration Assistant
+employer: Sir William Robertson Academy, Welbourn
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6bf1f93d3e0dd4364a7fc908df87f5b7c44a46d64e7642a49b3c5a71cc12035c
+source: Teaching Vacancies
+source_job_id: send-administration-assistant-sir-william-robertson-academy-welbourn
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-sir-william-robertson-academy-welbourn
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -166,12 +149,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 
 ## HARD_PASS
 
-- [Data Analyst](https://teaching-vacancies.service.gov.uk/jobs/data-analyst-franklin-sixth-form-college) — Insufficient admin/service evidence.
-- [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
-- [Health, Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/health-safety-and-compliance-officer-voyage-education-partnership) — Insufficient admin/service evidence.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-harbour-learning-trust) — Insufficient admin/service evidence.
-- [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-de-aston-school) — Insufficient admin/service evidence.
-- [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-the-gainsborough-parish-church-primary-school) — Excluded senior/management title.
+- [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-franklin-sixth-form-college) — Excluded senior/management title.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-e6664367-3eb0-42c0-9724-283bf6ac70a0) — Excluded senior/management title.
+- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership-boston-not-recorded) — Insufficient admin/service evidence.
+- [Pastoral Administrator](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
+- [School Business Manager (CFO)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cfo) — Excluded senior/management title.
+- [SEND Admin](https://teaching-vacancies.service.gov.uk/jobs/send-admin-sir-robert-pattinson-academy) — No usable numeric salary.
+- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-thomas-middlecott-academy-boston-lincolnshire) — Excluded senior/management title.
 
 ## Safety boundary
 

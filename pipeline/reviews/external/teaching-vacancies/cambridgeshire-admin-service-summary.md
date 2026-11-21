@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-01
-review_fingerprint: 352b4a2a671d42d14bcbe80f5df9ba3b321aaea086d7a468a27bba1caa9cd280
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 2a1d1c52505468ed37f868eca8d1ebed020868f73fe7eaf6e6ad08baa6a7b390
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,224 +13,119 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 13
-- POSS awaiting decision: 1
+- Records: 18
+- Selected: 4
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 11
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB23 7RE | £11,977.00 Annually (Actual) | Administration Assistant
-employer: Hardwick and Cambourne Community Primary School
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Clear admin/service title: administration assistant
+SELECTED | Cambridgeshire | Cambridge, East of England, CB25 9DL | NJC Cambridgeshire Scale 5 Point 12-17 (£29,542 to £32,046 FTE per annum) | PA to the Principal
+employer: Bottisham Village College
+closing_date: 2026-11-26T23:59:00+00:00
+reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 254c295a8e854dfc9bf5b8495c6c80a86cf361513434d550b3cd3396593a8b4b
+factual_fingerprint: dd7fcb042384d93fc3c14bd38d2ccd8e8d6c24dbc4c8319fa765c93d4a9a2b0c
 source: Teaching Vacancies
-source_job_id: administration-assistant-hardwick-and-cambourne-community-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hardwick-and-cambourne-community-primary-school
+source_job_id: pa-to-the-principal-bottisham-village-college-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-bottisham-village-college-cambridge-cambridgeshire
 ---
 
 ---
 action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB4 2JF | £6,965.00 Annually (Actual) Pro Rata | Administrative Assistant (International and Community Projects)
-employer: North Cambridge Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £36,581.00 Annually (Actual) | Personal Assistant to the Deputy Headteachers
+employer: Arthur Mellows Village College
+closing_date: 2026-11-26T12:00:00+00:00
+reason: Clear admin/service title: personal assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 97dc755dbfa63b675e2cccb24ea666aa54e408cb1d84da4fc1eb4b6ae866b417
+factual_fingerprint: 745465f014dff020a122c7cd0005dec0a01cc7beb7f4d695f6b967750be17057
 source: Teaching Vacancies
-source_job_id: administrative-assistant-international-and-community-projects-north-cambridge-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-international-and-community-projects-north-cambridge-academy
+source_job_id: personal-assistant-to-the-deputy-headteachers
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-deputy-headteachers
 ---
 
 ---
 action: 
-SELECTED | Cambridgeshire | Peterborough, PE3 6SB | £25,000.00 - £30,000.00 Annually (FTE) | Admissions Administrator
-employer: United Learning Trust
-closing_date: 2026-11-05T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 487590fc46ed15e0edcd739ef79c38a9f5f072805143f6bc57968ebd91ae0c71
-source: Teaching Vacancies
-source_job_id: admissions-administrator-united-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-administrator-united-learning-trust
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE3 9PY | £23,355.00 - £25,296.00 Annually (Actual) | Attendance Officer
-employer: Jack Hunt Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 10d03f265fe2ef5a36f12928a6024cb0cb501a7ecfc8d58e5d63cccee84f95ee
-source: Teaching Vacancies
-source_job_id: attendance-officer-jack-hunt-academy-peterborough-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-jack-hunt-academy-peterborough-cambridgeshire
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE1 4DZ | £13,714.00 - £13,714.00 Annually (Actual) Salary increases to national minimum wage in the second year | Business Administrator Apprentice
-employer: Greater Peterborough UTC
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cef3589294fa8142fa442beef11ef0bbbfa15ad2171a52c7aaf2aa6366dd8f8f
-source: Teaching Vacancies
-source_job_id: business-administrator-apprentice-greater-peterborough-utc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-apprentice-greater-peterborough-utc
----
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB2 0SZ | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
-employer: Cambridge Academy for Science and Technology
-closing_date: 2026-11-02T09:00:00+00:00
+SELECTED | Cambridgeshire | Cambridge, East of England, CB24 1DJ | £8,918.00 - £8,918.00 Annually (Actual) Meridian Trust Support Staff Table: Grade 4, Point 3 | Receptionist (part-time) - Northstowe Secondary College
+employer: Northstowe Learning Community
+closing_date: 2026-11-25T08:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 73199926fa46d27d50b4ea3d69520e4395ba2dfadf58a40282d15bdfd87aa060
+factual_fingerprint: b73637f2b10cb6a5890664983f97d7d2aeec632365650c4c6201bf69eb874332
 source: Teaching Vacancies
-source_job_id: finance-officer-cambridge-academy-for-science-and-technology-cambridge-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-cambridge-academy-for-science-and-technology-cambridge-cambridgeshire
+source_job_id: receptionist-part-time-northstowe-secondary-college-northstowe-learning-community
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-northstowe-secondary-college-northstowe-learning-community
 ---
 
 ---
 action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB1 3RJ | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
-employer: Coleridge Community College
-closing_date: 2026-11-02T09:00:00+00:00
+SELECTED | Cambridgeshire | Cambridge, East of England, CB2 9FS | £26,427.00 - £26,847.00 Annually (FTE) | Receptionist/Administrator
+employer: Fawcett Primary School
+closing_date: 2026-11-30T23:59:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 93cf85f94577aed7eb697d42b5ab417c993a1466c6791cddd1f95af3d1d40b48
+factual_fingerprint: 7c532c62c1f01216864d48e397301713f5a2ed20e864955578472e09aeaf7b95
 source: Teaching Vacancies
-source_job_id: finance-officer-coleridge-community-college-cambridge-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-coleridge-community-college-cambridge-cambridgeshire
----
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB1 1EH | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
-employer: Parkside Community College
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f1b47b9cb9695cb8bab846987a8e180737ca65073f51b52faaf993e7d37ffd95
-source: Teaching Vacancies
-source_job_id: finance-officer-parkside-community-college-cambridge-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-parkside-community-college-cambridge-cambridgeshire
----
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB5 8ND | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
-employer: The Galfrid School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 213189f79063b94dcec47df9cfb7add3f9a0901d81c7d0d980ca7fb9f6fdc2e8
-source: Teaching Vacancies
-source_job_id: finance-officer-the-galfrid-school-cambridge-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-galfrid-school-cambridge-cambridgeshire
----
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB2 9FD | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
-employer: Trumpington Community College
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d116982fa548e4887d2d423a1243f1a48171dafac734b6de166b7ffb66239c91
-source: Teaching Vacancies
-source_job_id: finance-officer-trumpington-community-college-cambridge-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trumpington-community-college-cambridge-cambridgeshire
----
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB23 7DU | £25,185.00 - £25,583.00 Annually (FTE) NJC Scale 2, Points 5 to 6. Actual salary £21,600.98 per annum (based on 37 hrs per week) on point 12 (pay award pending). | Receptionist
-employer: Comberton Village College
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 86ff71720431237a5097f920240e9efc5bbb73d4d4426966af2f795053997d71
-source: Teaching Vacancies
-source_job_id: receptionist-comberton-village-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-comberton-village-college
----
-
----
-action: 
-SELECTED | Cambridgeshire | Ely, East of England, CB6 2PU | £26,016.00 Annually (FTE) | School Office Assistant
-employer: Sutton CofE VC Primary School
-closing_date: 2026-11-02T12:00:00+00:00
-reason: Clear admin/service title: office assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b2dc787ecc1a7cece0eedb208610a68e99ff51638c94dc800e47ecacff5bed37
-source: Teaching Vacancies
-source_job_id: school-office-assistant-sutton-cofe-vc-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-assistant-sutton-cofe-vc-primary-school
----
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB24 9LX | £27,275 - £29,071 FTE | Sixth Form Administrator/Exams
-employer: Impington Village College
-closing_date: 2026-11-02T08:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f7a671777dfe2572fcc20ace157e9bdff66748d092b10b3919167ca8464465cc
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-exams
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-exams
+source_job_id: receptionist-administrator-fawcett-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-fawcett-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Cambridgeshire | Cambridge, East of England, CB4 2QT | £25,823-£27,152 per annum | HR Administrator
-employer: Cambridge Regional College
-closing_date: 2026-11-01T23:59:00+00:00
+POSS | Cambridgeshire | Cambridge, East of England, CB23 7RE | £11,977.00 Annually (Actual) | Administration Assistant
+employer: Hardwick and Cambourne Community Primary School
+closing_date: 2026-12-31T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 11933a3386d7de7e0fa291996da15ed1e00cf204c3e49099f83ef2a90135e5ea
+factual_fingerprint: 5f1916996ecd3ce48d1fe6fde5980ab31538a2536c2d6caf5ce5d7ec9bef7f0c
 source: Teaching Vacancies
-source_job_id: hr-administrator-cambridge-regional-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-cambridge-regional-college
+source_job_id: administration-assistant-hardwick-and-cambourne-community-primary-school-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hardwick-and-cambourne-community-primary-school-cambridge-cambridgeshire
+---
+
+---
+action: 
+POSS | Cambridgeshire | Huntingdon, PE28 5TQ | £29,176.57 - £32,226.45 Annually (Actual) | Legal Support Officer
+employer: Meridian Trust
+closing_date: 2026-12-01T08:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ad5ceae0306ed038205d13df8eb14547543cfbda732cbb491608d9dd6924eb2b
+source: Teaching Vacancies
+source_job_id: legal-support-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/legal-support-officer
+---
+
+---
+action: 
+POSS | Cambridgeshire | Huntingdon, East of England, PE26 2NJ | Point 3 (£25,614 FTE) | Office Administrator
+employer: Bury CofE Primary School
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7967fd57d291ff2817006dc3ac03592e852fb7bd9aae7be46ae55c6e40669f53
+source: Teaching Vacancies
+source_job_id: office-administrator-cbd6c43f-57ab-4772-adb4-47b38750d543
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cbd6c43f-57ab-4772-adb4-47b38750d543
 ---
 
 ## EXCLUDED BY REVIEW
@@ -239,15 +134,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-camb
 
 ## HARD_PASS
 
-- [Administration Assistant & Play Worker](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-play-worker) — No usable numeric salary.
-- [Cleaner](https://teaching-vacancies.service.gov.uk/jobs/cleaner-34934dbc-6989-4466-8253-34da9a9f27cb) — Out-of-scope occupation: cleaner.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-swavesey-village-college) — Excluded senior/management title.
-- [Inclusion and Attendance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-and-attendance-coordinator) — No usable numeric salary.
-- [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-st-luke-s-cofe-primary-school-cambridge-cambridgeshire) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-91d02456-2d21-4a21-9e38-0ce49abf0a82) — Excluded senior/management title.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-werrington-primary-school) — Excluded senior/management title.
-- [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Excluded senior/management title.
-- [School Receptionist & Finance Assistant (Temporary)](https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-finance-assistant-temporary) — No usable numeric salary.
+- [Alternative Provision Coordinator](https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-coordinator-ormiston-bushfield-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.
+- [Business Services Support Officer](https://teaching-vacancies.service.gov.uk/jobs/business-services-support-officer-the-active-learning-trust-limited) — Insufficient admin/service evidence.
+- [Corporate Administrator](https://teaching-vacancies.service.gov.uk/jobs/corporate-administrator) — No usable numeric salary.
+- [Governance & Assurance Lead](https://teaching-vacancies.service.gov.uk/jobs/governance-assurance-lead) — Excluded senior/management title.
+- [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-grace-schools) — Insufficient admin/service evidence.
+- [Internal Scrutiny Officer](https://teaching-vacancies.service.gov.uk/jobs/internal-scrutiny-officer) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bottisham-village-college) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambourne-village-college) — Excluded senior/management title.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-2caf4b0b-10ec-4bc7-9232-16c27b370a5f) — Excluded senior/management title.
+- [Personal Assistant to Headteacher and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-and-senior-leadership-team-st-john-fisher-catholic-high-school) — Excluded senior/management title.
+- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-80df4620-91d1-4dc5-b093-4937c078bedb) — Salary over £50k.
 
 ## Safety boundary
 

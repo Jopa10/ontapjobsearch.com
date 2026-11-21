@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-11-01
-review_fingerprint: de679ca16b41361ad7ee28b167ae28178de1e0af16a543d9ce33458d116d7ed4
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 403fb192663315c63a9dafe0f391664573f8ee331e265cd03f6f2573c89b834e
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,31 +13,74 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 0
-- POSS awaiting decision: 1
+- Records: 7
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 3
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE1 7RJ | The salary banding for this post will be 7 - 10 which ranges from £25,951 to £27,733 per annum. The pro rata starting salary for this post will be £24,264. | Administration Assistant (Curriculum & Progression)
+employer: WQE and Regent College Group
+closing_date: 2026-11-26T15:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9821a21a572acbe64e49ad1c9dc2da469758a5ad6897412ca2c5982f4fda0470
+source: Teaching Vacancies
+source_job_id: administration-assistant-curriculum-progression
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-curriculum-progression
+---
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE9 7PD | £17,891.00 - £17,891.00 Annually (Actual) | Receptionist/Administrator
+employer: Heath Lane Academy
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ecafbd3d981b1690f3c463fad792d6f7900e54930e4b4078ce03e224aa326ebf
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-heath-lane-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-heath-lane-academy
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Leicestershire | Leicester, LE4 1EZ | £36,621.00 - £40,458.00 Annually (FTE) Approximate Starting Salary of £22,269.52 | Finance Business Partner
-employer: Discovery Schools Academies Trust Ltd
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Part-time finance requires actual earnings/hours and qualification checks
-jobg8_check: NO_MATCH
+POSS | Leicestershire | Loughborough, East Midlands, LE12 9DB | £22,118.00 - £22,470.00 Annually (Actual) | Administration Assistant
+employer: Iveshead School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 420a5947d5f592837eeda94ad913ef3b96c16ca5b717c5cbadee7e81193ddaf4
+factual_fingerprint: 0f7b25d965d3dfe1b703678113a684080872d2ffd17f13a86803658f690b68e8
 source: Teaching Vacancies
-source_job_id: finance-business-partner-discovery-schools-academies-trust-ltd
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-discovery-schools-academies-trust-ltd
+source_job_id: administration-assistant-iveshead-school-loughborough-leicestershire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-iveshead-school-loughborough-leicestershire
+---
+
+---
+action: 
+POSS | Leicestershire | Leicester, East Midlands, LE3 1PF | £15,019.00 - £15,255.00 Annually (Actual) GAT 3, 25 hours per week, 39 weeks per year. | Administration Assistant
+employer: Queensmead Primary Academy
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 403b786e8196a1e54ca1ec0101a8aa8a240153958f40125984615a7373500def
+source: Teaching Vacancies
+source_job_id: administration-assistant-queensmead-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-queensmead-primary-academy
 ---
 
 ## EXCLUDED BY REVIEW
@@ -46,13 +89,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-business-part
 
 ## HARD_PASS
 
+- [Admin Assistant & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-office-manager) — Excluded senior/management title.
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-english-martyrs-catholic-school-a-voluntary-academy) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Excluded senior/management title.
-- [Junior People Business Partner](https://teaching-vacancies.service.gov.uk/jobs/junior-people-business-partner) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-thorpe-acre-junior-school) — Excluded senior/management title.
-- [Office Manager (BAD31BC)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bad31bc) — Excluded senior/management title.
-- [PA to Principal & Deputy Central Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-deputy-central-administration-manager) — Excluded senior/management title.
-- [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-discovery-schools-academies-trust-ltd-leicester-not-recorded) — Insufficient admin/service evidence.
-- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-desford-community-primary-school) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-01
-review_fingerprint: ac560b748826f76e73ae8557cc276ca897b7f8e3e1a9feebb520bf62b54856e3
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 8a4c66f80d2892aeca7e9accf05c32d8f6c97c92cd01ec496bba13d56b623329
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,74 +13,59 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 6
 - Selected: 2
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO31 7PB | £25,989 - £28,142 (actual salary: £23,606 - £25,562) | Business Support Officer
-employer: St Wilfrid's Catholic Primary School - a Catholic Voluntary Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: business support officer
+SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
+employer: Braeburn Primary and Nursery Academy
+closing_date: 2026-12-02T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4cf7005ccde121431a2518f9ccd25f3a8a92b1d6a2b855c8b18e694fff0946db
+factual_fingerprint: 67c4feee9aa0b51d98138c244b3ae499c096e8dc3619274fa79462af2ce07822
 source: Teaching Vacancies
-source_job_id: business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy
+source_job_id: receptionist-administrator-59e3d5e7-ef73-4d9a-828b-dc3548b32d35
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-59e3d5e7-ef73-4d9a-828b-dc3548b32d35
 ---
 
 ---
 action: 
-SELECTED | Yorkshire - North | Harrogate, Yorkshire and the Humber, HG2 8PT | £18,978.00 - £20,228.00 Annually (Actual) NJC Grade B3, Scale Points 7-11, £27,274 - £29,070 per annum | Data Administrator
-employer: St John Fisher Catholic Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator, data administrator
+SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO24 4PS | £25,614.00 - £26,427.00 Annually (FTE) | SEN Administrator
+employer: Hob Moor Community Primary Academy
+closing_date: 2026-11-27T12:00:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2a882b72bd16bcd14c70c9f77f2c1d8e100b8f2ee3f3db79113c3398c3cba32a
+factual_fingerprint: 9b9df6a8bfedafb7ffbe50e130ed1cc5d327643eda2f1a019ec2b2e6169c251b
 source: Teaching Vacancies
-source_job_id: data-administrator-st-john-fisher-catholic-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-st-john-fisher-catholic-academy
+source_job_id: sen-administrator-hob-moor-community-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-hob-moor-community-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Yorkshire - North | York, Yorkshire and the Humber, YO32 4BZ | Grade 4, Level 1-4 (£25,948 to £27,188 p.a.) reduced pro rata to £22,280 to £23,345 (calculated on full time hours) | Administration Officer
-employer: Joseph Rowntree School
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+POSS | Yorkshire - North | York, YO10 5ZA | Grade 5 Levels 1 - 4 (£27,631 - £28,857 FTE) | Finance Assistant
+employer: Pathfinder Multi Academy Trust
+closing_date: 2026-11-30T08:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7a67fa81f7495124b0cf16cab987100c9bb93753d65ef71ea9140859d3756b11
+factual_fingerprint: 676112bb7f78ee2b8e2c791f0ed90af64fd2d491b24429b0dc947e93772addc0
 source: Teaching Vacancies
-source_job_id: administration-officer-dc55f46b-8083-476b-9b89-86e66dc7015f
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-dc55f46b-8083-476b-9b89-86e66dc7015f
----
-
----
-action: 
-POSS | Yorkshire - North | York, YO24 2RU | £19,740.94 - £20,616.86 Annually (Actual) Grade 5, Level 1-4 (£27,631 to £28,857 FTE) | Trust Data Officer
-employer: Excel Learning Trust
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5abd1540cbe9e1523cba159ac694b2a7d4d00f928f4cea54f15d1ad65fd2ab56
-source: Teaching Vacancies
-source_job_id: trust-data-officer-excel-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-officer-excel-learning-trust
+source_job_id: finance-assistant-pathfinder-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pathfinder-multi-academy-trust
 ---
 
 ## EXCLUDED BY REVIEW
@@ -89,11 +74,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-officer-ex
 
 ## HARD_PASS
 
-- [Exams Officer & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-manager-nidderdale-high-school) — Excluded senior/management title.
-- [Hub Business Leader (Craven Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-craven-hub) — Excluded senior/management title.
-- [Multi-Site School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/multi-site-school-business-manager) — Excluded senior/management title.
-- [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.
-- [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-8f1f1bf1-a960-4df0-918e-4da22ed5aa63) — Insufficient admin/service evidence.
+- [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-outwood-academy-easingwold) — No usable numeric salary.
+- [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-4cb2fc12-063c-4983-8b85-55032fc1e76b) — Insufficient admin/service evidence.
+- [School Business Officer](https://teaching-vacancies.service.gov.uk/jobs/school-business-officer-harrogate-high-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

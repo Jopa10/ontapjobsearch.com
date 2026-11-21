@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-01
-review_fingerprint: 473ec9bfd343d1663068f95f383715bb1a70884c1279985906aede8593e4ea16
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 7ae0e3ec42d9b33fb238f5fb392b1f5ef94c1d48cf84b18d17e5d690d467b1c9
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,72 +15,57 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 11
 - Selected: 1
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Derbyshire | Derby, East Midlands, DE3 9LL | £17,198.00 - £17,466.00 Annually (Actual) NJC 7-8 | Admin Assistant (Student Services & Reception Support)
-employer: Murray Park Community School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
+SELECTED | Derbyshire | Derby, East Midlands, DE24 0BR | SCP 15 - SCP20 FTE £31,025 - £33,673 (Actual £26,875.15 - £29,178.36) | PA to Headteacher
+employer: Noel-Baker Academy
+closing_date: 2026-11-29T23:00:00+00:00
+reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c68185b03a6c1f436f65074c67abbe7083beebf9b20406398b8f6fbe1dce9afd
+factual_fingerprint: b0a36582603f8740fb99da043f4d072b792f37afea7e80703c31db0314d27cef
 source: Teaching Vacancies
-source_job_id: admin-assistant-student-services-reception-support-murray-park-community-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-student-services-reception-support-murray-park-community-school
+source_job_id: pa-to-headteacher-noel-baker-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-noel-baker-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Derbyshire | Derby, DE22 1GB | £18,000.00 Annually (Actual) | Business Administration Apprentice Level 3
-employer: Embark Multi Academy Trust
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8496090449e3db74532680f9c367ebc1685b64bedcad4f728f829213474b291b
-source: Teaching Vacancies
-source_job_id: business-administration-apprentice-level-3-embark-multi-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-embark-multi-academy-trust
----
-
----
-action: 
-POSS | Derbyshire | Hope Valley, East Midlands, S33 6SD | £26,427.00 - £26,847.00 Annually (FTE) Actual Salary £13,823 to £14,043 | Receptionist
-employer: Hope Valley College
-closing_date: 2026-11-02T23:59:00+00:00
+POSS | Derbyshire | Derby, DE1 3TQ | £26,847.00 - £28,153.00 Annually (Actual) Band 3, SCP 6 - 9 | Finance Assistant
+employer: St Ralph Sherwin Catholic Multi Academy Trust
+closing_date: 2026-11-21T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0b9dc42575d55b4684ea471c8f42737569921775f9483dec51bf7c71642c322f
+factual_fingerprint: 033e0a0ff21cfaa20901ec683cac5d79bc194dc0ff1c29bc4938f21529c6791b
 source: Teaching Vacancies
-source_job_id: receptionist-d23e1267-9b18-4deb-8377-a4ade5fb90cf
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-d23e1267-9b18-4deb-8377-a4ade5fb90cf
+source_job_id: finance-assistant-st-ralph-sherwin-catholic-multi-academy-trust-derby-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-ralph-sherwin-catholic-multi-academy-trust-derby-not-recorded
 ---
 
 ---
 action: 
-POSS | Derbyshire | Bakewell, East Midlands, DE45 1JA | £26,016.00 - £26,427.00 Annually (FTE) Actual Salary £14,306 to £14,532 per annum | School Business Assistant
-employer: Lady Manners School
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+POSS | Derbyshire | Hope Valley, East Midlands, S33 6SD | £26,427.00 - £26,847.00 Annually (FTE) Actual Salary £13,823 - £14,043 | Receptionist
+employer: Hope Valley College
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0efd3ddf6d37a47422e5ebf81b85c34e02245704062d7b4b39e1a062f5ddc443
+factual_fingerprint: e9d8090fb8aefae1cd6443865e18246a2cb57683d84eeb2fc407d525434cae17
 source: Teaching Vacancies
-source_job_id: school-business-assistant-lady-manners-school-bakewell-derbyshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-lady-manners-school-bakewell-derbyshire
+source_job_id: receptionist-47c1efc2-2f4c-4f78-b74d-250c1f8dce9e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-47c1efc2-2f4c-4f78-b74d-250c1f8dce9e
 ---
 
 ## EXCLUDED BY REVIEW
@@ -89,13 +74,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assis
 
 ## HARD_PASS
 
-- [Associate HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/associate-hr-business-partner-derby-college) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-chellaston-academy) — Excluded senior/management title.
-- [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-da-vinci-academy) — No usable numeric salary.
-- [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-anthony-gell-school) — Excluded senior/management title.
-- [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-brookfield-community-school) — Excluded senior/management title.
-- [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-alban-s-catholic-voluntary-academy-derby-derbyshire) — Excluded senior/management title.
+- [Employer Partnership Officer - Student Employment](https://teaching-vacancies.service.gov.uk/jobs/employer-partnership-officer-student-employment) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-ashwood-spencer-academy) — Excluded senior/management title.
+- [PA to SLT & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-cover-manager) — Excluded senior/management title.
+- [Pastoral Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-officer-93d815b7-0e82-49a1-9ded-1395abd2f79a) — No usable numeric salary.
+- [Peripatetic Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-administration-officer-alvaston-junior-academy) — Insufficient admin/service evidence.
+- [Plant Centre Lead](https://teaching-vacancies.service.gov.uk/jobs/plant-centre-lead) — Excluded senior/management title.
+- [Primary Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/primary-operations-manager-duckmanton-primary-school) — Excluded senior/management title.
+- [SEND Admin Assistant Derby](https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-derby) — No usable numeric salary.
 
 ## Safety boundary
 

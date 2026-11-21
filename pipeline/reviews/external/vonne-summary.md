@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-01
-review_fingerprint: e777c2cc71c87f912de9ee0b9d74c3d050dfea71473de40fd71570ed886e2180
+review_date: 2026-11-21
+review_fingerprint: b8b0e9b7bd9c14708162010dbdb58fd4b235f33c273b151a7fa3ea0016a65cfb
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,29 +10,29 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-01T13:42:27+00:00
+Run generated: 2026-11-21T14:52:26+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 995
+JobG8 comparison rows: 1127
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 3
-- Detail pages fetched successfully: 3
+- Detail-page candidates: 4
+- Detail pages fetched successfully: 4
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 12
-- Tees Valley explicitly excluded: 0
-- Outside or unmapped geography excluded: 1
+- Obvious hard passes not detail-fetched: 11
+- Tees Valley explicitly excluded: 1
+- Outside or unmapped geography excluded: 0
 - Generic/derived geography rows requiring review: 2
 - Retained target candidates: 14
 
 ## Outcomes
 - HC: 0
-- POSS: 4
-- HARD_PASS: 10
+- POSS: 9
+- HARD_PASS: 5
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 1
-- Manually excluded: 3
+- Final POSS awaiting decision: 9
+- Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -44,55 +44,120 @@ Approved NEJobs comparison rows: 0
 
 ---
 action:
-POSS | North East | Home-based | £35,000 to 39,000 Per Annum | Embedded Outreach Officer
-employer: King's College Cambridge
-closing_date: Monday, November 30, 2026 - 17:00
+POSS | North East | Hybrid | £31,000 Per Annum | Sunderland Good Food Partnership Co-Ordinator
+employer: OASES
+closing_date: 08 December 2026
 geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
 reason: North East geography is generic or derived and requires review
 source: VONNE
-tracking_key: vonne-173627
-vacancy_fingerprint: 39d05d5987a989470769e6863d6bc036e0277cdd5a64bb01a9750805dee7287e
-source_job_id: 173627
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173627
+tracking_key: vonne-173769
+vacancy_fingerprint: 1f72c572a5045f884a0b2f097607feadc19219fccfe4fc27d5fc8b92d274b3d0
+source_job_id: 173769
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173769
 ---
 ---
-action: exclude
-POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,439 Per Annum | Carer Support Coordinator
-employer: Durham County Carers Support
-closing_date: Friday, November 13, 2026 - 17:00
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,000 to 28,403 Per Annum | Hospital Discharge Partnership Coordinator
+employer: Citizens Advice Darlington Redcar & Cleveland
+closing_date: Monday, November 30, 2026 - 17:00
 geography: CONFIRMED — location: approved location fallback
 reason: provisional transferable-office review
 source: VONNE
-tracking_key: vonne-173457
-vacancy_fingerprint: 26158f8f4312bf2fbfa437f194700f9dc9f1c4216a3fd43891b81c9caf879132
-source_job_id: 173457
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173457
+tracking_key: vonne-173726
+vacancy_fingerprint: 39d71f5e1d6c45ac60285e0fab04d3f72d8df2bb061d0e4b346745830a9e31d8
+source_job_id: 173726
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173726
 ---
 ---
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Flexible | £29,503 Per Annum | Employment Support Advisor
-employer: North Tyneside Carers' Centre
-closing_date: 06 November 2026
-geography: DERIVED_REVIEW — employer-derived geography: geography phrase: north tyneside
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | Hybrid | £ Pro Rata | Independent Sexual Violence Advisor (ISVA)
+employer: Rape and Sexual Abuse Counselling Centre (Darlington and County Durham)
+closing_date: 07 December 2026
+geography: DERIVED_REVIEW — employer-derived geography: area found in address: darlington
 reason: North East geography is generic or derived and requires review
 source: VONNE
-tracking_key: vonne-173582
-vacancy_fingerprint: f1178a0e4cbcd10bc69ae022e8d3d130365fd73b4ee5b71246c4d3c40fbcaae6
-source_job_id: 173582
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173582
+tracking_key: vonne-173736
+vacancy_fingerprint: 7f6b1cc06aa7b624ef8729732e782384d57ac6bb9660b64803b1291ce9c96c91
+source_job_id: 173736
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173736
 ---
 ---
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,718 to 28,772 Per Annum | Student Communities Coordinator, Sunderland
-employer: University of Sunderland Students' Union
-closing_date: Sunday, November 1, 2026 - 23:59
-geography: CONFIRMED — location: approved location fallback
-reason: provisional transferable-office review
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | Durham | £28,000 Per Annum | Support Worker
+employer: Emmaus North East
+closing_date: 31 December 2026
+geography: CONFIRMED — location: exact area
+reason: possible cross-source duplicate requires review
 source: VONNE
-tracking_key: vonne-173537
-vacancy_fingerprint: adcd4c9a8d25ee0199412663f63c1250fb2f70b87f2f50682cb00dc6660abcea
-source_job_id: 173537
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
+tracking_key: vonne-173685
+vacancy_fingerprint: 4dbabf7aeb40063930d204bde3bf4242013702296b5f91843b8728a09983368a
+source_job_id: 173685
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173685
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £33,323 to 34,899 Per Annum | Business Engagement Officer
+employer: Society Matters CIC
+closing_date: Monday, December 14, 2026 - 09:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £34,899 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173703
+vacancy_fingerprint: 3894a2f601419f83870376d3f0984f1991c6d76b04b071e616cd53876169b969
+source_job_id: 173703
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173703
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,878 to 34,240 | Criminal Justice Recovery Coordinator
+employer: Waythrough
+closing_date: Friday, November 27, 2026 - 00:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £34,240 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173722
+vacancy_fingerprint: 5519388993dcafa8850e292a0dccad2b5c655a22d5fd714aeebc2f8521d015fe
+source_job_id: 173722
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173722
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside | £51,525 Pro Rata | Director of Culture, Enrichment and Creativity
+employer: Groundwork South and North Tyneside
+closing_date: 01 December 2026
+geography: CONFIRMED — location: geography phrase: south tyneside
+reason: annualised upper salary £51,525 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173704
+vacancy_fingerprint: d8b3a0b86a8bc3a4cbd9a985e981f47de2c81bf28894812c7d2b755b157cccc5
+source_job_id: 173704
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173704
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,778 Pro Rata | Finance and Admin Assistant
+employer: Tyne and Wear Building Preservation Trust Limited
+closing_date: Thursday, December 10, 2026 - 17:00
+geography: CONFIRMED — location: approved location fallback
+reason: transferable title with specialist or borderline wording: finance
+source: VONNE
+tracking_key: vonne-173707
+vacancy_fingerprint: fd3d605595b9359680e360ca098216b05d4d00136b171a311893c9d9ea36b9f5
+source_job_id: 173707
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173707
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £33,323 Per Annum | Good Work Grants Lead Officer
+employer: Society Matters CIC
+closing_date: 14 December 2026
+geography: CONFIRMED — location: exact area
+reason: transferable title with specialist or borderline wording: lead
+source: VONNE
+tracking_key: vonne-173702
+vacancy_fingerprint: c8ff0702d0cadb59987d047e95cd6083b7009cc8ade06b11fc4012a595b4a9ab
+source_job_id: 173702
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173702
 ---
 ## EXCLUDED BY REVIEW
 
@@ -100,16 +165,11 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 
 ## HARD_PASS
 
-- [Access to Work Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173559) — out-of-scope VONNE occupation.
-- [Advice Services Manager (Community)](https://www.vonne.org.uk/vonne-jobs-details?cid=173555) — out-of-scope VONNE occupation.
-- [Bid Writer (Trusts and Foundations)](https://www.vonne.org.uk/vonne-jobs-details?cid=173383) — insufficient service-admin evidence.
-- [Cancer and Dementia Care Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173588) — out-of-scope VONNE occupation.
-- [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
-- [Family Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173625) — out-of-scope VONNE occupation.
-- [Grants Administration Officer (Small and Medium Grants)](https://www.vonne.org.uk/vonne-jobs-details?cid=173618) — insufficient service-admin evidence.
-- [Income and Project Delivery Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173614) — insufficient service-admin evidence.
-- [Monitoring and Co-ordination Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173633) — out-of-scope VONNE occupation.
-- [Outreach Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173624) — out-of-scope VONNE occupation.
+- [Business Crime Navigator](https://www.vonne.org.uk/vonne-jobs-details?cid=173723) — insufficient service-admin evidence.
+- [CLA Triage Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173690) — out-of-scope VONNE occupation.
+- [School Based Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173700) — insufficient service-admin evidence.
+- [South Tyneside Child and Young Person Mental Health Service Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173730) — insufficient service-admin evidence.
+- [Team Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173717) — out-of-scope VONNE occupation.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.

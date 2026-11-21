@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-11-01
-review_fingerprint: 1d7a57be7af665d9f16059d6b394b3f0a45b57bceaf99d9bf848dcf70f5d2461
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: b568237579fae36afebf804df6de292251d450384a5238fcea870d541cc7c57c
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 5
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -23,32 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | North East - Tees Valley | Middlesbrough, North East, TS5 6QS | £25,185 - £25,583 pro rata (actual salary: £12,938 - £13,143) | Business Support Assistant
-employer: St Edward's Catholic Primary School
-closing_date: 2026-11-06T09:00:00+00:00
-reason: Clear admin/service title: business support assistant
+SELECTED | North East - Tees Valley | Stockton-on-Tees, North East, TS17 9DE | £26,016 - £26,427 pro rata (Actual Salary £22,478 - £22,833) | Finance Assistant
+employer: St Patrick's Catholic College, A Voluntary Catholic Academy
+closing_date: 2026-11-26T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 335d461e2123c36207307cad2c6289819d8f8e2bdeed21ca5fed5f9a881438f2
+factual_fingerprint: 92a9a13d2aaeb04fa98b81474188f7176e5770ee52cf6ddfce5bf19b5a79b896
 source: Teaching Vacancies
-source_job_id: business-support-assistant-st-edward-s-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-st-edward-s-catholic-primary-school
----
-
----
-action: 
-SELECTED | North East - Tees Valley | Middlesbrough, North East, TS3 6PX | £25,989 - £28,142 (actual salary: £22,455 - £24,315) | Business Support Officer
-employer: St Alphonsus' Catholic Primary School
-closing_date: 2026-11-04T09:00:00+00:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 80035e669a1dba58df8edf69e11efdbd0ced02f9a3908155bf80d84da4d66eb2
-source: Teaching Vacancies
-source_job_id: business-support-officer-st-alphonsus-catholic-primary-school-middlesbrough-cleveland
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-st-alphonsus-catholic-primary-school-middlesbrough-cleveland
+source_job_id: finance-assistant-st-patrick-s-catholic-college-a-voluntary-catholic-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-patrick-s-catholic-college-a-voluntary-catholic-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -61,10 +46,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ## HARD_PASS
 
-- [Admin and Reprographics Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-maternity-cover-outwood-academy-ormesby) — No usable numeric salary.
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bewley-primary-school-billingham-cleveland) — No usable numeric salary.
-- [PA to Head of School](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-huntcliff-school) — Excluded senior/management title.
-- [School Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-operations-assistant) — Insufficient admin/service evidence.
+- [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-river-tees-hospital-school) — Excluded senior/management title.
+- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-fecc3916-9c14-434c-9e0b-d39660391a02) — Insufficient admin/service evidence.
+- [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-0059e65f-970d-422a-9b7d-94a093a318d4) — Excluded senior/management title.
+- [Trust HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-officer-spark-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

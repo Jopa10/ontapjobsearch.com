@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-11-01
-review_fingerprint: b8b3eb20df92de3ff092585bf9886f5b7d11ff4be8b8a95e005fb54460fefa7b
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: baea75353876f4cc2fcbdbc1fe065c65b9ed04e47269c1de1b9778adb6d8d236
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,42 +13,42 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Gloucestershire | Gloucester, South West, GL3 4QF | £8,464.32 - £8,871.56 Annually (Actual) | Part Time Receptionist
-employer: Henley Bank High School
-closing_date: 2026-11-01T23:59:00+00:00
+SELECTED | Gloucestershire | Cheltenham, South West, GL51 0WH | £27,274.00 - £28,608.00 Annually (FTE) Actual pro-rata salary range £12,653 - £13,272 per annum | Academy Administrator and Receptionist
+employer: All Saints' Academy, Cheltenham
+closing_date: 2026-11-30T09:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: aaf7d06777ef858d96aa17af082ef3495a4d0c0201fb1e86c9c42362437826de
+factual_fingerprint: 0a7a53d78dd18e12cdc0285fb99299bce3376d5bfbf02ba12ba4aa6e68e96954
 source: Teaching Vacancies
-source_job_id: part-time-receptionist-henley-bank-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-henley-bank-high-school
+source_job_id: academy-administrator-and-receptionist-all-saints-academy-cheltenham
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-and-receptionist-all-saints-academy-cheltenham
 ---
 
 ---
 action: 
-SELECTED | Gloucestershire | Cirencester, South West, GL7 1XB | £29,071.00 - £30,516.00 Annually (FTE) Grade 5, Scale Point 11 to 14 | Trips, Lettings & Payment Administrator
-employer: Cirencester Deer Park School
-closing_date: 2026-11-01T23:59:00+00:00
+SELECTED | Gloucestershire | Gloucester, South West, GL3 2PL | Salary: Grade 4, points 6 - 8, Actual Salary: £22,551 - £23,275 | Inclusion Administrator
+employer: Chosen Hill School
+closing_date: 2026-11-29T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0b0bc88a414d889c4517d7645afe2d090a7642aee3a4dfb933cca25759a03dda
+factual_fingerprint: 25e720c38f7bc58ac251e2e5814791f9e0c2cba4f10cd9875463d3d9aab3ddbc
 source: Teaching Vacancies
-source_job_id: trips-lettings-payment-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trips-lettings-payment-administrator
+source_job_id: inclusion-administrator-chosen-hill-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-chosen-hill-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -61,8 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trips-lettings-paymen
 
 ## HARD_PASS
 
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-chosen-hill-school) — Excluded senior/management title.
-- [Finance Officer - Accounting Technician](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-accounting-technician) — Out-of-scope occupation: technician.
+- [B038 Student Data Supervisor](https://teaching-vacancies.service.gov.uk/jobs/b038-student-data-supervisor) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

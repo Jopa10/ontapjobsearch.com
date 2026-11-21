@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-11-01
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 4484ebb8d1302fbd32fe0861d3b0cf9177b3838e72339016abfda1119f529d20
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 0
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Cheshire - West | Northwich, North West, CW8 4RN | £21,380.16 - £23,304.53 Annually (Actual) Grade 5, SCP 7-11. 34.5 hours per week, term-time only (38 weeks per year) | Administration Assistant
+employer: Little Leigh Primary School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2ddab28f67f21741cd2a299da0ee6efe50ff88f0c1164fe7646998d5b250632a
+source: Teaching Vacancies
+source_job_id: administration-assistant-little-leigh-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-little-leigh-primary-school
+---
+
+---
+action: 
+SELECTED | Cheshire - West | Chester, North West, CH3 8LS | £26,016.00 Annually (FTE) See Main Advert | General Administrative Assistant
+employer: Tarvin Primary School
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 01b25bb5a6db7da7f8e0617651713187e22d36c1668f06727bb1f706aacf2d57
+source: Teaching Vacancies
+source_job_id: general-administrative-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrative-assistant
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -33,8 +61,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Data Officer](https://teaching-vacancies.service.gov.uk/jobs/data-officer-ellesmere-port-catholic-high-school-a-voluntary-academy) — No usable numeric salary.
-- [Finance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-administration-officer-kelsall-primary-and-nursery-school) — Insufficient admin/service evidence.
+- [Strategic School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/strategic-school-business-manager-the-whitby-high-school) — Excluded senior/management title.
 
 ## Safety boundary
 

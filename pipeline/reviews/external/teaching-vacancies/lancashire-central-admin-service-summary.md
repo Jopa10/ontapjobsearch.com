@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Central
 
-review_date: 2026-11-01
-review_fingerprint: ac530d4f5959215287e6aceb46e83545745231564af7714dc78a6d9f74084447
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: d9ec25a93906269159d152bea7f96166c8bcb7fcf6a69fe3e823b0b4a0f128ca
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Lancashire - Central
 slice_category: admin_service
 slice_status: LIVE
@@ -13,32 +13,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 0
-- POSS awaiting decision: 1
+- Records: 2
+- Selected: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Lancashire - Central | Preston, North West, PR1 4BD | £27,709.00 to £29,071.00 per annum (pro rata equivalent £25,666.81 - £26,928.43 per annum) | Business Support Officer (Fixed Term from January 2027 until 20/08/2027)
+employer: Eden Boys' School, Preston
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bd60e7d263cf35c72a37c546288c45fedcc0426b373a960b44ad7e3b1cffe524
+source: Teaching Vacancies
+source_job_id: business-support-officer-fixed-term-from-january-2027-until-20-08-2027
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-fixed-term-from-january-2027-until-20-08-2027
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Lancashire - Central | Preston, North West, PR4 6AQ | £23,155.61 - £23,895.24 Annually (Actual) FTE £26,016 - £26,847 | Receptionist
-employer: Tarleton Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a9f182e9c87f4b7e25ab4846a57b7bf379ba87438fee1f90c5f6d0b636d4f5da
-source: Teaching Vacancies
-source_job_id: receptionist-tarleton-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-tarleton-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-tarleton
 
 ## HARD_PASS
 
-- None.
+- [Student Services Administrator](https://teaching-vacancies.service.gov.uk/jobs/student-services-administrator-runshaw-college) — No usable numeric salary.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-01
-review_fingerprint: 0ad3992a124bee3e48274caad6740706d9feb5caa4c66f3b8cb7f01309c4abe4
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 3bc0566d492b7b09db46defb1f3ecdb02b7e17bbb35302ba5bdb23b1f80dcd3c
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,107 +13,90 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 6
-- POSS awaiting decision: 0
+- Records: 11
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS3 2JL | £20,934.15 - £21,613.34 Annually (Actual) NJC 8 - 10 (£27,709 - £28,608) | Administrative Assistant (Trips, Visits & Events)
-employer: Ashton Park School
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | Bristol & Bath | Bristol, South West, BS15 4JT | £6,822 - £7,435 | Admin Assistant for SEND
+employer: King's Oak Academy
+closing_date: 2026-11-23T23:59:59+00:00
+reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 87abd3693bdd9a50bcf70bea02e9fbdd0aec7c8354fa0a98c28831f3676ce0df
+factual_fingerprint: 1600e5e652543a2f543d15c8381bdf8170f2bfe63491e2c289c90b066bea5beb
 source: Teaching Vacancies
-source_job_id: administrative-assistant-trips-visits-events
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-trips-visits-events
----
-
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS13 0RL | £25,614.00 Annually (FTE) £12,108 actual salary | Campus Receptionist
-employer: Bridge Learning Campus
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0d707db4fd22b9ec9a81f5f374a5b1170ef84c8f4afa843b70ad1d682592ca62
-source: Teaching Vacancies
-source_job_id: campus-receptionist-bridge-learning-campus
-source_url: https://teaching-vacancies.service.gov.uk/jobs/campus-receptionist-bridge-learning-campus
----
-
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS16 6XA | PATH 6 £29,542 FTE. £25,931 prorated | Exams Officer
-employer: Downend School
-closing_date: 2026-11-02T09:00:59+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4d9d928cf344872612461109944637729dca0aedbf91bb790155f671dd458760
-source: Teaching Vacancies
-source_job_id: exams-officer-downend-school-bristol
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-downend-school-bristol
----
-
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS7 9NL | £26,247.00 - £27,274.00 Annually (FTE) | Receptionist
-employer: Fairfield High School
-closing_date: 2026-11-03T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 38c0059b0cb3f9592f50b4ff9f01855dd4c1d846fe97c6152e35d79f7b71bf1a
-source: Teaching Vacancies
-source_job_id: receptionist-fairfield-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-fairfield-high-school
+source_job_id: admin-assistant-for-send
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-for-send
 ---
 
 ---
 action: 
 SELECTED | Bristol & Bath | Bristol, South West, BS9 2NT | £26,824.00 - £28,142.00 Annually (Actual) Actual salary £22,677 - £23,791 per annum | School Administrator
 employer: North Star 265°
-closing_date: 2026-11-01T23:59:00+00:00
+closing_date: 2026-12-04T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a51d053ae9b6fc6ca743f3fc04b484f7b5c53d2dbcb6b1567749d9092d6fe67b
+factual_fingerprint: f1bda74bce5da97a45d1f4761f62462e3388ec6f943aebf2bc532b8270ff1389
 source: Teaching Vacancies
-source_job_id: school-administrator-north-star-265-bristol-bristol
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-north-star-265-bristol-bristol
+source_job_id: school-administrator-9a743689-f06f-4d48-a1e9-e6d50eeadb67
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-9a743689-f06f-4d48-a1e9-e6d50eeadb67
 ---
 
 ---
 action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS10 6DS | £26,847.00 - £27,274.00 Annually (FTE) | School Administrator MAT cover
-employer: Little Mead Primary Academy
-closing_date: 2026-11-09T23:59:00+00:00
+SELECTED | Bristol & Bath | Bristol, South West, BS7 8HP | £26,847.00 - £27,269.00 Annually (FTE) | School Administrator (School Office Level 2)
+employer: St Bonaventure's Catholic Primary School
+closing_date: 2026-11-26T12:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: cd55fa00f417c09bca538a85cd01eb56f15af7c32e0f0766c9273589b7f3c002
+factual_fingerprint: ddd9dda95163cf1ab26c3d3c3db3fdb20f0bbb1fcd972b863c260100835daee6
 source: Teaching Vacancies
-source_job_id: school-administrator-mat-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-mat-cover
+source_job_id: school-administrator-school-office-level-2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-school-office-level-2
+---
+
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS7 0XZ | £26,847.00 - £27,274.00 Annually (FTE) | Student Receptionist
+employer: Orchard School Bristol
+closing_date: 2026-12-07T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8711d542b690434f0054a2ab7e4d43e69fb0767202e533f4fe3eed515b8f3767
+source: Teaching Vacancies
+source_job_id: student-receptionist-orchard-school-bristol
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-orchard-school-bristol
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Bristol & Bath | Bristol, South West, BS13 9AJ | £19,002.86 - £19,611.91 Annually (Actual) SCP 5 - 7 | Attendance Administrator
+employer: E-ACT Bristol Academy South
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6e54a76f27c3bdaf4801d8fa08106f516b800c99594d293c79f980ee558ab236
+source: Teaching Vacancies
+source_job_id: attendance-administrator-e-act-bristol-academy-south
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-e-act-bristol-academy-south
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -121,10 +104,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-bede-s-catholic-college) — No usable numeric salary.
-- [First Aid Lead & Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/first-aid-lead-admissions-coordinator-ashton-park-school) — Excluded senior/management title.
-- [PA to Headteacher](https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-wellsway-school) — No usable numeric salary.
-- [Personal Care Assistant (EYFS + SEND)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-eyfs-send) — Insufficient admin/service evidence.
+- [Behaviour Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/behaviour-support-administrator-sir-bernard-lovell-academy-bristol) — No usable numeric salary.
+- [Educational Visits and Enrichment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-and-enrichment-coordinator) — No usable numeric salary.
+- [Employer Engagement Advisor](https://teaching-vacancies.service.gov.uk/jobs/employer-engagement-advisor) — Insufficient admin/service evidence.
+- [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
+- [Personal Care Assistant (EYFS + SEND)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-eyfs-send-bridge-learning-campus) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-pauls-nursery-school-children-s-centre) — Excluded senior/management title.
 
 ## Safety boundary
 

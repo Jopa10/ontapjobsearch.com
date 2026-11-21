@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-01
-review_fingerprint: 728d7c9b7fdf70b10ad488ea3a8ceaa8fdf4bf722a637013cb2ed1205c0f0954
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 1667c0eb3fd8e5132d5e6231b7b43ccc9dec3c3e46a3a89d612c002e69051a58
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,119 +13,119 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 20
 - Selected: 3
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 13
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 2LR | £22,753 Actual Salary (£26,016 FTE) | Administrative Assistant
-employer: Netherfield Primary School
-closing_date: 2026-11-08T12:00:00+00:00
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG2 5NH | £20,151.00 - £20,791.00 Annually (Actual) Band 2, Scale Points 3 - 5 | Administrative Assistant
+employer: St Edmund Campion Catholic Primary School
+closing_date: 2026-11-30T23:59:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9588c2b250bf0ebf1de834821ffb1460f1cfe185c955d0151a9ec5e8e937f923
+factual_fingerprint: 66670c8b4ebc07c02ab4441a5762fe2de4dfe059c4f4b2bfb6c7ee7cdf8a0f1f
 source: Teaching Vacancies
-source_job_id: administrative-assistant-netherfield-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-netherfield-primary-school
+source_job_id: administrative-assistant-st-edmund-campion-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-edmund-campion-catholic-primary-school
 ---
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG12 5FF | Scale 6, Point 18 - 22, £32,578 - £34,811 (Actual Salary: £29,610.12 - £31,639.69) | Examinations Officer
-employer: The South Wolds Academy & Sixth Form
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: examinations officer
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG8 2FT | £28,276.00 - £30,423.00 Annually (FTE) | Finance Officer
+employer: Fernwood School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4461a30cf53ca5cc1f8b2b95e377662fa566204e647c4211a144eeb45b9e1833
+factual_fingerprint: b1eb00ad2cd1eaf7adf3cbb43a0614699650360ad351e449b7ea1c4f16af481a
 source: Teaching Vacancies
-source_job_id: examinations-officer-the-south-wolds-academy-sixth-form
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-the-south-wolds-academy-sixth-form
+source_job_id: finance-officer-fernwood-school-nottingham-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-fernwood-school-nottingham-nottinghamshire
 ---
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 6NZ | £24,234.00 - £25,823.00 Annually (Actual) NJC6 - NJC10 | Finance Administrator - Including Trips and Visits
-employer: Arnold Hill Spencer Academy
-closing_date: 2026-11-03T23:59:00+00:00
-reason: Clear admin/service title: administrator, finance administrator
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG16 4HL | £26,847.00 - £27,331.00 Annually (FTE) | Student Services Administrator
+employer: Aldercar High School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a43e63f549f59ce3d035a3c97619c1f4a7d6fa5451b904f3f7f8e19dc1a04239
+factual_fingerprint: a594de9d2101148c0a0ccfcff120b0843c5365050b979236525d789432b26bbb
 source: Teaching Vacancies
-source_job_id: finance-administrator-including-trips-and-visits
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-including-trips-and-visits
+source_job_id: student-services-administrator-aldercar-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-administrator-aldercar-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Nottinghamshire | Mansfield, East Midlands, NG18 2DP | £22,569.72 - £22,569.72 Annually (Actual) | Administration Assistant
-employer: Horizons Academy
-closing_date: 2026-11-08T23:59:00+00:00
+POSS | Nottinghamshire | Nottingham, East Midlands, NG17 7HZ | £22,726.00 - £23,454.00 Annually (Actual) Support Pay Scale - Grade 3 (Points 5-7), FTE Salary £26,428 - £27,274 per annum | Administration Assistant
+employer: Bracken Hill School
+closing_date: 2026-11-30T10:00:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d899813d4cf8922713d60e8a54242012f2c2b74e2d686003fe8c356326338421
+factual_fingerprint: e698ff845ead9b31d239bb975d6f70e4e78951e404151662d455d6e6aa814500
 source: Teaching Vacancies
-source_job_id: administration-assistant-horizons-academy-mansfield-nottinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy-mansfield-nottinghamshire
+source_job_id: administration-assistant-bracken-hill-school-nottingham-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bracken-hill-school-nottingham-nottinghamshire
 ---
 
 ---
 action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG9 1AE | £22,611 Actual Salary (£26,016 FTE) | Administrative Assistant
-employer: Round Hill Primary School
-closing_date: 2026-11-02T09:00:00+00:00
+POSS | Nottinghamshire | Newark, East Midlands, NG22 0JH | £24,821.00 - £24,821.00 Annually (Actual) | Administrator
+employer: Tuxford Academy
+closing_date: 2026-11-22T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5249ac1ff6f3cd2364ed55ea066f7ba075713515808cbe6492679f4a051f3f4b
+factual_fingerprint: f4217e7a5e1d77a282a27912d9f92877302d337a5c02141f3405ea79ccec43d5
 source: Teaching Vacancies
-source_job_id: administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire
+source_job_id: administrator-tuxford-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-tuxford-academy
 ---
 
 ---
 action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG9 3DU | £22,630.72 - £23,356.04 Annually (Actual) NJE Grade 3, Pts 5 to 7 £26,427 - £27,274 (FTE) | Attendance and Inclusion Administration Officer
-employer: Alderman White School
-closing_date: 2026-11-02T09:00:00+00:00
+POSS | Nottinghamshire | Retford, East Midlands, DN22 7NJ | £18,299.77 - £18,299.77 Annually (Actual) | Adminstration Assistant
+employer: Retford Oaks Academy
+closing_date: 2026-11-25T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7eab00cad6bfe34fcb7139872f451f8a3039a07763a00b039936ce5c1b5e8318
+source: Teaching Vacancies
+source_job_id: adminstration-assistant-retford-oaks-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/adminstration-assistant-retford-oaks-academy
+---
+
+---
+action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG13 0AX | PPS4 £26,016 per annum, pro rata to £14,489 per annum | SEN Administration Assistant
+employer: The Priory Belvoir Academy
+closing_date: 2026-11-23T23:59:00+00:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8f79478ea8d173f36235be510f78f26796c8713487052268b83ef6bae0128ce5
+factual_fingerprint: 70d19ac909de6d3f916934342185c57e483b749cee2e8f63996049f07156c704
 source: Teaching Vacancies
-source_job_id: attendance-and-inclusion-administration-officer-alderman-white-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-administration-officer-alderman-white-school
----
-
----
-action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG8 2FT | £22,507.00 - £24,527.00 Annually (Actual) The salary advertised reflects the pro rata salary for this role, based on 45.6 weeks per year. The full-time equivalent FTE salary for this position is £25,666 - 27,970 per annum. | SEND Administrator
-employer: Fernwood School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8ba44e2eb3a71c045dbc8a133d3f916deb67aaffe6c702713554e436164b73f4
-source: Teaching Vacancies
-source_job_id: send-administrator-fernwood-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-fernwood-school
+source_job_id: sen-administration-assistant-the-priory-belvoir-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-assistant-the-priory-belvoir-academy
 ---
 
 ## EXCLUDED BY REVIEW
@@ -134,12 +134,19 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-fe
 
 ## HARD_PASS
 
-- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy) — Excluded senior/management title.
-- [Governance Professional (Senior Administrator)](https://teaching-vacancies.service.gov.uk/jobs/governance-professional-senior-administrator) — Excluded senior/management title.
-- [People Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-business-partner-nova-education-trust) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c46abdbf-b851-4f98-b51c-c939f0fd7919) — Insufficient admin/service evidence.
-- [Safeguarding Adviser](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-adviser-greenwood-academies-trust) — Insufficient admin/service evidence.
-- [Senior Office Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrative-assistant) — Excluded senior/management title.
+- [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-king-edward-primary-school-nursery) — No usable numeric salary.
+- [Business Team Leader](https://teaching-vacancies.service.gov.uk/jobs/business-team-leader) — Excluded senior/management title.
+- [Data, Timetable and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-timetable-and-cover-manager) — Excluded senior/management title.
+- [Finance & Estate Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-estate-officer) — Salary over £50k.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-east-midlands-education-trust) — Excluded senior/management title.
+- [Healthcare Assistant / Administrator](https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-b6dad597-ef3e-406f-a693-7ada1eddda55) — No usable numeric salary.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-nova-education-trust) — Excluded senior/management title.
+- [Pastoral Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-assistant-the-newark-academy) — Insufficient admin/service evidence.
+- [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-a64c421f-6231-4592-9c8e-33d9670e968a) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c4d506e4-2227-47db-b7f1-9c4c2546f3eb) — Insufficient admin/service evidence.
+- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hawthorne-primary-and-nursery-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hucknall-national-church-of-england-primary-school) — Excluded senior/management title.
+- [Senior Administrator (Governance)](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-governance) — Excluded senior/management title.
 
 ## Safety boundary
 

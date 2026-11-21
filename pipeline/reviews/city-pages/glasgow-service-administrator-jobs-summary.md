@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 37
+- Effective included jobs: 42
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 37
-- automatic review: 7
+- automatic include: 42
+- automatic review: 8
 - automatic exclude: 0
-- effective include: 37
-- effective review: 7
+- effective include: 42
+- effective review: 8
 - effective exclude: 0
 
-## INCLUDE (37)
+## INCLUDE (42)
 
 ---
 action: 
 decision: include
 automatic_decision: include
 title: Accounts Assistant
-company: Pertemps Scotland Perms - Agency - Permanent
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2188665
+job_id: jobg8-2397827
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -40,11 +40,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Payable & Expenses Administrator
-company: Three Bridges Recruitment LTD - Agency - Permanent
+title: Accounts Payable Administrator
+company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2164191
+job_id: jobg8-2409502
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -52,23 +52,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator Assistant - Immediate Start
-company: Search Consultancy Ltd - Agency - Contract
+title: Accounts Payable Assistant - Ongoing Temp - Hybrid
+company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225689338
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Advertising Sales Executive
-company: Choice Consultants - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225585982
+job_id: jobg8-2361865
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -100,11 +88,59 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Client Services Administrator
-company: Realise Recruitment - Agency - Permanent
+title: Call Centre Agent
+company: EE - Company - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225720686
+job_id: jobg8-20279_64324-89740a075c6163b74ea2c52702062e5d
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent - Outbound Sales
+company: Optical Express - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2395779
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-20279_64324-73862c8b83139033e4e4a8b6efca9a33
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Client Administrator
+company: ICONIC RESOURCING LTD - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2403863
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-20279_64324-d24d3d6916a209e15b1680693740da2f
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -117,6 +153,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225782225
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Three Bridges Recruitment LTD - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2390363
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -148,23 +196,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Administrator - Immediate Start
-company: Search Consultancy Ltd - Agency - Contract
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225689360
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
-company: Pertemps Warwickshire County Council - Agency - Temporary
+company: EE - Company - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225734998
+job_id: jobg8-20279_64324-153faf593eb64b88272f45adeaa28d87
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -176,7 +212,7 @@ title: Customer Service Advisor
 company: Red Recruitment - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225721667
+job_id: jobg8-23643_225830678
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -184,35 +220,59 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Coordinator
-company: Adecco - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225756220
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Document Controller
-company: Contract Scotland - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225749422
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Learning & Capability Administrator - Immediate Start
+title: Customer Service Advisor
 company: Search Consultancy Ltd - Agency - Contract
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225708526
+job_id: jobg8-23643_225845075
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2377526
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Officer - Glasgow - Part-Time
+company: Three Bridges Recruitment LTD - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2390253
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Internal Sales Executive
+company: Reed - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2361923
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Internal Salesperson
+company: Reed - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2361058
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -232,23 +292,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Secretary (Conveyancing)
-company: Michael Page - Agency - Permanent
+title: Legal Secretary
+company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225691854
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Secretary (Family Law)
-company: Michael Page - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225764038
+job_id: jobg8-2409424
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -292,11 +340,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Officer (18 months)
-company: Michael Page - Agency - Contract
+title: MEICA Project Administrator
+company: Simpson Recruitment Services - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225769129
+job_id: jobg8-2372568
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -304,11 +352,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Operations Administrator
-company: RPJ Energy Solutions Limited - Agency - Permanent
+title: Office Coordinator
+company: Adecco - Agency - Temporary
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225752498
+job_id: jobg8-23643_225811652
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -320,7 +368,19 @@ title: Paralegal
 company: Adecco - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225737154
+job_id: jobg8-2408687
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Payroll Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2379044
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -329,10 +389,10 @@ action:
 decision: include
 automatic_decision: include
 title: Payroll Administrator
-company: Stafffinders - Agency - Permanent
+company: Portfolio Payroll - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225735910
+job_id: jobg8-2359679
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -340,11 +400,95 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Recruitment Coordinator
-company: Pertemps Glasgow Perms - Agency - Temporary
+title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Temporary
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225724778
+job_id: jobg8-23643_225798277
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Assistant
+company: ICONIC RESOURCING LTD - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2409011
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Procurement Administrator
+company: Pertemps Glasgow Perms - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225799621
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist - Immediate Start - North Lanarkshire
+company: Search Consultancy Ltd - Agency - Contract
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225796362
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist / Front of house
+company: Additional Resources - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225807467
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist / Front of house
+company: Additional Resources Ltd - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2364583
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Recruitment Administrator - Immediate Start
+company: Search Consultancy Ltd - Agency - Contract
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225848101
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Repairs Administrator
+company: RG Setsquare - Agency - Temporary
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225803943
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -356,43 +500,7 @@ title: Sales Account Manager (Marketing Solutions)
 company: Choice Consultants - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225695709
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Executive
-company: Search Consultancy Ltd - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225744835
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Procurement Administrator
-company: KB Refrigeration - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225774622
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Social Media & Office Support Apprentice
-company: QA - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2165508
+job_id: jobg8-23643_225802049
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -412,63 +520,15 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Accounts Assistant / Purchase Ledger Assistant - Cumbernauld
-company: Reed - Agency - Permanent
+title: Temp Credit Controller /Billing Assistant
+company: Michael Page Business Support - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2200976
+job_id: jobg8-2403351
 reason: Approved conservative Glasgow launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Facilities Coordinator
-company: Office Angels - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225721009
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Office Administrator
-company: Office Angels - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225719474
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Receptionist/Administrator
-company: Office Angels - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225760167
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Transport Planning Administrator
-company: Reed - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2187356
-reason: Approved conservative Glasgow launch catchment.
----
-
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -478,7 +538,7 @@ title: Digital Marketing Assistant
 company: No1 Legal and Professional - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2195198
+job_id: jobg8-2373578
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 
@@ -486,11 +546,11 @@ reason: No approved Glasgow catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: External Affairs Officer
-company: SGN - Agency - Permanent
+title: Internal Communications Officer
+company: Morgan Hunt Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2179982
+job_id: jobg8-2407351
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 
@@ -514,7 +574,7 @@ title: Marketing and Communications Officer (18 months FTC)
 company: Michael Page Business Support - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2192475
+job_id: jobg8-2392265
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 
@@ -522,11 +582,11 @@ reason: No approved Glasgow catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Officer (18 months)
-company: Michael Page Business Support - Agency - Permanent
+title: Performance Marketing Lead
+company: Hydrogen - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2192716
+job_id: jobg8-2396302
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 
@@ -534,11 +594,11 @@ reason: No approved Glasgow catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Executive - Apprenticeships
-company: Realise Recruitment - Agency - Permanent
+title: Sales Advisor
+company: EE - Company - Permanent
 location: Not Specified
 source: JobG8
-job_id: jobg8-23643_224917035
+job_id: jobg8-20279_64324
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 
@@ -551,6 +611,18 @@ company: Realise Recruitment - Agency - Permanent
 location: Not Specified
 source: JobG8
 job_id: jobg8-23643_224045478
+reason: No approved Glasgow catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Lanarkshire
+source: JobG8
+job_id: jobg8-2401675
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-01
-review_fingerprint: c071f971881620a82a44cb2ecab746934aa32b17ea86d81bbcf7827a4f5166a1
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 839190289d7aa57a638cf4d5940a356e8d095e6801a72db9fb4173e1761a775d
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,75 +13,62 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 5
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 2
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Staffordshire | Rugeley, West Midlands, WS15 2UE | Grade 4, SCP 4-6 (£22,374 to £23,089 per annum actual salary) | Administrative Assistant
-employer: The Hart School
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | Staffordshire | Lichfield, West Midlands, WS14 0AL | £25,614 - £26,016 FTE, actual salary £17,274 - £17,545 per annum | Administration Assistant
+employer: Anna Seward Primary
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 12c96e7d002cf8c3c9f749048af421f7cec57d7c408e3497581af483d8e115a9
+factual_fingerprint: 1183a1c0adbb1b9d33d40f1e4ce4705ab8d21e3bad51eb906f3af728446382f3
 source: Teaching Vacancies
-source_job_id: administrative-assistant-the-hart-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-hart-school
+source_job_id: administration-assistant-anna-seward-primary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-anna-seward-primary
 ---
 
 ---
 action: 
-SELECTED | Staffordshire | Rugeley, West Midlands, WS15 2UE | Grade 4, SCP 4-6 (£13,606 to £14,040 per annum actual salary) | Attendance & Admin Assistant
-employer: The Hart School
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Clear admin/service title: admin assistant
+SELECTED | Staffordshire | Stoke-on-Trent, West Midlands, ST10 1LH | £22,948.00 Annually (Actual) | Administration Assistant -Data & Reports Co-Ordinator
+employer: Painsley Catholic College
+closing_date: 2026-11-25T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9de5e47d90e7da500996ecd9d5ef1892c847aa2f1268cc2c891f1a70150a75eb
+factual_fingerprint: 848b1ebdc6186b34e0934ad1da77f00cbb14407a2f303deea68e9a51177a1958
 source: Teaching Vacancies
-source_job_id: attendance-admin-assistant-3eb72589-09a8-45cd-a3b2-637d65a99a60
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-assistant-3eb72589-09a8-45cd-a3b2-637d65a99a60
+source_job_id: administration-assistant-data-reports-co-ordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-data-reports-co-ordinator
 ---
 
 ---
 action: 
-SELECTED | Staffordshire | Stafford, West Midlands, ST16 3BT | £26,427.00 Annually (FTE) Grade 4 - Term-time, plus INSETS, plus 4 weeks | School Administrator
-employer: St Patrick's Catholic Primary School
-closing_date: 2026-11-02T09:00:00+00:00
+SELECTED | Staffordshire | Stafford, West Midlands, ST19 9DS | £24,218.00 Annually (FTE) LA Grade SCP 5 (Term Time Only - TTF 46.3) 37 hours per week | Administrator Assistant with Responsibility for First Aid
+employer: Brewood Middle CofE Academy
+closing_date: 2026-11-30T12:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f04044f10f602d72b907476bdee861885581191002916cc4922c888f5cfcf249
+factual_fingerprint: 44bf85db6a26b316692b5dcdb775d0bb0dd29077ab504b1c5bd4bba0c4111381
 source: Teaching Vacancies
-source_job_id: school-administrator-st-patrick-s-catholic-primary-school-stafford-staffordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-st-patrick-s-catholic-primary-school-stafford-staffordshire
+source_job_id: administrator-assistant-with-responsibility-for-first-aid
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-assistant-with-responsibility-for-first-aid
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Staffordshire | Cannock, West Midlands, WS11 4AW | £26,426, Term time plus inset (actual salary paid pro rata). | Administrative Assistant
-employer: Cardinal Griffin Catholic College
-closing_date: 2026-11-06T08:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d352a65b54b7b178cf13189da9c7e6aa28d971e05c5f21c2c7ed25a212fa8660
-source: Teaching Vacancies
-source_job_id: administrative-assistant-cardinal-griffin-catholic-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cardinal-griffin-catholic-college
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -89,17 +76,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## HARD_PASS
 
-- [Administration Support](https://teaching-vacancies.service.gov.uk/jobs/administration-support-st-thomas-more-catholic-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
-- [Chief Finance & Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-operations-officer-john-taylor-mat) — Excluded senior/management title.
-- [Clerical assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-314411d3-39d1-4f06-bb14-44afa0d93c61) — Insufficient admin/service evidence.
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-500086d6-4b3c-4af3-bafb-bbb622675f91) — Insufficient admin/service evidence.
-- [Deputy Chief Executive Officer - Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-finance-operations) — Excluded senior/management title.
-- [Human Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-community-academies-trust-tamworth-not-recorded) — Excluded senior/management title.
-- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-a6176fdf-9fd1-40a5-9965-09d03373dad8) — Insufficient admin/service evidence.
-- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-manor-hall-academy-trust-stoke-on-trent-not-recorded) — Insufficient admin/service evidence.
-- [Procurement and Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-manager) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cf0d4ef8-1313-4ff6-b735-c5ac4ec13736) — Excluded senior/management title.
-- [School Transport Coordinator](https://teaching-vacancies.service.gov.uk/jobs/school-transport-coordinator) — Insufficient admin/service evidence.
+- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-tynsel-parkes-cofe-primary-academy) — No usable numeric salary.
+- [Leadership Support Officer (Part-time)](https://teaching-vacancies.service.gov.uk/jobs/leadership-support-officer-part-time) — No usable numeric salary.
 
 ## Safety boundary
 

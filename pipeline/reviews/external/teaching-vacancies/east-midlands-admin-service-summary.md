@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-11-01
-review_fingerprint: 03f48930f9ee808db2bfca91a36298e7379483002da0b22d3997485bc7d635f4
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 2a8f0f277e2bfecc510a0210fa1bcfdd52dfb6b8e1786518cc77cc30fa2c609c
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 3
+- Selected: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
@@ -23,80 +23,22 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 0LL | £26,427.00 - £27,274.00 Annually (FTE) Pro-rata for the hours advertised (£22,948 - £23,684) | Administration Assistant (Maternity Cover)
-employer: The de Ferrers Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 4cc2b2ee9e22e9fe4cf6c19723c92403139fd01c8ff878ae928e9ad469308861
-source: Teaching Vacancies
-source_job_id: administration-assistant-maternity-cover-the-de-ferrers-academy-burton-on-trent-staffordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-maternity-cover-the-de-ferrers-academy-burton-on-trent-staffordshire
----
-
----
-action: 
-SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 9SA | £27,274.00 - £28,153.00 Annually (FTE) Actual Salary: Grade 5 (SCP 7-9) £17,603.14 to £18,170.47 per annum | Administration Assistant for Work Experience and Careers
-employer: John Taylor Free School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 31bd6ea15d98f1de4ac9ebf1b0bcfd552e089b37d59a0a7a5821946df6b54658
-source: Teaching Vacancies
-source_job_id: administration-assistant-for-work-experience-and-careers
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-for-work-experience-and-careers
----
-
----
-action: 
-SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE15 9RT | £26,847.00 - £27,274.00 Annually (FTE) Actual salary: Grade 4 (SCP 6-7) £23,313 - £23,684 per annum | Administrative Assistant
-employer: Paulet High School
-closing_date: 2026-11-06T09:00:00+00:00
+SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 9AG | £18,515.00 Annually (Actual) | Administrative Assistant
+employer: John of Rolleston Primary School
+closing_date: 2026-12-14T23:59:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 845f76cdb40abbddc87e65cd127bc7ae5c2525550974886308a4111d09af017c
+factual_fingerprint: 3be098174c0b88a21d496228a442cc51958cfa9b126441ce6d4ff87b9ef88171
 source: Teaching Vacancies
-source_job_id: administrative-assistant-paulet-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-paulet-high-school
----
-
----
-action: 
-SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 8AZ | £26,427.00 Annually (FTE) Actual salary: Grade 3 (SCP 5) £15,505.88 per annum | Receptionist and Data Assistant
-employer: John Taylor High School
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: c1b341e64cbbd7f05c15be7ed9d183f02fb86614f642a5b9446c6c0e0acbce50
-source: Teaching Vacancies
-source_job_id: receptionist-and-data-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-data-assistant
+source_job_id: administrative-assistant-john-of-rolleston-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-john-of-rolleston-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | East Midlands | Burton-on-Trent, West Midlands, DE13 0LL | £29,071.00 - £31,015.00 Annually (FTE) Actual salary for hours advertised £26,527 - £28,300 - ALP Grade 4 | HR and Executive Leadership Support Officer
-employer: The de Ferrers Academy
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 90ce8f760d10a33d03d49b0062384ec51ada6071ffbc8c3e8995ba9a95d9fb9c
-source: Teaching Vacancies
-source_job_id: hr-and-executive-leadership-support-officer-the-de-ferrers-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-leadership-support-officer-the-de-ferrers-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -104,8 +46,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-lead
 
 ## HARD_PASS
 
-- [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-160feac7-25e3-4305-b23e-7d8295d40b64) — No usable numeric salary.
-- [Education Health Care Plans and Annual Review Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/education-health-care-plans-and-annual-review-co-ordinator) — Insufficient admin/service evidence.
+- [Attendance Intervention Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-intervention-officer-john-taylor-free-school) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-60a4994f-056b-4122-b6f7-e735bd180e61) — Excluded senior/management title.
 
 ## Safety boundary
 

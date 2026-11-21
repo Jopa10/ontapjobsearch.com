@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-01
-review_fingerprint: e44d5c4389448c1720d5a9e026b858deda55c97ea8afd87396ed826bc3fbe9b6
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 81ca656542cb5562108888533290bade876155786471b77cada46f8e469f5e17
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,285 +13,182 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 47
-- Selected: 12
-- POSS awaiting decision: 6
+- Records: 36
+- Selected: 11
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 29
+- Hard pass: 25
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF4 5HE | Band D, £22,401 to £22,757 per annum (actual salary) Contract: 37 Hours Per Week, Term Time + 2 Insets Days | Administration Assistant
-employer: Horbury Academy
-closing_date: 2026-11-09T09:00:00+00:00
+SELECTED | Yorkshire - West | Dewsbury, Yorkshire and the Humber, WF12 0HE | £20,222.00 - £20,543.00 Annually (Actual) Band C SCP 5-6 | Admin Assistant
+employer: Thornhill Community Academy, A Share Academy
+closing_date: 2026-11-29T23:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: f81f4e6ec4f542568465a87eb62a9c685b9b334d6f25808c3f285edea08f6bd1
+source: Teaching Vacancies
+source_job_id: admin-assistant-thornhill-community-academy-a-share-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-thornhill-community-academy-a-share-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD7 3HU | £22,462.00 - £22,819.00 Annually (Actual) Scale 3, SCP 5-6 (FTE £26,427 - £26,847), 37 Hours Per Week, Term Time Only (Fixed Term Maternity Cover from January to June 2027) | Administration Assistant
+employer: Farnham Academy
+closing_date: 2026-11-23T09:00:00+00:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: d7d5cf1ca3472f28b0c2b47a3ee198492898f255b2de424b3d671091faaf1014
+factual_fingerprint: 5c67550d81dc1ae8a16f9fc567fdcd9ba58854d8320c241667d74047bb44e1a0
 source: Teaching Vacancies
-source_job_id: administration-assistant-horbury-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horbury-academy
+source_job_id: administration-assistant-farnham-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-farnham-academy
 ---
 
 ---
 action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7EB | £23,274.00 - £24,579.00 Annually (Actual) | Attendance Officer
-employer: Bronte Girls' Academy
-closing_date: 2026-11-04T12:00:00+00:00
+SELECTED | Yorkshire - West | LEEDS, Yorkshire and the Humber, LS16 6NF | £26,016.00 - £26,846.00 Annually (FTE) 32 hours per week. Salary NJC Grade B1, Scale Points 4-6. Actual Salary £19,051-19,658 per annum | Administrative Assistant
+employer: Holy Name Catholic Voluntary Academy
+closing_date: 2026-12-10T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 3d2b8285a5bc910dd1150e69f903227b4a72aea3974fb105f48741e7c63aca16
+source: Teaching Vacancies
+source_job_id: administrative-assistant-holy-name-catholic-voluntary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-holy-name-catholic-voluntary-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Wakefield, WF1 2PF | £28,153 - £29,071 | Administrative Assistant
+employer: Outwood Grange Academies Trust
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 31fcb51682213b83a0c2f293f751315f6aeed11907435038195f642921c037d7
+source: Teaching Vacancies
+source_job_id: administrative-assistant-outwood-grange-academies-trust-wakefield-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-outwood-grange-academies-trust-wakefield-not-recorded
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £33,673.00 - £36,581.00 Annually (FTE) Grade G Points 20 - 24 (£33,673 - £36,581 Full Time Equivalent). The minimum actual pro rata salary per annum for this job starts at £30,104.34. | PA to Principal (7934)
+employer: De Lacy Academy
+closing_date: 2026-12-03T23:59:00+00:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: afc081d18848231956fb3272c17f896ebeefada118a3d10ca9231d25bf31fa28
+source: Teaching Vacancies
+source_job_id: pa-to-principal-7934
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-7934
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS6 2LG | £32,305.00 - £34,115.00 Annually (Actual) 37 hours per week, term time only plus 15 additional days | Personal Assistant to the Principal & Administrator
+employer: Leeds City Academy
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrator, personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: d9f8c17d7f21e689f16ee78a5927a700e59ae54bfd413a79025ef41e2f568518
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-the-principal-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-administrator
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Batley, Yorkshire and the Humber, WF17 0AD | £23,021.00 Annually (Actual) Grade 5 | Receptionist/Administration Officer
+employer: Batley Grammar School
+closing_date: 2026-12-03T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: aded80c6e3ef87123b6175bb1db567c9affa42d5f77e081ec926769c12369689
+source: Teaching Vacancies
+source_job_id: receptionist-administration-officer-batley-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-officer-batley-grammar-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS28 8EP | £27,274 - £29,071 pro rata £20,078 - £21,784 actual | School Administrator
+employer: Pudsey Bolton Royd Primary School
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: a764d53bad1689ba5e2c8fbbef932e2ec8c426a9a0f0f05aa24f88d611f569c8
+source: Teaching Vacancies
+source_job_id: school-administrator-pudsey-bolton-royd-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-pudsey-bolton-royd-primary-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF1 4SF | £24,161 to £25,284 | School Attendance Officer
+employer: Outwood Academy City Fields
+closing_date: 2026-11-26T12:00:00+00:00
 reason: Clear admin/service title: attendance officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 266088610da4e1c20cd23015664ef6f551d8484f35e5625882990af1091fb927
+factual_fingerprint: d76497f6798b010df780b298de69c5a71abe75d4d07ed813b119cf9e7896d897
 source: Teaching Vacancies
-source_job_id: attendance-officer-bronte-girls-academy-bradford
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-bronte-girls-academy-bradford
+source_job_id: school-attendance-officer-a2c32571-8c87-456e-945f-48de729c3dcf
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-attendance-officer-a2c32571-8c87-456e-945f-48de729c3dcf
 ---
 
 ---
 action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD4 5JA | £26,583.26 Annually (Actual) Grade 7 SCP14-17 | Data and Exams Administrator
-employer: Moor End Academy
-closing_date: 2026-11-04T09:00:00+00:00
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS14 6HA | £25,061.00 - £25,646.00 Annually (Actual) Grade B3, SCP 7 - 11 | SEND Administrator
+employer: Leeds East Academy
+closing_date: 2026-12-04T09:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 7b19a9222eaae1ab200137ee462c88c3dae2a4668d7aaf5fa9584bf520afbab3
+factual_fingerprint: e6ae7886fbb2f5333b9108cdf2db7f2293a5c76799a558d0e5e1879626dfdb14
 source: Teaching Vacancies
-source_job_id: data-and-exams-administrator-moor-end-academy-huddersfield-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-administrator-moor-end-academy-huddersfield-west-yorkshire
+source_job_id: send-administrator-leeds-east-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-leeds-east-academy
 ---
 
 ---
 action: 
-SELECTED | Yorkshire - West | Ilkley, Yorkshire and the Humber, LS29 8TR | £29,542.00 - £32,046.00 Annually (Actual) All year round | Enrichment & Finance Officer
-employer: Ilkley Grammar School
-closing_date: 2026-11-02T08:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 5d59df72122a870605d9a3f2195a7f6d7507f4235476d01b91b3089e09ddde3b
-source: Teaching Vacancies
-source_job_id: enrichment-finance-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/enrichment-finance-officer
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7QS | £31,088.00 Annually (Actual) | Exams Officer
-employer: Bradford Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 1f2b01b08a6bbb8d38e236236d8827da657cfab6c9610a0e97076e1fd72eb9e1
-source: Teaching Vacancies
-source_job_id: exams-officer-bradford-academy-bradford
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bradford-academy-bradford
----
-
----
-action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4ES | £31,324.00 per annum FTE | Finance Officer
-employer: Greenhead College
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 29d9fcc56f21a56c8160e1380070fd716bc04f08978e48eebcc122a1d8cb7c48
-source: Teaching Vacancies
-source_job_id: finance-officer-greenhead-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greenhead-college
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7QS | £22,192.00 - £23,098.00 Annually (Actual) SCP 4 - 5 | Primary Receptionist
-employer: Bradford Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 80f1fb10a495352da1451ca57ad52205b5d1cc446e4810a054a292d1de3bdea0
-source: Teaching Vacancies
-source_job_id: primary-receptionist-bradford-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-receptionist-bradford-academy
----
-
----
-action: 
-SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX3 9LG | £22,713.00 Annually (Actual) Grade 2, SCP4, term time plus 5 days | Receptionist
-employer: Park Lane Academy
-closing_date: 2026-11-05T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: e7337aab6290a3bac4b268796fe61d849eec31c5ab837c96bd2c3c88a2b313e8
-source: Teaching Vacancies
-source_job_id: receptionist-park-lane-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-park-lane-academy
----
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0JY | £11,273.00 - £11,634.00 Annually (Actual) Band B1, SCP 4-6. FTE: £26,016 - £ 26,847 | Receptionist/Administrator
-employer: Meadowfield Primary School
-closing_date: 2026-11-12T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: fd0db2c9357fe5cdf866ad38d8913095a74ff1d5d56a3cf321d7b93fe1e5f9c7
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-ca52dc57-0aa2-4583-be92-409ff21aea72
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ca52dc57-0aa2-4583-be92-409ff21aea72
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7QS | £18,864.00 - £20,106.00 Annually (Actual) SCP 7 - 11 | SEND Administrator (part-time, 30h per week)
-employer: Bradford Academy
-closing_date: 2026-11-01T23:59:00+00:00
+SELECTED | Yorkshire - West | Keighley, Yorkshire and the Humber, BD20 6EB | £30,198.00 - £31,890.00 Annually (Actual) Band SO1, SCP 23-25, Fixed Term until July 2027, Core working pattern Mon-Thu 8:00am-4:00pm, Fri 8:00am-3:30pm (need of flexibility) | Sports Coach & School Games Administrator
+employer: Carlton Keighley
+closing_date: 2026-11-23T10:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 2671fdd02d731a447eb0d39711c0b5fb9329ba9c1a92b73c61e2b3f472d225ca
+factual_fingerprint: 0c4822f60b6c3f31688f7c7cffc7d6f7df2c08fdf18c91661696a12c030ab814
 source: Teaching Vacancies
-source_job_id: send-administrator-part-time-30h-per-week
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-part-time-30h-per-week
----
-
----
-action: 
-SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF1 2PF | £21,784.89 to £22,126.80. | Student Information Desk Receptionist
-employer: Outwood Grange Academy
-closing_date: 2026-11-13T08:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: d790f56fa17fa24d7d4414bf36c424442de96060e769f9df29b43e693246e781
-source: Teaching Vacancies
-source_job_id: student-information-desk-receptionist-outwood-grange-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/student-information-desk-receptionist-outwood-grange-academy
----
-
----
-action: 
-SELECTED | Yorkshire - West | Ilkley, LS29 8TR | £23,455.00 - £25,466.00 Annually (Actual) Term time only plus 5 days | Trust HR Administrator
-employer: Moorlands Learning Trust
-closing_date: 2026-11-02T08:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: eda7069851414097adf5e1c093ab19026ba54f39bb26709222027ccbe1828794
-source: Teaching Vacancies
-source_job_id: trust-hr-administrator-moorlands-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-administrator-moorlands-learning-trust
+source_job_id: sports-coach-school-games-administrator-carlton-keighley
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-games-administrator-carlton-keighley
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Yorkshire - West | Mirfield, Yorkshire and the Humber, WF14 9EZ | £23,632.00 - £24,778.00 Annually (Actual) Grade 5, Scale Point 5-8. FTE - £26,427 - £27,709) | Administration Assistant
-employer: The Mirfield Free Grammar
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: e66ce8127782172ac9595d451a2540aa130398ce1d535a46ac60ec7f05fcdbea
-source: Teaching Vacancies
-source_job_id: administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
----
-
----
-action: 
-POSS | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
-employer: All Saints Catholic College
-closing_date: 2026-11-03T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 48b7d80023caaf1296d470a5bb1829efdf0f8d35fd8139f52e9eaa2f0ff53848
-source: Teaching Vacancies
-source_job_id: business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
----
-
----
-action: 
-POSS | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4ES | £25,951.00 to £27,733.00 per annum FTE | HR Administrator
-employer: Greenhead College
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: b75ea3ca87766fb6e62cac87ca8616e2994d3fc8541660cea6fdc4add3af5c2c
-source: Teaching Vacancies
-source_job_id: hr-administrator-greenhead-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-greenhead-college
----
-
----
-action: 
-POSS | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | HR Officer
-employer: Great Heights Academy Trust
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: cb72494f6b56c6d181f0dbbe2b33e3f3b76d2b6e9214fc41b4313f7eb1a39120
-source: Teaching Vacancies
-source_job_id: hr-officer-great-heights-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-heights-academy-trust
----
-
----
-action: 
-POSS | Yorkshire - West | Wetherby, Yorkshire and the Humber, LS23 6DX | £25,185-£25,989 | Office Administrator
-employer: Primrose Lane Primary School
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: f22604bc3563e4361c632b9cb1a1cce54fa268cfdb030b8d12501376f85b8364
-source: Teaching Vacancies
-source_job_id: office-administrator-primrose-lane-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-primrose-lane-primary-school
----
-
----
-action: 
-POSS | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | Operations Officer
-employer: Great Heights Academy Trust
-closing_date: 2026-11-02T12:00:00+00:00
-reason: Borderline school administration title: operations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: dc6a407918505b2c9507a204c6991a9747b9810a516a6d4f2653a5a7a9f6709b
-source: Teaching Vacancies
-source_job_id: operations-officer-great-heights-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-great-heights-academy-trust
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -299,35 +196,31 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gr
 
 ## HARD_PASS
 
-- [Academy Operations Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-administrator-co-op-academy-brierley) — No usable numeric salary.
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-e2369599-57e0-464a-a903-f4cbf97046f4) — Insufficient admin/service evidence.
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
-- [Administrative Support Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/administrative-support-assistant-maternity-cover-gledhow-primary-school) — Insufficient admin/service evidence.
-- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-1a49a8cb-9a05-468f-84cb-f2dd01c42071) — No usable numeric salary.
-- [Attendance Leader](https://teaching-vacancies.service.gov.uk/jobs/attendance-leader-appleton-academy-bradford-west-yorkshire) — Excluded senior/management title.
-- [Business Support Office Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-office-manager-st-paulinus-catholic-primary-academy) — Excluded senior/management title.
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Excluded senior/management title.
-- [Employee Relations Specialist](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist) — Insufficient admin/service evidence.
-- [Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-manager-the-bishop-wheeler-catholic-academy-trust) — Excluded senior/management title.
+- [019 - HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/019-hr-assistant) — Insufficient admin/service evidence.
+- [Academy Business Leader](https://teaching-vacancies.service.gov.uk/jobs/academy-business-leader-e9234181-3796-40b5-8607-aa4c0657cf7a) — Excluded senior/management title.
+- [Admin and Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-18575951-37f7-4cf2-88ec-92eda75445ad) — No usable numeric salary.
+- [Administration assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chapel-allerton-primary-school) — No usable numeric salary.
+- [Administration Officer - SEND & Pastoral](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-send-pastoral) — Insufficient admin/service evidence.
+- [Attendance and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-welfare-officer-leeds-city-academy) — Insufficient admin/service evidence.
+- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-leodis-academies-trust) — Excluded senior/management title.
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-owlcotes-multi-academy-trust) — Excluded senior/management title.
+- [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-north-halifax-grammar-school) — Excluded senior/management title.
+- [Data Protection Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-officer-waterton-academy-trust) — Salary over £50k.
+- [Director of People & Culture](https://teaching-vacancies.service.gov.uk/jobs/director-of-people-culture-shipley-college) — Excluded senior/management title.
+- [Employee Relations (ER) Advisor - Fixed Term until 17th December 2027](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-er-advisor-fixed-term-until-17th-december-2027) — No usable numeric salary.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — No usable numeric salary.
-- [Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-officer-39b7503c-0dfc-4dc9-b7cf-19e31f8c3bb6) — Insufficient admin/service evidence.
-- [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-south-pennine-academies) — Excluded senior/management title.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-cockburn-multi-academy-trust) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-high-park-school) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dixons-academies-trust) — Salary over £50k.
+- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-impact-education-multi-academy-trust) — Excluded senior/management title.
+- [HR Administration Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-team-leader) — Excluded senior/management title.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-crawshaw-academy) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.
-- [Information Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/information-governance-coordinator) — Insufficient admin/service evidence.
-- [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-dixons-academies-trust) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-heaton-primary) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pudsey-bolton-royd-primary-school) — Excluded senior/management title.
-- [Operations Support Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-support-co-ordinator) — Insufficient admin/service evidence.
-- [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team) — Excluded senior/management title.
-- [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover-abbey-multi-academy-trust) — Insufficient admin/service evidence.
-- [School Administrator Role - Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-768b631b-d361-4d35-990b-279a7fa5d4d7) — No usable numeric salary.
-- [School Support Manager](https://teaching-vacancies.service.gov.uk/jobs/school-support-manager-ark-the-king-s-school) — Excluded senior/management title.
-- [Sixth Form and Careers Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-and-careers-administration-officer) — Insufficient admin/service evidence.
-- [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-enhance-academy-trust-bradford-not-recorded) — Excluded senior/management title.
-- [Work Placement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/work-placement-coordinator-outwood-grange-academy-wakefield-west-yorkshire) — No usable numeric salary.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hillside-primary-school-huddersfield-west-yorkshire) — Excluded senior/management title.
+- [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team-temple-learning-academy) — Excluded senior/management title.
+- [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-westbrook-lane-primary-school) — Excluded senior/management title.
+- [Trust Data & Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-systems-analyst) — Insufficient admin/service evidence.
+- [Trust Service Officer - Governance, Assurance and Compliance](https://teaching-vacancies.service.gov.uk/jobs/trust-service-officer-governance-assurance-and-compliance) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

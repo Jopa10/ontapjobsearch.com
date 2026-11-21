@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-01
-review_fingerprint: 2204aed0819d1caf4f4d9db3e783acbbfb99cb9d01c4131606c9e8c6ba3c4619
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: c71408d3713c28fdacb088654fcbab6e1d87b383226b327998fedc1aded009bd
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,104 +13,149 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 3
-- POSS awaiting decision: 3
+- Records: 20
+- Selected: 4
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 11
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Essex | Ongar, East of England, CM5 9NB | £13,812.00 - £14,022.00 Annually (Actual) Scale 3, Points 4 – 5 with Fringe | Administration assistant
-employer: High Ongar Primary School
-closing_date: 2026-11-10T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cac24a803441f08a26ee50b90cbf51a968f560559b78f41d33b5dbea2d356831
-source: Teaching Vacancies
-source_job_id: administration-assistant-high-ongar-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-high-ongar-primary-school
----
-
----
-action: 
-SELECTED | Essex | Westcliff-on-Sea, East of England, SS0 0LG | £9,630.00 - £9,785.00 Annually (Actual) Term Time plus 2 INSET days ( 1 year fixed term) | Administration Assistant - One Year Fixed Term
-employer: Prince Avenue Academy and Nursery
-closing_date: 2026-11-04T08:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e52ee80bd6c29fe60988ced88a243a848d961419360cb38366e306bfd82ec623
-source: Teaching Vacancies
-source_job_id: administration-assistant-one-year-fixed-term
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-one-year-fixed-term
----
-
----
-action: 
-SELECTED | Essex | Stanford-le-Hope, East of England, SS17 8JT | £22,687 | Administrator: Reprographics
-employer: Mossbourne Fobbing Academy
-closing_date: 2026-11-01T23:59:00+00:00
+SELECTED | Essex | Chelmsford, CM2 9DZ | £26,017.00 - £26,429.00 Annually (Actual) | General Administrator
+employer: Bridge Academy Trust
+closing_date: 2026-11-29T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8ec4c4542c5bcbea1feff64c5d2fc7cac4ae861ed4cd8533d9968ebdcb376e70
+factual_fingerprint: 1844089b523d8c095dc707cb3716046283f1c76848fa9eba9f84036e6bc974cf
 source: Teaching Vacancies
-source_job_id: administrator-reprographics-mossbourne-fobbing-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-reprographics-mossbourne-fobbing-academy
+source_job_id: general-administrator-bridge-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-bridge-academy-trust
+---
+
+---
+action: 
+SELECTED | Essex | Leigh-on-Sea, East of England, SS9 3TG | £27,274.00 Annually (FTE) Pro rata: £11,455 | Post 16 Administrator
+employer: Belfairs Academy
+closing_date: 2026-11-24T23:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c5bbb20e6d0b08f7d8fcf41d213ae4fc5076d970515b9a2b338d36f8639c0c4a
+source: Teaching Vacancies
+source_job_id: post-16-administrator-belfairs-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-administrator-belfairs-academy
+---
+
+---
+action: 
+SELECTED | Essex | Epping, East of England, CM16 5JB | £29,071.00 - £32,046.00 Annually (FTE) | SEND Co-Educator - One to One Personal Assistant
+employer: Epping St John's Church of England School
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b27d3ad04f1d6e07ddcee0f5acf17ecdb9fe7a3cacd8ef84ff179e0415f07a65
+source: Teaching Vacancies
+source_job_id: send-co-educator-one-to-one-personal-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-co-educator-one-to-one-personal-assistant
+---
+
+---
+action: 
+SELECTED | Essex | Epping, East of England, CM16 5JB | £26,847.00 - £28,608.00 Annually (Actual) | Sixth Form Administrator
+employer: Epping St John's Church of England School
+closing_date: 2026-11-27T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3bd6285f58dbf978aec2be633925edfabf0a69945d4afe8278a3deea2d030f3d
+source: Teaching Vacancies
+source_job_id: sixth-form-administrator-epping-st-john-s-church-of-england-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-epping-st-john-s-church-of-england-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Essex | Buckhurst Hill, East of England, IG9 6DS | £22,646.00 Annually (Actual) | Admin Assistant
-employer: Buckhurst Hill Community Primary School
-closing_date: 2026-11-02T23:59:00+00:00
+POSS | Essex | Southend-on-Sea, East of England, SS1 2NS | £24,165.00 - £26,175.00 Annually (Actual) Level 5 Points 7 to 12 | Admin Assistant
+employer: Porters Grange Primary School and Nursery
+closing_date: 2026-12-04T12:00:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: fa55814e94e2cd7588fa129cc1457f86713a7c645fe5df39f2390cb7e26dd782
+factual_fingerprint: 04d7801e2478729ba290f6dea801ac474e020409579b1adb256e8e5bb8cd9e7e
 source: Teaching Vacancies
-source_job_id: admin-assistant-buckhurst-hill-community-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-buckhurst-hill-community-primary-school
+source_job_id: admin-assistant-porters-grange-primary-school-and-nursery
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-porters-grange-primary-school-and-nursery
 ---
 
 ---
 action: 
-POSS | Essex | Brentwood, East of England, CM15 9NG | £25,171.00 - £26,384.00 Annually (Actual) | Admin Assistant
-employer: Larchwood Primary School
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cdf3fc9ba128ff76d968e199633829a2a72f6bb1bc98c36e674917f20025991d
-source: Teaching Vacancies
-source_job_id: admin-assistant-larchwood-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-larchwood-primary-school
----
-
----
-action: 
-POSS | Essex | Brentwood, CM13 2HG | £29,361.00 - £30,776.00 Annually (FTE) | Operational Support Assistant
+POSS | Essex | Brentwood, CM13 2HG | £18,272.00 - £19,646.00 Annually (Actual) Includes Fringe Allowance | Governance Professional
 employer: Discovery Educational Trust
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Administrative duties evidenced in description
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Borderline school administration title: governance professional
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 3612ff76776773a24f60ad3d88438a0be375137ed6eaf35918e5eae54bcb96b5
+factual_fingerprint: f63dbaa666611ddf7d2b1f65e9e27ae37d3346cc489947ca07defbc50d276ea8
 source: Teaching Vacancies
-source_job_id: operational-support-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/operational-support-assistant
+source_job_id: governance-professional-discovery-educational-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-discovery-educational-trust
+---
+
+---
+action: 
+POSS | Essex | Brentwood, CM13 2HG | £33,872.00 - £37,334.00 Annually (Actual) Includes Fringe Allowance | Payroll Officer
+employer: Discovery Educational Trust
+closing_date: 2026-11-26T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 03a066623e0ad964cadbab9401f25d0786507229250c760ab9fca0f55bd841b5
+source: Teaching Vacancies
+source_job_id: payroll-officer-discovery-educational-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-discovery-educational-trust
+---
+
+---
+action: 
+POSS | Essex | Clacton On Sea, CO15 6DZ | £28,608.00 - £30,023.00 Annually (Actual) Local Government Scale 5, Point 10-13 | People Operations Officer
+employer: The Sigma Trust
+closing_date: 2026-12-01T23:59:00+00:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 538e21ea1e65310ac8ffa7e5e72b95d2f71d3e9e95b0230eb0d2b8a27c0517b2
+source: Teaching Vacancies
+source_job_id: people-operations-officer-the-sigma-trust-clacton-on-sea-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-officer-the-sigma-trust-clacton-on-sea-not-recorded
+---
+
+---
+action: 
+POSS | Essex | Brentwood, East of England, CM13 2HG | £25,171.00 - £26,384.00 Annually (Actual) | SEND Administrator
+employer: St Martin's School Brentwood
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ba933990988139deb9f69b4bb79dd083509855e32c5615020e836c111cb726f7
+source: Teaching Vacancies
+source_job_id: send-administrator-st-martin-s-school-brentwood
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st-martin-s-school-brentwood
 ---
 
 ## EXCLUDED BY REVIEW
@@ -119,19 +164,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operational-support-a
 
 ## HARD_PASS
 
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-88731512-4f32-446c-b927-3ff9b578aae5) — No usable numeric salary.
-- [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador) — Insufficient admin/service evidence.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust-brentwood-not-recorded) — Salary over £50k.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college-harlow-essex) — Salary over £50k.
-- [Music Administrator](https://teaching-vacancies.service.gov.uk/jobs/music-administrator-colchester-royal-grammar-school) — No usable numeric salary.
-- [Operations Manager - Harwich](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-harwich) — Excluded senior/management title.
-- [Pastoral Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-assistant-the-fitzwimarc-school) — Insufficient admin/service evidence.
-- [Payroll and Pension Analyst](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pension-analyst) — Salary over £50k.
-- [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-colne-community-school) — Insufficient admin/service evidence.
-- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-350f15ec-6ca7-47eb-90e2-1629046cf441) — Excluded senior/management title.
-- [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-harris-academy-wickford) — Excluded senior/management title.
-- [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-884963be-594a-40f8-a5c8-a9fbe6867b15) — Excluded senior/management title.
-- [Trust Data and MIS Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-and-mis-analyst) — No usable numeric salary.
+- [Assistant Data Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-manager-the-basildon-upper-academy) — Excluded senior/management title.
+- [Attendance and Educational Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-educational-support-officer) — Insufficient admin/service evidence.
+- [Careers Assistant](https://teaching-vacancies.service.gov.uk/jobs/careers-assistant-st-martin-s-school-brentwood-brentwood-essex) — Insufficient admin/service evidence.
+- [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services-st-martin-s-school-brentwood) — Out-of-scope occupation: deputy head.
+- [Director of Human Resources and Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-human-resources-and-operations) — Excluded senior/management title.
+- [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.
+- [Human Resources Business Partner (L&D/Projects)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-l-d-projects) — Salary over £50k.
+- [Midday Assistant](https://teaching-vacancies.service.gov.uk/jobs/midday-assistant-the-fitzwimarc-school) — Insufficient admin/service evidence.
+- [Senior Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/senior-cover-supervisor-st-john-payne-catholic-school-chelmsford) — Excluded senior/management title.
+- [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-plume-school) — Excluded senior/management title.
+- [Senior PA to Leadership Team and Inclusion Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-pa-to-leadership-team-and-inclusion-coordinator) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -1,19 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-25T13:16:02+00:00",
+  "generated_at": "2026-11-04T19:27:54+00:00",
   "source": "Teaching Vacancies",
   "region": "Gloucestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-25",
-  "review_fingerprint": "b8b3eb20df92de3ff092585bf9886f5b7d11ff4be8b8a95e005fb54460fefa7b",
-  "routing_manifest_sha256": "59970683ebb9803128e6c57d30098fe5d328b1f58975932dac0e2b872e8d5cb5",
-  "review_csv_sha256": "5e90fac84467b3f2eb7064511c2faa8b77609fd4141390b0c893944b46a9a72d",
-  "summary_md_sha256": "f13ff9dc1671e98d1347f952992da52731d96b21635d1423a7afb153d50018e2",
-  "approved_snapshot_sha256": "67bf2dfbfffd7933441a258289ef6b9b476a3412cb6b23871f44387688a01056",
-  "approved_rows": 2,
-  "approved_job_ids": [
-    "teaching-vacancies-part-time-receptionist-henley-bank-high-school",
-    "teaching-vacancies-trips-lettings-payment-administrator"
-  ]
+  "review_date": "2026-11-04",
+  "review_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "routing_manifest_sha256": "16f5b6b6283acae42b2657a9a626e61db54104671845d28b53a46f8a01a9ad72",
+  "review_csv_sha256": "1f7830f420f90dcc270b36516636edda133735a3cbd9573ebbde566c678349dd",
+  "summary_md_sha256": "f3beac243ad5eaba5e60c04ed9bdf9edf762611e1be7f9cafcb7030d4a577db1",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

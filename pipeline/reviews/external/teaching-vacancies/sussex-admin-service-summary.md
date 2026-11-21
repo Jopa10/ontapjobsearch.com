@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-11-01
-review_fingerprint: 358cea2427bbcc4d8616615cd9d854f94f45f507b287704b561953efe5acd714
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,60 +13,19 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
-- POSS awaiting decision: 1
+- Records: 4
+- Selected: 0
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
 
----
-action: 
-SELECTED | Sussex | Eastbourne, South East, BN22 9EE | FTE: £26,017.00 - £26,429.00 (actual salary: £21,167.55 to £21,502.76) | Receptionist and Administrative Assistant
-employer: Heron Park Primary Academy
-closing_date: 2026-11-16T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4c06e8853c290bb91f15240cc047de5fd64ebf3fb66079907b6d6d4c2a8791b1
-source: Teaching Vacancies
-source_job_id: receptionist-and-administrative-assistant-heron-park-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-heron-park-primary-academy
----
-
----
-action: 
-SELECTED | Sussex | Lewes, South East, BN7 3AE | Up to £28,796 per annum | Registry Administrator
-employer: Plumpton College
-closing_date: 2026-11-15T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6605f7f2fffae750d7301c361017bab1f74e450873f741be5dd21ac5c1abedb0
-source: Teaching Vacancies
-source_job_id: registry-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/registry-administrator
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Sussex | Lewes, South East, BN7 3AE | Between £25,729 - £28,796 per annum | EAG Advisor
-employer: Plumpton College
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 214d78cb3e2069424c697a57ac61e9b654b91a3c18b3b498d35ba67ebb396096
-source: Teaching Vacancies
-source_job_id: eag-advisor
-source_url: https://teaching-vacancies.service.gov.uk/jobs/eag-advisor
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -74,8 +33,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/eag-advisor
 
 ## HARD_PASS
 
-- [Business Administrator - Finance](https://teaching-vacancies.service.gov.uk/jobs/business-administrator-finance-st-richard-s-catholic-college) — No usable numeric salary.
-- [Cover Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-felpham-community-college) — No usable numeric salary.
+- [Business & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-manager-the-littlehampton-academy) — Excluded senior/management title.
+- [Cover, Data & Exams Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-data-exams-administrator) — No usable numeric salary.
+- [MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/mis-officer-plumpton-college) — Insufficient admin/service evidence.
+- [Nursery Manager](https://teaching-vacancies.service.gov.uk/jobs/nursery-manager-desmond-anderson-primary-academy) — Out-of-scope occupation: nurse.
 
 ## Safety boundary
 

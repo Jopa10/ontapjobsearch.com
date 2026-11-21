@@ -92,7 +92,7 @@ jobs:
           sparse-checkout: |
             app
             pipeline/reports-daily
-      - name: Match and optionally deliver to the two approved private recipients
+      - name: Match and optionally deliver to the approved private recipient
         env:
           CPC_JOB_ALERTS_ENABLED: 'true'
           BREVO_JOB_ALERTS_LIST_ID: '3'
@@ -122,7 +122,7 @@ jobs:
           if os.environ["SEND_PRIVATE"] != "true":
               args.append("--dry-run")
           results = []
-          for recipient in ("jpbt801@gmail.com", "jnabon1108@gmail.com"):
+          for recipient in ("jpbt801@gmail.com",):
               # Verify production again before each independently guarded recipient.
               with urllib.request.urlopen(req, timeout=20) as response:
                   current = json.load(response).get("version")
@@ -135,7 +135,7 @@ jobs:
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as summary:
               summary.write("## Private CPC alert test\n\n")
               summary.write(f"Report: {date}; exact deployed inventory: {os.environ['VERIFIED_SHA']}.\n\n")
-              summary.write("Only jpbt801@gmail.com and jnabon1108@gmail.com, list 3. Public rollout is off.\n\n")
+              summary.write("Only jpbt801@gmail.com, list 3. Public rollout is off.\n\n")
               summary.write("Push validation sends no email. Each address has independent consent and daily duplicate protection.\n\n")
               for result in results:
                   summary.write(result.stdout)

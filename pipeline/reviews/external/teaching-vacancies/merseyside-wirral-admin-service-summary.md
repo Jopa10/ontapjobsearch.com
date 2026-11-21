@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Wirral
 
-review_date: 2026-11-01
-review_fingerprint: 8f9084d6bc090333bf361f802fe0378aa892a1afff923643b86f8605c5983b11
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 1ce3e83b3c4e37921fdccf929b8513bf421edd402d859525d18f6497e7e8785a
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Merseyside - Wirral
 slice_category: admin_service
 slice_status: LIVE
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Merseyside - Wirral | Birkenhead, North West, CH43 4UY | Grade 6, SCP 11-17, actual salary £25,116 - £27,686 (FTE £29,071 - £32,046) | Attendance Officer
-employer: Birkenhead Park School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: attendance officer
+SELECTED | Merseyside - Wirral | Birkenhead, North West, CH42 6RR | £17,802 to £19,311 per year | SEND Administrator
+employer: Prenton High School for Girls
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e982933d70cf8407af19a4fbdf3bf432681898dd8ecf7995a1d257a571c446bf
+factual_fingerprint: 1ebf3778a82a4bf96e0c3f1c2fe56712125106e7d34ae6cbca0ce10857400fc8
 source: Teaching Vacancies
-source_job_id: attendance-officer-a53c84db-c3a3-4c48-8fc0-108a2d6c41cf
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-a53c84db-c3a3-4c48-8fc0-108a2d6c41cf
+source_job_id: send-administrator-prenton-high-school-for-girls
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-prenton-high-school-for-girls
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-a5
 
 ## HARD_PASS
 
-- [PA to Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-senior-leadership-team-birkenhead-park-school) — Excluded senior/management title.
+- [School Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/school-operations-lead-thurstaston-dawpool-cofe-primary-school) — Excluded senior/management title.
 
 ## Safety boundary
 

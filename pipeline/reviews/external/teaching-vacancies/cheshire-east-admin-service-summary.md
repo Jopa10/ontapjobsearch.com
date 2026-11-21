@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-11-01
-review_fingerprint: ed5ef5fd10a8d91f765323d0d7a5fcd9c4137df86d612586b1fa2d19865a774e
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: beff4098690e1b15dd6f98a6bf3930305beb69115fa55b7c1cc229fe1fdf113e
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,42 +13,57 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 2
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 3
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Cheshire - East | Knutsford, North West, WA16 9DB | £22,100.00 Annually (Actual) | Receptionist and Admin Assistant (Maternity Cover)
-employer: Bexton Primary School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
+SELECTED | Cheshire - East | Sandbach, North West, CW11 3NT | Grade 4 £24,908.22 - £26,652.47 | Administration Assistant
+employer: Sandbach High School and Sixth Form College
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8c206b5f1a62d1dc55ac6adb81a1d20e8644e81d904002749e8a672ce6775293
+factual_fingerprint: 18a284254a0ba942da94b1a6caf704f219f727f01023ccee63b0a906e21fb96a
 source: Teaching Vacancies
-source_job_id: receptionist-and-admin-assistant-maternity-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-maternity-cover
+source_job_id: administration-assistant-90e315a4-5a44-4b76-a04f-c4a9542504c8
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-90e315a4-5a44-4b76-a04f-c4a9542504c8
 ---
 
 ---
 action: 
-SELECTED | Cheshire - East | Macclesfield, North West, SK10 4AF | £20,059.00 - £21,381.00 Annually (Actual) NJC Grade 5, SCP 7-11 | Sixth Form Administrator
-employer: The Fallibroome Academy
-closing_date: 2026-11-01T23:59:00+00:00
+SELECTED | Cheshire - East | Sandbach, North West, CW11 3NT | Grade 5 £26652.47 - £29542.48 (Pro Rata) | HR/Payroll Finance Assistant
+employer: Sandbach High School and Sixth Form College
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ff165dd23d6ca0680c2a02979dd6132934ce7060824c0d7fb728d4c1019c7d08
+source: Teaching Vacancies
+source_job_id: hr-payroll-finance-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-finance-assistant
+---
+
+---
+action: 
+SELECTED | Cheshire - East | Macclesfield, North West, SK11 9QU | £19,080.00 - £20,798.00 Annually (Actual) Would consider Grade 6 for exceptional skills | School Administrator
+employer: Gawsworth Primary School
+closing_date: 2026-12-03T12:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a938a0ecf23fd55874b0ce5a0aed00a258f9c98bbf2a5982493b96af8e73f4ba
+factual_fingerprint: d486248e7e0b639fe04336fe52da07c7f3c6cbb443d7bff5b7664cf87034f595
 source: Teaching Vacancies
-source_job_id: sixth-form-administrator-the-fallibroome-academy-macclesfield-cheshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-the-fallibroome-academy-macclesfield-cheshire
+source_job_id: school-administrator-gawsworth-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-gawsworth-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -61,7 +76,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## HARD_PASS
 
-- [School Office Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/school-office-administration-officer) — No usable numeric salary.
+- [Head of Governance and Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-and-compliance-the-learning-partnership-academies-trust) — Excluded senior/management title.
+- [Senior Exams Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-exams-administrator) — Excluded senior/management title.
+- [Trust Branding, Communications and Events Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-branding-communications-and-events-manager) — Excluded senior/management title.
 
 ## Safety boundary
 

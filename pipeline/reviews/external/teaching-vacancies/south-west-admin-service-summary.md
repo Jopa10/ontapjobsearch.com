@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-11-01
-review_fingerprint: 564e47ee763bb018e295fb1ba5d5ee8dfa5956bfbe4cdcbd8438889d226e8d29
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 31fcf2362261f9e4026431aadb5d2529387b5ccc60b9253e35e84a67d4e3a183
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 3
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
@@ -23,47 +23,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | South West | Sherford, South West, PL9 8FA | £26,427.00 - £27,274.00 Annually (FTE) | Administrative Assistant
-employer: Sherford Vale School & Nursery
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | South West | Ludgershall, South West, SP11 9RR | £30,023.00 - £32,046.00 Annually (FTE) | PA to the Headteacher
+employer: The Wellington Academy
+closing_date: 2026-11-30T23:59:00+00:00
+reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: aeaec1fd569e54976325caf841331d6284dcd11f444d1cf2ff2ed0ec51d65a2e
+factual_fingerprint: c54e30df0f1a6ea3875ab9d5a4e85c60e577189e5a6dcae733009b45bbdc808c
 source: Teaching Vacancies
-source_job_id: administrative-assistant-sherford-vale-school-nursery-sherford
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sherford-vale-school-nursery-sherford
+source_job_id: pa-to-the-headteacher-the-wellington-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-headteacher-the-wellington-academy
 ---
 
 ---
 action: 
-SELECTED | South West | Bruton, South West, BA10 0DF | £24,978.00 - £28,002.00 Annually (Actual) | Finance Officer
-employer: Sexey's School
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
+SELECTED | South West | Looe, South West, PL13 2JJ | £25,948.96 Annually (FTE) Actual Salary £11,461.15 per annum | School Administrator
+employer: Polperro Primary Academy
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 1bf7ebcc1d333764f13a051e79ca19fe0640587556ae2abff0ccb26338f64582
+factual_fingerprint: 1798dd71517c89ecb2d482ea3fcd20605f39b2f7478863468771ce2c87083420
 source: Teaching Vacancies
-source_job_id: finance-officer-sexey-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-sexey-s-school
----
-
----
-action: 
-SELECTED | South West | CALLINGTON, South West, PL17 8ND | £25,948 | School Secretary
-employer: Stoke Climsland School
-closing_date: 2026-11-12T23:59:00+00:00
-reason: Clear admin/service title: school secretary, secretary
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 86af0acd4a4f58efd1f6a7ece5e9e5a6f90b8d45e60b673bc32ac0504eb638d3
-source: Teaching Vacancies
-source_job_id: school-secretary-stoke-climsland-school-callington-cornwall
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-stoke-climsland-school-callington-cornwall
+source_job_id: school-administrator-3fb3fdf8-6f93-4850-a0fb-74160f868551
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-3fb3fdf8-6f93-4850-a0fb-74160f868551
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -76,7 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-stok
 
 ## HARD_PASS
 
-- [Admissions and Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-officer-69c1e54a-5b35-4901-a222-0e20faca55c8) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-the-wellington-academy) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-01
-review_fingerprint: 02ee76314827ba2d76fe9bc0573fd5ed9b7d85215cd592c037c01e66e91b9c7d
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: be1bd687db08b57ce4d4cb3079cff26f1cdcfa5e945c3ee45f803b713ca20809
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,87 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 2
-- POSS awaiting decision: 1
+- Records: 10
+- Selected: 6
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 4
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Somerset | Cheddar, South West, BS27 3AQ | Grade 11 £33575 - £37454 per annum pro rata, Actual Starting Salary £30150 | HR Officer/PA to Headteacher
-employer: The Kings of Wessex Academy
-closing_date: 2026-11-02T08:00:00+00:00
-reason: Clear admin/service title: pa to
+SELECTED | Somerset | Frome, South West, BA11 3AP | £8,664.00 - £8,800.00 Annually (Actual) | Administrative Assistant
+employer: St Louis Catholic Primary School, Frome
+closing_date: 2026-11-26T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 6d4b8a20004d0deec0c14d63ff34c4df1c2b835ecd3339c9b84f7eef0b89f503
+factual_fingerprint: a70e2cb366ba10a5626367e2a49abc42fd17b6a4b1eab26e8fafa43467d310a7
 source: Teaching Vacancies
-source_job_id: hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb
+source_job_id: administrative-assistant-st-louis-catholic-primary-school-frome
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-louis-catholic-primary-school-frome
+---
+
+---
+action: 
+SELECTED | Somerset | Weston-Super-Mare, South West, BS23 4XH | £13,024 - £14,195 | Administrator Level 1 (Part time, FTC)
+employer: Uphill Village Academy
+closing_date: 2026-11-23T23:59:59+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 485dc337d62fde891c71b6e44b9681e9f0e85ee7f27d8dc912a1f8d2f4f594a5
+source: Teaching Vacancies
+source_job_id: administrator-level-1-part-time-ftc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-level-1-part-time-ftc
+---
+
+---
+action: 
+SELECTED | Somerset | Crewkerne, South West, TA18 7NT | Grade 14 Pt.4 –6 – £18,062-£18,639 | Attendance Officer
+employer: Wadham School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fd312abfd9f7dcb044f5c0afd5ffb73312c4fb5d169d478c3fb79380a61fe9c3
+source: Teaching Vacancies
+source_job_id: attendance-officer-986124b8-cd3d-4ad3-a350-f07672d96f8e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-986124b8-cd3d-4ad3-a350-f07672d96f8e
+---
+
+---
+action: 
+SELECTED | Somerset | Crewkerne, South West, TA18 7NT | £18,062-£18,639 | Attendance Officer
+employer: Wadham School
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0d604bb710fb4f6bc1e749afece59977051197739bb633fa226f72dcbd3b5337
+source: Teaching Vacancies
+source_job_id: attendance-officer-f1249860-fec2-4640-bf2b-6bc845063a98
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-f1249860-fec2-4640-bf2b-6bc845063a98
+---
+
+---
+action: 
+SELECTED | Somerset | Weston-Super-Mare, South West, BS23 3TZ | £14,504.36 (actual salary) | Office Administrator
+employer: Windwhistle Primary School
+closing_date: 2026-12-01T23:59:59+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ba271eb4b94d6bcd5d162f992596685f4b7ee824dfe1bb6d7cd9f7de0bacab87
+source: Teaching Vacancies
+source_job_id: office-administrator-windwhistle-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-windwhistle-primary-school
 ---
 
 ---
@@ -53,20 +113,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Somerset | Taunton, TA2 7EG | FTE= £26,847, Actual= £12,427 | HR Administrator
-employer: The Oak Partnership Trust
-closing_date: 2026-11-03T23:59:59+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eba1dd84550ce000a14ec7ea962baf711fc3a45c4b4e7cb863f1f6ec4aa3feb0
-source: Teaching Vacancies
-source_job_id: hr-administrator-the-oak-partnership-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-oak-partnership-trust
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -74,14 +121,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 
 ## HARD_PASS
 
-- [Data Administrator & System Management Support](https://teaching-vacancies.service.gov.uk/jobs/data-administrator-system-management-support) — No usable numeric salary.
-- [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager-bridgwater-college-academy) — Excluded senior/management title.
-- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Excluded senior/management title.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-oak-partnership-trust) — Excluded senior/management title.
-- [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Excluded senior/management title.
-- [SEND Administrator and Librarian](https://teaching-vacancies.service.gov.uk/jobs/send-administrator-and-librarian) — No usable numeric salary.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-locking-primary-school) — Excluded senior/management title.
-- [Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/trust-clerk-c394aee1-d7ed-4c84-85d4-9c9175bf52c7) — Insufficient admin/service evidence.
+- [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-avanti-park-school) — No usable numeric salary.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-writhlington-school) — Insufficient admin/service evidence.
+- [Positive Behaviour Support Practitioner and Administrator](https://teaching-vacancies.service.gov.uk/jobs/positive-behaviour-support-practitioner-and-administrator-chilton-trinity-school) — No usable numeric salary.
+- [SEND Administrator](https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bridgwater-college-academy) — No usable numeric salary.
 
 ## Safety boundary
 

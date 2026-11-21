@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-01
-review_fingerprint: 012bc05d3a5b187cb4b5c5e8b278a0a0479973f1de5e4cd7fab67d3078f28a2b
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 07453fd3620d9e3dd47c8e621fe6517e68987c41a6465df9e78ec64346f4c99d
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 6
+- Records: 17
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
@@ -23,109 +23,124 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | North East | Sunderland, North East, SR5 5JA | N4 SCP 7- 9 FTE: £27,274 - £28,153 £14, 485 - £14, 952 actual salary pro-rata (£14.14 - £14.59 hourly rate) | Admin Assistant (N4)
-employer: Harry Watts Academy
-closing_date: 2026-11-08T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a1011686bc65671eddf3843deeff9c5f6512641e921e523fa2911615482d8f2c
-source: Teaching Vacancies
-source_job_id: admin-assistant-n4
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-n4
----
-
----
-action: 
-SELECTED | North East | Stanley, North East, DH9 0TW | £18,587.00 - £18,978.00 Annually (Actual) | Administration Assistant
-employer: North Durham Academy
-closing_date: 2026-11-04T23:59:00+00:00
+SELECTED | North East | Wallsend, North East, NE28 7LQ | Grade 5 - £26,403 - £27,254 *Pay Award Pending* | Administration Assistant
+employer: Burnside College
+closing_date: 2026-11-27T09:00:00+00:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2c2686b21c6d79bd0e3fb3b2caf13d4b18aae1699316ce01ab24d5c0c13729e2
+factual_fingerprint: 8053979fbb45946a01e4a884e9d8664ccb0630a0b6fac48e19aa274877c0627b
 source: Teaching Vacancies
-source_job_id: administration-assistant-north-durham-academy-stanley-county-durham
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-north-durham-academy-stanley-county-durham
+source_job_id: administration-assistant-7c7ff27b-428f-43f8-b838-19b0716cb7d9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-7c7ff27b-428f-43f8-b838-19b0716cb7d9
 ---
 
 ---
 action: 
-SELECTED | North East | Blyth, North East, NE24 2SY | £24,829.00 Annually (Actual) SCP10 | Attendance Officer & Administrator
-employer: Bede Academy
-closing_date: 2026-11-03T09:00:00+00:00
-reason: Clear admin/service title: administrator, attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f3f78d2125f86856b2a866a23954746eea0c32fca3498ec003c0b1df40a5e311
-source: Teaching Vacancies
-source_job_id: attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
----
-
----
-action: 
-SELECTED | North East | Newcastle-upon-Tyne, North East, NE5 2SZ | £30,023.00 - £32,046.00 Annually (FTE) | Business Services Support Administrator
-employer: Studio West
-closing_date: 2026-11-06T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 08f59ea2de81dcfd4d960268df5ad62caab2f0666927cb6d5e0d95619ae32735
-source: Teaching Vacancies
-source_job_id: business-services-support-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-services-support-administrator
----
-
----
-action: 
-SELECTED | North East | Hartlepool, North East, TS25 4HA | £35,571.00 - £38,511.00 Annually (FTE) Actual Salary £30,730.82 - £34,024.53 / Term Time + 5 Days | Exams Officer
-employer: English Martyrs Catholic School and Sixth Form College
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0266e88cb2effea794940174b02076353455a2c9af11cd2bff1b76f565f7122b
-source: Teaching Vacancies
-source_job_id: exams-officer-english-martyrs-catholic-school-and-sixth-form-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-english-martyrs-catholic-school-and-sixth-form-college
----
-
----
-action: 
-SELECTED | North East | Sunderland, North East, SR2 7JN | £8,016.00 - £8,142.00 Annually (Actual) £25,614 - £26,016 FTE. 2 days a week, Thursday and Friday. Pending outcome of job evaluation | Receptionist
+SELECTED | North East | Sunderland, North East, SR2 7JN | £26,427.00 - £26,847.00 Annually (Actual) | Administration Assistant
 employer: St Anthony's Girls' Catholic Academy
-closing_date: 2026-11-02T09:00:00+00:00
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2d870adc6bb8aa06adcc1296d08091134b907f87d68fa003683287df9a71d48f
+source: Teaching Vacancies
+source_job_id: administration-assistant-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear
+---
+
+---
+action: 
+SELECTED | North East | Hartlepool, North East, TS24 7HT | £19,851.00 - £20,624.00 Annually (Actual) | Administrative Assistant
+employer: St Joseph's Catholic Primary School, Hartlepool
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2e8126900367c6f72d16045ea20a134f243a77e6c301569286416cb8f0206972
+source: Teaching Vacancies
+source_job_id: administrative-assistant-st-joseph-s-catholic-primary-school-hartlepool
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-joseph-s-catholic-primary-school-hartlepool
+---
+
+---
+action: 
+SELECTED | North East | Newcastle-upon-Tyne, North East, NE5 2LW | N4 scale point 7- 9 FTE: £27,274 - £28,153 £23,420 - £24,175 actual salary pro-rata (£14.14 - £14.59 per hour) | Administrative Assistants
+employer: Thomas Bewick School
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4edb314bc2adccd3a52a7beade54d67df1ef3fc1c8195741564296ea637e7cad
+source: Teaching Vacancies
+source_job_id: administrative-assistants-thomas-bewick-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistants-thomas-bewick-school
+---
+
+---
+action: 
+SELECTED | North East | Blyth, North East, NE24 2SY | £29,023.00 Annually (Actual) SCP6 | Administrator & Receptionist (Secondary)
+employer: Bede Academy
+closing_date: 2026-11-23T09:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5c6b613cb254f141bf0fcd92d417f358256c70f79c644cf11f0ac4f79c9b5e41
+factual_fingerprint: 9635d6c2aa9301500c1c217a99c9552890d4c29a110a2e0e3b48958a5d8e0f8a
 source: Teaching Vacancies
-source_job_id: receptionist-st-anthony-s-girls-catholic-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-anthony-s-girls-catholic-academy
+source_job_id: administrator-receptionist-secondary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-secondary
+---
+
+---
+action: 
+SELECTED | North East | Darlington, North East, DL3 8NN | NJC Points 8 - 10 £23,939 - £24,716 | Office Administrator
+employer: Abbey Junior School
+closing_date: 2026-11-23T08:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 84a4f601ef11a3ea35a5c0f8c814787bfd1e78ac25dc325f5ff4331d4cafde16
+source: Teaching Vacancies
+source_job_id: office-administrator-abbey-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-abbey-junior-school
+---
+
+---
+action: 
+SELECTED | North East | Sunderland, North East, SR2 7HJ | £22,635.70 - £22,990.95 Annually (Actual) | Receptionist/Administration Assistant
+employer: St Aidan's Catholic Academy
+closing_date: 2026-11-24T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7ab320bc120aed4e70bebe598ad77eb3c7546fdcc45e350c78f1a53a097df103
+source: Teaching Vacancies
+source_job_id: receptionist-administration-assistant-st-aidan-s-catholic-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-st-aidan-s-catholic-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | North East | Blyth, NE24 2SY | £25,147.00 - £26,414.00 Annually (Actual) Whole Time | HR & Payroll Administrator
-employer: Emmanuel Schools Foundation
-closing_date: 2026-11-12T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+POSS | North East | Bishop Auckland, North East, DL14 6JZ | harmonised pay scale 10-12 (£25,812.38-£26,412.67 pro rata) | Finance Administration Assistant
+employer: Bishop Auckland College
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e0d49fd08dbe02e94f2330853f051522c6a13f009ed150113a7ae1428e9fc242
+factual_fingerprint: 9bd2073ff6ca63f1a74ac09add9b35bde97b9bf023c221489ec32bd5d39edc4b
 source: Teaching Vacancies
-source_job_id: hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administrator-emmanuel-schools-foundation-blyth-not-recorded
+source_job_id: finance-administration-assistant-bishop-auckland-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administration-assistant-bishop-auckland-college
 ---
 
 ## EXCLUDED BY REVIEW
@@ -134,15 +149,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administra
 
 ## HARD_PASS
 
-- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields-south-shields-tyne-and-wear) — Excluded senior/management title.
-- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth-sunderland) — Excluded senior/management title.
-- [Hourly Paid Creative Industries Technician (2026/CS015)](https://teaching-vacancies.service.gov.uk/jobs/hourly-paid-creative-industries-technician-2026-cs015) — Out-of-scope occupation: technician.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
-- [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
-- [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-connect-multi-academy-trust) — Insufficient admin/service evidence.
-- [Part Time Creative Industries Technician (2026/CS014)](https://teaching-vacancies.service.gov.uk/jobs/part-time-creative-industries-technician-2026-cs014) — Out-of-scope occupation: technician.
-- [Pastoral Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-officer-febc3c65-3b62-4e66-a0de-9fa208cbd134) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grange-primary-school-hartlepool) — Excluded senior/management title.
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-jarrow-school) — Excluded senior/management title.
+- [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-hurworth-school-darlington-county-durham) — No usable numeric salary.
+- [Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-partner-the-education-village-academy-trust-darlington-not-recorded) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-kings-priory-school) — Insufficient admin/service evidence.
+- [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-bishop-auckland-college) — Insufficient admin/service evidence.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-centurion-multi-academy-trust) — Insufficient admin/service evidence.
+- [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-af43e27f-b30c-4ed7-9581-5362fb482ff1) — Excluded senior/management title.
+- [Payroll Partner](https://teaching-vacancies.service.gov.uk/jobs/payroll-partner) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

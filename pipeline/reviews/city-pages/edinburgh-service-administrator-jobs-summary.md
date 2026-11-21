@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 37
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 7
+- automatic include: 37
+- automatic review: 13
 - automatic exclude: 0
-- effective include: 24
-- effective review: 7
+- effective include: 37
+- effective review: 13
 - effective exclude: 0
 
-## INCLUDE (24)
+## INCLUDE (37)
 
 ---
 action: 
@@ -32,7 +32,19 @@ title: Accounts Assistant
 company: iMultiply Resourcing Ltd - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2203259
+job_id: jobg8-2371598
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Three Bridges Recruitment LTD - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2390224
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -41,10 +53,10 @@ action:
 decision: include
 automatic_decision: include
 title: Accounts Assistant (Part-time 30 hrs)
-company: Michael Page - Agency - Permanent
+company: Michael Page Business Support - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225723903
+job_id: jobg8-2392608
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -52,11 +64,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Huntress - Maidstone - Agency - Temporary
+title: Accounts Receivable Administrator
+company: Gillespie People Solutions - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225694844
+job_id: jobg8-23643_225786572
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -64,11 +76,23 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Pertemps Scotland - Agency - Temporary
+title: Administrator - Charity
+company: Search Consultancy Ltd - Agency - Contract
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225758655
+job_id: jobg8-23643_225828691
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - HYBRID
+company: Office Angels - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225816537
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -88,11 +112,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: ICONIC RESOURCING LTD - Agency - Permanent
+title: Bookkeeper
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2203978
+job_id: jobg8-2397833
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -100,11 +124,83 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Godwin Recruitment - Agency - Permanent
+title: Conveyancing Paralegal
+company: Reed - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225259697
+job_id: jobg8-2358625
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Control
+company: Consula Group LTD - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2404323
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: ICONIC RESOURCING LTD - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2395681
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: ICONIC RESOURCING LTD - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2409308
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Three Bridges Recruitment LTD - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2391043
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller / Billing Assistant
+company: Michael Page Business Support - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2394307
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Adviser
+company: Pontoon - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225813779
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -116,7 +212,7 @@ title: Customer Service Advisor
 company: Pontoon - Agency - Temporary
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225696402
+job_id: jobg8-23643_225816628
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -136,35 +232,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Support Administrator
-company: Search Consultancy Ltd - Agency - Contract
+title: Executive Assistant
+company: Search Consultancy Ltd - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225761200
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Document Controller
-company: Contract Scotland - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225694101
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Engineering Administrator
-company: Spire Healthcare - Company - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225708885
+job_id: jobg8-23643_225810889
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -176,7 +248,7 @@ title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2194804
+job_id: jobg8-2359957
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -184,11 +256,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator (Temp)
-company: Michael Page - Agency - Temporary
+title: Finance Assistant
+company: Robert Half - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225769090
+job_id: jobg8-2394835
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -196,11 +268,95 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Administrator
+title: Financial & Procurement Administrator
+company: Construction & Property Recruitment - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225788274
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR & Recruitment Administrator
+company: Search Consultancy Ltd - Agency - Contract
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225853724
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Michael Page - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225858483
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator (Part Time or Full Time)
+company: Michael Page - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225793975
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator (Part Time)
+company: Michael Page - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225857917
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Junior Accounts Assistant - Customer Service
+company: Robert Half - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2392855
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Junior Financial Administrator - Edinburgh Hybrid - 26/27K
+company: Lorien - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225818489
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Secretary
 company: Reed - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2156776
+job_id: jobg8-2358551
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -220,11 +376,23 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Accounts Assistant
+title: Part Time Administrator
 company: Michael Page - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225764352
+job_id: jobg8-23643_225857955
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Administrator
+company: Search Consultancy Ltd - Agency - Contract
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225804778
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -236,7 +404,7 @@ title: Procurement Assistant
 company: Robert Half - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2188567
+job_id: jobg8-2392183
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -244,11 +412,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Miller Homes - Agency - Permanent
+title: Reception Administrator
+company: Spire Healthcare - Company - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225756376
+job_id: jobg8-23643_225807631
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -256,11 +424,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Site Administrator (Construction)
-company: CNX Recruitment - Agency - Contract
+title: Receptionist & Administrator
+company: Office Angels - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225782091
+job_id: jobg8-23643_225822027
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -280,11 +448,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Receptionist & Administrator
+title: Temporary Project Coordinator - Full Time or Part Time
 company: Office Angels - Agency - Temporary
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225718730
+job_id: jobg8-23643_225848951
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -292,27 +460,15 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Receptionist - Ongoing
+title: Temporary Receptionist & Administration Assistant
 company: Office Angels - Agency - Temporary
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225718450
+job_id: jobg8-23643_225826088
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Theatre Administrator
-company: Spire Healthcare - Company - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225708327
-reason: Approved conservative Edinburgh launch catchment.
----
-
-## REVIEW (7)
+## REVIEW (13)
 
 ---
 action: 
@@ -330,11 +486,11 @@ reason: No approved Edinburgh catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Admin Clerk
-company: ctrg - Agency - Temporary
-location: Livingston
+title: Employment Legal Secretary
+company: G2 Legal Limited - Agency - Permanent
+location: Midlothian
 source: JobG8
-job_id: jobg8-23643_225719849
+job_id: jobg8-2367859
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 
@@ -342,11 +498,11 @@ reason: No approved Edinburgh catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: The Channel Recruiter - Agency - Permanent
-location: Livingston
+title: Finance Assistant
+company: Ezeflow UK Ltd (FKA Munro Miller) - Agency - Permanent
+location: West Lothian
 source: JobG8
-job_id: jobg8-23643_225728259
+job_id: jobg8-23643_225821186
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 
@@ -366,11 +522,23 @@ reason: No approved Edinburgh catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Logistics Coordinator
-company: Escape - Agency - Permanent
-location: Livingston
+title: Legal PA - Corporate and Employment
+company: Creideas - Agency - Permanent
+location: Midlothian
 source: JobG8
-job_id: jobg8-23643_225717917
+job_id: jobg8-2396144
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: paralegal
+company: Kingsgate Recruitment Ltd - Agency - Permanent
+location: Midlothian
+source: JobG8
+job_id: jobg8-2363229
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 
@@ -390,11 +558,71 @@ reason: No approved Edinburgh catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
+title: Payroll Administrator
+company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Livingston
 source: JobG8
-job_id: jobg8-23643_225717067
+job_id: jobg8-2390191
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Coordinator
+company: Escape - Agency - Permanent
+location: Livingston
+source: JobG8
+job_id: jobg8-23643_225799902
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Team Leader
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Dalkeith
+source: JobG8
+job_id: jobg8-2378657
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Questech Recruitment Ltd - Agency - Temporary
+location: Dalkeith
+source: JobG8
+job_id: jobg8-23643_225793155
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Property Legal Secretary - Edinburgh
+company: qed legal - Agency - Permanent
+location: Midlothian
+source: JobG8
+job_id: jobg8-2372594
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Administrator
+company: Escape - Agency - Temporary
+location: Livingston
+source: JobG8
+job_id: jobg8-23643_225825687
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

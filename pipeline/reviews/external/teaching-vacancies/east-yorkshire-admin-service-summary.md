@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-11-01
-review_fingerprint: bdc0c85391338751352afdab6f15301a2b94274cfec8b4ae66bbad04a573c8aa
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 51913867233c5241ae793fef1a09995b994cba75dd1dec680cd7284f96707c3c
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,72 +13,72 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU6 7UR | £26,016.00 - £26,016.00 Annually (Actual) NJC04 : £26,016pa FTE : £8,646.66pa pro rata : Monday to Tuesday, 8.30am to 4.00pm term time | Academy Administrator
-employer: Endike Academy
-closing_date: 2026-11-07T23:59:00+00:00
+SELECTED | Yorkshire - East | Cottingham, Yorkshire and the Humber, HU16 5PX | £20,611.00 Annually (Actual) Term time plus five days - 30hrs per week across five days (maternity cover) | Attendance Officer
+employer: Cottingham High School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3e941176ab7d235eeda06b37afda973e49cd9bb3f724546d4a98af899cc25f1a
+source: Teaching Vacancies
+source_job_id: attendance-officer-cottingham-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-cottingham-high-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU12 8UZ | £23,113.00 - £23,870.00 Annually (Actual) Band 5 (FTE: £29,071 - £30,023) | Exams Officer
+employer: Holderness Academy
+closing_date: 2026-12-02T10:00:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8a8b1be1c9d2e452dc59e8d15c98739051796e98223f23cbfcb6c8b242f65145
+source: Teaching Vacancies
+source_job_id: exams-officer-holderness-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-holderness-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 4EE | £27,004.00 - £29,309.00 Annually (Actual) Term time plus 10 days (200 days per year) | Human Resources Administrator
+employer: The Marvell College
+closing_date: 2026-11-23T11:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 92d75d19ec3fcd1e70a70829c3e4d167362721d15af3b3529f45f85e55c3e280
+factual_fingerprint: 8e144776c603985e74d71e0a07cce76117cee28fd9cf8a3d7c2361d80a56c96b
 source: Teaching Vacancies
-source_job_id: academy-administrator-endike-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-endike-academy
+source_job_id: human-resources-administrator-the-marvell-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-administrator-the-marvell-college
 ---
 
 ---
 action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU3 3PL | £22,468.00 - £23,188.00 Annually (Actual) | Administration Assistant
-employer: Chiltern Primary School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6a9e91abe0d79576a0379516d3a95b6d9e57120cbd895e3d85db423c612dfb2a
-source: Teaching Vacancies
-source_job_id: administration-assistant-chiltern-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chiltern-primary-school
----
-
----
-action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 4NH | £22,701.00 - £23,430.00 Annually (Actual) | Administration Assistant
-employer: Oldfleet Primary School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 43acf5251bcf55e0687bb3a6538f0b8eab4c6b1b776f8a9945de7ee695fe0a1f
-source: Teaching Vacancies
-source_job_id: administration-assistant-oldfleet-primary-school-hull
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-oldfleet-primary-school-hull
----
-
----
-action: 
-SELECTED | Yorkshire - East | Cottingham, HU16 5PX | £27,709.00 - £28,608.00 Annually (FTE) Scale point 8-10 - Term time plus 10 days - Actual salary £24,851-£25,657 | Finance Assistant
-employer: The Consortium Academy Trust
-closing_date: 2026-11-01T23:59:00+00:00
+SELECTED | Yorkshire - East | Bridlington, Yorkshire and the Humber, YO16 4QU | £9,304.00 Annually (Actual) | Receptionist
+employer: Bridlington School
+closing_date: 2026-11-23T09:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 16e61dd3e56f4fdbf9097a4fe86dcb7583190f6e9ac1c769d2e8139351c06392
+factual_fingerprint: b8add3499f66c804b72970ca2d371685a85dba44a17f7dd97cecdd47e1abd80b
 source: Teaching Vacancies
-source_job_id: finance-assistant-1aa789e7-40d1-40c1-97b4-f3cdd63664a9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-1aa789e7-40d1-40c1-97b4-f3cdd63664a9
+source_job_id: receptionist-bridlington-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-bridlington-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -91,7 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-1aa
 
 ## HARD_PASS
 
-- [Finance and Admin Lead](https://teaching-vacancies.service.gov.uk/jobs/finance-and-admin-lead) — Excluded senior/management title.
+- None.
 
 ## Safety boundary
 

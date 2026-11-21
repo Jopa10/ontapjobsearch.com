@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-01
-review_fingerprint: 35f6a53c9b7cdb6ba245fa2efb4f4c93324ec3c6bf818493518f4b24e14a1911
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 940064874e58041ef93d3f0d346d7031599912909f476ee1ca2adfdddb40666c
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
-- POSS awaiting decision: 1
+- Records: 18
+- Selected: 6
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 10
 
 ## SELECTED
 
@@ -25,62 +25,122 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 action: 
 SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV1 2BS | £26,427.00 - £26,847.00 Annually (FTE) Pro rata actual salary £19,283.98-£19,590.45 | Administration Assistant
 employer: Holy Rosary Catholic Primary Academy
-closing_date: 2026-11-04T12:00:00+00:00
+closing_date: 2026-11-27T12:00:00+00:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f3b595cbfcc358aaada7b3c2b35d1d412b4b7368096c534af16efb24a62b1888
+factual_fingerprint: b7270c86dd789652fe588dffe81c4c171ad344cd3391f8ec526751c719ca5053
 source: Teaching Vacancies
-source_job_id: administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75
+source_job_id: administration-assistant-30ea18f5-6687-43df-b73a-b5583b1ab71b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-30ea18f5-6687-43df-b73a-b5583b1ab71b
 ---
 
 ---
 action: 
-SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV10 8BN | £14,305.00 Annually (Actual) | Administrative Assistant
-employer: Fallings Park Primary School
-closing_date: 2026-11-07T23:59:00+00:00
+SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B68 9PA | £27,274.00 - £30,515.00 Annually (FTE) NJC Point 7–14 | HR Administrator
+employer: Bristnall Hall Academy
+closing_date: 2026-11-26T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 934716c8ca5024151b622115b038db0e70aa67c27204200441bce5ca9a0cb94d
+source: Teaching Vacancies
+source_job_id: hr-administrator-bristnall-hall-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-bristnall-hall-academy
+---
+
+---
+action: 
+SELECTED | West Midlands - Black Country | Walsall, West Midlands, WS2 7BH | £27,274.00 - £30,515.00 Annually (FTE) NJC Point 7–14 | HR Administrator
+employer: North Walsall Primary Academy
+closing_date: 2026-11-26T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 807c262736eb0ec66a61ee2f4bea068e49b368bd39b0e45d5f702dbe4d9597e7
+source: Teaching Vacancies
+source_job_id: hr-administrator-north-walsall-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-north-walsall-primary-academy
+---
+
+---
+action: 
+SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B68 0RG | £25,615.00 - £27,710.00 Annually (FTE) Grade 2 Points 3-8 | Receptionist / Administrator
+employer: Perryfields Academy
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 94988bb8b99b9f7625fe308220a6d484531dfcaacb01156c2c4b904881e6ba5f
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-perryfields-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-perryfields-academy
+---
+
+---
+action: 
+SELECTED | West Midlands - Black Country | Cradley Heath, West Midlands, B64 6QU | £26,016.00 - £26,427.00 Annually (Actual) OAT Grade 2, Scale Point 4 - 5 | Safeguarding Administrator
+employer: Ormiston Forge Academy
+closing_date: 2026-11-23T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cba5625ddd60b7df9e8e678b5c4abf590c5c65fa7b4c2fd6944dff5c0905e312
+source: Teaching Vacancies
+source_job_id: safeguarding-administrator-ormiston-forge-academy-cradley-heath-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-ormiston-forge-academy-cradley-heath-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B68 8NE | £22,812.00 Annually (Actual) Grade 3 SCP 5 | School Administrative Assistant
+employer: Oldbury Academy
+closing_date: 2026-11-27T09:00:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 25fce33f8350e1b85800166339a0554c0fd2361f0b5e087990c07919232db441
+factual_fingerprint: 2d18f7f97c87887119ae5a32bcc00eb14659e1411baf5122626110179fce0630
 source: Teaching Vacancies
-source_job_id: administrative-assistant-fallings-park-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-fallings-park-primary-school
----
-
----
-action: 
-SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV6 0BY | £18,144.00 - £18,723.00 Annually (Actual) | Pastoral Admin Assistant
-employer: Wolverhampton Girls' High School
-closing_date: 2026-11-04T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b100b00ad0b65994a5783e6e124a8d1a048a2fbfefeb703a658db8e00a7dc112
-source: Teaching Vacancies
-source_job_id: pastoral-admin-assistant-wolverhampton-girls-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-assistant-wolverhampton-girls-high-school
+source_job_id: school-administrative-assistant-oldbury-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative-assistant-oldbury-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | West Midlands - Black Country | Halesowen, West Midlands, B63 4HY | £22,812.00 - £22,812.00 Monthly | Administration Assistant - Level 2
-employer: Huntingtree Primary School
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Salary period needs verification
+POSS | West Midlands - Black Country | Walsall, West Midlands, WS1 3RH | £27,274.00 - £30,515.00 Annually (FTE) NJC Point 7–14 | HR Administrator
+employer: Caldmore Primary Academy
+closing_date: 2026-11-26T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 18fd16186bb83c241c32f742c8026b603340fa393d00c9d40b467882bebd4f2b
+source: Teaching Vacancies
+source_job_id: hr-administrator-caldmore-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-caldmore-primary-academy
+---
+
+---
+action: 
+POSS | West Midlands - Black Country | Stourbridge, West Midlands, DY7 6AA | Grade 7 SCP 18 - 23 (£32,578 - £35,570 FTE) | HR Support Officer
+employer: Kinver High School and Sixth Form
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 3630c7495dbe67f9e4a92f7bb53bec6186579b7470cffb85c0c1acdedec43e97
+factual_fingerprint: a36a9a95326e2d6e21c93added3bb2bcef3ef834fd9768c91810a4bb28829144
 source: Teaching Vacancies
-source_job_id: administration-assistant-level-2-huntingtree-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-huntingtree-primary-school
+source_job_id: hr-support-officer-kinver-high-school-and-sixth-form
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-support-officer-kinver-high-school-and-sixth-form
 ---
 
 ## EXCLUDED BY REVIEW
@@ -89,13 +149,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## HARD_PASS
 
-- [Educational Visits & DofE Support Officer](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-dofe-support-officer) — Insufficient admin/service evidence.
-- [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — No usable numeric salary.
-- [Head of House PA](https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-8bc41336-6d4d-41f2-ab57-9bedabaa8422) — Excluded senior/management title.
-- [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-highfields-school) — Insufficient admin/service evidence.
-- [Procurement & Bid Writer](https://teaching-vacancies.service.gov.uk/jobs/procurement-bid-writer) — Insufficient admin/service evidence.
-- [Senior Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-assistant-christ-church-church-of-england-primary-school) — Excluded senior/management title.
-- [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-09678cb0-aa80-498a-9526-d1d6da59db60) — Insufficient admin/service evidence.
+- [Aministration Assistant](https://teaching-vacancies.service.gov.uk/jobs/aministration-assistant) — Insufficient admin/service evidence.
+- [Chief Finance and Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-operations-officer-wolverhampton-girls-high-school) — Excluded senior/management title.
+- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-hales-valley-trust) — Excluded senior/management title.
+- [HR Advisor - Senior](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-senior) — Excluded senior/management title.
+- [Office Manager/PA](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa) — Excluded senior/management title.
+- [PA to Head Teacher, Executive Assistant to SLT and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-teacher-executive-assistant-to-slt-and-office-manager-q3-academy-langley) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school-dudley-west-midlands) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-wordsley-school) — Excluded senior/management title.
+- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-priory-primary-school) — Excluded senior/management title.
+- [Trust Facilities and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-facilities-and-operations-manager) — Excluded senior/management title.
 
 ## Safety boundary
 

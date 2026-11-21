@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-11-01
-review_fingerprint: 11f9a4bb2d589453dbc4774f07d4fb8beb64ec5de5a5003b0e4cccc2908fc722
-routing_manifest_sha256: ea943885b4ecb72e50bd2dbf0556ab76c2e17c841f9016cf54d89d2975d527df
+review_date: 2026-11-21
+review_fingerprint: 931070f513150e7b259d3c82eec1b68ed22781295bfd04a8dd3fa9e7e0a26fa9
+routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,87 +13,42 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 5
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 1
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Shropshire | Bridgnorth, West Midlands, WV16 4ER | £25,890.00 Annually (Actual) Grade 7 Point 12–17 | Admin, Finance & Admissions Officer
-employer: Bridgnorth Endowed School
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Clear admin/service title: admissions officer
+SELECTED | Shropshire | Oswestry, West Midlands, SY11 2LF | £8,007.00 Annually (Actual) Grade 3 SCP 5 | Administrator Assistant
+employer: Holy Trinity Church of England Primary Academy and Nursery
+closing_date: 2026-11-27T23:59:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0e9eeb1440324d65647daec319f4c379ab247e49f37555c18361936baa131df0
+factual_fingerprint: c9f92080c53effa80f3a053d571b9337e6561d8d3729b0c5db2b29c995716649
 source: Teaching Vacancies
-source_job_id: admin-finance-admissions-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-admissions-officer
----
-
----
-action: 
-SELECTED | Shropshire | Shrewsbury, West Midlands, SY3 6DZ | £8,661.00 - £8,800.00 Annually (Actual) | Administrative Assistant
-employer: Radbrook Primary School
-closing_date: 2026-11-09T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7f0f84e1db0f736c9d85914ddedd5a05aa1a985e30defcdb794c24128a0a980a
-source: Teaching Vacancies
-source_job_id: administrative-assistant-radbrook-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-radbrook-primary-school
----
-
----
-action: 
-SELECTED | Shropshire | Oswestry, West Midlands, SY11 2AR | Grade 5, Scale point 5-6 (£13.70hr to £13.92hr) Actual Salary for Point 5 - £23,314 | Administrative Assistant - Reprographics/Student Services
-employer: The Marches School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3f3de6b78548a4751ddb49f44f2298fe4cadd703eb8544cbb16417a2b5544da8
-source: Teaching Vacancies
-source_job_id: administrative-assistant-reprographics-student-services
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-reprographics-student-services
+source_job_id: administrator-assistant-holy-trinity-church-of-england-primary-academy-and-nursery
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-assistant-holy-trinity-church-of-england-primary-academy-and-nursery
 ---
 
 ---
 action: 
 SELECTED | Shropshire | Church Stretton, West Midlands, SY6 6EX | £27,709 - £29071 pro rata | Data & Exams Officer
 employer: Church Stretton School
-closing_date: 2026-11-02T09:00:00+00:00
+closing_date: 2026-11-30T09:00:00+00:00
 reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8ea334d58bb05f6ff5d927d31faa15baaac1a1984d7bd1e1765fd4e03ae3973f
+factual_fingerprint: 2cdbfaacbc07b235daf8b381b569d37c313a133fc1f357d271f5a4342199e673
 source: Teaching Vacancies
-source_job_id: data-exams-officer-church-stretton-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-church-stretton-school
----
-
----
-action: 
-SELECTED | Shropshire | Telford, West Midlands, TF3 1LG | £17,488.00 - £17,722.00 Annually (Actual) Term time plus PD Days | Reception Administrator
-employer: Windmill Primary School
-closing_date: 2026-11-04T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dd43b9c0715fd8dce346da963b80b8239301e57420cbd8c21a9b7a7d9a7741b0
-source: Teaching Vacancies
-source_job_id: reception-administrator-windmill-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-windmill-primary-school
+source_job_id: data-exams-officer-church-stretton-school-church-stretton-shropshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-church-stretton-school-church-stretton-shropshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -106,9 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrat
 
 ## HARD_PASS
 
-- [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-radbrook-primary-school) — Insufficient admin/service evidence.
-- [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-meole-brace-church-of-england-primary-school-and-nursery) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-beech-grove-primary-school) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-beech-grove-primary-school-wellington-somerset) — Excluded senior/management title.
 
 ## Safety boundary
 
