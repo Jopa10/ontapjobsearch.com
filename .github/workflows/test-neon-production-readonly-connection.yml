@@ -7,6 +7,7 @@ on:
       - feat/neon-shadow-database
     paths:
       - .github/workflows/test-neon-production-readonly-connection.yml
+      - database/shadow/harness/verify-production-connection-readonly.mjs
 
 permissions:
   contents: read
