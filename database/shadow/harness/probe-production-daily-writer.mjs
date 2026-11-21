@@ -11,7 +11,7 @@ assert.ok(input, 'Production writer secret is unavailable to this workflow');
 
 const url = new URL(input);
 assert.equal(url.hostname, expected.host, 'Unexpected Neon endpoint');
-assert.equal(url.pathname.replace(/^\\//, ''), expected.database, 'Unexpected database');
+assert.equal(url.pathname.slice(1), expected.database, 'Unexpected database');
 assert.equal(decodeURIComponent(url.username), expected.role, 'Unexpected database role');
 assert.ok(['require', 'verify-full'].includes(url.searchParams.get('sslmode')), 'TLS is required');
 url.searchParams.set('sslmode', 'verify-full');
