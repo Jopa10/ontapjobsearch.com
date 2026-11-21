@@ -513,6 +513,39 @@ jobs:
 
           git commit -m "Refresh JobG8 manual review files"
 
+      - name: Push JobG8 commits safely
+        run: |
+          set -euo pipefail
+
+          tracked_changes="$(git status --porcelain --untracked-files=no)"
+          if [ -n "$tracked_changes" ]; then
+            echo "::error::Tracked changes remain after the JobG8 commit steps; refusing to rebase or push."
+            printf '%s\n' "$tracked_changes"
+            exit 1
+          fi
+
+          for attempt in 1 2 3; do
+            echo "JobG8 push attempt $attempt of 3"
+            if ! git pull --rebase --autostash origin main; then
+              echo "::error::Could not safely rebase JobG8 commits onto the latest main branch."
+              exit 1
+            fi
+
+            if git push origin HEAD:main; then
+              echo "JobG8 commits pushed successfully"
+              exit 0
+            fi
+
+            if [ "$attempt" -lt 3 ]; then
+              echo "main moved during push; retrying after 5 seconds"
+              sleep 5
+            fi
+          done
+
+          echo "::error::JobG8 push was rejected after 3 safe rebase attempts."
+          exit 1
+
+
       - name: Store selected jobs in Production Neon shadow tables
         if: github.event_name == 'schedule'
         continue-on-error: true
@@ -528,7 +561,7 @@ jobs:
           cp -a pipeline/output-admin-service/. "$out/outputs/"
           cp -a pipeline/output-support-worker/. "$out/outputs/"
           python - <<'PY'
-          import json,sys
+          import json,sys,os
           from pathlib import Path
           sys.path.insert(0,str(Path('pipeline').resolve()))
           from scripts import publish_verified_pages_live_config as p
@@ -566,39 +599,6 @@ jobs:
           PY
           npm ci --prefix database/shadow/harness --ignore-scripts --no-audit --no-fund
           node database/shadow/harness/write-production-daily-shadow.mjs
-
-      - name: Push JobG8 commits safely
-        run: |
-          set -euo pipefail
-
-          tracked_changes="$(git status --porcelain --untracked-files=no)"
-          if [ -n "$tracked_changes" ]; then
-            echo "::error::Tracked changes remain after the JobG8 commit steps; refusing to rebase or push."
-            printf '%s\n' "$tracked_changes"
-            exit 1
-          fi
-
-          for attempt in 1 2 3; do
-            echo "JobG8 push attempt $attempt of 3"
-            if ! git pull --rebase --autostash origin main; then
-              echo "::error::Could not safely rebase JobG8 commits onto the latest main branch."
-              exit 1
-            fi
-
-            if git push origin HEAD:main; then
-              echo "JobG8 commits pushed successfully"
-              exit 0
-            fi
-
-            if [ "$attempt" -lt 3 ]; then
-              echo "main moved during push; retrying after 5 seconds"
-              sleep 5
-            fi
-          done
-
-          echo "::error::JobG8 push was rejected after 3 safe rebase attempts."
-          exit 1
-
 
       - name: Upload service-admin output
         if: always()
