@@ -1,22 +1,22 @@
 {
   "mode": "website_parity",
-  "purpose": "Preview-only Tuesday 17 November complete Next.js website build from Tuesday's read-back Neon records; compare JobG8 scopes to actual Tuesday production artifacts, preserve existing external-source inputs, and verify routes with noindex.",
-  "archiveDate": "2026-11-17",
-  "productionOutputRunId": 44039319889,
+  "purpose": "Preview-only Saturday 21 November full-site build from Saturday's read-back Neon records; compare against exact Saturday production output artifacts and current production website commit; preserve external-source inputs and verify routes with noindex.",
+  "archiveDate": "2026-11-21",
+  "productionOutputRunId": 44880614175,
   "publishedOutputArtifacts": [
     {
       "name": "service-admin-output",
-      "id": 14311541647,
-      "sha256": "4810e5e48995767e5db4f234b5defde7aaa01907abea56239769d010bcaa6f71"
+      "id": 14700308219,
+      "sha256": "17a9dc979ed24e0baa3489fdbb3607b059ea6c8e6327b5657037ad897bedb769"
     },
     {
       "name": "support-worker-output",
-      "id": 14311691542,
-      "sha256": "09bfd854487b24e2ded737285d26503799b03dba9eb296a9ac5a4802080dd369"
+      "id": 14700288271,
+      "sha256": "bb31ecc80d2f9b6781b406f1050cca025d31004a1bf2559ce8a406f712e7500f"
     }
   ],
-  "attempt": 8,
+  "attempt": 9,
   "storageMode": "compressed_verified_snapshot",
-  "productionAppCommitSha": "dc31cdb5ca846cc29f712700a59f80d807cf4912",
+  "productionAppCommitSha": "9b1fb4dcc2681c593eea677e58be0f79e151f650",
   "compareFinalInventories": true
 }
