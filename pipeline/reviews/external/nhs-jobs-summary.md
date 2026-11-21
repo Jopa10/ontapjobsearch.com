@@ -2,11 +2,11 @@
 
 review_date: 2026-11-21
 
-- Open Administrative & Clerical rows reviewed: 2205
+- Open Administrative & Clerical rows reviewed: 2202
 - Auto/remembered selected: 364
 - Selected HC Tier A: 189
 - Selected HC Tier B: 175
-- POSS awaiting decision: 1746
+- POSS awaiting decision: 1743
 - Excluded: 0
 - HARD_PASS: 95
 
@@ -3458,18 +3458,6 @@ factual_fingerprint: 52d266d609e73978c49fbd0720285393f325b9f6406a4a120dcf319f7fd
 
 ---
 action:
-POSS | NHS Jobs | London | London, SE5 9RS | £31554.00 to £33270.00 | Wellbeing Administrator
-source_job_id: 5739712
-title: Wellbeing Administrator
-employer: King's College Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-00009
-factual_fingerprint: e15a50461266f0a01c483162ca36e6015349965f304cc6a8cc8637ebdef79165
----
-
----
-action:
 POSS | NHS Jobs | Greater Manchester - South | Ashton Under Lyne, OL6 9RW | £25760.00 to £27476.00 | Administrative Support Worker
 source_job_id: 5738303
 title: Administrative Support Worker
@@ -4582,18 +4570,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-2013
 factual_fingerprint: dbbf30709bf2df12024ff17b4a7d2124a57178b186e032b72a550122545e0ed2
----
-
----
-action:
-POSS | NHS Jobs | London | London, NW3 2QG | £38488.00 to £46852.00 | Band 5 CRF Data Manager
-source_job_id: 5737821
-title: Band 5 CRF Data Manager
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-00006
-factual_fingerprint: f7f09d76fb24977b6cbf530c344939aa89ce474e4f045df9963e10bdc971efc5
 ---
 
 ---
@@ -15418,18 +15394,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0156
 factual_fingerprint: 565193dd04d47175bdd7bfe33571c4d69e3c4cb31d7da85acd3e6b742e9c3ced
----
-
----
-action:
-POSS | NHS Jobs | London | London, N15 3TH | £55524.00 to £62652.00 | Lead for Patient Safety Incident Management
-source_job_id: 5719023
-title: Lead for Patient Safety Incident Management
-employer: North London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9455-26-0839
-factual_fingerprint: 92f4e1b3641b194bb6edb838fc7fd157138d2c0f0807f4d7270d435a130e3c49
 ---
 
 ---
