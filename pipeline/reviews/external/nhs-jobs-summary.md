@@ -2,15 +2,27 @@
 
 review_date: 2026-11-21
 
-- Open Administrative & Clerical rows reviewed: 2202
-- Auto/remembered selected: 364
-- Selected HC Tier A: 189
+- Open Administrative & Clerical rows reviewed: 2198
+- Auto/remembered selected: 363
+- Selected HC Tier A: 188
 - Selected HC Tier B: 175
-- POSS awaiting decision: 1743
+- POSS awaiting decision: 1740
 - Excluded: 0
 - HARD_PASS: 95
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Lincolnshire | Lincoln, LN4 4AU | Negotiable | Dispenser
+source_job_id: 5731479
+title: Dispenser
+employer: Billinghay Medical Practice
+region: Lincolnshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1458-26-0003
+factual_fingerprint: 1081ef5069de973b7751d7d7e985779795cec14e1dbaf46985eca96ad5568567
+---
 
 ---
 action:
@@ -254,18 +266,6 @@ factual_fingerprint: 6b9e6b8fe11ecfe5867a78852e85a366b0b96d2f2d92aad0db05f0ad351
 
 ---
 action:
-POSS | NHS Jobs | Bedfordshire | Bedford, MK42 9DJ | £25760.00 to £27476.00 | Pathology Specimen Reception Assistant (Band 3)
-source_job_id: 5743565
-title: Pathology Specimen Reception Assistant (Band 3)
-employer: Bedfordshire Hospitals NHS Foundation Trust
-region: Bedfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-00010
-factual_fingerprint: 0024342f746ad227658ab3448824fcaaba701a98aa6fdae45ecab6eb0b3c61ef
----
-
----
-action:
 POSS | NHS Jobs | London | LONDON, SE1 8SD | £121528.00 to £138529.00 | Divisional Director Of Operations
 source_job_id: 5743551
 title: Divisional Director Of Operations
@@ -382,18 +382,6 @@ region: Bedfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-00017
 factual_fingerprint: f1a22768e013c2bda58bc2d4d2d8d1ce169d89b8dd2efa540595c677405354ca
----
-
----
-action:
-POSS | NHS Jobs | London | Barnet, EN5 3DJ | £30630.00 to £32346.00 | Band 3 Outpatient Front of House Receptionist
-source_job_id: 5743427
-title: Band 3 Outpatient Front of House Receptionist
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-00028
-factual_fingerprint: 7db97530badfdeb2ec6d012089ddc2c20d9a5486c201ae0408af547939f28a5e
 ---
 
 ---
@@ -3178,18 +3166,6 @@ region: Yorkshire - North
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9419-26-00009
 factual_fingerprint: 7b9eec9548eee43107806f688ca60ac18798d6ed864f2c691c188e066b2a86b6
----
-
----
-action:
-POSS | NHS Jobs | Essex | Basildon, SS16 5NL | £25760.00 | (**) Patient Pathway Assistant
-source_job_id: 5739231
-title: (**) Patient Pathway Assistant
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-00024
-factual_fingerprint: 902ce94ce2592667915d92652aee2e90043a28673dd0525fbb778bde3857e4b6
 ---
 
 ---
@@ -8206,18 +8182,6 @@ region: Wiltshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0669-26-0035
 factual_fingerprint: 36c59fb551884cdbea4d207360eef3dac92ec676e91d0bc7258d2c6b423a91db
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Prestwich, Manchester, M25 3BL | £25760.00 to £27476.00 | Team secretary
-source_job_id: 5728368
-title: Team secretary
-employer: Greater Manchester Mental Health NHS Foundation Trust
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-1048
-factual_fingerprint: d5cf975cd22119fc6bb7020487814a9acad700608436e6fad97830c618bee4eb
 ---
 
 ---
