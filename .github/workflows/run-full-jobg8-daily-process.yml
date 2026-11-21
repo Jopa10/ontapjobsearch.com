@@ -634,6 +634,9 @@ jobs:
     continue-on-error: true
     runs-on: ubuntu-latest
     environment: neon-prod-daily-shadow
+    permissions:
+      actions: read
+      contents: read
 
     steps:
       - name: Check out workflow code
