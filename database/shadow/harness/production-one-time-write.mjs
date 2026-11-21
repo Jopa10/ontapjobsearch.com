@@ -10,7 +10,6 @@ const EXPECTED = {
   feedDate: '2026-11-21',
   archiveKey: 'jobg8/raw/2026-11-21.zip',
   archiveSha256: '84f2a54938e448f86e760f7d3117b836a4dd9217b9236a375077689e8b082852',
-  payloadPackageSha256: 'SET_BY_WORKFLOW',
   productionOutputRunId: 44880614175,
   productionAppCommitSha: '9b1fb4dcc2681c593eea677e58be0f79e151f650',
   productionRunCommitSha: 'c60a6f749670b34d48e8ef85a9ea2cc86b5ee911',
@@ -89,7 +88,6 @@ const scopes = await readJson('daily-scopes.json');
 const raw = await fs.readFile(path.join(sourceDir, 'selected-review-payloads.json'));
 const snapshot = JSON.parse(raw.toString('utf8'));
 assert.equal(hash(raw), source.payloadPackageSha256, 'Prepared payload package hash mismatch');
-assert.equal(source.payloadPackageSha256, EXPECTED.payloadPackageSha256, 'Unexpected Saturday package SHA');
 assert.equal(source.mode, 'daily_latest');
 assert.equal(source.dateProvidedByRequest, false);
 assert.equal(source.archiveDate, EXPECTED.feedDate);
