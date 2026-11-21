@@ -225,31 +225,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225759929",
-    "title": "Train Planner",
-    "company": "Ford & Stanley Talentwise - Agency - Permanent",
-    "location": "Swindon",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "25500",
-    "salary_max": "34328",
-    "salary_text": "£25500 - £34328 per year",
-    "posted_date": "",
-    "description": "Train Planner Swindon £25,500 £34,328 Permanent The Opportunity\n\nIf you're looking for an opportunity to play a key role in a growing rail operation while helping shape a newly established planning function, this is the kind of position that offers genuine influence from day one.\n\nAs part of a new regional Service Delivery Centre, you'll join a team responsible for planning and coordinating freight operations across the South region. Bringing together planning, control, and rostering activities under one roof, the new operation is designed to deliver faster decision-making, greater operational oversight, and improved service performance.\n\nThis is more than a traditional planning role. You'll help build the foundation that supports safe, efficient, and reliable freight services while contributing to the development of new processes and ways of working as the function evolves.\n\nYou'll be part of a newly created operation where planning processes, standards, and best practice are still being established, giving you the opportunity to influence how the function develops from the outset. At the same time, you'll gain specialist rail planning expertise within a business investing in growth, operational excellence, and long-term capability.\n\nWhether you have existing rail planning experience or a transferable background in aviation, logistics, manufacturing, transport, or another scheduling-intensive environment, this role offers an excellent opportunity to build a rewarding career within freight operations.\n\nTrain Planner Responsibilities\n\nTrain Planning: Developing safe, compliant, and efficient operational plans that support the successful delivery of freight services across the South region.\n\nTimetabling & Pathing: Constructing workable train paths and schedules that balance customer requirements, network capacity, operational resources, and service commitments.\n\nEngineering Integration: Accounting for possessions, engineering works, access restrictions, and network constraints to ensure plans remain achievable and compliant.\n\nOperational Coordination: Working closely with Control, Rostering, depots, and operational teams to ensure services are planned realistically and can be delivered reliably on the day.\n\nPlan Validation & Compliance: Reviewing and validating plans to ensure accuracy, operational robustness, and adherence to industry and business requirements.\n\nIdeal Train Planner\n\nScheduling & Planning Experience: Experience producing structured schedules, timetables, route plans, or operational programmes within a complex environment.\n\nConstraint-Based Planning: Exposure to planning within resource limitations, engineering restrictions, access windows, or other operational constraints.\n\nSequencing & Problem Solving: Ability to resolve timing conflicts, prioritise competing demands, and develop practical, deliverable plans.\n\nStakeholder Collaboration: Experience working with operational, depot, resource, or delivery teams to coordinate planning activities effectively.\n\nCompliance Awareness: Understanding of structured, regulated, or safety-critical environments where accuracy and adherence to procedures are essential.\n\nTransferable Industry Experience: Relevant backgrounds may include rail, aviation scheduling, logistics planning, bus or tram timetabling, manufacturing production planning, or port and terminal operations.\n\nLocation & Working Arrangements\n\nLocation: Swindon\n\nWorking Pattern: Monday-Friday office-based with flexible start and finish times.\n\nTrain Planner Salary\n\nTraining Salary: £25,500\n\nQualified Salary: £34,328\n\nAbout Ford & Stanley Group\n\nFord & Stanley Talent Services Group are in the business of people and performance. Our mission is to create one million better workdays through facilitating great recruitment, leadership and occupational mental fitness. We support our clients in their most challenging business areas recruiting, developing and retaining the best talent from shop floor to boardroom.\n- Ford & Stanley TalentWise Business specialising in blue collar trade & technical services.\n- Ford & Stanley Recruitment Business specialising in white collar spanning all company functions.\n- Ford & Stanley Executive Search Business specialising in Executive Search & Executive Interim Solutions.\n- Ford & Stanley Genius Performance Performance coaching, training, and mental fitness.\n\nFord & Stanley Talent Services Group Ltd is a Disability Confident employer that is committed to a policy of equal opportunities for all opportunity seekers. We shall adhere to such a policy at all times and will review on an on-going basis all aspects of recruitment to avoid unlawful or undesirable discrimination. We will treat everyone equally irrespective sex, sexual orientation, gender reassignment, marital or civil partnership status, age, disability, colour, race, nationality, ethnic or national origin, religion or belief or political beliefs and we place an obligation upon all staff to respect and act in accordance with the policy.\nRef: Train Planner",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?%2bsiGSA7VT9BUVzCu7fzfmal7r7dn%2fCdId",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Ford & Stanley Talentwise",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2194984",
     "title": "Accounts Assistant",
     "company": "Silcom Recruitment Limited - Agency - Permanent",
@@ -1090,7 +1065,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-3102",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-3102",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5711218",
@@ -1108,7 +1087,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-3072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-3072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5713251",
@@ -1126,6 +1109,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4714",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4714",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

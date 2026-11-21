@@ -2,11 +2,11 @@
 
 review_date: 2026-11-21
 
-- Open Administrative & Clerical rows reviewed: 2198
+- Open Administrative & Clerical rows reviewed: 2197
 - Auto/remembered selected: 363
 - Selected HC Tier A: 188
 - Selected HC Tier B: 175
-- POSS awaiting decision: 1740
+- POSS awaiting decision: 1739
 - Excluded: 0
 - HARD_PASS: 95
 
@@ -6598,18 +6598,6 @@ region: West Midlands - Birmingham & Solihull
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-00000
 factual_fingerprint: 42ae438ea25aeb0f70008d8c6ac20247e60f9571a1aae7df4e696fe810554794
----
-
----
-action:
-POSS | NHS Jobs | Oxfordshire | Oxford, OX3 7LE | £28392.00 to £31157.00 | Pathway Co-ordinator
-source_job_id: 5734272
-title: Pathway Co-ordinator
-employer: Oxford University Hospitals NHS Foundation Trust
-region: Oxfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-2186
-factual_fingerprint: 0ba27443a62bc3fb93c08396cc701e7184dab32a5e4a2a6fd72849c769824f6e
 ---
 
 ---
