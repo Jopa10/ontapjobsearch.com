@@ -513,6 +513,60 @@ jobs:
 
           git commit -m "Refresh JobG8 manual review files"
 
+      - name: Store selected jobs in Production Neon shadow tables
+        if: github.event_name == 'schedule'
+        continue-on-error: true
+        env:
+          ONTAP_NEON_PROD_DAILY_WRITE_URL: ${{ secrets.ONTAP_NEON_PROD_DAILY_WRITE_URL }}
+          ONTAP_PROD_SOURCE_DIR: ${{ runner.temp }}/ontap-prod-daily
+          ONTAP_PROD_REPORT_PATH: ${{ runner.temp }}/ontap-prod-daily-report.json
+        run: |
+          set -euo pipefail
+          feed_date="$(TZ=Europe/London date +%F)"
+          out="$RUNNER_TEMP/ontap-prod-daily"
+          mkdir -p "$out/outputs"
+          cp -a pipeline/output-admin-service/. "$out/outputs/"
+          cp -a pipeline/output-support-worker/. "$out/outputs/"
+          python - <<'PY'
+          import json,sys
+          from pathlib import Path
+          sys.path.insert(0,str(Path('pipeline').resolve()))
+          from scripts import publish_verified_pages_live_config as p
+          scopes=[]
+          for mapping in p.core.MAPPINGS:
+              rows=json.loads(Path(mapping.source).read_text(encoding='utf-8-sig'))
+              ids=[str(r['job_id']) for r in rows if r.get('source')=='JobG8']
+              scopes.append({'scope':mapping.category+':'+mapping.region,'jobg8Ids':ids})
+          Path(Path(__import__('os').environ['ONTAP_PROD_SOURCE_DIR'])/'daily-scopes.json').write_text(json.dumps(scopes,separators=(',',':'))+'\\n')
+          print('Prepared ordered Production JobG8 scopes:',len(scopes))
+          PY
+          python database/shadow/prepare_selected_review_payloads.py \
+            --archive "$RUNNER_TEMP/jobg8.zip" \
+            --outputs "$out/outputs" \
+            --reviews pipeline/reviews/jobg8 \
+            --date "$feed_date" \
+            --production-run-id "$GITHUB_RUN_ID" \
+            --production-run-commit "$GITHUB_SHA" \
+            --app-commit "$(git rev-parse HEAD)" \
+            --output "$out/selected-review-payloads.json"
+          python - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          root=Path(os.environ['ONTAP_PROD_SOURCE_DIR'])
+          raw=(root/'selected-review-payloads.json').read_bytes()
+          snapshot=json.loads(raw)
+          source={'mode':'daily_latest','dateProvidedByRequest':False,'archiveDate':snapshot['feedDate'],
+            'archiveKey':snapshot['archiveKey'],'archiveSha256':snapshot['archiveSha256'],
+            'productionOutputRunId':snapshot['productionWorkflowRunId'],
+            'productionAppCommitSha':snapshot['productionAppCommit'],
+            'productionRunCommitSha':snapshot['productionRunCommit'],
+            'payloadPackageSha256':hashlib.sha256(raw).hexdigest(),
+            'archiveOrigin':{'kind':'same-run JobG8 source archive'}}
+          (root/'daily-source.json').write_text(json.dumps(source,separators=(',',':'))+'\\n')
+          PY
+          npm ci --prefix database/shadow/harness --ignore-scripts --no-audit --no-fund
+          node database/shadow/harness/write-production-daily-shadow.mjs
+
       - name: Push JobG8 commits safely
         run: |
           set -euo pipefail
@@ -563,5 +617,14 @@ jobs:
           path: pipeline/output-support-worker/
           if-no-files-found: warn
           retention-days: 7
+
+      - name: Upload Production Neon shadow write receipt
+        if: always() && github.event_name == 'schedule'
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-neon-daily-shadow-${{ github.run_id }}
+          path: ${{ runner.temp }}/ontap-prod-daily-report.json
+          if-no-files-found: ignore
+          retention-days: 30
 
 
