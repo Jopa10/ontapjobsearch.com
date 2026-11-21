@@ -299,7 +299,11 @@ try {
     try { await client.query('ROLLBACK'); } catch {}
   }
   if (!report) {
-    report = {status:'failed',failureStage,writesCommitted:committed,productionChanged:committed,cleanupPerformed:false,liveSiteSwitched:false};
+    const safeMessage = String(error?.message || 'preflight_or_comparison_failed')
+      .replaceAll(connectionString, '[connection redacted]')
+      .replaceAll(decodeURIComponent(new URL(connectionString).password), '[password redacted]')
+      .slice(0, 300);
+    report = {status:'failed',failureStage,failureMessage:safeMessage,writesCommitted:committed,productionChanged:committed,cleanupPerformed:false,liveSiteSwitched:false};
   }
   if (process.env.ONTAP_PROD_REPORT_PATH) {
     try {
@@ -307,7 +311,7 @@ try {
       await fs.writeFile(process.env.ONTAP_PROD_REPORT_PATH, safeReport({...report,failureCode:error?.code||'preflight_or_comparison_failed'}));
     } catch {}
   }
-  console.error('ONTAP_PROD_NEON_ONE_TIME_WRITE_FAILED', error?.code || 'preflight_or_comparison_failed');
+  console.error('ONTAP_PROD_NEON_ONE_TIME_WRITE_FAILED', error?.code || 'preflight_or_comparison_failed', failureStage);
   process.exitCode = 1;
 } finally {
   if (connected) { try { await client.end(); } catch {} }
