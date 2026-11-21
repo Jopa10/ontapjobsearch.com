@@ -570,7 +570,7 @@ jobs:
               rows=json.loads(Path(mapping.source).read_text(encoding='utf-8-sig'))
               ids=[str(r['job_id']) for r in rows if r.get('source')=='JobG8']
               scopes.append({'scope':mapping.category+':'+mapping.region,'jobg8Ids':ids})
-          Path(os.environ['ONTAP_PROD_SOURCE_DIR'])/'daily-scopes.json'.write_text(json.dumps(scopes,separators=(',',':'))+'\n')
+          (Path(os.environ['ONTAP_PROD_SOURCE_DIR'])/'daily-scopes.json').write_text(json.dumps(scopes,separators=(',',':'))+'\n')
           print('Prepared ordered Production JobG8 scopes:',len(scopes))
           PY
           python database/shadow/prepare_selected_review_payloads.py \
