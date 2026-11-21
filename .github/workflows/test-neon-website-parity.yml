@@ -39,10 +39,12 @@ jobs:
           a=x['publishedOutputArtifacts']
           assert len(a)==2 and {z['name'] for z in a}=={'service-admin-output','support-worker-output'}
           assert all(isinstance(z['id'],int) and re.fullmatch(r'[a-f0-9]{64}',z['sha256']) for z in a)
+          assert re.fullmatch(r'[a-f0-9]{40}',x['productionAppCommitSha'])
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
             f.write('date='+x['archiveDate']+'\n')
             f.write('run_id='+str(x['productionOutputRunId'])+'\n')
             f.write('artifact_ids='+','.join(str(z['id']) for z in a)+'\n')
+            f.write('site_sha='+x['productionAppCommitSha']+'\n')
           PY
       - name: Download exact completed publication outputs (no selector rerun)
         uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
@@ -52,10 +54,10 @@ jobs:
           github-token: ${{ github.token }}
           path: ${{ runner.temp }}/published
           merge-multiple: true
-      - name: Checkout Tuesday production website and publishing code
+      - name: Checkout exact current production website and publishing code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
-          ref: dc31cdb5ca846cc29f712700a59f80d807cf4912
+          ref: ${{ steps.source.outputs.site_sha }}
           path: production-site
           persist-credentials: false
       - name: Install existing publisher Python dependency
