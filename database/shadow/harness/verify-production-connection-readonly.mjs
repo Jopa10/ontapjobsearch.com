@@ -80,6 +80,7 @@ if (!connectionString) {
         status: 'passed',
         projectLabel: 'ontap-production (connection supplied from this Neon project)',
         databaseName: identity.database_name,
+        endpointHost: url.hostname,
         roleName: identity.role_name,
         tls: true,
         roleIsNonPrivileged: true,
