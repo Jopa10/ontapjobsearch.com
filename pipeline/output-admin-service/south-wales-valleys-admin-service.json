@@ -175,6 +175,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225856933",
+    "title": "Office Administrator",
+    "company": "Fawkes & Reece London - Agency - Temporary",
+    "location": "Pontyclun",
+    "region": "Wales South - Valleys",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.25",
+    "salary_max": "13.35",
+    "salary_text": "£13.25 - £13.35 per hour",
+    "posted_date": "",
+    "description": "About the Role\n\nWe are looking for an organised, proactive and reliable Office Administrator to join our busy residential head office team.\n\nThis is an office-based role supporting the smooth day-to-day running of our residential operations. The successful candidate will provide essential administrative support to the wider team, ensuring records are maintained accurately, enquiries are dealt with professionally and office processes run efficiently.\n\nKey Responsibilities\n- Providing general administrative support to the residential head office team.\n- Answering telephone calls, responding to emails and directing enquiries appropriately.\n- Maintaining accurate records, filing systems and databases.\n- Supporting with document preparation, letters and correspondence.\n- Assisting with resident-related administration and maintaining confidential records.\n- Processing paperwork and updating internal systems.\n- Supporting managers and other departments with day-to-day administrative tasks.\n- Organising meetings, appointments and general office duties.\n- Ensuring all administration is completed accurately and within required timescales.\n\nAbout You\n\nWe are looking for someone who:\n- Has previous administration or office experience.\n- Has excellent organisational and time-management skills.\n- Is confident using Microsoft Office, including Word, Excel and Outlook.\n- Has excellent written and verbal communication skills.\n- Is professional, approachable and able to work as part of a team.\n- Has a good eye for detail and takes pride in producing accurate work.\n- Can manage competing priorities and work to deadlines.\n- Understands the importance of confidentiality and discretion.\n\nExperience within residential care, housing or a similar environment would be advantageous but is not essential.\n\nWhat We Offer\n- A friendly and supportive head office environment.\n- Opportunities to develop your administrative skills.\n- Ongoing training and support.\n- The opportunity to be part of a team making a positive difference within residential services.\n\nHow to Apply\n\nIf you are an organised and enthusiastic administrator looking for your next opportunity, we would love to hear from you.\n\nPlease submit your CV along with a brief covering statement explaining why you would be suitable for the role.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eW9k8KgTdhOKyufDJziCGEwQqtMBlkqzj",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Fawkes & Reece London",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225779038",
     "title": "HR Assistant",
     "company": "Adecco - Agency - Contract",
@@ -215,7 +240,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0044-26-0356",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0044-26-0356",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5730785",
@@ -233,6 +262,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5821-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5821-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
