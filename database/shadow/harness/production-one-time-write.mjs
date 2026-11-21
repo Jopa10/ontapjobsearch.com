@@ -117,11 +117,12 @@ let connected = false;
 let transaction = false;
 let committed = false;
 let report;
-let failureStage = 'database connection and identity checks';
+let failureStage = 'connecting to Neon';
 
 try {
   await client.connect();
   connected = true;
+  failureStage = 'checking database identity and TLS';
   const identity = (await client.query(
     'SELECT current_database() AS database_name,current_user AS role_name,pg_database_size(current_database())::text AS database_bytes,(SELECT ssl FROM pg_stat_ssl WHERE pid=pg_backend_pid()) AS tls'
   )).rows[0];
@@ -129,6 +130,7 @@ try {
   assert.equal(identity.role_name, EXPECTED.role);
   assert.equal(identity.tls, true, 'TLS is not active');
 
+  failureStage = 'checking writer role attributes';
   const role = (await client.query(
     'SELECT rolsuper,rolcreatedb,rolcreaterole,rolreplication FROM pg_roles WHERE rolname=current_user'
   )).rows[0];
@@ -137,6 +139,7 @@ try {
   assert.equal(role.rolcreatedb, false);
   assert.equal(role.rolcreaterole, false);
   assert.equal(role.rolreplication, false);
+  failureStage = 'checking database create privilege';
   const canCreate = (await client.query(
     "SELECT has_database_privilege(current_user,current_database(),'CREATE') AS can_create"
   )).rows[0].can_create;
