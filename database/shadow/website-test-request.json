@@ -1,6 +1,6 @@
 {
   "mode": "website_parity",
-  "purpose": "Preview-only Saturday 21 November full-site build from Saturday's read-back Neon records; compare against exact Saturday production output artifacts and current production website commit; preserve external-source inputs and verify routes with noindex.",
+  "purpose": "Preview-only rerun after PR conflict resolution at branch head 690eb07526e6a261ffca3d626e3fef5cc9f78c80; reuse Saturday 21 November read-back Neon records and exact Saturday production output artifacts; verify full-site membership, order, Apply links and noindex routes.",
   "archiveDate": "2026-11-21",
   "productionOutputRunId": 44880614175,
   "publishedOutputArtifacts": [
@@ -15,7 +15,7 @@
       "sha256": "bb31ecc80d2f9b6781b406f1050cca025d31004a1bf2559ce8a406f712e7500f"
     }
   ],
-  "attempt": 9,
+  "attempt": 10,
   "storageMode": "compressed_verified_snapshot",
   "productionAppCommitSha": "9b1fb4dcc2681c593eea677e58be0f79e151f650",
   "compareFinalInventories": true
