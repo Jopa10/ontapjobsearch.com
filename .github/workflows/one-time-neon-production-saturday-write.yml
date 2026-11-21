@@ -24,8 +24,6 @@ jobs:
       id-token: write
     env:
       ONTAP_NEON_PROD_ONCE_WRITE_URL: ${{ secrets.ONTAP_NEON_PROD_ONCE_WRITE_URL }}
-      ONTAP_PROD_SOURCE_DIR: ${{ runner.temp }}/ontap-prod-source
-      ONTAP_PROD_REPORT_PATH: ${{ runner.temp }}/ontap-prod-report.json
     steps:
       - name: Check out the guarded feature branch
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
@@ -160,6 +158,9 @@ jobs:
         run: npm ci --prefix database/shadow/harness --ignore-scripts --no-audit --no-fund
 
       - name: Apply schema once, write Saturday publication and compare full readback
+        env:
+          ONTAP_PROD_SOURCE_DIR: ${{ runner.temp }}/ontap-prod-source
+          ONTAP_PROD_REPORT_PATH: ${{ runner.temp }}/ontap-prod-report.json
         run: node database/shadow/harness/production-one-time-write.mjs
 
       - name: Save sanitized Production write report
