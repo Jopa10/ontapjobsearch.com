@@ -1,5 +1,10 @@
 name: One-time Neon Production Saturday write
 on:
+  push:
+    branches:
+      - feat/neon-shadow-database
+    paths:
+      - .github/workflows/one-time-neon-production-saturday-write.yml
   workflow_dispatch:
     inputs:
       confirm:
@@ -14,7 +19,12 @@ concurrency:
   cancel-in-progress: false
 jobs:
   write-saturday:
-    if: github.ref == 'refs/heads/feat/neon-shadow-database' && inputs.confirm == 'write-saturday-2026-11-21'
+    if: >-
+      github.ref == 'refs/heads/feat/neon-shadow-database' &&
+      (
+        (github.event_name == 'workflow_dispatch' && github.event.inputs.confirm == 'write-saturday-2026-11-21') ||
+        (github.event_name == 'push' && github.event.before == 'DISABLED_PENDING_AUTHORIZATION' && github.event.head_commit.message == 'ONETIME_PROD_NEON_SAT_2026-11-21')
+      )
     runs-on: ubuntu-latest
     timeout-minutes: 30
     environment: neon-prod-one-time-write
